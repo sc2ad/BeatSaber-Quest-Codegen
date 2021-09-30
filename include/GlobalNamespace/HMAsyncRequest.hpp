@@ -27,6 +27,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::HMAsyncRequest::CancelHander
     class CancelHander;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean _cancelled
     // Size: 0x1
     // Offset: 0x18
@@ -41,6 +46,7 @@ namespace GlobalNamespace {
     GlobalNamespace::HMAsyncRequest::CancelHander* cancelHander;
     // Field size check
     static_assert(sizeof(GlobalNamespace::HMAsyncRequest::CancelHander*) == 0x8);
+    public:
     // Deleting conversion operator: operator uint64_t
     constexpr operator uint64_t() const noexcept = delete;
     // Get instance field reference: private System.Boolean _cancelled

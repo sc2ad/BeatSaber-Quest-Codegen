@@ -40,6 +40,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::OculusMRCManager::$$c__DisplayClass1_0
     class $$c__DisplayClass1_0;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xEC9CE0
     // private IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
@@ -47,6 +52,7 @@ namespace GlobalNamespace {
     GlobalNamespace::IVRPlatformHelper* vrPlatformHelper;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IVRPlatformHelper*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private IVRPlatformHelper _vrPlatformHelper

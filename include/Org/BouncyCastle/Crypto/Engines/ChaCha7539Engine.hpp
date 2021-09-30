@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: Org.BouncyCastle.Crypto.Engines
 namespace Org::BouncyCastle::Crypto::Engines {
@@ -54,12 +55,12 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Offset: 0x1FCC058
     // Implemented from: Org.BouncyCastle.Crypto.Engines.Salsa20Engine
     // Base method: System.Void Salsa20Engine::SetKey(System.Byte[] keyBytes, System.Byte[] ivBytes)
-    void SetKey(::ArrayWrapper<uint8_t> keyBytes, ::ArrayWrapper<uint8_t> ivBytes);
+    void SetKey(::ArrayW<uint8_t> keyBytes, ::ArrayW<uint8_t> ivBytes);
     // protected override System.Void GenerateKeyStream(System.Byte[] output)
     // Offset: 0x1FCC170
     // Implemented from: Org.BouncyCastle.Crypto.Engines.Salsa20Engine
     // Base method: System.Void Salsa20Engine::GenerateKeyStream(System.Byte[] output)
-    void GenerateKeyStream(::ArrayWrapper<uint8_t> output);
+    void GenerateKeyStream(::ArrayW<uint8_t> output);
   }; // Org.BouncyCastle.Crypto.Engines.ChaCha7539Engine
   #pragma pack(pop)
 }
@@ -104,7 +105,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine::SetKey
 // Il2CppName: SetKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine::*)(::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine::SetKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine::*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(&Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine::SetKey)> {
   static const MethodInfo* get() {
     static auto* keyBytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* ivBytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -114,7 +115,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine::GenerateKeyStream
 // Il2CppName: GenerateKeyStream
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine::*)(::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine::GenerateKeyStream)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine::*)(::ArrayW<uint8_t>)>(&Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine::GenerateKeyStream)> {
   static const MethodInfo* get() {
     static auto* output = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine*), "GenerateKeyStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{output});

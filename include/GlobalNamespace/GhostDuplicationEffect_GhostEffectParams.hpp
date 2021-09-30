@@ -30,6 +30,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct GhostDuplicationEffect::GhostEffectParams/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Single startAlpha
     // Size: 0x4
     // Offset: 0x0
@@ -104,6 +109,7 @@ namespace GlobalNamespace {
     bool lastPhase;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating value type constructor for type: GhostEffectParams
     constexpr GhostEffectParams(float startAlpha_ = {}, UnityEngine::Vector3 startPosition_ = {}, float startSize_ = {}, float endAlpha_ = {}, UnityEngine::Vector3 endPosition_ = {}, float endSize_ = {}, float duration_ = {}, float delay_ = {}, Tweening::EaseType easeType_ = {}, UnityEngine::AnimationCurve* distanceCurve_ = {}, float peakDistance_ = {}, bool lastPhase_ = {}) noexcept : startAlpha{startAlpha_}, startPosition{startPosition_}, startSize{startSize_}, endAlpha{endAlpha_}, endPosition{endPosition_}, endSize{endSize_}, duration{duration_}, delay{delay_}, easeType{easeType_}, distanceCurve{distanceCurve_}, peakDistance{peakDistance_}, lastPhase{lastPhase_} {}
     // Creating interface conversion operator: operator System::ValueType

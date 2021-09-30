@@ -22,12 +22,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class CameraDepthTextureMode : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.DepthTextureMode _depthTextureMode
     // Size: 0x4
     // Offset: 0x18
     UnityEngine::DepthTextureMode depthTextureMode;
     // Field size check
     static_assert(sizeof(UnityEngine::DepthTextureMode) == 0x4);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.DepthTextureMode _depthTextureMode

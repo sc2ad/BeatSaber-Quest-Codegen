@@ -43,6 +43,11 @@ namespace GlobalNamespace {
     // [IsReadOnlyAttribute] Offset: FFFFFFFF
     struct SynchronizedAction/*, public System::ValueType*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public readonly System.Single time
       // Size: 0x4
       // Offset: 0x0
@@ -57,6 +62,7 @@ namespace GlobalNamespace {
       System::Action* action;
       // Field size check
       static_assert(sizeof(System::Action*) == 0x8);
+      public:
       // Creating value type constructor for type: SynchronizedAction
       constexpr SynchronizedAction(float time_ = {}, System::Action* action_ = {}) noexcept : time{time_}, action{action_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -74,12 +80,18 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(SynchronizedActionQueue::SynchronizedAction), 8 + sizeof(System::Action*)> __GlobalNamespace_SynchronizedActionQueue_SynchronizedActionSizeCheck;
     static_assert(sizeof(SynchronizedActionQueue::SynchronizedAction) == 0x10);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Collections.Generic.List`1<SynchronizedActionQueue/SynchronizedAction> _synchronizedActionQueue
     // Size: 0x8
     // Offset: 0x10
     System::Collections::Generic::List_1<GlobalNamespace::SynchronizedActionQueue::SynchronizedAction>* synchronizedActionQueue;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::SynchronizedActionQueue::SynchronizedAction>*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Collections::Generic::List_1<GlobalNamespace::SynchronizedActionQueue::SynchronizedAction>*
     constexpr operator System::Collections::Generic::List_1<GlobalNamespace::SynchronizedActionQueue::SynchronizedAction>*() const noexcept {
       return synchronizedActionQueue;

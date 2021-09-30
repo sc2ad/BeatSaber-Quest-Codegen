@@ -39,12 +39,18 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct ControllerType/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: ControllerType
       constexpr ControllerType(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -79,6 +85,11 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(OVRControllerHelper::ControllerType), 0 + sizeof(int)> __GlobalNamespace_OVRControllerHelper_ControllerTypeSizeCheck;
     static_assert(sizeof(OVRControllerHelper::ControllerType) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.GameObject m_modelOculusTouchQuestAndRiftSLeftController
     // Size: 0x8
     // Offset: 0x18
@@ -147,6 +158,7 @@ namespace GlobalNamespace {
     bool m_prevControllerConnectedCached;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public UnityEngine.GameObject m_modelOculusTouchQuestAndRiftSLeftController

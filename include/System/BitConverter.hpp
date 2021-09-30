@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: System
 namespace System {
@@ -26,55 +27,55 @@ namespace System {
     static bool AmILittleEndian();
     // static public System.Byte[] GetBytes(System.Int16 value)
     // Offset: 0x198FFB8
-    static ::ArrayWrapper<uint8_t> GetBytes(int16_t value);
+    static ::ArrayW<uint8_t> GetBytes(int16_t value);
     // static public System.Byte[] GetBytes(System.Int32 value)
     // Offset: 0x199002C
-    static ::ArrayWrapper<uint8_t> GetBytes(int value);
+    static ::ArrayW<uint8_t> GetBytes(int value);
     // static public System.Byte[] GetBytes(System.Int64 value)
     // Offset: 0x19900A0
-    static ::ArrayWrapper<uint8_t> GetBytes(int64_t value);
+    static ::ArrayW<uint8_t> GetBytes(int64_t value);
     // static public System.Byte[] GetBytes(System.UInt16 value)
     // Offset: 0x1990114
-    static ::ArrayWrapper<uint8_t> GetBytes(uint16_t value);
+    static ::ArrayW<uint8_t> GetBytes(uint16_t value);
     // static public System.Byte[] GetBytes(System.UInt32 value)
     // Offset: 0x1990178
-    static ::ArrayWrapper<uint8_t> GetBytes(uint value);
+    static ::ArrayW<uint8_t> GetBytes(uint value);
     // static public System.Char ToChar(System.Byte[] value, System.Int32 startIndex)
     // Offset: 0x19901DC
-    static ::Il2CppChar ToChar(::ArrayWrapper<uint8_t> value, int startIndex);
+    static ::Il2CppChar ToChar(::ArrayW<uint8_t> value, int startIndex);
     // static public System.Int16 ToInt16(System.Byte[] value, System.Int32 startIndex)
     // Offset: 0x19902A0
-    static int16_t ToInt16(::ArrayWrapper<uint8_t> value, int startIndex);
+    static int16_t ToInt16(::ArrayW<uint8_t> value, int startIndex);
     // static public System.Int32 ToInt32(System.Byte[] value, System.Int32 startIndex)
     // Offset: 0x19903B0
-    static int ToInt32(::ArrayWrapper<uint8_t> value, int startIndex);
+    static int ToInt32(::ArrayW<uint8_t> value, int startIndex);
     // static public System.Int64 ToInt64(System.Byte[] value, System.Int32 startIndex)
     // Offset: 0x19904DC
-    static int64_t ToInt64(::ArrayWrapper<uint8_t> value, int startIndex);
+    static int64_t ToInt64(::ArrayW<uint8_t> value, int startIndex);
     // static public System.UInt16 ToUInt16(System.Byte[] value, System.Int32 startIndex)
     // Offset: 0x1990634
-    static uint16_t ToUInt16(::ArrayWrapper<uint8_t> value, int startIndex);
+    static uint16_t ToUInt16(::ArrayW<uint8_t> value, int startIndex);
     // static public System.UInt32 ToUInt32(System.Byte[] value, System.Int32 startIndex)
     // Offset: 0x19906F8
-    static uint ToUInt32(::ArrayWrapper<uint8_t> value, int startIndex);
+    static uint ToUInt32(::ArrayW<uint8_t> value, int startIndex);
     // static public System.UInt64 ToUInt64(System.Byte[] value, System.Int32 startIndex)
     // Offset: 0x19907BC
-    static uint64_t ToUInt64(::ArrayWrapper<uint8_t> value, int startIndex);
+    static uint64_t ToUInt64(::ArrayW<uint8_t> value, int startIndex);
     // static public System.Single ToSingle(System.Byte[] value, System.Int32 startIndex)
     // Offset: 0x1990880
-    static float ToSingle(::ArrayWrapper<uint8_t> value, int startIndex);
+    static float ToSingle(::ArrayW<uint8_t> value, int startIndex);
     // static public System.Double ToDouble(System.Byte[] value, System.Int32 startIndex)
     // Offset: 0x199094C
-    static double ToDouble(::ArrayWrapper<uint8_t> value, int startIndex);
+    static double ToDouble(::ArrayW<uint8_t> value, int startIndex);
     // static private System.Char GetHexValue(System.Int32 i)
     // Offset: 0x1990A18
     static ::Il2CppChar GetHexValue(int i);
     // static public System.String ToString(System.Byte[] value, System.Int32 startIndex, System.Int32 length)
     // Offset: 0x1990A30
-    static ::Il2CppString* ToString(::ArrayWrapper<uint8_t> value, int startIndex, int length);
+    static ::Il2CppString* ToString(::ArrayW<uint8_t> value, int startIndex, int length);
     // static public System.String ToString(System.Byte[] value)
     // Offset: 0x1990D9C
-    static ::Il2CppString* ToString(::ArrayWrapper<uint8_t> value);
+    static ::Il2CppString* ToString(::ArrayW<uint8_t> value);
     // static public System.Int64 DoubleToInt64Bits(System.Double value)
     // Offset: 0x1990E44
     static int64_t DoubleToInt64Bits(double value);
@@ -106,7 +107,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 // Writing MetadataGetter for method: System::BitConverter::GetBytes
 // Il2CppName: GetBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(int16_t)>(&System::BitConverter::GetBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(int16_t)>(&System::BitConverter::GetBytes)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int16")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::BitConverter*), "GetBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -115,7 +116,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: System::BitConverter::GetBytes
 // Il2CppName: GetBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(int)>(&System::BitConverter::GetBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(int)>(&System::BitConverter::GetBytes)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::BitConverter*), "GetBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -124,7 +125,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: System::BitConverter::GetBytes
 // Il2CppName: GetBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(int64_t)>(&System::BitConverter::GetBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(int64_t)>(&System::BitConverter::GetBytes)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::BitConverter*), "GetBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -133,7 +134,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: System::BitConverter::GetBytes
 // Il2CppName: GetBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(uint16_t)>(&System::BitConverter::GetBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(uint16_t)>(&System::BitConverter::GetBytes)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "UInt16")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::BitConverter*), "GetBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -142,7 +143,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: System::BitConverter::GetBytes
 // Il2CppName: GetBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(uint)>(&System::BitConverter::GetBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(uint)>(&System::BitConverter::GetBytes)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::BitConverter*), "GetBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -151,7 +152,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: System::BitConverter::ToChar
 // Il2CppName: ToChar
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (*)(::ArrayWrapper<uint8_t>, int)>(&System::BitConverter::ToChar)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (*)(::ArrayW<uint8_t>, int)>(&System::BitConverter::ToChar)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -161,7 +162,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppCha
 // Writing MetadataGetter for method: System::BitConverter::ToInt16
 // Il2CppName: ToInt16
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(::ArrayWrapper<uint8_t>, int)>(&System::BitConverter::ToInt16)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(::ArrayW<uint8_t>, int)>(&System::BitConverter::ToInt16)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -171,7 +172,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)
 // Writing MetadataGetter for method: System::BitConverter::ToInt32
 // Il2CppName: ToInt32
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayWrapper<uint8_t>, int)>(&System::BitConverter::ToInt32)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayW<uint8_t>, int)>(&System::BitConverter::ToInt32)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -181,7 +182,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::A
 // Writing MetadataGetter for method: System::BitConverter::ToInt64
 // Il2CppName: ToInt64
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::ArrayWrapper<uint8_t>, int)>(&System::BitConverter::ToInt64)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::ArrayW<uint8_t>, int)>(&System::BitConverter::ToInt64)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -191,7 +192,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)
 // Writing MetadataGetter for method: System::BitConverter::ToUInt16
 // Il2CppName: ToUInt16
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (*)(::ArrayWrapper<uint8_t>, int)>(&System::BitConverter::ToUInt16)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (*)(::ArrayW<uint8_t>, int)>(&System::BitConverter::ToUInt16)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -201,7 +202,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (*
 // Writing MetadataGetter for method: System::BitConverter::ToUInt32
 // Il2CppName: ToUInt32
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::ArrayWrapper<uint8_t>, int)>(&System::BitConverter::ToUInt32)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::ArrayW<uint8_t>, int)>(&System::BitConverter::ToUInt32)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -211,7 +212,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::
 // Writing MetadataGetter for method: System::BitConverter::ToUInt64
 // Il2CppName: ToUInt64
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::ArrayWrapper<uint8_t>, int)>(&System::BitConverter::ToUInt64)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::ArrayW<uint8_t>, int)>(&System::BitConverter::ToUInt64)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -221,7 +222,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: System::BitConverter::ToSingle
 // Il2CppName: ToSingle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(::ArrayWrapper<uint8_t>, int)>(&System::BitConverter::ToSingle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(::ArrayW<uint8_t>, int)>(&System::BitConverter::ToSingle)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -231,7 +232,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(:
 // Writing MetadataGetter for method: System::BitConverter::ToDouble
 // Il2CppName: ToDouble
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(::ArrayWrapper<uint8_t>, int)>(&System::BitConverter::ToDouble)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (*)(::ArrayW<uint8_t>, int)>(&System::BitConverter::ToDouble)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -250,7 +251,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppCha
 // Writing MetadataGetter for method: System::BitConverter::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::ArrayWrapper<uint8_t>, int, int)>(&System::BitConverter::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::ArrayW<uint8_t>, int, int)>(&System::BitConverter::ToString)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -261,7 +262,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::BitConverter::ToString
 // Il2CppName: ToString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::ArrayWrapper<uint8_t>)>(&System::BitConverter::ToString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::ArrayW<uint8_t>)>(&System::BitConverter::ToString)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::BitConverter*), "ToString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

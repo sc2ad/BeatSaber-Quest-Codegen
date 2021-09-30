@@ -23,12 +23,18 @@ namespace System::Runtime::CompilerServices {
   // [AttributeUsageAttribute] Offset: E60450
   class DefaultDependencyAttribute : public System::Attribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Runtime.CompilerServices.LoadHint loadHint
     // Size: 0x4
     // Offset: 0x10
     System::Runtime::CompilerServices::LoadHint loadHint;
     // Field size check
     static_assert(sizeof(System::Runtime::CompilerServices::LoadHint) == 0x4);
+    public:
     // Creating conversion operator: operator System::Runtime::CompilerServices::LoadHint
     constexpr operator System::Runtime::CompilerServices::LoadHint() const noexcept {
       return loadHint;

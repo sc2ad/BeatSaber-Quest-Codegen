@@ -26,6 +26,11 @@ namespace System::Resources {
   // [TokenAttribute] Offset: FFFFFFFF
   struct ResourceLocator/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Object _value
     // Size: 0x8
     // Offset: 0x0
@@ -38,6 +43,7 @@ namespace System::Resources {
     int dataPos;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: ResourceLocator
     constexpr ResourceLocator(::Il2CppObject* value_ = {}, int dataPos_ = {}) noexcept : value{value_}, dataPos{dataPos_} {}
     // Creating interface conversion operator: operator System::ValueType

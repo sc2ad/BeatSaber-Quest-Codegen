@@ -35,6 +35,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerCenterResizeController : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Single _platformWidth
     // Size: 0x4
     // Offset: 0x18
@@ -70,6 +75,7 @@ namespace GlobalNamespace {
     float edgeDistanceFromCenter;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single _platformWidth

@@ -29,6 +29,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ShowTextOnGameEventController::EventTextBinding : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Signal _signal
     // Size: 0x8
     // Offset: 0x10
@@ -48,6 +53,7 @@ namespace GlobalNamespace {
     GlobalNamespace::TextFadeTransitions* textFadeTransitions;
     // Field size check
     static_assert(sizeof(GlobalNamespace::TextFadeTransitions*) == 0x8);
+    public:
     // Get instance field reference: private Signal _signal
     GlobalNamespace::Signal*& dyn__signal();
     // Get instance field reference: private System.String _text

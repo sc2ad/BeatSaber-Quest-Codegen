@@ -39,6 +39,11 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct RuntimeBuildLog/*, public System::ValueType*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public UnityEngine.LogType Type
       // Size: 0x4
       // Offset: 0x0
@@ -53,6 +58,7 @@ namespace GlobalNamespace {
       ::Il2CppString* Message;
       // Field size check
       static_assert(sizeof(::Il2CppString*) == 0x8);
+      public:
       // Creating value type constructor for type: RuntimeBuildLog
       constexpr RuntimeBuildLog(UnityEngine::LogType Type_ = {}, ::Il2CppString* Message_ = {}) noexcept : Type{Type_}, Message{Message_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -70,12 +76,18 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(PackedPlayModeBuildLogs::RuntimeBuildLog), 8 + sizeof(::Il2CppString*)> __GlobalNamespace_PackedPlayModeBuildLogs_RuntimeBuildLogSizeCheck;
     static_assert(sizeof(PackedPlayModeBuildLogs::RuntimeBuildLog) == 0x10);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.List`1<PackedPlayModeBuildLogs/RuntimeBuildLog> m_RuntimeBuildLogs
     // Size: 0x8
     // Offset: 0x10
     System::Collections::Generic::List_1<GlobalNamespace::PackedPlayModeBuildLogs::RuntimeBuildLog>* m_RuntimeBuildLogs;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::PackedPlayModeBuildLogs::RuntimeBuildLog>*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Collections::Generic::List_1<GlobalNamespace::PackedPlayModeBuildLogs::RuntimeBuildLog>*
     constexpr operator System::Collections::Generic::List_1<GlobalNamespace::PackedPlayModeBuildLogs::RuntimeBuildLog>*() const noexcept {
       return m_RuntimeBuildLogs;

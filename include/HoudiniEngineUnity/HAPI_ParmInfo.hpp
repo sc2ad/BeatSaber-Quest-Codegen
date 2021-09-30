@@ -31,6 +31,11 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HAPI_ParmInfo/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 id
     // Size: 0x4
     // Offset: 0x0
@@ -287,6 +292,7 @@ namespace HoudiniEngineUnity {
     int disabledConditionSH;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: HAPI_ParmInfo
     constexpr HAPI_ParmInfo(int id_ = {}, int parentId_ = {}, int childIndex_ = {}, HoudiniEngineUnity::HAPI_ParmType type_ = {}, HoudiniEngineUnity::HAPI_PrmScriptType scriptType_ = {}, int typeInfoSH_ = {}, HoudiniEngineUnity::HAPI_Permissions permissions_ = {}, int tagCount_ = {}, int size_ = {}, HoudiniEngineUnity::HAPI_ChoiceListType choiceListType_ = {}, int choiceCount_ = {}, int nameSH_ = {}, int labelSH_ = {}, int templateNameSH_ = {}, int helpSH_ = {}, bool hasMin_ = {}, bool hasMax_ = {}, bool hasUIMin_ = {}, bool hasUIMax_ = {}, float min_ = {}, float max_ = {}, float UIMin_ = {}, float UIMax_ = {}, bool invisible_ = {}, bool disabled_ = {}, bool spare_ = {}, bool joinNext_ = {}, bool labelNone_ = {}, int intValuesIndex_ = {}, int floatValuesIndex_ = {}, int stringValuesIndex_ = {}, int choiceIndex_ = {}, HoudiniEngineUnity::HAPI_NodeType inputNodeType_ = {}, HoudiniEngineUnity::HAPI_NodeFlags inputNodeFlag_ = {}, bool isChildOfMultiParm_ = {}, int instanceNum_ = {}, int instanceLength_ = {}, int instanceCount_ = {}, int instanceStartOffset_ = {}, HoudiniEngineUnity::HAPI_RampType rampType_ = {}, int visibilityConditionSH_ = {}, int disabledConditionSH_ = {}) noexcept : id{id_}, parentId{parentId_}, childIndex{childIndex_}, type{type_}, scriptType{scriptType_}, typeInfoSH{typeInfoSH_}, permissions{permissions_}, tagCount{tagCount_}, size{size_}, choiceListType{choiceListType_}, choiceCount{choiceCount_}, nameSH{nameSH_}, labelSH{labelSH_}, templateNameSH{templateNameSH_}, helpSH{helpSH_}, hasMin{hasMin_}, hasMax{hasMax_}, hasUIMin{hasUIMin_}, hasUIMax{hasUIMax_}, min{min_}, max{max_}, UIMin{UIMin_}, UIMax{UIMax_}, invisible{invisible_}, disabled{disabled_}, spare{spare_}, joinNext{joinNext_}, labelNone{labelNone_}, intValuesIndex{intValuesIndex_}, floatValuesIndex{floatValuesIndex_}, stringValuesIndex{stringValuesIndex_}, choiceIndex{choiceIndex_}, inputNodeType{inputNodeType_}, inputNodeFlag{inputNodeFlag_}, isChildOfMultiParm{isChildOfMultiParm_}, instanceNum{instanceNum_}, instanceLength{instanceLength_}, instanceCount{instanceCount_}, instanceStartOffset{instanceStartOffset_}, rampType{rampType_}, visibilityConditionSH{visibilityConditionSH_}, disabledConditionSH{disabledConditionSH_} {}
     // Creating interface conversion operator: operator System::ValueType

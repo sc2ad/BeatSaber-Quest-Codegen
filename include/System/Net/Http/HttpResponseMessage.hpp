@@ -41,6 +41,11 @@ namespace System::Net::Http {
   // [TokenAttribute] Offset: FFFFFFFF
   class HttpResponseMessage : public ::Il2CppObject/*, public System::IDisposable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Net.Http.Headers.HttpResponseHeaders headers
     // Size: 0x8
     // Offset: 0x10
@@ -87,6 +92,7 @@ namespace System::Net::Http {
     System::Net::Http::HttpRequestMessage* RequestMessage;
     // Field size check
     static_assert(sizeof(System::Net::Http::HttpRequestMessage*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HoudiniEngineUnity
@@ -40,6 +41,11 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_GeneratedOutput : public ::Il2CppObject/*, public HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_GeneratedOutput*>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public HoudiniEngineUnity.HEU_GeneratedOutputData _outputData
     // Size: 0x8
     // Offset: 0x10
@@ -58,6 +64,7 @@ namespace HoudiniEngineUnity {
     bool isInstancer;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_GeneratedOutput*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_GeneratedOutput*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_GeneratedOutput*>*>(this);
@@ -82,7 +89,7 @@ namespace HoudiniEngineUnity {
     static void ResetMaterialOverrides(HoudiniEngineUnity::HEU_GeneratedOutputData* outputData);
     // static public UnityEngine.Material[] GetGeneratedMaterialsForGameObject(HoudiniEngineUnity.HEU_GeneratedOutput output, UnityEngine.GameObject inGameObject)
     // Offset: 0x14A8AE4
-    static ::ArrayWrapper<UnityEngine::Material*> GetGeneratedMaterialsForGameObject(HoudiniEngineUnity::HEU_GeneratedOutput* output, UnityEngine::GameObject* inGameObject);
+    static ::ArrayW<UnityEngine::Material*> GetGeneratedMaterialsForGameObject(HoudiniEngineUnity::HEU_GeneratedOutput* output, UnityEngine::GameObject* inGameObject);
     // static public System.Boolean HasLODGroup(HoudiniEngineUnity.HEU_GeneratedOutput output)
     // Offset: 0x14A89D8
     static bool HasLODGroup(HoudiniEngineUnity::HEU_GeneratedOutput* output);
@@ -109,7 +116,7 @@ namespace HoudiniEngineUnity {
     static void DestroyGeneratedOutputData(HoudiniEngineUnity::HEU_GeneratedOutputData* generatedOutputData, bool bDontDeletePersistantResources);
     // static public System.Void ClearMaterialsNoLongerUsed(UnityEngine.Material[] materialsToCheck, UnityEngine.Material[] materialsInUse)
     // Offset: 0x14A24B8
-    static void ClearMaterialsNoLongerUsed(::ArrayWrapper<UnityEngine::Material*> materialsToCheck, ::ArrayWrapper<UnityEngine::Material*> materialsInUse);
+    static void ClearMaterialsNoLongerUsed(::ArrayW<UnityEngine::Material*> materialsToCheck, ::ArrayW<UnityEngine::Material*> materialsInUse);
     // static public System.Void CopyMaterialOverrides(HoudiniEngineUnity.HEU_GeneratedOutputData sourceOutputData, HoudiniEngineUnity.HEU_GeneratedOutputData destOutputData)
     // Offset: 0x14A9108
     static void CopyMaterialOverrides(HoudiniEngineUnity::HEU_GeneratedOutputData* sourceOutputData, HoudiniEngineUnity::HEU_GeneratedOutputData* destOutputData);
@@ -176,7 +183,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneratedOutput::GetGeneratedMaterialsForGameObject
 // Il2CppName: GetGeneratedMaterialsForGameObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Material*> (*)(HoudiniEngineUnity::HEU_GeneratedOutput*, UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_GeneratedOutput::GetGeneratedMaterialsForGameObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Material*> (*)(HoudiniEngineUnity::HEU_GeneratedOutput*, UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_GeneratedOutput::GetGeneratedMaterialsForGameObject)> {
   static const MethodInfo* get() {
     static auto* output = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_GeneratedOutput")->byval_arg;
     static auto* inGameObject = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
@@ -261,7 +268,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneratedOutput::ClearMaterialsNoLongerUsed
 // Il2CppName: ClearMaterialsNoLongerUsed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<UnityEngine::Material*>, ::ArrayWrapper<UnityEngine::Material*>)>(&HoudiniEngineUnity::HEU_GeneratedOutput::ClearMaterialsNoLongerUsed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<UnityEngine::Material*>, ::ArrayW<UnityEngine::Material*>)>(&HoudiniEngineUnity::HEU_GeneratedOutput::ClearMaterialsNoLongerUsed)> {
   static const MethodInfo* get() {
     static auto* materialsToCheck = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Material"), 1)->byval_arg;
     static auto* materialsInUse = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Material"), 1)->byval_arg;

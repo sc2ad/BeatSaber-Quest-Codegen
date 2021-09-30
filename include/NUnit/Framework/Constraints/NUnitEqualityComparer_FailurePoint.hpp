@@ -20,6 +20,11 @@ namespace NUnit::Framework::Constraints {
   // [TokenAttribute] Offset: FFFFFFFF
   class NUnitEqualityComparer::FailurePoint : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int64 Position
     // Size: 0x8
     // Offset: 0x10
@@ -50,6 +55,7 @@ namespace NUnit::Framework::Constraints {
     bool ActualHasData;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: public System.Int64 Position
     int64_t& dyn_Position();
     // Get instance field reference: public System.Object ExpectedValue

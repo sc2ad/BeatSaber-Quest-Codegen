@@ -40,6 +40,11 @@ namespace GlobalNamespace {
   // [ZenjectAllowDuringValidationAttribute] Offset: FFFFFFFF
   class GameplayCoreSceneSetupData : public GlobalNamespace::SceneSetupData {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly IDifficultyBeatmap difficultyBeatmap
     // Size: 0x8
     // Offset: 0x10
@@ -90,6 +95,7 @@ namespace GlobalNamespace {
     GlobalNamespace::ColorScheme* colorScheme;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ColorScheme*) == 0x8);
+    public:
     // Get instance field reference: public readonly IDifficultyBeatmap difficultyBeatmap
     GlobalNamespace::IDifficultyBeatmap*& dyn_difficultyBeatmap();
     // Get instance field reference: public readonly IPreviewBeatmapLevel previewBeatmapLevel

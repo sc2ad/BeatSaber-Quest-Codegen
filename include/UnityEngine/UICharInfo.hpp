@@ -20,6 +20,11 @@ namespace UnityEngine {
   // [UsedByNativeCodeAttribute] Offset: E89DF8
   struct UICharInfo/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Vector2 cursorPos
     // Size: 0x8
     // Offset: 0x0
@@ -32,6 +37,7 @@ namespace UnityEngine {
     float charWidth;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: UICharInfo
     constexpr UICharInfo(UnityEngine::Vector2 cursorPos_ = {}, float charWidth_ = {}) noexcept : cursorPos{cursorPos_}, charWidth{charWidth_} {}
     // Creating interface conversion operator: operator System::ValueType

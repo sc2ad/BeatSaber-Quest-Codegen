@@ -25,6 +25,11 @@ namespace System {
   template<typename T>
   struct Nullable_1/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // T value
     // Size: 0xFFFFFFFF
     // Offset: 0x0
@@ -35,6 +40,7 @@ namespace System {
     bool has_value;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating value type constructor for type: Nullable_1
     constexpr Nullable_1(T value_ = {}, bool has_value_ = {}) noexcept : value{value_}, has_value{has_value_} {}
     // Creating interface conversion operator: operator System::ValueType

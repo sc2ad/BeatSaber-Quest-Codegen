@@ -56,6 +56,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::MasterServerQuickPlaySetupModel::$GetQuickPlaySetupInternal$d__10
     struct $GetQuickPlaySetupInternal$d__10;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xF02C2C
     // private readonly INetworkConfig _networkConfig
     // Size: 0x8
@@ -81,6 +86,7 @@ namespace GlobalNamespace {
     System::DateTime lastRequestTime;
     // Field size check
     static_assert(sizeof(System::DateTime) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IMasterServerQuickPlaySetupModel
     operator GlobalNamespace::IMasterServerQuickPlaySetupModel() noexcept {
       return *reinterpret_cast<GlobalNamespace::IMasterServerQuickPlaySetupModel*>(this);

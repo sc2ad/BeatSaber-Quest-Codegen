@@ -36,6 +36,11 @@ namespace UnityEngine::Timeline {
   // [TokenAttribute] Offset: FFFFFFFF
   class DirectorControlPlayable : public UnityEngine::Playables::PlayableBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Playables.PlayableDirector director
     // Size: 0x8
     // Offset: 0x10
@@ -56,6 +61,7 @@ namespace UnityEngine::Timeline {
     double m_AssetDuration;
     // Field size check
     static_assert(sizeof(double) == 0x8);
+    public:
     // Get instance field reference: public UnityEngine.Playables.PlayableDirector director
     UnityEngine::Playables::PlayableDirector*& dyn_director();
     // Get instance field reference: private System.Boolean m_SyncTime

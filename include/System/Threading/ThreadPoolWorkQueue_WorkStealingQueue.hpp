@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Threading
@@ -29,12 +30,17 @@ namespace System::Threading {
   // [TokenAttribute] Offset: FFFFFFFF
   class ThreadPoolWorkQueue::WorkStealingQueue : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Threading.IThreadPoolWorkItem[] m_array
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<System::Threading::IThreadPoolWorkItem*> m_array;
+    ::ArrayW<System::Threading::IThreadPoolWorkItem*> m_array;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<System::Threading::IThreadPoolWorkItem*>) == 0x8);
+    static_assert(sizeof(::ArrayW<System::Threading::IThreadPoolWorkItem*>) == 0x8);
     // private System.Int32 m_mask
     // Size: 0x4
     // Offset: 0x18
@@ -59,8 +65,9 @@ namespace System::Threading {
     System::Threading::SpinLock m_foreignLock;
     // Field size check
     static_assert(sizeof(System::Threading::SpinLock) == 0x4);
+    public:
     // Get instance field reference: System.Threading.IThreadPoolWorkItem[] m_array
-    ::ArrayWrapper<System::Threading::IThreadPoolWorkItem*>& dyn_m_array();
+    ::ArrayW<System::Threading::IThreadPoolWorkItem*>& dyn_m_array();
     // Get instance field reference: private System.Int32 m_mask
     int& dyn_m_mask();
     // Get instance field reference: private System.Int32 m_headIndex

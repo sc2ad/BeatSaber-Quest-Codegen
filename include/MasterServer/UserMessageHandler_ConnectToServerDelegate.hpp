@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net
@@ -52,10 +53,10 @@ namespace MasterServer {
     }
     // public System.Void Invoke(System.String userId, System.String userName, System.Net.IPEndPoint remoteEndPoint, System.String secret, System.String code, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration, System.Byte[] preMasterSecret, System.Byte[] myRandom, System.Byte[] remoteRandom, System.Boolean isConnectionOwner, System.Boolean isDedicatedServer, System.String managerId)
     // Offset: 0x12E5B98
-    void Invoke(::Il2CppString* userId, ::Il2CppString* userName, System::Net::IPEndPoint* remoteEndPoint, ::Il2CppString* secret, ::Il2CppString* code, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration, ::ArrayWrapper<uint8_t> preMasterSecret, ::ArrayWrapper<uint8_t> myRandom, ::ArrayWrapper<uint8_t> remoteRandom, bool isConnectionOwner, bool isDedicatedServer, ::Il2CppString* managerId);
+    void Invoke(::Il2CppString* userId, ::Il2CppString* userName, System::Net::IPEndPoint* remoteEndPoint, ::Il2CppString* secret, ::Il2CppString* code, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration, ::ArrayW<uint8_t> preMasterSecret, ::ArrayW<uint8_t> myRandom, ::ArrayW<uint8_t> remoteRandom, bool isConnectionOwner, bool isDedicatedServer, ::Il2CppString* managerId);
     // public System.IAsyncResult BeginInvoke(System.String userId, System.String userName, System.Net.IPEndPoint remoteEndPoint, System.String secret, System.String code, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration, System.Byte[] preMasterSecret, System.Byte[] myRandom, System.Byte[] remoteRandom, System.Boolean isConnectionOwner, System.Boolean isDedicatedServer, System.String managerId, System.AsyncCallback callback, System.Object object)
     // Offset: 0x12E6F44
-    System::IAsyncResult* BeginInvoke(::Il2CppString* userId, ::Il2CppString* userName, System::Net::IPEndPoint* remoteEndPoint, ::Il2CppString* secret, ::Il2CppString* code, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration, ::ArrayWrapper<uint8_t> preMasterSecret, ::ArrayWrapper<uint8_t> myRandom, ::ArrayWrapper<uint8_t> remoteRandom, bool isConnectionOwner, bool isDedicatedServer, ::Il2CppString* managerId, System::AsyncCallback* callback, ::Il2CppObject* object);
+    System::IAsyncResult* BeginInvoke(::Il2CppString* userId, ::Il2CppString* userName, System::Net::IPEndPoint* remoteEndPoint, ::Il2CppString* secret, ::Il2CppString* code, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration, ::ArrayW<uint8_t> preMasterSecret, ::ArrayW<uint8_t> myRandom, ::ArrayW<uint8_t> remoteRandom, bool isConnectionOwner, bool isDedicatedServer, ::Il2CppString* managerId, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
     // Offset: 0x12E7088
     void EndInvoke(System::IAsyncResult* result);
@@ -71,7 +72,7 @@ DEFINE_IL2CPP_ARG_TYPE(MasterServer::UserMessageHandler::ConnectToServerDelegate
 // Writing MetadataGetter for method: MasterServer::UserMessageHandler::ConnectToServerDelegate::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::UserMessageHandler::ConnectToServerDelegate::*)(::Il2CppString*, ::Il2CppString*, System::Net::IPEndPoint*, ::Il2CppString*, ::Il2CppString*, GlobalNamespace::BeatmapLevelSelectionMask, GlobalNamespace::GameplayServerConfiguration, ::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>, bool, bool, ::Il2CppString*)>(&MasterServer::UserMessageHandler::ConnectToServerDelegate::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (MasterServer::UserMessageHandler::ConnectToServerDelegate::*)(::Il2CppString*, ::Il2CppString*, System::Net::IPEndPoint*, ::Il2CppString*, ::Il2CppString*, GlobalNamespace::BeatmapLevelSelectionMask, GlobalNamespace::GameplayServerConfiguration, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>, bool, bool, ::Il2CppString*)>(&MasterServer::UserMessageHandler::ConnectToServerDelegate::Invoke)> {
   static const MethodInfo* get() {
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* userName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -92,7 +93,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
 // Writing MetadataGetter for method: MasterServer::UserMessageHandler::ConnectToServerDelegate::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (MasterServer::UserMessageHandler::ConnectToServerDelegate::*)(::Il2CppString*, ::Il2CppString*, System::Net::IPEndPoint*, ::Il2CppString*, ::Il2CppString*, GlobalNamespace::BeatmapLevelSelectionMask, GlobalNamespace::GameplayServerConfiguration, ::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>, bool, bool, ::Il2CppString*, System::AsyncCallback*, ::Il2CppObject*)>(&MasterServer::UserMessageHandler::ConnectToServerDelegate::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (MasterServer::UserMessageHandler::ConnectToServerDelegate::*)(::Il2CppString*, ::Il2CppString*, System::Net::IPEndPoint*, ::Il2CppString*, ::Il2CppString*, GlobalNamespace::BeatmapLevelSelectionMask, GlobalNamespace::GameplayServerConfiguration, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>, bool, bool, ::Il2CppString*, System::AsyncCallback*, ::Il2CppObject*)>(&MasterServer::UserMessageHandler::ConnectToServerDelegate::BeginInvoke)> {
   static const MethodInfo* get() {
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* userName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

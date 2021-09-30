@@ -22,6 +22,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SongPreviewPlayer::AudioSourceParams : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Vector3 _position
     // Size: 0xC
     // Offset: 0x10
@@ -49,6 +54,7 @@ namespace GlobalNamespace {
     float spread;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: private UnityEngine.Vector3 _position
     UnityEngine::Vector3& dyn__position();
     // Get instance field reference: private System.Single _reverbZoneMix

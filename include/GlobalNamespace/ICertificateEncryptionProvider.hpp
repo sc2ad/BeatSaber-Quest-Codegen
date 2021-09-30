@@ -7,6 +7,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IDisposable
 #include "System/IDisposable.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -22,7 +23,7 @@ namespace GlobalNamespace {
     }
     // public System.Byte[] SignData(System.Byte[] data, System.Int32 offset, System.Int32 length)
     // Offset: 0xFFFFFFFF
-    ::ArrayWrapper<uint8_t> SignData(::ArrayWrapper<uint8_t> data, int offset, int length);
+    ::ArrayW<uint8_t> SignData(::ArrayW<uint8_t> data, int offset, int length);
   }; // ICertificateEncryptionProvider
   #pragma pack(pop)
 }
@@ -32,7 +33,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ICertificateEncryptionProvider*, "", "IC
 // Writing MetadataGetter for method: GlobalNamespace::ICertificateEncryptionProvider::SignData
 // Il2CppName: SignData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (GlobalNamespace::ICertificateEncryptionProvider::*)(::ArrayWrapper<uint8_t>, int, int)>(&GlobalNamespace::ICertificateEncryptionProvider::SignData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (GlobalNamespace::ICertificateEncryptionProvider::*)(::ArrayW<uint8_t>, int, int)>(&GlobalNamespace::ICertificateEncryptionProvider::SignData)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

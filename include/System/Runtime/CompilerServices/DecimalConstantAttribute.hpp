@@ -24,12 +24,18 @@ namespace System::Runtime::CompilerServices {
   // [ComVisibleAttribute] Offset: E605AC
   class DecimalConstantAttribute : public System::Attribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Decimal dec
     // Size: 0x10
     // Offset: 0x10
     System::Decimal dec;
     // Field size check
     static_assert(sizeof(System::Decimal) == 0x10);
+    public:
     // Creating conversion operator: operator System::Decimal
     constexpr operator System::Decimal() const noexcept {
       return dec;

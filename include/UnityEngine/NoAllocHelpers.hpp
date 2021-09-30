@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -65,11 +66,11 @@ namespace UnityEngine {
     // static public T[] ExtractArrayFromListT(System.Collections.Generic.List`1<T> list)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static ::ArrayWrapper<T> ExtractArrayFromListT(System::Collections::Generic::List_1<T>* list) {
+    static ::ArrayW<T> ExtractArrayFromListT(System::Collections::Generic::List_1<T>* list) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::NoAllocHelpers::ExtractArrayFromListT");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine", "NoAllocHelpers", "ExtractArrayFromListT", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(list)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<::ArrayWrapper<T>, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, list);
+      return ::il2cpp_utils::RunMethodThrow<::ArrayW<T>, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, list);
     }
     // static System.Void Internal_ResizeList(System.Object list, System.Int32 size)
     // Offset: 0x1DB0D2C

@@ -31,6 +31,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class StandardLevelRestartController : public UnityEngine::MonoBehaviour/*, public GlobalNamespace::ILevelRestartController*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private StandardLevelScenesTransitionSetupDataSO _standardLevelSceneSetupData
     // Size: 0x8
     // Offset: 0x18
@@ -44,6 +49,7 @@ namespace GlobalNamespace {
     GlobalNamespace::PrepareLevelCompletionResults* prepareLevelCompletionResults;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PrepareLevelCompletionResults*) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::ILevelRestartController
     operator GlobalNamespace::ILevelRestartController() noexcept {
       return *reinterpret_cast<GlobalNamespace::ILevelRestartController*>(this);

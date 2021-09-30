@@ -27,6 +27,11 @@ namespace GlobalNamespace {
   // [AddComponentMenu] Offset: EF07A0
   class DynamicBoneCollider : public GlobalNamespace::DynamicBoneColliderBase {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Single m_Radius
     // Size: 0x4
     // Offset: 0x2C
@@ -39,6 +44,7 @@ namespace GlobalNamespace {
     float m_Height;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: public System.Single m_Radius
     float& dyn_m_Radius();
     // Get instance field reference: public System.Single m_Height

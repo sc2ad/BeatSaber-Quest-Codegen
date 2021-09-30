@@ -57,6 +57,11 @@ namespace System::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   class XmlWriterSettings : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean useAsync
     // Size: 0x1
     // Offset: 0x10
@@ -209,6 +214,7 @@ namespace System::Xml {
     bool isReadOnly;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private System.Boolean useAsync
     bool& dyn_useAsync();
     // Get instance field reference: private System.Text.Encoding encoding

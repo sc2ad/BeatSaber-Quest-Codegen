@@ -35,6 +35,11 @@ namespace UnityEngine::UI {
   // [TokenAttribute] Offset: FFFFFFFF
   class FontData : public ::Il2CppObject/*, public UnityEngine::ISerializationCallbackReceiver*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [FormerlySerializedAsAttribute] Offset: 0xEA9124
     // private UnityEngine.Font m_Font
     // Size: 0x8
@@ -116,6 +121,7 @@ namespace UnityEngine::UI {
     float m_LineSpacing;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating interface conversion operator: operator UnityEngine::ISerializationCallbackReceiver
     operator UnityEngine::ISerializationCallbackReceiver() noexcept {
       return *reinterpret_cast<UnityEngine::ISerializationCallbackReceiver*>(this);

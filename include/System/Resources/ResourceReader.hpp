@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Resources
@@ -64,6 +65,11 @@ namespace System::Resources {
     public:
     // Nested type: System::Resources::ResourceReader::ResourceEnumerator
     class ResourceEnumerator;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.IO.BinaryReader _store
     // Size: 0x8
     // Offset: 0x10
@@ -91,9 +97,9 @@ namespace System::Resources {
     // private System.Int32[] _nameHashes
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<int> nameHashes;
+    ::ArrayW<int> nameHashes;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // private System.Int32* _nameHashesPtr
     // Size: 0x8
     // Offset: 0x38
@@ -103,9 +109,9 @@ namespace System::Resources {
     // private System.Int32[] _namePositions
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayWrapper<int> namePositions;
+    ::ArrayW<int> namePositions;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // private System.Int32* _namePositionsPtr
     // Size: 0x8
     // Offset: 0x48
@@ -115,15 +121,15 @@ namespace System::Resources {
     // private System.RuntimeType[] _typeTable
     // Size: 0x8
     // Offset: 0x50
-    ::ArrayWrapper<System::RuntimeType*> typeTable;
+    ::ArrayW<System::RuntimeType*> typeTable;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<System::RuntimeType*>) == 0x8);
+    static_assert(sizeof(::ArrayW<System::RuntimeType*>) == 0x8);
     // private System.Int32[] _typeNamePositions
     // Size: 0x8
     // Offset: 0x58
-    ::ArrayWrapper<int> typeNamePositions;
+    ::ArrayW<int> typeNamePositions;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // private System.Runtime.Serialization.Formatters.Binary.BinaryFormatter _objFormatter
     // Size: 0x8
     // Offset: 0x60
@@ -150,6 +156,7 @@ namespace System::Resources {
     int version;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating interface conversion operator: operator System::Resources::IResourceReader
     operator System::Resources::IResourceReader() noexcept {
       return *reinterpret_cast<System::Resources::IResourceReader*>(this);
@@ -163,17 +170,17 @@ namespace System::Resources {
     // Get instance field reference: private System.Int64 _dataSectionOffset
     int64_t& dyn__dataSectionOffset();
     // Get instance field reference: private System.Int32[] _nameHashes
-    ::ArrayWrapper<int>& dyn__nameHashes();
+    ::ArrayW<int>& dyn__nameHashes();
     // Get instance field reference: private System.Int32* _nameHashesPtr
     int*& dyn__nameHashesPtr();
     // Get instance field reference: private System.Int32[] _namePositions
-    ::ArrayWrapper<int>& dyn__namePositions();
+    ::ArrayW<int>& dyn__namePositions();
     // Get instance field reference: private System.Int32* _namePositionsPtr
     int*& dyn__namePositionsPtr();
     // Get instance field reference: private System.RuntimeType[] _typeTable
-    ::ArrayWrapper<System::RuntimeType*>& dyn__typeTable();
+    ::ArrayW<System::RuntimeType*>& dyn__typeTable();
     // Get instance field reference: private System.Int32[] _typeNamePositions
-    ::ArrayWrapper<int>& dyn__typeNamePositions();
+    ::ArrayW<int>& dyn__typeNamePositions();
     // Get instance field reference: private System.Runtime.Serialization.Formatters.Binary.BinaryFormatter _objFormatter
     System::Runtime::Serialization::Formatters::Binary::BinaryFormatter*& dyn__objFormatter();
     // Get instance field reference: private System.Int32 _numResources

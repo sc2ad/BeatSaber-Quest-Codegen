@@ -32,6 +32,11 @@ namespace Zenject::Internal {
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
   class SingletonMarkRegistry : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Collections.Generic.HashSet`1<System.Type> _boundSingletons
     // Size: 0x8
     // Offset: 0x10
@@ -44,6 +49,7 @@ namespace Zenject::Internal {
     System::Collections::Generic::HashSet_1<System::Type*>* boundNonSingletons;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::HashSet_1<System::Type*>*) == 0x8);
+    public:
     // Get instance field reference: private readonly System.Collections.Generic.HashSet`1<System.Type> _boundSingletons
     System::Collections::Generic::HashSet_1<System::Type*>*& dyn__boundSingletons();
     // Get instance field reference: private readonly System.Collections.Generic.HashSet`1<System.Type> _boundNonSingletons

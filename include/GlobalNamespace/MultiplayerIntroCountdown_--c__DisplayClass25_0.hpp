@@ -33,6 +33,11 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class MultiplayerIntroCountdown::$$c__DisplayClass25_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public MultiplayerIntroCountdownTextController textController
     // Size: 0x8
     // Offset: 0x10
@@ -45,6 +50,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerIntroCountdown* $$4__this;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerIntroCountdown*) == 0x8);
+    public:
     // Get instance field reference: public MultiplayerIntroCountdownTextController textController
     GlobalNamespace::MultiplayerIntroCountdownTextController*& dyn_textController();
     // Get instance field reference: public MultiplayerIntroCountdown <>4__this

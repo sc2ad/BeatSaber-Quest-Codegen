@@ -34,6 +34,11 @@ namespace Org::BouncyCastle::Asn1::X509 {
   // [TokenAttribute] Offset: FFFFFFFF
   class RsaPublicKeyStructure : public Org::BouncyCastle::Asn1::Asn1Encodable {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Org.BouncyCastle.Math.BigInteger modulus
     // Size: 0x8
     // Offset: 0x10
@@ -46,6 +51,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
     Org::BouncyCastle::Math::BigInteger* publicExponent;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Math::BigInteger*) == 0x8);
+    public:
     // Get instance field reference: private Org.BouncyCastle.Math.BigInteger modulus
     Org::BouncyCastle::Math::BigInteger*& dyn_modulus();
     // Get instance field reference: private Org.BouncyCastle.Math.BigInteger publicExponent

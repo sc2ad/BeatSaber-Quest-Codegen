@@ -18,6 +18,11 @@ namespace LiteNetLib::Utils {
   // [TokenAttribute] Offset: FFFFFFFF
   struct FastBitConverter::ConverterHelperDouble/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.UInt64 Along
     // Size: 0x8
     // Offset: 0x0
@@ -30,6 +35,7 @@ namespace LiteNetLib::Utils {
     double Adouble;
     // Field size check
     static_assert(sizeof(double) == 0x8);
+    public:
     // Creating value type constructor for type: ConverterHelperDouble
     constexpr ConverterHelperDouble(uint64_t Along_ = {}, double Adouble_ = {}) noexcept : Along{Along_}, Adouble{Adouble_} {}
     // Creating interface conversion operator: operator System::ValueType

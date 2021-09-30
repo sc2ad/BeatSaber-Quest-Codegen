@@ -73,6 +73,11 @@ namespace GlobalNamespace {
     class $StartFireworksAfterDelay$d__28;
     // Nested type: GlobalNamespace::MissionResultsViewController::$$c__DisplayClass29_0
     class $$c__DisplayClass29_0;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.GameObject _failedBannerGo
     // Size: 0x8
     // Offset: 0x70
@@ -202,6 +207,7 @@ namespace GlobalNamespace {
     UnityEngine::Coroutine* startFireworksAfterDelayCoroutine;
     // Field size check
     static_assert(sizeof(UnityEngine::Coroutine*) == 0x8);
+    public:
     // Get instance field reference: private UnityEngine.GameObject _failedBannerGo
     UnityEngine::GameObject*& dyn__failedBannerGo();
     // Get instance field reference: private UnityEngine.GameObject _clearedBannerGo

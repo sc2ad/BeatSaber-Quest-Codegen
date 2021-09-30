@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Math
@@ -32,6 +33,11 @@ namespace Org::BouncyCastle::Crypto::Signers {
   // [TokenAttribute] Offset: FFFFFFFF
   class RandomDsaKCalculator : public ::Il2CppObject/*, public Org::BouncyCastle::Crypto::Signers::IDsaKCalculator*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Org.BouncyCastle.Math.BigInteger q
     // Size: 0x8
     // Offset: 0x10
@@ -44,6 +50,7 @@ namespace Org::BouncyCastle::Crypto::Signers {
     Org::BouncyCastle::Security::SecureRandom* random;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Security::SecureRandom*) == 0x8);
+    public:
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::Signers::IDsaKCalculator
     operator Org::BouncyCastle::Crypto::Signers::IDsaKCalculator() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::Signers::IDsaKCalculator*>(this);
@@ -60,7 +67,7 @@ namespace Org::BouncyCastle::Crypto::Signers {
     void Init(Org::BouncyCastle::Math::BigInteger* n, Org::BouncyCastle::Security::SecureRandom* random);
     // public System.Void Init(Org.BouncyCastle.Math.BigInteger n, Org.BouncyCastle.Math.BigInteger d, System.Byte[] message)
     // Offset: 0x13A0AF8
-    void Init(Org::BouncyCastle::Math::BigInteger* n, Org::BouncyCastle::Math::BigInteger* d, ::ArrayWrapper<uint8_t> message);
+    void Init(Org::BouncyCastle::Math::BigInteger* n, Org::BouncyCastle::Math::BigInteger* d, ::ArrayW<uint8_t> message);
     // public Org.BouncyCastle.Math.BigInteger NextK()
     // Offset: 0x13A0B64
     Org::BouncyCastle::Math::BigInteger* NextK();
@@ -101,7 +108,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::RandomDsaKCalculator::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Signers::RandomDsaKCalculator::*)(Org::BouncyCastle::Math::BigInteger*, Org::BouncyCastle::Math::BigInteger*, ::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Crypto::Signers::RandomDsaKCalculator::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Signers::RandomDsaKCalculator::*)(Org::BouncyCastle::Math::BigInteger*, Org::BouncyCastle::Math::BigInteger*, ::ArrayW<uint8_t>)>(&Org::BouncyCastle::Crypto::Signers::RandomDsaKCalculator::Init)> {
   static const MethodInfo* get() {
     static auto* n = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math", "BigInteger")->byval_arg;
     static auto* d = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math", "BigInteger")->byval_arg;

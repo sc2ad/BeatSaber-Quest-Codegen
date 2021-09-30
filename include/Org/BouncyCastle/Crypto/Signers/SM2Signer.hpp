@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Crypto::Signers
@@ -60,6 +61,11 @@ namespace Org::BouncyCastle::Crypto::Signers {
   // [TokenAttribute] Offset: FFFFFFFF
   class SM2Signer : public ::Il2CppObject/*, public Org::BouncyCastle::Crypto::ISigner*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Org.BouncyCastle.Crypto.Signers.IDsaKCalculator kCalculator
     // Size: 0x8
     // Offset: 0x10
@@ -99,9 +105,10 @@ namespace Org::BouncyCastle::Crypto::Signers {
     // private System.Byte[] z
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayWrapper<uint8_t> z;
+    ::ArrayW<uint8_t> z;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
+    public:
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::ISigner
     operator Org::BouncyCastle::Crypto::ISigner() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::ISigner*>(this);
@@ -119,7 +126,7 @@ namespace Org::BouncyCastle::Crypto::Signers {
     // Get instance field reference: private Org.BouncyCastle.Crypto.Parameters.ECKeyParameters ecKey
     Org::BouncyCastle::Crypto::Parameters::ECKeyParameters*& dyn_ecKey();
     // Get instance field reference: private System.Byte[] z
-    ::ArrayWrapper<uint8_t>& dyn_z();
+    ::ArrayW<uint8_t>& dyn_z();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IDigest digest)
     // Offset: 0x13A1DDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -139,31 +146,31 @@ namespace Org::BouncyCastle::Crypto::Signers {
     void Init(bool forSigning, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Void BlockUpdate(System.Byte[] buf, System.Int32 off, System.Int32 len)
     // Offset: 0x13A2600
-    void BlockUpdate(::ArrayWrapper<uint8_t> buf, int off, int len);
+    void BlockUpdate(::ArrayW<uint8_t> buf, int off, int len);
     // public System.Void Reset()
     // Offset: 0x13A26DC
     void Reset();
     // public System.Byte[] GenerateSignature()
     // Offset: 0x13A2834
-    ::ArrayWrapper<uint8_t> GenerateSignature();
+    ::ArrayW<uint8_t> GenerateSignature();
     // private System.Byte[] GetZ(System.Byte[] userID)
     // Offset: 0x13A2478
-    ::ArrayWrapper<uint8_t> GetZ(::ArrayWrapper<uint8_t> userID);
+    ::ArrayW<uint8_t> GetZ(::ArrayW<uint8_t> userID);
     // private System.Void AddUserID(Org.BouncyCastle.Crypto.IDigest digest, System.Byte[] userID)
     // Offset: 0x13A2D18
-    void AddUserID(Org::BouncyCastle::Crypto::IDigest* digest, ::ArrayWrapper<uint8_t> userID);
+    void AddUserID(Org::BouncyCastle::Crypto::IDigest* digest, ::ArrayW<uint8_t> userID);
     // private System.Void AddFieldElement(Org.BouncyCastle.Crypto.IDigest digest, Org.BouncyCastle.Math.EC.ECFieldElement v)
     // Offset: 0x13A2EC0
     void AddFieldElement(Org::BouncyCastle::Crypto::IDigest* digest, Org::BouncyCastle::Math::EC::ECFieldElement* v);
     // protected Org.BouncyCastle.Math.BigInteger CalculateE(Org.BouncyCastle.Math.BigInteger n, System.Byte[] message)
     // Offset: 0x13A2FAC
-    Org::BouncyCastle::Math::BigInteger* CalculateE(Org::BouncyCastle::Math::BigInteger* n, ::ArrayWrapper<uint8_t> message);
+    Org::BouncyCastle::Math::BigInteger* CalculateE(Org::BouncyCastle::Math::BigInteger* n, ::ArrayW<uint8_t> message);
     // protected Org.BouncyCastle.Math.EC.Multiplier.ECMultiplier CreateBasePointMultiplier()
     // Offset: 0x13A3010
     Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* CreateBasePointMultiplier();
   }; // Org.BouncyCastle.Crypto.Signers.SM2Signer
   #pragma pack(pop)
-  static check_size<sizeof(SM2Signer), 64 + sizeof(::ArrayWrapper<uint8_t>)> __Org_BouncyCastle_Crypto_Signers_SM2SignerSizeCheck;
+  static check_size<sizeof(SM2Signer), 64 + sizeof(::ArrayW<uint8_t>)> __Org_BouncyCastle_Crypto_Signers_SM2SignerSizeCheck;
   static_assert(sizeof(SM2Signer) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Signers::SM2Signer*, "Org.BouncyCastle.Crypto.Signers", "SM2Signer");
@@ -189,7 +196,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::SM2Signer::BlockUpdate
 // Il2CppName: BlockUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Signers::SM2Signer::*)(::ArrayWrapper<uint8_t>, int, int)>(&Org::BouncyCastle::Crypto::Signers::SM2Signer::BlockUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Signers::SM2Signer::*)(::ArrayW<uint8_t>, int, int)>(&Org::BouncyCastle::Crypto::Signers::SM2Signer::BlockUpdate)> {
   static const MethodInfo* get() {
     static auto* buf = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* off = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -208,7 +215,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::SM2Signer::GenerateSignature
 // Il2CppName: GenerateSignature
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Crypto::Signers::SM2Signer::*)()>(&Org::BouncyCastle::Crypto::Signers::SM2Signer::GenerateSignature)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Org::BouncyCastle::Crypto::Signers::SM2Signer::*)()>(&Org::BouncyCastle::Crypto::Signers::SM2Signer::GenerateSignature)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Signers::SM2Signer*), "GenerateSignature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -216,7 +223,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::SM2Signer::GetZ
 // Il2CppName: GetZ
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Crypto::Signers::SM2Signer::*)(::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Crypto::Signers::SM2Signer::GetZ)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Org::BouncyCastle::Crypto::Signers::SM2Signer::*)(::ArrayW<uint8_t>)>(&Org::BouncyCastle::Crypto::Signers::SM2Signer::GetZ)> {
   static const MethodInfo* get() {
     static auto* userID = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Signers::SM2Signer*), "GetZ", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{userID});
@@ -225,7 +232,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::SM2Signer::AddUserID
 // Il2CppName: AddUserID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Signers::SM2Signer::*)(Org::BouncyCastle::Crypto::IDigest*, ::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Crypto::Signers::SM2Signer::AddUserID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Signers::SM2Signer::*)(Org::BouncyCastle::Crypto::IDigest*, ::ArrayW<uint8_t>)>(&Org::BouncyCastle::Crypto::Signers::SM2Signer::AddUserID)> {
   static const MethodInfo* get() {
     static auto* digest = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Crypto", "IDigest")->byval_arg;
     static auto* userID = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -245,7 +252,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::SM2Signer::CalculateE
 // Il2CppName: CalculateE
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (Org::BouncyCastle::Crypto::Signers::SM2Signer::*)(Org::BouncyCastle::Math::BigInteger*, ::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Crypto::Signers::SM2Signer::CalculateE)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (Org::BouncyCastle::Crypto::Signers::SM2Signer::*)(Org::BouncyCastle::Math::BigInteger*, ::ArrayW<uint8_t>)>(&Org::BouncyCastle::Crypto::Signers::SM2Signer::CalculateE)> {
   static const MethodInfo* get() {
     static auto* n = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math", "BigInteger")->byval_arg;
     static auto* message = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;

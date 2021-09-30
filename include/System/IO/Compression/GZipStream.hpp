@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO::Compression
@@ -54,12 +55,18 @@ namespace System::IO::Compression {
   // [TokenAttribute] Offset: FFFFFFFF
   class GZipStream : public System::IO::Stream {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.IO.Compression.DeflateStream _deflateStream
     // Size: 0x8
     // Offset: 0x28
     System::IO::Compression::DeflateStream* deflateStream;
     // Field size check
     static_assert(sizeof(System::IO::Compression::DeflateStream*) == 0x8);
+    public:
     // Get instance field reference: private System.IO.Compression.DeflateStream _deflateStream
     System::IO::Compression::DeflateStream*& dyn__deflateStream();
     // public System.Void .ctor(System.IO.Stream stream, System.IO.Compression.CompressionMode mode)
@@ -136,7 +143,7 @@ namespace System::IO::Compression {
     // Offset: 0x1A2F574
     // Implemented from: System.IO.Stream
     // Base method: System.IAsyncResult Stream::BeginRead(System.Byte[] array, System.Int32 offset, System.Int32 count, System.AsyncCallback asyncCallback, System.Object asyncState)
-    System::IAsyncResult* BeginRead(::ArrayWrapper<uint8_t> array, int offset, int count, System::AsyncCallback* asyncCallback, ::Il2CppObject* asyncState);
+    System::IAsyncResult* BeginRead(::ArrayW<uint8_t> array, int offset, int count, System::AsyncCallback* asyncCallback, ::Il2CppObject* asyncState);
     // public override System.Int32 EndRead(System.IAsyncResult asyncResult)
     // Offset: 0x1A2F638
     // Implemented from: System.IO.Stream
@@ -146,12 +153,12 @@ namespace System::IO::Compression {
     // Offset: 0x1A2F688
     // Implemented from: System.IO.Stream
     // Base method: System.Int32 Stream::Read(System.Byte[] array, System.Int32 offset, System.Int32 count)
-    int Read(::ArrayWrapper<uint8_t> array, int offset, int count);
+    int Read(::ArrayW<uint8_t> array, int offset, int count);
     // public override System.IAsyncResult BeginWrite(System.Byte[] array, System.Int32 offset, System.Int32 count, System.AsyncCallback asyncCallback, System.Object asyncState)
     // Offset: 0x1A2F6AC
     // Implemented from: System.IO.Stream
     // Base method: System.IAsyncResult Stream::BeginWrite(System.Byte[] array, System.Int32 offset, System.Int32 count, System.AsyncCallback asyncCallback, System.Object asyncState)
-    System::IAsyncResult* BeginWrite(::ArrayWrapper<uint8_t> array, int offset, int count, System::AsyncCallback* asyncCallback, ::Il2CppObject* asyncState);
+    System::IAsyncResult* BeginWrite(::ArrayW<uint8_t> array, int offset, int count, System::AsyncCallback* asyncCallback, ::Il2CppObject* asyncState);
     // public override System.Void EndWrite(System.IAsyncResult asyncResult)
     // Offset: 0x1A2F770
     // Implemented from: System.IO.Stream
@@ -161,7 +168,7 @@ namespace System::IO::Compression {
     // Offset: 0x1A2F77C
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::Write(System.Byte[] array, System.Int32 offset, System.Int32 count)
-    void Write(::ArrayWrapper<uint8_t> array, int offset, int count);
+    void Write(::ArrayW<uint8_t> array, int offset, int count);
     // protected override System.Void Dispose(System.Boolean disposing)
     // Offset: 0x1A2F7A0
     // Implemented from: System.IO.Stream
@@ -171,12 +178,12 @@ namespace System::IO::Compression {
     // Offset: 0x1A2F828
     // Implemented from: System.IO.Stream
     // Base method: System.Threading.Tasks.Task`1<System.Int32> Stream::ReadAsync(System.Byte[] array, System.Int32 offset, System.Int32 count, System.Threading.CancellationToken cancellationToken)
-    System::Threading::Tasks::Task_1<int>* ReadAsync(::ArrayWrapper<uint8_t> array, int offset, int count, System::Threading::CancellationToken cancellationToken);
+    System::Threading::Tasks::Task_1<int>* ReadAsync(::ArrayW<uint8_t> array, int offset, int count, System::Threading::CancellationToken cancellationToken);
     // public override System.Threading.Tasks.Task WriteAsync(System.Byte[] array, System.Int32 offset, System.Int32 count, System.Threading.CancellationToken cancellationToken)
     // Offset: 0x1A2F84C
     // Implemented from: System.IO.Stream
     // Base method: System.Threading.Tasks.Task Stream::WriteAsync(System.Byte[] array, System.Int32 offset, System.Int32 count, System.Threading.CancellationToken cancellationToken)
-    System::Threading::Tasks::Task* WriteAsync(::ArrayWrapper<uint8_t> array, int offset, int count, System::Threading::CancellationToken cancellationToken);
+    System::Threading::Tasks::Task* WriteAsync(::ArrayW<uint8_t> array, int offset, int count, System::Threading::CancellationToken cancellationToken);
     // public override System.Threading.Tasks.Task CopyToAsync(System.IO.Stream destination, System.Int32 bufferSize, System.Threading.CancellationToken cancellationToken)
     // Offset: 0x1A2F870
     // Implemented from: System.IO.Stream
@@ -300,7 +307,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::IO::Compression::GZipStream::BeginRead
 // Il2CppName: BeginRead
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::IO::Compression::GZipStream::*)(::ArrayWrapper<uint8_t>, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::IO::Compression::GZipStream::BeginRead)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::IO::Compression::GZipStream::*)(::ArrayW<uint8_t>, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::IO::Compression::GZipStream::BeginRead)> {
   static const MethodInfo* get() {
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -322,7 +329,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::IO::Compression::GZipStream::Read
 // Il2CppName: Read
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::Compression::GZipStream::*)(::ArrayWrapper<uint8_t>, int, int)>(&System::IO::Compression::GZipStream::Read)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::Compression::GZipStream::*)(::ArrayW<uint8_t>, int, int)>(&System::IO::Compression::GZipStream::Read)> {
   static const MethodInfo* get() {
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -333,7 +340,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::IO::Compression::GZipStream::BeginWrite
 // Il2CppName: BeginWrite
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::IO::Compression::GZipStream::*)(::ArrayWrapper<uint8_t>, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::IO::Compression::GZipStream::BeginWrite)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::IO::Compression::GZipStream::*)(::ArrayW<uint8_t>, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::IO::Compression::GZipStream::BeginWrite)> {
   static const MethodInfo* get() {
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -355,7 +362,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::IO::Compression::GZipStream::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::Compression::GZipStream::*)(::ArrayWrapper<uint8_t>, int, int)>(&System::IO::Compression::GZipStream::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::Compression::GZipStream::*)(::ArrayW<uint8_t>, int, int)>(&System::IO::Compression::GZipStream::Write)> {
   static const MethodInfo* get() {
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -375,7 +382,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::IO::Compression::GZipStream::ReadAsync
 // Il2CppName: ReadAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<int>* (System::IO::Compression::GZipStream::*)(::ArrayWrapper<uint8_t>, int, int, System::Threading::CancellationToken)>(&System::IO::Compression::GZipStream::ReadAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<int>* (System::IO::Compression::GZipStream::*)(::ArrayW<uint8_t>, int, int, System::Threading::CancellationToken)>(&System::IO::Compression::GZipStream::ReadAsync)> {
   static const MethodInfo* get() {
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -387,7 +394,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: System::IO::Compression::GZipStream::WriteAsync
 // Il2CppName: WriteAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (System::IO::Compression::GZipStream::*)(::ArrayWrapper<uint8_t>, int, int, System::Threading::CancellationToken)>(&System::IO::Compression::GZipStream::WriteAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (System::IO::Compression::GZipStream::*)(::ArrayW<uint8_t>, int, int, System::Threading::CancellationToken)>(&System::IO::Compression::GZipStream::WriteAsync)> {
   static const MethodInfo* get() {
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

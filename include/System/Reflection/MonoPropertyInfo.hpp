@@ -9,6 +9,7 @@
 #include "System/ValueType.hpp"
 // Including type: System.Reflection.PropertyAttributes
 #include "System/Reflection/PropertyAttributes.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -35,6 +36,11 @@ namespace System::Reflection {
   // [TokenAttribute] Offset: FFFFFFFF
   struct MonoPropertyInfo/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Type parent
     // Size: 0x8
     // Offset: 0x0
@@ -71,6 +77,7 @@ namespace System::Reflection {
     System::Reflection::PropertyAttributes attrs;
     // Field size check
     static_assert(sizeof(System::Reflection::PropertyAttributes) == 0x4);
+    public:
     // Creating value type constructor for type: MonoPropertyInfo
     constexpr MonoPropertyInfo(System::Type* parent_ = {}, System::Type* declaring_type_ = {}, ::Il2CppString* name_ = {}, System::Reflection::MethodInfo* get_method_ = {}, System::Reflection::MethodInfo* set_method_ = {}, System::Reflection::PropertyAttributes attrs_ = {}) noexcept : parent{parent_}, declaring_type{declaring_type_}, name{name_}, get_method{get_method_}, set_method{set_method_}, attrs{attrs_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -94,7 +101,7 @@ namespace System::Reflection {
     static void get_property_info(System::Reflection::MonoProperty* prop, ByRef<System::Reflection::MonoPropertyInfo> info, System::Reflection::PInfo req_info);
     // static System.Type[] GetTypeModifiers(System.Reflection.MonoProperty prop, System.Boolean optional)
     // Offset: 0x1EAFDE0
-    static ::ArrayWrapper<System::Type*> GetTypeModifiers(System::Reflection::MonoProperty* prop, bool optional);
+    static ::ArrayW<System::Type*> GetTypeModifiers(System::Reflection::MonoProperty* prop, bool optional);
     // static System.Object get_default_value(System.Reflection.MonoProperty prop)
     // Offset: 0x1EAF49C
     static ::Il2CppObject* get_default_value(System::Reflection::MonoProperty* prop);
@@ -120,7 +127,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Reflection::MonoPropertyInfo::GetTypeModifiers
 // Il2CppName: GetTypeModifiers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::Type*> (*)(System::Reflection::MonoProperty*, bool)>(&System::Reflection::MonoPropertyInfo::GetTypeModifiers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Type*> (*)(System::Reflection::MonoProperty*, bool)>(&System::Reflection::MonoPropertyInfo::GetTypeModifiers)> {
   static const MethodInfo* get() {
     static auto* prop = &::il2cpp_utils::GetClassFromName("System.Reflection", "MonoProperty")->byval_arg;
     static auto* optional = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

@@ -22,6 +22,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRInput::OVRControllerBase::VirtualAxis2DMap : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public OVRInput/RawAxis2D None
     // Size: 0x4
     // Offset: 0x10
@@ -52,6 +57,7 @@ namespace GlobalNamespace {
     GlobalNamespace::OVRInput::RawAxis2D SecondaryTouchpad;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OVRInput::RawAxis2D) == 0x4);
+    public:
     // Get instance field reference: public OVRInput/RawAxis2D None
     GlobalNamespace::OVRInput::RawAxis2D& dyn_None();
     // Get instance field reference: public OVRInput/RawAxis2D PrimaryThumbstick

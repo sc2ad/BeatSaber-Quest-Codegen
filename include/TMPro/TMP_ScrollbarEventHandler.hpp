@@ -35,12 +35,18 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class TMP_ScrollbarEventHandler : public UnityEngine::MonoBehaviour/*, public UnityEngine::EventSystems::IPointerClickHandler, public UnityEngine::EventSystems::ISelectHandler, public UnityEngine::EventSystems::IDeselectHandler*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Boolean isSelected
     // Size: 0x1
     // Offset: 0x18
     bool isSelected;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator UnityEngine::EventSystems::IPointerClickHandler
     operator UnityEngine::EventSystems::IPointerClickHandler() noexcept {
       return *reinterpret_cast<UnityEngine::EventSystems::IPointerClickHandler*>(this);

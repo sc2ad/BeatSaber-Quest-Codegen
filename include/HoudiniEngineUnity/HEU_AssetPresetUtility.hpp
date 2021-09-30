@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HoudiniEngineUnity
@@ -22,9 +23,9 @@ namespace HoudiniEngineUnity {
   class HEU_AssetPresetUtility : public ::Il2CppObject {
     public:
     // Get static field: static public System.Char[] PRESET_IDENTIFIER
-    static ::ArrayWrapper<::Il2CppChar> _get_PRESET_IDENTIFIER();
+    static ::ArrayW<::Il2CppChar> _get_PRESET_IDENTIFIER();
     // Set static field: static public System.Char[] PRESET_IDENTIFIER
-    static void _set_PRESET_IDENTIFIER(::ArrayWrapper<::Il2CppChar> value);
+    static void _set_PRESET_IDENTIFIER(::ArrayW<::Il2CppChar> value);
     // Get static field: static public System.Int32 PRESET_VERSION
     static int _get_PRESET_VERSION();
     // Set static field: static public System.Int32 PRESET_VERSION

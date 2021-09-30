@@ -20,6 +20,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ReorderableAttribute : public UnityEngine::PropertyAttribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String <ElementHeader>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -38,6 +43,7 @@ namespace GlobalNamespace {
     bool ElementSingleLine;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private System.String <ElementHeader>k__BackingField
     ::Il2CppString*& dyn_$ElementHeader$k__BackingField();
     // Get instance field reference: private System.Boolean <HeaderZeroIndex>k__BackingField

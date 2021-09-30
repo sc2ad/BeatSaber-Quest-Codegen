@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -37,17 +38,17 @@ namespace UnityEngine {
   class AttributeHelperEngine : public ::Il2CppObject {
     public:
     // Get static field: static public UnityEngine.DisallowMultipleComponent[] _disallowMultipleComponentArray
-    static ::ArrayWrapper<UnityEngine::DisallowMultipleComponent*> _get__disallowMultipleComponentArray();
+    static ::ArrayW<UnityEngine::DisallowMultipleComponent*> _get__disallowMultipleComponentArray();
     // Set static field: static public UnityEngine.DisallowMultipleComponent[] _disallowMultipleComponentArray
-    static void _set__disallowMultipleComponentArray(::ArrayWrapper<UnityEngine::DisallowMultipleComponent*> value);
+    static void _set__disallowMultipleComponentArray(::ArrayW<UnityEngine::DisallowMultipleComponent*> value);
     // Get static field: static public UnityEngine.ExecuteInEditMode[] _executeInEditModeArray
-    static ::ArrayWrapper<UnityEngine::ExecuteInEditMode*> _get__executeInEditModeArray();
+    static ::ArrayW<UnityEngine::ExecuteInEditMode*> _get__executeInEditModeArray();
     // Set static field: static public UnityEngine.ExecuteInEditMode[] _executeInEditModeArray
-    static void _set__executeInEditModeArray(::ArrayWrapper<UnityEngine::ExecuteInEditMode*> value);
+    static void _set__executeInEditModeArray(::ArrayW<UnityEngine::ExecuteInEditMode*> value);
     // Get static field: static public UnityEngine.RequireComponent[] _requireComponentArray
-    static ::ArrayWrapper<UnityEngine::RequireComponent*> _get__requireComponentArray();
+    static ::ArrayW<UnityEngine::RequireComponent*> _get__requireComponentArray();
     // Set static field: static public UnityEngine.RequireComponent[] _requireComponentArray
-    static void _set__requireComponentArray(::ArrayWrapper<UnityEngine::RequireComponent*> value);
+    static void _set__requireComponentArray(::ArrayW<UnityEngine::RequireComponent*> value);
     // static private System.Void .cctor()
     // Offset: 0x1CADC64
     static void _cctor();
@@ -56,7 +57,7 @@ namespace UnityEngine {
     static System::Type* GetParentTypeDisallowingMultipleInclusion(System::Type* type);
     // static private System.Type[] GetRequiredComponents(System.Type klass)
     // Offset: 0x1CAD6D8
-    static ::ArrayWrapper<System::Type*> GetRequiredComponents(System::Type* klass);
+    static ::ArrayW<System::Type*> GetRequiredComponents(System::Type* klass);
     // static private System.Int32 GetExecuteMode(System.Type klass)
     // Offset: 0x1CAD9EC
     static int GetExecuteMode(System::Type* klass);
@@ -101,7 +102,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: UnityEngine::AttributeHelperEngine::GetRequiredComponents
 // Il2CppName: GetRequiredComponents
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::Type*> (*)(System::Type*)>(&UnityEngine::AttributeHelperEngine::GetRequiredComponents)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Type*> (*)(System::Type*)>(&UnityEngine::AttributeHelperEngine::GetRequiredComponents)> {
   static const MethodInfo* get() {
     static auto* klass = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AttributeHelperEngine*), "GetRequiredComponents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{klass});

@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Serialization
@@ -27,28 +28,34 @@ namespace System::Text {
   // [TokenAttribute] Offset: FFFFFFFF
   class DecoderFallbackException : public System::ArgumentException {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Byte[] bytesUnknown
     // Size: 0x8
     // Offset: 0x90
-    ::ArrayWrapper<uint8_t> bytesUnknown;
+    ::ArrayW<uint8_t> bytesUnknown;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Int32 index
     // Size: 0x4
     // Offset: 0x98
     int index;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Deleting conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept = delete;
     // Get instance field reference: private System.Byte[] bytesUnknown
-    ::ArrayWrapper<uint8_t>& dyn_bytesUnknown();
+    ::ArrayW<uint8_t>& dyn_bytesUnknown();
     // Get instance field reference: private System.Int32 index
     int& dyn_index();
     // public System.Void .ctor(System.String message, System.Byte[] bytesUnknown, System.Int32 index)
     // Offset: 0x1DF8808
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DecoderFallbackException* New_ctor(::Il2CppString* message, ::ArrayWrapper<uint8_t> bytesUnknown, int index) {
+    static DecoderFallbackException* New_ctor(::Il2CppString* message, ::ArrayW<uint8_t> bytesUnknown, int index) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::DecoderFallbackException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DecoderFallbackException*, creationType>(message, bytesUnknown, index)));
     }

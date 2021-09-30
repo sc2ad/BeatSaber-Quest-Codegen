@@ -21,6 +21,11 @@ namespace System::Runtime::Versioning {
   // [AttributeUsageAttribute] Offset: E5F624
   class TargetFrameworkAttribute : public System::Attribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String _frameworkName
     // Size: 0x8
     // Offset: 0x10
@@ -33,6 +38,7 @@ namespace System::Runtime::Versioning {
     ::Il2CppString* frameworkDisplayName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: private System.String _frameworkName
     ::Il2CppString*& dyn__frameworkName();
     // Get instance field reference: private System.String _frameworkDisplayName

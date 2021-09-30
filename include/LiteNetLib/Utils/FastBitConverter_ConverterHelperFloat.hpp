@@ -18,6 +18,11 @@ namespace LiteNetLib::Utils {
   // [TokenAttribute] Offset: FFFFFFFF
   struct FastBitConverter::ConverterHelperFloat/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 Aint
     // Size: 0x4
     // Offset: 0x0
@@ -30,6 +35,7 @@ namespace LiteNetLib::Utils {
     float Afloat;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: ConverterHelperFloat
     constexpr ConverterHelperFloat(int Aint_ = {}, float Afloat_ = {}) noexcept : Aint{Aint_}, Afloat{Afloat_} {}
     // Creating interface conversion operator: operator System::ValueType

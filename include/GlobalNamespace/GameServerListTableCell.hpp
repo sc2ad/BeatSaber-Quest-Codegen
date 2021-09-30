@@ -39,6 +39,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GameServerListTableCell : public HMUI::TableCell {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private HMUI.CurvedTextMeshPro _serverName
     // Size: 0x8
     // Offset: 0x50
@@ -76,6 +81,7 @@ namespace GlobalNamespace {
     GlobalNamespace::SongPackMasksModel* songPackMasksModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SongPackMasksModel*) == 0x8);
+    public:
     // Get instance field reference: private HMUI.CurvedTextMeshPro _serverName
     HMUI::CurvedTextMeshPro*& dyn__serverName();
     // Get instance field reference: private HMUI.CurvedTextMeshPro _difficultiesText

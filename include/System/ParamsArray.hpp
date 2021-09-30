@@ -6,6 +6,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
 struct Il2CppObject;
@@ -20,6 +21,11 @@ namespace System {
   // [DefaultMemberAttribute] Offset: E5C554
   struct ParamsArray/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Object arg0
     // Size: 0x8
     // Offset: 0x0
@@ -41,27 +47,28 @@ namespace System {
     // private readonly System.Object[] args
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<::Il2CppObject*> args;
+    ::ArrayW<::Il2CppObject*> args;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppObject*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppObject*>) == 0x8);
+    public:
     // Creating value type constructor for type: ParamsArray
-    constexpr ParamsArray(::Il2CppObject* arg0_ = {}, ::Il2CppObject* arg1_ = {}, ::Il2CppObject* arg2_ = {}, ::ArrayWrapper<::Il2CppObject*> args_ = ::ArrayWrapper<::Il2CppObject*>(nullptr)) noexcept : arg0{arg0_}, arg1{arg1_}, arg2{arg2_}, args{args_} {}
+    constexpr ParamsArray(::Il2CppObject* arg0_ = {}, ::Il2CppObject* arg1_ = {}, ::Il2CppObject* arg2_ = {}, ::ArrayW<::Il2CppObject*> args_ = ::ArrayW<::Il2CppObject*>(nullptr)) noexcept : arg0{arg0_}, arg1{arg1_}, arg2{arg2_}, args{args_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // Get static field: static private readonly System.Object[] oneArgArray
-    static ::ArrayWrapper<::Il2CppObject*> _get_oneArgArray();
+    static ::ArrayW<::Il2CppObject*> _get_oneArgArray();
     // Set static field: static private readonly System.Object[] oneArgArray
-    static void _set_oneArgArray(::ArrayWrapper<::Il2CppObject*> value);
+    static void _set_oneArgArray(::ArrayW<::Il2CppObject*> value);
     // Get static field: static private readonly System.Object[] twoArgArray
-    static ::ArrayWrapper<::Il2CppObject*> _get_twoArgArray();
+    static ::ArrayW<::Il2CppObject*> _get_twoArgArray();
     // Set static field: static private readonly System.Object[] twoArgArray
-    static void _set_twoArgArray(::ArrayWrapper<::Il2CppObject*> value);
+    static void _set_twoArgArray(::ArrayW<::Il2CppObject*> value);
     // Get static field: static private readonly System.Object[] threeArgArray
-    static ::ArrayWrapper<::Il2CppObject*> _get_threeArgArray();
+    static ::ArrayW<::Il2CppObject*> _get_threeArgArray();
     // Set static field: static private readonly System.Object[] threeArgArray
-    static void _set_threeArgArray(::ArrayWrapper<::Il2CppObject*> value);
+    static void _set_threeArgArray(::ArrayW<::Il2CppObject*> value);
     // Get instance field reference: private readonly System.Object arg0
     ::Il2CppObject*& dyn_arg0();
     // Get instance field reference: private readonly System.Object arg1
@@ -69,7 +76,7 @@ namespace System {
     // Get instance field reference: private readonly System.Object arg2
     ::Il2CppObject*& dyn_arg2();
     // Get instance field reference: private readonly System.Object[] args
-    ::ArrayWrapper<::Il2CppObject*>& dyn_args();
+    ::ArrayW<::Il2CppObject*>& dyn_args();
     // public System.Int32 get_Length()
     // Offset: 0x1E9F6D0
     int get_Length();
@@ -87,7 +94,7 @@ namespace System {
     ParamsArray(::Il2CppObject* arg0, ::Il2CppObject* arg1, ::Il2CppObject* arg2);
     // public System.Void .ctor(System.Object[] args)
     // Offset: 0x1E9F644
-    ParamsArray(::ArrayWrapper<::Il2CppObject*> args);
+    ParamsArray(::ArrayW<::Il2CppObject*> args);
     // static private System.Void .cctor()
     // Offset: 0x1E9F75C
     static void _cctor();
@@ -96,7 +103,7 @@ namespace System {
     ::Il2CppObject* GetAtSlow(int index);
   }; // System.ParamsArray
   #pragma pack(pop)
-  static check_size<sizeof(ParamsArray), 24 + sizeof(::ArrayWrapper<::Il2CppObject*>)> __System_ParamsArraySizeCheck;
+  static check_size<sizeof(ParamsArray), 24 + sizeof(::ArrayW<::Il2CppObject*>)> __System_ParamsArraySizeCheck;
   static_assert(sizeof(ParamsArray) == 0x20);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

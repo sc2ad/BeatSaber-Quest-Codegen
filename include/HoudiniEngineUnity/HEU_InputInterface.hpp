@@ -32,12 +32,18 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_InputInterface : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // protected System.Int32 _priority
     // Size: 0x4
     // Offset: 0x10
     int priority;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return priority;

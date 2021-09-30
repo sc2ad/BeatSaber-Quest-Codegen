@@ -11,6 +11,7 @@
 #include "UnityEngine/Vector3.hpp"
 // Including type: UnityEngine.Quaternion
 #include "UnityEngine/Quaternion.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
@@ -21,6 +22,11 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HumanPose/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Vector3 bodyPosition
     // Size: 0xC
     // Offset: 0x0
@@ -38,11 +44,12 @@ namespace UnityEngine {
     // public System.Single[] muscles
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<float> muscles;
+    ::ArrayW<float> muscles;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<float>) == 0x8);
+    static_assert(sizeof(::ArrayW<float>) == 0x8);
+    public:
     // Creating value type constructor for type: HumanPose
-    constexpr HumanPose(UnityEngine::Vector3 bodyPosition_ = {}, UnityEngine::Quaternion bodyRotation_ = {}, ::ArrayWrapper<float> muscles_ = ::ArrayWrapper<float>(nullptr)) noexcept : bodyPosition{bodyPosition_}, bodyRotation{bodyRotation_}, muscles{muscles_} {}
+    constexpr HumanPose(UnityEngine::Vector3 bodyPosition_ = {}, UnityEngine::Quaternion bodyRotation_ = {}, ::ArrayW<float> muscles_ = ::ArrayW<float>(nullptr)) noexcept : bodyPosition{bodyPosition_}, bodyRotation{bodyRotation_}, muscles{muscles_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -52,13 +59,13 @@ namespace UnityEngine {
     // Get instance field reference: public UnityEngine.Quaternion bodyRotation
     UnityEngine::Quaternion& dyn_bodyRotation();
     // Get instance field reference: public System.Single[] muscles
-    ::ArrayWrapper<float>& dyn_muscles();
+    ::ArrayW<float>& dyn_muscles();
     // System.Void Init()
     // Offset: 0x2597E38
     void Init();
   }; // UnityEngine.HumanPose
   #pragma pack(pop)
-  static check_size<sizeof(HumanPose), 32 + sizeof(::ArrayWrapper<float>)> __UnityEngine_HumanPoseSizeCheck;
+  static check_size<sizeof(HumanPose), 32 + sizeof(::ArrayW<float>)> __UnityEngine_HumanPoseSizeCheck;
   static_assert(sizeof(HumanPose) == 0x28);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

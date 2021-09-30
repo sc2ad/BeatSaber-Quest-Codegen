@@ -22,6 +22,11 @@ namespace System::Diagnostics {
   // [TokenAttribute] Offset: FFFFFFFF
   class TraceListener : public System::MarshalByRefObject/*, public System::IDisposable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 indentLevel
     // Size: 0x4
     // Offset: 0x18
@@ -48,6 +53,7 @@ namespace System::Diagnostics {
     ::Il2CppString* listenerName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

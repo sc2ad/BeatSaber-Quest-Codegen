@@ -12,6 +12,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: UnityEngine.Bindings
 namespace UnityEngine::Bindings {
@@ -26,7 +27,7 @@ namespace UnityEngine::Bindings {
     // public System.Void .ctor(params System.String[] modules)
     // Offset: 0x261FA58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static VisibleToOtherModulesAttribute* New_ctor(::ArrayWrapper<::Il2CppString*> modules) {
+    static VisibleToOtherModulesAttribute* New_ctor(::ArrayW<::Il2CppString*> modules) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Bindings::VisibleToOtherModulesAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VisibleToOtherModulesAttribute*, creationType>(modules)));
     }

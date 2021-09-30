@@ -43,6 +43,11 @@ namespace System::Security::Principal {
   // [ComVisibleAttribute] Offset: E5F034
   class WindowsIdentity : public System::Security::Claims::ClaimsIdentity/*, public System::IDisposable, public System::Runtime::Serialization::ISerializable, public System::Runtime::Serialization::IDeserializationCallback*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.IntPtr _token
     // Size: 0x8
     // Offset: 0x78
@@ -81,6 +86,7 @@ namespace System::Security::Principal {
     System::Runtime::Serialization::SerializationInfo* info;
     // Field size check
     static_assert(sizeof(System::Runtime::Serialization::SerializationInfo*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

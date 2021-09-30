@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: BeatSaberAPI.DataTransferObjects
 namespace BeatSaberAPI::DataTransferObjects {
@@ -22,6 +23,11 @@ namespace BeatSaberAPI::DataTransferObjects {
   // [TokenAttribute] Offset: FFFFFFFF
   class LeaderboardEntry : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 id
     // Size: 0x4
     // Offset: 0x10
@@ -67,9 +73,10 @@ namespace BeatSaberAPI::DataTransferObjects {
     // public BeatSaberAPI.DataTransferObjects.LevelScoreResult/BeatSaberAPI.DataTransferObjects.GameplayModifiers[] gameplayModifiers
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayWrapper<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers> gameplayModifiers;
+    ::ArrayW<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers> gameplayModifiers;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>) == 0x8);
+    static_assert(sizeof(::ArrayW<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>) == 0x8);
+    public:
     // Get instance field reference: public System.Int32 id
     int& dyn_id();
     // Get instance field reference: public System.Int32 score
@@ -85,7 +92,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     // Get instance field reference: public System.String platformUserId
     ::Il2CppString*& dyn_platformUserId();
     // Get instance field reference: public BeatSaberAPI.DataTransferObjects.LevelScoreResult/BeatSaberAPI.DataTransferObjects.GameplayModifiers[] gameplayModifiers
-    ::ArrayWrapper<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>& dyn_gameplayModifiers();
+    ::ArrayW<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>& dyn_gameplayModifiers();
     // public System.Void .ctor()
     // Offset: 0x126F438
     // Implemented from: System.Object
@@ -97,7 +104,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     }
   }; // BeatSaberAPI.DataTransferObjects.LeaderboardEntry
   #pragma pack(pop)
-  static check_size<sizeof(LeaderboardEntry), 56 + sizeof(::ArrayWrapper<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>)> __BeatSaberAPI_DataTransferObjects_LeaderboardEntrySizeCheck;
+  static check_size<sizeof(LeaderboardEntry), 56 + sizeof(::ArrayW<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>)> __BeatSaberAPI_DataTransferObjects_LeaderboardEntrySizeCheck;
   static_assert(sizeof(LeaderboardEntry) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(BeatSaberAPI::DataTransferObjects::LeaderboardEntry*, "BeatSaberAPI.DataTransferObjects", "LeaderboardEntry");

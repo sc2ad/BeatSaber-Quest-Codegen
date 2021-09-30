@@ -31,12 +31,18 @@ namespace RootMotion::FinalIK {
     public:
     // Writing base type padding for base size: 0x71 to desired offset: 0x74
     char ___base_padding[0x3] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Vector3 baseForwardOffsetEuler
     // Size: 0xC
     // Offset: 0x74
     UnityEngine::Vector3 baseForwardOffsetEuler;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    public:
     // Creating conversion operator: operator UnityEngine::Vector3
     constexpr operator UnityEngine::Vector3() const noexcept {
       return baseForwardOffsetEuler;

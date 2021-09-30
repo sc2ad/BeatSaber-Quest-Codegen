@@ -6,6 +6,7 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include <initializer_list>
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -68,7 +69,7 @@ namespace UnityEngine {
     static void Log(::Il2CppObject* message, UnityEngine::Object* context);
     // static public System.Void LogFormat(System.String format, params System.Object[] args)
     // Offset: 0x1CB6E8C
-    static void LogFormat(::Il2CppString* format, ::ArrayWrapper<::Il2CppObject*> args);
+    static void LogFormat(::Il2CppString* format, ::ArrayW<::Il2CppObject*> args);
     // static public System.Void LogError(System.Object message)
     // Offset: 0x1CB6FBC
     static void LogError(::Il2CppObject* message);
@@ -77,10 +78,10 @@ namespace UnityEngine {
     static void LogError(::Il2CppObject* message, UnityEngine::Object* context);
     // static public System.Void LogErrorFormat(System.String format, params System.Object[] args)
     // Offset: 0x1CB7214
-    static void LogErrorFormat(::Il2CppString* format, ::ArrayWrapper<::Il2CppObject*> args);
+    static void LogErrorFormat(::Il2CppString* format, ::ArrayW<::Il2CppObject*> args);
     // static public System.Void LogErrorFormat(UnityEngine.Object context, System.String format, params System.Object[] args)
     // Offset: 0x1CB7344
-    static void LogErrorFormat(UnityEngine::Object* context, ::Il2CppString* format, ::ArrayWrapper<::Il2CppObject*> args);
+    static void LogErrorFormat(UnityEngine::Object* context, ::Il2CppString* format, ::ArrayW<::Il2CppObject*> args);
     // static public System.Void LogException(System.Exception exception)
     // Offset: 0x1CAC38C
     static void LogException(System::Exception* exception);
@@ -95,10 +96,10 @@ namespace UnityEngine {
     static void LogWarning(::Il2CppObject* message, UnityEngine::Object* context);
     // static public System.Void LogWarningFormat(System.String format, params System.Object[] args)
     // Offset: 0x1CB7804
-    static void LogWarningFormat(::Il2CppString* format, ::ArrayWrapper<::Il2CppObject*> args);
+    static void LogWarningFormat(::Il2CppString* format, ::ArrayW<::Il2CppObject*> args);
     // static public System.Void LogWarningFormat(UnityEngine.Object context, System.String format, params System.Object[] args)
     // Offset: 0x1CB7934
-    static void LogWarningFormat(UnityEngine::Object* context, ::Il2CppString* format, ::ArrayWrapper<::Il2CppObject*> args);
+    static void LogWarningFormat(UnityEngine::Object* context, ::Il2CppString* format, ::ArrayW<::Il2CppObject*> args);
     // static public System.Void LogAssertion(System.Object message)
     // Offset: 0x1CAC9FC
     static void LogAssertion(::Il2CppObject* message);
@@ -198,7 +199,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: UnityEngine::Debug::LogFormat
 // Il2CppName: LogFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayWrapper<::Il2CppObject*>)>(&UnityEngine::Debug::LogFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayW<::Il2CppObject*>)>(&UnityEngine::Debug::LogFormat)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
@@ -227,7 +228,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: UnityEngine::Debug::LogErrorFormat
 // Il2CppName: LogErrorFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayWrapper<::Il2CppObject*>)>(&UnityEngine::Debug::LogErrorFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayW<::Il2CppObject*>)>(&UnityEngine::Debug::LogErrorFormat)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
@@ -237,7 +238,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: UnityEngine::Debug::LogErrorFormat
 // Il2CppName: LogErrorFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Object*, ::Il2CppString*, ::ArrayWrapper<::Il2CppObject*>)>(&UnityEngine::Debug::LogErrorFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Object*, ::Il2CppString*, ::ArrayW<::Il2CppObject*>)>(&UnityEngine::Debug::LogErrorFormat)> {
   static const MethodInfo* get() {
     static auto* context = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -286,7 +287,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: UnityEngine::Debug::LogWarningFormat
 // Il2CppName: LogWarningFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayWrapper<::Il2CppObject*>)>(&UnityEngine::Debug::LogWarningFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayW<::Il2CppObject*>)>(&UnityEngine::Debug::LogWarningFormat)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
@@ -296,7 +297,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: UnityEngine::Debug::LogWarningFormat
 // Il2CppName: LogWarningFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Object*, ::Il2CppString*, ::ArrayWrapper<::Il2CppObject*>)>(&UnityEngine::Debug::LogWarningFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Object*, ::Il2CppString*, ::ArrayW<::Il2CppObject*>)>(&UnityEngine::Debug::LogWarningFormat)> {
   static const MethodInfo* get() {
     static auto* context = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

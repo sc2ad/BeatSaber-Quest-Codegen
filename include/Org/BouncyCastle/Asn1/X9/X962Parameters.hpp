@@ -29,12 +29,18 @@ namespace Org::BouncyCastle::Asn1::X9 {
   // [TokenAttribute] Offset: FFFFFFFF
   class X962Parameters : public Org::BouncyCastle::Asn1::Asn1Encodable/*, public Org::BouncyCastle::Asn1::IAsn1Choice*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Org.BouncyCastle.Asn1.Asn1Object _params
     // Size: 0x8
     // Offset: 0x10
     Org::BouncyCastle::Asn1::Asn1Object* params;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::Asn1Object*) == 0x8);
+    public:
     // Creating interface conversion operator: operator Org::BouncyCastle::Asn1::IAsn1Choice
     operator Org::BouncyCastle::Asn1::IAsn1Choice() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Asn1::IAsn1Choice*>(this);

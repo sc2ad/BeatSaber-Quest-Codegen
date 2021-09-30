@@ -42,6 +42,11 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   // [TokenAttribute] Offset: FFFFFFFF
   class BundledAssetProvider::InternalOp : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.AssetBundleRequest m_RequestOperation
     // Size: 0x8
     // Offset: 0x10
@@ -60,6 +65,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     ::Il2CppString* subObjectName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: private UnityEngine.AssetBundleRequest m_RequestOperation
     UnityEngine::AssetBundleRequest*& dyn_m_RequestOperation();
     // Get instance field reference: private UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle m_ProvideHandle

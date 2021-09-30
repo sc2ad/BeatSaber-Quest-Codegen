@@ -29,6 +29,11 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class UserAndRoom : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly Oculus.Platform.Models.Room RoomOptional
     // Size: 0x8
     // Offset: 0x10
@@ -48,6 +53,7 @@ namespace Oculus::Platform::Models {
     Oculus::Platform::Models::User* User;
     // Field size check
     static_assert(sizeof(Oculus::Platform::Models::User*) == 0x8);
+    public:
     // Get instance field reference: public readonly Oculus.Platform.Models.Room RoomOptional
     Oculus::Platform::Models::Room*& dyn_RoomOptional();
     // Get instance field reference: public readonly Oculus.Platform.Models.Room Room

@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -60,6 +61,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::MockPlayerGamePoseGeneratorAI::$SendPoses$d__3
     struct $SendPoses$d__3;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly IMockPlayerScoreCalculator _scoreCalculator
     // Size: 0x8
     // Offset: 0x38
@@ -72,6 +78,7 @@ namespace GlobalNamespace {
     int lastKnowScore;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: private readonly IMockPlayerScoreCalculator _scoreCalculator
     GlobalNamespace::IMockPlayerScoreCalculator*& dyn__scoreCalculator();
     // Get instance field reference: private System.Int32 _lastKnowScore
@@ -94,10 +101,10 @@ namespace GlobalNamespace {
     static UnityEngine::Vector3 Blerp(UnityEngine::Vector3 prevStart, UnityEngine::Vector3 prevEnd, UnityEngine::Vector3 currStart, UnityEngine::Vector3 currEnd, float t);
     // private UnityEngine.Pose ProcessNotes(MockNoteData[] notes, UnityEngine.Vector3 handDirection, ref System.Int32 noteIndex, ref System.Int32 prevHitScore, ref System.Int32 nextHitScore, MockNoteData[] bombs, ref System.Int32 bombIndex, System.Int32 lineCount, System.Single songTime, out System.Boolean wasHitOrMiss)
     // Offset: 0x25E2E0C
-    UnityEngine::Pose ProcessNotes(::ArrayWrapper<GlobalNamespace::MockNoteData*> notes, UnityEngine::Vector3 handDirection, ByRef<int> noteIndex, ByRef<int> prevHitScore, ByRef<int> nextHitScore, ::ArrayWrapper<GlobalNamespace::MockNoteData*> bombs, ByRef<int> bombIndex, int lineCount, float songTime, ByRef<bool> wasHitOrMiss);
+    UnityEngine::Pose ProcessNotes(::ArrayW<GlobalNamespace::MockNoteData*> notes, UnityEngine::Vector3 handDirection, ByRef<int> noteIndex, ByRef<int> prevHitScore, ByRef<int> nextHitScore, ::ArrayW<GlobalNamespace::MockNoteData*> bombs, ByRef<int> bombIndex, int lineCount, float songTime, ByRef<bool> wasHitOrMiss);
     // private UnityEngine.Pose ProcessObstacles(MockObstacleData[] obstacles, ref System.Int32 obstacleIndex, System.Int32 lineCount, UnityEngine.Pose prevHeadPose, UnityEngine.Pose leftHandPose, UnityEngine.Pose rightHandPose, System.Single songTime)
     // Offset: 0x25E40F0
-    UnityEngine::Pose ProcessObstacles(::ArrayWrapper<GlobalNamespace::MockObstacleData*> obstacles, ByRef<int> obstacleIndex, int lineCount, UnityEngine::Pose prevHeadPose, UnityEngine::Pose leftHandPose, UnityEngine::Pose rightHandPose, float songTime);
+    UnityEngine::Pose ProcessObstacles(::ArrayW<GlobalNamespace::MockObstacleData*> obstacles, ByRef<int> obstacleIndex, int lineCount, UnityEngine::Pose prevHeadPose, UnityEngine::Pose leftHandPose, UnityEngine::Pose rightHandPose, float songTime);
     // private System.Void UpdateScore(ref System.Int32 currentScore, ref System.Int32 currentCombo, ref System.Int32 currentMultiplier, System.Int32 hitScore, System.Int32 lineCount, UnityEngine.Pose lastPose, UnityEngine.Pose currentPose, System.Single lastSongTime, System.Single songTime, MockNoteData noteData, MockNoteData nextNoteData)
     // Offset: 0x25E44A0
     void UpdateScore(ByRef<int> currentScore, ByRef<int> currentCombo, ByRef<int> currentMultiplier, int hitScore, int lineCount, UnityEngine::Pose lastPose, UnityEngine::Pose currentPose, float lastSongTime, float songTime, GlobalNamespace::MockNoteData* noteData, GlobalNamespace::MockNoteData* nextNoteData);
@@ -157,7 +164,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayerGamePoseGeneratorAI::ProcessNotes
 // Il2CppName: ProcessNotes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Pose (GlobalNamespace::MockPlayerGamePoseGeneratorAI::*)(::ArrayWrapper<GlobalNamespace::MockNoteData*>, UnityEngine::Vector3, ByRef<int>, ByRef<int>, ByRef<int>, ::ArrayWrapper<GlobalNamespace::MockNoteData*>, ByRef<int>, int, float, ByRef<bool>)>(&GlobalNamespace::MockPlayerGamePoseGeneratorAI::ProcessNotes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Pose (GlobalNamespace::MockPlayerGamePoseGeneratorAI::*)(::ArrayW<GlobalNamespace::MockNoteData*>, UnityEngine::Vector3, ByRef<int>, ByRef<int>, ByRef<int>, ::ArrayW<GlobalNamespace::MockNoteData*>, ByRef<int>, int, float, ByRef<bool>)>(&GlobalNamespace::MockPlayerGamePoseGeneratorAI::ProcessNotes)> {
   static const MethodInfo* get() {
     static auto* notes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "MockNoteData"), 1)->byval_arg;
     static auto* handDirection = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -175,7 +182,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::MockPlayerGamePoseGeneratorAI::ProcessObstacles
 // Il2CppName: ProcessObstacles
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Pose (GlobalNamespace::MockPlayerGamePoseGeneratorAI::*)(::ArrayWrapper<GlobalNamespace::MockObstacleData*>, ByRef<int>, int, UnityEngine::Pose, UnityEngine::Pose, UnityEngine::Pose, float)>(&GlobalNamespace::MockPlayerGamePoseGeneratorAI::ProcessObstacles)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Pose (GlobalNamespace::MockPlayerGamePoseGeneratorAI::*)(::ArrayW<GlobalNamespace::MockObstacleData*>, ByRef<int>, int, UnityEngine::Pose, UnityEngine::Pose, UnityEngine::Pose, float)>(&GlobalNamespace::MockPlayerGamePoseGeneratorAI::ProcessObstacles)> {
   static const MethodInfo* get() {
     static auto* obstacles = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "MockObstacleData"), 1)->byval_arg;
     static auto* obstacleIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;

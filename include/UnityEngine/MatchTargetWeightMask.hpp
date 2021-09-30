@@ -20,6 +20,11 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E8B494
   struct MatchTargetWeightMask/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Vector3 m_PositionXYZWeight
     // Size: 0xC
     // Offset: 0x0
@@ -32,6 +37,7 @@ namespace UnityEngine {
     float m_RotationWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: MatchTargetWeightMask
     constexpr MatchTargetWeightMask(UnityEngine::Vector3 m_PositionXYZWeight_ = {}, float m_RotationWeight_ = {}) noexcept : m_PositionXYZWeight{m_PositionXYZWeight_}, m_RotationWeight{m_RotationWeight_} {}
     // Creating interface conversion operator: operator System::ValueType

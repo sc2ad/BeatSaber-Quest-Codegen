@@ -29,12 +29,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OculusConnectionManager::StartServerParams : public ::Il2CppObject/*, public GlobalNamespace::IConnectionInitParams_1<GlobalNamespace::OculusConnectionManager*>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public OculusNetworkPlayerModel oculusNetworkPlayerModel
     // Size: 0x8
     // Offset: 0x10
     GlobalNamespace::OculusNetworkPlayerModel* oculusNetworkPlayerModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OculusNetworkPlayerModel*) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IConnectionInitParams_1<GlobalNamespace::OculusConnectionManager*>
     operator GlobalNamespace::IConnectionInitParams_1<GlobalNamespace::OculusConnectionManager*>() noexcept {
       return *reinterpret_cast<GlobalNamespace::IConnectionInitParams_1<GlobalNamespace::OculusConnectionManager*>*>(this);

@@ -29,6 +29,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class CentralLeaderboardViewController::ScoreScopeInfo : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public OnlineServices.ScoresScope scoreScope
     // Size: 0x4
     // Offset: 0x10
@@ -55,6 +60,7 @@ namespace GlobalNamespace {
     int playerScorePos;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: public OnlineServices.ScoresScope scoreScope
     OnlineServices::ScoresScope& dyn_scoreScope();
     // Get instance field reference: public System.String localizedTitle

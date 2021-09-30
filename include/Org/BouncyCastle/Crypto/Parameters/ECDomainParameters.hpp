@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Math::EC
@@ -37,6 +38,11 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   // [TokenAttribute] Offset: FFFFFFFF
   class ECDomainParameters : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Org.BouncyCastle.Math.EC.ECCurve curve
     // Size: 0x8
     // Offset: 0x10
@@ -46,9 +52,9 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // private readonly System.Byte[] seed
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<uint8_t> seed;
+    ::ArrayW<uint8_t> seed;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private readonly Org.BouncyCastle.Math.EC.ECPoint g
     // Size: 0x8
     // Offset: 0x20
@@ -73,10 +79,11 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     Org::BouncyCastle::Math::BigInteger* hInv;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Math::BigInteger*) == 0x8);
+    public:
     // Get instance field reference: private readonly Org.BouncyCastle.Math.EC.ECCurve curve
     Org::BouncyCastle::Math::EC::ECCurve*& dyn_curve();
     // Get instance field reference: private readonly System.Byte[] seed
-    ::ArrayWrapper<uint8_t>& dyn_seed();
+    ::ArrayW<uint8_t>& dyn_seed();
     // Get instance field reference: private readonly Org.BouncyCastle.Math.EC.ECPoint g
     Org::BouncyCastle::Math::EC::ECPoint*& dyn_g();
     // Get instance field reference: private readonly Org.BouncyCastle.Math.BigInteger n
@@ -117,13 +124,13 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // public System.Void .ctor(Org.BouncyCastle.Math.EC.ECCurve curve, Org.BouncyCastle.Math.EC.ECPoint g, Org.BouncyCastle.Math.BigInteger n, Org.BouncyCastle.Math.BigInteger h, System.Byte[] seed)
     // Offset: 0x1393E7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ECDomainParameters* New_ctor(Org::BouncyCastle::Math::EC::ECCurve* curve, Org::BouncyCastle::Math::EC::ECPoint* g, Org::BouncyCastle::Math::BigInteger* n, Org::BouncyCastle::Math::BigInteger* h, ::ArrayWrapper<uint8_t> seed) {
+    static ECDomainParameters* New_ctor(Org::BouncyCastle::Math::EC::ECCurve* curve, Org::BouncyCastle::Math::EC::ECPoint* g, Org::BouncyCastle::Math::BigInteger* n, Org::BouncyCastle::Math::BigInteger* h, ::ArrayW<uint8_t> seed) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ECDomainParameters*, creationType>(curve, g, n, h, seed)));
     }
     // public System.Byte[] GetSeed()
     // Offset: 0x1394310
-    ::ArrayWrapper<uint8_t> GetSeed();
+    ::ArrayW<uint8_t> GetSeed();
     // protected System.Boolean Equals(Org.BouncyCastle.Crypto.Parameters.ECDomainParameters other)
     // Offset: 0x1394434
     bool Equals(Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* other);
@@ -205,7 +212,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::GetSeed
 // Il2CppName: GetSeed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::*)()>(&Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::GetSeed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::*)()>(&Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::GetSeed)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*), "GetSeed", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

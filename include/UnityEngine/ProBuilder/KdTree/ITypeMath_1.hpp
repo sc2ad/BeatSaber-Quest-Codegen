@@ -8,6 +8,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: UnityEngine.ProBuilder.KdTree
 namespace UnityEngine::ProBuilder::KdTree {
@@ -51,7 +52,7 @@ namespace UnityEngine::ProBuilder::KdTree {
     }
     // public System.Boolean AreEqual(T[] a, T[] b)
     // Offset: 0xFFFFFFFF
-    bool AreEqual(::ArrayWrapper<T> a, ::ArrayWrapper<T> b) {
+    bool AreEqual(::ArrayW<T> a, ::ArrayW<T> b) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::ITypeMath_1::AreEqual");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "AreEqual", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(a), ::il2cpp_utils::ExtractType(b)})));
       auto ___instance_arg = this;
@@ -67,7 +68,7 @@ namespace UnityEngine::ProBuilder::KdTree {
     }
     // public T DistanceSquaredBetweenPoints(T[] a, T[] b)
     // Offset: 0xFFFFFFFF
-    T DistanceSquaredBetweenPoints(::ArrayWrapper<T> a, ::ArrayWrapper<T> b) {
+    T DistanceSquaredBetweenPoints(::ArrayW<T> a, ::ArrayW<T> b) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::KdTree::ITypeMath_1::DistanceSquaredBetweenPoints");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "DistanceSquaredBetweenPoints", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(a), ::il2cpp_utils::ExtractType(b)})));
       auto ___instance_arg = this;

@@ -49,12 +49,18 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct State/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: State
       constexpr State(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -89,6 +95,11 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(AudioTimeSyncController::State), 0 + sizeof(int)> __GlobalNamespace_AudioTimeSyncController_StateSizeCheck;
     static_assert(sizeof(AudioTimeSyncController::State) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Single _audioSyncLerpSpeed
     // Size: 0x4
     // Offset: 0x18
@@ -232,6 +243,7 @@ namespace GlobalNamespace {
     float lastFrameDeltaSongTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IAudioTimeSource
     operator GlobalNamespace::IAudioTimeSource() noexcept {
       return *reinterpret_cast<GlobalNamespace::IAudioTimeSource*>(this);

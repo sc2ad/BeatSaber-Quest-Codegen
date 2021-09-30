@@ -29,6 +29,11 @@ namespace NetEase::Docker {
   // [TokenAttribute] Offset: FFFFFFFF
   struct ReceivedHighscoreData/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [DebuggerBrowsableAttribute] Offset: 0xEEDDD4
     // private System.Boolean <FetchingSuccessful>k__BackingField
     // Size: 0x1
@@ -59,6 +64,7 @@ namespace NetEase::Docker {
     System::Collections::Generic::List_1<NetEase::Docker::ScoreData>* Scores;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<NetEase::Docker::ScoreData>*) == 0x8);
+    public:
     // Creating value type constructor for type: ReceivedHighscoreData
     constexpr ReceivedHighscoreData(bool FetchingSuccessful_ = {}, int HighscoreCode_ = {}, ::Il2CppString* Track_ = {}, System::Collections::Generic::List_1<NetEase::Docker::ScoreData>* Scores_ = {}) noexcept : FetchingSuccessful{FetchingSuccessful_}, HighscoreCode{HighscoreCode_}, Track{Track_}, Scores{Scores_} {}
     // Creating interface conversion operator: operator System::ValueType

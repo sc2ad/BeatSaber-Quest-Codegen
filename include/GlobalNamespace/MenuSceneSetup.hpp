@@ -41,6 +41,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::MenuSceneSetup::$Start$d__3
     class $Start$d__3;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private HMUI.FlowCoordinator _rootFlowCoordinator
     // Size: 0x8
     // Offset: 0x18
@@ -61,6 +66,7 @@ namespace GlobalNamespace {
     HMUI::HierarchyManager* hierarchyManager;
     // Field size check
     static_assert(sizeof(HMUI::HierarchyManager*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private HMUI.FlowCoordinator _rootFlowCoordinator

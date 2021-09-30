@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Security::Cryptography::X509Certificates
@@ -45,10 +46,10 @@ namespace Mono::Security::Interface {
     }
     // public System.Security.Cryptography.X509Certificates.X509Certificate Invoke(System.String targetHost, System.Security.Cryptography.X509Certificates.X509CertificateCollection localCertificates, System.Security.Cryptography.X509Certificates.X509Certificate remoteCertificate, System.String[] acceptableIssuers)
     // Offset: 0x1FA085C
-    System::Security::Cryptography::X509Certificates::X509Certificate* Invoke(::Il2CppString* targetHost, System::Security::Cryptography::X509Certificates::X509CertificateCollection* localCertificates, System::Security::Cryptography::X509Certificates::X509Certificate* remoteCertificate, ::ArrayWrapper<::Il2CppString*> acceptableIssuers);
+    System::Security::Cryptography::X509Certificates::X509Certificate* Invoke(::Il2CppString* targetHost, System::Security::Cryptography::X509Certificates::X509CertificateCollection* localCertificates, System::Security::Cryptography::X509Certificates::X509Certificate* remoteCertificate, ::ArrayW<::Il2CppString*> acceptableIssuers);
     // public System.IAsyncResult BeginInvoke(System.String targetHost, System.Security.Cryptography.X509Certificates.X509CertificateCollection localCertificates, System.Security.Cryptography.X509Certificates.X509Certificate remoteCertificate, System.String[] acceptableIssuers, System.AsyncCallback callback, System.Object object)
     // Offset: 0x1FA0C9C
-    System::IAsyncResult* BeginInvoke(::Il2CppString* targetHost, System::Security::Cryptography::X509Certificates::X509CertificateCollection* localCertificates, System::Security::Cryptography::X509Certificates::X509Certificate* remoteCertificate, ::ArrayWrapper<::Il2CppString*> acceptableIssuers, System::AsyncCallback* callback, ::Il2CppObject* object);
+    System::IAsyncResult* BeginInvoke(::Il2CppString* targetHost, System::Security::Cryptography::X509Certificates::X509CertificateCollection* localCertificates, System::Security::Cryptography::X509Certificates::X509Certificate* remoteCertificate, ::ArrayW<::Il2CppString*> acceptableIssuers, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Security.Cryptography.X509Certificates.X509Certificate EndInvoke(System.IAsyncResult result)
     // Offset: 0x1FA0CD0
     System::Security::Cryptography::X509Certificates::X509Certificate* EndInvoke(System::IAsyncResult* result);
@@ -64,7 +65,7 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Interface::MonoLocalCertificateSelectionC
 // Writing MetadataGetter for method: Mono::Security::Interface::MonoLocalCertificateSelectionCallback::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509Certificate* (Mono::Security::Interface::MonoLocalCertificateSelectionCallback::*)(::Il2CppString*, System::Security::Cryptography::X509Certificates::X509CertificateCollection*, System::Security::Cryptography::X509Certificates::X509Certificate*, ::ArrayWrapper<::Il2CppString*>)>(&Mono::Security::Interface::MonoLocalCertificateSelectionCallback::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509Certificate* (Mono::Security::Interface::MonoLocalCertificateSelectionCallback::*)(::Il2CppString*, System::Security::Cryptography::X509Certificates::X509CertificateCollection*, System::Security::Cryptography::X509Certificates::X509Certificate*, ::ArrayW<::Il2CppString*>)>(&Mono::Security::Interface::MonoLocalCertificateSelectionCallback::Invoke)> {
   static const MethodInfo* get() {
     static auto* targetHost = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* localCertificates = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509CertificateCollection")->byval_arg;
@@ -76,7 +77,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 // Writing MetadataGetter for method: Mono::Security::Interface::MonoLocalCertificateSelectionCallback::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Mono::Security::Interface::MonoLocalCertificateSelectionCallback::*)(::Il2CppString*, System::Security::Cryptography::X509Certificates::X509CertificateCollection*, System::Security::Cryptography::X509Certificates::X509Certificate*, ::ArrayWrapper<::Il2CppString*>, System::AsyncCallback*, ::Il2CppObject*)>(&Mono::Security::Interface::MonoLocalCertificateSelectionCallback::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Mono::Security::Interface::MonoLocalCertificateSelectionCallback::*)(::Il2CppString*, System::Security::Cryptography::X509Certificates::X509CertificateCollection*, System::Security::Cryptography::X509Certificates::X509Certificate*, ::ArrayW<::Il2CppString*>, System::AsyncCallback*, ::Il2CppObject*)>(&Mono::Security::Interface::MonoLocalCertificateSelectionCallback::BeginInvoke)> {
   static const MethodInfo* get() {
     static auto* targetHost = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* localCertificates = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509CertificateCollection")->byval_arg;

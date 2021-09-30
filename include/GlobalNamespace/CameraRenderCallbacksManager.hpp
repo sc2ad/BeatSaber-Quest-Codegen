@@ -42,6 +42,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::CameraRenderCallbacksManager::ICameraRenderCallbacks
     class ICameraRenderCallbacks;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // protected System.Collections.Generic.HashSet`1<CameraRenderCallbacksManager/ICameraRenderCallbacks> _observers
     // Size: 0x8
     // Offset: 0x18
@@ -54,6 +59,7 @@ namespace GlobalNamespace {
     UnityEngine::Camera* camera;
     // Field size check
     static_assert(sizeof(UnityEngine::Camera*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static private System.Collections.Generic.Dictionary`2<UnityEngine.Camera,CameraRenderCallbacksManager> _callbackManagers

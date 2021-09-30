@@ -20,6 +20,11 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_InputObjectPreset : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.String _gameObjectName
     // Size: 0x8
     // Offset: 0x10
@@ -58,6 +63,7 @@ namespace HoudiniEngineUnity {
     UnityEngine::Vector3 scaleOffset;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    public:
     // Get instance field reference: public System.String _gameObjectName
     ::Il2CppString*& dyn__gameObjectName();
     // Get instance field reference: public System.Boolean _isSceneObject

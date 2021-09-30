@@ -29,12 +29,18 @@ namespace NUnit::Framework::Constraints {
   // [TokenAttribute] Offset: FFFFFFFF
   class ConstraintBuilder::OperatorStack : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Collections.Generic.Stack`1<NUnit.Framework.Constraints.ConstraintOperator> stack
     // Size: 0x8
     // Offset: 0x10
     System::Collections::Generic::Stack_1<NUnit::Framework::Constraints::ConstraintOperator*>* stack;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Stack_1<NUnit::Framework::Constraints::ConstraintOperator*>*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Collections::Generic::Stack_1<NUnit::Framework::Constraints::ConstraintOperator*>*
     constexpr operator System::Collections::Generic::Stack_1<NUnit::Framework::Constraints::ConstraintOperator*>*() const noexcept {
       return stack;

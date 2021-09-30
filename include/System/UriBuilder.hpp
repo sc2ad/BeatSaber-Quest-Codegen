@@ -25,6 +25,11 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class UriBuilder : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean _changed
     // Size: 0x1
     // Offset: 0x10
@@ -95,6 +100,7 @@ namespace System {
     ::Il2CppString* username;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: private System.Boolean _changed
     bool& dyn__changed();
     // Get instance field reference: private System.String _fragment

@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -33,6 +34,11 @@ namespace GlobalNamespace {
     public:
     // Writing base type padding for base size: 0x39 to desired offset: 0x40
     char ___base_padding[0x7] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.ParticleSystem _particleSystem
     // Size: 0x8
     // Offset: 0x40
@@ -69,9 +75,10 @@ namespace GlobalNamespace {
     // private UnityEngine.ParticleSystem/UnityEngine.Particle[] _particles
     // Size: 0x8
     // Offset: 0x58
-    ::ArrayWrapper<UnityEngine::ParticleSystem::Particle> particles;
+    ::ArrayW<UnityEngine::ParticleSystem::Particle> particles;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::ParticleSystem::Particle>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::ParticleSystem::Particle>) == 0x8);
+    public:
     // Get instance field reference: private UnityEngine.ParticleSystem _particleSystem
     UnityEngine::ParticleSystem*& dyn__particleSystem();
     // Get instance field reference: private System.Boolean _setOnlyOnce
@@ -83,7 +90,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.MainModule _mainModule
     UnityEngine::ParticleSystem::MainModule& dyn__mainModule();
     // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.Particle[] _particles
-    ::ArrayWrapper<UnityEngine::ParticleSystem::Particle>& dyn__particles();
+    ::ArrayW<UnityEngine::ParticleSystem::Particle>& dyn__particles();
     // protected System.Void Awake()
     // Offset: 0x1E2EB30
     void Awake();
@@ -109,7 +116,7 @@ namespace GlobalNamespace {
     void ColorWasSet(UnityEngine::Color color);
   }; // ParticleSystemLightWithIds
   #pragma pack(pop)
-  static check_size<sizeof(ParticleSystemLightWithIds), 88 + sizeof(::ArrayWrapper<UnityEngine::ParticleSystem::Particle>)> __GlobalNamespace_ParticleSystemLightWithIdsSizeCheck;
+  static check_size<sizeof(ParticleSystemLightWithIds), 88 + sizeof(::ArrayW<UnityEngine::ParticleSystem::Particle>)> __GlobalNamespace_ParticleSystemLightWithIdsSizeCheck;
   static_assert(sizeof(ParticleSystemLightWithIds) == 0x60);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ParticleSystemLightWithIds*, "", "ParticleSystemLightWithIds");

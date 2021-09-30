@@ -34,6 +34,11 @@ namespace System::Runtime::Remoting::Messaging {
   // [TokenAttribute] Offset: FFFFFFFF
   class ClientContextReplySink : public ::Il2CppObject/*, public System::Runtime::Remoting::Messaging::IMessageSink*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Runtime.Remoting.Messaging.IMessageSink _replySink
     // Size: 0x8
     // Offset: 0x10
@@ -46,6 +51,7 @@ namespace System::Runtime::Remoting::Messaging {
     System::Runtime::Remoting::Contexts::Context* context;
     // Field size check
     static_assert(sizeof(System::Runtime::Remoting::Contexts::Context*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Runtime::Remoting::Messaging::IMessageSink
     operator System::Runtime::Remoting::Messaging::IMessageSink() noexcept {
       return *reinterpret_cast<System::Runtime::Remoting::Messaging::IMessageSink*>(this);

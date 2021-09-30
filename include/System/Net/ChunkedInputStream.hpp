@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net
@@ -42,6 +43,11 @@ namespace System::Net {
     public:
     // Nested type: System::Net::ChunkedInputStream::ReadBufferState
     class ReadBufferState;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean disposed
     // Size: 0x1
     // Offset: 0x50
@@ -68,6 +74,7 @@ namespace System::Net {
     bool no_more_data;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private System.Boolean disposed
     bool& dyn_disposed();
     // Get instance field reference: private System.Net.MonoChunkStream decoder
@@ -79,7 +86,7 @@ namespace System::Net {
     // public System.Void .ctor(System.Net.HttpListenerContext context, System.IO.Stream stream, System.Byte[] buffer, System.Int32 offset, System.Int32 length)
     // Offset: 0x156F0B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ChunkedInputStream* New_ctor(System::Net::HttpListenerContext* context, System::IO::Stream* stream, ::ArrayWrapper<uint8_t> buffer, int offset, int length) {
+    static ChunkedInputStream* New_ctor(System::Net::HttpListenerContext* context, System::IO::Stream* stream, ::ArrayW<uint8_t> buffer, int offset, int length) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::ChunkedInputStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ChunkedInputStream*, creationType>(context, stream, buffer, offset, length)));
     }
@@ -90,12 +97,12 @@ namespace System::Net {
     // Offset: 0x156F1B4
     // Implemented from: System.Net.RequestStream
     // Base method: System.Int32 RequestStream::Read(in System.Byte[] buffer, System.Int32 offset, System.Int32 count)
-    int Read(ByRef<::ArrayWrapper<uint8_t>> buffer, int offset, int count);
+    int Read(ByRef<::ArrayW<uint8_t>> buffer, int offset, int count);
     // public override System.IAsyncResult BeginRead(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.AsyncCallback cback, System.Object state)
     // Offset: 0x156F1FC
     // Implemented from: System.Net.RequestStream
     // Base method: System.IAsyncResult RequestStream::BeginRead(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.AsyncCallback cback, System.Object state)
-    System::IAsyncResult* BeginRead(::ArrayWrapper<uint8_t> buffer, int offset, int count, System::AsyncCallback* cback, ::Il2CppObject* state);
+    System::IAsyncResult* BeginRead(::ArrayW<uint8_t> buffer, int offset, int count, System::AsyncCallback* cback, ::Il2CppObject* state);
     // public override System.Int32 EndRead(System.IAsyncResult ares)
     // Offset: 0x156F8A0
     // Implemented from: System.Net.RequestStream
@@ -129,7 +136,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::ChunkedInputStream::Read
 // Il2CppName: Read
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::ChunkedInputStream::*)(ByRef<::ArrayWrapper<uint8_t>>, int, int)>(&System::Net::ChunkedInputStream::Read)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::ChunkedInputStream::*)(ByRef<::ArrayW<uint8_t>>, int, int)>(&System::Net::ChunkedInputStream::Read)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->this_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -140,7 +147,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Net::ChunkedInputStream::BeginRead
 // Il2CppName: BeginRead
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::ChunkedInputStream::*)(::ArrayWrapper<uint8_t>, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::ChunkedInputStream::BeginRead)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::ChunkedInputStream::*)(::ArrayW<uint8_t>, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::ChunkedInputStream::BeginRead)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

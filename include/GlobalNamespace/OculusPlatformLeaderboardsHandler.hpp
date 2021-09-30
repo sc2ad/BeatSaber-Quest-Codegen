@@ -52,6 +52,11 @@ namespace GlobalNamespace {
     class $$c__DisplayClass5_0;
     // Nested type: GlobalNamespace::OculusPlatformLeaderboardsHandler::$$c__DisplayClass6_0
     class $$c__DisplayClass6_0;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.HashSet`1<System.UInt64> _oculusRequestIds
     // Size: 0x8
     // Offset: 0x10
@@ -64,6 +69,7 @@ namespace GlobalNamespace {
     GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayModifiersModelSO*) == 0x8);
+    public:
     // Get instance field reference: private System.Collections.Generic.HashSet`1<System.UInt64> _oculusRequestIds
     System::Collections::Generic::HashSet_1<uint64_t>*& dyn__oculusRequestIds();
     // Get instance field reference: private GameplayModifiersModelSO _gameplayModifiersModel

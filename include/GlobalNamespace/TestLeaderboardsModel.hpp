@@ -55,12 +55,18 @@ namespace GlobalNamespace {
     struct $GetLeaderboardEntriesAsync$d__4;
     // Nested type: GlobalNamespace::TestLeaderboardsModel::$SendLevelScoreResultAsync$d__5
     struct $SendLevelScoreResultAsync$d__5;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Action`1<System.String> scoreForLeaderboardDidUploadEvent
     // Size: 0x8
     // Offset: 0x10
     System::Action_1<::Il2CppString*>* scoreForLeaderboardDidUploadEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<::Il2CppString*>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator OnlineServices::ILeaderboardsModel
     operator OnlineServices::ILeaderboardsModel() noexcept {
       return *reinterpret_cast<OnlineServices::ILeaderboardsModel*>(this);

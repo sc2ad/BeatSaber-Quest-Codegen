@@ -50,6 +50,11 @@ namespace Zenject {
     class $$c;
     // Nested type: Zenject::PoolableManager::$$c__DisplayClass3_0
     class $$c__DisplayClass3_0;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Collections.Generic.List`1<Zenject.IPoolable> _poolables
     // Size: 0x8
     // Offset: 0x10
@@ -62,6 +67,7 @@ namespace Zenject {
     bool isSpawned;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private readonly System.Collections.Generic.List`1<Zenject.IPoolable> _poolables
     System::Collections::Generic::List_1<Zenject::IPoolable*>*& dyn__poolables();
     // Get instance field reference: private System.Boolean _isSpawned

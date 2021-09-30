@@ -21,6 +21,11 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class UIKeyboard::$$c__DisplayClass21_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.String key
     // Size: 0x8
     // Offset: 0x10
@@ -33,6 +38,7 @@ namespace GlobalNamespace {
     GlobalNamespace::UIKeyboard* $$4__this;
     // Field size check
     static_assert(sizeof(GlobalNamespace::UIKeyboard*) == 0x8);
+    public:
     // Get instance field reference: public System.String key
     ::Il2CppString*& dyn_key();
     // Get instance field reference: public UIKeyboard <>4__this

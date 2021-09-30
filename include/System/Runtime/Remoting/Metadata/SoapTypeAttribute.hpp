@@ -22,6 +22,11 @@ namespace System::Runtime::Remoting::Metadata {
   // [AttributeUsageAttribute] Offset: E5FF6C
   class SoapTypeAttribute : public System::Runtime::Remoting::Metadata::SoapAttribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean _useAttribute
     // Size: 0x1
     // Offset: 0x28
@@ -66,6 +71,7 @@ namespace System::Runtime::Remoting::Metadata {
     bool isElement;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private System.Boolean _useAttribute
     bool& dyn__useAttribute();
     // Get instance field reference: private System.String _xmlElementName

@@ -16,6 +16,11 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HmdVector3d_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Double v0
     // Size: 0x8
     // Offset: 0x0
@@ -34,6 +39,7 @@ namespace OVR::OpenVR {
     double v2;
     // Field size check
     static_assert(sizeof(double) == 0x8);
+    public:
     // Creating value type constructor for type: HmdVector3d_t
     constexpr HmdVector3d_t(double v0_ = {}, double v1_ = {}, double v2_ = {}) noexcept : v0{v0_}, v1{v1_}, v2{v2_} {}
     // Creating interface conversion operator: operator System::ValueType

@@ -33,6 +33,11 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class OculusPlatformLeaderboardsHandler::$$c__DisplayClass3_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public OculusPlatformLeaderboardsHandler <>4__this
     // Size: 0x8
     // Offset: 0x10
@@ -45,6 +50,7 @@ namespace GlobalNamespace {
     Oculus::Platform::Request* oculusRequest;
     // Field size check
     static_assert(sizeof(Oculus::Platform::Request*) == 0x8);
+    public:
     // Get instance field reference: public OculusPlatformLeaderboardsHandler <>4__this
     GlobalNamespace::OculusPlatformLeaderboardsHandler*& dyn_$$4__this();
     // Get instance field reference: public Oculus.Platform.Request oculusRequest

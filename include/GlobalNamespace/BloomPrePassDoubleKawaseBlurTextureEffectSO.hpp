@@ -33,6 +33,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BloomPrePassDoubleKawaseBlurTextureEffectSO : public GlobalNamespace::BloomPrePassEffectSO {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [SpaceAttribute] Offset: 0xEEBD88
     // private KawaseBlurRendererSO/KernelSize _bloom1KernelSize
     // Size: 0x4
@@ -85,6 +90,7 @@ namespace GlobalNamespace {
     GlobalNamespace::KawaseBlurRendererSO* kawaseBlurRenderer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::KawaseBlurRendererSO*) == 0x8);
+    public:
     // Get instance field reference: private KawaseBlurRendererSO/KernelSize _bloom1KernelSize
     GlobalNamespace::KawaseBlurRendererSO::KernelSize& dyn__bloom1KernelSize();
     // Get instance field reference: private System.Single _bloom1Boost

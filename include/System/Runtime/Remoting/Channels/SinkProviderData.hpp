@@ -32,6 +32,11 @@ namespace System::Runtime::Remoting::Channels {
   // [ComVisibleAttribute] Offset: E5FE48
   class SinkProviderData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String sinkName
     // Size: 0x8
     // Offset: 0x10
@@ -50,6 +55,7 @@ namespace System::Runtime::Remoting::Channels {
     System::Collections::Hashtable* properties;
     // Field size check
     static_assert(sizeof(System::Collections::Hashtable*) == 0x8);
+    public:
     // Get instance field reference: private System.String sinkName
     ::Il2CppString*& dyn_sinkName();
     // Get instance field reference: private System.Collections.ArrayList children

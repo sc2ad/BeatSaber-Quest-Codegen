@@ -43,6 +43,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem::$$c
     class $$c;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public SongPackMaskModelSO/SongPackDataType _type
     // Size: 0x4
     // Offset: 0x10
@@ -96,6 +101,7 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<GlobalNamespace::BeatmapLevelPackCollectionSO*>* levelPackCollections;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::BeatmapLevelPackCollectionSO*>*) == 0x8);
+    public:
     // Get instance field reference: public SongPackMaskModelSO/SongPackDataType _type
     GlobalNamespace::SongPackMaskModelSO::SongPackDataType& dyn__type();
     // Get instance field reference: public BeatmapLevelPackSO _beatmapLevelPack

@@ -91,12 +91,18 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct RpcType/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Byte value__
       // Size: 0x1
       // Offset: 0x0
       uint8_t value;
       // Field size check
       static_assert(sizeof(uint8_t) == 0x1);
+      public:
       // Creating value type constructor for type: RpcType
       constexpr RpcType(uint8_t value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -185,6 +191,11 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(GameplayRpcManager::RpcType), 0 + sizeof(uint8_t)> __GlobalNamespace_GameplayRpcManager_RpcTypeSizeCheck;
     static_assert(sizeof(GameplayRpcManager::RpcType) == 0x1);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x10
@@ -269,6 +280,7 @@ namespace GlobalNamespace {
     System::Action_1<::Il2CppString*>* requestReturnToMenuEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<::Il2CppString*>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IGameplayRpcManager
     operator GlobalNamespace::IGameplayRpcManager() noexcept {
       return *reinterpret_cast<GlobalNamespace::IGameplayRpcManager*>(this);

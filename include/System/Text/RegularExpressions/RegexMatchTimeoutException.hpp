@@ -29,6 +29,11 @@ namespace System::Text::RegularExpressions {
   // [TokenAttribute] Offset: FFFFFFFF
   class RegexMatchTimeoutException : public System::TimeoutException {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String regexInput
     // Size: 0x8
     // Offset: 0x88
@@ -47,6 +52,7 @@ namespace System::Text::RegularExpressions {
     System::TimeSpan matchTimeout;
     // Field size check
     static_assert(sizeof(System::TimeSpan) == 0x8);
+    public:
     // Get instance field reference: private System.String regexInput
     ::Il2CppString*& dyn_regexInput();
     // Get instance field reference: private System.String regexPattern

@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HMUI
@@ -48,6 +49,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapDifficultySegmentedControlController : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private HMUI.TextSegmentedControl _difficultySegmentedControl
     // Size: 0x8
     // Offset: 0x18
@@ -72,6 +78,7 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatmapDifficulty selectedDifficulty;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapDifficulty) == 0x4);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private HMUI.TextSegmentedControl _difficultySegmentedControl
@@ -105,7 +112,7 @@ namespace GlobalNamespace {
     void HandleDifficultySegmentedControlDidSelectCell(HMUI::SegmentedControl* segmentedControl, int cellIdx);
     // public System.Void SetData(IDifficultyBeatmap[] difficultyBeatmaps, BeatmapDifficulty selectedDifficulty)
     // Offset: 0x127B340
-    void SetData(::ArrayWrapper<GlobalNamespace::IDifficultyBeatmap*> difficultyBeatmaps, GlobalNamespace::BeatmapDifficulty selectedDifficulty);
+    void SetData(::ArrayW<GlobalNamespace::IDifficultyBeatmap*> difficultyBeatmaps, GlobalNamespace::BeatmapDifficulty selectedDifficulty);
     // public System.Void .ctor()
     // Offset: 0x127B5D0
     // Implemented from: UnityEngine.MonoBehaviour
@@ -190,7 +197,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapDifficultySegmentedControlController::SetData
 // Il2CppName: SetData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapDifficultySegmentedControlController::*)(::ArrayWrapper<GlobalNamespace::IDifficultyBeatmap*>, GlobalNamespace::BeatmapDifficulty)>(&GlobalNamespace::BeatmapDifficultySegmentedControlController::SetData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapDifficultySegmentedControlController::*)(::ArrayW<GlobalNamespace::IDifficultyBeatmap*>, GlobalNamespace::BeatmapDifficulty)>(&GlobalNamespace::BeatmapDifficultySegmentedControlController::SetData)> {
   static const MethodInfo* get() {
     static auto* difficultyBeatmaps = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "IDifficultyBeatmap"), 1)->byval_arg;
     static auto* selectedDifficulty = &::il2cpp_utils::GetClassFromName("", "BeatmapDifficulty")->byval_arg;

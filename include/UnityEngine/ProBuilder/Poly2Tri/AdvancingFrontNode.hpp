@@ -27,6 +27,11 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   // [TokenAttribute] Offset: FFFFFFFF
   class AdvancingFrontNode : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode Next
     // Size: 0x8
     // Offset: 0x10
@@ -57,6 +62,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* Triangle;
     // Field size check
     static_assert(sizeof(UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*) == 0x8);
+    public:
     // Get instance field reference: public UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode Next
     UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*& dyn_Next();
     // Get instance field reference: public UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode Prev

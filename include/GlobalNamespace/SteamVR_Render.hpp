@@ -17,6 +17,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -54,6 +55,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::SteamVR_Render::$RenderLoop$d__29
     class $RenderLoop$d__29;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Boolean pauseGameWhenDashboardIsVisible
     // Size: 0x1
     // Offset: 0x18
@@ -91,21 +97,21 @@ namespace GlobalNamespace {
     // private SteamVR_Camera[] cameras
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayWrapper<GlobalNamespace::SteamVR_Camera*> cameras;
+    ::ArrayW<GlobalNamespace::SteamVR_Camera*> cameras;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::SteamVR_Camera*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::SteamVR_Camera*>) == 0x8);
     // public Valve.VR.TrackedDevicePose_t[] poses
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayWrapper<Valve::VR::TrackedDevicePose_t> poses;
+    ::ArrayW<Valve::VR::TrackedDevicePose_t> poses;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<Valve::VR::TrackedDevicePose_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<Valve::VR::TrackedDevicePose_t>) == 0x8);
     // public Valve.VR.TrackedDevicePose_t[] gamePoses
     // Size: 0x8
     // Offset: 0x48
-    ::ArrayWrapper<Valve::VR::TrackedDevicePose_t> gamePoses;
+    ::ArrayW<Valve::VR::TrackedDevicePose_t> gamePoses;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<Valve::VR::TrackedDevicePose_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<Valve::VR::TrackedDevicePose_t>) == 0x8);
     // private UnityEngine.WaitForEndOfFrame waitForEndOfFrame
     // Size: 0x8
     // Offset: 0x50
@@ -124,6 +130,7 @@ namespace GlobalNamespace {
     float timeScale;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static private Valve.VR.EVREye <eye>k__BackingField
@@ -153,11 +160,11 @@ namespace GlobalNamespace {
     // Get instance field reference: public Valve.VR.ETrackingUniverseOrigin trackingSpace
     Valve::VR::ETrackingUniverseOrigin& dyn_trackingSpace();
     // Get instance field reference: private SteamVR_Camera[] cameras
-    ::ArrayWrapper<GlobalNamespace::SteamVR_Camera*>& dyn_cameras();
+    ::ArrayW<GlobalNamespace::SteamVR_Camera*>& dyn_cameras();
     // Get instance field reference: public Valve.VR.TrackedDevicePose_t[] poses
-    ::ArrayWrapper<Valve::VR::TrackedDevicePose_t>& dyn_poses();
+    ::ArrayW<Valve::VR::TrackedDevicePose_t>& dyn_poses();
     // Get instance field reference: public Valve.VR.TrackedDevicePose_t[] gamePoses
-    ::ArrayWrapper<Valve::VR::TrackedDevicePose_t>& dyn_gamePoses();
+    ::ArrayW<Valve::VR::TrackedDevicePose_t>& dyn_gamePoses();
     // Get instance field reference: private UnityEngine.WaitForEndOfFrame waitForEndOfFrame
     UnityEngine::WaitForEndOfFrame*& dyn_waitForEndOfFrame();
     // Get instance field reference: private System.Single sceneResolutionScale

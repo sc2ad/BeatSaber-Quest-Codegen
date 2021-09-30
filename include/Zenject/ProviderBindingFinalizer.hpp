@@ -52,12 +52,18 @@ namespace Zenject {
     public:
     // Nested type: Zenject::ProviderBindingFinalizer::$$c
     class $$c;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Zenject.BindInfo <BindInfo>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     Zenject::BindInfo* BindInfo;
     // Field size check
     static_assert(sizeof(Zenject::BindInfo*) == 0x8);
+    public:
     // Creating interface conversion operator: operator Zenject::IBindingFinalizer
     operator Zenject::IBindingFinalizer() noexcept {
       return *reinterpret_cast<Zenject::IBindingFinalizer*>(this);

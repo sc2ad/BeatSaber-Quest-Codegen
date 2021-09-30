@@ -29,6 +29,11 @@ namespace GlobalNamespace {
     public:
     // Writing base type padding for base size: 0x41 to desired offset: 0x48
     char ___base_padding[0x7] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xF080D8
     // private IScoreController _scoreController
     // Size: 0x8
@@ -36,6 +41,7 @@ namespace GlobalNamespace {
     GlobalNamespace::IScoreController* scoreController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IScoreController*) == 0x8);
+    public:
     // Get instance field reference: private IScoreController _scoreController
     GlobalNamespace::IScoreController*& dyn__scoreController();
     // protected System.Void OnDestroy()

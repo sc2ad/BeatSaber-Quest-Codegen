@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Security::Cryptography
@@ -33,6 +34,11 @@ namespace System::Security::Cryptography {
   // [ComVisibleAttribute] Offset: E5F358
   class MACTripleDES : public System::Security::Cryptography::KeyedHashAlgorithm {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Security.Cryptography.ICryptoTransform m_encryptor
     // Size: 0x8
     // Offset: 0x30
@@ -65,8 +71,9 @@ namespace System::Security::Cryptography {
     System::Security::Cryptography::TripleDES* des;
     // Field size check
     static_assert(sizeof(System::Security::Cryptography::TripleDES*) == 0x8);
-    // Deleting conversion operator: operator ::ArrayWrapper<uint8_t>
-    constexpr operator ::ArrayWrapper<uint8_t>() const noexcept = delete;
+    public:
+    // Deleting conversion operator: operator ::ArrayW<uint8_t>
+    constexpr operator ::ArrayW<uint8_t>() const noexcept = delete;
     // Get instance field reference: private System.Security.Cryptography.ICryptoTransform m_encryptor
     System::Security::Cryptography::ICryptoTransform*& dyn_m_encryptor();
     // Get instance field reference: private System.Security.Cryptography.CryptoStream _cs
@@ -97,12 +104,12 @@ namespace System::Security::Cryptography {
     // Offset: 0x1A77750
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Void HashAlgorithm::HashCore(System.Byte[] rgbData, System.Int32 ibStart, System.Int32 cbSize)
-    void HashCore(::ArrayWrapper<uint8_t> rgbData, int ibStart, int cbSize);
+    void HashCore(::ArrayW<uint8_t> rgbData, int ibStart, int cbSize);
     // protected override System.Byte[] HashFinal()
     // Offset: 0x1A778B4
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Byte[] HashAlgorithm::HashFinal()
-    ::ArrayWrapper<uint8_t> HashFinal();
+    ::ArrayW<uint8_t> HashFinal();
     // protected override System.Void Dispose(System.Boolean disposing)
     // Offset: 0x1A779F4
     // Implemented from: System.Security.Cryptography.KeyedHashAlgorithm
@@ -130,7 +137,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::MACTripleDES::HashCore
 // Il2CppName: HashCore
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::MACTripleDES::*)(::ArrayWrapper<uint8_t>, int, int)>(&System::Security::Cryptography::MACTripleDES::HashCore)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::MACTripleDES::*)(::ArrayW<uint8_t>, int, int)>(&System::Security::Cryptography::MACTripleDES::HashCore)> {
   static const MethodInfo* get() {
     static auto* rgbData = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* ibStart = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -141,7 +148,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::MACTripleDES::HashFinal
 // Il2CppName: HashFinal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (System::Security::Cryptography::MACTripleDES::*)()>(&System::Security::Cryptography::MACTripleDES::HashFinal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (System::Security::Cryptography::MACTripleDES::*)()>(&System::Security::Cryptography::MACTripleDES::HashFinal)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::MACTripleDES*), "HashFinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

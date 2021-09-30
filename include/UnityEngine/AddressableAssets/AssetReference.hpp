@@ -51,6 +51,11 @@ namespace UnityEngine::AddressableAssets {
   // [TokenAttribute] Offset: FFFFFFFF
   class AssetReference : public ::Il2CppObject/*, public UnityEngine::AddressableAssets::IKeyEvaluator*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [FormerlySerializedAsAttribute] Offset: 0xEEC46C
     // private System.String m_AssetGUID
     // Size: 0x8
@@ -76,6 +81,7 @@ namespace UnityEngine::AddressableAssets {
     UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle m_Operation;
     // Field size check
     static_assert(sizeof(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle) == 0x18);
+    public:
     // Creating interface conversion operator: operator UnityEngine::AddressableAssets::IKeyEvaluator
     operator UnityEngine::AddressableAssets::IKeyEvaluator() noexcept {
       return *reinterpret_cast<UnityEngine::AddressableAssets::IKeyEvaluator*>(this);

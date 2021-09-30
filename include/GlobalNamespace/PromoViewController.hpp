@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -39,20 +40,26 @@ namespace GlobalNamespace {
     class ButtonPromoTypePair;
     // Nested type: GlobalNamespace::PromoViewController::$$c__DisplayClass5_0
     class $$c__DisplayClass5_0;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private PromoViewController/ButtonPromoTypePair[] _elements
     // Size: 0x8
     // Offset: 0x70
-    ::ArrayWrapper<GlobalNamespace::PromoViewController::ButtonPromoTypePair*> elements;
+    ::ArrayW<GlobalNamespace::PromoViewController::ButtonPromoTypePair*> elements;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::PromoViewController::ButtonPromoTypePair*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::PromoViewController::ButtonPromoTypePair*>) == 0x8);
     // private System.Action`3<PromoViewController,IAnnotatedBeatmapLevelCollection,IPreviewBeatmapLevel> promoButtonWasPressedEvent
     // Size: 0x8
     // Offset: 0x78
     System::Action_3<GlobalNamespace::PromoViewController*, GlobalNamespace::IAnnotatedBeatmapLevelCollection*, GlobalNamespace::IPreviewBeatmapLevel*>* promoButtonWasPressedEvent;
     // Field size check
     static_assert(sizeof(System::Action_3<GlobalNamespace::PromoViewController*, GlobalNamespace::IAnnotatedBeatmapLevelCollection*, GlobalNamespace::IPreviewBeatmapLevel*>*) == 0x8);
+    public:
     // Get instance field reference: private PromoViewController/ButtonPromoTypePair[] _elements
-    ::ArrayWrapper<GlobalNamespace::PromoViewController::ButtonPromoTypePair*>& dyn__elements();
+    ::ArrayW<GlobalNamespace::PromoViewController::ButtonPromoTypePair*>& dyn__elements();
     // Get instance field reference: private System.Action`3<PromoViewController,IAnnotatedBeatmapLevelCollection,IPreviewBeatmapLevel> promoButtonWasPressedEvent
     System::Action_3<GlobalNamespace::PromoViewController*, GlobalNamespace::IAnnotatedBeatmapLevelCollection*, GlobalNamespace::IPreviewBeatmapLevel*>*& dyn_promoButtonWasPressedEvent();
     // public System.Void add_promoButtonWasPressedEvent(System.Action`3<PromoViewController,IAnnotatedBeatmapLevelCollection,IPreviewBeatmapLevel> value)

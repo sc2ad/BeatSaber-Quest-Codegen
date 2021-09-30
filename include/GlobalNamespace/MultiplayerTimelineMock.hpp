@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -27,25 +28,30 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerTimelineMock : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [HeaderAttribute] Offset: 0xF140F4
     // private UnityEngine.GameObject[] _connectedPlayerIntroAnimators
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<UnityEngine::GameObject*> connectedPlayerIntroAnimators;
+    ::ArrayW<UnityEngine::GameObject*> connectedPlayerIntroAnimators;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::GameObject*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::GameObject*>) == 0x8);
     // private UnityEngine.GameObject[] _connectedPlayerScoreRingItems
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<UnityEngine::GameObject*> connectedPlayerScoreRingItems;
+    ::ArrayW<UnityEngine::GameObject*> connectedPlayerScoreRingItems;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::GameObject*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::GameObject*>) == 0x8);
     // private UnityEngine.GameObject[] _connectedPlayerOutroAnimators
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<UnityEngine::GameObject*> connectedPlayerOutroAnimators;
+    ::ArrayW<UnityEngine::GameObject*> connectedPlayerOutroAnimators;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::GameObject*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::GameObject*>) == 0x8);
     // [HeaderAttribute] Offset: 0xF14160
     // private UnityEngine.GameObject _localPlayerIntroAnimator
     // Size: 0x8
@@ -94,15 +100,15 @@ namespace GlobalNamespace {
     // private UnityEngine.GameObject[] _resultAvatars
     // Size: 0x8
     // Offset: 0x68
-    ::ArrayWrapper<UnityEngine::GameObject*> resultAvatars;
+    ::ArrayW<UnityEngine::GameObject*> resultAvatars;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::GameObject*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::GameObject*>) == 0x8);
     // private UnityEngine.GameObject[] _badgeTimelines
     // Size: 0x8
     // Offset: 0x70
-    ::ArrayWrapper<UnityEngine::GameObject*> badgeTimelines;
+    ::ArrayW<UnityEngine::GameObject*> badgeTimelines;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::GameObject*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::GameObject*>) == 0x8);
     // [HeaderAttribute] Offset: 0xF142A4
     // private UnityEngine.GameObject _resultsMocks
     // Size: 0x8
@@ -128,14 +134,15 @@ namespace GlobalNamespace {
     UnityEngine::GameObject* duelGroup;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.GameObject[] _connectedPlayerIntroAnimators
-    ::ArrayWrapper<UnityEngine::GameObject*>& dyn__connectedPlayerIntroAnimators();
+    ::ArrayW<UnityEngine::GameObject*>& dyn__connectedPlayerIntroAnimators();
     // Get instance field reference: private UnityEngine.GameObject[] _connectedPlayerScoreRingItems
-    ::ArrayWrapper<UnityEngine::GameObject*>& dyn__connectedPlayerScoreRingItems();
+    ::ArrayW<UnityEngine::GameObject*>& dyn__connectedPlayerScoreRingItems();
     // Get instance field reference: private UnityEngine.GameObject[] _connectedPlayerOutroAnimators
-    ::ArrayWrapper<UnityEngine::GameObject*>& dyn__connectedPlayerOutroAnimators();
+    ::ArrayW<UnityEngine::GameObject*>& dyn__connectedPlayerOutroAnimators();
     // Get instance field reference: private UnityEngine.GameObject _localPlayerIntroAnimator
     UnityEngine::GameObject*& dyn__localPlayerIntroAnimator();
     // Get instance field reference: private UnityEngine.GameObject _localPlayerScoreRingItem
@@ -151,9 +158,9 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.GameObject _localDuelOutroAnimator
     UnityEngine::GameObject*& dyn__localDuelOutroAnimator();
     // Get instance field reference: private UnityEngine.GameObject[] _resultAvatars
-    ::ArrayWrapper<UnityEngine::GameObject*>& dyn__resultAvatars();
+    ::ArrayW<UnityEngine::GameObject*>& dyn__resultAvatars();
     // Get instance field reference: private UnityEngine.GameObject[] _badgeTimelines
-    ::ArrayWrapper<UnityEngine::GameObject*>& dyn__badgeTimelines();
+    ::ArrayW<UnityEngine::GameObject*>& dyn__badgeTimelines();
     // Get instance field reference: private UnityEngine.GameObject _resultsMocks
     UnityEngine::GameObject*& dyn__resultsMocks();
     // Get instance field reference: private UnityEngine.GameObject _ringsGroup
@@ -164,13 +171,13 @@ namespace GlobalNamespace {
     UnityEngine::GameObject*& dyn__duelGroup();
     // public UnityEngine.GameObject[] get_connectedPlayerIntroAnimators()
     // Offset: 0x1133154
-    ::ArrayWrapper<UnityEngine::GameObject*> get_connectedPlayerIntroAnimators();
+    ::ArrayW<UnityEngine::GameObject*> get_connectedPlayerIntroAnimators();
     // public UnityEngine.GameObject[] get_connectedPlayerScoreRings()
     // Offset: 0x113315C
-    ::ArrayWrapper<UnityEngine::GameObject*> get_connectedPlayerScoreRings();
+    ::ArrayW<UnityEngine::GameObject*> get_connectedPlayerScoreRings();
     // public UnityEngine.GameObject[] get_connectedPlayerOutroAnimators()
     // Offset: 0x1133164
-    ::ArrayWrapper<UnityEngine::GameObject*> get_connectedPlayerOutroAnimators();
+    ::ArrayW<UnityEngine::GameObject*> get_connectedPlayerOutroAnimators();
     // public UnityEngine.GameObject get_localPlayerIntroAnimator()
     // Offset: 0x113316C
     UnityEngine::GameObject* get_localPlayerIntroAnimator();
@@ -194,10 +201,10 @@ namespace GlobalNamespace {
     UnityEngine::GameObject* get_localDuelOutroAnimator();
     // public UnityEngine.GameObject[] get_resultAvatars()
     // Offset: 0x11331A4
-    ::ArrayWrapper<UnityEngine::GameObject*> get_resultAvatars();
+    ::ArrayW<UnityEngine::GameObject*> get_resultAvatars();
     // public UnityEngine.GameObject[] get_badgeTimelines()
     // Offset: 0x11331AC
-    ::ArrayWrapper<UnityEngine::GameObject*> get_badgeTimelines();
+    ::ArrayW<UnityEngine::GameObject*> get_badgeTimelines();
     // public UnityEngine.GameObject get_resultsMocks()
     // Offset: 0x11331B4
     UnityEngine::GameObject* get_resultsMocks();
@@ -227,7 +234,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerTimelineMock*, "", "Multiplay
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerTimelineMock::get_connectedPlayerIntroAnimators
 // Il2CppName: get_connectedPlayerIntroAnimators
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::GameObject*> (GlobalNamespace::MultiplayerTimelineMock::*)()>(&GlobalNamespace::MultiplayerTimelineMock::get_connectedPlayerIntroAnimators)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::GameObject*> (GlobalNamespace::MultiplayerTimelineMock::*)()>(&GlobalNamespace::MultiplayerTimelineMock::get_connectedPlayerIntroAnimators)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerTimelineMock*), "get_connectedPlayerIntroAnimators", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -235,7 +242,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerTimelineMock::get_connectedPlayerScoreRings
 // Il2CppName: get_connectedPlayerScoreRings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::GameObject*> (GlobalNamespace::MultiplayerTimelineMock::*)()>(&GlobalNamespace::MultiplayerTimelineMock::get_connectedPlayerScoreRings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::GameObject*> (GlobalNamespace::MultiplayerTimelineMock::*)()>(&GlobalNamespace::MultiplayerTimelineMock::get_connectedPlayerScoreRings)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerTimelineMock*), "get_connectedPlayerScoreRings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -243,7 +250,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerTimelineMock::get_connectedPlayerOutroAnimators
 // Il2CppName: get_connectedPlayerOutroAnimators
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::GameObject*> (GlobalNamespace::MultiplayerTimelineMock::*)()>(&GlobalNamespace::MultiplayerTimelineMock::get_connectedPlayerOutroAnimators)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::GameObject*> (GlobalNamespace::MultiplayerTimelineMock::*)()>(&GlobalNamespace::MultiplayerTimelineMock::get_connectedPlayerOutroAnimators)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerTimelineMock*), "get_connectedPlayerOutroAnimators", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -307,7 +314,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerTimelineMock::get_resultAvatars
 // Il2CppName: get_resultAvatars
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::GameObject*> (GlobalNamespace::MultiplayerTimelineMock::*)()>(&GlobalNamespace::MultiplayerTimelineMock::get_resultAvatars)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::GameObject*> (GlobalNamespace::MultiplayerTimelineMock::*)()>(&GlobalNamespace::MultiplayerTimelineMock::get_resultAvatars)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerTimelineMock*), "get_resultAvatars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -315,7 +322,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerTimelineMock::get_badgeTimelines
 // Il2CppName: get_badgeTimelines
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::GameObject*> (GlobalNamespace::MultiplayerTimelineMock::*)()>(&GlobalNamespace::MultiplayerTimelineMock::get_badgeTimelines)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::GameObject*> (GlobalNamespace::MultiplayerTimelineMock::*)()>(&GlobalNamespace::MultiplayerTimelineMock::get_badgeTimelines)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerTimelineMock*), "get_badgeTimelines", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

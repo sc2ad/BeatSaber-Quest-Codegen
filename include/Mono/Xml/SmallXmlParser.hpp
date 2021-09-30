@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Mono::Xml
@@ -49,6 +50,11 @@ namespace Mono::Xml {
     class IAttrList;
     // Nested type: Mono::Xml::SmallXmlParser::AttrListImpl
     class AttrListImpl;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Mono.Xml.SmallXmlParser/Mono.Xml.IContentHandler handler
     // Size: 0x8
     // Offset: 0x10
@@ -88,9 +94,9 @@ namespace Mono::Xml {
     // private System.Char[] nameBuffer
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayWrapper<::Il2CppChar> nameBuffer;
+    ::ArrayW<::Il2CppChar> nameBuffer;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppChar>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppChar>) == 0x8);
     // private System.Boolean isWhitespace
     // Size: 0x1
     // Offset: 0x48
@@ -123,6 +129,7 @@ namespace Mono::Xml {
     bool resetColumn;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private Mono.Xml.SmallXmlParser/Mono.Xml.IContentHandler handler
     Mono::Xml::SmallXmlParser::IContentHandler*& dyn_handler();
     // Get instance field reference: private System.IO.TextReader reader
@@ -136,7 +143,7 @@ namespace Mono::Xml {
     // Get instance field reference: private System.Text.StringBuilder buffer
     System::Text::StringBuilder*& dyn_buffer();
     // Get instance field reference: private System.Char[] nameBuffer
-    ::ArrayWrapper<::Il2CppChar>& dyn_nameBuffer();
+    ::ArrayW<::Il2CppChar>& dyn_nameBuffer();
     // Get instance field reference: private System.Boolean isWhitespace
     bool& dyn_isWhitespace();
     // Get instance field reference: private Mono.Xml.SmallXmlParser/Mono.Xml.AttrListImpl attributes

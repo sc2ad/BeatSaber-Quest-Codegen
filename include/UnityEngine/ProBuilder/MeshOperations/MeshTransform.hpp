@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::ProBuilder
@@ -34,7 +35,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     static void SetPivot(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::ProBuilder::PivotLocation pivotType, int firstVertexIndex);
     // static public System.Void CenterPivot(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Int32[] indexes)
     // Offset: 0x18F9A64
-    static void CenterPivot(UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayWrapper<int> indexes);
+    static void CenterPivot(UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayW<int> indexes);
     // static public System.Void SetPivot(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.Vector3 worldPosition)
     // Offset: 0x18F9E14
     static void SetPivot(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::Vector3 worldPosition);
@@ -61,7 +62,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::MeshTransform::CenterPivot
 // Il2CppName: CenterPivot
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, ::ArrayWrapper<int>)>(&UnityEngine::ProBuilder::MeshOperations::MeshTransform::CenterPivot)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, ::ArrayW<int>)>(&UnityEngine::ProBuilder::MeshOperations::MeshTransform::CenterPivot)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
     static auto* indexes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;

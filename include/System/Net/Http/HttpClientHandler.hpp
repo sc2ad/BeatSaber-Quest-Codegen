@@ -61,6 +61,11 @@ namespace System::Net::Http {
     class $$c;
     // Nested type: System::Net::Http::HttpClientHandler::$SendAsync$d__64
     struct $SendAsync$d__64;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean allowAutoRedirect
     // Size: 0x1
     // Offset: 0x10
@@ -153,6 +158,7 @@ namespace System::Net::Http {
     bool disposed;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get static field: static private System.Int64 groupCounter
     static int64_t _get_groupCounter();
     // Set static field: static private System.Int64 groupCounter

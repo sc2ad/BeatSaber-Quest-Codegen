@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Security::Cryptography::X509Certificates
@@ -56,6 +57,11 @@ namespace System::Security::Cryptography::X509Certificates {
   // [TokenAttribute] Offset: FFFFFFFF
   class X509ChainImplMono : public System::Security::Cryptography::X509Certificates::X509ChainImpl {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Security.Cryptography.X509Certificates.StoreLocation location
     // Size: 0x4
     // Offset: 0x10
@@ -79,9 +85,9 @@ namespace System::Security::Cryptography::X509Certificates {
     // private System.Security.Cryptography.X509Certificates.X509ChainStatus[] status
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<System::Security::Cryptography::X509Certificates::X509ChainStatus> status;
+    ::ArrayW<System::Security::Cryptography::X509Certificates::X509ChainStatus> status;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<System::Security::Cryptography::X509Certificates::X509ChainStatus>) == 0x8);
+    static_assert(sizeof(::ArrayW<System::Security::Cryptography::X509Certificates::X509ChainStatus>) == 0x8);
     // private System.Int32 max_path_length
     // Size: 0x4
     // Offset: 0x30
@@ -150,10 +156,11 @@ namespace System::Security::Cryptography::X509Certificates {
     System::Security::Cryptography::X509Certificates::X509Certificate2Collection* collection;
     // Field size check
     static_assert(sizeof(System::Security::Cryptography::X509Certificates::X509Certificate2Collection*) == 0x8);
+    public:
     // Get static field: static private System.Security.Cryptography.X509Certificates.X509ChainStatus[] Empty
-    static ::ArrayWrapper<System::Security::Cryptography::X509Certificates::X509ChainStatus> _get_Empty();
+    static ::ArrayW<System::Security::Cryptography::X509Certificates::X509ChainStatus> _get_Empty();
     // Set static field: static private System.Security.Cryptography.X509Certificates.X509ChainStatus[] Empty
-    static void _set_Empty(::ArrayWrapper<System::Security::Cryptography::X509Certificates::X509ChainStatus> value);
+    static void _set_Empty(::ArrayW<System::Security::Cryptography::X509Certificates::X509ChainStatus> value);
     // Get instance field reference: private System.Security.Cryptography.X509Certificates.StoreLocation location
     System::Security::Cryptography::X509Certificates::StoreLocation& dyn_location();
     // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509ChainElementCollection elements
@@ -161,7 +168,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509ChainPolicy policy
     System::Security::Cryptography::X509Certificates::X509ChainPolicy*& dyn_policy();
     // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509ChainStatus[] status
-    ::ArrayWrapper<System::Security::Cryptography::X509Certificates::X509ChainStatus>& dyn_status();
+    ::ArrayW<System::Security::Cryptography::X509Certificates::X509ChainStatus>& dyn_status();
     // Get instance field reference: private System.Int32 max_path_length
     int& dyn_max_path_length();
     // Get instance field reference: private System.Security.Cryptography.X509Certificates.X500DistinguishedName working_issuer_name
@@ -305,7 +312,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Offset: 0x19DB064
     // Implemented from: System.Security.Cryptography.X509Certificates.X509ChainImpl
     // Base method: System.Security.Cryptography.X509Certificates.X509ChainStatus[] X509ChainImpl::get_ChainStatus()
-    ::ArrayWrapper<System::Security::Cryptography::X509Certificates::X509ChainStatus> get_ChainStatus();
+    ::ArrayW<System::Security::Cryptography::X509Certificates::X509ChainStatus> get_ChainStatus();
     // public override System.Boolean Build(System.Security.Cryptography.X509Certificates.X509Certificate2 certificate)
     // Offset: 0x19DB0D8
     // Implemented from: System.Security.Cryptography.X509Certificates.X509ChainImpl
@@ -632,7 +639,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509ChainImplMono::get_ChainStatus
 // Il2CppName: get_ChainStatus
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::Security::Cryptography::X509Certificates::X509ChainStatus> (System::Security::Cryptography::X509Certificates::X509ChainImplMono::*)()>(&System::Security::Cryptography::X509Certificates::X509ChainImplMono::get_ChainStatus)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Security::Cryptography::X509Certificates::X509ChainStatus> (System::Security::Cryptography::X509Certificates::X509ChainImplMono::*)()>(&System::Security::Cryptography::X509Certificates::X509ChainImplMono::get_ChainStatus)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509ChainImplMono*), "get_ChainStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

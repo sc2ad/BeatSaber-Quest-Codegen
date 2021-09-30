@@ -39,6 +39,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ResultsTableCell : public GlobalNamespace::TableCellWithSeparator {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.GameObject _border
     // Size: 0x8
     // Offset: 0x58
@@ -69,6 +74,7 @@ namespace GlobalNamespace {
     TMPro::TextMeshProUGUI* rankText;
     // Field size check
     static_assert(sizeof(TMPro::TextMeshProUGUI*) == 0x8);
+    public:
     // Get instance field reference: private UnityEngine.GameObject _border
     UnityEngine::GameObject*& dyn__border();
     // Get instance field reference: private TMPro.TextMeshProUGUI _orderText

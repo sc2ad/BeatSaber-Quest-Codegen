@@ -21,12 +21,18 @@ namespace GlobalNamespace {
   // [ExecuteInEditMode] Offset: FFFFFFFF
   class HEU_ScriptCallbackExample : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.String _msg
     // Size: 0x8
     // Offset: 0x18
     ::Il2CppString* msg;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.String _msg

@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -40,6 +41,11 @@ namespace GlobalNamespace {
     char ___base_padding[0x3] = {};
     // Nested type: GlobalNamespace::LightmapLightWithIds::LightIntensitiesData
     class LightIntensitiesData;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [SpaceAttribute] Offset: 0xEDEE30
     // private System.Int32 _lightId
     // Size: 0x4
@@ -58,9 +64,9 @@ namespace GlobalNamespace {
     // private LightmapLightWithIds/LightIntensitiesData[] _lightIntensityData
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<GlobalNamespace::LightmapLightWithIds::LightIntensitiesData*> lightIntensityData;
+    ::ArrayW<GlobalNamespace::LightmapLightWithIds::LightIntensitiesData*> lightIntensityData;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::LightmapLightWithIds::LightIntensitiesData*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::LightmapLightWithIds::LightIntensitiesData*>) == 0x8);
     // private System.Int32 _lightmapLightIdColorPropertyId
     // Size: 0x4
     // Offset: 0x38
@@ -79,12 +85,13 @@ namespace GlobalNamespace {
     bool initializedPropertyIds;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private System.Int32 _lightId
     int& dyn__lightId();
     // Get instance field reference: private System.Single _intensity
     float& dyn__intensity();
     // Get instance field reference: private LightmapLightWithIds/LightIntensitiesData[] _lightIntensityData
-    ::ArrayWrapper<GlobalNamespace::LightmapLightWithIds::LightIntensitiesData*>& dyn__lightIntensityData();
+    ::ArrayW<GlobalNamespace::LightmapLightWithIds::LightIntensitiesData*>& dyn__lightIntensityData();
     // Get instance field reference: private System.Int32 _lightmapLightIdColorPropertyId
     int& dyn__lightmapLightIdColorPropertyId();
     // Get instance field reference: private System.Int32 _lightProbeLightIdColorPropertyId

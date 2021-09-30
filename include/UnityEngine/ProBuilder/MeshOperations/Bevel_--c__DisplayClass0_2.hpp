@@ -28,6 +28,11 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class Bevel::$$c__DisplayClass0_2 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 c
     // Size: 0x4
     // Offset: 0x10
@@ -42,6 +47,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     UnityEngine::ProBuilder::MeshOperations::Bevel::$$c__DisplayClass0_0* CS$$$8__locals1;
     // Field size check
     static_assert(sizeof(UnityEngine::ProBuilder::MeshOperations::Bevel::$$c__DisplayClass0_0*) == 0x8);
+    public:
     // Get instance field reference: public System.Int32 c
     int& dyn_c();
     // Get instance field reference: public UnityEngine.ProBuilder.MeshOperations.Bevel/UnityEngine.ProBuilder.MeshOperations.<>c__DisplayClass0_0 CS$<>8__locals1

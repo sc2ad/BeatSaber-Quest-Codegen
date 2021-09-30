@@ -12,6 +12,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: System.Collections.Concurrent
 namespace System::Collections::Concurrent {
@@ -47,11 +48,11 @@ namespace System::Collections::Concurrent {
     }
     // public T[] ToArray()
     // Offset: 0xFFFFFFFF
-    ::ArrayWrapper<T> ToArray() {
+    ::ArrayW<T> ToArray() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Concurrent::IProducerConsumerCollection_1::ToArray");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ToArray", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{})));
       auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<::ArrayWrapper<T>, false>(___instance_arg, ___internal__method);
+      return ::il2cpp_utils::RunMethodThrow<::ArrayW<T>, false>(___instance_arg, ___internal__method);
     }
   }; // System.Collections.Concurrent.IProducerConsumerCollection`1
   // Could not write size check! Type: System.Collections.Concurrent.IProducerConsumerCollection`1 is generic, or has no fields that are valid for size checks!

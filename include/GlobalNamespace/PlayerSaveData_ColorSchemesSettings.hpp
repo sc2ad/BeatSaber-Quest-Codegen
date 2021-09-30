@@ -28,6 +28,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayerSaveData::ColorSchemesSettings : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Boolean overrideDefaultColors
     // Size: 0x1
     // Offset: 0x10
@@ -48,6 +53,7 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveData::ColorScheme*>* colorSchemes;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveData::ColorScheme*>*) == 0x8);
+    public:
     // Get instance field reference: public System.Boolean overrideDefaultColors
     bool& dyn_overrideDefaultColors();
     // Get instance field reference: public System.String selectedColorSchemeId

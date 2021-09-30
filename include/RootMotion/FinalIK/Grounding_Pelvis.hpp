@@ -22,6 +22,11 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class Grounding::Pelvis : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Vector3 <IKOffset>k__BackingField
     // Size: 0xC
     // Offset: 0x10
@@ -66,6 +71,7 @@ namespace RootMotion::FinalIK {
     float lastTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: private UnityEngine.Vector3 <IKOffset>k__BackingField
     UnityEngine::Vector3& dyn_$IKOffset$k__BackingField();
     // Get instance field reference: private System.Single <heightOffset>k__BackingField

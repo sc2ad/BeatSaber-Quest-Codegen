@@ -28,12 +28,18 @@ namespace System::Security::Principal {
   // [ComVisibleAttribute] Offset: E5F05C
   class WindowsPrincipal : public System::Security::Claims::ClaimsPrincipal {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Security.Principal.WindowsIdentity _identity
     // Size: 0x8
     // Offset: 0x28
     System::Security::Principal::WindowsIdentity* identity;
     // Field size check
     static_assert(sizeof(System::Security::Principal::WindowsIdentity*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Security::Principal::WindowsIdentity*
     constexpr operator System::Security::Principal::WindowsIdentity*() const noexcept {
       return identity;

@@ -38,6 +38,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::VRsenalScoreLogger::$Start$d__3
     class $Start$d__3;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xEFF744
     // private IScoreController _scoreController
     // Size: 0x8
@@ -59,6 +64,7 @@ namespace GlobalNamespace {
     GlobalNamespace::ILevelEndActions* levelEndActions;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ILevelEndActions*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private IScoreController _scoreController

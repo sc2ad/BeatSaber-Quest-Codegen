@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: Mono.Security.Cryptography
 namespace Mono::Security::Cryptography {
@@ -24,18 +25,23 @@ namespace Mono::Security::Cryptography {
     public:
     // Writing base type padding for base size: 0x44 to desired offset: 0x48
     char ___base_padding[0x4] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Byte[] key
     // Size: 0x8
     // Offset: 0x48
-    ::ArrayWrapper<uint8_t> key;
+    ::ArrayW<uint8_t> key;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Byte[] state
     // Size: 0x8
     // Offset: 0x50
-    ::ArrayWrapper<uint8_t> state;
+    ::ArrayW<uint8_t> state;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Byte x
     // Size: 0x1
     // Offset: 0x58
@@ -54,14 +60,15 @@ namespace Mono::Security::Cryptography {
     bool m_disposed;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator System::Security::Cryptography::ICryptoTransform
     operator System::Security::Cryptography::ICryptoTransform() noexcept {
       return *reinterpret_cast<System::Security::Cryptography::ICryptoTransform*>(this);
     }
     // Get instance field reference: private System.Byte[] key
-    ::ArrayWrapper<uint8_t>& dyn_key();
+    ::ArrayW<uint8_t>& dyn_key();
     // Get instance field reference: private System.Byte[] state
-    ::ArrayWrapper<uint8_t>& dyn_state();
+    ::ArrayW<uint8_t>& dyn_state();
     // Get instance field reference: private System.Byte x
     uint8_t& dyn_x();
     // Get instance field reference: private System.Byte y
@@ -79,29 +86,29 @@ namespace Mono::Security::Cryptography {
     int get_OutputBlockSize();
     // private System.Void KeySetup(System.Byte[] key)
     // Offset: 0x1F9B4AC
-    void KeySetup(::ArrayWrapper<uint8_t> key);
+    void KeySetup(::ArrayW<uint8_t> key);
     // private System.Void CheckInput(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount)
     // Offset: 0x1F9B724
-    void CheckInput(::ArrayWrapper<uint8_t> inputBuffer, int inputOffset, int inputCount);
+    void CheckInput(::ArrayW<uint8_t> inputBuffer, int inputOffset, int inputCount);
     // public System.Int32 TransformBlock(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount, System.Byte[] outputBuffer, System.Int32 outputOffset)
     // Offset: 0x1F9B86C
-    int TransformBlock(::ArrayWrapper<uint8_t> inputBuffer, int inputOffset, int inputCount, ::ArrayWrapper<uint8_t> outputBuffer, int outputOffset);
+    int TransformBlock(::ArrayW<uint8_t> inputBuffer, int inputOffset, int inputCount, ::ArrayW<uint8_t> outputBuffer, int outputOffset);
     // private System.Int32 InternalTransformBlock(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount, System.Byte[] outputBuffer, System.Int32 outputOffset)
     // Offset: 0x1F9B9D8
-    int InternalTransformBlock(::ArrayWrapper<uint8_t> inputBuffer, int inputOffset, int inputCount, ::ArrayWrapper<uint8_t> outputBuffer, int outputOffset);
+    int InternalTransformBlock(::ArrayW<uint8_t> inputBuffer, int inputOffset, int inputCount, ::ArrayW<uint8_t> outputBuffer, int outputOffset);
     // public System.Byte[] TransformFinalBlock(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount)
     // Offset: 0x1F9BB30
-    ::ArrayWrapper<uint8_t> TransformFinalBlock(::ArrayWrapper<uint8_t> inputBuffer, int inputOffset, int inputCount);
+    ::ArrayW<uint8_t> TransformFinalBlock(::ArrayW<uint8_t> inputBuffer, int inputOffset, int inputCount);
     // public override System.Byte[] get_Key()
     // Offset: 0x1F9B338
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Byte[] SymmetricAlgorithm::get_Key()
-    ::ArrayWrapper<uint8_t> get_Key();
+    ::ArrayW<uint8_t> get_Key();
     // public override System.Void set_Key(System.Byte[] value)
     // Offset: 0x1F9B3D4
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Void SymmetricAlgorithm::set_Key(System.Byte[] value)
-    void set_Key(::ArrayWrapper<uint8_t> value);
+    void set_Key(::ArrayW<uint8_t> value);
     // public System.Void .ctor()
     // Offset: 0x1F9B0EC
     // Implemented from: Mono.Security.Cryptography.RC4
@@ -127,12 +134,12 @@ namespace Mono::Security::Cryptography {
     // Offset: 0x1F9B5A0
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Security.Cryptography.ICryptoTransform SymmetricAlgorithm::CreateEncryptor(System.Byte[] rgbKey, System.Byte[] rgvIV)
-    System::Security::Cryptography::ICryptoTransform* CreateEncryptor(::ArrayWrapper<uint8_t> rgbKey, ::ArrayWrapper<uint8_t> rgvIV);
+    System::Security::Cryptography::ICryptoTransform* CreateEncryptor(::ArrayW<uint8_t> rgbKey, ::ArrayW<uint8_t> rgvIV);
     // public override System.Security.Cryptography.ICryptoTransform CreateDecryptor(System.Byte[] rgbKey, System.Byte[] rgvIV)
     // Offset: 0x1F9B5CC
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Security.Cryptography.ICryptoTransform SymmetricAlgorithm::CreateDecryptor(System.Byte[] rgbKey, System.Byte[] rgvIV)
-    System::Security::Cryptography::ICryptoTransform* CreateDecryptor(::ArrayWrapper<uint8_t> rgbKey, ::ArrayWrapper<uint8_t> rgvIV);
+    System::Security::Cryptography::ICryptoTransform* CreateDecryptor(::ArrayW<uint8_t> rgbKey, ::ArrayW<uint8_t> rgvIV);
     // public override System.Void GenerateIV()
     // Offset: 0x1F9B604
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
@@ -177,7 +184,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 // Writing MetadataGetter for method: Mono::Security::Cryptography::ARC4Managed::KeySetup
 // Il2CppName: KeySetup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::ARC4Managed::*)(::ArrayWrapper<uint8_t>)>(&Mono::Security::Cryptography::ARC4Managed::KeySetup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::ARC4Managed::*)(::ArrayW<uint8_t>)>(&Mono::Security::Cryptography::ARC4Managed::KeySetup)> {
   static const MethodInfo* get() {
     static auto* key = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::ARC4Managed*), "KeySetup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key});
@@ -186,7 +193,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Security::Cryptography::ARC4Managed::CheckInput
 // Il2CppName: CheckInput
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::ARC4Managed::*)(::ArrayWrapper<uint8_t>, int, int)>(&Mono::Security::Cryptography::ARC4Managed::CheckInput)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::ARC4Managed::*)(::ArrayW<uint8_t>, int, int)>(&Mono::Security::Cryptography::ARC4Managed::CheckInput)> {
   static const MethodInfo* get() {
     static auto* inputBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* inputOffset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -197,7 +204,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Security::Cryptography::ARC4Managed::TransformBlock
 // Il2CppName: TransformBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Security::Cryptography::ARC4Managed::*)(::ArrayWrapper<uint8_t>, int, int, ::ArrayWrapper<uint8_t>, int)>(&Mono::Security::Cryptography::ARC4Managed::TransformBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Security::Cryptography::ARC4Managed::*)(::ArrayW<uint8_t>, int, int, ::ArrayW<uint8_t>, int)>(&Mono::Security::Cryptography::ARC4Managed::TransformBlock)> {
   static const MethodInfo* get() {
     static auto* inputBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* inputOffset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -210,7 +217,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 // Writing MetadataGetter for method: Mono::Security::Cryptography::ARC4Managed::InternalTransformBlock
 // Il2CppName: InternalTransformBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Security::Cryptography::ARC4Managed::*)(::ArrayWrapper<uint8_t>, int, int, ::ArrayWrapper<uint8_t>, int)>(&Mono::Security::Cryptography::ARC4Managed::InternalTransformBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Security::Cryptography::ARC4Managed::*)(::ArrayW<uint8_t>, int, int, ::ArrayW<uint8_t>, int)>(&Mono::Security::Cryptography::ARC4Managed::InternalTransformBlock)> {
   static const MethodInfo* get() {
     static auto* inputBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* inputOffset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -223,7 +230,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 // Writing MetadataGetter for method: Mono::Security::Cryptography::ARC4Managed::TransformFinalBlock
 // Il2CppName: TransformFinalBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Mono::Security::Cryptography::ARC4Managed::*)(::ArrayWrapper<uint8_t>, int, int)>(&Mono::Security::Cryptography::ARC4Managed::TransformFinalBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Mono::Security::Cryptography::ARC4Managed::*)(::ArrayW<uint8_t>, int, int)>(&Mono::Security::Cryptography::ARC4Managed::TransformFinalBlock)> {
   static const MethodInfo* get() {
     static auto* inputBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* inputOffset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -234,7 +241,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: Mono::Security::Cryptography::ARC4Managed::get_Key
 // Il2CppName: get_Key
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Mono::Security::Cryptography::ARC4Managed::*)()>(&Mono::Security::Cryptography::ARC4Managed::get_Key)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Mono::Security::Cryptography::ARC4Managed::*)()>(&Mono::Security::Cryptography::ARC4Managed::get_Key)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::ARC4Managed*), "get_Key", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -242,7 +249,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: Mono::Security::Cryptography::ARC4Managed::set_Key
 // Il2CppName: set_Key
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::ARC4Managed::*)(::ArrayWrapper<uint8_t>)>(&Mono::Security::Cryptography::ARC4Managed::set_Key)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::ARC4Managed::*)(::ArrayW<uint8_t>)>(&Mono::Security::Cryptography::ARC4Managed::set_Key)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::ARC4Managed*), "set_Key", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -272,7 +279,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Security::Cryptography::ARC4Managed::CreateEncryptor
 // Il2CppName: CreateEncryptor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::ICryptoTransform* (Mono::Security::Cryptography::ARC4Managed::*)(::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>)>(&Mono::Security::Cryptography::ARC4Managed::CreateEncryptor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::ICryptoTransform* (Mono::Security::Cryptography::ARC4Managed::*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(&Mono::Security::Cryptography::ARC4Managed::CreateEncryptor)> {
   static const MethodInfo* get() {
     static auto* rgbKey = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* rgvIV = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -282,7 +289,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 // Writing MetadataGetter for method: Mono::Security::Cryptography::ARC4Managed::CreateDecryptor
 // Il2CppName: CreateDecryptor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::ICryptoTransform* (Mono::Security::Cryptography::ARC4Managed::*)(::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>)>(&Mono::Security::Cryptography::ARC4Managed::CreateDecryptor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::ICryptoTransform* (Mono::Security::Cryptography::ARC4Managed::*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(&Mono::Security::Cryptography::ARC4Managed::CreateDecryptor)> {
   static const MethodInfo* get() {
     static auto* rgbKey = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* rgvIV = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;

@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -38,7 +39,7 @@ namespace System::Net::NetworkInformation {
     static int GetAdaptersAddresses(uint family, uint flags, System::IntPtr reserved, System::IntPtr info, ByRef<int> size);
     // static private System.Net.NetworkInformation.Win32_IP_ADAPTER_ADDRESSES[] GetAdaptersAddresses()
     // Offset: 0x1648728
-    static ::ArrayWrapper<System::Net::NetworkInformation::Win32_IP_ADAPTER_ADDRESSES> GetAdaptersAddresses();
+    static ::ArrayW<System::Net::NetworkInformation::Win32_IP_ADAPTER_ADDRESSES> GetAdaptersAddresses();
     // public System.Void .ctor()
     // Offset: 0x16472D0
     // Implemented from: System.Net.NetworkInformation.NetworkInterfaceFactory
@@ -53,7 +54,7 @@ namespace System::Net::NetworkInformation {
     // Offset: 0x16489AC
     // Implemented from: System.Net.NetworkInformation.NetworkInterfaceFactory
     // Base method: System.Net.NetworkInformation.NetworkInterface[] NetworkInterfaceFactory::GetAllNetworkInterfaces()
-    ::ArrayWrapper<System::Net::NetworkInformation::NetworkInterface*> GetAllNetworkInterfaces();
+    ::ArrayW<System::Net::NetworkInformation::NetworkInterface*> GetAllNetworkInterfaces();
   }; // System.Net.NetworkInformation.NetworkInterfaceFactory/System.Net.NetworkInformation.Win32NetworkInterfaceAPI
   #pragma pack(pop)
 }
@@ -75,7 +76,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(uin
 // Writing MetadataGetter for method: System::Net::NetworkInformation::NetworkInterfaceFactory::Win32NetworkInterfaceAPI::GetAdaptersAddresses
 // Il2CppName: GetAdaptersAddresses
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::Net::NetworkInformation::Win32_IP_ADAPTER_ADDRESSES> (*)()>(&System::Net::NetworkInformation::NetworkInterfaceFactory::Win32NetworkInterfaceAPI::GetAdaptersAddresses)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Net::NetworkInformation::Win32_IP_ADAPTER_ADDRESSES> (*)()>(&System::Net::NetworkInformation::NetworkInterfaceFactory::Win32NetworkInterfaceAPI::GetAdaptersAddresses)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::NetworkInterfaceFactory::Win32NetworkInterfaceAPI*), "GetAdaptersAddresses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -87,7 +88,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: System::Net::NetworkInformation::NetworkInterfaceFactory::Win32NetworkInterfaceAPI::GetAllNetworkInterfaces
 // Il2CppName: GetAllNetworkInterfaces
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::Net::NetworkInformation::NetworkInterface*> (System::Net::NetworkInformation::NetworkInterfaceFactory::Win32NetworkInterfaceAPI::*)()>(&System::Net::NetworkInformation::NetworkInterfaceFactory::Win32NetworkInterfaceAPI::GetAllNetworkInterfaces)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Net::NetworkInformation::NetworkInterface*> (System::Net::NetworkInformation::NetworkInterfaceFactory::Win32NetworkInterfaceAPI::*)()>(&System::Net::NetworkInformation::NetworkInterfaceFactory::Win32NetworkInterfaceAPI::GetAllNetworkInterfaces)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::NetworkInterfaceFactory::Win32NetworkInterfaceAPI*), "GetAllNetworkInterfaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

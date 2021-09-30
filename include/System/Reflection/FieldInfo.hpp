@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection
@@ -115,7 +116,7 @@ namespace System::Reflection {
     System::Runtime::InteropServices::MarshalAsAttribute* get_marshal_info();
     // System.Object[] GetPseudoCustomAttributes()
     // Offset: 0x1EA8EAC
-    ::ArrayWrapper<::Il2CppObject*> GetPseudoCustomAttributes();
+    ::ArrayW<::Il2CppObject*> GetPseudoCustomAttributes();
     // public System.Object GetRawConstantValue()
     // Offset: 0x1EA90B8
     ::Il2CppObject* GetRawConstantValue();
@@ -301,7 +302,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Writing MetadataGetter for method: System::Reflection::FieldInfo::GetPseudoCustomAttributes
 // Il2CppName: GetPseudoCustomAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppObject*> (System::Reflection::FieldInfo::*)()>(&System::Reflection::FieldInfo::GetPseudoCustomAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppObject*> (System::Reflection::FieldInfo::*)()>(&System::Reflection::FieldInfo::GetPseudoCustomAttributes)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::FieldInfo*), "GetPseudoCustomAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -48,6 +49,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayerDataFileManagerSO : public GlobalNamespace::PersistentScriptableObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private BeatmapCharacteristicCollectionSO _beatmapCharacteristicCollection
     // Size: 0x8
     // Offset: 0x18
@@ -96,6 +102,7 @@ namespace GlobalNamespace {
     ::Il2CppString* allSongPackSerializedName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.String kPlayerDataFileName
@@ -161,7 +168,7 @@ namespace GlobalNamespace {
     GlobalNamespace::OverrideEnvironmentSettings* CreateDefaultOverrideEnvironmentSettings();
     // private System.String LoadCorrectedSongPackMask(System.Byte[] songMaskPackBytes)
     // Offset: 0x12B85D8
-    ::Il2CppString* LoadCorrectedSongPackMask(::ArrayWrapper<uint8_t> songMaskPackBytes);
+    ::Il2CppString* LoadCorrectedSongPackMask(::ArrayW<uint8_t> songMaskPackBytes);
     // public System.Void .ctor()
     // Offset: 0x12B8BD0
     // Implemented from: PersistentScriptableObject
@@ -264,7 +271,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::PlayerDataFileManagerSO::LoadCorrectedSongPackMask
 // Il2CppName: LoadCorrectedSongPackMask
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::PlayerDataFileManagerSO::*)(::ArrayWrapper<uint8_t>)>(&GlobalNamespace::PlayerDataFileManagerSO::LoadCorrectedSongPackMask)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (GlobalNamespace::PlayerDataFileManagerSO::*)(::ArrayW<uint8_t>)>(&GlobalNamespace::PlayerDataFileManagerSO::LoadCorrectedSongPackMask)> {
   static const MethodInfo* get() {
     static auto* songMaskPackBytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PlayerDataFileManagerSO*), "LoadCorrectedSongPackMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{songMaskPackBytes});

@@ -22,12 +22,18 @@ namespace System::Security::Cryptography {
   // [TokenAttribute] Offset: FFFFFFFF
   class RSASignaturePadding : public ::Il2CppObject/*, public System::IEquatable_1<System::Security::Cryptography::RSASignaturePadding*>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Security.Cryptography.RSASignaturePaddingMode _mode
     // Size: 0x4
     // Offset: 0x10
     System::Security::Cryptography::RSASignaturePaddingMode mode;
     // Field size check
     static_assert(sizeof(System::Security::Cryptography::RSASignaturePaddingMode) == 0x4);
+    public:
     // Creating interface conversion operator: operator System::IEquatable_1<System::Security::Cryptography::RSASignaturePadding*>
     operator System::IEquatable_1<System::Security::Cryptography::RSASignaturePadding*>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<System::Security::Cryptography::RSASignaturePadding*>*>(this);

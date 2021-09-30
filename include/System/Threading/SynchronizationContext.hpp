@@ -32,12 +32,18 @@ namespace System::Threading {
   // [TokenAttribute] Offset: FFFFFFFF
   class SynchronizationContext : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Threading.SynchronizationContextProperties _props
     // Size: 0x4
     // Offset: 0x10
     System::Threading::SynchronizationContextProperties props;
     // Field size check
     static_assert(sizeof(System::Threading::SynchronizationContextProperties) == 0x4);
+    public:
     // Creating conversion operator: operator System::Threading::SynchronizationContextProperties
     constexpr operator System::Threading::SynchronizationContextProperties() const noexcept {
       return props;

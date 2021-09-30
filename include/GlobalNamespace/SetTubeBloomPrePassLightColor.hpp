@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -29,6 +30,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SetTubeBloomPrePassLightColor : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private ColorSO _color
     // Size: 0x8
     // Offset: 0x18
@@ -38,15 +44,16 @@ namespace GlobalNamespace {
     // private TubeBloomPrePassLight[] _tubeLights
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<GlobalNamespace::TubeBloomPrePassLight*> tubeLights;
+    ::ArrayW<GlobalNamespace::TubeBloomPrePassLight*> tubeLights;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::TubeBloomPrePassLight*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::TubeBloomPrePassLight*>) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private ColorSO _color
     GlobalNamespace::ColorSO*& dyn__color();
     // Get instance field reference: private TubeBloomPrePassLight[] _tubeLights
-    ::ArrayWrapper<GlobalNamespace::TubeBloomPrePassLight*>& dyn__tubeLights();
+    ::ArrayW<GlobalNamespace::TubeBloomPrePassLight*>& dyn__tubeLights();
     // protected System.Void Start()
     // Offset: 0x1103114
     void Start();
@@ -65,7 +72,7 @@ namespace GlobalNamespace {
     }
   }; // SetTubeBloomPrePassLightColor
   #pragma pack(pop)
-  static check_size<sizeof(SetTubeBloomPrePassLightColor), 32 + sizeof(::ArrayWrapper<GlobalNamespace::TubeBloomPrePassLight*>)> __GlobalNamespace_SetTubeBloomPrePassLightColorSizeCheck;
+  static check_size<sizeof(SetTubeBloomPrePassLightColor), 32 + sizeof(::ArrayW<GlobalNamespace::TubeBloomPrePassLight*>)> __GlobalNamespace_SetTubeBloomPrePassLightColorSizeCheck;
   static_assert(sizeof(SetTubeBloomPrePassLightColor) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SetTubeBloomPrePassLightColor*, "", "SetTubeBloomPrePassLightColor");

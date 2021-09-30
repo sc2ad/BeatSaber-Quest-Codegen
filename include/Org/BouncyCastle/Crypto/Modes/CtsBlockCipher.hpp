@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Crypto
@@ -27,12 +28,18 @@ namespace Org::BouncyCastle::Crypto::Modes {
   // [TokenAttribute] Offset: FFFFFFFF
   class CtsBlockCipher : public Org::BouncyCastle::Crypto::BufferedBlockCipher {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Int32 blockSize
     // Size: 0x4
     // Offset: 0x28
     int blockSize;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return blockSize;
@@ -62,12 +69,12 @@ namespace Org::BouncyCastle::Crypto::Modes {
     // Offset: 0x1A8F598
     // Implemented from: Org.BouncyCastle.Crypto.BufferedBlockCipher
     // Base method: System.Int32 BufferedBlockCipher::ProcessBytes(System.Byte[] input, System.Int32 inOff, System.Int32 length, System.Byte[] output, System.Int32 outOff)
-    int ProcessBytes(::ArrayWrapper<uint8_t> input, int inOff, int length, ::ArrayWrapper<uint8_t> output, int outOff);
+    int ProcessBytes(::ArrayW<uint8_t> input, int inOff, int length, ::ArrayW<uint8_t> output, int outOff);
     // public override System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
     // Offset: 0x1A8F8D8
     // Implemented from: Org.BouncyCastle.Crypto.BufferedBlockCipher
     // Base method: System.Int32 BufferedBlockCipher::DoFinal(System.Byte[] output, System.Int32 outOff)
-    int DoFinal(::ArrayWrapper<uint8_t> output, int outOff);
+    int DoFinal(::ArrayW<uint8_t> output, int outOff);
   }; // Org.BouncyCastle.Crypto.Modes.CtsBlockCipher
   #pragma pack(pop)
   static check_size<sizeof(CtsBlockCipher), 40 + sizeof(int)> __Org_BouncyCastle_Crypto_Modes_CtsBlockCipherSizeCheck;
@@ -100,7 +107,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Modes::CtsBlockCipher::ProcessBytes
 // Il2CppName: ProcessBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Modes::CtsBlockCipher::*)(::ArrayWrapper<uint8_t>, int, int, ::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Modes::CtsBlockCipher::ProcessBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Modes::CtsBlockCipher::*)(::ArrayW<uint8_t>, int, int, ::ArrayW<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Modes::CtsBlockCipher::ProcessBytes)> {
   static const MethodInfo* get() {
     static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* inOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -113,7 +120,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Modes::CtsBlockCipher::DoFinal
 // Il2CppName: DoFinal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Modes::CtsBlockCipher::*)(::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Modes::CtsBlockCipher::DoFinal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Modes::CtsBlockCipher::*)(::ArrayW<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Modes::CtsBlockCipher::DoFinal)> {
   static const MethodInfo* get() {
     static auto* output = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* outOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

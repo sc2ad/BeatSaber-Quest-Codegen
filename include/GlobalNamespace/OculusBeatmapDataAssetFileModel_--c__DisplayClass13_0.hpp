@@ -42,6 +42,11 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class OculusBeatmapDataAssetFileModel::$$c__DisplayClass13_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public OculusBeatmapDataAssetFileModel <>4__this
     // Size: 0x8
     // Offset: 0x10
@@ -66,6 +71,7 @@ namespace GlobalNamespace {
     System::Threading::Tasks::TaskCompletionSource_1<bool>* taskSource;
     // Field size check
     static_assert(sizeof(System::Threading::Tasks::TaskCompletionSource_1<bool>*) == 0x8);
+    public:
     // Get instance field reference: public OculusBeatmapDataAssetFileModel <>4__this
     GlobalNamespace::OculusBeatmapDataAssetFileModel*& dyn_$$4__this();
     // Get instance field reference: public System.String levelId

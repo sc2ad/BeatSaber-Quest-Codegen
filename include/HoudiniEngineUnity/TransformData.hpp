@@ -28,6 +28,11 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   struct TransformData/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Vector3 position
     // Size: 0xC
     // Offset: 0x0
@@ -66,6 +71,7 @@ namespace HoudiniEngineUnity {
     UnityEngine::Transform* parent;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    public:
     // Creating value type constructor for type: TransformData
     constexpr TransformData(UnityEngine::Vector3 position_ = {}, UnityEngine::Quaternion rotation_ = {}, UnityEngine::Vector3 localPosition_ = {}, UnityEngine::Vector3 localScale_ = {}, UnityEngine::Quaternion localRotation_ = {}, UnityEngine::Transform* parent_ = {}) noexcept : position{position_}, rotation{rotation_}, localPosition{localPosition_}, localScale{localScale_}, localRotation{localRotation_}, parent{parent_} {}
     // Creating interface conversion operator: operator System::ValueType

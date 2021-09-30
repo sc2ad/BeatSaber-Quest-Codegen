@@ -34,6 +34,11 @@ namespace GlobalNamespace {
     public:
     // Writing base type padding for base size: 0x29 to desired offset: 0x2C
     char ___base_padding[0x3] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Single _minAlpha
     // Size: 0x4
     // Offset: 0x2C
@@ -54,6 +59,7 @@ namespace GlobalNamespace {
     GlobalNamespace::RectangleFakeGlow* rectangleFakeGlow;
     // Field size check
     static_assert(sizeof(GlobalNamespace::RectangleFakeGlow*) == 0x8);
+    public:
     // Get instance field reference: private System.Single _minAlpha
     float& dyn__minAlpha();
     // Get instance field reference: private System.Single _alphaMul

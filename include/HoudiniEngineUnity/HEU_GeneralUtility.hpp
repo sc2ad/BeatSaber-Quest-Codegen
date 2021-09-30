@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HoudiniEngineUnity
@@ -98,70 +99,70 @@ namespace HoudiniEngineUnity {
     // static public System.Boolean GetArray1Arg(System.Int32 arg1, HoudiniEngineUnity.HEU_GeneralUtility/HoudiniEngineUnity.GetArray1ArgDel`1<T> func, out T[] data, System.Int32 start, System.Int32 count)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static bool GetArray1Arg(int arg1, HoudiniEngineUnity::HEU_GeneralUtility::GetArray1ArgDel_1<T>* func, ByRef<::ArrayWrapper<T>> data, int start, int count) {
+    static bool GetArray1Arg(int arg1, HoudiniEngineUnity::HEU_GeneralUtility::GetArray1ArgDel_1<T>* func, ByRef<::ArrayW<T>> data, int start, int count) {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_GeneralUtility::GetArray1Arg");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HoudiniEngineUnity", "HEU_GeneralUtility", "GetArray1Arg", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arg1), ::il2cpp_utils::ExtractType(func), ::il2cpp_utils::ExtractIndependentType<::ArrayWrapper<T>&>(), ::il2cpp_utils::ExtractType(start), ::il2cpp_utils::ExtractType(count)})));
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HoudiniEngineUnity", "HEU_GeneralUtility", "GetArray1Arg", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arg1), ::il2cpp_utils::ExtractType(func), ::il2cpp_utils::ExtractIndependentType<::ArrayW<T>&>(), ::il2cpp_utils::ExtractType(start), ::il2cpp_utils::ExtractType(count)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, arg1, func, byref(data), start, count);
     }
     // static public System.Boolean GetArray2Arg(System.Int32 arg1, ARG2 arg2, HoudiniEngineUnity.HEU_GeneralUtility/HoudiniEngineUnity.GetArray2ArgDel`2<ARG2,T> func, out T[] data, System.Int32 start, System.Int32 count)
     // Offset: 0xFFFFFFFF
     template<class ARG2, class T>
-    static bool GetArray2Arg(int arg1, ARG2 arg2, HoudiniEngineUnity::HEU_GeneralUtility::GetArray2ArgDel_2<ARG2, T>* func, ByRef<::ArrayWrapper<T>> data, int start, int count) {
+    static bool GetArray2Arg(int arg1, ARG2 arg2, HoudiniEngineUnity::HEU_GeneralUtility::GetArray2ArgDel_2<ARG2, T>* func, ByRef<::ArrayW<T>> data, int start, int count) {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_GeneralUtility::GetArray2Arg");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HoudiniEngineUnity", "HEU_GeneralUtility", "GetArray2Arg", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arg1), ::il2cpp_utils::ExtractType(arg2), ::il2cpp_utils::ExtractType(func), ::il2cpp_utils::ExtractIndependentType<::ArrayWrapper<T>&>(), ::il2cpp_utils::ExtractType(start), ::il2cpp_utils::ExtractType(count)})));
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HoudiniEngineUnity", "HEU_GeneralUtility", "GetArray2Arg", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arg1), ::il2cpp_utils::ExtractType(arg2), ::il2cpp_utils::ExtractType(func), ::il2cpp_utils::ExtractIndependentType<::ArrayW<T>&>(), ::il2cpp_utils::ExtractType(start), ::il2cpp_utils::ExtractType(count)})));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, arg1, arg2, func, byref(data), start, count);
     }
     // static public System.Boolean GetArray3Arg(System.Int32 arg1, ARG2 arg2, ARG3 arg3, HoudiniEngineUnity.HEU_GeneralUtility/HoudiniEngineUnity.GetArray3ArgDel`3<ARG3,ARG2,T> func, out T[] data, System.Int32 start, System.Int32 count)
     // Offset: 0xFFFFFFFF
     template<class ARG3, class ARG2, class T>
-    static bool GetArray3Arg(int arg1, ARG2 arg2, ARG3 arg3, HoudiniEngineUnity::HEU_GeneralUtility::GetArray3ArgDel_3<ARG3, ARG2, T>* func, ByRef<::ArrayWrapper<T>> data, int start, int count) {
+    static bool GetArray3Arg(int arg1, ARG2 arg2, ARG3 arg3, HoudiniEngineUnity::HEU_GeneralUtility::GetArray3ArgDel_3<ARG3, ARG2, T>* func, ByRef<::ArrayW<T>> data, int start, int count) {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_GeneralUtility::GetArray3Arg");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HoudiniEngineUnity", "HEU_GeneralUtility", "GetArray3Arg", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ARG3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arg1), ::il2cpp_utils::ExtractType(arg2), ::il2cpp_utils::ExtractType(arg3), ::il2cpp_utils::ExtractType(func), ::il2cpp_utils::ExtractIndependentType<::ArrayWrapper<T>&>(), ::il2cpp_utils::ExtractType(start), ::il2cpp_utils::ExtractType(count)})));
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HoudiniEngineUnity", "HEU_GeneralUtility", "GetArray3Arg", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ARG3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arg1), ::il2cpp_utils::ExtractType(arg2), ::il2cpp_utils::ExtractType(arg3), ::il2cpp_utils::ExtractType(func), ::il2cpp_utils::ExtractIndependentType<::ArrayW<T>&>(), ::il2cpp_utils::ExtractType(start), ::il2cpp_utils::ExtractType(count)})));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ARG3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, arg1, arg2, arg3, func, byref(data), start, count);
     }
     // static private System.Boolean GetArray(System.Int32 arg1, ARG2 arg2, ARG3 arg3, HoudiniEngineUnity.HEU_GeneralUtility/HoudiniEngineUnity.GetArray1ArgDel`1<T> func1, HoudiniEngineUnity.HEU_GeneralUtility/HoudiniEngineUnity.GetArray2ArgDel`2<ARG2,T> func2, HoudiniEngineUnity.HEU_GeneralUtility/HoudiniEngineUnity.GetArray3ArgDel`3<ARG3,ARG2,T> func3, out T[] data, System.Int32 start, System.Int32 count, System.Int32 tupleSize)
     // Offset: 0xFFFFFFFF
     template<class ARG3, class ARG2, class T>
-    static bool GetArray(int arg1, ARG2 arg2, ARG3 arg3, HoudiniEngineUnity::HEU_GeneralUtility::GetArray1ArgDel_1<T>* func1, HoudiniEngineUnity::HEU_GeneralUtility::GetArray2ArgDel_2<ARG2, T>* func2, HoudiniEngineUnity::HEU_GeneralUtility::GetArray3ArgDel_3<ARG3, ARG2, T>* func3, ByRef<::ArrayWrapper<T>> data, int start, int count, int tupleSize) {
+    static bool GetArray(int arg1, ARG2 arg2, ARG3 arg3, HoudiniEngineUnity::HEU_GeneralUtility::GetArray1ArgDel_1<T>* func1, HoudiniEngineUnity::HEU_GeneralUtility::GetArray2ArgDel_2<ARG2, T>* func2, HoudiniEngineUnity::HEU_GeneralUtility::GetArray3ArgDel_3<ARG3, ARG2, T>* func3, ByRef<::ArrayW<T>> data, int start, int count, int tupleSize) {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_GeneralUtility::GetArray");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HoudiniEngineUnity", "HEU_GeneralUtility", "GetArray", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ARG3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arg1), ::il2cpp_utils::ExtractType(arg2), ::il2cpp_utils::ExtractType(arg3), ::il2cpp_utils::ExtractType(func1), ::il2cpp_utils::ExtractType(func2), ::il2cpp_utils::ExtractType(func3), ::il2cpp_utils::ExtractIndependentType<::ArrayWrapper<T>&>(), ::il2cpp_utils::ExtractType(start), ::il2cpp_utils::ExtractType(count), ::il2cpp_utils::ExtractType(tupleSize)})));
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HoudiniEngineUnity", "HEU_GeneralUtility", "GetArray", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ARG3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arg1), ::il2cpp_utils::ExtractType(arg2), ::il2cpp_utils::ExtractType(arg3), ::il2cpp_utils::ExtractType(func1), ::il2cpp_utils::ExtractType(func2), ::il2cpp_utils::ExtractType(func3), ::il2cpp_utils::ExtractIndependentType<::ArrayW<T>&>(), ::il2cpp_utils::ExtractType(start), ::il2cpp_utils::ExtractType(count), ::il2cpp_utils::ExtractType(tupleSize)})));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ARG3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, arg1, arg2, arg3, func1, func2, func3, byref(data), start, count, tupleSize);
     }
     // static public System.Boolean SetArray1Arg(System.Int32 arg1, HoudiniEngineUnity.HEU_GeneralUtility/HoudiniEngineUnity.GetArray1ArgDel`1<T> func, out T[] data, System.Int32 start, System.Int32 count)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static bool SetArray1Arg(int arg1, HoudiniEngineUnity::HEU_GeneralUtility::GetArray1ArgDel_1<T>* func, ByRef<::ArrayWrapper<T>> data, int start, int count) {
+    static bool SetArray1Arg(int arg1, HoudiniEngineUnity::HEU_GeneralUtility::GetArray1ArgDel_1<T>* func, ByRef<::ArrayW<T>> data, int start, int count) {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_GeneralUtility::SetArray1Arg");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HoudiniEngineUnity", "HEU_GeneralUtility", "SetArray1Arg", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arg1), ::il2cpp_utils::ExtractType(func), ::il2cpp_utils::ExtractIndependentType<::ArrayWrapper<T>&>(), ::il2cpp_utils::ExtractType(start), ::il2cpp_utils::ExtractType(count)})));
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HoudiniEngineUnity", "HEU_GeneralUtility", "SetArray1Arg", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arg1), ::il2cpp_utils::ExtractType(func), ::il2cpp_utils::ExtractIndependentType<::ArrayW<T>&>(), ::il2cpp_utils::ExtractType(start), ::il2cpp_utils::ExtractType(count)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, arg1, func, byref(data), start, count);
     }
     // static public System.Boolean SetArray2Arg(System.Int32 arg1, ARG2 arg2, HoudiniEngineUnity.HEU_GeneralUtility/HoudiniEngineUnity.GetArray2ArgDel`2<ARG2,T> func, out T[] data, System.Int32 start, System.Int32 count)
     // Offset: 0xFFFFFFFF
     template<class ARG2, class T>
-    static bool SetArray2Arg(int arg1, ARG2 arg2, HoudiniEngineUnity::HEU_GeneralUtility::GetArray2ArgDel_2<ARG2, T>* func, ByRef<::ArrayWrapper<T>> data, int start, int count) {
+    static bool SetArray2Arg(int arg1, ARG2 arg2, HoudiniEngineUnity::HEU_GeneralUtility::GetArray2ArgDel_2<ARG2, T>* func, ByRef<::ArrayW<T>> data, int start, int count) {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_GeneralUtility::SetArray2Arg");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HoudiniEngineUnity", "HEU_GeneralUtility", "SetArray2Arg", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arg1), ::il2cpp_utils::ExtractType(arg2), ::il2cpp_utils::ExtractType(func), ::il2cpp_utils::ExtractIndependentType<::ArrayWrapper<T>&>(), ::il2cpp_utils::ExtractType(start), ::il2cpp_utils::ExtractType(count)})));
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HoudiniEngineUnity", "HEU_GeneralUtility", "SetArray2Arg", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arg1), ::il2cpp_utils::ExtractType(arg2), ::il2cpp_utils::ExtractType(func), ::il2cpp_utils::ExtractIndependentType<::ArrayW<T>&>(), ::il2cpp_utils::ExtractType(start), ::il2cpp_utils::ExtractType(count)})));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, arg1, arg2, func, byref(data), start, count);
     }
     // static public System.Boolean SetArray(System.Int32 arg1, ARG2 arg2, HoudiniEngineUnity.HEU_GeneralUtility/HoudiniEngineUnity.GetArray1ArgDel`1<T> func1, HoudiniEngineUnity.HEU_GeneralUtility/HoudiniEngineUnity.GetArray2ArgDel`2<ARG2,T> func2, out T[] data, System.Int32 start, System.Int32 count, System.Int32 tupleSize)
     // Offset: 0xFFFFFFFF
     template<class ARG2, class T>
-    static bool SetArray(int arg1, ARG2 arg2, HoudiniEngineUnity::HEU_GeneralUtility::GetArray1ArgDel_1<T>* func1, HoudiniEngineUnity::HEU_GeneralUtility::GetArray2ArgDel_2<ARG2, T>* func2, ByRef<::ArrayWrapper<T>> data, int start, int count, int tupleSize) {
+    static bool SetArray(int arg1, ARG2 arg2, HoudiniEngineUnity::HEU_GeneralUtility::GetArray1ArgDel_1<T>* func1, HoudiniEngineUnity::HEU_GeneralUtility::GetArray2ArgDel_2<ARG2, T>* func2, ByRef<::ArrayW<T>> data, int start, int count, int tupleSize) {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_GeneralUtility::SetArray");
-      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HoudiniEngineUnity", "HEU_GeneralUtility", "SetArray", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arg1), ::il2cpp_utils::ExtractType(arg2), ::il2cpp_utils::ExtractType(func1), ::il2cpp_utils::ExtractType(func2), ::il2cpp_utils::ExtractIndependentType<::ArrayWrapper<T>&>(), ::il2cpp_utils::ExtractType(start), ::il2cpp_utils::ExtractType(count), ::il2cpp_utils::ExtractType(tupleSize)})));
+      static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HoudiniEngineUnity", "HEU_GeneralUtility", "SetArray", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arg1), ::il2cpp_utils::ExtractType(arg2), ::il2cpp_utils::ExtractType(func1), ::il2cpp_utils::ExtractType(func2), ::il2cpp_utils::ExtractIndependentType<::ArrayW<T>&>(), ::il2cpp_utils::ExtractType(start), ::il2cpp_utils::ExtractType(count), ::il2cpp_utils::ExtractType(tupleSize)})));
       static auto* ___generic__method = THROW_UNLESS((::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<ARG2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()})));
       return ::il2cpp_utils::RunMethodThrow<bool, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, arg1, arg2, func1, func2, byref(data), start, count, tupleSize);
     }
     // static public System.Boolean DoArrayElementsMatch(T[] array1, T[] array2)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static bool DoArrayElementsMatch(::ArrayWrapper<T> array1, ::ArrayWrapper<T> array2) {
+    static bool DoArrayElementsMatch(::ArrayW<T> array1, ::ArrayW<T> array2) {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_GeneralUtility::DoArrayElementsMatch");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HoudiniEngineUnity", "HEU_GeneralUtility", "DoArrayElementsMatch", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array1), ::il2cpp_utils::ExtractType(array2)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -170,7 +171,7 @@ namespace HoudiniEngineUnity {
     // static public System.Boolean DoArrayElementsMatch(T[] array1, System.Int32 startOffset1, T[] array2, System.Int32 startOffset2, System.Int32 length)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static bool DoArrayElementsMatch(::ArrayWrapper<T> array1, int startOffset1, ::ArrayWrapper<T> array2, int startOffset2, int length) {
+    static bool DoArrayElementsMatch(::ArrayW<T> array1, int startOffset1, ::ArrayW<T> array2, int startOffset2, int length) {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_GeneralUtility::DoArrayElementsMatch");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HoudiniEngineUnity", "HEU_GeneralUtility", "DoArrayElementsMatch", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array1), ::il2cpp_utils::ExtractType(startOffset1), ::il2cpp_utils::ExtractType(array2), ::il2cpp_utils::ExtractType(startOffset2), ::il2cpp_utils::ExtractType(length)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -179,7 +180,7 @@ namespace HoudiniEngineUnity {
     // static public System.Boolean GetAttributeArray(System.Int32 geoID, System.Int32 partID, System.String name, ref HoudiniEngineUnity.HAPI_AttributeInfo info, T[] items, HoudiniEngineUnity.HEU_GeneralUtility/HoudiniEngineUnity.GetAttributeArrayInputFunc`1<T> getFunc, System.Int32 count)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static bool GetAttributeArray(int geoID, int partID, ::Il2CppString* name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> info, ::ArrayWrapper<T> items, HoudiniEngineUnity::HEU_GeneralUtility::GetAttributeArrayInputFunc_1<T>* getFunc, int count) {
+    static bool GetAttributeArray(int geoID, int partID, ::Il2CppString* name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> info, ::ArrayW<T> items, HoudiniEngineUnity::HEU_GeneralUtility::GetAttributeArrayInputFunc_1<T>* getFunc, int count) {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_GeneralUtility::GetAttributeArray");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HoudiniEngineUnity", "HEU_GeneralUtility", "GetAttributeArray", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(geoID), ::il2cpp_utils::ExtractType(partID), ::il2cpp_utils::ExtractType(name), ::il2cpp_utils::ExtractType(info), ::il2cpp_utils::ExtractType(items), ::il2cpp_utils::ExtractType(getFunc), ::il2cpp_utils::ExtractType(count)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -188,7 +189,7 @@ namespace HoudiniEngineUnity {
     // static public System.Boolean GetAttribute(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String name, ref HoudiniEngineUnity.HAPI_AttributeInfo info, ref T[] data, HoudiniEngineUnity.HEU_GeneralUtility/HoudiniEngineUnity.GetAttributeArrayInputFunc`1<T> getFunc)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static bool GetAttribute(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::Il2CppString* name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> info, ByRef<::ArrayWrapper<T>> data, HoudiniEngineUnity::HEU_GeneralUtility::GetAttributeArrayInputFunc_1<T>* getFunc) {
+    static bool GetAttribute(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::Il2CppString* name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> info, ByRef<::ArrayW<T>> data, HoudiniEngineUnity::HEU_GeneralUtility::GetAttributeArrayInputFunc_1<T>* getFunc) {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_GeneralUtility::GetAttribute");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HoudiniEngineUnity", "HEU_GeneralUtility", "GetAttribute", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(session), ::il2cpp_utils::ExtractType(geoID), ::il2cpp_utils::ExtractType(partID), ::il2cpp_utils::ExtractType(name), ::il2cpp_utils::ExtractType(info), ::il2cpp_utils::ExtractType(data), ::il2cpp_utils::ExtractType(getFunc)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -197,7 +198,7 @@ namespace HoudiniEngineUnity {
     // static public System.Boolean GetAttributeStrict(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, HoudiniEngineUnity.HAPI_AttributeOwner attrOwner, System.String name, ref HoudiniEngineUnity.HAPI_AttributeInfo info, ref T[] data, HoudiniEngineUnity.HEU_GeneralUtility/HoudiniEngineUnity.GetAttributeArrayInputFunc`1<T> getFunc)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static bool GetAttributeStrict(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, HoudiniEngineUnity::HAPI_AttributeOwner attrOwner, ::Il2CppString* name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> info, ByRef<::ArrayWrapper<T>> data, HoudiniEngineUnity::HEU_GeneralUtility::GetAttributeArrayInputFunc_1<T>* getFunc) {
+    static bool GetAttributeStrict(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, HoudiniEngineUnity::HAPI_AttributeOwner attrOwner, ::Il2CppString* name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> info, ByRef<::ArrayW<T>> data, HoudiniEngineUnity::HEU_GeneralUtility::GetAttributeArrayInputFunc_1<T>* getFunc) {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_GeneralUtility::GetAttributeStrict");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HoudiniEngineUnity", "HEU_GeneralUtility", "GetAttributeStrict", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(session), ::il2cpp_utils::ExtractType(geoID), ::il2cpp_utils::ExtractType(partID), ::il2cpp_utils::ExtractType(attrOwner), ::il2cpp_utils::ExtractType(name), ::il2cpp_utils::ExtractType(info), ::il2cpp_utils::ExtractType(data), ::il2cpp_utils::ExtractType(getFunc)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -205,14 +206,14 @@ namespace HoudiniEngineUnity {
     }
     // static public System.Void GetAttributeStringDataHelper(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String name, ref HoudiniEngineUnity.HAPI_AttributeInfo info, ref System.Int32[] data)
     // Offset: 0x1498FC4
-    static void GetAttributeStringDataHelper(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::Il2CppString* name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> info, ByRef<::ArrayWrapper<int>> data);
+    static void GetAttributeStringDataHelper(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::Il2CppString* name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> info, ByRef<::ArrayW<int>> data);
     // static public System.String[] GetAttributeStringData(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partID, System.String name, ref HoudiniEngineUnity.HAPI_AttributeInfo attrInfo)
     // Offset: 0x1499184
-    static ::ArrayWrapper<::Il2CppString*> GetAttributeStringData(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::Il2CppString* name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo);
+    static ::ArrayW<::Il2CppString*> GetAttributeStringData(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partID, ::Il2CppString* name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo);
     // static public System.Boolean SetAttributeArray(System.Int32 geoID, System.Int32 partID, System.String attrName, ref HoudiniEngineUnity.HAPI_AttributeInfo attrInfo, T[] items, HoudiniEngineUnity.HEU_GeneralUtility/HoudiniEngineUnity.SetAttributeArrayFunc`1<T> setFunc, System.Int32 count)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static bool SetAttributeArray(int geoID, int partID, ::Il2CppString* attrName, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo, ::ArrayWrapper<T> items, HoudiniEngineUnity::HEU_GeneralUtility::SetAttributeArrayFunc_1<T>* setFunc, int count) {
+    static bool SetAttributeArray(int geoID, int partID, ::Il2CppString* attrName, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo, ::ArrayW<T> items, HoudiniEngineUnity::HEU_GeneralUtility::SetAttributeArrayFunc_1<T>* setFunc, int count) {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_GeneralUtility::SetAttributeArray");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HoudiniEngineUnity", "HEU_GeneralUtility", "SetAttributeArray", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(geoID), ::il2cpp_utils::ExtractType(partID), ::il2cpp_utils::ExtractType(attrName), ::il2cpp_utils::ExtractType(attrInfo), ::il2cpp_utils::ExtractType(items), ::il2cpp_utils::ExtractType(setFunc), ::il2cpp_utils::ExtractType(count)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -221,7 +222,7 @@ namespace HoudiniEngineUnity {
     // static public System.Boolean SetAttribute(System.Int32 geoID, System.Int32 partID, System.String attrName, ref HoudiniEngineUnity.HAPI_AttributeInfo attrInfo, T[] items, HoudiniEngineUnity.HEU_GeneralUtility/HoudiniEngineUnity.SetAttributeArrayFunc`1<T> setFunc)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static bool SetAttribute(int geoID, int partID, ::Il2CppString* attrName, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo, ::ArrayWrapper<T> items, HoudiniEngineUnity::HEU_GeneralUtility::SetAttributeArrayFunc_1<T>* setFunc) {
+    static bool SetAttribute(int geoID, int partID, ::Il2CppString* attrName, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo, ::ArrayW<T> items, HoudiniEngineUnity::HEU_GeneralUtility::SetAttributeArrayFunc_1<T>* setFunc) {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_GeneralUtility::SetAttribute");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HoudiniEngineUnity", "HEU_GeneralUtility", "SetAttribute", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(geoID), ::il2cpp_utils::ExtractType(partID), ::il2cpp_utils::ExtractType(attrName), ::il2cpp_utils::ExtractType(attrInfo), ::il2cpp_utils::ExtractType(items), ::il2cpp_utils::ExtractType(setFunc)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -510,7 +511,7 @@ DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_GeneralUtility*, "HoudiniEngineUn
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::GetAttributeStringDataHelper
 // Il2CppName: GetAttributeStringDataHelper
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, ::Il2CppString*, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>, ByRef<::ArrayWrapper<int>>)>(&HoudiniEngineUnity::HEU_GeneralUtility::GetAttributeStringDataHelper)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, ::Il2CppString*, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>, ByRef<::ArrayW<int>>)>(&HoudiniEngineUnity::HEU_GeneralUtility::GetAttributeStringDataHelper)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* geoID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -524,7 +525,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeneralUtility::GetAttributeStringData
 // Il2CppName: GetAttributeStringData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppString*> (*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, ::Il2CppString*, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>)>(&HoudiniEngineUnity::HEU_GeneralUtility::GetAttributeStringData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, ::Il2CppString*, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>)>(&HoudiniEngineUnity::HEU_GeneralUtility::GetAttributeStringData)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* geoID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

@@ -39,6 +39,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerMockSettings : public UnityEngine::ScriptableObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean _isEnabled
     // Size: 0x1
     // Offset: 0x18
@@ -77,6 +82,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MasterServerQuickPlaySetupData* masterServerQuickPlaySetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MasterServerQuickPlaySetupData*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Boolean _isEnabled

@@ -45,12 +45,18 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::GridView::GridViewCellsEnumerator::$GetEnumerator$d__1
     class $GetEnumerator$d__1;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly GridView _gridView
     // Size: 0x8
     // Offset: 0x10
     GlobalNamespace::GridView* gridView;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GridView*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<UnityEngine::MonoBehaviour*>
     operator System::Collections::Generic::IEnumerable_1<UnityEngine::MonoBehaviour*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::MonoBehaviour*>*>(this);

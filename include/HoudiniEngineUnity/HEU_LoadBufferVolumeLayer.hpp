@@ -17,6 +17,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
@@ -26,6 +27,11 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_LoadBufferVolumeLayer : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.String _layerName
     // Size: 0x8
     // Offset: 0x10
@@ -129,9 +135,9 @@ namespace HoudiniEngineUnity {
     // public System.Single[] _normalizedHeights
     // Size: 0x8
     // Offset: 0x78
-    ::ArrayWrapper<float> normalizedHeights;
+    ::ArrayW<float> normalizedHeights;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<float>) == 0x8);
+    static_assert(sizeof(::ArrayW<float>) == 0x8);
     // public System.Single _minHeight
     // Size: 0x4
     // Offset: 0x80
@@ -208,6 +214,7 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::HFLayerType layerType;
     // Field size check
     static_assert(sizeof(HoudiniEngineUnity::HFLayerType) == 0x4);
+    public:
     // Get instance field reference: public System.String _layerName
     ::Il2CppString*& dyn__layerName();
     // Get instance field reference: public System.Int32 _partID
@@ -241,7 +248,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Int32 _tile
     int& dyn__tile();
     // Get instance field reference: public System.Single[] _normalizedHeights
-    ::ArrayWrapper<float>& dyn__normalizedHeights();
+    ::ArrayW<float>& dyn__normalizedHeights();
     // Get instance field reference: public System.Single _minHeight
     float& dyn__minHeight();
     // Get instance field reference: public System.Single _maxHeight

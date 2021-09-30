@@ -44,12 +44,18 @@ namespace Valve::VR {
     class _GetComponentStatePacked;
     // Nested type: Valve::VR::CVRRenderModels::GetComponentStateUnion
     struct GetComponentStateUnion;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Valve.VR.IVRRenderModels FnTable
     // Size: 0x90
     // Offset: 0x10
     Valve::VR::IVRRenderModels FnTable;
     // Field size check
     static_assert(sizeof(Valve::VR::IVRRenderModels) == 0x90);
+    public:
     // Creating conversion operator: operator Valve::VR::IVRRenderModels
     constexpr operator Valve::VR::IVRRenderModels() const noexcept {
       return FnTable;

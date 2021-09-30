@@ -19,6 +19,11 @@ namespace Mono::Globalization::Unicode {
   // [TokenAttribute] Offset: FFFFFFFF
   struct SimpleCollator::Escape/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.String Source
     // Size: 0x8
     // Offset: 0x0
@@ -49,6 +54,7 @@ namespace Mono::Globalization::Unicode {
     int Optional;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: Escape
     constexpr Escape(::Il2CppString* Source_ = {}, int Index_ = {}, int Start_ = {}, int End_ = {}, int Optional_ = {}) noexcept : Source{Source_}, Index{Index_}, Start{Start_}, End{End_}, Optional{Optional_} {}
     // Creating interface conversion operator: operator System::ValueType

@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Math
@@ -37,6 +38,11 @@ namespace Org::BouncyCastle::Math::EC {
   // [TokenAttribute] Offset: FFFFFFFF
   class FpCurve : public Org::BouncyCastle::Math::EC::AbstractFpCurve {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // protected readonly Org.BouncyCastle.Math.BigInteger m_q
     // Size: 0x8
     // Offset: 0x50
@@ -55,6 +61,7 @@ namespace Org::BouncyCastle::Math::EC {
     Org::BouncyCastle::Math::EC::FpPoint* m_infinity;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Math::EC::FpPoint*) == 0x8);
+    public:
     // Get instance field reference: protected readonly Org.BouncyCastle.Math.BigInteger m_q
     Org::BouncyCastle::Math::BigInteger*& dyn_m_q();
     // Get instance field reference: protected readonly Org.BouncyCastle.Math.BigInteger m_r
@@ -109,7 +116,7 @@ namespace Org::BouncyCastle::Math::EC {
     // Offset: 0x231D0F0
     // Implemented from: Org.BouncyCastle.Math.EC.ECCurve
     // Base method: Org.BouncyCastle.Math.EC.ECPoint ECCurve::CreateRawPoint(Org.BouncyCastle.Math.EC.ECFieldElement x, Org.BouncyCastle.Math.EC.ECFieldElement y, Org.BouncyCastle.Math.EC.ECFieldElement[] zs, System.Boolean withCompression)
-    Org::BouncyCastle::Math::EC::ECPoint* CreateRawPoint(Org::BouncyCastle::Math::EC::ECFieldElement* x, Org::BouncyCastle::Math::EC::ECFieldElement* y, ::ArrayWrapper<Org::BouncyCastle::Math::EC::ECFieldElement*> zs, bool withCompression);
+    Org::BouncyCastle::Math::EC::ECPoint* CreateRawPoint(Org::BouncyCastle::Math::EC::ECFieldElement* x, Org::BouncyCastle::Math::EC::ECFieldElement* y, ::ArrayW<Org::BouncyCastle::Math::EC::ECFieldElement*> zs, bool withCompression);
     // public override Org.BouncyCastle.Math.EC.ECPoint ImportPoint(Org.BouncyCastle.Math.EC.ECPoint p)
     // Offset: 0x231D190
     // Implemented from: Org.BouncyCastle.Math.EC.ECCurve
@@ -186,7 +193,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::FpCurve::CreateRawPoint
 // Il2CppName: CreateRawPoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (Org::BouncyCastle::Math::EC::FpCurve::*)(Org::BouncyCastle::Math::EC::ECFieldElement*, Org::BouncyCastle::Math::EC::ECFieldElement*, ::ArrayWrapper<Org::BouncyCastle::Math::EC::ECFieldElement*>, bool)>(&Org::BouncyCastle::Math::EC::FpCurve::CreateRawPoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (Org::BouncyCastle::Math::EC::FpCurve::*)(Org::BouncyCastle::Math::EC::ECFieldElement*, Org::BouncyCastle::Math::EC::ECFieldElement*, ::ArrayW<Org::BouncyCastle::Math::EC::ECFieldElement*>, bool)>(&Org::BouncyCastle::Math::EC::FpCurve::CreateRawPoint)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "ECFieldElement")->byval_arg;
     static auto* y = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "ECFieldElement")->byval_arg;

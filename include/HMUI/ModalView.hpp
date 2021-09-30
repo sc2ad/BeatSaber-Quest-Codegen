@@ -54,6 +54,11 @@ namespace HMUI {
     class $$c__DisplayClass17_0;
     // Nested type: HMUI::ModalView::$$c__DisplayClass21_0
     class $$c__DisplayClass21_0;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private HMUI.PanelAnimationSO _presentPanelAnimations
     // Size: 0x8
     // Offset: 0x18
@@ -131,6 +136,7 @@ namespace HMUI {
     int test;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private HMUI.PanelAnimationSO _presentPanelAnimations

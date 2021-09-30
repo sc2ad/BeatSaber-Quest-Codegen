@@ -39,12 +39,18 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class PoolableManager::$$c__DisplayClass3_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public Zenject.IPoolable poolable
     // Size: 0x8
     // Offset: 0x10
     Zenject::IPoolable* poolable;
     // Field size check
     static_assert(sizeof(Zenject::IPoolable*) == 0x8);
+    public:
     // Creating conversion operator: operator Zenject::IPoolable*
     constexpr operator Zenject::IPoolable*() const noexcept {
       return poolable;

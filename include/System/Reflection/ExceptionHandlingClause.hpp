@@ -29,6 +29,11 @@ namespace System::Reflection {
   // [ComVisibleAttribute] Offset: E5DD24
   class ExceptionHandlingClause : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Type catch_type
     // Size: 0x8
     // Offset: 0x10
@@ -71,6 +76,7 @@ namespace System::Reflection {
     int handler_length;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: System.Type catch_type
     System::Type*& dyn_catch_type();
     // Get instance field reference: System.Int32 filter_offset

@@ -27,6 +27,11 @@ namespace System::Runtime::Serialization {
   // [TokenAttribute] Offset: FFFFFFFF
   class ObjectHolderListEnumerator : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean m_isFixupEnumerator
     // Size: 0x1
     // Offset: 0x10
@@ -53,6 +58,7 @@ namespace System::Runtime::Serialization {
     int m_currPos;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: private System.Boolean m_isFixupEnumerator
     bool& dyn_m_isFixupEnumerator();
     // Get instance field reference: private System.Runtime.Serialization.ObjectHolderList m_list

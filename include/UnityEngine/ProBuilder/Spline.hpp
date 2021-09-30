@@ -7,6 +7,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ProBuilder.BezierPoint
 #include "UnityEngine/ProBuilder/BezierPoint.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::ProBuilder
@@ -49,7 +50,7 @@ namespace UnityEngine::ProBuilder {
     static UnityEngine::Quaternion GetRingRotation(System::Collections::Generic::IList_1<UnityEngine::Vector3>* points, int i, bool closeLoop, ByRef<float> secant);
     // static private UnityEngine.Vector3[] VertexRing(UnityEngine.Quaternion orientation, UnityEngine.Vector3 offset, System.Single radius, System.Int32 segments)
     // Offset: 0x24EF738
-    static ::ArrayWrapper<UnityEngine::Vector3> VertexRing(UnityEngine::Quaternion orientation, UnityEngine::Vector3 offset, float radius, int segments);
+    static ::ArrayW<UnityEngine::Vector3> VertexRing(UnityEngine::Quaternion orientation, UnityEngine::Vector3 offset, float radius, int segments);
   }; // UnityEngine.ProBuilder.Spline
   #pragma pack(pop)
 }
@@ -127,7 +128,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Spline::VertexRing
 // Il2CppName: VertexRing
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Vector3> (*)(UnityEngine::Quaternion, UnityEngine::Vector3, float, int)>(&UnityEngine::ProBuilder::Spline::VertexRing)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Vector3> (*)(UnityEngine::Quaternion, UnityEngine::Vector3, float, int)>(&UnityEngine::ProBuilder::Spline::VertexRing)> {
   static const MethodInfo* get() {
     static auto* orientation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;

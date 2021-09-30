@@ -35,6 +35,11 @@ namespace System::Net::Http::Headers {
   // [TokenAttribute] Offset: FFFFFFFF
   class ProductInfoHeaderValue : public ::Il2CppObject/*, public System::ICloneable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String <Comment>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -47,6 +52,7 @@ namespace System::Net::Http::Headers {
     System::Net::Http::Headers::ProductHeaderValue* Product;
     // Field size check
     static_assert(sizeof(System::Net::Http::Headers::ProductHeaderValue*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);

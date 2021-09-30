@@ -64,6 +64,11 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   // [TokenAttribute] Offset: FFFFFFFF
   class UnityWorkItem : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // protected readonly UnityEngine.TestRunner.NUnitExtensions.Runner.WorkItemFactory m_Factory
     // Size: 0x8
     // Offset: 0x10
@@ -130,6 +135,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     System::Collections::Generic::List_1<NUnit::Framework::ITestAction*>* Actions;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<NUnit::Framework::ITestAction*>*) == 0x8);
+    public:
     // static field const value: static protected System.Int32 k_DefaultTimeout
     static constexpr const int k_DefaultTimeout = 180000;
     // Get static field: static protected System.Int32 k_DefaultTimeout

@@ -37,6 +37,11 @@ namespace NUnit::Framework::Constraints {
   // [TokenAttribute] Offset: FFFFFFFF
   class EqualConstraint : public NUnit::Framework::Constraints::Constraint {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Object _expected
     // Size: 0x8
     // Offset: 0x30
@@ -62,6 +67,7 @@ namespace NUnit::Framework::Constraints {
     bool ClipStrings;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private readonly System.Object _expected
     ::Il2CppObject*& dyn__expected();
     // Get instance field reference: private NUnit.Framework.Constraints.Tolerance _tolerance

@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections
@@ -47,6 +48,11 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class CookieContainer : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Hashtable m_domainTable
     // Size: 0x8
     // Offset: 0x10
@@ -83,10 +89,11 @@ namespace System::Net {
     ::Il2CppString* m_fqdnMyDomain;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get static field: static private readonly System.Net.HeaderVariantInfo[] HeaderInfo
-    static ::ArrayWrapper<System::Net::HeaderVariantInfo> _get_HeaderInfo();
+    static ::ArrayW<System::Net::HeaderVariantInfo> _get_HeaderInfo();
     // Set static field: static private readonly System.Net.HeaderVariantInfo[] HeaderInfo
-    static void _set_HeaderInfo(::ArrayWrapper<System::Net::HeaderVariantInfo> value);
+    static void _set_HeaderInfo(::ArrayW<System::Net::HeaderVariantInfo> value);
     // Get instance field reference: private System.Collections.Hashtable m_domainTable
     System::Collections::Hashtable*& dyn_m_domainTable();
     // Get instance field reference: private System.Int32 m_maxCookieSize

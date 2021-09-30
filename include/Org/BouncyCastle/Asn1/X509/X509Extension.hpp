@@ -27,6 +27,11 @@ namespace Org::BouncyCastle::Asn1::X509 {
   // [TokenAttribute] Offset: FFFFFFFF
   class X509Extension : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Boolean critical
     // Size: 0x1
     // Offset: 0x10
@@ -41,6 +46,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
     Org::BouncyCastle::Asn1::Asn1OctetString* value;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::Asn1OctetString*) == 0x8);
+    public:
     // Get instance field reference: System.Boolean critical
     bool& dyn_critical();
     // Get instance field reference: Org.BouncyCastle.Asn1.Asn1OctetString value

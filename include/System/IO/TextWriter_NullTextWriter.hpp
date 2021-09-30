@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text
@@ -47,7 +48,7 @@ namespace System::IO {
     // Offset: 0x1A07680
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Write(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    void Write(::ArrayWrapper<::Il2CppChar> buffer, int index, int count);
+    void Write(::ArrayW<::Il2CppChar> buffer, int index, int count);
     // public override System.Void Write(System.String value)
     // Offset: 0x1A07684
     // Implemented from: System.IO.TextWriter
@@ -83,7 +84,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Writing MetadataGetter for method: System::IO::TextWriter::NullTextWriter::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::TextWriter::NullTextWriter::*)(::ArrayWrapper<::Il2CppChar>, int, int)>(&System::IO::TextWriter::NullTextWriter::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::TextWriter::NullTextWriter::*)(::ArrayW<::Il2CppChar>, int, int)>(&System::IO::TextWriter::NullTextWriter::Write)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

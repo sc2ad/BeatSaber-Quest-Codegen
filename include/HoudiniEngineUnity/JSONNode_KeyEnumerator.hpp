@@ -20,10 +20,16 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   struct JSONNode::KeyEnumerator/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private HoudiniEngineUnity.JSONNode/HoudiniEngineUnity.Enumerator m_Enumerator
     // Size: 0xFFFFFFFF
     // Offset: 0x0
     HoudiniEngineUnity::JSONNode::Enumerator m_Enumerator;
+    public:
     // Creating value type constructor for type: KeyEnumerator
     constexpr KeyEnumerator(HoudiniEngineUnity::JSONNode::Enumerator m_Enumerator_ = {}) noexcept : m_Enumerator{m_Enumerator_} {}
     // Creating interface conversion operator: operator System::ValueType

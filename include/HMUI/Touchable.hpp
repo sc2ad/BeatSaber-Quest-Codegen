@@ -29,12 +29,18 @@ namespace HMUI {
     public:
     // Writing base type padding for base size: 0x89 to desired offset: 0x8C
     char ___base_padding[0x3] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Single _skew
     // Size: 0x4
     // Offset: 0x8C
     float skew;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: private System.Single _skew
     float& dyn__skew();
     // public System.Single get_skew()

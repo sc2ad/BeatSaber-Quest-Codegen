@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Serialization
@@ -44,6 +45,11 @@ namespace System::Runtime::Serialization {
   // [TokenAttribute] Offset: FFFFFFFF
   class ObjectHolder : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Object m_object
     // Size: 0x8
     // Offset: 0x10
@@ -130,6 +136,7 @@ namespace System::Runtime::Serialization {
     bool m_reachable;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private System.Object m_object
     ::Il2CppObject*& dyn_m_object();
     // Get instance field reference: System.Int64 m_id
@@ -252,14 +259,14 @@ namespace System::Runtime::Serialization {
     // System.Void .ctor(System.Object obj, System.Int64 objID, System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.ISerializationSurrogate surrogate, System.Int64 idOfContainingObj, System.Reflection.FieldInfo field, System.Int32[] arrayIndex)
     // Offset: 0x190FA7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ObjectHolder* New_ctor(::Il2CppObject* obj, int64_t objID, System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::ISerializationSurrogate* surrogate, int64_t idOfContainingObj, System::Reflection::FieldInfo* field, ::ArrayWrapper<int> arrayIndex) {
+    static ObjectHolder* New_ctor(::Il2CppObject* obj, int64_t objID, System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::ISerializationSurrogate* surrogate, int64_t idOfContainingObj, System::Reflection::FieldInfo* field, ::ArrayW<int> arrayIndex) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::ObjectHolder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObjectHolder*, creationType>(obj, objID, info, surrogate, idOfContainingObj, field, arrayIndex)));
     }
     // System.Void .ctor(System.String obj, System.Int64 objID, System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.ISerializationSurrogate surrogate, System.Int64 idOfContainingObj, System.Reflection.FieldInfo field, System.Int32[] arrayIndex)
     // Offset: 0x190F990
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ObjectHolder* New_ctor(::Il2CppString* obj, int64_t objID, System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::ISerializationSurrogate* surrogate, int64_t idOfContainingObj, System::Reflection::FieldInfo* field, ::ArrayWrapper<int> arrayIndex) {
+    static ObjectHolder* New_ctor(::Il2CppString* obj, int64_t objID, System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::ISerializationSurrogate* surrogate, int64_t idOfContainingObj, System::Reflection::FieldInfo* field, ::ArrayW<int> arrayIndex) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::ObjectHolder::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ObjectHolder*, creationType>(obj, objID, info, surrogate, idOfContainingObj, field, arrayIndex)));
     }
@@ -283,7 +290,7 @@ namespace System::Runtime::Serialization {
     void AddDependency(int64_t dependentObject);
     // System.Void UpdateData(System.Object obj, System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.ISerializationSurrogate surrogate, System.Int64 idOfContainer, System.Reflection.FieldInfo field, System.Int32[] arrayIndex, System.Runtime.Serialization.ObjectManager manager)
     // Offset: 0x1910104
-    void UpdateData(::Il2CppObject* obj, System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::ISerializationSurrogate* surrogate, int64_t idOfContainer, System::Reflection::FieldInfo* field, ::ArrayWrapper<int> arrayIndex, System::Runtime::Serialization::ObjectManager* manager);
+    void UpdateData(::Il2CppObject* obj, System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::ISerializationSurrogate* surrogate, int64_t idOfContainer, System::Reflection::FieldInfo* field, ::ArrayW<int> arrayIndex, System::Runtime::Serialization::ObjectManager* manager);
     // System.Void MarkForCompletionWhenAvailable()
     // Offset: 0x191036C
     void MarkForCompletionWhenAvailable();
@@ -602,7 +609,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Runtime::Serialization::ObjectHolder::UpdateData
 // Il2CppName: UpdateData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::ObjectHolder::*)(::Il2CppObject*, System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::ISerializationSurrogate*, int64_t, System::Reflection::FieldInfo*, ::ArrayWrapper<int>, System::Runtime::Serialization::ObjectManager*)>(&System::Runtime::Serialization::ObjectHolder::UpdateData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::ObjectHolder::*)(::Il2CppObject*, System::Runtime::Serialization::SerializationInfo*, System::Runtime::Serialization::ISerializationSurrogate*, int64_t, System::Reflection::FieldInfo*, ::ArrayW<int>, System::Runtime::Serialization::ObjectManager*)>(&System::Runtime::Serialization::ObjectHolder::UpdateData)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* info = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "SerializationInfo")->byval_arg;

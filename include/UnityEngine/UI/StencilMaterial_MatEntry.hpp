@@ -33,6 +33,11 @@ namespace UnityEngine::UI {
   // [TokenAttribute] Offset: FFFFFFFF
   class StencilMaterial::MatEntry : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Material baseMat
     // Size: 0x8
     // Offset: 0x10
@@ -95,6 +100,7 @@ namespace UnityEngine::UI {
     UnityEngine::Rendering::ColorWriteMask colorMask;
     // Field size check
     static_assert(sizeof(UnityEngine::Rendering::ColorWriteMask) == 0x4);
+    public:
     // Get instance field reference: public UnityEngine.Material baseMat
     UnityEngine::Material*& dyn_baseMat();
     // Get instance field reference: public UnityEngine.Material customMat

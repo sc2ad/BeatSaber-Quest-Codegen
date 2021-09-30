@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HoudiniEngineUnity
@@ -40,7 +41,7 @@ namespace HoudiniEngineUnity {
     static HoudiniEngineUnity::Test_TerrainData* ToTestObject(UnityEngine::TerrainData* self);
     // static public HoudiniEngineUnity.Test_TerrainData[] ToTestObject(UnityEngine.TerrainData[] self)
     // Offset: 0x25D2A8C
-    static ::ArrayWrapper<HoudiniEngineUnity::Test_TerrainData*> ToTestObject(::ArrayWrapper<UnityEngine::TerrainData*> self);
+    static ::ArrayW<HoudiniEngineUnity::Test_TerrainData*> ToTestObject(::ArrayW<UnityEngine::TerrainData*> self);
     // static public System.Collections.Generic.List`1<HoudiniEngineUnity.Test_TerrainData> ToTestObject(System.Collections.Generic.List`1<UnityEngine.TerrainData> self)
     // Offset: 0x25D2B78
     static System::Collections::Generic::List_1<HoudiniEngineUnity::Test_TerrainData*>* ToTestObject(System::Collections::Generic::List_1<UnityEngine::TerrainData*>* self);
@@ -62,7 +63,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::Test_TerrainData_Extensions::ToTestObject
 // Il2CppName: ToTestObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<HoudiniEngineUnity::Test_TerrainData*> (*)(::ArrayWrapper<UnityEngine::TerrainData*>)>(&HoudiniEngineUnity::Test_TerrainData_Extensions::ToTestObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<HoudiniEngineUnity::Test_TerrainData*> (*)(::ArrayW<UnityEngine::TerrainData*>)>(&HoudiniEngineUnity::Test_TerrainData_Extensions::ToTestObject)> {
   static const MethodInfo* get() {
     static auto* self = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "TerrainData"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::Test_TerrainData_Extensions*), "ToTestObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{self});

@@ -35,6 +35,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MasterServerConnectionManager::MasterServerConnectionManagerParamsBase : public ::Il2CppObject/*, public GlobalNamespace::IConnectionInitParams_1<GlobalNamespace::MasterServerConnectionManager*>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public MasterServerEndPoint masterServerEndPoint
     // Size: 0x8
     // Offset: 0x10
@@ -71,6 +76,7 @@ namespace GlobalNamespace {
     GlobalNamespace::GameplayServerConfiguration configuration;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayServerConfiguration) == 0x18);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IConnectionInitParams_1<GlobalNamespace::MasterServerConnectionManager*>
     operator GlobalNamespace::IConnectionInitParams_1<GlobalNamespace::MasterServerConnectionManager*>() noexcept {
       return *reinterpret_cast<GlobalNamespace::IConnectionInitParams_1<GlobalNamespace::MasterServerConnectionManager*>*>(this);

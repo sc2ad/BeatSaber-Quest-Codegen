@@ -53,6 +53,11 @@ namespace UnityEngine::Timeline {
     public:
     // Nested type: UnityEngine::Timeline::AudioPlayableAsset::$get_outputs$d__16
     class $get_outputs$d__16;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.AudioClip m_Clip
     // Size: 0x8
     // Offset: 0x18
@@ -79,6 +84,7 @@ namespace UnityEngine::Timeline {
     UnityEngine::Timeline::AudioClipProperties* m_ClipProperties;
     // Field size check
     static_assert(sizeof(UnityEngine::Timeline::AudioClipProperties*) == 0x8);
+    public:
     // Creating interface conversion operator: operator UnityEngine::Timeline::ITimelineClipAsset
     operator UnityEngine::Timeline::ITimelineClipAsset() noexcept {
       return *reinterpret_cast<UnityEngine::Timeline::ITimelineClipAsset*>(this);

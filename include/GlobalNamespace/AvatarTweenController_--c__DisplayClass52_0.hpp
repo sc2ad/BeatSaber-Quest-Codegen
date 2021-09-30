@@ -30,6 +30,11 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class AvatarTweenController::$$c__DisplayClass52_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Transform partTransform
     // Size: 0x8
     // Offset: 0x10
@@ -42,6 +47,7 @@ namespace GlobalNamespace {
     UnityEngine::Vector3 originalScale;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    public:
     // Get instance field reference: public UnityEngine.Transform partTransform
     UnityEngine::Transform*& dyn_partTransform();
     // Get instance field reference: public UnityEngine.Vector3 originalScale

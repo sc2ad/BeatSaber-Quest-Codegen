@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Oculus::Platform
@@ -71,7 +72,7 @@ namespace Oculus::Platform {
     static Oculus::Platform::Request_1<Oculus::Platform::Models::ChallengeEntryList*>* GetEntriesAfterRank(uint64_t challengeID, int limit, uint64_t afterRank);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.ChallengeEntryList> GetEntriesByIds(System.UInt64 challengeID, System.Int32 limit, Oculus.Platform.LeaderboardStartAt startAt, System.UInt64[] userIDs)
     // Offset: 0x16AA224
-    static Oculus::Platform::Request_1<Oculus::Platform::Models::ChallengeEntryList*>* GetEntriesByIds(uint64_t challengeID, int limit, Oculus::Platform::LeaderboardStartAt startAt, ::ArrayWrapper<uint64_t> userIDs);
+    static Oculus::Platform::Request_1<Oculus::Platform::Models::ChallengeEntryList*>* GetEntriesByIds(uint64_t challengeID, int limit, Oculus::Platform::LeaderboardStartAt startAt, ::ArrayW<uint64_t> userIDs);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.ChallengeList> GetList(Oculus.Platform.ChallengeOptions challengeOptions, System.Int32 limit)
     // Offset: 0x16AA374
     static Oculus::Platform::Request_1<Oculus::Platform::Models::ChallengeList*>* GetList(Oculus::Platform::ChallengeOptions* challengeOptions, int limit);
@@ -189,7 +190,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Writing MetadataGetter for method: Oculus::Platform::Challenges::GetEntriesByIds
 // Il2CppName: GetEntriesByIds
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::ChallengeEntryList*>* (*)(uint64_t, int, Oculus::Platform::LeaderboardStartAt, ::ArrayWrapper<uint64_t>)>(&Oculus::Platform::Challenges::GetEntriesByIds)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::ChallengeEntryList*>* (*)(uint64_t, int, Oculus::Platform::LeaderboardStartAt, ::ArrayW<uint64_t>)>(&Oculus::Platform::Challenges::GetEntriesByIds)> {
   static const MethodInfo* get() {
     static auto* challengeID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* limit = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

@@ -27,6 +27,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OffsetByBeatmapObjectSpawnCenter : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xF042BC
     // private readonly BeatmapObjectSpawnCenter _spawnCenter
     // Size: 0x8
@@ -34,6 +39,7 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatmapObjectSpawnCenter* spawnCenter;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectSpawnCenter*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private readonly BeatmapObjectSpawnCenter _spawnCenter

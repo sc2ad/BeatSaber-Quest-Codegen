@@ -37,12 +37,18 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   // [TokenAttribute] Offset: FFFFFFFF
   class ECPublicKeyParameters : public Org::BouncyCastle::Crypto::Parameters::ECKeyParameters {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Org.BouncyCastle.Math.EC.ECPoint q
     // Size: 0x8
     // Offset: 0x30
     Org::BouncyCastle::Math::EC::ECPoint* q;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Math::EC::ECPoint*) == 0x8);
+    public:
     // Get instance field reference: private readonly Org.BouncyCastle.Math.EC.ECPoint q
     Org::BouncyCastle::Math::EC::ECPoint*& dyn_q();
     // public Org.BouncyCastle.Math.EC.ECPoint get_Q()

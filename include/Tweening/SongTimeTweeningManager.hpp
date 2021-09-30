@@ -27,6 +27,11 @@ namespace Tweening {
   // [TokenAttribute] Offset: FFFFFFFF
   class SongTimeTweeningManager : public Tweening::TweeningManager {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xF15354
     // private readonly IAudioTimeSource _audioTimeSource
     // Size: 0x8
@@ -34,6 +39,7 @@ namespace Tweening {
     GlobalNamespace::IAudioTimeSource* audioTimeSource;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IAudioTimeSource*) == 0x8);
+    public:
     // Get instance field reference: private readonly IAudioTimeSource _audioTimeSource
     GlobalNamespace::IAudioTimeSource*& dyn__audioTimeSource();
     // public System.Void .ctor()

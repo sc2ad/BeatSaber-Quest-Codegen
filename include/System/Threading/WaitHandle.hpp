@@ -17,6 +17,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Microsoft::Win32::SafeHandles
@@ -45,6 +46,11 @@ namespace System::Threading {
   // [ComVisibleAttribute] Offset: E5EB78
   class WaitHandle : public System::MarshalByRefObject/*, public System::IDisposable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.IntPtr waitHandle
     // Size: 0x8
     // Offset: 0x18
@@ -63,6 +69,7 @@ namespace System::Threading {
     bool hasThreadAffinity;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
@@ -162,10 +169,10 @@ namespace System::Threading {
     static bool InternalWaitOne(System::Runtime::InteropServices::SafeHandle* waitableSafeHandle, int64_t millisecondsTimeout, bool hasThreadAffinity, bool exitContext);
     // static public System.Int32 WaitAny(System.Threading.WaitHandle[] waitHandles, System.Int32 millisecondsTimeout, System.Boolean exitContext)
     // Offset: 0x19C34A4
-    static int WaitAny(::ArrayWrapper<System::Threading::WaitHandle*> waitHandles, int millisecondsTimeout, bool exitContext);
+    static int WaitAny(::ArrayW<System::Threading::WaitHandle*> waitHandles, int millisecondsTimeout, bool exitContext);
     // static public System.Int32 WaitAny(System.Threading.WaitHandle[] waitHandles, System.TimeSpan timeout, System.Boolean exitContext)
     // Offset: 0x19C3AA4
-    static int WaitAny(::ArrayWrapper<System::Threading::WaitHandle*> waitHandles, System::TimeSpan timeout, bool exitContext);
+    static int WaitAny(::ArrayW<System::Threading::WaitHandle*> waitHandles, System::TimeSpan timeout, bool exitContext);
     // static private System.Void ThrowAbandonedMutexException()
     // Offset: 0x19C3444
     static void ThrowAbandonedMutexException();
@@ -183,7 +190,7 @@ namespace System::Threading {
     void Dispose();
     // static private System.Int32 WaitMultiple(System.Threading.WaitHandle[] waitHandles, System.Int32 millisecondsTimeout, System.Boolean exitContext, System.Boolean WaitAll)
     // Offset: 0x19C37B0
-    static int WaitMultiple(::ArrayWrapper<System::Threading::WaitHandle*> waitHandles, int millisecondsTimeout, bool exitContext, bool WaitAll);
+    static int WaitMultiple(::ArrayW<System::Threading::WaitHandle*> waitHandles, int millisecondsTimeout, bool exitContext, bool WaitAll);
     // static private System.Int32 WaitOneNative(System.Runtime.InteropServices.SafeHandle waitableSafeHandle, System.UInt32 millisecondsTimeout, System.Boolean hasThreadAffinity, System.Boolean exitContext)
     // Offset: 0x19C3334
     static int WaitOneNative(System::Runtime::InteropServices::SafeHandle* waitableSafeHandle, uint millisecondsTimeout, bool hasThreadAffinity, bool exitContext);
@@ -329,7 +336,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Threading::WaitHandle::WaitAny
 // Il2CppName: WaitAny
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayWrapper<System::Threading::WaitHandle*>, int, bool)>(&System::Threading::WaitHandle::WaitAny)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayW<System::Threading::WaitHandle*>, int, bool)>(&System::Threading::WaitHandle::WaitAny)> {
   static const MethodInfo* get() {
     static auto* waitHandles = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Threading", "WaitHandle"), 1)->byval_arg;
     static auto* millisecondsTimeout = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -340,7 +347,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::A
 // Writing MetadataGetter for method: System::Threading::WaitHandle::WaitAny
 // Il2CppName: WaitAny
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayWrapper<System::Threading::WaitHandle*>, System::TimeSpan, bool)>(&System::Threading::WaitHandle::WaitAny)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayW<System::Threading::WaitHandle*>, System::TimeSpan, bool)>(&System::Threading::WaitHandle::WaitAny)> {
   static const MethodInfo* get() {
     static auto* waitHandles = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Threading", "WaitHandle"), 1)->byval_arg;
     static auto* timeout = &::il2cpp_utils::GetClassFromName("System", "TimeSpan")->byval_arg;
@@ -394,7 +401,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Threading::WaitHandle::WaitMultiple
 // Il2CppName: WaitMultiple
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayWrapper<System::Threading::WaitHandle*>, int, bool, bool)>(&System::Threading::WaitHandle::WaitMultiple)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayW<System::Threading::WaitHandle*>, int, bool, bool)>(&System::Threading::WaitHandle::WaitMultiple)> {
   static const MethodInfo* get() {
     static auto* waitHandles = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Threading", "WaitHandle"), 1)->byval_arg;
     static auto* millisecondsTimeout = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

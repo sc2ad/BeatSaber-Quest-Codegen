@@ -7,6 +7,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Object
 #include "UnityEngine/Object.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
@@ -22,7 +23,7 @@ namespace UnityEngine {
     ::Il2CppString* get_text();
     // public System.Byte[] get_bytes()
     // Offset: 0x2341228
-    ::ArrayWrapper<uint8_t> get_bytes();
+    ::ArrayW<uint8_t> get_bytes();
     // public override System.String ToString()
     // Offset: 0x2341268
     // Implemented from: UnityEngine.Object
@@ -45,7 +46,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::TextAsset::get_bytes
 // Il2CppName: get_bytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (UnityEngine::TextAsset::*)()>(&UnityEngine::TextAsset::get_bytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (UnityEngine::TextAsset::*)()>(&UnityEngine::TextAsset::get_bytes)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextAsset*), "get_bytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

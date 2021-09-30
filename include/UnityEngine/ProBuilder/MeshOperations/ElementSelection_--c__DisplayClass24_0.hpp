@@ -30,12 +30,18 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class ElementSelection::$$c__DisplayClass24_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.ProBuilder.Face face
     // Size: 0x8
     // Offset: 0x10
     UnityEngine::ProBuilder::Face* face;
     // Field size check
     static_assert(sizeof(UnityEngine::ProBuilder::Face*) == 0x8);
+    public:
     // Creating conversion operator: operator UnityEngine::ProBuilder::Face*
     constexpr operator UnityEngine::ProBuilder::Face*() const noexcept {
       return face;

@@ -27,6 +27,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MockPause : public ::Il2CppObject/*, public GlobalNamespace::IGamePause*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Action didPauseEvent
     // Size: 0x8
     // Offset: 0x10
@@ -45,6 +50,7 @@ namespace GlobalNamespace {
     System::Action* didResumeEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IGamePause
     operator GlobalNamespace::IGamePause() noexcept {
       return *reinterpret_cast<GlobalNamespace::IGamePause*>(this);

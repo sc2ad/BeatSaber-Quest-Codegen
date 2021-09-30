@@ -47,6 +47,11 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class ZenjectSceneLoader : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Zenject.ProjectKernel _projectKernel
     // Size: 0x8
     // Offset: 0x10
@@ -59,6 +64,7 @@ namespace Zenject {
     Zenject::DiContainer* sceneContainer;
     // Field size check
     static_assert(sizeof(Zenject::DiContainer*) == 0x8);
+    public:
     // Get instance field reference: private readonly Zenject.ProjectKernel _projectKernel
     Zenject::ProjectKernel*& dyn__projectKernel();
     // Get instance field reference: private readonly Zenject.DiContainer _sceneContainer

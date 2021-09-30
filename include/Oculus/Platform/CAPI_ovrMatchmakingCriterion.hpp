@@ -23,6 +23,11 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   struct CAPI::ovrMatchmakingCriterion/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.String key_
     // Size: 0x8
     // Offset: 0x0
@@ -49,6 +54,7 @@ namespace Oculus::Platform {
     uint parameterArrayCount;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
+    public:
     // Creating value type constructor for type: ovrMatchmakingCriterion
     constexpr ovrMatchmakingCriterion(::Il2CppString* key_ = {}, Oculus::Platform::MatchmakingCriterionImportance importance_ = {}, System::IntPtr parameterArray_ = {}, uint parameterArrayCount_ = {}) noexcept : key{key_}, importance{importance_}, parameterArray{parameterArray_}, parameterArrayCount{parameterArrayCount_} {}
     // Creating interface conversion operator: operator System::ValueType

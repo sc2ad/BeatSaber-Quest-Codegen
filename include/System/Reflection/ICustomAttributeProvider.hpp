@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -26,7 +27,7 @@ namespace System::Reflection {
     public:
     // public System.Object[] GetCustomAttributes(System.Type attributeType, System.Boolean inherit)
     // Offset: 0xFFFFFFFF
-    ::ArrayWrapper<::Il2CppObject*> GetCustomAttributes(System::Type* attributeType, bool inherit);
+    ::ArrayW<::Il2CppObject*> GetCustomAttributes(System::Type* attributeType, bool inherit);
     // public System.Boolean IsDefined(System.Type attributeType, System.Boolean inherit)
     // Offset: 0xFFFFFFFF
     bool IsDefined(System::Type* attributeType, bool inherit);
@@ -39,7 +40,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Reflection::ICustomAttributeProvider*, "System.Re
 // Writing MetadataGetter for method: System::Reflection::ICustomAttributeProvider::GetCustomAttributes
 // Il2CppName: GetCustomAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppObject*> (System::Reflection::ICustomAttributeProvider::*)(System::Type*, bool)>(&System::Reflection::ICustomAttributeProvider::GetCustomAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppObject*> (System::Reflection::ICustomAttributeProvider::*)(System::Type*, bool)>(&System::Reflection::ICustomAttributeProvider::GetCustomAttributes)> {
   static const MethodInfo* get() {
     static auto* attributeType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* inherit = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

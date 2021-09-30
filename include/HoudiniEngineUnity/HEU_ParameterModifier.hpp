@@ -36,12 +36,18 @@ namespace HoudiniEngineUnity {
     // [TokenAttribute] Offset: FFFFFFFF
     struct ModifierAction/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: ModifierAction
       constexpr ModifierAction(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -88,6 +94,11 @@ namespace HoudiniEngineUnity {
     #pragma pack(pop)
     static check_size<sizeof(HEU_ParameterModifier::ModifierAction), 0 + sizeof(int)> __HoudiniEngineUnity_HEU_ParameterModifier_ModifierActionSizeCheck;
     static_assert(sizeof(HEU_ParameterModifier::ModifierAction) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 _parameterIndex
     // Size: 0x4
     // Offset: 0x10
@@ -124,6 +135,7 @@ namespace HoudiniEngineUnity {
     int intValue;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_ParameterModifier*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_ParameterModifier*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_ParameterModifier*>*>(this);

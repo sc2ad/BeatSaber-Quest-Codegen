@@ -33,12 +33,18 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class ConventionFilterTypesBinder::$$c__DisplayClass18_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Text.RegularExpressions.Regex regex
     // Size: 0x8
     // Offset: 0x10
     System::Text::RegularExpressions::Regex* regex;
     // Field size check
     static_assert(sizeof(System::Text::RegularExpressions::Regex*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Text::RegularExpressions::Regex*
     constexpr operator System::Text::RegularExpressions::Regex*() const noexcept {
       return regex;

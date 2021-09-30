@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -35,9 +36,9 @@ namespace GlobalNamespace {
     // Nested type: GlobalNamespace::SteamVR_Controller::DeviceRelation
     struct DeviceRelation;
     // Get static field: static private SteamVR_Controller/Device[] devices
-    static ::ArrayWrapper<GlobalNamespace::SteamVR_Controller::Device*> _get_devices();
+    static ::ArrayW<GlobalNamespace::SteamVR_Controller::Device*> _get_devices();
     // Set static field: static private SteamVR_Controller/Device[] devices
-    static void _set_devices(::ArrayWrapper<GlobalNamespace::SteamVR_Controller::Device*> value);
+    static void _set_devices(::ArrayW<GlobalNamespace::SteamVR_Controller::Device*> value);
     // static public SteamVR_Controller/Device Input(System.Int32 deviceIndex)
     // Offset: 0x1537628
     static GlobalNamespace::SteamVR_Controller::Device* Input(int deviceIndex);

@@ -31,6 +31,11 @@ namespace UnityEngine::ProBuilder {
   // [TokenAttribute] Offset: FFFFFFFF
   class SemVer : public ::Il2CppObject/*, public System::IEquatable_1<UnityEngine::ProBuilder::SemVer*>, public System::IComparable_1<UnityEngine::ProBuilder::SemVer*>, public System::IComparable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 m_Major
     // Size: 0x4
     // Offset: 0x10
@@ -73,6 +78,7 @@ namespace UnityEngine::ProBuilder {
     ::Il2CppString* m_Date;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::IEquatable_1<UnityEngine::ProBuilder::SemVer*>
     operator System::IEquatable_1<UnityEngine::ProBuilder::SemVer*>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<UnityEngine::ProBuilder::SemVer*>*>(this);

@@ -17,6 +17,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HoudiniEngineUnity
@@ -98,12 +99,18 @@ namespace HoudiniEngineUnity {
     // [TokenAttribute] Offset: FFFFFFFF
     struct PartOutputType/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: PartOutputType
       constexpr PartOutputType(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -150,6 +157,11 @@ namespace HoudiniEngineUnity {
     #pragma pack(pop)
     static check_size<sizeof(HEU_PartData::PartOutputType), 0 + sizeof(int)> __HoudiniEngineUnity_HEU_PartData_PartOutputTypeSizeCheck;
     static_assert(sizeof(HEU_PartData::PartOutputType) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 _partID
     // Size: 0x4
     // Offset: 0x18
@@ -296,6 +308,7 @@ namespace HoudiniEngineUnity {
     ::Il2CppString* volumeLayerName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_PartData*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_PartData*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_PartData*>*>(this);
@@ -474,19 +487,19 @@ namespace HoudiniEngineUnity {
     void GeneratePartInstances(HoudiniEngineUnity::HEU_SessionBase* session);
     // public System.Void GenerateInstancesFromObjectID(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 objectNodeID, System.String[] instancePrefixes)
     // Offset: 0x17ACCDC
-    void GenerateInstancesFromObjectID(HoudiniEngineUnity::HEU_SessionBase* session, int objectNodeID, ::ArrayWrapper<::Il2CppString*> instancePrefixes);
+    void GenerateInstancesFromObjectID(HoudiniEngineUnity::HEU_SessionBase* session, int objectNodeID, ::ArrayW<::Il2CppString*> instancePrefixes);
     // public System.Void GenerateInstancesFromObject(HoudiniEngineUnity.HEU_SessionBase session, HoudiniEngineUnity.HEU_ObjectNode sourceObject, System.String[] instancePrefixes)
     // Offset: 0x17AD53C
-    void GenerateInstancesFromObject(HoudiniEngineUnity::HEU_SessionBase* session, HoudiniEngineUnity::HEU_ObjectNode* sourceObject, ::ArrayWrapper<::Il2CppString*> instancePrefixes);
+    void GenerateInstancesFromObject(HoudiniEngineUnity::HEU_SessionBase* session, HoudiniEngineUnity::HEU_ObjectNode* sourceObject, ::ArrayW<::Il2CppString*> instancePrefixes);
     // public System.Void GenerateInstancesFromObjectIds(HoudiniEngineUnity.HEU_SessionBase session, System.String[] instancePrefixes)
     // Offset: 0x17AD808
-    void GenerateInstancesFromObjectIds(HoudiniEngineUnity::HEU_SessionBase* session, ::ArrayWrapper<::Il2CppString*> instancePrefixes);
+    void GenerateInstancesFromObjectIds(HoudiniEngineUnity::HEU_SessionBase* session, ::ArrayW<::Il2CppString*> instancePrefixes);
     // public System.Void GenerateInstancesFromUnityAssetPathAttribute(HoudiniEngineUnity.HEU_SessionBase session, System.String unityInstanceAttr)
     // Offset: 0x17ADD88
     void GenerateInstancesFromUnityAssetPathAttribute(HoudiniEngineUnity::HEU_SessionBase* session, ::Il2CppString* unityInstanceAttr);
     // private System.Void CreateNewInstanceFromObject(UnityEngine.GameObject sourceObject, System.Int32 instanceIndex, UnityEngine.Transform parentTransform, ref HoudiniEngineUnity.HAPI_Transform hapiTransform, System.Int32 instancedObjectNodeID, System.String instancedObjectPath, UnityEngine.Vector3 rotationOffset, UnityEngine.Vector3 scaleOffset, System.String[] instancePrefixes, UnityEngine.GameObject collisionSrcGO, System.Boolean copyParentFlags)
     // Offset: 0x17AD18C
-    void CreateNewInstanceFromObject(UnityEngine::GameObject* sourceObject, int instanceIndex, UnityEngine::Transform* parentTransform, ByRef<HoudiniEngineUnity::HAPI_Transform> hapiTransform, int instancedObjectNodeID, ::Il2CppString* instancedObjectPath, UnityEngine::Vector3 rotationOffset, UnityEngine::Vector3 scaleOffset, ::ArrayWrapper<::Il2CppString*> instancePrefixes, UnityEngine::GameObject* collisionSrcGO, bool copyParentFlags);
+    void CreateNewInstanceFromObject(UnityEngine::GameObject* sourceObject, int instanceIndex, UnityEngine::Transform* parentTransform, ByRef<HoudiniEngineUnity::HAPI_Transform> hapiTransform, int instancedObjectNodeID, ::Il2CppString* instancedObjectPath, UnityEngine::Vector3 rotationOffset, UnityEngine::Vector3 scaleOffset, ::ArrayW<::Il2CppString*> instancePrefixes, UnityEngine::GameObject* collisionSrcGO, bool copyParentFlags);
     // public System.Void GenerateAttributesStore(HoudiniEngineUnity.HEU_SessionBase session)
     // Offset: 0x17AEB74
     void GenerateAttributesStore(HoudiniEngineUnity::HEU_SessionBase* session);
@@ -958,7 +971,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PartData::GenerateInstancesFromObjectID
 // Il2CppName: GenerateInstancesFromObjectID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PartData::*)(HoudiniEngineUnity::HEU_SessionBase*, int, ::ArrayWrapper<::Il2CppString*>)>(&HoudiniEngineUnity::HEU_PartData::GenerateInstancesFromObjectID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PartData::*)(HoudiniEngineUnity::HEU_SessionBase*, int, ::ArrayW<::Il2CppString*>)>(&HoudiniEngineUnity::HEU_PartData::GenerateInstancesFromObjectID)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* objectNodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -969,7 +982,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PartData::GenerateInstancesFromObject
 // Il2CppName: GenerateInstancesFromObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PartData::*)(HoudiniEngineUnity::HEU_SessionBase*, HoudiniEngineUnity::HEU_ObjectNode*, ::ArrayWrapper<::Il2CppString*>)>(&HoudiniEngineUnity::HEU_PartData::GenerateInstancesFromObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PartData::*)(HoudiniEngineUnity::HEU_SessionBase*, HoudiniEngineUnity::HEU_ObjectNode*, ::ArrayW<::Il2CppString*>)>(&HoudiniEngineUnity::HEU_PartData::GenerateInstancesFromObject)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* sourceObject = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_ObjectNode")->byval_arg;
@@ -980,7 +993,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PartData::GenerateInstancesFromObjectIds
 // Il2CppName: GenerateInstancesFromObjectIds
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PartData::*)(HoudiniEngineUnity::HEU_SessionBase*, ::ArrayWrapper<::Il2CppString*>)>(&HoudiniEngineUnity::HEU_PartData::GenerateInstancesFromObjectIds)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PartData::*)(HoudiniEngineUnity::HEU_SessionBase*, ::ArrayW<::Il2CppString*>)>(&HoudiniEngineUnity::HEU_PartData::GenerateInstancesFromObjectIds)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* instancePrefixes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
@@ -1000,7 +1013,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PartData::CreateNewInstanceFromObject
 // Il2CppName: CreateNewInstanceFromObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PartData::*)(UnityEngine::GameObject*, int, UnityEngine::Transform*, ByRef<HoudiniEngineUnity::HAPI_Transform>, int, ::Il2CppString*, UnityEngine::Vector3, UnityEngine::Vector3, ::ArrayWrapper<::Il2CppString*>, UnityEngine::GameObject*, bool)>(&HoudiniEngineUnity::HEU_PartData::CreateNewInstanceFromObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PartData::*)(UnityEngine::GameObject*, int, UnityEngine::Transform*, ByRef<HoudiniEngineUnity::HAPI_Transform>, int, ::Il2CppString*, UnityEngine::Vector3, UnityEngine::Vector3, ::ArrayW<::Il2CppString*>, UnityEngine::GameObject*, bool)>(&HoudiniEngineUnity::HEU_PartData::CreateNewInstanceFromObject)> {
   static const MethodInfo* get() {
     static auto* sourceObject = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* instanceIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

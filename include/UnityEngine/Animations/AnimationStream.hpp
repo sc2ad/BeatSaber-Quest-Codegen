@@ -22,6 +22,11 @@ namespace UnityEngine::Animations {
   // [MovedFromAttribute] Offset: E8C420
   struct AnimationStream/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.UInt32 m_AnimatorBindingsVersion
     // Size: 0x4
     // Offset: 0x0
@@ -66,6 +71,7 @@ namespace UnityEngine::Animations {
     System::IntPtr animationHandleBinder;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
+    public:
     // Creating value type constructor for type: AnimationStream
     constexpr AnimationStream(uint m_AnimatorBindingsVersion_ = {}, System::IntPtr constant_ = {}, System::IntPtr input_ = {}, System::IntPtr output_ = {}, System::IntPtr workspace_ = {}, System::IntPtr inputStreamAccessor_ = {}, System::IntPtr animationHandleBinder_ = {}) noexcept : m_AnimatorBindingsVersion{m_AnimatorBindingsVersion_}, constant{constant_}, input{input_}, output{output_}, workspace{workspace_}, inputStreamAccessor{inputStreamAccessor_}, animationHandleBinder{animationHandleBinder_} {}
     // Creating interface conversion operator: operator System::ValueType

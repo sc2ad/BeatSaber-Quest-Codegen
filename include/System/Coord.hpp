@@ -17,6 +17,11 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Coord/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int16 X
     // Size: 0x2
     // Offset: 0x0
@@ -29,6 +34,7 @@ namespace System {
     int16_t Y;
     // Field size check
     static_assert(sizeof(int16_t) == 0x2);
+    public:
     // Creating value type constructor for type: Coord
     constexpr Coord(int16_t X_ = {}, int16_t Y_ = {}) noexcept : X{X_}, Y{Y_} {}
     // Creating interface conversion operator: operator System::ValueType

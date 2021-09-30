@@ -25,6 +25,11 @@ namespace Mono::Net::Security {
   // [TokenAttribute] Offset: FFFFFFFF
   class AsyncProtocolResult : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Int32 <UserResult>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -39,6 +44,7 @@ namespace Mono::Net::Security {
     System::Runtime::ExceptionServices::ExceptionDispatchInfo* Error;
     // Field size check
     static_assert(sizeof(System::Runtime::ExceptionServices::ExceptionDispatchInfo*) == 0x8);
+    public:
     // Get instance field reference: private readonly System.Int32 <UserResult>k__BackingField
     int& dyn_$UserResult$k__BackingField();
     // Get instance field reference: private readonly System.Runtime.ExceptionServices.ExceptionDispatchInfo <Error>k__BackingField

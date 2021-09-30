@@ -28,12 +28,18 @@ namespace GlobalNamespace {
   template<typename T>
   class OVRResources::$$c__DisplayClass3_0_1 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.String path
     // Size: 0x8
     // Offset: 0x0
     ::Il2CppString* path;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return path;

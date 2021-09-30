@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Remoting
@@ -46,6 +47,11 @@ namespace System::Runtime::Remoting {
   // [ComVisibleAttribute] Offset: E5FAEC
   class ObjRef : public ::Il2CppObject/*, public System::Runtime::Serialization::ISerializable, public System::Runtime::Serialization::IObjectReference*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Runtime.Remoting.IChannelInfo channel_info
     // Size: 0x8
     // Offset: 0x10
@@ -84,6 +90,7 @@ namespace System::Runtime::Remoting {
     System::Type* serverType;
     // Field size check
     static_assert(sizeof(System::Type*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Runtime::Serialization::ISerializable
     operator System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);
@@ -165,10 +172,10 @@ namespace System::Runtime::Remoting {
     static void _cctor();
     // System.Runtime.Remoting.ObjRef DeserializeInTheCurrentDomain(System.Int32 domainId, System.Byte[] tInfo)
     // Offset: 0x1C13B98
-    System::Runtime::Remoting::ObjRef* DeserializeInTheCurrentDomain(int domainId, ::ArrayWrapper<uint8_t> tInfo);
+    System::Runtime::Remoting::ObjRef* DeserializeInTheCurrentDomain(int domainId, ::ArrayW<uint8_t> tInfo);
     // System.Byte[] SerializeType()
     // Offset: 0x1C14D1C
-    ::ArrayWrapper<uint8_t> SerializeType();
+    ::ArrayW<uint8_t> SerializeType();
     // public System.Void GetObjectData(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x1C21680
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
@@ -292,7 +299,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Runtime::Remoting::ObjRef::DeserializeInTheCurrentDomain
 // Il2CppName: DeserializeInTheCurrentDomain
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::ObjRef* (System::Runtime::Remoting::ObjRef::*)(int, ::ArrayWrapper<uint8_t>)>(&System::Runtime::Remoting::ObjRef::DeserializeInTheCurrentDomain)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::ObjRef* (System::Runtime::Remoting::ObjRef::*)(int, ::ArrayW<uint8_t>)>(&System::Runtime::Remoting::ObjRef::DeserializeInTheCurrentDomain)> {
   static const MethodInfo* get() {
     static auto* domainId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* tInfo = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -302,7 +309,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Writing MetadataGetter for method: System::Runtime::Remoting::ObjRef::SerializeType
 // Il2CppName: SerializeType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (System::Runtime::Remoting::ObjRef::*)()>(&System::Runtime::Remoting::ObjRef::SerializeType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (System::Runtime::Remoting::ObjRef::*)()>(&System::Runtime::Remoting::ObjRef::SerializeType)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ObjRef*), "SerializeType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

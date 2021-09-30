@@ -22,6 +22,11 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class CookieCollection::CookieCollectionEnumerator : public ::Il2CppObject/*, public System::Collections::IEnumerator*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Net.CookieCollection m_cookies
     // Size: 0x8
     // Offset: 0x10
@@ -46,6 +51,7 @@ namespace System::Net {
     int m_version;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating interface conversion operator: operator System::Collections::IEnumerator
     operator System::Collections::IEnumerator() noexcept {
       return *reinterpret_cast<System::Collections::IEnumerator*>(this);

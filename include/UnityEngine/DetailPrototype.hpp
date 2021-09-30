@@ -33,6 +33,11 @@ namespace UnityEngine {
   // [UsedByNativeCodeAttribute] Offset: EBDFA0
   class DetailPrototype : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // UnityEngine.GameObject m_Prototype
     // Size: 0x8
     // Offset: 0x10
@@ -105,6 +110,7 @@ namespace UnityEngine {
     int m_UsePrototypeMesh;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: UnityEngine.GameObject m_Prototype
     UnityEngine::GameObject*& dyn_m_Prototype();
     // Get instance field reference: UnityEngine.Texture2D m_PrototypeTexture

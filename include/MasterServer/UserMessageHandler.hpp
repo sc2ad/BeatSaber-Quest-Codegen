@@ -89,6 +89,11 @@ namespace MasterServer {
     class $$c__DisplayClass13_0;
     // Nested type: MasterServer::UserMessageHandler::$WithFailureHandler$d__14
     struct $WithFailureHandler$d__14;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int64 _lastKeepaliveTime
     // Size: 0x8
     // Offset: 0xB0
@@ -101,6 +106,7 @@ namespace MasterServer {
     GlobalNamespace::IAuthenticationTokenProvider* authenticationTokenProvider;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IAuthenticationTokenProvider*) == 0x8);
+    public:
     // static field const value: static private System.Int64 kKeepaliveRequestIntervalMs
     static constexpr const int64_t kKeepaliveRequestIntervalMs = 60000;
     // Get static field: static private System.Int64 kKeepaliveRequestIntervalMs

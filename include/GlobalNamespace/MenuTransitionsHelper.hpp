@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -99,6 +100,11 @@ namespace GlobalNamespace {
     class $$c__DisplayClass26_0;
     // Nested type: GlobalNamespace::MenuTransitionsHelper::$$c__DisplayClass27_0
     class $$c__DisplayClass27_0;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private AppInitScenesTransitionSetupDataContainerSO _appInitScenesTransitionSetupDataContainer
     // Size: 0x8
     // Offset: 0x18
@@ -184,6 +190,7 @@ namespace GlobalNamespace {
     System::Action* beatmapEditorFinishedCallback;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private AppInitScenesTransitionSetupDataContainerSO _appInitScenesTransitionSetupDataContainer
@@ -222,7 +229,7 @@ namespace GlobalNamespace {
     void StartStandardLevel(::Il2CppString* gameMode, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings, GlobalNamespace::ColorScheme* overrideColorScheme, GlobalNamespace::GameplayModifiers* gameplayModifiers, GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, GlobalNamespace::PracticeSettings* practiceSettings, ::Il2CppString* backButtonText, bool useTestNoteCutSoundEffects, System::Action* beforeSceneSwitchCallback, System::Action_1<Zenject::DiContainer*>* afterSceneSwitchCallback, System::Action_2<GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, GlobalNamespace::LevelCompletionResults*>* levelFinishedCallback);
     // public System.Void StartMissionLevel(System.String missionId, IDifficultyBeatmap difficultyBeatmap, IPreviewBeatmapLevel previewBeatmapLevel, ColorScheme overrideColorScheme, GameplayModifiers gameplayModifiers, MissionObjective[] missionObjectives, PlayerSpecificSettings playerSpecificSettings, System.Action beforeSceneSwitchCallback, System.Action`2<MissionLevelScenesTransitionSetupDataSO,MissionCompletionResults> levelFinishedCallback)
     // Offset: 0x1180BC4
-    void StartMissionLevel(::Il2CppString* missionId, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, GlobalNamespace::ColorScheme* overrideColorScheme, GlobalNamespace::GameplayModifiers* gameplayModifiers, ::ArrayWrapper<GlobalNamespace::MissionObjective*> missionObjectives, GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, System::Action* beforeSceneSwitchCallback, System::Action_2<GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, GlobalNamespace::MissionCompletionResults*>* levelFinishedCallback);
+    void StartMissionLevel(::Il2CppString* missionId, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, GlobalNamespace::ColorScheme* overrideColorScheme, GlobalNamespace::GameplayModifiers* gameplayModifiers, ::ArrayW<GlobalNamespace::MissionObjective*> missionObjectives, GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, System::Action* beforeSceneSwitchCallback, System::Action_2<GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, GlobalNamespace::MissionCompletionResults*>* levelFinishedCallback);
     // public System.Void StartMultiplayerLevel(System.String gameMode, IPreviewBeatmapLevel previewBeatmapLevel, BeatmapDifficulty beatmapDifficulty, BeatmapCharacteristicSO beatmapCharacteristic, IDifficultyBeatmap difficultyBeatmap, ColorScheme overrideColorScheme, GameplayModifiers gameplayModifiers, PlayerSpecificSettings playerSpecificSettings, PracticeSettings practiceSettings, System.String backButtonText, System.Boolean useTestNoteCutSoundEffects, System.Action beforeSceneSwitchCallback, System.Action`2<MultiplayerLevelScenesTransitionSetupDataSO,MultiplayerResultsData> levelFinishedCallback, System.Action`1<DisconnectedReason> didDisconnectCallback)
     // Offset: 0x1181368
     void StartMultiplayerLevel(::Il2CppString* gameMode, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, GlobalNamespace::ColorScheme* overrideColorScheme, GlobalNamespace::GameplayModifiers* gameplayModifiers, GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, GlobalNamespace::PracticeSettings* practiceSettings, ::Il2CppString* backButtonText, bool useTestNoteCutSoundEffects, System::Action* beforeSceneSwitchCallback, System::Action_2<GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, GlobalNamespace::MultiplayerResultsData*>* levelFinishedCallback, System::Action_1<GlobalNamespace::DisconnectedReason>* didDisconnectCallback);
@@ -329,7 +336,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::MenuTransitionsHelper::StartMissionLevel
 // Il2CppName: StartMissionLevel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuTransitionsHelper::*)(::Il2CppString*, GlobalNamespace::IDifficultyBeatmap*, GlobalNamespace::IPreviewBeatmapLevel*, GlobalNamespace::ColorScheme*, GlobalNamespace::GameplayModifiers*, ::ArrayWrapper<GlobalNamespace::MissionObjective*>, GlobalNamespace::PlayerSpecificSettings*, System::Action*, System::Action_2<GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, GlobalNamespace::MissionCompletionResults*>*)>(&GlobalNamespace::MenuTransitionsHelper::StartMissionLevel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MenuTransitionsHelper::*)(::Il2CppString*, GlobalNamespace::IDifficultyBeatmap*, GlobalNamespace::IPreviewBeatmapLevel*, GlobalNamespace::ColorScheme*, GlobalNamespace::GameplayModifiers*, ::ArrayW<GlobalNamespace::MissionObjective*>, GlobalNamespace::PlayerSpecificSettings*, System::Action*, System::Action_2<GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, GlobalNamespace::MissionCompletionResults*>*)>(&GlobalNamespace::MenuTransitionsHelper::StartMissionLevel)> {
   static const MethodInfo* get() {
     static auto* missionId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* difficultyBeatmap = &::il2cpp_utils::GetClassFromName("", "IDifficultyBeatmap")->byval_arg;

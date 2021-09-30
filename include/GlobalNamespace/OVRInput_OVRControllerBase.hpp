@@ -37,6 +37,11 @@ namespace GlobalNamespace {
     class VirtualAxis1DMap;
     // Nested type: GlobalNamespace::OVRInput::OVRControllerBase::VirtualAxis2DMap
     class VirtualAxis2DMap;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public OVRInput/Controller controllerType
     // Size: 0x4
     // Offset: 0x10
@@ -93,6 +98,7 @@ namespace GlobalNamespace {
     bool shouldApplyDeadzone;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: public OVRInput/Controller controllerType
     GlobalNamespace::OVRInput::Controller& dyn_controllerType();
     // Get instance field reference: public OVRInput/OVRControllerBase/VirtualButtonMap buttonMap

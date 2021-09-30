@@ -17,6 +17,11 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct VRActiveActionSet_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.UInt64 ulActionSet
     // Size: 0x8
     // Offset: 0x0
@@ -47,6 +52,7 @@ namespace OVR::OpenVR {
     int nPriority;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: VRActiveActionSet_t
     constexpr VRActiveActionSet_t(uint64_t ulActionSet_ = {}, uint64_t ulRestrictedToDevice_ = {}, uint64_t ulSecondaryActionSet_ = {}, uint unPadding_ = {}, int nPriority_ = {}) noexcept : ulActionSet{ulActionSet_}, ulRestrictedToDevice{ulRestrictedToDevice_}, ulSecondaryActionSet{ulSecondaryActionSet_}, unPadding{unPadding_}, nPriority{nPriority_} {}
     // Creating interface conversion operator: operator System::ValueType

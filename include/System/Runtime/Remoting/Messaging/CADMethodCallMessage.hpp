@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Remoting::Messaging
@@ -34,12 +35,18 @@ namespace System::Runtime::Remoting::Messaging {
   // [TokenAttribute] Offset: FFFFFFFF
   class CADMethodCallMessage : public System::Runtime::Remoting::Messaging::CADMessageBase {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String _uri
     // Size: 0x8
     // Offset: 0x38
     ::Il2CppString* uri;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return uri;
@@ -67,7 +74,7 @@ namespace System::Runtime::Remoting::Messaging {
     System::Collections::ArrayList* GetArguments();
     // System.Object[] GetArgs(System.Collections.ArrayList args)
     // Offset: 0x1C145E4
-    ::ArrayWrapper<::Il2CppObject*> GetArgs(System::Collections::ArrayList* args);
+    ::ArrayW<::Il2CppObject*> GetArgs(System::Collections::ArrayList* args);
   }; // System.Runtime.Remoting.Messaging.CADMethodCallMessage
   #pragma pack(pop)
   static check_size<sizeof(CADMethodCallMessage), 56 + sizeof(::Il2CppString*)> __System_Runtime_Remoting_Messaging_CADMethodCallMessageSizeCheck;
@@ -115,7 +122,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::CADMethodCallMessage::GetArgs
 // Il2CppName: GetArgs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppObject*> (System::Runtime::Remoting::Messaging::CADMethodCallMessage::*)(System::Collections::ArrayList*)>(&System::Runtime::Remoting::Messaging::CADMethodCallMessage::GetArgs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppObject*> (System::Runtime::Remoting::Messaging::CADMethodCallMessage::*)(System::Collections::ArrayList*)>(&System::Runtime::Remoting::Messaging::CADMethodCallMessage::GetArgs)> {
   static const MethodInfo* get() {
     static auto* args = &::il2cpp_utils::GetClassFromName("System.Collections", "ArrayList")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::CADMethodCallMessage*), "GetArgs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{args});

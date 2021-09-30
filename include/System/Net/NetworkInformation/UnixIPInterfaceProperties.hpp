@@ -45,6 +45,11 @@ namespace System::Net::NetworkInformation {
   // [TokenAttribute] Offset: FFFFFFFF
   class UnixIPInterfaceProperties : public System::Net::NetworkInformation::IPInterfaceProperties {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // protected System.Net.NetworkInformation.UnixNetworkInterface iface
     // Size: 0x8
     // Offset: 0x10
@@ -57,6 +62,7 @@ namespace System::Net::NetworkInformation {
     System::Collections::Generic::List_1<System::Net::IPAddress*>* addresses;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<System::Net::IPAddress*>*) == 0x8);
+    public:
     // Get static field: static private System.Text.RegularExpressions.Regex ns
     static System::Text::RegularExpressions::Regex* _get_ns();
     // Set static field: static private System.Text.RegularExpressions.Regex ns

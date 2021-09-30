@@ -20,12 +20,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class RandomValueToShader : public GlobalNamespace::PersistentScriptableObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 _lastFrameNum
     // Size: 0x4
     // Offset: 0x18
     int lastFrameNum;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEDEA64

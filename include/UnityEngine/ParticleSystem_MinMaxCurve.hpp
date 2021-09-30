@@ -29,6 +29,11 @@ namespace UnityEngine {
   // [NativeTypeAttribute] Offset: EA3808
   struct ParticleSystem::MinMaxCurve/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.ParticleSystemCurveMode m_Mode
     // Size: 0x4
     // Offset: 0x0
@@ -65,6 +70,7 @@ namespace UnityEngine {
     float m_ConstantMax;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: MinMaxCurve
     constexpr MinMaxCurve(UnityEngine::ParticleSystemCurveMode m_Mode_ = {}, float m_CurveMultiplier_ = {}, UnityEngine::AnimationCurve* m_CurveMin_ = {}, UnityEngine::AnimationCurve* m_CurveMax_ = {}, float m_ConstantMin_ = {}, float m_ConstantMax_ = {}) noexcept : m_Mode{m_Mode_}, m_CurveMultiplier{m_CurveMultiplier_}, m_CurveMin{m_CurveMin_}, m_CurveMax{m_CurveMax_}, m_ConstantMin{m_ConstantMin_}, m_ConstantMax{m_ConstantMax_} {}
     // Creating interface conversion operator: operator System::ValueType

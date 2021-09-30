@@ -17,6 +17,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net::Sockets
@@ -60,6 +61,11 @@ namespace System::Net::Sockets {
     char ___base_padding[0x6] = {};
     // Nested type: System::Net::Sockets::SocketAsyncResult::$$c
     class $$c;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Net.Sockets.Socket socket
     // Size: 0x8
     // Offset: 0x30
@@ -89,9 +95,9 @@ namespace System::Net::Sockets {
     // public System.Byte[] Buffer
     // Size: 0x8
     // Offset: 0x50
-    ::ArrayWrapper<uint8_t> Buffer;
+    ::ArrayW<uint8_t> Buffer;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // public System.Int32 Offset
     // Size: 0x4
     // Offset: 0x58
@@ -121,9 +127,9 @@ namespace System::Net::Sockets {
     // public System.Net.IPAddress[] Addresses
     // Size: 0x8
     // Offset: 0x70
-    ::ArrayWrapper<System::Net::IPAddress*> Addresses;
+    ::ArrayW<System::Net::IPAddress*> Addresses;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<System::Net::IPAddress*>) == 0x8);
+    static_assert(sizeof(::ArrayW<System::Net::IPAddress*>) == 0x8);
     // public System.Int32 Port
     // Size: 0x4
     // Offset: 0x78
@@ -176,6 +182,7 @@ namespace System::Net::Sockets {
     int EndCalled;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: public System.Net.Sockets.Socket socket
     System::Net::Sockets::Socket*& dyn_socket();
     // Get instance field reference: public System.Net.Sockets.SocketOperation operation
@@ -185,7 +192,7 @@ namespace System::Net::Sockets {
     // Get instance field reference: public System.Net.EndPoint EndPoint
     System::Net::EndPoint*& dyn_EndPoint();
     // Get instance field reference: public System.Byte[] Buffer
-    ::ArrayWrapper<uint8_t>& dyn_Buffer();
+    ::ArrayW<uint8_t>& dyn_Buffer();
     // Get instance field reference: public System.Int32 Offset
     int& dyn_Offset();
     // Get instance field reference: public System.Int32 Size
@@ -195,7 +202,7 @@ namespace System::Net::Sockets {
     // Get instance field reference: public System.Net.Sockets.Socket AcceptSocket
     System::Net::Sockets::Socket*& dyn_AcceptSocket();
     // Get instance field reference: public System.Net.IPAddress[] Addresses
-    ::ArrayWrapper<System::Net::IPAddress*>& dyn_Addresses();
+    ::ArrayW<System::Net::IPAddress*>& dyn_Addresses();
     // Get instance field reference: public System.Int32 Port
     int& dyn_Port();
     // Get instance field reference: public System.Collections.Generic.IList`1<System.ArraySegment`1<System.Byte>> Buffers

@@ -9,6 +9,7 @@
 #include "System/Int32.hpp"
 // Including type: UnityEngine.CubemapFace
 #include "UnityEngine/CubemapFace.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -80,9 +81,9 @@ namespace GlobalNamespace {
     static void _set__cubemapFaceToCubeFaceNumberDict(System::Collections::Generic::Dictionary_2<UnityEngine::CubemapFace, int>* value);
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF139EC
     // Get static field: static private readonly UnityEngine.CubemapFace[] _cubemapFaces
-    static ::ArrayWrapper<UnityEngine::CubemapFace> _get__cubemapFaces();
+    static ::ArrayW<UnityEngine::CubemapFace> _get__cubemapFaces();
     // Set static field: static private readonly UnityEngine.CubemapFace[] _cubemapFaces
-    static void _set__cubemapFaces(::ArrayWrapper<UnityEngine::CubemapFace> value);
+    static void _set__cubemapFaces(::ArrayW<UnityEngine::CubemapFace> value);
     // static private UnityEngine.Material get_cubemapHelpersMaterial()
     // Offset: 0x11A09A8
     static UnityEngine::Material* get_cubemapHelpersMaterial();

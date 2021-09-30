@@ -41,6 +41,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class StandardScoreSyncStateDeltaNetSerializable : public ::Il2CppObject/*, public LiteNetLib::Utils::INetSerializable, public GlobalNamespace::IPoolablePacket, public GlobalNamespace::ISyncStateDeltaSerializable_1<GlobalNamespace::StandardScoreSyncState>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private StandardScoreSyncState _delta
     // Size: 0x14
     // Offset: 0x10
@@ -61,6 +66,7 @@ namespace GlobalNamespace {
     int timeOffsetMs;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating interface conversion operator: operator LiteNetLib::Utils::INetSerializable
     operator LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<LiteNetLib::Utils::INetSerializable*>(this);

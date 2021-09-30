@@ -32,12 +32,18 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class EmptyWebProxy : public ::Il2CppObject/*, public System::Net::IWebProxy*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Net.ICredentials m_credentials
     // Size: 0x8
     // Offset: 0x10
     System::Net::ICredentials* m_credentials;
     // Field size check
     static_assert(sizeof(System::Net::ICredentials*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Net::IWebProxy
     operator System::Net::IWebProxy() noexcept {
       return *reinterpret_cast<System::Net::IWebProxy*>(this);

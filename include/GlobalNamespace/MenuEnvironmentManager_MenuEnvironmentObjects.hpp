@@ -27,6 +27,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MenuEnvironmentManager::MenuEnvironmentObjects : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private MenuEnvironmentManager/MenuEnvironmentType _menuEnvironmentType
     // Size: 0x4
     // Offset: 0x10
@@ -41,6 +46,7 @@ namespace GlobalNamespace {
     UnityEngine::GameObject* wrapper;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
+    public:
     // Get instance field reference: private MenuEnvironmentManager/MenuEnvironmentType _menuEnvironmentType
     GlobalNamespace::MenuEnvironmentManager::MenuEnvironmentType& dyn__menuEnvironmentType();
     // Get instance field reference: private UnityEngine.GameObject _wrapper

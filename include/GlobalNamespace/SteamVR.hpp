@@ -21,6 +21,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Valve::VR
@@ -45,6 +46,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SteamVR : public ::Il2CppObject/*, public System::IDisposable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Valve.VR.CVRSystem <hmd>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -96,21 +102,22 @@ namespace GlobalNamespace {
     // private Valve.VR.VRTextureBounds_t[] <textureBounds>k__BackingField
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayWrapper<Valve::VR::VRTextureBounds_t> textureBounds;
+    ::ArrayW<Valve::VR::VRTextureBounds_t> textureBounds;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<Valve::VR::VRTextureBounds_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<Valve::VR::VRTextureBounds_t>) == 0x8);
     // private SteamVR_Utils/RigidTransform[] <eyes>k__BackingField
     // Size: 0x8
     // Offset: 0x48
-    ::ArrayWrapper<GlobalNamespace::SteamVR_Utils::RigidTransform> eyes;
+    ::ArrayW<GlobalNamespace::SteamVR_Utils::RigidTransform> eyes;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::SteamVR_Utils::RigidTransform>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::SteamVR_Utils::RigidTransform>) == 0x8);
     // public Valve.VR.ETextureType textureType
     // Size: 0x4
     // Offset: 0x50
     Valve::VR::ETextureType textureType;
     // Field size check
     static_assert(sizeof(Valve::VR::ETextureType) == 0x4);
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
@@ -136,9 +143,9 @@ namespace GlobalNamespace {
     // Set static field: static private System.Boolean <outOfRange>k__BackingField
     static void _set_$outOfRange$k__BackingField(bool value);
     // Get static field: static public System.Boolean[] connected
-    static ::ArrayWrapper<bool> _get_connected();
+    static ::ArrayW<bool> _get_connected();
     // Set static field: static public System.Boolean[] connected
-    static void _set_connected(::ArrayWrapper<bool> value);
+    static void _set_connected(::ArrayW<bool> value);
     // Get instance field reference: private Valve.VR.CVRSystem <hmd>k__BackingField
     Valve::VR::CVRSystem*& dyn_$hmd$k__BackingField();
     // Get instance field reference: private Valve.VR.CVRCompositor <compositor>k__BackingField
@@ -156,9 +163,9 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Vector2 <tanHalfFov>k__BackingField
     UnityEngine::Vector2& dyn_$tanHalfFov$k__BackingField();
     // Get instance field reference: private Valve.VR.VRTextureBounds_t[] <textureBounds>k__BackingField
-    ::ArrayWrapper<Valve::VR::VRTextureBounds_t>& dyn_$textureBounds$k__BackingField();
+    ::ArrayW<Valve::VR::VRTextureBounds_t>& dyn_$textureBounds$k__BackingField();
     // Get instance field reference: private SteamVR_Utils/RigidTransform[] <eyes>k__BackingField
-    ::ArrayWrapper<GlobalNamespace::SteamVR_Utils::RigidTransform>& dyn_$eyes$k__BackingField();
+    ::ArrayW<GlobalNamespace::SteamVR_Utils::RigidTransform>& dyn_$eyes$k__BackingField();
     // Get instance field reference: public Valve.VR.ETextureType textureType
     Valve::VR::ETextureType& dyn_textureType();
     // static public System.Boolean get_active()
@@ -244,16 +251,16 @@ namespace GlobalNamespace {
     void set_tanHalfFov(UnityEngine::Vector2 value);
     // public Valve.VR.VRTextureBounds_t[] get_textureBounds()
     // Offset: 0x1534F60
-    ::ArrayWrapper<Valve::VR::VRTextureBounds_t> get_textureBounds();
+    ::ArrayW<Valve::VR::VRTextureBounds_t> get_textureBounds();
     // private System.Void set_textureBounds(Valve.VR.VRTextureBounds_t[] value)
     // Offset: 0x1534F68
-    void set_textureBounds(::ArrayWrapper<Valve::VR::VRTextureBounds_t> value);
+    void set_textureBounds(::ArrayW<Valve::VR::VRTextureBounds_t> value);
     // public SteamVR_Utils/RigidTransform[] get_eyes()
     // Offset: 0x1534F70
-    ::ArrayWrapper<GlobalNamespace::SteamVR_Utils::RigidTransform> get_eyes();
+    ::ArrayW<GlobalNamespace::SteamVR_Utils::RigidTransform> get_eyes();
     // private System.Void set_eyes(SteamVR_Utils/RigidTransform[] value)
     // Offset: 0x1534F78
-    void set_eyes(::ArrayWrapper<GlobalNamespace::SteamVR_Utils::RigidTransform> value);
+    void set_eyes(::ArrayW<GlobalNamespace::SteamVR_Utils::RigidTransform> value);
     // public System.String get_hmd_TrackingSystemName()
     // Offset: 0x1534F80
     ::Il2CppString* get_hmd_TrackingSystemName();
@@ -301,7 +308,7 @@ namespace GlobalNamespace {
     void OnDeviceConnected(int i, bool connected);
     // private System.Void OnNewPoses(Valve.VR.TrackedDevicePose_t[] poses)
     // Offset: 0x15354EC
-    void OnNewPoses(::ArrayWrapper<Valve::VR::TrackedDevicePose_t> poses);
+    void OnNewPoses(::ArrayW<Valve::VR::TrackedDevicePose_t> poses);
     // public System.Void Dispose()
     // Offset: 0x1535C48
     void Dispose();
@@ -563,7 +570,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR::get_textureBounds
 // Il2CppName: get_textureBounds
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<Valve::VR::VRTextureBounds_t> (GlobalNamespace::SteamVR::*)()>(&GlobalNamespace::SteamVR::get_textureBounds)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Valve::VR::VRTextureBounds_t> (GlobalNamespace::SteamVR::*)()>(&GlobalNamespace::SteamVR::get_textureBounds)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR*), "get_textureBounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -571,7 +578,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR::set_textureBounds
 // Il2CppName: set_textureBounds
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR::*)(::ArrayWrapper<Valve::VR::VRTextureBounds_t>)>(&GlobalNamespace::SteamVR::set_textureBounds)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR::*)(::ArrayW<Valve::VR::VRTextureBounds_t>)>(&GlobalNamespace::SteamVR::set_textureBounds)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Valve.VR", "VRTextureBounds_t"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR*), "set_textureBounds", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -580,7 +587,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR::get_eyes
 // Il2CppName: get_eyes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::SteamVR_Utils::RigidTransform> (GlobalNamespace::SteamVR::*)()>(&GlobalNamespace::SteamVR::get_eyes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<GlobalNamespace::SteamVR_Utils::RigidTransform> (GlobalNamespace::SteamVR::*)()>(&GlobalNamespace::SteamVR::get_eyes)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR*), "get_eyes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -588,7 +595,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR::set_eyes
 // Il2CppName: set_eyes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR::*)(::ArrayWrapper<GlobalNamespace::SteamVR_Utils::RigidTransform>)>(&GlobalNamespace::SteamVR::set_eyes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR::*)(::ArrayW<GlobalNamespace::SteamVR_Utils::RigidTransform>)>(&GlobalNamespace::SteamVR::set_eyes)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "SteamVR_Utils/RigidTransform"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR*), "set_eyes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -728,7 +735,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR::OnNewPoses
 // Il2CppName: OnNewPoses
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR::*)(::ArrayWrapper<Valve::VR::TrackedDevicePose_t>)>(&GlobalNamespace::SteamVR::OnNewPoses)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR::*)(::ArrayW<Valve::VR::TrackedDevicePose_t>)>(&GlobalNamespace::SteamVR::OnNewPoses)> {
   static const MethodInfo* get() {
     static auto* poses = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Valve.VR", "TrackedDevicePose_t"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR*), "OnNewPoses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{poses});

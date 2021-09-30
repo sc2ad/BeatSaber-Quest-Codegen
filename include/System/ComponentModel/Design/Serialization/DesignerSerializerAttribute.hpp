@@ -21,6 +21,11 @@ namespace System::ComponentModel::Design::Serialization {
   // [AttributeUsageAttribute] Offset: E6971C
   class DesignerSerializerAttribute : public System::Attribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String serializerTypeName
     // Size: 0x8
     // Offset: 0x10
@@ -33,6 +38,7 @@ namespace System::ComponentModel::Design::Serialization {
     ::Il2CppString* serializerBaseTypeName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: private System.String serializerTypeName
     ::Il2CppString*& dyn_serializerTypeName();
     // Get instance field reference: private System.String serializerBaseTypeName

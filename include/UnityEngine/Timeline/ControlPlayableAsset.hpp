@@ -79,6 +79,11 @@ namespace UnityEngine::Timeline {
     public:
     // Nested type: UnityEngine::Timeline::ControlPlayableAsset::$GetControlableScripts$d__39
     class $GetControlableScripts$d__39;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.ExposedReference`1<UnityEngine.GameObject> sourceGameObject
     // Size: 0xFFFFFFFF
     // Offset: 0x18
@@ -161,6 +166,7 @@ namespace UnityEngine::Timeline {
     bool controllingParticles;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator UnityEngine::Timeline::ITimelineClipAsset
     operator UnityEngine::Timeline::ITimelineClipAsset() noexcept {
       return *reinterpret_cast<UnityEngine::Timeline::ITimelineClipAsset*>(this);

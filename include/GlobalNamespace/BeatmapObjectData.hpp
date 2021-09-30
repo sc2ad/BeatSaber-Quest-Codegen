@@ -25,6 +25,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapObjectData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Single <time>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -37,6 +42,7 @@ namespace GlobalNamespace {
     int lineIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: private System.Single <time>k__BackingField
     float& dyn_$time$k__BackingField();
     // Get instance field reference: private System.Int32 <lineIndex>k__BackingField

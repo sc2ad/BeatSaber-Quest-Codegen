@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -77,6 +78,11 @@ namespace GlobalNamespace {
     class BeatmapLevelPackCollection;
     // Nested type: GlobalNamespace::LevelSearchViewController::$UpdateBeatmapLevelPackCollectionAsync$d__30
     struct $UpdateBeatmapLevelPackCollectionAsync$d__30;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.UI.Button _searchButton
     // Size: 0x8
     // Offset: 0x70
@@ -181,9 +187,10 @@ namespace GlobalNamespace {
     // private IBeatmapLevelPack[] _beatmapLevelPacks
     // Size: 0x8
     // Offset: 0xF0
-    ::ArrayWrapper<GlobalNamespace::IBeatmapLevelPack*> beatmapLevelPacks;
+    ::ArrayW<GlobalNamespace::IBeatmapLevelPack*> beatmapLevelPacks;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::IBeatmapLevelPack*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::IBeatmapLevelPack*>) == 0x8);
+    public:
     // Get instance field reference: private UnityEngine.UI.Button _searchButton
     UnityEngine::UI::Button*& dyn__searchButton();
     // Get instance field reference: private UnityEngine.UI.Button _clearFiltersButton
@@ -217,7 +224,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Threading.CancellationTokenSource _cancellationTokenSource
     System::Threading::CancellationTokenSource*& dyn__cancellationTokenSource();
     // Get instance field reference: private IBeatmapLevelPack[] _beatmapLevelPacks
-    ::ArrayWrapper<GlobalNamespace::IBeatmapLevelPack*>& dyn__beatmapLevelPacks();
+    ::ArrayW<GlobalNamespace::IBeatmapLevelPack*>& dyn__beatmapLevelPacks();
     // public System.Void add_didPressSearchButtonEvent(System.Action`2<LevelSearchViewController,LevelFilterParams> value)
     // Offset: 0x130D300
     void add_didPressSearchButtonEvent(System::Action_2<GlobalNamespace::LevelSearchViewController*, GlobalNamespace::LevelFilterParams*>* value);
@@ -238,7 +245,7 @@ namespace GlobalNamespace {
     void remove_didStartLoadingEvent(System::Action_1<GlobalNamespace::LevelSearchViewController*>* value);
     // public System.Void Setup(IBeatmapLevelPack[] beatmapLevelPacks)
     // Offset: 0x1309DC8
-    void Setup(::ArrayWrapper<GlobalNamespace::IBeatmapLevelPack*> beatmapLevelPacks);
+    void Setup(::ArrayW<GlobalNamespace::IBeatmapLevelPack*> beatmapLevelPacks);
     // public System.Void ResetFilterParams(System.Boolean onlyFavorites)
     // Offset: 0x130D804
     void ResetFilterParams(bool onlyFavorites);
@@ -298,7 +305,7 @@ namespace GlobalNamespace {
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
   }; // LevelSearchViewController
   #pragma pack(pop)
-  static check_size<sizeof(LevelSearchViewController), 240 + sizeof(::ArrayWrapper<GlobalNamespace::IBeatmapLevelPack*>)> __GlobalNamespace_LevelSearchViewControllerSizeCheck;
+  static check_size<sizeof(LevelSearchViewController), 240 + sizeof(::ArrayW<GlobalNamespace::IBeatmapLevelPack*>)> __GlobalNamespace_LevelSearchViewControllerSizeCheck;
   static_assert(sizeof(LevelSearchViewController) == 0xF8);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelSearchViewController*, "", "LevelSearchViewController");
@@ -360,7 +367,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::LevelSearchViewController::Setup
 // Il2CppName: Setup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelSearchViewController::*)(::ArrayWrapper<GlobalNamespace::IBeatmapLevelPack*>)>(&GlobalNamespace::LevelSearchViewController::Setup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelSearchViewController::*)(::ArrayW<GlobalNamespace::IBeatmapLevelPack*>)>(&GlobalNamespace::LevelSearchViewController::Setup)> {
   static const MethodInfo* get() {
     static auto* beatmapLevelPacks = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "IBeatmapLevelPack"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSearchViewController*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{beatmapLevelPacks});

@@ -18,6 +18,11 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct NotificationBitmap_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.IntPtr m_pImageData
     // Size: 0x8
     // Offset: 0x0
@@ -42,6 +47,7 @@ namespace Valve::VR {
     int m_nBytesPerPixel;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: NotificationBitmap_t
     constexpr NotificationBitmap_t(System::IntPtr m_pImageData_ = {}, int m_nWidth_ = {}, int m_nHeight_ = {}, int m_nBytesPerPixel_ = {}) noexcept : m_pImageData{m_pImageData_}, m_nWidth{m_nWidth_}, m_nHeight{m_nHeight_}, m_nBytesPerPixel{m_nBytesPerPixel_} {}
     // Creating interface conversion operator: operator System::ValueType

@@ -43,6 +43,11 @@ namespace UnityEngine::Timeline {
     // [TokenAttribute] Offset: FFFFFFFF
     struct WeightInfo/*, public System::ValueType*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public UnityEngine.Playables.Playable mixer
       // Size: 0xC
       // Offset: 0x0
@@ -65,6 +70,7 @@ namespace UnityEngine::Timeline {
       int port;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: WeightInfo
       constexpr WeightInfo(UnityEngine::Playables::Playable mixer_ = {}, UnityEngine::Playables::Playable parentMixer_ = {}, int port_ = {}) noexcept : mixer{mixer_}, parentMixer{parentMixer_}, port{port_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -81,6 +87,11 @@ namespace UnityEngine::Timeline {
     #pragma pack(pop)
     static check_size<sizeof(AnimationOutputWeightProcessor::WeightInfo), 32 + sizeof(int)> __UnityEngine_Timeline_AnimationOutputWeightProcessor_WeightInfoSizeCheck;
     static_assert(sizeof(AnimationOutputWeightProcessor::WeightInfo) == 0x24);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Animations.AnimationPlayableOutput m_Output
     // Size: 0xC
     // Offset: 0x10
@@ -103,6 +114,7 @@ namespace UnityEngine::Timeline {
     System::Collections::Generic::List_1<UnityEngine::Timeline::AnimationOutputWeightProcessor::WeightInfo>* m_Mixers;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::Timeline::AnimationOutputWeightProcessor::WeightInfo>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator UnityEngine::Timeline::ITimelineEvaluateCallback
     operator UnityEngine::Timeline::ITimelineEvaluateCallback() noexcept {
       return *reinterpret_cast<UnityEngine::Timeline::ITimelineEvaluateCallback*>(this);

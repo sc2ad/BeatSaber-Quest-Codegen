@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: Org.BouncyCastle.Math.Raw
 namespace Org::BouncyCastle::Math::Raw {
@@ -16,10 +17,10 @@ namespace Org::BouncyCastle::Math::Raw {
     public:
     // static public System.Void Mul(System.UInt32[] x, System.UInt32[] y, System.UInt32[] zz)
     // Offset: 0x14BA380
-    static void Mul(::ArrayWrapper<uint> x, ::ArrayWrapper<uint> y, ::ArrayWrapper<uint> zz);
+    static void Mul(::ArrayW<uint> x, ::ArrayW<uint> y, ::ArrayW<uint> zz);
     // static public System.Void Square(System.UInt32[] x, System.UInt32[] zz)
     // Offset: 0x14BA4BC
-    static void Square(::ArrayWrapper<uint> x, ::ArrayWrapper<uint> zz);
+    static void Square(::ArrayW<uint> x, ::ArrayW<uint> zz);
   }; // Org.BouncyCastle.Math.Raw.Nat384
   #pragma pack(pop)
 }
@@ -29,7 +30,7 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::Raw::Nat384*, "Org.BouncyCastle.
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::Raw::Nat384::Mul
 // Il2CppName: Mul
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint>, ::ArrayWrapper<uint>, ::ArrayWrapper<uint>)>(&Org::BouncyCastle::Math::Raw::Nat384::Mul)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint>, ::ArrayW<uint>, ::ArrayW<uint>)>(&Org::BouncyCastle::Math::Raw::Nat384::Mul)> {
   static const MethodInfo* get() {
     static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     static auto* y = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
@@ -40,7 +41,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::Raw::Nat384::Square
 // Il2CppName: Square
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint>, ::ArrayWrapper<uint>)>(&Org::BouncyCastle::Math::Raw::Nat384::Square)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint>, ::ArrayW<uint>)>(&Org::BouncyCastle::Math::Raw::Nat384::Square)> {
   static const MethodInfo* get() {
     static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     static auto* zz = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;

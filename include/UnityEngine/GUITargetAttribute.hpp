@@ -24,12 +24,18 @@ namespace UnityEngine {
   // [AttributeUsageAttribute] Offset: E90380
   class GUITargetAttribute : public System::Attribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Int32 displayMask
     // Size: 0x4
     // Offset: 0x10
     int displayMask;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return displayMask;

@@ -39,6 +39,11 @@ namespace GlobalNamespace {
   // [PreserveAttribute] Offset: FFFFFFFF
   class NoteMissInfoNetSerializable : public ::Il2CppObject/*, public LiteNetLib::Utils::INetSerializable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private ColorType <colorType>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -63,6 +68,7 @@ namespace GlobalNamespace {
     GlobalNamespace::NoteLineLayer noteLineLayer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::NoteLineLayer) == 0x4);
+    public:
     // Creating interface conversion operator: operator LiteNetLib::Utils::INetSerializable
     operator LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<LiteNetLib::Utils::INetSerializable*>(this);

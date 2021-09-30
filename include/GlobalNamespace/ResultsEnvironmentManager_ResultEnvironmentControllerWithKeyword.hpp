@@ -27,6 +27,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String _keyword
     // Size: 0x8
     // Offset: 0x10
@@ -39,6 +44,7 @@ namespace GlobalNamespace {
     GlobalNamespace::BaseResultsEnvironmentController* resultsEnvironmentController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BaseResultsEnvironmentController*) == 0x8);
+    public:
     // Get instance field reference: private System.String _keyword
     ::Il2CppString*& dyn__keyword();
     // Get instance field reference: private BaseResultsEnvironmentController _resultsEnvironmentController

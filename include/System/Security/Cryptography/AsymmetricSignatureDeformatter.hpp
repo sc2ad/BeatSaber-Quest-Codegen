@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Security::Cryptography
@@ -34,7 +35,7 @@ namespace System::Security::Cryptography {
     void SetHashAlgorithm(::Il2CppString* strName);
     // public System.Boolean VerifySignature(System.Byte[] rgbHash, System.Byte[] rgbSignature)
     // Offset: 0xFFFFFFFF
-    bool VerifySignature(::ArrayWrapper<uint8_t> rgbHash, ::ArrayWrapper<uint8_t> rgbSignature);
+    bool VerifySignature(::ArrayW<uint8_t> rgbHash, ::ArrayW<uint8_t> rgbSignature);
     // protected System.Void .ctor()
     // Offset: 0x1A6CD24
     // Implemented from: System.Object
@@ -70,7 +71,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::AsymmetricSignatureDeformatter::VerifySignature
 // Il2CppName: VerifySignature
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Security::Cryptography::AsymmetricSignatureDeformatter::*)(::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>)>(&System::Security::Cryptography::AsymmetricSignatureDeformatter::VerifySignature)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Security::Cryptography::AsymmetricSignatureDeformatter::*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(&System::Security::Cryptography::AsymmetricSignatureDeformatter::VerifySignature)> {
   static const MethodInfo* get() {
     static auto* rgbHash = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* rgbSignature = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;

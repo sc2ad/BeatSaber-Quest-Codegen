@@ -41,6 +41,11 @@ namespace System::Net {
     public:
     // Nested type: System::Net::LazyAsyncResult::ThreadContext
     class ThreadContext;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Object m_AsyncObject
     // Size: 0x8
     // Offset: 0x10
@@ -85,6 +90,7 @@ namespace System::Net {
     ::Il2CppObject* m_Event;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::IAsyncResult
     operator System::IAsyncResult() noexcept {
       return *reinterpret_cast<System::IAsyncResult*>(this);

@@ -48,6 +48,11 @@ namespace System::Linq {
   template<typename TSource, typename TKey, typename TElement>
   class GroupedEnumerable_3 : public ::Il2CppObject/*, public System::Collections::Generic::IEnumerable_1<System::Linq::IGrouping_2<TKey, TElement>*>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.IEnumerable`1<TSource> source
     // Size: 0x8
     // Offset: 0x0
@@ -72,6 +77,7 @@ namespace System::Linq {
     System::Collections::Generic::IEqualityComparer_1<TKey>* comparer;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::IEqualityComparer_1<TKey>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<System::Linq::IGrouping_2<TKey, TElement>*>
     operator System::Collections::Generic::IEnumerable_1<System::Linq::IGrouping_2<TKey, TElement>*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<System::Linq::IGrouping_2<TKey, TElement>*>*>(this);

@@ -36,12 +36,18 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class GameServerPlayerTableCell::$$c__DisplayClass27_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Collections.Generic.List`1<GameplayModifierParamsSO> modifiersList
     // Size: 0x8
     // Offset: 0x10
     System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>* modifiersList;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>*
     constexpr operator System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>*() const noexcept {
       return modifiersList;

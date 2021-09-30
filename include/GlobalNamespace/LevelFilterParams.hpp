@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -35,6 +36,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LevelFilterParams : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean <filterByLevelIds>k__BackingField
     // Size: 0x1
     // Offset: 0x10
@@ -137,11 +143,12 @@ namespace GlobalNamespace {
     float filteredMaxBpm;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF021B4
     // Get static field: static public readonly System.Single[] bpmValues
-    static ::ArrayWrapper<float> _get_bpmValues();
+    static ::ArrayW<float> _get_bpmValues();
     // Set static field: static public readonly System.Single[] bpmValues
-    static void _set_bpmValues(::ArrayWrapper<float> value);
+    static void _set_bpmValues(::ArrayW<float> value);
     // Get instance field reference: private System.Boolean <filterByLevelIds>k__BackingField
     bool& dyn_$filterByLevelIds$k__BackingField();
     // Get instance field reference: private System.Collections.Generic.HashSet`1<System.String> <beatmapLevelIds>k__BackingField

@@ -43,6 +43,11 @@ namespace TMPro {
     public:
     // Nested type: TMPro::TMP_SpriteAnimator::$DoSpriteAnimationInternal$d__7
     class $DoSpriteAnimationInternal$d__7;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.Dictionary`2<System.Int32,System.Boolean> m_animations
     // Size: 0x8
     // Offset: 0x18
@@ -55,6 +60,7 @@ namespace TMPro {
     TMPro::TMP_Text* m_TextComponent;
     // Field size check
     static_assert(sizeof(TMPro::TMP_Text*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.Int32,System.Boolean> m_animations

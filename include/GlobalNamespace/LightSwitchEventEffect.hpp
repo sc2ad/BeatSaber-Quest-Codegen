@@ -44,6 +44,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LightSwitchEventEffect : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private ColorSO _lightColor0
     // Size: 0x8
     // Offset: 0x18
@@ -171,6 +176,7 @@ namespace GlobalNamespace {
     bool usingBoostColors;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Single kFlashAndFadeDuration

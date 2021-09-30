@@ -17,6 +17,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -67,12 +68,18 @@ namespace System {
     // [FlagsAttribute] Offset: FFFFFFFF
     struct Flags/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.UInt64 value__
       // Size: 0x8
       // Offset: 0x0
       uint64_t value;
       // Field size check
       static_assert(sizeof(uint64_t) == 0x8);
+      public:
       // Creating value type constructor for type: Flags
       constexpr Flags(uint64_t value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -419,6 +426,11 @@ namespace System {
     #pragma pack(pop)
     static check_size<sizeof(Uri::Flags), 0 + sizeof(uint64_t)> __System_Uri_FlagsSizeCheck;
     static_assert(sizeof(Uri::Flags) == 0x8);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String m_String
     // Size: 0x8
     // Offset: 0x10
@@ -461,6 +473,7 @@ namespace System {
     bool m_iriParsing;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator System::Runtime::Serialization::ISerializable
     operator System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);
@@ -546,13 +559,13 @@ namespace System {
     // Set static field: static private System.Object s_initLock
     static void _set_s_initLock(::Il2CppObject* value);
     // Get static field: static readonly System.Char[] HexLowerChars
-    static ::ArrayWrapper<::Il2CppChar> _get_HexLowerChars();
+    static ::ArrayW<::Il2CppChar> _get_HexLowerChars();
     // Set static field: static readonly System.Char[] HexLowerChars
-    static void _set_HexLowerChars(::ArrayWrapper<::Il2CppChar> value);
+    static void _set_HexLowerChars(::ArrayW<::Il2CppChar> value);
     // Get static field: static private readonly System.Char[] _WSchars
-    static ::ArrayWrapper<::Il2CppChar> _get__WSchars();
+    static ::ArrayW<::Il2CppChar> _get__WSchars();
     // Set static field: static private readonly System.Char[] _WSchars
-    static void _set__WSchars(::ArrayWrapper<::Il2CppChar> value);
+    static void _set__WSchars(::ArrayW<::Il2CppChar> value);
     // Get instance field reference: private System.String m_String
     ::Il2CppString*& dyn_m_String();
     // Get instance field reference: private System.String m_originalUnicodeString
@@ -860,13 +873,13 @@ namespace System {
     System::Uri::Check CheckCanonical(::Il2CppChar* str, ByRef<uint16_t> idx, uint16_t end, ::Il2CppChar delim);
     // private System.Char[] GetCanonicalPath(System.Char[] dest, ref System.Int32 pos, System.UriFormat formatAs)
     // Offset: 0x1A4D15C
-    ::ArrayWrapper<::Il2CppChar> GetCanonicalPath(::ArrayWrapper<::Il2CppChar> dest, ByRef<int> pos, System::UriFormat formatAs);
+    ::ArrayW<::Il2CppChar> GetCanonicalPath(::ArrayW<::Il2CppChar> dest, ByRef<int> pos, System::UriFormat formatAs);
     // static private System.Void UnescapeOnly(System.Char* pch, System.Int32 start, ref System.Int32 end, System.Char ch1, System.Char ch2, System.Char ch3)
     // Offset: 0x1A4E718
     static void UnescapeOnly(::Il2CppChar* pch, int start, ByRef<int> end, ::Il2CppChar ch1, ::Il2CppChar ch2, ::Il2CppChar ch3);
     // static private System.Char[] Compress(System.Char[] dest, System.UInt16 start, ref System.Int32 destLength, System.UriParser syntax)
     // Offset: 0x1A47540
-    static ::ArrayWrapper<::Il2CppChar> Compress(::ArrayWrapper<::Il2CppChar> dest, uint16_t start, ByRef<int> destLength, System::UriParser* syntax);
+    static ::ArrayW<::Il2CppChar> Compress(::ArrayW<::Il2CppChar> dest, uint16_t start, ByRef<int> destLength, System::UriParser* syntax);
     // static System.Int32 CalculateCaseInsensitiveHashCode(System.String text)
     // Offset: 0x1A486BC
     static int CalculateCaseInsensitiveHashCode(::Il2CppString* text);
@@ -1760,7 +1773,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri
 // Writing MetadataGetter for method: System::Uri::GetCanonicalPath
 // Il2CppName: GetCanonicalPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppChar> (System::Uri::*)(::ArrayWrapper<::Il2CppChar>, ByRef<int>, System::UriFormat)>(&System::Uri::GetCanonicalPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppChar> (System::Uri::*)(::ArrayW<::Il2CppChar>, ByRef<int>, System::UriFormat)>(&System::Uri::GetCanonicalPath)> {
   static const MethodInfo* get() {
     static auto* dest = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* pos = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -1785,7 +1798,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: System::Uri::Compress
 // Il2CppName: Compress
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppChar> (*)(::ArrayWrapper<::Il2CppChar>, uint16_t, ByRef<int>, System::UriParser*)>(&System::Uri::Compress)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppChar> (*)(::ArrayW<::Il2CppChar>, uint16_t, ByRef<int>, System::UriParser*)>(&System::Uri::Compress)> {
   static const MethodInfo* get() {
     static auto* dest = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "UInt16")->byval_arg;

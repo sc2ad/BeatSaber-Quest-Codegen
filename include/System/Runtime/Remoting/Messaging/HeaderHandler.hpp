@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Remoting::Messaging
@@ -44,10 +45,10 @@ namespace System::Runtime::Remoting::Messaging {
     }
     // public System.Object Invoke(System.Runtime.Remoting.Messaging.Header[] headers)
     // Offset: 0x1C17F5C
-    ::Il2CppObject* Invoke(::ArrayWrapper<System::Runtime::Remoting::Messaging::Header*> headers);
+    ::Il2CppObject* Invoke(::ArrayW<System::Runtime::Remoting::Messaging::Header*> headers);
     // public System.IAsyncResult BeginInvoke(System.Runtime.Remoting.Messaging.Header[] headers, System.AsyncCallback callback, System.Object object)
     // Offset: 0x1C182F8
-    System::IAsyncResult* BeginInvoke(::ArrayWrapper<System::Runtime::Remoting::Messaging::Header*> headers, System::AsyncCallback* callback, ::Il2CppObject* object);
+    System::IAsyncResult* BeginInvoke(::ArrayW<System::Runtime::Remoting::Messaging::Header*> headers, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Object EndInvoke(System.IAsyncResult result)
     // Offset: 0x1C1831C
     ::Il2CppObject* EndInvoke(System::IAsyncResult* result);
@@ -63,7 +64,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::HeaderHandler*, "Sy
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::HeaderHandler::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Runtime::Remoting::Messaging::HeaderHandler::*)(::ArrayWrapper<System::Runtime::Remoting::Messaging::Header*>)>(&System::Runtime::Remoting::Messaging::HeaderHandler::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Runtime::Remoting::Messaging::HeaderHandler::*)(::ArrayW<System::Runtime::Remoting::Messaging::Header*>)>(&System::Runtime::Remoting::Messaging::HeaderHandler::Invoke)> {
   static const MethodInfo* get() {
     static auto* headers = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Messaging", "Header"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::HeaderHandler*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{headers});
@@ -72,7 +73,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::HeaderHandler::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Runtime::Remoting::Messaging::HeaderHandler::*)(::ArrayWrapper<System::Runtime::Remoting::Messaging::Header*>, System::AsyncCallback*, ::Il2CppObject*)>(&System::Runtime::Remoting::Messaging::HeaderHandler::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Runtime::Remoting::Messaging::HeaderHandler::*)(::ArrayW<System::Runtime::Remoting::Messaging::Header*>, System::AsyncCallback*, ::Il2CppObject*)>(&System::Runtime::Remoting::Messaging::HeaderHandler::BeginInvoke)> {
   static const MethodInfo* get() {
     static auto* headers = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Messaging", "Header"), 1)->byval_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;

@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Security::Cryptography
@@ -28,24 +29,30 @@ namespace System::Security::Cryptography {
   // [ComVisibleAttribute] Offset: E5F394
   class RC2 : public System::Security::Cryptography::SymmetricAlgorithm {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // protected System.Int32 EffectiveKeySizeValue
     // Size: 0x4
     // Offset: 0x44
     int EffectiveKeySizeValue;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return EffectiveKeySizeValue;
     }
     // Get static field: static private System.Security.Cryptography.KeySizes[] s_legalBlockSizes
-    static ::ArrayWrapper<System::Security::Cryptography::KeySizes*> _get_s_legalBlockSizes();
+    static ::ArrayW<System::Security::Cryptography::KeySizes*> _get_s_legalBlockSizes();
     // Set static field: static private System.Security.Cryptography.KeySizes[] s_legalBlockSizes
-    static void _set_s_legalBlockSizes(::ArrayWrapper<System::Security::Cryptography::KeySizes*> value);
+    static void _set_s_legalBlockSizes(::ArrayW<System::Security::Cryptography::KeySizes*> value);
     // Get static field: static private System.Security.Cryptography.KeySizes[] s_legalKeySizes
-    static ::ArrayWrapper<System::Security::Cryptography::KeySizes*> _get_s_legalKeySizes();
+    static ::ArrayW<System::Security::Cryptography::KeySizes*> _get_s_legalKeySizes();
     // Set static field: static private System.Security.Cryptography.KeySizes[] s_legalKeySizes
-    static void _set_s_legalKeySizes(::ArrayWrapper<System::Security::Cryptography::KeySizes*> value);
+    static void _set_s_legalKeySizes(::ArrayW<System::Security::Cryptography::KeySizes*> value);
     // Get instance field reference: protected System.Int32 EffectiveKeySizeValue
     int& dyn_EffectiveKeySizeValue();
     // public System.Int32 get_EffectiveKeySize()

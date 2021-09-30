@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HoudiniEngineUnity
@@ -58,7 +59,7 @@ namespace HoudiniEngineUnity {
     static void SelectObject(UnityEngine::GameObject* gameObject);
     // static public System.Void SelectObjects(UnityEngine.GameObject[] gameObjects)
     // Offset: 0x1497794
-    static void SelectObjects(::ArrayWrapper<UnityEngine::GameObject*> gameObjects);
+    static void SelectObjects(::ArrayW<UnityEngine::GameObject*> gameObjects);
     // static public UnityEngine.Vector3 GetSelectedObjectsMeanPosition()
     // Offset: 0x1497798
     static UnityEngine::Vector3 GetSelectedObjectsMeanPosition();
@@ -121,7 +122,7 @@ namespace HoudiniEngineUnity {
     static void UndoCollapseCurrentGroup();
     // static public UnityEngine.Object[] CollectDependencies(UnityEngine.Object obj)
     // Offset: 0x1497BF4
-    static ::ArrayWrapper<UnityEngine::Object*> CollectDependencies(UnityEngine::Object* obj);
+    static ::ArrayW<UnityEngine::Object*> CollectDependencies(UnityEngine::Object* obj);
     // static public System.Boolean IsPersistant(UnityEngine.Object obj)
     // Offset: 0x1497C48
     static bool IsPersistant(UnityEngine::Object* obj);
@@ -157,13 +158,13 @@ namespace HoudiniEngineUnity {
     static void SetIsHidden(UnityEngine::GameObject* go, bool isHidden, bool bIncludeChildren);
     // static public UnityEngine.GameObject[] GetSelectedObjects()
     // Offset: 0x1497EC0
-    static ::ArrayWrapper<UnityEngine::GameObject*> GetSelectedObjects();
+    static ::ArrayW<UnityEngine::GameObject*> GetSelectedObjects();
     // static public HoudiniEngineUnity.HEU_HoudiniAssetRoot[] GetSelectedAssetRoots()
     // Offset: 0x1497EC8
-    static ::ArrayWrapper<HoudiniEngineUnity::HEU_HoudiniAssetRoot*> GetSelectedAssetRoots();
+    static ::ArrayW<HoudiniEngineUnity::HEU_HoudiniAssetRoot*> GetSelectedAssetRoots();
     // static public HoudiniEngineUnity.HEU_HoudiniAssetRoot[] GetAllAssetRoots()
     // Offset: 0x1497F40
-    static ::ArrayWrapper<HoudiniEngineUnity::HEU_HoudiniAssetRoot*> GetAllAssetRoots();
+    static ::ArrayW<HoudiniEngineUnity::HEU_HoudiniAssetRoot*> GetAllAssetRoots();
     // static public System.Void CookSelected()
     // Offset: 0x1497FA8
     static void CookSelected();
@@ -172,7 +173,7 @@ namespace HoudiniEngineUnity {
     static void CookAll();
     // static public System.Void CookAssets(HoudiniEngineUnity.HEU_HoudiniAssetRoot[] rootAssets)
     // Offset: 0x1497FBC
-    static void CookAssets(::ArrayWrapper<HoudiniEngineUnity::HEU_HoudiniAssetRoot*> rootAssets);
+    static void CookAssets(::ArrayW<HoudiniEngineUnity::HEU_HoudiniAssetRoot*> rootAssets);
     // static public System.Void RebuildSelected()
     // Offset: 0x14980C4
     static void RebuildSelected();
@@ -181,7 +182,7 @@ namespace HoudiniEngineUnity {
     static void RebuildAll();
     // static public System.Void RebuildAssets(HoudiniEngineUnity.HEU_HoudiniAssetRoot[] rootAssets)
     // Offset: 0x14980D8
-    static void RebuildAssets(::ArrayWrapper<HoudiniEngineUnity::HEU_HoudiniAssetRoot*> rootAssets);
+    static void RebuildAssets(::ArrayW<HoudiniEngineUnity::HEU_HoudiniAssetRoot*> rootAssets);
     // static public System.Void BakeAndReplaceSelectedInScene()
     // Offset: 0x14981D4
     static void BakeAndReplaceSelectedInScene();
@@ -190,7 +191,7 @@ namespace HoudiniEngineUnity {
     static void BakeAndReplaceAllInScene();
     // static public System.Void BakeAndReplaceAssets(HoudiniEngineUnity.HEU_HoudiniAssetRoot[] rootAssets)
     // Offset: 0x14981E8
-    static void BakeAndReplaceAssets(::ArrayWrapper<HoudiniEngineUnity::HEU_HoudiniAssetRoot*> rootAssets);
+    static void BakeAndReplaceAssets(::ArrayW<HoudiniEngineUnity::HEU_HoudiniAssetRoot*> rootAssets);
     // static public System.Void ExportSelectedAssetsToGeoFiles()
     // Offset: 0x14982E0
     static void ExportSelectedAssetsToGeoFiles();
@@ -199,7 +200,7 @@ namespace HoudiniEngineUnity {
     static void ExportAllAssetsToGeoFiles();
     // static public System.Void ExportAssetsToGeoFiles(HoudiniEngineUnity.HEU_HoudiniAssetRoot[] rootAssets)
     // Offset: 0x14982F4
-    static void ExportAssetsToGeoFiles(::ArrayWrapper<HoudiniEngineUnity::HEU_HoudiniAssetRoot*> rootAssets);
+    static void ExportAssetsToGeoFiles(::ArrayW<HoudiniEngineUnity::HEU_HoudiniAssetRoot*> rootAssets);
     // static public System.String EditorSaveFolderPanel(System.String title, System.String folder, System.String defaultName)
     // Offset: 0x1498980
     static ::Il2CppString* EditorSaveFolderPanel(::Il2CppString* title, ::Il2CppString* folder, ::Il2CppString* defaultName);
@@ -246,7 +247,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_EditorUtility::SelectObjects
 // Il2CppName: SelectObjects
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<UnityEngine::GameObject*>)>(&HoudiniEngineUnity::HEU_EditorUtility::SelectObjects)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<UnityEngine::GameObject*>)>(&HoudiniEngineUnity::HEU_EditorUtility::SelectObjects)> {
   static const MethodInfo* get() {
     static auto* gameObjects = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_EditorUtility*), "SelectObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{gameObjects});
@@ -414,7 +415,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_EditorUtility::CollectDependencies
 // Il2CppName: CollectDependencies
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Object*> (*)(UnityEngine::Object*)>(&HoudiniEngineUnity::HEU_EditorUtility::CollectDependencies)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Object*> (*)(UnityEngine::Object*)>(&HoudiniEngineUnity::HEU_EditorUtility::CollectDependencies)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_EditorUtility*), "CollectDependencies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});
@@ -533,7 +534,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_EditorUtility::GetSelectedObjects
 // Il2CppName: GetSelectedObjects
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::GameObject*> (*)()>(&HoudiniEngineUnity::HEU_EditorUtility::GetSelectedObjects)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::GameObject*> (*)()>(&HoudiniEngineUnity::HEU_EditorUtility::GetSelectedObjects)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_EditorUtility*), "GetSelectedObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -541,7 +542,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_EditorUtility::GetSelectedAssetRoots
 // Il2CppName: GetSelectedAssetRoots
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<HoudiniEngineUnity::HEU_HoudiniAssetRoot*> (*)()>(&HoudiniEngineUnity::HEU_EditorUtility::GetSelectedAssetRoots)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<HoudiniEngineUnity::HEU_HoudiniAssetRoot*> (*)()>(&HoudiniEngineUnity::HEU_EditorUtility::GetSelectedAssetRoots)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_EditorUtility*), "GetSelectedAssetRoots", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -549,7 +550,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_EditorUtility::GetAllAssetRoots
 // Il2CppName: GetAllAssetRoots
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<HoudiniEngineUnity::HEU_HoudiniAssetRoot*> (*)()>(&HoudiniEngineUnity::HEU_EditorUtility::GetAllAssetRoots)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<HoudiniEngineUnity::HEU_HoudiniAssetRoot*> (*)()>(&HoudiniEngineUnity::HEU_EditorUtility::GetAllAssetRoots)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_EditorUtility*), "GetAllAssetRoots", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -573,7 +574,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_EditorUtility::CookAssets
 // Il2CppName: CookAssets
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<HoudiniEngineUnity::HEU_HoudiniAssetRoot*>)>(&HoudiniEngineUnity::HEU_EditorUtility::CookAssets)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<HoudiniEngineUnity::HEU_HoudiniAssetRoot*>)>(&HoudiniEngineUnity::HEU_EditorUtility::CookAssets)> {
   static const MethodInfo* get() {
     static auto* rootAssets = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_HoudiniAssetRoot"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_EditorUtility*), "CookAssets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rootAssets});
@@ -598,7 +599,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_EditorUtility::RebuildAssets
 // Il2CppName: RebuildAssets
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<HoudiniEngineUnity::HEU_HoudiniAssetRoot*>)>(&HoudiniEngineUnity::HEU_EditorUtility::RebuildAssets)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<HoudiniEngineUnity::HEU_HoudiniAssetRoot*>)>(&HoudiniEngineUnity::HEU_EditorUtility::RebuildAssets)> {
   static const MethodInfo* get() {
     static auto* rootAssets = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_HoudiniAssetRoot"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_EditorUtility*), "RebuildAssets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rootAssets});
@@ -623,7 +624,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_EditorUtility::BakeAndReplaceAssets
 // Il2CppName: BakeAndReplaceAssets
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<HoudiniEngineUnity::HEU_HoudiniAssetRoot*>)>(&HoudiniEngineUnity::HEU_EditorUtility::BakeAndReplaceAssets)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<HoudiniEngineUnity::HEU_HoudiniAssetRoot*>)>(&HoudiniEngineUnity::HEU_EditorUtility::BakeAndReplaceAssets)> {
   static const MethodInfo* get() {
     static auto* rootAssets = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_HoudiniAssetRoot"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_EditorUtility*), "BakeAndReplaceAssets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rootAssets});
@@ -648,7 +649,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_EditorUtility::ExportAssetsToGeoFiles
 // Il2CppName: ExportAssetsToGeoFiles
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<HoudiniEngineUnity::HEU_HoudiniAssetRoot*>)>(&HoudiniEngineUnity::HEU_EditorUtility::ExportAssetsToGeoFiles)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<HoudiniEngineUnity::HEU_HoudiniAssetRoot*>)>(&HoudiniEngineUnity::HEU_EditorUtility::ExportAssetsToGeoFiles)> {
   static const MethodInfo* get() {
     static auto* rootAssets = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_HoudiniAssetRoot"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_EditorUtility*), "ExportAssetsToGeoFiles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rootAssets});

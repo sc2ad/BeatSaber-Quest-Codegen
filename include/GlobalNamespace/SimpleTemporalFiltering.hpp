@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -27,12 +28,17 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SimpleTemporalFiltering : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.RenderTexture[] _temporalFilteringTextures
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<UnityEngine::RenderTexture*> temporalFilteringTextures;
+    ::ArrayW<UnityEngine::RenderTexture*> temporalFilteringTextures;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::RenderTexture*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::RenderTexture*>) == 0x8);
     // private System.Int32 _prevTemporalFilteringTextureIdx
     // Size: 0x4
     // Offset: 0x18
@@ -53,8 +59,9 @@ namespace GlobalNamespace {
     int bufferTexID;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: private UnityEngine.RenderTexture[] _temporalFilteringTextures
-    ::ArrayWrapper<UnityEngine::RenderTexture*>& dyn__temporalFilteringTextures();
+    ::ArrayW<UnityEngine::RenderTexture*>& dyn__temporalFilteringTextures();
     // Get instance field reference: private System.Int32 _prevTemporalFilteringTextureIdx
     int& dyn__prevTemporalFilteringTextureIdx();
     // Get instance field reference: private UnityEngine.Material _temporalFilteringMaterial

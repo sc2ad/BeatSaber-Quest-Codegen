@@ -21,6 +21,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct OVRTracker::Frustum/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Single nearZ
     // Size: 0x4
     // Offset: 0x0
@@ -39,6 +44,7 @@ namespace GlobalNamespace {
     UnityEngine::Vector2 fov;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector2) == 0x8);
+    public:
     // Creating value type constructor for type: Frustum
     constexpr Frustum(float nearZ_ = {}, float farZ_ = {}, UnityEngine::Vector2 fov_ = {}) noexcept : nearZ{nearZ_}, farZ{farZ_}, fov{fov_} {}
     // Creating interface conversion operator: operator System::ValueType

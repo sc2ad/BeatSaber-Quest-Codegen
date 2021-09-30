@@ -22,6 +22,11 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E95444
   struct ContactPoint2D/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [NativeNameAttribute] Offset: 0xE95908
     // private UnityEngine.Vector2 m_Point
     // Size: 0x8
@@ -99,6 +104,7 @@ namespace UnityEngine {
     int m_Enabled;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: ContactPoint2D
     constexpr ContactPoint2D(UnityEngine::Vector2 m_Point_ = {}, UnityEngine::Vector2 m_Normal_ = {}, UnityEngine::Vector2 m_RelativeVelocity_ = {}, float m_Separation_ = {}, float m_NormalImpulse_ = {}, float m_TangentImpulse_ = {}, int m_Collider_ = {}, int m_OtherCollider_ = {}, int m_Rigidbody_ = {}, int m_OtherRigidbody_ = {}, int m_Enabled_ = {}) noexcept : m_Point{m_Point_}, m_Normal{m_Normal_}, m_RelativeVelocity{m_RelativeVelocity_}, m_Separation{m_Separation_}, m_NormalImpulse{m_NormalImpulse_}, m_TangentImpulse{m_TangentImpulse_}, m_Collider{m_Collider_}, m_OtherCollider{m_OtherCollider_}, m_Rigidbody{m_Rigidbody_}, m_OtherRigidbody{m_OtherRigidbody_}, m_Enabled{m_Enabled_} {}
     // Creating interface conversion operator: operator System::ValueType

@@ -25,6 +25,11 @@ namespace Org::BouncyCastle::Crypto {
   // [TokenAttribute] Offset: FFFFFFFF
   class AsymmetricCipherKeyPair : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Org.BouncyCastle.Crypto.AsymmetricKeyParameter publicParameter
     // Size: 0x8
     // Offset: 0x10
@@ -37,6 +42,7 @@ namespace Org::BouncyCastle::Crypto {
     Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateParameter;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Crypto::AsymmetricKeyParameter*) == 0x8);
+    public:
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.AsymmetricKeyParameter publicParameter
     Org::BouncyCastle::Crypto::AsymmetricKeyParameter*& dyn_publicParameter();
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.AsymmetricKeyParameter privateParameter

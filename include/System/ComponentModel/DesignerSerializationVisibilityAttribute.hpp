@@ -23,12 +23,18 @@ namespace System::ComponentModel {
   // [AttributeUsageAttribute] Offset: E69448
   class DesignerSerializationVisibilityAttribute : public System::Attribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.ComponentModel.DesignerSerializationVisibility visibility
     // Size: 0x4
     // Offset: 0x10
     System::ComponentModel::DesignerSerializationVisibility visibility;
     // Field size check
     static_assert(sizeof(System::ComponentModel::DesignerSerializationVisibility) == 0x4);
+    public:
     // Creating conversion operator: operator System::ComponentModel::DesignerSerializationVisibility
     constexpr operator System::ComponentModel::DesignerSerializationVisibility() const noexcept {
       return visibility;

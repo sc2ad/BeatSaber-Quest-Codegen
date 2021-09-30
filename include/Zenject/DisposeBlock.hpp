@@ -81,6 +81,11 @@ namespace Zenject {
     // [TokenAttribute] Offset: FFFFFFFF
     struct SpawnedObjectPoolPair/*, public System::ValueType*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public Zenject.IMemoryPool Pool
       // Size: 0x8
       // Offset: 0x0
@@ -93,6 +98,7 @@ namespace Zenject {
       ::Il2CppObject* Object;
       // Field size check
       static_assert(sizeof(::Il2CppObject*) == 0x8);
+      public:
       // Creating value type constructor for type: SpawnedObjectPoolPair
       constexpr SpawnedObjectPoolPair(Zenject::IMemoryPool* Pool_ = {}, ::Il2CppObject* Object_ = {}) noexcept : Pool{Pool_}, Object{Object_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -107,6 +113,11 @@ namespace Zenject {
     #pragma pack(pop)
     static check_size<sizeof(DisposeBlock::SpawnedObjectPoolPair), 8 + sizeof(::Il2CppObject*)> __Zenject_DisposeBlock_SpawnedObjectPoolPairSizeCheck;
     static_assert(sizeof(DisposeBlock::SpawnedObjectPoolPair) == 0x10);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.List`1<System.IDisposable> _disposables
     // Size: 0x8
     // Offset: 0x10
@@ -119,6 +130,7 @@ namespace Zenject {
     System::Collections::Generic::List_1<Zenject::DisposeBlock::SpawnedObjectPoolPair>* objectPoolPairs;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<Zenject::DisposeBlock::SpawnedObjectPoolPair>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

@@ -28,12 +28,18 @@ namespace System::Threading {
   // [TokenAttribute] Offset: FFFFFFFF
   struct ExecutionContext::Reader/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Threading.ExecutionContext m_ec
     // Size: 0x8
     // Offset: 0x0
     System::Threading::ExecutionContext* m_ec;
     // Field size check
     static_assert(sizeof(System::Threading::ExecutionContext*) == 0x8);
+    public:
     // Creating value type constructor for type: Reader
     constexpr Reader(System::Threading::ExecutionContext* m_ec_ = {}) noexcept : m_ec{m_ec_} {}
     // Creating interface conversion operator: operator System::ValueType

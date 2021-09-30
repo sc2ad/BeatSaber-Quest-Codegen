@@ -30,6 +30,11 @@ namespace System::Net::Http::Headers {
   // [TokenAttribute] Offset: FFFFFFFF
   class RangeConditionHeaderValue : public ::Il2CppObject/*, public System::ICloneable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Nullable`1<System.DateTimeOffset> <Date>k__BackingField
     // Size: 0xFFFFFFFF
     // Offset: 0x10
@@ -40,6 +45,7 @@ namespace System::Net::Http::Headers {
     System::Net::Http::Headers::EntityTagHeaderValue* EntityTag;
     // Field size check
     static_assert(sizeof(System::Net::Http::Headers::EntityTagHeaderValue*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);

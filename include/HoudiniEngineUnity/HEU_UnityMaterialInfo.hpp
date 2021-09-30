@@ -18,6 +18,11 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_UnityMaterialInfo : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.String _unityMaterialPath
     // Size: 0x8
     // Offset: 0x10
@@ -36,6 +41,7 @@ namespace HoudiniEngineUnity {
     int substanceIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: public System.String _unityMaterialPath
     ::Il2CppString*& dyn__unityMaterialPath();
     // Get instance field reference: public System.String _substancePath

@@ -18,12 +18,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SongSpeedData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly System.Single speedMul
     // Size: 0x4
     // Offset: 0x10
     float speedMul;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating conversion operator: operator float
     constexpr operator float() const noexcept {
       return speedMul;

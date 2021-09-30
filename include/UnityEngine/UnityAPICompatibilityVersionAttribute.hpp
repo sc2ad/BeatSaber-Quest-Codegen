@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
@@ -21,6 +22,11 @@ namespace UnityEngine {
   // [AttributeUsageAttribute] Offset: E72B54
   class UnityAPICompatibilityVersionAttribute : public System::Attribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String _version
     // Size: 0x8
     // Offset: 0x10
@@ -30,23 +36,24 @@ namespace UnityEngine {
     // private System.String[] _configurationAssembliesHashes
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<::Il2CppString*> configurationAssembliesHashes;
+    ::ArrayW<::Il2CppString*> configurationAssembliesHashes;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    public:
     // Get instance field reference: private System.String _version
     ::Il2CppString*& dyn__version();
     // Get instance field reference: private System.String[] _configurationAssembliesHashes
-    ::ArrayWrapper<::Il2CppString*>& dyn__configurationAssembliesHashes();
+    ::ArrayW<::Il2CppString*>& dyn__configurationAssembliesHashes();
     // public System.Void .ctor(System.String version, System.String[] configurationAssembliesHashes)
     // Offset: 0x23498B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static UnityAPICompatibilityVersionAttribute* New_ctor(::Il2CppString* version, ::ArrayWrapper<::Il2CppString*> configurationAssembliesHashes) {
+    static UnityAPICompatibilityVersionAttribute* New_ctor(::Il2CppString* version, ::ArrayW<::Il2CppString*> configurationAssembliesHashes) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UnityAPICompatibilityVersionAttribute::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<UnityAPICompatibilityVersionAttribute*, creationType>(version, configurationAssembliesHashes)));
     }
   }; // UnityEngine.UnityAPICompatibilityVersionAttribute
   #pragma pack(pop)
-  static check_size<sizeof(UnityAPICompatibilityVersionAttribute), 24 + sizeof(::ArrayWrapper<::Il2CppString*>)> __UnityEngine_UnityAPICompatibilityVersionAttributeSizeCheck;
+  static check_size<sizeof(UnityAPICompatibilityVersionAttribute), 24 + sizeof(::ArrayW<::Il2CppString*>)> __UnityEngine_UnityAPICompatibilityVersionAttributeSizeCheck;
   static_assert(sizeof(UnityAPICompatibilityVersionAttribute) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UnityAPICompatibilityVersionAttribute*, "UnityEngine", "UnityAPICompatibilityVersionAttribute");

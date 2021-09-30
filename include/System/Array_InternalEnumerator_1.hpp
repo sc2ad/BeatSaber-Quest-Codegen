@@ -25,6 +25,11 @@ namespace System {
   template<typename T>
   struct Array::InternalEnumerator_1/*, public System::ValueType, public System::Collections::Generic::IEnumerator_1<T>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Array array
     // Size: 0x8
     // Offset: 0x0
@@ -37,6 +42,7 @@ namespace System {
     int idx;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: InternalEnumerator_1
     constexpr InternalEnumerator_1(System::Array* array_ = {}, int idx_ = {}) noexcept : array{array_}, idx{idx_} {}
     // Creating interface conversion operator: operator System::ValueType

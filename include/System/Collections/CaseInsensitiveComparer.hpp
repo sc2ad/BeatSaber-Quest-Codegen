@@ -30,12 +30,18 @@ namespace System::Collections {
   // [ComVisibleAttribute] Offset: E615A4
   class CaseInsensitiveComparer : public ::Il2CppObject/*, public System::Collections::IComparer*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Globalization.CompareInfo m_compareInfo
     // Size: 0x8
     // Offset: 0x10
     System::Globalization::CompareInfo* m_compareInfo;
     // Field size check
     static_assert(sizeof(System::Globalization::CompareInfo*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Collections::IComparer
     operator System::Collections::IComparer() noexcept {
       return *reinterpret_cast<System::Collections::IComparer*>(this);

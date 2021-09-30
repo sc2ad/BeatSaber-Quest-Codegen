@@ -22,6 +22,11 @@ namespace Mono::Security::Interface {
   // [TokenAttribute] Offset: FFFFFFFF
   class MonoTlsConnectionInfo : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Mono.Security.Interface.CipherSuiteCode <CipherSuiteCode>k__BackingField
     // Size: 0x2
     // Offset: 0x10
@@ -42,6 +47,7 @@ namespace Mono::Security::Interface {
     ::Il2CppString* PeerDomainName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: private Mono.Security.Interface.CipherSuiteCode <CipherSuiteCode>k__BackingField
     Mono::Security::Interface::CipherSuiteCode& dyn_$CipherSuiteCode$k__BackingField();
     // Get instance field reference: private Mono.Security.Interface.TlsProtocols <ProtocolVersion>k__BackingField

@@ -34,6 +34,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SphereCuttableBySaber : public GlobalNamespace::CuttableBySaber {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.SphereCollider _collider
     // Size: 0x8
     // Offset: 0x20
@@ -46,6 +51,7 @@ namespace GlobalNamespace {
     bool canBeCut;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private UnityEngine.SphereCollider _collider
     UnityEngine::SphereCollider*& dyn__collider();
     // Get instance field reference: private System.Boolean _canBeCut

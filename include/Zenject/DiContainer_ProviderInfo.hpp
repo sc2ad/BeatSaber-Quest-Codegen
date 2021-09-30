@@ -29,6 +29,11 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class DiContainer::ProviderInfo : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly Zenject.DiContainer Container
     // Size: 0x8
     // Offset: 0x10
@@ -55,6 +60,7 @@ namespace Zenject {
     Zenject::BindingCondition* Condition;
     // Field size check
     static_assert(sizeof(Zenject::BindingCondition*) == 0x8);
+    public:
     // Get instance field reference: public readonly Zenject.DiContainer Container
     Zenject::DiContainer*& dyn_Container();
     // Get instance field reference: public readonly System.Boolean NonLazy

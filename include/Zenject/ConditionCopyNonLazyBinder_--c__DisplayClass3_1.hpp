@@ -33,12 +33,18 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class ConditionCopyNonLazyBinder::$$c__DisplayClass3_1 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public Zenject.InjectContext r
     // Size: 0x8
     // Offset: 0x10
     Zenject::InjectContext* r;
     // Field size check
     static_assert(sizeof(Zenject::InjectContext*) == 0x8);
+    public:
     // Creating conversion operator: operator Zenject::InjectContext*
     constexpr operator Zenject::InjectContext*() const noexcept {
       return r;

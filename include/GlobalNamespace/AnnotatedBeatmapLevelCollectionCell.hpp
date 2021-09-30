@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -55,6 +56,11 @@ namespace GlobalNamespace {
     char ___base_padding[0x6] = {};
     // Nested type: GlobalNamespace::AnnotatedBeatmapLevelCollectionCell::$RefreshAvailabilityAsync$d__23
     struct $RefreshAvailabilityAsync$d__23;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private TMPro.TextMeshProUGUI _infoText
     // Size: 0x8
     // Offset: 0x40
@@ -76,9 +82,9 @@ namespace GlobalNamespace {
     // private UnityEngine.GameObject[] _newPromoRibbonObjects
     // Size: 0x8
     // Offset: 0x58
-    ::ArrayWrapper<UnityEngine::GameObject*> newPromoRibbonObjects;
+    ::ArrayW<UnityEngine::GameObject*> newPromoRibbonObjects;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::GameObject*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::GameObject*>) == 0x8);
     // private UnityEngine.GameObject _downloadIconObject
     // Size: 0x8
     // Offset: 0x60
@@ -130,6 +136,7 @@ namespace GlobalNamespace {
     System::Threading::CancellationTokenSource* cancellationTokenSource;
     // Field size check
     static_assert(sizeof(System::Threading::CancellationTokenSource*) == 0x8);
+    public:
     // Get instance field reference: private TMPro.TextMeshProUGUI _infoText
     TMPro::TextMeshProUGUI*& dyn__infoText();
     // Get instance field reference: private HMUI.ImageView _coverImage
@@ -137,7 +144,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private HMUI.ImageView _selectionImage
     HMUI::ImageView*& dyn__selectionImage();
     // Get instance field reference: private UnityEngine.GameObject[] _newPromoRibbonObjects
-    ::ArrayWrapper<UnityEngine::GameObject*>& dyn__newPromoRibbonObjects();
+    ::ArrayW<UnityEngine::GameObject*>& dyn__newPromoRibbonObjects();
     // Get instance field reference: private UnityEngine.GameObject _downloadIconObject
     UnityEngine::GameObject*& dyn__downloadIconObject();
     // Get instance field reference: private UnityEngine.Color _selectedColor0

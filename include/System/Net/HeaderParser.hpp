@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -38,13 +39,13 @@ namespace System::Net {
     }
     // public System.String[] Invoke(System.String value)
     // Offset: 0x183B84C
-    ::ArrayWrapper<::Il2CppString*> Invoke(::Il2CppString* value);
+    ::ArrayW<::Il2CppString*> Invoke(::Il2CppString* value);
     // public System.IAsyncResult BeginInvoke(System.String value, System.AsyncCallback callback, System.Object object)
     // Offset: 0x183BBE8
     System::IAsyncResult* BeginInvoke(::Il2CppString* value, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.String[] EndInvoke(System.IAsyncResult result)
     // Offset: 0x183BC0C
-    ::ArrayWrapper<::Il2CppString*> EndInvoke(System::IAsyncResult* result);
+    ::ArrayW<::Il2CppString*> EndInvoke(System::IAsyncResult* result);
   }; // System.Net.HeaderParser
   #pragma pack(pop)
 }
@@ -57,7 +58,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::HeaderParser*, "System.Net", "HeaderParser")
 // Writing MetadataGetter for method: System::Net::HeaderParser::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppString*> (System::Net::HeaderParser::*)(::Il2CppString*)>(&System::Net::HeaderParser::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (System::Net::HeaderParser::*)(::Il2CppString*)>(&System::Net::HeaderParser::Invoke)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HeaderParser*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -77,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Writing MetadataGetter for method: System::Net::HeaderParser::EndInvoke
 // Il2CppName: EndInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppString*> (System::Net::HeaderParser::*)(System::IAsyncResult*)>(&System::Net::HeaderParser::EndInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (System::Net::HeaderParser::*)(System::IAsyncResult*)>(&System::Net::HeaderParser::EndInvoke)> {
   static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("System", "IAsyncResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::HeaderParser*), "EndInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});

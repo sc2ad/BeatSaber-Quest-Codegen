@@ -23,6 +23,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HMUI
@@ -70,6 +71,11 @@ namespace HMUI {
     char ___base_padding[0x7] = {};
     // Nested type: HMUI::AlphabetScrollbar::$PointerMoveInsideCoroutine$d__18
     class $PointerMoveInsideCoroutine$d__18;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private HMUI.TableView _tableView
     // Size: 0x8
     // Offset: 0x20
@@ -101,9 +107,9 @@ namespace HMUI {
     // private TMPro.TextMeshProUGUI[] _prealocatedTexts
     // Size: 0x8
     // Offset: 0x48
-    ::ArrayWrapper<TMPro::TextMeshProUGUI*> prealocatedTexts;
+    ::ArrayW<TMPro::TextMeshProUGUI*> prealocatedTexts;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<TMPro::TextMeshProUGUI*>) == 0x8);
+    static_assert(sizeof(::ArrayW<TMPro::TextMeshProUGUI*>) == 0x8);
     // private UnityEngine.UI.Image _highlightImage
     // Size: 0x8
     // Offset: 0x50
@@ -113,9 +119,9 @@ namespace HMUI {
     // private AlphabetScrollInfo/Data[] _characterScrollData
     // Size: 0x8
     // Offset: 0x58
-    ::ArrayWrapper<GlobalNamespace::AlphabetScrollInfo::Data*> characterScrollData;
+    ::ArrayW<GlobalNamespace::AlphabetScrollInfo::Data*> characterScrollData;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::AlphabetScrollInfo::Data*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::AlphabetScrollInfo::Data*>) == 0x8);
     // private System.Collections.Generic.List`1<TMPro.TextMeshProUGUI> _texts
     // Size: 0x8
     // Offset: 0x60
@@ -134,6 +140,7 @@ namespace HMUI {
     bool pointerIsDown;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator UnityEngine::EventSystems::IPointerDownHandler
     operator UnityEngine::EventSystems::IPointerDownHandler() noexcept {
       return *reinterpret_cast<UnityEngine::EventSystems::IPointerDownHandler*>(this);
@@ -159,11 +166,11 @@ namespace HMUI {
     // Get instance field reference: private TMPro.TextMeshProUGUI _textPrefab
     TMPro::TextMeshProUGUI*& dyn__textPrefab();
     // Get instance field reference: private TMPro.TextMeshProUGUI[] _prealocatedTexts
-    ::ArrayWrapper<TMPro::TextMeshProUGUI*>& dyn__prealocatedTexts();
+    ::ArrayW<TMPro::TextMeshProUGUI*>& dyn__prealocatedTexts();
     // Get instance field reference: private UnityEngine.UI.Image _highlightImage
     UnityEngine::UI::Image*& dyn__highlightImage();
     // Get instance field reference: private AlphabetScrollInfo/Data[] _characterScrollData
-    ::ArrayWrapper<GlobalNamespace::AlphabetScrollInfo::Data*>& dyn__characterScrollData();
+    ::ArrayW<GlobalNamespace::AlphabetScrollInfo::Data*>& dyn__characterScrollData();
     // Get instance field reference: private System.Collections.Generic.List`1<TMPro.TextMeshProUGUI> _texts
     System::Collections::Generic::List_1<TMPro::TextMeshProUGUI*>*& dyn__texts();
     // Get instance field reference: private System.Int32 _highlightedCharactedIndex
@@ -175,7 +182,7 @@ namespace HMUI {
     void Awake();
     // public System.Void SetData(AlphabetScrollInfo/Data[] characterScrollData)
     // Offset: 0x147F5A0
-    void SetData(::ArrayWrapper<GlobalNamespace::AlphabetScrollInfo::Data*> characterScrollData);
+    void SetData(::ArrayW<GlobalNamespace::AlphabetScrollInfo::Data*> characterScrollData);
     // public System.Void OnPointerDown(UnityEngine.EventSystems.PointerEventData eventData)
     // Offset: 0x147FB88
     void OnPointerDown(UnityEngine::EventSystems::PointerEventData* eventData);
@@ -235,7 +242,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Writing MetadataGetter for method: HMUI::AlphabetScrollbar::SetData
 // Il2CppName: SetData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::AlphabetScrollbar::*)(::ArrayWrapper<GlobalNamespace::AlphabetScrollInfo::Data*>)>(&HMUI::AlphabetScrollbar::SetData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::AlphabetScrollbar::*)(::ArrayW<GlobalNamespace::AlphabetScrollInfo::Data*>)>(&HMUI::AlphabetScrollbar::SetData)> {
   static const MethodInfo* get() {
     static auto* characterScrollData = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "AlphabetScrollInfo/Data"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::AlphabetScrollbar*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{characterScrollData});

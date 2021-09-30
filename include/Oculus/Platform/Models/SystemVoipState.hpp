@@ -24,6 +24,11 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class SystemVoipState : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly Oculus.Platform.VoipMuteState MicrophoneMuted
     // Size: 0x4
     // Offset: 0x10
@@ -36,6 +41,7 @@ namespace Oculus::Platform::Models {
     Oculus::Platform::SystemVoipStatus Status;
     // Field size check
     static_assert(sizeof(Oculus::Platform::SystemVoipStatus) == 0x4);
+    public:
     // Get instance field reference: public readonly Oculus.Platform.VoipMuteState MicrophoneMuted
     Oculus::Platform::VoipMuteState& dyn_MicrophoneMuted();
     // Get instance field reference: public readonly Oculus.Platform.SystemVoipStatus Status

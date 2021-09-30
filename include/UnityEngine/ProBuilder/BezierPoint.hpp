@@ -36,6 +36,11 @@ namespace UnityEngine::ProBuilder {
   // [TokenAttribute] Offset: FFFFFFFF
   struct BezierPoint/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Vector3 position
     // Size: 0xC
     // Offset: 0x0
@@ -60,6 +65,7 @@ namespace UnityEngine::ProBuilder {
     UnityEngine::Quaternion rotation;
     // Field size check
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
+    public:
     // Creating value type constructor for type: BezierPoint
     constexpr BezierPoint(UnityEngine::Vector3 position_ = {}, UnityEngine::Vector3 tangentIn_ = {}, UnityEngine::Vector3 tangentOut_ = {}, UnityEngine::Quaternion rotation_ = {}) noexcept : position{position_}, tangentIn{tangentIn_}, tangentOut{tangentOut_}, rotation{rotation_} {}
     // Creating interface conversion operator: operator System::ValueType

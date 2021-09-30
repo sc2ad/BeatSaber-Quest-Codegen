@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -21,7 +22,7 @@ namespace GlobalNamespace {
     // static public T DeserializeData(System.Byte[] data)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static T DeserializeData(::ArrayWrapper<uint8_t> data) {
+    static T DeserializeData(::ArrayW<uint8_t> data) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SerializationHelpers::DeserializeData");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "SerializationHelpers", "DeserializeData", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(data)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -30,11 +31,11 @@ namespace GlobalNamespace {
     // static public System.Byte[] SerializeObject(T serializableObject)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static ::ArrayWrapper<uint8_t> SerializeObject(T serializableObject) {
+    static ::ArrayW<uint8_t> SerializeObject(T serializableObject) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::SerializationHelpers::SerializeObject");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "SerializationHelpers", "SerializeObject", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(serializableObject)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<::ArrayWrapper<uint8_t>, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, serializableObject);
+      return ::il2cpp_utils::RunMethodThrow<::ArrayW<uint8_t>, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, serializableObject);
     }
     // static public T DeserializeDataFromPlayerPrefs(System.String key)
     // Offset: 0xFFFFFFFF

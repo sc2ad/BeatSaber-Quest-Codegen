@@ -37,6 +37,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class EventsTestGameplayManager : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xF07538
     // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
@@ -80,6 +85,7 @@ namespace GlobalNamespace {
     bool rotatingLasers;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController

@@ -37,6 +37,11 @@ namespace HoudiniEngineUnity {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class JSONArray::$get_Children$d__22 : public ::Il2CppObject/*, public System::Collections::Generic::IEnumerable_1<HoudiniEngineUnity::JSONNode*>, public System::Collections::Generic::IEnumerator_1<HoudiniEngineUnity::JSONNode*>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -65,6 +70,7 @@ namespace HoudiniEngineUnity {
     // Size: 0xFFFFFFFF
     // Offset: 0x30
     typename System::Collections::Generic::List_1<HoudiniEngineUnity::JSONNode*>::Enumerator $$7__wrap1;
+    public:
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<HoudiniEngineUnity::JSONNode*>
     operator System::Collections::Generic::IEnumerable_1<HoudiniEngineUnity::JSONNode*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<HoudiniEngineUnity::JSONNode*>*>(this);

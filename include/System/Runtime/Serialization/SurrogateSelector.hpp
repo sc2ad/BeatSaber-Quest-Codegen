@@ -37,6 +37,11 @@ namespace System::Runtime::Serialization {
   // [ComVisibleAttribute] Offset: E5F990
   class SurrogateSelector : public ::Il2CppObject/*, public System::Runtime::Serialization::ISurrogateSelector*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Runtime.Serialization.SurrogateHashtable m_surrogates
     // Size: 0x8
     // Offset: 0x10
@@ -49,6 +54,7 @@ namespace System::Runtime::Serialization {
     System::Runtime::Serialization::ISurrogateSelector* m_nextSelector;
     // Field size check
     static_assert(sizeof(System::Runtime::Serialization::ISurrogateSelector*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Runtime::Serialization::ISurrogateSelector
     operator System::Runtime::Serialization::ISurrogateSelector() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::ISurrogateSelector*>(this);

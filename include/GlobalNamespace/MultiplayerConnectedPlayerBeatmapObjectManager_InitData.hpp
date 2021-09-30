@@ -20,6 +20,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerConnectedPlayerBeatmapObjectManager::InitData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly System.Boolean disappearingArrows
     // Size: 0x1
     // Offset: 0x10
@@ -40,6 +45,7 @@ namespace GlobalNamespace {
     float notesUniformScale;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: public readonly System.Boolean disappearingArrows
     bool& dyn_disappearingArrows();
     // Get instance field reference: public readonly System.Boolean ghostNotes

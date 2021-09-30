@@ -40,6 +40,11 @@ namespace NUnit::Framework::Internal {
   // [TokenAttribute] Offset: FFFFFFFF
   class TestSuiteResult : public NUnit::Framework::Internal::TestResult {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 _passCount
     // Size: 0x4
     // Offset: 0x60
@@ -70,6 +75,7 @@ namespace NUnit::Framework::Internal {
     System::Collections::Generic::List_1<NUnit::Framework::Interfaces::ITestResult*>* children;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<NUnit::Framework::Interfaces::ITestResult*>*) == 0x8);
+    public:
     // Get instance field reference: private System.Int32 _passCount
     int& dyn__passCount();
     // Get instance field reference: private System.Int32 _failCount

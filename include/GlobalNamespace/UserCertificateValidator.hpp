@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -38,10 +39,10 @@ namespace GlobalNamespace {
     }
     // public System.Void ValidateCertificateChain(MasterServerEndPoint endPoint, System.Security.Cryptography.X509Certificates.X509Certificate2 certificate, System.Byte[][] certificateChain)
     // Offset: 0x18DA8FC
-    void ValidateCertificateChain(GlobalNamespace::MasterServerEndPoint* endPoint, System::Security::Cryptography::X509Certificates::X509Certificate2* certificate, ::ArrayWrapper<::ArrayWrapper<uint8_t>> certificateChain);
+    void ValidateCertificateChain(GlobalNamespace::MasterServerEndPoint* endPoint, System::Security::Cryptography::X509Certificates::X509Certificate2* certificate, ::ArrayW<::ArrayW<uint8_t>> certificateChain);
     // private System.Void ValidateCertificateChainInternal(MasterServerEndPoint endPoint, System.Security.Cryptography.X509Certificates.X509Certificate2 certificate, System.Byte[][] certificateChain)
     // Offset: 0x18DA900
-    void ValidateCertificateChainInternal(GlobalNamespace::MasterServerEndPoint* endPoint, System::Security::Cryptography::X509Certificates::X509Certificate2* certificate, ::ArrayWrapper<::ArrayWrapper<uint8_t>> certificateChain);
+    void ValidateCertificateChainInternal(GlobalNamespace::MasterServerEndPoint* endPoint, System::Security::Cryptography::X509Certificates::X509Certificate2* certificate, ::ArrayW<::ArrayW<uint8_t>> certificateChain);
     // public System.Void .ctor()
     // Offset: 0x18DAA8C
     // Implemented from: System.Object
@@ -59,7 +60,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::UserCertificateValidator*, "", "UserCert
 // Writing MetadataGetter for method: GlobalNamespace::UserCertificateValidator::ValidateCertificateChain
 // Il2CppName: ValidateCertificateChain
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::UserCertificateValidator::*)(GlobalNamespace::MasterServerEndPoint*, System::Security::Cryptography::X509Certificates::X509Certificate2*, ::ArrayWrapper<::ArrayWrapper<uint8_t>>)>(&GlobalNamespace::UserCertificateValidator::ValidateCertificateChain)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::UserCertificateValidator::*)(GlobalNamespace::MasterServerEndPoint*, System::Security::Cryptography::X509Certificates::X509Certificate2*, ::ArrayW<::ArrayW<uint8_t>>)>(&GlobalNamespace::UserCertificateValidator::ValidateCertificateChain)> {
   static const MethodInfo* get() {
     static auto* endPoint = &::il2cpp_utils::GetClassFromName("", "MasterServerEndPoint")->byval_arg;
     static auto* certificate = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509Certificate2")->byval_arg;
@@ -70,7 +71,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::UserCertificateValidator::ValidateCertificateChainInternal
 // Il2CppName: ValidateCertificateChainInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::UserCertificateValidator::*)(GlobalNamespace::MasterServerEndPoint*, System::Security::Cryptography::X509Certificates::X509Certificate2*, ::ArrayWrapper<::ArrayWrapper<uint8_t>>)>(&GlobalNamespace::UserCertificateValidator::ValidateCertificateChainInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::UserCertificateValidator::*)(GlobalNamespace::MasterServerEndPoint*, System::Security::Cryptography::X509Certificates::X509Certificate2*, ::ArrayW<::ArrayW<uint8_t>>)>(&GlobalNamespace::UserCertificateValidator::ValidateCertificateChainInternal)> {
   static const MethodInfo* get() {
     static auto* endPoint = &::il2cpp_utils::GetClassFromName("", "MasterServerEndPoint")->byval_arg;
     static auto* certificate = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509Certificate2")->byval_arg;

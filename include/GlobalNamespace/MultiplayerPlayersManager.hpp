@@ -84,6 +84,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::MultiplayerPlayersManager::$SwitchLocalPlayerToInactiveCoroutine$d__51
     class $SwitchLocalPlayerToInactiveCoroutine$d__51;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private MultiplayerLocalActivePlayerFacade _activeLocalPlayerControllerPrefab
     // Size: 0x8
     // Offset: 0x18
@@ -241,6 +246,7 @@ namespace GlobalNamespace {
     System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IConnectedPlayer*>* allActiveAtGameStartPlayers;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IConnectedPlayer*>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IMultiplayerLevelEndActionsPublisher
     operator GlobalNamespace::IMultiplayerLevelEndActionsPublisher() noexcept {
       return *reinterpret_cast<GlobalNamespace::IMultiplayerLevelEndActionsPublisher*>(this);

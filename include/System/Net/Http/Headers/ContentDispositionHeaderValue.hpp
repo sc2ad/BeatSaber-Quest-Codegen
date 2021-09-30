@@ -36,6 +36,11 @@ namespace System::Net::Http::Headers {
   // [TokenAttribute] Offset: FFFFFFFF
   class ContentDispositionHeaderValue : public ::Il2CppObject/*, public System::ICloneable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String dispositionType
     // Size: 0x8
     // Offset: 0x10
@@ -48,6 +53,7 @@ namespace System::Net::Http::Headers {
     System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueHeaderValue*>* parameters;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueHeaderValue*>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);

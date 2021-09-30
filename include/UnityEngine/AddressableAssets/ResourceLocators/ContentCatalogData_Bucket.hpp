@@ -9,6 +9,7 @@
 #include "UnityEngine/AddressableAssets/ResourceLocators/ContentCatalogData.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: UnityEngine.AddressableAssets.ResourceLocators
 namespace UnityEngine::AddressableAssets::ResourceLocators {
@@ -19,6 +20,11 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
   // [TokenAttribute] Offset: FFFFFFFF
   struct ContentCatalogData::Bucket/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 dataOffset
     // Size: 0x4
     // Offset: 0x0
@@ -30,11 +36,12 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
     // public System.Int32[] entries
     // Size: 0x8
     // Offset: 0x8
-    ::ArrayWrapper<int> entries;
+    ::ArrayW<int> entries;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
+    public:
     // Creating value type constructor for type: Bucket
-    constexpr Bucket(int dataOffset_ = {}, ::ArrayWrapper<int> entries_ = ::ArrayWrapper<int>(nullptr)) noexcept : dataOffset{dataOffset_}, entries{entries_} {}
+    constexpr Bucket(int dataOffset_ = {}, ::ArrayW<int> entries_ = ::ArrayW<int>(nullptr)) noexcept : dataOffset{dataOffset_}, entries{entries_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -42,10 +49,10 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
     // Get instance field reference: public System.Int32 dataOffset
     int& dyn_dataOffset();
     // Get instance field reference: public System.Int32[] entries
-    ::ArrayWrapper<int>& dyn_entries();
+    ::ArrayW<int>& dyn_entries();
   }; // UnityEngine.AddressableAssets.ResourceLocators.ContentCatalogData/UnityEngine.AddressableAssets.ResourceLocators.Bucket
   #pragma pack(pop)
-  static check_size<sizeof(ContentCatalogData::Bucket), 8 + sizeof(::ArrayWrapper<int>)> __UnityEngine_AddressableAssets_ResourceLocators_ContentCatalogData_BucketSizeCheck;
+  static check_size<sizeof(ContentCatalogData::Bucket), 8 + sizeof(::ArrayW<int>)> __UnityEngine_AddressableAssets_ResourceLocators_ContentCatalogData_BucketSizeCheck;
   static_assert(sizeof(ContentCatalogData::Bucket) == 0x10);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

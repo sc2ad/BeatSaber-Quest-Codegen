@@ -28,12 +28,18 @@ namespace HMUI {
   // [ExecuteAlways] Offset: FFFFFFFF
   class CurvedTextMeshPro : public TMPro::TextMeshProUGUI {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly HMUI.CurvedCanvasSettingsHelper _curvedCanvasSettingsHelper
     // Size: 0x8
     // Offset: 0xBE0
     HMUI::CurvedCanvasSettingsHelper* curvedCanvasSettingsHelper;
     // Field size check
     static_assert(sizeof(HMUI::CurvedCanvasSettingsHelper*) == 0x8);
+    public:
     // Get instance field reference: private readonly HMUI.CurvedCanvasSettingsHelper _curvedCanvasSettingsHelper
     HMUI::CurvedCanvasSettingsHelper*& dyn__curvedCanvasSettingsHelper();
     // public System.Void .ctor()

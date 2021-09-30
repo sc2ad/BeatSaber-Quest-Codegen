@@ -37,12 +37,18 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct CompressExpandReductionType/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: CompressExpandReductionType
       constexpr CompressExpandReductionType(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -77,12 +83,18 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct RotateRingsReductionType/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: RotateRingsReductionType
       constexpr RotateRingsReductionType(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -111,6 +123,11 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(EnvironmentIntensityReductionOptions::RotateRingsReductionType), 0 + sizeof(int)> __GlobalNamespace_EnvironmentIntensityReductionOptions_RotateRingsReductionTypeSizeCheck;
     static_assert(sizeof(EnvironmentIntensityReductionOptions::RotateRingsReductionType) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private EnvironmentIntensityReductionOptions/CompressExpandReductionType _compressExpand
     // Size: 0x4
     // Offset: 0x10
@@ -123,6 +140,7 @@ namespace GlobalNamespace {
     GlobalNamespace::EnvironmentIntensityReductionOptions::RotateRingsReductionType rotateRings;
     // Field size check
     static_assert(sizeof(GlobalNamespace::EnvironmentIntensityReductionOptions::RotateRingsReductionType) == 0x4);
+    public:
     // Get instance field reference: private EnvironmentIntensityReductionOptions/CompressExpandReductionType _compressExpand
     GlobalNamespace::EnvironmentIntensityReductionOptions::CompressExpandReductionType& dyn__compressExpand();
     // Get instance field reference: private EnvironmentIntensityReductionOptions/RotateRingsReductionType _rotateRings

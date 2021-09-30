@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Zenject
@@ -156,7 +157,7 @@ namespace Zenject::Internal {
     // static public System.Void DespawnArray(T[] arr)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static void DespawnArray(::ArrayWrapper<T> arr) {
+    static void DespawnArray(::ArrayW<T> arr) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::Internal::ZenPools::DespawnArray");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject.Internal", "ZenPools", "DespawnArray", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arr)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -165,11 +166,11 @@ namespace Zenject::Internal {
     // static public T[] SpawnArray(System.Int32 length)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static ::ArrayWrapper<T> SpawnArray(int length) {
+    static ::ArrayW<T> SpawnArray(int length) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::Internal::ZenPools::SpawnArray");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("Zenject.Internal", "ZenPools", "SpawnArray", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(length)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<::ArrayWrapper<T>, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, length);
+      return ::il2cpp_utils::RunMethodThrow<::ArrayW<T>, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, length);
     }
     // static public Zenject.InjectContext SpawnInjectContext(Zenject.DiContainer container, System.Type memberType)
     // Offset: 0x18384AC

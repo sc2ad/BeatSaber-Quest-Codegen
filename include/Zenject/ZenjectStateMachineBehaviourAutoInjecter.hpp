@@ -32,6 +32,11 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class ZenjectStateMachineBehaviourAutoInjecter : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x18
@@ -44,6 +49,7 @@ namespace Zenject {
     UnityEngine::Animator* animator;
     // Field size check
     static_assert(sizeof(UnityEngine::Animator*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private Zenject.DiContainer _container

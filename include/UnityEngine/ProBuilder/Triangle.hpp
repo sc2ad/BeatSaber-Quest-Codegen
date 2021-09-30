@@ -34,6 +34,11 @@ namespace UnityEngine::ProBuilder {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Triangle/*, public System::ValueType, public System::IEquatable_1<UnityEngine::ProBuilder::Triangle>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 m_A
     // Size: 0x4
     // Offset: 0x0
@@ -52,6 +57,7 @@ namespace UnityEngine::ProBuilder {
     int m_C;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: Triangle
     constexpr Triangle(int m_A_ = {}, int m_B_ = {}, int m_C_ = {}) noexcept : m_A{m_A_}, m_B{m_B_}, m_C{m_C_} {}
     // Creating interface conversion operator: operator System::ValueType

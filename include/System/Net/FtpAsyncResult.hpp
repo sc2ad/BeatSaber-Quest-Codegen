@@ -46,6 +46,11 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class FtpAsyncResult : public ::Il2CppObject/*, public System::IAsyncResult*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Net.FtpWebResponse response
     // Size: 0x8
     // Offset: 0x10
@@ -102,6 +107,7 @@ namespace System::Net {
     ::Il2CppObject* locker;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::IAsyncResult
     operator System::IAsyncResult() noexcept {
       return *reinterpret_cast<System::IAsyncResult*>(this);

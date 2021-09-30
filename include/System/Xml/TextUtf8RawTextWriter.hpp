@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO
@@ -141,12 +142,12 @@ namespace System::Xml {
     // Offset: 0x1AFDCBC
     // Implemented from: System.Xml.XmlUtf8RawTextWriter
     // Base method: System.Void XmlUtf8RawTextWriter::WriteChars(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    void WriteChars(::ArrayWrapper<::Il2CppChar> buffer, int index, int count);
+    void WriteChars(::ArrayW<::Il2CppChar> buffer, int index, int count);
     // public override System.Void WriteRaw(System.Char[] buffer, System.Int32 index, System.Int32 count)
     // Offset: 0x1AFDD20
     // Implemented from: System.Xml.XmlUtf8RawTextWriter
     // Base method: System.Void XmlUtf8RawTextWriter::WriteRaw(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    void WriteRaw(::ArrayWrapper<::Il2CppChar> buffer, int index, int count);
+    void WriteRaw(::ArrayW<::Il2CppChar> buffer, int index, int count);
     // public override System.Void WriteRaw(System.String data)
     // Offset: 0x1AFDD30
     // Implemented from: System.Xml.XmlUtf8RawTextWriter
@@ -346,7 +347,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::TextUtf8RawTextWriter::WriteChars
 // Il2CppName: WriteChars
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::TextUtf8RawTextWriter::*)(::ArrayWrapper<::Il2CppChar>, int, int)>(&System::Xml::TextUtf8RawTextWriter::WriteChars)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::TextUtf8RawTextWriter::*)(::ArrayW<::Il2CppChar>, int, int)>(&System::Xml::TextUtf8RawTextWriter::WriteChars)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -357,7 +358,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::TextUtf8RawTextWriter::WriteRaw
 // Il2CppName: WriteRaw
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::TextUtf8RawTextWriter::*)(::ArrayWrapper<::Il2CppChar>, int, int)>(&System::Xml::TextUtf8RawTextWriter::WriteRaw)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::TextUtf8RawTextWriter::*)(::ArrayW<::Il2CppChar>, int, int)>(&System::Xml::TextUtf8RawTextWriter::WriteRaw)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

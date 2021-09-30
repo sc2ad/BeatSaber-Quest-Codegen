@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -34,26 +35,32 @@ namespace System::Reflection {
   // [ComVisibleAttribute] Offset: E5D9F0
   class ReflectionTypeLoadException : public System::SystemException {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Type[] _classes
     // Size: 0x8
     // Offset: 0x88
-    ::ArrayWrapper<System::Type*> classes;
+    ::ArrayW<System::Type*> classes;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<System::Type*>) == 0x8);
+    static_assert(sizeof(::ArrayW<System::Type*>) == 0x8);
     // private System.Exception[] _exceptions
     // Size: 0x8
     // Offset: 0x90
-    ::ArrayWrapper<System::Exception*> exceptions;
+    ::ArrayW<System::Exception*> exceptions;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<System::Exception*>) == 0x8);
+    static_assert(sizeof(::ArrayW<System::Exception*>) == 0x8);
+    public:
     // Get instance field reference: private System.Type[] _classes
-    ::ArrayWrapper<System::Type*>& dyn__classes();
+    ::ArrayW<System::Type*>& dyn__classes();
     // Get instance field reference: private System.Exception[] _exceptions
-    ::ArrayWrapper<System::Exception*>& dyn__exceptions();
+    ::ArrayW<System::Exception*>& dyn__exceptions();
     // public System.Void .ctor(System.Type[] classes, System.Exception[] exceptions)
     // Offset: 0x1EB1138
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ReflectionTypeLoadException* New_ctor(::ArrayWrapper<System::Type*> classes, ::ArrayWrapper<System::Exception*> exceptions) {
+    static ReflectionTypeLoadException* New_ctor(::ArrayW<System::Type*> classes, ::ArrayW<System::Exception*> exceptions) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::ReflectionTypeLoadException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ReflectionTypeLoadException*, creationType>(classes, exceptions)));
     }
@@ -85,7 +92,7 @@ namespace System::Reflection {
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.Reflection.ReflectionTypeLoadException
   #pragma pack(pop)
-  static check_size<sizeof(ReflectionTypeLoadException), 144 + sizeof(::ArrayWrapper<System::Exception*>)> __System_Reflection_ReflectionTypeLoadExceptionSizeCheck;
+  static check_size<sizeof(ReflectionTypeLoadException), 144 + sizeof(::ArrayW<System::Exception*>)> __System_Reflection_ReflectionTypeLoadExceptionSizeCheck;
   static_assert(sizeof(ReflectionTypeLoadException) == 0x98);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::ReflectionTypeLoadException*, "System.Reflection", "ReflectionTypeLoadException");

@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Math
@@ -31,14 +32,20 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
   // [TokenAttribute] Offset: FFFFFFFF
   class SecP224R1FieldElement : public Org::BouncyCastle::Math::EC::AbstractFpFieldElement {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // protected internal readonly System.UInt32[] x
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<uint> x;
+    ::ArrayW<uint> x;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint>) == 0x8);
-    // Creating conversion operator: operator ::ArrayWrapper<uint>
-    constexpr operator ::ArrayWrapper<uint>() const noexcept {
+    static_assert(sizeof(::ArrayW<uint>) == 0x8);
+    public:
+    // Creating conversion operator: operator ::ArrayW<uint>
+    constexpr operator ::ArrayW<uint>() const noexcept {
       return x;
     }
     // Get static field: static public readonly Org.BouncyCastle.Math.BigInteger Q
@@ -46,7 +53,7 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
     // Set static field: static public readonly Org.BouncyCastle.Math.BigInteger Q
     static void _set_Q(Org::BouncyCastle::Math::BigInteger* value);
     // Get instance field reference: protected internal readonly System.UInt32[] x
-    ::ArrayWrapper<uint>& dyn_x();
+    ::ArrayW<uint>& dyn_x();
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger x)
     // Offset: 0x1FBA1F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -57,7 +64,7 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
     // protected internal System.Void .ctor(System.UInt32[] x)
     // Offset: 0x1FBA814
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static SecP224R1FieldElement* New_ctor(::ArrayWrapper<uint> x) {
+    static SecP224R1FieldElement* New_ctor(::ArrayW<uint> x) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::Custom::Sec::SecP224R1FieldElement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SecP224R1FieldElement*, creationType>(x)));
     }
@@ -69,19 +76,19 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
     bool Equals(Org::BouncyCastle::Math::EC::Custom::Sec::SecP224R1FieldElement* other);
     // static private System.Boolean IsSquare(System.UInt32[] x)
     // Offset: 0x1FBC7DC
-    static bool IsSquare(::ArrayWrapper<uint> x);
+    static bool IsSquare(::ArrayW<uint> x);
     // static private System.Void RM(System.UInt32[] nc, System.UInt32[] d0, System.UInt32[] e0, System.UInt32[] d1, System.UInt32[] e1, System.UInt32[] f1, System.UInt32[] t)
     // Offset: 0x1FBCCD0
-    static void RM(::ArrayWrapper<uint> nc, ::ArrayWrapper<uint> d0, ::ArrayWrapper<uint> e0, ::ArrayWrapper<uint> d1, ::ArrayWrapper<uint> e1, ::ArrayWrapper<uint> f1, ::ArrayWrapper<uint> t);
+    static void RM(::ArrayW<uint> nc, ::ArrayW<uint> d0, ::ArrayW<uint> e0, ::ArrayW<uint> d1, ::ArrayW<uint> e1, ::ArrayW<uint> f1, ::ArrayW<uint> t);
     // static private System.Void RP(System.UInt32[] nc, System.UInt32[] d1, System.UInt32[] e1, System.UInt32[] f1, System.UInt32[] t)
     // Offset: 0x1FBCDF8
-    static void RP(::ArrayWrapper<uint> nc, ::ArrayWrapper<uint> d1, ::ArrayWrapper<uint> e1, ::ArrayWrapper<uint> f1, ::ArrayWrapper<uint> t);
+    static void RP(::ArrayW<uint> nc, ::ArrayW<uint> d1, ::ArrayW<uint> e1, ::ArrayW<uint> f1, ::ArrayW<uint> t);
     // static private System.Void RS(System.UInt32[] d, System.UInt32[] e, System.UInt32[] f, System.UInt32[] t)
     // Offset: 0x1FBCF50
-    static void RS(::ArrayWrapper<uint> d, ::ArrayWrapper<uint> e, ::ArrayWrapper<uint> f, ::ArrayWrapper<uint> t);
+    static void RS(::ArrayW<uint> d, ::ArrayW<uint> e, ::ArrayW<uint> f, ::ArrayW<uint> t);
     // static private System.Boolean TrySqrt(System.UInt32[] nc, System.UInt32[] r, System.UInt32[] t)
     // Offset: 0x1FBC8E8
-    static bool TrySqrt(::ArrayWrapper<uint> nc, ::ArrayWrapper<uint> r, ::ArrayWrapper<uint> t);
+    static bool TrySqrt(::ArrayW<uint> nc, ::ArrayW<uint> r, ::ArrayW<uint> t);
     // public override System.Boolean get_IsZero()
     // Offset: 0x1FBBEEC
     // Implemented from: Org.BouncyCastle.Math.EC.ECFieldElement
@@ -169,7 +176,7 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
     int GetHashCode();
   }; // Org.BouncyCastle.Math.EC.Custom.Sec.SecP224R1FieldElement
   #pragma pack(pop)
-  static check_size<sizeof(SecP224R1FieldElement), 16 + sizeof(::ArrayWrapper<uint>)> __Org_BouncyCastle_Math_EC_Custom_Sec_SecP224R1FieldElementSizeCheck;
+  static check_size<sizeof(SecP224R1FieldElement), 16 + sizeof(::ArrayW<uint>)> __Org_BouncyCastle_Math_EC_Custom_Sec_SecP224R1FieldElementSizeCheck;
   static_assert(sizeof(SecP224R1FieldElement) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Custom::Sec::SecP224R1FieldElement*, "Org.BouncyCastle.Math.EC.Custom.Sec", "SecP224R1FieldElement");
@@ -202,7 +209,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Custom::Sec::SecP224R1FieldElement::IsSquare
 // Il2CppName: IsSquare
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayWrapper<uint>)>(&Org::BouncyCastle::Math::EC::Custom::Sec::SecP224R1FieldElement::IsSquare)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<uint>)>(&Org::BouncyCastle::Math::EC::Custom::Sec::SecP224R1FieldElement::IsSquare)> {
   static const MethodInfo* get() {
     static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Custom::Sec::SecP224R1FieldElement*), "IsSquare", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
@@ -211,7 +218,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Custom::Sec::SecP224R1FieldElement::RM
 // Il2CppName: RM
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint>, ::ArrayWrapper<uint>, ::ArrayWrapper<uint>, ::ArrayWrapper<uint>, ::ArrayWrapper<uint>, ::ArrayWrapper<uint>, ::ArrayWrapper<uint>)>(&Org::BouncyCastle::Math::EC::Custom::Sec::SecP224R1FieldElement::RM)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint>, ::ArrayW<uint>, ::ArrayW<uint>, ::ArrayW<uint>, ::ArrayW<uint>, ::ArrayW<uint>, ::ArrayW<uint>)>(&Org::BouncyCastle::Math::EC::Custom::Sec::SecP224R1FieldElement::RM)> {
   static const MethodInfo* get() {
     static auto* nc = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     static auto* d0 = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
@@ -226,7 +233,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Custom::Sec::SecP224R1FieldElement::RP
 // Il2CppName: RP
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint>, ::ArrayWrapper<uint>, ::ArrayWrapper<uint>, ::ArrayWrapper<uint>, ::ArrayWrapper<uint>)>(&Org::BouncyCastle::Math::EC::Custom::Sec::SecP224R1FieldElement::RP)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint>, ::ArrayW<uint>, ::ArrayW<uint>, ::ArrayW<uint>, ::ArrayW<uint>)>(&Org::BouncyCastle::Math::EC::Custom::Sec::SecP224R1FieldElement::RP)> {
   static const MethodInfo* get() {
     static auto* nc = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     static auto* d1 = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
@@ -239,7 +246,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Custom::Sec::SecP224R1FieldElement::RS
 // Il2CppName: RS
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint>, ::ArrayWrapper<uint>, ::ArrayWrapper<uint>, ::ArrayWrapper<uint>)>(&Org::BouncyCastle::Math::EC::Custom::Sec::SecP224R1FieldElement::RS)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint>, ::ArrayW<uint>, ::ArrayW<uint>, ::ArrayW<uint>)>(&Org::BouncyCastle::Math::EC::Custom::Sec::SecP224R1FieldElement::RS)> {
   static const MethodInfo* get() {
     static auto* d = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     static auto* e = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
@@ -251,7 +258,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Custom::Sec::SecP224R1FieldElement::TrySqrt
 // Il2CppName: TrySqrt
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayWrapper<uint>, ::ArrayWrapper<uint>, ::ArrayWrapper<uint>)>(&Org::BouncyCastle::Math::EC::Custom::Sec::SecP224R1FieldElement::TrySqrt)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<uint>, ::ArrayW<uint>, ::ArrayW<uint>)>(&Org::BouncyCastle::Math::EC::Custom::Sec::SecP224R1FieldElement::TrySqrt)> {
   static const MethodInfo* get() {
     static auto* nc = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     static auto* r = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;

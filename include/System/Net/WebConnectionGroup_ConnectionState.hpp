@@ -33,6 +33,11 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class WebConnectionGroup::ConnectionState : public ::Il2CppObject/*, public System::Net::IWebConnectionState*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Net.WebConnection <Connection>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -59,6 +64,7 @@ namespace System::Net {
     System::DateTime idleSince;
     // Field size check
     static_assert(sizeof(System::DateTime) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Net::IWebConnectionState
     operator System::Net::IWebConnectionState() noexcept {
       return *reinterpret_cast<System::Net::IWebConnectionState*>(this);

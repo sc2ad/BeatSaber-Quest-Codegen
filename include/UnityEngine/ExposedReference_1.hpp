@@ -32,6 +32,11 @@ namespace UnityEngine {
   template<typename T>
   struct ExposedReference_1/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [SerializeField] Offset: 0xE75490
     // public UnityEngine.PropertyName exposedName
     // Size: 0x4
@@ -46,6 +51,7 @@ namespace UnityEngine {
     UnityEngine::Object* defaultValue;
     // Field size check
     static_assert(sizeof(UnityEngine::Object*) == 0x8);
+    public:
     // Creating value type constructor for type: ExposedReference_1
     constexpr ExposedReference_1(UnityEngine::PropertyName exposedName_ = {}, UnityEngine::Object* defaultValue_ = {}) noexcept : exposedName{exposedName_}, defaultValue{defaultValue_} {}
     // Creating interface conversion operator: operator System::ValueType

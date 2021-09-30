@@ -29,6 +29,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MissionStage : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 _minimumMissionsToUnlock
     // Size: 0x4
     // Offset: 0x18
@@ -43,6 +48,7 @@ namespace GlobalNamespace {
     UnityEngine::RectTransform* rectTransform;
     // Field size check
     static_assert(sizeof(UnityEngine::RectTransform*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Int32 _minimumMissionsToUnlock

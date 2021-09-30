@@ -47,6 +47,11 @@ namespace System::Collections::Specialized {
     class NodeKeyValueCollection;
     // Nested type: System::Collections::Specialized::ListDictionary::DictionaryNode
     class DictionaryNode;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Specialized.ListDictionary/System.Collections.Specialized.DictionaryNode head
     // Size: 0x8
     // Offset: 0x10
@@ -71,6 +76,7 @@ namespace System::Collections::Specialized {
     System::Collections::IComparer* comparer;
     // Field size check
     static_assert(sizeof(System::Collections::IComparer*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Collections::IDictionary
     operator System::Collections::IDictionary() noexcept {
       return *reinterpret_cast<System::Collections::IDictionary*>(this);

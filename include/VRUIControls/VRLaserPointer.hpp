@@ -30,12 +30,18 @@ namespace VRUIControls {
   // [TokenAttribute] Offset: FFFFFFFF
   class VRLaserPointer : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.MeshRenderer _renderer
     // Size: 0x8
     // Offset: 0x18
     UnityEngine::MeshRenderer* renderer;
     // Field size check
     static_assert(sizeof(UnityEngine::MeshRenderer*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEEDB50

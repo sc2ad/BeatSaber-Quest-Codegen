@@ -36,6 +36,11 @@ namespace LiteNetLib {
     class OnNatIntroductionRequest;
     // Nested type: LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionSuccess
     class OnNatIntroductionSuccess;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private LiteNetLib.EventBasedNatPunchListener/LiteNetLib.OnNatIntroductionRequest NatIntroductionRequest
     // Size: 0x8
     // Offset: 0x10
@@ -48,6 +53,7 @@ namespace LiteNetLib {
     LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionSuccess* NatIntroductionSuccess;
     // Field size check
     static_assert(sizeof(LiteNetLib::EventBasedNatPunchListener::OnNatIntroductionSuccess*) == 0x8);
+    public:
     // Creating interface conversion operator: operator LiteNetLib::INatPunchListener
     operator LiteNetLib::INatPunchListener() noexcept {
       return *reinterpret_cast<LiteNetLib::INatPunchListener*>(this);

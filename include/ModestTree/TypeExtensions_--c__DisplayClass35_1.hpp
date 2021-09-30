@@ -30,12 +30,18 @@ namespace ModestTree {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class TypeExtensions::$$c__DisplayClass35_1 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Attribute a
     // Size: 0x8
     // Offset: 0x10
     System::Attribute* a;
     // Field size check
     static_assert(sizeof(System::Attribute*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Attribute*
     constexpr operator System::Attribute*() const noexcept {
       return a;

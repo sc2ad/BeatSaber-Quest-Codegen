@@ -40,6 +40,11 @@ namespace GlobalNamespace {
     struct ObstacleSpawnData;
     // Nested type: GlobalNamespace::BeatmapObjectSpawnMovementData::NoteSpawnData
     struct NoteSpawnData;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [HeaderAttribute] Offset: 0xF0453C
     // private UnityEngine.Vector3 _centerPos
     // Size: 0xC
@@ -225,6 +230,7 @@ namespace GlobalNamespace {
     UnityEngine::Vector3 forwardVec;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    public:
     // Get instance field reference: private UnityEngine.Vector3 _centerPos
     UnityEngine::Vector3& dyn__centerPos();
     // Get instance field reference: private System.Single _noteLinesDistance

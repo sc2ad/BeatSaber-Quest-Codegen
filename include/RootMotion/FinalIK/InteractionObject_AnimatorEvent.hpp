@@ -34,6 +34,11 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class InteractionObject::AnimatorEvent : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [TooltipAttribute] Offset: 0xEF6788
     // public UnityEngine.Animator animator
     // Size: 0x8
@@ -76,6 +81,7 @@ namespace RootMotion::FinalIK {
     bool resetNormalizedTime;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // static field const value: static private System.String empty
     static constexpr const char* empty = "";
     // Get static field: static private System.String empty

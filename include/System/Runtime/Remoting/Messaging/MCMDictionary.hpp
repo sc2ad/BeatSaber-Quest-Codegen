@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Remoting::Messaging
@@ -28,9 +29,9 @@ namespace System::Runtime::Remoting::Messaging {
   class MCMDictionary : public System::Runtime::Remoting::Messaging::MessageDictionary {
     public:
     // Get static field: static public System.String[] InternalKeys
-    static ::ArrayWrapper<::Il2CppString*> _get_InternalKeys();
+    static ::ArrayW<::Il2CppString*> _get_InternalKeys();
     // Set static field: static public System.String[] InternalKeys
-    static void _set_InternalKeys(::ArrayWrapper<::Il2CppString*> value);
+    static void _set_InternalKeys(::ArrayW<::Il2CppString*> value);
     // static private System.Void .cctor()
     // Offset: 0x1C196CC
     static void _cctor();

@@ -34,6 +34,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SmoothCameraController : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private MainSettingsModelSO _mainSettingsModel
     // Size: 0x8
     // Offset: 0x18
@@ -52,6 +57,7 @@ namespace GlobalNamespace {
     LIV::SDK::Unity::LIV* liv;
     // Field size check
     static_assert(sizeof(LIV::SDK::Unity::LIV*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MainSettingsModelSO _mainSettingsModel

@@ -142,12 +142,18 @@ namespace UnityEngine::ResourceManagement {
     // [TokenAttribute] Offset: FFFFFFFF
     struct DiagnosticEventType/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: DiagnosticEventType
       constexpr DiagnosticEventType(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -207,6 +213,11 @@ namespace UnityEngine::ResourceManagement {
     // [TokenAttribute] Offset: FFFFFFFF
     struct DiagnosticEventContext/*, public System::ValueType*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // private readonly UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle <OperationHandle>k__BackingField
       // Size: 0x18
       // Offset: 0x0
@@ -243,6 +254,7 @@ namespace UnityEngine::ResourceManagement {
       ::Il2CppString* Error;
       // Field size check
       static_assert(sizeof(::Il2CppString*) == 0x8);
+      public:
       // Creating value type constructor for type: DiagnosticEventContext
       constexpr DiagnosticEventContext(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle OperationHandle_ = {}, UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventType Type_ = {}, int EventValue_ = {}, UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* Location_ = {}, ::Il2CppObject* Context_ = {}, ::Il2CppString* Error_ = {}) noexcept : OperationHandle{OperationHandle_}, Type{Type_}, EventValue{EventValue_}, Location{Location_}, Context{Context_}, Error{Error_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -286,6 +298,11 @@ namespace UnityEngine::ResourceManagement {
     #pragma pack(pop)
     static check_size<sizeof(ResourceManager::DiagnosticEventContext), 48 + sizeof(::Il2CppString*)> __UnityEngine_ResourceManagement_ResourceManager_DiagnosticEventContextSizeCheck;
     static_assert(sizeof(ResourceManager::DiagnosticEventContext) == 0x38);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Boolean postProfilerEvents
     // Size: 0x1
     // Offset: 0x10
@@ -420,6 +437,7 @@ namespace UnityEngine::ResourceManagement {
     System::Collections::Generic::Dictionary_2<System::Type*, System::Type*>* m_ProviderOperationTypeCache;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<System::Type*, System::Type*>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

@@ -28,6 +28,11 @@ namespace RootMotion::FinalIK {
   // [AddComponentMenu] Offset: EF1158
   class RotationLimitAngle : public RootMotion::FinalIK::RotationLimit {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [RangeAttribute] Offset: 0xEF3E90
     // public System.Single limit
     // Size: 0x4
@@ -42,6 +47,7 @@ namespace RootMotion::FinalIK {
     float twistLimit;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: public System.Single limit
     float& dyn_limit();
     // Get instance field reference: public System.Single twistLimit

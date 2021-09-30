@@ -40,6 +40,11 @@ namespace Zenject {
     public:
     // Nested type: Zenject::PoolCleanupChecker::$$c
     class $$c;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Collections.Generic.List`1<Zenject.IMemoryPool> _poolFactories
     // Size: 0x8
     // Offset: 0x10
@@ -52,6 +57,7 @@ namespace Zenject {
     System::Collections::Generic::List_1<System::Type*>* ignoredPools;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<System::Type*>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator Zenject::ILateDisposable
     operator Zenject::ILateDisposable() noexcept {
       return *reinterpret_cast<Zenject::ILateDisposable*>(this);

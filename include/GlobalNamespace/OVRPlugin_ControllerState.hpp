@@ -21,6 +21,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct OVRPlugin::ControllerState/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.UInt32 ConnectedControllers
     // Size: 0x4
     // Offset: 0x0
@@ -81,6 +86,7 @@ namespace GlobalNamespace {
     GlobalNamespace::OVRPlugin::Vector2f RThumbstick;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OVRPlugin::Vector2f) == 0x8);
+    public:
     // Creating value type constructor for type: ControllerState
     constexpr ControllerState(uint ConnectedControllers_ = {}, uint Buttons_ = {}, uint Touches_ = {}, uint NearTouches_ = {}, float LIndexTrigger_ = {}, float RIndexTrigger_ = {}, float LHandTrigger_ = {}, float RHandTrigger_ = {}, GlobalNamespace::OVRPlugin::Vector2f LThumbstick_ = {}, GlobalNamespace::OVRPlugin::Vector2f RThumbstick_ = {}) noexcept : ConnectedControllers{ConnectedControllers_}, Buttons{Buttons_}, Touches{Touches_}, NearTouches{NearTouches_}, LIndexTrigger{LIndexTrigger_}, RIndexTrigger{RIndexTrigger_}, LHandTrigger{LHandTrigger_}, RHandTrigger{RHandTrigger_}, LThumbstick{LThumbstick_}, RThumbstick{RThumbstick_} {}
     // Creating interface conversion operator: operator System::ValueType

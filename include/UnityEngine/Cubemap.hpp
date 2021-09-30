@@ -21,6 +21,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -105,16 +106,16 @@ namespace UnityEngine {
     void SmoothEdges();
     // public UnityEngine.Color[] GetPixels(UnityEngine.CubemapFace face, System.Int32 miplevel)
     // Offset: 0x1CB590C
-    ::ArrayWrapper<UnityEngine::Color> GetPixels(UnityEngine::CubemapFace face, int miplevel);
+    ::ArrayW<UnityEngine::Color> GetPixels(UnityEngine::CubemapFace face, int miplevel);
     // public UnityEngine.Color[] GetPixels(UnityEngine.CubemapFace face)
     // Offset: 0x1CB5964
-    ::ArrayWrapper<UnityEngine::Color> GetPixels(UnityEngine::CubemapFace face);
+    ::ArrayW<UnityEngine::Color> GetPixels(UnityEngine::CubemapFace face);
     // public System.Void SetPixels(UnityEngine.Color[] colors, UnityEngine.CubemapFace face, System.Int32 miplevel)
     // Offset: 0x1CB59B8
-    void SetPixels(::ArrayWrapper<UnityEngine::Color> colors, UnityEngine::CubemapFace face, int miplevel);
+    void SetPixels(::ArrayW<UnityEngine::Color> colors, UnityEngine::CubemapFace face, int miplevel);
     // public System.Void SetPixels(UnityEngine.Color[] colors, UnityEngine.CubemapFace face)
     // Offset: 0x1CB5A20
-    void SetPixels(::ArrayWrapper<UnityEngine::Color> colors, UnityEngine::CubemapFace face);
+    void SetPixels(::ArrayW<UnityEngine::Color> colors, UnityEngine::CubemapFace face);
     // static public UnityEngine.Cubemap CreateExternalTexture(System.Int32 width, UnityEngine.TextureFormat format, System.Boolean mipmap, System.IntPtr nativeTex)
     // Offset: 0x1CB5F18
     static UnityEngine::Cubemap* CreateExternalTexture(int width, UnityEngine::TextureFormat format, bool mipmap, System::IntPtr nativeTex);
@@ -212,7 +213,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Cubemap::GetPixels
 // Il2CppName: GetPixels
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Color> (UnityEngine::Cubemap::*)(UnityEngine::CubemapFace, int)>(&UnityEngine::Cubemap::GetPixels)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Color> (UnityEngine::Cubemap::*)(UnityEngine::CubemapFace, int)>(&UnityEngine::Cubemap::GetPixels)> {
   static const MethodInfo* get() {
     static auto* face = &::il2cpp_utils::GetClassFromName("UnityEngine", "CubemapFace")->byval_arg;
     static auto* miplevel = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -222,7 +223,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::Cubemap::GetPixels
 // Il2CppName: GetPixels
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Color> (UnityEngine::Cubemap::*)(UnityEngine::CubemapFace)>(&UnityEngine::Cubemap::GetPixels)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Color> (UnityEngine::Cubemap::*)(UnityEngine::CubemapFace)>(&UnityEngine::Cubemap::GetPixels)> {
   static const MethodInfo* get() {
     static auto* face = &::il2cpp_utils::GetClassFromName("UnityEngine", "CubemapFace")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Cubemap*), "GetPixels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{face});
@@ -231,7 +232,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::Cubemap::SetPixels
 // Il2CppName: SetPixels
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Cubemap::*)(::ArrayWrapper<UnityEngine::Color>, UnityEngine::CubemapFace, int)>(&UnityEngine::Cubemap::SetPixels)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Cubemap::*)(::ArrayW<UnityEngine::Color>, UnityEngine::CubemapFace, int)>(&UnityEngine::Cubemap::SetPixels)> {
   static const MethodInfo* get() {
     static auto* colors = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Color"), 1)->byval_arg;
     static auto* face = &::il2cpp_utils::GetClassFromName("UnityEngine", "CubemapFace")->byval_arg;
@@ -242,7 +243,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Cubemap::SetPixels
 // Il2CppName: SetPixels
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Cubemap::*)(::ArrayWrapper<UnityEngine::Color>, UnityEngine::CubemapFace)>(&UnityEngine::Cubemap::SetPixels)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Cubemap::*)(::ArrayW<UnityEngine::Color>, UnityEngine::CubemapFace)>(&UnityEngine::Cubemap::SetPixels)> {
   static const MethodInfo* get() {
     static auto* colors = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Color"), 1)->byval_arg;
     static auto* face = &::il2cpp_utils::GetClassFromName("UnityEngine", "CubemapFace")->byval_arg;

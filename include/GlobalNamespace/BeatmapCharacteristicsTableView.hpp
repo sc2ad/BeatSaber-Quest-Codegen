@@ -45,6 +45,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapCharacteristicsTableView : public UnityEngine::MonoBehaviour/*, public HMUI::TableView::IDataSource*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private HMUI.TableView _tableView
     // Size: 0x8
     // Offset: 0x18
@@ -97,6 +102,7 @@ namespace GlobalNamespace {
     int selectedColumn;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating interface conversion operator: operator HMUI::TableView::IDataSource
     operator HMUI::TableView::IDataSource() noexcept {
       return *reinterpret_cast<HMUI::TableView::IDataSource*>(this);

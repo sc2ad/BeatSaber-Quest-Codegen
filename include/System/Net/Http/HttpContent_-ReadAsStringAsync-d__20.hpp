@@ -24,6 +24,11 @@ namespace System::Net::Http {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   struct HttpContent::$ReadAsStringAsync$d__20/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0
@@ -46,6 +51,7 @@ namespace System::Net::Http {
     System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter $$u__1;
     // Field size check
     static_assert(sizeof(System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter) == 0x9);
+    public:
     // Creating value type constructor for type: $ReadAsStringAsync$d__20
     constexpr $ReadAsStringAsync$d__20(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Il2CppString*> $$t__builder_ = {}, System::Net::Http::HttpContent* $$4__this_ = {}, System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, $$u__1{$$u__1_} {}
     // Creating interface conversion operator: operator System::ValueType

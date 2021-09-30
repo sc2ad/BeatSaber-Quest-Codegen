@@ -28,12 +28,18 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5CBD0
   class AssemblyLoadEventArgs : public System::EventArgs {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Reflection.Assembly m_loadedAssembly
     // Size: 0x8
     // Offset: 0x10
     System::Reflection::Assembly* m_loadedAssembly;
     // Field size check
     static_assert(sizeof(System::Reflection::Assembly*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Reflection::Assembly*
     constexpr operator System::Reflection::Assembly*() const noexcept {
       return m_loadedAssembly;

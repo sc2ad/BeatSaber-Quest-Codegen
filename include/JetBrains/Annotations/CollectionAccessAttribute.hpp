@@ -23,12 +23,18 @@ namespace JetBrains::Annotations {
   // [AttributeUsageAttribute] Offset: EADB9C
   class CollectionAccessAttribute : public System::Attribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private JetBrains.Annotations.CollectionAccessType <CollectionAccessType>k__BackingField
     // Size: 0x4
     // Offset: 0x10
     JetBrains::Annotations::CollectionAccessType CollectionAccessType;
     // Field size check
     static_assert(sizeof(JetBrains::Annotations::CollectionAccessType) == 0x4);
+    public:
     // Creating conversion operator: operator JetBrains::Annotations::CollectionAccessType
     constexpr operator JetBrains::Annotations::CollectionAccessType() const noexcept {
       return CollectionAccessType;

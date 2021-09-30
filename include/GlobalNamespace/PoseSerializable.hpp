@@ -39,6 +39,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct PoseSerializable/*, public System::ValueType, public LiteNetLib::Utils::INetSerializable, public System::IEquatable_1<GlobalNamespace::PoseSerializable>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public Vector3Serializable position
     // Size: 0xC
     // Offset: 0x0
@@ -51,6 +56,7 @@ namespace GlobalNamespace {
     GlobalNamespace::QuaternionSerializable rotation;
     // Field size check
     static_assert(sizeof(GlobalNamespace::QuaternionSerializable) == 0xC);
+    public:
     // Creating value type constructor for type: PoseSerializable
     constexpr PoseSerializable(GlobalNamespace::Vector3Serializable position_ = {}, GlobalNamespace::QuaternionSerializable rotation_ = {}) noexcept : position{position_}, rotation{rotation_} {}
     // Creating interface conversion operator: operator System::ValueType

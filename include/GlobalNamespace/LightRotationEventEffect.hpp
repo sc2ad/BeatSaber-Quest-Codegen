@@ -36,6 +36,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LightRotationEventEffect : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private BeatmapEventType _event
     // Size: 0x4
     // Offset: 0x18
@@ -81,6 +86,7 @@ namespace GlobalNamespace {
     float rotationSpeed;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Single kSpeedMultiplier

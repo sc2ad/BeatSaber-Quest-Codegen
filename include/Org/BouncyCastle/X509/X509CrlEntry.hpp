@@ -41,6 +41,11 @@ namespace Org::BouncyCastle::X509 {
   // [TokenAttribute] Offset: FFFFFFFF
   class X509CrlEntry : public Org::BouncyCastle::X509::X509ExtensionBase {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Org.BouncyCastle.Asn1.X509.CrlEntry c
     // Size: 0x8
     // Offset: 0x10
@@ -81,6 +86,7 @@ namespace Org::BouncyCastle::X509 {
     int hashValue;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: private Org.BouncyCastle.Asn1.X509.CrlEntry c
     Org::BouncyCastle::Asn1::X509::CrlEntry*& dyn_c();
     // Get instance field reference: private System.Boolean isIndirect

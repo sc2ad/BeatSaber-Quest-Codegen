@@ -7,6 +7,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.UnsafeNclNativeMethods/System.Net.HttpApi
 #include "System/Net/UnsafeNclNativeMethods_HttpApi.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: System.Net
 namespace System::Net {
@@ -17,9 +18,9 @@ namespace System::Net {
   class UnsafeNclNativeMethods::HttpApi::HTTP_REQUEST_HEADER_ID : public ::Il2CppObject {
     public:
     // Get static field: static private System.String[] m_Strings
-    static ::ArrayWrapper<::Il2CppString*> _get_m_Strings();
+    static ::ArrayW<::Il2CppString*> _get_m_Strings();
     // Set static field: static private System.String[] m_Strings
-    static void _set_m_Strings(::ArrayWrapper<::Il2CppString*> value);
+    static void _set_m_Strings(::ArrayW<::Il2CppString*> value);
     // static private System.Void .cctor()
     // Offset: 0x1777158
     static void _cctor();

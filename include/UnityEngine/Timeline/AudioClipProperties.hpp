@@ -21,6 +21,11 @@ namespace UnityEngine::Timeline {
   // [NotKeyableAttribute] Offset: EB9120
   class AudioClipProperties : public UnityEngine::Playables::PlayableBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [RangeAttribute] Offset: 0xEBA300
     // public System.Single volume
     // Size: 0x4
@@ -28,6 +33,7 @@ namespace UnityEngine::Timeline {
     float volume;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating conversion operator: operator float
     constexpr operator float() const noexcept {
       return volume;

@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO
@@ -34,7 +35,7 @@ namespace Org::BouncyCastle::Asn1 {
     public:
     // static public Org.BouncyCastle.Asn1.Asn1Object FromByteArray(System.Byte[] data)
     // Offset: 0x18E2660
-    static Org::BouncyCastle::Asn1::Asn1Object* FromByteArray(::ArrayWrapper<uint8_t> data);
+    static Org::BouncyCastle::Asn1::Asn1Object* FromByteArray(::ArrayW<uint8_t> data);
     // static public Org.BouncyCastle.Asn1.Asn1Object FromStream(System.IO.Stream inStr)
     // Offset: 0x18E2844
     static Org::BouncyCastle::Asn1::Asn1Object* FromStream(System::IO::Stream* inStr);
@@ -76,7 +77,7 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Asn1Object*, "Org.BouncyCastle.A
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1Object::FromByteArray
 // Il2CppName: FromByteArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (*)(::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Asn1::Asn1Object::FromByteArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (*)(::ArrayW<uint8_t>)>(&Org::BouncyCastle::Asn1::Asn1Object::FromByteArray)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1Object*), "FromByteArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data});

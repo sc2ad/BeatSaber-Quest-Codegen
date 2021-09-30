@@ -17,6 +17,11 @@ namespace UnityEngine {
   // [RequiredByNativeCodeAttribute] Offset: E70084
   struct Keyframe/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Single m_Time
     // Size: 0x4
     // Offset: 0x0
@@ -59,6 +64,7 @@ namespace UnityEngine {
     float m_OutWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: Keyframe
     constexpr Keyframe(float m_Time_ = {}, float m_Value_ = {}, float m_InTangent_ = {}, float m_OutTangent_ = {}, int m_WeightedMode_ = {}, float m_InWeight_ = {}, float m_OutWeight_ = {}) noexcept : m_Time{m_Time_}, m_Value{m_Value_}, m_InTangent{m_InTangent_}, m_OutTangent{m_OutTangent_}, m_WeightedMode{m_WeightedMode_}, m_InWeight{m_InWeight_}, m_OutWeight{m_OutWeight_} {}
     // Creating interface conversion operator: operator System::ValueType

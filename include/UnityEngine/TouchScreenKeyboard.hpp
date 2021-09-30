@@ -36,12 +36,18 @@ namespace UnityEngine {
     public:
     // Nested type: UnityEngine::TouchScreenKeyboard::Status
     struct Status;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.IntPtr m_Ptr
     // Size: 0x8
     // Offset: 0x10
     System::IntPtr m_Ptr;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
+    public:
     // Creating conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept {
       return m_Ptr;

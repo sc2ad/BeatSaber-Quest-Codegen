@@ -25,6 +25,11 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   struct BoundsInt::PositionEnumerator/*, public System::ValueType, public System::Collections::Generic::IEnumerator_1<UnityEngine::Vector3Int>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly UnityEngine.Vector3Int _min
     // Size: 0xC
     // Offset: 0x0
@@ -43,6 +48,7 @@ namespace UnityEngine {
     UnityEngine::Vector3Int current;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3Int) == 0xC);
+    public:
     // Creating value type constructor for type: PositionEnumerator
     constexpr PositionEnumerator(UnityEngine::Vector3Int min_ = {}, UnityEngine::Vector3Int max_ = {}, UnityEngine::Vector3Int current_ = {}) noexcept : min{min_}, max{max_}, current{current_} {}
     // Creating interface conversion operator: operator System::ValueType

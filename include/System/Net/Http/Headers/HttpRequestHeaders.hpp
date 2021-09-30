@@ -31,10 +31,16 @@ namespace System::Net::Http::Headers {
     public:
     // Nested type: System::Net::Http::Headers::HttpRequestHeaders::$$c
     class $$c;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Nullable`1<System.Boolean> expectContinue
     // Size: 0xFFFFFFFF
     // Offset: 0x20
     System::Nullable_1<bool> expectContinue;
+    public:
     // Creating conversion operator: operator System::Nullable_1<bool>
     constexpr operator System::Nullable_1<bool>() const noexcept {
       return expectContinue;

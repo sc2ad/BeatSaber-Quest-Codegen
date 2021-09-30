@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -38,12 +39,18 @@ namespace System::Runtime::Serialization {
   // [CompilerGeneratedAttribute] Offset: E5F680
   class FormatterServices::$$c__DisplayClass9_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Type type
     // Size: 0x8
     // Offset: 0x10
     System::Type* type;
     // Field size check
     static_assert(sizeof(System::Type*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Type*
     constexpr operator System::Type*() const noexcept {
       return type;
@@ -52,7 +59,7 @@ namespace System::Runtime::Serialization {
     System::Type*& dyn_type();
     // System.Reflection.MemberInfo[] <GetSerializableMembers>b__0(System.Runtime.Serialization.MemberHolder _)
     // Offset: 0x17E6608
-    ::ArrayWrapper<System::Reflection::MemberInfo*> $GetSerializableMembers$b__0(System::Runtime::Serialization::MemberHolder* _);
+    ::ArrayW<System::Reflection::MemberInfo*> $GetSerializableMembers$b__0(System::Runtime::Serialization::MemberHolder* _);
     // public System.Void .ctor()
     // Offset: 0x17E535C
     // Implemented from: System.Object
@@ -72,7 +79,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::FormatterServices::$$c__D
 // Writing MetadataGetter for method: System::Runtime::Serialization::FormatterServices::$$c__DisplayClass9_0::$GetSerializableMembers$b__0
 // Il2CppName: <GetSerializableMembers>b__0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::Reflection::MemberInfo*> (System::Runtime::Serialization::FormatterServices::$$c__DisplayClass9_0::*)(System::Runtime::Serialization::MemberHolder*)>(&System::Runtime::Serialization::FormatterServices::$$c__DisplayClass9_0::$GetSerializableMembers$b__0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Reflection::MemberInfo*> (System::Runtime::Serialization::FormatterServices::$$c__DisplayClass9_0::*)(System::Runtime::Serialization::MemberHolder*)>(&System::Runtime::Serialization::FormatterServices::$$c__DisplayClass9_0::$GetSerializableMembers$b__0)> {
   static const MethodInfo* get() {
     static auto* _ = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "MemberHolder")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::FormatterServices::$$c__DisplayClass9_0*), "<GetSerializableMembers>b__0", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{_});

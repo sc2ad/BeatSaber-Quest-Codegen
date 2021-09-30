@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -32,6 +33,11 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class BeatmapLevelFilterModel::$$c__DisplayClass0_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Boolean searchByText
     // Size: 0x1
     // Offset: 0x10
@@ -43,9 +49,9 @@ namespace GlobalNamespace {
     // public System.String[] searchTexts
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<::Il2CppString*> searchTexts;
+    ::ArrayW<::Il2CppString*> searchTexts;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // public LevelFilterParams levelFilterParams
     // Size: 0x8
     // Offset: 0x20
@@ -58,10 +64,11 @@ namespace GlobalNamespace {
     GlobalNamespace::PlayerDataModel* playerDataModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerDataModel*) == 0x8);
+    public:
     // Get instance field reference: public System.Boolean searchByText
     bool& dyn_searchByText();
     // Get instance field reference: public System.String[] searchTexts
-    ::ArrayWrapper<::Il2CppString*>& dyn_searchTexts();
+    ::ArrayW<::Il2CppString*>& dyn_searchTexts();
     // Get instance field reference: public LevelFilterParams levelFilterParams
     GlobalNamespace::LevelFilterParams*& dyn_levelFilterParams();
     // Get instance field reference: public PlayerDataModel playerDataModel

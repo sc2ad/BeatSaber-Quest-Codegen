@@ -21,6 +21,11 @@ namespace System::Net::NetworkInformation {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Win32_IP_ADDR_STRING/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.IntPtr Next
     // Size: 0x8
     // Offset: 0x0
@@ -45,6 +50,7 @@ namespace System::Net::NetworkInformation {
     uint Context;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
+    public:
     // Creating value type constructor for type: Win32_IP_ADDR_STRING
     constexpr Win32_IP_ADDR_STRING(System::IntPtr Next_ = {}, ::Il2CppString* IpAddress_ = {}, ::Il2CppString* IpMask_ = {}, uint Context_ = {}) noexcept : Next{Next_}, IpAddress{IpAddress_}, IpMask{IpMask_}, Context{Context_} {}
     // Creating interface conversion operator: operator System::ValueType

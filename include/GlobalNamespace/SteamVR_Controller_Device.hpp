@@ -40,6 +40,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SteamVR_Controller::Device : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.UInt32 <index>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -104,6 +109,7 @@ namespace GlobalNamespace {
     bool hairTriggerPrevState;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private System.UInt32 <index>k__BackingField
     uint& dyn_$index$k__BackingField();
     // Get instance field reference: private System.Boolean <valid>k__BackingField

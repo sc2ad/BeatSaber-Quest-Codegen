@@ -28,6 +28,11 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Enum::EnumResult/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Object parsedEnum
     // Size: 0x8
     // Offset: 0x0
@@ -72,6 +77,7 @@ namespace System {
     System::Exception* m_innerException;
     // Field size check
     static_assert(sizeof(System::Exception*) == 0x8);
+    public:
     // Creating value type constructor for type: EnumResult
     constexpr EnumResult(::Il2CppObject* parsedEnum_ = {}, bool canThrow_ = {}, System::Enum::ParseFailureKind m_failure_ = {}, ::Il2CppString* m_failureMessageID_ = {}, ::Il2CppString* m_failureParameter_ = {}, ::Il2CppObject* m_failureMessageFormatArgument_ = {}, System::Exception* m_innerException_ = {}) noexcept : parsedEnum{parsedEnum_}, canThrow{canThrow_}, m_failure{m_failure_}, m_failureMessageID{m_failureMessageID_}, m_failureParameter{m_failureParameter_}, m_failureMessageFormatArgument{m_failureMessageFormatArgument_}, m_innerException{m_innerException_} {}
     // Creating interface conversion operator: operator System::ValueType

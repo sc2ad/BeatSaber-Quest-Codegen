@@ -22,6 +22,11 @@ namespace System::Text {
   // [TokenAttribute] Offset: FFFFFFFF
   class UTF32Encoding::UTF32Decoder : public System::Text::DecoderNLS {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Int32 iChar
     // Size: 0x4
     // Offset: 0x30
@@ -34,6 +39,7 @@ namespace System::Text {
     int readByteCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: System.Int32 iChar
     int& dyn_iChar();
     // Get instance field reference: System.Int32 readByteCount

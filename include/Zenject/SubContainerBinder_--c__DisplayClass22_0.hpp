@@ -37,6 +37,11 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class SubContainerBinder::$$c__DisplayClass22_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Object prefab
     // Size: 0x8
     // Offset: 0x10
@@ -49,6 +54,7 @@ namespace Zenject {
     Zenject::GameObjectCreationParameters* gameObjectInfo;
     // Field size check
     static_assert(sizeof(Zenject::GameObjectCreationParameters*) == 0x8);
+    public:
     // Get instance field reference: public UnityEngine.Object prefab
     UnityEngine::Object*& dyn_prefab();
     // Get instance field reference: public Zenject.GameObjectCreationParameters gameObjectInfo

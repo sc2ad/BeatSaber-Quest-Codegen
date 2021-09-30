@@ -52,6 +52,11 @@ namespace System::Net::Sockets {
   // [TokenAttribute] Offset: FFFFFFFF
   class SocketAsyncEventArgs : public System::EventArgs/*, public System::IDisposable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean disposed
     // Size: 0x1
     // Offset: 0x10
@@ -140,6 +145,7 @@ namespace System::Net::Sockets {
     System::EventHandler_1<System::Net::Sockets::SocketAsyncEventArgs*>* Completed;
     // Field size check
     static_assert(sizeof(System::EventHandler_1<System::Net::Sockets::SocketAsyncEventArgs*>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

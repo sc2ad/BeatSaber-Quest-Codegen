@@ -41,6 +41,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerBadgeDataMinMaxIntSO : public GlobalNamespace::MultiplayerBadgeDataSO {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [SpaceAttribute] Offset: 0xF08210
     // private MultiplayerBadgeMinMax _minMax
     // Size: 0x4
@@ -54,6 +59,7 @@ namespace GlobalNamespace {
     float weightMultiplier;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: private MultiplayerBadgeMinMax _minMax
     GlobalNamespace::MultiplayerBadgeMinMax& dyn__minMax();
     // Get instance field reference: private System.Single _weightMultiplier

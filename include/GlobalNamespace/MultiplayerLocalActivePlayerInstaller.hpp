@@ -27,6 +27,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerLocalActivePlayerInstaller : public Zenject::MonoInstaller {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xF08CE8
     // private readonly GameplayCoreSceneSetupData _sceneSetupData
     // Size: 0x8
@@ -34,6 +39,7 @@ namespace GlobalNamespace {
     GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayCoreSceneSetupData*) == 0x8);
+    public:
     // Get instance field reference: private readonly GameplayCoreSceneSetupData _sceneSetupData
     GlobalNamespace::GameplayCoreSceneSetupData*& dyn__sceneSetupData();
     // public System.Void .ctor()

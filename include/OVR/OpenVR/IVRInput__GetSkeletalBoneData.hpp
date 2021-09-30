@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: OVR::OpenVR
@@ -52,10 +53,10 @@ namespace OVR::OpenVR {
     }
     // public OVR.OpenVR.EVRInputError Invoke(System.UInt64 action, OVR.OpenVR.EVRSkeletalTransformSpace eTransformSpace, OVR.OpenVR.EVRSkeletalMotionRange eMotionRange, in OVR.OpenVR.VRBoneTransform_t[] pTransformArray, System.UInt32 unTransformArrayCount, System.UInt64 ulRestrictToDevice)
     // Offset: 0x20F4918
-    OVR::OpenVR::EVRInputError Invoke(uint64_t action, OVR::OpenVR::EVRSkeletalTransformSpace eTransformSpace, OVR::OpenVR::EVRSkeletalMotionRange eMotionRange, ByRef<::ArrayWrapper<OVR::OpenVR::VRBoneTransform_t>> pTransformArray, uint unTransformArrayCount, uint64_t ulRestrictToDevice);
+    OVR::OpenVR::EVRInputError Invoke(uint64_t action, OVR::OpenVR::EVRSkeletalTransformSpace eTransformSpace, OVR::OpenVR::EVRSkeletalMotionRange eMotionRange, ByRef<::ArrayW<OVR::OpenVR::VRBoneTransform_t>> pTransformArray, uint unTransformArrayCount, uint64_t ulRestrictToDevice);
     // public System.IAsyncResult BeginInvoke(System.UInt64 action, OVR.OpenVR.EVRSkeletalTransformSpace eTransformSpace, OVR.OpenVR.EVRSkeletalMotionRange eMotionRange, in OVR.OpenVR.VRBoneTransform_t[] pTransformArray, System.UInt32 unTransformArrayCount, System.UInt64 ulRestrictToDevice, System.AsyncCallback callback, System.Object object)
     // Offset: 0x20F4C10
-    System::IAsyncResult* BeginInvoke(uint64_t action, OVR::OpenVR::EVRSkeletalTransformSpace eTransformSpace, OVR::OpenVR::EVRSkeletalMotionRange eMotionRange, ByRef<::ArrayWrapper<OVR::OpenVR::VRBoneTransform_t>> pTransformArray, uint unTransformArrayCount, uint64_t ulRestrictToDevice, System::AsyncCallback* callback, ::Il2CppObject* object);
+    System::IAsyncResult* BeginInvoke(uint64_t action, OVR::OpenVR::EVRSkeletalTransformSpace eTransformSpace, OVR::OpenVR::EVRSkeletalMotionRange eMotionRange, ByRef<::ArrayW<OVR::OpenVR::VRBoneTransform_t>> pTransformArray, uint unTransformArrayCount, uint64_t ulRestrictToDevice, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVRInputError EndInvoke(System.IAsyncResult result)
     // Offset: 0x20F4D1C
     OVR::OpenVR::EVRInputError EndInvoke(System::IAsyncResult* result);
@@ -71,7 +72,7 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRInput::_GetSkeletalBoneData*, "OVR.OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::IVRInput::_GetSkeletalBoneData::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (OVR::OpenVR::IVRInput::_GetSkeletalBoneData::*)(uint64_t, OVR::OpenVR::EVRSkeletalTransformSpace, OVR::OpenVR::EVRSkeletalMotionRange, ByRef<::ArrayWrapper<OVR::OpenVR::VRBoneTransform_t>>, uint, uint64_t)>(&OVR::OpenVR::IVRInput::_GetSkeletalBoneData::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (OVR::OpenVR::IVRInput::_GetSkeletalBoneData::*)(uint64_t, OVR::OpenVR::EVRSkeletalTransformSpace, OVR::OpenVR::EVRSkeletalMotionRange, ByRef<::ArrayW<OVR::OpenVR::VRBoneTransform_t>>, uint, uint64_t)>(&OVR::OpenVR::IVRInput::_GetSkeletalBoneData::Invoke)> {
   static const MethodInfo* get() {
     static auto* action = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* eTransformSpace = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRSkeletalTransformSpace")->byval_arg;
@@ -85,7 +86,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::IVRInput::_GetSkeletalBoneData::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRInput::_GetSkeletalBoneData::*)(uint64_t, OVR::OpenVR::EVRSkeletalTransformSpace, OVR::OpenVR::EVRSkeletalMotionRange, ByRef<::ArrayWrapper<OVR::OpenVR::VRBoneTransform_t>>, uint, uint64_t, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRInput::_GetSkeletalBoneData::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRInput::_GetSkeletalBoneData::*)(uint64_t, OVR::OpenVR::EVRSkeletalTransformSpace, OVR::OpenVR::EVRSkeletalMotionRange, ByRef<::ArrayW<OVR::OpenVR::VRBoneTransform_t>>, uint, uint64_t, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRInput::_GetSkeletalBoneData::BeginInvoke)> {
   static const MethodInfo* get() {
     static auto* action = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* eTransformSpace = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "EVRSkeletalTransformSpace")->byval_arg;

@@ -20,6 +20,11 @@ namespace UnityEngine::Timeline {
   // [TokenAttribute] Offset: FFFFFFFF
   class TimelineAsset::EditorSettings : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Single m_Framerate
     // Size: 0x4
     // Offset: 0x10
@@ -32,6 +37,7 @@ namespace UnityEngine::Timeline {
     bool m_ScenePreview;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get static field: static readonly System.Single kMinFps
     static float _get_kMinFps();
     // Set static field: static readonly System.Single kMinFps

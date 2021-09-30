@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -39,25 +40,25 @@ namespace UnityEngine {
     // static T[] ConvertObjects(UnityEngine.Object[] rawObjects)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static ::ArrayWrapper<T> ConvertObjects(::ArrayWrapper<UnityEngine::Object*> rawObjects) {
+    static ::ArrayW<T> ConvertObjects(::ArrayW<UnityEngine::Object*> rawObjects) {
       static_assert(std::is_convertible_v<T, UnityEngine::Object*>);
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Resources::ConvertObjects");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine", "Resources", "ConvertObjects", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(rawObjects)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<::ArrayWrapper<T>, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, rawObjects);
+      return ::il2cpp_utils::RunMethodThrow<::ArrayW<T>, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, rawObjects);
     }
     // static public UnityEngine.Object[] FindObjectsOfTypeAll(System.Type type)
     // Offset: 0x1E0B7E8
-    static ::ArrayWrapper<UnityEngine::Object*> FindObjectsOfTypeAll(System::Type* type);
+    static ::ArrayW<UnityEngine::Object*> FindObjectsOfTypeAll(System::Type* type);
     // static public T[] FindObjectsOfTypeAll()
     // Offset: 0xFFFFFFFF
     template<class T>
-    static ::ArrayWrapper<T> FindObjectsOfTypeAll() {
+    static ::ArrayW<T> FindObjectsOfTypeAll() {
       static_assert(std::is_convertible_v<T, UnityEngine::Object*>);
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Resources::FindObjectsOfTypeAll");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine", "Resources", "FindObjectsOfTypeAll", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<::ArrayWrapper<T>, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method);
+      return ::il2cpp_utils::RunMethodThrow<::ArrayW<T>, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method);
     }
     // static public UnityEngine.Object Load(System.String path)
     // Offset: 0x1E0B828
@@ -83,10 +84,10 @@ namespace UnityEngine {
     static UnityEngine::ResourceRequest* LoadAsyncInternal(::Il2CppString* path, System::Type* type);
     // static public UnityEngine.Object[] LoadAll(System.String path, System.Type systemTypeInstance)
     // Offset: 0x1E0B984
-    static ::ArrayWrapper<UnityEngine::Object*> LoadAll(::Il2CppString* path, System::Type* systemTypeInstance);
+    static ::ArrayW<UnityEngine::Object*> LoadAll(::Il2CppString* path, System::Type* systemTypeInstance);
     // static public UnityEngine.Object[] LoadAll(System.String path)
     // Offset: 0x1E0B9D4
-    static ::ArrayWrapper<UnityEngine::Object*> LoadAll(::Il2CppString* path);
+    static ::ArrayW<UnityEngine::Object*> LoadAll(::Il2CppString* path);
     // static public UnityEngine.Object GetBuiltinResource(System.Type type, System.String path)
     // Offset: 0x1E0BA80
     static UnityEngine::Object* GetBuiltinResource(System::Type* type, ::Il2CppString* path);
@@ -117,7 +118,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Resources*, "UnityEngine", "Resources");
 // Writing MetadataGetter for method: UnityEngine::Resources::FindObjectsOfTypeAll
 // Il2CppName: FindObjectsOfTypeAll
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Object*> (*)(System::Type*)>(&UnityEngine::Resources::FindObjectsOfTypeAll)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Object*> (*)(System::Type*)>(&UnityEngine::Resources::FindObjectsOfTypeAll)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Resources*), "FindObjectsOfTypeAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -171,7 +172,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Resources::LoadAll
 // Il2CppName: LoadAll
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Object*> (*)(::Il2CppString*, System::Type*)>(&UnityEngine::Resources::LoadAll)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Object*> (*)(::Il2CppString*, System::Type*)>(&UnityEngine::Resources::LoadAll)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* systemTypeInstance = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -181,7 +182,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::Resources::LoadAll
 // Il2CppName: LoadAll
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Object*> (*)(::Il2CppString*)>(&UnityEngine::Resources::LoadAll)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Object*> (*)(::Il2CppString*)>(&UnityEngine::Resources::LoadAll)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Resources*), "LoadAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});

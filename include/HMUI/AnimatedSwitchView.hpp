@@ -57,12 +57,18 @@ namespace HMUI {
     // [FlagsAttribute] Offset: FFFFFFFF
     struct AnimationState/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: AnimationState
       constexpr AnimationState(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -121,6 +127,11 @@ namespace HMUI {
     #pragma pack(pop)
     static check_size<sizeof(AnimatedSwitchView::AnimationState), 0 + sizeof(int)> __HMUI_AnimatedSwitchView_AnimationStateSizeCheck;
     static_assert(sizeof(AnimatedSwitchView::AnimationState) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.RectTransform _knobRectTransform
     // Size: 0x8
     // Offset: 0x18
@@ -259,6 +270,7 @@ namespace HMUI {
     HMUI::ToggleWithCallbacks* toggle;
     // Field size check
     static_assert(sizeof(HMUI::ToggleWithCallbacks*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.RectTransform _knobRectTransform

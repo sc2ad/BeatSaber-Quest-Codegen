@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -33,48 +34,54 @@ namespace GlobalNamespace {
   // [ExecuteInEditMode] Offset: FFFFFFFF
   class LightManager : public UnityEngine::MonoBehaviour/*, public GlobalNamespace::CameraRenderCallbacksManager::ICameraRenderCallbacks*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly UnityEngine.Vector4[] _directionalLightDirections
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<UnityEngine::Vector4> directionalLightDirections;
+    ::ArrayW<UnityEngine::Vector4> directionalLightDirections;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector4>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Vector4>) == 0x8);
     // private readonly UnityEngine.Vector4[] _directionalLightColors
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<UnityEngine::Vector4> directionalLightColors;
+    ::ArrayW<UnityEngine::Vector4> directionalLightColors;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector4>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Vector4>) == 0x8);
     // private readonly UnityEngine.Vector4[] _directionalLightPositions
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<UnityEngine::Vector4> directionalLightPositions;
+    ::ArrayW<UnityEngine::Vector4> directionalLightPositions;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector4>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Vector4>) == 0x8);
     // private readonly System.Single[] _directionalLightRadii
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<float> directionalLightRadii;
+    ::ArrayW<float> directionalLightRadii;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<float>) == 0x8);
+    static_assert(sizeof(::ArrayW<float>) == 0x8);
     // private readonly UnityEngine.Vector4[] _pointLightPositions
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayWrapper<UnityEngine::Vector4> pointLightPositions;
+    ::ArrayW<UnityEngine::Vector4> pointLightPositions;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector4>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Vector4>) == 0x8);
     // private readonly UnityEngine.Vector4[] _pointLightColors
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayWrapper<UnityEngine::Vector4> pointLightColors;
+    ::ArrayW<UnityEngine::Vector4> pointLightColors;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector4>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Vector4>) == 0x8);
     // private System.Int32 lastRefreshFrameNum
     // Size: 0x4
     // Offset: 0x48
     int lastRefreshFrameNum;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::CameraRenderCallbacksManager::ICameraRenderCallbacks
     operator GlobalNamespace::CameraRenderCallbacksManager::ICameraRenderCallbacks() noexcept {
       return *reinterpret_cast<GlobalNamespace::CameraRenderCallbacksManager::ICameraRenderCallbacks*>(this);
@@ -112,17 +119,17 @@ namespace GlobalNamespace {
     // Set static field: static private readonly System.Int32 _pointLightColorsID
     static void _set__pointLightColorsID(int value);
     // Get instance field reference: private readonly UnityEngine.Vector4[] _directionalLightDirections
-    ::ArrayWrapper<UnityEngine::Vector4>& dyn__directionalLightDirections();
+    ::ArrayW<UnityEngine::Vector4>& dyn__directionalLightDirections();
     // Get instance field reference: private readonly UnityEngine.Vector4[] _directionalLightColors
-    ::ArrayWrapper<UnityEngine::Vector4>& dyn__directionalLightColors();
+    ::ArrayW<UnityEngine::Vector4>& dyn__directionalLightColors();
     // Get instance field reference: private readonly UnityEngine.Vector4[] _directionalLightPositions
-    ::ArrayWrapper<UnityEngine::Vector4>& dyn__directionalLightPositions();
+    ::ArrayW<UnityEngine::Vector4>& dyn__directionalLightPositions();
     // Get instance field reference: private readonly System.Single[] _directionalLightRadii
-    ::ArrayWrapper<float>& dyn__directionalLightRadii();
+    ::ArrayW<float>& dyn__directionalLightRadii();
     // Get instance field reference: private readonly UnityEngine.Vector4[] _pointLightPositions
-    ::ArrayWrapper<UnityEngine::Vector4>& dyn__pointLightPositions();
+    ::ArrayW<UnityEngine::Vector4>& dyn__pointLightPositions();
     // Get instance field reference: private readonly UnityEngine.Vector4[] _pointLightColors
-    ::ArrayWrapper<UnityEngine::Vector4>& dyn__pointLightColors();
+    ::ArrayW<UnityEngine::Vector4>& dyn__pointLightColors();
     // Get instance field reference: private System.Int32 lastRefreshFrameNum
     int& dyn_lastRefreshFrameNum();
     // protected System.Void OnDisable()

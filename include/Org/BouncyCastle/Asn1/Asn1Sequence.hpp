@@ -14,6 +14,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Asn1
@@ -39,22 +40,28 @@ namespace Org::BouncyCastle::Asn1 {
   // [DefaultMemberAttribute] Offset: EC7E78
   class Asn1Sequence : public Org::BouncyCastle::Asn1::Asn1Object/*, public System::Collections::IEnumerable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // Org.BouncyCastle.Asn1.Asn1Encodable[] elements
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<Org::BouncyCastle::Asn1::Asn1Encodable*> elements;
+    ::ArrayW<Org::BouncyCastle::Asn1::Asn1Encodable*> elements;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<Org::BouncyCastle::Asn1::Asn1Encodable*>) == 0x8);
+    static_assert(sizeof(::ArrayW<Org::BouncyCastle::Asn1::Asn1Encodable*>) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Collections::IEnumerable
     operator System::Collections::IEnumerable() noexcept {
       return *reinterpret_cast<System::Collections::IEnumerable*>(this);
     }
-    // Creating conversion operator: operator ::ArrayWrapper<Org::BouncyCastle::Asn1::Asn1Encodable*>
-    constexpr operator ::ArrayWrapper<Org::BouncyCastle::Asn1::Asn1Encodable*>() const noexcept {
+    // Creating conversion operator: operator ::ArrayW<Org::BouncyCastle::Asn1::Asn1Encodable*>
+    constexpr operator ::ArrayW<Org::BouncyCastle::Asn1::Asn1Encodable*>() const noexcept {
       return elements;
     }
     // Get instance field reference: Org.BouncyCastle.Asn1.Asn1Encodable[] elements
-    ::ArrayWrapper<Org::BouncyCastle::Asn1::Asn1Encodable*>& dyn_elements();
+    ::ArrayW<Org::BouncyCastle::Asn1::Asn1Encodable*>& dyn_elements();
     // public Org.BouncyCastle.Asn1.Asn1Encodable get_Item(System.Int32 index)
     // Offset: 0x18E3AE0
     Org::BouncyCastle::Asn1::Asn1Encodable* get_Item(int index);
@@ -71,7 +78,7 @@ namespace Org::BouncyCastle::Asn1 {
     // protected internal System.Void .ctor(params Org.BouncyCastle.Asn1.Asn1Encodable[] elements)
     // Offset: 0x18E3930
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Asn1Sequence* New_ctor(::ArrayWrapper<Org::BouncyCastle::Asn1::Asn1Encodable*> elements) {
+    static Asn1Sequence* New_ctor(::ArrayW<Org::BouncyCastle::Asn1::Asn1Encodable*> elements) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Asn1Sequence::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Asn1Sequence*, creationType>(elements)));
     }
@@ -119,7 +126,7 @@ namespace Org::BouncyCastle::Asn1 {
     ::Il2CppString* ToString();
   }; // Org.BouncyCastle.Asn1.Asn1Sequence
   #pragma pack(pop)
-  static check_size<sizeof(Asn1Sequence), 16 + sizeof(::ArrayWrapper<Org::BouncyCastle::Asn1::Asn1Encodable*>)> __Org_BouncyCastle_Asn1_Asn1SequenceSizeCheck;
+  static check_size<sizeof(Asn1Sequence), 16 + sizeof(::ArrayW<Org::BouncyCastle::Asn1::Asn1Encodable*>)> __Org_BouncyCastle_Asn1_Asn1SequenceSizeCheck;
   static_assert(sizeof(Asn1Sequence) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Asn1Sequence*, "Org.BouncyCastle.Asn1", "Asn1Sequence");

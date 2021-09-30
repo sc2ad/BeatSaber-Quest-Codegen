@@ -19,6 +19,11 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct VREvent_DualAnalog_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Single x
     // Size: 0x4
     // Offset: 0x0
@@ -49,6 +54,7 @@ namespace Valve::VR {
     Valve::VR::EDualAnalogWhich which;
     // Field size check
     static_assert(sizeof(Valve::VR::EDualAnalogWhich) == 0x4);
+    public:
     // Creating value type constructor for type: VREvent_DualAnalog_t
     constexpr VREvent_DualAnalog_t(float x_ = {}, float y_ = {}, float transformedX_ = {}, float transformedY_ = {}, Valve::VR::EDualAnalogWhich which_ = {}) noexcept : x{x_}, y{y_}, transformedX{transformedX_}, transformedY{transformedY_}, which{which_} {}
     // Creating interface conversion operator: operator System::ValueType

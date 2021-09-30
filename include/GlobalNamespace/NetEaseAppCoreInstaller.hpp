@@ -27,12 +27,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class NetEaseAppCoreInstaller : public Zenject::MonoInstaller {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private NetEaseManager _netEaseManagerPrefab
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::NetEaseManager* netEaseManagerPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::NetEaseManager*) == 0x8);
+    public:
     // Get instance field reference: private NetEaseManager _netEaseManagerPrefab
     GlobalNamespace::NetEaseManager*& dyn__netEaseManagerPrefab();
     // public System.Void .ctor()

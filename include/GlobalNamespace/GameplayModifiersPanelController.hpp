@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -65,6 +66,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::GameplayModifiersPanelController::$$c__DisplayClass16_0
     class $$c__DisplayClass16_0;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private GameplayModifiersModelSO _gameplayModifiersModel
     // Size: 0x8
     // Offset: 0x18
@@ -117,9 +123,9 @@ namespace GlobalNamespace {
     // private GameplayModifierToggle[] _gameplayModifierToggles
     // Size: 0x8
     // Offset: 0x68
-    ::ArrayWrapper<GlobalNamespace::GameplayModifierToggle*> gameplayModifierToggles;
+    ::ArrayW<GlobalNamespace::GameplayModifierToggle*> gameplayModifierToggles;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::GameplayModifierToggle*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::GameplayModifierToggle*>) == 0x8);
     // private System.Boolean _changingGameplayModifierToggles
     // Size: 0x1
     // Offset: 0x70
@@ -134,6 +140,7 @@ namespace GlobalNamespace {
     System::Collections::Generic::Dictionary_2<GlobalNamespace::GameplayModifierParamsSO*, UnityEngine::UI::Toggle*>* toggleForGameplayModifierParam;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<GlobalNamespace::GameplayModifierParamsSO*, UnityEngine::UI::Toggle*>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IRefreshable
     operator GlobalNamespace::IRefreshable() noexcept {
       return *reinterpret_cast<GlobalNamespace::IRefreshable*>(this);
@@ -157,7 +164,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private HMUI.ToggleBinder _toggleBinder
     HMUI::ToggleBinder*& dyn__toggleBinder();
     // Get instance field reference: private GameplayModifierToggle[] _gameplayModifierToggles
-    ::ArrayWrapper<GlobalNamespace::GameplayModifierToggle*>& dyn__gameplayModifierToggles();
+    ::ArrayW<GlobalNamespace::GameplayModifierToggle*>& dyn__gameplayModifierToggles();
     // Get instance field reference: private System.Boolean _changingGameplayModifierToggles
     bool& dyn__changingGameplayModifierToggles();
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<GameplayModifierParamsSO,UnityEngine.UI.Toggle> _toggleForGameplayModifierParam

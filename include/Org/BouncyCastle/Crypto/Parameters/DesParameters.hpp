@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: Org.BouncyCastle.Crypto.Parameters
 namespace Org::BouncyCastle::Crypto::Parameters {
@@ -21,30 +22,30 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   class DesParameters : public Org::BouncyCastle::Crypto::Parameters::KeyParameter {
     public:
     // Get static field: static private readonly System.Byte[] DES_weak_keys
-    static ::ArrayWrapper<uint8_t> _get_DES_weak_keys();
+    static ::ArrayW<uint8_t> _get_DES_weak_keys();
     // Set static field: static private readonly System.Byte[] DES_weak_keys
-    static void _set_DES_weak_keys(::ArrayWrapper<uint8_t> value);
+    static void _set_DES_weak_keys(::ArrayW<uint8_t> value);
     // static private System.Void .cctor()
     // Offset: 0x13933FC
     static void _cctor();
     // static public System.Boolean IsWeakKey(System.Byte[] key, System.Int32 offset)
     // Offset: 0x1392E48
-    static bool IsWeakKey(::ArrayWrapper<uint8_t> key, int offset);
+    static bool IsWeakKey(::ArrayW<uint8_t> key, int offset);
     // static public System.Boolean IsWeakKey(System.Byte[] key)
     // Offset: 0x1393080
-    static bool IsWeakKey(::ArrayWrapper<uint8_t> key);
+    static bool IsWeakKey(::ArrayW<uint8_t> key);
     // static public System.Byte SetOddParity(System.Byte b)
     // Offset: 0x1393300
     static uint8_t SetOddParity(uint8_t b);
     // static public System.Void SetOddParity(System.Byte[] bytes)
     // Offset: 0x1393320
-    static void SetOddParity(::ArrayWrapper<uint8_t> bytes);
+    static void SetOddParity(::ArrayW<uint8_t> bytes);
     // public System.Void .ctor(System.Byte[] key)
     // Offset: 0x1392CE8
     // Implemented from: Org.BouncyCastle.Crypto.Parameters.KeyParameter
     // Base method: System.Void KeyParameter::.ctor(System.Byte[] key)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DesParameters* New_ctor(::ArrayWrapper<uint8_t> key) {
+    static DesParameters* New_ctor(::ArrayW<uint8_t> key) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::DesParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DesParameters*, creationType>(key)));
     }
@@ -53,7 +54,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Implemented from: Org.BouncyCastle.Crypto.Parameters.KeyParameter
     // Base method: System.Void KeyParameter::.ctor(System.Byte[] key, System.Int32 keyOff, System.Int32 keyLen)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DesParameters* New_ctor(::ArrayWrapper<uint8_t> key, int keyOff, int keyLen) {
+    static DesParameters* New_ctor(::ArrayW<uint8_t> key, int keyOff, int keyLen) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::DesParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DesParameters*, creationType>(key, keyOff, keyLen)));
     }
@@ -73,7 +74,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::DesParameters::IsWeakKey
 // Il2CppName: IsWeakKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Parameters::DesParameters::IsWeakKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Parameters::DesParameters::IsWeakKey)> {
   static const MethodInfo* get() {
     static auto* key = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -83,7 +84,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::DesParameters::IsWeakKey
 // Il2CppName: IsWeakKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Crypto::Parameters::DesParameters::IsWeakKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<uint8_t>)>(&Org::BouncyCastle::Crypto::Parameters::DesParameters::IsWeakKey)> {
   static const MethodInfo* get() {
     static auto* key = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Parameters::DesParameters*), "IsWeakKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key});
@@ -101,7 +102,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::DesParameters::SetOddParity
 // Il2CppName: SetOddParity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Crypto::Parameters::DesParameters::SetOddParity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t>)>(&Org::BouncyCastle::Crypto::Parameters::DesParameters::SetOddParity)> {
   static const MethodInfo* get() {
     static auto* bytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Parameters::DesParameters*), "SetOddParity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bytes});

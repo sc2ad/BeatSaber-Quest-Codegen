@@ -22,6 +22,11 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class AchievementDefinition : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly Oculus.Platform.AchievementType Type
     // Size: 0x4
     // Offset: 0x10
@@ -50,6 +55,7 @@ namespace Oculus::Platform::Models {
     uint64_t Target;
     // Field size check
     static_assert(sizeof(uint64_t) == 0x8);
+    public:
     // Get instance field reference: public readonly Oculus.Platform.AchievementType Type
     Oculus::Platform::AchievementType& dyn_Type();
     // Get instance field reference: public readonly System.String Name

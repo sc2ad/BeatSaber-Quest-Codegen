@@ -49,6 +49,11 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
   // [TokenAttribute] Offset: FFFFFFFF
   class ResourceLocationMap : public ::Il2CppObject/*, public UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String <LocatorId>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -61,6 +66,7 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
     System::Collections::Generic::Dictionary_2<::Il2CppObject*, System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>* Locations;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppObject*, System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator
     operator UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator() noexcept {
       return *reinterpret_cast<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>(this);

@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -39,12 +40,18 @@ namespace MasterServer {
   // [TokenAttribute] Offset: FFFFFFFF
   class HelloVerifyRequest : public GlobalNamespace::BaseMasterServerReliableResponse/*, public MasterServer::IHandshakeServerToClientMessage*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly ByteArrayNetSerializable cookie
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::ByteArrayNetSerializable* cookie;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ByteArrayNetSerializable*) == 0x8);
+    public:
     // Creating interface conversion operator: operator MasterServer::IHandshakeServerToClientMessage
     operator MasterServer::IHandshakeServerToClientMessage() noexcept {
       return *reinterpret_cast<MasterServer::IHandshakeServerToClientMessage*>(this);
@@ -60,7 +67,7 @@ namespace MasterServer {
     static GlobalNamespace::PacketPool_1<MasterServer::HelloVerifyRequest*>* get_pool();
     // public MasterServer.HelloVerifyRequest Init(System.Byte[] cookie)
     // Offset: 0x12DCB2C
-    MasterServer::HelloVerifyRequest* Init(::ArrayWrapper<uint8_t> cookie);
+    MasterServer::HelloVerifyRequest* Init(::ArrayW<uint8_t> cookie);
     // public System.Void .ctor()
     // Offset: 0x12DCC44
     // Implemented from: BaseMasterServerReliableResponse
@@ -104,7 +111,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: MasterServer::HelloVerifyRequest::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::HelloVerifyRequest* (MasterServer::HelloVerifyRequest::*)(::ArrayWrapper<uint8_t>)>(&MasterServer::HelloVerifyRequest::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::HelloVerifyRequest* (MasterServer::HelloVerifyRequest::*)(::ArrayW<uint8_t>)>(&MasterServer::HelloVerifyRequest::Init)> {
   static const MethodInfo* get() {
     static auto* cookie = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MasterServer::HelloVerifyRequest*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cookie});

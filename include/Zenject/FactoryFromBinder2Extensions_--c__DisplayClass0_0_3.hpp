@@ -32,12 +32,18 @@ namespace Zenject {
   template<typename TParam1, typename TParam2, typename TContract>
   class FactoryFromBinder2Extensions::$$c__DisplayClass0_0_3 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Guid factoryId
     // Size: 0x10
     // Offset: 0x0
     System::Guid factoryId;
     // Field size check
     static_assert(sizeof(System::Guid) == 0x10);
+    public:
     // Creating conversion operator: operator System::Guid
     constexpr operator System::Guid() const noexcept {
       return factoryId;

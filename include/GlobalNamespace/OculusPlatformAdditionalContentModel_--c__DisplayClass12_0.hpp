@@ -42,6 +42,11 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class OculusPlatformAdditionalContentModel::$$c__DisplayClass12_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Threading.CancellationToken cancellationToken
     // Size: 0x8
     // Offset: 0x10
@@ -66,6 +71,7 @@ namespace GlobalNamespace {
     typename Oculus::Platform::Message_1<Oculus::Platform::Models::PurchaseList*>::Callback* $$9__1;
     // Field size check
     static_assert(sizeof(typename Oculus::Platform::Message_1<Oculus::Platform::Models::PurchaseList*>::Callback*) == 0x8);
+    public:
     // Get instance field reference: public System.Threading.CancellationToken cancellationToken
     System::Threading::CancellationToken& dyn_cancellationToken();
     // Get instance field reference: public System.Threading.Tasks.TaskCompletionSource`1<AdditionalContentModel/UpdateEntitlementsResult> getViewerPurchasesTaskSource

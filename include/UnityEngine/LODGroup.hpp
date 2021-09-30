@@ -9,6 +9,7 @@
 #include "UnityEngine/Component.hpp"
 // Including type: UnityEngine.LOD
 #include "UnityEngine/LOD.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
@@ -33,10 +34,10 @@ namespace UnityEngine {
     void RecalculateBounds();
     // public UnityEngine.LOD[] GetLODs()
     // Offset: 0x1D9DE78
-    ::ArrayWrapper<UnityEngine::LOD> GetLODs();
+    ::ArrayW<UnityEngine::LOD> GetLODs();
     // public System.Void SetLODs(UnityEngine.LOD[] lods)
     // Offset: 0x1D9DEB8
-    void SetLODs(::ArrayWrapper<UnityEngine::LOD> lods);
+    void SetLODs(::ArrayW<UnityEngine::LOD> lods);
   }; // UnityEngine.LODGroup
   #pragma pack(pop)
 }
@@ -70,7 +71,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::LODGroup::GetLODs
 // Il2CppName: GetLODs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::LOD> (UnityEngine::LODGroup::*)()>(&UnityEngine::LODGroup::GetLODs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::LOD> (UnityEngine::LODGroup::*)()>(&UnityEngine::LODGroup::GetLODs)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::LODGroup*), "GetLODs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -78,7 +79,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::LODGroup::SetLODs
 // Il2CppName: SetLODs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::LODGroup::*)(::ArrayWrapper<UnityEngine::LOD>)>(&UnityEngine::LODGroup::SetLODs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::LODGroup::*)(::ArrayW<UnityEngine::LOD>)>(&UnityEngine::LODGroup::SetLODs)> {
   static const MethodInfo* get() {
     static auto* lods = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "LOD"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::LODGroup*), "SetLODs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lods});

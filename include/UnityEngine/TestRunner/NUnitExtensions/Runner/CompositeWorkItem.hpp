@@ -68,6 +68,11 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     class $PerformWork$d__12;
     // Nested type: UnityEngine::TestRunner::NUnitExtensions::Runner::CompositeWorkItem::$RunChildren$d__16
     class $RunChildren$d__16;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly NUnit.Framework.Internal.TestSuite _suite
     // Size: 0x8
     // Offset: 0x58
@@ -118,6 +123,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     NUnit::Framework::Internal::Execution::CountdownEvent* childTestCountdown;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Internal::Execution::CountdownEvent*) == 0x8);
+    public:
     // Get instance field reference: private readonly NUnit.Framework.Internal.TestSuite _suite
     NUnit::Framework::Internal::TestSuite*& dyn__suite();
     // Get instance field reference: private readonly NUnit.Framework.Internal.TestSuiteResult _suiteResult

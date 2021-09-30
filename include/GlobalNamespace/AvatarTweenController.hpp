@@ -51,6 +51,11 @@ namespace GlobalNamespace {
     class $AppearAnimation$d__53;
     // Nested type: GlobalNamespace::AvatarTweenController::$DisappearAnimation$d__58
     class $DisappearAnimation$d__58;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [HeaderAttribute] Offset: 0xF00978
     // private UnityEngine.Transform _avatarTransform
     // Size: 0x8
@@ -310,6 +315,7 @@ namespace GlobalNamespace {
     UnityEngine::Vector3 avatarLocalScale;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Transform _avatarTransform

@@ -28,6 +28,11 @@ namespace HMUI {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class FlowCoordinator::$$c__DisplayClass37_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Action finishedCallback
     // Size: 0x8
     // Offset: 0x10
@@ -52,6 +57,7 @@ namespace HMUI {
     HMUI::FlowCoordinator* flowCoordinatorToReplace;
     // Field size check
     static_assert(sizeof(HMUI::FlowCoordinator*) == 0x8);
+    public:
     // Get instance field reference: public System.Action finishedCallback
     System::Action*& dyn_finishedCallback();
     // Get instance field reference: public HMUI.FlowCoordinator flowCoordinator

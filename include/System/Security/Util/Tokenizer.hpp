@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text
@@ -46,12 +47,18 @@ namespace System::Security::Util {
     // [TokenAttribute] Offset: FFFFFFFF
     struct TokenSource/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: TokenSource
       constexpr TokenSource(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -110,6 +117,11 @@ namespace System::Security::Util {
     #pragma pack(pop)
     static check_size<sizeof(Tokenizer::TokenSource), 0 + sizeof(int)> __System_Security_Util_Tokenizer_TokenSourceSizeCheck;
     static_assert(sizeof(Tokenizer::TokenSource) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 LineNo
     // Size: 0x4
     // Offset: 0x10
@@ -125,15 +137,15 @@ namespace System::Security::Util {
     // private System.Byte[] _inBytes
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<uint8_t> inBytes;
+    ::ArrayW<uint8_t> inBytes;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Char[] _inChars
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<::Il2CppChar> inChars;
+    ::ArrayW<::Il2CppChar> inChars;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppChar>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppChar>) == 0x8);
     // private System.String _inString
     // Size: 0x8
     // Offset: 0x28
@@ -179,15 +191,15 @@ namespace System::Security::Util {
     // private System.String[] _searchStrings
     // Size: 0x8
     // Offset: 0x50
-    ::ArrayWrapper<::Il2CppString*> searchStrings;
+    ::ArrayW<::Il2CppString*> searchStrings;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // private System.String[] _replaceStrings
     // Size: 0x8
     // Offset: 0x58
-    ::ArrayWrapper<::Il2CppString*> replaceStrings;
+    ::ArrayW<::Il2CppString*> replaceStrings;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // private System.Int32 _inNestedIndex
     // Size: 0x4
     // Offset: 0x60
@@ -206,14 +218,15 @@ namespace System::Security::Util {
     ::Il2CppString* inNestedString;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: public System.Int32 LineNo
     int& dyn_LineNo();
     // Get instance field reference: private System.Int32 _inProcessingTag
     int& dyn__inProcessingTag();
     // Get instance field reference: private System.Byte[] _inBytes
-    ::ArrayWrapper<uint8_t>& dyn__inBytes();
+    ::ArrayW<uint8_t>& dyn__inBytes();
     // Get instance field reference: private System.Char[] _inChars
-    ::ArrayWrapper<::Il2CppChar>& dyn__inChars();
+    ::ArrayW<::Il2CppChar>& dyn__inChars();
     // Get instance field reference: private System.String _inString
     ::Il2CppString*& dyn__inString();
     // Get instance field reference: private System.Int32 _inIndex
@@ -229,9 +242,9 @@ namespace System::Security::Util {
     // Get instance field reference: private System.Security.Util.Tokenizer/System.Security.Util.StringMaker _maker
     System::Security::Util::Tokenizer::StringMaker*& dyn__maker();
     // Get instance field reference: private System.String[] _searchStrings
-    ::ArrayWrapper<::Il2CppString*>& dyn__searchStrings();
+    ::ArrayW<::Il2CppString*>& dyn__searchStrings();
     // Get instance field reference: private System.String[] _replaceStrings
-    ::ArrayWrapper<::Il2CppString*>& dyn__replaceStrings();
+    ::ArrayW<::Il2CppString*>& dyn__replaceStrings();
     // Get instance field reference: private System.Int32 _inNestedIndex
     int& dyn__inNestedIndex();
     // Get instance field reference: private System.Int32 _inNestedSize

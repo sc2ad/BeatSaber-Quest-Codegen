@@ -40,6 +40,11 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class OculusNetworkPlayerModel::$$c__DisplayClass64_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public OculusNetworkPlayerModel <>4__this
     // Size: 0x8
     // Offset: 0x10
@@ -58,6 +63,7 @@ namespace GlobalNamespace {
     uint64_t userId;
     // Field size check
     static_assert(sizeof(uint64_t) == 0x8);
+    public:
     // Get instance field reference: public OculusNetworkPlayerModel <>4__this
     GlobalNamespace::OculusNetworkPlayerModel*& dyn_$$4__this();
     // Get instance field reference: public System.Threading.Tasks.TaskCompletionSource`1<System.Boolean> tcs

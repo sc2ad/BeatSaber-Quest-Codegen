@@ -49,6 +49,11 @@ namespace System::Resources {
   // [TokenAttribute] Offset: FFFFFFFF
   class RuntimeResourceSet : public System::Resources::ResourceSet {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.Dictionary`2<System.String,System.Resources.ResourceLocator> _resCache
     // Size: 0x8
     // Offset: 0x28
@@ -73,6 +78,7 @@ namespace System::Resources {
     bool haveReadFromReader;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // static field const value: static System.Int32 Version
     static constexpr const int Version = 2;
     // Get static field: static System.Int32 Version

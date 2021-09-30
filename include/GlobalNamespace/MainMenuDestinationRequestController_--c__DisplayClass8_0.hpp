@@ -33,12 +33,18 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class MainMenuDestinationRequestController::$$c__DisplayClass8_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public MenuDestination menuDestination
     // Size: 0x8
     // Offset: 0x10
     GlobalNamespace::MenuDestination* menuDestination;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MenuDestination*) == 0x8);
+    public:
     // Creating conversion operator: operator GlobalNamespace::MenuDestination*
     constexpr operator GlobalNamespace::MenuDestination*() const noexcept {
       return menuDestination;

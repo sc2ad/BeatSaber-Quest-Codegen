@@ -49,12 +49,18 @@ namespace UnityEngine::Timeline {
     public:
     // Nested type: UnityEngine::Timeline::SignalReceiver::EventKeyValue
     class EventKeyValue;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Timeline.SignalReceiver/UnityEngine.Timeline.EventKeyValue m_Events
     // Size: 0x8
     // Offset: 0x18
     UnityEngine::Timeline::SignalReceiver::EventKeyValue* m_Events;
     // Field size check
     static_assert(sizeof(UnityEngine::Timeline::SignalReceiver::EventKeyValue*) == 0x8);
+    public:
     // Creating interface conversion operator: operator UnityEngine::Playables::INotificationReceiver
     operator UnityEngine::Playables::INotificationReceiver() noexcept {
       return *reinterpret_cast<UnityEngine::Playables::INotificationReceiver*>(this);

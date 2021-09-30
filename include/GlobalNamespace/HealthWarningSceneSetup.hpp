@@ -27,6 +27,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class HealthWarningSceneSetup : public Zenject::MonoInstaller {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xF14B1C
     // private readonly HealthWarningSceneSetupData _sceneSetupData
     // Size: 0x8
@@ -34,6 +39,7 @@ namespace GlobalNamespace {
     GlobalNamespace::HealthWarningSceneSetupData* sceneSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::HealthWarningSceneSetupData*) == 0x8);
+    public:
     // Get instance field reference: private readonly HealthWarningSceneSetupData _sceneSetupData
     GlobalNamespace::HealthWarningSceneSetupData*& dyn__sceneSetupData();
     // public System.Void .ctor()

@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection
@@ -47,6 +48,11 @@ namespace System::Runtime::Serialization {
   // [TokenAttribute] Offset: FFFFFFFF
   class SerializationFieldInfo : public System::Reflection::FieldInfo {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Reflection.RuntimeFieldInfo m_field
     // Size: 0x8
     // Offset: 0x10
@@ -59,6 +65,7 @@ namespace System::Runtime::Serialization {
     ::Il2CppString* m_serializationName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: private System.Reflection.RuntimeFieldInfo m_field
     System::Reflection::RuntimeFieldInfo*& dyn_m_field();
     // Get instance field reference: private System.String m_serializationName
@@ -123,12 +130,12 @@ namespace System::Runtime::Serialization {
     // Offset: 0x1916824
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Object[] MemberInfo::GetCustomAttributes(System.Boolean inherit)
-    ::ArrayWrapper<::Il2CppObject*> GetCustomAttributes(bool inherit);
+    ::ArrayW<::Il2CppObject*> GetCustomAttributes(bool inherit);
     // public override System.Object[] GetCustomAttributes(System.Type attributeType, System.Boolean inherit)
     // Offset: 0x1916848
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Object[] MemberInfo::GetCustomAttributes(System.Type attributeType, System.Boolean inherit)
-    ::ArrayWrapper<::Il2CppObject*> GetCustomAttributes(System::Type* attributeType, bool inherit);
+    ::ArrayW<::Il2CppObject*> GetCustomAttributes(System::Type* attributeType, bool inherit);
     // public override System.Boolean IsDefined(System.Type attributeType, System.Boolean inherit)
     // Offset: 0x191686C
     // Implemented from: System.Reflection.MemberInfo
@@ -252,7 +259,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationFieldInfo::GetCustomAttributes
 // Il2CppName: GetCustomAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppObject*> (System::Runtime::Serialization::SerializationFieldInfo::*)(bool)>(&System::Runtime::Serialization::SerializationFieldInfo::GetCustomAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppObject*> (System::Runtime::Serialization::SerializationFieldInfo::*)(bool)>(&System::Runtime::Serialization::SerializationFieldInfo::GetCustomAttributes)> {
   static const MethodInfo* get() {
     static auto* inherit = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::SerializationFieldInfo*), "GetCustomAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inherit});
@@ -261,7 +268,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationFieldInfo::GetCustomAttributes
 // Il2CppName: GetCustomAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppObject*> (System::Runtime::Serialization::SerializationFieldInfo::*)(System::Type*, bool)>(&System::Runtime::Serialization::SerializationFieldInfo::GetCustomAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppObject*> (System::Runtime::Serialization::SerializationFieldInfo::*)(System::Type*, bool)>(&System::Runtime::Serialization::SerializationFieldInfo::GetCustomAttributes)> {
   static const MethodInfo* get() {
     static auto* attributeType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* inherit = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

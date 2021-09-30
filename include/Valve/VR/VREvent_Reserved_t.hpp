@@ -17,6 +17,11 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct VREvent_Reserved_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.UInt64 reserved0
     // Size: 0x8
     // Offset: 0x0
@@ -29,6 +34,7 @@ namespace Valve::VR {
     uint64_t reserved1;
     // Field size check
     static_assert(sizeof(uint64_t) == 0x8);
+    public:
     // Creating value type constructor for type: VREvent_Reserved_t
     constexpr VREvent_Reserved_t(uint64_t reserved0_ = {}, uint64_t reserved1_ = {}) noexcept : reserved0{reserved0_}, reserved1{reserved1_} {}
     // Creating interface conversion operator: operator System::ValueType

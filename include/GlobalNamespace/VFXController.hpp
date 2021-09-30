@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -39,13 +40,18 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::VFXController::$MainCoroutine$d__9
     class $MainCoroutine$d__9;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [NullAllowed] Offset: 0xEC9960
     // private UnityEngine.ParticleSystem[] _particleSystems
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<UnityEngine::ParticleSystem*> particleSystems;
+    ::ArrayW<UnityEngine::ParticleSystem*> particleSystems;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::ParticleSystem*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::ParticleSystem*>) == 0x8);
     // [NullAllowed] Offset: 0xEC9998
     // private UnityEngine.Animation _animation
     // Size: 0x8
@@ -59,10 +65,11 @@ namespace GlobalNamespace {
     bool deactivateAfterAnimationDuration;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.ParticleSystem[] _particleSystems
-    ::ArrayWrapper<UnityEngine::ParticleSystem*>& dyn__particleSystems();
+    ::ArrayW<UnityEngine::ParticleSystem*>& dyn__particleSystems();
     // Get instance field reference: private UnityEngine.Animation _animation
     UnityEngine::Animation*& dyn__animation();
     // Get instance field reference: private System.Boolean _deactivateAfterAnimationDuration
@@ -72,7 +79,7 @@ namespace GlobalNamespace {
     UnityEngine::Animation* get_animation();
     // public UnityEngine.ParticleSystem[] get_particleSystems()
     // Offset: 0x259D38C
-    ::ArrayWrapper<UnityEngine::ParticleSystem*> get_particleSystems();
+    ::ArrayW<UnityEngine::ParticleSystem*> get_particleSystems();
     // protected System.Void Awake()
     // Offset: 0x259D394
     void Awake();
@@ -113,7 +120,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::VFXController::get_particleSystems
 // Il2CppName: get_particleSystems
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::ParticleSystem*> (GlobalNamespace::VFXController::*)()>(&GlobalNamespace::VFXController::get_particleSystems)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::ParticleSystem*> (GlobalNamespace::VFXController::*)()>(&GlobalNamespace::VFXController::get_particleSystems)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VFXController*), "get_particleSystems", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

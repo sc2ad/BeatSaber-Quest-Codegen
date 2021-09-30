@@ -26,6 +26,11 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   struct PoolableManager::PoolableInfo/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public Zenject.IPoolable Poolable
     // Size: 0x8
     // Offset: 0x0
@@ -38,6 +43,7 @@ namespace Zenject {
     int Priority;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: PoolableInfo
     constexpr PoolableInfo(Zenject::IPoolable* Poolable_ = {}, int Priority_ = {}) noexcept : Poolable{Poolable_}, Priority{Priority_} {}
     // Creating interface conversion operator: operator System::ValueType

@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -38,6 +39,11 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class BeatmapData::$get_beatmapObjectsData$d__32 : public ::Il2CppObject/*, public System::Collections::Generic::IEnumerable_1<GlobalNamespace::BeatmapObjectData*>, public System::Collections::Generic::IEnumerator_1<GlobalNamespace::BeatmapObjectData*>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -69,21 +75,22 @@ namespace GlobalNamespace {
     // private BeatmapLineData[] <beatmapLinesData>5__2
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<GlobalNamespace::BeatmapLineData*> $beatmapLinesData$5__2;
+    ::ArrayW<GlobalNamespace::BeatmapLineData*> $beatmapLinesData$5__2;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::BeatmapLineData*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::BeatmapLineData*>) == 0x8);
     // private System.Int32[] <idxs>5__3
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayWrapper<int> $idxs$5__3;
+    ::ArrayW<int> $idxs$5__3;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // private BeatmapObjectData <minBeatmapObjectData>5__4
     // Size: 0x8
     // Offset: 0x40
     GlobalNamespace::BeatmapObjectData* $minBeatmapObjectData$5__4;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectData*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<GlobalNamespace::BeatmapObjectData*>
     operator System::Collections::Generic::IEnumerable_1<GlobalNamespace::BeatmapObjectData*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<GlobalNamespace::BeatmapObjectData*>*>(this);
@@ -101,9 +108,9 @@ namespace GlobalNamespace {
     // Get instance field reference: public BeatmapData <>4__this
     GlobalNamespace::BeatmapData*& dyn_$$4__this();
     // Get instance field reference: private BeatmapLineData[] <beatmapLinesData>5__2
-    ::ArrayWrapper<GlobalNamespace::BeatmapLineData*>& dyn_$beatmapLinesData$5__2();
+    ::ArrayW<GlobalNamespace::BeatmapLineData*>& dyn_$beatmapLinesData$5__2();
     // Get instance field reference: private System.Int32[] <idxs>5__3
-    ::ArrayWrapper<int>& dyn_$idxs$5__3();
+    ::ArrayW<int>& dyn_$idxs$5__3();
     // Get instance field reference: private BeatmapObjectData <minBeatmapObjectData>5__4
     GlobalNamespace::BeatmapObjectData*& dyn_$minBeatmapObjectData$5__4();
     // private BeatmapObjectData System.Collections.Generic.IEnumerator<BeatmapObjectData>.get_Current()

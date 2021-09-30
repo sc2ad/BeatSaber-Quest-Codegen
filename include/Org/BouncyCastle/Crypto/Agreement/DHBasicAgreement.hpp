@@ -39,6 +39,11 @@ namespace Org::BouncyCastle::Crypto::Agreement {
   // [TokenAttribute] Offset: FFFFFFFF
   class DHBasicAgreement : public ::Il2CppObject/*, public Org::BouncyCastle::Crypto::IBasicAgreement*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Org.BouncyCastle.Crypto.Parameters.DHPrivateKeyParameters key
     // Size: 0x8
     // Offset: 0x10
@@ -51,6 +56,7 @@ namespace Org::BouncyCastle::Crypto::Agreement {
     Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParams;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Crypto::Parameters::DHParameters*) == 0x8);
+    public:
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IBasicAgreement
     operator Org::BouncyCastle::Crypto::IBasicAgreement() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IBasicAgreement*>(this);

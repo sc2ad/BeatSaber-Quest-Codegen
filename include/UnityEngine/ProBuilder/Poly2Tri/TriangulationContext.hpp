@@ -43,6 +43,11 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   // [TokenAttribute] Offset: FFFFFFFF
   class TriangulationContext : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.ProBuilder.Poly2Tri.TriangulationDebugContext <DebugContext>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -87,6 +92,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     bool IsDebugEnabled;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private UnityEngine.ProBuilder.Poly2Tri.TriangulationDebugContext <DebugContext>k__BackingField
     UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext*& dyn_$DebugContext$k__BackingField();
     // Get instance field reference: public readonly System.Collections.Generic.List`1<UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle> Triangles

@@ -29,6 +29,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class FireworksItemPoolInstaller : public Zenject::MonoInstaller {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private FireworksController _fireworksController
     // Size: 0x8
     // Offset: 0x20
@@ -41,6 +46,7 @@ namespace GlobalNamespace {
     GlobalNamespace::FireworkItemController* fireworkItemControllerPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::FireworkItemController*) == 0x8);
+    public:
     // Get instance field reference: private FireworksController _fireworksController
     GlobalNamespace::FireworksController*& dyn__fireworksController();
     // Get instance field reference: private FireworkItemController _fireworkItemControllerPrefab

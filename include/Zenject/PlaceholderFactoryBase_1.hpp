@@ -45,6 +45,11 @@ namespace Zenject {
   template<typename TValue>
   class PlaceholderFactoryBase_1 : public ::Il2CppObject/*, public Zenject::IPlaceholderFactory*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Zenject.IProvider _provider
     // Size: 0x8
     // Offset: 0x0
@@ -57,6 +62,7 @@ namespace Zenject {
     Zenject::InjectContext* injectContext;
     // Field size check
     static_assert(sizeof(Zenject::InjectContext*) == 0x8);
+    public:
     // Creating interface conversion operator: operator Zenject::IPlaceholderFactory
     operator Zenject::IPlaceholderFactory() noexcept {
       return *reinterpret_cast<Zenject::IPlaceholderFactory*>(this);

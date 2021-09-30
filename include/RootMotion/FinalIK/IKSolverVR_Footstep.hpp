@@ -36,6 +36,11 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class IKSolverVR::Footstep : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Single stepSpeed
     // Size: 0x4
     // Offset: 0x10
@@ -122,6 +127,7 @@ namespace RootMotion::FinalIK {
     float supportLegWV;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: public System.Single stepSpeed
     float& dyn_stepSpeed();
     // Get instance field reference: public UnityEngine.Vector3 characterSpaceOffset

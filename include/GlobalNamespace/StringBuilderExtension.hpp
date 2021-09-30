@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text
@@ -24,9 +25,9 @@ namespace GlobalNamespace {
     public:
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEC9900
     // Get static field: static private System.Char[] charToInt
-    static ::ArrayWrapper<::Il2CppChar> _get_charToInt();
+    static ::ArrayW<::Il2CppChar> _get_charToInt();
     // Set static field: static private System.Char[] charToInt
-    static void _set_charToInt(::ArrayWrapper<::Il2CppChar> value);
+    static void _set_charToInt(::ArrayW<::Il2CppChar> value);
     // static private System.Void .cctor()
     // Offset: 0x259AE78
     static void _cctor();

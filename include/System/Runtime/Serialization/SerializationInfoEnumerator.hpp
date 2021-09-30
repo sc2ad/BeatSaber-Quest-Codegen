@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -33,24 +34,29 @@ namespace System::Runtime::Serialization {
   // [ComVisibleAttribute] Offset: E5F92C
   class SerializationInfoEnumerator : public ::Il2CppObject/*, public System::Collections::IEnumerator*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String[] m_members
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<::Il2CppString*> m_members;
+    ::ArrayW<::Il2CppString*> m_members;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // private System.Object[] m_data
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<::Il2CppObject*> m_data;
+    ::ArrayW<::Il2CppObject*> m_data;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppObject*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppObject*>) == 0x8);
     // private System.Type[] m_types
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<System::Type*> m_types;
+    ::ArrayW<System::Type*> m_types;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<System::Type*>) == 0x8);
+    static_assert(sizeof(::ArrayW<System::Type*>) == 0x8);
     // private System.Int32 m_numItems
     // Size: 0x4
     // Offset: 0x28
@@ -69,16 +75,17 @@ namespace System::Runtime::Serialization {
     bool m_current;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator System::Collections::IEnumerator
     operator System::Collections::IEnumerator() noexcept {
       return *reinterpret_cast<System::Collections::IEnumerator*>(this);
     }
     // Get instance field reference: private System.String[] m_members
-    ::ArrayWrapper<::Il2CppString*>& dyn_m_members();
+    ::ArrayW<::Il2CppString*>& dyn_m_members();
     // Get instance field reference: private System.Object[] m_data
-    ::ArrayWrapper<::Il2CppObject*>& dyn_m_data();
+    ::ArrayW<::Il2CppObject*>& dyn_m_data();
     // Get instance field reference: private System.Type[] m_types
-    ::ArrayWrapper<System::Type*>& dyn_m_types();
+    ::ArrayW<System::Type*>& dyn_m_types();
     // Get instance field reference: private System.Int32 m_numItems
     int& dyn_m_numItems();
     // Get instance field reference: private System.Int32 m_currItem
@@ -103,7 +110,7 @@ namespace System::Runtime::Serialization {
     // System.Void .ctor(System.String[] members, System.Object[] info, System.Type[] types, System.Int32 numItems)
     // Offset: 0x1916F98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static SerializationInfoEnumerator* New_ctor(::ArrayWrapper<::Il2CppString*> members, ::ArrayWrapper<::Il2CppObject*> info, ::ArrayWrapper<System::Type*> types, int numItems) {
+    static SerializationInfoEnumerator* New_ctor(::ArrayW<::Il2CppString*> members, ::ArrayW<::Il2CppObject*> info, ::ArrayW<System::Type*> types, int numItems) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::SerializationInfoEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SerializationInfoEnumerator*, creationType>(members, info, types, numItems)));
     }

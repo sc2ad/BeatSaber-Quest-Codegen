@@ -25,6 +25,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -67,18 +68,23 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::GameNoteController::Pool
     class Pool;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private BoxCuttableBySaber[] _bigCuttableBySaberList
     // Size: 0x8
     // Offset: 0x78
-    ::ArrayWrapper<GlobalNamespace::BoxCuttableBySaber*> bigCuttableBySaberList;
+    ::ArrayW<GlobalNamespace::BoxCuttableBySaber*> bigCuttableBySaberList;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::BoxCuttableBySaber*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::BoxCuttableBySaber*>) == 0x8);
     // private BoxCuttableBySaber[] _smallCuttableBySaberList
     // Size: 0x8
     // Offset: 0x80
-    ::ArrayWrapper<GlobalNamespace::BoxCuttableBySaber*> smallCuttableBySaberList;
+    ::ArrayW<GlobalNamespace::BoxCuttableBySaber*> smallCuttableBySaberList;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::BoxCuttableBySaber*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::BoxCuttableBySaber*>) == 0x8);
     // private UnityEngine.GameObject _wrapperGO
     // Size: 0x8
     // Offset: 0x88
@@ -125,6 +131,7 @@ namespace GlobalNamespace {
     float cutAngleTolerance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::ICubeNoteControllerInitializable_1<GlobalNamespace::GameNoteController*>
     operator GlobalNamespace::ICubeNoteControllerInitializable_1<GlobalNamespace::GameNoteController*>() noexcept {
       return *reinterpret_cast<GlobalNamespace::ICubeNoteControllerInitializable_1<GlobalNamespace::GameNoteController*>*>(this);
@@ -146,9 +153,9 @@ namespace GlobalNamespace {
       return *reinterpret_cast<GlobalNamespace::INoteMovementProvider*>(this);
     }
     // Get instance field reference: private BoxCuttableBySaber[] _bigCuttableBySaberList
-    ::ArrayWrapper<GlobalNamespace::BoxCuttableBySaber*>& dyn__bigCuttableBySaberList();
+    ::ArrayW<GlobalNamespace::BoxCuttableBySaber*>& dyn__bigCuttableBySaberList();
     // Get instance field reference: private BoxCuttableBySaber[] _smallCuttableBySaberList
-    ::ArrayWrapper<GlobalNamespace::BoxCuttableBySaber*>& dyn__smallCuttableBySaberList();
+    ::ArrayW<GlobalNamespace::BoxCuttableBySaber*>& dyn__smallCuttableBySaberList();
     // Get instance field reference: private UnityEngine.GameObject _wrapperGO
     UnityEngine::GameObject*& dyn__wrapperGO();
     // Get instance field reference: private readonly AudioTimeSyncController _audioTimeSyncController

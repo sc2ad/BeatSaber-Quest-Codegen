@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -93,6 +94,11 @@ namespace GlobalNamespace {
     class $RefreshDelayed$d__36;
     // Nested type: GlobalNamespace::CentralLeaderboardViewController::$LoadScoresAsync$d__37
     struct $LoadScoresAsync$d__37;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private LeaderboardTableView _leaderboardTableView
     // Size: 0x8
     // Offset: 0x70
@@ -194,21 +200,22 @@ namespace GlobalNamespace {
     // private CentralLeaderboardViewController/LeaderboardPanel[] _leaderboardPanels
     // Size: 0x8
     // Offset: 0xF0
-    ::ArrayWrapper<GlobalNamespace::CentralLeaderboardViewController::LeaderboardPanel*> leaderboardPanels;
+    ::ArrayW<GlobalNamespace::CentralLeaderboardViewController::LeaderboardPanel*> leaderboardPanels;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::CentralLeaderboardViewController::LeaderboardPanel*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::CentralLeaderboardViewController::LeaderboardPanel*>) == 0x8);
     // private CentralLeaderboardViewController/ScoreScopeInfo[] _scoreScopeInfos
     // Size: 0x8
     // Offset: 0xF8
-    ::ArrayWrapper<GlobalNamespace::CentralLeaderboardViewController::ScoreScopeInfo*> scoreScopeInfos;
+    ::ArrayW<GlobalNamespace::CentralLeaderboardViewController::ScoreScopeInfo*> scoreScopeInfos;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::CentralLeaderboardViewController::ScoreScopeInfo*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::CentralLeaderboardViewController::ScoreScopeInfo*>) == 0x8);
     // private GameplayModifiers _gameplayModifiers
     // Size: 0x8
     // Offset: 0x100
     GlobalNamespace::GameplayModifiers* gameplayModifiers;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayModifiers*) == 0x8);
+    public:
     // Get instance field reference: private LeaderboardTableView _leaderboardTableView
     GlobalNamespace::LeaderboardTableView*& dyn__leaderboardTableView();
     // Get instance field reference: private HMUI.IconSegmentedControl _scopeSegmentedControl
@@ -242,9 +249,9 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Threading.CancellationTokenSource _cancellationTokenSource
     System::Threading::CancellationTokenSource*& dyn__cancellationTokenSource();
     // Get instance field reference: private CentralLeaderboardViewController/LeaderboardPanel[] _leaderboardPanels
-    ::ArrayWrapper<GlobalNamespace::CentralLeaderboardViewController::LeaderboardPanel*>& dyn__leaderboardPanels();
+    ::ArrayW<GlobalNamespace::CentralLeaderboardViewController::LeaderboardPanel*>& dyn__leaderboardPanels();
     // Get instance field reference: private CentralLeaderboardViewController/ScoreScopeInfo[] _scoreScopeInfos
-    ::ArrayWrapper<GlobalNamespace::CentralLeaderboardViewController::ScoreScopeInfo*>& dyn__scoreScopeInfos();
+    ::ArrayW<GlobalNamespace::CentralLeaderboardViewController::ScoreScopeInfo*>& dyn__scoreScopeInfos();
     // Get instance field reference: private GameplayModifiers _gameplayModifiers
     GlobalNamespace::GameplayModifiers*& dyn__gameplayModifiers();
     // private GameplayModifiers get_gameplayModifiers()

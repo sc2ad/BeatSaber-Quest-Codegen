@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -37,12 +38,17 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BasicUIAudioManager : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Signal[] _buttonClickEvents
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<GlobalNamespace::Signal*> buttonClickEvents;
+    ::ArrayW<GlobalNamespace::Signal*> buttonClickEvents;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::Signal*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::Signal*>) == 0x8);
     // private UnityEngine.AudioSource _audioSource
     // Size: 0x8
     // Offset: 0x20
@@ -52,9 +58,9 @@ namespace GlobalNamespace {
     // private UnityEngine.AudioClip[] _clickSounds
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<UnityEngine::AudioClip*> clickSounds;
+    ::ArrayW<UnityEngine::AudioClip*> clickSounds;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::AudioClip*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::AudioClip*>) == 0x8);
     // private System.Single _minPitch
     // Size: 0x4
     // Offset: 0x30
@@ -73,14 +79,15 @@ namespace GlobalNamespace {
     GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>* randomSoundPicker;
     // Field size check
     static_assert(sizeof(GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private Signal[] _buttonClickEvents
-    ::ArrayWrapper<GlobalNamespace::Signal*>& dyn__buttonClickEvents();
+    ::ArrayW<GlobalNamespace::Signal*>& dyn__buttonClickEvents();
     // Get instance field reference: private UnityEngine.AudioSource _audioSource
     UnityEngine::AudioSource*& dyn__audioSource();
     // Get instance field reference: private UnityEngine.AudioClip[] _clickSounds
-    ::ArrayWrapper<UnityEngine::AudioClip*>& dyn__clickSounds();
+    ::ArrayW<UnityEngine::AudioClip*>& dyn__clickSounds();
     // Get instance field reference: private System.Single _minPitch
     float& dyn__minPitch();
     // Get instance field reference: private System.Single _maxPitch

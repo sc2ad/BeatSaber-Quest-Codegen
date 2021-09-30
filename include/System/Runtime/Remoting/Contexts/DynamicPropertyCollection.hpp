@@ -37,12 +37,18 @@ namespace System::Runtime::Remoting::Contexts {
     public:
     // Nested type: System::Runtime::Remoting::Contexts::DynamicPropertyCollection::DynamicPropertyReg
     class DynamicPropertyReg;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.ArrayList _properties
     // Size: 0x8
     // Offset: 0x10
     System::Collections::ArrayList* properties;
     // Field size check
     static_assert(sizeof(System::Collections::ArrayList*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Collections::ArrayList*
     constexpr operator System::Collections::ArrayList*() const noexcept {
       return properties;

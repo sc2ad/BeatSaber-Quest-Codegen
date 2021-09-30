@@ -18,6 +18,11 @@ namespace System::Runtime::Serialization {
   // [TokenAttribute] Offset: FFFFFFFF
   class FixupHolder : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Int64 m_id
     // Size: 0x8
     // Offset: 0x10
@@ -36,6 +41,7 @@ namespace System::Runtime::Serialization {
     int m_fixupType;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: System.Int64 m_id
     int64_t& dyn_m_id();
     // Get instance field reference: System.Object m_fixupInfo

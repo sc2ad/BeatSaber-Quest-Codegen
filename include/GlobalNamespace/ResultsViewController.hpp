@@ -69,6 +69,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::ResultsViewController::$StartFireworksAfterDelay$d__31
     class $StartFireworksAfterDelay$d__31;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.UI.Button _restartButton
     // Size: 0x8
     // Offset: 0x70
@@ -208,6 +213,7 @@ namespace GlobalNamespace {
     bool practice;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private UnityEngine.UI.Button _restartButton
     UnityEngine::UI::Button*& dyn__restartButton();
     // Get instance field reference: private UnityEngine.UI.Button _continueButton

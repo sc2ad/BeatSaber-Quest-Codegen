@@ -40,6 +40,11 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class OculusConnectionManager::OculusConnection::$$c__DisplayClass15_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Action`2<OculusConnectionManager/OculusConnection,System.Single> onPingResult
     // Size: 0x8
     // Offset: 0x10
@@ -52,6 +57,7 @@ namespace GlobalNamespace {
     GlobalNamespace::OculusConnectionManager::OculusConnection* $$4__this;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OculusConnectionManager::OculusConnection*) == 0x8);
+    public:
     // Get instance field reference: public System.Action`2<OculusConnectionManager/OculusConnection,System.Single> onPingResult
     System::Action_2<GlobalNamespace::OculusConnectionManager::OculusConnection*, float>*& dyn_onPingResult();
     // Get instance field reference: public OculusConnectionManager/OculusConnection <>4__this

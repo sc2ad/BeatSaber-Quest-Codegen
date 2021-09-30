@@ -27,6 +27,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ColorScheme : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String _colorSchemeId
     // Size: 0x8
     // Offset: 0x10
@@ -115,6 +120,7 @@ namespace GlobalNamespace {
     UnityEngine::Color environmentColor1Boost;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
+    public:
     // Get instance field reference: private System.String _colorSchemeId
     ::Il2CppString*& dyn__colorSchemeId();
     // Get instance field reference: private System.String _colorSchemeNameLocalizationKey

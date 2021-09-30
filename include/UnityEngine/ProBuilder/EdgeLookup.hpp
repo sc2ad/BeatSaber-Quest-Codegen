@@ -43,6 +43,11 @@ namespace UnityEngine::ProBuilder {
     public:
     // Nested type: UnityEngine::ProBuilder::EdgeLookup::$$c__DisplayClass16_0
     class $$c__DisplayClass16_0;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.ProBuilder.Edge m_Local
     // Size: 0x8
     // Offset: 0x0
@@ -55,6 +60,7 @@ namespace UnityEngine::ProBuilder {
     UnityEngine::ProBuilder::Edge m_Common;
     // Field size check
     static_assert(sizeof(UnityEngine::ProBuilder::Edge) == 0x8);
+    public:
     // Creating value type constructor for type: EdgeLookup
     constexpr EdgeLookup(UnityEngine::ProBuilder::Edge m_Local_ = {}, UnityEngine::ProBuilder::Edge m_Common_ = {}) noexcept : m_Local{m_Local_}, m_Common{m_Common_} {}
     // Creating interface conversion operator: operator System::ValueType

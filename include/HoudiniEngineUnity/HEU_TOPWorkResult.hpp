@@ -31,6 +31,11 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_TOPWorkResult : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 _workItemIndex
     // Size: 0x4
     // Offset: 0x10
@@ -49,6 +54,7 @@ namespace HoudiniEngineUnity {
     System::Collections::Generic::List_1<UnityEngine::GameObject*>* generatedGOs;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::GameObject*>*) == 0x8);
+    public:
     // Get instance field reference: public System.Int32 _workItemIndex
     int& dyn__workItemIndex();
     // Get instance field reference: public System.Int32 _workItemID

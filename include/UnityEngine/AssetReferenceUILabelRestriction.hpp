@@ -12,6 +12,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -29,26 +30,32 @@ namespace UnityEngine {
   // [AttributeUsageAttribute] Offset: EEC164
   class AssetReferenceUILabelRestriction : public UnityEngine::AssetReferenceUIRestriction {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.String[] m_AllowedLabels
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<::Il2CppString*> m_AllowedLabels;
+    ::ArrayW<::Il2CppString*> m_AllowedLabels;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // public System.String m_CachedToString
     // Size: 0x8
     // Offset: 0x18
     ::Il2CppString* m_CachedToString;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: public System.String[] m_AllowedLabels
-    ::ArrayWrapper<::Il2CppString*>& dyn_m_AllowedLabels();
+    ::ArrayW<::Il2CppString*>& dyn_m_AllowedLabels();
     // Get instance field reference: public System.String m_CachedToString
     ::Il2CppString*& dyn_m_CachedToString();
     // public System.Void .ctor(params System.String[] allowedLabels)
     // Offset: 0x25F09F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static AssetReferenceUILabelRestriction* New_ctor(::ArrayWrapper<::Il2CppString*> allowedLabels) {
+    static AssetReferenceUILabelRestriction* New_ctor(::ArrayW<::Il2CppString*> allowedLabels) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::AssetReferenceUILabelRestriction::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AssetReferenceUILabelRestriction*, creationType>(allowedLabels)));
     }

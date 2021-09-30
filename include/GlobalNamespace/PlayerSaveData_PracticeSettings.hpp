@@ -20,6 +20,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayerSaveData::PracticeSettings : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Single startSongTime
     // Size: 0x4
     // Offset: 0x10
@@ -32,6 +37,7 @@ namespace GlobalNamespace {
     float songSpeedMul;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: public System.Single startSongTime
     float& dyn_startSongTime();
     // Get instance field reference: public System.Single songSpeedMul

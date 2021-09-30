@@ -31,6 +31,11 @@ namespace TMPro {
     public:
     // Nested type: TMPro::FloatTween::FloatTweenCallback
     class FloatTweenCallback;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private TMPro.FloatTween/TMPro.FloatTweenCallback m_Target
     // Size: 0x8
     // Offset: 0x0
@@ -61,6 +66,7 @@ namespace TMPro {
     bool m_IgnoreTimeScale;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating value type constructor for type: FloatTween
     constexpr FloatTween(TMPro::FloatTween::FloatTweenCallback* m_Target_ = {}, float m_StartValue_ = {}, float m_TargetValue_ = {}, float m_Duration_ = {}, bool m_IgnoreTimeScale_ = {}) noexcept : m_Target{m_Target_}, m_StartValue{m_StartValue_}, m_TargetValue{m_TargetValue_}, m_Duration{m_Duration_}, m_IgnoreTimeScale{m_IgnoreTimeScale_} {}
     // Creating interface conversion operator: operator System::ValueType

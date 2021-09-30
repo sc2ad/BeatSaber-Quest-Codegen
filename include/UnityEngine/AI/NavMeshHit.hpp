@@ -20,6 +20,11 @@ namespace UnityEngine::AI {
   // [MovedFromAttribute] Offset: ECDA20
   struct NavMeshHit/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Vector3 m_Position
     // Size: 0xC
     // Offset: 0x0
@@ -50,6 +55,7 @@ namespace UnityEngine::AI {
     int m_Hit;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: NavMeshHit
     constexpr NavMeshHit(UnityEngine::Vector3 m_Position_ = {}, UnityEngine::Vector3 m_Normal_ = {}, float m_Distance_ = {}, int m_Mask_ = {}, int m_Hit_ = {}) noexcept : m_Position{m_Position_}, m_Normal{m_Normal_}, m_Distance{m_Distance_}, m_Mask{m_Mask_}, m_Hit{m_Hit_} {}
     // Creating interface conversion operator: operator System::ValueType

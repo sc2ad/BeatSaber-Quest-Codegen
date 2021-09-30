@@ -31,6 +31,11 @@ namespace Mono::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class CFNetwork::GetProxyData : public ::Il2CppObject/*, public System::IDisposable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.IntPtr script
     // Size: 0x8
     // Offset: 0x10
@@ -61,6 +66,7 @@ namespace Mono::Net {
     System::Threading::ManualResetEvent* evt;
     // Field size check
     static_assert(sizeof(System::Threading::ManualResetEvent*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

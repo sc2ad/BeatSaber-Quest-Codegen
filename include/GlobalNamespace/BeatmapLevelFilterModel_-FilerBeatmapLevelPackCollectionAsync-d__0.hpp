@@ -17,6 +17,7 @@
 #include "System/Threading/CancellationToken.hpp"
 // Including type: System.Runtime.CompilerServices.TaskAwaiter`1
 #include "System/Runtime/CompilerServices/TaskAwaiter_1.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -49,6 +50,11 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   struct BeatmapLevelFilterModel::$FilerBeatmapLevelPackCollectionAsync$d__0/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0
@@ -74,9 +80,9 @@ namespace GlobalNamespace {
     // public IBeatmapLevelPack[] beatmapLevelPacks
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<GlobalNamespace::IBeatmapLevelPack*> beatmapLevelPacks;
+    ::ArrayW<GlobalNamespace::IBeatmapLevelPack*> beatmapLevelPacks;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::IBeatmapLevelPack*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::IBeatmapLevelPack*>) == 0x8);
     // public AdditionalContentModel additionalContentModel
     // Size: 0x8
     // Offset: 0x38
@@ -99,8 +105,9 @@ namespace GlobalNamespace {
     // Size: 0xFFFFFFFF
     // Offset: 0x50
     System::Runtime::CompilerServices::TaskAwaiter_1<System::Collections::Generic::List_1<GlobalNamespace::IPreviewBeatmapLevel*>*> $$u__1;
+    public:
     // Creating value type constructor for type: $FilerBeatmapLevelPackCollectionAsync$d__0
-    constexpr $FilerBeatmapLevelPackCollectionAsync$d__0(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::IBeatmapLevelCollection*> $$t__builder_ = {}, GlobalNamespace::LevelFilterParams* levelFilterParams_ = {}, GlobalNamespace::PlayerDataModel* playerDataModel_ = {}, ::ArrayWrapper<GlobalNamespace::IBeatmapLevelPack*> beatmapLevelPacks_ = ::ArrayWrapper<GlobalNamespace::IBeatmapLevelPack*>(nullptr), GlobalNamespace::AdditionalContentModel* additionalContentModel_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, GlobalNamespace::BeatmapLevelFilterModel::$$c__DisplayClass0_0* $$8__1_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<System::Collections::Generic::List_1<GlobalNamespace::IPreviewBeatmapLevel*>*> $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, levelFilterParams{levelFilterParams_}, playerDataModel{playerDataModel_}, beatmapLevelPacks{beatmapLevelPacks_}, additionalContentModel{additionalContentModel_}, cancellationToken{cancellationToken_}, $$8__1{$$8__1_}, $$u__1{$$u__1_} {}
+    constexpr $FilerBeatmapLevelPackCollectionAsync$d__0(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::IBeatmapLevelCollection*> $$t__builder_ = {}, GlobalNamespace::LevelFilterParams* levelFilterParams_ = {}, GlobalNamespace::PlayerDataModel* playerDataModel_ = {}, ::ArrayW<GlobalNamespace::IBeatmapLevelPack*> beatmapLevelPacks_ = ::ArrayW<GlobalNamespace::IBeatmapLevelPack*>(nullptr), GlobalNamespace::AdditionalContentModel* additionalContentModel_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, GlobalNamespace::BeatmapLevelFilterModel::$$c__DisplayClass0_0* $$8__1_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<System::Collections::Generic::List_1<GlobalNamespace::IPreviewBeatmapLevel*>*> $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, levelFilterParams{levelFilterParams_}, playerDataModel{playerDataModel_}, beatmapLevelPacks{beatmapLevelPacks_}, additionalContentModel{additionalContentModel_}, cancellationToken{cancellationToken_}, $$8__1{$$8__1_}, $$u__1{$$u__1_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -118,7 +125,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public PlayerDataModel playerDataModel
     GlobalNamespace::PlayerDataModel*& dyn_playerDataModel();
     // Get instance field reference: public IBeatmapLevelPack[] beatmapLevelPacks
-    ::ArrayWrapper<GlobalNamespace::IBeatmapLevelPack*>& dyn_beatmapLevelPacks();
+    ::ArrayW<GlobalNamespace::IBeatmapLevelPack*>& dyn_beatmapLevelPacks();
     // Get instance field reference: public AdditionalContentModel additionalContentModel
     GlobalNamespace::AdditionalContentModel*& dyn_additionalContentModel();
     // Get instance field reference: public System.Threading.CancellationToken cancellationToken

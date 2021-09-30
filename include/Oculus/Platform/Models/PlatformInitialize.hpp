@@ -22,12 +22,18 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlatformInitialize : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly Oculus.Platform.PlatformInitializeResult Result
     // Size: 0x4
     // Offset: 0x10
     Oculus::Platform::PlatformInitializeResult Result;
     // Field size check
     static_assert(sizeof(Oculus::Platform::PlatformInitializeResult) == 0x4);
+    public:
     // Creating conversion operator: operator Oculus::Platform::PlatformInitializeResult
     constexpr operator Oculus::Platform::PlatformInitializeResult() const noexcept {
       return Result;

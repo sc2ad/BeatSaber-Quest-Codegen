@@ -45,6 +45,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::EulaViewController::InitData
     class InitData;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.UI.Button _agreeButton
     // Size: 0x8
     // Offset: 0x70
@@ -82,6 +87,7 @@ namespace GlobalNamespace {
     GlobalNamespace::EulaViewController::InitData* initData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::EulaViewController::InitData*) == 0x8);
+    public:
     // Get instance field reference: private UnityEngine.UI.Button _agreeButton
     UnityEngine::UI::Button*& dyn__agreeButton();
     // Get instance field reference: private UnityEngine.UI.Button _doNotAgreeButton

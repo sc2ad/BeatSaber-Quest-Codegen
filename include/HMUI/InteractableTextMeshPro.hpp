@@ -38,6 +38,11 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class InteractableTextMeshPro : public UnityEngine::EventSystems::UIBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Single _interactionAlpha
     // Size: 0x4
     // Offset: 0x18
@@ -63,6 +68,7 @@ namespace HMUI {
     System::Collections::Generic::List_1<UnityEngine::CanvasGroup*>* canvasGroupCache;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::CanvasGroup*>*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single _interactionAlpha

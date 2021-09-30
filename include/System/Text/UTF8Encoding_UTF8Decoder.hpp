@@ -29,12 +29,18 @@ namespace System::Text {
   // [TokenAttribute] Offset: FFFFFFFF
   class UTF8Encoding::UTF8Decoder : public System::Text::DecoderNLS {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Int32 bits
     // Size: 0x4
     // Offset: 0x30
     int bits;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return bits;

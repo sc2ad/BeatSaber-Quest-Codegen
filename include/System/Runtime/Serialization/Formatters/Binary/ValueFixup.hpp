@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -39,6 +40,11 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   // [TokenAttribute] Offset: FFFFFFFF
   class ValueFixup : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Runtime.Serialization.Formatters.Binary.ValueFixupEnum valueFixupEnum
     // Size: 0x4
     // Offset: 0x10
@@ -56,9 +62,9 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // System.Int32[] indexMap
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<int> indexMap;
+    ::ArrayW<int> indexMap;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // System.Object header
     // Size: 0x8
     // Offset: 0x28
@@ -83,6 +89,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     ::Il2CppString* memberName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get static field: static System.Reflection.MemberInfo valueInfo
     static System::Reflection::MemberInfo* _get_valueInfo();
     // Set static field: static System.Reflection.MemberInfo valueInfo
@@ -92,7 +99,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: System.Array arrayObj
     System::Array*& dyn_arrayObj();
     // Get instance field reference: System.Int32[] indexMap
-    ::ArrayWrapper<int>& dyn_indexMap();
+    ::ArrayW<int>& dyn_indexMap();
     // Get instance field reference: System.Object header
     ::Il2CppObject*& dyn_header();
     // Get instance field reference: System.Object memberObject
@@ -104,7 +111,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // System.Void .ctor(System.Array arrayObj, System.Int32[] indexMap)
     // Offset: 0x17F0E14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ValueFixup* New_ctor(System::Array* arrayObj, ::ArrayWrapper<int> indexMap) {
+    static ValueFixup* New_ctor(System::Array* arrayObj, ::ArrayW<int> indexMap) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Serialization::Formatters::Binary::ValueFixup::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ValueFixup*, creationType>(arrayObj, indexMap)));
     }

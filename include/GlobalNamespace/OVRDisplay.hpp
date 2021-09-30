@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -57,6 +58,11 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct EyeFov/*, public System::ValueType*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Single UpFov
       // Size: 0x4
       // Offset: 0x0
@@ -81,6 +87,7 @@ namespace GlobalNamespace {
       float RightFov;
       // Field size check
       static_assert(sizeof(float) == 0x4);
+      public:
       // Creating value type constructor for type: EyeFov
       constexpr EyeFov(float UpFov_ = {}, float DownFov_ = {}, float LeftFov_ = {}, float RightFov_ = {}) noexcept : UpFov{UpFov_}, DownFov{DownFov_}, LeftFov{LeftFov_}, RightFov{RightFov_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -106,6 +113,11 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct EyeRenderDesc/*, public System::ValueType*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public UnityEngine.Vector2 resolution
       // Size: 0x8
       // Offset: 0x0
@@ -124,6 +136,7 @@ namespace GlobalNamespace {
       GlobalNamespace::OVRDisplay::EyeFov fullFov;
       // Field size check
       static_assert(sizeof(GlobalNamespace::OVRDisplay::EyeFov) == 0x10);
+      public:
       // Creating value type constructor for type: EyeRenderDesc
       constexpr EyeRenderDesc(UnityEngine::Vector2 resolution_ = {}, UnityEngine::Vector2 fov_ = {}, GlobalNamespace::OVRDisplay::EyeFov fullFov_ = {}) noexcept : resolution{resolution_}, fov{fov_}, fullFov{fullFov_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -140,6 +153,11 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(OVRDisplay::EyeRenderDesc), 16 + sizeof(GlobalNamespace::OVRDisplay::EyeFov)> __GlobalNamespace_OVRDisplay_EyeRenderDescSizeCheck;
     static_assert(sizeof(OVRDisplay::EyeRenderDesc) == 0x20);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean needsConfigureTexture
     // Size: 0x1
     // Offset: 0x10
@@ -151,9 +169,9 @@ namespace GlobalNamespace {
     // private OVRDisplay/EyeRenderDesc[] eyeDescs
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<GlobalNamespace::OVRDisplay::EyeRenderDesc> eyeDescs;
+    ::ArrayW<GlobalNamespace::OVRDisplay::EyeRenderDesc> eyeDescs;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::OVRDisplay::EyeRenderDesc>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::OVRDisplay::EyeRenderDesc>) == 0x8);
     // private System.Boolean recenterRequested
     // Size: 0x1
     // Offset: 0x20
@@ -182,10 +200,11 @@ namespace GlobalNamespace {
     System::Action* RecenteredPose;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
+    public:
     // Get instance field reference: private System.Boolean needsConfigureTexture
     bool& dyn_needsConfigureTexture();
     // Get instance field reference: private OVRDisplay/EyeRenderDesc[] eyeDescs
-    ::ArrayWrapper<GlobalNamespace::OVRDisplay::EyeRenderDesc>& dyn_eyeDescs();
+    ::ArrayW<GlobalNamespace::OVRDisplay::EyeRenderDesc>& dyn_eyeDescs();
     // Get instance field reference: private System.Boolean recenterRequested
     bool& dyn_recenterRequested();
     // Get instance field reference: private System.Int32 recenterRequestedFrameCount
@@ -217,7 +236,7 @@ namespace GlobalNamespace {
     int get_recommendedMSAALevel();
     // public System.Single[] get_displayFrequenciesAvailable()
     // Offset: 0x13C07C0
-    ::ArrayWrapper<float> get_displayFrequenciesAvailable();
+    ::ArrayW<float> get_displayFrequenciesAvailable();
     // public System.Single get_displayFrequency()
     // Offset: 0x13C0820
     float get_displayFrequency();
@@ -322,7 +341,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Writing MetadataGetter for method: GlobalNamespace::OVRDisplay::get_displayFrequenciesAvailable
 // Il2CppName: get_displayFrequenciesAvailable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<float> (GlobalNamespace::OVRDisplay::*)()>(&GlobalNamespace::OVRDisplay::get_displayFrequenciesAvailable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<float> (GlobalNamespace::OVRDisplay::*)()>(&GlobalNamespace::OVRDisplay::get_displayFrequenciesAvailable)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRDisplay*), "get_displayFrequenciesAvailable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -36,6 +36,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class TutorialPause : public ::Il2CppObject/*, public GlobalNamespace::IGamePause*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xF0B300
     // private readonly TutorialSongController _tutorialSongController
     // Size: 0x8
@@ -81,6 +86,7 @@ namespace GlobalNamespace {
     bool pause;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IGamePause
     operator GlobalNamespace::IGamePause() noexcept {
       return *reinterpret_cast<GlobalNamespace::IGamePause*>(this);

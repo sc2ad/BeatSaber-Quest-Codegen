@@ -45,6 +45,11 @@ namespace Org::BouncyCastle::Asn1::X509 {
   // [TokenAttribute] Offset: FFFFFFFF
   class X509Extensions : public Org::BouncyCastle::Asn1::Asn1Encodable {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Collections.IDictionary extensions
     // Size: 0x8
     // Offset: 0x10
@@ -57,6 +62,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
     System::Collections::IList* ordering;
     // Field size check
     static_assert(sizeof(System::Collections::IList*) == 0x8);
+    public:
     // Get static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier SubjectDirectoryAttributes
     static Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_SubjectDirectoryAttributes();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier SubjectDirectoryAttributes

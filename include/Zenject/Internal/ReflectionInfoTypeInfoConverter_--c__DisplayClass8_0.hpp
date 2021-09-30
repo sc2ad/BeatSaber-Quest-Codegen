@@ -34,6 +34,11 @@ namespace Zenject::Internal {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class ReflectionInfoTypeInfoConverter::$$c__DisplayClass8_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.String propertyName
     // Size: 0x8
     // Offset: 0x10
@@ -46,6 +51,7 @@ namespace Zenject::Internal {
     System::Collections::Generic::List_1<System::Reflection::FieldInfo*>* writeableFields;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<System::Reflection::FieldInfo*>*) == 0x8);
+    public:
     // Get instance field reference: public System.String propertyName
     ::Il2CppString*& dyn_propertyName();
     // Get instance field reference: public System.Collections.Generic.List`1<System.Reflection.FieldInfo> writeableFields

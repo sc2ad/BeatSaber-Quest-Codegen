@@ -60,6 +60,11 @@ namespace GlobalNamespace {
     char ___base_padding[0x3] = {};
     // Nested type: GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::InitData
     class InitData;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Nullable`1<System.Single> _firstBasicNoteTime
     // Size: 0xFFFFFFFF
     // Offset: 0x64
@@ -94,6 +99,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::InitData* initData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager::InitData*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

@@ -24,6 +24,11 @@ namespace OnlineServices::API {
   template<typename T>
   struct ApiResponse_1/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly OnlineServices.API.Response response
     // Size: 0x4
     // Offset: 0x0
@@ -34,6 +39,7 @@ namespace OnlineServices::API {
     // Size: 0xFFFFFFFF
     // Offset: 0x0
     T responseDto;
+    public:
     // Creating value type constructor for type: ApiResponse_1
     constexpr ApiResponse_1(OnlineServices::API::Response response_ = {}, T responseDto_ = {}) noexcept : response{response_}, responseDto{responseDto_} {}
     // Creating interface conversion operator: operator System::ValueType

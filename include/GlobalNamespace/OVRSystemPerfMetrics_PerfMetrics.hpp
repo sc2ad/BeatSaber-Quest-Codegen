@@ -20,6 +20,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRSystemPerfMetrics::PerfMetrics : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 frameCount
     // Size: 0x4
     // Offset: 0x10
@@ -206,6 +211,7 @@ namespace GlobalNamespace {
     int deviceGpuClockLevel;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: public System.Int32 frameCount
     int& dyn_frameCount();
     // Get instance field reference: public System.Single frameTime

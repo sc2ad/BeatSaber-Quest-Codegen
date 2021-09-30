@@ -48,6 +48,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SearchFilterParamsViewController : public HMUI::ViewController {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.UI.Toggle _filterByOwnedToggle
     // Size: 0x8
     // Offset: 0x70
@@ -138,6 +143,7 @@ namespace GlobalNamespace {
     System::Action_2<GlobalNamespace::SearchFilterParamsViewController*, GlobalNamespace::LevelFilterParams*>* didFinishEvent;
     // Field size check
     static_assert(sizeof(System::Action_2<GlobalNamespace::SearchFilterParamsViewController*, GlobalNamespace::LevelFilterParams*>*) == 0x8);
+    public:
     // Get instance field reference: private UnityEngine.UI.Toggle _filterByOwnedToggle
     UnityEngine::UI::Toggle*& dyn__filterByOwnedToggle();
     // Get instance field reference: private UnityEngine.UI.Toggle _filterByCharacteristicToggle

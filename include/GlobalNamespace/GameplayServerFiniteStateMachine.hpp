@@ -42,6 +42,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GameplayServerFiniteStateMachine : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private MasterServer.ITimeProvider <timeProvider>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -102,6 +107,7 @@ namespace GlobalNamespace {
     bool enteringState;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private MasterServer.ITimeProvider <timeProvider>k__BackingField
     MasterServer::ITimeProvider*& dyn_$timeProvider$k__BackingField();
     // Get instance field reference: private IMultiplayerSessionManager <multiplayerSessionManager>k__BackingField

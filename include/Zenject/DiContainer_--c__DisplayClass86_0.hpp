@@ -33,12 +33,18 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class DiContainer::$$c__DisplayClass86_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public Zenject.InjectContext context
     // Size: 0x8
     // Offset: 0x10
     Zenject::InjectContext* context;
     // Field size check
     static_assert(sizeof(Zenject::InjectContext*) == 0x8);
+    public:
     // Creating conversion operator: operator Zenject::InjectContext*
     constexpr operator Zenject::InjectContext*() const noexcept {
       return context;

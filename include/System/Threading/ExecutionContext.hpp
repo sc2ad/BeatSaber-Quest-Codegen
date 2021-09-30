@@ -74,12 +74,18 @@ namespace System::Threading {
     // [TokenAttribute] Offset: FFFFFFFF
     struct Flags/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: Flags
       constexpr Flags(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -120,6 +126,11 @@ namespace System::Threading {
     #pragma pack(pop)
     static check_size<sizeof(ExecutionContext::Flags), 0 + sizeof(int)> __System_Threading_ExecutionContext_FlagsSizeCheck;
     static_assert(sizeof(ExecutionContext::Flags) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Threading.SynchronizationContext _syncContext
     // Size: 0x8
     // Offset: 0x10
@@ -164,6 +175,7 @@ namespace System::Threading {
     System::Collections::Generic::List_1<System::Threading::IAsyncLocal*>* localChangeNotifications;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<System::Threading::IAsyncLocal*>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

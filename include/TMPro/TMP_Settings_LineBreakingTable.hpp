@@ -28,6 +28,11 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class TMP_Settings::LineBreakingTable : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Collections.Generic.Dictionary`2<System.Int32,System.Char> leadingCharacters
     // Size: 0x8
     // Offset: 0x10
@@ -40,6 +45,7 @@ namespace TMPro {
     System::Collections::Generic::Dictionary_2<int, ::Il2CppChar>* followingCharacters;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<int, ::Il2CppChar>*) == 0x8);
+    public:
     // Get instance field reference: public System.Collections.Generic.Dictionary`2<System.Int32,System.Char> leadingCharacters
     System::Collections::Generic::Dictionary_2<int, ::Il2CppChar>*& dyn_leadingCharacters();
     // Get instance field reference: public System.Collections.Generic.Dictionary`2<System.Int32,System.Char> followingCharacters

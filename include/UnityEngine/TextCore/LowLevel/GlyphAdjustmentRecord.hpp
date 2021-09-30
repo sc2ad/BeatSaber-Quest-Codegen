@@ -19,6 +19,11 @@ namespace UnityEngine::TextCore::LowLevel {
   // [UsedByNativeCodeAttribute] Offset: EA5608
   struct GlyphAdjustmentRecord/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [NativeNameAttribute] Offset: 0xEA624C
     // private System.UInt32 m_GlyphIndex
     // Size: 0x4
@@ -33,6 +38,7 @@ namespace UnityEngine::TextCore::LowLevel {
     UnityEngine::TextCore::LowLevel::GlyphValueRecord m_GlyphValueRecord;
     // Field size check
     static_assert(sizeof(UnityEngine::TextCore::LowLevel::GlyphValueRecord) == 0x10);
+    public:
     // Creating value type constructor for type: GlyphAdjustmentRecord
     constexpr GlyphAdjustmentRecord(uint m_GlyphIndex_ = {}, UnityEngine::TextCore::LowLevel::GlyphValueRecord m_GlyphValueRecord_ = {}) noexcept : m_GlyphIndex{m_GlyphIndex_}, m_GlyphValueRecord{m_GlyphValueRecord_} {}
     // Creating interface conversion operator: operator System::ValueType

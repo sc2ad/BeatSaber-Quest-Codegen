@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -49,6 +50,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerResultsPyramidView : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private MultiplayerOffsetPositionByLocalPlayerPosition _multiplayerOffsetByLocalPlayerPosition
     // Size: 0x8
     // Offset: 0x18
@@ -58,9 +64,9 @@ namespace GlobalNamespace {
     // private UnityEngine.Transform[] _spawnPoints
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<UnityEngine::Transform*> spawnPoints;
+    ::ArrayW<UnityEngine::Transform*> spawnPoints;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Transform*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Transform*>) == 0x8);
     // private UnityEngine.Transform _spawnPointsParent
     // Size: 0x8
     // Offset: 0x28
@@ -91,27 +97,28 @@ namespace GlobalNamespace {
     // private UnityEngine.GameObject[] _resultAvatarDirectors
     // Size: 0x8
     // Offset: 0x48
-    ::ArrayWrapper<UnityEngine::GameObject*> resultAvatarDirectors;
+    ::ArrayW<UnityEngine::GameObject*> resultAvatarDirectors;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::GameObject*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::GameObject*>) == 0x8);
     // private UnityEngine.GameObject[] _badgeTimelines
     // Size: 0x8
     // Offset: 0x50
-    ::ArrayWrapper<UnityEngine::GameObject*> badgeTimelines;
+    ::ArrayW<UnityEngine::GameObject*> badgeTimelines;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::GameObject*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::GameObject*>) == 0x8);
     // private MultiplayerResultsPyramidViewAvatar _anyResultsAvatar
     // Size: 0x8
     // Offset: 0x58
     GlobalNamespace::MultiplayerResultsPyramidViewAvatar* anyResultsAvatar;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerResultsPyramidViewAvatar*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MultiplayerOffsetPositionByLocalPlayerPosition _multiplayerOffsetByLocalPlayerPosition
     GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*& dyn__multiplayerOffsetByLocalPlayerPosition();
     // Get instance field reference: private UnityEngine.Transform[] _spawnPoints
-    ::ArrayWrapper<UnityEngine::Transform*>& dyn__spawnPoints();
+    ::ArrayW<UnityEngine::Transform*>& dyn__spawnPoints();
     // Get instance field reference: private UnityEngine.Transform _spawnPointsParent
     UnityEngine::Transform*& dyn__spawnPointsParent();
     // Get instance field reference: private System.Single _evenCountOffset
@@ -121,17 +128,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.String,MultiplayerResultsPyramidViewAvatar> _avatarsDictionary
     System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerResultsPyramidViewAvatar*>*& dyn__avatarsDictionary();
     // Get instance field reference: private UnityEngine.GameObject[] _resultAvatarDirectors
-    ::ArrayWrapper<UnityEngine::GameObject*>& dyn__resultAvatarDirectors();
+    ::ArrayW<UnityEngine::GameObject*>& dyn__resultAvatarDirectors();
     // Get instance field reference: private UnityEngine.GameObject[] _badgeTimelines
-    ::ArrayWrapper<UnityEngine::GameObject*>& dyn__badgeTimelines();
+    ::ArrayW<UnityEngine::GameObject*>& dyn__badgeTimelines();
     // Get instance field reference: private MultiplayerResultsPyramidViewAvatar _anyResultsAvatar
     GlobalNamespace::MultiplayerResultsPyramidViewAvatar*& dyn__anyResultsAvatar();
     // public UnityEngine.GameObject[] get_resultAvatarDirectors()
     // Offset: 0x112B5CC
-    ::ArrayWrapper<UnityEngine::GameObject*> get_resultAvatarDirectors();
+    ::ArrayW<UnityEngine::GameObject*> get_resultAvatarDirectors();
     // public UnityEngine.GameObject[] get_badgeTimelines()
     // Offset: 0x112B5D4
-    ::ArrayWrapper<UnityEngine::GameObject*> get_badgeTimelines();
+    ::ArrayW<UnityEngine::GameObject*> get_badgeTimelines();
     // public System.Void PrespawnAvatars(System.Collections.Generic.IReadOnlyList`1<IConnectedPlayer> activePlayers)
     // Offset: 0x112B5DC
     void PrespawnAvatars(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IConnectedPlayer*>* activePlayers);
@@ -161,7 +168,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerResultsPyramidView*, "", "Mul
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerResultsPyramidView::get_resultAvatarDirectors
 // Il2CppName: get_resultAvatarDirectors
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::GameObject*> (GlobalNamespace::MultiplayerResultsPyramidView::*)()>(&GlobalNamespace::MultiplayerResultsPyramidView::get_resultAvatarDirectors)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::GameObject*> (GlobalNamespace::MultiplayerResultsPyramidView::*)()>(&GlobalNamespace::MultiplayerResultsPyramidView::get_resultAvatarDirectors)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerResultsPyramidView*), "get_resultAvatarDirectors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -169,7 +176,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerResultsPyramidView::get_badgeTimelines
 // Il2CppName: get_badgeTimelines
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::GameObject*> (GlobalNamespace::MultiplayerResultsPyramidView::*)()>(&GlobalNamespace::MultiplayerResultsPyramidView::get_badgeTimelines)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::GameObject*> (GlobalNamespace::MultiplayerResultsPyramidView::*)()>(&GlobalNamespace::MultiplayerResultsPyramidView::get_badgeTimelines)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerResultsPyramidView*), "get_badgeTimelines", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

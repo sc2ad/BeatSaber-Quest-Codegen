@@ -7,6 +7,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Globalization
@@ -33,6 +34,11 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   struct __DTString/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.String Value
     // Size: 0x8
     // Offset: 0x0
@@ -71,6 +77,7 @@ namespace System {
     bool m_checkDigitToken;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating value type constructor for type: __DTString
     constexpr __DTString(::Il2CppString* Value_ = {}, int Index_ = {}, int len_ = {}, ::Il2CppChar m_current_ = {}, System::Globalization::CompareInfo* m_info_ = {}, bool m_checkDigitToken_ = {}) noexcept : Value{Value_}, Index{Index_}, len{len_}, m_current{m_current_}, m_info{m_info_}, m_checkDigitToken{m_checkDigitToken_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -78,9 +85,9 @@ namespace System {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // Get static field: static private System.Char[] WhiteSpaceChecks
-    static ::ArrayWrapper<::Il2CppChar> _get_WhiteSpaceChecks();
+    static ::ArrayW<::Il2CppChar> _get_WhiteSpaceChecks();
     // Set static field: static private System.Char[] WhiteSpaceChecks
-    static void _set_WhiteSpaceChecks(::ArrayWrapper<::Il2CppChar> value);
+    static void _set_WhiteSpaceChecks(::ArrayW<::Il2CppChar> value);
     // Get instance field reference: System.String Value
     ::Il2CppString*& dyn_Value();
     // Get instance field reference: System.Int32 Index
@@ -137,7 +144,7 @@ namespace System {
     bool Match(::Il2CppChar ch);
     // System.Int32 MatchLongestWords(System.String[] words, ref System.Int32 maxMatchStrLen)
     // Offset: 0x253A260
-    int MatchLongestWords(::ArrayWrapper<::Il2CppString*> words, ByRef<int> maxMatchStrLen);
+    int MatchLongestWords(::ArrayW<::Il2CppString*> words, ByRef<int> maxMatchStrLen);
     // System.Int32 GetRepeatCount()
     // Offset: 0x253A324
     int GetRepeatCount();
@@ -301,7 +308,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::__DTString::MatchLongestWords
 // Il2CppName: MatchLongestWords
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::__DTString::*)(::ArrayWrapper<::Il2CppString*>, ByRef<int>)>(&System::__DTString::MatchLongestWords)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::__DTString::*)(::ArrayW<::Il2CppString*>, ByRef<int>)>(&System::__DTString::MatchLongestWords)> {
   static const MethodInfo* get() {
     static auto* words = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     static auto* maxMatchStrLen = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;

@@ -19,6 +19,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -60,12 +61,18 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct MeshComplexityLevel/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: MeshComplexityLevel
       constexpr MeshComplexityLevel(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -118,12 +125,18 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct FalloffType/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: FalloffType
       constexpr FalloffType(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -152,6 +165,11 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(OVRVignette::FalloffType), 0 + sizeof(int)> __GlobalNamespace_OVRVignette_FalloffTypeSizeCheck;
     static_assert(sizeof(OVRVignette::FalloffType) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Shader VignetteShader
     // Size: 0x8
     // Offset: 0x18
@@ -272,27 +290,27 @@ namespace GlobalNamespace {
     // private UnityEngine.Vector4[] _TransparentScaleAndOffset0
     // Size: 0x8
     // Offset: 0x98
-    ::ArrayWrapper<UnityEngine::Vector4> TransparentScaleAndOffset0;
+    ::ArrayW<UnityEngine::Vector4> TransparentScaleAndOffset0;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector4>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Vector4>) == 0x8);
     // private UnityEngine.Vector4[] _TransparentScaleAndOffset1
     // Size: 0x8
     // Offset: 0xA0
-    ::ArrayWrapper<UnityEngine::Vector4> TransparentScaleAndOffset1;
+    ::ArrayW<UnityEngine::Vector4> TransparentScaleAndOffset1;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector4>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Vector4>) == 0x8);
     // private UnityEngine.Vector4[] _OpaqueScaleAndOffset0
     // Size: 0x8
     // Offset: 0xA8
-    ::ArrayWrapper<UnityEngine::Vector4> OpaqueScaleAndOffset0;
+    ::ArrayW<UnityEngine::Vector4> OpaqueScaleAndOffset0;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector4>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Vector4>) == 0x8);
     // private UnityEngine.Vector4[] _OpaqueScaleAndOffset1
     // Size: 0x8
     // Offset: 0xB0
-    ::ArrayWrapper<UnityEngine::Vector4> OpaqueScaleAndOffset1;
+    ::ArrayW<UnityEngine::Vector4> OpaqueScaleAndOffset1;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector4>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Vector4>) == 0x8);
     // private System.Boolean _OpaqueVignetteVisible
     // Size: 0x1
     // Offset: 0xB8
@@ -305,6 +323,7 @@ namespace GlobalNamespace {
     bool TransparentVignetteVisible;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static private readonly System.String QUADRATIC_FALLOFF
@@ -348,13 +367,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 _ShaderScaleAndOffset1Property
     int& dyn__ShaderScaleAndOffset1Property();
     // Get instance field reference: private UnityEngine.Vector4[] _TransparentScaleAndOffset0
-    ::ArrayWrapper<UnityEngine::Vector4>& dyn__TransparentScaleAndOffset0();
+    ::ArrayW<UnityEngine::Vector4>& dyn__TransparentScaleAndOffset0();
     // Get instance field reference: private UnityEngine.Vector4[] _TransparentScaleAndOffset1
-    ::ArrayWrapper<UnityEngine::Vector4>& dyn__TransparentScaleAndOffset1();
+    ::ArrayW<UnityEngine::Vector4>& dyn__TransparentScaleAndOffset1();
     // Get instance field reference: private UnityEngine.Vector4[] _OpaqueScaleAndOffset0
-    ::ArrayWrapper<UnityEngine::Vector4>& dyn__OpaqueScaleAndOffset0();
+    ::ArrayW<UnityEngine::Vector4>& dyn__OpaqueScaleAndOffset0();
     // Get instance field reference: private UnityEngine.Vector4[] _OpaqueScaleAndOffset1
-    ::ArrayWrapper<UnityEngine::Vector4>& dyn__OpaqueScaleAndOffset1();
+    ::ArrayW<UnityEngine::Vector4>& dyn__OpaqueScaleAndOffset1();
     // Get instance field reference: private System.Boolean _OpaqueVignetteVisible
     bool& dyn__OpaqueVignetteVisible();
     // Get instance field reference: private System.Boolean _TransparentVignetteVisible

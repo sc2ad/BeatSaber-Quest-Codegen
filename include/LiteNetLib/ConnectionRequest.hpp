@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: LiteNetLib
@@ -43,6 +44,11 @@ namespace LiteNetLib {
   // [TokenAttribute] Offset: FFFFFFFF
   class ConnectionRequest : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly LiteNetLib.NetManager _listener
     // Size: 0x8
     // Offset: 0x10
@@ -91,6 +97,7 @@ namespace LiteNetLib {
     System::Net::IPEndPoint* RemoteEndPoint;
     // Field size check
     static_assert(sizeof(System::Net::IPEndPoint*) == 0x8);
+    public:
     // Get instance field reference: private readonly LiteNetLib.NetManager _listener
     LiteNetLib::NetManager*& dyn__listener();
     // Get instance field reference: private System.Int32 _used
@@ -132,19 +139,19 @@ namespace LiteNetLib {
     LiteNetLib::NetPeer* Accept();
     // public System.Void Reject(System.Byte[] rejectData, System.Int32 start, System.Int32 length, System.Boolean force)
     // Offset: 0x1DCFF98
-    void Reject(::ArrayWrapper<uint8_t> rejectData, int start, int length, bool force);
+    void Reject(::ArrayW<uint8_t> rejectData, int start, int length, bool force);
     // public System.Void Reject(System.Byte[] rejectData, System.Int32 start, System.Int32 length)
     // Offset: 0x1DD0030
-    void Reject(::ArrayWrapper<uint8_t> rejectData, int start, int length);
+    void Reject(::ArrayW<uint8_t> rejectData, int start, int length);
     // public System.Void RejectForce(System.Byte[] rejectData, System.Int32 start, System.Int32 length)
     // Offset: 0x1DD0038
-    void RejectForce(::ArrayWrapper<uint8_t> rejectData, int start, int length);
+    void RejectForce(::ArrayW<uint8_t> rejectData, int start, int length);
     // public System.Void RejectForce()
     // Offset: 0x1DD0040
     void RejectForce();
     // public System.Void RejectForce(System.Byte[] rejectData)
     // Offset: 0x1DD0054
-    void RejectForce(::ArrayWrapper<uint8_t> rejectData);
+    void RejectForce(::ArrayW<uint8_t> rejectData);
     // public System.Void RejectForce(LiteNetLib.Utils.NetDataWriter rejectData)
     // Offset: 0x1DD0074
     void RejectForce(LiteNetLib::Utils::NetDataWriter* rejectData);
@@ -153,7 +160,7 @@ namespace LiteNetLib {
     void Reject();
     // public System.Void Reject(System.Byte[] rejectData)
     // Offset: 0x1DD00B0
-    void Reject(::ArrayWrapper<uint8_t> rejectData);
+    void Reject(::ArrayW<uint8_t> rejectData);
     // public System.Void Reject(LiteNetLib.Utils.NetDataWriter rejectData)
     // Offset: 0x1DD00D0
     void Reject(LiteNetLib::Utils::NetDataWriter* rejectData);
@@ -222,7 +229,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib:
 // Writing MetadataGetter for method: LiteNetLib::ConnectionRequest::Reject
 // Il2CppName: Reject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::ConnectionRequest::*)(::ArrayWrapper<uint8_t>, int, int, bool)>(&LiteNetLib::ConnectionRequest::Reject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::ConnectionRequest::*)(::ArrayW<uint8_t>, int, int, bool)>(&LiteNetLib::ConnectionRequest::Reject)> {
   static const MethodInfo* get() {
     static auto* rejectData = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -234,7 +241,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Writing MetadataGetter for method: LiteNetLib::ConnectionRequest::Reject
 // Il2CppName: Reject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::ConnectionRequest::*)(::ArrayWrapper<uint8_t>, int, int)>(&LiteNetLib::ConnectionRequest::Reject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::ConnectionRequest::*)(::ArrayW<uint8_t>, int, int)>(&LiteNetLib::ConnectionRequest::Reject)> {
   static const MethodInfo* get() {
     static auto* rejectData = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -245,7 +252,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Writing MetadataGetter for method: LiteNetLib::ConnectionRequest::RejectForce
 // Il2CppName: RejectForce
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::ConnectionRequest::*)(::ArrayWrapper<uint8_t>, int, int)>(&LiteNetLib::ConnectionRequest::RejectForce)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::ConnectionRequest::*)(::ArrayW<uint8_t>, int, int)>(&LiteNetLib::ConnectionRequest::RejectForce)> {
   static const MethodInfo* get() {
     static auto* rejectData = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -264,7 +271,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Writing MetadataGetter for method: LiteNetLib::ConnectionRequest::RejectForce
 // Il2CppName: RejectForce
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::ConnectionRequest::*)(::ArrayWrapper<uint8_t>)>(&LiteNetLib::ConnectionRequest::RejectForce)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::ConnectionRequest::*)(::ArrayW<uint8_t>)>(&LiteNetLib::ConnectionRequest::RejectForce)> {
   static const MethodInfo* get() {
     static auto* rejectData = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::ConnectionRequest*), "RejectForce", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rejectData});
@@ -290,7 +297,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Writing MetadataGetter for method: LiteNetLib::ConnectionRequest::Reject
 // Il2CppName: Reject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::ConnectionRequest::*)(::ArrayWrapper<uint8_t>)>(&LiteNetLib::ConnectionRequest::Reject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::ConnectionRequest::*)(::ArrayW<uint8_t>)>(&LiteNetLib::ConnectionRequest::Reject)> {
   static const MethodInfo* get() {
     static auto* rejectData = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::ConnectionRequest*), "Reject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rejectData});

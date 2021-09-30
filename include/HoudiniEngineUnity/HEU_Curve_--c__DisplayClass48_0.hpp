@@ -36,12 +36,18 @@ namespace HoudiniEngineUnity {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class HEU_Curve::$$c__DisplayClass48_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Collections.Generic.List`1<UnityEngine.Vector3> points
     // Size: 0x8
     // Offset: 0x10
     System::Collections::Generic::List_1<UnityEngine::Vector3>* points;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::Vector3>*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Collections::Generic::List_1<UnityEngine::Vector3>*
     constexpr operator System::Collections::Generic::List_1<UnityEngine::Vector3>*() const noexcept {
       return points;

@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -33,12 +34,17 @@ namespace GlobalNamespace {
     char ___base_padding[0x7] = {};
     // Nested type: GlobalNamespace::SpawnRotationChevron::Pool
     class Pool;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private TubeBloomPrePassLight[] _lights
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<GlobalNamespace::TubeBloomPrePassLight*> lights;
+    ::ArrayW<GlobalNamespace::TubeBloomPrePassLight*> lights;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::TubeBloomPrePassLight*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::TubeBloomPrePassLight*>) == 0x8);
     // private UnityEngine.Color _color
     // Size: 0x10
     // Offset: 0x38
@@ -51,8 +57,9 @@ namespace GlobalNamespace {
     float lightAmount;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: private TubeBloomPrePassLight[] _lights
-    ::ArrayWrapper<GlobalNamespace::TubeBloomPrePassLight*>& dyn__lights();
+    ::ArrayW<GlobalNamespace::TubeBloomPrePassLight*>& dyn__lights();
     // Get instance field reference: private UnityEngine.Color _color
     UnityEngine::Color& dyn__color();
     // Get instance field reference: private System.Single _lightAmount

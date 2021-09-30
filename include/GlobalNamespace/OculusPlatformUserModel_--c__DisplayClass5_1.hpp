@@ -34,6 +34,11 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class OculusPlatformUserModel::$$c__DisplayClass5_1 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 index
     // Size: 0x4
     // Offset: 0x10
@@ -48,6 +53,7 @@ namespace GlobalNamespace {
     GlobalNamespace::OculusPlatformUserModel::$$c__DisplayClass5_0* CS$$$8__locals1;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OculusPlatformUserModel::$$c__DisplayClass5_0*) == 0x8);
+    public:
     // Get instance field reference: public System.Int32 index
     int& dyn_index();
     // Get instance field reference: public OculusPlatformUserModel/<>c__DisplayClass5_0 CS$<>8__locals1

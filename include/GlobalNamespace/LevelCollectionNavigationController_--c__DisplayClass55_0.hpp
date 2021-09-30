@@ -28,6 +28,11 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class LevelCollectionNavigationController::$$c__DisplayClass55_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public LevelCollectionNavigationController <>4__this
     // Size: 0x8
     // Offset: 0x10
@@ -40,6 +45,7 @@ namespace GlobalNamespace {
     HMUI::ViewController* viewController;
     // Field size check
     static_assert(sizeof(HMUI::ViewController*) == 0x8);
+    public:
     // Get instance field reference: public LevelCollectionNavigationController <>4__this
     GlobalNamespace::LevelCollectionNavigationController*& dyn_$$4__this();
     // Get instance field reference: public HMUI.ViewController viewController

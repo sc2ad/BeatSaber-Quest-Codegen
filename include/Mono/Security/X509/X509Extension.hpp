@@ -30,6 +30,11 @@ namespace Mono::Security::X509 {
   // [TokenAttribute] Offset: FFFFFFFF
   class X509Extension : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // protected System.String extnOid
     // Size: 0x8
     // Offset: 0x10
@@ -50,6 +55,7 @@ namespace Mono::Security::X509 {
     Mono::Security::ASN1* extnValue;
     // Field size check
     static_assert(sizeof(Mono::Security::ASN1*) == 0x8);
+    public:
     // Get instance field reference: protected System.String extnOid
     ::Il2CppString*& dyn_extnOid();
     // Get instance field reference: protected System.Boolean extnCritical

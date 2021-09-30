@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO
@@ -27,6 +28,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class CaptureAudioToWav : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String _fileName
     // Size: 0x8
     // Offset: 0x18
@@ -59,6 +65,7 @@ namespace GlobalNamespace {
     System::IO::FileStream* fileStream;
     // Field size check
     static_assert(sizeof(System::IO::FileStream*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _fileName
@@ -82,10 +89,10 @@ namespace GlobalNamespace {
     void StartWriting(::Il2CppString* name);
     // private System.Void OnAudioFilterRead(System.Single[] data, System.Int32 channels)
     // Offset: 0x13795C8
-    void OnAudioFilterRead(::ArrayWrapper<float> data, int channels);
+    void OnAudioFilterRead(::ArrayW<float> data, int channels);
     // private System.Void ConvertAndWrite(System.Single[] dataSource)
     // Offset: 0x13795D8
-    void ConvertAndWrite(::ArrayWrapper<float> dataSource);
+    void ConvertAndWrite(::ArrayW<float> dataSource);
     // private System.Void WriteHeader()
     // Offset: 0x13791E4
     void WriteHeader();
@@ -137,7 +144,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::CaptureAudioToWav::OnAudioFilterRead
 // Il2CppName: OnAudioFilterRead
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CaptureAudioToWav::*)(::ArrayWrapper<float>, int)>(&GlobalNamespace::CaptureAudioToWav::OnAudioFilterRead)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CaptureAudioToWav::*)(::ArrayW<float>, int)>(&GlobalNamespace::CaptureAudioToWav::OnAudioFilterRead)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     static auto* channels = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -147,7 +154,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::CaptureAudioToWav::ConvertAndWrite
 // Il2CppName: ConvertAndWrite
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CaptureAudioToWav::*)(::ArrayWrapper<float>)>(&GlobalNamespace::CaptureAudioToWav::ConvertAndWrite)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::CaptureAudioToWav::*)(::ArrayW<float>)>(&GlobalNamespace::CaptureAudioToWav::ConvertAndWrite)> {
   static const MethodInfo* get() {
     static auto* dataSource = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CaptureAudioToWav*), "ConvertAndWrite", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dataSource});

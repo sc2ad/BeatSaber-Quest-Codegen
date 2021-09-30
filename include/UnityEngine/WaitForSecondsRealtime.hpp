@@ -20,6 +20,11 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class WaitForSecondsRealtime : public UnityEngine::CustomYieldInstruction {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [DebuggerBrowsableAttribute] Offset: 0xE761A0
     // private System.Single <waitTime>k__BackingField
     // Size: 0x4
@@ -33,6 +38,7 @@ namespace UnityEngine {
     float m_WaitUntilTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: private System.Single <waitTime>k__BackingField
     float& dyn_$waitTime$k__BackingField();
     // Get instance field reference: private System.Single m_WaitUntilTime

@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -61,6 +62,11 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class WebProxy : public ::Il2CppObject/*, public System::Net::IWebProxy, public System::Runtime::Serialization::ISerializable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean _UseRegistry
     // Size: 0x1
     // Offset: 0x10
@@ -102,9 +108,9 @@ namespace System::Net {
     // private System.Text.RegularExpressions.Regex[] _RegExBypassList
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<System::Text::RegularExpressions::Regex*> RegExBypassList;
+    ::ArrayW<System::Text::RegularExpressions::Regex*> RegExBypassList;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<System::Text::RegularExpressions::Regex*>) == 0x8);
+    static_assert(sizeof(::ArrayW<System::Text::RegularExpressions::Regex*>) == 0x8);
     // private System.Collections.Hashtable _ProxyHostAddresses
     // Size: 0x8
     // Offset: 0x38
@@ -117,6 +123,7 @@ namespace System::Net {
     System::Net::AutoWebProxyScriptEngine* m_ScriptEngine;
     // Field size check
     static_assert(sizeof(System::Net::AutoWebProxyScriptEngine*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Net::IWebProxy
     operator System::Net::IWebProxy() noexcept {
       return *reinterpret_cast<System::Net::IWebProxy*>(this);
@@ -138,7 +145,7 @@ namespace System::Net {
     // Get instance field reference: private System.Net.ICredentials _Credentials
     System::Net::ICredentials*& dyn__Credentials();
     // Get instance field reference: private System.Text.RegularExpressions.Regex[] _RegExBypassList
-    ::ArrayWrapper<System::Text::RegularExpressions::Regex*>& dyn__RegExBypassList();
+    ::ArrayW<System::Text::RegularExpressions::Regex*>& dyn__RegExBypassList();
     // Get instance field reference: private System.Collections.Hashtable _ProxyHostAddresses
     System::Collections::Hashtable*& dyn__ProxyHostAddresses();
     // Get instance field reference: private System.Net.AutoWebProxyScriptEngine m_ScriptEngine
@@ -158,7 +165,7 @@ namespace System::Net {
     // public System.Void .ctor(System.Uri Address, System.Boolean BypassOnLocal, System.String[] BypassList, System.Net.ICredentials Credentials)
     // Offset: 0x1784E70
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static WebProxy* New_ctor(System::Uri* Address, bool BypassOnLocal, ::ArrayWrapper<::Il2CppString*> BypassList, System::Net::ICredentials* Credentials) {
+    static WebProxy* New_ctor(System::Uri* Address, bool BypassOnLocal, ::ArrayW<::Il2CppString*> BypassList, System::Net::ICredentials* Credentials) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebProxy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebProxy*, creationType>(Address, BypassOnLocal, BypassList, Credentials)));
     }

@@ -45,6 +45,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class EnvironmentOverrideSettingsPanelController::Elements : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public TMPro.TextMeshProUGUI label
     // Size: 0x8
     // Offset: 0x10
@@ -69,6 +74,7 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<GlobalNamespace::EnvironmentInfoSO*>* environmentInfos;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::EnvironmentInfoSO*>*) == 0x8);
+    public:
     // Get instance field reference: public TMPro.TextMeshProUGUI label
     TMPro::TextMeshProUGUI*& dyn_label();
     // Get instance field reference: public HMUI.SimpleTextDropdown simpleTextDropdown

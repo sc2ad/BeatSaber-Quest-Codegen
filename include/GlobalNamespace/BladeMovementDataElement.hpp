@@ -19,6 +19,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct BladeMovementDataElement/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Single time
     // Size: 0x4
     // Offset: 0x0
@@ -49,6 +54,7 @@ namespace GlobalNamespace {
     UnityEngine::Vector3 segmentNormal;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    public:
     // Creating value type constructor for type: BladeMovementDataElement
     constexpr BladeMovementDataElement(float time_ = {}, float segmentAngle_ = {}, UnityEngine::Vector3 topPos_ = {}, UnityEngine::Vector3 bottomPos_ = {}, UnityEngine::Vector3 segmentNormal_ = {}) noexcept : time{time_}, segmentAngle{segmentAngle_}, topPos{topPos_}, bottomPos{bottomPos_}, segmentNormal{segmentNormal_} {}
     // Creating interface conversion operator: operator System::ValueType

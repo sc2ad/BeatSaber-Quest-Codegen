@@ -28,6 +28,11 @@ namespace UnityEngine::UI {
   // [ExecuteAlways] Offset: FFFFFFFF
   class HorizontalOrVerticalLayoutGroup : public UnityEngine::UI::LayoutGroup {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // protected System.Single m_Spacing
     // Size: 0x4
     // Offset: 0x58
@@ -70,6 +75,7 @@ namespace UnityEngine::UI {
     bool m_ChildScaleHeight;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: protected System.Single m_Spacing
     float& dyn_m_Spacing();
     // Get instance field reference: protected System.Boolean m_ChildForceExpandWidth

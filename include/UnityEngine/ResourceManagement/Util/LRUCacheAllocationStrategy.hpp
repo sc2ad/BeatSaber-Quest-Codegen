@@ -36,6 +36,11 @@ namespace UnityEngine::ResourceManagement::Util {
   // [TokenAttribute] Offset: FFFFFFFF
   class LRUCacheAllocationStrategy : public ::Il2CppObject/*, public UnityEngine::ResourceManagement::Util::IAllocationStrategy*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 m_poolMaxSize
     // Size: 0x4
     // Offset: 0x10
@@ -68,6 +73,7 @@ namespace UnityEngine::ResourceManagement::Util {
     System::Collections::Generic::Dictionary_2<int, System::Collections::Generic::List_1<::Il2CppObject*>*>* m_cache;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<int, System::Collections::Generic::List_1<::Il2CppObject*>*>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator UnityEngine::ResourceManagement::Util::IAllocationStrategy
     operator UnityEngine::ResourceManagement::Util::IAllocationStrategy() noexcept {
       return *reinterpret_cast<UnityEngine::ResourceManagement::Util::IAllocationStrategy*>(this);

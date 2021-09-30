@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -32,6 +33,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet
     class DifficultyBeatmapSet;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.AudioClip _audioClip
     // Size: 0x8
     // Offset: 0x18
@@ -41,29 +47,30 @@ namespace GlobalNamespace {
     // private BeatmapLevelDataSO/DifficultyBeatmapSet[] _difficultyBeatmapSets
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet*> difficultyBeatmapSets;
+    ::ArrayW<GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet*> difficultyBeatmapSets;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet*>) == 0x8);
     // private BeatmapLevelDataSO/DifficultyBeatmapSet[] _no360MovementDifficultyBeatmapSets
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet*> no360MovementDifficultyBeatmapSets;
+    ::ArrayW<GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet*> no360MovementDifficultyBeatmapSets;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet*>) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.AudioClip _audioClip
     UnityEngine::AudioClip*& dyn__audioClip();
     // Get instance field reference: private BeatmapLevelDataSO/DifficultyBeatmapSet[] _difficultyBeatmapSets
-    ::ArrayWrapper<GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet*>& dyn__difficultyBeatmapSets();
+    ::ArrayW<GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet*>& dyn__difficultyBeatmapSets();
     // Get instance field reference: private BeatmapLevelDataSO/DifficultyBeatmapSet[] _no360MovementDifficultyBeatmapSets
-    ::ArrayWrapper<GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet*>& dyn__no360MovementDifficultyBeatmapSets();
+    ::ArrayW<GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet*>& dyn__no360MovementDifficultyBeatmapSets();
     // public UnityEngine.AudioClip get_audioClip()
     // Offset: 0x1298C40
     UnityEngine::AudioClip* get_audioClip();
     // public BeatmapLevelDataSO/DifficultyBeatmapSet[] get_difficultyBeatmapSets()
     // Offset: 0x1298C48
-    ::ArrayWrapper<GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet*> get_difficultyBeatmapSets();
+    ::ArrayW<GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet*> get_difficultyBeatmapSets();
     // public System.Void .ctor()
     // Offset: 0x1298C50
     // Implemented from: PersistentScriptableObject
@@ -78,7 +85,7 @@ namespace GlobalNamespace {
     }
   }; // BeatmapLevelDataSO
   #pragma pack(pop)
-  static check_size<sizeof(BeatmapLevelDataSO), 40 + sizeof(::ArrayWrapper<GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet*>)> __GlobalNamespace_BeatmapLevelDataSOSizeCheck;
+  static check_size<sizeof(BeatmapLevelDataSO), 40 + sizeof(::ArrayW<GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet*>)> __GlobalNamespace_BeatmapLevelDataSOSizeCheck;
   static_assert(sizeof(BeatmapLevelDataSO) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelDataSO*, "", "BeatmapLevelDataSO");
@@ -94,7 +101,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelDataSO::get_difficultyBeatmapSets
 // Il2CppName: get_difficultyBeatmapSets
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet*> (GlobalNamespace::BeatmapLevelDataSO::*)()>(&GlobalNamespace::BeatmapLevelDataSO::get_difficultyBeatmapSets)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<GlobalNamespace::BeatmapLevelDataSO::DifficultyBeatmapSet*> (GlobalNamespace::BeatmapLevelDataSO::*)()>(&GlobalNamespace::BeatmapLevelDataSO::get_difficultyBeatmapSets)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelDataSO*), "get_difficultyBeatmapSets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

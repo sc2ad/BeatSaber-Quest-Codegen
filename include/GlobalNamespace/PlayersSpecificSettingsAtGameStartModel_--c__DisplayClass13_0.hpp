@@ -28,12 +28,18 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class PlayersSpecificSettingsAtGameStartModel::$$c__DisplayClass13_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public IConnectedPlayer player
     // Size: 0x8
     // Offset: 0x10
     GlobalNamespace::IConnectedPlayer* player;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IConnectedPlayer*) == 0x8);
+    public:
     // Creating conversion operator: operator GlobalNamespace::IConnectedPlayer*
     constexpr operator GlobalNamespace::IConnectedPlayer*() const noexcept {
       return player;

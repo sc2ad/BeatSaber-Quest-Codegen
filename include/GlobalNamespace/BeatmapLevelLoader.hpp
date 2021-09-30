@@ -55,6 +55,11 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct LoadBeatmapLevelResult/*, public System::ValueType*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public readonly System.Boolean isError
       // Size: 0x1
       // Offset: 0x0
@@ -69,6 +74,7 @@ namespace GlobalNamespace {
       GlobalNamespace::IBeatmapLevel* beatmapLevel;
       // Field size check
       static_assert(sizeof(GlobalNamespace::IBeatmapLevel*) == 0x8);
+      public:
       // Creating value type constructor for type: LoadBeatmapLevelResult
       constexpr LoadBeatmapLevelResult(bool isError_ = {}, GlobalNamespace::IBeatmapLevel* beatmapLevel_ = {}) noexcept : isError{isError_}, beatmapLevel{beatmapLevel_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -86,6 +92,11 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(BeatmapLevelLoader::LoadBeatmapLevelResult), 8 + sizeof(GlobalNamespace::IBeatmapLevel*)> __GlobalNamespace_BeatmapLevelLoader_LoadBeatmapLevelResultSizeCheck;
     static_assert(sizeof(BeatmapLevelLoader::LoadBeatmapLevelResult) == 0x10);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private BeatmapLevelDataLoaderSO _beatmapLevelDataLoader
     // Size: 0x8
     // Offset: 0x10
@@ -98,6 +109,7 @@ namespace GlobalNamespace {
     GlobalNamespace::IBeatmapDataAssetFileModel* beatmapDataAssetFileModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IBeatmapDataAssetFileModel*) == 0x8);
+    public:
     // Get instance field reference: private BeatmapLevelDataLoaderSO _beatmapLevelDataLoader
     GlobalNamespace::BeatmapLevelDataLoaderSO*& dyn__beatmapLevelDataLoader();
     // Get instance field reference: private IBeatmapDataAssetFileModel _beatmapDataAssetFileModel

@@ -19,6 +19,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -99,12 +100,18 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct AvatarEditPart/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: AvatarEditPart
       constexpr AvatarEditPart(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -217,6 +224,11 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(EditAvatarViewController::AvatarEditPart), 0 + sizeof(int)> __GlobalNamespace_EditAvatarViewController_AvatarEditPartSizeCheck;
     static_assert(sizeof(EditAvatarViewController::AvatarEditPart) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private NamedColorListController _skinColorValuePicker
     // Size: 0x8
     // Offset: 0x70
@@ -385,6 +397,7 @@ namespace GlobalNamespace {
     GlobalNamespace::EditAvatarViewController::AvatarEditPart lastEditedPart;
     // Field size check
     static_assert(sizeof(GlobalNamespace::EditAvatarViewController::AvatarEditPart) == 0x4);
+    public:
     // [LocalizationKeyAttribute] Offset: 0xF0FBC0
     // static field const value: static private System.String kEditApplyButtonLocalizationKey
     static constexpr const char* kEditApplyButtonLocalizationKey = "BUTTON_APPLY";
@@ -525,16 +538,16 @@ namespace GlobalNamespace {
     // static private NamedIntListController/TextValuePair[] CreateTextValuePairsForAvatarPartCollection(AvatarPartCollection`1<T> partCollection)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static ::ArrayWrapper<GlobalNamespace::NamedIntListController::TextValuePair*> CreateTextValuePairsForAvatarPartCollection(GlobalNamespace::AvatarPartCollection_1<T>* partCollection) {
+    static ::ArrayW<GlobalNamespace::NamedIntListController::TextValuePair*> CreateTextValuePairsForAvatarPartCollection(GlobalNamespace::AvatarPartCollection_1<T>* partCollection) {
       static_assert(std::is_convertible_v<T, UnityEngine::Object*> && std::is_base_of_v<GlobalNamespace::IAvatarPart, std::remove_pointer_t<T>>);
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::EditAvatarViewController::CreateTextValuePairsForAvatarPartCollection");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "EditAvatarViewController", "CreateTextValuePairsForAvatarPartCollection", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(partCollection)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<::ArrayWrapper<GlobalNamespace::NamedIntListController::TextValuePair*>, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, partCollection);
+      return ::il2cpp_utils::RunMethodThrow<::ArrayW<GlobalNamespace::NamedIntListController::TextValuePair*>, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, partCollection);
     }
     // private NamedColorListController/ColorValuePair[] CreateColorValuePairsForAvatarPartCollection(SkinColorSO[] colors)
     // Offset: 0x11AC8B0
-    ::ArrayWrapper<GlobalNamespace::NamedColorListController::ColorValuePair*> CreateColorValuePairsForAvatarPartCollection(::ArrayWrapper<GlobalNamespace::SkinColorSO*> colors);
+    ::ArrayW<GlobalNamespace::NamedColorListController::ColorValuePair*> CreateColorValuePairsForAvatarPartCollection(::ArrayW<GlobalNamespace::SkinColorSO*> colors);
     // private System.Void SetupColorButton(UnityEngine.UI.Button button, System.Action`1<UnityEngine.Color> colorSetter, System.Func`1<UnityEngine.Color> currentColor, EditAvatarViewController/AvatarEditPart avatarEditPart, System.Int32 uvSegment)
     // Offset: 0x11AC7CC
     void SetupColorButton(UnityEngine::UI::Button* button, System::Action_1<UnityEngine::Color>* colorSetter, System::Func_1<UnityEngine::Color>* currentColor, GlobalNamespace::EditAvatarViewController::AvatarEditPart avatarEditPart, int uvSegment);
@@ -820,7 +833,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::EditAvatarViewController::CreateColorValuePairsForAvatarPartCollection
 // Il2CppName: CreateColorValuePairsForAvatarPartCollection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::NamedColorListController::ColorValuePair*> (GlobalNamespace::EditAvatarViewController::*)(::ArrayWrapper<GlobalNamespace::SkinColorSO*>)>(&GlobalNamespace::EditAvatarViewController::CreateColorValuePairsForAvatarPartCollection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<GlobalNamespace::NamedColorListController::ColorValuePair*> (GlobalNamespace::EditAvatarViewController::*)(::ArrayW<GlobalNamespace::SkinColorSO*>)>(&GlobalNamespace::EditAvatarViewController::CreateColorValuePairsForAvatarPartCollection)> {
   static const MethodInfo* get() {
     static auto* colors = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "SkinColorSO"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::EditAvatarViewController*), "CreateColorValuePairsForAvatarPartCollection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{colors});

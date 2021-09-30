@@ -46,6 +46,11 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class TextSegmentedControl : public HMUI::SegmentedControl/*, public HMUI::SegmentedControl::IDataSource*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Single _fontSize
     // Size: 0x4
     // Offset: 0x58
@@ -113,6 +118,7 @@ namespace HMUI {
     System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>* texts;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator HMUI::SegmentedControl::IDataSource
     operator HMUI::SegmentedControl::IDataSource() noexcept {
       return *reinterpret_cast<HMUI::SegmentedControl::IDataSource*>(this);

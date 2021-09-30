@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -35,6 +36,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SteamVR_ControllerManager : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.GameObject left
     // Size: 0x8
     // Offset: 0x18
@@ -51,9 +57,9 @@ namespace GlobalNamespace {
     // public UnityEngine.GameObject[] objects
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<UnityEngine::GameObject*> objects;
+    ::ArrayW<UnityEngine::GameObject*> objects;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::GameObject*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::GameObject*>) == 0x8);
     // [TooltipAttribute] Offset: 0xEB687C
     // public System.Boolean assignAllBeforeIdentified
     // Size: 0x1
@@ -66,15 +72,15 @@ namespace GlobalNamespace {
     // private System.UInt32[] indices
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayWrapper<uint> indices;
+    ::ArrayW<uint> indices;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint>) == 0x8);
     // private System.Boolean[] connected
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayWrapper<bool> connected;
+    ::ArrayW<bool> connected;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<bool>) == 0x8);
+    static_assert(sizeof(::ArrayW<bool>) == 0x8);
     // private System.UInt32 leftIndex
     // Size: 0x4
     // Offset: 0x48
@@ -105,6 +111,7 @@ namespace GlobalNamespace {
     GlobalNamespace::SteamVR_Events::Action* trackedDeviceRoleChangedAction;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SteamVR_Events::Action*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static private System.String hiddenPrefix
@@ -116,21 +123,21 @@ namespace GlobalNamespace {
     // Set static field: static private System.String hiddenPostfix
     static void _set_hiddenPostfix(::Il2CppString* value);
     // Get static field: static private System.String[] labels
-    static ::ArrayWrapper<::Il2CppString*> _get_labels();
+    static ::ArrayW<::Il2CppString*> _get_labels();
     // Set static field: static private System.String[] labels
-    static void _set_labels(::ArrayWrapper<::Il2CppString*> value);
+    static void _set_labels(::ArrayW<::Il2CppString*> value);
     // Get instance field reference: public UnityEngine.GameObject left
     UnityEngine::GameObject*& dyn_left();
     // Get instance field reference: public UnityEngine.GameObject right
     UnityEngine::GameObject*& dyn_right();
     // Get instance field reference: public UnityEngine.GameObject[] objects
-    ::ArrayWrapper<UnityEngine::GameObject*>& dyn_objects();
+    ::ArrayW<UnityEngine::GameObject*>& dyn_objects();
     // Get instance field reference: public System.Boolean assignAllBeforeIdentified
     bool& dyn_assignAllBeforeIdentified();
     // Get instance field reference: private System.UInt32[] indices
-    ::ArrayWrapper<uint>& dyn_indices();
+    ::ArrayW<uint>& dyn_indices();
     // Get instance field reference: private System.Boolean[] connected
-    ::ArrayWrapper<bool>& dyn_connected();
+    ::ArrayW<bool>& dyn_connected();
     // Get instance field reference: private System.UInt32 leftIndex
     uint& dyn_leftIndex();
     // Get instance field reference: private System.UInt32 rightIndex

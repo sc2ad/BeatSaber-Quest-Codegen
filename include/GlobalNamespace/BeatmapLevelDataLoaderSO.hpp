@@ -76,6 +76,11 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct AssetBundleLevelInfo/*, public System::ValueType*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public readonly System.String assetBundlePath
       // Size: 0x8
       // Offset: 0x0
@@ -94,6 +99,7 @@ namespace GlobalNamespace {
       GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel;
       // Field size check
       static_assert(sizeof(GlobalNamespace::IPreviewBeatmapLevel*) == 0x8);
+      public:
       // Creating value type constructor for type: AssetBundleLevelInfo
       constexpr AssetBundleLevelInfo(::Il2CppString* assetBundlePath_ = {}, ::Il2CppString* levelDataAssetName_ = {}, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel_ = {}) noexcept : assetBundlePath{assetBundlePath_}, levelDataAssetName{levelDataAssetName_}, previewBeatmapLevel{previewBeatmapLevel_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -113,6 +119,11 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(BeatmapLevelDataLoaderSO::AssetBundleLevelInfo), 16 + sizeof(GlobalNamespace::IPreviewBeatmapLevel*)> __GlobalNamespace_BeatmapLevelDataLoaderSO_AssetBundleLevelInfoSizeCheck;
     static_assert(sizeof(BeatmapLevelDataLoaderSO::AssetBundleLevelInfo) == 0x18);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private BeatmapCharacteristicCollectionSO _allBeatmapCharacteristicCollection
     // Size: 0x8
     // Offset: 0x18
@@ -131,6 +142,7 @@ namespace GlobalNamespace {
     System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::BeatmapLevelDataLoaderSO::AssetBundleLevelInfo>* bundleLevelInfos;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::BeatmapLevelDataLoaderSO::AssetBundleLevelInfo>*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BeatmapCharacteristicCollectionSO _allBeatmapCharacteristicCollection

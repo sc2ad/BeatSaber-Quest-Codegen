@@ -27,12 +27,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SimpleTextTableCell : public HMUI::TableCell {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private TMPro.TextMeshProUGUI _text
     // Size: 0x8
     // Offset: 0x50
     TMPro::TextMeshProUGUI* text;
     // Field size check
     static_assert(sizeof(TMPro::TextMeshProUGUI*) == 0x8);
+    public:
     // Get instance field reference: private TMPro.TextMeshProUGUI _text
     TMPro::TextMeshProUGUI*& dyn__text();
     // public System.String get_text()

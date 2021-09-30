@@ -19,6 +19,11 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct VREvent_Property_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.UInt64 container
     // Size: 0x8
     // Offset: 0x0
@@ -31,6 +36,7 @@ namespace OVR::OpenVR {
     OVR::OpenVR::ETrackedDeviceProperty prop;
     // Field size check
     static_assert(sizeof(OVR::OpenVR::ETrackedDeviceProperty) == 0x4);
+    public:
     // Creating value type constructor for type: VREvent_Property_t
     constexpr VREvent_Property_t(uint64_t container_ = {}, OVR::OpenVR::ETrackedDeviceProperty prop_ = {}) noexcept : container{container_}, prop{prop_} {}
     // Creating interface conversion operator: operator System::ValueType

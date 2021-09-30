@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -50,6 +51,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRExternalComposition : public GlobalNamespace::OVRComposition {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.GameObject previousMainCameraObject
     // Size: 0x8
     // Offset: 0x40
@@ -103,9 +109,9 @@ namespace GlobalNamespace {
     // public UnityEngine.RenderTexture[] mrcRenderTextureArray
     // Size: 0x8
     // Offset: 0x80
-    ::ArrayWrapper<UnityEngine::RenderTexture*> mrcRenderTextureArray;
+    ::ArrayW<UnityEngine::RenderTexture*> mrcRenderTextureArray;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::RenderTexture*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::RenderTexture*>) == 0x8);
     // public System.Int32 frameIndex
     // Size: 0x4
     // Offset: 0x88
@@ -121,21 +127,21 @@ namespace GlobalNamespace {
     // public UnityEngine.RenderTexture[] mrcForegroundRenderTextureArray
     // Size: 0x8
     // Offset: 0x90
-    ::ArrayWrapper<UnityEngine::RenderTexture*> mrcForegroundRenderTextureArray;
+    ::ArrayW<UnityEngine::RenderTexture*> mrcForegroundRenderTextureArray;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::RenderTexture*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::RenderTexture*>) == 0x8);
     // public System.Double[] cameraPoseTimeArray
     // Size: 0x8
     // Offset: 0x98
-    ::ArrayWrapper<double> cameraPoseTimeArray;
+    ::ArrayW<double> cameraPoseTimeArray;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<double>) == 0x8);
+    static_assert(sizeof(::ArrayW<double>) == 0x8);
     // private System.Single[] cachedAudioDataArray
     // Size: 0x8
     // Offset: 0xA0
-    ::ArrayWrapper<float> cachedAudioDataArray;
+    ::ArrayW<float> cachedAudioDataArray;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<float>) == 0x8);
+    static_assert(sizeof(::ArrayW<float>) == 0x8);
     // private readonly System.Object audioDataLock
     // Size: 0x8
     // Offset: 0xA8
@@ -154,6 +160,7 @@ namespace GlobalNamespace {
     int cachedChannels;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: private UnityEngine.GameObject previousMainCameraObject
     UnityEngine::GameObject*& dyn_previousMainCameraObject();
     // Get instance field reference: public UnityEngine.GameObject foregroundCameraGameObject
@@ -171,17 +178,17 @@ namespace GlobalNamespace {
     // Get instance field reference: public OVRMRAudioFilter audioFilter
     GlobalNamespace::OVRMRAudioFilter*& dyn_audioFilter();
     // Get instance field reference: public UnityEngine.RenderTexture[] mrcRenderTextureArray
-    ::ArrayWrapper<UnityEngine::RenderTexture*>& dyn_mrcRenderTextureArray();
+    ::ArrayW<UnityEngine::RenderTexture*>& dyn_mrcRenderTextureArray();
     // Get instance field reference: public System.Int32 frameIndex
     int& dyn_frameIndex();
     // Get instance field reference: public System.Int32 lastMrcEncodeFrameSyncId
     int& dyn_lastMrcEncodeFrameSyncId();
     // Get instance field reference: public UnityEngine.RenderTexture[] mrcForegroundRenderTextureArray
-    ::ArrayWrapper<UnityEngine::RenderTexture*>& dyn_mrcForegroundRenderTextureArray();
+    ::ArrayW<UnityEngine::RenderTexture*>& dyn_mrcForegroundRenderTextureArray();
     // Get instance field reference: public System.Double[] cameraPoseTimeArray
-    ::ArrayWrapper<double>& dyn_cameraPoseTimeArray();
+    ::ArrayW<double>& dyn_cameraPoseTimeArray();
     // Get instance field reference: private System.Single[] cachedAudioDataArray
-    ::ArrayWrapper<float>& dyn_cachedAudioDataArray();
+    ::ArrayW<float>& dyn_cachedAudioDataArray();
     // Get instance field reference: private readonly System.Object audioDataLock
     ::Il2CppObject*& dyn_audioDataLock();
     // Get instance field reference: private System.Collections.Generic.List`1<System.Single> cachedAudioData
@@ -205,10 +212,10 @@ namespace GlobalNamespace {
     void CleanupAudioFilter();
     // public System.Void CacheAudioData(System.Single[] data, System.Int32 channels)
     // Offset: 0x13C4764
-    void CacheAudioData(::ArrayWrapper<float> data, int channels);
+    void CacheAudioData(::ArrayW<float> data, int channels);
     // public System.Void GetAndResetAudioData(ref System.Single[] audioData, out System.Int32 audioFrames, out System.Int32 channels)
     // Offset: 0x13C33A0
-    void GetAndResetAudioData(ByRef<::ArrayWrapper<float>> audioData, ByRef<int> audioFrames, ByRef<int> channels);
+    void GetAndResetAudioData(ByRef<::ArrayW<float>> audioData, ByRef<int> audioFrames, ByRef<int> channels);
     // public System.Void .ctor(UnityEngine.GameObject parentObject, UnityEngine.Camera mainCamera, OVRMixedRealityCaptureConfiguration configuration)
     // Offset: 0x13C18E8
     // Implemented from: OVRComposition
@@ -288,7 +295,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::OVRExternalComposition::CacheAudioData
 // Il2CppName: CacheAudioData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRExternalComposition::*)(::ArrayWrapper<float>, int)>(&GlobalNamespace::OVRExternalComposition::CacheAudioData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRExternalComposition::*)(::ArrayW<float>, int)>(&GlobalNamespace::OVRExternalComposition::CacheAudioData)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     static auto* channels = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -298,7 +305,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::OVRExternalComposition::GetAndResetAudioData
 // Il2CppName: GetAndResetAudioData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRExternalComposition::*)(ByRef<::ArrayWrapper<float>>, ByRef<int>, ByRef<int>)>(&GlobalNamespace::OVRExternalComposition::GetAndResetAudioData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRExternalComposition::*)(ByRef<::ArrayW<float>>, ByRef<int>, ByRef<int>)>(&GlobalNamespace::OVRExternalComposition::GetAndResetAudioData)> {
   static const MethodInfo* get() {
     static auto* audioData = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->this_arg;
     static auto* audioFrames = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;

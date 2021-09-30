@@ -12,6 +12,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Zenject
@@ -65,12 +66,18 @@ namespace Zenject {
       using declaring_type = ConcreteBinderGeneric_1<TContract>*;
       static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass5_0";
       static constexpr bool IS_VALUE_TYPE = false;
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Type concreteType
       // Size: 0x8
       // Offset: 0x0
       System::Type* concreteType;
       // Field size check
       static_assert(sizeof(System::Type*) == 0x8);
+      public:
       // Creating conversion operator: operator System::Type*
       constexpr operator System::Type*() const noexcept {
         return concreteType;
@@ -123,7 +130,7 @@ namespace Zenject {
     }
     // public Zenject.FromBinderNonGeneric To(params System.Type[] concreteTypes)
     // Offset: 0xFFFFFFFF
-    Zenject::FromBinderNonGeneric* To(::ArrayWrapper<System::Type*> concreteTypes) {
+    Zenject::FromBinderNonGeneric* To(::ArrayW<System::Type*> concreteTypes) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::ConcreteBinderGeneric_1::To");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "To", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(concreteTypes)})));
       auto ___instance_arg = this;

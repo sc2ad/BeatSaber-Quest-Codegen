@@ -23,12 +23,18 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class LocalizedAudioClipSO::$$c__DisplayClass4_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public Polyglot.Language language
     // Size: 0x4
     // Offset: 0x10
     Polyglot::Language language;
     // Field size check
     static_assert(sizeof(Polyglot::Language) == 0x4);
+    public:
     // Creating conversion operator: operator Polyglot::Language
     constexpr operator Polyglot::Language() const noexcept {
       return language;

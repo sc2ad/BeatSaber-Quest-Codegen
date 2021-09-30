@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -56,6 +57,11 @@ namespace GlobalNamespace {
     class SpecialEventKeywordFiltersData;
     // Nested type: GlobalNamespace::BeatmapSaveData::SpecialEventsForKeyword
     class SpecialEventsForKeyword;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String _version
     // Size: 0x8
     // Offset: 0x10
@@ -92,6 +98,7 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatmapSaveData::SpecialEventKeywordFiltersData* specialEventsKeywordFilters;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapSaveData::SpecialEventKeywordFiltersData*) == 0x8);
+    public:
     // static field const value: static private System.String kCurrentVersion
     static constexpr const char* kCurrentVersion = "2.5.0";
     // Get static field: static private System.String kCurrentVersion
@@ -137,10 +144,10 @@ namespace GlobalNamespace {
     }
     // public System.Byte[] SerializeToBinary()
     // Offset: 0x12A7628
-    ::ArrayWrapper<uint8_t> SerializeToBinary();
+    ::ArrayW<uint8_t> SerializeToBinary();
     // static public BeatmapSaveData DeserializeFromFromBinary(System.Byte[] data)
     // Offset: 0x12A77A8
-    static GlobalNamespace::BeatmapSaveData* DeserializeFromFromBinary(::ArrayWrapper<uint8_t> data);
+    static GlobalNamespace::BeatmapSaveData* DeserializeFromFromBinary(::ArrayW<uint8_t> data);
     // public System.String SerializeToJSONString()
     // Offset: 0x12A7938
     ::Il2CppString* SerializeToJSONString();
@@ -212,7 +219,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapSaveData::SerializeToBinary
 // Il2CppName: SerializeToBinary
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (GlobalNamespace::BeatmapSaveData::*)()>(&GlobalNamespace::BeatmapSaveData::SerializeToBinary)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (GlobalNamespace::BeatmapSaveData::*)()>(&GlobalNamespace::BeatmapSaveData::SerializeToBinary)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapSaveData*), "SerializeToBinary", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -220,7 +227,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapSaveData::DeserializeFromFromBinary
 // Il2CppName: DeserializeFromFromBinary
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapSaveData* (*)(::ArrayWrapper<uint8_t>)>(&GlobalNamespace::BeatmapSaveData::DeserializeFromFromBinary)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapSaveData* (*)(::ArrayW<uint8_t>)>(&GlobalNamespace::BeatmapSaveData::DeserializeFromFromBinary)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapSaveData*), "DeserializeFromFromBinary", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data});

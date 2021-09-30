@@ -23,6 +23,11 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Pose/*, public System::ValueType, public System::IEquatable_1<UnityEngine::Pose>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Vector3 position
     // Size: 0xC
     // Offset: 0x0
@@ -35,6 +40,7 @@ namespace UnityEngine {
     UnityEngine::Quaternion rotation;
     // Field size check
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
+    public:
     // Creating value type constructor for type: Pose
     constexpr Pose(UnityEngine::Vector3 position_ = {}, UnityEngine::Quaternion rotation_ = {}) noexcept : position{position_}, rotation{rotation_} {}
     // Creating interface conversion operator: operator System::ValueType

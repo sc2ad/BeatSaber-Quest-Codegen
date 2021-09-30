@@ -19,6 +19,11 @@ namespace System::Globalization {
   // [TokenAttribute] Offset: FFFFFFFF
   struct CultureInfo::Data/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 ansi
     // Size: 0x4
     // Offset: 0x0
@@ -55,6 +60,7 @@ namespace System::Globalization {
     uint8_t list_sep;
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
+    public:
     // Creating value type constructor for type: Data
     constexpr Data(int ansi_ = {}, int ebcdic_ = {}, int mac_ = {}, int oem_ = {}, bool right_to_left_ = {}, uint8_t list_sep_ = {}) noexcept : ansi{ansi_}, ebcdic{ebcdic_}, mac{mac_}, oem{oem_}, right_to_left{right_to_left_}, list_sep{list_sep_} {}
     // Creating interface conversion operator: operator System::ValueType

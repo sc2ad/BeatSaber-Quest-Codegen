@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Utilities
@@ -26,18 +27,23 @@ namespace Org::BouncyCastle::Crypto::Digests {
   // [TokenAttribute] Offset: FFFFFFFF
   class SM3Digest : public Org::BouncyCastle::Crypto::Digests::GeneralDigest {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.UInt32[] V
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<uint> V;
+    ::ArrayW<uint> V;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint>) == 0x8);
     // private System.UInt32[] inwords
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<uint> inwords;
+    ::ArrayW<uint> inwords;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint>) == 0x8);
     // private System.Int32 xOff
     // Size: 0x4
     // Offset: 0x38
@@ -49,21 +55,22 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // private System.UInt32[] W
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayWrapper<uint> W;
+    ::ArrayW<uint> W;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint>) == 0x8);
+    public:
     // Get static field: static private readonly System.UInt32[] T
-    static ::ArrayWrapper<uint> _get_T();
+    static ::ArrayW<uint> _get_T();
     // Set static field: static private readonly System.UInt32[] T
-    static void _set_T(::ArrayWrapper<uint> value);
+    static void _set_T(::ArrayW<uint> value);
     // Get instance field reference: private System.UInt32[] V
-    ::ArrayWrapper<uint>& dyn_V();
+    ::ArrayW<uint>& dyn_V();
     // Get instance field reference: private System.UInt32[] inwords
-    ::ArrayWrapper<uint>& dyn_inwords();
+    ::ArrayW<uint>& dyn_inwords();
     // Get instance field reference: private System.Int32 xOff
     int& dyn_xOff();
     // Get instance field reference: private System.UInt32[] W
-    ::ArrayWrapper<uint>& dyn_W();
+    ::ArrayW<uint>& dyn_W();
     // static private System.Void .cctor()
     // Offset: 0x1A9AB0C
     static void _cctor();
@@ -134,12 +141,12 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Offset: 0x1A9B04C
     // Implemented from: Org.BouncyCastle.Crypto.Digests.GeneralDigest
     // Base method: System.Int32 GeneralDigest::DoFinal(System.Byte[] output, System.Int32 outOff)
-    int DoFinal(::ArrayWrapper<uint8_t> output, int outOff);
+    int DoFinal(::ArrayW<uint8_t> output, int outOff);
     // override System.Void ProcessWord(System.Byte[] input, System.Int32 inOff)
     // Offset: 0x1A9B0AC
     // Implemented from: Org.BouncyCastle.Crypto.Digests.GeneralDigest
     // Base method: System.Void GeneralDigest::ProcessWord(System.Byte[] input, System.Int32 inOff)
-    void ProcessWord(::ArrayWrapper<uint8_t> input, int inOff);
+    void ProcessWord(::ArrayW<uint8_t> input, int inOff);
     // override System.Void ProcessLength(System.Int64 bitLength)
     // Offset: 0x1A9B138
     // Implemented from: Org.BouncyCastle.Crypto.Digests.GeneralDigest
@@ -152,7 +159,7 @@ namespace Org::BouncyCastle::Crypto::Digests {
     void ProcessBlock();
   }; // Org.BouncyCastle.Crypto.Digests.SM3Digest
   #pragma pack(pop)
-  static check_size<sizeof(SM3Digest), 64 + sizeof(::ArrayWrapper<uint>)> __Org_BouncyCastle_Crypto_Digests_SM3DigestSizeCheck;
+  static check_size<sizeof(SM3Digest), 64 + sizeof(::ArrayW<uint>)> __Org_BouncyCastle_Crypto_Digests_SM3DigestSizeCheck;
   static_assert(sizeof(SM3Digest) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Digests::SM3Digest*, "Org.BouncyCastle.Crypto.Digests", "SM3Digest");
@@ -288,7 +295,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::SM3Digest::DoFinal
 // Il2CppName: DoFinal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Digests::SM3Digest::*)(::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Digests::SM3Digest::DoFinal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Digests::SM3Digest::*)(::ArrayW<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Digests::SM3Digest::DoFinal)> {
   static const MethodInfo* get() {
     static auto* output = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* outOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -298,7 +305,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::SM3Digest::ProcessWord
 // Il2CppName: ProcessWord
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Digests::SM3Digest::*)(::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Digests::SM3Digest::ProcessWord)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Digests::SM3Digest::*)(::ArrayW<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Digests::SM3Digest::ProcessWord)> {
   static const MethodInfo* get() {
     static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* inOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

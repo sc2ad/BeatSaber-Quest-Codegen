@@ -21,6 +21,11 @@ namespace System::Runtime::Remoting::Metadata {
   // [ComVisibleAttribute] Offset: E5FE98
   class SoapAttribute : public System::Attribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean _useAttribute
     // Size: 0x1
     // Offset: 0x10
@@ -41,6 +46,7 @@ namespace System::Runtime::Remoting::Metadata {
     ::Il2CppObject* ReflectInfo;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
+    public:
     // Get instance field reference: private System.Boolean _useAttribute
     bool& dyn__useAttribute();
     // Get instance field reference: protected System.String ProtXmlNamespace

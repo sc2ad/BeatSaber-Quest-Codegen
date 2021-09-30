@@ -16,12 +16,18 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct RenderModel_ControllerMode_State_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Boolean bScrollWheelVisible
     // Size: 0x1
     // Offset: 0x0
     bool bScrollWheelVisible;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating value type constructor for type: RenderModel_ControllerMode_State_t
     constexpr RenderModel_ControllerMode_State_t(bool bScrollWheelVisible_ = {}) noexcept : bScrollWheelVisible{bScrollWheelVisible_} {}
     // Creating interface conversion operator: operator System::ValueType

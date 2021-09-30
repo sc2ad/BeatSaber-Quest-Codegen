@@ -28,12 +28,18 @@ namespace System::Runtime::Remoting {
   // [ComVisibleAttribute] Offset: E5FA88
   class ActivatedServiceTypeEntry : public System::Runtime::Remoting::TypeEntry {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Type obj_type
     // Size: 0x8
     // Offset: 0x20
     System::Type* obj_type;
     // Field size check
     static_assert(sizeof(System::Type*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Type*
     constexpr operator System::Type*() const noexcept {
       return obj_type;

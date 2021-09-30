@@ -18,12 +18,18 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct VRTextureWithPose_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public Valve.VR.HmdMatrix34_t mDeviceToAbsoluteTracking
     // Size: 0x30
     // Offset: 0x0
     Valve::VR::HmdMatrix34_t mDeviceToAbsoluteTracking;
     // Field size check
     static_assert(sizeof(Valve::VR::HmdMatrix34_t) == 0x30);
+    public:
     // Creating value type constructor for type: VRTextureWithPose_t
     constexpr VRTextureWithPose_t(Valve::VR::HmdMatrix34_t mDeviceToAbsoluteTracking_ = {}) noexcept : mDeviceToAbsoluteTracking{mDeviceToAbsoluteTracking_} {}
     // Creating interface conversion operator: operator System::ValueType

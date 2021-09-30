@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: RootMotion::FinalIK
@@ -34,6 +35,11 @@ namespace RootMotion::FinalIK {
     public:
     // Nested type: RootMotion::FinalIK::InteractionTrigger::Range::Interaction
     class Interaction;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.String name
     // Size: 0x8
     // Offset: 0x10
@@ -66,9 +72,10 @@ namespace RootMotion::FinalIK {
     // public RootMotion.FinalIK.InteractionTrigger/RootMotion.FinalIK.Range/RootMotion.FinalIK.Interaction[] interactions
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<RootMotion::FinalIK::InteractionTrigger::Range::Interaction*> interactions;
+    ::ArrayW<RootMotion::FinalIK::InteractionTrigger::Range::Interaction*> interactions;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::InteractionTrigger::Range::Interaction*>) == 0x8);
+    static_assert(sizeof(::ArrayW<RootMotion::FinalIK::InteractionTrigger::Range::Interaction*>) == 0x8);
+    public:
     // Get instance field reference: public System.String name
     ::Il2CppString*& dyn_name();
     // Get instance field reference: public System.Boolean show
@@ -78,7 +85,7 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public RootMotion.FinalIK.InteractionTrigger/RootMotion.FinalIK.CameraPosition cameraPosition
     RootMotion::FinalIK::InteractionTrigger::CameraPosition*& dyn_cameraPosition();
     // Get instance field reference: public RootMotion.FinalIK.InteractionTrigger/RootMotion.FinalIK.Range/RootMotion.FinalIK.Interaction[] interactions
-    ::ArrayWrapper<RootMotion::FinalIK::InteractionTrigger::Range::Interaction*>& dyn_interactions();
+    ::ArrayW<RootMotion::FinalIK::InteractionTrigger::Range::Interaction*>& dyn_interactions();
     // public System.Boolean IsInRange(UnityEngine.Transform character, UnityEngine.Transform raycastFrom, UnityEngine.RaycastHit raycastHit, UnityEngine.Transform trigger, out System.Single maxError)
     // Offset: 0x1C5BCBC
     bool IsInRange(UnityEngine::Transform* character, UnityEngine::Transform* raycastFrom, UnityEngine::RaycastHit raycastHit, UnityEngine::Transform* trigger, ByRef<float> maxError);
@@ -93,7 +100,7 @@ namespace RootMotion::FinalIK {
     }
   }; // RootMotion.FinalIK.InteractionTrigger/RootMotion.FinalIK.Range
   #pragma pack(pop)
-  static check_size<sizeof(InteractionTrigger::Range), 48 + sizeof(::ArrayWrapper<RootMotion::FinalIK::InteractionTrigger::Range::Interaction*>)> __RootMotion_FinalIK_InteractionTrigger_RangeSizeCheck;
+  static check_size<sizeof(InteractionTrigger::Range), 48 + sizeof(::ArrayW<RootMotion::FinalIK::InteractionTrigger::Range::Interaction*>)> __RootMotion_FinalIK_InteractionTrigger_RangeSizeCheck;
   static_assert(sizeof(InteractionTrigger::Range) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionTrigger::Range*, "RootMotion.FinalIK", "InteractionTrigger/Range");

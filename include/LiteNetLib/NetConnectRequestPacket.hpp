@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: LiteNetLib::Utils
@@ -39,6 +40,11 @@ namespace LiteNetLib {
   // [TokenAttribute] Offset: FFFFFFFF
   class NetConnectRequestPacket : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly System.Int64 ConnectionTime
     // Size: 0x8
     // Offset: 0x10
@@ -56,15 +62,16 @@ namespace LiteNetLib {
     // public readonly System.Byte[] TargetAddress
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<uint8_t> TargetAddress;
+    ::ArrayW<uint8_t> TargetAddress;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // public readonly LiteNetLib.Utils.NetDataReader Data
     // Size: 0x8
     // Offset: 0x28
     LiteNetLib::Utils::NetDataReader* Data;
     // Field size check
     static_assert(sizeof(LiteNetLib::Utils::NetDataReader*) == 0x8);
+    public:
     // static field const value: static public System.Int32 HeaderSize
     static constexpr const int HeaderSize = 14;
     // Get static field: static public System.Int32 HeaderSize
@@ -76,13 +83,13 @@ namespace LiteNetLib {
     // Get instance field reference: public readonly System.Byte ConnectionNumber
     uint8_t& dyn_ConnectionNumber();
     // Get instance field reference: public readonly System.Byte[] TargetAddress
-    ::ArrayWrapper<uint8_t>& dyn_TargetAddress();
+    ::ArrayW<uint8_t>& dyn_TargetAddress();
     // Get instance field reference: public readonly LiteNetLib.Utils.NetDataReader Data
     LiteNetLib::Utils::NetDataReader*& dyn_Data();
     // private System.Void .ctor(System.Int64 connectionTime, System.Byte connectionNumber, System.Byte[] targetAddress, LiteNetLib.Utils.NetDataReader data)
     // Offset: 0x1DD5BEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static NetConnectRequestPacket* New_ctor(int64_t connectionTime, uint8_t connectionNumber, ::ArrayWrapper<uint8_t> targetAddress, LiteNetLib::Utils::NetDataReader* data) {
+    static NetConnectRequestPacket* New_ctor(int64_t connectionTime, uint8_t connectionNumber, ::ArrayW<uint8_t> targetAddress, LiteNetLib::Utils::NetDataReader* data) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::NetConnectRequestPacket::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NetConnectRequestPacket*, creationType>(connectionTime, connectionNumber, targetAddress, data)));
     }

@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Asn1
@@ -36,6 +37,11 @@ namespace Org::BouncyCastle::Asn1::X9 {
   // [TokenAttribute] Offset: FFFFFFFF
   class X9ECPoint : public Org::BouncyCastle::Asn1::Asn1Encodable {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Org.BouncyCastle.Asn1.Asn1OctetString encoding
     // Size: 0x8
     // Offset: 0x10
@@ -54,6 +60,7 @@ namespace Org::BouncyCastle::Asn1::X9 {
     Org::BouncyCastle::Math::EC::ECPoint* p;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Math::EC::ECPoint*) == 0x8);
+    public:
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.Asn1OctetString encoding
     Org::BouncyCastle::Asn1::Asn1OctetString*& dyn_encoding();
     // Get instance field reference: private Org.BouncyCastle.Math.EC.ECCurve c
@@ -73,7 +80,7 @@ namespace Org::BouncyCastle::Asn1::X9 {
     // public System.Void .ctor(Org.BouncyCastle.Math.EC.ECCurve c, System.Byte[] encoding)
     // Offset: 0x1BC2680
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static X9ECPoint* New_ctor(Org::BouncyCastle::Math::EC::ECCurve* c, ::ArrayWrapper<uint8_t> encoding) {
+    static X9ECPoint* New_ctor(Org::BouncyCastle::Math::EC::ECCurve* c, ::ArrayW<uint8_t> encoding) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X9::X9ECPoint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X9ECPoint*, creationType>(c, encoding)));
     }

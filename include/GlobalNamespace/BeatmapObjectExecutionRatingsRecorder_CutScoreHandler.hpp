@@ -41,6 +41,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::BeatmapObjectExecutionRatingsRecorder_CutScoreHandler::Pool
     class Pool;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private NoteExecutionRating _noteExecutionRating
     // Size: 0x8
     // Offset: 0x10
@@ -67,6 +72,7 @@ namespace GlobalNamespace {
     GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::ICutScoreHandlerDidFinishEvent*>* didFinishEvent;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::ICutScoreHandlerDidFinishEvent*>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver
     operator GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver() noexcept {
       return *reinterpret_cast<GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver*>(this);

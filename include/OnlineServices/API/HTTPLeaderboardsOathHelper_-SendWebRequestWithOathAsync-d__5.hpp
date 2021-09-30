@@ -28,6 +28,11 @@ namespace OnlineServices::API {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   struct HTTPLeaderboardsOathHelper::$SendWebRequestWithOathAsync$d__5/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0
@@ -90,6 +95,7 @@ namespace OnlineServices::API {
     // Size: 0xFFFFFFFF
     // Offset: 0x60
     System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*> $$u__2;
+    public:
     // Creating value type constructor for type: $SendWebRequestWithOathAsync$d__5
     constexpr $SendWebRequestWithOathAsync$d__5(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Il2CppString*> $$t__builder_ = {}, OnlineServices::API::HTTPLeaderboardsOathHelper* $$4__this_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, ::Il2CppString* path_ = {}, ::Il2CppObject* objectToSendAsJson_ = {}, ::Il2CppString* method_ = {}, ::Il2CppString* $uri$5__2_ = {}, ::Il2CppString* $bodyData$5__3_ = {}, System::Runtime::CompilerServices::TaskAwaiter $$u__1_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*> $$u__2_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, cancellationToken{cancellationToken_}, path{path_}, objectToSendAsJson{objectToSendAsJson_}, method{method_}, $uri$5__2{$uri$5__2_}, $bodyData$5__3{$bodyData$5__3_}, $$u__1{$$u__1_}, $$u__2{$$u__2_} {}
     // Creating interface conversion operator: operator System::ValueType

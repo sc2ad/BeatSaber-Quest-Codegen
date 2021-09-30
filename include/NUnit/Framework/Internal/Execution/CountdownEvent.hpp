@@ -25,6 +25,11 @@ namespace NUnit::Framework::Internal::Execution {
   // [TokenAttribute] Offset: FFFFFFFF
   class CountdownEvent : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 _initialCount
     // Size: 0x4
     // Offset: 0x10
@@ -49,6 +54,7 @@ namespace NUnit::Framework::Internal::Execution {
     System::Threading::ManualResetEvent* event;
     // Field size check
     static_assert(sizeof(System::Threading::ManualResetEvent*) == 0x8);
+    public:
     // Get instance field reference: private System.Int32 _initialCount
     int& dyn__initialCount();
     // Get instance field reference: private System.Int32 _remainingCount

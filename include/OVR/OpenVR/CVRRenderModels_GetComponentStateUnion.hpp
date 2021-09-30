@@ -20,6 +20,11 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct CVRRenderModels::GetComponentStateUnion/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public OVR.OpenVR.IVRRenderModels/OVR.OpenVR._GetComponentState pGetComponentState
     // Size: 0x8
     // Offset: 0x0
@@ -32,6 +37,7 @@ namespace OVR::OpenVR {
     OVR::OpenVR::CVRRenderModels::_GetComponentStatePacked* pGetComponentStatePacked;
     // Field size check
     static_assert(sizeof(OVR::OpenVR::CVRRenderModels::_GetComponentStatePacked*) == 0x8);
+    public:
     // Creating value type constructor for type: GetComponentStateUnion
     constexpr GetComponentStateUnion(OVR::OpenVR::IVRRenderModels::_GetComponentState* pGetComponentState_ = {}, OVR::OpenVR::CVRRenderModels::_GetComponentStatePacked* pGetComponentStatePacked_ = {}) noexcept : pGetComponentState{pGetComponentState_}, pGetComponentStatePacked{pGetComponentStatePacked_} {}
     // Creating interface conversion operator: operator System::ValueType

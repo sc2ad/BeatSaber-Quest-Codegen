@@ -36,6 +36,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ConditionalSpriteSwitcher : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [HeaderAttribute] Offset: 0xF0BA60
     // private UnityEngine.Sprite _sprite0
     // Size: 0x8
@@ -75,6 +80,7 @@ namespace GlobalNamespace {
     UnityEngine::SpriteRenderer* spriteRenderer;
     // Field size check
     static_assert(sizeof(UnityEngine::SpriteRenderer*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Sprite _sprite0

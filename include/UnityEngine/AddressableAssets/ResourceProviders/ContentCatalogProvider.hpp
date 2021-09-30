@@ -51,6 +51,11 @@ namespace UnityEngine::AddressableAssets::ResourceProviders {
     struct DependencyHashIndex;
     // Nested type: UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp
     class InternalOp;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Boolean DisableCatalogUpdateOnStart
     // Size: 0x1
     // Offset: 0x1C
@@ -77,6 +82,7 @@ namespace UnityEngine::AddressableAssets::ResourceProviders {
     UnityEngine::ResourceManagement::ResourceManager* m_RM;
     // Field size check
     static_assert(sizeof(UnityEngine::ResourceManagement::ResourceManager*) == 0x8);
+    public:
     // Get instance field reference: public System.Boolean DisableCatalogUpdateOnStart
     bool& dyn_DisableCatalogUpdateOnStart();
     // Get instance field reference: public System.Boolean IsLocalCatalogInBundle

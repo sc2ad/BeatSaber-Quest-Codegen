@@ -42,6 +42,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ServerCodeEntryViewController : public HMUI::ViewController {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private HMUI.UIKeyboard _uiKeyboard
     // Size: 0x8
     // Offset: 0x70
@@ -78,6 +83,7 @@ namespace GlobalNamespace {
     HMUI::InputFieldViewChangeBinder* inputFieldViewChangeBinder;
     // Field size check
     static_assert(sizeof(HMUI::InputFieldViewChangeBinder*) == 0x8);
+    public:
     // Get instance field reference: private HMUI.UIKeyboard _uiKeyboard
     HMUI::UIKeyboard*& dyn__uiKeyboard();
     // Get instance field reference: private HMUI.InputFieldView _codeInputField

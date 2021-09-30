@@ -7,6 +7,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: System.Security.Cryptography
 namespace System::Security::Cryptography {
@@ -18,74 +19,80 @@ namespace System::Security::Cryptography {
   // [ComVisibleAttribute] Offset: E5F240
   struct DSAParameters/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Byte[] P
     // Size: 0x8
     // Offset: 0x0
-    ::ArrayWrapper<uint8_t> P;
+    ::ArrayW<uint8_t> P;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // public System.Byte[] Q
     // Size: 0x8
     // Offset: 0x8
-    ::ArrayWrapper<uint8_t> Q;
+    ::ArrayW<uint8_t> Q;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // public System.Byte[] G
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<uint8_t> G;
+    ::ArrayW<uint8_t> G;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // public System.Byte[] Y
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<uint8_t> Y;
+    ::ArrayW<uint8_t> Y;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // public System.Byte[] J
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<uint8_t> J;
+    ::ArrayW<uint8_t> J;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // public System.Byte[] X
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<uint8_t> X;
+    ::ArrayW<uint8_t> X;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // public System.Byte[] Seed
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<uint8_t> Seed;
+    ::ArrayW<uint8_t> Seed;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // public System.Int32 Counter
     // Size: 0x4
     // Offset: 0x38
     int Counter;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: DSAParameters
-    constexpr DSAParameters(::ArrayWrapper<uint8_t> P_ = ::ArrayWrapper<uint8_t>(nullptr), ::ArrayWrapper<uint8_t> Q_ = ::ArrayWrapper<uint8_t>(nullptr), ::ArrayWrapper<uint8_t> G_ = ::ArrayWrapper<uint8_t>(nullptr), ::ArrayWrapper<uint8_t> Y_ = ::ArrayWrapper<uint8_t>(nullptr), ::ArrayWrapper<uint8_t> J_ = ::ArrayWrapper<uint8_t>(nullptr), ::ArrayWrapper<uint8_t> X_ = ::ArrayWrapper<uint8_t>(nullptr), ::ArrayWrapper<uint8_t> Seed_ = ::ArrayWrapper<uint8_t>(nullptr), int Counter_ = {}) noexcept : P{P_}, Q{Q_}, G{G_}, Y{Y_}, J{J_}, X{X_}, Seed{Seed_}, Counter{Counter_} {}
+    constexpr DSAParameters(::ArrayW<uint8_t> P_ = ::ArrayW<uint8_t>(nullptr), ::ArrayW<uint8_t> Q_ = ::ArrayW<uint8_t>(nullptr), ::ArrayW<uint8_t> G_ = ::ArrayW<uint8_t>(nullptr), ::ArrayW<uint8_t> Y_ = ::ArrayW<uint8_t>(nullptr), ::ArrayW<uint8_t> J_ = ::ArrayW<uint8_t>(nullptr), ::ArrayW<uint8_t> X_ = ::ArrayW<uint8_t>(nullptr), ::ArrayW<uint8_t> Seed_ = ::ArrayW<uint8_t>(nullptr), int Counter_ = {}) noexcept : P{P_}, Q{Q_}, G{G_}, Y{Y_}, J{J_}, X{X_}, Seed{Seed_}, Counter{Counter_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // Get instance field reference: public System.Byte[] P
-    ::ArrayWrapper<uint8_t>& dyn_P();
+    ::ArrayW<uint8_t>& dyn_P();
     // Get instance field reference: public System.Byte[] Q
-    ::ArrayWrapper<uint8_t>& dyn_Q();
+    ::ArrayW<uint8_t>& dyn_Q();
     // Get instance field reference: public System.Byte[] G
-    ::ArrayWrapper<uint8_t>& dyn_G();
+    ::ArrayW<uint8_t>& dyn_G();
     // Get instance field reference: public System.Byte[] Y
-    ::ArrayWrapper<uint8_t>& dyn_Y();
+    ::ArrayW<uint8_t>& dyn_Y();
     // Get instance field reference: public System.Byte[] J
-    ::ArrayWrapper<uint8_t>& dyn_J();
+    ::ArrayW<uint8_t>& dyn_J();
     // Get instance field reference: public System.Byte[] X
-    ::ArrayWrapper<uint8_t>& dyn_X();
+    ::ArrayW<uint8_t>& dyn_X();
     // Get instance field reference: public System.Byte[] Seed
-    ::ArrayWrapper<uint8_t>& dyn_Seed();
+    ::ArrayW<uint8_t>& dyn_Seed();
     // Get instance field reference: public System.Int32 Counter
     int& dyn_Counter();
   }; // System.Security.Cryptography.DSAParameters

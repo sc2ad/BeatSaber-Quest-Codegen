@@ -19,6 +19,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct GetAssetBundleFileResult/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly System.Boolean isError
     // Size: 0x1
     // Offset: 0x0
@@ -33,6 +38,7 @@ namespace GlobalNamespace {
     ::Il2CppString* assetBundlePath;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Creating value type constructor for type: GetAssetBundleFileResult
     constexpr GetAssetBundleFileResult(bool isError_ = {}, ::Il2CppString* assetBundlePath_ = {}) noexcept : isError{isError_}, assetBundlePath{assetBundlePath_} {}
     // Creating interface conversion operator: operator System::ValueType

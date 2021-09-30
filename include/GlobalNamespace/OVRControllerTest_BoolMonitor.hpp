@@ -32,6 +32,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::OVRControllerTest::BoolMonitor::BoolGenerator
     class BoolGenerator;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String m_name
     // Size: 0x8
     // Offset: 0x10
@@ -76,6 +81,7 @@ namespace GlobalNamespace {
     float m_displayTimer;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: private System.String m_name
     ::Il2CppString*& dyn_m_name();
     // Get instance field reference: private OVRControllerTest/BoolMonitor/BoolGenerator m_generator

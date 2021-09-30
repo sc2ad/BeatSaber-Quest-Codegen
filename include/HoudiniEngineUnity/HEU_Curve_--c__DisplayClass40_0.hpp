@@ -36,6 +36,11 @@ namespace HoudiniEngineUnity {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class HEU_Curve::$$c__DisplayClass40_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Collections.Generic.List`1<UnityEngine.Vector3> rotations
     // Size: 0x8
     // Offset: 0x10
@@ -48,6 +53,7 @@ namespace HoudiniEngineUnity {
     System::Collections::Generic::List_1<UnityEngine::Vector3>* scales;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::Vector3>*) == 0x8);
+    public:
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.Vector3> rotations
     System::Collections::Generic::List_1<UnityEngine::Vector3>*& dyn_rotations();
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.Vector3> scales

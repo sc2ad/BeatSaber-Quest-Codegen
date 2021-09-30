@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: System.IO
 namespace System::IO {
@@ -21,6 +22,11 @@ namespace System::IO {
   // [ComVisibleAttribute] Offset: E5E308
   class StringReader : public System::IO::TextReader {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String _s
     // Size: 0x8
     // Offset: 0x18
@@ -39,6 +45,7 @@ namespace System::IO {
     int length;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Deleting conversion operator: operator ::Il2CppObject*
     constexpr operator ::Il2CppObject*() const noexcept = delete;
     // Get instance field reference: private System.String _s
@@ -78,7 +85,7 @@ namespace System::IO {
     // Offset: 0x1A04EB8
     // Implemented from: System.IO.TextReader
     // Base method: System.Int32 TextReader::Read(in System.Char[] buffer, System.Int32 index, System.Int32 count)
-    int Read(ByRef<::ArrayWrapper<::Il2CppChar>> buffer, int index, int count);
+    int Read(ByRef<::ArrayW<::Il2CppChar>> buffer, int index, int count);
     // public override System.String ReadToEnd()
     // Offset: 0x1A05098
     // Implemented from: System.IO.TextReader
@@ -136,7 +143,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::IO::StringReader::Read
 // Il2CppName: Read
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::StringReader::*)(ByRef<::ArrayWrapper<::Il2CppChar>>, int, int)>(&System::IO::StringReader::Read)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::StringReader::*)(ByRef<::ArrayW<::Il2CppChar>>, int, int)>(&System::IO::StringReader::Read)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->this_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

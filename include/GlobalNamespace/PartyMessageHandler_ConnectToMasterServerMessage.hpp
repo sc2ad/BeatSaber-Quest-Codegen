@@ -39,12 +39,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PartyMessageHandler::ConnectToMasterServerMessage : public ::Il2CppObject/*, public LiteNetLib::Utils::INetSerializable, public GlobalNamespace::IPoolablePacket*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.String secret
     // Size: 0x8
     // Offset: 0x10
     ::Il2CppString* secret;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Creating interface conversion operator: operator LiteNetLib::Utils::INetSerializable
     operator LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<LiteNetLib::Utils::INetSerializable*>(this);

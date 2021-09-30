@@ -40,12 +40,18 @@ namespace HoudiniEngineUnity {
     char ___base_padding[0x4] = {};
     // Nested type: HoudiniEngineUnity::HEU_InputInterfaceTilemap::HEU_InputDataTilemap
     class HEU_InputDataTilemap;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private HoudiniEngineUnity.HEU_InputInterfaceTilemapSettings settings
     // Size: 0x8
     // Offset: 0x18
     HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings* settings;
     // Field size check
     static_assert(sizeof(HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings*) == 0x8);
+    public:
     // Deleting conversion operator: operator int
     constexpr operator int() const noexcept = delete;
     // Get instance field reference: private HoudiniEngineUnity.HEU_InputInterfaceTilemapSettings settings

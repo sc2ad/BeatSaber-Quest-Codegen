@@ -37,6 +37,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct SteamVR_Utils::RigidTransform/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Vector3 pos
     // Size: 0xC
     // Offset: 0x0
@@ -49,6 +54,7 @@ namespace GlobalNamespace {
     UnityEngine::Quaternion rot;
     // Field size check
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
+    public:
     // Creating value type constructor for type: RigidTransform
     constexpr RigidTransform(UnityEngine::Vector3 pos_ = {}, UnityEngine::Quaternion rot_ = {}) noexcept : pos{pos_}, rot{rot_} {}
     // Creating interface conversion operator: operator System::ValueType

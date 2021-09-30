@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net
@@ -46,6 +47,11 @@ namespace MasterServer {
     public:
     // Writing base type padding for base size: 0x14 to desired offset: 0x18
     char ___base_padding[0x4] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.String id
     // Size: 0x8
     // Offset: 0x18
@@ -82,6 +88,7 @@ namespace MasterServer {
     GlobalNamespace::ByteArrayNetSerializable* publicKey;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ByteArrayNetSerializable*) == 0x8);
+    public:
     // Creating interface conversion operator: operator MasterServer::IDedicatedServerServerToClientMessage
     operator MasterServer::IDedicatedServerServerToClientMessage() noexcept {
       return *reinterpret_cast<MasterServer::IDedicatedServerServerToClientMessage*>(this);
@@ -105,7 +112,7 @@ namespace MasterServer {
     static GlobalNamespace::PacketPool_1<MasterServer::DedicatedServerPrepareForConnectionRequest*>* get_pool();
     // public MasterServer.DedicatedServerPrepareForConnectionRequest Init(System.String id, System.String userId, System.String userName, System.Net.IPEndPoint remoteEndPoint, System.Byte[] random, System.Byte[] publicKey)
     // Offset: 0x12DBB40
-    MasterServer::DedicatedServerPrepareForConnectionRequest* Init(::Il2CppString* id, ::Il2CppString* userId, ::Il2CppString* userName, System::Net::IPEndPoint* remoteEndPoint, ::ArrayWrapper<uint8_t> random, ::ArrayWrapper<uint8_t> publicKey);
+    MasterServer::DedicatedServerPrepareForConnectionRequest* Init(::Il2CppString* id, ::Il2CppString* userId, ::Il2CppString* userName, System::Net::IPEndPoint* remoteEndPoint, ::ArrayW<uint8_t> random, ::ArrayW<uint8_t> publicKey);
     // public System.Void .ctor()
     // Offset: 0x12DBD74
     // Implemented from: BaseMasterServerReliableRequest
@@ -149,7 +156,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: MasterServer::DedicatedServerPrepareForConnectionRequest::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::DedicatedServerPrepareForConnectionRequest* (MasterServer::DedicatedServerPrepareForConnectionRequest::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, System::Net::IPEndPoint*, ::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>)>(&MasterServer::DedicatedServerPrepareForConnectionRequest::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::DedicatedServerPrepareForConnectionRequest* (MasterServer::DedicatedServerPrepareForConnectionRequest::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, System::Net::IPEndPoint*, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(&MasterServer::DedicatedServerPrepareForConnectionRequest::Init)> {
   static const MethodInfo* get() {
     static auto* id = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* userId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

@@ -33,6 +33,11 @@ namespace Zenject {
     char ___base_padding[0x6] = {};
     // Nested type: Zenject::ProjectKernel::$$c__DisplayClass4_0
     class $$c__DisplayClass4_0;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xEC426C
     // private Zenject.ZenjectSettings _settings
     // Size: 0x8
@@ -47,6 +52,7 @@ namespace Zenject {
     Zenject::SceneContextRegistry* contextRegistry;
     // Field size check
     static_assert(sizeof(Zenject::SceneContextRegistry*) == 0x8);
+    public:
     // Get instance field reference: private Zenject.ZenjectSettings _settings
     Zenject::ZenjectSettings*& dyn__settings();
     // Get instance field reference: private Zenject.SceneContextRegistry _contextRegistry

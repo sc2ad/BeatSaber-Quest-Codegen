@@ -33,6 +33,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OverrideEnvironmentSettings : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Boolean overrideEnvironments
     // Size: 0x1
     // Offset: 0x10
@@ -47,6 +52,7 @@ namespace GlobalNamespace {
     System::Collections::Generic::Dictionary_2<GlobalNamespace::EnvironmentTypeSO*, GlobalNamespace::EnvironmentInfoSO*>* data;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<GlobalNamespace::EnvironmentTypeSO*, GlobalNamespace::EnvironmentInfoSO*>*) == 0x8);
+    public:
     // Get instance field reference: public System.Boolean overrideEnvironments
     bool& dyn_overrideEnvironments();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<EnvironmentTypeSO,EnvironmentInfoSO> _data

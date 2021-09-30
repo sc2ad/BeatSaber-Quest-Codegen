@@ -43,6 +43,11 @@ namespace System::Runtime::Serialization {
   // [TokenAttribute] Offset: FFFFFFFF
   class SerializationEvents : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.List`1<System.Reflection.MethodInfo> m_OnSerializingMethods
     // Size: 0x8
     // Offset: 0x10
@@ -67,6 +72,7 @@ namespace System::Runtime::Serialization {
     System::Collections::Generic::List_1<System::Reflection::MethodInfo*>* m_OnDeserializedMethods;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<System::Reflection::MethodInfo*>*) == 0x8);
+    public:
     // Get instance field reference: private System.Collections.Generic.List`1<System.Reflection.MethodInfo> m_OnSerializingMethods
     System::Collections::Generic::List_1<System::Reflection::MethodInfo*>*& dyn_m_OnSerializingMethods();
     // Get instance field reference: private System.Collections.Generic.List`1<System.Reflection.MethodInfo> m_OnSerializedMethods

@@ -29,6 +29,11 @@ namespace OnlineServices {
   // [IsReadOnlyAttribute] Offset: FFFFFFFF
   struct GetLeaderboardFilterData/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly IDifficultyBeatmap beatmap
     // Size: 0x8
     // Offset: 0x0
@@ -61,6 +66,7 @@ namespace OnlineServices {
     GlobalNamespace::GameplayModifiers* gameplayModifiers;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayModifiers*) == 0x8);
+    public:
     // Creating value type constructor for type: GetLeaderboardFilterData
     constexpr GetLeaderboardFilterData(GlobalNamespace::IDifficultyBeatmap* beatmap_ = {}, int count_ = {}, int fromRank_ = {}, OnlineServices::ScoresScope scope_ = {}, GlobalNamespace::GameplayModifiers* gameplayModifiers_ = {}) noexcept : beatmap{beatmap_}, count{count_}, fromRank{fromRank_}, scope{scope_}, gameplayModifiers{gameplayModifiers_} {}
     // Creating interface conversion operator: operator System::ValueType

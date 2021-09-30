@@ -29,6 +29,11 @@ namespace UnityEngine::Timeline {
   // [TokenAttribute] Offset: FFFFFFFF
   class AudioMixerProperties : public UnityEngine::Playables::PlayableBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [RangeAttribute] Offset: 0xEBA318
     // public System.Single volume
     // Size: 0x4
@@ -50,6 +55,7 @@ namespace UnityEngine::Timeline {
     float spatialBlend;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: public System.Single volume
     float& dyn_volume();
     // Get instance field reference: public System.Single stereoPan

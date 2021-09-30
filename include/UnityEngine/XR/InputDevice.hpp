@@ -24,6 +24,11 @@ namespace UnityEngine::XR {
   // [UsedByNativeCodeAttribute] Offset: E98FC0
   struct InputDevice/*, public System::ValueType, public System::IEquatable_1<UnityEngine::XR::InputDevice>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.UInt64 m_DeviceId
     // Size: 0x8
     // Offset: 0x0
@@ -36,6 +41,7 @@ namespace UnityEngine::XR {
     bool m_Initialized;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating value type constructor for type: InputDevice
     constexpr InputDevice(uint64_t m_DeviceId_ = {}, bool m_Initialized_ = {}) noexcept : m_DeviceId{m_DeviceId_}, m_Initialized{m_Initialized_} {}
     // Creating interface conversion operator: operator System::ValueType

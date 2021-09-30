@@ -34,6 +34,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BoxCuttableBySaber : public GlobalNamespace::CuttableBySaber {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.BoxCollider _collider
     // Size: 0x8
     // Offset: 0x20
@@ -54,6 +59,7 @@ namespace GlobalNamespace {
     float radius;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: private UnityEngine.BoxCollider _collider
     UnityEngine::BoxCollider*& dyn__collider();
     // Get instance field reference: private System.Boolean _canBeCut

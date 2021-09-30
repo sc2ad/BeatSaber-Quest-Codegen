@@ -34,12 +34,18 @@ namespace Zenject {
   template<typename T>
   class InstantiateCallbackConditionCopyNonLazyBinder::$$c__DisplayClass2_0_1 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Action`2<Zenject.InjectContext,T> callback
     // Size: 0x8
     // Offset: 0x0
     System::Action_2<Zenject::InjectContext*, T>* callback;
     // Field size check
     static_assert(sizeof(System::Action_2<Zenject::InjectContext*, T>*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Action_2<Zenject::InjectContext*, T>*
     constexpr operator System::Action_2<Zenject::InjectContext*, T>*() const noexcept {
       return callback;

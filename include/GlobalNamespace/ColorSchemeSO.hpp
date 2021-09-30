@@ -27,12 +27,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ColorSchemeSO : public GlobalNamespace::PersistentScriptableObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private ColorScheme _colorScheme
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::ColorScheme* colorScheme;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ColorScheme*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private ColorScheme _colorScheme

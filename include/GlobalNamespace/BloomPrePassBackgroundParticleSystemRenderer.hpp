@@ -30,6 +30,11 @@ namespace GlobalNamespace {
   // [ExecuteAlways] Offset: FFFFFFFF
   class BloomPrePassBackgroundParticleSystemRenderer : public GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.ParticleSystem _particleSystem
     // Size: 0x8
     // Offset: 0x30
@@ -42,6 +47,7 @@ namespace GlobalNamespace {
     UnityEngine::Renderer* renderer;
     // Field size check
     static_assert(sizeof(UnityEngine::Renderer*) == 0x8);
+    public:
     // Get instance field reference: private UnityEngine.ParticleSystem _particleSystem
     UnityEngine::ParticleSystem*& dyn__particleSystem();
     // Get instance field reference: private UnityEngine.Renderer _renderer

@@ -36,6 +36,11 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class ScriptableObjectInstanceProvider::$$c__DisplayClass13_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Collections.Generic.List`1<System.Object> buffer
     // Size: 0x8
     // Offset: 0x10
@@ -60,6 +65,7 @@ namespace Zenject {
     Zenject::InjectContext* context;
     // Field size check
     static_assert(sizeof(Zenject::InjectContext*) == 0x8);
+    public:
     // Get instance field reference: public System.Collections.Generic.List`1<System.Object> buffer
     System::Collections::Generic::List_1<::Il2CppObject*>*& dyn_buffer();
     // Get instance field reference: public Zenject.ScriptableObjectInstanceProvider <>4__this

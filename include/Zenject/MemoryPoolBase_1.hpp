@@ -51,6 +51,11 @@ namespace Zenject {
   template<typename TContract>
   class MemoryPoolBase_1 : public ::Il2CppObject/*, public System::IDisposable, public Zenject::IValidatable, public Zenject::IMemoryPool*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.Stack`1<TContract> _inactiveItems
     // Size: 0x8
     // Offset: 0x0
@@ -81,6 +86,7 @@ namespace Zenject {
     int activeCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

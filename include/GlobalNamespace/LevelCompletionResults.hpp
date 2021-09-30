@@ -48,12 +48,18 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct LevelEndStateType/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: LevelEndStateType
       constexpr LevelEndStateType(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -94,12 +100,18 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct LevelEndAction/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: LevelEndAction
       constexpr LevelEndAction(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -134,6 +146,11 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(LevelCompletionResults::LevelEndAction), 0 + sizeof(int)> __GlobalNamespace_LevelCompletionResults_LevelEndActionSizeCheck;
     static_assert(sizeof(LevelCompletionResults::LevelEndAction) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly GameplayModifiers gameplayModifiers
     // Size: 0x8
     // Offset: 0x10
@@ -310,6 +327,7 @@ namespace GlobalNamespace {
     float endSongTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating interface conversion operator: operator LiteNetLib::Utils::INetImmutableSerializable_1<GlobalNamespace::LevelCompletionResults*>
     operator LiteNetLib::Utils::INetImmutableSerializable_1<GlobalNamespace::LevelCompletionResults*>() noexcept {
       return *reinterpret_cast<LiteNetLib::Utils::INetImmutableSerializable_1<GlobalNamespace::LevelCompletionResults*>*>(this);

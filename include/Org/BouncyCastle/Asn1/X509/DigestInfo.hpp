@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Asn1::X509
@@ -32,26 +33,32 @@ namespace Org::BouncyCastle::Asn1::X509 {
   // [TokenAttribute] Offset: FFFFFFFF
   class DigestInfo : public Org::BouncyCastle::Asn1::Asn1Encodable {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Byte[] digest
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<uint8_t> digest;
+    ::ArrayW<uint8_t> digest;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private readonly Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier algID
     // Size: 0x8
     // Offset: 0x18
     Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algID;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*) == 0x8);
+    public:
     // Get instance field reference: private readonly System.Byte[] digest
-    ::ArrayWrapper<uint8_t>& dyn_digest();
+    ::ArrayW<uint8_t>& dyn_digest();
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier algID
     Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& dyn_algID();
     // public System.Void .ctor(Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier algID, System.Byte[] digest)
     // Offset: 0x1BB7AEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DigestInfo* New_ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algID, ::ArrayWrapper<uint8_t> digest) {
+    static DigestInfo* New_ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algID, ::ArrayW<uint8_t> digest) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::X509::DigestInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DigestInfo*, creationType>(algID, digest)));
     }

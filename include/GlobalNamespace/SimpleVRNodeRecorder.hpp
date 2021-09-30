@@ -54,18 +54,24 @@ namespace GlobalNamespace {
       public:
       // Nested type: GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe
       class NodeKeyframe;
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public SimpleVRNodeRecorder/SavedData/NodeKeyframe[] keyframes
       // Size: 0x8
       // Offset: 0x10
-      ::ArrayWrapper<GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe*> keyframes;
+      ::ArrayW<GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe*> keyframes;
       // Field size check
-      static_assert(sizeof(::ArrayWrapper<GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe*>) == 0x8);
-      // Creating conversion operator: operator ::ArrayWrapper<GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe*>
-      constexpr operator ::ArrayWrapper<GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe*>() const noexcept {
+      static_assert(sizeof(::ArrayW<GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe*>) == 0x8);
+      public:
+      // Creating conversion operator: operator ::ArrayW<GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe*>
+      constexpr operator ::ArrayW<GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe*>() const noexcept {
         return keyframes;
       }
       // Get instance field reference: public SimpleVRNodeRecorder/SavedData/NodeKeyframe[] keyframes
-      ::ArrayWrapper<GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe*>& dyn_keyframes();
+      ::ArrayW<GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe*>& dyn_keyframes();
       // public System.Void .ctor()
       // Offset: 0x1107EC0
       // Implemented from: System.Object
@@ -77,7 +83,7 @@ namespace GlobalNamespace {
       }
     }; // SimpleVRNodeRecorder/SavedData
     #pragma pack(pop)
-    static check_size<sizeof(SimpleVRNodeRecorder::SavedData), 16 + sizeof(::ArrayWrapper<GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe*>)> __GlobalNamespace_SimpleVRNodeRecorder_SavedDataSizeCheck;
+    static check_size<sizeof(SimpleVRNodeRecorder::SavedData), 16 + sizeof(::ArrayW<GlobalNamespace::SimpleVRNodeRecorder::SavedData::NodeKeyframe*>)> __GlobalNamespace_SimpleVRNodeRecorder_SavedDataSizeCheck;
     static_assert(sizeof(SimpleVRNodeRecorder::SavedData) == 0x18);
     // Size: 0x4
     #pragma pack(push, 1)
@@ -85,12 +91,18 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct RecordMode/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: RecordMode
       constexpr RecordMode(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -125,6 +137,11 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(SimpleVRNodeRecorder::RecordMode), 0 + sizeof(int)> __GlobalNamespace_SimpleVRNodeRecorder_RecordModeSizeCheck;
     static_assert(sizeof(SimpleVRNodeRecorder::RecordMode) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private FloatSO _songTime
     // Size: 0x8
     // Offset: 0x18
@@ -198,6 +215,7 @@ namespace GlobalNamespace {
     UnityEngine::Quaternion prevRot;
     // Field size check
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private FloatSO _songTime

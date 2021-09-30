@@ -5,6 +5,7 @@
 // Begin includes
 #include <stdint.h>
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Crypto
@@ -32,7 +33,7 @@ namespace Org::BouncyCastle::Crypto {
     int GetOutputBlockSize();
     // public System.Byte[] ProcessBlock(System.Byte[] inBuf, System.Int32 inOff, System.Int32 inLen)
     // Offset: 0xFFFFFFFF
-    ::ArrayWrapper<uint8_t> ProcessBlock(::ArrayWrapper<uint8_t> inBuf, int inOff, int inLen);
+    ::ArrayW<uint8_t> ProcessBlock(::ArrayW<uint8_t> inBuf, int inOff, int inLen);
   }; // Org.BouncyCastle.Crypto.IAsymmetricBlockCipher
   #pragma pack(pop)
 }
@@ -68,7 +69,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::IAsymmetricBlockCipher::ProcessBlock
 // Il2CppName: ProcessBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Crypto::IAsymmetricBlockCipher::*)(::ArrayWrapper<uint8_t>, int, int)>(&Org::BouncyCastle::Crypto::IAsymmetricBlockCipher::ProcessBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Org::BouncyCastle::Crypto::IAsymmetricBlockCipher::*)(::ArrayW<uint8_t>, int, int)>(&Org::BouncyCastle::Crypto::IAsymmetricBlockCipher::ProcessBlock)> {
   static const MethodInfo* get() {
     static auto* inBuf = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* inOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Math::EC
@@ -33,6 +34,11 @@ namespace Org::BouncyCastle::Math::EC {
   // [TokenAttribute] Offset: FFFFFFFF
   class F2mFieldElement : public Org::BouncyCastle::Math::EC::AbstractF2mFieldElement {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 representation
     // Size: 0x4
     // Offset: 0x10
@@ -48,21 +54,22 @@ namespace Org::BouncyCastle::Math::EC {
     // private System.Int32[] ks
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<int> ks;
+    ::ArrayW<int> ks;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // Org.BouncyCastle.Math.EC.LongArray x
     // Size: 0x8
     // Offset: 0x20
     Org::BouncyCastle::Math::EC::LongArray* x;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Math::EC::LongArray*) == 0x8);
+    public:
     // Get instance field reference: private System.Int32 representation
     int& dyn_representation();
     // Get instance field reference: private System.Int32 m
     int& dyn_m();
     // Get instance field reference: private System.Int32[] ks
-    ::ArrayWrapper<int>& dyn_ks();
+    ::ArrayW<int>& dyn_ks();
     // Get instance field reference: Org.BouncyCastle.Math.EC.LongArray x
     Org::BouncyCastle::Math::EC::LongArray*& dyn_x();
     // public System.Void .ctor(System.Int32 m, System.Int32 k1, System.Int32 k2, System.Int32 k3, Org.BouncyCastle.Math.BigInteger x)
@@ -75,7 +82,7 @@ namespace Org::BouncyCastle::Math::EC {
     // System.Void .ctor(System.Int32 m, System.Int32[] ks, Org.BouncyCastle.Math.EC.LongArray x)
     // Offset: 0x2319FDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static F2mFieldElement* New_ctor(int m, ::ArrayWrapper<int> ks, Org::BouncyCastle::Math::EC::LongArray* x) {
+    static F2mFieldElement* New_ctor(int m, ::ArrayW<int> ks, Org::BouncyCastle::Math::EC::LongArray* x) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::F2mFieldElement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<F2mFieldElement*, creationType>(m, ks, x)));
     }

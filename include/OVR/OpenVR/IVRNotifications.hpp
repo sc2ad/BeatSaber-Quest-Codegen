@@ -25,6 +25,11 @@ namespace OVR::OpenVR {
     class _CreateNotification;
     // Nested type: OVR::OpenVR::IVRNotifications::_RemoveNotification
     class _RemoveNotification;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // OVR.OpenVR.IVRNotifications/OVR.OpenVR._CreateNotification CreateNotification
     // Size: 0x8
     // Offset: 0x0
@@ -37,6 +42,7 @@ namespace OVR::OpenVR {
     OVR::OpenVR::IVRNotifications::_RemoveNotification* RemoveNotification;
     // Field size check
     static_assert(sizeof(OVR::OpenVR::IVRNotifications::_RemoveNotification*) == 0x8);
+    public:
     // Creating value type constructor for type: IVRNotifications
     constexpr IVRNotifications(OVR::OpenVR::IVRNotifications::_CreateNotification* CreateNotification_ = {}, OVR::OpenVR::IVRNotifications::_RemoveNotification* RemoveNotification_ = {}) noexcept : CreateNotification{CreateNotification_}, RemoveNotification{RemoveNotification_} {}
     // Creating interface conversion operator: operator System::ValueType

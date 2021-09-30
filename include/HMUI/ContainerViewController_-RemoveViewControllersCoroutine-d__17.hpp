@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HMUI
@@ -44,6 +45,11 @@ namespace HMUI {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class ContainerViewController::$RemoveViewControllersCoroutine$d__17 : public ::Il2CppObject/*, public System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -67,9 +73,9 @@ namespace HMUI {
     // public HMUI.ViewController[] viewControllersToRemove
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<HMUI::ViewController*> viewControllersToRemove;
+    ::ArrayW<HMUI::ViewController*> viewControllersToRemove;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<HMUI::ViewController*>) == 0x8);
+    static_assert(sizeof(::ArrayW<HMUI::ViewController*>) == 0x8);
     // public System.Boolean immediately
     // Size: 0x1
     // Offset: 0x30
@@ -81,9 +87,9 @@ namespace HMUI {
     // public System.Action`3<System.Single,HMUI.ViewController[],System.Collections.Generic.HashSet`1<HMUI.ViewController>> animationLayouter
     // Size: 0x8
     // Offset: 0x38
-    System::Action_3<float, ::ArrayWrapper<HMUI::ViewController*>, System::Collections::Generic::HashSet_1<HMUI::ViewController*>*>* animationLayouter;
+    System::Action_3<float, ::ArrayW<HMUI::ViewController*>, System::Collections::Generic::HashSet_1<HMUI::ViewController*>*>* animationLayouter;
     // Field size check
-    static_assert(sizeof(System::Action_3<float, ::ArrayWrapper<HMUI::ViewController*>, System::Collections::Generic::HashSet_1<HMUI::ViewController*>*>*) == 0x8);
+    static_assert(sizeof(System::Action_3<float, ::ArrayW<HMUI::ViewController*>, System::Collections::Generic::HashSet_1<HMUI::ViewController*>*>*) == 0x8);
     // public System.Action finishedCallback
     // Size: 0x8
     // Offset: 0x40
@@ -93,9 +99,9 @@ namespace HMUI {
     // private HMUI.ViewController[] <viewControllers>5__2
     // Size: 0x8
     // Offset: 0x48
-    ::ArrayWrapper<HMUI::ViewController*> $viewControllers$5__2;
+    ::ArrayW<HMUI::ViewController*> $viewControllers$5__2;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<HMUI::ViewController*>) == 0x8);
+    static_assert(sizeof(::ArrayW<HMUI::ViewController*>) == 0x8);
     // private System.Collections.Generic.HashSet`1<HMUI.ViewController> <viewControllersToRemoveSet>5__3
     // Size: 0x8
     // Offset: 0x50
@@ -114,6 +120,7 @@ namespace HMUI {
     float $elapsedTime$5__5;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
@@ -125,15 +132,15 @@ namespace HMUI {
     // Get instance field reference: public HMUI.ContainerViewController <>4__this
     HMUI::ContainerViewController*& dyn_$$4__this();
     // Get instance field reference: public HMUI.ViewController[] viewControllersToRemove
-    ::ArrayWrapper<HMUI::ViewController*>& dyn_viewControllersToRemove();
+    ::ArrayW<HMUI::ViewController*>& dyn_viewControllersToRemove();
     // Get instance field reference: public System.Boolean immediately
     bool& dyn_immediately();
     // Get instance field reference: public System.Action`3<System.Single,HMUI.ViewController[],System.Collections.Generic.HashSet`1<HMUI.ViewController>> animationLayouter
-    System::Action_3<float, ::ArrayWrapper<HMUI::ViewController*>, System::Collections::Generic::HashSet_1<HMUI::ViewController*>*>*& dyn_animationLayouter();
+    System::Action_3<float, ::ArrayW<HMUI::ViewController*>, System::Collections::Generic::HashSet_1<HMUI::ViewController*>*>*& dyn_animationLayouter();
     // Get instance field reference: public System.Action finishedCallback
     System::Action*& dyn_finishedCallback();
     // Get instance field reference: private HMUI.ViewController[] <viewControllers>5__2
-    ::ArrayWrapper<HMUI::ViewController*>& dyn_$viewControllers$5__2();
+    ::ArrayW<HMUI::ViewController*>& dyn_$viewControllers$5__2();
     // Get instance field reference: private System.Collections.Generic.HashSet`1<HMUI.ViewController> <viewControllersToRemoveSet>5__3
     System::Collections::Generic::HashSet_1<HMUI::ViewController*>*& dyn_$viewControllersToRemoveSet$5__3();
     // Get instance field reference: private System.Single <transitionDuration>5__4

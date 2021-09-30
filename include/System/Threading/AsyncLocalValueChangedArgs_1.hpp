@@ -20,6 +20,11 @@ namespace System::Threading {
   template<typename T>
   struct AsyncLocalValueChangedArgs_1/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [CompilerGeneratedAttribute] Offset: 0xE63890
     // private T <PreviousValue>k__BackingField
     // Size: 0xFFFFFFFF
@@ -37,6 +42,7 @@ namespace System::Threading {
     bool ThreadContextChanged;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating value type constructor for type: AsyncLocalValueChangedArgs_1
     constexpr AsyncLocalValueChangedArgs_1(T PreviousValue_ = {}, T CurrentValue_ = {}, bool ThreadContextChanged_ = {}) noexcept : PreviousValue{PreviousValue_}, CurrentValue{CurrentValue_}, ThreadContextChanged{ThreadContextChanged_} {}
     // Creating interface conversion operator: operator System::ValueType

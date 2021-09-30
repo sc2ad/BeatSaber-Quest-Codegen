@@ -35,12 +35,18 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class Triangulation::$$c__DisplayClass7_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 index
     // Size: 0x4
     // Offset: 0x10
     int index;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return index;

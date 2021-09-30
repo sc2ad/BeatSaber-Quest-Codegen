@@ -20,6 +20,11 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class StackLayoutGroup : public UnityEngine::UI::LayoutGroup {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // protected System.Boolean m_ChildForceExpandWidth
     // Size: 0x1
     // Offset: 0x58
@@ -32,6 +37,7 @@ namespace HMUI {
     bool m_ChildForceExpandHeight;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: protected System.Boolean m_ChildForceExpandWidth
     bool& dyn_m_ChildForceExpandWidth();
     // Get instance field reference: protected System.Boolean m_ChildForceExpandHeight

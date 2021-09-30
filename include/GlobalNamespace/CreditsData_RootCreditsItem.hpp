@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -20,6 +21,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class CreditsData::RootCreditsItem : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public CreditsData/Text title
     // Size: 0x8
     // Offset: 0x10
@@ -43,9 +49,10 @@ namespace GlobalNamespace {
     // public CreditsData/ChildCreditsItem[] creditsItems
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<GlobalNamespace::CreditsData::ChildCreditsItem*> creditsItems;
+    ::ArrayW<GlobalNamespace::CreditsData::ChildCreditsItem*> creditsItems;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::CreditsData::ChildCreditsItem*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::CreditsData::ChildCreditsItem*>) == 0x8);
+    public:
     // Get instance field reference: public CreditsData/Text title
     GlobalNamespace::CreditsData::Text*& dyn_title();
     // Get instance field reference: public CreditsData/Text text
@@ -53,7 +60,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int32 rowCountOverride
     int& dyn_rowCountOverride();
     // Get instance field reference: public CreditsData/ChildCreditsItem[] creditsItems
-    ::ArrayWrapper<GlobalNamespace::CreditsData::ChildCreditsItem*>& dyn_creditsItems();
+    ::ArrayW<GlobalNamespace::CreditsData::ChildCreditsItem*>& dyn_creditsItems();
     // public System.Boolean HasTitle()
     // Offset: 0x11A0100
     bool HasTitle();
@@ -74,7 +81,7 @@ namespace GlobalNamespace {
     }
   }; // CreditsData/RootCreditsItem
   #pragma pack(pop)
-  static check_size<sizeof(CreditsData::RootCreditsItem), 40 + sizeof(::ArrayWrapper<GlobalNamespace::CreditsData::ChildCreditsItem*>)> __GlobalNamespace_CreditsData_RootCreditsItemSizeCheck;
+  static check_size<sizeof(CreditsData::RootCreditsItem), 40 + sizeof(::ArrayW<GlobalNamespace::CreditsData::ChildCreditsItem*>)> __GlobalNamespace_CreditsData_RootCreditsItemSizeCheck;
   static_assert(sizeof(CreditsData::RootCreditsItem) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CreditsData::RootCreditsItem*, "", "CreditsData/RootCreditsItem");

@@ -27,12 +27,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SleepRigidbody2DWhenInvisible : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Rigidbody2D _rigidbody2D
     // Size: 0x8
     // Offset: 0x18
     UnityEngine::Rigidbody2D* rigidbody2D;
     // Field size check
     static_assert(sizeof(UnityEngine::Rigidbody2D*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public UnityEngine.Rigidbody2D _rigidbody2D

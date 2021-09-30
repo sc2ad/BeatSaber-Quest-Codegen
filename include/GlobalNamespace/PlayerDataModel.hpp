@@ -29,6 +29,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayerDataModel : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private PlayerDataFileManagerSO _playerDataFileManager
     // Size: 0x8
     // Offset: 0x18
@@ -41,6 +46,7 @@ namespace GlobalNamespace {
     GlobalNamespace::PlayerData* playerData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerData*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private PlayerDataFileManagerSO _playerDataFileManager

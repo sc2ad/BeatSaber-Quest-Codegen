@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -26,9 +27,9 @@ namespace GlobalNamespace {
     // Nested type: GlobalNamespace::OVRHaptics::OVRHapticsOutput
     class OVRHapticsOutput;
     // Get static field: static public readonly OVRHaptics/OVRHapticsChannel[] Channels
-    static ::ArrayWrapper<GlobalNamespace::OVRHaptics::OVRHapticsChannel*> _get_Channels();
+    static ::ArrayW<GlobalNamespace::OVRHaptics::OVRHapticsChannel*> _get_Channels();
     // Set static field: static public readonly OVRHaptics/OVRHapticsChannel[] Channels
-    static void _set_Channels(::ArrayWrapper<GlobalNamespace::OVRHaptics::OVRHapticsChannel*> value);
+    static void _set_Channels(::ArrayW<GlobalNamespace::OVRHaptics::OVRHapticsChannel*> value);
     // Get static field: static public readonly OVRHaptics/OVRHapticsChannel LeftChannel
     static GlobalNamespace::OVRHaptics::OVRHapticsChannel* _get_LeftChannel();
     // Set static field: static public readonly OVRHaptics/OVRHapticsChannel LeftChannel
@@ -38,9 +39,9 @@ namespace GlobalNamespace {
     // Set static field: static public readonly OVRHaptics/OVRHapticsChannel RightChannel
     static void _set_RightChannel(GlobalNamespace::OVRHaptics::OVRHapticsChannel* value);
     // Get static field: static private readonly OVRHaptics/OVRHapticsOutput[] m_outputs
-    static ::ArrayWrapper<GlobalNamespace::OVRHaptics::OVRHapticsOutput*> _get_m_outputs();
+    static ::ArrayW<GlobalNamespace::OVRHaptics::OVRHapticsOutput*> _get_m_outputs();
     // Set static field: static private readonly OVRHaptics/OVRHapticsOutput[] m_outputs
-    static void _set_m_outputs(::ArrayWrapper<GlobalNamespace::OVRHaptics::OVRHapticsOutput*> value);
+    static void _set_m_outputs(::ArrayW<GlobalNamespace::OVRHaptics::OVRHapticsOutput*> value);
     // static private System.Void .cctor()
     // Offset: 0x16C5DFC
     static void _cctor();

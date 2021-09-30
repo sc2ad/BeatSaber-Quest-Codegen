@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: TMPro
@@ -27,16 +28,22 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class TextMeshProAutosizeGroup : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private TMPro.TMP_Text[] _texts
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<TMPro::TMP_Text*> texts;
+    ::ArrayW<TMPro::TMP_Text*> texts;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<TMPro::TMP_Text*>) == 0x8);
+    static_assert(sizeof(::ArrayW<TMPro::TMP_Text*>) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TMPro.TMP_Text[] _texts
-    ::ArrayWrapper<TMPro::TMP_Text*>& dyn__texts();
+    ::ArrayW<TMPro::TMP_Text*>& dyn__texts();
     // protected System.Void Start()
     // Offset: 0x25B5504
     void Start();
@@ -55,7 +62,7 @@ namespace GlobalNamespace {
     }
   }; // TextMeshProAutosizeGroup
   #pragma pack(pop)
-  static check_size<sizeof(TextMeshProAutosizeGroup), 24 + sizeof(::ArrayWrapper<TMPro::TMP_Text*>)> __GlobalNamespace_TextMeshProAutosizeGroupSizeCheck;
+  static check_size<sizeof(TextMeshProAutosizeGroup), 24 + sizeof(::ArrayW<TMPro::TMP_Text*>)> __GlobalNamespace_TextMeshProAutosizeGroupSizeCheck;
   static_assert(sizeof(TextMeshProAutosizeGroup) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TextMeshProAutosizeGroup*, "", "TextMeshProAutosizeGroup");

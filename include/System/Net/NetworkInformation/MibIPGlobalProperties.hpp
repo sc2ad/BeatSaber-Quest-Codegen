@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: System.Net.NetworkInformation
 namespace System::Net::NetworkInformation {
@@ -20,6 +21,11 @@ namespace System::Net::NetworkInformation {
   // [TokenAttribute] Offset: FFFFFFFF
   class MibIPGlobalProperties : public System::Net::NetworkInformation::UnixIPGlobalProperties {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly System.String StatisticsFile
     // Size: 0x8
     // Offset: 0x10
@@ -56,10 +62,11 @@ namespace System::Net::NetworkInformation {
     ::Il2CppString* Udp6File;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get static field: static private readonly System.Char[] wsChars
-    static ::ArrayWrapper<::Il2CppChar> _get_wsChars();
+    static ::ArrayW<::Il2CppChar> _get_wsChars();
     // Set static field: static private readonly System.Char[] wsChars
-    static void _set_wsChars(::ArrayWrapper<::Il2CppChar> value);
+    static void _set_wsChars(::ArrayW<::Il2CppChar> value);
     // Get instance field reference: public readonly System.String StatisticsFile
     ::Il2CppString*& dyn_StatisticsFile();
     // Get instance field reference: public readonly System.String StatisticsFileIPv6

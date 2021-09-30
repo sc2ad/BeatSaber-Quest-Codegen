@@ -27,12 +27,18 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class Test_Transform : public ::Il2CppObject/*, public HoudiniEngineUnity::IEquivableWrapperClass_1<HoudiniEngineUnity::Test_Transform*>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Transform self
     // Size: 0x8
     // Offset: 0x10
     UnityEngine::Transform* self;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    public:
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivableWrapperClass_1<HoudiniEngineUnity::Test_Transform*>
     operator HoudiniEngineUnity::IEquivableWrapperClass_1<HoudiniEngineUnity::Test_Transform*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivableWrapperClass_1<HoudiniEngineUnity::Test_Transform*>*>(this);

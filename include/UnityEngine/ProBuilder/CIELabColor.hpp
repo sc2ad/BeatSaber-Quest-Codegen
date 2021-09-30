@@ -30,6 +30,11 @@ namespace UnityEngine::ProBuilder {
   // [TokenAttribute] Offset: FFFFFFFF
   class CIELabColor : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Single L
     // Size: 0x4
     // Offset: 0x10
@@ -48,6 +53,7 @@ namespace UnityEngine::ProBuilder {
     float b;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: public System.Single L
     float& dyn_L();
     // Get instance field reference: public System.Single a

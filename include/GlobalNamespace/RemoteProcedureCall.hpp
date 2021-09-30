@@ -35,12 +35,18 @@ namespace GlobalNamespace {
     // Nested type: GlobalNamespace::RemoteProcedureCall::TypeWrapper_1<T>
     template<typename T>
     struct TypeWrapper_1;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Single <syncTime>k__BackingField
     // Size: 0x4
     // Offset: 0x10
     float syncTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IRemoteProcedureCall
     operator GlobalNamespace::IRemoteProcedureCall() noexcept {
       return *reinterpret_cast<GlobalNamespace::IRemoteProcedureCall*>(this);

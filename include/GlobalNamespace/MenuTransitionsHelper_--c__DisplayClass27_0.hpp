@@ -30,6 +30,11 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class MenuTransitionsHelper::$$c__DisplayClass27_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public TutorialScenesTransitionSetupDataSO/TutorialEndStateType endState
     // Size: 0x4
     // Offset: 0x10
@@ -44,6 +49,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MenuTransitionsHelper* $$4__this;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MenuTransitionsHelper*) == 0x8);
+    public:
     // Get instance field reference: public TutorialScenesTransitionSetupDataSO/TutorialEndStateType endState
     GlobalNamespace::TutorialScenesTransitionSetupDataSO::TutorialEndStateType& dyn_endState();
     // Get instance field reference: public MenuTransitionsHelper <>4__this

@@ -34,12 +34,18 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct PlatformEnviroment/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Byte value__
       // Size: 0x1
       // Offset: 0x0
       uint8_t value;
       // Field size check
       static_assert(sizeof(uint8_t) == 0x1);
+      public:
       // Creating value type constructor for type: PlatformEnviroment
       constexpr PlatformEnviroment(uint8_t value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -74,6 +80,11 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(PlatformUserAuthTokenData::PlatformEnviroment), 0 + sizeof(uint8_t)> __GlobalNamespace_PlatformUserAuthTokenData_PlatformEnviromentSizeCheck;
     static_assert(sizeof(PlatformUserAuthTokenData::PlatformEnviroment) == 0x1);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String <token>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -86,6 +97,7 @@ namespace GlobalNamespace {
     GlobalNamespace::PlatformUserAuthTokenData::PlatformEnviroment validPlatformEnvironment;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlatformUserAuthTokenData::PlatformEnviroment) == 0x1);
+    public:
     // Get instance field reference: private System.String <token>k__BackingField
     ::Il2CppString*& dyn_$token$k__BackingField();
     // Get instance field reference: private PlatformUserAuthTokenData/PlatformEnviroment <validPlatformEnvironment>k__BackingField

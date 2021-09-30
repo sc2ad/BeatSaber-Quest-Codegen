@@ -37,6 +37,11 @@ namespace UnityEngine::Timeline {
   // [TokenAttribute] Offset: FFFFFFFF
   class AnimationPreviewUpdateCallback : public ::Il2CppObject/*, public UnityEngine::Timeline::ITimelineEvaluateCallback*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Animations.AnimationPlayableOutput m_Output
     // Size: 0xC
     // Offset: 0x10
@@ -59,6 +64,7 @@ namespace UnityEngine::Timeline {
     System::Collections::Generic::List_1<UnityEngine::Experimental::Animations::IAnimationWindowPreview*>* m_PreviewComponents;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::Experimental::Animations::IAnimationWindowPreview*>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator UnityEngine::Timeline::ITimelineEvaluateCallback
     operator UnityEngine::Timeline::ITimelineEvaluateCallback() noexcept {
       return *reinterpret_cast<UnityEngine::Timeline::ITimelineEvaluateCallback*>(this);

@@ -26,6 +26,11 @@ namespace Mono {
   // [TokenAttribute] Offset: FFFFFFFF
   struct RuntimeStructs::GPtrArray/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.IntPtr* data
     // Size: 0x8
     // Offset: 0x0
@@ -38,6 +43,7 @@ namespace Mono {
     int len;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: GPtrArray
     constexpr GPtrArray(System::IntPtr* data_ = {}, int len_ = {}) noexcept : data{data_}, len{len_} {}
     // Creating interface conversion operator: operator System::ValueType

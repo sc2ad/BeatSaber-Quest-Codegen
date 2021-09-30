@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Crypto::Prng
@@ -29,12 +30,18 @@ namespace Org::BouncyCastle::Security {
   // [TokenAttribute] Offset: FFFFFFFF
   class SecureRandom : public System::Random {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // protected readonly Org.BouncyCastle.Crypto.Prng.IRandomGenerator generator
     // Size: 0x8
     // Offset: 0x20
     Org::BouncyCastle::Crypto::Prng::IRandomGenerator* generator;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Crypto::Prng::IRandomGenerator*) == 0x8);
+    public:
     // Creating conversion operator: operator Org::BouncyCastle::Crypto::Prng::IRandomGenerator*
     constexpr operator Org::BouncyCastle::Crypto::Prng::IRandomGenerator*() const noexcept {
       return generator;
@@ -74,7 +81,7 @@ namespace Org::BouncyCastle::Security {
     static Org::BouncyCastle::Crypto::Prng::DigestRandomGenerator* CreatePrng(::Il2CppString* digestName, bool autoSeed);
     // static public System.Byte[] GetNextBytes(Org.BouncyCastle.Security.SecureRandom secureRandom, System.Int32 length)
     // Offset: 0x14DD224
-    static ::ArrayWrapper<uint8_t> GetNextBytes(Org::BouncyCastle::Security::SecureRandom* secureRandom, int length);
+    static ::ArrayW<uint8_t> GetNextBytes(Org::BouncyCastle::Security::SecureRandom* secureRandom, int length);
     // public System.Int32 NextInt()
     // Offset: 0x14DD6EC
     int NextInt();
@@ -110,7 +117,7 @@ namespace Org::BouncyCastle::Security {
     // Offset: 0x14DD56C
     // Implemented from: System.Random
     // Base method: System.Void Random::NextBytes(System.Byte[] buf)
-    void NextBytes(::ArrayWrapper<uint8_t> buf);
+    void NextBytes(::ArrayW<uint8_t> buf);
     // public override System.Double NextDouble()
     // Offset: 0x14DD62C
     // Implemented from: System.Random
@@ -164,7 +171,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Security::SecureRandom::GetNextBytes
 // Il2CppName: GetNextBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(Org::BouncyCastle::Security::SecureRandom*, int)>(&Org::BouncyCastle::Security::SecureRandom::GetNextBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(Org::BouncyCastle::Security::SecureRandom*, int)>(&Org::BouncyCastle::Security::SecureRandom::GetNextBytes)> {
   static const MethodInfo* get() {
     static auto* secureRandom = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Security", "SecureRandom")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -221,7 +228,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Writing MetadataGetter for method: Org::BouncyCastle::Security::SecureRandom::NextBytes
 // Il2CppName: NextBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Security::SecureRandom::*)(::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Security::SecureRandom::NextBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Security::SecureRandom::*)(::ArrayW<uint8_t>)>(&Org::BouncyCastle::Security::SecureRandom::NextBytes)> {
   static const MethodInfo* get() {
     static auto* buf = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::SecureRandom*), "NextBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buf});

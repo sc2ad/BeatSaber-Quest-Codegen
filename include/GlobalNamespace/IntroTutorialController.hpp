@@ -54,6 +54,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::IntroTutorialController::$ShowFinishAnimationCoroutine$d__22
     class $ShowFinishAnimationCoroutine$d__22;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private IntroTutorialRing _redRing
     // Size: 0x8
     // Offset: 0x18
@@ -135,6 +140,7 @@ namespace GlobalNamespace {
     bool blueRingWrapperActive;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private IntroTutorialRing _redRing

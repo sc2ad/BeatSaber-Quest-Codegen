@@ -38,6 +38,11 @@ namespace NUnit::Framework::Internal::Builders {
   // [TokenAttribute] Offset: FFFFFFFF
   class NUnitTestCaseBuilder : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly NUnit.Framework.Internal.Randomizer _randomizer
     // Size: 0x8
     // Offset: 0x10
@@ -50,6 +55,7 @@ namespace NUnit::Framework::Internal::Builders {
     NUnit::Framework::Internal::TestNameGenerator* nameGenerator;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Internal::TestNameGenerator*) == 0x8);
+    public:
     // Get instance field reference: private readonly NUnit.Framework.Internal.Randomizer _randomizer
     NUnit::Framework::Internal::Randomizer*& dyn__randomizer();
     // Get instance field reference: private readonly NUnit.Framework.Internal.TestNameGenerator _nameGenerator

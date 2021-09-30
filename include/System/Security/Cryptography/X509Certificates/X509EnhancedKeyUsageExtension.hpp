@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Security::Cryptography
@@ -32,6 +33,11 @@ namespace System::Security::Cryptography::X509Certificates {
     public:
     // Writing base type padding for base size: 0x21 to desired offset: 0x28
     char ___base_padding[0x7] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Security.Cryptography.OidCollection _enhKeyUsage
     // Size: 0x8
     // Offset: 0x28
@@ -44,6 +50,7 @@ namespace System::Security::Cryptography::X509Certificates {
     System::Security::Cryptography::AsnDecodeStatus status;
     // Field size check
     static_assert(sizeof(System::Security::Cryptography::AsnDecodeStatus) == 0x4);
+    public:
     // Deleting conversion operator: operator bool
     constexpr operator bool() const noexcept = delete;
     // Get instance field reference: private System.Security.Cryptography.OidCollection _enhKeyUsage
@@ -59,7 +66,7 @@ namespace System::Security::Cryptography::X509Certificates {
     }
     // System.Security.Cryptography.AsnDecodeStatus Decode(System.Byte[] extension)
     // Offset: 0x19DE940
-    System::Security::Cryptography::AsnDecodeStatus Decode(::ArrayWrapper<uint8_t> extension);
+    System::Security::Cryptography::AsnDecodeStatus Decode(::ArrayW<uint8_t> extension);
     // public override System.Void CopyFrom(System.Security.Cryptography.AsnEncodedData asnEncodedData)
     // Offset: 0x19DEBAC
     // Implemented from: System.Security.Cryptography.X509Certificates.X509Extension
@@ -84,7 +91,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X509Enh
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension::Decode
 // Il2CppName: Decode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::AsnDecodeStatus (System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension::*)(::ArrayWrapper<uint8_t>)>(&System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension::Decode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::AsnDecodeStatus (System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension::*)(::ArrayW<uint8_t>)>(&System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension::Decode)> {
   static const MethodInfo* get() {
     static auto* extension = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension*), "Decode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{extension});

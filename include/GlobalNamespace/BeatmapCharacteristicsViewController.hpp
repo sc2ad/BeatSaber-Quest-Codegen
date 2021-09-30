@@ -37,6 +37,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapCharacteristicsViewController : public HMUI::ViewController {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private BeatmapCharacteristicsTableView _beatmapCharacteristicsTableView
     // Size: 0x8
     // Offset: 0x70
@@ -61,6 +66,7 @@ namespace GlobalNamespace {
     int selectedBeatmapCharacteristicNum;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: private BeatmapCharacteristicsTableView _beatmapCharacteristicsTableView
     GlobalNamespace::BeatmapCharacteristicsTableView*& dyn__beatmapCharacteristicsTableView();
     // Get instance field reference: private System.Action`1<BeatmapCharacteristicSO> didSelectBeatmapCharacteristicEvent

@@ -28,6 +28,11 @@ namespace System::Runtime::CompilerServices {
   // [AttributeUsageAttribute] Offset: E603E8
   class StateMachineAttribute : public System::Attribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [CompilerGeneratedAttribute] Offset: 0xE63BA4
     // private System.Type <StateMachineType>k__BackingField
     // Size: 0x8
@@ -35,6 +40,7 @@ namespace System::Runtime::CompilerServices {
     System::Type* StateMachineType;
     // Field size check
     static_assert(sizeof(System::Type*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Type*
     constexpr operator System::Type*() const noexcept {
       return StateMachineType;

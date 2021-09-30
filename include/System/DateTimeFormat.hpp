@@ -7,6 +7,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.TimeSpan
 #include "System/TimeSpan.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text
@@ -38,13 +39,13 @@ namespace System {
     // Set static field: static readonly System.TimeSpan NullOffset
     static void _set_NullOffset(System::TimeSpan value);
     // Get static field: static System.Char[] allStandardFormats
-    static ::ArrayWrapper<::Il2CppChar> _get_allStandardFormats();
+    static ::ArrayW<::Il2CppChar> _get_allStandardFormats();
     // Set static field: static System.Char[] allStandardFormats
-    static void _set_allStandardFormats(::ArrayWrapper<::Il2CppChar> value);
+    static void _set_allStandardFormats(::ArrayW<::Il2CppChar> value);
     // Get static field: static System.String[] fixedNumberFormats
-    static ::ArrayWrapper<::Il2CppString*> _get_fixedNumberFormats();
+    static ::ArrayW<::Il2CppString*> _get_fixedNumberFormats();
     // Set static field: static System.String[] fixedNumberFormats
-    static void _set_fixedNumberFormats(::ArrayWrapper<::Il2CppString*> value);
+    static void _set_fixedNumberFormats(::ArrayW<::Il2CppString*> value);
     // static private System.Void .cctor()
     // Offset: 0x1B2A32C
     static void _cctor();

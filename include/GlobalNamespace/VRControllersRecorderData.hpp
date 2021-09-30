@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -54,6 +55,11 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct PositionAndRotation/*, public System::ValueType*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public readonly UnityEngine.Vector3 pos
       // Size: 0xC
       // Offset: 0x0
@@ -66,6 +72,7 @@ namespace GlobalNamespace {
       UnityEngine::Quaternion rot;
       // Field size check
       static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
+      public:
       // Creating value type constructor for type: PositionAndRotation
       constexpr PositionAndRotation(UnityEngine::Vector3 pos_ = {}, UnityEngine::Quaternion rot_ = {}) noexcept : pos{pos_}, rot{rot_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -86,20 +93,26 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(VRControllersRecorderData::PositionAndRotation), 12 + sizeof(UnityEngine::Quaternion)> __GlobalNamespace_VRControllersRecorderData_PositionAndRotationSizeCheck;
     static_assert(sizeof(VRControllersRecorderData::PositionAndRotation) == 0x1C);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly VRControllersRecorderData/NodeInfo[] nodesInfo
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<GlobalNamespace::VRControllersRecorderData::NodeInfo*> nodesInfo;
+    ::ArrayW<GlobalNamespace::VRControllersRecorderData::NodeInfo*> nodesInfo;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::VRControllersRecorderData::NodeInfo*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::VRControllersRecorderData::NodeInfo*>) == 0x8);
     // private readonly System.Collections.Generic.List`1<VRControllersRecorderData/Keyframe> _keyframes
     // Size: 0x8
     // Offset: 0x18
     System::Collections::Generic::List_1<GlobalNamespace::VRControllersRecorderData::Keyframe*>* keyframes;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::VRControllersRecorderData::Keyframe*>*) == 0x8);
+    public:
     // Get instance field reference: public readonly VRControllersRecorderData/NodeInfo[] nodesInfo
-    ::ArrayWrapper<GlobalNamespace::VRControllersRecorderData::NodeInfo*>& dyn_nodesInfo();
+    ::ArrayW<GlobalNamespace::VRControllersRecorderData::NodeInfo*>& dyn_nodesInfo();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<VRControllersRecorderData/Keyframe> _keyframes
     System::Collections::Generic::List_1<GlobalNamespace::VRControllersRecorderData::Keyframe*>*& dyn__keyframes();
     // public System.Int32 get_numberOfKeyframes()
@@ -108,13 +121,13 @@ namespace GlobalNamespace {
     // public System.Void .ctor(VRControllersRecorderData/NodeInfo[] nodesInfo)
     // Offset: 0x1349E34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static VRControllersRecorderData* New_ctor(::ArrayWrapper<GlobalNamespace::VRControllersRecorderData::NodeInfo*> nodesInfo) {
+    static VRControllersRecorderData* New_ctor(::ArrayW<GlobalNamespace::VRControllersRecorderData::NodeInfo*> nodesInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::VRControllersRecorderData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<VRControllersRecorderData*, creationType>(nodesInfo)));
     }
     // public System.Void AddKeyFrame(VRControllersRecorderData/PositionAndRotation[] positionsAndRotations, System.Single time)
     // Offset: 0x1349EB8
-    void AddKeyFrame(::ArrayWrapper<GlobalNamespace::VRControllersRecorderData::PositionAndRotation> positionsAndRotations, float time);
+    void AddKeyFrame(::ArrayW<GlobalNamespace::VRControllersRecorderData::PositionAndRotation> positionsAndRotations, float time);
     // public VRControllersRecorderData/PositionAndRotation GetPositionAndRotation(System.Int32 frameIdx, UnityEngine.XR.XRNode nodeType, System.Int32 nodeIdx)
     // Offset: 0x1349F90
     GlobalNamespace::VRControllersRecorderData::PositionAndRotation GetPositionAndRotation(int frameIdx, UnityEngine::XR::XRNode nodeType, int nodeIdx);
@@ -147,7 +160,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Writing MetadataGetter for method: GlobalNamespace::VRControllersRecorderData::AddKeyFrame
 // Il2CppName: AddKeyFrame
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::VRControllersRecorderData::*)(::ArrayWrapper<GlobalNamespace::VRControllersRecorderData::PositionAndRotation>, float)>(&GlobalNamespace::VRControllersRecorderData::AddKeyFrame)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::VRControllersRecorderData::*)(::ArrayW<GlobalNamespace::VRControllersRecorderData::PositionAndRotation>, float)>(&GlobalNamespace::VRControllersRecorderData::AddKeyFrame)> {
   static const MethodInfo* get() {
     static auto* positionsAndRotations = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "VRControllersRecorderData/PositionAndRotation"), 1)->byval_arg;
     static auto* time = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;

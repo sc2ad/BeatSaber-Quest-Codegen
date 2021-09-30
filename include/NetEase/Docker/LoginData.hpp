@@ -19,6 +19,11 @@ namespace NetEase::Docker {
   // [TokenAttribute] Offset: FFFFFFFF
   struct LoginData/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [DebuggerBrowsableAttribute] Offset: 0xEEDCE4
     // private System.Boolean <LoginSuccessful>k__BackingField
     // Size: 0x1
@@ -42,6 +47,7 @@ namespace NetEase::Docker {
     ::Il2CppString* UserName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Creating value type constructor for type: LoginData
     constexpr LoginData(bool LoginSuccessful_ = {}, int LoginCode_ = {}, ::Il2CppString* UserName_ = {}) noexcept : LoginSuccessful{LoginSuccessful_}, LoginCode{LoginCode_}, UserName{UserName_} {}
     // Creating interface conversion operator: operator System::ValueType

@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -42,17 +43,17 @@ namespace HoudiniEngineUnity {
     }
     // public System.Boolean Invoke(System.Int32 geoID, System.Int32 partID, System.String name, ref HoudiniEngineUnity.HAPI_AttributeInfo info, out T[] items, System.Int32 start, System.Int32 end)
     // Offset: 0xFFFFFFFF
-    bool Invoke(int geoID, int partID, ::Il2CppString* name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> info, ByRef<::ArrayWrapper<T>> items, int start, int end) {
+    bool Invoke(int geoID, int partID, ::Il2CppString* name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> info, ByRef<::ArrayW<T>> items, int start, int end) {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_GeneralUtility::GetAttributeArrayInputFunc_1::Invoke");
-      auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Invoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(geoID), ::il2cpp_utils::ExtractType(partID), ::il2cpp_utils::ExtractType(name), ::il2cpp_utils::ExtractType(info), ::il2cpp_utils::ExtractIndependentType<::ArrayWrapper<T>&>(), ::il2cpp_utils::ExtractType(start), ::il2cpp_utils::ExtractType(end)})));
+      auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Invoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(geoID), ::il2cpp_utils::ExtractType(partID), ::il2cpp_utils::ExtractType(name), ::il2cpp_utils::ExtractType(info), ::il2cpp_utils::ExtractIndependentType<::ArrayW<T>&>(), ::il2cpp_utils::ExtractType(start), ::il2cpp_utils::ExtractType(end)})));
       auto ___instance_arg = this;
       return ::il2cpp_utils::RunMethodThrow<bool, false>(___instance_arg, ___internal__method, geoID, partID, name, byref(info), byref(items), start, end);
     }
     // public System.IAsyncResult BeginInvoke(System.Int32 geoID, System.Int32 partID, System.String name, ref HoudiniEngineUnity.HAPI_AttributeInfo info, out T[] items, System.Int32 start, System.Int32 end, System.AsyncCallback callback, System.Object object)
     // Offset: 0xFFFFFFFF
-    System::IAsyncResult* BeginInvoke(int geoID, int partID, ::Il2CppString* name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> info, ByRef<::ArrayWrapper<T>> items, int start, int end, System::AsyncCallback* callback, ::Il2CppObject* object) {
+    System::IAsyncResult* BeginInvoke(int geoID, int partID, ::Il2CppString* name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> info, ByRef<::ArrayW<T>> items, int start, int end, System::AsyncCallback* callback, ::Il2CppObject* object) {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_GeneralUtility::GetAttributeArrayInputFunc_1::BeginInvoke");
-      auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BeginInvoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(geoID), ::il2cpp_utils::ExtractType(partID), ::il2cpp_utils::ExtractType(name), ::il2cpp_utils::ExtractType(info), ::il2cpp_utils::ExtractIndependentType<::ArrayWrapper<T>&>(), ::il2cpp_utils::ExtractType(start), ::il2cpp_utils::ExtractType(end), ::il2cpp_utils::ExtractType(callback), ::il2cpp_utils::ExtractType(object)})));
+      auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BeginInvoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(geoID), ::il2cpp_utils::ExtractType(partID), ::il2cpp_utils::ExtractType(name), ::il2cpp_utils::ExtractType(info), ::il2cpp_utils::ExtractIndependentType<::ArrayW<T>&>(), ::il2cpp_utils::ExtractType(start), ::il2cpp_utils::ExtractType(end), ::il2cpp_utils::ExtractType(callback), ::il2cpp_utils::ExtractType(object)})));
       auto ___instance_arg = this;
       return ::il2cpp_utils::RunMethodThrow<System::IAsyncResult*, false>(___instance_arg, ___internal__method, geoID, partID, name, byref(info), byref(items), start, end, callback, object);
     }

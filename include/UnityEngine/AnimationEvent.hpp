@@ -35,6 +35,11 @@ namespace UnityEngine {
   // [RequiredByNativeCodeAttribute] Offset: E8BAE8
   class AnimationEvent : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Single m_Time
     // Size: 0x4
     // Offset: 0x10
@@ -103,6 +108,7 @@ namespace UnityEngine {
     UnityEngine::AnimatorClipInfo m_AnimatorClipInfo;
     // Field size check
     static_assert(sizeof(UnityEngine::AnimatorClipInfo) == 0x8);
+    public:
     // Get instance field reference: System.Single m_Time
     float& dyn_m_Time();
     // Get instance field reference: System.String m_FunctionName

@@ -51,6 +51,11 @@ namespace Zenject {
     public:
     // Writing base type padding for base size: 0x42 to desired offset: 0x48
     char ___base_padding[0x6] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Action PreInstall
     // Size: 0x8
     // Offset: 0x48
@@ -90,6 +95,7 @@ namespace Zenject {
     Zenject::DiContainer* container;
     // Field size check
     static_assert(sizeof(Zenject::DiContainer*) == 0x8);
+    public:
     // Get instance field reference: private System.Action PreInstall
     System::Action*& dyn_PreInstall();
     // Get instance field reference: private System.Action PostInstall

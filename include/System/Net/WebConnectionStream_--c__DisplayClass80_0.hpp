@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net
@@ -35,6 +36,11 @@ namespace System::Net {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class WebConnectionStream::$$c__DisplayClass80_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Net.SimpleAsyncResult result
     // Size: 0x8
     // Offset: 0x10
@@ -58,15 +64,16 @@ namespace System::Net {
     // public System.Byte[] bytes
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<uint8_t> bytes;
+    ::ArrayW<uint8_t> bytes;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // public System.AsyncCallback <>9__1
     // Size: 0x8
     // Offset: 0x30
     System::AsyncCallback* $$9__1;
     // Field size check
     static_assert(sizeof(System::AsyncCallback*) == 0x8);
+    public:
     // Get instance field reference: public System.Net.SimpleAsyncResult result
     System::Net::SimpleAsyncResult*& dyn_result();
     // Get instance field reference: public System.Net.WebConnectionStream <>4__this
@@ -74,7 +81,7 @@ namespace System::Net {
     // Get instance field reference: public System.Int32 length
     int& dyn_length();
     // Get instance field reference: public System.Byte[] bytes
-    ::ArrayWrapper<uint8_t>& dyn_bytes();
+    ::ArrayW<uint8_t>& dyn_bytes();
     // Get instance field reference: public System.AsyncCallback <>9__1
     System::AsyncCallback*& dyn_$$9__1();
     // System.Void <WriteRequestAsync>b__0(System.Net.SimpleAsyncResult inner)

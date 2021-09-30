@@ -35,6 +35,11 @@ namespace UnityEngine::UI {
   // [AddComponentMenu] Offset: EA827C
   class RawImage : public UnityEngine::UI::MaskableGraphic {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [FormerlySerializedAsAttribute] Offset: 0xEAA014
     // private UnityEngine.Texture m_Texture
     // Size: 0x8
@@ -48,6 +53,7 @@ namespace UnityEngine::UI {
     UnityEngine::Rect m_UVRect;
     // Field size check
     static_assert(sizeof(UnityEngine::Rect) == 0x10);
+    public:
     // Get instance field reference: private UnityEngine.Texture m_Texture
     UnityEngine::Texture*& dyn_m_Texture();
     // Get instance field reference: private UnityEngine.Rect m_UVRect

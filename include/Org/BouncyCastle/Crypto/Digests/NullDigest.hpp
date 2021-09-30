@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO
@@ -27,12 +28,18 @@ namespace Org::BouncyCastle::Crypto::Digests {
   // [TokenAttribute] Offset: FFFFFFFF
   class NullDigest : public ::Il2CppObject/*, public Org::BouncyCastle::Crypto::IDigest*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.IO.MemoryStream bOut
     // Size: 0x8
     // Offset: 0x10
     System::IO::MemoryStream* bOut;
     // Field size check
     static_assert(sizeof(System::IO::MemoryStream*) == 0x8);
+    public:
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IDigest
     operator Org::BouncyCastle::Crypto::IDigest() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IDigest*>(this);
@@ -57,10 +64,10 @@ namespace Org::BouncyCastle::Crypto::Digests {
     void Update(uint8_t b);
     // public System.Void BlockUpdate(System.Byte[] inBytes, System.Int32 inOff, System.Int32 len)
     // Offset: 0x1F06618
-    void BlockUpdate(::ArrayWrapper<uint8_t> inBytes, int inOff, int len);
+    void BlockUpdate(::ArrayW<uint8_t> inBytes, int inOff, int len);
     // public System.Int32 DoFinal(System.Byte[] outBytes, System.Int32 outOff)
     // Offset: 0x1F0663C
-    int DoFinal(::ArrayWrapper<uint8_t> outBytes, int outOff);
+    int DoFinal(::ArrayW<uint8_t> outBytes, int outOff);
     // public System.Void Reset()
     // Offset: 0x1F066C8
     void Reset();
@@ -116,7 +123,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::NullDigest::BlockUpdate
 // Il2CppName: BlockUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Digests::NullDigest::*)(::ArrayWrapper<uint8_t>, int, int)>(&Org::BouncyCastle::Crypto::Digests::NullDigest::BlockUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Digests::NullDigest::*)(::ArrayW<uint8_t>, int, int)>(&Org::BouncyCastle::Crypto::Digests::NullDigest::BlockUpdate)> {
   static const MethodInfo* get() {
     static auto* inBytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* inOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -127,7 +134,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::NullDigest::DoFinal
 // Il2CppName: DoFinal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Digests::NullDigest::*)(::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Digests::NullDigest::DoFinal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Digests::NullDigest::*)(::ArrayW<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Digests::NullDigest::DoFinal)> {
   static const MethodInfo* get() {
     static auto* outBytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* outOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

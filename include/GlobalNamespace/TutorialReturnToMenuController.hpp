@@ -29,12 +29,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class TutorialReturnToMenuController : public UnityEngine::MonoBehaviour/*, public GlobalNamespace::IReturnToMenuController*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private TutorialScenesTransitionSetupDataSO _tutorialSceneSetupData
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::TutorialScenesTransitionSetupDataSO* tutorialSceneSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::TutorialScenesTransitionSetupDataSO*) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IReturnToMenuController
     operator GlobalNamespace::IReturnToMenuController() noexcept {
       return *reinterpret_cast<GlobalNamespace::IReturnToMenuController*>(this);

@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: RootMotion::FinalIK
@@ -34,6 +35,11 @@ namespace RootMotion::FinalIK {
     public:
     // Writing base type padding for base size: 0x33 to desired offset: 0x34
     char ___base_padding[0x1] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [TooltipAttribute] Offset: 0xEF1BFC
     // [RangeAttribute] Offset: 0xEF1BFC
     // public System.Single weight
@@ -45,19 +51,20 @@ namespace RootMotion::FinalIK {
     // public RootMotion.FinalIK.Finger[] fingers
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayWrapper<RootMotion::FinalIK::Finger*> fingers;
+    ::ArrayW<RootMotion::FinalIK::Finger*> fingers;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::Finger*>) == 0x8);
+    static_assert(sizeof(::ArrayW<RootMotion::FinalIK::Finger*>) == 0x8);
     // private System.Boolean <initiated>k__BackingField
     // Size: 0x1
     // Offset: 0x40
     bool initiated;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: public System.Single weight
     float& dyn_weight();
     // Get instance field reference: public RootMotion.FinalIK.Finger[] fingers
-    ::ArrayWrapper<RootMotion::FinalIK::Finger*>& dyn_fingers();
+    ::ArrayW<RootMotion::FinalIK::Finger*>& dyn_fingers();
     // Get instance field reference: private System.Boolean <initiated>k__BackingField
     bool& dyn_$initiated$k__BackingField();
     // public System.Boolean get_initiated()
@@ -80,7 +87,7 @@ namespace RootMotion::FinalIK {
     void RemoveFinger(int index);
     // private System.Void AddChildrenRecursive(UnityEngine.Transform parent, ref UnityEngine.Transform[] array)
     // Offset: 0x1E85EE4
-    void AddChildrenRecursive(UnityEngine::Transform* parent, ByRef<::ArrayWrapper<UnityEngine::Transform*>> array);
+    void AddChildrenRecursive(UnityEngine::Transform* parent, ByRef<::ArrayW<UnityEngine::Transform*>> array);
     // public System.Void UpdateFingerSolvers()
     // Offset: 0x1E86390
     void UpdateFingerSolvers();
@@ -185,7 +192,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::FingerRig::AddChildrenRecursive
 // Il2CppName: AddChildrenRecursive
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FingerRig::*)(UnityEngine::Transform*, ByRef<::ArrayWrapper<UnityEngine::Transform*>>)>(&RootMotion::FinalIK::FingerRig::AddChildrenRecursive)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FingerRig::*)(UnityEngine::Transform*, ByRef<::ArrayW<UnityEngine::Transform*>>)>(&RootMotion::FinalIK::FingerRig::AddChildrenRecursive)> {
   static const MethodInfo* get() {
     static auto* parent = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Transform"), 1)->this_arg;

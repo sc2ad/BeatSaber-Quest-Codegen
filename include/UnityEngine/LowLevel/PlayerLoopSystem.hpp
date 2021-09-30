@@ -8,6 +8,7 @@
 #include "System/ValueType.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::LowLevel
@@ -31,6 +32,11 @@ namespace UnityEngine::LowLevel {
     public:
     // Nested type: UnityEngine::LowLevel::PlayerLoopSystem::UpdateFunction
     class UpdateFunction;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Type type
     // Size: 0x8
     // Offset: 0x0
@@ -40,9 +46,9 @@ namespace UnityEngine::LowLevel {
     // public UnityEngine.LowLevel.PlayerLoopSystem[] subSystemList
     // Size: 0x8
     // Offset: 0x8
-    ::ArrayWrapper<UnityEngine::LowLevel::PlayerLoopSystem> subSystemList;
+    ::ArrayW<UnityEngine::LowLevel::PlayerLoopSystem> subSystemList;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::LowLevel::PlayerLoopSystem>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::LowLevel::PlayerLoopSystem>) == 0x8);
     // public UnityEngine.LowLevel.PlayerLoopSystem/UnityEngine.LowLevel.UpdateFunction updateDelegate
     // Size: 0x8
     // Offset: 0x10
@@ -61,8 +67,9 @@ namespace UnityEngine::LowLevel {
     System::IntPtr loopConditionFunction;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
+    public:
     // Creating value type constructor for type: PlayerLoopSystem
-    constexpr PlayerLoopSystem(System::Type* type_ = {}, ::ArrayWrapper<UnityEngine::LowLevel::PlayerLoopSystem> subSystemList_ = ::ArrayWrapper<UnityEngine::LowLevel::PlayerLoopSystem>(nullptr), UnityEngine::LowLevel::PlayerLoopSystem::UpdateFunction* updateDelegate_ = {}, System::IntPtr updateFunction_ = {}, System::IntPtr loopConditionFunction_ = {}) noexcept : type{type_}, subSystemList{subSystemList_}, updateDelegate{updateDelegate_}, updateFunction{updateFunction_}, loopConditionFunction{loopConditionFunction_} {}
+    constexpr PlayerLoopSystem(System::Type* type_ = {}, ::ArrayW<UnityEngine::LowLevel::PlayerLoopSystem> subSystemList_ = ::ArrayW<UnityEngine::LowLevel::PlayerLoopSystem>(nullptr), UnityEngine::LowLevel::PlayerLoopSystem::UpdateFunction* updateDelegate_ = {}, System::IntPtr updateFunction_ = {}, System::IntPtr loopConditionFunction_ = {}) noexcept : type{type_}, subSystemList{subSystemList_}, updateDelegate{updateDelegate_}, updateFunction{updateFunction_}, loopConditionFunction{loopConditionFunction_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -70,7 +77,7 @@ namespace UnityEngine::LowLevel {
     // Get instance field reference: public System.Type type
     System::Type*& dyn_type();
     // Get instance field reference: public UnityEngine.LowLevel.PlayerLoopSystem[] subSystemList
-    ::ArrayWrapper<UnityEngine::LowLevel::PlayerLoopSystem>& dyn_subSystemList();
+    ::ArrayW<UnityEngine::LowLevel::PlayerLoopSystem>& dyn_subSystemList();
     // Get instance field reference: public UnityEngine.LowLevel.PlayerLoopSystem/UnityEngine.LowLevel.UpdateFunction updateDelegate
     UnityEngine::LowLevel::PlayerLoopSystem::UpdateFunction*& dyn_updateDelegate();
     // Get instance field reference: public System.IntPtr updateFunction

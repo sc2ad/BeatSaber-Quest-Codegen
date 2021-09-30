@@ -34,6 +34,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ColorHueSlider : public HMUI::CircleSlider {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Color _darkColor
     // Size: 0x10
     // Offset: 0x124
@@ -52,6 +57,7 @@ namespace GlobalNamespace {
     System::Action_3<GlobalNamespace::ColorHueSlider*, float, GlobalNamespace::ColorChangeUIEventType>* colorHueDidChangeEvent;
     // Field size check
     static_assert(sizeof(System::Action_3<GlobalNamespace::ColorHueSlider*, float, GlobalNamespace::ColorChangeUIEventType>*) == 0x8);
+    public:
     // Get instance field reference: private UnityEngine.Color _darkColor
     UnityEngine::Color& dyn__darkColor();
     // Get instance field reference: private UnityEngine.Color _lightColor

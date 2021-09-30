@@ -7,6 +7,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.FrameTiming
 #include "UnityEngine/FrameTiming.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
@@ -22,7 +23,7 @@ namespace UnityEngine {
     static void CaptureFrameTimings();
     // static public System.UInt32 GetLatestTimings(System.UInt32 numFrames, UnityEngine.FrameTiming[] timings)
     // Offset: 0x1CBCDF8
-    static uint GetLatestTimings(uint numFrames, ::ArrayWrapper<UnityEngine::FrameTiming> timings);
+    static uint GetLatestTimings(uint numFrames, ::ArrayW<UnityEngine::FrameTiming> timings);
   }; // UnityEngine.FrameTimingManager
   #pragma pack(pop)
 }
@@ -40,7 +41,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::FrameTimingManager::GetLatestTimings
 // Il2CppName: GetLatestTimings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint, ::ArrayWrapper<UnityEngine::FrameTiming>)>(&UnityEngine::FrameTimingManager::GetLatestTimings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint, ::ArrayW<UnityEngine::FrameTiming>)>(&UnityEngine::FrameTimingManager::GetLatestTimings)> {
   static const MethodInfo* get() {
     static auto* numFrames = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* timings = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "FrameTiming"), 1)->byval_arg;

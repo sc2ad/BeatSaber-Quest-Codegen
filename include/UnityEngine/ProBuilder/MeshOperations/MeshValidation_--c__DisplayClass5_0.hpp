@@ -31,6 +31,11 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class MeshValidation::$$c__DisplayClass5_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.ProBuilder.Triangle triangle
     // Size: 0xC
     // Offset: 0x10
@@ -45,6 +50,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     System::Func_2<UnityEngine::ProBuilder::Triangle, bool>* $$9__0;
     // Field size check
     static_assert(sizeof(System::Func_2<UnityEngine::ProBuilder::Triangle, bool>*) == 0x8);
+    public:
     // Get instance field reference: public UnityEngine.ProBuilder.Triangle triangle
     UnityEngine::ProBuilder::Triangle& dyn_triangle();
     // Get instance field reference: public System.Func`2<UnityEngine.ProBuilder.Triangle,System.Boolean> <>9__0

@@ -36,6 +36,11 @@ namespace Mono::Xml {
     public:
     // Writing base type padding for base size: 0x61 to desired offset: 0x68
     char ___base_padding[0x7] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Security.SecurityElement root
     // Size: 0x8
     // Offset: 0x68
@@ -54,6 +59,7 @@ namespace Mono::Xml {
     System::Collections::Stack* stack;
     // Field size check
     static_assert(sizeof(System::Collections::Stack*) == 0x8);
+    public:
     // Creating interface conversion operator: operator Mono::Xml::SmallXmlParser::IContentHandler
     operator Mono::Xml::SmallXmlParser::IContentHandler() noexcept {
       return *reinterpret_cast<Mono::Xml::SmallXmlParser::IContentHandler*>(this);

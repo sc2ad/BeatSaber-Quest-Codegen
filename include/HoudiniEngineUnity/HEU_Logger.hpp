@@ -10,6 +10,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -31,19 +32,19 @@ namespace HoudiniEngineUnity {
     static void Log(::Il2CppString* text);
     // static public System.Void LogFormat(System.String text, params System.Object[] args)
     // Offset: 0x152B038
-    static void LogFormat(::Il2CppString* text, ::ArrayWrapper<::Il2CppObject*> args);
+    static void LogFormat(::Il2CppString* text, ::ArrayW<::Il2CppObject*> args);
     // static public System.Void LogWarning(System.String text)
     // Offset: 0x1522104
     static void LogWarning(::Il2CppString* text);
     // static public System.Void LogWarningFormat(System.String text, params System.Object[] args)
     // Offset: 0x1522174
-    static void LogWarningFormat(::Il2CppString* text, ::ArrayWrapper<::Il2CppObject*> args);
+    static void LogWarningFormat(::Il2CppString* text, ::ArrayW<::Il2CppObject*> args);
     // static public System.Void LogError(System.String text)
     // Offset: 0x151D4E8
     static void LogError(::Il2CppString* text);
     // static public System.Void LogErrorFormat(System.String text, params System.Object[] args)
     // Offset: 0x15227E8
-    static void LogErrorFormat(::Il2CppString* text, ::ArrayWrapper<::Il2CppObject*> args);
+    static void LogErrorFormat(::Il2CppString* text, ::ArrayW<::Il2CppObject*> args);
     // static public System.Void LogError(System.Exception ex)
     // Offset: 0x152B168
     static void LogError(System::Exception* ex);
@@ -52,13 +53,13 @@ namespace HoudiniEngineUnity {
     static void LogAssertion(::Il2CppString* text);
     // static public System.Void LogAssertionFormat(System.String text, params System.Object[] args)
     // Offset: 0x152B208
-    static void LogAssertionFormat(::Il2CppString* text, ::ArrayWrapper<::Il2CppObject*> args);
+    static void LogAssertionFormat(::Il2CppString* text, ::ArrayW<::Il2CppObject*> args);
     // static private System.Void LogToCookLogsIfOn(System.String text)
     // Offset: 0x152B0B0
     static void LogToCookLogsIfOn(::Il2CppString* text);
     // static private System.Void LogToCookLogsIfOnFormat(System.String text, params System.Object[] args)
     // Offset: 0x152B100
-    static void LogToCookLogsIfOnFormat(::Il2CppString* text, ::ArrayWrapper<::Il2CppObject*> args);
+    static void LogToCookLogsIfOnFormat(::Il2CppString* text, ::ArrayW<::Il2CppObject*> args);
     // public System.Void .ctor()
     // Offset: 0x152B20C
     // Implemented from: System.Object
@@ -85,7 +86,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Logger::LogFormat
 // Il2CppName: LogFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayWrapper<::Il2CppObject*>)>(&HoudiniEngineUnity::HEU_Logger::LogFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayW<::Il2CppObject*>)>(&HoudiniEngineUnity::HEU_Logger::LogFormat)> {
   static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
@@ -104,7 +105,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Logger::LogWarningFormat
 // Il2CppName: LogWarningFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayWrapper<::Il2CppObject*>)>(&HoudiniEngineUnity::HEU_Logger::LogWarningFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayW<::Il2CppObject*>)>(&HoudiniEngineUnity::HEU_Logger::LogWarningFormat)> {
   static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
@@ -123,7 +124,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Logger::LogErrorFormat
 // Il2CppName: LogErrorFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayWrapper<::Il2CppObject*>)>(&HoudiniEngineUnity::HEU_Logger::LogErrorFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayW<::Il2CppObject*>)>(&HoudiniEngineUnity::HEU_Logger::LogErrorFormat)> {
   static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
@@ -151,7 +152,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Logger::LogAssertionFormat
 // Il2CppName: LogAssertionFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayWrapper<::Il2CppObject*>)>(&HoudiniEngineUnity::HEU_Logger::LogAssertionFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayW<::Il2CppObject*>)>(&HoudiniEngineUnity::HEU_Logger::LogAssertionFormat)> {
   static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
@@ -170,7 +171,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Logger::LogToCookLogsIfOnFormat
 // Il2CppName: LogToCookLogsIfOnFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayWrapper<::Il2CppObject*>)>(&HoudiniEngineUnity::HEU_Logger::LogToCookLogsIfOnFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayW<::Il2CppObject*>)>(&HoudiniEngineUnity::HEU_Logger::LogToCookLogsIfOnFormat)> {
   static const MethodInfo* get() {
     static auto* text = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;

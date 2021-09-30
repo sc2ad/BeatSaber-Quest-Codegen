@@ -29,12 +29,18 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   class CVRExtendedDisplay : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Valve.VR.IVRExtendedDisplay FnTable
     // Size: 0x18
     // Offset: 0x10
     Valve::VR::IVRExtendedDisplay FnTable;
     // Field size check
     static_assert(sizeof(Valve::VR::IVRExtendedDisplay) == 0x18);
+    public:
     // Creating conversion operator: operator Valve::VR::IVRExtendedDisplay
     constexpr operator Valve::VR::IVRExtendedDisplay() const noexcept {
       return FnTable;

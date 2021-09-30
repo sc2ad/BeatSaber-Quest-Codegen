@@ -29,6 +29,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerEffectPoolsInstaller : public Zenject::MonoInstaller {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private BoolSO _noteDebrisHDConditionVariable
     // Size: 0x8
     // Offset: 0x20
@@ -47,6 +52,7 @@ namespace GlobalNamespace {
     GlobalNamespace::NoteDebris* noteDebrisLWPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::NoteDebris*) == 0x8);
+    public:
     // Get instance field reference: private BoolSO _noteDebrisHDConditionVariable
     GlobalNamespace::BoolSO*& dyn__noteDebrisHDConditionVariable();
     // Get instance field reference: private NoteDebris _noteDebrisHDPrefab

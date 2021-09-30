@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::TestRunner::TestLaunchers
@@ -50,10 +51,10 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataWithTestData* CreateFromTest(NUnit::Framework::Interfaces::ITest* test);
     // private UnityEngine.TestRunner.TestLaunchers.RemoteTestData[] CreateTestDataList(NUnit.Framework.Interfaces.ITest test)
     // Offset: 0x166B294
-    ::ArrayWrapper<UnityEngine::TestRunner::TestLaunchers::RemoteTestData*> CreateTestDataList(NUnit::Framework::Interfaces::ITest* test);
+    ::ArrayW<UnityEngine::TestRunner::TestLaunchers::RemoteTestData*> CreateTestDataList(NUnit::Framework::Interfaces::ITest* test);
     // static private UnityEngine.TestRunner.TestLaunchers.RemoteTestResultData[] CreateTestResultDataList(NUnit.Framework.Interfaces.ITestResult result)
     // Offset: 0x166B434
-    static ::ArrayWrapper<UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData*> CreateTestResultDataList(NUnit::Framework::Interfaces::ITestResult* result);
+    static ::ArrayW<UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData*> CreateTestResultDataList(NUnit::Framework::Interfaces::ITestResult* result);
     // public System.Void .ctor()
     // Offset: 0x166B6E0
     // Implemented from: System.Object
@@ -89,7 +90,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataFactory::CreateTestDataList
 // Il2CppName: CreateTestDataList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::TestRunner::TestLaunchers::RemoteTestData*> (UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataFactory::*)(NUnit::Framework::Interfaces::ITest*)>(&UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataFactory::CreateTestDataList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::TestRunner::TestLaunchers::RemoteTestData*> (UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataFactory::*)(NUnit::Framework::Interfaces::ITest*)>(&UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataFactory::CreateTestDataList)> {
   static const MethodInfo* get() {
     static auto* test = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "ITest")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataFactory*), "CreateTestDataList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{test});
@@ -98,7 +99,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataFactory::CreateTestResultDataList
 // Il2CppName: CreateTestResultDataList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData*> (*)(NUnit::Framework::Interfaces::ITestResult*)>(&UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataFactory::CreateTestResultDataList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData*> (*)(NUnit::Framework::Interfaces::ITestResult*)>(&UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataFactory::CreateTestResultDataList)> {
   static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "ITestResult")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataFactory*), "CreateTestResultDataList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});

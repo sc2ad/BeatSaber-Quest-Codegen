@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Mono::Security
@@ -27,6 +28,11 @@ namespace Mono::Security {
   // [TokenAttribute] Offset: FFFFFFFF
   class PKCS7::EncryptedData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Byte _version
     // Size: 0x1
     // Offset: 0x10
@@ -50,9 +56,10 @@ namespace Mono::Security {
     // private System.Byte[] _encrypted
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<uint8_t> encrypted;
+    ::ArrayW<uint8_t> encrypted;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
+    public:
     // Get instance field reference: private System.Byte _version
     uint8_t& dyn__version();
     // Get instance field reference: private Mono.Security.PKCS7/Mono.Security.ContentInfo _content
@@ -60,13 +67,13 @@ namespace Mono::Security {
     // Get instance field reference: private Mono.Security.PKCS7/Mono.Security.ContentInfo _encryptionAlgorithm
     Mono::Security::PKCS7::ContentInfo*& dyn__encryptionAlgorithm();
     // Get instance field reference: private System.Byte[] _encrypted
-    ::ArrayWrapper<uint8_t>& dyn__encrypted();
+    ::ArrayW<uint8_t>& dyn__encrypted();
     // public Mono.Security.PKCS7/Mono.Security.ContentInfo get_EncryptionAlgorithm()
     // Offset: 0x1FA1EDC
     Mono::Security::PKCS7::ContentInfo* get_EncryptionAlgorithm();
     // public System.Byte[] get_EncryptedContent()
     // Offset: 0x1FA1EE4
-    ::ArrayWrapper<uint8_t> get_EncryptedContent();
+    ::ArrayW<uint8_t> get_EncryptedContent();
     // public System.Void .ctor(Mono.Security.ASN1 asn1)
     // Offset: 0x1FA1C28
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -85,7 +92,7 @@ namespace Mono::Security {
     }
   }; // Mono.Security.PKCS7/Mono.Security.EncryptedData
   #pragma pack(pop)
-  static check_size<sizeof(PKCS7::EncryptedData), 40 + sizeof(::ArrayWrapper<uint8_t>)> __Mono_Security_PKCS7_EncryptedDataSizeCheck;
+  static check_size<sizeof(PKCS7::EncryptedData), 40 + sizeof(::ArrayW<uint8_t>)> __Mono_Security_PKCS7_EncryptedDataSizeCheck;
   static_assert(sizeof(PKCS7::EncryptedData) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::PKCS7::EncryptedData*, "Mono.Security", "PKCS7/EncryptedData");
@@ -101,7 +108,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Secur
 // Writing MetadataGetter for method: Mono::Security::PKCS7::EncryptedData::get_EncryptedContent
 // Il2CppName: get_EncryptedContent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Mono::Security::PKCS7::EncryptedData::*)()>(&Mono::Security::PKCS7::EncryptedData::get_EncryptedContent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Mono::Security::PKCS7::EncryptedData::*)()>(&Mono::Security::PKCS7::EncryptedData::get_EncryptedContent)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::PKCS7::EncryptedData*), "get_EncryptedContent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

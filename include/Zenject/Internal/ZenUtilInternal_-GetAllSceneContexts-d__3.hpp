@@ -38,6 +38,11 @@ namespace Zenject::Internal {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class ZenUtilInternal::$GetAllSceneContexts$d__3 : public ::Il2CppObject/*, public System::Collections::Generic::IEnumerable_1<Zenject::SceneContext*>, public System::Collections::Generic::IEnumerator_1<Zenject::SceneContext*>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -66,6 +71,7 @@ namespace Zenject::Internal {
     System::Collections::Generic::IEnumerator_1<UnityEngine::SceneManagement::Scene>* $$7__wrap1;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::IEnumerator_1<UnityEngine::SceneManagement::Scene>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<Zenject::SceneContext*>
     operator System::Collections::Generic::IEnumerable_1<Zenject::SceneContext*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<Zenject::SceneContext*>*>(this);

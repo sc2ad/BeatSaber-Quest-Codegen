@@ -34,12 +34,18 @@ namespace Org::BouncyCastle::Asn1::X509 {
     public:
     // Nested type: Org::BouncyCastle::Asn1::X509::TbsCertificateList::RevokedCertificatesEnumeration::RevokedCertificatesEnumerator
     class RevokedCertificatesEnumerator;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Collections.IEnumerable en
     // Size: 0x8
     // Offset: 0x10
     System::Collections::IEnumerable* en;
     // Field size check
     static_assert(sizeof(System::Collections::IEnumerable*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Collections::IEnumerable
     operator System::Collections::IEnumerable() noexcept {
       return *reinterpret_cast<System::Collections::IEnumerable*>(this);

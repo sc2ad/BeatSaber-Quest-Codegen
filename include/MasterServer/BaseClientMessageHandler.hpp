@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: MasterServer
@@ -101,6 +102,11 @@ namespace MasterServer {
     struct $AuthenticateWithMasterServerAsyncInternal$d__29;
     // Nested type: MasterServer::BaseClientMessageHandler::$$c__DisplayClass32_0
     class $$c__DisplayClass32_0;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly MasterServerEndPoint _endPoint
     // Size: 0x8
     // Offset: 0x80
@@ -139,6 +145,7 @@ namespace MasterServer {
     System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Threading::Tasks::Task*>* orderedRequests;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Threading::Tasks::Task*>*) == 0x8);
+    public:
     // Get static field: static private LiteNetLib.Utils.NetDataWriter _authenticationDataWriter
     static LiteNetLib::Utils::NetDataWriter* _get__authenticationDataWriter();
     // Set static field: static private LiteNetLib.Utils.NetDataWriter _authenticationDataWriter
@@ -231,7 +238,7 @@ namespace MasterServer {
     System::Threading::Tasks::Task_1<MasterServer::IMasterServerAuthenticateRequest*>* GetAuthenticationRequest();
     // private System.Threading.Tasks.Task`1<System.Boolean> VerifySignature(System.Byte[] clientRandom, System.Byte[] serverRandom, System.Byte[] serverKey, System.Byte[] signature, System.Byte[][] certData)
     // Offset: 0x145FA7C
-    System::Threading::Tasks::Task_1<bool>* VerifySignature(::ArrayWrapper<uint8_t> clientRandom, ::ArrayWrapper<uint8_t> serverRandom, ::ArrayWrapper<uint8_t> serverKey, ::ArrayWrapper<uint8_t> signature, ::ArrayWrapper<::ArrayWrapper<uint8_t>> certData);
+    System::Threading::Tasks::Task_1<bool>* VerifySignature(::ArrayW<uint8_t> clientRandom, ::ArrayW<uint8_t> serverRandom, ::ArrayW<uint8_t> serverKey, ::ArrayW<uint8_t> signature, ::ArrayW<::ArrayW<uint8_t>> certData);
     // private System.Void HandshakeLog(System.String message)
     // Offset: 0x145FB7C
     void HandshakeLog(::Il2CppString* message);
@@ -402,7 +409,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: MasterServer::BaseClientMessageHandler::VerifySignature
 // Il2CppName: VerifySignature
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<bool>* (MasterServer::BaseClientMessageHandler::*)(::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>, ::ArrayWrapper<::ArrayWrapper<uint8_t>>)>(&MasterServer::BaseClientMessageHandler::VerifySignature)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<bool>* (MasterServer::BaseClientMessageHandler::*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>, ::ArrayW<::ArrayW<uint8_t>>)>(&MasterServer::BaseClientMessageHandler::VerifySignature)> {
   static const MethodInfo* get() {
     static auto* clientRandom = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* serverRandom = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;

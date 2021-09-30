@@ -27,12 +27,18 @@ namespace NUnit::Framework::Constraints {
   // [TokenAttribute] Offset: FFFFFFFF
   class ComparisonAdapter::ComparerAdapter : public NUnit::Framework::Constraints::ComparisonAdapter {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Collections.IComparer comparer
     // Size: 0x8
     // Offset: 0x10
     System::Collections::IComparer* comparer;
     // Field size check
     static_assert(sizeof(System::Collections::IComparer*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Collections::IComparer*
     constexpr operator System::Collections::IComparer*() const noexcept {
       return comparer;

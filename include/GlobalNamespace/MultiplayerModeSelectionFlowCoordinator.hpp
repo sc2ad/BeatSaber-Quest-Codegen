@@ -107,6 +107,11 @@ namespace GlobalNamespace {
     struct $TryShowModeSelection$d__49;
     // Nested type: GlobalNamespace::MultiplayerModeSelectionFlowCoordinator::$ResolveAndPresentNextFlowCoordinator$d__50
     struct $ResolveAndPresentNextFlowCoordinator$d__50;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.AudioClip _ambienceAudioClip
     // Size: 0x8
     // Offset: 0xA8
@@ -295,6 +300,7 @@ namespace GlobalNamespace {
     GlobalNamespace::SelectMultiplayerLobbyDestination* lobbyDestination;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SelectMultiplayerLobbyDestination*) == 0x8);
+    public:
     // Get instance field reference: private UnityEngine.AudioClip _ambienceAudioClip
     UnityEngine::AudioClip*& dyn__ambienceAudioClip();
     // Get instance field reference: private SongPackMaskModelSO _songPackMaskModel

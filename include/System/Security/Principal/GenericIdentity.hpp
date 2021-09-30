@@ -38,6 +38,11 @@ namespace System::Security::Principal {
   // [ComVisibleAttribute] Offset: E5EFA8
   class GenericIdentity : public System::Security::Claims::ClaimsIdentity {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String m_name
     // Size: 0x8
     // Offset: 0x78
@@ -50,6 +55,7 @@ namespace System::Security::Principal {
     ::Il2CppString* m_type;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: private System.String m_name
     ::Il2CppString*& dyn_m_name();
     // Get instance field reference: private System.String m_type

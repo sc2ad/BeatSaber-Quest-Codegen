@@ -30,12 +30,18 @@ namespace Zenject::Internal {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class ZenUtilInternal::$$c__DisplayClass10_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.SceneManagement.Scene scene
     // Size: 0x4
     // Offset: 0x10
     UnityEngine::SceneManagement::Scene scene;
     // Field size check
     static_assert(sizeof(UnityEngine::SceneManagement::Scene) == 0x4);
+    public:
     // Creating conversion operator: operator UnityEngine::SceneManagement::Scene
     constexpr operator UnityEngine::SceneManagement::Scene() const noexcept {
       return scene;

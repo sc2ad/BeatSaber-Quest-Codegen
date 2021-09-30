@@ -41,6 +41,11 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class PrefabBindingFinalizer::$$c__DisplayClass5_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public Zenject.PrefabBindingFinalizer <>4__this
     // Size: 0x8
     // Offset: 0x10
@@ -59,6 +64,7 @@ namespace Zenject {
     System::Collections::Generic::List_1<System::Type*>* concreteTypes;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<System::Type*>*) == 0x8);
+    public:
     // Get instance field reference: public Zenject.PrefabBindingFinalizer <>4__this
     Zenject::PrefabBindingFinalizer*& dyn_$$4__this();
     // Get instance field reference: public Zenject.DiContainer container

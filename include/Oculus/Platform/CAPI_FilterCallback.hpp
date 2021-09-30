@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -43,10 +44,10 @@ namespace Oculus::Platform {
     }
     // public System.Void Invoke(in System.Int16[] pcmData, System.UIntPtr pcmDataLength, System.Int32 frequency, System.Int32 numChannels)
     // Offset: 0x16A7C14
-    void Invoke(ByRef<::ArrayWrapper<int16_t>> pcmData, System::UIntPtr pcmDataLength, int frequency, int numChannels);
+    void Invoke(ByRef<::ArrayW<int16_t>> pcmData, System::UIntPtr pcmDataLength, int frequency, int numChannels);
     // public System.IAsyncResult BeginInvoke(in System.Int16[] pcmData, System.UIntPtr pcmDataLength, System.Int32 frequency, System.Int32 numChannels, System.AsyncCallback callback, System.Object object)
     // Offset: 0x16A7EB8
-    System::IAsyncResult* BeginInvoke(ByRef<::ArrayWrapper<int16_t>> pcmData, System::UIntPtr pcmDataLength, int frequency, int numChannels, System::AsyncCallback* callback, ::Il2CppObject* object);
+    System::IAsyncResult* BeginInvoke(ByRef<::ArrayW<int16_t>> pcmData, System::UIntPtr pcmDataLength, int frequency, int numChannels, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
     // Offset: 0x16A7F88
     void EndInvoke(System::IAsyncResult* result);
@@ -62,7 +63,7 @@ DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::CAPI::FilterCallback*, "Oculus.Platform
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::FilterCallback::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::CAPI::FilterCallback::*)(ByRef<::ArrayWrapper<int16_t>>, System::UIntPtr, int, int)>(&Oculus::Platform::CAPI::FilterCallback::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculus::Platform::CAPI::FilterCallback::*)(ByRef<::ArrayW<int16_t>>, System::UIntPtr, int, int)>(&Oculus::Platform::CAPI::FilterCallback::Invoke)> {
   static const MethodInfo* get() {
     static auto* pcmData = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int16"), 1)->this_arg;
     static auto* pcmDataLength = &::il2cpp_utils::GetClassFromName("System", "UIntPtr")->byval_arg;
@@ -74,7 +75,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculu
 // Writing MetadataGetter for method: Oculus::Platform::CAPI::FilterCallback::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Oculus::Platform::CAPI::FilterCallback::*)(ByRef<::ArrayWrapper<int16_t>>, System::UIntPtr, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&Oculus::Platform::CAPI::FilterCallback::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Oculus::Platform::CAPI::FilterCallback::*)(ByRef<::ArrayW<int16_t>>, System::UIntPtr, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&Oculus::Platform::CAPI::FilterCallback::BeginInvoke)> {
   static const MethodInfo* get() {
     static auto* pcmData = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int16"), 1)->this_arg;
     static auto* pcmDataLength = &::il2cpp_utils::GetClassFromName("System", "UIntPtr")->byval_arg;

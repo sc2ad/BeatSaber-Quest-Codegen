@@ -21,6 +21,11 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E85D7C
   struct ContactPoint/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // UnityEngine.Vector3 m_Point
     // Size: 0xC
     // Offset: 0x0
@@ -51,6 +56,7 @@ namespace UnityEngine {
     float m_Separation;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: ContactPoint
     constexpr ContactPoint(UnityEngine::Vector3 m_Point_ = {}, UnityEngine::Vector3 m_Normal_ = {}, int m_ThisColliderInstanceID_ = {}, int m_OtherColliderInstanceID_ = {}, float m_Separation_ = {}) noexcept : m_Point{m_Point_}, m_Normal{m_Normal_}, m_ThisColliderInstanceID{m_ThisColliderInstanceID_}, m_OtherColliderInstanceID{m_OtherColliderInstanceID_}, m_Separation{m_Separation_} {}
     // Creating interface conversion operator: operator System::ValueType

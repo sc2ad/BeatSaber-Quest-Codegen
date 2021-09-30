@@ -31,6 +31,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PauseMenuManager::InitData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly System.String backButtonText
     // Size: 0x8
     // Offset: 0x10
@@ -69,6 +74,7 @@ namespace GlobalNamespace {
     bool showLevelBar;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: public readonly System.String backButtonText
     ::Il2CppString*& dyn_backButtonText();
     // Get instance field reference: public readonly IPreviewBeatmapLevel previewBeatmapLevel

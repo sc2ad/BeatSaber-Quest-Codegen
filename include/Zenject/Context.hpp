@@ -56,6 +56,11 @@ namespace Zenject {
     public:
     // Nested type: Zenject::Context::$$c
     class $$c;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.List`1<Zenject.ScriptableObjectInstaller> _scriptableObjectInstallers
     // Size: 0x8
     // Offset: 0x18
@@ -88,6 +93,7 @@ namespace Zenject {
     System::Collections::Generic::List_1<System::Type*>* normalInstallerTypes;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<System::Type*>*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Collections.Generic.List`1<Zenject.ScriptableObjectInstaller> _scriptableObjectInstallers

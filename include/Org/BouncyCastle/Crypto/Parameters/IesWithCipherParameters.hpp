@@ -16,12 +16,18 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   // [TokenAttribute] Offset: FFFFFFFF
   class IesWithCipherParameters : public Org::BouncyCastle::Crypto::Parameters::IesParameters {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 cipherKeySize
     // Size: 0x4
     // Offset: 0x24
     int cipherKeySize;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return cipherKeySize;

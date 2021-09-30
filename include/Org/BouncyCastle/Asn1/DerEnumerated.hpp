@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Math
@@ -32,24 +33,30 @@ namespace Org::BouncyCastle::Asn1 {
   // [TokenAttribute] Offset: FFFFFFFF
   class DerEnumerated : public Org::BouncyCastle::Asn1::Asn1Object {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Byte[] bytes
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<uint8_t> bytes;
+    ::ArrayW<uint8_t> bytes;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private readonly System.Int32 start
     // Size: 0x4
     // Offset: 0x18
     int start;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get static field: static private readonly Org.BouncyCastle.Asn1.DerEnumerated[] cache
-    static ::ArrayWrapper<Org::BouncyCastle::Asn1::DerEnumerated*> _get_cache();
+    static ::ArrayW<Org::BouncyCastle::Asn1::DerEnumerated*> _get_cache();
     // Set static field: static private readonly Org.BouncyCastle.Asn1.DerEnumerated[] cache
-    static void _set_cache(::ArrayWrapper<Org::BouncyCastle::Asn1::DerEnumerated*> value);
+    static void _set_cache(::ArrayW<Org::BouncyCastle::Asn1::DerEnumerated*> value);
     // Get instance field reference: private readonly System.Byte[] bytes
-    ::ArrayWrapper<uint8_t>& dyn_bytes();
+    ::ArrayW<uint8_t>& dyn_bytes();
     // Get instance field reference: private readonly System.Int32 start
     int& dyn_start();
     // public Org.BouncyCastle.Math.BigInteger get_Value()
@@ -68,7 +75,7 @@ namespace Org::BouncyCastle::Asn1 {
     // public System.Void .ctor(System.Byte[] bytes)
     // Offset: 0x18EE4B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DerEnumerated* New_ctor(::ArrayWrapper<uint8_t> bytes) {
+    static DerEnumerated* New_ctor(::ArrayW<uint8_t> bytes) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerEnumerated::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerEnumerated*, creationType>(bytes)));
     }
@@ -80,7 +87,7 @@ namespace Org::BouncyCastle::Asn1 {
     static Org::BouncyCastle::Asn1::DerEnumerated* GetInstance(::Il2CppObject* obj);
     // static Org.BouncyCastle.Asn1.DerEnumerated FromOctetString(System.Byte[] enc)
     // Offset: 0x18E1C0C
-    static Org::BouncyCastle::Asn1::DerEnumerated* FromOctetString(::ArrayWrapper<uint8_t> enc);
+    static Org::BouncyCastle::Asn1::DerEnumerated* FromOctetString(::ArrayW<uint8_t> enc);
     // override System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     // Offset: 0x18EE8C4
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
@@ -147,7 +154,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerEnumerated::FromOctetString
 // Il2CppName: FromOctetString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerEnumerated* (*)(::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Asn1::DerEnumerated::FromOctetString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerEnumerated* (*)(::ArrayW<uint8_t>)>(&Org::BouncyCastle::Asn1::DerEnumerated::FromOctetString)> {
   static const MethodInfo* get() {
     static auto* enc = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerEnumerated*), "FromOctetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{enc});

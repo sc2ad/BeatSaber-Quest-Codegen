@@ -9,6 +9,7 @@
 #include "UnityEngine/ProBuilder/Edge.hpp"
 // Including type: UnityEngine.ProBuilder.EdgeLookup
 #include "UnityEngine/ProBuilder/EdgeLookup.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::ProBuilder::MeshOperations
@@ -54,10 +55,10 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     class $$c;
     // static public UnityEngine.ProBuilder.Face[] Extrude(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face> faces, UnityEngine.ProBuilder.ExtrudeMethod method, System.Single distance)
     // Offset: 0x171B760
-    static ::ArrayWrapper<UnityEngine::ProBuilder::Face*> Extrude(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>* faces, UnityEngine::ProBuilder::ExtrudeMethod method, float distance);
+    static ::ArrayW<UnityEngine::ProBuilder::Face*> Extrude(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>* faces, UnityEngine::ProBuilder::ExtrudeMethod method, float distance);
     // static public UnityEngine.ProBuilder.Edge[] Extrude(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Edge> edges, System.Single distance, System.Boolean extrudeAsGroup, System.Boolean enableManifoldExtrude)
     // Offset: 0x171D878
-    static ::ArrayWrapper<UnityEngine::ProBuilder::Edge> Extrude(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>* edges, float distance, bool extrudeAsGroup, bool enableManifoldExtrude);
+    static ::ArrayW<UnityEngine::ProBuilder::Edge> Extrude(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>* edges, float distance, bool extrudeAsGroup, bool enableManifoldExtrude);
     // static public System.Collections.Generic.List`1<UnityEngine.ProBuilder.Face> DetachFaces(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face> faces)
     // Offset: 0x171E7E8
     static System::Collections::Generic::List_1<UnityEngine::ProBuilder::Face*>* DetachFaces(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>* faces);
@@ -66,10 +67,10 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     static System::Collections::Generic::List_1<UnityEngine::ProBuilder::Face*>* DetachFaces(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>* faces, bool deleteSourceFaces);
     // static private UnityEngine.ProBuilder.Face[] ExtrudePerFace(UnityEngine.ProBuilder.ProBuilderMesh pb, System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face> faces, System.Single distance)
     // Offset: 0x171B774
-    static ::ArrayWrapper<UnityEngine::ProBuilder::Face*> ExtrudePerFace(UnityEngine::ProBuilder::ProBuilderMesh* pb, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>* faces, float distance);
+    static ::ArrayW<UnityEngine::ProBuilder::Face*> ExtrudePerFace(UnityEngine::ProBuilder::ProBuilderMesh* pb, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>* faces, float distance);
     // static private UnityEngine.ProBuilder.Face[] ExtrudeAsGroups(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face> faces, System.Boolean compensateAngleVertexDistance, System.Single distance)
     // Offset: 0x171C208
-    static ::ArrayWrapper<UnityEngine::ProBuilder::Face*> ExtrudeAsGroups(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>* faces, bool compensateAngleVertexDistance, float distance);
+    static ::ArrayW<UnityEngine::ProBuilder::Face*> ExtrudeAsGroups(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>* faces, bool compensateAngleVertexDistance, float distance);
     // static private System.Collections.Generic.List`1<System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Face>> GetFaceGroups(System.Collections.Generic.List`1<UnityEngine.ProBuilder.WingedEdge> wings)
     // Offset: 0x171F054
     static System::Collections::Generic::List_1<System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Face*>*>* GetFaceGroups(System::Collections::Generic::List_1<UnityEngine::ProBuilder::WingedEdge*>* wings);
@@ -85,7 +86,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::ExtrudeElements*
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ExtrudeElements::Extrude
 // Il2CppName: Extrude
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::ProBuilder::Face*> (*)(UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>*, UnityEngine::ProBuilder::ExtrudeMethod, float)>(&UnityEngine::ProBuilder::MeshOperations::ExtrudeElements::Extrude)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::ProBuilder::Face*> (*)(UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>*, UnityEngine::ProBuilder::ExtrudeMethod, float)>(&UnityEngine::ProBuilder::MeshOperations::ExtrudeElements::Extrude)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
     static auto* faces = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Face")})->byval_arg;
@@ -97,7 +98,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ExtrudeElements::Extrude
 // Il2CppName: Extrude
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::ProBuilder::Edge> (*)(UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>*, float, bool, bool)>(&UnityEngine::ProBuilder::MeshOperations::ExtrudeElements::Extrude)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::ProBuilder::Edge> (*)(UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>*, float, bool, bool)>(&UnityEngine::ProBuilder::MeshOperations::ExtrudeElements::Extrude)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
     static auto* edges = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Edge")})->byval_arg;
@@ -131,7 +132,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ExtrudeElements::ExtrudePerFace
 // Il2CppName: ExtrudePerFace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::ProBuilder::Face*> (*)(UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>*, float)>(&UnityEngine::ProBuilder::MeshOperations::ExtrudeElements::ExtrudePerFace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::ProBuilder::Face*> (*)(UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>*, float)>(&UnityEngine::ProBuilder::MeshOperations::ExtrudeElements::ExtrudePerFace)> {
   static const MethodInfo* get() {
     static auto* pb = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
     static auto* faces = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Face")})->byval_arg;
@@ -142,7 +143,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::ExtrudeElements::ExtrudeAsGroups
 // Il2CppName: ExtrudeAsGroups
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::ProBuilder::Face*> (*)(UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>*, bool, float)>(&UnityEngine::ProBuilder::MeshOperations::ExtrudeElements::ExtrudeAsGroups)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::ProBuilder::Face*> (*)(UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>*, bool, float)>(&UnityEngine::ProBuilder::MeshOperations::ExtrudeElements::ExtrudeAsGroups)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
     static auto* faces = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Face")})->byval_arg;

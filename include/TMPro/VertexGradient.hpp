@@ -18,6 +18,11 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   struct VertexGradient/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Color topLeft
     // Size: 0x10
     // Offset: 0x0
@@ -42,6 +47,7 @@ namespace TMPro {
     UnityEngine::Color bottomRight;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
+    public:
     // Creating value type constructor for type: VertexGradient
     constexpr VertexGradient(UnityEngine::Color topLeft_ = {}, UnityEngine::Color topRight_ = {}, UnityEngine::Color bottomLeft_ = {}, UnityEngine::Color bottomRight_ = {}) noexcept : topLeft{topLeft_}, topRight{topRight_}, bottomLeft{bottomLeft_}, bottomRight{bottomRight_} {}
     // Creating interface conversion operator: operator System::ValueType

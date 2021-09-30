@@ -23,6 +23,11 @@ namespace Mono {
   // [TokenAttribute] Offset: FFFFFFFF
   struct SafeStringMarshal/*, public System::ValueType, public System::IDisposable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.String str
     // Size: 0x8
     // Offset: 0x0
@@ -35,6 +40,7 @@ namespace Mono {
     System::IntPtr marshaled_string;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
+    public:
     // Creating value type constructor for type: SafeStringMarshal
     constexpr SafeStringMarshal(::Il2CppString* str_ = {}, System::IntPtr marshaled_string_ = {}) noexcept : str{str_}, marshaled_string{marshaled_string_} {}
     // Creating interface conversion operator: operator System::ValueType

@@ -43,12 +43,18 @@ namespace System::Threading::Tasks {
     public:
     // Nested type: System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation::$$c
     class $$c;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Threading.SynchronizationContext m_syncContext
     // Size: 0x8
     // Offset: 0x20
     System::Threading::SynchronizationContext* m_syncContext;
     // Field size check
     static_assert(sizeof(System::Threading::SynchronizationContext*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Threading::SynchronizationContext*
     constexpr operator System::Threading::SynchronizationContext*() const noexcept {
       return m_syncContext;

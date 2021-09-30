@@ -7,6 +7,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Reflection.TypeInfo
 #include "System/Reflection/TypeInfo.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -24,7 +25,7 @@ namespace System::Reflection::Emit {
     public:
     // static System.Type MakeGenericType(System.Type type, System.Type[] typeArguments)
     // Offset: 0x1EA81A8
-    static System::Type* MakeGenericType(System::Type* type, ::ArrayWrapper<System::Type*> typeArguments);
+    static System::Type* MakeGenericType(System::Type* type, ::ArrayW<System::Type*> typeArguments);
   }; // System.Reflection.Emit.TypeBuilderInstantiation
   #pragma pack(pop)
 }
@@ -34,7 +35,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Reflection::Emit::TypeBuilderInstantiation*, "Sys
 // Writing MetadataGetter for method: System::Reflection::Emit::TypeBuilderInstantiation::MakeGenericType
 // Il2CppName: MakeGenericType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (*)(System::Type*, ::ArrayWrapper<System::Type*>)>(&System::Reflection::Emit::TypeBuilderInstantiation::MakeGenericType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Type* (*)(System::Type*, ::ArrayW<System::Type*>)>(&System::Reflection::Emit::TypeBuilderInstantiation::MakeGenericType)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* typeArguments = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Type"), 1)->byval_arg;

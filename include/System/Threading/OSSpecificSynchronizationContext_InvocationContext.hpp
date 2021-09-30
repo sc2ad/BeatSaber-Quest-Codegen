@@ -27,6 +27,11 @@ namespace System::Threading {
   // [TokenAttribute] Offset: FFFFFFFF
   class OSSpecificSynchronizationContext::InvocationContext : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Threading.SendOrPostCallback m_Delegate
     // Size: 0x8
     // Offset: 0x10
@@ -39,6 +44,7 @@ namespace System::Threading {
     ::Il2CppObject* m_State;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
+    public:
     // Get instance field reference: private System.Threading.SendOrPostCallback m_Delegate
     System::Threading::SendOrPostCallback*& dyn_m_Delegate();
     // Get instance field reference: private System.Object m_State

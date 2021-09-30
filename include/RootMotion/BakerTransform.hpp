@@ -33,6 +33,11 @@ namespace RootMotion {
   // [TokenAttribute] Offset: FFFFFFFF
   class BakerTransform : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Transform transform
     // Size: 0x8
     // Offset: 0x10
@@ -115,6 +120,7 @@ namespace RootMotion {
     UnityEngine::Quaternion relativeRotation;
     // Field size check
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
+    public:
     // Get instance field reference: public UnityEngine.Transform transform
     UnityEngine::Transform*& dyn_transform();
     // Get instance field reference: public UnityEngine.AnimationCurve posX

@@ -44,6 +44,11 @@ namespace System::Runtime::Remoting::Lifetime {
     public:
     // Nested type: System::Runtime::Remoting::Lifetime::Lease::RenewalDelegate
     class RenewalDelegate;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.DateTime _leaseExpireTime
     // Size: 0x8
     // Offset: 0x18
@@ -94,6 +99,7 @@ namespace System::Runtime::Remoting::Lifetime {
     System::Runtime::Remoting::Lifetime::Lease::RenewalDelegate* renewalDelegate;
     // Field size check
     static_assert(sizeof(System::Runtime::Remoting::Lifetime::Lease::RenewalDelegate*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Runtime::Remoting::Lifetime::ILease
     operator System::Runtime::Remoting::Lifetime::ILease() noexcept {
       return *reinterpret_cast<System::Runtime::Remoting::Lifetime::ILease*>(this);

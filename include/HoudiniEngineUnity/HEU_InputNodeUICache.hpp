@@ -33,6 +33,11 @@ namespace HoudiniEngineUnity {
     class HEU_InputObjectUICache;
     // Nested type: HoudiniEngineUnity::HEU_InputNodeUICache::HEU_InputAssetUICache
     class HEU_InputAssetUICache;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_InputNodeUICache/HoudiniEngineUnity.HEU_InputObjectUICache> _inputObjectCache
     // Size: 0x8
     // Offset: 0x10
@@ -45,6 +50,7 @@ namespace HoudiniEngineUnity {
     System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputNodeUICache::HEU_InputAssetUICache*>* inputAssetCache;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputNodeUICache::HEU_InputAssetUICache*>*) == 0x8);
+    public:
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_InputNodeUICache/HoudiniEngineUnity.HEU_InputObjectUICache> _inputObjectCache
     System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputNodeUICache::HEU_InputObjectUICache*>*& dyn__inputObjectCache();
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_InputNodeUICache/HoudiniEngineUnity.HEU_InputAssetUICache> _inputAssetCache

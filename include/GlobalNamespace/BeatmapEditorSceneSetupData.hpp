@@ -20,6 +20,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapEditorSceneSetupData : public GlobalNamespace::SceneSetupData {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String _levelDirPath
     // Size: 0x8
     // Offset: 0x10
@@ -32,6 +37,7 @@ namespace GlobalNamespace {
     ::Il2CppString* levelAssetPath;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: private System.String _levelDirPath
     ::Il2CppString*& dyn__levelDirPath();
     // Get instance field reference: private System.String _levelAssetPath

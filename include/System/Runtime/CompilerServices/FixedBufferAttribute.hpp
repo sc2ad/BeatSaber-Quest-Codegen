@@ -28,6 +28,11 @@ namespace System::Runtime::CompilerServices {
   // [AttributeUsageAttribute] Offset: E60608
   class FixedBufferAttribute : public System::Attribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Type elementType
     // Size: 0x8
     // Offset: 0x10
@@ -40,6 +45,7 @@ namespace System::Runtime::CompilerServices {
     int length;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: private System.Type elementType
     System::Type*& dyn_elementType();
     // Get instance field reference: private System.Int32 length

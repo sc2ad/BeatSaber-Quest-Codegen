@@ -28,6 +28,11 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   struct CombineInstance/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 m_MeshInstanceID
     // Size: 0x4
     // Offset: 0x0
@@ -58,6 +63,7 @@ namespace UnityEngine {
     UnityEngine::Vector4 m_RealtimeLightmapScaleOffset;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector4) == 0x10);
+    public:
     // Creating value type constructor for type: CombineInstance
     constexpr CombineInstance(int m_MeshInstanceID_ = {}, int m_SubMeshIndex_ = {}, UnityEngine::Matrix4x4 m_Transform_ = {}, UnityEngine::Vector4 m_LightmapScaleOffset_ = {}, UnityEngine::Vector4 m_RealtimeLightmapScaleOffset_ = {}) noexcept : m_MeshInstanceID{m_MeshInstanceID_}, m_SubMeshIndex{m_SubMeshIndex_}, m_Transform{m_Transform_}, m_LightmapScaleOffset{m_LightmapScaleOffset_}, m_RealtimeLightmapScaleOffset{m_RealtimeLightmapScaleOffset_} {}
     // Creating interface conversion operator: operator System::ValueType

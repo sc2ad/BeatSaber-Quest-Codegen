@@ -34,6 +34,11 @@ namespace System::Net::Http::Headers {
   // [TokenAttribute] Offset: FFFFFFFF
   class HttpHeaders::HeaderBucket : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Object Parsed
     // Size: 0x8
     // Offset: 0x10
@@ -52,6 +57,7 @@ namespace System::Net::Http::Headers {
     System::Func_2<::Il2CppObject*, ::Il2CppString*>* CustomToString;
     // Field size check
     static_assert(sizeof(System::Func_2<::Il2CppObject*, ::Il2CppString*>*) == 0x8);
+    public:
     // Get instance field reference: public System.Object Parsed
     ::Il2CppObject*& dyn_Parsed();
     // Get instance field reference: private System.Collections.Generic.List`1<System.String> values

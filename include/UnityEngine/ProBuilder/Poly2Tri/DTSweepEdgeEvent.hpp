@@ -25,6 +25,11 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   // [TokenAttribute] Offset: FFFFFFFF
   class DTSweepEdgeEvent : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.ProBuilder.Poly2Tri.DTSweepConstraint ConstrainedEdge
     // Size: 0x8
     // Offset: 0x10
@@ -37,6 +42,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     bool Right;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: public UnityEngine.ProBuilder.Poly2Tri.DTSweepConstraint ConstrainedEdge
     UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*& dyn_ConstrainedEdge();
     // Get instance field reference: public System.Boolean Right

@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::ProBuilder
@@ -50,6 +51,11 @@ namespace UnityEngine::ProBuilder {
     class $$c__DisplayClass32_0;
     // Nested type: UnityEngine::ProBuilder::WingedEdge::$$c
     class $$c;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.ProBuilder.EdgeLookup <edge>k__BackingField
     // Size: 0x10
     // Offset: 0x10
@@ -80,6 +86,7 @@ namespace UnityEngine::ProBuilder {
     UnityEngine::ProBuilder::WingedEdge* opposite;
     // Field size check
     static_assert(sizeof(UnityEngine::ProBuilder::WingedEdge*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::IEquatable_1<UnityEngine::ProBuilder::WingedEdge*>
     operator System::IEquatable_1<UnityEngine::ProBuilder::WingedEdge*>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<UnityEngine::ProBuilder::WingedEdge*>*>(this);
@@ -139,7 +146,7 @@ namespace UnityEngine::ProBuilder {
     int Count();
     // static System.Int32[] MakeQuad(UnityEngine.ProBuilder.WingedEdge left, UnityEngine.ProBuilder.WingedEdge right)
     // Offset: 0x24F90A8
-    static ::ArrayWrapper<int> MakeQuad(UnityEngine::ProBuilder::WingedEdge* left, UnityEngine::ProBuilder::WingedEdge* right);
+    static ::ArrayW<int> MakeQuad(UnityEngine::ProBuilder::WingedEdge* left, UnityEngine::ProBuilder::WingedEdge* right);
     // public UnityEngine.ProBuilder.WingedEdge GetAdjacentEdgeWithCommonIndex(System.Int32 common)
     // Offset: 0x24F94C4
     UnityEngine::ProBuilder::WingedEdge* GetAdjacentEdgeWithCommonIndex(int common);
@@ -305,7 +312,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::WingedEdge::MakeQuad
 // Il2CppName: MakeQuad
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<int> (*)(UnityEngine::ProBuilder::WingedEdge*, UnityEngine::ProBuilder::WingedEdge*)>(&UnityEngine::ProBuilder::WingedEdge::MakeQuad)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int> (*)(UnityEngine::ProBuilder::WingedEdge*, UnityEngine::ProBuilder::WingedEdge*)>(&UnityEngine::ProBuilder::WingedEdge::MakeQuad)> {
   static const MethodInfo* get() {
     static auto* left = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "WingedEdge")->byval_arg;
     static auto* right = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "WingedEdge")->byval_arg;

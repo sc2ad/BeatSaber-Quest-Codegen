@@ -29,12 +29,18 @@ namespace Mono::Security::Interface {
   // [TokenAttribute] Offset: FFFFFFFF
   class TlsException : public System::Exception {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Mono.Security.Interface.Alert alert
     // Size: 0x8
     // Offset: 0x88
     Mono::Security::Interface::Alert* alert;
     // Field size check
     static_assert(sizeof(Mono::Security::Interface::Alert*) == 0x8);
+    public:
     // Creating conversion operator: operator Mono::Security::Interface::Alert*
     constexpr operator Mono::Security::Interface::Alert*() const noexcept {
       return alert;

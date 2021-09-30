@@ -60,6 +60,11 @@ namespace Unity::Collections {
       using declaring_type = NativeArray_1<T>;
       static constexpr std::string_view NESTED_NAME = "Enumerator";
       static constexpr bool IS_VALUE_TYPE = true;
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // private Unity.Collections.NativeArray`1<T> m_Array
       // Size: 0xFFFFFFFF
       // Offset: 0x0
@@ -70,6 +75,7 @@ namespace Unity::Collections {
       int m_Index;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: Enumerator
       constexpr Enumerator(Unity::Collections::NativeArray_1<T> m_Array_ = {}, int m_Index_ = {}) noexcept : m_Array{m_Array_}, m_Index{m_Index_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -140,6 +146,11 @@ namespace Unity::Collections {
       }
     }; // Unity.Collections.NativeArray`1/Unity.Collections.Enumerator
     // Could not write size check! Type: Unity.Collections.NativeArray`1/Unity.Collections.Enumerator is generic, or has no fields that are valid for size checks!
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [NativeDisableUnsafePtrRestrictionAttribute] Offset: 0xE74E64
     // System.Void* m_Buffer
     // Size: 0x8
@@ -159,6 +170,7 @@ namespace Unity::Collections {
     Unity::Collections::Allocator m_AllocatorLabel;
     // Field size check
     static_assert(sizeof(Unity::Collections::Allocator) == 0x4);
+    public:
     // Creating value type constructor for type: NativeArray_1
     constexpr NativeArray_1(void* m_Buffer_ = {}, int m_Length_ = {}, Unity::Collections::Allocator m_AllocatorLabel_ = {}) noexcept : m_Buffer{m_Buffer_}, m_Length{m_Length_}, m_AllocatorLabel{m_AllocatorLabel_} {}
     // Creating interface conversion operator: operator System::ValueType

@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: UnityEngine.Networking.PlayerConnection
 namespace UnityEngine::Networking::PlayerConnection {
@@ -18,6 +19,11 @@ namespace UnityEngine::Networking::PlayerConnection {
   // [TokenAttribute] Offset: FFFFFFFF
   class MessageEventArgs : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 playerId
     // Size: 0x4
     // Offset: 0x10
@@ -29,13 +35,14 @@ namespace UnityEngine::Networking::PlayerConnection {
     // public System.Byte[] data
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<uint8_t> data;
+    ::ArrayW<uint8_t> data;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
+    public:
     // Get instance field reference: public System.Int32 playerId
     int& dyn_playerId();
     // Get instance field reference: public System.Byte[] data
-    ::ArrayWrapper<uint8_t>& dyn_data();
+    ::ArrayW<uint8_t>& dyn_data();
     // public System.Void .ctor()
     // Offset: 0x1DAEE8C
     // Implemented from: System.Object
@@ -47,7 +54,7 @@ namespace UnityEngine::Networking::PlayerConnection {
     }
   }; // UnityEngine.Networking.PlayerConnection.MessageEventArgs
   #pragma pack(pop)
-  static check_size<sizeof(MessageEventArgs), 24 + sizeof(::ArrayWrapper<uint8_t>)> __UnityEngine_Networking_PlayerConnection_MessageEventArgsSizeCheck;
+  static check_size<sizeof(MessageEventArgs), 24 + sizeof(::ArrayW<uint8_t>)> __UnityEngine_Networking_PlayerConnection_MessageEventArgsSizeCheck;
   static_assert(sizeof(MessageEventArgs) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::PlayerConnection::MessageEventArgs*, "UnityEngine.Networking.PlayerConnection", "MessageEventArgs");

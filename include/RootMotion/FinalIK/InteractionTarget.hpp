@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: RootMotion::FinalIK
@@ -38,6 +39,11 @@ namespace RootMotion::FinalIK {
     public:
     // Nested type: RootMotion::FinalIK::InteractionTarget::Multiplier
     class Multiplier;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [TooltipAttribute] Offset: 0xEF3B18
     // public RootMotion.FinalIK.FullBodyBipedEffector effectorType
     // Size: 0x4
@@ -51,9 +57,9 @@ namespace RootMotion::FinalIK {
     // public RootMotion.FinalIK.InteractionTarget/RootMotion.FinalIK.Multiplier[] multipliers
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<RootMotion::FinalIK::InteractionTarget::Multiplier*> multipliers;
+    ::ArrayW<RootMotion::FinalIK::InteractionTarget::Multiplier*> multipliers;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::InteractionTarget::Multiplier*>) == 0x8);
+    static_assert(sizeof(::ArrayW<RootMotion::FinalIK::InteractionTarget::Multiplier*>) == 0x8);
     // [TooltipAttribute] Offset: 0xEF3B88
     // public System.Single interactionSpeedMlp
     // Size: 0x4
@@ -112,12 +118,13 @@ namespace RootMotion::FinalIK {
     UnityEngine::Transform* lastPivot;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public RootMotion.FinalIK.FullBodyBipedEffector effectorType
     RootMotion::FinalIK::FullBodyBipedEffector& dyn_effectorType();
     // Get instance field reference: public RootMotion.FinalIK.InteractionTarget/RootMotion.FinalIK.Multiplier[] multipliers
-    ::ArrayWrapper<RootMotion::FinalIK::InteractionTarget::Multiplier*>& dyn_multipliers();
+    ::ArrayW<RootMotion::FinalIK::InteractionTarget::Multiplier*>& dyn_multipliers();
     // Get instance field reference: public System.Single interactionSpeedMlp
     float& dyn_interactionSpeedMlp();
     // Get instance field reference: public UnityEngine.Transform pivot

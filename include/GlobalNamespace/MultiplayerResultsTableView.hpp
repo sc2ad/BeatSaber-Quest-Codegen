@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -84,6 +85,11 @@ namespace GlobalNamespace {
     class $PlayRandomRowSlideInSound$d__31;
     // Nested type: GlobalNamespace::MultiplayerResultsTableView::$PlayAvatarSlideInSound$d__32
     class $PlayAvatarSlideInSound$d__32;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private HMUI.TableView _tableView
     // Size: 0x8
     // Offset: 0x18
@@ -169,9 +175,9 @@ namespace GlobalNamespace {
     // private UnityEngine.AudioClip[] _rowSlideAudioClips
     // Size: 0x8
     // Offset: 0x68
-    ::ArrayWrapper<UnityEngine::AudioClip*> rowSlideAudioClips;
+    ::ArrayW<UnityEngine::AudioClip*> rowSlideAudioClips;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::AudioClip*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::AudioClip*>) == 0x8);
     // private UnityEngine.AudioClip _avatarSlideAudioClip
     // Size: 0x8
     // Offset: 0x70
@@ -229,6 +235,7 @@ namespace GlobalNamespace {
     UnityEngine::Quaternion lastParentRotation;
     // Field size check
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
+    public:
     // Creating interface conversion operator: operator HMUI::TableView::IDataSource
     operator HMUI::TableView::IDataSource() noexcept {
       return *reinterpret_cast<HMUI::TableView::IDataSource*>(this);
@@ -268,7 +275,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.AudioSource _outroSfxAudioSource
     UnityEngine::AudioSource*& dyn__outroSfxAudioSource();
     // Get instance field reference: private UnityEngine.AudioClip[] _rowSlideAudioClips
-    ::ArrayWrapper<UnityEngine::AudioClip*>& dyn__rowSlideAudioClips();
+    ::ArrayW<UnityEngine::AudioClip*>& dyn__rowSlideAudioClips();
     // Get instance field reference: private UnityEngine.AudioClip _avatarSlideAudioClip
     UnityEngine::AudioClip*& dyn__avatarSlideAudioClip();
     // Get instance field reference: private readonly Tweening.TimeTweeningManager _tweeningManager

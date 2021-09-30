@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HoudiniEngineUnity
@@ -48,6 +49,11 @@ namespace HoudiniEngineUnity {
     // Nested type: HoudiniEngineUnity::HEU_PluginStorage::StoreDataArray_1<T>
     template<typename T>
     class StoreDataArray_1;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.Dictionary`2<System.String,HoudiniEngineUnity.HEU_PluginStorage/HoudiniEngineUnity.StoreData> _dataMap
     // Size: 0x8
     // Offset: 0x10
@@ -66,6 +72,7 @@ namespace HoudiniEngineUnity {
     bool requiresSave;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get static field: static private HoudiniEngineUnity.HEU_PluginStorage _instance
     static HoudiniEngineUnity::HEU_PluginStorage* _get__instance();
     // Set static field: static private HoudiniEngineUnity.HEU_PluginStorage _instance
@@ -112,12 +119,12 @@ namespace HoudiniEngineUnity {
     // private T[] GetJSONArray(System.String jsonArray)
     // Offset: 0xFFFFFFFF
     template<class T>
-    ::ArrayWrapper<T> GetJSONArray(::Il2CppString* jsonArray) {
+    ::ArrayW<T> GetJSONArray(::Il2CppString* jsonArray) {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_PluginStorage::GetJSONArray");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetJSONArray", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(jsonArray)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<::ArrayWrapper<T>, false>(___instance_arg, ___generic__method, jsonArray);
+      return ::il2cpp_utils::RunMethodThrow<::ArrayW<T>, false>(___instance_arg, ___generic__method, jsonArray);
     }
     // public System.Void Set(System.String key, System.Boolean value)
     // Offset: 0x17CC5A8

@@ -40,6 +40,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRComposition : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Boolean cameraInTrackingSpace
     // Size: 0x1
     // Offset: 0x10
@@ -68,6 +73,7 @@ namespace GlobalNamespace {
     GlobalNamespace::OVRPose lastAttachedNodePose;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OVRPose) == 0x1C);
+    public:
     // Get instance field reference: public System.Boolean cameraInTrackingSpace
     bool& dyn_cameraInTrackingSpace();
     // Get instance field reference: public OVRCameraRig cameraRig

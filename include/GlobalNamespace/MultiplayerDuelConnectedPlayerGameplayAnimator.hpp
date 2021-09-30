@@ -29,6 +29,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerDuelConnectedPlayerGameplayAnimator : public GlobalNamespace::MultiplayerGameplayAnimator {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [SpaceAttribute] Offset: 0xF08958
     // private ScaleAnimator _avatarScaleAnimator
     // Size: 0x8
@@ -43,6 +48,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerConnectedPlayerLevelFailController* failController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerConnectedPlayerLevelFailController*) == 0x8);
+    public:
     // Get instance field reference: private ScaleAnimator _avatarScaleAnimator
     GlobalNamespace::ScaleAnimator*& dyn__avatarScaleAnimator();
     // Get instance field reference: private readonly MultiplayerConnectedPlayerLevelFailController _failController

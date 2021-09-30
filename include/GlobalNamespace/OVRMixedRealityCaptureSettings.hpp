@@ -43,6 +43,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRMixedRealityCaptureSettings : public UnityEngine::ScriptableObject/*, public GlobalNamespace::OVRMixedRealityCaptureConfiguration*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Boolean enableMixedReality
     // Size: 0x1
     // Offset: 0x18
@@ -223,6 +228,7 @@ namespace GlobalNamespace {
     GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate* instantiateMixedRealityCameraGameObject;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OVRManager_InstantiateMrcCameraDelegate*) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::OVRMixedRealityCaptureConfiguration
     operator GlobalNamespace::OVRMixedRealityCaptureConfiguration() noexcept {
       return *reinterpret_cast<GlobalNamespace::OVRMixedRealityCaptureConfiguration*>(this);

@@ -36,6 +36,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::BloomFogParamsAnimator::$AnimationCoroutine$d__2
     class $AnimationCoroutine$d__2;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xEDE088
     // private readonly BloomFogSO _bloomFog
     // Size: 0x8
@@ -43,6 +48,7 @@ namespace GlobalNamespace {
     GlobalNamespace::BloomFogSO* bloomFog;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BloomFogSO*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private readonly BloomFogSO _bloomFog

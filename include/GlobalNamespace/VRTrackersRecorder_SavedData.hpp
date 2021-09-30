@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -27,18 +28,24 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::VRTrackersRecorder::SavedData::KeyframeSerializable
     class KeyframeSerializable;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public VRTrackersRecorder/SavedData/KeyframeSerializable[] _keyframes
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<GlobalNamespace::VRTrackersRecorder::SavedData::KeyframeSerializable*> keyframes;
+    ::ArrayW<GlobalNamespace::VRTrackersRecorder::SavedData::KeyframeSerializable*> keyframes;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::VRTrackersRecorder::SavedData::KeyframeSerializable*>) == 0x8);
-    // Creating conversion operator: operator ::ArrayWrapper<GlobalNamespace::VRTrackersRecorder::SavedData::KeyframeSerializable*>
-    constexpr operator ::ArrayWrapper<GlobalNamespace::VRTrackersRecorder::SavedData::KeyframeSerializable*>() const noexcept {
+    static_assert(sizeof(::ArrayW<GlobalNamespace::VRTrackersRecorder::SavedData::KeyframeSerializable*>) == 0x8);
+    public:
+    // Creating conversion operator: operator ::ArrayW<GlobalNamespace::VRTrackersRecorder::SavedData::KeyframeSerializable*>
+    constexpr operator ::ArrayW<GlobalNamespace::VRTrackersRecorder::SavedData::KeyframeSerializable*>() const noexcept {
       return keyframes;
     }
     // Get instance field reference: public VRTrackersRecorder/SavedData/KeyframeSerializable[] _keyframes
-    ::ArrayWrapper<GlobalNamespace::VRTrackersRecorder::SavedData::KeyframeSerializable*>& dyn__keyframes();
+    ::ArrayW<GlobalNamespace::VRTrackersRecorder::SavedData::KeyframeSerializable*>& dyn__keyframes();
     // public System.Void .ctor()
     // Offset: 0x134C90C
     // Implemented from: System.Object
@@ -50,7 +57,7 @@ namespace GlobalNamespace {
     }
   }; // VRTrackersRecorder/SavedData
   #pragma pack(pop)
-  static check_size<sizeof(VRTrackersRecorder::SavedData), 16 + sizeof(::ArrayWrapper<GlobalNamespace::VRTrackersRecorder::SavedData::KeyframeSerializable*>)> __GlobalNamespace_VRTrackersRecorder_SavedDataSizeCheck;
+  static check_size<sizeof(VRTrackersRecorder::SavedData), 16 + sizeof(::ArrayW<GlobalNamespace::VRTrackersRecorder::SavedData::KeyframeSerializable*>)> __GlobalNamespace_VRTrackersRecorder_SavedDataSizeCheck;
   static_assert(sizeof(VRTrackersRecorder::SavedData) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::VRTrackersRecorder::SavedData*, "", "VRTrackersRecorder/SavedData");

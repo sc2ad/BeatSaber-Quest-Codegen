@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: RootMotion::FinalIK
@@ -36,6 +37,11 @@ namespace RootMotion::FinalIK {
     public:
     // Nested type: RootMotion::FinalIK::Recoil::RecoilOffset::EffectorLink
     class EffectorLink;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [TooltipAttribute] Offset: 0xEF796C
     // public UnityEngine.Vector3 offset
     // Size: 0xC
@@ -64,9 +70,9 @@ namespace RootMotion::FinalIK {
     // public RootMotion.FinalIK.Recoil/RootMotion.FinalIK.RecoilOffset/RootMotion.FinalIK.EffectorLink[] effectorLinks
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<RootMotion::FinalIK::Recoil::RecoilOffset::EffectorLink*> effectorLinks;
+    ::ArrayW<RootMotion::FinalIK::Recoil::RecoilOffset::EffectorLink*> effectorLinks;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::Recoil::RecoilOffset::EffectorLink*>) == 0x8);
+    static_assert(sizeof(::ArrayW<RootMotion::FinalIK::Recoil::RecoilOffset::EffectorLink*>) == 0x8);
     // private UnityEngine.Vector3 additiveOffset
     // Size: 0xC
     // Offset: 0x30
@@ -79,6 +85,7 @@ namespace RootMotion::FinalIK {
     UnityEngine::Vector3 lastOffset;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    public:
     // Get instance field reference: public UnityEngine.Vector3 offset
     UnityEngine::Vector3& dyn_offset();
     // Get instance field reference: public System.Single additivity
@@ -86,7 +93,7 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public System.Single maxAdditiveOffsetMag
     float& dyn_maxAdditiveOffsetMag();
     // Get instance field reference: public RootMotion.FinalIK.Recoil/RootMotion.FinalIK.RecoilOffset/RootMotion.FinalIK.EffectorLink[] effectorLinks
-    ::ArrayWrapper<RootMotion::FinalIK::Recoil::RecoilOffset::EffectorLink*>& dyn_effectorLinks();
+    ::ArrayW<RootMotion::FinalIK::Recoil::RecoilOffset::EffectorLink*>& dyn_effectorLinks();
     // Get instance field reference: private UnityEngine.Vector3 additiveOffset
     UnityEngine::Vector3& dyn_additiveOffset();
     // Get instance field reference: private UnityEngine.Vector3 lastOffset

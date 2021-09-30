@@ -69,6 +69,11 @@ namespace GlobalNamespace {
     class $GetPartyPlayers$d__53;
     // Nested type: GlobalNamespace::BaseNetworkPlayerModel::$GetOtherPlayers$d__54
     class $GetOtherPlayers$d__54;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private ConnectedPlayerManager _connectedPlayerManager
     // Size: 0x8
     // Offset: 0x30
@@ -113,6 +118,7 @@ namespace GlobalNamespace {
     System::Action_1<GlobalNamespace::INetworkPlayerModel*>* connectedPlayerManagerDestroyedEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::INetworkPlayerModel*>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::INetworkPlayerModel
     operator GlobalNamespace::INetworkPlayerModel() noexcept {
       return *reinterpret_cast<GlobalNamespace::INetworkPlayerModel*>(this);

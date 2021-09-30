@@ -27,6 +27,11 @@ namespace Polyglot {
   // [TokenAttribute] Offset: FFFFFFFF
   class LocalizationAsset : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.TextAsset textAsset
     // Size: 0x8
     // Offset: 0x10
@@ -39,6 +44,7 @@ namespace Polyglot {
     Polyglot::GoogleDriveDownloadFormat format;
     // Field size check
     static_assert(sizeof(Polyglot::GoogleDriveDownloadFormat) == 0x4);
+    public:
     // Get instance field reference: private UnityEngine.TextAsset textAsset
     UnityEngine::TextAsset*& dyn_textAsset();
     // Get instance field reference: private Polyglot.GoogleDriveDownloadFormat format

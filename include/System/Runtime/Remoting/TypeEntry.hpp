@@ -19,6 +19,11 @@ namespace System::Runtime::Remoting {
   // [ComVisibleAttribute] Offset: E5FB50
   class TypeEntry : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String assembly_name
     // Size: 0x8
     // Offset: 0x10
@@ -31,6 +36,7 @@ namespace System::Runtime::Remoting {
     ::Il2CppString* type_name;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: private System.String assembly_name
     ::Il2CppString*& dyn_assembly_name();
     // Get instance field reference: private System.String type_name

@@ -68,6 +68,11 @@ namespace UnityEngine::Timeline {
   // [TokenAttribute] Offset: FFFFFFFF
   class TimelinePlayable : public UnityEngine::Playables::PlayableBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Timeline.IntervalTree`1<UnityEngine.Timeline.RuntimeElement> m_IntervalTree
     // Size: 0x8
     // Offset: 0x10
@@ -106,6 +111,7 @@ namespace UnityEngine::Timeline {
     System::Collections::Generic::Dictionary_2<UnityEngine::Timeline::TrackAsset*, UnityEngine::Playables::Playable>* m_PlayableCache;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<UnityEngine::Timeline::TrackAsset*, UnityEngine::Playables::Playable>*) == 0x8);
+    public:
     // Get static field: static System.Boolean muteAudioScrubbing
     static bool _get_muteAudioScrubbing();
     // Set static field: static System.Boolean muteAudioScrubbing

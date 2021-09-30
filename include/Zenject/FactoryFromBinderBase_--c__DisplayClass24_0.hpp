@@ -43,6 +43,11 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class FactoryFromBinderBase::$$c__DisplayClass24_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public Zenject.FactoryFromBinderBase <>4__this
     // Size: 0x8
     // Offset: 0x10
@@ -55,6 +60,7 @@ namespace Zenject {
     System::Func_2<Zenject::InjectContext*, UnityEngine::GameObject*>* gameObjectGetter;
     // Field size check
     static_assert(sizeof(System::Func_2<Zenject::InjectContext*, UnityEngine::GameObject*>*) == 0x8);
+    public:
     // Get instance field reference: public Zenject.FactoryFromBinderBase <>4__this
     Zenject::FactoryFromBinderBase*& dyn_$$4__this();
     // Get instance field reference: public System.Func`2<Zenject.InjectContext,UnityEngine.GameObject> gameObjectGetter

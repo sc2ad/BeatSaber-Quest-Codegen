@@ -21,6 +21,11 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5CADC
   class UnhandledExceptionEventArgs : public System::EventArgs {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Object _Exception
     // Size: 0x8
     // Offset: 0x10
@@ -33,6 +38,7 @@ namespace System {
     bool IsTerminating;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private System.Object _Exception
     ::Il2CppObject*& dyn__Exception();
     // Get instance field reference: private System.Boolean _IsTerminating

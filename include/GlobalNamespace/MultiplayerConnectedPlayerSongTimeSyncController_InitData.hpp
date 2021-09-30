@@ -20,6 +20,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerConnectedPlayerSongTimeSyncController::InitData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly System.Single startSongTime
     // Size: 0x4
     // Offset: 0x10
@@ -38,6 +43,7 @@ namespace GlobalNamespace {
     float timeScale;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: public readonly System.Single startSongTime
     float& dyn_startSongTime();
     // Get instance field reference: public readonly System.Single songTimeOffset

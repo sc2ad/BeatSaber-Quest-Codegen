@@ -29,6 +29,11 @@ namespace GlobalNamespace {
     public:
     // Writing base type padding for base size: 0x41 to desired offset: 0x48
     char ___base_padding[0x7] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xF080C8
     // private GameEnergyCounter _energyCounter
     // Size: 0x8
@@ -36,6 +41,7 @@ namespace GlobalNamespace {
     GlobalNamespace::GameEnergyCounter* energyCounter;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameEnergyCounter*) == 0x8);
+    public:
     // Get instance field reference: private GameEnergyCounter _energyCounter
     GlobalNamespace::GameEnergyCounter*& dyn__energyCounter();
     // protected System.Void OnDestroy()

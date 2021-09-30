@@ -23,6 +23,11 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   struct TMP_Vertex/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Vector3 position
     // Size: 0xC
     // Offset: 0x0
@@ -53,6 +58,7 @@ namespace TMPro {
     UnityEngine::Color32 color;
     // Field size check
     static_assert(sizeof(UnityEngine::Color32) == 0x4);
+    public:
     // Creating value type constructor for type: TMP_Vertex
     constexpr TMP_Vertex(UnityEngine::Vector3 position_ = {}, UnityEngine::Vector2 uv_ = {}, UnityEngine::Vector2 uv2_ = {}, UnityEngine::Vector2 uv4_ = {}, UnityEngine::Color32 color_ = {}) noexcept : position{position_}, uv{uv_}, uv2{uv2_}, uv4{uv4_}, color{color_} {}
     // Creating interface conversion operator: operator System::ValueType

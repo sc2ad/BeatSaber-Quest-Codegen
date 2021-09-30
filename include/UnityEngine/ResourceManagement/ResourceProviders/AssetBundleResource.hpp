@@ -59,6 +59,11 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   // [TokenAttribute] Offset: FFFFFFFF
   class AssetBundleResource : public ::Il2CppObject/*, public UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.AssetBundle m_AssetBundle
     // Size: 0x8
     // Offset: 0x10
@@ -121,6 +126,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     bool m_Completed;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource
     operator UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource() noexcept {
       return *reinterpret_cast<UnityEngine::ResourceManagement::ResourceProviders::IAssetBundleResource*>(this);

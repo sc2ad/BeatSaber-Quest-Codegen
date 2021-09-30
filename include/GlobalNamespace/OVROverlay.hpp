@@ -27,6 +27,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -76,12 +77,18 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct OverlayShape/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: OverlayShape
       constexpr OverlayShape(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -140,12 +147,18 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct OverlayType/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: OverlayType
       constexpr OverlayType(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -187,6 +200,11 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct LayerTexture/*, public System::ValueType*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public UnityEngine.Texture appTexture
       // Size: 0x8
       // Offset: 0x0
@@ -202,17 +220,18 @@ namespace GlobalNamespace {
       // public UnityEngine.Texture[] swapChain
       // Size: 0x8
       // Offset: 0x10
-      ::ArrayWrapper<UnityEngine::Texture*> swapChain;
+      ::ArrayW<UnityEngine::Texture*> swapChain;
       // Field size check
-      static_assert(sizeof(::ArrayWrapper<UnityEngine::Texture*>) == 0x8);
+      static_assert(sizeof(::ArrayW<UnityEngine::Texture*>) == 0x8);
       // public System.IntPtr[] swapChainPtr
       // Size: 0x8
       // Offset: 0x18
-      ::ArrayWrapper<System::IntPtr> swapChainPtr;
+      ::ArrayW<System::IntPtr> swapChainPtr;
       // Field size check
-      static_assert(sizeof(::ArrayWrapper<System::IntPtr>) == 0x8);
+      static_assert(sizeof(::ArrayW<System::IntPtr>) == 0x8);
+      public:
       // Creating value type constructor for type: LayerTexture
-      constexpr LayerTexture(UnityEngine::Texture* appTexture_ = {}, System::IntPtr appTexturePtr_ = {}, ::ArrayWrapper<UnityEngine::Texture*> swapChain_ = ::ArrayWrapper<UnityEngine::Texture*>(nullptr), ::ArrayWrapper<System::IntPtr> swapChainPtr_ = ::ArrayWrapper<System::IntPtr>(nullptr)) noexcept : appTexture{appTexture_}, appTexturePtr{appTexturePtr_}, swapChain{swapChain_}, swapChainPtr{swapChainPtr_} {}
+      constexpr LayerTexture(UnityEngine::Texture* appTexture_ = {}, System::IntPtr appTexturePtr_ = {}, ::ArrayW<UnityEngine::Texture*> swapChain_ = ::ArrayW<UnityEngine::Texture*>(nullptr), ::ArrayW<System::IntPtr> swapChainPtr_ = ::ArrayW<System::IntPtr>(nullptr)) noexcept : appTexture{appTexture_}, appTexturePtr{appTexturePtr_}, swapChain{swapChain_}, swapChainPtr{swapChainPtr_} {}
       // Creating interface conversion operator: operator System::ValueType
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
@@ -222,13 +241,18 @@ namespace GlobalNamespace {
       // Get instance field reference: public System.IntPtr appTexturePtr
       System::IntPtr& dyn_appTexturePtr();
       // Get instance field reference: public UnityEngine.Texture[] swapChain
-      ::ArrayWrapper<UnityEngine::Texture*>& dyn_swapChain();
+      ::ArrayW<UnityEngine::Texture*>& dyn_swapChain();
       // Get instance field reference: public System.IntPtr[] swapChainPtr
-      ::ArrayWrapper<System::IntPtr>& dyn_swapChainPtr();
+      ::ArrayW<System::IntPtr>& dyn_swapChainPtr();
     }; // OVROverlay/LayerTexture
     #pragma pack(pop)
-    static check_size<sizeof(OVROverlay::LayerTexture), 24 + sizeof(::ArrayWrapper<System::IntPtr>)> __GlobalNamespace_OVROverlay_LayerTextureSizeCheck;
+    static check_size<sizeof(OVROverlay::LayerTexture), 24 + sizeof(::ArrayW<System::IntPtr>)> __GlobalNamespace_OVROverlay_LayerTextureSizeCheck;
     static_assert(sizeof(OVROverlay::LayerTexture) == 0x20);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [TooltipAttribute] Offset: 0xEB2784
     // public OVROverlay/OverlayType currentOverlayType
     // Size: 0x4
@@ -398,9 +422,9 @@ namespace GlobalNamespace {
     // public UnityEngine.Texture[] textures
     // Size: 0x8
     // Offset: 0xF0
-    ::ArrayWrapper<UnityEngine::Texture*> textures;
+    ::ArrayW<UnityEngine::Texture*> textures;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Texture*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Texture*>) == 0x8);
     // [TooltipAttribute] Offset: 0xEB29B4
     // public System.Boolean isAlphaPremultiplied
     // Size: 0x1
@@ -419,9 +443,9 @@ namespace GlobalNamespace {
     // protected System.IntPtr[] texturePtrs
     // Size: 0x8
     // Offset: 0x100
-    ::ArrayWrapper<System::IntPtr> texturePtrs;
+    ::ArrayW<System::IntPtr> texturePtrs;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<System::IntPtr>) == 0x8);
+    static_assert(sizeof(::ArrayW<System::IntPtr>) == 0x8);
     // public System.IntPtr externalSurfaceObject
     // Size: 0x8
     // Offset: 0x108
@@ -445,9 +469,9 @@ namespace GlobalNamespace {
     // private OVROverlay/LayerTexture[] layerTextures
     // Size: 0x8
     // Offset: 0x120
-    ::ArrayWrapper<GlobalNamespace::OVROverlay::LayerTexture> layerTextures;
+    ::ArrayW<GlobalNamespace::OVROverlay::LayerTexture> layerTextures;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::OVROverlay::LayerTexture>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::OVROverlay::LayerTexture>) == 0x8);
     // private OVRPlugin/LayerDesc layerDesc
     // Size: 0x4C
     // Offset: 0x128
@@ -534,6 +558,7 @@ namespace GlobalNamespace {
     bool xrDeviceConstructed;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static System.Int32 maxInstances
@@ -543,9 +568,9 @@ namespace GlobalNamespace {
     // Set static field: static System.Int32 maxInstances
     static void _set_maxInstances(int value);
     // Get static field: static public OVROverlay[] instances
-    static ::ArrayWrapper<GlobalNamespace::OVROverlay*> _get_instances();
+    static ::ArrayW<GlobalNamespace::OVROverlay*> _get_instances();
     // Set static field: static public OVROverlay[] instances
-    static void _set_instances(::ArrayWrapper<GlobalNamespace::OVROverlay*> value);
+    static void _set_instances(::ArrayW<GlobalNamespace::OVROverlay*> value);
     // Get static field: static private UnityEngine.Material tex2DMaterial
     static UnityEngine::Material* _get_tex2DMaterial();
     // Set static field: static private UnityEngine.Material tex2DMaterial
@@ -603,13 +628,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private OVROverlay/OverlayShape prevOverlayShape
     GlobalNamespace::OVROverlay::OverlayShape& dyn_prevOverlayShape();
     // Get instance field reference: public UnityEngine.Texture[] textures
-    ::ArrayWrapper<UnityEngine::Texture*>& dyn_textures();
+    ::ArrayW<UnityEngine::Texture*>& dyn_textures();
     // Get instance field reference: public System.Boolean isAlphaPremultiplied
     bool& dyn_isAlphaPremultiplied();
     // Get instance field reference: private System.Boolean _previewInEditor
     bool& dyn__previewInEditor();
     // Get instance field reference: protected System.IntPtr[] texturePtrs
-    ::ArrayWrapper<System::IntPtr>& dyn_texturePtrs();
+    ::ArrayW<System::IntPtr>& dyn_texturePtrs();
     // Get instance field reference: public System.IntPtr externalSurfaceObject
     System::IntPtr& dyn_externalSurfaceObject();
     // Get instance field reference: public OVROverlay/ExternalSurfaceObjectCreated externalSurfaceObjectCreated
@@ -617,7 +642,7 @@ namespace GlobalNamespace {
     // Get instance field reference: protected System.Boolean isOverridePending
     bool& dyn_isOverridePending();
     // Get instance field reference: private OVROverlay/LayerTexture[] layerTextures
-    ::ArrayWrapper<GlobalNamespace::OVROverlay::LayerTexture>& dyn_layerTextures();
+    ::ArrayW<GlobalNamespace::OVROverlay::LayerTexture>& dyn_layerTextures();
     // Get instance field reference: private OVRPlugin/LayerDesc layerDesc
     GlobalNamespace::OVRPlugin::LayerDesc& dyn_layerDesc();
     // Get instance field reference: private System.Int32 stageCount

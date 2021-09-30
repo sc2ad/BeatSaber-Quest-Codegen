@@ -25,12 +25,18 @@ namespace Org::BouncyCastle::Asn1::X9 {
   // [TokenAttribute] Offset: FFFFFFFF
   class X9ECParametersHolder : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Org.BouncyCastle.Asn1.X9.X9ECParameters parameters
     // Size: 0x8
     // Offset: 0x10
     Org::BouncyCastle::Asn1::X9::X9ECParameters* parameters;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::X9::X9ECParameters*) == 0x8);
+    public:
     // Creating conversion operator: operator Org::BouncyCastle::Asn1::X9::X9ECParameters*
     constexpr operator Org::BouncyCastle::Asn1::X9::X9ECParameters*() const noexcept {
       return parameters;

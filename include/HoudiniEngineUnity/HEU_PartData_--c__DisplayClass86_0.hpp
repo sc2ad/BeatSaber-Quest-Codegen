@@ -36,12 +36,18 @@ namespace HoudiniEngineUnity {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class HEU_PartData::$$c__DisplayClass86_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Collections.Generic.List`1<HoudiniEngineUnity.TransformData> previousTransformValues
     // Size: 0x8
     // Offset: 0x10
     System::Collections::Generic::List_1<HoudiniEngineUnity::TransformData>* previousTransformValues;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<HoudiniEngineUnity::TransformData>*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Collections::Generic::List_1<HoudiniEngineUnity::TransformData>*
     constexpr operator System::Collections::Generic::List_1<HoudiniEngineUnity::TransformData>*() const noexcept {
       return previousTransformValues;

@@ -47,6 +47,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::BTSCharacterSpawnController::$TimelineStoppedDelayed$d__19
     class $TimelineStoppedDelayed$d__19;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private BTSCharacterSpawnAnimationController _characterSpawnAnimationController
     // Size: 0x8
     // Offset: 0x18
@@ -102,6 +107,7 @@ namespace GlobalNamespace {
     UnityEngine::Coroutine* despawnCharacterCoroutine;
     // Field size check
     static_assert(sizeof(UnityEngine::Coroutine*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BTSCharacterSpawnAnimationController _characterSpawnAnimationController

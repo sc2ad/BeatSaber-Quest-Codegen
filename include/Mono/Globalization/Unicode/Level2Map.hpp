@@ -18,6 +18,11 @@ namespace Mono::Globalization::Unicode {
   // [TokenAttribute] Offset: FFFFFFFF
   class Level2Map : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Byte Source
     // Size: 0x1
     // Offset: 0x10
@@ -30,6 +35,7 @@ namespace Mono::Globalization::Unicode {
     uint8_t Replace;
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
+    public:
     // Get instance field reference: public System.Byte Source
     uint8_t& dyn_Source();
     // Get instance field reference: public System.Byte Replace

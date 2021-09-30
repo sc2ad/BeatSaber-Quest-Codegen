@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -47,12 +48,18 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct Mode/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: Mode
       constexpr Mode(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -87,6 +94,11 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(FullVRControllersRecorder::Mode), 0 + sizeof(int)> __GlobalNamespace_FullVRControllersRecorder_ModeSizeCheck;
     static_assert(sizeof(FullVRControllersRecorder::Mode) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String _recordingFilePath
     // Size: 0x8
     // Offset: 0x18
@@ -129,9 +141,9 @@ namespace GlobalNamespace {
     // private VRController[] _controllers
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayWrapper<GlobalNamespace::VRController*> controllers;
+    ::ArrayW<GlobalNamespace::VRController*> controllers;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::VRController*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::VRController*>) == 0x8);
     // [InjectAttribute] Offset: 0xF13D44
     // private AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
@@ -159,6 +171,7 @@ namespace GlobalNamespace {
     GlobalNamespace::VRControllersRecorderData* data;
     // Field size check
     static_assert(sizeof(GlobalNamespace::VRControllersRecorderData*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _recordingFilePath
@@ -174,7 +187,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _playbackFloorOffset
     float& dyn__playbackFloorOffset();
     // Get instance field reference: private VRController[] _controllers
-    ::ArrayWrapper<GlobalNamespace::VRController*>& dyn__controllers();
+    ::ArrayW<GlobalNamespace::VRController*>& dyn__controllers();
     // Get instance field reference: private AudioTimeSyncController _audioTimeSyncController
     GlobalNamespace::AudioTimeSyncController*& dyn__audioTimeSyncController();
     // Get instance field reference: private System.Action`1<VRController> didSetControllerTransformEvent

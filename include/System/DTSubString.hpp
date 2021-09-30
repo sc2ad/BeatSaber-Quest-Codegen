@@ -20,6 +20,11 @@ namespace System {
   // [DefaultMemberAttribute] Offset: E5C150
   struct DTSubString/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.String s
     // Size: 0x8
     // Offset: 0x0
@@ -50,6 +55,7 @@ namespace System {
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: DTSubString
     constexpr DTSubString(::Il2CppString* s_ = {}, int index_ = {}, int length_ = {}, System::DTSubStringType type_ = {}, int value_ = {}) noexcept : s{s_}, index{index_}, length{length_}, type{type_}, value{value_} {}
     // Creating interface conversion operator: operator System::ValueType

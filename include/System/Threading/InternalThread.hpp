@@ -17,6 +17,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: System.Threading
 namespace System::Threading {
@@ -27,6 +28,11 @@ namespace System::Threading {
   // [TokenAttribute] Offset: FFFFFFFF
   class InternalThread : public System::Runtime::ConstrainedExecution::CriticalFinalizerObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 lock_thread_id
     // Size: 0x4
     // Offset: 0x10
@@ -124,9 +130,9 @@ namespace System::Threading {
     // System.Byte[] _serialized_principal
     // Size: 0x8
     // Offset: 0x80
-    ::ArrayWrapper<uint8_t> serialized_principal;
+    ::ArrayW<uint8_t> serialized_principal;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // System.Int32 _serialized_principal_version
     // Size: 0x4
     // Offset: 0x88
@@ -277,6 +283,7 @@ namespace System::Threading {
     System::IntPtr last;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
+    public:
     // Get instance field reference: private System.Int32 lock_thread_id
     int& dyn_lock_thread_id();
     // Get instance field reference: private System.IntPtr handle
@@ -308,7 +315,7 @@ namespace System::Threading {
     // Get instance field reference: private System.Object root_domain_thread
     ::Il2CppObject*& dyn_root_domain_thread();
     // Get instance field reference: System.Byte[] _serialized_principal
-    ::ArrayWrapper<uint8_t>& dyn__serialized_principal();
+    ::ArrayW<uint8_t>& dyn__serialized_principal();
     // Get instance field reference: System.Int32 _serialized_principal_version
     int& dyn__serialized_principal_version();
     // Get instance field reference: private System.IntPtr appdomain_refs

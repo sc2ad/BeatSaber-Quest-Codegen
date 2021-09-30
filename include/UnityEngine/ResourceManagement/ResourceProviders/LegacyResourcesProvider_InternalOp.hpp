@@ -29,6 +29,11 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   // [TokenAttribute] Offset: FFFFFFFF
   class LegacyResourcesProvider::InternalOp : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.AsyncOperation m_RequestOperation
     // Size: 0x8
     // Offset: 0x10
@@ -41,6 +46,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle m_ProvideHandle;
     // Field size check
     static_assert(sizeof(UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle) == 0x18);
+    public:
     // Get instance field reference: private UnityEngine.AsyncOperation m_RequestOperation
     UnityEngine::AsyncOperation*& dyn_m_RequestOperation();
     // Get instance field reference: private UnityEngine.ResourceManagement.ResourceProviders.ProvideHandle m_ProvideHandle

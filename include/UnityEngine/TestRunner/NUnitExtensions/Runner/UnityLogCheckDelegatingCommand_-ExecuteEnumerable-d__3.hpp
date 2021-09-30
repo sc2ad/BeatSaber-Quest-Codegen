@@ -41,6 +41,11 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class UnityLogCheckDelegatingCommand::$ExecuteEnumerable$d__3 : public ::Il2CppObject/*, public System::Collections::Generic::IEnumerable_1<::Il2CppObject*>, public System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -99,6 +104,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     System::Collections::IEnumerator* $$7__wrap2;
     // Field size check
     static_assert(sizeof(System::Collections::IEnumerator*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerable_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*>(this);

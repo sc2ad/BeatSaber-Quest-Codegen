@@ -33,6 +33,11 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E719C4
   struct Color/*, public System::ValueType, public System::IEquatable_1<UnityEngine::Color>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Single r
     // Size: 0x4
     // Offset: 0x0
@@ -57,6 +62,7 @@ namespace UnityEngine {
     float a;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: Color
     constexpr Color(float r_ = {}, float g_ = {}, float b_ = {}, float a_ = {}) noexcept : r{r_}, g{g_}, b{b_}, a{a_} {}
     // Creating interface conversion operator: operator System::ValueType

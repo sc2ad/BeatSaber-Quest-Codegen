@@ -38,12 +38,18 @@ namespace UnityEngine::ProBuilder {
     // [TokenAttribute] Offset: FFFFFFFF
     struct Anchor/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: Anchor
       constexpr Anchor(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -126,12 +132,18 @@ namespace UnityEngine::ProBuilder {
     // [TokenAttribute] Offset: FFFFFFFF
     struct Fill/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: Fill
       constexpr Fill(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -166,6 +178,11 @@ namespace UnityEngine::ProBuilder {
     #pragma pack(pop)
     static check_size<sizeof(AutoUnwrapSettings::Fill), 0 + sizeof(int)> __UnityEngine_ProBuilder_AutoUnwrapSettings_FillSizeCheck;
     static_assert(sizeof(AutoUnwrapSettings::Fill) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [FormerlySerializedAsAttribute] Offset: 0xF25C78
     // private System.Boolean m_UseWorldSpace
     // Size: 0x1
@@ -229,6 +246,7 @@ namespace UnityEngine::ProBuilder {
     UnityEngine::ProBuilder::AutoUnwrapSettings::Anchor m_Anchor;
     // Field size check
     static_assert(sizeof(UnityEngine::ProBuilder::AutoUnwrapSettings::Anchor) == 0x4);
+    public:
     // Creating value type constructor for type: AutoUnwrapSettings
     constexpr AutoUnwrapSettings(bool m_UseWorldSpace_ = {}, bool m_FlipU_ = {}, bool m_FlipV_ = {}, bool m_SwapUV_ = {}, UnityEngine::ProBuilder::AutoUnwrapSettings::Fill m_Fill_ = {}, UnityEngine::Vector2 m_Scale_ = {}, UnityEngine::Vector2 m_Offset_ = {}, float m_Rotation_ = {}, UnityEngine::ProBuilder::AutoUnwrapSettings::Anchor m_Anchor_ = {}) noexcept : m_UseWorldSpace{m_UseWorldSpace_}, m_FlipU{m_FlipU_}, m_FlipV{m_FlipV_}, m_SwapUV{m_SwapUV_}, m_Fill{m_Fill_}, m_Scale{m_Scale_}, m_Offset{m_Offset_}, m_Rotation{m_Rotation_}, m_Anchor{m_Anchor_} {}
     // Creating interface conversion operator: operator System::ValueType

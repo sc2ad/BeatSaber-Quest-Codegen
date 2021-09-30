@@ -31,6 +31,11 @@ namespace System::Threading::Tasks {
   // [TokenAttribute] Offset: FFFFFFFF
   class StandardTaskContinuation : public System::Threading::Tasks::TaskContinuation {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // readonly System.Threading.Tasks.Task m_task
     // Size: 0x8
     // Offset: 0x10
@@ -51,6 +56,7 @@ namespace System::Threading::Tasks {
     System::Threading::Tasks::TaskScheduler* m_taskScheduler;
     // Field size check
     static_assert(sizeof(System::Threading::Tasks::TaskScheduler*) == 0x8);
+    public:
     // Get instance field reference: readonly System.Threading.Tasks.Task m_task
     System::Threading::Tasks::Task*& dyn_m_task();
     // Get instance field reference: readonly System.Threading.Tasks.TaskContinuationOptions m_options

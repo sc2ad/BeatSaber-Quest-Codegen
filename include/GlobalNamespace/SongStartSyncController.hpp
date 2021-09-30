@@ -41,6 +41,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SongStartSyncController : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xF035CC
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
@@ -107,6 +112,7 @@ namespace GlobalNamespace {
     System::Action_1<float>* syncResumeEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<float>*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Single kAudioLoadTimeout

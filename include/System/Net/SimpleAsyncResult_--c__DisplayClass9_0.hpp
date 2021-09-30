@@ -28,6 +28,11 @@ namespace System::Net {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class SimpleAsyncResult::$$c__DisplayClass9_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.AsyncCallback cb
     // Size: 0x8
     // Offset: 0x10
@@ -40,6 +45,7 @@ namespace System::Net {
     System::Net::SimpleAsyncResult* $$4__this;
     // Field size check
     static_assert(sizeof(System::Net::SimpleAsyncResult*) == 0x8);
+    public:
     // Get instance field reference: public System.AsyncCallback cb
     System::AsyncCallback*& dyn_cb();
     // Get instance field reference: public System.Net.SimpleAsyncResult <>4__this

@@ -45,6 +45,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class UIKeyboardManager : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private HMUI.UIKeyboard _uiKeyboard
     // Size: 0x8
     // Offset: 0x18
@@ -82,6 +87,7 @@ namespace GlobalNamespace {
     HMUI::InputFieldView* selectedInput;
     // Field size check
     static_assert(sizeof(HMUI::InputFieldView*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Single kKeyboardTopOffset

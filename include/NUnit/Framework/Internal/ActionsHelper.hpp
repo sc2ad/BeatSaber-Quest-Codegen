@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework
@@ -43,19 +44,19 @@ namespace NUnit::Framework::Internal {
     public:
     // static public NUnit.Framework.ITestAction[] GetActionsFromTestAssembly(NUnit.Framework.Internal.TestAssembly testAssembly)
     // Offset: 0x1936D14
-    static ::ArrayWrapper<NUnit::Framework::ITestAction*> GetActionsFromTestAssembly(NUnit::Framework::Internal::TestAssembly* testAssembly);
+    static ::ArrayW<NUnit::Framework::ITestAction*> GetActionsFromTestAssembly(NUnit::Framework::Internal::TestAssembly* testAssembly);
     // static public NUnit.Framework.ITestAction[] GetActionsFromTestMethodInfo(NUnit.Framework.Interfaces.IMethodInfo testAssembly)
     // Offset: 0x1936F08
-    static ::ArrayWrapper<NUnit::Framework::ITestAction*> GetActionsFromTestMethodInfo(NUnit::Framework::Interfaces::IMethodInfo* testAssembly);
+    static ::ArrayW<NUnit::Framework::ITestAction*> GetActionsFromTestMethodInfo(NUnit::Framework::Interfaces::IMethodInfo* testAssembly);
     // static public NUnit.Framework.ITestAction[] GetActionsFromAttributeProvider(System.Reflection.ICustomAttributeProvider attributeProvider)
     // Offset: 0x1936D2C
-    static ::ArrayWrapper<NUnit::Framework::ITestAction*> GetActionsFromAttributeProvider(System::Reflection::ICustomAttributeProvider* attributeProvider);
+    static ::ArrayW<NUnit::Framework::ITestAction*> GetActionsFromAttributeProvider(System::Reflection::ICustomAttributeProvider* attributeProvider);
     // static public NUnit.Framework.ITestAction[] GetActionsFromTypesAttributes(System.Type type)
     // Offset: 0x1936FBC
-    static ::ArrayWrapper<NUnit::Framework::ITestAction*> GetActionsFromTypesAttributes(System::Type* type);
+    static ::ArrayW<NUnit::Framework::ITestAction*> GetActionsFromTypesAttributes(System::Type* type);
     // static private System.Type[] GetDeclaredInterfaces(System.Type type)
     // Offset: 0x1937154
-    static ::ArrayWrapper<System::Type*> GetDeclaredInterfaces(System::Type* type);
+    static ::ArrayW<System::Type*> GetDeclaredInterfaces(System::Type* type);
     // static private System.Int32 SortByTargetDescending(NUnit.Framework.ITestAction x, NUnit.Framework.ITestAction y)
     // Offset: 0x19373CC
     static int SortByTargetDescending(NUnit::Framework::ITestAction* x, NUnit::Framework::ITestAction* y);
@@ -68,7 +69,7 @@ DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::ActionsHelper*, "NUnit.Framew
 // Writing MetadataGetter for method: NUnit::Framework::Internal::ActionsHelper::GetActionsFromTestAssembly
 // Il2CppName: GetActionsFromTestAssembly
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<NUnit::Framework::ITestAction*> (*)(NUnit::Framework::Internal::TestAssembly*)>(&NUnit::Framework::Internal::ActionsHelper::GetActionsFromTestAssembly)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<NUnit::Framework::ITestAction*> (*)(NUnit::Framework::Internal::TestAssembly*)>(&NUnit::Framework::Internal::ActionsHelper::GetActionsFromTestAssembly)> {
   static const MethodInfo* get() {
     static auto* testAssembly = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "TestAssembly")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::ActionsHelper*), "GetActionsFromTestAssembly", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{testAssembly});
@@ -77,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: NUnit::Framework::Internal::ActionsHelper::GetActionsFromTestMethodInfo
 // Il2CppName: GetActionsFromTestMethodInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<NUnit::Framework::ITestAction*> (*)(NUnit::Framework::Interfaces::IMethodInfo*)>(&NUnit::Framework::Internal::ActionsHelper::GetActionsFromTestMethodInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<NUnit::Framework::ITestAction*> (*)(NUnit::Framework::Interfaces::IMethodInfo*)>(&NUnit::Framework::Internal::ActionsHelper::GetActionsFromTestMethodInfo)> {
   static const MethodInfo* get() {
     static auto* testAssembly = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Interfaces", "IMethodInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::ActionsHelper*), "GetActionsFromTestMethodInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{testAssembly});
@@ -86,7 +87,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: NUnit::Framework::Internal::ActionsHelper::GetActionsFromAttributeProvider
 // Il2CppName: GetActionsFromAttributeProvider
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<NUnit::Framework::ITestAction*> (*)(System::Reflection::ICustomAttributeProvider*)>(&NUnit::Framework::Internal::ActionsHelper::GetActionsFromAttributeProvider)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<NUnit::Framework::ITestAction*> (*)(System::Reflection::ICustomAttributeProvider*)>(&NUnit::Framework::Internal::ActionsHelper::GetActionsFromAttributeProvider)> {
   static const MethodInfo* get() {
     static auto* attributeProvider = &::il2cpp_utils::GetClassFromName("System.Reflection", "ICustomAttributeProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::ActionsHelper*), "GetActionsFromAttributeProvider", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{attributeProvider});
@@ -95,7 +96,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: NUnit::Framework::Internal::ActionsHelper::GetActionsFromTypesAttributes
 // Il2CppName: GetActionsFromTypesAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<NUnit::Framework::ITestAction*> (*)(System::Type*)>(&NUnit::Framework::Internal::ActionsHelper::GetActionsFromTypesAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<NUnit::Framework::ITestAction*> (*)(System::Type*)>(&NUnit::Framework::Internal::ActionsHelper::GetActionsFromTypesAttributes)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::ActionsHelper*), "GetActionsFromTypesAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -104,7 +105,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: NUnit::Framework::Internal::ActionsHelper::GetDeclaredInterfaces
 // Il2CppName: GetDeclaredInterfaces
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::Type*> (*)(System::Type*)>(&NUnit::Framework::Internal::ActionsHelper::GetDeclaredInterfaces)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Type*> (*)(System::Type*)>(&NUnit::Framework::Internal::ActionsHelper::GetDeclaredInterfaces)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::ActionsHelper*), "GetDeclaredInterfaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});

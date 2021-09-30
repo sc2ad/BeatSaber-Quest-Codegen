@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Math
@@ -31,14 +32,20 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
   // [TokenAttribute] Offset: FFFFFFFF
   class SecP384R1FieldElement : public Org::BouncyCastle::Math::EC::AbstractFpFieldElement {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // protected internal readonly System.UInt32[] x
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<uint> x;
+    ::ArrayW<uint> x;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint>) == 0x8);
-    // Creating conversion operator: operator ::ArrayWrapper<uint>
-    constexpr operator ::ArrayWrapper<uint>() const noexcept {
+    static_assert(sizeof(::ArrayW<uint>) == 0x8);
+    public:
+    // Creating conversion operator: operator ::ArrayW<uint>
+    constexpr operator ::ArrayW<uint>() const noexcept {
       return x;
     }
     // Get static field: static public readonly Org.BouncyCastle.Math.BigInteger Q
@@ -46,7 +53,7 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
     // Set static field: static public readonly Org.BouncyCastle.Math.BigInteger Q
     static void _set_Q(Org::BouncyCastle::Math::BigInteger* value);
     // Get instance field reference: protected internal readonly System.UInt32[] x
-    ::ArrayWrapper<uint>& dyn_x();
+    ::ArrayW<uint>& dyn_x();
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger x)
     // Offset: 0x202D140
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -57,7 +64,7 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
     // protected internal System.Void .ctor(System.UInt32[] x)
     // Offset: 0x202D768
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static SecP384R1FieldElement* New_ctor(::ArrayWrapper<uint> x) {
+    static SecP384R1FieldElement* New_ctor(::ArrayW<uint> x) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::Custom::Sec::SecP384R1FieldElement::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<SecP384R1FieldElement*, creationType>(x)));
     }
@@ -154,7 +161,7 @@ namespace Org::BouncyCastle::Math::EC::Custom::Sec {
     int GetHashCode();
   }; // Org.BouncyCastle.Math.EC.Custom.Sec.SecP384R1FieldElement
   #pragma pack(pop)
-  static check_size<sizeof(SecP384R1FieldElement), 16 + sizeof(::ArrayWrapper<uint>)> __Org_BouncyCastle_Math_EC_Custom_Sec_SecP384R1FieldElementSizeCheck;
+  static check_size<sizeof(SecP384R1FieldElement), 16 + sizeof(::ArrayW<uint>)> __Org_BouncyCastle_Math_EC_Custom_Sec_SecP384R1FieldElementSizeCheck;
   static_assert(sizeof(SecP384R1FieldElement) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Custom::Sec::SecP384R1FieldElement*, "Org.BouncyCastle.Math.EC.Custom.Sec", "SecP384R1FieldElement");

@@ -47,6 +47,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class AsyncComputeManager : public ::Il2CppObject/*, public GlobalNamespace::IAsyncComputeManager*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Collections.Concurrent.BlockingCollection`1<AsyncComputeOperation> _asyncComputeRequests
     // Size: 0x8
     // Offset: 0x10
@@ -65,6 +70,7 @@ namespace GlobalNamespace {
     bool disposed;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IAsyncComputeManager
     operator GlobalNamespace::IAsyncComputeManager() noexcept {
       return *reinterpret_cast<GlobalNamespace::IAsyncComputeManager*>(this);

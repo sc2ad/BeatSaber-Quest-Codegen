@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::UI
@@ -49,12 +50,17 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IntroTutorialRing : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.UI.Image[] _progressImages
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<UnityEngine::UI::Image*> progressImages;
+    ::ArrayW<UnityEngine::UI::Image*> progressImages;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::UI::Image*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::UI::Image*>) == 0x8);
     // private SaberType _saberType
     // Size: 0x4
     // Offset: 0x20
@@ -86,9 +92,9 @@ namespace GlobalNamespace {
     // private UnityEngine.UI.Image[] _ringGLowImages
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayWrapper<UnityEngine::UI::Image*> ringGLowImages;
+    ::ArrayW<UnityEngine::UI::Image*> ringGLowImages;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::UI::Image*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::UI::Image*>) == 0x8);
     // [InjectAttribute] Offset: 0xF0B194
     // private readonly ColorManager _colorManager
     // Size: 0x8
@@ -130,10 +136,11 @@ namespace GlobalNamespace {
     bool sabersInsideAfterOnEnable;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.UI.Image[] _progressImages
-    ::ArrayWrapper<UnityEngine::UI::Image*>& dyn__progressImages();
+    ::ArrayW<UnityEngine::UI::Image*>& dyn__progressImages();
     // Get instance field reference: private SaberType _saberType
     GlobalNamespace::SaberType& dyn__saberType();
     // Get instance field reference: private UnityEngine.ParticleSystem _particleSystem
@@ -143,7 +150,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _activationDuration
     float& dyn__activationDuration();
     // Get instance field reference: private UnityEngine.UI.Image[] _ringGLowImages
-    ::ArrayWrapper<UnityEngine::UI::Image*>& dyn__ringGLowImages();
+    ::ArrayW<UnityEngine::UI::Image*>& dyn__ringGLowImages();
     // Get instance field reference: private readonly ColorManager _colorManager
     GlobalNamespace::ColorManager*& dyn__colorManager();
     // Get instance field reference: private System.Boolean _highlighted

@@ -34,6 +34,11 @@ namespace System::Net::Http::Headers {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class HttpHeaders::$GetEnumerator$d__19 : public ::Il2CppObject/*, public System::Collections::Generic::IEnumerator_1<System::Collections::Generic::KeyValuePair_2<::Il2CppString*, System::Collections::Generic::IEnumerable_1<::Il2CppString*>*>>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -54,6 +59,7 @@ namespace System::Net::Http::Headers {
     // Size: 0xFFFFFFFF
     // Offset: 0x30
     typename System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Net::Http::Headers::HttpHeaders::HeaderBucket*>::Enumerator $$7__wrap1;
+    public:
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<System::Collections::Generic::KeyValuePair_2<::Il2CppString*, System::Collections::Generic::IEnumerable_1<::Il2CppString*>*>>
     operator System::Collections::Generic::IEnumerator_1<System::Collections::Generic::KeyValuePair_2<::Il2CppString*, System::Collections::Generic::IEnumerable_1<::Il2CppString*>*>>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<System::Collections::Generic::KeyValuePair_2<::Il2CppString*, System::Collections::Generic::IEnumerable_1<::Il2CppString*>*>>*>(this);

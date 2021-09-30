@@ -17,6 +17,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -43,6 +44,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SaberBurnMarkSparkles : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.ParticleSystem _sparklesPS
     // Size: 0x8
     // Offset: 0x18
@@ -78,9 +84,9 @@ namespace GlobalNamespace {
     // private Saber[] _sabers
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayWrapper<GlobalNamespace::Saber*> sabers;
+    ::ArrayW<GlobalNamespace::Saber*> sabers;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::Saber*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::Saber*>) == 0x8);
     // private UnityEngine.Plane _plane
     // Size: 0x10
     // Offset: 0x48
@@ -90,33 +96,34 @@ namespace GlobalNamespace {
     // private UnityEngine.Vector3[] _prevBurnMarkPos
     // Size: 0x8
     // Offset: 0x58
-    ::ArrayWrapper<UnityEngine::Vector3> prevBurnMarkPos;
+    ::ArrayW<UnityEngine::Vector3> prevBurnMarkPos;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector3>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Vector3>) == 0x8);
     // private System.Boolean[] _prevBurnMarkPosValid
     // Size: 0x8
     // Offset: 0x60
-    ::ArrayWrapper<bool> prevBurnMarkPosValid;
+    ::ArrayW<bool> prevBurnMarkPosValid;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<bool>) == 0x8);
+    static_assert(sizeof(::ArrayW<bool>) == 0x8);
     // private UnityEngine.ParticleSystem[] _burnMarksPS
     // Size: 0x8
     // Offset: 0x68
-    ::ArrayWrapper<UnityEngine::ParticleSystem*> burnMarksPS;
+    ::ArrayW<UnityEngine::ParticleSystem*> burnMarksPS;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::ParticleSystem*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::ParticleSystem*>) == 0x8);
     // private UnityEngine.ParticleSystem/UnityEngine.EmissionModule[] _burnMarksEmissionModules
     // Size: 0x8
     // Offset: 0x70
-    ::ArrayWrapper<UnityEngine::ParticleSystem::EmissionModule> burnMarksEmissionModules;
+    ::ArrayW<UnityEngine::ParticleSystem::EmissionModule> burnMarksEmissionModules;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::ParticleSystem::EmissionModule>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::ParticleSystem::EmissionModule>) == 0x8);
     // private UnityEngine.ParticleSystem/UnityEngine.EmitParams _sparklesEmitParams
     // Size: 0x8F
     // Offset: 0x78
     UnityEngine::ParticleSystem::EmitParams sparklesEmitParams;
     // Field size check
     static_assert(sizeof(UnityEngine::ParticleSystem::EmitParams) == 0x8F);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.ParticleSystem _sparklesPS
@@ -130,17 +137,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly SaberManager _saberManager
     GlobalNamespace::SaberManager*& dyn__saberManager();
     // Get instance field reference: private Saber[] _sabers
-    ::ArrayWrapper<GlobalNamespace::Saber*>& dyn__sabers();
+    ::ArrayW<GlobalNamespace::Saber*>& dyn__sabers();
     // Get instance field reference: private UnityEngine.Plane _plane
     UnityEngine::Plane& dyn__plane();
     // Get instance field reference: private UnityEngine.Vector3[] _prevBurnMarkPos
-    ::ArrayWrapper<UnityEngine::Vector3>& dyn__prevBurnMarkPos();
+    ::ArrayW<UnityEngine::Vector3>& dyn__prevBurnMarkPos();
     // Get instance field reference: private System.Boolean[] _prevBurnMarkPosValid
-    ::ArrayWrapper<bool>& dyn__prevBurnMarkPosValid();
+    ::ArrayW<bool>& dyn__prevBurnMarkPosValid();
     // Get instance field reference: private UnityEngine.ParticleSystem[] _burnMarksPS
-    ::ArrayWrapper<UnityEngine::ParticleSystem*>& dyn__burnMarksPS();
+    ::ArrayW<UnityEngine::ParticleSystem*>& dyn__burnMarksPS();
     // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.EmissionModule[] _burnMarksEmissionModules
-    ::ArrayWrapper<UnityEngine::ParticleSystem::EmissionModule>& dyn__burnMarksEmissionModules();
+    ::ArrayW<UnityEngine::ParticleSystem::EmissionModule>& dyn__burnMarksEmissionModules();
     // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.EmitParams _sparklesEmitParams
     UnityEngine::ParticleSystem::EmitParams& dyn__sparklesEmitParams();
     // protected System.Void Start()

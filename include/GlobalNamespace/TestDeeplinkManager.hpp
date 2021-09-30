@@ -33,6 +33,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class TestDeeplinkManager : public ::Il2CppObject/*, public GlobalNamespace::IDeeplinkManager*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Action`1<Deeplink> didReceiveDeeplinkEvent
     // Size: 0x8
     // Offset: 0x10
@@ -45,6 +50,7 @@ namespace GlobalNamespace {
     GlobalNamespace::Deeplink* currentDeeplink;
     // Field size check
     static_assert(sizeof(GlobalNamespace::Deeplink*) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IDeeplinkManager
     operator GlobalNamespace::IDeeplinkManager() noexcept {
       return *reinterpret_cast<GlobalNamespace::IDeeplinkManager*>(this);

@@ -30,6 +30,11 @@ namespace Org::BouncyCastle::Math::EC::Endo {
   // [TokenAttribute] Offset: FFFFFFFF
   class GlvTypeBParameters : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // protected readonly Org.BouncyCastle.Math.BigInteger m_beta
     // Size: 0x8
     // Offset: 0x10
@@ -48,6 +53,7 @@ namespace Org::BouncyCastle::Math::EC::Endo {
     Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* m_splitParams;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters*) == 0x8);
+    public:
     // Get instance field reference: protected readonly Org.BouncyCastle.Math.BigInteger m_beta
     Org::BouncyCastle::Math::BigInteger*& dyn_m_beta();
     // Get instance field reference: protected readonly Org.BouncyCastle.Math.BigInteger m_lambda

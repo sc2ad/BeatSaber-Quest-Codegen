@@ -18,6 +18,11 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct AppOverrideKeys_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.IntPtr pchKey
     // Size: 0x8
     // Offset: 0x0
@@ -30,6 +35,7 @@ namespace Valve::VR {
     System::IntPtr pchValue;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
+    public:
     // Creating value type constructor for type: AppOverrideKeys_t
     constexpr AppOverrideKeys_t(System::IntPtr pchKey_ = {}, System::IntPtr pchValue_ = {}) noexcept : pchKey{pchKey_}, pchValue{pchValue_} {}
     // Creating interface conversion operator: operator System::ValueType

@@ -21,6 +21,7 @@
 #include "GlobalNamespace/OVRPlugin_Fovf.hpp"
 // Including type: OVRPlugin/Rectf
 #include "GlobalNamespace/OVRPlugin_Rectf.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -31,6 +32,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct OVRPlugin::LayerDesc/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public OVRPlugin/OverlayShape Shape
     // Size: 0x4
     // Offset: 0x0
@@ -76,15 +82,15 @@ namespace GlobalNamespace {
     // public OVRPlugin/Fovf[] Fov
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<GlobalNamespace::OVRPlugin::Fovf> Fov;
+    ::ArrayW<GlobalNamespace::OVRPlugin::Fovf> Fov;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::OVRPlugin::Fovf>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::OVRPlugin::Fovf>) == 0x8);
     // public OVRPlugin/Rectf[] VisibleRect
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<GlobalNamespace::OVRPlugin::Rectf> VisibleRect;
+    ::ArrayW<GlobalNamespace::OVRPlugin::Rectf> VisibleRect;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::OVRPlugin::Rectf>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::OVRPlugin::Rectf>) == 0x8);
     // public OVRPlugin/Sizei MaxViewportSize
     // Size: 0x8
     // Offset: 0x30
@@ -115,8 +121,9 @@ namespace GlobalNamespace {
     GlobalNamespace::OVRPlugin::Sizei MotionVectorTextureSize;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OVRPlugin::Sizei) == 0x8);
+    public:
     // Creating value type constructor for type: LayerDesc
-    constexpr LayerDesc(GlobalNamespace::OVRPlugin::OverlayShape Shape_ = {}, GlobalNamespace::OVRPlugin::LayerLayout Layout_ = {}, GlobalNamespace::OVRPlugin::Sizei TextureSize_ = {}, int MipLevels_ = {}, int SampleCount_ = {}, GlobalNamespace::OVRPlugin::EyeTextureFormat Format_ = {}, int LayerFlags_ = {}, ::ArrayWrapper<GlobalNamespace::OVRPlugin::Fovf> Fov_ = ::ArrayWrapper<GlobalNamespace::OVRPlugin::Fovf>(nullptr), ::ArrayWrapper<GlobalNamespace::OVRPlugin::Rectf> VisibleRect_ = ::ArrayWrapper<GlobalNamespace::OVRPlugin::Rectf>(nullptr), GlobalNamespace::OVRPlugin::Sizei MaxViewportSize_ = {}, GlobalNamespace::OVRPlugin::EyeTextureFormat DepthFormat_ = {}, GlobalNamespace::OVRPlugin::EyeTextureFormat MotionVectorFormat_ = {}, GlobalNamespace::OVRPlugin::EyeTextureFormat MotionVectorDepthFormat_ = {}, GlobalNamespace::OVRPlugin::Sizei MotionVectorTextureSize_ = {}) noexcept : Shape{Shape_}, Layout{Layout_}, TextureSize{TextureSize_}, MipLevels{MipLevels_}, SampleCount{SampleCount_}, Format{Format_}, LayerFlags{LayerFlags_}, Fov{Fov_}, VisibleRect{VisibleRect_}, MaxViewportSize{MaxViewportSize_}, DepthFormat{DepthFormat_}, MotionVectorFormat{MotionVectorFormat_}, MotionVectorDepthFormat{MotionVectorDepthFormat_}, MotionVectorTextureSize{MotionVectorTextureSize_} {}
+    constexpr LayerDesc(GlobalNamespace::OVRPlugin::OverlayShape Shape_ = {}, GlobalNamespace::OVRPlugin::LayerLayout Layout_ = {}, GlobalNamespace::OVRPlugin::Sizei TextureSize_ = {}, int MipLevels_ = {}, int SampleCount_ = {}, GlobalNamespace::OVRPlugin::EyeTextureFormat Format_ = {}, int LayerFlags_ = {}, ::ArrayW<GlobalNamespace::OVRPlugin::Fovf> Fov_ = ::ArrayW<GlobalNamespace::OVRPlugin::Fovf>(nullptr), ::ArrayW<GlobalNamespace::OVRPlugin::Rectf> VisibleRect_ = ::ArrayW<GlobalNamespace::OVRPlugin::Rectf>(nullptr), GlobalNamespace::OVRPlugin::Sizei MaxViewportSize_ = {}, GlobalNamespace::OVRPlugin::EyeTextureFormat DepthFormat_ = {}, GlobalNamespace::OVRPlugin::EyeTextureFormat MotionVectorFormat_ = {}, GlobalNamespace::OVRPlugin::EyeTextureFormat MotionVectorDepthFormat_ = {}, GlobalNamespace::OVRPlugin::Sizei MotionVectorTextureSize_ = {}) noexcept : Shape{Shape_}, Layout{Layout_}, TextureSize{TextureSize_}, MipLevels{MipLevels_}, SampleCount{SampleCount_}, Format{Format_}, LayerFlags{LayerFlags_}, Fov{Fov_}, VisibleRect{VisibleRect_}, MaxViewportSize{MaxViewportSize_}, DepthFormat{DepthFormat_}, MotionVectorFormat{MotionVectorFormat_}, MotionVectorDepthFormat{MotionVectorDepthFormat_}, MotionVectorTextureSize{MotionVectorTextureSize_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -136,9 +143,9 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int32 LayerFlags
     int& dyn_LayerFlags();
     // Get instance field reference: public OVRPlugin/Fovf[] Fov
-    ::ArrayWrapper<GlobalNamespace::OVRPlugin::Fovf>& dyn_Fov();
+    ::ArrayW<GlobalNamespace::OVRPlugin::Fovf>& dyn_Fov();
     // Get instance field reference: public OVRPlugin/Rectf[] VisibleRect
-    ::ArrayWrapper<GlobalNamespace::OVRPlugin::Rectf>& dyn_VisibleRect();
+    ::ArrayW<GlobalNamespace::OVRPlugin::Rectf>& dyn_VisibleRect();
     // Get instance field reference: public OVRPlugin/Sizei MaxViewportSize
     GlobalNamespace::OVRPlugin::Sizei& dyn_MaxViewportSize();
     // Get instance field reference: public OVRPlugin/EyeTextureFormat DepthFormat

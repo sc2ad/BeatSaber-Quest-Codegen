@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: RootMotion
@@ -40,6 +41,11 @@ namespace RootMotion {
   // [TokenAttribute] Offset: FFFFFFFF
   class HumanoidBaker : public RootMotion::Baker {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [TooltipAttribute] Offset: 0xEF1728
     // public System.Boolean bakeHandIK
     // Size: 0x1
@@ -68,9 +74,9 @@ namespace RootMotion {
     // private RootMotion.BakerMuscle[] bakerMuscles
     // Size: 0x8
     // Offset: 0x80
-    ::ArrayWrapper<RootMotion::BakerMuscle*> bakerMuscles;
+    ::ArrayW<RootMotion::BakerMuscle*> bakerMuscles;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<RootMotion::BakerMuscle*>) == 0x8);
+    static_assert(sizeof(::ArrayW<RootMotion::BakerMuscle*>) == 0x8);
     // private RootMotion.BakerHumanoidQT rootQT
     // Size: 0x8
     // Offset: 0x88
@@ -104,9 +110,9 @@ namespace RootMotion {
     // private System.Single[] muscles
     // Size: 0x8
     // Offset: 0xB0
-    ::ArrayWrapper<float> muscles;
+    ::ArrayW<float> muscles;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<float>) == 0x8);
+    static_assert(sizeof(::ArrayW<float>) == 0x8);
     // private UnityEngine.HumanPose pose
     // Size: 0x28
     // Offset: 0xB8
@@ -143,6 +149,7 @@ namespace RootMotion {
     UnityEngine::Quaternion lastBodyRotation;
     // Field size check
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
+    public:
     // Get instance field reference: public System.Boolean bakeHandIK
     bool& dyn_bakeHandIK();
     // Get instance field reference: public System.Single IKKeyReductionError
@@ -150,7 +157,7 @@ namespace RootMotion {
     // Get instance field reference: public System.Int32 muscleFrameRateDiv
     int& dyn_muscleFrameRateDiv();
     // Get instance field reference: private RootMotion.BakerMuscle[] bakerMuscles
-    ::ArrayWrapper<RootMotion::BakerMuscle*>& dyn_bakerMuscles();
+    ::ArrayW<RootMotion::BakerMuscle*>& dyn_bakerMuscles();
     // Get instance field reference: private RootMotion.BakerHumanoidQT rootQT
     RootMotion::BakerHumanoidQT*& dyn_rootQT();
     // Get instance field reference: private RootMotion.BakerHumanoidQT leftFootQT
@@ -162,7 +169,7 @@ namespace RootMotion {
     // Get instance field reference: private RootMotion.BakerHumanoidQT rightHandQT
     RootMotion::BakerHumanoidQT*& dyn_rightHandQT();
     // Get instance field reference: private System.Single[] muscles
-    ::ArrayWrapper<float>& dyn_muscles();
+    ::ArrayW<float>& dyn_muscles();
     // Get instance field reference: private UnityEngine.HumanPose pose
     UnityEngine::HumanPose& dyn_pose();
     // Get instance field reference: private UnityEngine.HumanPoseHandler handler

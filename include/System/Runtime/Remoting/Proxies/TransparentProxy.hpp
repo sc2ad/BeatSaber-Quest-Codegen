@@ -40,6 +40,11 @@ namespace System::Runtime::Remoting::Proxies {
   // [TokenAttribute] Offset: FFFFFFFF
   class TransparentProxy : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Runtime.Remoting.Proxies.RealProxy _rp
     // Size: 0x8
     // Offset: 0x10
@@ -58,6 +63,7 @@ namespace System::Runtime::Remoting::Proxies {
     bool custom_type_info;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: public System.Runtime.Remoting.Proxies.RealProxy _rp
     System::Runtime::Remoting::Proxies::RealProxy*& dyn__rp();
     // Get instance field reference: private Mono.RuntimeRemoteClassHandle _class

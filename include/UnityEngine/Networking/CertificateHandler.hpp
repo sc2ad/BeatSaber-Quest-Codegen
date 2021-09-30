@@ -7,6 +7,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: UnityEngine.Networking
 namespace UnityEngine::Networking {
@@ -18,12 +19,18 @@ namespace UnityEngine::Networking {
   // [NativeHeaderAttribute] Offset: EBFBF8
   class CertificateHandler : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.IntPtr m_Ptr
     // Size: 0x8
     // Offset: 0x10
     System::IntPtr m_Ptr;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
+    public:
     // Creating conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept {
       return m_Ptr;
@@ -35,10 +42,10 @@ namespace UnityEngine::Networking {
     void Release();
     // protected System.Boolean ValidateCertificate(System.Byte[] certificateData)
     // Offset: 0x25F9AA8
-    bool ValidateCertificate(::ArrayWrapper<uint8_t> certificateData);
+    bool ValidateCertificate(::ArrayW<uint8_t> certificateData);
     // System.Boolean ValidateCertificateNative(System.Byte[] certificateData)
     // Offset: 0x25F9AB0
-    bool ValidateCertificateNative(::ArrayWrapper<uint8_t> certificateData);
+    bool ValidateCertificateNative(::ArrayW<uint8_t> certificateData);
     // public System.Void Dispose()
     // Offset: 0x25F9ABC
     void Dispose();
@@ -61,7 +68,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Networking::CertificateHandler::ValidateCertificate
 // Il2CppName: ValidateCertificate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Networking::CertificateHandler::*)(::ArrayWrapper<uint8_t>)>(&UnityEngine::Networking::CertificateHandler::ValidateCertificate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Networking::CertificateHandler::*)(::ArrayW<uint8_t>)>(&UnityEngine::Networking::CertificateHandler::ValidateCertificate)> {
   static const MethodInfo* get() {
     static auto* certificateData = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::CertificateHandler*), "ValidateCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{certificateData});
@@ -70,7 +77,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::Networking::CertificateHandler::ValidateCertificateNative
 // Il2CppName: ValidateCertificateNative
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Networking::CertificateHandler::*)(::ArrayWrapper<uint8_t>)>(&UnityEngine::Networking::CertificateHandler::ValidateCertificateNative)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Networking::CertificateHandler::*)(::ArrayW<uint8_t>)>(&UnityEngine::Networking::CertificateHandler::ValidateCertificateNative)> {
   static const MethodInfo* get() {
     static auto* certificateData = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::CertificateHandler*), "ValidateCertificateNative", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{certificateData});

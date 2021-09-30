@@ -21,12 +21,18 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class PauseController::$$c__DisplayClass20_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Boolean value
     // Size: 0x1
     // Offset: 0x10
     bool value;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating conversion operator: operator bool
     constexpr operator bool() const noexcept {
       return value;

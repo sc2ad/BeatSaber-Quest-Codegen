@@ -7,6 +7,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Oculus.Platform.Message`1
 #include "Oculus/Platform/Message_1.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Oculus::Platform
@@ -40,7 +41,7 @@ namespace Oculus::Platform {
     static Oculus::Platform::Packet* ReadPacket();
     // static public System.Boolean SendPacket(System.UInt64 userID, System.Byte[] bytes, Oculus.Platform.SendPolicy policy)
     // Offset: 0x25B5F98
-    static bool SendPacket(uint64_t userID, ::ArrayWrapper<uint8_t> bytes, Oculus::Platform::SendPolicy policy);
+    static bool SendPacket(uint64_t userID, ::ArrayW<uint8_t> bytes, Oculus::Platform::SendPolicy policy);
     // static public System.Void Connect(System.UInt64 userID)
     // Offset: 0x25B60E4
     static void Connect(uint64_t userID);
@@ -55,7 +56,7 @@ namespace Oculus::Platform {
     static bool IsConnected(uint64_t userID);
     // static public System.Boolean SendPacketToCurrentRoom(System.Byte[] bytes, Oculus.Platform.SendPolicy policy)
     // Offset: 0x25B6498
-    static bool SendPacketToCurrentRoom(::ArrayWrapper<uint8_t> bytes, Oculus::Platform::SendPolicy policy);
+    static bool SendPacketToCurrentRoom(::ArrayW<uint8_t> bytes, Oculus::Platform::SendPolicy policy);
     // static public System.Boolean AcceptForCurrentRoom()
     // Offset: 0x25B65D0
     static bool AcceptForCurrentRoom();
@@ -91,7 +92,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Writing MetadataGetter for method: Oculus::Platform::Net::SendPacket
 // Il2CppName: SendPacket
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint64_t, ::ArrayWrapper<uint8_t>, Oculus::Platform::SendPolicy)>(&Oculus::Platform::Net::SendPacket)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint64_t, ::ArrayW<uint8_t>, Oculus::Platform::SendPolicy)>(&Oculus::Platform::Net::SendPacket)> {
   static const MethodInfo* get() {
     static auto* userID = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* bytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -138,7 +139,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ui
 // Writing MetadataGetter for method: Oculus::Platform::Net::SendPacketToCurrentRoom
 // Il2CppName: SendPacketToCurrentRoom
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayWrapper<uint8_t>, Oculus::Platform::SendPolicy)>(&Oculus::Platform::Net::SendPacketToCurrentRoom)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<uint8_t>, Oculus::Platform::SendPolicy)>(&Oculus::Platform::Net::SendPacketToCurrentRoom)> {
   static const MethodInfo* get() {
     static auto* bytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* policy = &::il2cpp_utils::GetClassFromName("Oculus.Platform", "SendPolicy")->byval_arg;

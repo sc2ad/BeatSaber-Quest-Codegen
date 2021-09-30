@@ -18,12 +18,18 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct CVRSettingHelper/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.IntPtr m_pSettings
     // Size: 0x8
     // Offset: 0x0
     System::IntPtr m_pSettings;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
+    public:
     // Creating value type constructor for type: CVRSettingHelper
     constexpr CVRSettingHelper(System::IntPtr m_pSettings_ = {}) noexcept : m_pSettings{m_pSettings_} {}
     // Creating interface conversion operator: operator System::ValueType

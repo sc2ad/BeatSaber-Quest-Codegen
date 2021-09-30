@@ -39,12 +39,18 @@ namespace UnityEngine::TestTools::TestRunner::GUI {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class RuntimeTestRunnerFilter::$$c__DisplayClass7_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Func`2<System.String,NUnit.Framework.Internal.TestFilter> builder
     // Size: 0x8
     // Offset: 0x10
     System::Func_2<::Il2CppString*, NUnit::Framework::Internal::TestFilter*>* builder;
     // Field size check
     static_assert(sizeof(System::Func_2<::Il2CppString*, NUnit::Framework::Internal::TestFilter*>*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Func_2<::Il2CppString*, NUnit::Framework::Internal::TestFilter*>*
     constexpr operator System::Func_2<::Il2CppString*, NUnit::Framework::Internal::TestFilter*>*() const noexcept {
       return builder;

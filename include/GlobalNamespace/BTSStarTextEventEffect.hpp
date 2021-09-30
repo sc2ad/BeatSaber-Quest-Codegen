@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -56,18 +57,23 @@ namespace GlobalNamespace {
     class StarTextSprite;
     // Nested type: GlobalNamespace::BTSStarTextEventEffect::StartTextPosition
     class StartTextPosition;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private BTSStarTextEventEffect/StarTextSprite[] _starTextSprites
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<GlobalNamespace::BTSStarTextEventEffect::StarTextSprite*> starTextSprites;
+    ::ArrayW<GlobalNamespace::BTSStarTextEventEffect::StarTextSprite*> starTextSprites;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::BTSStarTextEventEffect::StarTextSprite*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::BTSStarTextEventEffect::StarTextSprite*>) == 0x8);
     // private BTSStarTextEventEffect/StartTextPosition[] _startTextPositions
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<GlobalNamespace::BTSStarTextEventEffect::StartTextPosition*> startTextPositions;
+    ::ArrayW<GlobalNamespace::BTSStarTextEventEffect::StartTextPosition*> startTextPositions;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::BTSStarTextEventEffect::StartTextPosition*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::BTSStarTextEventEffect::StartTextPosition*>) == 0x8);
     // [InjectAttribute] Offset: 0xEFE9C8
     // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
@@ -100,6 +106,7 @@ namespace GlobalNamespace {
     System::Collections::Generic::Dictionary_2<int, UnityEngine::Transform*>* idsToStarTextPositionDictionary;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<int, UnityEngine::Transform*>*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private BeatmapEventType kStarTextAppearEventType
@@ -109,9 +116,9 @@ namespace GlobalNamespace {
     // Set static field: static private BeatmapEventType kStarTextAppearEventType
     static void _set_kStarTextAppearEventType(GlobalNamespace::BeatmapEventType value);
     // Get instance field reference: private BTSStarTextEventEffect/StarTextSprite[] _starTextSprites
-    ::ArrayWrapper<GlobalNamespace::BTSStarTextEventEffect::StarTextSprite*>& dyn__starTextSprites();
+    ::ArrayW<GlobalNamespace::BTSStarTextEventEffect::StarTextSprite*>& dyn__starTextSprites();
     // Get instance field reference: private BTSStarTextEventEffect/StartTextPosition[] _startTextPositions
-    ::ArrayWrapper<GlobalNamespace::BTSStarTextEventEffect::StartTextPosition*>& dyn__startTextPositions();
+    ::ArrayW<GlobalNamespace::BTSStarTextEventEffect::StartTextPosition*>& dyn__startTextPositions();
     // Get instance field reference: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     GlobalNamespace::IBeatmapObjectCallbackController*& dyn__beatmapObjectCallbackController();
     // Get instance field reference: private readonly IAudioTimeSource _audioTimeSource

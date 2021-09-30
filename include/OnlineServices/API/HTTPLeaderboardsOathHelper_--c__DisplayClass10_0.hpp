@@ -28,6 +28,11 @@ namespace OnlineServices::API {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class HTTPLeaderboardsOathHelper::$$c__DisplayClass10_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Networking.UnityWebRequest webRequest
     // Size: 0x8
     // Offset: 0x10
@@ -40,6 +45,7 @@ namespace OnlineServices::API {
     OnlineServices::API::HTTPLeaderboardsOathHelper* $$4__this;
     // Field size check
     static_assert(sizeof(OnlineServices::API::HTTPLeaderboardsOathHelper*) == 0x8);
+    public:
     // Get instance field reference: public UnityEngine.Networking.UnityWebRequest webRequest
     UnityEngine::Networking::UnityWebRequest*& dyn_webRequest();
     // Get instance field reference: public OnlineServices.API.HTTPLeaderboardsOathHelper <>4__this

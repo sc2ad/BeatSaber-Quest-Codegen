@@ -40,6 +40,11 @@ namespace Org::BouncyCastle::Asn1::X509 {
   // [TokenAttribute] Offset: FFFFFFFF
   class Holder : public Org::BouncyCastle::Asn1::Asn1Encodable {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // readonly Org.BouncyCastle.Asn1.X509.IssuerSerial baseCertificateID
     // Size: 0x8
     // Offset: 0x10
@@ -64,6 +69,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
     int version;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: readonly Org.BouncyCastle.Asn1.X509.IssuerSerial baseCertificateID
     Org::BouncyCastle::Asn1::X509::IssuerSerial*& dyn_baseCertificateID();
     // Get instance field reference: readonly Org.BouncyCastle.Asn1.X509.GeneralNames entityName

@@ -47,12 +47,18 @@ namespace UnityEngine::TestTools {
     class $ExecuteEnumerable$d__2;
     // Nested type: UnityEngine::TestTools::EnumerableTestMethodCommand::$ExecuteEnumerableAndRecordExceptions$d__4
     class $ExecuteEnumerableAndRecordExceptions$d__4;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly NUnit.Framework.Internal.TestMethod testMethod
     // Size: 0x8
     // Offset: 0x18
     NUnit::Framework::Internal::TestMethod* testMethod;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Internal::TestMethod*) == 0x8);
+    public:
     // Creating interface conversion operator: operator UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand
     operator UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand() noexcept {
       return *reinterpret_cast<UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand*>(this);

@@ -19,6 +19,11 @@ namespace System::Threading {
   // [TokenAttribute] Offset: FFFFFFFF
   struct ReaderWriterLockSlim::TimeoutTracker/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 m_total
     // Size: 0x4
     // Offset: 0x0
@@ -31,6 +36,7 @@ namespace System::Threading {
     int m_start;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: TimeoutTracker
     constexpr TimeoutTracker(int m_total_ = {}, int m_start_ = {}) noexcept : m_total{m_total_}, m_start{m_start_} {}
     // Creating interface conversion operator: operator System::ValueType

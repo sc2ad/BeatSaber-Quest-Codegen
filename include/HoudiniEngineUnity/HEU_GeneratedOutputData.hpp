@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -37,6 +38,11 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_GeneratedOutputData : public ::Il2CppObject/*, public HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_GeneratedOutputData*>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.GameObject _gameObject
     // Size: 0x8
     // Offset: 0x10
@@ -46,15 +52,16 @@ namespace HoudiniEngineUnity {
     // public UnityEngine.Material[] _renderMaterials
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<UnityEngine::Material*> renderMaterials;
+    ::ArrayW<UnityEngine::Material*> renderMaterials;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Material*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Material*>) == 0x8);
     // public System.Collections.Generic.List`1<UnityEngine.Collider> _colliders
     // Size: 0x8
     // Offset: 0x20
     System::Collections::Generic::List_1<UnityEngine::Collider*>* colliders;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::Collider*>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_GeneratedOutputData*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_GeneratedOutputData*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_GeneratedOutputData*>*>(this);
@@ -62,7 +69,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public UnityEngine.GameObject _gameObject
     UnityEngine::GameObject*& dyn__gameObject();
     // Get instance field reference: public UnityEngine.Material[] _renderMaterials
-    ::ArrayWrapper<UnityEngine::Material*>& dyn__renderMaterials();
+    ::ArrayW<UnityEngine::Material*>& dyn__renderMaterials();
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.Collider> _colliders
     System::Collections::Generic::List_1<UnityEngine::Collider*>*& dyn__colliders();
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_GeneratedOutputData other)

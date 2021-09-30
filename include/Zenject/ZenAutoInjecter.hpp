@@ -38,12 +38,18 @@ namespace Zenject {
     // [TokenAttribute] Offset: FFFFFFFF
     struct ContainerSources/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: ContainerSources
       constexpr ContainerSources(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -78,6 +84,11 @@ namespace Zenject {
     #pragma pack(pop)
     static check_size<sizeof(ZenAutoInjecter::ContainerSources), 0 + sizeof(int)> __Zenject_ZenAutoInjecter_ContainerSourcesSizeCheck;
     static_assert(sizeof(ZenAutoInjecter::ContainerSources) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Zenject.ZenAutoInjecter/Zenject.ContainerSources _containerSource
     // Size: 0x4
     // Offset: 0x18
@@ -90,6 +101,7 @@ namespace Zenject {
     bool hasInjected;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private Zenject.ZenAutoInjecter/Zenject.ContainerSources _containerSource

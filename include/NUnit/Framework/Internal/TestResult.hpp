@@ -56,6 +56,11 @@ namespace NUnit::Framework::Internal {
   // [TokenAttribute] Offset: FFFFFFFF
   class TestResult : public ::Il2CppObject/*, public NUnit::Framework::Interfaces::ITestResult*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Text.StringBuilder _output
     // Size: 0x8
     // Offset: 0x10
@@ -122,6 +127,7 @@ namespace NUnit::Framework::Internal {
     System::IO::TextWriter* OutWriter;
     // Field size check
     static_assert(sizeof(System::IO::TextWriter*) == 0x8);
+    public:
     // Creating interface conversion operator: operator NUnit::Framework::Interfaces::ITestResult
     operator NUnit::Framework::Interfaces::ITestResult() noexcept {
       return *reinterpret_cast<NUnit::Framework::Interfaces::ITestResult*>(this);

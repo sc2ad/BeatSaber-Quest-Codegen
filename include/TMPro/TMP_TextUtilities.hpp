@@ -7,6 +7,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: TMPro
@@ -44,9 +45,9 @@ namespace TMPro {
     // Nested type: TMPro::TMP_TextUtilities::LineSegment
     struct LineSegment;
     // Get static field: static private UnityEngine.Vector3[] m_rectWorldCorners
-    static ::ArrayWrapper<UnityEngine::Vector3> _get_m_rectWorldCorners();
+    static ::ArrayW<UnityEngine::Vector3> _get_m_rectWorldCorners();
     // Set static field: static private UnityEngine.Vector3[] m_rectWorldCorners
-    static void _set_m_rectWorldCorners(::ArrayWrapper<UnityEngine::Vector3> value);
+    static void _set_m_rectWorldCorners(::ArrayW<UnityEngine::Vector3> value);
     // static field const value: static private System.String k_lookupStringL
     static constexpr const char* k_lookupStringL = "-------------------------------- !-#$%&-()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[-]^_`abcdefghijklmnopqrstuvwxyz{|}~-";
     // Get static field: static private System.String k_lookupStringL

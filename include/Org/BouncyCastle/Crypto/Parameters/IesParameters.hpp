@@ -7,6 +7,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Crypto.ICipherParameters
 #include "Org/BouncyCastle/Crypto/ICipherParameters.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: Org.BouncyCastle.Crypto.Parameters
 namespace Org::BouncyCastle::Crypto::Parameters {
@@ -16,32 +17,38 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   // [TokenAttribute] Offset: FFFFFFFF
   class IesParameters : public ::Il2CppObject/*, public Org::BouncyCastle::Crypto::ICipherParameters*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Byte[] derivation
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<uint8_t> derivation;
+    ::ArrayW<uint8_t> derivation;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Byte[] encoding
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<uint8_t> encoding;
+    ::ArrayW<uint8_t> encoding;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Int32 macKeySize
     // Size: 0x4
     // Offset: 0x20
     int macKeySize;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::ICipherParameters
     operator Org::BouncyCastle::Crypto::ICipherParameters() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::ICipherParameters*>(this);
     }
     // Get instance field reference: private System.Byte[] derivation
-    ::ArrayWrapper<uint8_t>& dyn_derivation();
+    ::ArrayW<uint8_t>& dyn_derivation();
     // Get instance field reference: private System.Byte[] encoding
-    ::ArrayWrapper<uint8_t>& dyn_encoding();
+    ::ArrayW<uint8_t>& dyn_encoding();
     // Get instance field reference: private System.Int32 macKeySize
     int& dyn_macKeySize();
     // public System.Int32 get_MacKeySize()
@@ -49,10 +56,10 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     int get_MacKeySize();
     // public System.Byte[] GetDerivationV()
     // Offset: 0x13970BC
-    ::ArrayWrapper<uint8_t> GetDerivationV();
+    ::ArrayW<uint8_t> GetDerivationV();
     // public System.Byte[] GetEncodingV()
     // Offset: 0x13970C4
-    ::ArrayWrapper<uint8_t> GetEncodingV();
+    ::ArrayW<uint8_t> GetEncodingV();
   }; // Org.BouncyCastle.Crypto.Parameters.IesParameters
   #pragma pack(pop)
   static check_size<sizeof(IesParameters), 32 + sizeof(int)> __Org_BouncyCastle_Crypto_Parameters_IesParametersSizeCheck;
@@ -72,7 +79,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::IesParameters::GetDerivationV
 // Il2CppName: GetDerivationV
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Crypto::Parameters::IesParameters::*)()>(&Org::BouncyCastle::Crypto::Parameters::IesParameters::GetDerivationV)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Org::BouncyCastle::Crypto::Parameters::IesParameters::*)()>(&Org::BouncyCastle::Crypto::Parameters::IesParameters::GetDerivationV)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Parameters::IesParameters*), "GetDerivationV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -80,7 +87,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::IesParameters::GetEncodingV
 // Il2CppName: GetEncodingV
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Crypto::Parameters::IesParameters::*)()>(&Org::BouncyCastle::Crypto::Parameters::IesParameters::GetEncodingV)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Org::BouncyCastle::Crypto::Parameters::IesParameters::*)()>(&Org::BouncyCastle::Crypto::Parameters::IesParameters::GetEncodingV)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Parameters::IesParameters*), "GetEncodingV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

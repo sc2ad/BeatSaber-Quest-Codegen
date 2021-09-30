@@ -22,6 +22,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRInput::OVRControllerBase::VirtualButtonMap : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public OVRInput/RawButton None
     // Size: 0x4
     // Offset: 0x10
@@ -220,6 +225,7 @@ namespace GlobalNamespace {
     GlobalNamespace::OVRInput::RawButton Right;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OVRInput::RawButton) == 0x4);
+    public:
     // Get instance field reference: public OVRInput/RawButton None
     GlobalNamespace::OVRInput::RawButton& dyn_None();
     // Get instance field reference: public OVRInput/RawButton One

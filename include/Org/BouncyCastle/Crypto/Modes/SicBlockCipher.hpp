@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Crypto
@@ -27,6 +28,11 @@ namespace Org::BouncyCastle::Crypto::Modes {
   // [TokenAttribute] Offset: FFFFFFFF
   class SicBlockCipher : public ::Il2CppObject/*, public Org::BouncyCastle::Crypto::IBlockCipher*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Org.BouncyCastle.Crypto.IBlockCipher cipher
     // Size: 0x8
     // Offset: 0x10
@@ -44,21 +50,22 @@ namespace Org::BouncyCastle::Crypto::Modes {
     // private readonly System.Byte[] counter
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<uint8_t> counter;
+    ::ArrayW<uint8_t> counter;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private readonly System.Byte[] counterOut
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<uint8_t> counterOut;
+    ::ArrayW<uint8_t> counterOut;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Byte[] IV
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<uint8_t> IV;
+    ::ArrayW<uint8_t> IV;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
+    public:
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IBlockCipher
     operator Org::BouncyCastle::Crypto::IBlockCipher() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IBlockCipher*>(this);
@@ -68,11 +75,11 @@ namespace Org::BouncyCastle::Crypto::Modes {
     // Get instance field reference: private readonly System.Int32 blockSize
     int& dyn_blockSize();
     // Get instance field reference: private readonly System.Byte[] counter
-    ::ArrayWrapper<uint8_t>& dyn_counter();
+    ::ArrayW<uint8_t>& dyn_counter();
     // Get instance field reference: private readonly System.Byte[] counterOut
-    ::ArrayWrapper<uint8_t>& dyn_counterOut();
+    ::ArrayW<uint8_t>& dyn_counterOut();
     // Get instance field reference: private System.Byte[] IV
-    ::ArrayWrapper<uint8_t>& dyn_IV();
+    ::ArrayW<uint8_t>& dyn_IV();
     // public System.String get_AlgorithmName()
     // Offset: 0x138F68C
     ::Il2CppString* get_AlgorithmName();
@@ -94,13 +101,13 @@ namespace Org::BouncyCastle::Crypto::Modes {
     int GetBlockSize();
     // public System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
     // Offset: 0x138F80C
-    int ProcessBlock(::ArrayWrapper<uint8_t> input, int inOff, ::ArrayWrapper<uint8_t> output, int outOff);
+    int ProcessBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> output, int outOff);
     // public System.Void Reset()
     // Offset: 0x138F9E4
     void Reset();
   }; // Org.BouncyCastle.Crypto.Modes.SicBlockCipher
   #pragma pack(pop)
-  static check_size<sizeof(SicBlockCipher), 48 + sizeof(::ArrayWrapper<uint8_t>)> __Org_BouncyCastle_Crypto_Modes_SicBlockCipherSizeCheck;
+  static check_size<sizeof(SicBlockCipher), 48 + sizeof(::ArrayW<uint8_t>)> __Org_BouncyCastle_Crypto_Modes_SicBlockCipherSizeCheck;
   static_assert(sizeof(SicBlockCipher) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::SicBlockCipher*, "Org.BouncyCastle.Crypto.Modes", "SicBlockCipher");
@@ -146,7 +153,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Modes::SicBlockCipher::ProcessBlock
 // Il2CppName: ProcessBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Modes::SicBlockCipher::*)(::ArrayWrapper<uint8_t>, int, ::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Modes::SicBlockCipher::ProcessBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Modes::SicBlockCipher::*)(::ArrayW<uint8_t>, int, ::ArrayW<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Modes::SicBlockCipher::ProcessBlock)> {
   static const MethodInfo* get() {
     static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* inOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

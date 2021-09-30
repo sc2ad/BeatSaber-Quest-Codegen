@@ -30,6 +30,11 @@ namespace GlobalNamespace {
   // [ExecuteInEditMode] Offset: FFFFFFFF
   class BloomFogEnvironment : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private BloomFogSO _bloomFog
     // Size: 0x8
     // Offset: 0x18
@@ -44,6 +49,7 @@ namespace GlobalNamespace {
     GlobalNamespace::BloomFogEnvironmentParams* fogParams;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BloomFogEnvironmentParams*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BloomFogSO _bloomFog

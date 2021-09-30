@@ -32,6 +32,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MissionHelpViewController::MissionHelpGameObjectPair : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public MissionHelpSO missionHelp
     // Size: 0x8
     // Offset: 0x10
@@ -44,6 +49,7 @@ namespace GlobalNamespace {
     UnityEngine::GameObject* gameObject;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
+    public:
     // Get instance field reference: public MissionHelpSO missionHelp
     GlobalNamespace::MissionHelpSO*& dyn_missionHelp();
     // Get instance field reference: public UnityEngine.GameObject gameObject

@@ -22,6 +22,11 @@ namespace System::Net::NetworkInformation {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Win32_IP_ADAPTER_GATEWAY_ADDRESS/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Net.NetworkInformation.Win32LengthFlagsUnion LengthFlags
     // Size: 0x8
     // Offset: 0x0
@@ -40,6 +45,7 @@ namespace System::Net::NetworkInformation {
     System::Net::NetworkInformation::Win32_SOCKET_ADDRESS Address;
     // Field size check
     static_assert(sizeof(System::Net::NetworkInformation::Win32_SOCKET_ADDRESS) == 0xC);
+    public:
     // Creating value type constructor for type: Win32_IP_ADAPTER_GATEWAY_ADDRESS
     constexpr Win32_IP_ADAPTER_GATEWAY_ADDRESS(System::Net::NetworkInformation::Win32LengthFlagsUnion LengthFlags_ = {}, System::IntPtr Next_ = {}, System::Net::NetworkInformation::Win32_SOCKET_ADDRESS Address_ = {}) noexcept : LengthFlags{LengthFlags_}, Next{Next_}, Address{Address_} {}
     // Creating interface conversion operator: operator System::ValueType

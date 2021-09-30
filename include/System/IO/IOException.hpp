@@ -32,12 +32,18 @@ namespace System::IO {
   // [ComVisibleAttribute] Offset: E5E260
   class IOException : public System::SystemException {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String _maybeFullPath
     // Size: 0x8
     // Offset: 0x88
     ::Il2CppString* maybeFullPath;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return maybeFullPath;

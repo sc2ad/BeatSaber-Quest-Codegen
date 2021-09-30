@@ -39,12 +39,18 @@ namespace HMUI {
     // [TokenAttribute] Offset: FFFFFFFF
     struct AnimationType/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: AnimationType
       constexpr AnimationType(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -73,6 +79,11 @@ namespace HMUI {
     #pragma pack(pop)
     static check_size<sizeof(SwitchView::AnimationType), 0 + sizeof(int)> __HMUI_SwitchView_AnimationTypeSizeCheck;
     static_assert(sizeof(SwitchView::AnimationType) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private HMUI.SwitchView/HMUI.AnimationType _animationType
     // Size: 0x4
     // Offset: 0x18
@@ -144,6 +155,7 @@ namespace HMUI {
     HMUI::ToggleWithCallbacks* toggle;
     // Field size check
     static_assert(sizeof(HMUI::ToggleWithCallbacks*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private HMUI.SwitchView/HMUI.AnimationType _animationType

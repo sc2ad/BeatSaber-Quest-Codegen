@@ -22,12 +22,18 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class Test_HAPI_ParmInfo : public ::Il2CppObject/*, public HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::Test_HAPI_ParmInfo*>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public HoudiniEngineUnity.HAPI_ParmInfo self
     // Size: 0x90
     // Offset: 0x10
     HoudiniEngineUnity::HAPI_ParmInfo self;
     // Field size check
     static_assert(sizeof(HoudiniEngineUnity::HAPI_ParmInfo) == 0x90);
+    public:
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::Test_HAPI_ParmInfo*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::Test_HAPI_ParmInfo*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::Test_HAPI_ParmInfo*>*>(this);

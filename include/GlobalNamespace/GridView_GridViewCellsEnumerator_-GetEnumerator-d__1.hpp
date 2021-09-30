@@ -37,6 +37,11 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class GridView::GridViewCellsEnumerator::$GetEnumerator$d__1 : public ::Il2CppObject/*, public System::Collections::Generic::IEnumerator_1<UnityEngine::MonoBehaviour*>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -63,6 +68,7 @@ namespace GlobalNamespace {
     // Size: 0xFFFFFFFF
     // Offset: 0x40
     typename System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>::Enumerator $$7__wrap2;
+    public:
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<UnityEngine::MonoBehaviour*>
     operator System::Collections::Generic::IEnumerator_1<UnityEngine::MonoBehaviour*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<UnityEngine::MonoBehaviour*>*>(this);

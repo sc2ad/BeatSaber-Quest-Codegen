@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Security::Cryptography
@@ -30,7 +31,7 @@ namespace System::Security::Cryptography {
     static System::Security::Cryptography::RNGCryptoServiceProvider* get_StaticRandomNumberGenerator();
     // static System.Byte[] GenerateRandom(System.Int32 keySize)
     // Offset: 0x1CC491C
-    static ::ArrayWrapper<uint8_t> GenerateRandom(int keySize);
+    static ::ArrayW<uint8_t> GenerateRandom(int keySize);
     // static System.Boolean HasAlgorithm(System.Int32 dwCalg, System.Int32 dwKeySize)
     // Offset: 0x1CCE534
     static bool HasAlgorithm(int dwCalg, int dwKeySize);
@@ -42,31 +43,31 @@ namespace System::Security::Cryptography {
     static ::Il2CppString* DiscardWhiteSpaces(::Il2CppString* inputBuffer, int inputOffset, int inputCount);
     // static System.Int32 ConvertByteArrayToInt(System.Byte[] input)
     // Offset: 0x1CCEF6C
-    static int ConvertByteArrayToInt(::ArrayWrapper<uint8_t> input);
+    static int ConvertByteArrayToInt(::ArrayW<uint8_t> input);
     // static System.Byte[] ConvertIntToByteArray(System.Int32 dwInput)
     // Offset: 0x1CCEFD8
-    static ::ArrayWrapper<uint8_t> ConvertIntToByteArray(int dwInput);
+    static ::ArrayW<uint8_t> ConvertIntToByteArray(int dwInput);
     // static System.Byte[] FixupKeyParity(System.Byte[] key)
     // Offset: 0x1CCE128
-    static ::ArrayWrapper<uint8_t> FixupKeyParity(::ArrayWrapper<uint8_t> key);
+    static ::ArrayW<uint8_t> FixupKeyParity(::ArrayW<uint8_t> key);
     // static System.Void DWORDFromLittleEndian(System.UInt32* x, System.Int32 digits, System.Byte* block)
     // Offset: 0x1CCF108
     static void DWORDFromLittleEndian(uint* x, int digits, uint8_t* block);
     // static System.Void DWORDToLittleEndian(System.Byte[] block, System.UInt32[] x, System.Int32 digits)
     // Offset: 0x1CCF154
-    static void DWORDToLittleEndian(::ArrayWrapper<uint8_t> block, ::ArrayWrapper<uint> x, int digits);
+    static void DWORDToLittleEndian(::ArrayW<uint8_t> block, ::ArrayW<uint> x, int digits);
     // static System.Void DWORDFromBigEndian(System.UInt32* x, System.Int32 digits, System.Byte* block)
     // Offset: 0x1CC98F8
     static void DWORDFromBigEndian(uint* x, int digits, uint8_t* block);
     // static System.Void DWORDToBigEndian(System.Byte[] block, System.UInt32[] x, System.Int32 digits)
     // Offset: 0x1CC97F8
-    static void DWORDToBigEndian(::ArrayWrapper<uint8_t> block, ::ArrayWrapper<uint> x, int digits);
+    static void DWORDToBigEndian(::ArrayW<uint8_t> block, ::ArrayW<uint> x, int digits);
     // static System.Void QuadWordFromBigEndian(System.UInt64* x, System.Int32 digits, System.Byte* block)
     // Offset: 0x1CCB728
     static void QuadWordFromBigEndian(uint64_t* x, int digits, uint8_t* block);
     // static System.Void QuadWordToBigEndian(System.Byte[] block, System.UInt64[] x, System.Int32 digits)
     // Offset: 0x1CCB564
-    static void QuadWordToBigEndian(::ArrayWrapper<uint8_t> block, ::ArrayWrapper<uint64_t> x, int digits);
+    static void QuadWordToBigEndian(::ArrayW<uint8_t> block, ::ArrayW<uint64_t> x, int digits);
     // static System.Boolean _ProduceLegacyHmacValues()
     // Offset: 0x1CCF254
     static bool _ProduceLegacyHmacValues();
@@ -87,7 +88,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 // Writing MetadataGetter for method: System::Security::Cryptography::Utils::GenerateRandom
 // Il2CppName: GenerateRandom
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(int)>(&System::Security::Cryptography::Utils::GenerateRandom)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(int)>(&System::Security::Cryptography::Utils::GenerateRandom)> {
   static const MethodInfo* get() {
     static auto* keySize = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::Utils*), "GenerateRandom", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{keySize});
@@ -126,7 +127,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Security::Cryptography::Utils::ConvertByteArrayToInt
 // Il2CppName: ConvertByteArrayToInt
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayWrapper<uint8_t>)>(&System::Security::Cryptography::Utils::ConvertByteArrayToInt)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayW<uint8_t>)>(&System::Security::Cryptography::Utils::ConvertByteArrayToInt)> {
   static const MethodInfo* get() {
     static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::Utils*), "ConvertByteArrayToInt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input});
@@ -135,7 +136,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::A
 // Writing MetadataGetter for method: System::Security::Cryptography::Utils::ConvertIntToByteArray
 // Il2CppName: ConvertIntToByteArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(int)>(&System::Security::Cryptography::Utils::ConvertIntToByteArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(int)>(&System::Security::Cryptography::Utils::ConvertIntToByteArray)> {
   static const MethodInfo* get() {
     static auto* dwInput = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::Utils*), "ConvertIntToByteArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dwInput});
@@ -144,7 +145,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: System::Security::Cryptography::Utils::FixupKeyParity
 // Il2CppName: FixupKeyParity
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(::ArrayWrapper<uint8_t>)>(&System::Security::Cryptography::Utils::FixupKeyParity)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(::ArrayW<uint8_t>)>(&System::Security::Cryptography::Utils::FixupKeyParity)> {
   static const MethodInfo* get() {
     static auto* key = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::Utils*), "FixupKeyParity", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key});
@@ -164,7 +165,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ui
 // Writing MetadataGetter for method: System::Security::Cryptography::Utils::DWORDToLittleEndian
 // Il2CppName: DWORDToLittleEndian
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint>, int)>(&System::Security::Cryptography::Utils::DWORDToLittleEndian)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t>, ::ArrayW<uint>, int)>(&System::Security::Cryptography::Utils::DWORDToLittleEndian)> {
   static const MethodInfo* get() {
     static auto* block = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
@@ -186,7 +187,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ui
 // Writing MetadataGetter for method: System::Security::Cryptography::Utils::DWORDToBigEndian
 // Il2CppName: DWORDToBigEndian
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint>, int)>(&System::Security::Cryptography::Utils::DWORDToBigEndian)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t>, ::ArrayW<uint>, int)>(&System::Security::Cryptography::Utils::DWORDToBigEndian)> {
   static const MethodInfo* get() {
     static auto* block = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
@@ -208,7 +209,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ui
 // Writing MetadataGetter for method: System::Security::Cryptography::Utils::QuadWordToBigEndian
 // Il2CppName: QuadWordToBigEndian
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint64_t>, int)>(&System::Security::Cryptography::Utils::QuadWordToBigEndian)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t>, ::ArrayW<uint64_t>, int)>(&System::Security::Cryptography::Utils::QuadWordToBigEndian)> {
   static const MethodInfo* get() {
     static auto* block = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt64"), 1)->byval_arg;

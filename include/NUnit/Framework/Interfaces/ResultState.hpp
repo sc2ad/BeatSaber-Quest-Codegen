@@ -22,6 +22,11 @@ namespace NUnit::Framework::Interfaces {
   // [TokenAttribute] Offset: FFFFFFFF
   class ResultState : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [DebuggerBrowsableAttribute] Offset: 0xEEF840
     // private NUnit.Framework.Interfaces.TestStatus <Status>k__BackingField
     // Size: 0x4
@@ -45,6 +50,7 @@ namespace NUnit::Framework::Interfaces {
     NUnit::Framework::Interfaces::FailureSite Site;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Interfaces::FailureSite) == 0x4);
+    public:
     // Get static field: static public readonly NUnit.Framework.Interfaces.ResultState Inconclusive
     static NUnit::Framework::Interfaces::ResultState* _get_Inconclusive();
     // Set static field: static public readonly NUnit.Framework.Interfaces.ResultState Inconclusive

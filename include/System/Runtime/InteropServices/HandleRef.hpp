@@ -22,6 +22,11 @@ namespace System::Runtime::InteropServices {
   // [ComVisibleAttribute] Offset: E60CBC
   struct HandleRef/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Object m_wrapper
     // Size: 0x8
     // Offset: 0x0
@@ -34,6 +39,7 @@ namespace System::Runtime::InteropServices {
     System::IntPtr m_handle;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
+    public:
     // Creating value type constructor for type: HandleRef
     constexpr HandleRef(::Il2CppObject* m_wrapper_ = {}, System::IntPtr m_handle_ = {}) noexcept : m_wrapper{m_wrapper_}, m_handle{m_handle_} {}
     // Creating interface conversion operator: operator System::ValueType

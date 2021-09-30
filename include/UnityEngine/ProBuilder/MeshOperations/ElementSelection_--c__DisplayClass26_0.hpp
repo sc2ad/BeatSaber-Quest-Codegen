@@ -40,6 +40,11 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class ElementSelection::$$c__DisplayClass26_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Collections.Generic.HashSet`1<System.Int32> common
     // Size: 0x8
     // Offset: 0x10
@@ -58,6 +63,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     System::Func_2<UnityEngine::ProBuilder::WingedEdge*, bool>* $$9__2;
     // Field size check
     static_assert(sizeof(System::Func_2<UnityEngine::ProBuilder::WingedEdge*, bool>*) == 0x8);
+    public:
     // Get instance field reference: public System.Collections.Generic.HashSet`1<System.Int32> common
     System::Collections::Generic::HashSet_1<int>*& dyn_common();
     // Get instance field reference: public System.Func`2<UnityEngine.ProBuilder.WingedEdge,System.Boolean> <>9__1

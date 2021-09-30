@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -45,13 +46,18 @@ namespace UnityEngine::ProBuilder {
   // [DefaultMemberAttribute] Offset: F25510
   class Face : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [FormerlySerializedAsAttribute] Offset: 0xF26074
     // private System.Int32[] m_Indexes
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<int> m_Indexes;
+    ::ArrayW<int> m_Indexes;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // [FormerlySerializedAsAttribute] Offset: 0xF260C0
     // private System.Int32 m_SmoothingGroup
     // Size: 0x4
@@ -105,17 +111,18 @@ namespace UnityEngine::ProBuilder {
     // private System.Int32[] m_DistinctIndexes
     // Size: 0x8
     // Offset: 0x58
-    ::ArrayWrapper<int> m_DistinctIndexes;
+    ::ArrayW<int> m_DistinctIndexes;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // private UnityEngine.ProBuilder.Edge[] m_Edges
     // Size: 0x8
     // Offset: 0x60
-    ::ArrayWrapper<UnityEngine::ProBuilder::Edge> m_Edges;
+    ::ArrayW<UnityEngine::ProBuilder::Edge> m_Edges;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::ProBuilder::Edge>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::ProBuilder::Edge>) == 0x8);
+    public:
     // Get instance field reference: private System.Int32[] m_Indexes
-    ::ArrayWrapper<int>& dyn_m_Indexes();
+    ::ArrayW<int>& dyn_m_Indexes();
     // Get instance field reference: private System.Int32 m_SmoothingGroup
     int& dyn_m_SmoothingGroup();
     // Get instance field reference: private UnityEngine.ProBuilder.AutoUnwrapSettings m_Uv
@@ -131,9 +138,9 @@ namespace UnityEngine::ProBuilder {
     // Get instance field reference: private System.Int32 m_TextureGroup
     int& dyn_m_TextureGroup();
     // Get instance field reference: private System.Int32[] m_DistinctIndexes
-    ::ArrayWrapper<int>& dyn_m_DistinctIndexes();
+    ::ArrayW<int>& dyn_m_DistinctIndexes();
     // Get instance field reference: private UnityEngine.ProBuilder.Edge[] m_Edges
-    ::ArrayWrapper<UnityEngine::ProBuilder::Edge>& dyn_m_Edges();
+    ::ArrayW<UnityEngine::ProBuilder::Edge>& dyn_m_Edges();
     // public System.Boolean get_manualUV()
     // Offset: 0x1C748F0
     bool get_manualUV();
@@ -148,22 +155,22 @@ namespace UnityEngine::ProBuilder {
     void set_textureGroup(int value);
     // System.Int32[] get_indexesInternal()
     // Offset: 0x1C74914
-    ::ArrayWrapper<int> get_indexesInternal();
+    ::ArrayW<int> get_indexesInternal();
     // System.Void set_indexesInternal(System.Int32[] value)
     // Offset: 0x1C7491C
-    void set_indexesInternal(::ArrayWrapper<int> value);
+    void set_indexesInternal(::ArrayW<int> value);
     // public System.Collections.ObjectModel.ReadOnlyCollection`1<System.Int32> get_indexes()
     // Offset: 0x1C74A10
     System::Collections::ObjectModel::ReadOnlyCollection_1<int>* get_indexes();
     // System.Int32[] get_distinctIndexesInternal()
     // Offset: 0x1C7424C
-    ::ArrayWrapper<int> get_distinctIndexesInternal();
+    ::ArrayW<int> get_distinctIndexesInternal();
     // public System.Collections.ObjectModel.ReadOnlyCollection`1<System.Int32> get_distinctIndexes()
     // Offset: 0x1C74C08
     System::Collections::ObjectModel::ReadOnlyCollection_1<int>* get_distinctIndexes();
     // UnityEngine.ProBuilder.Edge[] get_edgesInternal()
     // Offset: 0x1C74710
-    ::ArrayWrapper<UnityEngine::ProBuilder::Edge> get_edgesInternal();
+    ::ArrayW<UnityEngine::ProBuilder::Edge> get_edgesInternal();
     // public System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.ProBuilder.Edge> get_edges()
     // Offset: 0x1C74EF4
     System::Collections::ObjectModel::ReadOnlyCollection_1<UnityEngine::ProBuilder::Edge>* get_edges();
@@ -204,7 +211,7 @@ namespace UnityEngine::ProBuilder {
     // System.Void .ctor(System.Int32[] triangles, UnityEngine.Material m, UnityEngine.ProBuilder.AutoUnwrapSettings u, System.Int32 smoothing, System.Int32 texture, System.Int32 element, System.Boolean manualUVs)
     // Offset: 0x1C750E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Face* New_ctor(::ArrayWrapper<int> triangles, UnityEngine::Material* m, UnityEngine::ProBuilder::AutoUnwrapSettings u, int smoothing, int texture, int element, bool manualUVs) {
+    static Face* New_ctor(::ArrayW<int> triangles, UnityEngine::Material* m, UnityEngine::ProBuilder::AutoUnwrapSettings u, int smoothing, int texture, int element, bool manualUVs) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::Face::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Face*, creationType>(triangles, m, u, smoothing, texture, element, manualUVs)));
     }
@@ -233,10 +240,10 @@ namespace UnityEngine::ProBuilder {
     void InvalidateCache();
     // private UnityEngine.ProBuilder.Edge[] CacheEdges()
     // Offset: 0x1C74C88
-    ::ArrayWrapper<UnityEngine::ProBuilder::Edge> CacheEdges();
+    ::ArrayW<UnityEngine::ProBuilder::Edge> CacheEdges();
     // private System.Int32[] CacheDistinctIndexes()
     // Offset: 0x1C74B84
-    ::ArrayWrapper<int> CacheDistinctIndexes();
+    ::ArrayW<int> CacheDistinctIndexes();
     // public System.Boolean Contains(System.Int32 a, System.Int32 b, System.Int32 c)
     // Offset: 0x1C753A8
     bool Contains(int a, int b, int c);
@@ -245,7 +252,7 @@ namespace UnityEngine::ProBuilder {
     bool IsQuad();
     // public System.Int32[] ToQuad()
     // Offset: 0x1C7549C
-    ::ArrayWrapper<int> ToQuad();
+    ::ArrayW<int> ToQuad();
     // public System.Void ShiftIndexes(System.Int32 offset)
     // Offset: 0x1C759E0
     void ShiftIndexes(int offset);
@@ -283,7 +290,7 @@ namespace UnityEngine::ProBuilder {
     ::Il2CppString* ToString();
   }; // UnityEngine.ProBuilder.Face
   #pragma pack(pop)
-  static check_size<sizeof(Face), 96 + sizeof(::ArrayWrapper<UnityEngine::ProBuilder::Edge>)> __UnityEngine_ProBuilder_FaceSizeCheck;
+  static check_size<sizeof(Face), 96 + sizeof(::ArrayW<UnityEngine::ProBuilder::Edge>)> __UnityEngine_ProBuilder_FaceSizeCheck;
   static_assert(sizeof(Face) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Face*, "UnityEngine.ProBuilder", "Face");
@@ -325,7 +332,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Face::get_indexesInternal
 // Il2CppName: get_indexesInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<int> (UnityEngine::ProBuilder::Face::*)()>(&UnityEngine::ProBuilder::Face::get_indexesInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int> (UnityEngine::ProBuilder::Face::*)()>(&UnityEngine::ProBuilder::Face::get_indexesInternal)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Face*), "get_indexesInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -333,7 +340,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Face::set_indexesInternal
 // Il2CppName: set_indexesInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Face::*)(::ArrayWrapper<int>)>(&UnityEngine::ProBuilder::Face::set_indexesInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::Face::*)(::ArrayW<int>)>(&UnityEngine::ProBuilder::Face::set_indexesInternal)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Face*), "set_indexesInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -350,7 +357,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Face::get_distinctIndexesInternal
 // Il2CppName: get_distinctIndexesInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<int> (UnityEngine::ProBuilder::Face::*)()>(&UnityEngine::ProBuilder::Face::get_distinctIndexesInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int> (UnityEngine::ProBuilder::Face::*)()>(&UnityEngine::ProBuilder::Face::get_distinctIndexesInternal)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Face*), "get_distinctIndexesInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -366,7 +373,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Face::get_edgesInternal
 // Il2CppName: get_edgesInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::ProBuilder::Edge> (UnityEngine::ProBuilder::Face::*)()>(&UnityEngine::ProBuilder::Face::get_edgesInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::ProBuilder::Edge> (UnityEngine::ProBuilder::Face::*)()>(&UnityEngine::ProBuilder::Face::get_edgesInternal)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Face*), "get_edgesInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -501,7 +508,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Face::CacheEdges
 // Il2CppName: CacheEdges
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::ProBuilder::Edge> (UnityEngine::ProBuilder::Face::*)()>(&UnityEngine::ProBuilder::Face::CacheEdges)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::ProBuilder::Edge> (UnityEngine::ProBuilder::Face::*)()>(&UnityEngine::ProBuilder::Face::CacheEdges)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Face*), "CacheEdges", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -509,7 +516,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Face::CacheDistinctIndexes
 // Il2CppName: CacheDistinctIndexes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<int> (UnityEngine::ProBuilder::Face::*)()>(&UnityEngine::ProBuilder::Face::CacheDistinctIndexes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int> (UnityEngine::ProBuilder::Face::*)()>(&UnityEngine::ProBuilder::Face::CacheDistinctIndexes)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Face*), "CacheDistinctIndexes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -536,7 +543,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Face::ToQuad
 // Il2CppName: ToQuad
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<int> (UnityEngine::ProBuilder::Face::*)()>(&UnityEngine::ProBuilder::Face::ToQuad)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int> (UnityEngine::ProBuilder::Face::*)()>(&UnityEngine::ProBuilder::Face::ToQuad)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Face*), "ToQuad", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

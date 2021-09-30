@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Security
@@ -57,6 +58,11 @@ namespace System::Diagnostics {
   // [TypeConverterAttribute] Offset: E6924C
   class ProcessStartInfo : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String fileName
     // Size: 0x8
     // Offset: 0x10
@@ -197,10 +203,11 @@ namespace System::Diagnostics {
     System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppString*>* environment;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppString*>*) == 0x8);
+    public:
     // Get static field: static private readonly System.String[] empty
-    static ::ArrayWrapper<::Il2CppString*> _get_empty();
+    static ::ArrayW<::Il2CppString*> _get_empty();
     // Set static field: static private readonly System.String[] empty
-    static void _set_empty(::ArrayWrapper<::Il2CppString*> value);
+    static void _set_empty(::ArrayW<::Il2CppString*> value);
     // Get instance field reference: private System.String fileName
     ::Il2CppString*& dyn_fileName();
     // Get instance field reference: private System.String arguments

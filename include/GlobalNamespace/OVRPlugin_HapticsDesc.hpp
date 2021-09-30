@@ -19,6 +19,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct OVRPlugin::HapticsDesc/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 SampleRateHz
     // Size: 0x4
     // Offset: 0x0
@@ -55,6 +60,7 @@ namespace GlobalNamespace {
     int MaximumBufferSamplesCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: HapticsDesc
     constexpr HapticsDesc(int SampleRateHz_ = {}, int SampleSizeInBytes_ = {}, int MinimumSafeSamplesQueued_ = {}, int MinimumBufferSamplesCount_ = {}, int OptimalBufferSamplesCount_ = {}, int MaximumBufferSamplesCount_ = {}) noexcept : SampleRateHz{SampleRateHz_}, SampleSizeInBytes{SampleSizeInBytes_}, MinimumSafeSamplesQueued{MinimumSafeSamplesQueued_}, MinimumBufferSamplesCount{MinimumBufferSamplesCount_}, OptimalBufferSamplesCount{OptimalBufferSamplesCount_}, MaximumBufferSamplesCount{MaximumBufferSamplesCount_} {}
     // Creating interface conversion operator: operator System::ValueType

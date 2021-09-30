@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net
@@ -27,12 +28,17 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class ChunkedInputStream::ReadBufferState : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Byte[] Buffer
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<uint8_t> Buffer;
+    ::ArrayW<uint8_t> Buffer;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // public System.Int32 Offset
     // Size: 0x4
     // Offset: 0x18
@@ -59,8 +65,9 @@ namespace System::Net {
     System::Net::HttpStreamAsyncResult* Ares;
     // Field size check
     static_assert(sizeof(System::Net::HttpStreamAsyncResult*) == 0x8);
+    public:
     // Get instance field reference: public System.Byte[] Buffer
-    ::ArrayWrapper<uint8_t>& dyn_Buffer();
+    ::ArrayW<uint8_t>& dyn_Buffer();
     // Get instance field reference: public System.Int32 Offset
     int& dyn_Offset();
     // Get instance field reference: public System.Int32 Count
@@ -72,7 +79,7 @@ namespace System::Net {
     // public System.Void .ctor(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.Net.HttpStreamAsyncResult ares)
     // Offset: 0x156F4B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ChunkedInputStream::ReadBufferState* New_ctor(::ArrayWrapper<uint8_t> buffer, int offset, int count, System::Net::HttpStreamAsyncResult* ares) {
+    static ChunkedInputStream::ReadBufferState* New_ctor(::ArrayW<uint8_t> buffer, int offset, int count, System::Net::HttpStreamAsyncResult* ares) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::ChunkedInputStream::ReadBufferState::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ChunkedInputStream::ReadBufferState*, creationType>(buffer, offset, count, ares)));
     }

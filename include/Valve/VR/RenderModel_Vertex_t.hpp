@@ -18,6 +18,11 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct RenderModel_Vertex_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public Valve.VR.HmdVector3_t vPosition
     // Size: 0xC
     // Offset: 0x0
@@ -42,6 +47,7 @@ namespace Valve::VR {
     float rfTextureCoord1;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: RenderModel_Vertex_t
     constexpr RenderModel_Vertex_t(Valve::VR::HmdVector3_t vPosition_ = {}, Valve::VR::HmdVector3_t vNormal_ = {}, float rfTextureCoord0_ = {}, float rfTextureCoord1_ = {}) noexcept : vPosition{vPosition_}, vNormal{vNormal_}, rfTextureCoord0{rfTextureCoord0_}, rfTextureCoord1{rfTextureCoord1_} {}
     // Creating interface conversion operator: operator System::ValueType

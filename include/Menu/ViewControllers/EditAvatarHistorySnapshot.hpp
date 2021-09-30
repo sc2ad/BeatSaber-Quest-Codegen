@@ -27,6 +27,11 @@ namespace Menu::ViewControllers {
   // [TokenAttribute] Offset: FFFFFFFF
   class EditAvatarHistorySnapshot : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly EditAvatarViewController/AvatarEditPart <avatarEditPart>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -41,6 +46,7 @@ namespace Menu::ViewControllers {
     GlobalNamespace::AvatarData* avatarData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AvatarData*) == 0x8);
+    public:
     // Get instance field reference: private readonly EditAvatarViewController/AvatarEditPart <avatarEditPart>k__BackingField
     GlobalNamespace::EditAvatarViewController::AvatarEditPart& dyn_$avatarEditPart$k__BackingField();
     // Get instance field reference: private readonly AvatarData <avatarData>k__BackingField

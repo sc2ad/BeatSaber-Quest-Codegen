@@ -27,6 +27,11 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class FBBIKArmBending : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public RootMotion.FinalIK.FullBodyBipedIK ik
     // Size: 0x8
     // Offset: 0x18
@@ -75,6 +80,7 @@ namespace RootMotion::FinalIK {
     bool initiated;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public RootMotion.FinalIK.FullBodyBipedIK ik

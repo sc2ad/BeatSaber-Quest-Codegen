@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Security::Cryptography
@@ -30,18 +31,24 @@ namespace System::Security::Cryptography {
   // [ComVisibleAttribute] Offset: E5F3A8
   class RC2CryptoServiceProvider : public System::Security::Cryptography::RC2 {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean m_use40bitSalt
     // Size: 0x1
     // Offset: 0x48
     bool m_use40bitSalt;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Deleting conversion operator: operator int
     constexpr operator int() const noexcept = delete;
     // Get static field: static private System.Security.Cryptography.KeySizes[] s_legalKeySizes
-    static ::ArrayWrapper<System::Security::Cryptography::KeySizes*> _get_s_legalKeySizes();
+    static ::ArrayW<System::Security::Cryptography::KeySizes*> _get_s_legalKeySizes();
     // Set static field: static private System.Security.Cryptography.KeySizes[] s_legalKeySizes
-    static void _set_s_legalKeySizes(::ArrayWrapper<System::Security::Cryptography::KeySizes*> value);
+    static void _set_s_legalKeySizes(::ArrayW<System::Security::Cryptography::KeySizes*> value);
     // Get instance field reference: private System.Boolean m_use40bitSalt
     bool& dyn_m_use40bitSalt();
     // public override System.Int32 get_EffectiveKeySize()
@@ -69,12 +76,12 @@ namespace System::Security::Cryptography {
     // Offset: 0x1A7921C
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Security.Cryptography.ICryptoTransform SymmetricAlgorithm::CreateEncryptor(System.Byte[] rgbKey, System.Byte[] rgbIV)
-    System::Security::Cryptography::ICryptoTransform* CreateEncryptor(::ArrayWrapper<uint8_t> rgbKey, ::ArrayWrapper<uint8_t> rgbIV);
+    System::Security::Cryptography::ICryptoTransform* CreateEncryptor(::ArrayW<uint8_t> rgbKey, ::ArrayW<uint8_t> rgbIV);
     // public override System.Security.Cryptography.ICryptoTransform CreateDecryptor(System.Byte[] rgbKey, System.Byte[] rgbIV)
     // Offset: 0x1A79898
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Security.Cryptography.ICryptoTransform SymmetricAlgorithm::CreateDecryptor(System.Byte[] rgbKey, System.Byte[] rgbIV)
-    System::Security::Cryptography::ICryptoTransform* CreateDecryptor(::ArrayWrapper<uint8_t> rgbKey, ::ArrayWrapper<uint8_t> rgbIV);
+    System::Security::Cryptography::ICryptoTransform* CreateDecryptor(::ArrayW<uint8_t> rgbKey, ::ArrayW<uint8_t> rgbIV);
     // public override System.Void GenerateKey()
     // Offset: 0x1A79958
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
@@ -115,7 +122,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Security::Cryptography::RC2CryptoServiceProvider::CreateEncryptor
 // Il2CppName: CreateEncryptor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::ICryptoTransform* (System::Security::Cryptography::RC2CryptoServiceProvider::*)(::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>)>(&System::Security::Cryptography::RC2CryptoServiceProvider::CreateEncryptor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::ICryptoTransform* (System::Security::Cryptography::RC2CryptoServiceProvider::*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(&System::Security::Cryptography::RC2CryptoServiceProvider::CreateEncryptor)> {
   static const MethodInfo* get() {
     static auto* rgbKey = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* rgbIV = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -125,7 +132,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 // Writing MetadataGetter for method: System::Security::Cryptography::RC2CryptoServiceProvider::CreateDecryptor
 // Il2CppName: CreateDecryptor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::ICryptoTransform* (System::Security::Cryptography::RC2CryptoServiceProvider::*)(::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>)>(&System::Security::Cryptography::RC2CryptoServiceProvider::CreateDecryptor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::ICryptoTransform* (System::Security::Cryptography::RC2CryptoServiceProvider::*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(&System::Security::Cryptography::RC2CryptoServiceProvider::CreateDecryptor)> {
   static const MethodInfo* get() {
     static auto* rgbKey = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* rgbIV = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;

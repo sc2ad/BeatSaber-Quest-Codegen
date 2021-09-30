@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Crypto
@@ -27,34 +28,40 @@ namespace Org::BouncyCastle::Crypto::Engines {
   // [TokenAttribute] Offset: FFFFFFFF
   class SM4Engine : public ::Il2CppObject/*, public Org::BouncyCastle::Crypto::IBlockCipher*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.UInt32[] rk
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<uint> rk;
+    ::ArrayW<uint> rk;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint>) == 0x8);
+    public:
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IBlockCipher
     operator Org::BouncyCastle::Crypto::IBlockCipher() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IBlockCipher*>(this);
     }
-    // Creating conversion operator: operator ::ArrayWrapper<uint>
-    constexpr operator ::ArrayWrapper<uint>() const noexcept {
+    // Creating conversion operator: operator ::ArrayW<uint>
+    constexpr operator ::ArrayW<uint>() const noexcept {
       return rk;
     }
     // Get static field: static private readonly System.Byte[] Sbox
-    static ::ArrayWrapper<uint8_t> _get_Sbox();
+    static ::ArrayW<uint8_t> _get_Sbox();
     // Set static field: static private readonly System.Byte[] Sbox
-    static void _set_Sbox(::ArrayWrapper<uint8_t> value);
+    static void _set_Sbox(::ArrayW<uint8_t> value);
     // Get static field: static private readonly System.UInt32[] CK
-    static ::ArrayWrapper<uint> _get_CK();
+    static ::ArrayW<uint> _get_CK();
     // Set static field: static private readonly System.UInt32[] CK
-    static void _set_CK(::ArrayWrapper<uint> value);
+    static void _set_CK(::ArrayW<uint> value);
     // Get static field: static private readonly System.UInt32[] FK
-    static ::ArrayWrapper<uint> _get_FK();
+    static ::ArrayW<uint> _get_FK();
     // Set static field: static private readonly System.UInt32[] FK
-    static void _set_FK(::ArrayWrapper<uint> value);
+    static void _set_FK(::ArrayW<uint> value);
     // Get instance field reference: private System.UInt32[] rk
-    ::ArrayWrapper<uint>& dyn_rk();
+    ::ArrayW<uint>& dyn_rk();
     // public System.String get_AlgorithmName()
     // Offset: 0x2040918
     ::Il2CppString* get_AlgorithmName();
@@ -75,7 +82,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
     uint T_ap(uint Z);
     // private System.Void ExpandKey(System.Boolean forEncryption, System.Byte[] key)
     // Offset: 0x20400B0
-    void ExpandKey(bool forEncryption, ::ArrayWrapper<uint8_t> key);
+    void ExpandKey(bool forEncryption, ::ArrayW<uint8_t> key);
     // static private System.UInt32 L(System.UInt32 B)
     // Offset: 0x2040684
     static uint L(uint B);
@@ -90,7 +97,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
     int GetBlockSize();
     // public System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
     // Offset: 0x2040970
-    int ProcessBlock(::ArrayWrapper<uint8_t> input, int inOff, ::ArrayWrapper<uint8_t> output, int outOff);
+    int ProcessBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> output, int outOff);
     // public System.Void Reset()
     // Offset: 0x2040C20
     void Reset();
@@ -105,7 +112,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
     }
   }; // Org.BouncyCastle.Crypto.Engines.SM4Engine
   #pragma pack(pop)
-  static check_size<sizeof(SM4Engine), 16 + sizeof(::ArrayWrapper<uint>)> __Org_BouncyCastle_Crypto_Engines_SM4EngineSizeCheck;
+  static check_size<sizeof(SM4Engine), 16 + sizeof(::ArrayW<uint>)> __Org_BouncyCastle_Crypto_Engines_SM4EngineSizeCheck;
   static_assert(sizeof(SM4Engine) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::SM4Engine*, "Org.BouncyCastle.Crypto.Engines", "SM4Engine");
@@ -164,7 +171,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::SM4Engine::ExpandKey
 // Il2CppName: ExpandKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Engines::SM4Engine::*)(bool, ::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Crypto::Engines::SM4Engine::ExpandKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Engines::SM4Engine::*)(bool, ::ArrayW<uint8_t>)>(&Org::BouncyCastle::Crypto::Engines::SM4Engine::ExpandKey)> {
   static const MethodInfo* get() {
     static auto* forEncryption = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* key = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -210,7 +217,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::SM4Engine::ProcessBlock
 // Il2CppName: ProcessBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Engines::SM4Engine::*)(::ArrayWrapper<uint8_t>, int, ::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Engines::SM4Engine::ProcessBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Engines::SM4Engine::*)(::ArrayW<uint8_t>, int, ::ArrayW<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Engines::SM4Engine::ProcessBlock)> {
   static const MethodInfo* get() {
     static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* inOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

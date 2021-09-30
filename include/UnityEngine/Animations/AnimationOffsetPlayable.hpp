@@ -43,12 +43,18 @@ namespace UnityEngine::Animations {
   // [StaticAccessorAttribute] Offset: E8BE94
   struct AnimationOffsetPlayable/*, public System::ValueType, public System::IEquatable_1<UnityEngine::Animations::AnimationOffsetPlayable>, public UnityEngine::Playables::IPlayable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Playables.PlayableHandle m_Handle
     // Size: 0xC
     // Offset: 0x0
     UnityEngine::Playables::PlayableHandle m_Handle;
     // Field size check
     static_assert(sizeof(UnityEngine::Playables::PlayableHandle) == 0xC);
+    public:
     // Creating value type constructor for type: AnimationOffsetPlayable
     constexpr AnimationOffsetPlayable(UnityEngine::Playables::PlayableHandle m_Handle_ = {}) noexcept : m_Handle{m_Handle_} {}
     // Creating interface conversion operator: operator System::ValueType

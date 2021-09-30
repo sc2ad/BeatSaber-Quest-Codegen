@@ -33,6 +33,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class TutorialSongController::TutorialBasicNoteSpawnData : public GlobalNamespace::TutorialSongController::TutorialJumpingNoteSpawnData {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly NoteCutDirection cutDirection
     // Size: 0x4
     // Offset: 0x28
@@ -45,6 +50,7 @@ namespace GlobalNamespace {
     GlobalNamespace::ColorType colorType;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ColorType) == 0x4);
+    public:
     // Deleting conversion operator: operator GlobalNamespace::NoteLineLayer
     constexpr operator GlobalNamespace::NoteLineLayer() const noexcept = delete;
     // Get instance field reference: public readonly NoteCutDirection cutDirection

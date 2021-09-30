@@ -17,6 +17,11 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct VREvent_Reserved_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.UInt64 reserved0
     // Size: 0x8
     // Offset: 0x0
@@ -41,6 +46,7 @@ namespace OVR::OpenVR {
     uint64_t reserved3;
     // Field size check
     static_assert(sizeof(uint64_t) == 0x8);
+    public:
     // Creating value type constructor for type: VREvent_Reserved_t
     constexpr VREvent_Reserved_t(uint64_t reserved0_ = {}, uint64_t reserved1_ = {}, uint64_t reserved2_ = {}, uint64_t reserved3_ = {}) noexcept : reserved0{reserved0_}, reserved1{reserved1_}, reserved2{reserved2_}, reserved3{reserved3_} {}
     // Creating interface conversion operator: operator System::ValueType

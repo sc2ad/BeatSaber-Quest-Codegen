@@ -20,6 +20,11 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class ScreenModeData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Vector3 position
     // Size: 0xC
     // Offset: 0x10
@@ -66,6 +71,7 @@ namespace HMUI {
     float minYPos;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: public UnityEngine.Vector3 position
     UnityEngine::Vector3& dyn_position();
     // Get instance field reference: public UnityEngine.Vector3 rotation

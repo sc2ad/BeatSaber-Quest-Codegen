@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Asn1
@@ -29,6 +30,11 @@ namespace Org::BouncyCastle::Asn1 {
   // [TokenAttribute] Offset: FFFFFFFF
   class DerApplicationSpecific : public Org::BouncyCastle::Asn1::Asn1Object {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Boolean isConstructed
     // Size: 0x1
     // Offset: 0x10
@@ -46,22 +52,23 @@ namespace Org::BouncyCastle::Asn1 {
     // private readonly System.Byte[] octets
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<uint8_t> octets;
+    ::ArrayW<uint8_t> octets;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
+    public:
     // Get instance field reference: private readonly System.Boolean isConstructed
     bool& dyn_isConstructed();
     // Get instance field reference: private readonly System.Int32 tag
     int& dyn_tag();
     // Get instance field reference: private readonly System.Byte[] octets
-    ::ArrayWrapper<uint8_t>& dyn_octets();
+    ::ArrayW<uint8_t>& dyn_octets();
     // public System.Int32 get_ApplicationTag()
     // Offset: 0x18ECDC4
     int get_ApplicationTag();
     // System.Void .ctor(System.Boolean isConstructed, System.Int32 tag, System.Byte[] octets)
     // Offset: 0x18DF744
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DerApplicationSpecific* New_ctor(bool isConstructed, int tag, ::ArrayWrapper<uint8_t> octets) {
+    static DerApplicationSpecific* New_ctor(bool isConstructed, int tag, ::ArrayW<uint8_t> octets) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerApplicationSpecific::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerApplicationSpecific*, creationType>(isConstructed, tag, octets)));
     }
@@ -77,13 +84,13 @@ namespace Org::BouncyCastle::Asn1 {
     bool IsConstructed();
     // public System.Byte[] GetContents()
     // Offset: 0x18ECDBC
-    ::ArrayWrapper<uint8_t> GetContents();
+    ::ArrayW<uint8_t> GetContents();
     // public Org.BouncyCastle.Asn1.Asn1Object GetObject(System.Int32 derTagNo)
     // Offset: 0x18ECDCC
     Org::BouncyCastle::Asn1::Asn1Object* GetObject(int derTagNo);
     // private System.Byte[] ReplaceTagNumber(System.Int32 newTag, System.Byte[] input)
     // Offset: 0x18ECEB0
-    ::ArrayWrapper<uint8_t> ReplaceTagNumber(int newTag, ::ArrayWrapper<uint8_t> input);
+    ::ArrayW<uint8_t> ReplaceTagNumber(int newTag, ::ArrayW<uint8_t> input);
     // override System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     // Offset: 0x18ED000
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
@@ -101,7 +108,7 @@ namespace Org::BouncyCastle::Asn1 {
     int Asn1GetHashCode();
   }; // Org.BouncyCastle.Asn1.DerApplicationSpecific
   #pragma pack(pop)
-  static check_size<sizeof(DerApplicationSpecific), 24 + sizeof(::ArrayWrapper<uint8_t>)> __Org_BouncyCastle_Asn1_DerApplicationSpecificSizeCheck;
+  static check_size<sizeof(DerApplicationSpecific), 24 + sizeof(::ArrayW<uint8_t>)> __Org_BouncyCastle_Asn1_DerApplicationSpecificSizeCheck;
   static_assert(sizeof(DerApplicationSpecific) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DerApplicationSpecific*, "Org.BouncyCastle.Asn1", "DerApplicationSpecific");
@@ -133,7 +140,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerApplicationSpecific::GetContents
 // Il2CppName: GetContents
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Asn1::DerApplicationSpecific::*)()>(&Org::BouncyCastle::Asn1::DerApplicationSpecific::GetContents)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Org::BouncyCastle::Asn1::DerApplicationSpecific::*)()>(&Org::BouncyCastle::Asn1::DerApplicationSpecific::GetContents)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerApplicationSpecific*), "GetContents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -150,7 +157,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerApplicationSpecific::ReplaceTagNumber
 // Il2CppName: ReplaceTagNumber
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Asn1::DerApplicationSpecific::*)(int, ::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Asn1::DerApplicationSpecific::ReplaceTagNumber)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Org::BouncyCastle::Asn1::DerApplicationSpecific::*)(int, ::ArrayW<uint8_t>)>(&Org::BouncyCastle::Asn1::DerApplicationSpecific::ReplaceTagNumber)> {
   static const MethodInfo* get() {
     static auto* newTag = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;

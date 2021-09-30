@@ -39,12 +39,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ConnectedPlayerManager::PlayerLatencyPacket : public ::Il2CppObject/*, public LiteNetLib::Utils::INetSerializable, public GlobalNamespace::IPoolablePacket*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Single latency
     // Size: 0x4
     // Offset: 0x10
     float latency;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating interface conversion operator: operator LiteNetLib::Utils::INetSerializable
     operator LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<LiteNetLib::Utils::INetSerializable*>(this);

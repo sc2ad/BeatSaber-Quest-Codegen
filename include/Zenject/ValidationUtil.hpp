@@ -8,6 +8,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Zenject.TypeValuePair
 #include "Zenject/TypeValuePair.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Zenject
@@ -37,7 +38,7 @@ namespace Zenject {
     class $$c;
     // static public System.Collections.Generic.List`1<Zenject.TypeValuePair> CreateDefaultArgs(params System.Type[] argTypes)
     // Offset: 0x25EDD80
-    static System::Collections::Generic::List_1<Zenject::TypeValuePair>* CreateDefaultArgs(::ArrayWrapper<System::Type*> argTypes);
+    static System::Collections::Generic::List_1<Zenject::TypeValuePair>* CreateDefaultArgs(::ArrayW<System::Type*> argTypes);
   }; // Zenject.ValidationUtil
   #pragma pack(pop)
 }
@@ -47,7 +48,7 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::ValidationUtil*, "Zenject", "ValidationUtil");
 // Writing MetadataGetter for method: Zenject::ValidationUtil::CreateDefaultArgs
 // Il2CppName: CreateDefaultArgs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<Zenject::TypeValuePair>* (*)(::ArrayWrapper<System::Type*>)>(&Zenject::ValidationUtil::CreateDefaultArgs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::List_1<Zenject::TypeValuePair>* (*)(::ArrayW<System::Type*>)>(&Zenject::ValidationUtil::CreateDefaultArgs)> {
   static const MethodInfo* get() {
     static auto* argTypes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Type"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::ValidationUtil*), "CreateDefaultArgs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{argTypes});

@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections
@@ -47,12 +48,18 @@ namespace System::Security::Cryptography::X509Certificates {
   // [DefaultMemberAttribute] Offset: E699E8
   class X509ExtensionCollection : public ::Il2CppObject/*, public System::Collections::ICollection*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.ArrayList _list
     // Size: 0x8
     // Offset: 0x10
     System::Collections::ArrayList* list;
     // Field size check
     static_assert(sizeof(System::Collections::ArrayList*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Collections::ICollection
     operator System::Collections::ICollection() noexcept {
       return *reinterpret_cast<System::Collections::ICollection*>(this);
@@ -62,9 +69,9 @@ namespace System::Security::Cryptography::X509Certificates {
       return list;
     }
     // Get static field: static private System.Byte[] Empty
-    static ::ArrayWrapper<uint8_t> _get_Empty();
+    static ::ArrayW<uint8_t> _get_Empty();
     // Set static field: static private System.Byte[] Empty
-    static void _set_Empty(::ArrayWrapper<uint8_t> value);
+    static void _set_Empty(::ArrayW<uint8_t> value);
     // Get instance field reference: private System.Collections.ArrayList _list
     System::Collections::ArrayList*& dyn__list();
     // public System.Int32 get_Count()

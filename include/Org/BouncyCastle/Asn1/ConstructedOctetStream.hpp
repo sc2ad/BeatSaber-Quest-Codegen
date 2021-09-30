@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Asn1
@@ -35,6 +36,11 @@ namespace Org::BouncyCastle::Asn1 {
     public:
     // Writing base type padding for base size: 0x29 to desired offset: 0x30
     char ___base_padding[0x7] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Org.BouncyCastle.Asn1.Asn1StreamParser _parser
     // Size: 0x8
     // Offset: 0x30
@@ -55,6 +61,7 @@ namespace Org::BouncyCastle::Asn1 {
     System::IO::Stream* currentStream;
     // Field size check
     static_assert(sizeof(System::IO::Stream*) == 0x8);
+    public:
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.Asn1StreamParser _parser
     Org::BouncyCastle::Asn1::Asn1StreamParser*& dyn__parser();
     // Get instance field reference: private System.Boolean _first
@@ -75,7 +82,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Offset: 0x18E91B4
     // Implemented from: Org.BouncyCastle.Utilities.IO.BaseInputStream
     // Base method: System.Int32 BaseInputStream::Read(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
-    int Read(::ArrayWrapper<uint8_t> buffer, int offset, int count);
+    int Read(::ArrayW<uint8_t> buffer, int offset, int count);
     // public override System.Int32 ReadByte()
     // Offset: 0x18E94B8
     // Implemented from: System.IO.Stream
@@ -103,7 +110,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::ConstructedOctetStream::Read
 // Il2CppName: Read
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Asn1::ConstructedOctetStream::*)(::ArrayWrapper<uint8_t>, int, int)>(&Org::BouncyCastle::Asn1::ConstructedOctetStream::Read)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Asn1::ConstructedOctetStream::*)(::ArrayW<uint8_t>, int, int)>(&Org::BouncyCastle::Asn1::ConstructedOctetStream::Read)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

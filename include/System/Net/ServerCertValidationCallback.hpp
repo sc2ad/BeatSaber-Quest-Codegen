@@ -44,6 +44,11 @@ namespace System::Net {
     public:
     // Nested type: System::Net::ServerCertValidationCallback::CallbackContext
     class CallbackContext;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Net.Security.RemoteCertificateValidationCallback m_ValidationCallback
     // Size: 0x8
     // Offset: 0x10
@@ -56,6 +61,7 @@ namespace System::Net {
     System::Threading::ExecutionContext* m_Context;
     // Field size check
     static_assert(sizeof(System::Threading::ExecutionContext*) == 0x8);
+    public:
     // Get instance field reference: private readonly System.Net.Security.RemoteCertificateValidationCallback m_ValidationCallback
     System::Net::Security::RemoteCertificateValidationCallback*& dyn_m_ValidationCallback();
     // Get instance field reference: private readonly System.Threading.ExecutionContext m_Context

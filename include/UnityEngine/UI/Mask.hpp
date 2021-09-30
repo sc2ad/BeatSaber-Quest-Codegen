@@ -46,6 +46,11 @@ namespace UnityEngine::UI {
   // [DisallowMultipleComponent] Offset: FFFFFFFF
   class Mask : public UnityEngine::EventSystems::UIBehaviour/*, public UnityEngine::ICanvasRaycastFilter, public UnityEngine::UI::IMaterialModifier*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.RectTransform m_RectTransform
     // Size: 0x8
     // Offset: 0x18
@@ -78,6 +83,7 @@ namespace UnityEngine::UI {
     UnityEngine::Material* m_UnmaskMaterial;
     // Field size check
     static_assert(sizeof(UnityEngine::Material*) == 0x8);
+    public:
     // Creating interface conversion operator: operator UnityEngine::ICanvasRaycastFilter
     operator UnityEngine::ICanvasRaycastFilter() noexcept {
       return *reinterpret_cast<UnityEngine::ICanvasRaycastFilter*>(this);

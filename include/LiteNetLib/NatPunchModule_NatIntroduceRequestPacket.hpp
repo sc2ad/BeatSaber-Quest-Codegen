@@ -27,6 +27,11 @@ namespace LiteNetLib {
   // [TokenAttribute] Offset: FFFFFFFF
   class NatPunchModule::NatIntroduceRequestPacket : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Net.IPEndPoint <Internal>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -39,6 +44,7 @@ namespace LiteNetLib {
     ::Il2CppString* Token;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: private System.Net.IPEndPoint <Internal>k__BackingField
     System::Net::IPEndPoint*& dyn_$Internal$k__BackingField();
     // Get instance field reference: private System.String <Token>k__BackingField

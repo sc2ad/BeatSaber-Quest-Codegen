@@ -5,6 +5,7 @@
 // Begin includes
 #include <stdint.h>
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Crypto
@@ -26,10 +27,10 @@ namespace Org::BouncyCastle::Crypto {
     void Init(bool forSigning, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Void BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 length)
     // Offset: 0xFFFFFFFF
-    void BlockUpdate(::ArrayWrapper<uint8_t> input, int inOff, int length);
+    void BlockUpdate(::ArrayW<uint8_t> input, int inOff, int length);
     // public System.Byte[] GenerateSignature()
     // Offset: 0xFFFFFFFF
-    ::ArrayWrapper<uint8_t> GenerateSignature();
+    ::ArrayW<uint8_t> GenerateSignature();
     // public System.Void Reset()
     // Offset: 0xFFFFFFFF
     void Reset();
@@ -52,7 +53,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::ISigner::BlockUpdate
 // Il2CppName: BlockUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::ISigner::*)(::ArrayWrapper<uint8_t>, int, int)>(&Org::BouncyCastle::Crypto::ISigner::BlockUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::ISigner::*)(::ArrayW<uint8_t>, int, int)>(&Org::BouncyCastle::Crypto::ISigner::BlockUpdate)> {
   static const MethodInfo* get() {
     static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* inOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -63,7 +64,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::ISigner::GenerateSignature
 // Il2CppName: GenerateSignature
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Crypto::ISigner::*)()>(&Org::BouncyCastle::Crypto::ISigner::GenerateSignature)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Org::BouncyCastle::Crypto::ISigner::*)()>(&Org::BouncyCastle::Crypto::ISigner::GenerateSignature)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::ISigner*), "GenerateSignature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

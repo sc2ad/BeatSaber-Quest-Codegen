@@ -20,6 +20,11 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class Product : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly System.String Description
     // Size: 0x8
     // Offset: 0x10
@@ -44,6 +49,7 @@ namespace Oculus::Platform::Models {
     ::Il2CppString* Sku;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: public readonly System.String Description
     ::Il2CppString*& dyn_Description();
     // Get instance field reference: public readonly System.String FormattedPrice

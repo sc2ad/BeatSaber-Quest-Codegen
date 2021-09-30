@@ -17,6 +17,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HoudiniEngineUnity
@@ -78,12 +79,18 @@ namespace HoudiniEngineUnity {
     // [TokenAttribute] Offset: FFFFFFFF
     struct LinkState/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: LinkState
       constexpr LinkState(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -124,6 +131,11 @@ namespace HoudiniEngineUnity {
     #pragma pack(pop)
     static check_size<sizeof(HEU_PDGAssetLink::LinkState), 0 + sizeof(int)> __HoudiniEngineUnity_HEU_PDGAssetLink_LinkStateSizeCheck;
     static_assert(sizeof(HEU_PDGAssetLink::LinkState) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String _assetPath
     // Size: 0x8
     // Offset: 0x18
@@ -165,9 +177,9 @@ namespace HoudiniEngineUnity {
     // public System.String[] _topNetworkNames
     // Size: 0x8
     // Offset: 0x48
-    ::ArrayWrapper<::Il2CppString*> topNetworkNames;
+    ::ArrayW<::Il2CppString*> topNetworkNames;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // private System.Int32 _selectedTOPNetwork
     // Size: 0x4
     // Offset: 0x50
@@ -226,6 +238,7 @@ namespace HoudiniEngineUnity {
     ::Il2CppString* outputCachePathRoot;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Creating interface conversion operator: operator UnityEngine::ISerializationCallbackReceiver
     operator UnityEngine::ISerializationCallbackReceiver() noexcept {
       return *reinterpret_cast<UnityEngine::ISerializationCallbackReceiver*>(this);
@@ -245,7 +258,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: private System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_TOPNetworkData> _topNetworks
     System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_TOPNetworkData*>*& dyn__topNetworks();
     // Get instance field reference: public System.String[] _topNetworkNames
-    ::ArrayWrapper<::Il2CppString*>& dyn__topNetworkNames();
+    ::ArrayW<::Il2CppString*>& dyn__topNetworkNames();
     // Get instance field reference: private System.Int32 _selectedTOPNetwork
     int& dyn__selectedTOPNetwork();
     // Get instance field reference: private HoudiniEngineUnity.HEU_PDGAssetLink/HoudiniEngineUnity.LinkState _linkState
@@ -314,7 +327,7 @@ namespace HoudiniEngineUnity {
     bool PopulateTOPNetworks();
     // static public System.Boolean PopulateTOPNodes(HoudiniEngineUnity.HEU_SessionBase session, HoudiniEngineUnity.HEU_TOPNetworkData topNetwork, System.Int32[] topNodeIDs, System.Boolean useHEngineData)
     // Offset: 0x17A1D40
-    static bool PopulateTOPNodes(HoudiniEngineUnity::HEU_SessionBase* session, HoudiniEngineUnity::HEU_TOPNetworkData* topNetwork, ::ArrayWrapper<int> topNodeIDs, bool useHEngineData);
+    static bool PopulateTOPNodes(HoudiniEngineUnity::HEU_SessionBase* session, HoudiniEngineUnity::HEU_TOPNetworkData* topNetwork, ::ArrayW<int> topNodeIDs, bool useHEngineData);
     // public System.Void SelectTOPNetwork(System.Int32 newIndex)
     // Offset: 0x17A2280
     void SelectTOPNetwork(int newIndex);
@@ -383,7 +396,7 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::HEU_SessionBase* GetHAPISession();
     // public System.Void LoadResults(HoudiniEngineUnity.HEU_SessionBase session, HoudiniEngineUnity.HEU_TOPNodeData topNode, HoudiniEngineUnity.HAPI_PDG_WorkitemInfo workItemInfo, HoudiniEngineUnity.HAPI_PDG_WorkitemResultInfo[] resultInfos, System.Int32 workItemID)
     // Offset: 0x17A2BE0
-    void LoadResults(HoudiniEngineUnity::HEU_SessionBase* session, HoudiniEngineUnity::HEU_TOPNodeData* topNode, HoudiniEngineUnity::HAPI_PDG_WorkitemInfo workItemInfo, ::ArrayWrapper<HoudiniEngineUnity::HAPI_PDG_WorkitemResultInfo> resultInfos, int workItemID);
+    void LoadResults(HoudiniEngineUnity::HEU_SessionBase* session, HoudiniEngineUnity::HEU_TOPNodeData* topNode, HoudiniEngineUnity::HAPI_PDG_WorkitemInfo workItemInfo, ::ArrayW<HoudiniEngineUnity::HAPI_PDG_WorkitemResultInfo> resultInfos, int workItemID);
     // private UnityEngine.Transform GetLoadRootTransform()
     // Offset: 0x17A3120
     UnityEngine::Transform* GetLoadRootTransform();
@@ -563,7 +576,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PDGAssetLink::PopulateTOPNodes
 // Il2CppName: PopulateTOPNodes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_SessionBase*, HoudiniEngineUnity::HEU_TOPNetworkData*, ::ArrayWrapper<int>, bool)>(&HoudiniEngineUnity::HEU_PDGAssetLink::PopulateTOPNodes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_SessionBase*, HoudiniEngineUnity::HEU_TOPNetworkData*, ::ArrayW<int>, bool)>(&HoudiniEngineUnity::HEU_PDGAssetLink::PopulateTOPNodes)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* topNetwork = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_TOPNetworkData")->byval_arg;
@@ -772,7 +785,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_PDGAssetLink::LoadResults
 // Il2CppName: LoadResults
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PDGAssetLink::*)(HoudiniEngineUnity::HEU_SessionBase*, HoudiniEngineUnity::HEU_TOPNodeData*, HoudiniEngineUnity::HAPI_PDG_WorkitemInfo, ::ArrayWrapper<HoudiniEngineUnity::HAPI_PDG_WorkitemResultInfo>, int)>(&HoudiniEngineUnity::HEU_PDGAssetLink::LoadResults)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_PDGAssetLink::*)(HoudiniEngineUnity::HEU_SessionBase*, HoudiniEngineUnity::HEU_TOPNodeData*, HoudiniEngineUnity::HAPI_PDG_WorkitemInfo, ::ArrayW<HoudiniEngineUnity::HAPI_PDG_WorkitemResultInfo>, int)>(&HoudiniEngineUnity::HEU_PDGAssetLink::LoadResults)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* topNode = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_TOPNodeData")->byval_arg;

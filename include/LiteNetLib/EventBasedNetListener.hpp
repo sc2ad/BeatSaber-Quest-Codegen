@@ -65,6 +65,11 @@ namespace LiteNetLib {
     class OnConnectionRequest;
     // Nested type: LiteNetLib::EventBasedNetListener::OnDeliveryEvent
     class OnDeliveryEvent;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private LiteNetLib.EventBasedNetListener/LiteNetLib.OnPeerConnected PeerConnectedEvent
     // Size: 0x8
     // Offset: 0x10
@@ -113,6 +118,7 @@ namespace LiteNetLib {
     LiteNetLib::EventBasedNetListener::OnDeliveryEvent* DeliveryEvent;
     // Field size check
     static_assert(sizeof(LiteNetLib::EventBasedNetListener::OnDeliveryEvent*) == 0x8);
+    public:
     // Creating interface conversion operator: operator LiteNetLib::INetEventListener
     operator LiteNetLib::INetEventListener() noexcept {
       return *reinterpret_cast<LiteNetLib::INetEventListener*>(this);

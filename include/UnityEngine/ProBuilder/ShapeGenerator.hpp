@@ -7,6 +7,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::ProBuilder
@@ -35,21 +36,21 @@ namespace UnityEngine::ProBuilder {
   class ShapeGenerator : public ::Il2CppObject {
     public:
     // Get static field: static private readonly UnityEngine.Vector3[] k_IcosphereVertices
-    static ::ArrayWrapper<UnityEngine::Vector3> _get_k_IcosphereVertices();
+    static ::ArrayW<UnityEngine::Vector3> _get_k_IcosphereVertices();
     // Set static field: static private readonly UnityEngine.Vector3[] k_IcosphereVertices
-    static void _set_k_IcosphereVertices(::ArrayWrapper<UnityEngine::Vector3> value);
+    static void _set_k_IcosphereVertices(::ArrayW<UnityEngine::Vector3> value);
     // Get static field: static private readonly System.Int32[] k_IcosphereTriangles
-    static ::ArrayWrapper<int> _get_k_IcosphereTriangles();
+    static ::ArrayW<int> _get_k_IcosphereTriangles();
     // Set static field: static private readonly System.Int32[] k_IcosphereTriangles
-    static void _set_k_IcosphereTriangles(::ArrayWrapper<int> value);
+    static void _set_k_IcosphereTriangles(::ArrayW<int> value);
     // Get static field: static private readonly UnityEngine.Vector3[] k_CubeVertices
-    static ::ArrayWrapper<UnityEngine::Vector3> _get_k_CubeVertices();
+    static ::ArrayW<UnityEngine::Vector3> _get_k_CubeVertices();
     // Set static field: static private readonly UnityEngine.Vector3[] k_CubeVertices
-    static void _set_k_CubeVertices(::ArrayWrapper<UnityEngine::Vector3> value);
+    static void _set_k_CubeVertices(::ArrayW<UnityEngine::Vector3> value);
     // Get static field: static private readonly System.Int32[] k_CubeTriangles
-    static ::ArrayWrapper<int> _get_k_CubeTriangles();
+    static ::ArrayW<int> _get_k_CubeTriangles();
     // Set static field: static private readonly System.Int32[] k_CubeTriangles
-    static void _set_k_CubeTriangles(::ArrayWrapper<int> value);
+    static void _set_k_CubeTriangles(::ArrayW<int> value);
     // static private System.Void .cctor()
     // Offset: 0x16A6628
     static void _cctor();
@@ -94,10 +95,10 @@ namespace UnityEngine::ProBuilder {
     static UnityEngine::ProBuilder::ProBuilderMesh* GenerateIcosahedron(UnityEngine::ProBuilder::PivotLocation pivotType, float radius, int subdivisions, bool weldVertices, bool manualUvs);
     // static private UnityEngine.Vector3[] SubdivideIcosahedron(UnityEngine.Vector3[] vertices, System.Single radius)
     // Offset: 0x16A5CBC
-    static ::ArrayWrapper<UnityEngine::Vector3> SubdivideIcosahedron(::ArrayWrapper<UnityEngine::Vector3> vertices, float radius);
+    static ::ArrayW<UnityEngine::Vector3> SubdivideIcosahedron(::ArrayW<UnityEngine::Vector3> vertices, float radius);
     // static private UnityEngine.Vector3[] GetCirclePoints(System.Int32 segments, System.Single radius, System.Single circumference, UnityEngine.Quaternion rotation, System.Single offset)
     // Offset: 0x16A6168
-    static ::ArrayWrapper<UnityEngine::Vector3> GetCirclePoints(int segments, float radius, float circumference, UnityEngine::Quaternion rotation, float offset);
+    static ::ArrayW<UnityEngine::Vector3> GetCirclePoints(int segments, float radius, float circumference, UnityEngine::Quaternion rotation, float offset);
     // static public UnityEngine.ProBuilder.ProBuilderMesh GenerateTorus(UnityEngine.ProBuilder.PivotLocation pivotType, System.Int32 rows, System.Int32 columns, System.Single innerRadius, System.Single outerRadius, System.Boolean smooth, System.Single horizontalCircumference, System.Single verticalCircumference, System.Boolean manualUvs)
     // Offset: 0x16A5000
     static UnityEngine::ProBuilder::ProBuilderMesh* GenerateTorus(UnityEngine::ProBuilder::PivotLocation pivotType, int rows, int columns, float innerRadius, float outerRadius, bool smooth, float horizontalCircumference, float verticalCircumference, bool manualUvs);
@@ -291,7 +292,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ShapeGenerator::SubdivideIcosahedron
 // Il2CppName: SubdivideIcosahedron
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Vector3> (*)(::ArrayWrapper<UnityEngine::Vector3>, float)>(&UnityEngine::ProBuilder::ShapeGenerator::SubdivideIcosahedron)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Vector3> (*)(::ArrayW<UnityEngine::Vector3>, float)>(&UnityEngine::ProBuilder::ShapeGenerator::SubdivideIcosahedron)> {
   static const MethodInfo* get() {
     static auto* vertices = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
     static auto* radius = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -301,7 +302,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ShapeGenerator::GetCirclePoints
 // Il2CppName: GetCirclePoints
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Vector3> (*)(int, float, float, UnityEngine::Quaternion, float)>(&UnityEngine::ProBuilder::ShapeGenerator::GetCirclePoints)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Vector3> (*)(int, float, float, UnityEngine::Quaternion, float)>(&UnityEngine::ProBuilder::ShapeGenerator::GetCirclePoints)> {
   static const MethodInfo* get() {
     static auto* segments = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* radius = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;

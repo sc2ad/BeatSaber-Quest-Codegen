@@ -29,6 +29,11 @@ namespace System::Text {
   // [TokenAttribute] Offset: FFFFFFFF
   class UnicodeEncoding::Decoder : public System::Text::DecoderNLS {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Int32 lastByte
     // Size: 0x4
     // Offset: 0x30
@@ -41,6 +46,7 @@ namespace System::Text {
     ::Il2CppChar lastChar;
     // Field size check
     static_assert(sizeof(::Il2CppChar) == 0x2);
+    public:
     // Get instance field reference: System.Int32 lastByte
     int& dyn_lastByte();
     // Get instance field reference: System.Char lastChar

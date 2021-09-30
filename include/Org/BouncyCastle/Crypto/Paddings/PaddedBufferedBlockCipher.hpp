@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Crypto::Paddings
@@ -34,12 +35,18 @@ namespace Org::BouncyCastle::Crypto::Paddings {
   // [TokenAttribute] Offset: FFFFFFFF
   class PaddedBufferedBlockCipher : public Org::BouncyCastle::Crypto::BufferedBlockCipher {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Org.BouncyCastle.Crypto.Paddings.IBlockCipherPadding padding
     // Size: 0x8
     // Offset: 0x28
     Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding* padding;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*) == 0x8);
+    public:
     // Creating conversion operator: operator Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*
     constexpr operator Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*() const noexcept {
       return padding;
@@ -81,12 +88,12 @@ namespace Org::BouncyCastle::Crypto::Paddings {
     // Offset: 0x13901F8
     // Implemented from: Org.BouncyCastle.Crypto.BufferedBlockCipher
     // Base method: System.Int32 BufferedBlockCipher::ProcessBytes(System.Byte[] input, System.Int32 inOff, System.Int32 length, System.Byte[] output, System.Int32 outOff)
-    int ProcessBytes(::ArrayWrapper<uint8_t> input, int inOff, int length, ::ArrayWrapper<uint8_t> output, int outOff);
+    int ProcessBytes(::ArrayW<uint8_t> input, int inOff, int length, ::ArrayW<uint8_t> output, int outOff);
     // public override System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
     // Offset: 0x13904A8
     // Implemented from: Org.BouncyCastle.Crypto.BufferedBlockCipher
     // Base method: System.Int32 BufferedBlockCipher::DoFinal(System.Byte[] output, System.Int32 outOff)
-    int DoFinal(::ArrayWrapper<uint8_t> output, int outOff);
+    int DoFinal(::ArrayW<uint8_t> output, int outOff);
   }; // Org.BouncyCastle.Crypto.Paddings.PaddedBufferedBlockCipher
   #pragma pack(pop)
   static check_size<sizeof(PaddedBufferedBlockCipher), 40 + sizeof(Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*)> __Org_BouncyCastle_Crypto_Paddings_PaddedBufferedBlockCipherSizeCheck;
@@ -133,7 +140,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Paddings::PaddedBufferedBlockCipher::ProcessBytes
 // Il2CppName: ProcessBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Paddings::PaddedBufferedBlockCipher::*)(::ArrayWrapper<uint8_t>, int, int, ::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Paddings::PaddedBufferedBlockCipher::ProcessBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Paddings::PaddedBufferedBlockCipher::*)(::ArrayW<uint8_t>, int, int, ::ArrayW<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Paddings::PaddedBufferedBlockCipher::ProcessBytes)> {
   static const MethodInfo* get() {
     static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* inOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -146,7 +153,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Paddings::PaddedBufferedBlockCipher::DoFinal
 // Il2CppName: DoFinal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Paddings::PaddedBufferedBlockCipher::*)(::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Paddings::PaddedBufferedBlockCipher::DoFinal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Paddings::PaddedBufferedBlockCipher::*)(::ArrayW<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Paddings::PaddedBufferedBlockCipher::DoFinal)> {
   static const MethodInfo* get() {
     static auto* output = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* outOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

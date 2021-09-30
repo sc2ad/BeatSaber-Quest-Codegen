@@ -34,12 +34,18 @@ namespace OVRSimpleJSON {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class JSONObject::$$c__DisplayClass21_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public OVRSimpleJSON.JSONNode aNode
     // Size: 0x8
     // Offset: 0x10
     OVRSimpleJSON::JSONNode* aNode;
     // Field size check
     static_assert(sizeof(OVRSimpleJSON::JSONNode*) == 0x8);
+    public:
     // Creating conversion operator: operator OVRSimpleJSON::JSONNode*
     constexpr operator OVRSimpleJSON::JSONNode*() const noexcept {
       return aNode;

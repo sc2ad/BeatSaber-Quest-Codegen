@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO
@@ -25,31 +26,37 @@ namespace Org::BouncyCastle::Utilities::Encoders {
   // [TokenAttribute] Offset: FFFFFFFF
   class HexEncoder : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // protected readonly System.Byte[] encodingTable
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<uint8_t> encodingTable;
+    ::ArrayW<uint8_t> encodingTable;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // protected readonly System.Byte[] decodingTable
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<uint8_t> decodingTable;
+    ::ArrayW<uint8_t> decodingTable;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
+    public:
     // Get instance field reference: protected readonly System.Byte[] encodingTable
-    ::ArrayWrapper<uint8_t>& dyn_encodingTable();
+    ::ArrayW<uint8_t>& dyn_encodingTable();
     // Get instance field reference: protected readonly System.Byte[] decodingTable
-    ::ArrayWrapper<uint8_t>& dyn_decodingTable();
+    ::ArrayW<uint8_t>& dyn_decodingTable();
     // protected System.Void InitialiseDecodingTable()
     // Offset: 0x2181A48
     void InitialiseDecodingTable();
     // public System.Int32 Encode(System.Byte[] inBuf, System.Int32 inOff, System.Int32 inLen, System.Byte[] outBuf, System.Int32 outOff)
     // Offset: 0x2181BC4
-    int Encode(::ArrayWrapper<uint8_t> inBuf, int inOff, int inLen, ::ArrayWrapper<uint8_t> outBuf, int outOff);
+    int Encode(::ArrayW<uint8_t> inBuf, int inOff, int inLen, ::ArrayW<uint8_t> outBuf, int outOff);
     // public System.Int32 Encode(System.Byte[] buf, System.Int32 off, System.Int32 len, System.IO.Stream outStream)
     // Offset: 0x2181194
-    int Encode(::ArrayWrapper<uint8_t> buf, int off, int len, System::IO::Stream* outStream);
+    int Encode(::ArrayW<uint8_t> buf, int off, int len, System::IO::Stream* outStream);
     // static private System.Boolean Ignore(System.Char c)
     // Offset: 0x2181CA8
     static bool Ignore(::Il2CppChar c);
@@ -58,7 +65,7 @@ namespace Org::BouncyCastle::Utilities::Encoders {
     int DecodeString(::Il2CppString* data, System::IO::Stream* outStream);
     // System.Byte[] DecodeStrict(System.String str, System.Int32 off, System.Int32 len)
     // Offset: 0x218171C
-    ::ArrayWrapper<uint8_t> DecodeStrict(::Il2CppString* str, int off, int len);
+    ::ArrayW<uint8_t> DecodeStrict(::Il2CppString* str, int off, int len);
     // public System.Void .ctor()
     // Offset: 0x21819B0
     // Implemented from: System.Object
@@ -70,7 +77,7 @@ namespace Org::BouncyCastle::Utilities::Encoders {
     }
   }; // Org.BouncyCastle.Utilities.Encoders.HexEncoder
   #pragma pack(pop)
-  static check_size<sizeof(HexEncoder), 24 + sizeof(::ArrayWrapper<uint8_t>)> __Org_BouncyCastle_Utilities_Encoders_HexEncoderSizeCheck;
+  static check_size<sizeof(HexEncoder), 24 + sizeof(::ArrayW<uint8_t>)> __Org_BouncyCastle_Utilities_Encoders_HexEncoderSizeCheck;
   static_assert(sizeof(HexEncoder) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::Encoders::HexEncoder*, "Org.BouncyCastle.Utilities.Encoders", "HexEncoder");
@@ -86,7 +93,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Encoders::HexEncoder::Encode
 // Il2CppName: Encode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Utilities::Encoders::HexEncoder::*)(::ArrayWrapper<uint8_t>, int, int, ::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Utilities::Encoders::HexEncoder::Encode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Utilities::Encoders::HexEncoder::*)(::ArrayW<uint8_t>, int, int, ::ArrayW<uint8_t>, int)>(&Org::BouncyCastle::Utilities::Encoders::HexEncoder::Encode)> {
   static const MethodInfo* get() {
     static auto* inBuf = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* inOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -99,7 +106,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Encoders::HexEncoder::Encode
 // Il2CppName: Encode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Utilities::Encoders::HexEncoder::*)(::ArrayWrapper<uint8_t>, int, int, System::IO::Stream*)>(&Org::BouncyCastle::Utilities::Encoders::HexEncoder::Encode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Utilities::Encoders::HexEncoder::*)(::ArrayW<uint8_t>, int, int, System::IO::Stream*)>(&Org::BouncyCastle::Utilities::Encoders::HexEncoder::Encode)> {
   static const MethodInfo* get() {
     static auto* buf = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* off = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -130,7 +137,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Encoders::HexEncoder::DecodeStrict
 // Il2CppName: DecodeStrict
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Utilities::Encoders::HexEncoder::*)(::Il2CppString*, int, int)>(&Org::BouncyCastle::Utilities::Encoders::HexEncoder::DecodeStrict)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Org::BouncyCastle::Utilities::Encoders::HexEncoder::*)(::Il2CppString*, int, int)>(&Org::BouncyCastle::Utilities::Encoders::HexEncoder::DecodeStrict)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* off = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

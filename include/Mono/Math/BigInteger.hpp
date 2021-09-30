@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Mono::Math
@@ -42,12 +43,18 @@ namespace Mono::Math {
     // [TokenAttribute] Offset: FFFFFFFF
     struct Sign/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: Sign
       constexpr Sign(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -82,6 +89,11 @@ namespace Mono::Math {
     #pragma pack(pop)
     static check_size<sizeof(BigInteger::Sign), 0 + sizeof(int)> __Mono_Math_BigInteger_SignSizeCheck;
     static_assert(sizeof(BigInteger::Sign) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.UInt32 length
     // Size: 0x4
     // Offset: 0x10
@@ -93,13 +105,14 @@ namespace Mono::Math {
     // private System.UInt32[] data
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<uint> data;
+    ::ArrayW<uint> data;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint>) == 0x8);
+    public:
     // Get static field: static readonly System.UInt32[] smallPrimes
-    static ::ArrayWrapper<uint> _get_smallPrimes();
+    static ::ArrayW<uint> _get_smallPrimes();
     // Set static field: static readonly System.UInt32[] smallPrimes
-    static void _set_smallPrimes(::ArrayWrapper<uint> value);
+    static void _set_smallPrimes(::ArrayW<uint> value);
     // Get static field: static private System.Security.Cryptography.RandomNumberGenerator rng
     static System::Security::Cryptography::RandomNumberGenerator* _get_rng();
     // Set static field: static private System.Security.Cryptography.RandomNumberGenerator rng
@@ -107,7 +120,7 @@ namespace Mono::Math {
     // Get instance field reference: private System.UInt32 length
     uint& dyn_length();
     // Get instance field reference: private System.UInt32[] data
-    ::ArrayWrapper<uint>& dyn_data();
+    ::ArrayW<uint>& dyn_data();
     // static private System.Security.Cryptography.RandomNumberGenerator get_Rng()
     // Offset: 0x1F952D4
     static System::Security::Cryptography::RandomNumberGenerator* get_Rng();
@@ -135,7 +148,7 @@ namespace Mono::Math {
     // public System.Void .ctor(System.Byte[] inData)
     // Offset: 0x1F93D24
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static BigInteger* New_ctor(::ArrayWrapper<uint8_t> inData) {
+    static BigInteger* New_ctor(::ArrayW<uint8_t> inData) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Math::BigInteger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BigInteger*, creationType>(inData)));
     }
@@ -172,7 +185,7 @@ namespace Mono::Math {
     int LowestSetBit();
     // public System.Byte[] GetBytes()
     // Offset: 0x1F957DC
-    ::ArrayWrapper<uint8_t> GetBytes();
+    ::ArrayW<uint8_t> GetBytes();
     // public System.String ToString(System.UInt32 radix)
     // Offset: 0x1F95B9C
     ::Il2CppString* ToString(uint radix);
@@ -208,7 +221,7 @@ namespace Mono::Math {
     bool Equals(::Il2CppObject* o);
   }; // Mono.Math.BigInteger
   #pragma pack(pop)
-  static check_size<sizeof(BigInteger), 24 + sizeof(::ArrayWrapper<uint>)> __Mono_Math_BigIntegerSizeCheck;
+  static check_size<sizeof(BigInteger), 24 + sizeof(::ArrayW<uint>)> __Mono_Math_BigIntegerSizeCheck;
   static_assert(sizeof(BigInteger) == 0x20);
   // static public Mono.Math.BigInteger op_Subtraction(Mono.Math.BigInteger bi1, Mono.Math.BigInteger bi2)
   // Offset: 0x1F941B0
@@ -361,7 +374,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 // Writing MetadataGetter for method: Mono::Math::BigInteger::GetBytes
 // Il2CppName: GetBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Mono::Math::BigInteger::*)()>(&Mono::Math::BigInteger::GetBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Mono::Math::BigInteger::*)()>(&Mono::Math::BigInteger::GetBytes)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Math::BigInteger*), "GetBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

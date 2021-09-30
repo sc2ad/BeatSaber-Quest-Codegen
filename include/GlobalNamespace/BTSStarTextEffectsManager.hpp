@@ -43,6 +43,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::BTSStarTextEffectsManager::$DespawnEffectDelayed$d__5
     class $DespawnEffectDelayed$d__5;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private BTSStarTextEventEffect _btsStarTextEventEffect
     // Size: 0x8
     // Offset: 0x18
@@ -56,6 +61,7 @@ namespace GlobalNamespace {
     GlobalNamespace::BTSStarTextEffectController::Pool* btsStarTextEffectControllerPool;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BTSStarTextEffectController::Pool*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BTSStarTextEventEffect _btsStarTextEventEffect

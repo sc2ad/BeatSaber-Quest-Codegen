@@ -70,12 +70,18 @@ namespace UnityEngine::Rendering {
   // [NativeHeaderAttribute] Offset: E742C8
   class CommandBuffer : public ::Il2CppObject/*, public System::IDisposable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.IntPtr m_Ptr
     // Size: 0x8
     // Offset: 0x10
     System::IntPtr m_Ptr;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

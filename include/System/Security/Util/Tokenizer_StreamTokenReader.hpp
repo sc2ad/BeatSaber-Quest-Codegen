@@ -29,6 +29,11 @@ namespace System::Security::Util {
   // [TokenAttribute] Offset: FFFFFFFF
   class Tokenizer::StreamTokenReader : public ::Il2CppObject/*, public System::Security::Util::Tokenizer::ITokenReader*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.IO.StreamReader _in
     // Size: 0x8
     // Offset: 0x10
@@ -41,6 +46,7 @@ namespace System::Security::Util {
     int numCharRead;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating interface conversion operator: operator System::Security::Util::Tokenizer::ITokenReader
     operator System::Security::Util::Tokenizer::ITokenReader() noexcept {
       return *reinterpret_cast<System::Security::Util::Tokenizer::ITokenReader*>(this);

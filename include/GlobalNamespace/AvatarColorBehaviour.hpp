@@ -38,6 +38,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class AvatarColorBehaviour : public UnityEngine::Playables::PlayableBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Color _startColor
     // Size: 0x10
     // Offset: 0x10
@@ -70,6 +75,7 @@ namespace GlobalNamespace {
     float duration;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: public UnityEngine.Color _startColor
     UnityEngine::Color& dyn__startColor();
     // Get instance field reference: public UnityEngine.Color _endColor

@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -65,6 +66,11 @@ namespace HoudiniEngineUnity {
   // [ExecuteInEditMode] Offset: FFFFFFFF
   class HEU_BaseSync : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 _cookNodeID
     // Size: 0x4
     // Offset: 0x18
@@ -169,6 +175,7 @@ namespace HoudiniEngineUnity {
     bool firstSyncComplete;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.Int32 _cookNodeID
@@ -289,7 +296,7 @@ namespace HoudiniEngineUnity {
     void GenerateInstancesFromAssetPaths(HoudiniEngineUnity::HEU_LoadBufferInstancer* instancerBuffer, UnityEngine::Transform* instanceRootTransform);
     // private System.Void CreateNewInstanceFromObject(UnityEngine.GameObject assetSourceGO, System.Int32 instanceIndex, UnityEngine.Transform parentTransform, ref HoudiniEngineUnity.HAPI_Transform hapiTransform, System.String[] instancePrefixes, System.String instanceName, UnityEngine.GameObject collisionSourceGO)
     // Offset: 0x14467A8
-    void CreateNewInstanceFromObject(UnityEngine::GameObject* assetSourceGO, int instanceIndex, UnityEngine::Transform* parentTransform, ByRef<HoudiniEngineUnity::HAPI_Transform> hapiTransform, ::ArrayWrapper<::Il2CppString*> instancePrefixes, ::Il2CppString* instanceName, UnityEngine::GameObject* collisionSourceGO);
+    void CreateNewInstanceFromObject(UnityEngine::GameObject* assetSourceGO, int instanceIndex, UnityEngine::Transform* parentTransform, ByRef<HoudiniEngineUnity::HAPI_Transform> hapiTransform, ::ArrayW<::Il2CppString*> instancePrefixes, ::Il2CppString* instanceName, UnityEngine::GameObject* collisionSourceGO);
     // private System.Void ApplyAttributeModifiersOnGameObjectOutput(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoID, System.Int32 partId, ref UnityEngine.GameObject go)
     // Offset: 0x14454A0
     void ApplyAttributeModifiersOnGameObjectOutput(HoudiniEngineUnity::HEU_SessionBase* session, int geoID, int partId, ByRef<UnityEngine::GameObject*> go);
@@ -584,7 +591,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_BaseSync::CreateNewInstanceFromObject
 // Il2CppName: CreateNewInstanceFromObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_BaseSync::*)(UnityEngine::GameObject*, int, UnityEngine::Transform*, ByRef<HoudiniEngineUnity::HAPI_Transform>, ::ArrayWrapper<::Il2CppString*>, ::Il2CppString*, UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_BaseSync::CreateNewInstanceFromObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_BaseSync::*)(UnityEngine::GameObject*, int, UnityEngine::Transform*, ByRef<HoudiniEngineUnity::HAPI_Transform>, ::ArrayW<::Il2CppString*>, ::Il2CppString*, UnityEngine::GameObject*)>(&HoudiniEngineUnity::HEU_BaseSync::CreateNewInstanceFromObject)> {
   static const MethodInfo* get() {
     static auto* assetSourceGO = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;
     static auto* instanceIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

@@ -40,12 +40,18 @@ namespace Mono::Net::Security::Private {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class CallbackHelpers::$$c__DisplayClass5_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public Mono.Security.Interface.MonoRemoteCertificateValidationCallback callback
     // Size: 0x8
     // Offset: 0x10
     Mono::Security::Interface::MonoRemoteCertificateValidationCallback* callback;
     // Field size check
     static_assert(sizeof(Mono::Security::Interface::MonoRemoteCertificateValidationCallback*) == 0x8);
+    public:
     // Creating conversion operator: operator Mono::Security::Interface::MonoRemoteCertificateValidationCallback*
     constexpr operator Mono::Security::Interface::MonoRemoteCertificateValidationCallback*() const noexcept {
       return callback;

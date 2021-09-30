@@ -20,6 +20,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapEventData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly BeatmapEventType type
     // Size: 0x4
     // Offset: 0x10
@@ -50,6 +55,7 @@ namespace GlobalNamespace {
     float floatValue;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: public readonly BeatmapEventType type
     GlobalNamespace::BeatmapEventType& dyn_type();
     // Get instance field reference: public readonly System.Single time

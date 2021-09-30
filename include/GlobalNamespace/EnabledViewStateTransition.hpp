@@ -32,6 +32,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class EnabledViewStateTransition : public GlobalNamespace::BaseStateTransition_1<UnityEngine::Behaviour*> {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [SpaceAttribute] Offset: 0xF0D3CC
     // private EnabledTransitionSO _transition
     // Size: 0x8
@@ -39,6 +44,7 @@ namespace GlobalNamespace {
     GlobalNamespace::EnabledTransitionSO* transition;
     // Field size check
     static_assert(sizeof(GlobalNamespace::EnabledTransitionSO*) == 0x8);
+    public:
     // Get instance field reference: private EnabledTransitionSO _transition
     GlobalNamespace::EnabledTransitionSO*& dyn__transition();
     // protected override BaseTransitionSO get_transition()

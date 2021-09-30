@@ -39,6 +39,11 @@ namespace UnityEngine {
     public:
     // Nested type: UnityEngine::Font::FontTextureRebuildCallback
     class FontTextureRebuildCallback;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [DebuggerBrowsableAttribute] Offset: 0xE89F10
     // private UnityEngine.Font/UnityEngine.FontTextureRebuildCallback m_FontTextureRebuildCallback
     // Size: 0x8
@@ -46,6 +51,7 @@ namespace UnityEngine {
     UnityEngine::Font::FontTextureRebuildCallback* m_FontTextureRebuildCallback;
     // Field size check
     static_assert(sizeof(UnityEngine::Font::FontTextureRebuildCallback*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // [DebuggerBrowsableAttribute] Offset: 0xE89ED4

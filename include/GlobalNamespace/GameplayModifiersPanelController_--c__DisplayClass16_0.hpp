@@ -28,6 +28,11 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class GameplayModifiersPanelController::$$c__DisplayClass16_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public GameplayModifierToggle gameplayModifierToggle
     // Size: 0x8
     // Offset: 0x10
@@ -40,6 +45,7 @@ namespace GlobalNamespace {
     GlobalNamespace::GameplayModifiersPanelController* $$4__this;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayModifiersPanelController*) == 0x8);
+    public:
     // Get instance field reference: public GameplayModifierToggle gameplayModifierToggle
     GlobalNamespace::GameplayModifierToggle*& dyn_gameplayModifierToggle();
     // Get instance field reference: public GameplayModifiersPanelController <>4__this

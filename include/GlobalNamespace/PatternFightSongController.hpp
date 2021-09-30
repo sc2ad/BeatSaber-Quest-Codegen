@@ -55,12 +55,18 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct GameplayPhase/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: GameplayPhase
       constexpr GameplayPhase(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -101,6 +107,11 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(PatternFightSongController::GameplayPhase), 0 + sizeof(int)> __GlobalNamespace_PatternFightSongController_GameplayPhaseSizeCheck;
     static_assert(sizeof(PatternFightSongController::GameplayPhase) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xF0B02C
     // private readonly AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
@@ -152,6 +163,7 @@ namespace GlobalNamespace {
     System::Collections::Generic::HashSet_1<GlobalNamespace::NoteData*>* thisPlayerDefinedPatternNoteData;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::HashSet_1<GlobalNamespace::NoteData*>*) == 0x8);
+    public:
     // static field const value: static private System.Single kBPM
     static constexpr const float kBPM = 120;
     // Get static field: static private System.Single kBPM

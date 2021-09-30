@@ -48,6 +48,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::MirroredCubeNoteController::Pool
     class Pool;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private MaterialPropertyBlockController _materialPropertyBlockController
     // Size: 0x8
     // Offset: 0x58
@@ -67,6 +72,7 @@ namespace GlobalNamespace {
     System::Action_1<GlobalNamespace::MirroredCubeNoteController*>* cubeNoteControllerDidInitEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::MirroredCubeNoteController*>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::ICubeNoteControllerInitializable_1<GlobalNamespace::MirroredCubeNoteController*>
     operator GlobalNamespace::ICubeNoteControllerInitializable_1<GlobalNamespace::MirroredCubeNoteController*>() noexcept {
       return *reinterpret_cast<GlobalNamespace::ICubeNoteControllerInitializable_1<GlobalNamespace::MirroredCubeNoteController*>*>(this);

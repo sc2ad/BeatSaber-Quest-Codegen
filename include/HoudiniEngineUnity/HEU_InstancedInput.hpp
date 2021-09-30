@@ -29,6 +29,11 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_InstancedInput : public ::Il2CppObject/*, public HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_InstancedInput*>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.GameObject _instancedGameObject
     // Size: 0x8
     // Offset: 0x10
@@ -47,6 +52,7 @@ namespace HoudiniEngineUnity {
     UnityEngine::Vector3 scaleOffset;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    public:
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_InstancedInput*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_InstancedInput*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_InstancedInput*>*>(this);

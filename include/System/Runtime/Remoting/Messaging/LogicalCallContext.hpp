@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Remoting::Messaging
@@ -55,6 +56,11 @@ namespace System::Runtime::Remoting::Messaging {
     public:
     // Nested type: System::Runtime::Remoting::Messaging::LogicalCallContext::Reader
     struct Reader;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Hashtable m_Datastore
     // Size: 0x8
     // Offset: 0x10
@@ -90,15 +96,16 @@ namespace System::Runtime::Remoting::Messaging {
     // private System.Runtime.Remoting.Messaging.Header[] _sendHeaders
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayWrapper<System::Runtime::Remoting::Messaging::Header*> sendHeaders;
+    ::ArrayW<System::Runtime::Remoting::Messaging::Header*> sendHeaders;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<System::Runtime::Remoting::Messaging::Header*>) == 0x8);
+    static_assert(sizeof(::ArrayW<System::Runtime::Remoting::Messaging::Header*>) == 0x8);
     // private System.Runtime.Remoting.Messaging.Header[] _recvHeaders
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayWrapper<System::Runtime::Remoting::Messaging::Header*> recvHeaders;
+    ::ArrayW<System::Runtime::Remoting::Messaging::Header*> recvHeaders;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<System::Runtime::Remoting::Messaging::Header*>) == 0x8);
+    static_assert(sizeof(::ArrayW<System::Runtime::Remoting::Messaging::Header*>) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);
@@ -128,9 +135,9 @@ namespace System::Runtime::Remoting::Messaging {
     // Get instance field reference: private System.Boolean m_IsCorrelationMgr
     bool& dyn_m_IsCorrelationMgr();
     // Get instance field reference: private System.Runtime.Remoting.Messaging.Header[] _sendHeaders
-    ::ArrayWrapper<System::Runtime::Remoting::Messaging::Header*>& dyn__sendHeaders();
+    ::ArrayW<System::Runtime::Remoting::Messaging::Header*>& dyn__sendHeaders();
     // Get instance field reference: private System.Runtime.Remoting.Messaging.Header[] _recvHeaders
-    ::ArrayWrapper<System::Runtime::Remoting::Messaging::Header*>& dyn__recvHeaders();
+    ::ArrayW<System::Runtime::Remoting::Messaging::Header*>& dyn__recvHeaders();
     // public System.Boolean get_HasInfo()
     // Offset: 0x1C14174
     bool get_HasInfo();
@@ -179,7 +186,7 @@ namespace System::Runtime::Remoting::Messaging {
     }
   }; // System.Runtime.Remoting.Messaging.LogicalCallContext
   #pragma pack(pop)
-  static check_size<sizeof(LogicalCallContext), 64 + sizeof(::ArrayWrapper<System::Runtime::Remoting::Messaging::Header*>)> __System_Runtime_Remoting_Messaging_LogicalCallContextSizeCheck;
+  static check_size<sizeof(LogicalCallContext), 64 + sizeof(::ArrayW<System::Runtime::Remoting::Messaging::Header*>)> __System_Runtime_Remoting_Messaging_LogicalCallContextSizeCheck;
   static_assert(sizeof(LogicalCallContext) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::LogicalCallContext*, "System.Runtime.Remoting.Messaging", "LogicalCallContext");

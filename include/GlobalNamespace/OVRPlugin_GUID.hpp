@@ -21,6 +21,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRPlugin::GUID : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 a
     // Size: 0x4
     // Offset: 0x10
@@ -87,6 +92,7 @@ namespace GlobalNamespace {
     uint8_t d7;
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
+    public:
     // Get instance field reference: public System.Int32 a
     int& dyn_a();
     // Get instance field reference: public System.Int16 b

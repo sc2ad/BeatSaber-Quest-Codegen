@@ -31,6 +31,11 @@ namespace UnityEngine::Rendering {
     public:
     // Nested type: UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling
     class OnPerformCulling;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.IntPtr m_GroupHandle
     // Size: 0x8
     // Offset: 0x10
@@ -43,6 +48,7 @@ namespace UnityEngine::Rendering {
     UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling* m_PerformCulling;
     // Field size check
     static_assert(sizeof(UnityEngine::Rendering::BatchRendererGroup::OnPerformCulling*) == 0x8);
+    public:
     // Get instance field reference: private System.IntPtr m_GroupHandle
     System::IntPtr& dyn_m_GroupHandle();
     // Get instance field reference: private UnityEngine.Rendering.BatchRendererGroup/UnityEngine.Rendering.OnPerformCulling m_PerformCulling

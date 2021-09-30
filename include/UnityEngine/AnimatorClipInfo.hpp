@@ -19,6 +19,11 @@ namespace UnityEngine {
   // [UsedByNativeCodeAttribute] Offset: E8B38C
   struct AnimatorClipInfo/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 m_ClipInstanceID
     // Size: 0x4
     // Offset: 0x0
@@ -31,6 +36,7 @@ namespace UnityEngine {
     float m_Weight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: AnimatorClipInfo
     constexpr AnimatorClipInfo(int m_ClipInstanceID_ = {}, float m_Weight_ = {}) noexcept : m_ClipInstanceID{m_ClipInstanceID_}, m_Weight{m_Weight_} {}
     // Creating interface conversion operator: operator System::ValueType

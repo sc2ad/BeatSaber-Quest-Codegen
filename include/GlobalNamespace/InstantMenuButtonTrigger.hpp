@@ -34,6 +34,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class InstantMenuButtonTrigger : public ::Il2CppObject/*, public Zenject::ITickable, public GlobalNamespace::IMenuButtonTrigger*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xF07858
     // private readonly VRControllersInputManager _vrControllersInputManager
     // Size: 0x8
@@ -47,6 +52,7 @@ namespace GlobalNamespace {
     System::Action* menuButtonTriggeredEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
+    public:
     // Creating interface conversion operator: operator Zenject::ITickable
     operator Zenject::ITickable() noexcept {
       return *reinterpret_cast<Zenject::ITickable*>(this);

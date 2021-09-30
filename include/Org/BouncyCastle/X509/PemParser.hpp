@@ -30,6 +30,11 @@ namespace Org::BouncyCastle::X509 {
   // [TokenAttribute] Offset: FFFFFFFF
   class PemParser : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.String _header1
     // Size: 0x8
     // Offset: 0x10
@@ -54,6 +59,7 @@ namespace Org::BouncyCastle::X509 {
     ::Il2CppString* footer2;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: private readonly System.String _header1
     ::Il2CppString*& dyn__header1();
     // Get instance field reference: private readonly System.String _header2

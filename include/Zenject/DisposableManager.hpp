@@ -65,6 +65,11 @@ namespace Zenject {
     // [TokenAttribute] Offset: FFFFFFFF
     struct DisposableInfo/*, public System::ValueType*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.IDisposable Disposable
       // Size: 0x8
       // Offset: 0x0
@@ -77,6 +82,7 @@ namespace Zenject {
       int Priority;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: DisposableInfo
       constexpr DisposableInfo(System::IDisposable* Disposable_ = {}, int Priority_ = {}) noexcept : Disposable{Disposable_}, Priority{Priority_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -94,6 +100,11 @@ namespace Zenject {
     #pragma pack(pop)
     static check_size<sizeof(DisposableManager::DisposableInfo), 8 + sizeof(int)> __Zenject_DisposableManager_DisposableInfoSizeCheck;
     static_assert(sizeof(DisposableManager::DisposableInfo) == 0xC);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Collections.Generic.List`1<Zenject.DisposableManager/Zenject.DisposableInfo> _disposables
     // Size: 0x8
     // Offset: 0x10
@@ -118,6 +129,7 @@ namespace Zenject {
     bool lateDisposed;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

@@ -19,6 +19,11 @@ namespace System::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   struct MonoIOStat/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.IO.FileAttributes fileAttributes
     // Size: 0x4
     // Offset: 0x0
@@ -51,6 +56,7 @@ namespace System::IO {
     int64_t LastWriteTime;
     // Field size check
     static_assert(sizeof(int64_t) == 0x8);
+    public:
     // Creating value type constructor for type: MonoIOStat
     constexpr MonoIOStat(System::IO::FileAttributes fileAttributes_ = {}, int64_t Length_ = {}, int64_t CreationTime_ = {}, int64_t LastAccessTime_ = {}, int64_t LastWriteTime_ = {}) noexcept : fileAttributes{fileAttributes_}, Length{Length_}, CreationTime{CreationTime_}, LastAccessTime{LastAccessTime_}, LastWriteTime{LastWriteTime_} {}
     // Creating interface conversion operator: operator System::ValueType

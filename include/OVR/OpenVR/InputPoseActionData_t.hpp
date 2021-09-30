@@ -19,6 +19,11 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct InputPoseActionData_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Boolean bActive
     // Size: 0x1
     // Offset: 0x0
@@ -39,6 +44,7 @@ namespace OVR::OpenVR {
     OVR::OpenVR::TrackedDevicePose_t pose;
     // Field size check
     static_assert(sizeof(OVR::OpenVR::TrackedDevicePose_t) == 0x4E);
+    public:
     // Creating value type constructor for type: InputPoseActionData_t
     constexpr InputPoseActionData_t(bool bActive_ = {}, uint64_t activeOrigin_ = {}, OVR::OpenVR::TrackedDevicePose_t pose_ = {}) noexcept : bActive{bActive_}, activeOrigin{activeOrigin_}, pose{pose_} {}
     // Creating interface conversion operator: operator System::ValueType

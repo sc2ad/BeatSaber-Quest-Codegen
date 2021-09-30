@@ -7,6 +7,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Security.Cryptography.RSA
 #include "System/Security/Cryptography/RSA.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Mono::Security::Cryptography
@@ -33,6 +34,11 @@ namespace Mono::Security::Cryptography {
     public:
     // Nested type: Mono::Security::Cryptography::RSAManaged::KeyGeneratedEventHandler
     class KeyGeneratedEventHandler;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean isCRTpossible
     // Size: 0x1
     // Offset: 0x20
@@ -107,6 +113,7 @@ namespace Mono::Security::Cryptography {
     Mono::Security::Cryptography::RSAManaged::KeyGeneratedEventHandler* KeyGenerated;
     // Field size check
     static_assert(sizeof(Mono::Security::Cryptography::RSAManaged::KeyGeneratedEventHandler*) == 0x8);
+    public:
     // Get instance field reference: private System.Boolean isCRTpossible
     bool& dyn_isCRTpossible();
     // Get instance field reference: private System.Boolean keypairGenerated
@@ -139,7 +146,7 @@ namespace Mono::Security::Cryptography {
     void GenerateKeyPair();
     // private System.Byte[] GetPaddedValue(Mono.Math.BigInteger value, System.Int32 length)
     // Offset: 0x1FA0060
-    ::ArrayWrapper<uint8_t> GetPaddedValue(Mono::Math::BigInteger* value, int length);
+    ::ArrayW<uint8_t> GetPaddedValue(Mono::Math::BigInteger* value, int length);
     // public override System.Security.Cryptography.RSAParameters ExportParameters(System.Boolean includePrivateParameters)
     // Offset: 0x1F9FD20
     // Implemented from: System.Security.Cryptography.RSA
@@ -177,7 +184,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Security::Cryptography::RSAManaged::GetPaddedValue
 // Il2CppName: GetPaddedValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Mono::Security::Cryptography::RSAManaged::*)(Mono::Math::BigInteger*, int)>(&Mono::Security::Cryptography::RSAManaged::GetPaddedValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Mono::Security::Cryptography::RSAManaged::*)(Mono::Math::BigInteger*, int)>(&Mono::Security::Cryptography::RSAManaged::GetPaddedValue)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("Mono.Math", "BigInteger")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

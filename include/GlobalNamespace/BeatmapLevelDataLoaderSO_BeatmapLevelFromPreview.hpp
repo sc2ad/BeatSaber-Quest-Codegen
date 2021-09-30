@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -62,6 +63,11 @@ namespace GlobalNamespace {
     struct $GetPreviewAudioClipAsync$d__33;
     // Nested type: GlobalNamespace::BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview::$GetCoverImageAsync$d__34
     struct $GetCoverImageAsync$d__34;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private IPreviewBeatmapLevel _level
     // Size: 0x8
     // Offset: 0x10
@@ -74,6 +80,7 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview::BeatmapLevelData* beatmapLevelData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview::BeatmapLevelData*) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IBeatmapLevel
     operator GlobalNamespace::IBeatmapLevel() noexcept {
       return *reinterpret_cast<GlobalNamespace::IBeatmapLevel*>(this);
@@ -126,7 +133,7 @@ namespace GlobalNamespace {
     GlobalNamespace::EnvironmentInfoSO* get_allDirectionsEnvironmentInfo();
     // public PreviewDifficultyBeatmapSet[] get_previewDifficultyBeatmapSets()
     // Offset: 0x1297F18
-    ::ArrayWrapper<GlobalNamespace::PreviewDifficultyBeatmapSet*> get_previewDifficultyBeatmapSets();
+    ::ArrayW<GlobalNamespace::PreviewDifficultyBeatmapSet*> get_previewDifficultyBeatmapSets();
     // public IBeatmapLevelData get_beatmapLevelData()
     // Offset: 0x1297FCC
     GlobalNamespace::IBeatmapLevelData* get_beatmapLevelData();
@@ -268,7 +275,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview::get_previewDifficultyBeatmapSets
 // Il2CppName: get_previewDifficultyBeatmapSets
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::PreviewDifficultyBeatmapSet*> (GlobalNamespace::BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview::*)()>(&GlobalNamespace::BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview::get_previewDifficultyBeatmapSets)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<GlobalNamespace::PreviewDifficultyBeatmapSet*> (GlobalNamespace::BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview::*)()>(&GlobalNamespace::BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview::get_previewDifficultyBeatmapSets)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview*), "get_previewDifficultyBeatmapSets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -39,6 +39,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PackLevelListHeaderTableCell : public HMUI::TableCell {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Color _selectedHighlightElementsColor
     // Size: 0x10
     // Offset: 0x50
@@ -75,6 +80,7 @@ namespace GlobalNamespace {
     System::Threading::CancellationTokenSource* cancellationTokenSource;
     // Field size check
     static_assert(sizeof(System::Threading::CancellationTokenSource*) == 0x8);
+    public:
     // Get instance field reference: private UnityEngine.Color _selectedHighlightElementsColor
     UnityEngine::Color& dyn__selectedHighlightElementsColor();
     // Get instance field reference: private TMPro.TextMeshProUGUI _text

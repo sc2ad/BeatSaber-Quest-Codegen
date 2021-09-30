@@ -20,6 +20,11 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class MemoryPoolSettings : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 InitialSize
     // Size: 0x4
     // Offset: 0x10
@@ -38,6 +43,7 @@ namespace Zenject {
     Zenject::PoolExpandMethods ExpandMethod;
     // Field size check
     static_assert(sizeof(Zenject::PoolExpandMethods) == 0x4);
+    public:
     // Get static field: static public readonly Zenject.MemoryPoolSettings Default
     static Zenject::MemoryPoolSettings* _get_Default();
     // Set static field: static public readonly Zenject.MemoryPoolSettings Default

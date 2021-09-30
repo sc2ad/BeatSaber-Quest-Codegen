@@ -30,6 +30,11 @@ namespace MasterServer {
   // [TokenAttribute] Offset: FFFFFFFF
   struct UserMessageHandler::$$c__DisplayClass13_0::$$GetPublicServers$b__0$d/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0
@@ -50,6 +55,7 @@ namespace MasterServer {
     // Size: 0xFFFFFFFF
     // Offset: 0x28
     System::Runtime::CompilerServices::TaskAwaiter_1<MasterServer::GetPublicServersResponse*> $$u__1;
+    public:
     // Creating value type constructor for type: $$GetPublicServers$b__0$d
     constexpr $$GetPublicServers$b__0$d(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder $$t__builder_ = {}, MasterServer::UserMessageHandler::$$c__DisplayClass13_0* $$4__this_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<MasterServer::GetPublicServersResponse*> $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, $$u__1{$$u__1_} {}
     // Creating interface conversion operator: operator System::ValueType

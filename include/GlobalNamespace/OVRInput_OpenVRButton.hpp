@@ -19,12 +19,18 @@ namespace GlobalNamespace {
   // [FlagsAttribute] Offset: FFFFFFFF
   struct OVRInput::OpenVRButton/*, public System::Enum*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.UInt64 value__
     // Size: 0x8
     // Offset: 0x0
     uint64_t value;
     // Field size check
     static_assert(sizeof(uint64_t) == 0x8);
+    public:
     // Creating value type constructor for type: OpenVRButton
     constexpr OpenVRButton(uint64_t value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum

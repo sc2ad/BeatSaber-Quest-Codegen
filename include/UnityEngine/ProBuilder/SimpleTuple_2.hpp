@@ -23,6 +23,11 @@ namespace UnityEngine::ProBuilder {
   template<typename T1, typename T2>
   struct SimpleTuple_2/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private T1 m_Item1
     // Size: 0xFFFFFFFF
     // Offset: 0x0
@@ -31,6 +36,7 @@ namespace UnityEngine::ProBuilder {
     // Size: 0xFFFFFFFF
     // Offset: 0x0
     T2 m_Item2;
+    public:
     // Creating value type constructor for type: SimpleTuple_2
     constexpr SimpleTuple_2(T1 m_Item1_ = {}, T2 m_Item2_ = {}) noexcept : m_Item1{m_Item1_}, m_Item2{m_Item2_} {}
     // Creating interface conversion operator: operator System::ValueType

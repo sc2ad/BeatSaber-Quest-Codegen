@@ -35,6 +35,11 @@ namespace Zenject {
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
   class LazyInstanceInjector : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x10
@@ -47,6 +52,7 @@ namespace Zenject {
     System::Collections::Generic::HashSet_1<::Il2CppObject*>* instancesToInject;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::HashSet_1<::Il2CppObject*>*) == 0x8);
+    public:
     // Get instance field reference: private readonly Zenject.DiContainer _container
     Zenject::DiContainer*& dyn__container();
     // Get instance field reference: private readonly System.Collections.Generic.HashSet`1<System.Object> _instancesToInject

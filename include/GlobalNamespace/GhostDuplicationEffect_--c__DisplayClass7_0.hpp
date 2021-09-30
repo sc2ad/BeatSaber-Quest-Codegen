@@ -23,6 +23,11 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class GhostDuplicationEffect::$$c__DisplayClass7_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public GhostDuplicationEffect <>4__this
     // Size: 0x8
     // Offset: 0x10
@@ -35,6 +40,7 @@ namespace GlobalNamespace {
     UnityEngine::Vector3 direction;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    public:
     // Get instance field reference: public GhostDuplicationEffect <>4__this
     GlobalNamespace::GhostDuplicationEffect*& dyn_$$4__this();
     // Get instance field reference: public UnityEngine.Vector3 direction

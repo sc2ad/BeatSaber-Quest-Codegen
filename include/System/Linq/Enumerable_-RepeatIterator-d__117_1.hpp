@@ -31,6 +31,11 @@ namespace System::Linq {
   template<typename TResult>
   class Enumerable::$RepeatIterator$d__117_1 : public ::Il2CppObject/*, public System::Collections::Generic::IEnumerable_1<TResult>, public System::Collections::Generic::IEnumerator_1<TResult>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0
@@ -73,6 +78,7 @@ namespace System::Linq {
     int $$3__count;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<TResult>
     operator System::Collections::Generic::IEnumerable_1<TResult>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<TResult>*>(this);

@@ -30,6 +30,11 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class UVEditing::$$c__DisplayClass9_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.ProBuilder.Face f1
     // Size: 0x8
     // Offset: 0x10
@@ -42,6 +47,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     UnityEngine::ProBuilder::Face* f2;
     // Field size check
     static_assert(sizeof(UnityEngine::ProBuilder::Face*) == 0x8);
+    public:
     // Get instance field reference: public UnityEngine.ProBuilder.Face f1
     UnityEngine::ProBuilder::Face*& dyn_f1();
     // Get instance field reference: public UnityEngine.ProBuilder.Face f2

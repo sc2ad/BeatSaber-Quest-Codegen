@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: RootMotion::FinalIK
@@ -29,6 +30,11 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class InteractionTrigger::Range::Interaction : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [TooltipAttribute] Offset: 0xEF7DE4
     // public RootMotion.FinalIK.InteractionObject interactionObject
     // Size: 0x8
@@ -40,13 +46,14 @@ namespace RootMotion::FinalIK {
     // public RootMotion.FinalIK.FullBodyBipedEffector[] effectors
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<RootMotion::FinalIK::FullBodyBipedEffector> effectors;
+    ::ArrayW<RootMotion::FinalIK::FullBodyBipedEffector> effectors;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::FullBodyBipedEffector>) == 0x8);
+    static_assert(sizeof(::ArrayW<RootMotion::FinalIK::FullBodyBipedEffector>) == 0x8);
+    public:
     // Get instance field reference: public RootMotion.FinalIK.InteractionObject interactionObject
     RootMotion::FinalIK::InteractionObject*& dyn_interactionObject();
     // Get instance field reference: public RootMotion.FinalIK.FullBodyBipedEffector[] effectors
-    ::ArrayWrapper<RootMotion::FinalIK::FullBodyBipedEffector>& dyn_effectors();
+    ::ArrayW<RootMotion::FinalIK::FullBodyBipedEffector>& dyn_effectors();
     // public System.Void .ctor()
     // Offset: 0x1C5CB28
     // Implemented from: System.Object
@@ -58,7 +65,7 @@ namespace RootMotion::FinalIK {
     }
   }; // RootMotion.FinalIK.InteractionTrigger/RootMotion.FinalIK.Range/RootMotion.FinalIK.Interaction
   #pragma pack(pop)
-  static check_size<sizeof(InteractionTrigger::Range::Interaction), 24 + sizeof(::ArrayWrapper<RootMotion::FinalIK::FullBodyBipedEffector>)> __RootMotion_FinalIK_InteractionTrigger_Range_InteractionSizeCheck;
+  static check_size<sizeof(InteractionTrigger::Range::Interaction), 24 + sizeof(::ArrayW<RootMotion::FinalIK::FullBodyBipedEffector>)> __RootMotion_FinalIK_InteractionTrigger_Range_InteractionSizeCheck;
   static_assert(sizeof(InteractionTrigger::Range::Interaction) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionTrigger::Range::Interaction*, "RootMotion.FinalIK", "InteractionTrigger/Range/Interaction");

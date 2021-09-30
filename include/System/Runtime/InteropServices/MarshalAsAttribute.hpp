@@ -30,6 +30,11 @@ namespace System::Runtime::InteropServices {
   // [ComVisibleAttribute] Offset: E60D5C
   class MarshalAsAttribute : public System::Attribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.String MarshalCookie
     // Size: 0x8
     // Offset: 0x10
@@ -92,6 +97,7 @@ namespace System::Runtime::InteropServices {
     int16_t SizeParamIndex;
     // Field size check
     static_assert(sizeof(int16_t) == 0x2);
+    public:
     // Get instance field reference: public System.String MarshalCookie
     ::Il2CppString*& dyn_MarshalCookie();
     // Get instance field reference: public System.String MarshalType

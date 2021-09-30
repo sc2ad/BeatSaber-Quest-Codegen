@@ -41,6 +41,11 @@ namespace System::Security::Policy {
     public:
     // Nested type: System::Security::Policy::Evidence::EvidenceEnumerator
     class EvidenceEnumerator;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean _locked
     // Size: 0x1
     // Offset: 0x10
@@ -61,6 +66,7 @@ namespace System::Security::Policy {
     System::Collections::ArrayList* assemblyEvidenceList;
     // Field size check
     static_assert(sizeof(System::Collections::ArrayList*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Collections::ICollection
     operator System::Collections::ICollection() noexcept {
       return *reinterpret_cast<System::Collections::ICollection*>(this);

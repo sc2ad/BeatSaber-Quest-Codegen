@@ -52,12 +52,18 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct MovementPhase/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: MovementPhase
       constexpr MovementPhase(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -92,6 +98,11 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(NoteMovement::MovementPhase), 0 + sizeof(int)> __GlobalNamespace_NoteMovement_MovementPhaseSizeCheck;
     static_assert(sizeof(NoteMovement::MovementPhase) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private NoteFloorMovement _floorMovement
     // Size: 0x8
     // Offset: 0x18
@@ -185,6 +196,7 @@ namespace GlobalNamespace {
     UnityEngine::Vector3 prevLocalPosition;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private NoteFloorMovement _floorMovement

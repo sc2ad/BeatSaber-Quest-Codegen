@@ -70,6 +70,11 @@ namespace HMUI {
     class $ReplaceViewControllerCoroutine$d__60;
     // Nested type: HMUI::ViewController::$DismissViewControllerCoroutine$d__62
     class $DismissViewControllerCoroutine$d__62;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private HMUI.ViewController/HMUI.DidActivateDelegate didActivateEvent
     // Size: 0x8
     // Offset: 0x18
@@ -150,6 +155,7 @@ namespace HMUI {
     UnityEngine::EventSystems::BaseRaycaster* graphicRaycaster;
     // Field size check
     static_assert(sizeof(UnityEngine::EventSystems::BaseRaycaster*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static public System.Single kTransitionDuration

@@ -23,6 +23,11 @@ namespace UnityEngine {
   // [RequiredByNativeCodeAttribute] Offset: E7284C
   struct LayerMask/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [NativeNameAttribute] Offset: 0xE76168
     // private System.Int32 m_Mask
     // Size: 0x4
@@ -30,6 +35,7 @@ namespace UnityEngine {
     int m_Mask;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: LayerMask
     constexpr LayerMask(int m_Mask_ = {}) noexcept : m_Mask{m_Mask_} {}
     // Creating interface conversion operator: operator System::ValueType

@@ -23,6 +23,7 @@
 #include "System/Int32.hpp"
 // Including type: System.Byte
 #include "System/Byte.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Serialization
@@ -57,6 +58,11 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5BF50
   struct Decimal/*, public System::ValueType, public System::IComparable_1<System::Decimal>, public System::IEquatable_1<System::Decimal>, public System::IComparable, public System::IConvertible, public System::IFormattable, public System::Runtime::Serialization::IDeserializationCallback*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 flags
     // Size: 0x4
     // Offset: 0x0
@@ -81,6 +87,7 @@ namespace System {
     int mid;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: Decimal
     constexpr Decimal(int flags_ = {}, int hi_ = {}, int lo_ = {}, int mid_ = {}) noexcept : flags{flags_}, hi{hi_}, lo{lo_}, mid{mid_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -148,9 +155,9 @@ namespace System {
     // Set static field: static private System.Int32 MaxInt32Scale
     static void _set_MaxInt32Scale(int value);
     // Get static field: static private System.UInt32[] Powers10
-    static ::ArrayWrapper<uint> _get_Powers10();
+    static ::ArrayW<uint> _get_Powers10();
     // Set static field: static private System.UInt32[] Powers10
-    static void _set_Powers10(::ArrayWrapper<uint> value);
+    static void _set_Powers10(::ArrayW<uint> value);
     // [DecimalConstantAttribute] Offset: 0xE6295C
     // Get static field: static public readonly System.Decimal Zero
     static System::Decimal _get_Zero();
@@ -214,7 +221,7 @@ namespace System {
     Decimal(double value);
     // public System.Void .ctor(System.Int32[] bits)
     // Offset: 0x1CE1468
-    Decimal(::ArrayWrapper<int> bits);
+    Decimal(::ArrayW<int> bits);
     // public System.Void .ctor(System.Int32 lo, System.Int32 mid, System.Int32 hi, System.Boolean isNegative, System.Byte scale)
     // Offset: 0x1CE16E8
     Decimal(int lo, int mid, int hi, bool isNegative, uint8_t scale);
@@ -226,7 +233,7 @@ namespace System {
     static void _cctor();
     // private System.Void SetBits(System.Int32[] bits)
     // Offset: 0x1CE15A8
-    void SetBits(::ArrayWrapper<int> bits);
+    void SetBits(::ArrayW<int> bits);
     // private System.Void OnSerializing(System.Runtime.Serialization.StreamingContext ctx)
     // Offset: 0x1CE17D8
     void OnSerializing(System::Runtime::Serialization::StreamingContext ctx);
@@ -265,10 +272,10 @@ namespace System {
     static System::Decimal Parse(::Il2CppString* s, System::Globalization::NumberStyles style, System::IFormatProvider* provider);
     // static public System.Int32[] GetBits(System.Decimal d)
     // Offset: 0x1CE1920
-    static ::ArrayWrapper<int> GetBits(System::Decimal d);
+    static ::ArrayW<int> GetBits(System::Decimal d);
     // static System.Decimal ToDecimal(System.Byte[] buffer)
     // Offset: 0x1CE201C
-    static System::Decimal ToDecimal(::ArrayWrapper<uint8_t> buffer);
+    static System::Decimal ToDecimal(::ArrayW<uint8_t> buffer);
     // static public System.Decimal Round(System.Decimal d, System.Int32 decimals)
     // Offset: 0x1CE2148
     static System::Decimal Round(System::Decimal d, int decimals);
@@ -456,7 +463,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Decimal::SetBits
 // Il2CppName: SetBits
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Decimal::*)(::ArrayWrapper<int>)>(&System::Decimal::SetBits)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Decimal::*)(::ArrayW<int>)>(&System::Decimal::SetBits)> {
   static const MethodInfo* get() {
     static auto* bits = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Decimal), "SetBits", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bits});
@@ -580,7 +587,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dec
 // Writing MetadataGetter for method: System::Decimal::GetBits
 // Il2CppName: GetBits
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<int> (*)(System::Decimal)>(&System::Decimal::GetBits)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int> (*)(System::Decimal)>(&System::Decimal::GetBits)> {
   static const MethodInfo* get() {
     static auto* d = &::il2cpp_utils::GetClassFromName("System", "Decimal")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Decimal), "GetBits", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{d});
@@ -589,7 +596,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: System::Decimal::ToDecimal
 // Il2CppName: ToDecimal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (*)(::ArrayWrapper<uint8_t>)>(&System::Decimal::ToDecimal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Decimal (*)(::ArrayW<uint8_t>)>(&System::Decimal::ToDecimal)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Decimal), "ToDecimal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer});

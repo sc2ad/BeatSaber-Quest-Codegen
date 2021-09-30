@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Globalization
@@ -59,6 +60,11 @@ namespace System::Text::RegularExpressions {
     // [TokenAttribute] Offset: FFFFFFFF
     struct LowerCaseMapping/*, public System::ValueType*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // System.Char _chMin
       // Size: 0x2
       // Offset: 0x0
@@ -83,6 +89,7 @@ namespace System::Text::RegularExpressions {
       int data;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: LowerCaseMapping
       constexpr LowerCaseMapping(::Il2CppChar chMin_ = {}, ::Il2CppChar chMax_ = {}, int lcOp_ = {}, int data_ = {}) noexcept : chMin{chMin_}, chMax{chMax_}, lcOp{lcOp_}, data{data_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -104,6 +111,11 @@ namespace System::Text::RegularExpressions {
     #pragma pack(pop)
     static check_size<sizeof(RegexCharClass::LowerCaseMapping), 8 + sizeof(int)> __System_Text_RegularExpressions_RegexCharClass_LowerCaseMappingSizeCheck;
     static_assert(sizeof(RegexCharClass::LowerCaseMapping) == 0xC);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.List`1<System.Text.RegularExpressions.RegexCharClass/System.Text.RegularExpressions.SingleRange> _rangelist
     // Size: 0x8
     // Offset: 0x10
@@ -136,6 +148,7 @@ namespace System::Text::RegularExpressions {
     System::Text::RegularExpressions::RegexCharClass* subtractor;
     // Field size check
     static_assert(sizeof(System::Text::RegularExpressions::RegexCharClass*) == 0x8);
+    public:
     // Get static field: static private readonly System.String InternalRegexIgnoreCase
     static ::Il2CppString* _get_InternalRegexIgnoreCase();
     // Set static field: static private readonly System.String InternalRegexIgnoreCase
@@ -185,13 +198,13 @@ namespace System::Text::RegularExpressions {
     // Set static field: static private System.Collections.Generic.Dictionary`2<System.String,System.String> _definedCategories
     static void _set__definedCategories(System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* value);
     // Get static field: static private readonly System.String[,] _propTable
-    static ::ArrayWrapper<::Il2CppString*> _get__propTable();
+    static ::ArrayW<::Il2CppString*> _get__propTable();
     // Set static field: static private readonly System.String[,] _propTable
-    static void _set__propTable(::ArrayWrapper<::Il2CppString*> value);
+    static void _set__propTable(::ArrayW<::Il2CppString*> value);
     // Get static field: static private readonly System.Text.RegularExpressions.RegexCharClass/System.Text.RegularExpressions.LowerCaseMapping[] _lcTable
-    static ::ArrayWrapper<System::Text::RegularExpressions::RegexCharClass::LowerCaseMapping> _get__lcTable();
+    static ::ArrayW<System::Text::RegularExpressions::RegexCharClass::LowerCaseMapping> _get__lcTable();
     // Set static field: static private readonly System.Text.RegularExpressions.RegexCharClass/System.Text.RegularExpressions.LowerCaseMapping[] _lcTable
-    static void _set__lcTable(::ArrayWrapper<System::Text::RegularExpressions::RegexCharClass::LowerCaseMapping> value);
+    static void _set__lcTable(::ArrayW<System::Text::RegularExpressions::RegexCharClass::LowerCaseMapping> value);
     // Get instance field reference: private System.Collections.Generic.List`1<System.Text.RegularExpressions.RegexCharClass/System.Text.RegularExpressions.SingleRange> _rangelist
     System::Collections::Generic::List_1<System::Text::RegularExpressions::RegexCharClass::SingleRange*>*& dyn__rangelist();
     // Get instance field reference: private System.Text.StringBuilder _categories

@@ -20,6 +20,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::PredefinedPack : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 order
     // Size: 0x4
     // Offset: 0x10
@@ -34,6 +39,7 @@ namespace GlobalNamespace {
     ::Il2CppString* packId;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: public System.Int32 order
     int& dyn_order();
     // Get instance field reference: public System.String packId

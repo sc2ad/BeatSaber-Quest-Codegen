@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -42,12 +43,17 @@ namespace System::Security::Cryptography::X509Certificates {
     public:
     // Writing base type padding for base size: 0x21 to desired offset: 0x28
     char ___base_padding[0x7] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Byte[] _subjectKeyIdentifier
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<uint8_t> subjectKeyIdentifier;
+    ::ArrayW<uint8_t> subjectKeyIdentifier;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.String _ski
     // Size: 0x8
     // Offset: 0x30
@@ -60,6 +66,7 @@ namespace System::Security::Cryptography::X509Certificates {
     System::Security::Cryptography::AsnDecodeStatus status;
     // Field size check
     static_assert(sizeof(System::Security::Cryptography::AsnDecodeStatus) == 0x4);
+    public:
     // Deleting conversion operator: operator bool
     constexpr operator bool() const noexcept = delete;
     // static field const value: static System.String oid
@@ -75,7 +82,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Set static field: static System.String friendlyName
     static void _set_friendlyName(::Il2CppString* value);
     // Get instance field reference: private System.Byte[] _subjectKeyIdentifier
-    ::ArrayWrapper<uint8_t>& dyn__subjectKeyIdentifier();
+    ::ArrayW<uint8_t>& dyn__subjectKeyIdentifier();
     // Get instance field reference: private System.String _ski
     ::Il2CppString*& dyn__ski();
     // Get instance field reference: private System.Security.Cryptography.AsnDecodeStatus _status
@@ -93,7 +100,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // public System.Void .ctor(System.Byte[] subjectKeyIdentifier, System.Boolean critical)
     // Offset: 0x19E04AC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static X509SubjectKeyIdentifierExtension* New_ctor(::ArrayWrapper<uint8_t> subjectKeyIdentifier, bool critical) {
+    static X509SubjectKeyIdentifierExtension* New_ctor(::ArrayW<uint8_t> subjectKeyIdentifier, bool critical) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509SubjectKeyIdentifierExtension*, creationType>(subjectKeyIdentifier, critical)));
     }
@@ -126,13 +133,13 @@ namespace System::Security::Cryptography::X509Certificates {
     static uint8_t FromHexChars(::Il2CppChar c1, ::Il2CppChar c2);
     // static System.Byte[] FromHex(System.String hex)
     // Offset: 0x19E07D4
-    static ::ArrayWrapper<uint8_t> FromHex(::Il2CppString* hex);
+    static ::ArrayW<uint8_t> FromHex(::Il2CppString* hex);
     // System.Security.Cryptography.AsnDecodeStatus Decode(System.Byte[] extension)
     // Offset: 0x19E0338
-    System::Security::Cryptography::AsnDecodeStatus Decode(::ArrayWrapper<uint8_t> extension);
+    System::Security::Cryptography::AsnDecodeStatus Decode(::ArrayW<uint8_t> extension);
     // System.Byte[] Encode()
     // Offset: 0x19E0618
-    ::ArrayWrapper<uint8_t> Encode();
+    ::ArrayW<uint8_t> Encode();
     // public System.Void .ctor()
     // Offset: 0x19E02A8
     // Implemented from: System.Security.Cryptography.X509Certificates.X509Extension
@@ -211,7 +218,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::FromHex
 // Il2CppName: FromHex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(::Il2CppString*)>(&System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::FromHex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(::Il2CppString*)>(&System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::FromHex)> {
   static const MethodInfo* get() {
     static auto* hex = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension*), "FromHex", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hex});
@@ -220,7 +227,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::Decode
 // Il2CppName: Decode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::AsnDecodeStatus (System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::*)(::ArrayWrapper<uint8_t>)>(&System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::Decode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::AsnDecodeStatus (System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::*)(::ArrayW<uint8_t>)>(&System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::Decode)> {
   static const MethodInfo* get() {
     static auto* extension = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension*), "Decode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{extension});
@@ -229,7 +236,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::Encode
 // Il2CppName: Encode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::*)()>(&System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::Encode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::*)()>(&System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension::Encode)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension*), "Encode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

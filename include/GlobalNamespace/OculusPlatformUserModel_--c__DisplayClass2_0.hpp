@@ -45,6 +45,11 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class OculusPlatformUserModel::$$c__DisplayClass2_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Threading.Tasks.TaskCompletionSource`1<UserInfo> tcs
     // Size: 0x8
     // Offset: 0x10
@@ -57,6 +62,7 @@ namespace GlobalNamespace {
     GlobalNamespace::OculusPlatformUserModel* $$4__this;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OculusPlatformUserModel*) == 0x8);
+    public:
     // Get instance field reference: public System.Threading.Tasks.TaskCompletionSource`1<UserInfo> tcs
     System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::UserInfo*>*& dyn_tcs();
     // Get instance field reference: public OculusPlatformUserModel <>4__this

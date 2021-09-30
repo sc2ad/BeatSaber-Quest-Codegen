@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: Org.BouncyCastle.Crypto.Engines
 namespace Org::BouncyCastle::Crypto::Engines {
@@ -20,38 +21,44 @@ namespace Org::BouncyCastle::Crypto::Engines {
   // [TokenAttribute] Offset: FFFFFFFF
   class ThreefishEngine::ThreefishCipher : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // protected readonly System.UInt64[] t
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<uint64_t> t;
+    ::ArrayW<uint64_t> t;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint64_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint64_t>) == 0x8);
     // protected readonly System.UInt64[] kw
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<uint64_t> kw;
+    ::ArrayW<uint64_t> kw;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint64_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint64_t>) == 0x8);
+    public:
     // Get instance field reference: protected readonly System.UInt64[] t
-    ::ArrayWrapper<uint64_t>& dyn_t();
+    ::ArrayW<uint64_t>& dyn_t();
     // Get instance field reference: protected readonly System.UInt64[] kw
-    ::ArrayWrapper<uint64_t>& dyn_kw();
+    ::ArrayW<uint64_t>& dyn_kw();
     // protected System.Void .ctor(System.UInt64[] kw, System.UInt64[] t)
     // Offset: 0x204A1D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ThreefishEngine::ThreefishCipher* New_ctor(::ArrayWrapper<uint64_t> kw, ::ArrayWrapper<uint64_t> t) {
+    static ThreefishEngine::ThreefishCipher* New_ctor(::ArrayW<uint64_t> kw, ::ArrayW<uint64_t> t) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Engines::ThreefishEngine::ThreefishCipher::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ThreefishEngine::ThreefishCipher*, creationType>(kw, t)));
     }
     // System.Void EncryptBlock(System.UInt64[] block, System.UInt64[] outWords)
     // Offset: 0xFFFFFFFF
-    void EncryptBlock(::ArrayWrapper<uint64_t> block, ::ArrayWrapper<uint64_t> outWords);
+    void EncryptBlock(::ArrayW<uint64_t> block, ::ArrayW<uint64_t> outWords);
     // System.Void DecryptBlock(System.UInt64[] block, System.UInt64[] outWords)
     // Offset: 0xFFFFFFFF
-    void DecryptBlock(::ArrayWrapper<uint64_t> block, ::ArrayWrapper<uint64_t> outWords);
+    void DecryptBlock(::ArrayW<uint64_t> block, ::ArrayW<uint64_t> outWords);
   }; // Org.BouncyCastle.Crypto.Engines.ThreefishEngine/Org.BouncyCastle.Crypto.Engines.ThreefishCipher
   #pragma pack(pop)
-  static check_size<sizeof(ThreefishEngine::ThreefishCipher), 24 + sizeof(::ArrayWrapper<uint64_t>)> __Org_BouncyCastle_Crypto_Engines_ThreefishEngine_ThreefishCipherSizeCheck;
+  static check_size<sizeof(ThreefishEngine::ThreefishCipher), 24 + sizeof(::ArrayW<uint64_t>)> __Org_BouncyCastle_Crypto_Engines_ThreefishEngine_ThreefishCipherSizeCheck;
   static_assert(sizeof(ThreefishEngine::ThreefishCipher) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::ThreefishEngine::ThreefishCipher*, "Org.BouncyCastle.Crypto.Engines", "ThreefishEngine/ThreefishCipher");
@@ -63,7 +70,7 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::ThreefishEngine::Thre
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::ThreefishEngine::ThreefishCipher::EncryptBlock
 // Il2CppName: EncryptBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Engines::ThreefishEngine::ThreefishCipher::*)(::ArrayWrapper<uint64_t>, ::ArrayWrapper<uint64_t>)>(&Org::BouncyCastle::Crypto::Engines::ThreefishEngine::ThreefishCipher::EncryptBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Engines::ThreefishEngine::ThreefishCipher::*)(::ArrayW<uint64_t>, ::ArrayW<uint64_t>)>(&Org::BouncyCastle::Crypto::Engines::ThreefishEngine::ThreefishCipher::EncryptBlock)> {
   static const MethodInfo* get() {
     static auto* block = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt64"), 1)->byval_arg;
     static auto* outWords = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt64"), 1)->byval_arg;
@@ -73,7 +80,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::ThreefishEngine::ThreefishCipher::DecryptBlock
 // Il2CppName: DecryptBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Engines::ThreefishEngine::ThreefishCipher::*)(::ArrayWrapper<uint64_t>, ::ArrayWrapper<uint64_t>)>(&Org::BouncyCastle::Crypto::Engines::ThreefishEngine::ThreefishCipher::DecryptBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Engines::ThreefishEngine::ThreefishCipher::*)(::ArrayW<uint64_t>, ::ArrayW<uint64_t>)>(&Org::BouncyCastle::Crypto::Engines::ThreefishEngine::ThreefishCipher::DecryptBlock)> {
   static const MethodInfo* get() {
     static auto* block = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt64"), 1)->byval_arg;
     static auto* outWords = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt64"), 1)->byval_arg;

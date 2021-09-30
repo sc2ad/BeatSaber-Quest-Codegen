@@ -22,6 +22,11 @@ namespace RootMotion {
   // [TokenAttribute] Offset: FFFFFFFF
   class TQ : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Vector3 t
     // Size: 0xC
     // Offset: 0x10
@@ -34,6 +39,7 @@ namespace RootMotion {
     UnityEngine::Quaternion q;
     // Field size check
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
+    public:
     // Get instance field reference: public UnityEngine.Vector3 t
     UnityEngine::Vector3& dyn_t();
     // Get instance field reference: public UnityEngine.Quaternion q

@@ -17,6 +17,11 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   struct InputRecord/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int16 EventType
     // Size: 0x2
     // Offset: 0x0
@@ -73,6 +78,7 @@ namespace System {
     bool pad2;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating value type constructor for type: InputRecord
     constexpr InputRecord(int16_t EventType_ = {}, bool KeyDown_ = {}, int16_t RepeatCount_ = {}, int16_t VirtualKeyCode_ = {}, int16_t VirtualScanCode_ = {}, ::Il2CppChar Character_ = {}, int ControlKeyState_ = {}, int pad1_ = {}, bool pad2_ = {}) noexcept : EventType{EventType_}, KeyDown{KeyDown_}, RepeatCount{RepeatCount_}, VirtualKeyCode{VirtualKeyCode_}, VirtualScanCode{VirtualScanCode_}, Character{Character_}, ControlKeyState{ControlKeyState_}, pad1{pad1_}, pad2{pad2_} {}
     // Creating interface conversion operator: operator System::ValueType

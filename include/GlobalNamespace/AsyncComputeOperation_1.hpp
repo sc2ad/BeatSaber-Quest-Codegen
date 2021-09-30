@@ -36,12 +36,18 @@ namespace GlobalNamespace {
   template<typename T>
   class AsyncComputeOperation_1 : public GlobalNamespace::AsyncComputeOperation {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Threading.Tasks.TaskCompletionSource`1<T> _tcs
     // Size: 0x8
     // Offset: 0x0
     System::Threading::Tasks::TaskCompletionSource_1<T>* tcs;
     // Field size check
     static_assert(sizeof(System::Threading::Tasks::TaskCompletionSource_1<T>*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Threading::Tasks::TaskCompletionSource_1<T>*
     constexpr operator System::Threading::Tasks::TaskCompletionSource_1<T>*() const noexcept {
       return tcs;

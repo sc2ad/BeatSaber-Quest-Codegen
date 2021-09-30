@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -48,12 +49,18 @@ namespace RootMotion {
     // [TokenAttribute] Offset: FFFFFFFF
     struct Mode/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: Mode
       constexpr Mode(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -94,6 +101,11 @@ namespace RootMotion {
     #pragma pack(pop)
     static check_size<sizeof(Baker::Mode), 0 + sizeof(int)> __RootMotion_Baker_ModeSizeCheck;
     static_assert(sizeof(Baker::Mode) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [TooltipAttribute] Offset: 0xEF1338
     // [RangeAttribute] Offset: 0xEF1338
     // public System.Int32 frameRate
@@ -123,16 +135,16 @@ namespace RootMotion {
     // public UnityEngine.AnimationClip[] animationClips
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<UnityEngine::AnimationClip*> animationClips;
+    ::ArrayW<UnityEngine::AnimationClip*> animationClips;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::AnimationClip*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::AnimationClip*>) == 0x8);
     // [TooltipAttribute] Offset: 0xEF1458
     // public System.String[] animationStates
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<::Il2CppString*> animationStates;
+    ::ArrayW<::Il2CppString*> animationStates;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // [TooltipAttribute] Offset: 0xEF1490
     // public System.Boolean loop
     // Size: 0x1
@@ -195,6 +207,7 @@ namespace RootMotion {
     float clipLength;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.Int32 frameRate
@@ -204,9 +217,9 @@ namespace RootMotion {
     // Get instance field reference: public RootMotion.Baker/RootMotion.Mode mode
     RootMotion::Baker::Mode& dyn_mode();
     // Get instance field reference: public UnityEngine.AnimationClip[] animationClips
-    ::ArrayWrapper<UnityEngine::AnimationClip*>& dyn_animationClips();
+    ::ArrayW<UnityEngine::AnimationClip*>& dyn_animationClips();
     // Get instance field reference: public System.String[] animationStates
-    ::ArrayWrapper<::Il2CppString*>& dyn_animationStates();
+    ::ArrayW<::Il2CppString*>& dyn_animationStates();
     // Get instance field reference: public System.Boolean loop
     bool& dyn_loop();
     // Get instance field reference: public System.String saveToFolder

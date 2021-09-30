@@ -23,6 +23,11 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class LeaderboardScoreUploader::$$c__DisplayClass14_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public LeaderboardScoreUploader/ScoreData scoreData
     // Size: 0x8
     // Offset: 0x10
@@ -35,6 +40,7 @@ namespace GlobalNamespace {
     GlobalNamespace::LeaderboardScoreUploader* $$4__this;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LeaderboardScoreUploader*) == 0x8);
+    public:
     // Get instance field reference: public LeaderboardScoreUploader/ScoreData scoreData
     GlobalNamespace::LeaderboardScoreUploader::ScoreData*& dyn_scoreData();
     // Get instance field reference: public LeaderboardScoreUploader <>4__this

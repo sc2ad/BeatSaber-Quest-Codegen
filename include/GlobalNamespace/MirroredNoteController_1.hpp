@@ -46,6 +46,11 @@ namespace GlobalNamespace {
   template<typename T>
   class MirroredNoteController_1 : public GlobalNamespace::NoteControllerBase/*, public GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent, public GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Transform _noteTransform
     // Size: 0x8
     // Offset: 0x0
@@ -92,6 +97,7 @@ namespace GlobalNamespace {
     GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>* noteDidStartDissolvingEvent;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent
     operator GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent() noexcept {
       return *reinterpret_cast<GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>(this);

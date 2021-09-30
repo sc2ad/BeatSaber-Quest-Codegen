@@ -41,6 +41,11 @@ namespace GlobalNamespace {
     struct $HandleGetIsEntitledToLevel$d__5;
     // Nested type: GlobalNamespace::NetworkPlayerEntitlementChecker::$GetEntitlementStatus$d__6
     struct $GetEntitlementStatus$d__6;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xF0349C
     // private readonly IMenuRpcManager _rpcManager
     // Size: 0x8
@@ -55,6 +60,7 @@ namespace GlobalNamespace {
     GlobalNamespace::AdditionalContentModel* additionalContentModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AdditionalContentModel*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private readonly IMenuRpcManager _rpcManager

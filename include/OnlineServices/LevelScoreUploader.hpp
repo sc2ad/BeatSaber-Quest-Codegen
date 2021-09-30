@@ -55,6 +55,11 @@ namespace OnlineServices {
     class LevelScoreResultsDataUploadInfo;
     // Nested type: OnlineServices::LevelScoreUploader::$SendLevelScoreResultAsync$d__13
     struct $SendLevelScoreResultAsync$d__13;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Action`1<System.String> scoreForLeaderboardDidUploadEvent
     // Size: 0x8
     // Offset: 0x10
@@ -91,6 +96,7 @@ namespace OnlineServices {
     OnlineServices::PlatformOnlineServicesAvailabilityModel* platformOnlineServicesAvailabilityModel;
     // Field size check
     static_assert(sizeof(OnlineServices::PlatformOnlineServicesAvailabilityModel*) == 0x8);
+    public:
     // static field const value: static private System.Int32 kMaxUploadAttempts
     static constexpr const int kMaxUploadAttempts = 3;
     // Get static field: static private System.Int32 kMaxUploadAttempts

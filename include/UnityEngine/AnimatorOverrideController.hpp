@@ -41,12 +41,18 @@ namespace UnityEngine {
     public:
     // Nested type: UnityEngine::AnimatorOverrideController::OnOverrideControllerDirtyCallback
     class OnOverrideControllerDirtyCallback;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // UnityEngine.AnimatorOverrideController/UnityEngine.OnOverrideControllerDirtyCallback OnOverrideControllerDirty
     // Size: 0x8
     // Offset: 0x18
     UnityEngine::AnimatorOverrideController::OnOverrideControllerDirtyCallback* OnOverrideControllerDirty;
     // Field size check
     static_assert(sizeof(UnityEngine::AnimatorOverrideController::OnOverrideControllerDirtyCallback*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: UnityEngine.AnimatorOverrideController/UnityEngine.OnOverrideControllerDirtyCallback OnOverrideControllerDirty

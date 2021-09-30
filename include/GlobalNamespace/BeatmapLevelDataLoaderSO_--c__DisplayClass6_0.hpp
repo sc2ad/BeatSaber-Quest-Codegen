@@ -41,6 +41,11 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class BeatmapLevelDataLoaderSO::$$c__DisplayClass6_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.AssetBundleCreateRequest asetBundleCreateRequest
     // Size: 0x8
     // Offset: 0x10
@@ -59,6 +64,7 @@ namespace GlobalNamespace {
     System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::BeatmapLevelDataSO*>* taskSource;
     // Field size check
     static_assert(sizeof(System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::BeatmapLevelDataSO*>*) == 0x8);
+    public:
     // Get instance field reference: public UnityEngine.AssetBundleCreateRequest asetBundleCreateRequest
     UnityEngine::AssetBundleCreateRequest*& dyn_asetBundleCreateRequest();
     // Get instance field reference: public System.String levelDataAssetName

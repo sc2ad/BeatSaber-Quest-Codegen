@@ -22,6 +22,11 @@ namespace System::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   class FileSystemEventArgs : public System::EventArgs {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.IO.WatcherChangeTypes changeType
     // Size: 0x4
     // Offset: 0x10
@@ -42,6 +47,7 @@ namespace System::IO {
     ::Il2CppString* name;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: private System.IO.WatcherChangeTypes changeType
     System::IO::WatcherChangeTypes& dyn_changeType();
     // Get instance field reference: private System.String directory

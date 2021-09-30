@@ -21,6 +21,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO
@@ -72,12 +73,17 @@ namespace System::IO {
     class ReadDelegate;
     // Nested type: System::IO::FileStream::WriteDelegate
     class WriteDelegate;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Byte[] buf
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<uint8_t> buf;
+    ::ArrayW<uint8_t> buf;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.String name
     // Size: 0x8
     // Offset: 0x30
@@ -166,6 +172,7 @@ namespace System::IO {
     int64_t buf_start;
     // Field size check
     static_assert(sizeof(int64_t) == 0x8);
+    public:
     // static field const value: static System.Int32 DefaultBufferSize
     static constexpr const int DefaultBufferSize = 4096;
     // Get static field: static System.Int32 DefaultBufferSize
@@ -173,15 +180,15 @@ namespace System::IO {
     // Set static field: static System.Int32 DefaultBufferSize
     static void _set_DefaultBufferSize(int value);
     // Get static field: static private System.Byte[] buf_recycle
-    static ::ArrayWrapper<uint8_t> _get_buf_recycle();
+    static ::ArrayW<uint8_t> _get_buf_recycle();
     // Set static field: static private System.Byte[] buf_recycle
-    static void _set_buf_recycle(::ArrayWrapper<uint8_t> value);
+    static void _set_buf_recycle(::ArrayW<uint8_t> value);
     // Get static field: static private readonly System.Object buf_recycle_lock
     static ::Il2CppObject* _get_buf_recycle_lock();
     // Set static field: static private readonly System.Object buf_recycle_lock
     static void _set_buf_recycle_lock(::Il2CppObject* value);
     // Get instance field reference: private System.Byte[] buf
-    ::ArrayWrapper<uint8_t>& dyn_buf();
+    ::ArrayW<uint8_t>& dyn_buf();
     // Get instance field reference: private System.String name
     ::Il2CppString*& dyn_name();
     // Get instance field reference: private Microsoft.Win32.SafeHandles.SafeFileHandle safeHandle
@@ -298,16 +305,16 @@ namespace System::IO {
     void ExposeHandle();
     // private System.Int32 ReadInternal(System.Byte[] dest, System.Int32 offset, System.Int32 count)
     // Offset: 0x1AB92C4
-    int ReadInternal(::ArrayWrapper<uint8_t> dest, int offset, int count);
+    int ReadInternal(::ArrayW<uint8_t> dest, int offset, int count);
     // private System.Void WriteInternal(System.Byte[] src, System.Int32 offset, System.Int32 count)
     // Offset: 0x1AB9CD8
-    void WriteInternal(::ArrayWrapper<uint8_t> src, int offset, int count);
+    void WriteInternal(::ArrayW<uint8_t> src, int offset, int count);
     // private System.Int32 ReadSegment(System.Byte[] dest, System.Int32 dest_offset, System.Int32 count)
     // Offset: 0x1AB936C
-    int ReadSegment(::ArrayWrapper<uint8_t> dest, int dest_offset, int count);
+    int ReadSegment(::ArrayW<uint8_t> dest, int dest_offset, int count);
     // private System.Int32 WriteSegment(System.Byte[] src, System.Int32 src_offset, System.Int32 count)
     // Offset: 0x1AB9FCC
-    int WriteSegment(::ArrayWrapper<uint8_t> src, int src_offset, int count);
+    int WriteSegment(::ArrayW<uint8_t> src, int src_offset, int count);
     // private System.Void FlushBuffer()
     // Offset: 0x1AB8A7C
     void FlushBuffer();
@@ -319,7 +326,7 @@ namespace System::IO {
     void RefillBuffer();
     // private System.Int32 ReadData(System.Runtime.InteropServices.SafeHandle safeHandle, System.Byte[] buf, System.Int32 offset, System.Int32 count)
     // Offset: 0x1AB8D8C
-    int ReadData(System::Runtime::InteropServices::SafeHandle* safeHandle, ::ArrayWrapper<uint8_t> buf, int offset, int count);
+    int ReadData(System::Runtime::InteropServices::SafeHandle* safeHandle, ::ArrayW<uint8_t> buf, int offset, int count);
     // private System.Void InitBuffer(System.Int32 size, System.Boolean isZeroSize)
     // Offset: 0x1AB81B0
     void InitBuffer(int size, bool isZeroSize);
@@ -378,12 +385,12 @@ namespace System::IO {
     // Offset: 0x1AB9080
     // Implemented from: System.IO.Stream
     // Base method: System.Int32 Stream::Read(in System.Byte[] array, System.Int32 offset, System.Int32 count)
-    int Read(ByRef<::ArrayWrapper<uint8_t>> array, int offset, int count);
+    int Read(ByRef<::ArrayW<uint8_t>> array, int offset, int count);
     // public override System.IAsyncResult BeginRead(System.Byte[] array, System.Int32 offset, System.Int32 numBytes, System.AsyncCallback userCallback, System.Object stateObject)
     // Offset: 0x1AB9434
     // Implemented from: System.IO.Stream
     // Base method: System.IAsyncResult Stream::BeginRead(System.Byte[] array, System.Int32 offset, System.Int32 numBytes, System.AsyncCallback userCallback, System.Object stateObject)
-    System::IAsyncResult* BeginRead(::ArrayWrapper<uint8_t> array, int offset, int numBytes, System::AsyncCallback* userCallback, ::Il2CppObject* stateObject);
+    System::IAsyncResult* BeginRead(::ArrayW<uint8_t> array, int offset, int numBytes, System::AsyncCallback* userCallback, ::Il2CppObject* stateObject);
     // public override System.Int32 EndRead(System.IAsyncResult asyncResult)
     // Offset: 0x1AB9744
     // Implemented from: System.IO.Stream
@@ -393,12 +400,12 @@ namespace System::IO {
     // Offset: 0x1AB9AB8
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::Write(System.Byte[] array, System.Int32 offset, System.Int32 count)
-    void Write(::ArrayWrapper<uint8_t> array, int offset, int count);
+    void Write(::ArrayW<uint8_t> array, int offset, int count);
     // public override System.IAsyncResult BeginWrite(System.Byte[] array, System.Int32 offset, System.Int32 numBytes, System.AsyncCallback userCallback, System.Object stateObject)
     // Offset: 0x1ABA048
     // Implemented from: System.IO.Stream
     // Base method: System.IAsyncResult Stream::BeginWrite(System.Byte[] array, System.Int32 offset, System.Int32 numBytes, System.AsyncCallback userCallback, System.Object stateObject)
-    System::IAsyncResult* BeginWrite(::ArrayWrapper<uint8_t> array, int offset, int numBytes, System::AsyncCallback* userCallback, ::Il2CppObject* stateObject);
+    System::IAsyncResult* BeginWrite(::ArrayW<uint8_t> array, int offset, int numBytes, System::AsyncCallback* userCallback, ::Il2CppObject* stateObject);
     // public override System.Void EndWrite(System.IAsyncResult asyncResult)
     // Offset: 0x1ABA444
     // Implemented from: System.IO.Stream
@@ -433,12 +440,12 @@ namespace System::IO {
     // Offset: 0x1ABB108
     // Implemented from: System.IO.Stream
     // Base method: System.Threading.Tasks.Task`1<System.Int32> Stream::ReadAsync(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.Threading.CancellationToken cancellationToken)
-    System::Threading::Tasks::Task_1<int>* ReadAsync(::ArrayWrapper<uint8_t> buffer, int offset, int count, System::Threading::CancellationToken cancellationToken);
+    System::Threading::Tasks::Task_1<int>* ReadAsync(::ArrayW<uint8_t> buffer, int offset, int count, System::Threading::CancellationToken cancellationToken);
     // public override System.Threading.Tasks.Task WriteAsync(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.Threading.CancellationToken cancellationToken)
     // Offset: 0x1ABB1CC
     // Implemented from: System.IO.Stream
     // Base method: System.Threading.Tasks.Task Stream::WriteAsync(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.Threading.CancellationToken cancellationToken)
-    System::Threading::Tasks::Task* WriteAsync(::ArrayWrapper<uint8_t> buffer, int offset, int count, System::Threading::CancellationToken cancellationToken);
+    System::Threading::Tasks::Task* WriteAsync(::ArrayW<uint8_t> buffer, int offset, int count, System::Threading::CancellationToken cancellationToken);
   }; // System.IO.FileStream
   #pragma pack(pop)
   static check_size<sizeof(FileStream), 104 + sizeof(int64_t)> __System_IO_FileStreamSizeCheck;
@@ -523,7 +530,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::IO::FileStream::ReadInternal
 // Il2CppName: ReadInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::FileStream::*)(::ArrayWrapper<uint8_t>, int, int)>(&System::IO::FileStream::ReadInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::FileStream::*)(::ArrayW<uint8_t>, int, int)>(&System::IO::FileStream::ReadInternal)> {
   static const MethodInfo* get() {
     static auto* dest = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -534,7 +541,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::IO::FileStream::WriteInternal
 // Il2CppName: WriteInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::FileStream::*)(::ArrayWrapper<uint8_t>, int, int)>(&System::IO::FileStream::WriteInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::FileStream::*)(::ArrayW<uint8_t>, int, int)>(&System::IO::FileStream::WriteInternal)> {
   static const MethodInfo* get() {
     static auto* src = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -545,7 +552,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::IO::FileStream::ReadSegment
 // Il2CppName: ReadSegment
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::FileStream::*)(::ArrayWrapper<uint8_t>, int, int)>(&System::IO::FileStream::ReadSegment)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::FileStream::*)(::ArrayW<uint8_t>, int, int)>(&System::IO::FileStream::ReadSegment)> {
   static const MethodInfo* get() {
     static auto* dest = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* dest_offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -556,7 +563,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::IO::FileStream::WriteSegment
 // Il2CppName: WriteSegment
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::FileStream::*)(::ArrayWrapper<uint8_t>, int, int)>(&System::IO::FileStream::WriteSegment)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::FileStream::*)(::ArrayW<uint8_t>, int, int)>(&System::IO::FileStream::WriteSegment)> {
   static const MethodInfo* get() {
     static auto* src = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* src_offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -591,7 +598,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::IO::FileStream::ReadData
 // Il2CppName: ReadData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::FileStream::*)(System::Runtime::InteropServices::SafeHandle*, ::ArrayWrapper<uint8_t>, int, int)>(&System::IO::FileStream::ReadData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::FileStream::*)(System::Runtime::InteropServices::SafeHandle*, ::ArrayW<uint8_t>, int, int)>(&System::IO::FileStream::ReadData)> {
   static const MethodInfo* get() {
     static auto* safeHandle = &::il2cpp_utils::GetClassFromName("System.Runtime.InteropServices", "SafeHandle")->byval_arg;
     static auto* buf = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -706,7 +713,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::IO::FileStream::Read
 // Il2CppName: Read
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::FileStream::*)(ByRef<::ArrayWrapper<uint8_t>>, int, int)>(&System::IO::FileStream::Read)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::FileStream::*)(ByRef<::ArrayW<uint8_t>>, int, int)>(&System::IO::FileStream::Read)> {
   static const MethodInfo* get() {
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->this_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -717,7 +724,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::IO::FileStream::BeginRead
 // Il2CppName: BeginRead
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::IO::FileStream::*)(::ArrayWrapper<uint8_t>, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::IO::FileStream::BeginRead)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::IO::FileStream::*)(::ArrayW<uint8_t>, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::IO::FileStream::BeginRead)> {
   static const MethodInfo* get() {
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -739,7 +746,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::IO::FileStream::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::FileStream::*)(::ArrayWrapper<uint8_t>, int, int)>(&System::IO::FileStream::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::FileStream::*)(::ArrayW<uint8_t>, int, int)>(&System::IO::FileStream::Write)> {
   static const MethodInfo* get() {
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -750,7 +757,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::IO::FileStream::BeginWrite
 // Il2CppName: BeginWrite
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::IO::FileStream::*)(::ArrayWrapper<uint8_t>, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::IO::FileStream::BeginWrite)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::IO::FileStream::*)(::ArrayW<uint8_t>, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::IO::FileStream::BeginWrite)> {
   static const MethodInfo* get() {
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -816,7 +823,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::IO::FileStream::ReadAsync
 // Il2CppName: ReadAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<int>* (System::IO::FileStream::*)(::ArrayWrapper<uint8_t>, int, int, System::Threading::CancellationToken)>(&System::IO::FileStream::ReadAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<int>* (System::IO::FileStream::*)(::ArrayW<uint8_t>, int, int, System::Threading::CancellationToken)>(&System::IO::FileStream::ReadAsync)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -828,7 +835,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: System::IO::FileStream::WriteAsync
 // Il2CppName: WriteAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (System::IO::FileStream::*)(::ArrayWrapper<uint8_t>, int, int, System::Threading::CancellationToken)>(&System::IO::FileStream::WriteAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (System::IO::FileStream::*)(::ArrayW<uint8_t>, int, int, System::Threading::CancellationToken)>(&System::IO::FileStream::WriteAsync)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

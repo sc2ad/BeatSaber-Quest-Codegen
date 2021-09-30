@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections
@@ -37,6 +38,11 @@ namespace Microsoft::Win32 {
   // [TokenAttribute] Offset: FFFFFFFF
   class KeyHandler : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.String Dir
     // Size: 0x8
     // Offset: 0x10
@@ -75,6 +81,7 @@ namespace Microsoft::Win32 {
     bool dirty;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get static field: static private System.Collections.Hashtable key_to_handler
     static System::Collections::Hashtable* _get_key_to_handler();
     // Set static field: static private System.Collections.Hashtable key_to_handler
@@ -176,7 +183,7 @@ namespace Microsoft::Win32 {
     ::Il2CppObject* GetValue(::Il2CppString* name, Microsoft::Win32::RegistryValueOptions options);
     // public System.String[] GetSubKeyNames()
     // Offset: 0x1C2DD4C
-    ::ArrayWrapper<::Il2CppString*> GetSubKeyNames();
+    ::ArrayW<::Il2CppString*> GetSubKeyNames();
     // public System.Void Flush()
     // Offset: 0x1C2E178
     void Flush();
@@ -382,7 +389,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: Microsoft::Win32::KeyHandler::GetSubKeyNames
 // Il2CppName: GetSubKeyNames
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppString*> (Microsoft::Win32::KeyHandler::*)()>(&Microsoft::Win32::KeyHandler::GetSubKeyNames)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (Microsoft::Win32::KeyHandler::*)()>(&Microsoft::Win32::KeyHandler::GetSubKeyNames)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::KeyHandler*), "GetSubKeyNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

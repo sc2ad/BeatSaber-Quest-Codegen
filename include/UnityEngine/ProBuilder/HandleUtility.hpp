@@ -9,6 +9,7 @@
 #include "UnityEngine/Vector3.hpp"
 // Including type: UnityEngine.ProBuilder.Edge
 #include "UnityEngine/ProBuilder/Edge.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -85,7 +86,7 @@ namespace UnityEngine::ProBuilder {
     static bool MeshRaycast(UnityEngine::Ray InWorldRay, UnityEngine::GameObject* gameObject, ByRef<UnityEngine::ProBuilder::RaycastHit*> hit, float distance);
     // static System.Boolean MeshRaycast(UnityEngine.Ray InRay, UnityEngine.Vector3[] mesh, System.Int32[] triangles, out UnityEngine.ProBuilder.RaycastHit hit, System.Single distance)
     // Offset: 0x1C78A08
-    static bool MeshRaycast(UnityEngine::Ray InRay, ::ArrayWrapper<UnityEngine::Vector3> mesh, ::ArrayWrapper<int> triangles, ByRef<UnityEngine::ProBuilder::RaycastHit*> hit, float distance);
+    static bool MeshRaycast(UnityEngine::Ray InRay, ::ArrayW<UnityEngine::Vector3> mesh, ::ArrayW<int> triangles, ByRef<UnityEngine::ProBuilder::RaycastHit*> hit, float distance);
     // static System.Boolean PointIsOccluded(UnityEngine.Camera cam, UnityEngine.ProBuilder.ProBuilderMesh pb, UnityEngine.Vector3 worldPoint)
     // Offset: 0x1C79024
     static bool PointIsOccluded(UnityEngine::Camera* cam, UnityEngine::ProBuilder::ProBuilderMesh* pb, UnityEngine::Vector3 worldPoint);
@@ -212,7 +213,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::HandleUtility::MeshRaycast
 // Il2CppName: MeshRaycast
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Ray, ::ArrayWrapper<UnityEngine::Vector3>, ::ArrayWrapper<int>, ByRef<UnityEngine::ProBuilder::RaycastHit*>, float)>(&UnityEngine::ProBuilder::HandleUtility::MeshRaycast)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::Ray, ::ArrayW<UnityEngine::Vector3>, ::ArrayW<int>, ByRef<UnityEngine::ProBuilder::RaycastHit*>, float)>(&UnityEngine::ProBuilder::HandleUtility::MeshRaycast)> {
   static const MethodInfo* get() {
     static auto* InRay = &::il2cpp_utils::GetClassFromName("UnityEngine", "Ray")->byval_arg;
     static auto* mesh = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;

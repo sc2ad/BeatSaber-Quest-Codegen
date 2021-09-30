@@ -21,12 +21,18 @@ namespace HMUI {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class ScrollView::$$c__DisplayClass56_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Single threshold
     // Size: 0x4
     // Offset: 0x10
     float threshold;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating conversion operator: operator float
     constexpr operator float() const noexcept {
       return threshold;

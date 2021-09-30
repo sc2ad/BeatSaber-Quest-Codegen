@@ -20,6 +20,11 @@ namespace Libraries::HM::HMLib::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   class HapticPresetSO : public UnityEngine::ScriptableObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Single _duration
     // Size: 0x4
     // Offset: 0x18
@@ -44,6 +49,7 @@ namespace Libraries::HM::HMLib::VR {
     bool continuous;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.Single _duration

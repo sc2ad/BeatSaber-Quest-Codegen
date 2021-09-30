@@ -29,6 +29,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PresetsSettingsController : public GlobalNamespace::ListSettingsController {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private IntSO _settingsValue
     // Size: 0x8
     // Offset: 0x28
@@ -56,6 +61,7 @@ namespace GlobalNamespace {
     int numberOfElementsLimit;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: private IntSO _settingsValue
     GlobalNamespace::IntSO*& dyn__settingsValue();
     // Get instance field reference: private NamedPresetsSO _presets

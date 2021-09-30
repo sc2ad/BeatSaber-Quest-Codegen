@@ -18,6 +18,11 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class Authorization : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String m_Message
     // Size: 0x8
     // Offset: 0x10
@@ -38,6 +43,7 @@ namespace System::Net {
     ::Il2CppString* ModuleAuthenticationType;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: private System.String m_Message
     ::Il2CppString*& dyn_m_Message();
     // Get instance field reference: private System.Boolean m_Complete

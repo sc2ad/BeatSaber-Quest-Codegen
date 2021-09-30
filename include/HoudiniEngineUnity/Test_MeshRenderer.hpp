@@ -27,12 +27,18 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class Test_MeshRenderer : public ::Il2CppObject/*, public HoudiniEngineUnity::IEquivableWrapperClass_1<HoudiniEngineUnity::Test_MeshRenderer*>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.MeshRenderer self
     // Size: 0x8
     // Offset: 0x10
     UnityEngine::MeshRenderer* self;
     // Field size check
     static_assert(sizeof(UnityEngine::MeshRenderer*) == 0x8);
+    public:
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivableWrapperClass_1<HoudiniEngineUnity::Test_MeshRenderer*>
     operator HoudiniEngineUnity::IEquivableWrapperClass_1<HoudiniEngineUnity::Test_MeshRenderer*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivableWrapperClass_1<HoudiniEngineUnity::Test_MeshRenderer*>*>(this);

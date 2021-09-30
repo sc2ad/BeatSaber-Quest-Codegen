@@ -76,6 +76,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GameServerPlayersTableView : public UnityEngine::MonoBehaviour/*, public HMUI::TableView::IDataSource*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private HMUI.TableView _tableView
     // Size: 0x8
     // Offset: 0x18
@@ -194,6 +199,7 @@ namespace GlobalNamespace {
     GlobalNamespace::ILobbyPlayersDataModel* lobbyPlayersDataModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ILobbyPlayersDataModel*) == 0x8);
+    public:
     // Creating interface conversion operator: operator HMUI::TableView::IDataSource
     operator HMUI::TableView::IDataSource() noexcept {
       return *reinterpret_cast<HMUI::TableView::IDataSource*>(this);

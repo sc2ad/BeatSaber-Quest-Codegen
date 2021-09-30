@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HMUI
@@ -44,6 +45,11 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class ColorGradientSlider : public HMUI::TextSlider {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String _textPrefix
     // Size: 0x8
     // Offset: 0x140
@@ -66,9 +72,9 @@ namespace HMUI {
     // private HMUI.ImageView[] _gradientImages
     // Size: 0x8
     // Offset: 0x168
-    ::ArrayWrapper<HMUI::ImageView*> gradientImages;
+    ::ArrayW<HMUI::ImageView*> gradientImages;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<HMUI::ImageView*>) == 0x8);
+    static_assert(sizeof(::ArrayW<HMUI::ImageView*>) == 0x8);
     // private UnityEngine.Color _darkColor
     // Size: 0x10
     // Offset: 0x170
@@ -87,6 +93,7 @@ namespace HMUI {
     System::Action_3<HMUI::ColorGradientSlider*, UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType>* colorDidChangeEvent;
     // Field size check
     static_assert(sizeof(System::Action_3<HMUI::ColorGradientSlider*, UnityEngine::Color, GlobalNamespace::ColorChangeUIEventType>*) == 0x8);
+    public:
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEE2238
     // Get static field: static private readonly System.Text.StringBuilder _stringBuilder
     static System::Text::StringBuilder* _get__stringBuilder();
@@ -99,7 +106,7 @@ namespace HMUI {
     // Get instance field reference: private UnityEngine.Color _color1
     UnityEngine::Color& dyn__color1();
     // Get instance field reference: private HMUI.ImageView[] _gradientImages
-    ::ArrayWrapper<HMUI::ImageView*>& dyn__gradientImages();
+    ::ArrayW<HMUI::ImageView*>& dyn__gradientImages();
     // Get instance field reference: private UnityEngine.Color _darkColor
     UnityEngine::Color& dyn__darkColor();
     // Get instance field reference: private UnityEngine.Color _lightColor

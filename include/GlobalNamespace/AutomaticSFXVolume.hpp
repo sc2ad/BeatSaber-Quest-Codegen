@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -32,6 +33,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::AutomaticSFXVolume::InitData
     class InitData;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private AutomaticSFXVolumeParamsSO _params
     // Size: 0x8
     // Offset: 0x18
@@ -100,6 +106,7 @@ namespace GlobalNamespace {
     float maxVolume;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Single kBaseVolume
@@ -144,7 +151,7 @@ namespace GlobalNamespace {
     void RecalculateParams();
     // protected System.Void OnAudioFilterRead(System.Single[] data, System.Int32 channels)
     // Offset: 0x1249530
-    void OnAudioFilterRead(::ArrayWrapper<float> data, int channels);
+    void OnAudioFilterRead(::ArrayW<float> data, int channels);
     // protected System.Void Update()
     // Offset: 0x1249734
     void Update();
@@ -203,7 +210,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::AutomaticSFXVolume::OnAudioFilterRead
 // Il2CppName: OnAudioFilterRead
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AutomaticSFXVolume::*)(::ArrayWrapper<float>, int)>(&GlobalNamespace::AutomaticSFXVolume::OnAudioFilterRead)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AutomaticSFXVolume::*)(::ArrayW<float>, int)>(&GlobalNamespace::AutomaticSFXVolume::OnAudioFilterRead)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     static auto* channels = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

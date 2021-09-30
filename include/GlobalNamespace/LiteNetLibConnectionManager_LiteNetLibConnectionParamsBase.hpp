@@ -22,6 +22,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LiteNetLibConnectionManager::LiteNetLibConnectionParamsBase : public ::Il2CppObject/*, public GlobalNamespace::IConnectionInitParams_1<GlobalNamespace::LiteNetLibConnectionManager*>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.String userId
     // Size: 0x8
     // Offset: 0x10
@@ -76,6 +81,7 @@ namespace GlobalNamespace {
     int disconnectTimeoutMs;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IConnectionInitParams_1<GlobalNamespace::LiteNetLibConnectionManager*>
     operator GlobalNamespace::IConnectionInitParams_1<GlobalNamespace::LiteNetLibConnectionManager*>() noexcept {
       return *reinterpret_cast<GlobalNamespace::IConnectionInitParams_1<GlobalNamespace::LiteNetLibConnectionManager*>*>(this);

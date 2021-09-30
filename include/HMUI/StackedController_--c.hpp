@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HMUI
@@ -37,7 +38,7 @@ namespace HMUI {
     static void _cctor();
     // System.Void <PushViewController>g__AnimationLayouter|3_0(System.Single t, HMUI.ViewController[] viewControllers)
     // Offset: 0x141D8B0
-    void $PushViewController$g__AnimationLayouter_3_0(float t, ::ArrayWrapper<HMUI::ViewController*> viewControllers);
+    void $PushViewController$g__AnimationLayouter_3_0(float t, ::ArrayW<HMUI::ViewController*> viewControllers);
     // public System.Void .ctor()
     // Offset: 0x141D8A8
     // Implemented from: System.Object
@@ -63,7 +64,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: HMUI::StackedController::$$c::$PushViewController$g__AnimationLayouter_3_0
 // Il2CppName: <PushViewController>g__AnimationLayouter|3_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::StackedController::$$c::*)(float, ::ArrayWrapper<HMUI::ViewController*>)>(&HMUI::StackedController::$$c::$PushViewController$g__AnimationLayouter_3_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::StackedController::$$c::*)(float, ::ArrayW<HMUI::ViewController*>)>(&HMUI::StackedController::$$c::$PushViewController$g__AnimationLayouter_3_0)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* viewControllers = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("HMUI", "ViewController"), 1)->byval_arg;

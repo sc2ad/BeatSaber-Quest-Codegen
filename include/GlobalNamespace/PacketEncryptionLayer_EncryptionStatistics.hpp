@@ -20,6 +20,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PacketEncryptionLayer::EncryptionStatistics : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int64 _packetsReceivedPlaintext
     // Size: 0x8
     // Offset: 0x10
@@ -68,6 +73,7 @@ namespace GlobalNamespace {
     int64_t decryptionProcessingTime;
     // Field size check
     static_assert(sizeof(int64_t) == 0x8);
+    public:
     // Get instance field reference: private System.Int64 _packetsReceivedPlaintext
     int64_t& dyn__packetsReceivedPlaintext();
     // Get instance field reference: private System.Int64 _packetsReceivedEncrypted

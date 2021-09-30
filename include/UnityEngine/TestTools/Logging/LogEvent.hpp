@@ -20,6 +20,11 @@ namespace UnityEngine::TestTools::Logging {
   // [TokenAttribute] Offset: FFFFFFFF
   class LogEvent : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String <Message>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -44,6 +49,7 @@ namespace UnityEngine::TestTools::Logging {
     bool IsHandled;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private System.String <Message>k__BackingField
     ::Il2CppString*& dyn_$Message$k__BackingField();
     // Get instance field reference: private System.String <StackTrace>k__BackingField

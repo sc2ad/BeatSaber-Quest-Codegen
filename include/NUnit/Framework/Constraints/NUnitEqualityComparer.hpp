@@ -68,6 +68,11 @@ namespace NUnit::Framework::Constraints {
     public:
     // Nested type: NUnit::Framework::Constraints::NUnitEqualityComparer::FailurePoint
     class FailurePoint;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean caseInsensitive
     // Size: 0x1
     // Offset: 0x10
@@ -101,6 +106,7 @@ namespace NUnit::Framework::Constraints {
     bool WithSameOffset;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get static field: static private readonly System.Int32 BUFFER_SIZE
     static int _get_BUFFER_SIZE();
     // Set static field: static private readonly System.Int32 BUFFER_SIZE

@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -54,6 +55,11 @@ namespace GlobalNamespace {
     class $AfterOneFrame$d__18;
     // Nested type: GlobalNamespace::StandaloneMonobehavior::$RunAsyncCoroutine$d__21
     class $RunAsyncCoroutine$d__21;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean _isReady
     // Size: 0x1
     // Offset: 0x18
@@ -71,15 +77,16 @@ namespace GlobalNamespace {
     // private UnityEngine.FrameTiming[] _lastFrameTimings
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<UnityEngine::FrameTiming> lastFrameTimings;
+    ::ArrayW<UnityEngine::FrameTiming> lastFrameTimings;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::FrameTiming>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::FrameTiming>) == 0x8);
     // private System.Int32 _lastFrameTimeCount
     // Size: 0x4
     // Offset: 0x28
     int lastFrameTimeCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Boolean _isReady
@@ -87,7 +94,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _startTime
     float& dyn__startTime();
     // Get instance field reference: private UnityEngine.FrameTiming[] _lastFrameTimings
-    ::ArrayWrapper<UnityEngine::FrameTiming>& dyn__lastFrameTimings();
+    ::ArrayW<UnityEngine::FrameTiming>& dyn__lastFrameTimings();
     // Get instance field reference: private System.Int32 _lastFrameTimeCount
     int& dyn__lastFrameTimeCount();
     // public System.Single get_objectLifeTime()

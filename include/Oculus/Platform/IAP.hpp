@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Oculus::Platform
@@ -38,7 +39,7 @@ namespace Oculus::Platform {
     static Oculus::Platform::Request* ConsumePurchase(::Il2CppString* sku);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.ProductList> GetProductsBySKU(System.String[] skus)
     // Offset: 0x16ACDC4
-    static Oculus::Platform::Request_1<Oculus::Platform::Models::ProductList*>* GetProductsBySKU(::ArrayWrapper<::Il2CppString*> skus);
+    static Oculus::Platform::Request_1<Oculus::Platform::Models::ProductList*>* GetProductsBySKU(::ArrayW<::Il2CppString*> skus);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.PurchaseList> GetViewerPurchases()
     // Offset: 0x16ACEF4
     static Oculus::Platform::Request_1<Oculus::Platform::Models::PurchaseList*>* GetViewerPurchases();
@@ -72,7 +73,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Writing MetadataGetter for method: Oculus::Platform::IAP::GetProductsBySKU
 // Il2CppName: GetProductsBySKU
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::ProductList*>* (*)(::ArrayWrapper<::Il2CppString*>)>(&Oculus::Platform::IAP::GetProductsBySKU)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::ProductList*>* (*)(::ArrayW<::Il2CppString*>)>(&Oculus::Platform::IAP::GetProductsBySKU)> {
   static const MethodInfo* get() {
     static auto* skus = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::IAP*), "GetProductsBySKU", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{skus});

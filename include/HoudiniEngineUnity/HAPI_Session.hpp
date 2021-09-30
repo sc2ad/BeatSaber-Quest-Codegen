@@ -19,6 +19,11 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HAPI_Session/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public HoudiniEngineUnity.HAPI_SessionType type
     // Size: 0x4
     // Offset: 0x0
@@ -33,6 +38,7 @@ namespace HoudiniEngineUnity {
     int64_t id;
     // Field size check
     static_assert(sizeof(int64_t) == 0x8);
+    public:
     // Creating value type constructor for type: HAPI_Session
     constexpr HAPI_Session(HoudiniEngineUnity::HAPI_SessionType type_ = {}, int64_t id_ = {}) noexcept : type{type_}, id{id_} {}
     // Creating interface conversion operator: operator System::ValueType

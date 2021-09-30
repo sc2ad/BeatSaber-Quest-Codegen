@@ -12,6 +12,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -66,7 +67,7 @@ namespace Zenject {
     }
     // public Zenject.FromBinderNonGeneric To(params System.Type[] concreteTypes)
     // Offset: 0x14F7E40
-    Zenject::FromBinderNonGeneric* To(::ArrayWrapper<System::Type*> concreteTypes);
+    Zenject::FromBinderNonGeneric* To(::ArrayW<System::Type*> concreteTypes);
     // public Zenject.FromBinderNonGeneric To(System.Collections.Generic.IEnumerable`1<System.Type> concreteTypes)
     // Offset: 0x14F7E44
     Zenject::FromBinderNonGeneric* To(System::Collections::Generic::IEnumerable_1<System::Type*>* concreteTypes);
@@ -105,7 +106,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Fr
 // Writing MetadataGetter for method: Zenject::ConcreteBinderNonGeneric::To
 // Il2CppName: To
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::FromBinderNonGeneric* (Zenject::ConcreteBinderNonGeneric::*)(::ArrayWrapper<System::Type*>)>(&Zenject::ConcreteBinderNonGeneric::To)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::FromBinderNonGeneric* (Zenject::ConcreteBinderNonGeneric::*)(::ArrayW<System::Type*>)>(&Zenject::ConcreteBinderNonGeneric::To)> {
   static const MethodInfo* get() {
     static auto* concreteTypes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Type"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::ConcreteBinderNonGeneric*), "To", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{concreteTypes});

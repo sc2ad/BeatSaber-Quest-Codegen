@@ -39,6 +39,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::BezierSplineEvaluator::CubicSolveResult
     struct CubicSolveResult;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Collections.Generic.List`1<BezierCurve> _segments
     // Size: 0x8
     // Offset: 0x10
@@ -51,6 +56,7 @@ namespace GlobalNamespace {
     int currentSegmentIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // static field const value: static private System.Single kSlightAboveOne
     static constexpr const float kSlightAboveOne = 1.0005;
     // Get static field: static private System.Single kSlightAboveOne

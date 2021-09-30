@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Zenject
@@ -30,6 +31,11 @@ namespace Zenject {
   // [NoReflectionBakingAttribute] Offset: EAD634
   class InjectTypeInfo::InjectMethodInfo : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly System.String Name
     // Size: 0x8
     // Offset: 0x10
@@ -45,25 +51,26 @@ namespace Zenject {
     // public readonly Zenject.InjectableInfo[] Parameters
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<Zenject::InjectableInfo*> Parameters;
+    ::ArrayW<Zenject::InjectableInfo*> Parameters;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<Zenject::InjectableInfo*>) == 0x8);
+    static_assert(sizeof(::ArrayW<Zenject::InjectableInfo*>) == 0x8);
+    public:
     // Get instance field reference: public readonly System.String Name
     ::Il2CppString*& dyn_Name();
     // Get instance field reference: public readonly Zenject.ZenInjectMethod Action
     Zenject::ZenInjectMethod*& dyn_Action();
     // Get instance field reference: public readonly Zenject.InjectableInfo[] Parameters
-    ::ArrayWrapper<Zenject::InjectableInfo*>& dyn_Parameters();
+    ::ArrayW<Zenject::InjectableInfo*>& dyn_Parameters();
     // public System.Void .ctor(Zenject.ZenInjectMethod action, Zenject.InjectableInfo[] parameters, System.String name)
     // Offset: 0x2610EA0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static InjectTypeInfo::InjectMethodInfo* New_ctor(Zenject::ZenInjectMethod* action, ::ArrayWrapper<Zenject::InjectableInfo*> parameters, ::Il2CppString* name) {
+    static InjectTypeInfo::InjectMethodInfo* New_ctor(Zenject::ZenInjectMethod* action, ::ArrayW<Zenject::InjectableInfo*> parameters, ::Il2CppString* name) {
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::InjectTypeInfo::InjectMethodInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<InjectTypeInfo::InjectMethodInfo*, creationType>(action, parameters, name)));
     }
   }; // Zenject.InjectTypeInfo/Zenject.InjectMethodInfo
   #pragma pack(pop)
-  static check_size<sizeof(InjectTypeInfo::InjectMethodInfo), 32 + sizeof(::ArrayWrapper<Zenject::InjectableInfo*>)> __Zenject_InjectTypeInfo_InjectMethodInfoSizeCheck;
+  static check_size<sizeof(InjectTypeInfo::InjectMethodInfo), 32 + sizeof(::ArrayW<Zenject::InjectableInfo*>)> __Zenject_InjectTypeInfo_InjectMethodInfoSizeCheck;
   static_assert(sizeof(InjectTypeInfo::InjectMethodInfo) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::InjectTypeInfo::InjectMethodInfo*, "Zenject", "InjectTypeInfo/InjectMethodInfo");

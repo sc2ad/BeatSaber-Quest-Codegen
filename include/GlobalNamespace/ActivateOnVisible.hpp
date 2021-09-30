@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -27,16 +28,22 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ActivateOnVisible : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.GameObject[] _gameObjects
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<UnityEngine::GameObject*> gameObjects;
+    ::ArrayW<UnityEngine::GameObject*> gameObjects;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::GameObject*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::GameObject*>) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public UnityEngine.GameObject[] _gameObjects
-    ::ArrayWrapper<UnityEngine::GameObject*>& dyn__gameObjects();
+    ::ArrayW<UnityEngine::GameObject*>& dyn__gameObjects();
     // protected System.Void Awake()
     // Offset: 0x13784E8
     void Awake();
@@ -61,7 +68,7 @@ namespace GlobalNamespace {
     }
   }; // ActivateOnVisible
   #pragma pack(pop)
-  static check_size<sizeof(ActivateOnVisible), 24 + sizeof(::ArrayWrapper<UnityEngine::GameObject*>)> __GlobalNamespace_ActivateOnVisibleSizeCheck;
+  static check_size<sizeof(ActivateOnVisible), 24 + sizeof(::ArrayW<UnityEngine::GameObject*>)> __GlobalNamespace_ActivateOnVisibleSizeCheck;
   static_assert(sizeof(ActivateOnVisible) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ActivateOnVisible*, "", "ActivateOnVisible");

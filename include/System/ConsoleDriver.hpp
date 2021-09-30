@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -63,7 +64,7 @@ namespace System {
     static int InternalKeyAvailable(int ms_timeout);
     // static System.Boolean TtySetup(System.String keypadXmit, System.String teardown, out System.Byte[] control_characters, out System.Int32* address)
     // Offset: 0x1B19600
-    static bool TtySetup(::Il2CppString* keypadXmit, ::Il2CppString* teardown, ByRef<::ArrayWrapper<uint8_t>> control_characters, ByRef<int*> address);
+    static bool TtySetup(::Il2CppString* keypadXmit, ::Il2CppString* teardown, ByRef<::ArrayW<uint8_t>> control_characters, ByRef<int*> address);
     // static System.Boolean SetEcho(System.Boolean wantEcho)
     // Offset: 0x1B19604
     static bool SetEcho(bool wantEcho);
@@ -144,7 +145,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 // Writing MetadataGetter for method: System::ConsoleDriver::TtySetup
 // Il2CppName: TtySetup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Il2CppString*, ByRef<::ArrayWrapper<uint8_t>>, ByRef<int*>)>(&System::ConsoleDriver::TtySetup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::Il2CppString*, ByRef<::ArrayW<uint8_t>>, ByRef<int*>)>(&System::ConsoleDriver::TtySetup)> {
   static const MethodInfo* get() {
     static auto* keypadXmit = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* teardown = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

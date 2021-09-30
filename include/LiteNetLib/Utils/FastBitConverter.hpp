@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: LiteNetLib::Utils
@@ -25,37 +26,37 @@ namespace LiteNetLib::Utils {
     struct ConverterHelperFloat;
     // static private System.Void WriteLittleEndian(System.Byte[] buffer, System.Int32 offset, System.UInt64 data)
     // Offset: 0x1DE1CB8
-    static void WriteLittleEndian(::ArrayWrapper<uint8_t> buffer, int offset, uint64_t data);
+    static void WriteLittleEndian(::ArrayW<uint8_t> buffer, int offset, uint64_t data);
     // static private System.Void WriteLittleEndian(System.Byte[] buffer, System.Int32 offset, System.Int32 data)
     // Offset: 0x1DE1DB4
-    static void WriteLittleEndian(::ArrayWrapper<uint8_t> buffer, int offset, int data);
+    static void WriteLittleEndian(::ArrayW<uint8_t> buffer, int offset, int data);
     // static public System.Void WriteLittleEndian(System.Byte[] buffer, System.Int32 offset, System.Int16 data)
     // Offset: 0x1DE1E40
-    static void WriteLittleEndian(::ArrayWrapper<uint8_t> buffer, int offset, int16_t data);
+    static void WriteLittleEndian(::ArrayW<uint8_t> buffer, int offset, int16_t data);
     // static public System.Void GetBytes(System.Byte[] bytes, System.Int32 startIndex, System.Double value)
     // Offset: 0x1DE1E94
-    static void GetBytes(::ArrayWrapper<uint8_t> bytes, int startIndex, double value);
+    static void GetBytes(::ArrayW<uint8_t> bytes, int startIndex, double value);
     // static public System.Void GetBytes(System.Byte[] bytes, System.Int32 startIndex, System.Single value)
     // Offset: 0x1DE1E9C
-    static void GetBytes(::ArrayWrapper<uint8_t> bytes, int startIndex, float value);
+    static void GetBytes(::ArrayW<uint8_t> bytes, int startIndex, float value);
     // static public System.Void GetBytes(System.Byte[] bytes, System.Int32 startIndex, System.Int16 value)
     // Offset: 0x1DE1EA4
-    static void GetBytes(::ArrayWrapper<uint8_t> bytes, int startIndex, int16_t value);
+    static void GetBytes(::ArrayW<uint8_t> bytes, int startIndex, int16_t value);
     // static public System.Void GetBytes(System.Byte[] bytes, System.Int32 startIndex, System.UInt16 value)
     // Offset: 0x1DDC7CC
-    static void GetBytes(::ArrayWrapper<uint8_t> bytes, int startIndex, uint16_t value);
+    static void GetBytes(::ArrayW<uint8_t> bytes, int startIndex, uint16_t value);
     // static public System.Void GetBytes(System.Byte[] bytes, System.Int32 startIndex, System.Int32 value)
     // Offset: 0x1DD6028
-    static void GetBytes(::ArrayWrapper<uint8_t> bytes, int startIndex, int value);
+    static void GetBytes(::ArrayW<uint8_t> bytes, int startIndex, int value);
     // static public System.Void GetBytes(System.Byte[] bytes, System.Int32 startIndex, System.UInt32 value)
     // Offset: 0x1DD4350
-    static void GetBytes(::ArrayWrapper<uint8_t> bytes, int startIndex, uint value);
+    static void GetBytes(::ArrayW<uint8_t> bytes, int startIndex, uint value);
     // static public System.Void GetBytes(System.Byte[] bytes, System.Int32 startIndex, System.Int64 value)
     // Offset: 0x1DD5BE8
-    static void GetBytes(::ArrayWrapper<uint8_t> bytes, int startIndex, int64_t value);
+    static void GetBytes(::ArrayW<uint8_t> bytes, int startIndex, int64_t value);
     // static public System.Void GetBytes(System.Byte[] bytes, System.Int32 startIndex, System.UInt64 value)
     // Offset: 0x1DE1EA8
-    static void GetBytes(::ArrayWrapper<uint8_t> bytes, int startIndex, uint64_t value);
+    static void GetBytes(::ArrayW<uint8_t> bytes, int startIndex, uint64_t value);
   }; // LiteNetLib.Utils.FastBitConverter
   #pragma pack(pop)
 }
@@ -65,7 +66,7 @@ DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::FastBitConverter*, "LiteNetLib.Utils",
 // Writing MetadataGetter for method: LiteNetLib::Utils::FastBitConverter::WriteLittleEndian
 // Il2CppName: WriteLittleEndian
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint8_t>, int, uint64_t)>(&LiteNetLib::Utils::FastBitConverter::WriteLittleEndian)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t>, int, uint64_t)>(&LiteNetLib::Utils::FastBitConverter::WriteLittleEndian)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -76,7 +77,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: LiteNetLib::Utils::FastBitConverter::WriteLittleEndian
 // Il2CppName: WriteLittleEndian
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint8_t>, int, int)>(&LiteNetLib::Utils::FastBitConverter::WriteLittleEndian)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t>, int, int)>(&LiteNetLib::Utils::FastBitConverter::WriteLittleEndian)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -87,7 +88,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: LiteNetLib::Utils::FastBitConverter::WriteLittleEndian
 // Il2CppName: WriteLittleEndian
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint8_t>, int, int16_t)>(&LiteNetLib::Utils::FastBitConverter::WriteLittleEndian)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t>, int, int16_t)>(&LiteNetLib::Utils::FastBitConverter::WriteLittleEndian)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -98,7 +99,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: LiteNetLib::Utils::FastBitConverter::GetBytes
 // Il2CppName: GetBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint8_t>, int, double)>(&LiteNetLib::Utils::FastBitConverter::GetBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t>, int, double)>(&LiteNetLib::Utils::FastBitConverter::GetBytes)> {
   static const MethodInfo* get() {
     static auto* bytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -109,7 +110,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: LiteNetLib::Utils::FastBitConverter::GetBytes
 // Il2CppName: GetBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint8_t>, int, float)>(&LiteNetLib::Utils::FastBitConverter::GetBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t>, int, float)>(&LiteNetLib::Utils::FastBitConverter::GetBytes)> {
   static const MethodInfo* get() {
     static auto* bytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -120,7 +121,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: LiteNetLib::Utils::FastBitConverter::GetBytes
 // Il2CppName: GetBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint8_t>, int, int16_t)>(&LiteNetLib::Utils::FastBitConverter::GetBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t>, int, int16_t)>(&LiteNetLib::Utils::FastBitConverter::GetBytes)> {
   static const MethodInfo* get() {
     static auto* bytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -131,7 +132,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: LiteNetLib::Utils::FastBitConverter::GetBytes
 // Il2CppName: GetBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint8_t>, int, uint16_t)>(&LiteNetLib::Utils::FastBitConverter::GetBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t>, int, uint16_t)>(&LiteNetLib::Utils::FastBitConverter::GetBytes)> {
   static const MethodInfo* get() {
     static auto* bytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -142,7 +143,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: LiteNetLib::Utils::FastBitConverter::GetBytes
 // Il2CppName: GetBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint8_t>, int, int)>(&LiteNetLib::Utils::FastBitConverter::GetBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t>, int, int)>(&LiteNetLib::Utils::FastBitConverter::GetBytes)> {
   static const MethodInfo* get() {
     static auto* bytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -153,7 +154,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: LiteNetLib::Utils::FastBitConverter::GetBytes
 // Il2CppName: GetBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint8_t>, int, uint)>(&LiteNetLib::Utils::FastBitConverter::GetBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t>, int, uint)>(&LiteNetLib::Utils::FastBitConverter::GetBytes)> {
   static const MethodInfo* get() {
     static auto* bytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -164,7 +165,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: LiteNetLib::Utils::FastBitConverter::GetBytes
 // Il2CppName: GetBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint8_t>, int, int64_t)>(&LiteNetLib::Utils::FastBitConverter::GetBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t>, int, int64_t)>(&LiteNetLib::Utils::FastBitConverter::GetBytes)> {
   static const MethodInfo* get() {
     static auto* bytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -175,7 +176,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: LiteNetLib::Utils::FastBitConverter::GetBytes
 // Il2CppName: GetBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint8_t>, int, uint64_t)>(&LiteNetLib::Utils::FastBitConverter::GetBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t>, int, uint64_t)>(&LiteNetLib::Utils::FastBitConverter::GetBytes)> {
   static const MethodInfo* get() {
     static auto* bytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

@@ -29,12 +29,18 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class UserOptions : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.IntPtr Handle
     // Size: 0x8
     // Offset: 0x10
     System::IntPtr Handle;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
+    public:
     // Creating conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept {
       return Handle;

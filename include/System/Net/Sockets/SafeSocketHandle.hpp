@@ -43,6 +43,11 @@ namespace System::Net::Sockets {
     public:
     // Writing base type padding for base size: 0x1E to desired offset: 0x20
     char ___base_padding[0x2] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.List`1<System.Threading.Thread> blocking_threads
     // Size: 0x8
     // Offset: 0x20
@@ -61,6 +66,7 @@ namespace System::Net::Sockets {
     bool in_cleanup;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // static field const value: static private System.Int32 SOCKET_CLOSED
     static constexpr const int SOCKET_CLOSED = 10004;
     // Get static field: static private System.Int32 SOCKET_CLOSED

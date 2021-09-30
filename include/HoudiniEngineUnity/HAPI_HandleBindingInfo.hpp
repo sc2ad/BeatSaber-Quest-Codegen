@@ -16,6 +16,11 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HAPI_HandleBindingInfo/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 handleParmNameSH
     // Size: 0x4
     // Offset: 0x0
@@ -40,6 +45,7 @@ namespace HoudiniEngineUnity {
     int assetParmIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: HAPI_HandleBindingInfo
     constexpr HAPI_HandleBindingInfo(int handleParmNameSH_ = {}, int assetParmNameSH_ = {}, int assetParmId_ = {}, int assetParmIndex_ = {}) noexcept : handleParmNameSH{handleParmNameSH_}, assetParmNameSH{assetParmNameSH_}, assetParmId{assetParmId_}, assetParmIndex{assetParmIndex_} {}
     // Creating interface conversion operator: operator System::ValueType

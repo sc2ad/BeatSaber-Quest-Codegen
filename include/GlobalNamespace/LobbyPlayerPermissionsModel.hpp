@@ -34,6 +34,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LobbyPlayerPermissionsModel : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xF0304C
     // private readonly IMenuRpcManager _menuRpcManager
     // Size: 0x8
@@ -86,6 +91,7 @@ namespace GlobalNamespace {
     System::Action* permissionsChangedEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
+    public:
     // Get instance field reference: private readonly IMenuRpcManager _menuRpcManager
     GlobalNamespace::IMenuRpcManager*& dyn__menuRpcManager();
     // Get instance field reference: private readonly IMultiplayerSessionManager _multiplayerSessionManager

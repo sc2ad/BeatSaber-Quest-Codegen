@@ -26,6 +26,11 @@ namespace UnityEngine::ResourceManagement::Util {
   // [TokenAttribute] Offset: FFFFFFFF
   struct SerializedType/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [FormerlySerializedAsAttribute] Offset: 0xEE58F0
     // private System.String m_AssemblyName
     // Size: 0x8
@@ -52,6 +57,7 @@ namespace UnityEngine::ResourceManagement::Util {
     bool ValueChanged;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating value type constructor for type: SerializedType
     constexpr SerializedType(::Il2CppString* m_AssemblyName_ = {}, ::Il2CppString* m_ClassName_ = {}, System::Type* m_CachedType_ = {}, bool ValueChanged_ = {}) noexcept : m_AssemblyName{m_AssemblyName_}, m_ClassName{m_ClassName_}, m_CachedType{m_CachedType_}, ValueChanged{ValueChanged_} {}
     // Creating interface conversion operator: operator System::ValueType

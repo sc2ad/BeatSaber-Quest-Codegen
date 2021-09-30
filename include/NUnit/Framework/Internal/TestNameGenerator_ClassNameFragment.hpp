@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection
@@ -43,7 +44,7 @@ namespace NUnit::Framework::Internal {
     // Offset: 0x24A42C0
     // Implemented from: NUnit.Framework.Internal.TestNameGenerator/NUnit.Framework.Internal.NameFragment
     // Base method: System.String NameFragment::GetText(System.Reflection.MethodInfo method, System.Object[] args)
-    ::Il2CppString* GetText(System::Reflection::MethodInfo* method, ::ArrayWrapper<::Il2CppObject*> args);
+    ::Il2CppString* GetText(System::Reflection::MethodInfo* method, ::ArrayW<::Il2CppObject*> args);
   }; // NUnit.Framework.Internal.TestNameGenerator/NUnit.Framework.Internal.ClassNameFragment
   #pragma pack(pop)
 }
@@ -56,7 +57,7 @@ DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestNameGenerator::ClassNameF
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestNameGenerator::ClassNameFragment::GetText
 // Il2CppName: GetText
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Internal::TestNameGenerator::ClassNameFragment::*)(System::Reflection::MethodInfo*, ::ArrayWrapper<::Il2CppObject*>)>(&NUnit::Framework::Internal::TestNameGenerator::ClassNameFragment::GetText)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Internal::TestNameGenerator::ClassNameFragment::*)(System::Reflection::MethodInfo*, ::ArrayW<::Il2CppObject*>)>(&NUnit::Framework::Internal::TestNameGenerator::ClassNameFragment::GetText)> {
   static const MethodInfo* get() {
     static auto* method = &::il2cpp_utils::GetClassFromName("System.Reflection", "MethodInfo")->byval_arg;
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;

@@ -34,12 +34,18 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5CC60
   class MarshalByRefObject : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Object _identity
     // Size: 0x8
     // Offset: 0x10
     ::Il2CppObject* identity;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
+    public:
     // Creating conversion operator: operator ::Il2CppObject*
     constexpr operator ::Il2CppObject*() const noexcept {
       return identity;

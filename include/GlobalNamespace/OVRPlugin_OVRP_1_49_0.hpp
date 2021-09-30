@@ -9,6 +9,7 @@
 #include "GlobalNamespace/OVRPlugin.hpp"
 // Including type: System.Int32
 #include "System/Int32.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -63,7 +64,7 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::Result ovrp_Media_GetCurrentCameraAnchorHandle(ByRef<System::IntPtr> anchorHandle);
     // static public OVRPlugin/Result ovrp_Media_GetCameraAnchorName(System.IntPtr anchorHandle, System.Char[] cameraName)
     // Offset: 0x180477C
-    static GlobalNamespace::OVRPlugin::Result ovrp_Media_GetCameraAnchorName(System::IntPtr anchorHandle, ::ArrayWrapper<::Il2CppChar> cameraName);
+    static GlobalNamespace::OVRPlugin::Result ovrp_Media_GetCameraAnchorName(System::IntPtr anchorHandle, ::ArrayW<::Il2CppChar> cameraName);
     // static public OVRPlugin/Result ovrp_Media_GetCameraAnchorHandle(System.IntPtr anchorName, ref System.IntPtr anchorHandle)
     // Offset: 0x1804898
     static GlobalNamespace::OVRPlugin::Result ovrp_Media_GetCameraAnchorHandle(System::IntPtr anchorName, ByRef<System::IntPtr> anchorHandle);
@@ -184,7 +185,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_49_0::ovrp_Media_GetCameraAnchorName
 // Il2CppName: ovrp_Media_GetCameraAnchorName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(System::IntPtr, ::ArrayWrapper<::Il2CppChar>)>(&GlobalNamespace::OVRPlugin::OVRP_1_49_0::ovrp_Media_GetCameraAnchorName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(System::IntPtr, ::ArrayW<::Il2CppChar>)>(&GlobalNamespace::OVRPlugin::OVRP_1_49_0::ovrp_Media_GetCameraAnchorName)> {
   static const MethodInfo* get() {
     static auto* anchorHandle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* cameraName = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;

@@ -31,6 +31,11 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   // [TokenAttribute] Offset: FFFFFFFF
   class ConnectFaceRebuildData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.ProBuilder.FaceRebuildData faceRebuildData
     // Size: 0x8
     // Offset: 0x10
@@ -43,6 +48,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     System::Collections::Generic::List_1<int>* newVertexIndexes;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<int>*) == 0x8);
+    public:
     // Get instance field reference: public UnityEngine.ProBuilder.FaceRebuildData faceRebuildData
     UnityEngine::ProBuilder::FaceRebuildData*& dyn_faceRebuildData();
     // Get instance field reference: public System.Collections.Generic.List`1<System.Int32> newVertexIndexes

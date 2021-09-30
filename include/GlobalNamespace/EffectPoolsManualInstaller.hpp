@@ -46,6 +46,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class EffectPoolsManualInstaller : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private FlyingTextEffect _flyingTextEffectPrefab
     // Size: 0x8
     // Offset: 0x18
@@ -109,6 +114,7 @@ namespace GlobalNamespace {
     GlobalNamespace::NoteDebris* noteDebrisLWPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::NoteDebris*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private FlyingTextEffect _flyingTextEffectPrefab

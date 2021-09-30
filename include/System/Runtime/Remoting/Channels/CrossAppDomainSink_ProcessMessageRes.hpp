@@ -9,6 +9,7 @@
 #include "System/Runtime/Remoting/Channels/CrossAppDomainSink.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Remoting::Messaging
@@ -26,26 +27,32 @@ namespace System::Runtime::Remoting::Channels {
   // [TokenAttribute] Offset: FFFFFFFF
   struct CrossAppDomainSink::ProcessMessageRes/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Byte[] arrResponse
     // Size: 0x8
     // Offset: 0x0
-    ::ArrayWrapper<uint8_t> arrResponse;
+    ::ArrayW<uint8_t> arrResponse;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // public System.Runtime.Remoting.Messaging.CADMethodReturnMessage cadMrm
     // Size: 0x8
     // Offset: 0x8
     System::Runtime::Remoting::Messaging::CADMethodReturnMessage* cadMrm;
     // Field size check
     static_assert(sizeof(System::Runtime::Remoting::Messaging::CADMethodReturnMessage*) == 0x8);
+    public:
     // Creating value type constructor for type: ProcessMessageRes
-    constexpr ProcessMessageRes(::ArrayWrapper<uint8_t> arrResponse_ = ::ArrayWrapper<uint8_t>(nullptr), System::Runtime::Remoting::Messaging::CADMethodReturnMessage* cadMrm_ = {}) noexcept : arrResponse{arrResponse_}, cadMrm{cadMrm_} {}
+    constexpr ProcessMessageRes(::ArrayW<uint8_t> arrResponse_ = ::ArrayW<uint8_t>(nullptr), System::Runtime::Remoting::Messaging::CADMethodReturnMessage* cadMrm_ = {}) noexcept : arrResponse{arrResponse_}, cadMrm{cadMrm_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // Get instance field reference: public System.Byte[] arrResponse
-    ::ArrayWrapper<uint8_t>& dyn_arrResponse();
+    ::ArrayW<uint8_t>& dyn_arrResponse();
     // Get instance field reference: public System.Runtime.Remoting.Messaging.CADMethodReturnMessage cadMrm
     System::Runtime::Remoting::Messaging::CADMethodReturnMessage*& dyn_cadMrm();
   }; // System.Runtime.Remoting.Channels.CrossAppDomainSink/System.Runtime.Remoting.Channels.ProcessMessageRes

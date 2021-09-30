@@ -32,12 +32,18 @@ namespace Org::BouncyCastle::Asn1::X9 {
   // [TokenAttribute] Offset: FFFFFFFF
   class X9FieldElement : public Org::BouncyCastle::Asn1::Asn1Encodable {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Org.BouncyCastle.Math.EC.ECFieldElement f
     // Size: 0x8
     // Offset: 0x10
     Org::BouncyCastle::Math::EC::ECFieldElement* f;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Math::EC::ECFieldElement*) == 0x8);
+    public:
     // Creating conversion operator: operator Org::BouncyCastle::Math::EC::ECFieldElement*
     constexpr operator Org::BouncyCastle::Math::EC::ECFieldElement*() const noexcept {
       return f;

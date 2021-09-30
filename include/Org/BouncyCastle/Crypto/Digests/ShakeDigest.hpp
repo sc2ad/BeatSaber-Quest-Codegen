@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Utilities
@@ -44,10 +45,10 @@ namespace Org::BouncyCastle::Crypto::Digests {
     static int CheckBitLength(int bitLength);
     // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff, System.Int32 outLen)
     // Offset: 0x1A9EDF0
-    int DoFinal(::ArrayWrapper<uint8_t> output, int outOff, int outLen);
+    int DoFinal(::ArrayW<uint8_t> output, int outOff, int outLen);
     // public System.Int32 DoOutput(System.Byte[] output, System.Int32 outOff, System.Int32 outLen)
     // Offset: 0x1A9EE38
-    int DoOutput(::ArrayWrapper<uint8_t> output, int outOff, int outLen);
+    int DoOutput(::ArrayW<uint8_t> output, int outOff, int outLen);
     // public override System.String get_AlgorithmName()
     // Offset: 0x1A9ED14
     // Implemented from: Org.BouncyCastle.Crypto.Digests.KeccakDigest
@@ -66,7 +67,7 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Offset: 0x1A9ED94
     // Implemented from: Org.BouncyCastle.Crypto.Digests.KeccakDigest
     // Base method: System.Int32 KeccakDigest::DoFinal(System.Byte[] output, System.Int32 outOff)
-    int DoFinal(::ArrayWrapper<uint8_t> output, int outOff);
+    int DoFinal(::ArrayW<uint8_t> output, int outOff);
     // public override Org.BouncyCastle.Utilities.IMemoable Copy()
     // Offset: 0x1A9EEA0
     // Implemented from: Org.BouncyCastle.Crypto.Digests.KeccakDigest
@@ -93,7 +94,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::ShakeDigest::DoFinal
 // Il2CppName: DoFinal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Digests::ShakeDigest::*)(::ArrayWrapper<uint8_t>, int, int)>(&Org::BouncyCastle::Crypto::Digests::ShakeDigest::DoFinal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Digests::ShakeDigest::*)(::ArrayW<uint8_t>, int, int)>(&Org::BouncyCastle::Crypto::Digests::ShakeDigest::DoFinal)> {
   static const MethodInfo* get() {
     static auto* output = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* outOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -104,7 +105,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::ShakeDigest::DoOutput
 // Il2CppName: DoOutput
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Digests::ShakeDigest::*)(::ArrayWrapper<uint8_t>, int, int)>(&Org::BouncyCastle::Crypto::Digests::ShakeDigest::DoOutput)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Digests::ShakeDigest::*)(::ArrayW<uint8_t>, int, int)>(&Org::BouncyCastle::Crypto::Digests::ShakeDigest::DoOutput)> {
   static const MethodInfo* get() {
     static auto* output = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* outOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -127,7 +128,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::ShakeDigest::DoFinal
 // Il2CppName: DoFinal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Digests::ShakeDigest::*)(::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Digests::ShakeDigest::DoFinal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Digests::ShakeDigest::*)(::ArrayW<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Digests::ShakeDigest::DoFinal)> {
   static const MethodInfo* get() {
     static auto* output = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* outOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

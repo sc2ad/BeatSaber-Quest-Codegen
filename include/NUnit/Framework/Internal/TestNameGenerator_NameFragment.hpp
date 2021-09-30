@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework::Internal
@@ -39,10 +40,10 @@ namespace NUnit::Framework::Internal {
     public:
     // public System.String GetText(NUnit.Framework.Internal.TestMethod testMethod, System.Object[] args)
     // Offset: 0x24A45D4
-    ::Il2CppString* GetText(NUnit::Framework::Internal::TestMethod* testMethod, ::ArrayWrapper<::Il2CppObject*> args);
+    ::Il2CppString* GetText(NUnit::Framework::Internal::TestMethod* testMethod, ::ArrayW<::Il2CppObject*> args);
     // public System.String GetText(System.Reflection.MethodInfo method, System.Object[] args)
     // Offset: 0xFFFFFFFF
-    ::Il2CppString* GetText(System::Reflection::MethodInfo* method, ::ArrayWrapper<::Il2CppObject*> args);
+    ::Il2CppString* GetText(System::Reflection::MethodInfo* method, ::ArrayW<::Il2CppObject*> args);
     // static protected System.Void AppendGenericTypeNames(System.Text.StringBuilder sb, System.Reflection.MethodInfo method)
     // Offset: 0x24A43F8
     static void AppendGenericTypeNames(System::Text::StringBuilder* sb, System::Reflection::MethodInfo* method);
@@ -75,7 +76,7 @@ DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestNameGenerator::NameFragme
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestNameGenerator::NameFragment::GetText
 // Il2CppName: GetText
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Internal::TestNameGenerator::NameFragment::*)(NUnit::Framework::Internal::TestMethod*, ::ArrayWrapper<::Il2CppObject*>)>(&NUnit::Framework::Internal::TestNameGenerator::NameFragment::GetText)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Internal::TestNameGenerator::NameFragment::*)(NUnit::Framework::Internal::TestMethod*, ::ArrayW<::Il2CppObject*>)>(&NUnit::Framework::Internal::TestNameGenerator::NameFragment::GetText)> {
   static const MethodInfo* get() {
     static auto* testMethod = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "TestMethod")->byval_arg;
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
@@ -85,7 +86,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestNameGenerator::NameFragment::GetText
 // Il2CppName: GetText
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Internal::TestNameGenerator::NameFragment::*)(System::Reflection::MethodInfo*, ::ArrayWrapper<::Il2CppObject*>)>(&NUnit::Framework::Internal::TestNameGenerator::NameFragment::GetText)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Internal::TestNameGenerator::NameFragment::*)(System::Reflection::MethodInfo*, ::ArrayW<::Il2CppObject*>)>(&NUnit::Framework::Internal::TestNameGenerator::NameFragment::GetText)> {
   static const MethodInfo* get() {
     static auto* method = &::il2cpp_utils::GetClassFromName("System.Reflection", "MethodInfo")->byval_arg;
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;

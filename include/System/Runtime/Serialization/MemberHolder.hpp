@@ -27,6 +27,11 @@ namespace System::Runtime::Serialization {
   // [TokenAttribute] Offset: FFFFFFFF
   class MemberHolder : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Type memberType
     // Size: 0x8
     // Offset: 0x10
@@ -39,6 +44,7 @@ namespace System::Runtime::Serialization {
     System::Runtime::Serialization::StreamingContext context;
     // Field size check
     static_assert(sizeof(System::Runtime::Serialization::StreamingContext) == 0xC);
+    public:
     // Get instance field reference: System.Type memberType
     System::Type*& dyn_memberType();
     // Get instance field reference: System.Runtime.Serialization.StreamingContext context

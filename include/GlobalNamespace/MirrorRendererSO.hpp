@@ -65,6 +65,11 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct CameraTransformData/*, public System::ValueType*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public readonly UnityEngine.Vector3 position
       // Size: 0xC
       // Offset: 0x0
@@ -89,6 +94,7 @@ namespace GlobalNamespace {
       bool stereoEnabled;
       // Field size check
       static_assert(sizeof(bool) == 0x1);
+      public:
       // Creating value type constructor for type: CameraTransformData
       constexpr CameraTransformData(UnityEngine::Vector3 position_ = {}, UnityEngine::Quaternion rotation_ = {}, float fov_ = {}, bool stereoEnabled_ = {}) noexcept : position{position_}, rotation{rotation_}, fov{fov_}, stereoEnabled{stereoEnabled_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -120,6 +126,11 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(MirrorRendererSO::CameraTransformData), 32 + sizeof(bool)> __GlobalNamespace_MirrorRendererSO_CameraTransformDataSizeCheck;
     static_assert(sizeof(MirrorRendererSO::CameraTransformData) == 0x21);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.LayerMask _reflectLayers
     // Size: 0x4
     // Offset: 0x18
@@ -233,6 +244,7 @@ namespace GlobalNamespace {
     UnityEngine::Rect kFullRect;
     // Field size check
     static_assert(sizeof(UnityEngine::Rect) == 0x10);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Int32 kWaterLayer

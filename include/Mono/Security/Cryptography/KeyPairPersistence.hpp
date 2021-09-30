@@ -25,6 +25,11 @@ namespace Mono::Security::Cryptography {
   // [TokenAttribute] Offset: FFFFFFFF
   class KeyPairPersistence : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Security.Cryptography.CspParameters _params
     // Size: 0x8
     // Offset: 0x10
@@ -49,6 +54,7 @@ namespace Mono::Security::Cryptography {
     ::Il2CppString* container;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get static field: static private System.Boolean _userPathExists
     static bool _get__userPathExists();
     // Set static field: static private System.Boolean _userPathExists

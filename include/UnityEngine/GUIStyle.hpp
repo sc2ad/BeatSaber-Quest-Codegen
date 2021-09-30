@@ -45,6 +45,11 @@ namespace UnityEngine {
   // [RequiredByNativeCodeAttribute] Offset: E90310
   class GUIStyle : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.IntPtr m_Ptr
     // Size: 0x8
     // Offset: 0x10
@@ -129,6 +134,7 @@ namespace UnityEngine {
     ::Il2CppString* m_Name;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get static field: static System.Boolean showKeyboardFocus
     static bool _get_showKeyboardFocus();
     // Set static field: static System.Boolean showKeyboardFocus

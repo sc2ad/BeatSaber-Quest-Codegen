@@ -25,6 +25,11 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   // [TokenAttribute] Offset: FFFFFFFF
   class DTSweepBasin : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode leftNode
     // Size: 0x8
     // Offset: 0x10
@@ -55,6 +60,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     bool leftHighest;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: public UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode leftNode
     UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*& dyn_leftNode();
     // Get instance field reference: public UnityEngine.ProBuilder.Poly2Tri.AdvancingFrontNode bottomNode

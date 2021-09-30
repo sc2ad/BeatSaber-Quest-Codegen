@@ -25,6 +25,11 @@ namespace UnityEngine::UI {
   // [TokenAttribute] Offset: FFFFFFFF
   struct SpriteState/*, public System::ValueType, public System::IEquatable_1<UnityEngine::UI::SpriteState>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Sprite m_HighlightedSprite
     // Size: 0x8
     // Offset: 0x0
@@ -50,6 +55,7 @@ namespace UnityEngine::UI {
     UnityEngine::Sprite* m_DisabledSprite;
     // Field size check
     static_assert(sizeof(UnityEngine::Sprite*) == 0x8);
+    public:
     // Creating value type constructor for type: SpriteState
     constexpr SpriteState(UnityEngine::Sprite* m_HighlightedSprite_ = {}, UnityEngine::Sprite* m_PressedSprite_ = {}, UnityEngine::Sprite* m_SelectedSprite_ = {}, UnityEngine::Sprite* m_DisabledSprite_ = {}) noexcept : m_HighlightedSprite{m_HighlightedSprite_}, m_PressedSprite{m_PressedSprite_}, m_SelectedSprite{m_SelectedSprite_}, m_DisabledSprite{m_DisabledSprite_} {}
     // Creating interface conversion operator: operator System::ValueType

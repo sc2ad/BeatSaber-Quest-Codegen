@@ -33,6 +33,11 @@ namespace LiteNetLib {
   // [TokenAttribute] Offset: FFFFFFFF
   class BaseChannel : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public LiteNetLib.BaseChannel Next
     // Size: 0x8
     // Offset: 0x10
@@ -51,6 +56,7 @@ namespace LiteNetLib {
     System::Collections::Generic::Queue_1<LiteNetLib::NetPacket*>* OutgoingQueue;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Queue_1<LiteNetLib::NetPacket*>*) == 0x8);
+    public:
     // Get instance field reference: public LiteNetLib.BaseChannel Next
     LiteNetLib::BaseChannel*& dyn_Next();
     // Get instance field reference: protected readonly LiteNetLib.NetPeer Peer

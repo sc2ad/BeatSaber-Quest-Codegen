@@ -16,6 +16,11 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   struct KerningPairKey/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.UInt32 ascii_Left
     // Size: 0x4
     // Offset: 0x0
@@ -34,6 +39,7 @@ namespace TMPro {
     uint key;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
+    public:
     // Creating value type constructor for type: KerningPairKey
     constexpr KerningPairKey(uint ascii_Left_ = {}, uint ascii_Right_ = {}, uint key_ = {}) noexcept : ascii_Left{ascii_Left_}, ascii_Right{ascii_Right_}, key{key_} {}
     // Creating interface conversion operator: operator System::ValueType

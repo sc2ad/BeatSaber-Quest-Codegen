@@ -18,12 +18,18 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct SpatialAnchorPose_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public OVR.OpenVR.HmdMatrix34_t mAnchorToAbsoluteTracking
     // Size: 0x30
     // Offset: 0x0
     OVR::OpenVR::HmdMatrix34_t mAnchorToAbsoluteTracking;
     // Field size check
     static_assert(sizeof(OVR::OpenVR::HmdMatrix34_t) == 0x30);
+    public:
     // Creating value type constructor for type: SpatialAnchorPose_t
     constexpr SpatialAnchorPose_t(OVR::OpenVR::HmdMatrix34_t mAnchorToAbsoluteTracking_ = {}) noexcept : mAnchorToAbsoluteTracking{mAnchorToAbsoluteTracking_} {}
     // Creating interface conversion operator: operator System::ValueType

@@ -35,6 +35,11 @@ namespace System::Net::Sockets {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class Socket::$$c__DisplayClass298_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Net.Sockets.Socket <>4__this
     // Size: 0x8
     // Offset: 0x10
@@ -53,6 +58,7 @@ namespace System::Net::Sockets {
     System::IntPtr handle;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
+    public:
     // Get instance field reference: public System.Net.Sockets.Socket <>4__this
     System::Net::Sockets::Socket*& dyn_$$4__this();
     // Get instance field reference: public System.IOSelectorJob job

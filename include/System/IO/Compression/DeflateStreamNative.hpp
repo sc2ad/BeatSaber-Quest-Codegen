@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO::Compression
@@ -41,6 +42,11 @@ namespace System::IO::Compression {
     class UnmanagedReadOrWrite;
     // Nested type: System::IO::Compression::DeflateStreamNative::SafeDeflateStreamHandle
     class SafeDeflateStreamHandle;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.IO.Compression.DeflateStreamNative/System.IO.Compression.UnmanagedReadOrWrite feeder
     // Size: 0x8
     // Offset: 0x10
@@ -76,9 +82,10 @@ namespace System::IO::Compression {
     // private System.Byte[] io_buffer
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<uint8_t> io_buffer;
+    ::ArrayW<uint8_t> io_buffer;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
+    public:
     // Get instance field reference: private System.IO.Compression.DeflateStreamNative/System.IO.Compression.UnmanagedReadOrWrite feeder
     System::IO::Compression::DeflateStreamNative::UnmanagedReadOrWrite*& dyn_feeder();
     // Get instance field reference: private System.IO.Stream base_stream
@@ -90,7 +97,7 @@ namespace System::IO::Compression {
     // Get instance field reference: private System.Boolean disposed
     bool& dyn_disposed();
     // Get instance field reference: private System.Byte[] io_buffer
-    ::ArrayWrapper<uint8_t>& dyn_io_buffer();
+    ::ArrayW<uint8_t>& dyn_io_buffer();
     // static public System.IO.Compression.DeflateStreamNative Create(System.IO.Stream compressedStream, System.IO.Compression.CompressionMode mode, System.Boolean gzip)
     // Offset: 0x1A2CA44
     static System::IO::Compression::DeflateStreamNative* Create(System::IO::Stream* compressedStream, System::IO::Compression::CompressionMode mode, bool gzip);
@@ -152,7 +159,7 @@ namespace System::IO::Compression {
     void Finalize();
   }; // System.IO.Compression.DeflateStreamNative
   #pragma pack(pop)
-  static check_size<sizeof(DeflateStreamNative), 48 + sizeof(::ArrayWrapper<uint8_t>)> __System_IO_Compression_DeflateStreamNativeSizeCheck;
+  static check_size<sizeof(DeflateStreamNative), 48 + sizeof(::ArrayW<uint8_t>)> __System_IO_Compression_DeflateStreamNativeSizeCheck;
   static_assert(sizeof(DeflateStreamNative) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::IO::Compression::DeflateStreamNative*, "System.IO.Compression", "DeflateStreamNative");

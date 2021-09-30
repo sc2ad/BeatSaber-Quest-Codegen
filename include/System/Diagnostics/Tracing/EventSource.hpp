@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: System.Diagnostics.Tracing
 namespace System::Diagnostics::Tracing {
@@ -31,9 +32,9 @@ namespace System::Diagnostics::Tracing {
     // Set static field: static private System.Byte m_EventSourceExceptionRecurenceCount
     static void _set_m_EventSourceExceptionRecurenceCount(uint8_t value);
     // Get static field: static private readonly System.Byte[] namespaceBytes
-    static ::ArrayWrapper<uint8_t> _get_namespaceBytes();
+    static ::ArrayW<uint8_t> _get_namespaceBytes();
     // Set static field: static private readonly System.Byte[] namespaceBytes
-    static void _set_namespaceBytes(::ArrayWrapper<uint8_t> value);
+    static void _set_namespaceBytes(::ArrayW<uint8_t> value);
     // Get static field: static private readonly System.Guid AspNetEventSourceGuid
     static System::Guid _get_AspNetEventSourceGuid();
     // Set static field: static private readonly System.Guid AspNetEventSourceGuid

@@ -33,12 +33,18 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class FromBinder::$$c__DisplayClass66_2 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public Zenject.InjectContext ctx
     // Size: 0x8
     // Offset: 0x10
     Zenject::InjectContext* ctx;
     // Field size check
     static_assert(sizeof(Zenject::InjectContext*) == 0x8);
+    public:
     // Creating conversion operator: operator Zenject::InjectContext*
     constexpr operator Zenject::InjectContext*() const noexcept {
       return ctx;

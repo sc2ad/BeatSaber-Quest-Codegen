@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -46,12 +47,18 @@ namespace RootMotion::Demos {
     // [TokenAttribute] Offset: FFFFFFFF
     struct State/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: State
       constexpr State(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -86,6 +93,11 @@ namespace RootMotion::Demos {
     #pragma pack(pop)
     static check_size<sizeof(Navigator::State), 0 + sizeof(int)> __RootMotion_Demos_Navigator_StateSizeCheck;
     static_assert(sizeof(Navigator::State) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [TooltipAttribute] Offset: 0xEF1854
     // public System.Boolean activeTargetSeeking
     // Size: 0x1
@@ -154,9 +166,9 @@ namespace RootMotion::Demos {
     // private UnityEngine.Vector3[] corners
     // Size: 0x8
     // Offset: 0x48
-    ::ArrayWrapper<UnityEngine::Vector3> corners;
+    ::ArrayW<UnityEngine::Vector3> corners;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector3>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Vector3>) == 0x8);
     // private UnityEngine.AI.NavMeshPath path
     // Size: 0x8
     // Offset: 0x50
@@ -183,6 +195,7 @@ namespace RootMotion::Demos {
     float nextPathTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: public System.Boolean activeTargetSeeking
     bool& dyn_activeTargetSeeking();
     // Get instance field reference: public System.Single cornerRadius
@@ -202,7 +215,7 @@ namespace RootMotion::Demos {
     // Get instance field reference: private System.Int32 cornerIndex
     int& dyn_cornerIndex();
     // Get instance field reference: private UnityEngine.Vector3[] corners
-    ::ArrayWrapper<UnityEngine::Vector3>& dyn_corners();
+    ::ArrayW<UnityEngine::Vector3>& dyn_corners();
     // Get instance field reference: private UnityEngine.AI.NavMeshPath path
     UnityEngine::AI::NavMeshPath*& dyn_path();
     // Get instance field reference: private UnityEngine.Vector3 lastTargetPosition

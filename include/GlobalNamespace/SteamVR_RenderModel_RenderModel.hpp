@@ -29,6 +29,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SteamVR_RenderModel::RenderModel : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Mesh <mesh>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -41,6 +46,7 @@ namespace GlobalNamespace {
     UnityEngine::Material* material;
     // Field size check
     static_assert(sizeof(UnityEngine::Material*) == 0x8);
+    public:
     // Get instance field reference: private UnityEngine.Mesh <mesh>k__BackingField
     UnityEngine::Mesh*& dyn_$mesh$k__BackingField();
     // Get instance field reference: private UnityEngine.Material <material>k__BackingField

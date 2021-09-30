@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Security::Claims
@@ -52,12 +53,17 @@ namespace System::Security::Claims {
     public:
     // Nested type: System::Security::Claims::ClaimsIdentity::$get_Claims$d__51
     class $get_Claims$d__51;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Byte[] m_userSerializationData
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<uint8_t> m_userSerializationData;
+    ::ArrayW<uint8_t> m_userSerializationData;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Collections.Generic.List`1<System.Security.Claims.Claim> m_instanceClaims
     // Size: 0x8
     // Offset: 0x18
@@ -138,12 +144,13 @@ namespace System::Security::Claims {
     ::Il2CppString* m_serializedClaims;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Security::Principal::IIdentity
     operator System::Security::Principal::IIdentity() noexcept {
       return *reinterpret_cast<System::Security::Principal::IIdentity*>(this);
     }
     // Get instance field reference: private System.Byte[] m_userSerializationData
-    ::ArrayWrapper<uint8_t>& dyn_m_userSerializationData();
+    ::ArrayW<uint8_t>& dyn_m_userSerializationData();
     // Get instance field reference: private System.Collections.Generic.List`1<System.Security.Claims.Claim> m_instanceClaims
     System::Collections::Generic::List_1<System::Security::Claims::Claim*>*& dyn_m_instanceClaims();
     // Get instance field reference: private System.Collections.ObjectModel.Collection`1<System.Collections.Generic.IEnumerable`1<System.Security.Claims.Claim>> m_externalClaims

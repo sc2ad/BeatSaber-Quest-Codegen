@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net::Http
@@ -65,6 +66,11 @@ namespace System::Net::Http {
     struct $LoadIntoBufferAsync$d__17;
     // Nested type: System::Net::Http::HttpContent::$ReadAsStringAsync$d__20
     struct $ReadAsStringAsync$d__20;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Net.Http.HttpContent/System.Net.Http.FixedMemoryStream buffer
     // Size: 0x8
     // Offset: 0x10
@@ -85,6 +91,7 @@ namespace System::Net::Http {
     System::Net::Http::Headers::HttpContentHeaders* headers;
     // Field size check
     static_assert(sizeof(System::Net::Http::Headers::HttpContentHeaders*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
@@ -130,10 +137,10 @@ namespace System::Net::Http {
     System::Threading::Tasks::Task_1<::Il2CppString*>* ReadAsStringAsync();
     // static private System.Text.Encoding GetEncodingFromBuffer(System.Byte[] buffer, System.Int32 length, ref System.Int32 preambleLength)
     // Offset: 0x175D1E4
-    static System::Text::Encoding* GetEncodingFromBuffer(::ArrayWrapper<uint8_t> buffer, int length, ByRef<int> preambleLength);
+    static System::Text::Encoding* GetEncodingFromBuffer(::ArrayW<uint8_t> buffer, int length, ByRef<int> preambleLength);
     // static private System.Int32 StartsWith(System.Byte[] array, System.Int32 length, System.Byte[] value)
     // Offset: 0x175D374
-    static int StartsWith(::ArrayWrapper<uint8_t> array, int length, ::ArrayWrapper<uint8_t> value);
+    static int StartsWith(::ArrayW<uint8_t> array, int length, ::ArrayW<uint8_t> value);
     // protected internal System.Threading.Tasks.Task SerializeToStreamAsync(System.IO.Stream stream, System.Net.TransportContext context)
     // Offset: 0xFFFFFFFF
     System::Threading::Tasks::Task* SerializeToStreamAsync(System::IO::Stream* stream, System::Net::TransportContext* context);
@@ -254,7 +261,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: System::Net::Http::HttpContent::GetEncodingFromBuffer
 // Il2CppName: GetEncodingFromBuffer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::Encoding* (*)(::ArrayWrapper<uint8_t>, int, ByRef<int>)>(&System::Net::Http::HttpContent::GetEncodingFromBuffer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::Encoding* (*)(::ArrayW<uint8_t>, int, ByRef<int>)>(&System::Net::Http::HttpContent::GetEncodingFromBuffer)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -265,7 +272,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Writing MetadataGetter for method: System::Net::Http::HttpContent::StartsWith
 // Il2CppName: StartsWith
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayWrapper<uint8_t>, int, ::ArrayWrapper<uint8_t>)>(&System::Net::Http::HttpContent::StartsWith)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayW<uint8_t>, int, ::ArrayW<uint8_t>)>(&System::Net::Http::HttpContent::StartsWith)> {
   static const MethodInfo* get() {
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

@@ -34,6 +34,11 @@ namespace System::Threading::Tasks {
   // [TokenAttribute] Offset: FFFFFFFF
   class Task::DelayPromise : public System::Threading::Tasks::Task_1<System::Threading::Tasks::VoidTaskResult> {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // readonly System.Threading.CancellationToken Token
     // Size: 0x8
     // Offset: 0x58
@@ -50,6 +55,7 @@ namespace System::Threading::Tasks {
     System::Threading::Timer* Timer;
     // Field size check
     static_assert(sizeof(System::Threading::Timer*) == 0x8);
+    public:
     // Get instance field reference: readonly System.Threading.CancellationToken Token
     System::Threading::CancellationToken& dyn_Token();
     // Get instance field reference: System.Threading.CancellationTokenRegistration Registration

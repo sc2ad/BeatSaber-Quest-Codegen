@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections
@@ -25,6 +26,11 @@ namespace Org::BouncyCastle::Utilities::IO::Pem {
   // [TokenAttribute] Offset: FFFFFFFF
   class PemObject : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String type
     // Size: 0x8
     // Offset: 0x10
@@ -40,15 +46,16 @@ namespace Org::BouncyCastle::Utilities::IO::Pem {
     // private System.Byte[] content
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<uint8_t> content;
+    ::ArrayW<uint8_t> content;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
+    public:
     // Get instance field reference: private System.String type
     ::Il2CppString*& dyn_type();
     // Get instance field reference: private System.Collections.IList headers
     System::Collections::IList*& dyn_headers();
     // Get instance field reference: private System.Byte[] content
-    ::ArrayWrapper<uint8_t>& dyn_content();
+    ::ArrayW<uint8_t>& dyn_content();
     // public System.String get_Type()
     // Offset: 0x2182A5C
     ::Il2CppString* get_Type();
@@ -57,17 +64,17 @@ namespace Org::BouncyCastle::Utilities::IO::Pem {
     System::Collections::IList* get_Headers();
     // public System.Byte[] get_Content()
     // Offset: 0x2182A6C
-    ::ArrayWrapper<uint8_t> get_Content();
+    ::ArrayW<uint8_t> get_Content();
     // public System.Void .ctor(System.String type, System.Collections.IList headers, System.Byte[] content)
     // Offset: 0x2182960
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static PemObject* New_ctor(::Il2CppString* type, System::Collections::IList* headers, ::ArrayWrapper<uint8_t> content) {
+    static PemObject* New_ctor(::Il2CppString* type, System::Collections::IList* headers, ::ArrayW<uint8_t> content) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Utilities::IO::Pem::PemObject::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PemObject*, creationType>(type, headers, content)));
     }
   }; // Org.BouncyCastle.Utilities.IO.Pem.PemObject
   #pragma pack(pop)
-  static check_size<sizeof(PemObject), 32 + sizeof(::ArrayWrapper<uint8_t>)> __Org_BouncyCastle_Utilities_IO_Pem_PemObjectSizeCheck;
+  static check_size<sizeof(PemObject), 32 + sizeof(::ArrayW<uint8_t>)> __Org_BouncyCastle_Utilities_IO_Pem_PemObjectSizeCheck;
   static_assert(sizeof(PemObject) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Utilities::IO::Pem::PemObject*, "Org.BouncyCastle.Utilities.IO.Pem", "PemObject");
@@ -91,7 +98,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::IO::Pem::PemObject::get_Content
 // Il2CppName: get_Content
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Utilities::IO::Pem::PemObject::*)()>(&Org::BouncyCastle::Utilities::IO::Pem::PemObject::get_Content)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Org::BouncyCastle::Utilities::IO::Pem::PemObject::*)()>(&Org::BouncyCastle::Utilities::IO::Pem::PemObject::get_Content)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::IO::Pem::PemObject*), "get_Content", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

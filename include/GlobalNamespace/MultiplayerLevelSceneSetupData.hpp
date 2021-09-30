@@ -32,6 +32,11 @@ namespace GlobalNamespace {
   // [ZenjectAllowDuringValidationAttribute] Offset: FFFFFFFF
   class MultiplayerLevelSceneSetupData : public GlobalNamespace::SceneSetupData {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly IPreviewBeatmapLevel previewBeatmapLevel
     // Size: 0x8
     // Offset: 0x10
@@ -58,6 +63,7 @@ namespace GlobalNamespace {
     bool hasSong;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: public readonly IPreviewBeatmapLevel previewBeatmapLevel
     GlobalNamespace::IPreviewBeatmapLevel*& dyn_previewBeatmapLevel();
     // Get instance field reference: public readonly BeatmapDifficulty beatmapDifficulty

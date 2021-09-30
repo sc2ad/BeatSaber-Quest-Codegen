@@ -32,6 +32,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class CPUMonitor : public ::Il2CppObject/*, public GlobalNamespace::ICPUMonitor*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly RollingAverage _utilization
     // Size: 0x8
     // Offset: 0x10
@@ -64,6 +69,7 @@ namespace GlobalNamespace {
     int64_t lastSampleValue;
     // Field size check
     static_assert(sizeof(int64_t) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::ICPUMonitor
     operator GlobalNamespace::ICPUMonitor() noexcept {
       return *reinterpret_cast<GlobalNamespace::ICPUMonitor*>(this);

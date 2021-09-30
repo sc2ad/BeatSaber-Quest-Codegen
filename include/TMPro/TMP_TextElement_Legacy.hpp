@@ -18,6 +18,11 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class TMP_TextElement_Legacy : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 id
     // Size: 0x4
     // Offset: 0x10
@@ -72,6 +77,7 @@ namespace TMPro {
     float scale;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: public System.Int32 id
     int& dyn_id();
     // Get instance field reference: public System.Single x

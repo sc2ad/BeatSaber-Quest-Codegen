@@ -18,12 +18,18 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct VRTextureWithPose_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public OVR.OpenVR.HmdMatrix34_t mDeviceToAbsoluteTracking
     // Size: 0x30
     // Offset: 0x0
     OVR::OpenVR::HmdMatrix34_t mDeviceToAbsoluteTracking;
     // Field size check
     static_assert(sizeof(OVR::OpenVR::HmdMatrix34_t) == 0x30);
+    public:
     // Creating value type constructor for type: VRTextureWithPose_t
     constexpr VRTextureWithPose_t(OVR::OpenVR::HmdMatrix34_t mDeviceToAbsoluteTracking_ = {}) noexcept : mDeviceToAbsoluteTracking{mDeviceToAbsoluteTracking_} {}
     // Creating interface conversion operator: operator System::ValueType

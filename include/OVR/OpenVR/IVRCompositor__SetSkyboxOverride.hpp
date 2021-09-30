@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: OVR::OpenVR
@@ -48,10 +49,10 @@ namespace OVR::OpenVR {
     }
     // public OVR.OpenVR.EVRCompositorError Invoke(in OVR.OpenVR.Texture_t[] pTextures, System.UInt32 unTextureCount)
     // Offset: 0x20ED6E4
-    OVR::OpenVR::EVRCompositorError Invoke(ByRef<::ArrayWrapper<OVR::OpenVR::Texture_t>> pTextures, uint unTextureCount);
+    OVR::OpenVR::EVRCompositorError Invoke(ByRef<::ArrayW<OVR::OpenVR::Texture_t>> pTextures, uint unTextureCount);
     // public System.IAsyncResult BeginInvoke(in OVR.OpenVR.Texture_t[] pTextures, System.UInt32 unTextureCount, System.AsyncCallback callback, System.Object object)
     // Offset: 0x20ED95C
-    System::IAsyncResult* BeginInvoke(ByRef<::ArrayWrapper<OVR::OpenVR::Texture_t>> pTextures, uint unTextureCount, System::AsyncCallback* callback, ::Il2CppObject* object);
+    System::IAsyncResult* BeginInvoke(ByRef<::ArrayW<OVR::OpenVR::Texture_t>> pTextures, uint unTextureCount, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVRCompositorError EndInvoke(System.IAsyncResult result)
     // Offset: 0x20ED9F8
     OVR::OpenVR::EVRCompositorError EndInvoke(System::IAsyncResult* result);
@@ -67,7 +68,7 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRCompositor::_SetSkyboxOverride*, "OVR.Ope
 // Writing MetadataGetter for method: OVR::OpenVR::IVRCompositor::_SetSkyboxOverride::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRCompositorError (OVR::OpenVR::IVRCompositor::_SetSkyboxOverride::*)(ByRef<::ArrayWrapper<OVR::OpenVR::Texture_t>>, uint)>(&OVR::OpenVR::IVRCompositor::_SetSkyboxOverride::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRCompositorError (OVR::OpenVR::IVRCompositor::_SetSkyboxOverride::*)(ByRef<::ArrayW<OVR::OpenVR::Texture_t>>, uint)>(&OVR::OpenVR::IVRCompositor::_SetSkyboxOverride::Invoke)> {
   static const MethodInfo* get() {
     static auto* pTextures = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("OVR.OpenVR", "Texture_t"), 1)->this_arg;
     static auto* unTextureCount = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -77,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::IVRCompositor::_SetSkyboxOverride::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRCompositor::_SetSkyboxOverride::*)(ByRef<::ArrayWrapper<OVR::OpenVR::Texture_t>>, uint, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRCompositor::_SetSkyboxOverride::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRCompositor::_SetSkyboxOverride::*)(ByRef<::ArrayW<OVR::OpenVR::Texture_t>>, uint, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRCompositor::_SetSkyboxOverride::BeginInvoke)> {
   static const MethodInfo* get() {
     static auto* pTextures = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("OVR.OpenVR", "Texture_t"), 1)->this_arg;
     static auto* unTextureCount = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;

@@ -34,12 +34,18 @@ namespace GlobalNamespace {
     public:
     // Writing base type padding for base size: 0x29 to desired offset: 0x30
     char ___base_padding[0x7] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private BloomPrePassBackgroundColor _bloomPrePassBackgroundColor
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::BloomPrePassBackgroundColor* bloomPrePassBackgroundColor;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BloomPrePassBackgroundColor*) == 0x8);
+    public:
     // Get instance field reference: private BloomPrePassBackgroundColor _bloomPrePassBackgroundColor
     GlobalNamespace::BloomPrePassBackgroundColor*& dyn__bloomPrePassBackgroundColor();
     // public UnityEngine.Color get_color()

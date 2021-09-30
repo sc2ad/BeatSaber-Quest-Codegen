@@ -31,6 +31,11 @@ namespace Zenject {
   template<typename T>
   class LazyInject_1 : public ::Il2CppObject/*, public Zenject::IValidatable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x0
@@ -53,6 +58,7 @@ namespace Zenject {
     // Size: 0xFFFFFFFF
     // Offset: 0x0
     T value;
+    public:
     // Creating interface conversion operator: operator Zenject::IValidatable
     operator Zenject::IValidatable() noexcept {
       return *reinterpret_cast<Zenject::IValidatable*>(this);

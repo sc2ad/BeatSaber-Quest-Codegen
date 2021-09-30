@@ -32,12 +32,18 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   // [TokenAttribute] Offset: FFFFFFFF
   class Gost3410PrivateKeyParameters : public Org::BouncyCastle::Crypto::Parameters::Gost3410KeyParameters {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Org.BouncyCastle.Math.BigInteger x
     // Size: 0x8
     // Offset: 0x28
     Org::BouncyCastle::Math::BigInteger* x;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Math::BigInteger*) == 0x8);
+    public:
     // Get instance field reference: private readonly Org.BouncyCastle.Math.BigInteger x
     Org::BouncyCastle::Math::BigInteger*& dyn_x();
     // public Org.BouncyCastle.Math.BigInteger get_X()

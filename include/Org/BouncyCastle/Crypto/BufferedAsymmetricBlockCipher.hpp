@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Crypto
@@ -29,6 +30,11 @@ namespace Org::BouncyCastle::Crypto {
   // [TokenAttribute] Offset: FFFFFFFF
   class BufferedAsymmetricBlockCipher : public Org::BouncyCastle::Crypto::BufferedCipherBase {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Org.BouncyCastle.Crypto.IAsymmetricBlockCipher cipher
     // Size: 0x8
     // Offset: 0x10
@@ -38,19 +44,20 @@ namespace Org::BouncyCastle::Crypto {
     // private System.Byte[] buffer
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<uint8_t> buffer;
+    ::ArrayW<uint8_t> buffer;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Int32 bufOff
     // Size: 0x4
     // Offset: 0x20
     int bufOff;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.IAsymmetricBlockCipher cipher
     Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*& dyn_cipher();
     // Get instance field reference: private System.Byte[] buffer
-    ::ArrayWrapper<uint8_t>& dyn_buffer();
+    ::ArrayW<uint8_t>& dyn_buffer();
     // Get instance field reference: private System.Int32 bufOff
     int& dyn_bufOff();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IAsymmetricBlockCipher cipher)
@@ -84,17 +91,17 @@ namespace Org::BouncyCastle::Crypto {
     // Offset: 0x1BCB600
     // Implemented from: Org.BouncyCastle.Crypto.BufferedCipherBase
     // Base method: System.Byte[] BufferedCipherBase::ProcessBytes(System.Byte[] input, System.Int32 inOff, System.Int32 length)
-    ::ArrayWrapper<uint8_t> ProcessBytes(::ArrayWrapper<uint8_t> input, int inOff, int length);
+    ::ArrayW<uint8_t> ProcessBytes(::ArrayW<uint8_t> input, int inOff, int length);
     // public override System.Byte[] DoFinal()
     // Offset: 0x1BCB714
     // Implemented from: Org.BouncyCastle.Crypto.BufferedCipherBase
     // Base method: System.Byte[] BufferedCipherBase::DoFinal()
-    ::ArrayWrapper<uint8_t> DoFinal();
+    ::ArrayW<uint8_t> DoFinal();
     // public override System.Byte[] DoFinal(System.Byte[] input, System.Int32 inOff, System.Int32 length)
     // Offset: 0x1BCB83C
     // Implemented from: Org.BouncyCastle.Crypto.BufferedCipherBase
     // Base method: System.Byte[] BufferedCipherBase::DoFinal(System.Byte[] input, System.Int32 inOff, System.Int32 length)
-    ::ArrayWrapper<uint8_t> DoFinal(::ArrayWrapper<uint8_t> input, int inOff, int length);
+    ::ArrayW<uint8_t> DoFinal(::ArrayW<uint8_t> input, int inOff, int length);
     // public override System.Void Reset()
     // Offset: 0x1BCB870
     // Implemented from: Org.BouncyCastle.Crypto.BufferedCipherBase
@@ -150,7 +157,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::BufferedAsymmetricBlockCipher::ProcessBytes
 // Il2CppName: ProcessBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Crypto::BufferedAsymmetricBlockCipher::*)(::ArrayWrapper<uint8_t>, int, int)>(&Org::BouncyCastle::Crypto::BufferedAsymmetricBlockCipher::ProcessBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Org::BouncyCastle::Crypto::BufferedAsymmetricBlockCipher::*)(::ArrayW<uint8_t>, int, int)>(&Org::BouncyCastle::Crypto::BufferedAsymmetricBlockCipher::ProcessBytes)> {
   static const MethodInfo* get() {
     static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* inOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -161,7 +168,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::BufferedAsymmetricBlockCipher::DoFinal
 // Il2CppName: DoFinal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Crypto::BufferedAsymmetricBlockCipher::*)()>(&Org::BouncyCastle::Crypto::BufferedAsymmetricBlockCipher::DoFinal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Org::BouncyCastle::Crypto::BufferedAsymmetricBlockCipher::*)()>(&Org::BouncyCastle::Crypto::BufferedAsymmetricBlockCipher::DoFinal)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::BufferedAsymmetricBlockCipher*), "DoFinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -169,7 +176,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::BufferedAsymmetricBlockCipher::DoFinal
 // Il2CppName: DoFinal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Crypto::BufferedAsymmetricBlockCipher::*)(::ArrayWrapper<uint8_t>, int, int)>(&Org::BouncyCastle::Crypto::BufferedAsymmetricBlockCipher::DoFinal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Org::BouncyCastle::Crypto::BufferedAsymmetricBlockCipher::*)(::ArrayW<uint8_t>, int, int)>(&Org::BouncyCastle::Crypto::BufferedAsymmetricBlockCipher::DoFinal)> {
   static const MethodInfo* get() {
     static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* inOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

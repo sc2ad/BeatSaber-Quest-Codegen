@@ -28,6 +28,11 @@ namespace System::ComponentModel {
   // [AttributeUsageAttribute] Offset: E693C4
   class DesignerAttribute : public System::Attribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.String designerTypeName
     // Size: 0x8
     // Offset: 0x10
@@ -40,6 +45,7 @@ namespace System::ComponentModel {
     ::Il2CppString* designerBaseTypeName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: private readonly System.String designerTypeName
     ::Il2CppString*& dyn_designerTypeName();
     // Get instance field reference: private readonly System.String designerBaseTypeName

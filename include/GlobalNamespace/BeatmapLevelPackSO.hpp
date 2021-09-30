@@ -36,6 +36,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapLevelPackSO : public GlobalNamespace::PersistentScriptableObject/*, public GlobalNamespace::IBeatmapLevelPack*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String _packID
     // Size: 0x8
     // Offset: 0x18
@@ -73,6 +78,7 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatmapLevelCollectionSO* beatmapLevelCollection;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapLevelCollectionSO*) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IBeatmapLevelPack
     operator GlobalNamespace::IBeatmapLevelPack() noexcept {
       return *reinterpret_cast<GlobalNamespace::IBeatmapLevelPack*>(this);

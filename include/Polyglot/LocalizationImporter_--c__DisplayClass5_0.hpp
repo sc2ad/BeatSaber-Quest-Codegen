@@ -28,12 +28,18 @@ namespace Polyglot {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class LocalizationImporter::$$c__DisplayClass5_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public Polyglot.Localization settings
     // Size: 0x8
     // Offset: 0x10
     Polyglot::Localization* settings;
     // Field size check
     static_assert(sizeof(Polyglot::Localization*) == 0x8);
+    public:
     // Creating conversion operator: operator Polyglot::Localization*
     constexpr operator Polyglot::Localization*() const noexcept {
       return settings;

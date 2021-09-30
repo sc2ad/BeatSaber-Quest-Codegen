@@ -16,14 +16,20 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   // [TokenAttribute] Offset: FFFFFFFF
   class RC5Parameters : public Org::BouncyCastle::Crypto::Parameters::KeyParameter {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Int32 rounds
     // Size: 0x4
     // Offset: 0x18
     int rounds;
     // Field size check
     static_assert(sizeof(int) == 0x4);
-    // Deleting conversion operator: operator ::ArrayWrapper<uint8_t>
-    constexpr operator ::ArrayWrapper<uint8_t>() const noexcept = delete;
+    public:
+    // Deleting conversion operator: operator ::ArrayW<uint8_t>
+    constexpr operator ::ArrayW<uint8_t>() const noexcept = delete;
     // Get instance field reference: private readonly System.Int32 rounds
     int& dyn_rounds();
     // public System.Int32 get_Rounds()

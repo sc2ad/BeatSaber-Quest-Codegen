@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -265,10 +266,10 @@ namespace UnityEngine {
     static int GetAllCamerasCount();
     // static private System.Int32 GetAllCamerasImpl(out UnityEngine.Camera[] cam)
     // Offset: 0x1CB2674
-    static int GetAllCamerasImpl(ByRef<::ArrayWrapper<UnityEngine::Camera*>> cam);
+    static int GetAllCamerasImpl(ByRef<::ArrayW<UnityEngine::Camera*>> cam);
     // static public System.Int32 GetAllCameras(UnityEngine.Camera[] cameras)
     // Offset: 0x1CB26E8
-    static int GetAllCameras(::ArrayWrapper<UnityEngine::Camera*> cameras);
+    static int GetAllCameras(::ArrayW<UnityEngine::Camera*> cameras);
     // private System.Boolean RenderToCubemapImpl(UnityEngine.Texture tex, System.Int32 faceMask)
     // Offset: 0x1CB27DC
     bool RenderToCubemapImpl(UnityEngine::Texture* tex, int faceMask);
@@ -883,7 +884,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)()>(
 // Writing MetadataGetter for method: UnityEngine::Camera::GetAllCamerasImpl
 // Il2CppName: GetAllCamerasImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(ByRef<::ArrayWrapper<UnityEngine::Camera*>>)>(&UnityEngine::Camera::GetAllCamerasImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(ByRef<::ArrayW<UnityEngine::Camera*>>)>(&UnityEngine::Camera::GetAllCamerasImpl)> {
   static const MethodInfo* get() {
     static auto* cam = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Camera"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "GetAllCamerasImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cam});
@@ -892,7 +893,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(ByR
 // Writing MetadataGetter for method: UnityEngine::Camera::GetAllCameras
 // Il2CppName: GetAllCameras
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayWrapper<UnityEngine::Camera*>)>(&UnityEngine::Camera::GetAllCameras)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayW<UnityEngine::Camera*>)>(&UnityEngine::Camera::GetAllCameras)> {
   static const MethodInfo* get() {
     static auto* cameras = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Camera"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Camera*), "GetAllCameras", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{cameras});

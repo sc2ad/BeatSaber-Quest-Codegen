@@ -33,6 +33,11 @@ namespace UnityEngine::Timeline {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class AudioPlayableAsset::$get_outputs$d__16 : public ::Il2CppObject/*, public System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableBinding>, public System::Collections::Generic::IEnumerator_1<UnityEngine::Playables::PlayableBinding>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -61,6 +66,7 @@ namespace UnityEngine::Timeline {
     UnityEngine::Timeline::AudioPlayableAsset* $$4__this;
     // Field size check
     static_assert(sizeof(UnityEngine::Timeline::AudioPlayableAsset*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableBinding>
     operator System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableBinding>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::Playables::PlayableBinding>*>(this);

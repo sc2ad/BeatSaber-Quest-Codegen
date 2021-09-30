@@ -44,6 +44,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerEnvironmentSpectatingSpot : public UnityEngine::MonoBehaviour/*, public GlobalNamespace::IMultiplayerSpectatingSpot*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean _preferredSpectatingSpot
     // Size: 0x1
     // Offset: 0x18
@@ -85,6 +90,7 @@ namespace GlobalNamespace {
     System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot*>* hasBeenRemovedEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::IMultiplayerSpectatingSpot*>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IMultiplayerSpectatingSpot
     operator GlobalNamespace::IMultiplayerSpectatingSpot() noexcept {
       return *reinterpret_cast<GlobalNamespace::IMultiplayerSpectatingSpot*>(this);

@@ -34,12 +34,18 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct BeatmapObjectExecutionRatingType/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: BeatmapObjectExecutionRatingType
       constexpr BeatmapObjectExecutionRatingType(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -74,6 +80,11 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(BeatmapObjectExecutionRating::BeatmapObjectExecutionRatingType), 0 + sizeof(int)> __GlobalNamespace_BeatmapObjectExecutionRating_BeatmapObjectExecutionRatingTypeSizeCheck;
     static_assert(sizeof(BeatmapObjectExecutionRating::BeatmapObjectExecutionRatingType) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private BeatmapObjectExecutionRating/BeatmapObjectExecutionRatingType <beatmapObjectRatingType>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -86,6 +97,7 @@ namespace GlobalNamespace {
     float time;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: private BeatmapObjectExecutionRating/BeatmapObjectExecutionRatingType <beatmapObjectRatingType>k__BackingField
     GlobalNamespace::BeatmapObjectExecutionRating::BeatmapObjectExecutionRatingType& dyn_$beatmapObjectRatingType$k__BackingField();
     // Get instance field reference: private System.Single <time>k__BackingField

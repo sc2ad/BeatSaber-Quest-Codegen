@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::ProBuilder::MeshOperations
@@ -47,19 +48,19 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     static void DeleteVertices(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<int>* distinctIndexes);
     // static public System.Int32[] DeleteFace(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.ProBuilder.Face face)
     // Offset: 0x1715FBC
-    static ::ArrayWrapper<int> DeleteFace(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::ProBuilder::Face* face);
+    static ::ArrayW<int> DeleteFace(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::ProBuilder::Face* face);
     // static public System.Int32[] DeleteFaces(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face> faces)
     // Offset: 0x170E33C
-    static ::ArrayWrapper<int> DeleteFaces(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>* faces);
+    static ::ArrayW<int> DeleteFaces(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>* faces);
     // static public System.Int32[] DeleteFaces(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IList`1<System.Int32> faceIndexes)
     // Offset: 0x1716074
-    static ::ArrayWrapper<int> DeleteFaces(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IList_1<int>* faceIndexes);
+    static ::ArrayW<int> DeleteFaces(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IList_1<int>* faceIndexes);
     // static public System.Int32[] RemoveDegenerateTriangles(UnityEngine.ProBuilder.ProBuilderMesh mesh)
     // Offset: 0x17165C8
-    static ::ArrayWrapper<int> RemoveDegenerateTriangles(UnityEngine::ProBuilder::ProBuilderMesh* mesh);
+    static ::ArrayW<int> RemoveDegenerateTriangles(UnityEngine::ProBuilder::ProBuilderMesh* mesh);
     // static public System.Int32[] RemoveUnusedVertices(UnityEngine.ProBuilder.ProBuilderMesh mesh)
     // Offset: 0x1716654
-    static ::ArrayWrapper<int> RemoveUnusedVertices(UnityEngine::ProBuilder::ProBuilderMesh* mesh);
+    static ::ArrayW<int> RemoveUnusedVertices(UnityEngine::ProBuilder::ProBuilderMesh* mesh);
   }; // UnityEngine.ProBuilder.MeshOperations.DeleteElements
   #pragma pack(pop)
 }
@@ -79,7 +80,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::DeleteElements::DeleteFace
 // Il2CppName: DeleteFace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<int> (*)(UnityEngine::ProBuilder::ProBuilderMesh*, UnityEngine::ProBuilder::Face*)>(&UnityEngine::ProBuilder::MeshOperations::DeleteElements::DeleteFace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int> (*)(UnityEngine::ProBuilder::ProBuilderMesh*, UnityEngine::ProBuilder::Face*)>(&UnityEngine::ProBuilder::MeshOperations::DeleteElements::DeleteFace)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
     static auto* face = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Face")->byval_arg;
@@ -89,7 +90,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::DeleteElements::DeleteFaces
 // Il2CppName: DeleteFaces
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<int> (*)(UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>*)>(&UnityEngine::ProBuilder::MeshOperations::DeleteElements::DeleteFaces)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int> (*)(UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>*)>(&UnityEngine::ProBuilder::MeshOperations::DeleteElements::DeleteFaces)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
     static auto* faces = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Face")})->byval_arg;
@@ -99,7 +100,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::DeleteElements::DeleteFaces
 // Il2CppName: DeleteFaces
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<int> (*)(UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::IList_1<int>*)>(&UnityEngine::ProBuilder::MeshOperations::DeleteElements::DeleteFaces)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int> (*)(UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::IList_1<int>*)>(&UnityEngine::ProBuilder::MeshOperations::DeleteElements::DeleteFaces)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
     static auto* faceIndexes = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
@@ -109,7 +110,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::DeleteElements::RemoveDegenerateTriangles
 // Il2CppName: RemoveDegenerateTriangles
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<int> (*)(UnityEngine::ProBuilder::ProBuilderMesh*)>(&UnityEngine::ProBuilder::MeshOperations::DeleteElements::RemoveDegenerateTriangles)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int> (*)(UnityEngine::ProBuilder::ProBuilderMesh*)>(&UnityEngine::ProBuilder::MeshOperations::DeleteElements::RemoveDegenerateTriangles)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::DeleteElements*), "RemoveDegenerateTriangles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mesh});
@@ -118,7 +119,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::DeleteElements::RemoveUnusedVertices
 // Il2CppName: RemoveUnusedVertices
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<int> (*)(UnityEngine::ProBuilder::ProBuilderMesh*)>(&UnityEngine::ProBuilder::MeshOperations::DeleteElements::RemoveUnusedVertices)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int> (*)(UnityEngine::ProBuilder::ProBuilderMesh*)>(&UnityEngine::ProBuilder::MeshOperations::DeleteElements::RemoveUnusedVertices)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::DeleteElements*), "RemoveUnusedVertices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mesh});

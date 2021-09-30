@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: Org.BouncyCastle.Crypto.Engines
 namespace Org::BouncyCastle::Crypto::Engines {
@@ -39,17 +40,17 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Offset: 0x204CC8C
     // Implemented from: Org.BouncyCastle.Crypto.Engines.SerpentEngineBase
     // Base method: System.Int32[] SerpentEngineBase::MakeWorkingKey(System.Byte[] key)
-    ::ArrayWrapper<int> MakeWorkingKey(::ArrayWrapper<uint8_t> key);
+    ::ArrayW<int> MakeWorkingKey(::ArrayW<uint8_t> key);
     // protected override System.Void EncryptBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
     // Offset: 0x204E734
     // Implemented from: Org.BouncyCastle.Crypto.Engines.SerpentEngineBase
     // Base method: System.Void SerpentEngineBase::EncryptBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    void EncryptBlock(::ArrayWrapper<uint8_t> input, int inOff, ::ArrayWrapper<uint8_t> output, int outOff);
+    void EncryptBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> output, int outOff);
     // protected override System.Void DecryptBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
     // Offset: 0x204FCA4
     // Implemented from: Org.BouncyCastle.Crypto.Engines.SerpentEngineBase
     // Base method: System.Void SerpentEngineBase::DecryptBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    void DecryptBlock(::ArrayWrapper<uint8_t> input, int inOff, ::ArrayWrapper<uint8_t> output, int outOff);
+    void DecryptBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> output, int outOff);
   }; // Org.BouncyCastle.Crypto.Engines.TnepresEngine
   #pragma pack(pop)
 }
@@ -70,7 +71,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::TnepresEngine::MakeWorkingKey
 // Il2CppName: MakeWorkingKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<int> (Org::BouncyCastle::Crypto::Engines::TnepresEngine::*)(::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Crypto::Engines::TnepresEngine::MakeWorkingKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int> (Org::BouncyCastle::Crypto::Engines::TnepresEngine::*)(::ArrayW<uint8_t>)>(&Org::BouncyCastle::Crypto::Engines::TnepresEngine::MakeWorkingKey)> {
   static const MethodInfo* get() {
     static auto* key = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::TnepresEngine*), "MakeWorkingKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key});
@@ -79,7 +80,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::TnepresEngine::EncryptBlock
 // Il2CppName: EncryptBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Engines::TnepresEngine::*)(::ArrayWrapper<uint8_t>, int, ::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Engines::TnepresEngine::EncryptBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Engines::TnepresEngine::*)(::ArrayW<uint8_t>, int, ::ArrayW<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Engines::TnepresEngine::EncryptBlock)> {
   static const MethodInfo* get() {
     static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* inOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -91,7 +92,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::TnepresEngine::DecryptBlock
 // Il2CppName: DecryptBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Engines::TnepresEngine::*)(::ArrayWrapper<uint8_t>, int, ::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Engines::TnepresEngine::DecryptBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Engines::TnepresEngine::*)(::ArrayW<uint8_t>, int, ::ArrayW<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Engines::TnepresEngine::DecryptBlock)> {
   static const MethodInfo* get() {
     static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* inOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

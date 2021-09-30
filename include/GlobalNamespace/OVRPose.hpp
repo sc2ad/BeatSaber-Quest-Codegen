@@ -23,6 +23,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct OVRPose/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Vector3 position
     // Size: 0xC
     // Offset: 0x0
@@ -35,6 +40,7 @@ namespace GlobalNamespace {
     UnityEngine::Quaternion orientation;
     // Field size check
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
+    public:
     // Creating value type constructor for type: OVRPose
     constexpr OVRPose(UnityEngine::Vector3 position_ = {}, UnityEngine::Quaternion orientation_ = {}) noexcept : position{position_}, orientation{orientation_} {}
     // Creating interface conversion operator: operator System::ValueType

@@ -40,12 +40,18 @@ namespace HMUI {
     // [TokenAttribute] Offset: FFFFFFFF
     struct SelectionState/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: SelectionState
       constexpr SelectionState(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -86,6 +92,11 @@ namespace HMUI {
     #pragma pack(pop)
     static check_size<sizeof(NoTransitionsButton::SelectionState), 0 + sizeof(int)> __HMUI_NoTransitionsButton_SelectionStateSizeCheck;
     static_assert(sizeof(NoTransitionsButton::SelectionState) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Action`1<HMUI.NoTransitionsButton/HMUI.SelectionState> selectionStateDidChangeEvent
     // Size: 0x8
     // Offset: 0x100
@@ -98,6 +109,7 @@ namespace HMUI {
     HMUI::NoTransitionsButton::SelectionState selectionState;
     // Field size check
     static_assert(sizeof(HMUI::NoTransitionsButton::SelectionState) == 0x4);
+    public:
     // Get instance field reference: private System.Action`1<HMUI.NoTransitionsButton/HMUI.SelectionState> selectionStateDidChangeEvent
     System::Action_1<HMUI::NoTransitionsButton::SelectionState>*& dyn_selectionStateDidChangeEvent();
     // Get instance field reference: private HMUI.NoTransitionsButton/HMUI.SelectionState _selectionState

@@ -20,6 +20,11 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_DetailProperties : public ::Il2CppObject/*, public HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_DetailProperties*>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Single _detailDistance
     // Size: 0x4
     // Offset: 0x10
@@ -44,6 +49,7 @@ namespace HoudiniEngineUnity {
     int detailResolutionPerPatch;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_DetailProperties*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_DetailProperties*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_DetailProperties*>*>(this);

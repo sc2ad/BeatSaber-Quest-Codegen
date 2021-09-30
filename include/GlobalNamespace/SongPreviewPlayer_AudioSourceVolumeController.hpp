@@ -27,6 +27,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SongPreviewPlayer::AudioSourceVolumeController : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly UnityEngine.AudioSource audioSource
     // Size: 0x8
     // Offset: 0x10
@@ -45,6 +50,7 @@ namespace GlobalNamespace {
     float volume;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: public readonly UnityEngine.AudioSource audioSource
     UnityEngine::AudioSource*& dyn_audioSource();
     // Get instance field reference: private System.Single <maxVolume>k__BackingField

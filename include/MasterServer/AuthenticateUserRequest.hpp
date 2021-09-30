@@ -41,12 +41,18 @@ namespace MasterServer {
   // [TokenAttribute] Offset: FFFFFFFF
   class AuthenticateUserRequest : public GlobalNamespace::BaseMasterServerReliableResponse/*, public MasterServer::IMasterServerAuthenticateRequest, public MasterServer::IUserMessage*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public AuthenticationToken authenticationToken
     // Size: 0x20
     // Offset: 0x18
     GlobalNamespace::AuthenticationToken authenticationToken;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AuthenticationToken) == 0x20);
+    public:
     // Creating interface conversion operator: operator MasterServer::IMasterServerAuthenticateRequest
     operator MasterServer::IMasterServerAuthenticateRequest() noexcept {
       return *reinterpret_cast<MasterServer::IMasterServerAuthenticateRequest*>(this);

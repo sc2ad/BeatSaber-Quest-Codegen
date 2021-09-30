@@ -36,6 +36,11 @@ namespace NUnit::Framework::Internal::Builders {
   // [TokenAttribute] Offset: FFFFFFFF
   class NamespaceTreeBuilder : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.Dictionary`2<System.String,NUnit.Framework.Internal.TestSuite> namespaceSuites
     // Size: 0x8
     // Offset: 0x10
@@ -48,6 +53,7 @@ namespace NUnit::Framework::Internal::Builders {
     NUnit::Framework::Internal::TestSuite* rootSuite;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Internal::TestSuite*) == 0x8);
+    public:
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,NUnit.Framework.Internal.TestSuite> namespaceSuites
     System::Collections::Generic::Dictionary_2<::Il2CppString*, NUnit::Framework::Internal::TestSuite*>*& dyn_namespaceSuites();
     // Get instance field reference: private NUnit.Framework.Internal.TestSuite rootSuite

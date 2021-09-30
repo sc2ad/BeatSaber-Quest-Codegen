@@ -46,6 +46,11 @@ namespace Zenject::Internal {
   template<typename TContract>
   class DecoratorProvider_1 : public ::Il2CppObject/*, public Zenject::Internal::IDecoratorProvider*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Collections.Generic.Dictionary`2<Zenject.IProvider,System.Collections.Generic.List`1<System.Object>> _cachedInstances
     // Size: 0x8
     // Offset: 0x0
@@ -70,6 +75,7 @@ namespace Zenject::Internal {
     System::Collections::Generic::List_1<Zenject::IFactory_2<TContract, TContract>*>* decoratorFactories;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<Zenject::IFactory_2<TContract, TContract>*>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator Zenject::Internal::IDecoratorProvider
     operator Zenject::Internal::IDecoratorProvider() noexcept {
       return *reinterpret_cast<Zenject::Internal::IDecoratorProvider*>(this);

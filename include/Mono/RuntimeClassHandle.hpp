@@ -28,12 +28,18 @@ namespace Mono {
   // [TokenAttribute] Offset: FFFFFFFF
   struct RuntimeClassHandle/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Mono.RuntimeStructs/Mono.MonoClass* value
     // Size: 0x8
     // Offset: 0x0
     Mono::RuntimeStructs::MonoClass* value;
     // Field size check
     static_assert(sizeof(Mono::RuntimeStructs::MonoClass*) == 0x8);
+    public:
     // Creating value type constructor for type: RuntimeClassHandle
     constexpr RuntimeClassHandle(Mono::RuntimeStructs::MonoClass* value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::ValueType

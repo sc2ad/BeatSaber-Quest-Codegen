@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Crypto::Parameters
@@ -34,6 +35,11 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     public:
     // Writing base type padding for base size: 0x11 to desired offset: 0x18
     char ___base_padding[0x7] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.String algorithm
     // Size: 0x8
     // Offset: 0x18
@@ -52,12 +58,13 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::DerObjectIdentifier*) == 0x8);
+    public:
     // Deleting conversion operator: operator bool
     constexpr operator bool() const noexcept = delete;
     // Get static field: static private readonly System.String[] algorithms
-    static ::ArrayWrapper<::Il2CppString*> _get_algorithms();
+    static ::ArrayW<::Il2CppString*> _get_algorithms();
     // Set static field: static private readonly System.String[] algorithms
-    static void _set_algorithms(::ArrayWrapper<::Il2CppString*> value);
+    static void _set_algorithms(::ArrayW<::Il2CppString*> value);
     // Get instance field reference: private readonly System.String algorithm
     ::Il2CppString*& dyn_algorithm();
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.Parameters.ECDomainParameters parameters

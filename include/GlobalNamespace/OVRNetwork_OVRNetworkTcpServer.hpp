@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net::Sockets
@@ -40,6 +41,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRNetwork::OVRNetworkTcpServer : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Net.Sockets.TcpListener tcpListener
     // Size: 0x8
     // Offset: 0x10
@@ -58,6 +64,7 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<System::Net::Sockets::TcpClient*>* clients;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<System::Net::Sockets::TcpClient*>*) == 0x8);
+    public:
     // Get instance field reference: public System.Net.Sockets.TcpListener tcpListener
     System::Net::Sockets::TcpListener*& dyn_tcpListener();
     // Get instance field reference: private readonly System.Object clientsLock
@@ -78,7 +85,7 @@ namespace GlobalNamespace {
     bool HasConnectedClient();
     // public System.Void Broadcast(System.Int32 payloadType, System.Byte[] payload)
     // Offset: 0x1467F18
-    void Broadcast(int payloadType, ::ArrayWrapper<uint8_t> payload);
+    void Broadcast(int payloadType, ::ArrayW<uint8_t> payload);
     // private System.Void DoWriteDataCallback(System.IAsyncResult ar)
     // Offset: 0x146841C
     void DoWriteDataCallback(System::IAsyncResult* ar);
@@ -135,7 +142,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::OVRNetwork::OVRNetworkTcpServer::Broadcast
 // Il2CppName: Broadcast
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRNetwork::OVRNetworkTcpServer::*)(int, ::ArrayWrapper<uint8_t>)>(&GlobalNamespace::OVRNetwork::OVRNetworkTcpServer::Broadcast)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OVRNetwork::OVRNetworkTcpServer::*)(int, ::ArrayW<uint8_t>)>(&GlobalNamespace::OVRNetwork::OVRNetworkTcpServer::Broadcast)> {
   static const MethodInfo* get() {
     static auto* payloadType = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* payload = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;

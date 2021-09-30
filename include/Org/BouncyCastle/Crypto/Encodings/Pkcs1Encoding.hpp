@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Security
@@ -32,6 +33,11 @@ namespace Org::BouncyCastle::Crypto::Encodings {
   // [TokenAttribute] Offset: FFFFFFFF
   class Pkcs1Encoding : public ::Il2CppObject/*, public Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Org.BouncyCastle.Security.SecureRandom random
     // Size: 0x8
     // Offset: 0x10
@@ -73,23 +79,24 @@ namespace Org::BouncyCastle::Crypto::Encodings {
     // private System.Byte[] fallback
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<uint8_t> fallback;
+    ::ArrayW<uint8_t> fallback;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Byte[] blockBuffer
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<uint8_t> blockBuffer;
+    ::ArrayW<uint8_t> blockBuffer;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
+    public:
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IAsymmetricBlockCipher
     operator Org::BouncyCastle::Crypto::IAsymmetricBlockCipher() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*>(this);
     }
     // Get static field: static private readonly System.Boolean[] strictLengthEnabled
-    static ::ArrayWrapper<bool> _get_strictLengthEnabled();
+    static ::ArrayW<bool> _get_strictLengthEnabled();
     // Set static field: static private readonly System.Boolean[] strictLengthEnabled
-    static void _set_strictLengthEnabled(::ArrayWrapper<bool> value);
+    static void _set_strictLengthEnabled(::ArrayW<bool> value);
     // Get instance field reference: private Org.BouncyCastle.Security.SecureRandom random
     Org::BouncyCastle::Security::SecureRandom*& dyn_random();
     // Get instance field reference: private Org.BouncyCastle.Crypto.IAsymmetricBlockCipher engine
@@ -103,9 +110,9 @@ namespace Org::BouncyCastle::Crypto::Encodings {
     // Get instance field reference: private System.Int32 pLen
     int& dyn_pLen();
     // Get instance field reference: private System.Byte[] fallback
-    ::ArrayWrapper<uint8_t>& dyn_fallback();
+    ::ArrayW<uint8_t>& dyn_fallback();
     // Get instance field reference: private System.Byte[] blockBuffer
-    ::ArrayWrapper<uint8_t>& dyn_blockBuffer();
+    ::ArrayW<uint8_t>& dyn_blockBuffer();
     // static public System.Boolean get_StrictLengthEnabled()
     // Offset: 0x1AA94B0
     static bool get_StrictLengthEnabled();
@@ -130,25 +137,25 @@ namespace Org::BouncyCastle::Crypto::Encodings {
     int GetOutputBlockSize();
     // public System.Byte[] ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Int32 length)
     // Offset: 0x1AA9B18
-    ::ArrayWrapper<uint8_t> ProcessBlock(::ArrayWrapper<uint8_t> input, int inOff, int length);
+    ::ArrayW<uint8_t> ProcessBlock(::ArrayW<uint8_t> input, int inOff, int length);
     // private System.Byte[] EncodeBlock(System.Byte[] input, System.Int32 inOff, System.Int32 inLen)
     // Offset: 0x1AA9E3C
-    ::ArrayWrapper<uint8_t> EncodeBlock(::ArrayWrapper<uint8_t> input, int inOff, int inLen);
+    ::ArrayW<uint8_t> EncodeBlock(::ArrayW<uint8_t> input, int inOff, int inLen);
     // static private System.Int32 CheckPkcs1Encoding(System.Byte[] encoded, System.Int32 pLen)
     // Offset: 0x1AAA144
-    static int CheckPkcs1Encoding(::ArrayWrapper<uint8_t> encoded, int pLen);
+    static int CheckPkcs1Encoding(::ArrayW<uint8_t> encoded, int pLen);
     // private System.Byte[] DecodeBlockOrRandom(System.Byte[] input, System.Int32 inOff, System.Int32 inLen)
     // Offset: 0x1AAA1F4
-    ::ArrayWrapper<uint8_t> DecodeBlockOrRandom(::ArrayWrapper<uint8_t> input, int inOff, int inLen);
+    ::ArrayW<uint8_t> DecodeBlockOrRandom(::ArrayW<uint8_t> input, int inOff, int inLen);
     // private System.Byte[] DecodeBlock(System.Byte[] input, System.Int32 inOff, System.Int32 inLen)
     // Offset: 0x1AA9B28
-    ::ArrayWrapper<uint8_t> DecodeBlock(::ArrayWrapper<uint8_t> input, int inOff, int inLen);
+    ::ArrayW<uint8_t> DecodeBlock(::ArrayW<uint8_t> input, int inOff, int inLen);
     // private System.Int32 FindStart(System.Byte type, System.Byte[] block)
     // Offset: 0x1AAA4F0
-    int FindStart(uint8_t type, ::ArrayWrapper<uint8_t> block);
+    int FindStart(uint8_t type, ::ArrayW<uint8_t> block);
   }; // Org.BouncyCastle.Crypto.Encodings.Pkcs1Encoding
   #pragma pack(pop)
-  static check_size<sizeof(Pkcs1Encoding), 48 + sizeof(::ArrayWrapper<uint8_t>)> __Org_BouncyCastle_Crypto_Encodings_Pkcs1EncodingSizeCheck;
+  static check_size<sizeof(Pkcs1Encoding), 48 + sizeof(::ArrayW<uint8_t>)> __Org_BouncyCastle_Crypto_Encodings_Pkcs1EncodingSizeCheck;
   static_assert(sizeof(Pkcs1Encoding) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding*, "Org.BouncyCastle.Crypto.Encodings", "Pkcs1Encoding");
@@ -202,7 +209,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::ProcessBlock
 // Il2CppName: ProcessBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::*)(::ArrayWrapper<uint8_t>, int, int)>(&Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::ProcessBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::*)(::ArrayW<uint8_t>, int, int)>(&Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::ProcessBlock)> {
   static const MethodInfo* get() {
     static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* inOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -213,7 +220,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::EncodeBlock
 // Il2CppName: EncodeBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::*)(::ArrayWrapper<uint8_t>, int, int)>(&Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::EncodeBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::*)(::ArrayW<uint8_t>, int, int)>(&Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::EncodeBlock)> {
   static const MethodInfo* get() {
     static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* inOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -224,7 +231,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::CheckPkcs1Encoding
 // Il2CppName: CheckPkcs1Encoding
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::CheckPkcs1Encoding)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayW<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::CheckPkcs1Encoding)> {
   static const MethodInfo* get() {
     static auto* encoded = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* pLen = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -234,7 +241,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::A
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::DecodeBlockOrRandom
 // Il2CppName: DecodeBlockOrRandom
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::*)(::ArrayWrapper<uint8_t>, int, int)>(&Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::DecodeBlockOrRandom)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::*)(::ArrayW<uint8_t>, int, int)>(&Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::DecodeBlockOrRandom)> {
   static const MethodInfo* get() {
     static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* inOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -245,7 +252,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::DecodeBlock
 // Il2CppName: DecodeBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::*)(::ArrayWrapper<uint8_t>, int, int)>(&Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::DecodeBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::*)(::ArrayW<uint8_t>, int, int)>(&Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::DecodeBlock)> {
   static const MethodInfo* get() {
     static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* inOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -256,7 +263,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::FindStart
 // Il2CppName: FindStart
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::*)(uint8_t, ::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::FindStart)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::*)(uint8_t, ::ArrayW<uint8_t>)>(&Org::BouncyCastle::Crypto::Encodings::Pkcs1Encoding::FindStart)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
     static auto* block = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;

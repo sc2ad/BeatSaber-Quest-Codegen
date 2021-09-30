@@ -19,12 +19,18 @@ namespace Mono::Unity {
   // [TokenAttribute] Offset: FFFFFFFF
   struct UnityTls::unitytls_x509_ref/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.UInt64 handle
     // Size: 0x8
     // Offset: 0x0
     uint64_t handle;
     // Field size check
     static_assert(sizeof(uint64_t) == 0x8);
+    public:
     // Creating value type constructor for type: unitytls_x509_ref
     constexpr unitytls_x509_ref(uint64_t handle_ = {}) noexcept : handle{handle_} {}
     // Creating interface conversion operator: operator System::ValueType

@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
@@ -30,12 +31,18 @@ namespace HoudiniEngineUnity {
     // [TokenAttribute] Offset: FFFFFFFF
     struct HEU_HandleParamType/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: HEU_HandleParamType
       constexpr HEU_HandleParamType(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -70,6 +77,11 @@ namespace HoudiniEngineUnity {
     #pragma pack(pop)
     static check_size<sizeof(HEU_HandleParamBinding::HEU_HandleParamType), 0 + sizeof(int)> __HoudiniEngineUnity_HEU_HandleParamBinding_HEU_HandleParamTypeSizeCheck;
     static_assert(sizeof(HEU_HandleParamBinding::HEU_HandleParamType) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public HoudiniEngineUnity.HEU_HandleParamBinding/HoudiniEngineUnity.HEU_HandleParamType _paramType
     // Size: 0x4
     // Offset: 0x10
@@ -99,9 +111,10 @@ namespace HoudiniEngineUnity {
     // public System.Boolean[] _boundChannels
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<bool> boundChannels;
+    ::ArrayW<bool> boundChannels;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<bool>) == 0x8);
+    static_assert(sizeof(::ArrayW<bool>) == 0x8);
+    public:
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_HandleParamBinding*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_HandleParamBinding*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_HandleParamBinding*>*>(this);
@@ -115,7 +128,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Boolean _bDisabled
     bool& dyn__bDisabled();
     // Get instance field reference: public System.Boolean[] _boundChannels
-    ::ArrayWrapper<bool>& dyn__boundChannels();
+    ::ArrayW<bool>& dyn__boundChannels();
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_HandleParamBinding other)
     // Offset: 0x15DC9C0
     bool IsEquivalentTo(HoudiniEngineUnity::HEU_HandleParamBinding* other);
@@ -130,7 +143,7 @@ namespace HoudiniEngineUnity {
     }
   }; // HoudiniEngineUnity.HEU_HandleParamBinding
   #pragma pack(pop)
-  static check_size<sizeof(HEU_HandleParamBinding), 40 + sizeof(::ArrayWrapper<bool>)> __HoudiniEngineUnity_HEU_HandleParamBindingSizeCheck;
+  static check_size<sizeof(HEU_HandleParamBinding), 40 + sizeof(::ArrayW<bool>)> __HoudiniEngineUnity_HEU_HandleParamBindingSizeCheck;
   static_assert(sizeof(HEU_HandleParamBinding) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_HandleParamBinding*, "HoudiniEngineUnity", "HEU_HandleParamBinding");

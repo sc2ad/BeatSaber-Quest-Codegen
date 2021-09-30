@@ -27,6 +27,11 @@ namespace Zenject {
   template<typename T>
   class PrefabResourceFactory_1 : public ::Il2CppObject/*, public Zenject::IFactory_2<::Il2CppString*, T>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xEC3A8C
     // private readonly Zenject.DiContainer _container
     // Size: 0x8
@@ -34,6 +39,7 @@ namespace Zenject {
     Zenject::DiContainer* container;
     // Field size check
     static_assert(sizeof(Zenject::DiContainer*) == 0x8);
+    public:
     // Creating interface conversion operator: operator Zenject::IFactory_2<::Il2CppString*, T>
     operator Zenject::IFactory_2<::Il2CppString*, T>() noexcept {
       return *reinterpret_cast<Zenject::IFactory_2<::Il2CppString*, T>*>(this);

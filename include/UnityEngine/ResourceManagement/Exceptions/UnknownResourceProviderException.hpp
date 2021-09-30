@@ -36,12 +36,18 @@ namespace UnityEngine::ResourceManagement::Exceptions {
   // [TokenAttribute] Offset: FFFFFFFF
   class UnknownResourceProviderException : public UnityEngine::ResourceManagement::Exceptions::ResourceManagerException {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation <Location>k__BackingField
     // Size: 0x8
     // Offset: 0x88
     UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* Location;
     // Field size check
     static_assert(sizeof(UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*) == 0x8);
+    public:
     // Creating conversion operator: operator UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*
     constexpr operator UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*() const noexcept {
       return Location;

@@ -18,6 +18,11 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   struct BRECORD/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.IntPtr pvRecord
     // Size: 0x8
     // Offset: 0x0
@@ -30,6 +35,7 @@ namespace System {
     System::IntPtr pRecInfo;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
+    public:
     // Creating value type constructor for type: BRECORD
     constexpr BRECORD(System::IntPtr pvRecord_ = {}, System::IntPtr pRecInfo_ = {}) noexcept : pvRecord{pvRecord_}, pRecInfo{pRecInfo_} {}
     // Creating interface conversion operator: operator System::ValueType

@@ -35,6 +35,11 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class MultiplayerResultsTableView::$$c__DisplayClass30_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.RectTransform rectTransform
     // Size: 0x8
     // Offset: 0x10
@@ -47,6 +52,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerResultsTableCell* cell;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerResultsTableCell*) == 0x8);
+    public:
     // Get instance field reference: public UnityEngine.RectTransform rectTransform
     UnityEngine::RectTransform*& dyn_rectTransform();
     // Get instance field reference: public MultiplayerResultsTableCell cell

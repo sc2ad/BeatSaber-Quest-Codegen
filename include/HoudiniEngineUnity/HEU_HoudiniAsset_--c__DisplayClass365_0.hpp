@@ -21,12 +21,18 @@ namespace HoudiniEngineUnity {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class HEU_HoudiniAsset::$$c__DisplayClass365_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public HoudiniEngineUnity.HEU_HoudiniAsset newAsset
     // Size: 0x8
     // Offset: 0x10
     HoudiniEngineUnity::HEU_HoudiniAsset* newAsset;
     // Field size check
     static_assert(sizeof(HoudiniEngineUnity::HEU_HoudiniAsset*) == 0x8);
+    public:
     // Creating conversion operator: operator HoudiniEngineUnity::HEU_HoudiniAsset*
     constexpr operator HoudiniEngineUnity::HEU_HoudiniAsset*() const noexcept {
       return newAsset;

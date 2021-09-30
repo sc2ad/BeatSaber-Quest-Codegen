@@ -20,6 +20,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class AvatarSaveData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.String headTopId
     // Size: 0x8
     // Offset: 0x10
@@ -116,6 +121,7 @@ namespace GlobalNamespace {
     UnityEngine::Color clothesDetailColor;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
+    public:
     // Get instance field reference: public System.String headTopId
     ::Il2CppString*& dyn_headTopId();
     // Get instance field reference: public System.String glassesId

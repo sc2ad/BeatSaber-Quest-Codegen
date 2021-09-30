@@ -34,12 +34,18 @@ namespace Org::BouncyCastle::Asn1 {
   // [TokenAttribute] Offset: FFFFFFFF
   class DerOctetStringParser : public ::Il2CppObject/*, public Org::BouncyCastle::Asn1::Asn1OctetStringParser*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Org.BouncyCastle.Asn1.DefiniteLengthInputStream stream
     // Size: 0x8
     // Offset: 0x10
     Org::BouncyCastle::Asn1::DefiniteLengthInputStream* stream;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::DefiniteLengthInputStream*) == 0x8);
+    public:
     // Creating interface conversion operator: operator Org::BouncyCastle::Asn1::Asn1OctetStringParser
     operator Org::BouncyCastle::Asn1::Asn1OctetStringParser() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Asn1::Asn1OctetStringParser*>(this);

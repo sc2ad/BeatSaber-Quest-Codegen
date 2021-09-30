@@ -31,6 +31,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GameCoreSceneSetup : public Zenject::MonoInstaller {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private ScreenCaptureAfterDelay _screenCaptureAfterDelayPrefab
     // Size: 0x8
     // Offset: 0x20
@@ -49,6 +54,7 @@ namespace GlobalNamespace {
     GlobalNamespace::BloomFogSO* bloomFog;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BloomFogSO*) == 0x8);
+    public:
     // static field const value: static private System.Single kPauseButtonPressDurationMultiplier
     static constexpr const float kPauseButtonPressDurationMultiplier = 0.75;
     // Get static field: static private System.Single kPauseButtonPressDurationMultiplier

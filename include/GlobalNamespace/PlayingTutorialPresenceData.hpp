@@ -27,12 +27,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayingTutorialPresenceData : public ::Il2CppObject/*, public GlobalNamespace::IRichPresenceData*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String <localizedDescription>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     ::Il2CppString* localizedDescription;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IRichPresenceData
     operator GlobalNamespace::IRichPresenceData() noexcept {
       return *reinterpret_cast<GlobalNamespace::IRichPresenceData*>(this);

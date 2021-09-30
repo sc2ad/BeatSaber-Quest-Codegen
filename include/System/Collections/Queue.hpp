@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections
@@ -41,12 +42,17 @@ namespace System::Collections {
     class QueueEnumerator;
     // Nested type: System::Collections::Queue::QueueDebugView
     class QueueDebugView;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Object[] _array
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<::Il2CppObject*> array;
+    ::ArrayW<::Il2CppObject*> array;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppObject*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppObject*>) == 0x8);
     // private System.Int32 _head
     // Size: 0x4
     // Offset: 0x18
@@ -77,6 +83,7 @@ namespace System::Collections {
     int version;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);
@@ -86,7 +93,7 @@ namespace System::Collections {
       return *reinterpret_cast<System::Collections::ICollection*>(this);
     }
     // Get instance field reference: private System.Object[] _array
-    ::ArrayWrapper<::Il2CppObject*>& dyn__array();
+    ::ArrayW<::Il2CppObject*>& dyn__array();
     // Get instance field reference: private System.Int32 _head
     int& dyn__head();
     // Get instance field reference: private System.Int32 _tail
@@ -147,7 +154,7 @@ namespace System::Collections {
     ::Il2CppObject* GetElement(int i);
     // public System.Object[] ToArray()
     // Offset: 0x1B133A4
-    ::ArrayWrapper<::Il2CppObject*> ToArray();
+    ::ArrayW<::Il2CppObject*> ToArray();
     // private System.Void SetCapacity(System.Int32 capacity)
     // Offset: 0x1B12FC4
     void SetCapacity(int capacity);
@@ -258,7 +265,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Collections::Queue::ToArray
 // Il2CppName: ToArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppObject*> (System::Collections::Queue::*)()>(&System::Collections::Queue::ToArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppObject*> (System::Collections::Queue::*)()>(&System::Collections::Queue::ToArray)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Collections::Queue*), "ToArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

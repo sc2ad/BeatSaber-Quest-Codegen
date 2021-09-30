@@ -47,6 +47,11 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   class OpenVR::COpenVRContext : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Valve.VR.CVRSystem m_pVRSystem
     // Size: 0x8
     // Offset: 0x10
@@ -113,6 +118,7 @@ namespace Valve::VR {
     Valve::VR::CVRTrackedCamera* m_pVRTrackedCamera;
     // Field size check
     static_assert(sizeof(Valve::VR::CVRTrackedCamera*) == 0x8);
+    public:
     // Get instance field reference: private Valve.VR.CVRSystem m_pVRSystem
     Valve::VR::CVRSystem*& dyn_m_pVRSystem();
     // Get instance field reference: private Valve.VR.CVRChaperone m_pVRChaperone

@@ -40,6 +40,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayerOptionsViewController : public HMUI::ViewController {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private PlayerSettingsPanelController _playerSettingsPanelController
     // Size: 0x8
     // Offset: 0x70
@@ -65,6 +70,7 @@ namespace GlobalNamespace {
     System::Action_1<HMUI::ViewController*>* didFinishEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<HMUI::ViewController*>*) == 0x8);
+    public:
     // Get instance field reference: private PlayerSettingsPanelController _playerSettingsPanelController
     GlobalNamespace::PlayerSettingsPanelController*& dyn__playerSettingsPanelController();
     // Get instance field reference: private UnityEngine.UI.Button _okButton

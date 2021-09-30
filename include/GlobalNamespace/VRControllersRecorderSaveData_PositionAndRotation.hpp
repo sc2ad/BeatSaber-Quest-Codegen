@@ -20,6 +20,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class VRControllersRecorderSaveData::PositionAndRotation : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Single posX
     // Size: 0x4
     // Offset: 0x10
@@ -62,6 +67,7 @@ namespace GlobalNamespace {
     float rotW;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: public System.Single posX
     float& dyn_posX();
     // Get instance field reference: public System.Single posY

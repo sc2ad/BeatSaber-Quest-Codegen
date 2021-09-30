@@ -20,6 +20,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class NamedIntListController::TextValuePair : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.String localizationKey
     // Size: 0x8
     // Offset: 0x10
@@ -32,6 +37,7 @@ namespace GlobalNamespace {
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: public System.String localizationKey
     ::Il2CppString*& dyn_localizationKey();
     // Get instance field reference: public System.Int32 value

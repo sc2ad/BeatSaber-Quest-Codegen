@@ -5,6 +5,7 @@
 // Begin includes
 #include <stdint.h>
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Crypto
@@ -26,7 +27,7 @@ namespace Org::BouncyCastle::Crypto {
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Byte[] DoFinal(System.Byte[] input)
     // Offset: 0xFFFFFFFF
-    ::ArrayWrapper<uint8_t> DoFinal(::ArrayWrapper<uint8_t> input);
+    ::ArrayW<uint8_t> DoFinal(::ArrayW<uint8_t> input);
   }; // Org.BouncyCastle.Crypto.IBufferedCipher
   #pragma pack(pop)
 }
@@ -46,7 +47,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::IBufferedCipher::DoFinal
 // Il2CppName: DoFinal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Crypto::IBufferedCipher::*)(::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Crypto::IBufferedCipher::DoFinal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Org::BouncyCastle::Crypto::IBufferedCipher::*)(::ArrayW<uint8_t>)>(&Org::BouncyCastle::Crypto::IBufferedCipher::DoFinal)> {
   static const MethodInfo* get() {
     static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::IBufferedCipher*), "DoFinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input});

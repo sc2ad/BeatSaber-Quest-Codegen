@@ -20,12 +20,18 @@ namespace Org::BouncyCastle::Crypto {
   // [TokenAttribute] Offset: FFFFFFFF
   class AsymmetricKeyParameter : public ::Il2CppObject/*, public Org::BouncyCastle::Crypto::ICipherParameters*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Boolean privateKey
     // Size: 0x1
     // Offset: 0x10
     bool privateKey;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::ICipherParameters
     operator Org::BouncyCastle::Crypto::ICipherParameters() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::ICipherParameters*>(this);

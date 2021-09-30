@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HoudiniEngineUnity
@@ -54,7 +55,7 @@ namespace HoudiniEngineUnity {
     bool UploadAlphaMaps(HoudiniEngineUnity::HEU_SessionBase* session, HoudiniEngineUnity::HEU_InputInterfaceTerrain::HEU_InputDataTerrain* idt, ByRef<HoudiniEngineUnity::HAPI_VolumeInfo> baseVolumeInfo, ByRef<bool> bMaskSet);
     // public System.Boolean SetHeightFieldData(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 volumeNodeID, System.Int32 partID, System.Single[] heightValues, System.String heightFieldName, ref HoudiniEngineUnity.HAPI_VolumeInfo baseVolumeInfo)
     // Offset: 0x1521DB0
-    bool SetHeightFieldData(HoudiniEngineUnity::HEU_SessionBase* session, int volumeNodeID, int partID, ::ArrayWrapper<float> heightValues, ::Il2CppString* heightFieldName, ByRef<HoudiniEngineUnity::HAPI_VolumeInfo> baseVolumeInfo);
+    bool SetHeightFieldData(HoudiniEngineUnity::HEU_SessionBase* session, int volumeNodeID, int partID, ::ArrayW<float> heightValues, ::Il2CppString* heightFieldName, ByRef<HoudiniEngineUnity::HAPI_VolumeInfo> baseVolumeInfo);
     // public System.Boolean SetTerrainDataAttributesToHeightField(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 geoNodeID, System.Int32 partID, UnityEngine.TerrainData terrainData)
     // Offset: 0x15221F8
     bool SetTerrainDataAttributesToHeightField(HoudiniEngineUnity::HEU_SessionBase* session, int geoNodeID, int partID, UnityEngine::TerrainData* terrainData);
@@ -141,7 +142,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_InputInterfaceTerrain::SetHeightFieldData
 // Il2CppName: SetHeightFieldData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_InputInterfaceTerrain::*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, ::ArrayWrapper<float>, ::Il2CppString*, ByRef<HoudiniEngineUnity::HAPI_VolumeInfo>)>(&HoudiniEngineUnity::HEU_InputInterfaceTerrain::SetHeightFieldData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_InputInterfaceTerrain::*)(HoudiniEngineUnity::HEU_SessionBase*, int, int, ::ArrayW<float>, ::Il2CppString*, ByRef<HoudiniEngineUnity::HAPI_VolumeInfo>)>(&HoudiniEngineUnity::HEU_InputInterfaceTerrain::SetHeightFieldData)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* volumeNodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -37,6 +38,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRGrabbable : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // protected System.Boolean m_allowOffhandGrab
     // Size: 0x1
     // Offset: 0x18
@@ -66,9 +72,9 @@ namespace GlobalNamespace {
     // protected UnityEngine.Collider[] m_grabPoints
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<UnityEngine::Collider*> m_grabPoints;
+    ::ArrayW<UnityEngine::Collider*> m_grabPoints;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Collider*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Collider*>) == 0x8);
     // protected System.Boolean m_grabbedKinematic
     // Size: 0x1
     // Offset: 0x30
@@ -89,6 +95,7 @@ namespace GlobalNamespace {
     GlobalNamespace::OVRGrabber* m_grabbedBy;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OVRGrabber*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: protected System.Boolean m_allowOffhandGrab
@@ -100,7 +107,7 @@ namespace GlobalNamespace {
     // Get instance field reference: protected UnityEngine.Transform m_snapOffset
     UnityEngine::Transform*& dyn_m_snapOffset();
     // Get instance field reference: protected UnityEngine.Collider[] m_grabPoints
-    ::ArrayWrapper<UnityEngine::Collider*>& dyn_m_grabPoints();
+    ::ArrayW<UnityEngine::Collider*>& dyn_m_grabPoints();
     // Get instance field reference: protected System.Boolean m_grabbedKinematic
     bool& dyn_m_grabbedKinematic();
     // Get instance field reference: protected UnityEngine.Collider m_grabbedCollider
@@ -133,7 +140,7 @@ namespace GlobalNamespace {
     UnityEngine::Rigidbody* get_grabbedRigidbody();
     // public UnityEngine.Collider[] get_grabPoints()
     // Offset: 0x16C10E4
-    ::ArrayWrapper<UnityEngine::Collider*> get_grabPoints();
+    ::ArrayW<UnityEngine::Collider*> get_grabPoints();
     // public System.Void GrabBegin(OVRGrabber hand, UnityEngine.Collider grabPoint)
     // Offset: 0x16C10EC
     void GrabBegin(GlobalNamespace::OVRGrabber* hand, UnityEngine::Collider* grabPoint);
@@ -236,7 +243,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::OVRGrabbable::get_grabPoints
 // Il2CppName: get_grabPoints
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Collider*> (GlobalNamespace::OVRGrabbable::*)()>(&GlobalNamespace::OVRGrabbable::get_grabPoints)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Collider*> (GlobalNamespace::OVRGrabbable::*)()>(&GlobalNamespace::OVRGrabbable::get_grabPoints)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OVRGrabbable*), "get_grabPoints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

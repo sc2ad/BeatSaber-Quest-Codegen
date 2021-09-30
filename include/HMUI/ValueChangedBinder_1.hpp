@@ -41,12 +41,18 @@ namespace HMUI {
   template<typename T>
   class ValueChangedBinder_1 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.List`1<System.Tuple`2<HMUI.IValueChanger`1<T>,System.Action`1<T>>> _bindings
     // Size: 0x8
     // Offset: 0x0
     System::Collections::Generic::List_1<System::Tuple_2<HMUI::IValueChanger_1<T>*, System::Action_1<T>*>*>* bindings;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<System::Tuple_2<HMUI::IValueChanger_1<T>*, System::Action_1<T>*>*>*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Collections::Generic::List_1<System::Tuple_2<HMUI::IValueChanger_1<T>*, System::Action_1<T>*>*>*
     constexpr operator System::Collections::Generic::List_1<System::Tuple_2<HMUI::IValueChanger_1<T>*, System::Action_1<T>*>*>*() const noexcept {
       return bindings;

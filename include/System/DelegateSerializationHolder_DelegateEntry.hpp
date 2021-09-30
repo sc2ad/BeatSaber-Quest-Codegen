@@ -32,6 +32,11 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class DelegateSerializationHolder::DelegateEntry : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String type
     // Size: 0x8
     // Offset: 0x10
@@ -74,6 +79,7 @@ namespace System {
     System::DelegateSerializationHolder::DelegateEntry* delegateEntry;
     // Field size check
     static_assert(sizeof(System::DelegateSerializationHolder::DelegateEntry*) == 0x8);
+    public:
     // Get instance field reference: private System.String type
     ::Il2CppString*& dyn_type();
     // Get instance field reference: private System.String assembly

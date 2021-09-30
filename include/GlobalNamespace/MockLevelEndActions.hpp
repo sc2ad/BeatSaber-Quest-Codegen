@@ -27,6 +27,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MockLevelEndActions : public ::Il2CppObject/*, public GlobalNamespace::ILevelEndActions*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Action levelFailedEvent
     // Size: 0x8
     // Offset: 0x10
@@ -39,6 +44,7 @@ namespace GlobalNamespace {
     System::Action* levelFinishedEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::ILevelEndActions
     operator GlobalNamespace::ILevelEndActions() noexcept {
       return *reinterpret_cast<GlobalNamespace::ILevelEndActions*>(this);

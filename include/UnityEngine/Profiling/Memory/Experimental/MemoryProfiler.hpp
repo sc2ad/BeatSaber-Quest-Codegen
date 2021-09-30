@@ -7,6 +7,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Profiling.Experimental.DebugScreenCapture
 #include "UnityEngine/Profiling/Experimental/DebugScreenCapture.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -59,13 +60,13 @@ namespace UnityEngine::Profiling::Memory::Experimental {
     static void _set_createMetaData(System::Action_1<UnityEngine::Profiling::Memory::Experimental::MetaData*>* value);
     // static private System.Byte[] PrepareMetadata()
     // Offset: 0x1DFE64C
-    static ::ArrayWrapper<uint8_t> PrepareMetadata();
+    static ::ArrayW<uint8_t> PrepareMetadata();
     // static System.Int32 WriteIntToByteArray(System.Byte[] array, System.Int32 offset, System.Int32 value)
     // Offset: 0x1DFE804
-    static int WriteIntToByteArray(::ArrayWrapper<uint8_t> array, int offset, int value);
+    static int WriteIntToByteArray(::ArrayW<uint8_t> array, int offset, int value);
     // static System.Int32 WriteStringToByteArray(System.Byte[] array, System.Int32 offset, System.String value)
     // Offset: 0x1DFE8A4
-    static int WriteStringToByteArray(::ArrayWrapper<uint8_t> array, int offset, ::Il2CppString* value);
+    static int WriteStringToByteArray(::ArrayW<uint8_t> array, int offset, ::Il2CppString* value);
     // static private System.Void FinalizeSnapshot(System.String path, System.Boolean result)
     // Offset: 0x1DFE94C
     static void FinalizeSnapshot(::Il2CppString* path, bool result);
@@ -81,7 +82,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Profiling::Memory::Experimental::MemoryProfi
 // Writing MetadataGetter for method: UnityEngine::Profiling::Memory::Experimental::MemoryProfiler::PrepareMetadata
 // Il2CppName: PrepareMetadata
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)()>(&UnityEngine::Profiling::Memory::Experimental::MemoryProfiler::PrepareMetadata)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)()>(&UnityEngine::Profiling::Memory::Experimental::MemoryProfiler::PrepareMetadata)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Profiling::Memory::Experimental::MemoryProfiler*), "PrepareMetadata", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -89,7 +90,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::Profiling::Memory::Experimental::MemoryProfiler::WriteIntToByteArray
 // Il2CppName: WriteIntToByteArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayWrapper<uint8_t>, int, int)>(&UnityEngine::Profiling::Memory::Experimental::MemoryProfiler::WriteIntToByteArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayW<uint8_t>, int, int)>(&UnityEngine::Profiling::Memory::Experimental::MemoryProfiler::WriteIntToByteArray)> {
   static const MethodInfo* get() {
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -100,7 +101,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::A
 // Writing MetadataGetter for method: UnityEngine::Profiling::Memory::Experimental::MemoryProfiler::WriteStringToByteArray
 // Il2CppName: WriteStringToByteArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayWrapper<uint8_t>, int, ::Il2CppString*)>(&UnityEngine::Profiling::Memory::Experimental::MemoryProfiler::WriteStringToByteArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayW<uint8_t>, int, ::Il2CppString*)>(&UnityEngine::Profiling::Memory::Experimental::MemoryProfiler::WriteStringToByteArray)> {
   static const MethodInfo* get() {
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

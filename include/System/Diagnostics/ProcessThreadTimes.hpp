@@ -25,6 +25,11 @@ namespace System::Diagnostics {
   // [TokenAttribute] Offset: FFFFFFFF
   class ProcessThreadTimes : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Int64 create
     // Size: 0x8
     // Offset: 0x10
@@ -49,6 +54,7 @@ namespace System::Diagnostics {
     int64_t user;
     // Field size check
     static_assert(sizeof(int64_t) == 0x8);
+    public:
     // Get instance field reference: System.Int64 create
     int64_t& dyn_create();
     // Get instance field reference: System.Int64 exit

@@ -37,6 +37,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::SaberManager::InitData
     class InitData;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Saber _leftSaber
     // Size: 0x8
     // Offset: 0x18
@@ -70,6 +75,7 @@ namespace GlobalNamespace {
     System::Action_2<GlobalNamespace::Saber*, GlobalNamespace::Saber*>* didUpdateSaberPositionsEvent;
     // Field size check
     static_assert(sizeof(System::Action_2<GlobalNamespace::Saber*, GlobalNamespace::Saber*>*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private Saber _leftSaber

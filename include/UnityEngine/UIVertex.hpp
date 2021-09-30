@@ -26,6 +26,11 @@ namespace UnityEngine {
   // [UsedByNativeCodeAttribute] Offset: E89E18
   struct UIVertex/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Vector3 position
     // Size: 0xC
     // Offset: 0x0
@@ -74,6 +79,7 @@ namespace UnityEngine {
     UnityEngine::Vector2 uv3;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector2) == 0x8);
+    public:
     // Creating value type constructor for type: UIVertex
     constexpr UIVertex(UnityEngine::Vector3 position_ = {}, UnityEngine::Vector3 normal_ = {}, UnityEngine::Vector4 tangent_ = {}, UnityEngine::Color32 color_ = {}, UnityEngine::Vector2 uv0_ = {}, UnityEngine::Vector2 uv1_ = {}, UnityEngine::Vector2 uv2_ = {}, UnityEngine::Vector2 uv3_ = {}) noexcept : position{position_}, normal{normal_}, tangent{tangent_}, color{color_}, uv0{uv0_}, uv1{uv1_}, uv2{uv2_}, uv3{uv3_} {}
     // Creating interface conversion operator: operator System::ValueType

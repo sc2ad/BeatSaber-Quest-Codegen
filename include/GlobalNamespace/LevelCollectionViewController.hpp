@@ -72,6 +72,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::LevelCollectionViewController::$SongPlayerCrossfadeToLevelAsync$d__24
     struct $SongPlayerCrossfadeToLevelAsync$d__24;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private LevelCollectionTableView _levelCollectionTableView
     // Size: 0x8
     // Offset: 0x70
@@ -164,6 +169,7 @@ namespace GlobalNamespace {
     GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevelToBeSelected;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IPreviewBeatmapLevel*) == 0x8);
+    public:
     // Get instance field reference: private LevelCollectionTableView _levelCollectionTableView
     GlobalNamespace::LevelCollectionTableView*& dyn__levelCollectionTableView();
     // Get instance field reference: private UnityEngine.RectTransform _noDataInfoContainer

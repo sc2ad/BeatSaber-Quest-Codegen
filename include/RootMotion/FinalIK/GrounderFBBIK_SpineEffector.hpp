@@ -22,6 +22,11 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class GrounderFBBIK::SpineEffector : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [TooltipAttribute] Offset: 0xEF4DCC
     // public RootMotion.FinalIK.FullBodyBipedEffector effectorType
     // Size: 0x4
@@ -43,6 +48,7 @@ namespace RootMotion::FinalIK {
     float verticalWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: public RootMotion.FinalIK.FullBodyBipedEffector effectorType
     RootMotion::FinalIK::FullBodyBipedEffector& dyn_effectorType();
     // Get instance field reference: public System.Single horizontalWeight

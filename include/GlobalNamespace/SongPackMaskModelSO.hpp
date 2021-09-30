@@ -17,6 +17,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -46,6 +47,11 @@ namespace GlobalNamespace {
     struct SongPackDataType;
     // Nested type: GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem
     class SongPackMaskItem;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.List`1<System.String> _defaultSongPackMaskItems
     // Size: 0x8
     // Offset: 0x18
@@ -55,9 +61,9 @@ namespace GlobalNamespace {
     // private SongPackMaskModelSO/SongPackMaskItem[] _customSongPackMaskItems
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem*> customSongPackMaskItems;
+    ::ArrayW<GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem*> customSongPackMaskItems;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem*>) == 0x8);
     // [SpaceAttribute] Offset: 0xF0325C
     // private BeatmapLevelPackCollectionSO _ostAndExtrasCollection
     // Size: 0x8
@@ -98,12 +104,13 @@ namespace GlobalNamespace {
     System::Collections::Generic::Dictionary_2<GlobalNamespace::SongPackMask, ::Il2CppString*>* songPackMaskToSerializedNameDict;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<GlobalNamespace::SongPackMask, ::Il2CppString*>*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Collections.Generic.List`1<System.String> _defaultSongPackMaskItems
     System::Collections::Generic::List_1<::Il2CppString*>*& dyn__defaultSongPackMaskItems();
     // Get instance field reference: private SongPackMaskModelSO/SongPackMaskItem[] _customSongPackMaskItems
-    ::ArrayWrapper<GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem*>& dyn__customSongPackMaskItems();
+    ::ArrayW<GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem*>& dyn__customSongPackMaskItems();
     // Get instance field reference: private BeatmapLevelPackCollectionSO _ostAndExtrasCollection
     GlobalNamespace::BeatmapLevelPackCollectionSO*& dyn__ostAndExtrasCollection();
     // Get instance field reference: private BeatmapLevelPackCollectionSO _dlcCollection
@@ -121,7 +128,7 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<::Il2CppString*>* get_defaultSongPackMaskItems();
     // public SongPackMaskModelSO/SongPackMaskItem[] get_customSongPackMaskItems()
     // Offset: 0x110A4A4
-    ::ArrayWrapper<GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem*> get_customSongPackMaskItems();
+    ::ArrayW<GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem*> get_customSongPackMaskItems();
     // public BeatmapLevelPackCollectionSO get_ostAndExtrasCollection()
     // Offset: 0x110A4AC
     GlobalNamespace::BeatmapLevelPackCollectionSO* get_ostAndExtrasCollection();
@@ -179,7 +186,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: GlobalNamespace::SongPackMaskModelSO::get_customSongPackMaskItems
 // Il2CppName: get_customSongPackMaskItems
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem*> (GlobalNamespace::SongPackMaskModelSO::*)()>(&GlobalNamespace::SongPackMaskModelSO::get_customSongPackMaskItems)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<GlobalNamespace::SongPackMaskModelSO::SongPackMaskItem*> (GlobalNamespace::SongPackMaskModelSO::*)()>(&GlobalNamespace::SongPackMaskModelSO::get_customSongPackMaskItems)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SongPackMaskModelSO*), "get_customSongPackMaskItems", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -21,6 +21,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::UI
@@ -65,6 +66,11 @@ namespace UnityEngine::UI {
   // [RequireComponent] Offset: EA82B8
   class RectMask2D : public UnityEngine::EventSystems::UIBehaviour/*, public UnityEngine::UI::IClipper, public UnityEngine::ICanvasRaycastFilter*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly UnityEngine.UI.RectangularVertexClipper m_VertexClipper
     // Size: 0x8
     // Offset: 0x18
@@ -140,9 +146,10 @@ namespace UnityEngine::UI {
     // private UnityEngine.Vector3[] m_Corners
     // Size: 0x8
     // Offset: 0x80
-    ::ArrayWrapper<UnityEngine::Vector3> m_Corners;
+    ::ArrayW<UnityEngine::Vector3> m_Corners;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector3>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Vector3>) == 0x8);
+    public:
     // Creating interface conversion operator: operator UnityEngine::UI::IClipper
     operator UnityEngine::UI::IClipper() noexcept {
       return *reinterpret_cast<UnityEngine::UI::IClipper*>(this);
@@ -176,7 +183,7 @@ namespace UnityEngine::UI {
     // Get instance field reference: private UnityEngine.Canvas m_Canvas
     UnityEngine::Canvas*& dyn_m_Canvas();
     // Get instance field reference: private UnityEngine.Vector3[] m_Corners
-    ::ArrayWrapper<UnityEngine::Vector3>& dyn_m_Corners();
+    ::ArrayW<UnityEngine::Vector3>& dyn_m_Corners();
     // public UnityEngine.Vector4 get_padding()
     // Offset: 0x1B4FA40
     UnityEngine::Vector4 get_padding();
@@ -252,7 +259,7 @@ namespace UnityEngine::UI {
     void OnCanvasHierarchyChanged();
   }; // UnityEngine.UI.RectMask2D
   #pragma pack(pop)
-  static check_size<sizeof(RectMask2D), 128 + sizeof(::ArrayWrapper<UnityEngine::Vector3>)> __UnityEngine_UI_RectMask2DSizeCheck;
+  static check_size<sizeof(RectMask2D), 128 + sizeof(::ArrayW<UnityEngine::Vector3>)> __UnityEngine_UI_RectMask2DSizeCheck;
   static_assert(sizeof(RectMask2D) == 0x88);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::RectMask2D*, "UnityEngine.UI", "RectMask2D");

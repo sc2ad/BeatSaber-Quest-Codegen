@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -42,6 +43,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::TubeLightBehaviour::ParameterType
     struct ParameterType;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Boolean _noPredefinedStartValue
     // Size: 0x1
     // Offset: 0x10
@@ -86,15 +92,15 @@ namespace GlobalNamespace {
     // private TubeBloomPrePassLight[] _tubeLights
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayWrapper<GlobalNamespace::TubeBloomPrePassLight*> tubeLights;
+    ::ArrayW<GlobalNamespace::TubeBloomPrePassLight*> tubeLights;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::TubeBloomPrePassLight*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::TubeBloomPrePassLight*>) == 0x8);
     // private DirectionalLight[] _directionalLights
     // Size: 0x8
     // Offset: 0x48
-    ::ArrayWrapper<GlobalNamespace::DirectionalLight*> directionalLights;
+    ::ArrayW<GlobalNamespace::DirectionalLight*> directionalLights;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::DirectionalLight*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::DirectionalLight*>) == 0x8);
     // private System.Boolean started
     // Size: 0x1
     // Offset: 0x50
@@ -109,6 +115,7 @@ namespace GlobalNamespace {
     UnityEngine::Color firstFrameColor;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
+    public:
     // Get instance field reference: public System.Boolean _noPredefinedStartValue
     bool& dyn__noPredefinedStartValue();
     // Get instance field reference: public ColorSO startColor
@@ -122,9 +129,9 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Color _originalColor
     UnityEngine::Color& dyn__originalColor();
     // Get instance field reference: private TubeBloomPrePassLight[] _tubeLights
-    ::ArrayWrapper<GlobalNamespace::TubeBloomPrePassLight*>& dyn__tubeLights();
+    ::ArrayW<GlobalNamespace::TubeBloomPrePassLight*>& dyn__tubeLights();
     // Get instance field reference: private DirectionalLight[] _directionalLights
-    ::ArrayWrapper<GlobalNamespace::DirectionalLight*>& dyn__directionalLights();
+    ::ArrayW<GlobalNamespace::DirectionalLight*>& dyn__directionalLights();
     // Get instance field reference: private System.Boolean started
     bool& dyn_started();
     // Get instance field reference: private UnityEngine.Color _firstFrameColor

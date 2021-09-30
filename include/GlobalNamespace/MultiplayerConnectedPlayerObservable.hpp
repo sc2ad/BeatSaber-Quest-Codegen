@@ -27,12 +27,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerConnectedPlayerObservable : public ::Il2CppObject/*, public GlobalNamespace::IMultiplayerObservable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly IConnectedPlayer _connectedPlayer
     // Size: 0x8
     // Offset: 0x10
     GlobalNamespace::IConnectedPlayer* connectedPlayer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IConnectedPlayer*) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IMultiplayerObservable
     operator GlobalNamespace::IMultiplayerObservable() noexcept {
       return *reinterpret_cast<GlobalNamespace::IMultiplayerObservable*>(this);

@@ -24,12 +24,18 @@ namespace System::Runtime::InteropServices {
   // [AttributeUsageAttribute] Offset: E60800
   class InterfaceTypeAttribute : public System::Attribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Runtime.InteropServices.ComInterfaceType _val
     // Size: 0x4
     // Offset: 0x10
     System::Runtime::InteropServices::ComInterfaceType val;
     // Field size check
     static_assert(sizeof(System::Runtime::InteropServices::ComInterfaceType) == 0x4);
+    public:
     // Creating conversion operator: operator System::Runtime::InteropServices::ComInterfaceType
     constexpr operator System::Runtime::InteropServices::ComInterfaceType() const noexcept {
       return val;

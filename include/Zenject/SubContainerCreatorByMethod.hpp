@@ -44,12 +44,18 @@ namespace Zenject {
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
   class SubContainerCreatorByMethod : public Zenject::SubContainerCreatorByMethodBase {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Action`1<Zenject.DiContainer> _installMethod
     // Size: 0x8
     // Offset: 0x20
     System::Action_1<Zenject::DiContainer*>* installMethod;
     // Field size check
     static_assert(sizeof(System::Action_1<Zenject::DiContainer*>*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Action_1<Zenject::DiContainer*>*
     constexpr operator System::Action_1<Zenject::DiContainer*>*() const noexcept {
       return installMethod;

@@ -28,6 +28,11 @@ namespace HMUI {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class FlowCoordinator::$$c__DisplayClass38_1 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public HMUI.ViewController topViewController
     // Size: 0x8
     // Offset: 0x10
@@ -40,6 +45,7 @@ namespace HMUI {
     HMUI::FlowCoordinator::$$c__DisplayClass38_0* CS$$$8__locals1;
     // Field size check
     static_assert(sizeof(HMUI::FlowCoordinator::$$c__DisplayClass38_0*) == 0x8);
+    public:
     // Get instance field reference: public HMUI.ViewController topViewController
     HMUI::ViewController*& dyn_topViewController();
     // Get instance field reference: public HMUI.FlowCoordinator/HMUI.<>c__DisplayClass38_0 CS$<>8__locals1

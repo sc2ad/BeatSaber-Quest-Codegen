@@ -35,6 +35,11 @@ namespace UnityEngine::UI {
     class GetRayIntersectionAllCallback;
     // Nested type: UnityEngine::UI::ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback
     class GetRayIntersectionAllNonAllocCallback;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.UI.ReflectionMethodsCache/UnityEngine.UI.Raycast3DCallback raycast3D
     // Size: 0x8
     // Offset: 0x10
@@ -71,6 +76,7 @@ namespace UnityEngine::UI {
     UnityEngine::UI::ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback* getRayIntersectionAllNonAlloc;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback*) == 0x8);
+    public:
     // Get static field: static private UnityEngine.UI.ReflectionMethodsCache s_ReflectionMethodsCache
     static UnityEngine::UI::ReflectionMethodsCache* _get_s_ReflectionMethodsCache();
     // Set static field: static private UnityEngine.UI.ReflectionMethodsCache s_ReflectionMethodsCache

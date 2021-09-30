@@ -21,12 +21,18 @@ namespace UnityEngine::Rendering {
   // [TokenAttribute] Offset: FFFFFFFF
   struct ShaderTagId/*, public System::ValueType, public System::IEquatable_1<UnityEngine::Rendering::ShaderTagId>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 m_Id
     // Size: 0x4
     // Offset: 0x0
     int m_Id;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: ShaderTagId
     constexpr ShaderTagId(int m_Id_ = {}) noexcept : m_Id{m_Id_} {}
     // Creating interface conversion operator: operator System::ValueType

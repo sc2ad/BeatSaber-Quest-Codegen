@@ -24,12 +24,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class TimelinePauseMarker : public UnityEngine::Timeline::Marker/*, public UnityEngine::Playables::INotification*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly UnityEngine.PropertyName <id>k__BackingField
     // Size: 0x4
     // Offset: 0x28
     UnityEngine::PropertyName id;
     // Field size check
     static_assert(sizeof(UnityEngine::PropertyName) == 0x4);
+    public:
     // Creating interface conversion operator: operator UnityEngine::Playables::INotification
     operator UnityEngine::Playables::INotification() noexcept {
       return *reinterpret_cast<UnityEngine::Playables::INotification*>(this);

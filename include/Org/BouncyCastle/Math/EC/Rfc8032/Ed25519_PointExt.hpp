@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: Org.BouncyCastle.Math.EC.Rfc8032
 namespace Org::BouncyCastle::Math::EC::Rfc8032 {
@@ -20,38 +21,44 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
   // [TokenAttribute] Offset: FFFFFFFF
   class Ed25519::PointExt : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Int32[] x
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<int> x;
+    ::ArrayW<int> x;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // System.Int32[] y
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<int> y;
+    ::ArrayW<int> y;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // System.Int32[] z
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<int> z;
+    ::ArrayW<int> z;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // System.Int32[] t
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<int> t;
+    ::ArrayW<int> t;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
+    public:
     // Get instance field reference: System.Int32[] x
-    ::ArrayWrapper<int>& dyn_x();
+    ::ArrayW<int>& dyn_x();
     // Get instance field reference: System.Int32[] y
-    ::ArrayWrapper<int>& dyn_y();
+    ::ArrayW<int>& dyn_y();
     // Get instance field reference: System.Int32[] z
-    ::ArrayWrapper<int>& dyn_z();
+    ::ArrayW<int>& dyn_z();
     // Get instance field reference: System.Int32[] t
-    ::ArrayWrapper<int>& dyn_t();
+    ::ArrayW<int>& dyn_t();
     // public System.Void .ctor()
     // Offset: 0x1F8DB80
     // Implemented from: System.Object
@@ -63,7 +70,7 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
     }
   }; // Org.BouncyCastle.Math.EC.Rfc8032.Ed25519/Org.BouncyCastle.Math.EC.Rfc8032.PointExt
   #pragma pack(pop)
-  static check_size<sizeof(Ed25519::PointExt), 40 + sizeof(::ArrayWrapper<int>)> __Org_BouncyCastle_Math_EC_Rfc8032_Ed25519_PointExtSizeCheck;
+  static check_size<sizeof(Ed25519::PointExt), 40 + sizeof(::ArrayW<int>)> __Org_BouncyCastle_Math_EC_Rfc8032_Ed25519_PointExtSizeCheck;
   static_assert(sizeof(Ed25519::PointExt) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointExt*, "Org.BouncyCastle.Math.EC.Rfc8032", "Ed25519/PointExt");

@@ -18,6 +18,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct OVRSkeletonRenderer::SkeletonRendererData/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Single <RootScale>k__BackingField
     // Size: 0x4
     // Offset: 0x0
@@ -42,6 +47,7 @@ namespace GlobalNamespace {
     bool ShouldUseSystemGestureMaterial;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating value type constructor for type: SkeletonRendererData
     constexpr SkeletonRendererData(float RootScale_ = {}, bool IsDataValid_ = {}, bool IsDataHighConfidence_ = {}, bool ShouldUseSystemGestureMaterial_ = {}) noexcept : RootScale{RootScale_}, IsDataValid{IsDataValid_}, IsDataHighConfidence{IsDataHighConfidence_}, ShouldUseSystemGestureMaterial{ShouldUseSystemGestureMaterial_} {}
     // Creating interface conversion operator: operator System::ValueType

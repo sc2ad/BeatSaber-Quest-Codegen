@@ -79,6 +79,11 @@ namespace GlobalNamespace {
     class $$c__DisplayClass12_0;
     // Nested type: GlobalNamespace::OculusPlatformAdditionalContentModel::$CheckForNewEntitlementsAsync$d__12
     struct $CheckForNewEntitlementsAsync$d__12;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xF01454
     // private OculusLevelProductsModelSO _oculusLevelProductsModel
     // Size: 0x8
@@ -104,6 +109,7 @@ namespace GlobalNamespace {
     bool isDataValid;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private OculusLevelProductsModelSO _oculusLevelProductsModel
     GlobalNamespace::OculusLevelProductsModelSO*& dyn__oculusLevelProductsModel();
     // Get instance field reference: private System.Collections.Generic.HashSet`1<System.String> _entitlementsSKU

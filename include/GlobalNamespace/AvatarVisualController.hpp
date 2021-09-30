@@ -52,6 +52,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::AvatarVisualController::HighlighterDelegate
     class HighlighterDelegate;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.MeshFilter _headTopMeshFilter
     // Size: 0x8
     // Offset: 0x18
@@ -174,6 +179,7 @@ namespace GlobalNamespace {
     GlobalNamespace::AvatarVisualController::HighlighterDelegate* currentHighlighter;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AvatarVisualController::HighlighterDelegate*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.MeshFilter _headTopMeshFilter

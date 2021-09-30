@@ -21,6 +21,11 @@ namespace UnityEngine::Rendering {
   // [TokenAttribute] Offset: FFFFFFFF
   struct LODParameters/*, public System::ValueType, public System::IEquatable_1<UnityEngine::Rendering::LODParameters>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 m_IsOrthographic
     // Size: 0x4
     // Offset: 0x0
@@ -51,6 +56,7 @@ namespace UnityEngine::Rendering {
     int m_CameraPixelHeight;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: LODParameters
     constexpr LODParameters(int m_IsOrthographic_ = {}, UnityEngine::Vector3 m_CameraPosition_ = {}, float m_FieldOfView_ = {}, float m_OrthoSize_ = {}, int m_CameraPixelHeight_ = {}) noexcept : m_IsOrthographic{m_IsOrthographic_}, m_CameraPosition{m_CameraPosition_}, m_FieldOfView{m_FieldOfView_}, m_OrthoSize{m_OrthoSize_}, m_CameraPixelHeight{m_CameraPixelHeight_} {}
     // Creating interface conversion operator: operator System::ValueType

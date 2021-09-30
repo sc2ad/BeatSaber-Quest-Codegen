@@ -6,6 +6,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
@@ -16,42 +17,48 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HAPI_BoxInfo/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Single[] center
     // Size: 0x8
     // Offset: 0x0
-    ::ArrayWrapper<float> center;
+    ::ArrayW<float> center;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<float>) == 0x8);
+    static_assert(sizeof(::ArrayW<float>) == 0x8);
     // public System.Single[] size
     // Size: 0x8
     // Offset: 0x8
-    ::ArrayWrapper<float> size;
+    ::ArrayW<float> size;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<float>) == 0x8);
+    static_assert(sizeof(::ArrayW<float>) == 0x8);
     // public System.Single[] rotation
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<float> rotation;
+    ::ArrayW<float> rotation;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<float>) == 0x8);
+    static_assert(sizeof(::ArrayW<float>) == 0x8);
+    public:
     // Creating value type constructor for type: HAPI_BoxInfo
-    constexpr HAPI_BoxInfo(::ArrayWrapper<float> center_ = ::ArrayWrapper<float>(nullptr), ::ArrayWrapper<float> size_ = ::ArrayWrapper<float>(nullptr), ::ArrayWrapper<float> rotation_ = ::ArrayWrapper<float>(nullptr)) noexcept : center{center_}, size{size_}, rotation{rotation_} {}
+    constexpr HAPI_BoxInfo(::ArrayW<float> center_ = ::ArrayW<float>(nullptr), ::ArrayW<float> size_ = ::ArrayW<float>(nullptr), ::ArrayW<float> rotation_ = ::ArrayW<float>(nullptr)) noexcept : center{center_}, size{size_}, rotation{rotation_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // Get instance field reference: public System.Single[] center
-    ::ArrayWrapper<float>& dyn_center();
+    ::ArrayW<float>& dyn_center();
     // Get instance field reference: public System.Single[] size
-    ::ArrayWrapper<float>& dyn_size();
+    ::ArrayW<float>& dyn_size();
     // Get instance field reference: public System.Single[] rotation
-    ::ArrayWrapper<float>& dyn_rotation();
+    ::ArrayW<float>& dyn_rotation();
     // public System.Void .ctor(System.Boolean initialize_fields)
     // Offset: 0x14397E4
     HAPI_BoxInfo(bool initialize_fields);
   }; // HoudiniEngineUnity.HAPI_BoxInfo
   #pragma pack(pop)
-  static check_size<sizeof(HAPI_BoxInfo), 16 + sizeof(::ArrayWrapper<float>)> __HoudiniEngineUnity_HAPI_BoxInfoSizeCheck;
+  static check_size<sizeof(HAPI_BoxInfo), 16 + sizeof(::ArrayW<float>)> __HoudiniEngineUnity_HAPI_BoxInfoSizeCheck;
   static_assert(sizeof(HAPI_BoxInfo) == 0x18);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

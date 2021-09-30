@@ -28,6 +28,11 @@ namespace System::Runtime::Remoting {
   // [ComVisibleAttribute] Offset: E5FB64
   class WellKnownClientTypeEntry : public System::Runtime::Remoting::TypeEntry {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Type obj_type
     // Size: 0x8
     // Offset: 0x20
@@ -46,6 +51,7 @@ namespace System::Runtime::Remoting {
     ::Il2CppString* app_url;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: private System.Type obj_type
     System::Type*& dyn_obj_type();
     // Get instance field reference: private System.String obj_url

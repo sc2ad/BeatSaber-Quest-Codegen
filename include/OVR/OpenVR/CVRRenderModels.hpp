@@ -44,12 +44,18 @@ namespace OVR::OpenVR {
     class _GetComponentStatePacked;
     // Nested type: OVR::OpenVR::CVRRenderModels::GetComponentStateUnion
     struct GetComponentStateUnion;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private OVR.OpenVR.IVRRenderModels FnTable
     // Size: 0x98
     // Offset: 0x10
     OVR::OpenVR::IVRRenderModels FnTable;
     // Field size check
     static_assert(sizeof(OVR::OpenVR::IVRRenderModels) == 0x98);
+    public:
     // Creating conversion operator: operator OVR::OpenVR::IVRRenderModels
     constexpr operator OVR::OpenVR::IVRRenderModels() const noexcept {
       return FnTable;

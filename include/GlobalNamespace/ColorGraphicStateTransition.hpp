@@ -44,6 +44,11 @@ namespace GlobalNamespace {
   // [RequireComponent] Offset: EFCB58
   class ColorGraphicStateTransition : public GlobalNamespace::BaseStateTransition_1<UnityEngine::UI::Graphic*> {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [SpaceAttribute] Offset: 0xF0D29C
     // private ColorTransitionSO _transition
     // Size: 0x8
@@ -57,6 +62,7 @@ namespace GlobalNamespace {
     Tweening::ColorTween* colorTween;
     // Field size check
     static_assert(sizeof(Tweening::ColorTween*) == 0x8);
+    public:
     // Get instance field reference: private ColorTransitionSO _transition
     GlobalNamespace::ColorTransitionSO*& dyn__transition();
     // Get instance field reference: private Tweening.ColorTween _colorTween

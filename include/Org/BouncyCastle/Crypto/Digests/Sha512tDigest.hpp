@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Utilities
@@ -26,6 +27,11 @@ namespace Org::BouncyCastle::Crypto::Digests {
   // [TokenAttribute] Offset: FFFFFFFF
   class Sha512tDigest : public Org::BouncyCastle::Crypto::Digests::LongDigest {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Int32 digestLength
     // Size: 0x4
     // Offset: 0x84
@@ -80,6 +86,7 @@ namespace Org::BouncyCastle::Crypto::Digests {
     uint64_t H8t;
     // Field size check
     static_assert(sizeof(uint64_t) == 0x8);
+    public:
     // Get instance field reference: private readonly System.Int32 digestLength
     int& dyn_digestLength();
     // Get instance field reference: private System.UInt64 H1t
@@ -117,10 +124,10 @@ namespace Org::BouncyCastle::Crypto::Digests {
     void tIvGenerate(int bitLength);
     // static private System.Void UInt64_To_BE(System.UInt64 n, System.Byte[] bs, System.Int32 off, System.Int32 max)
     // Offset: 0x1A9E834
-    static void UInt64_To_BE(uint64_t n, ::ArrayWrapper<uint8_t> bs, int off, int max);
+    static void UInt64_To_BE(uint64_t n, ::ArrayW<uint8_t> bs, int off, int max);
     // static private System.Void UInt32_To_BE(System.UInt32 n, System.Byte[] bs, System.Int32 off, System.Int32 max)
     // Offset: 0x1A9E8E0
-    static void UInt32_To_BE(uint n, ::ArrayWrapper<uint8_t> bs, int off, int max);
+    static void UInt32_To_BE(uint n, ::ArrayW<uint8_t> bs, int off, int max);
     // public override System.String get_AlgorithmName()
     // Offset: 0x1A9E6A0
     // Implemented from: Org.BouncyCastle.Crypto.Digests.LongDigest
@@ -135,7 +142,7 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Offset: 0x1A9E72C
     // Implemented from: Org.BouncyCastle.Crypto.Digests.LongDigest
     // Base method: System.Int32 LongDigest::DoFinal(System.Byte[] output, System.Int32 outOff)
-    int DoFinal(::ArrayWrapper<uint8_t> output, int outOff);
+    int DoFinal(::ArrayW<uint8_t> output, int outOff);
     // public override System.Void Reset()
     // Offset: 0x1A9E89C
     // Implemented from: Org.BouncyCastle.Crypto.Digests.LongDigest
@@ -178,7 +185,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::Sha512tDigest::UInt64_To_BE
 // Il2CppName: UInt64_To_BE
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t, ::ArrayWrapper<uint8_t>, int, int)>(&Org::BouncyCastle::Crypto::Digests::Sha512tDigest::UInt64_To_BE)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t, ::ArrayW<uint8_t>, int, int)>(&Org::BouncyCastle::Crypto::Digests::Sha512tDigest::UInt64_To_BE)> {
   static const MethodInfo* get() {
     static auto* n = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* bs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -190,7 +197,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ui
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::Sha512tDigest::UInt32_To_BE
 // Il2CppName: UInt32_To_BE
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint, ::ArrayWrapper<uint8_t>, int, int)>(&Org::BouncyCastle::Crypto::Digests::Sha512tDigest::UInt32_To_BE)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint, ::ArrayW<uint8_t>, int, int)>(&Org::BouncyCastle::Crypto::Digests::Sha512tDigest::UInt32_To_BE)> {
   static const MethodInfo* get() {
     static auto* n = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* bs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -218,7 +225,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::Sha512tDigest::DoFinal
 // Il2CppName: DoFinal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Digests::Sha512tDigest::*)(::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Digests::Sha512tDigest::DoFinal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Digests::Sha512tDigest::*)(::ArrayW<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Digests::Sha512tDigest::DoFinal)> {
   static const MethodInfo* get() {
     static auto* output = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* outOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

@@ -49,6 +49,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class CommandBufferGOCore : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.Dictionary`2<UnityEngine.Camera,CommandBufferOwners> _cameras
     // Size: 0x8
     // Offset: 0x18
@@ -61,6 +66,7 @@ namespace GlobalNamespace {
     UnityEngine::Mesh* mesh;
     // Field size check
     static_assert(sizeof(UnityEngine::Mesh*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEEB4DC

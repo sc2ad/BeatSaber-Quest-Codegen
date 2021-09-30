@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text
@@ -29,6 +30,11 @@ namespace System::Text {
   // [TokenAttribute] Offset: FFFFFFFF
   class Encoding::EncodingCharBuffer : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Char* chars
     // Size: 0x8
     // Offset: 0x10
@@ -91,6 +97,7 @@ namespace System::Text {
     System::Text::DecoderFallbackBuffer* fallbackBuffer;
     // Field size check
     static_assert(sizeof(System::Text::DecoderFallbackBuffer*) == 0x8);
+    public:
     // Get instance field reference: private System.Char* chars
     ::Il2CppChar*& dyn_chars();
     // Get instance field reference: private System.Char* charStart
@@ -144,7 +151,7 @@ namespace System::Text {
     bool Fallback(uint8_t fallbackByte);
     // System.Boolean Fallback(System.Byte[] byteBuffer)
     // Offset: 0x1F114B0
-    bool Fallback(::ArrayWrapper<uint8_t> byteBuffer);
+    bool Fallback(::ArrayW<uint8_t> byteBuffer);
   }; // System.Text.Encoding/System.Text.EncodingCharBuffer
   #pragma pack(pop)
   static check_size<sizeof(Encoding::EncodingCharBuffer), 88 + sizeof(System::Text::DecoderFallbackBuffer*)> __System_Text_Encoding_EncodingCharBufferSizeCheck;
@@ -228,7 +235,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Text::Encoding::EncodingCharBuffer::Fallback
 // Il2CppName: Fallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Text::Encoding::EncodingCharBuffer::*)(::ArrayWrapper<uint8_t>)>(&System::Text::Encoding::EncodingCharBuffer::Fallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Text::Encoding::EncodingCharBuffer::*)(::ArrayW<uint8_t>)>(&System::Text::Encoding::EncodingCharBuffer::Fallback)> {
   static const MethodInfo* get() {
     static auto* byteBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::Encoding::EncodingCharBuffer*), "Fallback", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{byteBuffer});

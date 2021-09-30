@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -27,6 +28,11 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class IKSolverHeuristic : public RootMotion::FinalIK::IKSolver {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Transform target
     // Size: 0x8
     // Offset: 0x58
@@ -62,9 +68,9 @@ namespace RootMotion::FinalIK {
     // public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Bone[] bones
     // Size: 0x8
     // Offset: 0x70
-    ::ArrayWrapper<RootMotion::FinalIK::IKSolver::Bone*> bones;
+    ::ArrayW<RootMotion::FinalIK::IKSolver::Bone*> bones;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::IKSolver::Bone*>) == 0x8);
+    static_assert(sizeof(::ArrayW<RootMotion::FinalIK::IKSolver::Bone*>) == 0x8);
     // protected UnityEngine.Vector3 lastLocalDirection
     // Size: 0xC
     // Offset: 0x78
@@ -77,6 +83,7 @@ namespace RootMotion::FinalIK {
     float chainLength;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: public UnityEngine.Transform target
     UnityEngine::Transform*& dyn_target();
     // Get instance field reference: public System.Single tolerance
@@ -88,7 +95,7 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public System.Boolean XY
     bool& dyn_XY();
     // Get instance field reference: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Bone[] bones
-    ::ArrayWrapper<RootMotion::FinalIK::IKSolver::Bone*>& dyn_bones();
+    ::ArrayW<RootMotion::FinalIK::IKSolver::Bone*>& dyn_bones();
     // Get instance field reference: protected UnityEngine.Vector3 lastLocalDirection
     UnityEngine::Vector3& dyn_lastLocalDirection();
     // Get instance field reference: protected System.Single chainLength
@@ -110,7 +117,7 @@ namespace RootMotion::FinalIK {
     float get_positionOffset();
     // public System.Boolean SetChain(UnityEngine.Transform[] hierarchy, UnityEngine.Transform root)
     // Offset: 0x1E67314
-    bool SetChain(::ArrayWrapper<UnityEngine::Transform*> hierarchy, UnityEngine::Transform* root);
+    bool SetChain(::ArrayW<UnityEngine::Transform*> hierarchy, UnityEngine::Transform* root);
     // public System.Void AddBone(UnityEngine.Transform bone)
     // Offset: 0x1E674A8
     void AddBone(UnityEngine::Transform* bone);
@@ -152,7 +159,7 @@ namespace RootMotion::FinalIK {
     // Offset: 0x1E67A5C
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point[] IKSolver::GetPoints()
-    ::ArrayWrapper<RootMotion::FinalIK::IKSolver::Point*> GetPoints();
+    ::ArrayW<RootMotion::FinalIK::IKSolver::Point*> GetPoints();
     // public override RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point GetPoint(UnityEngine.Transform transform)
     // Offset: 0x1E67A64
     // Implemented from: RootMotion.FinalIK.IKSolver
@@ -218,7 +225,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Root
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverHeuristic::SetChain
 // Il2CppName: SetChain
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::IKSolverHeuristic::*)(::ArrayWrapper<UnityEngine::Transform*>, UnityEngine::Transform*)>(&RootMotion::FinalIK::IKSolverHeuristic::SetChain)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::IKSolverHeuristic::*)(::ArrayW<UnityEngine::Transform*>, UnityEngine::Transform*)>(&RootMotion::FinalIK::IKSolverHeuristic::SetChain)> {
   static const MethodInfo* get() {
     static auto* hierarchy = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Transform"), 1)->byval_arg;
     static auto* root = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
@@ -290,7 +297,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverHeuristic::GetPoints
 // Il2CppName: GetPoints
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<RootMotion::FinalIK::IKSolver::Point*> (RootMotion::FinalIK::IKSolverHeuristic::*)()>(&RootMotion::FinalIK::IKSolverHeuristic::GetPoints)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<RootMotion::FinalIK::IKSolver::Point*> (RootMotion::FinalIK::IKSolverHeuristic::*)()>(&RootMotion::FinalIK::IKSolverHeuristic::GetPoints)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverHeuristic*), "GetPoints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

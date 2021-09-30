@@ -33,12 +33,18 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct AssetDownloadingState/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: AssetDownloadingState
       constexpr AssetDownloadingState(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -73,6 +79,11 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(LevelDataAssetDownloadUpdate::AssetDownloadingState), 0 + sizeof(int)> __GlobalNamespace_LevelDataAssetDownloadUpdate_AssetDownloadingStateSizeCheck;
     static_assert(sizeof(LevelDataAssetDownloadUpdate::AssetDownloadingState) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly System.String levelID
     // Size: 0x8
     // Offset: 0x0
@@ -97,6 +108,7 @@ namespace GlobalNamespace {
     GlobalNamespace::LevelDataAssetDownloadUpdate::AssetDownloadingState assetDownloadingState;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LevelDataAssetDownloadUpdate::AssetDownloadingState) == 0x4);
+    public:
     // Creating value type constructor for type: LevelDataAssetDownloadUpdate
     constexpr LevelDataAssetDownloadUpdate(::Il2CppString* levelID_ = {}, uint bytesTotal_ = {}, uint bytesTransferred_ = {}, GlobalNamespace::LevelDataAssetDownloadUpdate::AssetDownloadingState assetDownloadingState_ = {}) noexcept : levelID{levelID_}, bytesTotal{bytesTotal_}, bytesTransferred{bytesTransferred_}, assetDownloadingState{assetDownloadingState_} {}
     // Creating interface conversion operator: operator System::ValueType

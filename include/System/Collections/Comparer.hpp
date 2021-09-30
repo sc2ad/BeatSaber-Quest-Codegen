@@ -39,12 +39,18 @@ namespace System::Collections {
   // [ComVisibleAttribute] Offset: E6161C
   class Comparer : public ::Il2CppObject/*, public System::Runtime::Serialization::ISerializable, public System::Collections::IComparer*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Globalization.CompareInfo m_compareInfo
     // Size: 0x8
     // Offset: 0x10
     System::Globalization::CompareInfo* m_compareInfo;
     // Field size check
     static_assert(sizeof(System::Globalization::CompareInfo*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Runtime::Serialization::ISerializable
     operator System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);

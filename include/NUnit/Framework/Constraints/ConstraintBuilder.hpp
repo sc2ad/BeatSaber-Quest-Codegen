@@ -25,6 +25,11 @@ namespace NUnit::Framework::Constraints {
     class OperatorStack;
     // Nested type: NUnit::Framework::Constraints::ConstraintBuilder::ConstraintStack
     class ConstraintStack;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly NUnit.Framework.Constraints.ConstraintBuilder/NUnit.Framework.Constraints.OperatorStack ops
     // Size: 0x8
     // Offset: 0x10
@@ -43,6 +48,7 @@ namespace NUnit::Framework::Constraints {
     ::Il2CppObject* lastPushed;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
+    public:
     // Get instance field reference: private readonly NUnit.Framework.Constraints.ConstraintBuilder/NUnit.Framework.Constraints.OperatorStack ops
     NUnit::Framework::Constraints::ConstraintBuilder::OperatorStack*& dyn_ops();
     // Get instance field reference: private readonly NUnit.Framework.Constraints.ConstraintBuilder/NUnit.Framework.Constraints.ConstraintStack constraints

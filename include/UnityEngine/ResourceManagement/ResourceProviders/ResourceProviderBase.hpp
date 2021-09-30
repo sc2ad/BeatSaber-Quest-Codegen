@@ -56,6 +56,11 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     class BaseInitAsyncOp;
     // Nested type: UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase::$$c__DisplayClass10_0
     class $$c__DisplayClass10_0;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // protected System.String m_ProviderId
     // Size: 0x8
     // Offset: 0x10
@@ -68,6 +73,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     UnityEngine::ResourceManagement::ResourceProviders::ProviderBehaviourFlags m_BehaviourFlags;
     // Field size check
     static_assert(sizeof(UnityEngine::ResourceManagement::ResourceProviders::ProviderBehaviourFlags) == 0x4);
+    public:
     // Creating interface conversion operator: operator UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider
     operator UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider() noexcept {
       return *reinterpret_cast<UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>(this);

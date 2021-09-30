@@ -27,12 +27,18 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class Test_Terrain : public ::Il2CppObject/*, public HoudiniEngineUnity::IEquivableWrapperClass_1<HoudiniEngineUnity::Test_Terrain*>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Terrain self
     // Size: 0x8
     // Offset: 0x10
     UnityEngine::Terrain* self;
     // Field size check
     static_assert(sizeof(UnityEngine::Terrain*) == 0x8);
+    public:
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivableWrapperClass_1<HoudiniEngineUnity::Test_Terrain*>
     operator HoudiniEngineUnity::IEquivableWrapperClass_1<HoudiniEngineUnity::Test_Terrain*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivableWrapperClass_1<HoudiniEngineUnity::Test_Terrain*>*>(this);

@@ -5,6 +5,7 @@
 // Begin includes
 #include <stdint.h>
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Math
@@ -34,7 +35,7 @@ namespace Org::BouncyCastle::Crypto::Signers {
     void Init(Org::BouncyCastle::Math::BigInteger* n, Org::BouncyCastle::Security::SecureRandom* random);
     // public System.Void Init(Org.BouncyCastle.Math.BigInteger n, Org.BouncyCastle.Math.BigInteger d, System.Byte[] message)
     // Offset: 0xFFFFFFFF
-    void Init(Org::BouncyCastle::Math::BigInteger* n, Org::BouncyCastle::Math::BigInteger* d, ::ArrayWrapper<uint8_t> message);
+    void Init(Org::BouncyCastle::Math::BigInteger* n, Org::BouncyCastle::Math::BigInteger* d, ::ArrayW<uint8_t> message);
     // public Org.BouncyCastle.Math.BigInteger NextK()
     // Offset: 0xFFFFFFFF
     Org::BouncyCastle::Math::BigInteger* NextK();
@@ -65,7 +66,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::IDsaKCalculator::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Signers::IDsaKCalculator::*)(Org::BouncyCastle::Math::BigInteger*, Org::BouncyCastle::Math::BigInteger*, ::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Crypto::Signers::IDsaKCalculator::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Signers::IDsaKCalculator::*)(Org::BouncyCastle::Math::BigInteger*, Org::BouncyCastle::Math::BigInteger*, ::ArrayW<uint8_t>)>(&Org::BouncyCastle::Crypto::Signers::IDsaKCalculator::Init)> {
   static const MethodInfo* get() {
     static auto* n = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math", "BigInteger")->byval_arg;
     static auto* d = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math", "BigInteger")->byval_arg;

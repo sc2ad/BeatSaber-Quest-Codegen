@@ -44,6 +44,11 @@ namespace GlobalNamespace {
     // [IsReadOnlyAttribute] Offset: FFFFFFFF
     struct OpenVrHapticData/*, public System::ValueType*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public readonly System.Single endTime
       // Size: 0x4
       // Offset: 0x0
@@ -56,6 +61,7 @@ namespace GlobalNamespace {
       float strength;
       // Field size check
       static_assert(sizeof(float) == 0x4);
+      public:
       // Creating value type constructor for type: OpenVrHapticData
       constexpr OpenVrHapticData(float endTime_ = {}, float strength_ = {}) noexcept : endTime{endTime_}, strength{strength_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -73,6 +79,11 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(ThreadedOpenVrOpenVrHaptics::OpenVrHapticData), 4 + sizeof(float)> __GlobalNamespace_ThreadedOpenVrOpenVrHaptics_OpenVrHapticDataSizeCheck;
     static_assert(sizeof(ThreadedOpenVrOpenVrHaptics::OpenVrHapticData) == 0x8);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Single _currentTime
     // Size: 0x4
     // Offset: 0x10
@@ -99,6 +110,7 @@ namespace GlobalNamespace {
     GlobalNamespace::ThreadedOpenVrOpenVrHaptics::OpenVrHapticData rightHandHaptics;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ThreadedOpenVrOpenVrHaptics::OpenVrHapticData) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IOpenVRHaptics
     operator GlobalNamespace::IOpenVRHaptics() noexcept {
       return *reinterpret_cast<GlobalNamespace::IOpenVRHaptics*>(this);

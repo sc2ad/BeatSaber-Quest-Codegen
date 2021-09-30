@@ -46,6 +46,11 @@ namespace MasterServer {
   template<typename T>
   struct BaseClientMessageHandler::$OnSendFailedAwaitResponse$d__23_1/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0
@@ -96,6 +101,7 @@ namespace MasterServer {
     // Size: 0xFFFFFFFF
     // Offset: 0x0
     System::Runtime::CompilerServices::TaskAwaiter_1<T> $$u__2;
+    public:
     // Creating value type constructor for type: $OnSendFailedAwaitResponse$d__23_1
     constexpr $OnSendFailedAwaitResponse$d__23_1(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<T> $$t__builder_ = {}, MasterServer::BaseClientMessageHandler* $$4__this_ = {}, MasterServer::IMasterServerReliableRequest* message_ = {}, uint protocolVersion_ = {}, System::Net::IPEndPoint* remoteEndPoint_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, System::Runtime::CompilerServices::TaskAwaiter $$u__1_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<T> $$u__2_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, message{message_}, protocolVersion{protocolVersion_}, remoteEndPoint{remoteEndPoint_}, cancellationToken{cancellationToken_}, $$u__1{$$u__1_}, $$u__2{$$u__2_} {}
     // Creating interface conversion operator: operator System::ValueType

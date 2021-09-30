@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -44,6 +45,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class HydraulicCarSuspensionEffect : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private BeatmapEventType _contractEvent
     // Size: 0x4
     // Offset: 0x18
@@ -55,9 +61,9 @@ namespace GlobalNamespace {
     // private System.Int32[] _contractEventValues
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<int> contractEventValues;
+    ::ArrayW<int> contractEventValues;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // [SpaceAttribute] Offset: 0xEFF3A8
     // private BeatmapEventType _expandEvent
     // Size: 0x4
@@ -70,9 +76,9 @@ namespace GlobalNamespace {
     // private System.Int32[] _expandEventValues
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<int> expandEventValues;
+    ::ArrayW<int> expandEventValues;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // [SpaceAttribute] Offset: 0xEFF3F0
     // private UnityEngine.SpringJoint _springJoint
     // Size: 0x8
@@ -118,16 +124,17 @@ namespace GlobalNamespace {
     System::Collections::Generic::HashSet_1<int>* expandEventValuesHashSet;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::HashSet_1<int>*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BeatmapEventType _contractEvent
     GlobalNamespace::BeatmapEventType& dyn__contractEvent();
     // Get instance field reference: private System.Int32[] _contractEventValues
-    ::ArrayWrapper<int>& dyn__contractEventValues();
+    ::ArrayW<int>& dyn__contractEventValues();
     // Get instance field reference: private BeatmapEventType _expandEvent
     GlobalNamespace::BeatmapEventType& dyn__expandEvent();
     // Get instance field reference: private System.Int32[] _expandEventValues
-    ::ArrayWrapper<int>& dyn__expandEventValues();
+    ::ArrayW<int>& dyn__expandEventValues();
     // Get instance field reference: private UnityEngine.SpringJoint _springJoint
     UnityEngine::SpringJoint*& dyn__springJoint();
     // Get instance field reference: private System.Single _contractDistance

@@ -26,6 +26,11 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   struct ParsingInfo/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Globalization.Calendar calendar
     // Size: 0x8
     // Offset: 0x0
@@ -82,6 +87,7 @@ namespace System {
     System::DateTimeParse::MatchNumberDelegate* parseNumberDelegate;
     // Field size check
     static_assert(sizeof(System::DateTimeParse::MatchNumberDelegate*) == 0x8);
+    public:
     // Creating value type constructor for type: ParsingInfo
     constexpr ParsingInfo(System::Globalization::Calendar* calendar_ = {}, int dayOfWeek_ = {}, System::DateTimeParse::TM timeMark_ = {}, bool fUseHour12_ = {}, bool fUseTwoDigitYear_ = {}, bool fAllowInnerWhite_ = {}, bool fAllowTrailingWhite_ = {}, bool fCustomNumberParser_ = {}, System::DateTimeParse::MatchNumberDelegate* parseNumberDelegate_ = {}) noexcept : calendar{calendar_}, dayOfWeek{dayOfWeek_}, timeMark{timeMark_}, fUseHour12{fUseHour12_}, fUseTwoDigitYear{fUseTwoDigitYear_}, fAllowInnerWhite{fAllowInnerWhite_}, fAllowTrailingWhite{fAllowTrailingWhite_}, fCustomNumberParser{fCustomNumberParser_}, parseNumberDelegate{parseNumberDelegate_} {}
     // Creating interface conversion operator: operator System::ValueType

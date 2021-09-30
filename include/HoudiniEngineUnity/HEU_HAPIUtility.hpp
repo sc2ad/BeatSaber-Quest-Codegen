@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -106,7 +107,7 @@ namespace HoudiniEngineUnity {
     static UnityEngine::GameObject* InstantiateHDA(::Il2CppString* filePath, UnityEngine::Vector3 initialPosition, HoudiniEngineUnity::HEU_SessionBase* session, bool bBuildAsync, bool bLoadFromMemory, bool bAlwaysOverwriteOnLoad, UnityEngine::GameObject* rootGO);
     // static public System.Boolean LoadHDAFile(HoudiniEngineUnity.HEU_SessionBase session, System.String assetPath, out System.Int32 assetLibraryID, out System.String[] assetNames)
     // Offset: 0x15D7C00
-    static bool LoadHDAFile(HoudiniEngineUnity::HEU_SessionBase* session, ::Il2CppString* assetPath, ByRef<int> assetLibraryID, ByRef<::ArrayWrapper<::Il2CppString*>> assetNames);
+    static bool LoadHDAFile(HoudiniEngineUnity::HEU_SessionBase* session, ::Il2CppString* assetPath, ByRef<int> assetLibraryID, ByRef<::ArrayW<::Il2CppString*>> assetNames);
     // static public System.Boolean CreateAndCookAssetNode(HoudiniEngineUnity.HEU_SessionBase session, System.String assetName, System.Boolean bCookTemplatedGeos, out System.Int32 newAssetID)
     // Offset: 0x15D7E28
     static bool CreateAndCookAssetNode(HoudiniEngineUnity::HEU_SessionBase* session, ::Il2CppString* assetName, bool bCookTemplatedGeos, ByRef<int> newAssetID);
@@ -230,7 +231,7 @@ namespace HoudiniEngineUnity {
     static int GetParentNodeID(HoudiniEngineUnity::HEU_SessionBase* session, int nodeID);
     // static public System.Boolean GetObjectInfos(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 assetID, ref HoudiniEngineUnity.HAPI_NodeInfo nodeInfo, out HoudiniEngineUnity.HAPI_ObjectInfo[] objectInfos, out HoudiniEngineUnity.HAPI_Transform[] objectTransforms)
     // Offset: 0x15DAB54
-    static bool GetObjectInfos(HoudiniEngineUnity::HEU_SessionBase* session, int assetID, ByRef<HoudiniEngineUnity::HAPI_NodeInfo> nodeInfo, ByRef<::ArrayWrapper<HoudiniEngineUnity::HAPI_ObjectInfo>> objectInfos, ByRef<::ArrayWrapper<HoudiniEngineUnity::HAPI_Transform>> objectTransforms);
+    static bool GetObjectInfos(HoudiniEngineUnity::HEU_SessionBase* session, int assetID, ByRef<HoudiniEngineUnity::HAPI_NodeInfo> nodeInfo, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ObjectInfo>> objectInfos, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_Transform>> objectTransforms);
   }; // HoudiniEngineUnity.HEU_HAPIUtility
   #pragma pack(pop)
 }
@@ -352,7 +353,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_HAPIUtility::LoadHDAFile
 // Il2CppName: LoadHDAFile
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_SessionBase*, ::Il2CppString*, ByRef<int>, ByRef<::ArrayWrapper<::Il2CppString*>>)>(&HoudiniEngineUnity::HEU_HAPIUtility::LoadHDAFile)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_SessionBase*, ::Il2CppString*, ByRef<int>, ByRef<::ArrayW<::Il2CppString*>>)>(&HoudiniEngineUnity::HEU_HAPIUtility::LoadHDAFile)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* assetPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -756,7 +757,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Hou
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_HAPIUtility::GetObjectInfos
 // Il2CppName: GetObjectInfos
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_SessionBase*, int, ByRef<HoudiniEngineUnity::HAPI_NodeInfo>, ByRef<::ArrayWrapper<HoudiniEngineUnity::HAPI_ObjectInfo>>, ByRef<::ArrayWrapper<HoudiniEngineUnity::HAPI_Transform>>)>(&HoudiniEngineUnity::HEU_HAPIUtility::GetObjectInfos)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_SessionBase*, int, ByRef<HoudiniEngineUnity::HAPI_NodeInfo>, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ObjectInfo>>, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_Transform>>)>(&HoudiniEngineUnity::HEU_HAPIUtility::GetObjectInfos)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* assetID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

@@ -53,6 +53,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::LevelBar::$Setup$d__17
     struct $Setup$d__17;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private HMUI.ImageView _songArtworkImageView
     // Size: 0x8
     // Offset: 0x18
@@ -159,6 +164,7 @@ namespace GlobalNamespace {
     System::Threading::CancellationTokenSource* cancellationTokenSource;
     // Field size check
     static_assert(sizeof(System::Threading::CancellationTokenSource*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private HMUI.ImageView _songArtworkImageView

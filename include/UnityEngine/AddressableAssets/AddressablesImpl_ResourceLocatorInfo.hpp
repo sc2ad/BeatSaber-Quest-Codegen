@@ -32,6 +32,11 @@ namespace UnityEngine::AddressableAssets {
   // [TokenAttribute] Offset: FFFFFFFF
   class AddressablesImpl::ResourceLocatorInfo : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator <Locator>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -56,6 +61,7 @@ namespace UnityEngine::AddressableAssets {
     bool ContentUpdateAvailable;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator <Locator>k__BackingField
     UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*& dyn_$Locator$k__BackingField();
     // Get instance field reference: private System.String <LocalHash>k__BackingField

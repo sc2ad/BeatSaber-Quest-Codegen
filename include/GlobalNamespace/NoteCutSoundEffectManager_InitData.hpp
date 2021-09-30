@@ -20,6 +20,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class NoteCutSoundEffectManager::InitData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly System.Boolean useTestAudioClips
     // Size: 0x1
     // Offset: 0x10
@@ -32,6 +37,7 @@ namespace GlobalNamespace {
     bool ignoreBadCuts;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: public readonly System.Boolean useTestAudioClips
     bool& dyn_useTestAudioClips();
     // Get instance field reference: public readonly System.Boolean ignoreBadCuts

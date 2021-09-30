@@ -36,6 +36,11 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class IKConstraintBend : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Transform bone1
     // Size: 0x8
     // Offset: 0x10
@@ -145,6 +150,7 @@ namespace RootMotion::FinalIK {
     bool limbOrientationsSet;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: public UnityEngine.Transform bone1
     UnityEngine::Transform*& dyn_bone1();
     // Get instance field reference: public UnityEngine.Transform bone2

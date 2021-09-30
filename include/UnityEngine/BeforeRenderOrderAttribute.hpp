@@ -17,6 +17,11 @@ namespace UnityEngine {
   // [AttributeUsageAttribute] Offset: E709D0
   class BeforeRenderOrderAttribute : public System::Attribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [DebuggerBrowsableAttribute] Offset: 0xE75640
     // private System.Int32 <order>k__BackingField
     // Size: 0x4
@@ -24,6 +29,7 @@ namespace UnityEngine {
     int order;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return order;

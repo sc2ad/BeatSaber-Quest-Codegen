@@ -19,6 +19,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct BezierSplineEvaluator::CubicSolveResult/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly System.Int32 numberOfSolutions
     // Size: 0x4
     // Offset: 0x0
@@ -43,6 +48,7 @@ namespace GlobalNamespace {
     float solution3;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: CubicSolveResult
     constexpr CubicSolveResult(int numberOfSolutions_ = {}, float solution1_ = {}, float solution2_ = {}, float solution3_ = {}) noexcept : numberOfSolutions{numberOfSolutions_}, solution1{solution1_}, solution2{solution2_}, solution3{solution3_} {}
     // Creating interface conversion operator: operator System::ValueType

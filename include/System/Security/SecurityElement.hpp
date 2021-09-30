@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Security
@@ -38,6 +39,11 @@ namespace System::Security {
     public:
     // Nested type: System::Security::SecurityElement::SecurityAttribute
     class SecurityAttribute;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String text
     // Size: 0x8
     // Offset: 0x10
@@ -62,26 +68,27 @@ namespace System::Security {
     System::Collections::ArrayList* children;
     // Field size check
     static_assert(sizeof(System::Collections::ArrayList*) == 0x8);
+    public:
     // Get static field: static private readonly System.Char[] invalid_tag_chars
-    static ::ArrayWrapper<::Il2CppChar> _get_invalid_tag_chars();
+    static ::ArrayW<::Il2CppChar> _get_invalid_tag_chars();
     // Set static field: static private readonly System.Char[] invalid_tag_chars
-    static void _set_invalid_tag_chars(::ArrayWrapper<::Il2CppChar> value);
+    static void _set_invalid_tag_chars(::ArrayW<::Il2CppChar> value);
     // Get static field: static private readonly System.Char[] invalid_text_chars
-    static ::ArrayWrapper<::Il2CppChar> _get_invalid_text_chars();
+    static ::ArrayW<::Il2CppChar> _get_invalid_text_chars();
     // Set static field: static private readonly System.Char[] invalid_text_chars
-    static void _set_invalid_text_chars(::ArrayWrapper<::Il2CppChar> value);
+    static void _set_invalid_text_chars(::ArrayW<::Il2CppChar> value);
     // Get static field: static private readonly System.Char[] invalid_attr_name_chars
-    static ::ArrayWrapper<::Il2CppChar> _get_invalid_attr_name_chars();
+    static ::ArrayW<::Il2CppChar> _get_invalid_attr_name_chars();
     // Set static field: static private readonly System.Char[] invalid_attr_name_chars
-    static void _set_invalid_attr_name_chars(::ArrayWrapper<::Il2CppChar> value);
+    static void _set_invalid_attr_name_chars(::ArrayW<::Il2CppChar> value);
     // Get static field: static private readonly System.Char[] invalid_attr_value_chars
-    static ::ArrayWrapper<::Il2CppChar> _get_invalid_attr_value_chars();
+    static ::ArrayW<::Il2CppChar> _get_invalid_attr_value_chars();
     // Set static field: static private readonly System.Char[] invalid_attr_value_chars
-    static void _set_invalid_attr_value_chars(::ArrayWrapper<::Il2CppChar> value);
+    static void _set_invalid_attr_value_chars(::ArrayW<::Il2CppChar> value);
     // Get static field: static private readonly System.Char[] invalid_chars
-    static ::ArrayWrapper<::Il2CppChar> _get_invalid_chars();
+    static ::ArrayW<::Il2CppChar> _get_invalid_chars();
     // Set static field: static private readonly System.Char[] invalid_chars
-    static void _set_invalid_chars(::ArrayWrapper<::Il2CppChar> value);
+    static void _set_invalid_chars(::ArrayW<::Il2CppChar> value);
     // Get instance field reference: private System.String text
     ::Il2CppString*& dyn_text();
     // Get instance field reference: private System.String tag

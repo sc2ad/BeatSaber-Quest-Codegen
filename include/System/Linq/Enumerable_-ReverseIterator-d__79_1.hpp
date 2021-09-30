@@ -33,6 +33,11 @@ namespace System::Linq {
   template<typename TSource>
   class Enumerable::$ReverseIterator$d__79_1 : public ::Il2CppObject/*, public System::Collections::Generic::IEnumerable_1<TSource>, public System::Collections::Generic::IEnumerator_1<TSource>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0
@@ -71,6 +76,7 @@ namespace System::Linq {
     int $i$5__2;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<TSource>
     operator System::Collections::Generic::IEnumerable_1<TSource>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<TSource>*>(this);

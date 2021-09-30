@@ -27,12 +27,18 @@ namespace System::Xml {
     public:
     // Nested type: System::Xml::SecureStringHasher::HashCodeOfStringDelegate
     class HashCodeOfStringDelegate;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 hashCodeRandomizer
     // Size: 0x4
     // Offset: 0x10
     int hashCodeRandomizer;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating interface conversion operator: operator System::Collections::Generic::IEqualityComparer_1<::Il2CppString*>
     operator System::Collections::Generic::IEqualityComparer_1<::Il2CppString*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEqualityComparer_1<::Il2CppString*>*>(this);

@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -27,6 +28,11 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class TermInfoReader : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int16 boolSize
     // Size: 0x2
     // Offset: 0x10
@@ -50,15 +56,16 @@ namespace System {
     // private System.Byte[] buffer
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<uint8_t> buffer;
+    ::ArrayW<uint8_t> buffer;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Int32 booleansOffset
     // Size: 0x4
     // Offset: 0x20
     int booleansOffset;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: private System.Int16 boolSize
     int16_t& dyn_boolSize();
     // Get instance field reference: private System.Int16 numSize
@@ -66,7 +73,7 @@ namespace System {
     // Get instance field reference: private System.Int16 strOffsets
     int16_t& dyn_strOffsets();
     // Get instance field reference: private System.Byte[] buffer
-    ::ArrayWrapper<uint8_t>& dyn_buffer();
+    ::ArrayW<uint8_t>& dyn_buffer();
     // Get instance field reference: private System.Int32 booleansOffset
     int& dyn_booleansOffset();
     // public System.Void .ctor(System.String term, System.String filename)
@@ -79,16 +86,16 @@ namespace System {
     // public System.Void .ctor(System.String term, System.Byte[] buffer)
     // Offset: 0x1DF14D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static TermInfoReader* New_ctor(::Il2CppString* term, ::ArrayWrapper<uint8_t> buffer) {
+    static TermInfoReader* New_ctor(::Il2CppString* term, ::ArrayW<uint8_t> buffer) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::TermInfoReader::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TermInfoReader*, creationType>(term, buffer)));
     }
     // private System.Void ReadHeader(System.Byte[] buffer, ref System.Int32 position)
     // Offset: 0x1DF56F8
-    void ReadHeader(::ArrayWrapper<uint8_t> buffer, ByRef<int> position);
+    void ReadHeader(::ArrayW<uint8_t> buffer, ByRef<int> position);
     // private System.Void ReadNames(System.Byte[] buffer, ref System.Int32 position)
     // Offset: 0x1DF5854
-    void ReadNames(::ArrayWrapper<uint8_t> buffer, ByRef<int> position);
+    void ReadNames(::ArrayW<uint8_t> buffer, ByRef<int> position);
     // public System.Int32 Get(System.TermInfoNumbers number)
     // Offset: 0x1DF1CC0
     int Get(System::TermInfoNumbers number);
@@ -97,16 +104,16 @@ namespace System {
     ::Il2CppString* Get(System::TermInfoStrings tstr);
     // public System.Byte[] GetStringBytes(System.TermInfoStrings tstr)
     // Offset: 0x1DF54D4
-    ::ArrayWrapper<uint8_t> GetStringBytes(System::TermInfoStrings tstr);
+    ::ArrayW<uint8_t> GetStringBytes(System::TermInfoStrings tstr);
     // private System.Int16 GetInt16(System.Byte[] buffer, System.Int32 offset)
     // Offset: 0x1DF5894
-    int16_t GetInt16(::ArrayWrapper<uint8_t> buffer, int offset);
+    int16_t GetInt16(::ArrayW<uint8_t> buffer, int offset);
     // private System.String GetString(System.Byte[] buffer, System.Int32 offset)
     // Offset: 0x1DF58F0
-    ::Il2CppString* GetString(::ArrayWrapper<uint8_t> buffer, int offset);
+    ::Il2CppString* GetString(::ArrayW<uint8_t> buffer, int offset);
     // private System.Byte[] GetStringBytes(System.Byte[] buffer, System.Int32 offset)
     // Offset: 0x1DF5980
-    ::ArrayWrapper<uint8_t> GetStringBytes(::ArrayWrapper<uint8_t> buffer, int offset);
+    ::ArrayW<uint8_t> GetStringBytes(::ArrayW<uint8_t> buffer, int offset);
   }; // System.TermInfoReader
   #pragma pack(pop)
   static check_size<sizeof(TermInfoReader), 32 + sizeof(int)> __System_TermInfoReaderSizeCheck;
@@ -125,7 +132,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::TermInfoReader*, "System", "TermInfoReader");
 // Writing MetadataGetter for method: System::TermInfoReader::ReadHeader
 // Il2CppName: ReadHeader
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::TermInfoReader::*)(::ArrayWrapper<uint8_t>, ByRef<int>)>(&System::TermInfoReader::ReadHeader)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::TermInfoReader::*)(::ArrayW<uint8_t>, ByRef<int>)>(&System::TermInfoReader::ReadHeader)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* position = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -135,7 +142,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::TermInfoReader::ReadNames
 // Il2CppName: ReadNames
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::TermInfoReader::*)(::ArrayWrapper<uint8_t>, ByRef<int>)>(&System::TermInfoReader::ReadNames)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::TermInfoReader::*)(::ArrayW<uint8_t>, ByRef<int>)>(&System::TermInfoReader::ReadNames)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* position = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -163,7 +170,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::TermInfoReader::GetStringBytes
 // Il2CppName: GetStringBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (System::TermInfoReader::*)(System::TermInfoStrings)>(&System::TermInfoReader::GetStringBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (System::TermInfoReader::*)(System::TermInfoStrings)>(&System::TermInfoReader::GetStringBytes)> {
   static const MethodInfo* get() {
     static auto* tstr = &::il2cpp_utils::GetClassFromName("System", "TermInfoStrings")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::TermInfoReader*), "GetStringBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tstr});
@@ -172,7 +179,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: System::TermInfoReader::GetInt16
 // Il2CppName: GetInt16
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (System::TermInfoReader::*)(::ArrayWrapper<uint8_t>, int)>(&System::TermInfoReader::GetInt16)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (System::TermInfoReader::*)(::ArrayW<uint8_t>, int)>(&System::TermInfoReader::GetInt16)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -182,7 +189,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (Sy
 // Writing MetadataGetter for method: System::TermInfoReader::GetString
 // Il2CppName: GetString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::TermInfoReader::*)(::ArrayWrapper<uint8_t>, int)>(&System::TermInfoReader::GetString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::TermInfoReader::*)(::ArrayW<uint8_t>, int)>(&System::TermInfoReader::GetString)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -192,7 +199,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::TermInfoReader::GetStringBytes
 // Il2CppName: GetStringBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (System::TermInfoReader::*)(::ArrayWrapper<uint8_t>, int)>(&System::TermInfoReader::GetStringBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (System::TermInfoReader::*)(::ArrayW<uint8_t>, int)>(&System::TermInfoReader::GetStringBytes)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

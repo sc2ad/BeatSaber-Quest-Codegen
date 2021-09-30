@@ -33,6 +33,11 @@ namespace GlobalNamespace {
     public:
     // Writing base type padding for base size: 0x39 to desired offset: 0x40
     char ___base_padding[0x7] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.MeshRenderer _meshRenderer
     // Size: 0x8
     // Offset: 0x40
@@ -85,6 +90,7 @@ namespace GlobalNamespace {
     int propertyId;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEDF44C
     // Get static field: static private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
     static UnityEngine::MaterialPropertyBlock* _get__materialPropertyBlock();

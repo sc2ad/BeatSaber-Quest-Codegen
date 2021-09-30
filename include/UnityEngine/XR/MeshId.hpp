@@ -25,6 +25,11 @@ namespace UnityEngine::XR {
   // [NativeHeaderAttribute] Offset: E995EC
   struct MeshId/*, public System::ValueType, public System::IEquatable_1<UnityEngine::XR::MeshId>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.UInt64 m_SubId1
     // Size: 0x8
     // Offset: 0x0
@@ -37,6 +42,7 @@ namespace UnityEngine::XR {
     uint64_t m_SubId2;
     // Field size check
     static_assert(sizeof(uint64_t) == 0x8);
+    public:
     // Creating value type constructor for type: MeshId
     constexpr MeshId(uint64_t m_SubId1_ = {}, uint64_t m_SubId2_ = {}) noexcept : m_SubId1{m_SubId1_}, m_SubId2{m_SubId2_} {}
     // Creating interface conversion operator: operator System::ValueType

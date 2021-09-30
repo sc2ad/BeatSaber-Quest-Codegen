@@ -39,6 +39,11 @@ namespace GlobalNamespace {
     class $$c;
     // Nested type: GlobalNamespace::PlatformAuthenticationTokenProvider::$GetAuthenticationToken$d__10
     struct $GetAuthenticationToken$d__10;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly IPlatformUserModel _platformUserModel
     // Size: 0x8
     // Offset: 0x10
@@ -69,6 +74,7 @@ namespace GlobalNamespace {
     GlobalNamespace::AuthenticationToken::Platform platform;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AuthenticationToken::Platform) == 0x1);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IAuthenticationTokenProvider
     operator GlobalNamespace::IAuthenticationTokenProvider() noexcept {
       return *reinterpret_cast<GlobalNamespace::IAuthenticationTokenProvider*>(this);

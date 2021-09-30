@@ -7,6 +7,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IDisposable
 #include "System/IDisposable.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: System.Security.Cryptography
 namespace System::Security::Cryptography {
@@ -32,10 +33,10 @@ namespace System::Security::Cryptography {
     bool get_CanTransformMultipleBlocks();
     // public System.Int32 TransformBlock(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount, System.Byte[] outputBuffer, System.Int32 outputOffset)
     // Offset: 0xFFFFFFFF
-    int TransformBlock(::ArrayWrapper<uint8_t> inputBuffer, int inputOffset, int inputCount, ::ArrayWrapper<uint8_t> outputBuffer, int outputOffset);
+    int TransformBlock(::ArrayW<uint8_t> inputBuffer, int inputOffset, int inputCount, ::ArrayW<uint8_t> outputBuffer, int outputOffset);
     // public System.Byte[] TransformFinalBlock(System.Byte[] inputBuffer, System.Int32 inputOffset, System.Int32 inputCount)
     // Offset: 0xFFFFFFFF
-    ::ArrayWrapper<uint8_t> TransformFinalBlock(::ArrayWrapper<uint8_t> inputBuffer, int inputOffset, int inputCount);
+    ::ArrayW<uint8_t> TransformFinalBlock(::ArrayW<uint8_t> inputBuffer, int inputOffset, int inputCount);
   }; // System.Security.Cryptography.ICryptoTransform
   #pragma pack(pop)
 }
@@ -69,7 +70,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::ICryptoTransform::TransformBlock
 // Il2CppName: TransformBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Security::Cryptography::ICryptoTransform::*)(::ArrayWrapper<uint8_t>, int, int, ::ArrayWrapper<uint8_t>, int)>(&System::Security::Cryptography::ICryptoTransform::TransformBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Security::Cryptography::ICryptoTransform::*)(::ArrayW<uint8_t>, int, int, ::ArrayW<uint8_t>, int)>(&System::Security::Cryptography::ICryptoTransform::TransformBlock)> {
   static const MethodInfo* get() {
     static auto* inputBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* inputOffset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -82,7 +83,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Security::Cryptography::ICryptoTransform::TransformFinalBlock
 // Il2CppName: TransformFinalBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (System::Security::Cryptography::ICryptoTransform::*)(::ArrayWrapper<uint8_t>, int, int)>(&System::Security::Cryptography::ICryptoTransform::TransformFinalBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (System::Security::Cryptography::ICryptoTransform::*)(::ArrayW<uint8_t>, int, int)>(&System::Security::Cryptography::ICryptoTransform::TransformFinalBlock)> {
   static const MethodInfo* get() {
     static auto* inputBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* inputOffset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

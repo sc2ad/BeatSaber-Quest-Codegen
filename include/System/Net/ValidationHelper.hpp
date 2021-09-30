@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: System.Net
 namespace System::Net {
@@ -15,17 +16,17 @@ namespace System::Net {
   class ValidationHelper : public ::Il2CppObject {
     public:
     // Get static field: static public System.String[] EmptyArray
-    static ::ArrayWrapper<::Il2CppString*> _get_EmptyArray();
+    static ::ArrayW<::Il2CppString*> _get_EmptyArray();
     // Set static field: static public System.String[] EmptyArray
-    static void _set_EmptyArray(::ArrayWrapper<::Il2CppString*> value);
+    static void _set_EmptyArray(::ArrayW<::Il2CppString*> value);
     // Get static field: static readonly System.Char[] InvalidMethodChars
-    static ::ArrayWrapper<::Il2CppChar> _get_InvalidMethodChars();
+    static ::ArrayW<::Il2CppChar> _get_InvalidMethodChars();
     // Set static field: static readonly System.Char[] InvalidMethodChars
-    static void _set_InvalidMethodChars(::ArrayWrapper<::Il2CppChar> value);
+    static void _set_InvalidMethodChars(::ArrayW<::Il2CppChar> value);
     // Get static field: static readonly System.Char[] InvalidParamChars
-    static ::ArrayWrapper<::Il2CppChar> _get_InvalidParamChars();
+    static ::ArrayW<::Il2CppChar> _get_InvalidParamChars();
     // Set static field: static readonly System.Char[] InvalidParamChars
-    static void _set_InvalidParamChars(::ArrayWrapper<::Il2CppChar> value);
+    static void _set_InvalidParamChars(::ArrayW<::Il2CppChar> value);
     // static private System.Void .cctor()
     // Offset: 0x1777C48
     static void _cctor();

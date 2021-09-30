@@ -18,6 +18,11 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HmdRect2_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public OVR.OpenVR.HmdVector2_t vTopLeft
     // Size: 0x8
     // Offset: 0x0
@@ -30,6 +35,7 @@ namespace OVR::OpenVR {
     OVR::OpenVR::HmdVector2_t vBottomRight;
     // Field size check
     static_assert(sizeof(OVR::OpenVR::HmdVector2_t) == 0x8);
+    public:
     // Creating value type constructor for type: HmdRect2_t
     constexpr HmdRect2_t(OVR::OpenVR::HmdVector2_t vTopLeft_ = {}, OVR::OpenVR::HmdVector2_t vBottomRight_ = {}) noexcept : vTopLeft{vTopLeft_}, vBottomRight{vBottomRight_} {}
     // Creating interface conversion operator: operator System::ValueType

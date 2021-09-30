@@ -18,6 +18,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GameServerPlayerTableItem : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly System.String playerName
     // Size: 0x8
     // Offset: 0x10
@@ -42,6 +47,7 @@ namespace GlobalNamespace {
     bool isReady;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: public readonly System.String playerName
     ::Il2CppString*& dyn_playerName();
     // Get instance field reference: public readonly System.String suggestedLevel

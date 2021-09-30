@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -21,36 +22,42 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class EncryptionUtility::$$c__DisplayClass18_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Byte[] preMasterSecret
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<uint8_t> preMasterSecret;
+    ::ArrayW<uint8_t> preMasterSecret;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // public System.Byte[] serverSeed
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<uint8_t> serverSeed;
+    ::ArrayW<uint8_t> serverSeed;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // public System.Byte[] clientSeed
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<uint8_t> clientSeed;
+    ::ArrayW<uint8_t> clientSeed;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // public System.Boolean isClient
     // Size: 0x1
     // Offset: 0x28
     bool isClient;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: public System.Byte[] preMasterSecret
-    ::ArrayWrapper<uint8_t>& dyn_preMasterSecret();
+    ::ArrayW<uint8_t>& dyn_preMasterSecret();
     // Get instance field reference: public System.Byte[] serverSeed
-    ::ArrayWrapper<uint8_t>& dyn_serverSeed();
+    ::ArrayW<uint8_t>& dyn_serverSeed();
     // Get instance field reference: public System.Byte[] clientSeed
-    ::ArrayWrapper<uint8_t>& dyn_clientSeed();
+    ::ArrayW<uint8_t>& dyn_clientSeed();
     // Get instance field reference: public System.Boolean isClient
     bool& dyn_isClient();
     // EncryptionUtility/IEncryptionState <CreateEncryptionStateAsync>b__0()

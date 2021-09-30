@@ -34,6 +34,11 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class HitReaction::HitPoint : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [TooltipAttribute] Offset: 0xEF6FCC
     // public System.String name
     // Size: 0x8
@@ -97,6 +102,7 @@ namespace RootMotion::FinalIK {
     float lastTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: public System.String name
     ::Il2CppString*& dyn_name();
     // Get instance field reference: public UnityEngine.Collider collider

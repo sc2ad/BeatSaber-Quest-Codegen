@@ -69,6 +69,11 @@ namespace System::Resources {
     class CultureNameResourceSetPair;
     // Nested type: System::Resources::ResourceManager::ResourceManagerMediator
     class ResourceManagerMediator;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [ObsoleteAttribute] Offset: 0xE62CF8
     // protected System.Collections.Hashtable ResourceSets
     // Size: 0x8
@@ -142,6 +147,7 @@ namespace System::Resources {
     System::Resources::IResourceGroveler* resourceGroveler;
     // Field size check
     static_assert(sizeof(System::Resources::IResourceGroveler*) == 0x8);
+    public:
     // Get static field: static public readonly System.Int32 MagicNumber
     static int _get_MagicNumber();
     // Set static field: static public readonly System.Int32 MagicNumber

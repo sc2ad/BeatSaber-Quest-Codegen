@@ -36,12 +36,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class CustomBeatmapLevel : public GlobalNamespace::CustomPreviewBeatmapLevel/*, public GlobalNamespace::IBeatmapLevel*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private BeatmapLevelData _beatmapLevelData
     // Size: 0x8
     // Offset: 0xA8
     GlobalNamespace::BeatmapLevelData* beatmapLevelData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapLevelData*) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IBeatmapLevel
     operator GlobalNamespace::IBeatmapLevel() noexcept {
       return *reinterpret_cast<GlobalNamespace::IBeatmapLevel*>(this);

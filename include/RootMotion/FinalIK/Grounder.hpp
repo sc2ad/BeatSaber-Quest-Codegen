@@ -33,6 +33,11 @@ namespace RootMotion::FinalIK {
     public:
     // Nested type: RootMotion::FinalIK::Grounder::GrounderDelegate
     class GrounderDelegate;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [TooltipAttribute] Offset: 0xEF1C60
     // [RangeAttribute] Offset: 0xEF1C60
     // public System.Single weight
@@ -68,6 +73,7 @@ namespace RootMotion::FinalIK {
     bool initiated;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.Single weight

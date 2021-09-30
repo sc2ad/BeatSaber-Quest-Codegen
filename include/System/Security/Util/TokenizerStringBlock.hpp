@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: System.Security.Util
 namespace System::Security::Util {
@@ -18,20 +19,26 @@ namespace System::Security::Util {
   // [TokenAttribute] Offset: FFFFFFFF
   class TokenizerStringBlock : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.String[] m_block
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<::Il2CppString*> m_block;
+    ::ArrayW<::Il2CppString*> m_block;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // System.Security.Util.TokenizerStringBlock m_next
     // Size: 0x8
     // Offset: 0x18
     System::Security::Util::TokenizerStringBlock* m_next;
     // Field size check
     static_assert(sizeof(System::Security::Util::TokenizerStringBlock*) == 0x8);
+    public:
     // Get instance field reference: System.String[] m_block
-    ::ArrayWrapper<::Il2CppString*>& dyn_m_block();
+    ::ArrayW<::Il2CppString*>& dyn_m_block();
     // Get instance field reference: System.Security.Util.TokenizerStringBlock m_next
     System::Security::Util::TokenizerStringBlock*& dyn_m_next();
     // public System.Void .ctor()

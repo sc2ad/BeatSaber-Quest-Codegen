@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: LiteNetLib
@@ -32,12 +33,17 @@ namespace LiteNetLib {
   // [TokenAttribute] Offset: FFFFFFFF
   class NetPacketPool : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly LiteNetLib.NetPacket[] _pool
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<LiteNetLib::NetPacket*> pool;
+    ::ArrayW<LiteNetLib::NetPacket*> pool;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<LiteNetLib::NetPacket*>) == 0x8);
+    static_assert(sizeof(::ArrayW<LiteNetLib::NetPacket*>) == 0x8);
     // private readonly System.Threading.ReaderWriterLockSlim _lock
     // Size: 0x8
     // Offset: 0x18
@@ -50,15 +56,16 @@ namespace LiteNetLib {
     int count;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: private readonly LiteNetLib.NetPacket[] _pool
-    ::ArrayWrapper<LiteNetLib::NetPacket*>& dyn__pool();
+    ::ArrayW<LiteNetLib::NetPacket*>& dyn__pool();
     // Get instance field reference: private readonly System.Threading.ReaderWriterLockSlim _lock
     System::Threading::ReaderWriterLockSlim*& dyn__lock();
     // Get instance field reference: private System.Int32 _count
     int& dyn__count();
     // public LiteNetLib.NetPacket GetWithData(LiteNetLib.PacketProperty property, System.Byte[] data, System.Int32 start, System.Int32 length)
     // Offset: 0x1DDB0C4
-    LiteNetLib::NetPacket* GetWithData(LiteNetLib::PacketProperty property, ::ArrayWrapper<uint8_t> data, int start, int length);
+    LiteNetLib::NetPacket* GetWithData(LiteNetLib::PacketProperty property, ::ArrayW<uint8_t> data, int start, int length);
     // public LiteNetLib.NetPacket GetWithProperty(LiteNetLib.PacketProperty property, System.Int32 size)
     // Offset: 0x1DD9088
     LiteNetLib::NetPacket* GetWithProperty(LiteNetLib::PacketProperty property, int size);
@@ -90,7 +97,7 @@ DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::NetPacketPool*, "LiteNetLib", "NetPacketPool"
 // Writing MetadataGetter for method: LiteNetLib::NetPacketPool::GetWithData
 // Il2CppName: GetWithData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::NetPacket* (LiteNetLib::NetPacketPool::*)(LiteNetLib::PacketProperty, ::ArrayWrapper<uint8_t>, int, int)>(&LiteNetLib::NetPacketPool::GetWithData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::NetPacket* (LiteNetLib::NetPacketPool::*)(LiteNetLib::PacketProperty, ::ArrayW<uint8_t>, int, int)>(&LiteNetLib::NetPacketPool::GetWithData)> {
   static const MethodInfo* get() {
     static auto* property = &::il2cpp_utils::GetClassFromName("LiteNetLib", "PacketProperty")->byval_arg;
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;

@@ -27,6 +27,11 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class MonoCustomAttrs::AttributeInfo : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.AttributeUsageAttribute _usage
     // Size: 0x8
     // Offset: 0x10
@@ -39,6 +44,7 @@ namespace System {
     int inheritanceLevel;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: private System.AttributeUsageAttribute _usage
     System::AttributeUsageAttribute*& dyn__usage();
     // Get instance field reference: private System.Int32 _inheritanceLevel

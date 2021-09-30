@@ -27,12 +27,18 @@ namespace System::Runtime::Remoting::Messaging {
   // [TokenAttribute] Offset: FFFFFFFF
   class CallContextSecurityData : public ::Il2CppObject/*, public System::ICloneable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Security.Principal.IPrincipal _principal
     // Size: 0x8
     // Offset: 0x10
     System::Security::Principal::IPrincipal* principal;
     // Field size check
     static_assert(sizeof(System::Security::Principal::IPrincipal*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);

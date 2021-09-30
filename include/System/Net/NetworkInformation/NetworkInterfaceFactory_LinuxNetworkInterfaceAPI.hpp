@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -55,7 +56,7 @@ namespace System::Net::NetworkInformation {
     // Offset: 0x16473E8
     // Implemented from: System.Net.NetworkInformation.NetworkInterfaceFactory
     // Base method: System.Net.NetworkInformation.NetworkInterface[] NetworkInterfaceFactory::GetAllNetworkInterfaces()
-    ::ArrayWrapper<System::Net::NetworkInformation::NetworkInterface*> GetAllNetworkInterfaces();
+    ::ArrayW<System::Net::NetworkInformation::NetworkInterface*> GetAllNetworkInterfaces();
   }; // System.Net.NetworkInformation.NetworkInterfaceFactory/System.Net.NetworkInformation.LinuxNetworkInterfaceAPI
   #pragma pack(pop)
 }
@@ -86,7 +87,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(ByR
 // Writing MetadataGetter for method: System::Net::NetworkInformation::NetworkInterfaceFactory::LinuxNetworkInterfaceAPI::GetAllNetworkInterfaces
 // Il2CppName: GetAllNetworkInterfaces
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::Net::NetworkInformation::NetworkInterface*> (System::Net::NetworkInformation::NetworkInterfaceFactory::LinuxNetworkInterfaceAPI::*)()>(&System::Net::NetworkInformation::NetworkInterfaceFactory::LinuxNetworkInterfaceAPI::GetAllNetworkInterfaces)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Net::NetworkInformation::NetworkInterface*> (System::Net::NetworkInformation::NetworkInterfaceFactory::LinuxNetworkInterfaceAPI::*)()>(&System::Net::NetworkInformation::NetworkInterfaceFactory::LinuxNetworkInterfaceAPI::GetAllNetworkInterfaces)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::NetworkInterfaceFactory::LinuxNetworkInterfaceAPI*), "GetAllNetworkInterfaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

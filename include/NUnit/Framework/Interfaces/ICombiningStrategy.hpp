@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -33,7 +34,7 @@ namespace NUnit::Framework::Interfaces {
     public:
     // public System.Collections.Generic.IEnumerable`1<NUnit.Framework.Interfaces.ITestCaseData> GetTestCases(System.Collections.IEnumerable[] sources)
     // Offset: 0xFFFFFFFF
-    System::Collections::Generic::IEnumerable_1<NUnit::Framework::Interfaces::ITestCaseData*>* GetTestCases(::ArrayWrapper<System::Collections::IEnumerable*> sources);
+    System::Collections::Generic::IEnumerable_1<NUnit::Framework::Interfaces::ITestCaseData*>* GetTestCases(::ArrayW<System::Collections::IEnumerable*> sources);
   }; // NUnit.Framework.Interfaces.ICombiningStrategy
   #pragma pack(pop)
 }
@@ -43,7 +44,7 @@ DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::ICombiningStrategy*, "NUnit
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::ICombiningStrategy::GetTestCases
 // Il2CppName: GetTestCases
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<NUnit::Framework::Interfaces::ITestCaseData*>* (NUnit::Framework::Interfaces::ICombiningStrategy::*)(::ArrayWrapper<System::Collections::IEnumerable*>)>(&NUnit::Framework::Interfaces::ICombiningStrategy::GetTestCases)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<NUnit::Framework::Interfaces::ITestCaseData*>* (NUnit::Framework::Interfaces::ICombiningStrategy::*)(::ArrayW<System::Collections::IEnumerable*>)>(&NUnit::Framework::Interfaces::ICombiningStrategy::GetTestCases)> {
   static const MethodInfo* get() {
     static auto* sources = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Collections", "IEnumerable"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::ICombiningStrategy*), "GetTestCases", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sources});

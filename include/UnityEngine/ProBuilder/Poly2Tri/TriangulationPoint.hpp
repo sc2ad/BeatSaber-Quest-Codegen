@@ -31,6 +31,11 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   // [TokenAttribute] Offset: FFFFFFFF
   class TriangulationPoint : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.List`1<UnityEngine.ProBuilder.Poly2Tri.DTSweepConstraint> <Edges>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -55,6 +60,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     int Index;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.ProBuilder.Poly2Tri.DTSweepConstraint> <Edges>k__BackingField
     System::Collections::Generic::List_1<UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>*& dyn_$Edges$k__BackingField();
     // Get instance field reference: public System.Double X

@@ -24,12 +24,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MaterialPropertyValuesSetter::PropertyNameVectorValuePair : public GlobalNamespace::MaterialPropertyValuesSetter::PropertyValuePairBase {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Vector4 vector
     // Size: 0x10
     // Offset: 0x1C
     UnityEngine::Vector4 vector;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector4) == 0x10);
+    public:
     // Creating conversion operator: operator UnityEngine::Vector4
     constexpr operator UnityEngine::Vector4() const noexcept {
       return vector;

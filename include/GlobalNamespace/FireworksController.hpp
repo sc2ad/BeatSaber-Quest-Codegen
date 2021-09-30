@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -36,6 +37,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::FireworksController::$SpawningCoroutine$d__8
     class $SpawningCoroutine$d__8;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Vector3 _spawnSize
     // Size: 0xC
     // Offset: 0x18
@@ -61,9 +67,9 @@ namespace GlobalNamespace {
     // private DirectionalLight[] _directionalLights
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<GlobalNamespace::DirectionalLight*> directionalLights;
+    ::ArrayW<GlobalNamespace::DirectionalLight*> directionalLights;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::DirectionalLight*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::DirectionalLight*>) == 0x8);
     // private System.Single _lightsIntensity
     // Size: 0x4
     // Offset: 0x38
@@ -83,6 +89,7 @@ namespace GlobalNamespace {
     GlobalNamespace::FireworkItemController::Pool* fireworkItemPool;
     // Field size check
     static_assert(sizeof(GlobalNamespace::FireworkItemController::Pool*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Vector3 _spawnSize
@@ -92,7 +99,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _maxSpawnInterval
     float& dyn__maxSpawnInterval();
     // Get instance field reference: private DirectionalLight[] _directionalLights
-    ::ArrayWrapper<GlobalNamespace::DirectionalLight*>& dyn__directionalLights();
+    ::ArrayW<GlobalNamespace::DirectionalLight*>& dyn__directionalLights();
     // Get instance field reference: private System.Single _lightsIntensity
     float& dyn__lightsIntensity();
     // Get instance field reference: private System.Int32 _currentLightId

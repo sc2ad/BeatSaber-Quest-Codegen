@@ -30,12 +30,18 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class FromBinder::$$c__DisplayClass64_1 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.MonoBehaviour monoBehaviour
     // Size: 0x8
     // Offset: 0x10
     UnityEngine::MonoBehaviour* monoBehaviour;
     // Field size check
     static_assert(sizeof(UnityEngine::MonoBehaviour*) == 0x8);
+    public:
     // Creating conversion operator: operator UnityEngine::MonoBehaviour*
     constexpr operator UnityEngine::MonoBehaviour*() const noexcept {
       return monoBehaviour;

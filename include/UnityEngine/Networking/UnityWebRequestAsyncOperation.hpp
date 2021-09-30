@@ -31,6 +31,11 @@ namespace UnityEngine::Networking {
   // [NativeHeaderAttribute] Offset: EBFB50
   class UnityWebRequestAsyncOperation : public UnityEngine::AsyncOperation {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [DebuggerBrowsableAttribute] Offset: 0xEBFD10
     // private UnityEngine.Networking.UnityWebRequest <webRequest>k__BackingField
     // Size: 0x8
@@ -38,6 +43,7 @@ namespace UnityEngine::Networking {
     UnityEngine::Networking::UnityWebRequest* webRequest;
     // Field size check
     static_assert(sizeof(UnityEngine::Networking::UnityWebRequest*) == 0x8);
+    public:
     // Creating conversion operator: operator UnityEngine::Networking::UnityWebRequest*
     constexpr operator UnityEngine::Networking::UnityWebRequest*() const noexcept {
       return webRequest;

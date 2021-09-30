@@ -20,6 +20,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class Vector3TransitionSO : public GlobalNamespace::BaseTransitionSO {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Vector3 _normalState
     // Size: 0xC
     // Offset: 0x20
@@ -56,6 +61,7 @@ namespace GlobalNamespace {
     UnityEngine::Vector3 selectedAndHighlightedState;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    public:
     // Get instance field reference: private UnityEngine.Vector3 _normalState
     UnityEngine::Vector3& dyn__normalState();
     // Get instance field reference: private UnityEngine.Vector3 _highlightedState

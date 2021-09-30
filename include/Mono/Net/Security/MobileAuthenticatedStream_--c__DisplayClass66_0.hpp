@@ -21,6 +21,11 @@ namespace Mono::Net::Security {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class MobileAuthenticatedStream::$$c__DisplayClass66_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public Mono.Net.Security.MobileAuthenticatedStream <>4__this
     // Size: 0x8
     // Offset: 0x10
@@ -33,6 +38,7 @@ namespace Mono::Net::Security {
     int len;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: public Mono.Net.Security.MobileAuthenticatedStream <>4__this
     Mono::Net::Security::MobileAuthenticatedStream*& dyn_$$4__this();
     // Get instance field reference: public System.Int32 len

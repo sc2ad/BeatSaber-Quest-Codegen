@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: LiteNetLib::Utils
@@ -91,6 +92,11 @@ namespace LiteNetLib::Utils {
     // Nested type: LiteNetLib::Utils::NetPacketProcessor::$$c__DisplayClass32_0_1<T>
     template<typename T>
     class $$c__DisplayClass32_0_1;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly LiteNetLib.Utils.NetSerializer _netSerializer
     // Size: 0x8
     // Offset: 0x10
@@ -109,6 +115,7 @@ namespace LiteNetLib::Utils {
     LiteNetLib::Utils::NetDataWriter* netDataWriter;
     // Field size check
     static_assert(sizeof(LiteNetLib::Utils::NetDataWriter*) == 0x8);
+    public:
     // Get instance field reference: private readonly LiteNetLib.Utils.NetSerializer _netSerializer
     LiteNetLib::Utils::NetSerializer*& dyn__netSerializer();
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.UInt64,LiteNetLib.Utils.NetPacketProcessor/LiteNetLib.Utils.SubscribeDelegate> _callbacks
@@ -252,23 +259,23 @@ namespace LiteNetLib::Utils {
     // public System.Byte[] Write(T packet)
     // Offset: 0xFFFFFFFF
     template<class T>
-    ::ArrayWrapper<uint8_t> Write(T packet) {
+    ::ArrayW<uint8_t> Write(T packet) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetPacketProcessor::Write");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Write", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(packet)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<::ArrayWrapper<uint8_t>, false>(___instance_arg, ___generic__method, packet);
+      return ::il2cpp_utils::RunMethodThrow<::ArrayW<uint8_t>, false>(___instance_arg, ___generic__method, packet);
     }
     // public System.Byte[] WriteNetSerializable(T packet)
     // Offset: 0xFFFFFFFF
     template<class T>
-    ::ArrayWrapper<uint8_t> WriteNetSerializable(T packet) {
+    ::ArrayW<uint8_t> WriteNetSerializable(T packet) {
       static_assert(std::is_base_of_v<LiteNetLib::Utils::INetSerializable, std::remove_pointer_t<T>>);
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetPacketProcessor::WriteNetSerializable");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "WriteNetSerializable", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(packet)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<::ArrayWrapper<uint8_t>, false>(___instance_arg, ___generic__method, packet);
+      return ::il2cpp_utils::RunMethodThrow<::ArrayW<uint8_t>, false>(___instance_arg, ___generic__method, packet);
     }
     // public System.Void ReadPacket(LiteNetLib.Utils.NetDataReader reader, System.Object userData)
     // Offset: 0x261852C

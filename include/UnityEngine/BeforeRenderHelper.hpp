@@ -38,6 +38,11 @@ namespace UnityEngine {
     // [TokenAttribute] Offset: FFFFFFFF
     struct OrderBlock/*, public System::ValueType*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // System.Int32 order
       // Size: 0x4
       // Offset: 0x0
@@ -52,6 +57,7 @@ namespace UnityEngine {
       UnityEngine::Events::UnityAction* callback;
       // Field size check
       static_assert(sizeof(UnityEngine::Events::UnityAction*) == 0x8);
+      public:
       // Creating value type constructor for type: OrderBlock
       constexpr OrderBlock(int order_ = {}, UnityEngine::Events::UnityAction* callback_ = {}) noexcept : order{order_}, callback{callback_} {}
       // Creating interface conversion operator: operator System::ValueType

@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -52,6 +53,11 @@ namespace GlobalNamespace {
     struct $InitAfterPlatformWasInitializedAsync$d__9;
     // Nested type: GlobalNamespace::DlcPromoExperimentModel::$UpdateNotOwnedPacksAsync$d__18
     struct $UpdateNotOwnedPacksAsync$d__18;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xF015D4
     // private readonly AdditionalContentModel _additionalContentModel
     // Size: 0x8
@@ -90,9 +96,9 @@ namespace GlobalNamespace {
     // private DlcPromoExperimentDataSO/MusicPackPromoInfo[] _notOwnedMusicPackPromoInfos
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayWrapper<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*> notOwnedMusicPackPromoInfos;
+    ::ArrayW<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*> notOwnedMusicPackPromoInfos;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*>) == 0x8);
     // private System.Boolean _updatingNotOwnedPacks
     // Size: 0x1
     // Offset: 0x40
@@ -113,6 +119,7 @@ namespace GlobalNamespace {
     System::Random* random;
     // Field size check
     static_assert(sizeof(System::Random*) == 0x8);
+    public:
     // Get instance field reference: private readonly AdditionalContentModel _additionalContentModel
     GlobalNamespace::AdditionalContentModel*& dyn__additionalContentModel();
     // Get instance field reference: private readonly IPlatformUserModel _platformUserModel
@@ -124,7 +131,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly PlayerDataModel _playerDataModel
     GlobalNamespace::PlayerDataModel*& dyn__playerDataModel();
     // Get instance field reference: private DlcPromoExperimentDataSO/MusicPackPromoInfo[] _notOwnedMusicPackPromoInfos
-    ::ArrayWrapper<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*>& dyn__notOwnedMusicPackPromoInfos();
+    ::ArrayW<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*>& dyn__notOwnedMusicPackPromoInfos();
     // Get instance field reference: private System.Boolean _updatingNotOwnedPacks
     bool& dyn__updatingNotOwnedPacks();
     // Get instance field reference: private System.Boolean _initialized

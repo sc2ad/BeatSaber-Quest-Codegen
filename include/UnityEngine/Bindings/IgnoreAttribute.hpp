@@ -22,6 +22,11 @@ namespace UnityEngine::Bindings {
   // [AttributeUsageAttribute] Offset: E6DE20
   class IgnoreAttribute : public System::Attribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [DebuggerBrowsableAttribute] Offset: 0xE6E3E4
     // private System.Boolean <DoesNotContributeToSize>k__BackingField
     // Size: 0x1
@@ -29,6 +34,7 @@ namespace UnityEngine::Bindings {
     bool DoesNotContributeToSize;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating conversion operator: operator bool
     constexpr operator bool() const noexcept {
       return DoesNotContributeToSize;

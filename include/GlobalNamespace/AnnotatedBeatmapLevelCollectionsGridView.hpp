@@ -19,6 +19,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -68,6 +69,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class AnnotatedBeatmapLevelCollectionsGridView : public UnityEngine::MonoBehaviour/*, public UnityEngine::EventSystems::IPointerEnterHandler, public UnityEngine::EventSystems::IPointerExitHandler, public GlobalNamespace::GridView::IDataSource*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private GridView _gridView
     // Size: 0x8
     // Offset: 0x18
@@ -110,9 +116,9 @@ namespace GlobalNamespace {
     // private System.String[] _promoPackIDStrings
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayWrapper<::Il2CppString*> promoPackIDStrings;
+    ::ArrayW<::Il2CppString*> promoPackIDStrings;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // [InjectAttribute] Offset: 0xF12120
     // private readonly AdditionalContentModel _additionalContentModel
     // Size: 0x8
@@ -177,6 +183,7 @@ namespace GlobalNamespace {
     int selectedCellIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating interface conversion operator: operator UnityEngine::EventSystems::IPointerEnterHandler
     operator UnityEngine::EventSystems::IPointerEnterHandler() noexcept {
       return *reinterpret_cast<UnityEngine::EventSystems::IPointerEnterHandler*>(this);
@@ -204,7 +211,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _cellHeight
     float& dyn__cellHeight();
     // Get instance field reference: private System.String[] _promoPackIDStrings
-    ::ArrayWrapper<::Il2CppString*>& dyn__promoPackIDStrings();
+    ::ArrayW<::Il2CppString*>& dyn__promoPackIDStrings();
     // Get instance field reference: private readonly AdditionalContentModel _additionalContentModel
     GlobalNamespace::AdditionalContentModel*& dyn__additionalContentModel();
     // Get instance field reference: private readonly IVRPlatformHelper _vrPlatformHelper

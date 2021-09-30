@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -36,6 +37,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapObjectsInTimeRowProcessor : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Collections.Generic.List`1<NoteData> _currentTimeRowColorNotes
     // Size: 0x8
     // Offset: 0x10
@@ -51,15 +57,16 @@ namespace GlobalNamespace {
     // private readonly System.Collections.Generic.List`1<NoteData>[] _notesInColumns
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<System::Collections::Generic::List_1<GlobalNamespace::NoteData*>*> notesInColumns;
+    ::ArrayW<System::Collections::Generic::List_1<GlobalNamespace::NoteData*>*> notesInColumns;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<System::Collections::Generic::List_1<GlobalNamespace::NoteData*>*>) == 0x8);
+    static_assert(sizeof(::ArrayW<System::Collections::Generic::List_1<GlobalNamespace::NoteData*>*>) == 0x8);
     // private System.Single _prevBasicNotesTimeRowTime
     // Size: 0x4
     // Offset: 0x28
     float prevBasicNotesTimeRowTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // static field const value: static private System.Single kTimeRowEpsilon
     static constexpr const float kTimeRowEpsilon = 0.001;
     // Get static field: static private System.Single kTimeRowEpsilon
@@ -71,7 +78,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Collections.Generic.List`1<NoteData> _currentTimeRowAllNotes
     System::Collections::Generic::List_1<GlobalNamespace::NoteData*>*& dyn__currentTimeRowAllNotes();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<NoteData>[] _notesInColumns
-    ::ArrayWrapper<System::Collections::Generic::List_1<GlobalNamespace::NoteData*>*>& dyn__notesInColumns();
+    ::ArrayW<System::Collections::Generic::List_1<GlobalNamespace::NoteData*>*>& dyn__notesInColumns();
     // Get instance field reference: private System.Single _prevBasicNotesTimeRowTime
     float& dyn__prevBasicNotesTimeRowTime();
     // public System.Void .ctor(System.Int32 numberOfLines)

@@ -22,6 +22,11 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_InstanceInputUIState : public UnityEngine::ScriptableObject/*, public HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_InstanceInputUIState*>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Boolean _showInstanceInputs
     // Size: 0x1
     // Offset: 0x18
@@ -42,6 +47,7 @@ namespace HoudiniEngineUnity {
     int inputsPageIndexUI;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_InstanceInputUIState*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_InstanceInputUIState*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_InstanceInputUIState*>*>(this);

@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -123,21 +124,21 @@ namespace HoudiniEngineUnity {
     // static public HoudiniEngineUnity.IEquivable`1<T>[] ConvertArrayToEquivable(T[] self)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static ::ArrayWrapper<HoudiniEngineUnity::IEquivable_1<T>*> ConvertArrayToEquivable(::ArrayWrapper<T> self) {
+    static ::ArrayW<HoudiniEngineUnity::IEquivable_1<T>*> ConvertArrayToEquivable(::ArrayW<T> self) {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_Extensions::ConvertArrayToEquivable");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("HoudiniEngineUnity", "HEU_Extensions", "ConvertArrayToEquivable", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(self)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<::ArrayWrapper<HoudiniEngineUnity::IEquivable_1<T>*>, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, self);
+      return ::il2cpp_utils::RunMethodThrow<::ArrayW<HoudiniEngineUnity::IEquivable_1<T>*>, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, self);
     }
     // static public System.Boolean ApproximatelyEquals(System.Single self, System.Single other, System.Single epsilon)
     // Offset: 0x1498B84
     static bool ApproximatelyEquals(float self, float other, float epsilon);
     // static public System.Byte[] AsByteArray(System.String self)
     // Offset: 0x1498C08
-    static ::ArrayWrapper<uint8_t> AsByteArray(::Il2CppString* self);
+    static ::ArrayW<uint8_t> AsByteArray(::Il2CppString* self);
     // static public System.String AsString(System.Byte[] buffer)
     // Offset: 0x1498C88
-    static ::Il2CppString* AsString(::ArrayWrapper<uint8_t> buffer);
+    static ::Il2CppString* AsString(::ArrayW<uint8_t> buffer);
     // static public UnityEngine.Vector3 SwapXAndY(UnityEngine.Vector3 self)
     // Offset: 0x1498D10
     static UnityEngine::Vector3 SwapXAndY(UnityEngine::Vector3 self);
@@ -209,7 +210,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(fl
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Extensions::AsByteArray
 // Il2CppName: AsByteArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_Extensions::AsByteArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_Extensions::AsByteArray)> {
   static const MethodInfo* get() {
     static auto* self = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_Extensions*), "AsByteArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{self});
@@ -218,7 +219,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Extensions::AsString
 // Il2CppName: AsString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::ArrayWrapper<uint8_t>)>(&HoudiniEngineUnity::HEU_Extensions::AsString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::ArrayW<uint8_t>)>(&HoudiniEngineUnity::HEU_Extensions::AsString)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_Extensions*), "AsString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer});

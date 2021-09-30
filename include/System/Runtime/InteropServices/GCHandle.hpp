@@ -33,12 +33,18 @@ namespace System::Runtime::InteropServices {
   // [ComVisibleAttribute] Offset: E60CF8
   struct GCHandle/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 handle
     // Size: 0x4
     // Offset: 0x0
     int handle;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: GCHandle
     constexpr GCHandle(int handle_ = {}) noexcept : handle{handle_} {}
     // Creating interface conversion operator: operator System::ValueType

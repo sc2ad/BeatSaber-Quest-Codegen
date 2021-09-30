@@ -115,12 +115,18 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct InternalMessageType/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Byte value__
       // Size: 0x1
       // Offset: 0x0
       uint8_t value;
       // Field size check
       static_assert(sizeof(uint8_t) == 0x1);
+      public:
       // Creating value type constructor for type: InternalMessageType
       constexpr InternalMessageType(uint8_t value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -203,6 +209,11 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(ConnectedPlayerManager::InternalMessageType), 0 + sizeof(uint8_t)> __GlobalNamespace_ConnectedPlayerManager_InternalMessageTypeSizeCheck;
     static_assert(sizeof(ConnectedPlayerManager::InternalMessageType) == 0x1);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Action connectedEvent
     // Size: 0x8
     // Offset: 0x10
@@ -359,6 +370,7 @@ namespace GlobalNamespace {
     GlobalNamespace::NetworkPacketSerializer_2<GlobalNamespace::ConnectedPlayerManager::InternalMessageType, GlobalNamespace::IConnectedPlayer*>* messageSerializer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::NetworkPacketSerializer_2<GlobalNamespace::ConnectedPlayerManager::InternalMessageType, GlobalNamespace::IConnectedPlayer*>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

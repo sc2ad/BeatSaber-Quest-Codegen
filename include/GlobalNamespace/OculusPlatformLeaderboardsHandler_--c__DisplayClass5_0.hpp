@@ -36,6 +36,11 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class OculusPlatformLeaderboardsHandler::$$c__DisplayClass5_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public OculusPlatformLeaderboardsHandler <>4__this
     // Size: 0x8
     // Offset: 0x10
@@ -54,6 +59,7 @@ namespace GlobalNamespace {
     ::Il2CppString* referencePlayerId;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: public OculusPlatformLeaderboardsHandler <>4__this
     GlobalNamespace::OculusPlatformLeaderboardsHandler*& dyn_$$4__this();
     // Get instance field reference: public PlatformLeaderboardsModel/GetScoresCompletionHandler completionHandler

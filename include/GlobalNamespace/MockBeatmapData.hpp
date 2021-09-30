@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -27,6 +28,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MockBeatmapData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 <numberOfLines>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -42,39 +48,40 @@ namespace GlobalNamespace {
     // private MockNoteData[] <leftNotes>k__BackingField
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<GlobalNamespace::MockNoteData*> leftNotes;
+    ::ArrayW<GlobalNamespace::MockNoteData*> leftNotes;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MockNoteData*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::MockNoteData*>) == 0x8);
     // private MockNoteData[] <rightNotes>k__BackingField
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<GlobalNamespace::MockNoteData*> rightNotes;
+    ::ArrayW<GlobalNamespace::MockNoteData*> rightNotes;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MockNoteData*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::MockNoteData*>) == 0x8);
     // private MockNoteData[] <bombNotes>k__BackingField
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<GlobalNamespace::MockNoteData*> bombNotes;
+    ::ArrayW<GlobalNamespace::MockNoteData*> bombNotes;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MockNoteData*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::MockNoteData*>) == 0x8);
     // private MockObstacleData[] <obstacles>k__BackingField
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<GlobalNamespace::MockObstacleData*> obstacles;
+    ::ArrayW<GlobalNamespace::MockObstacleData*> obstacles;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MockObstacleData*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::MockObstacleData*>) == 0x8);
+    public:
     // Get instance field reference: private System.Int32 <numberOfLines>k__BackingField
     int& dyn_$numberOfLines$k__BackingField();
     // Get instance field reference: private System.Single <songEndTime>k__BackingField
     float& dyn_$songEndTime$k__BackingField();
     // Get instance field reference: private MockNoteData[] <leftNotes>k__BackingField
-    ::ArrayWrapper<GlobalNamespace::MockNoteData*>& dyn_$leftNotes$k__BackingField();
+    ::ArrayW<GlobalNamespace::MockNoteData*>& dyn_$leftNotes$k__BackingField();
     // Get instance field reference: private MockNoteData[] <rightNotes>k__BackingField
-    ::ArrayWrapper<GlobalNamespace::MockNoteData*>& dyn_$rightNotes$k__BackingField();
+    ::ArrayW<GlobalNamespace::MockNoteData*>& dyn_$rightNotes$k__BackingField();
     // Get instance field reference: private MockNoteData[] <bombNotes>k__BackingField
-    ::ArrayWrapper<GlobalNamespace::MockNoteData*>& dyn_$bombNotes$k__BackingField();
+    ::ArrayW<GlobalNamespace::MockNoteData*>& dyn_$bombNotes$k__BackingField();
     // Get instance field reference: private MockObstacleData[] <obstacles>k__BackingField
-    ::ArrayWrapper<GlobalNamespace::MockObstacleData*>& dyn_$obstacles$k__BackingField();
+    ::ArrayW<GlobalNamespace::MockObstacleData*>& dyn_$obstacles$k__BackingField();
     // public System.Int32 get_numberOfLines()
     // Offset: 0x25E1CB8
     int get_numberOfLines();
@@ -89,28 +96,28 @@ namespace GlobalNamespace {
     void set_songEndTime(float value);
     // public MockNoteData[] get_leftNotes()
     // Offset: 0x25E1CD8
-    ::ArrayWrapper<GlobalNamespace::MockNoteData*> get_leftNotes();
+    ::ArrayW<GlobalNamespace::MockNoteData*> get_leftNotes();
     // public System.Void set_leftNotes(MockNoteData[] value)
     // Offset: 0x25E1CE0
-    void set_leftNotes(::ArrayWrapper<GlobalNamespace::MockNoteData*> value);
+    void set_leftNotes(::ArrayW<GlobalNamespace::MockNoteData*> value);
     // public MockNoteData[] get_rightNotes()
     // Offset: 0x25E1CE8
-    ::ArrayWrapper<GlobalNamespace::MockNoteData*> get_rightNotes();
+    ::ArrayW<GlobalNamespace::MockNoteData*> get_rightNotes();
     // public System.Void set_rightNotes(MockNoteData[] value)
     // Offset: 0x25E1CF0
-    void set_rightNotes(::ArrayWrapper<GlobalNamespace::MockNoteData*> value);
+    void set_rightNotes(::ArrayW<GlobalNamespace::MockNoteData*> value);
     // public MockNoteData[] get_bombNotes()
     // Offset: 0x25E1CF8
-    ::ArrayWrapper<GlobalNamespace::MockNoteData*> get_bombNotes();
+    ::ArrayW<GlobalNamespace::MockNoteData*> get_bombNotes();
     // public System.Void set_bombNotes(MockNoteData[] value)
     // Offset: 0x25E1D00
-    void set_bombNotes(::ArrayWrapper<GlobalNamespace::MockNoteData*> value);
+    void set_bombNotes(::ArrayW<GlobalNamespace::MockNoteData*> value);
     // public MockObstacleData[] get_obstacles()
     // Offset: 0x25E1D08
-    ::ArrayWrapper<GlobalNamespace::MockObstacleData*> get_obstacles();
+    ::ArrayW<GlobalNamespace::MockObstacleData*> get_obstacles();
     // public System.Void set_obstacles(MockObstacleData[] value)
     // Offset: 0x25E1D10
-    void set_obstacles(::ArrayWrapper<GlobalNamespace::MockObstacleData*> value);
+    void set_obstacles(::ArrayW<GlobalNamespace::MockObstacleData*> value);
     // public System.Void .ctor()
     // Offset: 0x25E1D18
     // Implemented from: System.Object
@@ -122,7 +129,7 @@ namespace GlobalNamespace {
     }
   }; // MockBeatmapData
   #pragma pack(pop)
-  static check_size<sizeof(MockBeatmapData), 48 + sizeof(::ArrayWrapper<GlobalNamespace::MockObstacleData*>)> __GlobalNamespace_MockBeatmapDataSizeCheck;
+  static check_size<sizeof(MockBeatmapData), 48 + sizeof(::ArrayW<GlobalNamespace::MockObstacleData*>)> __GlobalNamespace_MockBeatmapDataSizeCheck;
   static_assert(sizeof(MockBeatmapData) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MockBeatmapData*, "", "MockBeatmapData");
@@ -164,7 +171,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::MockBeatmapData::get_leftNotes
 // Il2CppName: get_leftNotes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::MockNoteData*> (GlobalNamespace::MockBeatmapData::*)()>(&GlobalNamespace::MockBeatmapData::get_leftNotes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<GlobalNamespace::MockNoteData*> (GlobalNamespace::MockBeatmapData::*)()>(&GlobalNamespace::MockBeatmapData::get_leftNotes)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockBeatmapData*), "get_leftNotes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -172,7 +179,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: GlobalNamespace::MockBeatmapData::set_leftNotes
 // Il2CppName: set_leftNotes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockBeatmapData::*)(::ArrayWrapper<GlobalNamespace::MockNoteData*>)>(&GlobalNamespace::MockBeatmapData::set_leftNotes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockBeatmapData::*)(::ArrayW<GlobalNamespace::MockNoteData*>)>(&GlobalNamespace::MockBeatmapData::set_leftNotes)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "MockNoteData"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockBeatmapData*), "set_leftNotes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -181,7 +188,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::MockBeatmapData::get_rightNotes
 // Il2CppName: get_rightNotes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::MockNoteData*> (GlobalNamespace::MockBeatmapData::*)()>(&GlobalNamespace::MockBeatmapData::get_rightNotes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<GlobalNamespace::MockNoteData*> (GlobalNamespace::MockBeatmapData::*)()>(&GlobalNamespace::MockBeatmapData::get_rightNotes)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockBeatmapData*), "get_rightNotes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -189,7 +196,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: GlobalNamespace::MockBeatmapData::set_rightNotes
 // Il2CppName: set_rightNotes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockBeatmapData::*)(::ArrayWrapper<GlobalNamespace::MockNoteData*>)>(&GlobalNamespace::MockBeatmapData::set_rightNotes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockBeatmapData::*)(::ArrayW<GlobalNamespace::MockNoteData*>)>(&GlobalNamespace::MockBeatmapData::set_rightNotes)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "MockNoteData"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockBeatmapData*), "set_rightNotes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -198,7 +205,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::MockBeatmapData::get_bombNotes
 // Il2CppName: get_bombNotes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::MockNoteData*> (GlobalNamespace::MockBeatmapData::*)()>(&GlobalNamespace::MockBeatmapData::get_bombNotes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<GlobalNamespace::MockNoteData*> (GlobalNamespace::MockBeatmapData::*)()>(&GlobalNamespace::MockBeatmapData::get_bombNotes)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockBeatmapData*), "get_bombNotes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -206,7 +213,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: GlobalNamespace::MockBeatmapData::set_bombNotes
 // Il2CppName: set_bombNotes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockBeatmapData::*)(::ArrayWrapper<GlobalNamespace::MockNoteData*>)>(&GlobalNamespace::MockBeatmapData::set_bombNotes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockBeatmapData::*)(::ArrayW<GlobalNamespace::MockNoteData*>)>(&GlobalNamespace::MockBeatmapData::set_bombNotes)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "MockNoteData"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockBeatmapData*), "set_bombNotes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -215,7 +222,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::MockBeatmapData::get_obstacles
 // Il2CppName: get_obstacles
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::MockObstacleData*> (GlobalNamespace::MockBeatmapData::*)()>(&GlobalNamespace::MockBeatmapData::get_obstacles)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<GlobalNamespace::MockObstacleData*> (GlobalNamespace::MockBeatmapData::*)()>(&GlobalNamespace::MockBeatmapData::get_obstacles)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockBeatmapData*), "get_obstacles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -223,7 +230,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: GlobalNamespace::MockBeatmapData::set_obstacles
 // Il2CppName: set_obstacles
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockBeatmapData::*)(::ArrayWrapper<GlobalNamespace::MockObstacleData*>)>(&GlobalNamespace::MockBeatmapData::set_obstacles)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MockBeatmapData::*)(::ArrayW<GlobalNamespace::MockObstacleData*>)>(&GlobalNamespace::MockBeatmapData::set_obstacles)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "MockObstacleData"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MockBeatmapData*), "set_obstacles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

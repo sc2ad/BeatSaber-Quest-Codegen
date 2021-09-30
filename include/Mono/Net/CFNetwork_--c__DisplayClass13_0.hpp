@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Mono::Net
@@ -35,20 +36,26 @@ namespace Mono::Net {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class CFNetwork::$$c__DisplayClass13_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public Mono.Net.CFProxy[] proxies
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<Mono::Net::CFProxy*> proxies;
+    ::ArrayW<Mono::Net::CFProxy*> proxies;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<Mono::Net::CFProxy*>) == 0x8);
+    static_assert(sizeof(::ArrayW<Mono::Net::CFProxy*>) == 0x8);
     // public Mono.Net.CFRunLoop runLoop
     // Size: 0x8
     // Offset: 0x18
     Mono::Net::CFRunLoop* runLoop;
     // Field size check
     static_assert(sizeof(Mono::Net::CFRunLoop*) == 0x8);
+    public:
     // Get instance field reference: public Mono.Net.CFProxy[] proxies
-    ::ArrayWrapper<Mono::Net::CFProxy*>& dyn_proxies();
+    ::ArrayW<Mono::Net::CFProxy*>& dyn_proxies();
     // Get instance field reference: public Mono.Net.CFRunLoop runLoop
     Mono::Net::CFRunLoop*& dyn_runLoop();
     // System.Void <ExecuteProxyAutoConfigurationURL>b__0(System.IntPtr client, System.IntPtr proxyList, System.IntPtr error)

@@ -36,6 +36,11 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class CoroutineTestWorkItem::$PerformWork$d__6 : public ::Il2CppObject/*, public System::Collections::Generic::IEnumerable_1<::Il2CppObject*>, public System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -76,6 +81,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     UnityEngine::TestTools::Utils::CoroutineRunner* $coroutineRunner$5__3;
     // Field size check
     static_assert(sizeof(UnityEngine::TestTools::Utils::CoroutineRunner*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerable_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<::Il2CppObject*>*>(this);

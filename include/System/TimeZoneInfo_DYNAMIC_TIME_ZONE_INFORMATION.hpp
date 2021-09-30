@@ -21,6 +21,11 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   struct TimeZoneInfo::DYNAMIC_TIME_ZONE_INFORMATION/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.TimeZoneInfo/System.TIME_ZONE_INFORMATION TZI
     // Size: 0x44
     // Offset: 0x0
@@ -41,6 +46,7 @@ namespace System {
     uint8_t DynamicDaylightTimeDisabled;
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
+    public:
     // Creating value type constructor for type: DYNAMIC_TIME_ZONE_INFORMATION
     constexpr DYNAMIC_TIME_ZONE_INFORMATION(System::TimeZoneInfo::TIME_ZONE_INFORMATION TZI_ = {}, ::Il2CppString* TimeZoneKeyName_ = {}, uint8_t DynamicDaylightTimeDisabled_ = {}) noexcept : TZI{TZI_}, TimeZoneKeyName{TimeZoneKeyName_}, DynamicDaylightTimeDisabled{DynamicDaylightTimeDisabled_} {}
     // Creating interface conversion operator: operator System::ValueType

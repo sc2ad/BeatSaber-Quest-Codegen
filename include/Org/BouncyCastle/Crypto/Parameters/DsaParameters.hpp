@@ -32,6 +32,11 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   // [TokenAttribute] Offset: FFFFFFFF
   class DsaParameters : public ::Il2CppObject/*, public Org::BouncyCastle::Crypto::ICipherParameters*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Org.BouncyCastle.Math.BigInteger p
     // Size: 0x8
     // Offset: 0x10
@@ -56,6 +61,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters* validation;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Crypto::Parameters::DsaValidationParameters*) == 0x8);
+    public:
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::ICipherParameters
     operator Org::BouncyCastle::Crypto::ICipherParameters() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::ICipherParameters*>(this);

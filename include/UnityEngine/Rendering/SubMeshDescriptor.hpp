@@ -21,6 +21,11 @@ namespace UnityEngine::Rendering {
   // [TokenAttribute] Offset: FFFFFFFF
   struct SubMeshDescriptor/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [DebuggerBrowsableAttribute] Offset: 0xE76E54
     // private UnityEngine.Bounds <bounds>k__BackingField
     // Size: 0x18
@@ -70,6 +75,7 @@ namespace UnityEngine::Rendering {
     int vertexCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: SubMeshDescriptor
     constexpr SubMeshDescriptor(UnityEngine::Bounds bounds_ = {}, UnityEngine::MeshTopology topology_ = {}, int indexStart_ = {}, int indexCount_ = {}, int baseVertex_ = {}, int firstVertex_ = {}, int vertexCount_ = {}) noexcept : bounds{bounds_}, topology{topology_}, indexStart{indexStart_}, indexCount{indexCount_}, baseVertex{baseVertex_}, firstVertex{firstVertex_}, vertexCount{vertexCount_} {}
     // Creating interface conversion operator: operator System::ValueType

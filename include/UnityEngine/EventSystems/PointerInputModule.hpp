@@ -50,6 +50,11 @@ namespace UnityEngine::EventSystems {
     class MouseState;
     // Nested type: UnityEngine::EventSystems::PointerInputModule::MouseButtonEventData
     class MouseButtonEventData;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // protected System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.EventSystems.PointerEventData> m_PointerData
     // Size: 0x8
     // Offset: 0x48
@@ -62,6 +67,7 @@ namespace UnityEngine::EventSystems {
     UnityEngine::EventSystems::PointerInputModule::MouseState* m_MouseState;
     // Field size check
     static_assert(sizeof(UnityEngine::EventSystems::PointerInputModule::MouseState*) == 0x8);
+    public:
     // static field const value: static public System.Int32 kMouseLeftId
     static constexpr const int kMouseLeftId = -1;
     // Get static field: static public System.Int32 kMouseLeftId

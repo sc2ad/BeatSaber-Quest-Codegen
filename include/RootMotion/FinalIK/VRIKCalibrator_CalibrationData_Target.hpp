@@ -31,6 +31,11 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class VRIKCalibrator::CalibrationData::Target : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Boolean used
     // Size: 0x1
     // Offset: 0x10
@@ -51,6 +56,7 @@ namespace RootMotion::FinalIK {
     UnityEngine::Quaternion localRotation;
     // Field size check
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
+    public:
     // Get instance field reference: public System.Boolean used
     bool& dyn_used();
     // Get instance field reference: public UnityEngine.Vector3 localPosition

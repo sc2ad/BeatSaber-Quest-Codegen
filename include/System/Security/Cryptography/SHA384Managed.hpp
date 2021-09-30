@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: System.Security.Cryptography
 namespace System::Security::Cryptography {
@@ -23,12 +24,17 @@ namespace System::Security::Cryptography {
     public:
     // Writing base type padding for base size: 0x25 to desired offset: 0x28
     char ___base_padding[0x3] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Byte[] _buffer
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<uint8_t> buffer;
+    ::ArrayW<uint8_t> buffer;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.UInt64 _count
     // Size: 0x8
     // Offset: 0x30
@@ -38,27 +44,28 @@ namespace System::Security::Cryptography {
     // private System.UInt64[] _stateSHA384
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayWrapper<uint64_t> stateSHA384;
+    ::ArrayW<uint64_t> stateSHA384;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint64_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint64_t>) == 0x8);
     // private System.UInt64[] _W
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayWrapper<uint64_t> W;
+    ::ArrayW<uint64_t> W;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint64_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint64_t>) == 0x8);
+    public:
     // Get static field: static private readonly System.UInt64[] _K
-    static ::ArrayWrapper<uint64_t> _get__K();
+    static ::ArrayW<uint64_t> _get__K();
     // Set static field: static private readonly System.UInt64[] _K
-    static void _set__K(::ArrayWrapper<uint64_t> value);
+    static void _set__K(::ArrayW<uint64_t> value);
     // Get instance field reference: private System.Byte[] _buffer
-    ::ArrayWrapper<uint8_t>& dyn__buffer();
+    ::ArrayW<uint8_t>& dyn__buffer();
     // Get instance field reference: private System.UInt64 _count
     uint64_t& dyn__count();
     // Get instance field reference: private System.UInt64[] _stateSHA384
-    ::ArrayWrapper<uint64_t>& dyn__stateSHA384();
+    ::ArrayW<uint64_t>& dyn__stateSHA384();
     // Get instance field reference: private System.UInt64[] _W
-    ::ArrayWrapper<uint64_t>& dyn__W();
+    ::ArrayW<uint64_t>& dyn__W();
     // static private System.Void .cctor()
     // Offset: 0x1CCBA3C
     static void _cctor();
@@ -67,10 +74,10 @@ namespace System::Security::Cryptography {
     void InitializeState();
     // private System.Void _HashData(System.Byte[] partIn, System.Int32 ibStart, System.Int32 cbSize)
     // Offset: 0x1CCABB4
-    void _HashData(::ArrayWrapper<uint8_t> partIn, int ibStart, int cbSize);
+    void _HashData(::ArrayW<uint8_t> partIn, int ibStart, int cbSize);
     // private System.Byte[] _EndHash()
     // Offset: 0x1CCADD0
-    ::ArrayWrapper<uint8_t> _EndHash();
+    ::ArrayW<uint8_t> _EndHash();
     // static private System.Void SHATransform(System.UInt64* expandedBuffer, System.UInt64* state, System.Byte* block)
     // Offset: 0x1CCAF8C
     static void SHATransform(uint64_t* expandedBuffer, uint64_t* state, uint8_t* block);
@@ -118,15 +125,15 @@ namespace System::Security::Cryptography {
     // Offset: 0x1CCABB0
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Void HashAlgorithm::HashCore(System.Byte[] rgb, System.Int32 ibStart, System.Int32 cbSize)
-    void HashCore(::ArrayWrapper<uint8_t> rgb, int ibStart, int cbSize);
+    void HashCore(::ArrayW<uint8_t> rgb, int ibStart, int cbSize);
     // protected override System.Byte[] HashFinal()
     // Offset: 0x1CCADCC
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Byte[] HashAlgorithm::HashFinal()
-    ::ArrayWrapper<uint8_t> HashFinal();
+    ::ArrayW<uint8_t> HashFinal();
   }; // System.Security.Cryptography.SHA384Managed
   #pragma pack(pop)
-  static check_size<sizeof(SHA384Managed), 64 + sizeof(::ArrayWrapper<uint64_t>)> __System_Security_Cryptography_SHA384ManagedSizeCheck;
+  static check_size<sizeof(SHA384Managed), 64 + sizeof(::ArrayW<uint64_t>)> __System_Security_Cryptography_SHA384ManagedSizeCheck;
   static_assert(sizeof(SHA384Managed) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::SHA384Managed*, "System.Security.Cryptography", "SHA384Managed");
@@ -150,7 +157,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::SHA384Managed::_HashData
 // Il2CppName: _HashData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::SHA384Managed::*)(::ArrayWrapper<uint8_t>, int, int)>(&System::Security::Cryptography::SHA384Managed::_HashData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::SHA384Managed::*)(::ArrayW<uint8_t>, int, int)>(&System::Security::Cryptography::SHA384Managed::_HashData)> {
   static const MethodInfo* get() {
     static auto* partIn = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* ibStart = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -161,7 +168,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::SHA384Managed::_EndHash
 // Il2CppName: _EndHash
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (System::Security::Cryptography::SHA384Managed::*)()>(&System::Security::Cryptography::SHA384Managed::_EndHash)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (System::Security::Cryptography::SHA384Managed::*)()>(&System::Security::Cryptography::SHA384Managed::_EndHash)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SHA384Managed*), "_EndHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -269,7 +276,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::SHA384Managed::HashCore
 // Il2CppName: HashCore
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::SHA384Managed::*)(::ArrayWrapper<uint8_t>, int, int)>(&System::Security::Cryptography::SHA384Managed::HashCore)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::SHA384Managed::*)(::ArrayW<uint8_t>, int, int)>(&System::Security::Cryptography::SHA384Managed::HashCore)> {
   static const MethodInfo* get() {
     static auto* rgb = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* ibStart = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -280,7 +287,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::SHA384Managed::HashFinal
 // Il2CppName: HashFinal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (System::Security::Cryptography::SHA384Managed::*)()>(&System::Security::Cryptography::SHA384Managed::HashFinal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (System::Security::Cryptography::SHA384Managed::*)()>(&System::Security::Cryptography::SHA384Managed::HashFinal)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SHA384Managed*), "HashFinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

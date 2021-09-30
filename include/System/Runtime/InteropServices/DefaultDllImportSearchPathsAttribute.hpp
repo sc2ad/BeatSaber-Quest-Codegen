@@ -24,12 +24,18 @@ namespace System::Runtime::InteropServices {
   // [ComVisibleAttribute] Offset: E60B30
   class DefaultDllImportSearchPathsAttribute : public System::Attribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Runtime.InteropServices.DllImportSearchPath _paths
     // Size: 0x4
     // Offset: 0x10
     System::Runtime::InteropServices::DllImportSearchPath paths;
     // Field size check
     static_assert(sizeof(System::Runtime::InteropServices::DllImportSearchPath) == 0x4);
+    public:
     // Creating conversion operator: operator System::Runtime::InteropServices::DllImportSearchPath
     constexpr operator System::Runtime::InteropServices::DllImportSearchPath() const noexcept {
       return paths;

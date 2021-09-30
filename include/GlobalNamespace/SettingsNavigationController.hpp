@@ -47,12 +47,18 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct FinishAction/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: FinishAction
       constexpr FinishAction(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -87,6 +93,11 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(SettingsNavigationController::FinishAction), 0 + sizeof(int)> __GlobalNamespace_SettingsNavigationController_FinishActionSizeCheck;
     static_assert(sizeof(SettingsNavigationController::FinishAction) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.UI.Button _okButton
     // Size: 0x8
     // Offset: 0x98
@@ -111,6 +122,7 @@ namespace GlobalNamespace {
     System::Action_1<GlobalNamespace::SettingsNavigationController::FinishAction>* didFinishEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::SettingsNavigationController::FinishAction>*) == 0x8);
+    public:
     // Get instance field reference: private UnityEngine.UI.Button _okButton
     UnityEngine::UI::Button*& dyn__okButton();
     // Get instance field reference: private UnityEngine.UI.Button _applyButton

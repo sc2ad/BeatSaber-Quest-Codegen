@@ -20,6 +20,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LeaderboardTableView::ScoreData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 <score>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -46,6 +51,7 @@ namespace GlobalNamespace {
     bool fullCombo;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private System.Int32 <score>k__BackingField
     int& dyn_$score$k__BackingField();
     // Get instance field reference: private System.String <playerName>k__BackingField

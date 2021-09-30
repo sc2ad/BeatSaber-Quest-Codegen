@@ -31,6 +31,11 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_Shelf : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.String _shelfName
     // Size: 0x8
     // Offset: 0x10
@@ -57,6 +62,7 @@ namespace HoudiniEngineUnity {
     System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_ShelfToolData*>* tools;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_ShelfToolData*>*) == 0x8);
+    public:
     // Get instance field reference: public System.String _shelfName
     ::Il2CppString*& dyn__shelfName();
     // Get instance field reference: public System.String _shelfPath

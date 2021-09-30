@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework::Interfaces
@@ -37,6 +38,11 @@ namespace NUnit::Framework::Internal {
   // [TokenAttribute] Offset: FFFFFFFF
   class ParameterWrapper : public ::Il2CppObject/*, public NUnit::Framework::Interfaces::IParameterInfo*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [DebuggerBrowsableAttribute] Offset: 0xEEED00
     // private NUnit.Framework.Interfaces.IMethodInfo <Method>k__BackingField
     // Size: 0x8
@@ -51,6 +57,7 @@ namespace NUnit::Framework::Internal {
     System::Reflection::ParameterInfo* ParameterInfo;
     // Field size check
     static_assert(sizeof(System::Reflection::ParameterInfo*) == 0x8);
+    public:
     // Creating interface conversion operator: operator NUnit::Framework::Interfaces::IParameterInfo
     operator NUnit::Framework::Interfaces::IParameterInfo() noexcept {
       return *reinterpret_cast<NUnit::Framework::Interfaces::IParameterInfo*>(this);
@@ -84,12 +91,12 @@ namespace NUnit::Framework::Internal {
     // public T[] GetCustomAttributes(System.Boolean inherit)
     // Offset: 0xFFFFFFFF
     template<class T>
-    ::ArrayWrapper<T> GetCustomAttributes(bool inherit) {
+    ::ArrayW<T> GetCustomAttributes(bool inherit) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::ParameterWrapper::GetCustomAttributes");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetCustomAttributes", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(inherit)})));
       auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<::ArrayWrapper<T>, false>(___instance_arg, ___generic__method, inherit);
+      return ::il2cpp_utils::RunMethodThrow<::ArrayW<T>, false>(___instance_arg, ___generic__method, inherit);
     }
     // public System.Boolean IsDefined(System.Boolean inherit)
     // Offset: 0xFFFFFFFF

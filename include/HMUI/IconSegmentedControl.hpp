@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HMUI
@@ -42,6 +43,11 @@ namespace HMUI {
     public:
     // Nested type: HMUI::IconSegmentedControl::DataItem
     class DataItem;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Single _iconSize
     // Size: 0x4
     // Offset: 0x58
@@ -106,15 +112,16 @@ namespace HMUI {
     // private HMUI.IconSegmentedControl/HMUI.DataItem[] _dataItems
     // Size: 0x8
     // Offset: 0x90
-    ::ArrayWrapper<HMUI::IconSegmentedControl::DataItem*> dataItems;
+    ::ArrayW<HMUI::IconSegmentedControl::DataItem*> dataItems;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<HMUI::IconSegmentedControl::DataItem*>) == 0x8);
+    static_assert(sizeof(::ArrayW<HMUI::IconSegmentedControl::DataItem*>) == 0x8);
     // private System.Boolean _isInitialized
     // Size: 0x1
     // Offset: 0x98
     bool isInitialized;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator HMUI::SegmentedControl::IDataSource
     operator HMUI::SegmentedControl::IDataSource() noexcept {
       return *reinterpret_cast<HMUI::SegmentedControl::IDataSource*>(this);
@@ -138,7 +145,7 @@ namespace HMUI {
     // Get instance field reference: private readonly Zenject.DiContainer _container
     Zenject::DiContainer*& dyn__container();
     // Get instance field reference: private HMUI.IconSegmentedControl/HMUI.DataItem[] _dataItems
-    ::ArrayWrapper<HMUI::IconSegmentedControl::DataItem*>& dyn__dataItems();
+    ::ArrayW<HMUI::IconSegmentedControl::DataItem*>& dyn__dataItems();
     // Get instance field reference: private System.Boolean _isInitialized
     bool& dyn__isInitialized();
     // protected System.Void Init()
@@ -146,7 +153,7 @@ namespace HMUI {
     void Init();
     // public System.Void SetData(HMUI.IconSegmentedControl/HMUI.DataItem[] dataItems)
     // Offset: 0x148F988
-    void SetData(::ArrayWrapper<HMUI::IconSegmentedControl::DataItem*> dataItems);
+    void SetData(::ArrayW<HMUI::IconSegmentedControl::DataItem*> dataItems);
     // public System.Int32 NumberOfCells()
     // Offset: 0x148F9D4
     int NumberOfCells();
@@ -188,7 +195,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Writing MetadataGetter for method: HMUI::IconSegmentedControl::SetData
 // Il2CppName: SetData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::IconSegmentedControl::*)(::ArrayWrapper<HMUI::IconSegmentedControl::DataItem*>)>(&HMUI::IconSegmentedControl::SetData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::IconSegmentedControl::*)(::ArrayW<HMUI::IconSegmentedControl::DataItem*>)>(&HMUI::IconSegmentedControl::SetData)> {
   static const MethodInfo* get() {
     static auto* dataItems = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("HMUI", "IconSegmentedControl/DataItem"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::IconSegmentedControl*), "SetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dataItems});

@@ -34,12 +34,18 @@ namespace Mono::Http {
   // [TokenAttribute] Offset: FFFFFFFF
   class NtlmSession : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Mono.Security.Protocol.Ntlm.MessageBase message
     // Size: 0x8
     // Offset: 0x10
     Mono::Security::Protocol::Ntlm::MessageBase* message;
     // Field size check
     static_assert(sizeof(Mono::Security::Protocol::Ntlm::MessageBase*) == 0x8);
+    public:
     // Creating conversion operator: operator Mono::Security::Protocol::Ntlm::MessageBase*
     constexpr operator Mono::Security::Protocol::Ntlm::MessageBase*() const noexcept {
       return message;

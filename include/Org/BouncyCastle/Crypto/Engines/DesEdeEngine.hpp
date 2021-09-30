@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Crypto
@@ -27,38 +28,44 @@ namespace Org::BouncyCastle::Crypto::Engines {
   // [TokenAttribute] Offset: FFFFFFFF
   class DesEdeEngine : public Org::BouncyCastle::Crypto::Engines::DesEngine {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32[] workingKey1
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<int> workingKey1;
+    ::ArrayW<int> workingKey1;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // private System.Int32[] workingKey2
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<int> workingKey2;
+    ::ArrayW<int> workingKey2;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // private System.Int32[] workingKey3
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<int> workingKey3;
+    ::ArrayW<int> workingKey3;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // private System.Boolean forEncryption
     // Size: 0x1
     // Offset: 0x30
     bool forEncryption;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Deleting conversion operator: operator ::ArrayWrapper<int>
-    constexpr operator ::ArrayWrapper<int>() const noexcept = delete;
+    public:
+    // Deleting conversion operator: operator ::ArrayW<int>
+    constexpr operator ::ArrayW<int>() const noexcept = delete;
     // Get instance field reference: private System.Int32[] workingKey1
-    ::ArrayWrapper<int>& dyn_workingKey1();
+    ::ArrayW<int>& dyn_workingKey1();
     // Get instance field reference: private System.Int32[] workingKey2
-    ::ArrayWrapper<int>& dyn_workingKey2();
+    ::ArrayW<int>& dyn_workingKey2();
     // Get instance field reference: private System.Int32[] workingKey3
-    ::ArrayWrapper<int>& dyn_workingKey3();
+    ::ArrayW<int>& dyn_workingKey3();
     // Get instance field reference: private System.Boolean forEncryption
     bool& dyn_forEncryption();
     // public override System.String get_AlgorithmName()
@@ -90,7 +97,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Offset: 0x1FCD3EC
     // Implemented from: Org.BouncyCastle.Crypto.Engines.DesEngine
     // Base method: System.Int32 DesEngine::ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
-    int ProcessBlock(::ArrayWrapper<uint8_t> input, int inOff, ::ArrayWrapper<uint8_t> output, int outOff);
+    int ProcessBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> output, int outOff);
     // public override System.Void Reset()
     // Offset: 0x1FCDA18
     // Implemented from: Org.BouncyCastle.Crypto.Engines.DesEngine
@@ -136,7 +143,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::DesEdeEngine::ProcessBlock
 // Il2CppName: ProcessBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Engines::DesEdeEngine::*)(::ArrayWrapper<uint8_t>, int, ::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Engines::DesEdeEngine::ProcessBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Engines::DesEdeEngine::*)(::ArrayW<uint8_t>, int, ::ArrayW<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Engines::DesEdeEngine::ProcessBlock)> {
   static const MethodInfo* get() {
     static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* inOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

@@ -28,6 +28,11 @@ namespace UnityEngine::Timeline {
   // [AttributeUsageAttribute] Offset: EB95C4
   class TrackClipTypeAttribute : public System::Attribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly System.Type inspectedType
     // Size: 0x8
     // Offset: 0x10
@@ -40,6 +45,7 @@ namespace UnityEngine::Timeline {
     bool allowAutoCreate;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: public readonly System.Type inspectedType
     System::Type*& dyn_inspectedType();
     // Get instance field reference: public readonly System.Boolean allowAutoCreate

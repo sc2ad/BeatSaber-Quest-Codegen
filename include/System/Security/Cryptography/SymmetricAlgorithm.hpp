@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Security::Cryptography
@@ -34,6 +35,11 @@ namespace System::Security::Cryptography {
   // [ComVisibleAttribute] Offset: E5F510
   class SymmetricAlgorithm : public ::Il2CppObject/*, public System::IDisposable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // protected System.Int32 BlockSizeValue
     // Size: 0x4
     // Offset: 0x10
@@ -49,27 +55,27 @@ namespace System::Security::Cryptography {
     // protected System.Byte[] IVValue
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<uint8_t> IVValue;
+    ::ArrayW<uint8_t> IVValue;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // protected System.Byte[] KeyValue
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<uint8_t> KeyValue;
+    ::ArrayW<uint8_t> KeyValue;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // protected System.Security.Cryptography.KeySizes[] LegalBlockSizesValue
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<System::Security::Cryptography::KeySizes*> LegalBlockSizesValue;
+    ::ArrayW<System::Security::Cryptography::KeySizes*> LegalBlockSizesValue;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<System::Security::Cryptography::KeySizes*>) == 0x8);
+    static_assert(sizeof(::ArrayW<System::Security::Cryptography::KeySizes*>) == 0x8);
     // protected System.Security.Cryptography.KeySizes[] LegalKeySizesValue
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<System::Security::Cryptography::KeySizes*> LegalKeySizesValue;
+    ::ArrayW<System::Security::Cryptography::KeySizes*> LegalKeySizesValue;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<System::Security::Cryptography::KeySizes*>) == 0x8);
+    static_assert(sizeof(::ArrayW<System::Security::Cryptography::KeySizes*>) == 0x8);
     // protected System.Int32 KeySizeValue
     // Size: 0x4
     // Offset: 0x38
@@ -88,6 +94,7 @@ namespace System::Security::Cryptography {
     System::Security::Cryptography::PaddingMode PaddingValue;
     // Field size check
     static_assert(sizeof(System::Security::Cryptography::PaddingMode) == 0x4);
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
@@ -97,13 +104,13 @@ namespace System::Security::Cryptography {
     // Get instance field reference: protected System.Int32 FeedbackSizeValue
     int& dyn_FeedbackSizeValue();
     // Get instance field reference: protected System.Byte[] IVValue
-    ::ArrayWrapper<uint8_t>& dyn_IVValue();
+    ::ArrayW<uint8_t>& dyn_IVValue();
     // Get instance field reference: protected System.Byte[] KeyValue
-    ::ArrayWrapper<uint8_t>& dyn_KeyValue();
+    ::ArrayW<uint8_t>& dyn_KeyValue();
     // Get instance field reference: protected System.Security.Cryptography.KeySizes[] LegalBlockSizesValue
-    ::ArrayWrapper<System::Security::Cryptography::KeySizes*>& dyn_LegalBlockSizesValue();
+    ::ArrayW<System::Security::Cryptography::KeySizes*>& dyn_LegalBlockSizesValue();
     // Get instance field reference: protected System.Security.Cryptography.KeySizes[] LegalKeySizesValue
-    ::ArrayWrapper<System::Security::Cryptography::KeySizes*>& dyn_LegalKeySizesValue();
+    ::ArrayW<System::Security::Cryptography::KeySizes*>& dyn_LegalKeySizesValue();
     // Get instance field reference: protected System.Int32 KeySizeValue
     int& dyn_KeySizeValue();
     // Get instance field reference: protected System.Security.Cryptography.CipherMode ModeValue
@@ -121,19 +128,19 @@ namespace System::Security::Cryptography {
     int get_FeedbackSize();
     // public System.Byte[] get_IV()
     // Offset: 0x1CCCD20
-    ::ArrayWrapper<uint8_t> get_IV();
+    ::ArrayW<uint8_t> get_IV();
     // public System.Void set_IV(System.Byte[] value)
     // Offset: 0x1CCCDBC
-    void set_IV(::ArrayWrapper<uint8_t> value);
+    void set_IV(::ArrayW<uint8_t> value);
     // public System.Byte[] get_Key()
     // Offset: 0x1CCCEF4
-    ::ArrayWrapper<uint8_t> get_Key();
+    ::ArrayW<uint8_t> get_Key();
     // public System.Void set_Key(System.Byte[] value)
     // Offset: 0x1CCCF90
-    void set_Key(::ArrayWrapper<uint8_t> value);
+    void set_Key(::ArrayW<uint8_t> value);
     // public System.Security.Cryptography.KeySizes[] get_LegalKeySizes()
     // Offset: 0x1CCD17C
-    ::ArrayWrapper<System::Security::Cryptography::KeySizes*> get_LegalKeySizes();
+    ::ArrayW<System::Security::Cryptography::KeySizes*> get_LegalKeySizes();
     // public System.Int32 get_KeySize()
     // Offset: 0x1CCD1FC
     int get_KeySize();
@@ -172,13 +179,13 @@ namespace System::Security::Cryptography {
     System::Security::Cryptography::ICryptoTransform* CreateEncryptor();
     // public System.Security.Cryptography.ICryptoTransform CreateEncryptor(System.Byte[] rgbKey, System.Byte[] rgbIV)
     // Offset: 0xFFFFFFFF
-    System::Security::Cryptography::ICryptoTransform* CreateEncryptor(::ArrayWrapper<uint8_t> rgbKey, ::ArrayWrapper<uint8_t> rgbIV);
+    System::Security::Cryptography::ICryptoTransform* CreateEncryptor(::ArrayW<uint8_t> rgbKey, ::ArrayW<uint8_t> rgbIV);
     // public System.Security.Cryptography.ICryptoTransform CreateDecryptor()
     // Offset: 0x1CCD4FC
     System::Security::Cryptography::ICryptoTransform* CreateDecryptor();
     // public System.Security.Cryptography.ICryptoTransform CreateDecryptor(System.Byte[] rgbKey, System.Byte[] rgbIV)
     // Offset: 0xFFFFFFFF
-    System::Security::Cryptography::ICryptoTransform* CreateDecryptor(::ArrayWrapper<uint8_t> rgbKey, ::ArrayWrapper<uint8_t> rgbIV);
+    System::Security::Cryptography::ICryptoTransform* CreateDecryptor(::ArrayW<uint8_t> rgbKey, ::ArrayW<uint8_t> rgbIV);
     // public System.Void GenerateKey()
     // Offset: 0xFFFFFFFF
     void GenerateKey();
@@ -229,7 +236,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Security::Cryptography::SymmetricAlgorithm::get_IV
 // Il2CppName: get_IV
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (System::Security::Cryptography::SymmetricAlgorithm::*)()>(&System::Security::Cryptography::SymmetricAlgorithm::get_IV)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (System::Security::Cryptography::SymmetricAlgorithm::*)()>(&System::Security::Cryptography::SymmetricAlgorithm::get_IV)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SymmetricAlgorithm*), "get_IV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -237,7 +244,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: System::Security::Cryptography::SymmetricAlgorithm::set_IV
 // Il2CppName: set_IV
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::SymmetricAlgorithm::*)(::ArrayWrapper<uint8_t>)>(&System::Security::Cryptography::SymmetricAlgorithm::set_IV)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::SymmetricAlgorithm::*)(::ArrayW<uint8_t>)>(&System::Security::Cryptography::SymmetricAlgorithm::set_IV)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SymmetricAlgorithm*), "set_IV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -246,7 +253,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::SymmetricAlgorithm::get_Key
 // Il2CppName: get_Key
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (System::Security::Cryptography::SymmetricAlgorithm::*)()>(&System::Security::Cryptography::SymmetricAlgorithm::get_Key)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (System::Security::Cryptography::SymmetricAlgorithm::*)()>(&System::Security::Cryptography::SymmetricAlgorithm::get_Key)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SymmetricAlgorithm*), "get_Key", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -254,7 +261,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: System::Security::Cryptography::SymmetricAlgorithm::set_Key
 // Il2CppName: set_Key
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::SymmetricAlgorithm::*)(::ArrayWrapper<uint8_t>)>(&System::Security::Cryptography::SymmetricAlgorithm::set_Key)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::SymmetricAlgorithm::*)(::ArrayW<uint8_t>)>(&System::Security::Cryptography::SymmetricAlgorithm::set_Key)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SymmetricAlgorithm*), "set_Key", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -263,7 +270,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::SymmetricAlgorithm::get_LegalKeySizes
 // Il2CppName: get_LegalKeySizes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::Security::Cryptography::KeySizes*> (System::Security::Cryptography::SymmetricAlgorithm::*)()>(&System::Security::Cryptography::SymmetricAlgorithm::get_LegalKeySizes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Security::Cryptography::KeySizes*> (System::Security::Cryptography::SymmetricAlgorithm::*)()>(&System::Security::Cryptography::SymmetricAlgorithm::get_LegalKeySizes)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SymmetricAlgorithm*), "get_LegalKeySizes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -373,7 +380,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 // Writing MetadataGetter for method: System::Security::Cryptography::SymmetricAlgorithm::CreateEncryptor
 // Il2CppName: CreateEncryptor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::ICryptoTransform* (System::Security::Cryptography::SymmetricAlgorithm::*)(::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>)>(&System::Security::Cryptography::SymmetricAlgorithm::CreateEncryptor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::ICryptoTransform* (System::Security::Cryptography::SymmetricAlgorithm::*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(&System::Security::Cryptography::SymmetricAlgorithm::CreateEncryptor)> {
   static const MethodInfo* get() {
     static auto* rgbKey = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* rgbIV = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -391,7 +398,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 // Writing MetadataGetter for method: System::Security::Cryptography::SymmetricAlgorithm::CreateDecryptor
 // Il2CppName: CreateDecryptor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::ICryptoTransform* (System::Security::Cryptography::SymmetricAlgorithm::*)(::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>)>(&System::Security::Cryptography::SymmetricAlgorithm::CreateDecryptor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::ICryptoTransform* (System::Security::Cryptography::SymmetricAlgorithm::*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(&System::Security::Cryptography::SymmetricAlgorithm::CreateDecryptor)> {
   static const MethodInfo* get() {
     static auto* rgbKey = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* rgbIV = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;

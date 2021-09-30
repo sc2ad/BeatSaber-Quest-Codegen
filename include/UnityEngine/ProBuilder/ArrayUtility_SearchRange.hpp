@@ -19,6 +19,11 @@ namespace UnityEngine::ProBuilder {
   // [TokenAttribute] Offset: FFFFFFFF
   struct ArrayUtility::SearchRange/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 begin
     // Size: 0x4
     // Offset: 0x0
@@ -31,6 +36,7 @@ namespace UnityEngine::ProBuilder {
     int end;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: SearchRange
     constexpr SearchRange(int begin_ = {}, int end_ = {}) noexcept : begin{begin_}, end{end_} {}
     // Creating interface conversion operator: operator System::ValueType

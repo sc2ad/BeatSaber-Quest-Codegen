@@ -31,6 +31,11 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class ServiceNameStore : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.List`1<System.String> serviceNames
     // Size: 0x8
     // Offset: 0x10
@@ -43,6 +48,7 @@ namespace System::Net {
     System::Security::Authentication::ExtendedProtection::ServiceNameCollection* serviceNameCollection;
     // Field size check
     static_assert(sizeof(System::Security::Authentication::ExtendedProtection::ServiceNameCollection*) == 0x8);
+    public:
     // Get instance field reference: private System.Collections.Generic.List`1<System.String> serviceNames
     System::Collections::Generic::List_1<::Il2CppString*>*& dyn_serviceNames();
     // Get instance field reference: private System.Security.Authentication.ExtendedProtection.ServiceNameCollection serviceNameCollection

@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HoudiniEngineUnity
@@ -50,12 +51,18 @@ namespace HoudiniEngineUnity {
     // [TokenAttribute] Offset: FFFFFFFF
     struct Source/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: Source
       constexpr Source(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -96,6 +103,11 @@ namespace HoudiniEngineUnity {
     #pragma pack(pop)
     static check_size<sizeof(HEU_MaterialData::Source), 0 + sizeof(int)> __HoudiniEngineUnity_HEU_MaterialData_SourceSizeCheck;
     static_assert(sizeof(HEU_MaterialData::Source) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Material _material
     // Size: 0x8
     // Offset: 0x18
@@ -114,6 +126,7 @@ namespace HoudiniEngineUnity {
     int materialKey;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_MaterialData*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_MaterialData*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_MaterialData*>*>(this);
@@ -134,16 +147,16 @@ namespace HoudiniEngineUnity {
     void UpdateMaterialFromHoudini(HoudiniEngineUnity::HAPI_MaterialInfo materialInfo, ::Il2CppString* assetCacheFolderPath);
     // public System.Void UseLegacyShaders(HoudiniEngineUnity.HAPI_MaterialInfo materialInfo, System.String assetCacheFolderPath, HoudiniEngineUnity.HEU_SessionBase session, HoudiniEngineUnity.HAPI_NodeInfo nodeInfo, HoudiniEngineUnity.HAPI_ParmInfo[] parmInfos)
     // Offset: 0x152BFB4
-    void UseLegacyShaders(HoudiniEngineUnity::HAPI_MaterialInfo materialInfo, ::Il2CppString* assetCacheFolderPath, HoudiniEngineUnity::HEU_SessionBase* session, HoudiniEngineUnity::HAPI_NodeInfo nodeInfo, ::ArrayWrapper<HoudiniEngineUnity::HAPI_ParmInfo> parmInfos);
+    void UseLegacyShaders(HoudiniEngineUnity::HAPI_MaterialInfo materialInfo, ::Il2CppString* assetCacheFolderPath, HoudiniEngineUnity::HEU_SessionBase* session, HoudiniEngineUnity::HAPI_NodeInfo nodeInfo, ::ArrayW<HoudiniEngineUnity::HAPI_ParmInfo> parmInfos);
     // static public System.String GetTextureFileNameFromMaterialParam(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 nodeID, HoudiniEngineUnity.HAPI_ParmInfo parmInfo)
     // Offset: 0x152C4B4
     static ::Il2CppString* GetTextureFileNameFromMaterialParam(HoudiniEngineUnity::HEU_SessionBase* session, int nodeID, HoudiniEngineUnity::HAPI_ParmInfo parmInfo);
     // static public System.Boolean IsTransparentMaterial(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 nodeID, HoudiniEngineUnity.HAPI_ParmInfo[] parameters)
     // Offset: 0x152BF28
-    static bool IsTransparentMaterial(HoudiniEngineUnity::HEU_SessionBase* session, int nodeID, ::ArrayWrapper<HoudiniEngineUnity::HAPI_ParmInfo> parameters);
+    static bool IsTransparentMaterial(HoudiniEngineUnity::HEU_SessionBase* session, int nodeID, ::ArrayW<HoudiniEngineUnity::HAPI_ParmInfo> parameters);
     // static public System.Boolean GetMaterialAlpha(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 nodeID, HoudiniEngineUnity.HAPI_ParmInfo[] parameters, System.Single defaultValue, out System.Single alpha)
     // Offset: 0x152CB84
-    static bool GetMaterialAlpha(HoudiniEngineUnity::HEU_SessionBase* session, int nodeID, ::ArrayWrapper<HoudiniEngineUnity::HAPI_ParmInfo> parameters, float defaultValue, ByRef<float> alpha);
+    static bool GetMaterialAlpha(HoudiniEngineUnity::HEU_SessionBase* session, int nodeID, ::ArrayW<HoudiniEngineUnity::HAPI_ParmInfo> parameters, float defaultValue, ByRef<float> alpha);
     // static public System.String GetSupportedFileFormat(HoudiniEngineUnity.HEU_SessionBase session, ref HoudiniEngineUnity.HAPI_ImageInfo imageInfo)
     // Offset: 0x152CD3C
     static ::Il2CppString* GetSupportedFileFormat(HoudiniEngineUnity::HEU_SessionBase* session, ByRef<HoudiniEngineUnity::HAPI_ImageInfo> imageInfo);
@@ -190,7 +203,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_MaterialData::UseLegacyShaders
 // Il2CppName: UseLegacyShaders
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_MaterialData::*)(HoudiniEngineUnity::HAPI_MaterialInfo, ::Il2CppString*, HoudiniEngineUnity::HEU_SessionBase*, HoudiniEngineUnity::HAPI_NodeInfo, ::ArrayWrapper<HoudiniEngineUnity::HAPI_ParmInfo>)>(&HoudiniEngineUnity::HEU_MaterialData::UseLegacyShaders)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_MaterialData::*)(HoudiniEngineUnity::HAPI_MaterialInfo, ::Il2CppString*, HoudiniEngineUnity::HEU_SessionBase*, HoudiniEngineUnity::HAPI_NodeInfo, ::ArrayW<HoudiniEngineUnity::HAPI_ParmInfo>)>(&HoudiniEngineUnity::HEU_MaterialData::UseLegacyShaders)> {
   static const MethodInfo* get() {
     static auto* materialInfo = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_MaterialInfo")->byval_arg;
     static auto* assetCacheFolderPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -214,7 +227,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_MaterialData::IsTransparentMaterial
 // Il2CppName: IsTransparentMaterial
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_SessionBase*, int, ::ArrayWrapper<HoudiniEngineUnity::HAPI_ParmInfo>)>(&HoudiniEngineUnity::HEU_MaterialData::IsTransparentMaterial)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_SessionBase*, int, ::ArrayW<HoudiniEngineUnity::HAPI_ParmInfo>)>(&HoudiniEngineUnity::HEU_MaterialData::IsTransparentMaterial)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -225,7 +238,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_MaterialData::GetMaterialAlpha
 // Il2CppName: GetMaterialAlpha
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_SessionBase*, int, ::ArrayWrapper<HoudiniEngineUnity::HAPI_ParmInfo>, float, ByRef<float>)>(&HoudiniEngineUnity::HEU_MaterialData::GetMaterialAlpha)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(HoudiniEngineUnity::HEU_SessionBase*, int, ::ArrayW<HoudiniEngineUnity::HAPI_ParmInfo>, float, ByRef<float>)>(&HoudiniEngineUnity::HEU_MaterialData::GetMaterialAlpha)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

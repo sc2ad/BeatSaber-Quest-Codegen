@@ -29,6 +29,11 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   // [TokenAttribute] Offset: FFFFFFFF
   class MemberPrimitiveTyped : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE primitiveTypeEnum
     // Size: 0x4
     // Offset: 0x10
@@ -43,6 +48,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     ::Il2CppObject* value;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
+    public:
     // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE primitiveTypeEnum
     System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE& dyn_primitiveTypeEnum();
     // Get instance field reference: System.Object value

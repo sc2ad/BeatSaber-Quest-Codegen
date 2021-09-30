@@ -20,6 +20,11 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct VROverlayIntersectionResults_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public Valve.VR.HmdVector3_t vPoint
     // Size: 0xC
     // Offset: 0x0
@@ -44,6 +49,7 @@ namespace Valve::VR {
     float fDistance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: VROverlayIntersectionResults_t
     constexpr VROverlayIntersectionResults_t(Valve::VR::HmdVector3_t vPoint_ = {}, Valve::VR::HmdVector3_t vNormal_ = {}, Valve::VR::HmdVector2_t vUVs_ = {}, float fDistance_ = {}) noexcept : vPoint{vPoint_}, vNormal{vNormal_}, vUVs{vUVs_}, fDistance{fDistance_} {}
     // Creating interface conversion operator: operator System::ValueType

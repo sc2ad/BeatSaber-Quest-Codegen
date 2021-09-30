@@ -20,12 +20,18 @@ namespace System::Runtime::CompilerServices {
   // [ComVisibleAttribute] Offset: E60564
   class DateTimeConstantAttribute : public System::Runtime::CompilerServices::CustomConstantAttribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.DateTime date
     // Size: 0x8
     // Offset: 0x10
     System::DateTime date;
     // Field size check
     static_assert(sizeof(System::DateTime) == 0x8);
+    public:
     // Creating conversion operator: operator System::DateTime
     constexpr operator System::DateTime() const noexcept {
       return date;

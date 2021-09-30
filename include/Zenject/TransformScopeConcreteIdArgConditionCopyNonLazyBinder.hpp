@@ -43,12 +43,18 @@ namespace Zenject {
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
   class TransformScopeConcreteIdArgConditionCopyNonLazyBinder : public Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Zenject.GameObjectCreationParameters <GameObjectInfo>k__BackingField
     // Size: 0x8
     // Offset: 0x20
     Zenject::GameObjectCreationParameters* GameObjectInfo;
     // Field size check
     static_assert(sizeof(Zenject::GameObjectCreationParameters*) == 0x8);
+    public:
     // Get instance field reference: private Zenject.GameObjectCreationParameters <GameObjectInfo>k__BackingField
     Zenject::GameObjectCreationParameters*& dyn_$GameObjectInfo$k__BackingField();
     // protected Zenject.GameObjectCreationParameters get_GameObjectInfo()

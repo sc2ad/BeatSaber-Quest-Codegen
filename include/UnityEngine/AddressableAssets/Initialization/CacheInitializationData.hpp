@@ -18,6 +18,11 @@ namespace UnityEngine::AddressableAssets::Initialization {
   // [TokenAttribute] Offset: FFFFFFFF
   class CacheInitializationData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [FormerlySerializedAsAttribute] Offset: 0xEEC8E0
     // private System.Boolean m_CompressionEnabled
     // Size: 0x1
@@ -57,6 +62,7 @@ namespace UnityEngine::AddressableAssets::Initialization {
     int64_t m_MaximumCacheSize;
     // Field size check
     static_assert(sizeof(int64_t) == 0x8);
+    public:
     // Get instance field reference: private System.Boolean m_CompressionEnabled
     bool& dyn_m_CompressionEnabled();
     // Get instance field reference: private System.String m_CacheDirectoryOverride

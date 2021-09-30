@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: TMPro
@@ -50,6 +51,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerResultsTableCell : public HMUI::TableCell {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private TMPro.TextMeshProUGUI _positionText
     // Size: 0x8
     // Offset: 0x50
@@ -77,9 +83,9 @@ namespace GlobalNamespace {
     // private TubeBloomPrePassLight[] _lights
     // Size: 0x8
     // Offset: 0x70
-    ::ArrayWrapper<GlobalNamespace::TubeBloomPrePassLight*> lights;
+    ::ArrayW<GlobalNamespace::TubeBloomPrePassLight*> lights;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::TubeBloomPrePassLight*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::TubeBloomPrePassLight*>) == 0x8);
     // private UnityEngine.UI.Image _backgroundImage
     // Size: 0x8
     // Offset: 0x78
@@ -135,6 +141,7 @@ namespace GlobalNamespace {
     UnityEngine::Color lightColor;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
+    public:
     // Get instance field reference: private TMPro.TextMeshProUGUI _positionText
     TMPro::TextMeshProUGUI*& dyn__positionText();
     // Get instance field reference: private TMPro.TextMeshProUGUI _nameText
@@ -144,7 +151,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private TMPro.TextMeshProUGUI _rankText
     TMPro::TextMeshProUGUI*& dyn__rankText();
     // Get instance field reference: private TubeBloomPrePassLight[] _lights
-    ::ArrayWrapper<GlobalNamespace::TubeBloomPrePassLight*>& dyn__lights();
+    ::ArrayW<GlobalNamespace::TubeBloomPrePassLight*>& dyn__lights();
     // Get instance field reference: private UnityEngine.UI.Image _backgroundImage
     UnityEngine::UI::Image*& dyn__backgroundImage();
     // Get instance field reference: private UnityEngine.CanvasGroup _canvasGroup

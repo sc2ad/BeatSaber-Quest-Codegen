@@ -27,12 +27,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SelectLevelPackDestination : public GlobalNamespace::MenuDestination {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly IBeatmapLevelPack beatmapLevelPack
     // Size: 0x8
     // Offset: 0x10
     GlobalNamespace::IBeatmapLevelPack* beatmapLevelPack;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IBeatmapLevelPack*) == 0x8);
+    public:
     // Creating conversion operator: operator GlobalNamespace::IBeatmapLevelPack*
     constexpr operator GlobalNamespace::IBeatmapLevelPack*() const noexcept {
       return beatmapLevelPack;

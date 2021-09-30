@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::TestRunner::TestLaunchers
@@ -34,6 +35,11 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     public:
     // Nested type: UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData::$$c
     class $$c;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.String testId
     // Size: 0x8
     // Offset: 0x10
@@ -149,9 +155,10 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     // public System.String[] childrenIds
     // Size: 0x8
     // Offset: 0x88
-    ::ArrayWrapper<::Il2CppString*> childrenIds;
+    ::ArrayW<::Il2CppString*> childrenIds;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    public:
     // Get instance field reference: public System.String testId
     ::Il2CppString*& dyn_testId();
     // Get instance field reference: public System.String name
@@ -189,7 +196,7 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     // Get instance field reference: public System.String xml
     ::Il2CppString*& dyn_xml();
     // Get instance field reference: public System.String[] childrenIds
-    ::ArrayWrapper<::Il2CppString*>& dyn_childrenIds();
+    ::ArrayW<::Il2CppString*>& dyn_childrenIds();
     // System.Void .ctor(NUnit.Framework.Interfaces.ITestResult result)
     // Offset: 0x166A624
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -199,7 +206,7 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     }
   }; // UnityEngine.TestRunner.TestLaunchers.RemoteTestResultData
   #pragma pack(pop)
-  static check_size<sizeof(RemoteTestResultData), 136 + sizeof(::ArrayWrapper<::Il2CppString*>)> __UnityEngine_TestRunner_TestLaunchers_RemoteTestResultDataSizeCheck;
+  static check_size<sizeof(RemoteTestResultData), 136 + sizeof(::ArrayW<::Il2CppString*>)> __UnityEngine_TestRunner_TestLaunchers_RemoteTestResultDataSizeCheck;
   static_assert(sizeof(RemoteTestResultData) == 0x90);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData*, "UnityEngine.TestRunner.TestLaunchers", "RemoteTestResultData");

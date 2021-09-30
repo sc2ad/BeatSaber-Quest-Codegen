@@ -32,6 +32,11 @@ namespace UnityEngine {
   // [UsedByNativeCodeAttribute] Offset: E88858
   class IntegratedSubsystem : public ::Il2CppObject/*, public UnityEngine::ISubsystem*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.IntPtr m_Ptr
     // Size: 0x8
     // Offset: 0x10
@@ -44,6 +49,7 @@ namespace UnityEngine {
     UnityEngine::ISubsystemDescriptor* m_subsystemDescriptor;
     // Field size check
     static_assert(sizeof(UnityEngine::ISubsystemDescriptor*) == 0x8);
+    public:
     // Creating interface conversion operator: operator UnityEngine::ISubsystem
     operator UnityEngine::ISubsystem() noexcept {
       return *reinterpret_cast<UnityEngine::ISubsystem*>(this);

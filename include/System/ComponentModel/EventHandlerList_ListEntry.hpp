@@ -23,6 +23,11 @@ namespace System::ComponentModel {
   // [TokenAttribute] Offset: FFFFFFFF
   class EventHandlerList::ListEntry : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.ComponentModel.EventHandlerList/System.ComponentModel.ListEntry next
     // Size: 0x8
     // Offset: 0x10
@@ -41,6 +46,7 @@ namespace System::ComponentModel {
     System::Delegate* handler;
     // Field size check
     static_assert(sizeof(System::Delegate*) == 0x8);
+    public:
     // Get instance field reference: System.ComponentModel.EventHandlerList/System.ComponentModel.ListEntry next
     System::ComponentModel::EventHandlerList::ListEntry*& dyn_next();
     // Get instance field reference: System.Object key

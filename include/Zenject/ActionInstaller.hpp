@@ -32,12 +32,18 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class ActionInstaller : public Zenject::Installer_1<Zenject::ActionInstaller*> {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Action`1<Zenject.DiContainer> _installMethod
     // Size: 0x8
     // Offset: 0x18
     System::Action_1<Zenject::DiContainer*>* installMethod;
     // Field size check
     static_assert(sizeof(System::Action_1<Zenject::DiContainer*>*) == 0x8);
+    public:
     // Deleting conversion operator: operator Zenject::DiContainer*
     constexpr operator Zenject::DiContainer*() const noexcept = delete;
     // Get instance field reference: private readonly System.Action`1<Zenject.DiContainer> _installMethod

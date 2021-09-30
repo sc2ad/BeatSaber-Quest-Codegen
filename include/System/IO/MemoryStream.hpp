@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Threading::Tasks
@@ -41,12 +42,17 @@ namespace System::IO {
   // [ComVisibleAttribute] Offset: E5E274
   class MemoryStream : public System::IO::Stream {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Byte[] _buffer
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<uint8_t> buffer;
+    ::ArrayW<uint8_t> buffer;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Int32 _origin
     // Size: 0x4
     // Offset: 0x30
@@ -103,8 +109,9 @@ namespace System::IO {
     System::Threading::Tasks::Task_1<int>* lastReadTask;
     // Field size check
     static_assert(sizeof(System::Threading::Tasks::Task_1<int>*) == 0x8);
+    public:
     // Get instance field reference: private System.Byte[] _buffer
-    ::ArrayWrapper<uint8_t>& dyn__buffer();
+    ::ArrayW<uint8_t>& dyn__buffer();
     // Get instance field reference: private System.Int32 _origin
     int& dyn__origin();
     // Get instance field reference: private System.Int32 _position
@@ -139,35 +146,35 @@ namespace System::IO {
     // public System.Void .ctor(System.Byte[] buffer)
     // Offset: 0x1ABC324
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static MemoryStream* New_ctor(::ArrayWrapper<uint8_t> buffer) {
+    static MemoryStream* New_ctor(::ArrayW<uint8_t> buffer) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::MemoryStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MemoryStream*, creationType>(buffer)));
     }
     // public System.Void .ctor(System.Byte[] buffer, System.Boolean writable)
     // Offset: 0x1ABC32C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static MemoryStream* New_ctor(::ArrayWrapper<uint8_t> buffer, bool writable) {
+    static MemoryStream* New_ctor(::ArrayW<uint8_t> buffer, bool writable) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::MemoryStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MemoryStream*, creationType>(buffer, writable)));
     }
     // public System.Void .ctor(System.Byte[] buffer, System.Int32 index, System.Int32 count)
     // Offset: 0x1ABC428
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static MemoryStream* New_ctor(::ArrayWrapper<uint8_t> buffer, int index, int count) {
+    static MemoryStream* New_ctor(::ArrayW<uint8_t> buffer, int index, int count) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::MemoryStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MemoryStream*, creationType>(buffer, index, count)));
     }
     // public System.Void .ctor(System.Byte[] buffer, System.Int32 index, System.Int32 count, System.Boolean writable)
     // Offset: 0x1ABC634
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static MemoryStream* New_ctor(::ArrayWrapper<uint8_t> buffer, int index, int count, bool writable) {
+    static MemoryStream* New_ctor(::ArrayW<uint8_t> buffer, int index, int count, bool writable) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::MemoryStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MemoryStream*, creationType>(buffer, index, count, writable)));
     }
     // public System.Void .ctor(System.Byte[] buffer, System.Int32 index, System.Int32 count, System.Boolean writable, System.Boolean publiclyVisible)
     // Offset: 0x1ABC434
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static MemoryStream* New_ctor(::ArrayWrapper<uint8_t> buffer, int index, int count, bool writable, bool publiclyVisible) {
+    static MemoryStream* New_ctor(::ArrayW<uint8_t> buffer, int index, int count, bool writable, bool publiclyVisible) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::MemoryStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MemoryStream*, creationType>(buffer, index, count, writable, publiclyVisible)));
     }
@@ -179,10 +186,10 @@ namespace System::IO {
     bool EnsureCapacity(int value);
     // public System.Byte[] GetBuffer()
     // Offset: 0x1ABC798
-    ::ArrayWrapper<uint8_t> GetBuffer();
+    ::ArrayW<uint8_t> GetBuffer();
     // System.Byte[] InternalGetBuffer()
     // Offset: 0x1ABC834
-    ::ArrayWrapper<uint8_t> InternalGetBuffer();
+    ::ArrayW<uint8_t> InternalGetBuffer();
     // System.Int32 InternalGetPosition()
     // Offset: 0x1ABC83C
     int InternalGetPosition();
@@ -194,7 +201,7 @@ namespace System::IO {
     int InternalEmulateRead(int count);
     // public System.Byte[] ToArray()
     // Offset: 0x1ABDC30
-    ::ArrayWrapper<uint8_t> ToArray();
+    ::ArrayW<uint8_t> ToArray();
     // public System.Void WriteTo(System.IO.Stream stream)
     // Offset: 0x1ABE408
     void WriteTo(System::IO::Stream* stream);
@@ -253,12 +260,12 @@ namespace System::IO {
     // Offset: 0x1ABCC68
     // Implemented from: System.IO.Stream
     // Base method: System.Int32 Stream::Read(in System.Byte[] buffer, System.Int32 offset, System.Int32 count)
-    int Read(ByRef<::ArrayWrapper<uint8_t>> buffer, int offset, int count);
+    int Read(ByRef<::ArrayW<uint8_t>> buffer, int offset, int count);
     // public override System.Threading.Tasks.Task`1<System.Int32> ReadAsync(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.Threading.CancellationToken cancellationToken)
     // Offset: 0x1ABCEB8
     // Implemented from: System.IO.Stream
     // Base method: System.Threading.Tasks.Task`1<System.Int32> Stream::ReadAsync(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.Threading.CancellationToken cancellationToken)
-    System::Threading::Tasks::Task_1<int>* ReadAsync(::ArrayWrapper<uint8_t> buffer, int offset, int count, System::Threading::CancellationToken cancellationToken);
+    System::Threading::Tasks::Task_1<int>* ReadAsync(::ArrayW<uint8_t> buffer, int offset, int count, System::Threading::CancellationToken cancellationToken);
     // public override System.Int32 ReadByte()
     // Offset: 0x1ABD234
     // Implemented from: System.IO.Stream
@@ -283,12 +290,12 @@ namespace System::IO {
     // Offset: 0x1ABDCE8
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::Write(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
-    void Write(::ArrayWrapper<uint8_t> buffer, int offset, int count);
+    void Write(::ArrayW<uint8_t> buffer, int offset, int count);
     // public override System.Threading.Tasks.Task WriteAsync(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.Threading.CancellationToken cancellationToken)
     // Offset: 0x1ABDFF8
     // Implemented from: System.IO.Stream
     // Base method: System.Threading.Tasks.Task Stream::WriteAsync(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.Threading.CancellationToken cancellationToken)
-    System::Threading::Tasks::Task* WriteAsync(::ArrayWrapper<uint8_t> buffer, int offset, int count, System::Threading::CancellationToken cancellationToken);
+    System::Threading::Tasks::Task* WriteAsync(::ArrayW<uint8_t> buffer, int offset, int count, System::Threading::CancellationToken cancellationToken);
     // public override System.Void WriteByte(System.Byte value)
     // Offset: 0x1ABE318
     // Implemented from: System.IO.Stream
@@ -362,7 +369,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::IO::MemoryStream::GetBuffer
 // Il2CppName: GetBuffer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (System::IO::MemoryStream::*)()>(&System::IO::MemoryStream::GetBuffer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (System::IO::MemoryStream::*)()>(&System::IO::MemoryStream::GetBuffer)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::IO::MemoryStream*), "GetBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -370,7 +377,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: System::IO::MemoryStream::InternalGetBuffer
 // Il2CppName: InternalGetBuffer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (System::IO::MemoryStream::*)()>(&System::IO::MemoryStream::InternalGetBuffer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (System::IO::MemoryStream::*)()>(&System::IO::MemoryStream::InternalGetBuffer)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::IO::MemoryStream*), "InternalGetBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -403,7 +410,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::IO::MemoryStream::ToArray
 // Il2CppName: ToArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (System::IO::MemoryStream::*)()>(&System::IO::MemoryStream::ToArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (System::IO::MemoryStream::*)()>(&System::IO::MemoryStream::ToArray)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::IO::MemoryStream*), "ToArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -490,7 +497,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::IO::MemoryStream::Read
 // Il2CppName: Read
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::MemoryStream::*)(ByRef<::ArrayWrapper<uint8_t>>, int, int)>(&System::IO::MemoryStream::Read)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::MemoryStream::*)(ByRef<::ArrayW<uint8_t>>, int, int)>(&System::IO::MemoryStream::Read)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->this_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -501,7 +508,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::IO::MemoryStream::ReadAsync
 // Il2CppName: ReadAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<int>* (System::IO::MemoryStream::*)(::ArrayWrapper<uint8_t>, int, int, System::Threading::CancellationToken)>(&System::IO::MemoryStream::ReadAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<int>* (System::IO::MemoryStream::*)(::ArrayW<uint8_t>, int, int, System::Threading::CancellationToken)>(&System::IO::MemoryStream::ReadAsync)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -551,7 +558,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::IO::MemoryStream::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::MemoryStream::*)(::ArrayWrapper<uint8_t>, int, int)>(&System::IO::MemoryStream::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::MemoryStream::*)(::ArrayW<uint8_t>, int, int)>(&System::IO::MemoryStream::Write)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -562,7 +569,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::IO::MemoryStream::WriteAsync
 // Il2CppName: WriteAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (System::IO::MemoryStream::*)(::ArrayWrapper<uint8_t>, int, int, System::Threading::CancellationToken)>(&System::IO::MemoryStream::WriteAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (System::IO::MemoryStream::*)(::ArrayW<uint8_t>, int, int, System::Threading::CancellationToken)>(&System::IO::MemoryStream::WriteAsync)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

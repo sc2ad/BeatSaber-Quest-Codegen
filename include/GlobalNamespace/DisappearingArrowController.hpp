@@ -26,12 +26,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class DisappearingArrowController : public GlobalNamespace::DisappearingArrowControllerBase_1<GlobalNamespace::GameNoteController*> {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private GameNoteController _gameNoteController
     // Size: 0x8
     // Offset: 0x50
     GlobalNamespace::GameNoteController* gameNoteController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameNoteController*) == 0x8);
+    public:
     // Get instance field reference: private GameNoteController _gameNoteController
     GlobalNamespace::GameNoteController*& dyn__gameNoteController();
     // protected GameNoteController get_gameNoteController()

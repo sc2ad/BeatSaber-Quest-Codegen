@@ -22,6 +22,11 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class LinkedAccount : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly System.String AccessToken
     // Size: 0x8
     // Offset: 0x10
@@ -42,6 +47,7 @@ namespace Oculus::Platform::Models {
     ::Il2CppString* UserId;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: public readonly System.String AccessToken
     ::Il2CppString*& dyn_AccessToken();
     // Get instance field reference: public readonly Oculus.Platform.ServiceProvider ServiceProvider

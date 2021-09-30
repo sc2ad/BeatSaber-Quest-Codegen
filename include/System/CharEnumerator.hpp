@@ -23,6 +23,11 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5BE34
   class CharEnumerator : public ::Il2CppObject/*, public System::Collections::Generic::IEnumerator_1<::Il2CppChar>, public System::ICloneable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String str
     // Size: 0x8
     // Offset: 0x10
@@ -41,6 +46,7 @@ namespace System {
     ::Il2CppChar currentElement;
     // Field size check
     static_assert(sizeof(::Il2CppChar) == 0x2);
+    public:
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppChar>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppChar>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppChar>*>(this);

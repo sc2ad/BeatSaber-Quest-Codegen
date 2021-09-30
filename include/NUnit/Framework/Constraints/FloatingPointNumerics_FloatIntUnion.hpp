@@ -18,6 +18,11 @@ namespace NUnit::Framework::Constraints {
   // [TokenAttribute] Offset: FFFFFFFF
   struct FloatingPointNumerics::FloatIntUnion/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Single Float
     // Size: 0x4
     // Offset: 0x0
@@ -36,6 +41,7 @@ namespace NUnit::Framework::Constraints {
     uint UInt;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
+    public:
     // Creating value type constructor for type: FloatIntUnion
     constexpr FloatIntUnion(float Float_ = {}, int Int_ = {}, uint UInt_ = {}) noexcept : Float{Float_}, Int{Int_}, UInt{UInt_} {}
     // Creating interface conversion operator: operator System::ValueType

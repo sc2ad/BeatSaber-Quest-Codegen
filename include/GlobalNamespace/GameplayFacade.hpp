@@ -65,6 +65,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GameplayFacade : public UnityEngine::MonoBehaviour/*, public GlobalNamespace::IAudioTimeSource*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xF0C060
     // private readonly BeatmapObjectSpawnController _beatmapObjectSpawnController
     // Size: 0x8
@@ -107,6 +112,7 @@ namespace GlobalNamespace {
     GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IDifficultyBeatmap*) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IAudioTimeSource
     operator GlobalNamespace::IAudioTimeSource() noexcept {
       return *reinterpret_cast<GlobalNamespace::IAudioTimeSource*>(this);

@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -64,6 +65,11 @@ namespace GlobalNamespace {
     struct $GetLeaderboardEntriesAsync$d__10;
     // Nested type: GlobalNamespace::HTTPLeaderboardsModel::$SendLevelScoreResultAsync$d__11
     struct $SendLevelScoreResultAsync$d__11;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xF0370C
     // private readonly OnlineServices.API.IUserLoginDtoDataSource _userLoginDataSource
     // Size: 0x8
@@ -93,15 +99,16 @@ namespace GlobalNamespace {
     // private System.String[] _friendsUserIds
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<::Il2CppString*> friendsUserIds;
+    ::ArrayW<::Il2CppString*> friendsUserIds;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // private System.String _platformUserId
     // Size: 0x8
     // Offset: 0x38
     ::Il2CppString* platformUserId;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Creating interface conversion operator: operator OnlineServices::ILeaderboardsModel
     operator OnlineServices::ILeaderboardsModel() noexcept {
       return *reinterpret_cast<OnlineServices::ILeaderboardsModel*>(this);
@@ -115,7 +122,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.String _guid
     ::Il2CppString*& dyn__guid();
     // Get instance field reference: private System.String[] _friendsUserIds
-    ::ArrayWrapper<::Il2CppString*>& dyn__friendsUserIds();
+    ::ArrayW<::Il2CppString*>& dyn__friendsUserIds();
     // Get instance field reference: private System.String _platformUserId
     ::Il2CppString*& dyn__platformUserId();
     // public System.Void add_scoreForLeaderboardDidUploadEvent(System.Action`1<System.String> value)

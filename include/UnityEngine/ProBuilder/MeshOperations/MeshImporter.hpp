@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::ProBuilder::MeshOperations
@@ -55,6 +56,11 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     public:
     // Nested type: UnityEngine::ProBuilder::MeshOperations::MeshImporter::$$c
     class $$c;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Mesh m_SourceMesh
     // Size: 0x8
     // Offset: 0x10
@@ -64,9 +70,9 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // private UnityEngine.Material[] m_SourceMaterials
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<UnityEngine::Material*> m_SourceMaterials;
+    ::ArrayW<UnityEngine::Material*> m_SourceMaterials;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Material*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Material*>) == 0x8);
     // private UnityEngine.ProBuilder.ProBuilderMesh m_Destination
     // Size: 0x8
     // Offset: 0x20
@@ -76,9 +82,10 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // private UnityEngine.ProBuilder.Vertex[] m_Vertices
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<UnityEngine::ProBuilder::Vertex*> m_Vertices;
+    ::ArrayW<UnityEngine::ProBuilder::Vertex*> m_Vertices;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::ProBuilder::Vertex*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::ProBuilder::Vertex*>) == 0x8);
+    public:
     // Get static field: static private readonly UnityEngine.ProBuilder.MeshOperations.MeshImportSettings k_DefaultImportSettings
     static UnityEngine::ProBuilder::MeshOperations::MeshImportSettings* _get_k_DefaultImportSettings();
     // Set static field: static private readonly UnityEngine.ProBuilder.MeshOperations.MeshImportSettings k_DefaultImportSettings
@@ -86,11 +93,11 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Get instance field reference: private UnityEngine.Mesh m_SourceMesh
     UnityEngine::Mesh*& dyn_m_SourceMesh();
     // Get instance field reference: private UnityEngine.Material[] m_SourceMaterials
-    ::ArrayWrapper<UnityEngine::Material*>& dyn_m_SourceMaterials();
+    ::ArrayW<UnityEngine::Material*>& dyn_m_SourceMaterials();
     // Get instance field reference: private UnityEngine.ProBuilder.ProBuilderMesh m_Destination
     UnityEngine::ProBuilder::ProBuilderMesh*& dyn_m_Destination();
     // Get instance field reference: private UnityEngine.ProBuilder.Vertex[] m_Vertices
-    ::ArrayWrapper<UnityEngine::ProBuilder::Vertex*>& dyn_m_Vertices();
+    ::ArrayW<UnityEngine::ProBuilder::Vertex*>& dyn_m_Vertices();
     // public System.Void .ctor(UnityEngine.GameObject gameObject)
     // Offset: 0x18F7904
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -101,7 +108,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // public System.Void .ctor(UnityEngine.Mesh sourceMesh, UnityEngine.Material[] sourceMaterials, UnityEngine.ProBuilder.ProBuilderMesh destination)
     // Offset: 0x18F7A44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static MeshImporter* New_ctor(UnityEngine::Mesh* sourceMesh, ::ArrayWrapper<UnityEngine::Material*> sourceMaterials, UnityEngine::ProBuilder::ProBuilderMesh* destination) {
+    static MeshImporter* New_ctor(UnityEngine::Mesh* sourceMesh, ::ArrayW<UnityEngine::Material*> sourceMaterials, UnityEngine::ProBuilder::ProBuilderMesh* destination) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::MeshOperations::MeshImporter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MeshImporter*, creationType>(sourceMesh, sourceMaterials, destination)));
     }
@@ -129,7 +136,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     float GetQuadScore(UnityEngine::ProBuilder::WingedEdge* left, UnityEngine::ProBuilder::WingedEdge* right, float normalThreshold);
   }; // UnityEngine.ProBuilder.MeshOperations.MeshImporter
   #pragma pack(pop)
-  static check_size<sizeof(MeshImporter), 40 + sizeof(::ArrayWrapper<UnityEngine::ProBuilder::Vertex*>)> __UnityEngine_ProBuilder_MeshOperations_MeshImporterSizeCheck;
+  static check_size<sizeof(MeshImporter), 40 + sizeof(::ArrayW<UnityEngine::ProBuilder::Vertex*>)> __UnityEngine_ProBuilder_MeshOperations_MeshImporterSizeCheck;
   static_assert(sizeof(MeshImporter) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::MeshImporter*, "UnityEngine.ProBuilder.MeshOperations", "MeshImporter");

@@ -13,6 +13,7 @@
 #include "NUnit/Framework/Interfaces/ITestFixtureData.hpp"
 // Including type: NUnit.Framework.Interfaces.RunState
 #include "NUnit/Framework/Interfaces/RunState.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework
@@ -58,6 +59,11 @@ namespace NUnit::Framework {
     public:
     // Nested type: NUnit::Framework::TestFixtureAttribute::$BuildFrom$d__48
     class $BuildFrom$d__48;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly NUnit.Framework.Internal.Builders.NUnitTestFixtureBuilder _builder
     // Size: 0x8
     // Offset: 0x10
@@ -77,9 +83,9 @@ namespace NUnit::Framework {
     // private System.Object[] <Arguments>k__BackingField
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<::Il2CppObject*> Arguments;
+    ::ArrayW<::Il2CppObject*> Arguments;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppObject*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppObject*>) == 0x8);
     // [DebuggerBrowsableAttribute] Offset: 0xEEEC10
     // private NUnit.Framework.Interfaces.IPropertyBag <Properties>k__BackingField
     // Size: 0x8
@@ -91,9 +97,10 @@ namespace NUnit::Framework {
     // private System.Type[] <TypeArgs>k__BackingField
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<System::Type*> TypeArgs;
+    ::ArrayW<System::Type*> TypeArgs;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<System::Type*>) == 0x8);
+    static_assert(sizeof(::ArrayW<System::Type*>) == 0x8);
+    public:
     // Creating interface conversion operator: operator NUnit::Framework::Interfaces::IFixtureBuilder
     operator NUnit::Framework::Interfaces::IFixtureBuilder() noexcept {
       return *reinterpret_cast<NUnit::Framework::Interfaces::IFixtureBuilder*>(this);
@@ -107,29 +114,29 @@ namespace NUnit::Framework {
     // Get instance field reference: private NUnit.Framework.Interfaces.RunState <RunState>k__BackingField
     NUnit::Framework::Interfaces::RunState& dyn_$RunState$k__BackingField();
     // Get instance field reference: private System.Object[] <Arguments>k__BackingField
-    ::ArrayWrapper<::Il2CppObject*>& dyn_$Arguments$k__BackingField();
+    ::ArrayW<::Il2CppObject*>& dyn_$Arguments$k__BackingField();
     // Get instance field reference: private NUnit.Framework.Interfaces.IPropertyBag <Properties>k__BackingField
     NUnit::Framework::Interfaces::IPropertyBag*& dyn_$Properties$k__BackingField();
     // Get instance field reference: private System.Type[] <TypeArgs>k__BackingField
-    ::ArrayWrapper<System::Type*>& dyn_$TypeArgs$k__BackingField();
+    ::ArrayW<System::Type*>& dyn_$TypeArgs$k__BackingField();
     // public NUnit.Framework.Interfaces.RunState get_RunState()
     // Offset: 0x24AA560
     NUnit::Framework::Interfaces::RunState get_RunState();
     // public System.Object[] get_Arguments()
     // Offset: 0x24AA568
-    ::ArrayWrapper<::Il2CppObject*> get_Arguments();
+    ::ArrayW<::Il2CppObject*> get_Arguments();
     // public NUnit.Framework.Interfaces.IPropertyBag get_Properties()
     // Offset: 0x24AA570
     NUnit::Framework::Interfaces::IPropertyBag* get_Properties();
     // public System.Type[] get_TypeArgs()
     // Offset: 0x24AA578
-    ::ArrayWrapper<System::Type*> get_TypeArgs();
+    ::ArrayW<System::Type*> get_TypeArgs();
     // public System.Collections.Generic.IEnumerable`1<NUnit.Framework.Internal.TestSuite> BuildFrom(NUnit.Framework.Interfaces.ITypeInfo typeInfo)
     // Offset: 0x24AA580
     System::Collections::Generic::IEnumerable_1<NUnit::Framework::Internal::TestSuite*>* BuildFrom(NUnit::Framework::Interfaces::ITypeInfo* typeInfo);
   }; // NUnit.Framework.TestFixtureAttribute
   #pragma pack(pop)
-  static check_size<sizeof(TestFixtureAttribute), 48 + sizeof(::ArrayWrapper<System::Type*>)> __NUnit_Framework_TestFixtureAttributeSizeCheck;
+  static check_size<sizeof(TestFixtureAttribute), 48 + sizeof(::ArrayW<System::Type*>)> __NUnit_Framework_TestFixtureAttributeSizeCheck;
   static_assert(sizeof(TestFixtureAttribute) == 0x38);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
@@ -146,7 +153,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Writing MetadataGetter for method: NUnit::Framework::TestFixtureAttribute::get_Arguments
 // Il2CppName: get_Arguments
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppObject*> (NUnit::Framework::TestFixtureAttribute::*)()>(&NUnit::Framework::TestFixtureAttribute::get_Arguments)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppObject*> (NUnit::Framework::TestFixtureAttribute::*)()>(&NUnit::Framework::TestFixtureAttribute::get_Arguments)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::TestFixtureAttribute*), "get_Arguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -162,7 +169,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Fram
 // Writing MetadataGetter for method: NUnit::Framework::TestFixtureAttribute::get_TypeArgs
 // Il2CppName: get_TypeArgs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::Type*> (NUnit::Framework::TestFixtureAttribute::*)()>(&NUnit::Framework::TestFixtureAttribute::get_TypeArgs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Type*> (NUnit::Framework::TestFixtureAttribute::*)()>(&NUnit::Framework::TestFixtureAttribute::get_TypeArgs)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::TestFixtureAttribute*), "get_TypeArgs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

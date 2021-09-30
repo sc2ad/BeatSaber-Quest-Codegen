@@ -38,12 +38,18 @@ namespace System::Net::Http::Headers {
   template<typename T, typename U>
   class HeaderInfo::HeaderTypeInfo_2 : public System::Net::Http::Headers::HeaderInfo {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Net.Http.Headers.TryParseDelegate`1<T> parser
     // Size: 0x8
     // Offset: 0x0
     System::Net::Http::Headers::TryParseDelegate_1<T>* parser;
     // Field size check
     static_assert(sizeof(System::Net::Http::Headers::TryParseDelegate_1<T>*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Net::Http::Headers::TryParseDelegate_1<T>*
     constexpr operator System::Net::Http::Headers::TryParseDelegate_1<T>*() const noexcept {
       return parser;

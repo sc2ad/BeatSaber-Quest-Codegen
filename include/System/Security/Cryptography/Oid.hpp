@@ -20,6 +20,11 @@ namespace System::Security::Cryptography {
   // [TokenAttribute] Offset: FFFFFFFF
   class Oid : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String m_value
     // Size: 0x8
     // Offset: 0x10
@@ -38,6 +43,7 @@ namespace System::Security::Cryptography {
     System::Security::Cryptography::OidGroup m_group;
     // Field size check
     static_assert(sizeof(System::Security::Cryptography::OidGroup) == 0x4);
+    public:
     // Get instance field reference: private System.String m_value
     ::Il2CppString*& dyn_m_value();
     // Get instance field reference: private System.String m_friendlyName

@@ -30,6 +30,11 @@ namespace Zenject {
   // [NoReflectionBakingAttribute] Offset: EAD614
   class InjectTypeInfo::InjectMemberInfo : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly Zenject.ZenMemberSetterMethod Setter
     // Size: 0x8
     // Offset: 0x10
@@ -42,6 +47,7 @@ namespace Zenject {
     Zenject::InjectableInfo* Info;
     // Field size check
     static_assert(sizeof(Zenject::InjectableInfo*) == 0x8);
+    public:
     // Get instance field reference: public readonly Zenject.ZenMemberSetterMethod Setter
     Zenject::ZenMemberSetterMethod*& dyn_Setter();
     // Get instance field reference: public readonly Zenject.InjectableInfo Info

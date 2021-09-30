@@ -59,6 +59,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::PlayerSettingsPanelController::PlayerSettingsPanelLayout
     struct PlayerSettingsPanelLayout;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.UI.Toggle _leftHandedToggle
     // Size: 0x8
     // Offset: 0x18
@@ -180,6 +185,7 @@ namespace GlobalNamespace {
     bool refreshed;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IRefreshable
     operator GlobalNamespace::IRefreshable() noexcept {
       return *reinterpret_cast<GlobalNamespace::IRefreshable*>(this);

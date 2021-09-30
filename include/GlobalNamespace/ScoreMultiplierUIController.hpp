@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: TMPro
@@ -42,12 +43,17 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ScoreMultiplierUIController : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private TMPro.TextMeshProUGUI[] _multiplierTexts
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<TMPro::TextMeshProUGUI*> multiplierTexts;
+    ::ArrayW<TMPro::TextMeshProUGUI*> multiplierTexts;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<TMPro::TextMeshProUGUI*>) == 0x8);
+    static_assert(sizeof(::ArrayW<TMPro::TextMeshProUGUI*>) == 0x8);
     // private UnityEngine.UI.Image _multiplierProgressImage
     // Size: 0x8
     // Offset: 0x20
@@ -85,10 +91,11 @@ namespace GlobalNamespace {
     float progressTarget;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TMPro.TextMeshProUGUI[] _multiplierTexts
-    ::ArrayWrapper<TMPro::TextMeshProUGUI*>& dyn__multiplierTexts();
+    ::ArrayW<TMPro::TextMeshProUGUI*>& dyn__multiplierTexts();
     // Get instance field reference: private UnityEngine.UI.Image _multiplierProgressImage
     UnityEngine::UI::Image*& dyn__multiplierProgressImage();
     // Get instance field reference: private UnityEngine.Animator _multiplierAnimator

@@ -42,12 +42,18 @@ namespace UnityEngine::ProBuilder {
   // [TokenAttribute] Offset: FFFFFFFF
   class Changelog : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.List`1<UnityEngine.ProBuilder.ChangelogEntry> m_Entries
     // Size: 0x8
     // Offset: 0x10
     System::Collections::Generic::List_1<UnityEngine::ProBuilder::ChangelogEntry*>* m_Entries;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::ProBuilder::ChangelogEntry*>*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Collections::Generic::List_1<UnityEngine::ProBuilder::ChangelogEntry*>*
     constexpr operator System::Collections::Generic::List_1<UnityEngine::ProBuilder::ChangelogEntry*>*() const noexcept {
       return m_Entries;

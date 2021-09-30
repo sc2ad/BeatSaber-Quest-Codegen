@@ -22,12 +22,18 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class Callback::RequestCallback : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Oculus.Platform.Message/Oculus.Platform.Callback messageCallback
     // Size: 0x8
     // Offset: 0x10
     Oculus::Platform::Message::Callback* messageCallback;
     // Field size check
     static_assert(sizeof(Oculus::Platform::Message::Callback*) == 0x8);
+    public:
     // Creating conversion operator: operator Oculus::Platform::Message::Callback*
     constexpr operator Oculus::Platform::Message::Callback*() const noexcept {
       return messageCallback;

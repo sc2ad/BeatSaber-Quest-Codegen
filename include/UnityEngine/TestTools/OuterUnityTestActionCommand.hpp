@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::TestTools
@@ -53,7 +54,7 @@ namespace UnityEngine::TestTools {
     public:
     // static private UnityEngine.TestTools.IOuterUnityTestAction[] GetUnityTestActionsFromMethod(System.Reflection.MethodInfo method)
     // Offset: 0x1670EBC
-    static ::ArrayWrapper<UnityEngine::TestTools::IOuterUnityTestAction*> GetUnityTestActionsFromMethod(System::Reflection::MethodInfo* method);
+    static ::ArrayW<UnityEngine::TestTools::IOuterUnityTestAction*> GetUnityTestActionsFromMethod(System::Reflection::MethodInfo* method);
     // protected System.Collections.IEnumerator InvokeBefore(UnityEngine.TestTools.IOuterUnityTestAction action, NUnit.Framework.Internal.Test test, UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext context)
     // Offset: 0x1670FF4
     System::Collections::IEnumerator* InvokeBefore(UnityEngine::TestTools::IOuterUnityTestAction* action, NUnit::Framework::Internal::Test* test, UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* context);
@@ -81,7 +82,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::OuterUnityTestActionCommand*, "Un
 // Writing MetadataGetter for method: UnityEngine::TestTools::OuterUnityTestActionCommand::GetUnityTestActionsFromMethod
 // Il2CppName: GetUnityTestActionsFromMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::TestTools::IOuterUnityTestAction*> (*)(System::Reflection::MethodInfo*)>(&UnityEngine::TestTools::OuterUnityTestActionCommand::GetUnityTestActionsFromMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::TestTools::IOuterUnityTestAction*> (*)(System::Reflection::MethodInfo*)>(&UnityEngine::TestTools::OuterUnityTestActionCommand::GetUnityTestActionsFromMethod)> {
   static const MethodInfo* get() {
     static auto* method = &::il2cpp_utils::GetClassFromName("System.Reflection", "MethodInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::OuterUnityTestActionCommand*), "GetUnityTestActionsFromMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{method});

@@ -48,6 +48,11 @@ namespace System::Runtime::CompilerServices {
     class $$c__DisplayClass4_0;
     // Nested type: System::Runtime::CompilerServices::AsyncMethodBuilderCore::$$c
     class $$c;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Runtime.CompilerServices.IAsyncStateMachine m_stateMachine
     // Size: 0x8
     // Offset: 0x0
@@ -60,6 +65,7 @@ namespace System::Runtime::CompilerServices {
     System::Action* m_defaultContextAction;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
+    public:
     // Creating value type constructor for type: AsyncMethodBuilderCore
     constexpr AsyncMethodBuilderCore(System::Runtime::CompilerServices::IAsyncStateMachine* m_stateMachine_ = {}, System::Action* m_defaultContextAction_ = {}) noexcept : m_stateMachine{m_stateMachine_}, m_defaultContextAction{m_defaultContextAction_} {}
     // Creating interface conversion operator: operator System::ValueType

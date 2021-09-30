@@ -34,12 +34,18 @@ namespace OVRSimpleJSON {
   // [TokenAttribute] Offset: FFFFFFFF
   class JSONNumber : public OVRSimpleJSON::JSONNode {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Double m_Data
     // Size: 0x8
     // Offset: 0x10
     double m_Data;
     // Field size check
     static_assert(sizeof(double) == 0x8);
+    public:
     // Creating conversion operator: operator double
     constexpr operator double() const noexcept {
       return m_Data;

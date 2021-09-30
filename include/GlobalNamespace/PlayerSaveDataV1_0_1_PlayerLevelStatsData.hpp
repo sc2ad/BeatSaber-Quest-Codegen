@@ -24,6 +24,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayerSaveDataV1_0_1::PlayerLevelStatsData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.String levelId
     // Size: 0x8
     // Offset: 0x10
@@ -76,6 +81,7 @@ namespace GlobalNamespace {
     int playCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: public System.String levelId
     ::Il2CppString*& dyn_levelId();
     // Get instance field reference: public BeatmapDifficulty difficulty

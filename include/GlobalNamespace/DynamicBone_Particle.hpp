@@ -31,6 +31,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class DynamicBone::Particle : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Transform m_Transform
     // Size: 0x8
     // Offset: 0x10
@@ -109,6 +114,7 @@ namespace GlobalNamespace {
     UnityEngine::Quaternion m_InitLocalRotation;
     // Field size check
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
+    public:
     // Get instance field reference: public UnityEngine.Transform m_Transform
     UnityEngine::Transform*& dyn_m_Transform();
     // Get instance field reference: public System.Int32 m_ParentIndex

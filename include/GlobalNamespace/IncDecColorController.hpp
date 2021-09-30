@@ -32,12 +32,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IncDecColorController : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private ColorStepValuePicker _stepValuePicker
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::ColorStepValuePicker* stepValuePicker;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ColorStepValuePicker*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private ColorStepValuePicker _stepValuePicker

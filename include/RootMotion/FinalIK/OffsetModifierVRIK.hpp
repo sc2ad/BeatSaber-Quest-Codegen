@@ -34,6 +34,11 @@ namespace RootMotion::FinalIK {
     public:
     // Nested type: RootMotion::FinalIK::OffsetModifierVRIK::$Initiate$d__7
     class $Initiate$d__7;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [TooltipAttribute] Offset: 0xEF4A4C
     // public System.Single weight
     // Size: 0x4
@@ -56,6 +61,7 @@ namespace RootMotion::FinalIK {
     float lastTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.Single weight

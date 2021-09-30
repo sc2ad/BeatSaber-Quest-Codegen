@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -27,6 +28,11 @@ namespace RootMotion {
   // [TokenAttribute] Offset: FFFFFFFF
   class BakerMuscle : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.AnimationCurve curve
     // Size: 0x8
     // Offset: 0x10
@@ -47,6 +53,7 @@ namespace RootMotion {
     ::Il2CppString* propertyName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: public UnityEngine.AnimationCurve curve
     UnityEngine::AnimationCurve*& dyn_curve();
     // Get instance field reference: private System.Int32 muscleIndex
@@ -74,7 +81,7 @@ namespace RootMotion {
     void Reset();
     // public System.Void SetKeyframe(System.Single time, System.Single[] muscles)
     // Offset: 0x1EB5890
-    void SetKeyframe(float time, ::ArrayWrapper<float> muscles);
+    void SetKeyframe(float time, ::ArrayW<float> muscles);
     // public System.Void SetLoopFrame(System.Single time)
     // Offset: 0x1EB58D8
     void SetLoopFrame(float time);
@@ -130,7 +137,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::BakerMuscle::SetKeyframe
 // Il2CppName: SetKeyframe
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::BakerMuscle::*)(float, ::ArrayWrapper<float>)>(&RootMotion::BakerMuscle::SetKeyframe)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::BakerMuscle::*)(float, ::ArrayW<float>)>(&RootMotion::BakerMuscle::SetKeyframe)> {
   static const MethodInfo* get() {
     static auto* time = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* muscles = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;

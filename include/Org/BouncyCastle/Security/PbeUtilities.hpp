@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections
@@ -57,7 +58,7 @@ namespace Org::BouncyCastle::Security {
     static void _cctor();
     // static private Org.BouncyCastle.Crypto.PbeParametersGenerator MakePbeGenerator(System.String type, Org.BouncyCastle.Crypto.IDigest digest, System.Byte[] key, System.Byte[] salt, System.Int32 iterationCount)
     // Offset: 0x14D83D8
-    static Org::BouncyCastle::Crypto::PbeParametersGenerator* MakePbeGenerator(::Il2CppString* type, Org::BouncyCastle::Crypto::IDigest* digest, ::ArrayWrapper<uint8_t> key, ::ArrayWrapper<uint8_t> salt, int iterationCount);
+    static Org::BouncyCastle::Crypto::PbeParametersGenerator* MakePbeGenerator(::Il2CppString* type, Org::BouncyCastle::Crypto::IDigest* digest, ::ArrayW<uint8_t> key, ::ArrayW<uint8_t> salt, int iterationCount);
     // static public System.Boolean IsPkcs12(System.String algorithm)
     // Offset: 0x14D85C4
     static bool IsPkcs12(::Il2CppString* algorithm);
@@ -66,10 +67,10 @@ namespace Org::BouncyCastle::Security {
     static bool IsPkcs5Scheme2(::Il2CppString* algorithm);
     // static public Org.BouncyCastle.Crypto.ICipherParameters GenerateCipherParameters(Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier algID, System.Char[] password, System.Boolean wrongPkcs12Zero)
     // Offset: 0x14D89BC
-    static Org::BouncyCastle::Crypto::ICipherParameters* GenerateCipherParameters(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algID, ::ArrayWrapper<::Il2CppChar> password, bool wrongPkcs12Zero);
+    static Org::BouncyCastle::Crypto::ICipherParameters* GenerateCipherParameters(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algID, ::ArrayW<::Il2CppChar> password, bool wrongPkcs12Zero);
     // static public Org.BouncyCastle.Crypto.ICipherParameters GenerateCipherParameters(System.String algorithm, System.Char[] password, System.Boolean wrongPkcs12Zero, Org.BouncyCastle.Asn1.Asn1Encodable pbeParameters)
     // Offset: 0x14D8A74
-    static Org::BouncyCastle::Crypto::ICipherParameters* GenerateCipherParameters(::Il2CppString* algorithm, ::ArrayWrapper<::Il2CppChar> password, bool wrongPkcs12Zero, Org::BouncyCastle::Asn1::Asn1Encodable* pbeParameters);
+    static Org::BouncyCastle::Crypto::ICipherParameters* GenerateCipherParameters(::Il2CppString* algorithm, ::ArrayW<::Il2CppChar> password, bool wrongPkcs12Zero, Org::BouncyCastle::Asn1::Asn1Encodable* pbeParameters);
     // static public System.Object CreateEngine(Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier algID)
     // Offset: 0x14D9CEC
     static ::Il2CppObject* CreateEngine(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algID);
@@ -96,7 +97,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: Org::BouncyCastle::Security::PbeUtilities::MakePbeGenerator
 // Il2CppName: MakePbeGenerator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::PbeParametersGenerator* (*)(::Il2CppString*, Org::BouncyCastle::Crypto::IDigest*, ::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Security::PbeUtilities::MakePbeGenerator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::PbeParametersGenerator* (*)(::Il2CppString*, Org::BouncyCastle::Crypto::IDigest*, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>, int)>(&Org::BouncyCastle::Security::PbeUtilities::MakePbeGenerator)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* digest = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Crypto", "IDigest")->byval_arg;
@@ -127,7 +128,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Security::PbeUtilities::GenerateCipherParameters
 // Il2CppName: GenerateCipherParameters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::ICipherParameters* (*)(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*, ::ArrayWrapper<::Il2CppChar>, bool)>(&Org::BouncyCastle::Security::PbeUtilities::GenerateCipherParameters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::ICipherParameters* (*)(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*, ::ArrayW<::Il2CppChar>, bool)>(&Org::BouncyCastle::Security::PbeUtilities::GenerateCipherParameters)> {
   static const MethodInfo* get() {
     static auto* algID = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Asn1.X509", "AlgorithmIdentifier")->byval_arg;
     static auto* password = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
@@ -138,7 +139,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Security::PbeUtilities::GenerateCipherParameters
 // Il2CppName: GenerateCipherParameters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::ICipherParameters* (*)(::Il2CppString*, ::ArrayWrapper<::Il2CppChar>, bool, Org::BouncyCastle::Asn1::Asn1Encodable*)>(&Org::BouncyCastle::Security::PbeUtilities::GenerateCipherParameters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::ICipherParameters* (*)(::Il2CppString*, ::ArrayW<::Il2CppChar>, bool, Org::BouncyCastle::Asn1::Asn1Encodable*)>(&Org::BouncyCastle::Security::PbeUtilities::GenerateCipherParameters)> {
   static const MethodInfo* get() {
     static auto* algorithm = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* password = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;

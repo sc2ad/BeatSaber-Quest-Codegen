@@ -17,6 +17,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -56,6 +57,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::NoteCutSoundEffectManager::InitData
     class InitData;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private AudioManagerSO _audioManager
     // Size: 0x8
     // Offset: 0x18
@@ -74,15 +80,15 @@ namespace GlobalNamespace {
     // private UnityEngine.AudioClip[] _longCutEffectsAudioClips
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<UnityEngine::AudioClip*> longCutEffectsAudioClips;
+    ::ArrayW<UnityEngine::AudioClip*> longCutEffectsAudioClips;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::AudioClip*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::AudioClip*>) == 0x8);
     // private UnityEngine.AudioClip[] _shortCutEffectsAudioClips
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<UnityEngine::AudioClip*> shortCutEffectsAudioClips;
+    ::ArrayW<UnityEngine::AudioClip*> shortCutEffectsAudioClips;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::AudioClip*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::AudioClip*>) == 0x8);
     // [SpaceAttribute] Offset: 0xF00414
     // private UnityEngine.AudioClip _testAudioClip
     // Size: 0x8
@@ -189,6 +195,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::NoteCutSoundEffect*>* noteCutSoundEffectPoolContainer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::NoteCutSoundEffect*>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::INoteCutSoundEffectDidFinishEvent
     operator GlobalNamespace::INoteCutSoundEffectDidFinishEvent() noexcept {
       return *reinterpret_cast<GlobalNamespace::INoteCutSoundEffectDidFinishEvent*>(this);
@@ -218,9 +225,9 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _audioSamplesBeatAlignOffset
     float& dyn__audioSamplesBeatAlignOffset();
     // Get instance field reference: private UnityEngine.AudioClip[] _longCutEffectsAudioClips
-    ::ArrayWrapper<UnityEngine::AudioClip*>& dyn__longCutEffectsAudioClips();
+    ::ArrayW<UnityEngine::AudioClip*>& dyn__longCutEffectsAudioClips();
     // Get instance field reference: private UnityEngine.AudioClip[] _shortCutEffectsAudioClips
-    ::ArrayWrapper<UnityEngine::AudioClip*>& dyn__shortCutEffectsAudioClips();
+    ::ArrayW<UnityEngine::AudioClip*>& dyn__shortCutEffectsAudioClips();
     // Get instance field reference: private UnityEngine.AudioClip _testAudioClip
     UnityEngine::AudioClip*& dyn__testAudioClip();
     // Get instance field reference: private readonly NoteCutSoundEffectManager/InitData _initData

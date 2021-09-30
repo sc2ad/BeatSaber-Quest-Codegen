@@ -25,6 +25,11 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_LoadBufferBase : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 _id
     // Size: 0x4
     // Offset: 0x10
@@ -59,6 +64,7 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::HEU_GeneratedOutput* generatedOutput;
     // Field size check
     static_assert(sizeof(HoudiniEngineUnity::HEU_GeneratedOutput*) == 0x8);
+    public:
     // Get instance field reference: public System.Int32 _id
     int& dyn__id();
     // Get instance field reference: public System.String _name

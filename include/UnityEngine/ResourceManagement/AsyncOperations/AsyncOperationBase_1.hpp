@@ -93,12 +93,18 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
       using declaring_type = AsyncOperationBase_1<TObject>*;
       static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass45_0";
       static constexpr bool IS_VALUE_TYPE = false;
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Threading.WaitHandle waitHandle
       // Size: 0x8
       // Offset: 0x0
       System::Threading::WaitHandle* waitHandle;
       // Field size check
       static_assert(sizeof(System::Threading::WaitHandle*) == 0x8);
+      public:
       // Creating conversion operator: operator System::Threading::WaitHandle*
       constexpr operator System::Threading::WaitHandle*() const noexcept {
         return waitHandle;
@@ -147,12 +153,18 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
       using declaring_type = AsyncOperationBase_1<TObject>*;
       static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass47_0";
       static constexpr bool IS_VALUE_TYPE = false;
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Threading.WaitHandle waitHandle
       // Size: 0x8
       // Offset: 0x0
       System::Threading::WaitHandle* waitHandle;
       // Field size check
       static_assert(sizeof(System::Threading::WaitHandle*) == 0x8);
+      public:
       // Creating conversion operator: operator System::Threading::WaitHandle*
       constexpr operator System::Threading::WaitHandle*() const noexcept {
         return waitHandle;
@@ -201,12 +213,18 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
       using declaring_type = AsyncOperationBase_1<TObject>*;
       static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass58_0";
       static constexpr bool IS_VALUE_TYPE = false;
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Action`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle> value
       // Size: 0x8
       // Offset: 0x0
       System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value;
       // Field size check
       static_assert(sizeof(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*) == 0x8);
+      public:
       // Creating conversion operator: operator System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*
       constexpr operator System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*() const noexcept {
         return value;
@@ -247,12 +265,18 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
       using declaring_type = AsyncOperationBase_1<TObject>*;
       static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass59_0";
       static constexpr bool IS_VALUE_TYPE = false;
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Action`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle> value
       // Size: 0x8
       // Offset: 0x0
       System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value;
       // Field size check
       static_assert(sizeof(System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*) == 0x8);
+      public:
       // Creating conversion operator: operator System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*
       constexpr operator System::Action_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*() const noexcept {
         return value;
@@ -284,6 +308,11 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
       }
     }; // UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1/UnityEngine.ResourceManagement.AsyncOperations.<>c__DisplayClass59_0
     // Could not write size check! Type: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1/UnityEngine.ResourceManagement.AsyncOperations.<>c__DisplayClass59_0 is generic, or has no fields that are valid for size checks!
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private TObject <Result>k__BackingField
     // Size: 0xFFFFFFFF
     // Offset: 0x0
@@ -378,6 +407,7 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     System::Action_1<float>* m_UpdateCallback;
     // Field size check
     static_assert(sizeof(System::Action_1<float>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation
     operator UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation() noexcept {
       return *reinterpret_cast<UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>(this);

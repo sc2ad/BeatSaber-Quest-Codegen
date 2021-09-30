@@ -28,6 +28,11 @@ namespace System::Reflection::Emit {
     public:
     // Writing base type padding for base size: 0x1C to desired offset: 0x20
     char ___base_padding[0x4] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String name
     // Size: 0x8
     // Offset: 0x20
@@ -52,6 +57,7 @@ namespace System::Reflection::Emit {
     int endOffset;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: private System.String name
     ::Il2CppString*& dyn_name();
     // Get instance field reference: System.Reflection.Emit.ILGenerator ilgen

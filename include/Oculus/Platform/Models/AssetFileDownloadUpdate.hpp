@@ -20,6 +20,11 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class AssetFileDownloadUpdate : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly System.UInt64 AssetFileId
     // Size: 0x8
     // Offset: 0x10
@@ -50,6 +55,7 @@ namespace Oculus::Platform::Models {
     bool Completed;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: public readonly System.UInt64 AssetFileId
     uint64_t& dyn_AssetFileId();
     // Get instance field reference: public readonly System.UInt64 AssetId

@@ -17,6 +17,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: OVR::OpenVR
@@ -54,12 +55,18 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   class CVRCompositor : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private OVR.OpenVR.IVRCompositor FnTable
     // Size: 0x158
     // Offset: 0x10
     OVR::OpenVR::IVRCompositor FnTable;
     // Field size check
     static_assert(sizeof(OVR::OpenVR::IVRCompositor) == 0x158);
+    public:
     // Creating conversion operator: operator OVR::OpenVR::IVRCompositor
     constexpr operator OVR::OpenVR::IVRCompositor() const noexcept {
       return FnTable;
@@ -81,10 +88,10 @@ namespace OVR::OpenVR {
     OVR::OpenVR::ETrackingUniverseOrigin GetTrackingSpace();
     // public OVR.OpenVR.EVRCompositorError WaitGetPoses(OVR.OpenVR.TrackedDevicePose_t[] pRenderPoseArray, OVR.OpenVR.TrackedDevicePose_t[] pGamePoseArray)
     // Offset: 0x176AF50
-    OVR::OpenVR::EVRCompositorError WaitGetPoses(::ArrayWrapper<OVR::OpenVR::TrackedDevicePose_t> pRenderPoseArray, ::ArrayWrapper<OVR::OpenVR::TrackedDevicePose_t> pGamePoseArray);
+    OVR::OpenVR::EVRCompositorError WaitGetPoses(::ArrayW<OVR::OpenVR::TrackedDevicePose_t> pRenderPoseArray, ::ArrayW<OVR::OpenVR::TrackedDevicePose_t> pGamePoseArray);
     // public OVR.OpenVR.EVRCompositorError GetLastPoses(OVR.OpenVR.TrackedDevicePose_t[] pRenderPoseArray, OVR.OpenVR.TrackedDevicePose_t[] pGamePoseArray)
     // Offset: 0x176AF84
-    OVR::OpenVR::EVRCompositorError GetLastPoses(::ArrayWrapper<OVR::OpenVR::TrackedDevicePose_t> pRenderPoseArray, ::ArrayWrapper<OVR::OpenVR::TrackedDevicePose_t> pGamePoseArray);
+    OVR::OpenVR::EVRCompositorError GetLastPoses(::ArrayW<OVR::OpenVR::TrackedDevicePose_t> pRenderPoseArray, ::ArrayW<OVR::OpenVR::TrackedDevicePose_t> pGamePoseArray);
     // public OVR.OpenVR.EVRCompositorError GetLastPoseForTrackedDeviceIndex(System.UInt32 unDeviceIndex, ref OVR.OpenVR.TrackedDevicePose_t pOutputPose, ref OVR.OpenVR.TrackedDevicePose_t pOutputGamePose)
     // Offset: 0x176AFB8
     OVR::OpenVR::EVRCompositorError GetLastPoseForTrackedDeviceIndex(uint unDeviceIndex, ByRef<OVR::OpenVR::TrackedDevicePose_t> pOutputPose, ByRef<OVR::OpenVR::TrackedDevicePose_t> pOutputGamePose);
@@ -123,7 +130,7 @@ namespace OVR::OpenVR {
     float GetCurrentGridAlpha();
     // public OVR.OpenVR.EVRCompositorError SetSkyboxOverride(OVR.OpenVR.Texture_t[] pTextures)
     // Offset: 0x176B114
-    OVR::OpenVR::EVRCompositorError SetSkyboxOverride(::ArrayWrapper<OVR::OpenVR::Texture_t> pTextures);
+    OVR::OpenVR::EVRCompositorError SetSkyboxOverride(::ArrayW<OVR::OpenVR::Texture_t> pTextures);
     // public System.Void ClearSkyboxOverride()
     // Offset: 0x176B13C
     void ClearSkyboxOverride();
@@ -233,7 +240,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVRCompositor::WaitGetPoses
 // Il2CppName: WaitGetPoses
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRCompositorError (OVR::OpenVR::CVRCompositor::*)(::ArrayWrapper<OVR::OpenVR::TrackedDevicePose_t>, ::ArrayWrapper<OVR::OpenVR::TrackedDevicePose_t>)>(&OVR::OpenVR::CVRCompositor::WaitGetPoses)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRCompositorError (OVR::OpenVR::CVRCompositor::*)(::ArrayW<OVR::OpenVR::TrackedDevicePose_t>, ::ArrayW<OVR::OpenVR::TrackedDevicePose_t>)>(&OVR::OpenVR::CVRCompositor::WaitGetPoses)> {
   static const MethodInfo* get() {
     static auto* pRenderPoseArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("OVR.OpenVR", "TrackedDevicePose_t"), 1)->byval_arg;
     static auto* pGamePoseArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("OVR.OpenVR", "TrackedDevicePose_t"), 1)->byval_arg;
@@ -243,7 +250,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVRCompositor::GetLastPoses
 // Il2CppName: GetLastPoses
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRCompositorError (OVR::OpenVR::CVRCompositor::*)(::ArrayWrapper<OVR::OpenVR::TrackedDevicePose_t>, ::ArrayWrapper<OVR::OpenVR::TrackedDevicePose_t>)>(&OVR::OpenVR::CVRCompositor::GetLastPoses)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRCompositorError (OVR::OpenVR::CVRCompositor::*)(::ArrayW<OVR::OpenVR::TrackedDevicePose_t>, ::ArrayW<OVR::OpenVR::TrackedDevicePose_t>)>(&OVR::OpenVR::CVRCompositor::GetLastPoses)> {
   static const MethodInfo* get() {
     static auto* pRenderPoseArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("OVR.OpenVR", "TrackedDevicePose_t"), 1)->byval_arg;
     static auto* pGamePoseArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("OVR.OpenVR", "TrackedDevicePose_t"), 1)->byval_arg;
@@ -371,7 +378,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (OVR:
 // Writing MetadataGetter for method: OVR::OpenVR::CVRCompositor::SetSkyboxOverride
 // Il2CppName: SetSkyboxOverride
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRCompositorError (OVR::OpenVR::CVRCompositor::*)(::ArrayWrapper<OVR::OpenVR::Texture_t>)>(&OVR::OpenVR::CVRCompositor::SetSkyboxOverride)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRCompositorError (OVR::OpenVR::CVRCompositor::*)(::ArrayW<OVR::OpenVR::Texture_t>)>(&OVR::OpenVR::CVRCompositor::SetSkyboxOverride)> {
   static const MethodInfo* get() {
     static auto* pTextures = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("OVR.OpenVR", "Texture_t"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(OVR::OpenVR::CVRCompositor*), "SetSkyboxOverride", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pTextures});

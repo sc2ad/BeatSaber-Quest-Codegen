@@ -22,12 +22,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ResetPlayerPrefsOnButton : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.KeyCode _keyCode
     // Size: 0x4
     // Offset: 0x18
     UnityEngine::KeyCode keyCode;
     // Field size check
     static_assert(sizeof(UnityEngine::KeyCode) == 0x4);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.KeyCode _keyCode

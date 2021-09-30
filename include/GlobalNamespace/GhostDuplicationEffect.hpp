@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -47,12 +48,17 @@ namespace GlobalNamespace {
     class $$c__DisplayClass7_0;
     // Nested type: GlobalNamespace::GhostDuplicationEffect::$HideRedundantWithDelay$d__8
     class $HideRedundantWithDelay$d__8;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.CanvasGroup[] _canvases
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<UnityEngine::CanvasGroup*> canvases;
+    ::ArrayW<UnityEngine::CanvasGroup*> canvases;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::CanvasGroup*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::CanvasGroup*>) == 0x8);
     // private System.Boolean isInitialized
     // Size: 0x1
     // Offset: 0x20
@@ -68,10 +74,11 @@ namespace GlobalNamespace {
     Tweening::TimeTweeningManager* tweeningManager;
     // Field size check
     static_assert(sizeof(Tweening::TimeTweeningManager*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.CanvasGroup[] _canvases
-    ::ArrayWrapper<UnityEngine::CanvasGroup*>& dyn__canvases();
+    ::ArrayW<UnityEngine::CanvasGroup*>& dyn__canvases();
     // Get instance field reference: private System.Boolean isInitialized
     bool& dyn_isInitialized();
     // Get instance field reference: private readonly Tweening.TimeTweeningManager _tweeningManager

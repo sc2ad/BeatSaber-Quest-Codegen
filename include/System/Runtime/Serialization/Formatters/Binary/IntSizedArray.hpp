@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: System.Runtime.Serialization.Formatters.Binary
 namespace System::Runtime::Serialization::Formatters::Binary {
@@ -21,26 +22,32 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   // [DefaultMemberAttribute] Offset: E5FA3C
   class IntSizedArray : public ::Il2CppObject/*, public System::ICloneable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Int32[] objects
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<int> objects;
+    ::ArrayW<int> objects;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // System.Int32[] negObjects
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<int> negObjects;
+    ::ArrayW<int> negObjects;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);
     }
     // Get instance field reference: System.Int32[] objects
-    ::ArrayWrapper<int>& dyn_objects();
+    ::ArrayW<int>& dyn_objects();
     // Get instance field reference: System.Int32[] negObjects
-    ::ArrayWrapper<int>& dyn_negObjects();
+    ::ArrayW<int>& dyn_negObjects();
     // System.Int32 get_Item(System.Int32 index)
     // Offset: 0x17EC0D0
     int get_Item(int index);
@@ -71,7 +78,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     }
   }; // System.Runtime.Serialization.Formatters.Binary.IntSizedArray
   #pragma pack(pop)
-  static check_size<sizeof(IntSizedArray), 24 + sizeof(::ArrayWrapper<int>)> __System_Runtime_Serialization_Formatters_Binary_IntSizedArraySizeCheck;
+  static check_size<sizeof(IntSizedArray), 24 + sizeof(::ArrayW<int>)> __System_Runtime_Serialization_Formatters_Binary_IntSizedArraySizeCheck;
   static_assert(sizeof(IntSizedArray) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::IntSizedArray*, "System.Runtime.Serialization.Formatters.Binary", "IntSizedArray");

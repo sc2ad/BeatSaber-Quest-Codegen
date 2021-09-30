@@ -6,6 +6,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Runtime.Remoting.Messaging.IMethodCallMessage
 #include "System/Runtime/Remoting/Messaging/IMethodCallMessage.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -55,7 +56,7 @@ namespace System::Runtime::Remoting::Activation {
     void set_Activator(System::Runtime::Remoting::Activation::IActivator* value);
     // public System.Object[] get_CallSiteActivationAttributes()
     // Offset: 0xFFFFFFFF
-    ::ArrayWrapper<::Il2CppObject*> get_CallSiteActivationAttributes();
+    ::ArrayW<::Il2CppObject*> get_CallSiteActivationAttributes();
     // public System.Collections.IList get_ContextProperties()
     // Offset: 0xFFFFFFFF
     System::Collections::IList* get_ContextProperties();
@@ -101,7 +102,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Runtime::Remoting::Activation::IConstructionCallMessage::get_CallSiteActivationAttributes
 // Il2CppName: get_CallSiteActivationAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppObject*> (System::Runtime::Remoting::Activation::IConstructionCallMessage::*)()>(&System::Runtime::Remoting::Activation::IConstructionCallMessage::get_CallSiteActivationAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppObject*> (System::Runtime::Remoting::Activation::IConstructionCallMessage::*)()>(&System::Runtime::Remoting::Activation::IConstructionCallMessage::get_CallSiteActivationAttributes)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Activation::IConstructionCallMessage*), "get_CallSiteActivationAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -42,6 +42,11 @@ namespace GlobalNamespace {
   // [RequireComponent] Offset: EB4D84
   class SteamVR_Camera : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Transform _head
     // Size: 0x8
     // Offset: 0x18
@@ -66,6 +71,7 @@ namespace GlobalNamespace {
     bool wireframe;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static private System.Collections.Hashtable values

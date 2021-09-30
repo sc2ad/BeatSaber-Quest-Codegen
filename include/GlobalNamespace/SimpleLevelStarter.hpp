@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -66,6 +67,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SimpleLevelStarter : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private BeatmapLevelSO _level
     // Size: 0x8
     // Offset: 0x18
@@ -103,9 +109,9 @@ namespace GlobalNamespace {
     // private UnityEngine.Component[] _prefabBindings
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayWrapper<UnityEngine::Component*> prefabBindings;
+    ::ArrayW<UnityEngine::Component*> prefabBindings;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Component*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Component*>) == 0x8);
     // [SpaceAttribute] Offset: 0xF152AC
     // private UnityEngine.UI.Button _button
     // Size: 0x8
@@ -146,6 +152,7 @@ namespace GlobalNamespace {
     GlobalNamespace::GameplayModifiers* gameplayModifiers;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayModifiers*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BeatmapLevelSO _level
@@ -159,7 +166,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.TextAsset _recordingTextAsset
     UnityEngine::TextAsset*& dyn__recordingTextAsset();
     // Get instance field reference: private UnityEngine.Component[] _prefabBindings
-    ::ArrayWrapper<UnityEngine::Component*>& dyn__prefabBindings();
+    ::ArrayW<UnityEngine::Component*>& dyn__prefabBindings();
     // Get instance field reference: private UnityEngine.UI.Button _button
     UnityEngine::UI::Button*& dyn__button();
     // Get instance field reference: private readonly MenuTransitionsHelper _menuTransitionsHelper

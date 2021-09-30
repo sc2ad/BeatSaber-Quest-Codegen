@@ -12,6 +12,7 @@
 #include "UnityEngine/Vector2.hpp"
 // Including type: UnityEngine.Color
 #include "UnityEngine/Color.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::UI
@@ -100,10 +101,10 @@ namespace UnityEngine::UI {
     static void _cctor();
     // static private UnityEngine.GameObject CreateUIElementRoot(System.String name, UnityEngine.Vector2 size, params System.Type[] components)
     // Offset: 0x15FC56C
-    static UnityEngine::GameObject* CreateUIElementRoot(::Il2CppString* name, UnityEngine::Vector2 size, ::ArrayWrapper<System::Type*> components);
+    static UnityEngine::GameObject* CreateUIElementRoot(::Il2CppString* name, UnityEngine::Vector2 size, ::ArrayW<System::Type*> components);
     // static private UnityEngine.GameObject CreateUIObject(System.String name, UnityEngine.GameObject parent, params System.Type[] components)
     // Offset: 0x15FC6D8
-    static UnityEngine::GameObject* CreateUIObject(::Il2CppString* name, UnityEngine::GameObject* parent, ::ArrayWrapper<System::Type*> components);
+    static UnityEngine::GameObject* CreateUIObject(::Il2CppString* name, UnityEngine::GameObject* parent, ::ArrayW<System::Type*> components);
     // static private System.Void SetDefaultTextValues(UnityEngine.UI.Text lbl)
     // Offset: 0x15FC92C
     static void SetDefaultTextValues(UnityEngine::UI::Text* lbl);
@@ -174,7 +175,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::CreateUIElementRoot
 // Il2CppName: CreateUIElementRoot
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(::Il2CppString*, UnityEngine::Vector2, ::ArrayWrapper<System::Type*>)>(&UnityEngine::UI::DefaultControls::CreateUIElementRoot)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(::Il2CppString*, UnityEngine::Vector2, ::ArrayW<System::Type*>)>(&UnityEngine::UI::DefaultControls::CreateUIElementRoot)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;
@@ -185,7 +186,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::CreateUIObject
 // Il2CppName: CreateUIObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(::Il2CppString*, UnityEngine::GameObject*, ::ArrayWrapper<System::Type*>)>(&UnityEngine::UI::DefaultControls::CreateUIObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (*)(::Il2CppString*, UnityEngine::GameObject*, ::ArrayW<System::Type*>)>(&UnityEngine::UI::DefaultControls::CreateUIObject)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* parent = &::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject")->byval_arg;

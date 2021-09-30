@@ -32,12 +32,18 @@ namespace System::Threading::Tasks {
   // [TokenAttribute] Offset: FFFFFFFF
   class TaskCanceledException : public System::OperationCanceledException {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Threading.Tasks.Task m_canceledTask
     // Size: 0x8
     // Offset: 0x90
     System::Threading::Tasks::Task* m_canceledTask;
     // Field size check
     static_assert(sizeof(System::Threading::Tasks::Task*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::Threading::CancellationToken
     constexpr operator System::Threading::CancellationToken() const noexcept = delete;
     // Get instance field reference: private System.Threading.Tasks.Task m_canceledTask

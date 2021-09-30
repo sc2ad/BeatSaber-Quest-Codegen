@@ -9,6 +9,7 @@
 #include "UnityEngine/ProBuilder/Triangle.hpp"
 // Including type: UnityEngine.ProBuilder.Edge
 #include "UnityEngine/ProBuilder/Edge.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::ProBuilder::MeshOperations
@@ -81,7 +82,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     static System::Collections::Generic::List_1<UnityEngine::ProBuilder::Edge>* RebuildEdges(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Edge>* edges, System::Collections::Generic::List_1<int>* removed);
     // static System.Void RebuildSelectionIndexes(UnityEngine.ProBuilder.ProBuilderMesh mesh, ref UnityEngine.ProBuilder.Face[] faces, ref UnityEngine.ProBuilder.Edge[] edges, ref System.Int32[] indices, System.Collections.Generic.IEnumerable`1<System.Int32> removed)
     // Offset: 0x18FBF8C
-    static void RebuildSelectionIndexes(UnityEngine::ProBuilder::ProBuilderMesh* mesh, ByRef<::ArrayWrapper<UnityEngine::ProBuilder::Face*>> faces, ByRef<::ArrayWrapper<UnityEngine::ProBuilder::Edge>> edges, ByRef<::ArrayWrapper<int>> indices, System::Collections::Generic::IEnumerable_1<int>* removed);
+    static void RebuildSelectionIndexes(UnityEngine::ProBuilder::ProBuilderMesh* mesh, ByRef<::ArrayW<UnityEngine::ProBuilder::Face*>> faces, ByRef<::ArrayW<UnityEngine::ProBuilder::Edge>> edges, ByRef<::ArrayW<int>> indices, System::Collections::Generic::IEnumerable_1<int>* removed);
     // static System.Boolean EnsureMeshIsValid(UnityEngine.ProBuilder.ProBuilderMesh mesh, out System.Int32 removedVertices)
     // Offset: 0x18FC120
     static bool EnsureMeshIsValid(UnityEngine::ProBuilder::ProBuilderMesh* mesh, ByRef<int> removedVertices);
@@ -193,7 +194,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::MeshValidation::RebuildSelectionIndexes
 // Il2CppName: RebuildSelectionIndexes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, ByRef<::ArrayWrapper<UnityEngine::ProBuilder::Face*>>, ByRef<::ArrayWrapper<UnityEngine::ProBuilder::Edge>>, ByRef<::ArrayWrapper<int>>, System::Collections::Generic::IEnumerable_1<int>*)>(&UnityEngine::ProBuilder::MeshOperations::MeshValidation::RebuildSelectionIndexes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, ByRef<::ArrayW<UnityEngine::ProBuilder::Face*>>, ByRef<::ArrayW<UnityEngine::ProBuilder::Edge>>, ByRef<::ArrayW<int>>, System::Collections::Generic::IEnumerable_1<int>*)>(&UnityEngine::ProBuilder::MeshOperations::MeshValidation::RebuildSelectionIndexes)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
     static auto* faces = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Face"), 1)->this_arg;

@@ -56,12 +56,18 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct MenuButton/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: MenuButton
       constexpr MenuButton(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -102,6 +108,11 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(MultiplayerModeSelectionViewController::MenuButton), 0 + sizeof(int)> __GlobalNamespace_MultiplayerModeSelectionViewController_MenuButtonSizeCheck;
     static_assert(sizeof(MultiplayerModeSelectionViewController::MenuButton) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.UI.Button _quickPlayButton
     // Size: 0x8
     // Offset: 0x70
@@ -152,6 +163,7 @@ namespace GlobalNamespace {
     System::Action_2<GlobalNamespace::MultiplayerModeSelectionViewController*, GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton>* didFinishEvent;
     // Field size check
     static_assert(sizeof(System::Action_2<GlobalNamespace::MultiplayerModeSelectionViewController*, GlobalNamespace::MultiplayerModeSelectionViewController::MenuButton>*) == 0x8);
+    public:
     // Get instance field reference: private UnityEngine.UI.Button _quickPlayButton
     UnityEngine::UI::Button*& dyn__quickPlayButton();
     // Get instance field reference: private UnityEngine.UI.Button _gameBrowserButton

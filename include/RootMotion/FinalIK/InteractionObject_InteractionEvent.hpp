@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Events
@@ -32,6 +33,11 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class InteractionObject::InteractionEvent : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [TooltipAttribute] Offset: 0xEF65C8
     // public System.Single time
     // Size: 0x4
@@ -59,16 +65,16 @@ namespace RootMotion::FinalIK {
     // public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.AnimatorEvent[] animations
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<RootMotion::FinalIK::InteractionObject::AnimatorEvent*> animations;
+    ::ArrayW<RootMotion::FinalIK::InteractionObject::AnimatorEvent*> animations;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::InteractionObject::AnimatorEvent*>) == 0x8);
+    static_assert(sizeof(::ArrayW<RootMotion::FinalIK::InteractionObject::AnimatorEvent*>) == 0x8);
     // [TooltipAttribute] Offset: 0xEF66A8
     // public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.Message[] messages
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<RootMotion::FinalIK::InteractionObject::Message*> messages;
+    ::ArrayW<RootMotion::FinalIK::InteractionObject::Message*> messages;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::InteractionObject::Message*>) == 0x8);
+    static_assert(sizeof(::ArrayW<RootMotion::FinalIK::InteractionObject::Message*>) == 0x8);
     // [TooltipAttribute] Offset: 0xEF66E0
     // public UnityEngine.Events.UnityEvent unityEvent
     // Size: 0x8
@@ -76,6 +82,7 @@ namespace RootMotion::FinalIK {
     UnityEngine::Events::UnityEvent* unityEvent;
     // Field size check
     static_assert(sizeof(UnityEngine::Events::UnityEvent*) == 0x8);
+    public:
     // Get instance field reference: public System.Single time
     float& dyn_time();
     // Get instance field reference: public System.Boolean pause
@@ -83,9 +90,9 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public System.Boolean pickUp
     bool& dyn_pickUp();
     // Get instance field reference: public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.AnimatorEvent[] animations
-    ::ArrayWrapper<RootMotion::FinalIK::InteractionObject::AnimatorEvent*>& dyn_animations();
+    ::ArrayW<RootMotion::FinalIK::InteractionObject::AnimatorEvent*>& dyn_animations();
     // Get instance field reference: public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.Message[] messages
-    ::ArrayWrapper<RootMotion::FinalIK::InteractionObject::Message*>& dyn_messages();
+    ::ArrayW<RootMotion::FinalIK::InteractionObject::Message*>& dyn_messages();
     // Get instance field reference: public UnityEngine.Events.UnityEvent unityEvent
     UnityEngine::Events::UnityEvent*& dyn_unityEvent();
     // public System.Void Activate(UnityEngine.Transform t)

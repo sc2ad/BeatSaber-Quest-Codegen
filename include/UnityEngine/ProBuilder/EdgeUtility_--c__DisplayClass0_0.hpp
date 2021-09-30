@@ -30,12 +30,18 @@ namespace UnityEngine::ProBuilder {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class EdgeUtility::$$c__DisplayClass0_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.ProBuilder.ProBuilderMesh mesh
     // Size: 0x8
     // Offset: 0x10
     UnityEngine::ProBuilder::ProBuilderMesh* mesh;
     // Field size check
     static_assert(sizeof(UnityEngine::ProBuilder::ProBuilderMesh*) == 0x8);
+    public:
     // Creating conversion operator: operator UnityEngine::ProBuilder::ProBuilderMesh*
     constexpr operator UnityEngine::ProBuilder::ProBuilderMesh*() const noexcept {
       return mesh;

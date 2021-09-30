@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -27,6 +28,11 @@ namespace System::Runtime::Remoting {
   // [TokenAttribute] Offset: FFFFFFFF
   class TypeInfo : public ::Il2CppObject/*, public System::Runtime::Remoting::IRemotingTypeInfo*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String serverType
     // Size: 0x8
     // Offset: 0x10
@@ -36,15 +42,16 @@ namespace System::Runtime::Remoting {
     // private System.String[] serverHierarchy
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<::Il2CppString*> serverHierarchy;
+    ::ArrayW<::Il2CppString*> serverHierarchy;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // private System.String[] interfacesImplemented
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<::Il2CppString*> interfacesImplemented;
+    ::ArrayW<::Il2CppString*> interfacesImplemented;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Runtime::Remoting::IRemotingTypeInfo
     operator System::Runtime::Remoting::IRemotingTypeInfo() noexcept {
       return *reinterpret_cast<System::Runtime::Remoting::IRemotingTypeInfo*>(this);
@@ -52,9 +59,9 @@ namespace System::Runtime::Remoting {
     // Get instance field reference: private System.String serverType
     ::Il2CppString*& dyn_serverType();
     // Get instance field reference: private System.String[] serverHierarchy
-    ::ArrayWrapper<::Il2CppString*>& dyn_serverHierarchy();
+    ::ArrayW<::Il2CppString*>& dyn_serverHierarchy();
     // Get instance field reference: private System.String[] interfacesImplemented
-    ::ArrayWrapper<::Il2CppString*>& dyn_interfacesImplemented();
+    ::ArrayW<::Il2CppString*>& dyn_interfacesImplemented();
     // public System.String get_TypeName()
     // Offset: 0x17E3278
     ::Il2CppString* get_TypeName();
@@ -70,7 +77,7 @@ namespace System::Runtime::Remoting {
     bool CanCastTo(System::Type* fromType, ::Il2CppObject* o);
   }; // System.Runtime.Remoting.TypeInfo
   #pragma pack(pop)
-  static check_size<sizeof(TypeInfo), 32 + sizeof(::ArrayWrapper<::Il2CppString*>)> __System_Runtime_Remoting_TypeInfoSizeCheck;
+  static check_size<sizeof(TypeInfo), 32 + sizeof(::ArrayW<::Il2CppString*>)> __System_Runtime_Remoting_TypeInfoSizeCheck;
   static_assert(sizeof(TypeInfo) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::TypeInfo*, "System.Runtime.Remoting", "TypeInfo");

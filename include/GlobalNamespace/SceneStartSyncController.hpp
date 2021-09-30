@@ -41,6 +41,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SceneStartSyncController : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xF0357C
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
@@ -97,6 +102,7 @@ namespace GlobalNamespace {
     bool sceneSyncStarted;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Single kLoadOtherTimeout

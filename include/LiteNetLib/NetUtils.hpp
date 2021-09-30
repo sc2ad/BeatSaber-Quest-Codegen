@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -60,7 +61,7 @@ namespace LiteNetLib {
     static System::Net::IPAddress* ResolveAddress(::Il2CppString* hostStr, System::Net::Sockets::AddressFamily addressFamily);
     // static private System.Net.IPAddress[] ResolveAddresses(System.String hostStr)
     // Offset: 0x1DDFB0C
-    static ::ArrayWrapper<System::Net::IPAddress*> ResolveAddresses(::Il2CppString* hostStr);
+    static ::ArrayW<System::Net::IPAddress*> ResolveAddresses(::Il2CppString* hostStr);
     // static public System.Collections.Generic.List`1<System.String> GetLocalIpList(LiteNetLib.LocalAddrType addrType)
     // Offset: 0x1DDFB30
     static System::Collections::Generic::List_1<::Il2CppString*>* GetLocalIpList(LiteNetLib::LocalAddrType addrType);
@@ -122,7 +123,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Writing MetadataGetter for method: LiteNetLib::NetUtils::ResolveAddresses
 // Il2CppName: ResolveAddresses
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::Net::IPAddress*> (*)(::Il2CppString*)>(&LiteNetLib::NetUtils::ResolveAddresses)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Net::IPAddress*> (*)(::Il2CppString*)>(&LiteNetLib::NetUtils::ResolveAddresses)> {
   static const MethodInfo* get() {
     static auto* hostStr = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::NetUtils*), "ResolveAddresses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hostStr});

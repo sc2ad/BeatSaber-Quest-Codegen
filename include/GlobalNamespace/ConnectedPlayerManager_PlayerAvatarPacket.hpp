@@ -41,12 +41,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ConnectedPlayerManager::PlayerAvatarPacket : public ::Il2CppObject/*, public LiteNetLib::Utils::INetSerializable, public GlobalNamespace::IPoolablePacket*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public MultiplayerAvatarData playerAvatar
     // Size: 0x70
     // Offset: 0x10
     GlobalNamespace::MultiplayerAvatarData playerAvatar;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerAvatarData) == 0x70);
+    public:
     // Creating interface conversion operator: operator LiteNetLib::Utils::INetSerializable
     operator LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<LiteNetLib::Utils::INetSerializable*>(this);

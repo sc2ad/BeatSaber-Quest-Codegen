@@ -31,12 +31,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class TutorialSongController::TutorialJumpingNoteSpawnData : public GlobalNamespace::TutorialSongController::TutorialObjectSpawnData {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly NoteLineLayer noteLineLayer
     // Size: 0x4
     // Offset: 0x24
     GlobalNamespace::NoteLineLayer noteLineLayer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::NoteLineLayer) == 0x4);
+    public:
     // Creating conversion operator: operator GlobalNamespace::NoteLineLayer
     constexpr operator GlobalNamespace::NoteLineLayer() const noexcept {
       return noteLineLayer;

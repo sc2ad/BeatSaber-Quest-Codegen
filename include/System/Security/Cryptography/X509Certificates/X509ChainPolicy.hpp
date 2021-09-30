@@ -42,6 +42,11 @@ namespace System::Security::Cryptography::X509Certificates {
   // [TokenAttribute] Offset: FFFFFFFF
   class X509ChainPolicy : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Security.Cryptography.OidCollection apps
     // Size: 0x8
     // Offset: 0x10
@@ -98,6 +103,7 @@ namespace System::Security::Cryptography::X509Certificates {
     System::DateTime vtime;
     // Field size check
     static_assert(sizeof(System::DateTime) == 0x8);
+    public:
     // Get instance field reference: private System.Security.Cryptography.OidCollection apps
     System::Security::Cryptography::OidCollection*& dyn_apps();
     // Get instance field reference: private System.Security.Cryptography.OidCollection cert

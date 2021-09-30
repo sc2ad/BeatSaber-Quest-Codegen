@@ -27,12 +27,18 @@ namespace Mono::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class CFProxySettings : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Mono.Net.CFDictionary settings
     // Size: 0x8
     // Offset: 0x10
     Mono::Net::CFDictionary* settings;
     // Field size check
     static_assert(sizeof(Mono::Net::CFDictionary*) == 0x8);
+    public:
     // Creating conversion operator: operator Mono::Net::CFDictionary*
     constexpr operator Mono::Net::CFDictionary*() const noexcept {
       return settings;

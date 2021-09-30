@@ -38,6 +38,11 @@ namespace System::Threading {
   // [TokenAttribute] Offset: FFFFFFFF
   class Timer::Scheduler : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.SortedList list
     // Size: 0x8
     // Offset: 0x10
@@ -50,6 +55,7 @@ namespace System::Threading {
     System::Threading::ManualResetEvent* changed;
     // Field size check
     static_assert(sizeof(System::Threading::ManualResetEvent*) == 0x8);
+    public:
     // Get static field: static private System.Threading.Timer/System.Threading.Scheduler instance
     static System::Threading::Timer::Scheduler* _get_instance();
     // Set static field: static private System.Threading.Timer/System.Threading.Scheduler instance

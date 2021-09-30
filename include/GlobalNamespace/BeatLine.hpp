@@ -54,6 +54,11 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct HighlightData/*, public System::ValueType*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Single startTime
       // Size: 0x4
       // Offset: 0x0
@@ -72,6 +77,7 @@ namespace GlobalNamespace {
       float halfJumpDuration;
       // Field size check
       static_assert(sizeof(float) == 0x4);
+      public:
       // Creating value type constructor for type: HighlightData
       constexpr HighlightData(float startTime_ = {}, float arriveDuration_ = {}, float halfJumpDuration_ = {}) noexcept : startTime{startTime_}, arriveDuration{arriveDuration_}, halfJumpDuration{halfJumpDuration_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -88,6 +94,11 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(BeatLine::HighlightData), 8 + sizeof(float)> __GlobalNamespace_BeatLine_HighlightDataSizeCheck;
     static_assert(sizeof(BeatLine::HighlightData) == 0xC);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private TubeBloomPrePassLight _tubeBloomPrePassLight
     // Size: 0x8
     // Offset: 0x30
@@ -136,6 +147,7 @@ namespace GlobalNamespace {
     float rotation;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: private TubeBloomPrePassLight _tubeBloomPrePassLight
     GlobalNamespace::TubeBloomPrePassLight*& dyn__tubeBloomPrePassLight();
     // Get instance field reference: private UnityEngine.AnimationCurve _arriveFadeCurve

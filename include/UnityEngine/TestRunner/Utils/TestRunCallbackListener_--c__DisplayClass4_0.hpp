@@ -33,12 +33,18 @@ namespace UnityEngine::TestRunner::Utils {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class TestRunCallbackListener::$$c__DisplayClass4_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public NUnit.Framework.Interfaces.ITestResult testResults
     // Size: 0x8
     // Offset: 0x10
     NUnit::Framework::Interfaces::ITestResult* testResults;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Interfaces::ITestResult*) == 0x8);
+    public:
     // Creating conversion operator: operator NUnit::Framework::Interfaces::ITestResult*
     constexpr operator NUnit::Framework::Interfaces::ITestResult*() const noexcept {
       return testResults;

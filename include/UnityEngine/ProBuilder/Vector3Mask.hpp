@@ -31,12 +31,18 @@ namespace UnityEngine::ProBuilder {
   // [DefaultMemberAttribute] Offset: F25840
   struct Vector3Mask/*, public System::ValueType, public System::IEquatable_1<UnityEngine::ProBuilder::Vector3Mask>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Byte m_Mask
     // Size: 0x1
     // Offset: 0x0
     uint8_t m_Mask;
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
+    public:
     // Creating value type constructor for type: Vector3Mask
     constexpr Vector3Mask(uint8_t m_Mask_ = {}) noexcept : m_Mask{m_Mask_} {}
     // Creating interface conversion operator: operator System::ValueType

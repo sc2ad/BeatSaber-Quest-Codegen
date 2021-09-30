@@ -29,6 +29,11 @@ namespace OnlineServices {
   // [IsReadOnlyAttribute] Offset: FFFFFFFF
   struct LevelScoreResultsData/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly IDifficultyBeatmap difficultyBeatmap
     // Size: 0x8
     // Offset: 0x0
@@ -87,6 +92,7 @@ namespace OnlineServices {
     GlobalNamespace::GameplayModifiers* gameplayModifiers;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayModifiers*) == 0x8);
+    public:
     // Creating value type constructor for type: LevelScoreResultsData
     constexpr LevelScoreResultsData(GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap_ = {}, int rawScore_ = {}, int modifiedScore_ = {}, bool fullCombo_ = {}, int goodCutsCount_ = {}, int badCutsCount_ = {}, int missedCount_ = {}, int maxCombo_ = {}, GlobalNamespace::GameplayModifiers* gameplayModifiers_ = {}) noexcept : difficultyBeatmap{difficultyBeatmap_}, rawScore{rawScore_}, modifiedScore{modifiedScore_}, fullCombo{fullCombo_}, goodCutsCount{goodCutsCount_}, badCutsCount{badCutsCount_}, missedCount{missedCount_}, maxCombo{maxCombo_}, gameplayModifiers{gameplayModifiers_} {}
     // Creating interface conversion operator: operator System::ValueType

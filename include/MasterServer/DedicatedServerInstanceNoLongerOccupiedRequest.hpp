@@ -39,6 +39,11 @@ namespace MasterServer {
     public:
     // Writing base type padding for base size: 0x14 to desired offset: 0x18
     char ___base_padding[0x4] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String <dedicatedServerId>k__BackingField
     // Size: 0x8
     // Offset: 0x18
@@ -57,6 +62,7 @@ namespace MasterServer {
     ::Il2CppString* id;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Creating interface conversion operator: operator MasterServer::IDedicatedServerClientToServerMessage
     operator MasterServer::IDedicatedServerClientToServerMessage() noexcept {
       return *reinterpret_cast<MasterServer::IDedicatedServerClientToServerMessage*>(this);

@@ -32,12 +32,18 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class MockBeatmapLoader::$$c__DisplayClass2_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public BeatmapIdentifierNetSerializable beatmap
     // Size: 0x8
     // Offset: 0x10
     GlobalNamespace::BeatmapIdentifierNetSerializable* beatmap;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapIdentifierNetSerializable*) == 0x8);
+    public:
     // Creating conversion operator: operator GlobalNamespace::BeatmapIdentifierNetSerializable*
     constexpr operator GlobalNamespace::BeatmapIdentifierNetSerializable*() const noexcept {
       return beatmap;

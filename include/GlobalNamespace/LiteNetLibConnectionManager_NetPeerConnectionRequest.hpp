@@ -34,6 +34,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LiteNetLibConnectionManager::NetPeerConnectionRequest : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.String _userId
     // Size: 0x8
     // Offset: 0x10
@@ -60,6 +65,7 @@ namespace GlobalNamespace {
     LiteNetLib::ConnectionRequest* request;
     // Field size check
     static_assert(sizeof(LiteNetLib::ConnectionRequest*) == 0x8);
+    public:
     // Get instance field reference: private readonly System.String _userId
     ::Il2CppString*& dyn__userId();
     // Get instance field reference: private readonly System.String _userName

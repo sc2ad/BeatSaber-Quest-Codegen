@@ -35,12 +35,18 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     public:
     // Nested type: UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider::InternalOp
     class InternalOp;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean <IgnoreFailures>k__BackingField
     // Size: 0x1
     // Offset: 0x1C
     bool IgnoreFailures;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating conversion operator: operator bool
     constexpr operator bool() const noexcept {
       return IgnoreFailures;

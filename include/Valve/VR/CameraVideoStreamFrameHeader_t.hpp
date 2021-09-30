@@ -21,6 +21,11 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct CameraVideoStreamFrameHeader_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public Valve.VR.EVRTrackedCameraFrameType eFrameType
     // Size: 0x4
     // Offset: 0x0
@@ -57,6 +62,7 @@ namespace Valve::VR {
     Valve::VR::TrackedDevicePose_t standingTrackedDevicePose;
     // Field size check
     static_assert(sizeof(Valve::VR::TrackedDevicePose_t) == 0x4E);
+    public:
     // Creating value type constructor for type: CameraVideoStreamFrameHeader_t
     constexpr CameraVideoStreamFrameHeader_t(Valve::VR::EVRTrackedCameraFrameType eFrameType_ = {}, uint nWidth_ = {}, uint nHeight_ = {}, uint nBytesPerPixel_ = {}, uint nFrameSequence_ = {}, Valve::VR::TrackedDevicePose_t standingTrackedDevicePose_ = {}) noexcept : eFrameType{eFrameType_}, nWidth{nWidth_}, nHeight{nHeight_}, nBytesPerPixel{nBytesPerPixel_}, nFrameSequence{nFrameSequence_}, standingTrackedDevicePose{standingTrackedDevicePose_} {}
     // Creating interface conversion operator: operator System::ValueType

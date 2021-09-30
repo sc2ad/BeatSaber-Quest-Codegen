@@ -29,6 +29,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SteamVR_Events::ActionNoArgs : public GlobalNamespace::SteamVR_Events::Action {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private SteamVR_Events/Event _event
     // Size: 0x8
     // Offset: 0x10
@@ -41,6 +46,7 @@ namespace GlobalNamespace {
     UnityEngine::Events::UnityAction* action;
     // Field size check
     static_assert(sizeof(UnityEngine::Events::UnityAction*) == 0x8);
+    public:
     // Get instance field reference: private SteamVR_Events/Event _event
     GlobalNamespace::SteamVR_Events::Event*& dyn__event();
     // Get instance field reference: private UnityEngine.Events.UnityAction action

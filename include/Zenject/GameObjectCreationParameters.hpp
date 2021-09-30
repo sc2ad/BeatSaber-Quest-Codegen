@@ -42,6 +42,11 @@ namespace Zenject {
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
   class GameObjectCreationParameters : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String <Name>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -74,6 +79,7 @@ namespace Zenject {
     // Size: 0xFFFFFFFF
     // Offset: 0x40
     System::Nullable_1<UnityEngine::Quaternion> Rotation;
+    public:
     // Get static field: static public readonly Zenject.GameObjectCreationParameters Default
     static Zenject::GameObjectCreationParameters* _get_Default();
     // Set static field: static public readonly Zenject.GameObjectCreationParameters Default

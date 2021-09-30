@@ -28,6 +28,11 @@ namespace System::IO {
   template<typename TSource>
   class Iterator_1 : public ::Il2CppObject/*, public System::Collections::Generic::IEnumerator_1<TSource>, public System::Collections::Generic::IEnumerable_1<TSource>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 threadId
     // Size: 0x4
     // Offset: 0x0
@@ -44,6 +49,7 @@ namespace System::IO {
     // Size: 0xFFFFFFFF
     // Offset: 0x0
     TSource current;
+    public:
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<TSource>
     operator System::Collections::Generic::IEnumerator_1<TSource>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<TSource>*>(this);

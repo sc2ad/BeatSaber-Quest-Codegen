@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Asn1
@@ -43,6 +44,11 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
   // [TokenAttribute] Offset: FFFFFFFF
   class Pbkdf2Params : public Org::BouncyCastle::Asn1::Asn1Encodable {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Org.BouncyCastle.Asn1.Asn1OctetString octStr
     // Size: 0x8
     // Offset: 0x10
@@ -67,6 +73,7 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* prf;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*) == 0x8);
+    public:
     // Get static field: static private Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier algid_hmacWithSHA1
     static Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* _get_algid_hmacWithSHA1();
     // Set static field: static private Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier algid_hmacWithSHA1
@@ -106,7 +113,7 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     static Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params* GetInstance(::Il2CppObject* obj);
     // public System.Byte[] GetSalt()
     // Offset: 0x1971388
-    ::ArrayWrapper<uint8_t> GetSalt();
+    ::ArrayW<uint8_t> GetSalt();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
     // Offset: 0x19714D8
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
@@ -175,7 +182,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::GetSalt
 // Il2CppName: GetSalt
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::*)()>(&Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::GetSalt)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::*)()>(&Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params::GetSalt)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params*), "GetSalt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

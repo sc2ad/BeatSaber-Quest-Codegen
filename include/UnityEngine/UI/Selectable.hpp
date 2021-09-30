@@ -31,6 +31,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::UI
@@ -96,12 +97,18 @@ namespace UnityEngine::UI {
     // [TokenAttribute] Offset: FFFFFFFF
     struct Transition/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: Transition
       constexpr Transition(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -142,6 +149,11 @@ namespace UnityEngine::UI {
     #pragma pack(pop)
     static check_size<sizeof(Selectable::Transition), 0 + sizeof(int)> __UnityEngine_UI_Selectable_TransitionSizeCheck;
     static_assert(sizeof(Selectable::Transition) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean m_EnableCalled
     // Size: 0x1
     // Offset: 0x18
@@ -244,6 +256,7 @@ namespace UnityEngine::UI {
     System::Collections::Generic::List_1<UnityEngine::CanvasGroup*>* m_CanvasGroupCache;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::CanvasGroup*>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator UnityEngine::EventSystems::IPointerEnterHandler
     operator UnityEngine::EventSystems::IPointerEnterHandler() noexcept {
       return *reinterpret_cast<UnityEngine::EventSystems::IPointerEnterHandler*>(this);
@@ -275,9 +288,9 @@ namespace UnityEngine::UI {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static protected UnityEngine.UI.Selectable[] s_Selectables
-    static ::ArrayWrapper<UnityEngine::UI::Selectable*> _get_s_Selectables();
+    static ::ArrayW<UnityEngine::UI::Selectable*> _get_s_Selectables();
     // Set static field: static protected UnityEngine.UI.Selectable[] s_Selectables
-    static void _set_s_Selectables(::ArrayWrapper<UnityEngine::UI::Selectable*> value);
+    static void _set_s_Selectables(::ArrayW<UnityEngine::UI::Selectable*> value);
     // Get static field: static protected System.Int32 s_SelectableCount
     static int _get_s_SelectableCount();
     // Set static field: static protected System.Int32 s_SelectableCount
@@ -312,7 +325,7 @@ namespace UnityEngine::UI {
     System::Collections::Generic::List_1<UnityEngine::CanvasGroup*>*& dyn_m_CanvasGroupCache();
     // static public UnityEngine.UI.Selectable[] get_allSelectablesArray()
     // Offset: 0x1B59A88
-    static ::ArrayWrapper<UnityEngine::UI::Selectable*> get_allSelectablesArray();
+    static ::ArrayW<UnityEngine::UI::Selectable*> get_allSelectablesArray();
     // static public System.Int32 get_allSelectableCount()
     // Offset: 0x1B59B28
     static int get_allSelectableCount();
@@ -393,7 +406,7 @@ namespace UnityEngine::UI {
     UnityEngine::UI::Selectable::SelectionState get_currentSelectionState();
     // static public System.Int32 AllSelectablesNoAlloc(UnityEngine.UI.Selectable[] selectables)
     // Offset: 0x1B59C24
-    static int AllSelectablesNoAlloc(::ArrayWrapper<UnityEngine::UI::Selectable*> selectables);
+    static int AllSelectablesNoAlloc(::ArrayW<UnityEngine::UI::Selectable*> selectables);
     // public System.Boolean IsInteractable()
     // Offset: 0x1B5A5E0
     bool IsInteractable();
@@ -529,7 +542,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Selectable::Transition, "UnityEngine.UI"
 // Writing MetadataGetter for method: UnityEngine::UI::Selectable::get_allSelectablesArray
 // Il2CppName: get_allSelectablesArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::UI::Selectable*> (*)()>(&UnityEngine::UI::Selectable::get_allSelectablesArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::UI::Selectable*> (*)()>(&UnityEngine::UI::Selectable::get_allSelectablesArray)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Selectable*), "get_allSelectablesArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -756,7 +769,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::UI::Selectable::AllSelectablesNoAlloc
 // Il2CppName: AllSelectablesNoAlloc
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayWrapper<UnityEngine::UI::Selectable*>)>(&UnityEngine::UI::Selectable::AllSelectablesNoAlloc)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayW<UnityEngine::UI::Selectable*>)>(&UnityEngine::UI::Selectable::AllSelectablesNoAlloc)> {
   static const MethodInfo* get() {
     static auto* selectables = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine.UI", "Selectable"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::UI::Selectable*), "AllSelectablesNoAlloc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{selectables});

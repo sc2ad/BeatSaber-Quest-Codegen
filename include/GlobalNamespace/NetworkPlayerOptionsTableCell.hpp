@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::UI
@@ -42,18 +43,23 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class NetworkPlayerOptionsTableCell : public HMUI::TableCell {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.UI.Button[] _buttons
     // Size: 0x8
     // Offset: 0x50
-    ::ArrayWrapper<UnityEngine::UI::Button*> buttons;
+    ::ArrayW<UnityEngine::UI::Button*> buttons;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::UI::Button*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::UI::Button*>) == 0x8);
     // private TMPro.TextMeshProUGUI[] _buttonTexts
     // Size: 0x8
     // Offset: 0x58
-    ::ArrayWrapper<TMPro::TextMeshProUGUI*> buttonTexts;
+    ::ArrayW<TMPro::TextMeshProUGUI*> buttonTexts;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<TMPro::TextMeshProUGUI*>) == 0x8);
+    static_assert(sizeof(::ArrayW<TMPro::TextMeshProUGUI*>) == 0x8);
     // private HMUI.ButtonBinder _buttonBinder
     // Size: 0x8
     // Offset: 0x60
@@ -66,10 +72,11 @@ namespace GlobalNamespace {
     GlobalNamespace::INetworkPlayer* player;
     // Field size check
     static_assert(sizeof(GlobalNamespace::INetworkPlayer*) == 0x8);
+    public:
     // Get instance field reference: private UnityEngine.UI.Button[] _buttons
-    ::ArrayWrapper<UnityEngine::UI::Button*>& dyn__buttons();
+    ::ArrayW<UnityEngine::UI::Button*>& dyn__buttons();
     // Get instance field reference: private TMPro.TextMeshProUGUI[] _buttonTexts
-    ::ArrayWrapper<TMPro::TextMeshProUGUI*>& dyn__buttonTexts();
+    ::ArrayW<TMPro::TextMeshProUGUI*>& dyn__buttonTexts();
     // Get instance field reference: private HMUI.ButtonBinder _buttonBinder
     HMUI::ButtonBinder*& dyn__buttonBinder();
     // Get instance field reference: private INetworkPlayer _player

@@ -73,12 +73,18 @@ namespace Zenject {
       using declaring_type = FactoryFromBinder_11<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>*;
       static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass1_0";
       static constexpr bool IS_VALUE_TYPE = false;
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Func`12<Zenject.DiContainer,TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TParam8,TParam9,TParam10,TContract> method
       // Size: 0x8
       // Offset: 0x0
       System::Func_12<Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>* method;
       // Field size check
       static_assert(sizeof(System::Func_12<Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>*) == 0x8);
+      public:
       // Creating conversion operator: operator System::Func_12<Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>*
       constexpr operator System::Func_12<Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>*() const noexcept {
         return method;
@@ -179,12 +185,18 @@ namespace Zenject {
       using declaring_type = FactoryFromBinder_11<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TContract>*;
       static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass3_0";
       static constexpr bool IS_VALUE_TYPE = false;
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Guid factoryId
       // Size: 0x10
       // Offset: 0x0
       System::Guid factoryId;
       // Field size check
       static_assert(sizeof(System::Guid) == 0x10);
+      public:
       // Creating conversion operator: operator System::Guid
       constexpr operator System::Guid() const noexcept {
         return factoryId;

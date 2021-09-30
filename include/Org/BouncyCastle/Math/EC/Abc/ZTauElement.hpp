@@ -25,6 +25,11 @@ namespace Org::BouncyCastle::Math::EC::Abc {
   // [TokenAttribute] Offset: FFFFFFFF
   class ZTauElement : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly Org.BouncyCastle.Math.BigInteger u
     // Size: 0x8
     // Offset: 0x10
@@ -37,6 +42,7 @@ namespace Org::BouncyCastle::Math::EC::Abc {
     Org::BouncyCastle::Math::BigInteger* v;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Math::BigInteger*) == 0x8);
+    public:
     // Get instance field reference: public readonly Org.BouncyCastle.Math.BigInteger u
     Org::BouncyCastle::Math::BigInteger*& dyn_u();
     // Get instance field reference: public readonly Org.BouncyCastle.Math.BigInteger v

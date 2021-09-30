@@ -34,12 +34,18 @@ namespace GlobalNamespace {
     public:
     // Writing base type padding for base size: 0x39 to desired offset: 0x40
     char ___base_padding[0x7] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private PointLight _pointLight
     // Size: 0x8
     // Offset: 0x40
     GlobalNamespace::PointLight* pointLight;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PointLight*) == 0x8);
+    public:
     // Get instance field reference: private PointLight _pointLight
     GlobalNamespace::PointLight*& dyn__pointLight();
     // public System.Void .ctor()

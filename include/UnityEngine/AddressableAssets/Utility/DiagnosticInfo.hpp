@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::ResourceManagement::Diagnostics
@@ -27,6 +28,11 @@ namespace UnityEngine::AddressableAssets::Utility {
   // [TokenAttribute] Offset: FFFFFFFF
   class DiagnosticInfo : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.String DisplayName
     // Size: 0x8
     // Offset: 0x10
@@ -44,15 +50,16 @@ namespace UnityEngine::AddressableAssets::Utility {
     // public System.Int32[] Dependencies
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<int> Dependencies;
+    ::ArrayW<int> Dependencies;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
+    public:
     // Get instance field reference: public System.String DisplayName
     ::Il2CppString*& dyn_DisplayName();
     // Get instance field reference: public System.Int32 ObjectId
     int& dyn_ObjectId();
     // Get instance field reference: public System.Int32[] Dependencies
-    ::ArrayWrapper<int>& dyn_Dependencies();
+    ::ArrayW<int>& dyn_Dependencies();
     // public UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent CreateEvent(System.String category, UnityEngine.ResourceManagement.ResourceManager/UnityEngine.ResourceManagement.DiagnosticEventType eventType, System.Int32 frame, System.Int32 val)
     // Offset: 0x25EF2E4
     UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent CreateEvent(::Il2CppString* category, UnityEngine::ResourceManagement::ResourceManager::DiagnosticEventType eventType, int frame, int val);
@@ -67,7 +74,7 @@ namespace UnityEngine::AddressableAssets::Utility {
     }
   }; // UnityEngine.AddressableAssets.Utility.DiagnosticInfo
   #pragma pack(pop)
-  static check_size<sizeof(DiagnosticInfo), 32 + sizeof(::ArrayWrapper<int>)> __UnityEngine_AddressableAssets_Utility_DiagnosticInfoSizeCheck;
+  static check_size<sizeof(DiagnosticInfo), 32 + sizeof(::ArrayW<int>)> __UnityEngine_AddressableAssets_Utility_DiagnosticInfoSizeCheck;
   static_assert(sizeof(DiagnosticInfo) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::AddressableAssets::Utility::DiagnosticInfo*, "UnityEngine.AddressableAssets.Utility", "DiagnosticInfo");

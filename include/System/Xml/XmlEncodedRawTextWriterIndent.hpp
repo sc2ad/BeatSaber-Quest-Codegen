@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Xml
@@ -40,6 +41,11 @@ namespace System::Xml {
     public:
     // Writing base type padding for base size: 0xB6 to desired offset: 0xB8
     char ___base_padding[0x2] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // protected System.Int32 indentLevel
     // Size: 0x4
     // Offset: 0xB8
@@ -80,6 +86,7 @@ namespace System::Xml {
     System::Xml::ConformanceLevel conformanceLevel;
     // Field size check
     static_assert(sizeof(System::Xml::ConformanceLevel) == 0x4);
+    public:
     // Get instance field reference: protected System.Int32 indentLevel
     int& dyn_indentLevel();
     // Get instance field reference: protected System.Boolean newLineOnAttributes
@@ -195,12 +202,12 @@ namespace System::Xml {
     // Offset: 0x1B03BBC
     // Implemented from: System.Xml.XmlEncodedRawTextWriter
     // Base method: System.Void XmlEncodedRawTextWriter::WriteChars(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    void WriteChars(::ArrayWrapper<::Il2CppChar> buffer, int index, int count);
+    void WriteChars(::ArrayW<::Il2CppChar> buffer, int index, int count);
     // public override System.Void WriteRaw(System.Char[] buffer, System.Int32 index, System.Int32 count)
     // Offset: 0x1B03BC8
     // Implemented from: System.Xml.XmlEncodedRawTextWriter
     // Base method: System.Void XmlEncodedRawTextWriter::WriteRaw(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    void WriteRaw(::ArrayWrapper<::Il2CppChar> buffer, int index, int count);
+    void WriteRaw(::ArrayW<::Il2CppChar> buffer, int index, int count);
     // public override System.Void WriteRaw(System.String data)
     // Offset: 0x1B03BD4
     // Implemented from: System.Xml.XmlEncodedRawTextWriter
@@ -210,7 +217,7 @@ namespace System::Xml {
     // Offset: 0x1B03BE0
     // Implemented from: System.Xml.XmlRawWriter
     // Base method: System.Void XmlRawWriter::WriteBase64(System.Byte[] buffer, System.Int32 index, System.Int32 count)
-    void WriteBase64(::ArrayWrapper<uint8_t> buffer, int index, int count);
+    void WriteBase64(::ArrayW<uint8_t> buffer, int index, int count);
   }; // System.Xml.XmlEncodedRawTextWriterIndent
   #pragma pack(pop)
   static check_size<sizeof(XmlEncodedRawTextWriterIndent), 216 + sizeof(System::Xml::ConformanceLevel)> __System_Xml_XmlEncodedRawTextWriterIndentSizeCheck;
@@ -393,7 +400,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlEncodedRawTextWriterIndent::WriteChars
 // Il2CppName: WriteChars
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlEncodedRawTextWriterIndent::*)(::ArrayWrapper<::Il2CppChar>, int, int)>(&System::Xml::XmlEncodedRawTextWriterIndent::WriteChars)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlEncodedRawTextWriterIndent::*)(::ArrayW<::Il2CppChar>, int, int)>(&System::Xml::XmlEncodedRawTextWriterIndent::WriteChars)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -404,7 +411,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlEncodedRawTextWriterIndent::WriteRaw
 // Il2CppName: WriteRaw
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlEncodedRawTextWriterIndent::*)(::ArrayWrapper<::Il2CppChar>, int, int)>(&System::Xml::XmlEncodedRawTextWriterIndent::WriteRaw)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlEncodedRawTextWriterIndent::*)(::ArrayW<::Il2CppChar>, int, int)>(&System::Xml::XmlEncodedRawTextWriterIndent::WriteRaw)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -424,7 +431,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlEncodedRawTextWriterIndent::WriteBase64
 // Il2CppName: WriteBase64
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlEncodedRawTextWriterIndent::*)(::ArrayWrapper<uint8_t>, int, int)>(&System::Xml::XmlEncodedRawTextWriterIndent::WriteBase64)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlEncodedRawTextWriterIndent::*)(::ArrayW<uint8_t>, int, int)>(&System::Xml::XmlEncodedRawTextWriterIndent::WriteBase64)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

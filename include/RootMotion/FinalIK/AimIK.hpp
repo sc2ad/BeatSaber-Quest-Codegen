@@ -33,12 +33,18 @@ namespace RootMotion::FinalIK {
     public:
     // Writing base type padding for base size: 0x33 to desired offset: 0x38
     char ___base_padding[0x5] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public RootMotion.FinalIK.IKSolverAim solver
     // Size: 0x8
     // Offset: 0x38
     RootMotion::FinalIK::IKSolverAim* solver;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::IKSolverAim*) == 0x8);
+    public:
     // Get instance field reference: public RootMotion.FinalIK.IKSolverAim solver
     RootMotion::FinalIK::IKSolverAim*& dyn_solver();
     // private System.Void OpenSetupTutorial()

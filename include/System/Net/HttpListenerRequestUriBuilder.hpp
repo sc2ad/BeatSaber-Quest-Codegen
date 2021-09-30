@@ -10,6 +10,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net
@@ -49,6 +50,11 @@ namespace System::Net {
     struct ParsingResult;
     // Nested type: System::Net::HttpListenerRequestUriBuilder::EncodingType
     struct EncodingType;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.String rawUri
     // Size: 0x8
     // Offset: 0x10
@@ -103,6 +109,7 @@ namespace System::Net {
     System::Uri* requestUri;
     // Field size check
     static_assert(sizeof(System::Uri*) == 0x8);
+    public:
     // Get static field: static private readonly System.Boolean useCookedRequestUrl
     static bool _get_useCookedRequestUrl();
     // Set static field: static private readonly System.Boolean useCookedRequestUrl
@@ -187,7 +194,7 @@ namespace System::Net {
     static ::Il2CppString* AddSlashToAsteriskOnlyPath(::Il2CppString* path);
     // private System.Void LogWarning(System.String methodName, System.String message, params System.Object[] args)
     // Offset: 0x1843DA8
-    void LogWarning(::Il2CppString* methodName, ::Il2CppString* message, ::ArrayWrapper<::Il2CppObject*> args);
+    void LogWarning(::Il2CppString* methodName, ::Il2CppString* message, ::ArrayW<::Il2CppObject*> args);
   }; // System.Net.HttpListenerRequestUriBuilder
   #pragma pack(pop)
   static check_size<sizeof(HttpListenerRequestUriBuilder), 80 + sizeof(System::Uri*)> __System_Net_HttpListenerRequestUriBuilderSizeCheck;
@@ -339,7 +346,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Net::HttpListenerRequestUriBuilder::LogWarning
 // Il2CppName: LogWarning
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpListenerRequestUriBuilder::*)(::Il2CppString*, ::Il2CppString*, ::ArrayWrapper<::Il2CppObject*>)>(&System::Net::HttpListenerRequestUriBuilder::LogWarning)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpListenerRequestUriBuilder::*)(::Il2CppString*, ::Il2CppString*, ::ArrayW<::Il2CppObject*>)>(&System::Net::HttpListenerRequestUriBuilder::LogWarning)> {
   static const MethodInfo* get() {
     static auto* methodName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

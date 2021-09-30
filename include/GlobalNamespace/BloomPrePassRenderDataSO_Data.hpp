@@ -33,6 +33,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BloomPrePassRenderDataSO::Data : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.RenderTexture bloomPrePassRenderTexture
     // Size: 0x8
     // Offset: 0x10
@@ -69,6 +74,7 @@ namespace GlobalNamespace {
     GlobalNamespace::ToneMapping toneMapping;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ToneMapping) == 0x4);
+    public:
     // Get instance field reference: public UnityEngine.RenderTexture bloomPrePassRenderTexture
     UnityEngine::RenderTexture*& dyn_bloomPrePassRenderTexture();
     // Get instance field reference: public UnityEngine.Vector2 textureToScreenRatio

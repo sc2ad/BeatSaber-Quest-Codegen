@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net::Http::Headers
@@ -35,6 +36,11 @@ namespace System::Net::Http::Headers {
   // [TokenAttribute] Offset: FFFFFFFF
   class Lexer : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.String s
     // Size: 0x8
     // Offset: 0x10
@@ -47,18 +53,19 @@ namespace System::Net::Http::Headers {
     int pos;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get static field: static private readonly System.Boolean[] token_chars
-    static ::ArrayWrapper<bool> _get_token_chars();
+    static ::ArrayW<bool> _get_token_chars();
     // Set static field: static private readonly System.Boolean[] token_chars
-    static void _set_token_chars(::ArrayWrapper<bool> value);
+    static void _set_token_chars(::ArrayW<bool> value);
     // Get static field: static private readonly System.Int32 last_token_char
     static int _get_last_token_char();
     // Set static field: static private readonly System.Int32 last_token_char
     static void _set_last_token_char(int value);
     // Get static field: static private readonly System.String[] dt_formats
-    static ::ArrayWrapper<::Il2CppString*> _get_dt_formats();
+    static ::ArrayW<::Il2CppString*> _get_dt_formats();
     // Set static field: static private readonly System.String[] dt_formats
-    static void _set_dt_formats(::ArrayWrapper<::Il2CppString*> value);
+    static void _set_dt_formats(::ArrayW<::Il2CppString*> value);
     // Get instance field reference: private readonly System.String s
     ::Il2CppString*& dyn_s();
     // Get instance field reference: private System.Int32 pos

@@ -51,6 +51,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class DevicelessVRHelper : public UnityEngine::MonoBehaviour/*, public GlobalNamespace::IVRPlatformHelper*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Action inputFocusWasCapturedEvent
     // Size: 0x8
     // Offset: 0x18
@@ -111,6 +116,7 @@ namespace GlobalNamespace {
     bool scrollingLastFrame;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IVRPlatformHelper
     operator GlobalNamespace::IVRPlatformHelper() noexcept {
       return *reinterpret_cast<GlobalNamespace::IVRPlatformHelper*>(this);

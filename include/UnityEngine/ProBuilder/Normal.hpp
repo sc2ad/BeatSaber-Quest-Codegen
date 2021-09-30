@@ -23,6 +23,11 @@ namespace UnityEngine::ProBuilder {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Normal/*, public System::ValueType, public System::IEquatable_1<UnityEngine::ProBuilder::Normal>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Vector3 <normal>k__BackingField
     // Size: 0xC
     // Offset: 0x0
@@ -41,6 +46,7 @@ namespace UnityEngine::ProBuilder {
     UnityEngine::Vector3 bitangent;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    public:
     // Creating value type constructor for type: Normal
     constexpr Normal(UnityEngine::Vector3 normal_ = {}, UnityEngine::Vector4 tangent_ = {}, UnityEngine::Vector3 bitangent_ = {}) noexcept : normal{normal_}, tangent{tangent_}, bitangent{bitangent_} {}
     // Creating interface conversion operator: operator System::ValueType

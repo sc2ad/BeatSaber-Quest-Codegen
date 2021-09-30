@@ -30,12 +30,18 @@ namespace UnityEngine::EventSystems {
   // [TokenAttribute] Offset: FFFFFFFF
   class PointerInputModule::MouseState : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.List`1<UnityEngine.EventSystems.PointerInputModule/UnityEngine.EventSystems.ButtonState> m_TrackedButtons
     // Size: 0x8
     // Offset: 0x10
     System::Collections::Generic::List_1<UnityEngine::EventSystems::PointerInputModule::ButtonState*>* m_TrackedButtons;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::EventSystems::PointerInputModule::ButtonState*>*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Collections::Generic::List_1<UnityEngine::EventSystems::PointerInputModule::ButtonState*>*
     constexpr operator System::Collections::Generic::List_1<UnityEngine::EventSystems::PointerInputModule::ButtonState*>*() const noexcept {
       return m_TrackedButtons;

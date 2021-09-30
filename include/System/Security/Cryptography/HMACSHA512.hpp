@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: System.Security.Cryptography
 namespace System::Security::Cryptography {
@@ -21,12 +22,18 @@ namespace System::Security::Cryptography {
   // [ComVisibleAttribute] Offset: E5F31C
   class HMACSHA512 : public System::Security::Cryptography::HMAC {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean m_useLegacyBlockSize
     // Size: 0x1
     // Offset: 0x61
     bool m_useLegacyBlockSize;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private System.Boolean m_useLegacyBlockSize
     bool& dyn_m_useLegacyBlockSize();
     // private System.Int32 get_BlockSize()
@@ -35,7 +42,7 @@ namespace System::Security::Cryptography {
     // public System.Void .ctor(System.Byte[] key)
     // Offset: 0x1A76D44
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static HMACSHA512* New_ctor(::ArrayWrapper<uint8_t> key) {
+    static HMACSHA512* New_ctor(::ArrayW<uint8_t> key) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::HMACSHA512::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HMACSHA512*, creationType>(key)));
     }

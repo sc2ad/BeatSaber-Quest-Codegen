@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net
@@ -114,12 +115,18 @@ namespace System::Net {
     // [TokenAttribute] Offset: FFFFFFFF
     struct NtlmAuthState/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: NtlmAuthState
       constexpr NtlmAuthState(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -161,6 +168,11 @@ namespace System::Net {
     // [TokenAttribute] Offset: FFFFFFFF
     struct AuthorizationState/*, public System::ValueType*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // private readonly System.Net.HttpWebRequest request
       // Size: 0x8
       // Offset: 0x0
@@ -187,6 +199,7 @@ namespace System::Net {
       System::Net::HttpWebRequest::NtlmAuthState ntlm_auth_state;
       // Field size check
       static_assert(sizeof(System::Net::HttpWebRequest::NtlmAuthState) == 0x4);
+      public:
       // Creating value type constructor for type: AuthorizationState
       constexpr AuthorizationState(System::Net::HttpWebRequest* request_ = {}, bool isProxy_ = {}, bool isCompleted_ = {}, System::Net::HttpWebRequest::NtlmAuthState ntlm_auth_state_ = {}) noexcept : request{request_}, isProxy{isProxy_}, isCompleted{isCompleted_}, ntlm_auth_state{ntlm_auth_state_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -228,6 +241,11 @@ namespace System::Net {
     #pragma pack(pop)
     static check_size<sizeof(HttpWebRequest::AuthorizationState), 12 + sizeof(System::Net::HttpWebRequest::NtlmAuthState)> __System_Net_HttpWebRequest_AuthorizationStateSizeCheck;
     static_assert(sizeof(HttpWebRequest::AuthorizationState) == 0x10);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Uri requestUri
     // Size: 0x8
     // Offset: 0x20
@@ -491,9 +509,9 @@ namespace System::Net {
     // private System.Byte[] bodyBuffer
     // Size: 0x8
     // Offset: 0x118
-    ::ArrayWrapper<uint8_t> bodyBuffer;
+    ::ArrayW<uint8_t> bodyBuffer;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Int32 bodyBufferLength
     // Size: 0x4
     // Offset: 0x120
@@ -614,6 +632,7 @@ namespace System::Net {
     System::Net::WebConnection* StoredConnection;
     // Field size check
     static_assert(sizeof(System::Net::WebConnection*) == 0x8);
+    public:
     // Get static field: static private System.Int32 defaultMaxResponseHeadersLength
     static int _get_defaultMaxResponseHeadersLength();
     // Set static field: static private System.Int32 defaultMaxResponseHeadersLength
@@ -699,7 +718,7 @@ namespace System::Net {
     // Get instance field reference: private System.Boolean expectContinue
     bool& dyn_expectContinue();
     // Get instance field reference: private System.Byte[] bodyBuffer
-    ::ArrayWrapper<uint8_t>& dyn_bodyBuffer();
+    ::ArrayW<uint8_t>& dyn_bodyBuffer();
     // Get instance field reference: private System.Int32 bodyBufferLength
     int& dyn_bodyBufferLength();
     // Get instance field reference: private System.Boolean getResponseCalled
@@ -903,7 +922,7 @@ namespace System::Net {
     void SetWriteStreamError(System::Net::WebExceptionStatus status, System::Exception* exc);
     // System.Byte[] GetRequestHeaders()
     // Offset: 0x1849BEC
-    ::ArrayWrapper<uint8_t> GetRequestHeaders();
+    ::ArrayW<uint8_t> GetRequestHeaders();
     // System.Void SetWriteStream(System.Net.WebConnectionStream stream)
     // Offset: 0x1849F38
     void SetWriteStream(System::Net::WebConnectionStream* stream);
@@ -1534,7 +1553,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::HttpWebRequest::GetRequestHeaders
 // Il2CppName: GetRequestHeaders
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (System::Net::HttpWebRequest::*)()>(&System::Net::HttpWebRequest::GetRequestHeaders)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (System::Net::HttpWebRequest::*)()>(&System::Net::HttpWebRequest::GetRequestHeaders)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::HttpWebRequest*), "GetRequestHeaders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

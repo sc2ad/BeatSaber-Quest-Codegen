@@ -46,12 +46,18 @@ namespace Zenject {
   template<typename TConcrete>
   class FromBinder::$$c__DisplayClass70_0_1 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Func`2<Zenject.InjectContext,System.Collections.Generic.IEnumerable`1<TConcrete>> method
     // Size: 0x8
     // Offset: 0x0
     System::Func_2<Zenject::InjectContext*, System::Collections::Generic::IEnumerable_1<TConcrete>*>* method;
     // Field size check
     static_assert(sizeof(System::Func_2<Zenject::InjectContext*, System::Collections::Generic::IEnumerable_1<TConcrete>*>*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Func_2<Zenject::InjectContext*, System::Collections::Generic::IEnumerable_1<TConcrete>*>*
     constexpr operator System::Func_2<Zenject::InjectContext*, System::Collections::Generic::IEnumerable_1<TConcrete>*>*() const noexcept {
       return method;

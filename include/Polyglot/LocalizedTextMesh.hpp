@@ -38,6 +38,11 @@ namespace Polyglot {
   // [RequireComponent] Offset: EE4E5C
   class LocalizedTextMesh : public UnityEngine::MonoBehaviour/*, public Polyglot::ILocalize*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [TooltipAttribute] Offset: 0xEE53C0
     // private UnityEngine.TextMesh text
     // Size: 0x8
@@ -53,6 +58,7 @@ namespace Polyglot {
     ::Il2CppString* key;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Creating interface conversion operator: operator Polyglot::ILocalize
     operator Polyglot::ILocalize() noexcept {
       return *reinterpret_cast<Polyglot::ILocalize*>(this);

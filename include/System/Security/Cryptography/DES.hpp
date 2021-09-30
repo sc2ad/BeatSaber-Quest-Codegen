@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Security::Cryptography
@@ -29,13 +30,13 @@ namespace System::Security::Cryptography {
   class DES : public System::Security::Cryptography::SymmetricAlgorithm {
     public:
     // Get static field: static private System.Security.Cryptography.KeySizes[] s_legalBlockSizes
-    static ::ArrayWrapper<System::Security::Cryptography::KeySizes*> _get_s_legalBlockSizes();
+    static ::ArrayW<System::Security::Cryptography::KeySizes*> _get_s_legalBlockSizes();
     // Set static field: static private System.Security.Cryptography.KeySizes[] s_legalBlockSizes
-    static void _set_s_legalBlockSizes(::ArrayWrapper<System::Security::Cryptography::KeySizes*> value);
+    static void _set_s_legalBlockSizes(::ArrayW<System::Security::Cryptography::KeySizes*> value);
     // Get static field: static private System.Security.Cryptography.KeySizes[] s_legalKeySizes
-    static ::ArrayWrapper<System::Security::Cryptography::KeySizes*> _get_s_legalKeySizes();
+    static ::ArrayW<System::Security::Cryptography::KeySizes*> _get_s_legalKeySizes();
     // Set static field: static private System.Security.Cryptography.KeySizes[] s_legalKeySizes
-    static void _set_s_legalKeySizes(::ArrayWrapper<System::Security::Cryptography::KeySizes*> value);
+    static void _set_s_legalKeySizes(::ArrayW<System::Security::Cryptography::KeySizes*> value);
     // static private System.Void .cctor()
     // Offset: 0x1A731C4
     static void _cctor();
@@ -44,26 +45,26 @@ namespace System::Security::Cryptography {
     static System::Security::Cryptography::DES* Create();
     // static public System.Boolean IsWeakKey(System.Byte[] rgbKey)
     // Offset: 0x1A72B6C
-    static bool IsWeakKey(::ArrayWrapper<uint8_t> rgbKey);
+    static bool IsWeakKey(::ArrayW<uint8_t> rgbKey);
     // static public System.Boolean IsSemiWeakKey(System.Byte[] rgbKey)
     // Offset: 0x1A72CA4
-    static bool IsSemiWeakKey(::ArrayWrapper<uint8_t> rgbKey);
+    static bool IsSemiWeakKey(::ArrayW<uint8_t> rgbKey);
     // static private System.Boolean IsLegalKeySize(System.Byte[] rgbKey)
     // Offset: 0x1A73100
-    static bool IsLegalKeySize(::ArrayWrapper<uint8_t> rgbKey);
+    static bool IsLegalKeySize(::ArrayW<uint8_t> rgbKey);
     // static private System.UInt64 QuadWordFromBigEndian(System.Byte[] block)
     // Offset: 0x1A73120
-    static uint64_t QuadWordFromBigEndian(::ArrayWrapper<uint8_t> block);
+    static uint64_t QuadWordFromBigEndian(::ArrayW<uint8_t> block);
     // public override System.Byte[] get_Key()
     // Offset: 0x1A72A70
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Byte[] SymmetricAlgorithm::get_Key()
-    ::ArrayWrapper<uint8_t> get_Key();
+    ::ArrayW<uint8_t> get_Key();
     // public override System.Void set_Key(System.Byte[] value)
     // Offset: 0x1A72EC8
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
     // Base method: System.Void SymmetricAlgorithm::set_Key(System.Byte[] value)
-    void set_Key(::ArrayWrapper<uint8_t> value);
+    void set_Key(::ArrayW<uint8_t> value);
     // protected System.Void .ctor()
     // Offset: 0x1A729D8
     // Implemented from: System.Security.Cryptography.SymmetricAlgorithm
@@ -98,7 +99,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 // Writing MetadataGetter for method: System::Security::Cryptography::DES::IsWeakKey
 // Il2CppName: IsWeakKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayWrapper<uint8_t>)>(&System::Security::Cryptography::DES::IsWeakKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<uint8_t>)>(&System::Security::Cryptography::DES::IsWeakKey)> {
   static const MethodInfo* get() {
     static auto* rgbKey = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::DES*), "IsWeakKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rgbKey});
@@ -107,7 +108,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::Security::Cryptography::DES::IsSemiWeakKey
 // Il2CppName: IsSemiWeakKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayWrapper<uint8_t>)>(&System::Security::Cryptography::DES::IsSemiWeakKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<uint8_t>)>(&System::Security::Cryptography::DES::IsSemiWeakKey)> {
   static const MethodInfo* get() {
     static auto* rgbKey = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::DES*), "IsSemiWeakKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rgbKey});
@@ -116,7 +117,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::Security::Cryptography::DES::IsLegalKeySize
 // Il2CppName: IsLegalKeySize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayWrapper<uint8_t>)>(&System::Security::Cryptography::DES::IsLegalKeySize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<uint8_t>)>(&System::Security::Cryptography::DES::IsLegalKeySize)> {
   static const MethodInfo* get() {
     static auto* rgbKey = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::DES*), "IsLegalKeySize", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rgbKey});
@@ -125,7 +126,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::Security::Cryptography::DES::QuadWordFromBigEndian
 // Il2CppName: QuadWordFromBigEndian
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::ArrayWrapper<uint8_t>)>(&System::Security::Cryptography::DES::QuadWordFromBigEndian)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::ArrayW<uint8_t>)>(&System::Security::Cryptography::DES::QuadWordFromBigEndian)> {
   static const MethodInfo* get() {
     static auto* block = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::DES*), "QuadWordFromBigEndian", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{block});
@@ -134,7 +135,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: System::Security::Cryptography::DES::get_Key
 // Il2CppName: get_Key
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (System::Security::Cryptography::DES::*)()>(&System::Security::Cryptography::DES::get_Key)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (System::Security::Cryptography::DES::*)()>(&System::Security::Cryptography::DES::get_Key)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::DES*), "get_Key", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -142,7 +143,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: System::Security::Cryptography::DES::set_Key
 // Il2CppName: set_Key
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::DES::*)(::ArrayWrapper<uint8_t>)>(&System::Security::Cryptography::DES::set_Key)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::DES::*)(::ArrayW<uint8_t>)>(&System::Security::Cryptography::DES::set_Key)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::DES*), "set_Key", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

@@ -43,6 +43,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::CutScoreBuffer::Pool
     class Pool;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 _afterCutScoreWithMultiplier
     // Size: 0x4
     // Offset: 0x18
@@ -93,6 +98,7 @@ namespace GlobalNamespace {
     GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::ICutScoreBufferDidFinishEvent*>* didFinishEvent;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::ICutScoreBufferDidFinishEvent*>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver
     operator GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver() noexcept {
       return *reinterpret_cast<GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver*>(this);

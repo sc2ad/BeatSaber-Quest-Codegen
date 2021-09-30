@@ -65,6 +65,11 @@ namespace UnityEngine::TestTools::TestRunner {
     class $$c;
     // Nested type: UnityEngine::TestTools::TestRunner::PlaymodeTestsController::$Run$d__16
     class $Run$d__16;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.IEnumerator m_TestSteps
     // Size: 0x8
     // Offset: 0x18
@@ -113,6 +118,7 @@ namespace UnityEngine::TestTools::TestRunner {
     UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner* m_Runner;
     // Field size check
     static_assert(sizeof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static System.String kPlaymodeTestControllerName

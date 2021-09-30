@@ -44,6 +44,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class EditColorController : public HMUI::ViewController {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private HSVPanelController _hsvPanelController
     // Size: 0x8
     // Offset: 0x70
@@ -99,6 +104,7 @@ namespace GlobalNamespace {
     bool colorChanged;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private HSVPanelController _hsvPanelController
     GlobalNamespace::HSVPanelController*& dyn__hsvPanelController();
     // Get instance field reference: private PreviousColorPanelController _previousColorPanelController

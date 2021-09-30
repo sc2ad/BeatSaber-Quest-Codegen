@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HoudiniEngineUnity
@@ -48,6 +49,11 @@ namespace HoudiniEngineUnity {
     public:
     // Nested type: HoudiniEngineUnity::HEU_PDGSession::EventMessageColor
     struct EventMessageColor;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_PDGAssetLink> _pdgAssets
     // Size: 0x8
     // Offset: 0x10
@@ -65,9 +71,9 @@ namespace HoudiniEngineUnity {
     // public HoudiniEngineUnity.HAPI_PDG_EventInfo[] _pdgQueryEvents
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<HoudiniEngineUnity::HAPI_PDG_EventInfo> pdgQueryEvents;
+    ::ArrayW<HoudiniEngineUnity::HAPI_PDG_EventInfo> pdgQueryEvents;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<HoudiniEngineUnity::HAPI_PDG_EventInfo>) == 0x8);
+    static_assert(sizeof(::ArrayW<HoudiniEngineUnity::HAPI_PDG_EventInfo>) == 0x8);
     // public System.Int32 _pdgContextSize
     // Size: 0x4
     // Offset: 0x28
@@ -79,9 +85,9 @@ namespace HoudiniEngineUnity {
     // public System.Int32[] _pdgContextIDs
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<int> pdgContextIDs;
+    ::ArrayW<int> pdgContextIDs;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // public System.Boolean _errored
     // Size: 0x1
     // Offset: 0x38
@@ -113,9 +119,10 @@ namespace HoudiniEngineUnity {
     // private System.String[] _eventMessageColorCode
     // Size: 0x8
     // Offset: 0x58
-    ::ArrayWrapper<::Il2CppString*> eventMessageColorCode;
+    ::ArrayW<::Il2CppString*> eventMessageColorCode;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    public:
     // Get static field: static private HoudiniEngineUnity.HEU_PDGSession _pdgSession
     static HoudiniEngineUnity::HEU_PDGSession* _get__pdgSession();
     // Set static field: static private HoudiniEngineUnity.HEU_PDGSession _pdgSession
@@ -125,11 +132,11 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Int32 _pdgMaxProcessEvents
     int& dyn__pdgMaxProcessEvents();
     // Get instance field reference: public HoudiniEngineUnity.HAPI_PDG_EventInfo[] _pdgQueryEvents
-    ::ArrayWrapper<HoudiniEngineUnity::HAPI_PDG_EventInfo>& dyn__pdgQueryEvents();
+    ::ArrayW<HoudiniEngineUnity::HAPI_PDG_EventInfo>& dyn__pdgQueryEvents();
     // Get instance field reference: public System.Int32 _pdgContextSize
     int& dyn__pdgContextSize();
     // Get instance field reference: public System.Int32[] _pdgContextIDs
-    ::ArrayWrapper<int>& dyn__pdgContextIDs();
+    ::ArrayW<int>& dyn__pdgContextIDs();
     // Get instance field reference: public System.Boolean _errored
     bool& dyn__errored();
     // Get instance field reference: public System.String _errorMsg
@@ -139,7 +146,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: private System.Text.StringBuilder _pdgEventMessages
     System::Text::StringBuilder*& dyn__pdgEventMessages();
     // Get instance field reference: private System.String[] _eventMessageColorCode
-    ::ArrayWrapper<::Il2CppString*>& dyn__eventMessageColorCode();
+    ::ArrayW<::Il2CppString*>& dyn__eventMessageColorCode();
     // static public HoudiniEngineUnity.HEU_PDGSession GetPDGSession()
     // Offset: 0x17A0A44
     static HoudiniEngineUnity::HEU_PDGSession* GetPDGSession();
@@ -244,7 +251,7 @@ namespace HoudiniEngineUnity {
     }
   }; // HoudiniEngineUnity.HEU_PDGSession
   #pragma pack(pop)
-  static check_size<sizeof(HEU_PDGSession), 88 + sizeof(::ArrayWrapper<::Il2CppString*>)> __HoudiniEngineUnity_HEU_PDGSessionSizeCheck;
+  static check_size<sizeof(HEU_PDGSession), 88 + sizeof(::ArrayW<::Il2CppString*>)> __HoudiniEngineUnity_HEU_PDGSessionSizeCheck;
   static_assert(sizeof(HEU_PDGSession) == 0x60);
 }
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_PDGSession*, "HoudiniEngineUnity", "HEU_PDGSession");

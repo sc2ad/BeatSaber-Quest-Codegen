@@ -20,6 +20,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PracticeSettings : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Single _startSongTime
     // Size: 0x4
     // Offset: 0x10
@@ -38,6 +43,7 @@ namespace GlobalNamespace {
     bool startInAdvanceAndClearNotes;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // static field const value: static public System.Single kDelayBeforeStart
     static constexpr const float kDelayBeforeStart = 1;
     // Get static field: static public System.Single kDelayBeforeStart

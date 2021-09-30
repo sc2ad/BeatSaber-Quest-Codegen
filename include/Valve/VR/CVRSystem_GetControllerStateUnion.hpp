@@ -20,6 +20,11 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct CVRSystem::GetControllerStateUnion/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public Valve.VR.IVRSystem/Valve.VR._GetControllerState pGetControllerState
     // Size: 0x8
     // Offset: 0x0
@@ -32,6 +37,7 @@ namespace Valve::VR {
     Valve::VR::CVRSystem::_GetControllerStatePacked* pGetControllerStatePacked;
     // Field size check
     static_assert(sizeof(Valve::VR::CVRSystem::_GetControllerStatePacked*) == 0x8);
+    public:
     // Creating value type constructor for type: GetControllerStateUnion
     constexpr GetControllerStateUnion(Valve::VR::IVRSystem::_GetControllerState* pGetControllerState_ = {}, Valve::VR::CVRSystem::_GetControllerStatePacked* pGetControllerStatePacked_ = {}) noexcept : pGetControllerState{pGetControllerState_}, pGetControllerStatePacked{pGetControllerStatePacked_} {}
     // Creating interface conversion operator: operator System::ValueType

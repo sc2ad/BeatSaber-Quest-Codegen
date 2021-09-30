@@ -33,12 +33,18 @@ namespace DataModels::Levels {
   // [TokenAttribute] Offset: FFFFFFFF
   class PerceivedLoudnessPerLevelModel : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Collections.Generic.Dictionary`2<System.String,System.Single> _loudnessLevelPerLevelId
     // Size: 0x8
     // Offset: 0x10
     System::Collections::Generic::Dictionary_2<::Il2CppString*, float>* loudnessLevelPerLevelId;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, float>*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Collections::Generic::Dictionary_2<::Il2CppString*, float>*
     constexpr operator System::Collections::Generic::Dictionary_2<::Il2CppString*, float>*() const noexcept {
       return loudnessLevelPerLevelId;

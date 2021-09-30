@@ -16,12 +16,18 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct VREvent_MessageOverlay_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.UInt32 unVRMessageOverlayResponse
     // Size: 0x4
     // Offset: 0x0
     uint unVRMessageOverlayResponse;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
+    public:
     // Creating value type constructor for type: VREvent_MessageOverlay_t
     constexpr VREvent_MessageOverlay_t(uint unVRMessageOverlayResponse_ = {}) noexcept : unVRMessageOverlayResponse{unVRMessageOverlayResponse_} {}
     // Creating interface conversion operator: operator System::ValueType

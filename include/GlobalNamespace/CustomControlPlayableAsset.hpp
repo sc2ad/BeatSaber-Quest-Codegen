@@ -31,12 +31,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class CustomControlPlayableAsset : public UnityEngine::Timeline::ControlPlayableAsset {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public AvatarColorBehaviour _template
     // Size: 0x8
     // Offset: 0x58
     GlobalNamespace::AvatarColorBehaviour* _template;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AvatarColorBehaviour*) == 0x8);
+    public:
     // Get instance field reference: public AvatarColorBehaviour _template
     GlobalNamespace::AvatarColorBehaviour*& dyn__template();
     // public UnityEngine.Timeline.ClipCaps get_clipCaps()

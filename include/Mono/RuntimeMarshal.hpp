@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -39,7 +40,7 @@ namespace Mono {
     static int DecodeBlobSize(System::IntPtr in_ptr, ByRef<System::IntPtr> out_ptr);
     // static System.Byte[] DecodeBlobArray(System.IntPtr ptr)
     // Offset: 0x1C3FE78
-    static ::ArrayWrapper<uint8_t> DecodeBlobArray(System::IntPtr ptr);
+    static ::ArrayW<uint8_t> DecodeBlobArray(System::IntPtr ptr);
     // static System.Int32 AsciHexDigitValue(System.Int32 c)
     // Offset: 0x1C3FF34
     static int AsciHexDigitValue(int c);
@@ -83,7 +84,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Writing MetadataGetter for method: Mono::RuntimeMarshal::DecodeBlobArray
 // Il2CppName: DecodeBlobArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(System::IntPtr)>(&Mono::RuntimeMarshal::DecodeBlobArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(System::IntPtr)>(&Mono::RuntimeMarshal::DecodeBlobArray)> {
   static const MethodInfo* get() {
     static auto* ptr = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::RuntimeMarshal*), "DecodeBlobArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ptr});

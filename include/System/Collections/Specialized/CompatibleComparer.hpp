@@ -29,6 +29,11 @@ namespace System::Collections::Specialized {
   // [TokenAttribute] Offset: FFFFFFFF
   class CompatibleComparer : public ::Il2CppObject/*, public System::Collections::IEqualityComparer*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.IComparer _comparer
     // Size: 0x8
     // Offset: 0x10
@@ -41,6 +46,7 @@ namespace System::Collections::Specialized {
     System::Collections::IHashCodeProvider* hcp;
     // Field size check
     static_assert(sizeof(System::Collections::IHashCodeProvider*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Collections::IEqualityComparer
     operator System::Collections::IEqualityComparer() noexcept {
       return *reinterpret_cast<System::Collections::IEqualityComparer*>(this);

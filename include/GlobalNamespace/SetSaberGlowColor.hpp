@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -40,6 +41,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::SetSaberGlowColor::PropertyTintColorPair
     class PropertyTintColorPair;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [NullAllowed] Offset: 0xF0AD80
     // private SaberTypeObject _saberTypeObject
     // Size: 0x8
@@ -57,9 +63,9 @@ namespace GlobalNamespace {
     // private SetSaberGlowColor/PropertyTintColorPair[] _propertyTintColorPairs
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<GlobalNamespace::SetSaberGlowColor::PropertyTintColorPair*> propertyTintColorPairs;
+    ::ArrayW<GlobalNamespace::SetSaberGlowColor::PropertyTintColorPair*> propertyTintColorPairs;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::SetSaberGlowColor::PropertyTintColorPair*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::SetSaberGlowColor::PropertyTintColorPair*>) == 0x8);
     // [InjectAttribute] Offset: 0xF0AE00
     // private ColorManager _colorManager
     // Size: 0x8
@@ -79,6 +85,7 @@ namespace GlobalNamespace {
     GlobalNamespace::SaberType saberType;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SaberType) == 0x4);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private SaberTypeObject _saberTypeObject
@@ -86,7 +93,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.MeshRenderer _meshRenderer
     UnityEngine::MeshRenderer*& dyn__meshRenderer();
     // Get instance field reference: private SetSaberGlowColor/PropertyTintColorPair[] _propertyTintColorPairs
-    ::ArrayWrapper<GlobalNamespace::SetSaberGlowColor::PropertyTintColorPair*>& dyn__propertyTintColorPairs();
+    ::ArrayW<GlobalNamespace::SetSaberGlowColor::PropertyTintColorPair*>& dyn__propertyTintColorPairs();
     // Get instance field reference: private ColorManager _colorManager
     GlobalNamespace::ColorManager*& dyn__colorManager();
     // Get instance field reference: private UnityEngine.MaterialPropertyBlock _materialPropertyBlock

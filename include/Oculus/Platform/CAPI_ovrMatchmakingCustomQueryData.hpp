@@ -21,6 +21,11 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   struct CAPI::ovrMatchmakingCustomQueryData/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.IntPtr dataArray
     // Size: 0x8
     // Offset: 0x0
@@ -47,6 +52,7 @@ namespace Oculus::Platform {
     uint criterionArrayCount;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
+    public:
     // Creating value type constructor for type: ovrMatchmakingCustomQueryData
     constexpr ovrMatchmakingCustomQueryData(System::IntPtr dataArray_ = {}, uint dataArrayCount_ = {}, System::IntPtr criterionArray_ = {}, uint criterionArrayCount_ = {}) noexcept : dataArray{dataArray_}, dataArrayCount{dataArrayCount_}, criterionArray{criterionArray_}, criterionArrayCount{criterionArrayCount_} {}
     // Creating interface conversion operator: operator System::ValueType

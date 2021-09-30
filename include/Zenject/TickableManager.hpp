@@ -63,6 +63,11 @@ namespace Zenject {
     class $$c__DisplayClass18_0;
     // Nested type: Zenject::TickableManager::$$c__DisplayClass19_0
     class $$c__DisplayClass19_0;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xEC428C
     // private readonly System.Collections.Generic.List`1<Zenject.ITickable> _tickables
     // Size: 0x8
@@ -129,6 +134,7 @@ namespace Zenject {
     bool isPaused;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private readonly System.Collections.Generic.List`1<Zenject.ITickable> _tickables
     System::Collections::Generic::List_1<Zenject::ITickable*>*& dyn__tickables();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<Zenject.IFixedTickable> _fixedTickables

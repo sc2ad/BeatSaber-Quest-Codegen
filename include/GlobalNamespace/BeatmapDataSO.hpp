@@ -29,6 +29,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapDataSO : public GlobalNamespace::PersistentScriptableObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.String _jsonData
     // Size: 0x8
     // Offset: 0x18
@@ -73,6 +78,7 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatmapDataLoader* beatmapDataLoader;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapDataLoader*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.String _jsonData

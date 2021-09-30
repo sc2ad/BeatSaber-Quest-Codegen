@@ -25,6 +25,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MissionObjectiveResult : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private MissionObjective <missionObjective>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -45,6 +50,7 @@ namespace GlobalNamespace {
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: private MissionObjective <missionObjective>k__BackingField
     GlobalNamespace::MissionObjective*& dyn_$missionObjective$k__BackingField();
     // Get instance field reference: private System.Boolean <cleared>k__BackingField

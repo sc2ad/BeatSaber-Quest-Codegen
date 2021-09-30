@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HMUI
@@ -40,6 +41,11 @@ namespace HMUI {
     public:
     // Nested type: HMUI::ScrollViewItemsVisibilityController::$$c
     class $$c;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.RectTransform _viewport
     // Size: 0x8
     // Offset: 0x18
@@ -55,9 +61,9 @@ namespace HMUI {
     // private HMUI.ScrollViewItemForVisibilityController[] _items
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<HMUI::ScrollViewItemForVisibilityController*> items;
+    ::ArrayW<HMUI::ScrollViewItemForVisibilityController*> items;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<HMUI::ScrollViewItemForVisibilityController*>) == 0x8);
+    static_assert(sizeof(::ArrayW<HMUI::ScrollViewItemForVisibilityController*>) == 0x8);
     // private System.Single _lastContentAnchoredPositionY
     // Size: 0x4
     // Offset: 0x30
@@ -69,21 +75,21 @@ namespace HMUI {
     // private UnityEngine.Vector3[] _viewportWorldCorners
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayWrapper<UnityEngine::Vector3> viewportWorldCorners;
+    ::ArrayW<UnityEngine::Vector3> viewportWorldCorners;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector3>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Vector3>) == 0x8);
     // private System.Tuple`2<HMUI.ScrollViewItemForVisibilityController,System.Single>[] _upperItemsCornes
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayWrapper<System::Tuple_2<HMUI::ScrollViewItemForVisibilityController*, float>*> upperItemsCornes;
+    ::ArrayW<System::Tuple_2<HMUI::ScrollViewItemForVisibilityController*, float>*> upperItemsCornes;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<System::Tuple_2<HMUI::ScrollViewItemForVisibilityController*, float>*>) == 0x8);
+    static_assert(sizeof(::ArrayW<System::Tuple_2<HMUI::ScrollViewItemForVisibilityController*, float>*>) == 0x8);
     // private System.Tuple`2<HMUI.ScrollViewItemForVisibilityController,System.Single>[] _lowerItemsCornes
     // Size: 0x8
     // Offset: 0x48
-    ::ArrayWrapper<System::Tuple_2<HMUI::ScrollViewItemForVisibilityController*, float>*> lowerItemsCornes;
+    ::ArrayW<System::Tuple_2<HMUI::ScrollViewItemForVisibilityController*, float>*> lowerItemsCornes;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<System::Tuple_2<HMUI::ScrollViewItemForVisibilityController*, float>*>) == 0x8);
+    static_assert(sizeof(::ArrayW<System::Tuple_2<HMUI::ScrollViewItemForVisibilityController*, float>*>) == 0x8);
     // private System.Int32 _lowerLastVisibleIndex
     // Size: 0x4
     // Offset: 0x50
@@ -108,6 +114,7 @@ namespace HMUI {
     float contentMinY;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.RectTransform _viewport
@@ -115,15 +122,15 @@ namespace HMUI {
     // Get instance field reference: private UnityEngine.RectTransform _contentRectTransform
     UnityEngine::RectTransform*& dyn__contentRectTransform();
     // Get instance field reference: private HMUI.ScrollViewItemForVisibilityController[] _items
-    ::ArrayWrapper<HMUI::ScrollViewItemForVisibilityController*>& dyn__items();
+    ::ArrayW<HMUI::ScrollViewItemForVisibilityController*>& dyn__items();
     // Get instance field reference: private System.Single _lastContentAnchoredPositionY
     float& dyn__lastContentAnchoredPositionY();
     // Get instance field reference: private UnityEngine.Vector3[] _viewportWorldCorners
-    ::ArrayWrapper<UnityEngine::Vector3>& dyn__viewportWorldCorners();
+    ::ArrayW<UnityEngine::Vector3>& dyn__viewportWorldCorners();
     // Get instance field reference: private System.Tuple`2<HMUI.ScrollViewItemForVisibilityController,System.Single>[] _upperItemsCornes
-    ::ArrayWrapper<System::Tuple_2<HMUI::ScrollViewItemForVisibilityController*, float>*>& dyn__upperItemsCornes();
+    ::ArrayW<System::Tuple_2<HMUI::ScrollViewItemForVisibilityController*, float>*>& dyn__upperItemsCornes();
     // Get instance field reference: private System.Tuple`2<HMUI.ScrollViewItemForVisibilityController,System.Single>[] _lowerItemsCornes
-    ::ArrayWrapper<System::Tuple_2<HMUI::ScrollViewItemForVisibilityController*, float>*>& dyn__lowerItemsCornes();
+    ::ArrayW<System::Tuple_2<HMUI::ScrollViewItemForVisibilityController*, float>*>& dyn__lowerItemsCornes();
     // Get instance field reference: private System.Int32 _lowerLastVisibleIndex
     int& dyn__lowerLastVisibleIndex();
     // Get instance field reference: private System.Int32 _upperLastVisibleIndex

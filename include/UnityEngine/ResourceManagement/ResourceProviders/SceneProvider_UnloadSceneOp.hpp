@@ -30,6 +30,11 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   // [TokenAttribute] Offset: FFFFFFFF
   class SceneProvider::UnloadSceneOp : public UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.ResourceManagement.ResourceProviders.SceneInstance m_Instance
     // Size: 0x10
     // Offset: 0x88
@@ -40,6 +45,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     // Size: 0xFFFFFFFF
     // Offset: 0x98
     UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> m_sceneLoadHandle;
+    public:
     // Get instance field reference: private UnityEngine.ResourceManagement.ResourceProviders.SceneInstance m_Instance
     UnityEngine::ResourceManagement::ResourceProviders::SceneInstance& dyn_m_Instance();
     // Get instance field reference: private UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> m_sceneLoadHandle

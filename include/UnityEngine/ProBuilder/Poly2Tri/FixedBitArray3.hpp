@@ -37,6 +37,11 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     public:
     // Nested type: UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3::$Enumerate$d__10
     class $Enumerate$d__10;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Boolean _0
     // Size: 0x1
     // Offset: 0x0
@@ -55,6 +60,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     bool _2;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating value type constructor for type: FixedBitArray3
     constexpr FixedBitArray3(bool _0_ = {}, bool _1_ = {}, bool _2_ = {}) noexcept : _0{_0_}, _1{_1_}, _2{_2_} {}
     // Creating interface conversion operator: operator System::ValueType

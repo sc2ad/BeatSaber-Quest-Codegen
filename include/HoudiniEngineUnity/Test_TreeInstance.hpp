@@ -22,12 +22,18 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class Test_TreeInstance : public ::Il2CppObject/*, public HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::Test_TreeInstance*>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.TreeInstance self
     // Size: 0x28
     // Offset: 0x10
     UnityEngine::TreeInstance self;
     // Field size check
     static_assert(sizeof(UnityEngine::TreeInstance) == 0x28);
+    public:
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::Test_TreeInstance*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::Test_TreeInstance*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::Test_TreeInstance*>*>(this);

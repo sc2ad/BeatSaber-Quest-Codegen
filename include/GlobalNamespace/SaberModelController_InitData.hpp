@@ -22,12 +22,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SaberModelController::InitData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly UnityEngine.Color trailTintColor
     // Size: 0x10
     // Offset: 0x10
     UnityEngine::Color trailTintColor;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
+    public:
     // Creating conversion operator: operator UnityEngine::Color
     constexpr operator UnityEngine::Color() const noexcept {
       return trailTintColor;

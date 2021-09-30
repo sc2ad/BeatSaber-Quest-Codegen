@@ -34,6 +34,11 @@ namespace GlobalNamespace {
   // [ZenjectAllowDuringValidationAttribute] Offset: FFFFFFFF
   class StandardGameplaySceneSetupData : public GlobalNamespace::SceneSetupData {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly System.Boolean autoRestart
     // Size: 0x1
     // Offset: 0x10
@@ -74,6 +79,7 @@ namespace GlobalNamespace {
     GlobalNamespace::GameplayModifiers* gameplayModifiers;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayModifiers*) == 0x8);
+    public:
     // Get instance field reference: public readonly System.Boolean autoRestart
     bool& dyn_autoRestart();
     // Get instance field reference: public readonly IPreviewBeatmapLevel previewBeatmapLevel

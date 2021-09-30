@@ -27,6 +27,11 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class GUIScrollGroup : public UnityEngine::GUILayoutGroup {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Single calcMinWidth
     // Size: 0x4
     // Offset: 0x90
@@ -101,6 +106,7 @@ namespace UnityEngine {
     UnityEngine::GUIStyle* verticalScrollbar;
     // Field size check
     static_assert(sizeof(UnityEngine::GUIStyle*) == 0x8);
+    public:
     // Get instance field reference: public System.Single calcMinWidth
     float& dyn_calcMinWidth();
     // Get instance field reference: public System.Single calcMaxWidth

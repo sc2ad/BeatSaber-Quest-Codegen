@@ -35,6 +35,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SongTimeFixedUpdateController : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xF006B0
     // private readonly IAudioTimeSource _audioTimeSource
     // Size: 0x8
@@ -66,6 +71,7 @@ namespace GlobalNamespace {
     float interpolationFactor;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Single kFixedDeltaTime

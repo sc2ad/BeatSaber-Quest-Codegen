@@ -59,6 +59,11 @@ namespace GlobalNamespace {
     class $$c__DisplayClass20_0;
     // Nested type: GlobalNamespace::CampaignFlowCoordinator::$$c__DisplayClass22_0
     class $$c__DisplayClass22_0;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private MenuLightsPresetSO _defaultLightsPreset
     // Size: 0x8
     // Offset: 0xA8
@@ -151,6 +156,7 @@ namespace GlobalNamespace {
     bool showCredits;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private MenuLightsPresetSO _defaultLightsPreset
     GlobalNamespace::MenuLightsPresetSO*& dyn__defaultLightsPreset();
     // Get instance field reference: private MenuLightsPresetSO _resultsClearedLightsPreset

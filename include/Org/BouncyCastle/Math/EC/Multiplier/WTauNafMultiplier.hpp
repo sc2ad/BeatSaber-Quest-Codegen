@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Math::EC::Multiplier
@@ -56,7 +57,7 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     Org::BouncyCastle::Math::EC::AbstractF2mPoint* MultiplyWTnaf(Org::BouncyCastle::Math::EC::AbstractF2mPoint* p, Org::BouncyCastle::Math::EC::Abc::ZTauElement* lambda, int8_t a, int8_t mu);
     // static private Org.BouncyCastle.Math.EC.AbstractF2mPoint MultiplyFromWTnaf(Org.BouncyCastle.Math.EC.AbstractF2mPoint p, System.SByte[] u)
     // Offset: 0x1F87FDC
-    static Org::BouncyCastle::Math::EC::AbstractF2mPoint* MultiplyFromWTnaf(Org::BouncyCastle::Math::EC::AbstractF2mPoint* p, ::ArrayWrapper<int8_t> u);
+    static Org::BouncyCastle::Math::EC::AbstractF2mPoint* MultiplyFromWTnaf(Org::BouncyCastle::Math::EC::AbstractF2mPoint* p, ::ArrayW<int8_t> u);
     // public System.Void .ctor()
     // Offset: 0x1F884B4
     // Implemented from: Org.BouncyCastle.Math.EC.Multiplier.AbstractECMultiplier
@@ -100,7 +101,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier::MultiplyFromWTnaf
 // Il2CppName: MultiplyFromWTnaf
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::AbstractF2mPoint* (*)(Org::BouncyCastle::Math::EC::AbstractF2mPoint*, ::ArrayWrapper<int8_t>)>(&Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier::MultiplyFromWTnaf)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::AbstractF2mPoint* (*)(Org::BouncyCastle::Math::EC::AbstractF2mPoint*, ::ArrayW<int8_t>)>(&Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier::MultiplyFromWTnaf)> {
   static const MethodInfo* get() {
     static auto* p = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "AbstractF2mPoint")->byval_arg;
     static auto* u = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "SByte"), 1)->byval_arg;

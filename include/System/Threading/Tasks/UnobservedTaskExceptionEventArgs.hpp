@@ -27,6 +27,11 @@ namespace System::Threading::Tasks {
   // [TokenAttribute] Offset: FFFFFFFF
   class UnobservedTaskExceptionEventArgs : public System::EventArgs {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.AggregateException m_exception
     // Size: 0x8
     // Offset: 0x10
@@ -39,6 +44,7 @@ namespace System::Threading::Tasks {
     bool m_observed;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private System.AggregateException m_exception
     System::AggregateException*& dyn_m_exception();
     // Get instance field reference: System.Boolean m_observed

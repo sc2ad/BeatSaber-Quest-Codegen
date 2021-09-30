@@ -20,6 +20,11 @@ namespace UnityEngine::Profiling::Experimental {
   // [TokenAttribute] Offset: FFFFFFFF
   struct DebugScreenCapture/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [DebuggerBrowsableAttribute] Offset: 0xE76444
     // private Unity.Collections.NativeArray`1<System.Byte> <rawImageDataReference>k__BackingField
     // Size: 0xFFFFFFFF
@@ -46,6 +51,7 @@ namespace UnityEngine::Profiling::Experimental {
     int height;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: DebugScreenCapture
     constexpr DebugScreenCapture(Unity::Collections::NativeArray_1<uint8_t> rawImageDataReference_ = {}, UnityEngine::TextureFormat imageFormat_ = {}, int width_ = {}, int height_ = {}) noexcept : rawImageDataReference{rawImageDataReference_}, imageFormat{imageFormat_}, width{width_}, height{height_} {}
     // Creating interface conversion operator: operator System::ValueType

@@ -28,6 +28,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class IntListSettingsController : public GlobalNamespace::ListSettingsController {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 _customNumberOfElements
     // Size: 0x4
     // Offset: 0x28
@@ -46,6 +51,7 @@ namespace GlobalNamespace {
     System::Action_1<int>* valueChangedEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<int>*) == 0x8);
+    public:
     // Get instance field reference: private System.Int32 _customNumberOfElements
     int& dyn__customNumberOfElements();
     // Get instance field reference: private System.Int32 _customIndex

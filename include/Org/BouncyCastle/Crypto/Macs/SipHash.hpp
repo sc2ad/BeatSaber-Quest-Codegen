@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Crypto
@@ -27,6 +28,11 @@ namespace Org::BouncyCastle::Crypto::Macs {
   // [TokenAttribute] Offset: FFFFFFFF
   class SipHash : public ::Il2CppObject/*, public Org::BouncyCastle::Crypto::IMac*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // protected readonly System.Int32 c
     // Size: 0x4
     // Offset: 0x10
@@ -93,6 +99,7 @@ namespace Org::BouncyCastle::Crypto::Macs {
     int wordCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IMac
     operator Org::BouncyCastle::Crypto::IMac() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IMac*>(this);
@@ -137,13 +144,13 @@ namespace Org::BouncyCastle::Crypto::Macs {
     void Update(uint8_t input);
     // public System.Void BlockUpdate(System.Byte[] input, System.Int32 offset, System.Int32 length)
     // Offset: 0x1A8997C
-    void BlockUpdate(::ArrayWrapper<uint8_t> input, int offset, int length);
+    void BlockUpdate(::ArrayW<uint8_t> input, int offset, int length);
     // public System.Int64 DoFinal()
     // Offset: 0x1A89B4C
     int64_t DoFinal();
     // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
     // Offset: 0x1A89BEC
-    int DoFinal(::ArrayWrapper<uint8_t> output, int outOff);
+    int DoFinal(::ArrayW<uint8_t> output, int outOff);
     // public System.Void Reset()
     // Offset: 0x1A89C34
     void Reset();
@@ -205,7 +212,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Macs::SipHash::BlockUpdate
 // Il2CppName: BlockUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Macs::SipHash::*)(::ArrayWrapper<uint8_t>, int, int)>(&Org::BouncyCastle::Crypto::Macs::SipHash::BlockUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Macs::SipHash::*)(::ArrayW<uint8_t>, int, int)>(&Org::BouncyCastle::Crypto::Macs::SipHash::BlockUpdate)> {
   static const MethodInfo* get() {
     static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -224,7 +231,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (Or
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Macs::SipHash::DoFinal
 // Il2CppName: DoFinal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Macs::SipHash::*)(::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Macs::SipHash::DoFinal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Macs::SipHash::*)(::ArrayW<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Macs::SipHash::DoFinal)> {
   static const MethodInfo* get() {
     static auto* output = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* outOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

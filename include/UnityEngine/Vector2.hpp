@@ -31,6 +31,11 @@ namespace UnityEngine {
   // [NativeClassAttribute] Offset: E71E18
   struct Vector2/*, public System::ValueType, public System::IEquatable_1<UnityEngine::Vector2>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Single x
     // Size: 0x4
     // Offset: 0x0
@@ -43,6 +48,7 @@ namespace UnityEngine {
     float y;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: Vector2
     constexpr Vector2(float x_ = {}, float y_ = {}) noexcept : x{x_}, y{y_} {}
     // Creating interface conversion operator: operator System::ValueType

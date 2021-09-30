@@ -29,12 +29,18 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   class CVRResources : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Valve.VR.IVRResources FnTable
     // Size: 0x10
     // Offset: 0x10
     Valve::VR::IVRResources FnTable;
     // Field size check
     static_assert(sizeof(Valve::VR::IVRResources) == 0x10);
+    public:
     // Creating conversion operator: operator Valve::VR::IVRResources
     constexpr operator Valve::VR::IVRResources() const noexcept {
       return FnTable;

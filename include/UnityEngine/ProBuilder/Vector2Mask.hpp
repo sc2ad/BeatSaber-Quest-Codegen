@@ -28,12 +28,18 @@ namespace UnityEngine::ProBuilder {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Vector2Mask/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Byte m_Mask
     // Size: 0x1
     // Offset: 0x0
     uint8_t m_Mask;
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
+    public:
     // Creating value type constructor for type: Vector2Mask
     constexpr Vector2Mask(uint8_t m_Mask_ = {}) noexcept : m_Mask{m_Mask_} {}
     // Creating interface conversion operator: operator System::ValueType

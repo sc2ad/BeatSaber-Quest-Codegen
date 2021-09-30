@@ -35,12 +35,18 @@ namespace System::Net {
     public:
     // Nested type: System::Net::PathList::PathListComparer
     class PathListComparer;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.SortedList m_list
     // Size: 0x8
     // Offset: 0x10
     System::Collections::SortedList* m_list;
     // Field size check
     static_assert(sizeof(System::Collections::SortedList*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Collections::SortedList*
     constexpr operator System::Collections::SortedList*() const noexcept {
       return m_list;

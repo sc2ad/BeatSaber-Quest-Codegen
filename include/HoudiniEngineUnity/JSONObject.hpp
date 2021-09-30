@@ -48,6 +48,11 @@ namespace HoudiniEngineUnity {
     class $$c__DisplayClass21_0;
     // Nested type: HoudiniEngineUnity::JSONObject::$get_Children$d__23
     class $get_Children$d__23;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.Dictionary`2<System.String,HoudiniEngineUnity.JSONNode> m_Dict
     // Size: 0x8
     // Offset: 0x10
@@ -60,6 +65,7 @@ namespace HoudiniEngineUnity {
     bool _inline;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,HoudiniEngineUnity.JSONNode> m_Dict
     System::Collections::Generic::Dictionary_2<::Il2CppString*, HoudiniEngineUnity::JSONNode*>*& dyn_m_Dict();
     // Get instance field reference: private System.Boolean inline

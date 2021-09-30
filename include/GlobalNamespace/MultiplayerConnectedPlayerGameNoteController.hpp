@@ -51,6 +51,11 @@ namespace GlobalNamespace {
     char ___base_padding[0x7] = {};
     // Nested type: GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::Pool
     class Pool;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Action`1<MultiplayerConnectedPlayerGameNoteController> cubeNoteControllerDidInitEvent
     // Size: 0x8
     // Offset: 0x88
@@ -63,6 +68,7 @@ namespace GlobalNamespace {
     GlobalNamespace::GameNoteController_GameNoteType gameNoteType;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameNoteController_GameNoteType) == 0x4);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::ICubeNoteControllerInitializable_1<GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>
     operator GlobalNamespace::ICubeNoteControllerInitializable_1<GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>() noexcept {
       return *reinterpret_cast<GlobalNamespace::ICubeNoteControllerInitializable_1<GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>*>(this);

@@ -20,6 +20,11 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
   // [TokenAttribute] Offset: FFFFFFFF
   class ValidityPreCompInfo : public ::Il2CppObject/*, public Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean failed
     // Size: 0x1
     // Offset: 0x10
@@ -38,6 +43,7 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     bool orderPassed;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo
     operator Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*>(this);

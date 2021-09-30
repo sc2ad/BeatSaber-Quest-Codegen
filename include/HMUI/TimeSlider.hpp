@@ -27,12 +27,18 @@ namespace HMUI {
     // [TokenAttribute] Offset: FFFFFFFF
     struct TimeType/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: TimeType
       constexpr TimeType(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -61,12 +67,18 @@ namespace HMUI {
     #pragma pack(pop)
     static check_size<sizeof(TimeSlider::TimeType), 0 + sizeof(int)> __HMUI_TimeSlider_TimeTypeSizeCheck;
     static_assert(sizeof(TimeSlider::TimeType) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private HMUI.TimeSlider/HMUI.TimeType _timeType
     // Size: 0x4
     // Offset: 0x168
     HMUI::TimeSlider::TimeType timeType;
     // Field size check
     static_assert(sizeof(HMUI::TimeSlider::TimeType) == 0x4);
+    public:
     // Get instance field reference: private HMUI.TimeSlider/HMUI.TimeType _timeType
     HMUI::TimeSlider::TimeType& dyn__timeType();
     // public System.Void .ctor()

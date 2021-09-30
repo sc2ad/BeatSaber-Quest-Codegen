@@ -28,6 +28,11 @@ namespace System::Net {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class WebConnectionStream::$$c__DisplayClass75_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Net.WebConnectionStream <>4__this
     // Size: 0x8
     // Offset: 0x10
@@ -40,6 +45,7 @@ namespace System::Net {
     bool setInternalLength;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: public System.Net.WebConnectionStream <>4__this
     System::Net::WebConnectionStream*& dyn_$$4__this();
     // Get instance field reference: public System.Boolean setInternalLength

@@ -7,6 +7,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Transform
 #include "UnityEngine/Transform.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -86,10 +87,10 @@ namespace UnityEngine {
     static void remove_reapplyDrivenProperties(UnityEngine::RectTransform::ReapplyDrivenProperties* value);
     // public System.Void GetLocalCorners(UnityEngine.Vector3[] fourCornersArray)
     // Offset: 0x1E030A4
-    void GetLocalCorners(::ArrayWrapper<UnityEngine::Vector3> fourCornersArray);
+    void GetLocalCorners(::ArrayW<UnityEngine::Vector3> fourCornersArray);
     // public System.Void GetWorldCorners(UnityEngine.Vector3[] fourCornersArray)
     // Offset: 0x1E03274
-    void GetWorldCorners(::ArrayWrapper<UnityEngine::Vector3> fourCornersArray);
+    void GetWorldCorners(::ArrayW<UnityEngine::Vector3> fourCornersArray);
     // public System.Void SetSizeWithCurrentAnchors(UnityEngine.RectTransform/UnityEngine.Axis axis, System.Single size)
     // Offset: 0x1E033B0
     void SetSizeWithCurrentAnchors(UnityEngine::RectTransform::Axis axis, float size);
@@ -279,7 +280,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::RectTransform::GetLocalCorners
 // Il2CppName: GetLocalCorners
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::RectTransform::*)(::ArrayWrapper<UnityEngine::Vector3>)>(&UnityEngine::RectTransform::GetLocalCorners)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::RectTransform::*)(::ArrayW<UnityEngine::Vector3>)>(&UnityEngine::RectTransform::GetLocalCorners)> {
   static const MethodInfo* get() {
     static auto* fourCornersArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::RectTransform*), "GetLocalCorners", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fourCornersArray});
@@ -288,7 +289,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::RectTransform::GetWorldCorners
 // Il2CppName: GetWorldCorners
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::RectTransform::*)(::ArrayWrapper<UnityEngine::Vector3>)>(&UnityEngine::RectTransform::GetWorldCorners)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::RectTransform::*)(::ArrayW<UnityEngine::Vector3>)>(&UnityEngine::RectTransform::GetWorldCorners)> {
   static const MethodInfo* get() {
     static auto* fourCornersArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::RectTransform*), "GetWorldCorners", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fourCornersArray});

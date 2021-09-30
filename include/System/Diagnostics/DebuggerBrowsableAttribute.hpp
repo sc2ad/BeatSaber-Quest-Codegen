@@ -24,12 +24,18 @@ namespace System::Diagnostics {
   // [AttributeUsageAttribute] Offset: E6264C
   class DebuggerBrowsableAttribute : public System::Attribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Diagnostics.DebuggerBrowsableState state
     // Size: 0x4
     // Offset: 0x10
     System::Diagnostics::DebuggerBrowsableState state;
     // Field size check
     static_assert(sizeof(System::Diagnostics::DebuggerBrowsableState) == 0x4);
+    public:
     // Creating conversion operator: operator System::Diagnostics::DebuggerBrowsableState
     constexpr operator System::Diagnostics::DebuggerBrowsableState() const noexcept {
       return state;

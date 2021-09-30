@@ -29,6 +29,11 @@ namespace System::Globalization {
   // [ComVisibleAttribute] Offset: E5E558
   class CultureNotFoundException : public System::ArgumentException {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String m_invalidCultureName
     // Size: 0x8
     // Offset: 0x90
@@ -39,6 +44,7 @@ namespace System::Globalization {
     // Size: 0xFFFFFFFF
     // Offset: 0x98
     System::Nullable_1<int> m_invalidCultureId;
+    public:
     // Deleting conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept = delete;
     // Get instance field reference: private System.String m_invalidCultureName

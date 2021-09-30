@@ -34,6 +34,11 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class TMP_UpdateRegistry : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement> m_LayoutRebuildQueue
     // Size: 0x8
     // Offset: 0x10
@@ -58,6 +63,7 @@ namespace TMPro {
     System::Collections::Generic::Dictionary_2<int, int>* m_GraphicQueueLookup;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<int, int>*) == 0x8);
+    public:
     // Get static field: static private TMPro.TMP_UpdateRegistry s_Instance
     static TMPro::TMP_UpdateRegistry* _get_s_Instance();
     // Set static field: static private TMPro.TMP_UpdateRegistry s_Instance

@@ -18,6 +18,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class AutoSetupData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Boolean selectBasedOnSuggestions
     // Size: 0x1
     // Offset: 0x10
@@ -42,6 +47,7 @@ namespace GlobalNamespace {
     bool randomSongIfNoneSuggested;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: public System.Boolean selectBasedOnSuggestions
     bool& dyn_selectBasedOnSuggestions();
     // Get instance field reference: public System.Boolean autoStartWhenAllReady

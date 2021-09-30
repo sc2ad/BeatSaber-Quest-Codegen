@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text
@@ -31,6 +32,11 @@ namespace System::Text {
     public:
     // Writing base type padding for base size: 0x11 to desired offset: 0x18
     char ___base_padding[0x7] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Text.Encoding encoding
     // Size: 0x8
     // Offset: 0x18
@@ -40,15 +46,16 @@ namespace System::Text {
     // System.Char[] arrayBestFit
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<::Il2CppChar> arrayBestFit;
+    ::ArrayW<::Il2CppChar> arrayBestFit;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppChar>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppChar>) == 0x8);
+    public:
     // Deleting conversion operator: operator bool
     constexpr operator bool() const noexcept = delete;
     // Get instance field reference: System.Text.Encoding encoding
     System::Text::Encoding*& dyn_encoding();
     // Get instance field reference: System.Char[] arrayBestFit
-    ::ArrayWrapper<::Il2CppChar>& dyn_arrayBestFit();
+    ::ArrayW<::Il2CppChar>& dyn_arrayBestFit();
     // System.Void .ctor(System.Text.Encoding encoding)
     // Offset: 0x1F0CCE8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -78,7 +85,7 @@ namespace System::Text {
     int GetHashCode();
   }; // System.Text.InternalEncoderBestFitFallback
   #pragma pack(pop)
-  static check_size<sizeof(InternalEncoderBestFitFallback), 32 + sizeof(::ArrayWrapper<::Il2CppChar>)> __System_Text_InternalEncoderBestFitFallbackSizeCheck;
+  static check_size<sizeof(InternalEncoderBestFitFallback), 32 + sizeof(::ArrayW<::Il2CppChar>)> __System_Text_InternalEncoderBestFitFallbackSizeCheck;
   static_assert(sizeof(InternalEncoderBestFitFallback) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::InternalEncoderBestFitFallback*, "System.Text", "InternalEncoderBestFitFallback");

@@ -45,6 +45,11 @@ namespace UnityEngine::Experimental::GlobalIllumination {
   // [UsedByNativeCodeAttribute] Offset: E749FC
   struct LightDataGI/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 instanceID
     // Size: 0x4
     // Offset: 0x0
@@ -129,6 +134,7 @@ namespace UnityEngine::Experimental::GlobalIllumination {
     UnityEngine::Experimental::GlobalIllumination::FalloffType falloff;
     // Field size check
     static_assert(sizeof(UnityEngine::Experimental::GlobalIllumination::FalloffType) == 0x1);
+    public:
     // Creating value type constructor for type: LightDataGI
     constexpr LightDataGI(int instanceID_ = {}, UnityEngine::Experimental::GlobalIllumination::LinearColor color_ = {}, UnityEngine::Experimental::GlobalIllumination::LinearColor indirectColor_ = {}, UnityEngine::Quaternion orientation_ = {}, UnityEngine::Vector3 position_ = {}, float range_ = {}, float coneAngle_ = {}, float innerConeAngle_ = {}, float shape0_ = {}, float shape1_ = {}, UnityEngine::Experimental::GlobalIllumination::LightType type_ = {}, UnityEngine::Experimental::GlobalIllumination::LightMode mode_ = {}, uint8_t shadow_ = {}, UnityEngine::Experimental::GlobalIllumination::FalloffType falloff_ = {}) noexcept : instanceID{instanceID_}, color{color_}, indirectColor{indirectColor_}, orientation{orientation_}, position{position_}, range{range_}, coneAngle{coneAngle_}, innerConeAngle{innerConeAngle_}, shape0{shape0_}, shape1{shape1_}, type{type_}, mode{mode_}, shadow{shadow_}, falloff{falloff_} {}
     // Creating interface conversion operator: operator System::ValueType

@@ -47,6 +47,11 @@ namespace UnityEngine::EventSystems {
     public:
     // Nested type: UnityEngine::EventSystems::OVRPhysicsRaycaster::$$c
     class $$c;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // protected UnityEngine.LayerMask m_EventMask
     // Size: 0x4
     // Offset: 0x20
@@ -59,6 +64,7 @@ namespace UnityEngine::EventSystems {
     int sortOrder;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // static field const value: static protected System.Int32 kNoEventMaskSet
     static constexpr const int kNoEventMaskSet = -1;
     // Get static field: static protected System.Int32 kNoEventMaskSet

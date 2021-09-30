@@ -29,12 +29,18 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class ConstraintRotation : public RootMotion::FinalIK::Constraint {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Quaternion rotation
     // Size: 0x10
     // Offset: 0x1C
     UnityEngine::Quaternion rotation;
     // Field size check
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
+    public:
     // Creating conversion operator: operator UnityEngine::Quaternion
     constexpr operator UnityEngine::Quaternion() const noexcept {
       return rotation;

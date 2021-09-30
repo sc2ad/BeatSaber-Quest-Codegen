@@ -22,12 +22,18 @@ namespace System::Reflection {
   // [ComVisibleAttribute] Offset: E5D358
   class AssemblyFileVersionAttribute : public System::Attribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String _version
     // Size: 0x8
     // Offset: 0x10
     ::Il2CppString* version;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return version;

@@ -28,6 +28,11 @@ namespace System::Threading {
   // [TokenAttribute] Offset: FFFFFFFF
   class SemaphoreSlim::TaskNode : public System::Threading::Tasks::Task_1<bool> {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Threading.SemaphoreSlim/System.Threading.TaskNode Prev
     // Size: 0x8
     // Offset: 0x58
@@ -40,6 +45,7 @@ namespace System::Threading {
     System::Threading::SemaphoreSlim::TaskNode* Next;
     // Field size check
     static_assert(sizeof(System::Threading::SemaphoreSlim::TaskNode*) == 0x8);
+    public:
     // Get instance field reference: System.Threading.SemaphoreSlim/System.Threading.TaskNode Prev
     System::Threading::SemaphoreSlim::TaskNode*& dyn_Prev();
     // Get instance field reference: System.Threading.SemaphoreSlim/System.Threading.TaskNode Next

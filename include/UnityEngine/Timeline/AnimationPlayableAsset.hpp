@@ -77,12 +77,18 @@ namespace UnityEngine::Timeline {
     // [TokenAttribute] Offset: FFFFFFFF
     struct LoopMode/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: LoopMode
       constexpr LoopMode(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -120,6 +126,11 @@ namespace UnityEngine::Timeline {
     #pragma pack(pop)
     static check_size<sizeof(AnimationPlayableAsset::LoopMode), 0 + sizeof(int)> __UnityEngine_Timeline_AnimationPlayableAsset_LoopModeSizeCheck;
     static_assert(sizeof(AnimationPlayableAsset::LoopMode) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.AnimationClip m_Clip
     // Size: 0x8
     // Offset: 0x18
@@ -191,6 +202,7 @@ namespace UnityEngine::Timeline {
     UnityEngine::Quaternion m_Rotation;
     // Field size check
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
+    public:
     // Creating interface conversion operator: operator UnityEngine::Timeline::ITimelineClipAsset
     operator UnityEngine::Timeline::ITimelineClipAsset() noexcept {
       return *reinterpret_cast<UnityEngine::Timeline::ITimelineClipAsset*>(this);

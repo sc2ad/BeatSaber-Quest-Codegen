@@ -35,6 +35,11 @@ namespace UnityEngine::Events {
   // [TokenAttribute] Offset: FFFFFFFF
   class PersistentCallGroup : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [FormerlySerializedAsAttribute] Offset: 0xE76A40
     // private System.Collections.Generic.List`1<UnityEngine.Events.PersistentCall> m_Calls
     // Size: 0x8
@@ -42,6 +47,7 @@ namespace UnityEngine::Events {
     System::Collections::Generic::List_1<UnityEngine::Events::PersistentCall*>* m_Calls;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::Events::PersistentCall*>*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Collections::Generic::List_1<UnityEngine::Events::PersistentCall*>*
     constexpr operator System::Collections::Generic::List_1<UnityEngine::Events::PersistentCall*>*() const noexcept {
       return m_Calls;

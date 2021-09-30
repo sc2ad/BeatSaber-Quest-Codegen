@@ -38,6 +38,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GameServerBrowserViewController : public HMUI::ViewController {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [HeaderAttribute] Offset: 0xF10FE0
     // private UnityEngine.UI.Button _filterServersButton
     // Size: 0x8
@@ -84,6 +89,7 @@ namespace GlobalNamespace {
     GlobalNamespace::LoadingControl* smallLoadingControl;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LoadingControl*) == 0x8);
+    public:
     // Get instance field reference: private UnityEngine.UI.Button _filterServersButton
     UnityEngine::UI::Button*& dyn__filterServersButton();
     // Get instance field reference: private GameServersFilterText _filterText

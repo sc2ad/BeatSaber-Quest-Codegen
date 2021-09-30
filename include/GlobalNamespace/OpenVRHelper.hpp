@@ -19,6 +19,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -78,12 +79,18 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct VRControllerManufacturerName/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: VRControllerManufacturerName
       constexpr VRControllerManufacturerName(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -130,6 +137,11 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(OpenVRHelper::VRControllerManufacturerName), 0 + sizeof(int)> __GlobalNamespace_OpenVRHelper_VRControllerManufacturerNameSizeCheck;
     static_assert(sizeof(OpenVRHelper::VRControllerManufacturerName) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xEC9D70
     // private readonly IOpenVRHaptics _openVrHaptics
     // Size: 0x8
@@ -188,9 +200,9 @@ namespace GlobalNamespace {
     // private readonly Valve.VR.TrackedDevicePose_t[] _gamePoses
     // Size: 0x8
     // Offset: 0x60
-    ::ArrayWrapper<Valve::VR::TrackedDevicePose_t> gamePoses;
+    ::ArrayW<Valve::VR::TrackedDevicePose_t> gamePoses;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<Valve::VR::TrackedDevicePose_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<Valve::VR::TrackedDevicePose_t>) == 0x8);
     // private readonly System.Collections.Generic.List`1<UnityEngine.XR.XRNodeState> _nodeStates
     // Size: 0x8
     // Offset: 0x68
@@ -200,9 +212,9 @@ namespace GlobalNamespace {
     // private readonly Valve.VR.TrackedDevicePose_t[] _poses
     // Size: 0x8
     // Offset: 0x70
-    ::ArrayWrapper<Valve::VR::TrackedDevicePose_t> poses;
+    ::ArrayW<Valve::VR::TrackedDevicePose_t> poses;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<Valve::VR::TrackedDevicePose_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<Valve::VR::TrackedDevicePose_t>) == 0x8);
     // private System.Boolean _hasInputFocus
     // Size: 0x1
     // Offset: 0x78
@@ -235,6 +247,7 @@ namespace GlobalNamespace {
     bool scrollingLastFrame;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IVRPlatformHelper
     operator GlobalNamespace::IVRPlatformHelper() noexcept {
       return *reinterpret_cast<GlobalNamespace::IVRPlatformHelper*>(this);
@@ -284,11 +297,11 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`1<UnityEngine.Vector2> joystickWasNotCenteredThisFrameEvent
     System::Action_1<UnityEngine::Vector2>*& dyn_joystickWasNotCenteredThisFrameEvent();
     // Get instance field reference: private readonly Valve.VR.TrackedDevicePose_t[] _gamePoses
-    ::ArrayWrapper<Valve::VR::TrackedDevicePose_t>& dyn__gamePoses();
+    ::ArrayW<Valve::VR::TrackedDevicePose_t>& dyn__gamePoses();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<UnityEngine.XR.XRNodeState> _nodeStates
     System::Collections::Generic::List_1<UnityEngine::XR::XRNodeState>*& dyn__nodeStates();
     // Get instance field reference: private readonly Valve.VR.TrackedDevicePose_t[] _poses
-    ::ArrayWrapper<Valve::VR::TrackedDevicePose_t>& dyn__poses();
+    ::ArrayW<Valve::VR::TrackedDevicePose_t>& dyn__poses();
     // Get instance field reference: private System.Boolean _hasInputFocus
     bool& dyn__hasInputFocus();
     // Get instance field reference: private System.Boolean _didGetNodeStatesThisFrame

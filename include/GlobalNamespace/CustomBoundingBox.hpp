@@ -29,6 +29,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class CustomBoundingBox : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.MeshFilter _meshFilter
     // Size: 0x8
     // Offset: 0x18
@@ -53,6 +58,7 @@ namespace GlobalNamespace {
     UnityEngine::MeshRenderer* meshRenderer;
     // Field size check
     static_assert(sizeof(UnityEngine::MeshRenderer*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.MeshFilter _meshFilter

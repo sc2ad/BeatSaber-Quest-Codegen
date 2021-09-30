@@ -38,6 +38,11 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class HttpListenerContext : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Net.HttpListenerRequest request
     // Size: 0x8
     // Offset: 0x10
@@ -82,6 +87,7 @@ namespace System::Net {
     System::Net::HttpListener* Listener;
     // Field size check
     static_assert(sizeof(System::Net::HttpListener*) == 0x8);
+    public:
     // Get instance field reference: private System.Net.HttpListenerRequest request
     System::Net::HttpListenerRequest*& dyn_request();
     // Get instance field reference: private System.Net.HttpListenerResponse response

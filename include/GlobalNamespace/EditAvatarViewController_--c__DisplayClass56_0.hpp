@@ -34,6 +34,11 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class EditAvatarViewController::$$c__DisplayClass56_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public EditAvatarViewController <>4__this
     // Size: 0x8
     // Offset: 0x10
@@ -74,6 +79,7 @@ namespace GlobalNamespace {
     System::Action_1<UnityEngine::Color>* $$9__1;
     // Field size check
     static_assert(sizeof(System::Action_1<UnityEngine::Color>*) == 0x8);
+    public:
     // Get instance field reference: public EditAvatarViewController <>4__this
     GlobalNamespace::EditAvatarViewController*& dyn_$$4__this();
     // Get instance field reference: public System.Action`1<UnityEngine.Color> colorSetter

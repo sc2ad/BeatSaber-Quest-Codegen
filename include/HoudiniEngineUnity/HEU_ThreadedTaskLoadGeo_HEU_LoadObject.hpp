@@ -37,6 +37,11 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_ThreadedTaskLoadGeo::HEU_LoadObject : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 _objectNodeID
     // Size: 0x4
     // Offset: 0x10
@@ -67,6 +72,7 @@ namespace HoudiniEngineUnity {
     System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_LoadBufferInstancer*>* instancerBuffers;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_LoadBufferInstancer*>*) == 0x8);
+    public:
     // Get instance field reference: public System.Int32 _objectNodeID
     int& dyn__objectNodeID();
     // Get instance field reference: public System.Int32 _displayNodeID

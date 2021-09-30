@@ -30,12 +30,18 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class MultiplayerResultsTableView::$$c__DisplayClass30_1 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.RectTransform winnerRectTransform
     // Size: 0x8
     // Offset: 0x10
     UnityEngine::RectTransform* winnerRectTransform;
     // Field size check
     static_assert(sizeof(UnityEngine::RectTransform*) == 0x8);
+    public:
     // Creating conversion operator: operator UnityEngine::RectTransform*
     constexpr operator UnityEngine::RectTransform*() const noexcept {
       return winnerRectTransform;

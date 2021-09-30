@@ -28,12 +28,18 @@ namespace TMPro {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class TMP_MaterialManager::$$c__DisplayClass12_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Material stencilMaterial
     // Size: 0x8
     // Offset: 0x10
     UnityEngine::Material* stencilMaterial;
     // Field size check
     static_assert(sizeof(UnityEngine::Material*) == 0x8);
+    public:
     // Creating conversion operator: operator UnityEngine::Material*
     constexpr operator UnityEngine::Material*() const noexcept {
       return stencilMaterial;

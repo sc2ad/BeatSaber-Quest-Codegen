@@ -28,6 +28,11 @@ namespace System::Runtime::Serialization {
   // [ComVisibleAttribute] Offset: E5F918
   struct SerializationEntry/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Type m_type
     // Size: 0x8
     // Offset: 0x0
@@ -46,6 +51,7 @@ namespace System::Runtime::Serialization {
     ::Il2CppString* m_name;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Creating value type constructor for type: SerializationEntry
     constexpr SerializationEntry(System::Type* m_type_ = {}, ::Il2CppObject* m_value_ = {}, ::Il2CppString* m_name_ = {}) noexcept : m_type{m_type_}, m_value{m_value_}, m_name{m_name_} {}
     // Creating interface conversion operator: operator System::ValueType

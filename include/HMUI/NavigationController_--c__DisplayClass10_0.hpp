@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HMUI
@@ -34,12 +35,17 @@ namespace HMUI {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class NavigationController::$$c__DisplayClass10_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Single[] startPositions
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<float> startPositions;
+    ::ArrayW<float> startPositions;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<float>) == 0x8);
+    static_assert(sizeof(::ArrayW<float>) == 0x8);
     // public HMUI.NavigationController <>4__this
     // Size: 0x8
     // Offset: 0x18
@@ -49,26 +55,27 @@ namespace HMUI {
     // public System.Single[] endPositions
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<float> endPositions;
+    ::ArrayW<float> endPositions;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<float>) == 0x8);
+    static_assert(sizeof(::ArrayW<float>) == 0x8);
     // public System.Single moveOffset
     // Size: 0x4
     // Offset: 0x28
     float moveOffset;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: public System.Single[] startPositions
-    ::ArrayWrapper<float>& dyn_startPositions();
+    ::ArrayW<float>& dyn_startPositions();
     // Get instance field reference: public HMUI.NavigationController <>4__this
     HMUI::NavigationController*& dyn_$$4__this();
     // Get instance field reference: public System.Single[] endPositions
-    ::ArrayWrapper<float>& dyn_endPositions();
+    ::ArrayW<float>& dyn_endPositions();
     // Get instance field reference: public System.Single moveOffset
     float& dyn_moveOffset();
     // System.Void <PopViewControllers>g__AnimationLayouter|0(System.Single t, HMUI.ViewController[] viewControllers, System.Collections.Generic.HashSet`1<HMUI.ViewController> removingViewControllers)
     // Offset: 0x141329C
-    void $PopViewControllers$g__AnimationLayouter_0(float t, ::ArrayWrapper<HMUI::ViewController*> viewControllers, System::Collections::Generic::HashSet_1<HMUI::ViewController*>* removingViewControllers);
+    void $PopViewControllers$g__AnimationLayouter_0(float t, ::ArrayW<HMUI::ViewController*> viewControllers, System::Collections::Generic::HashSet_1<HMUI::ViewController*>* removingViewControllers);
     // public System.Void .ctor()
     // Offset: 0x14131EC
     // Implemented from: System.Object
@@ -88,7 +95,7 @@ DEFINE_IL2CPP_ARG_TYPE(HMUI::NavigationController::$$c__DisplayClass10_0*, "HMUI
 // Writing MetadataGetter for method: HMUI::NavigationController::$$c__DisplayClass10_0::$PopViewControllers$g__AnimationLayouter_0
 // Il2CppName: <PopViewControllers>g__AnimationLayouter|0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::NavigationController::$$c__DisplayClass10_0::*)(float, ::ArrayWrapper<HMUI::ViewController*>, System::Collections::Generic::HashSet_1<HMUI::ViewController*>*)>(&HMUI::NavigationController::$$c__DisplayClass10_0::$PopViewControllers$g__AnimationLayouter_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::NavigationController::$$c__DisplayClass10_0::*)(float, ::ArrayW<HMUI::ViewController*>, System::Collections::Generic::HashSet_1<HMUI::ViewController*>*)>(&HMUI::NavigationController::$$c__DisplayClass10_0::$PopViewControllers$g__AnimationLayouter_0)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* viewControllers = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("HMUI", "ViewController"), 1)->byval_arg;

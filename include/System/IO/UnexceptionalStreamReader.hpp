@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO
@@ -33,9 +34,9 @@ namespace System::IO {
   class UnexceptionalStreamReader : public System::IO::StreamReader {
     public:
     // Get static field: static private System.Boolean[] newline
-    static ::ArrayWrapper<bool> _get_newline();
+    static ::ArrayW<bool> _get_newline();
     // Set static field: static private System.Boolean[] newline
-    static void _set_newline(::ArrayWrapper<bool> value);
+    static void _set_newline(::ArrayW<bool> value);
     // Get static field: static private System.Char newlineChar
     static ::Il2CppChar _get_newlineChar();
     // Set static field: static private System.Char newlineChar
@@ -72,7 +73,7 @@ namespace System::IO {
     // Offset: 0x1A07C78
     // Implemented from: System.IO.StreamReader
     // Base method: System.Int32 StreamReader::Read(in System.Char[] dest_buffer, System.Int32 index, System.Int32 count)
-    int Read(ByRef<::ArrayWrapper<::Il2CppChar>> dest_buffer, int index, int count);
+    int Read(ByRef<::ArrayW<::Il2CppChar>> dest_buffer, int index, int count);
     // public override System.String ReadLine()
     // Offset: 0x1A080E4
     // Implemented from: System.IO.StreamReader
@@ -128,7 +129,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::IO::UnexceptionalStreamReader::Read
 // Il2CppName: Read
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::UnexceptionalStreamReader::*)(ByRef<::ArrayWrapper<::Il2CppChar>>, int, int)>(&System::IO::UnexceptionalStreamReader::Read)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::UnexceptionalStreamReader::*)(ByRef<::ArrayW<::Il2CppChar>>, int, int)>(&System::IO::UnexceptionalStreamReader::Read)> {
   static const MethodInfo* get() {
     static auto* dest_buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->this_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

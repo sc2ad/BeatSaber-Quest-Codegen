@@ -20,6 +20,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LocalLeaderboardsModel::ScoreData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 _score
     // Size: 0x4
     // Offset: 0x10
@@ -48,6 +53,7 @@ namespace GlobalNamespace {
     int64_t timestamp;
     // Field size check
     static_assert(sizeof(int64_t) == 0x8);
+    public:
     // Get instance field reference: public System.Int32 _score
     int& dyn__score();
     // Get instance field reference: public System.String _playerName

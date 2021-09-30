@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: System
 namespace System {
@@ -20,12 +21,17 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class DefaultBinder::BinderState : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Int32[] m_argsMap
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<int> m_argsMap;
+    ::ArrayW<int> m_argsMap;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // System.Int32 m_originalSize
     // Size: 0x4
     // Offset: 0x18
@@ -38,8 +44,9 @@ namespace System {
     bool m_isParamArray;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: System.Int32[] m_argsMap
-    ::ArrayWrapper<int>& dyn_m_argsMap();
+    ::ArrayW<int>& dyn_m_argsMap();
     // Get instance field reference: System.Int32 m_originalSize
     int& dyn_m_originalSize();
     // Get instance field reference: System.Boolean m_isParamArray
@@ -47,7 +54,7 @@ namespace System {
     // System.Void .ctor(System.Int32[] argsMap, System.Int32 originalSize, System.Boolean isParamArray)
     // Offset: 0x1CE5A14
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DefaultBinder::BinderState* New_ctor(::ArrayWrapper<int> argsMap, int originalSize, bool isParamArray) {
+    static DefaultBinder::BinderState* New_ctor(::ArrayW<int> argsMap, int originalSize, bool isParamArray) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::DefaultBinder::BinderState::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DefaultBinder::BinderState*, creationType>(argsMap, originalSize, isParamArray)));
     }

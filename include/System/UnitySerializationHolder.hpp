@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -47,18 +48,23 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class UnitySerializationHolder : public ::Il2CppObject/*, public System::Runtime::Serialization::ISerializable, public System::Runtime::Serialization::IObjectReference*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Type[] m_instantiation
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<System::Type*> m_instantiation;
+    ::ArrayW<System::Type*> m_instantiation;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<System::Type*>) == 0x8);
+    static_assert(sizeof(::ArrayW<System::Type*>) == 0x8);
     // private System.Int32[] m_elementTypes
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<int> m_elementTypes;
+    ::ArrayW<int> m_elementTypes;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // private System.Int32 m_genericParameterPosition
     // Size: 0x4
     // Offset: 0x20
@@ -97,6 +103,7 @@ namespace System {
     int m_unityType;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating interface conversion operator: operator System::Runtime::Serialization::ISerializable
     operator System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);
@@ -106,9 +113,9 @@ namespace System {
       return *reinterpret_cast<System::Runtime::Serialization::IObjectReference*>(this);
     }
     // Get instance field reference: private System.Type[] m_instantiation
-    ::ArrayWrapper<System::Type*>& dyn_m_instantiation();
+    ::ArrayW<System::Type*>& dyn_m_instantiation();
     // Get instance field reference: private System.Int32[] m_elementTypes
-    ::ArrayWrapper<int>& dyn_m_elementTypes();
+    ::ArrayW<int>& dyn_m_elementTypes();
     // Get instance field reference: private System.Int32 m_genericParameterPosition
     int& dyn_m_genericParameterPosition();
     // Get instance field reference: private System.Type m_declaringType

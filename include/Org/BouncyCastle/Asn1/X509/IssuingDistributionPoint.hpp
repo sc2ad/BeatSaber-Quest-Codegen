@@ -41,6 +41,11 @@ namespace Org::BouncyCastle::Asn1::X509 {
   // [TokenAttribute] Offset: FFFFFFFF
   class IssuingDistributionPoint : public Org::BouncyCastle::Asn1::Asn1Encodable {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Org.BouncyCastle.Asn1.X509.DistributionPointName _distributionPoint
     // Size: 0x8
     // Offset: 0x10
@@ -87,6 +92,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
     Org::BouncyCastle::Asn1::Asn1Sequence* seq;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::Asn1Sequence*) == 0x8);
+    public:
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.X509.DistributionPointName _distributionPoint
     Org::BouncyCastle::Asn1::X509::DistributionPointName*& dyn__distributionPoint();
     // Get instance field reference: private readonly System.Boolean _onlyContainsUserCerts

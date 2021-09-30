@@ -21,6 +21,11 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class PromoViewController::$$c__DisplayClass5_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public PromoViewController/ButtonPromoTypePair item
     // Size: 0x8
     // Offset: 0x10
@@ -33,6 +38,7 @@ namespace GlobalNamespace {
     GlobalNamespace::PromoViewController* $$4__this;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PromoViewController*) == 0x8);
+    public:
     // Get instance field reference: public PromoViewController/ButtonPromoTypePair item
     GlobalNamespace::PromoViewController::ButtonPromoTypePair*& dyn_item();
     // Get instance field reference: public PromoViewController <>4__this

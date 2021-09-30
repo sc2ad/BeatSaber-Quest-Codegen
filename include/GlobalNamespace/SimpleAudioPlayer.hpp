@@ -29,6 +29,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SimpleAudioPlayer : public GlobalNamespace::AudioPlayerBase {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.AudioClip _audioClip
     // Size: 0x8
     // Offset: 0x18
@@ -67,6 +72,7 @@ namespace GlobalNamespace {
     bool fadingIn;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.AudioClip _audioClip

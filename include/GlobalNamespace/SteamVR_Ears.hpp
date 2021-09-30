@@ -28,6 +28,11 @@ namespace GlobalNamespace {
   // [RequireComponent] Offset: EB4E08
   class SteamVR_Ears : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public SteamVR_Camera vrcam
     // Size: 0x8
     // Offset: 0x18
@@ -48,6 +53,7 @@ namespace GlobalNamespace {
     UnityEngine::Quaternion offset;
     // Field size check
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public SteamVR_Camera vrcam

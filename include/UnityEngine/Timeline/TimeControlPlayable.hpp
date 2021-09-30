@@ -39,6 +39,11 @@ namespace UnityEngine::Timeline {
   // [TokenAttribute] Offset: FFFFFFFF
   class TimeControlPlayable : public UnityEngine::Playables::PlayableBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Timeline.ITimeControl m_timeControl
     // Size: 0x8
     // Offset: 0x10
@@ -51,6 +56,7 @@ namespace UnityEngine::Timeline {
     bool m_started;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private UnityEngine.Timeline.ITimeControl m_timeControl
     UnityEngine::Timeline::ITimeControl*& dyn_m_timeControl();
     // Get instance field reference: private System.Boolean m_started

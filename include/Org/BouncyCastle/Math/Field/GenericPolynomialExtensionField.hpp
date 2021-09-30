@@ -33,6 +33,11 @@ namespace Org::BouncyCastle::Math::Field {
   // [TokenAttribute] Offset: FFFFFFFF
   class GenericPolynomialExtensionField : public ::Il2CppObject/*, public Org::BouncyCastle::Math::Field::IPolynomialExtensionField*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // protected readonly Org.BouncyCastle.Math.Field.IFiniteField subfield
     // Size: 0x8
     // Offset: 0x10
@@ -45,6 +50,7 @@ namespace Org::BouncyCastle::Math::Field {
     Org::BouncyCastle::Math::Field::IPolynomial* minimalPolynomial;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Math::Field::IPolynomial*) == 0x8);
+    public:
     // Creating interface conversion operator: operator Org::BouncyCastle::Math::Field::IPolynomialExtensionField
     operator Org::BouncyCastle::Math::Field::IPolynomialExtensionField() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Math::Field::IPolynomialExtensionField*>(this);

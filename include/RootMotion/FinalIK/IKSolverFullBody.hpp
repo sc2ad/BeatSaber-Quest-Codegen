@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: RootMotion::FinalIK
@@ -40,6 +41,11 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class IKSolverFullBody : public RootMotion::FinalIK::IKSolver {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [RangeAttribute] Offset: 0xEF31B4
     // public System.Int32 iterations
     // Size: 0x4
@@ -52,15 +58,15 @@ namespace RootMotion::FinalIK {
     // public RootMotion.FinalIK.FBIKChain[] chain
     // Size: 0x8
     // Offset: 0x60
-    ::ArrayWrapper<RootMotion::FinalIK::FBIKChain*> chain;
+    ::ArrayW<RootMotion::FinalIK::FBIKChain*> chain;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::FBIKChain*>) == 0x8);
+    static_assert(sizeof(::ArrayW<RootMotion::FinalIK::FBIKChain*>) == 0x8);
     // public RootMotion.FinalIK.IKEffector[] effectors
     // Size: 0x8
     // Offset: 0x68
-    ::ArrayWrapper<RootMotion::FinalIK::IKEffector*> effectors;
+    ::ArrayW<RootMotion::FinalIK::IKEffector*> effectors;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::IKEffector*>) == 0x8);
+    static_assert(sizeof(::ArrayW<RootMotion::FinalIK::IKEffector*>) == 0x8);
     // public RootMotion.FinalIK.IKMappingSpine spineMapping
     // Size: 0x8
     // Offset: 0x70
@@ -70,15 +76,15 @@ namespace RootMotion::FinalIK {
     // public RootMotion.FinalIK.IKMappingBone[] boneMappings
     // Size: 0x8
     // Offset: 0x78
-    ::ArrayWrapper<RootMotion::FinalIK::IKMappingBone*> boneMappings;
+    ::ArrayW<RootMotion::FinalIK::IKMappingBone*> boneMappings;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::IKMappingBone*>) == 0x8);
+    static_assert(sizeof(::ArrayW<RootMotion::FinalIK::IKMappingBone*>) == 0x8);
     // public RootMotion.FinalIK.IKMappingLimb[] limbMappings
     // Size: 0x8
     // Offset: 0x80
-    ::ArrayWrapper<RootMotion::FinalIK::IKMappingLimb*> limbMappings;
+    ::ArrayW<RootMotion::FinalIK::IKMappingLimb*> limbMappings;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::IKMappingLimb*>) == 0x8);
+    static_assert(sizeof(::ArrayW<RootMotion::FinalIK::IKMappingLimb*>) == 0x8);
     // public System.Boolean FABRIKPass
     // Size: 0x1
     // Offset: 0x88
@@ -135,18 +141,19 @@ namespace RootMotion::FinalIK {
     RootMotion::FinalIK::IKSolver::UpdateDelegate* OnFixTransforms;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::IKSolver::UpdateDelegate*) == 0x8);
+    public:
     // Get instance field reference: public System.Int32 iterations
     int& dyn_iterations();
     // Get instance field reference: public RootMotion.FinalIK.FBIKChain[] chain
-    ::ArrayWrapper<RootMotion::FinalIK::FBIKChain*>& dyn_chain();
+    ::ArrayW<RootMotion::FinalIK::FBIKChain*>& dyn_chain();
     // Get instance field reference: public RootMotion.FinalIK.IKEffector[] effectors
-    ::ArrayWrapper<RootMotion::FinalIK::IKEffector*>& dyn_effectors();
+    ::ArrayW<RootMotion::FinalIK::IKEffector*>& dyn_effectors();
     // Get instance field reference: public RootMotion.FinalIK.IKMappingSpine spineMapping
     RootMotion::FinalIK::IKMappingSpine*& dyn_spineMapping();
     // Get instance field reference: public RootMotion.FinalIK.IKMappingBone[] boneMappings
-    ::ArrayWrapper<RootMotion::FinalIK::IKMappingBone*>& dyn_boneMappings();
+    ::ArrayW<RootMotion::FinalIK::IKMappingBone*>& dyn_boneMappings();
     // Get instance field reference: public RootMotion.FinalIK.IKMappingLimb[] limbMappings
-    ::ArrayWrapper<RootMotion::FinalIK::IKMappingLimb*>& dyn_limbMappings();
+    ::ArrayW<RootMotion::FinalIK::IKMappingLimb*>& dyn_limbMappings();
     // Get instance field reference: public System.Boolean FABRIKPass
     bool& dyn_FABRIKPass();
     // Get instance field reference: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.UpdateDelegate OnPreRead
@@ -206,7 +213,7 @@ namespace RootMotion::FinalIK {
     // Offset: 0x1E632C4
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point[] IKSolver::GetPoints()
-    ::ArrayWrapper<RootMotion::FinalIK::IKSolver::Point*> GetPoints();
+    ::ArrayW<RootMotion::FinalIK::IKSolver::Point*> GetPoints();
     // public override RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point GetPoint(UnityEngine.Transform transform)
     // Offset: 0x1E6346C
     // Implemented from: RootMotion.FinalIK.IKSolver
@@ -331,7 +338,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverFullBody::GetPoints
 // Il2CppName: GetPoints
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<RootMotion::FinalIK::IKSolver::Point*> (RootMotion::FinalIK::IKSolverFullBody::*)()>(&RootMotion::FinalIK::IKSolverFullBody::GetPoints)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<RootMotion::FinalIK::IKSolver::Point*> (RootMotion::FinalIK::IKSolverFullBody::*)()>(&RootMotion::FinalIK::IKSolverFullBody::GetPoints)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverFullBody*), "GetPoints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

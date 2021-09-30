@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -67,6 +68,11 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class ServicePoint : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Uri uri
     // Size: 0x8
     // Offset: 0x10
@@ -205,6 +211,7 @@ namespace System::Net {
     ::Il2CppObject* m_ClientCertificateOrBytes;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
+    public:
     // Get instance field reference: private readonly System.Uri uri
     System::Uri*& dyn_uri();
     // Get instance field reference: private System.Int32 connectionLimit
@@ -304,7 +311,7 @@ namespace System::Net {
     void KeepAliveSetup(System::Net::Sockets::Socket* socket);
     // static private System.Void PutBytes(System.Byte[] bytes, System.UInt32 v, System.Int32 offset)
     // Offset: 0x164E99C
-    static void PutBytes(::ArrayWrapper<uint8_t> bytes, uint v, int offset);
+    static void PutBytes(::ArrayW<uint8_t> bytes, uint v, int offset);
     // private System.Net.WebConnectionGroup GetConnectionGroup(System.String name)
     // Offset: 0x164EB24
     System::Net::WebConnectionGroup* GetConnectionGroup(::Il2CppString* name);
@@ -489,7 +496,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::ServicePoint::PutBytes
 // Il2CppName: PutBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint8_t>, uint, int)>(&System::Net::ServicePoint::PutBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t>, uint, int)>(&System::Net::ServicePoint::PutBytes)> {
   static const MethodInfo* get() {
     static auto* bytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* v = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;

@@ -45,6 +45,11 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   // [TokenAttribute] Offset: FFFFFFFF
   class PointSet : public ::Il2CppObject/*, public UnityEngine::ProBuilder::Poly2Tri::Triangulatable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint> <Points>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -57,6 +62,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>* Triangles;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator UnityEngine::ProBuilder::Poly2Tri::Triangulatable
     operator UnityEngine::ProBuilder::Poly2Tri::Triangulatable() noexcept {
       return *reinterpret_cast<UnityEngine::ProBuilder::Poly2Tri::Triangulatable*>(this);

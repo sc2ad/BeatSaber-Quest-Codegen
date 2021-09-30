@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -38,10 +39,10 @@ namespace Zenject {
     }
     // public System.Object Invoke(System.Object[] args)
     // Offset: 0x2610F64
-    ::Il2CppObject* Invoke(::ArrayWrapper<::Il2CppObject*> args);
+    ::Il2CppObject* Invoke(::ArrayW<::Il2CppObject*> args);
     // public System.IAsyncResult BeginInvoke(System.Object[] args, System.AsyncCallback callback, System.Object object)
     // Offset: 0x2611300
-    System::IAsyncResult* BeginInvoke(::ArrayWrapper<::Il2CppObject*> args, System::AsyncCallback* callback, ::Il2CppObject* object);
+    System::IAsyncResult* BeginInvoke(::ArrayW<::Il2CppObject*> args, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Object EndInvoke(System.IAsyncResult result)
     // Offset: 0x2611324
     ::Il2CppObject* EndInvoke(System::IAsyncResult* result);
@@ -57,7 +58,7 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::ZenFactoryMethod*, "Zenject", "ZenFactoryMethod"
 // Writing MetadataGetter for method: Zenject::ZenFactoryMethod::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Zenject::ZenFactoryMethod::*)(::ArrayWrapper<::Il2CppObject*>)>(&Zenject::ZenFactoryMethod::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (Zenject::ZenFactoryMethod::*)(::ArrayW<::Il2CppObject*>)>(&Zenject::ZenFactoryMethod::Invoke)> {
   static const MethodInfo* get() {
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::ZenFactoryMethod*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{args});
@@ -66,7 +67,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: Zenject::ZenFactoryMethod::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Zenject::ZenFactoryMethod::*)(::ArrayWrapper<::Il2CppObject*>, System::AsyncCallback*, ::Il2CppObject*)>(&Zenject::ZenFactoryMethod::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Zenject::ZenFactoryMethod::*)(::ArrayW<::Il2CppObject*>, System::AsyncCallback*, ::Il2CppObject*)>(&Zenject::ZenFactoryMethod::BeginInvoke)> {
   static const MethodInfo* get() {
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     static auto* callback = &::il2cpp_utils::GetClassFromName("System", "AsyncCallback")->byval_arg;

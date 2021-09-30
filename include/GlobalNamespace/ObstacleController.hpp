@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -62,6 +63,11 @@ namespace GlobalNamespace {
     class Pool;
     // Nested type: GlobalNamespace::ObstacleController::$DissolveCoroutine$d__69
     class $DissolveCoroutine$d__69;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private StretchableObstacle _stretchableObstacle
     // Size: 0x8
     // Offset: 0x28
@@ -80,9 +86,9 @@ namespace GlobalNamespace {
     // private UnityEngine.GameObject[] _visualWrappers
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayWrapper<UnityEngine::GameObject*> visualWrappers;
+    ::ArrayW<UnityEngine::GameObject*> visualWrappers;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::GameObject*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::GameObject*>) == 0x8);
     // [InjectAttribute] Offset: 0xF04F28
     // private readonly PlayerTransforms _playerTransforms
     // Size: 0x8
@@ -258,6 +264,7 @@ namespace GlobalNamespace {
     UnityEngine::Quaternion inverseWorldRotation;
     // Field size check
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
+    public:
     // static field const value: static public System.Single kAvoidMarkTimeOffset
     static constexpr const float kAvoidMarkTimeOffset = 0.15;
     // Get static field: static public System.Single kAvoidMarkTimeOffset
@@ -269,7 +276,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _endDistanceOffset
     float& dyn__endDistanceOffset();
     // Get instance field reference: private UnityEngine.GameObject[] _visualWrappers
-    ::ArrayWrapper<UnityEngine::GameObject*>& dyn__visualWrappers();
+    ::ArrayW<UnityEngine::GameObject*>& dyn__visualWrappers();
     // Get instance field reference: private readonly PlayerTransforms _playerTransforms
     GlobalNamespace::PlayerTransforms*& dyn__playerTransforms();
     // Get instance field reference: private readonly IAudioTimeSource _audioTimeSyncController

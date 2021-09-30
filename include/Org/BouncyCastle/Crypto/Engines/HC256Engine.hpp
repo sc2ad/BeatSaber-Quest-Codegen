@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Crypto
@@ -27,18 +28,23 @@ namespace Org::BouncyCastle::Crypto::Engines {
   // [TokenAttribute] Offset: FFFFFFFF
   class HC256Engine : public ::Il2CppObject/*, public Org::BouncyCastle::Crypto::IStreamCipher*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.UInt32[] p
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<uint> p;
+    ::ArrayW<uint> p;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint>) == 0x8);
     // private System.UInt32[] q
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<uint> q;
+    ::ArrayW<uint> q;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint>) == 0x8);
     // private System.UInt32 cnt
     // Size: 0x4
     // Offset: 0x20
@@ -50,15 +56,15 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // private System.Byte[] key
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<uint8_t> key;
+    ::ArrayW<uint8_t> key;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Byte[] iv
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<uint8_t> iv;
+    ::ArrayW<uint8_t> iv;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Boolean initialised
     // Size: 0x1
     // Offset: 0x38
@@ -70,33 +76,34 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // private System.Byte[] buf
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayWrapper<uint8_t> buf;
+    ::ArrayW<uint8_t> buf;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Int32 idx
     // Size: 0x4
     // Offset: 0x48
     int idx;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IStreamCipher
     operator Org::BouncyCastle::Crypto::IStreamCipher() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IStreamCipher*>(this);
     }
     // Get instance field reference: private System.UInt32[] p
-    ::ArrayWrapper<uint>& dyn_p();
+    ::ArrayW<uint>& dyn_p();
     // Get instance field reference: private System.UInt32[] q
-    ::ArrayWrapper<uint>& dyn_q();
+    ::ArrayW<uint>& dyn_q();
     // Get instance field reference: private System.UInt32 cnt
     uint& dyn_cnt();
     // Get instance field reference: private System.Byte[] key
-    ::ArrayWrapper<uint8_t>& dyn_key();
+    ::ArrayW<uint8_t>& dyn_key();
     // Get instance field reference: private System.Byte[] iv
-    ::ArrayWrapper<uint8_t>& dyn_iv();
+    ::ArrayW<uint8_t>& dyn_iv();
     // Get instance field reference: private System.Boolean initialised
     bool& dyn_initialised();
     // Get instance field reference: private System.Byte[] buf
-    ::ArrayWrapper<uint8_t>& dyn_buf();
+    ::ArrayW<uint8_t>& dyn_buf();
     // Get instance field reference: private System.Int32 idx
     int& dyn_idx();
     // public System.String get_AlgorithmName()
@@ -116,7 +123,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
     uint8_t GetByte();
     // public System.Void ProcessBytes(System.Byte[] input, System.Int32 inOff, System.Int32 len, System.Byte[] output, System.Int32 outOff)
     // Offset: 0x1FD0AA8
-    void ProcessBytes(::ArrayWrapper<uint8_t> input, int inOff, int len, ::ArrayWrapper<uint8_t> output, int outOff);
+    void ProcessBytes(::ArrayW<uint8_t> input, int inOff, int len, ::ArrayW<uint8_t> output, int outOff);
     // public System.Void Reset()
     // Offset: 0x1FD0C48
     void Reset();
@@ -184,7 +191,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (Or
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::HC256Engine::ProcessBytes
 // Il2CppName: ProcessBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Engines::HC256Engine::*)(::ArrayWrapper<uint8_t>, int, int, ::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Engines::HC256Engine::ProcessBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Engines::HC256Engine::*)(::ArrayW<uint8_t>, int, int, ::ArrayW<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Engines::HC256Engine::ProcessBytes)> {
   static const MethodInfo* get() {
     static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* inOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

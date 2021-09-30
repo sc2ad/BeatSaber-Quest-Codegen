@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -84,12 +85,18 @@ namespace System::Net {
     // [TokenAttribute] Offset: FFFFFFFF
     struct NtlmAuthState/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: NtlmAuthState
       constexpr NtlmAuthState(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -124,6 +131,11 @@ namespace System::Net {
     #pragma pack(pop)
     static check_size<sizeof(WebConnection::NtlmAuthState), 0 + sizeof(int)> __System_Net_WebConnection_NtlmAuthStateSizeCheck;
     static_assert(sizeof(WebConnection::NtlmAuthState) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Net.ServicePoint sPoint
     // Size: 0x8
     // Offset: 0x10
@@ -171,9 +183,9 @@ namespace System::Net {
     // private System.Byte[] buffer
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayWrapper<uint8_t> buffer;
+    ::ArrayW<uint8_t> buffer;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.EventHandler abortHandler
     // Size: 0x8
     // Offset: 0x48
@@ -276,6 +288,7 @@ namespace System::Net {
     Mono::Net::Security::MonoTlsStream* tlsStream;
     // Field size check
     static_assert(sizeof(Mono::Net::Security::MonoTlsStream*) == 0x8);
+    public:
     // Get instance field reference: private System.Net.ServicePoint sPoint
     System::Net::ServicePoint*& dyn_sPoint();
     // Get instance field reference: private System.IO.Stream nstream
@@ -291,7 +304,7 @@ namespace System::Net {
     // Get instance field reference: private System.Boolean keepAlive
     bool& dyn_keepAlive();
     // Get instance field reference: private System.Byte[] buffer
-    ::ArrayWrapper<uint8_t>& dyn_buffer();
+    ::ArrayW<uint8_t>& dyn_buffer();
     // Get instance field reference: private System.EventHandler abortHandler
     System::EventHandler*& dyn_abortHandler();
     // Get instance field reference: private System.Net.WebConnection/System.Net.AbortHelper abortHelper
@@ -360,10 +373,10 @@ namespace System::Net {
     void Connect(System::Net::HttpWebRequest* request);
     // private System.Boolean CreateTunnel(System.Net.HttpWebRequest request, System.Uri connectUri, System.IO.Stream stream, out System.Byte[] buffer)
     // Offset: 0x17786A8
-    bool CreateTunnel(System::Net::HttpWebRequest* request, System::Uri* connectUri, System::IO::Stream* stream, ByRef<::ArrayWrapper<uint8_t>> buffer);
+    bool CreateTunnel(System::Net::HttpWebRequest* request, System::Uri* connectUri, System::IO::Stream* stream, ByRef<::ArrayW<uint8_t>> buffer);
     // private System.Net.WebHeaderCollection ReadHeaders(System.IO.Stream stream, out System.Byte[] retBuffer, out System.Int32 status)
     // Offset: 0x1778FA4
-    System::Net::WebHeaderCollection* ReadHeaders(System::IO::Stream* stream, ByRef<::ArrayWrapper<uint8_t>> retBuffer, ByRef<int> status);
+    System::Net::WebHeaderCollection* ReadHeaders(System::IO::Stream* stream, ByRef<::ArrayW<uint8_t>> retBuffer, ByRef<int> status);
     // private System.Void FlushContents(System.IO.Stream stream, System.Int32 contentLength)
     // Offset: 0x17796F0
     void FlushContents(System::IO::Stream* stream, int contentLength);
@@ -384,7 +397,7 @@ namespace System::Net {
     void InitRead();
     // static private System.Int32 GetResponse(System.Net.WebConnectionData data, System.Net.ServicePoint sPoint, System.Byte[] buffer, System.Int32 max)
     // Offset: 0x177A860
-    static int GetResponse(System::Net::WebConnectionData* data, System::Net::ServicePoint* sPoint, ::ArrayWrapper<uint8_t> buffer, int max);
+    static int GetResponse(System::Net::WebConnectionData* data, System::Net::ServicePoint* sPoint, ::ArrayW<uint8_t> buffer, int max);
     // private System.Void InitConnection(System.Net.HttpWebRequest request)
     // Offset: 0x177B9F4
     void InitConnection(System::Net::HttpWebRequest* request);
@@ -399,31 +412,31 @@ namespace System::Net {
     void NextRead();
     // static private System.Boolean ReadLine(System.Byte[] buffer, ref System.Int32 start, System.Int32 max, ref System.String output)
     // Offset: 0x1779A54
-    static bool ReadLine(::ArrayWrapper<uint8_t> buffer, ByRef<int> start, int max, ByRef<::Il2CppString*> output);
+    static bool ReadLine(::ArrayW<uint8_t> buffer, ByRef<int> start, int max, ByRef<::Il2CppString*> output);
     // System.IAsyncResult BeginRead(System.Net.HttpWebRequest request, System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.AsyncCallback cb, System.Object state)
     // Offset: 0x177C544
-    System::IAsyncResult* BeginRead(System::Net::HttpWebRequest* request, ::ArrayWrapper<uint8_t> buffer, int offset, int size, System::AsyncCallback* cb, ::Il2CppObject* state);
+    System::IAsyncResult* BeginRead(System::Net::HttpWebRequest* request, ::ArrayW<uint8_t> buffer, int offset, int size, System::AsyncCallback* cb, ::Il2CppObject* state);
     // System.Int32 EndRead(System.Net.HttpWebRequest request, System.IAsyncResult result)
     // Offset: 0x177C89C
     int EndRead(System::Net::HttpWebRequest* request, System::IAsyncResult* result);
     // private System.Int32 EnsureRead(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
     // Offset: 0x177CE80
-    int EnsureRead(::ArrayWrapper<uint8_t> buffer, int offset, int size);
+    int EnsureRead(::ArrayW<uint8_t> buffer, int offset, int size);
     // private System.Boolean CompleteChunkedRead()
     // Offset: 0x177860C
     bool CompleteChunkedRead();
     // System.IAsyncResult BeginWrite(System.Net.HttpWebRequest request, System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.AsyncCallback cb, System.Object state)
     // Offset: 0x177CFC8
-    System::IAsyncResult* BeginWrite(System::Net::HttpWebRequest* request, ::ArrayWrapper<uint8_t> buffer, int offset, int size, System::AsyncCallback* cb, ::Il2CppObject* state);
+    System::IAsyncResult* BeginWrite(System::Net::HttpWebRequest* request, ::ArrayW<uint8_t> buffer, int offset, int size, System::AsyncCallback* cb, ::Il2CppObject* state);
     // System.Boolean EndWrite(System.Net.HttpWebRequest request, System.Boolean throwOnError, System.IAsyncResult result)
     // Offset: 0x177D3B8
     bool EndWrite(System::Net::HttpWebRequest* request, bool throwOnError, System::IAsyncResult* result);
     // System.Int32 Read(System.Net.HttpWebRequest request, System.Byte[] buffer, System.Int32 offset, System.Int32 size)
     // Offset: 0x177D708
-    int Read(System::Net::HttpWebRequest* request, ::ArrayWrapper<uint8_t> buffer, int offset, int size);
+    int Read(System::Net::HttpWebRequest* request, ::ArrayW<uint8_t> buffer, int offset, int size);
     // System.Boolean Write(System.Net.HttpWebRequest request, System.Byte[] buffer, System.Int32 offset, System.Int32 size, ref System.String err_msg)
     // Offset: 0x177DB78
-    bool Write(System::Net::HttpWebRequest* request, ::ArrayWrapper<uint8_t> buffer, int offset, int size, ByRef<::Il2CppString*> err_msg);
+    bool Write(System::Net::HttpWebRequest* request, ::ArrayW<uint8_t> buffer, int offset, int size, ByRef<::Il2CppString*> err_msg);
     // System.Void Close(System.Boolean sendNext)
     // Offset: 0x1779EA8
     void Close(bool sendNext);
@@ -528,7 +541,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::WebConnection::CreateTunnel
 // Il2CppName: CreateTunnel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::WebConnection::*)(System::Net::HttpWebRequest*, System::Uri*, System::IO::Stream*, ByRef<::ArrayWrapper<uint8_t>>)>(&System::Net::WebConnection::CreateTunnel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::WebConnection::*)(System::Net::HttpWebRequest*, System::Uri*, System::IO::Stream*, ByRef<::ArrayW<uint8_t>>)>(&System::Net::WebConnection::CreateTunnel)> {
   static const MethodInfo* get() {
     static auto* request = &::il2cpp_utils::GetClassFromName("System.Net", "HttpWebRequest")->byval_arg;
     static auto* connectUri = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;
@@ -540,7 +553,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Net::WebConnection::ReadHeaders
 // Il2CppName: ReadHeaders
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::WebHeaderCollection* (System::Net::WebConnection::*)(System::IO::Stream*, ByRef<::ArrayWrapper<uint8_t>>, ByRef<int>)>(&System::Net::WebConnection::ReadHeaders)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::WebHeaderCollection* (System::Net::WebConnection::*)(System::IO::Stream*, ByRef<::ArrayW<uint8_t>>, ByRef<int>)>(&System::Net::WebConnection::ReadHeaders)> {
   static const MethodInfo* get() {
     static auto* stream = &::il2cpp_utils::GetClassFromName("System.IO", "Stream")->byval_arg;
     static auto* retBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->this_arg;
@@ -608,7 +621,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::WebConnection::GetResponse
 // Il2CppName: GetResponse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Net::WebConnectionData*, System::Net::ServicePoint*, ::ArrayWrapper<uint8_t>, int)>(&System::Net::WebConnection::GetResponse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Net::WebConnectionData*, System::Net::ServicePoint*, ::ArrayW<uint8_t>, int)>(&System::Net::WebConnection::GetResponse)> {
   static const MethodInfo* get() {
     static auto* data = &::il2cpp_utils::GetClassFromName("System.Net", "WebConnectionData")->byval_arg;
     static auto* sPoint = &::il2cpp_utils::GetClassFromName("System.Net", "ServicePoint")->byval_arg;
@@ -654,7 +667,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::WebConnection::ReadLine
 // Il2CppName: ReadLine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayWrapper<uint8_t>, ByRef<int>, int, ByRef<::Il2CppString*>)>(&System::Net::WebConnection::ReadLine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<uint8_t>, ByRef<int>, int, ByRef<::Il2CppString*>)>(&System::Net::WebConnection::ReadLine)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -666,7 +679,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::Net::WebConnection::BeginRead
 // Il2CppName: BeginRead
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::WebConnection::*)(System::Net::HttpWebRequest*, ::ArrayWrapper<uint8_t>, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::WebConnection::BeginRead)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::WebConnection::*)(System::Net::HttpWebRequest*, ::ArrayW<uint8_t>, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::WebConnection::BeginRead)> {
   static const MethodInfo* get() {
     static auto* request = &::il2cpp_utils::GetClassFromName("System.Net", "HttpWebRequest")->byval_arg;
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -690,7 +703,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Net::WebConnection::EnsureRead
 // Il2CppName: EnsureRead
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::WebConnection::*)(::ArrayWrapper<uint8_t>, int, int)>(&System::Net::WebConnection::EnsureRead)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::WebConnection::*)(::ArrayW<uint8_t>, int, int)>(&System::Net::WebConnection::EnsureRead)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -709,7 +722,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Net::WebConnection::BeginWrite
 // Il2CppName: BeginWrite
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::WebConnection::*)(System::Net::HttpWebRequest*, ::ArrayWrapper<uint8_t>, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::WebConnection::BeginWrite)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::WebConnection::*)(System::Net::HttpWebRequest*, ::ArrayW<uint8_t>, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::WebConnection::BeginWrite)> {
   static const MethodInfo* get() {
     static auto* request = &::il2cpp_utils::GetClassFromName("System.Net", "HttpWebRequest")->byval_arg;
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -734,7 +747,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Net::WebConnection::Read
 // Il2CppName: Read
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::WebConnection::*)(System::Net::HttpWebRequest*, ::ArrayWrapper<uint8_t>, int, int)>(&System::Net::WebConnection::Read)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::WebConnection::*)(System::Net::HttpWebRequest*, ::ArrayW<uint8_t>, int, int)>(&System::Net::WebConnection::Read)> {
   static const MethodInfo* get() {
     static auto* request = &::il2cpp_utils::GetClassFromName("System.Net", "HttpWebRequest")->byval_arg;
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -746,7 +759,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Net::WebConnection::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::WebConnection::*)(System::Net::HttpWebRequest*, ::ArrayWrapper<uint8_t>, int, int, ByRef<::Il2CppString*>)>(&System::Net::WebConnection::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Net::WebConnection::*)(System::Net::HttpWebRequest*, ::ArrayW<uint8_t>, int, int, ByRef<::Il2CppString*>)>(&System::Net::WebConnection::Write)> {
   static const MethodInfo* get() {
     static auto* request = &::il2cpp_utils::GetClassFromName("System.Net", "HttpWebRequest")->byval_arg;
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;

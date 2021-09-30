@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net
@@ -51,12 +52,18 @@ namespace System::Net {
     // [TokenAttribute] Offset: FFFFFFFF
     struct RfcChar/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Byte value__
       // Size: 0x1
       // Offset: 0x0
       uint8_t value;
       // Field size check
       static_assert(sizeof(uint8_t) == 0x1);
+      public:
       // Creating value type constructor for type: RfcChar
       constexpr RfcChar(uint8_t value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -121,12 +128,17 @@ namespace System::Net {
     #pragma pack(pop)
     static check_size<sizeof(WebHeaderCollection::RfcChar), 0 + sizeof(uint8_t)> __System_Net_WebHeaderCollection_RfcCharSizeCheck;
     static_assert(sizeof(WebHeaderCollection::RfcChar) == 0x1);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String[] m_CommonHeaders
     // Size: 0x8
     // Offset: 0x58
-    ::ArrayWrapper<::Il2CppString*> m_CommonHeaders;
+    ::ArrayW<::Il2CppString*> m_CommonHeaders;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // private System.Int32 m_NumCommonHeaders
     // Size: 0x4
     // Offset: 0x60
@@ -147,28 +159,29 @@ namespace System::Net {
     System::Net::WebHeaderCollectionType m_Type;
     // Field size check
     static_assert(sizeof(System::Net::WebHeaderCollectionType) == 0x2);
+    public:
     // Get static field: static private readonly System.Net.HeaderInfoTable HInfo
     static System::Net::HeaderInfoTable* _get_HInfo();
     // Set static field: static private readonly System.Net.HeaderInfoTable HInfo
     static void _set_HInfo(System::Net::HeaderInfoTable* value);
     // Get static field: static private readonly System.String[] s_CommonHeaderNames
-    static ::ArrayWrapper<::Il2CppString*> _get_s_CommonHeaderNames();
+    static ::ArrayW<::Il2CppString*> _get_s_CommonHeaderNames();
     // Set static field: static private readonly System.String[] s_CommonHeaderNames
-    static void _set_s_CommonHeaderNames(::ArrayWrapper<::Il2CppString*> value);
+    static void _set_s_CommonHeaderNames(::ArrayW<::Il2CppString*> value);
     // Get static field: static private readonly System.SByte[] s_CommonHeaderHints
-    static ::ArrayWrapper<int8_t> _get_s_CommonHeaderHints();
+    static ::ArrayW<int8_t> _get_s_CommonHeaderHints();
     // Set static field: static private readonly System.SByte[] s_CommonHeaderHints
-    static void _set_s_CommonHeaderHints(::ArrayWrapper<int8_t> value);
+    static void _set_s_CommonHeaderHints(::ArrayW<int8_t> value);
     // Get static field: static private readonly System.Char[] HttpTrimCharacters
-    static ::ArrayWrapper<::Il2CppChar> _get_HttpTrimCharacters();
+    static ::ArrayW<::Il2CppChar> _get_HttpTrimCharacters();
     // Set static field: static private readonly System.Char[] HttpTrimCharacters
-    static void _set_HttpTrimCharacters(::ArrayWrapper<::Il2CppChar> value);
+    static void _set_HttpTrimCharacters(::ArrayW<::Il2CppChar> value);
     // Get static field: static private System.Net.WebHeaderCollection/System.Net.RfcChar[] RfcCharMap
-    static ::ArrayWrapper<System::Net::WebHeaderCollection::RfcChar> _get_RfcCharMap();
+    static ::ArrayW<System::Net::WebHeaderCollection::RfcChar> _get_RfcCharMap();
     // Set static field: static private System.Net.WebHeaderCollection/System.Net.RfcChar[] RfcCharMap
-    static void _set_RfcCharMap(::ArrayWrapper<System::Net::WebHeaderCollection::RfcChar> value);
+    static void _set_RfcCharMap(::ArrayW<System::Net::WebHeaderCollection::RfcChar> value);
     // Get instance field reference: private System.String[] m_CommonHeaders
-    ::ArrayWrapper<::Il2CppString*>& dyn_m_CommonHeaders();
+    ::ArrayW<::Il2CppString*>& dyn_m_CommonHeaders();
     // Get instance field reference: private System.Int32 m_NumCommonHeaders
     int& dyn_m_NumCommonHeaders();
     // Get instance field reference: private System.Collections.Specialized.NameValueCollection m_InnerCollection
@@ -277,7 +290,7 @@ namespace System::Net {
     // Offset: 0x1783B10
     // Implemented from: System.Collections.Specialized.NameValueCollection
     // Base method: System.String[] NameValueCollection::GetValues(System.String header)
-    ::ArrayWrapper<::Il2CppString*> GetValues(::Il2CppString* header);
+    ::ArrayW<::Il2CppString*> GetValues(::Il2CppString* header);
     // public override System.String ToString()
     // Offset: 0x1783D14
     // Implemented from: System.Object
@@ -312,7 +325,7 @@ namespace System::Net {
     // Offset: 0x178489C
     // Implemented from: System.Collections.Specialized.NameValueCollection
     // Base method: System.String[] NameValueCollection::GetValues(System.Int32 index)
-    ::ArrayWrapper<::Il2CppString*> GetValues(int index);
+    ::ArrayW<::Il2CppString*> GetValues(int index);
     // public override System.String GetKey(System.Int32 index)
     // Offset: 0x17848E0
     // Implemented from: System.Collections.Specialized.NameValueCollection
@@ -525,7 +538,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::WebHeaderCollection::GetValues
 // Il2CppName: GetValues
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppString*> (System::Net::WebHeaderCollection::*)(::Il2CppString*)>(&System::Net::WebHeaderCollection::GetValues)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (System::Net::WebHeaderCollection::*)(::Il2CppString*)>(&System::Net::WebHeaderCollection::GetValues)> {
   static const MethodInfo* get() {
     static auto* header = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::WebHeaderCollection*), "GetValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{header});
@@ -587,7 +600,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Net::WebHeaderCollection::GetValues
 // Il2CppName: GetValues
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppString*> (System::Net::WebHeaderCollection::*)(int)>(&System::Net::WebHeaderCollection::GetValues)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (System::Net::WebHeaderCollection::*)(int)>(&System::Net::WebHeaderCollection::GetValues)> {
   static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::WebHeaderCollection*), "GetValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});

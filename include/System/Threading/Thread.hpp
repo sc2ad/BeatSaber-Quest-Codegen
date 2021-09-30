@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Threading
@@ -81,6 +82,11 @@ namespace System::Threading {
   // [ComDefaultInterfaceAttribute] Offset: E5EA10
   class Thread : public System::Runtime::ConstrainedExecution::CriticalFinalizerObject/*, public System::Runtime::InteropServices::_Thread*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Threading.InternalThread internal_thread
     // Size: 0x8
     // Offset: 0x10
@@ -131,6 +137,7 @@ namespace System::Threading {
     bool m_ExecutionContextBelongsToOuterScope;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator System::Runtime::InteropServices::_Thread
     operator System::Runtime::InteropServices::_Thread() noexcept {
       return *reinterpret_cast<System::Runtime::InteropServices::_Thread*>(this);
@@ -315,7 +322,7 @@ namespace System::Threading {
     void ConstructInternalThread();
     // static private System.Byte[] ByteArrayToCurrentDomain(System.Byte[] arr)
     // Offset: 0x19BDB60
-    static ::ArrayWrapper<uint8_t> ByteArrayToCurrentDomain(::ArrayWrapper<uint8_t> arr);
+    static ::ArrayW<uint8_t> ByteArrayToCurrentDomain(::ArrayW<uint8_t> arr);
     // static private System.Void DeserializePrincipal(System.Threading.Thread th)
     // Offset: 0x19BDB64
     static void DeserializePrincipal(System::Threading::Thread* th);
@@ -745,7 +752,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Threading::Thread::ByteArrayToCurrentDomain
 // Il2CppName: ByteArrayToCurrentDomain
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(::ArrayWrapper<uint8_t>)>(&System::Threading::Thread::ByteArrayToCurrentDomain)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(::ArrayW<uint8_t>)>(&System::Threading::Thread::ByteArrayToCurrentDomain)> {
   static const MethodInfo* get() {
     static auto* arr = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Thread*), "ByteArrayToCurrentDomain", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{arr});

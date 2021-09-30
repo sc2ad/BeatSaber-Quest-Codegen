@@ -63,12 +63,18 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct EntitlementStatus/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: EntitlementStatus
       constexpr EntitlementStatus(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -109,12 +115,18 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct OpenProductStoreResult/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: OpenProductStoreResult
       constexpr OpenProductStoreResult(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -149,12 +161,18 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct IsPackBetterBuyThanLevelResult/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: IsPackBetterBuyThanLevelResult
       constexpr IsPackBetterBuyThanLevelResult(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -189,6 +207,11 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(AdditionalContentModel::IsPackBetterBuyThanLevelResult), 0 + sizeof(int)> __GlobalNamespace_AdditionalContentModel_IsPackBetterBuyThanLevelResultSizeCheck;
     static_assert(sizeof(AdditionalContentModel::IsPackBetterBuyThanLevelResult) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xF01404
     // private AlwaysOwnedContentContainerSO _alwaysOwnedContentContainer
     // Size: 0x8
@@ -202,6 +225,7 @@ namespace GlobalNamespace {
     System::Action* didInvalidateDataEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private AlwaysOwnedContentContainerSO _alwaysOwnedContentContainer

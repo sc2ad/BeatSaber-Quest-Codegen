@@ -38,12 +38,18 @@ namespace System::Runtime::Remoting {
     public:
     // Writing base type padding for base size: 0x41 to desired offset: 0x48
     char ___base_padding[0x7] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.WeakReference _proxyReference
     // Size: 0x8
     // Offset: 0x48
     System::WeakReference* proxyReference;
     // Field size check
     static_assert(sizeof(System::WeakReference*) == 0x8);
+    public:
     // Creating conversion operator: operator System::WeakReference*
     constexpr operator System::WeakReference*() const noexcept {
       return proxyReference;

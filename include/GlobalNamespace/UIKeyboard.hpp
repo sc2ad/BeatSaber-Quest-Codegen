@@ -42,6 +42,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::UIKeyboard::$$c__DisplayClass21_0
     class $$c__DisplayClass21_0;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private TextMeshProButton _keyButtonPrefab
     // Size: 0x8
     // Offset: 0x18
@@ -96,6 +101,7 @@ namespace GlobalNamespace {
     bool hideCancelButton;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TextMeshProButton _keyButtonPrefab

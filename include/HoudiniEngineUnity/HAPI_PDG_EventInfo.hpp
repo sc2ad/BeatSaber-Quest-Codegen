@@ -16,6 +16,11 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HAPI_PDG_EventInfo/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 nodeId
     // Size: 0x4
     // Offset: 0x0
@@ -58,6 +63,7 @@ namespace HoudiniEngineUnity {
     int msgSH;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: HAPI_PDG_EventInfo
     constexpr HAPI_PDG_EventInfo(int nodeId_ = {}, int workitemId_ = {}, int dependencyId_ = {}, int currentState_ = {}, int lastState_ = {}, int eventType_ = {}, int msgSH_ = {}) noexcept : nodeId{nodeId_}, workitemId{workitemId_}, dependencyId{dependencyId_}, currentState{currentState_}, lastState{lastState_}, eventType{eventType_}, msgSH{msgSH_} {}
     // Creating interface conversion operator: operator System::ValueType

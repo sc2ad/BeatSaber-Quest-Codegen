@@ -60,12 +60,18 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct MenuButton/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: MenuButton
       constexpr MenuButton(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -136,6 +142,11 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(MainMenuViewController::MenuButton), 0 + sizeof(int)> __GlobalNamespace_MainMenuViewController_MenuButtonSizeCheck;
     static_assert(sizeof(MainMenuViewController::MenuButton) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.UI.Button _soloButton
     // Size: 0x8
     // Offset: 0x70
@@ -229,6 +240,7 @@ namespace GlobalNamespace {
     System::Action_1<GlobalNamespace::IBeatmapLevelPack*>* musicPackPromoButtonWasPressedEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::IBeatmapLevelPack*>*) == 0x8);
+    public:
     // Get instance field reference: private UnityEngine.UI.Button _soloButton
     UnityEngine::UI::Button*& dyn__soloButton();
     // Get instance field reference: private UnityEngine.UI.Button _partyButton

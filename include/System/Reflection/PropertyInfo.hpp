@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection
@@ -81,7 +82,7 @@ namespace System::Reflection {
     System::Type* get_PropertyType();
     // public System.Reflection.MethodInfo[] GetAccessors(System.Boolean nonPublic)
     // Offset: 0xFFFFFFFF
-    ::ArrayWrapper<System::Reflection::MethodInfo*> GetAccessors(bool nonPublic);
+    ::ArrayW<System::Reflection::MethodInfo*> GetAccessors(bool nonPublic);
     // public System.Reflection.MethodInfo GetGetMethod()
     // Offset: 0x1EB0DBC
     System::Reflection::MethodInfo* GetGetMethod();
@@ -90,7 +91,7 @@ namespace System::Reflection {
     System::Reflection::MethodInfo* GetGetMethod(bool nonPublic);
     // public System.Reflection.ParameterInfo[] GetIndexParameters()
     // Offset: 0xFFFFFFFF
-    ::ArrayWrapper<System::Reflection::ParameterInfo*> GetIndexParameters();
+    ::ArrayW<System::Reflection::ParameterInfo*> GetIndexParameters();
     // public System.Reflection.MethodInfo GetSetMethod()
     // Offset: 0x1EB0DD0
     System::Reflection::MethodInfo* GetSetMethod();
@@ -99,22 +100,22 @@ namespace System::Reflection {
     System::Reflection::MethodInfo* GetSetMethod(bool nonPublic);
     // public System.Object GetValue(System.Object obj, System.Object[] index)
     // Offset: 0x1EB0DE4
-    ::Il2CppObject* GetValue(::Il2CppObject* obj, ::ArrayWrapper<::Il2CppObject*> index);
+    ::Il2CppObject* GetValue(::Il2CppObject* obj, ::ArrayW<::Il2CppObject*> index);
     // public System.Object GetValue(System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] index, System.Globalization.CultureInfo culture)
     // Offset: 0xFFFFFFFF
-    ::Il2CppObject* GetValue(::Il2CppObject* obj, System::Reflection::BindingFlags invokeAttr, System::Reflection::Binder* binder, ::ArrayWrapper<::Il2CppObject*> index, System::Globalization::CultureInfo* culture);
+    ::Il2CppObject* GetValue(::Il2CppObject* obj, System::Reflection::BindingFlags invokeAttr, System::Reflection::Binder* binder, ::ArrayW<::Il2CppObject*> index, System::Globalization::CultureInfo* culture);
     // public System.Void SetValue(System.Object obj, System.Object value, System.Object[] index)
     // Offset: 0x1EB0E04
-    void SetValue(::Il2CppObject* obj, ::Il2CppObject* value, ::ArrayWrapper<::Il2CppObject*> index);
+    void SetValue(::Il2CppObject* obj, ::Il2CppObject* value, ::ArrayW<::Il2CppObject*> index);
     // public System.Void SetValue(System.Object obj, System.Object value, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] index, System.Globalization.CultureInfo culture)
     // Offset: 0xFFFFFFFF
-    void SetValue(::Il2CppObject* obj, ::Il2CppObject* value, System::Reflection::BindingFlags invokeAttr, System::Reflection::Binder* binder, ::ArrayWrapper<::Il2CppObject*> index, System::Globalization::CultureInfo* culture);
+    void SetValue(::Il2CppObject* obj, ::Il2CppObject* value, System::Reflection::BindingFlags invokeAttr, System::Reflection::Binder* binder, ::ArrayW<::Il2CppObject*> index, System::Globalization::CultureInfo* culture);
     // public System.Type[] GetOptionalCustomModifiers()
     // Offset: 0x1EB0E24
-    ::ArrayWrapper<System::Type*> GetOptionalCustomModifiers();
+    ::ArrayW<System::Type*> GetOptionalCustomModifiers();
     // public System.Type[] GetRequiredCustomModifiers()
     // Offset: 0x1EB0E8C
-    ::ArrayWrapper<System::Type*> GetRequiredCustomModifiers();
+    ::ArrayW<System::Type*> GetRequiredCustomModifiers();
     // static private System.NotImplementedException CreateNIE()
     // Offset: 0x1EB0EF4
     static System::NotImplementedException* CreateNIE();
@@ -201,7 +202,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: System::Reflection::PropertyInfo::GetAccessors
 // Il2CppName: GetAccessors
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::Reflection::MethodInfo*> (System::Reflection::PropertyInfo::*)(bool)>(&System::Reflection::PropertyInfo::GetAccessors)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Reflection::MethodInfo*> (System::Reflection::PropertyInfo::*)(bool)>(&System::Reflection::PropertyInfo::GetAccessors)> {
   static const MethodInfo* get() {
     static auto* nonPublic = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::PropertyInfo*), "GetAccessors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nonPublic});
@@ -227,7 +228,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Writing MetadataGetter for method: System::Reflection::PropertyInfo::GetIndexParameters
 // Il2CppName: GetIndexParameters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::Reflection::ParameterInfo*> (System::Reflection::PropertyInfo::*)()>(&System::Reflection::PropertyInfo::GetIndexParameters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Reflection::ParameterInfo*> (System::Reflection::PropertyInfo::*)()>(&System::Reflection::PropertyInfo::GetIndexParameters)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::PropertyInfo*), "GetIndexParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -252,7 +253,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Writing MetadataGetter for method: System::Reflection::PropertyInfo::GetValue
 // Il2CppName: GetValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Reflection::PropertyInfo::*)(::Il2CppObject*, ::ArrayWrapper<::Il2CppObject*>)>(&System::Reflection::PropertyInfo::GetValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Reflection::PropertyInfo::*)(::Il2CppObject*, ::ArrayW<::Il2CppObject*>)>(&System::Reflection::PropertyInfo::GetValue)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* index = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
@@ -262,7 +263,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Reflection::PropertyInfo::GetValue
 // Il2CppName: GetValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Reflection::PropertyInfo::*)(::Il2CppObject*, System::Reflection::BindingFlags, System::Reflection::Binder*, ::ArrayWrapper<::Il2CppObject*>, System::Globalization::CultureInfo*)>(&System::Reflection::PropertyInfo::GetValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Reflection::PropertyInfo::*)(::Il2CppObject*, System::Reflection::BindingFlags, System::Reflection::Binder*, ::ArrayW<::Il2CppObject*>, System::Globalization::CultureInfo*)>(&System::Reflection::PropertyInfo::GetValue)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* invokeAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
@@ -275,7 +276,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Reflection::PropertyInfo::SetValue
 // Il2CppName: SetValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Reflection::PropertyInfo::*)(::Il2CppObject*, ::Il2CppObject*, ::ArrayWrapper<::Il2CppObject*>)>(&System::Reflection::PropertyInfo::SetValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Reflection::PropertyInfo::*)(::Il2CppObject*, ::Il2CppObject*, ::ArrayW<::Il2CppObject*>)>(&System::Reflection::PropertyInfo::SetValue)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -286,7 +287,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Reflection::PropertyInfo::SetValue
 // Il2CppName: SetValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Reflection::PropertyInfo::*)(::Il2CppObject*, ::Il2CppObject*, System::Reflection::BindingFlags, System::Reflection::Binder*, ::ArrayWrapper<::Il2CppObject*>, System::Globalization::CultureInfo*)>(&System::Reflection::PropertyInfo::SetValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Reflection::PropertyInfo::*)(::Il2CppObject*, ::Il2CppObject*, System::Reflection::BindingFlags, System::Reflection::Binder*, ::ArrayW<::Il2CppObject*>, System::Globalization::CultureInfo*)>(&System::Reflection::PropertyInfo::SetValue)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -300,7 +301,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Reflection::PropertyInfo::GetOptionalCustomModifiers
 // Il2CppName: GetOptionalCustomModifiers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::Type*> (System::Reflection::PropertyInfo::*)()>(&System::Reflection::PropertyInfo::GetOptionalCustomModifiers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Type*> (System::Reflection::PropertyInfo::*)()>(&System::Reflection::PropertyInfo::GetOptionalCustomModifiers)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::PropertyInfo*), "GetOptionalCustomModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -308,7 +309,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: System::Reflection::PropertyInfo::GetRequiredCustomModifiers
 // Il2CppName: GetRequiredCustomModifiers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::Type*> (System::Reflection::PropertyInfo::*)()>(&System::Reflection::PropertyInfo::GetRequiredCustomModifiers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Type*> (System::Reflection::PropertyInfo::*)()>(&System::Reflection::PropertyInfo::GetRequiredCustomModifiers)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::PropertyInfo*), "GetRequiredCustomModifiers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

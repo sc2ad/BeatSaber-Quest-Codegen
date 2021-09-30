@@ -37,6 +37,11 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class FastAction : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.LinkedList`1<System.Action> delegates
     // Size: 0x8
     // Offset: 0x10
@@ -49,6 +54,7 @@ namespace TMPro {
     System::Collections::Generic::Dictionary_2<System::Action*, System::Collections::Generic::LinkedListNode_1<System::Action*>*>* lookup;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<System::Action*, System::Collections::Generic::LinkedListNode_1<System::Action*>*>*) == 0x8);
+    public:
     // Get instance field reference: private System.Collections.Generic.LinkedList`1<System.Action> delegates
     System::Collections::Generic::LinkedList_1<System::Action*>*& dyn_delegates();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.Action,System.Collections.Generic.LinkedListNode`1<System.Action>> lookup

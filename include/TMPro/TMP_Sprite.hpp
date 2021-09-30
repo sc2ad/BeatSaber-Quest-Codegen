@@ -31,6 +31,11 @@ namespace TMPro {
     public:
     // Writing base type padding for base size: 0x34 to desired offset: 0x38
     char ___base_padding[0x4] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.String name
     // Size: 0x8
     // Offset: 0x38
@@ -61,6 +66,7 @@ namespace TMPro {
     UnityEngine::Sprite* sprite;
     // Field size check
     static_assert(sizeof(UnityEngine::Sprite*) == 0x8);
+    public:
     // Get instance field reference: public System.String name
     ::Il2CppString*& dyn_name();
     // Get instance field reference: public System.Int32 hashCode

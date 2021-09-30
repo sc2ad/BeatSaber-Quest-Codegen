@@ -39,6 +39,11 @@ namespace HoudiniEngineUnity {
   // [DefaultMemberAttribute] Offset: EFA918
   class JSONLazyCreator : public HoudiniEngineUnity::JSONNode {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private HoudiniEngineUnity.JSONNode m_Node
     // Size: 0x8
     // Offset: 0x10
@@ -51,6 +56,7 @@ namespace HoudiniEngineUnity {
     ::Il2CppString* m_Key;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: private HoudiniEngineUnity.JSONNode m_Node
     HoudiniEngineUnity::JSONNode*& dyn_m_Node();
     // Get instance field reference: private System.String m_Key

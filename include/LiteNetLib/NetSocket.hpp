@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net::Sockets
@@ -48,6 +49,11 @@ namespace LiteNetLib {
   // [TokenAttribute] Offset: FFFFFFFF
   class NetSocket : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Net.Sockets.Socket _udpSocketv4
     // Size: 0x8
     // Offset: 0x10
@@ -90,6 +96,7 @@ namespace LiteNetLib {
     bool IsRunning;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // static field const value: static public System.Int32 ReceivePollingTime
     static constexpr const int ReceivePollingTime = 500000;
     // Get static field: static public System.Int32 ReceivePollingTime
@@ -160,10 +167,10 @@ namespace LiteNetLib {
     bool BindSocket(System::Net::Sockets::Socket* socket, System::Net::IPEndPoint* ep, bool reuseAddress);
     // public System.Boolean SendBroadcast(System.Byte[] data, System.Int32 offset, System.Int32 size, System.Int32 port)
     // Offset: 0x1DDB3D8
-    bool SendBroadcast(::ArrayWrapper<uint8_t> data, int offset, int size, int port);
+    bool SendBroadcast(::ArrayW<uint8_t> data, int offset, int size, int port);
     // public System.Int32 SendTo(System.Byte[] data, System.Int32 offset, System.Int32 size, System.Net.IPEndPoint remoteEndPoint, ref System.Net.Sockets.SocketError errorCode)
     // Offset: 0x1DD53C0
-    int SendTo(::ArrayWrapper<uint8_t> data, int offset, int size, System::Net::IPEndPoint* remoteEndPoint, ByRef<System::Net::Sockets::SocketError> errorCode);
+    int SendTo(::ArrayW<uint8_t> data, int offset, int size, System::Net::IPEndPoint* remoteEndPoint, ByRef<System::Net::Sockets::SocketError> errorCode);
     // public System.Void Close(System.Boolean suspend)
     // Offset: 0x1DDC218
     void Close(bool suspend);
@@ -265,7 +272,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteN
 // Writing MetadataGetter for method: LiteNetLib::NetSocket::SendBroadcast
 // Il2CppName: SendBroadcast
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLib::NetSocket::*)(::ArrayWrapper<uint8_t>, int, int, int)>(&LiteNetLib::NetSocket::SendBroadcast)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteNetLib::NetSocket::*)(::ArrayW<uint8_t>, int, int, int)>(&LiteNetLib::NetSocket::SendBroadcast)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -277,7 +284,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (LiteN
 // Writing MetadataGetter for method: LiteNetLib::NetSocket::SendTo
 // Il2CppName: SendTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LiteNetLib::NetSocket::*)(::ArrayWrapper<uint8_t>, int, int, System::Net::IPEndPoint*, ByRef<System::Net::Sockets::SocketError>)>(&LiteNetLib::NetSocket::SendTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LiteNetLib::NetSocket::*)(::ArrayW<uint8_t>, int, int, System::Net::IPEndPoint*, ByRef<System::Net::Sockets::SocketError>)>(&LiteNetLib::NetSocket::SendTo)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

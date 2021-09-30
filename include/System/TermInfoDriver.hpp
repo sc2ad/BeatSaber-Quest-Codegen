@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -47,6 +48,11 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class TermInfoDriver : public ::Il2CppObject/*, public System::IConsoleDriver*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.TermInfoReader reader
     // Size: 0x8
     // Offset: 0x10
@@ -154,9 +160,9 @@ namespace System {
     // private System.Char[] buffer
     // Size: 0x8
     // Offset: 0x80
-    ::ArrayWrapper<::Il2CppChar> buffer;
+    ::ArrayW<::Il2CppChar> buffer;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppChar>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppChar>) == 0x8);
     // private System.Int32 readpos
     // Size: 0x4
     // Offset: 0x88
@@ -282,21 +288,22 @@ namespace System {
     // private System.Byte[] control_characters
     // Size: 0x8
     // Offset: 0x108
-    ::ArrayWrapper<uint8_t> control_characters;
+    ::ArrayW<uint8_t> control_characters;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Char[] echobuf
     // Size: 0x8
     // Offset: 0x110
-    ::ArrayWrapper<::Il2CppChar> echobuf;
+    ::ArrayW<::Il2CppChar> echobuf;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppChar>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppChar>) == 0x8);
     // private System.Int32 echon
     // Size: 0x4
     // Offset: 0x118
     int echon;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating interface conversion operator: operator System::IConsoleDriver
     operator System::IConsoleDriver() noexcept {
       return *reinterpret_cast<System::IConsoleDriver*>(this);
@@ -310,13 +317,13 @@ namespace System {
     // Set static field: static private System.Int32 terminal_size
     static void _set_terminal_size(int value);
     // Get static field: static private readonly System.String[] locations
-    static ::ArrayWrapper<::Il2CppString*> _get_locations();
+    static ::ArrayW<::Il2CppString*> _get_locations();
     // Set static field: static private readonly System.String[] locations
-    static void _set_locations(::ArrayWrapper<::Il2CppString*> value);
+    static void _set_locations(::ArrayW<::Il2CppString*> value);
     // Get static field: static private readonly System.Int32[] _consoleColorToAnsiCode
-    static ::ArrayWrapper<int> _get__consoleColorToAnsiCode();
+    static ::ArrayW<int> _get__consoleColorToAnsiCode();
     // Set static field: static private readonly System.Int32[] _consoleColorToAnsiCode
-    static void _set__consoleColorToAnsiCode(::ArrayWrapper<int> value);
+    static void _set__consoleColorToAnsiCode(::ArrayW<int> value);
     // Get instance field reference: private System.TermInfoReader reader
     System::TermInfoReader*& dyn_reader();
     // Get instance field reference: private System.Int32 cursorLeft
@@ -352,7 +359,7 @@ namespace System {
     // Get instance field reference: private System.Int32 bufferWidth
     int& dyn_bufferWidth();
     // Get instance field reference: private System.Char[] buffer
-    ::ArrayWrapper<::Il2CppChar>& dyn_buffer();
+    ::ArrayW<::Il2CppChar>& dyn_buffer();
     // Get instance field reference: private System.Int32 readpos
     int& dyn_readpos();
     // Get instance field reference: private System.Int32 writepos
@@ -392,9 +399,9 @@ namespace System {
     // Get instance field reference: private System.Int32 rl_starty
     int& dyn_rl_starty();
     // Get instance field reference: private System.Byte[] control_characters
-    ::ArrayWrapper<uint8_t>& dyn_control_characters();
+    ::ArrayW<uint8_t>& dyn_control_characters();
     // Get instance field reference: private System.Char[] echobuf
-    ::ArrayWrapper<::Il2CppChar>& dyn_echobuf();
+    ::ArrayW<::Il2CppChar>& dyn_echobuf();
     // Get instance field reference: private System.Int32 echon
     int& dyn_echon();
     // public System.Boolean get_Initialized()
@@ -478,7 +485,7 @@ namespace System {
     void EchoFlush();
     // public System.Int32 Read(in System.Char[] dest, System.Int32 index, System.Int32 count)
     // Offset: 0x1DF3074
-    int Read(ByRef<::ArrayWrapper<::Il2CppChar>> dest, int index, int count);
+    int Read(ByRef<::ArrayW<::Il2CppChar>> dest, int index, int count);
     // public System.ConsoleKeyInfo ReadKey(System.Boolean intercept)
     // Offset: 0x1DF3398
     System::ConsoleKeyInfo ReadKey(bool intercept);
@@ -724,7 +731,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::TermInfoDriver::Read
 // Il2CppName: Read
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::TermInfoDriver::*)(ByRef<::ArrayWrapper<::Il2CppChar>>, int, int)>(&System::TermInfoDriver::Read)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::TermInfoDriver::*)(ByRef<::ArrayW<::Il2CppChar>>, int, int)>(&System::TermInfoDriver::Read)> {
   static const MethodInfo* get() {
     static auto* dest = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->this_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

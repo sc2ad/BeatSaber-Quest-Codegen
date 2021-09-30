@@ -46,12 +46,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class AvatarColorAsset : public UnityEngine::Playables::PlayableAsset/*, public UnityEngine::Timeline::ITimelineClipAsset*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public AvatarColorBehaviour _template
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::AvatarColorBehaviour* _template;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AvatarColorBehaviour*) == 0x8);
+    public:
     // Creating interface conversion operator: operator UnityEngine::Timeline::ITimelineClipAsset
     operator UnityEngine::Timeline::ITimelineClipAsset() noexcept {
       return *reinterpret_cast<UnityEngine::Timeline::ITimelineClipAsset*>(this);

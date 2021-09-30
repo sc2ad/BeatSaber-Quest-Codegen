@@ -48,6 +48,11 @@ namespace UnityEngine::Playables {
   // [UsedByNativeCodeAttribute] Offset: E74754
   struct PlayableGraph/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.IntPtr m_Handle
     // Size: 0x8
     // Offset: 0x0
@@ -60,6 +65,7 @@ namespace UnityEngine::Playables {
     uint m_Version;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
+    public:
     // Creating value type constructor for type: PlayableGraph
     constexpr PlayableGraph(System::IntPtr m_Handle_ = {}, uint m_Version_ = {}) noexcept : m_Handle{m_Handle_}, m_Version{m_Version_} {}
     // Creating interface conversion operator: operator System::ValueType

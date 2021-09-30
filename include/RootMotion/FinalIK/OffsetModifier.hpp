@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: RootMotion::FinalIK
@@ -36,6 +37,11 @@ namespace RootMotion::FinalIK {
     class OffsetLimits;
     // Nested type: RootMotion::FinalIK::OffsetModifier::$Initiate$d__8
     class $Initiate$d__8;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [TooltipAttribute] Offset: 0xEF49DC
     // public System.Single weight
     // Size: 0x4
@@ -58,6 +64,7 @@ namespace RootMotion::FinalIK {
     float lastTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.Single weight
@@ -83,7 +90,7 @@ namespace RootMotion::FinalIK {
     void ModifyOffset();
     // protected System.Void ApplyLimits(RootMotion.FinalIK.OffsetModifier/RootMotion.FinalIK.OffsetLimits[] limits)
     // Offset: 0x1C5E064
-    void ApplyLimits(::ArrayWrapper<RootMotion::FinalIK::OffsetModifier::OffsetLimits*> limits);
+    void ApplyLimits(::ArrayW<RootMotion::FinalIK::OffsetModifier::OffsetLimits*> limits);
     // protected System.Void OnDestroy()
     // Offset: 0x1C5E380
     void OnDestroy();
@@ -150,7 +157,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::OffsetModifier::ApplyLimits
 // Il2CppName: ApplyLimits
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::OffsetModifier::*)(::ArrayWrapper<RootMotion::FinalIK::OffsetModifier::OffsetLimits*>)>(&RootMotion::FinalIK::OffsetModifier::ApplyLimits)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::OffsetModifier::*)(::ArrayW<RootMotion::FinalIK::OffsetModifier::OffsetLimits*>)>(&RootMotion::FinalIK::OffsetModifier::ApplyLimits)> {
   static const MethodInfo* get() {
     static auto* limits = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "OffsetModifier/OffsetLimits"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::OffsetModifier*), "ApplyLimits", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{limits});

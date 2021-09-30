@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Playables
@@ -58,6 +59,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerOutroAnimationController : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [HeaderAttribute] Offset: 0xF0999C
     // private UnityEngine.Playables.PlayableDirector _outroPlayableDirector
     // Size: 0x8
@@ -68,33 +74,33 @@ namespace GlobalNamespace {
     // private System.String[] _playerTimelineTrackNames
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<::Il2CppString*> playerTimelineTrackNames;
+    ::ArrayW<::Il2CppString*> playerTimelineTrackNames;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // private System.String[] _ringTimelineTrackNames
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<::Il2CppString*> ringTimelineTrackNames;
+    ::ArrayW<::Il2CppString*> ringTimelineTrackNames;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // private System.String[] _resultsTimelineTrackNames
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<::Il2CppString*> resultsTimelineTrackNames;
+    ::ArrayW<::Il2CppString*> resultsTimelineTrackNames;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // private UnityEngine.PropertyName[] _playerTimelinePropertyNames
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayWrapper<UnityEngine::PropertyName> playerTimelinePropertyNames;
+    ::ArrayW<UnityEngine::PropertyName> playerTimelinePropertyNames;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::PropertyName>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::PropertyName>) == 0x8);
     // private UnityEngine.PropertyName[] _resultsTimelinePropertyNames
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayWrapper<UnityEngine::PropertyName> resultsTimelinePropertyNames;
+    ::ArrayW<UnityEngine::PropertyName> resultsTimelinePropertyNames;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::PropertyName>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::PropertyName>) == 0x8);
     // [HeaderAttribute] Offset: 0xF09A88
     // private System.String _localPlayerTrackName
     // Size: 0x8
@@ -114,15 +120,15 @@ namespace GlobalNamespace {
     // private System.String[] _badgeTimelineTrackNames
     // Size: 0x8
     // Offset: 0x58
-    ::ArrayWrapper<::Il2CppString*> badgeTimelineTrackNames;
+    ::ArrayW<::Il2CppString*> badgeTimelineTrackNames;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // private UnityEngine.PropertyName[] _badgeTimelinePropertyNames
     // Size: 0x8
     // Offset: 0x60
-    ::ArrayWrapper<UnityEngine::PropertyName> badgeTimelinePropertyNames;
+    ::ArrayW<UnityEngine::PropertyName> badgeTimelinePropertyNames;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::PropertyName>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::PropertyName>) == 0x8);
     // private UnityEngine.Transform _badgeStartTransform
     // Size: 0x8
     // Offset: 0x68
@@ -188,28 +194,29 @@ namespace GlobalNamespace {
     System::Action* onCompleted;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Playables.PlayableDirector _outroPlayableDirector
     UnityEngine::Playables::PlayableDirector*& dyn__outroPlayableDirector();
     // Get instance field reference: private System.String[] _playerTimelineTrackNames
-    ::ArrayWrapper<::Il2CppString*>& dyn__playerTimelineTrackNames();
+    ::ArrayW<::Il2CppString*>& dyn__playerTimelineTrackNames();
     // Get instance field reference: private System.String[] _ringTimelineTrackNames
-    ::ArrayWrapper<::Il2CppString*>& dyn__ringTimelineTrackNames();
+    ::ArrayW<::Il2CppString*>& dyn__ringTimelineTrackNames();
     // Get instance field reference: private System.String[] _resultsTimelineTrackNames
-    ::ArrayWrapper<::Il2CppString*>& dyn__resultsTimelineTrackNames();
+    ::ArrayW<::Il2CppString*>& dyn__resultsTimelineTrackNames();
     // Get instance field reference: private UnityEngine.PropertyName[] _playerTimelinePropertyNames
-    ::ArrayWrapper<UnityEngine::PropertyName>& dyn__playerTimelinePropertyNames();
+    ::ArrayW<UnityEngine::PropertyName>& dyn__playerTimelinePropertyNames();
     // Get instance field reference: private UnityEngine.PropertyName[] _resultsTimelinePropertyNames
-    ::ArrayWrapper<UnityEngine::PropertyName>& dyn__resultsTimelinePropertyNames();
+    ::ArrayW<UnityEngine::PropertyName>& dyn__resultsTimelinePropertyNames();
     // Get instance field reference: private System.String _localPlayerTrackName
     ::Il2CppString*& dyn__localPlayerTrackName();
     // Get instance field reference: private UnityEngine.PropertyName _localPlayerTimelinePropertyName
     UnityEngine::PropertyName& dyn__localPlayerTimelinePropertyName();
     // Get instance field reference: private System.String[] _badgeTimelineTrackNames
-    ::ArrayWrapper<::Il2CppString*>& dyn__badgeTimelineTrackNames();
+    ::ArrayW<::Il2CppString*>& dyn__badgeTimelineTrackNames();
     // Get instance field reference: private UnityEngine.PropertyName[] _badgeTimelinePropertyNames
-    ::ArrayWrapper<UnityEngine::PropertyName>& dyn__badgeTimelinePropertyNames();
+    ::ArrayW<UnityEngine::PropertyName>& dyn__badgeTimelinePropertyNames();
     // Get instance field reference: private UnityEngine.Transform _badgeStartTransform
     UnityEngine::Transform*& dyn__badgeStartTransform();
     // Get instance field reference: private UnityEngine.Transform _badgeMidTransform
@@ -247,7 +254,7 @@ namespace GlobalNamespace {
     void BindOutroTimeline();
     // private System.Void BindRingsAndAudio(UnityEngine.GameObject[] rings, System.Boolean isMock, System.Boolean isDuel, MultiplayerTimelineMock timelineMock)
     // Offset: 0x117DFA0
-    void BindRingsAndAudio(::ArrayWrapper<UnityEngine::GameObject*> rings, bool isMock, bool isDuel, GlobalNamespace::MultiplayerTimelineMock* timelineMock);
+    void BindRingsAndAudio(::ArrayW<UnityEngine::GameObject*> rings, bool isMock, bool isDuel, GlobalNamespace::MultiplayerTimelineMock* timelineMock);
     // public System.Void SetTimelineMock(MultiplayerTimelineMock multiplayerIntroTimelineMock, System.Boolean isDuel)
     // Offset: 0x117E89C
     void SetTimelineMock(GlobalNamespace::MultiplayerTimelineMock* multiplayerIntroTimelineMock, bool isDuel);
@@ -322,7 +329,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerOutroAnimationController::BindRingsAndAudio
 // Il2CppName: BindRingsAndAudio
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerOutroAnimationController::*)(::ArrayWrapper<UnityEngine::GameObject*>, bool, bool, GlobalNamespace::MultiplayerTimelineMock*)>(&GlobalNamespace::MultiplayerOutroAnimationController::BindRingsAndAudio)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerOutroAnimationController::*)(::ArrayW<UnityEngine::GameObject*>, bool, bool, GlobalNamespace::MultiplayerTimelineMock*)>(&GlobalNamespace::MultiplayerOutroAnimationController::BindRingsAndAudio)> {
   static const MethodInfo* get() {
     static auto* rings = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject"), 1)->byval_arg;
     static auto* isMock = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

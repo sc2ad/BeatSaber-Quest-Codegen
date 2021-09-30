@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -36,7 +37,7 @@ namespace UnityEngine::Rendering {
     public:
     // public System.String[] get_renderingLayerMaskNames()
     // Offset: 0x1E08C50
-    ::ArrayWrapper<::Il2CppString*> get_renderingLayerMaskNames();
+    ::ArrayW<::Il2CppString*> get_renderingLayerMaskNames();
     // public UnityEngine.Material get_defaultMaterial()
     // Offset: 0x1E08C58
     UnityEngine::Material* get_defaultMaterial();
@@ -119,7 +120,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Rendering::RenderPipelineAsset*, "UnityEngin
 // Writing MetadataGetter for method: UnityEngine::Rendering::RenderPipelineAsset::get_renderingLayerMaskNames
 // Il2CppName: get_renderingLayerMaskNames
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppString*> (UnityEngine::Rendering::RenderPipelineAsset::*)()>(&UnityEngine::Rendering::RenderPipelineAsset::get_renderingLayerMaskNames)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (UnityEngine::Rendering::RenderPipelineAsset::*)()>(&UnityEngine::Rendering::RenderPipelineAsset::get_renderingLayerMaskNames)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::RenderPipelineAsset*), "get_renderingLayerMaskNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

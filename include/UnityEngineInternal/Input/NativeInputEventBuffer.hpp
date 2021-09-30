@@ -16,6 +16,11 @@ namespace UnityEngineInternal::Input {
   // [TokenAttribute] Offset: FFFFFFFF
   struct NativeInputEventBuffer/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Void* eventBuffer
     // Size: 0x8
     // Offset: 0x0
@@ -40,6 +45,7 @@ namespace UnityEngineInternal::Input {
     int capacityInBytes;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: NativeInputEventBuffer
     constexpr NativeInputEventBuffer(void* eventBuffer_ = {}, int eventCount_ = {}, int sizeInBytes_ = {}, int capacityInBytes_ = {}) noexcept : eventBuffer{eventBuffer_}, eventCount{eventCount_}, sizeInBytes{sizeInBytes_}, capacityInBytes{capacityInBytes_} {}
     // Creating interface conversion operator: operator System::ValueType

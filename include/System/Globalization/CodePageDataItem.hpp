@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: System.Globalization
 namespace System::Globalization {
@@ -18,6 +19,11 @@ namespace System::Globalization {
   // [TokenAttribute] Offset: FFFFFFFF
   class CodePageDataItem : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Int32 m_dataIndex
     // Size: 0x4
     // Offset: 0x10
@@ -42,10 +48,11 @@ namespace System::Globalization {
     uint m_flags;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
+    public:
     // Get static field: static private readonly System.Char[] sep
-    static ::ArrayWrapper<::Il2CppChar> _get_sep();
+    static ::ArrayW<::Il2CppChar> _get_sep();
     // Set static field: static private readonly System.Char[] sep
-    static void _set_sep(::ArrayWrapper<::Il2CppChar> value);
+    static void _set_sep(::ArrayW<::Il2CppChar> value);
     // Get instance field reference: System.Int32 m_dataIndex
     int& dyn_m_dataIndex();
     // Get instance field reference: System.Int32 m_uiFamilyCodePage

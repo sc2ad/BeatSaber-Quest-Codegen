@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Remoting::Messaging
@@ -36,7 +37,7 @@ namespace System::Runtime::Remoting::Channels {
     static System::IO::MemoryStream* SerializeMessage(System::Runtime::Remoting::Messaging::IMessage* msg);
     // static System.Object DeserializeObjectSafe(System.Byte[] mem)
     // Offset: 0x15B4840
-    static ::Il2CppObject* DeserializeObjectSafe(::ArrayWrapper<uint8_t> mem);
+    static ::Il2CppObject* DeserializeObjectSafe(::ArrayW<uint8_t> mem);
     // static System.IO.MemoryStream SerializeObject(System.Object obj)
     // Offset: 0x15B4964
     static System::IO::MemoryStream* SerializeObject(::Il2CppObject* obj);
@@ -71,7 +72,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO:
 // Writing MetadataGetter for method: System::Runtime::Remoting::Channels::CADSerializer::DeserializeObjectSafe
 // Il2CppName: DeserializeObjectSafe
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::ArrayWrapper<uint8_t>)>(&System::Runtime::Remoting::Channels::CADSerializer::DeserializeObjectSafe)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::ArrayW<uint8_t>)>(&System::Runtime::Remoting::Channels::CADSerializer::DeserializeObjectSafe)> {
   static const MethodInfo* get() {
     static auto* mem = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Channels::CADSerializer*), "DeserializeObjectSafe", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mem});

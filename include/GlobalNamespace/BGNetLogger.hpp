@@ -12,6 +12,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Microsoft::Extensions::Logging
@@ -28,26 +29,32 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BGNetLogger : public ::Il2CppObject/*, public GlobalNamespace::BGNetDebug::ILogger*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Microsoft.Extensions.Logging.ILogger[] _loggers
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<Microsoft::Extensions::Logging::ILogger*> loggers;
+    ::ArrayW<Microsoft::Extensions::Logging::ILogger*> loggers;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<Microsoft::Extensions::Logging::ILogger*>) == 0x8);
+    static_assert(sizeof(::ArrayW<Microsoft::Extensions::Logging::ILogger*>) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::BGNetDebug::ILogger
     operator GlobalNamespace::BGNetDebug::ILogger() noexcept {
       return *reinterpret_cast<GlobalNamespace::BGNetDebug::ILogger*>(this);
     }
-    // Creating conversion operator: operator ::ArrayWrapper<Microsoft::Extensions::Logging::ILogger*>
-    constexpr operator ::ArrayWrapper<Microsoft::Extensions::Logging::ILogger*>() const noexcept {
+    // Creating conversion operator: operator ::ArrayW<Microsoft::Extensions::Logging::ILogger*>
+    constexpr operator ::ArrayW<Microsoft::Extensions::Logging::ILogger*>() const noexcept {
       return loggers;
     }
     // Get instance field reference: private readonly Microsoft.Extensions.Logging.ILogger[] _loggers
-    ::ArrayWrapper<Microsoft::Extensions::Logging::ILogger*>& dyn__loggers();
+    ::ArrayW<Microsoft::Extensions::Logging::ILogger*>& dyn__loggers();
     // public System.Void .ctor(params Microsoft.Extensions.Logging.ILogger[] loggers)
     // Offset: 0x144CA34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static BGNetLogger* New_ctor(::ArrayWrapper<Microsoft::Extensions::Logging::ILogger*> loggers) {
+    static BGNetLogger* New_ctor(::ArrayW<Microsoft::Extensions::Logging::ILogger*> loggers) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::BGNetLogger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BGNetLogger*, creationType>(loggers)));
     }
@@ -62,7 +69,7 @@ namespace GlobalNamespace {
     void LogWarning(::Il2CppString* message);
   }; // BGNetLogger
   #pragma pack(pop)
-  static check_size<sizeof(BGNetLogger), 16 + sizeof(::ArrayWrapper<Microsoft::Extensions::Logging::ILogger*>)> __GlobalNamespace_BGNetLoggerSizeCheck;
+  static check_size<sizeof(BGNetLogger), 16 + sizeof(::ArrayW<Microsoft::Extensions::Logging::ILogger*>)> __GlobalNamespace_BGNetLoggerSizeCheck;
   static_assert(sizeof(BGNetLogger) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BGNetLogger*, "", "BGNetLogger");

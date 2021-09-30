@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: OVR::OpenVR
@@ -50,10 +51,10 @@ namespace OVR::OpenVR {
     }
     // public OVR.OpenVR.EVRInputError Invoke(System.IntPtr pvCompressedBuffer, System.UInt32 unCompressedBufferSize, ref OVR.OpenVR.EVRSkeletalTransformSpace peTransformSpace, in OVR.OpenVR.VRBoneTransform_t[] pTransformArray, System.UInt32 unTransformArrayCount)
     // Offset: 0x20F1B60
-    OVR::OpenVR::EVRInputError Invoke(System::IntPtr pvCompressedBuffer, uint unCompressedBufferSize, ByRef<OVR::OpenVR::EVRSkeletalTransformSpace> peTransformSpace, ByRef<::ArrayWrapper<OVR::OpenVR::VRBoneTransform_t>> pTransformArray, uint unTransformArrayCount);
+    OVR::OpenVR::EVRInputError Invoke(System::IntPtr pvCompressedBuffer, uint unCompressedBufferSize, ByRef<OVR::OpenVR::EVRSkeletalTransformSpace> peTransformSpace, ByRef<::ArrayW<OVR::OpenVR::VRBoneTransform_t>> pTransformArray, uint unTransformArrayCount);
     // public System.IAsyncResult BeginInvoke(System.IntPtr pvCompressedBuffer, System.UInt32 unCompressedBufferSize, ref OVR.OpenVR.EVRSkeletalTransformSpace peTransformSpace, in OVR.OpenVR.VRBoneTransform_t[] pTransformArray, System.UInt32 unTransformArrayCount, System.AsyncCallback callback, System.Object object)
     // Offset: 0x20F1E34
-    System::IAsyncResult* BeginInvoke(System::IntPtr pvCompressedBuffer, uint unCompressedBufferSize, ByRef<OVR::OpenVR::EVRSkeletalTransformSpace> peTransformSpace, ByRef<::ArrayWrapper<OVR::OpenVR::VRBoneTransform_t>> pTransformArray, uint unTransformArrayCount, System::AsyncCallback* callback, ::Il2CppObject* object);
+    System::IAsyncResult* BeginInvoke(System::IntPtr pvCompressedBuffer, uint unCompressedBufferSize, ByRef<OVR::OpenVR::EVRSkeletalTransformSpace> peTransformSpace, ByRef<::ArrayW<OVR::OpenVR::VRBoneTransform_t>> pTransformArray, uint unTransformArrayCount, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVRInputError EndInvoke(ref OVR.OpenVR.EVRSkeletalTransformSpace peTransformSpace, System.IAsyncResult result)
     // Offset: 0x20F1F20
     OVR::OpenVR::EVRInputError EndInvoke(ByRef<OVR::OpenVR::EVRSkeletalTransformSpace> peTransformSpace, System::IAsyncResult* result);
@@ -69,7 +70,7 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRInput::_DecompressSkeletalBoneData*, "OVR
 // Writing MetadataGetter for method: OVR::OpenVR::IVRInput::_DecompressSkeletalBoneData::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (OVR::OpenVR::IVRInput::_DecompressSkeletalBoneData::*)(System::IntPtr, uint, ByRef<OVR::OpenVR::EVRSkeletalTransformSpace>, ByRef<::ArrayWrapper<OVR::OpenVR::VRBoneTransform_t>>, uint)>(&OVR::OpenVR::IVRInput::_DecompressSkeletalBoneData::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (OVR::OpenVR::IVRInput::_DecompressSkeletalBoneData::*)(System::IntPtr, uint, ByRef<OVR::OpenVR::EVRSkeletalTransformSpace>, ByRef<::ArrayW<OVR::OpenVR::VRBoneTransform_t>>, uint)>(&OVR::OpenVR::IVRInput::_DecompressSkeletalBoneData::Invoke)> {
   static const MethodInfo* get() {
     static auto* pvCompressedBuffer = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* unCompressedBufferSize = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -82,7 +83,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::IVRInput::_DecompressSkeletalBoneData::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRInput::_DecompressSkeletalBoneData::*)(System::IntPtr, uint, ByRef<OVR::OpenVR::EVRSkeletalTransformSpace>, ByRef<::ArrayWrapper<OVR::OpenVR::VRBoneTransform_t>>, uint, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRInput::_DecompressSkeletalBoneData::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRInput::_DecompressSkeletalBoneData::*)(System::IntPtr, uint, ByRef<OVR::OpenVR::EVRSkeletalTransformSpace>, ByRef<::ArrayW<OVR::OpenVR::VRBoneTransform_t>>, uint, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRInput::_DecompressSkeletalBoneData::BeginInvoke)> {
   static const MethodInfo* get() {
     static auto* pvCompressedBuffer = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* unCompressedBufferSize = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;

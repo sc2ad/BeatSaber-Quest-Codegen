@@ -32,6 +32,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class CrashInfoViewController : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private CrashManagerSO _crashManager
     // Size: 0x8
     // Offset: 0x18
@@ -44,6 +49,7 @@ namespace GlobalNamespace {
     TMPro::TextMeshProUGUI* text;
     // Field size check
     static_assert(sizeof(TMPro::TextMeshProUGUI*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private CrashManagerSO _crashManager

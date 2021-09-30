@@ -53,6 +53,11 @@ namespace NUnit::Framework::Constraints {
     public:
     // Writing base type padding for base size: 0x24 to desired offset: 0x28
     char ___base_padding[0x4] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Object expectedValue
     // Size: 0x8
     // Offset: 0x28
@@ -85,6 +90,7 @@ namespace NUnit::Framework::Constraints {
     System::Collections::Generic::IList_1<NUnit::Framework::Constraints::NUnitEqualityComparer::FailurePoint*>* failurePoints;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::IList_1<NUnit::Framework::Constraints::NUnitEqualityComparer::FailurePoint*>*) == 0x8);
+    public:
     // Get static field: static private readonly System.String StringsDiffer_1
     static ::Il2CppString* _get_StringsDiffer_1();
     // Set static field: static private readonly System.String StringsDiffer_1

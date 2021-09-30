@@ -36,6 +36,11 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class SubContainerCreatorByNewPrefabInstaller::$$c__DisplayClass3_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public Zenject.SubContainerCreatorByNewPrefabInstaller <>4__this
     // Size: 0x8
     // Offset: 0x10
@@ -48,6 +53,7 @@ namespace Zenject {
     System::Collections::Generic::List_1<Zenject::TypeValuePair>* args;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<Zenject::TypeValuePair>*) == 0x8);
+    public:
     // Get instance field reference: public Zenject.SubContainerCreatorByNewPrefabInstaller <>4__this
     Zenject::SubContainerCreatorByNewPrefabInstaller*& dyn_$$4__this();
     // Get instance field reference: public System.Collections.Generic.List`1<Zenject.TypeValuePair> args

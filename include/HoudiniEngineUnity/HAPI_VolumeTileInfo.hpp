@@ -16,6 +16,11 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HAPI_VolumeTileInfo/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 minX
     // Size: 0x4
     // Offset: 0x0
@@ -40,6 +45,7 @@ namespace HoudiniEngineUnity {
     bool isValid;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating value type constructor for type: HAPI_VolumeTileInfo
     constexpr HAPI_VolumeTileInfo(int minX_ = {}, int minY_ = {}, int minZ_ = {}, bool isValid_ = {}) noexcept : minX{minX_}, minY{minY_}, minZ{minZ_}, isValid{isValid_} {}
     // Creating interface conversion operator: operator System::ValueType

@@ -27,6 +27,11 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   // [TokenAttribute] Offset: FFFFFFFF
   class ElGamalParameters : public ::Il2CppObject/*, public Org::BouncyCastle::Crypto::ICipherParameters*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Org.BouncyCastle.Math.BigInteger p
     // Size: 0x8
     // Offset: 0x10
@@ -45,6 +50,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     int l;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::ICipherParameters
     operator Org::BouncyCastle::Crypto::ICipherParameters() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::ICipherParameters*>(this);

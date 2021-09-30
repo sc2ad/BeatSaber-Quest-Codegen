@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: OVR::OpenVR
@@ -48,10 +49,10 @@ namespace OVR::OpenVR {
     }
     // public OVR.OpenVR.EVRApplicationError Invoke(System.String pchTemplateAppKey, System.String pchNewAppKey, in OVR.OpenVR.AppOverrideKeys_t[] pKeys, System.UInt32 unKeys)
     // Offset: 0x1760980
-    OVR::OpenVR::EVRApplicationError Invoke(::Il2CppString* pchTemplateAppKey, ::Il2CppString* pchNewAppKey, ByRef<::ArrayWrapper<OVR::OpenVR::AppOverrideKeys_t>> pKeys, uint unKeys);
+    OVR::OpenVR::EVRApplicationError Invoke(::Il2CppString* pchTemplateAppKey, ::Il2CppString* pchNewAppKey, ByRef<::ArrayW<OVR::OpenVR::AppOverrideKeys_t>> pKeys, uint unKeys);
     // public System.IAsyncResult BeginInvoke(System.String pchTemplateAppKey, System.String pchNewAppKey, in OVR.OpenVR.AppOverrideKeys_t[] pKeys, System.UInt32 unKeys, System.AsyncCallback callback, System.Object object)
     // Offset: 0x1770B94
-    System::IAsyncResult* BeginInvoke(::Il2CppString* pchTemplateAppKey, ::Il2CppString* pchNewAppKey, ByRef<::ArrayWrapper<OVR::OpenVR::AppOverrideKeys_t>> pKeys, uint unKeys, System::AsyncCallback* callback, ::Il2CppObject* object);
+    System::IAsyncResult* BeginInvoke(::Il2CppString* pchTemplateAppKey, ::Il2CppString* pchNewAppKey, ByRef<::ArrayW<OVR::OpenVR::AppOverrideKeys_t>> pKeys, uint unKeys, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVRApplicationError EndInvoke(System.IAsyncResult result)
     // Offset: 0x1770C44
     OVR::OpenVR::EVRApplicationError EndInvoke(System::IAsyncResult* result);
@@ -67,7 +68,7 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRApplications::_LaunchTemplateApplication*
 // Writing MetadataGetter for method: OVR::OpenVR::IVRApplications::_LaunchTemplateApplication::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRApplicationError (OVR::OpenVR::IVRApplications::_LaunchTemplateApplication::*)(::Il2CppString*, ::Il2CppString*, ByRef<::ArrayWrapper<OVR::OpenVR::AppOverrideKeys_t>>, uint)>(&OVR::OpenVR::IVRApplications::_LaunchTemplateApplication::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRApplicationError (OVR::OpenVR::IVRApplications::_LaunchTemplateApplication::*)(::Il2CppString*, ::Il2CppString*, ByRef<::ArrayW<OVR::OpenVR::AppOverrideKeys_t>>, uint)>(&OVR::OpenVR::IVRApplications::_LaunchTemplateApplication::Invoke)> {
   static const MethodInfo* get() {
     static auto* pchTemplateAppKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchNewAppKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -79,7 +80,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::IVRApplications::_LaunchTemplateApplication::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRApplications::_LaunchTemplateApplication::*)(::Il2CppString*, ::Il2CppString*, ByRef<::ArrayWrapper<OVR::OpenVR::AppOverrideKeys_t>>, uint, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRApplications::_LaunchTemplateApplication::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRApplications::_LaunchTemplateApplication::*)(::Il2CppString*, ::Il2CppString*, ByRef<::ArrayW<OVR::OpenVR::AppOverrideKeys_t>>, uint, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRApplications::_LaunchTemplateApplication::BeginInvoke)> {
   static const MethodInfo* get() {
     static auto* pchTemplateAppKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchNewAppKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

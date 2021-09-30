@@ -42,6 +42,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController::InitData
     class InitData;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private CrossFadeAudioSource _audioSource
     // Size: 0x8
     // Offset: 0x18
@@ -119,6 +124,7 @@ namespace GlobalNamespace {
     float lastLatencyOffsetTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IStartSeekSongController
     operator GlobalNamespace::IStartSeekSongController() noexcept {
       return *reinterpret_cast<GlobalNamespace::IStartSeekSongController*>(this);

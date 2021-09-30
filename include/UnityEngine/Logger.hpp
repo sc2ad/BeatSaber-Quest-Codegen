@@ -12,6 +12,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -34,6 +35,11 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class Logger : public ::Il2CppObject/*, public UnityEngine::ILogger*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [DebuggerBrowsableAttribute] Offset: 0xE75BA8
     // private UnityEngine.ILogHandler <logHandler>k__BackingField
     // Size: 0x8
@@ -57,6 +63,7 @@ namespace UnityEngine {
     UnityEngine::LogType filterLogType;
     // Field size check
     static_assert(sizeof(UnityEngine::LogType) == 0x4);
+    public:
     // Creating interface conversion operator: operator UnityEngine::ILogger
     operator UnityEngine::ILogger() noexcept {
       return *reinterpret_cast<UnityEngine::ILogger*>(this);
@@ -112,10 +119,10 @@ namespace UnityEngine {
     void LogException(System::Exception* exception, UnityEngine::Object* context);
     // public System.Void LogFormat(UnityEngine.LogType logType, System.String format, params System.Object[] args)
     // Offset: 0x1D9EDB0
-    void LogFormat(UnityEngine::LogType logType, ::Il2CppString* format, ::ArrayWrapper<::Il2CppObject*> args);
+    void LogFormat(UnityEngine::LogType logType, ::Il2CppString* format, ::ArrayW<::Il2CppObject*> args);
     // public System.Void LogFormat(UnityEngine.LogType logType, UnityEngine.Object context, System.String format, params System.Object[] args)
     // Offset: 0x1D9EEC4
-    void LogFormat(UnityEngine::LogType logType, UnityEngine::Object* context, ::Il2CppString* format, ::ArrayWrapper<::Il2CppObject*> args);
+    void LogFormat(UnityEngine::LogType logType, UnityEngine::Object* context, ::Il2CppString* format, ::ArrayW<::Il2CppObject*> args);
   }; // UnityEngine.Logger
   #pragma pack(pop)
   static check_size<sizeof(Logger), 28 + sizeof(UnityEngine::LogType)> __UnityEngine_LoggerSizeCheck;
@@ -240,7 +247,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Logger::LogFormat
 // Il2CppName: LogFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Logger::*)(UnityEngine::LogType, ::Il2CppString*, ::ArrayWrapper<::Il2CppObject*>)>(&UnityEngine::Logger::LogFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Logger::*)(UnityEngine::LogType, ::Il2CppString*, ::ArrayW<::Il2CppObject*>)>(&UnityEngine::Logger::LogFormat)> {
   static const MethodInfo* get() {
     static auto* logType = &::il2cpp_utils::GetClassFromName("UnityEngine", "LogType")->byval_arg;
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -251,7 +258,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Logger::LogFormat
 // Il2CppName: LogFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Logger::*)(UnityEngine::LogType, UnityEngine::Object*, ::Il2CppString*, ::ArrayWrapper<::Il2CppObject*>)>(&UnityEngine::Logger::LogFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Logger::*)(UnityEngine::LogType, UnityEngine::Object*, ::Il2CppString*, ::ArrayW<::Il2CppObject*>)>(&UnityEngine::Logger::LogFormat)> {
   static const MethodInfo* get() {
     static auto* logType = &::il2cpp_utils::GetClassFromName("UnityEngine", "LogType")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;

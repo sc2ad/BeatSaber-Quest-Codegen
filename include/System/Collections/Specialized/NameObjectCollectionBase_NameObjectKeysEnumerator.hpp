@@ -22,6 +22,11 @@ namespace System::Collections::Specialized {
   // [TokenAttribute] Offset: FFFFFFFF
   class NameObjectCollectionBase::NameObjectKeysEnumerator : public ::Il2CppObject/*, public System::Collections::IEnumerator*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 _pos
     // Size: 0x4
     // Offset: 0x10
@@ -42,6 +47,7 @@ namespace System::Collections::Specialized {
     int version;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating interface conversion operator: operator System::Collections::IEnumerator
     operator System::Collections::IEnumerator() noexcept {
       return *reinterpret_cast<System::Collections::IEnumerator*>(this);

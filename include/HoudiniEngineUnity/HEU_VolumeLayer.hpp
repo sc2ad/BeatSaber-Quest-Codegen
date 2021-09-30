@@ -36,6 +36,11 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_VolumeLayer : public ::Il2CppObject/*, public HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_VolumeLayer*>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.String _layerName
     // Size: 0x8
     // Offset: 0x10
@@ -108,6 +113,7 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::HEU_DetailPrototype* detailPrototype;
     // Field size check
     static_assert(sizeof(HoudiniEngineUnity::HEU_DetailPrototype*) == 0x8);
+    public:
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_VolumeLayer*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_VolumeLayer*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_VolumeLayer*>*>(this);

@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Networking::PlayerConnection
@@ -58,6 +59,11 @@ namespace UnityEngine::Networking::PlayerConnection {
     class $$c__DisplayClass13_0;
     // Nested type: UnityEngine::Networking::PlayerConnection::PlayerConnection::$$c__DisplayClass20_0
     class $$c__DisplayClass20_0;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents m_PlayerEditorConnectionEvents
     // Size: 0x8
     // Offset: 0x18
@@ -76,6 +82,7 @@ namespace UnityEngine::Networking::PlayerConnection {
     bool m_IsInitilized;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static UnityEngine.IPlayerEditorConnectionNative connectionNative
@@ -127,10 +134,10 @@ namespace UnityEngine::Networking::PlayerConnection {
     void UnregisterDisconnection(UnityEngine::Events::UnityAction_1<int>* callback);
     // public System.Void Send(System.Guid messageId, System.Byte[] data)
     // Offset: 0x1DAFB6C
-    void Send(System::Guid messageId, ::ArrayWrapper<uint8_t> data);
+    void Send(System::Guid messageId, ::ArrayW<uint8_t> data);
     // public System.Boolean TrySend(System.Guid messageId, System.Byte[] data)
     // Offset: 0x1DAFCCC
-    bool TrySend(System::Guid messageId, ::ArrayWrapper<uint8_t> data);
+    bool TrySend(System::Guid messageId, ::ArrayW<uint8_t> data);
     // public System.Boolean BlockUntilRecvMsg(System.Guid messageId, System.Int32 timeout)
     // Offset: 0x1DAFE2C
     bool BlockUntilRecvMsg(System::Guid messageId, int timeout);
@@ -263,7 +270,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Networking::PlayerConnection::PlayerConnection::Send
 // Il2CppName: Send
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Networking::PlayerConnection::PlayerConnection::*)(System::Guid, ::ArrayWrapper<uint8_t>)>(&UnityEngine::Networking::PlayerConnection::PlayerConnection::Send)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Networking::PlayerConnection::PlayerConnection::*)(System::Guid, ::ArrayW<uint8_t>)>(&UnityEngine::Networking::PlayerConnection::PlayerConnection::Send)> {
   static const MethodInfo* get() {
     static auto* messageId = &::il2cpp_utils::GetClassFromName("System", "Guid")->byval_arg;
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -273,7 +280,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Networking::PlayerConnection::PlayerConnection::TrySend
 // Il2CppName: TrySend
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Networking::PlayerConnection::PlayerConnection::*)(System::Guid, ::ArrayWrapper<uint8_t>)>(&UnityEngine::Networking::PlayerConnection::PlayerConnection::TrySend)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::Networking::PlayerConnection::PlayerConnection::*)(System::Guid, ::ArrayW<uint8_t>)>(&UnityEngine::Networking::PlayerConnection::PlayerConnection::TrySend)> {
   static const MethodInfo* get() {
     static auto* messageId = &::il2cpp_utils::GetClassFromName("System", "Guid")->byval_arg;
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;

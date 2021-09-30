@@ -41,6 +41,11 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
   // [TokenAttribute] Offset: FFFFFFFF
   class CertificationRequest : public Org::BouncyCastle::Asn1::Asn1Encodable {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // protected Org.BouncyCastle.Asn1.Pkcs.CertificationRequestInfo reqInfo
     // Size: 0x8
     // Offset: 0x10
@@ -59,6 +64,7 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     Org::BouncyCastle::Asn1::DerBitString* sigBits;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::DerBitString*) == 0x8);
+    public:
     // Get instance field reference: protected Org.BouncyCastle.Asn1.Pkcs.CertificationRequestInfo reqInfo
     Org::BouncyCastle::Asn1::Pkcs::CertificationRequestInfo*& dyn_reqInfo();
     // Get instance field reference: protected Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier sigAlgId

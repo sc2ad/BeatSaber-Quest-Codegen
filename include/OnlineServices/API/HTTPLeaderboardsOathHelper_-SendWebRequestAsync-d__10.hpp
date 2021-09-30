@@ -24,6 +24,11 @@ namespace OnlineServices::API {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   struct HTTPLeaderboardsOathHelper::$SendWebRequestAsync$d__10/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0
@@ -80,6 +85,7 @@ namespace OnlineServices::API {
     // Size: 0xFFFFFFFF
     // Offset: 0x58
     System::Runtime::CompilerServices::TaskAwaiter_1<bool> $$u__1;
+    public:
     // Creating value type constructor for type: $SendWebRequestAsync$d__10
     constexpr $SendWebRequestAsync$d__10(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Il2CppString*> $$t__builder_ = {}, OnlineServices::API::HTTPLeaderboardsOathHelper* $$4__this_ = {}, ::Il2CppString* uri_ = {}, ::Il2CppString* method_ = {}, ::Il2CppString* bearerToken_ = {}, ::Il2CppString* bodyData_ = {}, OnlineServices::API::HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1* $$8__1_ = {}, OnlineServices::API::HTTPLeaderboardsOathHelper::$$c__DisplayClass10_0* $$8__2_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<bool> $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, uri{uri_}, method{method_}, bearerToken{bearerToken_}, bodyData{bodyData_}, $$8__1{$$8__1_}, $$8__2{$$8__2_}, $$u__1{$$u__1_} {}
     // Creating interface conversion operator: operator System::ValueType

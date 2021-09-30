@@ -45,6 +45,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::SteamVR_LoadLevel::$LoadLevel$d__45
     class $LoadLevel$d__45;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.String levelName
     // Size: 0x8
     // Offset: 0x18
@@ -249,6 +254,7 @@ namespace GlobalNamespace {
     bool autoTriggerOnEnable;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static private SteamVR_LoadLevel _active

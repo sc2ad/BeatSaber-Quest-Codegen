@@ -21,6 +21,11 @@ namespace UnityEngine {
   // [AttributeUsageAttribute] Offset: E72234
   class ColorUsageAttribute : public UnityEngine::PropertyAttribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly System.Boolean showAlpha
     // Size: 0x1
     // Offset: 0x10
@@ -63,6 +68,7 @@ namespace UnityEngine {
     float maxExposureValue;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: public readonly System.Boolean showAlpha
     bool& dyn_showAlpha();
     // Get instance field reference: public readonly System.Boolean hdr

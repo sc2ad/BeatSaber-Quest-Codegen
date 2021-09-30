@@ -35,12 +35,18 @@ namespace System::Collections {
   // [ComVisibleAttribute] Offset: E61A24
   class ReadOnlyCollectionBase : public ::Il2CppObject/*, public System::Collections::ICollection*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.ArrayList list
     // Size: 0x8
     // Offset: 0x10
     System::Collections::ArrayList* list;
     // Field size check
     static_assert(sizeof(System::Collections::ArrayList*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Collections::ICollection
     operator System::Collections::ICollection() noexcept {
       return *reinterpret_cast<System::Collections::ICollection*>(this);

@@ -40,6 +40,11 @@ namespace Org::BouncyCastle::Asn1::X509 {
   // [TokenAttribute] Offset: FFFFFFFF
   class V2Form : public Org::BouncyCastle::Asn1::Asn1Encodable {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // Org.BouncyCastle.Asn1.X509.GeneralNames issuerName
     // Size: 0x8
     // Offset: 0x10
@@ -58,6 +63,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
     Org::BouncyCastle::Asn1::X509::ObjectDigestInfo* objectDigestInfo;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::X509::ObjectDigestInfo*) == 0x8);
+    public:
     // Get instance field reference: Org.BouncyCastle.Asn1.X509.GeneralNames issuerName
     Org::BouncyCastle::Asn1::X509::GeneralNames*& dyn_issuerName();
     // Get instance field reference: Org.BouncyCastle.Asn1.X509.IssuerSerial baseCertificateID

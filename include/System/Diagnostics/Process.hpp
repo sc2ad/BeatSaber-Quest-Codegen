@@ -88,12 +88,18 @@ namespace System::Diagnostics {
     // [TokenAttribute] Offset: FFFFFFFF
     struct StreamReadMode/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: StreamReadMode
       constexpr StreamReadMode(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -128,6 +134,11 @@ namespace System::Diagnostics {
     #pragma pack(pop)
     static check_size<sizeof(Process::StreamReadMode), 0 + sizeof(int)> __System_Diagnostics_Process_StreamReadModeSizeCheck;
     static_assert(sizeof(Process::StreamReadMode) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean haveProcessId
     // Size: 0x1
     // Offset: 0x28
@@ -344,6 +355,7 @@ namespace System::Diagnostics {
     ::Il2CppString* process_name;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: private System.Boolean haveProcessId
     bool& dyn_haveProcessId();
     // Get instance field reference: private System.Int32 processId

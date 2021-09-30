@@ -71,12 +71,18 @@ namespace UnityEngine::UI {
     // [TokenAttribute] Offset: FFFFFFFF
     struct Direction/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: Direction
       constexpr Direction(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -117,6 +123,11 @@ namespace UnityEngine::UI {
     #pragma pack(pop)
     static check_size<sizeof(Slider::Direction), 0 + sizeof(int)> __UnityEngine_UI_Slider_DirectionSizeCheck;
     static_assert(sizeof(Slider::Direction) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.RectTransform m_FillRect
     // Size: 0x8
     // Offset: 0xF8
@@ -219,6 +230,7 @@ namespace UnityEngine::UI {
     bool m_DelayedUpdateVisuals;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator UnityEngine::UI::ICanvasElement
     operator UnityEngine::UI::ICanvasElement() noexcept {
       return *reinterpret_cast<UnityEngine::UI::ICanvasElement*>(this);

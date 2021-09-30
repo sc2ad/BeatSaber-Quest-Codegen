@@ -20,12 +20,18 @@ namespace System::Diagnostics {
   // [TokenAttribute] Offset: FFFFFFFF
   class DefaultTraceListener : public System::Diagnostics::TraceListener {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String logFileName
     // Size: 0x8
     // Offset: 0x30
     ::Il2CppString* logFileName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get static field: static private readonly System.Boolean OnWin32
     static bool _get_OnWin32();
     // Set static field: static private readonly System.Boolean OnWin32

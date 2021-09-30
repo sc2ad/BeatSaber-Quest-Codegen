@@ -28,6 +28,11 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Version::VersionResult/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Version m_parsedVersion
     // Size: 0x8
     // Offset: 0x0
@@ -60,6 +65,7 @@ namespace System {
     bool m_canThrow;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating value type constructor for type: VersionResult
     constexpr VersionResult(System::Version* m_parsedVersion_ = {}, System::Version::ParseFailureKind m_failure_ = {}, ::Il2CppString* m_exceptionArgument_ = {}, ::Il2CppString* m_argumentName_ = {}, bool m_canThrow_ = {}) noexcept : m_parsedVersion{m_parsedVersion_}, m_failure{m_failure_}, m_exceptionArgument{m_exceptionArgument_}, m_argumentName{m_argumentName_}, m_canThrow{m_canThrow_} {}
     // Creating interface conversion operator: operator System::ValueType

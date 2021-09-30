@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Timeline
@@ -38,7 +39,7 @@ namespace UnityEngine::Timeline {
     static void CalculateExtrapolationTimes(UnityEngine::Timeline::TrackAsset* asset);
     // static private UnityEngine.Timeline.TimelineClip[] SortClipsByStartTime(UnityEngine.Timeline.TimelineClip[] clips)
     // Offset: 0x19FB10C
-    static ::ArrayWrapper<UnityEngine::Timeline::TimelineClip*> SortClipsByStartTime(::ArrayWrapper<UnityEngine::Timeline::TimelineClip*> clips);
+    static ::ArrayW<UnityEngine::Timeline::TimelineClip*> SortClipsByStartTime(::ArrayW<UnityEngine::Timeline::TimelineClip*> clips);
   }; // UnityEngine.Timeline.Extrapolation
   #pragma pack(pop)
 }
@@ -65,7 +66,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Timeline::Extrapolation::SortClipsByStartTime
 // Il2CppName: SortClipsByStartTime
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Timeline::TimelineClip*> (*)(::ArrayWrapper<UnityEngine::Timeline::TimelineClip*>)>(&UnityEngine::Timeline::Extrapolation::SortClipsByStartTime)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Timeline::TimelineClip*> (*)(::ArrayW<UnityEngine::Timeline::TimelineClip*>)>(&UnityEngine::Timeline::Extrapolation::SortClipsByStartTime)> {
   static const MethodInfo* get() {
     static auto* clips = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine.Timeline", "TimelineClip"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::Extrapolation*), "SortClipsByStartTime", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clips});

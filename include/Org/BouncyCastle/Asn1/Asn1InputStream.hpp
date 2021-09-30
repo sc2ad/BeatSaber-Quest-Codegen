@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO
@@ -39,6 +40,11 @@ namespace Org::BouncyCastle::Asn1 {
   // [TokenAttribute] Offset: FFFFFFFF
   class Asn1InputStream : public Org::BouncyCastle::Utilities::IO::FilterStream {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Int32 limit
     // Size: 0x4
     // Offset: 0x30
@@ -50,13 +56,14 @@ namespace Org::BouncyCastle::Asn1 {
     // private readonly System.Byte[][] tmpBuffers
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayWrapper<::ArrayWrapper<uint8_t>> tmpBuffers;
+    ::ArrayW<::ArrayW<uint8_t>> tmpBuffers;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::ArrayWrapper<uint8_t>>) == 0x8);
+    static_assert(sizeof(::ArrayW<::ArrayW<uint8_t>>) == 0x8);
+    public:
     // Get instance field reference: private readonly System.Int32 limit
     int& dyn_limit();
     // Get instance field reference: private readonly System.Byte[][] tmpBuffers
-    ::ArrayWrapper<::ArrayWrapper<uint8_t>>& dyn_tmpBuffers();
+    ::ArrayW<::ArrayW<uint8_t>>& dyn_tmpBuffers();
     // System.Int32 get_Limit()
     // Offset: 0x18E12B8
     int get_Limit();
@@ -70,7 +77,7 @@ namespace Org::BouncyCastle::Asn1 {
     // public System.Void .ctor(System.Byte[] input)
     // Offset: 0x18DEE34
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Asn1InputStream* New_ctor(::ArrayWrapper<uint8_t> input) {
+    static Asn1InputStream* New_ctor(::ArrayW<uint8_t> input) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Asn1InputStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Asn1InputStream*, creationType>(input)));
     }
@@ -100,13 +107,13 @@ namespace Org::BouncyCastle::Asn1 {
     static int ReadLength(System::IO::Stream* s, int limit, bool isParsing);
     // static private System.Byte[] GetBuffer(Org.BouncyCastle.Asn1.DefiniteLengthInputStream defIn, System.Byte[][] tmpBuffers)
     // Offset: 0x18E12C0
-    static ::ArrayWrapper<uint8_t> GetBuffer(Org::BouncyCastle::Asn1::DefiniteLengthInputStream* defIn, ::ArrayWrapper<::ArrayWrapper<uint8_t>> tmpBuffers);
+    static ::ArrayW<uint8_t> GetBuffer(Org::BouncyCastle::Asn1::DefiniteLengthInputStream* defIn, ::ArrayW<::ArrayW<uint8_t>> tmpBuffers);
     // static private System.Char[] GetBmpCharBuffer(Org.BouncyCastle.Asn1.DefiniteLengthInputStream defIn)
     // Offset: 0x18E1730
-    static ::ArrayWrapper<::Il2CppChar> GetBmpCharBuffer(Org::BouncyCastle::Asn1::DefiniteLengthInputStream* defIn);
+    static ::ArrayW<::Il2CppChar> GetBmpCharBuffer(Org::BouncyCastle::Asn1::DefiniteLengthInputStream* defIn);
     // static Org.BouncyCastle.Asn1.Asn1Object CreatePrimitiveDerObject(System.Int32 tagNo, Org.BouncyCastle.Asn1.DefiniteLengthInputStream defIn, System.Byte[][] tmpBuffers)
     // Offset: 0x18DFCC8
-    static Org::BouncyCastle::Asn1::Asn1Object* CreatePrimitiveDerObject(int tagNo, Org::BouncyCastle::Asn1::DefiniteLengthInputStream* defIn, ::ArrayWrapper<::ArrayWrapper<uint8_t>> tmpBuffers);
+    static Org::BouncyCastle::Asn1::Asn1Object* CreatePrimitiveDerObject(int tagNo, Org::BouncyCastle::Asn1::DefiniteLengthInputStream* defIn, ::ArrayW<::ArrayW<uint8_t>> tmpBuffers);
     // public System.Void .ctor(System.IO.Stream inputStream)
     // Offset: 0x18DED84
     // Implemented from: Org.BouncyCastle.Utilities.IO.FilterStream
@@ -118,7 +125,7 @@ namespace Org::BouncyCastle::Asn1 {
     }
   }; // Org.BouncyCastle.Asn1.Asn1InputStream
   #pragma pack(pop)
-  static check_size<sizeof(Asn1InputStream), 56 + sizeof(::ArrayWrapper<::ArrayWrapper<uint8_t>>)> __Org_BouncyCastle_Asn1_Asn1InputStreamSizeCheck;
+  static check_size<sizeof(Asn1InputStream), 56 + sizeof(::ArrayW<::ArrayW<uint8_t>>)> __Org_BouncyCastle_Asn1_Asn1InputStreamSizeCheck;
   static_assert(sizeof(Asn1InputStream) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Asn1InputStream*, "Org.BouncyCastle.Asn1", "Asn1InputStream");
@@ -218,7 +225,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1InputStream::GetBuffer
 // Il2CppName: GetBuffer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(Org::BouncyCastle::Asn1::DefiniteLengthInputStream*, ::ArrayWrapper<::ArrayWrapper<uint8_t>>)>(&Org::BouncyCastle::Asn1::Asn1InputStream::GetBuffer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(Org::BouncyCastle::Asn1::DefiniteLengthInputStream*, ::ArrayW<::ArrayW<uint8_t>>)>(&Org::BouncyCastle::Asn1::Asn1InputStream::GetBuffer)> {
   static const MethodInfo* get() {
     static auto* defIn = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Asn1", "DefiniteLengthInputStream")->byval_arg;
     static auto* tmpBuffers = &il2cpp_functions::array_class_get(il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1), 1)->byval_arg;
@@ -228,7 +235,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1InputStream::GetBmpCharBuffer
 // Il2CppName: GetBmpCharBuffer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppChar> (*)(Org::BouncyCastle::Asn1::DefiniteLengthInputStream*)>(&Org::BouncyCastle::Asn1::Asn1InputStream::GetBmpCharBuffer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppChar> (*)(Org::BouncyCastle::Asn1::DefiniteLengthInputStream*)>(&Org::BouncyCastle::Asn1::Asn1InputStream::GetBmpCharBuffer)> {
   static const MethodInfo* get() {
     static auto* defIn = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Asn1", "DefiniteLengthInputStream")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1InputStream*), "GetBmpCharBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{defIn});
@@ -237,7 +244,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1InputStream::CreatePrimitiveDerObject
 // Il2CppName: CreatePrimitiveDerObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (*)(int, Org::BouncyCastle::Asn1::DefiniteLengthInputStream*, ::ArrayWrapper<::ArrayWrapper<uint8_t>>)>(&Org::BouncyCastle::Asn1::Asn1InputStream::CreatePrimitiveDerObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Asn1Object* (*)(int, Org::BouncyCastle::Asn1::DefiniteLengthInputStream*, ::ArrayW<::ArrayW<uint8_t>>)>(&Org::BouncyCastle::Asn1::Asn1InputStream::CreatePrimitiveDerObject)> {
   static const MethodInfo* get() {
     static auto* tagNo = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* defIn = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Asn1", "DefiniteLengthInputStream")->byval_arg;

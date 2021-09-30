@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Security::Cryptography
@@ -30,7 +31,7 @@ namespace Mono::Security::Cryptography {
     static System::Security::Cryptography::RandomNumberGenerator* get_Rng();
     // static public System.Byte[] Key(System.Int32 size)
     // Offset: 0x1F9B694
-    static ::ArrayWrapper<uint8_t> Key(int size);
+    static ::ArrayW<uint8_t> Key(int size);
   }; // Mono.Security.Cryptography.KeyBuilder
   #pragma pack(pop)
 }
@@ -48,7 +49,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 // Writing MetadataGetter for method: Mono::Security::Cryptography::KeyBuilder::Key
 // Il2CppName: Key
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(int)>(&Mono::Security::Cryptography::KeyBuilder::Key)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(int)>(&Mono::Security::Cryptography::KeyBuilder::Key)> {
   static const MethodInfo* get() {
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::KeyBuilder*), "Key", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{size});

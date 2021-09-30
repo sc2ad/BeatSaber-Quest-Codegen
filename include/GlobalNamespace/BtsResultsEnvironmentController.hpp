@@ -17,6 +17,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -57,6 +58,11 @@ namespace GlobalNamespace {
     class BTSResultCharacterPlaceWithAnimation;
     // Nested type: GlobalNamespace::BtsResultsEnvironmentController::$DestroyCharactersDelayed$d__11
     class $DestroyCharactersDelayed$d__11;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.GameObject _btsCharacterAnimationWrapper
     // Size: 0x8
     // Offset: 0x18
@@ -79,15 +85,16 @@ namespace GlobalNamespace {
     // private BtsResultsEnvironmentController/BTSResultCharacterPlaceWithAnimation[] _resultPlacesWithAnimations
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<GlobalNamespace::BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation*> resultPlacesWithAnimations;
+    ::ArrayW<GlobalNamespace::BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation*> resultPlacesWithAnimations;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation*>) == 0x8);
     // private System.Collections.Generic.List`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle> _handles
     // Size: 0x8
     // Offset: 0x38
     System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* handles;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private BeatmapEventType kCharacterDisplayEventType
@@ -103,7 +110,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Playables.PlayableDirector _btsCharactersResultsAppearPlayableDirector
     UnityEngine::Playables::PlayableDirector*& dyn__btsCharactersResultsAppearPlayableDirector();
     // Get instance field reference: private BtsResultsEnvironmentController/BTSResultCharacterPlaceWithAnimation[] _resultPlacesWithAnimations
-    ::ArrayWrapper<GlobalNamespace::BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation*>& dyn__resultPlacesWithAnimations();
+    ::ArrayW<GlobalNamespace::BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation*>& dyn__resultPlacesWithAnimations();
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle> _handles
     System::Collections::Generic::List_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*& dyn__handles();
     // private System.Void SpawnBtsCharacters(BTSCharacterDataModel/PrefabWithId btsCharacterPrefabToSpawn, System.Boolean useAlternativeMaterial)

@@ -33,6 +33,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MasterServerEndPoint : public ::Il2CppObject/*, public System::IEquatable_1<GlobalNamespace::MasterServerEndPoint*>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly System.String hostName
     // Size: 0x8
     // Offset: 0x10
@@ -53,6 +58,7 @@ namespace GlobalNamespace {
     System::Threading::Tasks::Task_1<System::Net::IPEndPoint*>* getEndPointTask;
     // Field size check
     static_assert(sizeof(System::Threading::Tasks::Task_1<System::Net::IPEndPoint*>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::IEquatable_1<GlobalNamespace::MasterServerEndPoint*>
     operator System::IEquatable_1<GlobalNamespace::MasterServerEndPoint*>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<GlobalNamespace::MasterServerEndPoint*>*>(this);

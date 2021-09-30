@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::TestRunner::TestLaunchers
@@ -32,6 +33,11 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     public:
     // Nested type: UnityEngine::TestRunner::TestLaunchers::RemoteTestData::$$c
     class $$c;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.String id
     // Size: 0x8
     // Offset: 0x10
@@ -79,9 +85,9 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     // public System.String[] childrenIds
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayWrapper<::Il2CppString*> childrenIds;
+    ::ArrayW<::Il2CppString*> childrenIds;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // public System.Int32 testCaseTimeout
     // Size: 0x4
     // Offset: 0x40
@@ -93,9 +99,9 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     // public System.String[] Categories
     // Size: 0x8
     // Offset: 0x48
-    ::ArrayWrapper<::Il2CppString*> Categories;
+    ::ArrayW<::Il2CppString*> Categories;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // public System.Boolean IsTestAssembly
     // Size: 0x1
     // Offset: 0x50
@@ -146,6 +152,7 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     ::Il2CppString* ParentFullName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: public System.String id
     ::Il2CppString*& dyn_id();
     // Get instance field reference: public System.String name
@@ -161,11 +168,11 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     // Get instance field reference: public System.Boolean isSuite
     bool& dyn_isSuite();
     // Get instance field reference: public System.String[] childrenIds
-    ::ArrayWrapper<::Il2CppString*>& dyn_childrenIds();
+    ::ArrayW<::Il2CppString*>& dyn_childrenIds();
     // Get instance field reference: public System.Int32 testCaseTimeout
     int& dyn_testCaseTimeout();
     // Get instance field reference: public System.String[] Categories
-    ::ArrayWrapper<::Il2CppString*>& dyn_Categories();
+    ::ArrayW<::Il2CppString*>& dyn_Categories();
     // Get instance field reference: public System.Boolean IsTestAssembly
     bool& dyn_IsTestAssembly();
     // Get instance field reference: public NUnit.Framework.Interfaces.RunState RunState

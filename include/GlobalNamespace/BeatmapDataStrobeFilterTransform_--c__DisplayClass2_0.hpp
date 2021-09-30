@@ -29,12 +29,18 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   struct BeatmapDataStrobeFilterTransform::$$c__DisplayClass2_0/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Collections.Generic.Dictionary`2<BeatmapEventType,BeatmapDataStrobeFilterTransform/StrobeStreakData> strobesDictionary
     // Size: 0x8
     // Offset: 0x0
     System::Collections::Generic::Dictionary_2<GlobalNamespace::BeatmapEventType, GlobalNamespace::BeatmapDataStrobeFilterTransform::StrobeStreakData*>* strobesDictionary;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<GlobalNamespace::BeatmapEventType, GlobalNamespace::BeatmapDataStrobeFilterTransform::StrobeStreakData*>*) == 0x8);
+    public:
     // Creating value type constructor for type: $$c__DisplayClass2_0
     constexpr $$c__DisplayClass2_0(System::Collections::Generic::Dictionary_2<GlobalNamespace::BeatmapEventType, GlobalNamespace::BeatmapDataStrobeFilterTransform::StrobeStreakData*>* strobesDictionary_ = {}) noexcept : strobesDictionary{strobesDictionary_} {}
     // Creating interface conversion operator: operator System::ValueType

@@ -9,6 +9,7 @@
 #include "GlobalNamespace/OVRPlugin.hpp"
 // Including type: System.Int32
 #include "System/Int32.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -57,7 +58,7 @@ namespace GlobalNamespace {
     static GlobalNamespace::OVRPlugin::Result ovrp_GetExternalCameraCount(ByRef<int> cameraCount);
     // static public OVRPlugin/Result ovrp_GetExternalCameraName(System.Int32 cameraId, System.Char[] cameraName)
     // Offset: 0x17FF4D8
-    static GlobalNamespace::OVRPlugin::Result ovrp_GetExternalCameraName(int cameraId, ::ArrayWrapper<::Il2CppChar> cameraName);
+    static GlobalNamespace::OVRPlugin::Result ovrp_GetExternalCameraName(int cameraId, ::ArrayW<::Il2CppChar> cameraName);
     // static public OVRPlugin/Result ovrp_GetExternalCameraIntrinsics(System.Int32 cameraId, out OVRPlugin/CameraIntrinsics cameraIntrinsics)
     // Offset: 0x17FF5F4
     static GlobalNamespace::OVRPlugin::Result ovrp_GetExternalCameraIntrinsics(int cameraId, ByRef<GlobalNamespace::OVRPlugin::CameraIntrinsics> cameraIntrinsics);
@@ -146,7 +147,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::OVRP_1_15_0::ovrp_GetExternalCameraName
 // Il2CppName: ovrp_GetExternalCameraName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(int, ::ArrayWrapper<::Il2CppChar>)>(&GlobalNamespace::OVRPlugin::OVRP_1_15_0::ovrp_GetExternalCameraName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::OVRPlugin::Result (*)(int, ::ArrayW<::Il2CppChar>)>(&GlobalNamespace::OVRPlugin::OVRP_1_15_0::ovrp_GetExternalCameraName)> {
   static const MethodInfo* get() {
     static auto* cameraId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* cameraName = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;

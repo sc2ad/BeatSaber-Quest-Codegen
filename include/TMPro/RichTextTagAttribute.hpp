@@ -21,6 +21,11 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   struct RichTextTagAttribute/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 nameHashCode
     // Size: 0x4
     // Offset: 0x0
@@ -57,6 +62,7 @@ namespace TMPro {
     TMPro::TagUnitType unitType;
     // Field size check
     static_assert(sizeof(TMPro::TagUnitType) == 0x4);
+    public:
     // Creating value type constructor for type: RichTextTagAttribute
     constexpr RichTextTagAttribute(int nameHashCode_ = {}, int valueHashCode_ = {}, TMPro::TagValueType valueType_ = {}, int valueStartIndex_ = {}, int valueLength_ = {}, TMPro::TagUnitType unitType_ = {}) noexcept : nameHashCode{nameHashCode_}, valueHashCode{valueHashCode_}, valueType{valueType_}, valueStartIndex{valueStartIndex_}, valueLength{valueLength_}, unitType{unitType_} {}
     // Creating interface conversion operator: operator System::ValueType

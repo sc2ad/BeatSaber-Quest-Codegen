@@ -88,6 +88,11 @@ namespace GlobalNamespace {
     class $$c__DisplayClass16_0;
     // Nested type: GlobalNamespace::OculusBeatmapDataAssetFileModel::$GetDownloadAssetBundleFileAsync$d__16
     struct $GetDownloadAssetBundleFileAsync$d__16;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Action`1<LevelDataAssetDownloadUpdate> levelDataAssetDownloadUpdateEvent
     // Size: 0x8
     // Offset: 0x10
@@ -138,6 +143,7 @@ namespace GlobalNamespace {
     GlobalNamespace::OculusLevelProductsModelSO* oculusLevelProductsModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OculusLevelProductsModelSO*) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IBeatmapDataAssetFileModel
     operator GlobalNamespace::IBeatmapDataAssetFileModel() noexcept {
       return *reinterpret_cast<GlobalNamespace::IBeatmapDataAssetFileModel*>(this);

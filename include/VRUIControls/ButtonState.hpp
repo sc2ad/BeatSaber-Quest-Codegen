@@ -27,6 +27,11 @@ namespace VRUIControls {
   // [TokenAttribute] Offset: FFFFFFFF
   class ButtonState : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.InputButton _button
     // Size: 0x4
     // Offset: 0x10
@@ -47,6 +52,7 @@ namespace VRUIControls {
     float pressedValue;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: private UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.InputButton _button
     UnityEngine::EventSystems::PointerEventData::InputButton& dyn__button();
     // Get instance field reference: private VRUIControls.MouseButtonEventData _eventData

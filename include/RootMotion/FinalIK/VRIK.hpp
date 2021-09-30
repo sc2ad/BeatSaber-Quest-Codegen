@@ -34,6 +34,11 @@ namespace RootMotion::FinalIK {
     char ___base_padding[0x5] = {};
     // Nested type: RootMotion::FinalIK::VRIK::References
     class References;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [ContextMenuItemAttribute] Offset: 0xEF27FC
     // [TooltipAttribute] Offset: 0xEF27FC
     // public RootMotion.FinalIK.VRIK/RootMotion.FinalIK.References references
@@ -49,6 +54,7 @@ namespace RootMotion::FinalIK {
     RootMotion::FinalIK::IKSolverVR* solver;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::IKSolverVR*) == 0x8);
+    public:
     // Get instance field reference: public RootMotion.FinalIK.VRIK/RootMotion.FinalIK.References references
     RootMotion::FinalIK::VRIK::References*& dyn_references();
     // Get instance field reference: public RootMotion.FinalIK.IKSolverVR solver

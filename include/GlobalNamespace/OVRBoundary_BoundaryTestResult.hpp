@@ -21,6 +21,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct OVRBoundary::BoundaryTestResult/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Boolean IsTriggering
     // Size: 0x1
     // Offset: 0x0
@@ -47,6 +52,7 @@ namespace GlobalNamespace {
     UnityEngine::Vector3 ClosestPointNormal;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    public:
     // Creating value type constructor for type: BoundaryTestResult
     constexpr BoundaryTestResult(bool IsTriggering_ = {}, float ClosestDistance_ = {}, UnityEngine::Vector3 ClosestPoint_ = {}, UnityEngine::Vector3 ClosestPointNormal_ = {}) noexcept : IsTriggering{IsTriggering_}, ClosestDistance{ClosestDistance_}, ClosestPoint{ClosestPoint_}, ClosestPointNormal{ClosestPointNormal_} {}
     // Creating interface conversion operator: operator System::ValueType

@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Events
@@ -52,6 +53,11 @@ namespace UnityEngine::Events {
   // [UsedByNativeCodeAttribute] Offset: E73524
   class UnityEventBase : public ::Il2CppObject/*, public UnityEngine::ISerializationCallbackReceiver*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Events.InvokableCallList m_Calls
     // Size: 0x8
     // Offset: 0x10
@@ -71,6 +77,7 @@ namespace UnityEngine::Events {
     bool m_CallsDirty;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator UnityEngine::ISerializationCallbackReceiver
     operator UnityEngine::ISerializationCallbackReceiver() noexcept {
       return *reinterpret_cast<UnityEngine::ISerializationCallbackReceiver*>(this);
@@ -119,7 +126,7 @@ namespace UnityEngine::Events {
     System::Collections::Generic::List_1<UnityEngine::Events::BaseInvokableCall*>* PrepareInvoke();
     // static public System.Reflection.MethodInfo GetValidMethodInfo(System.Object obj, System.String functionName, System.Type[] argumentTypes)
     // Offset: 0x1CBA72C
-    static System::Reflection::MethodInfo* GetValidMethodInfo(::Il2CppObject* obj, ::Il2CppString* functionName, ::ArrayWrapper<System::Type*> argumentTypes);
+    static System::Reflection::MethodInfo* GetValidMethodInfo(::Il2CppObject* obj, ::Il2CppString* functionName, ::ArrayW<System::Type*> argumentTypes);
     // protected System.Void .ctor()
     // Offset: 0x1CBA518
     // Implemented from: System.Object
@@ -252,7 +259,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: UnityEngine::Events::UnityEventBase::GetValidMethodInfo
 // Il2CppName: GetValidMethodInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodInfo* (*)(::Il2CppObject*, ::Il2CppString*, ::ArrayWrapper<System::Type*>)>(&UnityEngine::Events::UnityEventBase::GetValidMethodInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodInfo* (*)(::Il2CppObject*, ::Il2CppString*, ::ArrayW<System::Type*>)>(&UnityEngine::Events::UnityEventBase::GetValidMethodInfo)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* functionName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

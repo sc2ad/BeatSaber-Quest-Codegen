@@ -33,6 +33,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MissionLevelReturnToMenuController : public UnityEngine::MonoBehaviour/*, public GlobalNamespace::IReturnToMenuController*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private MissionLevelScenesTransitionSetupDataSO _missionLevelSceneSetupData
     // Size: 0x8
     // Offset: 0x18
@@ -51,6 +56,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MissionObjectiveCheckersManager* missionObjectiveCheckersManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionObjectiveCheckersManager*) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IReturnToMenuController
     operator GlobalNamespace::IReturnToMenuController() noexcept {
       return *reinterpret_cast<GlobalNamespace::IReturnToMenuController*>(this);

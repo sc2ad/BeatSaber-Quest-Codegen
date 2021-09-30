@@ -38,6 +38,11 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class IKMapping::BoneMap : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Transform transform
     // Size: 0x8
     // Offset: 0x10
@@ -170,6 +175,7 @@ namespace RootMotion::FinalIK {
     int plane3NodeIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: public UnityEngine.Transform transform
     UnityEngine::Transform*& dyn_transform();
     // Get instance field reference: public System.Int32 chainIndex

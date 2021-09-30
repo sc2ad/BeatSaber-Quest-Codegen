@@ -40,6 +40,11 @@ namespace Mono::Net::Security {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   struct MobileAuthenticatedStream::$ProcessAuthentication$d__47/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0
@@ -102,6 +107,7 @@ namespace Mono::Net::Security {
     // Size: 0xFFFFFFFF
     // Offset: 0x58
     typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<Mono::Net::Security::AsyncProtocolResult*>::ConfiguredTaskAwaiter $$u__1;
+    public:
     // Creating value type constructor for type: $ProcessAuthentication$d__47
     constexpr $ProcessAuthentication$d__47(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder $$t__builder_ = {}, bool serverMode_ = {}, System::Security::Cryptography::X509Certificates::X509Certificate* serverCertificate_ = {}, ::Il2CppString* targetHost_ = {}, Mono::Net::Security::MobileAuthenticatedStream* $$4__this_ = {}, bool runSynchronously_ = {}, System::Security::Authentication::SslProtocols enabledProtocols_ = {}, System::Security::Cryptography::X509Certificates::X509CertificateCollection* clientCertificates_ = {}, bool clientCertRequired_ = {}, typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<Mono::Net::Security::AsyncProtocolResult*>::ConfiguredTaskAwaiter $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, serverMode{serverMode_}, serverCertificate{serverCertificate_}, targetHost{targetHost_}, $$4__this{$$4__this_}, runSynchronously{runSynchronously_}, enabledProtocols{enabledProtocols_}, clientCertificates{clientCertificates_}, clientCertRequired{clientCertRequired_}, $$u__1{$$u__1_} {}
     // Creating interface conversion operator: operator System::ValueType

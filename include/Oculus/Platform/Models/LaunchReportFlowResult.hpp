@@ -20,6 +20,11 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class LaunchReportFlowResult : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly System.Boolean DidCancel
     // Size: 0x1
     // Offset: 0x10
@@ -34,6 +39,7 @@ namespace Oculus::Platform::Models {
     uint64_t UserReportId;
     // Field size check
     static_assert(sizeof(uint64_t) == 0x8);
+    public:
     // Get instance field reference: public readonly System.Boolean DidCancel
     bool& dyn_DidCancel();
     // Get instance field reference: public readonly System.UInt64 UserReportId

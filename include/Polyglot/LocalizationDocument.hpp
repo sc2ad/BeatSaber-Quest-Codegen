@@ -27,6 +27,11 @@ namespace Polyglot {
   // [TokenAttribute] Offset: FFFFFFFF
   class LocalizationDocument : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String docsId
     // Size: 0x8
     // Offset: 0x10
@@ -59,6 +64,7 @@ namespace Polyglot {
     bool downloadOnStart;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private System.String docsId
     ::Il2CppString*& dyn_docsId();
     // Get instance field reference: private System.String sheetId

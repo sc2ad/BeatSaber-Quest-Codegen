@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: System.Linq
 namespace System::Linq {
@@ -20,7 +21,7 @@ namespace System::Linq {
     public:
     // System.Void ComputeKeys(TElement[] elements, System.Int32 count)
     // Offset: 0xFFFFFFFF
-    void ComputeKeys(::ArrayWrapper<TElement> elements, int count) {
+    void ComputeKeys(::ArrayW<TElement> elements, int count) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::EnumerableSorter_1::ComputeKeys");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ComputeKeys", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(elements), ::il2cpp_utils::ExtractType(count)})));
       auto ___instance_arg = this;
@@ -36,15 +37,15 @@ namespace System::Linq {
     }
     // System.Int32[] Sort(TElement[] elements, System.Int32 count)
     // Offset: 0xFFFFFFFF
-    ::ArrayWrapper<int> Sort(::ArrayWrapper<TElement> elements, int count) {
+    ::ArrayW<int> Sort(::ArrayW<TElement> elements, int count) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::EnumerableSorter_1::Sort");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Sort", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(elements), ::il2cpp_utils::ExtractType(count)})));
       auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<::ArrayWrapper<int>, false>(___instance_arg, ___internal__method, elements, count);
+      return ::il2cpp_utils::RunMethodThrow<::ArrayW<int>, false>(___instance_arg, ___internal__method, elements, count);
     }
     // private System.Void QuickSort(System.Int32[] map, System.Int32 left, System.Int32 right)
     // Offset: 0xFFFFFFFF
-    void QuickSort(::ArrayWrapper<int> map, int left, int right) {
+    void QuickSort(::ArrayW<int> map, int left, int right) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::EnumerableSorter_1::QuickSort");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "QuickSort", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(map), ::il2cpp_utils::ExtractType(left), ::il2cpp_utils::ExtractType(right)})));
       auto ___instance_arg = this;

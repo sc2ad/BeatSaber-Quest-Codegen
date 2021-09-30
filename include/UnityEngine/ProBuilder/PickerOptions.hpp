@@ -19,6 +19,11 @@ namespace UnityEngine::ProBuilder {
   // [TokenAttribute] Offset: FFFFFFFF
   struct PickerOptions/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean <depthTest>k__BackingField
     // Size: 0x1
     // Offset: 0x0
@@ -33,6 +38,7 @@ namespace UnityEngine::ProBuilder {
     UnityEngine::ProBuilder::RectSelectMode rectSelectMode;
     // Field size check
     static_assert(sizeof(UnityEngine::ProBuilder::RectSelectMode) == 0x4);
+    public:
     // Creating value type constructor for type: PickerOptions
     constexpr PickerOptions(bool depthTest_ = {}, UnityEngine::ProBuilder::RectSelectMode rectSelectMode_ = {}) noexcept : depthTest{depthTest_}, rectSelectMode{rectSelectMode_} {}
     // Creating interface conversion operator: operator System::ValueType

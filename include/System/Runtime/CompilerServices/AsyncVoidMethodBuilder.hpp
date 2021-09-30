@@ -46,6 +46,11 @@ namespace System::Runtime::CompilerServices {
   // [TokenAttribute] Offset: FFFFFFFF
   struct AsyncVoidMethodBuilder/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Threading.SynchronizationContext m_synchronizationContext
     // Size: 0x8
     // Offset: 0x0
@@ -64,6 +69,7 @@ namespace System::Runtime::CompilerServices {
     System::Threading::Tasks::Task* m_task;
     // Field size check
     static_assert(sizeof(System::Threading::Tasks::Task*) == 0x8);
+    public:
     // Creating value type constructor for type: AsyncVoidMethodBuilder
     constexpr AsyncVoidMethodBuilder(System::Threading::SynchronizationContext* m_synchronizationContext_ = {}, System::Runtime::CompilerServices::AsyncMethodBuilderCore m_coreState_ = {}, System::Threading::Tasks::Task* m_task_ = {}) noexcept : m_synchronizationContext{m_synchronizationContext_}, m_coreState{m_coreState_}, m_task{m_task_} {}
     // Creating interface conversion operator: operator System::ValueType

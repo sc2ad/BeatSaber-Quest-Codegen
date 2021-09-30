@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -118,10 +119,10 @@ namespace UnityEngine {
     void Unload(bool unloadAllLoadedObjects);
     // public System.String[] GetAllAssetNames()
     // Offset: 0x262498C
-    ::ArrayWrapper<::Il2CppString*> GetAllAssetNames();
+    ::ArrayW<::Il2CppString*> GetAllAssetNames();
     // public System.String[] GetAllScenePaths()
     // Offset: 0x26249CC
-    ::ArrayWrapper<::Il2CppString*> GetAllScenePaths();
+    ::ArrayW<::Il2CppString*> GetAllScenePaths();
     // private UnityEngine.AssetBundleRequest LoadAssetWithSubAssetsAsync_Internal(System.String name, System.Type type)
     // Offset: 0x2624820
     UnityEngine::AssetBundleRequest* LoadAssetWithSubAssetsAsync_Internal(::Il2CppString* name, System::Type* type);
@@ -279,7 +280,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::AssetBundle::GetAllAssetNames
 // Il2CppName: GetAllAssetNames
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppString*> (UnityEngine::AssetBundle::*)()>(&UnityEngine::AssetBundle::GetAllAssetNames)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (UnityEngine::AssetBundle::*)()>(&UnityEngine::AssetBundle::GetAllAssetNames)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AssetBundle*), "GetAllAssetNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -287,7 +288,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::AssetBundle::GetAllScenePaths
 // Il2CppName: GetAllScenePaths
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppString*> (UnityEngine::AssetBundle::*)()>(&UnityEngine::AssetBundle::GetAllScenePaths)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (UnityEngine::AssetBundle::*)()>(&UnityEngine::AssetBundle::GetAllScenePaths)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AssetBundle*), "GetAllScenePaths", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

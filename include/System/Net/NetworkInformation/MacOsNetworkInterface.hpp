@@ -29,12 +29,18 @@ namespace System::Net::NetworkInformation {
   // [TokenAttribute] Offset: FFFFFFFF
   class MacOsNetworkInterface : public System::Net::NetworkInformation::UnixNetworkInterface {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.UInt32 _ifa_flags
     // Size: 0x4
     // Offset: 0x34
     uint ifa_flags;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
+    public:
     // Creating conversion operator: operator uint
     constexpr operator uint() const noexcept {
       return ifa_flags;

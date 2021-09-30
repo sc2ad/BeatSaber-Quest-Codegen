@@ -21,6 +21,11 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   struct TimeZoneInfo::TIME_ZONE_INFORMATION/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Int32 Bias
     // Size: 0x4
     // Offset: 0x0
@@ -67,6 +72,7 @@ namespace System {
     int DaylightBias;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: TIME_ZONE_INFORMATION
     constexpr TIME_ZONE_INFORMATION(int Bias_ = {}, ::Il2CppString* StandardName_ = {}, System::TimeZoneInfo::SYSTEMTIME StandardDate_ = {}, int StandardBias_ = {}, ::Il2CppString* DaylightName_ = {}, System::TimeZoneInfo::SYSTEMTIME DaylightDate_ = {}, int DaylightBias_ = {}) noexcept : Bias{Bias_}, StandardName{StandardName_}, StandardDate{StandardDate_}, StandardBias{StandardBias_}, DaylightName{DaylightName_}, DaylightDate{DaylightDate_}, DaylightBias{DaylightBias_} {}
     // Creating interface conversion operator: operator System::ValueType

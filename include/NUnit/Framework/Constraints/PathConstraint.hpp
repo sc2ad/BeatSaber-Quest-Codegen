@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: NUnit.Framework.Constraints
 namespace NUnit::Framework::Constraints {
@@ -21,9 +22,9 @@ namespace NUnit::Framework::Constraints {
   class PathConstraint : public NUnit::Framework::Constraints::StringConstraint {
     public:
     // Get static field: static private readonly System.Char[] DirectorySeparatorChars
-    static ::ArrayWrapper<::Il2CppChar> _get_DirectorySeparatorChars();
+    static ::ArrayW<::Il2CppChar> _get_DirectorySeparatorChars();
     // Set static field: static private readonly System.Char[] DirectorySeparatorChars
-    static void _set_DirectorySeparatorChars(::ArrayWrapper<::Il2CppChar> value);
+    static void _set_DirectorySeparatorChars(::ArrayW<::Il2CppChar> value);
     // static private System.Void .cctor()
     // Offset: 0x1935094
     static void _cctor();

@@ -33,6 +33,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerCoreInstaller : public Zenject::MonoInstaller {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [SpaceAttribute] Offset: 0xF0C120
     // private ScoreSyncStateManager _scoreSyncStateManagerPrefab
     // Size: 0x8
@@ -60,6 +65,7 @@ namespace GlobalNamespace {
     GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
+    public:
     // Get instance field reference: private ScoreSyncStateManager _scoreSyncStateManagerPrefab
     GlobalNamespace::ScoreSyncStateManager*& dyn__scoreSyncStateManagerPrefab();
     // Get instance field reference: private MultiplayerBadgesModelSO _multiplayerBadgesModel

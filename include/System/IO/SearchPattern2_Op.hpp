@@ -22,6 +22,11 @@ namespace System::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   class SearchPattern2::Op : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.IO.SearchPattern2/System.IO.OpCode Code
     // Size: 0x4
     // Offset: 0x10
@@ -42,6 +47,7 @@ namespace System::IO {
     System::IO::SearchPattern2::Op* Next;
     // Field size check
     static_assert(sizeof(System::IO::SearchPattern2::Op*) == 0x8);
+    public:
     // Get instance field reference: public System.IO.SearchPattern2/System.IO.OpCode Code
     System::IO::SearchPattern2::OpCode& dyn_Code();
     // Get instance field reference: public System.String Argument

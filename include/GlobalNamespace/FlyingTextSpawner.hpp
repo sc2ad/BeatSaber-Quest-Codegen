@@ -37,6 +37,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class FlyingTextSpawner : public UnityEngine::MonoBehaviour/*, public GlobalNamespace::IFlyingObjectEffectDidFinishEvent*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Single _duration
     // Size: 0x4
     // Offset: 0x18
@@ -88,6 +93,7 @@ namespace GlobalNamespace {
     GlobalNamespace::FlyingTextEffect::Pool* flyingTextEffectPool;
     // Field size check
     static_assert(sizeof(GlobalNamespace::FlyingTextEffect::Pool*) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IFlyingObjectEffectDidFinishEvent
     operator GlobalNamespace::IFlyingObjectEffectDidFinishEvent() noexcept {
       return *reinterpret_cast<GlobalNamespace::IFlyingObjectEffectDidFinishEvent*>(this);

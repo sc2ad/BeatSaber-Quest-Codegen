@@ -39,6 +39,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapCharacteristicTableCell : public HMUI::TableCell {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private TMPro.TextMeshProUGUI _nameText
     // Size: 0x8
     // Offset: 0x50
@@ -76,6 +81,7 @@ namespace GlobalNamespace {
     UnityEngine::Color bgHighlightColor;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
+    public:
     // Get instance field reference: private TMPro.TextMeshProUGUI _nameText
     TMPro::TextMeshProUGUI*& dyn__nameText();
     // Get instance field reference: private UnityEngine.UI.Image _iconImage

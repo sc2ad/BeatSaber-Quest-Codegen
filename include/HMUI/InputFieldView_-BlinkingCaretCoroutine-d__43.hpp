@@ -23,6 +23,11 @@ namespace HMUI {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class InputFieldView::$BlinkingCaretCoroutine$d__43 : public ::Il2CppObject/*, public System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -43,6 +48,7 @@ namespace HMUI {
     HMUI::InputFieldView* $$4__this;
     // Field size check
     static_assert(sizeof(HMUI::InputFieldView*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);

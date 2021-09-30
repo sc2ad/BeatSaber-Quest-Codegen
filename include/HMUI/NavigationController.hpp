@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -60,12 +61,18 @@ namespace HMUI {
     // [TokenAttribute] Offset: FFFFFFFF
     struct Orientation/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: Orientation
       constexpr Orientation(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -100,12 +107,18 @@ namespace HMUI {
     // [TokenAttribute] Offset: FFFFFFFF
     struct Alignment/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: Alignment
       constexpr Alignment(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -140,6 +153,11 @@ namespace HMUI {
     #pragma pack(pop)
     static check_size<sizeof(NavigationController::Alignment), 0 + sizeof(int)> __HMUI_NavigationController_AlignmentSizeCheck;
     static_assert(sizeof(NavigationController::Alignment) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private HMUI.NavigationController/HMUI.Orientation _orientation
     // Size: 0x4
     // Offset: 0x80
@@ -172,6 +190,7 @@ namespace HMUI {
     float viewControllersSeparator;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: private HMUI.NavigationController/HMUI.Orientation _orientation
     HMUI::NavigationController::Orientation& dyn__orientation();
     // Get instance field reference: private System.Boolean _reversedStacking
@@ -199,7 +218,7 @@ namespace HMUI {
     void SetupViewControllerRect(HMUI::ViewController* viewController);
     // private System.Single[] GetNewPositionsForViewControllers(System.Collections.Generic.List`1<HMUI.ViewController> viewControllers, System.Collections.Generic.HashSet`1<HMUI.ViewController> fixedViewControllers, System.Single fixedEndPos)
     // Offset: 0x14129FC
-    ::ArrayWrapper<float> GetNewPositionsForViewControllers(System::Collections::Generic::List_1<HMUI::ViewController*>* viewControllers, System::Collections::Generic::HashSet_1<HMUI::ViewController*>* fixedViewControllers, float fixedEndPos);
+    ::ArrayW<float> GetNewPositionsForViewControllers(System::Collections::Generic::List_1<HMUI::ViewController*>* viewControllers, System::Collections::Generic::HashSet_1<HMUI::ViewController*>* fixedViewControllers, float fixedEndPos);
     // public System.Void .ctor()
     // Offset: 0x141328C
     // Implemented from: HMUI.ContainerViewController
@@ -282,7 +301,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Writing MetadataGetter for method: HMUI::NavigationController::GetNewPositionsForViewControllers
 // Il2CppName: GetNewPositionsForViewControllers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<float> (HMUI::NavigationController::*)(System::Collections::Generic::List_1<HMUI::ViewController*>*, System::Collections::Generic::HashSet_1<HMUI::ViewController*>*, float)>(&HMUI::NavigationController::GetNewPositionsForViewControllers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<float> (HMUI::NavigationController::*)(System::Collections::Generic::List_1<HMUI::ViewController*>*, System::Collections::Generic::HashSet_1<HMUI::ViewController*>*, float)>(&HMUI::NavigationController::GetNewPositionsForViewControllers)> {
   static const MethodInfo* get() {
     static auto* viewControllers = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("HMUI", "ViewController")})->byval_arg;
     static auto* fixedViewControllers = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "HashSet`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("HMUI", "ViewController")})->byval_arg;

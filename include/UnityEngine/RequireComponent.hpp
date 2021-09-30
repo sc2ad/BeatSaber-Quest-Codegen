@@ -29,6 +29,11 @@ namespace UnityEngine {
   // [AttributeUsageAttribute] Offset: E72410
   class RequireComponent : public System::Attribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Type m_Type0
     // Size: 0x8
     // Offset: 0x10
@@ -47,6 +52,7 @@ namespace UnityEngine {
     System::Type* m_Type2;
     // Field size check
     static_assert(sizeof(System::Type*) == 0x8);
+    public:
     // Get instance field reference: public System.Type m_Type0
     System::Type*& dyn_m_Type0();
     // Get instance field reference: public System.Type m_Type1

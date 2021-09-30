@@ -12,6 +12,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net
@@ -87,12 +88,18 @@ namespace System::Net {
     // [TokenAttribute] Offset: FFFFFFFF
     struct RequestState/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: RequestState
       constexpr RequestState(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -163,6 +170,11 @@ namespace System::Net {
     #pragma pack(pop)
     static check_size<sizeof(FtpWebRequest::RequestState), 0 + sizeof(int)> __System_Net_FtpWebRequest_RequestStateSizeCheck;
     static_assert(sizeof(FtpWebRequest::RequestState) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Uri requestUri
     // Size: 0x8
     // Offset: 0x20
@@ -335,10 +347,11 @@ namespace System::Net {
     System::Text::Encoding* dataEncoding;
     // Field size check
     static_assert(sizeof(System::Text::Encoding*) == 0x8);
+    public:
     // Get static field: static private readonly System.String[] supportedCommands
-    static ::ArrayWrapper<::Il2CppString*> _get_supportedCommands();
+    static ::ArrayW<::Il2CppString*> _get_supportedCommands();
     // Set static field: static private readonly System.String[] supportedCommands
-    static void _set_supportedCommands(::ArrayWrapper<::Il2CppString*> value);
+    static void _set_supportedCommands(::ArrayW<::Il2CppString*> value);
     // Get instance field reference: private System.Uri requestUri
     System::Uri*& dyn_requestUri();
     // Get instance field reference: private System.String file_name
@@ -509,10 +522,10 @@ namespace System::Net {
     void Authenticate();
     // private System.Net.FtpStatus SendCommand(System.String command, params System.String[] parameters)
     // Offset: 0x1585274
-    System::Net::FtpStatus* SendCommand(::Il2CppString* command, ::ArrayWrapper<::Il2CppString*> parameters);
+    System::Net::FtpStatus* SendCommand(::Il2CppString* command, ::ArrayW<::Il2CppString*> parameters);
     // private System.Net.FtpStatus SendCommand(System.Boolean waitResponse, System.String command, params System.String[] parameters)
     // Offset: 0x1583CB4
-    System::Net::FtpStatus* SendCommand(bool waitResponse, ::Il2CppString* command, ::ArrayWrapper<::Il2CppString*> parameters);
+    System::Net::FtpStatus* SendCommand(bool waitResponse, ::Il2CppString* command, ::ArrayW<::Il2CppString*> parameters);
     // static System.Net.FtpStatus ServiceNotAvailable()
     // Offset: 0x1587C08
     static System::Net::FtpStatus* ServiceNotAvailable();
@@ -956,7 +969,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::FtpWebRequest::SendCommand
 // Il2CppName: SendCommand
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::FtpStatus* (System::Net::FtpWebRequest::*)(::Il2CppString*, ::ArrayWrapper<::Il2CppString*>)>(&System::Net::FtpWebRequest::SendCommand)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::FtpStatus* (System::Net::FtpWebRequest::*)(::Il2CppString*, ::ArrayW<::Il2CppString*>)>(&System::Net::FtpWebRequest::SendCommand)> {
   static const MethodInfo* get() {
     static auto* command = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* parameters = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
@@ -966,7 +979,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Writing MetadataGetter for method: System::Net::FtpWebRequest::SendCommand
 // Il2CppName: SendCommand
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::FtpStatus* (System::Net::FtpWebRequest::*)(bool, ::Il2CppString*, ::ArrayWrapper<::Il2CppString*>)>(&System::Net::FtpWebRequest::SendCommand)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net::FtpStatus* (System::Net::FtpWebRequest::*)(bool, ::Il2CppString*, ::ArrayW<::Il2CppString*>)>(&System::Net::FtpWebRequest::SendCommand)> {
   static const MethodInfo* get() {
     static auto* waitResponse = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* command = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

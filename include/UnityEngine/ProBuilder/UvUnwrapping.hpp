@@ -9,6 +9,7 @@
 #include "UnityEngine/Vector2.hpp"
 // Including type: UnityEngine.ProBuilder.AutoUnwrapSettings
 #include "UnityEngine/ProBuilder/AutoUnwrapSettings.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -63,16 +64,16 @@ namespace UnityEngine::ProBuilder {
     static void ProjectTextureGroup(UnityEngine::ProBuilder::ProBuilderMesh* mesh, int group, UnityEngine::ProBuilder::AutoUnwrapSettings unwrapSettings);
     // static private System.Void ApplyUVSettings(UnityEngine.Vector2[] uvs, System.Collections.Generic.IList`1<System.Int32> indexes, UnityEngine.ProBuilder.AutoUnwrapSettings uvSettings)
     // Offset: 0x24F1FD8
-    static void ApplyUVSettings(::ArrayWrapper<UnityEngine::Vector2> uvs, System::Collections::Generic::IList_1<int>* indexes, UnityEngine::ProBuilder::AutoUnwrapSettings uvSettings);
+    static void ApplyUVSettings(::ArrayW<UnityEngine::Vector2> uvs, System::Collections::Generic::IList_1<int>* indexes, UnityEngine::ProBuilder::AutoUnwrapSettings uvSettings);
     // static private System.Void StretchUVs(UnityEngine.Vector2[] uvs, System.Collections.Generic.IList`1<System.Int32> indexes)
     // Offset: 0x24F2D84
-    static void StretchUVs(::ArrayWrapper<UnityEngine::Vector2> uvs, System::Collections::Generic::IList_1<int>* indexes);
+    static void StretchUVs(::ArrayW<UnityEngine::Vector2> uvs, System::Collections::Generic::IList_1<int>* indexes);
     // static private System.Void FitUVs(UnityEngine.Vector2[] uvs, System.Collections.Generic.IList`1<System.Int32> indexes)
     // Offset: 0x24F2B18
-    static void FitUVs(::ArrayWrapper<UnityEngine::Vector2> uvs, System::Collections::Generic::IList_1<int>* indexes);
+    static void FitUVs(::ArrayW<UnityEngine::Vector2> uvs, System::Collections::Generic::IList_1<int>* indexes);
     // static private System.Void ApplyUVAnchor(UnityEngine.Vector2[] uvs, System.Collections.Generic.IList`1<System.Int32> indexes, UnityEngine.ProBuilder.AutoUnwrapSettings/UnityEngine.ProBuilder.Anchor anchor)
     // Offset: 0x24F2FB8
-    static void ApplyUVAnchor(::ArrayWrapper<UnityEngine::Vector2> uvs, System::Collections::Generic::IList_1<int>* indexes, UnityEngine::ProBuilder::AutoUnwrapSettings::Anchor anchor);
+    static void ApplyUVAnchor(::ArrayW<UnityEngine::Vector2> uvs, System::Collections::Generic::IList_1<int>* indexes, UnityEngine::ProBuilder::AutoUnwrapSettings::Anchor anchor);
   }; // UnityEngine.ProBuilder.UvUnwrapping
   #pragma pack(pop)
 }
@@ -123,7 +124,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::UvUnwrapping::ApplyUVSettings
 // Il2CppName: ApplyUVSettings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<UnityEngine::Vector2>, System::Collections::Generic::IList_1<int>*, UnityEngine::ProBuilder::AutoUnwrapSettings)>(&UnityEngine::ProBuilder::UvUnwrapping::ApplyUVSettings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<UnityEngine::Vector2>, System::Collections::Generic::IList_1<int>*, UnityEngine::ProBuilder::AutoUnwrapSettings)>(&UnityEngine::ProBuilder::UvUnwrapping::ApplyUVSettings)> {
   static const MethodInfo* get() {
     static auto* uvs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2"), 1)->byval_arg;
     static auto* indexes = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
@@ -134,7 +135,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::UvUnwrapping::StretchUVs
 // Il2CppName: StretchUVs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<UnityEngine::Vector2>, System::Collections::Generic::IList_1<int>*)>(&UnityEngine::ProBuilder::UvUnwrapping::StretchUVs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<UnityEngine::Vector2>, System::Collections::Generic::IList_1<int>*)>(&UnityEngine::ProBuilder::UvUnwrapping::StretchUVs)> {
   static const MethodInfo* get() {
     static auto* uvs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2"), 1)->byval_arg;
     static auto* indexes = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
@@ -144,7 +145,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::UvUnwrapping::FitUVs
 // Il2CppName: FitUVs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<UnityEngine::Vector2>, System::Collections::Generic::IList_1<int>*)>(&UnityEngine::ProBuilder::UvUnwrapping::FitUVs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<UnityEngine::Vector2>, System::Collections::Generic::IList_1<int>*)>(&UnityEngine::ProBuilder::UvUnwrapping::FitUVs)> {
   static const MethodInfo* get() {
     static auto* uvs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2"), 1)->byval_arg;
     static auto* indexes = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
@@ -154,7 +155,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::UvUnwrapping::ApplyUVAnchor
 // Il2CppName: ApplyUVAnchor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<UnityEngine::Vector2>, System::Collections::Generic::IList_1<int>*, UnityEngine::ProBuilder::AutoUnwrapSettings::Anchor)>(&UnityEngine::ProBuilder::UvUnwrapping::ApplyUVAnchor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<UnityEngine::Vector2>, System::Collections::Generic::IList_1<int>*, UnityEngine::ProBuilder::AutoUnwrapSettings::Anchor)>(&UnityEngine::ProBuilder::UvUnwrapping::ApplyUVAnchor)> {
   static const MethodInfo* get() {
     static auto* uvs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2"), 1)->byval_arg;
     static auto* indexes = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;

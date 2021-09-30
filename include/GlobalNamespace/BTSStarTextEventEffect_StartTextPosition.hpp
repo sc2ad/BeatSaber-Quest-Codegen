@@ -27,6 +27,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BTSStarTextEventEffect::StartTextPosition : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 _id
     // Size: 0x4
     // Offset: 0x10
@@ -41,6 +46,7 @@ namespace GlobalNamespace {
     UnityEngine::Transform* transform;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    public:
     // Get instance field reference: private System.Int32 _id
     int& dyn__id();
     // Get instance field reference: private UnityEngine.Transform _transform

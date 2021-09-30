@@ -33,12 +33,18 @@ namespace Zenject {
   template<typename T>
   class ConventionFilterTypesBinder::$$c__DisplayClass9_0_1 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Func`2<T,System.Boolean> predicate
     // Size: 0x8
     // Offset: 0x0
     System::Func_2<T, bool>* predicate;
     // Field size check
     static_assert(sizeof(System::Func_2<T, bool>*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Func_2<T, bool>*
     constexpr operator System::Func_2<T, bool>*() const noexcept {
       return predicate;

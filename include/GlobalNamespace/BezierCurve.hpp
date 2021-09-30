@@ -20,6 +20,11 @@ namespace GlobalNamespace {
   // [IsReadOnlyAttribute] Offset: FFFFFFFF
   struct BezierCurve/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly UnityEngine.Vector3 p0
     // Size: 0xC
     // Offset: 0x0
@@ -44,6 +49,7 @@ namespace GlobalNamespace {
     UnityEngine::Vector3 p3;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    public:
     // Creating value type constructor for type: BezierCurve
     constexpr BezierCurve(UnityEngine::Vector3 p0_ = {}, UnityEngine::Vector3 p1_ = {}, UnityEngine::Vector3 p2_ = {}, UnityEngine::Vector3 p3_ = {}) noexcept : p0{p0_}, p1{p1_}, p2{p2_}, p3{p3_} {}
     // Creating interface conversion operator: operator System::ValueType

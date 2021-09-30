@@ -28,6 +28,11 @@ namespace UnityEngine::EventSystems {
   // [TokenAttribute] Offset: FFFFFFFF
   class PointerInputModule::MouseButtonEventData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.FramePressState buttonState
     // Size: 0x4
     // Offset: 0x10
@@ -42,6 +47,7 @@ namespace UnityEngine::EventSystems {
     UnityEngine::EventSystems::PointerEventData* buttonData;
     // Field size check
     static_assert(sizeof(UnityEngine::EventSystems::PointerEventData*) == 0x8);
+    public:
     // Get instance field reference: public UnityEngine.EventSystems.PointerEventData/UnityEngine.EventSystems.FramePressState buttonState
     UnityEngine::EventSystems::PointerEventData::FramePressState& dyn_buttonState();
     // Get instance field reference: public UnityEngine.EventSystems.PointerEventData buttonData

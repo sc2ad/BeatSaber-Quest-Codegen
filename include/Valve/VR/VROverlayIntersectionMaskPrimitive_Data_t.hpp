@@ -19,6 +19,11 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct VROverlayIntersectionMaskPrimitive_Data_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public Valve.VR.IntersectionMaskRectangle_t m_Rectangle
     // Size: 0x10
     // Offset: 0x0
@@ -31,6 +36,7 @@ namespace Valve::VR {
     Valve::VR::IntersectionMaskCircle_t m_Circle;
     // Field size check
     static_assert(sizeof(Valve::VR::IntersectionMaskCircle_t) == 0xC);
+    public:
     // Creating value type constructor for type: VROverlayIntersectionMaskPrimitive_Data_t
     constexpr VROverlayIntersectionMaskPrimitive_Data_t(Valve::VR::IntersectionMaskRectangle_t m_Rectangle_ = {}, Valve::VR::IntersectionMaskCircle_t m_Circle_ = {}) noexcept : m_Rectangle{m_Rectangle_}, m_Circle{m_Circle_} {}
     // Creating interface conversion operator: operator System::ValueType

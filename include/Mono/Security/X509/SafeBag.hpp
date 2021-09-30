@@ -25,6 +25,11 @@ namespace Mono::Security::X509 {
   // [TokenAttribute] Offset: FFFFFFFF
   class SafeBag : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String _bagOID
     // Size: 0x8
     // Offset: 0x10
@@ -37,6 +42,7 @@ namespace Mono::Security::X509 {
     Mono::Security::ASN1* asn1;
     // Field size check
     static_assert(sizeof(Mono::Security::ASN1*) == 0x8);
+    public:
     // Get instance field reference: private System.String _bagOID
     ::Il2CppString*& dyn__bagOID();
     // Get instance field reference: private Mono.Security.ASN1 _asn1

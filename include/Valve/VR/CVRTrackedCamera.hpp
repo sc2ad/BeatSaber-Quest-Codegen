@@ -39,12 +39,18 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   class CVRTrackedCamera : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Valve.VR.IVRTrackedCamera FnTable
     // Size: 0x60
     // Offset: 0x10
     Valve::VR::IVRTrackedCamera FnTable;
     // Field size check
     static_assert(sizeof(Valve::VR::IVRTrackedCamera) == 0x60);
+    public:
     // Creating conversion operator: operator Valve::VR::IVRTrackedCamera
     constexpr operator Valve::VR::IVRTrackedCamera() const noexcept {
       return FnTable;

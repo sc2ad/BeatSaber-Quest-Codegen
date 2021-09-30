@@ -34,6 +34,11 @@ namespace UnityEngine::ProBuilder {
   // [TokenAttribute] Offset: FFFFFFFF
   class EntityBehaviour : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [TooltipAttribute] Offset: 0xF2603C
     // public System.Boolean manageVisibility
     // Size: 0x1
@@ -41,6 +46,7 @@ namespace UnityEngine::ProBuilder {
     bool manageVisibility;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.Boolean manageVisibility

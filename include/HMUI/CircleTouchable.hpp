@@ -31,6 +31,11 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class CircleTouchable : public HMUI::Touchable {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Single _minRadius
     // Size: 0x4
     // Offset: 0x90
@@ -49,6 +54,7 @@ namespace HMUI {
     UnityEngine::RectTransform* containerRect;
     // Field size check
     static_assert(sizeof(UnityEngine::RectTransform*) == 0x8);
+    public:
     // Get instance field reference: private System.Single _minRadius
     float& dyn__minRadius();
     // Get instance field reference: private System.Single _maxRadius

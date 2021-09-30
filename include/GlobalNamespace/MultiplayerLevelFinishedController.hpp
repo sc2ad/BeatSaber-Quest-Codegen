@@ -54,6 +54,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::MultiplayerLevelFinishedController::$StartLevelFinished$d__19
     class $StartLevelFinished$d__19;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xF07F48
     // private readonly IMultiplayerLevelEndActionsPublisher _levelEndActionsPublisher
     // Size: 0x8
@@ -107,6 +112,7 @@ namespace GlobalNamespace {
     float sceneLoadTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Single kMinSceneDuration

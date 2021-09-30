@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: System
 namespace System {
@@ -21,6 +22,11 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5C5A0
   class Random : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 inext
     // Size: 0x4
     // Offset: 0x10
@@ -36,9 +42,10 @@ namespace System {
     // private System.Int32[] SeedArray
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<int> SeedArray;
+    ::ArrayW<int> SeedArray;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
+    public:
     // static field const value: static private System.Int32 MBIG
     static constexpr const int MBIG = 2147483647;
     // Get static field: static private System.Int32 MBIG
@@ -62,7 +69,7 @@ namespace System {
     // Get instance field reference: private System.Int32 inextp
     int& dyn_inextp();
     // Get instance field reference: private System.Int32[] SeedArray
-    ::ArrayWrapper<int>& dyn_SeedArray();
+    ::ArrayW<int>& dyn_SeedArray();
     // public System.Void .ctor(System.Int32 Seed)
     // Offset: 0x1EA0B00
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -93,7 +100,7 @@ namespace System {
     double NextDouble();
     // public System.Void NextBytes(System.Byte[] buffer)
     // Offset: 0x1EA1124
-    void NextBytes(::ArrayWrapper<uint8_t> buffer);
+    void NextBytes(::ArrayW<uint8_t> buffer);
     // public System.Void .ctor()
     // Offset: 0x1E9D0F4
     // Implemented from: System.Object
@@ -105,7 +112,7 @@ namespace System {
     }
   }; // System.Random
   #pragma pack(pop)
-  static check_size<sizeof(Random), 24 + sizeof(::ArrayWrapper<int>)> __System_RandomSizeCheck;
+  static check_size<sizeof(Random), 24 + sizeof(::ArrayW<int>)> __System_RandomSizeCheck;
   static_assert(sizeof(Random) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Random*, "System", "Random");
@@ -176,7 +183,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double (Sys
 // Writing MetadataGetter for method: System::Random::NextBytes
 // Il2CppName: NextBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Random::*)(::ArrayWrapper<uint8_t>)>(&System::Random::NextBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Random::*)(::ArrayW<uint8_t>)>(&System::Random::NextBytes)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Random*), "NextBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer});

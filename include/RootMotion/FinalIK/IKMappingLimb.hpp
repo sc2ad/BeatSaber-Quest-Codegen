@@ -38,6 +38,11 @@ namespace RootMotion::FinalIK {
     public:
     // Nested type: RootMotion::FinalIK::IKMappingLimb::BoneMapType
     struct BoneMapType;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Transform parentBone
     // Size: 0x8
     // Offset: 0x10
@@ -108,6 +113,7 @@ namespace RootMotion::FinalIK {
     RootMotion::FinalIK::IKMapping::BoneMap* boneMap3;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::IKMapping::BoneMap*) == 0x8);
+    public:
     // Get instance field reference: public UnityEngine.Transform parentBone
     UnityEngine::Transform*& dyn_parentBone();
     // Get instance field reference: public UnityEngine.Transform bone1

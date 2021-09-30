@@ -7,6 +7,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Mono.Math.BigInteger
 #include "Mono/Math/BigInteger.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: Mono.Math
 namespace Mono::Math {
@@ -36,10 +37,10 @@ namespace Mono::Math {
     static uint DwordMod(Mono::Math::BigInteger* n, uint d);
     // static public Mono.Math.BigInteger[] DwordDivMod(Mono.Math.BigInteger n, System.UInt32 d)
     // Offset: 0x1F969D8
-    static ::ArrayWrapper<Mono::Math::BigInteger*> DwordDivMod(Mono::Math::BigInteger* n, uint d);
+    static ::ArrayW<Mono::Math::BigInteger*> DwordDivMod(Mono::Math::BigInteger* n, uint d);
     // static public Mono.Math.BigInteger[] multiByteDivide(Mono.Math.BigInteger bi1, Mono.Math.BigInteger bi2)
     // Offset: 0x1F94770
-    static ::ArrayWrapper<Mono::Math::BigInteger*> multiByteDivide(Mono::Math::BigInteger* bi1, Mono::Math::BigInteger* bi2);
+    static ::ArrayW<Mono::Math::BigInteger*> multiByteDivide(Mono::Math::BigInteger* bi1, Mono::Math::BigInteger* bi2);
     // static public Mono.Math.BigInteger LeftShift(Mono.Math.BigInteger bi, System.Int32 n)
     // Offset: 0x1F94F3C
     static Mono::Math::BigInteger* LeftShift(Mono::Math::BigInteger* bi, int n);
@@ -48,10 +49,10 @@ namespace Mono::Math {
     static Mono::Math::BigInteger* RightShift(Mono::Math::BigInteger* bi, int n);
     // static public System.Void Multiply(System.UInt32[] x, System.UInt32 xOffset, System.UInt32 xLen, System.UInt32[] y, System.UInt32 yOffset, System.UInt32 yLen, System.UInt32[] d, System.UInt32 dOffset)
     // Offset: 0x1F94E3C
-    static void Multiply(::ArrayWrapper<uint> x, uint xOffset, uint xLen, ::ArrayWrapper<uint> y, uint yOffset, uint yLen, ::ArrayWrapper<uint> d, uint dOffset);
+    static void Multiply(::ArrayW<uint> x, uint xOffset, uint xLen, ::ArrayW<uint> y, uint yOffset, uint yLen, ::ArrayW<uint> d, uint dOffset);
     // static public System.Void MultiplyMod2p32pmod(System.UInt32[] x, System.Int32 xOffset, System.Int32 xLen, System.UInt32[] y, System.Int32 yOffest, System.Int32 yLen, System.UInt32[] d, System.Int32 dOffset, System.Int32 mod)
     // Offset: 0x1F96B84
-    static void MultiplyMod2p32pmod(::ArrayWrapper<uint> x, int xOffset, int xLen, ::ArrayWrapper<uint> y, int yOffest, int yLen, ::ArrayWrapper<uint> d, int dOffset, int mod);
+    static void MultiplyMod2p32pmod(::ArrayW<uint> x, int xOffset, int xLen, ::ArrayW<uint> y, int yOffest, int yLen, ::ArrayW<uint> d, int dOffset, int mod);
     // static public System.UInt32 modInverse(Mono.Math.BigInteger bi, System.UInt32 modulus)
     // Offset: 0x1F96CB4
     static uint modInverse(Mono::Math::BigInteger* bi, uint modulus);
@@ -127,7 +128,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(Mo
 // Writing MetadataGetter for method: Mono::Math::BigInteger::Kernel::DwordDivMod
 // Il2CppName: DwordDivMod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<Mono::Math::BigInteger*> (*)(Mono::Math::BigInteger*, uint)>(&Mono::Math::BigInteger::Kernel::DwordDivMod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Mono::Math::BigInteger*> (*)(Mono::Math::BigInteger*, uint)>(&Mono::Math::BigInteger::Kernel::DwordDivMod)> {
   static const MethodInfo* get() {
     static auto* n = &::il2cpp_utils::GetClassFromName("Mono.Math", "BigInteger")->byval_arg;
     static auto* d = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -137,7 +138,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: Mono::Math::BigInteger::Kernel::multiByteDivide
 // Il2CppName: multiByteDivide
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<Mono::Math::BigInteger*> (*)(Mono::Math::BigInteger*, Mono::Math::BigInteger*)>(&Mono::Math::BigInteger::Kernel::multiByteDivide)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Mono::Math::BigInteger*> (*)(Mono::Math::BigInteger*, Mono::Math::BigInteger*)>(&Mono::Math::BigInteger::Kernel::multiByteDivide)> {
   static const MethodInfo* get() {
     static auto* bi1 = &::il2cpp_utils::GetClassFromName("Mono.Math", "BigInteger")->byval_arg;
     static auto* bi2 = &::il2cpp_utils::GetClassFromName("Mono.Math", "BigInteger")->byval_arg;
@@ -167,7 +168,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Math:
 // Writing MetadataGetter for method: Mono::Math::BigInteger::Kernel::Multiply
 // Il2CppName: Multiply
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint>, uint, uint, ::ArrayWrapper<uint>, uint, uint, ::ArrayWrapper<uint>, uint)>(&Mono::Math::BigInteger::Kernel::Multiply)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint>, uint, uint, ::ArrayW<uint>, uint, uint, ::ArrayW<uint>, uint)>(&Mono::Math::BigInteger::Kernel::Multiply)> {
   static const MethodInfo* get() {
     static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     static auto* xOffset = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -183,7 +184,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: Mono::Math::BigInteger::Kernel::MultiplyMod2p32pmod
 // Il2CppName: MultiplyMod2p32pmod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint>, int, int, ::ArrayWrapper<uint>, int, int, ::ArrayWrapper<uint>, int, int)>(&Mono::Math::BigInteger::Kernel::MultiplyMod2p32pmod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint>, int, int, ::ArrayW<uint>, int, int, ::ArrayW<uint>, int, int)>(&Mono::Math::BigInteger::Kernel::MultiplyMod2p32pmod)> {
   static const MethodInfo* get() {
     static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     static auto* xOffset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

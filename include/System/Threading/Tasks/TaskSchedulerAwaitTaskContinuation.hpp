@@ -36,12 +36,18 @@ namespace System::Threading::Tasks {
     public:
     // Nested type: System::Threading::Tasks::TaskSchedulerAwaitTaskContinuation::$$c
     class $$c;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Threading.Tasks.TaskScheduler m_scheduler
     // Size: 0x8
     // Offset: 0x20
     System::Threading::Tasks::TaskScheduler* m_scheduler;
     // Field size check
     static_assert(sizeof(System::Threading::Tasks::TaskScheduler*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Threading::Tasks::TaskScheduler*
     constexpr operator System::Threading::Tasks::TaskScheduler*() const noexcept {
       return m_scheduler;

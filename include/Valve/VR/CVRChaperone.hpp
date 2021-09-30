@@ -33,12 +33,18 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   class CVRChaperone : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Valve.VR.IVRChaperone FnTable
     // Size: 0x40
     // Offset: 0x10
     Valve::VR::IVRChaperone FnTable;
     // Field size check
     static_assert(sizeof(Valve::VR::IVRChaperone) == 0x40);
+    public:
     // Creating conversion operator: operator Valve::VR::IVRChaperone
     constexpr operator Valve::VR::IVRChaperone() const noexcept {
       return FnTable;

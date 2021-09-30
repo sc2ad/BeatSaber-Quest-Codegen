@@ -88,6 +88,11 @@ namespace Mono::Unity {
     class unitytls_tlsctx_free_t;
     // Nested type: Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_random_generate_bytes_t
     class unitytls_random_generate_bytes_t;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly System.UInt64 UNITYTLS_INVALID_HANDLE
     // Size: 0x8
     // Offset: 0x10
@@ -286,6 +291,7 @@ namespace Mono::Unity {
     Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_random_generate_bytes_t* unitytls_random_generate_bytes;
     // Field size check
     static_assert(sizeof(Mono::Unity::UnityTls::unitytls_interface_struct::unitytls_random_generate_bytes_t*) == 0x8);
+    public:
     // Get instance field reference: public readonly System.UInt64 UNITYTLS_INVALID_HANDLE
     uint64_t& dyn_UNITYTLS_INVALID_HANDLE();
     // Get instance field reference: public readonly Mono.Unity.UnityTls/Mono.Unity.unitytls_tlsctx_protocolrange UNITYTLS_TLSCTX_PROTOCOLRANGE_DEFAULT

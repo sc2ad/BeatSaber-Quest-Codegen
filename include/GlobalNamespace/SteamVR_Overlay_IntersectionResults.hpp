@@ -23,6 +23,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct SteamVR_Overlay::IntersectionResults/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Vector3 point
     // Size: 0xC
     // Offset: 0x0
@@ -47,6 +52,7 @@ namespace GlobalNamespace {
     float distance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: IntersectionResults
     constexpr IntersectionResults(UnityEngine::Vector3 point_ = {}, UnityEngine::Vector3 normal_ = {}, UnityEngine::Vector2 UVs_ = {}, float distance_ = {}) noexcept : point{point_}, normal{normal_}, UVs{UVs_}, distance{distance_} {}
     // Creating interface conversion operator: operator System::ValueType

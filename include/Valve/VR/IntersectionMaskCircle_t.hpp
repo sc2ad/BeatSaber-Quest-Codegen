@@ -16,6 +16,11 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct IntersectionMaskCircle_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Single m_flCenterX
     // Size: 0x4
     // Offset: 0x0
@@ -34,6 +39,7 @@ namespace Valve::VR {
     float m_flRadius;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: IntersectionMaskCircle_t
     constexpr IntersectionMaskCircle_t(float m_flCenterX_ = {}, float m_flCenterY_ = {}, float m_flRadius_ = {}) noexcept : m_flCenterX{m_flCenterX_}, m_flCenterY{m_flCenterY_}, m_flRadius{m_flRadius_} {}
     // Creating interface conversion operator: operator System::ValueType

@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections
@@ -37,12 +38,18 @@ namespace System::Collections {
   // [DefaultMemberAttribute] Offset: E6156C
   class ArrayList::ReadOnlyArrayList : public System::Collections::ArrayList {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.ArrayList _list
     // Size: 0x8
     // Offset: 0x28
     System::Collections::ArrayList* list;
     // Field size check
     static_assert(sizeof(System::Collections::ArrayList*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Collections::ArrayList*
     constexpr operator System::Collections::ArrayList*() const noexcept {
       return list;
@@ -165,7 +172,7 @@ namespace System::Collections {
     // Offset: 0x199848C
     // Implemented from: System.Collections.ArrayList
     // Base method: System.Object[] ArrayList::ToArray()
-    ::ArrayWrapper<::Il2CppObject*> ToArray();
+    ::ArrayW<::Il2CppObject*> ToArray();
     // public override System.Array ToArray(System.Type type)
     // Offset: 0x19984B0
     // Implemented from: System.Collections.ArrayList
@@ -377,7 +384,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Collections::ArrayList::ReadOnlyArrayList::ToArray
 // Il2CppName: ToArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppObject*> (System::Collections::ArrayList::ReadOnlyArrayList::*)()>(&System::Collections::ArrayList::ReadOnlyArrayList::ToArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppObject*> (System::Collections::ArrayList::ReadOnlyArrayList::*)()>(&System::Collections::ArrayList::ReadOnlyArrayList::ToArray)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Collections::ArrayList::ReadOnlyArrayList*), "ToArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

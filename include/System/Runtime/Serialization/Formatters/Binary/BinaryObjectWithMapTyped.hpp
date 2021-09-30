@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Serialization::Formatters::Binary
@@ -31,6 +32,11 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   // [TokenAttribute] Offset: FFFFFFFF
   class BinaryObjectWithMapTyped : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Runtime.Serialization.Formatters.Binary.BinaryHeaderEnum binaryHeaderEnum
     // Size: 0x4
     // Offset: 0x10
@@ -60,33 +66,34 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // System.String[] memberNames
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<::Il2CppString*> memberNames;
+    ::ArrayW<::Il2CppString*> memberNames;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum[] binaryTypeEnumA
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum> binaryTypeEnumA;
+    ::ArrayW<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum> binaryTypeEnumA;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>) == 0x8);
+    static_assert(sizeof(::ArrayW<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>) == 0x8);
     // System.Object[] typeInformationA
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayWrapper<::Il2CppObject*> typeInformationA;
+    ::ArrayW<::Il2CppObject*> typeInformationA;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppObject*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppObject*>) == 0x8);
     // System.Int32[] memberAssemIds
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayWrapper<int> memberAssemIds;
+    ::ArrayW<int> memberAssemIds;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // System.Int32 assemId
     // Size: 0x4
     // Offset: 0x48
     int assemId;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.BinaryHeaderEnum binaryHeaderEnum
     System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum& dyn_binaryHeaderEnum();
     // Get instance field reference: System.Int32 objectId
@@ -96,13 +103,13 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: System.Int32 numMembers
     int& dyn_numMembers();
     // Get instance field reference: System.String[] memberNames
-    ::ArrayWrapper<::Il2CppString*>& dyn_memberNames();
+    ::ArrayW<::Il2CppString*>& dyn_memberNames();
     // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum[] binaryTypeEnumA
-    ::ArrayWrapper<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>& dyn_binaryTypeEnumA();
+    ::ArrayW<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>& dyn_binaryTypeEnumA();
     // Get instance field reference: System.Object[] typeInformationA
-    ::ArrayWrapper<::Il2CppObject*>& dyn_typeInformationA();
+    ::ArrayW<::Il2CppObject*>& dyn_typeInformationA();
     // Get instance field reference: System.Int32[] memberAssemIds
-    ::ArrayWrapper<int>& dyn_memberAssemIds();
+    ::ArrayW<int>& dyn_memberAssemIds();
     // Get instance field reference: System.Int32 assemId
     int& dyn_assemId();
     // System.Void .ctor(System.Runtime.Serialization.Formatters.Binary.BinaryHeaderEnum binaryHeaderEnum)
@@ -114,7 +121,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     }
     // System.Void Set(System.Int32 objectId, System.String name, System.Int32 numMembers, System.String[] memberNames, System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum[] binaryTypeEnumA, System.Object[] typeInformationA, System.Int32[] memberAssemIds, System.Int32 assemId)
     // Offset: 0x17EA28C
-    void Set(int objectId, ::Il2CppString* name, int numMembers, ::ArrayWrapper<::Il2CppString*> memberNames, ::ArrayWrapper<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum> binaryTypeEnumA, ::ArrayWrapper<::Il2CppObject*> typeInformationA, ::ArrayWrapper<int> memberAssemIds, int assemId);
+    void Set(int objectId, ::Il2CppString* name, int numMembers, ::ArrayW<::Il2CppString*> memberNames, ::ArrayW<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum> binaryTypeEnumA, ::ArrayW<::Il2CppObject*> typeInformationA, ::ArrayW<int> memberAssemIds, int assemId);
     // public System.Void Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
     // Offset: 0x17EA2B8
     void Write(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
@@ -144,7 +151,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::Binar
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped::Set
 // Il2CppName: Set
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped::*)(int, ::Il2CppString*, int, ::ArrayWrapper<::Il2CppString*>, ::ArrayWrapper<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>, ::ArrayWrapper<::Il2CppObject*>, ::ArrayWrapper<int>, int)>(&System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped::Set)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped::*)(int, ::Il2CppString*, int, ::ArrayW<::Il2CppString*>, ::ArrayW<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>, ::ArrayW<::Il2CppObject*>, ::ArrayW<int>, int)>(&System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped::Set)> {
   static const MethodInfo* get() {
     static auto* objectId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

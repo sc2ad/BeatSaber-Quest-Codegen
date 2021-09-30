@@ -27,6 +27,11 @@ namespace System::Reflection {
   // [ComVisibleAttribute] Offset: E5DDC4
   class LocalVariableInfo : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Type type
     // Size: 0x8
     // Offset: 0x10
@@ -47,6 +52,7 @@ namespace System::Reflection {
     uint16_t position;
     // Field size check
     static_assert(sizeof(uint16_t) == 0x2);
+    public:
     // Get instance field reference: System.Type type
     System::Type*& dyn_type();
     // Get instance field reference: System.Boolean is_pinned

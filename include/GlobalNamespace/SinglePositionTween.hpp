@@ -49,6 +49,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SinglePositionTween : public UnityEngine::Playables::PlayableAsset/*, public UnityEngine::Timeline::ITimelineClipAsset*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [NullAllowed] Offset: 0xF14850
     // public UnityEngine.ExposedReference`1<UnityEngine.Transform> transformReference
     // Size: 0xFFFFFFFF
@@ -60,6 +65,7 @@ namespace GlobalNamespace {
     GlobalNamespace::CustomTweenBehaviour* _template;
     // Field size check
     static_assert(sizeof(GlobalNamespace::CustomTweenBehaviour*) == 0x8);
+    public:
     // Creating interface conversion operator: operator UnityEngine::Timeline::ITimelineClipAsset
     operator UnityEngine::Timeline::ITimelineClipAsset() noexcept {
       return *reinterpret_cast<UnityEngine::Timeline::ITimelineClipAsset*>(this);

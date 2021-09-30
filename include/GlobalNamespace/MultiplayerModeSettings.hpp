@@ -20,6 +20,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerModeSettings : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 createServerPlayersCount
     // Size: 0x4
     // Offset: 0x10
@@ -46,6 +51,7 @@ namespace GlobalNamespace {
     bool quickPlayEnableLevelSelection;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: public System.Int32 createServerPlayersCount
     int& dyn_createServerPlayersCount();
     // Get instance field reference: public BeatmapDifficultyMask quickPlayBeatmapDifficulty

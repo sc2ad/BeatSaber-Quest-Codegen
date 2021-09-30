@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: UnityEngine.Timeline
 namespace UnityEngine::Timeline {
@@ -35,7 +36,7 @@ namespace UnityEngine::Timeline {
     static int CombineHash(int h1, int h2, int h3, int h4, int h5, int h6, int h7);
     // static public System.Int32 CombineHash(System.Int32[] hashes)
     // Offset: 0x19FB588
-    static int CombineHash(::ArrayWrapper<int> hashes);
+    static int CombineHash(::ArrayW<int> hashes);
   }; // UnityEngine.Timeline.HashUtility
   #pragma pack(pop)
 }
@@ -120,7 +121,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 // Writing MetadataGetter for method: UnityEngine::Timeline::HashUtility::CombineHash
 // Il2CppName: CombineHash
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayWrapper<int>)>(&UnityEngine::Timeline::HashUtility::CombineHash)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayW<int>)>(&UnityEngine::Timeline::HashUtility::CombineHash)> {
   static const MethodInfo* get() {
     static auto* hashes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::HashUtility*), "CombineHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{hashes});

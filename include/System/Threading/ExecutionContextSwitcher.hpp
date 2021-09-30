@@ -26,6 +26,11 @@ namespace System::Threading {
   // [TokenAttribute] Offset: FFFFFFFF
   struct ExecutionContextSwitcher/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Threading.ExecutionContext/System.Threading.Reader outerEC
     // Size: 0x8
     // Offset: 0x0
@@ -52,6 +57,7 @@ namespace System::Threading {
     System::Threading::Thread* thread;
     // Field size check
     static_assert(sizeof(System::Threading::Thread*) == 0x8);
+    public:
     // Creating value type constructor for type: ExecutionContextSwitcher
     constexpr ExecutionContextSwitcher(System::Threading::ExecutionContext::Reader outerEC_ = {}, bool outerECBelongsToScope_ = {}, ::Il2CppObject* hecsw_ = {}, System::Threading::Thread* thread_ = {}) noexcept : outerEC{outerEC_}, outerECBelongsToScope{outerECBelongsToScope_}, hecsw{hecsw_}, thread{thread_} {}
     // Creating interface conversion operator: operator System::ValueType

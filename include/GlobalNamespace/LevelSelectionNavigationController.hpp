@@ -17,6 +17,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -67,6 +68,11 @@ namespace GlobalNamespace {
     public:
     // Writing base type padding for base size: 0x94 to desired offset: 0x98
     char ___base_padding[0x4] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xF10820
     // private readonly LevelFilteringNavigationController _levelFilteringNavigationController
     // Size: 0x8
@@ -155,9 +161,10 @@ namespace GlobalNamespace {
     // private BeatmapCharacteristicSO[] _notAllowedCharacteristics
     // Size: 0x8
     // Offset: 0xF0
-    ::ArrayWrapper<GlobalNamespace::BeatmapCharacteristicSO*> notAllowedCharacteristics;
+    ::ArrayW<GlobalNamespace::BeatmapCharacteristicSO*> notAllowedCharacteristics;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::BeatmapCharacteristicSO*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::BeatmapCharacteristicSO*>) == 0x8);
+    public:
     // Get instance field reference: private readonly LevelFilteringNavigationController _levelFilteringNavigationController
     GlobalNamespace::LevelFilteringNavigationController*& dyn__levelFilteringNavigationController();
     // Get instance field reference: private readonly LevelCollectionNavigationController _levelCollectionNavigationController
@@ -185,7 +192,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapDifficultyMask _allowedBeatmapDifficultyMask
     GlobalNamespace::BeatmapDifficultyMask& dyn__allowedBeatmapDifficultyMask();
     // Get instance field reference: private BeatmapCharacteristicSO[] _notAllowedCharacteristics
-    ::ArrayWrapper<GlobalNamespace::BeatmapCharacteristicSO*>& dyn__notAllowedCharacteristics();
+    ::ArrayW<GlobalNamespace::BeatmapCharacteristicSO*>& dyn__notAllowedCharacteristics();
     // public IDifficultyBeatmap get_selectedDifficultyBeatmap()
     // Offset: 0x130E5CC
     GlobalNamespace::IDifficultyBeatmap* get_selectedDifficultyBeatmap();
@@ -230,7 +237,7 @@ namespace GlobalNamespace {
     void remove_didChangeDifficultyBeatmapEvent(System::Action_2<GlobalNamespace::LevelSelectionNavigationController*, GlobalNamespace::IDifficultyBeatmap*>* value);
     // public System.Void Setup(SongPackMask songPackMask, BeatmapDifficultyMask allowedBeatmapDifficultyMask, BeatmapCharacteristicSO[] notAllowedCharacteristics, System.Boolean hidePacksIfOneOrNone, System.Boolean hidePracticeButton, System.Boolean showPlayerStatsInDetailView, System.String actionButtonText, IBeatmapLevelPack levelPackToBeSelectedAfterPresent, SelectLevelCategoryViewController/LevelCategory startLevelCategory, IPreviewBeatmapLevel beatmapLevelToBeSelectedAfterPresent, System.Boolean enableCustomLevels)
     // Offset: 0x130EFC4
-    void Setup(GlobalNamespace::SongPackMask songPackMask, GlobalNamespace::BeatmapDifficultyMask allowedBeatmapDifficultyMask, ::ArrayWrapper<GlobalNamespace::BeatmapCharacteristicSO*> notAllowedCharacteristics, bool hidePacksIfOneOrNone, bool hidePracticeButton, bool showPlayerStatsInDetailView, ::Il2CppString* actionButtonText, GlobalNamespace::IBeatmapLevelPack* levelPackToBeSelectedAfterPresent, GlobalNamespace::SelectLevelCategoryViewController::LevelCategory startLevelCategory, GlobalNamespace::IPreviewBeatmapLevel* beatmapLevelToBeSelectedAfterPresent, bool enableCustomLevels);
+    void Setup(GlobalNamespace::SongPackMask songPackMask, GlobalNamespace::BeatmapDifficultyMask allowedBeatmapDifficultyMask, ::ArrayW<GlobalNamespace::BeatmapCharacteristicSO*> notAllowedCharacteristics, bool hidePacksIfOneOrNone, bool hidePracticeButton, bool showPlayerStatsInDetailView, ::Il2CppString* actionButtonText, GlobalNamespace::IBeatmapLevelPack* levelPackToBeSelectedAfterPresent, GlobalNamespace::SelectLevelCategoryViewController::LevelCategory startLevelCategory, GlobalNamespace::IPreviewBeatmapLevel* beatmapLevelToBeSelectedAfterPresent, bool enableCustomLevels);
     // private System.Void HandleLevelCollectionNavigationControllerDidChangeLevelDetailContent(LevelCollectionNavigationController viewController, StandardLevelDetailViewController/ContentType contentType)
     // Offset: 0x1310188
     void HandleLevelCollectionNavigationControllerDidChangeLevelDetailContent(GlobalNamespace::LevelCollectionNavigationController* viewController, GlobalNamespace::StandardLevelDetailViewController::ContentType contentType);
@@ -298,7 +305,7 @@ namespace GlobalNamespace {
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
   }; // LevelSelectionNavigationController
   #pragma pack(pop)
-  static check_size<sizeof(LevelSelectionNavigationController), 240 + sizeof(::ArrayWrapper<GlobalNamespace::BeatmapCharacteristicSO*>)> __GlobalNamespace_LevelSelectionNavigationControllerSizeCheck;
+  static check_size<sizeof(LevelSelectionNavigationController), 240 + sizeof(::ArrayW<GlobalNamespace::BeatmapCharacteristicSO*>)> __GlobalNamespace_LevelSelectionNavigationControllerSizeCheck;
   static_assert(sizeof(LevelSelectionNavigationController) == 0xF8);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelSelectionNavigationController*, "", "LevelSelectionNavigationController");
@@ -428,7 +435,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::LevelSelectionNavigationController::Setup
 // Il2CppName: Setup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelSelectionNavigationController::*)(GlobalNamespace::SongPackMask, GlobalNamespace::BeatmapDifficultyMask, ::ArrayWrapper<GlobalNamespace::BeatmapCharacteristicSO*>, bool, bool, bool, ::Il2CppString*, GlobalNamespace::IBeatmapLevelPack*, GlobalNamespace::SelectLevelCategoryViewController::LevelCategory, GlobalNamespace::IPreviewBeatmapLevel*, bool)>(&GlobalNamespace::LevelSelectionNavigationController::Setup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelSelectionNavigationController::*)(GlobalNamespace::SongPackMask, GlobalNamespace::BeatmapDifficultyMask, ::ArrayW<GlobalNamespace::BeatmapCharacteristicSO*>, bool, bool, bool, ::Il2CppString*, GlobalNamespace::IBeatmapLevelPack*, GlobalNamespace::SelectLevelCategoryViewController::LevelCategory, GlobalNamespace::IPreviewBeatmapLevel*, bool)>(&GlobalNamespace::LevelSelectionNavigationController::Setup)> {
   static const MethodInfo* get() {
     static auto* songPackMask = &::il2cpp_utils::GetClassFromName("", "SongPackMask")->byval_arg;
     static auto* allowedBeatmapDifficultyMask = &::il2cpp_utils::GetClassFromName("", "BeatmapDifficultyMask")->byval_arg;

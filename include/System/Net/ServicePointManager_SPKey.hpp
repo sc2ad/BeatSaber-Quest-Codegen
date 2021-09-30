@@ -27,6 +27,11 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class ServicePointManager::SPKey : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Uri uri
     // Size: 0x8
     // Offset: 0x10
@@ -45,6 +50,7 @@ namespace System::Net {
     bool use_connect;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private System.Uri uri
     System::Uri*& dyn_uri();
     // Get instance field reference: private System.Uri proxy

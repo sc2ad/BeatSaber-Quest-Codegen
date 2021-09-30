@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: LeaderboardsDTO
 namespace LeaderboardsDTO {
@@ -22,6 +23,11 @@ namespace LeaderboardsDTO {
   // [TokenAttribute] Offset: FFFFFFFF
   class LeaderboardEntryDTO : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 score
     // Size: 0x4
     // Offset: 0x10
@@ -63,9 +69,10 @@ namespace LeaderboardsDTO {
     // public LeaderboardsDTO.GameplayModifiersDto[] gameplayModifiers
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayWrapper<LeaderboardsDTO::GameplayModifiersDto> gameplayModifiers;
+    ::ArrayW<LeaderboardsDTO::GameplayModifiersDto> gameplayModifiers;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<LeaderboardsDTO::GameplayModifiersDto>) == 0x8);
+    static_assert(sizeof(::ArrayW<LeaderboardsDTO::GameplayModifiersDto>) == 0x8);
+    public:
     // Get instance field reference: public System.Int32 score
     int& dyn_score();
     // Get instance field reference: public System.Int32 unmodifiedScore
@@ -79,7 +86,7 @@ namespace LeaderboardsDTO {
     // Get instance field reference: public System.String platformUserId
     ::Il2CppString*& dyn_platformUserId();
     // Get instance field reference: public LeaderboardsDTO.GameplayModifiersDto[] gameplayModifiers
-    ::ArrayWrapper<LeaderboardsDTO::GameplayModifiersDto>& dyn_gameplayModifiers();
+    ::ArrayW<LeaderboardsDTO::GameplayModifiersDto>& dyn_gameplayModifiers();
     // public System.Void .ctor()
     // Offset: 0x114AD6C
     // Implemented from: System.Object
@@ -91,7 +98,7 @@ namespace LeaderboardsDTO {
     }
   }; // LeaderboardsDTO.LeaderboardEntryDTO
   #pragma pack(pop)
-  static check_size<sizeof(LeaderboardEntryDTO), 56 + sizeof(::ArrayWrapper<LeaderboardsDTO::GameplayModifiersDto>)> __LeaderboardsDTO_LeaderboardEntryDTOSizeCheck;
+  static check_size<sizeof(LeaderboardEntryDTO), 56 + sizeof(::ArrayW<LeaderboardsDTO::GameplayModifiersDto>)> __LeaderboardsDTO_LeaderboardEntryDTOSizeCheck;
   static_assert(sizeof(LeaderboardEntryDTO) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(LeaderboardsDTO::LeaderboardEntryDTO*, "LeaderboardsDTO", "LeaderboardEntryDTO");

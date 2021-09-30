@@ -54,6 +54,11 @@ namespace Zenject {
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
   class BindInfo : public ::Il2CppObject/*, public System::IDisposable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Boolean MarkAsCreationBinding
     // Size: 0x1
     // Offset: 0x10
@@ -172,6 +177,7 @@ namespace Zenject {
     System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>* InstantiatedCallback;
     // Field size check
     static_assert(sizeof(System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

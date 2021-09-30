@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -83,6 +84,11 @@ namespace GlobalNamespace {
     class $$c;
     // Nested type: GlobalNamespace::LevelFilteringNavigationController::$UpdateCustomSongs$d__54
     struct $UpdateCustomSongs$d__54;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.GameObject _emptyFavoritesListInfoPrefab
     // Size: 0x8
     // Offset: 0x98
@@ -201,39 +207,40 @@ namespace GlobalNamespace {
     // private SelectLevelCategoryViewController/LevelCategory[] _enabledLevelCategories
     // Size: 0x8
     // Offset: 0x128
-    ::ArrayWrapper<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory> enabledLevelCategories;
+    ::ArrayW<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory> enabledLevelCategories;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>) == 0x8);
     // private IBeatmapLevelPack[] _ostBeatmapLevelPacks
     // Size: 0x8
     // Offset: 0x130
-    ::ArrayWrapper<GlobalNamespace::IBeatmapLevelPack*> ostBeatmapLevelPacks;
+    ::ArrayW<GlobalNamespace::IBeatmapLevelPack*> ostBeatmapLevelPacks;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::IBeatmapLevelPack*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::IBeatmapLevelPack*>) == 0x8);
     // private IBeatmapLevelPack[] _musicPacksBeatmapLevelPacks
     // Size: 0x8
     // Offset: 0x138
-    ::ArrayWrapper<GlobalNamespace::IBeatmapLevelPack*> musicPacksBeatmapLevelPacks;
+    ::ArrayW<GlobalNamespace::IBeatmapLevelPack*> musicPacksBeatmapLevelPacks;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::IBeatmapLevelPack*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::IBeatmapLevelPack*>) == 0x8);
     // private IBeatmapLevelPack[] _customLevelPacks
     // Size: 0x8
     // Offset: 0x140
-    ::ArrayWrapper<GlobalNamespace::IBeatmapLevelPack*> customLevelPacks;
+    ::ArrayW<GlobalNamespace::IBeatmapLevelPack*> customLevelPacks;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::IBeatmapLevelPack*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::IBeatmapLevelPack*>) == 0x8);
     // private IBeatmapLevelPack[] _allOfficialBeatmapLevelPacks
     // Size: 0x8
     // Offset: 0x148
-    ::ArrayWrapper<GlobalNamespace::IBeatmapLevelPack*> allOfficialBeatmapLevelPacks;
+    ::ArrayW<GlobalNamespace::IBeatmapLevelPack*> allOfficialBeatmapLevelPacks;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::IBeatmapLevelPack*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::IBeatmapLevelPack*>) == 0x8);
     // private IBeatmapLevelPack[] _allBeatmapLevelPacks
     // Size: 0x8
     // Offset: 0x150
-    ::ArrayWrapper<GlobalNamespace::IBeatmapLevelPack*> allBeatmapLevelPacks;
+    ::ArrayW<GlobalNamespace::IBeatmapLevelPack*> allBeatmapLevelPacks;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::IBeatmapLevelPack*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::IBeatmapLevelPack*>) == 0x8);
+    public:
     // Get instance field reference: private UnityEngine.GameObject _emptyFavoritesListInfoPrefab
     UnityEngine::GameObject*& dyn__emptyFavoritesListInfoPrefab();
     // Get instance field reference: private UnityEngine.GameObject _emptyCustomSongListInfoPrefab
@@ -271,17 +278,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private SongPackMask _songPackMask
     GlobalNamespace::SongPackMask& dyn__songPackMask();
     // Get instance field reference: private SelectLevelCategoryViewController/LevelCategory[] _enabledLevelCategories
-    ::ArrayWrapper<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>& dyn__enabledLevelCategories();
+    ::ArrayW<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>& dyn__enabledLevelCategories();
     // Get instance field reference: private IBeatmapLevelPack[] _ostBeatmapLevelPacks
-    ::ArrayWrapper<GlobalNamespace::IBeatmapLevelPack*>& dyn__ostBeatmapLevelPacks();
+    ::ArrayW<GlobalNamespace::IBeatmapLevelPack*>& dyn__ostBeatmapLevelPacks();
     // Get instance field reference: private IBeatmapLevelPack[] _musicPacksBeatmapLevelPacks
-    ::ArrayWrapper<GlobalNamespace::IBeatmapLevelPack*>& dyn__musicPacksBeatmapLevelPacks();
+    ::ArrayW<GlobalNamespace::IBeatmapLevelPack*>& dyn__musicPacksBeatmapLevelPacks();
     // Get instance field reference: private IBeatmapLevelPack[] _customLevelPacks
-    ::ArrayWrapper<GlobalNamespace::IBeatmapLevelPack*>& dyn__customLevelPacks();
+    ::ArrayW<GlobalNamespace::IBeatmapLevelPack*>& dyn__customLevelPacks();
     // Get instance field reference: private IBeatmapLevelPack[] _allOfficialBeatmapLevelPacks
-    ::ArrayWrapper<GlobalNamespace::IBeatmapLevelPack*>& dyn__allOfficialBeatmapLevelPacks();
+    ::ArrayW<GlobalNamespace::IBeatmapLevelPack*>& dyn__allOfficialBeatmapLevelPacks();
     // Get instance field reference: private IBeatmapLevelPack[] _allBeatmapLevelPacks
-    ::ArrayWrapper<GlobalNamespace::IBeatmapLevelPack*>& dyn__allBeatmapLevelPacks();
+    ::ArrayW<GlobalNamespace::IBeatmapLevelPack*>& dyn__allBeatmapLevelPacks();
     // public IBeatmapLevelPack get_selectedBeatmapLevelPack()
     // Offset: 0x1152474
     GlobalNamespace::IBeatmapLevelPack* get_selectedBeatmapLevelPack();
@@ -397,7 +404,7 @@ namespace GlobalNamespace {
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
   }; // LevelFilteringNavigationController
   #pragma pack(pop)
-  static check_size<sizeof(LevelFilteringNavigationController), 336 + sizeof(::ArrayWrapper<GlobalNamespace::IBeatmapLevelPack*>)> __GlobalNamespace_LevelFilteringNavigationControllerSizeCheck;
+  static check_size<sizeof(LevelFilteringNavigationController), 336 + sizeof(::ArrayW<GlobalNamespace::IBeatmapLevelPack*>)> __GlobalNamespace_LevelFilteringNavigationControllerSizeCheck;
   static_assert(sizeof(LevelFilteringNavigationController) == 0x158);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelFilteringNavigationController*, "", "LevelFilteringNavigationController");

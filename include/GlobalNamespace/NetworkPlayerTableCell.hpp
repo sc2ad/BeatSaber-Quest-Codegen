@@ -39,6 +39,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class NetworkPlayerTableCell : public HMUI::TableCell {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private TMPro.TextMeshProUGUI _playerNameText
     // Size: 0x8
     // Offset: 0x50
@@ -105,6 +110,7 @@ namespace GlobalNamespace {
     bool isMe;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private TMPro.TextMeshProUGUI _playerNameText
     TMPro::TextMeshProUGUI*& dyn__playerNameText();
     // Get instance field reference: private UnityEngine.GameObject _separator

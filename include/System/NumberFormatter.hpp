@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -46,6 +47,11 @@ namespace System {
     public:
     // Nested type: System::NumberFormatter::CustomInfo
     class CustomInfo;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Globalization.NumberFormatInfo _nfi
     // Size: 0x8
     // Offset: 0x10
@@ -55,9 +61,9 @@ namespace System {
     // private System.Char[] _cbuf
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<::Il2CppChar> cbuf;
+    ::ArrayW<::Il2CppChar> cbuf;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppChar>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppChar>) == 0x8);
     // private System.Boolean _NaN
     // Size: 0x1
     // Offset: 0x20
@@ -156,6 +162,7 @@ namespace System {
     int ind;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get static field: static private readonly System.UInt64* MantissaBitsTable
     static uint64_t* _get_MantissaBitsTable();
     // Set static field: static private readonly System.UInt64* MantissaBitsTable
@@ -191,7 +198,7 @@ namespace System {
     // Get instance field reference: private System.Globalization.NumberFormatInfo _nfi
     System::Globalization::NumberFormatInfo*& dyn__nfi();
     // Get instance field reference: private System.Char[] _cbuf
-    ::ArrayWrapper<::Il2CppChar>& dyn__cbuf();
+    ::ArrayW<::Il2CppChar>& dyn__cbuf();
     // Get instance field reference: private System.Boolean _NaN
     bool& dyn__NaN();
     // Get instance field reference: private System.Boolean _infinity
@@ -449,7 +456,7 @@ namespace System {
     void AppendDecimalString(int precision);
     // private System.Void AppendIntegerStringWithGroupSeparator(System.Int32[] groups, System.String groupSeparator)
     // Offset: 0x1A18608
-    void AppendIntegerStringWithGroupSeparator(::ArrayWrapper<int> groups, ::Il2CppString* groupSeparator);
+    void AppendIntegerStringWithGroupSeparator(::ArrayW<int> groups, ::Il2CppString* groupSeparator);
     // private System.Void AppendExponent(System.Globalization.NumberFormatInfo nfi, System.Int32 exponent, System.Int32 minDigits)
     // Offset: 0x1A18D7C
     void AppendExponent(System::Globalization::NumberFormatInfo* nfi, int exponent, int minDigits);
@@ -1169,7 +1176,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::NumberFormatter::AppendIntegerStringWithGroupSeparator
 // Il2CppName: AppendIntegerStringWithGroupSeparator
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::NumberFormatter::*)(::ArrayWrapper<int>, ::Il2CppString*)>(&System::NumberFormatter::AppendIntegerStringWithGroupSeparator)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::NumberFormatter::*)(::ArrayW<int>, ::Il2CppString*)>(&System::NumberFormatter::AppendIntegerStringWithGroupSeparator)> {
   static const MethodInfo* get() {
     static auto* groups = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     static auto* groupSeparator = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

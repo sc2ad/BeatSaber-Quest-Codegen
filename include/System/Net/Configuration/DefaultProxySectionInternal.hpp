@@ -25,12 +25,18 @@ namespace System::Net::Configuration {
   // [TokenAttribute] Offset: FFFFFFFF
   class DefaultProxySectionInternal : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Net.IWebProxy webProxy
     // Size: 0x8
     // Offset: 0x10
     System::Net::IWebProxy* webProxy;
     // Field size check
     static_assert(sizeof(System::Net::IWebProxy*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Net::IWebProxy*
     constexpr operator System::Net::IWebProxy*() const noexcept {
       return webProxy;

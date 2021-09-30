@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -44,6 +45,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::SaberModelController::InitData
     class InitData;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private SaberTrail _saberTrail
     // Size: 0x8
     // Offset: 0x18
@@ -53,15 +59,15 @@ namespace GlobalNamespace {
     // private SetSaberGlowColor[] _setSaberGlowColors
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<GlobalNamespace::SetSaberGlowColor*> setSaberGlowColors;
+    ::ArrayW<GlobalNamespace::SetSaberGlowColor*> setSaberGlowColors;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::SetSaberGlowColor*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::SetSaberGlowColor*>) == 0x8);
     // private SetSaberFakeGlowColor[] _setSaberFakeGlowColors
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<GlobalNamespace::SetSaberFakeGlowColor*> setSaberFakeGlowColors;
+    ::ArrayW<GlobalNamespace::SetSaberFakeGlowColor*> setSaberFakeGlowColors;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::SetSaberFakeGlowColor*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::SetSaberFakeGlowColor*>) == 0x8);
     // [NullAllowed] Offset: 0xF0AB1C
     // private TubeBloomPrePassLight _saberLight
     // Size: 0x8
@@ -83,14 +89,15 @@ namespace GlobalNamespace {
     GlobalNamespace::ColorManager* colorManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ColorManager*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private SaberTrail _saberTrail
     GlobalNamespace::SaberTrail*& dyn__saberTrail();
     // Get instance field reference: private SetSaberGlowColor[] _setSaberGlowColors
-    ::ArrayWrapper<GlobalNamespace::SetSaberGlowColor*>& dyn__setSaberGlowColors();
+    ::ArrayW<GlobalNamespace::SetSaberGlowColor*>& dyn__setSaberGlowColors();
     // Get instance field reference: private SetSaberFakeGlowColor[] _setSaberFakeGlowColors
-    ::ArrayWrapper<GlobalNamespace::SetSaberFakeGlowColor*>& dyn__setSaberFakeGlowColors();
+    ::ArrayW<GlobalNamespace::SetSaberFakeGlowColor*>& dyn__setSaberFakeGlowColors();
     // Get instance field reference: private TubeBloomPrePassLight _saberLight
     GlobalNamespace::TubeBloomPrePassLight*& dyn__saberLight();
     // Get instance field reference: private readonly SaberModelController/InitData _initData

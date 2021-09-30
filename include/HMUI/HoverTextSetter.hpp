@@ -36,6 +36,11 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class HoverTextSetter : public UnityEngine::MonoBehaviour/*, public UnityEngine::EventSystems::IPointerEnterHandler, public UnityEngine::EventSystems::IPointerExitHandler*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private HMUI.HoverTextController _hoverTextController
     // Size: 0x8
     // Offset: 0x18
@@ -48,6 +53,7 @@ namespace HMUI {
     ::Il2CppString* text;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Creating interface conversion operator: operator UnityEngine::EventSystems::IPointerEnterHandler
     operator UnityEngine::EventSystems::IPointerEnterHandler() noexcept {
       return *reinterpret_cast<UnityEngine::EventSystems::IPointerEnterHandler*>(this);

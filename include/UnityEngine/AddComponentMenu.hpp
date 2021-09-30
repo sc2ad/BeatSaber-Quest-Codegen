@@ -20,6 +20,11 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class AddComponentMenu : public System::Attribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String m_AddComponentMenu
     // Size: 0x8
     // Offset: 0x10
@@ -32,6 +37,7 @@ namespace UnityEngine {
     int m_Ordering;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: private System.String m_AddComponentMenu
     ::Il2CppString*& dyn_m_AddComponentMenu();
     // Get instance field reference: private System.Int32 m_Ordering

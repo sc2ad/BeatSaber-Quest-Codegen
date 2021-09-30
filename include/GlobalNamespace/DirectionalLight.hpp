@@ -33,6 +33,11 @@ namespace GlobalNamespace {
   // [ExecuteInEditMode] Offset: FFFFFFFF
   class DirectionalLight : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [ColorUsageAttribute] Offset: 0xEDEA74
     // public UnityEngine.Color color
     // Size: 0x10
@@ -52,6 +57,7 @@ namespace GlobalNamespace {
     float radius;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static public System.Int32 kMaxLights

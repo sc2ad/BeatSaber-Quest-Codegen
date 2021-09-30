@@ -26,6 +26,11 @@ namespace UnityEngine::Rendering {
   // [NativeHeaderAttribute] Offset: E744C8
   struct BatchCullingContext/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly Unity.Collections.NativeArray`1<UnityEngine.Plane> cullingPlanes
     // Size: 0xFFFFFFFF
     // Offset: 0x0
@@ -44,6 +49,7 @@ namespace UnityEngine::Rendering {
     UnityEngine::Rendering::LODParameters lodParameters;
     // Field size check
     static_assert(sizeof(UnityEngine::Rendering::LODParameters) == 0x1C);
+    public:
     // Creating value type constructor for type: BatchCullingContext
     constexpr BatchCullingContext(Unity::Collections::NativeArray_1<UnityEngine::Plane> cullingPlanes_ = {}, Unity::Collections::NativeArray_1<UnityEngine::Rendering::BatchVisibility> batchVisibility_ = {}, Unity::Collections::NativeArray_1<int> visibleIndices_ = {}, UnityEngine::Rendering::LODParameters lodParameters_ = {}) noexcept : cullingPlanes{cullingPlanes_}, batchVisibility{batchVisibility_}, visibleIndices{visibleIndices_}, lodParameters{lodParameters_} {}
     // Creating interface conversion operator: operator System::ValueType

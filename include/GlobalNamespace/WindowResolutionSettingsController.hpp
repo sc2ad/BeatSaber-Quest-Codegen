@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -29,6 +30,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class WindowResolutionSettingsController : public GlobalNamespace::ListSettingsController {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Vector2IntSO _windowResolution
     // Size: 0x8
     // Offset: 0x28
@@ -38,13 +44,14 @@ namespace GlobalNamespace {
     // private UnityEngine.Vector2Int[] _windowResolutions
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<UnityEngine::Vector2Int> windowResolutions;
+    ::ArrayW<UnityEngine::Vector2Int> windowResolutions;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector2Int>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Vector2Int>) == 0x8);
+    public:
     // Get instance field reference: private Vector2IntSO _windowResolution
     GlobalNamespace::Vector2IntSO*& dyn__windowResolution();
     // Get instance field reference: private UnityEngine.Vector2Int[] _windowResolutions
-    ::ArrayWrapper<UnityEngine::Vector2Int>& dyn__windowResolutions();
+    ::ArrayW<UnityEngine::Vector2Int>& dyn__windowResolutions();
     // public System.Void .ctor()
     // Offset: 0x1350CCC
     // Implemented from: ListSettingsController
@@ -77,7 +84,7 @@ namespace GlobalNamespace {
     ::Il2CppString* TextForValue(int idx);
   }; // WindowResolutionSettingsController
   #pragma pack(pop)
-  static check_size<sizeof(WindowResolutionSettingsController), 48 + sizeof(::ArrayWrapper<UnityEngine::Vector2Int>)> __GlobalNamespace_WindowResolutionSettingsControllerSizeCheck;
+  static check_size<sizeof(WindowResolutionSettingsController), 48 + sizeof(::ArrayW<UnityEngine::Vector2Int>)> __GlobalNamespace_WindowResolutionSettingsControllerSizeCheck;
   static_assert(sizeof(WindowResolutionSettingsController) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::WindowResolutionSettingsController*, "", "WindowResolutionSettingsController");

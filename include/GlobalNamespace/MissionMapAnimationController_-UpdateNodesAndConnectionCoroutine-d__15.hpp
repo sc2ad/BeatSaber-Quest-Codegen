@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -30,6 +31,11 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class MissionMapAnimationController::$UpdateNodesAndConnectionCoroutine$d__15 : public ::Il2CppObject/*, public System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -53,21 +59,22 @@ namespace GlobalNamespace {
     // private MissionNodeConnection[] <newEnabledConnection>5__2
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<GlobalNamespace::MissionNodeConnection*> $newEnabledConnection$5__2;
+    ::ArrayW<GlobalNamespace::MissionNodeConnection*> $newEnabledConnection$5__2;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MissionNodeConnection*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::MissionNodeConnection*>) == 0x8);
     // private MissionNodeConnection[] <>7__wrap2
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<GlobalNamespace::MissionNodeConnection*> $$7__wrap2;
+    ::ArrayW<GlobalNamespace::MissionNodeConnection*> $$7__wrap2;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MissionNodeConnection*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::MissionNodeConnection*>) == 0x8);
     // private System.Int32 <>7__wrap3
     // Size: 0x4
     // Offset: 0x38
     int $$7__wrap3;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
@@ -79,9 +86,9 @@ namespace GlobalNamespace {
     // Get instance field reference: public MissionMapAnimationController <>4__this
     GlobalNamespace::MissionMapAnimationController*& dyn_$$4__this();
     // Get instance field reference: private MissionNodeConnection[] <newEnabledConnection>5__2
-    ::ArrayWrapper<GlobalNamespace::MissionNodeConnection*>& dyn_$newEnabledConnection$5__2();
+    ::ArrayW<GlobalNamespace::MissionNodeConnection*>& dyn_$newEnabledConnection$5__2();
     // Get instance field reference: private MissionNodeConnection[] <>7__wrap2
-    ::ArrayWrapper<GlobalNamespace::MissionNodeConnection*>& dyn_$$7__wrap2();
+    ::ArrayW<GlobalNamespace::MissionNodeConnection*>& dyn_$$7__wrap2();
     // Get instance field reference: private System.Int32 <>7__wrap3
     int& dyn_$$7__wrap3();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()

@@ -29,6 +29,11 @@ namespace UnityEngine {
   // [UsedByNativeCodeAttribute] Offset: E70864
   struct Plane/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Vector3 m_Normal
     // Size: 0xC
     // Offset: 0x0
@@ -41,6 +46,7 @@ namespace UnityEngine {
     float m_Distance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: Plane
     constexpr Plane(UnityEngine::Vector3 m_Normal_ = {}, float m_Distance_ = {}) noexcept : m_Normal{m_Normal_}, m_Distance{m_Distance_} {}
     // Creating interface conversion operator: operator System::ValueType

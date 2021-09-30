@@ -20,6 +20,11 @@ namespace System::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   class RenamedEventArgs : public System::IO::FileSystemEventArgs {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String oldName
     // Size: 0x8
     // Offset: 0x28
@@ -32,6 +37,7 @@ namespace System::IO {
     ::Il2CppString* oldFullPath;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: private System.String oldName
     ::Il2CppString*& dyn_oldName();
     // Get instance field reference: private System.String oldFullPath

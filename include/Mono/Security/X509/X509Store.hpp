@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Mono::Security::X509
@@ -34,6 +35,11 @@ namespace Mono::Security::X509 {
   // [TokenAttribute] Offset: FFFFFFFF
   class X509Store : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String _storePath
     // Size: 0x8
     // Offset: 0x10
@@ -64,6 +70,7 @@ namespace Mono::Security::X509 {
     bool newFormat;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private System.String _storePath
     ::Il2CppString*& dyn__storePath();
     // Get instance field reference: private Mono.Security.X509.X509CertificateCollection _certificates
@@ -89,7 +96,7 @@ namespace Mono::Security::X509 {
     }
     // private System.Byte[] Load(System.String filename)
     // Offset: 0x25E13A0
-    ::ArrayWrapper<uint8_t> Load(::Il2CppString* filename);
+    ::ArrayW<uint8_t> Load(::Il2CppString* filename);
     // private Mono.Security.X509.X509Certificate LoadCertificate(System.String filename)
     // Offset: 0x25E1518
     Mono::Security::X509::X509Certificate* LoadCertificate(::Il2CppString* filename);
@@ -135,7 +142,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: Mono::Security::X509::X509Store::Load
 // Il2CppName: Load
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Mono::Security::X509::X509Store::*)(::Il2CppString*)>(&Mono::Security::X509::X509Store::Load)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Mono::Security::X509::X509Store::*)(::Il2CppString*)>(&Mono::Security::X509::X509Store::Load)> {
   static const MethodInfo* get() {
     static auto* filename = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Store*), "Load", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{filename});

@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -40,10 +41,10 @@ namespace GlobalNamespace {
     }
     // public System.Void Invoke(PlatformAchievementsModelSO/GetUnlockedAchievementsResult result, System.String[] unlockedAchievementsIds)
     // Offset: 0x12B0C34
-    void Invoke(GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsResult result, ::ArrayWrapper<::Il2CppString*> unlockedAchievementsIds);
+    void Invoke(GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsResult result, ::ArrayW<::Il2CppString*> unlockedAchievementsIds);
     // public System.IAsyncResult BeginInvoke(PlatformAchievementsModelSO/GetUnlockedAchievementsResult result, System.String[] unlockedAchievementsIds, System.AsyncCallback callback, System.Object object)
     // Offset: 0x12B0EDC
-    System::IAsyncResult* BeginInvoke(GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsResult result, ::ArrayWrapper<::Il2CppString*> unlockedAchievementsIds, System::AsyncCallback* callback, ::Il2CppObject* object);
+    System::IAsyncResult* BeginInvoke(GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsResult result, ::ArrayW<::Il2CppString*> unlockedAchievementsIds, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
     // Offset: 0x12B0F74
     void EndInvoke(System::IAsyncResult* result);
@@ -59,7 +60,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformAchievementsModelSO::GetUnlocked
 // Writing MetadataGetter for method: GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler::*)(GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsResult, ::ArrayWrapper<::Il2CppString*>)>(&GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler::*)(GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsResult, ::ArrayW<::Il2CppString*>)>(&GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler::Invoke)> {
   static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("", "PlatformAchievementsModelSO/GetUnlockedAchievementsResult")->byval_arg;
     static auto* unlockedAchievementsIds = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
@@ -69,7 +70,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler::*)(GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsResult, ::ArrayWrapper<::Il2CppString*>, System::AsyncCallback*, ::Il2CppObject*)>(&GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler::*)(GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsResult, ::ArrayW<::Il2CppString*>, System::AsyncCallback*, ::Il2CppObject*)>(&GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler::BeginInvoke)> {
   static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("", "PlatformAchievementsModelSO/GetUnlockedAchievementsResult")->byval_arg;
     static auto* unlockedAchievementsIds = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;

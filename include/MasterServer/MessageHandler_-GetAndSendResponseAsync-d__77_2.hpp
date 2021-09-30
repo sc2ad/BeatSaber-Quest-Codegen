@@ -53,6 +53,11 @@ namespace MasterServer {
   template<typename TRequest, typename TResponse>
   struct MessageHandler::$GetAndSendResponseAsync$d__77_2/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0
@@ -99,6 +104,7 @@ namespace MasterServer {
     // Size: 0xFFFFFFFF
     // Offset: 0x0
     System::Runtime::CompilerServices::TaskAwaiter_1<TResponse> $$u__1;
+    public:
     // Creating value type constructor for type: $GetAndSendResponseAsync$d__77_2
     constexpr $GetAndSendResponseAsync$d__77_2(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder $$t__builder_ = {}, System::Func_3<TRequest, MasterServer::MessageHandler::MessageOrigin, System::Threading::Tasks::Task_1<TResponse>*>* tryGetResponse_ = {}, TRequest request_ = {}, MasterServer::MessageHandler::MessageOrigin origin_ = {}, System::Func_1<TResponse>* getFailureResponse_ = {}, MasterServer::MessageHandler* $$4__this_ = {}, TResponse $response$5__2_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<TResponse> $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, tryGetResponse{tryGetResponse_}, request{request_}, origin{origin_}, getFailureResponse{getFailureResponse_}, $$4__this{$$4__this_}, $response$5__2{$response$5__2_}, $$u__1{$$u__1_} {}
     // Creating interface conversion operator: operator System::ValueType

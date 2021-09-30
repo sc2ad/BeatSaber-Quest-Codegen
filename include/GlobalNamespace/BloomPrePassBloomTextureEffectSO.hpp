@@ -35,6 +35,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BloomPrePassBloomTextureEffectSO : public GlobalNamespace::BloomPrePassEffectSO {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [SpaceAttribute] Offset: 0xEEBC78
     // private System.Single _radius
     // Size: 0x4
@@ -111,6 +116,7 @@ namespace GlobalNamespace {
     GlobalNamespace::PyramidBloomRendererSO* bloomRenderer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PyramidBloomRendererSO*) == 0x8);
+    public:
     // Get instance field reference: private System.Single _radius
     float& dyn__radius();
     // Get instance field reference: private System.Single _intensity

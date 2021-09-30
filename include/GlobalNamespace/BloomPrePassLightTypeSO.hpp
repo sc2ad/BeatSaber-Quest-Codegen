@@ -27,6 +27,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BloomPrePassLightTypeSO : public GlobalNamespace::PersistentScriptableObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 _renderingPriority
     // Size: 0x4
     // Offset: 0x18
@@ -41,6 +46,7 @@ namespace GlobalNamespace {
     UnityEngine::Material* material;
     // Field size check
     static_assert(sizeof(UnityEngine::Material*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Int32 _renderingPriority

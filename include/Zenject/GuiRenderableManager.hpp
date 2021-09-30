@@ -48,12 +48,18 @@ namespace Zenject {
     class $$c__DisplayClass1_0;
     // Nested type: Zenject::GuiRenderableManager::$$c
     class $$c;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.List`1<Zenject.GuiRenderableManager/Zenject.RenderableInfo> _renderables
     // Size: 0x8
     // Offset: 0x10
     System::Collections::Generic::List_1<Zenject::GuiRenderableManager::RenderableInfo*>* renderables;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<Zenject::GuiRenderableManager::RenderableInfo*>*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Collections::Generic::List_1<Zenject::GuiRenderableManager::RenderableInfo*>*
     constexpr operator System::Collections::Generic::List_1<Zenject::GuiRenderableManager::RenderableInfo*>*() const noexcept {
       return renderables;

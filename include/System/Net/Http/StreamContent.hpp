@@ -39,6 +39,11 @@ namespace System::Net::Http {
   // [TokenAttribute] Offset: FFFFFFFF
   class StreamContent : public System::Net::Http::HttpContent {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.IO.Stream content
     // Size: 0x8
     // Offset: 0x28
@@ -71,6 +76,7 @@ namespace System::Net::Http {
     bool contentCopied;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private readonly System.IO.Stream content
     System::IO::Stream*& dyn_content();
     // Get instance field reference: private readonly System.Int32 bufferSize

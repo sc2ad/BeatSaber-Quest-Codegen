@@ -20,6 +20,11 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_TreePrototypeInfo : public ::Il2CppObject/*, public HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_TreePrototypeInfo*>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.String _prefabPath
     // Size: 0x8
     // Offset: 0x10
@@ -32,6 +37,7 @@ namespace HoudiniEngineUnity {
     float bendfactor;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_TreePrototypeInfo*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_TreePrototypeInfo*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_TreePrototypeInfo*>*>(this);

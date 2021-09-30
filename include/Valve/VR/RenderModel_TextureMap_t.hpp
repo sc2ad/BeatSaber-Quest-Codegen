@@ -19,6 +19,11 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct RenderModel_TextureMap_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Char unWidth
     // Size: 0x2
     // Offset: 0x0
@@ -39,6 +44,7 @@ namespace Valve::VR {
     System::IntPtr rubTextureMapData;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
+    public:
     // Creating value type constructor for type: RenderModel_TextureMap_t
     constexpr RenderModel_TextureMap_t(::Il2CppChar unWidth_ = {}, ::Il2CppChar unHeight_ = {}, System::IntPtr rubTextureMapData_ = {}) noexcept : unWidth{unWidth_}, unHeight{unHeight_}, rubTextureMapData{rubTextureMapData_} {}
     // Creating interface conversion operator: operator System::ValueType

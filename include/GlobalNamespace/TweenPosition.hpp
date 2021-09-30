@@ -39,6 +39,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::TweenPosition::$AnimateToNewPosCoroutine$d__11
     class $AnimateToNewPosCoroutine$d__11;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Boolean _unscaledTime
     // Size: 0x1
     // Offset: 0x18
@@ -77,6 +82,7 @@ namespace GlobalNamespace {
     UnityEngine::Vector3 targetPos;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.Boolean _unscaledTime

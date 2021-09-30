@@ -20,6 +20,11 @@ namespace Assets::OVR::Scripts {
   // [TokenAttribute] Offset: FFFFFFFF
   class RangedRecord : public Assets::OVR::Scripts::Record {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Single value
     // Size: 0x4
     // Offset: 0x20
@@ -38,6 +43,7 @@ namespace Assets::OVR::Scripts {
     float max;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: public System.Single value
     float& dyn_value();
     // Get instance field reference: public System.Single min

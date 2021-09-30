@@ -19,6 +19,11 @@ namespace NetEase::Docker {
   // [TokenAttribute] Offset: FFFFFFFF
   struct RequestHighscoreData/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [DebuggerBrowsableAttribute] Offset: 0xEEDF78
     // private System.String <Track>k__BackingField
     // Size: 0x8
@@ -33,6 +38,7 @@ namespace NetEase::Docker {
     ::Il2CppString* HighscoreType;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Creating value type constructor for type: RequestHighscoreData
     constexpr RequestHighscoreData(::Il2CppString* Track_ = {}, ::Il2CppString* HighscoreType_ = {}) noexcept : Track{Track_}, HighscoreType{HighscoreType_} {}
     // Creating interface conversion operator: operator System::ValueType

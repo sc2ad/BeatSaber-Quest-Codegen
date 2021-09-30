@@ -27,12 +27,18 @@ namespace UnityEngine::Animations {
   // [NativeHeaderAttribute] Offset: E8C1C8
   struct AnimationPosePlayable/*, public System::ValueType, public System::IEquatable_1<UnityEngine::Animations::AnimationPosePlayable>, public UnityEngine::Playables::IPlayable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Playables.PlayableHandle m_Handle
     // Size: 0xC
     // Offset: 0x0
     UnityEngine::Playables::PlayableHandle m_Handle;
     // Field size check
     static_assert(sizeof(UnityEngine::Playables::PlayableHandle) == 0xC);
+    public:
     // Creating value type constructor for type: AnimationPosePlayable
     constexpr AnimationPosePlayable(UnityEngine::Playables::PlayableHandle m_Handle_ = {}) noexcept : m_Handle{m_Handle_} {}
     // Creating interface conversion operator: operator System::ValueType

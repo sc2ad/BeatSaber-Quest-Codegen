@@ -28,6 +28,11 @@ namespace JetBrains::Annotations {
   // [AttributeUsageAttribute] Offset: EADCB0
   class AspChildControlTypeAttribute : public System::Attribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String <TagName>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -40,6 +45,7 @@ namespace JetBrains::Annotations {
     System::Type* ControlType;
     // Field size check
     static_assert(sizeof(System::Type*) == 0x8);
+    public:
     // Get instance field reference: private System.String <TagName>k__BackingField
     ::Il2CppString*& dyn_$TagName$k__BackingField();
     // Get instance field reference: private System.Type <ControlType>k__BackingField

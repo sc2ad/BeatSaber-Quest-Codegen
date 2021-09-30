@@ -26,6 +26,11 @@ namespace System::Threading {
   // [TokenAttribute] Offset: FFFFFFFF
   struct CancellationCallbackCoreWorkArguments/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Threading.SparselyPopulatedArrayFragment`1<System.Threading.CancellationCallbackInfo> m_currArrayFragment
     // Size: 0x8
     // Offset: 0x0
@@ -38,6 +43,7 @@ namespace System::Threading {
     int m_currArrayIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: CancellationCallbackCoreWorkArguments
     constexpr CancellationCallbackCoreWorkArguments(System::Threading::SparselyPopulatedArrayFragment_1<System::Threading::CancellationCallbackInfo*>* m_currArrayFragment_ = {}, int m_currArrayIndex_ = {}) noexcept : m_currArrayFragment{m_currArrayFragment_}, m_currArrayIndex{m_currArrayIndex_} {}
     // Creating interface conversion operator: operator System::ValueType

@@ -27,6 +27,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRBone : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private OVRSkeleton/BoneId <Id>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -47,6 +52,7 @@ namespace GlobalNamespace {
     UnityEngine::Transform* Transform;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    public:
     // Get instance field reference: private OVRSkeleton/BoneId <Id>k__BackingField
     GlobalNamespace::OVRSkeleton::BoneId& dyn_$Id$k__BackingField();
     // Get instance field reference: private System.Int16 <ParentBoneIndex>k__BackingField

@@ -26,6 +26,11 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HAPI_GeoInfo/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public HoudiniEngineUnity.HAPI_GeoType type
     // Size: 0x4
     // Offset: 0x0
@@ -100,6 +105,7 @@ namespace HoudiniEngineUnity {
     int partCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: HAPI_GeoInfo
     constexpr HAPI_GeoInfo(HoudiniEngineUnity::HAPI_GeoType type_ = {}, int nameSH_ = {}, int nodeId_ = {}, bool isEditable_ = {}, bool isTemplated_ = {}, bool isDisplayGeo_ = {}, bool hasGeoChanged_ = {}, bool hasMaterialChanged_ = {}, int pointGroupCount_ = {}, int primitiveGroupCount_ = {}, int edgeGroupCount_ = {}, int partCount_ = {}) noexcept : type{type_}, nameSH{nameSH_}, nodeId{nodeId_}, isEditable{isEditable_}, isTemplated{isTemplated_}, isDisplayGeo{isDisplayGeo_}, hasGeoChanged{hasGeoChanged_}, hasMaterialChanged{hasMaterialChanged_}, pointGroupCount{pointGroupCount_}, primitiveGroupCount{primitiveGroupCount_}, edgeGroupCount{edgeGroupCount_}, partCount{partCount_} {}
     // Creating interface conversion operator: operator System::ValueType

@@ -26,12 +26,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MirroredDisappearingArrowController : public GlobalNamespace::DisappearingArrowControllerBase_1<GlobalNamespace::MirroredCubeNoteController*> {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private MirroredCubeNoteController _mirroredGameNoteController
     // Size: 0x8
     // Offset: 0x50
     GlobalNamespace::MirroredCubeNoteController* mirroredGameNoteController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MirroredCubeNoteController*) == 0x8);
+    public:
     // Get instance field reference: private MirroredCubeNoteController _mirroredGameNoteController
     GlobalNamespace::MirroredCubeNoteController*& dyn__mirroredGameNoteController();
     // protected MirroredCubeNoteController get_gameNoteController()

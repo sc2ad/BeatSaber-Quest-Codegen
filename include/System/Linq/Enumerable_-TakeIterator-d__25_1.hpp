@@ -31,6 +31,11 @@ namespace System::Linq {
   template<typename TSource>
   class Enumerable::$TakeIterator$d__25_1 : public ::Il2CppObject/*, public System::Collections::Generic::IEnumerable_1<TSource>, public System::Collections::Generic::IEnumerator_1<TSource>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0
@@ -77,6 +82,7 @@ namespace System::Linq {
     System::Collections::Generic::IEnumerator_1<TSource>* $$7__wrap1;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::IEnumerator_1<TSource>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<TSource>
     operator System::Collections::Generic::IEnumerable_1<TSource>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<TSource>*>(this);

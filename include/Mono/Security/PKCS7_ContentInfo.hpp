@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Mono::Security
@@ -27,6 +28,11 @@ namespace Mono::Security {
   // [TokenAttribute] Offset: FFFFFFFF
   class PKCS7::ContentInfo : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String contentType
     // Size: 0x8
     // Offset: 0x10
@@ -39,6 +45,7 @@ namespace Mono::Security {
     Mono::Security::ASN1* content;
     // Field size check
     static_assert(sizeof(Mono::Security::ASN1*) == 0x8);
+    public:
     // Get instance field reference: private System.String contentType
     ::Il2CppString*& dyn_contentType();
     // Get instance field reference: private Mono.Security.ASN1 content
@@ -68,7 +75,7 @@ namespace Mono::Security {
     // public System.Void .ctor(System.Byte[] data)
     // Offset: 0x1FA1914
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static PKCS7::ContentInfo* New_ctor(::ArrayWrapper<uint8_t> data) {
+    static PKCS7::ContentInfo* New_ctor(::ArrayW<uint8_t> data) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::PKCS7::ContentInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PKCS7::ContentInfo*, creationType>(data)));
     }

@@ -27,6 +27,11 @@ namespace System::Text {
   // [TokenAttribute] Offset: FFFFFFFF
   class InternalEncoderBestFitFallbackBuffer : public System::Text::EncoderFallbackBuffer {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Char cBestFit
     // Size: 0x2
     // Offset: 0x30
@@ -53,6 +58,7 @@ namespace System::Text {
     int iSize;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get static field: static private System.Object s_InternalSyncObject
     static ::Il2CppObject* _get_s_InternalSyncObject();
     // Set static field: static private System.Object s_InternalSyncObject

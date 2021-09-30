@@ -9,6 +9,7 @@
 #include "System/Net/Configuration/UnicodeDecodingConformance.hpp"
 // Including type: System.Net.Configuration.UnicodeEncodingConformance
 #include "System/Net/Configuration/UnicodeEncodingConformance.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net
@@ -36,9 +37,9 @@ namespace System::Net {
     // Nested type: System::Net::WebUtility::UrlDecoder
     class UrlDecoder;
     // Get static field: static private readonly System.Char[] _htmlEntityEndingChars
-    static ::ArrayWrapper<::Il2CppChar> _get__htmlEntityEndingChars();
+    static ::ArrayW<::Il2CppChar> _get__htmlEntityEndingChars();
     // Set static field: static private readonly System.Char[] _htmlEntityEndingChars
-    static void _set__htmlEntityEndingChars(::ArrayWrapper<::Il2CppChar> value);
+    static void _set__htmlEntityEndingChars(::ArrayW<::Il2CppChar> value);
     // Get static field: static private System.Net.Configuration.UnicodeDecodingConformance _htmlDecodeConformance
     static System::Net::Configuration::UnicodeDecodingConformance _get__htmlDecodeConformance();
     // Set static field: static private System.Net.Configuration.UnicodeDecodingConformance _htmlDecodeConformance

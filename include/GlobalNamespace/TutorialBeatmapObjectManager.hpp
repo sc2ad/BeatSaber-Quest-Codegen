@@ -49,6 +49,11 @@ namespace GlobalNamespace {
     char ___base_padding[0x7] = {};
     // Nested type: GlobalNamespace::TutorialBeatmapObjectManager::InitData
     class InitData;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private MemoryPoolContainer`1<TutorialNoteController> _tutorialNotePoolContainer
     // Size: 0x8
     // Offset: 0x68
@@ -73,6 +78,7 @@ namespace GlobalNamespace {
     GlobalNamespace::TutorialBeatmapObjectManager::InitData* initData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::TutorialBeatmapObjectManager::InitData*) == 0x8);
+    public:
     // Get instance field reference: private MemoryPoolContainer`1<TutorialNoteController> _tutorialNotePoolContainer
     GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::TutorialNoteController*>*& dyn__tutorialNotePoolContainer();
     // Get instance field reference: private MemoryPoolContainer`1<BombNoteController> _bombNotePoolContainer

@@ -22,6 +22,11 @@ namespace UnityEngine {
   // [AttributeUsageAttribute] Offset: E6D9FC
   class NativeClassAttribute : public System::Attribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [DebuggerBrowsableAttribute] Offset: 0xE6DF70
     // private System.String <QualifiedNativeName>k__BackingField
     // Size: 0x8
@@ -36,6 +41,7 @@ namespace UnityEngine {
     ::Il2CppString* Declaration;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: private System.String <QualifiedNativeName>k__BackingField
     ::Il2CppString*& dyn_$QualifiedNativeName$k__BackingField();
     // Get instance field reference: private System.String <Declaration>k__BackingField

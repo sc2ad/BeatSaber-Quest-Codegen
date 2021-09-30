@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -35,6 +36,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SteamVR_TestController : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.List`1<System.Int32> controllerIndices
     // Size: 0x8
     // Offset: 0x18
@@ -44,15 +50,15 @@ namespace GlobalNamespace {
     // private Valve.VR.EVRButtonId[] buttonIds
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<Valve::VR::EVRButtonId> buttonIds;
+    ::ArrayW<Valve::VR::EVRButtonId> buttonIds;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<Valve::VR::EVRButtonId>) == 0x8);
+    static_assert(sizeof(::ArrayW<Valve::VR::EVRButtonId>) == 0x8);
     // private Valve.VR.EVRButtonId[] axisIds
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<Valve::VR::EVRButtonId> axisIds;
+    ::ArrayW<Valve::VR::EVRButtonId> axisIds;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<Valve::VR::EVRButtonId>) == 0x8);
+    static_assert(sizeof(::ArrayW<Valve::VR::EVRButtonId>) == 0x8);
     // public UnityEngine.Transform point
     // Size: 0x8
     // Offset: 0x30
@@ -65,14 +71,15 @@ namespace GlobalNamespace {
     UnityEngine::Transform* pointer;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Collections.Generic.List`1<System.Int32> controllerIndices
     System::Collections::Generic::List_1<int>*& dyn_controllerIndices();
     // Get instance field reference: private Valve.VR.EVRButtonId[] buttonIds
-    ::ArrayWrapper<Valve::VR::EVRButtonId>& dyn_buttonIds();
+    ::ArrayW<Valve::VR::EVRButtonId>& dyn_buttonIds();
     // Get instance field reference: private Valve.VR.EVRButtonId[] axisIds
-    ::ArrayWrapper<Valve::VR::EVRButtonId>& dyn_axisIds();
+    ::ArrayW<Valve::VR::EVRButtonId>& dyn_axisIds();
     // Get instance field reference: public UnityEngine.Transform point
     UnityEngine::Transform*& dyn_point();
     // Get instance field reference: public UnityEngine.Transform pointer

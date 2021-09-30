@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -36,6 +37,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ParticleSystemEmitterEventEffect : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private BeatmapEventType _beatmapEvent
     // Size: 0x4
     // Offset: 0x18
@@ -47,9 +53,9 @@ namespace GlobalNamespace {
     // private UnityEngine.ParticleSystem[] _particleSystems
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<UnityEngine::ParticleSystem*> particleSystems;
+    ::ArrayW<UnityEngine::ParticleSystem*> particleSystems;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::ParticleSystem*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::ParticleSystem*>) == 0x8);
     // [InjectAttribute] Offset: 0xF06864
     // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
@@ -57,12 +63,13 @@ namespace GlobalNamespace {
     GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IBeatmapObjectCallbackController*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BeatmapEventType _beatmapEvent
     GlobalNamespace::BeatmapEventType& dyn__beatmapEvent();
     // Get instance field reference: private UnityEngine.ParticleSystem[] _particleSystems
-    ::ArrayWrapper<UnityEngine::ParticleSystem*>& dyn__particleSystems();
+    ::ArrayW<UnityEngine::ParticleSystem*>& dyn__particleSystems();
     // Get instance field reference: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     GlobalNamespace::IBeatmapObjectCallbackController*& dyn__beatmapObjectCallbackController();
     // protected System.Void Start()

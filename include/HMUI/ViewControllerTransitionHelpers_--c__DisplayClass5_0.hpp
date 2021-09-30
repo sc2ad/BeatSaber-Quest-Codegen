@@ -28,6 +28,11 @@ namespace HMUI {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class ViewControllerTransitionHelpers::$$c__DisplayClass5_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public HMUI.ViewController toPresentViewController
     // Size: 0x8
     // Offset: 0x10
@@ -54,6 +59,7 @@ namespace HMUI {
     float baseCanvasGroupAlpha;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: public HMUI.ViewController toPresentViewController
     HMUI::ViewController*& dyn_toPresentViewController();
     // Get instance field reference: public System.Single moveOffset

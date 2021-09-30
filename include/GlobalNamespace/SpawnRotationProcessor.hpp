@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -25,6 +26,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SpawnRotationProcessor : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Single _rotation
     // Size: 0x4
     // Offset: 0x10
@@ -36,13 +42,14 @@ namespace GlobalNamespace {
     // private readonly System.Single[] _rotations
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<float> rotations;
+    ::ArrayW<float> rotations;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<float>) == 0x8);
+    static_assert(sizeof(::ArrayW<float>) == 0x8);
+    public:
     // Get instance field reference: private System.Single _rotation
     float& dyn__rotation();
     // Get instance field reference: private readonly System.Single[] _rotations
-    ::ArrayWrapper<float>& dyn__rotations();
+    ::ArrayW<float>& dyn__rotations();
     // public System.Single get_rotation()
     // Offset: 0x110F668
     float get_rotation();
@@ -63,7 +70,7 @@ namespace GlobalNamespace {
     }
   }; // SpawnRotationProcessor
   #pragma pack(pop)
-  static check_size<sizeof(SpawnRotationProcessor), 24 + sizeof(::ArrayWrapper<float>)> __GlobalNamespace_SpawnRotationProcessorSizeCheck;
+  static check_size<sizeof(SpawnRotationProcessor), 24 + sizeof(::ArrayW<float>)> __GlobalNamespace_SpawnRotationProcessorSizeCheck;
   static_assert(sizeof(SpawnRotationProcessor) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SpawnRotationProcessor*, "", "SpawnRotationProcessor");

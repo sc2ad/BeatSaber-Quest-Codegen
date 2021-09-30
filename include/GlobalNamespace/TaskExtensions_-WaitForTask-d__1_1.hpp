@@ -40,6 +40,11 @@ namespace GlobalNamespace {
   template<typename T>
   struct TaskExtensions::$WaitForTask$d__1_1/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0
@@ -74,6 +79,7 @@ namespace GlobalNamespace {
     // Size: 0xFFFFFFFF
     // Offset: 0x0
     System::Runtime::CompilerServices::TaskAwaiter_1<T> $$u__1;
+    public:
     // Creating value type constructor for type: $WaitForTask$d__1_1
     constexpr $WaitForTask$d__1_1(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncVoidMethodBuilder $$t__builder_ = {}, System::Threading::Tasks::TaskCompletionSource_1<T>* tcs_ = {}, System::Threading::Tasks::Task_1<T>* task_ = {}, System::Threading::Tasks::TaskCompletionSource_1<T>* $$7__wrap1_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<T> $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, tcs{tcs_}, task{task_}, $$7__wrap1{$$7__wrap1_}, $$u__1{$$u__1_} {}
     // Creating interface conversion operator: operator System::ValueType

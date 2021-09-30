@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Security
@@ -55,7 +56,7 @@ namespace Org::BouncyCastle::Security {
     static Org::BouncyCastle::Crypto::IDigest* GetDigest(::Il2CppString* algorithm);
     // static public System.Byte[] DoFinal(Org.BouncyCastle.Crypto.IDigest digest)
     // Offset: 0x14CAEFC
-    static ::ArrayWrapper<uint8_t> DoFinal(Org::BouncyCastle::Crypto::IDigest* digest);
+    static ::ArrayW<uint8_t> DoFinal(Org::BouncyCastle::Crypto::IDigest* digest);
   }; // Org.BouncyCastle.Security.DigestUtilities
   #pragma pack(pop)
 }
@@ -91,7 +92,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Security::DigestUtilities::DoFinal
 // Il2CppName: DoFinal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(Org::BouncyCastle::Crypto::IDigest*)>(&Org::BouncyCastle::Security::DigestUtilities::DoFinal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(Org::BouncyCastle::Crypto::IDigest*)>(&Org::BouncyCastle::Security::DigestUtilities::DoFinal)> {
   static const MethodInfo* get() {
     static auto* digest = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Crypto", "IDigest")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Security::DigestUtilities*), "DoFinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{digest});

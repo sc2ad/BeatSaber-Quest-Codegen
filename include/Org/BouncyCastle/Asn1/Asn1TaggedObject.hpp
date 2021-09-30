@@ -26,6 +26,11 @@ namespace Org::BouncyCastle::Asn1 {
   // [TokenAttribute] Offset: FFFFFFFF
   class Asn1TaggedObject : public Org::BouncyCastle::Asn1::Asn1Object {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Int32 tagNo
     // Size: 0x4
     // Offset: 0x10
@@ -46,6 +51,7 @@ namespace Org::BouncyCastle::Asn1 {
     Org::BouncyCastle::Asn1::Asn1Encodable* obj;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::Asn1Encodable*) == 0x8);
+    public:
     // Get instance field reference: System.Int32 tagNo
     int& dyn_tagNo();
     // Get instance field reference: System.Boolean explicitly

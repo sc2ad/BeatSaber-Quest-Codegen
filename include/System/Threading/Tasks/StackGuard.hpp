@@ -20,12 +20,18 @@ namespace System::Threading::Tasks {
   // [TokenAttribute] Offset: FFFFFFFF
   class StackGuard : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 m_inliningDepth
     // Size: 0x4
     // Offset: 0x10
     int m_inliningDepth;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return m_inliningDepth;

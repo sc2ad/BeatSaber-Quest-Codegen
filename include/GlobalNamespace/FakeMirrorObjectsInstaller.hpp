@@ -37,6 +37,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::FakeMirrorObjectsInstaller::$$c
     class $$c;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [SpaceAttribute] Offset: 0xF0BE88
     // private MirroredCubeNoteController _mirroredGameNoteControllerPrefab
     // Size: 0x8
@@ -69,6 +74,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MirrorRendererGraphicsSettingsPresets* mirrorRendererGraphicsSettingsPresets;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MirrorRendererGraphicsSettingsPresets*) == 0x8);
+    public:
     // Get instance field reference: private MirroredCubeNoteController _mirroredGameNoteControllerPrefab
     GlobalNamespace::MirroredCubeNoteController*& dyn__mirroredGameNoteControllerPrefab();
     // Get instance field reference: private MirroredBombNoteController _mirroredBombNoteControllerPrefab

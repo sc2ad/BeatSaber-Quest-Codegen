@@ -28,12 +28,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LocalLeaderboardsModel::SavedLeaderboardsData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Collections.Generic.List`1<LocalLeaderboardsModel/LeaderboardData> _leaderboardsData
     // Size: 0x8
     // Offset: 0x10
     System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::LeaderboardData*>* leaderboardsData;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::LeaderboardData*>*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::LeaderboardData*>*
     constexpr operator System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::LeaderboardData*>*() const noexcept {
       return leaderboardsData;

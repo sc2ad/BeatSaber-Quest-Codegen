@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Security
@@ -40,12 +41,17 @@ namespace Org::BouncyCastle::Math {
   // [TokenAttribute] Offset: FFFFFFFF
   class BigInteger : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32[] magnitude
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<int> magnitude;
+    ::ArrayW<int> magnitude;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // private System.Int32 sign
     // Size: 0x4
     // Offset: 0x18
@@ -70,26 +76,27 @@ namespace Org::BouncyCastle::Math {
     int mQuote;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get static field: static readonly System.Int32[][] primeLists
-    static ::ArrayWrapper<::ArrayWrapper<int>> _get_primeLists();
+    static ::ArrayW<::ArrayW<int>> _get_primeLists();
     // Set static field: static readonly System.Int32[][] primeLists
-    static void _set_primeLists(::ArrayWrapper<::ArrayWrapper<int>> value);
+    static void _set_primeLists(::ArrayW<::ArrayW<int>> value);
     // Get static field: static readonly System.Int32[] primeProducts
-    static ::ArrayWrapper<int> _get_primeProducts();
+    static ::ArrayW<int> _get_primeProducts();
     // Set static field: static readonly System.Int32[] primeProducts
-    static void _set_primeProducts(::ArrayWrapper<int> value);
+    static void _set_primeProducts(::ArrayW<int> value);
     // Get static field: static private readonly System.Int32[] ZeroMagnitude
-    static ::ArrayWrapper<int> _get_ZeroMagnitude();
+    static ::ArrayW<int> _get_ZeroMagnitude();
     // Set static field: static private readonly System.Int32[] ZeroMagnitude
-    static void _set_ZeroMagnitude(::ArrayWrapper<int> value);
+    static void _set_ZeroMagnitude(::ArrayW<int> value);
     // Get static field: static private readonly System.Byte[] ZeroEncoding
-    static ::ArrayWrapper<uint8_t> _get_ZeroEncoding();
+    static ::ArrayW<uint8_t> _get_ZeroEncoding();
     // Set static field: static private readonly System.Byte[] ZeroEncoding
-    static void _set_ZeroEncoding(::ArrayWrapper<uint8_t> value);
+    static void _set_ZeroEncoding(::ArrayW<uint8_t> value);
     // Get static field: static private readonly Org.BouncyCastle.Math.BigInteger[] SMALL_CONSTANTS
-    static ::ArrayWrapper<Org::BouncyCastle::Math::BigInteger*> _get_SMALL_CONSTANTS();
+    static ::ArrayW<Org::BouncyCastle::Math::BigInteger*> _get_SMALL_CONSTANTS();
     // Set static field: static private readonly Org.BouncyCastle.Math.BigInteger[] SMALL_CONSTANTS
-    static void _set_SMALL_CONSTANTS(::ArrayWrapper<Org::BouncyCastle::Math::BigInteger*> value);
+    static void _set_SMALL_CONSTANTS(::ArrayW<Org::BouncyCastle::Math::BigInteger*> value);
     // Get static field: static public readonly Org.BouncyCastle.Math.BigInteger Zero
     static Org::BouncyCastle::Math::BigInteger* _get_Zero();
     // Set static field: static public readonly Org.BouncyCastle.Math.BigInteger Zero
@@ -115,9 +122,9 @@ namespace Org::BouncyCastle::Math {
     // Set static field: static public readonly Org.BouncyCastle.Math.BigInteger Ten
     static void _set_Ten(Org::BouncyCastle::Math::BigInteger* value);
     // Get static field: static private readonly System.Byte[] BitLengthTable
-    static ::ArrayWrapper<uint8_t> _get_BitLengthTable();
+    static ::ArrayW<uint8_t> _get_BitLengthTable();
     // Set static field: static private readonly System.Byte[] BitLengthTable
-    static void _set_BitLengthTable(::ArrayWrapper<uint8_t> value);
+    static void _set_BitLengthTable(::ArrayW<uint8_t> value);
     // Get static field: static private readonly Org.BouncyCastle.Math.BigInteger radix2
     static Org::BouncyCastle::Math::BigInteger* _get_radix2();
     // Set static field: static private readonly Org.BouncyCastle.Math.BigInteger radix2
@@ -155,11 +162,11 @@ namespace Org::BouncyCastle::Math {
     // Set static field: static private readonly Org.BouncyCastle.Security.SecureRandom RandomSource
     static void _set_RandomSource(Org::BouncyCastle::Security::SecureRandom* value);
     // Get static field: static private readonly System.Int32[] ExpWindowThresholds
-    static ::ArrayWrapper<int> _get_ExpWindowThresholds();
+    static ::ArrayW<int> _get_ExpWindowThresholds();
     // Set static field: static private readonly System.Int32[] ExpWindowThresholds
-    static void _set_ExpWindowThresholds(::ArrayWrapper<int> value);
+    static void _set_ExpWindowThresholds(::ArrayW<int> value);
     // Get instance field reference: private System.Int32[] magnitude
-    ::ArrayWrapper<int>& dyn_magnitude();
+    ::ArrayW<int>& dyn_magnitude();
     // Get instance field reference: private System.Int32 sign
     int& dyn_sign();
     // Get instance field reference: private System.Int32 nBits
@@ -189,7 +196,7 @@ namespace Org::BouncyCastle::Math {
     // private System.Void .ctor(System.Int32 signum, System.Int32[] mag, System.Boolean checkMag)
     // Offset: 0x13A7D74
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static BigInteger* New_ctor(int signum, ::ArrayWrapper<int> mag, bool checkMag) {
+    static BigInteger* New_ctor(int signum, ::ArrayW<int> mag, bool checkMag) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::BigInteger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BigInteger*, creationType>(signum, mag, checkMag)));
     }
@@ -210,28 +217,28 @@ namespace Org::BouncyCastle::Math {
     // public System.Void .ctor(System.Byte[] bytes)
     // Offset: 0x13A83FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static BigInteger* New_ctor(::ArrayWrapper<uint8_t> bytes) {
+    static BigInteger* New_ctor(::ArrayW<uint8_t> bytes) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::BigInteger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BigInteger*, creationType>(bytes)));
     }
     // public System.Void .ctor(System.Byte[] bytes, System.Int32 offset, System.Int32 length)
     // Offset: 0x13A8418
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static BigInteger* New_ctor(::ArrayWrapper<uint8_t> bytes, int offset, int length) {
+    static BigInteger* New_ctor(::ArrayW<uint8_t> bytes, int offset, int length) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::BigInteger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BigInteger*, creationType>(bytes, offset, length)));
     }
     // public System.Void .ctor(System.Int32 sign, System.Byte[] bytes)
     // Offset: 0x139AFEC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static BigInteger* New_ctor(int sign, ::ArrayWrapper<uint8_t> bytes) {
+    static BigInteger* New_ctor(int sign, ::ArrayW<uint8_t> bytes) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::BigInteger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BigInteger*, creationType>(sign, bytes)));
     }
     // public System.Void .ctor(System.Int32 sign, System.Byte[] bytes, System.Int32 offset, System.Int32 length)
     // Offset: 0x139A64C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static BigInteger* New_ctor(int sign, ::ArrayWrapper<uint8_t> bytes, int offset, int length) {
+    static BigInteger* New_ctor(int sign, ::ArrayW<uint8_t> bytes, int offset, int length) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::BigInteger::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BigInteger*, creationType>(sign, bytes, offset, length)));
     }
@@ -250,25 +257,25 @@ namespace Org::BouncyCastle::Math {
     static Org::BouncyCastle::Math::BigInteger* Arbitrary(int sizeInBits);
     // static private System.Int32[] MakeMagnitude(System.Byte[] bytes, System.Int32 offset, System.Int32 length)
     // Offset: 0x13A86A4
-    static ::ArrayWrapper<int> MakeMagnitude(::ArrayWrapper<uint8_t> bytes, int offset, int length);
+    static ::ArrayW<int> MakeMagnitude(::ArrayW<uint8_t> bytes, int offset, int length);
     // public Org.BouncyCastle.Math.BigInteger Abs()
     // Offset: 0x13A8848
     Org::BouncyCastle::Math::BigInteger* Abs();
     // static private System.Int32[] AddMagnitudes(System.Int32[] a, System.Int32[] b)
     // Offset: 0x13A88D4
-    static ::ArrayWrapper<int> AddMagnitudes(::ArrayWrapper<int> a, ::ArrayWrapper<int> b);
+    static ::ArrayW<int> AddMagnitudes(::ArrayW<int> a, ::ArrayW<int> b);
     // public Org.BouncyCastle.Math.BigInteger Add(Org.BouncyCastle.Math.BigInteger value)
     // Offset: 0x139A4E4
     Org::BouncyCastle::Math::BigInteger* Add(Org::BouncyCastle::Math::BigInteger* value);
     // private Org.BouncyCastle.Math.BigInteger AddToMagnitude(System.Int32[] magToAdd)
     // Offset: 0x13A899C
-    Org::BouncyCastle::Math::BigInteger* AddToMagnitude(::ArrayWrapper<int> magToAdd);
+    Org::BouncyCastle::Math::BigInteger* AddToMagnitude(::ArrayW<int> magToAdd);
     // static public System.Int32 BitCnt(System.Int32 i)
     // Offset: 0x13A8C5C
     static int BitCnt(int i);
     // static private System.Int32 CalcBitLength(System.Int32 sign, System.Int32 indx, System.Int32[] mag)
     // Offset: 0x13A8C90
-    static int CalcBitLength(int sign, int indx, ::ArrayWrapper<int> mag);
+    static int CalcBitLength(int sign, int indx, ::ArrayW<int> mag);
     // static System.Int32 BitLen(System.Int32 w)
     // Offset: 0x13A8DAC
     static int BitLen(int w);
@@ -277,22 +284,22 @@ namespace Org::BouncyCastle::Math {
     bool QuickPow2Check();
     // static private System.Int32 CompareTo(System.Int32 xIndx, System.Int32[] x, System.Int32 yIndx, System.Int32[] y)
     // Offset: 0x13A8F58
-    static int CompareTo(int xIndx, ::ArrayWrapper<int> x, int yIndx, ::ArrayWrapper<int> y);
+    static int CompareTo(int xIndx, ::ArrayW<int> x, int yIndx, ::ArrayW<int> y);
     // static private System.Int32 CompareNoLeadingZeroes(System.Int32 xIndx, System.Int32[] x, System.Int32 yIndx, System.Int32[] y)
     // Offset: 0x13A905C
-    static int CompareNoLeadingZeroes(int xIndx, ::ArrayWrapper<int> x, int yIndx, ::ArrayWrapper<int> y);
+    static int CompareNoLeadingZeroes(int xIndx, ::ArrayW<int> x, int yIndx, ::ArrayW<int> y);
     // public System.Int32 CompareTo(Org.BouncyCastle.Math.BigInteger value)
     // Offset: 0x1391760
     int CompareTo(Org::BouncyCastle::Math::BigInteger* value);
     // private System.Int32[] Divide(System.Int32[] x, System.Int32[] y)
     // Offset: 0x13A90F0
-    ::ArrayWrapper<int> Divide(::ArrayWrapper<int> x, ::ArrayWrapper<int> y);
+    ::ArrayW<int> Divide(::ArrayW<int> x, ::ArrayW<int> y);
     // public Org.BouncyCastle.Math.BigInteger Divide(Org.BouncyCastle.Math.BigInteger val)
     // Offset: 0x13A9AF0
     Org::BouncyCastle::Math::BigInteger* Divide(Org::BouncyCastle::Math::BigInteger* val);
     // public Org.BouncyCastle.Math.BigInteger[] DivideAndRemainder(Org.BouncyCastle.Math.BigInteger val)
     // Offset: 0x13A9CD0
-    ::ArrayWrapper<Org::BouncyCastle::Math::BigInteger*> DivideAndRemainder(Org::BouncyCastle::Math::BigInteger* val);
+    ::ArrayW<Org::BouncyCastle::Math::BigInteger*> DivideAndRemainder(Org::BouncyCastle::Math::BigInteger* val);
     // private System.Boolean IsEqualMagnitude(Org.BouncyCastle.Math.BigInteger x)
     // Offset: 0x13AA200
     bool IsEqualMagnitude(Org::BouncyCastle::Math::BigInteger* x);
@@ -337,28 +344,28 @@ namespace Org::BouncyCastle::Math {
     static Org::BouncyCastle::Math::BigInteger* ModPowMonty(Org::BouncyCastle::Math::BigInteger* b, Org::BouncyCastle::Math::BigInteger* e, Org::BouncyCastle::Math::BigInteger* m, bool convert);
     // static private System.Int32[] GetWindowList(System.Int32[] mag, System.Int32 extraBits)
     // Offset: 0x13AB994
-    static ::ArrayWrapper<int> GetWindowList(::ArrayWrapper<int> mag, int extraBits);
+    static ::ArrayW<int> GetWindowList(::ArrayW<int> mag, int extraBits);
     // static private System.Int32 CreateWindowEntry(System.Int32 mult, System.Int32 zeroes)
     // Offset: 0x13AC820
     static int CreateWindowEntry(int mult, int zeroes);
     // static private System.Int32[] Square(System.Int32[] w, System.Int32[] x)
     // Offset: 0x13AC83C
-    static ::ArrayWrapper<int> Square(::ArrayWrapper<int> w, ::ArrayWrapper<int> x);
+    static ::ArrayW<int> Square(::ArrayW<int> w, ::ArrayW<int> x);
     // static private System.Int32[] Multiply(System.Int32[] x, System.Int32[] y, System.Int32[] z)
     // Offset: 0x13AC9F8
-    static ::ArrayWrapper<int> Multiply(::ArrayWrapper<int> x, ::ArrayWrapper<int> y, ::ArrayWrapper<int> z);
+    static ::ArrayW<int> Multiply(::ArrayW<int> x, ::ArrayW<int> y, ::ArrayW<int> z);
     // private System.Int32 GetMQuote()
     // Offset: 0x13ABD78
     int GetMQuote();
     // static private System.Void MontgomeryReduce(System.Int32[] x, System.Int32[] m, System.UInt32 mDash)
     // Offset: 0x13AC66C
-    static void MontgomeryReduce(::ArrayWrapper<int> x, ::ArrayWrapper<int> m, uint mDash);
+    static void MontgomeryReduce(::ArrayW<int> x, ::ArrayW<int> m, uint mDash);
     // static private System.Void MultiplyMonty(System.Int32[] a, System.Int32[] x, System.Int32[] y, System.Int32[] m, System.UInt32 mDash, System.Boolean smallMontyModulus)
     // Offset: 0x13AC2B4
-    static void MultiplyMonty(::ArrayWrapper<int> a, ::ArrayWrapper<int> x, ::ArrayWrapper<int> y, ::ArrayWrapper<int> m, uint mDash, bool smallMontyModulus);
+    static void MultiplyMonty(::ArrayW<int> a, ::ArrayW<int> x, ::ArrayW<int> y, ::ArrayW<int> m, uint mDash, bool smallMontyModulus);
     // static private System.Void SquareMonty(System.Int32[] a, System.Int32[] x, System.Int32[] m, System.UInt32 mDash, System.Boolean smallMontyModulus)
     // Offset: 0x13ABE40
-    static void SquareMonty(::ArrayWrapper<int> a, ::ArrayWrapper<int> x, ::ArrayWrapper<int> m, uint mDash, bool smallMontyModulus);
+    static void SquareMonty(::ArrayW<int> a, ::ArrayW<int> x, ::ArrayW<int> m, uint mDash, bool smallMontyModulus);
     // static private System.UInt32 MultiplyMontyNIsOne(System.UInt32 x, System.UInt32 y, System.UInt32 m, System.UInt32 mDash)
     // Offset: 0x13ACB28
     static uint MultiplyMontyNIsOne(uint x, uint y, uint m, uint mDash);
@@ -382,13 +389,13 @@ namespace Org::BouncyCastle::Math {
     int Remainder(int m);
     // static private System.Int32[] Remainder(System.Int32[] x, System.Int32[] y)
     // Offset: 0x13ACBCC
-    static ::ArrayWrapper<int> Remainder(::ArrayWrapper<int> x, ::ArrayWrapper<int> y);
+    static ::ArrayW<int> Remainder(::ArrayW<int> x, ::ArrayW<int> y);
     // public Org.BouncyCastle.Math.BigInteger Remainder(Org.BouncyCastle.Math.BigInteger n)
     // Offset: 0x13AA540
     Org::BouncyCastle::Math::BigInteger* Remainder(Org::BouncyCastle::Math::BigInteger* n);
     // private System.Int32[] LastNBits(System.Int32 n)
     // Offset: 0x13A9FDC
-    ::ArrayWrapper<int> LastNBits(int n);
+    ::ArrayW<int> LastNBits(int n);
     // private Org.BouncyCastle.Math.BigInteger DivideWords(System.Int32 w)
     // Offset: 0x13ABBB8
     Org::BouncyCastle::Math::BigInteger* DivideWords(int w);
@@ -397,37 +404,37 @@ namespace Org::BouncyCastle::Math {
     Org::BouncyCastle::Math::BigInteger* RemainderWords(int w);
     // static private System.Int32[] ShiftLeft(System.Int32[] mag, System.Int32 n)
     // Offset: 0x13A965C
-    static ::ArrayWrapper<int> ShiftLeft(::ArrayWrapper<int> mag, int n);
+    static ::ArrayW<int> ShiftLeft(::ArrayW<int> mag, int n);
     // public Org.BouncyCastle.Math.BigInteger ShiftLeft(System.Int32 n)
     // Offset: 0x13A82A4
     Org::BouncyCastle::Math::BigInteger* ShiftLeft(int n);
     // static private System.Void ShiftRightInPlace(System.Int32 start, System.Int32[] mag, System.Int32 n)
     // Offset: 0x13A9994
-    static void ShiftRightInPlace(int start, ::ArrayWrapper<int> mag, int n);
+    static void ShiftRightInPlace(int start, ::ArrayW<int> mag, int n);
     // static private System.Void ShiftRightOneInPlace(System.Int32 start, System.Int32[] mag)
     // Offset: 0x13A98E0
-    static void ShiftRightOneInPlace(int start, ::ArrayWrapper<int> mag);
+    static void ShiftRightOneInPlace(int start, ::ArrayW<int> mag);
     // public Org.BouncyCastle.Math.BigInteger ShiftRight(System.Int32 n)
     // Offset: 0x1391F78
     Org::BouncyCastle::Math::BigInteger* ShiftRight(int n);
     // static private System.Int32[] Subtract(System.Int32 xStart, System.Int32[] x, System.Int32 yStart, System.Int32[] y)
     // Offset: 0x13A9818
-    static ::ArrayWrapper<int> Subtract(int xStart, ::ArrayWrapper<int> x, int yStart, ::ArrayWrapper<int> y);
+    static ::ArrayW<int> Subtract(int xStart, ::ArrayW<int> x, int yStart, ::ArrayW<int> y);
     // public Org.BouncyCastle.Math.BigInteger Subtract(Org.BouncyCastle.Math.BigInteger n)
     // Offset: 0x1391824
     Org::BouncyCastle::Math::BigInteger* Subtract(Org::BouncyCastle::Math::BigInteger* n);
     // static private System.Int32[] doSubBigLil(System.Int32[] bigMag, System.Int32[] lilMag)
     // Offset: 0x13AA404
-    static ::ArrayWrapper<int> doSubBigLil(::ArrayWrapper<int> bigMag, ::ArrayWrapper<int> lilMag);
+    static ::ArrayW<int> doSubBigLil(::ArrayW<int> bigMag, ::ArrayW<int> lilMag);
     // public System.Byte[] ToByteArray()
     // Offset: 0x13ACFC0
-    ::ArrayWrapper<uint8_t> ToByteArray();
+    ::ArrayW<uint8_t> ToByteArray();
     // public System.Byte[] ToByteArrayUnsigned()
     // Offset: 0x139DD30
-    ::ArrayWrapper<uint8_t> ToByteArrayUnsigned();
+    ::ArrayW<uint8_t> ToByteArrayUnsigned();
     // private System.Byte[] ToByteArray(System.Boolean unsigned)
     // Offset: 0x13ACFC8
-    ::ArrayWrapper<uint8_t> ToByteArray(bool _unsigned);
+    ::ArrayW<uint8_t> ToByteArray(bool _unsigned);
     // public System.String ToString(System.Int32 radix)
     // Offset: 0x13AD3A4
     ::Il2CppString* ToString(int radix);
@@ -590,7 +597,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::BigInteger::MakeMagnitude
 // Il2CppName: MakeMagnitude
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<int> (*)(::ArrayWrapper<uint8_t>, int, int)>(&Org::BouncyCastle::Math::BigInteger::MakeMagnitude)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int> (*)(::ArrayW<uint8_t>, int, int)>(&Org::BouncyCastle::Math::BigInteger::MakeMagnitude)> {
   static const MethodInfo* get() {
     static auto* bytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -609,7 +616,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::BigInteger::AddMagnitudes
 // Il2CppName: AddMagnitudes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<int> (*)(::ArrayWrapper<int>, ::ArrayWrapper<int>)>(&Org::BouncyCastle::Math::BigInteger::AddMagnitudes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int> (*)(::ArrayW<int>, ::ArrayW<int>)>(&Org::BouncyCastle::Math::BigInteger::AddMagnitudes)> {
   static const MethodInfo* get() {
     static auto* a = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     static auto* b = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
@@ -628,7 +635,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::BigInteger::AddToMagnitude
 // Il2CppName: AddToMagnitude
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (Org::BouncyCastle::Math::BigInteger::*)(::ArrayWrapper<int>)>(&Org::BouncyCastle::Math::BigInteger::AddToMagnitude)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (Org::BouncyCastle::Math::BigInteger::*)(::ArrayW<int>)>(&Org::BouncyCastle::Math::BigInteger::AddToMagnitude)> {
   static const MethodInfo* get() {
     static auto* magToAdd = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::BigInteger*), "AddToMagnitude", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{magToAdd});
@@ -646,7 +653,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::BigInteger::CalcBitLength
 // Il2CppName: CalcBitLength
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, int, ::ArrayWrapper<int>)>(&Org::BouncyCastle::Math::BigInteger::CalcBitLength)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, int, ::ArrayW<int>)>(&Org::BouncyCastle::Math::BigInteger::CalcBitLength)> {
   static const MethodInfo* get() {
     static auto* sign = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* indx = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -674,7 +681,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::BigInteger::CompareTo
 // Il2CppName: CompareTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, ::ArrayWrapper<int>, int, ::ArrayWrapper<int>)>(&Org::BouncyCastle::Math::BigInteger::CompareTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, ::ArrayW<int>, int, ::ArrayW<int>)>(&Org::BouncyCastle::Math::BigInteger::CompareTo)> {
   static const MethodInfo* get() {
     static auto* xIndx = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
@@ -686,7 +693,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::BigInteger::CompareNoLeadingZeroes
 // Il2CppName: CompareNoLeadingZeroes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, ::ArrayWrapper<int>, int, ::ArrayWrapper<int>)>(&Org::BouncyCastle::Math::BigInteger::CompareNoLeadingZeroes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, ::ArrayW<int>, int, ::ArrayW<int>)>(&Org::BouncyCastle::Math::BigInteger::CompareNoLeadingZeroes)> {
   static const MethodInfo* get() {
     static auto* xIndx = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
@@ -707,7 +714,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::BigInteger::Divide
 // Il2CppName: Divide
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<int> (Org::BouncyCastle::Math::BigInteger::*)(::ArrayWrapper<int>, ::ArrayWrapper<int>)>(&Org::BouncyCastle::Math::BigInteger::Divide)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int> (Org::BouncyCastle::Math::BigInteger::*)(::ArrayW<int>, ::ArrayW<int>)>(&Org::BouncyCastle::Math::BigInteger::Divide)> {
   static const MethodInfo* get() {
     static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     static auto* y = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
@@ -726,7 +733,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::BigInteger::DivideAndRemainder
 // Il2CppName: DivideAndRemainder
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<Org::BouncyCastle::Math::BigInteger*> (Org::BouncyCastle::Math::BigInteger::*)(Org::BouncyCastle::Math::BigInteger*)>(&Org::BouncyCastle::Math::BigInteger::DivideAndRemainder)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Org::BouncyCastle::Math::BigInteger*> (Org::BouncyCastle::Math::BigInteger::*)(Org::BouncyCastle::Math::BigInteger*)>(&Org::BouncyCastle::Math::BigInteger::DivideAndRemainder)> {
   static const MethodInfo* get() {
     static auto* val = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math", "BigInteger")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::BigInteger*), "DivideAndRemainder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{val});
@@ -871,7 +878,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::BigInteger::GetWindowList
 // Il2CppName: GetWindowList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<int> (*)(::ArrayWrapper<int>, int)>(&Org::BouncyCastle::Math::BigInteger::GetWindowList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int> (*)(::ArrayW<int>, int)>(&Org::BouncyCastle::Math::BigInteger::GetWindowList)> {
   static const MethodInfo* get() {
     static auto* mag = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     static auto* extraBits = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -891,7 +898,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::BigInteger::Square
 // Il2CppName: Square
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<int> (*)(::ArrayWrapper<int>, ::ArrayWrapper<int>)>(&Org::BouncyCastle::Math::BigInteger::Square)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int> (*)(::ArrayW<int>, ::ArrayW<int>)>(&Org::BouncyCastle::Math::BigInteger::Square)> {
   static const MethodInfo* get() {
     static auto* w = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
@@ -901,7 +908,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::BigInteger::Multiply
 // Il2CppName: Multiply
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<int> (*)(::ArrayWrapper<int>, ::ArrayWrapper<int>, ::ArrayWrapper<int>)>(&Org::BouncyCastle::Math::BigInteger::Multiply)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int> (*)(::ArrayW<int>, ::ArrayW<int>, ::ArrayW<int>)>(&Org::BouncyCastle::Math::BigInteger::Multiply)> {
   static const MethodInfo* get() {
     static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     static auto* y = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
@@ -920,7 +927,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::BigInteger::MontgomeryReduce
 // Il2CppName: MontgomeryReduce
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<int>, ::ArrayWrapper<int>, uint)>(&Org::BouncyCastle::Math::BigInteger::MontgomeryReduce)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<int>, ::ArrayW<int>, uint)>(&Org::BouncyCastle::Math::BigInteger::MontgomeryReduce)> {
   static const MethodInfo* get() {
     static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     static auto* m = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
@@ -931,7 +938,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::BigInteger::MultiplyMonty
 // Il2CppName: MultiplyMonty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<int>, ::ArrayWrapper<int>, ::ArrayWrapper<int>, ::ArrayWrapper<int>, uint, bool)>(&Org::BouncyCastle::Math::BigInteger::MultiplyMonty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<int>, ::ArrayW<int>, ::ArrayW<int>, ::ArrayW<int>, uint, bool)>(&Org::BouncyCastle::Math::BigInteger::MultiplyMonty)> {
   static const MethodInfo* get() {
     static auto* a = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
@@ -945,7 +952,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::BigInteger::SquareMonty
 // Il2CppName: SquareMonty
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<int>, ::ArrayWrapper<int>, ::ArrayWrapper<int>, uint, bool)>(&Org::BouncyCastle::Math::BigInteger::SquareMonty)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<int>, ::ArrayW<int>, ::ArrayW<int>, uint, bool)>(&Org::BouncyCastle::Math::BigInteger::SquareMonty)> {
   static const MethodInfo* get() {
     static auto* a = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
@@ -1021,7 +1028,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::BigInteger::Remainder
 // Il2CppName: Remainder
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<int> (*)(::ArrayWrapper<int>, ::ArrayWrapper<int>)>(&Org::BouncyCastle::Math::BigInteger::Remainder)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int> (*)(::ArrayW<int>, ::ArrayW<int>)>(&Org::BouncyCastle::Math::BigInteger::Remainder)> {
   static const MethodInfo* get() {
     static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     static auto* y = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
@@ -1040,7 +1047,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::BigInteger::LastNBits
 // Il2CppName: LastNBits
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<int> (Org::BouncyCastle::Math::BigInteger::*)(int)>(&Org::BouncyCastle::Math::BigInteger::LastNBits)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int> (Org::BouncyCastle::Math::BigInteger::*)(int)>(&Org::BouncyCastle::Math::BigInteger::LastNBits)> {
   static const MethodInfo* get() {
     static auto* n = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::BigInteger*), "LastNBits", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{n});
@@ -1067,7 +1074,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::BigInteger::ShiftLeft
 // Il2CppName: ShiftLeft
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<int> (*)(::ArrayWrapper<int>, int)>(&Org::BouncyCastle::Math::BigInteger::ShiftLeft)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int> (*)(::ArrayW<int>, int)>(&Org::BouncyCastle::Math::BigInteger::ShiftLeft)> {
   static const MethodInfo* get() {
     static auto* mag = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     static auto* n = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1086,7 +1093,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::BigInteger::ShiftRightInPlace
 // Il2CppName: ShiftRightInPlace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::ArrayWrapper<int>, int)>(&Org::BouncyCastle::Math::BigInteger::ShiftRightInPlace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::ArrayW<int>, int)>(&Org::BouncyCastle::Math::BigInteger::ShiftRightInPlace)> {
   static const MethodInfo* get() {
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* mag = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
@@ -1097,7 +1104,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(in
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::BigInteger::ShiftRightOneInPlace
 // Il2CppName: ShiftRightOneInPlace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::ArrayWrapper<int>)>(&Org::BouncyCastle::Math::BigInteger::ShiftRightOneInPlace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::ArrayW<int>)>(&Org::BouncyCastle::Math::BigInteger::ShiftRightOneInPlace)> {
   static const MethodInfo* get() {
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* mag = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
@@ -1116,7 +1123,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::BigInteger::Subtract
 // Il2CppName: Subtract
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<int> (*)(int, ::ArrayWrapper<int>, int, ::ArrayWrapper<int>)>(&Org::BouncyCastle::Math::BigInteger::Subtract)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int> (*)(int, ::ArrayW<int>, int, ::ArrayW<int>)>(&Org::BouncyCastle::Math::BigInteger::Subtract)> {
   static const MethodInfo* get() {
     static auto* xStart = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
@@ -1137,7 +1144,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::BigInteger::doSubBigLil
 // Il2CppName: doSubBigLil
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<int> (*)(::ArrayWrapper<int>, ::ArrayWrapper<int>)>(&Org::BouncyCastle::Math::BigInteger::doSubBigLil)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int> (*)(::ArrayW<int>, ::ArrayW<int>)>(&Org::BouncyCastle::Math::BigInteger::doSubBigLil)> {
   static const MethodInfo* get() {
     static auto* bigMag = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     static auto* lilMag = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
@@ -1147,7 +1154,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::BigInteger::ToByteArray
 // Il2CppName: ToByteArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Math::BigInteger::*)()>(&Org::BouncyCastle::Math::BigInteger::ToByteArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Org::BouncyCastle::Math::BigInteger::*)()>(&Org::BouncyCastle::Math::BigInteger::ToByteArray)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::BigInteger*), "ToByteArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1155,7 +1162,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::BigInteger::ToByteArrayUnsigned
 // Il2CppName: ToByteArrayUnsigned
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Math::BigInteger::*)()>(&Org::BouncyCastle::Math::BigInteger::ToByteArrayUnsigned)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Org::BouncyCastle::Math::BigInteger::*)()>(&Org::BouncyCastle::Math::BigInteger::ToByteArrayUnsigned)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::BigInteger*), "ToByteArrayUnsigned", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1163,7 +1170,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::BigInteger::ToByteArray
 // Il2CppName: ToByteArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Math::BigInteger::*)(bool)>(&Org::BouncyCastle::Math::BigInteger::ToByteArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Org::BouncyCastle::Math::BigInteger::*)(bool)>(&Org::BouncyCastle::Math::BigInteger::ToByteArray)> {
   static const MethodInfo* get() {
     static auto* _unsigned = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::BigInteger*), "ToByteArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{_unsigned});

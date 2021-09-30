@@ -34,12 +34,18 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class ConventionBindInfo::$$c__DisplayClass6_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Reflection.Assembly assembly
     // Size: 0x8
     // Offset: 0x10
     System::Reflection::Assembly* assembly;
     // Field size check
     static_assert(sizeof(System::Reflection::Assembly*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Reflection::Assembly*
     constexpr operator System::Reflection::Assembly*() const noexcept {
       return assembly;

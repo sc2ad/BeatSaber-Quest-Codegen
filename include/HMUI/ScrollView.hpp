@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -88,12 +89,18 @@ namespace HMUI {
     // [TokenAttribute] Offset: FFFFFFFF
     struct ScrollType/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: ScrollType
       constexpr ScrollType(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -134,12 +141,18 @@ namespace HMUI {
     // [TokenAttribute] Offset: FFFFFFFF
     struct ScrollDirection/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: ScrollDirection
       constexpr ScrollDirection(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -192,12 +205,18 @@ namespace HMUI {
     // [TokenAttribute] Offset: FFFFFFFF
     struct ScrollViewDirection/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: ScrollViewDirection
       constexpr ScrollViewDirection(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -226,6 +245,11 @@ namespace HMUI {
     #pragma pack(pop)
     static check_size<sizeof(ScrollView::ScrollViewDirection), 0 + sizeof(int)> __HMUI_ScrollView_ScrollViewDirectionSizeCheck;
     static_assert(sizeof(ScrollView::ScrollViewDirection) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.RectTransform _viewport
     // Size: 0x8
     // Offset: 0x18
@@ -349,9 +373,9 @@ namespace HMUI {
     // private System.Single[] _scrollFocusPositions
     // Size: 0x8
     // Offset: 0x88
-    ::ArrayWrapper<float> scrollFocusPositions;
+    ::ArrayW<float> scrollFocusPositions;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<float>) == 0x8);
+    static_assert(sizeof(::ArrayW<float>) == 0x8);
     // private HMUI.EventSystemListener _eventSystemListener
     // Size: 0x8
     // Offset: 0x90
@@ -370,6 +394,7 @@ namespace HMUI {
     float joystickScrollStartTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.RectTransform _viewport
@@ -407,7 +432,7 @@ namespace HMUI {
     // Get instance field reference: private System.Single _destinationPos
     float& dyn__destinationPos();
     // Get instance field reference: private System.Single[] _scrollFocusPositions
-    ::ArrayWrapper<float>& dyn__scrollFocusPositions();
+    ::ArrayW<float>& dyn__scrollFocusPositions();
     // Get instance field reference: private HMUI.EventSystemListener _eventSystemListener
     HMUI::EventSystemListener*& dyn__eventSystemListener();
     // Get instance field reference: private HMUI.ScrollView/HMUI.ScrollDirection _lastJoystickScrollDirection

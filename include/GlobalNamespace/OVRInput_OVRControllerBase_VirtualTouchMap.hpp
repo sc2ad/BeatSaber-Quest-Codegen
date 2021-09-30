@@ -22,6 +22,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRInput::OVRControllerBase::VirtualTouchMap : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public OVRInput/RawTouch None
     // Size: 0x4
     // Offset: 0x10
@@ -100,6 +105,7 @@ namespace GlobalNamespace {
     GlobalNamespace::OVRInput::RawTouch SecondaryTouchpad;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OVRInput::RawTouch) == 0x4);
+    public:
     // Get instance field reference: public OVRInput/RawTouch None
     GlobalNamespace::OVRInput::RawTouch& dyn_None();
     // Get instance field reference: public OVRInput/RawTouch One

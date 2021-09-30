@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Valve::VR
@@ -48,10 +49,10 @@ namespace Valve::VR {
     }
     // public Valve.VR.EVRScreenshotError Invoke(in Valve.VR.EVRScreenshotType[] pSupportedTypes, System.Int32 numTypes)
     // Offset: 0x1ED5000
-    Valve::VR::EVRScreenshotError Invoke(ByRef<::ArrayWrapper<Valve::VR::EVRScreenshotType>> pSupportedTypes, int numTypes);
+    Valve::VR::EVRScreenshotError Invoke(ByRef<::ArrayW<Valve::VR::EVRScreenshotType>> pSupportedTypes, int numTypes);
     // public System.IAsyncResult BeginInvoke(in Valve.VR.EVRScreenshotType[] pSupportedTypes, System.Int32 numTypes, System.AsyncCallback callback, System.Object object)
     // Offset: 0x1ED5278
-    System::IAsyncResult* BeginInvoke(ByRef<::ArrayWrapper<Valve::VR::EVRScreenshotType>> pSupportedTypes, int numTypes, System::AsyncCallback* callback, ::Il2CppObject* object);
+    System::IAsyncResult* BeginInvoke(ByRef<::ArrayW<Valve::VR::EVRScreenshotType>> pSupportedTypes, int numTypes, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public Valve.VR.EVRScreenshotError EndInvoke(System.IAsyncResult result)
     // Offset: 0x1ED5314
     Valve::VR::EVRScreenshotError EndInvoke(System::IAsyncResult* result);
@@ -67,7 +68,7 @@ DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRScreenshots::_HookScreenshot*, "Valve.VR", 
 // Writing MetadataGetter for method: Valve::VR::IVRScreenshots::_HookScreenshot::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRScreenshotError (Valve::VR::IVRScreenshots::_HookScreenshot::*)(ByRef<::ArrayWrapper<Valve::VR::EVRScreenshotType>>, int)>(&Valve::VR::IVRScreenshots::_HookScreenshot::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRScreenshotError (Valve::VR::IVRScreenshots::_HookScreenshot::*)(ByRef<::ArrayW<Valve::VR::EVRScreenshotType>>, int)>(&Valve::VR::IVRScreenshots::_HookScreenshot::Invoke)> {
   static const MethodInfo* get() {
     static auto* pSupportedTypes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Valve.VR", "EVRScreenshotType"), 1)->this_arg;
     static auto* numTypes = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -77,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::IVRScreenshots::_HookScreenshot::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRScreenshots::_HookScreenshot::*)(ByRef<::ArrayWrapper<Valve::VR::EVRScreenshotType>>, int, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRScreenshots::_HookScreenshot::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRScreenshots::_HookScreenshot::*)(ByRef<::ArrayW<Valve::VR::EVRScreenshotType>>, int, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRScreenshots::_HookScreenshot::BeginInvoke)> {
   static const MethodInfo* get() {
     static auto* pSupportedTypes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Valve.VR", "EVRScreenshotType"), 1)->this_arg;
     static auto* numTypes = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

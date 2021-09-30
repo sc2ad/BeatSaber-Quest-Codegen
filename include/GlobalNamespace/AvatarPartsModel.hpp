@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -42,6 +43,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class AvatarPartsModel : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly AvatarPartCollection`1<AvatarMeshPartSO> <headTopCollection>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -87,15 +93,16 @@ namespace GlobalNamespace {
     // private readonly SkinColorSO[] <skinColors>k__BackingField
     // Size: 0x8
     // Offset: 0x48
-    ::ArrayWrapper<GlobalNamespace::SkinColorSO*> skinColors;
+    ::ArrayW<GlobalNamespace::SkinColorSO*> skinColors;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::SkinColorSO*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::SkinColorSO*>) == 0x8);
     // private readonly System.Collections.Generic.Dictionary`2<System.String,System.Int32> _indexById
     // Size: 0x8
     // Offset: 0x50
     System::Collections::Generic::Dictionary_2<::Il2CppString*, int>* indexById;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, int>*) == 0x8);
+    public:
     // Get instance field reference: private readonly AvatarPartCollection`1<AvatarMeshPartSO> <headTopCollection>k__BackingField
     GlobalNamespace::AvatarPartCollection_1<GlobalNamespace::AvatarMeshPartSO*>*& dyn_$headTopCollection$k__BackingField();
     // Get instance field reference: private readonly AvatarPartCollection`1<AvatarSpritePartSO> <eyesCollection>k__BackingField
@@ -111,7 +118,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly AvatarPartCollection`1<AvatarMeshPartSO> <clothesCollection>k__BackingField
     GlobalNamespace::AvatarPartCollection_1<GlobalNamespace::AvatarMeshPartSO*>*& dyn_$clothesCollection$k__BackingField();
     // Get instance field reference: private readonly SkinColorSO[] <skinColors>k__BackingField
-    ::ArrayWrapper<GlobalNamespace::SkinColorSO*>& dyn_$skinColors$k__BackingField();
+    ::ArrayW<GlobalNamespace::SkinColorSO*>& dyn_$skinColors$k__BackingField();
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.String,System.Int32> _indexById
     System::Collections::Generic::Dictionary_2<::Il2CppString*, int>*& dyn__indexById();
     // public AvatarPartCollection`1<AvatarMeshPartSO> get_headTopCollection()
@@ -137,7 +144,7 @@ namespace GlobalNamespace {
     GlobalNamespace::AvatarPartCollection_1<GlobalNamespace::AvatarMeshPartSO*>* get_clothesCollection();
     // public SkinColorSO[] get_skinColors()
     // Offset: 0x124B3A8
-    ::ArrayWrapper<GlobalNamespace::SkinColorSO*> get_skinColors();
+    ::ArrayW<GlobalNamespace::SkinColorSO*> get_skinColors();
     // public System.Void .ctor(AvatarPartsModelSO avatarPartData, SkinColorSetSO skinColorSet)
     // Offset: 0x124B3B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -220,7 +227,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::AvatarPartsModel::get_skinColors
 // Il2CppName: get_skinColors
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::SkinColorSO*> (GlobalNamespace::AvatarPartsModel::*)()>(&GlobalNamespace::AvatarPartsModel::get_skinColors)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<GlobalNamespace::SkinColorSO*> (GlobalNamespace::AvatarPartsModel::*)()>(&GlobalNamespace::AvatarPartsModel::get_skinColors)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AvatarPartsModel*), "get_skinColors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

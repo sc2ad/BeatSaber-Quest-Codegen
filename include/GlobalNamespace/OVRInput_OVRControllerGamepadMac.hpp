@@ -36,12 +36,18 @@ namespace GlobalNamespace {
     struct AxisGPC;
     // Nested type: GlobalNamespace::OVRInput::OVRControllerGamepadMac::ButtonGPC
     struct ButtonGPC;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean initialized
     // Size: 0x1
     // Offset: 0x101
     bool initialized;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating conversion operator: operator bool
     constexpr operator bool() const noexcept {
       return initialized;

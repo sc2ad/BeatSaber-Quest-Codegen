@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -37,17 +38,23 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::BloomPrePassBackgroundColorsGradient::Element
     class Element;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private BloomPrePassBackgroundColorsGradient/Element[] _elements
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayWrapper<GlobalNamespace::BloomPrePassBackgroundColorsGradient::Element*> elements;
+    ::ArrayW<GlobalNamespace::BloomPrePassBackgroundColorsGradient::Element*> elements;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::BloomPrePassBackgroundColorsGradient::Element*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::BloomPrePassBackgroundColorsGradient::Element*>) == 0x8);
+    public:
     // Get instance field reference: private BloomPrePassBackgroundColorsGradient/Element[] _elements
-    ::ArrayWrapper<GlobalNamespace::BloomPrePassBackgroundColorsGradient::Element*>& dyn__elements();
+    ::ArrayW<GlobalNamespace::BloomPrePassBackgroundColorsGradient::Element*>& dyn__elements();
     // public BloomPrePassBackgroundColorsGradient/Element[] get_elements()
     // Offset: 0x1E22BD4
-    ::ArrayWrapper<GlobalNamespace::BloomPrePassBackgroundColorsGradient::Element*> get_elements();
+    ::ArrayW<GlobalNamespace::BloomPrePassBackgroundColorsGradient::Element*> get_elements();
     // private UnityEngine.Color EvaluateColor(System.Single t)
     // Offset: 0x1E22C48
     UnityEngine::Color EvaluateColor(float t);
@@ -73,7 +80,7 @@ namespace GlobalNamespace {
     void UpdatePixels(Unity::Collections::NativeArray_1<UnityEngine::Color32> pixels, int numberOfPixels);
   }; // BloomPrePassBackgroundColorsGradient
   #pragma pack(pop)
-  static check_size<sizeof(BloomPrePassBackgroundColorsGradient), 64 + sizeof(::ArrayWrapper<GlobalNamespace::BloomPrePassBackgroundColorsGradient::Element*>)> __GlobalNamespace_BloomPrePassBackgroundColorsGradientSizeCheck;
+  static check_size<sizeof(BloomPrePassBackgroundColorsGradient), 64 + sizeof(::ArrayW<GlobalNamespace::BloomPrePassBackgroundColorsGradient::Element*>)> __GlobalNamespace_BloomPrePassBackgroundColorsGradientSizeCheck;
   static_assert(sizeof(BloomPrePassBackgroundColorsGradient) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassBackgroundColorsGradient*, "", "BloomPrePassBackgroundColorsGradient");
@@ -81,7 +88,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BloomPrePassBackgroundColorsGradient*, "
 // Writing MetadataGetter for method: GlobalNamespace::BloomPrePassBackgroundColorsGradient::get_elements
 // Il2CppName: get_elements
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::BloomPrePassBackgroundColorsGradient::Element*> (GlobalNamespace::BloomPrePassBackgroundColorsGradient::*)()>(&GlobalNamespace::BloomPrePassBackgroundColorsGradient::get_elements)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<GlobalNamespace::BloomPrePassBackgroundColorsGradient::Element*> (GlobalNamespace::BloomPrePassBackgroundColorsGradient::*)()>(&GlobalNamespace::BloomPrePassBackgroundColorsGradient::get_elements)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BloomPrePassBackgroundColorsGradient*), "get_elements", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

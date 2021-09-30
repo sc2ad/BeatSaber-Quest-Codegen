@@ -32,12 +32,18 @@ namespace System::Security {
   // [ComVisibleAttribute] Offset: E5EF1C
   class SecurityException : public System::SystemException {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String permissionState
     // Size: 0x8
     // Offset: 0x88
     ::Il2CppString* permissionState;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return permissionState;

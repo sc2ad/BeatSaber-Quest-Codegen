@@ -18,6 +18,11 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class LocalDataStoreElement : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Object m_value
     // Size: 0x8
     // Offset: 0x10
@@ -30,6 +35,7 @@ namespace System {
     int64_t m_cookie;
     // Field size check
     static_assert(sizeof(int64_t) == 0x8);
+    public:
     // Get instance field reference: private System.Object m_value
     ::Il2CppObject*& dyn_m_value();
     // Get instance field reference: private System.Int64 m_cookie

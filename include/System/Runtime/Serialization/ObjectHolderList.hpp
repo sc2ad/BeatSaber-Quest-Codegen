@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Serialization
@@ -27,20 +28,26 @@ namespace System::Runtime::Serialization {
   // [TokenAttribute] Offset: FFFFFFFF
   class ObjectHolderList : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Runtime.Serialization.ObjectHolder[] m_values
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<System::Runtime::Serialization::ObjectHolder*> m_values;
+    ::ArrayW<System::Runtime::Serialization::ObjectHolder*> m_values;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<System::Runtime::Serialization::ObjectHolder*>) == 0x8);
+    static_assert(sizeof(::ArrayW<System::Runtime::Serialization::ObjectHolder*>) == 0x8);
     // System.Int32 m_count
     // Size: 0x4
     // Offset: 0x18
     int m_count;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: System.Runtime.Serialization.ObjectHolder[] m_values
-    ::ArrayWrapper<System::Runtime::Serialization::ObjectHolder*>& dyn_m_values();
+    ::ArrayW<System::Runtime::Serialization::ObjectHolder*>& dyn_m_values();
     // Get instance field reference: System.Int32 m_count
     int& dyn_m_count();
     // System.Int32 get_Version()

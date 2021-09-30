@@ -19,6 +19,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct OVRPlugin::Fovf/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Single UpTan
     // Size: 0x4
     // Offset: 0x0
@@ -43,6 +48,7 @@ namespace GlobalNamespace {
     float RightTan;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: Fovf
     constexpr Fovf(float UpTan_ = {}, float DownTan_ = {}, float LeftTan_ = {}, float RightTan_ = {}) noexcept : UpTan{UpTan_}, DownTan{DownTan_}, LeftTan{LeftTan_}, RightTan{RightTan_} {}
     // Creating interface conversion operator: operator System::ValueType

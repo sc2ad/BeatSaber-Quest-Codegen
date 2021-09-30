@@ -22,6 +22,11 @@ namespace UnityEngine::TextCore {
   // [UsedByNativeCodeAttribute] Offset: EA55B8
   struct GlyphRect/*, public System::ValueType, public System::IEquatable_1<UnityEngine::TextCore::GlyphRect>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [NativeNameAttribute] Offset: 0xEA5CF4
     // private System.Int32 m_X
     // Size: 0x4
@@ -50,6 +55,7 @@ namespace UnityEngine::TextCore {
     int m_Height;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: GlyphRect
     constexpr GlyphRect(int m_X_ = {}, int m_Y_ = {}, int m_Width_ = {}, int m_Height_ = {}) noexcept : m_X{m_X_}, m_Y{m_Y_}, m_Width{m_Width_}, m_Height{m_Height_} {}
     // Creating interface conversion operator: operator System::ValueType

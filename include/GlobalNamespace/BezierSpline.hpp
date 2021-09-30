@@ -40,6 +40,11 @@ namespace GlobalNamespace {
     struct ComputeControlPointsResults;
     // Nested type: GlobalNamespace::BezierSpline::$$c
     class $$c;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Collections.Generic.List`1<BezierCurve> _segments
     // Size: 0x8
     // Offset: 0x10
@@ -52,6 +57,7 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<UnityEngine::Vector3>* sourceDataPoints;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::Vector3>*) == 0x8);
+    public:
     // Get instance field reference: private readonly System.Collections.Generic.List`1<BezierCurve> _segments
     System::Collections::Generic::List_1<GlobalNamespace::BezierCurve>*& dyn__segments();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<UnityEngine.Vector3> _sourceDataPoints

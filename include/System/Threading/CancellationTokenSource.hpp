@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Threading
@@ -57,6 +58,11 @@ namespace System::Threading {
   // [ComVisibleAttribute] Offset: E5E730
   class CancellationTokenSource : public ::Il2CppObject/*, public System::IDisposable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Threading.ManualResetEvent m_kernelEvent
     // Size: 0x8
     // Offset: 0x10
@@ -66,9 +72,9 @@ namespace System::Threading {
     // private System.Threading.SparselyPopulatedArray`1<System.Threading.CancellationCallbackInfo>[] m_registeredCallbacksLists
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<System::Threading::SparselyPopulatedArray_1<System::Threading::CancellationCallbackInfo*>*> m_registeredCallbacksLists;
+    ::ArrayW<System::Threading::SparselyPopulatedArray_1<System::Threading::CancellationCallbackInfo*>*> m_registeredCallbacksLists;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<System::Threading::SparselyPopulatedArray_1<System::Threading::CancellationCallbackInfo*>*>) == 0x8);
+    static_assert(sizeof(::ArrayW<System::Threading::SparselyPopulatedArray_1<System::Threading::CancellationCallbackInfo*>*>) == 0x8);
     // private System.Int32 m_state
     // Size: 0x4
     // Offset: 0x20
@@ -92,9 +98,9 @@ namespace System::Threading {
     // private System.Threading.CancellationTokenRegistration[] m_linkingRegistrations
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<System::Threading::CancellationTokenRegistration> m_linkingRegistrations;
+    ::ArrayW<System::Threading::CancellationTokenRegistration> m_linkingRegistrations;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<System::Threading::CancellationTokenRegistration>) == 0x8);
+    static_assert(sizeof(::ArrayW<System::Threading::CancellationTokenRegistration>) == 0x8);
     // private System.Threading.CancellationCallbackInfo m_executingCallback
     // Size: 0x8
     // Offset: 0x38
@@ -107,6 +113,7 @@ namespace System::Threading {
     System::Threading::Timer* m_timer;
     // Field size check
     static_assert(sizeof(System::Threading::Timer*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
@@ -158,7 +165,7 @@ namespace System::Threading {
     // Get instance field reference: private System.Threading.ManualResetEvent m_kernelEvent
     System::Threading::ManualResetEvent*& dyn_m_kernelEvent();
     // Get instance field reference: private System.Threading.SparselyPopulatedArray`1<System.Threading.CancellationCallbackInfo>[] m_registeredCallbacksLists
-    ::ArrayWrapper<System::Threading::SparselyPopulatedArray_1<System::Threading::CancellationCallbackInfo*>*>& dyn_m_registeredCallbacksLists();
+    ::ArrayW<System::Threading::SparselyPopulatedArray_1<System::Threading::CancellationCallbackInfo*>*>& dyn_m_registeredCallbacksLists();
     // Get instance field reference: private System.Int32 m_state
     int& dyn_m_state();
     // Get instance field reference: private System.Int32 m_threadIDExecutingCallbacks
@@ -166,7 +173,7 @@ namespace System::Threading {
     // Get instance field reference: private System.Boolean m_disposed
     bool& dyn_m_disposed();
     // Get instance field reference: private System.Threading.CancellationTokenRegistration[] m_linkingRegistrations
-    ::ArrayWrapper<System::Threading::CancellationTokenRegistration>& dyn_m_linkingRegistrations();
+    ::ArrayW<System::Threading::CancellationTokenRegistration>& dyn_m_linkingRegistrations();
     // Get instance field reference: private System.Threading.CancellationCallbackInfo m_executingCallback
     System::Threading::CancellationCallbackInfo*& dyn_m_executingCallback();
     // Get instance field reference: private System.Threading.Timer m_timer

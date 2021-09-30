@@ -50,6 +50,11 @@ namespace Mono::Net::Security {
     struct $ProcessOperation$d__24;
     // Nested type: Mono::Net::Security::AsyncProtocolRequest::$InnerRead$d__25
     struct $InnerRead$d__25;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Mono.Net.Security.MobileAuthenticatedStream <Parent>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -96,6 +101,7 @@ namespace Mono::Net::Security {
     ::Il2CppObject* locker;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
+    public:
     // Get instance field reference: private readonly Mono.Net.Security.MobileAuthenticatedStream <Parent>k__BackingField
     Mono::Net::Security::MobileAuthenticatedStream*& dyn_$Parent$k__BackingField();
     // Get instance field reference: private readonly System.Boolean <RunSynchronously>k__BackingField

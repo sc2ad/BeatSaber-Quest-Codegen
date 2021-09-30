@@ -21,12 +21,18 @@ namespace UnityEngine {
   // [AttributeUsageAttribute] Offset: E7218C
   class MinAttribute : public UnityEngine::PropertyAttribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly System.Single min
     // Size: 0x4
     // Offset: 0x10
     float min;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating conversion operator: operator float
     constexpr operator float() const noexcept {
       return min;

@@ -35,12 +35,18 @@ namespace LiteNetLib::Utils {
   template<typename TProperty>
   class NetSerializer::CustomTypeClass_1 : public LiteNetLib::Utils::NetSerializer::CustomType {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Func`1<TProperty> _constructor
     // Size: 0x8
     // Offset: 0x0
     System::Func_1<TProperty>* constructor;
     // Field size check
     static_assert(sizeof(System::Func_1<TProperty>*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Func_1<TProperty>*
     constexpr operator System::Func_1<TProperty>*() const noexcept {
       return constructor;

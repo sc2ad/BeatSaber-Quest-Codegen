@@ -35,6 +35,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SetSaberFakeGlowColor : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Color _tintColor
     // Size: 0x10
     // Offset: 0x18
@@ -68,6 +73,7 @@ namespace GlobalNamespace {
     GlobalNamespace::SaberType saberType;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SaberType) == 0x4);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Color _tintColor

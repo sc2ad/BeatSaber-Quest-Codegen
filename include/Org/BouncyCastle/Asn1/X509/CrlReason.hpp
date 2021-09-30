@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: Org.BouncyCastle.Asn1.X509
 namespace Org::BouncyCastle::Asn1::X509 {
@@ -21,9 +22,9 @@ namespace Org::BouncyCastle::Asn1::X509 {
   class CrlReason : public Org::BouncyCastle::Asn1::DerEnumerated {
     public:
     // Get static field: static private readonly System.String[] ReasonString
-    static ::ArrayWrapper<::Il2CppString*> _get_ReasonString();
+    static ::ArrayW<::Il2CppString*> _get_ReasonString();
     // Set static field: static private readonly System.String[] ReasonString
-    static void _set_ReasonString(::ArrayWrapper<::Il2CppString*> value);
+    static void _set_ReasonString(::ArrayW<::Il2CppString*> value);
     // public System.Void .ctor(Org.BouncyCastle.Asn1.DerEnumerated reason)
     // Offset: 0x1BB76D4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

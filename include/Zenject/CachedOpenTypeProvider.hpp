@@ -48,6 +48,11 @@ namespace Zenject {
     public:
     // Nested type: Zenject::CachedOpenTypeProvider::$$c
     class $$c;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Zenject.IProvider _creator
     // Size: 0x8
     // Offset: 0x10
@@ -60,6 +65,7 @@ namespace Zenject {
     System::Collections::Generic::Dictionary_2<System::Type*, Zenject::CachedProvider*>* providerMap;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<System::Type*, Zenject::CachedProvider*>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator Zenject::IProvider
     operator Zenject::IProvider() noexcept {
       return *reinterpret_cast<Zenject::IProvider*>(this);

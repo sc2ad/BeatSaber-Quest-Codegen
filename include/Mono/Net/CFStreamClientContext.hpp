@@ -18,6 +18,11 @@ namespace Mono::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   struct CFStreamClientContext/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.IntPtr Version
     // Size: 0x8
     // Offset: 0x0
@@ -48,6 +53,7 @@ namespace Mono::Net {
     System::IntPtr CopyDescription;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
+    public:
     // Creating value type constructor for type: CFStreamClientContext
     constexpr CFStreamClientContext(System::IntPtr Version_ = {}, System::IntPtr Info_ = {}, System::IntPtr Retain_ = {}, System::IntPtr Release_ = {}, System::IntPtr CopyDescription_ = {}) noexcept : Version{Version_}, Info{Info_}, Retain{Retain_}, Release{Release_}, CopyDescription{CopyDescription_} {}
     // Creating interface conversion operator: operator System::ValueType

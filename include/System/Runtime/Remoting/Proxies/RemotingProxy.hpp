@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Remoting::Messaging
@@ -52,6 +53,11 @@ namespace System::Runtime::Remoting::Proxies {
   // [TokenAttribute] Offset: FFFFFFFF
   class RemotingProxy : public System::Runtime::Remoting::Proxies::RealProxy/*, public System::Runtime::Remoting::IRemotingTypeInfo*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Runtime.Remoting.Messaging.IMessageSink _sink
     // Size: 0x8
     // Offset: 0x50
@@ -72,6 +78,7 @@ namespace System::Runtime::Remoting::Proxies {
     System::Runtime::Remoting::Messaging::ConstructionCall* ctorCall;
     // Field size check
     static_assert(sizeof(System::Runtime::Remoting::Messaging::ConstructionCall*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Runtime::Remoting::IRemotingTypeInfo
     operator System::Runtime::Remoting::IRemotingTypeInfo() noexcept {
       return *reinterpret_cast<System::Runtime::Remoting::IRemotingTypeInfo*>(this);
@@ -96,7 +103,7 @@ namespace System::Runtime::Remoting::Proxies {
     // System.Void .ctor(System.Type type, System.String activationUrl, System.Object[] activationAttributes)
     // Offset: 0x1C22190
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static RemotingProxy* New_ctor(System::Type* type, ::Il2CppString* activationUrl, ::ArrayWrapper<::Il2CppObject*> activationAttributes) {
+    static RemotingProxy* New_ctor(System::Type* type, ::Il2CppString* activationUrl, ::ArrayW<::Il2CppObject*> activationAttributes) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Runtime::Remoting::Proxies::RemotingProxy::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RemotingProxy*, creationType>(type, activationUrl, activationAttributes)));
     }

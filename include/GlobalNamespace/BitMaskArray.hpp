@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: LiteNetLib::Utils
@@ -31,6 +32,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BitMaskArray : public ::Il2CppObject/*, public LiteNetLib::Utils::INetSerializable, public GlobalNamespace::IBitMask_1<GlobalNamespace::BitMaskArray*>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Int32 <bitCount>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -42,9 +48,10 @@ namespace GlobalNamespace {
     // private readonly System.UInt64[] _data
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<uint64_t> data;
+    ::ArrayW<uint64_t> data;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint64_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint64_t>) == 0x8);
+    public:
     // Creating interface conversion operator: operator LiteNetLib::Utils::INetSerializable
     operator LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<LiteNetLib::Utils::INetSerializable*>(this);
@@ -56,7 +63,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Int32 <bitCount>k__BackingField
     int& dyn_$bitCount$k__BackingField();
     // Get instance field reference: private readonly System.UInt64[] _data
-    ::ArrayWrapper<uint64_t>& dyn__data();
+    ::ArrayW<uint64_t>& dyn__data();
     // public System.Int32 get_bitCount()
     // Offset: 0x256E570
     int get_bitCount();
@@ -89,7 +96,7 @@ namespace GlobalNamespace {
     ::Il2CppString* ToString();
   }; // BitMaskArray
   #pragma pack(pop)
-  static check_size<sizeof(BitMaskArray), 24 + sizeof(::ArrayWrapper<uint64_t>)> __GlobalNamespace_BitMaskArraySizeCheck;
+  static check_size<sizeof(BitMaskArray), 24 + sizeof(::ArrayW<uint64_t>)> __GlobalNamespace_BitMaskArraySizeCheck;
   static_assert(sizeof(BitMaskArray) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BitMaskArray*, "", "BitMaskArray");

@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -44,7 +45,7 @@ namespace NUnit::Framework::Internal::Builders {
     }
     // public System.Collections.Generic.IEnumerable`1<NUnit.Framework.Interfaces.ITestCaseData> GetTestCases(System.Collections.IEnumerable[] sources)
     // Offset: 0x19376D4
-    System::Collections::Generic::IEnumerable_1<NUnit::Framework::Interfaces::ITestCaseData*>* GetTestCases(::ArrayWrapper<System::Collections::IEnumerable*> sources);
+    System::Collections::Generic::IEnumerable_1<NUnit::Framework::Interfaces::ITestCaseData*>* GetTestCases(::ArrayW<System::Collections::IEnumerable*> sources);
     // public System.Void .ctor()
     // Offset: 0x19287E8
     // Implemented from: System.Object
@@ -62,7 +63,7 @@ DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Builders::CombinatorialStrate
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Builders::CombinatorialStrategy::GetTestCases
 // Il2CppName: GetTestCases
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<NUnit::Framework::Interfaces::ITestCaseData*>* (NUnit::Framework::Internal::Builders::CombinatorialStrategy::*)(::ArrayWrapper<System::Collections::IEnumerable*>)>(&NUnit::Framework::Internal::Builders::CombinatorialStrategy::GetTestCases)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<NUnit::Framework::Interfaces::ITestCaseData*>* (NUnit::Framework::Internal::Builders::CombinatorialStrategy::*)(::ArrayW<System::Collections::IEnumerable*>)>(&NUnit::Framework::Internal::Builders::CombinatorialStrategy::GetTestCases)> {
   static const MethodInfo* get() {
     static auto* sources = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Collections", "IEnumerable"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::Builders::CombinatorialStrategy*), "GetTestCases", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sources});

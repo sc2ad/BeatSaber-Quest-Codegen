@@ -46,6 +46,11 @@ namespace Org::BouncyCastle::Asn1::X509 {
   // [TokenAttribute] Offset: FFFFFFFF
   class TbsCertificateStructure : public Org::BouncyCastle::Asn1::Asn1Encodable {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // Org.BouncyCastle.Asn1.Asn1Sequence seq
     // Size: 0x8
     // Offset: 0x10
@@ -118,6 +123,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
     Org::BouncyCastle::Asn1::X509::X509Extensions* extensions;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::X509::X509Extensions*) == 0x8);
+    public:
     // Get instance field reference: Org.BouncyCastle.Asn1.Asn1Sequence seq
     Org::BouncyCastle::Asn1::Asn1Sequence*& dyn_seq();
     // Get instance field reference: Org.BouncyCastle.Asn1.DerInteger version

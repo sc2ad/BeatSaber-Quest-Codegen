@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::TestRunner::TestLaunchers
@@ -27,22 +28,28 @@ namespace UnityEngine::TestRunner::TestLaunchers {
   // [TokenAttribute] Offset: FFFFFFFF
   class RemoteTestResultDataWithTestData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.TestRunner.TestLaunchers.RemoteTestResultData[] results
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData*> results;
+    ::ArrayW<UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData*> results;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData*>) == 0x8);
     // public UnityEngine.TestRunner.TestLaunchers.RemoteTestData[] tests
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<UnityEngine::TestRunner::TestLaunchers::RemoteTestData*> tests;
+    ::ArrayW<UnityEngine::TestRunner::TestLaunchers::RemoteTestData*> tests;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::TestRunner::TestLaunchers::RemoteTestData*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::TestRunner::TestLaunchers::RemoteTestData*>) == 0x8);
+    public:
     // Get instance field reference: public UnityEngine.TestRunner.TestLaunchers.RemoteTestResultData[] results
-    ::ArrayWrapper<UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData*>& dyn_results();
+    ::ArrayW<UnityEngine::TestRunner::TestLaunchers::RemoteTestResultData*>& dyn_results();
     // Get instance field reference: public UnityEngine.TestRunner.TestLaunchers.RemoteTestData[] tests
-    ::ArrayWrapper<UnityEngine::TestRunner::TestLaunchers::RemoteTestData*>& dyn_tests();
+    ::ArrayW<UnityEngine::TestRunner::TestLaunchers::RemoteTestData*>& dyn_tests();
     // public System.Void .ctor()
     // Offset: 0x166B42C
     // Implemented from: System.Object
@@ -54,7 +61,7 @@ namespace UnityEngine::TestRunner::TestLaunchers {
     }
   }; // UnityEngine.TestRunner.TestLaunchers.RemoteTestResultDataWithTestData
   #pragma pack(pop)
-  static check_size<sizeof(RemoteTestResultDataWithTestData), 24 + sizeof(::ArrayWrapper<UnityEngine::TestRunner::TestLaunchers::RemoteTestData*>)> __UnityEngine_TestRunner_TestLaunchers_RemoteTestResultDataWithTestDataSizeCheck;
+  static check_size<sizeof(RemoteTestResultDataWithTestData), 24 + sizeof(::ArrayW<UnityEngine::TestRunner::TestLaunchers::RemoteTestData*>)> __UnityEngine_TestRunner_TestLaunchers_RemoteTestResultDataWithTestDataSizeCheck;
   static_assert(sizeof(RemoteTestResultDataWithTestData) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestRunner::TestLaunchers::RemoteTestResultDataWithTestData*, "UnityEngine.TestRunner.TestLaunchers", "RemoteTestResultDataWithTestData");

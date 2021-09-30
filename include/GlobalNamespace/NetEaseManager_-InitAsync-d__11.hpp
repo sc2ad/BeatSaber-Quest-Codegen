@@ -25,6 +25,11 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   struct NetEaseManager::$InitAsync$d__11/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0
@@ -45,6 +50,7 @@ namespace GlobalNamespace {
     // Size: 0xFFFFFFFF
     // Offset: 0x28
     System::Runtime::CompilerServices::TaskAwaiter_1<NetEase::Docker::InitializeData> $$u__1;
+    public:
     // Creating value type constructor for type: $InitAsync$d__11
     constexpr $InitAsync$d__11(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<NetEase::Docker::InitializeData> $$t__builder_ = {}, GlobalNamespace::NetEaseManager* $$4__this_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<NetEase::Docker::InitializeData> $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, $$u__1{$$u__1_} {}
     // Creating interface conversion operator: operator System::ValueType

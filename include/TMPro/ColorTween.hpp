@@ -45,12 +45,18 @@ namespace TMPro {
     // [TokenAttribute] Offset: FFFFFFFF
     struct ColorTweenMode/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: ColorTweenMode
       constexpr ColorTweenMode(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -85,6 +91,11 @@ namespace TMPro {
     #pragma pack(pop)
     static check_size<sizeof(ColorTween::ColorTweenMode), 0 + sizeof(int)> __TMPro_ColorTween_ColorTweenModeSizeCheck;
     static_assert(sizeof(ColorTween::ColorTweenMode) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private TMPro.ColorTween/TMPro.ColorTweenCallback m_Target
     // Size: 0x8
     // Offset: 0x0
@@ -121,6 +132,7 @@ namespace TMPro {
     bool m_IgnoreTimeScale;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating value type constructor for type: ColorTween
     constexpr ColorTween(TMPro::ColorTween::ColorTweenCallback* m_Target_ = {}, UnityEngine::Color m_StartColor_ = {}, UnityEngine::Color m_TargetColor_ = {}, TMPro::ColorTween::ColorTweenMode m_TweenMode_ = {}, float m_Duration_ = {}, bool m_IgnoreTimeScale_ = {}) noexcept : m_Target{m_Target_}, m_StartColor{m_StartColor_}, m_TargetColor{m_TargetColor_}, m_TweenMode{m_TweenMode_}, m_Duration{m_Duration_}, m_IgnoreTimeScale{m_IgnoreTimeScale_} {}
     // Creating interface conversion operator: operator System::ValueType

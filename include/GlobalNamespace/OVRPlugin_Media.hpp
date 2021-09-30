@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -112,10 +113,10 @@ namespace GlobalNamespace {
     static bool GetMrcFrameImageFlipped();
     // static public System.Boolean EncodeMrcFrame(System.IntPtr textureHandle, System.IntPtr fgTextureHandle, System.Single[] audioData, System.Int32 audioFrames, System.Int32 audioChannels, System.Double timestamp, System.Double poseTime, ref System.Int32 outSyncId)
     // Offset: 0x17FD378
-    static bool EncodeMrcFrame(System::IntPtr textureHandle, System::IntPtr fgTextureHandle, ::ArrayWrapper<float> audioData, int audioFrames, int audioChannels, double timestamp, double poseTime, ByRef<int> outSyncId);
+    static bool EncodeMrcFrame(System::IntPtr textureHandle, System::IntPtr fgTextureHandle, ::ArrayW<float> audioData, int audioFrames, int audioChannels, double timestamp, double poseTime, ByRef<int> outSyncId);
     // static public System.Boolean EncodeMrcFrame(UnityEngine.RenderTexture frame, System.Single[] audioData, System.Int32 audioFrames, System.Int32 audioChannels, System.Double timestamp, System.Double poseTime, ref System.Int32 outSyncId)
     // Offset: 0x17FDACC
-    static bool EncodeMrcFrame(UnityEngine::RenderTexture* frame, ::ArrayWrapper<float> audioData, int audioFrames, int audioChannels, double timestamp, double poseTime, ByRef<int> outSyncId);
+    static bool EncodeMrcFrame(UnityEngine::RenderTexture* frame, ::ArrayW<float> audioData, int audioFrames, int audioChannels, double timestamp, double poseTime, ByRef<int> outSyncId);
     // static public System.Boolean SyncMrcFrame(System.Int32 syncId)
     // Offset: 0x17FE0A8
     static bool SyncMrcFrame(int syncId);
@@ -319,7 +320,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::Media::EncodeMrcFrame
 // Il2CppName: EncodeMrcFrame
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr, System::IntPtr, ::ArrayWrapper<float>, int, int, double, double, ByRef<int>)>(&GlobalNamespace::OVRPlugin::Media::EncodeMrcFrame)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::IntPtr, System::IntPtr, ::ArrayW<float>, int, int, double, double, ByRef<int>)>(&GlobalNamespace::OVRPlugin::Media::EncodeMrcFrame)> {
   static const MethodInfo* get() {
     static auto* textureHandle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* fgTextureHandle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
@@ -335,7 +336,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: GlobalNamespace::OVRPlugin::Media::EncodeMrcFrame
 // Il2CppName: EncodeMrcFrame
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::RenderTexture*, ::ArrayWrapper<float>, int, int, double, double, ByRef<int>)>(&GlobalNamespace::OVRPlugin::Media::EncodeMrcFrame)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::RenderTexture*, ::ArrayW<float>, int, int, double, double, ByRef<int>)>(&GlobalNamespace::OVRPlugin::Media::EncodeMrcFrame)> {
   static const MethodInfo* get() {
     static auto* frame = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
     static auto* audioData = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;

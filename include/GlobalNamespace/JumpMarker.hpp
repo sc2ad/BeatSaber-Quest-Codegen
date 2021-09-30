@@ -32,6 +32,11 @@ namespace GlobalNamespace {
   // [DisplayNameAttribute] Offset: EC9118
   class JumpMarker : public UnityEngine::Timeline::Marker/*, public UnityEngine::Playables::INotification*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private JumpDestinationMarker _destination
     // Size: 0x8
     // Offset: 0x28
@@ -44,6 +49,7 @@ namespace GlobalNamespace {
     UnityEngine::PropertyName id;
     // Field size check
     static_assert(sizeof(UnityEngine::PropertyName) == 0x4);
+    public:
     // Creating interface conversion operator: operator UnityEngine::Playables::INotification
     operator UnityEngine::Playables::INotification() noexcept {
       return *reinterpret_cast<UnityEngine::Playables::INotification*>(this);

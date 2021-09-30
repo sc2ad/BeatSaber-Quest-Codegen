@@ -26,6 +26,11 @@ namespace Zenject {
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
   class SubContainerCreatorBindInfo : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String <DefaultParentName>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -46,6 +51,7 @@ namespace Zenject {
     System::Type* KernelType;
     // Field size check
     static_assert(sizeof(System::Type*) == 0x8);
+    public:
     // Get instance field reference: private System.String <DefaultParentName>k__BackingField
     ::Il2CppString*& dyn_$DefaultParentName$k__BackingField();
     // Get instance field reference: private System.Boolean <CreateKernel>k__BackingField

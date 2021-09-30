@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Xml
@@ -43,6 +44,11 @@ namespace System::Xml {
     public:
     // Writing base type padding for base size: 0x86 to desired offset: 0x88
     char ___base_padding[0x2] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // protected System.Xml.ByteStack elementScope
     // Size: 0x8
     // Offset: 0x88
@@ -72,9 +78,9 @@ namespace System::Xml {
     // private System.Byte[] uriEscapingBuffer
     // Size: 0x8
     // Offset: 0xA0
-    ::ArrayWrapper<uint8_t> uriEscapingBuffer;
+    ::ArrayW<uint8_t> uriEscapingBuffer;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.String mediaType
     // Size: 0x8
     // Offset: 0xA8
@@ -87,6 +93,7 @@ namespace System::Xml {
     bool doNotEscapeUriAttributes;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get static field: static protected System.Xml.TernaryTreeReadOnly elementPropertySearch
     static System::Xml::TernaryTreeReadOnly* _get_elementPropertySearch();
     // Set static field: static protected System.Xml.TernaryTreeReadOnly elementPropertySearch
@@ -104,7 +111,7 @@ namespace System::Xml {
     // Get instance field reference: private System.Boolean endsWithAmpersand
     bool& dyn_endsWithAmpersand();
     // Get instance field reference: private System.Byte[] uriEscapingBuffer
-    ::ArrayWrapper<uint8_t>& dyn_uriEscapingBuffer();
+    ::ArrayW<uint8_t>& dyn_uriEscapingBuffer();
     // Get instance field reference: private System.String mediaType
     ::Il2CppString*& dyn_mediaType();
     // Get instance field reference: private System.Boolean doNotEscapeUriAttributes
@@ -213,7 +220,7 @@ namespace System::Xml {
     // Offset: 0x1AFACD8
     // Implemented from: System.Xml.XmlUtf8RawTextWriter
     // Base method: System.Void XmlUtf8RawTextWriter::WriteChars(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    void WriteChars(::ArrayWrapper<::Il2CppChar> buffer, int index, int count);
+    void WriteChars(::ArrayW<::Il2CppChar> buffer, int index, int count);
   }; // System.Xml.HtmlUtf8RawTextWriter
   #pragma pack(pop)
   static check_size<sizeof(HtmlUtf8RawTextWriter), 176 + sizeof(bool)> __System_Xml_HtmlUtf8RawTextWriterSizeCheck;
@@ -430,7 +437,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::HtmlUtf8RawTextWriter::WriteChars
 // Il2CppName: WriteChars
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::HtmlUtf8RawTextWriter::*)(::ArrayWrapper<::Il2CppChar>, int, int)>(&System::Xml::HtmlUtf8RawTextWriter::WriteChars)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::HtmlUtf8RawTextWriter::*)(::ArrayW<::Il2CppChar>, int, int)>(&System::Xml::HtmlUtf8RawTextWriter::WriteChars)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

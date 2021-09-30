@@ -40,6 +40,11 @@ namespace MasterServer {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class MessageHandler::$$c__DisplayClass93_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public MasterServer.MessageHandler <>4__this
     // Size: 0x8
     // Offset: 0x10
@@ -66,6 +71,7 @@ namespace MasterServer {
     System::Threading::CancellationToken cancellationToken;
     // Field size check
     static_assert(sizeof(System::Threading::CancellationToken) == 0x8);
+    public:
     // Get instance field reference: public MasterServer.MessageHandler <>4__this
     MasterServer::MessageHandler*& dyn_$$4__this();
     // Get instance field reference: public System.UInt32 protocolVersion

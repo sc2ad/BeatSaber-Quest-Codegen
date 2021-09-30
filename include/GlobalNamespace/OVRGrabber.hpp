@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -47,6 +48,11 @@ namespace GlobalNamespace {
   // [RequireComponent] Offset: EAF9E8
   class OVRGrabber : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Single grabBegin
     // Size: 0x4
     // Offset: 0x18
@@ -82,9 +88,9 @@ namespace GlobalNamespace {
     // protected UnityEngine.Collider[] m_grabVolumes
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<UnityEngine::Collider*> m_grabVolumes;
+    ::ArrayW<UnityEngine::Collider*> m_grabVolumes;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Collider*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Collider*>) == 0x8);
     // protected OVRInput/Controller m_controller
     // Size: 0x4
     // Offset: 0x38
@@ -175,6 +181,7 @@ namespace GlobalNamespace {
     bool m_operatingWithoutOVRCameraRig;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.Single grabBegin
@@ -188,7 +195,7 @@ namespace GlobalNamespace {
     // Get instance field reference: protected UnityEngine.Transform m_gripTransform
     UnityEngine::Transform*& dyn_m_gripTransform();
     // Get instance field reference: protected UnityEngine.Collider[] m_grabVolumes
-    ::ArrayWrapper<UnityEngine::Collider*>& dyn_m_grabVolumes();
+    ::ArrayW<UnityEngine::Collider*>& dyn_m_grabVolumes();
     // Get instance field reference: protected OVRInput/Controller m_controller
     GlobalNamespace::OVRInput::Controller& dyn_m_controller();
     // Get instance field reference: protected UnityEngine.Transform m_parentTransform

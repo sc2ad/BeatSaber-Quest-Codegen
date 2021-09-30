@@ -37,6 +37,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class JoiningLobbyViewController : public HMUI::ViewController {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.UI.Button _cancelJoiningButton
     // Size: 0x8
     // Offset: 0x70
@@ -61,6 +66,7 @@ namespace GlobalNamespace {
     System::Action* didCancelEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
+    public:
     // Get instance field reference: private UnityEngine.UI.Button _cancelJoiningButton
     UnityEngine::UI::Button*& dyn__cancelJoiningButton();
     // Get instance field reference: private LoadingControl _loadingControl

@@ -23,12 +23,18 @@ namespace NUnit::Framework::Internal {
   // [TokenAttribute] Offset: FFFFFFFF
   class InternalTraceWriter : public System::IO::TextWriter {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.IO.TextWriter writer
     // Size: 0x8
     // Offset: 0x28
     System::IO::TextWriter* writer;
     // Field size check
     static_assert(sizeof(System::IO::TextWriter*) == 0x8);
+    public:
     // Get instance field reference: private System.IO.TextWriter writer
     System::IO::TextWriter*& dyn_writer();
     // public override System.Text.Encoding get_Encoding()

@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -45,6 +46,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class FirstPersonFlyingController : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Single _moveSensitivity
     // Size: 0x4
     // Offset: 0x18
@@ -94,9 +100,9 @@ namespace GlobalNamespace {
     // private UnityEngine.GameObject[] _controllerModels
     // Size: 0x8
     // Offset: 0x50
-    ::ArrayWrapper<UnityEngine::GameObject*> controllerModels;
+    ::ArrayW<UnityEngine::GameObject*> controllerModels;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::GameObject*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::GameObject*>) == 0x8);
     // private MouseLook _mouseLook
     // Size: 0x8
     // Offset: 0x58
@@ -109,6 +115,7 @@ namespace GlobalNamespace {
     UnityEngine::Transform* cameraTransform;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single _moveSensitivity
@@ -126,7 +133,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private VRUIControls.VRInputModule _vrInputModule
     VRUIControls::VRInputModule*& dyn__vrInputModule();
     // Get instance field reference: private UnityEngine.GameObject[] _controllerModels
-    ::ArrayWrapper<UnityEngine::GameObject*>& dyn__controllerModels();
+    ::ArrayW<UnityEngine::GameObject*>& dyn__controllerModels();
     // Get instance field reference: private MouseLook _mouseLook
     GlobalNamespace::MouseLook*& dyn__mouseLook();
     // Get instance field reference: private UnityEngine.Transform _cameraTransform

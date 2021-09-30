@@ -25,6 +25,11 @@ namespace System::Net::NetworkInformation {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Win32_SOCKET_ADDRESS/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.IntPtr Sockaddr
     // Size: 0x8
     // Offset: 0x0
@@ -37,6 +42,7 @@ namespace System::Net::NetworkInformation {
     int SockaddrLength;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: Win32_SOCKET_ADDRESS
     constexpr Win32_SOCKET_ADDRESS(System::IntPtr Sockaddr_ = {}, int SockaddrLength_ = {}) noexcept : Sockaddr{Sockaddr_}, SockaddrLength{SockaddrLength_} {}
     // Creating interface conversion operator: operator System::ValueType

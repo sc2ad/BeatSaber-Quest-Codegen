@@ -34,6 +34,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::CoreGameHUDController::InitData
     class InitData;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.GameObject _songProgressPanelGO
     // Size: 0x8
     // Offset: 0x18
@@ -71,6 +76,7 @@ namespace GlobalNamespace {
     GlobalNamespace::CoreGameHUDController::InitData* initData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::CoreGameHUDController::InitData*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.GameObject _songProgressPanelGO

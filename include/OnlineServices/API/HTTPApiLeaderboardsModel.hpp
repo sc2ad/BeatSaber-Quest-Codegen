@@ -58,6 +58,11 @@ namespace OnlineServices::API {
     struct $GetLeaderboardEntriesAsync$d__4;
     // Nested type: OnlineServices::API::HTTPApiLeaderboardsModel::$SendLevelScoreResultAsync$d__5
     struct $SendLevelScoreResultAsync$d__5;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xF15484
     // private readonly OnlineServices.API.HTTPLeaderboardsOathHelper _httpLeaderboardsOathHelper
     // Size: 0x8
@@ -65,6 +70,7 @@ namespace OnlineServices::API {
     OnlineServices::API::HTTPLeaderboardsOathHelper* httpLeaderboardsOathHelper;
     // Field size check
     static_assert(sizeof(OnlineServices::API::HTTPLeaderboardsOathHelper*) == 0x8);
+    public:
     // Creating interface conversion operator: operator OnlineServices::API::IApiLeaderboardsModel
     operator OnlineServices::API::IApiLeaderboardsModel() noexcept {
       return *reinterpret_cast<OnlineServices::API::IApiLeaderboardsModel*>(this);

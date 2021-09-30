@@ -29,6 +29,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapDataStrobeFilterTransform::StrobeStreakData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Boolean isActive
     // Size: 0x1
     // Offset: 0x10
@@ -95,6 +100,7 @@ namespace GlobalNamespace {
     bool foundFirstColoredEventData;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: public System.Boolean isActive
     bool& dyn_isActive();
     // Get instance field reference: public System.Single strobeStartTime

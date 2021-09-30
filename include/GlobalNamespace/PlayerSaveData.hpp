@@ -62,6 +62,11 @@ namespace GlobalNamespace {
     class MultiplayerModeSettings;
     // Nested type: GlobalNamespace::PlayerSaveData::LocalPlayer
     class LocalPlayer;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Collections.Generic.List`1<PlayerSaveData/LocalPlayer> localPlayers
     // Size: 0x8
     // Offset: 0x18
@@ -74,6 +79,7 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveData::GuestPlayer*>* guestPlayers;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::PlayerSaveData::GuestPlayer*>*) == 0x8);
+    public:
     // Deleting conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept = delete;
     // static field const value: static public System.String kCurrentVersion

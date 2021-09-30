@@ -27,6 +27,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Timeline
@@ -115,6 +116,11 @@ namespace UnityEngine::Timeline {
     // [TokenAttribute] Offset: FFFFFFFF
     struct TransientBuildData/*, public System::ValueType*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Collections.Generic.List`1<UnityEngine.Timeline.TrackAsset> trackList
       // Size: 0x8
       // Offset: 0x0
@@ -133,6 +139,7 @@ namespace UnityEngine::Timeline {
       System::Collections::Generic::List_1<UnityEngine::Timeline::IMarker*>* markerList;
       // Field size check
       static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::Timeline::IMarker*>*) == 0x8);
+      public:
       // Creating value type constructor for type: TransientBuildData
       constexpr TransientBuildData(System::Collections::Generic::List_1<UnityEngine::Timeline::TrackAsset*>* trackList_ = {}, System::Collections::Generic::List_1<UnityEngine::Timeline::TimelineClip*>* clipList_ = {}, System::Collections::Generic::List_1<UnityEngine::Timeline::IMarker*>* markerList_ = {}) noexcept : trackList{trackList_}, clipList{clipList_}, markerList{markerList_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -155,6 +162,11 @@ namespace UnityEngine::Timeline {
     #pragma pack(pop)
     static check_size<sizeof(TrackAsset::TransientBuildData), 16 + sizeof(System::Collections::Generic::List_1<UnityEngine::Timeline::IMarker*>*)> __UnityEngine_Timeline_TrackAsset_TransientBuildDataSizeCheck;
     static_assert(sizeof(TrackAsset::TransientBuildData) == 0x18);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 m_Version
     // Size: 0x4
     // Offset: 0x18
@@ -214,9 +226,9 @@ namespace UnityEngine::Timeline {
     // private UnityEngine.Timeline.TimelineClip[] m_ClipsCache
     // Size: 0x8
     // Offset: 0x58
-    ::ArrayWrapper<UnityEngine::Timeline::TimelineClip*> m_ClipsCache;
+    ::ArrayW<UnityEngine::Timeline::TimelineClip*> m_ClipsCache;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Timeline::TimelineClip*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Timeline::TimelineClip*>) == 0x8);
     // private UnityEngine.Timeline.DiscreteTime m_Start
     // Size: 0x8
     // Offset: 0x60
@@ -257,6 +269,7 @@ namespace UnityEngine::Timeline {
     UnityEngine::Timeline::MarkerList m_Markers;
     // Field size check
     static_assert(sizeof(UnityEngine::Timeline::MarkerList) == 0x12);
+    public:
     // Creating interface conversion operator: operator UnityEngine::Timeline::IPropertyPreview
     operator UnityEngine::Timeline::IPropertyPreview() noexcept {
       return *reinterpret_cast<UnityEngine::Timeline::IPropertyPreview*>(this);
@@ -296,9 +309,9 @@ namespace UnityEngine::Timeline {
     // Set static field: static private System.Action`3<UnityEngine.Timeline.TrackAsset,UnityEngine.GameObject,UnityEngine.Playables.Playable> OnTrackAnimationPlayableCreate
     static void _set_OnTrackAnimationPlayableCreate(System::Action_3<UnityEngine::Timeline::TrackAsset*, UnityEngine::GameObject*, UnityEngine::Playables::Playable>* value);
     // Get static field: static private UnityEngine.Timeline.TrackAsset[] s_EmptyCache
-    static ::ArrayWrapper<UnityEngine::Timeline::TrackAsset*> _get_s_EmptyCache();
+    static ::ArrayW<UnityEngine::Timeline::TrackAsset*> _get_s_EmptyCache();
     // Set static field: static private UnityEngine.Timeline.TrackAsset[] s_EmptyCache
-    static void _set_s_EmptyCache(::ArrayWrapper<UnityEngine::Timeline::TrackAsset*> value);
+    static void _set_s_EmptyCache(::ArrayW<UnityEngine::Timeline::TrackAsset*> value);
     // Get static field: static private System.Collections.Generic.Dictionary`2<System.Type,UnityEngine.Timeline.TrackBindingTypeAttribute> s_TrackBindingTypeAttributeCache
     static System::Collections::Generic::Dictionary_2<System::Type*, UnityEngine::Timeline::TrackBindingTypeAttribute*>* _get_s_TrackBindingTypeAttributeCache();
     // Set static field: static private System.Collections.Generic.Dictionary`2<System.Type,UnityEngine.Timeline.TrackBindingTypeAttribute> s_TrackBindingTypeAttributeCache
@@ -322,7 +335,7 @@ namespace UnityEngine::Timeline {
     // Get instance field reference: private System.Int32 m_ItemsHash
     int& dyn_m_ItemsHash();
     // Get instance field reference: private UnityEngine.Timeline.TimelineClip[] m_ClipsCache
-    ::ArrayWrapper<UnityEngine::Timeline::TimelineClip*>& dyn_m_ClipsCache();
+    ::ArrayW<UnityEngine::Timeline::TimelineClip*>& dyn_m_ClipsCache();
     // Get instance field reference: private UnityEngine.Timeline.DiscreteTime m_Start
     UnityEngine::Timeline::DiscreteTime& dyn_m_Start();
     // Get instance field reference: private UnityEngine.Timeline.DiscreteTime m_End
@@ -363,7 +376,7 @@ namespace UnityEngine::Timeline {
     void set_parent(UnityEngine::Playables::PlayableAsset* value);
     // UnityEngine.Timeline.TimelineClip[] get_clips()
     // Offset: 0x2566420
-    ::ArrayWrapper<UnityEngine::Timeline::TimelineClip*> get_clips();
+    ::ArrayW<UnityEngine::Timeline::TimelineClip*> get_clips();
     // public System.Boolean get_isEmpty()
     // Offset: 0x25664BC
     bool get_isEmpty();
@@ -754,7 +767,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Timeline::TrackAsset::get_clips
 // Il2CppName: get_clips
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Timeline::TimelineClip*> (UnityEngine::Timeline::TrackAsset::*)()>(&UnityEngine::Timeline::TrackAsset::get_clips)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Timeline::TimelineClip*> (UnityEngine::Timeline::TrackAsset::*)()>(&UnityEngine::Timeline::TrackAsset::get_clips)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Timeline::TrackAsset*), "get_clips", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

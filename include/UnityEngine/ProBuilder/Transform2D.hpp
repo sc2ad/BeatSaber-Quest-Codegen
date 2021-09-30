@@ -20,6 +20,11 @@ namespace UnityEngine::ProBuilder {
   // [TokenAttribute] Offset: FFFFFFFF
   class Transform2D : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Vector2 position
     // Size: 0x8
     // Offset: 0x10
@@ -38,6 +43,7 @@ namespace UnityEngine::ProBuilder {
     UnityEngine::Vector2 scale;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector2) == 0x8);
+    public:
     // Get instance field reference: public UnityEngine.Vector2 position
     UnityEngine::Vector2& dyn_position();
     // Get instance field reference: public System.Single rotation

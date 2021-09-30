@@ -36,12 +36,18 @@ namespace Org::BouncyCastle::Asn1::Sec {
   // [TokenAttribute] Offset: FFFFFFFF
   class ECPrivateKeyStructure : public Org::BouncyCastle::Asn1::Asn1Encodable {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Org.BouncyCastle.Asn1.Asn1Sequence seq
     // Size: 0x8
     // Offset: 0x10
     Org::BouncyCastle::Asn1::Asn1Sequence* seq;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::Asn1Sequence*) == 0x8);
+    public:
     // Creating conversion operator: operator Org::BouncyCastle::Asn1::Asn1Sequence*
     constexpr operator Org::BouncyCastle::Asn1::Asn1Sequence*() const noexcept {
       return seq;

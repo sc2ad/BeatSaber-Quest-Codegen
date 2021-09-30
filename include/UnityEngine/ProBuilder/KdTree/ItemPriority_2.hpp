@@ -16,6 +16,11 @@ namespace UnityEngine::ProBuilder::KdTree {
   template<typename TItem, typename TPriority>
   struct ItemPriority_2/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public TItem Item
     // Size: 0xFFFFFFFF
     // Offset: 0x0
@@ -24,6 +29,7 @@ namespace UnityEngine::ProBuilder::KdTree {
     // Size: 0xFFFFFFFF
     // Offset: 0x0
     TPriority Priority;
+    public:
     // Creating value type constructor for type: ItemPriority_2
     constexpr ItemPriority_2(TItem Item_ = {}, TPriority Priority_ = {}) noexcept : Item{Item_}, Priority{Priority_} {}
     // Creating interface conversion operator: operator System::ValueType

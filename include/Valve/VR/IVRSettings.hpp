@@ -45,6 +45,11 @@ namespace Valve::VR {
     class _RemoveSection;
     // Nested type: Valve::VR::IVRSettings::_RemoveKeyInSection
     class _RemoveKeyInSection;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // Valve.VR.IVRSettings/Valve.VR._GetSettingsErrorNameFromEnum GetSettingsErrorNameFromEnum
     // Size: 0x8
     // Offset: 0x0
@@ -117,6 +122,7 @@ namespace Valve::VR {
     Valve::VR::IVRSettings::_RemoveKeyInSection* RemoveKeyInSection;
     // Field size check
     static_assert(sizeof(Valve::VR::IVRSettings::_RemoveKeyInSection*) == 0x8);
+    public:
     // Creating value type constructor for type: IVRSettings
     constexpr IVRSettings(Valve::VR::IVRSettings::_GetSettingsErrorNameFromEnum* GetSettingsErrorNameFromEnum_ = {}, Valve::VR::IVRSettings::_Sync* Sync_ = {}, Valve::VR::IVRSettings::_SetBool* SetBool_ = {}, Valve::VR::IVRSettings::_SetInt32* SetInt32_ = {}, Valve::VR::IVRSettings::_SetFloat* SetFloat_ = {}, Valve::VR::IVRSettings::_SetString* SetString_ = {}, Valve::VR::IVRSettings::_GetBool* GetBool_ = {}, Valve::VR::IVRSettings::_GetInt32* GetInt32_ = {}, Valve::VR::IVRSettings::_GetFloat* GetFloat_ = {}, Valve::VR::IVRSettings::_GetString* GetString_ = {}, Valve::VR::IVRSettings::_RemoveSection* RemoveSection_ = {}, Valve::VR::IVRSettings::_RemoveKeyInSection* RemoveKeyInSection_ = {}) noexcept : GetSettingsErrorNameFromEnum{GetSettingsErrorNameFromEnum_}, Sync{Sync_}, SetBool{SetBool_}, SetInt32{SetInt32_}, SetFloat{SetFloat_}, SetString{SetString_}, GetBool{GetBool_}, GetInt32{GetInt32_}, GetFloat{GetFloat_}, GetString{GetString_}, RemoveSection{RemoveSection_}, RemoveKeyInSection{RemoveKeyInSection_} {}
     // Creating interface conversion operator: operator System::ValueType

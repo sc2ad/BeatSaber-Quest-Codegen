@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Serialization::Formatters::Binary
@@ -82,6 +83,11 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     class TypeNAssembly;
     // Nested type: System::Runtime::Serialization::Formatters::Binary::ObjectReader::TopLevelAssemblyTypeResolver
     class TopLevelAssemblyTypeResolver;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.IO.Stream m_stream
     // Size: 0x8
     // Offset: 0x10
@@ -149,9 +155,9 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // System.Runtime.Remoting.Messaging.Header[] headers
     // Size: 0x8
     // Offset: 0x68
-    ::ArrayWrapper<System::Runtime::Remoting::Messaging::Header*> headers;
+    ::ArrayW<System::Runtime::Remoting::Messaging::Header*> headers;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<System::Runtime::Remoting::Messaging::Header*>) == 0x8);
+    static_assert(sizeof(::ArrayW<System::Runtime::Remoting::Messaging::Header*>) == 0x8);
     // System.Runtime.Remoting.Messaging.HeaderHandler handler
     // Size: 0x8
     // Offset: 0x70
@@ -185,9 +191,9 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // System.Object[] crossAppDomainArray
     // Size: 0x8
     // Offset: 0x98
-    ::ArrayWrapper<::Il2CppObject*> crossAppDomainArray;
+    ::ArrayW<::Il2CppObject*> crossAppDomainArray;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppObject*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppObject*>) == 0x8);
     // private System.Boolean bFullDeserialization
     // Size: 0x1
     // Offset: 0xA0
@@ -232,6 +238,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     System::Type* previousType;
     // Field size check
     static_assert(sizeof(System::Type*) == 0x8);
+    public:
     // Get instance field reference: System.IO.Stream m_stream
     System::IO::Stream*& dyn_m_stream();
     // Get instance field reference: System.Runtime.Serialization.ISurrogateSelector m_surrogates
@@ -253,7 +260,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: System.Object m_topObject
     ::Il2CppObject*& dyn_m_topObject();
     // Get instance field reference: System.Runtime.Remoting.Messaging.Header[] headers
-    ::ArrayWrapper<System::Runtime::Remoting::Messaging::Header*>& dyn_headers();
+    ::ArrayW<System::Runtime::Remoting::Messaging::Header*>& dyn_headers();
     // Get instance field reference: System.Runtime.Remoting.Messaging.HeaderHandler handler
     System::Runtime::Remoting::Messaging::HeaderHandler*& dyn_handler();
     // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.SerObjectInfoInit serObjectInfoInit
@@ -265,7 +272,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: private System.Runtime.Serialization.Formatters.Binary.SerStack valueFixupStack
     System::Runtime::Serialization::Formatters::Binary::SerStack*& dyn_valueFixupStack();
     // Get instance field reference: System.Object[] crossAppDomainArray
-    ::ArrayWrapper<::Il2CppObject*>& dyn_crossAppDomainArray();
+    ::ArrayW<::Il2CppObject*>& dyn_crossAppDomainArray();
     // Get instance field reference: private System.Boolean bFullDeserialization
     bool& dyn_bFullDeserialization();
     // Get instance field reference: private System.Boolean bOldFormatDetected
@@ -316,7 +323,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* CreateReadObjectInfo(System::Type* objectType);
     // System.Runtime.Serialization.Formatters.Binary.ReadObjectInfo CreateReadObjectInfo(System.Type objectType, System.String[] memberNames, System.Type[] memberTypes)
     // Offset: 0x17ED678
-    System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* CreateReadObjectInfo(System::Type* objectType, ::ArrayWrapper<::Il2CppString*> memberNames, ::ArrayWrapper<System::Type*> memberTypes);
+    System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* CreateReadObjectInfo(System::Type* objectType, ::ArrayW<::Il2CppString*> memberNames, ::ArrayW<System::Type*> memberTypes);
     // System.Void Parse(System.Runtime.Serialization.Formatters.Binary.ParseRecord pr)
     // Offset: 0x17EEB04
     void Parse(System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr);
@@ -477,7 +484,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::ObjectReader::CreateReadObjectInfo
 // Il2CppName: CreateReadObjectInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* (System::Runtime::Serialization::Formatters::Binary::ObjectReader::*)(System::Type*, ::ArrayWrapper<::Il2CppString*>, ::ArrayWrapper<System::Type*>)>(&System::Runtime::Serialization::Formatters::Binary::ObjectReader::CreateReadObjectInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* (System::Runtime::Serialization::Formatters::Binary::ObjectReader::*)(System::Type*, ::ArrayW<::Il2CppString*>, ::ArrayW<System::Type*>)>(&System::Runtime::Serialization::Formatters::Binary::ObjectReader::CreateReadObjectInfo)> {
   static const MethodInfo* get() {
     static auto* objectType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* memberNames = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;

@@ -7,6 +7,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Reflection.ConstructorInfo
 #include "System/Reflection/ConstructorInfo.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection
@@ -72,17 +73,17 @@ namespace System::Reflection::Emit {
     // Offset: 0x1EA55D8
     // Implemented from: System.Reflection.MethodBase
     // Base method: System.Reflection.ParameterInfo[] MethodBase::GetParameters()
-    ::ArrayWrapper<System::Reflection::ParameterInfo*> GetParameters();
+    ::ArrayW<System::Reflection::ParameterInfo*> GetParameters();
     // public override System.Object[] GetCustomAttributes(System.Boolean inherit)
     // Offset: 0x1EA56B4
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Object[] MemberInfo::GetCustomAttributes(System.Boolean inherit)
-    ::ArrayWrapper<::Il2CppObject*> GetCustomAttributes(bool inherit);
+    ::ArrayW<::Il2CppObject*> GetCustomAttributes(bool inherit);
     // public override System.Object[] GetCustomAttributes(System.Type attributeType, System.Boolean inherit)
     // Offset: 0x1EA56F4
     // Implemented from: System.Reflection.MemberInfo
     // Base method: System.Object[] MemberInfo::GetCustomAttributes(System.Type attributeType, System.Boolean inherit)
-    ::ArrayWrapper<::Il2CppObject*> GetCustomAttributes(System::Type* attributeType, bool inherit);
+    ::ArrayW<::Il2CppObject*> GetCustomAttributes(System::Type* attributeType, bool inherit);
     // public override System.Reflection.MethodImplAttributes GetMethodImplementationFlags()
     // Offset: 0x1EA5734
     // Implemented from: System.Reflection.MethodBase
@@ -92,12 +93,12 @@ namespace System::Reflection::Emit {
     // Offset: 0x1EA5774
     // Implemented from: System.Reflection.MethodBase
     // Base method: System.Object MethodBase::Invoke(System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture)
-    ::Il2CppObject* Invoke(::Il2CppObject* obj, System::Reflection::BindingFlags invokeAttr, System::Reflection::Binder* binder, ::ArrayWrapper<::Il2CppObject*> parameters, System::Globalization::CultureInfo* culture);
+    ::Il2CppObject* Invoke(::Il2CppObject* obj, System::Reflection::BindingFlags invokeAttr, System::Reflection::Binder* binder, ::ArrayW<::Il2CppObject*> parameters, System::Globalization::CultureInfo* culture);
     // public override System.Object Invoke(System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture)
     // Offset: 0x1EA57B4
     // Implemented from: System.Reflection.ConstructorInfo
     // Base method: System.Object ConstructorInfo::Invoke(System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture)
-    ::Il2CppObject* Invoke(System::Reflection::BindingFlags invokeAttr, System::Reflection::Binder* binder, ::ArrayWrapper<::Il2CppObject*> parameters, System::Globalization::CultureInfo* culture);
+    ::Il2CppObject* Invoke(System::Reflection::BindingFlags invokeAttr, System::Reflection::Binder* binder, ::ArrayW<::Il2CppObject*> parameters, System::Globalization::CultureInfo* culture);
     // public override System.Boolean IsDefined(System.Type attributeType, System.Boolean inherit)
     // Offset: 0x1EA57F4
     // Implemented from: System.Reflection.MemberInfo
@@ -152,7 +153,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: System::Reflection::Emit::ConstructorBuilder::GetParameters
 // Il2CppName: GetParameters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::Reflection::ParameterInfo*> (System::Reflection::Emit::ConstructorBuilder::*)()>(&System::Reflection::Emit::ConstructorBuilder::GetParameters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Reflection::ParameterInfo*> (System::Reflection::Emit::ConstructorBuilder::*)()>(&System::Reflection::Emit::ConstructorBuilder::GetParameters)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::ConstructorBuilder*), "GetParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -160,7 +161,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: System::Reflection::Emit::ConstructorBuilder::GetCustomAttributes
 // Il2CppName: GetCustomAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppObject*> (System::Reflection::Emit::ConstructorBuilder::*)(bool)>(&System::Reflection::Emit::ConstructorBuilder::GetCustomAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppObject*> (System::Reflection::Emit::ConstructorBuilder::*)(bool)>(&System::Reflection::Emit::ConstructorBuilder::GetCustomAttributes)> {
   static const MethodInfo* get() {
     static auto* inherit = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::Emit::ConstructorBuilder*), "GetCustomAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inherit});
@@ -169,7 +170,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: System::Reflection::Emit::ConstructorBuilder::GetCustomAttributes
 // Il2CppName: GetCustomAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppObject*> (System::Reflection::Emit::ConstructorBuilder::*)(System::Type*, bool)>(&System::Reflection::Emit::ConstructorBuilder::GetCustomAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppObject*> (System::Reflection::Emit::ConstructorBuilder::*)(System::Type*, bool)>(&System::Reflection::Emit::ConstructorBuilder::GetCustomAttributes)> {
   static const MethodInfo* get() {
     static auto* attributeType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* inherit = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -187,7 +188,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Writing MetadataGetter for method: System::Reflection::Emit::ConstructorBuilder::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Reflection::Emit::ConstructorBuilder::*)(::Il2CppObject*, System::Reflection::BindingFlags, System::Reflection::Binder*, ::ArrayWrapper<::Il2CppObject*>, System::Globalization::CultureInfo*)>(&System::Reflection::Emit::ConstructorBuilder::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Reflection::Emit::ConstructorBuilder::*)(::Il2CppObject*, System::Reflection::BindingFlags, System::Reflection::Binder*, ::ArrayW<::Il2CppObject*>, System::Globalization::CultureInfo*)>(&System::Reflection::Emit::ConstructorBuilder::Invoke)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* invokeAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
@@ -200,7 +201,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Reflection::Emit::ConstructorBuilder::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Reflection::Emit::ConstructorBuilder::*)(System::Reflection::BindingFlags, System::Reflection::Binder*, ::ArrayWrapper<::Il2CppObject*>, System::Globalization::CultureInfo*)>(&System::Reflection::Emit::ConstructorBuilder::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Reflection::Emit::ConstructorBuilder::*)(System::Reflection::BindingFlags, System::Reflection::Binder*, ::ArrayW<::Il2CppObject*>, System::Globalization::CultureInfo*)>(&System::Reflection::Emit::ConstructorBuilder::Invoke)> {
   static const MethodInfo* get() {
     static auto* invokeAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
     static auto* binder = &::il2cpp_utils::GetClassFromName("System.Reflection", "Binder")->byval_arg;

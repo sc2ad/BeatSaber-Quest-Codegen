@@ -22,12 +22,18 @@ namespace System::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   class XmlWellFormedWriter::NamespaceResolverProxy : public ::Il2CppObject/*, public System::Xml::IXmlNamespaceResolver*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Xml.XmlWellFormedWriter wfWriter
     // Size: 0x8
     // Offset: 0x10
     System::Xml::XmlWellFormedWriter* wfWriter;
     // Field size check
     static_assert(sizeof(System::Xml::XmlWellFormedWriter*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Xml::IXmlNamespaceResolver
     operator System::Xml::IXmlNamespaceResolver() noexcept {
       return *reinterpret_cast<System::Xml::IXmlNamespaceResolver*>(this);

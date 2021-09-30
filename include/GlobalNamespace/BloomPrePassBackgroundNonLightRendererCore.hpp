@@ -37,6 +37,11 @@ namespace GlobalNamespace {
   // [ExecuteAlways] Offset: FFFFFFFF
   class BloomPrePassBackgroundNonLightRendererCore : public GlobalNamespace::BloomPrePassNonLightPass {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean _keepDefaultRendering
     // Size: 0x1
     // Offset: 0x20
@@ -51,6 +56,7 @@ namespace GlobalNamespace {
     UnityEngine::Rendering::CommandBuffer* commandBuffer;
     // Field size check
     static_assert(sizeof(UnityEngine::Rendering::CommandBuffer*) == 0x8);
+    public:
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEDE23C
     // Get static field: static private readonly System.Int32 _worldSpaceCameraPosID
     static int _get__worldSpaceCameraPosID();

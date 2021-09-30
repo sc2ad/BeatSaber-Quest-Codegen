@@ -33,6 +33,11 @@ namespace UnityEngine {
   // [VisibleToOtherModulesAttribute] Offset: FFFFFFFF
   struct Internal_DrawTextureArguments/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Rect screenRect
     // Size: 0x10
     // Offset: 0x0
@@ -137,6 +142,7 @@ namespace UnityEngine {
     UnityEngine::Material* mat;
     // Field size check
     static_assert(sizeof(UnityEngine::Material*) == 0x8);
+    public:
     // Creating value type constructor for type: Internal_DrawTextureArguments
     constexpr Internal_DrawTextureArguments(UnityEngine::Rect screenRect_ = {}, UnityEngine::Rect sourceRect_ = {}, int leftBorder_ = {}, int rightBorder_ = {}, int topBorder_ = {}, int bottomBorder_ = {}, UnityEngine::Color leftBorderColor_ = {}, UnityEngine::Color rightBorderColor_ = {}, UnityEngine::Color topBorderColor_ = {}, UnityEngine::Color bottomBorderColor_ = {}, UnityEngine::Color color_ = {}, UnityEngine::Vector4 borderWidths_ = {}, UnityEngine::Vector4 cornerRadiuses_ = {}, bool smoothCorners_ = {}, int pass_ = {}, UnityEngine::Texture* texture_ = {}, UnityEngine::Material* mat_ = {}) noexcept : screenRect{screenRect_}, sourceRect{sourceRect_}, leftBorder{leftBorder_}, rightBorder{rightBorder_}, topBorder{topBorder_}, bottomBorder{bottomBorder_}, leftBorderColor{leftBorderColor_}, rightBorderColor{rightBorderColor_}, topBorderColor{topBorderColor_}, bottomBorderColor{bottomBorderColor_}, color{color_}, borderWidths{borderWidths_}, cornerRadiuses{cornerRadiuses_}, smoothCorners{smoothCorners_}, pass{pass_}, texture{texture_}, mat{mat_} {}
     // Creating interface conversion operator: operator System::ValueType

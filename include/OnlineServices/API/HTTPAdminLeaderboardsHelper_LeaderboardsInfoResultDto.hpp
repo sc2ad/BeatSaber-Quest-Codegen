@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: OnlineServices.API
 namespace OnlineServices::API {
@@ -20,18 +21,24 @@ namespace OnlineServices::API {
   // [TokenAttribute] Offset: FFFFFFFF
   class HTTPAdminLeaderboardsHelper::LeaderboardsInfoResultDto : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public OnlineServices.API.HTTPAdminLeaderboardsHelper/OnlineServices.API.LeaderboardsInfoDto[] leaderboardsInfos
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto*> leaderboardsInfos;
+    ::ArrayW<OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto*> leaderboardsInfos;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto*>) == 0x8);
-    // Creating conversion operator: operator ::ArrayWrapper<OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto*>
-    constexpr operator ::ArrayWrapper<OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto*>() const noexcept {
+    static_assert(sizeof(::ArrayW<OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto*>) == 0x8);
+    public:
+    // Creating conversion operator: operator ::ArrayW<OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto*>
+    constexpr operator ::ArrayW<OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto*>() const noexcept {
       return leaderboardsInfos;
     }
     // Get instance field reference: public OnlineServices.API.HTTPAdminLeaderboardsHelper/OnlineServices.API.LeaderboardsInfoDto[] leaderboardsInfos
-    ::ArrayWrapper<OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto*>& dyn_leaderboardsInfos();
+    ::ArrayW<OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto*>& dyn_leaderboardsInfos();
     // public System.Void .ctor()
     // Offset: 0x111CD50
     // Implemented from: System.Object
@@ -43,7 +50,7 @@ namespace OnlineServices::API {
     }
   }; // OnlineServices.API.HTTPAdminLeaderboardsHelper/OnlineServices.API.LeaderboardsInfoResultDto
   #pragma pack(pop)
-  static check_size<sizeof(HTTPAdminLeaderboardsHelper::LeaderboardsInfoResultDto), 16 + sizeof(::ArrayWrapper<OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto*>)> __OnlineServices_API_HTTPAdminLeaderboardsHelper_LeaderboardsInfoResultDtoSizeCheck;
+  static check_size<sizeof(HTTPAdminLeaderboardsHelper::LeaderboardsInfoResultDto), 16 + sizeof(::ArrayW<OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsInfoDto*>)> __OnlineServices_API_HTTPAdminLeaderboardsHelper_LeaderboardsInfoResultDtoSizeCheck;
   static_assert(sizeof(HTTPAdminLeaderboardsHelper::LeaderboardsInfoResultDto) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsInfoResultDto*, "OnlineServices.API", "HTTPAdminLeaderboardsHelper/LeaderboardsInfoResultDto");

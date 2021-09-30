@@ -34,12 +34,18 @@ namespace Zenject {
   template<typename TParam1, typename TParam2, typename TParam3, typename TValue>
   class StaticMemoryPool_4 : public Zenject::StaticMemoryPoolBase_1<TValue>/*, public Zenject::IMemoryPool_4<TParam1, TParam2, TParam3, TValue>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Action`4<TParam1,TParam2,TParam3,TValue> _onSpawnMethod
     // Size: 0x8
     // Offset: 0x0
     System::Action_4<TParam1, TParam2, TParam3, TValue>* onSpawnMethod;
     // Field size check
     static_assert(sizeof(System::Action_4<TParam1, TParam2, TParam3, TValue>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator Zenject::IMemoryPool_4<TParam1, TParam2, TParam3, TValue>
     operator Zenject::IMemoryPool_4<TParam1, TParam2, TParam3, TValue>() noexcept {
       return *reinterpret_cast<Zenject::IMemoryPool_4<TParam1, TParam2, TParam3, TValue>*>(this);

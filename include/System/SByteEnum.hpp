@@ -16,12 +16,18 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   struct SByteEnum/*, public System::Enum*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.SByte value__
     // Size: 0x1
     // Offset: 0x0
     int8_t value;
     // Field size check
     static_assert(sizeof(int8_t) == 0x1);
+    public:
     // Creating value type constructor for type: SByteEnum
     constexpr SByteEnum(int8_t value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum

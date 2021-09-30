@@ -20,6 +20,11 @@ namespace Mono::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   class SmallXmlParserException : public System::SystemException {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 line
     // Size: 0x4
     // Offset: 0x88
@@ -32,6 +37,7 @@ namespace Mono::Xml {
     int column;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: private System.Int32 line
     int& dyn_line();
     // Get instance field reference: private System.Int32 column

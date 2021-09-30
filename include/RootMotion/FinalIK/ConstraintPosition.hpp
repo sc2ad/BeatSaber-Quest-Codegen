@@ -29,12 +29,18 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class ConstraintPosition : public RootMotion::FinalIK::Constraint {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Vector3 position
     // Size: 0xC
     // Offset: 0x1C
     UnityEngine::Vector3 position;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    public:
     // Creating conversion operator: operator UnityEngine::Vector3
     constexpr operator UnityEngine::Vector3() const noexcept {
       return position;

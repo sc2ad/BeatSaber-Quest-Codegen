@@ -32,6 +32,11 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class OculusNetworkPlayerModel::$$c__DisplayClass55_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public OculusNetworkPlayerModel <>4__this
     // Size: 0x8
     // Offset: 0x10
@@ -50,6 +55,7 @@ namespace GlobalNamespace {
     typename Oculus::Platform::Message_1<Oculus::Platform::Models::UserList*>::Callback* onGetInvitable;
     // Field size check
     static_assert(sizeof(typename Oculus::Platform::Message_1<Oculus::Platform::Models::UserList*>::Callback*) == 0x8);
+    public:
     // Get instance field reference: public OculusNetworkPlayerModel <>4__this
     GlobalNamespace::OculusNetworkPlayerModel*& dyn_$$4__this();
     // Get instance field reference: public Oculus.Platform.Message`1/Oculus.Platform.Callback<Oculus.Platform.Models.UserAndRoomList> onGetFriends

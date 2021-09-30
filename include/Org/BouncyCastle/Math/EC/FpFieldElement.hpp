@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Math
@@ -31,6 +32,11 @@ namespace Org::BouncyCastle::Math::EC {
   // [TokenAttribute] Offset: FFFFFFFF
   class FpFieldElement : public Org::BouncyCastle::Math::EC::AbstractFpFieldElement {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Org.BouncyCastle.Math.BigInteger q
     // Size: 0x8
     // Offset: 0x10
@@ -49,6 +55,7 @@ namespace Org::BouncyCastle::Math::EC {
     Org::BouncyCastle::Math::BigInteger* x;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Math::BigInteger*) == 0x8);
+    public:
     // Get instance field reference: private readonly Org.BouncyCastle.Math.BigInteger q
     Org::BouncyCastle::Math::BigInteger*& dyn_q();
     // Get instance field reference: private readonly Org.BouncyCastle.Math.BigInteger r
@@ -70,7 +77,7 @@ namespace Org::BouncyCastle::Math::EC {
     Org::BouncyCastle::Math::EC::ECFieldElement* CheckSqrt(Org::BouncyCastle::Math::EC::ECFieldElement* z);
     // private Org.BouncyCastle.Math.BigInteger[] LucasSequence(Org.BouncyCastle.Math.BigInteger P, Org.BouncyCastle.Math.BigInteger Q, Org.BouncyCastle.Math.BigInteger k)
     // Offset: 0x231E4B0
-    ::ArrayWrapper<Org::BouncyCastle::Math::BigInteger*> LucasSequence(Org::BouncyCastle::Math::BigInteger* P, Org::BouncyCastle::Math::BigInteger* Q, Org::BouncyCastle::Math::BigInteger* k);
+    ::ArrayW<Org::BouncyCastle::Math::BigInteger*> LucasSequence(Org::BouncyCastle::Math::BigInteger* P, Org::BouncyCastle::Math::BigInteger* Q, Org::BouncyCastle::Math::BigInteger* k);
     // protected Org.BouncyCastle.Math.BigInteger ModAdd(Org.BouncyCastle.Math.BigInteger x1, Org.BouncyCastle.Math.BigInteger x2)
     // Offset: 0x231EA00
     Org::BouncyCastle::Math::BigInteger* ModAdd(Org::BouncyCastle::Math::BigInteger* x1, Org::BouncyCastle::Math::BigInteger* x2);
@@ -207,7 +214,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::FpFieldElement::LucasSequence
 // Il2CppName: LucasSequence
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<Org::BouncyCastle::Math::BigInteger*> (Org::BouncyCastle::Math::EC::FpFieldElement::*)(Org::BouncyCastle::Math::BigInteger*, Org::BouncyCastle::Math::BigInteger*, Org::BouncyCastle::Math::BigInteger*)>(&Org::BouncyCastle::Math::EC::FpFieldElement::LucasSequence)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Org::BouncyCastle::Math::BigInteger*> (Org::BouncyCastle::Math::EC::FpFieldElement::*)(Org::BouncyCastle::Math::BigInteger*, Org::BouncyCastle::Math::BigInteger*, Org::BouncyCastle::Math::BigInteger*)>(&Org::BouncyCastle::Math::EC::FpFieldElement::LucasSequence)> {
   static const MethodInfo* get() {
     static auto* P = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math", "BigInteger")->byval_arg;
     static auto* Q = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math", "BigInteger")->byval_arg;

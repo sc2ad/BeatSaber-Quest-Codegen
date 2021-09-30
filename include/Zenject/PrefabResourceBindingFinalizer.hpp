@@ -58,6 +58,11 @@ namespace Zenject {
     class $$c__DisplayClass6_0;
     // Nested type: Zenject::PrefabResourceBindingFinalizer::$$c__DisplayClass6_1
     class $$c__DisplayClass6_1;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Zenject.GameObjectCreationParameters _gameObjectBindInfo
     // Size: 0x8
     // Offset: 0x18
@@ -76,6 +81,7 @@ namespace Zenject {
     System::Func_3<System::Type*, Zenject::IPrefabInstantiator*, Zenject::IProvider*>* providerFactory;
     // Field size check
     static_assert(sizeof(System::Func_3<System::Type*, Zenject::IPrefabInstantiator*, Zenject::IProvider*>*) == 0x8);
+    public:
     // Deleting conversion operator: operator Zenject::BindInfo*
     constexpr operator Zenject::BindInfo*() const noexcept = delete;
     // Get instance field reference: private readonly Zenject.GameObjectCreationParameters _gameObjectBindInfo

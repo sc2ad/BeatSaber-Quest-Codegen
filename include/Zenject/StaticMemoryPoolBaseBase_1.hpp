@@ -39,6 +39,11 @@ namespace Zenject {
   template<typename TValue>
   class StaticMemoryPoolBaseBase_1 : public ::Il2CppObject/*, public System::IDisposable, public Zenject::IDespawnableMemoryPool_1<TValue>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Collections.Generic.Stack`1<TValue> _stack
     // Size: 0x8
     // Offset: 0x0
@@ -57,6 +62,7 @@ namespace Zenject {
     int activeCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

@@ -34,6 +34,11 @@ namespace GlobalNamespace {
     public:
     // Writing base type padding for base size: 0x29 to desired offset: 0x30
     char ___base_padding[0x7] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private TubeBloomPrePassLight _tubeBloomPrePassLight
     // Size: 0x8
     // Offset: 0x30
@@ -52,6 +57,7 @@ namespace GlobalNamespace {
     bool setColorOnly;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private TubeBloomPrePassLight _tubeBloomPrePassLight
     GlobalNamespace::TubeBloomPrePassLight*& dyn__tubeBloomPrePassLight();
     // Get instance field reference: private System.Boolean _setOnlyOnce

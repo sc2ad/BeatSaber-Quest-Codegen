@@ -22,6 +22,11 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class InjectAttributeBase : public Zenject::Internal::PreserveAttribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean <Optional>k__BackingField
     // Size: 0x1
     // Offset: 0x10
@@ -42,6 +47,7 @@ namespace Zenject {
     Zenject::InjectSources Source;
     // Field size check
     static_assert(sizeof(Zenject::InjectSources) == 0x4);
+    public:
     // Get instance field reference: private System.Boolean <Optional>k__BackingField
     bool& dyn_$Optional$k__BackingField();
     // Get instance field reference: private System.Object <Id>k__BackingField

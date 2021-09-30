@@ -36,6 +36,11 @@ namespace Polyglot {
   template<typename T>
   class LocalizedTextComponent_1 : public UnityEngine::MonoBehaviour/*, public Polyglot::ILocalize*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [TooltipAttribute] Offset: 0xEE52CC
     // protected T localizedComponent
     // Size: 0xFFFFFFFF
@@ -62,6 +67,7 @@ namespace Polyglot {
     System::Collections::Generic::List_1<::Il2CppObject*>* parameters;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<::Il2CppObject*>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator Polyglot::ILocalize
     operator Polyglot::ILocalize() noexcept {
       return *reinterpret_cast<Polyglot::ILocalize*>(this);

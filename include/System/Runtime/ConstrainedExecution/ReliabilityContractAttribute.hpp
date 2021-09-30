@@ -25,6 +25,11 @@ namespace System::Runtime::ConstrainedExecution {
   // [AttributeUsageAttribute] Offset: E60284
   class ReliabilityContractAttribute : public System::Attribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Runtime.ConstrainedExecution.Consistency _consistency
     // Size: 0x4
     // Offset: 0x10
@@ -37,6 +42,7 @@ namespace System::Runtime::ConstrainedExecution {
     System::Runtime::ConstrainedExecution::Cer cer;
     // Field size check
     static_assert(sizeof(System::Runtime::ConstrainedExecution::Cer) == 0x4);
+    public:
     // Get instance field reference: private System.Runtime.ConstrainedExecution.Consistency _consistency
     System::Runtime::ConstrainedExecution::Consistency& dyn__consistency();
     // Get instance field reference: private System.Runtime.ConstrainedExecution.Cer _cer

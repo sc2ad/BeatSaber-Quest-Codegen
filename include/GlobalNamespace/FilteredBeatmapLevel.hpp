@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -61,12 +62,17 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::FilteredBeatmapLevel::FilteredBeatmapLevelData
     class FilteredBeatmapLevelData;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private PreviewDifficultyBeatmapSet[] <previewDifficultyBeatmapSets>k__BackingField
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<GlobalNamespace::PreviewDifficultyBeatmapSet*> previewDifficultyBeatmapSets;
+    ::ArrayW<GlobalNamespace::PreviewDifficultyBeatmapSet*> previewDifficultyBeatmapSets;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::PreviewDifficultyBeatmapSet*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::PreviewDifficultyBeatmapSet*>) == 0x8);
     // private IBeatmapLevelData <beatmapLevelData>k__BackingField
     // Size: 0x8
     // Offset: 0x18
@@ -79,12 +85,13 @@ namespace GlobalNamespace {
     GlobalNamespace::IBeatmapLevel* beatmapLevel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IBeatmapLevel*) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IBeatmapLevel
     operator GlobalNamespace::IBeatmapLevel() noexcept {
       return *reinterpret_cast<GlobalNamespace::IBeatmapLevel*>(this);
     }
     // Get instance field reference: private PreviewDifficultyBeatmapSet[] <previewDifficultyBeatmapSets>k__BackingField
-    ::ArrayWrapper<GlobalNamespace::PreviewDifficultyBeatmapSet*>& dyn_$previewDifficultyBeatmapSets$k__BackingField();
+    ::ArrayW<GlobalNamespace::PreviewDifficultyBeatmapSet*>& dyn_$previewDifficultyBeatmapSets$k__BackingField();
     // Get instance field reference: private IBeatmapLevelData <beatmapLevelData>k__BackingField
     GlobalNamespace::IBeatmapLevelData*& dyn_$beatmapLevelData$k__BackingField();
     // Get instance field reference: private readonly IBeatmapLevel _beatmapLevel
@@ -133,10 +140,10 @@ namespace GlobalNamespace {
     GlobalNamespace::EnvironmentInfoSO* get_allDirectionsEnvironmentInfo();
     // public PreviewDifficultyBeatmapSet[] get_previewDifficultyBeatmapSets()
     // Offset: 0x11B6560
-    ::ArrayWrapper<GlobalNamespace::PreviewDifficultyBeatmapSet*> get_previewDifficultyBeatmapSets();
+    ::ArrayW<GlobalNamespace::PreviewDifficultyBeatmapSet*> get_previewDifficultyBeatmapSets();
     // private System.Void set_previewDifficultyBeatmapSets(PreviewDifficultyBeatmapSet[] value)
     // Offset: 0x11B6568
-    void set_previewDifficultyBeatmapSets(::ArrayWrapper<GlobalNamespace::PreviewDifficultyBeatmapSet*> value);
+    void set_previewDifficultyBeatmapSets(::ArrayW<GlobalNamespace::PreviewDifficultyBeatmapSet*> value);
     // public IBeatmapLevelData get_beatmapLevelData()
     // Offset: 0x11B66F8
     GlobalNamespace::IBeatmapLevelData* get_beatmapLevelData();
@@ -281,7 +288,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::FilteredBeatmapLevel::get_previewDifficultyBeatmapSets
 // Il2CppName: get_previewDifficultyBeatmapSets
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::PreviewDifficultyBeatmapSet*> (GlobalNamespace::FilteredBeatmapLevel::*)()>(&GlobalNamespace::FilteredBeatmapLevel::get_previewDifficultyBeatmapSets)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<GlobalNamespace::PreviewDifficultyBeatmapSet*> (GlobalNamespace::FilteredBeatmapLevel::*)()>(&GlobalNamespace::FilteredBeatmapLevel::get_previewDifficultyBeatmapSets)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FilteredBeatmapLevel*), "get_previewDifficultyBeatmapSets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -289,7 +296,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: GlobalNamespace::FilteredBeatmapLevel::set_previewDifficultyBeatmapSets
 // Il2CppName: set_previewDifficultyBeatmapSets
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FilteredBeatmapLevel::*)(::ArrayWrapper<GlobalNamespace::PreviewDifficultyBeatmapSet*>)>(&GlobalNamespace::FilteredBeatmapLevel::set_previewDifficultyBeatmapSets)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::FilteredBeatmapLevel::*)(::ArrayW<GlobalNamespace::PreviewDifficultyBeatmapSet*>)>(&GlobalNamespace::FilteredBeatmapLevel::set_previewDifficultyBeatmapSets)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "PreviewDifficultyBeatmapSet"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FilteredBeatmapLevel*), "set_previewDifficultyBeatmapSets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

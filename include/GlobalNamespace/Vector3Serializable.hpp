@@ -38,6 +38,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Vector3Serializable/*, public System::ValueType, public LiteNetLib::Utils::INetSerializable, public System::IEquatable_1<GlobalNamespace::Vector3Serializable>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 _x
     // Size: 0x4
     // Offset: 0x0
@@ -56,6 +61,7 @@ namespace GlobalNamespace {
     int z;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: Vector3Serializable
     constexpr Vector3Serializable(int x_ = {}, int y_ = {}, int z_ = {}) noexcept : x{x_}, y{y_}, z{z_} {}
     // Creating interface conversion operator: operator System::ValueType

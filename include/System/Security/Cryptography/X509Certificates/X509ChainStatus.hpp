@@ -19,6 +19,11 @@ namespace System::Security::Cryptography::X509Certificates {
   // [TokenAttribute] Offset: FFFFFFFF
   struct X509ChainStatus/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Security.Cryptography.X509Certificates.X509ChainStatusFlags status
     // Size: 0x4
     // Offset: 0x0
@@ -33,6 +38,7 @@ namespace System::Security::Cryptography::X509Certificates {
     ::Il2CppString* info;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Creating value type constructor for type: X509ChainStatus
     constexpr X509ChainStatus(System::Security::Cryptography::X509Certificates::X509ChainStatusFlags status_ = {}, ::Il2CppString* info_ = {}) noexcept : status{status_}, info{info_} {}
     // Creating interface conversion operator: operator System::ValueType

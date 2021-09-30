@@ -48,12 +48,18 @@ namespace UnityEngine::UI {
   // [TokenAttribute] Offset: FFFFFFFF
   class GraphicRegistry : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>> m_Graphics
     // Size: 0x8
     // Offset: 0x10
     System::Collections::Generic::Dictionary_2<UnityEngine::Canvas*, UnityEngine::UI::Collections::IndexedSet_1<UnityEngine::UI::Graphic*>*>* m_Graphics;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<UnityEngine::Canvas*, UnityEngine::UI::Collections::IndexedSet_1<UnityEngine::UI::Graphic*>*>*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Collections::Generic::Dictionary_2<UnityEngine::Canvas*, UnityEngine::UI::Collections::IndexedSet_1<UnityEngine::UI::Graphic*>*>*
     constexpr operator System::Collections::Generic::Dictionary_2<UnityEngine::Canvas*, UnityEngine::UI::Collections::IndexedSet_1<UnityEngine::UI::Graphic*>*>*() const noexcept {
       return m_Graphics;

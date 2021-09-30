@@ -56,12 +56,18 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct EnabledObstacleType/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: EnabledObstacleType
       constexpr EnabledObstacleType(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -102,12 +108,18 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct EnergyType/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: EnergyType
       constexpr EnergyType(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -142,12 +154,18 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct SongSpeed/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: SongSpeed
       constexpr SongSpeed(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -188,6 +206,11 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(GameplayModifiers::SongSpeed), 0 + sizeof(int)> __GlobalNamespace_GameplayModifiers_SongSpeedSizeCheck;
     static_assert(sizeof(GameplayModifiers::SongSpeed) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private GameplayModifiers/EnergyType _energyType
     // Size: 0x4
     // Offset: 0x10
@@ -292,6 +315,7 @@ namespace GlobalNamespace {
     bool smallCubes;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator LiteNetLib::Utils::INetImmutableSerializable_1<GlobalNamespace::GameplayModifiers*>
     operator LiteNetLib::Utils::INetImmutableSerializable_1<GlobalNamespace::GameplayModifiers*>() noexcept {
       return *reinterpret_cast<LiteNetLib::Utils::INetImmutableSerializable_1<GlobalNamespace::GameplayModifiers*>*>(this);

@@ -40,6 +40,11 @@ namespace System::Runtime::Remoting::Lifetime {
   // [TokenAttribute] Offset: FFFFFFFF
   class LeaseManager : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.ArrayList _objects
     // Size: 0x8
     // Offset: 0x10
@@ -52,6 +57,7 @@ namespace System::Runtime::Remoting::Lifetime {
     System::Threading::Timer* timer;
     // Field size check
     static_assert(sizeof(System::Threading::Timer*) == 0x8);
+    public:
     // Get instance field reference: private System.Collections.ArrayList _objects
     System::Collections::ArrayList*& dyn__objects();
     // Get instance field reference: private System.Threading.Timer _timer

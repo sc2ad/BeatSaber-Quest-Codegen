@@ -15,6 +15,7 @@
 #include "System/Runtime/CompilerServices/AsyncTaskMethodBuilder_1.hpp"
 // Including type: System.Runtime.CompilerServices.TaskAwaiter`1
 #include "System/Runtime/CompilerServices/TaskAwaiter_1.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -32,6 +33,11 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   struct UserLoginDtoDataSource::$GetUserFriendsUserIds$d__4/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0
@@ -41,7 +47,7 @@ namespace GlobalNamespace {
     // public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.String[]> <>t__builder
     // Size: 0xFFFFFFFF
     // Offset: 0x8
-    System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::ArrayWrapper<::Il2CppString*>> $$t__builder;
+    System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::ArrayW<::Il2CppString*>> $$t__builder;
     // public UserLoginDtoDataSource <>4__this
     // Size: 0x8
     // Offset: 0x20
@@ -52,8 +58,9 @@ namespace GlobalNamespace {
     // Size: 0xFFFFFFFF
     // Offset: 0x28
     System::Runtime::CompilerServices::TaskAwaiter_1<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*> $$u__1;
+    public:
     // Creating value type constructor for type: $GetUserFriendsUserIds$d__4
-    constexpr $GetUserFriendsUserIds$d__4(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::ArrayWrapper<::Il2CppString*>> $$t__builder_ = {}, GlobalNamespace::UserLoginDtoDataSource* $$4__this_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*> $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, $$u__1{$$u__1_} {}
+    constexpr $GetUserFriendsUserIds$d__4(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::ArrayW<::Il2CppString*>> $$t__builder_ = {}, GlobalNamespace::UserLoginDtoDataSource* $$4__this_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*> $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, $$u__1{$$u__1_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -65,7 +72,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Int32 <>1__state
     int& dyn_$$1__state();
     // Get instance field reference: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.String[]> <>t__builder
-    System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::ArrayWrapper<::Il2CppString*>>& dyn_$$t__builder();
+    System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::ArrayW<::Il2CppString*>>& dyn_$$t__builder();
     // Get instance field reference: public UserLoginDtoDataSource <>4__this
     GlobalNamespace::UserLoginDtoDataSource*& dyn_$$4__this();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<System.Collections.Generic.IReadOnlyList`1<System.String>> <>u__1

@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::CompilerServices
@@ -29,9 +30,9 @@ namespace System::Collections {
   class HashHelpers : public ::Il2CppObject {
     public:
     // Get static field: static public readonly System.Int32[] primes
-    static ::ArrayWrapper<int> _get_primes();
+    static ::ArrayW<int> _get_primes();
     // Set static field: static public readonly System.Int32[] primes
-    static void _set_primes(::ArrayWrapper<int> value);
+    static void _set_primes(::ArrayW<int> value);
     // Get static field: static private System.Runtime.CompilerServices.ConditionalWeakTable`2<System.Object,System.Runtime.Serialization.SerializationInfo> s_SerializationInfoTable
     static System::Runtime::CompilerServices::ConditionalWeakTable_2<::Il2CppObject*, System::Runtime::Serialization::SerializationInfo*>* _get_s_SerializationInfoTable();
     // Set static field: static private System.Runtime.CompilerServices.ConditionalWeakTable`2<System.Object,System.Runtime.Serialization.SerializationInfo> s_SerializationInfoTable

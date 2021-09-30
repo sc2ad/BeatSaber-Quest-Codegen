@@ -30,6 +30,11 @@ namespace System::Threading::Tasks {
   // [CompilerGeneratedAttribute] Offset: E5EE8C
   class TaskToApm::$$c__DisplayClass3_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.AsyncCallback callback
     // Size: 0x8
     // Offset: 0x10
@@ -42,6 +47,7 @@ namespace System::Threading::Tasks {
     System::IAsyncResult* asyncResult;
     // Field size check
     static_assert(sizeof(System::IAsyncResult*) == 0x8);
+    public:
     // Get instance field reference: public System.AsyncCallback callback
     System::AsyncCallback*& dyn_callback();
     // Get instance field reference: public System.IAsyncResult asyncResult

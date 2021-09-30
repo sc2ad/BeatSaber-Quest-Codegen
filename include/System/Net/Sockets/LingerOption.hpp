@@ -18,6 +18,11 @@ namespace System::Net::Sockets {
   // [TokenAttribute] Offset: FFFFFFFF
   class LingerOption : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean enabled
     // Size: 0x1
     // Offset: 0x10
@@ -32,6 +37,7 @@ namespace System::Net::Sockets {
     int lingerTime;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: private System.Boolean enabled
     bool& dyn_enabled();
     // Get instance field reference: private System.Int32 lingerTime

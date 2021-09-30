@@ -29,6 +29,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapObjectAvoidanceTiltEvaluator : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly IAudioTimeSource _audioTimeSource
     // Size: 0x8
     // Offset: 0x10
@@ -59,6 +64,7 @@ namespace GlobalNamespace {
     float currentAcceleration;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // static field const value: static private System.Single kLookAheadTime
     static constexpr const float kLookAheadTime = 0.2;
     // Get static field: static private System.Single kLookAheadTime

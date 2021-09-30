@@ -25,6 +25,11 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class HeaderInfo : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // readonly System.Boolean IsRequestRestricted
     // Size: 0x1
     // Offset: 0x10
@@ -57,6 +62,7 @@ namespace System::Net {
     bool AllowMultiValues;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: readonly System.Boolean IsRequestRestricted
     bool& dyn_IsRequestRestricted();
     // Get instance field reference: readonly System.Boolean IsResponseRestricted

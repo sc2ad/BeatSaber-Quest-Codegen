@@ -6,6 +6,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: SongPackMask
 #include "GlobalNamespace/SongPackMask.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -17,7 +18,7 @@ namespace GlobalNamespace {
     public:
     // public SongPackMask[] DecomposeSongPackMask(SongPackMask songPackMask)
     // Offset: 0xFFFFFFFF
-    ::ArrayWrapper<GlobalNamespace::SongPackMask> DecomposeSongPackMask(GlobalNamespace::SongPackMask songPackMask);
+    ::ArrayW<GlobalNamespace::SongPackMask> DecomposeSongPackMask(GlobalNamespace::SongPackMask songPackMask);
   }; // IServerSongPackProvider
   #pragma pack(pop)
 }
@@ -27,7 +28,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::IServerSongPackProvider*, "", "IServerSo
 // Writing MetadataGetter for method: GlobalNamespace::IServerSongPackProvider::DecomposeSongPackMask
 // Il2CppName: DecomposeSongPackMask
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::SongPackMask> (GlobalNamespace::IServerSongPackProvider::*)(GlobalNamespace::SongPackMask)>(&GlobalNamespace::IServerSongPackProvider::DecomposeSongPackMask)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<GlobalNamespace::SongPackMask> (GlobalNamespace::IServerSongPackProvider::*)(GlobalNamespace::SongPackMask)>(&GlobalNamespace::IServerSongPackProvider::DecomposeSongPackMask)> {
   static const MethodInfo* get() {
     static auto* songPackMask = &::il2cpp_utils::GetClassFromName("", "SongPackMask")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::IServerSongPackProvider*), "DecomposeSongPackMask", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{songPackMask});

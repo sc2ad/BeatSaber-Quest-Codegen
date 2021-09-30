@@ -21,6 +21,11 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E8BA54
   class Motion : public UnityEngine::Object {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [DebuggerBrowsableAttribute] Offset: 0xE8C938
     // private readonly System.Boolean <isAnimatorMotion>k__BackingField
     // Size: 0x1
@@ -28,6 +33,7 @@ namespace UnityEngine {
     bool isAnimatorMotion;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private readonly System.Boolean <isAnimatorMotion>k__BackingField

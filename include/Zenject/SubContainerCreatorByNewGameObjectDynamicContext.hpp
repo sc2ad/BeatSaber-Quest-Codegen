@@ -35,12 +35,18 @@ namespace Zenject {
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
   class SubContainerCreatorByNewGameObjectDynamicContext : public Zenject::SubContainerCreatorDynamicContext {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Zenject.GameObjectCreationParameters _gameObjectBindInfo
     // Size: 0x8
     // Offset: 0x18
     Zenject::GameObjectCreationParameters* gameObjectBindInfo;
     // Field size check
     static_assert(sizeof(Zenject::GameObjectCreationParameters*) == 0x8);
+    public:
     // Deleting conversion operator: operator Zenject::DiContainer*
     constexpr operator Zenject::DiContainer*() const noexcept = delete;
     // Get instance field reference: private readonly Zenject.GameObjectCreationParameters _gameObjectBindInfo

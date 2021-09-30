@@ -22,6 +22,11 @@ namespace UnityEngine::Bindings {
   // [VisibleToOtherModulesAttribute] Offset: FFFFFFFF
   class NativeNameAttribute : public System::Attribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [DebuggerBrowsableAttribute] Offset: 0xE6E09C
     // private System.String <Name>k__BackingField
     // Size: 0x8
@@ -29,6 +34,7 @@ namespace UnityEngine::Bindings {
     ::Il2CppString* Name;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return Name;

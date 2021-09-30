@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Zenject
@@ -53,6 +54,11 @@ namespace Zenject {
     class $$c__DisplayClass6_0;
     // Nested type: Zenject::ConventionBindInfo::$$c__DisplayClass7_0
     class $$c__DisplayClass7_0;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Collections.Generic.List`1<System.Func`2<System.Type,System.Boolean>> _typeFilters
     // Size: 0x8
     // Offset: 0x10
@@ -65,10 +71,11 @@ namespace Zenject {
     System::Collections::Generic::List_1<System::Func_2<System::Reflection::Assembly*, bool>*>* assemblyFilters;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<System::Func_2<System::Reflection::Assembly*, bool>*>*) == 0x8);
+    public:
     // Get static field: static private readonly System.Collections.Generic.Dictionary`2<System.Reflection.Assembly,System.Type[]> _assemblyTypeCache
-    static System::Collections::Generic::Dictionary_2<System::Reflection::Assembly*, ::ArrayWrapper<System::Type*>>* _get__assemblyTypeCache();
+    static System::Collections::Generic::Dictionary_2<System::Reflection::Assembly*, ::ArrayW<System::Type*>>* _get__assemblyTypeCache();
     // Set static field: static private readonly System.Collections.Generic.Dictionary`2<System.Reflection.Assembly,System.Type[]> _assemblyTypeCache
-    static void _set__assemblyTypeCache(System::Collections::Generic::Dictionary_2<System::Reflection::Assembly*, ::ArrayWrapper<System::Type*>>* value);
+    static void _set__assemblyTypeCache(System::Collections::Generic::Dictionary_2<System::Reflection::Assembly*, ::ArrayW<System::Type*>>* value);
     // Get instance field reference: private readonly System.Collections.Generic.List`1<System.Func`2<System.Type,System.Boolean>> _typeFilters
     System::Collections::Generic::List_1<System::Func_2<System::Type*, bool>*>*& dyn__typeFilters();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<System.Func`2<System.Reflection.Assembly,System.Boolean>> _assemblyFilters
@@ -93,7 +100,7 @@ namespace Zenject {
     bool ShouldIncludeType(System::Type* type);
     // private System.Type[] GetTypes(System.Reflection.Assembly assembly)
     // Offset: 0x14FA9A8
-    ::ArrayWrapper<System::Type*> GetTypes(System::Reflection::Assembly* assembly);
+    ::ArrayW<System::Type*> GetTypes(System::Reflection::Assembly* assembly);
     // public System.Collections.Generic.List`1<System.Type> ResolveTypes()
     // Offset: 0x14F8114
     System::Collections::Generic::List_1<System::Type*>* ResolveTypes();
@@ -171,7 +178,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Zenje
 // Writing MetadataGetter for method: Zenject::ConventionBindInfo::GetTypes
 // Il2CppName: GetTypes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::Type*> (Zenject::ConventionBindInfo::*)(System::Reflection::Assembly*)>(&Zenject::ConventionBindInfo::GetTypes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Type*> (Zenject::ConventionBindInfo::*)(System::Reflection::Assembly*)>(&Zenject::ConventionBindInfo::GetTypes)> {
   static const MethodInfo* get() {
     static auto* assembly = &::il2cpp_utils::GetClassFromName("System.Reflection", "Assembly")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionBindInfo*), "GetTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{assembly});

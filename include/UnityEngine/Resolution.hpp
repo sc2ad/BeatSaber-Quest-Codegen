@@ -20,6 +20,11 @@ namespace UnityEngine {
   // [RequiredByNativeCodeAttribute] Offset: E70DD0
   struct Resolution/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 m_Width
     // Size: 0x4
     // Offset: 0x0
@@ -38,6 +43,7 @@ namespace UnityEngine {
     int m_RefreshRate;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: Resolution
     constexpr Resolution(int m_Width_ = {}, int m_Height_ = {}, int m_RefreshRate_ = {}) noexcept : m_Width{m_Width_}, m_Height{m_Height_}, m_RefreshRate{m_RefreshRate_} {}
     // Creating interface conversion operator: operator System::ValueType

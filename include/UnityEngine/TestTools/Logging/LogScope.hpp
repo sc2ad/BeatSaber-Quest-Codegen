@@ -45,6 +45,11 @@ namespace UnityEngine::TestTools::Logging {
     public:
     // Nested type: UnityEngine::TestTools::Logging::LogScope::$$c
     class $$c;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Object m_Lock
     // Size: 0x8
     // Offset: 0x10
@@ -121,6 +126,7 @@ namespace UnityEngine::TestTools::Logging {
     ::Il2CppString* NUnitExceptionMessage;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

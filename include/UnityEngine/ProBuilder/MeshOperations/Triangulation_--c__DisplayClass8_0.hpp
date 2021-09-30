@@ -36,6 +36,11 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class Triangulation::$$c__DisplayClass8_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 index
     // Size: 0x4
     // Offset: 0x10
@@ -50,6 +55,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     System::Func_2<UnityEngine::Vector2, UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*>* $$9__1;
     // Field size check
     static_assert(sizeof(System::Func_2<UnityEngine::Vector2, UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*>*) == 0x8);
+    public:
     // Get instance field reference: public System.Int32 index
     int& dyn_index();
     // Get instance field reference: public System.Func`2<UnityEngine.Vector2,UnityEngine.ProBuilder.Poly2Tri.PolygonPoint> <>9__1

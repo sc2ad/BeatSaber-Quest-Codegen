@@ -39,6 +39,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData
     class PlayerOverallStatsData;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private PlayerAllOverallStatsData/PlayerOverallStatsData <campaignOverallStatsData>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -81,6 +86,7 @@ namespace GlobalNamespace {
     System::Action_2<GlobalNamespace::MissionCompletionResults*, GlobalNamespace::MissionNode*>* didUpdateCampaignOverallStatsDataEvent;
     // Field size check
     static_assert(sizeof(System::Action_2<GlobalNamespace::MissionCompletionResults*, GlobalNamespace::MissionNode*>*) == 0x8);
+    public:
     // Get instance field reference: private PlayerAllOverallStatsData/PlayerOverallStatsData <campaignOverallStatsData>k__BackingField
     GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*& dyn_$campaignOverallStatsData$k__BackingField();
     // Get instance field reference: private PlayerAllOverallStatsData/PlayerOverallStatsData <soloFreePlayOverallStatsData>k__BackingField

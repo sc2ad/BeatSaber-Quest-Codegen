@@ -33,6 +33,11 @@ namespace System::Runtime::CompilerServices {
   // [CompilerGeneratedAttribute] Offset: E6032C
   class AsyncMethodBuilderCore::$$c__DisplayClass4_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Threading.Tasks.Task innerTask
     // Size: 0x8
     // Offset: 0x10
@@ -45,6 +50,7 @@ namespace System::Runtime::CompilerServices {
     System::Action* continuation;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
+    public:
     // Get instance field reference: public System.Threading.Tasks.Task innerTask
     System::Threading::Tasks::Task*& dyn_innerTask();
     // Get instance field reference: public System.Action continuation

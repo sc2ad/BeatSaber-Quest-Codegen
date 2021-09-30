@@ -47,12 +47,18 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     public:
     // Nested type: UnityEngine::TestRunner::NUnitExtensions::Runner::DefaultTestWorkItem::$PerformWork$d__2
     class $PerformWork$d__2;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private NUnit.Framework.Internal.Commands.TestCommand _command
     // Size: 0x8
     // Offset: 0x58
     NUnit::Framework::Internal::Commands::TestCommand* command;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Internal::Commands::TestCommand*) == 0x8);
+    public:
     // Creating conversion operator: operator NUnit::Framework::Internal::Commands::TestCommand*
     constexpr operator NUnit::Framework::Internal::Commands::TestCommand*() const noexcept {
       return command;

@@ -12,6 +12,7 @@
 #include "System/Runtime/Serialization/ISerializable.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection
@@ -51,6 +52,11 @@ namespace System {
   // [ClassInterfaceAttribute] Offset: E5CBF8
   class Delegate : public ::Il2CppObject/*, public System::ICloneable, public System::Runtime::Serialization::ISerializable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.IntPtr method_ptr
     // Size: 0x8
     // Offset: 0x10
@@ -117,6 +123,7 @@ namespace System {
     bool method_is_virtual;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);
@@ -203,13 +210,13 @@ namespace System {
     static System::Delegate* CreateDelegate(System::Type* type, ::Il2CppObject* target, ::Il2CppString* method, bool ignoreCase);
     // public System.Object DynamicInvoke(params System.Object[] args)
     // Offset: 0x1CE9CD8
-    ::Il2CppObject* DynamicInvoke(::ArrayWrapper<::Il2CppObject*> args);
+    ::Il2CppObject* DynamicInvoke(::ArrayW<::Il2CppObject*> args);
     // private System.Void InitializeDelegateData()
     // Offset: 0x1CE9CE4
     void InitializeDelegateData();
     // protected System.Object DynamicInvokeImpl(System.Object[] args)
     // Offset: 0x1CE9DDC
-    ::Il2CppObject* DynamicInvokeImpl(::ArrayWrapper<::Il2CppObject*> args);
+    ::Il2CppObject* DynamicInvokeImpl(::ArrayW<::Il2CppObject*> args);
     // public System.Object Clone()
     // Offset: 0x1CEA0B8
     ::Il2CppObject* Clone();
@@ -221,13 +228,13 @@ namespace System {
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
     // public System.Delegate[] GetInvocationList()
     // Offset: 0x1CEA600
-    ::ArrayWrapper<System::Delegate*> GetInvocationList();
+    ::ArrayW<System::Delegate*> GetInvocationList();
     // static public System.Delegate Combine(System.Delegate a, System.Delegate b)
     // Offset: 0x1CEA6A0
     static System::Delegate* Combine(System::Delegate* a, System::Delegate* b);
     // static public System.Delegate Combine(params System.Delegate[] delegates)
     // Offset: 0x1CEA894
-    static System::Delegate* Combine(::ArrayWrapper<System::Delegate*> delegates);
+    static System::Delegate* Combine(::ArrayW<System::Delegate*> delegates);
     // protected System.Delegate CombineImpl(System.Delegate d)
     // Offset: 0x1CEA90C
     System::Delegate* CombineImpl(System::Delegate* d);
@@ -465,7 +472,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Del
 // Writing MetadataGetter for method: System::Delegate::DynamicInvoke
 // Il2CppName: DynamicInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Delegate::*)(::ArrayWrapper<::Il2CppObject*>)>(&System::Delegate::DynamicInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Delegate::*)(::ArrayW<::Il2CppObject*>)>(&System::Delegate::DynamicInvoke)> {
   static const MethodInfo* get() {
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Delegate*), "DynamicInvoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{args});
@@ -482,7 +489,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Delegate::DynamicInvokeImpl
 // Il2CppName: DynamicInvokeImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Delegate::*)(::ArrayWrapper<::Il2CppObject*>)>(&System::Delegate::DynamicInvokeImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Delegate::*)(::ArrayW<::Il2CppObject*>)>(&System::Delegate::DynamicInvokeImpl)> {
   static const MethodInfo* get() {
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Delegate*), "DynamicInvokeImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{args});
@@ -517,7 +524,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Delegate::GetInvocationList
 // Il2CppName: GetInvocationList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::Delegate*> (System::Delegate::*)()>(&System::Delegate::GetInvocationList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Delegate*> (System::Delegate::*)()>(&System::Delegate::GetInvocationList)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Delegate*), "GetInvocationList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -535,7 +542,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Del
 // Writing MetadataGetter for method: System::Delegate::Combine
 // Il2CppName: Combine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Delegate* (*)(::ArrayWrapper<System::Delegate*>)>(&System::Delegate::Combine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Delegate* (*)(::ArrayW<System::Delegate*>)>(&System::Delegate::Combine)> {
   static const MethodInfo* get() {
     static auto* delegates = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Delegate"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Delegate*), "Combine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{delegates});

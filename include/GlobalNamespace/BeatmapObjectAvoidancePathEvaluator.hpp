@@ -34,6 +34,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapObjectAvoidancePathEvaluator : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Single _jumpStartZ
     // Size: 0x4
     // Offset: 0x10
@@ -88,6 +93,7 @@ namespace GlobalNamespace {
     GlobalNamespace::PlayerTransforms* playerTransforms;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerTransforms*) == 0x8);
+    public:
     // Get instance field reference: private readonly System.Single _jumpStartZ
     float& dyn__jumpStartZ();
     // Get instance field reference: private readonly System.Single _jumpEndZ

@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -45,12 +46,17 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::EnvironmentShaderWarmup::$Start$d__6
     class $Start$d__6;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Material[] _materials
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<UnityEngine::Material*> materials;
+    ::ArrayW<UnityEngine::Material*> materials;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Material*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Material*>) == 0x8);
     // [InjectAttribute] Offset: 0xEFE654
     // private readonly MainCamera _mainCamera
     // Size: 0x8
@@ -71,6 +77,7 @@ namespace GlobalNamespace {
     UnityEngine::Transform* parentingTransform;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Int32 kNumberOfColumns
@@ -86,7 +93,7 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kNumberOfRows
     static void _set_kNumberOfRows(int value);
     // Get instance field reference: private UnityEngine.Material[] _materials
-    ::ArrayWrapper<UnityEngine::Material*>& dyn__materials();
+    ::ArrayW<UnityEngine::Material*>& dyn__materials();
     // Get instance field reference: private readonly MainCamera _mainCamera
     GlobalNamespace::MainCamera*& dyn__mainCamera();
     // Get instance field reference: private readonly GameScenesManager _gameScenesManager

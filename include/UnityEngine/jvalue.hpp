@@ -19,6 +19,11 @@ namespace UnityEngine {
   // [NativeTypeAttribute] Offset: E9B09C
   struct jvalue/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Boolean z
     // Size: 0x1
     // Offset: 0x0
@@ -73,6 +78,7 @@ namespace UnityEngine {
     System::IntPtr l;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
+    public:
     // Creating value type constructor for type: jvalue
     constexpr jvalue(bool z_ = {}, int8_t b_ = {}, ::Il2CppChar c_ = {}, int16_t s_ = {}, int i_ = {}, int64_t j_ = {}, float f_ = {}, double d_ = {}, System::IntPtr l_ = {}) noexcept : z{z_}, b{b_}, c{c_}, s{s_}, i{i_}, j{j_}, f{f_}, d{d_}, l{l_} {}
     // Creating interface conversion operator: operator System::ValueType

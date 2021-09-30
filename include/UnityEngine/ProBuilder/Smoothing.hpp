@@ -9,6 +9,7 @@
 #include "System/Int32.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::ProBuilder
@@ -86,13 +87,13 @@ namespace UnityEngine::ProBuilder {
     static void ApplySmoothingGroups(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>* faces, float angleThreshold);
     // static System.Void ApplySmoothingGroups(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face> faces, System.Single angleThreshold, UnityEngine.Vector3[] normals)
     // Offset: 0x24ECE90
-    static void ApplySmoothingGroups(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>* faces, float angleThreshold, ::ArrayWrapper<UnityEngine::Vector3> normals);
+    static void ApplySmoothingGroups(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>* faces, float angleThreshold, ::ArrayW<UnityEngine::Vector3> normals);
     // static private System.Boolean FindSoftEdgesRecursive(UnityEngine.Vector3[] normals, UnityEngine.ProBuilder.WingedEdge wing, System.Single angleThreshold, System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Face> processed)
     // Offset: 0x24EDB1C
-    static bool FindSoftEdgesRecursive(::ArrayWrapper<UnityEngine::Vector3> normals, UnityEngine::ProBuilder::WingedEdge* wing, float angleThreshold, System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Face*>* processed);
+    static bool FindSoftEdgesRecursive(::ArrayW<UnityEngine::Vector3> normals, UnityEngine::ProBuilder::WingedEdge* wing, float angleThreshold, System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Face*>* processed);
     // static private System.Boolean IsSoftEdge(UnityEngine.Vector3[] normals, UnityEngine.ProBuilder.EdgeLookup left, UnityEngine.ProBuilder.EdgeLookup right, System.Single threshold)
     // Offset: 0x24EDE1C
-    static bool IsSoftEdge(::ArrayWrapper<UnityEngine::Vector3> normals, UnityEngine::ProBuilder::EdgeLookup left, UnityEngine::ProBuilder::EdgeLookup right, float threshold);
+    static bool IsSoftEdge(::ArrayW<UnityEngine::Vector3> normals, UnityEngine::ProBuilder::EdgeLookup left, UnityEngine::ProBuilder::EdgeLookup right, float threshold);
   }; // UnityEngine.ProBuilder.Smoothing
   #pragma pack(pop)
 }
@@ -141,7 +142,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Smoothing::ApplySmoothingGroups
 // Il2CppName: ApplySmoothingGroups
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>*, float, ::ArrayWrapper<UnityEngine::Vector3>)>(&UnityEngine::ProBuilder::Smoothing::ApplySmoothingGroups)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>*, float, ::ArrayW<UnityEngine::Vector3>)>(&UnityEngine::ProBuilder::Smoothing::ApplySmoothingGroups)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
     static auto* faces = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Face")})->byval_arg;
@@ -153,7 +154,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Smoothing::FindSoftEdgesRecursive
 // Il2CppName: FindSoftEdgesRecursive
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayWrapper<UnityEngine::Vector3>, UnityEngine::ProBuilder::WingedEdge*, float, System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Face*>*)>(&UnityEngine::ProBuilder::Smoothing::FindSoftEdgesRecursive)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<UnityEngine::Vector3>, UnityEngine::ProBuilder::WingedEdge*, float, System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Face*>*)>(&UnityEngine::ProBuilder::Smoothing::FindSoftEdgesRecursive)> {
   static const MethodInfo* get() {
     static auto* normals = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
     static auto* wing = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "WingedEdge")->byval_arg;
@@ -165,7 +166,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Smoothing::IsSoftEdge
 // Il2CppName: IsSoftEdge
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayWrapper<UnityEngine::Vector3>, UnityEngine::ProBuilder::EdgeLookup, UnityEngine::ProBuilder::EdgeLookup, float)>(&UnityEngine::ProBuilder::Smoothing::IsSoftEdge)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<UnityEngine::Vector3>, UnityEngine::ProBuilder::EdgeLookup, UnityEngine::ProBuilder::EdgeLookup, float)>(&UnityEngine::ProBuilder::Smoothing::IsSoftEdge)> {
   static const MethodInfo* get() {
     static auto* normals = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
     static auto* left = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "EdgeLookup")->byval_arg;

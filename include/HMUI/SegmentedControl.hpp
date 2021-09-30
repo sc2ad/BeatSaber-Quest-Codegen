@@ -56,6 +56,11 @@ namespace HMUI {
     public:
     // Nested type: HMUI::SegmentedControl::IDataSource
     class IDataSource;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [NullAllowed] Offset: 0xEE1F70
     // private UnityEngine.Transform _separatorPrefab
     // Size: 0x8
@@ -109,6 +114,7 @@ namespace HMUI {
     System::Collections::Generic::Dictionary_2<int, System::Action_1<int>*>* callbacks;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<int, System::Action_1<int>*>*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Transform _separatorPrefab

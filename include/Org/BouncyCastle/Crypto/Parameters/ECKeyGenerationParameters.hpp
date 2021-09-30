@@ -39,6 +39,11 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     public:
     // Writing base type padding for base size: 0x1C to desired offset: 0x20
     char ___base_padding[0x4] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Org.BouncyCastle.Crypto.Parameters.ECDomainParameters domainParams
     // Size: 0x8
     // Offset: 0x20
@@ -51,6 +56,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::DerObjectIdentifier*) == 0x8);
+    public:
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.Parameters.ECDomainParameters domainParams
     Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*& dyn_domainParams();
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier publicKeyParamSet

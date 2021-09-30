@@ -12,6 +12,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -48,7 +49,7 @@ namespace UnityEngine {
     static void Internal_LogException(System::Exception* exception, UnityEngine::Object* obj);
     // public System.Void LogFormat(UnityEngine.LogType logType, UnityEngine.Object context, System.String format, params System.Object[] args)
     // Offset: 0x1CB82A0
-    void LogFormat(UnityEngine::LogType logType, UnityEngine::Object* context, ::Il2CppString* format, ::ArrayWrapper<::Il2CppObject*> args);
+    void LogFormat(UnityEngine::LogType logType, UnityEngine::Object* context, ::Il2CppString* format, ::ArrayW<::Il2CppObject*> args);
     // public System.Void LogException(System.Exception exception, UnityEngine.Object context)
     // Offset: 0x1CB830C
     void LogException(System::Exception* exception, UnityEngine::Object* context);
@@ -91,7 +92,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::DebugLogHandler::LogFormat
 // Il2CppName: LogFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::DebugLogHandler::*)(UnityEngine::LogType, UnityEngine::Object*, ::Il2CppString*, ::ArrayWrapper<::Il2CppObject*>)>(&UnityEngine::DebugLogHandler::LogFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::DebugLogHandler::*)(UnityEngine::LogType, UnityEngine::Object*, ::Il2CppString*, ::ArrayW<::Il2CppObject*>)>(&UnityEngine::DebugLogHandler::LogFormat)> {
   static const MethodInfo* get() {
     static auto* logType = &::il2cpp_utils::GetClassFromName("UnityEngine", "LogType")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("UnityEngine", "Object")->byval_arg;

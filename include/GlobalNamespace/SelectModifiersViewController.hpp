@@ -29,12 +29,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SelectModifiersViewController : public HMUI::ViewController {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private GameplayModifiersPanelController _gameplayModifiersPanelController
     // Size: 0x8
     // Offset: 0x70
     GlobalNamespace::GameplayModifiersPanelController* gameplayModifiersPanelController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayModifiersPanelController*) == 0x8);
+    public:
     // Get instance field reference: private GameplayModifiersPanelController _gameplayModifiersPanelController
     GlobalNamespace::GameplayModifiersPanelController*& dyn__gameplayModifiersPanelController();
     // public GameplayModifiers get_gameplayModifiers()

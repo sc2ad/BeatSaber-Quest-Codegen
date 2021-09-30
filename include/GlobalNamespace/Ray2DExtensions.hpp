@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -26,7 +27,7 @@ namespace GlobalNamespace {
     public:
     // static public System.Int32 CircleIntersections(UnityEngine.Ray2D ray, UnityEngine.Vector2 circleCenter, System.Single radius, System.Single[] distances)
     // Offset: 0x138CB20
-    static int CircleIntersections(UnityEngine::Ray2D ray, UnityEngine::Vector2 circleCenter, float radius, ::ArrayWrapper<float> distances);
+    static int CircleIntersections(UnityEngine::Ray2D ray, UnityEngine::Vector2 circleCenter, float radius, ::ArrayW<float> distances);
   }; // Ray2DExtensions
   #pragma pack(pop)
 }
@@ -36,7 +37,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::Ray2DExtensions*, "", "Ray2DExtensions")
 // Writing MetadataGetter for method: GlobalNamespace::Ray2DExtensions::CircleIntersections
 // Il2CppName: CircleIntersections
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Ray2D, UnityEngine::Vector2, float, ::ArrayWrapper<float>)>(&GlobalNamespace::Ray2DExtensions::CircleIntersections)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Ray2D, UnityEngine::Vector2, float, ::ArrayW<float>)>(&GlobalNamespace::Ray2DExtensions::CircleIntersections)> {
   static const MethodInfo* get() {
     static auto* ray = &::il2cpp_utils::GetClassFromName("UnityEngine", "Ray2D")->byval_arg;
     static auto* circleCenter = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2")->byval_arg;

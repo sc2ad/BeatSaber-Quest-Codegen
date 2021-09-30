@@ -20,6 +20,11 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class FtpStatus : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Net.FtpStatusCode statusCode
     // Size: 0x4
     // Offset: 0x10
@@ -34,6 +39,7 @@ namespace System::Net {
     ::Il2CppString* statusDescription;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: private readonly System.Net.FtpStatusCode statusCode
     System::Net::FtpStatusCode& dyn_statusCode();
     // Get instance field reference: private readonly System.String statusDescription

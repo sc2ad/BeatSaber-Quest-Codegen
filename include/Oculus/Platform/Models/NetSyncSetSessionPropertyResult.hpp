@@ -27,12 +27,18 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class NetSyncSetSessionPropertyResult : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly Oculus.Platform.Models.NetSyncSession Session
     // Size: 0x8
     // Offset: 0x10
     Oculus::Platform::Models::NetSyncSession* Session;
     // Field size check
     static_assert(sizeof(Oculus::Platform::Models::NetSyncSession*) == 0x8);
+    public:
     // Creating conversion operator: operator Oculus::Platform::Models::NetSyncSession*
     constexpr operator Oculus::Platform::Models::NetSyncSession*() const noexcept {
       return Session;

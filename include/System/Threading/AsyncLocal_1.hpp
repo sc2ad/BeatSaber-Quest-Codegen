@@ -30,12 +30,18 @@ namespace System::Threading {
   template<typename T>
   class AsyncLocal_1 : public ::Il2CppObject/*, public System::Threading::IAsyncLocal*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Action`1<System.Threading.AsyncLocalValueChangedArgs`1<T>> m_valueChangedHandler
     // Size: 0x8
     // Offset: 0x0
     System::Action_1<System::Threading::AsyncLocalValueChangedArgs_1<T>>* m_valueChangedHandler;
     // Field size check
     static_assert(sizeof(System::Action_1<System::Threading::AsyncLocalValueChangedArgs_1<T>>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Threading::IAsyncLocal
     operator System::Threading::IAsyncLocal() noexcept {
       return *reinterpret_cast<System::Threading::IAsyncLocal*>(this);

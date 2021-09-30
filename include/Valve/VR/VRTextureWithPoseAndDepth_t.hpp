@@ -18,12 +18,18 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct VRTextureWithPoseAndDepth_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public Valve.VR.VRTextureDepthInfo_t depth
     // Size: 0x50
     // Offset: 0x0
     Valve::VR::VRTextureDepthInfo_t depth;
     // Field size check
     static_assert(sizeof(Valve::VR::VRTextureDepthInfo_t) == 0x50);
+    public:
     // Creating value type constructor for type: VRTextureWithPoseAndDepth_t
     constexpr VRTextureWithPoseAndDepth_t(Valve::VR::VRTextureDepthInfo_t depth_ = {}) noexcept : depth{depth_} {}
     // Creating interface conversion operator: operator System::ValueType

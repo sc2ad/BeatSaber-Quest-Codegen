@@ -40,6 +40,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::HMTask::$RunCoroutine$d__8
     class $RunCoroutine$d__8;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Threading.Thread _thread
     // Size: 0x8
     // Offset: 0x10
@@ -76,6 +81,7 @@ namespace GlobalNamespace {
     bool finished;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private System.Threading.Thread _thread
     System::Threading::Thread*& dyn__thread();
     // Get instance field reference: private System.Action _job

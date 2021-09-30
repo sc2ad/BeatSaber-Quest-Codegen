@@ -29,6 +29,11 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class MatchmakingBrowseResult : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly Oculus.Platform.Models.MatchmakingEnqueueResult EnqueueResult
     // Size: 0x8
     // Offset: 0x10
@@ -41,6 +46,7 @@ namespace Oculus::Platform::Models {
     Oculus::Platform::Models::RoomList* Rooms;
     // Field size check
     static_assert(sizeof(Oculus::Platform::Models::RoomList*) == 0x8);
+    public:
     // Get instance field reference: public readonly Oculus.Platform.Models.MatchmakingEnqueueResult EnqueueResult
     Oculus::Platform::Models::MatchmakingEnqueueResult*& dyn_EnqueueResult();
     // Get instance field reference: public readonly Oculus.Platform.Models.RoomList Rooms

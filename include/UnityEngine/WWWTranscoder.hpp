@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: UnityEngine
 namespace UnityEngine {
@@ -16,68 +17,68 @@ namespace UnityEngine {
   class WWWTranscoder : public ::Il2CppObject {
     public:
     // Get static field: static private System.Byte[] ucHexChars
-    static ::ArrayWrapper<uint8_t> _get_ucHexChars();
+    static ::ArrayW<uint8_t> _get_ucHexChars();
     // Set static field: static private System.Byte[] ucHexChars
-    static void _set_ucHexChars(::ArrayWrapper<uint8_t> value);
+    static void _set_ucHexChars(::ArrayW<uint8_t> value);
     // Get static field: static private System.Byte[] lcHexChars
-    static ::ArrayWrapper<uint8_t> _get_lcHexChars();
+    static ::ArrayW<uint8_t> _get_lcHexChars();
     // Set static field: static private System.Byte[] lcHexChars
-    static void _set_lcHexChars(::ArrayWrapper<uint8_t> value);
+    static void _set_lcHexChars(::ArrayW<uint8_t> value);
     // Get static field: static private System.Byte urlEscapeChar
     static uint8_t _get_urlEscapeChar();
     // Set static field: static private System.Byte urlEscapeChar
     static void _set_urlEscapeChar(uint8_t value);
     // Get static field: static private System.Byte[] urlSpace
-    static ::ArrayWrapper<uint8_t> _get_urlSpace();
+    static ::ArrayW<uint8_t> _get_urlSpace();
     // Set static field: static private System.Byte[] urlSpace
-    static void _set_urlSpace(::ArrayWrapper<uint8_t> value);
+    static void _set_urlSpace(::ArrayW<uint8_t> value);
     // Get static field: static private System.Byte[] dataSpace
-    static ::ArrayWrapper<uint8_t> _get_dataSpace();
+    static ::ArrayW<uint8_t> _get_dataSpace();
     // Set static field: static private System.Byte[] dataSpace
-    static void _set_dataSpace(::ArrayWrapper<uint8_t> value);
+    static void _set_dataSpace(::ArrayW<uint8_t> value);
     // Get static field: static private System.Byte[] urlForbidden
-    static ::ArrayWrapper<uint8_t> _get_urlForbidden();
+    static ::ArrayW<uint8_t> _get_urlForbidden();
     // Set static field: static private System.Byte[] urlForbidden
-    static void _set_urlForbidden(::ArrayWrapper<uint8_t> value);
+    static void _set_urlForbidden(::ArrayW<uint8_t> value);
     // Get static field: static private System.Byte qpEscapeChar
     static uint8_t _get_qpEscapeChar();
     // Set static field: static private System.Byte qpEscapeChar
     static void _set_qpEscapeChar(uint8_t value);
     // Get static field: static private System.Byte[] qpSpace
-    static ::ArrayWrapper<uint8_t> _get_qpSpace();
+    static ::ArrayW<uint8_t> _get_qpSpace();
     // Set static field: static private System.Byte[] qpSpace
-    static void _set_qpSpace(::ArrayWrapper<uint8_t> value);
+    static void _set_qpSpace(::ArrayW<uint8_t> value);
     // Get static field: static private System.Byte[] qpForbidden
-    static ::ArrayWrapper<uint8_t> _get_qpForbidden();
+    static ::ArrayW<uint8_t> _get_qpForbidden();
     // Set static field: static private System.Byte[] qpForbidden
-    static void _set_qpForbidden(::ArrayWrapper<uint8_t> value);
+    static void _set_qpForbidden(::ArrayW<uint8_t> value);
     // static private System.Void .cctor()
     // Offset: 0x25FCBF0
     static void _cctor();
     // static private System.Byte Hex2Byte(System.Byte[] b, System.Int32 offset)
     // Offset: 0x25FC328
-    static uint8_t Hex2Byte(::ArrayWrapper<uint8_t> b, int offset);
+    static uint8_t Hex2Byte(::ArrayW<uint8_t> b, int offset);
     // static private System.Byte[] Byte2Hex(System.Byte b, System.Byte[] hexChars)
     // Offset: 0x25FC3E8
-    static ::ArrayWrapper<uint8_t> Byte2Hex(uint8_t b, ::ArrayWrapper<uint8_t> hexChars);
+    static ::ArrayW<uint8_t> Byte2Hex(uint8_t b, ::ArrayW<uint8_t> hexChars);
     // static public System.Byte[] URLEncode(System.Byte[] toEncode)
     // Offset: 0x25FC0BC
-    static ::ArrayWrapper<uint8_t> URLEncode(::ArrayWrapper<uint8_t> toEncode);
+    static ::ArrayW<uint8_t> URLEncode(::ArrayW<uint8_t> toEncode);
     // static public System.Byte[] Encode(System.Byte[] input, System.Byte escapeChar, System.Byte[] space, System.Byte[] forbidden, System.Boolean uppercase)
     // Offset: 0x25FC4AC
-    static ::ArrayWrapper<uint8_t> Encode(::ArrayWrapper<uint8_t> input, uint8_t escapeChar, ::ArrayWrapper<uint8_t> space, ::ArrayWrapper<uint8_t> forbidden, bool uppercase);
+    static ::ArrayW<uint8_t> Encode(::ArrayW<uint8_t> input, uint8_t escapeChar, ::ArrayW<uint8_t> space, ::ArrayW<uint8_t> forbidden, bool uppercase);
     // static private System.Boolean ByteArrayContains(System.Byte[] array, System.Byte b)
     // Offset: 0x25FC800
-    static bool ByteArrayContains(::ArrayWrapper<uint8_t> array, uint8_t b);
+    static bool ByteArrayContains(::ArrayW<uint8_t> array, uint8_t b);
     // static public System.Byte[] URLDecode(System.Byte[] toEncode)
     // Offset: 0x25FC84C
-    static ::ArrayWrapper<uint8_t> URLDecode(::ArrayWrapper<uint8_t> toEncode);
+    static ::ArrayW<uint8_t> URLDecode(::ArrayW<uint8_t> toEncode);
     // static private System.Boolean ByteSubArrayEquals(System.Byte[] array, System.Int32 index, System.Byte[] comperand)
     // Offset: 0x25FCB68
-    static bool ByteSubArrayEquals(::ArrayWrapper<uint8_t> array, int index, ::ArrayWrapper<uint8_t> comperand);
+    static bool ByteSubArrayEquals(::ArrayW<uint8_t> array, int index, ::ArrayW<uint8_t> comperand);
     // static public System.Byte[] Decode(System.Byte[] input, System.Byte escapeChar, System.Byte[] space)
     // Offset: 0x25FC8C0
-    static ::ArrayWrapper<uint8_t> Decode(::ArrayWrapper<uint8_t> input, uint8_t escapeChar, ::ArrayWrapper<uint8_t> space);
+    static ::ArrayW<uint8_t> Decode(::ArrayW<uint8_t> input, uint8_t escapeChar, ::ArrayW<uint8_t> space);
   }; // UnityEngine.WWWTranscoder
   #pragma pack(pop)
 }
@@ -95,7 +96,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::WWWTranscoder::Hex2Byte
 // Il2CppName: Hex2Byte
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(::ArrayWrapper<uint8_t>, int)>(&UnityEngine::WWWTranscoder::Hex2Byte)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(::ArrayW<uint8_t>, int)>(&UnityEngine::WWWTranscoder::Hex2Byte)> {
   static const MethodInfo* get() {
     static auto* b = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -105,7 +106,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)
 // Writing MetadataGetter for method: UnityEngine::WWWTranscoder::Byte2Hex
 // Il2CppName: Byte2Hex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(uint8_t, ::ArrayWrapper<uint8_t>)>(&UnityEngine::WWWTranscoder::Byte2Hex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(uint8_t, ::ArrayW<uint8_t>)>(&UnityEngine::WWWTranscoder::Byte2Hex)> {
   static const MethodInfo* get() {
     static auto* b = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
     static auto* hexChars = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -115,7 +116,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::WWWTranscoder::URLEncode
 // Il2CppName: URLEncode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(::ArrayWrapper<uint8_t>)>(&UnityEngine::WWWTranscoder::URLEncode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(::ArrayW<uint8_t>)>(&UnityEngine::WWWTranscoder::URLEncode)> {
   static const MethodInfo* get() {
     static auto* toEncode = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::WWWTranscoder*), "URLEncode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{toEncode});
@@ -124,7 +125,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::WWWTranscoder::Encode
 // Il2CppName: Encode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(::ArrayWrapper<uint8_t>, uint8_t, ::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>, bool)>(&UnityEngine::WWWTranscoder::Encode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(::ArrayW<uint8_t>, uint8_t, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>, bool)>(&UnityEngine::WWWTranscoder::Encode)> {
   static const MethodInfo* get() {
     static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* escapeChar = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
@@ -137,7 +138,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::WWWTranscoder::ByteArrayContains
 // Il2CppName: ByteArrayContains
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayWrapper<uint8_t>, uint8_t)>(&UnityEngine::WWWTranscoder::ByteArrayContains)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<uint8_t>, uint8_t)>(&UnityEngine::WWWTranscoder::ByteArrayContains)> {
   static const MethodInfo* get() {
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* b = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
@@ -147,7 +148,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: UnityEngine::WWWTranscoder::URLDecode
 // Il2CppName: URLDecode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(::ArrayWrapper<uint8_t>)>(&UnityEngine::WWWTranscoder::URLDecode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(::ArrayW<uint8_t>)>(&UnityEngine::WWWTranscoder::URLDecode)> {
   static const MethodInfo* get() {
     static auto* toEncode = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::WWWTranscoder*), "URLDecode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{toEncode});
@@ -156,7 +157,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::WWWTranscoder::ByteSubArrayEquals
 // Il2CppName: ByteSubArrayEquals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayWrapper<uint8_t>, int, ::ArrayWrapper<uint8_t>)>(&UnityEngine::WWWTranscoder::ByteSubArrayEquals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<uint8_t>, int, ::ArrayW<uint8_t>)>(&UnityEngine::WWWTranscoder::ByteSubArrayEquals)> {
   static const MethodInfo* get() {
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -167,7 +168,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: UnityEngine::WWWTranscoder::Decode
 // Il2CppName: Decode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(::ArrayWrapper<uint8_t>, uint8_t, ::ArrayWrapper<uint8_t>)>(&UnityEngine::WWWTranscoder::Decode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(::ArrayW<uint8_t>, uint8_t, ::ArrayW<uint8_t>)>(&UnityEngine::WWWTranscoder::Decode)> {
   static const MethodInfo* get() {
     static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* escapeChar = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;

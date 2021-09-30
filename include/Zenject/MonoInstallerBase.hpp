@@ -30,12 +30,18 @@ namespace Zenject {
   // [DebuggerStepThroughAttribute] Offset: FFFFFFFF
   class MonoInstallerBase : public UnityEngine::MonoBehaviour/*, public Zenject::IInstaller*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Zenject.DiContainer <Container>k__BackingField
     // Size: 0x8
     // Offset: 0x18
     Zenject::DiContainer* Container;
     // Field size check
     static_assert(sizeof(Zenject::DiContainer*) == 0x8);
+    public:
     // Creating interface conversion operator: operator Zenject::IInstaller
     operator Zenject::IInstaller() noexcept {
       return *reinterpret_cast<Zenject::IInstaller*>(this);

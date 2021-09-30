@@ -43,6 +43,11 @@ namespace GlobalNamespace {
     class InitData;
     // Nested type: GlobalNamespace::ScoreUIController::ScoreDisplayType
     struct ScoreDisplayType;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private TMPro.TextMeshProUGUI _scoreText
     // Size: 0x8
     // Offset: 0x18
@@ -69,6 +74,7 @@ namespace GlobalNamespace {
     System::Text::StringBuilder* stringBuilder;
     // Field size check
     static_assert(sizeof(System::Text::StringBuilder*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Int32 kMaxNumberOfDigits

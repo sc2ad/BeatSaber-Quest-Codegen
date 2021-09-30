@@ -7,6 +7,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.RaycastHit
 #include "UnityEngine/RaycastHit.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -108,67 +109,67 @@ namespace UnityEngine {
     static bool SphereCast(UnityEngine::Vector3 origin, float radius, UnityEngine::Vector3 direction, ByRef<UnityEngine::RaycastHit> hitInfo, float maxDistance, int layerMask);
     // static private UnityEngine.RaycastHit[] Internal_RaycastAll(UnityEngine.PhysicsScene physicsScene, UnityEngine.Ray ray, System.Single maxDistance, System.Int32 mask, UnityEngine.QueryTriggerInteraction queryTriggerInteraction)
     // Offset: 0x260D57C
-    static ::ArrayWrapper<UnityEngine::RaycastHit> Internal_RaycastAll(UnityEngine::PhysicsScene physicsScene, UnityEngine::Ray ray, float maxDistance, int mask, UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
+    static ::ArrayW<UnityEngine::RaycastHit> Internal_RaycastAll(UnityEngine::PhysicsScene physicsScene, UnityEngine::Ray ray, float maxDistance, int mask, UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
     // static public UnityEngine.RaycastHit[] RaycastAll(UnityEngine.Vector3 origin, UnityEngine.Vector3 direction, System.Single maxDistance, System.Int32 layerMask, UnityEngine.QueryTriggerInteraction queryTriggerInteraction)
     // Offset: 0x260D668
-    static ::ArrayWrapper<UnityEngine::RaycastHit> RaycastAll(UnityEngine::Vector3 origin, UnityEngine::Vector3 direction, float maxDistance, int layerMask, UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
+    static ::ArrayW<UnityEngine::RaycastHit> RaycastAll(UnityEngine::Vector3 origin, UnityEngine::Vector3 direction, float maxDistance, int layerMask, UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
     // static public UnityEngine.RaycastHit[] RaycastAll(UnityEngine.Vector3 origin, UnityEngine.Vector3 direction, System.Single maxDistance, System.Int32 layerMask)
     // Offset: 0x260D814
-    static ::ArrayWrapper<UnityEngine::RaycastHit> RaycastAll(UnityEngine::Vector3 origin, UnityEngine::Vector3 direction, float maxDistance, int layerMask);
+    static ::ArrayW<UnityEngine::RaycastHit> RaycastAll(UnityEngine::Vector3 origin, UnityEngine::Vector3 direction, float maxDistance, int layerMask);
     // static public UnityEngine.RaycastHit[] RaycastAll(UnityEngine.Vector3 origin, UnityEngine.Vector3 direction, System.Single maxDistance)
     // Offset: 0x260D81C
-    static ::ArrayWrapper<UnityEngine::RaycastHit> RaycastAll(UnityEngine::Vector3 origin, UnityEngine::Vector3 direction, float maxDistance);
+    static ::ArrayW<UnityEngine::RaycastHit> RaycastAll(UnityEngine::Vector3 origin, UnityEngine::Vector3 direction, float maxDistance);
     // static public UnityEngine.RaycastHit[] RaycastAll(UnityEngine.Vector3 origin, UnityEngine.Vector3 direction)
     // Offset: 0x260D828
-    static ::ArrayWrapper<UnityEngine::RaycastHit> RaycastAll(UnityEngine::Vector3 origin, UnityEngine::Vector3 direction);
+    static ::ArrayW<UnityEngine::RaycastHit> RaycastAll(UnityEngine::Vector3 origin, UnityEngine::Vector3 direction);
     // static public UnityEngine.RaycastHit[] RaycastAll(UnityEngine.Ray ray, System.Single maxDistance, System.Int32 layerMask, UnityEngine.QueryTriggerInteraction queryTriggerInteraction)
     // Offset: 0x260D83C
-    static ::ArrayWrapper<UnityEngine::RaycastHit> RaycastAll(UnityEngine::Ray ray, float maxDistance, int layerMask, UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
+    static ::ArrayW<UnityEngine::RaycastHit> RaycastAll(UnityEngine::Ray ray, float maxDistance, int layerMask, UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
     // static public UnityEngine.RaycastHit[] RaycastAll(UnityEngine.Ray ray, System.Single maxDistance, System.Int32 layerMask)
     // Offset: 0x260D8C0
-    static ::ArrayWrapper<UnityEngine::RaycastHit> RaycastAll(UnityEngine::Ray ray, float maxDistance, int layerMask);
+    static ::ArrayW<UnityEngine::RaycastHit> RaycastAll(UnityEngine::Ray ray, float maxDistance, int layerMask);
     // static public UnityEngine.RaycastHit[] RaycastAll(UnityEngine.Ray ray, System.Single maxDistance)
     // Offset: 0x260D938
-    static ::ArrayWrapper<UnityEngine::RaycastHit> RaycastAll(UnityEngine::Ray ray, float maxDistance);
+    static ::ArrayW<UnityEngine::RaycastHit> RaycastAll(UnityEngine::Ray ray, float maxDistance);
     // static public UnityEngine.RaycastHit[] RaycastAll(UnityEngine.Ray ray)
     // Offset: 0x260D9AC
-    static ::ArrayWrapper<UnityEngine::RaycastHit> RaycastAll(UnityEngine::Ray ray);
+    static ::ArrayW<UnityEngine::RaycastHit> RaycastAll(UnityEngine::Ray ray);
     // static public System.Int32 RaycastNonAlloc(UnityEngine.Ray ray, UnityEngine.RaycastHit[] results, System.Single maxDistance, System.Int32 layerMask, UnityEngine.QueryTriggerInteraction queryTriggerInteraction)
     // Offset: 0x260DA20
-    static int RaycastNonAlloc(UnityEngine::Ray ray, ::ArrayWrapper<UnityEngine::RaycastHit> results, float maxDistance, int layerMask, UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
+    static int RaycastNonAlloc(UnityEngine::Ray ray, ::ArrayW<UnityEngine::RaycastHit> results, float maxDistance, int layerMask, UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
     // static public System.Int32 RaycastNonAlloc(UnityEngine.Ray ray, UnityEngine.RaycastHit[] results, System.Single maxDistance, System.Int32 layerMask)
     // Offset: 0x260DC10
-    static int RaycastNonAlloc(UnityEngine::Ray ray, ::ArrayWrapper<UnityEngine::RaycastHit> results, float maxDistance, int layerMask);
+    static int RaycastNonAlloc(UnityEngine::Ray ray, ::ArrayW<UnityEngine::RaycastHit> results, float maxDistance, int layerMask);
     // static public System.Int32 RaycastNonAlloc(UnityEngine.Ray ray, UnityEngine.RaycastHit[] results, System.Single maxDistance)
     // Offset: 0x260DCE4
-    static int RaycastNonAlloc(UnityEngine::Ray ray, ::ArrayWrapper<UnityEngine::RaycastHit> results, float maxDistance);
+    static int RaycastNonAlloc(UnityEngine::Ray ray, ::ArrayW<UnityEngine::RaycastHit> results, float maxDistance);
     // static public System.Int32 RaycastNonAlloc(UnityEngine.Ray ray, UnityEngine.RaycastHit[] results)
     // Offset: 0x260DDB4
-    static int RaycastNonAlloc(UnityEngine::Ray ray, ::ArrayWrapper<UnityEngine::RaycastHit> results);
+    static int RaycastNonAlloc(UnityEngine::Ray ray, ::ArrayW<UnityEngine::RaycastHit> results);
     // static public System.Int32 RaycastNonAlloc(UnityEngine.Vector3 origin, UnityEngine.Vector3 direction, UnityEngine.RaycastHit[] results, System.Single maxDistance, System.Int32 layerMask, UnityEngine.QueryTriggerInteraction queryTriggerInteraction)
     // Offset: 0x260DE84
-    static int RaycastNonAlloc(UnityEngine::Vector3 origin, UnityEngine::Vector3 direction, ::ArrayWrapper<UnityEngine::RaycastHit> results, float maxDistance, int layerMask, UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
+    static int RaycastNonAlloc(UnityEngine::Vector3 origin, UnityEngine::Vector3 direction, ::ArrayW<UnityEngine::RaycastHit> results, float maxDistance, int layerMask, UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
     // static public System.Int32 RaycastNonAlloc(UnityEngine.Vector3 origin, UnityEngine.Vector3 direction, UnityEngine.RaycastHit[] results, System.Single maxDistance, System.Int32 layerMask)
     // Offset: 0x260DF5C
-    static int RaycastNonAlloc(UnityEngine::Vector3 origin, UnityEngine::Vector3 direction, ::ArrayWrapper<UnityEngine::RaycastHit> results, float maxDistance, int layerMask);
+    static int RaycastNonAlloc(UnityEngine::Vector3 origin, UnityEngine::Vector3 direction, ::ArrayW<UnityEngine::RaycastHit> results, float maxDistance, int layerMask);
     // static public System.Int32 RaycastNonAlloc(UnityEngine.Vector3 origin, UnityEngine.Vector3 direction, UnityEngine.RaycastHit[] results, System.Single maxDistance)
     // Offset: 0x260E030
-    static int RaycastNonAlloc(UnityEngine::Vector3 origin, UnityEngine::Vector3 direction, ::ArrayWrapper<UnityEngine::RaycastHit> results, float maxDistance);
+    static int RaycastNonAlloc(UnityEngine::Vector3 origin, UnityEngine::Vector3 direction, ::ArrayW<UnityEngine::RaycastHit> results, float maxDistance);
     // static public System.Int32 RaycastNonAlloc(UnityEngine.Vector3 origin, UnityEngine.Vector3 direction, UnityEngine.RaycastHit[] results)
     // Offset: 0x260E0F8
-    static int RaycastNonAlloc(UnityEngine::Vector3 origin, UnityEngine::Vector3 direction, ::ArrayWrapper<UnityEngine::RaycastHit> results);
+    static int RaycastNonAlloc(UnityEngine::Vector3 origin, UnityEngine::Vector3 direction, ::ArrayW<UnityEngine::RaycastHit> results);
     // static private UnityEngine.RaycastHit[] Query_SphereCastAll(UnityEngine.PhysicsScene physicsScene, UnityEngine.Vector3 origin, System.Single radius, UnityEngine.Vector3 direction, System.Single maxDistance, System.Int32 mask, UnityEngine.QueryTriggerInteraction queryTriggerInteraction)
     // Offset: 0x260E1B8
-    static ::ArrayWrapper<UnityEngine::RaycastHit> Query_SphereCastAll(UnityEngine::PhysicsScene physicsScene, UnityEngine::Vector3 origin, float radius, UnityEngine::Vector3 direction, float maxDistance, int mask, UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
+    static ::ArrayW<UnityEngine::RaycastHit> Query_SphereCastAll(UnityEngine::PhysicsScene physicsScene, UnityEngine::Vector3 origin, float radius, UnityEngine::Vector3 direction, float maxDistance, int mask, UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
     // static public UnityEngine.RaycastHit[] SphereCastAll(UnityEngine.Vector3 origin, System.Single radius, UnityEngine.Vector3 direction, System.Single maxDistance, System.Int32 layerMask, UnityEngine.QueryTriggerInteraction queryTriggerInteraction)
     // Offset: 0x260E2D4
-    static ::ArrayWrapper<UnityEngine::RaycastHit> SphereCastAll(UnityEngine::Vector3 origin, float radius, UnityEngine::Vector3 direction, float maxDistance, int layerMask, UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
+    static ::ArrayW<UnityEngine::RaycastHit> SphereCastAll(UnityEngine::Vector3 origin, float radius, UnityEngine::Vector3 direction, float maxDistance, int layerMask, UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
     // static public UnityEngine.RaycastHit[] SphereCastAll(UnityEngine.Ray ray, System.Single radius, System.Single maxDistance, System.Int32 layerMask, UnityEngine.QueryTriggerInteraction queryTriggerInteraction)
     // Offset: 0x260E448
-    static ::ArrayWrapper<UnityEngine::RaycastHit> SphereCastAll(UnityEngine::Ray ray, float radius, float maxDistance, int layerMask, UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
+    static ::ArrayW<UnityEngine::RaycastHit> SphereCastAll(UnityEngine::Ray ray, float radius, float maxDistance, int layerMask, UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
     // static public UnityEngine.RaycastHit[] SphereCastAll(UnityEngine.Ray ray, System.Single radius, System.Single maxDistance, System.Int32 layerMask)
     // Offset: 0x260E4DC
-    static ::ArrayWrapper<UnityEngine::RaycastHit> SphereCastAll(UnityEngine::Ray ray, float radius, float maxDistance, int layerMask);
+    static ::ArrayW<UnityEngine::RaycastHit> SphereCastAll(UnityEngine::Ray ray, float radius, float maxDistance, int layerMask);
     // static private System.Boolean CheckSphere_Internal(UnityEngine.PhysicsScene physicsScene, UnityEngine.Vector3 position, System.Single radius, System.Int32 layerMask, UnityEngine.QueryTriggerInteraction queryTriggerInteraction)
     // Offset: 0x260E510
     static bool CheckSphere_Internal(UnityEngine::PhysicsScene physicsScene, UnityEngine::Vector3 position, float radius, int layerMask, UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
@@ -189,10 +190,10 @@ namespace UnityEngine {
     static bool CheckCapsule(UnityEngine::Vector3 start, UnityEngine::Vector3 end, float radius, int layerMask);
     // static public System.Int32 OverlapBoxNonAlloc(UnityEngine.Vector3 center, UnityEngine.Vector3 halfExtents, UnityEngine.Collider[] results, UnityEngine.Quaternion orientation, System.Int32 mask, UnityEngine.QueryTriggerInteraction queryTriggerInteraction)
     // Offset: 0x260E88C
-    static int OverlapBoxNonAlloc(UnityEngine::Vector3 center, UnityEngine::Vector3 halfExtents, ::ArrayWrapper<UnityEngine::Collider*> results, UnityEngine::Quaternion orientation, int mask, UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
+    static int OverlapBoxNonAlloc(UnityEngine::Vector3 center, UnityEngine::Vector3 halfExtents, ::ArrayW<UnityEngine::Collider*> results, UnityEngine::Quaternion orientation, int mask, UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
     // static public System.Int32 OverlapBoxNonAlloc(UnityEngine.Vector3 center, UnityEngine.Vector3 halfExtents, UnityEngine.Collider[] results, UnityEngine.Quaternion orientation, System.Int32 mask)
     // Offset: 0x260E974
-    static int OverlapBoxNonAlloc(UnityEngine::Vector3 center, UnityEngine::Vector3 halfExtents, ::ArrayWrapper<UnityEngine::Collider*> results, UnityEngine::Quaternion orientation, int mask);
+    static int OverlapBoxNonAlloc(UnityEngine::Vector3 center, UnityEngine::Vector3 halfExtents, ::ArrayW<UnityEngine::Collider*> results, UnityEngine::Quaternion orientation, int mask);
     // static private System.Void get_gravity_Injected(out UnityEngine.Vector3 ret)
     // Offset: 0x260C254
     static void get_gravity_Injected(ByRef<UnityEngine::Vector3> ret);
@@ -201,10 +202,10 @@ namespace UnityEngine {
     static void get_defaultPhysicsScene_Injected(ByRef<UnityEngine::PhysicsScene> ret);
     // static private UnityEngine.RaycastHit[] Internal_RaycastAll_Injected(ref UnityEngine.PhysicsScene physicsScene, ref UnityEngine.Ray ray, System.Single maxDistance, System.Int32 mask, UnityEngine.QueryTriggerInteraction queryTriggerInteraction)
     // Offset: 0x260D5F0
-    static ::ArrayWrapper<UnityEngine::RaycastHit> Internal_RaycastAll_Injected(ByRef<UnityEngine::PhysicsScene> physicsScene, ByRef<UnityEngine::Ray> ray, float maxDistance, int mask, UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
+    static ::ArrayW<UnityEngine::RaycastHit> Internal_RaycastAll_Injected(ByRef<UnityEngine::PhysicsScene> physicsScene, ByRef<UnityEngine::Ray> ray, float maxDistance, int mask, UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
     // static private UnityEngine.RaycastHit[] Query_SphereCastAll_Injected(ref UnityEngine.PhysicsScene physicsScene, ref UnityEngine.Vector3 origin, System.Single radius, ref UnityEngine.Vector3 direction, System.Single maxDistance, System.Int32 mask, UnityEngine.QueryTriggerInteraction queryTriggerInteraction)
     // Offset: 0x260E24C
-    static ::ArrayWrapper<UnityEngine::RaycastHit> Query_SphereCastAll_Injected(ByRef<UnityEngine::PhysicsScene> physicsScene, ByRef<UnityEngine::Vector3> origin, float radius, ByRef<UnityEngine::Vector3> direction, float maxDistance, int mask, UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
+    static ::ArrayW<UnityEngine::RaycastHit> Query_SphereCastAll_Injected(ByRef<UnityEngine::PhysicsScene> physicsScene, ByRef<UnityEngine::Vector3> origin, float radius, ByRef<UnityEngine::Vector3> direction, float maxDistance, int mask, UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
     // static private System.Boolean CheckSphere_Internal_Injected(ref UnityEngine.PhysicsScene physicsScene, ref UnityEngine.Vector3 position, System.Single radius, System.Int32 layerMask, UnityEngine.QueryTriggerInteraction queryTriggerInteraction)
     // Offset: 0x260E594
     static bool CheckSphere_Internal_Injected(ByRef<UnityEngine::PhysicsScene> physicsScene, ByRef<UnityEngine::Vector3> position, float radius, int layerMask, UnityEngine::QueryTriggerInteraction queryTriggerInteraction);
@@ -501,7 +502,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Physics::Internal_RaycastAll
 // Il2CppName: Internal_RaycastAll
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::RaycastHit> (*)(UnityEngine::PhysicsScene, UnityEngine::Ray, float, int, UnityEngine::QueryTriggerInteraction)>(&UnityEngine::Physics::Internal_RaycastAll)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::RaycastHit> (*)(UnityEngine::PhysicsScene, UnityEngine::Ray, float, int, UnityEngine::QueryTriggerInteraction)>(&UnityEngine::Physics::Internal_RaycastAll)> {
   static const MethodInfo* get() {
     static auto* physicsScene = &::il2cpp_utils::GetClassFromName("UnityEngine", "PhysicsScene")->byval_arg;
     static auto* ray = &::il2cpp_utils::GetClassFromName("UnityEngine", "Ray")->byval_arg;
@@ -514,7 +515,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::Physics::RaycastAll
 // Il2CppName: RaycastAll
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::RaycastHit> (*)(UnityEngine::Vector3, UnityEngine::Vector3, float, int, UnityEngine::QueryTriggerInteraction)>(&UnityEngine::Physics::RaycastAll)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::RaycastHit> (*)(UnityEngine::Vector3, UnityEngine::Vector3, float, int, UnityEngine::QueryTriggerInteraction)>(&UnityEngine::Physics::RaycastAll)> {
   static const MethodInfo* get() {
     static auto* origin = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* direction = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -527,7 +528,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::Physics::RaycastAll
 // Il2CppName: RaycastAll
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::RaycastHit> (*)(UnityEngine::Vector3, UnityEngine::Vector3, float, int)>(&UnityEngine::Physics::RaycastAll)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::RaycastHit> (*)(UnityEngine::Vector3, UnityEngine::Vector3, float, int)>(&UnityEngine::Physics::RaycastAll)> {
   static const MethodInfo* get() {
     static auto* origin = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* direction = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -539,7 +540,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::Physics::RaycastAll
 // Il2CppName: RaycastAll
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::RaycastHit> (*)(UnityEngine::Vector3, UnityEngine::Vector3, float)>(&UnityEngine::Physics::RaycastAll)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::RaycastHit> (*)(UnityEngine::Vector3, UnityEngine::Vector3, float)>(&UnityEngine::Physics::RaycastAll)> {
   static const MethodInfo* get() {
     static auto* origin = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* direction = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -550,7 +551,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::Physics::RaycastAll
 // Il2CppName: RaycastAll
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::RaycastHit> (*)(UnityEngine::Vector3, UnityEngine::Vector3)>(&UnityEngine::Physics::RaycastAll)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::RaycastHit> (*)(UnityEngine::Vector3, UnityEngine::Vector3)>(&UnityEngine::Physics::RaycastAll)> {
   static const MethodInfo* get() {
     static auto* origin = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* direction = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -560,7 +561,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::Physics::RaycastAll
 // Il2CppName: RaycastAll
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::RaycastHit> (*)(UnityEngine::Ray, float, int, UnityEngine::QueryTriggerInteraction)>(&UnityEngine::Physics::RaycastAll)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::RaycastHit> (*)(UnityEngine::Ray, float, int, UnityEngine::QueryTriggerInteraction)>(&UnityEngine::Physics::RaycastAll)> {
   static const MethodInfo* get() {
     static auto* ray = &::il2cpp_utils::GetClassFromName("UnityEngine", "Ray")->byval_arg;
     static auto* maxDistance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -572,7 +573,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::Physics::RaycastAll
 // Il2CppName: RaycastAll
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::RaycastHit> (*)(UnityEngine::Ray, float, int)>(&UnityEngine::Physics::RaycastAll)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::RaycastHit> (*)(UnityEngine::Ray, float, int)>(&UnityEngine::Physics::RaycastAll)> {
   static const MethodInfo* get() {
     static auto* ray = &::il2cpp_utils::GetClassFromName("UnityEngine", "Ray")->byval_arg;
     static auto* maxDistance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -583,7 +584,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::Physics::RaycastAll
 // Il2CppName: RaycastAll
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::RaycastHit> (*)(UnityEngine::Ray, float)>(&UnityEngine::Physics::RaycastAll)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::RaycastHit> (*)(UnityEngine::Ray, float)>(&UnityEngine::Physics::RaycastAll)> {
   static const MethodInfo* get() {
     static auto* ray = &::il2cpp_utils::GetClassFromName("UnityEngine", "Ray")->byval_arg;
     static auto* maxDistance = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -593,7 +594,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::Physics::RaycastAll
 // Il2CppName: RaycastAll
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::RaycastHit> (*)(UnityEngine::Ray)>(&UnityEngine::Physics::RaycastAll)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::RaycastHit> (*)(UnityEngine::Ray)>(&UnityEngine::Physics::RaycastAll)> {
   static const MethodInfo* get() {
     static auto* ray = &::il2cpp_utils::GetClassFromName("UnityEngine", "Ray")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Physics*), "RaycastAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ray});
@@ -602,7 +603,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::Physics::RaycastNonAlloc
 // Il2CppName: RaycastNonAlloc
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Ray, ::ArrayWrapper<UnityEngine::RaycastHit>, float, int, UnityEngine::QueryTriggerInteraction)>(&UnityEngine::Physics::RaycastNonAlloc)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Ray, ::ArrayW<UnityEngine::RaycastHit>, float, int, UnityEngine::QueryTriggerInteraction)>(&UnityEngine::Physics::RaycastNonAlloc)> {
   static const MethodInfo* get() {
     static auto* ray = &::il2cpp_utils::GetClassFromName("UnityEngine", "Ray")->byval_arg;
     static auto* results = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "RaycastHit"), 1)->byval_arg;
@@ -615,7 +616,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Uni
 // Writing MetadataGetter for method: UnityEngine::Physics::RaycastNonAlloc
 // Il2CppName: RaycastNonAlloc
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Ray, ::ArrayWrapper<UnityEngine::RaycastHit>, float, int)>(&UnityEngine::Physics::RaycastNonAlloc)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Ray, ::ArrayW<UnityEngine::RaycastHit>, float, int)>(&UnityEngine::Physics::RaycastNonAlloc)> {
   static const MethodInfo* get() {
     static auto* ray = &::il2cpp_utils::GetClassFromName("UnityEngine", "Ray")->byval_arg;
     static auto* results = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "RaycastHit"), 1)->byval_arg;
@@ -627,7 +628,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Uni
 // Writing MetadataGetter for method: UnityEngine::Physics::RaycastNonAlloc
 // Il2CppName: RaycastNonAlloc
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Ray, ::ArrayWrapper<UnityEngine::RaycastHit>, float)>(&UnityEngine::Physics::RaycastNonAlloc)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Ray, ::ArrayW<UnityEngine::RaycastHit>, float)>(&UnityEngine::Physics::RaycastNonAlloc)> {
   static const MethodInfo* get() {
     static auto* ray = &::il2cpp_utils::GetClassFromName("UnityEngine", "Ray")->byval_arg;
     static auto* results = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "RaycastHit"), 1)->byval_arg;
@@ -638,7 +639,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Uni
 // Writing MetadataGetter for method: UnityEngine::Physics::RaycastNonAlloc
 // Il2CppName: RaycastNonAlloc
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Ray, ::ArrayWrapper<UnityEngine::RaycastHit>)>(&UnityEngine::Physics::RaycastNonAlloc)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Ray, ::ArrayW<UnityEngine::RaycastHit>)>(&UnityEngine::Physics::RaycastNonAlloc)> {
   static const MethodInfo* get() {
     static auto* ray = &::il2cpp_utils::GetClassFromName("UnityEngine", "Ray")->byval_arg;
     static auto* results = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "RaycastHit"), 1)->byval_arg;
@@ -648,7 +649,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Uni
 // Writing MetadataGetter for method: UnityEngine::Physics::RaycastNonAlloc
 // Il2CppName: RaycastNonAlloc
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Vector3, UnityEngine::Vector3, ::ArrayWrapper<UnityEngine::RaycastHit>, float, int, UnityEngine::QueryTriggerInteraction)>(&UnityEngine::Physics::RaycastNonAlloc)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Vector3, UnityEngine::Vector3, ::ArrayW<UnityEngine::RaycastHit>, float, int, UnityEngine::QueryTriggerInteraction)>(&UnityEngine::Physics::RaycastNonAlloc)> {
   static const MethodInfo* get() {
     static auto* origin = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* direction = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -662,7 +663,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Uni
 // Writing MetadataGetter for method: UnityEngine::Physics::RaycastNonAlloc
 // Il2CppName: RaycastNonAlloc
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Vector3, UnityEngine::Vector3, ::ArrayWrapper<UnityEngine::RaycastHit>, float, int)>(&UnityEngine::Physics::RaycastNonAlloc)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Vector3, UnityEngine::Vector3, ::ArrayW<UnityEngine::RaycastHit>, float, int)>(&UnityEngine::Physics::RaycastNonAlloc)> {
   static const MethodInfo* get() {
     static auto* origin = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* direction = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -675,7 +676,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Uni
 // Writing MetadataGetter for method: UnityEngine::Physics::RaycastNonAlloc
 // Il2CppName: RaycastNonAlloc
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Vector3, UnityEngine::Vector3, ::ArrayWrapper<UnityEngine::RaycastHit>, float)>(&UnityEngine::Physics::RaycastNonAlloc)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Vector3, UnityEngine::Vector3, ::ArrayW<UnityEngine::RaycastHit>, float)>(&UnityEngine::Physics::RaycastNonAlloc)> {
   static const MethodInfo* get() {
     static auto* origin = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* direction = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -687,7 +688,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Uni
 // Writing MetadataGetter for method: UnityEngine::Physics::RaycastNonAlloc
 // Il2CppName: RaycastNonAlloc
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Vector3, UnityEngine::Vector3, ::ArrayWrapper<UnityEngine::RaycastHit>)>(&UnityEngine::Physics::RaycastNonAlloc)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Vector3, UnityEngine::Vector3, ::ArrayW<UnityEngine::RaycastHit>)>(&UnityEngine::Physics::RaycastNonAlloc)> {
   static const MethodInfo* get() {
     static auto* origin = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* direction = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -698,7 +699,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Uni
 // Writing MetadataGetter for method: UnityEngine::Physics::Query_SphereCastAll
 // Il2CppName: Query_SphereCastAll
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::RaycastHit> (*)(UnityEngine::PhysicsScene, UnityEngine::Vector3, float, UnityEngine::Vector3, float, int, UnityEngine::QueryTriggerInteraction)>(&UnityEngine::Physics::Query_SphereCastAll)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::RaycastHit> (*)(UnityEngine::PhysicsScene, UnityEngine::Vector3, float, UnityEngine::Vector3, float, int, UnityEngine::QueryTriggerInteraction)>(&UnityEngine::Physics::Query_SphereCastAll)> {
   static const MethodInfo* get() {
     static auto* physicsScene = &::il2cpp_utils::GetClassFromName("UnityEngine", "PhysicsScene")->byval_arg;
     static auto* origin = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -713,7 +714,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::Physics::SphereCastAll
 // Il2CppName: SphereCastAll
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::RaycastHit> (*)(UnityEngine::Vector3, float, UnityEngine::Vector3, float, int, UnityEngine::QueryTriggerInteraction)>(&UnityEngine::Physics::SphereCastAll)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::RaycastHit> (*)(UnityEngine::Vector3, float, UnityEngine::Vector3, float, int, UnityEngine::QueryTriggerInteraction)>(&UnityEngine::Physics::SphereCastAll)> {
   static const MethodInfo* get() {
     static auto* origin = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* radius = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -727,7 +728,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::Physics::SphereCastAll
 // Il2CppName: SphereCastAll
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::RaycastHit> (*)(UnityEngine::Ray, float, float, int, UnityEngine::QueryTriggerInteraction)>(&UnityEngine::Physics::SphereCastAll)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::RaycastHit> (*)(UnityEngine::Ray, float, float, int, UnityEngine::QueryTriggerInteraction)>(&UnityEngine::Physics::SphereCastAll)> {
   static const MethodInfo* get() {
     static auto* ray = &::il2cpp_utils::GetClassFromName("UnityEngine", "Ray")->byval_arg;
     static auto* radius = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -740,7 +741,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::Physics::SphereCastAll
 // Il2CppName: SphereCastAll
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::RaycastHit> (*)(UnityEngine::Ray, float, float, int)>(&UnityEngine::Physics::SphereCastAll)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::RaycastHit> (*)(UnityEngine::Ray, float, float, int)>(&UnityEngine::Physics::SphereCastAll)> {
   static const MethodInfo* get() {
     static auto* ray = &::il2cpp_utils::GetClassFromName("UnityEngine", "Ray")->byval_arg;
     static auto* radius = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -827,7 +828,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Physics::OverlapBoxNonAlloc
 // Il2CppName: OverlapBoxNonAlloc
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Vector3, UnityEngine::Vector3, ::ArrayWrapper<UnityEngine::Collider*>, UnityEngine::Quaternion, int, UnityEngine::QueryTriggerInteraction)>(&UnityEngine::Physics::OverlapBoxNonAlloc)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Vector3, UnityEngine::Vector3, ::ArrayW<UnityEngine::Collider*>, UnityEngine::Quaternion, int, UnityEngine::QueryTriggerInteraction)>(&UnityEngine::Physics::OverlapBoxNonAlloc)> {
   static const MethodInfo* get() {
     static auto* center = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* halfExtents = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -841,7 +842,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Uni
 // Writing MetadataGetter for method: UnityEngine::Physics::OverlapBoxNonAlloc
 // Il2CppName: OverlapBoxNonAlloc
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Vector3, UnityEngine::Vector3, ::ArrayWrapper<UnityEngine::Collider*>, UnityEngine::Quaternion, int)>(&UnityEngine::Physics::OverlapBoxNonAlloc)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Vector3, UnityEngine::Vector3, ::ArrayW<UnityEngine::Collider*>, UnityEngine::Quaternion, int)>(&UnityEngine::Physics::OverlapBoxNonAlloc)> {
   static const MethodInfo* get() {
     static auto* center = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
     static auto* halfExtents = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->byval_arg;
@@ -872,7 +873,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(By
 // Writing MetadataGetter for method: UnityEngine::Physics::Internal_RaycastAll_Injected
 // Il2CppName: Internal_RaycastAll_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::RaycastHit> (*)(ByRef<UnityEngine::PhysicsScene>, ByRef<UnityEngine::Ray>, float, int, UnityEngine::QueryTriggerInteraction)>(&UnityEngine::Physics::Internal_RaycastAll_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::RaycastHit> (*)(ByRef<UnityEngine::PhysicsScene>, ByRef<UnityEngine::Ray>, float, int, UnityEngine::QueryTriggerInteraction)>(&UnityEngine::Physics::Internal_RaycastAll_Injected)> {
   static const MethodInfo* get() {
     static auto* physicsScene = &::il2cpp_utils::GetClassFromName("UnityEngine", "PhysicsScene")->this_arg;
     static auto* ray = &::il2cpp_utils::GetClassFromName("UnityEngine", "Ray")->this_arg;
@@ -885,7 +886,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::Physics::Query_SphereCastAll_Injected
 // Il2CppName: Query_SphereCastAll_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::RaycastHit> (*)(ByRef<UnityEngine::PhysicsScene>, ByRef<UnityEngine::Vector3>, float, ByRef<UnityEngine::Vector3>, float, int, UnityEngine::QueryTriggerInteraction)>(&UnityEngine::Physics::Query_SphereCastAll_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::RaycastHit> (*)(ByRef<UnityEngine::PhysicsScene>, ByRef<UnityEngine::Vector3>, float, ByRef<UnityEngine::Vector3>, float, int, UnityEngine::QueryTriggerInteraction)>(&UnityEngine::Physics::Query_SphereCastAll_Injected)> {
   static const MethodInfo* get() {
     static auto* physicsScene = &::il2cpp_utils::GetClassFromName("UnityEngine", "PhysicsScene")->this_arg;
     static auto* origin = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;

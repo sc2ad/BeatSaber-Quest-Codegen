@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -29,12 +30,17 @@ namespace RootMotion::FinalIK {
     public:
     // Writing base type padding for base size: 0x4D to desired offset: 0x50
     char ___base_padding[0x3] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // protected UnityEngine.Transform[] children
     // Size: 0x8
     // Offset: 0x50
-    ::ArrayWrapper<UnityEngine::Transform*> children;
+    ::ArrayW<UnityEngine::Transform*> children;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Transform*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Transform*>) == 0x8);
     // private UnityEngine.Transform _poseRoot
     // Size: 0x8
     // Offset: 0x58
@@ -44,31 +50,32 @@ namespace RootMotion::FinalIK {
     // private UnityEngine.Transform[] poseChildren
     // Size: 0x8
     // Offset: 0x60
-    ::ArrayWrapper<UnityEngine::Transform*> poseChildren;
+    ::ArrayW<UnityEngine::Transform*> poseChildren;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Transform*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Transform*>) == 0x8);
     // private UnityEngine.Vector3[] defaultLocalPositions
     // Size: 0x8
     // Offset: 0x68
-    ::ArrayWrapper<UnityEngine::Vector3> defaultLocalPositions;
+    ::ArrayW<UnityEngine::Vector3> defaultLocalPositions;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector3>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Vector3>) == 0x8);
     // private UnityEngine.Quaternion[] defaultLocalRotations
     // Size: 0x8
     // Offset: 0x70
-    ::ArrayWrapper<UnityEngine::Quaternion> defaultLocalRotations;
+    ::ArrayW<UnityEngine::Quaternion> defaultLocalRotations;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Quaternion>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Quaternion>) == 0x8);
+    public:
     // Get instance field reference: protected UnityEngine.Transform[] children
-    ::ArrayWrapper<UnityEngine::Transform*>& dyn_children();
+    ::ArrayW<UnityEngine::Transform*>& dyn_children();
     // Get instance field reference: private UnityEngine.Transform _poseRoot
     UnityEngine::Transform*& dyn__poseRoot();
     // Get instance field reference: private UnityEngine.Transform[] poseChildren
-    ::ArrayWrapper<UnityEngine::Transform*>& dyn_poseChildren();
+    ::ArrayW<UnityEngine::Transform*>& dyn_poseChildren();
     // Get instance field reference: private UnityEngine.Vector3[] defaultLocalPositions
-    ::ArrayWrapper<UnityEngine::Vector3>& dyn_defaultLocalPositions();
+    ::ArrayW<UnityEngine::Vector3>& dyn_defaultLocalPositions();
     // Get instance field reference: private UnityEngine.Quaternion[] defaultLocalRotations
-    ::ArrayWrapper<UnityEngine::Quaternion>& dyn_defaultLocalRotations();
+    ::ArrayW<UnityEngine::Quaternion>& dyn_defaultLocalRotations();
     // protected System.Void StoreDefaultState()
     // Offset: 0x1E916A0
     void StoreDefaultState();
@@ -109,7 +116,7 @@ namespace RootMotion::FinalIK {
     void UpdatePoser();
   }; // RootMotion.FinalIK.HandPoser
   #pragma pack(pop)
-  static check_size<sizeof(HandPoser), 112 + sizeof(::ArrayWrapper<UnityEngine::Quaternion>)> __RootMotion_FinalIK_HandPoserSizeCheck;
+  static check_size<sizeof(HandPoser), 112 + sizeof(::ArrayW<UnityEngine::Quaternion>)> __RootMotion_FinalIK_HandPoserSizeCheck;
   static_assert(sizeof(HandPoser) == 0x78);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::HandPoser*, "RootMotion.FinalIK", "HandPoser");

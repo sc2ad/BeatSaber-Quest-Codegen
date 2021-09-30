@@ -47,6 +47,11 @@ namespace GlobalNamespace {
   // [PreserveAttribute] Offset: FFFFFFFF
   class NoteCutInfoNetSerializable : public ::Il2CppObject/*, public LiteNetLib::Utils::INetSerializable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Single saberSpeed
     // Size: 0x4
     // Offset: 0x10
@@ -133,6 +138,7 @@ namespace GlobalNamespace {
     GlobalNamespace::Vector3Serializable moveVec;
     // Field size check
     static_assert(sizeof(GlobalNamespace::Vector3Serializable) == 0xC);
+    public:
     // Creating interface conversion operator: operator LiteNetLib::Utils::INetSerializable
     operator LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<LiteNetLib::Utils::INetSerializable*>(this);

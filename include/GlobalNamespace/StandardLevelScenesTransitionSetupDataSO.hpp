@@ -51,6 +51,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class StandardLevelScenesTransitionSetupDataSO : public GlobalNamespace::ScenesTransitionSetupDataSO {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private SceneInfo _standardGameplaySceneInfo
     // Size: 0x8
     // Offset: 0x28
@@ -115,6 +120,7 @@ namespace GlobalNamespace {
     GlobalNamespace::EnvironmentInfoSO* environmentInfo;
     // Field size check
     static_assert(sizeof(GlobalNamespace::EnvironmentInfoSO*) == 0x8);
+    public:
     // Get instance field reference: private SceneInfo _standardGameplaySceneInfo
     GlobalNamespace::SceneInfo*& dyn__standardGameplaySceneInfo();
     // Get instance field reference: private SceneInfo _gameCoreSceneInfo

@@ -20,6 +20,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayerSaveData::PlayerAllOverallStatsData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public PlayerSaveData/PlayerOverallStatsData campaignOverallStatsData
     // Size: 0x8
     // Offset: 0x10
@@ -44,6 +49,7 @@ namespace GlobalNamespace {
     GlobalNamespace::PlayerSaveData::PlayerOverallStatsData* onlinePlayOverallStatsData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerSaveData::PlayerOverallStatsData*) == 0x8);
+    public:
     // Get instance field reference: public PlayerSaveData/PlayerOverallStatsData campaignOverallStatsData
     GlobalNamespace::PlayerSaveData::PlayerOverallStatsData*& dyn_campaignOverallStatsData();
     // Get instance field reference: public PlayerSaveData/PlayerOverallStatsData soloFreePlayOverallStatsData

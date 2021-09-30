@@ -29,6 +29,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayerLevelStatsData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 _highScore
     // Size: 0x4
     // Offset: 0x10
@@ -89,6 +94,7 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapCharacteristicSO*) == 0x8);
+    public:
     // Get instance field reference: private System.Int32 _highScore
     int& dyn__highScore();
     // Get instance field reference: private System.Int32 _maxCombo

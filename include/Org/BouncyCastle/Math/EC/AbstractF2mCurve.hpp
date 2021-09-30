@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Math
@@ -44,18 +45,24 @@ namespace Org::BouncyCastle::Math::EC {
   // [TokenAttribute] Offset: FFFFFFFF
   class AbstractF2mCurve : public Org::BouncyCastle::Math::EC::ECCurve {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Org.BouncyCastle.Math.BigInteger[] si
     // Size: 0x8
     // Offset: 0x50
-    ::ArrayWrapper<Org::BouncyCastle::Math::BigInteger*> si;
+    ::ArrayW<Org::BouncyCastle::Math::BigInteger*> si;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<Org::BouncyCastle::Math::BigInteger*>) == 0x8);
-    // Creating conversion operator: operator ::ArrayWrapper<Org::BouncyCastle::Math::BigInteger*>
-    constexpr operator ::ArrayWrapper<Org::BouncyCastle::Math::BigInteger*>() const noexcept {
+    static_assert(sizeof(::ArrayW<Org::BouncyCastle::Math::BigInteger*>) == 0x8);
+    public:
+    // Creating conversion operator: operator ::ArrayW<Org::BouncyCastle::Math::BigInteger*>
+    constexpr operator ::ArrayW<Org::BouncyCastle::Math::BigInteger*>() const noexcept {
       return si;
     }
     // Get instance field reference: private Org.BouncyCastle.Math.BigInteger[] si
-    ::ArrayWrapper<Org::BouncyCastle::Math::BigInteger*>& dyn_si();
+    ::ArrayW<Org::BouncyCastle::Math::BigInteger*>& dyn_si();
     // public System.Boolean get_IsKoblitz()
     // Offset: 0x1F565CC
     bool get_IsKoblitz();
@@ -74,7 +81,7 @@ namespace Org::BouncyCastle::Math::EC {
     Org::BouncyCastle::Math::EC::ECFieldElement* SolveQuadraticEquation(Org::BouncyCastle::Math::EC::ECFieldElement* beta);
     // Org.BouncyCastle.Math.BigInteger[] GetSi()
     // Offset: 0x1F564FC
-    ::ArrayWrapper<Org::BouncyCastle::Math::BigInteger*> GetSi();
+    ::ArrayW<Org::BouncyCastle::Math::BigInteger*> GetSi();
     // static private Org.BouncyCastle.Math.BigInteger ImplRandomFieldElementMult(Org.BouncyCastle.Security.SecureRandom r, System.Int32 m)
     // Offset: 0x1F55FA0
     static Org::BouncyCastle::Math::BigInteger* ImplRandomFieldElementMult(Org::BouncyCastle::Security::SecureRandom* r, int m);
@@ -95,7 +102,7 @@ namespace Org::BouncyCastle::Math::EC {
     Org::BouncyCastle::Math::EC::ECPoint* DecompressPoint(int yTilde, Org::BouncyCastle::Math::BigInteger* X1);
   }; // Org.BouncyCastle.Math.EC.AbstractF2mCurve
   #pragma pack(pop)
-  static check_size<sizeof(AbstractF2mCurve), 80 + sizeof(::ArrayWrapper<Org::BouncyCastle::Math::BigInteger*>)> __Org_BouncyCastle_Math_EC_AbstractF2mCurveSizeCheck;
+  static check_size<sizeof(AbstractF2mCurve), 80 + sizeof(::ArrayW<Org::BouncyCastle::Math::BigInteger*>)> __Org_BouncyCastle_Math_EC_AbstractF2mCurveSizeCheck;
   static_assert(sizeof(AbstractF2mCurve) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::AbstractF2mCurve*, "Org.BouncyCastle.Math.EC", "AbstractF2mCurve");
@@ -136,7 +143,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::AbstractF2mCurve::GetSi
 // Il2CppName: GetSi
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<Org::BouncyCastle::Math::BigInteger*> (Org::BouncyCastle::Math::EC::AbstractF2mCurve::*)()>(&Org::BouncyCastle::Math::EC::AbstractF2mCurve::GetSi)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Org::BouncyCastle::Math::BigInteger*> (Org::BouncyCastle::Math::EC::AbstractF2mCurve::*)()>(&Org::BouncyCastle::Math::EC::AbstractF2mCurve::GetSi)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::AbstractF2mCurve*), "GetSi", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

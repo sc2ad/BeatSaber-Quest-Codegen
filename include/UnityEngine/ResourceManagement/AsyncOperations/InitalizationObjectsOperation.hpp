@@ -37,6 +37,11 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
   // [TokenAttribute] Offset: FFFFFFFF
   class InitalizationObjectsOperation : public UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<bool> {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.Initialization.ResourceManagerRuntimeData> m_RtdOp
     // Size: 0xFFFFFFFF
     // Offset: 0x80
@@ -51,6 +56,7 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     // Size: 0xFFFFFFFF
     // Offset: 0xA0
     UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> m_DepOp;
+    public:
     // Get instance field reference: private UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.Initialization.ResourceManagerRuntimeData> m_RtdOp
     UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData*>& dyn_m_RtdOp();
     // Get instance field reference: private UnityEngine.AddressableAssets.AddressablesImpl m_Addressables

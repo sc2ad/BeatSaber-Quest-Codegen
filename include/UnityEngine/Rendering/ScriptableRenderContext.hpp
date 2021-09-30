@@ -36,12 +36,18 @@ namespace UnityEngine::Rendering {
   // [NativeHeaderAttribute] Offset: E743B8
   struct ScriptableRenderContext/*, public System::ValueType, public System::IEquatable_1<UnityEngine::Rendering::ScriptableRenderContext>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.IntPtr m_Ptr
     // Size: 0x8
     // Offset: 0x0
     System::IntPtr m_Ptr;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
+    public:
     // Creating value type constructor for type: ScriptableRenderContext
     constexpr ScriptableRenderContext(System::IntPtr m_Ptr_ = {}) noexcept : m_Ptr{m_Ptr_} {}
     // Creating interface conversion operator: operator System::ValueType

@@ -23,6 +23,11 @@ namespace GlobalNamespace {
     public:
     // Writing base type padding for base size: 0x2D to desired offset: 0x30
     char ___base_padding[0x3] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [SpaceAttribute] Offset: 0xEDFB80
     // private System.Single _value
     // Size: 0x4
@@ -30,6 +35,7 @@ namespace GlobalNamespace {
     float value;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: private System.Single _value
     float& dyn__value();
     // public System.Void .ctor()

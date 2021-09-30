@@ -22,6 +22,11 @@ namespace UnityEngine::Bindings {
   // [AttributeUsageAttribute] Offset: E6DB98
   class NativeMethodAttribute : public System::Attribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [DebuggerBrowsableAttribute] Offset: 0xE6E114
     // private System.String <Name>k__BackingField
     // Size: 0x8
@@ -57,6 +62,7 @@ namespace UnityEngine::Bindings {
     bool HasExplicitThis;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private System.String <Name>k__BackingField
     ::Il2CppString*& dyn_$Name$k__BackingField();
     // Get instance field reference: private System.Boolean <IsThreadSafe>k__BackingField

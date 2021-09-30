@@ -50,12 +50,18 @@ namespace Zenject {
     class $$c__DisplayClass3_0;
     // Nested type: Zenject::ScopableBindingFinalizer::$$c__DisplayClass4_0
     class $$c__DisplayClass4_0;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Func`3<Zenject.DiContainer,System.Type,Zenject.IProvider> _providerFactory
     // Size: 0x8
     // Offset: 0x18
     System::Func_3<Zenject::DiContainer*, System::Type*, Zenject::IProvider*>* providerFactory;
     // Field size check
     static_assert(sizeof(System::Func_3<Zenject::DiContainer*, System::Type*, Zenject::IProvider*>*) == 0x8);
+    public:
     // Deleting conversion operator: operator Zenject::BindInfo*
     constexpr operator Zenject::BindInfo*() const noexcept = delete;
     // Get instance field reference: private readonly System.Func`3<Zenject.DiContainer,System.Type,Zenject.IProvider> _providerFactory

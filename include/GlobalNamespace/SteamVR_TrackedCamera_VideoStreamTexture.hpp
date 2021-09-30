@@ -40,6 +40,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SteamVR_TrackedCamera::VideoStreamTexture : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean <undistorted>k__BackingField
     // Size: 0x1
     // Offset: 0x10
@@ -86,6 +91,7 @@ namespace GlobalNamespace {
     Valve::VR::CameraVideoStreamFrameHeader_t header;
     // Field size check
     static_assert(sizeof(Valve::VR::CameraVideoStreamFrameHeader_t) == 0x62);
+    public:
     // Get instance field reference: private System.Boolean <undistorted>k__BackingField
     bool& dyn_$undistorted$k__BackingField();
     // Get instance field reference: private Valve.VR.VRTextureBounds_t <frameBounds>k__BackingField

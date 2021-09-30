@@ -21,6 +21,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct OVRPlugin::Frustumf2/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Single zNear
     // Size: 0x4
     // Offset: 0x0
@@ -39,6 +44,7 @@ namespace GlobalNamespace {
     GlobalNamespace::OVRPlugin::Fovf Fov;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OVRPlugin::Fovf) == 0x10);
+    public:
     // Creating value type constructor for type: Frustumf2
     constexpr Frustumf2(float zNear_ = {}, float zFar_ = {}, GlobalNamespace::OVRPlugin::Fovf Fov_ = {}) noexcept : zNear{zNear_}, zFar{zFar_}, Fov{Fov_} {}
     // Creating interface conversion operator: operator System::ValueType

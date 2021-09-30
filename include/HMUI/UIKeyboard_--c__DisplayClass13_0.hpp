@@ -28,6 +28,11 @@ namespace HMUI {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class UIKeyboard::$$c__DisplayClass13_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public HMUI.UIKeyboardKey key
     // Size: 0x8
     // Offset: 0x10
@@ -40,6 +45,7 @@ namespace HMUI {
     HMUI::UIKeyboard* $$4__this;
     // Field size check
     static_assert(sizeof(HMUI::UIKeyboard*) == 0x8);
+    public:
     // Get instance field reference: public HMUI.UIKeyboardKey key
     HMUI::UIKeyboardKey*& dyn_key();
     // Get instance field reference: public HMUI.UIKeyboard <>4__this

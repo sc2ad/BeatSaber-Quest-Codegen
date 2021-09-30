@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Asn1
@@ -38,16 +39,16 @@ namespace Org::BouncyCastle::Asn1 {
     void WriteLength(int length);
     // System.Void WriteEncoded(System.Int32 tag, System.Byte[] bytes)
     // Offset: 0x18ED748
-    void WriteEncoded(int tag, ::ArrayWrapper<uint8_t> bytes);
+    void WriteEncoded(int tag, ::ArrayW<uint8_t> bytes);
     // System.Void WriteEncoded(System.Int32 tag, System.Byte first, System.Byte[] bytes)
     // Offset: 0x18E6720
-    void WriteEncoded(int tag, uint8_t first, ::ArrayWrapper<uint8_t> bytes);
+    void WriteEncoded(int tag, uint8_t first, ::ArrayW<uint8_t> bytes);
     // System.Void WriteTag(System.Int32 flags, System.Int32 tagNo)
     // Offset: 0x18E8658
     void WriteTag(int flags, int tagNo);
     // System.Void WriteEncoded(System.Int32 flags, System.Int32 tagNo, System.Byte[] bytes)
     // Offset: 0x18ED038
-    void WriteEncoded(int flags, int tagNo, ::ArrayWrapper<uint8_t> bytes);
+    void WriteEncoded(int flags, int tagNo, ::ArrayW<uint8_t> bytes);
     // protected System.Void WriteNull()
     // Offset: 0x18F2164
     void WriteNull();
@@ -83,7 +84,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerOutputStream::WriteEncoded
 // Il2CppName: WriteEncoded
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::DerOutputStream::*)(int, ::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Asn1::DerOutputStream::WriteEncoded)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::DerOutputStream::*)(int, ::ArrayW<uint8_t>)>(&Org::BouncyCastle::Asn1::DerOutputStream::WriteEncoded)> {
   static const MethodInfo* get() {
     static auto* tag = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* bytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -93,7 +94,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerOutputStream::WriteEncoded
 // Il2CppName: WriteEncoded
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::DerOutputStream::*)(int, uint8_t, ::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Asn1::DerOutputStream::WriteEncoded)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::DerOutputStream::*)(int, uint8_t, ::ArrayW<uint8_t>)>(&Org::BouncyCastle::Asn1::DerOutputStream::WriteEncoded)> {
   static const MethodInfo* get() {
     static auto* tag = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* first = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
@@ -114,7 +115,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerOutputStream::WriteEncoded
 // Il2CppName: WriteEncoded
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::DerOutputStream::*)(int, int, ::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Asn1::DerOutputStream::WriteEncoded)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::DerOutputStream::*)(int, int, ::ArrayW<uint8_t>)>(&Org::BouncyCastle::Asn1::DerOutputStream::WriteEncoded)> {
   static const MethodInfo* get() {
     static auto* flags = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* tagNo = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

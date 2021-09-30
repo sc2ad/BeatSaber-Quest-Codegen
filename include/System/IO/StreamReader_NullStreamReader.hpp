@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO
@@ -73,7 +74,7 @@ namespace System::IO {
     // Offset: 0x1AC5D74
     // Implemented from: System.IO.StreamReader
     // Base method: System.Int32 StreamReader::Read(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    int Read(::ArrayWrapper<::Il2CppChar> buffer, int index, int count);
+    int Read(::ArrayW<::Il2CppChar> buffer, int index, int count);
     // public override System.String ReadLine()
     // Offset: 0x1AC5D7C
     // Implemented from: System.IO.StreamReader
@@ -142,7 +143,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::IO::StreamReader::NullStreamReader::Read
 // Il2CppName: Read
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::StreamReader::NullStreamReader::*)(::ArrayWrapper<::Il2CppChar>, int, int)>(&System::IO::StreamReader::NullStreamReader::Read)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::StreamReader::NullStreamReader::*)(::ArrayW<::Il2CppChar>, int, int)>(&System::IO::StreamReader::NullStreamReader::Read)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

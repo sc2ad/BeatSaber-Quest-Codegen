@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -25,30 +26,36 @@ namespace GlobalNamespace {
   // [ExecuteInEditMode] Offset: FFFFFFFF
   class LineLightManager : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly UnityEngine.Vector4[] _points
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<UnityEngine::Vector4> points;
+    ::ArrayW<UnityEngine::Vector4> points;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector4>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Vector4>) == 0x8);
     // private readonly UnityEngine.Vector4[] _dirs
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<UnityEngine::Vector4> dirs;
+    ::ArrayW<UnityEngine::Vector4> dirs;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector4>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Vector4>) == 0x8);
     // private readonly System.Single[] _dirLengths
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<float> dirLengths;
+    ::ArrayW<float> dirLengths;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<float>) == 0x8);
+    static_assert(sizeof(::ArrayW<float>) == 0x8);
     // private readonly UnityEngine.Vector4[] _colors
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<UnityEngine::Vector4> colors;
+    ::ArrayW<UnityEngine::Vector4> colors;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector4>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Vector4>) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Int32 kMaxNumberOfLights
@@ -83,13 +90,13 @@ namespace GlobalNamespace {
     // Set static field: static private readonly System.Int32 _lineLightColorsID
     static void _set__lineLightColorsID(int value);
     // Get instance field reference: private readonly UnityEngine.Vector4[] _points
-    ::ArrayWrapper<UnityEngine::Vector4>& dyn__points();
+    ::ArrayW<UnityEngine::Vector4>& dyn__points();
     // Get instance field reference: private readonly UnityEngine.Vector4[] _dirs
-    ::ArrayWrapper<UnityEngine::Vector4>& dyn__dirs();
+    ::ArrayW<UnityEngine::Vector4>& dyn__dirs();
     // Get instance field reference: private readonly System.Single[] _dirLengths
-    ::ArrayWrapper<float>& dyn__dirLengths();
+    ::ArrayW<float>& dyn__dirLengths();
     // Get instance field reference: private readonly UnityEngine.Vector4[] _colors
-    ::ArrayWrapper<UnityEngine::Vector4>& dyn__colors();
+    ::ArrayW<UnityEngine::Vector4>& dyn__colors();
     // protected System.Void Update()
     // Offset: 0x1E2B74C
     void Update();
@@ -113,7 +120,7 @@ namespace GlobalNamespace {
     static void _cctor();
   }; // LineLightManager
   #pragma pack(pop)
-  static check_size<sizeof(LineLightManager), 48 + sizeof(::ArrayWrapper<UnityEngine::Vector4>)> __GlobalNamespace_LineLightManagerSizeCheck;
+  static check_size<sizeof(LineLightManager), 48 + sizeof(::ArrayW<UnityEngine::Vector4>)> __GlobalNamespace_LineLightManagerSizeCheck;
   static_assert(sizeof(LineLightManager) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LineLightManager*, "", "LineLightManager");

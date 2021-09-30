@@ -88,6 +88,11 @@ namespace System::Net {
     class $$c__DisplayClass78_0;
     // Nested type: System::Net::WebRequest::$$c__DisplayClass79_0
     class $$c__DisplayClass79_0;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Net.Security.AuthenticationLevel m_AuthenticationLevel
     // Size: 0x4
     // Offset: 0x18
@@ -100,6 +105,7 @@ namespace System::Net {
     System::Security::Principal::TokenImpersonationLevel m_ImpersonationLevel;
     // Field size check
     static_assert(sizeof(System::Security::Principal::TokenImpersonationLevel) == 0x4);
+    public:
     // Creating interface conversion operator: operator System::Runtime::Serialization::ISerializable
     operator System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);

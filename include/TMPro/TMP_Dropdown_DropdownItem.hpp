@@ -52,6 +52,11 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class TMP_Dropdown::DropdownItem : public UnityEngine::MonoBehaviour/*, public UnityEngine::EventSystems::ICancelHandler, public UnityEngine::EventSystems::IPointerEnterHandler*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private TMPro.TMP_Text m_Text
     // Size: 0x8
     // Offset: 0x18
@@ -76,6 +81,7 @@ namespace TMPro {
     UnityEngine::UI::Toggle* m_Toggle;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Toggle*) == 0x8);
+    public:
     // Creating interface conversion operator: operator UnityEngine::EventSystems::ICancelHandler
     operator UnityEngine::EventSystems::ICancelHandler() noexcept {
       return *reinterpret_cast<UnityEngine::EventSystems::ICancelHandler*>(this);

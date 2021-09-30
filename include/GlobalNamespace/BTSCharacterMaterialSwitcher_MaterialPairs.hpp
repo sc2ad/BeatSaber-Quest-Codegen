@@ -27,6 +27,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BTSCharacterMaterialSwitcher::MaterialPairs : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 materialIndex
     // Size: 0x4
     // Offset: 0x10
@@ -47,6 +52,7 @@ namespace GlobalNamespace {
     UnityEngine::Material* alternativeMaterial;
     // Field size check
     static_assert(sizeof(UnityEngine::Material*) == 0x8);
+    public:
     // Get instance field reference: public System.Int32 materialIndex
     int& dyn_materialIndex();
     // Get instance field reference: public UnityEngine.Material defaultMaterial

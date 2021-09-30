@@ -24,6 +24,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class VRTrackersRecorder::Keyframe::KeyframeTransform : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Vector3 _pos
     // Size: 0xC
     // Offset: 0x10
@@ -42,6 +47,7 @@ namespace GlobalNamespace {
     bool valid;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: public UnityEngine.Vector3 _pos
     UnityEngine::Vector3& dyn__pos();
     // Get instance field reference: public UnityEngine.Quaternion _rot

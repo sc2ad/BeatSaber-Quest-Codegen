@@ -21,6 +21,11 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class MonoAsyncCall : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Object msg
     // Size: 0x8
     // Offset: 0x10
@@ -57,6 +62,7 @@ namespace System {
     ::Il2CppObject* out_args;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
+    public:
     // Get instance field reference: private System.Object msg
     ::Il2CppObject*& dyn_msg();
     // Get instance field reference: private System.IntPtr cb_method

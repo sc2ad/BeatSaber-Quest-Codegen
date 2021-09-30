@@ -21,6 +21,11 @@ namespace UnityEngine {
   // [AttributeUsageAttribute] Offset: E721FC
   class TextAreaAttribute : public UnityEngine::PropertyAttribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly System.Int32 minLines
     // Size: 0x4
     // Offset: 0x10
@@ -33,6 +38,7 @@ namespace UnityEngine {
     int maxLines;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: public readonly System.Int32 minLines
     int& dyn_minLines();
     // Get instance field reference: public readonly System.Int32 maxLines

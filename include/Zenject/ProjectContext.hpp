@@ -53,6 +53,11 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class ProjectContext : public Zenject::Context {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Action PreInstall
     // Size: 0x8
     // Offset: 0x40
@@ -112,6 +117,7 @@ namespace Zenject {
     Zenject::DiContainer* container;
     // Field size check
     static_assert(sizeof(Zenject::DiContainer*) == 0x8);
+    public:
     // static field const value: static public System.String ProjectContextResourcePath
     static constexpr const char* ProjectContextResourcePath = "ProjectContext";
     // Get static field: static public System.String ProjectContextResourcePath

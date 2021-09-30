@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -53,10 +54,10 @@ namespace UnityEngine::Experimental::GlobalIllumination {
     }
     // public System.Void Invoke(UnityEngine.Light[] requests, Unity.Collections.NativeArray`1<UnityEngine.Experimental.GlobalIllumination.LightDataGI> lightsOutput)
     // Offset: 0x1CBBCC0
-    void Invoke(::ArrayWrapper<UnityEngine::Light*> requests, Unity::Collections::NativeArray_1<UnityEngine::Experimental::GlobalIllumination::LightDataGI> lightsOutput);
+    void Invoke(::ArrayW<UnityEngine::Light*> requests, Unity::Collections::NativeArray_1<UnityEngine::Experimental::GlobalIllumination::LightDataGI> lightsOutput);
     // public System.IAsyncResult BeginInvoke(UnityEngine.Light[] requests, Unity.Collections.NativeArray`1<UnityEngine.Experimental.GlobalIllumination.LightDataGI> lightsOutput, System.AsyncCallback callback, System.Object object)
     // Offset: 0x1CBC4E4
-    System::IAsyncResult* BeginInvoke(::ArrayWrapper<UnityEngine::Light*> requests, Unity::Collections::NativeArray_1<UnityEngine::Experimental::GlobalIllumination::LightDataGI> lightsOutput, System::AsyncCallback* callback, ::Il2CppObject* object);
+    System::IAsyncResult* BeginInvoke(::ArrayW<UnityEngine::Light*> requests, Unity::Collections::NativeArray_1<UnityEngine::Experimental::GlobalIllumination::LightDataGI> lightsOutput, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
     // Offset: 0x1CBC580
     void EndInvoke(System::IAsyncResult* result);
@@ -72,7 +73,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Experimental::GlobalIllumination::Lightmappi
 // Writing MetadataGetter for method: UnityEngine::Experimental::GlobalIllumination::Lightmapping::RequestLightsDelegate::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Experimental::GlobalIllumination::Lightmapping::RequestLightsDelegate::*)(::ArrayWrapper<UnityEngine::Light*>, Unity::Collections::NativeArray_1<UnityEngine::Experimental::GlobalIllumination::LightDataGI>)>(&UnityEngine::Experimental::GlobalIllumination::Lightmapping::RequestLightsDelegate::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Experimental::GlobalIllumination::Lightmapping::RequestLightsDelegate::*)(::ArrayW<UnityEngine::Light*>, Unity::Collections::NativeArray_1<UnityEngine::Experimental::GlobalIllumination::LightDataGI>)>(&UnityEngine::Experimental::GlobalIllumination::Lightmapping::RequestLightsDelegate::Invoke)> {
   static const MethodInfo* get() {
     static auto* requests = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Light"), 1)->byval_arg;
     static auto* lightsOutput = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("Unity.Collections", "NativeArray`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.Experimental.GlobalIllumination", "LightDataGI")})->byval_arg;
@@ -82,7 +83,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Experimental::GlobalIllumination::Lightmapping::RequestLightsDelegate::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (UnityEngine::Experimental::GlobalIllumination::Lightmapping::RequestLightsDelegate::*)(::ArrayWrapper<UnityEngine::Light*>, Unity::Collections::NativeArray_1<UnityEngine::Experimental::GlobalIllumination::LightDataGI>, System::AsyncCallback*, ::Il2CppObject*)>(&UnityEngine::Experimental::GlobalIllumination::Lightmapping::RequestLightsDelegate::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (UnityEngine::Experimental::GlobalIllumination::Lightmapping::RequestLightsDelegate::*)(::ArrayW<UnityEngine::Light*>, Unity::Collections::NativeArray_1<UnityEngine::Experimental::GlobalIllumination::LightDataGI>, System::AsyncCallback*, ::Il2CppObject*)>(&UnityEngine::Experimental::GlobalIllumination::Lightmapping::RequestLightsDelegate::BeginInvoke)> {
   static const MethodInfo* get() {
     static auto* requests = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Light"), 1)->byval_arg;
     static auto* lightsOutput = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("Unity.Collections", "NativeArray`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.Experimental.GlobalIllumination", "LightDataGI")})->byval_arg;

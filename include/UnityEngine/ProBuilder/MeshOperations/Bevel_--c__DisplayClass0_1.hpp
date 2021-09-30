@@ -30,12 +30,18 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class Bevel::$$c__DisplayClass0_1 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.ProBuilder.EdgeLookup lup
     // Size: 0x10
     // Offset: 0x10
     UnityEngine::ProBuilder::EdgeLookup lup;
     // Field size check
     static_assert(sizeof(UnityEngine::ProBuilder::EdgeLookup) == 0x10);
+    public:
     // Creating conversion operator: operator UnityEngine::ProBuilder::EdgeLookup
     constexpr operator UnityEngine::ProBuilder::EdgeLookup() const noexcept {
       return lup;

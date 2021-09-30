@@ -20,6 +20,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayerSaveDataV1_0_1::PlayerSpecificSettings : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Boolean staticLights
     // Size: 0x1
     // Offset: 0x10
@@ -70,6 +75,7 @@ namespace GlobalNamespace {
     bool noTextsAndHuds;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: public System.Boolean staticLights
     bool& dyn_staticLights();
     // Get instance field reference: public System.Boolean leftHanded

@@ -29,12 +29,18 @@ namespace Org::BouncyCastle::Asn1::X9 {
   // [TokenAttribute] Offset: FFFFFFFF
   class DHPublicKey : public Org::BouncyCastle::Asn1::Asn1Encodable {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Org.BouncyCastle.Asn1.DerInteger y
     // Size: 0x8
     // Offset: 0x10
     Org::BouncyCastle::Asn1::DerInteger* y;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::DerInteger*) == 0x8);
+    public:
     // Creating conversion operator: operator Org::BouncyCastle::Asn1::DerInteger*
     constexpr operator Org::BouncyCastle::Asn1::DerInteger*() const noexcept {
       return y;

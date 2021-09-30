@@ -36,6 +36,11 @@ namespace UnityEngine::XR {
   // [NativeHeaderAttribute] Offset: E99684
   struct MeshGenerationResult/*, public System::ValueType, public System::IEquatable_1<UnityEngine::XR::MeshGenerationResult>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [DebuggerBrowsableAttribute] Offset: 0xE99AC0
     // private readonly UnityEngine.XR.MeshId <MeshId>k__BackingField
     // Size: 0x10
@@ -71,6 +76,7 @@ namespace UnityEngine::XR {
     UnityEngine::XR::MeshVertexAttributes Attributes;
     // Field size check
     static_assert(sizeof(UnityEngine::XR::MeshVertexAttributes) == 0x4);
+    public:
     // Creating value type constructor for type: MeshGenerationResult
     constexpr MeshGenerationResult(UnityEngine::XR::MeshId MeshId_ = {}, UnityEngine::Mesh* Mesh_ = {}, UnityEngine::MeshCollider* MeshCollider_ = {}, UnityEngine::XR::MeshGenerationStatus Status_ = {}, UnityEngine::XR::MeshVertexAttributes Attributes_ = {}) noexcept : MeshId{MeshId_}, Mesh{Mesh_}, MeshCollider{MeshCollider_}, Status{Status_}, Attributes{Attributes_} {}
     // Creating interface conversion operator: operator System::ValueType

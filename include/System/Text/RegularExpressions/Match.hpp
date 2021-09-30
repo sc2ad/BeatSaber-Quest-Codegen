@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text::RegularExpressions
@@ -29,6 +30,11 @@ namespace System::Text::RegularExpressions {
   // [TokenAttribute] Offset: FFFFFFFF
   class Match : public System::Text::RegularExpressions::Group {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Text.RegularExpressions.GroupCollection _groupcoll
     // Size: 0x8
     // Offset: 0x38
@@ -68,21 +74,22 @@ namespace System::Text::RegularExpressions {
     // System.Int32[][] _matches
     // Size: 0x8
     // Offset: 0x58
-    ::ArrayWrapper<::ArrayWrapper<int>> matches;
+    ::ArrayW<::ArrayW<int>> matches;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::ArrayWrapper<int>>) == 0x8);
+    static_assert(sizeof(::ArrayW<::ArrayW<int>>) == 0x8);
     // System.Int32[] _matchcount
     // Size: 0x8
     // Offset: 0x60
-    ::ArrayWrapper<int> matchcount;
+    ::ArrayW<int> matchcount;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // System.Boolean _balancing
     // Size: 0x1
     // Offset: 0x68
     bool balancing;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get static field: static System.Text.RegularExpressions.Match _empty
     static System::Text::RegularExpressions::Match* _get__empty();
     // Set static field: static System.Text.RegularExpressions.Match _empty
@@ -100,9 +107,9 @@ namespace System::Text::RegularExpressions {
     // Get instance field reference: System.Int32 _textstart
     int& dyn__textstart();
     // Get instance field reference: System.Int32[][] _matches
-    ::ArrayWrapper<::ArrayWrapper<int>>& dyn__matches();
+    ::ArrayW<::ArrayW<int>>& dyn__matches();
     // Get instance field reference: System.Int32[] _matchcount
-    ::ArrayWrapper<int>& dyn__matchcount();
+    ::ArrayW<int>& dyn__matchcount();
     // Get instance field reference: System.Boolean _balancing
     bool& dyn__balancing();
     // static public System.Text.RegularExpressions.Match get_Empty()

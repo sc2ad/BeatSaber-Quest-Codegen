@@ -19,6 +19,11 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class PingResult : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.UInt64 <ID>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -29,6 +34,7 @@ namespace Oculus::Platform::Models {
     // Size: 0xFFFFFFFF
     // Offset: 0x18
     System::Nullable_1<uint64_t> pingTimeUsec;
+    public:
     // Get instance field reference: private System.UInt64 <ID>k__BackingField
     uint64_t& dyn_$ID$k__BackingField();
     // Get instance field reference: private System.Nullable`1<System.UInt64> pingTimeUsec

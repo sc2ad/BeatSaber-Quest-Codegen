@@ -32,12 +32,18 @@ namespace Zenject {
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
   class WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder : public Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Zenject.SubContainerCreatorBindInfo _subContainerBindInfo
     // Size: 0x8
     // Offset: 0x20
     Zenject::SubContainerCreatorBindInfo* subContainerBindInfo;
     // Field size check
     static_assert(sizeof(Zenject::SubContainerCreatorBindInfo*) == 0x8);
+    public:
     // Get instance field reference: private Zenject.SubContainerCreatorBindInfo _subContainerBindInfo
     Zenject::SubContainerCreatorBindInfo*& dyn__subContainerBindInfo();
     // public System.Void .ctor(Zenject.SubContainerCreatorBindInfo subContainerBindInfo, Zenject.BindInfo bindInfo)

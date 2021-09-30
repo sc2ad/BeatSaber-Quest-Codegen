@@ -51,6 +51,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::FlyingScoreEffect::Pool
     class Pool;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.AnimationCurve _fadeAnimationCurve
     // Size: 0x8
     // Offset: 0x80
@@ -101,6 +106,7 @@ namespace GlobalNamespace {
     bool registeredToCallbacks;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver
     operator GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver() noexcept {
       return *reinterpret_cast<GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver*>(this);

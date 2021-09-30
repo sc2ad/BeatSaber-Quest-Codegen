@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO
@@ -27,12 +28,18 @@ namespace Org::BouncyCastle::Utilities::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   class FilterStream : public System::IO::Stream {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // protected readonly System.IO.Stream s
     // Size: 0x8
     // Offset: 0x28
     System::IO::Stream* s;
     // Field size check
     static_assert(sizeof(System::IO::Stream*) == 0x8);
+    public:
     // Get instance field reference: protected readonly System.IO.Stream s
     System::IO::Stream*& dyn_s();
     // public System.Void .ctor(System.IO.Stream s)
@@ -96,7 +103,7 @@ namespace Org::BouncyCastle::Utilities::IO {
     // Offset: 0x218274C
     // Implemented from: System.IO.Stream
     // Base method: System.Int32 Stream::Read(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
-    int Read(::ArrayWrapper<uint8_t> buffer, int offset, int count);
+    int Read(::ArrayW<uint8_t> buffer, int offset, int count);
     // public override System.Int32 ReadByte()
     // Offset: 0x2182770
     // Implemented from: System.IO.Stream
@@ -106,7 +113,7 @@ namespace Org::BouncyCastle::Utilities::IO {
     // Offset: 0x2182794
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::Write(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
-    void Write(::ArrayWrapper<uint8_t> buffer, int offset, int count);
+    void Write(::ArrayW<uint8_t> buffer, int offset, int count);
     // public override System.Void WriteByte(System.Byte value)
     // Offset: 0x21827B8
     // Implemented from: System.IO.Stream
@@ -210,7 +217,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::IO::FilterStream::Read
 // Il2CppName: Read
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Utilities::IO::FilterStream::*)(::ArrayWrapper<uint8_t>, int, int)>(&Org::BouncyCastle::Utilities::IO::FilterStream::Read)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Utilities::IO::FilterStream::*)(::ArrayW<uint8_t>, int, int)>(&Org::BouncyCastle::Utilities::IO::FilterStream::Read)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -229,7 +236,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::IO::FilterStream::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Utilities::IO::FilterStream::*)(::ArrayWrapper<uint8_t>, int, int)>(&Org::BouncyCastle::Utilities::IO::FilterStream::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Utilities::IO::FilterStream::*)(::ArrayW<uint8_t>, int, int)>(&Org::BouncyCastle::Utilities::IO::FilterStream::Write)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

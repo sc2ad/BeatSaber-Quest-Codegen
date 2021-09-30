@@ -82,6 +82,11 @@ namespace Zenject {
     class $$c__DisplayClass22_0;
     // Nested type: Zenject::SubContainerBinder::$$c__DisplayClass24_0
     class $$c__DisplayClass24_0;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Zenject.BindInfo _bindInfo
     // Size: 0x8
     // Offset: 0x10
@@ -106,6 +111,7 @@ namespace Zenject {
     bool resolveAll;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private readonly Zenject.BindInfo _bindInfo
     Zenject::BindInfo*& dyn__bindInfo();
     // Get instance field reference: private readonly Zenject.BindStatement _bindStatement

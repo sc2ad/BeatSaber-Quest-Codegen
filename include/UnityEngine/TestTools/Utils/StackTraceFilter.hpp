@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::TestTools::Utils
@@ -22,13 +23,13 @@ namespace UnityEngine::TestTools::Utils {
     // Nested type: UnityEngine::TestTools::Utils::StackTraceFilter::$$c__DisplayClass2_0
     class $$c__DisplayClass2_0;
     // Get static field: static private readonly System.String[] s_FilteredLogMessages
-    static ::ArrayWrapper<::Il2CppString*> _get_s_FilteredLogMessages();
+    static ::ArrayW<::Il2CppString*> _get_s_FilteredLogMessages();
     // Set static field: static private readonly System.String[] s_FilteredLogMessages
-    static void _set_s_FilteredLogMessages(::ArrayWrapper<::Il2CppString*> value);
+    static void _set_s_FilteredLogMessages(::ArrayW<::Il2CppString*> value);
     // Get static field: static private readonly System.String[] s_LastMessages
-    static ::ArrayWrapper<::Il2CppString*> _get_s_LastMessages();
+    static ::ArrayW<::Il2CppString*> _get_s_LastMessages();
     // Set static field: static private readonly System.String[] s_LastMessages
-    static void _set_s_LastMessages(::ArrayWrapper<::Il2CppString*> value);
+    static void _set_s_LastMessages(::ArrayW<::Il2CppString*> value);
     // static private System.Void .cctor()
     // Offset: 0x260B3A0
     static void _cctor();

@@ -33,6 +33,11 @@ namespace UnityEngine::EventSystems {
   // [TokenAttribute] Offset: FFFFFFFF
   struct RaycastResult/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.GameObject m_GameObject
     // Size: 0x8
     // Offset: 0x0
@@ -99,6 +104,7 @@ namespace UnityEngine::EventSystems {
     int displayIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: RaycastResult
     constexpr RaycastResult(UnityEngine::GameObject* m_GameObject_ = {}, UnityEngine::EventSystems::BaseRaycaster* module_ = {}, float distance_ = {}, float index_ = {}, int depth_ = {}, int sortingLayer_ = {}, int sortingOrder_ = {}, UnityEngine::Vector3 worldPosition_ = {}, UnityEngine::Vector3 worldNormal_ = {}, UnityEngine::Vector2 screenPosition_ = {}, int displayIndex_ = {}) noexcept : m_GameObject{m_GameObject_}, module{module_}, distance{distance_}, index{index_}, depth{depth_}, sortingLayer{sortingLayer_}, sortingOrder{sortingOrder_}, worldPosition{worldPosition_}, worldNormal{worldNormal_}, screenPosition{screenPosition_}, displayIndex{displayIndex_} {}
     // Creating interface conversion operator: operator System::ValueType

@@ -47,6 +47,11 @@ namespace UnityEngine::AddressableAssets::Initialization {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class InitializationOperation::$$c__DisplayClass18_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.AddressableAssets.Initialization.InitializationOperation <>4__this
     // Size: 0x8
     // Offset: 0x10
@@ -71,6 +76,7 @@ namespace UnityEngine::AddressableAssets::Initialization {
     int index;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: public UnityEngine.AddressableAssets.Initialization.InitializationOperation <>4__this
     UnityEngine::AddressableAssets::Initialization::InitializationOperation*& dyn_$$4__this();
     // Get instance field reference: public System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation> catalogs

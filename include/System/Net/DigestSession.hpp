@@ -42,6 +42,11 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class DigestSession : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.DateTime lastUse
     // Size: 0x8
     // Offset: 0x10
@@ -74,6 +79,7 @@ namespace System::Net {
     ::Il2CppString* cnonce;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get static field: static private System.Security.Cryptography.RandomNumberGenerator rng
     static System::Security::Cryptography::RandomNumberGenerator* _get_rng();
     // Set static field: static private System.Security.Cryptography.RandomNumberGenerator rng

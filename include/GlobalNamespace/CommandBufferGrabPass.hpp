@@ -46,6 +46,11 @@ namespace GlobalNamespace {
   // [ExecuteInEditMode] Offset: FFFFFFFF
   class CommandBufferGrabPass : public GlobalNamespace::CommandBufferGOCore {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String _textureName
     // Size: 0x8
     // Offset: 0x28
@@ -58,6 +63,7 @@ namespace GlobalNamespace {
     UnityEngine::Rendering::CameraEvent cameraEvent;
     // Field size check
     static_assert(sizeof(UnityEngine::Rendering::CameraEvent) == 0x4);
+    public:
     // Get static field: static private System.Collections.Generic.Dictionary`2<UnityEngine.Camera,CommandBufferOwners> _cameras
     static System::Collections::Generic::Dictionary_2<UnityEngine::Camera*, GlobalNamespace::CommandBufferOwners*>* _get__cameras();
     // Set static field: static private System.Collections.Generic.Dictionary`2<UnityEngine.Camera,CommandBufferOwners> _cameras

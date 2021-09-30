@@ -30,6 +30,11 @@ namespace System::Runtime::Remoting {
   // [ComVisibleAttribute] Offset: E5FB8C
   class WellKnownServiceTypeEntry : public System::Runtime::Remoting::TypeEntry {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Type obj_type
     // Size: 0x8
     // Offset: 0x20
@@ -48,6 +53,7 @@ namespace System::Runtime::Remoting {
     System::Runtime::Remoting::WellKnownObjectMode obj_mode;
     // Field size check
     static_assert(sizeof(System::Runtime::Remoting::WellKnownObjectMode) == 0x4);
+    public:
     // Get instance field reference: private System.Type obj_type
     System::Type*& dyn_obj_type();
     // Get instance field reference: private System.String obj_uri

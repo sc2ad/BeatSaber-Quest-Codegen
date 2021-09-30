@@ -21,12 +21,18 @@ namespace UnityEngine::Experimental::TerrainAPI {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class TerrainUtility::$$c__DisplayClass4_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Boolean onlyAutoConnectedTerrains
     // Size: 0x1
     // Offset: 0x10
     bool onlyAutoConnectedTerrains;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating conversion operator: operator bool
     constexpr operator bool() const noexcept {
       return onlyAutoConnectedTerrains;

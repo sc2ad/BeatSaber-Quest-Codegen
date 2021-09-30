@@ -20,6 +20,11 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct VRBoneTransform_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public OVR.OpenVR.HmdVector4_t position
     // Size: 0x10
     // Offset: 0x0
@@ -32,6 +37,7 @@ namespace OVR::OpenVR {
     OVR::OpenVR::HmdQuaternionf_t orientation;
     // Field size check
     static_assert(sizeof(OVR::OpenVR::HmdQuaternionf_t) == 0x10);
+    public:
     // Creating value type constructor for type: VRBoneTransform_t
     constexpr VRBoneTransform_t(OVR::OpenVR::HmdVector4_t position_ = {}, OVR::OpenVR::HmdQuaternionf_t orientation_ = {}) noexcept : position{position_}, orientation{orientation_} {}
     // Creating interface conversion operator: operator System::ValueType

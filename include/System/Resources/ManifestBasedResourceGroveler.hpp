@@ -38,12 +38,18 @@ namespace System::Resources {
   // [TokenAttribute] Offset: FFFFFFFF
   class ManifestBasedResourceGroveler : public ::Il2CppObject/*, public System::Resources::IResourceGroveler*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Resources.ResourceManager/System.Resources.ResourceManagerMediator _mediator
     // Size: 0x8
     // Offset: 0x10
     System::Resources::ResourceManager::ResourceManagerMediator* mediator;
     // Field size check
     static_assert(sizeof(System::Resources::ResourceManager::ResourceManagerMediator*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Resources::IResourceGroveler
     operator System::Resources::IResourceGroveler() noexcept {
       return *reinterpret_cast<System::Resources::IResourceGroveler*>(this);

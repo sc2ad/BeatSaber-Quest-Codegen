@@ -30,6 +30,11 @@ namespace System::Runtime::Remoting::Messaging {
     public:
     // Nested type: System::Runtime::Remoting::Messaging::IllogicalCallContext::Reader
     struct Reader;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Hashtable m_Datastore
     // Size: 0x8
     // Offset: 0x10
@@ -42,6 +47,7 @@ namespace System::Runtime::Remoting::Messaging {
     ::Il2CppObject* m_HostContext;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
+    public:
     // Get instance field reference: private System.Collections.Hashtable m_Datastore
     System::Collections::Hashtable*& dyn_m_Datastore();
     // Get instance field reference: private System.Object m_HostContext

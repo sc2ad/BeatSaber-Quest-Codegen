@@ -30,12 +30,18 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct Context/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: Context
       constexpr Context(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -64,6 +70,11 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(NullAllowed::Context), 0 + sizeof(int)> __GlobalNamespace_NullAllowed_ContextSizeCheck;
     static_assert(sizeof(NullAllowed::Context) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly NullAllowed/Context context
     // Size: 0x4
     // Offset: 0x10
@@ -84,6 +95,7 @@ namespace GlobalNamespace {
     ::Il2CppObject* ifNotValue;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
+    public:
     // Get instance field reference: public readonly NullAllowed/Context context
     GlobalNamespace::NullAllowed::Context& dyn_context();
     // Get instance field reference: public readonly System.String propertyName

@@ -38,6 +38,11 @@ namespace UnityEngine::TestTools::Logging {
   // [TokenAttribute] Offset: FFFFFFFF
   class LogMatch : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean m_UseRegex
     // Size: 0x1
     // Offset: 0x10
@@ -64,6 +69,7 @@ namespace UnityEngine::TestTools::Logging {
     ::Il2CppString* m_LogType;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: private System.Boolean m_UseRegex
     bool& dyn_m_UseRegex();
     // Get instance field reference: private System.String m_Message

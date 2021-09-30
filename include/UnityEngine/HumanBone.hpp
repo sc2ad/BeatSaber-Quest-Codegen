@@ -22,6 +22,11 @@ namespace UnityEngine {
   // [RequiredByNativeCodeAttribute] Offset: E8B7E4
   struct HumanBone/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String m_BoneName
     // Size: 0x8
     // Offset: 0x0
@@ -41,6 +46,7 @@ namespace UnityEngine {
     UnityEngine::HumanLimit limit;
     // Field size check
     static_assert(sizeof(UnityEngine::HumanLimit) == 0x2C);
+    public:
     // Creating value type constructor for type: HumanBone
     constexpr HumanBone(::Il2CppString* m_BoneName_ = {}, ::Il2CppString* m_HumanName_ = {}, UnityEngine::HumanLimit limit_ = {}) noexcept : m_BoneName{m_BoneName_}, m_HumanName{m_HumanName_}, limit{limit_} {}
     // Creating interface conversion operator: operator System::ValueType

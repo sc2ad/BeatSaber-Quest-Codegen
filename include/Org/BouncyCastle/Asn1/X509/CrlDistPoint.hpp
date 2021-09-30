@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Asn1
@@ -34,12 +35,18 @@ namespace Org::BouncyCastle::Asn1::X509 {
   // [TokenAttribute] Offset: FFFFFFFF
   class CrlDistPoint : public Org::BouncyCastle::Asn1::Asn1Encodable {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // readonly Org.BouncyCastle.Asn1.Asn1Sequence seq
     // Size: 0x8
     // Offset: 0x10
     Org::BouncyCastle::Asn1::Asn1Sequence* seq;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::Asn1Sequence*) == 0x8);
+    public:
     // Creating conversion operator: operator Org::BouncyCastle::Asn1::Asn1Sequence*
     constexpr operator Org::BouncyCastle::Asn1::Asn1Sequence*() const noexcept {
       return seq;
@@ -58,7 +65,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
     static Org::BouncyCastle::Asn1::X509::CrlDistPoint* GetInstance(::Il2CppObject* obj);
     // public Org.BouncyCastle.Asn1.X509.DistributionPoint[] GetDistributionPoints()
     // Offset: 0x1BB6EA0
-    ::ArrayWrapper<Org::BouncyCastle::Asn1::X509::DistributionPoint*> GetDistributionPoints();
+    ::ArrayW<Org::BouncyCastle::Asn1::X509::DistributionPoint*> GetDistributionPoints();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
     // Offset: 0x1BB712C
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
@@ -92,7 +99,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::CrlDistPoint::GetDistributionPoints
 // Il2CppName: GetDistributionPoints
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<Org::BouncyCastle::Asn1::X509::DistributionPoint*> (Org::BouncyCastle::Asn1::X509::CrlDistPoint::*)()>(&Org::BouncyCastle::Asn1::X509::CrlDistPoint::GetDistributionPoints)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Org::BouncyCastle::Asn1::X509::DistributionPoint*> (Org::BouncyCastle::Asn1::X509::CrlDistPoint::*)()>(&Org::BouncyCastle::Asn1::X509::CrlDistPoint::GetDistributionPoints)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::X509::CrlDistPoint*), "GetDistributionPoints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

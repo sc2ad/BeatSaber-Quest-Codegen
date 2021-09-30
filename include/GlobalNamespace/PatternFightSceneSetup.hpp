@@ -38,6 +38,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PatternFightSceneSetup : public Zenject::MonoInstaller {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.AudioClip _testAudioClip
     // Size: 0x8
     // Offset: 0x20
@@ -78,6 +83,7 @@ namespace GlobalNamespace {
     GlobalNamespace::PatternFightSceneSetupData* sceneSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PatternFightSceneSetupData*) == 0x8);
+    public:
     // Get instance field reference: private UnityEngine.AudioClip _testAudioClip
     UnityEngine::AudioClip*& dyn__testAudioClip();
     // Get instance field reference: private System.Single _testAudioClipBPM

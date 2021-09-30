@@ -29,6 +29,11 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_CookLogs : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Text.StringBuilder _cookLogs
     // Size: 0x8
     // Offset: 0x10
@@ -55,6 +60,7 @@ namespace HoudiniEngineUnity {
     bool uniqueStrOnly;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get static field: static private HoudiniEngineUnity.HEU_CookLogs _instance
     static HoudiniEngineUnity::HEU_CookLogs* _get__instance();
     // Set static field: static private HoudiniEngineUnity.HEU_CookLogs _instance

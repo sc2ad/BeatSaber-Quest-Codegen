@@ -27,6 +27,11 @@ namespace NUnit::Framework::Constraints {
   // [TokenAttribute] Offset: FFFFFFFF
   class StringConstraint : public NUnit::Framework::Constraints::Constraint {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // protected System.String expected
     // Size: 0x8
     // Offset: 0x30
@@ -47,6 +52,7 @@ namespace NUnit::Framework::Constraints {
     ::Il2CppString* descriptionText;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: protected System.String expected
     ::Il2CppString*& dyn_expected();
     // Get instance field reference: protected System.Boolean caseInsensitive

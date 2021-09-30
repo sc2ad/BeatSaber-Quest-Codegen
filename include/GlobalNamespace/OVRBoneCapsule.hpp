@@ -27,6 +27,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRBoneCapsule : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int16 <BoneIndex>k__BackingField
     // Size: 0x2
     // Offset: 0x10
@@ -47,6 +52,7 @@ namespace GlobalNamespace {
     UnityEngine::CapsuleCollider* CapsuleCollider;
     // Field size check
     static_assert(sizeof(UnityEngine::CapsuleCollider*) == 0x8);
+    public:
     // Get instance field reference: private System.Int16 <BoneIndex>k__BackingField
     int16_t& dyn_$BoneIndex$k__BackingField();
     // Get instance field reference: private UnityEngine.Rigidbody <CapsuleRigidbody>k__BackingField

@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Mono::Security::Cryptography
@@ -40,6 +41,11 @@ namespace System::Security::Cryptography {
   // [ComVisibleAttribute] Offset: E5F560
   class DSACryptoServiceProvider : public System::Security::Cryptography::DSA {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Mono.Security.Cryptography.KeyPairPersistence store
     // Size: 0x8
     // Offset: 0x20
@@ -78,6 +84,7 @@ namespace System::Security::Cryptography {
     Mono::Security::Cryptography::DSAManaged* dsa;
     // Field size check
     static_assert(sizeof(Mono::Security::Cryptography::DSAManaged*) == 0x8);
+    public:
     // Get static field: static private System.Boolean useMachineKeyStore
     static bool _get_useMachineKeyStore();
     // Set static field: static private System.Boolean useMachineKeyStore
@@ -145,7 +152,7 @@ namespace System::Security::Cryptography {
     // Offset: 0x1A75798
     // Implemented from: System.Security.Cryptography.DSA
     // Base method: System.Boolean DSA::VerifySignature(System.Byte[] rgbHash, System.Byte[] rgbSignature)
-    bool VerifySignature(::ArrayWrapper<uint8_t> rgbHash, ::ArrayWrapper<uint8_t> rgbSignature);
+    bool VerifySignature(::ArrayW<uint8_t> rgbHash, ::ArrayW<uint8_t> rgbSignature);
     // protected override System.Void Dispose(System.Boolean disposing)
     // Offset: 0x1A757B8
     // Implemented from: System.Security.Cryptography.AsymmetricAlgorithm
@@ -231,7 +238,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::DSACryptoServiceProvider::VerifySignature
 // Il2CppName: VerifySignature
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Security::Cryptography::DSACryptoServiceProvider::*)(::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>)>(&System::Security::Cryptography::DSACryptoServiceProvider::VerifySignature)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Security::Cryptography::DSACryptoServiceProvider::*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(&System::Security::Cryptography::DSACryptoServiceProvider::VerifySignature)> {
   static const MethodInfo* get() {
     static auto* rgbHash = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* rgbSignature = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;

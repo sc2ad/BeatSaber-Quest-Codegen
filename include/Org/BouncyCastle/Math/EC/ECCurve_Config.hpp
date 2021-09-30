@@ -32,6 +32,11 @@ namespace Org::BouncyCastle::Math::EC {
   // [TokenAttribute] Offset: FFFFFFFF
   class ECCurve::Config : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // protected Org.BouncyCastle.Math.EC.ECCurve outer
     // Size: 0x8
     // Offset: 0x10
@@ -58,6 +63,7 @@ namespace Org::BouncyCastle::Math::EC {
     Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* multiplier;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier*) == 0x8);
+    public:
     // Get instance field reference: protected Org.BouncyCastle.Math.EC.ECCurve outer
     Org::BouncyCastle::Math::EC::ECCurve*& dyn_outer();
     // Get instance field reference: protected System.Int32 coord

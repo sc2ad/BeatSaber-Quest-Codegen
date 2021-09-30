@@ -27,12 +27,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRHaptics::OVRHapticsChannel : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private OVRHaptics/OVRHapticsOutput m_output
     // Size: 0x8
     // Offset: 0x10
     GlobalNamespace::OVRHaptics::OVRHapticsOutput* m_output;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OVRHaptics::OVRHapticsOutput*) == 0x8);
+    public:
     // Creating conversion operator: operator GlobalNamespace::OVRHaptics::OVRHapticsOutput*
     constexpr operator GlobalNamespace::OVRHaptics::OVRHapticsOutput*() const noexcept {
       return m_output;

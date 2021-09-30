@@ -34,12 +34,18 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct Rating/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: Rating
       constexpr Rating(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -68,12 +74,18 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(BombExecutionRating::Rating), 0 + sizeof(int)> __GlobalNamespace_BombExecutionRating_RatingSizeCheck;
     static_assert(sizeof(BombExecutionRating::Rating) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private BombExecutionRating/Rating <rating>k__BackingField
     // Size: 0x4
     // Offset: 0x18
     GlobalNamespace::BombExecutionRating::Rating rating;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BombExecutionRating::Rating) == 0x4);
+    public:
     // Creating conversion operator: operator GlobalNamespace::BombExecutionRating::Rating
     constexpr operator GlobalNamespace::BombExecutionRating::Rating() const noexcept {
       return rating;

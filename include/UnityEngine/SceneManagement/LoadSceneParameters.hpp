@@ -21,6 +21,11 @@ namespace UnityEngine::SceneManagement {
   // [TokenAttribute] Offset: FFFFFFFF
   struct LoadSceneParameters/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.SceneManagement.LoadSceneMode m_LoadSceneMode
     // Size: 0x4
     // Offset: 0x0
@@ -33,6 +38,7 @@ namespace UnityEngine::SceneManagement {
     UnityEngine::SceneManagement::LocalPhysicsMode m_LocalPhysicsMode;
     // Field size check
     static_assert(sizeof(UnityEngine::SceneManagement::LocalPhysicsMode) == 0x4);
+    public:
     // Creating value type constructor for type: LoadSceneParameters
     constexpr LoadSceneParameters(UnityEngine::SceneManagement::LoadSceneMode m_LoadSceneMode_ = {}, UnityEngine::SceneManagement::LocalPhysicsMode m_LocalPhysicsMode_ = {}) noexcept : m_LoadSceneMode{m_LoadSceneMode_}, m_LocalPhysicsMode{m_LocalPhysicsMode_} {}
     // Creating interface conversion operator: operator System::ValueType

@@ -29,6 +29,11 @@ namespace System::Runtime::Remoting::Contexts {
   // [TokenAttribute] Offset: FFFFFFFF
   class DynamicPropertyCollection::DynamicPropertyReg : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Runtime.Remoting.Contexts.IDynamicProperty Property
     // Size: 0x8
     // Offset: 0x10
@@ -41,6 +46,7 @@ namespace System::Runtime::Remoting::Contexts {
     System::Runtime::Remoting::Contexts::IDynamicMessageSink* Sink;
     // Field size check
     static_assert(sizeof(System::Runtime::Remoting::Contexts::IDynamicMessageSink*) == 0x8);
+    public:
     // Get instance field reference: public System.Runtime.Remoting.Contexts.IDynamicProperty Property
     System::Runtime::Remoting::Contexts::IDynamicProperty*& dyn_Property();
     // Get instance field reference: public System.Runtime.Remoting.Contexts.IDynamicMessageSink Sink

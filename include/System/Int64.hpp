@@ -48,12 +48,18 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5C2C4
   struct Int64/*, public System::ValueType, public System::IComparable_1<int64_t>, public System::IEquatable_1<int64_t>, public System::IComparable, public System::IConvertible, public System::IFormattable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Int64 m_value
     // Size: 0x8
     // Offset: 0x0
     int64_t m_value;
     // Field size check
     static_assert(sizeof(int64_t) == 0x8);
+    public:
     // Creating value type constructor for type: Int64
     constexpr Int64(int64_t m_value_ = {}) noexcept : m_value{m_value_} {}
     // Creating interface conversion operator: operator System::ValueType

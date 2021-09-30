@@ -78,6 +78,11 @@ namespace GlobalNamespace {
     class $SetModelAsync$d__21;
     // Nested type: GlobalNamespace::SteamVR_RenderModel::$FreeRenderModel$d__24
     class $FreeRenderModel$d__24;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public SteamVR_TrackedObject/EIndex index
     // Size: 0x4
     // Offset: 0x18
@@ -159,6 +164,7 @@ namespace GlobalNamespace {
     System::Collections::Generic::Dictionary_2<int, ::Il2CppString*>* nameCache;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<int, ::Il2CppString*>*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static public System.String modelOverrideWarning

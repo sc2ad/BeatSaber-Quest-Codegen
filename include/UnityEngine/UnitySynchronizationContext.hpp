@@ -46,6 +46,11 @@ namespace UnityEngine {
     // [TokenAttribute] Offset: FFFFFFFF
     struct WorkRequest/*, public System::ValueType*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // private readonly System.Threading.SendOrPostCallback m_DelagateCallback
       // Size: 0x8
       // Offset: 0x0
@@ -64,6 +69,7 @@ namespace UnityEngine {
       System::Threading::ManualResetEvent* m_WaitHandle;
       // Field size check
       static_assert(sizeof(System::Threading::ManualResetEvent*) == 0x8);
+      public:
       // Creating value type constructor for type: WorkRequest
       constexpr WorkRequest(System::Threading::SendOrPostCallback* m_DelagateCallback_ = {}, ::Il2CppObject* m_DelagateState_ = {}, System::Threading::ManualResetEvent* m_WaitHandle_ = {}) noexcept : m_DelagateCallback{m_DelagateCallback_}, m_DelagateState{m_DelagateState_}, m_WaitHandle{m_WaitHandle_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -86,6 +92,11 @@ namespace UnityEngine {
     #pragma pack(pop)
     static check_size<sizeof(UnitySynchronizationContext::WorkRequest), 16 + sizeof(System::Threading::ManualResetEvent*)> __UnityEngine_UnitySynchronizationContext_WorkRequestSizeCheck;
     static_assert(sizeof(UnitySynchronizationContext::WorkRequest) == 0x18);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Collections.Generic.List`1<UnityEngine.UnitySynchronizationContext/UnityEngine.WorkRequest> m_AsyncWorkQueue
     // Size: 0x8
     // Offset: 0x18
@@ -110,6 +121,7 @@ namespace UnityEngine {
     int m_TrackedCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Deleting conversion operator: operator System::Threading::SynchronizationContextProperties
     constexpr operator System::Threading::SynchronizationContextProperties() const noexcept = delete;
     // Get instance field reference: private readonly System.Collections.Generic.List`1<UnityEngine.UnitySynchronizationContext/UnityEngine.WorkRequest> m_AsyncWorkQueue

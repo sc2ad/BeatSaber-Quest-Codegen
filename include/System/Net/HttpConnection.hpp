@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -94,12 +95,18 @@ namespace System::Net {
     // [TokenAttribute] Offset: FFFFFFFF
     struct InputState/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: InputState
       constexpr InputState(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -134,12 +141,18 @@ namespace System::Net {
     // [TokenAttribute] Offset: FFFFFFFF
     struct LineState/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: LineState
       constexpr LineState(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -174,6 +187,11 @@ namespace System::Net {
     #pragma pack(pop)
     static check_size<sizeof(HttpConnection::LineState), 0 + sizeof(int)> __System_Net_HttpConnection_LineStateSizeCheck;
     static_assert(sizeof(HttpConnection::LineState) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Net.Sockets.Socket sock
     // Size: 0x8
     // Offset: 0x10
@@ -201,9 +219,9 @@ namespace System::Net {
     // private System.Byte[] buffer
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<uint8_t> buffer;
+    ::ArrayW<uint8_t> buffer;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Net.HttpListenerContext context
     // Size: 0x8
     // Offset: 0x38
@@ -297,9 +315,9 @@ namespace System::Net {
     // private System.Int32[] client_cert_errors
     // Size: 0x8
     // Offset: 0x98
-    ::ArrayWrapper<int> client_cert_errors;
+    ::ArrayW<int> client_cert_errors;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // private System.Security.Cryptography.X509Certificates.X509Certificate2 client_cert
     // Size: 0x8
     // Offset: 0xA0
@@ -330,6 +348,7 @@ namespace System::Net {
     int position;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get static field: static private System.AsyncCallback onread_cb
     static System::AsyncCallback* _get_onread_cb();
     // Set static field: static private System.AsyncCallback onread_cb
@@ -343,7 +362,7 @@ namespace System::Net {
     // Get instance field reference: private System.IO.MemoryStream ms
     System::IO::MemoryStream*& dyn_ms();
     // Get instance field reference: private System.Byte[] buffer
-    ::ArrayWrapper<uint8_t>& dyn_buffer();
+    ::ArrayW<uint8_t>& dyn_buffer();
     // Get instance field reference: private System.Net.HttpListenerContext context
     System::Net::HttpListenerContext*& dyn_context();
     // Get instance field reference: private System.Text.StringBuilder current_line
@@ -373,7 +392,7 @@ namespace System::Net {
     // Get instance field reference: private System.Net.HttpListener last_listener
     System::Net::HttpListener*& dyn_last_listener();
     // Get instance field reference: private System.Int32[] client_cert_errors
-    ::ArrayWrapper<int>& dyn_client_cert_errors();
+    ::ArrayW<int>& dyn_client_cert_errors();
     // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509Certificate2 client_cert
     System::Security::Cryptography::X509Certificates::X509Certificate2*& dyn_client_cert();
     // Get instance field reference: private System.Net.Security.SslStream ssl_stream
@@ -435,7 +454,7 @@ namespace System::Net {
     bool ProcessInput(System::IO::MemoryStream* ms);
     // private System.String ReadLine(System.Byte[] buffer, System.Int32 offset, System.Int32 len, ref System.Int32 used)
     // Offset: 0x183DC94
-    ::Il2CppString* ReadLine(::ArrayWrapper<uint8_t> buffer, int offset, int len, ByRef<int> used);
+    ::Il2CppString* ReadLine(::ArrayW<uint8_t> buffer, int offset, int len, ByRef<int> used);
     // public System.Void SendError(System.String msg, System.Int32 status)
     // Offset: 0x183CBF8
     void SendError(::Il2CppString* msg, int status);
@@ -589,7 +608,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Net::HttpConnection::ReadLine
 // Il2CppName: ReadLine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::HttpConnection::*)(::ArrayWrapper<uint8_t>, int, int, ByRef<int>)>(&System::Net::HttpConnection::ReadLine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Net::HttpConnection::*)(::ArrayW<uint8_t>, int, int, ByRef<int>)>(&System::Net::HttpConnection::ReadLine)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

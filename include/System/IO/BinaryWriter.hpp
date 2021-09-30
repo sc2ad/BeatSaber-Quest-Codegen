@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO
@@ -35,6 +36,11 @@ namespace System::IO {
   // [ComVisibleAttribute] Offset: E5E1AC
   class BinaryWriter : public ::Il2CppObject/*, public System::IDisposable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // protected System.IO.Stream OutStream
     // Size: 0x8
     // Offset: 0x10
@@ -44,9 +50,9 @@ namespace System::IO {
     // private System.Byte[] _buffer
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<uint8_t> buffer;
+    ::ArrayW<uint8_t> buffer;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Text.Encoding _encoding
     // Size: 0x8
     // Offset: 0x20
@@ -71,15 +77,16 @@ namespace System::IO {
     // private System.Byte[] _largeByteBuffer
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayWrapper<uint8_t> largeByteBuffer;
+    ::ArrayW<uint8_t> largeByteBuffer;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Int32 _maxChars
     // Size: 0x4
     // Offset: 0x40
     int maxChars;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
@@ -91,7 +98,7 @@ namespace System::IO {
     // Get instance field reference: protected System.IO.Stream OutStream
     System::IO::Stream*& dyn_OutStream();
     // Get instance field reference: private System.Byte[] _buffer
-    ::ArrayWrapper<uint8_t>& dyn__buffer();
+    ::ArrayW<uint8_t>& dyn__buffer();
     // Get instance field reference: private System.Text.Encoding _encoding
     System::Text::Encoding*& dyn__encoding();
     // Get instance field reference: private System.Text.Encoder _encoder
@@ -99,7 +106,7 @@ namespace System::IO {
     // Get instance field reference: private System.Boolean _leaveOpen
     bool& dyn__leaveOpen();
     // Get instance field reference: private System.Byte[] _largeByteBuffer
-    ::ArrayWrapper<uint8_t>& dyn__largeByteBuffer();
+    ::ArrayW<uint8_t>& dyn__largeByteBuffer();
     // Get instance field reference: private System.Int32 _maxChars
     int& dyn__maxChars();
     // public System.Void .ctor(System.IO.Stream output)
@@ -143,16 +150,16 @@ namespace System::IO {
     void Write(uint8_t value);
     // public System.Void Write(System.Byte[] buffer)
     // Offset: 0x1AAE180
-    void Write(::ArrayWrapper<uint8_t> buffer);
+    void Write(::ArrayW<uint8_t> buffer);
     // public System.Void Write(System.Byte[] buffer, System.Int32 index, System.Int32 count)
     // Offset: 0x1AAE230
-    void Write(::ArrayWrapper<uint8_t> buffer, int index, int count);
+    void Write(::ArrayW<uint8_t> buffer, int index, int count);
     // public System.Void Write(System.Char ch)
     // Offset: 0x1AAE254
     void Write(::Il2CppChar ch);
     // public System.Void Write(System.Char[] chars)
     // Offset: 0x1AAE388
-    void Write(::ArrayWrapper<::Il2CppChar> chars);
+    void Write(::ArrayW<::Il2CppChar> chars);
     // public System.Void Write(System.Double value)
     // Offset: 0x1AAE460
     void Write(double value);
@@ -265,7 +272,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::IO::BinaryWriter::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::BinaryWriter::*)(::ArrayWrapper<uint8_t>)>(&System::IO::BinaryWriter::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::BinaryWriter::*)(::ArrayW<uint8_t>)>(&System::IO::BinaryWriter::Write)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::BinaryWriter*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer});
@@ -274,7 +281,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::IO::BinaryWriter::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::BinaryWriter::*)(::ArrayWrapper<uint8_t>, int, int)>(&System::IO::BinaryWriter::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::BinaryWriter::*)(::ArrayW<uint8_t>, int, int)>(&System::IO::BinaryWriter::Write)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -294,7 +301,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::IO::BinaryWriter::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::BinaryWriter::*)(::ArrayWrapper<::Il2CppChar>)>(&System::IO::BinaryWriter::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::BinaryWriter::*)(::ArrayW<::Il2CppChar>)>(&System::IO::BinaryWriter::Write)> {
   static const MethodInfo* get() {
     static auto* chars = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::BinaryWriter*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{chars});

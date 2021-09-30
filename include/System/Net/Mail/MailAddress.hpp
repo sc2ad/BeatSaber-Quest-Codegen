@@ -30,6 +30,11 @@ namespace System::Net::Mail {
   // [TokenAttribute] Offset: FFFFFFFF
   class MailAddress : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String address
     // Size: 0x8
     // Offset: 0x10
@@ -60,6 +65,7 @@ namespace System::Net::Mail {
     ::Il2CppString* to_string;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: private System.String address
     ::Il2CppString*& dyn_address();
     // Get instance field reference: private System.String displayName

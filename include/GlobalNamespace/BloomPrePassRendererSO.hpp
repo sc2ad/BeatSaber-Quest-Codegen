@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -64,6 +65,11 @@ namespace GlobalNamespace {
     class PreallocationData;
     // Nested type: GlobalNamespace::BloomPrePassRendererSO::LightsRenderingData
     class LightsRenderingData;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private BloomFogSO _bloomFog
     // Size: 0x8
     // Offset: 0x18
@@ -74,9 +80,9 @@ namespace GlobalNamespace {
     // private BloomPrePassRendererSO/PreallocationData[] _preallocationData
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<GlobalNamespace::BloomPrePassRendererSO::PreallocationData*> preallocationData;
+    ::ArrayW<GlobalNamespace::BloomPrePassRendererSO::PreallocationData*> preallocationData;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::BloomPrePassRendererSO::PreallocationData*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::BloomPrePassRendererSO::PreallocationData*>) == 0x8);
     // private readonly System.Collections.Generic.Dictionary`2<BloomPrePassLightTypeSO,BloomPrePassRendererSO/LightsRenderingData> _lightsRenderingData
     // Size: 0x8
     // Offset: 0x28
@@ -103,6 +109,7 @@ namespace GlobalNamespace {
     UnityEngine::Texture2D* blackTexture;
     // Field size check
     static_assert(sizeof(UnityEngine::Texture2D*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEDE384
@@ -128,7 +135,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private BloomFogSO _bloomFog
     GlobalNamespace::BloomFogSO*& dyn__bloomFog();
     // Get instance field reference: private BloomPrePassRendererSO/PreallocationData[] _preallocationData
-    ::ArrayWrapper<GlobalNamespace::BloomPrePassRendererSO::PreallocationData*>& dyn__preallocationData();
+    ::ArrayW<GlobalNamespace::BloomPrePassRendererSO::PreallocationData*>& dyn__preallocationData();
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<BloomPrePassLightTypeSO,BloomPrePassRendererSO/LightsRenderingData> _lightsRenderingData
     System::Collections::Generic::Dictionary_2<GlobalNamespace::BloomPrePassLightTypeSO*, GlobalNamespace::BloomPrePassRendererSO::LightsRenderingData*>*& dyn__lightsRenderingData();
     // Get instance field reference: private UnityEngine.Rendering.CommandBuffer _commandBuffer

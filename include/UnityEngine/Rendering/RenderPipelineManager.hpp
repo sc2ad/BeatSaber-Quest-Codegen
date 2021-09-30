@@ -7,6 +7,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Rendering.ScriptableRenderContext
 #include "UnityEngine/Rendering/ScriptableRenderContext.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Rendering
@@ -42,9 +43,9 @@ namespace UnityEngine::Rendering {
     // Set static field: static UnityEngine.Rendering.RenderPipelineAsset s_CurrentPipelineAsset
     static void _set_s_CurrentPipelineAsset(UnityEngine::Rendering::RenderPipelineAsset* value);
     // Get static field: static private UnityEngine.Camera[] s_Cameras
-    static ::ArrayWrapper<UnityEngine::Camera*> _get_s_Cameras();
+    static ::ArrayW<UnityEngine::Camera*> _get_s_Cameras();
     // Set static field: static private UnityEngine.Camera[] s_Cameras
-    static void _set_s_Cameras(::ArrayWrapper<UnityEngine::Camera*> value);
+    static void _set_s_Cameras(::ArrayW<UnityEngine::Camera*> value);
     // Get static field: static private System.Int32 s_CameraCapacity
     static int _get_s_CameraCapacity();
     // Set static field: static private System.Int32 s_CameraCapacity
@@ -56,9 +57,9 @@ namespace UnityEngine::Rendering {
     static void _set_$currentPipeline$k__BackingField(UnityEngine::Rendering::RenderPipeline* value);
     // [DebuggerBrowsableAttribute] Offset: 0xE77160
     // Get static field: static private System.Action`2<UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera[]> beginFrameRendering
-    static System::Action_2<UnityEngine::Rendering::ScriptableRenderContext, ::ArrayWrapper<UnityEngine::Camera*>>* _get_beginFrameRendering();
+    static System::Action_2<UnityEngine::Rendering::ScriptableRenderContext, ::ArrayW<UnityEngine::Camera*>>* _get_beginFrameRendering();
     // Set static field: static private System.Action`2<UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera[]> beginFrameRendering
-    static void _set_beginFrameRendering(System::Action_2<UnityEngine::Rendering::ScriptableRenderContext, ::ArrayWrapper<UnityEngine::Camera*>>* value);
+    static void _set_beginFrameRendering(System::Action_2<UnityEngine::Rendering::ScriptableRenderContext, ::ArrayW<UnityEngine::Camera*>>* value);
     // [DebuggerBrowsableAttribute] Offset: 0xE7719C
     // Get static field: static private System.Action`2<UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera> beginCameraRendering
     static System::Action_2<UnityEngine::Rendering::ScriptableRenderContext, UnityEngine::Camera*>* _get_beginCameraRendering();
@@ -72,10 +73,10 @@ namespace UnityEngine::Rendering {
     static void set_currentPipeline(UnityEngine::Rendering::RenderPipeline* value);
     // static public System.Void add_beginFrameRendering(System.Action`2<UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera[]> value)
     // Offset: 0x1E09400
-    static void add_beginFrameRendering(System::Action_2<UnityEngine::Rendering::ScriptableRenderContext, ::ArrayWrapper<UnityEngine::Camera*>>* value);
+    static void add_beginFrameRendering(System::Action_2<UnityEngine::Rendering::ScriptableRenderContext, ::ArrayW<UnityEngine::Camera*>>* value);
     // static public System.Void remove_beginFrameRendering(System.Action`2<UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera[]> value)
     // Offset: 0x1E094F0
-    static void remove_beginFrameRendering(System::Action_2<UnityEngine::Rendering::ScriptableRenderContext, ::ArrayWrapper<UnityEngine::Camera*>>* value);
+    static void remove_beginFrameRendering(System::Action_2<UnityEngine::Rendering::ScriptableRenderContext, ::ArrayW<UnityEngine::Camera*>>* value);
     // static public System.Void add_beginCameraRendering(System.Action`2<UnityEngine.Rendering.ScriptableRenderContext,UnityEngine.Camera> value)
     // Offset: 0x1E095E0
     static void add_beginCameraRendering(System::Action_2<UnityEngine::Rendering::ScriptableRenderContext, UnityEngine::Camera*>* value);
@@ -123,7 +124,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Rendering::RenderPipelineManager::add_beginFrameRendering
 // Il2CppName: add_beginFrameRendering
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action_2<UnityEngine::Rendering::ScriptableRenderContext, ::ArrayWrapper<UnityEngine::Camera*>>*)>(&UnityEngine::Rendering::RenderPipelineManager::add_beginFrameRendering)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action_2<UnityEngine::Rendering::ScriptableRenderContext, ::ArrayW<UnityEngine::Camera*>>*)>(&UnityEngine::Rendering::RenderPipelineManager::add_beginFrameRendering)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "ScriptableRenderContext"), il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Camera"), 1)})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::RenderPipelineManager*), "add_beginFrameRendering", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -132,7 +133,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::Rendering::RenderPipelineManager::remove_beginFrameRendering
 // Il2CppName: remove_beginFrameRendering
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action_2<UnityEngine::Rendering::ScriptableRenderContext, ::ArrayWrapper<UnityEngine::Camera*>>*)>(&UnityEngine::Rendering::RenderPipelineManager::remove_beginFrameRendering)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Action_2<UnityEngine::Rendering::ScriptableRenderContext, ::ArrayW<UnityEngine::Camera*>>*)>(&UnityEngine::Rendering::RenderPipelineManager::remove_beginFrameRendering)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System", "Action`2"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "ScriptableRenderContext"), il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Camera"), 1)})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Rendering::RenderPipelineManager*), "remove_beginFrameRendering", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

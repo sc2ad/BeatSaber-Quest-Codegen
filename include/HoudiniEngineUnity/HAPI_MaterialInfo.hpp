@@ -16,6 +16,11 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HAPI_MaterialInfo/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 nodeId
     // Size: 0x4
     // Offset: 0x0
@@ -34,6 +39,7 @@ namespace HoudiniEngineUnity {
     bool hasChanged;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating value type constructor for type: HAPI_MaterialInfo
     constexpr HAPI_MaterialInfo(int nodeId_ = {}, bool exists_ = {}, bool hasChanged_ = {}) noexcept : nodeId{nodeId_}, exists{exists_}, hasChanged{hasChanged_} {}
     // Creating interface conversion operator: operator System::ValueType

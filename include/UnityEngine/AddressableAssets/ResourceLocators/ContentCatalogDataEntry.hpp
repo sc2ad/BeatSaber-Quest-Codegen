@@ -34,6 +34,11 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
   // [TokenAttribute] Offset: FFFFFFFF
   class ContentCatalogDataEntry : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String <InternalId>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -70,6 +75,7 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
     System::Type* ResourceType;
     // Field size check
     static_assert(sizeof(System::Type*) == 0x8);
+    public:
     // Get instance field reference: private System.String <InternalId>k__BackingField
     ::Il2CppString*& dyn_$InternalId$k__BackingField();
     // Get instance field reference: private System.String <Provider>k__BackingField

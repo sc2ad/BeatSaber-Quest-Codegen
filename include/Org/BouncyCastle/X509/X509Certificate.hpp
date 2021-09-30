@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Asn1::X509
@@ -48,6 +49,11 @@ namespace Org::BouncyCastle::X509 {
   // [TokenAttribute] Offset: FFFFFFFF
   class X509Certificate : public Org::BouncyCastle::X509::X509ExtensionBase {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Org.BouncyCastle.Asn1.X509.X509CertificateStructure c
     // Size: 0x8
     // Offset: 0x10
@@ -63,9 +69,9 @@ namespace Org::BouncyCastle::X509 {
     // private readonly System.Byte[] sigAlgParams
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<uint8_t> sigAlgParams;
+    ::ArrayW<uint8_t> sigAlgParams;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private readonly Org.BouncyCastle.Asn1.X509.BasicConstraints basicConstraints
     // Size: 0x8
     // Offset: 0x28
@@ -75,9 +81,9 @@ namespace Org::BouncyCastle::X509 {
     // private readonly System.Boolean[] keyUsage
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<bool> keyUsage;
+    ::ArrayW<bool> keyUsage;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<bool>) == 0x8);
+    static_assert(sizeof(::ArrayW<bool>) == 0x8);
     // private readonly System.Object cacheLock
     // Size: 0x8
     // Offset: 0x38
@@ -104,16 +110,17 @@ namespace Org::BouncyCastle::X509 {
     int hashValue;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.X509.X509CertificateStructure c
     Org::BouncyCastle::Asn1::X509::X509CertificateStructure*& dyn_c();
     // Get instance field reference: private readonly System.String sigAlgName
     ::Il2CppString*& dyn_sigAlgName();
     // Get instance field reference: private readonly System.Byte[] sigAlgParams
-    ::ArrayWrapper<uint8_t>& dyn_sigAlgParams();
+    ::ArrayW<uint8_t>& dyn_sigAlgParams();
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.X509.BasicConstraints basicConstraints
     Org::BouncyCastle::Asn1::X509::BasicConstraints*& dyn_basicConstraints();
     // Get instance field reference: private readonly System.Boolean[] keyUsage
-    ::ArrayWrapper<bool>& dyn_keyUsage();
+    ::ArrayW<bool>& dyn_keyUsage();
     // Get instance field reference: private readonly System.Object cacheLock
     ::Il2CppObject*& dyn_cacheLock();
     // Get instance field reference: private Org.BouncyCastle.Crypto.AsymmetricKeyParameter publicKeyValue
@@ -152,13 +159,13 @@ namespace Org::BouncyCastle::X509 {
     }
     // public System.Byte[] GetSignature()
     // Offset: 0x2184C3C
-    ::ArrayWrapper<uint8_t> GetSignature();
+    ::ArrayW<uint8_t> GetSignature();
     // public Org.BouncyCastle.Crypto.AsymmetricKeyParameter GetPublicKey()
     // Offset: 0x2184CB0
     Org::BouncyCastle::Crypto::AsymmetricKeyParameter* GetPublicKey();
     // public System.Byte[] GetEncoded()
     // Offset: 0x2184D48
-    ::ArrayWrapper<uint8_t> GetEncoded();
+    ::ArrayW<uint8_t> GetEncoded();
     // protected override Org.BouncyCastle.Asn1.X509.X509Extensions GetX509Extensions()
     // Offset: 0x2184C60
     // Implemented from: Org.BouncyCastle.X509.X509ExtensionBase
@@ -249,7 +256,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: Org::BouncyCastle::X509::X509Certificate::GetSignature
 // Il2CppName: GetSignature
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::X509::X509Certificate::*)()>(&Org::BouncyCastle::X509::X509Certificate::GetSignature)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Org::BouncyCastle::X509::X509Certificate::*)()>(&Org::BouncyCastle::X509::X509Certificate::GetSignature)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::X509::X509Certificate*), "GetSignature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -265,7 +272,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::X509::X509Certificate::GetEncoded
 // Il2CppName: GetEncoded
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::X509::X509Certificate::*)()>(&Org::BouncyCastle::X509::X509Certificate::GetEncoded)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Org::BouncyCastle::X509::X509Certificate::*)()>(&Org::BouncyCastle::X509::X509Certificate::GetEncoded)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::X509::X509Certificate*), "GetEncoded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

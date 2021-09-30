@@ -31,6 +31,11 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class SceneContextRegistryAdderAndRemover : public ::Il2CppObject/*, public System::IDisposable, public Zenject::IInitializable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Zenject.SceneContextRegistry _registry
     // Size: 0x8
     // Offset: 0x10
@@ -43,6 +48,7 @@ namespace Zenject {
     Zenject::SceneContext* sceneContext;
     // Field size check
     static_assert(sizeof(Zenject::SceneContext*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

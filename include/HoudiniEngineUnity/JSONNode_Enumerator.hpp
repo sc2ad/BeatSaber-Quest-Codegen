@@ -38,12 +38,18 @@ namespace HoudiniEngineUnity {
     // [TokenAttribute] Offset: FFFFFFFF
     struct Type/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: Type
       constexpr Type(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -78,6 +84,11 @@ namespace HoudiniEngineUnity {
     #pragma pack(pop)
     static check_size<sizeof(JSONNode::Enumerator::Type), 0 + sizeof(int)> __HoudiniEngineUnity_JSONNode_Enumerator_TypeSizeCheck;
     static_assert(sizeof(JSONNode::Enumerator::Type) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private HoudiniEngineUnity.JSONNode/HoudiniEngineUnity.Enumerator/HoudiniEngineUnity.Type type
     // Size: 0x4
     // Offset: 0x0
@@ -92,6 +103,7 @@ namespace HoudiniEngineUnity {
     // Size: 0xFFFFFFFF
     // Offset: 0x30
     typename System::Collections::Generic::List_1<HoudiniEngineUnity::JSONNode*>::Enumerator m_Array;
+    public:
     // Creating value type constructor for type: Enumerator
     constexpr Enumerator(HoudiniEngineUnity::JSONNode::Enumerator::Type type_ = {}, typename System::Collections::Generic::Dictionary_2<::Il2CppString*, HoudiniEngineUnity::JSONNode*>::Enumerator m_Object_ = {}, typename System::Collections::Generic::List_1<HoudiniEngineUnity::JSONNode*>::Enumerator m_Array_ = {}) noexcept : type{type_}, m_Object{m_Object_}, m_Array{m_Array_} {}
     // Creating interface conversion operator: operator System::ValueType

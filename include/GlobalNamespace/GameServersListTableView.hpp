@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -60,6 +61,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GameServersListTableView : public UnityEngine::MonoBehaviour/*, public GlobalNamespace::TableViewWithDetailCell::IDataSource*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private TableViewWithDetailCell _tableView
     // Size: 0x8
     // Offset: 0x18
@@ -102,15 +108,16 @@ namespace GlobalNamespace {
     // private INetworkPlayer[] _gamesList
     // Size: 0x8
     // Offset: 0x48
-    ::ArrayWrapper<GlobalNamespace::INetworkPlayer*> gamesList;
+    ::ArrayW<GlobalNamespace::INetworkPlayer*> gamesList;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::INetworkPlayer*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::INetworkPlayer*>) == 0x8);
     // private INetworkPlayer _selectedServer
     // Size: 0x8
     // Offset: 0x50
     GlobalNamespace::INetworkPlayer* selectedServer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::INetworkPlayer*) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::TableViewWithDetailCell::IDataSource
     operator GlobalNamespace::TableViewWithDetailCell::IDataSource() noexcept {
       return *reinterpret_cast<GlobalNamespace::TableViewWithDetailCell::IDataSource*>(this);
@@ -142,7 +149,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _isInitialized
     bool& dyn__isInitialized();
     // Get instance field reference: private INetworkPlayer[] _gamesList
-    ::ArrayWrapper<GlobalNamespace::INetworkPlayer*>& dyn__gamesList();
+    ::ArrayW<GlobalNamespace::INetworkPlayer*>& dyn__gamesList();
     // Get instance field reference: private INetworkPlayer _selectedServer
     GlobalNamespace::INetworkPlayer*& dyn__selectedServer();
     // public System.Void add_joinButtonPressedEvent(System.Action`1<INetworkPlayer> value)

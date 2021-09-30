@@ -36,6 +36,11 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
   // [TokenAttribute] Offset: FFFFFFFF
   class RsassaPssParameters : public Org::BouncyCastle::Asn1::Asn1Encodable {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier hashAlgorithm
     // Size: 0x8
     // Offset: 0x10
@@ -60,6 +65,7 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     Org::BouncyCastle::Asn1::DerInteger* trailerField;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::DerInteger*) == 0x8);
+    public:
     // Get static field: static public readonly Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier DefaultHashAlgorithm
     static Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* _get_DefaultHashAlgorithm();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier DefaultHashAlgorithm

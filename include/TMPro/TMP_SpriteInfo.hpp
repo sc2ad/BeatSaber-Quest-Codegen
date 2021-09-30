@@ -16,6 +16,11 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   struct TMP_SpriteInfo/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 spriteIndex
     // Size: 0x4
     // Offset: 0x0
@@ -34,6 +39,7 @@ namespace TMPro {
     int vertexIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: TMP_SpriteInfo
     constexpr TMP_SpriteInfo(int spriteIndex_ = {}, int characterIndex_ = {}, int vertexIndex_ = {}) noexcept : spriteIndex{spriteIndex_}, characterIndex{characterIndex_}, vertexIndex{vertexIndex_} {}
     // Creating interface conversion operator: operator System::ValueType

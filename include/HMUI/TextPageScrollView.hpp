@@ -27,12 +27,18 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class TextPageScrollView : public HMUI::ScrollView {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private TMPro.TextMeshProUGUI _text
     // Size: 0x8
     // Offset: 0xA0
     TMPro::TextMeshProUGUI* text;
     // Field size check
     static_assert(sizeof(TMPro::TextMeshProUGUI*) == 0x8);
+    public:
     // Get instance field reference: private TMPro.TextMeshProUGUI _text
     TMPro::TextMeshProUGUI*& dyn__text();
     // public System.Void SetText(System.String text)

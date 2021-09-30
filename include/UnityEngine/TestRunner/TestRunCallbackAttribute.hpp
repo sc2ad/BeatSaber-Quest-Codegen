@@ -29,12 +29,18 @@ namespace UnityEngine::TestRunner {
   // [AttributeUsageAttribute] Offset: F28E64
   class TestRunCallbackAttribute : public System::Attribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Type m_Type
     // Size: 0x8
     // Offset: 0x10
     System::Type* m_Type;
     // Field size check
     static_assert(sizeof(System::Type*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Type*
     constexpr operator System::Type*() const noexcept {
       return m_Type;

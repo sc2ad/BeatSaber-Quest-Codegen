@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -27,6 +28,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class TrackLaneRingsManager : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private TrackLaneRing _trackLaneRingPrefab
     // Size: 0x8
     // Offset: 0x18
@@ -56,9 +62,10 @@ namespace GlobalNamespace {
     // private TrackLaneRing[] _rings
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<GlobalNamespace::TrackLaneRing*> rings;
+    ::ArrayW<GlobalNamespace::TrackLaneRing*> rings;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::TrackLaneRing*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::TrackLaneRing*>) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TrackLaneRing _trackLaneRingPrefab
@@ -70,13 +77,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _spawnAsChildren
     bool& dyn__spawnAsChildren();
     // Get instance field reference: private TrackLaneRing[] _rings
-    ::ArrayWrapper<GlobalNamespace::TrackLaneRing*>& dyn__rings();
+    ::ArrayW<GlobalNamespace::TrackLaneRing*>& dyn__rings();
     // public System.Single get_ringPositionStep()
     // Offset: 0x116116C
     float get_ringPositionStep();
     // public TrackLaneRing[] get_Rings()
     // Offset: 0x1161174
-    ::ArrayWrapper<GlobalNamespace::TrackLaneRing*> get_Rings();
+    ::ArrayW<GlobalNamespace::TrackLaneRing*> get_Rings();
     // protected System.Void Awake()
     // Offset: 0x116117C
     void Awake();
@@ -104,7 +111,7 @@ namespace GlobalNamespace {
     }
   }; // TrackLaneRingsManager
   #pragma pack(pop)
-  static check_size<sizeof(TrackLaneRingsManager), 48 + sizeof(::ArrayWrapper<GlobalNamespace::TrackLaneRing*>)> __GlobalNamespace_TrackLaneRingsManagerSizeCheck;
+  static check_size<sizeof(TrackLaneRingsManager), 48 + sizeof(::ArrayW<GlobalNamespace::TrackLaneRing*>)> __GlobalNamespace_TrackLaneRingsManagerSizeCheck;
   static_assert(sizeof(TrackLaneRingsManager) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TrackLaneRingsManager*, "", "TrackLaneRingsManager");
@@ -120,7 +127,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Writing MetadataGetter for method: GlobalNamespace::TrackLaneRingsManager::get_Rings
 // Il2CppName: get_Rings
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::TrackLaneRing*> (GlobalNamespace::TrackLaneRingsManager::*)()>(&GlobalNamespace::TrackLaneRingsManager::get_Rings)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<GlobalNamespace::TrackLaneRing*> (GlobalNamespace::TrackLaneRingsManager::*)()>(&GlobalNamespace::TrackLaneRingsManager::get_Rings)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TrackLaneRingsManager*), "get_Rings", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

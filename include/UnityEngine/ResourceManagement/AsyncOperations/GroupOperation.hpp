@@ -57,12 +57,18 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     // [FlagsAttribute] Offset: FFFFFFFF
     struct GroupOperationSettings/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: GroupOperationSettings
       constexpr GroupOperationSettings(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -97,6 +103,11 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     #pragma pack(pop)
     static check_size<sizeof(GroupOperation::GroupOperationSettings), 0 + sizeof(int)> __UnityEngine_ResourceManagement_AsyncOperations_GroupOperation_GroupOperationSettingsSizeCheck;
     static_assert(sizeof(GroupOperation::GroupOperationSettings) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Action`1<UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle> m_InternalOnComplete
     // Size: 0x8
     // Offset: 0x80
@@ -133,6 +144,7 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     System::Collections::Generic::HashSet_1<::Il2CppString*>* m_CachedDependencyLocations;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::HashSet_1<::Il2CppString*>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator UnityEngine::ResourceManagement::AsyncOperations::ICachable
     operator UnityEngine::ResourceManagement::AsyncOperations::ICachable() noexcept {
       return *reinterpret_cast<UnityEngine::ResourceManagement::AsyncOperations::ICachable*>(this);

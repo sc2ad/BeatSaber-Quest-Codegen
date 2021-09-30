@@ -17,12 +17,18 @@ namespace UnityEngine::TestTools {
   // [AttributeUsageAttribute] Offset: F28FB8
   class TestMustExpectAllLogsAttribute : public System::Attribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Boolean <MustExpect>k__BackingField
     // Size: 0x1
     // Offset: 0x10
     bool MustExpect;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating conversion operator: operator bool
     constexpr operator bool() const noexcept {
       return MustExpect;

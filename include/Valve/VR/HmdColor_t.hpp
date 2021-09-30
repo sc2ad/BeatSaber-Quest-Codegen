@@ -16,6 +16,11 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HmdColor_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Single r
     // Size: 0x4
     // Offset: 0x0
@@ -40,6 +45,7 @@ namespace Valve::VR {
     float a;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: HmdColor_t
     constexpr HmdColor_t(float r_ = {}, float g_ = {}, float b_ = {}, float a_ = {}) noexcept : r{r_}, g{g_}, b{b_}, a{a_} {}
     // Creating interface conversion operator: operator System::ValueType

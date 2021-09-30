@@ -40,6 +40,11 @@ namespace GlobalNamespace {
     class $Start$d__3;
     // Nested type: GlobalNamespace::NetEaseLoginController::$LoginAsync$d__4
     struct $LoginAsync$d__4;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private MenuScenesTransitionSetupDataSO _arcadeMenuTransitionSetupData
     // Size: 0x8
     // Offset: 0x18
@@ -60,6 +65,7 @@ namespace GlobalNamespace {
     GlobalNamespace::NetEaseManager* netEaseManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::NetEaseManager*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MenuScenesTransitionSetupDataSO _arcadeMenuTransitionSetupData

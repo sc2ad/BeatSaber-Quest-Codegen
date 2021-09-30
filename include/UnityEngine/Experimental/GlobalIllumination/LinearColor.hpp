@@ -23,6 +23,11 @@ namespace UnityEngine::Experimental::GlobalIllumination {
   // [TokenAttribute] Offset: FFFFFFFF
   struct LinearColor/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Single m_red
     // Size: 0x4
     // Offset: 0x0
@@ -47,6 +52,7 @@ namespace UnityEngine::Experimental::GlobalIllumination {
     float m_intensity;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: LinearColor
     constexpr LinearColor(float m_red_ = {}, float m_green_ = {}, float m_blue_ = {}, float m_intensity_ = {}) noexcept : m_red{m_red_}, m_green{m_green_}, m_blue{m_blue_}, m_intensity{m_intensity_} {}
     // Creating interface conversion operator: operator System::ValueType

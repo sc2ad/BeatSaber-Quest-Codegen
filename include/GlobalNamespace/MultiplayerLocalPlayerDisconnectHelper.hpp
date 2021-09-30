@@ -34,6 +34,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerLocalPlayerDisconnectHelper : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xF08E40
     // private readonly IGameplayRpcManager _gameplayRpcManager
     // Size: 0x8
@@ -55,6 +60,7 @@ namespace GlobalNamespace {
     GlobalNamespace::LobbyPlayerPermissionsModel* lobbyPlayerPermissionsModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LobbyPlayerPermissionsModel*) == 0x8);
+    public:
     // static field const value: static private System.String kDisconnectLabel
     static constexpr const char* kDisconnectLabel = "BUTTON_DISCONNECT";
     // Get static field: static private System.String kDisconnectLabel

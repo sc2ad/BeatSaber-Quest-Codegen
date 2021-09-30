@@ -43,6 +43,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::MultiplayerBadgesProvider::$$c
     class $$c;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xF08308
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
@@ -64,6 +69,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerBadgesModelSO* multiplayerBadgesModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerBadgesModelSO*) == 0x8);
+    public:
     // static field const value: static private System.Int32 kTargetPositiveBadgesCount
     static constexpr const int kTargetPositiveBadgesCount = 2;
     // Get static field: static private System.Int32 kTargetPositiveBadgesCount

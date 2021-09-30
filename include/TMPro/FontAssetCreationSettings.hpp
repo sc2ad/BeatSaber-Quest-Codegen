@@ -19,6 +19,11 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   struct FontAssetCreationSettings/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.String sourceFontFileName
     // Size: 0x8
     // Offset: 0x0
@@ -117,6 +122,7 @@ namespace TMPro {
     bool includeFontFeatures;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating value type constructor for type: FontAssetCreationSettings
     constexpr FontAssetCreationSettings(::Il2CppString* sourceFontFileName_ = {}, ::Il2CppString* sourceFontFileGUID_ = {}, int pointSizeSamplingMode_ = {}, int pointSize_ = {}, int padding_ = {}, int packingMode_ = {}, int atlasWidth_ = {}, int atlasHeight_ = {}, int characterSetSelectionMode_ = {}, ::Il2CppString* characterSequence_ = {}, ::Il2CppString* referencedFontAssetGUID_ = {}, ::Il2CppString* referencedTextAssetGUID_ = {}, int fontStyle_ = {}, float fontStyleModifier_ = {}, int renderMode_ = {}, bool includeFontFeatures_ = {}) noexcept : sourceFontFileName{sourceFontFileName_}, sourceFontFileGUID{sourceFontFileGUID_}, pointSizeSamplingMode{pointSizeSamplingMode_}, pointSize{pointSize_}, padding{padding_}, packingMode{packingMode_}, atlasWidth{atlasWidth_}, atlasHeight{atlasHeight_}, characterSetSelectionMode{characterSetSelectionMode_}, characterSequence{characterSequence_}, referencedFontAssetGUID{referencedFontAssetGUID_}, referencedTextAssetGUID{referencedTextAssetGUID_}, fontStyle{fontStyle_}, fontStyleModifier{fontStyleModifier_}, renderMode{renderMode_}, includeFontFeatures{includeFontFeatures_} {}
     // Creating interface conversion operator: operator System::ValueType

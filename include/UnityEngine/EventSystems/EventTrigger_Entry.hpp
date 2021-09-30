@@ -22,6 +22,11 @@ namespace UnityEngine::EventSystems {
   // [TokenAttribute] Offset: FFFFFFFF
   class EventTrigger::Entry : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.EventSystems.EventTriggerType eventID
     // Size: 0x4
     // Offset: 0x10
@@ -36,6 +41,7 @@ namespace UnityEngine::EventSystems {
     UnityEngine::EventSystems::EventTrigger::TriggerEvent* callback;
     // Field size check
     static_assert(sizeof(UnityEngine::EventSystems::EventTrigger::TriggerEvent*) == 0x8);
+    public:
     // Get instance field reference: public UnityEngine.EventSystems.EventTriggerType eventID
     UnityEngine::EventSystems::EventTriggerType& dyn_eventID();
     // Get instance field reference: public UnityEngine.EventSystems.EventTrigger/UnityEngine.EventSystems.TriggerEvent callback

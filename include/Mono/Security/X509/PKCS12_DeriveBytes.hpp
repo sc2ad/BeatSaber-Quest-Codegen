@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: Mono.Security.X509
 namespace Mono::Security::X509 {
@@ -20,6 +21,11 @@ namespace Mono::Security::X509 {
   // [TokenAttribute] Offset: FFFFFFFF
   class PKCS12::DeriveBytes : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String _hashName
     // Size: 0x8
     // Offset: 0x10
@@ -37,35 +43,36 @@ namespace Mono::Security::X509 {
     // private System.Byte[] _password
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<uint8_t> password;
+    ::ArrayW<uint8_t> password;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Byte[] _salt
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<uint8_t> salt;
+    ::ArrayW<uint8_t> salt;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
+    public:
     // Get static field: static private System.Byte[] keyDiversifier
-    static ::ArrayWrapper<uint8_t> _get_keyDiversifier();
+    static ::ArrayW<uint8_t> _get_keyDiversifier();
     // Set static field: static private System.Byte[] keyDiversifier
-    static void _set_keyDiversifier(::ArrayWrapper<uint8_t> value);
+    static void _set_keyDiversifier(::ArrayW<uint8_t> value);
     // Get static field: static private System.Byte[] ivDiversifier
-    static ::ArrayWrapper<uint8_t> _get_ivDiversifier();
+    static ::ArrayW<uint8_t> _get_ivDiversifier();
     // Set static field: static private System.Byte[] ivDiversifier
-    static void _set_ivDiversifier(::ArrayWrapper<uint8_t> value);
+    static void _set_ivDiversifier(::ArrayW<uint8_t> value);
     // Get static field: static private System.Byte[] macDiversifier
-    static ::ArrayWrapper<uint8_t> _get_macDiversifier();
+    static ::ArrayW<uint8_t> _get_macDiversifier();
     // Set static field: static private System.Byte[] macDiversifier
-    static void _set_macDiversifier(::ArrayWrapper<uint8_t> value);
+    static void _set_macDiversifier(::ArrayW<uint8_t> value);
     // Get instance field reference: private System.String _hashName
     ::Il2CppString*& dyn__hashName();
     // Get instance field reference: private System.Int32 _iterations
     int& dyn__iterations();
     // Get instance field reference: private System.Byte[] _password
-    ::ArrayWrapper<uint8_t>& dyn__password();
+    ::ArrayW<uint8_t>& dyn__password();
     // Get instance field reference: private System.Byte[] _salt
-    ::ArrayWrapper<uint8_t>& dyn__salt();
+    ::ArrayW<uint8_t>& dyn__salt();
     // public System.Void set_HashName(System.String value)
     // Offset: 0x25DB670
     void set_HashName(::Il2CppString* value);
@@ -74,28 +81,28 @@ namespace Mono::Security::X509 {
     void set_IterationCount(int value);
     // public System.Void set_Password(System.Byte[] value)
     // Offset: 0x25DB680
-    void set_Password(::ArrayWrapper<uint8_t> value);
+    void set_Password(::ArrayW<uint8_t> value);
     // public System.Void set_Salt(System.Byte[] value)
     // Offset: 0x25DB720
-    void set_Salt(::ArrayWrapper<uint8_t> value);
+    void set_Salt(::ArrayW<uint8_t> value);
     // static private System.Void .cctor()
     // Offset: 0x25DBE68
     static void _cctor();
     // private System.Void Adjust(System.Byte[] a, System.Int32 aOff, System.Byte[] b)
     // Offset: 0x25DB7B4
-    void Adjust(::ArrayWrapper<uint8_t> a, int aOff, ::ArrayWrapper<uint8_t> b);
+    void Adjust(::ArrayW<uint8_t> a, int aOff, ::ArrayW<uint8_t> b);
     // private System.Byte[] Derive(System.Byte[] diversifier, System.Int32 n)
     // Offset: 0x25DB89C
-    ::ArrayWrapper<uint8_t> Derive(::ArrayWrapper<uint8_t> diversifier, int n);
+    ::ArrayW<uint8_t> Derive(::ArrayW<uint8_t> diversifier, int n);
     // public System.Byte[] DeriveKey(System.Int32 size)
     // Offset: 0x25DBCE8
-    ::ArrayWrapper<uint8_t> DeriveKey(int size);
+    ::ArrayW<uint8_t> DeriveKey(int size);
     // public System.Byte[] DeriveIV(System.Int32 size)
     // Offset: 0x25DBD68
-    ::ArrayWrapper<uint8_t> DeriveIV(int size);
+    ::ArrayW<uint8_t> DeriveIV(int size);
     // public System.Byte[] DeriveMAC(System.Int32 size)
     // Offset: 0x25DBDE8
-    ::ArrayWrapper<uint8_t> DeriveMAC(int size);
+    ::ArrayW<uint8_t> DeriveMAC(int size);
     // public System.Void .ctor()
     // Offset: 0x25DB668
     // Implemented from: System.Object
@@ -107,7 +114,7 @@ namespace Mono::Security::X509 {
     }
   }; // Mono.Security.X509.PKCS12/Mono.Security.X509.DeriveBytes
   #pragma pack(pop)
-  static check_size<sizeof(PKCS12::DeriveBytes), 40 + sizeof(::ArrayWrapper<uint8_t>)> __Mono_Security_X509_PKCS12_DeriveBytesSizeCheck;
+  static check_size<sizeof(PKCS12::DeriveBytes), 40 + sizeof(::ArrayW<uint8_t>)> __Mono_Security_X509_PKCS12_DeriveBytesSizeCheck;
   static_assert(sizeof(PKCS12::DeriveBytes) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::PKCS12::DeriveBytes*, "Mono.Security.X509", "PKCS12/DeriveBytes");
@@ -133,7 +140,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Security::X509::PKCS12::DeriveBytes::set_Password
 // Il2CppName: set_Password
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::X509::PKCS12::DeriveBytes::*)(::ArrayWrapper<uint8_t>)>(&Mono::Security::X509::PKCS12::DeriveBytes::set_Password)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::X509::PKCS12::DeriveBytes::*)(::ArrayW<uint8_t>)>(&Mono::Security::X509::PKCS12::DeriveBytes::set_Password)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12::DeriveBytes*), "set_Password", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -142,7 +149,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Security::X509::PKCS12::DeriveBytes::set_Salt
 // Il2CppName: set_Salt
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::X509::PKCS12::DeriveBytes::*)(::ArrayWrapper<uint8_t>)>(&Mono::Security::X509::PKCS12::DeriveBytes::set_Salt)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::X509::PKCS12::DeriveBytes::*)(::ArrayW<uint8_t>)>(&Mono::Security::X509::PKCS12::DeriveBytes::set_Salt)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12::DeriveBytes*), "set_Salt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -159,7 +166,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: Mono::Security::X509::PKCS12::DeriveBytes::Adjust
 // Il2CppName: Adjust
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::X509::PKCS12::DeriveBytes::*)(::ArrayWrapper<uint8_t>, int, ::ArrayWrapper<uint8_t>)>(&Mono::Security::X509::PKCS12::DeriveBytes::Adjust)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::X509::PKCS12::DeriveBytes::*)(::ArrayW<uint8_t>, int, ::ArrayW<uint8_t>)>(&Mono::Security::X509::PKCS12::DeriveBytes::Adjust)> {
   static const MethodInfo* get() {
     static auto* a = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* aOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -170,7 +177,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Security::X509::PKCS12::DeriveBytes::Derive
 // Il2CppName: Derive
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Mono::Security::X509::PKCS12::DeriveBytes::*)(::ArrayWrapper<uint8_t>, int)>(&Mono::Security::X509::PKCS12::DeriveBytes::Derive)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Mono::Security::X509::PKCS12::DeriveBytes::*)(::ArrayW<uint8_t>, int)>(&Mono::Security::X509::PKCS12::DeriveBytes::Derive)> {
   static const MethodInfo* get() {
     static auto* diversifier = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* n = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -180,7 +187,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: Mono::Security::X509::PKCS12::DeriveBytes::DeriveKey
 // Il2CppName: DeriveKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Mono::Security::X509::PKCS12::DeriveBytes::*)(int)>(&Mono::Security::X509::PKCS12::DeriveBytes::DeriveKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Mono::Security::X509::PKCS12::DeriveBytes::*)(int)>(&Mono::Security::X509::PKCS12::DeriveBytes::DeriveKey)> {
   static const MethodInfo* get() {
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12::DeriveBytes*), "DeriveKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{size});
@@ -189,7 +196,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: Mono::Security::X509::PKCS12::DeriveBytes::DeriveIV
 // Il2CppName: DeriveIV
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Mono::Security::X509::PKCS12::DeriveBytes::*)(int)>(&Mono::Security::X509::PKCS12::DeriveBytes::DeriveIV)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Mono::Security::X509::PKCS12::DeriveBytes::*)(int)>(&Mono::Security::X509::PKCS12::DeriveBytes::DeriveIV)> {
   static const MethodInfo* get() {
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12::DeriveBytes*), "DeriveIV", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{size});
@@ -198,7 +205,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: Mono::Security::X509::PKCS12::DeriveBytes::DeriveMAC
 // Il2CppName: DeriveMAC
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Mono::Security::X509::PKCS12::DeriveBytes::*)(int)>(&Mono::Security::X509::PKCS12::DeriveBytes::DeriveMAC)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Mono::Security::X509::PKCS12::DeriveBytes::*)(int)>(&Mono::Security::X509::PKCS12::DeriveBytes::DeriveMAC)> {
   static const MethodInfo* get() {
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::PKCS12::DeriveBytes*), "DeriveMAC", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{size});

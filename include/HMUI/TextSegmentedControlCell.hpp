@@ -32,6 +32,11 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class TextSegmentedControlCell : public HMUI::SegmentedControlCell {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // protected TMPro.TextMeshProUGUI _text
     // Size: 0x8
     // Offset: 0x48
@@ -44,6 +49,7 @@ namespace HMUI {
     UnityEngine::GameObject* backgroundGameObject;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
+    public:
     // Get instance field reference: protected TMPro.TextMeshProUGUI _text
     TMPro::TextMeshProUGUI*& dyn__text();
     // Get instance field reference: private UnityEngine.GameObject _backgroundGameObject

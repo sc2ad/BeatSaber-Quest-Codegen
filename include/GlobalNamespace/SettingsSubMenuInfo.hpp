@@ -25,6 +25,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SettingsSubMenuInfo : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private HMUI.ViewController _viewController
     // Size: 0x8
     // Offset: 0x10
@@ -38,6 +43,7 @@ namespace GlobalNamespace {
     ::Il2CppString* menuName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: private HMUI.ViewController _viewController
     HMUI::ViewController*& dyn__viewController();
     // Get instance field reference: private System.String _menuName

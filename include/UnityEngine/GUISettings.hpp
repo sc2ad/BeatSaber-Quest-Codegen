@@ -21,6 +21,11 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E901FC
   class GUISettings : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean m_DoubleClickSelectsWord
     // Size: 0x1
     // Offset: 0x10
@@ -53,6 +58,7 @@ namespace UnityEngine {
     UnityEngine::Color m_SelectionColor;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
+    public:
     // Get instance field reference: private System.Boolean m_DoubleClickSelectsWord
     bool& dyn_m_DoubleClickSelectsWord();
     // Get instance field reference: private System.Boolean m_TripleClickSelectsLine

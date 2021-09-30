@@ -33,12 +33,18 @@ namespace System::ComponentModel {
   // [TokenAttribute] Offset: FFFFFFFF
   class Win32Exception : public System::Runtime::InteropServices::ExternalException {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Int32 nativeErrorCode
     // Size: 0x4
     // Offset: 0x88
     int nativeErrorCode;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return nativeErrorCode;

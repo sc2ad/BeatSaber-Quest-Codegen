@@ -33,12 +33,18 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class AnimatorIkHandlerManager : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.List`1<Zenject.IAnimatorIkHandler> _handlers
     // Size: 0x8
     // Offset: 0x18
     System::Collections::Generic::List_1<Zenject::IAnimatorIkHandler*>* handlers;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<Zenject::IAnimatorIkHandler*>*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Collections.Generic.List`1<Zenject.IAnimatorIkHandler> _handlers

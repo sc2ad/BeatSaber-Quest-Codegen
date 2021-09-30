@@ -22,6 +22,11 @@ namespace System::Runtime::Remoting::Metadata {
   // [ComVisibleAttribute] Offset: E5FEEC
   class SoapMethodAttribute : public System::Runtime::Remoting::Metadata::SoapAttribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String _responseElement
     // Size: 0x8
     // Offset: 0x28
@@ -60,6 +65,7 @@ namespace System::Runtime::Remoting::Metadata {
     ::Il2CppString* _namespace;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: private System.String _responseElement
     ::Il2CppString*& dyn__responseElement();
     // Get instance field reference: private System.String _responseNamespace

@@ -63,6 +63,11 @@ namespace OnlineServices {
     public:
     // Nested type: OnlineServices::ServerManager::$GetLeaderboardEntriesAsync$d__14
     struct $GetLeaderboardEntriesAsync$d__14;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xF15444
     // private readonly HTTPLeaderboardsModel _leaderboardsModel
     // Size: 0x8
@@ -102,6 +107,7 @@ namespace OnlineServices {
     OnlineServices::PlatformOnlineServicesAvailabilityModel* platformOnlineServicesAvailabilityModel;
     // Field size check
     static_assert(sizeof(OnlineServices::PlatformOnlineServicesAvailabilityModel*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private readonly HTTPLeaderboardsModel _leaderboardsModel

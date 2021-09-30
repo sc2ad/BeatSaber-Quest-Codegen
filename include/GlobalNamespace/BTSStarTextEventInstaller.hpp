@@ -27,12 +27,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BTSStarTextEventInstaller : public Zenject::MonoInstaller {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private BTSStarTextEffectController _btsStarTextEffectController
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::BTSStarTextEffectController* btsStarTextEffectController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BTSStarTextEffectController*) == 0x8);
+    public:
     // Get instance field reference: private BTSStarTextEffectController _btsStarTextEffectController
     GlobalNamespace::BTSStarTextEffectController*& dyn__btsStarTextEffectController();
     // public System.Void .ctor()

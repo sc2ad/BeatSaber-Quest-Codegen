@@ -22,12 +22,18 @@ namespace UnityEngine::Animations {
   // [MovedFromAttribute] Offset: E8BC14
   struct AnimationHumanStream/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.IntPtr stream
     // Size: 0x8
     // Offset: 0x0
     System::IntPtr stream;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
+    public:
     // Creating value type constructor for type: AnimationHumanStream
     constexpr AnimationHumanStream(System::IntPtr stream_ = {}) noexcept : stream{stream_} {}
     // Creating interface conversion operator: operator System::ValueType

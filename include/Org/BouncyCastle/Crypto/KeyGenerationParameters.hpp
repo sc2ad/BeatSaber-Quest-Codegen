@@ -25,6 +25,11 @@ namespace Org::BouncyCastle::Crypto {
   // [TokenAttribute] Offset: FFFFFFFF
   class KeyGenerationParameters : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Org.BouncyCastle.Security.SecureRandom random
     // Size: 0x8
     // Offset: 0x10
@@ -37,6 +42,7 @@ namespace Org::BouncyCastle::Crypto {
     int strength;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: private Org.BouncyCastle.Security.SecureRandom random
     Org::BouncyCastle::Security::SecureRandom*& dyn_random();
     // Get instance field reference: private System.Int32 strength

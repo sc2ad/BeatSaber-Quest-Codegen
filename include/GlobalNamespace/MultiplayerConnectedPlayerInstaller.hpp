@@ -49,6 +49,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerConnectedPlayerInstaller : public Zenject::MonoInstaller {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private MultiplayerConnectedPlayerSongTimeSyncController _connectedPlayerAudioTimeSyncControllerPrefab
     // Size: 0x8
     // Offset: 0x20
@@ -130,6 +135,7 @@ namespace GlobalNamespace {
     GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* playersSpecificSettingsAtGameStartModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*) == 0x8);
+    public:
     // Get instance field reference: private MultiplayerConnectedPlayerSongTimeSyncController _connectedPlayerAudioTimeSyncControllerPrefab
     GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController*& dyn__connectedPlayerAudioTimeSyncControllerPrefab();
     // Get instance field reference: private MultiplayerConnectedPlayerNoteEventManager _connectedPlayerNoteEventManagerPrefab

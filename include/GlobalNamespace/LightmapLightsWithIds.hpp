@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -41,6 +42,11 @@ namespace GlobalNamespace {
     char ___base_padding[0x3] = {};
     // Nested type: GlobalNamespace::LightmapLightsWithIds::LightIntensitiesData
     class LightIntensitiesData;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Single _maxTotalIntensity
     // Size: 0x4
     // Offset: 0x24
@@ -50,19 +56,20 @@ namespace GlobalNamespace {
     // private LightmapLightsWithIds/LightIntensitiesData[] _lightIntensityData
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<GlobalNamespace::LightmapLightsWithIds::LightIntensitiesData*> lightIntensityData;
+    ::ArrayW<GlobalNamespace::LightmapLightsWithIds::LightIntensitiesData*> lightIntensityData;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::LightmapLightsWithIds::LightIntensitiesData*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::LightmapLightsWithIds::LightIntensitiesData*>) == 0x8);
     // private System.Action`1<System.Single> globalIntensityDidChangeEvent
     // Size: 0x8
     // Offset: 0x30
     System::Action_1<float>* globalIntensityDidChangeEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<float>*) == 0x8);
+    public:
     // Get instance field reference: private System.Single _maxTotalIntensity
     float& dyn__maxTotalIntensity();
     // Get instance field reference: private LightmapLightsWithIds/LightIntensitiesData[] _lightIntensityData
-    ::ArrayWrapper<GlobalNamespace::LightmapLightsWithIds::LightIntensitiesData*>& dyn__lightIntensityData();
+    ::ArrayW<GlobalNamespace::LightmapLightsWithIds::LightIntensitiesData*>& dyn__lightIntensityData();
     // Get instance field reference: private System.Action`1<System.Single> globalIntensityDidChangeEvent
     System::Action_1<float>*& dyn_globalIntensityDidChangeEvent();
     // public System.Single get_maxTotalIntensity()

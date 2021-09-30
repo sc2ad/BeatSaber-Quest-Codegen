@@ -42,6 +42,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapCharacteristicSelectionViewController : public HMUI::ViewController {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private HMUI.IconSegmentedControl _beatmapCharacteristicSegmentedControl
     // Size: 0x8
     // Offset: 0x70
@@ -66,6 +71,7 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatmapCharacteristicSO* selectedBeatmapCharacteristic;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapCharacteristicSO*) == 0x8);
+    public:
     // Get instance field reference: private HMUI.IconSegmentedControl _beatmapCharacteristicSegmentedControl
     HMUI::IconSegmentedControl*& dyn__beatmapCharacteristicSegmentedControl();
     // Get instance field reference: private BeatmapCharacteristicCollectionSO _beatmapCharacteristicCollection

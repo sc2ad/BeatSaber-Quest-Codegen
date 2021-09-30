@@ -27,6 +27,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ListColorController : public GlobalNamespace::IncDecColorController {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 _idx
     // Size: 0x4
     // Offset: 0x20
@@ -39,6 +44,7 @@ namespace GlobalNamespace {
     int numberOfElements;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: private System.Int32 _idx
     int& dyn__idx();
     // Get instance field reference: private System.Int32 _numberOfElements

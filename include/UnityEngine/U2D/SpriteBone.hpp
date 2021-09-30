@@ -26,6 +26,11 @@ namespace UnityEngine::U2D {
   // [NativeHeaderAttribute] Offset: E73248
   struct SpriteBone/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [NativeNameAttribute] Offset: 0xE76250
     // private System.String m_Name
     // Size: 0x8
@@ -61,6 +66,7 @@ namespace UnityEngine::U2D {
     int m_ParentId;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: SpriteBone
     constexpr SpriteBone(::Il2CppString* m_Name_ = {}, UnityEngine::Vector3 m_Position_ = {}, UnityEngine::Quaternion m_Rotation_ = {}, float m_Length_ = {}, int m_ParentId_ = {}) noexcept : m_Name{m_Name_}, m_Position{m_Position_}, m_Rotation{m_Rotation_}, m_Length{m_Length_}, m_ParentId{m_ParentId_} {}
     // Creating interface conversion operator: operator System::ValueType

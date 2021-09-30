@@ -52,6 +52,11 @@ namespace GlobalNamespace {
     struct $LoadAudioClipAsync$d__5;
     // Nested type: GlobalNamespace::CachedMediaAsyncLoader::$LoadSpriteAsync$d__6
     struct $LoadSpriteAsync$d__6;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 _maxNumberOfAudioClipCachedElements
     // Size: 0x4
     // Offset: 0x18
@@ -76,6 +81,7 @@ namespace GlobalNamespace {
     GlobalNamespace::AsyncCachedLoader_2<::Il2CppString*, UnityEngine::Sprite*>* spriteAsyncCachedLoader;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AsyncCachedLoader_2<::Il2CppString*, UnityEngine::Sprite*>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IMediaAsyncLoader
     operator GlobalNamespace::IMediaAsyncLoader() noexcept {
       return *reinterpret_cast<GlobalNamespace::IMediaAsyncLoader*>(this);

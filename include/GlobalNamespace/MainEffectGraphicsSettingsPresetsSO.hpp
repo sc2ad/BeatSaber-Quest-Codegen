@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -29,24 +30,30 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::Preset
     class Preset;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private MainEffectGraphicsSettingsPresetsSO/Preset[] _presets
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::Preset*> presets;
+    ::ArrayW<GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::Preset*> presets;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::Preset*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::Preset*>) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MainEffectGraphicsSettingsPresetsSO/Preset[] _presets
-    ::ArrayWrapper<GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::Preset*>& dyn__presets();
+    ::ArrayW<GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::Preset*>& dyn__presets();
     // public MainEffectGraphicsSettingsPresetsSO/Preset[] get_presets()
     // Offset: 0x1260810
-    ::ArrayWrapper<GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::Preset*> get_presets();
+    ::ArrayW<GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::Preset*> get_presets();
     // public override NamedPreset[] get_namedPresets()
     // Offset: 0x1260818
     // Implemented from: NamedPresetsSO
     // Base method: NamedPreset[] NamedPresetsSO::get_namedPresets()
-    ::ArrayWrapper<GlobalNamespace::NamedPreset*> get_namedPresets();
+    ::ArrayW<GlobalNamespace::NamedPreset*> get_namedPresets();
     // public System.Void .ctor()
     // Offset: 0x1260820
     // Implemented from: NamedPresetsSO
@@ -62,7 +69,7 @@ namespace GlobalNamespace {
     }
   }; // MainEffectGraphicsSettingsPresetsSO
   #pragma pack(pop)
-  static check_size<sizeof(MainEffectGraphicsSettingsPresetsSO), 24 + sizeof(::ArrayWrapper<GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::Preset*>)> __GlobalNamespace_MainEffectGraphicsSettingsPresetsSOSizeCheck;
+  static check_size<sizeof(MainEffectGraphicsSettingsPresetsSO), 24 + sizeof(::ArrayW<GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::Preset*>)> __GlobalNamespace_MainEffectGraphicsSettingsPresetsSOSizeCheck;
   static_assert(sizeof(MainEffectGraphicsSettingsPresetsSO) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainEffectGraphicsSettingsPresetsSO*, "", "MainEffectGraphicsSettingsPresetsSO");
@@ -70,7 +77,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MainEffectGraphicsSettingsPresetsSO*, ""
 // Writing MetadataGetter for method: GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::get_presets
 // Il2CppName: get_presets
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::Preset*> (GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::*)()>(&GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::get_presets)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::Preset*> (GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::*)()>(&GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::get_presets)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainEffectGraphicsSettingsPresetsSO*), "get_presets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -78,7 +85,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::get_namedPresets
 // Il2CppName: get_namedPresets
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::NamedPreset*> (GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::*)()>(&GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::get_namedPresets)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<GlobalNamespace::NamedPreset*> (GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::*)()>(&GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::get_namedPresets)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MainEffectGraphicsSettingsPresetsSO*), "get_namedPresets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -32,12 +32,18 @@ namespace System::Security::Cryptography::X509Certificates {
   // [TokenAttribute] Offset: FFFFFFFF
   class X509ChainElementEnumerator : public ::Il2CppObject/*, public System::Collections::IEnumerator*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.IEnumerator enumerator
     // Size: 0x8
     // Offset: 0x10
     System::Collections::IEnumerator* enumerator;
     // Field size check
     static_assert(sizeof(System::Collections::IEnumerator*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Collections::IEnumerator
     operator System::Collections::IEnumerator() noexcept {
       return *reinterpret_cast<System::Collections::IEnumerator*>(this);

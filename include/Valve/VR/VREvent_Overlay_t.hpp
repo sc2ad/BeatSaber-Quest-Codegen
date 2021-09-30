@@ -17,12 +17,18 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct VREvent_Overlay_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.UInt64 overlayHandle
     // Size: 0x8
     // Offset: 0x0
     uint64_t overlayHandle;
     // Field size check
     static_assert(sizeof(uint64_t) == 0x8);
+    public:
     // Creating value type constructor for type: VREvent_Overlay_t
     constexpr VREvent_Overlay_t(uint64_t overlayHandle_ = {}) noexcept : overlayHandle{overlayHandle_} {}
     // Creating interface conversion operator: operator System::ValueType

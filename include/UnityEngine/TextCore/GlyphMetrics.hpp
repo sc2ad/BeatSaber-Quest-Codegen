@@ -22,6 +22,11 @@ namespace UnityEngine::TextCore {
   // [UsedByNativeCodeAttribute] Offset: EA55C8
   struct GlyphMetrics/*, public System::ValueType, public System::IEquatable_1<UnityEngine::TextCore::GlyphMetrics>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [NativeNameAttribute] Offset: 0xEA5E24
     // private System.Single m_Width
     // Size: 0x4
@@ -57,6 +62,7 @@ namespace UnityEngine::TextCore {
     float m_HorizontalAdvance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: GlyphMetrics
     constexpr GlyphMetrics(float m_Width_ = {}, float m_Height_ = {}, float m_HorizontalBearingX_ = {}, float m_HorizontalBearingY_ = {}, float m_HorizontalAdvance_ = {}) noexcept : m_Width{m_Width_}, m_Height{m_Height_}, m_HorizontalBearingX{m_HorizontalBearingX_}, m_HorizontalBearingY{m_HorizontalBearingY_}, m_HorizontalAdvance{m_HorizontalAdvance_} {}
     // Creating interface conversion operator: operator System::ValueType

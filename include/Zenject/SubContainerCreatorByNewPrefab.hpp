@@ -40,6 +40,11 @@ namespace Zenject {
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
   class SubContainerCreatorByNewPrefab : public ::Il2CppObject/*, public Zenject::ISubContainerCreator*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Zenject.GameObjectCreationParameters _gameObjectBindInfo
     // Size: 0x8
     // Offset: 0x10
@@ -58,6 +63,7 @@ namespace Zenject {
     Zenject::DiContainer* container;
     // Field size check
     static_assert(sizeof(Zenject::DiContainer*) == 0x8);
+    public:
     // Creating interface conversion operator: operator Zenject::ISubContainerCreator
     operator Zenject::ISubContainerCreator() noexcept {
       return *reinterpret_cast<Zenject::ISubContainerCreator*>(this);

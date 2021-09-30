@@ -38,6 +38,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LiteNetLibConnectionManager::NetPeerConnection : public ::Il2CppObject/*, public System::IEquatable_1<GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection*>, public GlobalNamespace::IConnection*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.String _userId
     // Size: 0x8
     // Offset: 0x10
@@ -64,6 +69,7 @@ namespace GlobalNamespace {
     LiteNetLib::NetPeer* netPeer;
     // Field size check
     static_assert(sizeof(LiteNetLib::NetPeer*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::IEquatable_1<GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection*>
     operator System::IEquatable_1<GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection*>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<GlobalNamespace::LiteNetLibConnectionManager::NetPeerConnection*>*>(this);

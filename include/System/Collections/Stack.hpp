@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections
@@ -41,12 +42,17 @@ namespace System::Collections {
     class StackEnumerator;
     // Nested type: System::Collections::Stack::StackDebugView
     class StackDebugView;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Object[] _array
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<::Il2CppObject*> array;
+    ::ArrayW<::Il2CppObject*> array;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppObject*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppObject*>) == 0x8);
     // private System.Int32 _size
     // Size: 0x4
     // Offset: 0x18
@@ -59,6 +65,7 @@ namespace System::Collections {
     int version;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);
@@ -68,7 +75,7 @@ namespace System::Collections {
       return *reinterpret_cast<System::Collections::ICollection*>(this);
     }
     // Get instance field reference: private System.Object[] _array
-    ::ArrayWrapper<::Il2CppObject*>& dyn__array();
+    ::ArrayW<::Il2CppObject*>& dyn__array();
     // Get instance field reference: private System.Int32 _size
     int& dyn__size();
     // Get instance field reference: private System.Int32 _version

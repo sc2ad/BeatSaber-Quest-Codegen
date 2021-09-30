@@ -29,6 +29,11 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class LaunchDetails : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly System.String DeeplinkMessage
     // Size: 0x8
     // Offset: 0x10
@@ -80,6 +85,7 @@ namespace Oculus::Platform::Models {
     Oculus::Platform::Models::UserList* Users;
     // Field size check
     static_assert(sizeof(Oculus::Platform::Models::UserList*) == 0x8);
+    public:
     // Get instance field reference: public readonly System.String DeeplinkMessage
     ::Il2CppString*& dyn_DeeplinkMessage();
     // Get instance field reference: public readonly System.String DestinationApiName

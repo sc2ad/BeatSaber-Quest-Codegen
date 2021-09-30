@@ -20,12 +20,18 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class SharedStatics : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Security.Util.Tokenizer/System.Security.Util.StringMaker _maker
     // Size: 0x8
     // Offset: 0x10
     System::Security::Util::Tokenizer::StringMaker* maker;
     // Field size check
     static_assert(sizeof(System::Security::Util::Tokenizer::StringMaker*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Security::Util::Tokenizer::StringMaker*
     constexpr operator System::Security::Util::Tokenizer::StringMaker*() const noexcept {
       return maker;

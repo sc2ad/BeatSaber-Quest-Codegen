@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -51,6 +52,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::BloomPrePassLight::LightsDataItem
     class LightsDataItem;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private BloomPrePassLightTypeSO _lightType
     // Size: 0x8
     // Offset: 0x18
@@ -75,6 +81,7 @@ namespace GlobalNamespace {
     bool isBeingDestroyed;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static private readonly System.Collections.Generic.Dictionary`2<BloomPrePassLightTypeSO,System.Collections.Generic.HashSet`1<BloomPrePassLight>> _bloomLightsDict
@@ -122,7 +129,7 @@ namespace GlobalNamespace {
     void DidRegisterLight();
     // public System.Void FillMeshData(System.Int32 lightNum, UnityEngine.Vector3[] vertices, UnityEngine.Color[] colors, UnityEngine.Vector4[] viewPos, UnityEngine.Matrix4x4 viewMatrix, UnityEngine.Matrix4x4 projectionMatrix, System.Single lineWidth)
     // Offset: 0xFFFFFFFF
-    void FillMeshData(int lightNum, ::ArrayWrapper<UnityEngine::Vector3> vertices, ::ArrayWrapper<UnityEngine::Color> colors, ::ArrayWrapper<UnityEngine::Vector4> viewPos, UnityEngine::Matrix4x4 viewMatrix, UnityEngine::Matrix4x4 projectionMatrix, float lineWidth);
+    void FillMeshData(int lightNum, ::ArrayW<UnityEngine::Vector3> vertices, ::ArrayW<UnityEngine::Color> colors, ::ArrayW<UnityEngine::Vector4> viewPos, UnityEngine::Matrix4x4 viewMatrix, UnityEngine::Matrix4x4 projectionMatrix, float lineWidth);
     // public System.Void Refresh()
     // Offset: 0xFFFFFFFF
     void Refresh();
@@ -226,7 +233,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::BloomPrePassLight::FillMeshData
 // Il2CppName: FillMeshData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BloomPrePassLight::*)(int, ::ArrayWrapper<UnityEngine::Vector3>, ::ArrayWrapper<UnityEngine::Color>, ::ArrayWrapper<UnityEngine::Vector4>, UnityEngine::Matrix4x4, UnityEngine::Matrix4x4, float)>(&GlobalNamespace::BloomPrePassLight::FillMeshData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BloomPrePassLight::*)(int, ::ArrayW<UnityEngine::Vector3>, ::ArrayW<UnityEngine::Color>, ::ArrayW<UnityEngine::Vector4>, UnityEngine::Matrix4x4, UnityEngine::Matrix4x4, float)>(&GlobalNamespace::BloomPrePassLight::FillMeshData)> {
   static const MethodInfo* get() {
     static auto* lightNum = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* vertices = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;

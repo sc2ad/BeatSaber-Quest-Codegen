@@ -54,6 +54,11 @@ namespace NUnit::Framework {
   // [AttributeUsageAttribute] Offset: EEE720
   class CombiningStrategyAttribute : public NUnit::Framework::NUnitAttribute/*, public NUnit::Framework::Interfaces::ITestBuilder, public NUnit::Framework::Interfaces::IApplyToTest*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private NUnit.Framework.Internal.Builders.NUnitTestCaseBuilder _builder
     // Size: 0x8
     // Offset: 0x10
@@ -72,6 +77,7 @@ namespace NUnit::Framework {
     NUnit::Framework::Interfaces::IParameterDataProvider* dataProvider;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Interfaces::IParameterDataProvider*) == 0x8);
+    public:
     // Creating interface conversion operator: operator NUnit::Framework::Interfaces::ITestBuilder
     operator NUnit::Framework::Interfaces::ITestBuilder() noexcept {
       return *reinterpret_cast<NUnit::Framework::Interfaces::ITestBuilder*>(this);

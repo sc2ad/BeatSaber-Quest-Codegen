@@ -16,6 +16,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -44,12 +45,17 @@ namespace System::Text {
   // [ComVisibleAttribute] Offset: E5CEF4
   class StringBuilder : public ::Il2CppObject/*, public System::Runtime::Serialization::ISerializable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Char[] m_ChunkChars
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<::Il2CppChar> m_ChunkChars;
+    ::ArrayW<::Il2CppChar> m_ChunkChars;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppChar>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppChar>) == 0x8);
     // System.Text.StringBuilder m_ChunkPrevious
     // Size: 0x8
     // Offset: 0x18
@@ -74,6 +80,7 @@ namespace System::Text {
     int m_MaxCapacity;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating interface conversion operator: operator System::Runtime::Serialization::ISerializable
     operator System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);
@@ -115,7 +122,7 @@ namespace System::Text {
     // Set static field: static System.Int32 MaxChunkSize
     static void _set_MaxChunkSize(int value);
     // Get instance field reference: System.Char[] m_ChunkChars
-    ::ArrayWrapper<::Il2CppChar>& dyn_m_ChunkChars();
+    ::ArrayW<::Il2CppChar>& dyn_m_ChunkChars();
     // Get instance field reference: System.Text.StringBuilder m_ChunkPrevious
     System::Text::StringBuilder*& dyn_m_ChunkPrevious();
     // Get instance field reference: System.Int32 m_ChunkLength
@@ -211,7 +218,7 @@ namespace System::Text {
     System::Text::StringBuilder* Append(::Il2CppChar value, int repeatCount);
     // public System.Text.StringBuilder Append(System.Char[] value, System.Int32 startIndex, System.Int32 charCount)
     // Offset: 0x1F1764C
-    System::Text::StringBuilder* Append(::ArrayWrapper<::Il2CppChar> value, int startIndex, int charCount);
+    System::Text::StringBuilder* Append(::ArrayW<::Il2CppChar> value, int startIndex, int charCount);
     // public System.Text.StringBuilder Append(System.String value)
     // Offset: 0x1F14D08
     System::Text::StringBuilder* Append(::Il2CppString* value);
@@ -271,7 +278,7 @@ namespace System::Text {
     System::Text::StringBuilder* AppendFormat(::Il2CppString* format, ::Il2CppObject* arg0, ::Il2CppObject* arg1, ::Il2CppObject* arg2);
     // public System.Text.StringBuilder AppendFormat(System.String format, params System.Object[] args)
     // Offset: 0x1F18E74
-    System::Text::StringBuilder* AppendFormat(::Il2CppString* format, ::ArrayWrapper<::Il2CppObject*> args);
+    System::Text::StringBuilder* AppendFormat(::Il2CppString* format, ::ArrayW<::Il2CppObject*> args);
     // public System.Text.StringBuilder AppendFormat(System.IFormatProvider provider, System.String format, System.Object arg0)
     // Offset: 0x1F18F54
     System::Text::StringBuilder* AppendFormat(System::IFormatProvider* provider, ::Il2CppString* format, ::Il2CppObject* arg0);
@@ -283,7 +290,7 @@ namespace System::Text {
     System::Text::StringBuilder* AppendFormat(System::IFormatProvider* provider, ::Il2CppString* format, ::Il2CppObject* arg0, ::Il2CppObject* arg1, ::Il2CppObject* arg2);
     // public System.Text.StringBuilder AppendFormat(System.IFormatProvider provider, System.String format, params System.Object[] args)
     // Offset: 0x1F19098
-    System::Text::StringBuilder* AppendFormat(System::IFormatProvider* provider, ::Il2CppString* format, ::ArrayWrapper<::Il2CppObject*> args);
+    System::Text::StringBuilder* AppendFormat(System::IFormatProvider* provider, ::Il2CppString* format, ::ArrayW<::Il2CppObject*> args);
     // static private System.Void FormatError()
     // Offset: 0x1F19184
     static void FormatError();
@@ -304,7 +311,7 @@ namespace System::Text {
     void Insert(int index, ::Il2CppChar* value, int valueCount);
     // private System.Void ReplaceAllInChunk(System.Int32[] replacements, System.Int32 replacementsCount, System.Text.StringBuilder sourceChunk, System.Int32 removeCount, System.String value)
     // Offset: 0x1F19638
-    void ReplaceAllInChunk(::ArrayWrapper<int> replacements, int replacementsCount, System::Text::StringBuilder* sourceChunk, int removeCount, ::Il2CppString* value);
+    void ReplaceAllInChunk(::ArrayW<int> replacements, int replacementsCount, System::Text::StringBuilder* sourceChunk, int removeCount, ::Il2CppString* value);
     // private System.Boolean StartsWith(System.Text.StringBuilder chunk, System.Int32 indexInChunk, System.Int32 count, System.String value)
     // Offset: 0x1F19550
     bool StartsWith(System::Text::StringBuilder* chunk, int indexInChunk, int count, ::Il2CppString* value);
@@ -313,10 +320,10 @@ namespace System::Text {
     void ReplaceInPlaceAtChunk(ByRef<System::Text::StringBuilder*> chunk, ByRef<int> indexInChunk, ::Il2CppChar* value, int count);
     // static private System.Void ThreadSafeCopy(System.Char* sourcePtr, System.Char[] destination, System.Int32 destinationIndex, System.Int32 count)
     // Offset: 0x1F166F4
-    static void ThreadSafeCopy(::Il2CppChar* sourcePtr, ::ArrayWrapper<::Il2CppChar> destination, int destinationIndex, int count);
+    static void ThreadSafeCopy(::Il2CppChar* sourcePtr, ::ArrayW<::Il2CppChar> destination, int destinationIndex, int count);
     // static private System.Void ThreadSafeCopy(System.Char[] source, System.Int32 sourceIndex, System.Char[] destination, System.Int32 destinationIndex, System.Int32 count)
     // Offset: 0x1F19848
-    static void ThreadSafeCopy(::ArrayWrapper<::Il2CppChar> source, int sourceIndex, ::ArrayWrapper<::Il2CppChar> destination, int destinationIndex, int count);
+    static void ThreadSafeCopy(::ArrayW<::Il2CppChar> source, int sourceIndex, ::ArrayW<::Il2CppChar> destination, int destinationIndex, int count);
     // private System.Text.StringBuilder FindChunkForIndex(System.Int32 index)
     // Offset: 0x1F17490
     System::Text::StringBuilder* FindChunkForIndex(int index);
@@ -492,7 +499,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Writing MetadataGetter for method: System::Text::StringBuilder::Append
 // Il2CppName: Append
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(::ArrayWrapper<::Il2CppChar>, int, int)>(&System::Text::StringBuilder::Append)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(::ArrayW<::Il2CppChar>, int, int)>(&System::Text::StringBuilder::Append)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -686,7 +693,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Writing MetadataGetter for method: System::Text::StringBuilder::AppendFormat
 // Il2CppName: AppendFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(::Il2CppString*, ::ArrayWrapper<::Il2CppObject*>)>(&System::Text::StringBuilder::AppendFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(::Il2CppString*, ::ArrayW<::Il2CppObject*>)>(&System::Text::StringBuilder::AppendFormat)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
@@ -732,7 +739,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Writing MetadataGetter for method: System::Text::StringBuilder::AppendFormat
 // Il2CppName: AppendFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(System::IFormatProvider*, ::Il2CppString*, ::ArrayWrapper<::Il2CppObject*>)>(&System::Text::StringBuilder::AppendFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (System::Text::StringBuilder::*)(System::IFormatProvider*, ::Il2CppString*, ::ArrayW<::Il2CppObject*>)>(&System::Text::StringBuilder::AppendFormat)> {
   static const MethodInfo* get() {
     static auto* provider = &::il2cpp_utils::GetClassFromName("System", "IFormatProvider")->byval_arg;
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -805,7 +812,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Text::StringBuilder::ReplaceAllInChunk
 // Il2CppName: ReplaceAllInChunk
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::StringBuilder::*)(::ArrayWrapper<int>, int, System::Text::StringBuilder*, int, ::Il2CppString*)>(&System::Text::StringBuilder::ReplaceAllInChunk)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::StringBuilder::*)(::ArrayW<int>, int, System::Text::StringBuilder*, int, ::Il2CppString*)>(&System::Text::StringBuilder::ReplaceAllInChunk)> {
   static const MethodInfo* get() {
     static auto* replacements = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     static auto* replacementsCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -842,7 +849,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Text::StringBuilder::ThreadSafeCopy
 // Il2CppName: ThreadSafeCopy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppChar*, ::ArrayWrapper<::Il2CppChar>, int, int)>(&System::Text::StringBuilder::ThreadSafeCopy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppChar*, ::ArrayW<::Il2CppChar>, int, int)>(&System::Text::StringBuilder::ThreadSafeCopy)> {
   static const MethodInfo* get() {
     static auto* sourcePtr = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Char"))->byval_arg;
     static auto* destination = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
@@ -854,7 +861,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: System::Text::StringBuilder::ThreadSafeCopy
 // Il2CppName: ThreadSafeCopy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<::Il2CppChar>, int, ::ArrayWrapper<::Il2CppChar>, int, int)>(&System::Text::StringBuilder::ThreadSafeCopy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<::Il2CppChar>, int, ::ArrayW<::Il2CppChar>, int, int)>(&System::Text::StringBuilder::ThreadSafeCopy)> {
   static const MethodInfo* get() {
     static auto* source = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* sourceIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

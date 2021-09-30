@@ -16,6 +16,11 @@ namespace NetEase::Docker {
   // [TokenAttribute] Offset: FFFFFFFF
   struct InitializeData/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [DebuggerBrowsableAttribute] Offset: 0xEEDC6C
     // private System.Boolean <InitializeSuccessful>k__BackingField
     // Size: 0x1
@@ -32,6 +37,7 @@ namespace NetEase::Docker {
     int InitializeCode;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: InitializeData
     constexpr InitializeData(bool InitializeSuccessful_ = {}, int InitializeCode_ = {}) noexcept : InitializeSuccessful{InitializeSuccessful_}, InitializeCode{InitializeCode_} {}
     // Creating interface conversion operator: operator System::ValueType

@@ -33,6 +33,11 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class TableView::CellsGroup : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String _reuseIdentifier
     // Size: 0x8
     // Offset: 0x10
@@ -45,6 +50,7 @@ namespace HMUI {
     System::Collections::Generic::List_1<HMUI::TableCell*>* cells;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<HMUI::TableCell*>*) == 0x8);
+    public:
     // Get instance field reference: private System.String _reuseIdentifier
     ::Il2CppString*& dyn__reuseIdentifier();
     // Get instance field reference: private System.Collections.Generic.List`1<HMUI.TableCell> _cells

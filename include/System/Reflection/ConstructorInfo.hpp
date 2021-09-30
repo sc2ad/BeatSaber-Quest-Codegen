@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection
@@ -60,10 +61,10 @@ namespace System::Reflection {
     static void _cctor();
     // public System.Object Invoke(System.Object[] parameters)
     // Offset: 0x1EA33BC
-    ::Il2CppObject* Invoke(::ArrayWrapper<::Il2CppObject*> parameters);
+    ::Il2CppObject* Invoke(::ArrayW<::Il2CppObject*> parameters);
     // public System.Object Invoke(System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture)
     // Offset: 0xFFFFFFFF
-    ::Il2CppObject* Invoke(System::Reflection::BindingFlags invokeAttr, System::Reflection::Binder* binder, ::ArrayWrapper<::Il2CppObject*> parameters, System::Globalization::CultureInfo* culture);
+    ::Il2CppObject* Invoke(System::Reflection::BindingFlags invokeAttr, System::Reflection::Binder* binder, ::ArrayW<::Il2CppObject*> parameters, System::Globalization::CultureInfo* culture);
     // public override System.Reflection.MemberTypes get_MemberType()
     // Offset: 0x1EA33B4
     // Implemented from: System.Reflection.MemberInfo
@@ -112,7 +113,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Reflection::ConstructorInfo::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Reflection::ConstructorInfo::*)(::ArrayWrapper<::Il2CppObject*>)>(&System::Reflection::ConstructorInfo::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Reflection::ConstructorInfo::*)(::ArrayW<::Il2CppObject*>)>(&System::Reflection::ConstructorInfo::Invoke)> {
   static const MethodInfo* get() {
     static auto* parameters = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::ConstructorInfo*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{parameters});
@@ -121,7 +122,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Reflection::ConstructorInfo::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Reflection::ConstructorInfo::*)(System::Reflection::BindingFlags, System::Reflection::Binder*, ::ArrayWrapper<::Il2CppObject*>, System::Globalization::CultureInfo*)>(&System::Reflection::ConstructorInfo::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Reflection::ConstructorInfo::*)(System::Reflection::BindingFlags, System::Reflection::Binder*, ::ArrayW<::Il2CppObject*>, System::Globalization::CultureInfo*)>(&System::Reflection::ConstructorInfo::Invoke)> {
   static const MethodInfo* get() {
     static auto* invokeAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
     static auto* binder = &::il2cpp_utils::GetClassFromName("System.Reflection", "Binder")->byval_arg;

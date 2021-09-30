@@ -21,12 +21,18 @@ namespace UnityEngine::ProBuilder {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class InternalUtility::$$c__DisplayClass6_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.String valid
     // Size: 0x8
     // Offset: 0x10
     ::Il2CppString* valid;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return valid;

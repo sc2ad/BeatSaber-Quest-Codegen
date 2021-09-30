@@ -42,6 +42,11 @@ namespace GlobalNamespace {
     char ___base_padding[0x6] = {};
     // Nested type: GlobalNamespace::TableViewWithDetailCell::IDataSource
     class IDataSource;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Action`2<TableViewWithDetailCell,System.Int32> didSelectContentCellEvent
     // Size: 0x8
     // Offset: 0xA8
@@ -66,6 +71,7 @@ namespace GlobalNamespace {
     int selectedId;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating interface conversion operator: operator HMUI::TableView::IDataSource
     operator HMUI::TableView::IDataSource() noexcept {
       return *reinterpret_cast<HMUI::TableView::IDataSource*>(this);

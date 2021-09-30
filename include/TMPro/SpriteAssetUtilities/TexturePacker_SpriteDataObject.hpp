@@ -30,12 +30,18 @@ namespace TMPro::SpriteAssetUtilities {
   // [TokenAttribute] Offset: FFFFFFFF
   class TexturePacker::SpriteDataObject : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Collections.Generic.List`1<TMPro.SpriteAssetUtilities.TexturePacker/TMPro.SpriteAssetUtilities.SpriteData> frames
     // Size: 0x8
     // Offset: 0x10
     System::Collections::Generic::List_1<TMPro::SpriteAssetUtilities::TexturePacker::SpriteData>* frames;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<TMPro::SpriteAssetUtilities::TexturePacker::SpriteData>*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Collections::Generic::List_1<TMPro::SpriteAssetUtilities::TexturePacker::SpriteData>*
     constexpr operator System::Collections::Generic::List_1<TMPro::SpriteAssetUtilities::TexturePacker::SpriteData>*() const noexcept {
       return frames;

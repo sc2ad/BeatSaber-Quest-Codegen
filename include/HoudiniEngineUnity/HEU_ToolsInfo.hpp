@@ -17,6 +17,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
@@ -36,12 +37,18 @@ namespace HoudiniEngineUnity {
     // [TokenAttribute] Offset: FFFFFFFF
     struct PaintMergeMode/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: PaintMergeMode
       constexpr PaintMergeMode(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -88,12 +95,18 @@ namespace HoudiniEngineUnity {
     // [TokenAttribute] Offset: FFFFFFFF
     struct PaintMeshVisibility/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: PaintMeshVisibility
       constexpr PaintMeshVisibility(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -128,6 +141,11 @@ namespace HoudiniEngineUnity {
     #pragma pack(pop)
     static check_size<sizeof(HEU_ToolsInfo::PaintMeshVisibility), 0 + sizeof(int)> __HoudiniEngineUnity_HEU_ToolsInfo_PaintMeshVisibilitySizeCheck;
     static_assert(sizeof(HEU_ToolsInfo::PaintMeshVisibility) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Single _paintBrushSize
     // Size: 0x4
     // Offset: 0x18
@@ -143,21 +161,21 @@ namespace HoudiniEngineUnity {
     // public System.Int32[] _paintIntValue
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<int> paintIntValue;
+    ::ArrayW<int> paintIntValue;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // public System.Single[] _paintFloatValue
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<float> paintFloatValue;
+    ::ArrayW<float> paintFloatValue;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<float>) == 0x8);
+    static_assert(sizeof(::ArrayW<float>) == 0x8);
     // public System.String[] _paintStringValue
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<::Il2CppString*> paintStringValue;
+    ::ArrayW<::Il2CppString*> paintStringValue;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // public System.Int32 _lastAttributesGeoID
     // Size: 0x4
     // Offset: 0x38
@@ -260,6 +278,7 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::HEU_ToolsInfo::PaintMeshVisibility paintMeshVisiblity;
     // Field size check
     static_assert(sizeof(HoudiniEngineUnity::HEU_ToolsInfo::PaintMeshVisibility) == 0x4);
+    public:
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_ToolsInfo*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_ToolsInfo*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_ToolsInfo*>*>(this);
@@ -271,11 +290,11 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Single _paintBrushOpacity
     float& dyn__paintBrushOpacity();
     // Get instance field reference: public System.Int32[] _paintIntValue
-    ::ArrayWrapper<int>& dyn__paintIntValue();
+    ::ArrayW<int>& dyn__paintIntValue();
     // Get instance field reference: public System.Single[] _paintFloatValue
-    ::ArrayWrapper<float>& dyn__paintFloatValue();
+    ::ArrayW<float>& dyn__paintFloatValue();
     // Get instance field reference: public System.String[] _paintStringValue
-    ::ArrayWrapper<::Il2CppString*>& dyn__paintStringValue();
+    ::ArrayW<::Il2CppString*>& dyn__paintStringValue();
     // Get instance field reference: public System.Int32 _lastAttributesGeoID
     int& dyn__lastAttributesGeoID();
     // Get instance field reference: public System.Int32 _lastAttributesPartID

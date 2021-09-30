@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Globalization
@@ -39,12 +40,18 @@ namespace System::Globalization {
     public:
     // Writing base type padding for base size: 0x1C to desired offset: 0x20
     char ___base_padding[0x4] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Globalization.GregorianCalendarHelper helper
     // Size: 0x8
     // Offset: 0x20
     System::Globalization::GregorianCalendarHelper* helper;
     // Field size check
     static_assert(sizeof(System::Globalization::GregorianCalendarHelper*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Globalization::GregorianCalendarHelper*
     constexpr operator System::Globalization::GregorianCalendarHelper*() const noexcept {
       return helper;
@@ -54,9 +61,9 @@ namespace System::Globalization {
     // Set static field: static readonly System.DateTime calendarMinValue
     static void _set_calendarMinValue(System::DateTime value);
     // Get static field: static System.Globalization.EraInfo[] japaneseEraInfo
-    static ::ArrayWrapper<System::Globalization::EraInfo*> _get_japaneseEraInfo();
+    static ::ArrayW<System::Globalization::EraInfo*> _get_japaneseEraInfo();
     // Set static field: static System.Globalization.EraInfo[] japaneseEraInfo
-    static void _set_japaneseEraInfo(::ArrayWrapper<System::Globalization::EraInfo*> value);
+    static void _set_japaneseEraInfo(::ArrayW<System::Globalization::EraInfo*> value);
     // Get static field: static System.Globalization.Calendar s_defaultInstance
     static System::Globalization::Calendar* _get_s_defaultInstance();
     // Set static field: static System.Globalization.Calendar s_defaultInstance
@@ -68,22 +75,22 @@ namespace System::Globalization {
     static void _cctor();
     // static System.Globalization.EraInfo[] GetEraInfo()
     // Offset: 0x1BD807C
-    static ::ArrayWrapper<System::Globalization::EraInfo*> GetEraInfo();
+    static ::ArrayW<System::Globalization::EraInfo*> GetEraInfo();
     // static private System.Globalization.EraInfo[] GetErasFromRegistry()
     // Offset: 0x1BD83C8
-    static ::ArrayWrapper<System::Globalization::EraInfo*> GetErasFromRegistry();
+    static ::ArrayW<System::Globalization::EraInfo*> GetErasFromRegistry();
     // static System.Globalization.Calendar GetDefaultInstance()
     // Offset: 0x1BD83D0
     static System::Globalization::Calendar* GetDefaultInstance();
     // static System.String[] EraNames()
     // Offset: 0x1BD8988
-    static ::ArrayWrapper<::Il2CppString*> EraNames();
+    static ::ArrayW<::Il2CppString*> EraNames();
     // static System.String[] AbbrevEraNames()
     // Offset: 0x1BD8AA8
-    static ::ArrayWrapper<::Il2CppString*> AbbrevEraNames();
+    static ::ArrayW<::Il2CppString*> AbbrevEraNames();
     // static System.String[] EnglishEraNames()
     // Offset: 0x1BD8BC8
-    static ::ArrayWrapper<::Il2CppString*> EnglishEraNames();
+    static ::ArrayW<::Il2CppString*> EnglishEraNames();
     // public override System.DateTime get_MinSupportedDateTime()
     // Offset: 0x1BD7FAC
     // Implemented from: System.Globalization.Calendar
@@ -103,7 +110,7 @@ namespace System::Globalization {
     // Offset: 0x1BD8970
     // Implemented from: System.Globalization.Calendar
     // Base method: System.Int32[] Calendar::get_Eras()
-    ::ArrayWrapper<int> get_Eras();
+    ::ArrayW<int> get_Eras();
     // public override System.Int32 get_TwoDigitYearMax()
     // Offset: 0x1BD8D00
     // Implemented from: System.Globalization.Calendar
@@ -192,7 +199,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Globalization::JapaneseCalendar::GetEraInfo
 // Il2CppName: GetEraInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::Globalization::EraInfo*> (*)()>(&System::Globalization::JapaneseCalendar::GetEraInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Globalization::EraInfo*> (*)()>(&System::Globalization::JapaneseCalendar::GetEraInfo)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::JapaneseCalendar*), "GetEraInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -200,7 +207,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: System::Globalization::JapaneseCalendar::GetErasFromRegistry
 // Il2CppName: GetErasFromRegistry
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::Globalization::EraInfo*> (*)()>(&System::Globalization::JapaneseCalendar::GetErasFromRegistry)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Globalization::EraInfo*> (*)()>(&System::Globalization::JapaneseCalendar::GetErasFromRegistry)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::JapaneseCalendar*), "GetErasFromRegistry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -216,7 +223,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Glo
 // Writing MetadataGetter for method: System::Globalization::JapaneseCalendar::EraNames
 // Il2CppName: EraNames
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppString*> (*)()>(&System::Globalization::JapaneseCalendar::EraNames)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (*)()>(&System::Globalization::JapaneseCalendar::EraNames)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::JapaneseCalendar*), "EraNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -224,7 +231,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: System::Globalization::JapaneseCalendar::AbbrevEraNames
 // Il2CppName: AbbrevEraNames
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppString*> (*)()>(&System::Globalization::JapaneseCalendar::AbbrevEraNames)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (*)()>(&System::Globalization::JapaneseCalendar::AbbrevEraNames)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::JapaneseCalendar*), "AbbrevEraNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -232,7 +239,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: System::Globalization::JapaneseCalendar::EnglishEraNames
 // Il2CppName: EnglishEraNames
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppString*> (*)()>(&System::Globalization::JapaneseCalendar::EnglishEraNames)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (*)()>(&System::Globalization::JapaneseCalendar::EnglishEraNames)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::JapaneseCalendar*), "EnglishEraNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -264,7 +271,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Globalization::JapaneseCalendar::get_Eras
 // Il2CppName: get_Eras
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<int> (System::Globalization::JapaneseCalendar::*)()>(&System::Globalization::JapaneseCalendar::get_Eras)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int> (System::Globalization::JapaneseCalendar::*)()>(&System::Globalization::JapaneseCalendar::get_Eras)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::JapaneseCalendar*), "get_Eras", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

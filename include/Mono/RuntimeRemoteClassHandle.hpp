@@ -26,12 +26,18 @@ namespace Mono {
   // [TokenAttribute] Offset: FFFFFFFF
   struct RuntimeRemoteClassHandle/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Mono.RuntimeStructs/Mono.RemoteClass* value
     // Size: 0x8
     // Offset: 0x0
     Mono::RuntimeStructs::RemoteClass* value;
     // Field size check
     static_assert(sizeof(Mono::RuntimeStructs::RemoteClass*) == 0x8);
+    public:
     // Creating value type constructor for type: RuntimeRemoteClassHandle
     constexpr RuntimeRemoteClassHandle(Mono::RuntimeStructs::RemoteClass* value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::ValueType

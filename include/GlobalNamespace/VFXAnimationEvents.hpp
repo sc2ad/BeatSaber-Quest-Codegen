@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -38,6 +39,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::VFXAnimationEvents::VFXAnimationEvent
     class VFXAnimationEvent;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Animation _animation
     // Size: 0x8
     // Offset: 0x18
@@ -47,9 +53,9 @@ namespace GlobalNamespace {
     // private VFXAnimationEvents/VFXAnimationEvent[] _animationEvents
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<GlobalNamespace::VFXAnimationEvents::VFXAnimationEvent*> animationEvents;
+    ::ArrayW<GlobalNamespace::VFXAnimationEvents::VFXAnimationEvent*> animationEvents;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::VFXAnimationEvents::VFXAnimationEvent*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::VFXAnimationEvents::VFXAnimationEvent*>) == 0x8);
     // private System.Action animationDidPauseEvent
     // Size: 0x8
     // Offset: 0x28
@@ -68,12 +74,13 @@ namespace GlobalNamespace {
     System::Action* despawnCharacterEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Animation _animation
     UnityEngine::Animation*& dyn__animation();
     // Get instance field reference: private VFXAnimationEvents/VFXAnimationEvent[] _animationEvents
-    ::ArrayWrapper<GlobalNamespace::VFXAnimationEvents::VFXAnimationEvent*>& dyn__animationEvents();
+    ::ArrayW<GlobalNamespace::VFXAnimationEvents::VFXAnimationEvent*>& dyn__animationEvents();
     // Get instance field reference: private System.Action animationDidPauseEvent
     System::Action*& dyn_animationDidPauseEvent();
     // Get instance field reference: private System.Action spawnCharacterEvent

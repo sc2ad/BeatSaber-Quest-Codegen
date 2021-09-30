@@ -16,6 +16,11 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct DriverDirectMode_FrameTiming/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.UInt32 m_nSize
     // Size: 0x4
     // Offset: 0x0
@@ -46,6 +51,7 @@ namespace Valve::VR {
     uint m_nReprojectionFlags;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
+    public:
     // Creating value type constructor for type: DriverDirectMode_FrameTiming
     constexpr DriverDirectMode_FrameTiming(uint m_nSize_ = {}, uint m_nNumFramePresents_ = {}, uint m_nNumMisPresented_ = {}, uint m_nNumDroppedFrames_ = {}, uint m_nReprojectionFlags_ = {}) noexcept : m_nSize{m_nSize_}, m_nNumFramePresents{m_nNumFramePresents_}, m_nNumMisPresented{m_nNumMisPresented_}, m_nNumDroppedFrames{m_nNumDroppedFrames_}, m_nReprojectionFlags{m_nReprojectionFlags_} {}
     // Creating interface conversion operator: operator System::ValueType

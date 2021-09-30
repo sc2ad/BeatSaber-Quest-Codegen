@@ -28,6 +28,11 @@ namespace Zenject::Internal {
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
   class LookupId : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public Zenject.IProvider Provider
     // Size: 0x8
     // Offset: 0x10
@@ -40,6 +45,7 @@ namespace Zenject::Internal {
     Zenject::BindingId BindingId;
     // Field size check
     static_assert(sizeof(Zenject::BindingId) == 0x10);
+    public:
     // Get instance field reference: public Zenject.IProvider Provider
     Zenject::IProvider*& dyn_Provider();
     // Get instance field reference: public Zenject.BindingId BindingId

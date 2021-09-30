@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -51,6 +52,11 @@ namespace NUnit::Framework::Internal {
     public:
     // Writing base type padding for base size: 0x75 to desired offset: 0x78
     char ___base_padding[0x3] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.List`1<NUnit.Framework.Interfaces.ITest> tests
     // Size: 0x8
     // Offset: 0x78
@@ -61,9 +67,9 @@ namespace NUnit::Framework::Internal {
     // private System.Object[] <Arguments>k__BackingField
     // Size: 0x8
     // Offset: 0x80
-    ::ArrayWrapper<::Il2CppObject*> Arguments;
+    ::ArrayW<::Il2CppObject*> Arguments;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppObject*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppObject*>) == 0x8);
     // [DebuggerBrowsableAttribute] Offset: 0xEEF624
     // private System.Boolean <MaintainTestOrder>k__BackingField
     // Size: 0x1
@@ -71,18 +77,19 @@ namespace NUnit::Framework::Internal {
     bool MaintainTestOrder;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private System.Collections.Generic.List`1<NUnit.Framework.Interfaces.ITest> tests
     System::Collections::Generic::List_1<NUnit::Framework::Interfaces::ITest*>*& dyn_tests();
     // Get instance field reference: private System.Object[] <Arguments>k__BackingField
-    ::ArrayWrapper<::Il2CppObject*>& dyn_$Arguments$k__BackingField();
+    ::ArrayW<::Il2CppObject*>& dyn_$Arguments$k__BackingField();
     // Get instance field reference: private System.Boolean <MaintainTestOrder>k__BackingField
     bool& dyn_$MaintainTestOrder$k__BackingField();
     // public System.Object[] get_Arguments()
     // Offset: 0x24A6B84
-    ::ArrayWrapper<::Il2CppObject*> get_Arguments();
+    ::ArrayW<::Il2CppObject*> get_Arguments();
     // System.Void set_Arguments(System.Object[] value)
     // Offset: 0x24A6B8C
-    void set_Arguments(::ArrayWrapper<::Il2CppObject*> value);
+    void set_Arguments(::ArrayW<::Il2CppObject*> value);
     // protected System.Boolean get_MaintainTestOrder()
     // Offset: 0x24A6B94
     bool get_MaintainTestOrder();
@@ -165,7 +172,7 @@ DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::TestSuite*, "NUnit.Framework.
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestSuite::get_Arguments
 // Il2CppName: get_Arguments
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppObject*> (NUnit::Framework::Internal::TestSuite::*)()>(&NUnit::Framework::Internal::TestSuite::get_Arguments)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppObject*> (NUnit::Framework::Internal::TestSuite::*)()>(&NUnit::Framework::Internal::TestSuite::get_Arguments)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestSuite*), "get_Arguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -173,7 +180,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestSuite::set_Arguments
 // Il2CppName: set_Arguments
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TestSuite::*)(::ArrayWrapper<::Il2CppObject*>)>(&NUnit::Framework::Internal::TestSuite::set_Arguments)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TestSuite::*)(::ArrayW<::Il2CppObject*>)>(&NUnit::Framework::Internal::TestSuite::set_Arguments)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestSuite*), "set_Arguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

@@ -37,6 +37,11 @@ namespace System::Threading {
     public:
     // Nested type: System::Threading::ReaderWriterLockSlim::TimeoutTracker
     struct TimeoutTracker;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean fIsReentrant
     // Size: 0x1
     // Offset: 0x10
@@ -147,6 +152,7 @@ namespace System::Threading {
     bool fDisposed;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

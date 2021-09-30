@@ -20,12 +20,18 @@ namespace NUnit::Framework::Internal::Commands {
   // [TokenAttribute] Offset: FFFFFFFF
   class DelegatingTestCommand : public NUnit::Framework::Internal::Commands::TestCommand {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // protected NUnit.Framework.Internal.Commands.TestCommand innerCommand
     // Size: 0x8
     // Offset: 0x18
     NUnit::Framework::Internal::Commands::TestCommand* innerCommand;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Internal::Commands::TestCommand*) == 0x8);
+    public:
     // Deleting conversion operator: operator NUnit::Framework::Internal::Test*
     constexpr operator NUnit::Framework::Internal::Test*() const noexcept = delete;
     // Get instance field reference: protected NUnit.Framework.Internal.Commands.TestCommand innerCommand

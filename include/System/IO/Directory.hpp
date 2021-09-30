@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO
@@ -28,34 +29,34 @@ namespace System::IO {
     class SearchData;
     // static public System.String[] GetFiles(System.String path)
     // Offset: 0x1AB02A4
-    static ::ArrayWrapper<::Il2CppString*> GetFiles(::Il2CppString* path);
+    static ::ArrayW<::Il2CppString*> GetFiles(::Il2CppString* path);
     // static public System.String[] GetFiles(System.String path, System.String searchPattern)
     // Offset: 0x1AB0364
-    static ::ArrayWrapper<::Il2CppString*> GetFiles(::Il2CppString* path, ::Il2CppString* searchPattern);
+    static ::ArrayW<::Il2CppString*> GetFiles(::Il2CppString* path, ::Il2CppString* searchPattern);
     // static public System.String[] GetFiles(System.String path, System.String searchPattern, System.IO.SearchOption searchOption)
     // Offset: 0x1AB042C
-    static ::ArrayWrapper<::Il2CppString*> GetFiles(::Il2CppString* path, ::Il2CppString* searchPattern, System::IO::SearchOption searchOption);
+    static ::ArrayW<::Il2CppString*> GetFiles(::Il2CppString* path, ::Il2CppString* searchPattern, System::IO::SearchOption searchOption);
     // static private System.String[] InternalGetFiles(System.String path, System.String searchPattern, System.IO.SearchOption searchOption)
     // Offset: 0x1AB0348
-    static ::ArrayWrapper<::Il2CppString*> InternalGetFiles(::Il2CppString* path, ::Il2CppString* searchPattern, System::IO::SearchOption searchOption);
+    static ::ArrayW<::Il2CppString*> InternalGetFiles(::Il2CppString* path, ::Il2CppString* searchPattern, System::IO::SearchOption searchOption);
     // static public System.String[] GetDirectories(System.String path)
     // Offset: 0x1AB0634
-    static ::ArrayWrapper<::Il2CppString*> GetDirectories(::Il2CppString* path);
+    static ::ArrayW<::Il2CppString*> GetDirectories(::Il2CppString* path);
     // static public System.String[] GetDirectories(System.String path, System.String searchPattern)
     // Offset: 0x1AB06F4
-    static ::ArrayWrapper<::Il2CppString*> GetDirectories(::Il2CppString* path, ::Il2CppString* searchPattern);
+    static ::ArrayW<::Il2CppString*> GetDirectories(::Il2CppString* path, ::Il2CppString* searchPattern);
     // static private System.String[] InternalGetDirectories(System.String path, System.String searchPattern, System.IO.SearchOption searchOption)
     // Offset: 0x1AB06D8
-    static ::ArrayWrapper<::Il2CppString*> InternalGetDirectories(::Il2CppString* path, ::Il2CppString* searchPattern, System::IO::SearchOption searchOption);
+    static ::ArrayW<::Il2CppString*> InternalGetDirectories(::Il2CppString* path, ::Il2CppString* searchPattern, System::IO::SearchOption searchOption);
     // static public System.String[] GetFileSystemEntries(System.String path, System.String searchPattern)
     // Offset: 0x1AB07BC
-    static ::ArrayWrapper<::Il2CppString*> GetFileSystemEntries(::Il2CppString* path, ::Il2CppString* searchPattern);
+    static ::ArrayW<::Il2CppString*> GetFileSystemEntries(::Il2CppString* path, ::Il2CppString* searchPattern);
     // static private System.String[] InternalGetFileSystemEntries(System.String path, System.String searchPattern, System.IO.SearchOption searchOption)
     // Offset: 0x1AB0884
-    static ::ArrayWrapper<::Il2CppString*> InternalGetFileSystemEntries(::Il2CppString* path, ::Il2CppString* searchPattern, System::IO::SearchOption searchOption);
+    static ::ArrayW<::Il2CppString*> InternalGetFileSystemEntries(::Il2CppString* path, ::Il2CppString* searchPattern, System::IO::SearchOption searchOption);
     // static System.String[] InternalGetFileDirectoryNames(System.String path, System.String userPathOriginal, System.String searchPattern, System.Boolean includeFiles, System.Boolean includeDirs, System.IO.SearchOption searchOption, System.Boolean checkHost)
     // Offset: 0x1AB055C
-    static ::ArrayWrapper<::Il2CppString*> InternalGetFileDirectoryNames(::Il2CppString* path, ::Il2CppString* userPathOriginal, ::Il2CppString* searchPattern, bool includeFiles, bool includeDirs, System::IO::SearchOption searchOption, bool checkHost);
+    static ::ArrayW<::Il2CppString*> InternalGetFileDirectoryNames(::Il2CppString* path, ::Il2CppString* userPathOriginal, ::Il2CppString* searchPattern, bool includeFiles, bool includeDirs, System::IO::SearchOption searchOption, bool checkHost);
     // static public System.IO.DirectoryInfo CreateDirectory(System.String path)
     // Offset: 0x1AB0974
     static System::IO::DirectoryInfo* CreateDirectory(::Il2CppString* path);
@@ -82,7 +83,7 @@ namespace System::IO {
     static ::Il2CppString* InsecureGetCurrentDirectory();
     // static public System.String[] GetLogicalDrives()
     // Offset: 0x1AB2360
-    static ::ArrayWrapper<::Il2CppString*> GetLogicalDrives();
+    static ::ArrayW<::Il2CppString*> GetLogicalDrives();
     // static private System.Boolean IsRootDirectory(System.String path)
     // Offset: 0x1AB2368
     static bool IsRootDirectory(::Il2CppString* path);
@@ -101,7 +102,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::IO::Directory*, "System.IO", "Directory");
 // Writing MetadataGetter for method: System::IO::Directory::GetFiles
 // Il2CppName: GetFiles
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppString*> (*)(::Il2CppString*)>(&System::IO::Directory::GetFiles)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (*)(::Il2CppString*)>(&System::IO::Directory::GetFiles)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::Directory*), "GetFiles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});
@@ -110,7 +111,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: System::IO::Directory::GetFiles
 // Il2CppName: GetFiles
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppString*> (*)(::Il2CppString*, ::Il2CppString*)>(&System::IO::Directory::GetFiles)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (*)(::Il2CppString*, ::Il2CppString*)>(&System::IO::Directory::GetFiles)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* searchPattern = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -120,7 +121,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: System::IO::Directory::GetFiles
 // Il2CppName: GetFiles
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppString*> (*)(::Il2CppString*, ::Il2CppString*, System::IO::SearchOption)>(&System::IO::Directory::GetFiles)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (*)(::Il2CppString*, ::Il2CppString*, System::IO::SearchOption)>(&System::IO::Directory::GetFiles)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* searchPattern = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -131,7 +132,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: System::IO::Directory::InternalGetFiles
 // Il2CppName: InternalGetFiles
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppString*> (*)(::Il2CppString*, ::Il2CppString*, System::IO::SearchOption)>(&System::IO::Directory::InternalGetFiles)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (*)(::Il2CppString*, ::Il2CppString*, System::IO::SearchOption)>(&System::IO::Directory::InternalGetFiles)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* searchPattern = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -142,7 +143,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: System::IO::Directory::GetDirectories
 // Il2CppName: GetDirectories
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppString*> (*)(::Il2CppString*)>(&System::IO::Directory::GetDirectories)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (*)(::Il2CppString*)>(&System::IO::Directory::GetDirectories)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::Directory*), "GetDirectories", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});
@@ -151,7 +152,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: System::IO::Directory::GetDirectories
 // Il2CppName: GetDirectories
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppString*> (*)(::Il2CppString*, ::Il2CppString*)>(&System::IO::Directory::GetDirectories)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (*)(::Il2CppString*, ::Il2CppString*)>(&System::IO::Directory::GetDirectories)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* searchPattern = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -161,7 +162,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: System::IO::Directory::InternalGetDirectories
 // Il2CppName: InternalGetDirectories
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppString*> (*)(::Il2CppString*, ::Il2CppString*, System::IO::SearchOption)>(&System::IO::Directory::InternalGetDirectories)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (*)(::Il2CppString*, ::Il2CppString*, System::IO::SearchOption)>(&System::IO::Directory::InternalGetDirectories)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* searchPattern = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -172,7 +173,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: System::IO::Directory::GetFileSystemEntries
 // Il2CppName: GetFileSystemEntries
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppString*> (*)(::Il2CppString*, ::Il2CppString*)>(&System::IO::Directory::GetFileSystemEntries)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (*)(::Il2CppString*, ::Il2CppString*)>(&System::IO::Directory::GetFileSystemEntries)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* searchPattern = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -182,7 +183,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: System::IO::Directory::InternalGetFileSystemEntries
 // Il2CppName: InternalGetFileSystemEntries
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppString*> (*)(::Il2CppString*, ::Il2CppString*, System::IO::SearchOption)>(&System::IO::Directory::InternalGetFileSystemEntries)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (*)(::Il2CppString*, ::Il2CppString*, System::IO::SearchOption)>(&System::IO::Directory::InternalGetFileSystemEntries)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* searchPattern = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -193,7 +194,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: System::IO::Directory::InternalGetFileDirectoryNames
 // Il2CppName: InternalGetFileDirectoryNames
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppString*> (*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, bool, bool, System::IO::SearchOption, bool)>(&System::IO::Directory::InternalGetFileDirectoryNames)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, bool, bool, System::IO::SearchOption, bool)>(&System::IO::Directory::InternalGetFileDirectoryNames)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* userPathOriginal = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -279,7 +280,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::IO::Directory::GetLogicalDrives
 // Il2CppName: GetLogicalDrives
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppString*> (*)()>(&System::IO::Directory::GetLogicalDrives)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (*)()>(&System::IO::Directory::GetLogicalDrives)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::IO::Directory*), "GetLogicalDrives", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

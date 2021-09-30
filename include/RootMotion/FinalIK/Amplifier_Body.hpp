@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: RootMotion::FinalIK
@@ -36,6 +37,11 @@ namespace RootMotion::FinalIK {
     public:
     // Nested type: RootMotion::FinalIK::Amplifier::Body::EffectorLink
     class EffectorLink;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [TooltipAttribute] Offset: 0xEF6E7C
     // public UnityEngine.Transform transform
     // Size: 0x8
@@ -54,9 +60,9 @@ namespace RootMotion::FinalIK {
     // public RootMotion.FinalIK.Amplifier/RootMotion.FinalIK.Body/RootMotion.FinalIK.EffectorLink[] effectorLinks
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<RootMotion::FinalIK::Amplifier::Body::EffectorLink*> effectorLinks;
+    ::ArrayW<RootMotion::FinalIK::Amplifier::Body::EffectorLink*> effectorLinks;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::Amplifier::Body::EffectorLink*>) == 0x8);
+    static_assert(sizeof(::ArrayW<RootMotion::FinalIK::Amplifier::Body::EffectorLink*>) == 0x8);
     // [TooltipAttribute] Offset: 0xEF6F24
     // public System.Single verticalWeight
     // Size: 0x4
@@ -96,12 +102,13 @@ namespace RootMotion::FinalIK {
     bool firstUpdate;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: public UnityEngine.Transform transform
     UnityEngine::Transform*& dyn_transform();
     // Get instance field reference: public UnityEngine.Transform relativeTo
     UnityEngine::Transform*& dyn_relativeTo();
     // Get instance field reference: public RootMotion.FinalIK.Amplifier/RootMotion.FinalIK.Body/RootMotion.FinalIK.EffectorLink[] effectorLinks
-    ::ArrayWrapper<RootMotion::FinalIK::Amplifier::Body::EffectorLink*>& dyn_effectorLinks();
+    ::ArrayW<RootMotion::FinalIK::Amplifier::Body::EffectorLink*>& dyn_effectorLinks();
     // Get instance field reference: public System.Single verticalWeight
     float& dyn_verticalWeight();
     // Get instance field reference: public System.Single horizontalWeight

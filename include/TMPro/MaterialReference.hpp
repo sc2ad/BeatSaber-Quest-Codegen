@@ -6,6 +6,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: TMPro
@@ -36,6 +37,11 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   struct MaterialReference/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 index
     // Size: 0x4
     // Offset: 0x0
@@ -94,6 +100,7 @@ namespace TMPro {
     int referenceCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: MaterialReference
     constexpr MaterialReference(int index_ = {}, TMPro::TMP_FontAsset* fontAsset_ = {}, TMPro::TMP_SpriteAsset* spriteAsset_ = {}, UnityEngine::Material* material_ = {}, bool isDefaultMaterial_ = {}, bool isFallbackMaterial_ = {}, UnityEngine::Material* fallbackMaterial_ = {}, float padding_ = {}, int referenceCount_ = {}) noexcept : index{index_}, fontAsset{fontAsset_}, spriteAsset{spriteAsset_}, material{material_}, isDefaultMaterial{isDefaultMaterial_}, isFallbackMaterial{isFallbackMaterial_}, fallbackMaterial{fallbackMaterial_}, padding{padding_}, referenceCount{referenceCount_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -123,13 +130,13 @@ namespace TMPro {
     MaterialReference(int index, TMPro::TMP_FontAsset* fontAsset, TMPro::TMP_SpriteAsset* spriteAsset, UnityEngine::Material* material, float padding);
     // static public System.Boolean Contains(TMPro.MaterialReference[] materialReferences, TMPro.TMP_FontAsset fontAsset)
     // Offset: 0x11EB49C
-    static bool Contains(::ArrayWrapper<TMPro::MaterialReference> materialReferences, TMPro::TMP_FontAsset* fontAsset);
+    static bool Contains(::ArrayW<TMPro::MaterialReference> materialReferences, TMPro::TMP_FontAsset* fontAsset);
     // static public System.Int32 AddMaterialReference(UnityEngine.Material material, TMPro.TMP_FontAsset fontAsset, TMPro.MaterialReference[] materialReferences, System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> materialReferenceIndexLookup)
     // Offset: 0x11EB5B8
-    static int AddMaterialReference(UnityEngine::Material* material, TMPro::TMP_FontAsset* fontAsset, ::ArrayWrapper<TMPro::MaterialReference> materialReferences, System::Collections::Generic::Dictionary_2<int, int>* materialReferenceIndexLookup);
+    static int AddMaterialReference(UnityEngine::Material* material, TMPro::TMP_FontAsset* fontAsset, ::ArrayW<TMPro::MaterialReference> materialReferences, System::Collections::Generic::Dictionary_2<int, int>* materialReferenceIndexLookup);
     // static public System.Int32 AddMaterialReference(UnityEngine.Material material, TMPro.TMP_SpriteAsset spriteAsset, TMPro.MaterialReference[] materialReferences, System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> materialReferenceIndexLookup)
     // Offset: 0x11EB764
-    static int AddMaterialReference(UnityEngine::Material* material, TMPro::TMP_SpriteAsset* spriteAsset, ::ArrayWrapper<TMPro::MaterialReference> materialReferences, System::Collections::Generic::Dictionary_2<int, int>* materialReferenceIndexLookup);
+    static int AddMaterialReference(UnityEngine::Material* material, TMPro::TMP_SpriteAsset* spriteAsset, ::ArrayW<TMPro::MaterialReference> materialReferences, System::Collections::Generic::Dictionary_2<int, int>* materialReferenceIndexLookup);
   }; // TMPro.MaterialReference
   #pragma pack(pop)
   static check_size<sizeof(MaterialReference), 52 + sizeof(int)> __TMPro_MaterialReferenceSizeCheck;
@@ -145,7 +152,7 @@ DEFINE_IL2CPP_ARG_TYPE(TMPro::MaterialReference, "TMPro", "MaterialReference");
 // Writing MetadataGetter for method: TMPro::MaterialReference::Contains
 // Il2CppName: Contains
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayWrapper<TMPro::MaterialReference>, TMPro::TMP_FontAsset*)>(&TMPro::MaterialReference::Contains)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<TMPro::MaterialReference>, TMPro::TMP_FontAsset*)>(&TMPro::MaterialReference::Contains)> {
   static const MethodInfo* get() {
     static auto* materialReferences = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("TMPro", "MaterialReference"), 1)->byval_arg;
     static auto* fontAsset = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_FontAsset")->byval_arg;
@@ -155,7 +162,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: TMPro::MaterialReference::AddMaterialReference
 // Il2CppName: AddMaterialReference
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Material*, TMPro::TMP_FontAsset*, ::ArrayWrapper<TMPro::MaterialReference>, System::Collections::Generic::Dictionary_2<int, int>*)>(&TMPro::MaterialReference::AddMaterialReference)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Material*, TMPro::TMP_FontAsset*, ::ArrayW<TMPro::MaterialReference>, System::Collections::Generic::Dictionary_2<int, int>*)>(&TMPro::MaterialReference::AddMaterialReference)> {
   static const MethodInfo* get() {
     static auto* material = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
     static auto* fontAsset = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_FontAsset")->byval_arg;
@@ -167,7 +174,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Uni
 // Writing MetadataGetter for method: TMPro::MaterialReference::AddMaterialReference
 // Il2CppName: AddMaterialReference
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Material*, TMPro::TMP_SpriteAsset*, ::ArrayWrapper<TMPro::MaterialReference>, System::Collections::Generic::Dictionary_2<int, int>*)>(&TMPro::MaterialReference::AddMaterialReference)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(UnityEngine::Material*, TMPro::TMP_SpriteAsset*, ::ArrayW<TMPro::MaterialReference>, System::Collections::Generic::Dictionary_2<int, int>*)>(&TMPro::MaterialReference::AddMaterialReference)> {
   static const MethodInfo* get() {
     static auto* material = &::il2cpp_utils::GetClassFromName("UnityEngine", "Material")->byval_arg;
     static auto* spriteAsset = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_SpriteAsset")->byval_arg;

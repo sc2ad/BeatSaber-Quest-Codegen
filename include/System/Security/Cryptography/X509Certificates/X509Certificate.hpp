@@ -17,6 +17,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Security::Cryptography::X509Certificates
@@ -42,6 +43,11 @@ namespace System::Security::Cryptography::X509Certificates {
   // [MonoTODOAttribute] Offset: E5F5D4
   class X509Certificate : public ::Il2CppObject/*, public System::IDisposable, public System::Runtime::Serialization::ISerializable, public System::Runtime::Serialization::IDeserializationCallback*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Security.Cryptography.X509Certificates.X509CertificateImpl impl
     // Size: 0x8
     // Offset: 0x10
@@ -68,6 +74,7 @@ namespace System::Security::Cryptography::X509Certificates {
     ::Il2CppString* subject_name;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
@@ -103,14 +110,14 @@ namespace System::Security::Cryptography::X509Certificates {
     // System.Void .ctor(System.Byte[] data, System.Boolean dates)
     // Offset: 0x1CCF25C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static X509Certificate* New_ctor(::ArrayWrapper<uint8_t> data, bool dates) {
+    static X509Certificate* New_ctor(::ArrayW<uint8_t> data, bool dates) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509Certificate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Certificate*, creationType>(data, dates)));
     }
     // public System.Void .ctor(System.Byte[] data)
     // Offset: 0x1CCF2C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static X509Certificate* New_ctor(::ArrayWrapper<uint8_t> data) {
+    static X509Certificate* New_ctor(::ArrayW<uint8_t> data) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509Certificate::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Certificate*, creationType>(data)));
     }
@@ -143,16 +150,16 @@ namespace System::Security::Cryptography::X509Certificates {
     bool Equals(System::Security::Cryptography::X509Certificates::X509Certificate* other);
     // public System.Byte[] GetCertHash()
     // Offset: 0x1CCF7B8
-    ::ArrayWrapper<uint8_t> GetCertHash();
+    ::ArrayW<uint8_t> GetCertHash();
     // public System.String GetCertHashString()
     // Offset: 0x1CCF828
     ::Il2CppString* GetCertHashString();
     // public System.Byte[] GetRawCertData()
     // Offset: 0x1CCF9A4
-    ::ArrayWrapper<uint8_t> GetRawCertData();
+    ::ArrayW<uint8_t> GetRawCertData();
     // public System.Byte[] GetSerialNumber()
     // Offset: 0x1CCF9DC
-    ::ArrayWrapper<uint8_t> GetSerialNumber();
+    ::ArrayW<uint8_t> GetSerialNumber();
     // public System.String GetSerialNumberString()
     // Offset: 0x1CCFA18
     ::Il2CppString* GetSerialNumberString();
@@ -161,7 +168,7 @@ namespace System::Security::Cryptography::X509Certificates {
     ::Il2CppString* ToString(bool fVerbose);
     // public System.Void Import(System.Byte[] rawData, System.String password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags)
     // Offset: 0x1CCFD38
-    void Import(::ArrayWrapper<uint8_t> rawData, ::Il2CppString* password, System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags);
+    void Import(::ArrayW<uint8_t> rawData, ::Il2CppString* password, System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags);
     // public System.Void Import(System.String fileName, System.String password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags)
     // Offset: 0x1CCFEB4
     void Import(::Il2CppString* fileName, ::Il2CppString* password, System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags);
@@ -284,7 +291,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509Certificate::GetCertHash
 // Il2CppName: GetCertHash
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (System::Security::Cryptography::X509Certificates::X509Certificate::*)()>(&System::Security::Cryptography::X509Certificates::X509Certificate::GetCertHash)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (System::Security::Cryptography::X509Certificates::X509Certificate::*)()>(&System::Security::Cryptography::X509Certificates::X509Certificate::GetCertHash)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509Certificate*), "GetCertHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -300,7 +307,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509Certificate::GetRawCertData
 // Il2CppName: GetRawCertData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (System::Security::Cryptography::X509Certificates::X509Certificate::*)()>(&System::Security::Cryptography::X509Certificates::X509Certificate::GetRawCertData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (System::Security::Cryptography::X509Certificates::X509Certificate::*)()>(&System::Security::Cryptography::X509Certificates::X509Certificate::GetRawCertData)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509Certificate*), "GetRawCertData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -308,7 +315,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509Certificate::GetSerialNumber
 // Il2CppName: GetSerialNumber
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (System::Security::Cryptography::X509Certificates::X509Certificate::*)()>(&System::Security::Cryptography::X509Certificates::X509Certificate::GetSerialNumber)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (System::Security::Cryptography::X509Certificates::X509Certificate::*)()>(&System::Security::Cryptography::X509Certificates::X509Certificate::GetSerialNumber)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509Certificate*), "GetSerialNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -333,7 +340,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509Certificate::Import
 // Il2CppName: Import
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::X509Certificates::X509Certificate::*)(::ArrayWrapper<uint8_t>, ::Il2CppString*, System::Security::Cryptography::X509Certificates::X509KeyStorageFlags)>(&System::Security::Cryptography::X509Certificates::X509Certificate::Import)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::X509Certificates::X509Certificate::*)(::ArrayW<uint8_t>, ::Il2CppString*, System::Security::Cryptography::X509Certificates::X509KeyStorageFlags)>(&System::Security::Cryptography::X509Certificates::X509Certificate::Import)> {
   static const MethodInfo* get() {
     static auto* rawData = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* password = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

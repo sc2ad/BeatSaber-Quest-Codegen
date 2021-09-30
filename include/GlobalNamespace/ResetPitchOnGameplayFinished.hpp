@@ -27,6 +27,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ResetPitchOnGameplayFinished : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly GameplayLevelSceneTransitionEvents _gameplayLevelSceneTransitionEvents
     // Size: 0x8
     // Offset: 0x10
@@ -39,6 +44,7 @@ namespace GlobalNamespace {
     GlobalNamespace::AudioManagerSO* audioManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AudioManagerSO*) == 0x8);
+    public:
     // Get instance field reference: private readonly GameplayLevelSceneTransitionEvents _gameplayLevelSceneTransitionEvents
     GlobalNamespace::GameplayLevelSceneTransitionEvents*& dyn__gameplayLevelSceneTransitionEvents();
     // Get instance field reference: private readonly AudioManagerSO _audioManager

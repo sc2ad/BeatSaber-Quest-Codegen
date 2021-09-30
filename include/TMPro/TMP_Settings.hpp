@@ -49,6 +49,11 @@ namespace TMPro {
     public:
     // Nested type: TMPro::TMP_Settings::LineBreakingTable
     class LineBreakingTable;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean m_enableWordWrapping
     // Size: 0x1
     // Offset: 0x18
@@ -221,6 +226,7 @@ namespace TMPro {
     TMPro::TMP_Settings::LineBreakingTable* m_linebreakingRules;
     // Field size check
     static_assert(sizeof(TMPro::TMP_Settings::LineBreakingTable*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static private TMPro.TMP_Settings s_Instance

@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: Org.BouncyCastle.Crypto
 namespace Org::BouncyCastle::Crypto {
@@ -19,10 +20,10 @@ namespace Org::BouncyCastle::Crypto {
     static void DataLength(bool condition, ::Il2CppString* msg);
     // static System.Void DataLength(System.Byte[] buf, System.Int32 off, System.Int32 len, System.String msg)
     // Offset: 0x1EF9E18
-    static void DataLength(::ArrayWrapper<uint8_t> buf, int off, int len, ::Il2CppString* msg);
+    static void DataLength(::ArrayW<uint8_t> buf, int off, int len, ::Il2CppString* msg);
     // static System.Void OutputLength(System.Byte[] buf, System.Int32 off, System.Int32 len, System.String msg)
     // Offset: 0x1EF9EBC
-    static void OutputLength(::ArrayWrapper<uint8_t> buf, int off, int len, ::Il2CppString* msg);
+    static void OutputLength(::ArrayW<uint8_t> buf, int off, int len, ::Il2CppString* msg);
   }; // Org.BouncyCastle.Crypto.Check
   #pragma pack(pop)
 }
@@ -42,7 +43,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bo
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Check::DataLength
 // Il2CppName: DataLength
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint8_t>, int, int, ::Il2CppString*)>(&Org::BouncyCastle::Crypto::Check::DataLength)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t>, int, int, ::Il2CppString*)>(&Org::BouncyCastle::Crypto::Check::DataLength)> {
   static const MethodInfo* get() {
     static auto* buf = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* off = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -54,7 +55,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Check::OutputLength
 // Il2CppName: OutputLength
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint8_t>, int, int, ::Il2CppString*)>(&Org::BouncyCastle::Crypto::Check::OutputLength)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t>, int, int, ::Il2CppString*)>(&Org::BouncyCastle::Crypto::Check::OutputLength)> {
   static const MethodInfo* get() {
     static auto* buf = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* off = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

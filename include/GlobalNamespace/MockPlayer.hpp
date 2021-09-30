@@ -53,6 +53,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MockPlayer : public ::Il2CppObject/*, public GlobalNamespace::IConnectedPlayer, public GlobalNamespace::INetworkPlayer*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Boolean <isMe>k__BackingField
     // Size: 0x1
     // Offset: 0x10
@@ -185,6 +190,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MockPlayerFiniteStateMachine* fsm;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MockPlayerFiniteStateMachine*) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IConnectedPlayer
     operator GlobalNamespace::IConnectedPlayer() noexcept {
       return *reinterpret_cast<GlobalNamespace::IConnectedPlayer*>(this);

@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -40,12 +41,17 @@ namespace GlobalNamespace {
     char ___base_padding[0x7] = {};
     // Nested type: GlobalNamespace::RuntimeLightWithIds::LightIntensitiesData
     class LightIntensitiesData;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private RuntimeLightWithIds/LightIntensitiesData[] _lightIntensityData
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<GlobalNamespace::RuntimeLightWithIds::LightIntensitiesData*> lightIntensityData;
+    ::ArrayW<GlobalNamespace::RuntimeLightWithIds::LightIntensitiesData*> lightIntensityData;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::RuntimeLightWithIds::LightIntensitiesData*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::RuntimeLightWithIds::LightIntensitiesData*>) == 0x8);
     // [SpaceAttribute] Offset: 0xEDF6C8
     // private System.Single _intensity
     // Size: 0x4
@@ -65,8 +71,9 @@ namespace GlobalNamespace {
     bool multiplyColorByAlpha;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private RuntimeLightWithIds/LightIntensitiesData[] _lightIntensityData
-    ::ArrayWrapper<GlobalNamespace::RuntimeLightWithIds::LightIntensitiesData*>& dyn__lightIntensityData();
+    ::ArrayW<GlobalNamespace::RuntimeLightWithIds::LightIntensitiesData*>& dyn__lightIntensityData();
     // Get instance field reference: private System.Single _intensity
     float& dyn__intensity();
     // Get instance field reference: private System.Single _maxIntensity

@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: RootMotion::FinalIK
@@ -41,32 +42,38 @@ namespace RootMotion::FinalIK {
     class PositionOffset;
     // Nested type: RootMotion::FinalIK::HitReactionVRIK::RotationOffset
     class RotationOffset;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.AnimationCurve[] offsetCurves
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<UnityEngine::AnimationCurve*> offsetCurves;
+    ::ArrayW<UnityEngine::AnimationCurve*> offsetCurves;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::AnimationCurve*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::AnimationCurve*>) == 0x8);
     // [TooltipAttribute] Offset: 0xEF4620
     // public RootMotion.FinalIK.HitReactionVRIK/RootMotion.FinalIK.PositionOffset[] positionOffsets
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayWrapper<RootMotion::FinalIK::HitReactionVRIK::PositionOffset*> positionOffsets;
+    ::ArrayW<RootMotion::FinalIK::HitReactionVRIK::PositionOffset*> positionOffsets;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::HitReactionVRIK::PositionOffset*>) == 0x8);
+    static_assert(sizeof(::ArrayW<RootMotion::FinalIK::HitReactionVRIK::PositionOffset*>) == 0x8);
     // [TooltipAttribute] Offset: 0xEF4658
     // public RootMotion.FinalIK.HitReactionVRIK/RootMotion.FinalIK.RotationOffset[] rotationOffsets
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayWrapper<RootMotion::FinalIK::HitReactionVRIK::RotationOffset*> rotationOffsets;
+    ::ArrayW<RootMotion::FinalIK::HitReactionVRIK::RotationOffset*> rotationOffsets;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::HitReactionVRIK::RotationOffset*>) == 0x8);
+    static_assert(sizeof(::ArrayW<RootMotion::FinalIK::HitReactionVRIK::RotationOffset*>) == 0x8);
+    public:
     // Get instance field reference: public UnityEngine.AnimationCurve[] offsetCurves
-    ::ArrayWrapper<UnityEngine::AnimationCurve*>& dyn_offsetCurves();
+    ::ArrayW<UnityEngine::AnimationCurve*>& dyn_offsetCurves();
     // Get instance field reference: public RootMotion.FinalIK.HitReactionVRIK/RootMotion.FinalIK.PositionOffset[] positionOffsets
-    ::ArrayWrapper<RootMotion::FinalIK::HitReactionVRIK::PositionOffset*>& dyn_positionOffsets();
+    ::ArrayW<RootMotion::FinalIK::HitReactionVRIK::PositionOffset*>& dyn_positionOffsets();
     // Get instance field reference: public RootMotion.FinalIK.HitReactionVRIK/RootMotion.FinalIK.RotationOffset[] rotationOffsets
-    ::ArrayWrapper<RootMotion::FinalIK::HitReactionVRIK::RotationOffset*>& dyn_rotationOffsets();
+    ::ArrayW<RootMotion::FinalIK::HitReactionVRIK::RotationOffset*>& dyn_rotationOffsets();
     // public System.Void Hit(UnityEngine.Collider collider, UnityEngine.Vector3 force, UnityEngine.Vector3 point)
     // Offset: 0x1E93034
     void Hit(UnityEngine::Collider* collider, UnityEngine::Vector3 force, UnityEngine::Vector3 point);
@@ -91,7 +98,7 @@ namespace RootMotion::FinalIK {
     void OnModifyOffset();
   }; // RootMotion.FinalIK.HitReactionVRIK
   #pragma pack(pop)
-  static check_size<sizeof(HitReactionVRIK), 64 + sizeof(::ArrayWrapper<RootMotion::FinalIK::HitReactionVRIK::RotationOffset*>)> __RootMotion_FinalIK_HitReactionVRIKSizeCheck;
+  static check_size<sizeof(HitReactionVRIK), 64 + sizeof(::ArrayW<RootMotion::FinalIK::HitReactionVRIK::RotationOffset*>)> __RootMotion_FinalIK_HitReactionVRIKSizeCheck;
   static_assert(sizeof(HitReactionVRIK) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::HitReactionVRIK*, "RootMotion.FinalIK", "HitReactionVRIK");

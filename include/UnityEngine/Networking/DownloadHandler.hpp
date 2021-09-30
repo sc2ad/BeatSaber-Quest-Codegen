@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text
@@ -36,12 +37,18 @@ namespace UnityEngine::Networking {
   // [NativeHeaderAttribute] Offset: EBFC30
   class DownloadHandler : public ::Il2CppObject/*, public System::IDisposable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.IntPtr m_Ptr
     // Size: 0x8
     // Offset: 0x10
     System::IntPtr m_Ptr;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
@@ -63,7 +70,7 @@ namespace UnityEngine::Networking {
     void Dispose();
     // protected System.Byte[] GetData()
     // Offset: 0x25F9C78
-    ::ArrayWrapper<uint8_t> GetData();
+    ::ArrayW<uint8_t> GetData();
     // protected System.String GetText()
     // Offset: 0x25F9C80
     ::Il2CppString* GetText();
@@ -85,7 +92,7 @@ namespace UnityEngine::Networking {
     }
     // static System.Byte[] InternalGetByteArray(UnityEngine.Networking.DownloadHandler dh)
     // Offset: 0x25F9FF4
-    static ::ArrayWrapper<uint8_t> InternalGetByteArray(UnityEngine::Networking::DownloadHandler* dh);
+    static ::ArrayW<uint8_t> InternalGetByteArray(UnityEngine::Networking::DownloadHandler* dh);
     // System.Void .ctor()
     // Offset: 0x25F9B7C
     // Implemented from: System.Object
@@ -134,7 +141,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Networking::DownloadHandler::GetData
 // Il2CppName: GetData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (UnityEngine::Networking::DownloadHandler::*)()>(&UnityEngine::Networking::DownloadHandler::GetData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (UnityEngine::Networking::DownloadHandler::*)()>(&UnityEngine::Networking::DownloadHandler::GetData)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::DownloadHandler*), "GetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -169,7 +176,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: UnityEngine::Networking::DownloadHandler::InternalGetByteArray
 // Il2CppName: InternalGetByteArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(UnityEngine::Networking::DownloadHandler*)>(&UnityEngine::Networking::DownloadHandler::InternalGetByteArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(UnityEngine::Networking::DownloadHandler*)>(&UnityEngine::Networking::DownloadHandler::InternalGetByteArray)> {
   static const MethodInfo* get() {
     static auto* dh = &::il2cpp_utils::GetClassFromName("UnityEngine.Networking", "DownloadHandler")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::DownloadHandler*), "InternalGetByteArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dh});

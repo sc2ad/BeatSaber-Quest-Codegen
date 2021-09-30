@@ -50,12 +50,18 @@ namespace GlobalNamespace {
     struct $GetAssetBundleFileForPreviewLevelAsync$d__4;
     // Nested type: GlobalNamespace::TestBeatmapDataAssetFileModel::$TryDeleteAssetBundleFileForPreviewLevelAsync$d__5
     struct $TryDeleteAssetBundleFileForPreviewLevelAsync$d__5;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Action`1<LevelDataAssetDownloadUpdate> levelDataAssetDownloadUpdateEvent
     // Size: 0x8
     // Offset: 0x10
     System::Action_1<GlobalNamespace::LevelDataAssetDownloadUpdate>* levelDataAssetDownloadUpdateEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::LevelDataAssetDownloadUpdate>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IBeatmapDataAssetFileModel
     operator GlobalNamespace::IBeatmapDataAssetFileModel() noexcept {
       return *reinterpret_cast<GlobalNamespace::IBeatmapDataAssetFileModel*>(this);

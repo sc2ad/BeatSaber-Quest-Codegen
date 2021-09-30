@@ -7,6 +7,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -35,6 +36,11 @@ namespace UnityEngine {
     // [TokenAttribute] Offset: FFFFFFFF
     struct HitInfo/*, public System::ValueType*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public UnityEngine.GameObject target
       // Size: 0x8
       // Offset: 0x0
@@ -47,6 +53,7 @@ namespace UnityEngine {
       UnityEngine::Camera* camera;
       // Field size check
       static_assert(sizeof(UnityEngine::Camera*) == 0x8);
+      public:
       // Creating value type constructor for type: HitInfo
       constexpr HitInfo(UnityEngine::GameObject* target_ = {}, UnityEngine::Camera* camera_ = {}) noexcept : target{target_}, camera{camera_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -72,21 +79,21 @@ namespace UnityEngine {
     // Set static field: static private System.Boolean s_MouseUsed
     static void _set_s_MouseUsed(bool value);
     // Get static field: static private readonly UnityEngine.SendMouseEvents/UnityEngine.HitInfo[] m_LastHit
-    static ::ArrayWrapper<UnityEngine::SendMouseEvents::HitInfo> _get_m_LastHit();
+    static ::ArrayW<UnityEngine::SendMouseEvents::HitInfo> _get_m_LastHit();
     // Set static field: static private readonly UnityEngine.SendMouseEvents/UnityEngine.HitInfo[] m_LastHit
-    static void _set_m_LastHit(::ArrayWrapper<UnityEngine::SendMouseEvents::HitInfo> value);
+    static void _set_m_LastHit(::ArrayW<UnityEngine::SendMouseEvents::HitInfo> value);
     // Get static field: static private readonly UnityEngine.SendMouseEvents/UnityEngine.HitInfo[] m_MouseDownHit
-    static ::ArrayWrapper<UnityEngine::SendMouseEvents::HitInfo> _get_m_MouseDownHit();
+    static ::ArrayW<UnityEngine::SendMouseEvents::HitInfo> _get_m_MouseDownHit();
     // Set static field: static private readonly UnityEngine.SendMouseEvents/UnityEngine.HitInfo[] m_MouseDownHit
-    static void _set_m_MouseDownHit(::ArrayWrapper<UnityEngine::SendMouseEvents::HitInfo> value);
+    static void _set_m_MouseDownHit(::ArrayW<UnityEngine::SendMouseEvents::HitInfo> value);
     // Get static field: static private readonly UnityEngine.SendMouseEvents/UnityEngine.HitInfo[] m_CurrentHit
-    static ::ArrayWrapper<UnityEngine::SendMouseEvents::HitInfo> _get_m_CurrentHit();
+    static ::ArrayW<UnityEngine::SendMouseEvents::HitInfo> _get_m_CurrentHit();
     // Set static field: static private readonly UnityEngine.SendMouseEvents/UnityEngine.HitInfo[] m_CurrentHit
-    static void _set_m_CurrentHit(::ArrayWrapper<UnityEngine::SendMouseEvents::HitInfo> value);
+    static void _set_m_CurrentHit(::ArrayW<UnityEngine::SendMouseEvents::HitInfo> value);
     // Get static field: static private UnityEngine.Camera[] m_Cameras
-    static ::ArrayWrapper<UnityEngine::Camera*> _get_m_Cameras();
+    static ::ArrayW<UnityEngine::Camera*> _get_m_Cameras();
     // Set static field: static private UnityEngine.Camera[] m_Cameras
-    static void _set_m_Cameras(::ArrayWrapper<UnityEngine::Camera*> value);
+    static void _set_m_Cameras(::ArrayW<UnityEngine::Camera*> value);
     // static private System.Void .cctor()
     // Offset: 0x262255C
     static void _cctor();

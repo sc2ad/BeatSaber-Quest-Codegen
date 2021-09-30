@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Linq
@@ -361,11 +362,11 @@ namespace System::Linq {
     // static public TSource[] ToArray(System.Collections.Generic.IEnumerable`1<TSource> source)
     // Offset: 0xFFFFFFFF
     template<class TSource>
-    static ::ArrayWrapper<TSource> ToArray(System::Collections::Generic::IEnumerable_1<TSource>* source) {
+    static ::ArrayW<TSource> ToArray(System::Collections::Generic::IEnumerable_1<TSource>* source) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Linq::Enumerable::ToArray");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Linq", "Enumerable", "ToArray", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSource>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(source)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TSource>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<::ArrayWrapper<TSource>, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, source);
+      return ::il2cpp_utils::RunMethodThrow<::ArrayW<TSource>, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, source);
     }
     // static public System.Collections.Generic.List`1<TSource> ToList(System.Collections.Generic.IEnumerable`1<TSource> source)
     // Offset: 0xFFFFFFFF

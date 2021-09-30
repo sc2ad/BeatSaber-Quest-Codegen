@@ -38,12 +38,18 @@ namespace System::Runtime::Remoting {
   // [TokenAttribute] Offset: FFFFFFFF
   class ClientActivatedIdentity : public System::Runtime::Remoting::ServerIdentity {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.MarshalByRefObject _targetThis
     // Size: 0x8
     // Offset: 0x70
     System::MarshalByRefObject* targetThis;
     // Field size check
     static_assert(sizeof(System::MarshalByRefObject*) == 0x8);
+    public:
     // Creating conversion operator: operator System::MarshalByRefObject*
     constexpr operator System::MarshalByRefObject*() const noexcept {
       return targetThis;

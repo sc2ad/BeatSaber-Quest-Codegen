@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net
@@ -43,6 +44,11 @@ namespace Mono::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class CFNetwork::CFWebProxy : public ::Il2CppObject/*, public System::Net::IWebProxy*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Net.ICredentials credentials
     // Size: 0x8
     // Offset: 0x10
@@ -55,6 +61,7 @@ namespace Mono::Net {
     bool userSpecified;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator System::Net::IWebProxy
     operator System::Net::IWebProxy() noexcept {
       return *reinterpret_cast<System::Net::IWebProxy*>(this);
@@ -77,7 +84,7 @@ namespace Mono::Net {
     static System::Uri* ExecuteProxyAutoConfigurationURL(System::IntPtr proxyAutoConfigURL, System::Uri* targetUri, ByRef<System::Net::NetworkCredential*> credentials);
     // static private System.Uri SelectProxy(Mono.Net.CFProxy[] proxies, System.Uri targetUri, out System.Net.NetworkCredential credentials)
     // Offset: 0x17B8B88
-    static System::Uri* SelectProxy(::ArrayWrapper<Mono::Net::CFProxy*> proxies, System::Uri* targetUri, ByRef<System::Net::NetworkCredential*> credentials);
+    static System::Uri* SelectProxy(::ArrayW<Mono::Net::CFProxy*> proxies, System::Uri* targetUri, ByRef<System::Net::NetworkCredential*> credentials);
     // public System.Uri GetProxy(System.Uri targetUri)
     // Offset: 0x17B8CD4
     System::Uri* GetProxy(System::Uri* targetUri);
@@ -143,7 +150,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri
 // Writing MetadataGetter for method: Mono::Net::CFNetwork::CFWebProxy::SelectProxy
 // Il2CppName: SelectProxy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri* (*)(::ArrayWrapper<Mono::Net::CFProxy*>, System::Uri*, ByRef<System::Net::NetworkCredential*>)>(&Mono::Net::CFNetwork::CFWebProxy::SelectProxy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Uri* (*)(::ArrayW<Mono::Net::CFProxy*>, System::Uri*, ByRef<System::Net::NetworkCredential*>)>(&Mono::Net::CFNetwork::CFWebProxy::SelectProxy)> {
   static const MethodInfo* get() {
     static auto* proxies = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Mono.Net", "CFProxy"), 1)->byval_arg;
     static auto* targetUri = &::il2cpp_utils::GetClassFromName("System", "Uri")->byval_arg;

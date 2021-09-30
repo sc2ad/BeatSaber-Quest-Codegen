@@ -42,12 +42,18 @@ namespace NUnit::Framework::Internal {
   // [DefaultMemberAttribute] Offset: EEE9F0
   class PropertyBag : public ::Il2CppObject/*, public NUnit::Framework::Interfaces::IPropertyBag*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.Dictionary`2<System.String,System.Collections.IList> inner
     // Size: 0x8
     // Offset: 0x10
     System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Collections::IList*>* inner;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Collections::IList*>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator NUnit::Framework::Interfaces::IPropertyBag
     operator NUnit::Framework::Interfaces::IPropertyBag() noexcept {
       return *reinterpret_cast<NUnit::Framework::Interfaces::IPropertyBag*>(this);

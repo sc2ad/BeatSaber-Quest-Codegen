@@ -50,12 +50,18 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5BF9C
   struct Double/*, public System::ValueType, public System::IComparable_1<double>, public System::IEquatable_1<double>, public System::IComparable, public System::IConvertible, public System::IFormattable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Double m_value
     // Size: 0x8
     // Offset: 0x0
     double m_value;
     // Field size check
     static_assert(sizeof(double) == 0x8);
+    public:
     // Creating value type constructor for type: Double
     constexpr Double(double m_value_ = {}) noexcept : m_value{m_value_} {}
     // Creating interface conversion operator: operator System::ValueType

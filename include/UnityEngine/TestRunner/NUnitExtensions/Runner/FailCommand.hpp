@@ -48,6 +48,11 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     public:
     // Nested type: UnityEngine::TestRunner::NUnitExtensions::Runner::FailCommand::$ExecuteEnumerable$d__4
     class $ExecuteEnumerable$d__4;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private NUnit.Framework.Interfaces.ResultState m_ResultState
     // Size: 0x8
     // Offset: 0x18
@@ -60,6 +65,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     ::Il2CppString* m_Message;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Creating interface conversion operator: operator UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand
     operator UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand() noexcept {
       return *reinterpret_cast<UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand*>(this);

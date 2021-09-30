@@ -25,6 +25,11 @@ namespace RootMotion {
     public:
     // Nested type: RootMotion::BipedLimbOrientations::LimbOrientation
     class LimbOrientation;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public RootMotion.BipedLimbOrientations/RootMotion.LimbOrientation leftArm
     // Size: 0x8
     // Offset: 0x10
@@ -49,6 +54,7 @@ namespace RootMotion {
     RootMotion::BipedLimbOrientations::LimbOrientation* rightLeg;
     // Field size check
     static_assert(sizeof(RootMotion::BipedLimbOrientations::LimbOrientation*) == 0x8);
+    public:
     // Get instance field reference: public RootMotion.BipedLimbOrientations/RootMotion.LimbOrientation leftArm
     RootMotion::BipedLimbOrientations::LimbOrientation*& dyn_leftArm();
     // Get instance field reference: public RootMotion.BipedLimbOrientations/RootMotion.LimbOrientation rightArm

@@ -29,6 +29,11 @@ namespace System::Runtime::Remoting::Activation {
   // [TokenAttribute] Offset: FFFFFFFF
   class AppDomainLevelActivator : public ::Il2CppObject/*, public System::Runtime::Remoting::Activation::IActivator*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String _activationUrl
     // Size: 0x8
     // Offset: 0x10
@@ -41,6 +46,7 @@ namespace System::Runtime::Remoting::Activation {
     System::Runtime::Remoting::Activation::IActivator* next;
     // Field size check
     static_assert(sizeof(System::Runtime::Remoting::Activation::IActivator*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Runtime::Remoting::Activation::IActivator
     operator System::Runtime::Remoting::Activation::IActivator() noexcept {
       return *reinterpret_cast<System::Runtime::Remoting::Activation::IActivator*>(this);

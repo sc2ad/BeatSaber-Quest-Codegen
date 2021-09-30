@@ -60,12 +60,18 @@ namespace UnityEngine::Timeline {
     public:
     // Nested type: UnityEngine::Timeline::AudioTrack::$get_outputs$d__4
     class $get_outputs$d__4;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Timeline.AudioMixerProperties m_TrackProperties
     // Size: 0x8
     // Offset: 0xA0
     UnityEngine::Timeline::AudioMixerProperties* m_TrackProperties;
     // Field size check
     static_assert(sizeof(UnityEngine::Timeline::AudioMixerProperties*) == 0x8);
+    public:
     // Get instance field reference: private UnityEngine.Timeline.AudioMixerProperties m_TrackProperties
     UnityEngine::Timeline::AudioMixerProperties*& dyn_m_TrackProperties();
     // public UnityEngine.Timeline.TimelineClip CreateClip(UnityEngine.AudioClip clip)

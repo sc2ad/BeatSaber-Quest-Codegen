@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -57,6 +58,11 @@ namespace GlobalNamespace {
     class TutorialBombNoteSpawnData;
     // Nested type: GlobalNamespace::TutorialSongController::TutorialObstacleSpawnData
     class TutorialObstacleSpawnData;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x20
@@ -230,9 +236,10 @@ namespace GlobalNamespace {
     // private TutorialSongController/TutorialObjectSpawnData[] _normalModeTutorialObjectsSpawnData
     // Size: 0x8
     // Offset: 0xC8
-    ::ArrayWrapper<GlobalNamespace::TutorialSongController::TutorialObjectSpawnData*> normalModeTutorialObjectsSpawnData;
+    ::ArrayW<GlobalNamespace::TutorialSongController::TutorialObjectSpawnData*> normalModeTutorialObjectsSpawnData;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::TutorialSongController::TutorialObjectSpawnData*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::TutorialSongController::TutorialObjectSpawnData*>) == 0x8);
+    public:
     // Get instance field reference: private AudioTimeSyncController _audioTimeSyncController
     GlobalNamespace::AudioTimeSyncController*& dyn__audioTimeSyncController();
     // Get instance field reference: private System.Int32 _startWaitTimeInBeats
@@ -280,7 +287,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapData _beatmapData
     GlobalNamespace::BeatmapData*& dyn__beatmapData();
     // Get instance field reference: private TutorialSongController/TutorialObjectSpawnData[] _normalModeTutorialObjectsSpawnData
-    ::ArrayWrapper<GlobalNamespace::TutorialSongController::TutorialObjectSpawnData*>& dyn__normalModeTutorialObjectsSpawnData();
+    ::ArrayW<GlobalNamespace::TutorialSongController::TutorialObjectSpawnData*>& dyn__normalModeTutorialObjectsSpawnData();
     // protected System.Void Awake()
     // Offset: 0x133C8D8
     void Awake();
@@ -348,7 +355,7 @@ namespace GlobalNamespace {
     void ResumeSong();
   }; // TutorialSongController
   #pragma pack(pop)
-  static check_size<sizeof(TutorialSongController), 200 + sizeof(::ArrayWrapper<GlobalNamespace::TutorialSongController::TutorialObjectSpawnData*>)> __GlobalNamespace_TutorialSongControllerSizeCheck;
+  static check_size<sizeof(TutorialSongController), 200 + sizeof(::ArrayW<GlobalNamespace::TutorialSongController::TutorialObjectSpawnData*>)> __GlobalNamespace_TutorialSongControllerSizeCheck;
   static_assert(sizeof(TutorialSongController) == 0xD0);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TutorialSongController*, "", "TutorialSongController");

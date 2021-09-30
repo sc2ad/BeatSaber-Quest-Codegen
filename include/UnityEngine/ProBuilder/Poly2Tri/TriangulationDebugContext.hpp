@@ -21,12 +21,18 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   // [TokenAttribute] Offset: FFFFFFFF
   class TriangulationDebugContext : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // protected UnityEngine.ProBuilder.Poly2Tri.TriangulationContext _tcx
     // Size: 0x8
     // Offset: 0x10
     UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* tcx;
     // Field size check
     static_assert(sizeof(UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*) == 0x8);
+    public:
     // Creating conversion operator: operator UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*
     constexpr operator UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*() const noexcept {
       return tcx;

@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -37,12 +38,18 @@ namespace System::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   class CStreamReader : public System::IO::StreamReader {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.TermInfoDriver driver
     // Size: 0x8
     // Offset: 0x68
     System::TermInfoDriver* driver;
     // Field size check
     static_assert(sizeof(System::TermInfoDriver*) == 0x8);
+    public:
     // Get instance field reference: private System.TermInfoDriver driver
     System::TermInfoDriver*& dyn_driver();
     // public System.Void .ctor(System.IO.Stream stream, System.Text.Encoding encoding)
@@ -68,7 +75,7 @@ namespace System::IO {
     // Offset: 0x1AAF068
     // Implemented from: System.IO.StreamReader
     // Base method: System.Int32 StreamReader::Read(in System.Char[] dest, System.Int32 index, System.Int32 count)
-    int Read(ByRef<::ArrayWrapper<::Il2CppChar>> dest, int index, int count);
+    int Read(ByRef<::ArrayW<::Il2CppChar>> dest, int index, int count);
     // public override System.String ReadLine()
     // Offset: 0x1AAF234
     // Implemented from: System.IO.StreamReader
@@ -109,7 +116,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::IO::CStreamReader::Read
 // Il2CppName: Read
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::CStreamReader::*)(ByRef<::ArrayWrapper<::Il2CppChar>>, int, int)>(&System::IO::CStreamReader::Read)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::CStreamReader::*)(ByRef<::ArrayW<::Il2CppChar>>, int, int)>(&System::IO::CStreamReader::Read)> {
   static const MethodInfo* get() {
     static auto* dest = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->this_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

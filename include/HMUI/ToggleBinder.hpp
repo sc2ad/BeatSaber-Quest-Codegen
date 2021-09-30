@@ -46,6 +46,11 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class ToggleBinder : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.List`1<System.Tuple`2<UnityEngine.UI.Toggle,UnityEngine.Events.UnityAction`1<System.Boolean>>> _bindings
     // Size: 0x8
     // Offset: 0x10
@@ -58,6 +63,7 @@ namespace HMUI {
     bool enabled;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private System.Collections.Generic.List`1<System.Tuple`2<UnityEngine.UI.Toggle,UnityEngine.Events.UnityAction`1<System.Boolean>>> _bindings
     System::Collections::Generic::List_1<System::Tuple_2<UnityEngine::UI::Toggle*, UnityEngine::Events::UnityAction_1<bool>*>*>*& dyn__bindings();
     // Get instance field reference: private System.Boolean _enabled

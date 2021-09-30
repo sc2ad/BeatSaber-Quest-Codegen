@@ -21,6 +21,11 @@ namespace System::Net::Sockets {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Socket::WSABUF/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 len
     // Size: 0x4
     // Offset: 0x0
@@ -35,6 +40,7 @@ namespace System::Net::Sockets {
     System::IntPtr buf;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
+    public:
     // Creating value type constructor for type: WSABUF
     constexpr WSABUF(int len_ = {}, System::IntPtr buf_ = {}) noexcept : len{len_}, buf{buf_} {}
     // Creating interface conversion operator: operator System::ValueType

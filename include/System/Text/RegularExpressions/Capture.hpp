@@ -18,6 +18,11 @@ namespace System::Text::RegularExpressions {
   // [TokenAttribute] Offset: FFFFFFFF
   class Capture : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.String _text
     // Size: 0x8
     // Offset: 0x10
@@ -36,6 +41,7 @@ namespace System::Text::RegularExpressions {
     int length;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: System.String _text
     ::Il2CppString*& dyn__text();
     // Get instance field reference: System.Int32 _index

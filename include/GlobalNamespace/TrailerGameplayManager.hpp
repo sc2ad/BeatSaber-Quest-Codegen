@@ -38,6 +38,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::TrailerGameplayManager::$Start$d__4
     class $Start$d__4;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean _disableMainCamera
     // Size: 0x1
     // Offset: 0x18
@@ -67,6 +72,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MainCamera* mainCamera;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MainCamera*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Boolean _disableMainCamera

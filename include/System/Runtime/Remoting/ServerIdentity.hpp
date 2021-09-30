@@ -57,6 +57,11 @@ namespace System::Runtime::Remoting {
     public:
     // Writing base type padding for base size: 0x41 to desired offset: 0x48
     char ___base_padding[0x7] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // protected System.Type _objectType
     // Size: 0x8
     // Offset: 0x48
@@ -87,6 +92,7 @@ namespace System::Runtime::Remoting {
     System::Runtime::Remoting::Lifetime::Lease* lease;
     // Field size check
     static_assert(sizeof(System::Runtime::Remoting::Lifetime::Lease*) == 0x8);
+    public:
     // Get instance field reference: protected System.Type _objectType
     System::Type*& dyn__objectType();
     // Get instance field reference: protected System.MarshalByRefObject _serverObject

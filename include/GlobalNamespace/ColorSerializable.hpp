@@ -35,12 +35,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct ColorSerializable/*, public System::ValueType, public LiteNetLib::Utils::INetSerializable, public System::IEquatable_1<GlobalNamespace::ColorSerializable>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Color _color
     // Size: 0x10
     // Offset: 0x0
     UnityEngine::Color color;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
+    public:
     // Creating value type constructor for type: ColorSerializable
     constexpr ColorSerializable(UnityEngine::Color color_ = {}) noexcept : color{color_} {}
     // Creating interface conversion operator: operator System::ValueType

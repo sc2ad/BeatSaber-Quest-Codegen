@@ -51,12 +51,18 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5C600
   struct SByte/*, public System::ValueType, public System::IComparable_1<int8_t>, public System::IEquatable_1<int8_t>, public System::IComparable, public System::IConvertible, public System::IFormattable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.SByte m_value
     // Size: 0x1
     // Offset: 0x0
     int8_t m_value;
     // Field size check
     static_assert(sizeof(int8_t) == 0x1);
+    public:
     // Creating value type constructor for type: SByte
     constexpr SByte(int8_t m_value_ = {}) noexcept : m_value{m_value_} {}
     // Creating interface conversion operator: operator System::ValueType

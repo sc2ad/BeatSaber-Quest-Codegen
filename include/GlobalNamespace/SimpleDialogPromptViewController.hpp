@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -43,6 +44,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::SimpleDialogPromptViewController::$$c__DisplayClass5_0
     class $$c__DisplayClass5_0;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private TMPro.TextMeshProUGUI _titleText
     // Size: 0x8
     // Offset: 0x70
@@ -58,29 +64,30 @@ namespace GlobalNamespace {
     // private UnityEngine.UI.Button[] _buttons
     // Size: 0x8
     // Offset: 0x80
-    ::ArrayWrapper<UnityEngine::UI::Button*> buttons;
+    ::ArrayW<UnityEngine::UI::Button*> buttons;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::UI::Button*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::UI::Button*>) == 0x8);
     // private TMPro.TextMeshProUGUI[] _buttonTexts
     // Size: 0x8
     // Offset: 0x88
-    ::ArrayWrapper<TMPro::TextMeshProUGUI*> buttonTexts;
+    ::ArrayW<TMPro::TextMeshProUGUI*> buttonTexts;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<TMPro::TextMeshProUGUI*>) == 0x8);
+    static_assert(sizeof(::ArrayW<TMPro::TextMeshProUGUI*>) == 0x8);
     // private System.Action`1<System.Int32> _didFinishAction
     // Size: 0x8
     // Offset: 0x90
     System::Action_1<int>* didFinishAction;
     // Field size check
     static_assert(sizeof(System::Action_1<int>*) == 0x8);
+    public:
     // Get instance field reference: private TMPro.TextMeshProUGUI _titleText
     TMPro::TextMeshProUGUI*& dyn__titleText();
     // Get instance field reference: private TMPro.TextMeshProUGUI _messageText
     TMPro::TextMeshProUGUI*& dyn__messageText();
     // Get instance field reference: private UnityEngine.UI.Button[] _buttons
-    ::ArrayWrapper<UnityEngine::UI::Button*>& dyn__buttons();
+    ::ArrayW<UnityEngine::UI::Button*>& dyn__buttons();
     // Get instance field reference: private TMPro.TextMeshProUGUI[] _buttonTexts
-    ::ArrayWrapper<TMPro::TextMeshProUGUI*>& dyn__buttonTexts();
+    ::ArrayW<TMPro::TextMeshProUGUI*>& dyn__buttonTexts();
     // Get instance field reference: private System.Action`1<System.Int32> _didFinishAction
     System::Action_1<int>*& dyn__didFinishAction();
     // public System.Void Init(System.String title, System.String message, System.String buttonText, System.Action`1<System.Int32> didFinishAction)

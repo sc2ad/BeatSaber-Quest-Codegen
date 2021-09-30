@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Mono::Net::Security
@@ -51,6 +52,11 @@ namespace Mono::Net::Security {
   // [TokenAttribute] Offset: FFFFFFFF
   class MobileTlsContext : public ::Il2CppObject/*, public System::IDisposable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Mono.Net.Security.MobileAuthenticatedStream parent
     // Size: 0x8
     // Offset: 0x10
@@ -111,6 +117,7 @@ namespace Mono::Net::Security {
     Mono::Security::Interface::ICertificateValidator2* certificateValidator;
     // Field size check
     static_assert(sizeof(Mono::Security::Interface::ICertificateValidator2*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
@@ -178,10 +185,10 @@ namespace Mono::Net::Security {
     void FinishHandshake();
     // public System.ValueTuple`2<System.Int32,System.Boolean> Read(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
     // Offset: 0xFFFFFFFF
-    System::ValueTuple_2<int, bool> Read(::ArrayWrapper<uint8_t> buffer, int offset, int count);
+    System::ValueTuple_2<int, bool> Read(::ArrayW<uint8_t> buffer, int offset, int count);
     // public System.ValueTuple`2<System.Int32,System.Boolean> Write(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
     // Offset: 0xFFFFFFFF
-    System::ValueTuple_2<int, bool> Write(::ArrayWrapper<uint8_t> buffer, int offset, int count);
+    System::ValueTuple_2<int, bool> Write(::ArrayW<uint8_t> buffer, int offset, int count);
     // public System.Void Shutdown()
     // Offset: 0xFFFFFFFF
     void Shutdown();
@@ -193,7 +200,7 @@ namespace Mono::Net::Security {
     bool ValidateCertificate(System::Security::Cryptography::X509Certificates::X509CertificateCollection* certificates);
     // protected System.Security.Cryptography.X509Certificates.X509Certificate SelectClientCertificate(System.Security.Cryptography.X509Certificates.X509Certificate serverCertificate, System.String[] acceptableIssuers)
     // Offset: 0x17C057C
-    System::Security::Cryptography::X509Certificates::X509Certificate* SelectClientCertificate(System::Security::Cryptography::X509Certificates::X509Certificate* serverCertificate, ::ArrayWrapper<::Il2CppString*> acceptableIssuers);
+    System::Security::Cryptography::X509Certificates::X509Certificate* SelectClientCertificate(System::Security::Cryptography::X509Certificates::X509Certificate* serverCertificate, ::ArrayW<::Il2CppString*> acceptableIssuers);
     // public System.Void Dispose()
     // Offset: 0x17BE72C
     void Dispose();
@@ -315,7 +322,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Net::Security::MobileTlsContext::Read
 // Il2CppName: Read
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ValueTuple_2<int, bool> (Mono::Net::Security::MobileTlsContext::*)(::ArrayWrapper<uint8_t>, int, int)>(&Mono::Net::Security::MobileTlsContext::Read)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ValueTuple_2<int, bool> (Mono::Net::Security::MobileTlsContext::*)(::ArrayW<uint8_t>, int, int)>(&Mono::Net::Security::MobileTlsContext::Read)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -326,7 +333,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Val
 // Writing MetadataGetter for method: Mono::Net::Security::MobileTlsContext::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ValueTuple_2<int, bool> (Mono::Net::Security::MobileTlsContext::*)(::ArrayWrapper<uint8_t>, int, int)>(&Mono::Net::Security::MobileTlsContext::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ValueTuple_2<int, bool> (Mono::Net::Security::MobileTlsContext::*)(::ArrayW<uint8_t>, int, int)>(&Mono::Net::Security::MobileTlsContext::Write)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -364,7 +371,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono:
 // Writing MetadataGetter for method: Mono::Net::Security::MobileTlsContext::SelectClientCertificate
 // Il2CppName: SelectClientCertificate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509Certificate* (Mono::Net::Security::MobileTlsContext::*)(System::Security::Cryptography::X509Certificates::X509Certificate*, ::ArrayWrapper<::Il2CppString*>)>(&Mono::Net::Security::MobileTlsContext::SelectClientCertificate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509Certificate* (Mono::Net::Security::MobileTlsContext::*)(System::Security::Cryptography::X509Certificates::X509Certificate*, ::ArrayW<::Il2CppString*>)>(&Mono::Net::Security::MobileTlsContext::SelectClientCertificate)> {
   static const MethodInfo* get() {
     static auto* serverCertificate = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509Certificate")->byval_arg;
     static auto* acceptableIssuers = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;

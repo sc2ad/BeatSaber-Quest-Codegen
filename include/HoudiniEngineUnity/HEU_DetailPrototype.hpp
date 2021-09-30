@@ -22,6 +22,11 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_DetailPrototype : public ::Il2CppObject/*, public HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_DetailPrototype*>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.String _prototypePrefab
     // Size: 0x8
     // Offset: 0x10
@@ -88,6 +93,7 @@ namespace HoudiniEngineUnity {
     int renderMode;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_DetailPrototype*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_DetailPrototype*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_DetailPrototype*>*>(this);

@@ -48,6 +48,11 @@ namespace Zenject {
   template<typename TObj, typename TResult>
   class GetterProvider_2 : public ::Il2CppObject/*, public Zenject::IProvider*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x0
@@ -78,6 +83,7 @@ namespace Zenject {
     Zenject::InjectSources sourceType;
     // Field size check
     static_assert(sizeof(Zenject::InjectSources) == 0x4);
+    public:
     // Creating interface conversion operator: operator Zenject::IProvider
     operator Zenject::IProvider() noexcept {
       return *reinterpret_cast<Zenject::IProvider*>(this);

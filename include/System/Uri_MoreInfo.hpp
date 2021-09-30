@@ -20,6 +20,11 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class Uri::MoreInfo : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.String Path
     // Size: 0x8
     // Offset: 0x10
@@ -58,6 +63,7 @@ namespace System {
     ::Il2CppString* RemoteUrl;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: public System.String Path
     ::Il2CppString*& dyn_Path();
     // Get instance field reference: public System.String Query

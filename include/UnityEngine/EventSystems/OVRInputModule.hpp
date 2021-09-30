@@ -54,6 +54,11 @@ namespace UnityEngine::EventSystems {
     public:
     // Nested type: UnityEngine::EventSystems::OVRInputModule::InputMode
     struct InputMode;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [TooltipAttribute] Offset: 0xEB333C
     // public UnityEngine.Transform rayTransform
     // Size: 0x8
@@ -230,6 +235,7 @@ namespace UnityEngine::EventSystems {
     UnityEngine::EventSystems::PointerInputModule::MouseState* m_MouseState;
     // Field size check
     static_assert(sizeof(UnityEngine::EventSystems::PointerInputModule::MouseState*) == 0x8);
+    public:
     // Get instance field reference: public UnityEngine.Transform rayTransform
     UnityEngine::Transform*& dyn_rayTransform();
     // Get instance field reference: public OVRCursor m_Cursor

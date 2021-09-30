@@ -18,6 +18,11 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Compositor_OverlaySettings/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.UInt32 size
     // Size: 0x4
     // Offset: 0x0
@@ -104,6 +109,7 @@ namespace OVR::OpenVR {
     OVR::OpenVR::HmdMatrix44_t transform;
     // Field size check
     static_assert(sizeof(OVR::OpenVR::HmdMatrix44_t) == 0x40);
+    public:
     // Creating value type constructor for type: Compositor_OverlaySettings
     constexpr Compositor_OverlaySettings(uint size_ = {}, bool curved_ = {}, bool antialias_ = {}, float scale_ = {}, float distance_ = {}, float alpha_ = {}, float uOffset_ = {}, float vOffset_ = {}, float uScale_ = {}, float vScale_ = {}, float gridDivs_ = {}, float gridWidth_ = {}, float gridScale_ = {}, OVR::OpenVR::HmdMatrix44_t transform_ = {}) noexcept : size{size_}, curved{curved_}, antialias{antialias_}, scale{scale_}, distance{distance_}, alpha{alpha_}, uOffset{uOffset_}, vOffset{vOffset_}, uScale{uScale_}, vScale{vScale_}, gridDivs{gridDivs_}, gridWidth{gridWidth_}, gridScale{gridScale_}, transform{transform_} {}
     // Creating interface conversion operator: operator System::ValueType

@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Diagnostics
@@ -46,24 +47,30 @@ namespace System::Diagnostics {
     public:
     // Nested type: System::Diagnostics::StackTrace::TraceFormat
     struct TraceFormat;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Diagnostics.StackFrame[] frames
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<System::Diagnostics::StackFrame*> frames;
+    ::ArrayW<System::Diagnostics::StackFrame*> frames;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<System::Diagnostics::StackFrame*>) == 0x8);
+    static_assert(sizeof(::ArrayW<System::Diagnostics::StackFrame*>) == 0x8);
     // private readonly System.Diagnostics.StackTrace[] captured_traces
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<System::Diagnostics::StackTrace*> captured_traces;
+    ::ArrayW<System::Diagnostics::StackTrace*> captured_traces;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<System::Diagnostics::StackTrace*>) == 0x8);
+    static_assert(sizeof(::ArrayW<System::Diagnostics::StackTrace*>) == 0x8);
     // private System.Boolean debug_info
     // Size: 0x1
     // Offset: 0x20
     bool debug_info;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // static field const value: static public System.Int32 METHODS_TO_SKIP
     static constexpr const int METHODS_TO_SKIP = 0;
     // Get static field: static public System.Int32 METHODS_TO_SKIP
@@ -79,9 +86,9 @@ namespace System::Diagnostics {
     // Set static field: static private System.String aotid
     static void _set_aotid(::Il2CppString* value);
     // Get instance field reference: private System.Diagnostics.StackFrame[] frames
-    ::ArrayWrapper<System::Diagnostics::StackFrame*>& dyn_frames();
+    ::ArrayW<System::Diagnostics::StackFrame*>& dyn_frames();
     // Get instance field reference: private readonly System.Diagnostics.StackTrace[] captured_traces
-    ::ArrayWrapper<System::Diagnostics::StackTrace*>& dyn_captured_traces();
+    ::ArrayW<System::Diagnostics::StackTrace*>& dyn_captured_traces();
     // Get instance field reference: private System.Boolean debug_info
     bool& dyn_debug_info();
     // public System.Int32 get_FrameCount()
@@ -120,7 +127,7 @@ namespace System::Diagnostics {
     void init_frames(int skipFrames, bool fNeedFileInfo);
     // static private System.Diagnostics.StackFrame[] get_trace(System.Exception e, System.Int32 skipFrames, System.Boolean fNeedFileInfo)
     // Offset: 0x1CEBB44
-    static ::ArrayWrapper<System::Diagnostics::StackFrame*> get_trace(System::Exception* e, int skipFrames, bool fNeedFileInfo);
+    static ::ArrayW<System::Diagnostics::StackFrame*> get_trace(System::Exception* e, int skipFrames, bool fNeedFileInfo);
     // public System.Diagnostics.StackFrame GetFrame(System.Int32 index)
     // Offset: 0x1CEBC70
     System::Diagnostics::StackFrame* GetFrame(int index);
@@ -194,7 +201,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Diagnostics::StackTrace::get_trace
 // Il2CppName: get_trace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::Diagnostics::StackFrame*> (*)(System::Exception*, int, bool)>(&System::Diagnostics::StackTrace::get_trace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Diagnostics::StackFrame*> (*)(System::Exception*, int, bool)>(&System::Diagnostics::StackTrace::get_trace)> {
   static const MethodInfo* get() {
     static auto* e = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
     static auto* skipFrames = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -32,18 +33,23 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::EnvironmentBrandingManager::InitData
     class InitData;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.GameObject[] _brandingObjects
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<UnityEngine::GameObject*> brandingObjects;
+    ::ArrayW<UnityEngine::GameObject*> brandingObjects;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::GameObject*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::GameObject*>) == 0x8);
     // private UnityEngine.GameObject[] _replacementBrandingObjects
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<UnityEngine::GameObject*> replacementBrandingObjects;
+    ::ArrayW<UnityEngine::GameObject*> replacementBrandingObjects;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::GameObject*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::GameObject*>) == 0x8);
     // [InjectOptionalAttribute] Offset: 0xF041DC
     // private readonly EnvironmentBrandingManager/InitData _initData
     // Size: 0x8
@@ -51,12 +57,13 @@ namespace GlobalNamespace {
     GlobalNamespace::EnvironmentBrandingManager::InitData* initData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::EnvironmentBrandingManager::InitData*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.GameObject[] _brandingObjects
-    ::ArrayWrapper<UnityEngine::GameObject*>& dyn__brandingObjects();
+    ::ArrayW<UnityEngine::GameObject*>& dyn__brandingObjects();
     // Get instance field reference: private UnityEngine.GameObject[] _replacementBrandingObjects
-    ::ArrayWrapper<UnityEngine::GameObject*>& dyn__replacementBrandingObjects();
+    ::ArrayW<UnityEngine::GameObject*>& dyn__replacementBrandingObjects();
     // Get instance field reference: private readonly EnvironmentBrandingManager/InitData _initData
     GlobalNamespace::EnvironmentBrandingManager::InitData*& dyn__initData();
     // protected System.Void Start()

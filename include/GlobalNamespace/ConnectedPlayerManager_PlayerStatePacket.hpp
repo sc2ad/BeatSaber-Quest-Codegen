@@ -41,12 +41,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ConnectedPlayerManager::PlayerStatePacket : public ::Il2CppObject/*, public LiteNetLib::Utils::INetSerializable, public GlobalNamespace::IPoolablePacket*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public PlayerStateHash playerState
     // Size: 0x10
     // Offset: 0x10
     GlobalNamespace::PlayerStateHash playerState;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerStateHash) == 0x10);
+    public:
     // Creating interface conversion operator: operator LiteNetLib::Utils::INetSerializable
     operator LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<LiteNetLib::Utils::INetSerializable*>(this);

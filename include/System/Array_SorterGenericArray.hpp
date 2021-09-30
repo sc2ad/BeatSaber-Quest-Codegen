@@ -26,6 +26,11 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Array::SorterGenericArray/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Array keys
     // Size: 0x8
     // Offset: 0x0
@@ -44,6 +49,7 @@ namespace System {
     System::Collections::IComparer* comparer;
     // Field size check
     static_assert(sizeof(System::Collections::IComparer*) == 0x8);
+    public:
     // Creating value type constructor for type: SorterGenericArray
     constexpr SorterGenericArray(System::Array* keys_ = {}, System::Array* items_ = {}, System::Collections::IComparer* comparer_ = {}) noexcept : keys{keys_}, items{items_}, comparer{comparer_} {}
     // Creating interface conversion operator: operator System::ValueType

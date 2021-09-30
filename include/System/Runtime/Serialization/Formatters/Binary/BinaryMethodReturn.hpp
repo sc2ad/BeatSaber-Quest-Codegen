@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -32,6 +33,11 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   // [TokenAttribute] Offset: FFFFFFFF
   class BinaryMethodReturn : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Object returnValue
     // Size: 0x8
     // Offset: 0x10
@@ -41,9 +47,9 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // private System.Object[] args
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<::Il2CppObject*> args;
+    ::ArrayW<::Il2CppObject*> args;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppObject*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppObject*>) == 0x8);
     // private System.Object callContext
     // Size: 0x8
     // Offset: 0x20
@@ -53,9 +59,9 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // private System.Type[] argTypes
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<System::Type*> argTypes;
+    ::ArrayW<System::Type*> argTypes;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<System::Type*>) == 0x8);
+    static_assert(sizeof(::ArrayW<System::Type*>) == 0x8);
     // private System.Boolean bArgsPrimitive
     // Size: 0x1
     // Offset: 0x30
@@ -76,6 +82,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     System::Type* returnType;
     // Field size check
     static_assert(sizeof(System::Type*) == 0x8);
+    public:
     // Get static field: static private System.Object instanceOfVoid
     static ::Il2CppObject* _get_instanceOfVoid();
     // Set static field: static private System.Object instanceOfVoid
@@ -83,11 +90,11 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: private System.Object returnValue
     ::Il2CppObject*& dyn_returnValue();
     // Get instance field reference: private System.Object[] args
-    ::ArrayWrapper<::Il2CppObject*>& dyn_args();
+    ::ArrayW<::Il2CppObject*>& dyn_args();
     // Get instance field reference: private System.Object callContext
     ::Il2CppObject*& dyn_callContext();
     // Get instance field reference: private System.Type[] argTypes
-    ::ArrayWrapper<System::Type*>& dyn_argTypes();
+    ::ArrayW<System::Type*>& dyn_argTypes();
     // Get instance field reference: private System.Boolean bArgsPrimitive
     bool& dyn_bArgsPrimitive();
     // Get instance field reference: private System.Runtime.Serialization.Formatters.Binary.MessageEnum messageEnum

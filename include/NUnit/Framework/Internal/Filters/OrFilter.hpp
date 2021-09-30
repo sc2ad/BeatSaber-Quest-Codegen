@@ -12,6 +12,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework::Interfaces
@@ -50,7 +51,7 @@ namespace NUnit::Framework::Internal::Filters {
     // Implemented from: NUnit.Framework.Internal.Filters.CompositeFilter
     // Base method: System.Void CompositeFilter::.ctor(params NUnit.Framework.Interfaces.ITestFilter[] filters)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static OrFilter* New_ctor(::ArrayWrapper<NUnit::Framework::Interfaces::ITestFilter*> filters) {
+    static OrFilter* New_ctor(::ArrayW<NUnit::Framework::Interfaces::ITestFilter*> filters) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Filters::OrFilter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<OrFilter*, creationType>(filters)));
     }

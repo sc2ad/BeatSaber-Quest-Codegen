@@ -16,6 +16,11 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HAPI_ThriftServerOptions/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Boolean autoClose
     // Size: 0x1
     // Offset: 0x0
@@ -30,6 +35,7 @@ namespace HoudiniEngineUnity {
     float timeoutMs;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: HAPI_ThriftServerOptions
     constexpr HAPI_ThriftServerOptions(bool autoClose_ = {}, float timeoutMs_ = {}) noexcept : autoClose{autoClose_}, timeoutMs{timeoutMs_} {}
     // Creating interface conversion operator: operator System::ValueType

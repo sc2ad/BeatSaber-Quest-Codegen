@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Asn1
@@ -39,6 +40,11 @@ namespace Org::BouncyCastle::Asn1 {
     public:
     // Nested type: Org::BouncyCastle::Asn1::BerOctetString::ChunkEnumerator
     class ChunkEnumerator;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Int32 chunkSize
     // Size: 0x4
     // Offset: 0x18
@@ -50,15 +56,16 @@ namespace Org::BouncyCastle::Asn1 {
     // private readonly Org.BouncyCastle.Asn1.Asn1OctetString[] octs
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<Org::BouncyCastle::Asn1::Asn1OctetString*> octs;
+    ::ArrayW<Org::BouncyCastle::Asn1::Asn1OctetString*> octs;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<Org::BouncyCastle::Asn1::Asn1OctetString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<Org::BouncyCastle::Asn1::Asn1OctetString*>) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Collections::IEnumerable
     operator System::Collections::IEnumerable() noexcept {
       return *reinterpret_cast<System::Collections::IEnumerable*>(this);
     }
-    // Deleting conversion operator: operator ::ArrayWrapper<uint8_t>
-    constexpr operator ::ArrayWrapper<uint8_t>() const noexcept = delete;
+    // Deleting conversion operator: operator ::ArrayW<uint8_t>
+    constexpr operator ::ArrayW<uint8_t>() const noexcept = delete;
     // Get static field: static private readonly System.Int32 DefaultChunkSize
     static int _get_DefaultChunkSize();
     // Set static field: static private readonly System.Int32 DefaultChunkSize
@@ -66,32 +73,32 @@ namespace Org::BouncyCastle::Asn1 {
     // Get instance field reference: private readonly System.Int32 chunkSize
     int& dyn_chunkSize();
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.Asn1OctetString[] octs
-    ::ArrayWrapper<Org::BouncyCastle::Asn1::Asn1OctetString*>& dyn_octs();
+    ::ArrayW<Org::BouncyCastle::Asn1::Asn1OctetString*>& dyn_octs();
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1OctetString[] octs)
     // Offset: 0x18DF9D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static BerOctetString* New_ctor(::ArrayWrapper<Org::BouncyCastle::Asn1::Asn1OctetString*> octs) {
+    static BerOctetString* New_ctor(::ArrayW<Org::BouncyCastle::Asn1::Asn1OctetString*> octs) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::BerOctetString::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BerOctetString*, creationType>(octs)));
     }
     // public System.Void .ctor(System.Byte[] str, System.Int32 chunkSize)
     // Offset: 0x18E6A50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static BerOctetString* New_ctor(::ArrayWrapper<uint8_t> str, int chunkSize) {
+    static BerOctetString* New_ctor(::ArrayW<uint8_t> str, int chunkSize) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::BerOctetString::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BerOctetString*, creationType>(str, chunkSize)));
     }
     // public System.Void .ctor(Org.BouncyCastle.Asn1.Asn1OctetString[] octs, System.Int32 chunkSize)
     // Offset: 0x18E6A7C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static BerOctetString* New_ctor(::ArrayWrapper<Org::BouncyCastle::Asn1::Asn1OctetString*> octs, int chunkSize) {
+    static BerOctetString* New_ctor(::ArrayW<Org::BouncyCastle::Asn1::Asn1OctetString*> octs, int chunkSize) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::BerOctetString::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BerOctetString*, creationType>(octs, chunkSize)));
     }
     // private System.Void .ctor(System.Byte[] str, Org.BouncyCastle.Asn1.Asn1OctetString[] octs, System.Int32 chunkSize)
     // Offset: 0x18E6B08
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static BerOctetString* New_ctor(::ArrayWrapper<uint8_t> str, ::ArrayWrapper<Org::BouncyCastle::Asn1::Asn1OctetString*> octs, int chunkSize) {
+    static BerOctetString* New_ctor(::ArrayW<uint8_t> str, ::ArrayW<Org::BouncyCastle::Asn1::Asn1OctetString*> octs, int chunkSize) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::BerOctetString::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BerOctetString*, creationType>(str, octs, chunkSize)));
     }
@@ -103,7 +110,7 @@ namespace Org::BouncyCastle::Asn1 {
     static Org::BouncyCastle::Asn1::BerOctetString* FromSequence(Org::BouncyCastle::Asn1::Asn1Sequence* seq);
     // static private System.Byte[] ToBytes(Org.BouncyCastle.Asn1.Asn1OctetString[] octs)
     // Offset: 0x18E68D0
-    static ::ArrayWrapper<uint8_t> ToBytes(::ArrayWrapper<Org::BouncyCastle::Asn1::Asn1OctetString*> octs);
+    static ::ArrayW<uint8_t> ToBytes(::ArrayW<Org::BouncyCastle::Asn1::Asn1OctetString*> octs);
     // public System.Collections.IEnumerator GetEnumerator()
     // Offset: 0x18E6B40
     System::Collections::IEnumerator* GetEnumerator();
@@ -113,7 +120,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Base method: System.Void DerOctetString::.ctor(System.Byte[] str)
     // Base method: System.Void Asn1OctetString::.ctor(System.Byte[] str)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static BerOctetString* New_ctor(::ArrayWrapper<uint8_t> str) {
+    static BerOctetString* New_ctor(::ArrayW<uint8_t> str) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::BerOctetString::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BerOctetString*, creationType>(str)));
     }
@@ -124,7 +131,7 @@ namespace Org::BouncyCastle::Asn1 {
     void Encode(Org::BouncyCastle::Asn1::DerOutputStream* derOut);
   }; // Org.BouncyCastle.Asn1.BerOctetString
   #pragma pack(pop)
-  static check_size<sizeof(BerOctetString), 32 + sizeof(::ArrayWrapper<Org::BouncyCastle::Asn1::Asn1OctetString*>)> __Org_BouncyCastle_Asn1_BerOctetStringSizeCheck;
+  static check_size<sizeof(BerOctetString), 32 + sizeof(::ArrayW<Org::BouncyCastle::Asn1::Asn1OctetString*>)> __Org_BouncyCastle_Asn1_BerOctetStringSizeCheck;
   static_assert(sizeof(BerOctetString) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::BerOctetString*, "Org.BouncyCastle.Asn1", "BerOctetString");
@@ -165,7 +172,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::BerOctetString::ToBytes
 // Il2CppName: ToBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(::ArrayWrapper<Org::BouncyCastle::Asn1::Asn1OctetString*>)>(&Org::BouncyCastle::Asn1::BerOctetString::ToBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(::ArrayW<Org::BouncyCastle::Asn1::Asn1OctetString*>)>(&Org::BouncyCastle::Asn1::BerOctetString::ToBytes)> {
   static const MethodInfo* get() {
     static auto* octs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Asn1", "Asn1OctetString"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::BerOctetString*), "ToBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{octs});

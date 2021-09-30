@@ -21,6 +21,11 @@ namespace JetBrains::Annotations {
   // [AttributeUsageAttribute] Offset: EAD708
   class ContractAnnotationAttribute : public System::Attribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String <Contract>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -33,6 +38,7 @@ namespace JetBrains::Annotations {
     bool ForceFullStates;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private System.String <Contract>k__BackingField
     ::Il2CppString*& dyn_$Contract$k__BackingField();
     // Get instance field reference: private System.Boolean <ForceFullStates>k__BackingField

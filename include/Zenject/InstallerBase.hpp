@@ -27,6 +27,11 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class InstallerBase : public ::Il2CppObject/*, public Zenject::IInstaller*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xEC3F3C
     // private Zenject.DiContainer _container
     // Size: 0x8
@@ -34,6 +39,7 @@ namespace Zenject {
     Zenject::DiContainer* container;
     // Field size check
     static_assert(sizeof(Zenject::DiContainer*) == 0x8);
+    public:
     // Creating interface conversion operator: operator Zenject::IInstaller
     operator Zenject::IInstaller() noexcept {
       return *reinterpret_cast<Zenject::IInstaller*>(this);

@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -32,6 +33,11 @@ namespace RootMotion::FinalIK {
   // [AddComponentMenu] Offset: EF1278
   class RotationLimitSpline : public RootMotion::FinalIK::RotationLimit {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [RangeAttribute] Offset: 0xEF3FB4
     // public System.Single twistLimit
     // Size: 0x4
@@ -47,6 +53,7 @@ namespace RootMotion::FinalIK {
     UnityEngine::AnimationCurve* spline;
     // Field size check
     static_assert(sizeof(UnityEngine::AnimationCurve*) == 0x8);
+    public:
     // Get instance field reference: public System.Single twistLimit
     float& dyn_twistLimit();
     // Get instance field reference: public UnityEngine.AnimationCurve spline
@@ -65,7 +72,7 @@ namespace RootMotion::FinalIK {
     void ASThread();
     // public System.Void SetSpline(UnityEngine.Keyframe[] keyframes)
     // Offset: 0x1C65C24
-    void SetSpline(::ArrayWrapper<UnityEngine::Keyframe> keyframes);
+    void SetSpline(::ArrayW<UnityEngine::Keyframe> keyframes);
     // public UnityEngine.Quaternion LimitSwing(UnityEngine.Quaternion rotation)
     // Offset: 0x1C65CF8
     UnityEngine::Quaternion LimitSwing(UnityEngine::Quaternion rotation);
@@ -130,7 +137,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::RotationLimitSpline::SetSpline
 // Il2CppName: SetSpline
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::RotationLimitSpline::*)(::ArrayWrapper<UnityEngine::Keyframe>)>(&RootMotion::FinalIK::RotationLimitSpline::SetSpline)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::RotationLimitSpline::*)(::ArrayW<UnityEngine::Keyframe>)>(&RootMotion::FinalIK::RotationLimitSpline::SetSpline)> {
   static const MethodInfo* get() {
     static auto* keyframes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Keyframe"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::RotationLimitSpline*), "SetSpline", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{keyframes});

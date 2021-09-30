@@ -64,6 +64,11 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_VolumeCache : public UnityEngine::ScriptableObject/*, public HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_VolumeCache*>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private HoudiniEngineUnity.HEU_GeoNode _ownerNode
     // Size: 0x8
     // Offset: 0x18
@@ -134,6 +139,7 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::HEU_DetailProperties* detailProperties;
     // Field size check
     static_assert(sizeof(HoudiniEngineUnity::HEU_DetailProperties*) == 0x8);
+    public:
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_VolumeCache*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_VolumeCache*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_VolumeCache*>*>(this);

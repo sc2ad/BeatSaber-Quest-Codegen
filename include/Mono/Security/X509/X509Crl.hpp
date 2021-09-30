@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Mono::Security::X509
@@ -46,6 +47,11 @@ namespace Mono::Security::X509 {
     public:
     // Nested type: Mono::Security::X509::X509Crl::X509CrlEntry
     class X509CrlEntry;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String issuer
     // Size: 0x8
     // Offset: 0x10
@@ -87,9 +93,9 @@ namespace Mono::Security::X509 {
     // private System.Byte[] signature
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayWrapper<uint8_t> signature;
+    ::ArrayW<uint8_t> signature;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private Mono.Security.X509.X509ExtensionCollection extensions
     // Size: 0x8
     // Offset: 0x48
@@ -99,15 +105,16 @@ namespace Mono::Security::X509 {
     // private System.Byte[] encoded
     // Size: 0x8
     // Offset: 0x50
-    ::ArrayWrapper<uint8_t> encoded;
+    ::ArrayW<uint8_t> encoded;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Byte[] hash_value
     // Size: 0x8
     // Offset: 0x58
-    ::ArrayWrapper<uint8_t> hash_value;
+    ::ArrayW<uint8_t> hash_value;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
+    public:
     // Get instance field reference: private System.String issuer
     ::Il2CppString*& dyn_issuer();
     // Get instance field reference: private System.Byte version
@@ -121,19 +128,19 @@ namespace Mono::Security::X509 {
     // Get instance field reference: private System.String signatureOID
     ::Il2CppString*& dyn_signatureOID();
     // Get instance field reference: private System.Byte[] signature
-    ::ArrayWrapper<uint8_t>& dyn_signature();
+    ::ArrayW<uint8_t>& dyn_signature();
     // Get instance field reference: private Mono.Security.X509.X509ExtensionCollection extensions
     Mono::Security::X509::X509ExtensionCollection*& dyn_extensions();
     // Get instance field reference: private System.Byte[] encoded
-    ::ArrayWrapper<uint8_t>& dyn_encoded();
+    ::ArrayW<uint8_t>& dyn_encoded();
     // Get instance field reference: private System.Byte[] hash_value
-    ::ArrayWrapper<uint8_t>& dyn_hash_value();
+    ::ArrayW<uint8_t>& dyn_hash_value();
     // public Mono.Security.X509.X509ExtensionCollection get_Extensions()
     // Offset: 0x25DFA14
     Mono::Security::X509::X509ExtensionCollection* get_Extensions();
     // public System.Byte[] get_Hash()
     // Offset: 0x25DFA1C
-    ::ArrayWrapper<uint8_t> get_Hash();
+    ::ArrayW<uint8_t> get_Hash();
     // public System.String get_IssuerName()
     // Offset: 0x25DFBB4
     ::Il2CppString* get_IssuerName();
@@ -143,22 +150,22 @@ namespace Mono::Security::X509 {
     // public System.Void .ctor(System.Byte[] crl)
     // Offset: 0x25DF1E4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static X509Crl* New_ctor(::ArrayWrapper<uint8_t> crl) {
+    static X509Crl* New_ctor(::ArrayW<uint8_t> crl) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::X509::X509Crl::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Crl*, creationType>(crl)));
     }
     // private System.Void Parse(System.Byte[] crl)
     // Offset: 0x25DF2BC
-    void Parse(::ArrayWrapper<uint8_t> crl);
+    void Parse(::ArrayW<uint8_t> crl);
     // private System.Boolean Compare(System.Byte[] array1, System.Byte[] array2)
     // Offset: 0x25DFBC4
-    bool Compare(::ArrayWrapper<uint8_t> array1, ::ArrayWrapper<uint8_t> array2);
+    bool Compare(::ArrayW<uint8_t> array1, ::ArrayW<uint8_t> array2);
     // public Mono.Security.X509.X509Crl/Mono.Security.X509.X509CrlEntry GetCrlEntry(Mono.Security.X509.X509Certificate x509)
     // Offset: 0x25DFC44
     Mono::Security::X509::X509Crl::X509CrlEntry* GetCrlEntry(Mono::Security::X509::X509Certificate* x509);
     // public Mono.Security.X509.X509Crl/Mono.Security.X509.X509CrlEntry GetCrlEntry(System.Byte[] serialNumber)
     // Offset: 0x25DFCEC
-    Mono::Security::X509::X509Crl::X509CrlEntry* GetCrlEntry(::ArrayWrapper<uint8_t> serialNumber);
+    Mono::Security::X509::X509Crl::X509CrlEntry* GetCrlEntry(::ArrayW<uint8_t> serialNumber);
     // System.Boolean VerifySignature(System.Security.Cryptography.DSA dsa)
     // Offset: 0x25DFEB4
     bool VerifySignature(System::Security::Cryptography::DSA* dsa);
@@ -170,7 +177,7 @@ namespace Mono::Security::X509 {
     bool VerifySignature(System::Security::Cryptography::AsymmetricAlgorithm* aa);
   }; // Mono.Security.X509.X509Crl
   #pragma pack(pop)
-  static check_size<sizeof(X509Crl), 88 + sizeof(::ArrayWrapper<uint8_t>)> __Mono_Security_X509_X509CrlSizeCheck;
+  static check_size<sizeof(X509Crl), 88 + sizeof(::ArrayW<uint8_t>)> __Mono_Security_X509_X509CrlSizeCheck;
   static_assert(sizeof(X509Crl) == 0x60);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::X509Crl*, "Mono.Security.X509", "X509Crl");
@@ -186,7 +193,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Secur
 // Writing MetadataGetter for method: Mono::Security::X509::X509Crl::get_Hash
 // Il2CppName: get_Hash
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Mono::Security::X509::X509Crl::*)()>(&Mono::Security::X509::X509Crl::get_Hash)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Mono::Security::X509::X509Crl::*)()>(&Mono::Security::X509::X509Crl::get_Hash)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Crl*), "get_Hash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -214,7 +221,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: Mono::Security::X509::X509Crl::Parse
 // Il2CppName: Parse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::X509::X509Crl::*)(::ArrayWrapper<uint8_t>)>(&Mono::Security::X509::X509Crl::Parse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::X509::X509Crl::*)(::ArrayW<uint8_t>)>(&Mono::Security::X509::X509Crl::Parse)> {
   static const MethodInfo* get() {
     static auto* crl = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Crl*), "Parse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{crl});
@@ -223,7 +230,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Security::X509::X509Crl::Compare
 // Il2CppName: Compare
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Security::X509::X509Crl::*)(::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>)>(&Mono::Security::X509::X509Crl::Compare)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Security::X509::X509Crl::*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(&Mono::Security::X509::X509Crl::Compare)> {
   static const MethodInfo* get() {
     static auto* array1 = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* array2 = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -242,7 +249,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Secur
 // Writing MetadataGetter for method: Mono::Security::X509::X509Crl::GetCrlEntry
 // Il2CppName: GetCrlEntry
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::X509::X509Crl::X509CrlEntry* (Mono::Security::X509::X509Crl::*)(::ArrayWrapper<uint8_t>)>(&Mono::Security::X509::X509Crl::GetCrlEntry)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::X509::X509Crl::X509CrlEntry* (Mono::Security::X509::X509Crl::*)(::ArrayW<uint8_t>)>(&Mono::Security::X509::X509Crl::GetCrlEntry)> {
   static const MethodInfo* get() {
     static auto* serialNumber = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Crl*), "GetCrlEntry", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{serialNumber});

@@ -22,6 +22,11 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E8B75C
   struct HumanLimit/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Vector3 m_Min
     // Size: 0xC
     // Offset: 0x0
@@ -52,6 +57,7 @@ namespace UnityEngine {
     int m_UseDefaultValues;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: HumanLimit
     constexpr HumanLimit(UnityEngine::Vector3 m_Min_ = {}, UnityEngine::Vector3 m_Max_ = {}, UnityEngine::Vector3 m_Center_ = {}, float m_AxisLength_ = {}, int m_UseDefaultValues_ = {}) noexcept : m_Min{m_Min_}, m_Max{m_Max_}, m_Center{m_Center_}, m_AxisLength{m_AxisLength_}, m_UseDefaultValues{m_UseDefaultValues_} {}
     // Creating interface conversion operator: operator System::ValueType

@@ -27,6 +27,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRDebugHeadController : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Boolean AllowPitchLook
     // Size: 0x1
     // Offset: 0x18
@@ -85,6 +90,7 @@ namespace GlobalNamespace {
     GlobalNamespace::OVRCameraRig* CameraRig;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OVRCameraRig*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.Boolean AllowPitchLook

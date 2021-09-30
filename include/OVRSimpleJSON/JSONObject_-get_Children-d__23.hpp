@@ -37,6 +37,11 @@ namespace OVRSimpleJSON {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class JSONObject::$get_Children$d__23 : public ::Il2CppObject/*, public System::Collections::Generic::IEnumerable_1<OVRSimpleJSON::JSONNode*>, public System::Collections::Generic::IEnumerator_1<OVRSimpleJSON::JSONNode*>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -65,6 +70,7 @@ namespace OVRSimpleJSON {
     // Size: 0xFFFFFFFF
     // Offset: 0x30
     typename System::Collections::Generic::Dictionary_2<::Il2CppString*, OVRSimpleJSON::JSONNode*>::Enumerator $$7__wrap1;
+    public:
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<OVRSimpleJSON::JSONNode*>
     operator System::Collections::Generic::IEnumerable_1<OVRSimpleJSON::JSONNode*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<OVRSimpleJSON::JSONNode*>*>(this);

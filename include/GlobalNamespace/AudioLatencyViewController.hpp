@@ -50,6 +50,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class AudioLatencyViewController : public HMUI::ViewController {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private FloatSO _audioLatency
     // Size: 0x8
     // Offset: 0x70
@@ -109,6 +114,7 @@ namespace GlobalNamespace {
     HMUI::ToggleBinder* toggleBinder;
     // Field size check
     static_assert(sizeof(HMUI::ToggleBinder*) == 0x8);
+    public:
     // Get instance field reference: private FloatSO _audioLatency
     GlobalNamespace::FloatSO*& dyn__audioLatency();
     // Get instance field reference: private BoolSO _overrideAudioLatency

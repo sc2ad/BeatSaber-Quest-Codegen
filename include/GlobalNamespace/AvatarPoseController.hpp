@@ -45,6 +45,11 @@ namespace GlobalNamespace {
     class LatePositionsWillBeSetDelegate;
     // Nested type: GlobalNamespace::AvatarPoseController::RotationsWillBeSetDelegate
     class RotationsWillBeSetDelegate;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // protected UnityEngine.Transform _headTransform
     // Size: 0x8
     // Offset: 0x18
@@ -99,6 +104,7 @@ namespace GlobalNamespace {
     System::Action_1<UnityEngine::Vector3>* didUpdatePoseEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<UnityEngine::Vector3>*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: protected UnityEngine.Transform _headTransform

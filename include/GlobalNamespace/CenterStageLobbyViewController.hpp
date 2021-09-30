@@ -31,6 +31,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class CenterStageLobbyViewController : public HMUI::ViewController {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private BeatmapSelectionView _beatmapSelectionView
     // Size: 0x8
     // Offset: 0x70
@@ -43,6 +48,7 @@ namespace GlobalNamespace {
     GlobalNamespace::ModifiersSelectionView* modifiersSelectionView;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ModifiersSelectionView*) == 0x8);
+    public:
     // Get instance field reference: private BeatmapSelectionView _beatmapSelectionView
     GlobalNamespace::BeatmapSelectionView*& dyn__beatmapSelectionView();
     // Get instance field reference: private ModifiersSelectionView _modifiersSelectionView

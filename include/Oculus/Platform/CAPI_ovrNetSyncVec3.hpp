@@ -19,6 +19,11 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   struct CAPI::ovrNetSyncVec3/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Single x
     // Size: 0x4
     // Offset: 0x0
@@ -37,6 +42,7 @@ namespace Oculus::Platform {
     float z;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: ovrNetSyncVec3
     constexpr ovrNetSyncVec3(float x_ = {}, float y_ = {}, float z_ = {}) noexcept : x{x_}, y{y_}, z{z_} {}
     // Creating interface conversion operator: operator System::ValueType

@@ -18,6 +18,11 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class MonoListItem : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.MonoListItem next
     // Size: 0x8
     // Offset: 0x10
@@ -30,6 +35,7 @@ namespace System {
     ::Il2CppObject* data;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
+    public:
     // Get instance field reference: private System.MonoListItem next
     System::MonoListItem*& dyn_next();
     // Get instance field reference: private System.Object data

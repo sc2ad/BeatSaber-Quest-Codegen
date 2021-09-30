@@ -44,6 +44,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerBadgeDataSO : public UnityEngine::ScriptableObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [LocalizationKeyAttribute] Offset: 0xF08268
     // private System.String _titleLocalizationKey
     // Size: 0x8
@@ -64,6 +69,7 @@ namespace GlobalNamespace {
     UnityEngine::Sprite* icon;
     // Field size check
     static_assert(sizeof(UnityEngine::Sprite*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _titleLocalizationKey

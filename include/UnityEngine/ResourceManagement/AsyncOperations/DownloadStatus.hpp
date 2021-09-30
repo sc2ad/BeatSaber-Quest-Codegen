@@ -17,6 +17,11 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
   // [TokenAttribute] Offset: FFFFFFFF
   struct DownloadStatus/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int64 TotalBytes
     // Size: 0x8
     // Offset: 0x0
@@ -35,6 +40,7 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     bool IsDone;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating value type constructor for type: DownloadStatus
     constexpr DownloadStatus(int64_t TotalBytes_ = {}, int64_t DownloadedBytes_ = {}, bool IsDone_ = {}) noexcept : TotalBytes{TotalBytes_}, DownloadedBytes{DownloadedBytes_}, IsDone{IsDone_} {}
     // Creating interface conversion operator: operator System::ValueType

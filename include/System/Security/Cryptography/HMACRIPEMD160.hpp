@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: System.Security.Cryptography
 namespace System::Security::Cryptography {
@@ -24,7 +25,7 @@ namespace System::Security::Cryptography {
     // public System.Void .ctor(System.Byte[] key)
     // Offset: 0x1A76A20
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static HMACRIPEMD160* New_ctor(::ArrayWrapper<uint8_t> key) {
+    static HMACRIPEMD160* New_ctor(::ArrayW<uint8_t> key) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::HMACRIPEMD160::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<HMACRIPEMD160*, creationType>(key)));
     }

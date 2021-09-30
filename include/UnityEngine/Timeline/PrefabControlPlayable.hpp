@@ -41,12 +41,18 @@ namespace UnityEngine::Timeline {
   // [TokenAttribute] Offset: FFFFFFFF
   class PrefabControlPlayable : public UnityEngine::Playables::PlayableBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.GameObject m_Instance
     // Size: 0x8
     // Offset: 0x10
     UnityEngine::GameObject* m_Instance;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
+    public:
     // Creating conversion operator: operator UnityEngine::GameObject*
     constexpr operator UnityEngine::GameObject*() const noexcept {
       return m_Instance;

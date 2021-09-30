@@ -31,6 +31,11 @@ namespace GlobalNamespace {
     public:
     // Writing base type padding for base size: 0x29 to desired offset: 0x30
     char ___base_padding[0x7] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Light _light
     // Size: 0x8
     // Offset: 0x30
@@ -49,6 +54,7 @@ namespace GlobalNamespace {
     float minAlpha;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: private UnityEngine.Light _light
     UnityEngine::Light*& dyn__light();
     // Get instance field reference: private System.Single _intensity

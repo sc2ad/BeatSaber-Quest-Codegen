@@ -22,6 +22,11 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class PartyUpdateNotification : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly Oculus.Platform.PartyUpdateAction Action
     // Size: 0x4
     // Offset: 0x10
@@ -66,6 +71,7 @@ namespace Oculus::Platform::Models {
     ::Il2CppString* UserName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: public readonly Oculus.Platform.PartyUpdateAction Action
     Oculus::Platform::PartyUpdateAction& dyn_Action();
     // Get instance field reference: public readonly System.UInt64 PartyId

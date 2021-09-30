@@ -22,6 +22,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class CreditsData::Text : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.String text
     // Size: 0x8
     // Offset: 0x10
@@ -42,6 +47,7 @@ namespace GlobalNamespace {
     GlobalNamespace::CreditsData::TextStyle style;
     // Field size check
     static_assert(sizeof(GlobalNamespace::CreditsData::TextStyle) == 0x4);
+    public:
     // Get instance field reference: public System.String text
     ::Il2CppString*& dyn_text();
     // Get instance field reference: public System.Boolean localized

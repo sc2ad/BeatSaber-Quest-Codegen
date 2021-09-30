@@ -27,12 +27,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LanguageSettingsController : public GlobalNamespace::DropdownSettingsController {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private LanguageSO _settingsValue
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::LanguageSO* settingsValue;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LanguageSO*) == 0x8);
+    public:
     // Get instance field reference: private LanguageSO _settingsValue
     GlobalNamespace::LanguageSO*& dyn__settingsValue();
     // public System.Void .ctor()

@@ -28,6 +28,11 @@ namespace UnityEngine::EventSystems {
   // [AddComponentMenu] Offset: EA8988
   class TouchInputModule : public UnityEngine::EventSystems::PointerInputModule {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Vector2 m_LastMousePosition
     // Size: 0x8
     // Offset: 0x58
@@ -53,6 +58,7 @@ namespace UnityEngine::EventSystems {
     bool m_ForceModuleActive;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private UnityEngine.Vector2 m_LastMousePosition
     UnityEngine::Vector2& dyn_m_LastMousePosition();
     // Get instance field reference: private UnityEngine.Vector2 m_MousePosition

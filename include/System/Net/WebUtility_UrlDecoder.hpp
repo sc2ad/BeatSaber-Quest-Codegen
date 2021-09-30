@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text
@@ -27,6 +28,11 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class WebUtility::UrlDecoder : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 _bufferSize
     // Size: 0x4
     // Offset: 0x10
@@ -42,9 +48,9 @@ namespace System::Net {
     // private System.Char[] _charBuffer
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<::Il2CppChar> charBuffer;
+    ::ArrayW<::Il2CppChar> charBuffer;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppChar>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppChar>) == 0x8);
     // private System.Int32 _numBytes
     // Size: 0x4
     // Offset: 0x20
@@ -56,25 +62,26 @@ namespace System::Net {
     // private System.Byte[] _byteBuffer
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<uint8_t> byteBuffer;
+    ::ArrayW<uint8_t> byteBuffer;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Text.Encoding _encoding
     // Size: 0x8
     // Offset: 0x30
     System::Text::Encoding* encoding;
     // Field size check
     static_assert(sizeof(System::Text::Encoding*) == 0x8);
+    public:
     // Get instance field reference: private System.Int32 _bufferSize
     int& dyn__bufferSize();
     // Get instance field reference: private System.Int32 _numChars
     int& dyn__numChars();
     // Get instance field reference: private System.Char[] _charBuffer
-    ::ArrayWrapper<::Il2CppChar>& dyn__charBuffer();
+    ::ArrayW<::Il2CppChar>& dyn__charBuffer();
     // Get instance field reference: private System.Int32 _numBytes
     int& dyn__numBytes();
     // Get instance field reference: private System.Byte[] _byteBuffer
-    ::ArrayWrapper<uint8_t>& dyn__byteBuffer();
+    ::ArrayW<uint8_t>& dyn__byteBuffer();
     // Get instance field reference: private System.Text.Encoding _encoding
     System::Text::Encoding*& dyn__encoding();
     // System.Void .ctor(System.Int32 bufferSize, System.Text.Encoding encoding)

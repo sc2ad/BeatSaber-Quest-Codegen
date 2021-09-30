@@ -35,6 +35,11 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E70740
   struct Bounds/*, public System::ValueType, public System::IEquatable_1<UnityEngine::Bounds>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Vector3 m_Center
     // Size: 0xC
     // Offset: 0x0
@@ -48,6 +53,7 @@ namespace UnityEngine {
     UnityEngine::Vector3 m_Extents;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    public:
     // Creating value type constructor for type: Bounds
     constexpr Bounds(UnityEngine::Vector3 m_Center_ = {}, UnityEngine::Vector3 m_Extents_ = {}) noexcept : m_Center{m_Center_}, m_Extents{m_Extents_} {}
     // Creating interface conversion operator: operator System::ValueType

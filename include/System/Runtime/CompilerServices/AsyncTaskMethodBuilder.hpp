@@ -47,10 +47,16 @@ namespace System::Runtime::CompilerServices {
   // [TokenAttribute] Offset: FFFFFFFF
   struct AsyncTaskMethodBuilder/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Threading.Tasks.VoidTaskResult> m_builder
     // Size: 0xFFFFFFFF
     // Offset: 0x0
     System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<System::Threading::Tasks::VoidTaskResult> m_builder;
+    public:
     // Creating value type constructor for type: AsyncTaskMethodBuilder
     constexpr AsyncTaskMethodBuilder(System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<System::Threading::Tasks::VoidTaskResult> m_builder_ = {}) noexcept : m_builder{m_builder_} {}
     // Creating interface conversion operator: operator System::ValueType

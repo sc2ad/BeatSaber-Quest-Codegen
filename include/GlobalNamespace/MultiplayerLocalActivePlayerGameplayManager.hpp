@@ -45,6 +45,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::MultiplayerLocalActivePlayerGameplayManager::InitData
     class InitData;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xF08C48
     // private readonly GameSongController _gameSongController
     // Size: 0x8
@@ -121,6 +126,7 @@ namespace GlobalNamespace {
     bool levelFinishedOrFailed;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private readonly GameSongController _gameSongController

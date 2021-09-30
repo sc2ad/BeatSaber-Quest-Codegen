@@ -32,6 +32,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SimpleTextWithIconTableCell : public HMUI::TableCell {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private TMPro.TextMeshProUGUI _text
     // Size: 0x8
     // Offset: 0x50
@@ -44,6 +49,7 @@ namespace GlobalNamespace {
     UnityEngine::UI::Image* icon;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Image*) == 0x8);
+    public:
     // Get instance field reference: private TMPro.TextMeshProUGUI _text
     TMPro::TextMeshProUGUI*& dyn__text();
     // Get instance field reference: private UnityEngine.UI.Image _icon

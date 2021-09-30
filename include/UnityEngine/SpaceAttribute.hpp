@@ -21,12 +21,18 @@ namespace UnityEngine {
   // [AttributeUsageAttribute] Offset: E720E4
   class SpaceAttribute : public UnityEngine::PropertyAttribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly System.Single height
     // Size: 0x4
     // Offset: 0x10
     float height;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating conversion operator: operator float
     constexpr operator float() const noexcept {
       return height;

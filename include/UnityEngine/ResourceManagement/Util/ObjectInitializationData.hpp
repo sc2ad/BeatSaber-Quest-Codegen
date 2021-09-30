@@ -37,6 +37,11 @@ namespace UnityEngine::ResourceManagement::Util {
   // [TokenAttribute] Offset: FFFFFFFF
   struct ObjectInitializationData/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [FormerlySerializedAsAttribute] Offset: 0xEE5998
     // private System.String m_Id
     // Size: 0x8
@@ -60,6 +65,7 @@ namespace UnityEngine::ResourceManagement::Util {
     ::Il2CppString* m_Data;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Creating value type constructor for type: ObjectInitializationData
     constexpr ObjectInitializationData(::Il2CppString* m_Id_ = {}, UnityEngine::ResourceManagement::Util::SerializedType m_ObjectType_ = {}, ::Il2CppString* m_Data_ = {}) noexcept : m_Id{m_Id_}, m_ObjectType{m_ObjectType_}, m_Data{m_Data_} {}
     // Creating interface conversion operator: operator System::ValueType

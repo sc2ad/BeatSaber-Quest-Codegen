@@ -8,6 +8,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Int32
 #include "System/Int32.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -110,7 +111,7 @@ namespace System {
     static ::Il2CppString* GetResourceString(::Il2CppString* key);
     // static System.String GetResourceString(System.String key, params System.Object[] values)
     // Offset: 0x199FCDC
-    static ::Il2CppString* GetResourceString(::Il2CppString* key, ::ArrayWrapper<::Il2CppObject*> values);
+    static ::Il2CppString* GetResourceString(::Il2CppString* key, ::ArrayW<::Il2CppObject*> values);
     // static System.String GetResourceStringEncodingName(System.Int32 codePage)
     // Offset: 0x19A4C28
     static ::Il2CppString* GetResourceStringEncodingName(int codePage);
@@ -131,7 +132,7 @@ namespace System {
     static ::Il2CppString* ExpandEnvironmentVariables(::Il2CppString* name);
     // static public System.String[] GetCommandLineArgs()
     // Offset: 0x19A553C
-    static ::ArrayWrapper<::Il2CppString*> GetCommandLineArgs();
+    static ::ArrayW<::Il2CppString*> GetCommandLineArgs();
     // static System.String internalGetEnvironmentVariable_native(System.IntPtr variable)
     // Offset: 0x19A5540
     static ::Il2CppString* internalGetEnvironmentVariable_native(System::IntPtr variable);
@@ -164,7 +165,7 @@ namespace System {
     static ::Il2CppString* UnixGetFolderPath(System::Environment::SpecialFolder folder, System::Environment::SpecialFolderOption option);
     // static public System.String[] GetLogicalDrives()
     // Offset: 0x19A5F6C
-    static ::ArrayWrapper<::Il2CppString*> GetLogicalDrives();
+    static ::ArrayW<::Il2CppString*> GetLogicalDrives();
     // static public System.String GetEnvironmentVariable(System.String variable, System.EnvironmentVariableTarget target)
     // Offset: 0x19A5F74
     static ::Il2CppString* GetEnvironmentVariable(::Il2CppString* variable, System::EnvironmentVariableTarget target);
@@ -179,10 +180,10 @@ namespace System {
     static void FailFast(::Il2CppString* message, System::Exception* exception);
     // static private System.String[] GetLogicalDrivesInternal()
     // Offset: 0x19A5F70
-    static ::ArrayWrapper<::Il2CppString*> GetLogicalDrivesInternal();
+    static ::ArrayW<::Il2CppString*> GetLogicalDrivesInternal();
     // static private System.String[] GetEnvironmentVariableNames()
     // Offset: 0x19A55E0
-    static ::ArrayWrapper<::Il2CppString*> GetEnvironmentVariableNames();
+    static ::ArrayW<::Il2CppString*> GetEnvironmentVariableNames();
     // static System.String GetMachineConfigPath()
     // Offset: 0x19A61A4
     static ::Il2CppString* GetMachineConfigPath();
@@ -333,7 +334,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Environment::GetResourceString
 // Il2CppName: GetResourceString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::ArrayWrapper<::Il2CppObject*>)>(&System::Environment::GetResourceString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::ArrayW<::Il2CppObject*>)>(&System::Environment::GetResourceString)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
@@ -395,7 +396,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Environment::GetCommandLineArgs
 // Il2CppName: GetCommandLineArgs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppString*> (*)()>(&System::Environment::GetCommandLineArgs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (*)()>(&System::Environment::GetCommandLineArgs)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Environment*), "GetCommandLineArgs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -496,7 +497,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Environment::GetLogicalDrives
 // Il2CppName: GetLogicalDrives
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppString*> (*)()>(&System::Environment::GetLogicalDrives)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (*)()>(&System::Environment::GetLogicalDrives)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Environment*), "GetLogicalDrives", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -544,7 +545,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: System::Environment::GetLogicalDrivesInternal
 // Il2CppName: GetLogicalDrivesInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppString*> (*)()>(&System::Environment::GetLogicalDrivesInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (*)()>(&System::Environment::GetLogicalDrivesInternal)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Environment*), "GetLogicalDrivesInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -552,7 +553,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: System::Environment::GetEnvironmentVariableNames
 // Il2CppName: GetEnvironmentVariableNames
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppString*> (*)()>(&System::Environment::GetEnvironmentVariableNames)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (*)()>(&System::Environment::GetEnvironmentVariableNames)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Environment*), "GetEnvironmentVariableNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

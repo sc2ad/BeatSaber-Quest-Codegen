@@ -27,6 +27,11 @@ namespace System::Runtime::Remoting {
   // [TokenAttribute] Offset: FFFFFFFF
   class ProviderData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.String Ref
     // Size: 0x8
     // Offset: 0x10
@@ -57,6 +62,7 @@ namespace System::Runtime::Remoting {
     System::Collections::IList* CustomData;
     // Field size check
     static_assert(sizeof(System::Collections::IList*) == 0x8);
+    public:
     // Get instance field reference: System.String Ref
     ::Il2CppString*& dyn_Ref();
     // Get instance field reference: System.String Type

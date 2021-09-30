@@ -37,6 +37,11 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class SubContainerBinder::$$c__DisplayClass15_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public Zenject.GameObjectCreationParameters gameObjectInfo
     // Size: 0x8
     // Offset: 0x10
@@ -55,6 +60,7 @@ namespace Zenject {
     Zenject::SubContainerBinder* $$4__this;
     // Field size check
     static_assert(sizeof(Zenject::SubContainerBinder*) == 0x8);
+    public:
     // Get instance field reference: public Zenject.GameObjectCreationParameters gameObjectInfo
     Zenject::GameObjectCreationParameters*& dyn_gameObjectInfo();
     // Get instance field reference: public System.Type installerType

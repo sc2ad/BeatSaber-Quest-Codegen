@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -32,6 +33,11 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class MissionResultsViewController::$$c__DisplayClass29_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Boolean levelCleared
     // Size: 0x1
     // Offset: 0x10
@@ -49,23 +55,24 @@ namespace GlobalNamespace {
     // public MissionObjective[] missionObjectives
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<GlobalNamespace::MissionObjective*> missionObjectives;
+    ::ArrayW<GlobalNamespace::MissionObjective*> missionObjectives;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MissionObjective*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::MissionObjective*>) == 0x8);
     // public MissionObjectiveResult[] missionObjectiveResults
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<GlobalNamespace::MissionObjectiveResult*> missionObjectiveResults;
+    ::ArrayW<GlobalNamespace::MissionObjectiveResult*> missionObjectiveResults;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MissionObjectiveResult*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::MissionObjectiveResult*>) == 0x8);
+    public:
     // Get instance field reference: public System.Boolean levelCleared
     bool& dyn_levelCleared();
     // Get instance field reference: public MissionResultsViewController <>4__this
     GlobalNamespace::MissionResultsViewController*& dyn_$$4__this();
     // Get instance field reference: public MissionObjective[] missionObjectives
-    ::ArrayWrapper<GlobalNamespace::MissionObjective*>& dyn_missionObjectives();
+    ::ArrayW<GlobalNamespace::MissionObjective*>& dyn_missionObjectives();
     // Get instance field reference: public MissionObjectiveResult[] missionObjectiveResults
-    ::ArrayWrapper<GlobalNamespace::MissionObjectiveResult*>& dyn_missionObjectiveResults();
+    ::ArrayW<GlobalNamespace::MissionObjectiveResult*>& dyn_missionObjectiveResults();
     // System.Void <SetDataToUI>b__0(System.Int32 idx, ResultObjectiveListItem objectiveListItem)
     // Offset: 0x118D10C
     void $SetDataToUI$b__0(int idx, GlobalNamespace::ResultObjectiveListItem* objectiveListItem);
@@ -80,7 +87,7 @@ namespace GlobalNamespace {
     }
   }; // MissionResultsViewController/<>c__DisplayClass29_0
   #pragma pack(pop)
-  static check_size<sizeof(MissionResultsViewController::$$c__DisplayClass29_0), 40 + sizeof(::ArrayWrapper<GlobalNamespace::MissionObjectiveResult*>)> __GlobalNamespace_MissionResultsViewController_$$c__DisplayClass29_0SizeCheck;
+  static check_size<sizeof(MissionResultsViewController::$$c__DisplayClass29_0), 40 + sizeof(::ArrayW<GlobalNamespace::MissionObjectiveResult*>)> __GlobalNamespace_MissionResultsViewController_$$c__DisplayClass29_0SizeCheck;
   static_assert(sizeof(MissionResultsViewController::$$c__DisplayClass29_0) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionResultsViewController::$$c__DisplayClass29_0*, "", "MissionResultsViewController/<>c__DisplayClass29_0");

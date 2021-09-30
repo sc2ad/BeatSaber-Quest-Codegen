@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Crypto::Parameters
@@ -31,7 +32,7 @@ namespace Org::BouncyCastle::Crypto::Signers {
     public:
     // System.Byte[] GenerateSignature(Org.BouncyCastle.Crypto.Parameters.Ed448PrivateKeyParameters privateKey, System.Byte[] ctx)
     // Offset: 0x139CE64
-    ::ArrayWrapper<uint8_t> GenerateSignature(Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters* privateKey, ::ArrayWrapper<uint8_t> ctx);
+    ::ArrayW<uint8_t> GenerateSignature(Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters* privateKey, ::ArrayW<uint8_t> ctx);
     // System.Void Reset()
     // Offset: 0x139CFDC
     void Reset();
@@ -55,7 +56,7 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Signers::Ed448Signer::Buffer*,
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::Ed448Signer::Buffer::GenerateSignature
 // Il2CppName: GenerateSignature
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Crypto::Signers::Ed448Signer::Buffer::*)(Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters*, ::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Crypto::Signers::Ed448Signer::Buffer::GenerateSignature)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Org::BouncyCastle::Crypto::Signers::Ed448Signer::Buffer::*)(Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters*, ::ArrayW<uint8_t>)>(&Org::BouncyCastle::Crypto::Signers::Ed448Signer::Buffer::GenerateSignature)> {
   static const MethodInfo* get() {
     static auto* privateKey = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Crypto.Parameters", "Ed448PrivateKeyParameters")->byval_arg;
     static auto* ctx = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;

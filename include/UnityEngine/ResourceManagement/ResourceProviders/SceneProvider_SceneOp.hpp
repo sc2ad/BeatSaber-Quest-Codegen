@@ -60,6 +60,11 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   // [TokenAttribute] Offset: FFFFFFFF
   class SceneProvider::SceneOp : public UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>/*, public UnityEngine::ResourceManagement::IUpdateReceiver*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean m_ActivateOnLoad
     // Size: 0x1
     // Offset: 0x88
@@ -100,6 +105,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     UnityEngine::ResourceManagement::ResourceManager* m_ResourceManager;
     // Field size check
     static_assert(sizeof(UnityEngine::ResourceManagement::ResourceManager*) == 0x8);
+    public:
     // Creating interface conversion operator: operator UnityEngine::ResourceManagement::IUpdateReceiver
     operator UnityEngine::ResourceManagement::IUpdateReceiver() noexcept {
       return *reinterpret_cast<UnityEngine::ResourceManagement::IUpdateReceiver*>(this);

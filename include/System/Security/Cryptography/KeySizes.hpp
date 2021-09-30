@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: System.Security.Cryptography
 namespace System::Security::Cryptography {
@@ -19,6 +20,11 @@ namespace System::Security::Cryptography {
   // [ComVisibleAttribute] Offset: E5F144
   class KeySizes : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 m_minSize
     // Size: 0x4
     // Offset: 0x10
@@ -37,6 +43,7 @@ namespace System::Security::Cryptography {
     int m_skipSize;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: private System.Int32 m_minSize
     int& dyn_m_minSize();
     // Get instance field reference: private System.Int32 m_maxSize
@@ -64,7 +71,7 @@ namespace System::Security::Cryptography {
     bool IsLegal(int keySize);
     // static System.Boolean IsLegalKeySize(System.Security.Cryptography.KeySizes[] legalKeys, System.Int32 size)
     // Offset: 0x1A7754C
-    static bool IsLegalKeySize(::ArrayWrapper<System::Security::Cryptography::KeySizes*> legalKeys, int size);
+    static bool IsLegalKeySize(::ArrayW<System::Security::Cryptography::KeySizes*> legalKeys, int size);
   }; // System.Security.Cryptography.KeySizes
   #pragma pack(pop)
   static check_size<sizeof(KeySizes), 24 + sizeof(int)> __System_Security_Cryptography_KeySizesSizeCheck;
@@ -112,7 +119,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::KeySizes::IsLegalKeySize
 // Il2CppName: IsLegalKeySize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayWrapper<System::Security::Cryptography::KeySizes*>, int)>(&System::Security::Cryptography::KeySizes::IsLegalKeySize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<System::Security::Cryptography::KeySizes*>, int)>(&System::Security::Cryptography::KeySizes::IsLegalKeySize)> {
   static const MethodInfo* get() {
     static auto* legalKeys = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Security.Cryptography", "KeySizes"), 1)->byval_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

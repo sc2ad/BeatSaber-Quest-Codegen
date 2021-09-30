@@ -53,6 +53,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MissionSelectionMapViewController : public HMUI::ViewController {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private HMUI.ScrollView _mapScrollView
     // Size: 0x8
     // Offset: 0x70
@@ -97,6 +102,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MissionNode* selectedMissionNode;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionNode*) == 0x8);
+    public:
     // Get instance field reference: private HMUI.ScrollView _mapScrollView
     HMUI::ScrollView*& dyn__mapScrollView();
     // Get instance field reference: private MissionNodeSelectionManager _missionNodeSelectionManager

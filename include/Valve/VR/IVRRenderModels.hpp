@@ -57,6 +57,11 @@ namespace Valve::VR {
     class _GetRenderModelOriginalPath;
     // Nested type: Valve::VR::IVRRenderModels::_GetRenderModelErrorNameFromEnum
     class _GetRenderModelErrorNameFromEnum;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // Valve.VR.IVRRenderModels/Valve.VR._LoadRenderModel_Async LoadRenderModel_Async
     // Size: 0x8
     // Offset: 0x0
@@ -165,6 +170,7 @@ namespace Valve::VR {
     Valve::VR::IVRRenderModels::_GetRenderModelErrorNameFromEnum* GetRenderModelErrorNameFromEnum;
     // Field size check
     static_assert(sizeof(Valve::VR::IVRRenderModels::_GetRenderModelErrorNameFromEnum*) == 0x8);
+    public:
     // Creating value type constructor for type: IVRRenderModels
     constexpr IVRRenderModels(Valve::VR::IVRRenderModels::_LoadRenderModel_Async* LoadRenderModel_Async_ = {}, Valve::VR::IVRRenderModels::_FreeRenderModel* FreeRenderModel_ = {}, Valve::VR::IVRRenderModels::_LoadTexture_Async* LoadTexture_Async_ = {}, Valve::VR::IVRRenderModels::_FreeTexture* FreeTexture_ = {}, Valve::VR::IVRRenderModels::_LoadTextureD3D11_Async* LoadTextureD3D11_Async_ = {}, Valve::VR::IVRRenderModels::_LoadIntoTextureD3D11_Async* LoadIntoTextureD3D11_Async_ = {}, Valve::VR::IVRRenderModels::_FreeTextureD3D11* FreeTextureD3D11_ = {}, Valve::VR::IVRRenderModels::_GetRenderModelName* GetRenderModelName_ = {}, Valve::VR::IVRRenderModels::_GetRenderModelCount* GetRenderModelCount_ = {}, Valve::VR::IVRRenderModels::_GetComponentCount* GetComponentCount_ = {}, Valve::VR::IVRRenderModels::_GetComponentName* GetComponentName_ = {}, Valve::VR::IVRRenderModels::_GetComponentButtonMask* GetComponentButtonMask_ = {}, Valve::VR::IVRRenderModels::_GetComponentRenderModelName* GetComponentRenderModelName_ = {}, Valve::VR::IVRRenderModels::_GetComponentState* GetComponentState_ = {}, Valve::VR::IVRRenderModels::_RenderModelHasComponent* RenderModelHasComponent_ = {}, Valve::VR::IVRRenderModels::_GetRenderModelThumbnailURL* GetRenderModelThumbnailURL_ = {}, Valve::VR::IVRRenderModels::_GetRenderModelOriginalPath* GetRenderModelOriginalPath_ = {}, Valve::VR::IVRRenderModels::_GetRenderModelErrorNameFromEnum* GetRenderModelErrorNameFromEnum_ = {}) noexcept : LoadRenderModel_Async{LoadRenderModel_Async_}, FreeRenderModel{FreeRenderModel_}, LoadTexture_Async{LoadTexture_Async_}, FreeTexture{FreeTexture_}, LoadTextureD3D11_Async{LoadTextureD3D11_Async_}, LoadIntoTextureD3D11_Async{LoadIntoTextureD3D11_Async_}, FreeTextureD3D11{FreeTextureD3D11_}, GetRenderModelName{GetRenderModelName_}, GetRenderModelCount{GetRenderModelCount_}, GetComponentCount{GetComponentCount_}, GetComponentName{GetComponentName_}, GetComponentButtonMask{GetComponentButtonMask_}, GetComponentRenderModelName{GetComponentRenderModelName_}, GetComponentState{GetComponentState_}, RenderModelHasComponent{RenderModelHasComponent_}, GetRenderModelThumbnailURL{GetRenderModelThumbnailURL_}, GetRenderModelOriginalPath{GetRenderModelOriginalPath_}, GetRenderModelErrorNameFromEnum{GetRenderModelErrorNameFromEnum_} {}
     // Creating interface conversion operator: operator System::ValueType

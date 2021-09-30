@@ -43,6 +43,11 @@ namespace System::Net::Sockets {
   // [TokenAttribute] Offset: FFFFFFFF
   class TcpListener : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Net.IPEndPoint m_ServerSocketEP
     // Size: 0x8
     // Offset: 0x10
@@ -67,6 +72,7 @@ namespace System::Net::Sockets {
     bool m_ExclusiveAddressUse;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private System.Net.IPEndPoint m_ServerSocketEP
     System::Net::IPEndPoint*& dyn_m_ServerSocketEP();
     // Get instance field reference: private System.Net.Sockets.Socket m_ServerSocket

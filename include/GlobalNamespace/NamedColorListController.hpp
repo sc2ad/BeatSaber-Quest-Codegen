@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -40,12 +41,17 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::NamedColorListController::ColorValuePair
     class ColorValuePair;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private NamedColorListController/ColorValuePair[] _textValuePairs
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<GlobalNamespace::NamedColorListController::ColorValuePair*> textValuePairs;
+    ::ArrayW<GlobalNamespace::NamedColorListController::ColorValuePair*> textValuePairs;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::NamedColorListController::ColorValuePair*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::NamedColorListController::ColorValuePair*>) == 0x8);
     // private System.Int32 _value
     // Size: 0x4
     // Offset: 0x30
@@ -60,12 +66,13 @@ namespace GlobalNamespace {
     System::Action_1<int>* valueChangedEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<int>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator HMUI::IValueChanger_1<int>
     operator HMUI::IValueChanger_1<int>() noexcept {
       return *reinterpret_cast<HMUI::IValueChanger_1<int>*>(this);
     }
     // Get instance field reference: private NamedColorListController/ColorValuePair[] _textValuePairs
-    ::ArrayWrapper<GlobalNamespace::NamedColorListController::ColorValuePair*>& dyn__textValuePairs();
+    ::ArrayW<GlobalNamespace::NamedColorListController::ColorValuePair*>& dyn__textValuePairs();
     // Get instance field reference: private System.Int32 _value
     int& dyn__value();
     // Get instance field reference: private System.Action`1<System.Int32> valueChangedEvent
@@ -78,7 +85,7 @@ namespace GlobalNamespace {
     void remove_valueChangedEvent(System::Action_1<int>* value);
     // public System.Void Init(NamedColorListController/ColorValuePair[] values, System.Int32 value)
     // Offset: 0x11348F0
-    void Init(::ArrayWrapper<GlobalNamespace::NamedColorListController::ColorValuePair*> values, int value);
+    void Init(::ArrayW<GlobalNamespace::NamedColorListController::ColorValuePair*> values, int value);
     // public System.Void SetValue(System.Int32 value)
     // Offset: 0x1134904
     void SetValue(int value);
@@ -140,7 +147,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::NamedColorListController::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NamedColorListController::*)(::ArrayWrapper<GlobalNamespace::NamedColorListController::ColorValuePair*>, int)>(&GlobalNamespace::NamedColorListController::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NamedColorListController::*)(::ArrayW<GlobalNamespace::NamedColorListController::ColorValuePair*>, int)>(&GlobalNamespace::NamedColorListController::Init)> {
   static const MethodInfo* get() {
     static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "NamedColorListController/ColorValuePair"), 1)->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

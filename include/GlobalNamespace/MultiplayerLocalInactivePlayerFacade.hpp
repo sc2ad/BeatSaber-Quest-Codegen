@@ -59,6 +59,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::MultiplayerLocalInactivePlayerFacade::Factory
     class Factory;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xF08D28
     // private readonly MultiplayerLocalInactivePlayerSongSyncController _inactivePlayerSongSyncController
     // Size: 0x8
@@ -98,6 +103,7 @@ namespace GlobalNamespace {
     System::Action_1<GlobalNamespace::PlayerNetworkFailReason>* playerNetworkDidFailedEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::PlayerNetworkFailReason>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IMultiplayerLevelEndActionsPublisher
     operator GlobalNamespace::IMultiplayerLevelEndActionsPublisher() noexcept {
       return *reinterpret_cast<GlobalNamespace::IMultiplayerLevelEndActionsPublisher*>(this);

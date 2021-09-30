@@ -27,6 +27,11 @@ namespace UnityEngine::UI {
   // [ExecuteAlways] Offset: FFFFFFFF
   class LayoutElement : public UnityEngine::EventSystems::UIBehaviour/*, public UnityEngine::UI::ILayoutElement, public UnityEngine::UI::ILayoutIgnorer*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean m_IgnoreLayout
     // Size: 0x1
     // Offset: 0x18
@@ -77,6 +82,7 @@ namespace UnityEngine::UI {
     int m_LayoutPriority;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating interface conversion operator: operator UnityEngine::UI::ILayoutElement
     operator UnityEngine::UI::ILayoutElement() noexcept {
       return *reinterpret_cast<UnityEngine::UI::ILayoutElement*>(this);

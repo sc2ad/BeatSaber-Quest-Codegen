@@ -22,6 +22,11 @@ namespace System::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   class XmlWellFormedWriter::AttributeValueCache::Item : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Xml.XmlWellFormedWriter/System.Xml.AttributeValueCache/System.Xml.ItemType type
     // Size: 0x4
     // Offset: 0x10
@@ -36,6 +41,7 @@ namespace System::Xml {
     ::Il2CppObject* data;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
+    public:
     // Get instance field reference: System.Xml.XmlWellFormedWriter/System.Xml.AttributeValueCache/System.Xml.ItemType type
     System::Xml::XmlWellFormedWriter::AttributeValueCache::ItemType& dyn_type();
     // Get instance field reference: System.Object data

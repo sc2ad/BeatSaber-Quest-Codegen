@@ -18,6 +18,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class NamedPreset : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [LocalizationKeyAttribute] Offset: 0xF029F4
     // private System.String _presetNameLocalizationKey
     // Size: 0x8
@@ -25,6 +30,7 @@ namespace GlobalNamespace {
     ::Il2CppString* presetNameLocalizationKey;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return presetNameLocalizationKey;

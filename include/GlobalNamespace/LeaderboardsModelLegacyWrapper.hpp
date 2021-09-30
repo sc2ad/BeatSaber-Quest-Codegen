@@ -44,6 +44,11 @@ namespace GlobalNamespace {
     struct $GetLeaderboardEntriesAsync$d__4;
     // Nested type: GlobalNamespace::LeaderboardsModelLegacyWrapper::$SendLevelScoreResutlAsync$d__5
     struct $SendLevelScoreResutlAsync$d__5;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xF0373C
     // private OnlineServices.ILeaderboardsModel _leaderboardsModel
     // Size: 0x8
@@ -51,6 +56,7 @@ namespace GlobalNamespace {
     OnlineServices::ILeaderboardsModel* leaderboardsModel;
     // Field size check
     static_assert(sizeof(OnlineServices::ILeaderboardsModel*) == 0x8);
+    public:
     // Creating conversion operator: operator OnlineServices::ILeaderboardsModel*
     constexpr operator OnlineServices::ILeaderboardsModel*() const noexcept {
       return leaderboardsModel;

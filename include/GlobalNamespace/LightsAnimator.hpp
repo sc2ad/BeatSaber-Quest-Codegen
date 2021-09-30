@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -50,18 +51,23 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::LightsAnimator::$DisableDirectionalLightsCoroutine$d__11
     class $DisableDirectionalLightsCoroutine$d__11;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private TubeBloomPrePassLight[] _lights
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<GlobalNamespace::TubeBloomPrePassLight*> lights;
+    ::ArrayW<GlobalNamespace::TubeBloomPrePassLight*> lights;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::TubeBloomPrePassLight*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::TubeBloomPrePassLight*>) == 0x8);
     // private DirectionalLight[] _directionalLights
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<GlobalNamespace::DirectionalLight*> directionalLights;
+    ::ArrayW<GlobalNamespace::DirectionalLight*> directionalLights;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::DirectionalLight*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::DirectionalLight*>) == 0x8);
     // [InjectAttribute] Offset: 0xF08A30
     // private readonly Tweening.TimeTweeningManager _tweeningManager
     // Size: 0x8
@@ -75,12 +81,13 @@ namespace GlobalNamespace {
     Tweening::ColorTween* tween;
     // Field size check
     static_assert(sizeof(Tweening::ColorTween*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TubeBloomPrePassLight[] _lights
-    ::ArrayWrapper<GlobalNamespace::TubeBloomPrePassLight*>& dyn__lights();
+    ::ArrayW<GlobalNamespace::TubeBloomPrePassLight*>& dyn__lights();
     // Get instance field reference: private DirectionalLight[] _directionalLights
-    ::ArrayWrapper<GlobalNamespace::DirectionalLight*>& dyn__directionalLights();
+    ::ArrayW<GlobalNamespace::DirectionalLight*>& dyn__directionalLights();
     // Get instance field reference: private readonly Tweening.TimeTweeningManager _tweeningManager
     Tweening::TimeTweeningManager*& dyn__tweeningManager();
     // Get instance field reference: private Tweening.ColorTween _tween

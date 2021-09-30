@@ -33,12 +33,18 @@ namespace System::IO {
   // [ComVisibleAttribute] Offset: E5E210
   class FileInfo : public System::IO::FileSystemInfo {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String _name
     // Size: 0x8
     // Offset: 0x60
     ::Il2CppString* name;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: private System.String _name
     ::Il2CppString*& dyn__name();
     // public System.Int64 get_Length()

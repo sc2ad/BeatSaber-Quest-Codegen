@@ -33,6 +33,11 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   struct PlatformAuthenticationTokenProvider::$GetAuthenticationToken$d__10/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0
@@ -53,6 +58,7 @@ namespace GlobalNamespace {
     // Size: 0xFFFFFFFF
     // Offset: 0x28
     System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::PlatformUserAuthTokenData*> $$u__1;
+    public:
     // Creating value type constructor for type: $GetAuthenticationToken$d__10
     constexpr $GetAuthenticationToken$d__10(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::AuthenticationToken> $$t__builder_ = {}, GlobalNamespace::PlatformAuthenticationTokenProvider* $$4__this_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::PlatformUserAuthTokenData*> $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, $$u__1{$$u__1_} {}
     // Creating interface conversion operator: operator System::ValueType

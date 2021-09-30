@@ -41,12 +41,18 @@ namespace TMPro {
     class $$c__DisplayClass5_0;
     // Nested type: TMPro::KerningTable::$$c
     class $$c;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Collections.Generic.List`1<TMPro.KerningPair> kerningPairs
     // Size: 0x8
     // Offset: 0x10
     System::Collections::Generic::List_1<TMPro::KerningPair*>* kerningPairs;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<TMPro::KerningPair*>*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Collections::Generic::List_1<TMPro::KerningPair*>*
     constexpr operator System::Collections::Generic::List_1<TMPro::KerningPair*>*() const noexcept {
       return kerningPairs;

@@ -38,6 +38,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MockMasterServerAvailabilityModel : public ::Il2CppObject/*, public GlobalNamespace::IMasterServerAvailabilityModel*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xF08E70
     // private readonly MasterServerAvailabilityData _masterServerAvailabilityData
     // Size: 0x8
@@ -45,6 +50,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MasterServerAvailabilityData* masterServerAvailabilityData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MasterServerAvailabilityData*) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IMasterServerAvailabilityModel
     operator GlobalNamespace::IMasterServerAvailabilityModel() noexcept {
       return *reinterpret_cast<GlobalNamespace::IMasterServerAvailabilityModel*>(this);

@@ -20,6 +20,11 @@ namespace UnityEngine::ProBuilder {
   // [TokenAttribute] Offset: FFFFFFFF
   class UnwrapParameters : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [TooltipAttribute] Offset: 0xF27CE0
     // [RangeAttribute] Offset: 0xF27CE0
     // [FormerlySerializedAsAttribute] Offset: 0xF27CE0
@@ -55,6 +60,7 @@ namespace UnityEngine::ProBuilder {
     float m_AreaError;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // static field const value: static System.Single k_HardAngle
     static constexpr const float k_HardAngle = 88;
     // Get static field: static System.Single k_HardAngle

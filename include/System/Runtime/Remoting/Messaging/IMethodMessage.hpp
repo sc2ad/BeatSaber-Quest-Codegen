@@ -6,6 +6,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Runtime.Remoting.Messaging.IMessage
 #include "System/Runtime/Remoting/Messaging/IMessage.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Remoting::Messaging
@@ -41,7 +42,7 @@ namespace System::Runtime::Remoting::Messaging {
     int get_ArgCount();
     // public System.Object[] get_Args()
     // Offset: 0xFFFFFFFF
-    ::ArrayWrapper<::Il2CppObject*> get_Args();
+    ::ArrayW<::Il2CppObject*> get_Args();
     // public System.Runtime.Remoting.Messaging.LogicalCallContext get_LogicalCallContext()
     // Offset: 0xFFFFFFFF
     System::Runtime::Remoting::Messaging::LogicalCallContext* get_LogicalCallContext();
@@ -80,7 +81,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::IMethodMessage::get_Args
 // Il2CppName: get_Args
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppObject*> (System::Runtime::Remoting::Messaging::IMethodMessage::*)()>(&System::Runtime::Remoting::Messaging::IMethodMessage::get_Args)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppObject*> (System::Runtime::Remoting::Messaging::IMethodMessage::*)()>(&System::Runtime::Remoting::Messaging::IMethodMessage::get_Args)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::IMethodMessage*), "get_Args", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

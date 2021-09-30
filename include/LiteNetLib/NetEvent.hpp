@@ -50,12 +50,18 @@ namespace LiteNetLib {
     // [TokenAttribute] Offset: FFFFFFFF
     struct EType/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: EType
       constexpr EType(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -126,6 +132,11 @@ namespace LiteNetLib {
     #pragma pack(pop)
     static check_size<sizeof(NetEvent::EType), 0 + sizeof(int)> __LiteNetLib_NetEvent_ETypeSizeCheck;
     static_assert(sizeof(NetEvent::EType) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public LiteNetLib.NetEvent/LiteNetLib.EType Type
     // Size: 0x4
     // Offset: 0x10
@@ -192,6 +203,7 @@ namespace LiteNetLib {
     LiteNetLib::NetPacketReader* DataReader;
     // Field size check
     static_assert(sizeof(LiteNetLib::NetPacketReader*) == 0x8);
+    public:
     // Get instance field reference: public LiteNetLib.NetEvent/LiteNetLib.EType Type
     LiteNetLib::NetEvent::EType& dyn_Type();
     // Get instance field reference: public LiteNetLib.NetPeer Peer

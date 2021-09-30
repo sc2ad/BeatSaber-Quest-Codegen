@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: TMPro
@@ -27,16 +28,22 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerIntroCountdownTextController : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private TMPro.TextMeshPro[] _texts
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<TMPro::TextMeshPro*> texts;
+    ::ArrayW<TMPro::TextMeshPro*> texts;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<TMPro::TextMeshPro*>) == 0x8);
+    static_assert(sizeof(::ArrayW<TMPro::TextMeshPro*>) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TMPro.TextMeshPro[] _texts
-    ::ArrayWrapper<TMPro::TextMeshPro*>& dyn__texts();
+    ::ArrayW<TMPro::TextMeshPro*>& dyn__texts();
     // public System.Void set_hide(System.Boolean value)
     // Offset: 0x116836C
     void set_hide(bool value);
@@ -73,7 +80,7 @@ namespace GlobalNamespace {
     }
   }; // MultiplayerIntroCountdownTextController
   #pragma pack(pop)
-  static check_size<sizeof(MultiplayerIntroCountdownTextController), 24 + sizeof(::ArrayWrapper<TMPro::TextMeshPro*>)> __GlobalNamespace_MultiplayerIntroCountdownTextControllerSizeCheck;
+  static check_size<sizeof(MultiplayerIntroCountdownTextController), 24 + sizeof(::ArrayW<TMPro::TextMeshPro*>)> __GlobalNamespace_MultiplayerIntroCountdownTextControllerSizeCheck;
   static_assert(sizeof(MultiplayerIntroCountdownTextController) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerIntroCountdownTextController*, "", "MultiplayerIntroCountdownTextController");

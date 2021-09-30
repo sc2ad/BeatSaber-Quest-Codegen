@@ -32,12 +32,18 @@ namespace UnityEngine::TestTools::TestRunner {
   // [TokenAttribute] Offset: FFFFFFFF
   class TestEnumeratorWrapper : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly NUnit.Framework.Internal.TestMethod m_TestMethod
     // Size: 0x8
     // Offset: 0x10
     NUnit::Framework::Internal::TestMethod* m_TestMethod;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Internal::TestMethod*) == 0x8);
+    public:
     // Creating conversion operator: operator NUnit::Framework::Internal::TestMethod*
     constexpr operator NUnit::Framework::Internal::TestMethod*() const noexcept {
       return m_TestMethod;

@@ -27,6 +27,11 @@ namespace System::Text {
   // [TokenAttribute] Offset: FFFFFFFF
   class EncoderReplacementFallbackBuffer : public System::Text::EncoderFallbackBuffer {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String strDefault
     // Size: 0x8
     // Offset: 0x30
@@ -45,6 +50,7 @@ namespace System::Text {
     int fallbackIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: private System.String strDefault
     ::Il2CppString*& dyn_strDefault();
     // Get instance field reference: private System.Int32 fallbackCount

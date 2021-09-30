@@ -60,6 +60,11 @@ namespace System::Collections::Specialized {
     class NameObjectEntry;
     // Nested type: System::Collections::Specialized::NameObjectCollectionBase::NameObjectKeysEnumerator
     class NameObjectKeysEnumerator;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean _readOnly
     // Size: 0x1
     // Offset: 0x10
@@ -104,6 +109,7 @@ namespace System::Collections::Specialized {
     int version;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating interface conversion operator: operator System::Runtime::Serialization::ISerializable
     operator System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);

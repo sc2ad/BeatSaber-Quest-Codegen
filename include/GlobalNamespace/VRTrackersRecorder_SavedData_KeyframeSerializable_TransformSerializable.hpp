@@ -20,6 +20,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class VRTrackersRecorder::SavedData::KeyframeSerializable::TransformSerializable : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Single _xPos
     // Size: 0x4
     // Offset: 0x10
@@ -68,6 +73,7 @@ namespace GlobalNamespace {
     bool valid;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: public System.Single _xPos
     float& dyn__xPos();
     // Get instance field reference: public System.Single _yPos

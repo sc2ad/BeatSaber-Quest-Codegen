@@ -63,6 +63,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::$$c__DisplayClass37_0
     class $$c__DisplayClass37_0;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private BeatmapCharacteristicSO _degree360BeatmapCharacteristic
     // Size: 0x8
     // Offset: 0xD0
@@ -117,6 +122,7 @@ namespace GlobalNamespace {
     System::Action_1<GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>* didFinishEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>*) == 0x8);
+    public:
     // Get instance field reference: private BeatmapCharacteristicSO _degree360BeatmapCharacteristic
     GlobalNamespace::BeatmapCharacteristicSO*& dyn__degree360BeatmapCharacteristic();
     // Get instance field reference: private readonly PracticeViewController _practiceViewController

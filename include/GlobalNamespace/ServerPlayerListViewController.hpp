@@ -66,6 +66,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ServerPlayerListViewController : public HMUI::ViewController {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private GameServerPlayersTableView _gameServerPlayersTableView
     // Size: 0x8
     // Offset: 0x70
@@ -145,6 +150,7 @@ namespace GlobalNamespace {
     HMUI::ButtonBinder* buttonBinder;
     // Field size check
     static_assert(sizeof(HMUI::ButtonBinder*) == 0x8);
+    public:
     // Get instance field reference: private GameServerPlayersTableView _gameServerPlayersTableView
     GlobalNamespace::GameServerPlayersTableView*& dyn__gameServerPlayersTableView();
     // Get instance field reference: private UnityEngine.UI.Button _invitePlayerButton

@@ -31,6 +31,11 @@ namespace GlobalNamespace {
   template<typename T>
   class ObservableVariableSO_1 : public GlobalNamespace::PersistentScriptableObject/*, public GlobalNamespace::IValue_1<T>, public GlobalNamespace::IObservableChange*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Action didChangeEvent
     // Size: 0x8
     // Offset: 0x0
@@ -41,6 +46,7 @@ namespace GlobalNamespace {
     // Size: 0xFFFFFFFF
     // Offset: 0x0
     T value;
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IValue_1<T>
     operator GlobalNamespace::IValue_1<T>() noexcept {
       return *reinterpret_cast<GlobalNamespace::IValue_1<T>*>(this);

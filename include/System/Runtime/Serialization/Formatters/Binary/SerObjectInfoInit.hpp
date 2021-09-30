@@ -30,6 +30,11 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   // [TokenAttribute] Offset: FFFFFFFF
   class SerObjectInfoInit : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Collections.Hashtable seenBeforeTable
     // Size: 0x8
     // Offset: 0x10
@@ -50,6 +55,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     System::Runtime::Serialization::Formatters::Binary::SerStack* oiPool;
     // Field size check
     static_assert(sizeof(System::Runtime::Serialization::Formatters::Binary::SerStack*) == 0x8);
+    public:
     // Get instance field reference: System.Collections.Hashtable seenBeforeTable
     System::Collections::Hashtable*& dyn_seenBeforeTable();
     // Get instance field reference: System.Int32 objectInfoIdCount

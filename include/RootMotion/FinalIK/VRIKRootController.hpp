@@ -33,6 +33,11 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class VRIKRootController : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Vector3 <pelvisTargetRight>k__BackingField
     // Size: 0xC
     // Offset: 0x18
@@ -65,6 +70,7 @@ namespace RootMotion::FinalIK {
     RootMotion::FinalIK::VRIK* ik;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::VRIK*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Vector3 <pelvisTargetRight>k__BackingField

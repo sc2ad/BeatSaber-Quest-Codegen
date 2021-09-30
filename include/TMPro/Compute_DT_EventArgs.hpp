@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: TMPro
 namespace TMPro {
@@ -22,6 +23,11 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class Compute_DT_EventArgs : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public TMPro.Compute_DistanceTransform_EventTypes EventType
     // Size: 0x4
     // Offset: 0x10
@@ -37,15 +43,16 @@ namespace TMPro {
     // public UnityEngine.Color[] Colors
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<UnityEngine::Color> Colors;
+    ::ArrayW<UnityEngine::Color> Colors;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Color>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Color>) == 0x8);
+    public:
     // Get instance field reference: public TMPro.Compute_DistanceTransform_EventTypes EventType
     TMPro::Compute_DistanceTransform_EventTypes& dyn_EventType();
     // Get instance field reference: public System.Single ProgressPercentage
     float& dyn_ProgressPercentage();
     // Get instance field reference: public UnityEngine.Color[] Colors
-    ::ArrayWrapper<UnityEngine::Color>& dyn_Colors();
+    ::ArrayW<UnityEngine::Color>& dyn_Colors();
     // public System.Void .ctor(TMPro.Compute_DistanceTransform_EventTypes type, System.Single progress)
     // Offset: 0x11EA018
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -56,13 +63,13 @@ namespace TMPro {
     // public System.Void .ctor(TMPro.Compute_DistanceTransform_EventTypes type, UnityEngine.Color[] colors)
     // Offset: 0x11EA054
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Compute_DT_EventArgs* New_ctor(TMPro::Compute_DistanceTransform_EventTypes type, ::ArrayWrapper<UnityEngine::Color> colors) {
+    static Compute_DT_EventArgs* New_ctor(TMPro::Compute_DistanceTransform_EventTypes type, ::ArrayW<UnityEngine::Color> colors) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::Compute_DT_EventArgs::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Compute_DT_EventArgs*, creationType>(type, colors)));
     }
   }; // TMPro.Compute_DT_EventArgs
   #pragma pack(pop)
-  static check_size<sizeof(Compute_DT_EventArgs), 24 + sizeof(::ArrayWrapper<UnityEngine::Color>)> __TMPro_Compute_DT_EventArgsSizeCheck;
+  static check_size<sizeof(Compute_DT_EventArgs), 24 + sizeof(::ArrayW<UnityEngine::Color>)> __TMPro_Compute_DT_EventArgsSizeCheck;
   static_assert(sizeof(Compute_DT_EventArgs) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::Compute_DT_EventArgs*, "TMPro", "Compute_DT_EventArgs");

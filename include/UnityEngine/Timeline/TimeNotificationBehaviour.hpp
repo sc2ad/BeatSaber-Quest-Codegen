@@ -63,6 +63,11 @@ namespace UnityEngine::Timeline {
     // [TokenAttribute] Offset: FFFFFFFF
     struct NotificationEntry/*, public System::ValueType*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Double time
       // Size: 0x8
       // Offset: 0x0
@@ -89,6 +94,7 @@ namespace UnityEngine::Timeline {
       UnityEngine::Timeline::NotificationFlags flags;
       // Field size check
       static_assert(sizeof(UnityEngine::Timeline::NotificationFlags) == 0x2);
+      public:
       // Creating value type constructor for type: NotificationEntry
       constexpr NotificationEntry(double time_ = {}, UnityEngine::Playables::INotification* payload_ = {}, bool notificationFired_ = {}, UnityEngine::Timeline::NotificationFlags flags_ = {}) noexcept : time{time_}, payload{payload_}, notificationFired{notificationFired_}, flags{flags_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -116,6 +122,11 @@ namespace UnityEngine::Timeline {
     #pragma pack(pop)
     static check_size<sizeof(TimeNotificationBehaviour::NotificationEntry), 18 + sizeof(UnityEngine::Timeline::NotificationFlags)> __UnityEngine_Timeline_TimeNotificationBehaviour_NotificationEntrySizeCheck;
     static_assert(sizeof(TimeNotificationBehaviour::NotificationEntry) == 0x14);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Collections.Generic.List`1<UnityEngine.Timeline.TimeNotificationBehaviour/UnityEngine.Timeline.NotificationEntry> m_Notifications
     // Size: 0x8
     // Offset: 0x10
@@ -142,6 +153,7 @@ namespace UnityEngine::Timeline {
     UnityEngine::Playables::Playable m_TimeSource;
     // Field size check
     static_assert(sizeof(UnityEngine::Playables::Playable) == 0xC);
+    public:
     // Get instance field reference: private readonly System.Collections.Generic.List`1<UnityEngine.Timeline.TimeNotificationBehaviour/UnityEngine.Timeline.NotificationEntry> m_Notifications
     System::Collections::Generic::List_1<UnityEngine::Timeline::TimeNotificationBehaviour::NotificationEntry>*& dyn_m_Notifications();
     // Get instance field reference: private System.Double m_PreviousTime

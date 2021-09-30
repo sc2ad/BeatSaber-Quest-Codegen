@@ -45,6 +45,11 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class PoolableManager::$$c__DisplayClass2_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public Zenject.PoolableManager <>4__this
     // Size: 0x8
     // Offset: 0x10
@@ -57,6 +62,7 @@ namespace Zenject {
     System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>* priorities;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<ModestTree::Util::ValuePair_2<System::Type*, int>*>*) == 0x8);
+    public:
     // Get instance field reference: public Zenject.PoolableManager <>4__this
     Zenject::PoolableManager*& dyn_$$4__this();
     // Get instance field reference: public System.Collections.Generic.List`1<ModestTree.Util.ValuePair`2<System.Type,System.Int32>> priorities

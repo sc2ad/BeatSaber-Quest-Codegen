@@ -29,6 +29,11 @@ namespace OVR::OpenVR {
     class _GetSpatialAnchorPose;
     // Nested type: OVR::OpenVR::IVRSpatialAnchors::_GetSpatialAnchorDescriptor
     class _GetSpatialAnchorDescriptor;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // OVR.OpenVR.IVRSpatialAnchors/OVR.OpenVR._CreateSpatialAnchorFromDescriptor CreateSpatialAnchorFromDescriptor
     // Size: 0x8
     // Offset: 0x0
@@ -53,6 +58,7 @@ namespace OVR::OpenVR {
     OVR::OpenVR::IVRSpatialAnchors::_GetSpatialAnchorDescriptor* GetSpatialAnchorDescriptor;
     // Field size check
     static_assert(sizeof(OVR::OpenVR::IVRSpatialAnchors::_GetSpatialAnchorDescriptor*) == 0x8);
+    public:
     // Creating value type constructor for type: IVRSpatialAnchors
     constexpr IVRSpatialAnchors(OVR::OpenVR::IVRSpatialAnchors::_CreateSpatialAnchorFromDescriptor* CreateSpatialAnchorFromDescriptor_ = {}, OVR::OpenVR::IVRSpatialAnchors::_CreateSpatialAnchorFromPose* CreateSpatialAnchorFromPose_ = {}, OVR::OpenVR::IVRSpatialAnchors::_GetSpatialAnchorPose* GetSpatialAnchorPose_ = {}, OVR::OpenVR::IVRSpatialAnchors::_GetSpatialAnchorDescriptor* GetSpatialAnchorDescriptor_ = {}) noexcept : CreateSpatialAnchorFromDescriptor{CreateSpatialAnchorFromDescriptor_}, CreateSpatialAnchorFromPose{CreateSpatialAnchorFromPose_}, GetSpatialAnchorPose{GetSpatialAnchorPose_}, GetSpatialAnchorDescriptor{GetSpatialAnchorDescriptor_} {}
     // Creating interface conversion operator: operator System::ValueType

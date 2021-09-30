@@ -12,6 +12,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HMUI
@@ -62,6 +63,11 @@ namespace HMUI {
     class $AddViewControllerCoroutine$d__15;
     // Nested type: HMUI::ContainerViewController::$RemoveViewControllersCoroutine$d__17
     class $RemoveViewControllersCoroutine$d__17;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [NullAllowed] Offset: 0xEE24B8
     // private UnityEngine.RectTransform _controllersContainer
     // Size: 0x8
@@ -75,6 +81,7 @@ namespace HMUI {
     System::Collections::Generic::List_1<HMUI::ViewController*>* viewControllers;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<HMUI::ViewController*>*) == 0x8);
+    public:
     // Get instance field reference: private UnityEngine.RectTransform _controllersContainer
     UnityEngine::RectTransform*& dyn__controllersContainer();
     // Get instance field reference: protected System.Collections.Generic.List`1<HMUI.ViewController> _viewControllers
@@ -96,22 +103,22 @@ namespace HMUI {
     void SetChildViewController(HMUI::ViewController* viewController);
     // public System.Void SetChildViewControllers(params HMUI.ViewController[] viewControllers)
     // Offset: 0x14842B0
-    void SetChildViewControllers(::ArrayWrapper<HMUI::ViewController*> viewControllers);
+    void SetChildViewControllers(::ArrayW<HMUI::ViewController*> viewControllers);
     // protected System.Void AddViewController(HMUI.ViewController viewController, System.Action finishedCallback, System.Action`2<System.Single,HMUI.ViewController[]> animationLayouter, System.Boolean immediately)
     // Offset: 0x148440C
-    void AddViewController(HMUI::ViewController* viewController, System::Action* finishedCallback, System::Action_2<float, ::ArrayWrapper<HMUI::ViewController*>>* animationLayouter, bool immediately);
+    void AddViewController(HMUI::ViewController* viewController, System::Action* finishedCallback, System::Action_2<float, ::ArrayW<HMUI::ViewController*>>* animationLayouter, bool immediately);
     // private System.Collections.IEnumerator AddViewControllerCoroutine(HMUI.ViewController newViewController, System.Action finishedCallback, System.Action`2<System.Single,HMUI.ViewController[]> animationLayouter, System.Boolean immediately)
     // Offset: 0x1484520
-    System::Collections::IEnumerator* AddViewControllerCoroutine(HMUI::ViewController* newViewController, System::Action* finishedCallback, System::Action_2<float, ::ArrayWrapper<HMUI::ViewController*>>* animationLayouter, bool immediately);
+    System::Collections::IEnumerator* AddViewControllerCoroutine(HMUI::ViewController* newViewController, System::Action* finishedCallback, System::Action_2<float, ::ArrayW<HMUI::ViewController*>>* animationLayouter, bool immediately);
     // protected System.Void RemoveViewControllers(HMUI.ViewController[] viewControllers, System.Action finishedCallback, System.Action`3<System.Single,HMUI.ViewController[],System.Collections.Generic.HashSet`1<HMUI.ViewController>> animationLayouter, System.Boolean immediately)
     // Offset: 0x14845E8
-    void RemoveViewControllers(::ArrayWrapper<HMUI::ViewController*> viewControllers, System::Action* finishedCallback, System::Action_3<float, ::ArrayWrapper<HMUI::ViewController*>, System::Collections::Generic::HashSet_1<HMUI::ViewController*>*>* animationLayouter, bool immediately);
+    void RemoveViewControllers(::ArrayW<HMUI::ViewController*> viewControllers, System::Action* finishedCallback, System::Action_3<float, ::ArrayW<HMUI::ViewController*>, System::Collections::Generic::HashSet_1<HMUI::ViewController*>*>* animationLayouter, bool immediately);
     // private System.Collections.IEnumerator RemoveViewControllersCoroutine(HMUI.ViewController[] viewControllersToRemove, System.Action finishedCallback, System.Action`3<System.Single,HMUI.ViewController[],System.Collections.Generic.HashSet`1<HMUI.ViewController>> animationLayouter, System.Boolean immediately)
     // Offset: 0x1484654
-    System::Collections::IEnumerator* RemoveViewControllersCoroutine(::ArrayWrapper<HMUI::ViewController*> viewControllersToRemove, System::Action* finishedCallback, System::Action_3<float, ::ArrayWrapper<HMUI::ViewController*>, System::Collections::Generic::HashSet_1<HMUI::ViewController*>*>* animationLayouter, bool immediately);
+    System::Collections::IEnumerator* RemoveViewControllersCoroutine(::ArrayW<HMUI::ViewController*> viewControllersToRemove, System::Action* finishedCallback, System::Action_3<float, ::ArrayW<HMUI::ViewController*>, System::Collections::Generic::HashSet_1<HMUI::ViewController*>*>* animationLayouter, bool immediately);
     // private System.Single[] GetNewXPositionsForViewControllers(System.Collections.Generic.List`1<HMUI.ViewController> viewControllers, System.Int32 exludeFromEndCount)
     // Offset: 0x148471C
-    ::ArrayWrapper<float> GetNewXPositionsForViewControllers(System::Collections::Generic::List_1<HMUI::ViewController*>* viewControllers, int exludeFromEndCount);
+    ::ArrayW<float> GetNewXPositionsForViewControllers(System::Collections::Generic::List_1<HMUI::ViewController*>* viewControllers, int exludeFromEndCount);
     // protected System.Void .ctor()
     // Offset: 0x1484950
     // Implemented from: HMUI.ViewController
@@ -198,7 +205,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Writing MetadataGetter for method: HMUI::ContainerViewController::SetChildViewControllers
 // Il2CppName: SetChildViewControllers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ContainerViewController::*)(::ArrayWrapper<HMUI::ViewController*>)>(&HMUI::ContainerViewController::SetChildViewControllers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ContainerViewController::*)(::ArrayW<HMUI::ViewController*>)>(&HMUI::ContainerViewController::SetChildViewControllers)> {
   static const MethodInfo* get() {
     static auto* viewControllers = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("HMUI", "ViewController"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HMUI::ContainerViewController*), "SetChildViewControllers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{viewControllers});
@@ -207,7 +214,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Writing MetadataGetter for method: HMUI::ContainerViewController::AddViewController
 // Il2CppName: AddViewController
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ContainerViewController::*)(HMUI::ViewController*, System::Action*, System::Action_2<float, ::ArrayWrapper<HMUI::ViewController*>>*, bool)>(&HMUI::ContainerViewController::AddViewController)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ContainerViewController::*)(HMUI::ViewController*, System::Action*, System::Action_2<float, ::ArrayW<HMUI::ViewController*>>*, bool)>(&HMUI::ContainerViewController::AddViewController)> {
   static const MethodInfo* get() {
     static auto* viewController = &::il2cpp_utils::GetClassFromName("HMUI", "ViewController")->byval_arg;
     static auto* finishedCallback = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
@@ -219,7 +226,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Writing MetadataGetter for method: HMUI::ContainerViewController::AddViewControllerCoroutine
 // Il2CppName: AddViewControllerCoroutine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (HMUI::ContainerViewController::*)(HMUI::ViewController*, System::Action*, System::Action_2<float, ::ArrayWrapper<HMUI::ViewController*>>*, bool)>(&HMUI::ContainerViewController::AddViewControllerCoroutine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (HMUI::ContainerViewController::*)(HMUI::ViewController*, System::Action*, System::Action_2<float, ::ArrayW<HMUI::ViewController*>>*, bool)>(&HMUI::ContainerViewController::AddViewControllerCoroutine)> {
   static const MethodInfo* get() {
     static auto* newViewController = &::il2cpp_utils::GetClassFromName("HMUI", "ViewController")->byval_arg;
     static auto* finishedCallback = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
@@ -231,7 +238,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: HMUI::ContainerViewController::RemoveViewControllers
 // Il2CppName: RemoveViewControllers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ContainerViewController::*)(::ArrayWrapper<HMUI::ViewController*>, System::Action*, System::Action_3<float, ::ArrayWrapper<HMUI::ViewController*>, System::Collections::Generic::HashSet_1<HMUI::ViewController*>*>*, bool)>(&HMUI::ContainerViewController::RemoveViewControllers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::ContainerViewController::*)(::ArrayW<HMUI::ViewController*>, System::Action*, System::Action_3<float, ::ArrayW<HMUI::ViewController*>, System::Collections::Generic::HashSet_1<HMUI::ViewController*>*>*, bool)>(&HMUI::ContainerViewController::RemoveViewControllers)> {
   static const MethodInfo* get() {
     static auto* viewControllers = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("HMUI", "ViewController"), 1)->byval_arg;
     static auto* finishedCallback = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
@@ -243,7 +250,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Writing MetadataGetter for method: HMUI::ContainerViewController::RemoveViewControllersCoroutine
 // Il2CppName: RemoveViewControllersCoroutine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (HMUI::ContainerViewController::*)(::ArrayWrapper<HMUI::ViewController*>, System::Action*, System::Action_3<float, ::ArrayWrapper<HMUI::ViewController*>, System::Collections::Generic::HashSet_1<HMUI::ViewController*>*>*, bool)>(&HMUI::ContainerViewController::RemoveViewControllersCoroutine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::IEnumerator* (HMUI::ContainerViewController::*)(::ArrayW<HMUI::ViewController*>, System::Action*, System::Action_3<float, ::ArrayW<HMUI::ViewController*>, System::Collections::Generic::HashSet_1<HMUI::ViewController*>*>*, bool)>(&HMUI::ContainerViewController::RemoveViewControllersCoroutine)> {
   static const MethodInfo* get() {
     static auto* viewControllersToRemove = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("HMUI", "ViewController"), 1)->byval_arg;
     static auto* finishedCallback = &::il2cpp_utils::GetClassFromName("System", "Action")->byval_arg;
@@ -255,7 +262,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: HMUI::ContainerViewController::GetNewXPositionsForViewControllers
 // Il2CppName: GetNewXPositionsForViewControllers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<float> (HMUI::ContainerViewController::*)(System::Collections::Generic::List_1<HMUI::ViewController*>*, int)>(&HMUI::ContainerViewController::GetNewXPositionsForViewControllers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<float> (HMUI::ContainerViewController::*)(System::Collections::Generic::List_1<HMUI::ViewController*>*, int)>(&HMUI::ContainerViewController::GetNewXPositionsForViewControllers)> {
   static const MethodInfo* get() {
     static auto* viewControllers = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("HMUI", "ViewController")})->byval_arg;
     static auto* exludeFromEndCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

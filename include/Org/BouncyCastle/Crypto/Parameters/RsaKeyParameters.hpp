@@ -29,6 +29,11 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     public:
     // Writing base type padding for base size: 0x11 to desired offset: 0x18
     char ___base_padding[0x7] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Org.BouncyCastle.Math.BigInteger modulus
     // Size: 0x8
     // Offset: 0x18
@@ -41,6 +46,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     Org::BouncyCastle::Math::BigInteger* exponent;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Math::BigInteger*) == 0x8);
+    public:
     // Deleting conversion operator: operator bool
     constexpr operator bool() const noexcept = delete;
     // Get static field: static private readonly Org.BouncyCastle.Math.BigInteger SmallPrimesProduct

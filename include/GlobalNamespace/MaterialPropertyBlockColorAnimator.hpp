@@ -25,6 +25,11 @@ namespace GlobalNamespace {
     public:
     // Writing base type padding for base size: 0x2D to desired offset: 0x30
     char ___base_padding[0x3] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [SpaceAttribute] Offset: 0xEDFA48
     // private UnityEngine.Color _color
     // Size: 0x10
@@ -32,6 +37,7 @@ namespace GlobalNamespace {
     UnityEngine::Color color;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
+    public:
     // Get instance field reference: private UnityEngine.Color _color
     UnityEngine::Color& dyn__color();
     // public UnityEngine.Color get_color()

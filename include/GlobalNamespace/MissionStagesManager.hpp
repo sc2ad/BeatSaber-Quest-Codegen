@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -31,6 +32,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::MissionStagesManager::$$c
     class $$c;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private MissionStageLockView _missionStageLockView
     // Size: 0x8
     // Offset: 0x18
@@ -40,21 +46,22 @@ namespace GlobalNamespace {
     // private MissionStage[] _missionStages
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<GlobalNamespace::MissionStage*> missionStages;
+    ::ArrayW<GlobalNamespace::MissionStage*> missionStages;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MissionStage*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::MissionStage*>) == 0x8);
     // private MissionStage _firstLockedMissionStage
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::MissionStage* firstLockedMissionStage;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionStage*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MissionStageLockView _missionStageLockView
     GlobalNamespace::MissionStageLockView*& dyn__missionStageLockView();
     // Get instance field reference: private MissionStage[] _missionStages
-    ::ArrayWrapper<GlobalNamespace::MissionStage*>& dyn__missionStages();
+    ::ArrayW<GlobalNamespace::MissionStage*>& dyn__missionStages();
     // Get instance field reference: private MissionStage _firstLockedMissionStage
     GlobalNamespace::MissionStage*& dyn__firstLockedMissionStage();
     // public MissionStage get_firstLockedMissionStage()

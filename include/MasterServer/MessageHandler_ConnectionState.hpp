@@ -17,6 +17,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: MasterServer
 namespace MasterServer {
@@ -26,6 +27,11 @@ namespace MasterServer {
   // [TokenAttribute] Offset: FFFFFFFF
   class MessageHandler::ConnectionState : public ::Il2CppObject/*, public System::IDisposable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String _userId
     // Size: 0x8
     // Offset: 0x10
@@ -81,9 +87,9 @@ namespace MasterServer {
     // private readonly System.Boolean[] _receivedRequest
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayWrapper<bool> receivedRequest;
+    ::ArrayW<bool> receivedRequest;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<bool>) == 0x8);
+    static_assert(sizeof(::ArrayW<bool>) == 0x8);
     // private System.UInt32 _currentRequestId
     // Size: 0x4
     // Offset: 0x48
@@ -96,6 +102,7 @@ namespace MasterServer {
     uint currentEpoch;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
@@ -147,7 +154,7 @@ namespace MasterServer {
     // Get instance field reference: private System.Int32 _receivedRequestCount
     int& dyn__receivedRequestCount();
     // Get instance field reference: private readonly System.Boolean[] _receivedRequest
-    ::ArrayWrapper<bool>& dyn__receivedRequest();
+    ::ArrayW<bool>& dyn__receivedRequest();
     // Get instance field reference: private System.UInt32 _currentRequestId
     uint& dyn__currentRequestId();
     // Get instance field reference: private System.UInt32 _currentEpoch

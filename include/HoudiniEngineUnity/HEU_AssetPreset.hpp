@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -33,12 +34,17 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_AssetPreset : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Char[] _identifier
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<::Il2CppChar> identifier;
+    ::ArrayW<::Il2CppChar> identifier;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppChar>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppChar>) == 0x8);
     // public System.Int32 _version
     // Size: 0x4
     // Offset: 0x18
@@ -56,9 +62,9 @@ namespace HoudiniEngineUnity {
     // public System.Byte[] _parameterPreset
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<uint8_t> parameterPreset;
+    ::ArrayW<uint8_t> parameterPreset;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // public System.Collections.Generic.List`1<System.String> _curveNames
     // Size: 0x8
     // Offset: 0x30
@@ -68,9 +74,9 @@ namespace HoudiniEngineUnity {
     // public System.Collections.Generic.List`1<System.Byte[]> _curvePresets
     // Size: 0x8
     // Offset: 0x38
-    System::Collections::Generic::List_1<::ArrayWrapper<uint8_t>>* curvePresets;
+    System::Collections::Generic::List_1<::ArrayW<uint8_t>>* curvePresets;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<::ArrayWrapper<uint8_t>>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::List_1<::ArrayW<uint8_t>>*) == 0x8);
     // [OptionalFieldAttribute] Offset: 0xEFACC0
     // public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_InputPreset> inputPresets
     // Size: 0x8
@@ -85,18 +91,19 @@ namespace HoudiniEngineUnity {
     System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VolumeCachePreset*>* volumeCachePresets;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VolumeCachePreset*>*) == 0x8);
+    public:
     // Get instance field reference: public System.Char[] _identifier
-    ::ArrayWrapper<::Il2CppChar>& dyn__identifier();
+    ::ArrayW<::Il2CppChar>& dyn__identifier();
     // Get instance field reference: public System.Int32 _version
     int& dyn__version();
     // Get instance field reference: public System.String _assetOPName
     ::Il2CppString*& dyn__assetOPName();
     // Get instance field reference: public System.Byte[] _parameterPreset
-    ::ArrayWrapper<uint8_t>& dyn__parameterPreset();
+    ::ArrayW<uint8_t>& dyn__parameterPreset();
     // Get instance field reference: public System.Collections.Generic.List`1<System.String> _curveNames
     System::Collections::Generic::List_1<::Il2CppString*>*& dyn__curveNames();
     // Get instance field reference: public System.Collections.Generic.List`1<System.Byte[]> _curvePresets
-    System::Collections::Generic::List_1<::ArrayWrapper<uint8_t>>*& dyn__curvePresets();
+    System::Collections::Generic::List_1<::ArrayW<uint8_t>>*& dyn__curvePresets();
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_InputPreset> inputPresets
     System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputPreset*>*& dyn_inputPresets();
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_VolumeCachePreset> volumeCachePresets

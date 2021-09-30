@@ -18,6 +18,11 @@ namespace NUnit::Framework::Constraints {
   // [TokenAttribute] Offset: FFFFFFFF
   struct FloatingPointNumerics::DoubleLongUnion/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Double Double
     // Size: 0x8
     // Offset: 0x0
@@ -36,6 +41,7 @@ namespace NUnit::Framework::Constraints {
     uint64_t ULong;
     // Field size check
     static_assert(sizeof(uint64_t) == 0x8);
+    public:
     // Creating value type constructor for type: DoubleLongUnion
     constexpr DoubleLongUnion(double Double_ = {}, int64_t Long_ = {}, uint64_t ULong_ = {}) noexcept : Double{Double_}, Long{Long_}, ULong{ULong_} {}
     // Creating interface conversion operator: operator System::ValueType

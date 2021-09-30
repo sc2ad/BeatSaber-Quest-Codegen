@@ -57,6 +57,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::MockPlayerGamePoseGeneratorMirror::$SendPoses$d__5
     struct $SendPoses$d__5;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly NodePoseSyncStateManager _nodePoseSyncStateManager
     // Size: 0x8
     // Offset: 0x38
@@ -75,6 +80,7 @@ namespace GlobalNamespace {
     System::Action* onSongFinished;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
+    public:
     // Get instance field reference: private readonly NodePoseSyncStateManager _nodePoseSyncStateManager
     GlobalNamespace::NodePoseSyncStateManager*& dyn__nodePoseSyncStateManager();
     // Get instance field reference: private IConnectedPlayer _mirroredPlayer

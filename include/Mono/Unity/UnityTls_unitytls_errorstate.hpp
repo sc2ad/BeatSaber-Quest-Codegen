@@ -21,6 +21,11 @@ namespace Mono::Unity {
   // [TokenAttribute] Offset: FFFFFFFF
   struct UnityTls::unitytls_errorstate/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.UInt32 magic
     // Size: 0x4
     // Offset: 0x0
@@ -39,6 +44,7 @@ namespace Mono::Unity {
     uint64_t reserved;
     // Field size check
     static_assert(sizeof(uint64_t) == 0x8);
+    public:
     // Creating value type constructor for type: unitytls_errorstate
     constexpr unitytls_errorstate(uint magic_ = {}, Mono::Unity::UnityTls::unitytls_error_code code_ = {}, uint64_t reserved_ = {}) noexcept : magic{magic_}, code{code_}, reserved{reserved_} {}
     // Creating interface conversion operator: operator System::ValueType

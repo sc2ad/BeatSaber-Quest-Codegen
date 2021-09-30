@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: BeatSaberAPI.DataTransferObjects
 namespace BeatSaberAPI::DataTransferObjects {
@@ -28,12 +29,18 @@ namespace BeatSaberAPI::DataTransferObjects {
     // [TokenAttribute] Offset: FFFFFFFF
     struct GameplayModifiers/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.UInt32 value__
       // Size: 0x4
       // Offset: 0x0
       uint value;
       // Field size check
       static_assert(sizeof(uint) == 0x4);
+      public:
       // Creating value type constructor for type: GameplayModifiers
       constexpr GameplayModifiers(uint value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -164,6 +171,11 @@ namespace BeatSaberAPI::DataTransferObjects {
     #pragma pack(pop)
     static check_size<sizeof(LevelScoreResult::GameplayModifiers), 0 + sizeof(uint)> __BeatSaberAPI_DataTransferObjects_LevelScoreResult_GameplayModifiersSizeCheck;
     static_assert(sizeof(LevelScoreResult::GameplayModifiers) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.String leaderboardId
     // Size: 0x8
     // Offset: 0x10
@@ -219,9 +231,9 @@ namespace BeatSaberAPI::DataTransferObjects {
     // public BeatSaberAPI.DataTransferObjects.LevelScoreResult/BeatSaberAPI.DataTransferObjects.GameplayModifiers[] gameplayModifiers
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayWrapper<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers> gameplayModifiers;
+    ::ArrayW<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers> gameplayModifiers;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>) == 0x8);
+    static_assert(sizeof(::ArrayW<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>) == 0x8);
     // public System.String deviceModel
     // Size: 0x8
     // Offset: 0x40
@@ -234,6 +246,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     ::Il2CppString* extraDataBase64;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: public System.String leaderboardId
     ::Il2CppString*& dyn_leaderboardId();
     // Get instance field reference: public System.Int32 rawScore
@@ -251,7 +264,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     // Get instance field reference: public System.Int32 maxCombo
     int& dyn_maxCombo();
     // Get instance field reference: public BeatSaberAPI.DataTransferObjects.LevelScoreResult/BeatSaberAPI.DataTransferObjects.GameplayModifiers[] gameplayModifiers
-    ::ArrayWrapper<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>& dyn_gameplayModifiers();
+    ::ArrayW<BeatSaberAPI::DataTransferObjects::LevelScoreResult::GameplayModifiers>& dyn_gameplayModifiers();
     // Get instance field reference: public System.String deviceModel
     ::Il2CppString*& dyn_deviceModel();
     // Get instance field reference: public System.String extraDataBase64

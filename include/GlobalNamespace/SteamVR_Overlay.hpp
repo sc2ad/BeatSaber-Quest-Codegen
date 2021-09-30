@@ -44,6 +44,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::SteamVR_Overlay::IntersectionResults
     struct IntersectionResults;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Texture texture
     // Size: 0x8
     // Offset: 0x18
@@ -124,6 +129,7 @@ namespace GlobalNamespace {
     uint64_t handle;
     // Field size check
     static_assert(sizeof(uint64_t) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static private SteamVR_Overlay <instance>k__BackingField

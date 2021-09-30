@@ -9,6 +9,7 @@
 #include "System/Array.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections
@@ -26,39 +27,45 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Array::SorterObjectArray/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Object[] keys
     // Size: 0x8
     // Offset: 0x0
-    ::ArrayWrapper<::Il2CppObject*> keys;
+    ::ArrayW<::Il2CppObject*> keys;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppObject*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppObject*>) == 0x8);
     // private System.Object[] items
     // Size: 0x8
     // Offset: 0x8
-    ::ArrayWrapper<::Il2CppObject*> items;
+    ::ArrayW<::Il2CppObject*> items;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppObject*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppObject*>) == 0x8);
     // private System.Collections.IComparer comparer
     // Size: 0x8
     // Offset: 0x10
     System::Collections::IComparer* comparer;
     // Field size check
     static_assert(sizeof(System::Collections::IComparer*) == 0x8);
+    public:
     // Creating value type constructor for type: SorterObjectArray
-    constexpr SorterObjectArray(::ArrayWrapper<::Il2CppObject*> keys_ = ::ArrayWrapper<::Il2CppObject*>(nullptr), ::ArrayWrapper<::Il2CppObject*> items_ = ::ArrayWrapper<::Il2CppObject*>(nullptr), System::Collections::IComparer* comparer_ = {}) noexcept : keys{keys_}, items{items_}, comparer{comparer_} {}
+    constexpr SorterObjectArray(::ArrayW<::Il2CppObject*> keys_ = ::ArrayW<::Il2CppObject*>(nullptr), ::ArrayW<::Il2CppObject*> items_ = ::ArrayW<::Il2CppObject*>(nullptr), System::Collections::IComparer* comparer_ = {}) noexcept : keys{keys_}, items{items_}, comparer{comparer_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // Get instance field reference: private System.Object[] keys
-    ::ArrayWrapper<::Il2CppObject*>& dyn_keys();
+    ::ArrayW<::Il2CppObject*>& dyn_keys();
     // Get instance field reference: private System.Object[] items
-    ::ArrayWrapper<::Il2CppObject*>& dyn_items();
+    ::ArrayW<::Il2CppObject*>& dyn_items();
     // Get instance field reference: private System.Collections.IComparer comparer
     System::Collections::IComparer*& dyn_comparer();
     // System.Void .ctor(System.Object[] keys, System.Object[] items, System.Collections.IComparer comparer)
     // Offset: 0x198BA28
-    // ABORTED: conflicts with another method.  SorterObjectArray(::ArrayWrapper<::Il2CppObject*> keys, ::ArrayWrapper<::Il2CppObject*> items, System::Collections::IComparer* comparer);
+    // ABORTED: conflicts with another method.  SorterObjectArray(::ArrayW<::Il2CppObject*> keys, ::ArrayW<::Il2CppObject*> items, System::Collections::IComparer* comparer);
     // System.Void SwapIfGreaterWithItems(System.Int32 a, System.Int32 b)
     // Offset: 0x198CA24
     void SwapIfGreaterWithItems(int a, int b);

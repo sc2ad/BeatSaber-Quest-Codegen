@@ -18,6 +18,11 @@ namespace System::Threading {
   // [TokenAttribute] Offset: FFFFFFFF
   class ReaderWriterCount : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int64 lockID
     // Size: 0x8
     // Offset: 0x10
@@ -50,6 +55,7 @@ namespace System::Threading {
     System::Threading::ReaderWriterCount* next;
     // Field size check
     static_assert(sizeof(System::Threading::ReaderWriterCount*) == 0x8);
+    public:
     // Get instance field reference: public System.Int64 lockID
     int64_t& dyn_lockID();
     // Get instance field reference: public System.Int32 readercount

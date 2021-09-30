@@ -36,6 +36,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::PS4AchievementIdsModelSO::AchievementIdData
     class AchievementIdData;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.List`1<PS4AchievementIdsModelSO/AchievementIdData> _achievementsIds
     // Size: 0x8
     // Offset: 0x18
@@ -54,6 +59,7 @@ namespace GlobalNamespace {
     System::Collections::Generic::Dictionary_2<int, ::Il2CppString*>* trophyIdToAchievementId;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<int, ::Il2CppString*>*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Collections.Generic.List`1<PS4AchievementIdsModelSO/AchievementIdData> _achievementsIds

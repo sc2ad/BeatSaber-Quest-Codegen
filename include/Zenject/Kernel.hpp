@@ -42,6 +42,11 @@ namespace Zenject {
   // [DebuggerStepThroughAttribute] Offset: FFFFFFFF
   class Kernel : public ::Il2CppObject/*, public System::IDisposable, public Zenject::ILateDisposable, public Zenject::IInitializable, public Zenject::ITickable, public Zenject::ILateTickable, public Zenject::IFixedTickable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectLocalAttribute] Offset: 0xEC420C
     // private Zenject.TickableManager _tickableManager
     // Size: 0x8
@@ -63,6 +68,7 @@ namespace Zenject {
     Zenject::DisposableManager* disposablesManager;
     // Field size check
     static_assert(sizeof(Zenject::DisposableManager*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

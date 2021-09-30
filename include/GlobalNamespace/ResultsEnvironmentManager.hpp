@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -31,22 +32,28 @@ namespace GlobalNamespace {
     class ResultEnvironmentControllerWithKeyword;
     // Nested type: GlobalNamespace::ResultsEnvironmentManager::$$c__DisplayClass3_0
     class $$c__DisplayClass3_0;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private ResultsEnvironmentManager/ResultEnvironmentControllerWithKeyword[] _resultEnvironmentControllersWithKeyword
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword*> resultEnvironmentControllersWithKeyword;
+    ::ArrayW<GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword*> resultEnvironmentControllersWithKeyword;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword*>) == 0x8);
     // private System.String _currentShownKeyword
     // Size: 0x8
     // Offset: 0x20
     ::Il2CppString* currentShownKeyword;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private ResultsEnvironmentManager/ResultEnvironmentControllerWithKeyword[] _resultEnvironmentControllersWithKeyword
-    ::ArrayWrapper<GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword*>& dyn__resultEnvironmentControllersWithKeyword();
+    ::ArrayW<GlobalNamespace::ResultsEnvironmentManager::ResultEnvironmentControllerWithKeyword*>& dyn__resultEnvironmentControllersWithKeyword();
     // Get instance field reference: private System.String _currentShownKeyword
     ::Il2CppString*& dyn__currentShownKeyword();
     // public BaseResultsEnvironmentController GetResultEnvironmentControllerForKeyword(System.String keyword)

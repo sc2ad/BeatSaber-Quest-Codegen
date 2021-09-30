@@ -24,6 +24,11 @@ namespace GlobalNamespace {
   // [RequireComponent] Offset: EB4E6C
   class SteamVR_Frustum : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public SteamVR_TrackedObject/EIndex index
     // Size: 0x4
     // Offset: 0x18
@@ -66,6 +71,7 @@ namespace GlobalNamespace {
     float farZ;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public SteamVR_TrackedObject/EIndex index

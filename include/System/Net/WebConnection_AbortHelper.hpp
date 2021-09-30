@@ -27,12 +27,18 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class WebConnection::AbortHelper : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Net.WebConnection Connection
     // Size: 0x8
     // Offset: 0x10
     System::Net::WebConnection* Connection;
     // Field size check
     static_assert(sizeof(System::Net::WebConnection*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Net::WebConnection*
     constexpr operator System::Net::WebConnection*() const noexcept {
       return Connection;

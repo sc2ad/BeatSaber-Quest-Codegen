@@ -34,12 +34,18 @@ namespace Org::BouncyCastle::Utilities::Collections {
   // [TokenAttribute] Offset: FFFFFFFF
   class HashSet : public ::Il2CppObject/*, public Org::BouncyCastle::Utilities::Collections::ISet*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Collections.IDictionary impl
     // Size: 0x8
     // Offset: 0x10
     System::Collections::IDictionary* impl;
     // Field size check
     static_assert(sizeof(System::Collections::IDictionary*) == 0x8);
+    public:
     // Creating interface conversion operator: operator Org::BouncyCastle::Utilities::Collections::ISet
     operator Org::BouncyCastle::Utilities::Collections::ISet() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Utilities::Collections::ISet*>(this);

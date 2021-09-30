@@ -34,12 +34,18 @@ namespace UnityEngine::ProBuilder {
     // [TokenAttribute] Offset: FFFFFFFF
     struct Status/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: Status
       constexpr Status(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -80,6 +86,11 @@ namespace UnityEngine::ProBuilder {
     #pragma pack(pop)
     static check_size<sizeof(ActionResult::Status), 0 + sizeof(int)> __UnityEngine_ProBuilder_ActionResult_StatusSizeCheck;
     static_assert(sizeof(ActionResult::Status) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.ProBuilder.ActionResult/UnityEngine.ProBuilder.Status <status>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -94,6 +105,7 @@ namespace UnityEngine::ProBuilder {
     ::Il2CppString* notification;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: private UnityEngine.ProBuilder.ActionResult/UnityEngine.ProBuilder.Status <status>k__BackingField
     UnityEngine::ProBuilder::ActionResult::Status& dyn_$status$k__BackingField();
     // Get instance field reference: private System.String <notification>k__BackingField

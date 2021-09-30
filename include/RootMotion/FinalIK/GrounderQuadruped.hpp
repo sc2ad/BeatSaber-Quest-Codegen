@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -50,6 +51,11 @@ namespace RootMotion::FinalIK {
     // [TokenAttribute] Offset: FFFFFFFF
     struct Foot/*, public System::ValueType*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public RootMotion.FinalIK.IKSolver solver
       // Size: 0x8
       // Offset: 0x0
@@ -74,6 +80,7 @@ namespace RootMotion::FinalIK {
       RootMotion::FinalIK::Grounding::Leg* leg;
       // Field size check
       static_assert(sizeof(RootMotion::FinalIK::Grounding::Leg*) == 0x8);
+      public:
       // Creating value type constructor for type: Foot
       constexpr Foot(RootMotion::FinalIK::IKSolver* solver_ = {}, UnityEngine::Transform* transform_ = {}, UnityEngine::Quaternion rotation_ = {}, RootMotion::FinalIK::Grounding::Leg* leg_ = {}) noexcept : solver{solver_}, transform{transform_}, rotation{rotation_}, leg{leg_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -95,6 +102,11 @@ namespace RootMotion::FinalIK {
     #pragma pack(pop)
     static check_size<sizeof(GrounderQuadruped::Foot), 32 + sizeof(RootMotion::FinalIK::Grounding::Leg*)> __RootMotion_FinalIK_GrounderQuadruped_FootSizeCheck;
     static_assert(sizeof(GrounderQuadruped::Foot) == 0x28);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [TooltipAttribute] Offset: 0xEF1F80
     // public RootMotion.FinalIK.Grounding forelegSolver
     // Size: 0x8
@@ -188,15 +200,15 @@ namespace RootMotion::FinalIK {
     // public RootMotion.FinalIK.IK[] legs
     // Size: 0x8
     // Offset: 0x88
-    ::ArrayWrapper<RootMotion::FinalIK::IK*> legs;
+    ::ArrayW<RootMotion::FinalIK::IK*> legs;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::IK*>) == 0x8);
+    static_assert(sizeof(::ArrayW<RootMotion::FinalIK::IK*>) == 0x8);
     // public RootMotion.FinalIK.IK[] forelegs
     // Size: 0x8
     // Offset: 0x90
-    ::ArrayWrapper<RootMotion::FinalIK::IK*> forelegs;
+    ::ArrayW<RootMotion::FinalIK::IK*> forelegs;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::IK*>) == 0x8);
+    static_assert(sizeof(::ArrayW<RootMotion::FinalIK::IK*>) == 0x8);
     // public UnityEngine.Vector3 gravity
     // Size: 0xC
     // Offset: 0x98
@@ -208,9 +220,9 @@ namespace RootMotion::FinalIK {
     // private RootMotion.FinalIK.GrounderQuadruped/RootMotion.FinalIK.Foot[] feet
     // Size: 0x8
     // Offset: 0xA8
-    ::ArrayWrapper<RootMotion::FinalIK::GrounderQuadruped::Foot> feet;
+    ::ArrayW<RootMotion::FinalIK::GrounderQuadruped::Foot> feet;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::GrounderQuadruped::Foot>) == 0x8);
+    static_assert(sizeof(::ArrayW<RootMotion::FinalIK::GrounderQuadruped::Foot>) == 0x8);
     // private UnityEngine.Vector3 animatedPelvisLocalPosition
     // Size: 0xC
     // Offset: 0xB0
@@ -295,6 +307,7 @@ namespace RootMotion::FinalIK {
     UnityEngine::Rigidbody* characterRootRigidbody;
     // Field size check
     static_assert(sizeof(UnityEngine::Rigidbody*) == 0x8);
+    public:
     // Get instance field reference: public RootMotion.FinalIK.Grounding forelegSolver
     RootMotion::FinalIK::Grounding*& dyn_forelegSolver();
     // Get instance field reference: public System.Single rootRotationWeight
@@ -320,13 +333,13 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public UnityEngine.Transform head
     UnityEngine::Transform*& dyn_head();
     // Get instance field reference: public RootMotion.FinalIK.IK[] legs
-    ::ArrayWrapper<RootMotion::FinalIK::IK*>& dyn_legs();
+    ::ArrayW<RootMotion::FinalIK::IK*>& dyn_legs();
     // Get instance field reference: public RootMotion.FinalIK.IK[] forelegs
-    ::ArrayWrapper<RootMotion::FinalIK::IK*>& dyn_forelegs();
+    ::ArrayW<RootMotion::FinalIK::IK*>& dyn_forelegs();
     // Get instance field reference: public UnityEngine.Vector3 gravity
     UnityEngine::Vector3& dyn_gravity();
     // Get instance field reference: private RootMotion.FinalIK.GrounderQuadruped/RootMotion.FinalIK.Foot[] feet
-    ::ArrayWrapper<RootMotion::FinalIK::GrounderQuadruped::Foot>& dyn_feet();
+    ::ArrayW<RootMotion::FinalIK::GrounderQuadruped::Foot>& dyn_feet();
     // Get instance field reference: private UnityEngine.Vector3 animatedPelvisLocalPosition
     UnityEngine::Vector3& dyn_animatedPelvisLocalPosition();
     // Get instance field reference: private UnityEngine.Quaternion animatedPelvisLocalRotation
@@ -358,7 +371,7 @@ namespace RootMotion::FinalIK {
     bool IsReadyToInitiate();
     // private System.Boolean IsReadyToInitiateLegs(RootMotion.FinalIK.IK[] ikComponents)
     // Offset: 0x1E8BB48
-    bool IsReadyToInitiateLegs(::ArrayWrapper<RootMotion::FinalIK::IK*> ikComponents);
+    bool IsReadyToInitiateLegs(::ArrayW<RootMotion::FinalIK::IK*> ikComponents);
     // private System.Void OnDisable()
     // Offset: 0x1E8BD08
     void OnDisable();
@@ -370,7 +383,7 @@ namespace RootMotion::FinalIK {
     void Initiate();
     // private UnityEngine.Transform[] InitiateFeet(RootMotion.FinalIK.IK[] ikComponents, ref RootMotion.FinalIK.GrounderQuadruped/RootMotion.FinalIK.Foot[] f, System.Int32 indexOffset)
     // Offset: 0x1E8C128
-    ::ArrayWrapper<UnityEngine::Transform*> InitiateFeet(::ArrayWrapper<RootMotion::FinalIK::IK*> ikComponents, ByRef<::ArrayWrapper<RootMotion::FinalIK::GrounderQuadruped::Foot>> f, int indexOffset);
+    ::ArrayW<UnityEngine::Transform*> InitiateFeet(::ArrayW<RootMotion::FinalIK::IK*> ikComponents, ByRef<::ArrayW<RootMotion::FinalIK::GrounderQuadruped::Foot>> f, int indexOffset);
     // private System.Void LateUpdate()
     // Offset: 0x1E8C488
     void LateUpdate();
@@ -394,7 +407,7 @@ namespace RootMotion::FinalIK {
     void OnDestroy();
     // private System.Void DestroyLegs(RootMotion.FinalIK.IK[] ikComponents)
     // Offset: 0x1E8D99C
-    void DestroyLegs(::ArrayWrapper<RootMotion::FinalIK::IK*> ikComponents);
+    void DestroyLegs(::ArrayW<RootMotion::FinalIK::IK*> ikComponents);
     // public System.Void .ctor()
     // Offset: 0x1E8DB5C
     // Implemented from: RootMotion.FinalIK.Grounder
@@ -443,7 +456,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::GrounderQuadruped::IsReadyToInitiateLegs
 // Il2CppName: IsReadyToInitiateLegs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::GrounderQuadruped::*)(::ArrayWrapper<RootMotion::FinalIK::IK*>)>(&RootMotion::FinalIK::GrounderQuadruped::IsReadyToInitiateLegs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootMotion::FinalIK::GrounderQuadruped::*)(::ArrayW<RootMotion::FinalIK::IK*>)>(&RootMotion::FinalIK::GrounderQuadruped::IsReadyToInitiateLegs)> {
   static const MethodInfo* get() {
     static auto* ikComponents = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IK"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::GrounderQuadruped*), "IsReadyToInitiateLegs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ikComponents});
@@ -476,7 +489,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::GrounderQuadruped::InitiateFeet
 // Il2CppName: InitiateFeet
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Transform*> (RootMotion::FinalIK::GrounderQuadruped::*)(::ArrayWrapper<RootMotion::FinalIK::IK*>, ByRef<::ArrayWrapper<RootMotion::FinalIK::GrounderQuadruped::Foot>>, int)>(&RootMotion::FinalIK::GrounderQuadruped::InitiateFeet)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Transform*> (RootMotion::FinalIK::GrounderQuadruped::*)(::ArrayW<RootMotion::FinalIK::IK*>, ByRef<::ArrayW<RootMotion::FinalIK::GrounderQuadruped::Foot>>, int)>(&RootMotion::FinalIK::GrounderQuadruped::InitiateFeet)> {
   static const MethodInfo* get() {
     static auto* ikComponents = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IK"), 1)->byval_arg;
     static auto* f = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "GrounderQuadruped/Foot"), 1)->this_arg;
@@ -545,7 +558,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::GrounderQuadruped::DestroyLegs
 // Il2CppName: DestroyLegs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::GrounderQuadruped::*)(::ArrayWrapper<RootMotion::FinalIK::IK*>)>(&RootMotion::FinalIK::GrounderQuadruped::DestroyLegs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::GrounderQuadruped::*)(::ArrayW<RootMotion::FinalIK::IK*>)>(&RootMotion::FinalIK::GrounderQuadruped::DestroyLegs)> {
   static const MethodInfo* get() {
     static auto* ikComponents = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IK"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::GrounderQuadruped*), "DestroyLegs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{ikComponents});

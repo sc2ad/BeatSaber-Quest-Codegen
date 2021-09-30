@@ -41,6 +41,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::MenuLightsManager::$Start$d__4
     class $Start$d__4;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private MenuLightsPresetSO _defaultPreset
     // Size: 0x8
     // Offset: 0x18
@@ -68,6 +73,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MenuLightsPresetSO* preset;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MenuLightsPresetSO*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MenuLightsPresetSO _defaultPreset

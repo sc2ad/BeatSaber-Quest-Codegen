@@ -34,12 +34,18 @@ namespace HoudiniEngineUnity {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class JSONObject::$$c__DisplayClass21_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public HoudiniEngineUnity.JSONNode aNode
     // Size: 0x8
     // Offset: 0x10
     HoudiniEngineUnity::JSONNode* aNode;
     // Field size check
     static_assert(sizeof(HoudiniEngineUnity::JSONNode*) == 0x8);
+    public:
     // Creating conversion operator: operator HoudiniEngineUnity::JSONNode*
     constexpr operator HoudiniEngineUnity::JSONNode*() const noexcept {
       return aNode;

@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: System.Xml
 namespace System::Xml {
@@ -18,22 +19,28 @@ namespace System::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   class TernaryTreeReadOnly : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Byte[] nodeBuffer
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<uint8_t> nodeBuffer;
+    ::ArrayW<uint8_t> nodeBuffer;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating conversion operator: operator ::ArrayWrapper<uint8_t>
-    constexpr operator ::ArrayWrapper<uint8_t>() const noexcept {
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
+    public:
+    // Creating conversion operator: operator ::ArrayW<uint8_t>
+    constexpr operator ::ArrayW<uint8_t>() const noexcept {
       return nodeBuffer;
     }
     // Get instance field reference: private System.Byte[] nodeBuffer
-    ::ArrayWrapper<uint8_t>& dyn_nodeBuffer();
+    ::ArrayW<uint8_t>& dyn_nodeBuffer();
     // public System.Void .ctor(System.Byte[] nodeBuffer)
     // Offset: 0x1AF8484
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static TernaryTreeReadOnly* New_ctor(::ArrayWrapper<uint8_t> nodeBuffer) {
+    static TernaryTreeReadOnly* New_ctor(::ArrayW<uint8_t> nodeBuffer) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::TernaryTreeReadOnly::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TernaryTreeReadOnly*, creationType>(nodeBuffer)));
     }
@@ -42,7 +49,7 @@ namespace System::Xml {
     uint8_t FindCaseInsensitiveString(::Il2CppString* stringToFind);
   }; // System.Xml.TernaryTreeReadOnly
   #pragma pack(pop)
-  static check_size<sizeof(TernaryTreeReadOnly), 16 + sizeof(::ArrayWrapper<uint8_t>)> __System_Xml_TernaryTreeReadOnlySizeCheck;
+  static check_size<sizeof(TernaryTreeReadOnly), 16 + sizeof(::ArrayW<uint8_t>)> __System_Xml_TernaryTreeReadOnlySizeCheck;
   static_assert(sizeof(TernaryTreeReadOnly) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::TernaryTreeReadOnly*, "System.Xml", "TernaryTreeReadOnly");

@@ -19,6 +19,11 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HeaderVariantInfo/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String m_name
     // Size: 0x8
     // Offset: 0x0
@@ -31,6 +36,7 @@ namespace System::Net {
     System::Net::CookieVariant m_variant;
     // Field size check
     static_assert(sizeof(System::Net::CookieVariant) == 0x4);
+    public:
     // Creating value type constructor for type: HeaderVariantInfo
     constexpr HeaderVariantInfo(::Il2CppString* m_name_ = {}, System::Net::CookieVariant m_variant_ = {}) noexcept : m_name{m_name_}, m_variant{m_variant_} {}
     // Creating interface conversion operator: operator System::ValueType

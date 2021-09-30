@@ -24,12 +24,18 @@ namespace UnityEngine::Timeline {
   // [ObsoleteAttribute] Offset: EB9570
   class TrackMediaType : public System::Attribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly UnityEngine.Timeline.TimelineAsset/UnityEngine.Timeline.MediaType m_MediaType
     // Size: 0x4
     // Offset: 0x10
     UnityEngine::Timeline::TimelineAsset::MediaType m_MediaType;
     // Field size check
     static_assert(sizeof(UnityEngine::Timeline::TimelineAsset::MediaType) == 0x4);
+    public:
     // Creating conversion operator: operator UnityEngine::Timeline::TimelineAsset::MediaType
     constexpr operator UnityEngine::Timeline::TimelineAsset::MediaType() const noexcept {
       return m_MediaType;

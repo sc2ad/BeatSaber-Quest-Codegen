@@ -22,6 +22,11 @@ namespace UnityEngine {
   // [UsedByNativeCodeAttribute] Offset: E71648
   struct BoneWeight1/*, public System::ValueType, public System::IEquatable_1<UnityEngine::BoneWeight1>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [SerializeField] Offset: 0xE75930
     // private System.Single m_Weight
     // Size: 0x4
@@ -36,6 +41,7 @@ namespace UnityEngine {
     int m_BoneIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: BoneWeight1
     constexpr BoneWeight1(float m_Weight_ = {}, int m_BoneIndex_ = {}) noexcept : m_Weight{m_Weight_}, m_BoneIndex{m_BoneIndex_} {}
     // Creating interface conversion operator: operator System::ValueType

@@ -33,12 +33,18 @@ namespace GlobalNamespace {
   // [RequireComponent] Offset: EEB3E8
   class VisualEffectsController : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private BoolSO _depthTextureEnabled
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::BoolSO* depthTextureEnabled;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BoolSO*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.String kDepthTextureEnabledKeyword

@@ -43,12 +43,18 @@ namespace UnityEngine::TestTools {
     public:
     // Nested type: UnityEngine::TestTools::EnumerableRepeatedTestCommand::$ExecuteEnumerable$d__3
     class $ExecuteEnumerable$d__3;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 repeatCount
     // Size: 0x4
     // Offset: 0x20
     int repeatCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating interface conversion operator: operator UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand
     operator UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand() noexcept {
       return *reinterpret_cast<UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand*>(this);

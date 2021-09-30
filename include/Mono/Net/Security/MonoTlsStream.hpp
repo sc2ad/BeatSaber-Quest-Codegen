@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Mono::Security::Interface
@@ -46,6 +47,11 @@ namespace Mono::Net::Security {
   // [TokenAttribute] Offset: FFFFFFFF
   class MonoTlsStream : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Mono.Security.Interface.MonoTlsProvider provider
     // Size: 0x8
     // Offset: 0x10
@@ -88,6 +94,7 @@ namespace Mono::Net::Security {
     bool CertificateValidationFailed;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private readonly Mono.Security.Interface.MonoTlsProvider provider
     Mono::Security::Interface::MonoTlsProvider*& dyn_provider();
     // Get instance field reference: private readonly System.Net.Sockets.NetworkStream networkStream
@@ -123,7 +130,7 @@ namespace Mono::Net::Security {
     }
     // System.IO.Stream CreateStream(System.Byte[] buffer)
     // Offset: 0x17C1738
-    System::IO::Stream* CreateStream(::ArrayWrapper<uint8_t> buffer);
+    System::IO::Stream* CreateStream(::ArrayW<uint8_t> buffer);
   }; // Mono.Net.Security.MonoTlsStream
   #pragma pack(pop)
   static check_size<sizeof(MonoTlsStream), 60 + sizeof(bool)> __Mono_Net_Security_MonoTlsStreamSizeCheck;
@@ -171,7 +178,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Net::Security::MonoTlsStream::CreateStream
 // Il2CppName: CreateStream
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::Stream* (Mono::Net::Security::MonoTlsStream::*)(::ArrayWrapper<uint8_t>)>(&Mono::Net::Security::MonoTlsStream::CreateStream)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IO::Stream* (Mono::Net::Security::MonoTlsStream::*)(::ArrayW<uint8_t>)>(&Mono::Net::Security::MonoTlsStream::CreateStream)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Net::Security::MonoTlsStream*), "CreateStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer});

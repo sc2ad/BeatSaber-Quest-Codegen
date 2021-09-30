@@ -19,6 +19,7 @@
 #include "UnityEngine/RenderTextureCreationFlags.hpp"
 // Including type: UnityEngine.RenderTextureMemoryless
 #include "UnityEngine/RenderTextureMemoryless.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -36,6 +37,11 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   struct RenderTextureDescriptor/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [DebuggerBrowsableAttribute] Offset: 0xE75950
     // private System.Int32 <width>k__BackingField
     // Size: 0x4
@@ -124,6 +130,7 @@ namespace UnityEngine {
     UnityEngine::RenderTextureMemoryless memoryless;
     // Field size check
     static_assert(sizeof(UnityEngine::RenderTextureMemoryless) == 0x4);
+    public:
     // Creating value type constructor for type: RenderTextureDescriptor
     constexpr RenderTextureDescriptor(int width_ = {}, int height_ = {}, int msaaSamples_ = {}, int volumeDepth_ = {}, int mipCount_ = {}, UnityEngine::Experimental::Rendering::GraphicsFormat graphicsFormat_ = {}, UnityEngine::Experimental::Rendering::GraphicsFormat stencilFormat_ = {}, int depthBufferBits_ = {}, UnityEngine::Rendering::TextureDimension dimension_ = {}, UnityEngine::Rendering::ShadowSamplingMode shadowSamplingMode_ = {}, UnityEngine::VRTextureUsage vrUsage_ = {}, UnityEngine::RenderTextureCreationFlags flags_ = {}, UnityEngine::RenderTextureMemoryless memoryless_ = {}) noexcept : width{width_}, height{height_}, msaaSamples{msaaSamples_}, volumeDepth{volumeDepth_}, mipCount{mipCount_}, graphicsFormat{graphicsFormat_}, stencilFormat{stencilFormat_}, depthBufferBits{depthBufferBits_}, dimension{dimension_}, shadowSamplingMode{shadowSamplingMode_}, vrUsage{vrUsage_}, flags{flags_}, memoryless{memoryless_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -131,9 +138,9 @@ namespace UnityEngine {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // Get static field: static private System.Int32[] depthFormatBits
-    static ::ArrayWrapper<int> _get_depthFormatBits();
+    static ::ArrayW<int> _get_depthFormatBits();
     // Set static field: static private System.Int32[] depthFormatBits
-    static void _set_depthFormatBits(::ArrayWrapper<int> value);
+    static void _set_depthFormatBits(::ArrayW<int> value);
     // Get instance field reference: private System.Int32 <width>k__BackingField
     int& dyn_$width$k__BackingField();
     // Get instance field reference: private System.Int32 <height>k__BackingField

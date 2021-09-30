@@ -51,6 +51,11 @@ namespace System::Net::Http::Headers {
     // Nested type: System::Net::Http::Headers::HeaderInfo::CollectionHeaderTypeInfo_2<T, U>
     template<typename T, typename U>
     class CollectionHeaderTypeInfo_2;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Boolean AllowsMany
     // Size: 0x1
     // Offset: 0x10
@@ -77,6 +82,7 @@ namespace System::Net::Http::Headers {
     System::Func_2<::Il2CppObject*, ::Il2CppString*>* CustomToString;
     // Field size check
     static_assert(sizeof(System::Func_2<::Il2CppObject*, ::Il2CppString*>*) == 0x8);
+    public:
     // Get instance field reference: public System.Boolean AllowsMany
     bool& dyn_AllowsMany();
     // Get instance field reference: public readonly System.Net.Http.Headers.HttpHeaderKind HeaderKind

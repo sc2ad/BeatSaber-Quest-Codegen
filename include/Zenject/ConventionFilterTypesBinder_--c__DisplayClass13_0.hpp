@@ -34,12 +34,18 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class ConventionFilterTypesBinder::$$c__DisplayClass13_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Collections.Generic.IEnumerable`1<System.String> namespaces
     // Size: 0x8
     // Offset: 0x10
     System::Collections::Generic::IEnumerable_1<::Il2CppString*>* namespaces;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::IEnumerable_1<::Il2CppString*>*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Collections::Generic::IEnumerable_1<::Il2CppString*>*
     constexpr operator System::Collections::Generic::IEnumerable_1<::Il2CppString*>*() const noexcept {
       return namespaces;

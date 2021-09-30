@@ -19,6 +19,7 @@
 #include "System/Runtime/CompilerServices/TaskAwaiter_1.hpp"
 // Including type: AdditionalContentModel/EntitlementStatus
 #include "GlobalNamespace/AdditionalContentModel.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -36,6 +37,11 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   struct DlcPromoExperimentModel::$UpdateNotOwnedPacksAsync$d__18/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0
@@ -63,9 +69,9 @@ namespace GlobalNamespace {
     // private DlcPromoExperimentDataSO/MusicPackPromoInfo[] <>7__wrap2
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayWrapper<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*> $$7__wrap2;
+    ::ArrayW<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*> $$7__wrap2;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*>) == 0x8);
     // private System.Int32 <>7__wrap3
     // Size: 0x4
     // Offset: 0x40
@@ -82,8 +88,9 @@ namespace GlobalNamespace {
     // Size: 0xFFFFFFFF
     // Offset: 0x50
     System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus> $$u__1;
+    public:
     // Creating value type constructor for type: $UpdateNotOwnedPacksAsync$d__18
-    constexpr $UpdateNotOwnedPacksAsync$d__18(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncVoidMethodBuilder $$t__builder_ = {}, GlobalNamespace::DlcPromoExperimentModel* $$4__this_ = {}, System::Collections::Generic::List_1<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*>* $newNotOwnedMusicPackPromoInfos$5__2_ = {}, ::ArrayWrapper<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*> $$7__wrap2_ = ::ArrayWrapper<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*>(nullptr), int $$7__wrap3_ = {}, GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo* $packData$5__5_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus> $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, $newNotOwnedMusicPackPromoInfos$5__2{$newNotOwnedMusicPackPromoInfos$5__2_}, $$7__wrap2{$$7__wrap2_}, $$7__wrap3{$$7__wrap3_}, $packData$5__5{$packData$5__5_}, $$u__1{$$u__1_} {}
+    constexpr $UpdateNotOwnedPacksAsync$d__18(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncVoidMethodBuilder $$t__builder_ = {}, GlobalNamespace::DlcPromoExperimentModel* $$4__this_ = {}, System::Collections::Generic::List_1<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*>* $newNotOwnedMusicPackPromoInfos$5__2_ = {}, ::ArrayW<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*> $$7__wrap2_ = ::ArrayW<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*>(nullptr), int $$7__wrap3_ = {}, GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo* $packData$5__5_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus> $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, $newNotOwnedMusicPackPromoInfos$5__2{$newNotOwnedMusicPackPromoInfos$5__2_}, $$7__wrap2{$$7__wrap2_}, $$7__wrap3{$$7__wrap3_}, $packData$5__5{$packData$5__5_}, $$u__1{$$u__1_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -101,7 +108,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.List`1<DlcPromoExperimentDataSO/MusicPackPromoInfo> <newNotOwnedMusicPackPromoInfos>5__2
     System::Collections::Generic::List_1<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*>*& dyn_$newNotOwnedMusicPackPromoInfos$5__2();
     // Get instance field reference: private DlcPromoExperimentDataSO/MusicPackPromoInfo[] <>7__wrap2
-    ::ArrayWrapper<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*>& dyn_$$7__wrap2();
+    ::ArrayW<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*>& dyn_$$7__wrap2();
     // Get instance field reference: private System.Int32 <>7__wrap3
     int& dyn_$$7__wrap3();
     // Get instance field reference: private DlcPromoExperimentDataSO/MusicPackPromoInfo <packData>5__5

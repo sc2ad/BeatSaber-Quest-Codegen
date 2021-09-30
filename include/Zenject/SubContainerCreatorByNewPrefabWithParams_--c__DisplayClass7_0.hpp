@@ -30,12 +30,18 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class SubContainerCreatorByNewPrefabWithParams::$$c__DisplayClass7_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public Zenject.TypeValuePair argPair
     // Size: 0x10
     // Offset: 0x10
     Zenject::TypeValuePair argPair;
     // Field size check
     static_assert(sizeof(Zenject::TypeValuePair) == 0x10);
+    public:
     // Creating conversion operator: operator Zenject::TypeValuePair
     constexpr operator Zenject::TypeValuePair() const noexcept {
       return argPair;

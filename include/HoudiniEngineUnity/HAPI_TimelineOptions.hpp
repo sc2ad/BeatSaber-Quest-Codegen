@@ -16,6 +16,11 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HAPI_TimelineOptions/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Single fps
     // Size: 0x4
     // Offset: 0x0
@@ -34,6 +39,7 @@ namespace HoudiniEngineUnity {
     float endTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: HAPI_TimelineOptions
     constexpr HAPI_TimelineOptions(float fps_ = {}, float startTime_ = {}, float endTime_ = {}) noexcept : fps{fps_}, startTime{startTime_}, endTime{endTime_} {}
     // Creating interface conversion operator: operator System::ValueType

@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net
@@ -43,6 +44,11 @@ namespace System::Net {
     class WriteDelegate;
     // Nested type: System::Net::FtpDataStream::ReadDelegate
     class ReadDelegate;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Net.FtpWebRequest request
     // Size: 0x8
     // Offset: 0x28
@@ -75,6 +81,7 @@ namespace System::Net {
     int totalRead;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: private System.Net.FtpWebRequest request
     System::Net::FtpWebRequest*& dyn_request();
     // Get instance field reference: private System.IO.Stream networkStream
@@ -94,10 +101,10 @@ namespace System::Net {
     }
     // private System.Int32 ReadInternal(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
     // Offset: 0x1581828
-    int ReadInternal(::ArrayWrapper<uint8_t> buffer, int offset, int size);
+    int ReadInternal(::ArrayW<uint8_t> buffer, int offset, int size);
     // private System.Void WriteInternal(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
     // Offset: 0x158210C
-    void WriteInternal(::ArrayWrapper<uint8_t> buffer, int offset, int size);
+    void WriteInternal(::ArrayW<uint8_t> buffer, int offset, int size);
     // private System.Void System.IDisposable.Dispose()
     // Offset: 0x158280C
     void System_IDisposable_Dispose();
@@ -158,7 +165,7 @@ namespace System::Net {
     // Offset: 0x1581AEC
     // Implemented from: System.IO.Stream
     // Base method: System.IAsyncResult Stream::BeginRead(System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.AsyncCallback cb, System.Object state)
-    System::IAsyncResult* BeginRead(::ArrayWrapper<uint8_t> buffer, int offset, int size, System::AsyncCallback* cb, ::Il2CppObject* state);
+    System::IAsyncResult* BeginRead(::ArrayW<uint8_t> buffer, int offset, int size, System::AsyncCallback* cb, ::Il2CppObject* state);
     // public override System.Int32 EndRead(System.IAsyncResult asyncResult)
     // Offset: 0x1581DE0
     // Implemented from: System.IO.Stream
@@ -168,12 +175,12 @@ namespace System::Net {
     // Offset: 0x1581F28
     // Implemented from: System.IO.Stream
     // Base method: System.Int32 Stream::Read(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
-    int Read(::ArrayWrapper<uint8_t> buffer, int offset, int size);
+    int Read(::ArrayW<uint8_t> buffer, int offset, int size);
     // public override System.IAsyncResult BeginWrite(System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.AsyncCallback cb, System.Object state)
     // Offset: 0x158223C
     // Implemented from: System.IO.Stream
     // Base method: System.IAsyncResult Stream::BeginWrite(System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.AsyncCallback cb, System.Object state)
-    System::IAsyncResult* BeginWrite(::ArrayWrapper<uint8_t> buffer, int offset, int size, System::AsyncCallback* cb, ::Il2CppObject* state);
+    System::IAsyncResult* BeginWrite(::ArrayW<uint8_t> buffer, int offset, int size, System::AsyncCallback* cb, ::Il2CppObject* state);
     // public override System.Void EndWrite(System.IAsyncResult asyncResult)
     // Offset: 0x1582484
     // Implemented from: System.IO.Stream
@@ -183,7 +190,7 @@ namespace System::Net {
     // Offset: 0x15825B0
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::Write(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
-    void Write(::ArrayWrapper<uint8_t> buffer, int offset, int size);
+    void Write(::ArrayW<uint8_t> buffer, int offset, int size);
     // protected override System.Void Finalize()
     // Offset: 0x1582794
     // Implemented from: System.Object
@@ -208,7 +215,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::FtpDataStream*, "System.Net", "FtpDataStream
 // Writing MetadataGetter for method: System::Net::FtpDataStream::ReadInternal
 // Il2CppName: ReadInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::FtpDataStream::*)(::ArrayWrapper<uint8_t>, int, int)>(&System::Net::FtpDataStream::ReadInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::FtpDataStream::*)(::ArrayW<uint8_t>, int, int)>(&System::Net::FtpDataStream::ReadInternal)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -219,7 +226,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Net::FtpDataStream::WriteInternal
 // Il2CppName: WriteInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::FtpDataStream::*)(::ArrayWrapper<uint8_t>, int, int)>(&System::Net::FtpDataStream::WriteInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::FtpDataStream::*)(::ArrayW<uint8_t>, int, int)>(&System::Net::FtpDataStream::WriteInternal)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -330,7 +337,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::FtpDataStream::BeginRead
 // Il2CppName: BeginRead
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::FtpDataStream::*)(::ArrayWrapper<uint8_t>, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::FtpDataStream::BeginRead)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::FtpDataStream::*)(::ArrayW<uint8_t>, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::FtpDataStream::BeginRead)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -352,7 +359,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Net::FtpDataStream::Read
 // Il2CppName: Read
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::FtpDataStream::*)(::ArrayWrapper<uint8_t>, int, int)>(&System::Net::FtpDataStream::Read)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::FtpDataStream::*)(::ArrayW<uint8_t>, int, int)>(&System::Net::FtpDataStream::Read)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -363,7 +370,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Net::FtpDataStream::BeginWrite
 // Il2CppName: BeginWrite
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::FtpDataStream::*)(::ArrayWrapper<uint8_t>, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::FtpDataStream::BeginWrite)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::FtpDataStream::*)(::ArrayW<uint8_t>, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::FtpDataStream::BeginWrite)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -385,7 +392,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::FtpDataStream::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::FtpDataStream::*)(::ArrayWrapper<uint8_t>, int, int)>(&System::Net::FtpDataStream::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::FtpDataStream::*)(::ArrayW<uint8_t>, int, int)>(&System::Net::FtpDataStream::Write)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

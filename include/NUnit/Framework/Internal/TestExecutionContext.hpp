@@ -69,6 +69,11 @@ namespace NUnit::Framework::Internal {
     public:
     // Nested type: NUnit::Framework::Internal::TestExecutionContext::$$c
     class $$c;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private NUnit.Framework.Internal.TestExecutionContext _priorContext
     // Size: 0x8
     // Offset: 0x18
@@ -164,6 +169,7 @@ namespace NUnit::Framework::Internal {
     bool IsSingleThreaded;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator NUnit::Framework::Internal::ITestExecutionContext
     operator NUnit::Framework::Internal::ITestExecutionContext() noexcept {
       return *reinterpret_cast<NUnit::Framework::Internal::ITestExecutionContext*>(this);

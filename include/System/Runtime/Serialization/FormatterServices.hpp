@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Serialization
@@ -49,9 +50,9 @@ namespace System::Runtime::Serialization {
     // Nested type: System::Runtime::Serialization::FormatterServices::$$c__DisplayClass9_0
     class $$c__DisplayClass9_0;
     // Get static field: static System.Collections.Concurrent.ConcurrentDictionary`2<System.Runtime.Serialization.MemberHolder,System.Reflection.MemberInfo[]> m_MemberInfoTable
-    static System::Collections::Concurrent::ConcurrentDictionary_2<System::Runtime::Serialization::MemberHolder*, ::ArrayWrapper<System::Reflection::MemberInfo*>>* _get_m_MemberInfoTable();
+    static System::Collections::Concurrent::ConcurrentDictionary_2<System::Runtime::Serialization::MemberHolder*, ::ArrayW<System::Reflection::MemberInfo*>>* _get_m_MemberInfoTable();
     // Set static field: static System.Collections.Concurrent.ConcurrentDictionary`2<System.Runtime.Serialization.MemberHolder,System.Reflection.MemberInfo[]> m_MemberInfoTable
-    static void _set_m_MemberInfoTable(System::Collections::Concurrent::ConcurrentDictionary_2<System::Runtime::Serialization::MemberHolder*, ::ArrayWrapper<System::Reflection::MemberInfo*>>* value);
+    static void _set_m_MemberInfoTable(System::Collections::Concurrent::ConcurrentDictionary_2<System::Runtime::Serialization::MemberHolder*, ::ArrayW<System::Reflection::MemberInfo*>>* value);
     // Get static field: static private System.Boolean unsafeTypeForwardersIsEnabled
     static bool _get_unsafeTypeForwardersIsEnabled();
     // Set static field: static private System.Boolean unsafeTypeForwardersIsEnabled
@@ -61,9 +62,9 @@ namespace System::Runtime::Serialization {
     // Set static field: static private System.Boolean unsafeTypeForwardersIsEnabledInitialized
     static void _set_unsafeTypeForwardersIsEnabledInitialized(bool value);
     // Get static field: static private readonly System.Type[] advancedTypes
-    static ::ArrayWrapper<System::Type*> _get_advancedTypes();
+    static ::ArrayW<System::Type*> _get_advancedTypes();
     // Set static field: static private readonly System.Type[] advancedTypes
-    static void _set_advancedTypes(::ArrayWrapper<System::Type*> value);
+    static void _set_advancedTypes(::ArrayW<System::Type*> value);
     // Get static field: static private System.Reflection.Binder s_binder
     static System::Reflection::Binder* _get_s_binder();
     // Set static field: static private System.Reflection.Binder s_binder
@@ -73,19 +74,19 @@ namespace System::Runtime::Serialization {
     static void _cctor();
     // static private System.Reflection.MemberInfo[] GetSerializableMembers(System.RuntimeType type)
     // Offset: 0x17E4588
-    static ::ArrayWrapper<System::Reflection::MemberInfo*> GetSerializableMembers(System::RuntimeType* type);
+    static ::ArrayW<System::Reflection::MemberInfo*> GetSerializableMembers(System::RuntimeType* type);
     // static private System.Boolean CheckSerializable(System.RuntimeType type)
     // Offset: 0x17E4730
     static bool CheckSerializable(System::RuntimeType* type);
     // static private System.Reflection.MemberInfo[] InternalGetSerializableMembers(System.RuntimeType type)
     // Offset: 0x17E4750
-    static ::ArrayWrapper<System::Reflection::MemberInfo*> InternalGetSerializableMembers(System::RuntimeType* type);
+    static ::ArrayW<System::Reflection::MemberInfo*> InternalGetSerializableMembers(System::RuntimeType* type);
     // static private System.Boolean GetParentTypes(System.RuntimeType parentType, out System.RuntimeType[] parentTypes, out System.Int32 parentTypeCount)
     // Offset: 0x17E4DD0
-    static bool GetParentTypes(System::RuntimeType* parentType, ByRef<::ArrayWrapper<System::RuntimeType*>> parentTypes, ByRef<int> parentTypeCount);
+    static bool GetParentTypes(System::RuntimeType* parentType, ByRef<::ArrayW<System::RuntimeType*>> parentTypes, ByRef<int> parentTypeCount);
     // static public System.Reflection.MemberInfo[] GetSerializableMembers(System.Type type, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x17E510C
-    static ::ArrayWrapper<System::Reflection::MemberInfo*> GetSerializableMembers(System::Type* type, System::Runtime::Serialization::StreamingContext context);
+    static ::ArrayW<System::Reflection::MemberInfo*> GetSerializableMembers(System::Type* type, System::Runtime::Serialization::StreamingContext context);
     // static public System.Object GetUninitializedObject(System.Type type)
     // Offset: 0x17E5364
     static ::Il2CppObject* GetUninitializedObject(System::Type* type);
@@ -103,10 +104,10 @@ namespace System::Runtime::Serialization {
     static void SerializationSetValue(System::Reflection::MemberInfo* fi, ::Il2CppObject* target, ::Il2CppObject* value);
     // static public System.Object PopulateObjectMembers(System.Object obj, System.Reflection.MemberInfo[] members, System.Object[] data)
     // Offset: 0x17E57D0
-    static ::Il2CppObject* PopulateObjectMembers(::Il2CppObject* obj, ::ArrayWrapper<System::Reflection::MemberInfo*> members, ::ArrayWrapper<::Il2CppObject*> data);
+    static ::Il2CppObject* PopulateObjectMembers(::Il2CppObject* obj, ::ArrayW<System::Reflection::MemberInfo*> members, ::ArrayW<::Il2CppObject*> data);
     // static public System.Object[] GetObjectData(System.Object obj, System.Reflection.MemberInfo[] members)
     // Offset: 0x17E5ACC
-    static ::ArrayWrapper<::Il2CppObject*> GetObjectData(::Il2CppObject* obj, ::ArrayWrapper<System::Reflection::MemberInfo*> members);
+    static ::ArrayW<::Il2CppObject*> GetObjectData(::Il2CppObject* obj, ::ArrayW<System::Reflection::MemberInfo*> members);
     // static public System.Type GetTypeFromAssembly(System.Reflection.Assembly assem, System.String name)
     // Offset: 0x17E5E04
     static System::Type* GetTypeFromAssembly(System::Reflection::Assembly* assem, ::Il2CppString* name);
@@ -145,7 +146,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Runtime::Serialization::FormatterServices::GetSerializableMembers
 // Il2CppName: GetSerializableMembers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::Reflection::MemberInfo*> (*)(System::RuntimeType*)>(&System::Runtime::Serialization::FormatterServices::GetSerializableMembers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Reflection::MemberInfo*> (*)(System::RuntimeType*)>(&System::Runtime::Serialization::FormatterServices::GetSerializableMembers)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "RuntimeType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::FormatterServices*), "GetSerializableMembers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -163,7 +164,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Runtime::Serialization::FormatterServices::InternalGetSerializableMembers
 // Il2CppName: InternalGetSerializableMembers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::Reflection::MemberInfo*> (*)(System::RuntimeType*)>(&System::Runtime::Serialization::FormatterServices::InternalGetSerializableMembers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Reflection::MemberInfo*> (*)(System::RuntimeType*)>(&System::Runtime::Serialization::FormatterServices::InternalGetSerializableMembers)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "RuntimeType")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::FormatterServices*), "InternalGetSerializableMembers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -172,7 +173,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: System::Runtime::Serialization::FormatterServices::GetParentTypes
 // Il2CppName: GetParentTypes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::RuntimeType*, ByRef<::ArrayWrapper<System::RuntimeType*>>, ByRef<int>)>(&System::Runtime::Serialization::FormatterServices::GetParentTypes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::RuntimeType*, ByRef<::ArrayW<System::RuntimeType*>>, ByRef<int>)>(&System::Runtime::Serialization::FormatterServices::GetParentTypes)> {
   static const MethodInfo* get() {
     static auto* parentType = &::il2cpp_utils::GetClassFromName("System", "RuntimeType")->byval_arg;
     static auto* parentTypes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "RuntimeType"), 1)->this_arg;
@@ -183,7 +184,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::Runtime::Serialization::FormatterServices::GetSerializableMembers
 // Il2CppName: GetSerializableMembers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::Reflection::MemberInfo*> (*)(System::Type*, System::Runtime::Serialization::StreamingContext)>(&System::Runtime::Serialization::FormatterServices::GetSerializableMembers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Reflection::MemberInfo*> (*)(System::Type*, System::Runtime::Serialization::StreamingContext)>(&System::Runtime::Serialization::FormatterServices::GetSerializableMembers)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* context = &::il2cpp_utils::GetClassFromName("System.Runtime.Serialization", "StreamingContext")->byval_arg;
@@ -238,7 +239,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Runtime::Serialization::FormatterServices::PopulateObjectMembers
 // Il2CppName: PopulateObjectMembers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Il2CppObject*, ::ArrayWrapper<System::Reflection::MemberInfo*>, ::ArrayWrapper<::Il2CppObject*>)>(&System::Runtime::Serialization::FormatterServices::PopulateObjectMembers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Il2CppObject*, ::ArrayW<System::Reflection::MemberInfo*>, ::ArrayW<::Il2CppObject*>)>(&System::Runtime::Serialization::FormatterServices::PopulateObjectMembers)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* members = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Reflection", "MemberInfo"), 1)->byval_arg;
@@ -249,7 +250,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Runtime::Serialization::FormatterServices::GetObjectData
 // Il2CppName: GetObjectData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppObject*> (*)(::Il2CppObject*, ::ArrayWrapper<System::Reflection::MemberInfo*>)>(&System::Runtime::Serialization::FormatterServices::GetObjectData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppObject*> (*)(::Il2CppObject*, ::ArrayW<System::Reflection::MemberInfo*>)>(&System::Runtime::Serialization::FormatterServices::GetObjectData)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* members = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Reflection", "MemberInfo"), 1)->byval_arg;

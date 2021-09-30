@@ -21,6 +21,11 @@ namespace UnityEngine::AddressableAssets::Initialization {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class CacheInitialization::$$c__DisplayClass1_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.AddressableAssets.Initialization.CacheInitialization <>4__this
     // Size: 0x8
     // Offset: 0x10
@@ -39,6 +44,7 @@ namespace UnityEngine::AddressableAssets::Initialization {
     ::Il2CppString* data;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: public UnityEngine.AddressableAssets.Initialization.CacheInitialization <>4__this
     UnityEngine::AddressableAssets::Initialization::CacheInitialization*& dyn_$$4__this();
     // Get instance field reference: public System.String id

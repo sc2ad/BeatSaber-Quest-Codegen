@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Utilities
@@ -27,9 +28,9 @@ namespace Org::BouncyCastle::Crypto::Digests {
   class Gost3411_2012_512Digest : public Org::BouncyCastle::Crypto::Digests::Gost3411_2012Digest {
     public:
     // Get static field: static private readonly System.Byte[] IV
-    static ::ArrayWrapper<uint8_t> _get_IV();
+    static ::ArrayW<uint8_t> _get_IV();
     // Set static field: static private readonly System.Byte[] IV
-    static void _set_IV(::ArrayWrapper<uint8_t> value);
+    static void _set_IV(::ArrayW<uint8_t> value);
     // public System.Void .ctor(Org.BouncyCastle.Crypto.Digests.Gost3411_2012_512Digest other)
     // Offset: 0x1F01B38
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

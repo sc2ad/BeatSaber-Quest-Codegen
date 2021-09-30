@@ -42,6 +42,11 @@ namespace GlobalNamespace {
   // [RequireComponent] Offset: EEB364
   class Mirror : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private MirrorRendererSO _mirrorRenderer
     // Size: 0x8
     // Offset: 0x18
@@ -80,6 +85,7 @@ namespace GlobalNamespace {
     System::Action_1<bool>* mirrorDidChangeEnabledStateEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<bool>*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEEBAF8

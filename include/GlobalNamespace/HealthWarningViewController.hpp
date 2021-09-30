@@ -44,6 +44,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class HealthWarningViewController : public HMUI::ViewController {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.UI.Button _continueButton
     // Size: 0x8
     // Offset: 0x70
@@ -100,6 +105,7 @@ namespace GlobalNamespace {
     System::Action* didFinishEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
+    public:
     // Get instance field reference: private UnityEngine.UI.Button _continueButton
     UnityEngine::UI::Button*& dyn__continueButton();
     // Get instance field reference: private UnityEngine.UI.Button _privacyPolicyButton

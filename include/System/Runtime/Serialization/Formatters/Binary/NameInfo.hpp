@@ -29,6 +29,11 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   // [TokenAttribute] Offset: FFFFFFFF
   class NameInfo : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.String NIFullName
     // Size: 0x8
     // Offset: 0x10
@@ -111,6 +116,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     bool NIsealedStatusChecked;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: System.String NIFullName
     ::Il2CppString*& dyn_NIFullName();
     // Get instance field reference: System.Int64 NIobjectId

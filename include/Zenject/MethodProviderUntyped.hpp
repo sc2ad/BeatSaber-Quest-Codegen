@@ -46,6 +46,11 @@ namespace Zenject {
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
   class MethodProviderUntyped : public ::Il2CppObject/*, public Zenject::IProvider*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x10
@@ -58,6 +63,7 @@ namespace Zenject {
     System::Func_2<Zenject::InjectContext*, ::Il2CppObject*>* method;
     // Field size check
     static_assert(sizeof(System::Func_2<Zenject::InjectContext*, ::Il2CppObject*>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator Zenject::IProvider
     operator Zenject::IProvider() noexcept {
       return *reinterpret_cast<Zenject::IProvider*>(this);

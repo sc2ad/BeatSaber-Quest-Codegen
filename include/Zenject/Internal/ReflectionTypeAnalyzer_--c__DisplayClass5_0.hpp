@@ -35,12 +35,18 @@ namespace Zenject::Internal {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class ReflectionTypeAnalyzer::$$c__DisplayClass5_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Type type
     // Size: 0x8
     // Offset: 0x10
     System::Type* type;
     // Field size check
     static_assert(sizeof(System::Type*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Type*
     constexpr operator System::Type*() const noexcept {
       return type;

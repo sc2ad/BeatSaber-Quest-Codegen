@@ -50,6 +50,11 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class FileWebResponse : public System::Net::WebResponse/*, public System::Net::ICloseEx*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean m_closed
     // Size: 0x1
     // Offset: 0x18
@@ -90,6 +95,7 @@ namespace System::Net {
     System::Uri* m_uri;
     // Field size check
     static_assert(sizeof(System::Uri*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Net::ICloseEx
     operator System::Net::ICloseEx() noexcept {
       return *reinterpret_cast<System::Net::ICloseEx*>(this);

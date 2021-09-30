@@ -46,6 +46,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class JoinQuickPlayViewController : public HMUI::ViewController {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private BeatmapDifficultyDropdown _beatmapDifficultyDropdown
     // Size: 0x8
     // Offset: 0x70
@@ -88,6 +93,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerModeSettings* multiplayerModeSettings;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerModeSettings*) == 0x8);
+    public:
     // Get instance field reference: private BeatmapDifficultyDropdown _beatmapDifficultyDropdown
     GlobalNamespace::BeatmapDifficultyDropdown*& dyn__beatmapDifficultyDropdown();
     // Get instance field reference: private QuickPlaySongPacksDropdown _songPacksDropdown

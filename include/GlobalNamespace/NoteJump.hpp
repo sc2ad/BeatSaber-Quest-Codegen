@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -44,6 +45,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class NoteJump : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Transform _rotatedObject
     // Size: 0x8
     // Offset: 0x18
@@ -226,9 +232,9 @@ namespace GlobalNamespace {
     // private readonly UnityEngine.Vector3[] _randomRotations
     // Size: 0x8
     // Offset: 0xF0
-    ::ArrayWrapper<UnityEngine::Vector3> randomRotations;
+    ::ArrayW<UnityEngine::Vector3> randomRotations;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector3>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Vector3>) == 0x8);
     // private System.Int32 _randomRotationIdx
     // Size: 0x4
     // Offset: 0xF8
@@ -247,6 +253,7 @@ namespace GlobalNamespace {
     UnityEngine::Quaternion inverseWorldRotation;
     // Field size check
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static public System.Single kMissedTimeOffset
@@ -312,7 +319,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Vector3 _localPosition
     UnityEngine::Vector3& dyn__localPosition();
     // Get instance field reference: private readonly UnityEngine.Vector3[] _randomRotations
-    ::ArrayWrapper<UnityEngine::Vector3>& dyn__randomRotations();
+    ::ArrayW<UnityEngine::Vector3>& dyn__randomRotations();
     // Get instance field reference: private System.Int32 _randomRotationIdx
     int& dyn__randomRotationIdx();
     // Get instance field reference: private UnityEngine.Quaternion _worldRotation

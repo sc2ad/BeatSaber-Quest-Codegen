@@ -18,6 +18,11 @@ namespace System::Globalization {
   // [TokenAttribute] Offset: FFFFFFFF
   class Bootstring : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Char delimiter
     // Size: 0x2
     // Offset: 0x10
@@ -68,6 +73,7 @@ namespace System::Globalization {
     int initial_n;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: private readonly System.Char delimiter
     ::Il2CppChar& dyn_delimiter();
     // Get instance field reference: private readonly System.Int32 base_num

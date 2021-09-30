@@ -22,6 +22,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GameEnergyCounter::InitData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly GameplayModifiers/EnergyType energyType
     // Size: 0x4
     // Offset: 0x10
@@ -46,6 +51,7 @@ namespace GlobalNamespace {
     bool failOnSaberClash;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: public readonly GameplayModifiers/EnergyType energyType
     GlobalNamespace::GameplayModifiers::EnergyType& dyn_energyType();
     // Get instance field reference: public readonly System.Boolean noFail

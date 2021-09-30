@@ -24,6 +24,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class VRControllersRecorder::Keyframe : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Vector3 _pos1
     // Size: 0xC
     // Offset: 0x10
@@ -66,6 +71,7 @@ namespace GlobalNamespace {
     float time;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: public UnityEngine.Vector3 _pos1
     UnityEngine::Vector3& dyn__pos1();
     // Get instance field reference: public UnityEngine.Vector3 _pos2

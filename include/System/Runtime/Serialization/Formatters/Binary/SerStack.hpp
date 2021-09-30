@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: System.Runtime.Serialization.Formatters.Binary
 namespace System::Runtime::Serialization::Formatters::Binary {
@@ -18,12 +19,17 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   // [TokenAttribute] Offset: FFFFFFFF
   class SerStack : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Object[] objects
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<::Il2CppObject*> objects;
+    ::ArrayW<::Il2CppObject*> objects;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppObject*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppObject*>) == 0x8);
     // System.String stackId
     // Size: 0x8
     // Offset: 0x18
@@ -36,8 +42,9 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     int top;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: System.Object[] objects
-    ::ArrayWrapper<::Il2CppObject*>& dyn_objects();
+    ::ArrayW<::Il2CppObject*>& dyn_objects();
     // Get instance field reference: System.String stackId
     ::Il2CppString*& dyn_stackId();
     // Get instance field reference: System.Int32 top

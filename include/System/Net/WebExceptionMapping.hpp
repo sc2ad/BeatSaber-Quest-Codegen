@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net
@@ -22,9 +23,9 @@ namespace System::Net {
   class WebExceptionMapping : public ::Il2CppObject {
     public:
     // Get static field: static private readonly System.String[] s_Mapping
-    static ::ArrayWrapper<::Il2CppString*> _get_s_Mapping();
+    static ::ArrayW<::Il2CppString*> _get_s_Mapping();
     // Set static field: static private readonly System.String[] s_Mapping
-    static void _set_s_Mapping(::ArrayWrapper<::Il2CppString*> value);
+    static void _set_s_Mapping(::ArrayW<::Il2CppString*> value);
     // static private System.Void .cctor()
     // Offset: 0x1782C4C
     static void _cctor();

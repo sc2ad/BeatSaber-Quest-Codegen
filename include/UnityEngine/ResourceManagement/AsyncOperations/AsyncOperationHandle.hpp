@@ -56,6 +56,11 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
   // [TokenAttribute] Offset: FFFFFFFF
   struct AsyncOperationHandle/*, public System::ValueType, public System::Collections::IEnumerator*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // UnityEngine.ResourceManagement.AsyncOperations.IAsyncOperation m_InternalOp
     // Size: 0x8
     // Offset: 0x0
@@ -76,6 +81,7 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     ::Il2CppString* m_LocationName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Creating value type constructor for type: AsyncOperationHandle
     constexpr AsyncOperationHandle(UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* m_InternalOp_ = {}, int m_Version_ = {}, ::Il2CppString* m_LocationName_ = {}) noexcept : m_InternalOp{m_InternalOp_}, m_Version{m_Version_}, m_LocationName{m_LocationName_} {}
     // Creating interface conversion operator: operator System::ValueType

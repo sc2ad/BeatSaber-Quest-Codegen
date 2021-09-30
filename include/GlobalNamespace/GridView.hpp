@@ -46,6 +46,11 @@ namespace GlobalNamespace {
     class IDataSource;
     // Nested type: GlobalNamespace::GridView::GridViewCellsEnumerator
     class GridViewCellsEnumerator;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.RectTransform _contentTransform
     // Size: 0x8
     // Offset: 0x18
@@ -88,6 +93,7 @@ namespace GlobalNamespace {
     System::Collections::Generic::Dictionary_2<UnityEngine::MonoBehaviour*, System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>*>* spawnedCellsPerPrefabDictionary;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<UnityEngine::MonoBehaviour*, System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>*>*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.RectTransform _contentTransform

@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -20,6 +21,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class RollingAverage : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int64 _currentTotal
     // Size: 0x8
     // Offset: 0x10
@@ -37,9 +43,9 @@ namespace GlobalNamespace {
     // private readonly System.Int64[] _buffer
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<int64_t> buffer;
+    ::ArrayW<int64_t> buffer;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int64_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<int64_t>) == 0x8);
     // private System.Int32 _index
     // Size: 0x4
     // Offset: 0x28
@@ -52,6 +58,7 @@ namespace GlobalNamespace {
     int length;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // static field const value: static private System.Int64 kGranularity
     static constexpr const int64_t kGranularity = 1000;
     // Get static field: static private System.Int64 kGranularity
@@ -63,7 +70,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _currentAverage
     float& dyn__currentAverage();
     // Get instance field reference: private readonly System.Int64[] _buffer
-    ::ArrayWrapper<int64_t>& dyn__buffer();
+    ::ArrayW<int64_t>& dyn__buffer();
     // Get instance field reference: private System.Int32 _index
     int& dyn__index();
     // Get instance field reference: private System.Int32 _length

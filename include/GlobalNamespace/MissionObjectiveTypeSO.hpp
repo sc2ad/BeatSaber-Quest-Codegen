@@ -27,6 +27,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MissionObjectiveTypeSO : public GlobalNamespace::PersistentScriptableObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [LocalizationKeyAttribute] Offset: 0xF02BA4
     // private System.String _objectiveName
     // Size: 0x8
@@ -48,6 +53,7 @@ namespace GlobalNamespace {
     GlobalNamespace::ObjectiveValueFormatterSO* objectiveValueFormater;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ObjectiveValueFormatterSO*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String _objectiveName

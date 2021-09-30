@@ -47,12 +47,18 @@ namespace UnityEngine::UI {
     // [TokenAttribute] Offset: FFFFFFFF
     struct FitMode/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: FitMode
       constexpr FitMode(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -87,6 +93,11 @@ namespace UnityEngine::UI {
     #pragma pack(pop)
     static check_size<sizeof(ContentSizeFitter::FitMode), 0 + sizeof(int)> __UnityEngine_UI_ContentSizeFitter_FitModeSizeCheck;
     static_assert(sizeof(ContentSizeFitter::FitMode) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // protected UnityEngine.UI.ContentSizeFitter/UnityEngine.UI.FitMode m_HorizontalFit
     // Size: 0x4
     // Offset: 0x18
@@ -111,6 +122,7 @@ namespace UnityEngine::UI {
     UnityEngine::DrivenRectTransformTracker m_Tracker;
     // Field size check
     static_assert(sizeof(UnityEngine::DrivenRectTransformTracker) == 0x1);
+    public:
     // Creating interface conversion operator: operator UnityEngine::UI::ILayoutSelfController
     operator UnityEngine::UI::ILayoutSelfController() noexcept {
       return *reinterpret_cast<UnityEngine::UI::ILayoutSelfController*>(this);

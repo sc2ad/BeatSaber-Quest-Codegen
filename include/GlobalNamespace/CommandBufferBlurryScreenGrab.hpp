@@ -49,6 +49,11 @@ namespace GlobalNamespace {
   // [ExecuteInEditMode] Offset: FFFFFFFF
   class CommandBufferBlurryScreenGrab : public GlobalNamespace::CommandBufferGOCore {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private KawaseBlurRendererSO _kawaseBlurRenderer
     // Size: 0x8
     // Offset: 0x28
@@ -73,6 +78,7 @@ namespace GlobalNamespace {
     int downsample;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get static field: static private System.Collections.Generic.Dictionary`2<UnityEngine.Camera,CommandBufferOwners> _cameras
     static System::Collections::Generic::Dictionary_2<UnityEngine::Camera*, GlobalNamespace::CommandBufferOwners*>* _get__cameras();
     // Set static field: static private System.Collections.Generic.Dictionary`2<UnityEngine.Camera,CommandBufferOwners> _cameras

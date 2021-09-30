@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -36,18 +37,23 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerLocalActiveCenterRingLightsController : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Single[] _verticalLinePositions
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<float> verticalLinePositions;
+    ::ArrayW<float> verticalLinePositions;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<float>) == 0x8);
+    static_assert(sizeof(::ArrayW<float>) == 0x8);
     // private UnityEngine.Transform[] _horizontalLines
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<UnityEngine::Transform*> horizontalLines;
+    ::ArrayW<UnityEngine::Transform*> horizontalLines;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Transform*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Transform*>) == 0x8);
     // [InjectAttribute] Offset: 0xF08A60
     // private readonly MultiplayerCenterResizeController _centerResizeController
     // Size: 0x8
@@ -81,12 +87,13 @@ namespace GlobalNamespace {
     bool spawnCenterDistanceFound;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single[] _verticalLinePositions
-    ::ArrayWrapper<float>& dyn__verticalLinePositions();
+    ::ArrayW<float>& dyn__verticalLinePositions();
     // Get instance field reference: private UnityEngine.Transform[] _horizontalLines
-    ::ArrayWrapper<UnityEngine::Transform*>& dyn__horizontalLines();
+    ::ArrayW<UnityEngine::Transform*>& dyn__horizontalLines();
     // Get instance field reference: private readonly MultiplayerCenterResizeController _centerResizeController
     GlobalNamespace::MultiplayerCenterResizeController*& dyn__centerResizeController();
     // Get instance field reference: private readonly MultiplayerLayoutProvider _layoutProvider

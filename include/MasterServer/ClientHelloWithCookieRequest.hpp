@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -39,6 +40,11 @@ namespace MasterServer {
   // [TokenAttribute] Offset: FFFFFFFF
   class ClientHelloWithCookieRequest : public GlobalNamespace::BaseMasterServerReliableRequest/*, public MasterServer::IHandshakeClientToServerMessage*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.UInt32 certificateResponseId
     // Size: 0x4
     // Offset: 0x14
@@ -57,6 +63,7 @@ namespace MasterServer {
     GlobalNamespace::ByteArrayNetSerializable* cookie;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ByteArrayNetSerializable*) == 0x8);
+    public:
     // Creating interface conversion operator: operator MasterServer::IHandshakeClientToServerMessage
     operator MasterServer::IHandshakeClientToServerMessage() noexcept {
       return *reinterpret_cast<MasterServer::IHandshakeClientToServerMessage*>(this);
@@ -74,7 +81,7 @@ namespace MasterServer {
     static GlobalNamespace::PacketPool_1<MasterServer::ClientHelloWithCookieRequest*>* get_pool();
     // public MasterServer.ClientHelloWithCookieRequest Init(System.UInt32 certificateResponseId, System.Byte[] random, System.Byte[] cookie)
     // Offset: 0x12D8168
-    MasterServer::ClientHelloWithCookieRequest* Init(uint certificateResponseId, ::ArrayWrapper<uint8_t> random, ::ArrayWrapper<uint8_t> cookie);
+    MasterServer::ClientHelloWithCookieRequest* Init(uint certificateResponseId, ::ArrayW<uint8_t> random, ::ArrayW<uint8_t> cookie);
     // public System.Void .ctor()
     // Offset: 0x12DA058
     // Implemented from: BaseMasterServerReliableRequest
@@ -118,7 +125,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: MasterServer::ClientHelloWithCookieRequest::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::ClientHelloWithCookieRequest* (MasterServer::ClientHelloWithCookieRequest::*)(uint, ::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>)>(&MasterServer::ClientHelloWithCookieRequest::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::ClientHelloWithCookieRequest* (MasterServer::ClientHelloWithCookieRequest::*)(uint, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(&MasterServer::ClientHelloWithCookieRequest::Init)> {
   static const MethodInfo* get() {
     static auto* certificateResponseId = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* random = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;

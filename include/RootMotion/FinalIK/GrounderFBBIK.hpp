@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: RootMotion::FinalIK
@@ -40,6 +41,11 @@ namespace RootMotion::FinalIK {
     char ___base_padding[0x7] = {};
     // Nested type: RootMotion::FinalIK::GrounderFBBIK::SpineEffector
     class SpineEffector;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [TooltipAttribute] Offset: 0xEF1DA4
     // public RootMotion.FinalIK.FullBodyBipedIK ik
     // Size: 0x8
@@ -64,15 +70,15 @@ namespace RootMotion::FinalIK {
     // public RootMotion.FinalIK.GrounderFBBIK/RootMotion.FinalIK.SpineEffector[] spine
     // Size: 0x8
     // Offset: 0x50
-    ::ArrayWrapper<RootMotion::FinalIK::GrounderFBBIK::SpineEffector*> spine;
+    ::ArrayW<RootMotion::FinalIK::GrounderFBBIK::SpineEffector*> spine;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::GrounderFBBIK::SpineEffector*>) == 0x8);
+    static_assert(sizeof(::ArrayW<RootMotion::FinalIK::GrounderFBBIK::SpineEffector*>) == 0x8);
     // private UnityEngine.Transform[] feet
     // Size: 0x8
     // Offset: 0x58
-    ::ArrayWrapper<UnityEngine::Transform*> feet;
+    ::ArrayW<UnityEngine::Transform*> feet;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Transform*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Transform*>) == 0x8);
     // private UnityEngine.Vector3 spineOffset
     // Size: 0xC
     // Offset: 0x60
@@ -85,6 +91,7 @@ namespace RootMotion::FinalIK {
     bool firstSolve;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: public RootMotion.FinalIK.FullBodyBipedIK ik
     RootMotion::FinalIK::FullBodyBipedIK*& dyn_ik();
     // Get instance field reference: public System.Single spineBend
@@ -92,9 +99,9 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public System.Single spineSpeed
     float& dyn_spineSpeed();
     // Get instance field reference: public RootMotion.FinalIK.GrounderFBBIK/RootMotion.FinalIK.SpineEffector[] spine
-    ::ArrayWrapper<RootMotion::FinalIK::GrounderFBBIK::SpineEffector*>& dyn_spine();
+    ::ArrayW<RootMotion::FinalIK::GrounderFBBIK::SpineEffector*>& dyn_spine();
     // Get instance field reference: private UnityEngine.Transform[] feet
-    ::ArrayWrapper<UnityEngine::Transform*>& dyn_feet();
+    ::ArrayW<UnityEngine::Transform*>& dyn_feet();
     // Get instance field reference: private UnityEngine.Vector3 spineOffset
     UnityEngine::Vector3& dyn_spineOffset();
     // Get instance field reference: private System.Boolean firstSolve

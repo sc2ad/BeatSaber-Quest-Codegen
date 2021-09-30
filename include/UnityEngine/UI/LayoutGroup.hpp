@@ -58,6 +58,11 @@ namespace UnityEngine::UI {
     public:
     // Nested type: UnityEngine::UI::LayoutGroup::$DelayedSetDirty$d__56
     class $DelayedSetDirty$d__56;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // protected UnityEngine.RectOffset m_Padding
     // Size: 0x8
     // Offset: 0x18
@@ -112,6 +117,7 @@ namespace UnityEngine::UI {
     System::Collections::Generic::List_1<UnityEngine::RectTransform*>* m_RectChildren;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::RectTransform*>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator UnityEngine::UI::ILayoutElement
     operator UnityEngine::UI::ILayoutElement() noexcept {
       return *reinterpret_cast<UnityEngine::UI::ILayoutElement*>(this);

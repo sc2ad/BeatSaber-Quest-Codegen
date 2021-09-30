@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -39,12 +40,17 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerLevelSelectionFlowCoordinator : public GlobalNamespace::LevelSelectionFlowCoordinator {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private BeatmapCharacteristicSO[] _notAllowedCharacteristics
     // Size: 0x8
     // Offset: 0xD0
-    ::ArrayWrapper<GlobalNamespace::BeatmapCharacteristicSO*> notAllowedCharacteristics;
+    ::ArrayW<GlobalNamespace::BeatmapCharacteristicSO*> notAllowedCharacteristics;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::BeatmapCharacteristicSO*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::BeatmapCharacteristicSO*>) == 0x8);
     // [InjectAttribute] Offset: 0xF0E2CC
     // private readonly ILobbyGameStateController _lobbyGameStateController
     // Size: 0x8
@@ -96,8 +102,9 @@ namespace GlobalNamespace {
     GlobalNamespace::LevelSelectionFlowCoordinator::State* state;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LevelSelectionFlowCoordinator::State*) == 0x8);
+    public:
     // Get instance field reference: private BeatmapCharacteristicSO[] _notAllowedCharacteristics
-    ::ArrayWrapper<GlobalNamespace::BeatmapCharacteristicSO*>& dyn__notAllowedCharacteristics();
+    ::ArrayW<GlobalNamespace::BeatmapCharacteristicSO*>& dyn__notAllowedCharacteristics();
     // Get instance field reference: private readonly ILobbyGameStateController _lobbyGameStateController
     GlobalNamespace::ILobbyGameStateController*& dyn__lobbyGameStateController();
     // Get instance field reference: private System.Action`1<LevelSelectionFlowCoordinator/State> didSelectLevelEvent
@@ -171,7 +178,7 @@ namespace GlobalNamespace {
     // Offset: 0x116BB60
     // Implemented from: LevelSelectionFlowCoordinator
     // Base method: BeatmapCharacteristicSO[] LevelSelectionFlowCoordinator::get_notAllowedCharacteristics()
-    ::ArrayWrapper<GlobalNamespace::BeatmapCharacteristicSO*> get_notAllowedCharacteristics();
+    ::ArrayW<GlobalNamespace::BeatmapCharacteristicSO*> get_notAllowedCharacteristics();
     // protected override System.String get_mainTitle()
     // Offset: 0x116BB68
     // Implemented from: LevelSelectionFlowCoordinator
@@ -340,7 +347,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLevelSelectionFlowCoordinator::get_notAllowedCharacteristics
 // Il2CppName: get_notAllowedCharacteristics
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::BeatmapCharacteristicSO*> (GlobalNamespace::MultiplayerLevelSelectionFlowCoordinator::*)()>(&GlobalNamespace::MultiplayerLevelSelectionFlowCoordinator::get_notAllowedCharacteristics)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<GlobalNamespace::BeatmapCharacteristicSO*> (GlobalNamespace::MultiplayerLevelSelectionFlowCoordinator::*)()>(&GlobalNamespace::MultiplayerLevelSelectionFlowCoordinator::get_notAllowedCharacteristics)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLevelSelectionFlowCoordinator*), "get_notAllowedCharacteristics", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

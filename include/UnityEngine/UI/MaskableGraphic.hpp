@@ -17,6 +17,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::UI
@@ -45,6 +46,11 @@ namespace UnityEngine::UI {
     public:
     // Nested type: UnityEngine::UI::MaskableGraphic::CullStateChangedEvent
     class CullStateChangedEvent;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // protected System.Boolean m_ShouldRecalculateStencil
     // Size: 0x1
     // Offset: 0x89
@@ -112,9 +118,10 @@ namespace UnityEngine::UI {
     // private readonly UnityEngine.Vector3[] m_Corners
     // Size: 0x8
     // Offset: 0xB8
-    ::ArrayWrapper<UnityEngine::Vector3> m_Corners;
+    ::ArrayW<UnityEngine::Vector3> m_Corners;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector3>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Vector3>) == 0x8);
+    public:
     // Creating interface conversion operator: operator UnityEngine::UI::IMaterialModifier
     operator UnityEngine::UI::IMaterialModifier() noexcept {
       return *reinterpret_cast<UnityEngine::UI::IMaterialModifier*>(this);
@@ -146,7 +153,7 @@ namespace UnityEngine::UI {
     // Get instance field reference: protected System.Int32 m_StencilValue
     int& dyn_m_StencilValue();
     // Get instance field reference: private readonly UnityEngine.Vector3[] m_Corners
-    ::ArrayWrapper<UnityEngine::Vector3>& dyn_m_Corners();
+    ::ArrayW<UnityEngine::Vector3>& dyn_m_Corners();
     // public UnityEngine.UI.MaskableGraphic/UnityEngine.UI.CullStateChangedEvent get_onCullStateChanged()
     // Offset: 0x1B4D764
     UnityEngine::UI::MaskableGraphic::CullStateChangedEvent* get_onCullStateChanged();
@@ -235,7 +242,7 @@ namespace UnityEngine::UI {
     void OnCanvasHierarchyChanged();
   }; // UnityEngine.UI.MaskableGraphic
   #pragma pack(pop)
-  static check_size<sizeof(MaskableGraphic), 184 + sizeof(::ArrayWrapper<UnityEngine::Vector3>)> __UnityEngine_UI_MaskableGraphicSizeCheck;
+  static check_size<sizeof(MaskableGraphic), 184 + sizeof(::ArrayW<UnityEngine::Vector3>)> __UnityEngine_UI_MaskableGraphicSizeCheck;
   static_assert(sizeof(MaskableGraphic) == 0xC0);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::MaskableGraphic*, "UnityEngine.UI", "MaskableGraphic");

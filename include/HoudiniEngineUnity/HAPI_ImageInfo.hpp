@@ -21,6 +21,11 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HAPI_ImageInfo/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 imageFileFormatNameSH
     // Size: 0x4
     // Offset: 0x0
@@ -65,6 +70,7 @@ namespace HoudiniEngineUnity {
     double gamma;
     // Field size check
     static_assert(sizeof(double) == 0x8);
+    public:
     // Creating value type constructor for type: HAPI_ImageInfo
     constexpr HAPI_ImageInfo(int imageFileFormatNameSH_ = {}, int xRes_ = {}, int yRes_ = {}, HoudiniEngineUnity::HAPI_ImageDataFormat dataFormat_ = {}, bool interleaved_ = {}, HoudiniEngineUnity::HAPI_ImagePacking packing_ = {}, double gamma_ = {}) noexcept : imageFileFormatNameSH{imageFileFormatNameSH_}, xRes{xRes_}, yRes{yRes_}, dataFormat{dataFormat_}, interleaved{interleaved_}, packing{packing_}, gamma{gamma_} {}
     // Creating interface conversion operator: operator System::ValueType

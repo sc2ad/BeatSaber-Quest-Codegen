@@ -48,6 +48,11 @@ namespace GlobalNamespace {
     struct WindowMode;
     // Nested type: GlobalNamespace::MainSettingsModelSO::Config
     class Config;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [SOVariableAttribute] Offset: 0xF02754
     // public FloatSO vrResolutionScale
     // Size: 0x8
@@ -345,6 +350,7 @@ namespace GlobalNamespace {
     bool isLoaded;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static public System.Single kDefaultPlayerHeight

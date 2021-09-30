@@ -23,6 +23,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct OVRPlugin::TextureRectMatrixf/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Rect leftRect
     // Size: 0x10
     // Offset: 0x0
@@ -47,6 +52,7 @@ namespace GlobalNamespace {
     UnityEngine::Vector4 rightScaleBias;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector4) == 0x10);
+    public:
     // Creating value type constructor for type: TextureRectMatrixf
     constexpr TextureRectMatrixf(UnityEngine::Rect leftRect_ = {}, UnityEngine::Rect rightRect_ = {}, UnityEngine::Vector4 leftScaleBias_ = {}, UnityEngine::Vector4 rightScaleBias_ = {}) noexcept : leftRect{leftRect_}, rightRect{rightRect_}, leftScaleBias{leftScaleBias_}, rightScaleBias{rightScaleBias_} {}
     // Creating interface conversion operator: operator System::ValueType

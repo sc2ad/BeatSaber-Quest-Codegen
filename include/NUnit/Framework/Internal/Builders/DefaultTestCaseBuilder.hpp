@@ -45,12 +45,18 @@ namespace NUnit::Framework::Internal::Builders {
   // [TokenAttribute] Offset: FFFFFFFF
   class DefaultTestCaseBuilder : public ::Il2CppObject/*, public NUnit::Framework::Interfaces::ITestCaseBuilder*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private NUnit.Framework.Internal.Builders.NUnitTestCaseBuilder _nunitTestCaseBuilder
     // Size: 0x8
     // Offset: 0x10
     NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder* nunitTestCaseBuilder;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Internal::Builders::NUnitTestCaseBuilder*) == 0x8);
+    public:
     // Creating interface conversion operator: operator NUnit::Framework::Interfaces::ITestCaseBuilder
     operator NUnit::Framework::Interfaces::ITestCaseBuilder() noexcept {
       return *reinterpret_cast<NUnit::Framework::Interfaces::ITestCaseBuilder*>(this);

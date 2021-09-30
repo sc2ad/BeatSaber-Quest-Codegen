@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: RootMotion::FinalIK
@@ -29,15 +30,21 @@ namespace RootMotion::FinalIK {
     char ___base_padding[0x4] = {};
     // Nested type: RootMotion::FinalIK::Amplifier::Body
     class Body;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [TooltipAttribute] Offset: 0xEF4498
     // public RootMotion.FinalIK.Amplifier/RootMotion.FinalIK.Body[] bodies
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<RootMotion::FinalIK::Amplifier::Body*> bodies;
+    ::ArrayW<RootMotion::FinalIK::Amplifier::Body*> bodies;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::Amplifier::Body*>) == 0x8);
+    static_assert(sizeof(::ArrayW<RootMotion::FinalIK::Amplifier::Body*>) == 0x8);
+    public:
     // Get instance field reference: public RootMotion.FinalIK.Amplifier/RootMotion.FinalIK.Body[] bodies
-    ::ArrayWrapper<RootMotion::FinalIK::Amplifier::Body*>& dyn_bodies();
+    ::ArrayW<RootMotion::FinalIK::Amplifier::Body*>& dyn_bodies();
     // public System.Void .ctor()
     // Offset: 0x1EBF88C
     // Implemented from: RootMotion.FinalIK.OffsetModifier
@@ -59,7 +66,7 @@ namespace RootMotion::FinalIK {
     void OnModifyOffset();
   }; // RootMotion.FinalIK.Amplifier
   #pragma pack(pop)
-  static check_size<sizeof(Amplifier), 48 + sizeof(::ArrayWrapper<RootMotion::FinalIK::Amplifier::Body*>)> __RootMotion_FinalIK_AmplifierSizeCheck;
+  static check_size<sizeof(Amplifier), 48 + sizeof(::ArrayW<RootMotion::FinalIK::Amplifier::Body*>)> __RootMotion_FinalIK_AmplifierSizeCheck;
   static_assert(sizeof(Amplifier) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Amplifier*, "RootMotion.FinalIK", "Amplifier");

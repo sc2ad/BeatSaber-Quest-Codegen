@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -66,7 +67,7 @@ namespace UnityEngine::Networking {
     // Offset: 0x2628390
     // Implemented from: UnityEngine.Networking.DownloadHandler
     // Base method: System.Byte[] DownloadHandler::GetData()
-    ::ArrayWrapper<uint8_t> GetData();
+    ::ArrayW<uint8_t> GetData();
     // protected override System.String GetText()
     // Offset: 0x2628398
     // Implemented from: UnityEngine.Networking.DownloadHandler
@@ -131,7 +132,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Networking::DownloadHandlerAudioClip::GetData
 // Il2CppName: GetData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (UnityEngine::Networking::DownloadHandlerAudioClip::*)()>(&UnityEngine::Networking::DownloadHandlerAudioClip::GetData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (UnityEngine::Networking::DownloadHandlerAudioClip::*)()>(&UnityEngine::Networking::DownloadHandlerAudioClip::GetData)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::DownloadHandlerAudioClip*), "GetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

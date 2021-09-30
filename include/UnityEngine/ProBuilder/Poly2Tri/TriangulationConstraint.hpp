@@ -25,6 +25,11 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   // [TokenAttribute] Offset: FFFFFFFF
   class TriangulationConstraint : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint P
     // Size: 0x8
     // Offset: 0x10
@@ -37,6 +42,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* Q;
     // Field size check
     static_assert(sizeof(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*) == 0x8);
+    public:
     // Get instance field reference: public UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint P
     UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*& dyn_P();
     // Get instance field reference: public UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint Q

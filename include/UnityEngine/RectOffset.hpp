@@ -30,6 +30,11 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E70920
   class RectOffset : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.IntPtr m_Ptr
     // Size: 0x8
     // Offset: 0x10
@@ -42,6 +47,7 @@ namespace UnityEngine {
     ::Il2CppObject* m_SourceStyle;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
+    public:
     // Get instance field reference: System.IntPtr m_Ptr
     System::IntPtr& dyn_m_Ptr();
     // Get instance field reference: private readonly System.Object m_SourceStyle

@@ -27,6 +27,11 @@ namespace UnityEngine::Events {
   // [TokenAttribute] Offset: FFFFFFFF
   class ArgumentCache : public ::Il2CppObject/*, public UnityEngine::ISerializationCallbackReceiver*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [FormerlySerializedAsAttribute] Offset: 0xE765E8
     // private UnityEngine.Object m_ObjectArgument
     // Size: 0x8
@@ -68,6 +73,7 @@ namespace UnityEngine::Events {
     bool m_BoolArgument;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator UnityEngine::ISerializationCallbackReceiver
     operator UnityEngine::ISerializationCallbackReceiver() noexcept {
       return *reinterpret_cast<UnityEngine::ISerializationCallbackReceiver*>(this);

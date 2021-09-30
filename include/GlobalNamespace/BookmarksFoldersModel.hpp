@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -29,27 +30,33 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::BookmarksFoldersModel::$$c
     class $$c;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String[] myFolders
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<::Il2CppString*> myFolders;
+    ::ArrayW<::Il2CppString*> myFolders;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // private FileBrowserItem[] _bookmarksFolders
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<GlobalNamespace::FileBrowserItem*> bookmarksFolders;
+    ::ArrayW<GlobalNamespace::FileBrowserItem*> bookmarksFolders;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::FileBrowserItem*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::FileBrowserItem*>) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String[] myFolders
-    ::ArrayWrapper<::Il2CppString*>& dyn_myFolders();
+    ::ArrayW<::Il2CppString*>& dyn_myFolders();
     // Get instance field reference: private FileBrowserItem[] _bookmarksFolders
-    ::ArrayWrapper<GlobalNamespace::FileBrowserItem*>& dyn__bookmarksFolders();
+    ::ArrayW<GlobalNamespace::FileBrowserItem*>& dyn__bookmarksFolders();
     // public FileBrowserItem[] get_bookmarksFolders()
     // Offset: 0x1192FA0
-    ::ArrayWrapper<GlobalNamespace::FileBrowserItem*> get_bookmarksFolders();
+    ::ArrayW<GlobalNamespace::FileBrowserItem*> get_bookmarksFolders();
     // public System.Void .ctor()
     // Offset: 0x1193378
     // Implemented from: PersistentScriptableObject
@@ -64,7 +71,7 @@ namespace GlobalNamespace {
     }
   }; // BookmarksFoldersModel
   #pragma pack(pop)
-  static check_size<sizeof(BookmarksFoldersModel), 32 + sizeof(::ArrayWrapper<GlobalNamespace::FileBrowserItem*>)> __GlobalNamespace_BookmarksFoldersModelSizeCheck;
+  static check_size<sizeof(BookmarksFoldersModel), 32 + sizeof(::ArrayW<GlobalNamespace::FileBrowserItem*>)> __GlobalNamespace_BookmarksFoldersModelSizeCheck;
   static_assert(sizeof(BookmarksFoldersModel) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BookmarksFoldersModel*, "", "BookmarksFoldersModel");
@@ -72,7 +79,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BookmarksFoldersModel*, "", "BookmarksFo
 // Writing MetadataGetter for method: GlobalNamespace::BookmarksFoldersModel::get_bookmarksFolders
 // Il2CppName: get_bookmarksFolders
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::FileBrowserItem*> (GlobalNamespace::BookmarksFoldersModel::*)()>(&GlobalNamespace::BookmarksFoldersModel::get_bookmarksFolders)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<GlobalNamespace::FileBrowserItem*> (GlobalNamespace::BookmarksFoldersModel::*)()>(&GlobalNamespace::BookmarksFoldersModel::get_bookmarksFolders)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BookmarksFoldersModel*), "get_bookmarksFolders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

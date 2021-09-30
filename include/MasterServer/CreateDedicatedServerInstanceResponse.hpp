@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -53,12 +54,18 @@ namespace MasterServer {
     // [TokenAttribute] Offset: FFFFFFFF
     struct Result/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: Result
       constexpr Result(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -93,6 +100,11 @@ namespace MasterServer {
     #pragma pack(pop)
     static check_size<sizeof(CreateDedicatedServerInstanceResponse::Result), 0 + sizeof(int)> __MasterServer_CreateDedicatedServerInstanceResponse_ResultSizeCheck;
     static_assert(sizeof(CreateDedicatedServerInstanceResponse::Result) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public MasterServer.CreateDedicatedServerInstanceResponse/MasterServer.Result result
     // Size: 0x4
     // Offset: 0x18
@@ -143,6 +155,7 @@ namespace MasterServer {
     GlobalNamespace::ByteArrayNetSerializable* publicKey;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ByteArrayNetSerializable*) == 0x8);
+    public:
     // Creating interface conversion operator: operator MasterServer::IDedicatedServerClientToServerMessage
     operator MasterServer::IDedicatedServerClientToServerMessage() noexcept {
       return *reinterpret_cast<MasterServer::IDedicatedServerClientToServerMessage*>(this);
@@ -183,7 +196,7 @@ namespace MasterServer {
     MasterServer::CreateDedicatedServerInstanceResponse* InitForFailure(::Il2CppString* dedicatedServerId, int64_t dedicatedServerCreationTime, MasterServer::CreateDedicatedServerInstanceResponse::Result result);
     // public MasterServer.CreateDedicatedServerInstanceResponse InitForSuccess(System.String dedicatedServerId, System.Int64 dedicatedServerCreationTime, System.String id, System.Int32 port, System.Byte[] random, System.Byte[] publicKey, System.Int32 maxPlayerCount)
     // Offset: 0x12DB2C8
-    MasterServer::CreateDedicatedServerInstanceResponse* InitForSuccess(::Il2CppString* dedicatedServerId, int64_t dedicatedServerCreationTime, ::Il2CppString* id, int port, ::ArrayWrapper<uint8_t> random, ::ArrayWrapper<uint8_t> publicKey, int maxPlayerCount);
+    MasterServer::CreateDedicatedServerInstanceResponse* InitForSuccess(::Il2CppString* dedicatedServerId, int64_t dedicatedServerCreationTime, ::Il2CppString* id, int port, ::ArrayW<uint8_t> random, ::ArrayW<uint8_t> publicKey, int maxPlayerCount);
     // public override System.Byte get_resultCode()
     // Offset: 0x12DAFBC
     // Implemented from: BaseMasterServerReliableResponse
@@ -283,7 +296,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServe
 // Writing MetadataGetter for method: MasterServer::CreateDedicatedServerInstanceResponse::InitForSuccess
 // Il2CppName: InitForSuccess
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::CreateDedicatedServerInstanceResponse* (MasterServer::CreateDedicatedServerInstanceResponse::*)(::Il2CppString*, int64_t, ::Il2CppString*, int, ::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>, int)>(&MasterServer::CreateDedicatedServerInstanceResponse::InitForSuccess)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::CreateDedicatedServerInstanceResponse* (MasterServer::CreateDedicatedServerInstanceResponse::*)(::Il2CppString*, int64_t, ::Il2CppString*, int, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>, int)>(&MasterServer::CreateDedicatedServerInstanceResponse::InitForSuccess)> {
   static const MethodInfo* get() {
     static auto* dedicatedServerId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* dedicatedServerCreationTime = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;

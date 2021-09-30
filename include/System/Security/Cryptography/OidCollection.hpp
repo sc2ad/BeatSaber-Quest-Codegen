@@ -40,12 +40,18 @@ namespace System::Security::Cryptography {
   // [DefaultMemberAttribute] Offset: E69848
   class OidCollection : public ::Il2CppObject/*, public System::Collections::ICollection*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.ArrayList m_list
     // Size: 0x8
     // Offset: 0x10
     System::Collections::ArrayList* m_list;
     // Field size check
     static_assert(sizeof(System::Collections::ArrayList*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Collections::ICollection
     operator System::Collections::ICollection() noexcept {
       return *reinterpret_cast<System::Collections::ICollection*>(this);

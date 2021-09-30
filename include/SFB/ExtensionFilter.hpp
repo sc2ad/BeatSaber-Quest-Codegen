@@ -7,6 +7,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
 struct Il2CppString;
@@ -20,6 +21,11 @@ namespace SFB {
   // [TokenAttribute] Offset: FFFFFFFF
   struct ExtensionFilter/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly System.String _name
     // Size: 0x8
     // Offset: 0x0
@@ -29,11 +35,12 @@ namespace SFB {
     // public readonly System.String[] _extensions
     // Size: 0x8
     // Offset: 0x8
-    ::ArrayWrapper<::Il2CppString*> extensions;
+    ::ArrayW<::Il2CppString*> extensions;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    public:
     // Creating value type constructor for type: ExtensionFilter
-    constexpr ExtensionFilter(::Il2CppString* name_ = {}, ::ArrayWrapper<::Il2CppString*> extensions_ = ::ArrayWrapper<::Il2CppString*>(nullptr)) noexcept : name{name_}, extensions{extensions_} {}
+    constexpr ExtensionFilter(::Il2CppString* name_ = {}, ::ArrayW<::Il2CppString*> extensions_ = ::ArrayW<::Il2CppString*>(nullptr)) noexcept : name{name_}, extensions{extensions_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -41,13 +48,13 @@ namespace SFB {
     // Get instance field reference: public readonly System.String _name
     ::Il2CppString*& dyn__name();
     // Get instance field reference: public readonly System.String[] _extensions
-    ::ArrayWrapper<::Il2CppString*>& dyn__extensions();
+    ::ArrayW<::Il2CppString*>& dyn__extensions();
     // public System.Void .ctor(System.String filterName, params System.String[] filterExtensions)
     // Offset: 0x11C52AC
-    // ABORTED: conflicts with another method.  ExtensionFilter(::Il2CppString* filterName, ::ArrayWrapper<::Il2CppString*> filterExtensions);
+    // ABORTED: conflicts with another method.  ExtensionFilter(::Il2CppString* filterName, ::ArrayW<::Il2CppString*> filterExtensions);
   }; // SFB.ExtensionFilter
   #pragma pack(pop)
-  static check_size<sizeof(ExtensionFilter), 8 + sizeof(::ArrayWrapper<::Il2CppString*>)> __SFB_ExtensionFilterSizeCheck;
+  static check_size<sizeof(ExtensionFilter), 8 + sizeof(::ArrayW<::Il2CppString*>)> __SFB_ExtensionFilterSizeCheck;
   static_assert(sizeof(ExtensionFilter) == 0x10);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

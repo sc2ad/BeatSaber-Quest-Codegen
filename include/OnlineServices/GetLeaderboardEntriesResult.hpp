@@ -6,6 +6,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: OnlineServices
@@ -24,6 +25,11 @@ namespace OnlineServices {
   // [IsReadOnlyAttribute] Offset: FFFFFFFF
   struct GetLeaderboardEntriesResult/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly System.Boolean isError
     // Size: 0x1
     // Offset: 0x0
@@ -35,17 +41,18 @@ namespace OnlineServices {
     // public readonly OnlineServices.LeaderboardEntryData[] leaderboardEntries
     // Size: 0x8
     // Offset: 0x8
-    ::ArrayWrapper<OnlineServices::LeaderboardEntryData*> leaderboardEntries;
+    ::ArrayW<OnlineServices::LeaderboardEntryData*> leaderboardEntries;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<OnlineServices::LeaderboardEntryData*>) == 0x8);
+    static_assert(sizeof(::ArrayW<OnlineServices::LeaderboardEntryData*>) == 0x8);
     // public readonly System.Int32 referencePlayerScoreIndex
     // Size: 0x4
     // Offset: 0x10
     int referencePlayerScoreIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: GetLeaderboardEntriesResult
-    constexpr GetLeaderboardEntriesResult(bool isError_ = {}, ::ArrayWrapper<OnlineServices::LeaderboardEntryData*> leaderboardEntries_ = ::ArrayWrapper<OnlineServices::LeaderboardEntryData*>(nullptr), int referencePlayerScoreIndex_ = {}) noexcept : isError{isError_}, leaderboardEntries{leaderboardEntries_}, referencePlayerScoreIndex{referencePlayerScoreIndex_} {}
+    constexpr GetLeaderboardEntriesResult(bool isError_ = {}, ::ArrayW<OnlineServices::LeaderboardEntryData*> leaderboardEntries_ = ::ArrayW<OnlineServices::LeaderboardEntryData*>(nullptr), int referencePlayerScoreIndex_ = {}) noexcept : isError{isError_}, leaderboardEntries{leaderboardEntries_}, referencePlayerScoreIndex{referencePlayerScoreIndex_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -53,7 +60,7 @@ namespace OnlineServices {
     // Get instance field reference: public readonly System.Boolean isError
     bool& dyn_isError();
     // Get instance field reference: public readonly OnlineServices.LeaderboardEntryData[] leaderboardEntries
-    ::ArrayWrapper<OnlineServices::LeaderboardEntryData*>& dyn_leaderboardEntries();
+    ::ArrayW<OnlineServices::LeaderboardEntryData*>& dyn_leaderboardEntries();
     // Get instance field reference: public readonly System.Int32 referencePlayerScoreIndex
     int& dyn_referencePlayerScoreIndex();
     // static public OnlineServices.GetLeaderboardEntriesResult get_resultWithError()
@@ -61,7 +68,7 @@ namespace OnlineServices {
     static OnlineServices::GetLeaderboardEntriesResult get_resultWithError();
     // public System.Void .ctor(System.Boolean isError, OnlineServices.LeaderboardEntryData[] leaderboardEntries, System.Int32 referencePlayerScoreIndex)
     // Offset: 0x11201E4
-    // ABORTED: conflicts with another method.  GetLeaderboardEntriesResult(bool isError, ::ArrayWrapper<OnlineServices::LeaderboardEntryData*> leaderboardEntries, int referencePlayerScoreIndex);
+    // ABORTED: conflicts with another method.  GetLeaderboardEntriesResult(bool isError, ::ArrayW<OnlineServices::LeaderboardEntryData*> leaderboardEntries, int referencePlayerScoreIndex);
   }; // OnlineServices.GetLeaderboardEntriesResult
   #pragma pack(pop)
   static check_size<sizeof(GetLeaderboardEntriesResult), 16 + sizeof(int)> __OnlineServices_GetLeaderboardEntriesResultSizeCheck;

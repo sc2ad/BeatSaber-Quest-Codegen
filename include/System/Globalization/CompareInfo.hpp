@@ -52,6 +52,11 @@ namespace System::Globalization {
   // [ComVisibleAttribute] Offset: E5E544
   class CompareInfo : public ::Il2CppObject/*, public System::Runtime::Serialization::IDeserializationCallback*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [OptionalFieldAttribute] Offset: 0xE62EB8
     // private System.String m_name
     // Size: 0x8
@@ -91,6 +96,7 @@ namespace System::Globalization {
     Mono::Globalization::Unicode::SimpleCollator* collator;
     // Field size check
     static_assert(sizeof(Mono::Globalization::Unicode::SimpleCollator*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Runtime::Serialization::IDeserializationCallback
     operator System::Runtime::Serialization::IDeserializationCallback() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::IDeserializationCallback*>(this);

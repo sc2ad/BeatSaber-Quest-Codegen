@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -41,10 +42,10 @@ namespace GlobalNamespace {
     static bool CanBeMerged(GlobalNamespace::ObstacleData* firstObstacle, GlobalNamespace::ObstacleData* secondObstacle);
     // static private System.Void RemoveLastObstaclesByRotationEvents(ObstacleData[] lastObstacleInLine, BeatmapObjectData beatmapObjectData, System.Collections.Generic.IReadOnlyList`1<BeatmapEventData> events, ref System.Int32 eventIndex, ref System.Boolean obstaclesCanBeMerged)
     // Offset: 0x1279304
-    static void RemoveLastObstaclesByRotationEvents(::ArrayWrapper<GlobalNamespace::ObstacleData*> lastObstacleInLine, GlobalNamespace::BeatmapObjectData* beatmapObjectData, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::BeatmapEventData*>* events, ByRef<int> eventIndex, ByRef<bool> obstaclesCanBeMerged);
+    static void RemoveLastObstaclesByRotationEvents(::ArrayW<GlobalNamespace::ObstacleData*> lastObstacleInLine, GlobalNamespace::BeatmapObjectData* beatmapObjectData, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::BeatmapEventData*>* events, ByRef<int> eventIndex, ByRef<bool> obstaclesCanBeMerged);
     // static private System.Void RemoveObstaclesInRange(ObstacleData[] obstacleInLine, System.Int32 startLine, System.Int32 endLine)
     // Offset: 0x12797A0
-    static void RemoveObstaclesInRange(::ArrayWrapper<GlobalNamespace::ObstacleData*> obstacleInLine, int startLine, int endLine);
+    static void RemoveObstaclesInRange(::ArrayW<GlobalNamespace::ObstacleData*> obstacleInLine, int startLine, int endLine);
   }; // BeatmapDataObstaclesMergingTransform
   #pragma pack(pop)
 }
@@ -73,7 +74,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Gl
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapDataObstaclesMergingTransform::RemoveLastObstaclesByRotationEvents
 // Il2CppName: RemoveLastObstaclesByRotationEvents
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<GlobalNamespace::ObstacleData*>, GlobalNamespace::BeatmapObjectData*, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::BeatmapEventData*>*, ByRef<int>, ByRef<bool>)>(&GlobalNamespace::BeatmapDataObstaclesMergingTransform::RemoveLastObstaclesByRotationEvents)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<GlobalNamespace::ObstacleData*>, GlobalNamespace::BeatmapObjectData*, System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::BeatmapEventData*>*, ByRef<int>, ByRef<bool>)>(&GlobalNamespace::BeatmapDataObstaclesMergingTransform::RemoveLastObstaclesByRotationEvents)> {
   static const MethodInfo* get() {
     static auto* lastObstacleInLine = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "ObstacleData"), 1)->byval_arg;
     static auto* beatmapObjectData = &::il2cpp_utils::GetClassFromName("", "BeatmapObjectData")->byval_arg;
@@ -86,7 +87,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapDataObstaclesMergingTransform::RemoveObstaclesInRange
 // Il2CppName: RemoveObstaclesInRange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<GlobalNamespace::ObstacleData*>, int, int)>(&GlobalNamespace::BeatmapDataObstaclesMergingTransform::RemoveObstaclesInRange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<GlobalNamespace::ObstacleData*>, int, int)>(&GlobalNamespace::BeatmapDataObstaclesMergingTransform::RemoveObstaclesInRange)> {
   static const MethodInfo* get() {
     static auto* obstacleInLine = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "ObstacleData"), 1)->byval_arg;
     static auto* startLine = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Asn1::X509
@@ -46,6 +47,11 @@ namespace Org::BouncyCastle::Asn1::X509 {
   // [TokenAttribute] Offset: FFFFFFFF
   class X509CertificateStructure : public Org::BouncyCastle::Asn1::Asn1Encodable {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Org.BouncyCastle.Asn1.X509.TbsCertificateStructure tbsCert
     // Size: 0x8
     // Offset: 0x10
@@ -64,6 +70,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
     Org::BouncyCastle::Asn1::DerBitString* sig;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::DerBitString*) == 0x8);
+    public:
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.X509.TbsCertificateStructure tbsCert
     Org::BouncyCastle::Asn1::X509::TbsCertificateStructure*& dyn_tbsCert();
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier sigAlgID
@@ -112,7 +119,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
     static Org::BouncyCastle::Asn1::X509::X509CertificateStructure* GetInstance(::Il2CppObject* obj);
     // public System.Byte[] GetSignatureOctets()
     // Offset: 0x1BBCEBC
-    ::ArrayWrapper<uint8_t> GetSignatureOctets();
+    ::ArrayW<uint8_t> GetSignatureOctets();
     // public override Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
     // Offset: 0x1BBCEDC
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Encodable
@@ -221,7 +228,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X509::X509CertificateStructure::GetSignatureOctets
 // Il2CppName: GetSignatureOctets
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Asn1::X509::X509CertificateStructure::*)()>(&Org::BouncyCastle::Asn1::X509::X509CertificateStructure::GetSignatureOctets)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Org::BouncyCastle::Asn1::X509::X509CertificateStructure::*)()>(&Org::BouncyCastle::Asn1::X509::X509CertificateStructure::GetSignatureOctets)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::X509::X509CertificateStructure*), "GetSignatureOctets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

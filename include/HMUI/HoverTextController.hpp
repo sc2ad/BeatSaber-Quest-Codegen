@@ -39,6 +39,11 @@ namespace HMUI {
     class $ShowTextCoroutine$d__10;
     // Nested type: HMUI::HoverTextController::$HideTextCoroutine$d__12
     class $HideTextCoroutine$d__12;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private TMPro.TextMeshProUGUI _textMesh
     // Size: 0x8
     // Offset: 0x18
@@ -75,6 +80,7 @@ namespace HMUI {
     bool isFadingIn;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TMPro.TextMeshProUGUI _textMesh

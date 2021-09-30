@@ -27,12 +27,18 @@ namespace System::Runtime::Remoting {
   // [TokenAttribute] Offset: FFFFFFFF
   class EnvoyInfo : public ::Il2CppObject/*, public System::Runtime::Remoting::IEnvoyInfo*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Runtime.Remoting.Messaging.IMessageSink envoySinks
     // Size: 0x8
     // Offset: 0x10
     System::Runtime::Remoting::Messaging::IMessageSink* envoySinks;
     // Field size check
     static_assert(sizeof(System::Runtime::Remoting::Messaging::IMessageSink*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Runtime::Remoting::IEnvoyInfo
     operator System::Runtime::Remoting::IEnvoyInfo() noexcept {
       return *reinterpret_cast<System::Runtime::Remoting::IEnvoyInfo*>(this);

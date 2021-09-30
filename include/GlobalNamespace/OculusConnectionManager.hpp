@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -90,12 +91,18 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct NetworkMode/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: NetworkMode
       constexpr NetworkMode(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -130,6 +137,11 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(OculusConnectionManager::NetworkMode), 0 + sizeof(int)> __GlobalNamespace_OculusConnectionManager_NetworkModeSizeCheck;
     static_assert(sizeof(OculusConnectionManager::NetworkMode) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Collections.Generic.List`1<OculusConnectionManager/OculusConnection> _connections
     // Size: 0x8
     // Offset: 0x10
@@ -221,9 +233,10 @@ namespace GlobalNamespace {
     // private System.Byte[] _buffer
     // Size: 0x8
     // Offset: 0x78
-    ::ArrayWrapper<uint8_t> buffer;
+    ::ArrayW<uint8_t> buffer;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IConnectionManager
     operator GlobalNamespace::IConnectionManager() noexcept {
       return *reinterpret_cast<GlobalNamespace::IConnectionManager*>(this);
@@ -263,7 +276,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean <isDisconnecting>k__BackingField
     bool& dyn_$isDisconnecting$k__BackingField();
     // Get instance field reference: private System.Byte[] _buffer
-    ::ArrayWrapper<uint8_t>& dyn__buffer();
+    ::ArrayW<uint8_t>& dyn__buffer();
     // public System.String get_userId()
     // Offset: 0x1361554
     ::Il2CppString* get_userId();
@@ -385,10 +398,10 @@ namespace GlobalNamespace {
     void RemoveConnection(uint64_t id, GlobalNamespace::DisconnectedReason reason);
     // private System.Byte[] AcquireBuffer(System.Int32 size)
     // Offset: 0x1361D64
-    ::ArrayWrapper<uint8_t> AcquireBuffer(int size);
+    ::ArrayW<uint8_t> AcquireBuffer(int size);
     // private System.Void ReleaseBuffer(System.Byte[] buffer)
     // Offset: 0x1361DF4
-    void ReleaseBuffer(::ArrayWrapper<uint8_t> buffer);
+    void ReleaseBuffer(::ArrayW<uint8_t> buffer);
     // static private Oculus.Platform.SendPolicy DeliveryMethodToSendPolicy(LiteNetLib.DeliveryMethod deliveryMethod)
     // Offset: 0x1362580
     static Oculus::Platform::SendPolicy DeliveryMethodToSendPolicy(LiteNetLib::DeliveryMethod deliveryMethod);
@@ -412,7 +425,7 @@ namespace GlobalNamespace {
     }
   }; // OculusConnectionManager
   #pragma pack(pop)
-  static check_size<sizeof(OculusConnectionManager), 120 + sizeof(::ArrayWrapper<uint8_t>)> __GlobalNamespace_OculusConnectionManagerSizeCheck;
+  static check_size<sizeof(OculusConnectionManager), 120 + sizeof(::ArrayW<uint8_t>)> __GlobalNamespace_OculusConnectionManagerSizeCheck;
   static_assert(sizeof(OculusConnectionManager) == 0x80);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::OculusConnectionManager*, "", "OculusConnectionManager");
@@ -741,7 +754,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::OculusConnectionManager::AcquireBuffer
 // Il2CppName: AcquireBuffer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (GlobalNamespace::OculusConnectionManager::*)(int)>(&GlobalNamespace::OculusConnectionManager::AcquireBuffer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (GlobalNamespace::OculusConnectionManager::*)(int)>(&GlobalNamespace::OculusConnectionManager::AcquireBuffer)> {
   static const MethodInfo* get() {
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusConnectionManager*), "AcquireBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{size});
@@ -750,7 +763,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: GlobalNamespace::OculusConnectionManager::ReleaseBuffer
 // Il2CppName: ReleaseBuffer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusConnectionManager::*)(::ArrayWrapper<uint8_t>)>(&GlobalNamespace::OculusConnectionManager::ReleaseBuffer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::OculusConnectionManager::*)(::ArrayW<uint8_t>)>(&GlobalNamespace::OculusConnectionManager::ReleaseBuffer)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::OculusConnectionManager*), "ReleaseBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer});

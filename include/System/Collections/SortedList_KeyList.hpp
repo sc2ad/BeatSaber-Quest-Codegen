@@ -35,12 +35,18 @@ namespace System::Collections {
   // [DefaultMemberAttribute] Offset: E61B30
   class SortedList::KeyList : public ::Il2CppObject/*, public System::Collections::IList*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.SortedList sortedList
     // Size: 0x8
     // Offset: 0x10
     System::Collections::SortedList* sortedList;
     // Field size check
     static_assert(sizeof(System::Collections::SortedList*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Collections::IList
     operator System::Collections::IList() noexcept {
       return *reinterpret_cast<System::Collections::IList*>(this);

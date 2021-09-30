@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HMUI
@@ -71,6 +72,11 @@ namespace VRUIControls {
     // [TokenAttribute] Offset: FFFFFFFF
     struct VRGraphicRaycastResult/*, public System::ValueType*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public readonly UnityEngine.UI.Graphic graphic
       // Size: 0x8
       // Offset: 0x0
@@ -95,6 +101,7 @@ namespace VRUIControls {
       UnityEngine::Vector2 insideRootCanvasPosition;
       // Field size check
       static_assert(sizeof(UnityEngine::Vector2) == 0x8);
+      public:
       // Creating value type constructor for type: VRGraphicRaycastResult
       constexpr VRGraphicRaycastResult(UnityEngine::UI::Graphic* graphic_ = {}, float distance_ = {}, UnityEngine::Vector3 position_ = {}, UnityEngine::Vector2 insideRootCanvasPosition_ = {}) noexcept : graphic{graphic_}, distance{distance_}, position{position_}, insideRootCanvasPosition{insideRootCanvasPosition_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -116,6 +123,11 @@ namespace VRUIControls {
     #pragma pack(pop)
     static check_size<sizeof(VRGraphicRaycaster::VRGraphicRaycastResult), 24 + sizeof(UnityEngine::Vector2)> __VRUIControls_VRGraphicRaycaster_VRGraphicRaycastResultSizeCheck;
     static_assert(sizeof(VRGraphicRaycaster::VRGraphicRaycastResult) == 0x20);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.LayerMask _blockingMask
     // Size: 0x4
     // Offset: 0x20
@@ -149,6 +161,7 @@ namespace VRUIControls {
     HMUI::CurvedCanvasSettingsHelper* curvedCanvasSettingsHelper;
     // Field size check
     static_assert(sizeof(HMUI::CurvedCanvasSettingsHelper*) == 0x8);
+    public:
     // static field const value: static private System.Single kPhysics3DRaycastDistance
     static constexpr const float kPhysics3DRaycastDistance = 6;
     // Get static field: static private System.Single kPhysics3DRaycastDistance
@@ -157,9 +170,9 @@ namespace VRUIControls {
     static void _set_kPhysics3DRaycastDistance(float value);
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEEDAD0
     // Get static field: static private readonly System.Single[] _ray2DCircleIntersectionDistances
-    static ::ArrayWrapper<float> _get__ray2DCircleIntersectionDistances();
+    static ::ArrayW<float> _get__ray2DCircleIntersectionDistances();
     // Set static field: static private readonly System.Single[] _ray2DCircleIntersectionDistances
-    static void _set__ray2DCircleIntersectionDistances(::ArrayWrapper<float> value);
+    static void _set__ray2DCircleIntersectionDistances(::ArrayW<float> value);
     // Get instance field reference: private UnityEngine.LayerMask _blockingMask
     UnityEngine::LayerMask& dyn__blockingMask();
     // Get instance field reference: private readonly VRUIControls.PhysicsRaycasterWithCache _physicsRaycaster

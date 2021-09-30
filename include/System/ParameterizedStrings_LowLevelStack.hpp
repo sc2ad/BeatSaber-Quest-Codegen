@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: System
 namespace System {
@@ -20,20 +21,26 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class ParameterizedStrings::LowLevelStack : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.ParameterizedStrings/System.FormatParam[] _arr
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<System::ParameterizedStrings::FormatParam> arr;
+    ::ArrayW<System::ParameterizedStrings::FormatParam> arr;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<System::ParameterizedStrings::FormatParam>) == 0x8);
+    static_assert(sizeof(::ArrayW<System::ParameterizedStrings::FormatParam>) == 0x8);
     // private System.Int32 _count
     // Size: 0x4
     // Offset: 0x18
     int count;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: private System.ParameterizedStrings/System.FormatParam[] _arr
-    ::ArrayWrapper<System::ParameterizedStrings::FormatParam>& dyn__arr();
+    ::ArrayW<System::ParameterizedStrings::FormatParam>& dyn__arr();
     // Get instance field reference: private System.Int32 _count
     int& dyn__count();
     // public System.ParameterizedStrings/System.FormatParam Pop()

@@ -32,6 +32,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerScoreProvider::RankedPlayer : public ::Il2CppObject/*, public System::IComparable_1<GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly MultiplayerSyncState`3<StandardScoreSyncState,StandardScoreSyncState/Score,System.Int32> _multiplayerSyncState
     // Size: 0x8
     // Offset: 0x10
@@ -44,6 +49,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerScoreProvider* scoreSyncManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerScoreProvider*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::IComparable_1<GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>
     operator System::IComparable_1<GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>() noexcept {
       return *reinterpret_cast<System::IComparable_1<GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>*>(this);

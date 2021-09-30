@@ -65,6 +65,11 @@ namespace Zenject {
     class $$c;
     // Nested type: Zenject::SceneContext::$$c__DisplayClass51_0
     class $$c__DisplayClass51_0;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Action PreInstall
     // Size: 0x8
     // Offset: 0x48
@@ -162,6 +167,7 @@ namespace Zenject {
     bool hasResolved;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get static field: static public System.Action`1<Zenject.DiContainer> ExtraBindingsEarlyInstallMethod
     static System::Action_1<Zenject::DiContainer*>* _get_ExtraBindingsEarlyInstallMethod();
     // Set static field: static public System.Action`1<Zenject.DiContainer> ExtraBindingsEarlyInstallMethod

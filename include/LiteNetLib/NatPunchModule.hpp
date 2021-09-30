@@ -70,6 +70,11 @@ namespace LiteNetLib {
     // [TokenAttribute] Offset: FFFFFFFF
     struct RequestEventData/*, public System::ValueType*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Net.IPEndPoint LocalEndPoint
       // Size: 0x8
       // Offset: 0x0
@@ -88,6 +93,7 @@ namespace LiteNetLib {
       ::Il2CppString* Token;
       // Field size check
       static_assert(sizeof(::Il2CppString*) == 0x8);
+      public:
       // Creating value type constructor for type: RequestEventData
       constexpr RequestEventData(System::Net::IPEndPoint* LocalEndPoint_ = {}, System::Net::IPEndPoint* RemoteEndPoint_ = {}, ::Il2CppString* Token_ = {}) noexcept : LocalEndPoint{LocalEndPoint_}, RemoteEndPoint{RemoteEndPoint_}, Token{Token_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -111,6 +117,11 @@ namespace LiteNetLib {
     // [TokenAttribute] Offset: FFFFFFFF
     struct SuccessEventData/*, public System::ValueType*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Net.IPEndPoint TargetEndPoint
       // Size: 0x8
       // Offset: 0x0
@@ -131,6 +142,7 @@ namespace LiteNetLib {
       ::Il2CppString* Token;
       // Field size check
       static_assert(sizeof(::Il2CppString*) == 0x8);
+      public:
       // Creating value type constructor for type: SuccessEventData
       constexpr SuccessEventData(System::Net::IPEndPoint* TargetEndPoint_ = {}, LiteNetLib::NatAddressType Type_ = {}, ::Il2CppString* Token_ = {}) noexcept : TargetEndPoint{TargetEndPoint_}, Type{Type_}, Token{Token_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -147,6 +159,11 @@ namespace LiteNetLib {
     #pragma pack(pop)
     static check_size<sizeof(NatPunchModule::SuccessEventData), 16 + sizeof(::Il2CppString*)> __LiteNetLib_NatPunchModule_SuccessEventDataSizeCheck;
     static_assert(sizeof(NatPunchModule::SuccessEventData) == 0x18);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly LiteNetLib.NetSocket _socket
     // Size: 0x8
     // Offset: 0x10
@@ -189,6 +206,7 @@ namespace LiteNetLib {
     LiteNetLib::INatPunchListener* natPunchListener;
     // Field size check
     static_assert(sizeof(LiteNetLib::INatPunchListener*) == 0x8);
+    public:
     // static field const value: static public System.Int32 MaxTokenLength
     static constexpr const int MaxTokenLength = 256;
     // Get static field: static public System.Int32 MaxTokenLength

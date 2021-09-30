@@ -41,6 +41,11 @@ namespace UnityEngine::Timeline {
   // [TokenAttribute] Offset: FFFFFFFF
   class ParticleControlPlayable : public UnityEngine::Playables::PlayableBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Single m_LastPlayableTime
     // Size: 0x4
     // Offset: 0x10
@@ -67,6 +72,7 @@ namespace UnityEngine::Timeline {
     UnityEngine::ParticleSystem* particleSystem;
     // Field size check
     static_assert(sizeof(UnityEngine::ParticleSystem*) == 0x8);
+    public:
     // static field const value: static private System.Single kUnsetTime
     static constexpr const float kUnsetTime = 3.4028235e+38;
     // Get static field: static private System.Single kUnsetTime

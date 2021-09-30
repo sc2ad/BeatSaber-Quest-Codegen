@@ -27,6 +27,11 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class TMP_MaterialManager::FallbackMaterial : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 baseID
     // Size: 0x4
     // Offset: 0x10
@@ -59,6 +64,7 @@ namespace TMPro {
     int count;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: public System.Int32 baseID
     int& dyn_baseID();
     // Get instance field reference: public UnityEngine.Material baseMaterial

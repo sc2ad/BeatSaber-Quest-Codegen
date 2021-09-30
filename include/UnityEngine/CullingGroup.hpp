@@ -25,6 +25,11 @@ namespace UnityEngine {
     public:
     // Nested type: UnityEngine::CullingGroup::StateChanged
     class StateChanged;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.IntPtr m_Ptr
     // Size: 0x8
     // Offset: 0x10
@@ -37,6 +42,7 @@ namespace UnityEngine {
     UnityEngine::CullingGroup::StateChanged* m_OnStateChanged;
     // Field size check
     static_assert(sizeof(UnityEngine::CullingGroup::StateChanged*) == 0x8);
+    public:
     // Get instance field reference: System.IntPtr m_Ptr
     System::IntPtr& dyn_m_Ptr();
     // Get instance field reference: private UnityEngine.CullingGroup/UnityEngine.StateChanged m_OnStateChanged

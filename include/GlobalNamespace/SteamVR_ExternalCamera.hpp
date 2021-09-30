@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO
@@ -56,6 +57,11 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct Config/*, public System::ValueType*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Single x
       // Size: 0x4
       // Offset: 0x0
@@ -170,6 +176,7 @@ namespace GlobalNamespace {
       bool disableStandardAssets;
       // Field size check
       static_assert(sizeof(bool) == 0x1);
+      public:
       // Creating value type constructor for type: Config
       constexpr Config(float x_ = {}, float y_ = {}, float z_ = {}, float rx_ = {}, float ry_ = {}, float rz_ = {}, float fov_ = {}, float near_ = {}, float far_ = {}, float sceneResolutionScale_ = {}, float frameSkip_ = {}, float nearOffset_ = {}, float farOffset_ = {}, float hmdOffset_ = {}, float r_ = {}, float g_ = {}, float b_ = {}, float a_ = {}, bool disableStandardAssets_ = {}) noexcept : x{x_}, y{y_}, z{z_}, rx{rx_}, ry{ry_}, rz{rz_}, fov{fov_}, near{near_}, far{far_}, sceneResolutionScale{sceneResolutionScale_}, frameSkip{frameSkip_}, nearOffset{nearOffset_}, farOffset{farOffset_}, hmdOffset{hmdOffset_}, r{r_}, g{g_}, b{b_}, a{a_}, disableStandardAssets{disableStandardAssets_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -218,6 +225,11 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(SteamVR_ExternalCamera::Config), 72 + sizeof(bool)> __GlobalNamespace_SteamVR_ExternalCamera_ConfigSizeCheck;
     static_assert(sizeof(SteamVR_ExternalCamera::Config) == 0x49);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public SteamVR_ExternalCamera/Config config
     // Size: 0x49
     // Offset: 0x18
@@ -277,21 +289,22 @@ namespace GlobalNamespace {
     // private UnityEngine.Camera[] cameras
     // Size: 0x8
     // Offset: 0xA8
-    ::ArrayWrapper<UnityEngine::Camera*> cameras;
+    ::ArrayW<UnityEngine::Camera*> cameras;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Camera*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Camera*>) == 0x8);
     // private UnityEngine.Rect[] cameraRects
     // Size: 0x8
     // Offset: 0xB0
-    ::ArrayWrapper<UnityEngine::Rect> cameraRects;
+    ::ArrayW<UnityEngine::Rect> cameraRects;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Rect>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Rect>) == 0x8);
     // private System.Single sceneResolutionScale
     // Size: 0x4
     // Offset: 0xB8
     float sceneResolutionScale;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public SteamVR_ExternalCamera/Config config
@@ -313,9 +326,9 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Material alphaMat
     UnityEngine::Material*& dyn_alphaMat();
     // Get instance field reference: private UnityEngine.Camera[] cameras
-    ::ArrayWrapper<UnityEngine::Camera*>& dyn_cameras();
+    ::ArrayW<UnityEngine::Camera*>& dyn_cameras();
     // Get instance field reference: private UnityEngine.Rect[] cameraRects
-    ::ArrayWrapper<UnityEngine::Rect>& dyn_cameraRects();
+    ::ArrayW<UnityEngine::Rect>& dyn_cameraRects();
     // Get instance field reference: private System.Single sceneResolutionScale
     float& dyn_sceneResolutionScale();
     // public System.Void ReadConfig()

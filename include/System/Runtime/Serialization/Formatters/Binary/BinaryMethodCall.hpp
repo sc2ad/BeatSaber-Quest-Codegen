@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -32,6 +33,11 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   // [TokenAttribute] Offset: FFFFFFFF
   class BinaryMethodCall : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String methodName
     // Size: 0x8
     // Offset: 0x10
@@ -47,9 +53,9 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // private System.Object[] args
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<::Il2CppObject*> args;
+    ::ArrayW<::Il2CppObject*> args;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppObject*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppObject*>) == 0x8);
     // private System.Object callContext
     // Size: 0x8
     // Offset: 0x28
@@ -59,9 +65,9 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // private System.Type[] argTypes
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<System::Type*> argTypes;
+    ::ArrayW<System::Type*> argTypes;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<System::Type*>) == 0x8);
+    static_assert(sizeof(::ArrayW<System::Type*>) == 0x8);
     // private System.Boolean bArgsPrimitive
     // Size: 0x1
     // Offset: 0x38
@@ -76,16 +82,17 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     System::Runtime::Serialization::Formatters::Binary::MessageEnum messageEnum;
     // Field size check
     static_assert(sizeof(System::Runtime::Serialization::Formatters::Binary::MessageEnum) == 0x4);
+    public:
     // Get instance field reference: private System.String methodName
     ::Il2CppString*& dyn_methodName();
     // Get instance field reference: private System.String typeName
     ::Il2CppString*& dyn_typeName();
     // Get instance field reference: private System.Object[] args
-    ::ArrayWrapper<::Il2CppObject*>& dyn_args();
+    ::ArrayW<::Il2CppObject*>& dyn_args();
     // Get instance field reference: private System.Object callContext
     ::Il2CppObject*& dyn_callContext();
     // Get instance field reference: private System.Type[] argTypes
-    ::ArrayWrapper<System::Type*>& dyn_argTypes();
+    ::ArrayW<System::Type*>& dyn_argTypes();
     // Get instance field reference: private System.Boolean bArgsPrimitive
     bool& dyn_bArgsPrimitive();
     // Get instance field reference: private System.Runtime.Serialization.Formatters.Binary.MessageEnum messageEnum

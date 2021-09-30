@@ -25,6 +25,11 @@ namespace OVR::OpenVR {
     class _LoadSharedResource;
     // Nested type: OVR::OpenVR::IVRResources::_GetResourceFullPath
     class _GetResourceFullPath;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // OVR.OpenVR.IVRResources/OVR.OpenVR._LoadSharedResource LoadSharedResource
     // Size: 0x8
     // Offset: 0x0
@@ -37,6 +42,7 @@ namespace OVR::OpenVR {
     OVR::OpenVR::IVRResources::_GetResourceFullPath* GetResourceFullPath;
     // Field size check
     static_assert(sizeof(OVR::OpenVR::IVRResources::_GetResourceFullPath*) == 0x8);
+    public:
     // Creating value type constructor for type: IVRResources
     constexpr IVRResources(OVR::OpenVR::IVRResources::_LoadSharedResource* LoadSharedResource_ = {}, OVR::OpenVR::IVRResources::_GetResourceFullPath* GetResourceFullPath_ = {}) noexcept : LoadSharedResource{LoadSharedResource_}, GetResourceFullPath{GetResourceFullPath_} {}
     // Creating interface conversion operator: operator System::ValueType

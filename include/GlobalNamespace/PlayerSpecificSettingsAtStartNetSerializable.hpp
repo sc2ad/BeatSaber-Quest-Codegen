@@ -46,6 +46,11 @@ namespace GlobalNamespace {
   // [PreserveAttribute] Offset: FFFFFFFF
   class PlayerSpecificSettingsAtStartNetSerializable : public ::Il2CppObject/*, public LiteNetLib::Utils::INetSerializable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.IReadOnlyList`1<PlayerSpecificSettingsNetSerializable> <activePlayerSpecificSettingsAtGameStart>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -58,6 +63,7 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer*>* activePlayersAtGameStart;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::IConnectedPlayer*>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator LiteNetLib::Utils::INetSerializable
     operator LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<LiteNetLib::Utils::INetSerializable*>(this);

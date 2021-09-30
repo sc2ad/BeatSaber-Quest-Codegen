@@ -22,6 +22,11 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class AnimatedSwitchView::ColorBlock : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Color knobColor
     // Size: 0x10
     // Offset: 0x10
@@ -59,6 +64,7 @@ namespace HMUI {
     UnityEngine::Color backgroundColor1;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
+    public:
     // Get instance field reference: public UnityEngine.Color knobColor
     UnityEngine::Color& dyn_knobColor();
     // Get instance field reference: public UnityEngine.Color knobColor0

@@ -50,6 +50,11 @@ namespace GlobalNamespace {
     char ___base_padding[0x3] = {};
     // Nested type: GlobalNamespace::BasicBeatmapObjectManager::InitData
     class InitData;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Nullable`1<System.Single> _firstBasicNoteTime
     // Size: 0xFFFFFFFF
     // Offset: 0x64
@@ -78,6 +83,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::ObstacleController*>* obstaclePoolContainer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::ObstacleController*>*) == 0x8);
+    public:
     // Get instance field reference: private System.Nullable`1<System.Single> _firstBasicNoteTime
     System::Nullable_1<float>& dyn__firstBasicNoteTime();
     // Get instance field reference: private BasicBeatmapObjectManager/InitData _initData

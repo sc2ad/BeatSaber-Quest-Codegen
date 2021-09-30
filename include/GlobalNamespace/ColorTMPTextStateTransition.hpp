@@ -43,6 +43,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ColorTMPTextStateTransition : public GlobalNamespace::BaseStateTransition_1<TMPro::TMP_Text*> {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [SpaceAttribute] Offset: 0xF0D2D4
     // private ColorTransitionSO _transition
     // Size: 0x8
@@ -56,6 +61,7 @@ namespace GlobalNamespace {
     Tweening::ColorTween* colorTween;
     // Field size check
     static_assert(sizeof(Tweening::ColorTween*) == 0x8);
+    public:
     // Get instance field reference: private ColorTransitionSO _transition
     GlobalNamespace::ColorTransitionSO*& dyn__transition();
     // Get instance field reference: private Tweening.ColorTween _colorTween

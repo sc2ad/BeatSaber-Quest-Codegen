@@ -19,6 +19,11 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HAPI_CurveInfo/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public HoudiniEngineUnity.HAPI_CurveType curveType
     // Size: 0x4
     // Offset: 0x0
@@ -69,6 +74,7 @@ namespace HoudiniEngineUnity {
     bool hasKnots;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating value type constructor for type: HAPI_CurveInfo
     constexpr HAPI_CurveInfo(HoudiniEngineUnity::HAPI_CurveType curveType_ = {}, int curveCount_ = {}, int vertexCount_ = {}, int knotCount_ = {}, bool isPeriodic_ = {}, bool isRational_ = {}, int order_ = {}, bool hasKnots_ = {}) noexcept : curveType{curveType_}, curveCount{curveCount_}, vertexCount{vertexCount_}, knotCount{knotCount_}, isPeriodic{isPeriodic_}, isRational{isRational_}, order{order_}, hasKnots{hasKnots_} {}
     // Creating interface conversion operator: operator System::ValueType

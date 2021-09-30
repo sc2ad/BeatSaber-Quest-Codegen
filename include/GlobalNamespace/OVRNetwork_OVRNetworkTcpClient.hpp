@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -47,6 +48,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::OVRNetwork::OVRNetworkTcpClient::ConnectionState
     struct ConnectionState;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Action connectionStateChangedCallback
     // Size: 0x8
     // Offset: 0x10
@@ -56,9 +62,9 @@ namespace GlobalNamespace {
     // public System.Action`4<System.Int32,System.Byte[],System.Int32,System.Int32> payloadReceivedCallback
     // Size: 0x8
     // Offset: 0x18
-    System::Action_4<int, ::ArrayWrapper<uint8_t>, int, int>* payloadReceivedCallback;
+    System::Action_4<int, ::ArrayW<uint8_t>, int, int>* payloadReceivedCallback;
     // Field size check
-    static_assert(sizeof(System::Action_4<int, ::ArrayWrapper<uint8_t>, int, int>*) == 0x8);
+    static_assert(sizeof(System::Action_4<int, ::ArrayW<uint8_t>, int, int>*) == 0x8);
     // private System.Net.Sockets.TcpClient tcpClient
     // Size: 0x8
     // Offset: 0x20
@@ -68,9 +74,9 @@ namespace GlobalNamespace {
     // private System.Byte[][] receivedBuffers
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<::ArrayWrapper<uint8_t>> receivedBuffers;
+    ::ArrayW<::ArrayW<uint8_t>> receivedBuffers;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::ArrayWrapper<uint8_t>>) == 0x8);
+    static_assert(sizeof(::ArrayW<::ArrayW<uint8_t>>) == 0x8);
     // private System.Int32 receivedBufferIndex
     // Size: 0x4
     // Offset: 0x30
@@ -89,14 +95,15 @@ namespace GlobalNamespace {
     System::Threading::ManualResetEvent* readyReceiveDataEvent;
     // Field size check
     static_assert(sizeof(System::Threading::ManualResetEvent*) == 0x8);
+    public:
     // Get instance field reference: public System.Action connectionStateChangedCallback
     System::Action*& dyn_connectionStateChangedCallback();
     // Get instance field reference: public System.Action`4<System.Int32,System.Byte[],System.Int32,System.Int32> payloadReceivedCallback
-    System::Action_4<int, ::ArrayWrapper<uint8_t>, int, int>*& dyn_payloadReceivedCallback();
+    System::Action_4<int, ::ArrayW<uint8_t>, int, int>*& dyn_payloadReceivedCallback();
     // Get instance field reference: private System.Net.Sockets.TcpClient tcpClient
     System::Net::Sockets::TcpClient*& dyn_tcpClient();
     // Get instance field reference: private System.Byte[][] receivedBuffers
-    ::ArrayWrapper<::ArrayWrapper<uint8_t>>& dyn_receivedBuffers();
+    ::ArrayW<::ArrayW<uint8_t>>& dyn_receivedBuffers();
     // Get instance field reference: private System.Int32 receivedBufferIndex
     int& dyn_receivedBufferIndex();
     // Get instance field reference: private System.Int32 receivedBufferDataSize

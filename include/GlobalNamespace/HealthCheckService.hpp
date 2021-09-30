@@ -36,6 +36,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class HealthCheckService : public ::Il2CppObject/*, public GlobalNamespace::IHealthCheckService*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Int32 _port
     // Size: 0x4
     // Offset: 0x10
@@ -70,6 +75,7 @@ namespace GlobalNamespace {
     System::Net::HttpListener* listener;
     // Field size check
     static_assert(sizeof(System::Net::HttpListener*) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IHealthCheckService
     operator GlobalNamespace::IHealthCheckService() noexcept {
       return *reinterpret_cast<GlobalNamespace::IHealthCheckService*>(this);

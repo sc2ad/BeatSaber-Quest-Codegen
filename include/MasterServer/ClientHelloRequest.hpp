@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -39,12 +40,18 @@ namespace MasterServer {
     public:
     // Writing base type padding for base size: 0x14 to desired offset: 0x18
     char ___base_padding[0x4] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly System.Byte[] random
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<uint8_t> random;
+    ::ArrayW<uint8_t> random;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
+    public:
     // Creating interface conversion operator: operator MasterServer::IHandshakeClientToServerMessage
     operator MasterServer::IHandshakeClientToServerMessage() noexcept {
       return *reinterpret_cast<MasterServer::IHandshakeClientToServerMessage*>(this);
@@ -52,13 +59,13 @@ namespace MasterServer {
     // Deleting conversion operator: operator uint
     constexpr operator uint() const noexcept = delete;
     // Get instance field reference: public readonly System.Byte[] random
-    ::ArrayWrapper<uint8_t>& dyn_random();
+    ::ArrayW<uint8_t>& dyn_random();
     // static public PacketPool`1<MasterServer.ClientHelloRequest> get_pool()
     // Offset: 0x12D8060
     static GlobalNamespace::PacketPool_1<MasterServer::ClientHelloRequest*>* get_pool();
     // public MasterServer.ClientHelloRequest Init(System.Byte[] random)
     // Offset: 0x12D80A8
-    MasterServer::ClientHelloRequest* Init(::ArrayWrapper<uint8_t> random);
+    MasterServer::ClientHelloRequest* Init(::ArrayW<uint8_t> random);
     // public System.Void .ctor()
     // Offset: 0x12D9EB0
     // Implemented from: BaseMasterServerReliableRequest
@@ -86,7 +93,7 @@ namespace MasterServer {
     void Release();
   }; // MasterServer.ClientHelloRequest
   #pragma pack(pop)
-  static check_size<sizeof(ClientHelloRequest), 24 + sizeof(::ArrayWrapper<uint8_t>)> __MasterServer_ClientHelloRequestSizeCheck;
+  static check_size<sizeof(ClientHelloRequest), 24 + sizeof(::ArrayW<uint8_t>)> __MasterServer_ClientHelloRequestSizeCheck;
   static_assert(sizeof(ClientHelloRequest) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::ClientHelloRequest*, "MasterServer", "ClientHelloRequest");
@@ -102,7 +109,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: MasterServer::ClientHelloRequest::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::ClientHelloRequest* (MasterServer::ClientHelloRequest::*)(::ArrayWrapper<uint8_t>)>(&MasterServer::ClientHelloRequest::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::ClientHelloRequest* (MasterServer::ClientHelloRequest::*)(::ArrayW<uint8_t>)>(&MasterServer::ClientHelloRequest::Init)> {
   static const MethodInfo* get() {
     static auto* random = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MasterServer::ClientHelloRequest*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{random});

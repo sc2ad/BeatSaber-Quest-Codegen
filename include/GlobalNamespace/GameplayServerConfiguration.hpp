@@ -41,6 +41,11 @@ namespace GlobalNamespace {
   // [IsReadOnlyAttribute] Offset: FFFFFFFF
   struct GameplayServerConfiguration/*, public System::ValueType, public System::IEquatable_1<GlobalNamespace::GameplayServerConfiguration>, public LiteNetLib::Utils::INetImmutableSerializable_1<GlobalNamespace::GameplayServerConfiguration>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly System.Int32 maxPlayerCount
     // Size: 0x4
     // Offset: 0x0
@@ -79,6 +84,7 @@ namespace GlobalNamespace {
     GlobalNamespace::GameplayServerControlSettings gameplayServerControlSettings;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayServerControlSettings) == 0x4);
+    public:
     // Creating value type constructor for type: GameplayServerConfiguration
     constexpr GameplayServerConfiguration(int maxPlayerCount_ = {}, GlobalNamespace::DiscoveryPolicy discoveryPolicy_ = {}, GlobalNamespace::InvitePolicy invitePolicy_ = {}, GlobalNamespace::GameplayServerMode gameplayServerMode_ = {}, GlobalNamespace::SongSelectionMode songSelectionMode_ = {}, GlobalNamespace::GameplayServerControlSettings gameplayServerControlSettings_ = {}) noexcept : maxPlayerCount{maxPlayerCount_}, discoveryPolicy{discoveryPolicy_}, invitePolicy{invitePolicy_}, gameplayServerMode{gameplayServerMode_}, songSelectionMode{songSelectionMode_}, gameplayServerControlSettings{gameplayServerControlSettings_} {}
     // Creating interface conversion operator: operator System::ValueType

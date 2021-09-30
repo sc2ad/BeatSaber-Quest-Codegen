@@ -30,12 +30,18 @@ namespace Org::BouncyCastle::Utilities::IO::Pem {
   // [TokenAttribute] Offset: FFFFFFFF
   class PemReader : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.IO.TextReader reader
     // Size: 0x8
     // Offset: 0x10
     System::IO::TextReader* reader;
     // Field size check
     static_assert(sizeof(System::IO::TextReader*) == 0x8);
+    public:
     // Creating conversion operator: operator System::IO::TextReader*
     constexpr operator System::IO::TextReader*() const noexcept {
       return reader;

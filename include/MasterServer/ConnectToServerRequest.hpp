@@ -39,6 +39,11 @@ namespace MasterServer {
   // [TokenAttribute] Offset: FFFFFFFF
   class ConnectToServerRequest : public MasterServer::BaseConnectToServerRequest {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public BeatmapLevelSelectionMask selectionMask
     // Size: 0x18
     // Offset: 0x38
@@ -63,6 +68,7 @@ namespace MasterServer {
     GlobalNamespace::GameplayServerConfiguration configuration;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayServerConfiguration) == 0x18);
+    public:
     // Get instance field reference: public BeatmapLevelSelectionMask selectionMask
     GlobalNamespace::BeatmapLevelSelectionMask& dyn_selectionMask();
     // Get instance field reference: public System.String secret

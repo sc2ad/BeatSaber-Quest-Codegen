@@ -40,6 +40,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LocalNetworkPlayerModel::LocalNetworkPlayer : public ::Il2CppObject/*, public GlobalNamespace::INetworkPlayer*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly LocalNetworkPlayerModel _playerModel
     // Size: 0x8
     // Offset: 0x10
@@ -172,6 +177,7 @@ namespace GlobalNamespace {
     bool invitedMeToJoinTheirParty;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::INetworkPlayer
     operator GlobalNamespace::INetworkPlayer() noexcept {
       return *reinterpret_cast<GlobalNamespace::INetworkPlayer*>(this);

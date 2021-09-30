@@ -37,6 +37,11 @@ namespace UnityEngine::ProBuilder {
   template<typename T>
   class ObjectPool_1 : public ::Il2CppObject/*, public System::IDisposable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean m_IsDisposed
     // Size: 0x1
     // Offset: 0x0
@@ -67,6 +72,7 @@ namespace UnityEngine::ProBuilder {
     System::Action_1<T>* destructor;
     // Field size check
     static_assert(sizeof(System::Action_1<T>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

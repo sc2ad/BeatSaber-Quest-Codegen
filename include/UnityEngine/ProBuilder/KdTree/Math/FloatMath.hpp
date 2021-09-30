@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: UnityEngine.ProBuilder.KdTree.Math
 namespace UnityEngine::ProBuilder::KdTree::Math {
@@ -48,7 +49,7 @@ namespace UnityEngine::ProBuilder::KdTree::Math {
     float Multiply(float a, float b);
     // public System.Single DistanceSquaredBetweenPoints(System.Single[] a, System.Single[] b)
     // Offset: 0x2629FC8
-    float DistanceSquaredBetweenPoints(::ArrayWrapper<float> a, ::ArrayWrapper<float> b);
+    float DistanceSquaredBetweenPoints(::ArrayW<float> a, ::ArrayW<float> b);
     // public System.Void .ctor()
     // Offset: 0x262A0DC
     // Implemented from: UnityEngine.ProBuilder.KdTree.Math.TypeMath`1
@@ -148,7 +149,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::KdTree::Math::FloatMath::DistanceSquaredBetweenPoints
 // Il2CppName: DistanceSquaredBetweenPoints
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::ProBuilder::KdTree::Math::FloatMath::*)(::ArrayWrapper<float>, ::ArrayWrapper<float>)>(&UnityEngine::ProBuilder::KdTree::Math::FloatMath::DistanceSquaredBetweenPoints)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (UnityEngine::ProBuilder::KdTree::Math::FloatMath::*)(::ArrayW<float>, ::ArrayW<float>)>(&UnityEngine::ProBuilder::KdTree::Math::FloatMath::DistanceSquaredBetweenPoints)> {
   static const MethodInfo* get() {
     static auto* a = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     static auto* b = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;

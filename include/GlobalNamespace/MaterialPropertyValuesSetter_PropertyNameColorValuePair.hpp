@@ -24,12 +24,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MaterialPropertyValuesSetter::PropertyNameColorValuePair : public GlobalNamespace::MaterialPropertyValuesSetter::PropertyValuePairBase {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Color color
     // Size: 0x10
     // Offset: 0x1C
     UnityEngine::Color color;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
+    public:
     // Creating conversion operator: operator UnityEngine::Color
     constexpr operator UnityEngine::Color() const noexcept {
       return color;

@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: RootMotion::FinalIK
@@ -40,6 +41,11 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class BipedIKSolvers : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public RootMotion.FinalIK.IKSolverLimb leftFoot
     // Size: 0x8
     // Offset: 0x10
@@ -91,15 +97,16 @@ namespace RootMotion::FinalIK {
     // private RootMotion.FinalIK.IKSolverLimb[] _limbs
     // Size: 0x8
     // Offset: 0x50
-    ::ArrayWrapper<RootMotion::FinalIK::IKSolverLimb*> limbs;
+    ::ArrayW<RootMotion::FinalIK::IKSolverLimb*> limbs;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::IKSolverLimb*>) == 0x8);
+    static_assert(sizeof(::ArrayW<RootMotion::FinalIK::IKSolverLimb*>) == 0x8);
     // private RootMotion.FinalIK.IKSolver[] _ikSolvers
     // Size: 0x8
     // Offset: 0x58
-    ::ArrayWrapper<RootMotion::FinalIK::IKSolver*> ikSolvers;
+    ::ArrayW<RootMotion::FinalIK::IKSolver*> ikSolvers;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::IKSolver*>) == 0x8);
+    static_assert(sizeof(::ArrayW<RootMotion::FinalIK::IKSolver*>) == 0x8);
+    public:
     // Get instance field reference: public RootMotion.FinalIK.IKSolverLimb leftFoot
     RootMotion::FinalIK::IKSolverLimb*& dyn_leftFoot();
     // Get instance field reference: public RootMotion.FinalIK.IKSolverLimb rightFoot
@@ -117,15 +124,15 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public RootMotion.FinalIK.Constraints pelvis
     RootMotion::FinalIK::Constraints*& dyn_pelvis();
     // Get instance field reference: private RootMotion.FinalIK.IKSolverLimb[] _limbs
-    ::ArrayWrapper<RootMotion::FinalIK::IKSolverLimb*>& dyn__limbs();
+    ::ArrayW<RootMotion::FinalIK::IKSolverLimb*>& dyn__limbs();
     // Get instance field reference: private RootMotion.FinalIK.IKSolver[] _ikSolvers
-    ::ArrayWrapper<RootMotion::FinalIK::IKSolver*>& dyn__ikSolvers();
+    ::ArrayW<RootMotion::FinalIK::IKSolver*>& dyn__ikSolvers();
     // public RootMotion.FinalIK.IKSolverLimb[] get_limbs()
     // Offset: 0x1EBFFDC
-    ::ArrayWrapper<RootMotion::FinalIK::IKSolverLimb*> get_limbs();
+    ::ArrayW<RootMotion::FinalIK::IKSolverLimb*> get_limbs();
     // public RootMotion.FinalIK.IKSolver[] get_ikSolvers()
     // Offset: 0x1EC0BF4
-    ::ArrayWrapper<RootMotion::FinalIK::IKSolver*> get_ikSolvers();
+    ::ArrayW<RootMotion::FinalIK::IKSolver*> get_ikSolvers();
     // public System.Void AssignReferences(RootMotion.BipedReferences references)
     // Offset: 0x1EC0398
     void AssignReferences(RootMotion::BipedReferences* references);
@@ -140,7 +147,7 @@ namespace RootMotion::FinalIK {
     }
   }; // RootMotion.FinalIK.BipedIKSolvers
   #pragma pack(pop)
-  static check_size<sizeof(BipedIKSolvers), 88 + sizeof(::ArrayWrapper<RootMotion::FinalIK::IKSolver*>)> __RootMotion_FinalIK_BipedIKSolversSizeCheck;
+  static check_size<sizeof(BipedIKSolvers), 88 + sizeof(::ArrayW<RootMotion::FinalIK::IKSolver*>)> __RootMotion_FinalIK_BipedIKSolversSizeCheck;
   static_assert(sizeof(BipedIKSolvers) == 0x60);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::BipedIKSolvers*, "RootMotion.FinalIK", "BipedIKSolvers");
@@ -148,7 +155,7 @@ DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::BipedIKSolvers*, "RootMotion.FinalIK
 // Writing MetadataGetter for method: RootMotion::FinalIK::BipedIKSolvers::get_limbs
 // Il2CppName: get_limbs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<RootMotion::FinalIK::IKSolverLimb*> (RootMotion::FinalIK::BipedIKSolvers::*)()>(&RootMotion::FinalIK::BipedIKSolvers::get_limbs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<RootMotion::FinalIK::IKSolverLimb*> (RootMotion::FinalIK::BipedIKSolvers::*)()>(&RootMotion::FinalIK::BipedIKSolvers::get_limbs)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::BipedIKSolvers*), "get_limbs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -156,7 +163,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: RootMotion::FinalIK::BipedIKSolvers::get_ikSolvers
 // Il2CppName: get_ikSolvers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<RootMotion::FinalIK::IKSolver*> (RootMotion::FinalIK::BipedIKSolvers::*)()>(&RootMotion::FinalIK::BipedIKSolvers::get_ikSolvers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<RootMotion::FinalIK::IKSolver*> (RootMotion::FinalIK::BipedIKSolvers::*)()>(&RootMotion::FinalIK::BipedIKSolvers::get_ikSolvers)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::BipedIKSolvers*), "get_ikSolvers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

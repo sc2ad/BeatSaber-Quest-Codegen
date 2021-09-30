@@ -43,6 +43,11 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class StandardLevelDetailViewController::$$c__DisplayClass48_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Action handleDidPressRefreshButton
     // Size: 0x8
     // Offset: 0x10
@@ -67,6 +72,7 @@ namespace GlobalNamespace {
     GlobalNamespace::StandardLevelDetailViewController* $$4__this;
     // Field size check
     static_assert(sizeof(GlobalNamespace::StandardLevelDetailViewController*) == 0x8);
+    public:
     // Get instance field reference: public System.Action handleDidPressRefreshButton
     System::Action*& dyn_handleDidPressRefreshButton();
     // Get instance field reference: public System.Action`2<StandardLevelDetailView,IDifficultyBeatmap> handleDidChangeDifficultyBeatmap

@@ -22,12 +22,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ScoreUIController::InitData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly ScoreUIController/ScoreDisplayType scoreDisplayType
     // Size: 0x4
     // Offset: 0x10
     GlobalNamespace::ScoreUIController::ScoreDisplayType scoreDisplayType;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ScoreUIController::ScoreDisplayType) == 0x4);
+    public:
     // Creating conversion operator: operator GlobalNamespace::ScoreUIController::ScoreDisplayType
     constexpr operator GlobalNamespace::ScoreUIController::ScoreDisplayType() const noexcept {
       return scoreDisplayType;

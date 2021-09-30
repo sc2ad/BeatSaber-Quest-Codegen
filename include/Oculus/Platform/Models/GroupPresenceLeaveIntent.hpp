@@ -20,6 +20,11 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class GroupPresenceLeaveIntent : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly System.String DestinationApiName
     // Size: 0x8
     // Offset: 0x10
@@ -38,6 +43,7 @@ namespace Oculus::Platform::Models {
     ::Il2CppString* MatchSessionId;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: public readonly System.String DestinationApiName
     ::Il2CppString*& dyn_DestinationApiName();
     // Get instance field reference: public readonly System.String LobbySessionId

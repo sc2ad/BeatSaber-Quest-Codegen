@@ -20,12 +20,18 @@ namespace System::Net::Http {
   // [TokenAttribute] Offset: FFFFFFFF
   class HttpMethod : public ::Il2CppObject/*, public System::IEquatable_1<System::Net::Http::HttpMethod*>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.String method
     // Size: 0x8
     // Offset: 0x10
     ::Il2CppString* method;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::IEquatable_1<System::Net::Http::HttpMethod*>
     operator System::IEquatable_1<System::Net::Http::HttpMethod*>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<System::Net::Http::HttpMethod*>*>(this);

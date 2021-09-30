@@ -7,6 +7,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Net.Http.Headers.Parser
 #include "System/Net/Http/Headers/Parser.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net::Http::Headers
@@ -38,7 +39,7 @@ namespace System::Net::Http::Headers {
     static void _cctor();
     // static public System.Boolean TryParse(System.String input, out System.Byte[] result)
     // Offset: 0x1754CAC
-    static bool TryParse(::Il2CppString* input, ByRef<::ArrayWrapper<uint8_t>> result);
+    static bool TryParse(::Il2CppString* input, ByRef<::ArrayW<uint8_t>> result);
   }; // System.Net.Http.Headers.Parser/System.Net.Http.Headers.MD5
   #pragma pack(pop)
 }
@@ -56,7 +57,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Net::Http::Headers::Parser::MD5::TryParse
 // Il2CppName: TryParse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ByRef<::ArrayWrapper<uint8_t>>)>(&System::Net::Http::Headers::Parser::MD5::TryParse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ByRef<::ArrayW<uint8_t>>)>(&System::Net::Http::Headers::Parser::MD5::TryParse)> {
   static const MethodInfo* get() {
     static auto* input = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* result = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->this_arg;

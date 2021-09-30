@@ -28,6 +28,11 @@ namespace UnityEngine::XR {
   // [NativeHeaderAttribute] Offset: E993D8
   struct XRDisplaySubsystem::XRRenderPass/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.IntPtr displaySubsystemInstance
     // Size: 0x8
     // Offset: 0x0
@@ -70,6 +75,7 @@ namespace UnityEngine::XR {
     int cullingPassIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: XRRenderPass
     constexpr XRRenderPass(System::IntPtr displaySubsystemInstance_ = {}, int renderPassIndex_ = {}, UnityEngine::Rendering::RenderTargetIdentifier renderTarget_ = {}, UnityEngine::RenderTextureDescriptor renderTargetDesc_ = {}, bool shouldFillOutDepth_ = {}, int cullingPassIndex_ = {}) noexcept : displaySubsystemInstance{displaySubsystemInstance_}, renderPassIndex{renderPassIndex_}, renderTarget{renderTarget_}, renderTargetDesc{renderTargetDesc_}, shouldFillOutDepth{shouldFillOutDepth_}, cullingPassIndex{cullingPassIndex_} {}
     // Creating interface conversion operator: operator System::ValueType

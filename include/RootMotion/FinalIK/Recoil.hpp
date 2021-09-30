@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: RootMotion::FinalIK
@@ -50,12 +51,18 @@ namespace RootMotion::FinalIK {
     // [TokenAttribute] Offset: FFFFFFFF
     struct Handedness/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: Handedness
       constexpr Handedness(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -84,6 +91,11 @@ namespace RootMotion::FinalIK {
     #pragma pack(pop)
     static check_size<sizeof(Recoil::Handedness), 0 + sizeof(int)> __RootMotion_FinalIK_Recoil_HandednessSizeCheck;
     static_assert(sizeof(Recoil::Handedness) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [TooltipAttribute] Offset: 0xEF4AF4
     // public RootMotion.FinalIK.AimIK aimIK
     // Size: 0x8
@@ -156,9 +168,9 @@ namespace RootMotion::FinalIK {
     // public RootMotion.FinalIK.Recoil/RootMotion.FinalIK.RecoilOffset[] offsets
     // Size: 0x8
     // Offset: 0x70
-    ::ArrayWrapper<RootMotion::FinalIK::Recoil::RecoilOffset*> offsets;
+    ::ArrayW<RootMotion::FinalIK::Recoil::RecoilOffset*> offsets;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::Recoil::RecoilOffset*>) == 0x8);
+    static_assert(sizeof(::ArrayW<RootMotion::FinalIK::Recoil::RecoilOffset*>) == 0x8);
     // public UnityEngine.Quaternion rotationOffset
     // Size: 0x10
     // Offset: 0x78
@@ -241,6 +253,7 @@ namespace RootMotion::FinalIK {
     UnityEngine::Vector3 aimIKAxis;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    public:
     // Get instance field reference: public RootMotion.FinalIK.AimIK aimIK
     RootMotion::FinalIK::AimIK*& dyn_aimIK();
     // Get instance field reference: public System.Boolean aimIKSolvedLast
@@ -260,7 +273,7 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public System.Single blendTime
     float& dyn_blendTime();
     // Get instance field reference: public RootMotion.FinalIK.Recoil/RootMotion.FinalIK.RecoilOffset[] offsets
-    ::ArrayWrapper<RootMotion::FinalIK::Recoil::RecoilOffset*>& dyn_offsets();
+    ::ArrayW<RootMotion::FinalIK::Recoil::RecoilOffset*>& dyn_offsets();
     // Get instance field reference: public UnityEngine.Quaternion rotationOffset
     UnityEngine::Quaternion& dyn_rotationOffset();
     // Get instance field reference: private System.Single magnitudeMlp

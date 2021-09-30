@@ -59,12 +59,18 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct LeaderboardType/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: LeaderboardType
       constexpr LeaderboardType(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -93,6 +99,11 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(LocalLeaderboardsModel::LeaderboardType), 0 + sizeof(int)> __GlobalNamespace_LocalLeaderboardsModel_LeaderboardTypeSizeCheck;
     static_assert(sizeof(LocalLeaderboardsModel::LeaderboardType) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 _maxNumberOfScoresInLeaderboard
     // Size: 0x4
     // Offset: 0x18
@@ -131,6 +142,7 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::LeaderboardData*>* dailyLeaderboardsData;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::LeaderboardData*>*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.String kLocalLeaderboardsFileName

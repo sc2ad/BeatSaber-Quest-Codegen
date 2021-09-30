@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: System.Net
 namespace System::Net {
@@ -35,9 +36,9 @@ namespace System::Net {
     // Set static field: static readonly System.Net.CaseInsensitiveAscii StaticInstance
     static void _set_StaticInstance(System::Net::CaseInsensitiveAscii* value);
     // Get static field: static readonly System.Byte[] AsciiToLower
-    static ::ArrayWrapper<uint8_t> _get_AsciiToLower();
+    static ::ArrayW<uint8_t> _get_AsciiToLower();
     // Set static field: static readonly System.Byte[] AsciiToLower
-    static void _set_AsciiToLower(::ArrayWrapper<uint8_t> value);
+    static void _set_AsciiToLower(::ArrayW<uint8_t> value);
     // static private System.Void .cctor()
     // Offset: 0x156F014
     static void _cctor();

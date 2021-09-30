@@ -34,6 +34,11 @@ namespace GlobalNamespace {
   // [ExecuteInEditMode] Offset: FFFFFFFF
   class ParametricBoxController : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Single width
     // Size: 0x4
     // Offset: 0x18
@@ -111,6 +116,7 @@ namespace GlobalNamespace {
     UnityEngine::MeshRenderer* meshRenderer;
     // Field size check
     static_assert(sizeof(UnityEngine::MeshRenderer*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static private UnityEngine.MaterialPropertyBlock _materialPropertyBlock

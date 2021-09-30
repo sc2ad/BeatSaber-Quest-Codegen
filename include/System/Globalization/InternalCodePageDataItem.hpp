@@ -20,6 +20,11 @@ namespace System::Globalization {
   // [TokenAttribute] Offset: FFFFFFFF
   struct InternalCodePageDataItem/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.UInt16 codePage
     // Size: 0x2
     // Offset: 0x0
@@ -44,6 +49,7 @@ namespace System::Globalization {
     ::Il2CppString* Names;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Creating value type constructor for type: InternalCodePageDataItem
     constexpr InternalCodePageDataItem(uint16_t codePage_ = {}, uint16_t uiFamilyCodePage_ = {}, uint flags_ = {}, ::Il2CppString* Names_ = {}) noexcept : codePage{codePage_}, uiFamilyCodePage{uiFamilyCodePage_}, flags{flags_}, Names{Names_} {}
     // Creating interface conversion operator: operator System::ValueType

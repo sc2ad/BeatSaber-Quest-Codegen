@@ -38,12 +38,18 @@ namespace System::Threading {
   // [DebuggerDisplayAttribute] Offset: E5E6E0
   struct CancellationToken/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Threading.CancellationTokenSource m_source
     // Size: 0x8
     // Offset: 0x0
     System::Threading::CancellationTokenSource* m_source;
     // Field size check
     static_assert(sizeof(System::Threading::CancellationTokenSource*) == 0x8);
+    public:
     // Creating value type constructor for type: CancellationToken
     constexpr CancellationToken(System::Threading::CancellationTokenSource* m_source_ = {}) noexcept : m_source{m_source_} {}
     // Creating interface conversion operator: operator System::ValueType

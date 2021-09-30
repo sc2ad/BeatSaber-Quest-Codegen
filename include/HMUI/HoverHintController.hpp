@@ -43,6 +43,11 @@ namespace HMUI {
     class $ShowHintAfterDelay$d__10;
     // Nested type: HMUI::HoverHintController::$HideHintAfterDelay$d__11
     class $HideHintAfterDelay$d__11;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private HMUI.HoverHintPanel _hoverHintPanelPrefab
     // Size: 0x8
     // Offset: 0x18
@@ -61,6 +66,7 @@ namespace HMUI {
     bool isHiding;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Single kShowHintDelay

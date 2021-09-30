@@ -37,6 +37,11 @@ namespace RootMotion {
   // [TokenAttribute] Offset: FFFFFFFF
   class BakerHumanoidQT : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Transform transform
     // Size: 0x8
     // Offset: 0x10
@@ -145,6 +150,7 @@ namespace RootMotion {
     bool lastQSet;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private UnityEngine.Transform transform
     UnityEngine::Transform*& dyn_transform();
     // Get instance field reference: private System.String Qx

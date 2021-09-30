@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -29,20 +30,26 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class LocalDataStore : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.LocalDataStoreElement[] m_DataTable
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<System::LocalDataStoreElement*> m_DataTable;
+    ::ArrayW<System::LocalDataStoreElement*> m_DataTable;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<System::LocalDataStoreElement*>) == 0x8);
+    static_assert(sizeof(::ArrayW<System::LocalDataStoreElement*>) == 0x8);
     // private System.LocalDataStoreMgr m_Manager
     // Size: 0x8
     // Offset: 0x18
     System::LocalDataStoreMgr* m_Manager;
     // Field size check
     static_assert(sizeof(System::LocalDataStoreMgr*) == 0x8);
+    public:
     // Get instance field reference: private System.LocalDataStoreElement[] m_DataTable
-    ::ArrayWrapper<System::LocalDataStoreElement*>& dyn_m_DataTable();
+    ::ArrayW<System::LocalDataStoreElement*>& dyn_m_DataTable();
     // Get instance field reference: private System.LocalDataStoreMgr m_Manager
     System::LocalDataStoreMgr*& dyn_m_Manager();
     // public System.Void .ctor(System.LocalDataStoreMgr mgr, System.Int32 InitialCapacity)

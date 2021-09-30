@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HMUI
@@ -58,6 +59,11 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct StatsScopeData/*, public System::ValueType*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // private System.String <text>k__BackingField
       // Size: 0x8
       // Offset: 0x0
@@ -70,6 +76,7 @@ namespace GlobalNamespace {
       System::Func_1<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*>* playerOverallStatsDataFunc;
       // Field size check
       static_assert(sizeof(System::Func_1<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*>*) == 0x8);
+      public:
       // Creating value type constructor for type: StatsScopeData
       constexpr StatsScopeData(::Il2CppString* text_ = {}, System::Func_1<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*>* playerOverallStatsDataFunc_ = {}) noexcept : text{text_}, playerOverallStatsDataFunc{playerOverallStatsDataFunc_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -99,6 +106,11 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(PlayerStatisticsViewController::StatsScopeData), 8 + sizeof(System::Func_1<GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData*>*)> __GlobalNamespace_PlayerStatisticsViewController_StatsScopeDataSizeCheck;
     static_assert(sizeof(PlayerStatisticsViewController::StatsScopeData) == 0x10);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private HMUI.TextSegmentedControl _statsScopeSegmentedControl
     // Size: 0x8
     // Offset: 0x70
@@ -189,9 +201,10 @@ namespace GlobalNamespace {
     // private PlayerStatisticsViewController/StatsScopeData[] _statsScopeDatas
     // Size: 0x8
     // Offset: 0xE0
-    ::ArrayWrapper<GlobalNamespace::PlayerStatisticsViewController::StatsScopeData> statsScopeDatas;
+    ::ArrayW<GlobalNamespace::PlayerStatisticsViewController::StatsScopeData> statsScopeDatas;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::PlayerStatisticsViewController::StatsScopeData>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::PlayerStatisticsViewController::StatsScopeData>) == 0x8);
+    public:
     // Get instance field reference: private HMUI.TextSegmentedControl _statsScopeSegmentedControl
     HMUI::TextSegmentedControl*& dyn__statsScopeSegmentedControl();
     // Get instance field reference: private TMPro.TextMeshProUGUI _playedLevelsCountText
@@ -221,7 +234,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly AppStaticSettingsSO _appStaticSettings
     GlobalNamespace::AppStaticSettingsSO*& dyn__appStaticSettings();
     // Get instance field reference: private PlayerStatisticsViewController/StatsScopeData[] _statsScopeDatas
-    ::ArrayWrapper<GlobalNamespace::PlayerStatisticsViewController::StatsScopeData>& dyn__statsScopeDatas();
+    ::ArrayW<GlobalNamespace::PlayerStatisticsViewController::StatsScopeData>& dyn__statsScopeDatas();
     // private System.Void UpdateView(PlayerAllOverallStatsData/PlayerOverallStatsData playerOverallStatsData)
     // Offset: 0x12BBA44
     void UpdateView(GlobalNamespace::PlayerAllOverallStatsData::PlayerOverallStatsData* playerOverallStatsData);
@@ -269,7 +282,7 @@ namespace GlobalNamespace {
     void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
   }; // PlayerStatisticsViewController
   #pragma pack(pop)
-  static check_size<sizeof(PlayerStatisticsViewController), 224 + sizeof(::ArrayWrapper<GlobalNamespace::PlayerStatisticsViewController::StatsScopeData>)> __GlobalNamespace_PlayerStatisticsViewControllerSizeCheck;
+  static check_size<sizeof(PlayerStatisticsViewController), 224 + sizeof(::ArrayW<GlobalNamespace::PlayerStatisticsViewController::StatsScopeData>)> __GlobalNamespace_PlayerStatisticsViewControllerSizeCheck;
   static_assert(sizeof(PlayerStatisticsViewController) == 0xE8);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayerStatisticsViewController*, "", "PlayerStatisticsViewController");

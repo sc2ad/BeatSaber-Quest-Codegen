@@ -22,6 +22,11 @@ namespace UnityEngine {
   // [UsedByNativeCodeAttribute] Offset: E70910
   struct RectInt/*, public System::ValueType, public System::IEquatable_1<UnityEngine::RectInt>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 m_XMin
     // Size: 0x4
     // Offset: 0x0
@@ -46,6 +51,7 @@ namespace UnityEngine {
     int m_Height;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: RectInt
     constexpr RectInt(int m_XMin_ = {}, int m_YMin_ = {}, int m_Width_ = {}, int m_Height_ = {}) noexcept : m_XMin{m_XMin_}, m_YMin{m_YMin_}, m_Width{m_Width_}, m_Height{m_Height_} {}
     // Creating interface conversion operator: operator System::ValueType

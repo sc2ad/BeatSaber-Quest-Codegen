@@ -36,6 +36,11 @@ namespace Org::BouncyCastle::Asn1::X9 {
   // [TokenAttribute] Offset: FFFFFFFF
   class X9FieldID : public Org::BouncyCastle::Asn1::Asn1Encodable {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier id
     // Size: 0x8
     // Offset: 0x10
@@ -48,6 +53,7 @@ namespace Org::BouncyCastle::Asn1::X9 {
     Org::BouncyCastle::Asn1::Asn1Object* parameters;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::Asn1Object*) == 0x8);
+    public:
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier id
     Org::BouncyCastle::Asn1::DerObjectIdentifier*& dyn_id();
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.Asn1Object parameters

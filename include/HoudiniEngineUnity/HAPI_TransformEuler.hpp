@@ -11,6 +11,7 @@
 #include "HoudiniEngineUnity/HAPI_XYZOrder.hpp"
 // Including type: HoudiniEngineUnity.HAPI_RSTOrder
 #include "HoudiniEngineUnity/HAPI_RSTOrder.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
@@ -21,30 +22,35 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HAPI_TransformEuler/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Single[] position
     // Size: 0x8
     // Offset: 0x0
-    ::ArrayWrapper<float> position;
+    ::ArrayW<float> position;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<float>) == 0x8);
+    static_assert(sizeof(::ArrayW<float>) == 0x8);
     // public System.Single[] rotationEuler
     // Size: 0x8
     // Offset: 0x8
-    ::ArrayWrapper<float> rotationEuler;
+    ::ArrayW<float> rotationEuler;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<float>) == 0x8);
+    static_assert(sizeof(::ArrayW<float>) == 0x8);
     // public System.Single[] scale
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<float> scale;
+    ::ArrayW<float> scale;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<float>) == 0x8);
+    static_assert(sizeof(::ArrayW<float>) == 0x8);
     // public System.Single[] shear
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<float> shear;
+    ::ArrayW<float> shear;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<float>) == 0x8);
+    static_assert(sizeof(::ArrayW<float>) == 0x8);
     // public HoudiniEngineUnity.HAPI_XYZOrder rotationOrder
     // Size: 0x4
     // Offset: 0x20
@@ -57,20 +63,21 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::HAPI_RSTOrder rstOrder;
     // Field size check
     static_assert(sizeof(HoudiniEngineUnity::HAPI_RSTOrder) == 0x4);
+    public:
     // Creating value type constructor for type: HAPI_TransformEuler
-    constexpr HAPI_TransformEuler(::ArrayWrapper<float> position_ = ::ArrayWrapper<float>(nullptr), ::ArrayWrapper<float> rotationEuler_ = ::ArrayWrapper<float>(nullptr), ::ArrayWrapper<float> scale_ = ::ArrayWrapper<float>(nullptr), ::ArrayWrapper<float> shear_ = ::ArrayWrapper<float>(nullptr), HoudiniEngineUnity::HAPI_XYZOrder rotationOrder_ = {}, HoudiniEngineUnity::HAPI_RSTOrder rstOrder_ = {}) noexcept : position{position_}, rotationEuler{rotationEuler_}, scale{scale_}, shear{shear_}, rotationOrder{rotationOrder_}, rstOrder{rstOrder_} {}
+    constexpr HAPI_TransformEuler(::ArrayW<float> position_ = ::ArrayW<float>(nullptr), ::ArrayW<float> rotationEuler_ = ::ArrayW<float>(nullptr), ::ArrayW<float> scale_ = ::ArrayW<float>(nullptr), ::ArrayW<float> shear_ = ::ArrayW<float>(nullptr), HoudiniEngineUnity::HAPI_XYZOrder rotationOrder_ = {}, HoudiniEngineUnity::HAPI_RSTOrder rstOrder_ = {}) noexcept : position{position_}, rotationEuler{rotationEuler_}, scale{scale_}, shear{shear_}, rotationOrder{rotationOrder_}, rstOrder{rstOrder_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // Get instance field reference: public System.Single[] position
-    ::ArrayWrapper<float>& dyn_position();
+    ::ArrayW<float>& dyn_position();
     // Get instance field reference: public System.Single[] rotationEuler
-    ::ArrayWrapper<float>& dyn_rotationEuler();
+    ::ArrayW<float>& dyn_rotationEuler();
     // Get instance field reference: public System.Single[] scale
-    ::ArrayWrapper<float>& dyn_scale();
+    ::ArrayW<float>& dyn_scale();
     // Get instance field reference: public System.Single[] shear
-    ::ArrayWrapper<float>& dyn_shear();
+    ::ArrayW<float>& dyn_shear();
     // Get instance field reference: public HoudiniEngineUnity.HAPI_XYZOrder rotationOrder
     HoudiniEngineUnity::HAPI_XYZOrder& dyn_rotationOrder();
     // Get instance field reference: public HoudiniEngineUnity.HAPI_RSTOrder rstOrder

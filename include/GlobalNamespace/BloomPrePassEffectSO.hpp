@@ -31,6 +31,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BloomPrePassEffectSO : public GlobalNamespace::TextureEffectSO/*, public GlobalNamespace::IBloomPrePassParams*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 _textureWidth
     // Size: 0x4
     // Offset: 0x18
@@ -55,6 +60,7 @@ namespace GlobalNamespace {
     float linesWidth;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IBloomPrePassParams
     operator GlobalNamespace::IBloomPrePassParams() noexcept {
       return *reinterpret_cast<GlobalNamespace::IBloomPrePassParams*>(this);

@@ -17,6 +17,7 @@
 #include "GlobalNamespace/EncryptionUtility.hpp"
 // Including type: System.Runtime.CompilerServices.TaskAwaiter`1
 #include "System/Runtime/CompilerServices/TaskAwaiter_1.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net
@@ -59,6 +60,11 @@ namespace MasterServer {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   struct BaseClientMessageHandler::$AuthenticateWithMasterServerAsyncInternal$d__29/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0
@@ -96,9 +102,9 @@ namespace MasterServer {
     // private System.Byte[] <clientRandom>5__4
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayWrapper<uint8_t> $clientRandom$5__4;
+    ::ArrayW<uint8_t> $clientRandom$5__4;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Threading.Tasks.Task`1<IDiffieHellmanKeyPair> <generateKeysTask>5__5
     // Size: 0x8
     // Offset: 0x48
@@ -114,15 +120,15 @@ namespace MasterServer {
     // private System.Byte[] <serverRandom>5__7
     // Size: 0x8
     // Offset: 0x58
-    ::ArrayWrapper<uint8_t> $serverRandom$5__7;
+    ::ArrayW<uint8_t> $serverRandom$5__7;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Byte[] <signature>5__8
     // Size: 0x8
     // Offset: 0x60
-    ::ArrayWrapper<uint8_t> $signature$5__8;
+    ::ArrayW<uint8_t> $signature$5__8;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.UInt32 <responseId>5__9
     // Size: 0x4
     // Offset: 0x68
@@ -132,9 +138,9 @@ namespace MasterServer {
     // private System.Threading.Tasks.Task`1<System.Byte[]> <getPreMasterSecretTask>5__10
     // Size: 0x8
     // Offset: 0x70
-    System::Threading::Tasks::Task_1<::ArrayWrapper<uint8_t>>* $getPreMasterSecretTask$5__10;
+    System::Threading::Tasks::Task_1<::ArrayW<uint8_t>>* $getPreMasterSecretTask$5__10;
     // Field size check
-    static_assert(sizeof(System::Threading::Tasks::Task_1<::ArrayWrapper<uint8_t>>*) == 0x8);
+    static_assert(sizeof(System::Threading::Tasks::Task_1<::ArrayW<uint8_t>>*) == 0x8);
     // private System.Threading.Tasks.Task`1<System.Boolean> <verifySignatureTask>5__11
     // Size: 0x8
     // Offset: 0x78
@@ -188,7 +194,7 @@ namespace MasterServer {
     // private System.Runtime.CompilerServices.TaskAwaiter`1<System.Byte[]> <>u__9
     // Size: 0xFFFFFFFF
     // Offset: 0xD0
-    System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayWrapper<uint8_t>> $$u__9;
+    System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<uint8_t>> $$u__9;
     // private System.Runtime.CompilerServices.TaskAwaiter`1<EncryptionUtility/IEncryptionState> <>u__10
     // Size: 0xFFFFFFFF
     // Offset: 0xD8
@@ -197,8 +203,9 @@ namespace MasterServer {
     // Size: 0xFFFFFFFF
     // Offset: 0xE0
     System::Runtime::CompilerServices::TaskAwaiter_1<MasterServer::IMasterServerAuthenticateResponse*> $$u__11;
+    public:
     // Creating value type constructor for type: $AuthenticateWithMasterServerAsyncInternal$d__29
-    constexpr $AuthenticateWithMasterServerAsyncInternal$d__29(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder $$t__builder_ = {}, MasterServer::BaseClientMessageHandler* $$4__this_ = {}, MasterServer::BaseClientMessageHandler::$$c__DisplayClass29_0* $$8__1_ = {}, System::Net::IPEndPoint* $endPoint$5__2_ = {}, MasterServer::IMasterServerAuthenticateRequest* $authenticationRequest$5__3_ = {}, ::ArrayWrapper<uint8_t> $clientRandom$5__4_ = ::ArrayWrapper<uint8_t>(nullptr), System::Threading::Tasks::Task_1<GlobalNamespace::IDiffieHellmanKeyPair*>* $generateKeysTask$5__5_ = {}, System::Threading::Tasks::Task_1<MasterServer::ServerCertificateRequest*>* $serverCertificateTask$5__6_ = {}, ::ArrayWrapper<uint8_t> $serverRandom$5__7_ = ::ArrayWrapper<uint8_t>(nullptr), ::ArrayWrapper<uint8_t> $signature$5__8_ = ::ArrayWrapper<uint8_t>(nullptr), uint $responseId$5__9_ = {}, System::Threading::Tasks::Task_1<::ArrayWrapper<uint8_t>>* $getPreMasterSecretTask$5__10_ = {}, System::Threading::Tasks::Task_1<bool>* $verifySignatureTask$5__11_ = {}, GlobalNamespace::IDiffieHellmanKeyPair* $clientKeys$5__12_ = {}, GlobalNamespace::EncryptionUtility::IEncryptionState* $encryptionState$5__13_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<System::Net::IPEndPoint*> $$u__1_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<MasterServer::IMasterServerAuthenticateRequest*> $$u__2_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<MasterServer::HelloVerifyRequest*> $$u__3_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<MasterServer::ServerHelloRequest*> $$u__4_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<MasterServer::ServerCertificateRequest*> $$u__5_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::IDiffieHellmanKeyPair*> $$u__6_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<bool> $$u__7_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<MasterServer::ChangeCipherSpecRequest*> $$u__8_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayWrapper<uint8_t>> $$u__9_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::EncryptionUtility::IEncryptionState*> $$u__10_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<MasterServer::IMasterServerAuthenticateResponse*> $$u__11_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, $$8__1{$$8__1_}, $endPoint$5__2{$endPoint$5__2_}, $authenticationRequest$5__3{$authenticationRequest$5__3_}, $clientRandom$5__4{$clientRandom$5__4_}, $generateKeysTask$5__5{$generateKeysTask$5__5_}, $serverCertificateTask$5__6{$serverCertificateTask$5__6_}, $serverRandom$5__7{$serverRandom$5__7_}, $signature$5__8{$signature$5__8_}, $responseId$5__9{$responseId$5__9_}, $getPreMasterSecretTask$5__10{$getPreMasterSecretTask$5__10_}, $verifySignatureTask$5__11{$verifySignatureTask$5__11_}, $clientKeys$5__12{$clientKeys$5__12_}, $encryptionState$5__13{$encryptionState$5__13_}, $$u__1{$$u__1_}, $$u__2{$$u__2_}, $$u__3{$$u__3_}, $$u__4{$$u__4_}, $$u__5{$$u__5_}, $$u__6{$$u__6_}, $$u__7{$$u__7_}, $$u__8{$$u__8_}, $$u__9{$$u__9_}, $$u__10{$$u__10_}, $$u__11{$$u__11_} {}
+    constexpr $AuthenticateWithMasterServerAsyncInternal$d__29(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder $$t__builder_ = {}, MasterServer::BaseClientMessageHandler* $$4__this_ = {}, MasterServer::BaseClientMessageHandler::$$c__DisplayClass29_0* $$8__1_ = {}, System::Net::IPEndPoint* $endPoint$5__2_ = {}, MasterServer::IMasterServerAuthenticateRequest* $authenticationRequest$5__3_ = {}, ::ArrayW<uint8_t> $clientRandom$5__4_ = ::ArrayW<uint8_t>(nullptr), System::Threading::Tasks::Task_1<GlobalNamespace::IDiffieHellmanKeyPair*>* $generateKeysTask$5__5_ = {}, System::Threading::Tasks::Task_1<MasterServer::ServerCertificateRequest*>* $serverCertificateTask$5__6_ = {}, ::ArrayW<uint8_t> $serverRandom$5__7_ = ::ArrayW<uint8_t>(nullptr), ::ArrayW<uint8_t> $signature$5__8_ = ::ArrayW<uint8_t>(nullptr), uint $responseId$5__9_ = {}, System::Threading::Tasks::Task_1<::ArrayW<uint8_t>>* $getPreMasterSecretTask$5__10_ = {}, System::Threading::Tasks::Task_1<bool>* $verifySignatureTask$5__11_ = {}, GlobalNamespace::IDiffieHellmanKeyPair* $clientKeys$5__12_ = {}, GlobalNamespace::EncryptionUtility::IEncryptionState* $encryptionState$5__13_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<System::Net::IPEndPoint*> $$u__1_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<MasterServer::IMasterServerAuthenticateRequest*> $$u__2_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<MasterServer::HelloVerifyRequest*> $$u__3_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<MasterServer::ServerHelloRequest*> $$u__4_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<MasterServer::ServerCertificateRequest*> $$u__5_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::IDiffieHellmanKeyPair*> $$u__6_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<bool> $$u__7_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<MasterServer::ChangeCipherSpecRequest*> $$u__8_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<uint8_t>> $$u__9_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::EncryptionUtility::IEncryptionState*> $$u__10_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<MasterServer::IMasterServerAuthenticateResponse*> $$u__11_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, $$8__1{$$8__1_}, $endPoint$5__2{$endPoint$5__2_}, $authenticationRequest$5__3{$authenticationRequest$5__3_}, $clientRandom$5__4{$clientRandom$5__4_}, $generateKeysTask$5__5{$generateKeysTask$5__5_}, $serverCertificateTask$5__6{$serverCertificateTask$5__6_}, $serverRandom$5__7{$serverRandom$5__7_}, $signature$5__8{$signature$5__8_}, $responseId$5__9{$responseId$5__9_}, $getPreMasterSecretTask$5__10{$getPreMasterSecretTask$5__10_}, $verifySignatureTask$5__11{$verifySignatureTask$5__11_}, $clientKeys$5__12{$clientKeys$5__12_}, $encryptionState$5__13{$encryptionState$5__13_}, $$u__1{$$u__1_}, $$u__2{$$u__2_}, $$u__3{$$u__3_}, $$u__4{$$u__4_}, $$u__5{$$u__5_}, $$u__6{$$u__6_}, $$u__7{$$u__7_}, $$u__8{$$u__8_}, $$u__9{$$u__9_}, $$u__10{$$u__10_}, $$u__11{$$u__11_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -220,19 +227,19 @@ namespace MasterServer {
     // Get instance field reference: private MasterServer.IMasterServerAuthenticateRequest <authenticationRequest>5__3
     MasterServer::IMasterServerAuthenticateRequest*& dyn_$authenticationRequest$5__3();
     // Get instance field reference: private System.Byte[] <clientRandom>5__4
-    ::ArrayWrapper<uint8_t>& dyn_$clientRandom$5__4();
+    ::ArrayW<uint8_t>& dyn_$clientRandom$5__4();
     // Get instance field reference: private System.Threading.Tasks.Task`1<IDiffieHellmanKeyPair> <generateKeysTask>5__5
     System::Threading::Tasks::Task_1<GlobalNamespace::IDiffieHellmanKeyPair*>*& dyn_$generateKeysTask$5__5();
     // Get instance field reference: private System.Threading.Tasks.Task`1<MasterServer.ServerCertificateRequest> <serverCertificateTask>5__6
     System::Threading::Tasks::Task_1<MasterServer::ServerCertificateRequest*>*& dyn_$serverCertificateTask$5__6();
     // Get instance field reference: private System.Byte[] <serverRandom>5__7
-    ::ArrayWrapper<uint8_t>& dyn_$serverRandom$5__7();
+    ::ArrayW<uint8_t>& dyn_$serverRandom$5__7();
     // Get instance field reference: private System.Byte[] <signature>5__8
-    ::ArrayWrapper<uint8_t>& dyn_$signature$5__8();
+    ::ArrayW<uint8_t>& dyn_$signature$5__8();
     // Get instance field reference: private System.UInt32 <responseId>5__9
     uint& dyn_$responseId$5__9();
     // Get instance field reference: private System.Threading.Tasks.Task`1<System.Byte[]> <getPreMasterSecretTask>5__10
-    System::Threading::Tasks::Task_1<::ArrayWrapper<uint8_t>>*& dyn_$getPreMasterSecretTask$5__10();
+    System::Threading::Tasks::Task_1<::ArrayW<uint8_t>>*& dyn_$getPreMasterSecretTask$5__10();
     // Get instance field reference: private System.Threading.Tasks.Task`1<System.Boolean> <verifySignatureTask>5__11
     System::Threading::Tasks::Task_1<bool>*& dyn_$verifySignatureTask$5__11();
     // Get instance field reference: private IDiffieHellmanKeyPair <clientKeys>5__12
@@ -256,7 +263,7 @@ namespace MasterServer {
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<MasterServer.ChangeCipherSpecRequest> <>u__8
     System::Runtime::CompilerServices::TaskAwaiter_1<MasterServer::ChangeCipherSpecRequest*>& dyn_$$u__8();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<System.Byte[]> <>u__9
-    System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayWrapper<uint8_t>>& dyn_$$u__9();
+    System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<uint8_t>>& dyn_$$u__9();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<EncryptionUtility/IEncryptionState> <>u__10
     System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::EncryptionUtility::IEncryptionState*>& dyn_$$u__10();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<MasterServer.IMasterServerAuthenticateResponse> <>u__11

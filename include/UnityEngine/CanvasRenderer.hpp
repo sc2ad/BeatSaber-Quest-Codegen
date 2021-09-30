@@ -41,6 +41,11 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E975B8
   class CanvasRenderer : public UnityEngine::Component {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [DebuggerBrowsableAttribute] Offset: 0xE9782C
     // private System.Boolean <isMask>k__BackingField
     // Size: 0x1
@@ -48,6 +53,7 @@ namespace UnityEngine {
     bool isMask;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Boolean <isMask>k__BackingField

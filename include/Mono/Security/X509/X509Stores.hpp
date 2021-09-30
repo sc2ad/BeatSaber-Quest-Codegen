@@ -25,6 +25,11 @@ namespace Mono::Security::X509 {
   // [TokenAttribute] Offset: FFFFFFFF
   class X509Stores : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String _storePath
     // Size: 0x8
     // Offset: 0x10
@@ -37,6 +42,7 @@ namespace Mono::Security::X509 {
     bool newFormat;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private System.String _storePath
     ::Il2CppString*& dyn__storePath();
     // Get instance field reference: private System.Boolean _newFormat

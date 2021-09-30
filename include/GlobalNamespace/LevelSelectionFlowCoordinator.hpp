@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -59,6 +60,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::LevelSelectionFlowCoordinator::State
     class State;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xF0DDDC
     // protected readonly PlayerDataModel playerDataModel
     // Size: 0x8
@@ -93,6 +99,7 @@ namespace GlobalNamespace {
     GlobalNamespace::LevelSelectionFlowCoordinator::State* startState;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LevelSelectionFlowCoordinator::State*) == 0x8);
+    public:
     // Get instance field reference: protected readonly PlayerDataModel playerDataModel
     GlobalNamespace::PlayerDataModel*& dyn_playerDataModel();
     // Get instance field reference: protected readonly LevelSelectionNavigationController levelSelectionNavigationController
@@ -156,7 +163,7 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatmapDifficultyMask get_allowedBeatmapDifficultyMask();
     // protected BeatmapCharacteristicSO[] get_notAllowedCharacteristics()
     // Offset: 0x130E6D0
-    ::ArrayWrapper<GlobalNamespace::BeatmapCharacteristicSO*> get_notAllowedCharacteristics();
+    ::ArrayW<GlobalNamespace::BeatmapCharacteristicSO*> get_notAllowedCharacteristics();
     // protected System.Void LevelSelectionFlowCoordinatorDidActivate(System.Boolean firstActivation, System.Boolean addedToHierarchy)
     // Offset: 0x130E71C
     void LevelSelectionFlowCoordinatorDidActivate(bool firstActivation, bool addedToHierarchy);
@@ -383,7 +390,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::LevelSelectionFlowCoordinator::get_notAllowedCharacteristics
 // Il2CppName: get_notAllowedCharacteristics
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::BeatmapCharacteristicSO*> (GlobalNamespace::LevelSelectionFlowCoordinator::*)()>(&GlobalNamespace::LevelSelectionFlowCoordinator::get_notAllowedCharacteristics)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<GlobalNamespace::BeatmapCharacteristicSO*> (GlobalNamespace::LevelSelectionFlowCoordinator::*)()>(&GlobalNamespace::LevelSelectionFlowCoordinator::get_notAllowedCharacteristics)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LevelSelectionFlowCoordinator*), "get_notAllowedCharacteristics", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

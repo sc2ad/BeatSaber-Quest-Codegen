@@ -22,12 +22,18 @@ namespace System::Security::Cryptography {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HashAlgorithmName/*, public System::ValueType, public System::IEquatable_1<System::Security::Cryptography::HashAlgorithmName>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.String _name
     // Size: 0x8
     // Offset: 0x0
     ::Il2CppString* name;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Creating value type constructor for type: HashAlgorithmName
     constexpr HashAlgorithmName(::Il2CppString* name_ = {}) noexcept : name{name_} {}
     // Creating interface conversion operator: operator System::ValueType

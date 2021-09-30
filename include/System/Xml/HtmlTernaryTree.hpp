@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: System.Xml
 namespace System::Xml {
@@ -15,13 +16,13 @@ namespace System::Xml {
   class HtmlTernaryTree : public ::Il2CppObject {
     public:
     // Get static field: static System.Byte[] htmlElements
-    static ::ArrayWrapper<uint8_t> _get_htmlElements();
+    static ::ArrayW<uint8_t> _get_htmlElements();
     // Set static field: static System.Byte[] htmlElements
-    static void _set_htmlElements(::ArrayWrapper<uint8_t> value);
+    static void _set_htmlElements(::ArrayW<uint8_t> value);
     // Get static field: static System.Byte[] htmlAttributes
-    static ::ArrayWrapper<uint8_t> _get_htmlAttributes();
+    static ::ArrayW<uint8_t> _get_htmlAttributes();
     // Set static field: static System.Byte[] htmlAttributes
-    static void _set_htmlAttributes(::ArrayWrapper<uint8_t> value);
+    static void _set_htmlAttributes(::ArrayW<uint8_t> value);
     // static private System.Void .cctor()
     // Offset: 0x1AF9590
     static void _cctor();

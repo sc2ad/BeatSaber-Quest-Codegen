@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework::Internal
@@ -49,6 +50,11 @@ namespace NUnit::Framework::Internal::Commands {
   // [TokenAttribute] Offset: FFFFFFFF
   class OneTimeSetUpCommand : public NUnit::Framework::Internal::Commands::TestCommand {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly NUnit.Framework.Internal.TestSuite _suite
     // Size: 0x8
     // Offset: 0x18
@@ -64,9 +70,9 @@ namespace NUnit::Framework::Internal::Commands {
     // private readonly System.Object[] _arguments
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<::Il2CppObject*> arguments;
+    ::ArrayW<::Il2CppObject*> arguments;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppObject*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppObject*>) == 0x8);
     // private readonly System.Collections.Generic.List`1<NUnit.Framework.Internal.Commands.SetUpTearDownItem> _setUpTearDown
     // Size: 0x8
     // Offset: 0x30
@@ -79,6 +85,7 @@ namespace NUnit::Framework::Internal::Commands {
     System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::TestActionItem*>* actions;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::TestActionItem*>*) == 0x8);
+    public:
     // Deleting conversion operator: operator NUnit::Framework::Internal::Test*
     constexpr operator NUnit::Framework::Internal::Test*() const noexcept = delete;
     // Get instance field reference: private readonly NUnit.Framework.Internal.TestSuite _suite
@@ -86,7 +93,7 @@ namespace NUnit::Framework::Internal::Commands {
     // Get instance field reference: private readonly NUnit.Framework.Interfaces.ITypeInfo _typeInfo
     NUnit::Framework::Interfaces::ITypeInfo*& dyn__typeInfo();
     // Get instance field reference: private readonly System.Object[] _arguments
-    ::ArrayWrapper<::Il2CppObject*>& dyn__arguments();
+    ::ArrayW<::Il2CppObject*>& dyn__arguments();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<NUnit.Framework.Internal.Commands.SetUpTearDownItem> _setUpTearDown
     System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::SetUpTearDownItem*>*& dyn__setUpTearDown();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<NUnit.Framework.Internal.Commands.TestActionItem> _actions

@@ -22,6 +22,11 @@ namespace System::Security::Policy {
   // [TokenAttribute] Offset: FFFFFFFF
   class Evidence::EvidenceEnumerator : public ::Il2CppObject/*, public System::Collections::IEnumerator*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.IEnumerator currentEnum
     // Size: 0x8
     // Offset: 0x10
@@ -40,6 +45,7 @@ namespace System::Security::Policy {
     System::Collections::IEnumerator* assemblyEnum;
     // Field size check
     static_assert(sizeof(System::Collections::IEnumerator*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Collections::IEnumerator
     operator System::Collections::IEnumerator() noexcept {
       return *reinterpret_cast<System::Collections::IEnumerator*>(this);

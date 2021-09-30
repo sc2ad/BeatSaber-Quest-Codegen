@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Remoting::Messaging
@@ -28,13 +29,13 @@ namespace System::Runtime::Remoting::Messaging {
   class MethodReturnDictionary : public System::Runtime::Remoting::Messaging::MessageDictionary {
     public:
     // Get static field: static public System.String[] InternalReturnKeys
-    static ::ArrayWrapper<::Il2CppString*> _get_InternalReturnKeys();
+    static ::ArrayW<::Il2CppString*> _get_InternalReturnKeys();
     // Set static field: static public System.String[] InternalReturnKeys
-    static void _set_InternalReturnKeys(::ArrayWrapper<::Il2CppString*> value);
+    static void _set_InternalReturnKeys(::ArrayW<::Il2CppString*> value);
     // Get static field: static public System.String[] InternalExceptionKeys
-    static ::ArrayWrapper<::Il2CppString*> _get_InternalExceptionKeys();
+    static ::ArrayW<::Il2CppString*> _get_InternalExceptionKeys();
     // Set static field: static public System.String[] InternalExceptionKeys
-    static void _set_InternalExceptionKeys(::ArrayWrapper<::Il2CppString*> value);
+    static void _set_InternalExceptionKeys(::ArrayW<::Il2CppString*> value);
     // public System.Void .ctor(System.Runtime.Remoting.Messaging.IMethodReturnMessage message)
     // Offset: 0x1C1CE9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>

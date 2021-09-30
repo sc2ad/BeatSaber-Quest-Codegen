@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -37,12 +38,18 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct ValueType/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: ValueType
       constexpr ValueType(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -77,6 +84,11 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(FormattedFloatListSettingsValueController::ValueType), 0 + sizeof(int)> __GlobalNamespace_FormattedFloatListSettingsValueController_ValueTypeSizeCheck;
     static_assert(sizeof(FormattedFloatListSettingsValueController::ValueType) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private FloatSO _settingsValue
     // Size: 0x8
     // Offset: 0x28
@@ -86,9 +98,9 @@ namespace GlobalNamespace {
     // private System.Single[] _values
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<float> values;
+    ::ArrayW<float> values;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<float>) == 0x8);
+    static_assert(sizeof(::ArrayW<float>) == 0x8);
     // private System.String _formattingString
     // Size: 0x8
     // Offset: 0x38
@@ -113,10 +125,11 @@ namespace GlobalNamespace {
     float max;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: private FloatSO _settingsValue
     GlobalNamespace::FloatSO*& dyn__settingsValue();
     // Get instance field reference: private System.Single[] _values
-    ::ArrayWrapper<float>& dyn__values();
+    ::ArrayW<float>& dyn__values();
     // Get instance field reference: private System.String _formattingString
     ::Il2CppString*& dyn__formattingString();
     // Get instance field reference: private FormattedFloatListSettingsValueController/ValueType valueType

@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HoudiniEngineUnity
@@ -70,12 +71,18 @@ namespace HoudiniEngineUnity {
     // [TokenAttribute] Offset: FFFFFFFF
     struct InputNodeType/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: InputNodeType
       constexpr InputNodeType(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -116,12 +123,18 @@ namespace HoudiniEngineUnity {
     // [TokenAttribute] Offset: FFFFFFFF
     struct InputObjectType/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: InputObjectType
       constexpr InputObjectType(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -174,6 +187,11 @@ namespace HoudiniEngineUnity {
     #pragma pack(pop)
     static check_size<sizeof(HEU_InputNode::InputObjectType), 0 + sizeof(int)> __HoudiniEngineUnity_HEU_InputNode_InputObjectTypeSizeCheck;
     static_assert(sizeof(HEU_InputNode::InputObjectType) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private HoudiniEngineUnity.HEU_InputNode/HoudiniEngineUnity.InputNodeType _inputNodeType
     // Size: 0x4
     // Offset: 0x18
@@ -306,6 +324,7 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::HEU_InputNodeUICache* uiCache;
     // Field size check
     static_assert(sizeof(HoudiniEngineUnity::HEU_InputNodeUICache*) == 0x8);
+    public:
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_InputNode*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_InputNode*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_InputNode*>*>(this);
@@ -536,10 +555,10 @@ namespace HoudiniEngineUnity {
     void ClearUICache();
     // public System.Void HandleSelectedObjectsForInputObjects(UnityEngine.GameObject[] selectedObjects)
     // Offset: 0x1529B20
-    void HandleSelectedObjectsForInputObjects(::ArrayWrapper<UnityEngine::GameObject*> selectedObjects);
+    void HandleSelectedObjectsForInputObjects(::ArrayW<UnityEngine::GameObject*> selectedObjects);
     // public System.Void HandleSelectedObjectsForInputHDAs(UnityEngine.GameObject[] selectedObjects)
     // Offset: 0x1529C60
-    void HandleSelectedObjectsForInputHDAs(::ArrayWrapper<UnityEngine::GameObject*> selectedObjects);
+    void HandleSelectedObjectsForInputHDAs(::ArrayW<UnityEngine::GameObject*> selectedObjects);
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_InputNode other)
     // Offset: 0x1529DA0
     bool IsEquivalentTo(HoudiniEngineUnity::HEU_InputNode* other);
@@ -1093,7 +1112,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_InputNode::HandleSelectedObjectsForInputObjects
 // Il2CppName: HandleSelectedObjectsForInputObjects
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_InputNode::*)(::ArrayWrapper<UnityEngine::GameObject*>)>(&HoudiniEngineUnity::HEU_InputNode::HandleSelectedObjectsForInputObjects)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_InputNode::*)(::ArrayW<UnityEngine::GameObject*>)>(&HoudiniEngineUnity::HEU_InputNode::HandleSelectedObjectsForInputObjects)> {
   static const MethodInfo* get() {
     static auto* selectedObjects = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_InputNode*), "HandleSelectedObjectsForInputObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{selectedObjects});
@@ -1102,7 +1121,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_InputNode::HandleSelectedObjectsForInputHDAs
 // Il2CppName: HandleSelectedObjectsForInputHDAs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_InputNode::*)(::ArrayWrapper<UnityEngine::GameObject*>)>(&HoudiniEngineUnity::HEU_InputNode::HandleSelectedObjectsForInputHDAs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_InputNode::*)(::ArrayW<UnityEngine::GameObject*>)>(&HoudiniEngineUnity::HEU_InputNode::HandleSelectedObjectsForInputHDAs)> {
   static const MethodInfo* get() {
     static auto* selectedObjects = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_InputNode*), "HandleSelectedObjectsForInputHDAs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{selectedObjects});

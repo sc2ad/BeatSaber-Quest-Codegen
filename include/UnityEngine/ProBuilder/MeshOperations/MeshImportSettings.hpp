@@ -18,6 +18,11 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   // [TokenAttribute] Offset: FFFFFFFF
   class MeshImportSettings : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean m_Quads
     // Size: 0x1
     // Offset: 0x10
@@ -38,6 +43,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     float m_SmoothingThreshold;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: private System.Boolean m_Quads
     bool& dyn_m_Quads();
     // Get instance field reference: private System.Boolean m_Smoothing

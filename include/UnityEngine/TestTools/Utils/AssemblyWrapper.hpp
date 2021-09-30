@@ -29,6 +29,11 @@ namespace UnityEngine::TestTools::Utils {
   // [TokenAttribute] Offset: FFFFFFFF
   class AssemblyWrapper : public ::Il2CppObject/*, public UnityEngine::TestTools::Utils::IAssemblyWrapper*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Reflection.Assembly <Assembly>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -41,6 +46,7 @@ namespace UnityEngine::TestTools::Utils {
     System::Reflection::AssemblyName* Name;
     // Field size check
     static_assert(sizeof(System::Reflection::AssemblyName*) == 0x8);
+    public:
     // Creating interface conversion operator: operator UnityEngine::TestTools::Utils::IAssemblyWrapper
     operator UnityEngine::TestTools::Utils::IAssemblyWrapper() noexcept {
       return *reinterpret_cast<UnityEngine::TestTools::Utils::IAssemblyWrapper*>(this);

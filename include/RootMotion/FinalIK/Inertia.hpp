@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: RootMotion::FinalIK
@@ -29,24 +30,30 @@ namespace RootMotion::FinalIK {
     char ___base_padding[0x4] = {};
     // Nested type: RootMotion::FinalIK::Inertia::Body
     class Body;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [TooltipAttribute] Offset: 0xEF4690
     // public RootMotion.FinalIK.Inertia/RootMotion.FinalIK.Body[] bodies
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<RootMotion::FinalIK::Inertia::Body*> bodies;
+    ::ArrayW<RootMotion::FinalIK::Inertia::Body*> bodies;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::Inertia::Body*>) == 0x8);
+    static_assert(sizeof(::ArrayW<RootMotion::FinalIK::Inertia::Body*>) == 0x8);
     // [TooltipAttribute] Offset: 0xEF46C8
     // public RootMotion.FinalIK.OffsetModifier/RootMotion.FinalIK.OffsetLimits[] limits
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayWrapper<RootMotion::FinalIK::OffsetModifier::OffsetLimits*> limits;
+    ::ArrayW<RootMotion::FinalIK::OffsetModifier::OffsetLimits*> limits;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::OffsetModifier::OffsetLimits*>) == 0x8);
+    static_assert(sizeof(::ArrayW<RootMotion::FinalIK::OffsetModifier::OffsetLimits*>) == 0x8);
+    public:
     // Get instance field reference: public RootMotion.FinalIK.Inertia/RootMotion.FinalIK.Body[] bodies
-    ::ArrayWrapper<RootMotion::FinalIK::Inertia::Body*>& dyn_bodies();
+    ::ArrayW<RootMotion::FinalIK::Inertia::Body*>& dyn_bodies();
     // Get instance field reference: public RootMotion.FinalIK.OffsetModifier/RootMotion.FinalIK.OffsetLimits[] limits
-    ::ArrayWrapper<RootMotion::FinalIK::OffsetModifier::OffsetLimits*>& dyn_limits();
+    ::ArrayW<RootMotion::FinalIK::OffsetModifier::OffsetLimits*>& dyn_limits();
     // public System.Void ResetBodies()
     // Offset: 0x1FE68EC
     void ResetBodies();
@@ -71,7 +78,7 @@ namespace RootMotion::FinalIK {
     void OnModifyOffset();
   }; // RootMotion.FinalIK.Inertia
   #pragma pack(pop)
-  static check_size<sizeof(Inertia), 56 + sizeof(::ArrayWrapper<RootMotion::FinalIK::OffsetModifier::OffsetLimits*>)> __RootMotion_FinalIK_InertiaSizeCheck;
+  static check_size<sizeof(Inertia), 56 + sizeof(::ArrayW<RootMotion::FinalIK::OffsetModifier::OffsetLimits*>)> __RootMotion_FinalIK_InertiaSizeCheck;
   static_assert(sizeof(Inertia) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Inertia*, "RootMotion.FinalIK", "Inertia");

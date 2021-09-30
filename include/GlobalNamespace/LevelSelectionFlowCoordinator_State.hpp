@@ -34,6 +34,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LevelSelectionFlowCoordinator::State : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly System.Nullable`1<SelectLevelCategoryViewController/LevelCategory> levelCategory
     // Size: 0xFFFFFFFF
     // Offset: 0x10
@@ -56,6 +61,7 @@ namespace GlobalNamespace {
     GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IDifficultyBeatmap*) == 0x8);
+    public:
     // Get instance field reference: public readonly System.Nullable`1<SelectLevelCategoryViewController/LevelCategory> levelCategory
     System::Nullable_1<GlobalNamespace::SelectLevelCategoryViewController::LevelCategory>& dyn_levelCategory();
     // Get instance field reference: public readonly IBeatmapLevelPack beatmapLevelPack

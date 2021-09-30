@@ -32,6 +32,11 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class IKSolverAim : public RootMotion::FinalIK::IKSolverHeuristic {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Transform transform
     // Size: 0x8
     // Offset: 0x88
@@ -113,6 +118,7 @@ namespace RootMotion::FinalIK {
     UnityEngine::Transform* lastTransform;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    public:
     // Get instance field reference: public UnityEngine.Transform transform
     UnityEngine::Transform*& dyn_transform();
     // Get instance field reference: public UnityEngine.Vector3 axis

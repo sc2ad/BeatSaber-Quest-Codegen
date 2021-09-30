@@ -27,6 +27,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerResultsPyramidViewAvatarInstaller : public Zenject::MonoInstaller {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xF0A1B8
     // private readonly IConnectedPlayer _connectedPlayer
     // Size: 0x8
@@ -34,6 +39,7 @@ namespace GlobalNamespace {
     GlobalNamespace::IConnectedPlayer* connectedPlayer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IConnectedPlayer*) == 0x8);
+    public:
     // Get instance field reference: private readonly IConnectedPlayer _connectedPlayer
     GlobalNamespace::IConnectedPlayer*& dyn__connectedPlayer();
     // public System.Void .ctor()

@@ -17,6 +17,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -58,6 +59,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::OVROverlayMeshGenerator::CubeFace
     struct CubeFace;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Mesh _Mesh
     // Size: 0x8
     // Offset: 0x18
@@ -174,20 +180,21 @@ namespace GlobalNamespace {
     bool Awake_;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static private readonly UnityEngine.Vector3[] BottomLeft
-    static ::ArrayWrapper<UnityEngine::Vector3> _get_BottomLeft();
+    static ::ArrayW<UnityEngine::Vector3> _get_BottomLeft();
     // Set static field: static private readonly UnityEngine.Vector3[] BottomLeft
-    static void _set_BottomLeft(::ArrayWrapper<UnityEngine::Vector3> value);
+    static void _set_BottomLeft(::ArrayW<UnityEngine::Vector3> value);
     // Get static field: static private readonly UnityEngine.Vector3[] RightVector
-    static ::ArrayWrapper<UnityEngine::Vector3> _get_RightVector();
+    static ::ArrayW<UnityEngine::Vector3> _get_RightVector();
     // Set static field: static private readonly UnityEngine.Vector3[] RightVector
-    static void _set_RightVector(::ArrayWrapper<UnityEngine::Vector3> value);
+    static void _set_RightVector(::ArrayW<UnityEngine::Vector3> value);
     // Get static field: static private readonly UnityEngine.Vector3[] UpVector
-    static ::ArrayWrapper<UnityEngine::Vector3> _get_UpVector();
+    static ::ArrayW<UnityEngine::Vector3> _get_UpVector();
     // Set static field: static private readonly UnityEngine.Vector3[] UpVector
-    static void _set_UpVector(::ArrayWrapper<UnityEngine::Vector3> value);
+    static void _set_UpVector(::ArrayW<UnityEngine::Vector3> value);
     // Get instance field reference: private UnityEngine.Mesh _Mesh
     UnityEngine::Mesh*& dyn__Mesh();
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.Vector3> _Verts

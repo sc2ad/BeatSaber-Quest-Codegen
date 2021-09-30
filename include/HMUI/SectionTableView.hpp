@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HMUI
@@ -49,6 +50,11 @@ namespace HMUI {
     // [TokenAttribute] Offset: FFFFFFFF
     struct Section/*, public System::ValueType*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Boolean unfolded
       // Size: 0x1
       // Offset: 0x0
@@ -69,6 +75,7 @@ namespace HMUI {
       int numberOfBaseRows;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: Section
       constexpr Section(bool unfolded_ = {}, int startBaseRow_ = {}, int numberOfBaseRows_ = {}) noexcept : unfolded{unfolded_}, startBaseRow{startBaseRow_}, numberOfBaseRows{numberOfBaseRows_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -85,6 +92,11 @@ namespace HMUI {
     #pragma pack(pop)
     static check_size<sizeof(SectionTableView::Section), 8 + sizeof(int)> __HMUI_SectionTableView_SectionSizeCheck;
     static_assert(sizeof(SectionTableView::Section) == 0xC);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean _unfoldSectionsByDefault
     // Size: 0x1
     // Offset: 0xA2
@@ -114,9 +126,10 @@ namespace HMUI {
     // private HMUI.SectionTableView/HMUI.Section[] _sections
     // Size: 0x8
     // Offset: 0xC0
-    ::ArrayWrapper<HMUI::SectionTableView::Section> sections;
+    ::ArrayW<HMUI::SectionTableView::Section> sections;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<HMUI::SectionTableView::Section>) == 0x8);
+    static_assert(sizeof(::ArrayW<HMUI::SectionTableView::Section>) == 0x8);
+    public:
     // Creating interface conversion operator: operator HMUI::TableView::IDataSource
     operator HMUI::TableView::IDataSource() noexcept {
       return *reinterpret_cast<HMUI::TableView::IDataSource*>(this);
@@ -130,7 +143,7 @@ namespace HMUI {
     // Get instance field reference: private HMUI.SectionTableView/HMUI.IDataSource _dataSource
     HMUI::SectionTableView::IDataSource*& dyn__dataSource();
     // Get instance field reference: private HMUI.SectionTableView/HMUI.Section[] _sections
-    ::ArrayWrapper<HMUI::SectionTableView::Section>& dyn__sections();
+    ::ArrayW<HMUI::SectionTableView::Section>& dyn__sections();
     // public HMUI.SectionTableView/HMUI.IDataSource get_dataSource()
     // Offset: 0x1418DF0
     HMUI::SectionTableView::IDataSource* get_dataSource();
@@ -208,7 +221,7 @@ namespace HMUI {
     void DidSelectCellWithIdx(int baseRow);
   }; // HMUI.SectionTableView
   #pragma pack(pop)
-  static check_size<sizeof(SectionTableView), 192 + sizeof(::ArrayWrapper<HMUI::SectionTableView::Section>)> __HMUI_SectionTableViewSizeCheck;
+  static check_size<sizeof(SectionTableView), 192 + sizeof(::ArrayW<HMUI::SectionTableView::Section>)> __HMUI_SectionTableViewSizeCheck;
   static_assert(sizeof(SectionTableView) == 0xC8);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::SectionTableView*, "HMUI", "SectionTableView");

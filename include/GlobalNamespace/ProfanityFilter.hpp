@@ -33,12 +33,18 @@ namespace GlobalNamespace {
     class TrieNode;
     // Nested type: GlobalNamespace::ProfanityFilter::$GetLookalikeLetters$d__4
     class $GetLookalikeLetters$d__4;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly ProfanityFilter/TrieNode _trie
     // Size: 0x8
     // Offset: 0x10
     GlobalNamespace::ProfanityFilter::TrieNode* trie;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ProfanityFilter::TrieNode*) == 0x8);
+    public:
     // Creating conversion operator: operator GlobalNamespace::ProfanityFilter::TrieNode*
     constexpr operator GlobalNamespace::ProfanityFilter::TrieNode*() const noexcept {
       return trie;

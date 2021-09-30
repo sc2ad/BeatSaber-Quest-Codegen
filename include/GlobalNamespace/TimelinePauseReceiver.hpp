@@ -36,12 +36,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class TimelinePauseReceiver : public UnityEngine::MonoBehaviour/*, public UnityEngine::Playables::INotificationReceiver*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Action timelinePauseEvent
     // Size: 0x8
     // Offset: 0x18
     System::Action* timelinePauseEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
+    public:
     // Creating interface conversion operator: operator UnityEngine::Playables::INotificationReceiver
     operator UnityEngine::Playables::INotificationReceiver() noexcept {
       return *reinterpret_cast<UnityEngine::Playables::INotificationReceiver*>(this);

@@ -28,12 +28,18 @@ namespace OnlineServices {
     // [TokenAttribute] Offset: FFFFFFFF
     struct OnlineServicesAvailability/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: OnlineServicesAvailability
       constexpr OnlineServicesAvailability(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -62,6 +68,11 @@ namespace OnlineServices {
     #pragma pack(pop)
     static check_size<sizeof(PlatformServicesAvailabilityInfo::OnlineServicesAvailability), 0 + sizeof(int)> __OnlineServices_PlatformServicesAvailabilityInfo_OnlineServicesAvailabilitySizeCheck;
     static_assert(sizeof(PlatformServicesAvailabilityInfo::OnlineServicesAvailability) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly OnlineServices.PlatformServicesAvailabilityInfo/OnlineServices.OnlineServicesAvailability availability
     // Size: 0x4
     // Offset: 0x10
@@ -76,6 +87,7 @@ namespace OnlineServices {
     ::Il2CppString* localizedMessage;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: public readonly OnlineServices.PlatformServicesAvailabilityInfo/OnlineServices.OnlineServicesAvailability availability
     OnlineServices::PlatformServicesAvailabilityInfo::OnlineServicesAvailability& dyn_availability();
     // Get instance field reference: public readonly System.String localizedMessage

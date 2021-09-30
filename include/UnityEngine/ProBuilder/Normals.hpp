@@ -7,6 +7,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::ProBuilder
@@ -24,17 +25,17 @@ namespace UnityEngine::ProBuilder {
   class Normals : public ::Il2CppObject {
     public:
     // Get static field: static private UnityEngine.Vector3[] s_SmoothAvg
-    static ::ArrayWrapper<UnityEngine::Vector3> _get_s_SmoothAvg();
+    static ::ArrayW<UnityEngine::Vector3> _get_s_SmoothAvg();
     // Set static field: static private UnityEngine.Vector3[] s_SmoothAvg
-    static void _set_s_SmoothAvg(::ArrayWrapper<UnityEngine::Vector3> value);
+    static void _set_s_SmoothAvg(::ArrayW<UnityEngine::Vector3> value);
     // Get static field: static private System.Single[] s_SmoothAvgCount
-    static ::ArrayWrapper<float> _get_s_SmoothAvgCount();
+    static ::ArrayW<float> _get_s_SmoothAvgCount();
     // Set static field: static private System.Single[] s_SmoothAvgCount
-    static void _set_s_SmoothAvgCount(::ArrayWrapper<float> value);
+    static void _set_s_SmoothAvgCount(::ArrayW<float> value);
     // Get static field: static private System.Int32[] s_CachedIntArray
-    static ::ArrayWrapper<int> _get_s_CachedIntArray();
+    static ::ArrayW<int> _get_s_CachedIntArray();
     // Set static field: static private System.Int32[] s_CachedIntArray
-    static void _set_s_CachedIntArray(::ArrayWrapper<int> value);
+    static void _set_s_CachedIntArray(::ArrayW<int> value);
     // static private System.Void .cctor()
     // Offset: 0x190AA4C
     static void _cctor();

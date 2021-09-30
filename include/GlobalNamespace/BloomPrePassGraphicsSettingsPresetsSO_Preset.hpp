@@ -29,12 +29,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BloomPrePassGraphicsSettingsPresetsSO::Preset : public GlobalNamespace::NamedPreset {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public BloomPrePassEffectSO bloomPrePassEffect
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::BloomPrePassEffectSO* bloomPrePassEffect;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BloomPrePassEffectSO*) == 0x8);
+    public:
     // Deleting conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept = delete;
     // Get instance field reference: public BloomPrePassEffectSO bloomPrePassEffect

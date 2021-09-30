@@ -17,6 +17,11 @@ namespace UnityEngine {
   // [UsedByNativeCodeAttribute] Offset: E89E08
   struct UILineInfo/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 startCharIdx
     // Size: 0x4
     // Offset: 0x0
@@ -41,6 +46,7 @@ namespace UnityEngine {
     float leading;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: UILineInfo
     constexpr UILineInfo(int startCharIdx_ = {}, int height_ = {}, float topY_ = {}, float leading_ = {}) noexcept : startCharIdx{startCharIdx_}, height{height_}, topY{topY_}, leading{leading_} {}
     // Creating interface conversion operator: operator System::ValueType

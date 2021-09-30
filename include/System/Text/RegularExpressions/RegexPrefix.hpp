@@ -18,6 +18,11 @@ namespace System::Text::RegularExpressions {
   // [TokenAttribute] Offset: FFFFFFFF
   class RegexPrefix : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.String _prefix
     // Size: 0x8
     // Offset: 0x10
@@ -30,6 +35,7 @@ namespace System::Text::RegularExpressions {
     bool caseInsensitive;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get static field: static System.Text.RegularExpressions.RegexPrefix _empty
     static System::Text::RegularExpressions::RegexPrefix* _get__empty();
     // Set static field: static System.Text.RegularExpressions.RegexPrefix _empty

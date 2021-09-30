@@ -55,12 +55,18 @@ namespace UnityEngine::Timeline {
     // [TokenAttribute] Offset: FFFFFFFF
     struct PostPlaybackState/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: PostPlaybackState
       constexpr PostPlaybackState(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -101,12 +107,18 @@ namespace UnityEngine::Timeline {
     // [TokenAttribute] Offset: FFFFFFFF
     struct InitialState/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: InitialState
       constexpr InitialState(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -141,6 +153,11 @@ namespace UnityEngine::Timeline {
     #pragma pack(pop)
     static check_size<sizeof(ActivationControlPlayable::InitialState), 0 + sizeof(int)> __UnityEngine_Timeline_ActivationControlPlayable_InitialStateSizeCheck;
     static_assert(sizeof(ActivationControlPlayable::InitialState) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.GameObject gameObject
     // Size: 0x8
     // Offset: 0x10
@@ -159,6 +176,7 @@ namespace UnityEngine::Timeline {
     UnityEngine::Timeline::ActivationControlPlayable::InitialState m_InitialState;
     // Field size check
     static_assert(sizeof(UnityEngine::Timeline::ActivationControlPlayable::InitialState) == 0x4);
+    public:
     // Get instance field reference: public UnityEngine.GameObject gameObject
     UnityEngine::GameObject*& dyn_gameObject();
     // Get instance field reference: public UnityEngine.Timeline.ActivationControlPlayable/UnityEngine.Timeline.PostPlaybackState postPlayback

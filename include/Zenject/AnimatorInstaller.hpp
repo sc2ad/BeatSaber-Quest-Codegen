@@ -26,12 +26,18 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class AnimatorInstaller : public Zenject::Installer_2<UnityEngine::Animator*, Zenject::AnimatorInstaller*> {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly UnityEngine.Animator _animator
     // Size: 0x8
     // Offset: 0x18
     UnityEngine::Animator* animator;
     // Field size check
     static_assert(sizeof(UnityEngine::Animator*) == 0x8);
+    public:
     // Deleting conversion operator: operator Zenject::DiContainer*
     constexpr operator Zenject::DiContainer*() const noexcept = delete;
     // Get instance field reference: private readonly UnityEngine.Animator _animator

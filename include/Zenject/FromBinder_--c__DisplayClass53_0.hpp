@@ -40,6 +40,11 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class FromBinder::$$c__DisplayClass53_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.ScriptableObject resource
     // Size: 0x8
     // Offset: 0x10
@@ -58,6 +63,7 @@ namespace Zenject {
     bool createNew;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: public UnityEngine.ScriptableObject resource
     UnityEngine::ScriptableObject*& dyn_resource();
     // Get instance field reference: public Zenject.FromBinder <>4__this

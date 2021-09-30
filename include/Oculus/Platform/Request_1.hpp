@@ -28,12 +28,18 @@ namespace Oculus::Platform {
   template<typename T>
   class Request_1 : public Oculus::Platform::Request {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Oculus.Platform.Message`1/Oculus.Platform.Callback<T> callback_
     // Size: 0x8
     // Offset: 0x0
     typename Oculus::Platform::Message_1<T>::Callback* callback;
     // Field size check
     static_assert(sizeof(typename Oculus::Platform::Message_1<T>::Callback*) == 0x8);
+    public:
     // Creating conversion operator: operator typename Oculus::Platform::Message_1<T>::Callback*
     constexpr operator typename Oculus::Platform::Message_1<T>::Callback*() const noexcept {
       return callback;

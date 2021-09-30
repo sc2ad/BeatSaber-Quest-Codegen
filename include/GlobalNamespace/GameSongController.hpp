@@ -38,6 +38,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GameSongController : public GlobalNamespace::SongController/*, public GlobalNamespace::IStartSeekSongController*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private AudioTimeSyncController _audioTimeSyncController
     // Size: 0x8
     // Offset: 0x20
@@ -63,6 +68,7 @@ namespace GlobalNamespace {
     bool songDidFinish;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IStartSeekSongController
     operator GlobalNamespace::IStartSeekSongController() noexcept {
       return *reinterpret_cast<GlobalNamespace::IStartSeekSongController*>(this);

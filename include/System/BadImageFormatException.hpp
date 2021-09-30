@@ -32,6 +32,11 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5BDBC
   class BadImageFormatException : public System::SystemException {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String _fileName
     // Size: 0x8
     // Offset: 0x88
@@ -44,6 +49,7 @@ namespace System {
     ::Il2CppString* fusionLog;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: private System.String _fileName
     ::Il2CppString*& dyn__fileName();
     // Get instance field reference: private System.String _fusionLog

@@ -24,6 +24,11 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   struct GlyphPairKey/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.UInt32 firstGlyphIndex
     // Size: 0x4
     // Offset: 0x0
@@ -42,6 +47,7 @@ namespace TMPro {
     int64_t key;
     // Field size check
     static_assert(sizeof(int64_t) == 0x8);
+    public:
     // Creating value type constructor for type: GlyphPairKey
     constexpr GlyphPairKey(uint firstGlyphIndex_ = {}, uint secondGlyphIndex_ = {}, int64_t key_ = {}) noexcept : firstGlyphIndex{firstGlyphIndex_}, secondGlyphIndex{secondGlyphIndex_}, key{key_} {}
     // Creating interface conversion operator: operator System::ValueType

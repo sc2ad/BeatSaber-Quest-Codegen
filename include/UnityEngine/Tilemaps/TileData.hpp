@@ -36,6 +36,11 @@ namespace UnityEngine::Tilemaps {
   // [RequiredByNativeCodeAttribute] Offset: ED2BD4
   struct TileData/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Sprite m_Sprite
     // Size: 0x8
     // Offset: 0x0
@@ -72,6 +77,7 @@ namespace UnityEngine::Tilemaps {
     UnityEngine::Tilemaps::Tile::ColliderType m_ColliderType;
     // Field size check
     static_assert(sizeof(UnityEngine::Tilemaps::Tile::ColliderType) == 0x4);
+    public:
     // Creating value type constructor for type: TileData
     constexpr TileData(UnityEngine::Sprite* m_Sprite_ = {}, UnityEngine::Color m_Color_ = {}, UnityEngine::Matrix4x4 m_Transform_ = {}, UnityEngine::GameObject* m_GameObject_ = {}, UnityEngine::Tilemaps::TileFlags m_Flags_ = {}, UnityEngine::Tilemaps::Tile::ColliderType m_ColliderType_ = {}) noexcept : m_Sprite{m_Sprite_}, m_Color{m_Color_}, m_Transform{m_Transform_}, m_GameObject{m_GameObject_}, m_Flags{m_Flags_}, m_ColliderType{m_ColliderType_} {}
     // Creating interface conversion operator: operator System::ValueType

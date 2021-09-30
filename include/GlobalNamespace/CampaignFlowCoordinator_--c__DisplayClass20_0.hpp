@@ -28,6 +28,11 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class CampaignFlowCoordinator::$$c__DisplayClass20_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public CampaignFlowCoordinator <>4__this
     // Size: 0x8
     // Offset: 0x10
@@ -40,6 +45,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MissionHelpViewController* viewController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionHelpViewController*) == 0x8);
+    public:
     // Get instance field reference: public CampaignFlowCoordinator <>4__this
     GlobalNamespace::CampaignFlowCoordinator*& dyn_$$4__this();
     // Get instance field reference: public MissionHelpViewController viewController

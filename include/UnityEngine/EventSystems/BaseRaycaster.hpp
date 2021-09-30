@@ -40,12 +40,18 @@ namespace UnityEngine::EventSystems {
   // [TokenAttribute] Offset: FFFFFFFF
   class BaseRaycaster : public UnityEngine::EventSystems::UIBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.EventSystems.BaseRaycaster m_RootRaycaster
     // Size: 0x8
     // Offset: 0x18
     UnityEngine::EventSystems::BaseRaycaster* m_RootRaycaster;
     // Field size check
     static_assert(sizeof(UnityEngine::EventSystems::BaseRaycaster*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.EventSystems.BaseRaycaster m_RootRaycaster

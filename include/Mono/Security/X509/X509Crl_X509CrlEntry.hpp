@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Mono::Security::X509
@@ -34,12 +35,17 @@ namespace Mono::Security::X509 {
   // [TokenAttribute] Offset: FFFFFFFF
   class X509Crl::X509CrlEntry : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Byte[] sn
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<uint8_t> sn;
+    ::ArrayW<uint8_t> sn;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.DateTime revocationDate
     // Size: 0x8
     // Offset: 0x18
@@ -52,15 +58,16 @@ namespace Mono::Security::X509 {
     Mono::Security::X509::X509ExtensionCollection* extensions;
     // Field size check
     static_assert(sizeof(Mono::Security::X509::X509ExtensionCollection*) == 0x8);
+    public:
     // Get instance field reference: private System.Byte[] sn
-    ::ArrayWrapper<uint8_t>& dyn_sn();
+    ::ArrayW<uint8_t>& dyn_sn();
     // Get instance field reference: private System.DateTime revocationDate
     System::DateTime& dyn_revocationDate();
     // Get instance field reference: private Mono.Security.X509.X509ExtensionCollection extensions
     Mono::Security::X509::X509ExtensionCollection*& dyn_extensions();
     // public System.Byte[] get_SerialNumber()
     // Offset: 0x25DFE34
-    ::ArrayWrapper<uint8_t> get_SerialNumber();
+    ::ArrayW<uint8_t> get_SerialNumber();
     // public System.DateTime get_RevocationDate()
     // Offset: 0x25E03A4
     System::DateTime get_RevocationDate();
@@ -84,7 +91,7 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::X509Crl::X509CrlEntry*, "Mono.Secur
 // Writing MetadataGetter for method: Mono::Security::X509::X509Crl::X509CrlEntry::get_SerialNumber
 // Il2CppName: get_SerialNumber
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Mono::Security::X509::X509Crl::X509CrlEntry::*)()>(&Mono::Security::X509::X509Crl::X509CrlEntry::get_SerialNumber)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Mono::Security::X509::X509Crl::X509CrlEntry::*)()>(&Mono::Security::X509::X509Crl::X509CrlEntry::get_SerialNumber)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::X509Crl::X509CrlEntry*), "get_SerialNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

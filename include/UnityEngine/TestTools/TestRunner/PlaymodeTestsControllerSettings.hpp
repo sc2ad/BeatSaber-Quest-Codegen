@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::TestTools::TestRunner
@@ -35,12 +36,17 @@ namespace UnityEngine::TestTools::TestRunner {
     public:
     // Nested type: UnityEngine::TestTools::TestRunner::PlaymodeTestsControllerSettings::$$c
     class $$c;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.TestTools.TestRunner.GUI.RuntimeTestRunnerFilter[] filters
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter*> filters;
+    ::ArrayW<UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter*> filters;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter*>) == 0x8);
     // public System.Boolean sceneBased
     // Size: 0x1
     // Offset: 0x18
@@ -61,8 +67,9 @@ namespace UnityEngine::TestTools::TestRunner {
     ::Il2CppString* bootstrapScene;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: public UnityEngine.TestTools.TestRunner.GUI.RuntimeTestRunnerFilter[] filters
-    ::ArrayWrapper<UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter*>& dyn_filters();
+    ::ArrayW<UnityEngine::TestTools::TestRunner::GUI::RuntimeTestRunnerFilter*>& dyn_filters();
     // Get instance field reference: public System.Boolean sceneBased
     bool& dyn_sceneBased();
     // Get instance field reference: public System.String originalScene

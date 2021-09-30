@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -60,6 +61,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::BeatmapData::$get_beatmapObjectsData$d__32
     class $get_beatmapObjectsData$d__32;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 <cuttableNotesCount>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -87,9 +93,9 @@ namespace GlobalNamespace {
     // private readonly BeatmapLineData[] _beatmapLinesData
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<GlobalNamespace::BeatmapLineData*> beatmapLinesData;
+    ::ArrayW<GlobalNamespace::BeatmapLineData*> beatmapLinesData;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::BeatmapLineData*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::BeatmapLineData*>) == 0x8);
     // private readonly System.Collections.Generic.List`1<BeatmapEventData> _beatmapEventsData
     // Size: 0x8
     // Offset: 0x28
@@ -126,6 +132,7 @@ namespace GlobalNamespace {
     float prevAddedBeatmapEventDataTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IReadonlyBeatmapData
     operator GlobalNamespace::IReadonlyBeatmapData() noexcept {
       return *reinterpret_cast<GlobalNamespace::IReadonlyBeatmapData*>(this);
@@ -139,7 +146,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Int32 <spawnRotationEventsCount>k__BackingField
     int& dyn_$spawnRotationEventsCount$k__BackingField();
     // Get instance field reference: private readonly BeatmapLineData[] _beatmapLinesData
-    ::ArrayWrapper<GlobalNamespace::BeatmapLineData*>& dyn__beatmapLinesData();
+    ::ArrayW<GlobalNamespace::BeatmapLineData*>& dyn__beatmapLinesData();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<BeatmapEventData> _beatmapEventsData
     System::Collections::Generic::List_1<GlobalNamespace::BeatmapEventData*>*& dyn__beatmapEventsData();
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<System.String,System.Collections.Generic.HashSet`1<BeatmapEventType>> _availableSpecialEventsPerKeywordDictionary

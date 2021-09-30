@@ -35,6 +35,11 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class InteractionTrigger::CameraPosition : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [TooltipAttribute] Offset: 0xEF6C2C
     // public UnityEngine.Collider lookAtTarget
     // Size: 0x8
@@ -71,6 +76,7 @@ namespace RootMotion::FinalIK {
     bool fixYAxis;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: public UnityEngine.Collider lookAtTarget
     UnityEngine::Collider*& dyn_lookAtTarget();
     // Get instance field reference: public UnityEngine.Vector3 direction

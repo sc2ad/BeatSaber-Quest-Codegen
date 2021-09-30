@@ -31,6 +31,11 @@ namespace OVR::OpenVR {
     class _Write;
     // Nested type: OVR::OpenVR::IVRIOBuffer::_PropertyContainer
     class _PropertyContainer;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // OVR.OpenVR.IVRIOBuffer/OVR.OpenVR._Open Open
     // Size: 0x8
     // Offset: 0x0
@@ -61,6 +66,7 @@ namespace OVR::OpenVR {
     OVR::OpenVR::IVRIOBuffer::_PropertyContainer* PropertyContainer;
     // Field size check
     static_assert(sizeof(OVR::OpenVR::IVRIOBuffer::_PropertyContainer*) == 0x8);
+    public:
     // Creating value type constructor for type: IVRIOBuffer
     constexpr IVRIOBuffer(OVR::OpenVR::IVRIOBuffer::_Open* Open_ = {}, OVR::OpenVR::IVRIOBuffer::_Close* Close_ = {}, OVR::OpenVR::IVRIOBuffer::_Read* Read_ = {}, OVR::OpenVR::IVRIOBuffer::_Write* Write_ = {}, OVR::OpenVR::IVRIOBuffer::_PropertyContainer* PropertyContainer_ = {}) noexcept : Open{Open_}, Close{Close_}, Read{Read_}, Write{Write_}, PropertyContainer{PropertyContainer_} {}
     // Creating interface conversion operator: operator System::ValueType

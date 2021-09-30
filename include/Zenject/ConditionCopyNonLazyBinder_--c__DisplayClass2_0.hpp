@@ -28,12 +28,18 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class ConditionCopyNonLazyBinder::$$c__DisplayClass2_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Object instance
     // Size: 0x8
     // Offset: 0x10
     ::Il2CppObject* instance;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
+    public:
     // Creating conversion operator: operator ::Il2CppObject*
     constexpr operator ::Il2CppObject*() const noexcept {
       return instance;

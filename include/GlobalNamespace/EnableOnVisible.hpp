@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -32,6 +33,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class EnableOnVisible : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Action`1<System.Boolean> VisibilityChangedEvent
     // Size: 0x8
     // Offset: 0x18
@@ -41,15 +47,16 @@ namespace GlobalNamespace {
     // public UnityEngine.Behaviour[] _components
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<UnityEngine::Behaviour*> components;
+    ::ArrayW<UnityEngine::Behaviour*> components;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Behaviour*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Behaviour*>) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Action`1<System.Boolean> VisibilityChangedEvent
     System::Action_1<bool>*& dyn_VisibilityChangedEvent();
     // Get instance field reference: public UnityEngine.Behaviour[] _components
-    ::ArrayWrapper<UnityEngine::Behaviour*>& dyn__components();
+    ::ArrayW<UnityEngine::Behaviour*>& dyn__components();
     // public System.Void add_VisibilityChangedEvent(System.Action`1<System.Boolean> value)
     // Offset: 0x137EA18
     void add_VisibilityChangedEvent(System::Action_1<bool>* value);
@@ -80,7 +87,7 @@ namespace GlobalNamespace {
     }
   }; // EnableOnVisible
   #pragma pack(pop)
-  static check_size<sizeof(EnableOnVisible), 32 + sizeof(::ArrayWrapper<UnityEngine::Behaviour*>)> __GlobalNamespace_EnableOnVisibleSizeCheck;
+  static check_size<sizeof(EnableOnVisible), 32 + sizeof(::ArrayW<UnityEngine::Behaviour*>)> __GlobalNamespace_EnableOnVisibleSizeCheck;
   static_assert(sizeof(EnableOnVisible) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnableOnVisible*, "", "EnableOnVisible");

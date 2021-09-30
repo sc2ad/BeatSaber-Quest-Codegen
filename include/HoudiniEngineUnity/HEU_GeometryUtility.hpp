@@ -11,6 +11,7 @@
 #include "UnityEngine/Vector3.hpp"
 // Including type: UnityEngine.Color
 #include "UnityEngine/Color.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -29,7 +30,7 @@ namespace HoudiniEngineUnity {
     public:
     // static public UnityEngine.Vector2[] GeneratePerTriangle(UnityEngine.Mesh meshSrc)
     // Offset: 0x15D5E28
-    static ::ArrayWrapper<UnityEngine::Vector2> GeneratePerTriangle(UnityEngine::Mesh* meshSrc);
+    static ::ArrayW<UnityEngine::Vector2> GeneratePerTriangle(UnityEngine::Mesh* meshSrc);
     // static public System.Void GenerateSecondaryUVSet(UnityEngine.Mesh meshsrc)
     // Offset: 0x15D5E7C
     static void GenerateSecondaryUVSet(UnityEngine::Mesh* meshsrc);
@@ -38,10 +39,10 @@ namespace HoudiniEngineUnity {
     static void CalculateMeshTangents(UnityEngine::Mesh* mesh);
     // static public UnityEngine.Mesh GenerateCubeMeshFromPoints(UnityEngine.Vector3[] points, UnityEngine.Color[] pointsColor, System.Single size)
     // Offset: 0x15D64E8
-    static UnityEngine::Mesh* GenerateCubeMeshFromPoints(::ArrayWrapper<UnityEngine::Vector3> points, ::ArrayWrapper<UnityEngine::Color> pointsColor, float size);
+    static UnityEngine::Mesh* GenerateCubeMeshFromPoints(::ArrayW<UnityEngine::Vector3> points, ::ArrayW<UnityEngine::Color> pointsColor, float size);
     // static public System.String GetInstanceOutputName(System.String partName, System.String[] userPrefix, System.Int32 index)
     // Offset: 0x15D6FB0
-    static ::Il2CppString* GetInstanceOutputName(::Il2CppString* partName, ::ArrayWrapper<::Il2CppString*> userPrefix, int index);
+    static ::Il2CppString* GetInstanceOutputName(::Il2CppString* partName, ::ArrayW<::Il2CppString*> userPrefix, int index);
   }; // HoudiniEngineUnity.HEU_GeometryUtility
   #pragma pack(pop)
 }
@@ -51,7 +52,7 @@ DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_GeometryUtility*, "HoudiniEngineU
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeometryUtility::GeneratePerTriangle
 // Il2CppName: GeneratePerTriangle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Vector2> (*)(UnityEngine::Mesh*)>(&HoudiniEngineUnity::HEU_GeometryUtility::GeneratePerTriangle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Vector2> (*)(UnityEngine::Mesh*)>(&HoudiniEngineUnity::HEU_GeometryUtility::GeneratePerTriangle)> {
   static const MethodInfo* get() {
     static auto* meshSrc = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_GeometryUtility*), "GeneratePerTriangle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{meshSrc});
@@ -78,7 +79,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeometryUtility::GenerateCubeMeshFromPoints
 // Il2CppName: GenerateCubeMeshFromPoints
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Mesh* (*)(::ArrayWrapper<UnityEngine::Vector3>, ::ArrayWrapper<UnityEngine::Color>, float)>(&HoudiniEngineUnity::HEU_GeometryUtility::GenerateCubeMeshFromPoints)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Mesh* (*)(::ArrayW<UnityEngine::Vector3>, ::ArrayW<UnityEngine::Color>, float)>(&HoudiniEngineUnity::HEU_GeometryUtility::GenerateCubeMeshFromPoints)> {
   static const MethodInfo* get() {
     static auto* points = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
     static auto* pointsColor = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Color"), 1)->byval_arg;
@@ -89,7 +90,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_GeometryUtility::GetInstanceOutputName
 // Il2CppName: GetInstanceOutputName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::ArrayWrapper<::Il2CppString*>, int)>(&HoudiniEngineUnity::HEU_GeometryUtility::GetInstanceOutputName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::ArrayW<::Il2CppString*>, int)>(&HoudiniEngineUnity::HEU_GeometryUtility::GetInstanceOutputName)> {
   static const MethodInfo* get() {
     static auto* partName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* userPrefix = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;

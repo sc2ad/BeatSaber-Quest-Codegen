@@ -35,6 +35,11 @@ namespace NetEase::Docker {
   // [TokenAttribute] Offset: FFFFFFFF
   class BaseDock : public ::Il2CppObject/*, public NetEase::Docker::IDock*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [DebuggerBrowsableAttribute] Offset: 0xEEE20C
     // private System.Action`1<NetEase.Docker.InitializeData> OnInitFinished
     // Size: 0x8
@@ -63,6 +68,7 @@ namespace NetEase::Docker {
     System::Action_1<NetEase::Docker::ReceivedHighscoreData>* OnHighscoreReceived;
     // Field size check
     static_assert(sizeof(System::Action_1<NetEase::Docker::ReceivedHighscoreData>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator NetEase::Docker::IDock
     operator NetEase::Docker::IDock() noexcept {
       return *reinterpret_cast<NetEase::Docker::IDock*>(this);

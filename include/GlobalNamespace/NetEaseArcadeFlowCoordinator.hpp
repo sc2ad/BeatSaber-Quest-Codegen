@@ -59,6 +59,11 @@ namespace GlobalNamespace {
     struct $LogoutAsync$d__22;
     // Nested type: GlobalNamespace::NetEaseArcadeFlowCoordinator::$$c__DisplayClass27_0
     class $$c__DisplayClass27_0;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private MenuLightsPresetSO _defaultLightsPreset
     // Size: 0x8
     // Offset: 0x110
@@ -120,6 +125,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MenuTransitionsHelper* menuTransitionsHelper;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MenuTransitionsHelper*) == 0x8);
+    public:
     // Get instance field reference: private MenuLightsPresetSO _defaultLightsPreset
     GlobalNamespace::MenuLightsPresetSO*& dyn__defaultLightsPreset();
     // Get instance field reference: private NetEaseLeaderboardViewController _netEaseLeaderboardViewController

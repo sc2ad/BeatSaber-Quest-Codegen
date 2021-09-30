@@ -46,6 +46,11 @@ namespace HoudiniEngineUnity {
     public:
     // Nested type: HoudiniEngineUnity::JSONArray::$get_Children$d__22
     class $get_Children$d__22;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.List`1<HoudiniEngineUnity.JSONNode> m_List
     // Size: 0x8
     // Offset: 0x10
@@ -58,6 +63,7 @@ namespace HoudiniEngineUnity {
     bool _inline;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private System.Collections.Generic.List`1<HoudiniEngineUnity.JSONNode> m_List
     System::Collections::Generic::List_1<HoudiniEngineUnity::JSONNode*>*& dyn_m_List();
     // Get instance field reference: private System.Boolean inline

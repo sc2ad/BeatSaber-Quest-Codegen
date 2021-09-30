@@ -34,12 +34,18 @@ namespace OVRSimpleJSON {
   // [TokenAttribute] Offset: FFFFFFFF
   class JSONBool : public OVRSimpleJSON::JSONNode {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean m_Data
     // Size: 0x1
     // Offset: 0x10
     bool m_Data;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating conversion operator: operator bool
     constexpr operator bool() const noexcept {
       return m_Data;

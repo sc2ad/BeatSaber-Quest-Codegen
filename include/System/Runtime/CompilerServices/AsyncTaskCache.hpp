@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Threading::Tasks
@@ -35,15 +36,15 @@ namespace System::Runtime::CompilerServices {
     // Set static field: static readonly System.Threading.Tasks.Task`1<System.Boolean> FalseTask
     static void _set_FalseTask(System::Threading::Tasks::Task_1<bool>* value);
     // Get static field: static readonly System.Threading.Tasks.Task`1<System.Int32>[] Int32Tasks
-    static ::ArrayWrapper<System::Threading::Tasks::Task_1<int>*> _get_Int32Tasks();
+    static ::ArrayW<System::Threading::Tasks::Task_1<int>*> _get_Int32Tasks();
     // Set static field: static readonly System.Threading.Tasks.Task`1<System.Int32>[] Int32Tasks
-    static void _set_Int32Tasks(::ArrayWrapper<System::Threading::Tasks::Task_1<int>*> value);
+    static void _set_Int32Tasks(::ArrayW<System::Threading::Tasks::Task_1<int>*> value);
     // static private System.Void .cctor()
     // Offset: 0x15ACFD8
     static void _cctor();
     // static private System.Threading.Tasks.Task`1<System.Int32>[] CreateInt32Tasks()
     // Offset: 0x15ACED0
-    static ::ArrayWrapper<System::Threading::Tasks::Task_1<int>*> CreateInt32Tasks();
+    static ::ArrayW<System::Threading::Tasks::Task_1<int>*> CreateInt32Tasks();
     // static System.Threading.Tasks.Task`1<TResult> CreateCacheableTask(TResult result)
     // Offset: 0xFFFFFFFF
     template<class TResult>
@@ -69,7 +70,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Runtime::CompilerServices::AsyncTaskCache::CreateInt32Tasks
 // Il2CppName: CreateInt32Tasks
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::Threading::Tasks::Task_1<int>*> (*)()>(&System::Runtime::CompilerServices::AsyncTaskCache::CreateInt32Tasks)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Threading::Tasks::Task_1<int>*> (*)()>(&System::Runtime::CompilerServices::AsyncTaskCache::CreateInt32Tasks)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::CompilerServices::AsyncTaskCache*), "CreateInt32Tasks", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

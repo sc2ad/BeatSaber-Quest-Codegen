@@ -25,6 +25,11 @@ namespace JetBrains::Annotations {
   // [AttributeUsageAttribute] Offset: EAD800
   class MeansImplicitUseAttribute : public System::Attribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private JetBrains.Annotations.ImplicitUseKindFlags <UseKindFlags>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -37,6 +42,7 @@ namespace JetBrains::Annotations {
     JetBrains::Annotations::ImplicitUseTargetFlags TargetFlags;
     // Field size check
     static_assert(sizeof(JetBrains::Annotations::ImplicitUseTargetFlags) == 0x4);
+    public:
     // Get instance field reference: private JetBrains.Annotations.ImplicitUseKindFlags <UseKindFlags>k__BackingField
     JetBrains::Annotations::ImplicitUseKindFlags& dyn_$UseKindFlags$k__BackingField();
     // Get instance field reference: private JetBrains.Annotations.ImplicitUseTargetFlags <TargetFlags>k__BackingField

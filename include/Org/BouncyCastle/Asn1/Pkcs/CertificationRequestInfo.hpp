@@ -40,6 +40,11 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
   // [TokenAttribute] Offset: FFFFFFFF
   class CertificationRequestInfo : public Org::BouncyCastle::Asn1::Asn1Encodable {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // Org.BouncyCastle.Asn1.DerInteger version
     // Size: 0x8
     // Offset: 0x10
@@ -64,6 +69,7 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     Org::BouncyCastle::Asn1::Asn1Set* attributes;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::Asn1Set*) == 0x8);
+    public:
     // Get instance field reference: Org.BouncyCastle.Asn1.DerInteger version
     Org::BouncyCastle::Asn1::DerInteger*& dyn_version();
     // Get instance field reference: Org.BouncyCastle.Asn1.X509.X509Name subject

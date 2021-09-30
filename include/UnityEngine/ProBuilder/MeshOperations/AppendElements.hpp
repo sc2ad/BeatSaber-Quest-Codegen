@@ -13,6 +13,7 @@
 #include "UnityEngine/Vector2.hpp"
 // Including type: UnityEngine.ProBuilder.Edge
 #include "UnityEngine/ProBuilder/Edge.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::ProBuilder::MeshOperations
@@ -58,10 +59,10 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     class $$c__DisplayClass14_0;
     // static UnityEngine.ProBuilder.Face AppendFace(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.Vector3[] positions, UnityEngine.Color[] colors, UnityEngine.Vector2[] uvs, UnityEngine.ProBuilder.Face face, System.Int32[] common)
     // Offset: 0x1C860CC
-    static UnityEngine::ProBuilder::Face* AppendFace(UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayWrapper<UnityEngine::Vector3> positions, ::ArrayWrapper<UnityEngine::Color> colors, ::ArrayWrapper<UnityEngine::Vector2> uvs, UnityEngine::ProBuilder::Face* face, ::ArrayWrapper<int> common);
+    static UnityEngine::ProBuilder::Face* AppendFace(UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayW<UnityEngine::Vector3> positions, ::ArrayW<UnityEngine::Color> colors, ::ArrayW<UnityEngine::Vector2> uvs, UnityEngine::ProBuilder::Face* face, ::ArrayW<int> common);
     // static public UnityEngine.ProBuilder.Face[] AppendFaces(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.Vector3[][] positions, UnityEngine.Color[][] colors, UnityEngine.Vector2[][] uvs, UnityEngine.ProBuilder.Face[] faces, System.Int32[][] shared)
     // Offset: 0x1C86610
-    static ::ArrayWrapper<UnityEngine::ProBuilder::Face*> AppendFaces(UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayWrapper<::ArrayWrapper<UnityEngine::Vector3>> positions, ::ArrayWrapper<::ArrayWrapper<UnityEngine::Color>> colors, ::ArrayWrapper<::ArrayWrapper<UnityEngine::Vector2>> uvs, ::ArrayWrapper<UnityEngine::ProBuilder::Face*> faces, ::ArrayWrapper<::ArrayWrapper<int>> shared);
+    static ::ArrayW<UnityEngine::ProBuilder::Face*> AppendFaces(UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayW<::ArrayW<UnityEngine::Vector3>> positions, ::ArrayW<::ArrayW<UnityEngine::Color>> colors, ::ArrayW<::ArrayW<UnityEngine::Vector2>> uvs, ::ArrayW<UnityEngine::ProBuilder::Face*> faces, ::ArrayW<::ArrayW<int>> shared);
     // static public UnityEngine.ProBuilder.Face CreatePolygon(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IList`1<System.Int32> indexes, System.Boolean unordered)
     // Offset: 0x1C86AEC
     static UnityEngine::ProBuilder::Face* CreatePolygon(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IList_1<int>* indexes, bool unordered);
@@ -88,13 +89,13 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     static System::Collections::Generic::List_1<UnityEngine::ProBuilder::FaceRebuildData*>* TentCapWithVertices(System::Collections::Generic::List_1<UnityEngine::ProBuilder::Vertex*>* path);
     // static public System.Void DuplicateAndFlip(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.ProBuilder.Face[] faces)
     // Offset: 0x1C87C50
-    static void DuplicateAndFlip(UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayWrapper<UnityEngine::ProBuilder::Face*> faces);
+    static void DuplicateAndFlip(UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayW<UnityEngine::ProBuilder::Face*> faces);
     // static public UnityEngine.ProBuilder.Face Bridge(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.ProBuilder.Edge a, UnityEngine.ProBuilder.Edge b, System.Boolean allowNonManifoldGeometry)
     // Offset: 0x1C88354
     static UnityEngine::ProBuilder::Face* Bridge(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::ProBuilder::Edge a, UnityEngine::ProBuilder::Edge b, bool allowNonManifoldGeometry);
     // static public UnityEngine.ProBuilder.Face AppendVerticesToFace(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.ProBuilder.Face face, UnityEngine.Vector3[] points)
     // Offset: 0x1C89658
-    static UnityEngine::ProBuilder::Face* AppendVerticesToFace(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::ProBuilder::Face* face, ::ArrayWrapper<UnityEngine::Vector3> points);
+    static UnityEngine::ProBuilder::Face* AppendVerticesToFace(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::ProBuilder::Face* face, ::ArrayW<UnityEngine::Vector3> points);
     // static public System.Collections.Generic.List`1<UnityEngine.ProBuilder.Edge> AppendVerticesToEdge(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.ProBuilder.Edge edge, System.Int32 count)
     // Offset: 0x1C89F80
     static System::Collections::Generic::List_1<UnityEngine::ProBuilder::Edge>* AppendVerticesToEdge(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::ProBuilder::Edge edge, int count);
@@ -110,7 +111,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::AppendElements*,
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::AppendElements::AppendFace
 // Il2CppName: AppendFace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Face* (*)(UnityEngine::ProBuilder::ProBuilderMesh*, ::ArrayWrapper<UnityEngine::Vector3>, ::ArrayWrapper<UnityEngine::Color>, ::ArrayWrapper<UnityEngine::Vector2>, UnityEngine::ProBuilder::Face*, ::ArrayWrapper<int>)>(&UnityEngine::ProBuilder::MeshOperations::AppendElements::AppendFace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Face* (*)(UnityEngine::ProBuilder::ProBuilderMesh*, ::ArrayW<UnityEngine::Vector3>, ::ArrayW<UnityEngine::Color>, ::ArrayW<UnityEngine::Vector2>, UnityEngine::ProBuilder::Face*, ::ArrayW<int>)>(&UnityEngine::ProBuilder::MeshOperations::AppendElements::AppendFace)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
     static auto* positions = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
@@ -124,7 +125,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::AppendElements::AppendFaces
 // Il2CppName: AppendFaces
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::ProBuilder::Face*> (*)(UnityEngine::ProBuilder::ProBuilderMesh*, ::ArrayWrapper<::ArrayWrapper<UnityEngine::Vector3>>, ::ArrayWrapper<::ArrayWrapper<UnityEngine::Color>>, ::ArrayWrapper<::ArrayWrapper<UnityEngine::Vector2>>, ::ArrayWrapper<UnityEngine::ProBuilder::Face*>, ::ArrayWrapper<::ArrayWrapper<int>>)>(&UnityEngine::ProBuilder::MeshOperations::AppendElements::AppendFaces)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::ProBuilder::Face*> (*)(UnityEngine::ProBuilder::ProBuilderMesh*, ::ArrayW<::ArrayW<UnityEngine::Vector3>>, ::ArrayW<::ArrayW<UnityEngine::Color>>, ::ArrayW<::ArrayW<UnityEngine::Vector2>>, ::ArrayW<UnityEngine::ProBuilder::Face*>, ::ArrayW<::ArrayW<int>>)>(&UnityEngine::ProBuilder::MeshOperations::AppendElements::AppendFaces)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
     static auto* positions = &il2cpp_functions::array_class_get(il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1), 1)->byval_arg;
@@ -225,7 +226,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::AppendElements::DuplicateAndFlip
 // Il2CppName: DuplicateAndFlip
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, ::ArrayWrapper<UnityEngine::ProBuilder::Face*>)>(&UnityEngine::ProBuilder::MeshOperations::AppendElements::DuplicateAndFlip)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, ::ArrayW<UnityEngine::ProBuilder::Face*>)>(&UnityEngine::ProBuilder::MeshOperations::AppendElements::DuplicateAndFlip)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
     static auto* faces = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Face"), 1)->byval_arg;
@@ -247,7 +248,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::AppendElements::AppendVerticesToFace
 // Il2CppName: AppendVerticesToFace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Face* (*)(UnityEngine::ProBuilder::ProBuilderMesh*, UnityEngine::ProBuilder::Face*, ::ArrayWrapper<UnityEngine::Vector3>)>(&UnityEngine::ProBuilder::MeshOperations::AppendElements::AppendVerticesToFace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::Face* (*)(UnityEngine::ProBuilder::ProBuilderMesh*, UnityEngine::ProBuilder::Face*, ::ArrayW<UnityEngine::Vector3>)>(&UnityEngine::ProBuilder::MeshOperations::AppendElements::AppendVerticesToFace)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
     static auto* face = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Face")->byval_arg;

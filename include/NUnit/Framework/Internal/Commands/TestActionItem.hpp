@@ -30,6 +30,11 @@ namespace NUnit::Framework::Internal::Commands {
   // [TokenAttribute] Offset: FFFFFFFF
   class TestActionItem : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly NUnit.Framework.ITestAction _action
     // Size: 0x8
     // Offset: 0x10
@@ -42,6 +47,7 @@ namespace NUnit::Framework::Internal::Commands {
     bool beforeTestWasRun;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private readonly NUnit.Framework.ITestAction _action
     NUnit::Framework::ITestAction*& dyn__action();
     // Get instance field reference: private System.Boolean _beforeTestWasRun

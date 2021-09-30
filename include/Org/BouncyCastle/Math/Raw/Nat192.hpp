@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Math
@@ -23,109 +24,109 @@ namespace Org::BouncyCastle::Math::Raw {
     public:
     // static public System.UInt32 Add(System.UInt32[] x, System.UInt32[] y, System.UInt32[] z)
     // Offset: 0x14B2B98
-    static uint Add(::ArrayWrapper<uint> x, ::ArrayWrapper<uint> y, ::ArrayWrapper<uint> z);
+    static uint Add(::ArrayW<uint> x, ::ArrayW<uint> y, ::ArrayW<uint> z);
     // static public System.UInt32 AddBothTo(System.UInt32[] x, System.UInt32[] y, System.UInt32[] z)
     // Offset: 0x14B2D08
-    static uint AddBothTo(::ArrayWrapper<uint> x, ::ArrayWrapper<uint> y, ::ArrayWrapper<uint> z);
+    static uint AddBothTo(::ArrayW<uint> x, ::ArrayW<uint> y, ::ArrayW<uint> z);
     // static public System.UInt32 AddTo(System.UInt32[] x, System.Int32 xOff, System.UInt32[] z, System.Int32 zOff, System.UInt32 cIn)
     // Offset: 0x14B2EA8
-    static uint AddTo(::ArrayWrapper<uint> x, int xOff, ::ArrayWrapper<uint> z, int zOff, uint cIn);
+    static uint AddTo(::ArrayW<uint> x, int xOff, ::ArrayW<uint> z, int zOff, uint cIn);
     // static public System.UInt32 AddToEachOther(System.UInt32[] u, System.Int32 uOff, System.UInt32[] v, System.Int32 vOff)
     // Offset: 0x14B304C
-    static uint AddToEachOther(::ArrayWrapper<uint> u, int uOff, ::ArrayWrapper<uint> v, int vOff);
+    static uint AddToEachOther(::ArrayW<uint> u, int uOff, ::ArrayW<uint> v, int vOff);
     // static public System.Void Copy(System.UInt32[] x, System.Int32 xOff, System.UInt32[] z, System.Int32 zOff)
     // Offset: 0x14B325C
-    static void Copy(::ArrayWrapper<uint> x, int xOff, ::ArrayWrapper<uint> z, int zOff);
+    static void Copy(::ArrayW<uint> x, int xOff, ::ArrayW<uint> z, int zOff);
     // static public System.Void Copy64(System.UInt64[] x, System.UInt64[] z)
     // Offset: 0x14B339C
-    static void Copy64(::ArrayWrapper<uint64_t> x, ::ArrayWrapper<uint64_t> z);
+    static void Copy64(::ArrayW<uint64_t> x, ::ArrayW<uint64_t> z);
     // static public System.Void Copy64(System.UInt64[] x, System.Int32 xOff, System.UInt64[] z, System.Int32 zOff)
     // Offset: 0x14B3414
-    static void Copy64(::ArrayWrapper<uint64_t> x, int xOff, ::ArrayWrapper<uint64_t> z, int zOff);
+    static void Copy64(::ArrayW<uint64_t> x, int xOff, ::ArrayW<uint64_t> z, int zOff);
     // static public System.UInt32[] Create()
     // Offset: 0x14B34C4
-    static ::ArrayWrapper<uint> Create();
+    static ::ArrayW<uint> Create();
     // static public System.UInt64[] Create64()
     // Offset: 0x14B3510
-    static ::ArrayWrapper<uint64_t> Create64();
+    static ::ArrayW<uint64_t> Create64();
     // static public System.UInt32[] CreateExt()
     // Offset: 0x14B355C
-    static ::ArrayWrapper<uint> CreateExt();
+    static ::ArrayW<uint> CreateExt();
     // static public System.UInt64[] CreateExt64()
     // Offset: 0x14B35A8
-    static ::ArrayWrapper<uint64_t> CreateExt64();
+    static ::ArrayW<uint64_t> CreateExt64();
     // static public System.Boolean Diff(System.UInt32[] x, System.Int32 xOff, System.UInt32[] y, System.Int32 yOff, System.UInt32[] z, System.Int32 zOff)
     // Offset: 0x14B35F4
-    static bool Diff(::ArrayWrapper<uint> x, int xOff, ::ArrayWrapper<uint> y, int yOff, ::ArrayWrapper<uint> z, int zOff);
+    static bool Diff(::ArrayW<uint> x, int xOff, ::ArrayW<uint> y, int yOff, ::ArrayW<uint> z, int zOff);
     // static public System.Boolean Eq(System.UInt32[] x, System.UInt32[] y)
     // Offset: 0x14B391C
-    static bool Eq(::ArrayWrapper<uint> x, ::ArrayWrapper<uint> y);
+    static bool Eq(::ArrayW<uint> x, ::ArrayW<uint> y);
     // static public System.Boolean Eq64(System.UInt64[] x, System.UInt64[] y)
     // Offset: 0x14B398C
-    static bool Eq64(::ArrayWrapper<uint64_t> x, ::ArrayWrapper<uint64_t> y);
+    static bool Eq64(::ArrayW<uint64_t> x, ::ArrayW<uint64_t> y);
     // static public System.UInt32[] FromBigInteger(Org.BouncyCastle.Math.BigInteger x)
     // Offset: 0x14B39FC
-    static ::ArrayWrapper<uint> FromBigInteger(Org::BouncyCastle::Math::BigInteger* x);
+    static ::ArrayW<uint> FromBigInteger(Org::BouncyCastle::Math::BigInteger* x);
     // static public System.UInt32 GetBit(System.UInt32[] x, System.Int32 bit)
     // Offset: 0x14B3B00
-    static uint GetBit(::ArrayWrapper<uint> x, int bit);
+    static uint GetBit(::ArrayW<uint> x, int bit);
     // static public System.Boolean Gte(System.UInt32[] x, System.UInt32[] y)
     // Offset: 0x14B3B78
-    static bool Gte(::ArrayWrapper<uint> x, ::ArrayWrapper<uint> y);
+    static bool Gte(::ArrayW<uint> x, ::ArrayW<uint> y);
     // static public System.Boolean Gte(System.UInt32[] x, System.Int32 xOff, System.UInt32[] y, System.Int32 yOff)
     // Offset: 0x14B367C
-    static bool Gte(::ArrayWrapper<uint> x, int xOff, ::ArrayWrapper<uint> y, int yOff);
+    static bool Gte(::ArrayW<uint> x, int xOff, ::ArrayW<uint> y, int yOff);
     // static public System.Boolean IsOne(System.UInt32[] x)
     // Offset: 0x14B3BF4
-    static bool IsOne(::ArrayWrapper<uint> x);
+    static bool IsOne(::ArrayW<uint> x);
     // static public System.Boolean IsOne64(System.UInt64[] x)
     // Offset: 0x14B3C60
-    static bool IsOne64(::ArrayWrapper<uint64_t> x);
+    static bool IsOne64(::ArrayW<uint64_t> x);
     // static public System.Boolean IsZero(System.UInt32[] x)
     // Offset: 0x14B3CCC
-    static bool IsZero(::ArrayWrapper<uint> x);
+    static bool IsZero(::ArrayW<uint> x);
     // static public System.Boolean IsZero64(System.UInt64[] x)
     // Offset: 0x14B3D2C
-    static bool IsZero64(::ArrayWrapper<uint64_t> x);
+    static bool IsZero64(::ArrayW<uint64_t> x);
     // static public System.Void Mul(System.UInt32[] x, System.UInt32[] y, System.UInt32[] zz)
     // Offset: 0x14B3D8C
-    static void Mul(::ArrayWrapper<uint> x, ::ArrayWrapper<uint> y, ::ArrayWrapper<uint> zz);
+    static void Mul(::ArrayW<uint> x, ::ArrayW<uint> y, ::ArrayW<uint> zz);
     // static public System.Void Mul(System.UInt32[] x, System.Int32 xOff, System.UInt32[] y, System.Int32 yOff, System.UInt32[] zz, System.Int32 zzOff)
     // Offset: 0x14B3F68
-    static void Mul(::ArrayWrapper<uint> x, int xOff, ::ArrayWrapper<uint> y, int yOff, ::ArrayWrapper<uint> zz, int zzOff);
+    static void Mul(::ArrayW<uint> x, int xOff, ::ArrayW<uint> y, int yOff, ::ArrayW<uint> zz, int zzOff);
     // static public System.UInt32 MulAddTo(System.UInt32[] x, System.UInt32[] y, System.UInt32[] zz)
     // Offset: 0x14B4244
-    static uint MulAddTo(::ArrayWrapper<uint> x, ::ArrayWrapper<uint> y, ::ArrayWrapper<uint> zz);
+    static uint MulAddTo(::ArrayW<uint> x, ::ArrayW<uint> y, ::ArrayW<uint> zz);
     // static public System.UInt64 Mul33Add(System.UInt32 w, System.UInt32[] x, System.Int32 xOff, System.UInt32[] y, System.Int32 yOff, System.UInt32[] z, System.Int32 zOff)
     // Offset: 0x14B43B8
-    static uint64_t Mul33Add(uint w, ::ArrayWrapper<uint> x, int xOff, ::ArrayWrapper<uint> y, int yOff, ::ArrayWrapper<uint> z, int zOff);
+    static uint64_t Mul33Add(uint w, ::ArrayW<uint> x, int xOff, ::ArrayW<uint> y, int yOff, ::ArrayW<uint> z, int zOff);
     // static public System.UInt32 Mul33DWordAdd(System.UInt32 x, System.UInt64 y, System.UInt32[] z, System.Int32 zOff)
     // Offset: 0x14B45E4
-    static uint Mul33DWordAdd(uint x, uint64_t y, ::ArrayWrapper<uint> z, int zOff);
+    static uint Mul33DWordAdd(uint x, uint64_t y, ::ArrayW<uint> z, int zOff);
     // static public System.UInt32 Mul33WordAdd(System.UInt32 x, System.UInt32 y, System.UInt32[] z, System.Int32 zOff)
     // Offset: 0x14B46C4
-    static uint Mul33WordAdd(uint x, uint y, ::ArrayWrapper<uint> z, int zOff);
+    static uint Mul33WordAdd(uint x, uint y, ::ArrayW<uint> z, int zOff);
     // static public System.Void Square(System.UInt32[] x, System.UInt32[] zz)
     // Offset: 0x14B4778
-    static void Square(::ArrayWrapper<uint> x, ::ArrayWrapper<uint> zz);
+    static void Square(::ArrayW<uint> x, ::ArrayW<uint> zz);
     // static public System.Void Square(System.UInt32[] x, System.Int32 xOff, System.UInt32[] zz, System.Int32 zzOff)
     // Offset: 0x14B4A34
-    static void Square(::ArrayWrapper<uint> x, int xOff, ::ArrayWrapper<uint> zz, int zzOff);
+    static void Square(::ArrayW<uint> x, int xOff, ::ArrayW<uint> zz, int zzOff);
     // static public System.Int32 Sub(System.UInt32[] x, System.UInt32[] y, System.UInt32[] z)
     // Offset: 0x14B4E50
-    static int Sub(::ArrayWrapper<uint> x, ::ArrayWrapper<uint> y, ::ArrayWrapper<uint> z);
+    static int Sub(::ArrayW<uint> x, ::ArrayW<uint> y, ::ArrayW<uint> z);
     // static public System.Int32 Sub(System.UInt32[] x, System.Int32 xOff, System.UInt32[] y, System.Int32 yOff, System.UInt32[] z, System.Int32 zOff)
     // Offset: 0x14B3708
-    static int Sub(::ArrayWrapper<uint> x, int xOff, ::ArrayWrapper<uint> y, int yOff, ::ArrayWrapper<uint> z, int zOff);
+    static int Sub(::ArrayW<uint> x, int xOff, ::ArrayW<uint> y, int yOff, ::ArrayW<uint> z, int zOff);
     // static public System.Int32 SubFrom(System.UInt32[] x, System.UInt32[] z)
     // Offset: 0x14B4FC0
-    static int SubFrom(::ArrayWrapper<uint> x, ::ArrayWrapper<uint> z);
+    static int SubFrom(::ArrayW<uint> x, ::ArrayW<uint> z);
     // static public Org.BouncyCastle.Math.BigInteger ToBigInteger(System.UInt32[] x)
     // Offset: 0x14B50E8
-    static Org::BouncyCastle::Math::BigInteger* ToBigInteger(::ArrayWrapper<uint> x);
+    static Org::BouncyCastle::Math::BigInteger* ToBigInteger(::ArrayW<uint> x);
     // static public Org.BouncyCastle.Math.BigInteger ToBigInteger64(System.UInt64[] x)
     // Offset: 0x14B51CC
-    static Org::BouncyCastle::Math::BigInteger* ToBigInteger64(::ArrayWrapper<uint64_t> x);
+    static Org::BouncyCastle::Math::BigInteger* ToBigInteger64(::ArrayW<uint64_t> x);
   }; // Org.BouncyCastle.Math.Raw.Nat192
   #pragma pack(pop)
 }
@@ -135,7 +136,7 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::Raw::Nat192*, "Org.BouncyCastle.
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::Raw::Nat192::Add
 // Il2CppName: Add
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::ArrayWrapper<uint>, ::ArrayWrapper<uint>, ::ArrayWrapper<uint>)>(&Org::BouncyCastle::Math::Raw::Nat192::Add)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::ArrayW<uint>, ::ArrayW<uint>, ::ArrayW<uint>)>(&Org::BouncyCastle::Math::Raw::Nat192::Add)> {
   static const MethodInfo* get() {
     static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     static auto* y = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
@@ -146,7 +147,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::Raw::Nat192::AddBothTo
 // Il2CppName: AddBothTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::ArrayWrapper<uint>, ::ArrayWrapper<uint>, ::ArrayWrapper<uint>)>(&Org::BouncyCastle::Math::Raw::Nat192::AddBothTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::ArrayW<uint>, ::ArrayW<uint>, ::ArrayW<uint>)>(&Org::BouncyCastle::Math::Raw::Nat192::AddBothTo)> {
   static const MethodInfo* get() {
     static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     static auto* y = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
@@ -157,7 +158,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::Raw::Nat192::AddTo
 // Il2CppName: AddTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::ArrayWrapper<uint>, int, ::ArrayWrapper<uint>, int, uint)>(&Org::BouncyCastle::Math::Raw::Nat192::AddTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::ArrayW<uint>, int, ::ArrayW<uint>, int, uint)>(&Org::BouncyCastle::Math::Raw::Nat192::AddTo)> {
   static const MethodInfo* get() {
     static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     static auto* xOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -170,7 +171,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::Raw::Nat192::AddToEachOther
 // Il2CppName: AddToEachOther
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::ArrayWrapper<uint>, int, ::ArrayWrapper<uint>, int)>(&Org::BouncyCastle::Math::Raw::Nat192::AddToEachOther)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::ArrayW<uint>, int, ::ArrayW<uint>, int)>(&Org::BouncyCastle::Math::Raw::Nat192::AddToEachOther)> {
   static const MethodInfo* get() {
     static auto* u = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     static auto* uOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -182,7 +183,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::Raw::Nat192::Copy
 // Il2CppName: Copy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint>, int, ::ArrayWrapper<uint>, int)>(&Org::BouncyCastle::Math::Raw::Nat192::Copy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint>, int, ::ArrayW<uint>, int)>(&Org::BouncyCastle::Math::Raw::Nat192::Copy)> {
   static const MethodInfo* get() {
     static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     static auto* xOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -194,7 +195,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::Raw::Nat192::Copy64
 // Il2CppName: Copy64
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint64_t>, ::ArrayWrapper<uint64_t>)>(&Org::BouncyCastle::Math::Raw::Nat192::Copy64)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint64_t>, ::ArrayW<uint64_t>)>(&Org::BouncyCastle::Math::Raw::Nat192::Copy64)> {
   static const MethodInfo* get() {
     static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt64"), 1)->byval_arg;
     static auto* z = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt64"), 1)->byval_arg;
@@ -204,7 +205,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::Raw::Nat192::Copy64
 // Il2CppName: Copy64
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint64_t>, int, ::ArrayWrapper<uint64_t>, int)>(&Org::BouncyCastle::Math::Raw::Nat192::Copy64)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint64_t>, int, ::ArrayW<uint64_t>, int)>(&Org::BouncyCastle::Math::Raw::Nat192::Copy64)> {
   static const MethodInfo* get() {
     static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt64"), 1)->byval_arg;
     static auto* xOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -216,7 +217,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::Raw::Nat192::Create
 // Il2CppName: Create
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint> (*)()>(&Org::BouncyCastle::Math::Raw::Nat192::Create)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint> (*)()>(&Org::BouncyCastle::Math::Raw::Nat192::Create)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::Raw::Nat192*), "Create", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -224,7 +225,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::Raw::Nat192::Create64
 // Il2CppName: Create64
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint64_t> (*)()>(&Org::BouncyCastle::Math::Raw::Nat192::Create64)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint64_t> (*)()>(&Org::BouncyCastle::Math::Raw::Nat192::Create64)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::Raw::Nat192*), "Create64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -232,7 +233,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::Raw::Nat192::CreateExt
 // Il2CppName: CreateExt
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint> (*)()>(&Org::BouncyCastle::Math::Raw::Nat192::CreateExt)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint> (*)()>(&Org::BouncyCastle::Math::Raw::Nat192::CreateExt)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::Raw::Nat192*), "CreateExt", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -240,7 +241,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::Raw::Nat192::CreateExt64
 // Il2CppName: CreateExt64
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint64_t> (*)()>(&Org::BouncyCastle::Math::Raw::Nat192::CreateExt64)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint64_t> (*)()>(&Org::BouncyCastle::Math::Raw::Nat192::CreateExt64)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::Raw::Nat192*), "CreateExt64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -248,7 +249,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::Raw::Nat192::Diff
 // Il2CppName: Diff
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayWrapper<uint>, int, ::ArrayWrapper<uint>, int, ::ArrayWrapper<uint>, int)>(&Org::BouncyCastle::Math::Raw::Nat192::Diff)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<uint>, int, ::ArrayW<uint>, int, ::ArrayW<uint>, int)>(&Org::BouncyCastle::Math::Raw::Nat192::Diff)> {
   static const MethodInfo* get() {
     static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     static auto* xOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -262,7 +263,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::Raw::Nat192::Eq
 // Il2CppName: Eq
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayWrapper<uint>, ::ArrayWrapper<uint>)>(&Org::BouncyCastle::Math::Raw::Nat192::Eq)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<uint>, ::ArrayW<uint>)>(&Org::BouncyCastle::Math::Raw::Nat192::Eq)> {
   static const MethodInfo* get() {
     static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     static auto* y = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
@@ -272,7 +273,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::Raw::Nat192::Eq64
 // Il2CppName: Eq64
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayWrapper<uint64_t>, ::ArrayWrapper<uint64_t>)>(&Org::BouncyCastle::Math::Raw::Nat192::Eq64)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<uint64_t>, ::ArrayW<uint64_t>)>(&Org::BouncyCastle::Math::Raw::Nat192::Eq64)> {
   static const MethodInfo* get() {
     static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt64"), 1)->byval_arg;
     static auto* y = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt64"), 1)->byval_arg;
@@ -282,7 +283,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::Raw::Nat192::FromBigInteger
 // Il2CppName: FromBigInteger
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint> (*)(Org::BouncyCastle::Math::BigInteger*)>(&Org::BouncyCastle::Math::Raw::Nat192::FromBigInteger)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint> (*)(Org::BouncyCastle::Math::BigInteger*)>(&Org::BouncyCastle::Math::Raw::Nat192::FromBigInteger)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math", "BigInteger")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::Raw::Nat192*), "FromBigInteger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
@@ -291,7 +292,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::Raw::Nat192::GetBit
 // Il2CppName: GetBit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::ArrayWrapper<uint>, int)>(&Org::BouncyCastle::Math::Raw::Nat192::GetBit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::ArrayW<uint>, int)>(&Org::BouncyCastle::Math::Raw::Nat192::GetBit)> {
   static const MethodInfo* get() {
     static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     static auto* bit = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -301,7 +302,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::Raw::Nat192::Gte
 // Il2CppName: Gte
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayWrapper<uint>, ::ArrayWrapper<uint>)>(&Org::BouncyCastle::Math::Raw::Nat192::Gte)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<uint>, ::ArrayW<uint>)>(&Org::BouncyCastle::Math::Raw::Nat192::Gte)> {
   static const MethodInfo* get() {
     static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     static auto* y = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
@@ -311,7 +312,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::Raw::Nat192::Gte
 // Il2CppName: Gte
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayWrapper<uint>, int, ::ArrayWrapper<uint>, int)>(&Org::BouncyCastle::Math::Raw::Nat192::Gte)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<uint>, int, ::ArrayW<uint>, int)>(&Org::BouncyCastle::Math::Raw::Nat192::Gte)> {
   static const MethodInfo* get() {
     static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     static auto* xOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -323,7 +324,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::Raw::Nat192::IsOne
 // Il2CppName: IsOne
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayWrapper<uint>)>(&Org::BouncyCastle::Math::Raw::Nat192::IsOne)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<uint>)>(&Org::BouncyCastle::Math::Raw::Nat192::IsOne)> {
   static const MethodInfo* get() {
     static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::Raw::Nat192*), "IsOne", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
@@ -332,7 +333,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::Raw::Nat192::IsOne64
 // Il2CppName: IsOne64
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayWrapper<uint64_t>)>(&Org::BouncyCastle::Math::Raw::Nat192::IsOne64)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<uint64_t>)>(&Org::BouncyCastle::Math::Raw::Nat192::IsOne64)> {
   static const MethodInfo* get() {
     static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt64"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::Raw::Nat192*), "IsOne64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
@@ -341,7 +342,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::Raw::Nat192::IsZero
 // Il2CppName: IsZero
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayWrapper<uint>)>(&Org::BouncyCastle::Math::Raw::Nat192::IsZero)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<uint>)>(&Org::BouncyCastle::Math::Raw::Nat192::IsZero)> {
   static const MethodInfo* get() {
     static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::Raw::Nat192*), "IsZero", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
@@ -350,7 +351,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::Raw::Nat192::IsZero64
 // Il2CppName: IsZero64
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayWrapper<uint64_t>)>(&Org::BouncyCastle::Math::Raw::Nat192::IsZero64)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<uint64_t>)>(&Org::BouncyCastle::Math::Raw::Nat192::IsZero64)> {
   static const MethodInfo* get() {
     static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt64"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::Raw::Nat192*), "IsZero64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
@@ -359,7 +360,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::Raw::Nat192::Mul
 // Il2CppName: Mul
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint>, ::ArrayWrapper<uint>, ::ArrayWrapper<uint>)>(&Org::BouncyCastle::Math::Raw::Nat192::Mul)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint>, ::ArrayW<uint>, ::ArrayW<uint>)>(&Org::BouncyCastle::Math::Raw::Nat192::Mul)> {
   static const MethodInfo* get() {
     static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     static auto* y = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
@@ -370,7 +371,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::Raw::Nat192::Mul
 // Il2CppName: Mul
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint>, int, ::ArrayWrapper<uint>, int, ::ArrayWrapper<uint>, int)>(&Org::BouncyCastle::Math::Raw::Nat192::Mul)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint>, int, ::ArrayW<uint>, int, ::ArrayW<uint>, int)>(&Org::BouncyCastle::Math::Raw::Nat192::Mul)> {
   static const MethodInfo* get() {
     static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     static auto* xOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -384,7 +385,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::Raw::Nat192::MulAddTo
 // Il2CppName: MulAddTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::ArrayWrapper<uint>, ::ArrayWrapper<uint>, ::ArrayWrapper<uint>)>(&Org::BouncyCastle::Math::Raw::Nat192::MulAddTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::ArrayW<uint>, ::ArrayW<uint>, ::ArrayW<uint>)>(&Org::BouncyCastle::Math::Raw::Nat192::MulAddTo)> {
   static const MethodInfo* get() {
     static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     static auto* y = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
@@ -395,7 +396,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::Raw::Nat192::Mul33Add
 // Il2CppName: Mul33Add
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint, ::ArrayWrapper<uint>, int, ::ArrayWrapper<uint>, int, ::ArrayWrapper<uint>, int)>(&Org::BouncyCastle::Math::Raw::Nat192::Mul33Add)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint, ::ArrayW<uint>, int, ::ArrayW<uint>, int, ::ArrayW<uint>, int)>(&Org::BouncyCastle::Math::Raw::Nat192::Mul33Add)> {
   static const MethodInfo* get() {
     static auto* w = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
@@ -410,7 +411,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::Raw::Nat192::Mul33DWordAdd
 // Il2CppName: Mul33DWordAdd
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint, uint64_t, ::ArrayWrapper<uint>, int)>(&Org::BouncyCastle::Math::Raw::Nat192::Mul33DWordAdd)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint, uint64_t, ::ArrayW<uint>, int)>(&Org::BouncyCastle::Math::Raw::Nat192::Mul33DWordAdd)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* y = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
@@ -422,7 +423,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(ui
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::Raw::Nat192::Mul33WordAdd
 // Il2CppName: Mul33WordAdd
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint, uint, ::ArrayWrapper<uint>, int)>(&Org::BouncyCastle::Math::Raw::Nat192::Mul33WordAdd)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(uint, uint, ::ArrayW<uint>, int)>(&Org::BouncyCastle::Math::Raw::Nat192::Mul33WordAdd)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* y = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -434,7 +435,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(ui
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::Raw::Nat192::Square
 // Il2CppName: Square
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint>, ::ArrayWrapper<uint>)>(&Org::BouncyCastle::Math::Raw::Nat192::Square)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint>, ::ArrayW<uint>)>(&Org::BouncyCastle::Math::Raw::Nat192::Square)> {
   static const MethodInfo* get() {
     static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     static auto* zz = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
@@ -444,7 +445,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::Raw::Nat192::Square
 // Il2CppName: Square
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint>, int, ::ArrayWrapper<uint>, int)>(&Org::BouncyCastle::Math::Raw::Nat192::Square)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint>, int, ::ArrayW<uint>, int)>(&Org::BouncyCastle::Math::Raw::Nat192::Square)> {
   static const MethodInfo* get() {
     static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     static auto* xOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -456,7 +457,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::Raw::Nat192::Sub
 // Il2CppName: Sub
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayWrapper<uint>, ::ArrayWrapper<uint>, ::ArrayWrapper<uint>)>(&Org::BouncyCastle::Math::Raw::Nat192::Sub)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayW<uint>, ::ArrayW<uint>, ::ArrayW<uint>)>(&Org::BouncyCastle::Math::Raw::Nat192::Sub)> {
   static const MethodInfo* get() {
     static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     static auto* y = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
@@ -467,7 +468,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::A
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::Raw::Nat192::Sub
 // Il2CppName: Sub
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayWrapper<uint>, int, ::ArrayWrapper<uint>, int, ::ArrayWrapper<uint>, int)>(&Org::BouncyCastle::Math::Raw::Nat192::Sub)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayW<uint>, int, ::ArrayW<uint>, int, ::ArrayW<uint>, int)>(&Org::BouncyCastle::Math::Raw::Nat192::Sub)> {
   static const MethodInfo* get() {
     static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     static auto* xOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -481,7 +482,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::A
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::Raw::Nat192::SubFrom
 // Il2CppName: SubFrom
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayWrapper<uint>, ::ArrayWrapper<uint>)>(&Org::BouncyCastle::Math::Raw::Nat192::SubFrom)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayW<uint>, ::ArrayW<uint>)>(&Org::BouncyCastle::Math::Raw::Nat192::SubFrom)> {
   static const MethodInfo* get() {
     static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     static auto* z = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
@@ -491,7 +492,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::A
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::Raw::Nat192::ToBigInteger
 // Il2CppName: ToBigInteger
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (*)(::ArrayWrapper<uint>)>(&Org::BouncyCastle::Math::Raw::Nat192::ToBigInteger)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (*)(::ArrayW<uint>)>(&Org::BouncyCastle::Math::Raw::Nat192::ToBigInteger)> {
   static const MethodInfo* get() {
     static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::Raw::Nat192*), "ToBigInteger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
@@ -500,7 +501,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::Raw::Nat192::ToBigInteger64
 // Il2CppName: ToBigInteger64
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (*)(::ArrayWrapper<uint64_t>)>(&Org::BouncyCastle::Math::Raw::Nat192::ToBigInteger64)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (*)(::ArrayW<uint64_t>)>(&Org::BouncyCastle::Math::Raw::Nat192::ToBigInteger64)> {
   static const MethodInfo* get() {
     static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt64"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::Raw::Nat192*), "ToBigInteger64", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});

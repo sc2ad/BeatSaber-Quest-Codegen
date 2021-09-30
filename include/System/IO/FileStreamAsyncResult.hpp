@@ -34,6 +34,11 @@ namespace System::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   class FileStreamAsyncResult : public ::Il2CppObject/*, public System::IAsyncResult*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Object state
     // Size: 0x8
     // Offset: 0x10
@@ -92,6 +97,7 @@ namespace System::IO {
     System::AsyncCallback* realcb;
     // Field size check
     static_assert(sizeof(System::AsyncCallback*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::IAsyncResult
     operator System::IAsyncResult() noexcept {
       return *reinterpret_cast<System::IAsyncResult*>(this);

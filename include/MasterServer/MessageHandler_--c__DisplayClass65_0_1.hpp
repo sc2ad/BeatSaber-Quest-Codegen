@@ -29,12 +29,18 @@ namespace MasterServer {
   template<typename T>
   class MessageHandler::$$c__DisplayClass65_0_1 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Func`2<System.UInt32,T> obtain
     // Size: 0x8
     // Offset: 0x0
     System::Func_2<uint, T>* obtain;
     // Field size check
     static_assert(sizeof(System::Func_2<uint, T>*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Func_2<uint, T>*
     constexpr operator System::Func_2<uint, T>*() const noexcept {
       return obtain;

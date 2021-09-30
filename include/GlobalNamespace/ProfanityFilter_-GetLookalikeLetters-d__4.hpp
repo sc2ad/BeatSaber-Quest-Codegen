@@ -31,6 +31,11 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class ProfanityFilter::$GetLookalikeLetters$d__4 : public ::Il2CppObject/*, public System::Collections::Generic::IEnumerable_1<::Il2CppChar>, public System::Collections::Generic::IEnumerator_1<::Il2CppChar>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -63,6 +68,7 @@ namespace GlobalNamespace {
     ::Il2CppChar $$3__c;
     // Field size check
     static_assert(sizeof(::Il2CppChar) == 0x2);
+    public:
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<::Il2CppChar>
     operator System::Collections::Generic::IEnumerable_1<::Il2CppChar>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<::Il2CppChar>*>(this);

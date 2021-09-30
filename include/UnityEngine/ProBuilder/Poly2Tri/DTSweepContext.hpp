@@ -45,6 +45,11 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     public:
     // Writing base type padding for base size: 0x3D to desired offset: 0x40
     char ___base_padding[0x3] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Single ALPHA
     // Size: 0x4
     // Offset: 0x40
@@ -89,6 +94,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     UnityEngine::ProBuilder::Poly2Tri::DTSweepPointComparator* comparator;
     // Field size check
     static_assert(sizeof(UnityEngine::ProBuilder::Poly2Tri::DTSweepPointComparator*) == 0x8);
+    public:
     // Get instance field reference: private readonly System.Single ALPHA
     float& dyn_ALPHA();
     // Get instance field reference: public UnityEngine.ProBuilder.Poly2Tri.AdvancingFront Front

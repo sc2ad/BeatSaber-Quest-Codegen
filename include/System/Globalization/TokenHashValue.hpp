@@ -20,6 +20,11 @@ namespace System::Globalization {
   // [TokenAttribute] Offset: FFFFFFFF
   class TokenHashValue : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.String tokenString
     // Size: 0x8
     // Offset: 0x10
@@ -38,6 +43,7 @@ namespace System::Globalization {
     int tokenValue;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: System.String tokenString
     ::Il2CppString*& dyn_tokenString();
     // Get instance field reference: System.TokenType tokenType

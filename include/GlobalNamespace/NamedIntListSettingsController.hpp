@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -29,6 +30,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::NamedIntListSettingsController::TextValuePair
     class TextValuePair;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private IntSO _settingsValue
     // Size: 0x8
     // Offset: 0x28
@@ -38,13 +44,14 @@ namespace GlobalNamespace {
     // private NamedIntListSettingsController/TextValuePair[] _textValuePairs
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<GlobalNamespace::NamedIntListSettingsController::TextValuePair*> textValuePairs;
+    ::ArrayW<GlobalNamespace::NamedIntListSettingsController::TextValuePair*> textValuePairs;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::NamedIntListSettingsController::TextValuePair*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::NamedIntListSettingsController::TextValuePair*>) == 0x8);
+    public:
     // Get instance field reference: private IntSO _settingsValue
     GlobalNamespace::IntSO*& dyn__settingsValue();
     // Get instance field reference: private NamedIntListSettingsController/TextValuePair[] _textValuePairs
-    ::ArrayWrapper<GlobalNamespace::NamedIntListSettingsController::TextValuePair*>& dyn__textValuePairs();
+    ::ArrayW<GlobalNamespace::NamedIntListSettingsController::TextValuePair*>& dyn__textValuePairs();
     // public System.Void .ctor()
     // Offset: 0x1134F30
     // Implemented from: ListSettingsController
@@ -77,7 +84,7 @@ namespace GlobalNamespace {
     ::Il2CppString* TextForValue(int idx);
   }; // NamedIntListSettingsController
   #pragma pack(pop)
-  static check_size<sizeof(NamedIntListSettingsController), 48 + sizeof(::ArrayWrapper<GlobalNamespace::NamedIntListSettingsController::TextValuePair*>)> __GlobalNamespace_NamedIntListSettingsControllerSizeCheck;
+  static check_size<sizeof(NamedIntListSettingsController), 48 + sizeof(::ArrayW<GlobalNamespace::NamedIntListSettingsController::TextValuePair*>)> __GlobalNamespace_NamedIntListSettingsControllerSizeCheck;
   static_assert(sizeof(NamedIntListSettingsController) == 0x38);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NamedIntListSettingsController*, "", "NamedIntListSettingsController");

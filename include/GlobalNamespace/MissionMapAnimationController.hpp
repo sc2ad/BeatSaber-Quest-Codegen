@@ -56,6 +56,11 @@ namespace GlobalNamespace {
     class $$c;
     // Nested type: GlobalNamespace::MissionMapAnimationController::$UpdateNodesAndConnectionCoroutine$d__15
     class $UpdateNodesAndConnectionCoroutine$d__15;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private MissionNodesManager _missionNodesManager
     // Size: 0x8
     // Offset: 0x18
@@ -108,6 +113,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MenuShockwave* shockwaveEffect;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MenuShockwave*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MissionNodesManager _missionNodesManager

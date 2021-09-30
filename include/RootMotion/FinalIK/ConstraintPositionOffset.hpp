@@ -29,6 +29,11 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class ConstraintPositionOffset : public RootMotion::FinalIK::Constraint {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Vector3 offset
     // Size: 0xC
     // Offset: 0x1C
@@ -53,6 +58,7 @@ namespace RootMotion::FinalIK {
     bool initiated;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: public UnityEngine.Vector3 offset
     UnityEngine::Vector3& dyn_offset();
     // Get instance field reference: private UnityEngine.Vector3 defaultLocalPosition

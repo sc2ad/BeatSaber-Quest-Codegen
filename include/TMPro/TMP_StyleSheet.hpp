@@ -36,6 +36,11 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class TMP_StyleSheet : public UnityEngine::ScriptableObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.List`1<TMPro.TMP_Style> m_StyleList
     // Size: 0x8
     // Offset: 0x18
@@ -48,6 +53,7 @@ namespace TMPro {
     System::Collections::Generic::Dictionary_2<int, TMPro::TMP_Style*>* m_StyleDictionary;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<int, TMPro::TMP_Style*>*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static private TMPro.TMP_StyleSheet s_Instance

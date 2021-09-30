@@ -22,12 +22,18 @@ namespace System::Net::NetworkInformation {
   // [TokenAttribute] Offset: FFFFFFFF
   class Win32IPv4InterfaceStatistics : public System::Net::NetworkInformation::IPv4InterfaceStatistics {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Net.NetworkInformation.Win32_MIB_IFROW info
     // Size: 0x70
     // Offset: 0x10
     System::Net::NetworkInformation::Win32_MIB_IFROW info;
     // Field size check
     static_assert(sizeof(System::Net::NetworkInformation::Win32_MIB_IFROW) == 0x70);
+    public:
     // Creating conversion operator: operator System::Net::NetworkInformation::Win32_MIB_IFROW
     constexpr operator System::Net::NetworkInformation::Win32_MIB_IFROW() const noexcept {
       return info;

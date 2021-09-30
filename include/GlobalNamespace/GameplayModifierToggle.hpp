@@ -46,6 +46,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GameplayModifierToggle : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private GameplayModifierParamsSO _gameplayModifier
     // Size: 0x8
     // Offset: 0x18
@@ -89,6 +94,7 @@ namespace GlobalNamespace {
     UnityEngine::Color positiveColor;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private GameplayModifierParamsSO _gameplayModifier

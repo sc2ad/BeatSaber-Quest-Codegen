@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Math
@@ -25,6 +26,11 @@ namespace Org::BouncyCastle::Math::EC::Endo {
   // [TokenAttribute] Offset: FFFFFFFF
   class ScalarSplitParameters : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // protected readonly Org.BouncyCastle.Math.BigInteger m_v1A
     // Size: 0x8
     // Offset: 0x10
@@ -67,6 +73,7 @@ namespace Org::BouncyCastle::Math::EC::Endo {
     int m_bits;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: protected readonly Org.BouncyCastle.Math.BigInteger m_v1A
     Org::BouncyCastle::Math::BigInteger*& dyn_m_v1A();
     // Get instance field reference: protected readonly Org.BouncyCastle.Math.BigInteger m_v1B
@@ -105,13 +112,13 @@ namespace Org::BouncyCastle::Math::EC::Endo {
     // public System.Void .ctor(Org.BouncyCastle.Math.BigInteger[] v1, Org.BouncyCastle.Math.BigInteger[] v2, Org.BouncyCastle.Math.BigInteger g1, Org.BouncyCastle.Math.BigInteger g2, System.Int32 bits)
     // Offset: 0x2318EBC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ScalarSplitParameters* New_ctor(::ArrayWrapper<Org::BouncyCastle::Math::BigInteger*> v1, ::ArrayWrapper<Org::BouncyCastle::Math::BigInteger*> v2, Org::BouncyCastle::Math::BigInteger* g1, Org::BouncyCastle::Math::BigInteger* g2, int bits) {
+    static ScalarSplitParameters* New_ctor(::ArrayW<Org::BouncyCastle::Math::BigInteger*> v1, ::ArrayW<Org::BouncyCastle::Math::BigInteger*> v2, Org::BouncyCastle::Math::BigInteger* g1, Org::BouncyCastle::Math::BigInteger* g2, int bits) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ScalarSplitParameters*, creationType>(v1, v2, g1, g2, bits)));
     }
     // static private System.Void CheckVector(Org.BouncyCastle.Math.BigInteger[] v, System.String name)
     // Offset: 0x2318E10
-    static void CheckVector(::ArrayWrapper<Org::BouncyCastle::Math::BigInteger*> v, ::Il2CppString* name);
+    static void CheckVector(::ArrayW<Org::BouncyCastle::Math::BigInteger*> v, ::Il2CppString* name);
   }; // Org.BouncyCastle.Math.EC.Endo.ScalarSplitParameters
   #pragma pack(pop)
   static check_size<sizeof(ScalarSplitParameters), 64 + sizeof(int)> __Org_BouncyCastle_Math_EC_Endo_ScalarSplitParametersSizeCheck;
@@ -182,7 +189,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::CheckVector
 // Il2CppName: CheckVector
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<Org::BouncyCastle::Math::BigInteger*>, ::Il2CppString*)>(&Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::CheckVector)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<Org::BouncyCastle::Math::BigInteger*>, ::Il2CppString*)>(&Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters::CheckVector)> {
   static const MethodInfo* get() {
     static auto* v = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math", "BigInteger"), 1)->byval_arg;
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

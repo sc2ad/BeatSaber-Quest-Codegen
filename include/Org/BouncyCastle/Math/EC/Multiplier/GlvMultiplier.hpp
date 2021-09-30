@@ -39,6 +39,11 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
   // [TokenAttribute] Offset: FFFFFFFF
   class GlvMultiplier : public Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // protected readonly Org.BouncyCastle.Math.EC.ECCurve curve
     // Size: 0x8
     // Offset: 0x10
@@ -51,6 +56,7 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism* glvEndomorphism;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism*) == 0x8);
+    public:
     // Get instance field reference: protected readonly Org.BouncyCastle.Math.EC.ECCurve curve
     Org::BouncyCastle::Math::EC::ECCurve*& dyn_curve();
     // Get instance field reference: protected readonly Org.BouncyCastle.Math.EC.Endo.GlvEndomorphism glvEndomorphism

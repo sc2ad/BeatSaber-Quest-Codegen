@@ -12,6 +12,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework::Constraints
@@ -37,12 +38,18 @@ namespace NUnit::Framework::Internal {
     public:
     // Writing base type padding for base size: 0x31 to desired offset: 0x34
     char ___base_padding[0x3] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 maxLineLength
     // Size: 0x4
     // Offset: 0x34
     int maxLineLength;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get static field: static private readonly System.Int32 DEFAULT_LINE_LENGTH
     static int _get_DEFAULT_LINE_LENGTH();
     // Set static field: static private readonly System.Int32 DEFAULT_LINE_LENGTH
@@ -64,7 +71,7 @@ namespace NUnit::Framework::Internal {
     // public System.Void .ctor(System.String userMessage, params System.Object[] args)
     // Offset: 0x24A7794
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static TextMessageWriter* New_ctor(::Il2CppString* userMessage, ::ArrayWrapper<::Il2CppObject*> args) {
+    static TextMessageWriter* New_ctor(::Il2CppString* userMessage, ::ArrayW<::Il2CppObject*> args) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::TextMessageWriter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TextMessageWriter*, creationType>(userMessage, args)));
     }
@@ -100,7 +107,7 @@ namespace NUnit::Framework::Internal {
     // Offset: 0x24A7870
     // Implemented from: NUnit.Framework.Constraints.MessageWriter
     // Base method: System.Void MessageWriter::WriteMessageLine(System.Int32 level, System.String message, params System.Object[] args)
-    void WriteMessageLine(int level, ::Il2CppString* message, ::ArrayWrapper<::Il2CppObject*> args);
+    void WriteMessageLine(int level, ::Il2CppString* message, ::ArrayW<::Il2CppObject*> args);
     // public override System.Void DisplayDifferences(NUnit.Framework.Constraints.ConstraintResult result)
     // Offset: 0x24A7978
     // Implemented from: NUnit.Framework.Constraints.MessageWriter
@@ -221,7 +228,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TextMessageWriter::WriteMessageLine
 // Il2CppName: WriteMessageLine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TextMessageWriter::*)(int, ::Il2CppString*, ::ArrayWrapper<::Il2CppObject*>)>(&NUnit::Framework::Internal::TextMessageWriter::WriteMessageLine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::TextMessageWriter::*)(int, ::Il2CppString*, ::ArrayW<::Il2CppObject*>)>(&NUnit::Framework::Internal::TextMessageWriter::WriteMessageLine)> {
   static const MethodInfo* get() {
     static auto* level = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

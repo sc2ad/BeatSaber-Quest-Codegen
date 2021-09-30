@@ -7,6 +7,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.IntPtr
 #include "System/IntPtr.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -164,16 +165,16 @@ namespace System::IO {
     static bool Close(System::IntPtr handle, ByRef<System::IO::MonoIOError> error);
     // static private System.Int32 Read(System.IntPtr handle, System.Byte[] dest, System.Int32 dest_offset, System.Int32 count, out System.IO.MonoIOError error)
     // Offset: 0x1ABE5FC
-    static int Read(System::IntPtr handle, ::ArrayWrapper<uint8_t> dest, int dest_offset, int count, ByRef<System::IO::MonoIOError> error);
+    static int Read(System::IntPtr handle, ::ArrayW<uint8_t> dest, int dest_offset, int count, ByRef<System::IO::MonoIOError> error);
     // static public System.Int32 Read(System.Runtime.InteropServices.SafeHandle safeHandle, System.Byte[] dest, System.Int32 dest_offset, System.Int32 count, out System.IO.MonoIOError error)
     // Offset: 0x1ABB288
-    static int Read(System::Runtime::InteropServices::SafeHandle* safeHandle, ::ArrayWrapper<uint8_t> dest, int dest_offset, int count, ByRef<System::IO::MonoIOError> error);
+    static int Read(System::Runtime::InteropServices::SafeHandle* safeHandle, ::ArrayW<uint8_t> dest, int dest_offset, int count, ByRef<System::IO::MonoIOError> error);
     // static private System.Int32 Write(System.IntPtr handle, in System.Byte[] src, System.Int32 src_offset, System.Int32 count, out System.IO.MonoIOError error)
     // Offset: 0x1ABE600
-    static int Write(System::IntPtr handle, ByRef<::ArrayWrapper<uint8_t>> src, int src_offset, int count, ByRef<System::IO::MonoIOError> error);
+    static int Write(System::IntPtr handle, ByRef<::ArrayW<uint8_t>> src, int src_offset, int count, ByRef<System::IO::MonoIOError> error);
     // static public System.Int32 Write(System.Runtime.InteropServices.SafeHandle safeHandle, System.Byte[] src, System.Int32 src_offset, System.Int32 count, out System.IO.MonoIOError error)
     // Offset: 0x1AB9EAC
-    static int Write(System::Runtime::InteropServices::SafeHandle* safeHandle, ::ArrayWrapper<uint8_t> src, int src_offset, int count, ByRef<System::IO::MonoIOError> error);
+    static int Write(System::Runtime::InteropServices::SafeHandle* safeHandle, ::ArrayW<uint8_t> src, int src_offset, int count, ByRef<System::IO::MonoIOError> error);
     // static private System.Int64 Seek(System.IntPtr handle, System.Int64 offset, System.IO.SeekOrigin origin, out System.IO.MonoIOError error)
     // Offset: 0x1ABE604
     static int64_t Seek(System::IntPtr handle, int64_t offset, System::IO::SeekOrigin origin, ByRef<System::IO::MonoIOError> error);
@@ -566,7 +567,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: System::IO::MonoIO::Read
 // Il2CppName: Read
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, ::ArrayWrapper<uint8_t>, int, int, ByRef<System::IO::MonoIOError>)>(&System::IO::MonoIO::Read)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, ::ArrayW<uint8_t>, int, int, ByRef<System::IO::MonoIOError>)>(&System::IO::MonoIO::Read)> {
   static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* dest = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -579,7 +580,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Writing MetadataGetter for method: System::IO::MonoIO::Read
 // Il2CppName: Read
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Runtime::InteropServices::SafeHandle*, ::ArrayWrapper<uint8_t>, int, int, ByRef<System::IO::MonoIOError>)>(&System::IO::MonoIO::Read)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Runtime::InteropServices::SafeHandle*, ::ArrayW<uint8_t>, int, int, ByRef<System::IO::MonoIOError>)>(&System::IO::MonoIO::Read)> {
   static const MethodInfo* get() {
     static auto* safeHandle = &::il2cpp_utils::GetClassFromName("System.Runtime.InteropServices", "SafeHandle")->byval_arg;
     static auto* dest = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -592,7 +593,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Writing MetadataGetter for method: System::IO::MonoIO::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, ByRef<::ArrayWrapper<uint8_t>>, int, int, ByRef<System::IO::MonoIOError>)>(&System::IO::MonoIO::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::IntPtr, ByRef<::ArrayW<uint8_t>>, int, int, ByRef<System::IO::MonoIOError>)>(&System::IO::MonoIO::Write)> {
   static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* src = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->this_arg;
@@ -605,7 +606,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Writing MetadataGetter for method: System::IO::MonoIO::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Runtime::InteropServices::SafeHandle*, ::ArrayWrapper<uint8_t>, int, int, ByRef<System::IO::MonoIOError>)>(&System::IO::MonoIO::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(System::Runtime::InteropServices::SafeHandle*, ::ArrayW<uint8_t>, int, int, ByRef<System::IO::MonoIOError>)>(&System::IO::MonoIO::Write)> {
   static const MethodInfo* get() {
     static auto* safeHandle = &::il2cpp_utils::GetClassFromName("System.Runtime.InteropServices", "SafeHandle")->byval_arg;
     static auto* src = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;

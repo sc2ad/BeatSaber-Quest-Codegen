@@ -55,6 +55,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::HealthWarningFlowCoordinator::InitData
     class InitData;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xF0DCCC
     // private readonly PlayerDataModel _playerDataModel
     // Size: 0x8
@@ -141,6 +146,7 @@ namespace GlobalNamespace {
     System::Collections::Generic::Dictionary_2<HMUI::ViewController*, ::Il2CppString*>* viewControllerTitles;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<HMUI::ViewController*, ::Il2CppString*>*) == 0x8);
+    public:
     // Get instance field reference: private readonly PlayerDataModel _playerDataModel
     GlobalNamespace::PlayerDataModel*& dyn__playerDataModel();
     // Get instance field reference: private readonly DlcPromoExperimentModel _dlcPromoExperimentModel

@@ -29,6 +29,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class EnvironmentKeywords : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Collections.Generic.IReadOnlyList`1<System.String> _environmentKeywords
     // Size: 0x8
     // Offset: 0x10
@@ -41,6 +46,7 @@ namespace GlobalNamespace {
     System::Collections::Generic::HashSet_1<::Il2CppString*>* environmentKeywordsSet;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::HashSet_1<::Il2CppString*>*) == 0x8);
+    public:
     // Get instance field reference: private readonly System.Collections.Generic.IReadOnlyList`1<System.String> _environmentKeywords
     System::Collections::Generic::IReadOnlyList_1<::Il2CppString*>*& dyn__environmentKeywords();
     // Get instance field reference: private readonly System.Collections.Generic.HashSet`1<System.String> _environmentKeywordsSet

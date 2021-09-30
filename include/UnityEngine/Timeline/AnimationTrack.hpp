@@ -94,6 +94,11 @@ namespace UnityEngine::Timeline {
     class AnimationTrackUpgrade;
     // Nested type: UnityEngine::Timeline::AnimationTrack::$get_outputs$d__49
     class $get_outputs$d__49;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [FormerlySerializedAsAttribute] Offset: 0xEB9970
     // private UnityEngine.Timeline.TimelineClip/UnityEngine.Timeline.ClipExtrapolation m_InfiniteClipPreExtrapolation
     // Size: 0x4
@@ -211,6 +216,7 @@ namespace UnityEngine::Timeline {
     bool m_ApplyOffsets;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator UnityEngine::Timeline::ILayerable
     operator UnityEngine::Timeline::ILayerable() noexcept {
       return *reinterpret_cast<UnityEngine::Timeline::ILayerable*>(this);

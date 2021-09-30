@@ -24,6 +24,11 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class TMP_GlyphPairAdjustmentRecord : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private TMPro.TMP_GlyphAdjustmentRecord m_FirstAdjustmentRecord
     // Size: 0x14
     // Offset: 0x10
@@ -42,6 +47,7 @@ namespace TMPro {
     TMPro::FontFeatureLookupFlags m_FeatureLookupFlags;
     // Field size check
     static_assert(sizeof(TMPro::FontFeatureLookupFlags) == 0x4);
+    public:
     // Get instance field reference: private TMPro.TMP_GlyphAdjustmentRecord m_FirstAdjustmentRecord
     TMPro::TMP_GlyphAdjustmentRecord& dyn_m_FirstAdjustmentRecord();
     // Get instance field reference: private TMPro.TMP_GlyphAdjustmentRecord m_SecondAdjustmentRecord

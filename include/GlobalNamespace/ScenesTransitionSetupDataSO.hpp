@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -34,39 +35,45 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ScenesTransitionSetupDataSO : public GlobalNamespace::PersistentScriptableObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private SceneInfo[] <scenes>k__BackingField
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<GlobalNamespace::SceneInfo*> scenes;
+    ::ArrayW<GlobalNamespace::SceneInfo*> scenes;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::SceneInfo*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::SceneInfo*>) == 0x8);
     // private SceneSetupData[] <sceneSetupDataArray>k__BackingField
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<GlobalNamespace::SceneSetupData*> sceneSetupDataArray;
+    ::ArrayW<GlobalNamespace::SceneSetupData*> sceneSetupDataArray;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::SceneSetupData*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::SceneSetupData*>) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private SceneInfo[] <scenes>k__BackingField
-    ::ArrayWrapper<GlobalNamespace::SceneInfo*>& dyn_$scenes$k__BackingField();
+    ::ArrayW<GlobalNamespace::SceneInfo*>& dyn_$scenes$k__BackingField();
     // Get instance field reference: private SceneSetupData[] <sceneSetupDataArray>k__BackingField
-    ::ArrayWrapper<GlobalNamespace::SceneSetupData*>& dyn_$sceneSetupDataArray$k__BackingField();
+    ::ArrayW<GlobalNamespace::SceneSetupData*>& dyn_$sceneSetupDataArray$k__BackingField();
     // public SceneInfo[] get_scenes()
     // Offset: 0x2598D2C
-    ::ArrayWrapper<GlobalNamespace::SceneInfo*> get_scenes();
+    ::ArrayW<GlobalNamespace::SceneInfo*> get_scenes();
     // private System.Void set_scenes(SceneInfo[] value)
     // Offset: 0x2598D34
-    void set_scenes(::ArrayWrapper<GlobalNamespace::SceneInfo*> value);
+    void set_scenes(::ArrayW<GlobalNamespace::SceneInfo*> value);
     // public SceneSetupData[] get_sceneSetupDataArray()
     // Offset: 0x2598D3C
-    ::ArrayWrapper<GlobalNamespace::SceneSetupData*> get_sceneSetupDataArray();
+    ::ArrayW<GlobalNamespace::SceneSetupData*> get_sceneSetupDataArray();
     // private System.Void set_sceneSetupDataArray(SceneSetupData[] value)
     // Offset: 0x2598D44
-    void set_sceneSetupDataArray(::ArrayWrapper<GlobalNamespace::SceneSetupData*> value);
+    void set_sceneSetupDataArray(::ArrayW<GlobalNamespace::SceneSetupData*> value);
     // protected System.Void Init(SceneInfo[] scenes, SceneSetupData[] sceneSetupData)
     // Offset: 0x2598D4C
-    void Init(::ArrayWrapper<GlobalNamespace::SceneInfo*> scenes, ::ArrayWrapper<GlobalNamespace::SceneSetupData*> sceneSetupData);
+    void Init(::ArrayW<GlobalNamespace::SceneInfo*> scenes, ::ArrayW<GlobalNamespace::SceneSetupData*> sceneSetupData);
     // public System.Void InstallBindings(Zenject.DiContainer container)
     // Offset: 0x2598D54
     void InstallBindings(Zenject::DiContainer* container);
@@ -95,7 +102,7 @@ namespace GlobalNamespace {
     }
   }; // ScenesTransitionSetupDataSO
   #pragma pack(pop)
-  static check_size<sizeof(ScenesTransitionSetupDataSO), 32 + sizeof(::ArrayWrapper<GlobalNamespace::SceneSetupData*>)> __GlobalNamespace_ScenesTransitionSetupDataSOSizeCheck;
+  static check_size<sizeof(ScenesTransitionSetupDataSO), 32 + sizeof(::ArrayW<GlobalNamespace::SceneSetupData*>)> __GlobalNamespace_ScenesTransitionSetupDataSOSizeCheck;
   static_assert(sizeof(ScenesTransitionSetupDataSO) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScenesTransitionSetupDataSO*, "", "ScenesTransitionSetupDataSO");
@@ -103,7 +110,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ScenesTransitionSetupDataSO*, "", "Scene
 // Writing MetadataGetter for method: GlobalNamespace::ScenesTransitionSetupDataSO::get_scenes
 // Il2CppName: get_scenes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::SceneInfo*> (GlobalNamespace::ScenesTransitionSetupDataSO::*)()>(&GlobalNamespace::ScenesTransitionSetupDataSO::get_scenes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<GlobalNamespace::SceneInfo*> (GlobalNamespace::ScenesTransitionSetupDataSO::*)()>(&GlobalNamespace::ScenesTransitionSetupDataSO::get_scenes)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScenesTransitionSetupDataSO*), "get_scenes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -111,7 +118,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: GlobalNamespace::ScenesTransitionSetupDataSO::set_scenes
 // Il2CppName: set_scenes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScenesTransitionSetupDataSO::*)(::ArrayWrapper<GlobalNamespace::SceneInfo*>)>(&GlobalNamespace::ScenesTransitionSetupDataSO::set_scenes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScenesTransitionSetupDataSO::*)(::ArrayW<GlobalNamespace::SceneInfo*>)>(&GlobalNamespace::ScenesTransitionSetupDataSO::set_scenes)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "SceneInfo"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScenesTransitionSetupDataSO*), "set_scenes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -120,7 +127,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::ScenesTransitionSetupDataSO::get_sceneSetupDataArray
 // Il2CppName: get_sceneSetupDataArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::SceneSetupData*> (GlobalNamespace::ScenesTransitionSetupDataSO::*)()>(&GlobalNamespace::ScenesTransitionSetupDataSO::get_sceneSetupDataArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<GlobalNamespace::SceneSetupData*> (GlobalNamespace::ScenesTransitionSetupDataSO::*)()>(&GlobalNamespace::ScenesTransitionSetupDataSO::get_sceneSetupDataArray)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScenesTransitionSetupDataSO*), "get_sceneSetupDataArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -128,7 +135,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: GlobalNamespace::ScenesTransitionSetupDataSO::set_sceneSetupDataArray
 // Il2CppName: set_sceneSetupDataArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScenesTransitionSetupDataSO::*)(::ArrayWrapper<GlobalNamespace::SceneSetupData*>)>(&GlobalNamespace::ScenesTransitionSetupDataSO::set_sceneSetupDataArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScenesTransitionSetupDataSO::*)(::ArrayW<GlobalNamespace::SceneSetupData*>)>(&GlobalNamespace::ScenesTransitionSetupDataSO::set_sceneSetupDataArray)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "SceneSetupData"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ScenesTransitionSetupDataSO*), "set_sceneSetupDataArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -137,7 +144,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::ScenesTransitionSetupDataSO::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScenesTransitionSetupDataSO::*)(::ArrayWrapper<GlobalNamespace::SceneInfo*>, ::ArrayWrapper<GlobalNamespace::SceneSetupData*>)>(&GlobalNamespace::ScenesTransitionSetupDataSO::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ScenesTransitionSetupDataSO::*)(::ArrayW<GlobalNamespace::SceneInfo*>, ::ArrayW<GlobalNamespace::SceneSetupData*>)>(&GlobalNamespace::ScenesTransitionSetupDataSO::Init)> {
   static const MethodInfo* get() {
     static auto* scenes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "SceneInfo"), 1)->byval_arg;
     static auto* sceneSetupData = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "SceneSetupData"), 1)->byval_arg;

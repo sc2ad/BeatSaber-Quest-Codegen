@@ -43,6 +43,11 @@ namespace UnityEngine::ProBuilder {
   // [EditorBrowsableAttribute] Offset: F257D4
   class SceneSelection : public ::Il2CppObject/*, public System::IEquatable_1<UnityEngine::ProBuilder::SceneSelection*>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.GameObject gameObject
     // Size: 0x8
     // Offset: 0x10
@@ -96,6 +101,7 @@ namespace UnityEngine::ProBuilder {
     UnityEngine::ProBuilder::Face* face;
     // Field size check
     static_assert(sizeof(UnityEngine::ProBuilder::Face*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::IEquatable_1<UnityEngine::ProBuilder::SceneSelection*>
     operator System::IEquatable_1<UnityEngine::ProBuilder::SceneSelection*>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<UnityEngine::ProBuilder::SceneSelection*>*>(this);

@@ -36,6 +36,11 @@ namespace UnityEngine::Timeline {
     public:
     // Writing base type padding for base size: 0x14 to desired offset: 0x18
     char ___base_padding[0x4] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Timeline.TimelineClip m_Clip
     // Size: 0x8
     // Offset: 0x18
@@ -76,6 +81,7 @@ namespace UnityEngine::Timeline {
     bool m_Started;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Deleting conversion operator: operator int
     constexpr operator int() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Timeline.TimelineClip m_Clip

@@ -17,6 +17,11 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct VREvent_InputBindingLoad_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.UInt64 ulAppContainer
     // Size: 0x8
     // Offset: 0x0
@@ -41,6 +46,7 @@ namespace OVR::OpenVR {
     uint64_t pathControllerType;
     // Field size check
     static_assert(sizeof(uint64_t) == 0x8);
+    public:
     // Creating value type constructor for type: VREvent_InputBindingLoad_t
     constexpr VREvent_InputBindingLoad_t(uint64_t ulAppContainer_ = {}, uint64_t pathMessage_ = {}, uint64_t pathUrl_ = {}, uint64_t pathControllerType_ = {}) noexcept : ulAppContainer{ulAppContainer_}, pathMessage{pathMessage_}, pathUrl{pathUrl_}, pathControllerType{pathControllerType_} {}
     // Creating interface conversion operator: operator System::ValueType

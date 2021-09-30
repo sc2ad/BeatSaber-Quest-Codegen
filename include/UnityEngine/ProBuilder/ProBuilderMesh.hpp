@@ -27,6 +27,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -121,12 +122,18 @@ namespace UnityEngine::ProBuilder {
     // [FlagsAttribute] Offset: FFFFFFFF
     struct CacheValidState/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Byte value__
       // Size: 0x1
       // Offset: 0x0
       uint8_t value;
       // Field size check
       static_assert(sizeof(uint8_t) == 0x1);
+      public:
       // Creating value type constructor for type: CacheValidState
       constexpr CacheValidState(uint8_t value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -155,6 +162,11 @@ namespace UnityEngine::ProBuilder {
     #pragma pack(pop)
     static check_size<sizeof(ProBuilderMesh::CacheValidState), 0 + sizeof(uint8_t)> __UnityEngine_ProBuilder_ProBuilderMesh_CacheValidStateSizeCheck;
     static_assert(sizeof(ProBuilderMesh::CacheValidState) == 0x1);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 m_MeshFormatVersion
     // Size: 0x4
     // Offset: 0x18
@@ -167,17 +179,17 @@ namespace UnityEngine::ProBuilder {
     // private UnityEngine.ProBuilder.Face[] m_Faces
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<UnityEngine::ProBuilder::Face*> m_Faces;
+    ::ArrayW<UnityEngine::ProBuilder::Face*> m_Faces;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::ProBuilder::Face*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::ProBuilder::Face*>) == 0x8);
     // [FormerlySerializedAsAttribute] Offset: 0xF2770C
     // [FormerlySerializedAsAttribute] Offset: 0xF2770C
     // private UnityEngine.ProBuilder.SharedVertex[] m_SharedVertices
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<UnityEngine::ProBuilder::SharedVertex*> m_SharedVertices;
+    ::ArrayW<UnityEngine::ProBuilder::SharedVertex*> m_SharedVertices;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::ProBuilder::SharedVertex*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::ProBuilder::SharedVertex*>) == 0x8);
     // private UnityEngine.ProBuilder.ProBuilderMesh/UnityEngine.ProBuilder.CacheValidState m_CacheValid
     // Size: 0x1
     // Offset: 0x30
@@ -196,9 +208,9 @@ namespace UnityEngine::ProBuilder {
     // private UnityEngine.ProBuilder.SharedVertex[] m_SharedTextures
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayWrapper<UnityEngine::ProBuilder::SharedVertex*> m_SharedTextures;
+    ::ArrayW<UnityEngine::ProBuilder::SharedVertex*> m_SharedTextures;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::ProBuilder::SharedVertex*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::ProBuilder::SharedVertex*>) == 0x8);
     // private System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> m_SharedTextureLookup
     // Size: 0x8
     // Offset: 0x48
@@ -209,16 +221,16 @@ namespace UnityEngine::ProBuilder {
     // private UnityEngine.Vector3[] m_Positions
     // Size: 0x8
     // Offset: 0x50
-    ::ArrayWrapper<UnityEngine::Vector3> m_Positions;
+    ::ArrayW<UnityEngine::Vector3> m_Positions;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector3>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Vector3>) == 0x8);
     // [FormerlySerializedAsAttribute] Offset: 0xF27814
     // private UnityEngine.Vector2[] m_Textures0
     // Size: 0x8
     // Offset: 0x58
-    ::ArrayWrapper<UnityEngine::Vector2> m_Textures0;
+    ::ArrayW<UnityEngine::Vector2> m_Textures0;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector2>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Vector2>) == 0x8);
     // [FormerlySerializedAsAttribute] Offset: 0xF27860
     // private System.Collections.Generic.List`1<UnityEngine.Vector4> m_Textures2
     // Size: 0x8
@@ -237,22 +249,22 @@ namespace UnityEngine::ProBuilder {
     // private UnityEngine.Vector4[] m_Tangents
     // Size: 0x8
     // Offset: 0x70
-    ::ArrayWrapper<UnityEngine::Vector4> m_Tangents;
+    ::ArrayW<UnityEngine::Vector4> m_Tangents;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector4>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Vector4>) == 0x8);
     // private UnityEngine.Vector3[] m_Normals
     // Size: 0x8
     // Offset: 0x78
-    ::ArrayWrapper<UnityEngine::Vector3> m_Normals;
+    ::ArrayW<UnityEngine::Vector3> m_Normals;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector3>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Vector3>) == 0x8);
     // [FormerlySerializedAsAttribute] Offset: 0xF27944
     // private UnityEngine.Color[] m_Colors
     // Size: 0x8
     // Offset: 0x80
-    ::ArrayWrapper<UnityEngine::Color> m_Colors;
+    ::ArrayW<UnityEngine::Color> m_Colors;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Color>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Color>) == 0x8);
     // private System.Boolean <userCollisions>k__BackingField
     // Size: 0x1
     // Offset: 0x88
@@ -312,21 +324,21 @@ namespace UnityEngine::ProBuilder {
     // private System.Int32[] m_SelectedFaces
     // Size: 0x8
     // Offset: 0xC8
-    ::ArrayWrapper<int> m_SelectedFaces;
+    ::ArrayW<int> m_SelectedFaces;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // private UnityEngine.ProBuilder.Edge[] m_SelectedEdges
     // Size: 0x8
     // Offset: 0xD0
-    ::ArrayWrapper<UnityEngine::ProBuilder::Edge> m_SelectedEdges;
+    ::ArrayW<UnityEngine::ProBuilder::Edge> m_SelectedEdges;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::ProBuilder::Edge>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::ProBuilder::Edge>) == 0x8);
     // private System.Int32[] m_SelectedVertices
     // Size: 0x8
     // Offset: 0xD8
-    ::ArrayWrapper<int> m_SelectedVertices;
+    ::ArrayW<int> m_SelectedVertices;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // private System.Boolean m_SelectedCacheDirty
     // Size: 0x1
     // Offset: 0xE0
@@ -361,6 +373,7 @@ namespace UnityEngine::ProBuilder {
     System::Collections::Generic::List_1<int>* m_SelectedCoincidentVertices;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<int>*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static UnityEngine.HideFlags k_MeshFilterHideFlags
@@ -416,31 +429,31 @@ namespace UnityEngine::ProBuilder {
     // Get instance field reference: private System.Int32 m_MeshFormatVersion
     int& dyn_m_MeshFormatVersion();
     // Get instance field reference: private UnityEngine.ProBuilder.Face[] m_Faces
-    ::ArrayWrapper<UnityEngine::ProBuilder::Face*>& dyn_m_Faces();
+    ::ArrayW<UnityEngine::ProBuilder::Face*>& dyn_m_Faces();
     // Get instance field reference: private UnityEngine.ProBuilder.SharedVertex[] m_SharedVertices
-    ::ArrayWrapper<UnityEngine::ProBuilder::SharedVertex*>& dyn_m_SharedVertices();
+    ::ArrayW<UnityEngine::ProBuilder::SharedVertex*>& dyn_m_SharedVertices();
     // Get instance field reference: private UnityEngine.ProBuilder.ProBuilderMesh/UnityEngine.ProBuilder.CacheValidState m_CacheValid
     UnityEngine::ProBuilder::ProBuilderMesh::CacheValidState& dyn_m_CacheValid();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> m_SharedVertexLookup
     System::Collections::Generic::Dictionary_2<int, int>*& dyn_m_SharedVertexLookup();
     // Get instance field reference: private UnityEngine.ProBuilder.SharedVertex[] m_SharedTextures
-    ::ArrayWrapper<UnityEngine::ProBuilder::SharedVertex*>& dyn_m_SharedTextures();
+    ::ArrayW<UnityEngine::ProBuilder::SharedVertex*>& dyn_m_SharedTextures();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> m_SharedTextureLookup
     System::Collections::Generic::Dictionary_2<int, int>*& dyn_m_SharedTextureLookup();
     // Get instance field reference: private UnityEngine.Vector3[] m_Positions
-    ::ArrayWrapper<UnityEngine::Vector3>& dyn_m_Positions();
+    ::ArrayW<UnityEngine::Vector3>& dyn_m_Positions();
     // Get instance field reference: private UnityEngine.Vector2[] m_Textures0
-    ::ArrayWrapper<UnityEngine::Vector2>& dyn_m_Textures0();
+    ::ArrayW<UnityEngine::Vector2>& dyn_m_Textures0();
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.Vector4> m_Textures2
     System::Collections::Generic::List_1<UnityEngine::Vector4>*& dyn_m_Textures2();
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.Vector4> m_Textures3
     System::Collections::Generic::List_1<UnityEngine::Vector4>*& dyn_m_Textures3();
     // Get instance field reference: private UnityEngine.Vector4[] m_Tangents
-    ::ArrayWrapper<UnityEngine::Vector4>& dyn_m_Tangents();
+    ::ArrayW<UnityEngine::Vector4>& dyn_m_Tangents();
     // Get instance field reference: private UnityEngine.Vector3[] m_Normals
-    ::ArrayWrapper<UnityEngine::Vector3>& dyn_m_Normals();
+    ::ArrayW<UnityEngine::Vector3>& dyn_m_Normals();
     // Get instance field reference: private UnityEngine.Color[] m_Colors
-    ::ArrayWrapper<UnityEngine::Color>& dyn_m_Colors();
+    ::ArrayW<UnityEngine::Color>& dyn_m_Colors();
     // Get instance field reference: private System.Boolean <userCollisions>k__BackingField
     bool& dyn_$userCollisions$k__BackingField();
     // Get instance field reference: private UnityEngine.ProBuilder.UnwrapParameters m_UnwrapParameters
@@ -458,11 +471,11 @@ namespace UnityEngine::ProBuilder {
     // Get instance field reference: private System.Boolean m_IsSelectable
     bool& dyn_m_IsSelectable();
     // Get instance field reference: private System.Int32[] m_SelectedFaces
-    ::ArrayWrapper<int>& dyn_m_SelectedFaces();
+    ::ArrayW<int>& dyn_m_SelectedFaces();
     // Get instance field reference: private UnityEngine.ProBuilder.Edge[] m_SelectedEdges
-    ::ArrayWrapper<UnityEngine::ProBuilder::Edge>& dyn_m_SelectedEdges();
+    ::ArrayW<UnityEngine::ProBuilder::Edge>& dyn_m_SelectedEdges();
     // Get instance field reference: private System.Int32[] m_SelectedVertices
-    ::ArrayWrapper<int>& dyn_m_SelectedVertices();
+    ::ArrayW<int>& dyn_m_SelectedVertices();
     // Get instance field reference: private System.Boolean m_SelectedCacheDirty
     bool& dyn_m_SelectedCacheDirty();
     // Get instance field reference: private System.Int32 m_SelectedSharedVerticesCount
@@ -499,10 +512,10 @@ namespace UnityEngine::ProBuilder {
     void set_preserveMeshAssetOnDestroy(bool value);
     // UnityEngine.ProBuilder.Face[] get_facesInternal()
     // Offset: 0x16894A8
-    ::ArrayWrapper<UnityEngine::ProBuilder::Face*> get_facesInternal();
+    ::ArrayW<UnityEngine::ProBuilder::Face*> get_facesInternal();
     // System.Void set_facesInternal(UnityEngine.ProBuilder.Face[] value)
     // Offset: 0x16894B0
-    void set_facesInternal(::ArrayWrapper<UnityEngine::ProBuilder::Face*> value);
+    void set_facesInternal(::ArrayW<UnityEngine::ProBuilder::Face*> value);
     // public System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Face> get_faces()
     // Offset: 0x16894B8
     System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Face*>* get_faces();
@@ -511,10 +524,10 @@ namespace UnityEngine::ProBuilder {
     void set_faces(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Face*>* value);
     // UnityEngine.ProBuilder.SharedVertex[] get_sharedVerticesInternal()
     // Offset: 0x16899BC
-    ::ArrayWrapper<UnityEngine::ProBuilder::SharedVertex*> get_sharedVerticesInternal();
+    ::ArrayW<UnityEngine::ProBuilder::SharedVertex*> get_sharedVerticesInternal();
     // System.Void set_sharedVerticesInternal(UnityEngine.ProBuilder.SharedVertex[] value)
     // Offset: 0x16899C4
-    void set_sharedVerticesInternal(::ArrayWrapper<UnityEngine::ProBuilder::SharedVertex*> value);
+    void set_sharedVerticesInternal(::ArrayW<UnityEngine::ProBuilder::SharedVertex*> value);
     // public System.Collections.Generic.IList`1<UnityEngine.ProBuilder.SharedVertex> get_sharedVertices()
     // Offset: 0x16899CC
     System::Collections::Generic::IList_1<UnityEngine::ProBuilder::SharedVertex*>* get_sharedVertices();
@@ -526,19 +539,19 @@ namespace UnityEngine::ProBuilder {
     System::Collections::Generic::Dictionary_2<int, int>* get_sharedVertexLookup();
     // UnityEngine.ProBuilder.SharedVertex[] get_sharedTextures()
     // Offset: 0x1689DAC
-    ::ArrayWrapper<UnityEngine::ProBuilder::SharedVertex*> get_sharedTextures();
+    ::ArrayW<UnityEngine::ProBuilder::SharedVertex*> get_sharedTextures();
     // System.Void set_sharedTextures(UnityEngine.ProBuilder.SharedVertex[] value)
     // Offset: 0x1689DB4
-    void set_sharedTextures(::ArrayWrapper<UnityEngine::ProBuilder::SharedVertex*> value);
+    void set_sharedTextures(::ArrayW<UnityEngine::ProBuilder::SharedVertex*> value);
     // System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> get_sharedTextureLookup()
     // Offset: 0x1689DBC
     System::Collections::Generic::Dictionary_2<int, int>* get_sharedTextureLookup();
     // UnityEngine.Vector3[] get_positionsInternal()
     // Offset: 0x1689F04
-    ::ArrayWrapper<UnityEngine::Vector3> get_positionsInternal();
+    ::ArrayW<UnityEngine::Vector3> get_positionsInternal();
     // System.Void set_positionsInternal(UnityEngine.Vector3[] value)
     // Offset: 0x1689F0C
-    void set_positionsInternal(::ArrayWrapper<UnityEngine::Vector3> value);
+    void set_positionsInternal(::ArrayW<UnityEngine::Vector3> value);
     // public System.Collections.Generic.IList`1<UnityEngine.Vector3> get_positions()
     // Offset: 0x1689F14
     System::Collections::Generic::IList_1<UnityEngine::Vector3>* get_positions();
@@ -550,16 +563,16 @@ namespace UnityEngine::ProBuilder {
     System::Collections::Generic::IList_1<UnityEngine::Vector3>* get_normals();
     // UnityEngine.Vector3[] get_normalsInternal()
     // Offset: 0x168AEA8
-    ::ArrayWrapper<UnityEngine::Vector3> get_normalsInternal();
+    ::ArrayW<UnityEngine::Vector3> get_normalsInternal();
     // System.Void set_normalsInternal(UnityEngine.Vector3[] value)
     // Offset: 0x168AEB0
-    void set_normalsInternal(::ArrayWrapper<UnityEngine::Vector3> value);
+    void set_normalsInternal(::ArrayW<UnityEngine::Vector3> value);
     // UnityEngine.Color[] get_colorsInternal()
     // Offset: 0x168AEB8
-    ::ArrayWrapper<UnityEngine::Color> get_colorsInternal();
+    ::ArrayW<UnityEngine::Color> get_colorsInternal();
     // System.Void set_colorsInternal(UnityEngine.Color[] value)
     // Offset: 0x168AEC0
-    void set_colorsInternal(::ArrayWrapper<UnityEngine::Color> value);
+    void set_colorsInternal(::ArrayW<UnityEngine::Color> value);
     // public System.Collections.Generic.IList`1<UnityEngine.Color> get_colors()
     // Offset: 0x168AEC8
     System::Collections::Generic::IList_1<UnityEngine::Color>* get_colors();
@@ -574,16 +587,16 @@ namespace UnityEngine::ProBuilder {
     void set_tangents(System::Collections::Generic::IList_1<UnityEngine::Vector4>* value);
     // UnityEngine.Vector4[] get_tangentsInternal()
     // Offset: 0x168B230
-    ::ArrayWrapper<UnityEngine::Vector4> get_tangentsInternal();
+    ::ArrayW<UnityEngine::Vector4> get_tangentsInternal();
     // System.Void set_tangentsInternal(UnityEngine.Vector4[] value)
     // Offset: 0x168B238
-    void set_tangentsInternal(::ArrayWrapper<UnityEngine::Vector4> value);
+    void set_tangentsInternal(::ArrayW<UnityEngine::Vector4> value);
     // UnityEngine.Vector2[] get_texturesInternal()
     // Offset: 0x168B240
-    ::ArrayWrapper<UnityEngine::Vector2> get_texturesInternal();
+    ::ArrayW<UnityEngine::Vector2> get_texturesInternal();
     // System.Void set_texturesInternal(UnityEngine.Vector2[] value)
     // Offset: 0x168B248
-    void set_texturesInternal(::ArrayWrapper<UnityEngine::Vector2> value);
+    void set_texturesInternal(::ArrayW<UnityEngine::Vector2> value);
     // public System.Collections.Generic.IList`1<UnityEngine.Vector2> get_textures()
     // Offset: 0x168B250
     System::Collections::Generic::IList_1<UnityEngine::Vector2>* get_textures();
@@ -655,28 +668,28 @@ namespace UnityEngine::ProBuilder {
     System::Collections::ObjectModel::ReadOnlyCollection_1<UnityEngine::ProBuilder::Edge>* get_selectedEdges();
     // UnityEngine.ProBuilder.Face[] get_selectedFacesInternal()
     // Offset: 0x1690670
-    ::ArrayWrapper<UnityEngine::ProBuilder::Face*> get_selectedFacesInternal();
+    ::ArrayW<UnityEngine::ProBuilder::Face*> get_selectedFacesInternal();
     // System.Void set_selectedFacesInternal(UnityEngine.ProBuilder.Face[] value)
     // Offset: 0x1690674
-    void set_selectedFacesInternal(::ArrayWrapper<UnityEngine::ProBuilder::Face*> value);
+    void set_selectedFacesInternal(::ArrayW<UnityEngine::ProBuilder::Face*> value);
     // System.Int32[] get_selectedFaceIndicesInternal()
     // Offset: 0x1690720
-    ::ArrayWrapper<int> get_selectedFaceIndicesInternal();
+    ::ArrayW<int> get_selectedFaceIndicesInternal();
     // System.Void set_selectedFaceIndicesInternal(System.Int32[] value)
     // Offset: 0x1690728
-    void set_selectedFaceIndicesInternal(::ArrayWrapper<int> value);
+    void set_selectedFaceIndicesInternal(::ArrayW<int> value);
     // UnityEngine.ProBuilder.Edge[] get_selectedEdgesInternal()
     // Offset: 0x1690730
-    ::ArrayWrapper<UnityEngine::ProBuilder::Edge> get_selectedEdgesInternal();
+    ::ArrayW<UnityEngine::ProBuilder::Edge> get_selectedEdgesInternal();
     // System.Void set_selectedEdgesInternal(UnityEngine.ProBuilder.Edge[] value)
     // Offset: 0x1690738
-    void set_selectedEdgesInternal(::ArrayWrapper<UnityEngine::ProBuilder::Edge> value);
+    void set_selectedEdgesInternal(::ArrayW<UnityEngine::ProBuilder::Edge> value);
     // System.Int32[] get_selectedIndexesInternal()
     // Offset: 0x1690740
-    ::ArrayWrapper<int> get_selectedIndexesInternal();
+    ::ArrayW<int> get_selectedIndexesInternal();
     // System.Void set_selectedIndexesInternal(System.Int32[] value)
     // Offset: 0x1690748
-    void set_selectedIndexesInternal(::ArrayWrapper<int> value);
+    void set_selectedIndexesInternal(::ArrayW<int> value);
     // static public System.Void add_meshWillBeDestroyed(System.Action`1<UnityEngine.ProBuilder.ProBuilderMesh> value)
     // Offset: 0x168BA44
     static void add_meshWillBeDestroyed(System::Action_1<UnityEngine::ProBuilder::ProBuilderMesh*>* value);
@@ -724,19 +737,19 @@ namespace UnityEngine::ProBuilder {
     void SetSharedTextures(System::Collections::Generic::IEnumerable_1<System::Collections::Generic::KeyValuePair_2<int, int>>* indexes);
     // public UnityEngine.ProBuilder.Vertex[] GetVertices(System.Collections.Generic.IList`1<System.Int32> indexes)
     // Offset: 0x168A028
-    ::ArrayWrapper<UnityEngine::ProBuilder::Vertex*> GetVertices(System::Collections::Generic::IList_1<int>* indexes);
+    ::ArrayW<UnityEngine::ProBuilder::Vertex*> GetVertices(System::Collections::Generic::IList_1<int>* indexes);
     // public System.Void SetVertices(System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Vertex> vertices, System.Boolean applyMesh)
     // Offset: 0x168AAB4
     void SetVertices(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Vertex*>* vertices, bool applyMesh);
     // public UnityEngine.Vector3[] GetNormals()
     // Offset: 0x168A750
-    ::ArrayWrapper<UnityEngine::Vector3> GetNormals();
+    ::ArrayW<UnityEngine::Vector3> GetNormals();
     // public UnityEngine.Color[] GetColors()
     // Offset: 0x168B024
-    ::ArrayWrapper<UnityEngine::Color> GetColors();
+    ::ArrayW<UnityEngine::Color> GetColors();
     // public UnityEngine.Vector4[] GetTangents()
     // Offset: 0x168A6C0
-    ::ArrayWrapper<UnityEngine::Vector4> GetTangents();
+    ::ArrayW<UnityEngine::Vector4> GetTangents();
     // public System.Void GetUVs(System.Int32 channel, System.Collections.Generic.List`1<UnityEngine.Vector4> uvs)
     // Offset: 0x168A7E0
     void GetUVs(int channel, System::Collections::Generic::List_1<UnityEngine::Vector4>* uvs);
@@ -763,7 +776,7 @@ namespace UnityEngine::ProBuilder {
     void EnsureMeshFilterIsAssigned();
     // static UnityEngine.ProBuilder.ProBuilderMesh CreateInstanceWithPoints(UnityEngine.Vector3[] positions)
     // Offset: 0x168C98C
-    static UnityEngine::ProBuilder::ProBuilderMesh* CreateInstanceWithPoints(::ArrayWrapper<UnityEngine::Vector3> positions);
+    static UnityEngine::ProBuilder::ProBuilderMesh* CreateInstanceWithPoints(::ArrayW<UnityEngine::Vector3> positions);
     // static public UnityEngine.ProBuilder.ProBuilderMesh Create()
     // Offset: 0x168CC9C
     static UnityEngine::ProBuilder::ProBuilderMesh* Create();
@@ -775,7 +788,7 @@ namespace UnityEngine::ProBuilder {
     static UnityEngine::ProBuilder::ProBuilderMesh* Create(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Vertex*>* vertices, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Face*>* faces, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::SharedVertex*>* sharedVertices, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::SharedVertex*>* sharedTextures, System::Collections::Generic::IList_1<UnityEngine::Material*>* materials);
     // private System.Void GeometryWithPoints(UnityEngine.Vector3[] points)
     // Offset: 0x168CA84
-    void GeometryWithPoints(::ArrayWrapper<UnityEngine::Vector3> points);
+    void GeometryWithPoints(::ArrayW<UnityEngine::Vector3> points);
     // public System.Void RebuildWithPositionsAndFaces(System.Collections.Generic.IEnumerable`1<UnityEngine.Vector3> vertices, System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face> faces)
     // Offset: 0x168CDE8
     void RebuildWithPositionsAndFaces(System::Collections::Generic::IEnumerable_1<UnityEngine::Vector3>* vertices, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>* faces);
@@ -865,7 +878,7 @@ namespace UnityEngine::ProBuilder {
     void CacheSelection();
     // public UnityEngine.ProBuilder.Face[] GetSelectedFaces()
     // Offset: 0x169040C
-    ::ArrayWrapper<UnityEngine::ProBuilder::Face*> GetSelectedFaces();
+    ::ArrayW<UnityEngine::ProBuilder::Face*> GetSelectedFaces();
     // UnityEngine.ProBuilder.Face GetActiveFace()
     // Offset: 0x1690750
     UnityEngine::ProBuilder::Face* GetActiveFace();
@@ -1004,7 +1017,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ProBuilderMesh::get_facesInternal
 // Il2CppName: get_facesInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::ProBuilder::Face*> (UnityEngine::ProBuilder::ProBuilderMesh::*)()>(&UnityEngine::ProBuilder::ProBuilderMesh::get_facesInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::ProBuilder::Face*> (UnityEngine::ProBuilder::ProBuilderMesh::*)()>(&UnityEngine::ProBuilder::ProBuilderMesh::get_facesInternal)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ProBuilderMesh*), "get_facesInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1012,7 +1025,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ProBuilderMesh::set_facesInternal
 // Il2CppName: set_facesInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::ProBuilderMesh::*)(::ArrayWrapper<UnityEngine::ProBuilder::Face*>)>(&UnityEngine::ProBuilder::ProBuilderMesh::set_facesInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::ProBuilderMesh::*)(::ArrayW<UnityEngine::ProBuilder::Face*>)>(&UnityEngine::ProBuilder::ProBuilderMesh::set_facesInternal)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Face"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ProBuilderMesh*), "set_facesInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1038,7 +1051,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ProBuilderMesh::get_sharedVerticesInternal
 // Il2CppName: get_sharedVerticesInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::ProBuilder::SharedVertex*> (UnityEngine::ProBuilder::ProBuilderMesh::*)()>(&UnityEngine::ProBuilder::ProBuilderMesh::get_sharedVerticesInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::ProBuilder::SharedVertex*> (UnityEngine::ProBuilder::ProBuilderMesh::*)()>(&UnityEngine::ProBuilder::ProBuilderMesh::get_sharedVerticesInternal)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ProBuilderMesh*), "get_sharedVerticesInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1046,7 +1059,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ProBuilderMesh::set_sharedVerticesInternal
 // Il2CppName: set_sharedVerticesInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::ProBuilderMesh::*)(::ArrayWrapper<UnityEngine::ProBuilder::SharedVertex*>)>(&UnityEngine::ProBuilder::ProBuilderMesh::set_sharedVerticesInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::ProBuilderMesh::*)(::ArrayW<UnityEngine::ProBuilder::SharedVertex*>)>(&UnityEngine::ProBuilder::ProBuilderMesh::set_sharedVerticesInternal)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "SharedVertex"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ProBuilderMesh*), "set_sharedVerticesInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1080,7 +1093,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ProBuilderMesh::get_sharedTextures
 // Il2CppName: get_sharedTextures
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::ProBuilder::SharedVertex*> (UnityEngine::ProBuilder::ProBuilderMesh::*)()>(&UnityEngine::ProBuilder::ProBuilderMesh::get_sharedTextures)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::ProBuilder::SharedVertex*> (UnityEngine::ProBuilder::ProBuilderMesh::*)()>(&UnityEngine::ProBuilder::ProBuilderMesh::get_sharedTextures)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ProBuilderMesh*), "get_sharedTextures", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1088,7 +1101,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ProBuilderMesh::set_sharedTextures
 // Il2CppName: set_sharedTextures
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::ProBuilderMesh::*)(::ArrayWrapper<UnityEngine::ProBuilder::SharedVertex*>)>(&UnityEngine::ProBuilder::ProBuilderMesh::set_sharedTextures)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::ProBuilderMesh::*)(::ArrayW<UnityEngine::ProBuilder::SharedVertex*>)>(&UnityEngine::ProBuilder::ProBuilderMesh::set_sharedTextures)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "SharedVertex"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ProBuilderMesh*), "set_sharedTextures", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1105,7 +1118,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ProBuilderMesh::get_positionsInternal
 // Il2CppName: get_positionsInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Vector3> (UnityEngine::ProBuilder::ProBuilderMesh::*)()>(&UnityEngine::ProBuilder::ProBuilderMesh::get_positionsInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Vector3> (UnityEngine::ProBuilder::ProBuilderMesh::*)()>(&UnityEngine::ProBuilder::ProBuilderMesh::get_positionsInternal)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ProBuilderMesh*), "get_positionsInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1113,7 +1126,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ProBuilderMesh::set_positionsInternal
 // Il2CppName: set_positionsInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::ProBuilderMesh::*)(::ArrayWrapper<UnityEngine::Vector3>)>(&UnityEngine::ProBuilder::ProBuilderMesh::set_positionsInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::ProBuilderMesh::*)(::ArrayW<UnityEngine::Vector3>)>(&UnityEngine::ProBuilder::ProBuilderMesh::set_positionsInternal)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ProBuilderMesh*), "set_positionsInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1147,7 +1160,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ProBuilderMesh::get_normalsInternal
 // Il2CppName: get_normalsInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Vector3> (UnityEngine::ProBuilder::ProBuilderMesh::*)()>(&UnityEngine::ProBuilder::ProBuilderMesh::get_normalsInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Vector3> (UnityEngine::ProBuilder::ProBuilderMesh::*)()>(&UnityEngine::ProBuilder::ProBuilderMesh::get_normalsInternal)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ProBuilderMesh*), "get_normalsInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1155,7 +1168,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ProBuilderMesh::set_normalsInternal
 // Il2CppName: set_normalsInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::ProBuilderMesh::*)(::ArrayWrapper<UnityEngine::Vector3>)>(&UnityEngine::ProBuilder::ProBuilderMesh::set_normalsInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::ProBuilderMesh::*)(::ArrayW<UnityEngine::Vector3>)>(&UnityEngine::ProBuilder::ProBuilderMesh::set_normalsInternal)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ProBuilderMesh*), "set_normalsInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1164,7 +1177,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ProBuilderMesh::get_colorsInternal
 // Il2CppName: get_colorsInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Color> (UnityEngine::ProBuilder::ProBuilderMesh::*)()>(&UnityEngine::ProBuilder::ProBuilderMesh::get_colorsInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Color> (UnityEngine::ProBuilder::ProBuilderMesh::*)()>(&UnityEngine::ProBuilder::ProBuilderMesh::get_colorsInternal)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ProBuilderMesh*), "get_colorsInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1172,7 +1185,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ProBuilderMesh::set_colorsInternal
 // Il2CppName: set_colorsInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::ProBuilderMesh::*)(::ArrayWrapper<UnityEngine::Color>)>(&UnityEngine::ProBuilder::ProBuilderMesh::set_colorsInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::ProBuilderMesh::*)(::ArrayW<UnityEngine::Color>)>(&UnityEngine::ProBuilder::ProBuilderMesh::set_colorsInternal)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Color"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ProBuilderMesh*), "set_colorsInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1215,7 +1228,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ProBuilderMesh::get_tangentsInternal
 // Il2CppName: get_tangentsInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Vector4> (UnityEngine::ProBuilder::ProBuilderMesh::*)()>(&UnityEngine::ProBuilder::ProBuilderMesh::get_tangentsInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Vector4> (UnityEngine::ProBuilder::ProBuilderMesh::*)()>(&UnityEngine::ProBuilder::ProBuilderMesh::get_tangentsInternal)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ProBuilderMesh*), "get_tangentsInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1223,7 +1236,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ProBuilderMesh::set_tangentsInternal
 // Il2CppName: set_tangentsInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::ProBuilderMesh::*)(::ArrayWrapper<UnityEngine::Vector4>)>(&UnityEngine::ProBuilder::ProBuilderMesh::set_tangentsInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::ProBuilderMesh::*)(::ArrayW<UnityEngine::Vector4>)>(&UnityEngine::ProBuilder::ProBuilderMesh::set_tangentsInternal)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ProBuilderMesh*), "set_tangentsInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1232,7 +1245,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ProBuilderMesh::get_texturesInternal
 // Il2CppName: get_texturesInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Vector2> (UnityEngine::ProBuilder::ProBuilderMesh::*)()>(&UnityEngine::ProBuilder::ProBuilderMesh::get_texturesInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Vector2> (UnityEngine::ProBuilder::ProBuilderMesh::*)()>(&UnityEngine::ProBuilder::ProBuilderMesh::get_texturesInternal)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ProBuilderMesh*), "get_texturesInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1240,7 +1253,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ProBuilderMesh::set_texturesInternal
 // Il2CppName: set_texturesInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::ProBuilderMesh::*)(::ArrayWrapper<UnityEngine::Vector2>)>(&UnityEngine::ProBuilder::ProBuilderMesh::set_texturesInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::ProBuilderMesh::*)(::ArrayW<UnityEngine::Vector2>)>(&UnityEngine::ProBuilder::ProBuilderMesh::set_texturesInternal)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ProBuilderMesh*), "set_texturesInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1436,7 +1449,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ProBuilderMesh::get_selectedFacesInternal
 // Il2CppName: get_selectedFacesInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::ProBuilder::Face*> (UnityEngine::ProBuilder::ProBuilderMesh::*)()>(&UnityEngine::ProBuilder::ProBuilderMesh::get_selectedFacesInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::ProBuilder::Face*> (UnityEngine::ProBuilder::ProBuilderMesh::*)()>(&UnityEngine::ProBuilder::ProBuilderMesh::get_selectedFacesInternal)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ProBuilderMesh*), "get_selectedFacesInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1444,7 +1457,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ProBuilderMesh::set_selectedFacesInternal
 // Il2CppName: set_selectedFacesInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::ProBuilderMesh::*)(::ArrayWrapper<UnityEngine::ProBuilder::Face*>)>(&UnityEngine::ProBuilder::ProBuilderMesh::set_selectedFacesInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::ProBuilderMesh::*)(::ArrayW<UnityEngine::ProBuilder::Face*>)>(&UnityEngine::ProBuilder::ProBuilderMesh::set_selectedFacesInternal)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Face"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ProBuilderMesh*), "set_selectedFacesInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1453,7 +1466,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ProBuilderMesh::get_selectedFaceIndicesInternal
 // Il2CppName: get_selectedFaceIndicesInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<int> (UnityEngine::ProBuilder::ProBuilderMesh::*)()>(&UnityEngine::ProBuilder::ProBuilderMesh::get_selectedFaceIndicesInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int> (UnityEngine::ProBuilder::ProBuilderMesh::*)()>(&UnityEngine::ProBuilder::ProBuilderMesh::get_selectedFaceIndicesInternal)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ProBuilderMesh*), "get_selectedFaceIndicesInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1461,7 +1474,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ProBuilderMesh::set_selectedFaceIndicesInternal
 // Il2CppName: set_selectedFaceIndicesInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::ProBuilderMesh::*)(::ArrayWrapper<int>)>(&UnityEngine::ProBuilder::ProBuilderMesh::set_selectedFaceIndicesInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::ProBuilderMesh::*)(::ArrayW<int>)>(&UnityEngine::ProBuilder::ProBuilderMesh::set_selectedFaceIndicesInternal)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ProBuilderMesh*), "set_selectedFaceIndicesInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1470,7 +1483,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ProBuilderMesh::get_selectedEdgesInternal
 // Il2CppName: get_selectedEdgesInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::ProBuilder::Edge> (UnityEngine::ProBuilder::ProBuilderMesh::*)()>(&UnityEngine::ProBuilder::ProBuilderMesh::get_selectedEdgesInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::ProBuilder::Edge> (UnityEngine::ProBuilder::ProBuilderMesh::*)()>(&UnityEngine::ProBuilder::ProBuilderMesh::get_selectedEdgesInternal)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ProBuilderMesh*), "get_selectedEdgesInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1478,7 +1491,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ProBuilderMesh::set_selectedEdgesInternal
 // Il2CppName: set_selectedEdgesInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::ProBuilderMesh::*)(::ArrayWrapper<UnityEngine::ProBuilder::Edge>)>(&UnityEngine::ProBuilder::ProBuilderMesh::set_selectedEdgesInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::ProBuilderMesh::*)(::ArrayW<UnityEngine::ProBuilder::Edge>)>(&UnityEngine::ProBuilder::ProBuilderMesh::set_selectedEdgesInternal)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Edge"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ProBuilderMesh*), "set_selectedEdgesInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1487,7 +1500,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ProBuilderMesh::get_selectedIndexesInternal
 // Il2CppName: get_selectedIndexesInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<int> (UnityEngine::ProBuilder::ProBuilderMesh::*)()>(&UnityEngine::ProBuilder::ProBuilderMesh::get_selectedIndexesInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int> (UnityEngine::ProBuilder::ProBuilderMesh::*)()>(&UnityEngine::ProBuilder::ProBuilderMesh::get_selectedIndexesInternal)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ProBuilderMesh*), "get_selectedIndexesInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1495,7 +1508,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ProBuilderMesh::set_selectedIndexesInternal
 // Il2CppName: set_selectedIndexesInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::ProBuilderMesh::*)(::ArrayWrapper<int>)>(&UnityEngine::ProBuilder::ProBuilderMesh::set_selectedIndexesInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::ProBuilderMesh::*)(::ArrayW<int>)>(&UnityEngine::ProBuilder::ProBuilderMesh::set_selectedIndexesInternal)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ProBuilderMesh*), "set_selectedIndexesInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1635,7 +1648,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ProBuilderMesh::GetVertices
 // Il2CppName: GetVertices
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::ProBuilder::Vertex*> (UnityEngine::ProBuilder::ProBuilderMesh::*)(System::Collections::Generic::IList_1<int>*)>(&UnityEngine::ProBuilder::ProBuilderMesh::GetVertices)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::ProBuilder::Vertex*> (UnityEngine::ProBuilder::ProBuilderMesh::*)(System::Collections::Generic::IList_1<int>*)>(&UnityEngine::ProBuilder::ProBuilderMesh::GetVertices)> {
   static const MethodInfo* get() {
     static auto* indexes = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ProBuilderMesh*), "GetVertices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{indexes});
@@ -1654,7 +1667,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ProBuilderMesh::GetNormals
 // Il2CppName: GetNormals
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Vector3> (UnityEngine::ProBuilder::ProBuilderMesh::*)()>(&UnityEngine::ProBuilder::ProBuilderMesh::GetNormals)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Vector3> (UnityEngine::ProBuilder::ProBuilderMesh::*)()>(&UnityEngine::ProBuilder::ProBuilderMesh::GetNormals)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ProBuilderMesh*), "GetNormals", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1662,7 +1675,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ProBuilderMesh::GetColors
 // Il2CppName: GetColors
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Color> (UnityEngine::ProBuilder::ProBuilderMesh::*)()>(&UnityEngine::ProBuilder::ProBuilderMesh::GetColors)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Color> (UnityEngine::ProBuilder::ProBuilderMesh::*)()>(&UnityEngine::ProBuilder::ProBuilderMesh::GetColors)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ProBuilderMesh*), "GetColors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1670,7 +1683,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ProBuilderMesh::GetTangents
 // Il2CppName: GetTangents
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Vector4> (UnityEngine::ProBuilder::ProBuilderMesh::*)()>(&UnityEngine::ProBuilder::ProBuilderMesh::GetTangents)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Vector4> (UnityEngine::ProBuilder::ProBuilderMesh::*)()>(&UnityEngine::ProBuilder::ProBuilderMesh::GetTangents)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ProBuilderMesh*), "GetTangents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1747,7 +1760,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ProBuilderMesh::CreateInstanceWithPoints
 // Il2CppName: CreateInstanceWithPoints
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::ProBuilderMesh* (*)(::ArrayWrapper<UnityEngine::Vector3>)>(&UnityEngine::ProBuilder::ProBuilderMesh::CreateInstanceWithPoints)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::ProBuilder::ProBuilderMesh* (*)(::ArrayW<UnityEngine::Vector3>)>(&UnityEngine::ProBuilder::ProBuilderMesh::CreateInstanceWithPoints)> {
   static const MethodInfo* get() {
     static auto* positions = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ProBuilderMesh*), "CreateInstanceWithPoints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{positions});
@@ -1787,7 +1800,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ProBuilderMesh::GeometryWithPoints
 // Il2CppName: GeometryWithPoints
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::ProBuilderMesh::*)(::ArrayWrapper<UnityEngine::Vector3>)>(&UnityEngine::ProBuilder::ProBuilderMesh::GeometryWithPoints)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ProBuilder::ProBuilderMesh::*)(::ArrayW<UnityEngine::Vector3>)>(&UnityEngine::ProBuilder::ProBuilderMesh::GeometryWithPoints)> {
   static const MethodInfo* get() {
     static auto* points = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ProBuilderMesh*), "GeometryWithPoints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{points});
@@ -2059,7 +2072,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::ProBuilderMesh::GetSelectedFaces
 // Il2CppName: GetSelectedFaces
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::ProBuilder::Face*> (UnityEngine::ProBuilder::ProBuilderMesh::*)()>(&UnityEngine::ProBuilder::ProBuilderMesh::GetSelectedFaces)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::ProBuilder::Face*> (UnityEngine::ProBuilder::ProBuilderMesh::*)()>(&UnityEngine::ProBuilder::ProBuilderMesh::GetSelectedFaces)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::ProBuilderMesh*), "GetSelectedFaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

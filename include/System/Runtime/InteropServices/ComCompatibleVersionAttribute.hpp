@@ -22,6 +22,11 @@ namespace System::Runtime::InteropServices {
   // [AttributeUsageAttribute] Offset: E60C0C
   class ComCompatibleVersionAttribute : public System::Attribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Int32 _major
     // Size: 0x4
     // Offset: 0x10
@@ -46,6 +51,7 @@ namespace System::Runtime::InteropServices {
     int revision;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: System.Int32 _major
     int& dyn__major();
     // Get instance field reference: System.Int32 _minor

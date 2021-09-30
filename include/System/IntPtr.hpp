@@ -33,12 +33,18 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5CC4C
   struct IntPtr/*, public System::ValueType, public System::Runtime::Serialization::ISerializable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Void* m_value
     // Size: 0x8
     // Offset: 0x0
     void* m_value;
     // Field size check
     static_assert(sizeof(void*) == 0x8);
+    public:
     // Creating value type constructor for type: IntPtr
     constexpr IntPtr(void* m_value_ = {}) noexcept : m_value{m_value_} {}
     // Creating interface conversion operator: operator System::ValueType

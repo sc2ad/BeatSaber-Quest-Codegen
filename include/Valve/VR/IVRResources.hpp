@@ -25,6 +25,11 @@ namespace Valve::VR {
     class _LoadSharedResource;
     // Nested type: Valve::VR::IVRResources::_GetResourceFullPath
     class _GetResourceFullPath;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // Valve.VR.IVRResources/Valve.VR._LoadSharedResource LoadSharedResource
     // Size: 0x8
     // Offset: 0x0
@@ -37,6 +42,7 @@ namespace Valve::VR {
     Valve::VR::IVRResources::_GetResourceFullPath* GetResourceFullPath;
     // Field size check
     static_assert(sizeof(Valve::VR::IVRResources::_GetResourceFullPath*) == 0x8);
+    public:
     // Creating value type constructor for type: IVRResources
     constexpr IVRResources(Valve::VR::IVRResources::_LoadSharedResource* LoadSharedResource_ = {}, Valve::VR::IVRResources::_GetResourceFullPath* GetResourceFullPath_ = {}) noexcept : LoadSharedResource{LoadSharedResource_}, GetResourceFullPath{GetResourceFullPath_} {}
     // Creating interface conversion operator: operator System::ValueType

@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -36,24 +37,30 @@ namespace GlobalNamespace {
     class CuttableBySaberSortParams;
     // Nested type: GlobalNamespace::NoteCutter::CuttableBySaberSortParamsComparer
     class CuttableBySaberSortParamsComparer;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly UnityEngine.Collider[] _colliders
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<UnityEngine::Collider*> colliders;
+    ::ArrayW<UnityEngine::Collider*> colliders;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Collider*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Collider*>) == 0x8);
     // private readonly NoteCutter/CuttableBySaberSortParams[] _cuttableBySaberSortParams
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<GlobalNamespace::NoteCutter::CuttableBySaberSortParams*> cuttableBySaberSortParams;
+    ::ArrayW<GlobalNamespace::NoteCutter::CuttableBySaberSortParams*> cuttableBySaberSortParams;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::NoteCutter::CuttableBySaberSortParams*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::NoteCutter::CuttableBySaberSortParams*>) == 0x8);
     // private readonly NoteCutter/CuttableBySaberSortParamsComparer _comparer
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::NoteCutter::CuttableBySaberSortParamsComparer* comparer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::NoteCutter::CuttableBySaberSortParamsComparer*) == 0x8);
+    public:
     // static field const value: static private System.Int32 kMaxNumberOfColliders
     static constexpr const int kMaxNumberOfColliders = 16;
     // Get static field: static private System.Int32 kMaxNumberOfColliders
@@ -61,9 +68,9 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kMaxNumberOfColliders
     static void _set_kMaxNumberOfColliders(int value);
     // Get instance field reference: private readonly UnityEngine.Collider[] _colliders
-    ::ArrayWrapper<UnityEngine::Collider*>& dyn__colliders();
+    ::ArrayW<UnityEngine::Collider*>& dyn__colliders();
     // Get instance field reference: private readonly NoteCutter/CuttableBySaberSortParams[] _cuttableBySaberSortParams
-    ::ArrayWrapper<GlobalNamespace::NoteCutter::CuttableBySaberSortParams*>& dyn__cuttableBySaberSortParams();
+    ::ArrayW<GlobalNamespace::NoteCutter::CuttableBySaberSortParams*>& dyn__cuttableBySaberSortParams();
     // Get instance field reference: private readonly NoteCutter/CuttableBySaberSortParamsComparer _comparer
     GlobalNamespace::NoteCutter::CuttableBySaberSortParamsComparer*& dyn__comparer();
     // public System.Void Cut(Saber saber)

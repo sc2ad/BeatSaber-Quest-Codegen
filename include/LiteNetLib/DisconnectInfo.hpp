@@ -28,6 +28,11 @@ namespace LiteNetLib {
   // [TokenAttribute] Offset: FFFFFFFF
   struct DisconnectInfo/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public LiteNetLib.DisconnectReason Reason
     // Size: 0x4
     // Offset: 0x0
@@ -46,6 +51,7 @@ namespace LiteNetLib {
     LiteNetLib::NetPacketReader* AdditionalData;
     // Field size check
     static_assert(sizeof(LiteNetLib::NetPacketReader*) == 0x8);
+    public:
     // Creating value type constructor for type: DisconnectInfo
     constexpr DisconnectInfo(LiteNetLib::DisconnectReason Reason_ = {}, System::Net::Sockets::SocketError SocketErrorCode_ = {}, LiteNetLib::NetPacketReader* AdditionalData_ = {}) noexcept : Reason{Reason_}, SocketErrorCode{SocketErrorCode_}, AdditionalData{AdditionalData_} {}
     // Creating interface conversion operator: operator System::ValueType

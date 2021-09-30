@@ -34,6 +34,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class TextOnlyTableCell : public HMUI::TableCell {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Color _selectedHighlightColor
     // Size: 0x10
     // Offset: 0x50
@@ -58,6 +63,7 @@ namespace GlobalNamespace {
     HMUI::ImageView* highlightImage;
     // Field size check
     static_assert(sizeof(HMUI::ImageView*) == 0x8);
+    public:
     // Get instance field reference: private UnityEngine.Color _selectedHighlightColor
     UnityEngine::Color& dyn__selectedHighlightColor();
     // Get instance field reference: private TMPro.TextMeshProUGUI _text

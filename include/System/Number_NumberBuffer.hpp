@@ -20,6 +20,11 @@ namespace System {
   // [FriendAccessAllowedAttribute] Offset: E5C45C
   struct Number::NumberBuffer/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Byte* baseAddress
     // Size: 0x8
     // Offset: 0x0
@@ -50,6 +55,7 @@ namespace System {
     bool sign;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating value type constructor for type: NumberBuffer
     constexpr NumberBuffer(uint8_t* baseAddress_ = {}, ::Il2CppChar* digits_ = {}, int precision_ = {}, int scale_ = {}, bool sign_ = {}) noexcept : baseAddress{baseAddress_}, digits{digits_}, precision{precision_}, scale{scale_}, sign{sign_} {}
     // Creating interface conversion operator: operator System::ValueType

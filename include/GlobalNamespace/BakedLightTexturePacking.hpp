@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -44,9 +45,9 @@ namespace GlobalNamespace {
     static void _set_kBakedLightTexturePackingShaderName(::Il2CppString* value);
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF13870
     // Get static field: static private readonly System.Int32[] _texPropertyIds
-    static ::ArrayWrapper<int> _get__texPropertyIds();
+    static ::ArrayW<int> _get__texPropertyIds();
     // Set static field: static private readonly System.Int32[] _texPropertyIds
-    static void _set__texPropertyIds(::ArrayWrapper<int> value);
+    static void _set__texPropertyIds(::ArrayW<int> value);
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF13880
     // Get static field: static private UnityEngine.Material _material
     static UnityEngine::Material* _get__material();

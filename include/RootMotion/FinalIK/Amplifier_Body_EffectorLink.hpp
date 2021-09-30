@@ -22,6 +22,11 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class Amplifier::Body::EffectorLink : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [TooltipAttribute] Offset: 0xEF7E54
     // public RootMotion.FinalIK.FullBodyBipedEffector effector
     // Size: 0x4
@@ -36,6 +41,7 @@ namespace RootMotion::FinalIK {
     float weight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: public RootMotion.FinalIK.FullBodyBipedEffector effector
     RootMotion::FinalIK::FullBodyBipedEffector& dyn_effector();
     // Get instance field reference: public System.Single weight

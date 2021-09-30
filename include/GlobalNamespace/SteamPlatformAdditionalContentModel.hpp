@@ -63,6 +63,11 @@ namespace GlobalNamespace {
     struct $OpenLevelPackProductStoreAsync$d__10;
     // Nested type: GlobalNamespace::SteamPlatformAdditionalContentModel::$CheckForNewEntitlementsAsync$d__14
     struct $CheckForNewEntitlementsAsync$d__14;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xF01464
     // private SteamLevelProductsModelSO _steamLevelProductsModel
     // Size: 0x8
@@ -94,6 +99,7 @@ namespace GlobalNamespace {
     bool isDataValid;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private SteamLevelProductsModelSO _steamLevelProductsModel
     GlobalNamespace::SteamLevelProductsModelSO*& dyn__steamLevelProductsModel();
     // Get instance field reference: private System.Collections.Generic.HashSet`1<System.UInt32> _entitlementsAppIds

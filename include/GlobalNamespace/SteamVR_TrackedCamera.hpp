@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -28,17 +29,17 @@ namespace GlobalNamespace {
     // Nested type: GlobalNamespace::SteamVR_TrackedCamera::VideoStream
     class VideoStream;
     // Get static field: static private SteamVR_TrackedCamera/VideoStreamTexture[] distorted
-    static ::ArrayWrapper<GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture*> _get_distorted();
+    static ::ArrayW<GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture*> _get_distorted();
     // Set static field: static private SteamVR_TrackedCamera/VideoStreamTexture[] distorted
-    static void _set_distorted(::ArrayWrapper<GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture*> value);
+    static void _set_distorted(::ArrayW<GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture*> value);
     // Get static field: static private SteamVR_TrackedCamera/VideoStreamTexture[] undistorted
-    static ::ArrayWrapper<GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture*> _get_undistorted();
+    static ::ArrayW<GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture*> _get_undistorted();
     // Set static field: static private SteamVR_TrackedCamera/VideoStreamTexture[] undistorted
-    static void _set_undistorted(::ArrayWrapper<GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture*> value);
+    static void _set_undistorted(::ArrayW<GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture*> value);
     // Get static field: static private SteamVR_TrackedCamera/VideoStream[] videostreams
-    static ::ArrayWrapper<GlobalNamespace::SteamVR_TrackedCamera::VideoStream*> _get_videostreams();
+    static ::ArrayW<GlobalNamespace::SteamVR_TrackedCamera::VideoStream*> _get_videostreams();
     // Set static field: static private SteamVR_TrackedCamera/VideoStream[] videostreams
-    static void _set_videostreams(::ArrayWrapper<GlobalNamespace::SteamVR_TrackedCamera::VideoStream*> value);
+    static void _set_videostreams(::ArrayW<GlobalNamespace::SteamVR_TrackedCamera::VideoStream*> value);
     // static public SteamVR_TrackedCamera/VideoStreamTexture Distorted(System.Int32 deviceIndex)
     // Offset: 0x187F3E4
     static GlobalNamespace::SteamVR_TrackedCamera::VideoStreamTexture* Distorted(int deviceIndex);

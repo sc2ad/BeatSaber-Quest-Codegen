@@ -16,6 +16,11 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HAPI_ParmChoiceInfo/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 parentParmId
     // Size: 0x4
     // Offset: 0x0
@@ -34,6 +39,7 @@ namespace HoudiniEngineUnity {
     int valueSH;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: HAPI_ParmChoiceInfo
     constexpr HAPI_ParmChoiceInfo(int parentParmId_ = {}, int labelSH_ = {}, int valueSH_ = {}) noexcept : parentParmId{parentParmId_}, labelSH{labelSH_}, valueSH{valueSH_} {}
     // Creating interface conversion operator: operator System::ValueType

@@ -21,6 +21,11 @@ namespace System::Net::Http::Headers {
   // [TokenAttribute] Offset: FFFFFFFF
   class ContentRangeHeaderValue : public ::Il2CppObject/*, public System::ICloneable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String unit
     // Size: 0x8
     // Offset: 0x10
@@ -39,6 +44,7 @@ namespace System::Net::Http::Headers {
     // Size: 0xFFFFFFFF
     // Offset: 0x38
     System::Nullable_1<int64_t> To;
+    public:
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);

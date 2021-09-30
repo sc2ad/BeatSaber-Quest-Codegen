@@ -27,6 +27,11 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   // [TokenAttribute] Offset: FFFFFFFF
   class ECGost3410Parameters : public Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier _publicKeyParamSet
     // Size: 0x8
     // Offset: 0x48
@@ -45,6 +50,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionParamSet;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::DerObjectIdentifier*) == 0x8);
+    public:
     // Deleting conversion operator: operator Org::BouncyCastle::Asn1::DerObjectIdentifier*
     constexpr operator Org::BouncyCastle::Asn1::DerObjectIdentifier*() const noexcept = delete;
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier _publicKeyParamSet

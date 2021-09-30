@@ -31,6 +31,11 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E902D8
   class GUIStyleState : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.IntPtr m_Ptr
     // Size: 0x8
     // Offset: 0x10
@@ -43,6 +48,7 @@ namespace UnityEngine {
     UnityEngine::GUIStyle* m_SourceStyle;
     // Field size check
     static_assert(sizeof(UnityEngine::GUIStyle*) == 0x8);
+    public:
     // Get instance field reference: System.IntPtr m_Ptr
     System::IntPtr& dyn_m_Ptr();
     // Get instance field reference: private readonly UnityEngine.GUIStyle m_SourceStyle

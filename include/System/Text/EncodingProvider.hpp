@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text
@@ -31,9 +32,9 @@ namespace System::Text {
     // Set static field: static private System.Object s_InternalSyncObject
     static void _set_s_InternalSyncObject(::Il2CppObject* value);
     // Get static field: static private System.Text.EncodingProvider[] s_providers
-    static ::ArrayWrapper<System::Text::EncodingProvider*> _get_s_providers();
+    static ::ArrayW<System::Text::EncodingProvider*> _get_s_providers();
     // Set static field: static private System.Text.EncodingProvider[] s_providers
-    static void _set_s_providers(::ArrayWrapper<System::Text::EncodingProvider*> value);
+    static void _set_s_providers(::ArrayW<System::Text::EncodingProvider*> value);
     // static private System.Void .cctor()
     // Offset: 0x1F12CF4
     static void _cctor();

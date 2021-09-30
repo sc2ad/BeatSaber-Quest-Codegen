@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -40,10 +41,10 @@ namespace System::Net {
     }
     // public System.Void Invoke(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
     // Offset: 0x1582D38
-    void Invoke(::ArrayWrapper<uint8_t> buffer, int offset, int size);
+    void Invoke(::ArrayW<uint8_t> buffer, int offset, int size);
     // public System.IAsyncResult BeginInvoke(System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.AsyncCallback callback, System.Object object)
     // Offset: 0x15823D0
-    System::IAsyncResult* BeginInvoke(::ArrayWrapper<uint8_t> buffer, int offset, int size, System::AsyncCallback* callback, ::Il2CppObject* object);
+    System::IAsyncResult* BeginInvoke(::ArrayW<uint8_t> buffer, int offset, int size, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
     // Offset: 0x15825A4
     void EndInvoke(System::IAsyncResult* result);
@@ -59,7 +60,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::FtpDataStream::WriteDelegate*, "System.Net",
 // Writing MetadataGetter for method: System::Net::FtpDataStream::WriteDelegate::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::FtpDataStream::WriteDelegate::*)(::ArrayWrapper<uint8_t>, int, int)>(&System::Net::FtpDataStream::WriteDelegate::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::FtpDataStream::WriteDelegate::*)(::ArrayW<uint8_t>, int, int)>(&System::Net::FtpDataStream::WriteDelegate::Invoke)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -70,7 +71,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::FtpDataStream::WriteDelegate::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::FtpDataStream::WriteDelegate::*)(::ArrayWrapper<uint8_t>, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::FtpDataStream::WriteDelegate::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::FtpDataStream::WriteDelegate::*)(::ArrayW<uint8_t>, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::FtpDataStream::WriteDelegate::BeginInvoke)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

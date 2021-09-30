@@ -20,6 +20,11 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class GlobalJavaObjectRef : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean m_disposed
     // Size: 0x1
     // Offset: 0x10
@@ -34,6 +39,7 @@ namespace UnityEngine {
     System::IntPtr m_jobject;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
+    public:
     // Get instance field reference: private System.Boolean m_disposed
     bool& dyn_m_disposed();
     // Get instance field reference: protected System.IntPtr m_jobject

@@ -22,6 +22,11 @@ namespace UnityEngine::Bindings {
   // [AttributeUsageAttribute] Offset: E6DA9C
   class NativeConditionalAttribute : public System::Attribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [DebuggerBrowsableAttribute] Offset: 0xE6DFE8
     // private System.String <Condition>k__BackingField
     // Size: 0x8
@@ -36,6 +41,7 @@ namespace UnityEngine::Bindings {
     bool Enabled;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private System.String <Condition>k__BackingField
     ::Il2CppString*& dyn_$Condition$k__BackingField();
     // Get instance field reference: private System.Boolean <Enabled>k__BackingField

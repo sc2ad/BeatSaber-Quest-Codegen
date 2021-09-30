@@ -50,6 +50,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class StandardLevelNoTransitionInstaller : public Zenject::NoTransitionInstaller/*, public GlobalNamespace::INoTransitionColorSchemeProvider*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private BeatmapLevelSO _beatmapLevel
     // Size: 0x8
     // Offset: 0x18
@@ -121,6 +126,7 @@ namespace GlobalNamespace {
     GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* scenesTransitionSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::INoTransitionColorSchemeProvider
     operator GlobalNamespace::INoTransitionColorSchemeProvider() noexcept {
       return *reinterpret_cast<GlobalNamespace::INoTransitionColorSchemeProvider*>(this);

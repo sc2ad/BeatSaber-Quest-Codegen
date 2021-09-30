@@ -6,6 +6,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -25,12 +26,17 @@ namespace UnityEngine::Tilemaps {
   // [NativeTypeAttribute] Offset: ED2C20
   struct TileAnimationData/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Sprite[] m_AnimatedSprites
     // Size: 0x8
     // Offset: 0x0
-    ::ArrayWrapper<UnityEngine::Sprite*> m_AnimatedSprites;
+    ::ArrayW<UnityEngine::Sprite*> m_AnimatedSprites;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Sprite*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Sprite*>) == 0x8);
     // private System.Single m_AnimationSpeed
     // Size: 0x4
     // Offset: 0x8
@@ -43,14 +49,15 @@ namespace UnityEngine::Tilemaps {
     float m_AnimationStartTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: TileAnimationData
-    constexpr TileAnimationData(::ArrayWrapper<UnityEngine::Sprite*> m_AnimatedSprites_ = ::ArrayWrapper<UnityEngine::Sprite*>(nullptr), float m_AnimationSpeed_ = {}, float m_AnimationStartTime_ = {}) noexcept : m_AnimatedSprites{m_AnimatedSprites_}, m_AnimationSpeed{m_AnimationSpeed_}, m_AnimationStartTime{m_AnimationStartTime_} {}
+    constexpr TileAnimationData(::ArrayW<UnityEngine::Sprite*> m_AnimatedSprites_ = ::ArrayW<UnityEngine::Sprite*>(nullptr), float m_AnimationSpeed_ = {}, float m_AnimationStartTime_ = {}) noexcept : m_AnimatedSprites{m_AnimatedSprites_}, m_AnimationSpeed{m_AnimationSpeed_}, m_AnimationStartTime{m_AnimationStartTime_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // Get instance field reference: private UnityEngine.Sprite[] m_AnimatedSprites
-    ::ArrayWrapper<UnityEngine::Sprite*>& dyn_m_AnimatedSprites();
+    ::ArrayW<UnityEngine::Sprite*>& dyn_m_AnimatedSprites();
     // Get instance field reference: private System.Single m_AnimationSpeed
     float& dyn_m_AnimationSpeed();
     // Get instance field reference: private System.Single m_AnimationStartTime

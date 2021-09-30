@@ -20,6 +20,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class AppStaticSettingsSO : public UnityEngine::ScriptableObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Boolean requirePrivacyPolicy
     // Size: 0x1
     // Offset: 0x18
@@ -44,6 +49,7 @@ namespace GlobalNamespace {
     bool disableMultiplayer;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.Boolean requirePrivacyPolicy

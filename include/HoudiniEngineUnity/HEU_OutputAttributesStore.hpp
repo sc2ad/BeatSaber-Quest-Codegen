@@ -29,12 +29,18 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_OutputAttributesStore : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private HoudiniEngineUnity.HEU_OutputAttributeDictionary _attributes
     // Size: 0x8
     // Offset: 0x18
     HoudiniEngineUnity::HEU_OutputAttributeDictionary* attributes;
     // Field size check
     static_assert(sizeof(HoudiniEngineUnity::HEU_OutputAttributeDictionary*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private HoudiniEngineUnity.HEU_OutputAttributeDictionary _attributes

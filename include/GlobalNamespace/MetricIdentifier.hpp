@@ -39,6 +39,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::MetricIdentifier::$GetTags$d__13
     class $GetTags$d__13;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly System.String metricName
     // Size: 0x8
     // Offset: 0x0
@@ -65,6 +70,7 @@ namespace GlobalNamespace {
     // Size: 0xFFFFFFFF
     // Offset: 0x38
     System::ValueTuple_2<::Il2CppString*, ::Il2CppString*> tag3;
+    public:
     // Creating value type constructor for type: MetricIdentifier
     constexpr MetricIdentifier(::Il2CppString* metricName_ = {}, System::ValueTuple_2<::Il2CppString*, ::Il2CppString*> tag0_ = {}, System::ValueTuple_2<::Il2CppString*, ::Il2CppString*> tag1_ = {}, System::ValueTuple_2<::Il2CppString*, ::Il2CppString*> tag2_ = {}, System::ValueTuple_2<::Il2CppString*, ::Il2CppString*> tag3_ = {}) noexcept : metricName{metricName_}, tag0{tag0_}, tag1{tag1_}, tag2{tag2_}, tag3{tag3_} {}
     // Creating interface conversion operator: operator System::ValueType

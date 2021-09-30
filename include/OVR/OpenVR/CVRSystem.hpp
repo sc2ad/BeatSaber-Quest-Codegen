@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: OVR::OpenVR
@@ -83,12 +84,18 @@ namespace OVR::OpenVR {
     class _GetControllerStateWithPosePacked;
     // Nested type: OVR::OpenVR::CVRSystem::GetControllerStateWithPoseUnion
     struct GetControllerStateWithPoseUnion;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private OVR.OpenVR.IVRSystem FnTable
     // Size: 0x178
     // Offset: 0x10
     OVR::OpenVR::IVRSystem FnTable;
     // Field size check
     static_assert(sizeof(OVR::OpenVR::IVRSystem) == 0x178);
+    public:
     // Creating conversion operator: operator OVR::OpenVR::IVRSystem
     constexpr operator OVR::OpenVR::IVRSystem() const noexcept {
       return FnTable;
@@ -137,7 +144,7 @@ namespace OVR::OpenVR {
     bool SetDisplayVisibility(bool bIsVisibleOnDesktop);
     // public System.Void GetDeviceToAbsoluteTrackingPose(OVR.OpenVR.ETrackingUniverseOrigin eOrigin, System.Single fPredictedSecondsToPhotonsFromNow, OVR.OpenVR.TrackedDevicePose_t[] pTrackedDevicePoseArray)
     // Offset: 0x176E174
-    void GetDeviceToAbsoluteTrackingPose(OVR::OpenVR::ETrackingUniverseOrigin eOrigin, float fPredictedSecondsToPhotonsFromNow, ::ArrayWrapper<OVR::OpenVR::TrackedDevicePose_t> pTrackedDevicePoseArray);
+    void GetDeviceToAbsoluteTrackingPose(OVR::OpenVR::ETrackingUniverseOrigin eOrigin, float fPredictedSecondsToPhotonsFromNow, ::ArrayW<OVR::OpenVR::TrackedDevicePose_t> pTrackedDevicePoseArray);
     // public System.Void ResetSeatedZeroPose()
     // Offset: 0x176E19C
     void ResetSeatedZeroPose();
@@ -149,7 +156,7 @@ namespace OVR::OpenVR {
     OVR::OpenVR::HmdMatrix34_t GetRawZeroPoseToStandingAbsoluteTrackingPose();
     // public System.UInt32 GetSortedTrackedDeviceIndicesOfClass(OVR.OpenVR.ETrackedDeviceClass eTrackedDeviceClass, System.UInt32[] punTrackedDeviceIndexArray, System.UInt32 unRelativeToTrackedDeviceIndex)
     // Offset: 0x176E1F0
-    uint GetSortedTrackedDeviceIndicesOfClass(OVR::OpenVR::ETrackedDeviceClass eTrackedDeviceClass, ::ArrayWrapper<uint> punTrackedDeviceIndexArray, uint unRelativeToTrackedDeviceIndex);
+    uint GetSortedTrackedDeviceIndicesOfClass(OVR::OpenVR::ETrackedDeviceClass eTrackedDeviceClass, ::ArrayW<uint> punTrackedDeviceIndexArray, uint unRelativeToTrackedDeviceIndex);
     // public OVR.OpenVR.EDeviceActivityLevel GetTrackedDeviceActivityLevel(System.UInt32 unDeviceId)
     // Offset: 0x176E21C
     OVR::OpenVR::EDeviceActivityLevel GetTrackedDeviceActivityLevel(uint unDeviceId);
@@ -367,7 +374,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::
 // Writing MetadataGetter for method: OVR::OpenVR::CVRSystem::GetDeviceToAbsoluteTrackingPose
 // Il2CppName: GetDeviceToAbsoluteTrackingPose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRSystem::*)(OVR::OpenVR::ETrackingUniverseOrigin, float, ::ArrayWrapper<OVR::OpenVR::TrackedDevicePose_t>)>(&OVR::OpenVR::CVRSystem::GetDeviceToAbsoluteTrackingPose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::CVRSystem::*)(OVR::OpenVR::ETrackingUniverseOrigin, float, ::ArrayW<OVR::OpenVR::TrackedDevicePose_t>)>(&OVR::OpenVR::CVRSystem::GetDeviceToAbsoluteTrackingPose)> {
   static const MethodInfo* get() {
     static auto* eOrigin = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "ETrackingUniverseOrigin")->byval_arg;
     static auto* fPredictedSecondsToPhotonsFromNow = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -402,7 +409,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVRSystem::GetSortedTrackedDeviceIndicesOfClass
 // Il2CppName: GetSortedTrackedDeviceIndicesOfClass
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::CVRSystem::*)(OVR::OpenVR::ETrackedDeviceClass, ::ArrayWrapper<uint>, uint)>(&OVR::OpenVR::CVRSystem::GetSortedTrackedDeviceIndicesOfClass)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (OVR::OpenVR::CVRSystem::*)(OVR::OpenVR::ETrackedDeviceClass, ::ArrayW<uint>, uint)>(&OVR::OpenVR::CVRSystem::GetSortedTrackedDeviceIndicesOfClass)> {
   static const MethodInfo* get() {
     static auto* eTrackedDeviceClass = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "ETrackedDeviceClass")->byval_arg;
     static auto* punTrackedDeviceIndexArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;

@@ -36,6 +36,11 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
   // [TokenAttribute] Offset: FFFFFFFF
   class PbeS2Parameters : public Org::BouncyCastle::Asn1::Asn1Encodable {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Org.BouncyCastle.Asn1.Pkcs.KeyDerivationFunc func
     // Size: 0x8
     // Offset: 0x10
@@ -48,6 +53,7 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* scheme;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme*) == 0x8);
+    public:
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.Pkcs.KeyDerivationFunc func
     Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc*& dyn_func();
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.Pkcs.EncryptionScheme scheme

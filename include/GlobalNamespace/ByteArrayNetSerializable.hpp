@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: LiteNetLib::Utils
@@ -29,12 +30,17 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ByteArrayNetSerializable : public ::Il2CppObject/*, public LiteNetLib::Utils::INetSerializable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Byte[] _data
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<uint8_t> data;
+    ::ArrayW<uint8_t> data;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private readonly System.String _name
     // Size: 0x8
     // Offset: 0x18
@@ -61,12 +67,13 @@ namespace GlobalNamespace {
     int maxLength;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating interface conversion operator: operator LiteNetLib::Utils::INetSerializable
     operator LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<LiteNetLib::Utils::INetSerializable*>(this);
     }
     // Get instance field reference: private System.Byte[] _data
-    ::ArrayWrapper<uint8_t>& dyn__data();
+    ::ArrayW<uint8_t>& dyn__data();
     // Get instance field reference: private readonly System.String _name
     ::Il2CppString*& dyn__name();
     // Get instance field reference: private readonly System.Boolean _allowNull
@@ -77,10 +84,10 @@ namespace GlobalNamespace {
     int& dyn__maxLength();
     // public System.Byte[] get_data()
     // Offset: 0x144D4E4
-    ::ArrayWrapper<uint8_t> get_data();
+    ::ArrayW<uint8_t> get_data();
     // public System.Void set_data(System.Byte[] value)
     // Offset: 0x144D4EC
-    void set_data(::ArrayWrapper<uint8_t> value);
+    void set_data(::ArrayW<uint8_t> value);
     // public System.Void .ctor(System.String name, System.Int32 minLength, System.Int32 maxLength, System.Boolean allowNull)
     // Offset: 0x144D448
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -114,7 +121,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ByteArrayNetSerializable*, "", "ByteArra
 // Writing MetadataGetter for method: GlobalNamespace::ByteArrayNetSerializable::get_data
 // Il2CppName: get_data
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (GlobalNamespace::ByteArrayNetSerializable::*)()>(&GlobalNamespace::ByteArrayNetSerializable::get_data)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (GlobalNamespace::ByteArrayNetSerializable::*)()>(&GlobalNamespace::ByteArrayNetSerializable::get_data)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ByteArrayNetSerializable*), "get_data", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -122,7 +129,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: GlobalNamespace::ByteArrayNetSerializable::set_data
 // Il2CppName: set_data
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ByteArrayNetSerializable::*)(::ArrayWrapper<uint8_t>)>(&GlobalNamespace::ByteArrayNetSerializable::set_data)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ByteArrayNetSerializable::*)(::ArrayW<uint8_t>)>(&GlobalNamespace::ByteArrayNetSerializable::set_data)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ByteArrayNetSerializable*), "set_data", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

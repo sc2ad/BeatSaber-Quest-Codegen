@@ -22,12 +22,18 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class Test_LayerMask : public ::Il2CppObject/*, public HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::Test_LayerMask*>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.LayerMask self
     // Size: 0x4
     // Offset: 0x10
     UnityEngine::LayerMask self;
     // Field size check
     static_assert(sizeof(UnityEngine::LayerMask) == 0x4);
+    public:
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::Test_LayerMask*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::Test_LayerMask*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::Test_LayerMask*>*>(this);

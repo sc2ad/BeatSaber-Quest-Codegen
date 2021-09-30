@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Crypto
@@ -21,6 +22,11 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   // [TokenAttribute] Offset: FFFFFFFF
   class ParametersWithID : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Org.BouncyCastle.Crypto.ICipherParameters parameters
     // Size: 0x8
     // Offset: 0x10
@@ -30,22 +36,23 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // private readonly System.Byte[] id
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<uint8_t> id;
+    ::ArrayW<uint8_t> id;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
+    public:
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.ICipherParameters parameters
     Org::BouncyCastle::Crypto::ICipherParameters*& dyn_parameters();
     // Get instance field reference: private readonly System.Byte[] id
-    ::ArrayWrapper<uint8_t>& dyn_id();
+    ::ArrayW<uint8_t>& dyn_id();
     // public Org.BouncyCastle.Crypto.ICipherParameters get_Parameters()
     // Offset: 0x13971B4
     Org::BouncyCastle::Crypto::ICipherParameters* get_Parameters();
     // public System.Byte[] GetID()
     // Offset: 0x13971AC
-    ::ArrayWrapper<uint8_t> GetID();
+    ::ArrayW<uint8_t> GetID();
   }; // Org.BouncyCastle.Crypto.Parameters.ParametersWithID
   #pragma pack(pop)
-  static check_size<sizeof(ParametersWithID), 24 + sizeof(::ArrayWrapper<uint8_t>)> __Org_BouncyCastle_Crypto_Parameters_ParametersWithIDSizeCheck;
+  static check_size<sizeof(ParametersWithID), 24 + sizeof(::ArrayW<uint8_t>)> __Org_BouncyCastle_Crypto_Parameters_ParametersWithIDSizeCheck;
   static_assert(sizeof(ParametersWithID) == 0x20);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"
@@ -62,7 +69,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::ParametersWithID::GetID
 // Il2CppName: GetID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Crypto::Parameters::ParametersWithID::*)()>(&Org::BouncyCastle::Crypto::Parameters::ParametersWithID::GetID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Org::BouncyCastle::Crypto::Parameters::ParametersWithID::*)()>(&Org::BouncyCastle::Crypto::Parameters::ParametersWithID::GetID)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Parameters::ParametersWithID*), "GetID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

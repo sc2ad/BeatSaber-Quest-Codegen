@@ -27,6 +27,11 @@ namespace System::Threading {
   // [TokenAttribute] Offset: FFFFFFFF
   class ThreadPoolWorkQueueThreadLocals : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly System.Threading.ThreadPoolWorkQueue workQueue
     // Size: 0x8
     // Offset: 0x10
@@ -45,6 +50,7 @@ namespace System::Threading {
     System::Random* random;
     // Field size check
     static_assert(sizeof(System::Random*) == 0x8);
+    public:
     // Get static field: static public System.Threading.ThreadPoolWorkQueueThreadLocals threadLocals
     static System::Threading::ThreadPoolWorkQueueThreadLocals* _get_threadLocals();
     // Set static field: static public System.Threading.ThreadPoolWorkQueueThreadLocals threadLocals

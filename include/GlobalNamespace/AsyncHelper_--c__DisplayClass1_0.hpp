@@ -39,12 +39,18 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::AsyncHelper::$$c__DisplayClass1_0::$$RunSync$b__0$d
     struct $$RunSync$b__0$d;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Func`1<System.Threading.Tasks.Task> asyncTask
     // Size: 0x8
     // Offset: 0x10
     System::Func_1<System::Threading::Tasks::Task*>* asyncTask;
     // Field size check
     static_assert(sizeof(System::Func_1<System::Threading::Tasks::Task*>*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Func_1<System::Threading::Tasks::Task*>*
     constexpr operator System::Func_1<System::Threading::Tasks::Task*>*() const noexcept {
       return asyncTask;

@@ -49,6 +49,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::SaberSwingRatingCounter::Pool
     class Pool;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private SaberMovementData _saberMovementData
     // Size: 0x8
     // Offset: 0x10
@@ -179,6 +184,7 @@ namespace GlobalNamespace {
     bool finished;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::ISaberMovementDataProcessor
     operator GlobalNamespace::ISaberMovementDataProcessor() noexcept {
       return *reinterpret_cast<GlobalNamespace::ISaberMovementDataProcessor*>(this);

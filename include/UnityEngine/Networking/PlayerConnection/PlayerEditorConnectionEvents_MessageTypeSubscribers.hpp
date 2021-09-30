@@ -27,6 +27,11 @@ namespace UnityEngine::Networking::PlayerConnection {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayerEditorConnectionEvents::MessageTypeSubscribers : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String m_messageTypeId
     // Size: 0x8
     // Offset: 0x10
@@ -47,6 +52,7 @@ namespace UnityEngine::Networking::PlayerConnection {
     UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::MessageEvent* messageCallback;
     // Field size check
     static_assert(sizeof(UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::MessageEvent*) == 0x8);
+    public:
     // Get instance field reference: private System.String m_messageTypeId
     ::Il2CppString*& dyn_m_messageTypeId();
     // Get instance field reference: public System.Int32 subscriberCount

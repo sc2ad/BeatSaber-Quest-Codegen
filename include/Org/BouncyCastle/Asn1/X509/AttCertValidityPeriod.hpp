@@ -31,6 +31,11 @@ namespace Org::BouncyCastle::Asn1::X509 {
   // [TokenAttribute] Offset: FFFFFFFF
   class AttCertValidityPeriod : public Org::BouncyCastle::Asn1::Asn1Encodable {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Org.BouncyCastle.Asn1.DerGeneralizedTime notBeforeTime
     // Size: 0x8
     // Offset: 0x10
@@ -43,6 +48,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
     Org::BouncyCastle::Asn1::DerGeneralizedTime* notAfterTime;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::DerGeneralizedTime*) == 0x8);
+    public:
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerGeneralizedTime notBeforeTime
     Org::BouncyCastle::Asn1::DerGeneralizedTime*& dyn_notBeforeTime();
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerGeneralizedTime notAfterTime

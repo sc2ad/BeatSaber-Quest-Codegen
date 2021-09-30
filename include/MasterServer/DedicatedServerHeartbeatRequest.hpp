@@ -37,6 +37,11 @@ namespace MasterServer {
   // [TokenAttribute] Offset: FFFFFFFF
   class DedicatedServerHeartbeatRequest : public ::Il2CppObject/*, public MasterServer::IMasterServerUnreliableMessage, public MasterServer::IDedicatedServerClientToServerMessage*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String <dedicatedServerId>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -67,6 +72,7 @@ namespace MasterServer {
     int unoccupiedServerSlots;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating interface conversion operator: operator MasterServer::IMasterServerUnreliableMessage
     operator MasterServer::IMasterServerUnreliableMessage() noexcept {
       return *reinterpret_cast<MasterServer::IMasterServerUnreliableMessage*>(this);

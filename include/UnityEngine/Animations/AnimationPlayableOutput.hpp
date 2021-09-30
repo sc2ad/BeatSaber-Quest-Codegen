@@ -44,12 +44,18 @@ namespace UnityEngine::Animations {
   // [NativeHeaderAttribute] Offset: E8C0C4
   struct AnimationPlayableOutput/*, public System::ValueType, public UnityEngine::Playables::IPlayableOutput*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Playables.PlayableOutputHandle m_Handle
     // Size: 0xC
     // Offset: 0x0
     UnityEngine::Playables::PlayableOutputHandle m_Handle;
     // Field size check
     static_assert(sizeof(UnityEngine::Playables::PlayableOutputHandle) == 0xC);
+    public:
     // Creating value type constructor for type: AnimationPlayableOutput
     constexpr AnimationPlayableOutput(UnityEngine::Playables::PlayableOutputHandle m_Handle_ = {}) noexcept : m_Handle{m_Handle_} {}
     // Creating interface conversion operator: operator System::ValueType

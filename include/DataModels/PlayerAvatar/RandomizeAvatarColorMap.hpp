@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: DataModels.PlayerAvatar
 namespace DataModels::PlayerAvatar {
@@ -18,6 +19,11 @@ namespace DataModels::PlayerAvatar {
   // [TokenAttribute] Offset: FFFFFFFF
   class RandomizeAvatarColorMap : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Int32 <totalIndices>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -29,19 +35,20 @@ namespace DataModels::PlayerAvatar {
     // private readonly System.Int32[] <colorIndices>k__BackingField
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<int> colorIndices;
+    ::ArrayW<int> colorIndices;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
+    public:
     // Get instance field reference: private readonly System.Int32 <totalIndices>k__BackingField
     int& dyn_$totalIndices$k__BackingField();
     // Get instance field reference: private readonly System.Int32[] <colorIndices>k__BackingField
-    ::ArrayWrapper<int>& dyn_$colorIndices$k__BackingField();
+    ::ArrayW<int>& dyn_$colorIndices$k__BackingField();
     // public System.Int32 get_totalIndices()
     // Offset: 0x11A517C
     int get_totalIndices();
     // public System.Int32[] get_colorIndices()
     // Offset: 0x11A5184
-    ::ArrayWrapper<int> get_colorIndices();
+    ::ArrayW<int> get_colorIndices();
     // public System.Void .ctor(System.Int32 headTopPrimaryColorIndex, System.Int32 headTopSecondaryColorIndex, System.Int32 glassesColorIndex, System.Int32 facialHairColorIndex, System.Int32 handsColorIndex, System.Int32 clothesPrimaryColorIndex, System.Int32 clothesSecondaryColorIndex, System.Int32 clothesDetailColorIndex)
     // Offset: 0x11A4B84
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -51,7 +58,7 @@ namespace DataModels::PlayerAvatar {
     }
   }; // DataModels.PlayerAvatar.RandomizeAvatarColorMap
   #pragma pack(pop)
-  static check_size<sizeof(RandomizeAvatarColorMap), 24 + sizeof(::ArrayWrapper<int>)> __DataModels_PlayerAvatar_RandomizeAvatarColorMapSizeCheck;
+  static check_size<sizeof(RandomizeAvatarColorMap), 24 + sizeof(::ArrayW<int>)> __DataModels_PlayerAvatar_RandomizeAvatarColorMapSizeCheck;
   static_assert(sizeof(RandomizeAvatarColorMap) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(DataModels::PlayerAvatar::RandomizeAvatarColorMap*, "DataModels.PlayerAvatar", "RandomizeAvatarColorMap");
@@ -67,7 +74,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (DataMo
 // Writing MetadataGetter for method: DataModels::PlayerAvatar::RandomizeAvatarColorMap::get_colorIndices
 // Il2CppName: get_colorIndices
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<int> (DataModels::PlayerAvatar::RandomizeAvatarColorMap::*)()>(&DataModels::PlayerAvatar::RandomizeAvatarColorMap::get_colorIndices)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int> (DataModels::PlayerAvatar::RandomizeAvatarColorMap::*)()>(&DataModels::PlayerAvatar::RandomizeAvatarColorMap::get_colorIndices)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(DataModels::PlayerAvatar::RandomizeAvatarColorMap*), "get_colorIndices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

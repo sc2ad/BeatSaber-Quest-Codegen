@@ -42,6 +42,11 @@ namespace System {
   template<typename T1, typename T2>
   struct ValueTuple_2/*, public System::ValueType, public System::IEquatable_1<System::ValueTuple_2<T1, T2>>, public System::IComparable_1<System::ValueTuple_2<T1, T2>>, public System::Collections::IStructuralEquatable, public System::Collections::IStructuralComparable, public System::IComparable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public T1 Item1
     // Size: 0xFFFFFFFF
     // Offset: 0x0
@@ -50,6 +55,7 @@ namespace System {
     // Size: 0xFFFFFFFF
     // Offset: 0x0
     T2 Item2;
+    public:
     // Creating value type constructor for type: ValueTuple_2
     constexpr ValueTuple_2(T1 Item1_ = {}, T2 Item2_ = {}) noexcept : Item1{Item1_}, Item2{Item2_} {}
     // Creating interface conversion operator: operator System::ValueType

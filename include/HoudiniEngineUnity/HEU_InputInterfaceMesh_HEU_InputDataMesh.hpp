@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -31,6 +32,11 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_InputInterfaceMesh::HEU_InputDataMesh : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Mesh _mesh
     // Size: 0x8
     // Offset: 0x10
@@ -40,9 +46,9 @@ namespace HoudiniEngineUnity {
     // public UnityEngine.Material[] _materials
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<UnityEngine::Material*> materials;
+    ::ArrayW<UnityEngine::Material*> materials;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Material*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Material*>) == 0x8);
     // public System.String _meshPath
     // Size: 0x8
     // Offset: 0x20
@@ -70,15 +76,15 @@ namespace HoudiniEngineUnity {
     // public System.UInt32[] _indexStart
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayWrapper<uint> indexStart;
+    ::ArrayW<uint> indexStart;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint>) == 0x8);
     // public System.UInt32[] _indexCount
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayWrapper<uint> indexCount;
+    ::ArrayW<uint> indexCount;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint>) == 0x8);
     // public System.Single _LODScreenTransition
     // Size: 0x4
     // Offset: 0x48
@@ -93,10 +99,11 @@ namespace HoudiniEngineUnity {
     UnityEngine::Transform* transform;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    public:
     // Get instance field reference: public UnityEngine.Mesh _mesh
     UnityEngine::Mesh*& dyn__mesh();
     // Get instance field reference: public UnityEngine.Material[] _materials
-    ::ArrayWrapper<UnityEngine::Material*>& dyn__materials();
+    ::ArrayW<UnityEngine::Material*>& dyn__materials();
     // Get instance field reference: public System.String _meshPath
     ::Il2CppString*& dyn__meshPath();
     // Get instance field reference: public System.String _meshName
@@ -106,9 +113,9 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Int32 _numSubMeshes
     int& dyn__numSubMeshes();
     // Get instance field reference: public System.UInt32[] _indexStart
-    ::ArrayWrapper<uint>& dyn__indexStart();
+    ::ArrayW<uint>& dyn__indexStart();
     // Get instance field reference: public System.UInt32[] _indexCount
-    ::ArrayWrapper<uint>& dyn__indexCount();
+    ::ArrayW<uint>& dyn__indexCount();
     // Get instance field reference: public System.Single _LODScreenTransition
     float& dyn__LODScreenTransition();
     // Get instance field reference: public UnityEngine.Transform _transform

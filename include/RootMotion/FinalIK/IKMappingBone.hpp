@@ -34,6 +34,11 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class IKMappingBone : public RootMotion::FinalIK::IKMapping {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Transform bone
     // Size: 0x8
     // Offset: 0x10
@@ -55,6 +60,7 @@ namespace RootMotion::FinalIK {
     RootMotion::FinalIK::IKMapping::BoneMap* boneMap;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::IKMapping::BoneMap*) == 0x8);
+    public:
     // Get instance field reference: public UnityEngine.Transform bone
     UnityEngine::Transform*& dyn_bone();
     // Get instance field reference: public System.Single maintainRotationWeight

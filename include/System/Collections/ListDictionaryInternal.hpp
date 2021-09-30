@@ -42,6 +42,11 @@ namespace System::Collections {
     class NodeKeyValueCollection;
     // Nested type: System::Collections::ListDictionaryInternal::DictionaryNode
     class DictionaryNode;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.ListDictionaryInternal/System.Collections.DictionaryNode head
     // Size: 0x8
     // Offset: 0x10
@@ -60,6 +65,7 @@ namespace System::Collections {
     int count;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating interface conversion operator: operator System::Collections::IDictionary
     operator System::Collections::IDictionary() noexcept {
       return *reinterpret_cast<System::Collections::IDictionary*>(this);

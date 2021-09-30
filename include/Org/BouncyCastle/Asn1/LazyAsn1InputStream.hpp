@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO
@@ -40,7 +41,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Implemented from: Org.BouncyCastle.Asn1.Asn1InputStream
     // Base method: System.Void Asn1InputStream::.ctor(System.Byte[] input)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static LazyAsn1InputStream* New_ctor(::ArrayWrapper<uint8_t> input) {
+    static LazyAsn1InputStream* New_ctor(::ArrayW<uint8_t> input) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::LazyAsn1InputStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LazyAsn1InputStream*, creationType>(input)));
     }

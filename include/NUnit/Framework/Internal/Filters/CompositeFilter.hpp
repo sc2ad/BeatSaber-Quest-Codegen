@@ -12,6 +12,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -37,6 +38,11 @@ namespace NUnit::Framework::Internal::Filters {
   // [TokenAttribute] Offset: FFFFFFFF
   class CompositeFilter : public NUnit::Framework::Internal::TestFilter {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [DebuggerBrowsableAttribute] Offset: 0xEEF69C
     // private System.Collections.Generic.IList`1<NUnit.Framework.Interfaces.ITestFilter> <Filters>k__BackingField
     // Size: 0x8
@@ -44,6 +50,7 @@ namespace NUnit::Framework::Internal::Filters {
     System::Collections::Generic::IList_1<NUnit::Framework::Interfaces::ITestFilter*>* Filters;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::IList_1<NUnit::Framework::Interfaces::ITestFilter*>*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Collections::Generic::IList_1<NUnit::Framework::Interfaces::ITestFilter*>*
     constexpr operator System::Collections::Generic::IList_1<NUnit::Framework::Interfaces::ITestFilter*>*() const noexcept {
       return Filters;
@@ -62,7 +69,7 @@ namespace NUnit::Framework::Internal::Filters {
     // public System.Void .ctor(params NUnit.Framework.Interfaces.ITestFilter[] filters)
     // Offset: 0x194018C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static CompositeFilter* New_ctor(::ArrayWrapper<NUnit::Framework::Interfaces::ITestFilter*> filters) {
+    static CompositeFilter* New_ctor(::ArrayW<NUnit::Framework::Interfaces::ITestFilter*> filters) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::Filters::CompositeFilter::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CompositeFilter*, creationType>(filters)));
     }

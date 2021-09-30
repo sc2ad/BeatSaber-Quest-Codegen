@@ -32,6 +32,11 @@ namespace Mono::Net::Security {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   struct AsyncProtocolRequest::$ProcessOperation$d__24/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0
@@ -76,6 +81,7 @@ namespace Mono::Net::Security {
     System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter $$u__2;
     // Field size check
     static_assert(sizeof(System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter) == 0x9);
+    public:
     // Creating value type constructor for type: $ProcessOperation$d__24
     constexpr $ProcessOperation$d__24(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder $$t__builder_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, Mono::Net::Security::AsyncProtocolRequest* $$4__this_ = {}, Mono::Net::Security::AsyncOperationStatus $status$5__1_ = {}, Mono::Net::Security::AsyncOperationStatus $newStatus$5__2_ = {}, typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<System::Nullable_1<int>>::ConfiguredTaskAwaiter $$u__1_ = {}, System::Runtime::CompilerServices::ConfiguredTaskAwaitable::ConfiguredTaskAwaiter $$u__2_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, cancellationToken{cancellationToken_}, $$4__this{$$4__this_}, $status$5__1{$status$5__1_}, $newStatus$5__2{$newStatus$5__2_}, $$u__1{$$u__1_}, $$u__2{$$u__2_} {}
     // Creating interface conversion operator: operator System::ValueType

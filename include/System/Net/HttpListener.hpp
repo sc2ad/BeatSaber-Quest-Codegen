@@ -82,6 +82,11 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class HttpListener : public ::Il2CppObject/*, public System::IDisposable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Mono.Security.Interface.MonoTlsProvider tlsProvider
     // Size: 0x8
     // Offset: 0x10
@@ -188,6 +193,7 @@ namespace System::Net {
     System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy* extendedProtectionPolicy;
     // Field size check
     static_assert(sizeof(System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

@@ -39,6 +39,11 @@ namespace OnlineServices {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   struct LevelScoreUploader::$SendLevelScoreResultAsync$d__13/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0
@@ -89,6 +94,7 @@ namespace OnlineServices {
     System::Runtime::CompilerServices::TaskAwaiter $$u__3;
     // Field size check
     static_assert(sizeof(System::Runtime::CompilerServices::TaskAwaiter) == 0x8);
+    public:
     // Creating value type constructor for type: $SendLevelScoreResultAsync$d__13
     constexpr $SendLevelScoreResultAsync$d__13(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncVoidMethodBuilder $$t__builder_ = {}, OnlineServices::LevelScoreUploader* $$4__this_ = {}, System::Threading::CancellationToken $cancellationToken$5__2_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::PlatformServicesAvailabilityInfo*> $$u__1_ = {}, OnlineServices::LevelScoreUploader::LevelScoreResultsDataUploadInfo* $levelScoreResultsDataUploadInfo$5__3_ = {}, OnlineServices::LevelScoreResultsData $levelScoreResultToUpload$5__4_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::SendLeaderboardEntryResult> $$u__2_ = {}, System::Runtime::CompilerServices::TaskAwaiter $$u__3_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, $cancellationToken$5__2{$cancellationToken$5__2_}, $$u__1{$$u__1_}, $levelScoreResultsDataUploadInfo$5__3{$levelScoreResultsDataUploadInfo$5__3_}, $levelScoreResultToUpload$5__4{$levelScoreResultToUpload$5__4_}, $$u__2{$$u__2_}, $$u__3{$$u__3_} {}
     // Creating interface conversion operator: operator System::ValueType

@@ -42,6 +42,11 @@ namespace UnityEngine::ProBuilder {
   // [DefaultMemberAttribute] Offset: F2547C
   class ColorPalette : public UnityEngine::ScriptableObject/*, public UnityEngine::ProBuilder::IHasDefault*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Color <current>k__BackingField
     // Size: 0x10
     // Offset: 0x18
@@ -55,6 +60,7 @@ namespace UnityEngine::ProBuilder {
     System::Collections::Generic::List_1<UnityEngine::Color>* m_Colors;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::Color>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator UnityEngine::ProBuilder::IHasDefault
     operator UnityEngine::ProBuilder::IHasDefault() noexcept {
       return *reinterpret_cast<UnityEngine::ProBuilder::IHasDefault*>(this);

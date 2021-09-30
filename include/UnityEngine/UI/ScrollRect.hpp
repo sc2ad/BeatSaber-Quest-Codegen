@@ -35,6 +35,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::UI
@@ -86,12 +87,18 @@ namespace UnityEngine::UI {
     // [TokenAttribute] Offset: FFFFFFFF
     struct MovementType/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: MovementType
       constexpr MovementType(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -132,12 +139,18 @@ namespace UnityEngine::UI {
     // [TokenAttribute] Offset: FFFFFFFF
     struct ScrollbarVisibility/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: ScrollbarVisibility
       constexpr ScrollbarVisibility(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -172,6 +185,11 @@ namespace UnityEngine::UI {
     #pragma pack(pop)
     static check_size<sizeof(ScrollRect::ScrollbarVisibility), 0 + sizeof(int)> __UnityEngine_UI_ScrollRect_ScrollbarVisibilitySizeCheck;
     static_assert(sizeof(ScrollRect::ScrollbarVisibility) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.RectTransform m_Content
     // Size: 0x8
     // Offset: 0x18
@@ -401,9 +419,10 @@ namespace UnityEngine::UI {
     // private readonly UnityEngine.Vector3[] m_Corners
     // Size: 0x8
     // Offset: 0x120
-    ::ArrayWrapper<UnityEngine::Vector3> m_Corners;
+    ::ArrayW<UnityEngine::Vector3> m_Corners;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector3>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Vector3>) == 0x8);
+    public:
     // Creating interface conversion operator: operator UnityEngine::UI::ICanvasElement
     operator UnityEngine::UI::ICanvasElement() noexcept {
       return *reinterpret_cast<UnityEngine::UI::ICanvasElement*>(this);
@@ -511,7 +530,7 @@ namespace UnityEngine::UI {
     // Get instance field reference: private UnityEngine.DrivenRectTransformTracker m_Tracker
     UnityEngine::DrivenRectTransformTracker& dyn_m_Tracker();
     // Get instance field reference: private readonly UnityEngine.Vector3[] m_Corners
-    ::ArrayWrapper<UnityEngine::Vector3>& dyn_m_Corners();
+    ::ArrayW<UnityEngine::Vector3>& dyn_m_Corners();
     // public UnityEngine.RectTransform get_content()
     // Offset: 0x1B5340C
     UnityEngine::RectTransform* get_content();
@@ -757,7 +776,7 @@ namespace UnityEngine::UI {
     UnityEngine::Bounds GetBounds();
     // static UnityEngine.Bounds InternalGetBounds(UnityEngine.Vector3[] corners, ref UnityEngine.Matrix4x4 viewWorldToLocalMatrix)
     // Offset: 0x1B572D0
-    static UnityEngine::Bounds InternalGetBounds(::ArrayWrapper<UnityEngine::Vector3> corners, ByRef<UnityEngine::Matrix4x4> viewWorldToLocalMatrix);
+    static UnityEngine::Bounds InternalGetBounds(::ArrayW<UnityEngine::Vector3> corners, ByRef<UnityEngine::Matrix4x4> viewWorldToLocalMatrix);
     // private UnityEngine.Vector2 CalculateOffset(UnityEngine.Vector2 delta)
     // Offset: 0x1B550CC
     UnityEngine::Vector2 CalculateOffset(UnityEngine::Vector2 delta);
@@ -806,7 +825,7 @@ namespace UnityEngine::UI {
     void OnRectTransformDimensionsChange();
   }; // UnityEngine.UI.ScrollRect
   #pragma pack(pop)
-  static check_size<sizeof(ScrollRect), 288 + sizeof(::ArrayWrapper<UnityEngine::Vector3>)> __UnityEngine_UI_ScrollRectSizeCheck;
+  static check_size<sizeof(ScrollRect), 288 + sizeof(::ArrayW<UnityEngine::Vector3>)> __UnityEngine_UI_ScrollRectSizeCheck;
   static_assert(sizeof(ScrollRect) == 0x128);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ScrollRect*, "UnityEngine.UI", "ScrollRect");
@@ -1506,7 +1525,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::UI::ScrollRect::InternalGetBounds
 // Il2CppName: InternalGetBounds
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Bounds (*)(::ArrayWrapper<UnityEngine::Vector3>, ByRef<UnityEngine::Matrix4x4>)>(&UnityEngine::UI::ScrollRect::InternalGetBounds)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Bounds (*)(::ArrayW<UnityEngine::Vector3>, ByRef<UnityEngine::Matrix4x4>)>(&UnityEngine::UI::ScrollRect::InternalGetBounds)> {
   static const MethodInfo* get() {
     static auto* corners = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
     static auto* viewWorldToLocalMatrix = &::il2cpp_utils::GetClassFromName("UnityEngine", "Matrix4x4")->this_arg;

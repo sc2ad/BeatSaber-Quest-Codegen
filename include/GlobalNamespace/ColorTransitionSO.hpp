@@ -32,6 +32,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ColorTransitionSO : public GlobalNamespace::BaseTransitionSO {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private ColorSO _normalColor
     // Size: 0x8
     // Offset: 0x20
@@ -68,6 +73,7 @@ namespace GlobalNamespace {
     GlobalNamespace::ColorSO* selectedAndHighlightedColor;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ColorSO*) == 0x8);
+    public:
     // Get instance field reference: private ColorSO _normalColor
     GlobalNamespace::ColorSO*& dyn__normalColor();
     // Get instance field reference: private ColorSO _highlightedColor

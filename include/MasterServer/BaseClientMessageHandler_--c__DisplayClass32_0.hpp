@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: MasterServer
 namespace MasterServer {
@@ -21,30 +22,35 @@ namespace MasterServer {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class BaseClientMessageHandler::$$c__DisplayClass32_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Byte[] clientRandom
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<uint8_t> clientRandom;
+    ::ArrayW<uint8_t> clientRandom;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // public System.Byte[] serverRandom
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<uint8_t> serverRandom;
+    ::ArrayW<uint8_t> serverRandom;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // public System.Byte[] serverKey
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<uint8_t> serverKey;
+    ::ArrayW<uint8_t> serverKey;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // public System.Byte[][] certData
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<::ArrayWrapper<uint8_t>> certData;
+    ::ArrayW<::ArrayW<uint8_t>> certData;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::ArrayWrapper<uint8_t>>) == 0x8);
+    static_assert(sizeof(::ArrayW<::ArrayW<uint8_t>>) == 0x8);
     // public MasterServer.BaseClientMessageHandler <>4__this
     // Size: 0x8
     // Offset: 0x30
@@ -54,21 +60,22 @@ namespace MasterServer {
     // public System.Byte[] signature
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayWrapper<uint8_t> signature;
+    ::ArrayW<uint8_t> signature;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
+    public:
     // Get instance field reference: public System.Byte[] clientRandom
-    ::ArrayWrapper<uint8_t>& dyn_clientRandom();
+    ::ArrayW<uint8_t>& dyn_clientRandom();
     // Get instance field reference: public System.Byte[] serverRandom
-    ::ArrayWrapper<uint8_t>& dyn_serverRandom();
+    ::ArrayW<uint8_t>& dyn_serverRandom();
     // Get instance field reference: public System.Byte[] serverKey
-    ::ArrayWrapper<uint8_t>& dyn_serverKey();
+    ::ArrayW<uint8_t>& dyn_serverKey();
     // Get instance field reference: public System.Byte[][] certData
-    ::ArrayWrapper<::ArrayWrapper<uint8_t>>& dyn_certData();
+    ::ArrayW<::ArrayW<uint8_t>>& dyn_certData();
     // Get instance field reference: public MasterServer.BaseClientMessageHandler <>4__this
     MasterServer::BaseClientMessageHandler*& dyn_$$4__this();
     // Get instance field reference: public System.Byte[] signature
-    ::ArrayWrapper<uint8_t>& dyn_signature();
+    ::ArrayW<uint8_t>& dyn_signature();
     // System.Boolean <VerifySignature>b__0()
     // Offset: 0x12D6888
     bool $VerifySignature$b__0();
@@ -83,7 +90,7 @@ namespace MasterServer {
     }
   }; // MasterServer.BaseClientMessageHandler/MasterServer.<>c__DisplayClass32_0
   #pragma pack(pop)
-  static check_size<sizeof(BaseClientMessageHandler::$$c__DisplayClass32_0), 56 + sizeof(::ArrayWrapper<uint8_t>)> __MasterServer_BaseClientMessageHandler_$$c__DisplayClass32_0SizeCheck;
+  static check_size<sizeof(BaseClientMessageHandler::$$c__DisplayClass32_0), 56 + sizeof(::ArrayW<uint8_t>)> __MasterServer_BaseClientMessageHandler_$$c__DisplayClass32_0SizeCheck;
   static_assert(sizeof(BaseClientMessageHandler::$$c__DisplayClass32_0) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::BaseClientMessageHandler::$$c__DisplayClass32_0*, "MasterServer", "BaseClientMessageHandler/<>c__DisplayClass32_0");

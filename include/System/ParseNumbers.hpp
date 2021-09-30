@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text
@@ -38,16 +39,16 @@ namespace System {
     static ::Il2CppString* IntToString(int value, int toBase, int width, ::Il2CppChar paddingChar, int flags);
     // static private System.Void EndianSwap(ref System.Byte[] value)
     // Offset: 0x1EA0880
-    static void EndianSwap(ByRef<::ArrayWrapper<uint8_t>> value);
+    static void EndianSwap(ByRef<::ArrayW<uint8_t>> value);
     // static private System.Text.StringBuilder ConvertToBase2(System.Byte[] value)
     // Offset: 0x1E9FD38
-    static System::Text::StringBuilder* ConvertToBase2(::ArrayWrapper<uint8_t> value);
+    static System::Text::StringBuilder* ConvertToBase2(::ArrayW<uint8_t> value);
     // static private System.Text.StringBuilder ConvertToBase8(System.Byte[] value)
     // Offset: 0x1E9FE7C
-    static System::Text::StringBuilder* ConvertToBase8(::ArrayWrapper<uint8_t> value);
+    static System::Text::StringBuilder* ConvertToBase8(::ArrayW<uint8_t> value);
     // static private System.Text.StringBuilder ConvertToBase16(System.Byte[] value)
     // Offset: 0x1EA0054
-    static System::Text::StringBuilder* ConvertToBase16(::ArrayWrapper<uint8_t> value);
+    static System::Text::StringBuilder* ConvertToBase16(::ArrayW<uint8_t> value);
   }; // System.ParseNumbers
   #pragma pack(pop)
 }
@@ -118,7 +119,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::ParseNumbers::EndianSwap
 // Il2CppName: EndianSwap
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::ArrayWrapper<uint8_t>>)>(&System::ParseNumbers::EndianSwap)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::ArrayW<uint8_t>>)>(&System::ParseNumbers::EndianSwap)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(System::ParseNumbers*), "EndianSwap", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -127,7 +128,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(By
 // Writing MetadataGetter for method: System::ParseNumbers::ConvertToBase2
 // Il2CppName: ConvertToBase2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (*)(::ArrayWrapper<uint8_t>)>(&System::ParseNumbers::ConvertToBase2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (*)(::ArrayW<uint8_t>)>(&System::ParseNumbers::ConvertToBase2)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::ParseNumbers*), "ConvertToBase2", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -136,7 +137,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Writing MetadataGetter for method: System::ParseNumbers::ConvertToBase8
 // Il2CppName: ConvertToBase8
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (*)(::ArrayWrapper<uint8_t>)>(&System::ParseNumbers::ConvertToBase8)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (*)(::ArrayW<uint8_t>)>(&System::ParseNumbers::ConvertToBase8)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::ParseNumbers*), "ConvertToBase8", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -145,7 +146,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Writing MetadataGetter for method: System::ParseNumbers::ConvertToBase16
 // Il2CppName: ConvertToBase16
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (*)(::ArrayWrapper<uint8_t>)>(&System::ParseNumbers::ConvertToBase16)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Text::StringBuilder* (*)(::ArrayW<uint8_t>)>(&System::ParseNumbers::ConvertToBase16)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::ParseNumbers*), "ConvertToBase16", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

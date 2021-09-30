@@ -21,6 +21,11 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct VROverlayIntersectionParams_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public Valve.VR.HmdVector3_t vSource
     // Size: 0xC
     // Offset: 0x0
@@ -39,6 +44,7 @@ namespace Valve::VR {
     Valve::VR::ETrackingUniverseOrigin eOrigin;
     // Field size check
     static_assert(sizeof(Valve::VR::ETrackingUniverseOrigin) == 0x4);
+    public:
     // Creating value type constructor for type: VROverlayIntersectionParams_t
     constexpr VROverlayIntersectionParams_t(Valve::VR::HmdVector3_t vSource_ = {}, Valve::VR::HmdVector3_t vDirection_ = {}, Valve::VR::ETrackingUniverseOrigin eOrigin_ = {}) noexcept : vSource{vSource_}, vDirection{vDirection_}, eOrigin{eOrigin_} {}
     // Creating interface conversion operator: operator System::ValueType

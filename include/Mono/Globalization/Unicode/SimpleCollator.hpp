@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Mono::Globalization::Unicode
@@ -52,6 +53,11 @@ namespace Mono::Globalization::Unicode {
     struct Escape;
     // Nested type: Mono::Globalization::Unicode::SimpleCollator::ExtenderType
     struct ExtenderType;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Globalization.TextInfo textInfo
     // Size: 0x8
     // Offset: 0x10
@@ -67,21 +73,21 @@ namespace Mono::Globalization::Unicode {
     // private readonly Mono.Globalization.Unicode.Contraction[] contractions
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<Mono::Globalization::Unicode::Contraction*> contractions;
+    ::ArrayW<Mono::Globalization::Unicode::Contraction*> contractions;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<Mono::Globalization::Unicode::Contraction*>) == 0x8);
+    static_assert(sizeof(::ArrayW<Mono::Globalization::Unicode::Contraction*>) == 0x8);
     // private readonly Mono.Globalization.Unicode.Level2Map[] level2Maps
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<Mono::Globalization::Unicode::Level2Map*> level2Maps;
+    ::ArrayW<Mono::Globalization::Unicode::Level2Map*> level2Maps;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<Mono::Globalization::Unicode::Level2Map*>) == 0x8);
+    static_assert(sizeof(::ArrayW<Mono::Globalization::Unicode::Level2Map*>) == 0x8);
     // private readonly System.Byte[] unsafeFlags
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<uint8_t> unsafeFlags;
+    ::ArrayW<uint8_t> unsafeFlags;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private readonly System.Byte* cjkCatTable
     // Size: 0x8
     // Offset: 0x38
@@ -118,6 +124,7 @@ namespace Mono::Globalization::Unicode {
     bool frenchSort;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get static field: static private System.Boolean QuickCheckDisabled
     static bool _get_QuickCheckDisabled();
     // Set static field: static private System.Boolean QuickCheckDisabled
@@ -137,11 +144,11 @@ namespace Mono::Globalization::Unicode {
     // Get instance field reference: private readonly Mono.Globalization.Unicode.CodePointIndexer cjkIndexer
     Mono::Globalization::Unicode::CodePointIndexer*& dyn_cjkIndexer();
     // Get instance field reference: private readonly Mono.Globalization.Unicode.Contraction[] contractions
-    ::ArrayWrapper<Mono::Globalization::Unicode::Contraction*>& dyn_contractions();
+    ::ArrayW<Mono::Globalization::Unicode::Contraction*>& dyn_contractions();
     // Get instance field reference: private readonly Mono.Globalization.Unicode.Level2Map[] level2Maps
-    ::ArrayWrapper<Mono::Globalization::Unicode::Level2Map*>& dyn_level2Maps();
+    ::ArrayW<Mono::Globalization::Unicode::Level2Map*>& dyn_level2Maps();
     // Get instance field reference: private readonly System.Byte[] unsafeFlags
-    ::ArrayWrapper<uint8_t>& dyn_unsafeFlags();
+    ::ArrayW<uint8_t>& dyn_unsafeFlags();
     // Get instance field reference: private readonly System.Byte* cjkCatTable
     uint8_t*& dyn_cjkCatTable();
     // Get instance field reference: private readonly System.Byte* cjkLv1Table
@@ -187,13 +194,13 @@ namespace Mono::Globalization::Unicode {
     Mono::Globalization::Unicode::Contraction* GetContraction(::Il2CppString* s, int start, int end);
     // private Mono.Globalization.Unicode.Contraction GetContraction(System.String s, System.Int32 start, System.Int32 end, Mono.Globalization.Unicode.Contraction[] clist)
     // Offset: 0x1C34C20
-    Mono::Globalization::Unicode::Contraction* GetContraction(::Il2CppString* s, int start, int end, ::ArrayWrapper<Mono::Globalization::Unicode::Contraction*> clist);
+    Mono::Globalization::Unicode::Contraction* GetContraction(::Il2CppString* s, int start, int end, ::ArrayW<Mono::Globalization::Unicode::Contraction*> clist);
     // private Mono.Globalization.Unicode.Contraction GetTailContraction(System.String s, System.Int32 start, System.Int32 end)
     // Offset: 0x1C34D54
     Mono::Globalization::Unicode::Contraction* GetTailContraction(::Il2CppString* s, int start, int end);
     // private Mono.Globalization.Unicode.Contraction GetTailContraction(System.String s, System.Int32 start, System.Int32 end, Mono.Globalization.Unicode.Contraction[] clist)
     // Offset: 0x1C34E30
-    Mono::Globalization::Unicode::Contraction* GetTailContraction(::Il2CppString* s, int start, int end, ::ArrayWrapper<Mono::Globalization::Unicode::Contraction*> clist);
+    Mono::Globalization::Unicode::Contraction* GetTailContraction(::Il2CppString* s, int start, int end, ::ArrayW<Mono::Globalization::Unicode::Contraction*> clist);
     // private System.Int32 FilterOptions(System.Int32 i, System.Globalization.CompareOptions opt)
     // Offset: 0x1C35044
     int FilterOptions(int i, System::Globalization::CompareOptions opt);
@@ -393,7 +400,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Globa
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::GetContraction
 // Il2CppName: GetContraction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Globalization::Unicode::Contraction* (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, int, int, ::ArrayWrapper<Mono::Globalization::Unicode::Contraction*>)>(&Mono::Globalization::Unicode::SimpleCollator::GetContraction)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Globalization::Unicode::Contraction* (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, int, int, ::ArrayW<Mono::Globalization::Unicode::Contraction*>)>(&Mono::Globalization::Unicode::SimpleCollator::GetContraction)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -416,7 +423,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Globa
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SimpleCollator::GetTailContraction
 // Il2CppName: GetTailContraction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Globalization::Unicode::Contraction* (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, int, int, ::ArrayWrapper<Mono::Globalization::Unicode::Contraction*>)>(&Mono::Globalization::Unicode::SimpleCollator::GetTailContraction)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Globalization::Unicode::Contraction* (Mono::Globalization::Unicode::SimpleCollator::*)(::Il2CppString*, int, int, ::ArrayW<Mono::Globalization::Unicode::Contraction*>)>(&Mono::Globalization::Unicode::SimpleCollator::GetTailContraction)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

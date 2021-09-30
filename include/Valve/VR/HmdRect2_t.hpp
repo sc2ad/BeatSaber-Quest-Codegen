@@ -18,6 +18,11 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HmdRect2_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public Valve.VR.HmdVector2_t vTopLeft
     // Size: 0x8
     // Offset: 0x0
@@ -30,6 +35,7 @@ namespace Valve::VR {
     Valve::VR::HmdVector2_t vBottomRight;
     // Field size check
     static_assert(sizeof(Valve::VR::HmdVector2_t) == 0x8);
+    public:
     // Creating value type constructor for type: HmdRect2_t
     constexpr HmdRect2_t(Valve::VR::HmdVector2_t vTopLeft_ = {}, Valve::VR::HmdVector2_t vBottomRight_ = {}) noexcept : vTopLeft{vTopLeft_}, vBottomRight{vBottomRight_} {}
     // Creating interface conversion operator: operator System::ValueType

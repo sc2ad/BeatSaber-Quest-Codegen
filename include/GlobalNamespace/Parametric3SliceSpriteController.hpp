@@ -38,6 +38,11 @@ namespace GlobalNamespace {
   // [ExecuteInEditMode] Offset: FFFFFFFF
   class Parametric3SliceSpriteController : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Single _widthMultiplier
     // Size: 0x4
     // Offset: 0x18
@@ -113,6 +118,7 @@ namespace GlobalNamespace {
     bool isInitialized;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Single kMaxWidth

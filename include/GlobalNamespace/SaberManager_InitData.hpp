@@ -22,6 +22,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SaberManager::InitData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly System.Boolean oneSaberMode
     // Size: 0x1
     // Offset: 0x10
@@ -36,6 +41,7 @@ namespace GlobalNamespace {
     GlobalNamespace::SaberType oneSaberType;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SaberType) == 0x4);
+    public:
     // Get instance field reference: public readonly System.Boolean oneSaberMode
     bool& dyn_oneSaberMode();
     // Get instance field reference: public readonly SaberType oneSaberType

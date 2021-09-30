@@ -22,12 +22,18 @@ namespace UnityEngine {
   // [RequiredByNativeCodeAttribute] Offset: E72C5C
   class WaitForSeconds : public UnityEngine::YieldInstruction {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Single m_Seconds
     // Size: 0x4
     // Offset: 0x10
     float m_Seconds;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating conversion operator: operator float
     constexpr operator float() const noexcept {
       return m_Seconds;

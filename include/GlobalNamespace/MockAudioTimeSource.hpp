@@ -22,6 +22,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MockAudioTimeSource : public UnityEngine::MonoBehaviour/*, public GlobalNamespace::IAudioTimeSource*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Single <songTime>k__BackingField
     // Size: 0x4
     // Offset: 0x18
@@ -34,6 +39,7 @@ namespace GlobalNamespace {
     float lastFrameDeltaSongTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IAudioTimeSource
     operator GlobalNamespace::IAudioTimeSource() noexcept {
       return *reinterpret_cast<GlobalNamespace::IAudioTimeSource*>(this);

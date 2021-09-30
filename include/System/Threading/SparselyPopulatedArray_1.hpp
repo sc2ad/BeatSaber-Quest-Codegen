@@ -28,12 +28,18 @@ namespace System::Threading {
   template<typename T>
   class SparselyPopulatedArray_1 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Threading.SparselyPopulatedArrayFragment`1<T> m_tail
     // Size: 0x8
     // Offset: 0x0
     System::Threading::SparselyPopulatedArrayFragment_1<T>* m_tail;
     // Field size check
     static_assert(sizeof(System::Threading::SparselyPopulatedArrayFragment_1<T>*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Threading::SparselyPopulatedArrayFragment_1<T>*
     constexpr operator System::Threading::SparselyPopulatedArrayFragment_1<T>*() const noexcept {
       return m_tail;

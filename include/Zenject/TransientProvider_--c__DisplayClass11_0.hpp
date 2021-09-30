@@ -41,6 +41,11 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class TransientProvider::$$c__DisplayClass11_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public Zenject.TransientProvider <>4__this
     // Size: 0x8
     // Offset: 0x10
@@ -71,6 +76,7 @@ namespace Zenject {
     Zenject::InjectContext* context;
     // Field size check
     static_assert(sizeof(Zenject::InjectContext*) == 0x8);
+    public:
     // Get instance field reference: public Zenject.TransientProvider <>4__this
     Zenject::TransientProvider*& dyn_$$4__this();
     // Get instance field reference: public System.Object instance

@@ -45,12 +45,18 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct ScreenshotType/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: ScreenshotType
       constexpr ScreenshotType(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -85,12 +91,18 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(ScreenCaptureCache::ScreenshotType), 0 + sizeof(int)> __GlobalNamespace_ScreenCaptureCache_ScreenshotTypeSizeCheck;
     static_assert(sizeof(ScreenCaptureCache::ScreenshotType) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.Dictionary`2<ScreenCaptureCache/ScreenshotType,UnityEngine.Texture2D> _cache
     // Size: 0x8
     // Offset: 0x10
     System::Collections::Generic::Dictionary_2<GlobalNamespace::ScreenCaptureCache::ScreenshotType, UnityEngine::Texture2D*>* cache;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<GlobalNamespace::ScreenCaptureCache::ScreenshotType, UnityEngine::Texture2D*>*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Collections::Generic::Dictionary_2<GlobalNamespace::ScreenCaptureCache::ScreenshotType, UnityEngine::Texture2D*>*
     constexpr operator System::Collections::Generic::Dictionary_2<GlobalNamespace::ScreenCaptureCache::ScreenshotType, UnityEngine::Texture2D*>*() const noexcept {
       return cache;

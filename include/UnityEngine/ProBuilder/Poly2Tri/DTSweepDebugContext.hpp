@@ -29,6 +29,11 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   // [TokenAttribute] Offset: FFFFFFFF
   class DTSweepDebugContext : public UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle _primaryTriangle
     // Size: 0x8
     // Offset: 0x18
@@ -59,6 +64,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* activeConstraint;
     // Field size check
     static_assert(sizeof(UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*) == 0x8);
+    public:
     // Deleting conversion operator: operator UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*
     constexpr operator UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*() const noexcept = delete;
     // Get instance field reference: private UnityEngine.ProBuilder.Poly2Tri.DelaunayTriangle _primaryTriangle

@@ -39,6 +39,11 @@ namespace NUnit::Framework::Interfaces {
     public:
     // Nested type: NUnit::Framework::Interfaces::TNode::$$c
     class $$c;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [DebuggerBrowsableAttribute] Offset: 0xEEF8F4
     // private System.String <Name>k__BackingField
     // Size: 0x8
@@ -76,6 +81,7 @@ namespace NUnit::Framework::Interfaces {
     NUnit::Framework::Interfaces::NodeList* ChildNodes;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Interfaces::NodeList*) == 0x8);
+    public:
     // Get static field: static private readonly System.Text.RegularExpressions.Regex InvalidXmlCharactersRegex
     static System::Text::RegularExpressions::Regex* _get_InvalidXmlCharactersRegex();
     // Set static field: static private readonly System.Text.RegularExpressions.Regex InvalidXmlCharactersRegex

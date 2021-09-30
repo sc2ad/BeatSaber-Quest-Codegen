@@ -23,6 +23,11 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HAPI_AttributeInfo/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Boolean exists
     // Size: 0x1
     // Offset: 0x0
@@ -73,6 +78,7 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::HAPI_AttributeTypeInfo typeInfo;
     // Field size check
     static_assert(sizeof(HoudiniEngineUnity::HAPI_AttributeTypeInfo) == 0x4);
+    public:
     // Creating value type constructor for type: HAPI_AttributeInfo
     constexpr HAPI_AttributeInfo(bool exists_ = {}, HoudiniEngineUnity::HAPI_AttributeOwner owner_ = {}, HoudiniEngineUnity::HAPI_StorageType storage_ = {}, HoudiniEngineUnity::HAPI_AttributeOwner originalOwner_ = {}, int count_ = {}, int tupleSize_ = {}, int64_t totalArrayElements_ = {}, HoudiniEngineUnity::HAPI_AttributeTypeInfo typeInfo_ = {}) noexcept : exists{exists_}, owner{owner_}, storage{storage_}, originalOwner{originalOwner_}, count{count_}, tupleSize{tupleSize_}, totalArrayElements{totalArrayElements_}, typeInfo{typeInfo_} {}
     // Creating interface conversion operator: operator System::ValueType

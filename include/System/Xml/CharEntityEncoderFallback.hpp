@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Xml
@@ -34,6 +35,11 @@ namespace System::Xml {
     public:
     // Writing base type padding for base size: 0x11 to desired offset: 0x18
     char ___base_padding[0x7] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Xml.CharEntityEncoderFallbackBuffer fallbackBuffer
     // Size: 0x8
     // Offset: 0x18
@@ -43,9 +49,9 @@ namespace System::Xml {
     // private System.Int32[] textContentMarks
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<int> textContentMarks;
+    ::ArrayW<int> textContentMarks;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // private System.Int32 endMarkPos
     // Size: 0x4
     // Offset: 0x28
@@ -64,12 +70,13 @@ namespace System::Xml {
     int startOffset;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Deleting conversion operator: operator bool
     constexpr operator bool() const noexcept = delete;
     // Get instance field reference: private System.Xml.CharEntityEncoderFallbackBuffer fallbackBuffer
     System::Xml::CharEntityEncoderFallbackBuffer*& dyn_fallbackBuffer();
     // Get instance field reference: private System.Int32[] textContentMarks
-    ::ArrayWrapper<int>& dyn_textContentMarks();
+    ::ArrayW<int>& dyn_textContentMarks();
     // Get instance field reference: private System.Int32 endMarkPos
     int& dyn_endMarkPos();
     // Get instance field reference: private System.Int32 curMarkPos
@@ -81,7 +88,7 @@ namespace System::Xml {
     void set_StartOffset(int value);
     // System.Void Reset(System.Int32[] textContentMarks, System.Int32 endMarkPos)
     // Offset: 0x1AF5C38
-    void Reset(::ArrayWrapper<int> textContentMarks, int endMarkPos);
+    void Reset(::ArrayW<int> textContentMarks, int endMarkPos);
     // System.Boolean CanReplaceAt(System.Int32 index)
     // Offset: 0x1AF5C44
     bool CanReplaceAt(int index);
@@ -124,7 +131,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::CharEntityEncoderFallback::Reset
 // Il2CppName: Reset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::CharEntityEncoderFallback::*)(::ArrayWrapper<int>, int)>(&System::Xml::CharEntityEncoderFallback::Reset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::CharEntityEncoderFallback::*)(::ArrayW<int>, int)>(&System::Xml::CharEntityEncoderFallback::Reset)> {
   static const MethodInfo* get() {
     static auto* textContentMarks = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     static auto* endMarkPos = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

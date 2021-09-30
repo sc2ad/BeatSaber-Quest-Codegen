@@ -27,12 +27,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BlueNoiseDithering : public GlobalNamespace::PersistentScriptableObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Texture2D _noiseTexture
     // Size: 0x8
     // Offset: 0x18
     UnityEngine::Texture2D* noiseTexture;
     // Field size check
     static_assert(sizeof(UnityEngine::Texture2D*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEDEA24

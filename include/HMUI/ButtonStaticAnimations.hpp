@@ -29,6 +29,11 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class ButtonStaticAnimations : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private HMUI.NoTransitionsButton _button
     // Size: 0x8
     // Offset: 0x18
@@ -66,6 +71,7 @@ namespace HMUI {
     bool didStart;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private HMUI.NoTransitionsButton _button

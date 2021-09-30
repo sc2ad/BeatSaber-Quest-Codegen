@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Oculus::Platform::Models
@@ -31,6 +32,11 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class LeaderboardEntry : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly System.String DisplayScore
     // Size: 0x8
     // Offset: 0x10
@@ -40,9 +46,9 @@ namespace Oculus::Platform::Models {
     // public readonly System.Byte[] ExtraData
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<uint8_t> ExtraData;
+    ::ArrayW<uint8_t> ExtraData;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // public readonly System.Int32 Rank
     // Size: 0x4
     // Offset: 0x20
@@ -82,10 +88,11 @@ namespace Oculus::Platform::Models {
     Oculus::Platform::Models::User* User;
     // Field size check
     static_assert(sizeof(Oculus::Platform::Models::User*) == 0x8);
+    public:
     // Get instance field reference: public readonly System.String DisplayScore
     ::Il2CppString*& dyn_DisplayScore();
     // Get instance field reference: public readonly System.Byte[] ExtraData
-    ::ArrayWrapper<uint8_t>& dyn_ExtraData();
+    ::ArrayW<uint8_t>& dyn_ExtraData();
     // Get instance field reference: public readonly System.Int32 Rank
     int& dyn_Rank();
     // Get instance field reference: public readonly System.Int64 Score

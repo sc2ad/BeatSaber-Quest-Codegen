@@ -36,6 +36,11 @@ namespace Oculus::Platform {
     public:
     // Nested type: Oculus::Platform::VoipAudioSourceHiLevel::FilterReadDelegate
     class FilterReadDelegate;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 initialPlaybackDelayMS
     // Size: 0x4
     // Offset: 0x18
@@ -64,6 +69,7 @@ namespace Oculus::Platform {
     Oculus::Platform::IVoipPCMSource* pcmSource;
     // Field size check
     static_assert(sizeof(Oculus::Platform::IVoipPCMSource*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static private System.Int32 audioSystemPlaybackFrequency

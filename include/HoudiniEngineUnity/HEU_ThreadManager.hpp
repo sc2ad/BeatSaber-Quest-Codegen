@@ -31,6 +31,11 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_ThreadManager : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_ThreadedTask> _tasks
     // Size: 0x8
     // Offset: 0x10
@@ -49,6 +54,7 @@ namespace HoudiniEngineUnity {
     System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_ThreadedTask*>* pendingRemove;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_ThreadedTask*>*) == 0x8);
+    public:
     // Get static field: static private HoudiniEngineUnity.HEU_ThreadManager _instance
     static HoudiniEngineUnity::HEU_ThreadManager* _get__instance();
     // Set static field: static private HoudiniEngineUnity.HEU_ThreadManager _instance

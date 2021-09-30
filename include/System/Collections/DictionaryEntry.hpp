@@ -19,6 +19,11 @@ namespace System::Collections {
   // [TokenAttribute] Offset: FFFFFFFF
   struct DictionaryEntry/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Object _key
     // Size: 0x8
     // Offset: 0x0
@@ -31,6 +36,7 @@ namespace System::Collections {
     ::Il2CppObject* value;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
+    public:
     // Creating value type constructor for type: DictionaryEntry
     constexpr DictionaryEntry(::Il2CppObject* key_ = {}, ::Il2CppObject* value_ = {}) noexcept : key{key_}, value{value_} {}
     // Creating interface conversion operator: operator System::ValueType

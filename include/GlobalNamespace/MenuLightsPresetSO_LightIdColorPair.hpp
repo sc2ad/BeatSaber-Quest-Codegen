@@ -32,6 +32,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MenuLightsPresetSO::LightIdColorPair : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 lightId
     // Size: 0x4
     // Offset: 0x10
@@ -53,6 +58,7 @@ namespace GlobalNamespace {
     float intensity;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: public System.Int32 lightId
     int& dyn_lightId();
     // Get instance field reference: public ColorSO baseColor

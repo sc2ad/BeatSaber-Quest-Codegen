@@ -40,6 +40,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::BombNoteController::Pool
     class Pool;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private CuttableBySaber _cuttableBySaber
     // Size: 0x8
     // Offset: 0x78
@@ -58,6 +63,7 @@ namespace GlobalNamespace {
     bool hidden;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private CuttableBySaber _cuttableBySaber
     GlobalNamespace::CuttableBySaber*& dyn__cuttableBySaber();
     // Get instance field reference: private UnityEngine.GameObject _wrapperGO

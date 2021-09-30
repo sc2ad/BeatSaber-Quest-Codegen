@@ -50,12 +50,18 @@ namespace HoudiniEngineUnity {
     // [TokenAttribute] Offset: FFFFFFFF
     struct PDGState/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: PDGState
       constexpr PDGState(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -108,6 +114,11 @@ namespace HoudiniEngineUnity {
     #pragma pack(pop)
     static check_size<sizeof(HEU_TOPNodeData::PDGState), 0 + sizeof(int)> __HoudiniEngineUnity_HEU_TOPNodeData_PDGStateSizeCheck;
     static_assert(sizeof(HEU_TOPNodeData::PDGState) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 _nodeID
     // Size: 0x4
     // Offset: 0x10
@@ -166,6 +177,7 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::HEU_WorkItemTally* workItemTally;
     // Field size check
     static_assert(sizeof(HoudiniEngineUnity::HEU_WorkItemTally*) == 0x8);
+    public:
     // Get instance field reference: public System.Int32 _nodeID
     int& dyn__nodeID();
     // Get instance field reference: public System.String _nodeName

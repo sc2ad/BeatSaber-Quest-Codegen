@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -36,12 +37,17 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class IKMappingSpine : public RootMotion::FinalIK::IKMapping {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Transform[] spineBones
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<UnityEngine::Transform*> spineBones;
+    ::ArrayW<UnityEngine::Transform*> spineBones;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Transform*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Transform*>) == 0x8);
     // public UnityEngine.Transform leftUpperArmBone
     // Size: 0x8
     // Offset: 0x18
@@ -91,9 +97,9 @@ namespace RootMotion::FinalIK {
     // private RootMotion.FinalIK.IKMapping/RootMotion.FinalIK.BoneMap[] spine
     // Size: 0x8
     // Offset: 0x48
-    ::ArrayWrapper<RootMotion::FinalIK::IKMapping::BoneMap*> spine;
+    ::ArrayW<RootMotion::FinalIK::IKMapping::BoneMap*> spine;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::IKMapping::BoneMap*>) == 0x8);
+    static_assert(sizeof(::ArrayW<RootMotion::FinalIK::IKMapping::BoneMap*>) == 0x8);
     // private RootMotion.FinalIK.IKMapping/RootMotion.FinalIK.BoneMap leftUpperArm
     // Size: 0x8
     // Offset: 0x50
@@ -124,8 +130,9 @@ namespace RootMotion::FinalIK {
     bool useFABRIK;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: public UnityEngine.Transform[] spineBones
-    ::ArrayWrapper<UnityEngine::Transform*>& dyn_spineBones();
+    ::ArrayW<UnityEngine::Transform*>& dyn_spineBones();
     // Get instance field reference: public UnityEngine.Transform leftUpperArmBone
     UnityEngine::Transform*& dyn_leftUpperArmBone();
     // Get instance field reference: public UnityEngine.Transform rightUpperArmBone
@@ -141,7 +148,7 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private System.Int32 rootNodeIndex
     int& dyn_rootNodeIndex();
     // Get instance field reference: private RootMotion.FinalIK.IKMapping/RootMotion.FinalIK.BoneMap[] spine
-    ::ArrayWrapper<RootMotion::FinalIK::IKMapping::BoneMap*>& dyn_spine();
+    ::ArrayW<RootMotion::FinalIK::IKMapping::BoneMap*>& dyn_spine();
     // Get instance field reference: private RootMotion.FinalIK.IKMapping/RootMotion.FinalIK.BoneMap leftUpperArm
     RootMotion::FinalIK::IKMapping::BoneMap*& dyn_leftUpperArm();
     // Get instance field reference: private RootMotion.FinalIK.IKMapping/RootMotion.FinalIK.BoneMap rightUpperArm
@@ -155,13 +162,13 @@ namespace RootMotion::FinalIK {
     // public System.Void .ctor(UnityEngine.Transform[] spineBones, UnityEngine.Transform leftUpperArmBone, UnityEngine.Transform rightUpperArmBone, UnityEngine.Transform leftThighBone, UnityEngine.Transform rightThighBone)
     // Offset: 0x1E9A324
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static IKMappingSpine* New_ctor(::ArrayWrapper<UnityEngine::Transform*> spineBones, UnityEngine::Transform* leftUpperArmBone, UnityEngine::Transform* rightUpperArmBone, UnityEngine::Transform* leftThighBone, UnityEngine::Transform* rightThighBone) {
+    static IKMappingSpine* New_ctor(::ArrayW<UnityEngine::Transform*> spineBones, UnityEngine::Transform* leftUpperArmBone, UnityEngine::Transform* rightUpperArmBone, UnityEngine::Transform* leftThighBone, UnityEngine::Transform* rightThighBone) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::IKMappingSpine::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IKMappingSpine*, creationType>(spineBones, leftUpperArmBone, rightUpperArmBone, leftThighBone, rightThighBone)));
     }
     // public System.Void SetBones(UnityEngine.Transform[] spineBones, UnityEngine.Transform leftUpperArmBone, UnityEngine.Transform rightUpperArmBone, UnityEngine.Transform leftThighBone, UnityEngine.Transform rightThighBone)
     // Offset: 0x1E9A47C
-    void SetBones(::ArrayWrapper<UnityEngine::Transform*> spineBones, UnityEngine::Transform* leftUpperArmBone, UnityEngine::Transform* rightUpperArmBone, UnityEngine::Transform* leftThighBone, UnityEngine::Transform* rightThighBone);
+    void SetBones(::ArrayW<UnityEngine::Transform*> spineBones, UnityEngine::Transform* leftUpperArmBone, UnityEngine::Transform* rightUpperArmBone, UnityEngine::Transform* leftThighBone, UnityEngine::Transform* rightThighBone);
     // public System.Void StoreDefaultLocalState()
     // Offset: 0x1E9A48C
     void StoreDefaultLocalState();
@@ -220,7 +227,7 @@ DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKMappingSpine*, "RootMotion.FinalIK
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKMappingSpine::SetBones
 // Il2CppName: SetBones
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKMappingSpine::*)(::ArrayWrapper<UnityEngine::Transform*>, UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::Transform*)>(&RootMotion::FinalIK::IKMappingSpine::SetBones)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKMappingSpine::*)(::ArrayW<UnityEngine::Transform*>, UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::Transform*, UnityEngine::Transform*)>(&RootMotion::FinalIK::IKMappingSpine::SetBones)> {
   static const MethodInfo* get() {
     static auto* spineBones = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Transform"), 1)->byval_arg;
     static auto* leftUpperArmBone = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;

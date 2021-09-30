@@ -31,6 +31,11 @@ namespace UnityEngine::EventSystems {
   // [TokenAttribute] Offset: FFFFFFFF
   class AxisEventData : public UnityEngine::EventSystems::BaseEventData {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Vector2 <moveVector>k__BackingField
     // Size: 0x8
     // Offset: 0x20
@@ -43,6 +48,7 @@ namespace UnityEngine::EventSystems {
     UnityEngine::EventSystems::MoveDirection moveDir;
     // Field size check
     static_assert(sizeof(UnityEngine::EventSystems::MoveDirection) == 0x4);
+    public:
     // Get instance field reference: private UnityEngine.Vector2 <moveVector>k__BackingField
     UnityEngine::Vector2& dyn_$moveVector$k__BackingField();
     // Get instance field reference: private UnityEngine.EventSystems.MoveDirection <moveDir>k__BackingField

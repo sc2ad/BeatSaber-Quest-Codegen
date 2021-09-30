@@ -5,6 +5,7 @@
 // Begin includes
 #include <stdint.h>
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Crypto
@@ -31,7 +32,7 @@ namespace Org::BouncyCastle::Crypto {
     void Init(bool forSigning, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public Org.BouncyCastle.Math.BigInteger[] GenerateSignature(System.Byte[] message)
     // Offset: 0xFFFFFFFF
-    ::ArrayWrapper<Org::BouncyCastle::Math::BigInteger*> GenerateSignature(::ArrayWrapper<uint8_t> message);
+    ::ArrayW<Org::BouncyCastle::Math::BigInteger*> GenerateSignature(::ArrayW<uint8_t> message);
   }; // Org.BouncyCastle.Crypto.IDsa
   #pragma pack(pop)
 }
@@ -51,7 +52,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::IDsa::GenerateSignature
 // Il2CppName: GenerateSignature
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<Org::BouncyCastle::Math::BigInteger*> (Org::BouncyCastle::Crypto::IDsa::*)(::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Crypto::IDsa::GenerateSignature)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Org::BouncyCastle::Math::BigInteger*> (Org::BouncyCastle::Crypto::IDsa::*)(::ArrayW<uint8_t>)>(&Org::BouncyCastle::Crypto::IDsa::GenerateSignature)> {
   static const MethodInfo* get() {
     static auto* message = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::IDsa*), "GenerateSignature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});

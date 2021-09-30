@@ -53,6 +53,11 @@ namespace HMUI {
     public:
     // Writing base type padding for base size: 0x44 to desired offset: 0x48
     char ___base_padding[0x4] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private TMPro.TextMeshProUGUI _text
     // Size: 0x8
     // Offset: 0x48
@@ -85,6 +90,7 @@ namespace HMUI {
     bool initialized;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator HMUI::TableView::IDataSource
     operator HMUI::TableView::IDataSource() noexcept {
       return *reinterpret_cast<HMUI::TableView::IDataSource*>(this);

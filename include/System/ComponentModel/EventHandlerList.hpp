@@ -29,6 +29,11 @@ namespace System::ComponentModel {
     public:
     // Nested type: System::ComponentModel::EventHandlerList::ListEntry
     class ListEntry;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.ComponentModel.EventHandlerList/System.ComponentModel.ListEntry head
     // Size: 0x8
     // Offset: 0x10
@@ -41,6 +46,7 @@ namespace System::ComponentModel {
     System::ComponentModel::Component* parent;
     // Field size check
     static_assert(sizeof(System::ComponentModel::Component*) == 0x8);
+    public:
     // Get instance field reference: private System.ComponentModel.EventHandlerList/System.ComponentModel.ListEntry head
     System::ComponentModel::EventHandlerList::ListEntry*& dyn_head();
     // Get instance field reference: private System.ComponentModel.Component parent

@@ -27,6 +27,11 @@ namespace System::Globalization {
   // [ComVisibleAttribute] Offset: E5E6CC
   class RegionInfo : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 regionId
     // Size: 0x4
     // Offset: 0x10
@@ -89,6 +94,7 @@ namespace System::Globalization {
     ::Il2CppString* currencyNativeName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get static field: static private System.Globalization.RegionInfo currentRegion
     static System::Globalization::RegionInfo* _get_currentRegion();
     // Set static field: static private System.Globalization.RegionInfo currentRegion

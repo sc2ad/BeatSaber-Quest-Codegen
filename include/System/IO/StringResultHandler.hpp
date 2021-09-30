@@ -26,6 +26,11 @@ namespace System::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   class StringResultHandler : public System::IO::SearchResultHandler_1<::Il2CppString*> {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean _includeFiles
     // Size: 0x1
     // Offset: 0x10
@@ -38,6 +43,7 @@ namespace System::IO {
     bool includeDirs;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private System.Boolean _includeFiles
     bool& dyn__includeFiles();
     // Get instance field reference: private System.Boolean _includeDirs

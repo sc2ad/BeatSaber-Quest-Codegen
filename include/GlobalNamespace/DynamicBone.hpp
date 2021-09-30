@@ -55,12 +55,18 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct UpdateMode/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: UpdateMode
       constexpr UpdateMode(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -101,12 +107,18 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct FreezeAxis/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: FreezeAxis
       constexpr FreezeAxis(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -147,6 +159,11 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(DynamicBone::FreezeAxis), 0 + sizeof(int)> __GlobalNamespace_DynamicBone_FreezeAxisSizeCheck;
     static_assert(sizeof(DynamicBone::FreezeAxis) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Transform m_Root
     // Size: 0x8
     // Offset: 0x18
@@ -357,6 +374,7 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<GlobalNamespace::DynamicBone::Particle*>* m_Particles;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::DynamicBone::Particle*>*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public UnityEngine.Transform m_Root

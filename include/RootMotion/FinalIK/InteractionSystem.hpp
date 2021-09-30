@@ -17,6 +17,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: RootMotion::FinalIK
@@ -62,6 +63,11 @@ namespace RootMotion::FinalIK {
     class InteractionDelegate;
     // Nested type: RootMotion::FinalIK::InteractionSystem::InteractionEventDelegate
     class InteractionEventDelegate;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [TooltipAttribute] Offset: 0xEF383C
     // public System.String targetTag
     // Size: 0x8
@@ -203,9 +209,9 @@ namespace RootMotion::FinalIK {
     // private RootMotion.FinalIK.InteractionEffector[] interactionEffectors
     // Size: 0x8
     // Offset: 0xD0
-    ::ArrayWrapper<RootMotion::FinalIK::InteractionEffector*> interactionEffectors;
+    ::ArrayW<RootMotion::FinalIK::InteractionEffector*> interactionEffectors;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::InteractionEffector*>) == 0x8);
+    static_assert(sizeof(::ArrayW<RootMotion::FinalIK::InteractionEffector*>) == 0x8);
     // private System.Boolean initiated
     // Size: 0x1
     // Offset: 0xD8
@@ -226,6 +232,7 @@ namespace RootMotion::FinalIK {
     UnityEngine::Collider* c;
     // Field size check
     static_assert(sizeof(UnityEngine::Collider*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.String targetTag
@@ -269,7 +276,7 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public RootMotion.FinalIK.InteractionLookAt lookAt
     RootMotion::FinalIK::InteractionLookAt*& dyn_lookAt();
     // Get instance field reference: private RootMotion.FinalIK.InteractionEffector[] interactionEffectors
-    ::ArrayWrapper<RootMotion::FinalIK::InteractionEffector*>& dyn_interactionEffectors();
+    ::ArrayW<RootMotion::FinalIK::InteractionEffector*>& dyn_interactionEffectors();
     // Get instance field reference: private System.Boolean initiated
     bool& dyn_initiated();
     // Get instance field reference: private UnityEngine.Collider lastCollider
@@ -377,10 +384,10 @@ namespace RootMotion::FinalIK {
     RootMotion::FinalIK::InteractionTarget* GetClosestInteractionTargetInRange();
     // public RootMotion.FinalIK.InteractionObject[] GetClosestInteractionObjectsInRange()
     // Offset: 0x1FED158
-    ::ArrayWrapper<RootMotion::FinalIK::InteractionObject*> GetClosestInteractionObjectsInRange();
+    ::ArrayW<RootMotion::FinalIK::InteractionObject*> GetClosestInteractionObjectsInRange();
     // public RootMotion.FinalIK.InteractionTarget[] GetClosestInteractionTargetsInRange()
     // Offset: 0x1FED278
-    ::ArrayWrapper<RootMotion::FinalIK::InteractionTarget*> GetClosestInteractionTargetsInRange();
+    ::ArrayW<RootMotion::FinalIK::InteractionTarget*> GetClosestInteractionTargetsInRange();
     // public System.Boolean TriggerEffectorsReady(System.Int32 index)
     // Offset: 0x1FED3F0
     bool TriggerEffectorsReady(int index);
@@ -754,7 +761,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<RootMotion:
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionSystem::GetClosestInteractionObjectsInRange
 // Il2CppName: GetClosestInteractionObjectsInRange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<RootMotion::FinalIK::InteractionObject*> (RootMotion::FinalIK::InteractionSystem::*)()>(&RootMotion::FinalIK::InteractionSystem::GetClosestInteractionObjectsInRange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<RootMotion::FinalIK::InteractionObject*> (RootMotion::FinalIK::InteractionSystem::*)()>(&RootMotion::FinalIK::InteractionSystem::GetClosestInteractionObjectsInRange)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionSystem*), "GetClosestInteractionObjectsInRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -762,7 +769,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: RootMotion::FinalIK::InteractionSystem::GetClosestInteractionTargetsInRange
 // Il2CppName: GetClosestInteractionTargetsInRange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<RootMotion::FinalIK::InteractionTarget*> (RootMotion::FinalIK::InteractionSystem::*)()>(&RootMotion::FinalIK::InteractionSystem::GetClosestInteractionTargetsInRange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<RootMotion::FinalIK::InteractionTarget*> (RootMotion::FinalIK::InteractionSystem::*)()>(&RootMotion::FinalIK::InteractionSystem::GetClosestInteractionTargetsInRange)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::InteractionSystem*), "GetClosestInteractionTargetsInRange", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

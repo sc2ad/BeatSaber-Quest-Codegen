@@ -40,6 +40,11 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class UnifiedNetworkPlayerModel::$$c__DisplayClass80_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Boolean clearCurrentList
     // Size: 0x1
     // Offset: 0x10
@@ -66,6 +71,7 @@ namespace GlobalNamespace {
     GlobalNamespace::GameplayServerConfiguration localConfiguration;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayServerConfiguration) == 0x18);
+    public:
     // Get instance field reference: public System.Boolean clearCurrentList
     bool& dyn_clearCurrentList();
     // Get instance field reference: public UnifiedNetworkPlayerModel <>4__this

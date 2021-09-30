@@ -89,6 +89,11 @@ namespace TMPro {
     class $$c__DisplayClass60_0;
     // Nested type: TMPro::TMP_Dropdown::$DelayedDestroyDropdownList$d__72
     class $DelayedDestroyDropdownList$d__72;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.RectTransform m_Template
     // Size: 0x8
     // Offset: 0xF8
@@ -173,6 +178,7 @@ namespace TMPro {
     bool validTemplate;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator UnityEngine::EventSystems::IPointerClickHandler
     operator UnityEngine::EventSystems::IPointerClickHandler() noexcept {
       return *reinterpret_cast<UnityEngine::EventSystems::IPointerClickHandler*>(this);

@@ -59,6 +59,11 @@ namespace GlobalNamespace {
     class $$c__DisplayClass26_0;
     // Nested type: GlobalNamespace::ShowcaseFlowCoordinator::$$c__DisplayClass30_0
     class $$c__DisplayClass30_0;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private LocalLeaderboardsModel _localLeaderboardsModel
     // Size: 0x8
     // Offset: 0x110
@@ -126,6 +131,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MenuTransitionsHelper* menuTransitionsHelper;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MenuTransitionsHelper*) == 0x8);
+    public:
     // Get instance field reference: private LocalLeaderboardsModel _localLeaderboardsModel
     GlobalNamespace::LocalLeaderboardsModel*& dyn__localLeaderboardsModel();
     // Get instance field reference: private TabBarViewController _tabBarViewController

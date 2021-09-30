@@ -12,6 +12,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Asn1
@@ -67,7 +68,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Sequence
     // Base method: System.Void Asn1Sequence::.ctor(params Org.BouncyCastle.Asn1.Asn1Encodable[] elements)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DerSequence* New_ctor(::ArrayWrapper<Org::BouncyCastle::Asn1::Asn1Encodable*> elements) {
+    static DerSequence* New_ctor(::ArrayW<Org::BouncyCastle::Asn1::Asn1Encodable*> elements) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerSequence::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerSequence*, creationType>(elements)));
     }

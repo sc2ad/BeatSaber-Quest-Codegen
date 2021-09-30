@@ -33,6 +33,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class TutorialBeatmapObjectPoolsInstaller : public Zenject::MonoInstaller {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private TutorialNoteController _basicNotePrefab
     // Size: 0x8
     // Offset: 0x20
@@ -57,6 +62,7 @@ namespace GlobalNamespace {
     GlobalNamespace::NoteLineConnectionController* noteLineConnectionControllerPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::NoteLineConnectionController*) == 0x8);
+    public:
     // Get instance field reference: private TutorialNoteController _basicNotePrefab
     GlobalNamespace::TutorialNoteController*& dyn__basicNotePrefab();
     // Get instance field reference: private BombNoteController _bombNotePrefab

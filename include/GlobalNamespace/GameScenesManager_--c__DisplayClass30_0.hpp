@@ -39,6 +39,11 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class GameScenesManager::$$c__DisplayClass30_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public GameScenesManager/ScenesStackData scenesStackData
     // Size: 0x8
     // Offset: 0x10
@@ -63,6 +68,7 @@ namespace GlobalNamespace {
     System::Action_1<Zenject::DiContainer*>* finishCallback;
     // Field size check
     static_assert(sizeof(System::Action_1<Zenject::DiContainer*>*) == 0x8);
+    public:
     // Get instance field reference: public GameScenesManager/ScenesStackData scenesStackData
     GlobalNamespace::GameScenesManager::ScenesStackData*& dyn_scenesStackData();
     // Get instance field reference: public ScenesTransitionSetupDataSO scenesTransitionSetupData

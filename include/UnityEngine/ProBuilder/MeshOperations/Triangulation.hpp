@@ -9,6 +9,7 @@
 #include "UnityEngine/Vector2.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::ProBuilder::MeshOperations
@@ -61,10 +62,10 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     static bool TriangulateVertices(System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Vertex*>* vertices, ByRef<System::Collections::Generic::List_1<int>*> triangles, bool unordered, bool convex);
     // static public System.Boolean TriangulateVertices(UnityEngine.Vector3[] vertices, out System.Collections.Generic.List`1<System.Int32> triangles, UnityEngine.Vector3[][] holes)
     // Offset: 0x18FEEC8
-    static bool TriangulateVertices(::ArrayWrapper<UnityEngine::Vector3> vertices, ByRef<System::Collections::Generic::List_1<int>*> triangles, ::ArrayWrapper<::ArrayWrapper<UnityEngine::Vector3>> holes);
+    static bool TriangulateVertices(::ArrayW<UnityEngine::Vector3> vertices, ByRef<System::Collections::Generic::List_1<int>*> triangles, ::ArrayW<::ArrayW<UnityEngine::Vector3>> holes);
     // static public System.Boolean TriangulateVertices(UnityEngine.Vector3[] vertices, out System.Collections.Generic.List`1<System.Int32> triangles, System.Boolean unordered, System.Boolean convex)
     // Offset: 0x18FED98
-    static bool TriangulateVertices(::ArrayWrapper<UnityEngine::Vector3> vertices, ByRef<System::Collections::Generic::List_1<int>*> triangles, bool unordered, bool convex);
+    static bool TriangulateVertices(::ArrayW<UnityEngine::Vector3> vertices, ByRef<System::Collections::Generic::List_1<int>*> triangles, bool unordered, bool convex);
     // static public System.Boolean Triangulate(System.Collections.Generic.IList`1<UnityEngine.Vector2> points, out System.Collections.Generic.List`1<System.Int32> indexes, System.Boolean convex)
     // Offset: 0x18FE1CC
     static bool Triangulate(System::Collections::Generic::IList_1<UnityEngine::Vector2>* points, ByRef<System::Collections::Generic::List_1<int>*> indexes, bool convex);
@@ -111,7 +112,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::Triangulation::TriangulateVertices
 // Il2CppName: TriangulateVertices
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayWrapper<UnityEngine::Vector3>, ByRef<System::Collections::Generic::List_1<int>*>, ::ArrayWrapper<::ArrayWrapper<UnityEngine::Vector3>>)>(&UnityEngine::ProBuilder::MeshOperations::Triangulation::TriangulateVertices)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<UnityEngine::Vector3>, ByRef<System::Collections::Generic::List_1<int>*>, ::ArrayW<::ArrayW<UnityEngine::Vector3>>)>(&UnityEngine::ProBuilder::MeshOperations::Triangulation::TriangulateVertices)> {
   static const MethodInfo* get() {
     static auto* vertices = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
     static auto* triangles = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->this_arg;
@@ -122,7 +123,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::Triangulation::TriangulateVertices
 // Il2CppName: TriangulateVertices
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayWrapper<UnityEngine::Vector3>, ByRef<System::Collections::Generic::List_1<int>*>, bool, bool)>(&UnityEngine::ProBuilder::MeshOperations::Triangulation::TriangulateVertices)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<UnityEngine::Vector3>, ByRef<System::Collections::Generic::List_1<int>*>, bool, bool)>(&UnityEngine::ProBuilder::MeshOperations::Triangulation::TriangulateVertices)> {
   static const MethodInfo* get() {
     static auto* vertices = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
     static auto* triangles = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->this_arg;

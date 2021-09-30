@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -40,6 +41,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MainSettingsMenuViewController : public HMUI::ViewController {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Action`2<SettingsSubMenuInfo,System.Int32> didSelectSettingsSubMenuEvent
     // Size: 0x8
     // Offset: 0x70
@@ -49,9 +55,9 @@ namespace GlobalNamespace {
     // private SettingsSubMenuInfo[] _settingsSubMenuInfos
     // Size: 0x8
     // Offset: 0x78
-    ::ArrayWrapper<GlobalNamespace::SettingsSubMenuInfo*> settingsSubMenuInfos;
+    ::ArrayW<GlobalNamespace::SettingsSubMenuInfo*> settingsSubMenuInfos;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::SettingsSubMenuInfo*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::SettingsSubMenuInfo*>) == 0x8);
     // private HMUI.TextSegmentedControl _settingsMenuSegmentedControl
     // Size: 0x8
     // Offset: 0x80
@@ -70,10 +76,11 @@ namespace GlobalNamespace {
     int selectedSubMenuInfoIdx;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: private System.Action`2<SettingsSubMenuInfo,System.Int32> didSelectSettingsSubMenuEvent
     System::Action_2<GlobalNamespace::SettingsSubMenuInfo*, int>*& dyn_didSelectSettingsSubMenuEvent();
     // Get instance field reference: private SettingsSubMenuInfo[] _settingsSubMenuInfos
-    ::ArrayWrapper<GlobalNamespace::SettingsSubMenuInfo*>& dyn__settingsSubMenuInfos();
+    ::ArrayW<GlobalNamespace::SettingsSubMenuInfo*>& dyn__settingsSubMenuInfos();
     // Get instance field reference: private HMUI.TextSegmentedControl _settingsMenuSegmentedControl
     HMUI::TextSegmentedControl*& dyn__settingsMenuSegmentedControl();
     // Get instance field reference: private SettingsSubMenuInfo _selectedSubMenuInfo

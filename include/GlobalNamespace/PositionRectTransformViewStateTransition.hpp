@@ -40,6 +40,11 @@ namespace GlobalNamespace {
   // [RequireComponent] Offset: EFCC20
   class PositionRectTransformViewStateTransition : public GlobalNamespace::BaseStateTransition_1<UnityEngine::RectTransform*> {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [SpaceAttribute] Offset: 0xF0D4FC
     // private Vector3TransitionSO _transition
     // Size: 0x8
@@ -53,6 +58,7 @@ namespace GlobalNamespace {
     Tweening::Vector3Tween* vectorTween;
     // Field size check
     static_assert(sizeof(Tweening::Vector3Tween*) == 0x8);
+    public:
     // Get instance field reference: private Vector3TransitionSO _transition
     GlobalNamespace::Vector3TransitionSO*& dyn__transition();
     // Get instance field reference: private Tweening.Vector3Tween _vectorTween

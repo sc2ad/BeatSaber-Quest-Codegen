@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text
@@ -27,12 +28,17 @@ namespace System::Security::Util {
   // [TokenAttribute] Offset: FFFFFFFF
   class Tokenizer::StringMaker : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String[] aStrings
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<::Il2CppString*> aStrings;
+    ::ArrayW<::Il2CppString*> aStrings;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // private System.UInt32 cStringsMax
     // Size: 0x4
     // Offset: 0x18
@@ -54,17 +60,18 @@ namespace System::Security::Util {
     // public System.Char[] _outChars
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<::Il2CppChar> outChars;
+    ::ArrayW<::Il2CppChar> outChars;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppChar>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppChar>) == 0x8);
     // public System.Int32 _outIndex
     // Size: 0x4
     // Offset: 0x30
     int outIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: private System.String[] aStrings
-    ::ArrayWrapper<::Il2CppString*>& dyn_aStrings();
+    ::ArrayW<::Il2CppString*>& dyn_aStrings();
     // Get instance field reference: private System.UInt32 cStringsMax
     uint& dyn_cStringsMax();
     // Get instance field reference: private System.UInt32 cStringsUsed
@@ -72,7 +79,7 @@ namespace System::Security::Util {
     // Get instance field reference: public System.Text.StringBuilder _outStringBuilder
     System::Text::StringBuilder*& dyn__outStringBuilder();
     // Get instance field reference: public System.Char[] _outChars
-    ::ArrayWrapper<::Il2CppChar>& dyn__outChars();
+    ::ArrayW<::Il2CppChar>& dyn__outChars();
     // Get instance field reference: public System.Int32 _outIndex
     int& dyn__outIndex();
     // static private System.UInt32 HashString(System.String str)
@@ -80,10 +87,10 @@ namespace System::Security::Util {
     static uint HashString(::Il2CppString* str);
     // static private System.UInt32 HashCharArray(System.Char[] a, System.Int32 l)
     // Offset: 0x1DE6A38
-    static uint HashCharArray(::ArrayWrapper<::Il2CppChar> a, int l);
+    static uint HashCharArray(::ArrayW<::Il2CppChar> a, int l);
     // private System.Boolean CompareStringAndChars(System.String str, System.Char[] a, System.Int32 l)
     // Offset: 0x1DE6B28
-    bool CompareStringAndChars(::Il2CppString* str, ::ArrayWrapper<::Il2CppChar> a, int l);
+    bool CompareStringAndChars(::Il2CppString* str, ::ArrayW<::Il2CppChar> a, int l);
     // public System.String MakeString()
     // Offset: 0x1DE66F0
     ::Il2CppString* MakeString();
@@ -115,7 +122,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::
 // Writing MetadataGetter for method: System::Security::Util::Tokenizer::StringMaker::HashCharArray
 // Il2CppName: HashCharArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::ArrayWrapper<::Il2CppChar>, int)>(&System::Security::Util::Tokenizer::StringMaker::HashCharArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::ArrayW<::Il2CppChar>, int)>(&System::Security::Util::Tokenizer::StringMaker::HashCharArray)> {
   static const MethodInfo* get() {
     static auto* a = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* l = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -125,7 +132,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::
 // Writing MetadataGetter for method: System::Security::Util::Tokenizer::StringMaker::CompareStringAndChars
 // Il2CppName: CompareStringAndChars
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Security::Util::Tokenizer::StringMaker::*)(::Il2CppString*, ::ArrayWrapper<::Il2CppChar>, int)>(&System::Security::Util::Tokenizer::StringMaker::CompareStringAndChars)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Security::Util::Tokenizer::StringMaker::*)(::Il2CppString*, ::ArrayW<::Il2CppChar>, int)>(&System::Security::Util::Tokenizer::StringMaker::CompareStringAndChars)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* a = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;

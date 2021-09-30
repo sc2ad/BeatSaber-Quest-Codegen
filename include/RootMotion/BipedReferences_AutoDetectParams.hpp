@@ -19,6 +19,11 @@ namespace RootMotion {
   // [TokenAttribute] Offset: FFFFFFFF
   struct BipedReferences::AutoDetectParams/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Boolean legsParentInSpine
     // Size: 0x1
     // Offset: 0x0
@@ -31,6 +36,7 @@ namespace RootMotion {
     bool includeEyes;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating value type constructor for type: AutoDetectParams
     constexpr AutoDetectParams(bool legsParentInSpine_ = {}, bool includeEyes_ = {}) noexcept : legsParentInSpine{legsParentInSpine_}, includeEyes{includeEyes_} {}
     // Creating interface conversion operator: operator System::ValueType

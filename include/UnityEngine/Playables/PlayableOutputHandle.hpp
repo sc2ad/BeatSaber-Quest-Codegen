@@ -52,6 +52,11 @@ namespace UnityEngine::Playables {
   // [UsedByNativeCodeAttribute] Offset: E748C0
   struct PlayableOutputHandle/*, public System::ValueType, public System::IEquatable_1<UnityEngine::Playables::PlayableOutputHandle>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.IntPtr m_Handle
     // Size: 0x8
     // Offset: 0x0
@@ -64,6 +69,7 @@ namespace UnityEngine::Playables {
     uint m_Version;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
+    public:
     // Creating value type constructor for type: PlayableOutputHandle
     constexpr PlayableOutputHandle(System::IntPtr m_Handle_ = {}, uint m_Version_ = {}) noexcept : m_Handle{m_Handle_}, m_Version{m_Version_} {}
     // Creating interface conversion operator: operator System::ValueType

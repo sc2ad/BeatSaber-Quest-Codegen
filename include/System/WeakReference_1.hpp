@@ -31,6 +31,11 @@ namespace System {
   template<typename T>
   class WeakReference_1 : public ::Il2CppObject/*, public System::Runtime::Serialization::ISerializable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Runtime.InteropServices.GCHandle handle
     // Size: 0x4
     // Offset: 0x0
@@ -43,6 +48,7 @@ namespace System {
     bool trackResurrection;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator System::Runtime::Serialization::ISerializable
     operator System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);

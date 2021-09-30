@@ -27,6 +27,11 @@ namespace OVR::OpenVR {
     class _GetDriverName;
     // Nested type: OVR::OpenVR::IVRDriverManager::_GetDriverHandle
     class _GetDriverHandle;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // OVR.OpenVR.IVRDriverManager/OVR.OpenVR._GetDriverCount GetDriverCount
     // Size: 0x8
     // Offset: 0x0
@@ -45,6 +50,7 @@ namespace OVR::OpenVR {
     OVR::OpenVR::IVRDriverManager::_GetDriverHandle* GetDriverHandle;
     // Field size check
     static_assert(sizeof(OVR::OpenVR::IVRDriverManager::_GetDriverHandle*) == 0x8);
+    public:
     // Creating value type constructor for type: IVRDriverManager
     constexpr IVRDriverManager(OVR::OpenVR::IVRDriverManager::_GetDriverCount* GetDriverCount_ = {}, OVR::OpenVR::IVRDriverManager::_GetDriverName* GetDriverName_ = {}, OVR::OpenVR::IVRDriverManager::_GetDriverHandle* GetDriverHandle_ = {}) noexcept : GetDriverCount{GetDriverCount_}, GetDriverName{GetDriverName_}, GetDriverHandle{GetDriverHandle_} {}
     // Creating interface conversion operator: operator System::ValueType

@@ -31,12 +31,18 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   class CVRIOBuffer : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private OVR.OpenVR.IVRIOBuffer FnTable
     // Size: 0x28
     // Offset: 0x10
     OVR::OpenVR::IVRIOBuffer FnTable;
     // Field size check
     static_assert(sizeof(OVR::OpenVR::IVRIOBuffer) == 0x28);
+    public:
     // Creating conversion operator: operator OVR::OpenVR::IVRIOBuffer
     constexpr operator OVR::OpenVR::IVRIOBuffer() const noexcept {
       return FnTable;

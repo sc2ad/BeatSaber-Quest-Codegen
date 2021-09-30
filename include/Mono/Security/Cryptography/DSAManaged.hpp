@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Mono::Security::Cryptography
@@ -39,6 +40,11 @@ namespace Mono::Security::Cryptography {
     public:
     // Nested type: Mono::Security::Cryptography::DSAManaged::KeyGeneratedEventHandler
     class KeyGeneratedEventHandler;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean keypairGenerated
     // Size: 0x1
     // Offset: 0x20
@@ -122,6 +128,7 @@ namespace Mono::Security::Cryptography {
     Mono::Security::Cryptography::DSAManaged::KeyGeneratedEventHandler* KeyGenerated;
     // Field size check
     static_assert(sizeof(Mono::Security::Cryptography::DSAManaged::KeyGeneratedEventHandler*) == 0x8);
+    public:
     // Get instance field reference: private System.Boolean keypairGenerated
     bool& dyn_keypairGenerated();
     // Get instance field reference: private System.Boolean m_disposed
@@ -175,13 +182,13 @@ namespace Mono::Security::Cryptography {
     void GenerateKeyPair();
     // private System.Void add(System.Byte[] a, System.Byte[] b, System.Int32 value)
     // Offset: 0x1C44C98
-    void add(::ArrayWrapper<uint8_t> a, ::ArrayWrapper<uint8_t> b, int value);
+    void add(::ArrayW<uint8_t> a, ::ArrayW<uint8_t> b, int value);
     // private System.Void GenerateParams(System.Int32 keyLength)
     // Offset: 0x1C441D8
     void GenerateParams(int keyLength);
     // private System.Byte[] NormalizeArray(System.Byte[] array)
     // Offset: 0x1C44E2C
-    ::ArrayWrapper<uint8_t> NormalizeArray(::ArrayWrapper<uint8_t> array);
+    ::ArrayW<uint8_t> NormalizeArray(::ArrayW<uint8_t> array);
     // public override System.Int32 get_KeySize()
     // Offset: 0x1C44D78
     // Implemented from: System.Security.Cryptography.AsymmetricAlgorithm
@@ -206,7 +213,7 @@ namespace Mono::Security::Cryptography {
     // Offset: 0x1C4545C
     // Implemented from: System.Security.Cryptography.DSA
     // Base method: System.Boolean DSA::VerifySignature(System.Byte[] rgbHash, System.Byte[] rgbSignature)
-    bool VerifySignature(::ArrayWrapper<uint8_t> rgbHash, ::ArrayWrapper<uint8_t> rgbSignature);
+    bool VerifySignature(::ArrayW<uint8_t> rgbHash, ::ArrayW<uint8_t> rgbSignature);
     // protected override System.Void Dispose(System.Boolean disposing)
     // Offset: 0x1C45934
     // Implemented from: System.Security.Cryptography.AsymmetricAlgorithm
@@ -276,7 +283,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Security::Cryptography::DSAManaged::add
 // Il2CppName: add
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::DSAManaged::*)(::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>, int)>(&Mono::Security::Cryptography::DSAManaged::add)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::DSAManaged::*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>, int)>(&Mono::Security::Cryptography::DSAManaged::add)> {
   static const MethodInfo* get() {
     static auto* a = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* b = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -296,7 +303,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Security::Cryptography::DSAManaged::NormalizeArray
 // Il2CppName: NormalizeArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Mono::Security::Cryptography::DSAManaged::*)(::ArrayWrapper<uint8_t>)>(&Mono::Security::Cryptography::DSAManaged::NormalizeArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Mono::Security::Cryptography::DSAManaged::*)(::ArrayW<uint8_t>)>(&Mono::Security::Cryptography::DSAManaged::NormalizeArray)> {
   static const MethodInfo* get() {
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::DSAManaged*), "NormalizeArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array});
@@ -339,7 +346,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Security::Cryptography::DSAManaged::VerifySignature
 // Il2CppName: VerifySignature
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Security::Cryptography::DSAManaged::*)(::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>)>(&Mono::Security::Cryptography::DSAManaged::VerifySignature)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Security::Cryptography::DSAManaged::*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(&Mono::Security::Cryptography::DSAManaged::VerifySignature)> {
   static const MethodInfo* get() {
     static auto* rgbHash = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* rgbSignature = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;

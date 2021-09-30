@@ -30,6 +30,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayerSaveData::LocalPlayer : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.String playerId
     // Size: 0x8
     // Offset: 0x10
@@ -174,6 +179,7 @@ namespace GlobalNamespace {
     ::Il2CppString* currentDlcPromoId;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: public System.String playerId
     ::Il2CppString*& dyn_playerId();
     // Get instance field reference: public System.String playerName

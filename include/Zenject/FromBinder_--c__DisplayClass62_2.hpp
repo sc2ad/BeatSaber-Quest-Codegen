@@ -35,6 +35,11 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class FromBinder::$$c__DisplayClass62_2 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public Zenject.InjectContext ctx
     // Size: 0x8
     // Offset: 0x10
@@ -47,6 +52,7 @@ namespace Zenject {
     UnityEngine::MonoBehaviour* monoBehaviour;
     // Field size check
     static_assert(sizeof(UnityEngine::MonoBehaviour*) == 0x8);
+    public:
     // Get instance field reference: public Zenject.InjectContext ctx
     Zenject::InjectContext*& dyn_ctx();
     // Get instance field reference: public UnityEngine.MonoBehaviour monoBehaviour

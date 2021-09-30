@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net
@@ -40,12 +41,12 @@ namespace LiteNetLib::Layers {
     // Offset: 0x1DD3C48
     // Implemented from: LiteNetLib.Layers.PacketLayerBase
     // Base method: System.Void PacketLayerBase::ProcessInboundPacket(System.Net.IPEndPoint remoteEndPoint, ref System.Byte[] data, ref System.Int32 offset, ref System.Int32 length)
-    void ProcessInboundPacket(System::Net::IPEndPoint* remoteEndPoint, ByRef<::ArrayWrapper<uint8_t>> data, ByRef<int> offset, ByRef<int> length);
+    void ProcessInboundPacket(System::Net::IPEndPoint* remoteEndPoint, ByRef<::ArrayW<uint8_t>> data, ByRef<int> offset, ByRef<int> length);
     // public override System.Void ProcessOutBoundPacket(System.Net.IPEndPoint remoteEndPoint, ref System.Byte[] data, ref System.Int32 offset, ref System.Int32 length)
     // Offset: 0x1DD42A8
     // Implemented from: LiteNetLib.Layers.PacketLayerBase
     // Base method: System.Void PacketLayerBase::ProcessOutBoundPacket(System.Net.IPEndPoint remoteEndPoint, ref System.Byte[] data, ref System.Int32 offset, ref System.Int32 length)
-    void ProcessOutBoundPacket(System::Net::IPEndPoint* remoteEndPoint, ByRef<::ArrayWrapper<uint8_t>> data, ByRef<int> offset, ByRef<int> length);
+    void ProcessOutBoundPacket(System::Net::IPEndPoint* remoteEndPoint, ByRef<::ArrayW<uint8_t>> data, ByRef<int> offset, ByRef<int> length);
   }; // LiteNetLib.Layers.Crc32cLayer
   #pragma pack(pop)
 }
@@ -58,7 +59,7 @@ DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Layers::Crc32cLayer*, "LiteNetLib.Layers", "C
 // Writing MetadataGetter for method: LiteNetLib::Layers::Crc32cLayer::ProcessInboundPacket
 // Il2CppName: ProcessInboundPacket
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Layers::Crc32cLayer::*)(System::Net::IPEndPoint*, ByRef<::ArrayWrapper<uint8_t>>, ByRef<int>, ByRef<int>)>(&LiteNetLib::Layers::Crc32cLayer::ProcessInboundPacket)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Layers::Crc32cLayer::*)(System::Net::IPEndPoint*, ByRef<::ArrayW<uint8_t>>, ByRef<int>, ByRef<int>)>(&LiteNetLib::Layers::Crc32cLayer::ProcessInboundPacket)> {
   static const MethodInfo* get() {
     static auto* remoteEndPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->this_arg;
@@ -70,7 +71,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Writing MetadataGetter for method: LiteNetLib::Layers::Crc32cLayer::ProcessOutBoundPacket
 // Il2CppName: ProcessOutBoundPacket
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Layers::Crc32cLayer::*)(System::Net::IPEndPoint*, ByRef<::ArrayWrapper<uint8_t>>, ByRef<int>, ByRef<int>)>(&LiteNetLib::Layers::Crc32cLayer::ProcessOutBoundPacket)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Layers::Crc32cLayer::*)(System::Net::IPEndPoint*, ByRef<::ArrayW<uint8_t>>, ByRef<int>, ByRef<int>)>(&LiteNetLib::Layers::Crc32cLayer::ProcessOutBoundPacket)> {
   static const MethodInfo* get() {
     static auto* remoteEndPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->this_arg;

@@ -28,12 +28,18 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class LeaderboardEntryList : public Oculus::Platform::Models::DeserializableList_1<Oculus::Platform::Models::LeaderboardEntry*> {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly System.UInt64 TotalCount
     // Size: 0x8
     // Offset: 0x28
     uint64_t TotalCount;
     // Field size check
     static_assert(sizeof(uint64_t) == 0x8);
+    public:
     // Creating conversion operator: operator uint64_t
     constexpr operator uint64_t() const noexcept {
       return TotalCount;

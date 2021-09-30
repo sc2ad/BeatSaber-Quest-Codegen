@@ -18,6 +18,11 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class SliderState : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Single dragStartPos
     // Size: 0x4
     // Offset: 0x10
@@ -36,6 +41,7 @@ namespace UnityEngine {
     bool isDragging;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: public System.Single dragStartPos
     float& dyn_dragStartPos();
     // Get instance field reference: public System.Single dragStartValue

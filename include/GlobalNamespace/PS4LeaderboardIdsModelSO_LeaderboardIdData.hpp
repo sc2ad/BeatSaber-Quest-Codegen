@@ -20,6 +20,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PS4LeaderboardIdsModelSO::LeaderboardIdData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.UInt32 _ps4LeaderboardId
     // Size: 0x4
     // Offset: 0x10
@@ -34,6 +39,7 @@ namespace GlobalNamespace {
     ::Il2CppString* leaderboardId;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: private System.UInt32 _ps4LeaderboardId
     uint& dyn__ps4LeaderboardId();
     // Get instance field reference: private System.String _leaderboardId

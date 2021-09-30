@@ -52,12 +52,18 @@ namespace Zenject {
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
   class AddToExistingGameObjectComponentProviderGetter : public Zenject::AddToGameObjectComponentProviderBase {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Func`2<Zenject.InjectContext,UnityEngine.GameObject> _gameObjectGetter
     // Size: 0x8
     // Offset: 0x38
     System::Func_2<Zenject::InjectContext*, UnityEngine::GameObject*>* gameObjectGetter;
     // Field size check
     static_assert(sizeof(System::Func_2<Zenject::InjectContext*, UnityEngine::GameObject*>*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Func_2<Zenject::InjectContext*, UnityEngine::GameObject*>*
     constexpr operator System::Func_2<Zenject::InjectContext*, UnityEngine::GameObject*>*() const noexcept {
       return gameObjectGetter;

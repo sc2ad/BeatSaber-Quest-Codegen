@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Valve::VR
@@ -30,6 +31,11 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class SteamVR_RenderModel::$SetModelAsync$d__21 : public ::Il2CppObject/*, public System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -71,9 +77,10 @@ namespace GlobalNamespace {
     // private System.String[] <renderModelNames>5__4
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayWrapper<::Il2CppString*> $renderModelNames$5__4;
+    ::ArrayW<::Il2CppString*> $renderModelNames$5__4;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>
     operator System::Collections::Generic::IEnumerator_1<::Il2CppObject*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<::Il2CppObject*>*>(this);
@@ -91,7 +98,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private Valve.VR.CVRRenderModels <renderModels>5__3
     Valve::VR::CVRRenderModels*& dyn_$renderModels$5__3();
     // Get instance field reference: private System.String[] <renderModelNames>5__4
-    ::ArrayWrapper<::Il2CppString*>& dyn_$renderModelNames$5__4();
+    ::ArrayW<::Il2CppString*>& dyn_$renderModelNames$5__4();
     // private System.Object System.Collections.Generic.IEnumerator<System.Object>.get_Current()
     // Offset: 0x1549D64
     ::Il2CppObject* System_Collections_Generic_IEnumerator$System_Object$_get_Current();
@@ -119,7 +126,7 @@ namespace GlobalNamespace {
     void System_Collections_IEnumerator_Reset();
   }; // SteamVR_RenderModel/<SetModelAsync>d__21
   #pragma pack(pop)
-  static check_size<sizeof(SteamVR_RenderModel::$SetModelAsync$d__21), 64 + sizeof(::ArrayWrapper<::Il2CppString*>)> __GlobalNamespace_SteamVR_RenderModel_$SetModelAsync$d__21SizeCheck;
+  static check_size<sizeof(SteamVR_RenderModel::$SetModelAsync$d__21), 64 + sizeof(::ArrayW<::Il2CppString*>)> __GlobalNamespace_SteamVR_RenderModel_$SetModelAsync$d__21SizeCheck;
   static_assert(sizeof(SteamVR_RenderModel::$SetModelAsync$d__21) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::SteamVR_RenderModel::$SetModelAsync$d__21*, "", "SteamVR_RenderModel/<SetModelAsync>d__21");

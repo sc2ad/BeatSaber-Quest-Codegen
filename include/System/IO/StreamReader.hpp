@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO
@@ -42,6 +43,11 @@ namespace System::IO {
     public:
     // Nested type: System::IO::StreamReader::NullStreamReader
     class NullStreamReader;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.IO.Stream stream
     // Size: 0x8
     // Offset: 0x18
@@ -63,21 +69,21 @@ namespace System::IO {
     // private System.Byte[] byteBuffer
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<uint8_t> byteBuffer;
+    ::ArrayW<uint8_t> byteBuffer;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Char[] charBuffer
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayWrapper<::Il2CppChar> charBuffer;
+    ::ArrayW<::Il2CppChar> charBuffer;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppChar>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppChar>) == 0x8);
     // private System.Byte[] _preamble
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayWrapper<uint8_t> preamble;
+    ::ArrayW<uint8_t> preamble;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Int32 charPos
     // Size: 0x4
     // Offset: 0x48
@@ -138,6 +144,7 @@ namespace System::IO {
     System::Threading::Tasks::Task* asyncReadTask;
     // Field size check
     static_assert(sizeof(System::Threading::Tasks::Task*) == 0x8);
+    public:
     // Deleting conversion operator: operator ::Il2CppObject*
     constexpr operator ::Il2CppObject*() const noexcept = delete;
     // Get static field: static public readonly System.IO.StreamReader Null
@@ -151,11 +158,11 @@ namespace System::IO {
     // Get instance field reference: private System.Text.Decoder decoder
     System::Text::Decoder*& dyn_decoder();
     // Get instance field reference: private System.Byte[] byteBuffer
-    ::ArrayWrapper<uint8_t>& dyn_byteBuffer();
+    ::ArrayW<uint8_t>& dyn_byteBuffer();
     // Get instance field reference: private System.Char[] charBuffer
-    ::ArrayWrapper<::Il2CppChar>& dyn_charBuffer();
+    ::ArrayW<::Il2CppChar>& dyn_charBuffer();
     // Get instance field reference: private System.Byte[] _preamble
-    ::ArrayWrapper<uint8_t>& dyn__preamble();
+    ::ArrayW<uint8_t>& dyn__preamble();
     // Get instance field reference: private System.Int32 charPos
     int& dyn_charPos();
     // Get instance field reference: private System.Int32 charLen
@@ -287,7 +294,7 @@ namespace System::IO {
     int ReadBuffer();
     // private System.Int32 ReadBuffer(System.Char[] userBuffer, System.Int32 userOffset, System.Int32 desiredChars, out System.Boolean readToUserBuffer)
     // Offset: 0x1AC5128
-    int ReadBuffer(::ArrayWrapper<::Il2CppChar> userBuffer, int userOffset, int desiredChars, ByRef<bool> readToUserBuffer);
+    int ReadBuffer(::ArrayW<::Il2CppChar> userBuffer, int userOffset, int desiredChars, ByRef<bool> readToUserBuffer);
     // System.Void .ctor()
     // Offset: 0x1AC45A0
     // Implemented from: System.IO.TextReader
@@ -328,7 +335,7 @@ namespace System::IO {
     // Offset: 0x1AC4EEC
     // Implemented from: System.IO.TextReader
     // Base method: System.Int32 TextReader::Read(in System.Char[] buffer, System.Int32 index, System.Int32 count)
-    int Read(ByRef<::ArrayWrapper<::Il2CppChar>> buffer, int index, int count);
+    int Read(ByRef<::ArrayW<::Il2CppChar>> buffer, int index, int count);
     // public override System.String ReadToEnd()
     // Offset: 0x1AC5340
     // Implemented from: System.IO.TextReader
@@ -500,7 +507,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::IO::StreamReader::ReadBuffer
 // Il2CppName: ReadBuffer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::StreamReader::*)(::ArrayWrapper<::Il2CppChar>, int, int, ByRef<bool>)>(&System::IO::StreamReader::ReadBuffer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::StreamReader::*)(::ArrayW<::Il2CppChar>, int, int, ByRef<bool>)>(&System::IO::StreamReader::ReadBuffer)> {
   static const MethodInfo* get() {
     static auto* userBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* userOffset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -557,7 +564,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::IO::StreamReader::Read
 // Il2CppName: Read
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::StreamReader::*)(ByRef<::ArrayWrapper<::Il2CppChar>>, int, int)>(&System::IO::StreamReader::Read)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::StreamReader::*)(ByRef<::ArrayW<::Il2CppChar>>, int, int)>(&System::IO::StreamReader::Read)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->this_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

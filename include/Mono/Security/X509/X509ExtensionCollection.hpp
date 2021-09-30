@@ -38,12 +38,18 @@ namespace Mono::Security::X509 {
   // [DefaultMemberAttribute] Offset: E680D0
   class X509ExtensionCollection : public System::Collections::CollectionBase {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean readOnly
     // Size: 0x1
     // Offset: 0x18
     bool readOnly;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Deleting conversion operator: operator System::Collections::ArrayList*
     constexpr operator System::Collections::ArrayList*() const noexcept = delete;
     // Get instance field reference: private System.Boolean readOnly

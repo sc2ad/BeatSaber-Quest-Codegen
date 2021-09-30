@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::InteropServices
@@ -47,6 +48,11 @@ namespace System::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   class UnmanagedMemoryStream : public System::IO::Stream {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Runtime.InteropServices.SafeBuffer _buffer
     // Size: 0x8
     // Offset: 0x28
@@ -103,6 +109,7 @@ namespace System::IO {
     System::Threading::Tasks::Task_1<int>* lastReadTask;
     // Field size check
     static_assert(sizeof(System::Threading::Tasks::Task_1<int>*) == 0x8);
+    public:
     // Get instance field reference: private System.Runtime.InteropServices.SafeBuffer _buffer
     System::Runtime::InteropServices::SafeBuffer*& dyn__buffer();
     // Get instance field reference: private System.Byte* _mem
@@ -189,12 +196,12 @@ namespace System::IO {
     // Offset: 0x1A08E3C
     // Implemented from: System.IO.Stream
     // Base method: System.Int32 Stream::Read(in System.Byte[] buffer, System.Int32 offset, System.Int32 count)
-    int Read(ByRef<::ArrayWrapper<uint8_t>> buffer, int offset, int count);
+    int Read(ByRef<::ArrayW<uint8_t>> buffer, int offset, int count);
     // public override System.Threading.Tasks.Task`1<System.Int32> ReadAsync(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.Threading.CancellationToken cancellationToken)
     // Offset: 0x1A091B4
     // Implemented from: System.IO.Stream
     // Base method: System.Threading.Tasks.Task`1<System.Int32> Stream::ReadAsync(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.Threading.CancellationToken cancellationToken)
-    System::Threading::Tasks::Task_1<int>* ReadAsync(::ArrayWrapper<uint8_t> buffer, int offset, int count, System::Threading::CancellationToken cancellationToken);
+    System::Threading::Tasks::Task_1<int>* ReadAsync(::ArrayW<uint8_t> buffer, int offset, int count, System::Threading::CancellationToken cancellationToken);
     // public override System.Int32 ReadByte()
     // Offset: 0x1A094D8
     // Implemented from: System.IO.Stream
@@ -214,12 +221,12 @@ namespace System::IO {
     // Offset: 0x1A099D0
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::Write(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
-    void Write(::ArrayWrapper<uint8_t> buffer, int offset, int count);
+    void Write(::ArrayW<uint8_t> buffer, int offset, int count);
     // public override System.Threading.Tasks.Task WriteAsync(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.Threading.CancellationToken cancellationToken)
     // Offset: 0x1A09D94
     // Implemented from: System.IO.Stream
     // Base method: System.Threading.Tasks.Task Stream::WriteAsync(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.Threading.CancellationToken cancellationToken)
-    System::Threading::Tasks::Task* WriteAsync(::ArrayWrapper<uint8_t> buffer, int offset, int count, System::Threading::CancellationToken cancellationToken);
+    System::Threading::Tasks::Task* WriteAsync(::ArrayW<uint8_t> buffer, int offset, int count, System::Threading::CancellationToken cancellationToken);
     // public override System.Void WriteByte(System.Byte value)
     // Offset: 0x1A0A064
     // Implemented from: System.IO.Stream
@@ -330,7 +337,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::IO::UnmanagedMemoryStream::Read
 // Il2CppName: Read
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::UnmanagedMemoryStream::*)(ByRef<::ArrayWrapper<uint8_t>>, int, int)>(&System::IO::UnmanagedMemoryStream::Read)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::UnmanagedMemoryStream::*)(ByRef<::ArrayW<uint8_t>>, int, int)>(&System::IO::UnmanagedMemoryStream::Read)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->this_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -341,7 +348,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::IO::UnmanagedMemoryStream::ReadAsync
 // Il2CppName: ReadAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<int>* (System::IO::UnmanagedMemoryStream::*)(::ArrayWrapper<uint8_t>, int, int, System::Threading::CancellationToken)>(&System::IO::UnmanagedMemoryStream::ReadAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<int>* (System::IO::UnmanagedMemoryStream::*)(::ArrayW<uint8_t>, int, int, System::Threading::CancellationToken)>(&System::IO::UnmanagedMemoryStream::ReadAsync)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -380,7 +387,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::IO::UnmanagedMemoryStream::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::UnmanagedMemoryStream::*)(::ArrayWrapper<uint8_t>, int, int)>(&System::IO::UnmanagedMemoryStream::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::UnmanagedMemoryStream::*)(::ArrayW<uint8_t>, int, int)>(&System::IO::UnmanagedMemoryStream::Write)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -391,7 +398,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::IO::UnmanagedMemoryStream::WriteAsync
 // Il2CppName: WriteAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (System::IO::UnmanagedMemoryStream::*)(::ArrayWrapper<uint8_t>, int, int, System::Threading::CancellationToken)>(&System::IO::UnmanagedMemoryStream::WriteAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (System::IO::UnmanagedMemoryStream::*)(::ArrayW<uint8_t>, int, int, System::Threading::CancellationToken)>(&System::IO::UnmanagedMemoryStream::WriteAsync)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

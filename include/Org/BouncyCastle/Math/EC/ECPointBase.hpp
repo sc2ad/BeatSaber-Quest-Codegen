@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Math::EC
@@ -48,7 +49,7 @@ namespace Org::BouncyCastle::Math::EC {
     // Implemented from: Org.BouncyCastle.Math.EC.ECPoint
     // Base method: System.Void ECPoint::.ctor(Org.BouncyCastle.Math.EC.ECCurve curve, Org.BouncyCastle.Math.EC.ECFieldElement x, Org.BouncyCastle.Math.EC.ECFieldElement y, Org.BouncyCastle.Math.EC.ECFieldElement[] zs, System.Boolean withCompression)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ECPointBase* New_ctor(Org::BouncyCastle::Math::EC::ECCurve* curve, Org::BouncyCastle::Math::EC::ECFieldElement* x, Org::BouncyCastle::Math::EC::ECFieldElement* y, ::ArrayWrapper<Org::BouncyCastle::Math::EC::ECFieldElement*> zs, bool withCompression) {
+    static ECPointBase* New_ctor(Org::BouncyCastle::Math::EC::ECCurve* curve, Org::BouncyCastle::Math::EC::ECFieldElement* x, Org::BouncyCastle::Math::EC::ECFieldElement* y, ::ArrayW<Org::BouncyCastle::Math::EC::ECFieldElement*> zs, bool withCompression) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::ECPointBase::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ECPointBase*, creationType>(curve, x, y, zs, withCompression)));
     }
@@ -56,7 +57,7 @@ namespace Org::BouncyCastle::Math::EC {
     // Offset: 0x2318330
     // Implemented from: Org.BouncyCastle.Math.EC.ECPoint
     // Base method: System.Byte[] ECPoint::GetEncoded(System.Boolean compressed)
-    ::ArrayWrapper<uint8_t> GetEncoded(bool compressed);
+    ::ArrayW<uint8_t> GetEncoded(bool compressed);
     // public override Org.BouncyCastle.Math.EC.ECPoint Multiply(Org.BouncyCastle.Math.BigInteger k)
     // Offset: 0x2318508
     // Implemented from: Org.BouncyCastle.Math.EC.ECPoint
@@ -78,7 +79,7 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::ECPointBase*, "Org.BouncyCas
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::ECPointBase::GetEncoded
 // Il2CppName: GetEncoded
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Math::EC::ECPointBase::*)(bool)>(&Org::BouncyCastle::Math::EC::ECPointBase::GetEncoded)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Org::BouncyCastle::Math::EC::ECPointBase::*)(bool)>(&Org::BouncyCastle::Math::EC::ECPointBase::GetEncoded)> {
   static const MethodInfo* get() {
     static auto* compressed = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::ECPointBase*), "GetEncoded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{compressed});

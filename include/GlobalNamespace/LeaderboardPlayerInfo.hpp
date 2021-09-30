@@ -18,6 +18,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LeaderboardPlayerInfo : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.String serverKey
     // Size: 0x8
     // Offset: 0x10
@@ -60,6 +65,7 @@ namespace GlobalNamespace {
     bool succeeded;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: public System.String serverKey
     ::Il2CppString*& dyn_serverKey();
     // Get instance field reference: private System.String <playerId>k__BackingField

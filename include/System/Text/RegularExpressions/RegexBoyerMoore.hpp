@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Globalization
@@ -25,24 +26,29 @@ namespace System::Text::RegularExpressions {
   // [TokenAttribute] Offset: FFFFFFFF
   class RegexBoyerMoore : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Int32[] _positive
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<int> positive;
+    ::ArrayW<int> positive;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // System.Int32[] _negativeASCII
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<int> negativeASCII;
+    ::ArrayW<int> negativeASCII;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // System.Int32[][] _negativeUnicode
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<::ArrayWrapper<int>> negativeUnicode;
+    ::ArrayW<::ArrayW<int>> negativeUnicode;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::ArrayWrapper<int>>) == 0x8);
+    static_assert(sizeof(::ArrayW<::ArrayW<int>>) == 0x8);
     // System.String _pattern
     // Size: 0x8
     // Offset: 0x28
@@ -81,12 +87,13 @@ namespace System::Text::RegularExpressions {
     System::Globalization::CultureInfo* culture;
     // Field size check
     static_assert(sizeof(System::Globalization::CultureInfo*) == 0x8);
+    public:
     // Get instance field reference: System.Int32[] _positive
-    ::ArrayWrapper<int>& dyn__positive();
+    ::ArrayW<int>& dyn__positive();
     // Get instance field reference: System.Int32[] _negativeASCII
-    ::ArrayWrapper<int>& dyn__negativeASCII();
+    ::ArrayW<int>& dyn__negativeASCII();
     // Get instance field reference: System.Int32[][] _negativeUnicode
-    ::ArrayWrapper<::ArrayWrapper<int>>& dyn__negativeUnicode();
+    ::ArrayW<::ArrayW<int>>& dyn__negativeUnicode();
     // Get instance field reference: System.String _pattern
     ::Il2CppString*& dyn__pattern();
     // Get instance field reference: System.Int32 _lowASCII

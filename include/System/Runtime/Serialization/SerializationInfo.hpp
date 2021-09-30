@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -45,24 +46,29 @@ namespace System::Runtime::Serialization {
   // [ComVisibleAttribute] Offset: E5F904
   class SerializationInfo : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.String[] m_members
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<::Il2CppString*> m_members;
+    ::ArrayW<::Il2CppString*> m_members;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // System.Object[] m_data
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<::Il2CppObject*> m_data;
+    ::ArrayW<::Il2CppObject*> m_data;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppObject*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppObject*>) == 0x8);
     // System.Type[] m_types
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<System::Type*> m_types;
+    ::ArrayW<System::Type*> m_types;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<System::Type*>) == 0x8);
+    static_assert(sizeof(::ArrayW<System::Type*>) == 0x8);
     // private System.Collections.Generic.Dictionary`2<System.String,System.Int32> m_nameToIndex
     // Size: 0x8
     // Offset: 0x28
@@ -119,6 +125,7 @@ namespace System::Runtime::Serialization {
     bool requireSameTokenInPartialTrust;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // static field const value: static private System.Int32 defaultSize
     static constexpr const int defaultSize = 4;
     // Get static field: static private System.Int32 defaultSize
@@ -138,11 +145,11 @@ namespace System::Runtime::Serialization {
     // Set static field: static private System.String s_mscorlibFileName
     static void _set_s_mscorlibFileName(::Il2CppString* value);
     // Get instance field reference: System.String[] m_members
-    ::ArrayWrapper<::Il2CppString*>& dyn_m_members();
+    ::ArrayW<::Il2CppString*>& dyn_m_members();
     // Get instance field reference: System.Object[] m_data
-    ::ArrayWrapper<::Il2CppObject*>& dyn_m_data();
+    ::ArrayW<::Il2CppObject*>& dyn_m_data();
     // Get instance field reference: System.Type[] m_types
-    ::ArrayWrapper<System::Type*>& dyn_m_types();
+    ::ArrayW<System::Type*>& dyn_m_types();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,System.Int32> m_nameToIndex
     System::Collections::Generic::Dictionary_2<::Il2CppString*, int>*& dyn_m_nameToIndex();
     // Get instance field reference: System.Int32 m_currMember
@@ -198,7 +205,7 @@ namespace System::Runtime::Serialization {
     void SetType(System::Type* type);
     // static private System.Boolean Compare(System.Byte[] a, System.Byte[] b)
     // Offset: 0x1916D2C
-    static bool Compare(::ArrayWrapper<uint8_t> a, ::ArrayWrapper<uint8_t> b);
+    static bool Compare(::ArrayW<uint8_t> a, ::ArrayW<uint8_t> b);
     // static System.Void DemandForUnsafeAssemblyNameAssignments(System.String originalAssemblyName, System.String newAssemblyName)
     // Offset: 0x1916D28
     static void DemandForUnsafeAssemblyNameAssignments(::Il2CppString* originalAssemblyName, ::Il2CppString* newAssemblyName);
@@ -355,7 +362,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Runtime::Serialization::SerializationInfo::Compare
 // Il2CppName: Compare
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>)>(&System::Runtime::Serialization::SerializationInfo::Compare)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(&System::Runtime::Serialization::SerializationInfo::Compare)> {
   static const MethodInfo* get() {
     static auto* a = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* b = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;

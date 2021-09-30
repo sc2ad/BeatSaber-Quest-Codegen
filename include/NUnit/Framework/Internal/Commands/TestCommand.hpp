@@ -29,6 +29,11 @@ namespace NUnit::Framework::Internal::Commands {
   // [TokenAttribute] Offset: FFFFFFFF
   class TestCommand : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [DebuggerBrowsableAttribute] Offset: 0xEEF660
     // private NUnit.Framework.Internal.Test <Test>k__BackingField
     // Size: 0x8
@@ -36,6 +41,7 @@ namespace NUnit::Framework::Internal::Commands {
     NUnit::Framework::Internal::Test* Test;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Internal::Test*) == 0x8);
+    public:
     // Creating conversion operator: operator NUnit::Framework::Internal::Test*
     constexpr operator NUnit::Framework::Internal::Test*() const noexcept {
       return Test;

@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Events
@@ -36,18 +37,24 @@ namespace UnityEngine::Events {
     public:
     // Writing base type padding for base size: 0x21 to desired offset: 0x28
     char ___base_padding[0x7] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Object[] m_InvokeArray
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<::Il2CppObject*> m_InvokeArray;
+    ::ArrayW<::Il2CppObject*> m_InvokeArray;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppObject*>) == 0x8);
-    // Creating conversion operator: operator ::ArrayWrapper<::Il2CppObject*>
-    constexpr operator ::ArrayWrapper<::Il2CppObject*>() const noexcept {
+    static_assert(sizeof(::ArrayW<::Il2CppObject*>) == 0x8);
+    public:
+    // Creating conversion operator: operator ::ArrayW<::Il2CppObject*>
+    constexpr operator ::ArrayW<::Il2CppObject*>() const noexcept {
       return m_InvokeArray;
     }
     // Get instance field reference: private System.Object[] m_InvokeArray
-    ::ArrayWrapper<::Il2CppObject*>& dyn_m_InvokeArray();
+    ::ArrayW<::Il2CppObject*>& dyn_m_InvokeArray();
     // public System.Void AddListener(UnityEngine.Events.UnityAction call)
     // Offset: 0x1CBA5A4
     void AddListener(UnityEngine::Events::UnityAction* call);
@@ -82,7 +89,7 @@ namespace UnityEngine::Events {
     UnityEngine::Events::BaseInvokableCall* GetDelegate(::Il2CppObject* target, System::Reflection::MethodInfo* theFunction);
   }; // UnityEngine.Events.UnityEvent
   #pragma pack(pop)
-  static check_size<sizeof(UnityEvent), 40 + sizeof(::ArrayWrapper<::Il2CppObject*>)> __UnityEngine_Events_UnityEventSizeCheck;
+  static check_size<sizeof(UnityEvent), 40 + sizeof(::ArrayW<::Il2CppObject*>)> __UnityEngine_Events_UnityEventSizeCheck;
   static_assert(sizeof(UnityEvent) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Events::UnityEvent*, "UnityEngine.Events", "UnityEvent");

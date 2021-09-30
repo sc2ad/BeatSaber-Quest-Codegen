@@ -33,12 +33,18 @@ namespace Zenject {
   template<typename T>
   class PoolWrapperFactory_1 : public ::Il2CppObject/*, public Zenject::IFactory_1<T>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Zenject.IMemoryPool`1<T> _pool
     // Size: 0x8
     // Offset: 0x0
     Zenject::IMemoryPool_1<T>* pool;
     // Field size check
     static_assert(sizeof(Zenject::IMemoryPool_1<T>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator Zenject::IFactory_1<T>
     operator Zenject::IFactory_1<T>() noexcept {
       return *reinterpret_cast<Zenject::IFactory_1<T>*>(this);

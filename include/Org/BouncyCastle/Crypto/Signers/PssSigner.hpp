@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Crypto
@@ -36,6 +37,11 @@ namespace Org::BouncyCastle::Crypto::Signers {
   // [TokenAttribute] Offset: FFFFFFFF
   class PssSigner : public ::Il2CppObject/*, public Org::BouncyCastle::Crypto::ISigner*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Org.BouncyCastle.Crypto.IDigest contentDigest1
     // Size: 0x8
     // Offset: 0x10
@@ -103,27 +109,28 @@ namespace Org::BouncyCastle::Crypto::Signers {
     // private System.Byte[] salt
     // Size: 0x8
     // Offset: 0x50
-    ::ArrayWrapper<uint8_t> salt;
+    ::ArrayW<uint8_t> salt;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Byte[] mDash
     // Size: 0x8
     // Offset: 0x58
-    ::ArrayWrapper<uint8_t> mDash;
+    ::ArrayW<uint8_t> mDash;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Byte[] block
     // Size: 0x8
     // Offset: 0x60
-    ::ArrayWrapper<uint8_t> block;
+    ::ArrayW<uint8_t> block;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Byte trailer
     // Size: 0x1
     // Offset: 0x68
     uint8_t trailer;
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
+    public:
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::ISigner
     operator Org::BouncyCastle::Crypto::ISigner() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::ISigner*>(this);
@@ -149,11 +156,11 @@ namespace Org::BouncyCastle::Crypto::Signers {
     // Get instance field reference: private System.Int32 emBits
     int& dyn_emBits();
     // Get instance field reference: private System.Byte[] salt
-    ::ArrayWrapper<uint8_t>& dyn_salt();
+    ::ArrayW<uint8_t>& dyn_salt();
     // Get instance field reference: private System.Byte[] mDash
-    ::ArrayWrapper<uint8_t>& dyn_mDash();
+    ::ArrayW<uint8_t>& dyn_mDash();
     // Get instance field reference: private System.Byte[] block
-    ::ArrayWrapper<uint8_t>& dyn_block();
+    ::ArrayW<uint8_t>& dyn_block();
     // Get instance field reference: private System.Byte trailer
     uint8_t& dyn_trailer();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IAsymmetricBlockCipher cipher, Org.BouncyCastle.Crypto.IDigest digest)
@@ -187,7 +194,7 @@ namespace Org::BouncyCastle::Crypto::Signers {
     // private System.Void .ctor(Org.BouncyCastle.Crypto.IAsymmetricBlockCipher cipher, Org.BouncyCastle.Crypto.IDigest contentDigest1, Org.BouncyCastle.Crypto.IDigest contentDigest2, Org.BouncyCastle.Crypto.IDigest mgfDigest, System.Int32 saltLen, System.Byte[] salt, System.Byte trailer)
     // Offset: 0x139FA54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static PssSigner* New_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, Org::BouncyCastle::Crypto::IDigest* contentDigest1, Org::BouncyCastle::Crypto::IDigest* contentDigest2, Org::BouncyCastle::Crypto::IDigest* mgfDigest, int saltLen, ::ArrayWrapper<uint8_t> salt, uint8_t trailer) {
+    static PssSigner* New_ctor(Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, Org::BouncyCastle::Crypto::IDigest* contentDigest1, Org::BouncyCastle::Crypto::IDigest* contentDigest2, Org::BouncyCastle::Crypto::IDigest* mgfDigest, int saltLen, ::ArrayW<uint8_t> salt, uint8_t trailer) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Signers::PssSigner::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PssSigner*, creationType>(cipher, contentDigest1, contentDigest2, mgfDigest, saltLen, salt, trailer)));
     }
@@ -199,22 +206,22 @@ namespace Org::BouncyCastle::Crypto::Signers {
     void Init(bool forSigning, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // private System.Void ClearBlock(System.Byte[] block)
     // Offset: 0x139FFE0
-    void ClearBlock(::ArrayWrapper<uint8_t> block);
+    void ClearBlock(::ArrayW<uint8_t> block);
     // public System.Void BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 length)
     // Offset: 0x13A0004
-    void BlockUpdate(::ArrayWrapper<uint8_t> input, int inOff, int length);
+    void BlockUpdate(::ArrayW<uint8_t> input, int inOff, int length);
     // public System.Void Reset()
     // Offset: 0x13A00E0
     void Reset();
     // public System.Byte[] GenerateSignature()
     // Offset: 0x13A0194
-    ::ArrayWrapper<uint8_t> GenerateSignature();
+    ::ArrayW<uint8_t> GenerateSignature();
     // private System.Void ItoOSP(System.Int32 i, System.Byte[] sp)
     // Offset: 0x13A0A88
-    void ItoOSP(int i, ::ArrayWrapper<uint8_t> sp);
+    void ItoOSP(int i, ::ArrayW<uint8_t> sp);
     // private System.Byte[] MaskGeneratorFunction1(System.Byte[] Z, System.Int32 zOff, System.Int32 zLen, System.Int32 length)
     // Offset: 0x13A05E8
-    ::ArrayWrapper<uint8_t> MaskGeneratorFunction1(::ArrayWrapper<uint8_t> Z, int zOff, int zLen, int length);
+    ::ArrayW<uint8_t> MaskGeneratorFunction1(::ArrayW<uint8_t> Z, int zOff, int zLen, int length);
   }; // Org.BouncyCastle.Crypto.Signers.PssSigner
   #pragma pack(pop)
   static check_size<sizeof(PssSigner), 104 + sizeof(uint8_t)> __Org_BouncyCastle_Crypto_Signers_PssSignerSizeCheck;
@@ -265,7 +272,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::PssSigner::ClearBlock
 // Il2CppName: ClearBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Signers::PssSigner::*)(::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Crypto::Signers::PssSigner::ClearBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Signers::PssSigner::*)(::ArrayW<uint8_t>)>(&Org::BouncyCastle::Crypto::Signers::PssSigner::ClearBlock)> {
   static const MethodInfo* get() {
     static auto* block = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Signers::PssSigner*), "ClearBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{block});
@@ -274,7 +281,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::PssSigner::BlockUpdate
 // Il2CppName: BlockUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Signers::PssSigner::*)(::ArrayWrapper<uint8_t>, int, int)>(&Org::BouncyCastle::Crypto::Signers::PssSigner::BlockUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Signers::PssSigner::*)(::ArrayW<uint8_t>, int, int)>(&Org::BouncyCastle::Crypto::Signers::PssSigner::BlockUpdate)> {
   static const MethodInfo* get() {
     static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* inOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -293,7 +300,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::PssSigner::GenerateSignature
 // Il2CppName: GenerateSignature
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Crypto::Signers::PssSigner::*)()>(&Org::BouncyCastle::Crypto::Signers::PssSigner::GenerateSignature)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Org::BouncyCastle::Crypto::Signers::PssSigner::*)()>(&Org::BouncyCastle::Crypto::Signers::PssSigner::GenerateSignature)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Signers::PssSigner*), "GenerateSignature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -301,7 +308,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::PssSigner::ItoOSP
 // Il2CppName: ItoOSP
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Signers::PssSigner::*)(int, ::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Crypto::Signers::PssSigner::ItoOSP)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Signers::PssSigner::*)(int, ::ArrayW<uint8_t>)>(&Org::BouncyCastle::Crypto::Signers::PssSigner::ItoOSP)> {
   static const MethodInfo* get() {
     static auto* i = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* sp = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -311,7 +318,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::PssSigner::MaskGeneratorFunction1
 // Il2CppName: MaskGeneratorFunction1
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Crypto::Signers::PssSigner::*)(::ArrayWrapper<uint8_t>, int, int, int)>(&Org::BouncyCastle::Crypto::Signers::PssSigner::MaskGeneratorFunction1)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Org::BouncyCastle::Crypto::Signers::PssSigner::*)(::ArrayW<uint8_t>, int, int, int)>(&Org::BouncyCastle::Crypto::Signers::PssSigner::MaskGeneratorFunction1)> {
   static const MethodInfo* get() {
     static auto* Z = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* zOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

@@ -29,12 +29,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BaseMasterServerReliableRequest : public ::Il2CppObject/*, public MasterServer::IMasterServerReliableRequest*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.UInt32 <requestId>k__BackingField
     // Size: 0x4
     // Offset: 0x10
     uint requestId;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
+    public:
     // Creating interface conversion operator: operator MasterServer::IMasterServerReliableRequest
     operator MasterServer::IMasterServerReliableRequest() noexcept {
       return *reinterpret_cast<MasterServer::IMasterServerReliableRequest*>(this);

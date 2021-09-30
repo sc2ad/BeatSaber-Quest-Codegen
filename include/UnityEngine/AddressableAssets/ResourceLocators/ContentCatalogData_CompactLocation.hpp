@@ -40,6 +40,11 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
   // [TokenAttribute] Offset: FFFFFFFF
   class ContentCatalogData::CompactLocation : public ::Il2CppObject/*, public UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.AddressableAssets.ResourceLocators.ResourceLocationMap m_Locator
     // Size: 0x8
     // Offset: 0x10
@@ -94,6 +99,7 @@ namespace UnityEngine::AddressableAssets::ResourceLocators {
     System::Type* m_Type;
     // Field size check
     static_assert(sizeof(System::Type*) == 0x8);
+    public:
     // Creating interface conversion operator: operator UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation
     operator UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation() noexcept {
       return *reinterpret_cast<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>(this);

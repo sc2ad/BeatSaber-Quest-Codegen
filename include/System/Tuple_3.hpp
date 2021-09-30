@@ -40,6 +40,11 @@ namespace System {
   template<typename T1, typename T2, typename T3>
   class Tuple_3 : public ::Il2CppObject/*, public System::Collections::IStructuralEquatable, public System::Collections::IStructuralComparable, public System::IComparable, public System::ITupleInternal*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly T1 m_Item1
     // Size: 0xFFFFFFFF
     // Offset: 0x0
@@ -52,6 +57,7 @@ namespace System {
     // Size: 0xFFFFFFFF
     // Offset: 0x0
     T3 m_Item3;
+    public:
     // Creating interface conversion operator: operator System::Collections::IStructuralEquatable
     operator System::Collections::IStructuralEquatable() noexcept {
       return *reinterpret_cast<System::Collections::IStructuralEquatable*>(this);

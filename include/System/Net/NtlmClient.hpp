@@ -31,12 +31,18 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class NtlmClient : public ::Il2CppObject/*, public System::Net::IAuthenticationModule*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Net.IAuthenticationModule authObject
     // Size: 0x8
     // Offset: 0x10
     System::Net::IAuthenticationModule* authObject;
     // Field size check
     static_assert(sizeof(System::Net::IAuthenticationModule*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Net::IAuthenticationModule
     operator System::Net::IAuthenticationModule() noexcept {
       return *reinterpret_cast<System::Net::IAuthenticationModule*>(this);

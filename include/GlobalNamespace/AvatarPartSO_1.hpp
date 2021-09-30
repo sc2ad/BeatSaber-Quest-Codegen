@@ -22,6 +22,11 @@ namespace GlobalNamespace {
   template<typename T>
   class AvatarPartSO_1 : public GlobalNamespace::PersistentScriptableObject/*, public GlobalNamespace::IAvatarPart*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String _id
     // Size: 0x8
     // Offset: 0x0
@@ -40,6 +45,7 @@ namespace GlobalNamespace {
     // Size: 0xFFFFFFFF
     // Offset: 0x0
     T partAsset;
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IAvatarPart
     operator GlobalNamespace::IAvatarPart() noexcept {
       return *reinterpret_cast<GlobalNamespace::IAvatarPart*>(this);

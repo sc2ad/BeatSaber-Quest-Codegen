@@ -27,12 +27,18 @@ namespace System::Runtime::CompilerServices {
   // [TokenAttribute] Offset: FFFFFFFF
   class RuntimeWrappedException : public System::Exception {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Object m_wrappedException
     // Size: 0x8
     // Offset: 0x88
     ::Il2CppObject* m_wrappedException;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
+    public:
     // Creating conversion operator: operator ::Il2CppObject*
     constexpr operator ::Il2CppObject*() const noexcept {
       return m_wrappedException;

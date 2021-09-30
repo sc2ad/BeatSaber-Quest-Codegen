@@ -31,6 +31,11 @@ namespace System::Collections {
   // [TokenAttribute] Offset: FFFFFFFF
   class SortedList::SortedListEnumerator : public ::Il2CppObject/*, public System::ICloneable, public System::Collections::IDictionaryEnumerator*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.SortedList sortedList
     // Size: 0x8
     // Offset: 0x10
@@ -87,6 +92,7 @@ namespace System::Collections {
     int getObjectRetType;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);

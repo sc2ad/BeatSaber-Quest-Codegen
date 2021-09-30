@@ -22,6 +22,11 @@ namespace UnityEngine::Bindings {
   // [VisibleToOtherModulesAttribute] Offset: FFFFFFFF
   class NativeThrowsAttribute : public System::Attribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [DebuggerBrowsableAttribute] Offset: 0xE6E3A8
     // private System.Boolean <ThrowsException>k__BackingField
     // Size: 0x1
@@ -29,6 +34,7 @@ namespace UnityEngine::Bindings {
     bool ThrowsException;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating conversion operator: operator bool
     constexpr operator bool() const noexcept {
       return ThrowsException;

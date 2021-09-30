@@ -16,12 +16,18 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct VREvent_Ipd_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Single ipdMeters
     // Size: 0x4
     // Offset: 0x0
     float ipdMeters;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: VREvent_Ipd_t
     constexpr VREvent_Ipd_t(float ipdMeters_ = {}) noexcept : ipdMeters{ipdMeters_} {}
     // Creating interface conversion operator: operator System::ValueType

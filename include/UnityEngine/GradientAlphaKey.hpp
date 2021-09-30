@@ -17,6 +17,11 @@ namespace UnityEngine {
   // [UsedByNativeCodeAttribute] Offset: E71AC0
   struct GradientAlphaKey/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Single alpha
     // Size: 0x4
     // Offset: 0x0
@@ -29,6 +34,7 @@ namespace UnityEngine {
     float time;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: GradientAlphaKey
     constexpr GradientAlphaKey(float alpha_ = {}, float time_ = {}) noexcept : alpha{alpha_}, time{time_} {}
     // Creating interface conversion operator: operator System::ValueType

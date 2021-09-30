@@ -35,6 +35,11 @@ namespace GlobalNamespace {
   // [IsReadOnlyAttribute] Offset: FFFFFFFF
   struct BitMask128/*, public System::ValueType, public GlobalNamespace::IBitMask_1<GlobalNamespace::BitMask128>, public LiteNetLib::Utils::INetImmutableSerializable_1<GlobalNamespace::BitMask128>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.UInt64 _d0
     // Size: 0x8
     // Offset: 0x0
@@ -47,6 +52,7 @@ namespace GlobalNamespace {
     uint64_t d1;
     // Field size check
     static_assert(sizeof(uint64_t) == 0x8);
+    public:
     // Creating value type constructor for type: BitMask128
     constexpr BitMask128(uint64_t d0_ = {}, uint64_t d1_ = {}) noexcept : d0{d0_}, d1{d1_} {}
     // Creating interface conversion operator: operator System::ValueType

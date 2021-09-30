@@ -37,6 +37,11 @@ namespace System::Threading {
   // [TokenAttribute] Offset: FFFFFFFF
   class CancellationCallbackInfo : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // readonly System.Action`1<System.Object> Callback
     // Size: 0x8
     // Offset: 0x10
@@ -67,6 +72,7 @@ namespace System::Threading {
     System::Threading::CancellationTokenSource* CancellationTokenSource;
     // Field size check
     static_assert(sizeof(System::Threading::CancellationTokenSource*) == 0x8);
+    public:
     // Get static field: static private System.Threading.ContextCallback s_executionContextCallback
     static System::Threading::ContextCallback* _get_s_executionContextCallback();
     // Set static field: static private System.Threading.ContextCallback s_executionContextCallback

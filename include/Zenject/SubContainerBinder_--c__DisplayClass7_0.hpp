@@ -30,12 +30,18 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class SubContainerBinder::$$c__DisplayClass7_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public Zenject.DiContainer subContainer
     // Size: 0x8
     // Offset: 0x10
     Zenject::DiContainer* subContainer;
     // Field size check
     static_assert(sizeof(Zenject::DiContainer*) == 0x8);
+    public:
     // Creating conversion operator: operator Zenject::DiContainer*
     constexpr operator Zenject::DiContainer*() const noexcept {
       return subContainer;

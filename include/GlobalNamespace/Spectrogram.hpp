@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -34,12 +35,17 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class Spectrogram : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.MeshRenderer[] _meshRenderers
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<UnityEngine::MeshRenderer*> meshRenderers;
+    ::ArrayW<UnityEngine::MeshRenderer*> meshRenderers;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::MeshRenderer*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::MeshRenderer*>) == 0x8);
     // [InjectAttribute] Offset: 0xF06D84
     // private readonly BasicSpectrogramData _spectrogramData
     // Size: 0x8
@@ -47,6 +53,7 @@ namespace GlobalNamespace {
     GlobalNamespace::BasicSpectrogramData* spectrogramData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BasicSpectrogramData*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF06D94
@@ -59,7 +66,7 @@ namespace GlobalNamespace {
     // Set static field: static private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
     static void _set__materialPropertyBlock(UnityEngine::MaterialPropertyBlock* value);
     // Get instance field reference: private UnityEngine.MeshRenderer[] _meshRenderers
-    ::ArrayWrapper<UnityEngine::MeshRenderer*>& dyn__meshRenderers();
+    ::ArrayW<UnityEngine::MeshRenderer*>& dyn__meshRenderers();
     // Get instance field reference: private readonly BasicSpectrogramData _spectrogramData
     GlobalNamespace::BasicSpectrogramData*& dyn__spectrogramData();
     // protected System.Void Awake()

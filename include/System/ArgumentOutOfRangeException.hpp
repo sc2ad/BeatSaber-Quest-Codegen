@@ -28,12 +28,18 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5BCA8
   class ArgumentOutOfRangeException : public System::ArgumentException {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Object m_actualValue
     // Size: 0x8
     // Offset: 0x90
     ::Il2CppObject* m_actualValue;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
+    public:
     // Deleting conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept = delete;
     // Get static field: static private System.String _rangeMessage

@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Math
@@ -52,21 +53,21 @@ namespace Org::BouncyCastle::Math::EC::Abc {
     // Set static field: static private readonly Org.BouncyCastle.Math.BigInteger Four
     static void _set_Four(Org::BouncyCastle::Math::BigInteger* value);
     // Get static field: static public readonly Org.BouncyCastle.Math.EC.Abc.ZTauElement[] Alpha0
-    static ::ArrayWrapper<Org::BouncyCastle::Math::EC::Abc::ZTauElement*> _get_Alpha0();
+    static ::ArrayW<Org::BouncyCastle::Math::EC::Abc::ZTauElement*> _get_Alpha0();
     // Set static field: static public readonly Org.BouncyCastle.Math.EC.Abc.ZTauElement[] Alpha0
-    static void _set_Alpha0(::ArrayWrapper<Org::BouncyCastle::Math::EC::Abc::ZTauElement*> value);
+    static void _set_Alpha0(::ArrayW<Org::BouncyCastle::Math::EC::Abc::ZTauElement*> value);
     // Get static field: static public readonly System.SByte[][] Alpha0Tnaf
-    static ::ArrayWrapper<::ArrayWrapper<int8_t>> _get_Alpha0Tnaf();
+    static ::ArrayW<::ArrayW<int8_t>> _get_Alpha0Tnaf();
     // Set static field: static public readonly System.SByte[][] Alpha0Tnaf
-    static void _set_Alpha0Tnaf(::ArrayWrapper<::ArrayWrapper<int8_t>> value);
+    static void _set_Alpha0Tnaf(::ArrayW<::ArrayW<int8_t>> value);
     // Get static field: static public readonly Org.BouncyCastle.Math.EC.Abc.ZTauElement[] Alpha1
-    static ::ArrayWrapper<Org::BouncyCastle::Math::EC::Abc::ZTauElement*> _get_Alpha1();
+    static ::ArrayW<Org::BouncyCastle::Math::EC::Abc::ZTauElement*> _get_Alpha1();
     // Set static field: static public readonly Org.BouncyCastle.Math.EC.Abc.ZTauElement[] Alpha1
-    static void _set_Alpha1(::ArrayWrapper<Org::BouncyCastle::Math::EC::Abc::ZTauElement*> value);
+    static void _set_Alpha1(::ArrayW<Org::BouncyCastle::Math::EC::Abc::ZTauElement*> value);
     // Get static field: static public readonly System.SByte[][] Alpha1Tnaf
-    static ::ArrayWrapper<::ArrayWrapper<int8_t>> _get_Alpha1Tnaf();
+    static ::ArrayW<::ArrayW<int8_t>> _get_Alpha1Tnaf();
     // Set static field: static public readonly System.SByte[][] Alpha1Tnaf
-    static void _set_Alpha1Tnaf(::ArrayWrapper<::ArrayWrapper<int8_t>> value);
+    static void _set_Alpha1Tnaf(::ArrayW<::ArrayW<int8_t>> value);
     // static private System.Void .cctor()
     // Offset: 0x1F55470
     static void _cctor();
@@ -84,28 +85,28 @@ namespace Org::BouncyCastle::Math::EC::Abc {
     static int8_t GetMu(int curveA);
     // static public Org.BouncyCastle.Math.BigInteger[] GetLucas(System.SByte mu, System.Int32 k, System.Boolean doV)
     // Offset: 0x1F542B8
-    static ::ArrayWrapper<Org::BouncyCastle::Math::BigInteger*> GetLucas(int8_t mu, int k, bool doV);
+    static ::ArrayW<Org::BouncyCastle::Math::BigInteger*> GetLucas(int8_t mu, int k, bool doV);
     // static public Org.BouncyCastle.Math.BigInteger GetTw(System.SByte mu, System.Int32 w)
     // Offset: 0x1F544BC
     static Org::BouncyCastle::Math::BigInteger* GetTw(int8_t mu, int w);
     // static public Org.BouncyCastle.Math.BigInteger[] GetSi(Org.BouncyCastle.Math.EC.AbstractF2mCurve curve)
     // Offset: 0x1F5465C
-    static ::ArrayWrapper<Org::BouncyCastle::Math::BigInteger*> GetSi(Org::BouncyCastle::Math::EC::AbstractF2mCurve* curve);
+    static ::ArrayW<Org::BouncyCastle::Math::BigInteger*> GetSi(Org::BouncyCastle::Math::EC::AbstractF2mCurve* curve);
     // static protected System.Int32 GetShiftsForCofactor(Org.BouncyCastle.Math.BigInteger h)
     // Offset: 0x1F54964
     static int GetShiftsForCofactor(Org::BouncyCastle::Math::BigInteger* h);
     // static public Org.BouncyCastle.Math.EC.Abc.ZTauElement PartModReduction(Org.BouncyCastle.Math.BigInteger k, System.Int32 m, System.SByte a, Org.BouncyCastle.Math.BigInteger[] s, System.SByte mu, System.SByte c)
     // Offset: 0x1F54A20
-    static Org::BouncyCastle::Math::EC::Abc::ZTauElement* PartModReduction(Org::BouncyCastle::Math::BigInteger* k, int m, int8_t a, ::ArrayWrapper<Org::BouncyCastle::Math::BigInteger*> s, int8_t mu, int8_t c);
+    static Org::BouncyCastle::Math::EC::Abc::ZTauElement* PartModReduction(Org::BouncyCastle::Math::BigInteger* k, int m, int8_t a, ::ArrayW<Org::BouncyCastle::Math::BigInteger*> s, int8_t mu, int8_t c);
     // static public Org.BouncyCastle.Math.EC.AbstractF2mPoint MultiplyFromTnaf(Org.BouncyCastle.Math.EC.AbstractF2mPoint p, System.SByte[] u)
     // Offset: 0x1F54CB8
-    static Org::BouncyCastle::Math::EC::AbstractF2mPoint* MultiplyFromTnaf(Org::BouncyCastle::Math::EC::AbstractF2mPoint* p, ::ArrayWrapper<int8_t> u);
+    static Org::BouncyCastle::Math::EC::AbstractF2mPoint* MultiplyFromTnaf(Org::BouncyCastle::Math::EC::AbstractF2mPoint* p, ::ArrayW<int8_t> u);
     // static public System.SByte[] TauAdicWNaf(System.SByte mu, Org.BouncyCastle.Math.EC.Abc.ZTauElement lambda, System.SByte width, Org.BouncyCastle.Math.BigInteger pow2w, Org.BouncyCastle.Math.BigInteger tw, Org.BouncyCastle.Math.EC.Abc.ZTauElement[] alpha)
     // Offset: 0x1F54ED4
-    static ::ArrayWrapper<int8_t> TauAdicWNaf(int8_t mu, Org::BouncyCastle::Math::EC::Abc::ZTauElement* lambda, int8_t width, Org::BouncyCastle::Math::BigInteger* pow2w, Org::BouncyCastle::Math::BigInteger* tw, ::ArrayWrapper<Org::BouncyCastle::Math::EC::Abc::ZTauElement*> alpha);
+    static ::ArrayW<int8_t> TauAdicWNaf(int8_t mu, Org::BouncyCastle::Math::EC::Abc::ZTauElement* lambda, int8_t width, Org::BouncyCastle::Math::BigInteger* pow2w, Org::BouncyCastle::Math::BigInteger* tw, ::ArrayW<Org::BouncyCastle::Math::EC::Abc::ZTauElement*> alpha);
     // static public Org.BouncyCastle.Math.EC.AbstractF2mPoint[] GetPreComp(Org.BouncyCastle.Math.EC.AbstractF2mPoint p, System.SByte a)
     // Offset: 0x1F55294
-    static ::ArrayWrapper<Org::BouncyCastle::Math::EC::AbstractF2mPoint*> GetPreComp(Org::BouncyCastle::Math::EC::AbstractF2mPoint* p, int8_t a);
+    static ::ArrayW<Org::BouncyCastle::Math::EC::AbstractF2mPoint*> GetPreComp(Org::BouncyCastle::Math::EC::AbstractF2mPoint* p, int8_t a);
   }; // Org.BouncyCastle.Math.EC.Abc.Tnaf
   #pragma pack(pop)
 }
@@ -167,7 +168,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Abc::Tnaf::GetLucas
 // Il2CppName: GetLucas
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<Org::BouncyCastle::Math::BigInteger*> (*)(int8_t, int, bool)>(&Org::BouncyCastle::Math::EC::Abc::Tnaf::GetLucas)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Org::BouncyCastle::Math::BigInteger*> (*)(int8_t, int, bool)>(&Org::BouncyCastle::Math::EC::Abc::Tnaf::GetLucas)> {
   static const MethodInfo* get() {
     static auto* mu = &::il2cpp_utils::GetClassFromName("System", "SByte")->byval_arg;
     static auto* k = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -188,7 +189,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Abc::Tnaf::GetSi
 // Il2CppName: GetSi
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<Org::BouncyCastle::Math::BigInteger*> (*)(Org::BouncyCastle::Math::EC::AbstractF2mCurve*)>(&Org::BouncyCastle::Math::EC::Abc::Tnaf::GetSi)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Org::BouncyCastle::Math::BigInteger*> (*)(Org::BouncyCastle::Math::EC::AbstractF2mCurve*)>(&Org::BouncyCastle::Math::EC::Abc::Tnaf::GetSi)> {
   static const MethodInfo* get() {
     static auto* curve = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "AbstractF2mCurve")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Abc::Tnaf*), "GetSi", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{curve});
@@ -206,7 +207,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Org
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Abc::Tnaf::PartModReduction
 // Il2CppName: PartModReduction
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::Abc::ZTauElement* (*)(Org::BouncyCastle::Math::BigInteger*, int, int8_t, ::ArrayWrapper<Org::BouncyCastle::Math::BigInteger*>, int8_t, int8_t)>(&Org::BouncyCastle::Math::EC::Abc::Tnaf::PartModReduction)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::Abc::ZTauElement* (*)(Org::BouncyCastle::Math::BigInteger*, int, int8_t, ::ArrayW<Org::BouncyCastle::Math::BigInteger*>, int8_t, int8_t)>(&Org::BouncyCastle::Math::EC::Abc::Tnaf::PartModReduction)> {
   static const MethodInfo* get() {
     static auto* k = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math", "BigInteger")->byval_arg;
     static auto* m = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -220,7 +221,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Abc::Tnaf::MultiplyFromTnaf
 // Il2CppName: MultiplyFromTnaf
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::AbstractF2mPoint* (*)(Org::BouncyCastle::Math::EC::AbstractF2mPoint*, ::ArrayWrapper<int8_t>)>(&Org::BouncyCastle::Math::EC::Abc::Tnaf::MultiplyFromTnaf)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::AbstractF2mPoint* (*)(Org::BouncyCastle::Math::EC::AbstractF2mPoint*, ::ArrayW<int8_t>)>(&Org::BouncyCastle::Math::EC::Abc::Tnaf::MultiplyFromTnaf)> {
   static const MethodInfo* get() {
     static auto* p = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "AbstractF2mPoint")->byval_arg;
     static auto* u = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "SByte"), 1)->byval_arg;
@@ -230,7 +231,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Abc::Tnaf::TauAdicWNaf
 // Il2CppName: TauAdicWNaf
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<int8_t> (*)(int8_t, Org::BouncyCastle::Math::EC::Abc::ZTauElement*, int8_t, Org::BouncyCastle::Math::BigInteger*, Org::BouncyCastle::Math::BigInteger*, ::ArrayWrapper<Org::BouncyCastle::Math::EC::Abc::ZTauElement*>)>(&Org::BouncyCastle::Math::EC::Abc::Tnaf::TauAdicWNaf)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int8_t> (*)(int8_t, Org::BouncyCastle::Math::EC::Abc::ZTauElement*, int8_t, Org::BouncyCastle::Math::BigInteger*, Org::BouncyCastle::Math::BigInteger*, ::ArrayW<Org::BouncyCastle::Math::EC::Abc::ZTauElement*>)>(&Org::BouncyCastle::Math::EC::Abc::Tnaf::TauAdicWNaf)> {
   static const MethodInfo* get() {
     static auto* mu = &::il2cpp_utils::GetClassFromName("System", "SByte")->byval_arg;
     static auto* lambda = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC.Abc", "ZTauElement")->byval_arg;
@@ -244,7 +245,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Abc::Tnaf::GetPreComp
 // Il2CppName: GetPreComp
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<Org::BouncyCastle::Math::EC::AbstractF2mPoint*> (*)(Org::BouncyCastle::Math::EC::AbstractF2mPoint*, int8_t)>(&Org::BouncyCastle::Math::EC::Abc::Tnaf::GetPreComp)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Org::BouncyCastle::Math::EC::AbstractF2mPoint*> (*)(Org::BouncyCastle::Math::EC::AbstractF2mPoint*, int8_t)>(&Org::BouncyCastle::Math::EC::Abc::Tnaf::GetPreComp)> {
   static const MethodInfo* get() {
     static auto* p = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "AbstractF2mPoint")->byval_arg;
     static auto* a = &::il2cpp_utils::GetClassFromName("System", "SByte")->byval_arg;

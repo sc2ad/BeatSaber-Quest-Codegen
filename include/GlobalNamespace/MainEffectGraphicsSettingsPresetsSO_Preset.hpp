@@ -29,12 +29,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MainEffectGraphicsSettingsPresetsSO::Preset : public GlobalNamespace::NamedPreset {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public MainEffectSO mainEffect
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::MainEffectSO* mainEffect;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MainEffectSO*) == 0x8);
+    public:
     // Deleting conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept = delete;
     // Get instance field reference: public MainEffectSO mainEffect

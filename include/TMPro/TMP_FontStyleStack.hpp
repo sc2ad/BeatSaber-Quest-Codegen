@@ -24,6 +24,11 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   struct TMP_FontStyleStack/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Byte bold
     // Size: 0x1
     // Offset: 0x0
@@ -84,6 +89,7 @@ namespace TMPro {
     uint8_t smallcaps;
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
+    public:
     // Creating value type constructor for type: TMP_FontStyleStack
     constexpr TMP_FontStyleStack(uint8_t bold_ = {}, uint8_t italic_ = {}, uint8_t underline_ = {}, uint8_t strikethrough_ = {}, uint8_t highlight_ = {}, uint8_t superscript_ = {}, uint8_t subscript_ = {}, uint8_t uppercase_ = {}, uint8_t lowercase_ = {}, uint8_t smallcaps_ = {}) noexcept : bold{bold_}, italic{italic_}, underline{underline_}, strikethrough{strikethrough_}, highlight{highlight_}, superscript{superscript_}, subscript{subscript_}, uppercase{uppercase_}, lowercase{lowercase_}, smallcaps{smallcaps_} {}
     // Creating interface conversion operator: operator System::ValueType

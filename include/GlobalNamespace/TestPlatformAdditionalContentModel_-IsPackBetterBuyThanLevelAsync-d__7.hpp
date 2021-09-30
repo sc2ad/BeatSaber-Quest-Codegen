@@ -28,6 +28,11 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   struct TestPlatformAdditionalContentModel::$IsPackBetterBuyThanLevelAsync$d__7/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0
@@ -56,6 +61,7 @@ namespace GlobalNamespace {
     System::Runtime::CompilerServices::YieldAwaitable::YieldAwaiter $$u__1;
     // Field size check
     static_assert(sizeof(System::Runtime::CompilerServices::YieldAwaitable::YieldAwaiter) == 0x1);
+    public:
     // Creating value type constructor for type: $IsPackBetterBuyThanLevelAsync$d__7
     constexpr $IsPackBetterBuyThanLevelAsync$d__7(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::AdditionalContentModel::IsPackBetterBuyThanLevelResult> $$t__builder_ = {}, System::Threading::CancellationToken token_ = {}, GlobalNamespace::TestPlatformAdditionalContentModel* $$4__this_ = {}, System::Runtime::CompilerServices::YieldAwaitable::YieldAwaiter $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, token{token_}, $$4__this{$$4__this_}, $$u__1{$$u__1_} {}
     // Creating interface conversion operator: operator System::ValueType

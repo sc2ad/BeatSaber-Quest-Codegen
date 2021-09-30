@@ -78,6 +78,11 @@ namespace UnityEngine::EventSystems {
     class TriggerEvent;
     // Nested type: UnityEngine::EventSystems::EventTrigger::Entry
     class Entry;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [FormerlySerializedAsAttribute] Offset: 0xEAA918
     // private System.Collections.Generic.List`1<UnityEngine.EventSystems.EventTrigger/UnityEngine.EventSystems.Entry> m_Delegates
     // Size: 0x8
@@ -85,6 +90,7 @@ namespace UnityEngine::EventSystems {
     System::Collections::Generic::List_1<UnityEngine::EventSystems::EventTrigger::Entry*>* m_Delegates;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::EventSystems::EventTrigger::Entry*>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator UnityEngine::EventSystems::IPointerClickHandler
     operator UnityEngine::EventSystems::IPointerClickHandler() noexcept {
       return *reinterpret_cast<UnityEngine::EventSystems::IPointerClickHandler*>(this);

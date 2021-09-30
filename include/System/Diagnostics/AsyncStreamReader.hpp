@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO
@@ -33,6 +34,11 @@ namespace System::Diagnostics {
   // [TokenAttribute] Offset: FFFFFFFF
   class AsyncStreamReader : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.IO.Stream stream
     // Size: 0x8
     // Offset: 0x10
@@ -54,15 +60,15 @@ namespace System::Diagnostics {
     // private System.Byte[] byteBuffer
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<uint8_t> byteBuffer;
+    ::ArrayW<uint8_t> byteBuffer;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Char[] charBuffer
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<::Il2CppChar> charBuffer;
+    ::ArrayW<::Il2CppChar> charBuffer;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppChar>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppChar>) == 0x8);
     // private System.Boolean cancelOperation
     // Size: 0x1
     // Offset: 0x38
@@ -83,6 +89,7 @@ namespace System::Diagnostics {
     ::Il2CppObject* syncObject;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
+    public:
     // Get instance field reference: private System.IO.Stream stream
     System::IO::Stream*& dyn_stream();
     // Get instance field reference: private System.Text.Encoding encoding
@@ -90,9 +97,9 @@ namespace System::Diagnostics {
     // Get instance field reference: private System.Text.Decoder decoder
     System::Text::Decoder*& dyn_decoder();
     // Get instance field reference: private System.Byte[] byteBuffer
-    ::ArrayWrapper<uint8_t>& dyn_byteBuffer();
+    ::ArrayW<uint8_t>& dyn_byteBuffer();
     // Get instance field reference: private System.Char[] charBuffer
-    ::ArrayWrapper<::Il2CppChar>& dyn_charBuffer();
+    ::ArrayW<::Il2CppChar>& dyn_charBuffer();
     // Get instance field reference: private System.Boolean cancelOperation
     bool& dyn_cancelOperation();
     // Get instance field reference: private System.Threading.ManualResetEvent eofEvent

@@ -32,6 +32,11 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class NumberFormatter::CustomInfo : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Boolean UseGroup
     // Size: 0x1
     // Offset: 0x10
@@ -122,6 +127,7 @@ namespace System {
     int Permilles;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: public System.Boolean UseGroup
     bool& dyn_UseGroup();
     // Get instance field reference: public System.Int32 DecimalDigits

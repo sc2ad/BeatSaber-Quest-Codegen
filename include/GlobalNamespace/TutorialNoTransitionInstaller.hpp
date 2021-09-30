@@ -32,12 +32,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class TutorialNoTransitionInstaller : public Zenject::NoTransitionInstaller {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private TutorialScenesTransitionSetupDataSO _scenesTransitionSetupData
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::TutorialScenesTransitionSetupDataSO* scenesTransitionSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::TutorialScenesTransitionSetupDataSO*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TutorialScenesTransitionSetupDataSO _scenesTransitionSetupData

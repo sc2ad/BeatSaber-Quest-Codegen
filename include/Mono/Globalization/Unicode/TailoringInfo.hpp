@@ -18,6 +18,11 @@ namespace Mono::Globalization::Unicode {
   // [TokenAttribute] Offset: FFFFFFFF
   class TailoringInfo : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly System.Int32 LCID
     // Size: 0x4
     // Offset: 0x10
@@ -42,6 +47,7 @@ namespace Mono::Globalization::Unicode {
     bool FrenchSort;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: public readonly System.Int32 LCID
     int& dyn_LCID();
     // Get instance field reference: public readonly System.Int32 TailoringIndex

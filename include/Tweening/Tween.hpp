@@ -36,6 +36,11 @@ namespace Tweening {
   // [TokenAttribute] Offset: FFFFFFFF
   class Tween : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Single <progress>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -122,6 +127,7 @@ namespace Tweening {
     UnityEngine::AnimationCurve* animationCurve;
     // Field size check
     static_assert(sizeof(UnityEngine::AnimationCurve*) == 0x8);
+    public:
     // static field const value: static protected System.Single kEpsilon
     static constexpr const float kEpsilon = 0.001;
     // Get static field: static protected System.Single kEpsilon

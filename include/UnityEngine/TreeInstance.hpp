@@ -22,6 +22,11 @@ namespace UnityEngine {
   // [UsedByNativeCodeAttribute] Offset: EBDFB0
   struct TreeInstance/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Vector3 position
     // Size: 0xC
     // Offset: 0x0
@@ -70,6 +75,7 @@ namespace UnityEngine {
     float temporaryDistance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: TreeInstance
     constexpr TreeInstance(UnityEngine::Vector3 position_ = {}, float widthScale_ = {}, float heightScale_ = {}, float rotation_ = {}, UnityEngine::Color32 color_ = {}, UnityEngine::Color32 lightmapColor_ = {}, int prototypeIndex_ = {}, float temporaryDistance_ = {}) noexcept : position{position_}, widthScale{widthScale_}, heightScale{heightScale_}, rotation{rotation_}, color{color_}, lightmapColor{lightmapColor_}, prototypeIndex{prototypeIndex_}, temporaryDistance{temporaryDistance_} {}
     // Creating interface conversion operator: operator System::ValueType

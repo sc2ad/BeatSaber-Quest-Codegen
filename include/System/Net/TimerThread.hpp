@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net
@@ -79,9 +80,9 @@ namespace System::Net {
     // Set static field: static private System.Threading.ManualResetEvent s_ThreadShutdownEvent
     static void _set_s_ThreadShutdownEvent(System::Threading::ManualResetEvent* value);
     // Get static field: static private System.Threading.WaitHandle[] s_ThreadEvents
-    static ::ArrayWrapper<System::Threading::WaitHandle*> _get_s_ThreadEvents();
+    static ::ArrayW<System::Threading::WaitHandle*> _get_s_ThreadEvents();
     // Set static field: static private System.Threading.WaitHandle[] s_ThreadEvents
-    static void _set_s_ThreadEvents(::ArrayWrapper<System::Threading::WaitHandle*> value);
+    static void _set_s_ThreadEvents(::ArrayW<System::Threading::WaitHandle*> value);
     // Get static field: static private System.Collections.Hashtable s_QueuesCache
     static System::Collections::Hashtable* _get_s_QueuesCache();
     // Set static field: static private System.Collections.Hashtable s_QueuesCache

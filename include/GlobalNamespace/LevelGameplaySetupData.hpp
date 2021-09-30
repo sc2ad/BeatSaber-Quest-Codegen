@@ -33,6 +33,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LevelGameplaySetupData : public ::Il2CppObject/*, public GlobalNamespace::ILevelGameplaySetupData*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private GameplayModifiers _gameplayModifiers
     // Size: 0x8
     // Offset: 0x10
@@ -57,6 +62,7 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatmapDifficulty beatmapDifficulty;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapDifficulty) == 0x4);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::ILevelGameplaySetupData
     operator GlobalNamespace::ILevelGameplaySetupData() noexcept {
       return *reinterpret_cast<GlobalNamespace::ILevelGameplaySetupData*>(this);

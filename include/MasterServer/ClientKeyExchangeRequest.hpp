@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -39,12 +40,18 @@ namespace MasterServer {
   // [TokenAttribute] Offset: FFFFFFFF
   class ClientKeyExchangeRequest : public GlobalNamespace::BaseMasterServerReliableResponse/*, public MasterServer::IHandshakeClientToServerMessage*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly ByteArrayNetSerializable clientPublicKey
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::ByteArrayNetSerializable* clientPublicKey;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ByteArrayNetSerializable*) == 0x8);
+    public:
     // Creating interface conversion operator: operator MasterServer::IHandshakeClientToServerMessage
     operator MasterServer::IHandshakeClientToServerMessage() noexcept {
       return *reinterpret_cast<MasterServer::IHandshakeClientToServerMessage*>(this);
@@ -60,7 +67,7 @@ namespace MasterServer {
     static GlobalNamespace::PacketPool_1<MasterServer::ClientKeyExchangeRequest*>* get_pool();
     // public MasterServer.ClientKeyExchangeRequest Init(System.Byte[] clientPublicKey)
     // Offset: 0x12D8284
-    MasterServer::ClientKeyExchangeRequest* Init(::ArrayWrapper<uint8_t> clientPublicKey);
+    MasterServer::ClientKeyExchangeRequest* Init(::ArrayW<uint8_t> clientPublicKey);
     // public System.Void .ctor()
     // Offset: 0x12DA1EC
     // Implemented from: BaseMasterServerReliableResponse
@@ -104,7 +111,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: MasterServer::ClientKeyExchangeRequest::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::ClientKeyExchangeRequest* (MasterServer::ClientKeyExchangeRequest::*)(::ArrayWrapper<uint8_t>)>(&MasterServer::ClientKeyExchangeRequest::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::ClientKeyExchangeRequest* (MasterServer::ClientKeyExchangeRequest::*)(::ArrayW<uint8_t>)>(&MasterServer::ClientKeyExchangeRequest::Init)> {
   static const MethodInfo* get() {
     static auto* clientPublicKey = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MasterServer::ClientKeyExchangeRequest*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{clientPublicKey});

@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -36,6 +37,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class TubeLightIntensityBehaviour : public UnityEngine::Playables::PlayableBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [HeaderAttribute] Offset: 0xF14904
     // public System.Boolean _noPredefinedStartValue
     // Size: 0x1
@@ -109,15 +115,15 @@ namespace GlobalNamespace {
     // private TubeBloomPrePassLight[] _tubeLights
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayWrapper<GlobalNamespace::TubeBloomPrePassLight*> tubeLights;
+    ::ArrayW<GlobalNamespace::TubeBloomPrePassLight*> tubeLights;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::TubeBloomPrePassLight*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::TubeBloomPrePassLight*>) == 0x8);
     // private DirectionalLight[] _directionalLights
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayWrapper<GlobalNamespace::DirectionalLight*> directionalLights;
+    ::ArrayW<GlobalNamespace::DirectionalLight*> directionalLights;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::DirectionalLight*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::DirectionalLight*>) == 0x8);
     // private System.Boolean _started
     // Size: 0x1
     // Offset: 0x48
@@ -144,6 +150,7 @@ namespace GlobalNamespace {
     float firstFrameLaserIntensity;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: public System.Boolean _noPredefinedStartValue
     bool& dyn__noPredefinedStartValue();
     // Get instance field reference: public System.Single _startLightIntensity
@@ -165,9 +172,9 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _originalLaserIntensity
     float& dyn__originalLaserIntensity();
     // Get instance field reference: private TubeBloomPrePassLight[] _tubeLights
-    ::ArrayWrapper<GlobalNamespace::TubeBloomPrePassLight*>& dyn__tubeLights();
+    ::ArrayW<GlobalNamespace::TubeBloomPrePassLight*>& dyn__tubeLights();
     // Get instance field reference: private DirectionalLight[] _directionalLights
-    ::ArrayWrapper<GlobalNamespace::DirectionalLight*>& dyn__directionalLights();
+    ::ArrayW<GlobalNamespace::DirectionalLight*>& dyn__directionalLights();
     // Get instance field reference: private System.Boolean _started
     bool& dyn__started();
     // Get instance field reference: private System.Boolean _finished

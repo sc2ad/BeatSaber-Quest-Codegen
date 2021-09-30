@@ -44,6 +44,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::HapticFeedbackController::RumbleData
     class RumbleData;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private BoolSO _controllersRumbleEnabled
     // Size: 0x8
     // Offset: 0x18
@@ -69,6 +74,7 @@ namespace GlobalNamespace {
     System::Collections::Generic::Dictionary_2<UnityEngine::XR::XRNode, System::Collections::Generic::Dictionary_2<::Il2CppObject*, GlobalNamespace::HapticFeedbackController::RumbleData*>*>* rumblesByNode;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<UnityEngine::XR::XRNode, System::Collections::Generic::Dictionary_2<::Il2CppObject*, GlobalNamespace::HapticFeedbackController::RumbleData*>*>*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Single kContinuousRumbleFrameDuration

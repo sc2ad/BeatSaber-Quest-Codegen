@@ -22,6 +22,11 @@ namespace OnlineServices {
   // [TokenAttribute] Offset: FFFFFFFF
   class LevelScoreUploader::LevelScoreResultsDataUploadInfo : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public OnlineServices.LevelScoreResultsData levelScoreResultsData
     // Size: 0x30
     // Offset: 0x10
@@ -34,6 +39,7 @@ namespace OnlineServices {
     int uploadAttemptCountLeft;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: public OnlineServices.LevelScoreResultsData levelScoreResultsData
     OnlineServices::LevelScoreResultsData& dyn_levelScoreResultsData();
     // Get instance field reference: public System.Int32 uploadAttemptCountLeft

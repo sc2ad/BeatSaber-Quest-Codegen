@@ -20,6 +20,11 @@ namespace System::Net::Configuration {
   // [TokenAttribute] Offset: FFFFFFFF
   class SettingsSectionInternal : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // readonly System.Boolean HttpListenerUnescapeRequestUrl
     // Size: 0x1
     // Offset: 0x10
@@ -34,6 +39,7 @@ namespace System::Net::Configuration {
     System::Net::Sockets::IPProtectionLevel IPProtectionLevel;
     // Field size check
     static_assert(sizeof(System::Net::Sockets::IPProtectionLevel) == 0x4);
+    public:
     // Get static field: static private readonly System.Net.Configuration.SettingsSectionInternal instance
     static System::Net::Configuration::SettingsSectionInternal* _get_instance();
     // Set static field: static private readonly System.Net.Configuration.SettingsSectionInternal instance

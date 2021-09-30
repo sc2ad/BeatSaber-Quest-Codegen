@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -48,6 +49,11 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_ParameterData : public ::Il2CppObject/*, public HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_ParameterData*>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 _unityIndex
     // Size: 0x4
     // Offset: 0x10
@@ -91,21 +97,21 @@ namespace HoudiniEngineUnity {
     // public System.Int32[] _intValues
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayWrapper<int> intValues;
+    ::ArrayW<int> intValues;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // public System.Single[] _floatValues
     // Size: 0x8
     // Offset: 0x48
-    ::ArrayWrapper<float> floatValues;
+    ::ArrayW<float> floatValues;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<float>) == 0x8);
+    static_assert(sizeof(::ArrayW<float>) == 0x8);
     // public System.String[] _stringValues
     // Size: 0x8
     // Offset: 0x50
-    ::ArrayWrapper<::Il2CppString*> stringValues;
+    ::ArrayW<::Il2CppString*> stringValues;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // public System.Boolean _toggle
     // Size: 0x1
     // Offset: 0x58
@@ -137,21 +143,21 @@ namespace HoudiniEngineUnity {
     // public UnityEngine.GUIContent[] _choiceLabels
     // Size: 0x8
     // Offset: 0x80
-    ::ArrayWrapper<UnityEngine::GUIContent*> choiceLabels;
+    ::ArrayW<UnityEngine::GUIContent*> choiceLabels;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::GUIContent*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::GUIContent*>) == 0x8);
     // public System.String[] _choiceStringValues
     // Size: 0x8
     // Offset: 0x88
-    ::ArrayWrapper<::Il2CppString*> choiceStringValues;
+    ::ArrayW<::Il2CppString*> choiceStringValues;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // public System.Int32[] _choiceIntValues
     // Size: 0x8
     // Offset: 0x90
-    ::ArrayWrapper<int> choiceIntValues;
+    ::ArrayW<int> choiceIntValues;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // public HoudiniEngineUnity.HAPI_ParmInfo _parmInfo
     // Size: 0x90
     // Offset: 0x98
@@ -196,6 +202,7 @@ namespace HoudiniEngineUnity {
     bool hasAssetPathTag;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_ParameterData*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_ParameterData*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_ParameterData*>*>(this);
@@ -213,11 +220,11 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Int32 _choiceValue
     int& dyn__choiceValue();
     // Get instance field reference: public System.Int32[] _intValues
-    ::ArrayWrapper<int>& dyn__intValues();
+    ::ArrayW<int>& dyn__intValues();
     // Get instance field reference: public System.Single[] _floatValues
-    ::ArrayWrapper<float>& dyn__floatValues();
+    ::ArrayW<float>& dyn__floatValues();
     // Get instance field reference: public System.String[] _stringValues
-    ::ArrayWrapper<::Il2CppString*>& dyn__stringValues();
+    ::ArrayW<::Il2CppString*>& dyn__stringValues();
     // Get instance field reference: public System.Boolean _toggle
     bool& dyn__toggle();
     // Get instance field reference: public UnityEngine.Color _color
@@ -227,11 +234,11 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public UnityEngine.AnimationCurve _animCurve
     UnityEngine::AnimationCurve*& dyn__animCurve();
     // Get instance field reference: public UnityEngine.GUIContent[] _choiceLabels
-    ::ArrayWrapper<UnityEngine::GUIContent*>& dyn__choiceLabels();
+    ::ArrayW<UnityEngine::GUIContent*>& dyn__choiceLabels();
     // Get instance field reference: public System.String[] _choiceStringValues
-    ::ArrayWrapper<::Il2CppString*>& dyn__choiceStringValues();
+    ::ArrayW<::Il2CppString*>& dyn__choiceStringValues();
     // Get instance field reference: public System.Int32[] _choiceIntValues
-    ::ArrayWrapper<int>& dyn__choiceIntValues();
+    ::ArrayW<int>& dyn__choiceIntValues();
     // Get instance field reference: public HoudiniEngineUnity.HAPI_ParmInfo _parmInfo
     HoudiniEngineUnity::HAPI_ParmInfo& dyn__parmInfo();
     // Get instance field reference: public System.Boolean _showChildren

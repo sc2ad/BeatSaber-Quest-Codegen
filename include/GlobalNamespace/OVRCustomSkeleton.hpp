@@ -34,6 +34,11 @@ namespace GlobalNamespace {
   // [DefaultExecutionOrder] Offset: EAF9D4
   class OVRCustomSkeleton : public GlobalNamespace::OVRSkeleton {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean _applyBoneTranslations
     // Size: 0x1
     // Offset: 0xB4
@@ -48,6 +53,7 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<UnityEngine::Transform*>* customBones_V2;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::Transform*>*) == 0x8);
+    public:
     // Get instance field reference: private System.Boolean _applyBoneTranslations
     bool& dyn__applyBoneTranslations();
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.Transform> _customBones_V2

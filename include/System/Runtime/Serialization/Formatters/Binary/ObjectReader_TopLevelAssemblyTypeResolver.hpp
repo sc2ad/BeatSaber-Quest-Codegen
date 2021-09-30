@@ -32,12 +32,18 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   // [TokenAttribute] Offset: FFFFFFFF
   class ObjectReader::TopLevelAssemblyTypeResolver : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Reflection.Assembly m_topLevelAssembly
     // Size: 0x8
     // Offset: 0x10
     System::Reflection::Assembly* m_topLevelAssembly;
     // Field size check
     static_assert(sizeof(System::Reflection::Assembly*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Reflection::Assembly*
     constexpr operator System::Reflection::Assembly*() const noexcept {
       return m_topLevelAssembly;

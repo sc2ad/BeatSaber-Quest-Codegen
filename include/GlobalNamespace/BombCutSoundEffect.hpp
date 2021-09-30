@@ -42,6 +42,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::BombCutSoundEffect::Pool
     class Pool;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.AudioSource _audioSource
     // Size: 0x8
     // Offset: 0x18
@@ -60,6 +65,7 @@ namespace GlobalNamespace {
     GlobalNamespace::Saber* saber;
     // Field size check
     static_assert(sizeof(GlobalNamespace::Saber*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.AudioSource _audioSource

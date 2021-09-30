@@ -6,6 +6,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -24,6 +25,11 @@ namespace UnityEngine {
   // [UsedByNativeCodeAttribute] Offset: E71530
   struct LOD/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Single screenRelativeTransitionHeight
     // Size: 0x4
     // Offset: 0x0
@@ -39,11 +45,12 @@ namespace UnityEngine {
     // public UnityEngine.Renderer[] renderers
     // Size: 0x8
     // Offset: 0x8
-    ::ArrayWrapper<UnityEngine::Renderer*> renderers;
+    ::ArrayW<UnityEngine::Renderer*> renderers;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Renderer*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Renderer*>) == 0x8);
+    public:
     // Creating value type constructor for type: LOD
-    constexpr LOD(float screenRelativeTransitionHeight_ = {}, float fadeTransitionWidth_ = {}, ::ArrayWrapper<UnityEngine::Renderer*> renderers_ = ::ArrayWrapper<UnityEngine::Renderer*>(nullptr)) noexcept : screenRelativeTransitionHeight{screenRelativeTransitionHeight_}, fadeTransitionWidth{fadeTransitionWidth_}, renderers{renderers_} {}
+    constexpr LOD(float screenRelativeTransitionHeight_ = {}, float fadeTransitionWidth_ = {}, ::ArrayW<UnityEngine::Renderer*> renderers_ = ::ArrayW<UnityEngine::Renderer*>(nullptr)) noexcept : screenRelativeTransitionHeight{screenRelativeTransitionHeight_}, fadeTransitionWidth{fadeTransitionWidth_}, renderers{renderers_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -53,13 +60,13 @@ namespace UnityEngine {
     // Get instance field reference: public System.Single fadeTransitionWidth
     float& dyn_fadeTransitionWidth();
     // Get instance field reference: public UnityEngine.Renderer[] renderers
-    ::ArrayWrapper<UnityEngine::Renderer*>& dyn_renderers();
+    ::ArrayW<UnityEngine::Renderer*>& dyn_renderers();
     // public System.Void .ctor(System.Single screenRelativeTransitionHeight, UnityEngine.Renderer[] renderers)
     // Offset: 0x1D9DDA8
-    LOD(float screenRelativeTransitionHeight, ::ArrayWrapper<UnityEngine::Renderer*> renderers);
+    LOD(float screenRelativeTransitionHeight, ::ArrayW<UnityEngine::Renderer*> renderers);
   }; // UnityEngine.LOD
   #pragma pack(pop)
-  static check_size<sizeof(LOD), 8 + sizeof(::ArrayWrapper<UnityEngine::Renderer*>)> __UnityEngine_LODSizeCheck;
+  static check_size<sizeof(LOD), 8 + sizeof(::ArrayW<UnityEngine::Renderer*>)> __UnityEngine_LODSizeCheck;
   static_assert(sizeof(LOD) == 0x10);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

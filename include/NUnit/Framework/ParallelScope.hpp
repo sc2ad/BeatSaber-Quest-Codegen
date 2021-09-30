@@ -17,12 +17,18 @@ namespace NUnit::Framework {
   // [FlagsAttribute] Offset: FFFFFFFF
   struct ParallelScope/*, public System::Enum*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 value__
     // Size: 0x4
     // Offset: 0x0
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: ParallelScope
     constexpr ParallelScope(int value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum

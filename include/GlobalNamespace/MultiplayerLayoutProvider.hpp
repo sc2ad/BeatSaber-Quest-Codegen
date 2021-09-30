@@ -28,6 +28,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerLayoutProvider : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private MultiplayerPlayerLayout <layout>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -46,6 +51,7 @@ namespace GlobalNamespace {
     System::Action_2<GlobalNamespace::MultiplayerPlayerLayout, int>* playersLayoutWasCalculatedEvent;
     // Field size check
     static_assert(sizeof(System::Action_2<GlobalNamespace::MultiplayerPlayerLayout, int>*) == 0x8);
+    public:
     // Get instance field reference: private MultiplayerPlayerLayout <layout>k__BackingField
     GlobalNamespace::MultiplayerPlayerLayout& dyn_$layout$k__BackingField();
     // Get instance field reference: private System.Int32 <activePlayerSpotsCount>k__BackingField

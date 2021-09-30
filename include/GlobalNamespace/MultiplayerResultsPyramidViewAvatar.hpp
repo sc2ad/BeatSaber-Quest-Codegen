@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -75,6 +76,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::MultiplayerResultsPyramidViewAvatar::Factory
     class Factory;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [HeaderAttribute] Offset: 0xF09E74
     // private UnityEngine.Playables.PlayableDirector _badgeDirector
     // Size: 0x8
@@ -144,15 +150,15 @@ namespace GlobalNamespace {
     // private TMPro.TextMeshProUGUI[] _badgeTitles
     // Size: 0x8
     // Offset: 0x70
-    ::ArrayWrapper<TMPro::TextMeshProUGUI*> badgeTitles;
+    ::ArrayW<TMPro::TextMeshProUGUI*> badgeTitles;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<TMPro::TextMeshProUGUI*>) == 0x8);
+    static_assert(sizeof(::ArrayW<TMPro::TextMeshProUGUI*>) == 0x8);
     // private HMUI.ImageView[] _badgeImages
     // Size: 0x8
     // Offset: 0x78
-    ::ArrayWrapper<HMUI::ImageView*> badgeImages;
+    ::ArrayW<HMUI::ImageView*> badgeImages;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<HMUI::ImageView*>) == 0x8);
+    static_assert(sizeof(::ArrayW<HMUI::ImageView*>) == 0x8);
     // [HeaderAttribute] Offset: 0xF0A024
     // private TMPro.TextMeshProUGUI _badgeSubtitleText
     // Size: 0x8
@@ -303,6 +309,7 @@ namespace GlobalNamespace {
     GlobalNamespace::IConnectedPlayer* connectedPlayer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IConnectedPlayer*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Playables.PlayableDirector _badgeDirector
@@ -326,9 +333,9 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.CanvasGroup _badgeCanvas
     UnityEngine::CanvasGroup*& dyn__badgeCanvas();
     // Get instance field reference: private TMPro.TextMeshProUGUI[] _badgeTitles
-    ::ArrayWrapper<TMPro::TextMeshProUGUI*>& dyn__badgeTitles();
+    ::ArrayW<TMPro::TextMeshProUGUI*>& dyn__badgeTitles();
     // Get instance field reference: private HMUI.ImageView[] _badgeImages
-    ::ArrayWrapper<HMUI::ImageView*>& dyn__badgeImages();
+    ::ArrayW<HMUI::ImageView*>& dyn__badgeImages();
     // Get instance field reference: private TMPro.TextMeshProUGUI _badgeSubtitleText
     TMPro::TextMeshProUGUI*& dyn__badgeSubtitleText();
     // Get instance field reference: private UnityEngine.CanvasGroup _badgeSubtitleCanvas

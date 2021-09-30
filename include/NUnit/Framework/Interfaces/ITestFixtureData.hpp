@@ -6,6 +6,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: NUnit.Framework.Interfaces.ITestData
 #include "NUnit/Framework/Interfaces/ITestData.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -28,7 +29,7 @@ namespace NUnit::Framework::Interfaces {
     }
     // public System.Type[] get_TypeArgs()
     // Offset: 0xFFFFFFFF
-    ::ArrayWrapper<System::Type*> get_TypeArgs();
+    ::ArrayW<System::Type*> get_TypeArgs();
   }; // NUnit.Framework.Interfaces.ITestFixtureData
   #pragma pack(pop)
 }
@@ -38,7 +39,7 @@ DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Interfaces::ITestFixtureData*, "NUnit.F
 // Writing MetadataGetter for method: NUnit::Framework::Interfaces::ITestFixtureData::get_TypeArgs
 // Il2CppName: get_TypeArgs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::Type*> (NUnit::Framework::Interfaces::ITestFixtureData::*)()>(&NUnit::Framework::Interfaces::ITestFixtureData::get_TypeArgs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Type*> (NUnit::Framework::Interfaces::ITestFixtureData::*)()>(&NUnit::Framework::Interfaces::ITestFixtureData::get_TypeArgs)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Interfaces::ITestFixtureData*), "get_TypeArgs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

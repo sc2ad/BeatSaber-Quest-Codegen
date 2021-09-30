@@ -27,12 +27,18 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class Test_AnimationCurve : public ::Il2CppObject/*, public HoudiniEngineUnity::IEquivableWrapperClass_1<HoudiniEngineUnity::Test_AnimationCurve*>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.AnimationCurve self
     // Size: 0x8
     // Offset: 0x10
     UnityEngine::AnimationCurve* self;
     // Field size check
     static_assert(sizeof(UnityEngine::AnimationCurve*) == 0x8);
+    public:
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivableWrapperClass_1<HoudiniEngineUnity::Test_AnimationCurve*>
     operator HoudiniEngineUnity::IEquivableWrapperClass_1<HoudiniEngineUnity::Test_AnimationCurve*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivableWrapperClass_1<HoudiniEngineUnity::Test_AnimationCurve*>*>(this);

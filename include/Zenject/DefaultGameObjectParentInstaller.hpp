@@ -26,12 +26,18 @@ namespace Zenject {
     public:
     // Nested type: Zenject::DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer
     class DefaultParentObjectDestroyer;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.String _name
     // Size: 0x8
     // Offset: 0x18
     ::Il2CppString* name;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Deleting conversion operator: operator Zenject::DiContainer*
     constexpr operator Zenject::DiContainer*() const noexcept = delete;
     // Get instance field reference: private readonly System.String _name

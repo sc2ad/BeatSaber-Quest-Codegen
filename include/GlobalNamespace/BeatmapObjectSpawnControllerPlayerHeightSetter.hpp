@@ -29,6 +29,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapObjectSpawnControllerPlayerHeightSetter : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xF0A81C
     // private readonly BeatmapObjectSpawnController _beatmapObjectSpawnController
     // Size: 0x8
@@ -43,6 +48,7 @@ namespace GlobalNamespace {
     GlobalNamespace::PlayerHeightDetector* playerHeightDetector;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerHeightDetector*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private readonly BeatmapObjectSpawnController _beatmapObjectSpawnController

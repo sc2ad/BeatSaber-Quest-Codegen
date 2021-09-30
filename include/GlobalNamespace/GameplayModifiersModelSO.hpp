@@ -50,6 +50,11 @@ namespace GlobalNamespace {
     class GameplayModifierBoolGetter;
     // Nested type: GlobalNamespace::GameplayModifiersModelSO::$$c
     class $$c;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private GameplayModifierParamsSO _batteryEnergy
     // Size: 0x8
     // Offset: 0x18
@@ -165,6 +170,7 @@ namespace GlobalNamespace {
     System::Collections::Generic::Dictionary_2<GlobalNamespace::GameplayModifierParamsSO*, GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter*>* gameplayModifierGetters;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<GlobalNamespace::GameplayModifierParamsSO*, GlobalNamespace::GameplayModifiersModelSO::GameplayModifierBoolGetter*>*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private GameplayModifierParamsSO _batteryEnergy

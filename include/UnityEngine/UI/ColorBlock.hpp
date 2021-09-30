@@ -23,6 +23,11 @@ namespace UnityEngine::UI {
   // [TokenAttribute] Offset: FFFFFFFF
   struct ColorBlock/*, public System::ValueType, public System::IEquatable_1<UnityEngine::UI::ColorBlock>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [FormerlySerializedAsAttribute] Offset: 0xEA8DEC
     // private UnityEngine.Color m_NormalColor
     // Size: 0x10
@@ -72,6 +77,7 @@ namespace UnityEngine::UI {
     float m_FadeDuration;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: ColorBlock
     constexpr ColorBlock(UnityEngine::Color m_NormalColor_ = {}, UnityEngine::Color m_HighlightedColor_ = {}, UnityEngine::Color m_PressedColor_ = {}, UnityEngine::Color m_SelectedColor_ = {}, UnityEngine::Color m_DisabledColor_ = {}, float m_ColorMultiplier_ = {}, float m_FadeDuration_ = {}) noexcept : m_NormalColor{m_NormalColor_}, m_HighlightedColor{m_HighlightedColor_}, m_PressedColor{m_PressedColor_}, m_SelectedColor{m_SelectedColor_}, m_DisabledColor{m_DisabledColor_}, m_ColorMultiplier{m_ColorMultiplier_}, m_FadeDuration{m_FadeDuration_} {}
     // Creating interface conversion operator: operator System::ValueType

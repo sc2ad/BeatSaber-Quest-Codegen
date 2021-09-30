@@ -36,6 +36,11 @@ namespace NUnit::Framework::Internal::Commands {
   // [TokenAttribute] Offset: FFFFFFFF
   class SetUpTearDownItem : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.IList`1<System.Reflection.MethodInfo> _setUpMethods
     // Size: 0x8
     // Offset: 0x10
@@ -54,6 +59,7 @@ namespace NUnit::Framework::Internal::Commands {
     bool setUpWasRun;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private System.Collections.Generic.IList`1<System.Reflection.MethodInfo> _setUpMethods
     System::Collections::Generic::IList_1<System::Reflection::MethodInfo*>*& dyn__setUpMethods();
     // Get instance field reference: private System.Collections.Generic.IList`1<System.Reflection.MethodInfo> _tearDownMethods

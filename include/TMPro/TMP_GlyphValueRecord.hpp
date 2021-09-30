@@ -28,6 +28,11 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   struct TMP_GlyphValueRecord/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Single m_XPlacement
     // Size: 0x4
     // Offset: 0x0
@@ -52,6 +57,7 @@ namespace TMPro {
     float m_YAdvance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: TMP_GlyphValueRecord
     constexpr TMP_GlyphValueRecord(float m_XPlacement_ = {}, float m_YPlacement_ = {}, float m_XAdvance_ = {}, float m_YAdvance_ = {}) noexcept : m_XPlacement{m_XPlacement_}, m_YPlacement{m_YPlacement_}, m_XAdvance{m_XAdvance_}, m_YAdvance{m_YAdvance_} {}
     // Creating interface conversion operator: operator System::ValueType

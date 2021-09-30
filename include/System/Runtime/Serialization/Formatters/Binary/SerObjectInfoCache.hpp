@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection
@@ -30,6 +31,11 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   // [TokenAttribute] Offset: FFFFFFFF
   class SerObjectInfoCache : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.String fullTypeName
     // Size: 0x8
     // Offset: 0x10
@@ -53,21 +59,22 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // System.Reflection.MemberInfo[] memberInfos
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<System::Reflection::MemberInfo*> memberInfos;
+    ::ArrayW<System::Reflection::MemberInfo*> memberInfos;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<System::Reflection::MemberInfo*>) == 0x8);
+    static_assert(sizeof(::ArrayW<System::Reflection::MemberInfo*>) == 0x8);
     // System.String[] memberNames
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<::Il2CppString*> memberNames;
+    ::ArrayW<::Il2CppString*> memberNames;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // System.Type[] memberTypes
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayWrapper<System::Type*> memberTypes;
+    ::ArrayW<System::Type*> memberTypes;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<System::Type*>) == 0x8);
+    static_assert(sizeof(::ArrayW<System::Type*>) == 0x8);
+    public:
     // Get instance field reference: System.String fullTypeName
     ::Il2CppString*& dyn_fullTypeName();
     // Get instance field reference: System.String assemblyString
@@ -75,11 +82,11 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: System.Boolean hasTypeForwardedFrom
     bool& dyn_hasTypeForwardedFrom();
     // Get instance field reference: System.Reflection.MemberInfo[] memberInfos
-    ::ArrayWrapper<System::Reflection::MemberInfo*>& dyn_memberInfos();
+    ::ArrayW<System::Reflection::MemberInfo*>& dyn_memberInfos();
     // Get instance field reference: System.String[] memberNames
-    ::ArrayWrapper<::Il2CppString*>& dyn_memberNames();
+    ::ArrayW<::Il2CppString*>& dyn_memberNames();
     // Get instance field reference: System.Type[] memberTypes
-    ::ArrayWrapper<System::Type*>& dyn_memberTypes();
+    ::ArrayW<System::Type*>& dyn_memberTypes();
     // System.Void .ctor(System.String typeName, System.String assemblyName, System.Boolean hasTypeForwardedFrom)
     // Offset: 0x17F51B8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -96,7 +103,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     }
   }; // System.Runtime.Serialization.Formatters.Binary.SerObjectInfoCache
   #pragma pack(pop)
-  static check_size<sizeof(SerObjectInfoCache), 56 + sizeof(::ArrayWrapper<System::Type*>)> __System_Runtime_Serialization_Formatters_Binary_SerObjectInfoCacheSizeCheck;
+  static check_size<sizeof(SerObjectInfoCache), 56 + sizeof(::ArrayW<System::Type*>)> __System_Runtime_Serialization_Formatters_Binary_SerObjectInfoCacheSizeCheck;
   static_assert(sizeof(SerObjectInfoCache) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache*, "System.Runtime.Serialization.Formatters.Binary", "SerObjectInfoCache");

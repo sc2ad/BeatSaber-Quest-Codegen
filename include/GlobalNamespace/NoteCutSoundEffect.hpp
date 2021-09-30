@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -53,6 +54,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::NoteCutSoundEffect::Pool
     class Pool;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.AudioSource _audioSource
     // Size: 0x8
     // Offset: 0x18
@@ -68,9 +74,9 @@ namespace GlobalNamespace {
     // private UnityEngine.AudioClip[] _badCutSoundEffectAudioClips
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<UnityEngine::AudioClip*> badCutSoundEffectAudioClips;
+    ::ArrayW<UnityEngine::AudioClip*> badCutSoundEffectAudioClips;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::AudioClip*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::AudioClip*>) == 0x8);
     // private System.Single _badCutVolume
     // Size: 0x4
     // Offset: 0x30
@@ -205,6 +211,7 @@ namespace GlobalNamespace {
     GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteCutSoundEffectDidFinishEvent*>* didFinishEvent;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteCutSoundEffectDidFinishEvent*>*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Single kEndOverlap
@@ -224,7 +231,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.AnimationCurve _speedToVolumeCurve
     UnityEngine::AnimationCurve*& dyn__speedToVolumeCurve();
     // Get instance field reference: private UnityEngine.AudioClip[] _badCutSoundEffectAudioClips
-    ::ArrayWrapper<UnityEngine::AudioClip*>& dyn__badCutSoundEffectAudioClips();
+    ::ArrayW<UnityEngine::AudioClip*>& dyn__badCutSoundEffectAudioClips();
     // Get instance field reference: private System.Single _badCutVolume
     float& dyn__badCutVolume();
     // Get instance field reference: private System.Single _goodCutVolume

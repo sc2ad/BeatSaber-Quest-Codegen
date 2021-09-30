@@ -90,6 +90,11 @@ namespace GlobalNamespace {
     class $$c__DisplayClass94_0;
     // Nested type: GlobalNamespace::LobbyGameStateController::$$c
     class $$c;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xF02E3C
     // private readonly ILobbyPlayersDataModel _lobbyPlayersDataModel
     // Size: 0x8
@@ -298,6 +303,7 @@ namespace GlobalNamespace {
     GlobalNamespace::CannotStartGameReason cannotStartGameReason;
     // Field size check
     static_assert(sizeof(GlobalNamespace::CannotStartGameReason) == 0x4);
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

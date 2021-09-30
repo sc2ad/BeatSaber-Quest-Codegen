@@ -29,6 +29,11 @@ namespace System::Text {
   // [TokenAttribute] Offset: FFFFFFFF
   class UTF7Encoding::Decoder : public System::Text::DecoderNLS {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Int32 bits
     // Size: 0x4
     // Offset: 0x30
@@ -47,6 +52,7 @@ namespace System::Text {
     bool firstByte;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: System.Int32 bits
     int& dyn_bits();
     // Get instance field reference: System.Int32 bitCount

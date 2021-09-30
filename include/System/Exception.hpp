@@ -19,6 +19,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -63,6 +64,11 @@ namespace System {
     public:
     // Nested type: System::Exception::ExceptionMessageKind
     struct ExceptionMessageKind;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String _className
     // Size: 0x8
     // Offset: 0x10
@@ -149,15 +155,16 @@ namespace System {
     // System.Diagnostics.StackTrace[] captured_traces
     // Size: 0x8
     // Offset: 0x78
-    ::ArrayWrapper<System::Diagnostics::StackTrace*> captured_traces;
+    ::ArrayW<System::Diagnostics::StackTrace*> captured_traces;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<System::Diagnostics::StackTrace*>) == 0x8);
+    static_assert(sizeof(::ArrayW<System::Diagnostics::StackTrace*>) == 0x8);
     // private System.IntPtr[] native_trace_ips
     // Size: 0x8
     // Offset: 0x80
-    ::ArrayWrapper<System::IntPtr> native_trace_ips;
+    ::ArrayW<System::IntPtr> native_trace_ips;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<System::IntPtr>) == 0x8);
+    static_assert(sizeof(::ArrayW<System::IntPtr>) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Runtime::Serialization::ISerializable
     operator System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);
@@ -204,9 +211,9 @@ namespace System {
     // Get instance field reference: private System.Runtime.Serialization.SafeSerializationManager _safeSerializationManager
     System::Runtime::Serialization::SafeSerializationManager*& dyn__safeSerializationManager();
     // Get instance field reference: System.Diagnostics.StackTrace[] captured_traces
-    ::ArrayWrapper<System::Diagnostics::StackTrace*>& dyn_captured_traces();
+    ::ArrayW<System::Diagnostics::StackTrace*>& dyn_captured_traces();
     // Get instance field reference: private System.IntPtr[] native_trace_ips
-    ::ArrayWrapper<System::IntPtr>& dyn_native_trace_ips();
+    ::ArrayW<System::IntPtr>& dyn_native_trace_ips();
     // public System.String get_Message()
     // Offset: 0x19A6B74
     ::Il2CppString* get_Message();
@@ -313,7 +320,7 @@ namespace System {
     ::Il2CppString* ToString();
   }; // System.Exception
   #pragma pack(pop)
-  static check_size<sizeof(Exception), 128 + sizeof(::ArrayWrapper<System::IntPtr>)> __System_ExceptionSizeCheck;
+  static check_size<sizeof(Exception), 128 + sizeof(::ArrayW<System::IntPtr>)> __System_ExceptionSizeCheck;
   static_assert(sizeof(Exception) == 0x88);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Exception*, "System", "Exception");

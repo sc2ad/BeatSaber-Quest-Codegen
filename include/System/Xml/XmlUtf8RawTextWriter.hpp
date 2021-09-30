@@ -19,6 +19,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO
@@ -45,6 +46,11 @@ namespace System::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   class XmlUtf8RawTextWriter : public System::Xml::XmlRawWriter {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Boolean useAsync
     // Size: 0x1
     // Offset: 0x20
@@ -56,9 +62,9 @@ namespace System::Xml {
     // protected System.Byte[] bufBytes
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<uint8_t> bufBytes;
+    ::ArrayW<uint8_t> bufBytes;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // protected System.IO.Stream stream
     // Size: 0x8
     // Offset: 0x30
@@ -191,10 +197,11 @@ namespace System::Xml {
     bool mergeCDataSections;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private readonly System.Boolean useAsync
     bool& dyn_useAsync();
     // Get instance field reference: protected System.Byte[] bufBytes
-    ::ArrayWrapper<uint8_t>& dyn_bufBytes();
+    ::ArrayW<uint8_t>& dyn_bufBytes();
     // Get instance field reference: protected System.IO.Stream stream
     System::IO::Stream*& dyn_stream();
     // Get instance field reference: protected System.Text.Encoding encoding
@@ -441,12 +448,12 @@ namespace System::Xml {
     // Offset: 0x1B078D0
     // Implemented from: System.Xml.XmlRawWriter
     // Base method: System.Void XmlRawWriter::WriteChars(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    void WriteChars(::ArrayWrapper<::Il2CppChar> buffer, int index, int count);
+    void WriteChars(::ArrayW<::Il2CppChar> buffer, int index, int count);
     // public override System.Void WriteRaw(System.Char[] buffer, System.Int32 index, System.Int32 count)
     // Offset: 0x1AFDCCC
     // Implemented from: System.Xml.XmlRawWriter
     // Base method: System.Void XmlRawWriter::WriteRaw(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    void WriteRaw(::ArrayWrapper<::Il2CppChar> buffer, int index, int count);
+    void WriteRaw(::ArrayW<::Il2CppChar> buffer, int index, int count);
     // public override System.Void WriteRaw(System.String data)
     // Offset: 0x1AFDC3C
     // Implemented from: System.Xml.XmlRawWriter
@@ -937,7 +944,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlUtf8RawTextWriter::WriteChars
 // Il2CppName: WriteChars
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlUtf8RawTextWriter::*)(::ArrayWrapper<::Il2CppChar>, int, int)>(&System::Xml::XmlUtf8RawTextWriter::WriteChars)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlUtf8RawTextWriter::*)(::ArrayW<::Il2CppChar>, int, int)>(&System::Xml::XmlUtf8RawTextWriter::WriteChars)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -948,7 +955,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlUtf8RawTextWriter::WriteRaw
 // Il2CppName: WriteRaw
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlUtf8RawTextWriter::*)(::ArrayWrapper<::Il2CppChar>, int, int)>(&System::Xml::XmlUtf8RawTextWriter::WriteRaw)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlUtf8RawTextWriter::*)(::ArrayW<::Il2CppChar>, int, int)>(&System::Xml::XmlUtf8RawTextWriter::WriteRaw)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

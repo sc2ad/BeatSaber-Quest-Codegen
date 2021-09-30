@@ -18,6 +18,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct OVRMeshRenderer::MeshRendererData/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean <IsDataValid>k__BackingField
     // Size: 0x1
     // Offset: 0x0
@@ -36,6 +41,7 @@ namespace GlobalNamespace {
     bool ShouldUseSystemGestureMaterial;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating value type constructor for type: MeshRendererData
     constexpr MeshRendererData(bool IsDataValid_ = {}, bool IsDataHighConfidence_ = {}, bool ShouldUseSystemGestureMaterial_ = {}) noexcept : IsDataValid{IsDataValid_}, IsDataHighConfidence{IsDataHighConfidence_}, ShouldUseSystemGestureMaterial{ShouldUseSystemGestureMaterial_} {}
     // Creating interface conversion operator: operator System::ValueType

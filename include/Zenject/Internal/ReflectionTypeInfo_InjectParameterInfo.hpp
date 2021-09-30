@@ -33,6 +33,11 @@ namespace Zenject::Internal {
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
   class ReflectionTypeInfo::InjectParameterInfo : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly System.Reflection.ParameterInfo ParameterInfo
     // Size: 0x8
     // Offset: 0x10
@@ -45,6 +50,7 @@ namespace Zenject::Internal {
     Zenject::InjectableInfo* InjectableInfo;
     // Field size check
     static_assert(sizeof(Zenject::InjectableInfo*) == 0x8);
+    public:
     // Get instance field reference: public readonly System.Reflection.ParameterInfo ParameterInfo
     System::Reflection::ParameterInfo*& dyn_ParameterInfo();
     // Get instance field reference: public readonly Zenject.InjectableInfo InjectableInfo

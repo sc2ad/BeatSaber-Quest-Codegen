@@ -43,12 +43,18 @@ namespace System::Threading::Tasks {
     public:
     // Nested type: System::Threading::Tasks::TaskScheduler::SystemThreadingTasks_TaskSchedulerDebugView
     class SystemThreadingTasks_TaskSchedulerDebugView;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 m_taskSchedulerId
     // Size: 0x4
     // Offset: 0x10
     int m_taskSchedulerId;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return m_taskSchedulerId;

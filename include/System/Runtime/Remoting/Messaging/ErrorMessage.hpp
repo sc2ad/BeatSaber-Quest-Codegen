@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection
@@ -37,12 +38,18 @@ namespace System::Runtime::Remoting::Messaging {
   // [TokenAttribute] Offset: FFFFFFFF
   class ErrorMessage : public ::Il2CppObject/*, public System::Runtime::Remoting::Messaging::IMethodCallMessage*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String _uri
     // Size: 0x8
     // Offset: 0x10
     ::Il2CppString* uri;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Runtime::Remoting::Messaging::IMethodCallMessage
     operator System::Runtime::Remoting::Messaging::IMethodCallMessage() noexcept {
       return *reinterpret_cast<System::Runtime::Remoting::Messaging::IMethodCallMessage*>(this);
@@ -58,7 +65,7 @@ namespace System::Runtime::Remoting::Messaging {
     int get_ArgCount();
     // public System.Object[] get_Args()
     // Offset: 0x1C17E84
-    ::ArrayWrapper<::Il2CppObject*> get_Args();
+    ::ArrayW<::Il2CppObject*> get_Args();
     // public System.Reflection.MethodBase get_MethodBase()
     // Offset: 0x1C17E8C
     System::Reflection::MethodBase* get_MethodBase();
@@ -110,7 +117,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::ErrorMessage::get_Args
 // Il2CppName: get_Args
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppObject*> (System::Runtime::Remoting::Messaging::ErrorMessage::*)()>(&System::Runtime::Remoting::Messaging::ErrorMessage::get_Args)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppObject*> (System::Runtime::Remoting::Messaging::ErrorMessage::*)()>(&System::Runtime::Remoting::Messaging::ErrorMessage::get_Args)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::ErrorMessage*), "get_Args", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

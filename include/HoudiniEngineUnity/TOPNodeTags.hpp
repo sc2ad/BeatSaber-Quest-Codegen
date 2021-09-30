@@ -18,6 +18,11 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class TOPNodeTags : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Boolean _show
     // Size: 0x1
     // Offset: 0x10
@@ -30,6 +35,7 @@ namespace HoudiniEngineUnity {
     bool autoload;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: public System.Boolean _show
     bool& dyn__show();
     // Get instance field reference: public System.Boolean _autoload

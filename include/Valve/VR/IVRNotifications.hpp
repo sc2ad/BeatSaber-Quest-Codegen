@@ -25,6 +25,11 @@ namespace Valve::VR {
     class _CreateNotification;
     // Nested type: Valve::VR::IVRNotifications::_RemoveNotification
     class _RemoveNotification;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // Valve.VR.IVRNotifications/Valve.VR._CreateNotification CreateNotification
     // Size: 0x8
     // Offset: 0x0
@@ -37,6 +42,7 @@ namespace Valve::VR {
     Valve::VR::IVRNotifications::_RemoveNotification* RemoveNotification;
     // Field size check
     static_assert(sizeof(Valve::VR::IVRNotifications::_RemoveNotification*) == 0x8);
+    public:
     // Creating value type constructor for type: IVRNotifications
     constexpr IVRNotifications(Valve::VR::IVRNotifications::_CreateNotification* CreateNotification_ = {}, Valve::VR::IVRNotifications::_RemoveNotification* RemoveNotification_ = {}) noexcept : CreateNotification{CreateNotification_}, RemoveNotification{RemoveNotification_} {}
     // Creating interface conversion operator: operator System::ValueType

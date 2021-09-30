@@ -51,6 +51,11 @@ namespace TMPro {
     char ___base_padding[0x4] = {};
     // Nested type: TMPro::TMP_SpriteAsset::$$c
     class $$c;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Collections.Generic.Dictionary`2<System.UInt32,System.Int32> m_UnicodeLookup
     // Size: 0x8
     // Offset: 0x30
@@ -111,6 +116,7 @@ namespace TMPro {
     bool m_IsSpriteAssetLookupTablesDirty;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get static field: static private System.Collections.Generic.List`1<System.Int32> k_searchedSpriteAssets
     static System::Collections::Generic::List_1<int>* _get_k_searchedSpriteAssets();
     // Set static field: static private System.Collections.Generic.List`1<System.Int32> k_searchedSpriteAssets

@@ -29,12 +29,18 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   class CVRExtendedDisplay : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private OVR.OpenVR.IVRExtendedDisplay FnTable
     // Size: 0x18
     // Offset: 0x10
     OVR::OpenVR::IVRExtendedDisplay FnTable;
     // Field size check
     static_assert(sizeof(OVR::OpenVR::IVRExtendedDisplay) == 0x18);
+    public:
     // Creating conversion operator: operator OVR::OpenVR::IVRExtendedDisplay
     constexpr operator OVR::OpenVR::IVRExtendedDisplay() const noexcept {
       return FnTable;

@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -29,6 +30,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class DifficultyBeatmapSet : public ::Il2CppObject/*, public GlobalNamespace::IDifficultyBeatmapSet*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private BeatmapCharacteristicSO <beatmapCharacteristic>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -38,9 +44,10 @@ namespace GlobalNamespace {
     // private IDifficultyBeatmap[] <difficultyBeatmaps>k__BackingField
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<GlobalNamespace::IDifficultyBeatmap*> difficultyBeatmaps;
+    ::ArrayW<GlobalNamespace::IDifficultyBeatmap*> difficultyBeatmaps;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::IDifficultyBeatmap*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::IDifficultyBeatmap*>) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IDifficultyBeatmapSet
     operator GlobalNamespace::IDifficultyBeatmapSet() noexcept {
       return *reinterpret_cast<GlobalNamespace::IDifficultyBeatmapSet*>(this);
@@ -48,7 +55,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapCharacteristicSO <beatmapCharacteristic>k__BackingField
     GlobalNamespace::BeatmapCharacteristicSO*& dyn_$beatmapCharacteristic$k__BackingField();
     // Get instance field reference: private IDifficultyBeatmap[] <difficultyBeatmaps>k__BackingField
-    ::ArrayWrapper<GlobalNamespace::IDifficultyBeatmap*>& dyn_$difficultyBeatmaps$k__BackingField();
+    ::ArrayW<GlobalNamespace::IDifficultyBeatmap*>& dyn_$difficultyBeatmaps$k__BackingField();
     // public BeatmapCharacteristicSO get_beatmapCharacteristic()
     // Offset: 0x11A7750
     GlobalNamespace::BeatmapCharacteristicSO* get_beatmapCharacteristic();
@@ -57,20 +64,20 @@ namespace GlobalNamespace {
     void set_beatmapCharacteristic(GlobalNamespace::BeatmapCharacteristicSO* value);
     // public IDifficultyBeatmap[] get_difficultyBeatmaps()
     // Offset: 0x11A7760
-    ::ArrayWrapper<GlobalNamespace::IDifficultyBeatmap*> get_difficultyBeatmaps();
+    ::ArrayW<GlobalNamespace::IDifficultyBeatmap*> get_difficultyBeatmaps();
     // private System.Void set_difficultyBeatmaps(IDifficultyBeatmap[] value)
     // Offset: 0x11A7768
-    void set_difficultyBeatmaps(::ArrayWrapper<GlobalNamespace::IDifficultyBeatmap*> value);
+    void set_difficultyBeatmaps(::ArrayW<GlobalNamespace::IDifficultyBeatmap*> value);
     // public System.Void .ctor(BeatmapCharacteristicSO beatmapCharacteristic, IDifficultyBeatmap[] difficultyBeatmaps)
     // Offset: 0x11A7770
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DifficultyBeatmapSet* New_ctor(GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, ::ArrayWrapper<GlobalNamespace::IDifficultyBeatmap*> difficultyBeatmaps) {
+    static DifficultyBeatmapSet* New_ctor(GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, ::ArrayW<GlobalNamespace::IDifficultyBeatmap*> difficultyBeatmaps) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::DifficultyBeatmapSet::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DifficultyBeatmapSet*, creationType>(beatmapCharacteristic, difficultyBeatmaps)));
     }
   }; // DifficultyBeatmapSet
   #pragma pack(pop)
-  static check_size<sizeof(DifficultyBeatmapSet), 24 + sizeof(::ArrayWrapper<GlobalNamespace::IDifficultyBeatmap*>)> __GlobalNamespace_DifficultyBeatmapSetSizeCheck;
+  static check_size<sizeof(DifficultyBeatmapSet), 24 + sizeof(::ArrayW<GlobalNamespace::IDifficultyBeatmap*>)> __GlobalNamespace_DifficultyBeatmapSetSizeCheck;
   static_assert(sizeof(DifficultyBeatmapSet) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DifficultyBeatmapSet*, "", "DifficultyBeatmapSet");
@@ -95,7 +102,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::DifficultyBeatmapSet::get_difficultyBeatmaps
 // Il2CppName: get_difficultyBeatmaps
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::IDifficultyBeatmap*> (GlobalNamespace::DifficultyBeatmapSet::*)()>(&GlobalNamespace::DifficultyBeatmapSet::get_difficultyBeatmaps)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<GlobalNamespace::IDifficultyBeatmap*> (GlobalNamespace::DifficultyBeatmapSet::*)()>(&GlobalNamespace::DifficultyBeatmapSet::get_difficultyBeatmaps)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DifficultyBeatmapSet*), "get_difficultyBeatmaps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -103,7 +110,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: GlobalNamespace::DifficultyBeatmapSet::set_difficultyBeatmaps
 // Il2CppName: set_difficultyBeatmaps
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DifficultyBeatmapSet::*)(::ArrayWrapper<GlobalNamespace::IDifficultyBeatmap*>)>(&GlobalNamespace::DifficultyBeatmapSet::set_difficultyBeatmaps)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DifficultyBeatmapSet::*)(::ArrayW<GlobalNamespace::IDifficultyBeatmap*>)>(&GlobalNamespace::DifficultyBeatmapSet::set_difficultyBeatmaps)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "IDifficultyBeatmap"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DifficultyBeatmapSet*), "set_difficultyBeatmaps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

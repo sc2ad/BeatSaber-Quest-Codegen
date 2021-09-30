@@ -29,12 +29,18 @@ namespace Org::BouncyCastle::Asn1 {
   // [TokenAttribute] Offset: FFFFFFFF
   class BerSequenceParser : public ::Il2CppObject/*, public Org::BouncyCastle::Asn1::Asn1SequenceParser*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Org.BouncyCastle.Asn1.Asn1StreamParser _parser
     // Size: 0x8
     // Offset: 0x10
     Org::BouncyCastle::Asn1::Asn1StreamParser* parser;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::Asn1StreamParser*) == 0x8);
+    public:
     // Creating interface conversion operator: operator Org::BouncyCastle::Asn1::Asn1SequenceParser
     operator Org::BouncyCastle::Asn1::Asn1SequenceParser() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Asn1::Asn1SequenceParser*>(this);

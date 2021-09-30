@@ -24,6 +24,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LightWithIds::LightData : public ::Il2CppObject/*, public GlobalNamespace::ILightWithId*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 _lightId
     // Size: 0x4
     // Offset: 0x10
@@ -42,6 +47,7 @@ namespace GlobalNamespace {
     bool isRegistered;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::ILightWithId
     operator GlobalNamespace::ILightWithId() noexcept {
       return *reinterpret_cast<GlobalNamespace::ILightWithId*>(this);

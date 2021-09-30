@@ -33,6 +33,11 @@ namespace GlobalNamespace {
     public:
     // Writing base type padding for base size: 0x41 to desired offset: 0x48
     char ___base_padding[0x7] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xF080A8
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
@@ -40,6 +45,7 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatmapObjectManager* beatmapObjectManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapObjectManager*) == 0x8);
+    public:
     // Get instance field reference: private readonly BeatmapObjectManager _beatmapObjectManager
     GlobalNamespace::BeatmapObjectManager*& dyn__beatmapObjectManager();
     // protected System.Void OnDestroy()

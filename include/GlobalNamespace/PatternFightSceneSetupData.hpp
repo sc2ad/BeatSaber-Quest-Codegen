@@ -30,6 +30,11 @@ namespace GlobalNamespace {
   // [ZenjectAllowDuringValidationAttribute] Offset: FFFFFFFF
   class PatternFightSceneSetupData : public GlobalNamespace::SceneSetupData {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly PlayerSpecificSettings playerSpecificSettings
     // Size: 0x8
     // Offset: 0x10
@@ -42,6 +47,7 @@ namespace GlobalNamespace {
     GlobalNamespace::ColorScheme* colorScheme;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ColorScheme*) == 0x8);
+    public:
     // Get instance field reference: public readonly PlayerSpecificSettings playerSpecificSettings
     GlobalNamespace::PlayerSpecificSettings*& dyn_playerSpecificSettings();
     // Get instance field reference: public readonly ColorScheme colorScheme

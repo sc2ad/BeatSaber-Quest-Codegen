@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -39,6 +40,11 @@ namespace MasterServer {
   // [TokenAttribute] Offset: FFFFFFFF
   class ServerHelloRequest : public GlobalNamespace::BaseMasterServerReliableResponse/*, public MasterServer::IHandshakeServerToClientMessage*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly ByteArrayNetSerializable random
     // Size: 0x8
     // Offset: 0x18
@@ -57,6 +63,7 @@ namespace MasterServer {
     GlobalNamespace::ByteArrayNetSerializable* signature;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ByteArrayNetSerializable*) == 0x8);
+    public:
     // Creating interface conversion operator: operator MasterServer::IHandshakeServerToClientMessage
     operator MasterServer::IHandshakeServerToClientMessage() noexcept {
       return *reinterpret_cast<MasterServer::IHandshakeServerToClientMessage*>(this);
@@ -72,7 +79,7 @@ namespace MasterServer {
     static GlobalNamespace::PacketPool_1<MasterServer::ServerHelloRequest*>* get_pool();
     // public MasterServer.ServerHelloRequest Init(System.Byte[] random, System.Byte[] publicKey, System.Byte[] signature)
     // Offset: 0x12E48B8
-    MasterServer::ServerHelloRequest* Init(::ArrayWrapper<uint8_t> random, ::ArrayWrapper<uint8_t> publicKey, ::ArrayWrapper<uint8_t> signature);
+    MasterServer::ServerHelloRequest* Init(::ArrayW<uint8_t> random, ::ArrayW<uint8_t> publicKey, ::ArrayW<uint8_t> signature);
     // public System.Void .ctor()
     // Offset: 0x12E4A78
     // Implemented from: BaseMasterServerReliableResponse
@@ -116,7 +123,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: MasterServer::ServerHelloRequest::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::ServerHelloRequest* (MasterServer::ServerHelloRequest::*)(::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>)>(&MasterServer::ServerHelloRequest::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::ServerHelloRequest* (MasterServer::ServerHelloRequest::*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(&MasterServer::ServerHelloRequest::Init)> {
   static const MethodInfo* get() {
     static auto* random = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* publicKey = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;

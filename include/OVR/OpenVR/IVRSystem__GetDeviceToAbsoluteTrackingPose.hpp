@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: OVR::OpenVR
@@ -48,10 +49,10 @@ namespace OVR::OpenVR {
     }
     // public System.Void Invoke(OVR.OpenVR.ETrackingUniverseOrigin eOrigin, System.Single fPredictedSecondsToPhotonsFromNow, in OVR.OpenVR.TrackedDevicePose_t[] pTrackedDevicePoseArray, System.UInt32 unTrackedDevicePoseArrayCount)
     // Offset: 0x22E7680
-    void Invoke(OVR::OpenVR::ETrackingUniverseOrigin eOrigin, float fPredictedSecondsToPhotonsFromNow, ByRef<::ArrayWrapper<OVR::OpenVR::TrackedDevicePose_t>> pTrackedDevicePoseArray, uint unTrackedDevicePoseArrayCount);
+    void Invoke(OVR::OpenVR::ETrackingUniverseOrigin eOrigin, float fPredictedSecondsToPhotonsFromNow, ByRef<::ArrayW<OVR::OpenVR::TrackedDevicePose_t>> pTrackedDevicePoseArray, uint unTrackedDevicePoseArrayCount);
     // public System.IAsyncResult BeginInvoke(OVR.OpenVR.ETrackingUniverseOrigin eOrigin, System.Single fPredictedSecondsToPhotonsFromNow, in OVR.OpenVR.TrackedDevicePose_t[] pTrackedDevicePoseArray, System.UInt32 unTrackedDevicePoseArrayCount, System.AsyncCallback callback, System.Object object)
     // Offset: 0x22E7954
-    System::IAsyncResult* BeginInvoke(OVR::OpenVR::ETrackingUniverseOrigin eOrigin, float fPredictedSecondsToPhotonsFromNow, ByRef<::ArrayWrapper<OVR::OpenVR::TrackedDevicePose_t>> pTrackedDevicePoseArray, uint unTrackedDevicePoseArrayCount, System::AsyncCallback* callback, ::Il2CppObject* object);
+    System::IAsyncResult* BeginInvoke(OVR::OpenVR::ETrackingUniverseOrigin eOrigin, float fPredictedSecondsToPhotonsFromNow, ByRef<::ArrayW<OVR::OpenVR::TrackedDevicePose_t>> pTrackedDevicePoseArray, uint unTrackedDevicePoseArrayCount, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
     // Offset: 0x22E7A2C
     void EndInvoke(System::IAsyncResult* result);
@@ -67,7 +68,7 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRSystem::_GetDeviceToAbsoluteTrackingPose*
 // Writing MetadataGetter for method: OVR::OpenVR::IVRSystem::_GetDeviceToAbsoluteTrackingPose::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::IVRSystem::_GetDeviceToAbsoluteTrackingPose::*)(OVR::OpenVR::ETrackingUniverseOrigin, float, ByRef<::ArrayWrapper<OVR::OpenVR::TrackedDevicePose_t>>, uint)>(&OVR::OpenVR::IVRSystem::_GetDeviceToAbsoluteTrackingPose::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::OpenVR::IVRSystem::_GetDeviceToAbsoluteTrackingPose::*)(OVR::OpenVR::ETrackingUniverseOrigin, float, ByRef<::ArrayW<OVR::OpenVR::TrackedDevicePose_t>>, uint)>(&OVR::OpenVR::IVRSystem::_GetDeviceToAbsoluteTrackingPose::Invoke)> {
   static const MethodInfo* get() {
     static auto* eOrigin = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "ETrackingUniverseOrigin")->byval_arg;
     static auto* fPredictedSecondsToPhotonsFromNow = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -79,7 +80,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (OVR::
 // Writing MetadataGetter for method: OVR::OpenVR::IVRSystem::_GetDeviceToAbsoluteTrackingPose::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRSystem::_GetDeviceToAbsoluteTrackingPose::*)(OVR::OpenVR::ETrackingUniverseOrigin, float, ByRef<::ArrayWrapper<OVR::OpenVR::TrackedDevicePose_t>>, uint, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRSystem::_GetDeviceToAbsoluteTrackingPose::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRSystem::_GetDeviceToAbsoluteTrackingPose::*)(OVR::OpenVR::ETrackingUniverseOrigin, float, ByRef<::ArrayW<OVR::OpenVR::TrackedDevicePose_t>>, uint, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRSystem::_GetDeviceToAbsoluteTrackingPose::BeginInvoke)> {
   static const MethodInfo* get() {
     static auto* eOrigin = &::il2cpp_utils::GetClassFromName("OVR.OpenVR", "ETrackingUniverseOrigin")->byval_arg;
     static auto* fPredictedSecondsToPhotonsFromNow = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;

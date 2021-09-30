@@ -42,6 +42,11 @@ namespace System {
   // [TypeForwardedFromAttribute] Offset: E5C85C
   class TimeZoneInfo::AdjustmentRule : public ::Il2CppObject/*, public System::IEquatable_1<System::TimeZoneInfo::AdjustmentRule*>, public System::Runtime::Serialization::ISerializable, public System::Runtime::Serialization::IDeserializationCallback*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.DateTime m_dateStart
     // Size: 0x8
     // Offset: 0x10
@@ -82,6 +87,7 @@ namespace System {
     System::TimeSpan m_baseUtcOffsetDelta;
     // Field size check
     static_assert(sizeof(System::TimeSpan) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::IEquatable_1<System::TimeZoneInfo::AdjustmentRule*>
     operator System::IEquatable_1<System::TimeZoneInfo::AdjustmentRule*>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<System::TimeZoneInfo::AdjustmentRule*>*>(this);

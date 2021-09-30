@@ -27,6 +27,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class InMultiplayerRichPresenceData : public ::Il2CppObject/*, public GlobalNamespace::IMultiplayerRichPresenceData*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String <apiName>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -57,6 +62,7 @@ namespace GlobalNamespace {
     bool canInvite;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IMultiplayerRichPresenceData
     operator GlobalNamespace::IMultiplayerRichPresenceData() noexcept {
       return *reinterpret_cast<GlobalNamespace::IMultiplayerRichPresenceData*>(this);

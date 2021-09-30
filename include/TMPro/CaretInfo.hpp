@@ -19,6 +19,11 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   struct CaretInfo/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 index
     // Size: 0x4
     // Offset: 0x0
@@ -31,6 +36,7 @@ namespace TMPro {
     TMPro::CaretPosition position;
     // Field size check
     static_assert(sizeof(TMPro::CaretPosition) == 0x4);
+    public:
     // Creating value type constructor for type: CaretInfo
     constexpr CaretInfo(int index_ = {}, TMPro::CaretPosition position_ = {}) noexcept : index{index_}, position{position_} {}
     // Creating interface conversion operator: operator System::ValueType

@@ -35,6 +35,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class VRControllersInputManager : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xEC9EF8
     // private IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
@@ -42,6 +47,7 @@ namespace GlobalNamespace {
     GlobalNamespace::IVRPlatformHelper* vrPlatformHelper;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IVRPlatformHelper*) == 0x8);
+    public:
     // Creating conversion operator: operator GlobalNamespace::IVRPlatformHelper*
     constexpr operator GlobalNamespace::IVRPlatformHelper*() const noexcept {
       return vrPlatformHelper;

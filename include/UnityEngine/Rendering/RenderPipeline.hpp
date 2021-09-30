@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Rendering
@@ -26,6 +27,11 @@ namespace UnityEngine::Rendering {
   // [TokenAttribute] Offset: FFFFFFFF
   class RenderPipeline : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [DebuggerBrowsableAttribute] Offset: 0xE770E8
     // private System.Boolean <disposed>k__BackingField
     // Size: 0x1
@@ -33,6 +39,7 @@ namespace UnityEngine::Rendering {
     bool disposed;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating conversion operator: operator bool
     constexpr operator bool() const noexcept {
       return disposed;
@@ -47,10 +54,10 @@ namespace UnityEngine::Rendering {
     void set_disposed(bool value);
     // protected System.Void Render(UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera[] cameras)
     // Offset: 0xFFFFFFFF
-    void Render(UnityEngine::Rendering::ScriptableRenderContext context, ::ArrayWrapper<UnityEngine::Camera*> cameras);
+    void Render(UnityEngine::Rendering::ScriptableRenderContext context, ::ArrayW<UnityEngine::Camera*> cameras);
     // System.Void InternalRender(UnityEngine.Rendering.ScriptableRenderContext context, UnityEngine.Camera[] cameras)
     // Offset: 0x1E08800
-    void InternalRender(UnityEngine::Rendering::ScriptableRenderContext context, ::ArrayWrapper<UnityEngine::Camera*> cameras);
+    void InternalRender(UnityEngine::Rendering::ScriptableRenderContext context, ::ArrayW<UnityEngine::Camera*> cameras);
     // System.Void Dispose()
     // Offset: 0x1E088D4
     void Dispose();
@@ -85,7 +92,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Rendering::RenderPipeline::Render
 // Il2CppName: Render
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rendering::RenderPipeline::*)(UnityEngine::Rendering::ScriptableRenderContext, ::ArrayWrapper<UnityEngine::Camera*>)>(&UnityEngine::Rendering::RenderPipeline::Render)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rendering::RenderPipeline::*)(UnityEngine::Rendering::ScriptableRenderContext, ::ArrayW<UnityEngine::Camera*>)>(&UnityEngine::Rendering::RenderPipeline::Render)> {
   static const MethodInfo* get() {
     static auto* context = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "ScriptableRenderContext")->byval_arg;
     static auto* cameras = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Camera"), 1)->byval_arg;
@@ -95,7 +102,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Rendering::RenderPipeline::InternalRender
 // Il2CppName: InternalRender
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rendering::RenderPipeline::*)(UnityEngine::Rendering::ScriptableRenderContext, ::ArrayWrapper<UnityEngine::Camera*>)>(&UnityEngine::Rendering::RenderPipeline::InternalRender)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Rendering::RenderPipeline::*)(UnityEngine::Rendering::ScriptableRenderContext, ::ArrayW<UnityEngine::Camera*>)>(&UnityEngine::Rendering::RenderPipeline::InternalRender)> {
   static const MethodInfo* get() {
     static auto* context = &::il2cpp_utils::GetClassFromName("UnityEngine.Rendering", "ScriptableRenderContext")->byval_arg;
     static auto* cameras = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Camera"), 1)->byval_arg;

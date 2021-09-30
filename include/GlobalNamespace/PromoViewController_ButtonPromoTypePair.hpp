@@ -38,6 +38,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PromoViewController::ButtonPromoTypePair : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.UI.Button button
     // Size: 0x8
     // Offset: 0x10
@@ -71,6 +76,7 @@ namespace GlobalNamespace {
     GlobalNamespace::IAnnotatedBeatmapLevelCollection* annotatedBeatmapLevelCollection;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IAnnotatedBeatmapLevelCollection*) == 0x8);
+    public:
     // Get instance field reference: public UnityEngine.UI.Button button
     UnityEngine::UI::Button*& dyn_button();
     // Get instance field reference: public PreviewBeatmapLevelPackSO previewLevelPack

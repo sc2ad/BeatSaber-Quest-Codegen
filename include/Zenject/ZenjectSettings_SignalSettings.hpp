@@ -24,6 +24,11 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class ZenjectSettings::SignalSettings : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Zenject.SignalDefaultSyncModes _defaultSyncMode
     // Size: 0x4
     // Offset: 0x10
@@ -50,6 +55,7 @@ namespace Zenject {
     int defaultAsyncTickPriority;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get static field: static public Zenject.ZenjectSettings/Zenject.SignalSettings Default
     static Zenject::ZenjectSettings::SignalSettings* _get_Default();
     // Set static field: static public Zenject.ZenjectSettings/Zenject.SignalSettings Default

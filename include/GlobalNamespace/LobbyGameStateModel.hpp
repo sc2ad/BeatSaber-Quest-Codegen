@@ -28,6 +28,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LobbyGameStateModel : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Action`1<MultiplayerGameState> gameStateDidChangeEvent
     // Size: 0x8
     // Offset: 0x10
@@ -46,6 +51,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerGameState gameState;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerGameState) == 0x4);
+    public:
     // Get instance field reference: private System.Action`1<MultiplayerGameState> gameStateDidChangeEvent
     System::Action_1<GlobalNamespace::MultiplayerGameState>*& dyn_gameStateDidChangeEvent();
     // Get instance field reference: private System.Action`1<MultiplayerGameState> gameStateDidChangeAlwaysSentEvent

@@ -42,6 +42,11 @@ namespace VRUIControls {
     // [IsReadOnlyAttribute] Offset: FFFFFFFF
     struct CachedRaycast/*, public System::ValueType*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public readonly System.Boolean wasHit
       // Size: 0x1
       // Offset: 0x0
@@ -74,6 +79,7 @@ namespace VRUIControls {
       int layerMask;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: CachedRaycast
       constexpr CachedRaycast(bool wasHit_ = {}, UnityEngine::Ray ray_ = {}, UnityEngine::RaycastHit hitInfo_ = {}, float maxDistance_ = {}, int layerMask_ = {}) noexcept : wasHit{wasHit_}, ray{ray_}, hitInfo{hitInfo_}, maxDistance{maxDistance_}, layerMask{layerMask_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -97,6 +103,11 @@ namespace VRUIControls {
     #pragma pack(pop)
     static check_size<sizeof(PhysicsRaycasterWithCache::CachedRaycast), 76 + sizeof(int)> __VRUIControls_PhysicsRaycasterWithCache_CachedRaycastSizeCheck;
     static_assert(sizeof(PhysicsRaycasterWithCache::CachedRaycast) == 0x50);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Collections.Generic.List`1<VRUIControls.PhysicsRaycasterWithCache/VRUIControls.CachedRaycast> _cachedRaycasts
     // Size: 0x8
     // Offset: 0x10
@@ -109,6 +120,7 @@ namespace VRUIControls {
     int lastFrameCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: private readonly System.Collections.Generic.List`1<VRUIControls.PhysicsRaycasterWithCache/VRUIControls.CachedRaycast> _cachedRaycasts
     System::Collections::Generic::List_1<VRUIControls::PhysicsRaycasterWithCache::CachedRaycast>*& dyn__cachedRaycasts();
     // Get instance field reference: private System.Int32 _lastFrameCount

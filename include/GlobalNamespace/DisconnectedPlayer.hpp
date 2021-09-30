@@ -29,6 +29,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class DisconnectedPlayer : public ::Il2CppObject/*, public GlobalNamespace::IConnectedPlayer*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String <userId>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -55,6 +60,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerAvatarData multiplayerAvatarData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerAvatarData) == 0x70);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IConnectedPlayer
     operator GlobalNamespace::IConnectedPlayer() noexcept {
       return *reinterpret_cast<GlobalNamespace::IConnectedPlayer*>(this);

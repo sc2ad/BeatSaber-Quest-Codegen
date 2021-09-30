@@ -27,6 +27,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SongPackMasksModel : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly SongPackMaskModelSO _songPackMaskModel
     // Size: 0x8
     // Offset: 0x10
@@ -39,6 +44,7 @@ namespace GlobalNamespace {
     GlobalNamespace::SongPackMask allSongPackMask;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SongPackMask) == 0x10);
+    public:
     // Get instance field reference: private readonly SongPackMaskModelSO _songPackMaskModel
     GlobalNamespace::SongPackMaskModelSO*& dyn__songPackMaskModel();
     // Get instance field reference: private readonly SongPackMask _allSongPackMask

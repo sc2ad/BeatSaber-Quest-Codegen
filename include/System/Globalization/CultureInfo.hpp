@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Globalization
@@ -60,6 +61,11 @@ namespace System::Globalization {
     public:
     // Nested type: System::Globalization::CultureInfo::Data
     struct Data;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean m_isReadOnly
     // Size: 0x1
     // Offset: 0x10
@@ -169,9 +175,9 @@ namespace System::Globalization {
     // private System.String[] native_calendar_names
     // Size: 0x8
     // Offset: 0x80
-    ::ArrayWrapper<::Il2CppString*> native_calendar_names;
+    ::ArrayW<::Il2CppString*> native_calendar_names;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // private System.Globalization.CompareInfo compareInfo
     // Size: 0x8
     // Offset: 0x88
@@ -215,9 +221,9 @@ namespace System::Globalization {
     // System.Byte[] cached_serialized_form
     // Size: 0x8
     // Offset: 0xB8
-    ::ArrayWrapper<uint8_t> cached_serialized_form;
+    ::ArrayW<uint8_t> cached_serialized_form;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // System.Globalization.CultureData m_cultureData
     // Size: 0x8
     // Offset: 0xC0
@@ -230,6 +236,7 @@ namespace System::Globalization {
     bool m_isInherited;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);
@@ -323,7 +330,7 @@ namespace System::Globalization {
     // Get instance field reference: private System.String territory
     ::Il2CppString*& dyn_territory();
     // Get instance field reference: private System.String[] native_calendar_names
-    ::ArrayWrapper<::Il2CppString*>& dyn_native_calendar_names();
+    ::ArrayW<::Il2CppString*>& dyn_native_calendar_names();
     // Get instance field reference: private System.Globalization.CompareInfo compareInfo
     System::Globalization::CompareInfo*& dyn_compareInfo();
     // Get instance field reference: private readonly System.Void* textinfo_data
@@ -337,7 +344,7 @@ namespace System::Globalization {
     // Get instance field reference: private System.Boolean constructed
     bool& dyn_constructed();
     // Get instance field reference: System.Byte[] cached_serialized_form
-    ::ArrayWrapper<uint8_t>& dyn_cached_serialized_form();
+    ::ArrayW<uint8_t>& dyn_cached_serialized_form();
     // Get instance field reference: System.Globalization.CultureData m_cultureData
     System::Globalization::CultureData*& dyn_m_cultureData();
     // Get instance field reference: System.Boolean m_isInherited

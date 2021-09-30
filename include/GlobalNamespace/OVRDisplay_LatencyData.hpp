@@ -19,6 +19,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct OVRDisplay::LatencyData/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Single render
     // Size: 0x4
     // Offset: 0x0
@@ -49,6 +54,7 @@ namespace GlobalNamespace {
     float timeWarpError;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: LatencyData
     constexpr LatencyData(float render_ = {}, float timeWarp_ = {}, float postPresent_ = {}, float renderError_ = {}, float timeWarpError_ = {}) noexcept : render{render_}, timeWarp{timeWarp_}, postPresent{postPresent_}, renderError{renderError_}, timeWarpError{timeWarpError_} {}
     // Creating interface conversion operator: operator System::ValueType

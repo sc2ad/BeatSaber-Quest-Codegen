@@ -41,6 +41,11 @@ namespace HMUI {
   // [RequireComponent] Offset: EE13E4
   class DropdownWithTableView : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.UI.Button _button
     // Size: 0x8
     // Offset: 0x18
@@ -79,6 +84,7 @@ namespace HMUI {
     int selectedIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.UI.Button _button

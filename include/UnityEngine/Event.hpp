@@ -38,12 +38,18 @@ namespace UnityEngine {
   // [StaticAccessorAttribute] Offset: E8FF60
   class Event : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.IntPtr m_Ptr
     // Size: 0x8
     // Offset: 0x10
     System::IntPtr m_Ptr;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
+    public:
     // Creating conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept {
       return m_Ptr;

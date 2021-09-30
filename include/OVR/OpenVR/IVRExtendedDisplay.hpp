@@ -27,6 +27,11 @@ namespace OVR::OpenVR {
     class _GetEyeOutputViewport;
     // Nested type: OVR::OpenVR::IVRExtendedDisplay::_GetDXGIOutputInfo
     class _GetDXGIOutputInfo;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // OVR.OpenVR.IVRExtendedDisplay/OVR.OpenVR._GetWindowBounds GetWindowBounds
     // Size: 0x8
     // Offset: 0x0
@@ -45,6 +50,7 @@ namespace OVR::OpenVR {
     OVR::OpenVR::IVRExtendedDisplay::_GetDXGIOutputInfo* GetDXGIOutputInfo;
     // Field size check
     static_assert(sizeof(OVR::OpenVR::IVRExtendedDisplay::_GetDXGIOutputInfo*) == 0x8);
+    public:
     // Creating value type constructor for type: IVRExtendedDisplay
     constexpr IVRExtendedDisplay(OVR::OpenVR::IVRExtendedDisplay::_GetWindowBounds* GetWindowBounds_ = {}, OVR::OpenVR::IVRExtendedDisplay::_GetEyeOutputViewport* GetEyeOutputViewport_ = {}, OVR::OpenVR::IVRExtendedDisplay::_GetDXGIOutputInfo* GetDXGIOutputInfo_ = {}) noexcept : GetWindowBounds{GetWindowBounds_}, GetEyeOutputViewport{GetEyeOutputViewport_}, GetDXGIOutputInfo{GetDXGIOutputInfo_} {}
     // Creating interface conversion operator: operator System::ValueType

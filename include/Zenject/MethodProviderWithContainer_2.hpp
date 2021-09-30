@@ -46,12 +46,18 @@ namespace Zenject {
   template<typename TParam1, typename TValue>
   class MethodProviderWithContainer_2 : public ::Il2CppObject/*, public Zenject::IProvider*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Func`3<Zenject.DiContainer,TParam1,TValue> _method
     // Size: 0x8
     // Offset: 0x0
     System::Func_3<Zenject::DiContainer*, TParam1, TValue>* method;
     // Field size check
     static_assert(sizeof(System::Func_3<Zenject::DiContainer*, TParam1, TValue>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator Zenject::IProvider
     operator Zenject::IProvider() noexcept {
       return *reinterpret_cast<Zenject::IProvider*>(this);

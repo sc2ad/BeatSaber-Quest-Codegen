@@ -26,6 +26,11 @@ namespace UnityEngine::ProBuilder {
   // [TokenAttribute] Offset: FFFFFFFF
   struct VertexPickerEntry/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.ProBuilder.ProBuilderMesh mesh
     // Size: 0x8
     // Offset: 0x0
@@ -50,6 +55,7 @@ namespace UnityEngine::ProBuilder {
     UnityEngine::Vector3 worldPosition;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    public:
     // Creating value type constructor for type: VertexPickerEntry
     constexpr VertexPickerEntry(UnityEngine::ProBuilder::ProBuilderMesh* mesh_ = {}, int vertex_ = {}, float screenDistance_ = {}, UnityEngine::Vector3 worldPosition_ = {}) noexcept : mesh{mesh_}, vertex{vertex_}, screenDistance{screenDistance_}, worldPosition{worldPosition_} {}
     // Creating interface conversion operator: operator System::ValueType

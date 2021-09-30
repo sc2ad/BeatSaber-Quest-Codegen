@@ -35,12 +35,18 @@ namespace GlobalNamespace {
     class $$c__DisplayClass3_0;
     // Nested type: GlobalNamespace::OculusPlatformAchievementHandler::$$c__DisplayClass3_1
     class $$c__DisplayClass3_1;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly AchievementIdsModelSO _achievementIdsModel
     // Size: 0x8
     // Offset: 0x10
     GlobalNamespace::AchievementIdsModelSO* achievementIdsModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AchievementIdsModelSO*) == 0x8);
+    public:
     // Creating conversion operator: operator GlobalNamespace::AchievementIdsModelSO*
     constexpr operator GlobalNamespace::AchievementIdsModelSO*() const noexcept {
       return achievementIdsModel;

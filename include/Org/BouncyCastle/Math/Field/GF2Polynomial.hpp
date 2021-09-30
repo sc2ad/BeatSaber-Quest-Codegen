@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: Org.BouncyCastle.Math.Field
 namespace Org::BouncyCastle::Math::Field {
@@ -20,35 +21,41 @@ namespace Org::BouncyCastle::Math::Field {
   // [TokenAttribute] Offset: FFFFFFFF
   class GF2Polynomial : public ::Il2CppObject/*, public Org::BouncyCastle::Math::Field::IPolynomial*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // protected readonly System.Int32[] exponents
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<int> exponents;
+    ::ArrayW<int> exponents;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
+    public:
     // Creating interface conversion operator: operator Org::BouncyCastle::Math::Field::IPolynomial
     operator Org::BouncyCastle::Math::Field::IPolynomial() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Math::Field::IPolynomial*>(this);
     }
-    // Creating conversion operator: operator ::ArrayWrapper<int>
-    constexpr operator ::ArrayWrapper<int>() const noexcept {
+    // Creating conversion operator: operator ::ArrayW<int>
+    constexpr operator ::ArrayW<int>() const noexcept {
       return exponents;
     }
     // Get instance field reference: protected readonly System.Int32[] exponents
-    ::ArrayWrapper<int>& dyn_exponents();
+    ::ArrayW<int>& dyn_exponents();
     // public System.Int32 get_Degree()
     // Offset: 0x1F92B60
     int get_Degree();
     // System.Void .ctor(System.Int32[] exponents)
     // Offset: 0x1F92818
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static GF2Polynomial* New_ctor(::ArrayWrapper<int> exponents) {
+    static GF2Polynomial* New_ctor(::ArrayW<int> exponents) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::Field::GF2Polynomial::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GF2Polynomial*, creationType>(exponents)));
     }
     // public System.Int32[] GetExponentsPresent()
     // Offset: 0x1F92BA0
-    ::ArrayWrapper<int> GetExponentsPresent();
+    ::ArrayW<int> GetExponentsPresent();
     // public override System.Boolean Equals(System.Object obj)
     // Offset: 0x1F92C0C
     // Implemented from: System.Object
@@ -61,7 +68,7 @@ namespace Org::BouncyCastle::Math::Field {
     int GetHashCode();
   }; // Org.BouncyCastle.Math.Field.GF2Polynomial
   #pragma pack(pop)
-  static check_size<sizeof(GF2Polynomial), 16 + sizeof(::ArrayWrapper<int>)> __Org_BouncyCastle_Math_Field_GF2PolynomialSizeCheck;
+  static check_size<sizeof(GF2Polynomial), 16 + sizeof(::ArrayW<int>)> __Org_BouncyCastle_Math_Field_GF2PolynomialSizeCheck;
   static_assert(sizeof(GF2Polynomial) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::Field::GF2Polynomial*, "Org.BouncyCastle.Math.Field", "GF2Polynomial");
@@ -81,7 +88,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::Field::GF2Polynomial::GetExponentsPresent
 // Il2CppName: GetExponentsPresent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<int> (Org::BouncyCastle::Math::Field::GF2Polynomial::*)()>(&Org::BouncyCastle::Math::Field::GF2Polynomial::GetExponentsPresent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int> (Org::BouncyCastle::Math::Field::GF2Polynomial::*)()>(&Org::BouncyCastle::Math::Field::GF2Polynomial::GetExponentsPresent)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::Field::GF2Polynomial*), "GetExponentsPresent", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

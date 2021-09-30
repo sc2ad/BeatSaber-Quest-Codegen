@@ -45,6 +45,11 @@ namespace OVR::OpenVR {
     class _GetVideoStreamTextureGL;
     // Nested type: OVR::OpenVR::IVRTrackedCamera::_ReleaseVideoStreamTextureGL
     class _ReleaseVideoStreamTextureGL;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // OVR.OpenVR.IVRTrackedCamera/OVR.OpenVR._GetCameraErrorNameFromEnum GetCameraErrorNameFromEnum
     // Size: 0x8
     // Offset: 0x0
@@ -117,6 +122,7 @@ namespace OVR::OpenVR {
     OVR::OpenVR::IVRTrackedCamera::_ReleaseVideoStreamTextureGL* ReleaseVideoStreamTextureGL;
     // Field size check
     static_assert(sizeof(OVR::OpenVR::IVRTrackedCamera::_ReleaseVideoStreamTextureGL*) == 0x8);
+    public:
     // Creating value type constructor for type: IVRTrackedCamera
     constexpr IVRTrackedCamera(OVR::OpenVR::IVRTrackedCamera::_GetCameraErrorNameFromEnum* GetCameraErrorNameFromEnum_ = {}, OVR::OpenVR::IVRTrackedCamera::_HasCamera* HasCamera_ = {}, OVR::OpenVR::IVRTrackedCamera::_GetCameraFrameSize* GetCameraFrameSize_ = {}, OVR::OpenVR::IVRTrackedCamera::_GetCameraIntrinsics* GetCameraIntrinsics_ = {}, OVR::OpenVR::IVRTrackedCamera::_GetCameraProjection* GetCameraProjection_ = {}, OVR::OpenVR::IVRTrackedCamera::_AcquireVideoStreamingService* AcquireVideoStreamingService_ = {}, OVR::OpenVR::IVRTrackedCamera::_ReleaseVideoStreamingService* ReleaseVideoStreamingService_ = {}, OVR::OpenVR::IVRTrackedCamera::_GetVideoStreamFrameBuffer* GetVideoStreamFrameBuffer_ = {}, OVR::OpenVR::IVRTrackedCamera::_GetVideoStreamTextureSize* GetVideoStreamTextureSize_ = {}, OVR::OpenVR::IVRTrackedCamera::_GetVideoStreamTextureD3D11* GetVideoStreamTextureD3D11_ = {}, OVR::OpenVR::IVRTrackedCamera::_GetVideoStreamTextureGL* GetVideoStreamTextureGL_ = {}, OVR::OpenVR::IVRTrackedCamera::_ReleaseVideoStreamTextureGL* ReleaseVideoStreamTextureGL_ = {}) noexcept : GetCameraErrorNameFromEnum{GetCameraErrorNameFromEnum_}, HasCamera{HasCamera_}, GetCameraFrameSize{GetCameraFrameSize_}, GetCameraIntrinsics{GetCameraIntrinsics_}, GetCameraProjection{GetCameraProjection_}, AcquireVideoStreamingService{AcquireVideoStreamingService_}, ReleaseVideoStreamingService{ReleaseVideoStreamingService_}, GetVideoStreamFrameBuffer{GetVideoStreamFrameBuffer_}, GetVideoStreamTextureSize{GetVideoStreamTextureSize_}, GetVideoStreamTextureD3D11{GetVideoStreamTextureD3D11_}, GetVideoStreamTextureGL{GetVideoStreamTextureGL_}, ReleaseVideoStreamTextureGL{ReleaseVideoStreamTextureGL_} {}
     // Creating interface conversion operator: operator System::ValueType

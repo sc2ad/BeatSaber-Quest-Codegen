@@ -17,6 +17,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -42,6 +43,11 @@ namespace UnityEngine::ProBuilder {
   // [TokenAttribute] Offset: FFFFFFFF
   class Bounds2D : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Vector2 center
     // Size: 0x8
     // Offset: 0x10
@@ -60,6 +66,7 @@ namespace UnityEngine::ProBuilder {
     UnityEngine::Vector2 m_Extents;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector2) == 0x8);
+    public:
     // Get instance field reference: public UnityEngine.Vector2 center
     UnityEngine::Vector2& dyn_center();
     // Get instance field reference: private UnityEngine.Vector2 m_Size
@@ -77,7 +84,7 @@ namespace UnityEngine::ProBuilder {
     UnityEngine::Vector2 get_extents();
     // public UnityEngine.Vector2[] get_corners()
     // Offset: 0x2152798
-    ::ArrayWrapper<UnityEngine::Vector2> get_corners();
+    ::ArrayW<UnityEngine::Vector2> get_corners();
     // public System.Void .ctor(UnityEngine.Vector2 center, UnityEngine.Vector2 size)
     // Offset: 0x2152968
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -102,14 +109,14 @@ namespace UnityEngine::ProBuilder {
     // System.Void .ctor(UnityEngine.Vector3[] points, UnityEngine.ProBuilder.Edge[] edges)
     // Offset: 0x2153438
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Bounds2D* New_ctor(::ArrayWrapper<UnityEngine::Vector3> points, ::ArrayWrapper<UnityEngine::ProBuilder::Edge> edges) {
+    static Bounds2D* New_ctor(::ArrayW<UnityEngine::Vector3> points, ::ArrayW<UnityEngine::ProBuilder::Edge> edges) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::Bounds2D::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Bounds2D*, creationType>(points, edges)));
     }
     // public System.Void .ctor(UnityEngine.Vector2[] points, System.Int32 length)
     // Offset: 0x21537CC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Bounds2D* New_ctor(::ArrayWrapper<UnityEngine::Vector2> points, int length) {
+    static Bounds2D* New_ctor(::ArrayW<UnityEngine::Vector2> points, int length) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ProBuilder::Bounds2D::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Bounds2D*, creationType>(points, length)));
     }
@@ -192,7 +199,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Bounds2D::get_corners
 // Il2CppName: get_corners
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Vector2> (UnityEngine::ProBuilder::Bounds2D::*)()>(&UnityEngine::ProBuilder::Bounds2D::get_corners)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Vector2> (UnityEngine::ProBuilder::Bounds2D::*)()>(&UnityEngine::ProBuilder::Bounds2D::get_corners)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::Bounds2D*), "get_corners", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

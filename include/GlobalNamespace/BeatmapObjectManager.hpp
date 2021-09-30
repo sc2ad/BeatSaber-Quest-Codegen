@@ -59,6 +59,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::BeatmapObjectManager::NoteWasCutDelegate
     class NoteWasCutDelegate;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Action`1<NoteController> noteWasSpawnedEvent
     // Size: 0x8
     // Offset: 0x10
@@ -125,6 +130,7 @@ namespace GlobalNamespace {
     bool spawnHidden;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IBeatmapObjectSpawner
     operator GlobalNamespace::IBeatmapObjectSpawner() noexcept {
       return *reinterpret_cast<GlobalNamespace::IBeatmapObjectSpawner*>(this);

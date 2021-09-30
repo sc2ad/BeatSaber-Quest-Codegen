@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: TMPro
@@ -57,12 +58,18 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct EndBehavior/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: EndBehavior
       constexpr EndBehavior(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -103,12 +110,18 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct GhostEffectType/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: GhostEffectType
       constexpr GhostEffectType(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -137,6 +150,11 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(GhostEffectBehaviour::GhostEffectType), 0 + sizeof(int)> __GlobalNamespace_GhostEffectBehaviour_GhostEffectTypeSizeCheck;
     static_assert(sizeof(GhostEffectBehaviour::GhostEffectType) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.AnimationCurve alphaCurve
     // Size: 0x8
     // Offset: 0x10
@@ -238,16 +256,16 @@ namespace GlobalNamespace {
     // public TMPro.TextMeshPro[] textMeshPros
     // Size: 0x8
     // Offset: 0x78
-    ::ArrayWrapper<TMPro::TextMeshPro*> textMeshPros;
+    ::ArrayW<TMPro::TextMeshPro*> textMeshPros;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<TMPro::TextMeshPro*>) == 0x8);
+    static_assert(sizeof(::ArrayW<TMPro::TextMeshPro*>) == 0x8);
     // [NullAllowed] Offset: 0xF147D0
     // public UnityEngine.CanvasGroup[] _canvasGroups
     // Size: 0x8
     // Offset: 0x80
-    ::ArrayWrapper<UnityEngine::CanvasGroup*> canvasGroups;
+    ::ArrayW<UnityEngine::CanvasGroup*> canvasGroups;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::CanvasGroup*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::CanvasGroup*>) == 0x8);
     // public GhostEffectBehaviour/GhostEffectType _ghostEffectType
     // Size: 0x4
     // Offset: 0x88
@@ -275,6 +293,7 @@ namespace GlobalNamespace {
     bool finished;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: public UnityEngine.AnimationCurve alphaCurve
     UnityEngine::AnimationCurve*& dyn_alphaCurve();
     // Get instance field reference: public UnityEngine.AnimationCurve sizeCurve
@@ -302,9 +321,9 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Single progress
     float& dyn_progress();
     // Get instance field reference: public TMPro.TextMeshPro[] textMeshPros
-    ::ArrayWrapper<TMPro::TextMeshPro*>& dyn_textMeshPros();
+    ::ArrayW<TMPro::TextMeshPro*>& dyn_textMeshPros();
     // Get instance field reference: public UnityEngine.CanvasGroup[] _canvasGroups
-    ::ArrayWrapper<UnityEngine::CanvasGroup*>& dyn__canvasGroups();
+    ::ArrayW<UnityEngine::CanvasGroup*>& dyn__canvasGroups();
     // Get instance field reference: public GhostEffectBehaviour/GhostEffectType _ghostEffectType
     GlobalNamespace::GhostEffectBehaviour::GhostEffectType& dyn__ghostEffectType();
     // Get instance field reference: public UnityEngine.Transform _ghostEffectTransform

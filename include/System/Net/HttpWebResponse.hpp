@@ -52,6 +52,11 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class HttpWebResponse : public System::Net::WebResponse {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Uri uri
     // Size: 0x8
     // Offset: 0x18
@@ -128,6 +133,7 @@ namespace System::Net {
     System::IO::Stream* stream;
     // Field size check
     static_assert(sizeof(System::IO::Stream*) == 0x8);
+    public:
     // Deleting conversion operator: operator ::Il2CppObject*
     constexpr operator ::Il2CppObject*() const noexcept = delete;
     // Get instance field reference: private System.Uri uri

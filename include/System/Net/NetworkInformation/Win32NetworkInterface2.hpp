@@ -35,6 +35,11 @@ namespace System::Net::NetworkInformation {
   // [TokenAttribute] Offset: FFFFFFFF
   class Win32NetworkInterface2 : public System::Net::NetworkInformation::NetworkInterface {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Net.NetworkInformation.Win32_IP_ADAPTER_ADDRESSES addr
     // Size: 0x108
     // Offset: 0x10
@@ -65,6 +70,7 @@ namespace System::Net::NetworkInformation {
     System::Net::NetworkInformation::IPInterfaceProperties* ip_if_props;
     // Field size check
     static_assert(sizeof(System::Net::NetworkInformation::IPInterfaceProperties*) == 0x8);
+    public:
     // Get instance field reference: private System.Net.NetworkInformation.Win32_IP_ADAPTER_ADDRESSES addr
     System::Net::NetworkInformation::Win32_IP_ADAPTER_ADDRESSES& dyn_addr();
     // Get instance field reference: private System.Net.NetworkInformation.Win32_MIB_IFROW mib4

@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Math::EC
@@ -27,6 +28,11 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
   // [TokenAttribute] Offset: FFFFFFFF
   class WNafPreCompInfo : public ::Il2CppObject/*, public Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Int32 m_promotionCountdown
     // Size: 0x4
     // Offset: 0x10
@@ -42,15 +48,15 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     // protected Org.BouncyCastle.Math.EC.ECPoint[] m_preComp
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<Org::BouncyCastle::Math::EC::ECPoint*> m_preComp;
+    ::ArrayW<Org::BouncyCastle::Math::EC::ECPoint*> m_preComp;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<Org::BouncyCastle::Math::EC::ECPoint*>) == 0x8);
+    static_assert(sizeof(::ArrayW<Org::BouncyCastle::Math::EC::ECPoint*>) == 0x8);
     // protected Org.BouncyCastle.Math.EC.ECPoint[] m_preCompNeg
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<Org::BouncyCastle::Math::EC::ECPoint*> m_preCompNeg;
+    ::ArrayW<Org::BouncyCastle::Math::EC::ECPoint*> m_preCompNeg;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<Org::BouncyCastle::Math::EC::ECPoint*>) == 0x8);
+    static_assert(sizeof(::ArrayW<Org::BouncyCastle::Math::EC::ECPoint*>) == 0x8);
     // protected Org.BouncyCastle.Math.EC.ECPoint m_twice
     // Size: 0x8
     // Offset: 0x28
@@ -63,6 +69,7 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     int m_width;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating interface conversion operator: operator Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo
     operator Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*>(this);
@@ -72,9 +79,9 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     // Get instance field reference: protected System.Int32 m_confWidth
     int& dyn_m_confWidth();
     // Get instance field reference: protected Org.BouncyCastle.Math.EC.ECPoint[] m_preComp
-    ::ArrayWrapper<Org::BouncyCastle::Math::EC::ECPoint*>& dyn_m_preComp();
+    ::ArrayW<Org::BouncyCastle::Math::EC::ECPoint*>& dyn_m_preComp();
     // Get instance field reference: protected Org.BouncyCastle.Math.EC.ECPoint[] m_preCompNeg
-    ::ArrayWrapper<Org::BouncyCastle::Math::EC::ECPoint*>& dyn_m_preCompNeg();
+    ::ArrayW<Org::BouncyCastle::Math::EC::ECPoint*>& dyn_m_preCompNeg();
     // Get instance field reference: protected Org.BouncyCastle.Math.EC.ECPoint m_twice
     Org::BouncyCastle::Math::EC::ECPoint*& dyn_m_twice();
     // Get instance field reference: protected System.Int32 m_width
@@ -96,16 +103,16 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     void set_ConfWidth(int value);
     // public Org.BouncyCastle.Math.EC.ECPoint[] get_PreComp()
     // Offset: 0x1F85D90
-    ::ArrayWrapper<Org::BouncyCastle::Math::EC::ECPoint*> get_PreComp();
+    ::ArrayW<Org::BouncyCastle::Math::EC::ECPoint*> get_PreComp();
     // public System.Void set_PreComp(Org.BouncyCastle.Math.EC.ECPoint[] value)
     // Offset: 0x1F85D98
-    void set_PreComp(::ArrayWrapper<Org::BouncyCastle::Math::EC::ECPoint*> value);
+    void set_PreComp(::ArrayW<Org::BouncyCastle::Math::EC::ECPoint*> value);
     // public Org.BouncyCastle.Math.EC.ECPoint[] get_PreCompNeg()
     // Offset: 0x1F85DA0
-    ::ArrayWrapper<Org::BouncyCastle::Math::EC::ECPoint*> get_PreCompNeg();
+    ::ArrayW<Org::BouncyCastle::Math::EC::ECPoint*> get_PreCompNeg();
     // public System.Void set_PreCompNeg(Org.BouncyCastle.Math.EC.ECPoint[] value)
     // Offset: 0x1F85DA8
-    void set_PreCompNeg(::ArrayWrapper<Org::BouncyCastle::Math::EC::ECPoint*> value);
+    void set_PreCompNeg(::ArrayW<Org::BouncyCastle::Math::EC::ECPoint*> value);
     // public Org.BouncyCastle.Math.EC.ECPoint get_Twice()
     // Offset: 0x1F85DB0
     Org::BouncyCastle::Math::EC::ECPoint* get_Twice();
@@ -182,7 +189,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::get_PreComp
 // Il2CppName: get_PreComp
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<Org::BouncyCastle::Math::EC::ECPoint*> (Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::*)()>(&Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::get_PreComp)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Org::BouncyCastle::Math::EC::ECPoint*> (Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::*)()>(&Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::get_PreComp)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo*), "get_PreComp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -190,7 +197,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::set_PreComp
 // Il2CppName: set_PreComp
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::*)(::ArrayWrapper<Org::BouncyCastle::Math::EC::ECPoint*>)>(&Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::set_PreComp)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::*)(::ArrayW<Org::BouncyCastle::Math::EC::ECPoint*>)>(&Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::set_PreComp)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "ECPoint"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo*), "set_PreComp", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -199,7 +206,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::get_PreCompNeg
 // Il2CppName: get_PreCompNeg
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<Org::BouncyCastle::Math::EC::ECPoint*> (Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::*)()>(&Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::get_PreCompNeg)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Org::BouncyCastle::Math::EC::ECPoint*> (Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::*)()>(&Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::get_PreCompNeg)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo*), "get_PreCompNeg", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -207,7 +214,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::set_PreCompNeg
 // Il2CppName: set_PreCompNeg
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::*)(::ArrayWrapper<Org::BouncyCastle::Math::EC::ECPoint*>)>(&Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::set_PreCompNeg)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::*)(::ArrayW<Org::BouncyCastle::Math::EC::ECPoint*>)>(&Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo::set_PreCompNeg)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "ECPoint"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo*), "set_PreCompNeg", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

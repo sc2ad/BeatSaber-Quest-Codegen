@@ -24,6 +24,11 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class TMP_ColorGradient : public UnityEngine::ScriptableObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public TMPro.ColorMode colorMode
     // Size: 0x4
     // Offset: 0x18
@@ -54,6 +59,7 @@ namespace TMPro {
     UnityEngine::Color bottomRight;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private TMPro.ColorMode k_DefaultColorMode

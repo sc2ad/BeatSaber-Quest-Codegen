@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: DataModels::PlayerAvatar
@@ -30,9 +31,9 @@ namespace DataModels::PlayerAvatar {
     public:
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF15494
     // Get static field: static private readonly DataModels.PlayerAvatar.RandomizeAvatarColorMap[] _randomizeColorsParamsCollection
-    static ::ArrayWrapper<DataModels::PlayerAvatar::RandomizeAvatarColorMap*> _get__randomizeColorsParamsCollection();
+    static ::ArrayW<DataModels::PlayerAvatar::RandomizeAvatarColorMap*> _get__randomizeColorsParamsCollection();
     // Set static field: static private readonly DataModels.PlayerAvatar.RandomizeAvatarColorMap[] _randomizeColorsParamsCollection
-    static void _set__randomizeColorsParamsCollection(::ArrayWrapper<DataModels::PlayerAvatar::RandomizeAvatarColorMap*> value);
+    static void _set__randomizeColorsParamsCollection(::ArrayW<DataModels::PlayerAvatar::RandomizeAvatarColorMap*> value);
     // static private System.Void .cctor()
     // Offset: 0x11A4750
     static void _cctor();

@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -49,6 +50,11 @@ namespace UnityEngine::UI::Collections {
   template<typename T>
   class IndexedSet_1 : public ::Il2CppObject/*, public System::Collections::Generic::IList_1<T>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Collections.Generic.List`1<T> m_List
     // Size: 0x8
     // Offset: 0x0
@@ -61,6 +67,7 @@ namespace UnityEngine::UI::Collections {
     System::Collections::Generic::Dictionary_2<T, int>* m_Dictionary;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<T, int>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Collections::Generic::IList_1<T>
     operator System::Collections::Generic::IList_1<T>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IList_1<T>*>(this);
@@ -171,7 +178,7 @@ namespace UnityEngine::UI::Collections {
     }
     // public System.Void CopyTo(T[] array, System.Int32 arrayIndex)
     // Offset: 0xFFFFFFFF
-    void CopyTo(::ArrayWrapper<T> array, int arrayIndex) {
+    void CopyTo(::ArrayW<T> array, int arrayIndex) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::UI::Collections::IndexedSet_1::CopyTo");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CopyTo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(arrayIndex)})));
       auto ___instance_arg = this;

@@ -10,6 +10,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Zenject
@@ -50,12 +51,18 @@ namespace Zenject {
     class $$c;
     // Nested type: Zenject::ConventionAssemblySelectionBinder::$$c__DisplayClass12_0
     class $$c__DisplayClass12_0;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Zenject.ConventionBindInfo <BindInfo>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     Zenject::ConventionBindInfo* BindInfo;
     // Field size check
     static_assert(sizeof(Zenject::ConventionBindInfo*) == 0x8);
+    public:
     // Creating conversion operator: operator Zenject::ConventionBindInfo*
     constexpr operator Zenject::ConventionBindInfo*() const noexcept {
       return BindInfo;
@@ -90,7 +97,7 @@ namespace Zenject {
     }
     // public System.Void FromAssembliesContaining(params System.Type[] types)
     // Offset: 0x14FA2D0
-    void FromAssembliesContaining(::ArrayWrapper<System::Type*> types);
+    void FromAssembliesContaining(::ArrayW<System::Type*> types);
     // public System.Void FromAssembliesContaining(System.Collections.Generic.IEnumerable`1<System.Type> types)
     // Offset: 0x14FA2D4
     void FromAssembliesContaining(System::Collections::Generic::IEnumerable_1<System::Type*>* types);
@@ -102,7 +109,7 @@ namespace Zenject {
     void FromAssembly(System::Reflection::Assembly* assembly);
     // public System.Void FromAssemblies(params System.Reflection.Assembly[] assemblies)
     // Offset: 0x14FA560
-    void FromAssemblies(::ArrayWrapper<System::Reflection::Assembly*> assemblies);
+    void FromAssemblies(::ArrayW<System::Reflection::Assembly*> assemblies);
     // public System.Void FromAssemblies(System.Collections.Generic.IEnumerable`1<System.Reflection.Assembly> assemblies)
     // Offset: 0x14FA3F0
     void FromAssemblies(System::Collections::Generic::IEnumerable_1<System::Reflection::Assembly*>* assemblies);
@@ -151,7 +158,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Writing MetadataGetter for method: Zenject::ConventionAssemblySelectionBinder::FromAssembliesContaining
 // Il2CppName: FromAssembliesContaining
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ConventionAssemblySelectionBinder::*)(::ArrayWrapper<System::Type*>)>(&Zenject::ConventionAssemblySelectionBinder::FromAssembliesContaining)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ConventionAssemblySelectionBinder::*)(::ArrayW<System::Type*>)>(&Zenject::ConventionAssemblySelectionBinder::FromAssembliesContaining)> {
   static const MethodInfo* get() {
     static auto* types = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Type"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionAssemblySelectionBinder*), "FromAssembliesContaining", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{types});
@@ -186,7 +193,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Writing MetadataGetter for method: Zenject::ConventionAssemblySelectionBinder::FromAssemblies
 // Il2CppName: FromAssemblies
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ConventionAssemblySelectionBinder::*)(::ArrayWrapper<System::Reflection::Assembly*>)>(&Zenject::ConventionAssemblySelectionBinder::FromAssemblies)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::ConventionAssemblySelectionBinder::*)(::ArrayW<System::Reflection::Assembly*>)>(&Zenject::ConventionAssemblySelectionBinder::FromAssemblies)> {
   static const MethodInfo* get() {
     static auto* assemblies = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Reflection", "Assembly"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionAssemblySelectionBinder*), "FromAssemblies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{assemblies});

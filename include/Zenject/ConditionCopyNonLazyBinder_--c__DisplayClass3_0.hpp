@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -33,18 +34,24 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class ConditionCopyNonLazyBinder::$$c__DisplayClass3_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Type[] targets
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<System::Type*> targets;
+    ::ArrayW<System::Type*> targets;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<System::Type*>) == 0x8);
-    // Creating conversion operator: operator ::ArrayWrapper<System::Type*>
-    constexpr operator ::ArrayWrapper<System::Type*>() const noexcept {
+    static_assert(sizeof(::ArrayW<System::Type*>) == 0x8);
+    public:
+    // Creating conversion operator: operator ::ArrayW<System::Type*>
+    constexpr operator ::ArrayW<System::Type*>() const noexcept {
       return targets;
     }
     // Get instance field reference: public System.Type[] targets
-    ::ArrayWrapper<System::Type*>& dyn_targets();
+    ::ArrayW<System::Type*>& dyn_targets();
     // System.Boolean <WhenInjectedInto>b__0(Zenject.InjectContext r)
     // Offset: 0x14F8538
     bool $WhenInjectedInto$b__0(Zenject::InjectContext* r);
@@ -59,7 +66,7 @@ namespace Zenject {
     }
   }; // Zenject.ConditionCopyNonLazyBinder/Zenject.<>c__DisplayClass3_0
   #pragma pack(pop)
-  static check_size<sizeof(ConditionCopyNonLazyBinder::$$c__DisplayClass3_0), 16 + sizeof(::ArrayWrapper<System::Type*>)> __Zenject_ConditionCopyNonLazyBinder_$$c__DisplayClass3_0SizeCheck;
+  static check_size<sizeof(ConditionCopyNonLazyBinder::$$c__DisplayClass3_0), 16 + sizeof(::ArrayW<System::Type*>)> __Zenject_ConditionCopyNonLazyBinder_$$c__DisplayClass3_0SizeCheck;
   static_assert(sizeof(ConditionCopyNonLazyBinder::$$c__DisplayClass3_0) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Zenject::ConditionCopyNonLazyBinder::$$c__DisplayClass3_0*, "Zenject", "ConditionCopyNonLazyBinder/<>c__DisplayClass3_0");

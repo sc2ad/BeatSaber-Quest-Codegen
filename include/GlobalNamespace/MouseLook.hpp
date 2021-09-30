@@ -27,6 +27,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MouseLook : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Single _xSensitivity
     // Size: 0x4
     // Offset: 0x10
@@ -99,6 +104,7 @@ namespace GlobalNamespace {
     bool cursorIsLocked;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private System.Single _xSensitivity
     float& dyn__xSensitivity();
     // Get instance field reference: private System.Single _ySensitivity

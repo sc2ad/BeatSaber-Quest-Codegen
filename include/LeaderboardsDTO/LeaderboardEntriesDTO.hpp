@@ -6,6 +6,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: LeaderboardsDTO
@@ -23,27 +24,33 @@ namespace LeaderboardsDTO {
   // [TokenAttribute] Offset: FFFFFFFF
   struct LeaderboardEntriesDTO/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public LeaderboardsDTO.LeaderboardEntryDTO[] entries
     // Size: 0x8
     // Offset: 0x0
-    ::ArrayWrapper<LeaderboardsDTO::LeaderboardEntryDTO*> entries;
+    ::ArrayW<LeaderboardsDTO::LeaderboardEntryDTO*> entries;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<LeaderboardsDTO::LeaderboardEntryDTO*>) == 0x8);
+    static_assert(sizeof(::ArrayW<LeaderboardsDTO::LeaderboardEntryDTO*>) == 0x8);
+    public:
     // Creating value type constructor for type: LeaderboardEntriesDTO
-    constexpr LeaderboardEntriesDTO(::ArrayWrapper<LeaderboardsDTO::LeaderboardEntryDTO*> entries_ = ::ArrayWrapper<LeaderboardsDTO::LeaderboardEntryDTO*>(nullptr)) noexcept : entries{entries_} {}
+    constexpr LeaderboardEntriesDTO(::ArrayW<LeaderboardsDTO::LeaderboardEntryDTO*> entries_ = ::ArrayW<LeaderboardsDTO::LeaderboardEntryDTO*>(nullptr)) noexcept : entries{entries_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Creating conversion operator: operator ::ArrayWrapper<LeaderboardsDTO::LeaderboardEntryDTO*>
-    constexpr operator ::ArrayWrapper<LeaderboardsDTO::LeaderboardEntryDTO*>() const noexcept {
+    // Creating conversion operator: operator ::ArrayW<LeaderboardsDTO::LeaderboardEntryDTO*>
+    constexpr operator ::ArrayW<LeaderboardsDTO::LeaderboardEntryDTO*>() const noexcept {
       return entries;
     }
     // Get instance field reference: public LeaderboardsDTO.LeaderboardEntryDTO[] entries
-    ::ArrayWrapper<LeaderboardsDTO::LeaderboardEntryDTO*>& dyn_entries();
+    ::ArrayW<LeaderboardsDTO::LeaderboardEntryDTO*>& dyn_entries();
   }; // LeaderboardsDTO.LeaderboardEntriesDTO
   #pragma pack(pop)
-  static check_size<sizeof(LeaderboardEntriesDTO), 0 + sizeof(::ArrayWrapper<LeaderboardsDTO::LeaderboardEntryDTO*>)> __LeaderboardsDTO_LeaderboardEntriesDTOSizeCheck;
+  static check_size<sizeof(LeaderboardEntriesDTO), 0 + sizeof(::ArrayW<LeaderboardsDTO::LeaderboardEntryDTO*>)> __LeaderboardsDTO_LeaderboardEntriesDTOSizeCheck;
   static_assert(sizeof(LeaderboardEntriesDTO) == 0x8);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

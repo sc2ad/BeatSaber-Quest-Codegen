@@ -34,6 +34,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerLocalInactivePlayerInstaller : public Zenject::MonoInstaller {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private AudioManagerSO _audioManager
     // Size: 0x8
     // Offset: 0x20
@@ -54,6 +59,7 @@ namespace GlobalNamespace {
     DataModels::Levels::PerceivedLoudnessPerLevelModel* beatmapLoudnessModel;
     // Field size check
     static_assert(sizeof(DataModels::Levels::PerceivedLoudnessPerLevelModel*) == 0x8);
+    public:
     // Get instance field reference: private AudioManagerSO _audioManager
     GlobalNamespace::AudioManagerSO*& dyn__audioManager();
     // Get instance field reference: private readonly GameplayCoreSceneSetupData _sceneSetupData

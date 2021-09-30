@@ -32,6 +32,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ControllersTransformSettingsViewController : public HMUI::ViewController {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Vector3SO _controllerPosition
     // Size: 0x8
     // Offset: 0x70
@@ -81,6 +86,7 @@ namespace GlobalNamespace {
     HMUI::RangeValuesTextSlider* rotZSlider;
     // Field size check
     static_assert(sizeof(HMUI::RangeValuesTextSlider*) == 0x8);
+    public:
     // static field const value: static private System.Single kPositionStep
     static constexpr const float kPositionStep = 0.1;
     // Get static field: static private System.Single kPositionStep

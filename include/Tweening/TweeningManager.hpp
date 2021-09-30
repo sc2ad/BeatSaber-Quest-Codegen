@@ -46,6 +46,11 @@ namespace Tweening {
   // [TokenAttribute] Offset: FFFFFFFF
   class TweeningManager : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Collections.Generic.List`1<Tweening.Tween> _activeTweens
     // Size: 0x8
     // Offset: 0x18
@@ -70,6 +75,7 @@ namespace Tweening {
     System::Collections::Generic::Queue_1<System::Collections::Generic::HashSet_1<Tweening::Tween*>*>* reusableTweenHashSets;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Queue_1<System::Collections::Generic::HashSet_1<Tweening::Tween*>*>*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private readonly System.Collections.Generic.List`1<Tweening.Tween> _activeTweens

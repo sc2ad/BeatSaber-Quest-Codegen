@@ -32,6 +32,11 @@ namespace UnityEngine::AddressableAssets {
   // [TokenAttribute] Offset: FFFFFFFF
   class InvalidKeyException : public System::Exception {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Object <Key>k__BackingField
     // Size: 0x8
     // Offset: 0x88
@@ -44,6 +49,7 @@ namespace UnityEngine::AddressableAssets {
     System::Type* Type;
     // Field size check
     static_assert(sizeof(System::Type*) == 0x8);
+    public:
     // Get instance field reference: private System.Object <Key>k__BackingField
     ::Il2CppObject*& dyn_$Key$k__BackingField();
     // Get instance field reference: private System.Type <Type>k__BackingField

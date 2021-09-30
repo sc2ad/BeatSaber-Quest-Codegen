@@ -131,12 +131,18 @@ namespace GlobalNamespace {
       using declaring_type = RpcHandler_1<TType>*;
       static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass13_0`1";
       static constexpr bool IS_VALUE_TYPE = false;
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Action`1<System.String> callback
       // Size: 0x8
       // Offset: 0x0
       System::Action_1<::Il2CppString*>* callback;
       // Field size check
       static_assert(sizeof(System::Action_1<::Il2CppString*>*) == 0x8);
+      public:
       // Creating conversion operator: operator System::Action_1<::Il2CppString*>*
       constexpr operator System::Action_1<::Il2CppString*>*() const noexcept {
         return callback;
@@ -178,12 +184,18 @@ namespace GlobalNamespace {
       using declaring_type = RpcHandler_1<TType>*;
       static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass14_0`2";
       static constexpr bool IS_VALUE_TYPE = false;
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Action`2<System.String,T0> callback
       // Size: 0x8
       // Offset: 0x0
       System::Action_2<::Il2CppString*, T0>* callback;
       // Field size check
       static_assert(sizeof(System::Action_2<::Il2CppString*, T0>*) == 0x8);
+      public:
       // Creating conversion operator: operator System::Action_2<::Il2CppString*, T0>*
       constexpr operator System::Action_2<::Il2CppString*, T0>*() const noexcept {
         return callback;
@@ -225,12 +237,18 @@ namespace GlobalNamespace {
       using declaring_type = RpcHandler_1<TType>*;
       static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass15_0`3";
       static constexpr bool IS_VALUE_TYPE = false;
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Action`3<System.String,T0,T1> callback
       // Size: 0x8
       // Offset: 0x0
       System::Action_3<::Il2CppString*, T0, T1>* callback;
       // Field size check
       static_assert(sizeof(System::Action_3<::Il2CppString*, T0, T1>*) == 0x8);
+      public:
       // Creating conversion operator: operator System::Action_3<::Il2CppString*, T0, T1>*
       constexpr operator System::Action_3<::Il2CppString*, T0, T1>*() const noexcept {
         return callback;
@@ -272,12 +290,18 @@ namespace GlobalNamespace {
       using declaring_type = RpcHandler_1<TType>*;
       static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass16_0`4";
       static constexpr bool IS_VALUE_TYPE = false;
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Action`4<System.String,T0,T1,T2> callback
       // Size: 0x8
       // Offset: 0x0
       System::Action_4<::Il2CppString*, T0, T1, T2>* callback;
       // Field size check
       static_assert(sizeof(System::Action_4<::Il2CppString*, T0, T1, T2>*) == 0x8);
+      public:
       // Creating conversion operator: operator System::Action_4<::Il2CppString*, T0, T1, T2>*
       constexpr operator System::Action_4<::Il2CppString*, T0, T1, T2>*() const noexcept {
         return callback;
@@ -319,12 +343,18 @@ namespace GlobalNamespace {
       using declaring_type = RpcHandler_1<TType>*;
       static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass17_0`5";
       static constexpr bool IS_VALUE_TYPE = false;
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Action`5<System.String,T0,T1,T2,T3> callback
       // Size: 0x8
       // Offset: 0x0
       System::Action_5<::Il2CppString*, T0, T1, T2, T3>* callback;
       // Field size check
       static_assert(sizeof(System::Action_5<::Il2CppString*, T0, T1, T2, T3>*) == 0x8);
+      public:
       // Creating conversion operator: operator System::Action_5<::Il2CppString*, T0, T1, T2, T3>*
       constexpr operator System::Action_5<::Il2CppString*, T0, T1, T2, T3>*() const noexcept {
         return callback;
@@ -366,12 +396,18 @@ namespace GlobalNamespace {
       using declaring_type = RpcHandler_1<TType>*;
       static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass18_0`1";
       static constexpr bool IS_VALUE_TYPE = false;
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Action`2<System.String,System.Single> callback
       // Size: 0x8
       // Offset: 0x0
       System::Action_2<::Il2CppString*, float>* callback;
       // Field size check
       static_assert(sizeof(System::Action_2<::Il2CppString*, float>*) == 0x8);
+      public:
       // Creating conversion operator: operator System::Action_2<::Il2CppString*, float>*
       constexpr operator System::Action_2<::Il2CppString*, float>*() const noexcept {
         return callback;
@@ -413,12 +449,18 @@ namespace GlobalNamespace {
       using declaring_type = RpcHandler_1<TType>*;
       static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass19_0`2";
       static constexpr bool IS_VALUE_TYPE = false;
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Action`3<System.String,System.Single,T0> callback
       // Size: 0x8
       // Offset: 0x0
       System::Action_3<::Il2CppString*, float, T0>* callback;
       // Field size check
       static_assert(sizeof(System::Action_3<::Il2CppString*, float, T0>*) == 0x8);
+      public:
       // Creating conversion operator: operator System::Action_3<::Il2CppString*, float, T0>*
       constexpr operator System::Action_3<::Il2CppString*, float, T0>*() const noexcept {
         return callback;
@@ -460,12 +502,18 @@ namespace GlobalNamespace {
       using declaring_type = RpcHandler_1<TType>*;
       static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass20_0`3";
       static constexpr bool IS_VALUE_TYPE = false;
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Action`4<System.String,System.Single,T0,T1> callback
       // Size: 0x8
       // Offset: 0x0
       System::Action_4<::Il2CppString*, float, T0, T1>* callback;
       // Field size check
       static_assert(sizeof(System::Action_4<::Il2CppString*, float, T0, T1>*) == 0x8);
+      public:
       // Creating conversion operator: operator System::Action_4<::Il2CppString*, float, T0, T1>*
       constexpr operator System::Action_4<::Il2CppString*, float, T0, T1>*() const noexcept {
         return callback;
@@ -507,12 +555,18 @@ namespace GlobalNamespace {
       using declaring_type = RpcHandler_1<TType>*;
       static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass21_0`4";
       static constexpr bool IS_VALUE_TYPE = false;
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Action`5<System.String,System.Single,T0,T1,T2> callback
       // Size: 0x8
       // Offset: 0x0
       System::Action_5<::Il2CppString*, float, T0, T1, T2>* callback;
       // Field size check
       static_assert(sizeof(System::Action_5<::Il2CppString*, float, T0, T1, T2>*) == 0x8);
+      public:
       // Creating conversion operator: operator System::Action_5<::Il2CppString*, float, T0, T1, T2>*
       constexpr operator System::Action_5<::Il2CppString*, float, T0, T1, T2>*() const noexcept {
         return callback;
@@ -554,12 +608,18 @@ namespace GlobalNamespace {
       using declaring_type = RpcHandler_1<TType>*;
       static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass22_0`5";
       static constexpr bool IS_VALUE_TYPE = false;
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Action`6<System.String,System.Single,T0,T1,T2,T3> callback
       // Size: 0x8
       // Offset: 0x0
       System::Action_6<::Il2CppString*, float, T0, T1, T2, T3>* callback;
       // Field size check
       static_assert(sizeof(System::Action_6<::Il2CppString*, float, T0, T1, T2, T3>*) == 0x8);
+      public:
       // Creating conversion operator: operator System::Action_6<::Il2CppString*, float, T0, T1, T2, T3>*
       constexpr operator System::Action_6<::Il2CppString*, float, T0, T1, T2, T3>*() const noexcept {
         return callback;
@@ -601,6 +661,11 @@ namespace GlobalNamespace {
       using declaring_type = RpcHandler_1<TType>*;
       static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass23_0`1";
       static constexpr bool IS_VALUE_TYPE = false;
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public RpcHandler`1<TType> <>4__this
       // Size: 0x8
       // Offset: 0x0
@@ -613,6 +678,7 @@ namespace GlobalNamespace {
       System::Action_2<GlobalNamespace::IConnectedPlayer*, T>* callback;
       // Field size check
       static_assert(sizeof(System::Action_2<GlobalNamespace::IConnectedPlayer*, T>*) == 0x8);
+      public:
       // Autogenerated instance field getter
       // Get instance field: public RpcHandler`1<TType> <>4__this
       GlobalNamespace::RpcHandler_1<TType>*& dyn_$$4__this() {
@@ -658,6 +724,11 @@ namespace GlobalNamespace {
       using declaring_type = RpcHandler_1<TType>*;
       static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass23_1`1";
       static constexpr bool IS_VALUE_TYPE = false;
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public IConnectedPlayer player
       // Size: 0x8
       // Offset: 0x0
@@ -674,6 +745,7 @@ namespace GlobalNamespace {
       typename GlobalNamespace::RpcHandler_1<TType>::$$c__DisplayClass23_0_1<T>* CS$$$8__locals1;
       // Field size check
       static_assert(sizeof(typename GlobalNamespace::RpcHandler_1<TType>::$$c__DisplayClass23_0_1<T>*) == 0x8);
+      public:
       // Autogenerated instance field getter
       // Get instance field: public IConnectedPlayer player
       GlobalNamespace::IConnectedPlayer*& dyn_player() {
@@ -717,6 +789,11 @@ namespace GlobalNamespace {
       }
     }; // RpcHandler`1/<>c__DisplayClass23_1`1
     // Could not write size check! Type: RpcHandler`1/<>c__DisplayClass23_1`1 is generic, or has no fields that are valid for size checks!
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x0
@@ -747,6 +824,7 @@ namespace GlobalNamespace {
     bool destroyed;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Autogenerated static field getter
     // Get static field: static private System.Single kMaximumRpcTimeOffset
     static float _get_kMaximumRpcTimeOffset() {

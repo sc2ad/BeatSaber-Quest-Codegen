@@ -9,6 +9,7 @@
 #include "System/Globalization/InternalEncodingDataItem.hpp"
 // Including type: System.Globalization.InternalCodePageDataItem
 #include "System/Globalization/InternalCodePageDataItem.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections
@@ -31,13 +32,13 @@ namespace System::Globalization {
   class EncodingTable : public ::Il2CppObject {
     public:
     // Get static field: static System.Globalization.InternalEncodingDataItem[] encodingDataPtr
-    static ::ArrayWrapper<System::Globalization::InternalEncodingDataItem> _get_encodingDataPtr();
+    static ::ArrayW<System::Globalization::InternalEncodingDataItem> _get_encodingDataPtr();
     // Set static field: static System.Globalization.InternalEncodingDataItem[] encodingDataPtr
-    static void _set_encodingDataPtr(::ArrayWrapper<System::Globalization::InternalEncodingDataItem> value);
+    static void _set_encodingDataPtr(::ArrayW<System::Globalization::InternalEncodingDataItem> value);
     // Get static field: static System.Globalization.InternalCodePageDataItem[] codePageDataPtr
-    static ::ArrayWrapper<System::Globalization::InternalCodePageDataItem> _get_codePageDataPtr();
+    static ::ArrayW<System::Globalization::InternalCodePageDataItem> _get_codePageDataPtr();
     // Set static field: static System.Globalization.InternalCodePageDataItem[] codePageDataPtr
-    static void _set_codePageDataPtr(::ArrayWrapper<System::Globalization::InternalCodePageDataItem> value);
+    static void _set_codePageDataPtr(::ArrayW<System::Globalization::InternalCodePageDataItem> value);
     // Get static field: static private System.Int32 lastEncodingItem
     static int _get_lastEncodingItem();
     // Set static field: static private System.Int32 lastEncodingItem

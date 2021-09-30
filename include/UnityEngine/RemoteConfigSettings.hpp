@@ -28,6 +28,11 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: ED4188
   class RemoteConfigSettings : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.IntPtr m_Ptr
     // Size: 0x8
     // Offset: 0x10
@@ -41,6 +46,7 @@ namespace UnityEngine {
     System::Action_1<bool>* Updated;
     // Field size check
     static_assert(sizeof(System::Action_1<bool>*) == 0x8);
+    public:
     // Get instance field reference: System.IntPtr m_Ptr
     System::IntPtr& dyn_m_Ptr();
     // Get instance field reference: private System.Action`1<System.Boolean> Updated

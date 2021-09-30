@@ -29,12 +29,18 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   class CVRDriverManager : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Valve.VR.IVRDriverManager FnTable
     // Size: 0x10
     // Offset: 0x10
     Valve::VR::IVRDriverManager FnTable;
     // Field size check
     static_assert(sizeof(Valve::VR::IVRDriverManager) == 0x10);
+    public:
     // Creating conversion operator: operator Valve::VR::IVRDriverManager
     constexpr operator Valve::VR::IVRDriverManager() const noexcept {
       return FnTable;

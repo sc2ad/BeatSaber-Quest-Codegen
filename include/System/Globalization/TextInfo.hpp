@@ -38,6 +38,11 @@ namespace System::Globalization {
   // [ComVisibleAttribute] Offset: E5E67C
   class TextInfo : public ::Il2CppObject/*, public System::ICloneable, public System::Runtime::Serialization::IDeserializationCallback*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [OptionalFieldAttribute] Offset: 0xE63708
     // private System.String m_listSeparator
     // Size: 0x8
@@ -103,6 +108,7 @@ namespace System::Globalization {
     int m_win32LangID;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);

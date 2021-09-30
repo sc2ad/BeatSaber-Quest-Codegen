@@ -20,6 +20,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PS4LevelProductsModelSO::LevelProductData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String _entitlementLabel
     // Size: 0x8
     // Offset: 0x10
@@ -38,6 +43,7 @@ namespace GlobalNamespace {
     ::Il2CppString* levelId;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: private System.String _entitlementLabel
     ::Il2CppString*& dyn__entitlementLabel();
     // Get instance field reference: private System.String _productLabel

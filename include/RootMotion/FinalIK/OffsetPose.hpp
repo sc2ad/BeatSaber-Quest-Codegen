@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: RootMotion::FinalIK
@@ -33,16 +34,22 @@ namespace RootMotion::FinalIK {
     public:
     // Nested type: RootMotion::FinalIK::OffsetPose::EffectorLink
     class EffectorLink;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public RootMotion.FinalIK.OffsetPose/RootMotion.FinalIK.EffectorLink[] effectorLinks
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<RootMotion::FinalIK::OffsetPose::EffectorLink*> effectorLinks;
+    ::ArrayW<RootMotion::FinalIK::OffsetPose::EffectorLink*> effectorLinks;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::OffsetPose::EffectorLink*>) == 0x8);
+    static_assert(sizeof(::ArrayW<RootMotion::FinalIK::OffsetPose::EffectorLink*>) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public RootMotion.FinalIK.OffsetPose/RootMotion.FinalIK.EffectorLink[] effectorLinks
-    ::ArrayWrapper<RootMotion::FinalIK::OffsetPose::EffectorLink*>& dyn_effectorLinks();
+    ::ArrayW<RootMotion::FinalIK::OffsetPose::EffectorLink*>& dyn_effectorLinks();
     // public System.Void Apply(RootMotion.FinalIK.IKSolverFullBodyBiped solver, System.Single weight)
     // Offset: 0x1C5EC00
     void Apply(RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float weight);
@@ -64,7 +71,7 @@ namespace RootMotion::FinalIK {
     }
   }; // RootMotion.FinalIK.OffsetPose
   #pragma pack(pop)
-  static check_size<sizeof(OffsetPose), 24 + sizeof(::ArrayWrapper<RootMotion::FinalIK::OffsetPose::EffectorLink*>)> __RootMotion_FinalIK_OffsetPoseSizeCheck;
+  static check_size<sizeof(OffsetPose), 24 + sizeof(::ArrayW<RootMotion::FinalIK::OffsetPose::EffectorLink*>)> __RootMotion_FinalIK_OffsetPoseSizeCheck;
   static_assert(sizeof(OffsetPose) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::OffsetPose*, "RootMotion.FinalIK", "OffsetPose");

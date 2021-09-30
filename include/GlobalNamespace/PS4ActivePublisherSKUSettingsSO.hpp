@@ -27,6 +27,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PS4ActivePublisherSKUSettingsSO : public GlobalNamespace::PersistentScriptableObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [NullAllowed] Offset: 0xF037CC
     // public PS4PublisherSKUSettingsSO activePublisherSKUSettings
     // Size: 0x8
@@ -34,6 +39,7 @@ namespace GlobalNamespace {
     GlobalNamespace::PS4PublisherSKUSettingsSO* activePublisherSKUSettings;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PS4PublisherSKUSettingsSO*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public PS4PublisherSKUSettingsSO activePublisherSKUSettings

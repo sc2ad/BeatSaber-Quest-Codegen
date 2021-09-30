@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -47,12 +48,18 @@ namespace RootMotion::FinalIK {
     // [TokenAttribute] Offset: FFFFFFFF
     struct Quality/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: Quality
       constexpr Quality(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -87,6 +94,11 @@ namespace RootMotion::FinalIK {
     #pragma pack(pop)
     static check_size<sizeof(Grounding::Quality), 0 + sizeof(int)> __RootMotion_FinalIK_Grounding_QualitySizeCheck;
     static_assert(sizeof(Grounding::Quality) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [TooltipAttribute] Offset: 0xEF22E0
     // public UnityEngine.LayerMask layers
     // Size: 0x4
@@ -223,9 +235,9 @@ namespace RootMotion::FinalIK {
     // private RootMotion.FinalIK.Grounding/RootMotion.FinalIK.Leg[] <legs>k__BackingField
     // Size: 0x8
     // Offset: 0x58
-    ::ArrayWrapper<RootMotion::FinalIK::Grounding::Leg*> legs;
+    ::ArrayW<RootMotion::FinalIK::Grounding::Leg*> legs;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::Grounding::Leg*>) == 0x8);
+    static_assert(sizeof(::ArrayW<RootMotion::FinalIK::Grounding::Leg*>) == 0x8);
     // private RootMotion.FinalIK.Grounding/RootMotion.FinalIK.Pelvis <pelvis>k__BackingField
     // Size: 0x8
     // Offset: 0x60
@@ -258,6 +270,7 @@ namespace RootMotion::FinalIK {
     bool initiated;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: public UnityEngine.LayerMask layers
     UnityEngine::LayerMask& dyn_layers();
     // Get instance field reference: public System.Single maxStep
@@ -295,7 +308,7 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public RootMotion.FinalIK.Grounding/RootMotion.FinalIK.Quality quality
     RootMotion::FinalIK::Grounding::Quality& dyn_quality();
     // Get instance field reference: private RootMotion.FinalIK.Grounding/RootMotion.FinalIK.Leg[] <legs>k__BackingField
-    ::ArrayWrapper<RootMotion::FinalIK::Grounding::Leg*>& dyn_$legs$k__BackingField();
+    ::ArrayW<RootMotion::FinalIK::Grounding::Leg*>& dyn_$legs$k__BackingField();
     // Get instance field reference: private RootMotion.FinalIK.Grounding/RootMotion.FinalIK.Pelvis <pelvis>k__BackingField
     RootMotion::FinalIK::Grounding::Pelvis*& dyn_$pelvis$k__BackingField();
     // Get instance field reference: private System.Boolean <isGrounded>k__BackingField
@@ -308,10 +321,10 @@ namespace RootMotion::FinalIK {
     bool& dyn_initiated();
     // public RootMotion.FinalIK.Grounding/RootMotion.FinalIK.Leg[] get_legs()
     // Offset: 0x1E8E94C
-    ::ArrayWrapper<RootMotion::FinalIK::Grounding::Leg*> get_legs();
+    ::ArrayW<RootMotion::FinalIK::Grounding::Leg*> get_legs();
     // private System.Void set_legs(RootMotion.FinalIK.Grounding/RootMotion.FinalIK.Leg[] value)
     // Offset: 0x1E8E954
-    void set_legs(::ArrayWrapper<RootMotion::FinalIK::Grounding::Leg*> value);
+    void set_legs(::ArrayW<RootMotion::FinalIK::Grounding::Leg*> value);
     // public RootMotion.FinalIK.Grounding/RootMotion.FinalIK.Pelvis get_pelvis()
     // Offset: 0x1E8E95C
     RootMotion::FinalIK::Grounding::Pelvis* get_pelvis();
@@ -353,7 +366,7 @@ namespace RootMotion::FinalIK {
     bool IsValid(ByRef<::Il2CppString*> errorMessage);
     // public System.Void Initiate(UnityEngine.Transform root, UnityEngine.Transform[] feet)
     // Offset: 0x1E88384
-    void Initiate(UnityEngine::Transform* root, ::ArrayWrapper<UnityEngine::Transform*> feet);
+    void Initiate(UnityEngine::Transform* root, ::ArrayW<UnityEngine::Transform*> feet);
     // public System.Void Update()
     // Offset: 0x1E88B84
     void Update();
@@ -395,7 +408,7 @@ DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::Grounding::Quality, "RootMotion.Fina
 // Writing MetadataGetter for method: RootMotion::FinalIK::Grounding::get_legs
 // Il2CppName: get_legs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<RootMotion::FinalIK::Grounding::Leg*> (RootMotion::FinalIK::Grounding::*)()>(&RootMotion::FinalIK::Grounding::get_legs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<RootMotion::FinalIK::Grounding::Leg*> (RootMotion::FinalIK::Grounding::*)()>(&RootMotion::FinalIK::Grounding::get_legs)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Grounding*), "get_legs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -403,7 +416,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: RootMotion::FinalIK::Grounding::set_legs
 // Il2CppName: set_legs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Grounding::*)(::ArrayWrapper<RootMotion::FinalIK::Grounding::Leg*>)>(&RootMotion::FinalIK::Grounding::set_legs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Grounding::*)(::ArrayW<RootMotion::FinalIK::Grounding::Leg*>)>(&RootMotion::FinalIK::Grounding::set_legs)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "Grounding/Leg"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::Grounding*), "set_legs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -522,7 +535,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::Grounding::Initiate
 // Il2CppName: Initiate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Grounding::*)(UnityEngine::Transform*, ::ArrayWrapper<UnityEngine::Transform*>)>(&RootMotion::FinalIK::Grounding::Initiate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::Grounding::*)(UnityEngine::Transform*, ::ArrayW<UnityEngine::Transform*>)>(&RootMotion::FinalIK::Grounding::Initiate)> {
   static const MethodInfo* get() {
     static auto* root = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;
     static auto* feet = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Transform"), 1)->byval_arg;

@@ -35,6 +35,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerConnectedPlayerGameplayAnimator : public GlobalNamespace::MultiplayerGameplayAnimator {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [SpaceAttribute] Offset: 0xF08568
     // private MultiplayerBigAvatarAnimator _bigAvatarAnimator
     // Size: 0x8
@@ -82,6 +87,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot* playerSpectatingSpot;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot*) == 0x8);
+    public:
     // Get instance field reference: private MultiplayerBigAvatarAnimator _bigAvatarAnimator
     GlobalNamespace::MultiplayerBigAvatarAnimator*& dyn__bigAvatarAnimator();
     // Get instance field reference: private ScaleAnimator _avatarScaleAnimator

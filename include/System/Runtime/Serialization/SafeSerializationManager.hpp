@@ -49,6 +49,11 @@ namespace System::Runtime::Serialization {
   // [TokenAttribute] Offset: FFFFFFFF
   class SafeSerializationManager : public ::Il2CppObject/*, public System::Runtime::Serialization::ISerializable, public System::Runtime::Serialization::IObjectReference*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.IList`1<System.Object> m_serializedStates
     // Size: 0x8
     // Offset: 0x10
@@ -80,6 +85,7 @@ namespace System::Runtime::Serialization {
     System::EventHandler_1<System::Runtime::Serialization::SafeSerializationEventArgs*>* SerializeObjectState;
     // Field size check
     static_assert(sizeof(System::EventHandler_1<System::Runtime::Serialization::SafeSerializationEventArgs*>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Runtime::Serialization::ISerializable
     operator System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);

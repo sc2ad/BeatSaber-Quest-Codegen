@@ -27,6 +27,11 @@ namespace Zenject {
   // [DebuggerStepThroughAttribute] Offset: FFFFFFFF
   struct TypeValuePair/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Type Type
     // Size: 0x8
     // Offset: 0x0
@@ -39,6 +44,7 @@ namespace Zenject {
     ::Il2CppObject* Value;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
+    public:
     // Creating value type constructor for type: TypeValuePair
     constexpr TypeValuePair(System::Type* Type_ = {}, ::Il2CppObject* Value_ = {}) noexcept : Type{Type_}, Value{Value_} {}
     // Creating interface conversion operator: operator System::ValueType

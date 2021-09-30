@@ -29,6 +29,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ObstacleData : public GlobalNamespace::BeatmapObjectData {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private ObstacleType <obstacleType>k__BackingField
     // Size: 0x4
     // Offset: 0x18
@@ -47,6 +52,7 @@ namespace GlobalNamespace {
     int width;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: private ObstacleType <obstacleType>k__BackingField
     GlobalNamespace::ObstacleType& dyn_$obstacleType$k__BackingField();
     // Get instance field reference: private System.Single <duration>k__BackingField

@@ -23,12 +23,18 @@ namespace UnityEngine {
   // [UsedByNativeCodeAttribute] Offset: E722A4
   struct PropertyName/*, public System::ValueType, public System::IEquatable_1<UnityEngine::PropertyName>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Int32 id
     // Size: 0x4
     // Offset: 0x0
     int id;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: PropertyName
     constexpr PropertyName(int id_ = {}) noexcept : id{id_} {}
     // Creating interface conversion operator: operator System::ValueType

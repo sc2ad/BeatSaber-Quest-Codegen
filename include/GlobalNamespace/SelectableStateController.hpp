@@ -47,12 +47,18 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct ViewState/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: ViewState
       constexpr ViewState(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -105,6 +111,11 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(SelectableStateController::ViewState), 0 + sizeof(int)> __GlobalNamespace_SelectableStateController_ViewStateSizeCheck;
     static_assert(sizeof(SelectableStateController::ViewState) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xF0D56C
     // private readonly Tweening.TimeTweeningManager _tweeningManager
     // Size: 0x8
@@ -124,6 +135,7 @@ namespace GlobalNamespace {
     GlobalNamespace::SelectableStateController::ViewState currentViewState;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SelectableStateController::ViewState) == 0x4);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private readonly Tweening.TimeTweeningManager _tweeningManager

@@ -44,6 +44,11 @@ namespace UnityEngine::AddressableAssets::ResourceProviders {
   // [TokenAttribute] Offset: FFFFFFFF
   class ContentCatalogProvider::InternalOp::BundledCatalog : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.String m_BundlePath
     // Size: 0x8
     // Offset: 0x10
@@ -88,6 +93,7 @@ namespace UnityEngine::AddressableAssets::ResourceProviders {
     System::Action_1<UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>* OnLoaded;
     // Field size check
     static_assert(sizeof(System::Action_1<UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>*) == 0x8);
+    public:
     // Get instance field reference: private readonly System.String m_BundlePath
     ::Il2CppString*& dyn_m_BundlePath();
     // Get instance field reference: private System.Boolean m_OpInProgress

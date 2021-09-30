@@ -29,6 +29,11 @@ namespace UnityEngine::Timeline {
   // [TokenAttribute] Offset: FFFFFFFF
   class Marker : public UnityEngine::ScriptableObject/*, public UnityEngine::Timeline::IMarker*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [TimeFieldAttribute] Offset: 0xEBA4A8
     // [TooltipAttribute] Offset: 0xEBA4A8
     // private System.Double m_Time
@@ -43,6 +48,7 @@ namespace UnityEngine::Timeline {
     UnityEngine::Timeline::TrackAsset* parent;
     // Field size check
     static_assert(sizeof(UnityEngine::Timeline::TrackAsset*) == 0x8);
+    public:
     // Creating interface conversion operator: operator UnityEngine::Timeline::IMarker
     operator UnityEngine::Timeline::IMarker() noexcept {
       return *reinterpret_cast<UnityEngine::Timeline::IMarker*>(this);

@@ -18,6 +18,11 @@ namespace Mono::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   struct CFRange/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.IntPtr Location
     // Size: 0x8
     // Offset: 0x0
@@ -30,6 +35,7 @@ namespace Mono::Net {
     System::IntPtr Length;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
+    public:
     // Creating value type constructor for type: CFRange
     constexpr CFRange(System::IntPtr Location_ = {}, System::IntPtr Length_ = {}) noexcept : Location{Location_}, Length{Length_} {}
     // Creating interface conversion operator: operator System::ValueType

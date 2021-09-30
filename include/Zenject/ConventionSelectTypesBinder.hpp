@@ -30,12 +30,18 @@ namespace Zenject {
     public:
     // Nested type: Zenject::ConventionSelectTypesBinder::$$c
     class $$c;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Zenject.ConventionBindInfo _bindInfo
     // Size: 0x8
     // Offset: 0x10
     Zenject::ConventionBindInfo* bindInfo;
     // Field size check
     static_assert(sizeof(Zenject::ConventionBindInfo*) == 0x8);
+    public:
     // Creating conversion operator: operator Zenject::ConventionBindInfo*
     constexpr operator Zenject::ConventionBindInfo*() const noexcept {
       return bindInfo;

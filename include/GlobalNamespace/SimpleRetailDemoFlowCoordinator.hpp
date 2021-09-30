@@ -67,6 +67,11 @@ namespace GlobalNamespace {
     class $QuitApplicationCoroutine$d__22;
     // Nested type: GlobalNamespace::SimpleRetailDemoFlowCoordinator::$$c__DisplayClass23_0
     class $$c__DisplayClass23_0;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private MenuTransitionsHelper _menuTransitionsHelper
     // Size: 0x8
     // Offset: 0xA8
@@ -187,6 +192,7 @@ namespace GlobalNamespace {
     GlobalNamespace::GameplayModifiers* gameplayModifiers;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayModifiers*) == 0x8);
+    public:
     // Get instance field reference: private MenuTransitionsHelper _menuTransitionsHelper
     GlobalNamespace::MenuTransitionsHelper*& dyn__menuTransitionsHelper();
     // Get instance field reference: private MenuLightsPresetSO _defaultLightsPreset

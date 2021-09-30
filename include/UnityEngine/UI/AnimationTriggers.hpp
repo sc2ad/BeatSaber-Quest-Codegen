@@ -25,6 +25,11 @@ namespace UnityEngine::UI {
   // [TokenAttribute] Offset: FFFFFFFF
   class AnimationTriggers : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [FormerlySerializedAsAttribute] Offset: 0xEA8C24
     // private System.String m_NormalTrigger
     // Size: 0x8
@@ -60,6 +65,7 @@ namespace UnityEngine::UI {
     ::Il2CppString* m_DisabledTrigger;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // static field const value: static private System.String kDefaultNormalAnimName
     static constexpr const char* kDefaultNormalAnimName = "Normal";
     // Get static field: static private System.String kDefaultNormalAnimName

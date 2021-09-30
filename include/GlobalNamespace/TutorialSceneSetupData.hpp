@@ -28,12 +28,18 @@ namespace GlobalNamespace {
   // [ZenjectAllowDuringValidationAttribute] Offset: FFFFFFFF
   class TutorialSceneSetupData : public GlobalNamespace::SceneSetupData {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly ColorScheme colorScheme
     // Size: 0x8
     // Offset: 0x10
     GlobalNamespace::ColorScheme* colorScheme;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ColorScheme*) == 0x8);
+    public:
     // Creating conversion operator: operator GlobalNamespace::ColorScheme*
     constexpr operator GlobalNamespace::ColorScheme*() const noexcept {
       return colorScheme;

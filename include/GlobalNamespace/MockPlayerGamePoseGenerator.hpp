@@ -47,6 +47,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MockPlayerGamePoseGenerator : public ::Il2CppObject/*, public System::IDisposable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // protected readonly IMultiplayerSessionManager multiplayerSessionManager
     // Size: 0x8
     // Offset: 0x10
@@ -79,6 +84,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MockScoreSyncStateSender* mockScoreSyncStateSender;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MockScoreSyncStateSender*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

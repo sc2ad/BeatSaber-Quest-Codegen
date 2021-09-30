@@ -23,6 +23,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HoudiniEngineUnity
@@ -98,6 +99,11 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_SessionBase : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // protected HoudiniEngineUnity.HEU_SessionData _sessionData
     // Size: 0x8
     // Offset: 0x10
@@ -138,6 +144,7 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::HAPI_Result LastCallResultCode;
     // Field size check
     static_assert(sizeof(HoudiniEngineUnity::HAPI_Result) == 0x4);
+    public:
     // Get instance field reference: protected HoudiniEngineUnity.HEU_SessionData _sessionData
     HoudiniEngineUnity::HEU_SessionData*& dyn__sessionData();
     // Get instance field reference: private System.Boolean <UserNotifiedSessionInvalid>k__BackingField
@@ -329,7 +336,7 @@ namespace HoudiniEngineUnity {
     bool LoadAssetLibraryFromFile(::Il2CppString* assetPath, bool bAllowOverwrite, ByRef<int> libraryID);
     // public System.Boolean LoadAssetLibraryFromMemory(System.Byte[] buffer, System.Boolean bAllowOverwrite, out System.Int32 libraryID)
     // Offset: 0x17D2A68
-    bool LoadAssetLibraryFromMemory(::ArrayWrapper<uint8_t> buffer, bool bAllowOverwrite, ByRef<int> libraryID);
+    bool LoadAssetLibraryFromMemory(::ArrayW<uint8_t> buffer, bool bAllowOverwrite, ByRef<int> libraryID);
     // public System.Boolean CreateNode(System.Int32 parentNodeID, System.String operatorName, System.String nodeLabel, System.Boolean bCookOnCreation, out System.Int32 newNodeID)
     // Offset: 0x17D2A74
     bool CreateNode(int parentNodeID, ::Il2CppString* operatorName, ::Il2CppString* nodeLabel, bool bCookOnCreation, ByRef<int> newNodeID);
@@ -362,7 +369,7 @@ namespace HoudiniEngineUnity {
     bool GetAvailableAssetCount(int libraryID, ByRef<int> assetCount);
     // public System.Boolean GetAvailableAssets(System.Int32 libraryID, ref System.Int32[] assetNames, System.Int32 assetCount)
     // Offset: 0x17D2AD8
-    bool GetAvailableAssets(int libraryID, ByRef<::ArrayWrapper<int>> assetNames, int assetCount);
+    bool GetAvailableAssets(int libraryID, ByRef<::ArrayW<int>> assetNames, int assetCount);
     // public System.Boolean GetAssetInfo(System.Int32 nodeID, ref HoudiniEngineUnity.HAPI_AssetInfo assetInfo)
     // Offset: 0x17D2AE0
     bool GetAssetInfo(int nodeID, ByRef<HoudiniEngineUnity::HAPI_AssetInfo> assetInfo);
@@ -380,7 +387,7 @@ namespace HoudiniEngineUnity {
     bool ComposeChildNodeList(int parentNodeID, int nodeTypeFilter, int nodeFlagFilter, bool bRecursive, ByRef<int> count);
     // public System.Boolean GetComposedChildNodeList(System.Int32 parentNodeID, System.Int32[] childNodeIDs, System.Int32 count)
     // Offset: 0x17D2B0C
-    bool GetComposedChildNodeList(int parentNodeID, ::ArrayWrapper<int> childNodeIDs, int count);
+    bool GetComposedChildNodeList(int parentNodeID, ::ArrayW<int> childNodeIDs, int count);
     // public System.Boolean LoadHIPFile(System.String fileName, System.Boolean bCookOnLoad)
     // Offset: 0x17D2B14
     bool LoadHIPFile(::Il2CppString* fileName, bool bCookOnLoad);
@@ -401,10 +408,10 @@ namespace HoudiniEngineUnity {
     bool ComposeObjectList(int nodeID, ByRef<int> objectCount);
     // public System.Boolean GetComposedObjectList(System.Int32 nodeID, out HoudiniEngineUnity.HAPI_ObjectInfo[] objectInfos, System.Int32 start, System.Int32 length)
     // Offset: 0x17D2B48
-    bool GetComposedObjectList(int nodeID, ByRef<::ArrayWrapper<HoudiniEngineUnity::HAPI_ObjectInfo>> objectInfos, int start, int length);
+    bool GetComposedObjectList(int nodeID, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ObjectInfo>> objectInfos, int start, int length);
     // public System.Boolean GetComposedObjectTransforms(System.Int32 nodeID, HoudiniEngineUnity.HAPI_RSTOrder rstOrder, out HoudiniEngineUnity.HAPI_Transform[] transforms, System.Int32 start, System.Int32 length)
     // Offset: 0x17D2B50
-    bool GetComposedObjectTransforms(int nodeID, HoudiniEngineUnity::HAPI_RSTOrder rstOrder, ByRef<::ArrayWrapper<HoudiniEngineUnity::HAPI_Transform>> transforms, int start, int length);
+    bool GetComposedObjectTransforms(int nodeID, HoudiniEngineUnity::HAPI_RSTOrder rstOrder, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_Transform>> transforms, int start, int length);
     // public System.Boolean GetDisplayGeoInfo(System.Int32 nodeID, ref HoudiniEngineUnity.HAPI_GeoInfo geoInfo, System.Boolean bLogError)
     // Offset: 0x17D2B58
     bool GetDisplayGeoInfo(int nodeID, ByRef<HoudiniEngineUnity::HAPI_GeoInfo> geoInfo, bool bLogError);
@@ -419,67 +426,67 @@ namespace HoudiniEngineUnity {
     bool GetAttributeInfo(int nodeID, int partID, ::Il2CppString* name, HoudiniEngineUnity::HAPI_AttributeOwner owner, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attributeInfo);
     // public System.Boolean GetAttributeNames(System.Int32 nodeID, System.Int32 partID, HoudiniEngineUnity.HAPI_AttributeOwner owner, ref System.String[] attributeNames, System.Int32 count)
     // Offset: 0x17D2B78
-    bool GetAttributeNames(int nodeID, int partID, HoudiniEngineUnity::HAPI_AttributeOwner owner, ByRef<::ArrayWrapper<::Il2CppString*>> attributeNames, int count);
+    bool GetAttributeNames(int nodeID, int partID, HoudiniEngineUnity::HAPI_AttributeOwner owner, ByRef<::ArrayW<::Il2CppString*>> attributeNames, int count);
     // public System.Boolean GetAttributeStringData(System.Int32 nodeID, System.Int32 partID, System.String name, ref HoudiniEngineUnity.HAPI_AttributeInfo attributeInfo, out System.Int32[] dataArray, System.Int32 start, System.Int32 length)
     // Offset: 0x17D2B80
-    bool GetAttributeStringData(int nodeID, int partID, ::Il2CppString* name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attributeInfo, ByRef<::ArrayWrapper<int>> dataArray, int start, int length);
+    bool GetAttributeStringData(int nodeID, int partID, ::Il2CppString* name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attributeInfo, ByRef<::ArrayW<int>> dataArray, int start, int length);
     // public System.Boolean GetAttributeFloatData(System.Int32 nodeID, System.Int32 partID, System.String name, ref HoudiniEngineUnity.HAPI_AttributeInfo attributeInfo, out System.Single[] data, System.Int32 start, System.Int32 length)
     // Offset: 0x17D2B88
-    bool GetAttributeFloatData(int nodeID, int partID, ::Il2CppString* name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attributeInfo, ByRef<::ArrayWrapper<float>> data, int start, int length);
+    bool GetAttributeFloatData(int nodeID, int partID, ::Il2CppString* name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attributeInfo, ByRef<::ArrayW<float>> data, int start, int length);
     // public System.Boolean GetAttributeFloat64Data(System.Int32 nodeID, System.Int32 partID, System.String name, ref HoudiniEngineUnity.HAPI_AttributeInfo attributeInfo, out System.Double[] data, System.Int32 start, System.Int32 length)
     // Offset: 0x17D2B90
-    bool GetAttributeFloat64Data(int nodeID, int partID, ::Il2CppString* name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attributeInfo, ByRef<::ArrayWrapper<double>> data, int start, int length);
+    bool GetAttributeFloat64Data(int nodeID, int partID, ::Il2CppString* name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attributeInfo, ByRef<::ArrayW<double>> data, int start, int length);
     // public System.Boolean GetAttributeIntData(System.Int32 nodeID, System.Int32 partID, System.String name, ref HoudiniEngineUnity.HAPI_AttributeInfo attributeInfo, out System.Int32[] data, System.Int32 start, System.Int32 length)
     // Offset: 0x17D2B98
-    bool GetAttributeIntData(int nodeID, int partID, ::Il2CppString* name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attributeInfo, ByRef<::ArrayWrapper<int>> data, int start, int length);
+    bool GetAttributeIntData(int nodeID, int partID, ::Il2CppString* name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attributeInfo, ByRef<::ArrayW<int>> data, int start, int length);
     // public System.Boolean GetAttributeUInt8Data(System.Int32 nodeID, System.Int32 partID, System.String name, ref HoudiniEngineUnity.HAPI_AttributeInfo attributeInfo, out System.Byte[] data, System.Int32 start, System.Int32 length)
     // Offset: 0x17D2BA0
-    bool GetAttributeUInt8Data(int nodeID, int partID, ::Il2CppString* name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attributeInfo, ByRef<::ArrayWrapper<uint8_t>> data, int start, int length);
+    bool GetAttributeUInt8Data(int nodeID, int partID, ::Il2CppString* name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attributeInfo, ByRef<::ArrayW<uint8_t>> data, int start, int length);
     // public System.Boolean GetAttributeInt8Data(System.Int32 nodeID, System.Int32 partID, System.String name, ref HoudiniEngineUnity.HAPI_AttributeInfo attributeInfo, out System.SByte[] data, System.Int32 start, System.Int32 length)
     // Offset: 0x17D2BA8
-    bool GetAttributeInt8Data(int nodeID, int partID, ::Il2CppString* name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attributeInfo, ByRef<::ArrayWrapper<int8_t>> data, int start, int length);
+    bool GetAttributeInt8Data(int nodeID, int partID, ::Il2CppString* name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attributeInfo, ByRef<::ArrayW<int8_t>> data, int start, int length);
     // public System.Boolean GetAttributeInt16Data(System.Int32 nodeID, System.Int32 partID, System.String name, ref HoudiniEngineUnity.HAPI_AttributeInfo attributeInfo, out System.Int16[] data, System.Int32 start, System.Int32 length)
     // Offset: 0x17D2BB0
-    bool GetAttributeInt16Data(int nodeID, int partID, ::Il2CppString* name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attributeInfo, ByRef<::ArrayWrapper<int16_t>> data, int start, int length);
+    bool GetAttributeInt16Data(int nodeID, int partID, ::Il2CppString* name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attributeInfo, ByRef<::ArrayW<int16_t>> data, int start, int length);
     // public System.Boolean GetAttributeInt64Data(System.Int32 nodeID, System.Int32 partID, System.String name, ref HoudiniEngineUnity.HAPI_AttributeInfo attributeInfo, out System.Int64[] data, System.Int32 start, System.Int32 length)
     // Offset: 0x17D2BB8
-    bool GetAttributeInt64Data(int nodeID, int partID, ::Il2CppString* name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attributeInfo, ByRef<::ArrayWrapper<int64_t>> data, int start, int length);
+    bool GetAttributeInt64Data(int nodeID, int partID, ::Il2CppString* name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attributeInfo, ByRef<::ArrayW<int64_t>> data, int start, int length);
     // public System.Boolean GetGroupNames(System.Int32 nodeID, HoudiniEngineUnity.HAPI_GroupType groupType, ref System.Int32[] names, System.Int32 count)
     // Offset: 0x17D2BC0
-    bool GetGroupNames(int nodeID, HoudiniEngineUnity::HAPI_GroupType groupType, ByRef<::ArrayWrapper<int>> names, int count);
+    bool GetGroupNames(int nodeID, HoudiniEngineUnity::HAPI_GroupType groupType, ByRef<::ArrayW<int>> names, int count);
     // public System.Boolean GetGroupMembership(System.Int32 nodeID, System.Int32 partID, HoudiniEngineUnity.HAPI_GroupType groupType, System.String groupName, ref System.Boolean membershipArrayAllEqual, out System.Int32[] membershipArray, System.Int32 start, System.Int32 length)
     // Offset: 0x17D2BC8
-    bool GetGroupMembership(int nodeID, int partID, HoudiniEngineUnity::HAPI_GroupType groupType, ::Il2CppString* groupName, ByRef<bool> membershipArrayAllEqual, ByRef<::ArrayWrapper<int>> membershipArray, int start, int length);
+    bool GetGroupMembership(int nodeID, int partID, HoudiniEngineUnity::HAPI_GroupType groupType, ::Il2CppString* groupName, ByRef<bool> membershipArrayAllEqual, ByRef<::ArrayW<int>> membershipArray, int start, int length);
     // public System.Boolean GetGroupCountOnPackedInstancePart(System.Int32 nodeID, System.Int32 partID, out System.Int32 pointGroupCount, out System.Int32 primitiveGroupCount)
     // Offset: 0x17D2BD0
     bool GetGroupCountOnPackedInstancePart(int nodeID, int partID, ByRef<int> pointGroupCount, ByRef<int> primitiveGroupCount);
     // public System.Boolean GetGroupNamesOnPackedInstancePart(System.Int32 nodeID, System.Int32 partID, HoudiniEngineUnity.HAPI_GroupType groupType, ref System.Int32[] groupNamesArray, System.Int32 groupCount)
     // Offset: 0x17D2BE0
-    bool GetGroupNamesOnPackedInstancePart(int nodeID, int partID, HoudiniEngineUnity::HAPI_GroupType groupType, ByRef<::ArrayWrapper<int>> groupNamesArray, int groupCount);
+    bool GetGroupNamesOnPackedInstancePart(int nodeID, int partID, HoudiniEngineUnity::HAPI_GroupType groupType, ByRef<::ArrayW<int>> groupNamesArray, int groupCount);
     // public System.Boolean GetGroupMembershipOnPackedInstancePart(System.Int32 nodeID, System.Int32 partID, HoudiniEngineUnity.HAPI_GroupType groupType, System.String groupName, ref System.Boolean membershipArrayAllEqual, out System.Int32[] membershipArray, System.Int32 start, System.Int32 length)
     // Offset: 0x17D2BE8
-    bool GetGroupMembershipOnPackedInstancePart(int nodeID, int partID, HoudiniEngineUnity::HAPI_GroupType groupType, ::Il2CppString* groupName, ByRef<bool> membershipArrayAllEqual, ByRef<::ArrayWrapper<int>> membershipArray, int start, int length);
+    bool GetGroupMembershipOnPackedInstancePart(int nodeID, int partID, HoudiniEngineUnity::HAPI_GroupType groupType, ::Il2CppString* groupName, ByRef<bool> membershipArrayAllEqual, ByRef<::ArrayW<int>> membershipArray, int start, int length);
     // public System.Boolean GetInstancedPartIds(System.Int32 nodeID, System.Int32 partID, out System.Int32[] instancedPartsArray, System.Int32 start, System.Int32 length)
     // Offset: 0x17D2BF0
-    bool GetInstancedPartIds(int nodeID, int partID, ByRef<::ArrayWrapper<int>> instancedPartsArray, int start, int length);
+    bool GetInstancedPartIds(int nodeID, int partID, ByRef<::ArrayW<int>> instancedPartsArray, int start, int length);
     // public System.Boolean GetInstancerPartTransforms(System.Int32 nodeID, System.Int32 partID, HoudiniEngineUnity.HAPI_RSTOrder rstOrder, out HoudiniEngineUnity.HAPI_Transform[] transformsArray, System.Int32 start, System.Int32 length)
     // Offset: 0x17D2BF8
-    bool GetInstancerPartTransforms(int nodeID, int partID, HoudiniEngineUnity::HAPI_RSTOrder rstOrder, ByRef<::ArrayWrapper<HoudiniEngineUnity::HAPI_Transform>> transformsArray, int start, int length);
+    bool GetInstancerPartTransforms(int nodeID, int partID, HoudiniEngineUnity::HAPI_RSTOrder rstOrder, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_Transform>> transformsArray, int start, int length);
     // public System.Boolean GetInstanceTransformsOnPart(System.Int32 nodeID, System.Int32 partID, HoudiniEngineUnity.HAPI_RSTOrder rstOrder, out HoudiniEngineUnity.HAPI_Transform[] transformsArray, System.Int32 start, System.Int32 length)
     // Offset: 0x17D2C00
-    bool GetInstanceTransformsOnPart(int nodeID, int partID, HoudiniEngineUnity::HAPI_RSTOrder rstOrder, ByRef<::ArrayWrapper<HoudiniEngineUnity::HAPI_Transform>> transformsArray, int start, int length);
+    bool GetInstanceTransformsOnPart(int nodeID, int partID, HoudiniEngineUnity::HAPI_RSTOrder rstOrder, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_Transform>> transformsArray, int start, int length);
     // public System.Boolean GetInstancedObjectIds(System.Int32 nodeID, out System.Int32[] instanced_node_id_array, System.Int32 start, System.Int32 length)
     // Offset: 0x17D2C08
-    bool GetInstancedObjectIds(int nodeID, ByRef<::ArrayWrapper<int>> instanced_node_id_array, int start, int length);
+    bool GetInstancedObjectIds(int nodeID, ByRef<::ArrayW<int>> instanced_node_id_array, int start, int length);
     // public System.Boolean GetFaceCounts(System.Int32 nodeID, System.Int32 partID, out System.Int32[] faceCounts, System.Int32 start, System.Int32 length)
     // Offset: 0x17D2C10
-    bool GetFaceCounts(int nodeID, int partID, ByRef<::ArrayWrapper<int>> faceCounts, int start, int length);
+    bool GetFaceCounts(int nodeID, int partID, ByRef<::ArrayW<int>> faceCounts, int start, int length);
     // public System.Boolean GetFaceCounts(System.Int32 nodeID, System.Int32 partID, out System.Int32[] faceCounts, System.Int32 start, System.Int32 length, System.Boolean bLogError)
     // Offset: 0x17D2C18
-    bool GetFaceCounts(int nodeID, int partID, ByRef<::ArrayWrapper<int>> faceCounts, int start, int length, bool bLogError);
+    bool GetFaceCounts(int nodeID, int partID, ByRef<::ArrayW<int>> faceCounts, int start, int length, bool bLogError);
     // public System.Boolean GetVertexList(System.Int32 nodeID, System.Int32 partID, out System.Int32[] vertexList, System.Int32 start, System.Int32 length)
     // Offset: 0x17D2C20
-    bool GetVertexList(int nodeID, int partID, ByRef<::ArrayWrapper<int>> vertexList, int start, int length);
+    bool GetVertexList(int nodeID, int partID, ByRef<::ArrayW<int>> vertexList, int start, int length);
     // public System.Boolean GetBoxInfo(System.Int32 nodeID, System.Int32 partID, ref HoudiniEngineUnity.HAPI_BoxInfo boxInfo)
     // Offset: 0x17D2C28
     bool GetBoxInfo(int nodeID, int partID, ByRef<HoudiniEngineUnity::HAPI_BoxInfo> boxInfo);
@@ -491,40 +498,40 @@ namespace HoudiniEngineUnity {
     bool GetCurveInfo(int nodeID, int partID, ByRef<HoudiniEngineUnity::HAPI_CurveInfo> curveInfo);
     // public System.Boolean GetCurveCounts(System.Int32 nodeID, System.Int32 partID, out System.Int32[] counts, System.Int32 start, System.Int32 length)
     // Offset: 0x17D2C40
-    bool GetCurveCounts(int nodeID, int partID, ByRef<::ArrayWrapper<int>> counts, int start, int length);
+    bool GetCurveCounts(int nodeID, int partID, ByRef<::ArrayW<int>> counts, int start, int length);
     // public System.Boolean GetCurveOrders(System.Int32 nodeID, System.Int32 partID, out System.Int32[] orders, System.Int32 start, System.Int32 length)
     // Offset: 0x17D2C48
-    bool GetCurveOrders(int nodeID, int partID, ByRef<::ArrayWrapper<int>> orders, int start, int length);
+    bool GetCurveOrders(int nodeID, int partID, ByRef<::ArrayW<int>> orders, int start, int length);
     // public System.Boolean GetCurveKnots(System.Int32 nodeID, System.Int32 partID, out System.Single[] knots, System.Int32 start, System.Int32 length)
     // Offset: 0x17D2C50
-    bool GetCurveKnots(int nodeID, int partID, ByRef<::ArrayWrapper<float>> knots, int start, int length);
+    bool GetCurveKnots(int nodeID, int partID, ByRef<::ArrayW<float>> knots, int start, int length);
     // public System.Boolean SetPartInfo(System.Int32 nodeID, System.Int32 partID, ref HoudiniEngineUnity.HAPI_PartInfo partInfo)
     // Offset: 0x17D2C58
     bool SetPartInfo(int nodeID, int partID, ByRef<HoudiniEngineUnity::HAPI_PartInfo> partInfo);
     // public System.Boolean SetFaceCount(System.Int32 nodeID, System.Int32 partID, System.Int32[] faceCounts, System.Int32 start, System.Int32 length)
     // Offset: 0x17D2C60
-    bool SetFaceCount(int nodeID, int partID, ::ArrayWrapper<int> faceCounts, int start, int length);
+    bool SetFaceCount(int nodeID, int partID, ::ArrayW<int> faceCounts, int start, int length);
     // public System.Boolean SetVertexList(System.Int32 nodeID, System.Int32 partID, System.Int32[] vertexList, System.Int32 start, System.Int32 length)
     // Offset: 0x17D2C68
-    bool SetVertexList(int nodeID, int partID, ::ArrayWrapper<int> vertexList, int start, int length);
+    bool SetVertexList(int nodeID, int partID, ::ArrayW<int> vertexList, int start, int length);
     // public System.Boolean SetAttributeIntData(System.Int32 nodeID, System.Int32 partID, System.String name, ref HoudiniEngineUnity.HAPI_AttributeInfo attrInfo, System.Int32[] data, System.Int32 start, System.Int32 length)
     // Offset: 0x17D2C70
-    bool SetAttributeIntData(int nodeID, int partID, ::Il2CppString* name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo, ::ArrayWrapper<int> data, int start, int length);
+    bool SetAttributeIntData(int nodeID, int partID, ::Il2CppString* name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo, ::ArrayW<int> data, int start, int length);
     // public System.Boolean SetAttributeInt8Data(System.Int32 nodeID, System.Int32 partID, System.String name, ref HoudiniEngineUnity.HAPI_AttributeInfo attrInfo, System.SByte[] data, System.Int32 start, System.Int32 length)
     // Offset: 0x17D2C78
-    bool SetAttributeInt8Data(int nodeID, int partID, ::Il2CppString* name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo, ::ArrayWrapper<int8_t> data, int start, int length);
+    bool SetAttributeInt8Data(int nodeID, int partID, ::Il2CppString* name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo, ::ArrayW<int8_t> data, int start, int length);
     // public System.Boolean SetAttributeInt16Data(System.Int32 nodeID, System.Int32 partID, System.String name, ref HoudiniEngineUnity.HAPI_AttributeInfo attrInfo, System.Int16[] data, System.Int32 start, System.Int32 length)
     // Offset: 0x17D2C80
-    bool SetAttributeInt16Data(int nodeID, int partID, ::Il2CppString* name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo, ::ArrayWrapper<int16_t> data, int start, int length);
+    bool SetAttributeInt16Data(int nodeID, int partID, ::Il2CppString* name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo, ::ArrayW<int16_t> data, int start, int length);
     // public System.Boolean SetAttributeInt64Data(System.Int32 nodeID, System.Int32 partID, System.String name, ref HoudiniEngineUnity.HAPI_AttributeInfo attrInfo, System.Int64[] data, System.Int32 start, System.Int32 length)
     // Offset: 0x17D2C88
-    bool SetAttributeInt64Data(int nodeID, int partID, ::Il2CppString* name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo, ::ArrayWrapper<int64_t> data, int start, int length);
+    bool SetAttributeInt64Data(int nodeID, int partID, ::Il2CppString* name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo, ::ArrayW<int64_t> data, int start, int length);
     // public System.Boolean SetAttributeFloatData(System.Int32 nodeID, System.Int32 partID, System.String name, ref HoudiniEngineUnity.HAPI_AttributeInfo attrInfo, System.Single[] data, System.Int32 start, System.Int32 length)
     // Offset: 0x17D2C90
-    bool SetAttributeFloatData(int nodeID, int partID, ::Il2CppString* name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo, ::ArrayWrapper<float> data, int start, int length);
+    bool SetAttributeFloatData(int nodeID, int partID, ::Il2CppString* name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo, ::ArrayW<float> data, int start, int length);
     // public System.Boolean SetAttributeStringData(System.Int32 nodeID, System.Int32 partID, System.String name, ref HoudiniEngineUnity.HAPI_AttributeInfo attrInfo, System.String[] data, System.Int32 start, System.Int32 length)
     // Offset: 0x17D2C98
-    bool SetAttributeStringData(int nodeID, int partID, ::Il2CppString* name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo, ::ArrayWrapper<::Il2CppString*> data, int start, int length);
+    bool SetAttributeStringData(int nodeID, int partID, ::Il2CppString* name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo, ::ArrayW<::Il2CppString*> data, int start, int length);
     // public System.Boolean AddAttribute(System.Int32 nodeID, System.Int32 partID, System.String name, ref HoudiniEngineUnity.HAPI_AttributeInfo attrInfo)
     // Offset: 0x17D2CA0
     bool AddAttribute(int nodeID, int partID, ::Il2CppString* name, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo);
@@ -536,7 +543,7 @@ namespace HoudiniEngineUnity {
     bool DeleteGroup(int nodeID, int partID, HoudiniEngineUnity::HAPI_GroupType groupType, ::Il2CppString* groupName);
     // public System.Boolean SetGroupMembership(System.Int32 nodeID, System.Int32 partID, HoudiniEngineUnity.HAPI_GroupType groupType, System.String groupName, out System.Int32[] membershipArray, System.Int32 start, System.Int32 length)
     // Offset: 0x17D2CB8
-    bool SetGroupMembership(int nodeID, int partID, HoudiniEngineUnity::HAPI_GroupType groupType, ::Il2CppString* groupName, ByRef<::ArrayWrapper<int>> membershipArray, int start, int length);
+    bool SetGroupMembership(int nodeID, int partID, HoudiniEngineUnity::HAPI_GroupType groupType, ::Il2CppString* groupName, ByRef<::ArrayW<int>> membershipArray, int start, int length);
     // public System.Boolean CommitGeo(System.Int32 nodeID)
     // Offset: 0x17D2CC0
     bool CommitGeo(int nodeID);
@@ -548,19 +555,19 @@ namespace HoudiniEngineUnity {
     bool SetCurveInfo(int nodeID, int partID, ByRef<HoudiniEngineUnity::HAPI_CurveInfo> curveInfo);
     // public System.Boolean SetCurveCounts(System.Int32 nodeID, System.Int32 partID, System.Int32[] counts, System.Int32 start, System.Int32 length)
     // Offset: 0x17D2CD8
-    bool SetCurveCounts(int nodeID, int partID, ::ArrayWrapper<int> counts, int start, int length);
+    bool SetCurveCounts(int nodeID, int partID, ::ArrayW<int> counts, int start, int length);
     // public System.Boolean SetCurveOrders(System.Int32 nodeID, System.Int32 partID, System.Int32[] orders, System.Int32 start, System.Int32 length)
     // Offset: 0x17D2CE0
-    bool SetCurveOrders(int nodeID, int partID, ::ArrayWrapper<int> orders, int start, int length);
+    bool SetCurveOrders(int nodeID, int partID, ::ArrayW<int> orders, int start, int length);
     // public System.Boolean SetCurveKnots(System.Int32 nodeID, System.Int32 partID, System.Single[] knots, System.Int32 start, System.Int32 length)
     // Offset: 0x17D2CE8
-    bool SetCurveKnots(int nodeID, int partID, ::ArrayWrapper<float> knots, int start, int length);
+    bool SetCurveKnots(int nodeID, int partID, ::ArrayW<float> knots, int start, int length);
     // public System.Boolean GetMaterialOnPart(System.Int32 nodeID, System.Int32 partID, ref HoudiniEngineUnity.HAPI_MaterialInfo materialInfo)
     // Offset: 0x17D2CF0
     bool GetMaterialOnPart(int nodeID, int partID, ByRef<HoudiniEngineUnity::HAPI_MaterialInfo> materialInfo);
     // public System.Boolean GetMaterialNodeIDsOnFaces(System.Int32 nodeID, System.Int32 partID, ref System.Boolean bSingleFaceMaterial, out System.Int32[] materialNodeIDs, System.Int32 faceCount)
     // Offset: 0x17D2CF8
-    bool GetMaterialNodeIDsOnFaces(int nodeID, int partID, ByRef<bool> bSingleFaceMaterial, ByRef<::ArrayWrapper<int>> materialNodeIDs, int faceCount);
+    bool GetMaterialNodeIDsOnFaces(int nodeID, int partID, ByRef<bool> bSingleFaceMaterial, ByRef<::ArrayW<int>> materialNodeIDs, int faceCount);
     // public System.Boolean GetMaterialInfo(System.Int32 materialNodeID, ref HoudiniEngineUnity.HAPI_MaterialInfo materialInfo, System.Boolean bLogError)
     // Offset: 0x17D2D00
     bool GetMaterialInfo(int materialNodeID, ByRef<HoudiniEngineUnity::HAPI_MaterialInfo> materialInfo, bool bLogError);
@@ -578,16 +585,16 @@ namespace HoudiniEngineUnity {
     bool RenderCOPToImage(int copNodeID);
     // public System.Boolean ExtractImageToMemory(System.Int32 nodeID, System.String fileFormat, System.String imagePlanes, out System.Byte[] buffer)
     // Offset: 0x17D2D28
-    bool ExtractImageToMemory(int nodeID, ::Il2CppString* fileFormat, ::Il2CppString* imagePlanes, ByRef<::ArrayWrapper<uint8_t>> buffer);
+    bool ExtractImageToMemory(int nodeID, ::Il2CppString* fileFormat, ::Il2CppString* imagePlanes, ByRef<::ArrayW<uint8_t>> buffer);
     // public System.Boolean GetImagePlanes(System.Int32 nodeID, out System.Int32[] imagePlanes, System.Int32 numImagePlanes)
     // Offset: 0x17D2D84
-    bool GetImagePlanes(int nodeID, ByRef<::ArrayWrapper<int>> imagePlanes, int numImagePlanes);
+    bool GetImagePlanes(int nodeID, ByRef<::ArrayW<int>> imagePlanes, int numImagePlanes);
     // public System.Boolean ExtractImageToFile(System.Int32 nodeID, System.String fileFormat, System.String imagePlanes, System.String destinationFolderPath, out System.String destinationFilePath)
     // Offset: 0x17D2DD8
     bool ExtractImageToFile(int nodeID, ::Il2CppString* fileFormat, ::Il2CppString* imagePlanes, ::Il2CppString* destinationFolderPath, ByRef<::Il2CppString*> destinationFilePath);
     // public System.Boolean GetParams(System.Int32 nodeID, out HoudiniEngineUnity.HAPI_ParmInfo[] parmInfos, System.Int32 start, System.Int32 length)
     // Offset: 0x17D2DE4
-    bool GetParams(int nodeID, ByRef<::ArrayWrapper<HoudiniEngineUnity::HAPI_ParmInfo>> parmInfos, int start, int length);
+    bool GetParams(int nodeID, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ParmInfo>> parmInfos, int start, int length);
     // public System.Boolean GetParmTagName(System.Int32 nodeID, System.Int32 parmID, System.Int32 tagIndex, out System.Int32 tagName)
     // Offset: 0x17D2DEC
     bool GetParmTagName(int nodeID, int parmID, int tagIndex, ByRef<int> tagName);
@@ -599,19 +606,19 @@ namespace HoudiniEngineUnity {
     bool ParmHasTag(int nodeID, int parmID, ::Il2CppString* tagName, ByRef<bool> hasTag);
     // public System.Boolean GetParamIntValues(System.Int32 nodeID, out System.Int32[] values, System.Int32 start, System.Int32 length)
     // Offset: 0x17D2E0C
-    bool GetParamIntValues(int nodeID, ByRef<::ArrayWrapper<int>> values, int start, int length);
+    bool GetParamIntValues(int nodeID, ByRef<::ArrayW<int>> values, int start, int length);
     // public System.Boolean GetParamIntValue(System.Int32 nodeID, System.String parmName, System.Int32 index, out System.Int32 value)
     // Offset: 0x17D2E14
     bool GetParamIntValue(int nodeID, ::Il2CppString* parmName, int index, ByRef<int> value);
     // public System.Boolean GetParamFloatValues(System.Int32 nodeID, out System.Single[] values, System.Int32 start, System.Int32 length)
     // Offset: 0x17D2E20
-    bool GetParamFloatValues(int nodeID, ByRef<::ArrayWrapper<float>> values, int start, int length);
+    bool GetParamFloatValues(int nodeID, ByRef<::ArrayW<float>> values, int start, int length);
     // public System.Boolean GetParamFloatValue(System.Int32 nodeID, System.String parmName, System.Int32 index, out System.Single value)
     // Offset: 0x17D2E28
     bool GetParamFloatValue(int nodeID, ::Il2CppString* parmName, int index, ByRef<float> value);
     // public System.Boolean GetParamStringValues(System.Int32 nodeID, out System.Int32[] values, System.Int32 start, System.Int32 length)
     // Offset: 0x17D2E34
-    bool GetParamStringValues(int nodeID, ByRef<::ArrayWrapper<int>> values, int start, int length);
+    bool GetParamStringValues(int nodeID, ByRef<::ArrayW<int>> values, int start, int length);
     // public System.Boolean GetParamStringValue(System.Int32 nodeID, System.String parmName, System.Int32 index, out System.Int32 value)
     // Offset: 0x17D2E3C
     bool GetParamStringValue(int nodeID, ::Il2CppString* parmName, int index, ByRef<int> value);
@@ -620,16 +627,16 @@ namespace HoudiniEngineUnity {
     bool GetParamNodeValue(int nodeID, ::Il2CppString* paramName, ByRef<int> nodeValue);
     // public System.Boolean GetParamChoiceValues(System.Int32 nodeID, out HoudiniEngineUnity.HAPI_ParmChoiceInfo[] values, System.Int32 start, System.Int32 length)
     // Offset: 0x17D2E58
-    bool GetParamChoiceValues(int nodeID, ByRef<::ArrayWrapper<HoudiniEngineUnity::HAPI_ParmChoiceInfo>> values, int start, int length);
+    bool GetParamChoiceValues(int nodeID, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ParmChoiceInfo>> values, int start, int length);
     // public System.Boolean SetParamIntValues(System.Int32 nodeID, ref System.Int32[] values, System.Int32 start, System.Int32 length)
     // Offset: 0x17D2E60
-    bool SetParamIntValues(int nodeID, ByRef<::ArrayWrapper<int>> values, int start, int length);
+    bool SetParamIntValues(int nodeID, ByRef<::ArrayW<int>> values, int start, int length);
     // public System.Boolean SetParamIntValue(System.Int32 nodeID, System.String paramName, System.Int32 index, System.Int32 value)
     // Offset: 0x17D2E68
     bool SetParamIntValue(int nodeID, ::Il2CppString* paramName, int index, int value);
     // public System.Boolean SetParamFloatValues(System.Int32 nodeID, ref System.Single[] values, System.Int32 start, System.Int32 length)
     // Offset: 0x17D2E70
-    bool SetParamFloatValues(int nodeID, ByRef<::ArrayWrapper<float>> values, int start, int length);
+    bool SetParamFloatValues(int nodeID, ByRef<::ArrayW<float>> values, int start, int length);
     // public System.Boolean SetParamFloatValue(System.Int32 nodeID, System.String paramName, System.Int32 index, System.Single value)
     // Offset: 0x17D2E78
     bool SetParamFloatValue(int nodeID, ::Il2CppString* paramName, int index, float value);
@@ -674,34 +681,34 @@ namespace HoudiniEngineUnity {
     bool CreateHeightfieldInputVolumeNode(int parentNodeID, ByRef<int> newNodeID, ::Il2CppString* name, int xSize, int ySize, float voxelSize);
     // public System.Boolean GetPreset(System.Int32 nodeID, out System.Byte[] presetData)
     // Offset: 0x17D2F1C
-    bool GetPreset(int nodeID, ByRef<::ArrayWrapper<uint8_t>> presetData);
+    bool GetPreset(int nodeID, ByRef<::ArrayW<uint8_t>> presetData);
     // public System.Boolean SetPreset(System.Int32 nodeID, System.Byte[] presetData)
     // Offset: 0x17D2F78
-    bool SetPreset(int nodeID, ::ArrayWrapper<uint8_t> presetData);
+    bool SetPreset(int nodeID, ::ArrayW<uint8_t> presetData);
     // public System.Boolean GetVolumeInfo(System.Int32 nodeID, System.Int32 partID, ref HoudiniEngineUnity.HAPI_VolumeInfo volumeInfo)
     // Offset: 0x17D2F80
     bool GetVolumeInfo(int nodeID, int partID, ByRef<HoudiniEngineUnity::HAPI_VolumeInfo> volumeInfo);
     // public System.Boolean GetHeightFieldData(System.Int32 nodeID, System.Int32 partID, System.Single[] valuesArray, System.Int32 start, System.Int32 length)
     // Offset: 0x17D2F88
-    bool GetHeightFieldData(int nodeID, int partID, ::ArrayWrapper<float> valuesArray, int start, int length);
+    bool GetHeightFieldData(int nodeID, int partID, ::ArrayW<float> valuesArray, int start, int length);
     // public System.Boolean SetVolumeInfo(System.Int32 nodeID, System.Int32 partID, ref HoudiniEngineUnity.HAPI_VolumeInfo volumeInfo)
     // Offset: 0x17D2F90
     bool SetVolumeInfo(int nodeID, int partID, ByRef<HoudiniEngineUnity::HAPI_VolumeInfo> volumeInfo);
     // public System.Boolean SetVolumeTileFloatData(System.Int32 nodeID, System.Int32 partID, ref HoudiniEngineUnity.HAPI_VolumeTileInfo tileInfo, System.Single[] valuesArray, System.Int32 length)
     // Offset: 0x17D2F98
-    bool SetVolumeTileFloatData(int nodeID, int partID, ByRef<HoudiniEngineUnity::HAPI_VolumeTileInfo> tileInfo, ::ArrayWrapper<float> valuesArray, int length);
+    bool SetVolumeTileFloatData(int nodeID, int partID, ByRef<HoudiniEngineUnity::HAPI_VolumeTileInfo> tileInfo, ::ArrayW<float> valuesArray, int length);
     // public System.Boolean GetVolumeBounds(System.Int32 nodeID, System.Int32 partID, out System.Single x_min, out System.Single y_min, out System.Single z_min, out System.Single x_max, out System.Single y_max, out System.Single z_max, out System.Single x_center, out System.Single y_center, out System.Single z_center)
     // Offset: 0x17D2FEC
     bool GetVolumeBounds(int nodeID, int partID, ByRef<float> x_min, ByRef<float> y_min, ByRef<float> z_min, ByRef<float> x_max, ByRef<float> y_max, ByRef<float> z_max, ByRef<float> x_center, ByRef<float> y_center, ByRef<float> z_center);
     // public System.Boolean SetHeightFieldData(System.Int32 nodeID, System.Int32 partID, System.String name, System.Single[] valuesArray, System.Int32 start, System.Int32 length)
     // Offset: 0x17D3020
-    bool SetHeightFieldData(int nodeID, int partID, ::Il2CppString* name, ::ArrayWrapper<float> valuesArray, int start, int length);
+    bool SetHeightFieldData(int nodeID, int partID, ::Il2CppString* name, ::ArrayW<float> valuesArray, int start, int length);
     // public System.Boolean GetActiveCacheCount(out System.Int32 activeCacheCount)
     // Offset: 0x17D3028
     bool GetActiveCacheCount(ByRef<int> activeCacheCount);
     // public System.Boolean GetActiveCacheNames(out System.Int32[] cacheNamesArray, System.Int32 activeCacheCount)
     // Offset: 0x17D3034
-    bool GetActiveCacheNames(ByRef<::ArrayWrapper<int>> cacheNamesArray, int activeCacheCount);
+    bool GetActiveCacheNames(ByRef<::ArrayW<int>> cacheNamesArray, int activeCacheCount);
     // public System.Boolean GetCacheProperty(System.String cacheName, HoudiniEngineUnity.HAPI_CacheProperty cacheProperty, out System.Int32 propertyValue)
     // Offset: 0x17D303C
     bool GetCacheProperty(::Il2CppString* cacheName, HoudiniEngineUnity::HAPI_CacheProperty cacheProperty, ByRef<int> propertyValue);
@@ -725,10 +732,10 @@ namespace HoudiniEngineUnity {
     bool GetGeoSize(int nodeID, ::Il2CppString* format, ByRef<int> size);
     // public System.Boolean GetHandleInfo(System.Int32 nodeID, out HoudiniEngineUnity.HAPI_HandleInfo[] handleInfos, System.Int32 start, System.Int32 length)
     // Offset: 0x17D3084
-    bool GetHandleInfo(int nodeID, ByRef<::ArrayWrapper<HoudiniEngineUnity::HAPI_HandleInfo>> handleInfos, int start, int length);
+    bool GetHandleInfo(int nodeID, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_HandleInfo>> handleInfos, int start, int length);
     // public System.Boolean GetHandleBindingInfo(System.Int32 nodeID, System.Int32 handleIndex, out HoudiniEngineUnity.HAPI_HandleBindingInfo[] handleBindingInfos, System.Int32 start, System.Int32 length)
     // Offset: 0x17D308C
-    bool GetHandleBindingInfo(int nodeID, int handleIndex, ByRef<::ArrayWrapper<HoudiniEngineUnity::HAPI_HandleBindingInfo>> handleBindingInfos, int start, int length);
+    bool GetHandleBindingInfo(int nodeID, int handleIndex, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_HandleBindingInfo>> handleBindingInfos, int start, int length);
     // public System.Boolean ConvertTransform(ref HoudiniEngineUnity.HAPI_TransformEuler inTransform, HoudiniEngineUnity.HAPI_RSTOrder RSTOrder, HoudiniEngineUnity.HAPI_XYZOrder ROTOrder, out HoudiniEngineUnity.HAPI_TransformEuler outTransform)
     // Offset: 0x17D3094
     bool ConvertTransform(ByRef<HoudiniEngineUnity::HAPI_TransformEuler> inTransform, HoudiniEngineUnity::HAPI_RSTOrder RSTOrder, HoudiniEngineUnity::HAPI_XYZOrder ROTOrder, ByRef<HoudiniEngineUnity::HAPI_TransformEuler> outTransform);
@@ -1322,7 +1329,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionBase::LoadAssetLibraryFromMemory
 // Il2CppName: LoadAssetLibraryFromMemory
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(::ArrayWrapper<uint8_t>, bool, ByRef<int>)>(&HoudiniEngineUnity::HEU_SessionBase::LoadAssetLibraryFromMemory)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(::ArrayW<uint8_t>, bool, ByRef<int>)>(&HoudiniEngineUnity::HEU_SessionBase::LoadAssetLibraryFromMemory)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* bAllowOverwrite = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -1442,7 +1449,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionBase::GetAvailableAssets
 // Il2CppName: GetAvailableAssets
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, ByRef<::ArrayWrapper<int>>, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetAvailableAssets)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, ByRef<::ArrayW<int>>, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetAvailableAssets)> {
   static const MethodInfo* get() {
     static auto* libraryID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* assetNames = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->this_arg;
@@ -1508,7 +1515,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionBase::GetComposedChildNodeList
 // Il2CppName: GetComposedChildNodeList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, ::ArrayWrapper<int>, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetComposedChildNodeList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, ::ArrayW<int>, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetComposedChildNodeList)> {
   static const MethodInfo* get() {
     static auto* parentNodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* childNodeIDs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
@@ -1581,7 +1588,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionBase::GetComposedObjectList
 // Il2CppName: GetComposedObjectList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, ByRef<::ArrayWrapper<HoudiniEngineUnity::HAPI_ObjectInfo>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetComposedObjectList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ObjectInfo>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetComposedObjectList)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* objectInfos = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_ObjectInfo"), 1)->this_arg;
@@ -1593,7 +1600,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionBase::GetComposedObjectTransforms
 // Il2CppName: GetComposedObjectTransforms
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, HoudiniEngineUnity::HAPI_RSTOrder, ByRef<::ArrayWrapper<HoudiniEngineUnity::HAPI_Transform>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetComposedObjectTransforms)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, HoudiniEngineUnity::HAPI_RSTOrder, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_Transform>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetComposedObjectTransforms)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* rstOrder = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_RSTOrder")->byval_arg;
@@ -1652,7 +1659,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionBase::GetAttributeNames
 // Il2CppName: GetAttributeNames
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, HoudiniEngineUnity::HAPI_AttributeOwner, ByRef<::ArrayWrapper<::Il2CppString*>>, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetAttributeNames)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, HoudiniEngineUnity::HAPI_AttributeOwner, ByRef<::ArrayW<::Il2CppString*>>, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetAttributeNames)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1665,7 +1672,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionBase::GetAttributeStringData
 // Il2CppName: GetAttributeStringData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, ::Il2CppString*, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>, ByRef<::ArrayWrapper<int>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetAttributeStringData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, ::Il2CppString*, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>, ByRef<::ArrayW<int>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetAttributeStringData)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1680,7 +1687,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionBase::GetAttributeFloatData
 // Il2CppName: GetAttributeFloatData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, ::Il2CppString*, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>, ByRef<::ArrayWrapper<float>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetAttributeFloatData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, ::Il2CppString*, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>, ByRef<::ArrayW<float>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetAttributeFloatData)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1695,7 +1702,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionBase::GetAttributeFloat64Data
 // Il2CppName: GetAttributeFloat64Data
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, ::Il2CppString*, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>, ByRef<::ArrayWrapper<double>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetAttributeFloat64Data)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, ::Il2CppString*, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>, ByRef<::ArrayW<double>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetAttributeFloat64Data)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1710,7 +1717,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionBase::GetAttributeIntData
 // Il2CppName: GetAttributeIntData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, ::Il2CppString*, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>, ByRef<::ArrayWrapper<int>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetAttributeIntData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, ::Il2CppString*, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>, ByRef<::ArrayW<int>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetAttributeIntData)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1725,7 +1732,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionBase::GetAttributeUInt8Data
 // Il2CppName: GetAttributeUInt8Data
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, ::Il2CppString*, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>, ByRef<::ArrayWrapper<uint8_t>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetAttributeUInt8Data)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, ::Il2CppString*, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>, ByRef<::ArrayW<uint8_t>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetAttributeUInt8Data)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1740,7 +1747,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionBase::GetAttributeInt8Data
 // Il2CppName: GetAttributeInt8Data
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, ::Il2CppString*, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>, ByRef<::ArrayWrapper<int8_t>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetAttributeInt8Data)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, ::Il2CppString*, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>, ByRef<::ArrayW<int8_t>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetAttributeInt8Data)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1755,7 +1762,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionBase::GetAttributeInt16Data
 // Il2CppName: GetAttributeInt16Data
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, ::Il2CppString*, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>, ByRef<::ArrayWrapper<int16_t>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetAttributeInt16Data)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, ::Il2CppString*, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>, ByRef<::ArrayW<int16_t>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetAttributeInt16Data)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1770,7 +1777,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionBase::GetAttributeInt64Data
 // Il2CppName: GetAttributeInt64Data
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, ::Il2CppString*, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>, ByRef<::ArrayWrapper<int64_t>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetAttributeInt64Data)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, ::Il2CppString*, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>, ByRef<::ArrayW<int64_t>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetAttributeInt64Data)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1785,7 +1792,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionBase::GetGroupNames
 // Il2CppName: GetGroupNames
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, HoudiniEngineUnity::HAPI_GroupType, ByRef<::ArrayWrapper<int>>, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetGroupNames)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, HoudiniEngineUnity::HAPI_GroupType, ByRef<::ArrayW<int>>, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetGroupNames)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* groupType = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_GroupType")->byval_arg;
@@ -1797,7 +1804,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionBase::GetGroupMembership
 // Il2CppName: GetGroupMembership
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, HoudiniEngineUnity::HAPI_GroupType, ::Il2CppString*, ByRef<bool>, ByRef<::ArrayWrapper<int>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetGroupMembership)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, HoudiniEngineUnity::HAPI_GroupType, ::Il2CppString*, ByRef<bool>, ByRef<::ArrayW<int>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetGroupMembership)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1825,7 +1832,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionBase::GetGroupNamesOnPackedInstancePart
 // Il2CppName: GetGroupNamesOnPackedInstancePart
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, HoudiniEngineUnity::HAPI_GroupType, ByRef<::ArrayWrapper<int>>, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetGroupNamesOnPackedInstancePart)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, HoudiniEngineUnity::HAPI_GroupType, ByRef<::ArrayW<int>>, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetGroupNamesOnPackedInstancePart)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1838,7 +1845,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionBase::GetGroupMembershipOnPackedInstancePart
 // Il2CppName: GetGroupMembershipOnPackedInstancePart
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, HoudiniEngineUnity::HAPI_GroupType, ::Il2CppString*, ByRef<bool>, ByRef<::ArrayWrapper<int>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetGroupMembershipOnPackedInstancePart)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, HoudiniEngineUnity::HAPI_GroupType, ::Il2CppString*, ByRef<bool>, ByRef<::ArrayW<int>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetGroupMembershipOnPackedInstancePart)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1854,7 +1861,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionBase::GetInstancedPartIds
 // Il2CppName: GetInstancedPartIds
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, ByRef<::ArrayWrapper<int>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetInstancedPartIds)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, ByRef<::ArrayW<int>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetInstancedPartIds)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1867,7 +1874,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionBase::GetInstancerPartTransforms
 // Il2CppName: GetInstancerPartTransforms
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, HoudiniEngineUnity::HAPI_RSTOrder, ByRef<::ArrayWrapper<HoudiniEngineUnity::HAPI_Transform>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetInstancerPartTransforms)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, HoudiniEngineUnity::HAPI_RSTOrder, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_Transform>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetInstancerPartTransforms)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1881,7 +1888,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionBase::GetInstanceTransformsOnPart
 // Il2CppName: GetInstanceTransformsOnPart
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, HoudiniEngineUnity::HAPI_RSTOrder, ByRef<::ArrayWrapper<HoudiniEngineUnity::HAPI_Transform>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetInstanceTransformsOnPart)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, HoudiniEngineUnity::HAPI_RSTOrder, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_Transform>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetInstanceTransformsOnPart)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1895,7 +1902,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionBase::GetInstancedObjectIds
 // Il2CppName: GetInstancedObjectIds
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, ByRef<::ArrayWrapper<int>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetInstancedObjectIds)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, ByRef<::ArrayW<int>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetInstancedObjectIds)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* instanced_node_id_array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->this_arg;
@@ -1907,7 +1914,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionBase::GetFaceCounts
 // Il2CppName: GetFaceCounts
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, ByRef<::ArrayWrapper<int>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetFaceCounts)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, ByRef<::ArrayW<int>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetFaceCounts)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1920,7 +1927,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionBase::GetFaceCounts
 // Il2CppName: GetFaceCounts
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, ByRef<::ArrayWrapper<int>>, int, int, bool)>(&HoudiniEngineUnity::HEU_SessionBase::GetFaceCounts)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, ByRef<::ArrayW<int>>, int, int, bool)>(&HoudiniEngineUnity::HEU_SessionBase::GetFaceCounts)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1934,7 +1941,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionBase::GetVertexList
 // Il2CppName: GetVertexList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, ByRef<::ArrayWrapper<int>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetVertexList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, ByRef<::ArrayW<int>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetVertexList)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1980,7 +1987,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionBase::GetCurveCounts
 // Il2CppName: GetCurveCounts
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, ByRef<::ArrayWrapper<int>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetCurveCounts)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, ByRef<::ArrayW<int>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetCurveCounts)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1993,7 +2000,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionBase::GetCurveOrders
 // Il2CppName: GetCurveOrders
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, ByRef<::ArrayWrapper<int>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetCurveOrders)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, ByRef<::ArrayW<int>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetCurveOrders)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2006,7 +2013,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionBase::GetCurveKnots
 // Il2CppName: GetCurveKnots
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, ByRef<::ArrayWrapper<float>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetCurveKnots)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, ByRef<::ArrayW<float>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetCurveKnots)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2030,7 +2037,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionBase::SetFaceCount
 // Il2CppName: SetFaceCount
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, ::ArrayWrapper<int>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::SetFaceCount)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, ::ArrayW<int>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::SetFaceCount)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2043,7 +2050,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionBase::SetVertexList
 // Il2CppName: SetVertexList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, ::ArrayWrapper<int>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::SetVertexList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, ::ArrayW<int>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::SetVertexList)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2056,7 +2063,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionBase::SetAttributeIntData
 // Il2CppName: SetAttributeIntData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, ::Il2CppString*, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>, ::ArrayWrapper<int>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::SetAttributeIntData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, ::Il2CppString*, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>, ::ArrayW<int>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::SetAttributeIntData)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2071,7 +2078,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionBase::SetAttributeInt8Data
 // Il2CppName: SetAttributeInt8Data
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, ::Il2CppString*, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>, ::ArrayWrapper<int8_t>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::SetAttributeInt8Data)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, ::Il2CppString*, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>, ::ArrayW<int8_t>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::SetAttributeInt8Data)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2086,7 +2093,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionBase::SetAttributeInt16Data
 // Il2CppName: SetAttributeInt16Data
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, ::Il2CppString*, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>, ::ArrayWrapper<int16_t>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::SetAttributeInt16Data)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, ::Il2CppString*, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>, ::ArrayW<int16_t>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::SetAttributeInt16Data)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2101,7 +2108,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionBase::SetAttributeInt64Data
 // Il2CppName: SetAttributeInt64Data
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, ::Il2CppString*, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>, ::ArrayWrapper<int64_t>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::SetAttributeInt64Data)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, ::Il2CppString*, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>, ::ArrayW<int64_t>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::SetAttributeInt64Data)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2116,7 +2123,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionBase::SetAttributeFloatData
 // Il2CppName: SetAttributeFloatData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, ::Il2CppString*, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>, ::ArrayWrapper<float>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::SetAttributeFloatData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, ::Il2CppString*, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>, ::ArrayW<float>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::SetAttributeFloatData)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2131,7 +2138,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionBase::SetAttributeStringData
 // Il2CppName: SetAttributeStringData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, ::Il2CppString*, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>, ::ArrayWrapper<::Il2CppString*>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::SetAttributeStringData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, ::Il2CppString*, ByRef<HoudiniEngineUnity::HAPI_AttributeInfo>, ::ArrayW<::Il2CppString*>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::SetAttributeStringData)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2182,7 +2189,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionBase::SetGroupMembership
 // Il2CppName: SetGroupMembership
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, HoudiniEngineUnity::HAPI_GroupType, ::Il2CppString*, ByRef<::ArrayWrapper<int>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::SetGroupMembership)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, HoudiniEngineUnity::HAPI_GroupType, ::Il2CppString*, ByRef<::ArrayW<int>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::SetGroupMembership)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2226,7 +2233,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionBase::SetCurveCounts
 // Il2CppName: SetCurveCounts
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, ::ArrayWrapper<int>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::SetCurveCounts)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, ::ArrayW<int>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::SetCurveCounts)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2239,7 +2246,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionBase::SetCurveOrders
 // Il2CppName: SetCurveOrders
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, ::ArrayWrapper<int>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::SetCurveOrders)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, ::ArrayW<int>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::SetCurveOrders)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2252,7 +2259,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionBase::SetCurveKnots
 // Il2CppName: SetCurveKnots
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, ::ArrayWrapper<float>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::SetCurveKnots)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, ::ArrayW<float>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::SetCurveKnots)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2276,7 +2283,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionBase::GetMaterialNodeIDsOnFaces
 // Il2CppName: GetMaterialNodeIDsOnFaces
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, ByRef<bool>, ByRef<::ArrayWrapper<int>>, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetMaterialNodeIDsOnFaces)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, ByRef<bool>, ByRef<::ArrayW<int>>, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetMaterialNodeIDsOnFaces)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2340,7 +2347,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionBase::ExtractImageToMemory
 // Il2CppName: ExtractImageToMemory
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, ::Il2CppString*, ::Il2CppString*, ByRef<::ArrayWrapper<uint8_t>>)>(&HoudiniEngineUnity::HEU_SessionBase::ExtractImageToMemory)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, ::Il2CppString*, ::Il2CppString*, ByRef<::ArrayW<uint8_t>>)>(&HoudiniEngineUnity::HEU_SessionBase::ExtractImageToMemory)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* fileFormat = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -2352,7 +2359,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionBase::GetImagePlanes
 // Il2CppName: GetImagePlanes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, ByRef<::ArrayWrapper<int>>, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetImagePlanes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, ByRef<::ArrayW<int>>, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetImagePlanes)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* imagePlanes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->this_arg;
@@ -2376,7 +2383,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionBase::GetParams
 // Il2CppName: GetParams
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, ByRef<::ArrayWrapper<HoudiniEngineUnity::HAPI_ParmInfo>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetParams)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ParmInfo>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetParams)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* parmInfos = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_ParmInfo"), 1)->this_arg;
@@ -2424,7 +2431,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionBase::GetParamIntValues
 // Il2CppName: GetParamIntValues
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, ByRef<::ArrayWrapper<int>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetParamIntValues)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, ByRef<::ArrayW<int>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetParamIntValues)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->this_arg;
@@ -2448,7 +2455,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionBase::GetParamFloatValues
 // Il2CppName: GetParamFloatValues
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, ByRef<::ArrayWrapper<float>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetParamFloatValues)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, ByRef<::ArrayW<float>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetParamFloatValues)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->this_arg;
@@ -2472,7 +2479,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionBase::GetParamStringValues
 // Il2CppName: GetParamStringValues
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, ByRef<::ArrayWrapper<int>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetParamStringValues)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, ByRef<::ArrayW<int>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetParamStringValues)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->this_arg;
@@ -2507,7 +2514,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionBase::GetParamChoiceValues
 // Il2CppName: GetParamChoiceValues
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, ByRef<::ArrayWrapper<HoudiniEngineUnity::HAPI_ParmChoiceInfo>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetParamChoiceValues)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_ParmChoiceInfo>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetParamChoiceValues)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_ParmChoiceInfo"), 1)->this_arg;
@@ -2519,7 +2526,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionBase::SetParamIntValues
 // Il2CppName: SetParamIntValues
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, ByRef<::ArrayWrapper<int>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::SetParamIntValues)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, ByRef<::ArrayW<int>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::SetParamIntValues)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->this_arg;
@@ -2543,7 +2550,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionBase::SetParamFloatValues
 // Il2CppName: SetParamFloatValues
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, ByRef<::ArrayWrapper<float>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::SetParamFloatValues)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, ByRef<::ArrayW<float>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::SetParamFloatValues)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->this_arg;
@@ -2722,7 +2729,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionBase::GetPreset
 // Il2CppName: GetPreset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, ByRef<::ArrayWrapper<uint8_t>>)>(&HoudiniEngineUnity::HEU_SessionBase::GetPreset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, ByRef<::ArrayW<uint8_t>>)>(&HoudiniEngineUnity::HEU_SessionBase::GetPreset)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* presetData = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->this_arg;
@@ -2732,7 +2739,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionBase::SetPreset
 // Il2CppName: SetPreset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, ::ArrayWrapper<uint8_t>)>(&HoudiniEngineUnity::HEU_SessionBase::SetPreset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, ::ArrayW<uint8_t>)>(&HoudiniEngineUnity::HEU_SessionBase::SetPreset)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* presetData = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -2753,7 +2760,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionBase::GetHeightFieldData
 // Il2CppName: GetHeightFieldData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, ::ArrayWrapper<float>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetHeightFieldData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, ::ArrayW<float>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetHeightFieldData)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2777,7 +2784,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionBase::SetVolumeTileFloatData
 // Il2CppName: SetVolumeTileFloatData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, ByRef<HoudiniEngineUnity::HAPI_VolumeTileInfo>, ::ArrayWrapper<float>, int)>(&HoudiniEngineUnity::HEU_SessionBase::SetVolumeTileFloatData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, ByRef<HoudiniEngineUnity::HAPI_VolumeTileInfo>, ::ArrayW<float>, int)>(&HoudiniEngineUnity::HEU_SessionBase::SetVolumeTileFloatData)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2809,7 +2816,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionBase::SetHeightFieldData
 // Il2CppName: SetHeightFieldData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, ::Il2CppString*, ::ArrayWrapper<float>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::SetHeightFieldData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, ::Il2CppString*, ::ArrayW<float>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::SetHeightFieldData)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* partID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2832,7 +2839,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionBase::GetActiveCacheNames
 // Il2CppName: GetActiveCacheNames
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(ByRef<::ArrayWrapper<int>>, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetActiveCacheNames)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(ByRef<::ArrayW<int>>, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetActiveCacheNames)> {
   static const MethodInfo* get() {
     static auto* cacheNamesArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->this_arg;
     static auto* activeCacheCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2918,7 +2925,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionBase::GetHandleInfo
 // Il2CppName: GetHandleInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, ByRef<::ArrayWrapper<HoudiniEngineUnity::HAPI_HandleInfo>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetHandleInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_HandleInfo>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetHandleInfo)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* handleInfos = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HAPI_HandleInfo"), 1)->this_arg;
@@ -2930,7 +2937,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_SessionBase::GetHandleBindingInfo
 // Il2CppName: GetHandleBindingInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, ByRef<::ArrayWrapper<HoudiniEngineUnity::HAPI_HandleBindingInfo>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetHandleBindingInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (HoudiniEngineUnity::HEU_SessionBase::*)(int, int, ByRef<::ArrayW<HoudiniEngineUnity::HAPI_HandleBindingInfo>>, int, int)>(&HoudiniEngineUnity::HEU_SessionBase::GetHandleBindingInfo)> {
   static const MethodInfo* get() {
     static auto* nodeID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* handleIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

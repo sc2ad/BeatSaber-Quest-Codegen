@@ -26,6 +26,11 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5B9C0
   class LocalDataStoreSlot : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.LocalDataStoreMgr m_mgr
     // Size: 0x8
     // Offset: 0x10
@@ -46,6 +51,7 @@ namespace System {
     int64_t m_cookie;
     // Field size check
     static_assert(sizeof(int64_t) == 0x8);
+    public:
     // Get instance field reference: private System.LocalDataStoreMgr m_mgr
     System::LocalDataStoreMgr*& dyn_m_mgr();
     // Get instance field reference: private System.Int32 m_slot

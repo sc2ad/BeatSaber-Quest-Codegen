@@ -42,6 +42,11 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     class Styles;
     // Nested type: UnityEngine::TestTools::TestRunner::Callbacks::TestResultRenderer::$$c
     class $$c;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Collections.Generic.List`1<NUnit.Framework.Interfaces.ITestResult> m_FailedTestCollection
     // Size: 0x8
     // Offset: 0x10
@@ -62,6 +67,7 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     UnityEngine::Vector2 m_ScrollPosition;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector2) == 0x8);
+    public:
     // static field const value: static private System.Int32 k_MaxStringLength
     static constexpr const int k_MaxStringLength = 15000;
     // Get static field: static private System.Int32 k_MaxStringLength

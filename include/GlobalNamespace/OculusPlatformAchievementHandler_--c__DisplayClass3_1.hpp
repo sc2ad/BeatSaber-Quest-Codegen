@@ -33,12 +33,18 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class OculusPlatformAchievementHandler::$$c__DisplayClass3_1 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public Oculus.Platform.Models.AchievementProgress achievement
     // Size: 0x8
     // Offset: 0x10
     Oculus::Platform::Models::AchievementProgress* achievement;
     // Field size check
     static_assert(sizeof(Oculus::Platform::Models::AchievementProgress*) == 0x8);
+    public:
     // Creating conversion operator: operator Oculus::Platform::Models::AchievementProgress*
     constexpr operator Oculus::Platform::Models::AchievementProgress*() const noexcept {
       return achievement;

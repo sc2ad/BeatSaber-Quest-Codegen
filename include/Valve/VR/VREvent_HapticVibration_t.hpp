@@ -17,6 +17,11 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct VREvent_HapticVibration_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.UInt64 containerHandle
     // Size: 0x8
     // Offset: 0x0
@@ -47,6 +52,7 @@ namespace Valve::VR {
     float fAmplitude;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: VREvent_HapticVibration_t
     constexpr VREvent_HapticVibration_t(uint64_t containerHandle_ = {}, uint64_t componentHandle_ = {}, float fDurationSeconds_ = {}, float fFrequency_ = {}, float fAmplitude_ = {}) noexcept : containerHandle{containerHandle_}, componentHandle{componentHandle_}, fDurationSeconds{fDurationSeconds_}, fFrequency{fFrequency_}, fAmplitude{fAmplitude_} {}
     // Creating interface conversion operator: operator System::ValueType

@@ -29,6 +29,11 @@ namespace RootMotion::FinalIK {
     public:
     // Writing base type padding for base size: 0x33 to desired offset: 0x38
     char ___base_padding[0x5] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Transform poseRoot
     // Size: 0x8
     // Offset: 0x38
@@ -62,6 +67,7 @@ namespace RootMotion::FinalIK {
     bool initiated;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: public UnityEngine.Transform poseRoot
     UnityEngine::Transform*& dyn_poseRoot();
     // Get instance field reference: public System.Single weight

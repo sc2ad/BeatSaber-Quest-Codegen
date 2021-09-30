@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: System.Text
 namespace System::Text {
@@ -18,6 +19,11 @@ namespace System::Text {
   // [TokenAttribute] Offset: FFFFFFFF
   class DecoderFallbackBuffer : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Byte* byteStart
     // Size: 0x8
     // Offset: 0x10
@@ -30,13 +36,14 @@ namespace System::Text {
     ::Il2CppChar* charEnd;
     // Field size check
     static_assert(sizeof(::Il2CppChar*) == 0x8);
+    public:
     // Get instance field reference: System.Byte* byteStart
     uint8_t*& dyn_byteStart();
     // Get instance field reference: System.Char* charEnd
     ::Il2CppChar*& dyn_charEnd();
     // public System.Boolean Fallback(System.Byte[] bytesUnknown, System.Int32 index)
     // Offset: 0xFFFFFFFF
-    bool Fallback(::ArrayWrapper<uint8_t> bytesUnknown, int index);
+    bool Fallback(::ArrayW<uint8_t> bytesUnknown, int index);
     // public System.Char GetNextChar()
     // Offset: 0xFFFFFFFF
     ::Il2CppChar GetNextChar();
@@ -51,13 +58,13 @@ namespace System::Text {
     void InternalInitialize(uint8_t* byteStart, ::Il2CppChar* charEnd);
     // System.Boolean InternalFallback(System.Byte[] bytes, System.Byte* pBytes, ref System.Char* chars)
     // Offset: 0x1DF8A90
-    bool InternalFallback(::ArrayWrapper<uint8_t> bytes, uint8_t* pBytes, ByRef<::Il2CppChar*> chars);
+    bool InternalFallback(::ArrayW<uint8_t> bytes, uint8_t* pBytes, ByRef<::Il2CppChar*> chars);
     // System.Int32 InternalFallback(System.Byte[] bytes, System.Byte* pBytes)
     // Offset: 0x1DF8C3C
-    int InternalFallback(::ArrayWrapper<uint8_t> bytes, uint8_t* pBytes);
+    int InternalFallback(::ArrayW<uint8_t> bytes, uint8_t* pBytes);
     // System.Void ThrowLastBytesRecursive(System.Byte[] bytesUnknown)
     // Offset: 0x1DF8DD0
-    void ThrowLastBytesRecursive(::ArrayWrapper<uint8_t> bytesUnknown);
+    void ThrowLastBytesRecursive(::ArrayW<uint8_t> bytesUnknown);
     // protected System.Void .ctor()
     // Offset: 0x1DF8844
     // Implemented from: System.Object
@@ -77,7 +84,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Text::DecoderFallbackBuffer*, "System.Text", "Dec
 // Writing MetadataGetter for method: System::Text::DecoderFallbackBuffer::Fallback
 // Il2CppName: Fallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Text::DecoderFallbackBuffer::*)(::ArrayWrapper<uint8_t>, int)>(&System::Text::DecoderFallbackBuffer::Fallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Text::DecoderFallbackBuffer::*)(::ArrayW<uint8_t>, int)>(&System::Text::DecoderFallbackBuffer::Fallback)> {
   static const MethodInfo* get() {
     static auto* bytesUnknown = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -121,7 +128,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Text::DecoderFallbackBuffer::InternalFallback
 // Il2CppName: InternalFallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Text::DecoderFallbackBuffer::*)(::ArrayWrapper<uint8_t>, uint8_t*, ByRef<::Il2CppChar*>)>(&System::Text::DecoderFallbackBuffer::InternalFallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Text::DecoderFallbackBuffer::*)(::ArrayW<uint8_t>, uint8_t*, ByRef<::Il2CppChar*>)>(&System::Text::DecoderFallbackBuffer::InternalFallback)> {
   static const MethodInfo* get() {
     static auto* bytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* pBytes = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Byte"))->byval_arg;
@@ -132,7 +139,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Text::DecoderFallbackBuffer::InternalFallback
 // Il2CppName: InternalFallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Text::DecoderFallbackBuffer::*)(::ArrayWrapper<uint8_t>, uint8_t*)>(&System::Text::DecoderFallbackBuffer::InternalFallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Text::DecoderFallbackBuffer::*)(::ArrayW<uint8_t>, uint8_t*)>(&System::Text::DecoderFallbackBuffer::InternalFallback)> {
   static const MethodInfo* get() {
     static auto* bytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* pBytes = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Byte"))->byval_arg;
@@ -142,7 +149,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Text::DecoderFallbackBuffer::ThrowLastBytesRecursive
 // Il2CppName: ThrowLastBytesRecursive
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::DecoderFallbackBuffer::*)(::ArrayWrapper<uint8_t>)>(&System::Text::DecoderFallbackBuffer::ThrowLastBytesRecursive)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Text::DecoderFallbackBuffer::*)(::ArrayW<uint8_t>)>(&System::Text::DecoderFallbackBuffer::ThrowLastBytesRecursive)> {
   static const MethodInfo* get() {
     static auto* bytesUnknown = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::DecoderFallbackBuffer*), "ThrowLastBytesRecursive", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bytesUnknown});

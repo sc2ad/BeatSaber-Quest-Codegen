@@ -27,12 +27,18 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class LaunchInvitePanelFlowResult : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly Oculus.Platform.Models.UserList InvitedUsers
     // Size: 0x8
     // Offset: 0x10
     Oculus::Platform::Models::UserList* InvitedUsers;
     // Field size check
     static_assert(sizeof(Oculus::Platform::Models::UserList*) == 0x8);
+    public:
     // Creating conversion operator: operator Oculus::Platform::Models::UserList*
     constexpr operator Oculus::Platform::Models::UserList*() const noexcept {
       return InvitedUsers;

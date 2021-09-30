@@ -51,6 +51,11 @@ namespace GlobalNamespace {
   // [ExecuteAlways] Offset: FFFFFFFF
   class BloomPrePassBackgroundTextureGradient : public GlobalNamespace::BloomPrePassNonLightPass {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Color _tintColor
     // Size: 0x10
     // Offset: 0x20
@@ -69,6 +74,7 @@ namespace GlobalNamespace {
     UnityEngine::Material* material;
     // Field size check
     static_assert(sizeof(UnityEngine::Material*) == 0x8);
+    public:
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEDE26C
     // Get static field: static private readonly System.Int32 _gradientTexID
     static int _get__gradientTexID();

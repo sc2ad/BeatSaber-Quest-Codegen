@@ -51,6 +51,11 @@ namespace UnityEngine::TestTools::Utils {
     class $ExMethod$d__10;
     // Nested type: UnityEngine::TestTools::Utils::CoroutineRunner::$StartTimer$d__11
     class $StartTimer$d__11;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean m_Running
     // Size: 0x1
     // Offset: 0x10
@@ -89,6 +94,7 @@ namespace UnityEngine::TestTools::Utils {
     System::Collections::IEnumerator* m_TestCoroutine;
     // Field size check
     static_assert(sizeof(System::Collections::IEnumerator*) == 0x8);
+    public:
     // Get instance field reference: private System.Boolean m_Running
     bool& dyn_m_Running();
     // Get instance field reference: private System.Boolean m_Timeout

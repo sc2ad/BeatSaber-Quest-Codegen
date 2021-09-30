@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: LiteNetLib::Utils
@@ -35,30 +36,36 @@ namespace LiteNetLib::Utils {
   // [TokenAttribute] Offset: FFFFFFFF
   class NtpPacket : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Byte[] <Bytes>k__BackingField
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<uint8_t> Bytes;
+    ::ArrayW<uint8_t> Bytes;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Nullable`1<System.DateTime> <DestinationTimestamp>k__BackingField
     // Size: 0xFFFFFFFF
     // Offset: 0x18
     System::Nullable_1<System::DateTime> DestinationTimestamp;
+    public:
     // Get static field: static private readonly System.DateTime Epoch
     static System::DateTime _get_Epoch();
     // Set static field: static private readonly System.DateTime Epoch
     static void _set_Epoch(System::DateTime value);
     // Get instance field reference: private System.Byte[] <Bytes>k__BackingField
-    ::ArrayWrapper<uint8_t>& dyn_$Bytes$k__BackingField();
+    ::ArrayW<uint8_t>& dyn_$Bytes$k__BackingField();
     // Get instance field reference: private System.Nullable`1<System.DateTime> <DestinationTimestamp>k__BackingField
     System::Nullable_1<System::DateTime>& dyn_$DestinationTimestamp$k__BackingField();
     // public System.Byte[] get_Bytes()
     // Offset: 0x26189A4
-    ::ArrayWrapper<uint8_t> get_Bytes();
+    ::ArrayW<uint8_t> get_Bytes();
     // private System.Void set_Bytes(System.Byte[] value)
     // Offset: 0x26189AC
-    void set_Bytes(::ArrayWrapper<uint8_t> value);
+    void set_Bytes(::ArrayW<uint8_t> value);
     // public LiteNetLib.Utils.NtpLeapIndicator get_LeapIndicator()
     // Offset: 0x26189B4
     LiteNetLib::Utils::NtpLeapIndicator get_LeapIndicator();
@@ -122,7 +129,7 @@ namespace LiteNetLib::Utils {
     // System.Void .ctor(System.Byte[] bytes)
     // Offset: 0x2619434
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static NtpPacket* New_ctor(::ArrayWrapper<uint8_t> bytes) {
+    static NtpPacket* New_ctor(::ArrayW<uint8_t> bytes) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NtpPacket::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<NtpPacket*, creationType>(bytes)));
     }
@@ -131,7 +138,7 @@ namespace LiteNetLib::Utils {
     static void _cctor();
     // static public LiteNetLib.Utils.NtpPacket FromServerResponse(System.Byte[] bytes, System.DateTime destinationTimestamp)
     // Offset: 0x26194EC
-    static LiteNetLib::Utils::NtpPacket* FromServerResponse(::ArrayWrapper<uint8_t> bytes, System::DateTime destinationTimestamp);
+    static LiteNetLib::Utils::NtpPacket* FromServerResponse(::ArrayW<uint8_t> bytes, System::DateTime destinationTimestamp);
     // System.Void ValidateRequest()
     // Offset: 0x261958C
     void ValidateRequest();
@@ -185,7 +192,7 @@ DEFINE_IL2CPP_ARG_TYPE(LiteNetLib::Utils::NtpPacket*, "LiteNetLib.Utils", "NtpPa
 // Writing MetadataGetter for method: LiteNetLib::Utils::NtpPacket::get_Bytes
 // Il2CppName: get_Bytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (LiteNetLib::Utils::NtpPacket::*)()>(&LiteNetLib::Utils::NtpPacket::get_Bytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (LiteNetLib::Utils::NtpPacket::*)()>(&LiteNetLib::Utils::NtpPacket::get_Bytes)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "get_Bytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -193,7 +200,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: LiteNetLib::Utils::NtpPacket::set_Bytes
 // Il2CppName: set_Bytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NtpPacket::*)(::ArrayWrapper<uint8_t>)>(&LiteNetLib::Utils::NtpPacket::set_Bytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NtpPacket::*)(::ArrayW<uint8_t>)>(&LiteNetLib::Utils::NtpPacket::set_Bytes)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NtpPacket*), "set_Bytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -378,7 +385,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: LiteNetLib::Utils::NtpPacket::FromServerResponse
 // Il2CppName: FromServerResponse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::Utils::NtpPacket* (*)(::ArrayWrapper<uint8_t>, System::DateTime)>(&LiteNetLib::Utils::NtpPacket::FromServerResponse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::Utils::NtpPacket* (*)(::ArrayW<uint8_t>, System::DateTime)>(&LiteNetLib::Utils::NtpPacket::FromServerResponse)> {
   static const MethodInfo* get() {
     static auto* bytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* destinationTimestamp = &::il2cpp_utils::GetClassFromName("System", "DateTime")->byval_arg;

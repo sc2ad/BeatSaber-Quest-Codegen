@@ -29,6 +29,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class NoteCutter::CuttableBySaberSortParams : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public CuttableBySaber cuttableBySaber
     // Size: 0x8
     // Offset: 0x10
@@ -47,6 +52,7 @@ namespace GlobalNamespace {
     UnityEngine::Vector3 pos;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    public:
     // Get instance field reference: public CuttableBySaber cuttableBySaber
     GlobalNamespace::CuttableBySaber*& dyn_cuttableBySaber();
     // Get instance field reference: public System.Single distance

@@ -29,6 +29,11 @@ namespace UnityEngine {
   // [UsedByNativeCodeAttribute] Offset: E71A64
   struct Color32/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [IgnoreAttribute] Offset: 0xE75C5C
     // Ignoring hidden field: private System.Int32 rgba
     // Offset: 0x0
@@ -56,6 +61,7 @@ namespace UnityEngine {
     uint8_t a;
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
+    public:
     // Creating value type constructor for type: Color32
     constexpr Color32(uint8_t r_ = {}, uint8_t g_ = {}, uint8_t b_ = {}, uint8_t a_ = {}) noexcept : r{r_}, g{g_}, b{b_}, a{a_} {}
     // Creating interface conversion operator: operator System::ValueType

@@ -39,6 +39,11 @@ namespace System::Resources {
   // [ComVisibleAttribute] Offset: E5D030
   class ResourceSet : public ::Il2CppObject/*, public System::IDisposable, public System::Collections::IEnumerable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // protected System.Resources.IResourceReader Reader
     // Size: 0x8
     // Offset: 0x10
@@ -57,6 +62,7 @@ namespace System::Resources {
     System::Collections::Hashtable* caseInsensitiveTable;
     // Field size check
     static_assert(sizeof(System::Collections::Hashtable*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

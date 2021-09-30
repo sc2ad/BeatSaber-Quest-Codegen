@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: System.Globalization
 namespace System::Globalization {
@@ -15,41 +16,41 @@ namespace System::Globalization {
   class TextInfoToLowerData : public ::Il2CppObject {
     public:
     // Get static field: static public readonly System.Char[] range_00c0_0556
-    static ::ArrayWrapper<::Il2CppChar> _get_range_00c0_0556();
+    static ::ArrayW<::Il2CppChar> _get_range_00c0_0556();
     // Set static field: static public readonly System.Char[] range_00c0_0556
-    static void _set_range_00c0_0556(::ArrayWrapper<::Il2CppChar> value);
+    static void _set_range_00c0_0556(::ArrayW<::Il2CppChar> value);
     // Get static field: static public readonly System.Char[] range_10a0_10c5
-    static ::ArrayWrapper<::Il2CppChar> _get_range_10a0_10c5();
+    static ::ArrayW<::Il2CppChar> _get_range_10a0_10c5();
     // Set static field: static public readonly System.Char[] range_10a0_10c5
-    static void _set_range_10a0_10c5(::ArrayWrapper<::Il2CppChar> value);
+    static void _set_range_10a0_10c5(::ArrayW<::Il2CppChar> value);
     // Get static field: static public readonly System.Char[] range_1e00_1ffc
-    static ::ArrayWrapper<::Il2CppChar> _get_range_1e00_1ffc();
+    static ::ArrayW<::Il2CppChar> _get_range_1e00_1ffc();
     // Set static field: static public readonly System.Char[] range_1e00_1ffc
-    static void _set_range_1e00_1ffc(::ArrayWrapper<::Il2CppChar> value);
+    static void _set_range_1e00_1ffc(::ArrayW<::Il2CppChar> value);
     // Get static field: static public readonly System.Char[] range_2160_216f
-    static ::ArrayWrapper<::Il2CppChar> _get_range_2160_216f();
+    static ::ArrayW<::Il2CppChar> _get_range_2160_216f();
     // Set static field: static public readonly System.Char[] range_2160_216f
-    static void _set_range_2160_216f(::ArrayWrapper<::Il2CppChar> value);
+    static void _set_range_2160_216f(::ArrayW<::Il2CppChar> value);
     // Get static field: static public readonly System.Char[] range_24b6_24cf
-    static ::ArrayWrapper<::Il2CppChar> _get_range_24b6_24cf();
+    static ::ArrayW<::Il2CppChar> _get_range_24b6_24cf();
     // Set static field: static public readonly System.Char[] range_24b6_24cf
-    static void _set_range_24b6_24cf(::ArrayWrapper<::Il2CppChar> value);
+    static void _set_range_24b6_24cf(::ArrayW<::Il2CppChar> value);
     // Get static field: static public readonly System.Char[] range_2c00_2c2e
-    static ::ArrayWrapper<::Il2CppChar> _get_range_2c00_2c2e();
+    static ::ArrayW<::Il2CppChar> _get_range_2c00_2c2e();
     // Set static field: static public readonly System.Char[] range_2c00_2c2e
-    static void _set_range_2c00_2c2e(::ArrayWrapper<::Il2CppChar> value);
+    static void _set_range_2c00_2c2e(::ArrayW<::Il2CppChar> value);
     // Get static field: static public readonly System.Char[] range_2c60_2ce2
-    static ::ArrayWrapper<::Il2CppChar> _get_range_2c60_2ce2();
+    static ::ArrayW<::Il2CppChar> _get_range_2c60_2ce2();
     // Set static field: static public readonly System.Char[] range_2c60_2ce2
-    static void _set_range_2c60_2ce2(::ArrayWrapper<::Il2CppChar> value);
+    static void _set_range_2c60_2ce2(::ArrayW<::Il2CppChar> value);
     // Get static field: static public readonly System.Char[] range_a640_a696
-    static ::ArrayWrapper<::Il2CppChar> _get_range_a640_a696();
+    static ::ArrayW<::Il2CppChar> _get_range_a640_a696();
     // Set static field: static public readonly System.Char[] range_a640_a696
-    static void _set_range_a640_a696(::ArrayWrapper<::Il2CppChar> value);
+    static void _set_range_a640_a696(::ArrayW<::Il2CppChar> value);
     // Get static field: static public readonly System.Char[] range_a722_a78b
-    static ::ArrayWrapper<::Il2CppChar> _get_range_a722_a78b();
+    static ::ArrayW<::Il2CppChar> _get_range_a722_a78b();
     // Set static field: static public readonly System.Char[] range_a722_a78b
-    static void _set_range_a722_a78b(::ArrayWrapper<::Il2CppChar> value);
+    static void _set_range_a722_a78b(::ArrayW<::Il2CppChar> value);
     // static private System.Void .cctor()
     // Offset: 0x1BDCC38
     static void _cctor();

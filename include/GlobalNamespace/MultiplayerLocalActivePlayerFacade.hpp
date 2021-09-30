@@ -17,6 +17,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -56,12 +57,17 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::MultiplayerLocalActivePlayerFacade::Factory
     class Factory;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.GameObject[] _activeOnlyGameObjects
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<UnityEngine::GameObject*> activeOnlyGameObjects;
+    ::ArrayW<UnityEngine::GameObject*> activeOnlyGameObjects;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::GameObject*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::GameObject*>) == 0x8);
     // private UnityEngine.GameObject _outroAnimator
     // Size: 0x8
     // Offset: 0x20
@@ -115,6 +121,7 @@ namespace GlobalNamespace {
     System::Action_1<GlobalNamespace::PlayerNetworkFailReason>* playerNetworkDidFailedEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::PlayerNetworkFailReason>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IMultiplayerLevelEndActionsPublisher
     operator GlobalNamespace::IMultiplayerLevelEndActionsPublisher() noexcept {
       return *reinterpret_cast<GlobalNamespace::IMultiplayerLevelEndActionsPublisher*>(this);
@@ -130,7 +137,7 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.GameObject[] _activeOnlyGameObjects
-    ::ArrayWrapper<UnityEngine::GameObject*>& dyn__activeOnlyGameObjects();
+    ::ArrayW<UnityEngine::GameObject*>& dyn__activeOnlyGameObjects();
     // Get instance field reference: private UnityEngine.GameObject _outroAnimator
     UnityEngine::GameObject*& dyn__outroAnimator();
     // Get instance field reference: private readonly IStartSeekSongController _songController
@@ -188,7 +195,7 @@ namespace GlobalNamespace {
     void __ForceStopSong();
     // public UnityEngine.GameObject[] __GetActiveOnlyGameObjects()
     // Offset: 0x117292C
-    ::ArrayWrapper<UnityEngine::GameObject*> __GetActiveOnlyGameObjects();
+    ::ArrayW<UnityEngine::GameObject*> __GetActiveOnlyGameObjects();
     // public System.Void .ctor()
     // Offset: 0x1172934
     // Implemented from: UnityEngine.MonoBehaviour
@@ -322,7 +329,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerLocalActivePlayerFacade::__GetActiveOnlyGameObjects
 // Il2CppName: __GetActiveOnlyGameObjects
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::GameObject*> (GlobalNamespace::MultiplayerLocalActivePlayerFacade::*)()>(&GlobalNamespace::MultiplayerLocalActivePlayerFacade::__GetActiveOnlyGameObjects)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::GameObject*> (GlobalNamespace::MultiplayerLocalActivePlayerFacade::*)()>(&GlobalNamespace::MultiplayerLocalActivePlayerFacade::__GetActiveOnlyGameObjects)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MultiplayerLocalActivePlayerFacade*), "__GetActiveOnlyGameObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

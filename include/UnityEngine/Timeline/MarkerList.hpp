@@ -54,6 +54,11 @@ namespace UnityEngine::Timeline {
   // [DefaultMemberAttribute] Offset: EB9278
   struct MarkerList/*, public System::ValueType, public UnityEngine::ISerializationCallbackReceiver*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.List`1<UnityEngine.ScriptableObject> m_Objects
     // Size: 0x8
     // Offset: 0x0
@@ -78,6 +83,7 @@ namespace UnityEngine::Timeline {
     bool m_HasNotifications;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating value type constructor for type: MarkerList
     constexpr MarkerList(System::Collections::Generic::List_1<UnityEngine::ScriptableObject*>* m_Objects_ = {}, System::Collections::Generic::List_1<UnityEngine::Timeline::IMarker*>* m_Cache_ = {}, bool m_CacheDirty_ = {}, bool m_HasNotifications_ = {}) noexcept : m_Objects{m_Objects_}, m_Cache{m_Cache_}, m_CacheDirty{m_CacheDirty_}, m_HasNotifications{m_HasNotifications_} {}
     // Creating interface conversion operator: operator System::ValueType

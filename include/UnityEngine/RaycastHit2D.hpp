@@ -29,6 +29,11 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E954DC
   struct RaycastHit2D/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [NativeNameAttribute] Offset: 0xE95B70
     // private UnityEngine.Vector2 m_Centroid
     // Size: 0x8
@@ -71,6 +76,7 @@ namespace UnityEngine {
     int m_Collider;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: RaycastHit2D
     constexpr RaycastHit2D(UnityEngine::Vector2 m_Centroid_ = {}, UnityEngine::Vector2 m_Point_ = {}, UnityEngine::Vector2 m_Normal_ = {}, float m_Distance_ = {}, float m_Fraction_ = {}, int m_Collider_ = {}) noexcept : m_Centroid{m_Centroid_}, m_Point{m_Point_}, m_Normal{m_Normal_}, m_Distance{m_Distance_}, m_Fraction{m_Fraction_}, m_Collider{m_Collider_} {}
     // Creating interface conversion operator: operator System::ValueType

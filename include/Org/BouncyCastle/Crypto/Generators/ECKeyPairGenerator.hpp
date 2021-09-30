@@ -56,6 +56,11 @@ namespace Org::BouncyCastle::Crypto::Generators {
   // [TokenAttribute] Offset: FFFFFFFF
   class ECKeyPairGenerator : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.String algorithm
     // Size: 0x8
     // Offset: 0x10
@@ -80,6 +85,7 @@ namespace Org::BouncyCastle::Crypto::Generators {
     Org::BouncyCastle::Security::SecureRandom* random;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Security::SecureRandom*) == 0x8);
+    public:
     // Get instance field reference: private readonly System.String algorithm
     ::Il2CppString*& dyn_algorithm();
     // Get instance field reference: private Org.BouncyCastle.Crypto.Parameters.ECDomainParameters parameters

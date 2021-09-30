@@ -33,6 +33,11 @@ namespace UnityEngine {
   // [VisibleToOtherModulesAttribute] Offset: FFFFFFFF
   class GUILayoutUtility::LayoutCache : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // UnityEngine.GUILayoutGroup topLevel
     // Size: 0x8
     // Offset: 0x10
@@ -51,6 +56,7 @@ namespace UnityEngine {
     UnityEngine::GUILayoutGroup* windows;
     // Field size check
     static_assert(sizeof(UnityEngine::GUILayoutGroup*) == 0x8);
+    public:
     // Get instance field reference: UnityEngine.GUILayoutGroup topLevel
     UnityEngine::GUILayoutGroup*& dyn_topLevel();
     // Get instance field reference: UnityEngineInternal.GenericStack layoutGroups

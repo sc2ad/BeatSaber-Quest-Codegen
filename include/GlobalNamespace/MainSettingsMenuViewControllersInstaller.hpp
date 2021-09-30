@@ -29,6 +29,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MainSettingsMenuViewControllersInstaller : public Zenject::MonoInstaller {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private MainSettingsMenuViewController _defaultSettingsMenuViewController
     // Size: 0x8
     // Offset: 0x20
@@ -59,6 +64,7 @@ namespace GlobalNamespace {
     GlobalNamespace::TabBarViewController* tabBarViewControllerPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::TabBarViewController*) == 0x8);
+    public:
     // Get instance field reference: private MainSettingsMenuViewController _defaultSettingsMenuViewController
     GlobalNamespace::MainSettingsMenuViewController*& dyn__defaultSettingsMenuViewController();
     // Get instance field reference: private MainSettingsMenuViewController _oculusPCSettingsMenuViewController

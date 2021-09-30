@@ -23,6 +23,11 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   // [TokenAttribute] Offset: FFFFFFFF
   class ParametersWithRandom : public ::Il2CppObject/*, public Org::BouncyCastle::Crypto::ICipherParameters*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Org.BouncyCastle.Crypto.ICipherParameters parameters
     // Size: 0x8
     // Offset: 0x10
@@ -35,6 +40,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     Org::BouncyCastle::Security::SecureRandom* random;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Security::SecureRandom*) == 0x8);
+    public:
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::ICipherParameters
     operator Org::BouncyCastle::Crypto::ICipherParameters() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::ICipherParameters*>(this);

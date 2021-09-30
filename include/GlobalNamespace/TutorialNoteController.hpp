@@ -48,6 +48,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::TutorialNoteController::Pool
     class Pool;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private BoxCuttableBySaber _cuttableBySaberCore
     // Size: 0x8
     // Offset: 0x78
@@ -86,6 +91,7 @@ namespace GlobalNamespace {
     float cutAngleTolerance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::ICubeNoteMirrorable
     operator GlobalNamespace::ICubeNoteMirrorable() noexcept {
       return *reinterpret_cast<GlobalNamespace::ICubeNoteMirrorable*>(this);

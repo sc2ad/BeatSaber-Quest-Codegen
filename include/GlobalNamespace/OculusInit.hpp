@@ -42,6 +42,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::OculusInit::$$c
     class $$c;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectOptionalAttribute] Offset: 0xEFFD8C
     // private OculusDeeplinkManager _oculusDeeplinkManager
     // Size: 0x8
@@ -56,6 +61,7 @@ namespace GlobalNamespace {
     GlobalNamespace::DlcPromoExperimentModel* dlcPromoExperimentModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::DlcPromoExperimentModel*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private OculusDeeplinkManager _oculusDeeplinkManager

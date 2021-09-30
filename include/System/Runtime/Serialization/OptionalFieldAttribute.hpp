@@ -22,12 +22,18 @@ namespace System::Runtime::Serialization {
   // [ComVisibleAttribute] Offset: E5F770
   class OptionalFieldAttribute : public System::Attribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 versionAdded
     // Size: 0x4
     // Offset: 0x10
     int versionAdded;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return versionAdded;

@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Xml
@@ -38,6 +39,11 @@ namespace System::Xml {
     class Item;
     // Nested type: System::Xml::XmlWellFormedWriter::AttributeValueCache::BufferChunk
     class BufferChunk;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Text.StringBuilder stringValue
     // Size: 0x8
     // Offset: 0x10
@@ -53,9 +59,9 @@ namespace System::Xml {
     // private System.Xml.XmlWellFormedWriter/System.Xml.AttributeValueCache/System.Xml.Item[] items
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<System::Xml::XmlWellFormedWriter::AttributeValueCache::Item*> items;
+    ::ArrayW<System::Xml::XmlWellFormedWriter::AttributeValueCache::Item*> items;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<System::Xml::XmlWellFormedWriter::AttributeValueCache::Item*>) == 0x8);
+    static_assert(sizeof(::ArrayW<System::Xml::XmlWellFormedWriter::AttributeValueCache::Item*>) == 0x8);
     // private System.Int32 firstItem
     // Size: 0x4
     // Offset: 0x28
@@ -68,12 +74,13 @@ namespace System::Xml {
     int lastItem;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: private System.Text.StringBuilder stringValue
     System::Text::StringBuilder*& dyn_stringValue();
     // Get instance field reference: private System.String singleStringValue
     ::Il2CppString*& dyn_singleStringValue();
     // Get instance field reference: private System.Xml.XmlWellFormedWriter/System.Xml.AttributeValueCache/System.Xml.Item[] items
-    ::ArrayWrapper<System::Xml::XmlWellFormedWriter::AttributeValueCache::Item*>& dyn_items();
+    ::ArrayW<System::Xml::XmlWellFormedWriter::AttributeValueCache::Item*>& dyn_items();
     // Get instance field reference: private System.Int32 firstItem
     int& dyn_firstItem();
     // Get instance field reference: private System.Int32 lastItem
@@ -98,10 +105,10 @@ namespace System::Xml {
     void WriteString(::Il2CppString* text);
     // System.Void WriteChars(System.Char[] buffer, System.Int32 index, System.Int32 count)
     // Offset: 0x25F5B08
-    void WriteChars(::ArrayWrapper<::Il2CppChar> buffer, int index, int count);
+    void WriteChars(::ArrayW<::Il2CppChar> buffer, int index, int count);
     // System.Void WriteRaw(System.Char[] buffer, System.Int32 index, System.Int32 count)
     // Offset: 0x25F5C04
-    void WriteRaw(::ArrayWrapper<::Il2CppChar> buffer, int index, int count);
+    void WriteRaw(::ArrayW<::Il2CppChar> buffer, int index, int count);
     // System.Void WriteRaw(System.String data)
     // Offset: 0x25F5CC0
     void WriteRaw(::Il2CppString* data);
@@ -196,7 +203,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::AttributeValueCache::WriteChars
 // Il2CppName: WriteChars
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::AttributeValueCache::*)(::ArrayWrapper<::Il2CppChar>, int, int)>(&System::Xml::XmlWellFormedWriter::AttributeValueCache::WriteChars)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::AttributeValueCache::*)(::ArrayW<::Il2CppChar>, int, int)>(&System::Xml::XmlWellFormedWriter::AttributeValueCache::WriteChars)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -207,7 +214,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlWellFormedWriter::AttributeValueCache::WriteRaw
 // Il2CppName: WriteRaw
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::AttributeValueCache::*)(::ArrayWrapper<::Il2CppChar>, int, int)>(&System::Xml::XmlWellFormedWriter::AttributeValueCache::WriteRaw)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlWellFormedWriter::AttributeValueCache::*)(::ArrayW<::Il2CppChar>, int, int)>(&System::Xml::XmlWellFormedWriter::AttributeValueCache::WriteRaw)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

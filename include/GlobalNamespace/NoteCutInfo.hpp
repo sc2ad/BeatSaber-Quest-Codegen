@@ -31,6 +31,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::NoteCutInfo::FailReason
     struct FailReason;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly System.Boolean speedOK
     // Size: 0x1
     // Offset: 0x0
@@ -115,6 +120,7 @@ namespace GlobalNamespace {
     GlobalNamespace::ISaberSwingRatingCounter* swingRatingCounter;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ISaberSwingRatingCounter*) == 0x8);
+    public:
     // Creating value type constructor for type: NoteCutInfo
     constexpr NoteCutInfo(bool speedOK_ = {}, bool directionOK_ = {}, bool saberTypeOK_ = {}, bool wasCutTooSoon_ = {}, float saberSpeed_ = {}, UnityEngine::Vector3 saberDir_ = {}, GlobalNamespace::SaberType saberType_ = {}, float timeDeviation_ = {}, float cutDirDeviation_ = {}, UnityEngine::Vector3 cutPoint_ = {}, UnityEngine::Vector3 cutNormal_ = {}, float cutAngle_ = {}, float cutDistanceToCenter_ = {}, GlobalNamespace::ISaberSwingRatingCounter* swingRatingCounter_ = {}) noexcept : speedOK{speedOK_}, directionOK{directionOK_}, saberTypeOK{saberTypeOK_}, wasCutTooSoon{wasCutTooSoon_}, saberSpeed{saberSpeed_}, saberDir{saberDir_}, saberType{saberType_}, timeDeviation{timeDeviation_}, cutDirDeviation{cutDirDeviation_}, cutPoint{cutPoint_}, cutNormal{cutNormal_}, cutAngle{cutAngle_}, cutDistanceToCenter{cutDistanceToCenter_}, swingRatingCounter{swingRatingCounter_} {}
     // Creating interface conversion operator: operator System::ValueType

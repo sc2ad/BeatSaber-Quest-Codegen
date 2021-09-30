@@ -43,6 +43,11 @@ namespace System::IO {
   // [ComVisibleAttribute] Offset: E5E24C
   class FileSystemInfo : public System::MarshalByRefObject/*, public System::Runtime::Serialization::ISerializable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.IO.MonoIOStat _data
     // Size: 0x28
     // Offset: 0x18
@@ -75,6 +80,7 @@ namespace System::IO {
     ::Il2CppString* displayPath;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Runtime::Serialization::ISerializable
     operator System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);

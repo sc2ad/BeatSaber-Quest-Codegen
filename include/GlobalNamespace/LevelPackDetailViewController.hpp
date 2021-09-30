@@ -69,6 +69,11 @@ namespace GlobalNamespace {
     struct $RefreshAvailabilityAsync$d__19;
     // Nested type: GlobalNamespace::LevelPackDetailViewController::$OpenLevelPackProductStoreAsync$d__21
     struct $OpenLevelPackProductStoreAsync$d__21;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.GameObject _detailWrapper
     // Size: 0x8
     // Offset: 0x70
@@ -157,6 +162,7 @@ namespace GlobalNamespace {
     UnityEngine::Sprite* blurredPackArtwork;
     // Field size check
     static_assert(sizeof(UnityEngine::Sprite*) == 0x8);
+    public:
     // Get instance field reference: private UnityEngine.GameObject _detailWrapper
     UnityEngine::GameObject*& dyn__detailWrapper();
     // Get instance field reference: private HMUI.ImageView _packImage

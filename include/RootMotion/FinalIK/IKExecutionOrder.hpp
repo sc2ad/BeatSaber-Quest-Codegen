@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: RootMotion::FinalIK
@@ -32,13 +33,18 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class IKExecutionOrder : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [TooltipAttribute] Offset: 0xEF278C
     // public RootMotion.FinalIK.IK[] IKComponents
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<RootMotion::FinalIK::IK*> IKComponents;
+    ::ArrayW<RootMotion::FinalIK::IK*> IKComponents;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::IK*>) == 0x8);
+    static_assert(sizeof(::ArrayW<RootMotion::FinalIK::IK*>) == 0x8);
     // [TooltipAttribute] Offset: 0xEF27C4
     // public UnityEngine.Animator animator
     // Size: 0x8
@@ -52,10 +58,11 @@ namespace RootMotion::FinalIK {
     bool fixedFrame;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public RootMotion.FinalIK.IK[] IKComponents
-    ::ArrayWrapper<RootMotion::FinalIK::IK*>& dyn_IKComponents();
+    ::ArrayW<RootMotion::FinalIK::IK*>& dyn_IKComponents();
     // Get instance field reference: public UnityEngine.Animator animator
     UnityEngine::Animator*& dyn_animator();
     // Get instance field reference: private System.Boolean fixedFrame

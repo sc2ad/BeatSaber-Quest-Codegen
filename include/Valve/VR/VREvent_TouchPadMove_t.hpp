@@ -16,6 +16,11 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct VREvent_TouchPadMove_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Boolean bFingerDown
     // Size: 0x1
     // Offset: 0x0
@@ -54,6 +59,7 @@ namespace Valve::VR {
     float fValueYRaw;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: VREvent_TouchPadMove_t
     constexpr VREvent_TouchPadMove_t(bool bFingerDown_ = {}, float flSecondsFingerDown_ = {}, float fValueXFirst_ = {}, float fValueYFirst_ = {}, float fValueXRaw_ = {}, float fValueYRaw_ = {}) noexcept : bFingerDown{bFingerDown_}, flSecondsFingerDown{flSecondsFingerDown_}, fValueXFirst{fValueXFirst_}, fValueYFirst{fValueYFirst_}, fValueXRaw{fValueXRaw_}, fValueYRaw{fValueYRaw_} {}
     // Creating interface conversion operator: operator System::ValueType

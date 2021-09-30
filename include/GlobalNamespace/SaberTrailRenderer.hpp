@@ -17,6 +17,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -42,6 +43,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SaberTrailRenderer : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.MeshRenderer _meshRenderer
     // Size: 0x8
     // Offset: 0x18
@@ -63,27 +69,27 @@ namespace GlobalNamespace {
     // private UnityEngine.Vector3[] _vertices
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<UnityEngine::Vector3> vertices;
+    ::ArrayW<UnityEngine::Vector3> vertices;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector3>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Vector3>) == 0x8);
     // private System.Int32[] _indices
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayWrapper<int> indices;
+    ::ArrayW<int> indices;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // private UnityEngine.Vector2[] _uvs
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayWrapper<UnityEngine::Vector2> uvs;
+    ::ArrayW<UnityEngine::Vector2> uvs;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector2>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Vector2>) == 0x8);
     // private UnityEngine.Color[] _colors
     // Size: 0x8
     // Offset: 0x48
-    ::ArrayWrapper<UnityEngine::Color> colors;
+    ::ArrayW<UnityEngine::Color> colors;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Color>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Color>) == 0x8);
     // private System.Single _trailWidth
     // Size: 0x4
     // Offset: 0x50
@@ -114,6 +120,7 @@ namespace GlobalNamespace {
     float whiteSectionMaxDuration;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF061E8
@@ -140,13 +147,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Mesh _mesh
     UnityEngine::Mesh*& dyn__mesh();
     // Get instance field reference: private UnityEngine.Vector3[] _vertices
-    ::ArrayWrapper<UnityEngine::Vector3>& dyn__vertices();
+    ::ArrayW<UnityEngine::Vector3>& dyn__vertices();
     // Get instance field reference: private System.Int32[] _indices
-    ::ArrayWrapper<int>& dyn__indices();
+    ::ArrayW<int>& dyn__indices();
     // Get instance field reference: private UnityEngine.Vector2[] _uvs
-    ::ArrayWrapper<UnityEngine::Vector2>& dyn__uvs();
+    ::ArrayW<UnityEngine::Vector2>& dyn__uvs();
     // Get instance field reference: private UnityEngine.Color[] _colors
-    ::ArrayWrapper<UnityEngine::Color>& dyn__colors();
+    ::ArrayW<UnityEngine::Color>& dyn__colors();
     // Get instance field reference: private System.Single _trailWidth
     float& dyn__trailWidth();
     // Get instance field reference: private System.Single _trailDuration

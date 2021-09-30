@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework::Interfaces
@@ -48,6 +49,11 @@ namespace UnityEngine::TestTools::NUnitExtensions {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class UnityTestAssemblyBuilder::$BuildAsync$d__3 : public ::Il2CppObject/*, public System::Collections::Generic::IEnumerator_1<NUnit::Framework::Interfaces::ITest*>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -71,15 +77,15 @@ namespace UnityEngine::TestTools::NUnitExtensions {
     // public System.Reflection.Assembly[] assemblies
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<System::Reflection::Assembly*> assemblies;
+    ::ArrayW<System::Reflection::Assembly*> assemblies;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<System::Reflection::Assembly*>) == 0x8);
+    static_assert(sizeof(::ArrayW<System::Reflection::Assembly*>) == 0x8);
     // public UnityEngine.TestTools.TestPlatform[] testPlatforms
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<UnityEngine::TestTools::TestPlatform> testPlatforms;
+    ::ArrayW<UnityEngine::TestTools::TestPlatform> testPlatforms;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::TestTools::TestPlatform>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::TestTools::TestPlatform>) == 0x8);
     // public System.Collections.Generic.IDictionary`2<System.String,System.Object> options
     // Size: 0x8
     // Offset: 0x38
@@ -98,6 +104,7 @@ namespace UnityEngine::TestTools::NUnitExtensions {
     int $index$5__3;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<NUnit::Framework::Interfaces::ITest*>
     operator System::Collections::Generic::IEnumerator_1<NUnit::Framework::Interfaces::ITest*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<NUnit::Framework::Interfaces::ITest*>*>(this);
@@ -109,9 +116,9 @@ namespace UnityEngine::TestTools::NUnitExtensions {
     // Get instance field reference: public UnityEngine.TestTools.NUnitExtensions.UnityTestAssemblyBuilder <>4__this
     UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder*& dyn_$$4__this();
     // Get instance field reference: public System.Reflection.Assembly[] assemblies
-    ::ArrayWrapper<System::Reflection::Assembly*>& dyn_assemblies();
+    ::ArrayW<System::Reflection::Assembly*>& dyn_assemblies();
     // Get instance field reference: public UnityEngine.TestTools.TestPlatform[] testPlatforms
-    ::ArrayWrapper<UnityEngine::TestTools::TestPlatform>& dyn_testPlatforms();
+    ::ArrayW<UnityEngine::TestTools::TestPlatform>& dyn_testPlatforms();
     // Get instance field reference: public System.Collections.Generic.IDictionary`2<System.String,System.Object> options
     System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>*& dyn_options();
     // Get instance field reference: private NUnit.Framework.Internal.TestSuite <suite>5__2

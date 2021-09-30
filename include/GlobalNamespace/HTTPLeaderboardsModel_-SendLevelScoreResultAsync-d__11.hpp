@@ -32,6 +32,11 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   struct HTTPLeaderboardsModel::$SendLevelScoreResultAsync$d__11/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0
@@ -70,6 +75,7 @@ namespace GlobalNamespace {
     // Size: 0xFFFFFFFF
     // Offset: 0x68
     System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::API::Response> $$u__1;
+    public:
     // Creating value type constructor for type: $SendLevelScoreResultAsync$d__11
     constexpr $SendLevelScoreResultAsync$d__11(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<OnlineServices::SendLeaderboardEntryResult> $$t__builder_ = {}, GlobalNamespace::HTTPLeaderboardsModel* $$4__this_ = {}, OnlineServices::LevelScoreResultsData levelResultsData_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, ::Il2CppString* $leaderboardId$5__2_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::API::Response> $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, levelResultsData{levelResultsData_}, cancellationToken{cancellationToken_}, $leaderboardId$5__2{$leaderboardId$5__2_}, $$u__1{$$u__1_} {}
     // Creating interface conversion operator: operator System::ValueType

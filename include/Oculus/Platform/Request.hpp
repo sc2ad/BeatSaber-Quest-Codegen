@@ -20,6 +20,11 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class Request : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Oculus.Platform.Message/Oculus.Platform.Callback callback_
     // Size: 0x8
     // Offset: 0x10
@@ -32,6 +37,7 @@ namespace Oculus::Platform {
     uint64_t RequestID;
     // Field size check
     static_assert(sizeof(uint64_t) == 0x8);
+    public:
     // Get instance field reference: private Oculus.Platform.Message/Oculus.Platform.Callback callback_
     Oculus::Platform::Message::Callback*& dyn_callback_();
     // Get instance field reference: private System.UInt64 <RequestID>k__BackingField

@@ -39,6 +39,11 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5CCEC
   class OperatingSystem : public ::Il2CppObject/*, public System::ICloneable, public System::Runtime::Serialization::ISerializable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.PlatformID _platform
     // Size: 0x4
     // Offset: 0x10
@@ -59,6 +64,7 @@ namespace System {
     ::Il2CppString* servicePack;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);

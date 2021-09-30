@@ -25,6 +25,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct OVRPlugin::CameraIntrinsics/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public OVRPlugin/Bool IsValid
     // Size: 0x4
     // Offset: 0x0
@@ -63,6 +68,7 @@ namespace GlobalNamespace {
     GlobalNamespace::OVRPlugin::Sizei ImageSensorPixelResolution;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OVRPlugin::Sizei) == 0x8);
+    public:
     // Creating value type constructor for type: CameraIntrinsics
     constexpr CameraIntrinsics(GlobalNamespace::OVRPlugin::Bool IsValid_ = {}, double LastChangedTimeSeconds_ = {}, GlobalNamespace::OVRPlugin::Fovf FOVPort_ = {}, float VirtualNearPlaneDistanceMeters_ = {}, float VirtualFarPlaneDistanceMeters_ = {}, GlobalNamespace::OVRPlugin::Sizei ImageSensorPixelResolution_ = {}) noexcept : IsValid{IsValid_}, LastChangedTimeSeconds{LastChangedTimeSeconds_}, FOVPort{FOVPort_}, VirtualNearPlaneDistanceMeters{VirtualNearPlaneDistanceMeters_}, VirtualFarPlaneDistanceMeters{VirtualFarPlaneDistanceMeters_}, ImageSensorPixelResolution{ImageSensorPixelResolution_} {}
     // Creating interface conversion operator: operator System::ValueType

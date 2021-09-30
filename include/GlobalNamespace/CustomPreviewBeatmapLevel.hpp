@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -57,6 +58,11 @@ namespace GlobalNamespace {
     struct $GetPreviewAudioClipAsync$d__60;
     // Nested type: GlobalNamespace::CustomPreviewBeatmapLevel::$GetCoverImageAsync$d__61
     struct $GetCoverImageAsync$d__61;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private StandardLevelInfoSaveData _standardLevelInfoSaveData
     // Size: 0x8
     // Offset: 0x10
@@ -190,9 +196,10 @@ namespace GlobalNamespace {
     // private PreviewDifficultyBeatmapSet[] _previewDifficultyBeatmapSets
     // Size: 0x8
     // Offset: 0xA0
-    ::ArrayWrapper<GlobalNamespace::PreviewDifficultyBeatmapSet*> previewDifficultyBeatmapSets;
+    ::ArrayW<GlobalNamespace::PreviewDifficultyBeatmapSet*> previewDifficultyBeatmapSets;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::PreviewDifficultyBeatmapSet*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::PreviewDifficultyBeatmapSet*>) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IPreviewBeatmapLevel
     operator GlobalNamespace::IPreviewBeatmapLevel() noexcept {
       return *reinterpret_cast<GlobalNamespace::IPreviewBeatmapLevel*>(this);
@@ -240,7 +247,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private EnvironmentInfoSO _allDirectionsEnvironmentInfo
     GlobalNamespace::EnvironmentInfoSO*& dyn__allDirectionsEnvironmentInfo();
     // Get instance field reference: private PreviewDifficultyBeatmapSet[] _previewDifficultyBeatmapSets
-    ::ArrayWrapper<GlobalNamespace::PreviewDifficultyBeatmapSet*>& dyn__previewDifficultyBeatmapSets();
+    ::ArrayW<GlobalNamespace::PreviewDifficultyBeatmapSet*>& dyn__previewDifficultyBeatmapSets();
     // public IAudioClipAsyncLoader get_audioClipAsyncLoader()
     // Offset: 0x11A19E4
     GlobalNamespace::IAudioClipAsyncLoader* get_audioClipAsyncLoader();
@@ -300,11 +307,11 @@ namespace GlobalNamespace {
     GlobalNamespace::EnvironmentInfoSO* get_allDirectionsEnvironmentInfo();
     // public PreviewDifficultyBeatmapSet[] get_previewDifficultyBeatmapSets()
     // Offset: 0x11A1CC4
-    ::ArrayWrapper<GlobalNamespace::PreviewDifficultyBeatmapSet*> get_previewDifficultyBeatmapSets();
+    ::ArrayW<GlobalNamespace::PreviewDifficultyBeatmapSet*> get_previewDifficultyBeatmapSets();
     // public System.Void .ctor(UnityEngine.Sprite defaultCoverImage, StandardLevelInfoSaveData standardLevelInfoSaveData, System.String customLevelPath, IAudioClipAsyncLoader audioClipAsyncLoader, ISpriteAsyncLoader spriteAsyncLoader, System.String levelID, System.String songName, System.String songSubName, System.String songAuthorName, System.String levelAuthorName, System.Single beatsPerMinute, System.Single songTimeOffset, System.Single shuffle, System.Single shufflePeriod, System.Single previewStartTime, System.Single previewDuration, EnvironmentInfoSO environmentInfo, EnvironmentInfoSO allDirectionsEnvironmentInfo, PreviewDifficultyBeatmapSet[] previewDifficultyBeatmapSets)
     // Offset: 0x11A16B0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static CustomPreviewBeatmapLevel* New_ctor(UnityEngine::Sprite* defaultCoverImage, GlobalNamespace::StandardLevelInfoSaveData* standardLevelInfoSaveData, ::Il2CppString* customLevelPath, GlobalNamespace::IAudioClipAsyncLoader* audioClipAsyncLoader, GlobalNamespace::ISpriteAsyncLoader* spriteAsyncLoader, ::Il2CppString* levelID, ::Il2CppString* songName, ::Il2CppString* songSubName, ::Il2CppString* songAuthorName, ::Il2CppString* levelAuthorName, float beatsPerMinute, float songTimeOffset, float shuffle, float shufflePeriod, float previewStartTime, float previewDuration, GlobalNamespace::EnvironmentInfoSO* environmentInfo, GlobalNamespace::EnvironmentInfoSO* allDirectionsEnvironmentInfo, ::ArrayWrapper<GlobalNamespace::PreviewDifficultyBeatmapSet*> previewDifficultyBeatmapSets) {
+    static CustomPreviewBeatmapLevel* New_ctor(UnityEngine::Sprite* defaultCoverImage, GlobalNamespace::StandardLevelInfoSaveData* standardLevelInfoSaveData, ::Il2CppString* customLevelPath, GlobalNamespace::IAudioClipAsyncLoader* audioClipAsyncLoader, GlobalNamespace::ISpriteAsyncLoader* spriteAsyncLoader, ::Il2CppString* levelID, ::Il2CppString* songName, ::Il2CppString* songSubName, ::Il2CppString* songAuthorName, ::Il2CppString* levelAuthorName, float beatsPerMinute, float songTimeOffset, float shuffle, float shufflePeriod, float previewStartTime, float previewDuration, GlobalNamespace::EnvironmentInfoSO* environmentInfo, GlobalNamespace::EnvironmentInfoSO* allDirectionsEnvironmentInfo, ::ArrayW<GlobalNamespace::PreviewDifficultyBeatmapSet*> previewDifficultyBeatmapSets) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::CustomPreviewBeatmapLevel::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CustomPreviewBeatmapLevel*, creationType>(defaultCoverImage, standardLevelInfoSaveData, customLevelPath, audioClipAsyncLoader, spriteAsyncLoader, levelID, songName, songSubName, songAuthorName, levelAuthorName, beatsPerMinute, songTimeOffset, shuffle, shufflePeriod, previewStartTime, previewDuration, environmentInfo, allDirectionsEnvironmentInfo, previewDifficultyBeatmapSets)));
     }
@@ -316,7 +323,7 @@ namespace GlobalNamespace {
     System::Threading::Tasks::Task_1<UnityEngine::Sprite*>* GetCoverImageAsync(System::Threading::CancellationToken cancellationToken);
   }; // CustomPreviewBeatmapLevel
   #pragma pack(pop)
-  static check_size<sizeof(CustomPreviewBeatmapLevel), 160 + sizeof(::ArrayWrapper<GlobalNamespace::PreviewDifficultyBeatmapSet*>)> __GlobalNamespace_CustomPreviewBeatmapLevelSizeCheck;
+  static check_size<sizeof(CustomPreviewBeatmapLevel), 160 + sizeof(::ArrayW<GlobalNamespace::PreviewDifficultyBeatmapSet*>)> __GlobalNamespace_CustomPreviewBeatmapLevelSizeCheck;
   static_assert(sizeof(CustomPreviewBeatmapLevel) == 0xA8);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CustomPreviewBeatmapLevel*, "", "CustomPreviewBeatmapLevel");
@@ -476,7 +483,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::CustomPreviewBeatmapLevel::get_previewDifficultyBeatmapSets
 // Il2CppName: get_previewDifficultyBeatmapSets
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::PreviewDifficultyBeatmapSet*> (GlobalNamespace::CustomPreviewBeatmapLevel::*)()>(&GlobalNamespace::CustomPreviewBeatmapLevel::get_previewDifficultyBeatmapSets)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<GlobalNamespace::PreviewDifficultyBeatmapSet*> (GlobalNamespace::CustomPreviewBeatmapLevel::*)()>(&GlobalNamespace::CustomPreviewBeatmapLevel::get_previewDifficultyBeatmapSets)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CustomPreviewBeatmapLevel*), "get_previewDifficultyBeatmapSets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

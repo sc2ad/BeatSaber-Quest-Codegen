@@ -34,6 +34,11 @@ namespace System::Xml {
     public:
     // Writing base type padding for base size: 0xB1 to desired offset: 0xB4
     char ___base_padding[0x3] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 indentLevel
     // Size: 0x4
     // Offset: 0xB4
@@ -60,6 +65,7 @@ namespace System::Xml {
     bool newLineOnAttributes;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private System.Int32 indentLevel
     int& dyn_indentLevel();
     // Get instance field reference: private System.Int32 endBlockPos

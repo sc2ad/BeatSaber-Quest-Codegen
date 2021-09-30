@@ -53,6 +53,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::MissionLevelDetailViewController::$$c__DisplayClass14_0
     class $$c__DisplayClass14_0;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private GameplayModifiersModelSO _gameplayModifiersModel
     // Size: 0x8
     // Offset: 0x70
@@ -102,6 +107,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MissionNode* missionNode;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionNode*) == 0x8);
+    public:
     // Get instance field reference: private GameplayModifiersModelSO _gameplayModifiersModel
     GlobalNamespace::GameplayModifiersModelSO*& dyn__gameplayModifiersModel();
     // Get instance field reference: private UnityEngine.UI.Button _playButton

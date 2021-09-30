@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -43,6 +44,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BombCutSoundEffectManager : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Single _volume
     // Size: 0x4
     // Offset: 0x18
@@ -54,9 +60,9 @@ namespace GlobalNamespace {
     // private UnityEngine.AudioClip[] _bombExplosionAudioClips
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<UnityEngine::AudioClip*> bombExplosionAudioClips;
+    ::ArrayW<UnityEngine::AudioClip*> bombExplosionAudioClips;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::AudioClip*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::AudioClip*>) == 0x8);
     // [InjectAttribute] Offset: 0xF0025C
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
@@ -84,12 +90,13 @@ namespace GlobalNamespace {
     GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>* randomSoundPicker;
     // Field size check
     static_assert(sizeof(GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single _volume
     float& dyn__volume();
     // Get instance field reference: private UnityEngine.AudioClip[] _bombExplosionAudioClips
-    ::ArrayWrapper<UnityEngine::AudioClip*>& dyn__bombExplosionAudioClips();
+    ::ArrayW<UnityEngine::AudioClip*>& dyn__bombExplosionAudioClips();
     // Get instance field reference: private readonly BeatmapObjectManager _beatmapObjectManager
     GlobalNamespace::BeatmapObjectManager*& dyn__beatmapObjectManager();
     // Get instance field reference: private readonly SaberManager saberManager

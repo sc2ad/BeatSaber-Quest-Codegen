@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO
@@ -34,6 +35,11 @@ namespace Org::BouncyCastle::Asn1 {
   // [TokenAttribute] Offset: FFFFFFFF
   class Asn1StreamParser : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.IO.Stream _in
     // Size: 0x8
     // Offset: 0x10
@@ -51,15 +57,16 @@ namespace Org::BouncyCastle::Asn1 {
     // private readonly System.Byte[][] tmpBuffers
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<::ArrayWrapper<uint8_t>> tmpBuffers;
+    ::ArrayW<::ArrayW<uint8_t>> tmpBuffers;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::ArrayWrapper<uint8_t>>) == 0x8);
+    static_assert(sizeof(::ArrayW<::ArrayW<uint8_t>>) == 0x8);
+    public:
     // Get instance field reference: private readonly System.IO.Stream _in
     System::IO::Stream*& dyn__in();
     // Get instance field reference: private readonly System.Int32 _limit
     int& dyn__limit();
     // Get instance field reference: private readonly System.Byte[][] tmpBuffers
-    ::ArrayWrapper<::ArrayWrapper<uint8_t>>& dyn_tmpBuffers();
+    ::ArrayW<::ArrayW<uint8_t>>& dyn_tmpBuffers();
     // public System.Void .ctor(System.IO.Stream inStream)
     // Offset: 0x18DF78C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -91,7 +98,7 @@ namespace Org::BouncyCastle::Asn1 {
     Org::BouncyCastle::Asn1::Asn1EncodableVector* ReadVector();
   }; // Org.BouncyCastle.Asn1.Asn1StreamParser
   #pragma pack(pop)
-  static check_size<sizeof(Asn1StreamParser), 32 + sizeof(::ArrayWrapper<::ArrayWrapper<uint8_t>>)> __Org_BouncyCastle_Asn1_Asn1StreamParserSizeCheck;
+  static check_size<sizeof(Asn1StreamParser), 32 + sizeof(::ArrayW<::ArrayW<uint8_t>>)> __Org_BouncyCastle_Asn1_Asn1StreamParserSizeCheck;
   static_assert(sizeof(Asn1StreamParser) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Asn1StreamParser*, "Org.BouncyCastle.Asn1", "Asn1StreamParser");

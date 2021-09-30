@@ -31,12 +31,18 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::LevelMissionParser::ParserFunction
     class ParserFunction;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.Dictionary`2<System.String,LevelMissionParser/ParserFunction> _functions
     // Size: 0x8
     // Offset: 0x10
     System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::LevelMissionParser::ParserFunction*>* functions;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::LevelMissionParser::ParserFunction*>*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::LevelMissionParser::ParserFunction*>*
     constexpr operator System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::LevelMissionParser::ParserFunction*>*() const noexcept {
       return functions;

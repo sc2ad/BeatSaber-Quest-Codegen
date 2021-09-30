@@ -21,6 +21,11 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   struct ConsoleKeyInfo/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Char _keyChar
     // Size: 0x2
     // Offset: 0x0
@@ -41,6 +46,7 @@ namespace System {
     System::ConsoleModifiers mods;
     // Field size check
     static_assert(sizeof(System::ConsoleModifiers) == 0x4);
+    public:
     // Creating value type constructor for type: ConsoleKeyInfo
     constexpr ConsoleKeyInfo(::Il2CppChar keyChar_ = {}, System::ConsoleKey key_ = {}, System::ConsoleModifiers mods_ = {}) noexcept : keyChar{keyChar_}, key{key_}, mods{mods_} {}
     // Creating interface conversion operator: operator System::ValueType

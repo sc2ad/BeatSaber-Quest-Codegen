@@ -47,6 +47,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class AnnotatedBeatmapLevelCollectionsViewController : public HMUI::ViewController {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private AnnotatedBeatmapLevelCollectionsGridView _annotatedBeatmapLevelCollectionsGridView
     // Size: 0x8
     // Offset: 0x70
@@ -98,6 +103,7 @@ namespace GlobalNamespace {
     System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IAnnotatedBeatmapLevelCollection*>* annotatedBeatmapLevelCollections;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::IAnnotatedBeatmapLevelCollection*>*) == 0x8);
+    public:
     // Get instance field reference: private AnnotatedBeatmapLevelCollectionsGridView _annotatedBeatmapLevelCollectionsGridView
     GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView*& dyn__annotatedBeatmapLevelCollectionsGridView();
     // Get instance field reference: private LoadingControl _loadingControl

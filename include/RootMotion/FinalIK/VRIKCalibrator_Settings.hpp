@@ -22,6 +22,11 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class VRIKCalibrator::Settings : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [TooltipAttribute] Offset: 0xEF7A68
     // public System.Single scaleMlp
     // Size: 0x4
@@ -136,6 +141,7 @@ namespace RootMotion::FinalIK {
     float pelvisRotationWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: public System.Single scaleMlp
     float& dyn_scaleMlp();
     // Get instance field reference: public UnityEngine.Vector3 headTrackerForward

@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::ObjectModel
@@ -48,12 +49,18 @@ namespace System {
   // [DebuggerDisplayAttribute] Offset: E5B8DC
   class AggregateException : public System::Exception {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.ObjectModel.ReadOnlyCollection`1<System.Exception> m_innerExceptions
     // Size: 0x8
     // Offset: 0x88
     System::Collections::ObjectModel::ReadOnlyCollection_1<System::Exception*>* m_innerExceptions;
     // Field size check
     static_assert(sizeof(System::Collections::ObjectModel::ReadOnlyCollection_1<System::Exception*>*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Collections::ObjectModel::ReadOnlyCollection_1<System::Exception*>*
     constexpr operator System::Collections::ObjectModel::ReadOnlyCollection_1<System::Exception*>*() const noexcept {
       return m_innerExceptions;
@@ -73,7 +80,7 @@ namespace System {
     // public System.Void .ctor(System.Exception[] innerExceptions)
     // Offset: 0x19841BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static AggregateException* New_ctor(::ArrayWrapper<System::Exception*> innerExceptions) {
+    static AggregateException* New_ctor(::ArrayW<System::Exception*> innerExceptions) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::AggregateException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AggregateException*, creationType>(innerExceptions)));
     }
@@ -87,7 +94,7 @@ namespace System {
     // public System.Void .ctor(System.String message, System.Exception[] innerExceptions)
     // Offset: 0x1984228
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static AggregateException* New_ctor(::Il2CppString* message, ::ArrayWrapper<System::Exception*> innerExceptions) {
+    static AggregateException* New_ctor(::Il2CppString* message, ::ArrayW<System::Exception*> innerExceptions) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::AggregateException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AggregateException*, creationType>(message, innerExceptions)));
     }

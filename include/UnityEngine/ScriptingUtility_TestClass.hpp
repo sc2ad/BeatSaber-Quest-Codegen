@@ -19,12 +19,18 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   struct ScriptingUtility::TestClass/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 value
     // Size: 0x4
     // Offset: 0x0
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: TestClass
     constexpr TestClass(int value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::ValueType

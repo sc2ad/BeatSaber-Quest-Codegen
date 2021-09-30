@@ -22,6 +22,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class TestPlatformAdditionalContentModel::Entitlement : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.String id
     // Size: 0x8
     // Offset: 0x10
@@ -34,6 +39,7 @@ namespace GlobalNamespace {
     GlobalNamespace::AdditionalContentModel::EntitlementStatus status;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AdditionalContentModel::EntitlementStatus) == 0x4);
+    public:
     // Get instance field reference: public System.String id
     ::Il2CppString*& dyn_id();
     // Get instance field reference: public AdditionalContentModel/EntitlementStatus status

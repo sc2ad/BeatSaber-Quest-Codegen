@@ -38,6 +38,11 @@ namespace System::Threading {
   // [CompilerGeneratedAttribute] Offset: E5E81C
   struct SemaphoreSlim::$WaitUntilCountOrTimeoutAsync$d__31/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0
@@ -92,6 +97,7 @@ namespace System::Threading {
     // Size: 0xFFFFFFFF
     // Offset: 0x60
     typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<bool>::ConfiguredTaskAwaiter $$u__2;
+    public:
     // Creating value type constructor for type: $WaitUntilCountOrTimeoutAsync$d__31
     constexpr $WaitUntilCountOrTimeoutAsync$d__31(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> $$t__builder_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, System::Threading::SemaphoreSlim::TaskNode* asyncWaiter_ = {}, int millisecondsTimeout_ = {}, System::Threading::CancellationTokenSource* $cts$5__1_ = {}, System::Threading::SemaphoreSlim* $$4__this_ = {}, ::Il2CppObject* $$7__wrap1_ = {}, typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<System::Threading::Tasks::Task*>::ConfiguredTaskAwaiter $$u__1_ = {}, typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<bool>::ConfiguredTaskAwaiter $$u__2_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, cancellationToken{cancellationToken_}, asyncWaiter{asyncWaiter_}, millisecondsTimeout{millisecondsTimeout_}, $cts$5__1{$cts$5__1_}, $$4__this{$$4__this_}, $$7__wrap1{$$7__wrap1_}, $$u__1{$$u__1_}, $$u__2{$$u__2_} {}
     // Creating interface conversion operator: operator System::ValueType

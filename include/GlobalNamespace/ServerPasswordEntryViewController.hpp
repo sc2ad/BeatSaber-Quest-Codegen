@@ -40,6 +40,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ServerPasswordEntryViewController : public HMUI::ViewController {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [HeaderAttribute] Offset: 0xF116A0
     // private HMUI.InputFieldView _passwordInput
     // Size: 0x8
@@ -65,6 +70,7 @@ namespace GlobalNamespace {
     GlobalNamespace::INetworkPlayer* selectedNetworkPlayer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::INetworkPlayer*) == 0x8);
+    public:
     // Get instance field reference: private HMUI.InputFieldView _passwordInput
     HMUI::InputFieldView*& dyn__passwordInput();
     // Get instance field reference: private HMUI.UIKeyboard _uiKeyboard

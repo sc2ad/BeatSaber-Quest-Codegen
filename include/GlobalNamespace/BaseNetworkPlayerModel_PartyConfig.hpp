@@ -26,6 +26,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BaseNetworkPlayerModel::PartyConfig : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public BeatmapLevelSelectionMask selectionMask
     // Size: 0x18
     // Offset: 0x10
@@ -44,6 +49,7 @@ namespace GlobalNamespace {
     GlobalNamespace::INetworkPlayerModel* partyManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::INetworkPlayerModel*) == 0x8);
+    public:
     // Get instance field reference: public BeatmapLevelSelectionMask selectionMask
     GlobalNamespace::BeatmapLevelSelectionMask& dyn_selectionMask();
     // Get instance field reference: public GameplayServerConfiguration configuration

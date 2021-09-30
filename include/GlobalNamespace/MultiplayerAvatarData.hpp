@@ -36,6 +36,11 @@ namespace GlobalNamespace {
   // [IsReadOnlyAttribute] Offset: FFFFFFFF
   struct MultiplayerAvatarData/*, public System::ValueType, public LiteNetLib::Utils::INetImmutableSerializable_1<GlobalNamespace::MultiplayerAvatarData>, public System::IEquatable_1<GlobalNamespace::MultiplayerAvatarData>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly System.String headTopId
     // Size: 0x8
     // Offset: 0x0
@@ -140,6 +145,7 @@ namespace GlobalNamespace {
     ::Il2CppString* mouthId;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Creating value type constructor for type: MultiplayerAvatarData
     constexpr MultiplayerAvatarData(::Il2CppString* headTopId_ = {}, UnityEngine::Color32 headTopPrimaryColor_ = {}, UnityEngine::Color32 headTopSecondaryColor_ = {}, ::Il2CppString* glassesId_ = {}, UnityEngine::Color32 glassesColor_ = {}, ::Il2CppString* facialHairId_ = {}, UnityEngine::Color32 facialHairColor_ = {}, ::Il2CppString* handsId_ = {}, UnityEngine::Color32 handsColor_ = {}, ::Il2CppString* clothesId_ = {}, UnityEngine::Color32 clothesPrimaryColor_ = {}, UnityEngine::Color32 clothesSecondaryColor_ = {}, UnityEngine::Color32 clothesDetailColor_ = {}, ::Il2CppString* skinColorId_ = {}, ::Il2CppString* eyesId_ = {}, ::Il2CppString* mouthId_ = {}) noexcept : headTopId{headTopId_}, headTopPrimaryColor{headTopPrimaryColor_}, headTopSecondaryColor{headTopSecondaryColor_}, glassesId{glassesId_}, glassesColor{glassesColor_}, facialHairId{facialHairId_}, facialHairColor{facialHairColor_}, handsId{handsId_}, handsColor{handsColor_}, clothesId{clothesId_}, clothesPrimaryColor{clothesPrimaryColor_}, clothesSecondaryColor{clothesSecondaryColor_}, clothesDetailColor{clothesDetailColor_}, skinColorId{skinColorId_}, eyesId{eyesId_}, mouthId{mouthId_} {}
     // Creating interface conversion operator: operator System::ValueType

@@ -16,6 +16,11 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HAPI_SessionSyncInfo/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Boolean cookUsingHoudiniTime
     // Size: 0x1
     // Offset: 0x0
@@ -28,6 +33,7 @@ namespace HoudiniEngineUnity {
     bool syncViewport;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating value type constructor for type: HAPI_SessionSyncInfo
     constexpr HAPI_SessionSyncInfo(bool cookUsingHoudiniTime_ = {}, bool syncViewport_ = {}) noexcept : cookUsingHoudiniTime{cookUsingHoudiniTime_}, syncViewport{syncViewport_} {}
     // Creating interface conversion operator: operator System::ValueType

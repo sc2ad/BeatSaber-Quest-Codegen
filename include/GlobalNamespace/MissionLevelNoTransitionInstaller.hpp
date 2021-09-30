@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -46,6 +47,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MissionLevelNoTransitionInstaller : public Zenject::NoTransitionInstaller {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private BeatmapLevelSO _beatmapLevel
     // Size: 0x8
     // Offset: 0x18
@@ -75,9 +81,9 @@ namespace GlobalNamespace {
     // private MissionObjective[] _missionObjectives
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayWrapper<GlobalNamespace::MissionObjective*> missionObjectives;
+    ::ArrayW<GlobalNamespace::MissionObjective*> missionObjectives;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MissionObjective*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::MissionObjective*>) == 0x8);
     // private GameplayModifiers _gameplayModifiers
     // Size: 0x8
     // Offset: 0x40
@@ -103,6 +109,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* scenesTransitionSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BeatmapLevelSO _beatmapLevel
@@ -114,7 +121,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private ColorSchemeSO _colorScheme
     GlobalNamespace::ColorSchemeSO*& dyn__colorScheme();
     // Get instance field reference: private MissionObjective[] _missionObjectives
-    ::ArrayWrapper<GlobalNamespace::MissionObjective*>& dyn__missionObjectives();
+    ::ArrayW<GlobalNamespace::MissionObjective*>& dyn__missionObjectives();
     // Get instance field reference: private GameplayModifiers _gameplayModifiers
     GlobalNamespace::GameplayModifiers*& dyn__gameplayModifiers();
     // Get instance field reference: private PlayerSpecificSettings _playerSpecificSettings

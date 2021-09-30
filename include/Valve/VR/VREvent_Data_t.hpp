@@ -60,6 +60,11 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct VREvent_Data_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public Valve.VR.VREvent_Reserved_t reserved
     // Size: 0x10
     // Offset: 0x0
@@ -192,6 +197,7 @@ namespace Valve::VR {
     Valve::VR::VREvent_Keyboard_t keyboard;
     // Field size check
     static_assert(sizeof(Valve::VR::VREvent_Keyboard_t) == 0x10);
+    public:
     // Creating value type constructor for type: VREvent_Data_t
     constexpr VREvent_Data_t(Valve::VR::VREvent_Reserved_t reserved_ = {}, Valve::VR::VREvent_Controller_t controller_ = {}, Valve::VR::VREvent_Mouse_t mouse_ = {}, Valve::VR::VREvent_Scroll_t scroll_ = {}, Valve::VR::VREvent_Process_t process_ = {}, Valve::VR::VREvent_Notification_t notification_ = {}, Valve::VR::VREvent_Overlay_t overlay_ = {}, Valve::VR::VREvent_Status_t status_ = {}, Valve::VR::VREvent_Ipd_t ipd_ = {}, Valve::VR::VREvent_Chaperone_t chaperone_ = {}, Valve::VR::VREvent_PerformanceTest_t performanceTest_ = {}, Valve::VR::VREvent_TouchPadMove_t touchPadMove_ = {}, Valve::VR::VREvent_SeatedZeroPoseReset_t seatedZeroPoseReset_ = {}, Valve::VR::VREvent_Screenshot_t screenshot_ = {}, Valve::VR::VREvent_ScreenshotProgress_t screenshotProgress_ = {}, Valve::VR::VREvent_ApplicationLaunch_t applicationLaunch_ = {}, Valve::VR::VREvent_EditingCameraSurface_t cameraSurface_ = {}, Valve::VR::VREvent_MessageOverlay_t messageOverlay_ = {}, Valve::VR::VREvent_Property_t property_ = {}, Valve::VR::VREvent_DualAnalog_t dualAnalog_ = {}, Valve::VR::VREvent_HapticVibration_t hapticVibration_ = {}, Valve::VR::VREvent_Keyboard_t keyboard_ = {}) noexcept : reserved{reserved_}, controller{controller_}, mouse{mouse_}, scroll{scroll_}, process{process_}, notification{notification_}, overlay{overlay_}, status{status_}, ipd{ipd_}, chaperone{chaperone_}, performanceTest{performanceTest_}, touchPadMove{touchPadMove_}, seatedZeroPoseReset{seatedZeroPoseReset_}, screenshot{screenshot_}, screenshotProgress{screenshotProgress_}, applicationLaunch{applicationLaunch_}, cameraSurface{cameraSurface_}, messageOverlay{messageOverlay_}, property{property_}, dualAnalog{dualAnalog_}, hapticVibration{hapticVibration_}, keyboard{keyboard_} {}
     // Creating interface conversion operator: operator System::ValueType

@@ -12,6 +12,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text
@@ -33,12 +34,18 @@ namespace System::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   class TextWriter::SyncTextWriter : public System::IO::TextWriter {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.IO.TextWriter _out
     // Size: 0x8
     // Offset: 0x28
     System::IO::TextWriter* out;
     // Field size check
     static_assert(sizeof(System::IO::TextWriter*) == 0x8);
+    public:
     // Get instance field reference: private System.IO.TextWriter _out
     System::IO::TextWriter*& dyn__out();
     // System.Void .ctor(System.IO.TextWriter t)
@@ -82,12 +89,12 @@ namespace System::IO {
     // Offset: 0x1A07800
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Write(System.Char[] buffer)
-    void Write(::ArrayWrapper<::Il2CppChar> buffer);
+    void Write(::ArrayW<::Il2CppChar> buffer);
     // public override System.Void Write(System.Char[] buffer, System.Int32 index, System.Int32 count)
     // Offset: 0x1A07824
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Write(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    void Write(::ArrayWrapper<::Il2CppChar> buffer, int index, int count);
+    void Write(::ArrayW<::Il2CppChar> buffer, int index, int count);
     // public override System.Void Write(System.String value)
     // Offset: 0x1A07848
     // Implemented from: System.IO.TextWriter
@@ -117,7 +124,7 @@ namespace System::IO {
     // Offset: 0x1A078FC
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::WriteLine(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    void WriteLine(::ArrayWrapper<::Il2CppChar> buffer, int index, int count);
+    void WriteLine(::ArrayW<::Il2CppChar> buffer, int index, int count);
     // public override System.Void WriteLine(System.String value)
     // Offset: 0x1A07920
     // Implemented from: System.IO.TextWriter
@@ -142,7 +149,7 @@ namespace System::IO {
     // Offset: 0x1A079B0
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::WriteLine(System.String format, params System.Object[] arg)
-    void WriteLine(::Il2CppString* format, ::ArrayWrapper<::Il2CppObject*> arg);
+    void WriteLine(::Il2CppString* format, ::ArrayW<::Il2CppObject*> arg);
   }; // System.IO.TextWriter/System.IO.SyncTextWriter
   #pragma pack(pop)
   static check_size<sizeof(TextWriter::SyncTextWriter), 40 + sizeof(System::IO::TextWriter*)> __System_IO_TextWriter_SyncTextWriterSizeCheck;
@@ -207,7 +214,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::IO::TextWriter::SyncTextWriter::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::TextWriter::SyncTextWriter::*)(::ArrayWrapper<::Il2CppChar>)>(&System::IO::TextWriter::SyncTextWriter::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::TextWriter::SyncTextWriter::*)(::ArrayW<::Il2CppChar>)>(&System::IO::TextWriter::SyncTextWriter::Write)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::TextWriter::SyncTextWriter*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer});
@@ -216,7 +223,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::IO::TextWriter::SyncTextWriter::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::TextWriter::SyncTextWriter::*)(::ArrayWrapper<::Il2CppChar>, int, int)>(&System::IO::TextWriter::SyncTextWriter::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::TextWriter::SyncTextWriter::*)(::ArrayW<::Il2CppChar>, int, int)>(&System::IO::TextWriter::SyncTextWriter::Write)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -275,7 +282,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::IO::TextWriter::SyncTextWriter::WriteLine
 // Il2CppName: WriteLine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::TextWriter::SyncTextWriter::*)(::ArrayWrapper<::Il2CppChar>, int, int)>(&System::IO::TextWriter::SyncTextWriter::WriteLine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::TextWriter::SyncTextWriter::*)(::ArrayW<::Il2CppChar>, int, int)>(&System::IO::TextWriter::SyncTextWriter::WriteLine)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -328,7 +335,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::IO::TextWriter::SyncTextWriter::WriteLine
 // Il2CppName: WriteLine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::TextWriter::SyncTextWriter::*)(::Il2CppString*, ::ArrayWrapper<::Il2CppObject*>)>(&System::IO::TextWriter::SyncTextWriter::WriteLine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::TextWriter::SyncTextWriter::*)(::Il2CppString*, ::ArrayW<::Il2CppObject*>)>(&System::IO::TextWriter::SyncTextWriter::WriteLine)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* arg = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;

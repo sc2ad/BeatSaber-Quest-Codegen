@@ -16,6 +16,11 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Compositor_CumulativeStats/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.UInt32 m_nPid
     // Size: 0x4
     // Offset: 0x0
@@ -106,6 +111,7 @@ namespace Valve::VR {
     uint m_nNumReprojectedFramesTimedOut;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
+    public:
     // Creating value type constructor for type: Compositor_CumulativeStats
     constexpr Compositor_CumulativeStats(uint m_nPid_ = {}, uint m_nNumFramePresents_ = {}, uint m_nNumDroppedFrames_ = {}, uint m_nNumReprojectedFrames_ = {}, uint m_nNumFramePresentsOnStartup_ = {}, uint m_nNumDroppedFramesOnStartup_ = {}, uint m_nNumReprojectedFramesOnStartup_ = {}, uint m_nNumLoading_ = {}, uint m_nNumFramePresentsLoading_ = {}, uint m_nNumDroppedFramesLoading_ = {}, uint m_nNumReprojectedFramesLoading_ = {}, uint m_nNumTimedOut_ = {}, uint m_nNumFramePresentsTimedOut_ = {}, uint m_nNumDroppedFramesTimedOut_ = {}, uint m_nNumReprojectedFramesTimedOut_ = {}) noexcept : m_nPid{m_nPid_}, m_nNumFramePresents{m_nNumFramePresents_}, m_nNumDroppedFrames{m_nNumDroppedFrames_}, m_nNumReprojectedFrames{m_nNumReprojectedFrames_}, m_nNumFramePresentsOnStartup{m_nNumFramePresentsOnStartup_}, m_nNumDroppedFramesOnStartup{m_nNumDroppedFramesOnStartup_}, m_nNumReprojectedFramesOnStartup{m_nNumReprojectedFramesOnStartup_}, m_nNumLoading{m_nNumLoading_}, m_nNumFramePresentsLoading{m_nNumFramePresentsLoading_}, m_nNumDroppedFramesLoading{m_nNumDroppedFramesLoading_}, m_nNumReprojectedFramesLoading{m_nNumReprojectedFramesLoading_}, m_nNumTimedOut{m_nNumTimedOut_}, m_nNumFramePresentsTimedOut{m_nNumFramePresentsTimedOut_}, m_nNumDroppedFramesTimedOut{m_nNumDroppedFramesTimedOut_}, m_nNumReprojectedFramesTimedOut{m_nNumReprojectedFramesTimedOut_} {}
     // Creating interface conversion operator: operator System::ValueType

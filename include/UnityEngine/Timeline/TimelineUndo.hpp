@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Timeline
@@ -31,7 +32,7 @@ namespace UnityEngine::Timeline {
     static void PushDestroyUndo(UnityEngine::Timeline::TimelineAsset* timeline, UnityEngine::Object* thingToDirty, UnityEngine::Object* objectToDestroy);
     // static public System.Void PushUndo(UnityEngine.Object[] thingsToDirty, System.String operation)
     // Offset: 0x2565680
-    static void PushUndo(::ArrayWrapper<UnityEngine::Object*> thingsToDirty, ::Il2CppString* operation);
+    static void PushUndo(::ArrayW<UnityEngine::Object*> thingsToDirty, ::Il2CppString* operation);
     // static public System.Void PushUndo(UnityEngine.Object thingToDirty, System.String operation)
     // Offset: 0x2565684
     static void PushUndo(UnityEngine::Object* thingToDirty, ::Il2CppString* operation);
@@ -61,7 +62,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Timeline::TimelineUndo::PushUndo
 // Il2CppName: PushUndo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<UnityEngine::Object*>, ::Il2CppString*)>(&UnityEngine::Timeline::TimelineUndo::PushUndo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<UnityEngine::Object*>, ::Il2CppString*)>(&UnityEngine::Timeline::TimelineUndo::PushUndo)> {
   static const MethodInfo* get() {
     static auto* thingsToDirty = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Object"), 1)->byval_arg;
     static auto* operation = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

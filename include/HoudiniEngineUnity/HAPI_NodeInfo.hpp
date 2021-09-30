@@ -19,6 +19,11 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HAPI_NodeInfo/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 id
     // Size: 0x4
     // Offset: 0x0
@@ -129,6 +134,7 @@ namespace HoudiniEngineUnity {
     bool isTimeDependent;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating value type constructor for type: HAPI_NodeInfo
     constexpr HAPI_NodeInfo(int id_ = {}, int parentId_ = {}, int nameSH_ = {}, HoudiniEngineUnity::HAPI_NodeType type_ = {}, bool isValid_ = {}, int totalCookCount_ = {}, int uniqueHoudiniNodeId_ = {}, int internalNodePathSH_ = {}, int parmCount_ = {}, int parmIntValueCount_ = {}, int parmFloatValueCount_ = {}, int parmStringValueCount_ = {}, int parmChoiceCount_ = {}, int childNodeCount_ = {}, int inputCount_ = {}, int outputCount_ = {}, bool createdPostAssetLoad_ = {}, bool isTimeDependent_ = {}) noexcept : id{id_}, parentId{parentId_}, nameSH{nameSH_}, type{type_}, isValid{isValid_}, totalCookCount{totalCookCount_}, uniqueHoudiniNodeId{uniqueHoudiniNodeId_}, internalNodePathSH{internalNodePathSH_}, parmCount{parmCount_}, parmIntValueCount{parmIntValueCount_}, parmFloatValueCount{parmFloatValueCount_}, parmStringValueCount{parmStringValueCount_}, parmChoiceCount{parmChoiceCount_}, childNodeCount{childNodeCount_}, inputCount{inputCount_}, outputCount{outputCount_}, createdPostAssetLoad{createdPostAssetLoad_}, isTimeDependent{isTimeDependent_} {}
     // Creating interface conversion operator: operator System::ValueType

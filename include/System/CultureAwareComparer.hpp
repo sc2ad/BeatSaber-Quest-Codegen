@@ -31,6 +31,11 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class CultureAwareComparer : public System::StringComparer {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Globalization.CompareInfo _compareInfo
     // Size: 0x8
     // Offset: 0x10
@@ -52,6 +57,7 @@ namespace System {
     System::Globalization::CompareOptions options;
     // Field size check
     static_assert(sizeof(System::Globalization::CompareOptions) == 0x4);
+    public:
     // Get instance field reference: private System.Globalization.CompareInfo _compareInfo
     System::Globalization::CompareInfo*& dyn__compareInfo();
     // Get instance field reference: private System.Boolean _ignoreCase

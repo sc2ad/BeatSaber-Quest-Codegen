@@ -7,6 +7,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.ProBuilder.Edge
 #include "UnityEngine/ProBuilder/Edge.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::ProBuilder
@@ -54,16 +55,16 @@ namespace UnityEngine::ProBuilder {
     static bool ValidateEdge(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::ProBuilder::Edge edge, ByRef<UnityEngine::ProBuilder::SimpleTuple_2<UnityEngine::ProBuilder::Face*, UnityEngine::ProBuilder::Edge>> validEdge);
     // static System.Boolean Contains(UnityEngine.ProBuilder.Edge[] edges, UnityEngine.ProBuilder.Edge edge)
     // Offset: 0x1C74260
-    static bool Contains(::ArrayWrapper<UnityEngine::ProBuilder::Edge> edges, UnityEngine::ProBuilder::Edge edge);
+    static bool Contains(::ArrayW<UnityEngine::ProBuilder::Edge> edges, UnityEngine::ProBuilder::Edge edge);
     // static System.Boolean Contains(UnityEngine.ProBuilder.Edge[] edges, System.Int32 x, System.Int32 y)
     // Offset: 0x1C742F0
-    static bool Contains(::ArrayWrapper<UnityEngine::ProBuilder::Edge> edges, int x, int y);
+    static bool Contains(::ArrayW<UnityEngine::ProBuilder::Edge> edges, int x, int y);
     // static System.Int32 IndexOf(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IList`1<UnityEngine.ProBuilder.Edge> edges, UnityEngine.ProBuilder.Edge edge)
     // Offset: 0x1C7436C
     static int IndexOf(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IList_1<UnityEngine::ProBuilder::Edge>* edges, UnityEngine::ProBuilder::Edge edge);
     // static System.Int32[] AllTriangles(UnityEngine.ProBuilder.Edge[] edges)
     // Offset: 0x1C744F4
-    static ::ArrayWrapper<int> AllTriangles(::ArrayWrapper<UnityEngine::ProBuilder::Edge> edges);
+    static ::ArrayW<int> AllTriangles(::ArrayW<UnityEngine::ProBuilder::Edge> edges);
     // static UnityEngine.ProBuilder.Face GetFace(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.ProBuilder.Edge edge)
     // Offset: 0x1C745E4
     static UnityEngine::ProBuilder::Face* GetFace(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::ProBuilder::Edge edge);
@@ -117,7 +118,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::EdgeUtility::Contains
 // Il2CppName: Contains
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayWrapper<UnityEngine::ProBuilder::Edge>, UnityEngine::ProBuilder::Edge)>(&UnityEngine::ProBuilder::EdgeUtility::Contains)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<UnityEngine::ProBuilder::Edge>, UnityEngine::ProBuilder::Edge)>(&UnityEngine::ProBuilder::EdgeUtility::Contains)> {
   static const MethodInfo* get() {
     static auto* edges = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Edge"), 1)->byval_arg;
     static auto* edge = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Edge")->byval_arg;
@@ -127,7 +128,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::EdgeUtility::Contains
 // Il2CppName: Contains
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayWrapper<UnityEngine::ProBuilder::Edge>, int, int)>(&UnityEngine::ProBuilder::EdgeUtility::Contains)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<UnityEngine::ProBuilder::Edge>, int, int)>(&UnityEngine::ProBuilder::EdgeUtility::Contains)> {
   static const MethodInfo* get() {
     static auto* edges = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Edge"), 1)->byval_arg;
     static auto* x = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -149,7 +150,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Uni
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::EdgeUtility::AllTriangles
 // Il2CppName: AllTriangles
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<int> (*)(::ArrayWrapper<UnityEngine::ProBuilder::Edge>)>(&UnityEngine::ProBuilder::EdgeUtility::AllTriangles)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int> (*)(::ArrayW<UnityEngine::ProBuilder::Edge>)>(&UnityEngine::ProBuilder::EdgeUtility::AllTriangles)> {
   static const MethodInfo* get() {
     static auto* edges = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Edge"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::EdgeUtility*), "AllTriangles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{edges});

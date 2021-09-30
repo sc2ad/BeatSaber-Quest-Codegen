@@ -63,6 +63,11 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class FileWebRequest : public System::Net::WebRequest {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String m_connectionGroupName
     // Size: 0x8
     // Offset: 0x20
@@ -193,6 +198,7 @@ namespace System::Net {
     int m_Aborted;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get static field: static private System.Threading.WaitCallback s_GetRequestStreamCallback
     static System::Threading::WaitCallback* _get_s_GetRequestStreamCallback();
     // Set static field: static private System.Threading.WaitCallback s_GetRequestStreamCallback

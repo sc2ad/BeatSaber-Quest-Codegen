@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection
@@ -29,24 +30,29 @@ namespace System::Reflection {
   // [ComVisibleAttribute] Offset: E5DDD8
   class MethodBody : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Reflection.ExceptionHandlingClause[] clauses
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<System::Reflection::ExceptionHandlingClause*> clauses;
+    ::ArrayW<System::Reflection::ExceptionHandlingClause*> clauses;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<System::Reflection::ExceptionHandlingClause*>) == 0x8);
+    static_assert(sizeof(::ArrayW<System::Reflection::ExceptionHandlingClause*>) == 0x8);
     // private System.Reflection.LocalVariableInfo[] locals
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<System::Reflection::LocalVariableInfo*> locals;
+    ::ArrayW<System::Reflection::LocalVariableInfo*> locals;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<System::Reflection::LocalVariableInfo*>) == 0x8);
+    static_assert(sizeof(::ArrayW<System::Reflection::LocalVariableInfo*>) == 0x8);
     // private System.Byte[] il
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<uint8_t> il;
+    ::ArrayW<uint8_t> il;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Boolean init_locals
     // Size: 0x1
     // Offset: 0x28
@@ -67,12 +73,13 @@ namespace System::Reflection {
     int max_stack;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: private System.Reflection.ExceptionHandlingClause[] clauses
-    ::ArrayWrapper<System::Reflection::ExceptionHandlingClause*>& dyn_clauses();
+    ::ArrayW<System::Reflection::ExceptionHandlingClause*>& dyn_clauses();
     // Get instance field reference: private System.Reflection.LocalVariableInfo[] locals
-    ::ArrayWrapper<System::Reflection::LocalVariableInfo*>& dyn_locals();
+    ::ArrayW<System::Reflection::LocalVariableInfo*>& dyn_locals();
     // Get instance field reference: private System.Byte[] il
-    ::ArrayWrapper<uint8_t>& dyn_il();
+    ::ArrayW<uint8_t>& dyn_il();
     // Get instance field reference: private System.Boolean init_locals
     bool& dyn_init_locals();
     // Get instance field reference: private System.Int32 sig_token

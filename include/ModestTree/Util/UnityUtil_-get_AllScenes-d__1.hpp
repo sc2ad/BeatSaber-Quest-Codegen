@@ -33,6 +33,11 @@ namespace ModestTree::Util {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class UnityUtil::$get_AllScenes$d__1 : public ::Il2CppObject/*, public System::Collections::Generic::IEnumerable_1<UnityEngine::SceneManagement::Scene>, public System::Collections::Generic::IEnumerator_1<UnityEngine::SceneManagement::Scene>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -57,6 +62,7 @@ namespace ModestTree::Util {
     int $i$5__2;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<UnityEngine::SceneManagement::Scene>
     operator System::Collections::Generic::IEnumerable_1<UnityEngine::SceneManagement::Scene>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::SceneManagement::Scene>*>(this);

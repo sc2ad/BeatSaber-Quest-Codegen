@@ -20,6 +20,11 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class KerningPair : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [FormerlySerializedAsAttribute] Offset: 0xEB7B54
     // private System.UInt32 m_FirstGlyph
     // Size: 0x4
@@ -59,6 +64,7 @@ namespace TMPro {
     bool m_IgnoreSpacingAdjustments;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get static field: static TMPro.KerningPair empty
     static TMPro::KerningPair* _get_empty();
     // Set static field: static TMPro.KerningPair empty

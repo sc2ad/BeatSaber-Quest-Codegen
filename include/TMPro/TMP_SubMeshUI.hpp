@@ -52,6 +52,11 @@ namespace TMPro {
   // [ExecuteAlways] Offset: FFFFFFFF
   class TMP_SubMeshUI : public UnityEngine::UI::MaskableGraphic {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private TMPro.TMP_FontAsset m_fontAsset
     // Size: 0x8
     // Offset: 0xC0
@@ -140,6 +145,7 @@ namespace TMPro {
     int m_materialReferenceIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: private TMPro.TMP_FontAsset m_fontAsset
     TMPro::TMP_FontAsset*& dyn_m_fontAsset();
     // Get instance field reference: private TMPro.TMP_SpriteAsset m_spriteAsset

@@ -27,6 +27,11 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   // [TokenAttribute] Offset: FFFFFFFF
   class BinaryObjectString : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Int32 objectId
     // Size: 0x4
     // Offset: 0x10
@@ -41,6 +46,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     ::Il2CppString* value;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: System.Int32 objectId
     int& dyn_objectId();
     // Get instance field reference: System.String value

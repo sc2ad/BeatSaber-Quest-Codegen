@@ -47,6 +47,11 @@ namespace Zenject {
     public:
     // Nested type: Zenject::SubContainerCreatorByNewPrefabInstaller::$$c__DisplayClass3_0
     class $$c__DisplayClass3_0;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Type _installerType
     // Size: 0x8
     // Offset: 0x28
@@ -59,6 +64,7 @@ namespace Zenject {
     System::Collections::Generic::List_1<Zenject::TypeValuePair>* extraArgs;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<Zenject::TypeValuePair>*) == 0x8);
+    public:
     // Get instance field reference: private readonly System.Type _installerType
     System::Type*& dyn__installerType();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<Zenject.TypeValuePair> _extraArgs

@@ -25,6 +25,11 @@ namespace Mono::Net::Security {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   struct MobileAuthenticatedStream::$InnerRead$d__66/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0
@@ -63,6 +68,7 @@ namespace Mono::Net::Security {
     // Size: 0xFFFFFFFF
     // Offset: 0x38
     typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<int>::ConfiguredTaskAwaiter $$u__1;
+    public:
     // Creating value type constructor for type: $InnerRead$d__66
     constexpr $InnerRead$d__66(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<int> $$t__builder_ = {}, Mono::Net::Security::MobileAuthenticatedStream* $$4__this_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, int requestedSize_ = {}, bool sync_ = {}, typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<int>::ConfiguredTaskAwaiter $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, cancellationToken{cancellationToken_}, requestedSize{requestedSize_}, sync{sync_}, $$u__1{$$u__1_} {}
     // Creating interface conversion operator: operator System::ValueType

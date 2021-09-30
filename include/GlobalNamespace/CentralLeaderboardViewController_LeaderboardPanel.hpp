@@ -20,6 +20,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class CentralLeaderboardViewController::LeaderboardPanel : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly System.String title
     // Size: 0x8
     // Offset: 0x10
@@ -38,6 +43,7 @@ namespace GlobalNamespace {
     bool mixed;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: public readonly System.String title
     ::Il2CppString*& dyn_title();
     // Get instance field reference: public readonly System.String hint

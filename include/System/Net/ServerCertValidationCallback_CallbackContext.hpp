@@ -31,6 +31,11 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class ServerCertValidationCallback::CallbackContext : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // readonly System.Object request
     // Size: 0x8
     // Offset: 0x10
@@ -61,6 +66,7 @@ namespace System::Net {
     bool result;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: readonly System.Object request
     ::Il2CppObject*& dyn_request();
     // Get instance field reference: readonly System.Security.Cryptography.X509Certificates.X509Certificate certificate

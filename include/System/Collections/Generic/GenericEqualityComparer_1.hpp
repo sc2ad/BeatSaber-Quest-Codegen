@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -62,7 +63,7 @@ namespace System::Collections::Generic {
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.EqualityComparer`1
     // Base method: System.Int32 EqualityComparer_1::IndexOf(T[] array, T value, System.Int32 startIndex, System.Int32 count)
-    int IndexOf(::ArrayWrapper<T> array, T value, int startIndex, int count) {
+    int IndexOf(::ArrayW<T> array, T value, int startIndex, int count) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::GenericEqualityComparer_1::IndexOf");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "IndexOf", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(value), ::il2cpp_utils::ExtractType(startIndex), ::il2cpp_utils::ExtractType(count)})));
       auto ___instance_arg = this;
@@ -72,7 +73,7 @@ namespace System::Collections::Generic {
     // Offset: 0xFFFFFFFF
     // Implemented from: System.Collections.Generic.EqualityComparer`1
     // Base method: System.Int32 EqualityComparer_1::LastIndexOf(T[] array, T value, System.Int32 startIndex, System.Int32 count)
-    int LastIndexOf(::ArrayWrapper<T> array, T value, int startIndex, int count) {
+    int LastIndexOf(::ArrayW<T> array, T value, int startIndex, int count) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::GenericEqualityComparer_1::LastIndexOf");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "LastIndexOf", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(value), ::il2cpp_utils::ExtractType(startIndex), ::il2cpp_utils::ExtractType(count)})));
       auto ___instance_arg = this;

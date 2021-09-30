@@ -36,6 +36,11 @@ namespace UnityEngine::XR {
   // [UsedByNativeCodeAttribute] Offset: E994E4
   class XRInputSubsystem : public UnityEngine::IntegratedSubsystem_1<UnityEngine::XR::XRInputSubsystemDescriptor*> {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [DebuggerBrowsableAttribute] Offset: 0xE99A48
     // private System.Action`1<UnityEngine.XR.XRInputSubsystem> trackingOriginUpdated
     // Size: 0x8
@@ -50,6 +55,7 @@ namespace UnityEngine::XR {
     System::Action_1<UnityEngine::XR::XRInputSubsystem*>* boundaryChanged;
     // Field size check
     static_assert(sizeof(System::Action_1<UnityEngine::XR::XRInputSubsystem*>*) == 0x8);
+    public:
     // Get instance field reference: private System.Action`1<UnityEngine.XR.XRInputSubsystem> trackingOriginUpdated
     System::Action_1<UnityEngine::XR::XRInputSubsystem*>*& dyn_trackingOriginUpdated();
     // Get instance field reference: private System.Action`1<UnityEngine.XR.XRInputSubsystem> boundaryChanged

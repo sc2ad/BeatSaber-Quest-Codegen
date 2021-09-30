@@ -39,12 +39,18 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class DisposableManager::$$c__DisplayClass4_1 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public Zenject.ILateDisposable lateDisposable
     // Size: 0x8
     // Offset: 0x10
     Zenject::ILateDisposable* lateDisposable;
     // Field size check
     static_assert(sizeof(Zenject::ILateDisposable*) == 0x8);
+    public:
     // Creating conversion operator: operator Zenject::ILateDisposable*
     constexpr operator Zenject::ILateDisposable*() const noexcept {
       return lateDisposable;

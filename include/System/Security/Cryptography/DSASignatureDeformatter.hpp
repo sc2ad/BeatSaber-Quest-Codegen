@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Security::Cryptography
@@ -30,6 +31,11 @@ namespace System::Security::Cryptography {
   // [ComVisibleAttribute] Offset: E5F268
   class DSASignatureDeformatter : public System::Security::Cryptography::AsymmetricSignatureDeformatter {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Security.Cryptography.DSA _dsaKey
     // Size: 0x8
     // Offset: 0x10
@@ -42,6 +48,7 @@ namespace System::Security::Cryptography {
     ::Il2CppString* oid;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: private System.Security.Cryptography.DSA _dsaKey
     System::Security::Cryptography::DSA*& dyn__dsaKey();
     // Get instance field reference: private System.String _oid
@@ -77,7 +84,7 @@ namespace System::Security::Cryptography {
     // Offset: 0x1A75B08
     // Implemented from: System.Security.Cryptography.AsymmetricSignatureDeformatter
     // Base method: System.Boolean AsymmetricSignatureDeformatter::VerifySignature(System.Byte[] rgbHash, System.Byte[] rgbSignature)
-    bool VerifySignature(::ArrayWrapper<uint8_t> rgbHash, ::ArrayWrapper<uint8_t> rgbSignature);
+    bool VerifySignature(::ArrayW<uint8_t> rgbHash, ::ArrayW<uint8_t> rgbSignature);
   }; // System.Security.Cryptography.DSASignatureDeformatter
   #pragma pack(pop)
   static check_size<sizeof(DSASignatureDeformatter), 24 + sizeof(::Il2CppString*)> __System_Security_Cryptography_DSASignatureDeformatterSizeCheck;
@@ -114,7 +121,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::DSASignatureDeformatter::VerifySignature
 // Il2CppName: VerifySignature
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Security::Cryptography::DSASignatureDeformatter::*)(::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>)>(&System::Security::Cryptography::DSASignatureDeformatter::VerifySignature)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Security::Cryptography::DSASignatureDeformatter::*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(&System::Security::Cryptography::DSASignatureDeformatter::VerifySignature)> {
   static const MethodInfo* get() {
     static auto* rgbHash = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* rgbSignature = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;

@@ -36,12 +36,18 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::MockPlayerLobbyPoseGeneratorMirror::$SendPoses$d__2
     struct $SendPoses$d__2;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly NodePoseSyncStateManager _nodePoseSyncStateManager
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::NodePoseSyncStateManager* nodePoseSyncStateManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::NodePoseSyncStateManager*) == 0x8);
+    public:
     // Creating conversion operator: operator GlobalNamespace::NodePoseSyncStateManager*
     constexpr operator GlobalNamespace::NodePoseSyncStateManager*() const noexcept {
       return nodePoseSyncStateManager;

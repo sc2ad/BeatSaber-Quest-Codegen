@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: OVR::OpenVR
@@ -40,12 +41,18 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   class CVRApplications : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private OVR.OpenVR.IVRApplications FnTable
     // Size: 0xF8
     // Offset: 0x10
     OVR::OpenVR::IVRApplications FnTable;
     // Field size check
     static_assert(sizeof(OVR::OpenVR::IVRApplications) == 0xF8);
+    public:
     // Creating conversion operator: operator OVR::OpenVR::IVRApplications
     constexpr operator OVR::OpenVR::IVRApplications() const noexcept {
       return FnTable;
@@ -82,7 +89,7 @@ namespace OVR::OpenVR {
     OVR::OpenVR::EVRApplicationError LaunchApplication(::Il2CppString* pchAppKey);
     // public OVR.OpenVR.EVRApplicationError LaunchTemplateApplication(System.String pchTemplateAppKey, System.String pchNewAppKey, OVR.OpenVR.AppOverrideKeys_t[] pKeys)
     // Offset: 0x176095C
-    OVR::OpenVR::EVRApplicationError LaunchTemplateApplication(::Il2CppString* pchTemplateAppKey, ::Il2CppString* pchNewAppKey, ::ArrayWrapper<OVR::OpenVR::AppOverrideKeys_t> pKeys);
+    OVR::OpenVR::EVRApplicationError LaunchTemplateApplication(::Il2CppString* pchTemplateAppKey, ::Il2CppString* pchNewAppKey, ::ArrayW<OVR::OpenVR::AppOverrideKeys_t> pKeys);
     // public OVR.OpenVR.EVRApplicationError LaunchApplicationFromMimeType(System.String pchMimeType, System.String pchArgs)
     // Offset: 0x1760DC0
     OVR::OpenVR::EVRApplicationError LaunchApplicationFromMimeType(::Il2CppString* pchMimeType, ::Il2CppString* pchArgs);
@@ -233,7 +240,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::CVRApplications::LaunchTemplateApplication
 // Il2CppName: LaunchTemplateApplication
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRApplicationError (OVR::OpenVR::CVRApplications::*)(::Il2CppString*, ::Il2CppString*, ::ArrayWrapper<OVR::OpenVR::AppOverrideKeys_t>)>(&OVR::OpenVR::CVRApplications::LaunchTemplateApplication)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRApplicationError (OVR::OpenVR::CVRApplications::*)(::Il2CppString*, ::Il2CppString*, ::ArrayW<OVR::OpenVR::AppOverrideKeys_t>)>(&OVR::OpenVR::CVRApplications::LaunchTemplateApplication)> {
   static const MethodInfo* get() {
     static auto* pchTemplateAppKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchNewAppKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

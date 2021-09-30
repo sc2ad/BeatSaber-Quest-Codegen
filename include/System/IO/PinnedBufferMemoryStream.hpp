@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: System.IO
 namespace System::IO {
@@ -22,26 +23,32 @@ namespace System::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   class PinnedBufferMemoryStream : public System::IO::UnmanagedMemoryStream {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Byte[] _array
     // Size: 0x8
     // Offset: 0x68
-    ::ArrayWrapper<uint8_t> array;
+    ::ArrayW<uint8_t> array;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Runtime.InteropServices.GCHandle _pinningHandle
     // Size: 0x4
     // Offset: 0x70
     System::Runtime::InteropServices::GCHandle pinningHandle;
     // Field size check
     static_assert(sizeof(System::Runtime::InteropServices::GCHandle) == 0x4);
+    public:
     // Get instance field reference: private System.Byte[] _array
-    ::ArrayWrapper<uint8_t>& dyn__array();
+    ::ArrayW<uint8_t>& dyn__array();
     // Get instance field reference: private System.Runtime.InteropServices.GCHandle _pinningHandle
     System::Runtime::InteropServices::GCHandle& dyn__pinningHandle();
     // System.Void .ctor(System.Byte[] array)
     // Offset: 0x1AC1CD8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static PinnedBufferMemoryStream* New_ctor(::ArrayWrapper<uint8_t> array) {
+    static PinnedBufferMemoryStream* New_ctor(::ArrayW<uint8_t> array) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::PinnedBufferMemoryStream::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PinnedBufferMemoryStream*, creationType>(array)));
     }

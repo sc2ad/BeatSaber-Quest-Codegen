@@ -37,6 +37,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OnlineServicesSettingsViewController : public HMUI::ViewController {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private BoolSO _onlineServicesEnabled
     // Size: 0x8
     // Offset: 0x70
@@ -56,6 +61,7 @@ namespace GlobalNamespace {
     HMUI::ToggleBinder* toggleBinder;
     // Field size check
     static_assert(sizeof(HMUI::ToggleBinder*) == 0x8);
+    public:
     // Get instance field reference: private BoolSO _onlineServicesEnabled
     GlobalNamespace::BoolSO*& dyn__onlineServicesEnabled();
     // Get instance field reference: private UnityEngine.UI.Toggle _enableOnlineServicesToggle

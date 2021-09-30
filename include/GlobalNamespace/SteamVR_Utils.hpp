@@ -6,6 +6,7 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include <initializer_list>
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -85,7 +86,7 @@ namespace GlobalNamespace {
     static UnityEngine::Vector3 GetScale(UnityEngine::Matrix4x4 m);
     // static public System.Object CallSystemFn(SteamVR_Utils/SystemFn fn, params System.Object[] args)
     // Offset: 0x18810F4
-    static ::Il2CppObject* CallSystemFn(GlobalNamespace::SteamVR_Utils::SystemFn* fn, ::ArrayWrapper<::Il2CppObject*> args);
+    static ::Il2CppObject* CallSystemFn(GlobalNamespace::SteamVR_Utils::SystemFn* fn, ::ArrayW<::Il2CppObject*> args);
     // static public System.Void TakeStereoScreenshot(System.UInt32 screenshotHandle, UnityEngine.GameObject target, System.Int32 cellSize, System.Single ipd, ref System.String previewFilename, ref System.String VRFilename)
     // Offset: 0x1881648
     static void TakeStereoScreenshot(uint screenshotHandle, UnityEngine::GameObject* target, int cellSize, float ipd, ByRef<::Il2CppString*> previewFilename, ByRef<::Il2CppString*> VRFilename);
@@ -248,7 +249,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_Utils::CallSystemFn
 // Il2CppName: CallSystemFn
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(GlobalNamespace::SteamVR_Utils::SystemFn*, ::ArrayWrapper<::Il2CppObject*>)>(&GlobalNamespace::SteamVR_Utils::CallSystemFn)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(GlobalNamespace::SteamVR_Utils::SystemFn*, ::ArrayW<::Il2CppObject*>)>(&GlobalNamespace::SteamVR_Utils::CallSystemFn)> {
   static const MethodInfo* get() {
     static auto* fn = &::il2cpp_utils::GetClassFromName("", "SteamVR_Utils/SystemFn")->byval_arg;
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;

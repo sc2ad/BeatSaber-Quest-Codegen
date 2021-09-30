@@ -34,6 +34,11 @@ namespace System::Runtime::CompilerServices {
   // [TokenAttribute] Offset: FFFFFFFF
   class AsyncMethodBuilderCore::MoveNextRunner : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Threading.ExecutionContext m_context
     // Size: 0x8
     // Offset: 0x10
@@ -46,6 +51,7 @@ namespace System::Runtime::CompilerServices {
     System::Runtime::CompilerServices::IAsyncStateMachine* m_stateMachine;
     // Field size check
     static_assert(sizeof(System::Runtime::CompilerServices::IAsyncStateMachine*) == 0x8);
+    public:
     // Get static field: static private System.Threading.ContextCallback s_invokeMoveNext
     static System::Threading::ContextCallback* _get_s_invokeMoveNext();
     // Set static field: static private System.Threading.ContextCallback s_invokeMoveNext

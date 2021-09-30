@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection
@@ -30,6 +31,11 @@ namespace NUnit::Framework::Internal {
   // [TokenAttribute] Offset: FFFFFFFF
   class GenericMethodHelper : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [DebuggerBrowsableAttribute] Offset: 0xEEEDB4
     // private System.Reflection.MethodInfo <Method>k__BackingField
     // Size: 0x8
@@ -41,31 +47,32 @@ namespace NUnit::Framework::Internal {
     // private System.Type[] <TypeParms>k__BackingField
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<System::Type*> TypeParms;
+    ::ArrayW<System::Type*> TypeParms;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<System::Type*>) == 0x8);
+    static_assert(sizeof(::ArrayW<System::Type*>) == 0x8);
     // [DebuggerBrowsableAttribute] Offset: 0xEEEE2C
     // private System.Type[] <TypeArgs>k__BackingField
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<System::Type*> TypeArgs;
+    ::ArrayW<System::Type*> TypeArgs;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<System::Type*>) == 0x8);
+    static_assert(sizeof(::ArrayW<System::Type*>) == 0x8);
     // [DebuggerBrowsableAttribute] Offset: 0xEEEE68
     // private System.Type[] <ParmTypes>k__BackingField
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<System::Type*> ParmTypes;
+    ::ArrayW<System::Type*> ParmTypes;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<System::Type*>) == 0x8);
+    static_assert(sizeof(::ArrayW<System::Type*>) == 0x8);
+    public:
     // Get instance field reference: private System.Reflection.MethodInfo <Method>k__BackingField
     System::Reflection::MethodInfo*& dyn_$Method$k__BackingField();
     // Get instance field reference: private System.Type[] <TypeParms>k__BackingField
-    ::ArrayWrapper<System::Type*>& dyn_$TypeParms$k__BackingField();
+    ::ArrayW<System::Type*>& dyn_$TypeParms$k__BackingField();
     // Get instance field reference: private System.Type[] <TypeArgs>k__BackingField
-    ::ArrayWrapper<System::Type*>& dyn_$TypeArgs$k__BackingField();
+    ::ArrayW<System::Type*>& dyn_$TypeArgs$k__BackingField();
     // Get instance field reference: private System.Type[] <ParmTypes>k__BackingField
-    ::ArrayWrapper<System::Type*>& dyn_$ParmTypes$k__BackingField();
+    ::ArrayW<System::Type*>& dyn_$ParmTypes$k__BackingField();
     // private System.Reflection.MethodInfo get_Method()
     // Offset: 0x249C0F8
     System::Reflection::MethodInfo* get_Method();
@@ -74,22 +81,22 @@ namespace NUnit::Framework::Internal {
     void set_Method(System::Reflection::MethodInfo* value);
     // private System.Type[] get_TypeParms()
     // Offset: 0x249C108
-    ::ArrayWrapper<System::Type*> get_TypeParms();
+    ::ArrayW<System::Type*> get_TypeParms();
     // private System.Void set_TypeParms(System.Type[] value)
     // Offset: 0x249C110
-    void set_TypeParms(::ArrayWrapper<System::Type*> value);
+    void set_TypeParms(::ArrayW<System::Type*> value);
     // private System.Type[] get_TypeArgs()
     // Offset: 0x249C118
-    ::ArrayWrapper<System::Type*> get_TypeArgs();
+    ::ArrayW<System::Type*> get_TypeArgs();
     // private System.Void set_TypeArgs(System.Type[] value)
     // Offset: 0x249C120
-    void set_TypeArgs(::ArrayWrapper<System::Type*> value);
+    void set_TypeArgs(::ArrayW<System::Type*> value);
     // private System.Type[] get_ParmTypes()
     // Offset: 0x249C128
-    ::ArrayWrapper<System::Type*> get_ParmTypes();
+    ::ArrayW<System::Type*> get_ParmTypes();
     // private System.Void set_ParmTypes(System.Type[] value)
     // Offset: 0x249C130
-    void set_ParmTypes(::ArrayWrapper<System::Type*> value);
+    void set_ParmTypes(::ArrayW<System::Type*> value);
     // public System.Void .ctor(System.Reflection.MethodInfo method)
     // Offset: 0x249BF50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -99,7 +106,7 @@ namespace NUnit::Framework::Internal {
     }
     // public System.Type[] GetTypeArguments(System.Object[] argList)
     // Offset: 0x249C138
-    ::ArrayWrapper<System::Type*> GetTypeArguments(::ArrayWrapper<::Il2CppObject*> argList);
+    ::ArrayW<System::Type*> GetTypeArguments(::ArrayW<::Il2CppObject*> argList);
     // private System.Void TryApplyArgType(System.Type parmType, System.Type argType)
     // Offset: 0x249C23C
     void TryApplyArgType(System::Type* parmType, System::Type* argType);
@@ -111,7 +118,7 @@ namespace NUnit::Framework::Internal {
     bool IsAssignableToGenericType(System::Type* givenType, System::Type* genericType);
   }; // NUnit.Framework.Internal.GenericMethodHelper
   #pragma pack(pop)
-  static check_size<sizeof(GenericMethodHelper), 40 + sizeof(::ArrayWrapper<System::Type*>)> __NUnit_Framework_Internal_GenericMethodHelperSizeCheck;
+  static check_size<sizeof(GenericMethodHelper), 40 + sizeof(::ArrayW<System::Type*>)> __NUnit_Framework_Internal_GenericMethodHelperSizeCheck;
   static_assert(sizeof(GenericMethodHelper) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::GenericMethodHelper*, "NUnit.Framework.Internal", "GenericMethodHelper");
@@ -136,7 +143,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Writing MetadataGetter for method: NUnit::Framework::Internal::GenericMethodHelper::get_TypeParms
 // Il2CppName: get_TypeParms
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::Type*> (NUnit::Framework::Internal::GenericMethodHelper::*)()>(&NUnit::Framework::Internal::GenericMethodHelper::get_TypeParms)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Type*> (NUnit::Framework::Internal::GenericMethodHelper::*)()>(&NUnit::Framework::Internal::GenericMethodHelper::get_TypeParms)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::GenericMethodHelper*), "get_TypeParms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -144,7 +151,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: NUnit::Framework::Internal::GenericMethodHelper::set_TypeParms
 // Il2CppName: set_TypeParms
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::GenericMethodHelper::*)(::ArrayWrapper<System::Type*>)>(&NUnit::Framework::Internal::GenericMethodHelper::set_TypeParms)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::GenericMethodHelper::*)(::ArrayW<System::Type*>)>(&NUnit::Framework::Internal::GenericMethodHelper::set_TypeParms)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Type"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::GenericMethodHelper*), "set_TypeParms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -153,7 +160,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Writing MetadataGetter for method: NUnit::Framework::Internal::GenericMethodHelper::get_TypeArgs
 // Il2CppName: get_TypeArgs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::Type*> (NUnit::Framework::Internal::GenericMethodHelper::*)()>(&NUnit::Framework::Internal::GenericMethodHelper::get_TypeArgs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Type*> (NUnit::Framework::Internal::GenericMethodHelper::*)()>(&NUnit::Framework::Internal::GenericMethodHelper::get_TypeArgs)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::GenericMethodHelper*), "get_TypeArgs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -161,7 +168,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: NUnit::Framework::Internal::GenericMethodHelper::set_TypeArgs
 // Il2CppName: set_TypeArgs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::GenericMethodHelper::*)(::ArrayWrapper<System::Type*>)>(&NUnit::Framework::Internal::GenericMethodHelper::set_TypeArgs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::GenericMethodHelper::*)(::ArrayW<System::Type*>)>(&NUnit::Framework::Internal::GenericMethodHelper::set_TypeArgs)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Type"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::GenericMethodHelper*), "set_TypeArgs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -170,7 +177,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Writing MetadataGetter for method: NUnit::Framework::Internal::GenericMethodHelper::get_ParmTypes
 // Il2CppName: get_ParmTypes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::Type*> (NUnit::Framework::Internal::GenericMethodHelper::*)()>(&NUnit::Framework::Internal::GenericMethodHelper::get_ParmTypes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Type*> (NUnit::Framework::Internal::GenericMethodHelper::*)()>(&NUnit::Framework::Internal::GenericMethodHelper::get_ParmTypes)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::GenericMethodHelper*), "get_ParmTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -178,7 +185,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: NUnit::Framework::Internal::GenericMethodHelper::set_ParmTypes
 // Il2CppName: set_ParmTypes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::GenericMethodHelper::*)(::ArrayWrapper<System::Type*>)>(&NUnit::Framework::Internal::GenericMethodHelper::set_ParmTypes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::GenericMethodHelper::*)(::ArrayW<System::Type*>)>(&NUnit::Framework::Internal::GenericMethodHelper::set_ParmTypes)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Type"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::GenericMethodHelper*), "set_ParmTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -191,7 +198,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Writing MetadataGetter for method: NUnit::Framework::Internal::GenericMethodHelper::GetTypeArguments
 // Il2CppName: GetTypeArguments
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::Type*> (NUnit::Framework::Internal::GenericMethodHelper::*)(::ArrayWrapper<::Il2CppObject*>)>(&NUnit::Framework::Internal::GenericMethodHelper::GetTypeArguments)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Type*> (NUnit::Framework::Internal::GenericMethodHelper::*)(::ArrayW<::Il2CppObject*>)>(&NUnit::Framework::Internal::GenericMethodHelper::GetTypeArguments)> {
   static const MethodInfo* get() {
     static auto* argList = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::GenericMethodHelper*), "GetTypeArguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{argList});

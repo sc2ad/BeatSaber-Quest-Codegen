@@ -27,6 +27,11 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class Leaderboard : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly System.String ApiName
     // Size: 0x8
     // Offset: 0x10
@@ -52,6 +57,7 @@ namespace Oculus::Platform::Models {
     uint64_t _ID;
     // Field size check
     static_assert(sizeof(uint64_t) == 0x8);
+    public:
     // Get instance field reference: public readonly System.String ApiName
     ::Il2CppString*& dyn_ApiName();
     // Get instance field reference: public readonly Oculus.Platform.Models.Destination DestinationOptional

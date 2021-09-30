@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::OpenSsl
@@ -36,10 +37,10 @@ namespace Org::BouncyCastle::OpenSsl {
     static void ParseDekAlgName(::Il2CppString* dekAlgName, ByRef<Org::BouncyCastle::OpenSsl::PemUtilities::PemBaseAlg> baseAlg, ByRef<Org::BouncyCastle::OpenSsl::PemUtilities::PemMode> mode);
     // static System.Byte[] Crypt(System.Boolean encrypt, System.Byte[] bytes, System.Char[] password, System.String dekAlgName, System.Byte[] iv)
     // Offset: 0x14BCE40
-    static ::ArrayWrapper<uint8_t> Crypt(bool encrypt, ::ArrayWrapper<uint8_t> bytes, ::ArrayWrapper<::Il2CppChar> password, ::Il2CppString* dekAlgName, ::ArrayWrapper<uint8_t> iv);
+    static ::ArrayW<uint8_t> Crypt(bool encrypt, ::ArrayW<uint8_t> bytes, ::ArrayW<::Il2CppChar> password, ::Il2CppString* dekAlgName, ::ArrayW<uint8_t> iv);
     // static private Org.BouncyCastle.Crypto.ICipherParameters GetCipherParameters(System.Char[] password, Org.BouncyCastle.OpenSsl.PemUtilities/Org.BouncyCastle.OpenSsl.PemBaseAlg baseAlg, System.Byte[] salt)
     // Offset: 0x14BF304
-    static Org::BouncyCastle::Crypto::ICipherParameters* GetCipherParameters(::ArrayWrapper<::Il2CppChar> password, Org::BouncyCastle::OpenSsl::PemUtilities::PemBaseAlg baseAlg, ::ArrayWrapper<uint8_t> salt);
+    static Org::BouncyCastle::Crypto::ICipherParameters* GetCipherParameters(::ArrayW<::Il2CppChar> password, Org::BouncyCastle::OpenSsl::PemUtilities::PemBaseAlg baseAlg, ::ArrayW<uint8_t> salt);
   }; // Org.BouncyCastle.OpenSsl.PemUtilities
   #pragma pack(pop)
 }
@@ -68,7 +69,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::OpenSsl::PemUtilities::Crypt
 // Il2CppName: Crypt
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(bool, ::ArrayWrapper<uint8_t>, ::ArrayWrapper<::Il2CppChar>, ::Il2CppString*, ::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::OpenSsl::PemUtilities::Crypt)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(bool, ::ArrayW<uint8_t>, ::ArrayW<::Il2CppChar>, ::Il2CppString*, ::ArrayW<uint8_t>)>(&Org::BouncyCastle::OpenSsl::PemUtilities::Crypt)> {
   static const MethodInfo* get() {
     static auto* encrypt = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     static auto* bytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -81,7 +82,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: Org::BouncyCastle::OpenSsl::PemUtilities::GetCipherParameters
 // Il2CppName: GetCipherParameters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::ICipherParameters* (*)(::ArrayWrapper<::Il2CppChar>, Org::BouncyCastle::OpenSsl::PemUtilities::PemBaseAlg, ::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::OpenSsl::PemUtilities::GetCipherParameters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::ICipherParameters* (*)(::ArrayW<::Il2CppChar>, Org::BouncyCastle::OpenSsl::PemUtilities::PemBaseAlg, ::ArrayW<uint8_t>)>(&Org::BouncyCastle::OpenSsl::PemUtilities::GetCipherParameters)> {
   static const MethodInfo* get() {
     static auto* password = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* baseAlg = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.OpenSsl", "PemUtilities/PemBaseAlg")->byval_arg;

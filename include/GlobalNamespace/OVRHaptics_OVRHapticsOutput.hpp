@@ -37,6 +37,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker
     class ClipPlaybackTracker;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean m_lowLatencyMode
     // Size: 0x1
     // Offset: 0x10
@@ -107,6 +112,7 @@ namespace GlobalNamespace {
     GlobalNamespace::OVRHapticsClip* m_paddingClip;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OVRHapticsClip*) == 0x8);
+    public:
     // Get instance field reference: private System.Boolean m_lowLatencyMode
     bool& dyn_m_lowLatencyMode();
     // Get instance field reference: private System.Boolean m_paddingEnabled

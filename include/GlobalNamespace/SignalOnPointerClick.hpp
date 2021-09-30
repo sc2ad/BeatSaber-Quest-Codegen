@@ -34,6 +34,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SignalOnPointerClick : public UnityEngine::MonoBehaviour/*, public UnityEngine::EventSystems::IPointerClickHandler*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [SignalSenderAttribute] Offset: 0xEC9B50
     // private Signal _inputFieldClickedSignal
     // Size: 0x8
@@ -41,6 +46,7 @@ namespace GlobalNamespace {
     GlobalNamespace::Signal* inputFieldClickedSignal;
     // Field size check
     static_assert(sizeof(GlobalNamespace::Signal*) == 0x8);
+    public:
     // Creating interface conversion operator: operator UnityEngine::EventSystems::IPointerClickHandler
     operator UnityEngine::EventSystems::IPointerClickHandler() noexcept {
       return *reinterpret_cast<UnityEngine::EventSystems::IPointerClickHandler*>(this);

@@ -7,6 +7,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Matrix4x4
 #include "UnityEngine/Matrix4x4.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Rendering
@@ -97,7 +98,7 @@ namespace UnityEngine {
     static void Internal_DrawTexture(ByRef<UnityEngine::Internal_DrawTextureArguments> args);
     // static private System.Void Internal_DrawMeshInstanced(UnityEngine.Mesh mesh, System.Int32 submeshIndex, UnityEngine.Material material, UnityEngine.Matrix4x4[] matrices, System.Int32 count, UnityEngine.MaterialPropertyBlock properties, UnityEngine.Rendering.ShadowCastingMode castShadows, System.Boolean receiveShadows, System.Int32 layer, UnityEngine.Camera camera, UnityEngine.Rendering.LightProbeUsage lightProbeUsage, UnityEngine.LightProbeProxyVolume lightProbeProxyVolume)
     // Offset: 0x1CBF360
-    static void Internal_DrawMeshInstanced(UnityEngine::Mesh* mesh, int submeshIndex, UnityEngine::Material* material, ::ArrayWrapper<UnityEngine::Matrix4x4> matrices, int count, UnityEngine::MaterialPropertyBlock* properties, UnityEngine::Rendering::ShadowCastingMode castShadows, bool receiveShadows, int layer, UnityEngine::Camera* camera, UnityEngine::Rendering::LightProbeUsage lightProbeUsage, UnityEngine::LightProbeProxyVolume* lightProbeProxyVolume);
+    static void Internal_DrawMeshInstanced(UnityEngine::Mesh* mesh, int submeshIndex, UnityEngine::Material* material, ::ArrayW<UnityEngine::Matrix4x4> matrices, int count, UnityEngine::MaterialPropertyBlock* properties, UnityEngine::Rendering::ShadowCastingMode castShadows, bool receiveShadows, int layer, UnityEngine::Camera* camera, UnityEngine::Rendering::LightProbeUsage lightProbeUsage, UnityEngine::LightProbeProxyVolume* lightProbeProxyVolume);
     // static private System.Void Internal_BlitMaterial5(UnityEngine.Texture source, UnityEngine.RenderTexture dest, UnityEngine.Material mat, System.Int32 pass, System.Boolean setRT)
     // Offset: 0x1CBF424
     static void Internal_BlitMaterial5(UnityEngine::Texture* source, UnityEngine::RenderTexture* dest, UnityEngine::Material* mat, int pass, bool setRT);
@@ -139,7 +140,7 @@ namespace UnityEngine {
     static void DrawMeshNow(UnityEngine::Mesh* mesh, UnityEngine::Matrix4x4 matrix, int materialIndex);
     // static public System.Void DrawMeshInstanced(UnityEngine.Mesh mesh, System.Int32 submeshIndex, UnityEngine.Material material, UnityEngine.Matrix4x4[] matrices, System.Int32 count, UnityEngine.MaterialPropertyBlock properties, UnityEngine.Rendering.ShadowCastingMode castShadows, System.Boolean receiveShadows, System.Int32 layer, UnityEngine.Camera camera, UnityEngine.Rendering.LightProbeUsage lightProbeUsage, UnityEngine.LightProbeProxyVolume lightProbeProxyVolume)
     // Offset: 0x1CBFF10
-    static void DrawMeshInstanced(UnityEngine::Mesh* mesh, int submeshIndex, UnityEngine::Material* material, ::ArrayWrapper<UnityEngine::Matrix4x4> matrices, int count, UnityEngine::MaterialPropertyBlock* properties, UnityEngine::Rendering::ShadowCastingMode castShadows, bool receiveShadows, int layer, UnityEngine::Camera* camera, UnityEngine::Rendering::LightProbeUsage lightProbeUsage, UnityEngine::LightProbeProxyVolume* lightProbeProxyVolume);
+    static void DrawMeshInstanced(UnityEngine::Mesh* mesh, int submeshIndex, UnityEngine::Material* material, ::ArrayW<UnityEngine::Matrix4x4> matrices, int count, UnityEngine::MaterialPropertyBlock* properties, UnityEngine::Rendering::ShadowCastingMode castShadows, bool receiveShadows, int layer, UnityEngine::Camera* camera, UnityEngine::Rendering::LightProbeUsage lightProbeUsage, UnityEngine::LightProbeProxyVolume* lightProbeProxyVolume);
     // static public System.Void Blit(UnityEngine.Texture source, UnityEngine.RenderTexture dest)
     // Offset: 0x1CC03CC
     static void Blit(UnityEngine::Texture* source, UnityEngine::RenderTexture* dest);
@@ -154,7 +155,7 @@ namespace UnityEngine {
     static void Blit(UnityEngine::Texture* source, UnityEngine::RenderTexture* dest, UnityEngine::Material* mat);
     // static public System.Void DrawMeshInstanced(UnityEngine.Mesh mesh, System.Int32 submeshIndex, UnityEngine.Material material, UnityEngine.Matrix4x4[] matrices, System.Int32 count, UnityEngine.MaterialPropertyBlock properties, UnityEngine.Rendering.ShadowCastingMode castShadows, System.Boolean receiveShadows, System.Int32 layer)
     // Offset: 0x1CC0634
-    static void DrawMeshInstanced(UnityEngine::Mesh* mesh, int submeshIndex, UnityEngine::Material* material, ::ArrayWrapper<UnityEngine::Matrix4x4> matrices, int count, UnityEngine::MaterialPropertyBlock* properties, UnityEngine::Rendering::ShadowCastingMode castShadows, bool receiveShadows, int layer);
+    static void DrawMeshInstanced(UnityEngine::Mesh* mesh, int submeshIndex, UnityEngine::Material* material, ::ArrayW<UnityEngine::Matrix4x4> matrices, int count, UnityEngine::MaterialPropertyBlock* properties, UnityEngine::Rendering::ShadowCastingMode castShadows, bool receiveShadows, int layer);
     // static public System.Void DrawTexture(UnityEngine.Rect screenRect, UnityEngine.Texture texture, UnityEngine.Material mat)
     // Offset: 0x1CC0714
     static void DrawTexture(UnityEngine::Rect screenRect, UnityEngine::Texture* texture, UnityEngine::Material* mat);
@@ -270,7 +271,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(By
 // Writing MetadataGetter for method: UnityEngine::Graphics::Internal_DrawMeshInstanced
 // Il2CppName: Internal_DrawMeshInstanced
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Mesh*, int, UnityEngine::Material*, ::ArrayWrapper<UnityEngine::Matrix4x4>, int, UnityEngine::MaterialPropertyBlock*, UnityEngine::Rendering::ShadowCastingMode, bool, int, UnityEngine::Camera*, UnityEngine::Rendering::LightProbeUsage, UnityEngine::LightProbeProxyVolume*)>(&UnityEngine::Graphics::Internal_DrawMeshInstanced)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Mesh*, int, UnityEngine::Material*, ::ArrayW<UnityEngine::Matrix4x4>, int, UnityEngine::MaterialPropertyBlock*, UnityEngine::Rendering::ShadowCastingMode, bool, int, UnityEngine::Camera*, UnityEngine::Rendering::LightProbeUsage, UnityEngine::LightProbeProxyVolume*)>(&UnityEngine::Graphics::Internal_DrawMeshInstanced)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->byval_arg;
     static auto* submeshIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -459,7 +460,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Graphics::DrawMeshInstanced
 // Il2CppName: DrawMeshInstanced
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Mesh*, int, UnityEngine::Material*, ::ArrayWrapper<UnityEngine::Matrix4x4>, int, UnityEngine::MaterialPropertyBlock*, UnityEngine::Rendering::ShadowCastingMode, bool, int, UnityEngine::Camera*, UnityEngine::Rendering::LightProbeUsage, UnityEngine::LightProbeProxyVolume*)>(&UnityEngine::Graphics::DrawMeshInstanced)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Mesh*, int, UnityEngine::Material*, ::ArrayW<UnityEngine::Matrix4x4>, int, UnityEngine::MaterialPropertyBlock*, UnityEngine::Rendering::ShadowCastingMode, bool, int, UnityEngine::Camera*, UnityEngine::Rendering::LightProbeUsage, UnityEngine::LightProbeProxyVolume*)>(&UnityEngine::Graphics::DrawMeshInstanced)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->byval_arg;
     static auto* submeshIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -524,7 +525,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Graphics::DrawMeshInstanced
 // Il2CppName: DrawMeshInstanced
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Mesh*, int, UnityEngine::Material*, ::ArrayWrapper<UnityEngine::Matrix4x4>, int, UnityEngine::MaterialPropertyBlock*, UnityEngine::Rendering::ShadowCastingMode, bool, int)>(&UnityEngine::Graphics::DrawMeshInstanced)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Mesh*, int, UnityEngine::Material*, ::ArrayW<UnityEngine::Matrix4x4>, int, UnityEngine::MaterialPropertyBlock*, UnityEngine::Rendering::ShadowCastingMode, bool, int)>(&UnityEngine::Graphics::DrawMeshInstanced)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->byval_arg;
     static auto* submeshIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

@@ -38,6 +38,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MockMasterServerQuickPlaySetupModel : public ::Il2CppObject/*, public GlobalNamespace::IMasterServerQuickPlaySetupModel*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xF08E80
     // private readonly MasterServerQuickPlaySetupData _masterServerQuickPlaySetupData
     // Size: 0x8
@@ -45,6 +50,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MasterServerQuickPlaySetupData* masterServerQuickPlaySetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MasterServerQuickPlaySetupData*) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IMasterServerQuickPlaySetupModel
     operator GlobalNamespace::IMasterServerQuickPlaySetupModel() noexcept {
       return *reinterpret_cast<GlobalNamespace::IMasterServerQuickPlaySetupModel*>(this);

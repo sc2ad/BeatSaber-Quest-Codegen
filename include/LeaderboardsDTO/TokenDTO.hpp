@@ -18,6 +18,11 @@ namespace LeaderboardsDTO {
   // [TokenAttribute] Offset: FFFFFFFF
   class TokenDTO : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.String token
     // Size: 0x8
     // Offset: 0x10
@@ -30,6 +35,7 @@ namespace LeaderboardsDTO {
     int expireIn;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: public System.String token
     ::Il2CppString*& dyn_token();
     // Get instance field reference: public System.Int32 expireIn

@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -39,6 +40,11 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class Cookie : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String m_comment
     // Size: 0x8
     // Offset: 0x10
@@ -122,9 +128,9 @@ namespace System::Net {
     // private System.Int32[] m_port_list
     // Size: 0x8
     // Offset: 0x68
-    ::ArrayWrapper<int> m_port_list;
+    ::ArrayW<int> m_port_list;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // private System.Boolean m_secure
     // Size: 0x1
     // Offset: 0x70
@@ -178,18 +184,19 @@ namespace System::Net {
     bool IsQuotedDomain;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get static field: static readonly System.Char[] PortSplitDelimiters
-    static ::ArrayWrapper<::Il2CppChar> _get_PortSplitDelimiters();
+    static ::ArrayW<::Il2CppChar> _get_PortSplitDelimiters();
     // Set static field: static readonly System.Char[] PortSplitDelimiters
-    static void _set_PortSplitDelimiters(::ArrayWrapper<::Il2CppChar> value);
+    static void _set_PortSplitDelimiters(::ArrayW<::Il2CppChar> value);
     // Get static field: static readonly System.Char[] Reserved2Name
-    static ::ArrayWrapper<::Il2CppChar> _get_Reserved2Name();
+    static ::ArrayW<::Il2CppChar> _get_Reserved2Name();
     // Set static field: static readonly System.Char[] Reserved2Name
-    static void _set_Reserved2Name(::ArrayWrapper<::Il2CppChar> value);
+    static void _set_Reserved2Name(::ArrayW<::Il2CppChar> value);
     // Get static field: static readonly System.Char[] Reserved2Value
-    static ::ArrayWrapper<::Il2CppChar> _get_Reserved2Value();
+    static ::ArrayW<::Il2CppChar> _get_Reserved2Value();
     // Set static field: static readonly System.Char[] Reserved2Value
-    static void _set_Reserved2Value(::ArrayWrapper<::Il2CppChar> value);
+    static void _set_Reserved2Value(::ArrayW<::Il2CppChar> value);
     // Get static field: static private System.Net.Comparer staticComparer
     static System::Net::Comparer* _get_staticComparer();
     // Set static field: static private System.Net.Comparer staticComparer
@@ -219,7 +226,7 @@ namespace System::Net {
     // Get instance field reference: private System.Boolean m_port_implicit
     bool& dyn_m_port_implicit();
     // Get instance field reference: private System.Int32[] m_port_list
-    ::ArrayWrapper<int>& dyn_m_port_list();
+    ::ArrayW<int>& dyn_m_port_list();
     // Get instance field reference: private System.Boolean m_secure
     bool& dyn_m_secure();
     // Get instance field reference: private System.Boolean m_httpOnly
@@ -292,7 +299,7 @@ namespace System::Net {
     void set_Port(::Il2CppString* value);
     // System.Int32[] get_PortList()
     // Offset: 0x1571B7C
-    ::ArrayWrapper<int> get_PortList();
+    ::ArrayW<int> get_PortList();
     // private System.String get__Port()
     // Offset: 0x1571B84
     ::Il2CppString* get__Port();
@@ -528,7 +535,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::Cookie::get_PortList
 // Il2CppName: get_PortList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<int> (System::Net::Cookie::*)()>(&System::Net::Cookie::get_PortList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int> (System::Net::Cookie::*)()>(&System::Net::Cookie::get_PortList)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::Cookie*), "get_PortList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

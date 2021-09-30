@@ -21,12 +21,18 @@ namespace UnityEngine::Internal {
   // [AttributeUsageAttribute] Offset: E7418C
   class DefaultValueAttribute : public System::Attribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Object DefaultValue
     // Size: 0x8
     // Offset: 0x10
     ::Il2CppObject* DefaultValue;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
+    public:
     // Creating conversion operator: operator ::Il2CppObject*
     constexpr operator ::Il2CppObject*() const noexcept {
       return DefaultValue;

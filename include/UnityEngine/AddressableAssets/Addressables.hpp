@@ -16,6 +16,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -115,12 +116,18 @@ namespace UnityEngine::AddressableAssets {
     // [TokenAttribute] Offset: FFFFFFFF
     struct MergeMode/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: MergeMode
       constexpr MergeMode(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -238,19 +245,19 @@ namespace UnityEngine::AddressableAssets {
     static void InternalSafeSerializationLog(::Il2CppString* msg, UnityEngine::LogType logType);
     // static System.Void InternalSafeSerializationLogFormat(System.String format, UnityEngine.LogType logType, params System.Object[] args)
     // Offset: 0x1589ED0
-    static void InternalSafeSerializationLogFormat(::Il2CppString* format, UnityEngine::LogType logType, ::ArrayWrapper<::Il2CppObject*> args);
+    static void InternalSafeSerializationLogFormat(::Il2CppString* format, UnityEngine::LogType logType, ::ArrayW<::Il2CppObject*> args);
     // static public System.Void Log(System.String msg)
     // Offset: 0x158A190
     static void Log(::Il2CppString* msg);
     // static public System.Void LogFormat(System.String format, params System.Object[] args)
     // Offset: 0x158A24C
-    static void LogFormat(::Il2CppString* format, ::ArrayWrapper<::Il2CppObject*> args);
+    static void LogFormat(::Il2CppString* format, ::ArrayW<::Il2CppObject*> args);
     // static public System.Void LogWarning(System.String msg)
     // Offset: 0x158A310
     static void LogWarning(::Il2CppString* msg);
     // static public System.Void LogWarningFormat(System.String format, params System.Object[] args)
     // Offset: 0x158A3CC
-    static void LogWarningFormat(::Il2CppString* format, ::ArrayWrapper<::Il2CppObject*> args);
+    static void LogWarningFormat(::Il2CppString* format, ::ArrayW<::Il2CppObject*> args);
     // static public System.Void LogError(System.String msg)
     // Offset: 0x158A490
     static void LogError(::Il2CppString* msg);
@@ -259,7 +266,7 @@ namespace UnityEngine::AddressableAssets {
     static void LogException(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op, System::Exception* ex);
     // static public System.Void LogErrorFormat(System.String format, params System.Object[] args)
     // Offset: 0x158A85C
-    static void LogErrorFormat(::Il2CppString* format, ::ArrayWrapper<::Il2CppObject*> args);
+    static void LogErrorFormat(::Il2CppString* format, ::ArrayW<::Il2CppObject*> args);
     // static public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator> Initialize()
     // Offset: 0x158A920
     static UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> Initialize();
@@ -729,7 +736,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Addressables::InternalSafeSerializationLogFormat
 // Il2CppName: InternalSafeSerializationLogFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, UnityEngine::LogType, ::ArrayWrapper<::Il2CppObject*>)>(&UnityEngine::AddressableAssets::Addressables::InternalSafeSerializationLogFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, UnityEngine::LogType, ::ArrayW<::Il2CppObject*>)>(&UnityEngine::AddressableAssets::Addressables::InternalSafeSerializationLogFormat)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* logType = &::il2cpp_utils::GetClassFromName("UnityEngine", "LogType")->byval_arg;
@@ -749,7 +756,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Addressables::LogFormat
 // Il2CppName: LogFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayWrapper<::Il2CppObject*>)>(&UnityEngine::AddressableAssets::Addressables::LogFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayW<::Il2CppObject*>)>(&UnityEngine::AddressableAssets::Addressables::LogFormat)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
@@ -768,7 +775,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Addressables::LogWarningFormat
 // Il2CppName: LogWarningFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayWrapper<::Il2CppObject*>)>(&UnityEngine::AddressableAssets::Addressables::LogWarningFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayW<::Il2CppObject*>)>(&UnityEngine::AddressableAssets::Addressables::LogWarningFormat)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
@@ -797,7 +804,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Addressables::LogErrorFormat
 // Il2CppName: LogErrorFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayWrapper<::Il2CppObject*>)>(&UnityEngine::AddressableAssets::Addressables::LogErrorFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayW<::Il2CppObject*>)>(&UnityEngine::AddressableAssets::Addressables::LogErrorFormat)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;

@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -43,13 +44,18 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::CustomTweenBehaviour::$$c
     class $$c;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [NullAllowed] Offset: 0xF14380
     // public UnityEngine.Transform[] _transforms
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<UnityEngine::Transform*> transforms;
+    ::ArrayW<UnityEngine::Transform*> transforms;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Transform*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Transform*>) == 0x8);
     // public System.Boolean startLocationCurrentPosition
     // Size: 0x1
     // Offset: 0x18
@@ -137,9 +143,9 @@ namespace GlobalNamespace {
     // private UnityEngine.Vector3[] _originalLocalPos
     // Size: 0x8
     // Offset: 0x50
-    ::ArrayWrapper<UnityEngine::Vector3> originalLocalPos;
+    ::ArrayW<UnityEngine::Vector3> originalLocalPos;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector3>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Vector3>) == 0x8);
     // private System.Boolean _initialized
     // Size: 0x1
     // Offset: 0x58
@@ -151,17 +157,18 @@ namespace GlobalNamespace {
     // private System.Int32[] _randomizedOrder
     // Size: 0x8
     // Offset: 0x60
-    ::ArrayWrapper<int> randomizedOrder;
+    ::ArrayW<int> randomizedOrder;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // private System.Single[] _randomizedDuration
     // Size: 0x8
     // Offset: 0x68
-    ::ArrayWrapper<float> randomizedDuration;
+    ::ArrayW<float> randomizedDuration;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<float>) == 0x8);
+    static_assert(sizeof(::ArrayW<float>) == 0x8);
+    public:
     // Get instance field reference: public UnityEngine.Transform[] _transforms
-    ::ArrayWrapper<UnityEngine::Transform*>& dyn__transforms();
+    ::ArrayW<UnityEngine::Transform*>& dyn__transforms();
     // Get instance field reference: public System.Boolean startLocationCurrentPosition
     bool& dyn_startLocationCurrentPosition();
     // Get instance field reference: public UnityEngine.Vector3 startLocalPos
@@ -189,13 +196,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _perItemDuration
     float& dyn__perItemDuration();
     // Get instance field reference: private UnityEngine.Vector3[] _originalLocalPos
-    ::ArrayWrapper<UnityEngine::Vector3>& dyn__originalLocalPos();
+    ::ArrayW<UnityEngine::Vector3>& dyn__originalLocalPos();
     // Get instance field reference: private System.Boolean _initialized
     bool& dyn__initialized();
     // Get instance field reference: private System.Int32[] _randomizedOrder
-    ::ArrayWrapper<int>& dyn__randomizedOrder();
+    ::ArrayW<int>& dyn__randomizedOrder();
     // Get instance field reference: private System.Single[] _randomizedDuration
-    ::ArrayWrapper<float>& dyn__randomizedDuration();
+    ::ArrayW<float>& dyn__randomizedDuration();
     // public System.Void .ctor()
     // Offset: 0x11A2E40
     // Implemented from: UnityEngine.Playables.PlayableBehaviour
@@ -228,7 +235,7 @@ namespace GlobalNamespace {
     void OnBehaviourPlay(UnityEngine::Playables::Playable playable, UnityEngine::Playables::FrameData info);
   }; // CustomTweenBehaviour
   #pragma pack(pop)
-  static check_size<sizeof(CustomTweenBehaviour), 104 + sizeof(::ArrayWrapper<float>)> __GlobalNamespace_CustomTweenBehaviourSizeCheck;
+  static check_size<sizeof(CustomTweenBehaviour), 104 + sizeof(::ArrayW<float>)> __GlobalNamespace_CustomTweenBehaviourSizeCheck;
   static_assert(sizeof(CustomTweenBehaviour) == 0x70);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CustomTweenBehaviour*, "", "CustomTweenBehaviour");

@@ -20,6 +20,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class TrackLaneRingsRotationEffect::RingRotationEffect : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Single rotationAngle
     // Size: 0x4
     // Offset: 0x10
@@ -50,6 +55,7 @@ namespace GlobalNamespace {
     int progressPos;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: public System.Single rotationAngle
     float& dyn_rotationAngle();
     // Get instance field reference: public System.Single rotationStep

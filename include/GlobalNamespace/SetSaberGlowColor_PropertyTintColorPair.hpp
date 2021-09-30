@@ -22,6 +22,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SetSaberGlowColor::PropertyTintColorPair : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Color tintColor
     // Size: 0x10
     // Offset: 0x10
@@ -34,6 +39,7 @@ namespace GlobalNamespace {
     ::Il2CppString* property;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: public UnityEngine.Color tintColor
     UnityEngine::Color& dyn_tintColor();
     // Get instance field reference: public System.String property

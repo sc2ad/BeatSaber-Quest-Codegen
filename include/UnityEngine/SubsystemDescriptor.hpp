@@ -20,6 +20,11 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class SubsystemDescriptor : public ::Il2CppObject/*, public UnityEngine::ISubsystemDescriptor*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [DebuggerBrowsableAttribute] Offset: 0xE888DC
     // private System.String <id>k__BackingField
     // Size: 0x8
@@ -27,6 +32,7 @@ namespace UnityEngine {
     ::Il2CppString* id;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Creating interface conversion operator: operator UnityEngine::ISubsystemDescriptor
     operator UnityEngine::ISubsystemDescriptor() noexcept {
       return *reinterpret_cast<UnityEngine::ISubsystemDescriptor*>(this);

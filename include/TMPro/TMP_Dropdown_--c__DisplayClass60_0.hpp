@@ -21,6 +21,11 @@ namespace TMPro {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class TMP_Dropdown::$$c__DisplayClass60_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public TMPro.TMP_Dropdown/TMPro.DropdownItem item
     // Size: 0x8
     // Offset: 0x10
@@ -33,6 +38,7 @@ namespace TMPro {
     TMPro::TMP_Dropdown* $$4__this;
     // Field size check
     static_assert(sizeof(TMPro::TMP_Dropdown*) == 0x8);
+    public:
     // Get instance field reference: public TMPro.TMP_Dropdown/TMPro.DropdownItem item
     TMPro::TMP_Dropdown::DropdownItem*& dyn_item();
     // Get instance field reference: public TMPro.TMP_Dropdown <>4__this

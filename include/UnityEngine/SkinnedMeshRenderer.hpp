@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -60,10 +61,10 @@ namespace UnityEngine {
     void set_rootBone(UnityEngine::Transform* value);
     // public UnityEngine.Transform[] get_bones()
     // Offset: 0x233E95C
-    ::ArrayWrapper<UnityEngine::Transform*> get_bones();
+    ::ArrayW<UnityEngine::Transform*> get_bones();
     // public System.Void set_bones(UnityEngine.Transform[] value)
     // Offset: 0x233E99C
-    void set_bones(::ArrayWrapper<UnityEngine::Transform*> value);
+    void set_bones(::ArrayW<UnityEngine::Transform*> value);
     // public UnityEngine.Mesh get_sharedMesh()
     // Offset: 0x233E9EC
     UnityEngine::Mesh* get_sharedMesh();
@@ -191,7 +192,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::SkinnedMeshRenderer::get_bones
 // Il2CppName: get_bones
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Transform*> (UnityEngine::SkinnedMeshRenderer::*)()>(&UnityEngine::SkinnedMeshRenderer::get_bones)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Transform*> (UnityEngine::SkinnedMeshRenderer::*)()>(&UnityEngine::SkinnedMeshRenderer::get_bones)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::SkinnedMeshRenderer*), "get_bones", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -199,7 +200,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::SkinnedMeshRenderer::set_bones
 // Il2CppName: set_bones
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::SkinnedMeshRenderer::*)(::ArrayWrapper<UnityEngine::Transform*>)>(&UnityEngine::SkinnedMeshRenderer::set_bones)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::SkinnedMeshRenderer::*)(::ArrayW<UnityEngine::Transform*>)>(&UnityEngine::SkinnedMeshRenderer::set_bones)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Transform"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::SkinnedMeshRenderer*), "set_bones", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

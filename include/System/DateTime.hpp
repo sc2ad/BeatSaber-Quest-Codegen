@@ -27,6 +27,7 @@
 #include "System/Double.hpp"
 // Including type: System.UInt64
 #include "System/UInt64.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -69,12 +70,18 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   struct DateTime/*, public System::ValueType, public System::IComparable_1<System::DateTime>, public System::IEquatable_1<System::DateTime>, public System::Runtime::Serialization::ISerializable, public System::IComparable, public System::IConvertible, public System::IFormattable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.UInt64 dateData
     // Size: 0x8
     // Offset: 0x0
     uint64_t dateData;
     // Field size check
     static_assert(sizeof(uint64_t) == 0x8);
+    public:
     // Creating value type constructor for type: DateTime
     constexpr DateTime(uint64_t dateData_ = {}) noexcept : dateData{dateData_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -284,13 +291,13 @@ namespace System {
     // Set static field: static private System.Int32 DatePartDay
     static void _set_DatePartDay(int value);
     // Get static field: static private readonly System.Int32[] DaysToMonth365
-    static ::ArrayWrapper<int> _get_DaysToMonth365();
+    static ::ArrayW<int> _get_DaysToMonth365();
     // Set static field: static private readonly System.Int32[] DaysToMonth365
-    static void _set_DaysToMonth365(::ArrayWrapper<int> value);
+    static void _set_DaysToMonth365(::ArrayW<int> value);
     // Get static field: static private readonly System.Int32[] DaysToMonth366
-    static ::ArrayWrapper<int> _get_DaysToMonth366();
+    static ::ArrayW<int> _get_DaysToMonth366();
     // Set static field: static private readonly System.Int32[] DaysToMonth366
-    static void _set_DaysToMonth366(::ArrayWrapper<int> value);
+    static void _set_DaysToMonth366(::ArrayW<int> value);
     // Get static field: static public readonly System.DateTime MinValue
     static System::DateTime _get_MinValue();
     // Set static field: static public readonly System.DateTime MinValue

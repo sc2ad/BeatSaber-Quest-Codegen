@@ -25,6 +25,11 @@ namespace System::Text {
   // [TokenAttribute] Offset: FFFFFFFF
   class EncoderFallbackBuffer : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Char* charStart
     // Size: 0x8
     // Offset: 0x10
@@ -69,6 +74,7 @@ namespace System::Text {
     int iRecursionCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: System.Char* charStart
     ::Il2CppChar*& dyn_charStart();
     // Get instance field reference: System.Char* charEnd

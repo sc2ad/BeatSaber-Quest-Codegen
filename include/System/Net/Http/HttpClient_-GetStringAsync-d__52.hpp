@@ -33,6 +33,11 @@ namespace System::Net::Http {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   struct HttpClient::$GetStringAsync$d__52/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0
@@ -69,6 +74,7 @@ namespace System::Net::Http {
     // Size: 0xFFFFFFFF
     // Offset: 0x48
     typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<::Il2CppString*>::ConfiguredTaskAwaiter $$u__2;
+    public:
     // Creating value type constructor for type: $GetStringAsync$d__52
     constexpr $GetStringAsync$d__52(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::Il2CppString*> $$t__builder_ = {}, System::Net::Http::HttpClient* $$4__this_ = {}, ::Il2CppString* requestUri_ = {}, System::Net::Http::HttpResponseMessage* $resp$5__1_ = {}, typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<System::Net::Http::HttpResponseMessage*>::ConfiguredTaskAwaiter $$u__1_ = {}, typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<::Il2CppString*>::ConfiguredTaskAwaiter $$u__2_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, requestUri{requestUri_}, $resp$5__1{$resp$5__1_}, $$u__1{$$u__1_}, $$u__2{$$u__2_} {}
     // Creating interface conversion operator: operator System::ValueType

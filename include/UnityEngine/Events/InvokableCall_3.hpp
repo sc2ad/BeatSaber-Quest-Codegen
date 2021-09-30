@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Events
@@ -33,6 +34,11 @@ namespace UnityEngine::Events {
   template<typename T1, typename T2, typename T3>
   class InvokableCall_3 : public UnityEngine::Events::BaseInvokableCall {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [DebuggerBrowsableAttribute] Offset: 0xE76828
     // private UnityEngine.Events.UnityAction`3<T1,T2,T3> Delegate
     // Size: 0x8
@@ -40,6 +46,7 @@ namespace UnityEngine::Events {
     UnityEngine::Events::UnityAction_3<T1, T2, T3>* Delegate;
     // Field size check
     static_assert(sizeof(UnityEngine::Events::UnityAction_3<T1, T2, T3>*) == 0x8);
+    public:
     // Creating conversion operator: operator UnityEngine::Events::UnityAction_3<T1, T2, T3>*
     constexpr operator UnityEngine::Events::UnityAction_3<T1, T2, T3>*() const noexcept {
       return Delegate;
@@ -96,7 +103,7 @@ namespace UnityEngine::Events {
     // Offset: 0xFFFFFFFF
     // Implemented from: UnityEngine.Events.BaseInvokableCall
     // Base method: System.Void BaseInvokableCall::Invoke(System.Object[] args)
-    void Invoke(::ArrayWrapper<::Il2CppObject*> args) {
+    void Invoke(::ArrayW<::Il2CppObject*> args) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Events::InvokableCall_3::Invoke");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Invoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(args)})));
       auto ___instance_arg = this;

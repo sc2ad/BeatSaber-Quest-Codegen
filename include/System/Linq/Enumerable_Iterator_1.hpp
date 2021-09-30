@@ -36,6 +36,11 @@ namespace System::Linq {
   template<typename TSource>
   class Enumerable::Iterator_1 : public ::Il2CppObject/*, public System::Collections::Generic::IEnumerable_1<TSource>, public System::Collections::Generic::IEnumerator_1<TSource>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 threadId
     // Size: 0x4
     // Offset: 0x0
@@ -52,6 +57,7 @@ namespace System::Linq {
     // Size: 0xFFFFFFFF
     // Offset: 0x0
     TSource current;
+    public:
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<TSource>
     operator System::Collections::Generic::IEnumerable_1<TSource>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<TSource>*>(this);

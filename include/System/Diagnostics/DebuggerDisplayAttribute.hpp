@@ -22,6 +22,11 @@ namespace System::Diagnostics {
   // [AttributeUsageAttribute] Offset: E626E8
   class DebuggerDisplayAttribute : public System::Attribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String name
     // Size: 0x8
     // Offset: 0x10
@@ -40,6 +45,7 @@ namespace System::Diagnostics {
     ::Il2CppString* type;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: private System.String name
     ::Il2CppString*& dyn_name();
     // Get instance field reference: private System.String value

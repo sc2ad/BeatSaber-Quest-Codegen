@@ -20,6 +20,11 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class ButtonSpriteSwapToggle : public HMUI::ButtonSpriteSwap {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean _resetToggleOnEnable
     // Size: 0x1
     // Offset: 0x49
@@ -38,6 +43,7 @@ namespace HMUI {
     bool isToggled;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private System.Boolean _resetToggleOnEnable
     bool& dyn__resetToggleOnEnable();
     // Get instance field reference: private System.Boolean _ignoreHighlight

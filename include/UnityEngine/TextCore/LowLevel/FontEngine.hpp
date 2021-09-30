@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::TextCore
@@ -60,33 +61,33 @@ namespace UnityEngine::TextCore::LowLevel {
   class FontEngine : public ::Il2CppObject {
     public:
     // Get static field: static private UnityEngine.TextCore.Glyph[] s_Glyphs
-    static ::ArrayWrapper<UnityEngine::TextCore::Glyph*> _get_s_Glyphs();
+    static ::ArrayW<UnityEngine::TextCore::Glyph*> _get_s_Glyphs();
     // Set static field: static private UnityEngine.TextCore.Glyph[] s_Glyphs
-    static void _set_s_Glyphs(::ArrayWrapper<UnityEngine::TextCore::Glyph*> value);
+    static void _set_s_Glyphs(::ArrayW<UnityEngine::TextCore::Glyph*> value);
     // Get static field: static private System.UInt32[] s_GlyphIndexes_MarshallingArray_A
-    static ::ArrayWrapper<uint> _get_s_GlyphIndexes_MarshallingArray_A();
+    static ::ArrayW<uint> _get_s_GlyphIndexes_MarshallingArray_A();
     // Set static field: static private System.UInt32[] s_GlyphIndexes_MarshallingArray_A
-    static void _set_s_GlyphIndexes_MarshallingArray_A(::ArrayWrapper<uint> value);
+    static void _set_s_GlyphIndexes_MarshallingArray_A(::ArrayW<uint> value);
     // Get static field: static private UnityEngine.TextCore.LowLevel.GlyphMarshallingStruct[] s_GlyphMarshallingStruct_IN
-    static ::ArrayWrapper<UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct> _get_s_GlyphMarshallingStruct_IN();
+    static ::ArrayW<UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct> _get_s_GlyphMarshallingStruct_IN();
     // Set static field: static private UnityEngine.TextCore.LowLevel.GlyphMarshallingStruct[] s_GlyphMarshallingStruct_IN
-    static void _set_s_GlyphMarshallingStruct_IN(::ArrayWrapper<UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct> value);
+    static void _set_s_GlyphMarshallingStruct_IN(::ArrayW<UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct> value);
     // Get static field: static private UnityEngine.TextCore.LowLevel.GlyphMarshallingStruct[] s_GlyphMarshallingStruct_OUT
-    static ::ArrayWrapper<UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct> _get_s_GlyphMarshallingStruct_OUT();
+    static ::ArrayW<UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct> _get_s_GlyphMarshallingStruct_OUT();
     // Set static field: static private UnityEngine.TextCore.LowLevel.GlyphMarshallingStruct[] s_GlyphMarshallingStruct_OUT
-    static void _set_s_GlyphMarshallingStruct_OUT(::ArrayWrapper<UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct> value);
+    static void _set_s_GlyphMarshallingStruct_OUT(::ArrayW<UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct> value);
     // Get static field: static private UnityEngine.TextCore.GlyphRect[] s_FreeGlyphRects
-    static ::ArrayWrapper<UnityEngine::TextCore::GlyphRect> _get_s_FreeGlyphRects();
+    static ::ArrayW<UnityEngine::TextCore::GlyphRect> _get_s_FreeGlyphRects();
     // Set static field: static private UnityEngine.TextCore.GlyphRect[] s_FreeGlyphRects
-    static void _set_s_FreeGlyphRects(::ArrayWrapper<UnityEngine::TextCore::GlyphRect> value);
+    static void _set_s_FreeGlyphRects(::ArrayW<UnityEngine::TextCore::GlyphRect> value);
     // Get static field: static private UnityEngine.TextCore.GlyphRect[] s_UsedGlyphRects
-    static ::ArrayWrapper<UnityEngine::TextCore::GlyphRect> _get_s_UsedGlyphRects();
+    static ::ArrayW<UnityEngine::TextCore::GlyphRect> _get_s_UsedGlyphRects();
     // Set static field: static private UnityEngine.TextCore.GlyphRect[] s_UsedGlyphRects
-    static void _set_s_UsedGlyphRects(::ArrayWrapper<UnityEngine::TextCore::GlyphRect> value);
+    static void _set_s_UsedGlyphRects(::ArrayW<UnityEngine::TextCore::GlyphRect> value);
     // Get static field: static private UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord[] s_PairAdjustmentRecords_MarshallingArray
-    static ::ArrayWrapper<UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord> _get_s_PairAdjustmentRecords_MarshallingArray();
+    static ::ArrayW<UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord> _get_s_PairAdjustmentRecords_MarshallingArray();
     // Set static field: static private UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord[] s_PairAdjustmentRecords_MarshallingArray
-    static void _set_s_PairAdjustmentRecords_MarshallingArray(::ArrayWrapper<UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord> value);
+    static void _set_s_PairAdjustmentRecords_MarshallingArray(::ArrayW<UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord> value);
     // Get static field: static private System.Collections.Generic.Dictionary`2<System.UInt32,UnityEngine.TextCore.Glyph> s_GlyphLookupDictionary
     static System::Collections::Generic::Dictionary_2<uint, UnityEngine::TextCore::Glyph*>* _get_s_GlyphLookupDictionary();
     // Set static field: static private System.Collections.Generic.Dictionary`2<System.UInt32,UnityEngine.TextCore.Glyph> s_GlyphLookupDictionary
@@ -132,38 +133,38 @@ namespace UnityEngine::TextCore::LowLevel {
     static bool TryPackGlyphInAtlas(UnityEngine::TextCore::Glyph* glyph, int padding, UnityEngine::TextCore::LowLevel::GlyphPackingMode packingMode, UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode, int width, int height, System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>* freeGlyphRects, System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>* usedGlyphRects);
     // static private System.Boolean TryPackGlyphInAtlas_Internal(ref UnityEngine.TextCore.LowLevel.GlyphMarshallingStruct glyph, System.Int32 padding, UnityEngine.TextCore.LowLevel.GlyphPackingMode packingMode, UnityEngine.TextCore.LowLevel.GlyphRenderMode renderMode, System.Int32 width, System.Int32 height, out UnityEngine.TextCore.GlyphRect[] freeGlyphRects, ref System.Int32 freeGlyphRectCount, out UnityEngine.TextCore.GlyphRect[] usedGlyphRects, ref System.Int32 usedGlyphRectCount)
     // Offset: 0x25FF50C
-    static bool TryPackGlyphInAtlas_Internal(ByRef<UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct> glyph, int padding, UnityEngine::TextCore::LowLevel::GlyphPackingMode packingMode, UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode, int width, int height, ByRef<::ArrayWrapper<UnityEngine::TextCore::GlyphRect>> freeGlyphRects, ByRef<int> freeGlyphRectCount, ByRef<::ArrayWrapper<UnityEngine::TextCore::GlyphRect>> usedGlyphRects, ByRef<int> usedGlyphRectCount);
+    static bool TryPackGlyphInAtlas_Internal(ByRef<UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct> glyph, int padding, UnityEngine::TextCore::LowLevel::GlyphPackingMode packingMode, UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode, int width, int height, ByRef<::ArrayW<UnityEngine::TextCore::GlyphRect>> freeGlyphRects, ByRef<int> freeGlyphRectCount, ByRef<::ArrayW<UnityEngine::TextCore::GlyphRect>> usedGlyphRects, ByRef<int> usedGlyphRectCount);
     // static UnityEngine.TextCore.LowLevel.FontEngineError RenderGlyphsToTexture(System.Collections.Generic.List`1<UnityEngine.TextCore.Glyph> glyphs, System.Int32 padding, UnityEngine.TextCore.LowLevel.GlyphRenderMode renderMode, UnityEngine.Texture2D texture)
     // Offset: 0x25FF5B0
     static UnityEngine::TextCore::LowLevel::FontEngineError RenderGlyphsToTexture(System::Collections::Generic::List_1<UnityEngine::TextCore::Glyph*>* glyphs, int padding, UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode, UnityEngine::Texture2D* texture);
     // static private System.Int32 RenderGlyphsToTexture_Internal(UnityEngine.TextCore.LowLevel.GlyphMarshallingStruct[] glyphs, System.Int32 glyphCount, System.Int32 padding, UnityEngine.TextCore.LowLevel.GlyphRenderMode renderMode, UnityEngine.Texture2D texture)
     // Offset: 0x25FF81C
-    static int RenderGlyphsToTexture_Internal(::ArrayWrapper<UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct> glyphs, int glyphCount, int padding, UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode, UnityEngine::Texture2D* texture);
+    static int RenderGlyphsToTexture_Internal(::ArrayW<UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct> glyphs, int glyphCount, int padding, UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode, UnityEngine::Texture2D* texture);
     // static System.Boolean TryAddGlyphToTexture(System.UInt32 glyphIndex, System.Int32 padding, UnityEngine.TextCore.LowLevel.GlyphPackingMode packingMode, System.Collections.Generic.List`1<UnityEngine.TextCore.GlyphRect> freeGlyphRects, System.Collections.Generic.List`1<UnityEngine.TextCore.GlyphRect> usedGlyphRects, UnityEngine.TextCore.LowLevel.GlyphRenderMode renderMode, UnityEngine.Texture2D texture, out UnityEngine.TextCore.Glyph glyph)
     // Offset: 0x25FF88C
     static bool TryAddGlyphToTexture(uint glyphIndex, int padding, UnityEngine::TextCore::LowLevel::GlyphPackingMode packingMode, System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>* freeGlyphRects, System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>* usedGlyphRects, UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode, UnityEngine::Texture2D* texture, ByRef<UnityEngine::TextCore::Glyph*> glyph);
     // static private System.Boolean TryAddGlyphToTexture_Internal(System.UInt32 glyphIndex, System.Int32 padding, UnityEngine.TextCore.LowLevel.GlyphPackingMode packingMode, out UnityEngine.TextCore.GlyphRect[] freeGlyphRects, ref System.Int32 freeGlyphRectCount, out UnityEngine.TextCore.GlyphRect[] usedGlyphRects, ref System.Int32 usedGlyphRectCount, UnityEngine.TextCore.LowLevel.GlyphRenderMode renderMode, UnityEngine.Texture2D texture, out UnityEngine.TextCore.LowLevel.GlyphMarshallingStruct glyph)
     // Offset: 0x25FFD90
-    static bool TryAddGlyphToTexture_Internal(uint glyphIndex, int padding, UnityEngine::TextCore::LowLevel::GlyphPackingMode packingMode, ByRef<::ArrayWrapper<UnityEngine::TextCore::GlyphRect>> freeGlyphRects, ByRef<int> freeGlyphRectCount, ByRef<::ArrayWrapper<UnityEngine::TextCore::GlyphRect>> usedGlyphRects, ByRef<int> usedGlyphRectCount, UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode, UnityEngine::Texture2D* texture, ByRef<UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct> glyph);
+    static bool TryAddGlyphToTexture_Internal(uint glyphIndex, int padding, UnityEngine::TextCore::LowLevel::GlyphPackingMode packingMode, ByRef<::ArrayW<UnityEngine::TextCore::GlyphRect>> freeGlyphRects, ByRef<int> freeGlyphRectCount, ByRef<::ArrayW<UnityEngine::TextCore::GlyphRect>> usedGlyphRects, ByRef<int> usedGlyphRectCount, UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode, UnityEngine::Texture2D* texture, ByRef<UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct> glyph);
     // static System.Boolean TryAddGlyphsToTexture(System.Collections.Generic.List`1<System.UInt32> glyphIndexes, System.Int32 padding, UnityEngine.TextCore.LowLevel.GlyphPackingMode packingMode, System.Collections.Generic.List`1<UnityEngine.TextCore.GlyphRect> freeGlyphRects, System.Collections.Generic.List`1<UnityEngine.TextCore.GlyphRect> usedGlyphRects, UnityEngine.TextCore.LowLevel.GlyphRenderMode renderMode, UnityEngine.Texture2D texture, out UnityEngine.TextCore.Glyph[] glyphs)
     // Offset: 0x25FFE34
-    static bool TryAddGlyphsToTexture(System::Collections::Generic::List_1<uint>* glyphIndexes, int padding, UnityEngine::TextCore::LowLevel::GlyphPackingMode packingMode, System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>* freeGlyphRects, System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>* usedGlyphRects, UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode, UnityEngine::Texture2D* texture, ByRef<::ArrayWrapper<UnityEngine::TextCore::Glyph*>> glyphs);
+    static bool TryAddGlyphsToTexture(System::Collections::Generic::List_1<uint>* glyphIndexes, int padding, UnityEngine::TextCore::LowLevel::GlyphPackingMode packingMode, System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>* freeGlyphRects, System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>* usedGlyphRects, UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode, UnityEngine::Texture2D* texture, ByRef<::ArrayW<UnityEngine::TextCore::Glyph*>> glyphs);
     // static private System.Boolean TryAddGlyphsToTexture_Internal(System.UInt32[] glyphIndex, System.Int32 padding, UnityEngine.TextCore.LowLevel.GlyphPackingMode packingMode, out UnityEngine.TextCore.GlyphRect[] freeGlyphRects, ref System.Int32 freeGlyphRectCount, out UnityEngine.TextCore.GlyphRect[] usedGlyphRects, ref System.Int32 usedGlyphRectCount, UnityEngine.TextCore.LowLevel.GlyphRenderMode renderMode, UnityEngine.Texture2D texture, out UnityEngine.TextCore.LowLevel.GlyphMarshallingStruct[] glyphs, ref System.Int32 glyphCount)
     // Offset: 0x260076C
-    static bool TryAddGlyphsToTexture_Internal(::ArrayWrapper<uint> glyphIndex, int padding, UnityEngine::TextCore::LowLevel::GlyphPackingMode packingMode, ByRef<::ArrayWrapper<UnityEngine::TextCore::GlyphRect>> freeGlyphRects, ByRef<int> freeGlyphRectCount, ByRef<::ArrayWrapper<UnityEngine::TextCore::GlyphRect>> usedGlyphRects, ByRef<int> usedGlyphRectCount, UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode, UnityEngine::Texture2D* texture, ByRef<::ArrayWrapper<UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>> glyphs, ByRef<int> glyphCount);
+    static bool TryAddGlyphsToTexture_Internal(::ArrayW<uint> glyphIndex, int padding, UnityEngine::TextCore::LowLevel::GlyphPackingMode packingMode, ByRef<::ArrayW<UnityEngine::TextCore::GlyphRect>> freeGlyphRects, ByRef<int> freeGlyphRectCount, ByRef<::ArrayW<UnityEngine::TextCore::GlyphRect>> usedGlyphRects, ByRef<int> usedGlyphRectCount, UnityEngine::TextCore::LowLevel::GlyphRenderMode renderMode, UnityEngine::Texture2D* texture, ByRef<::ArrayW<UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>> glyphs, ByRef<int> glyphCount);
     // static UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord[] GetGlyphPairAdjustmentTable(System.UInt32[] glyphIndexes)
     // Offset: 0x2600820
-    static ::ArrayWrapper<UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord> GetGlyphPairAdjustmentTable(::ArrayWrapper<uint> glyphIndexes);
+    static ::ArrayW<UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord> GetGlyphPairAdjustmentTable(::ArrayW<uint> glyphIndexes);
     // static private System.Int32 PopulatePairAdjustmentRecordMarshallingArray_from_GlyphIndexes(System.UInt32[] glyphIndexes, out System.Int32 recordCount)
     // Offset: 0x2600988
-    static int PopulatePairAdjustmentRecordMarshallingArray_from_GlyphIndexes(::ArrayWrapper<uint> glyphIndexes, ByRef<int> recordCount);
+    static int PopulatePairAdjustmentRecordMarshallingArray_from_GlyphIndexes(::ArrayW<uint> glyphIndexes, ByRef<int> recordCount);
     // static private System.Int32 GetGlyphPairAdjustmentRecordsFromMarshallingArray(out UnityEngine.TextCore.LowLevel.GlyphPairAdjustmentRecord[] glyphPairAdjustmentRecords)
     // Offset: 0x26009D8
-    static int GetGlyphPairAdjustmentRecordsFromMarshallingArray(ByRef<::ArrayWrapper<UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>> glyphPairAdjustmentRecords);
+    static int GetGlyphPairAdjustmentRecordsFromMarshallingArray(ByRef<::ArrayW<UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>> glyphPairAdjustmentRecords);
     // static private System.Void SetMarshallingArraySize(ref T[] marshallingArray, System.Int32 recordCount)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static void SetMarshallingArraySize(ByRef<::ArrayWrapper<T>> marshallingArray, int recordCount) {
+    static void SetMarshallingArraySize(ByRef<::ArrayW<T>> marshallingArray, int recordCount) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::TextCore::LowLevel::FontEngine::SetMarshallingArraySize");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine.TextCore.LowLevel", "FontEngine", "SetMarshallingArraySize", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(marshallingArray), ::il2cpp_utils::ExtractType(recordCount)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -310,7 +311,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: UnityEngine::TextCore::LowLevel::FontEngine::TryPackGlyphInAtlas_Internal
 // Il2CppName: TryPackGlyphInAtlas_Internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>, int, UnityEngine::TextCore::LowLevel::GlyphPackingMode, UnityEngine::TextCore::LowLevel::GlyphRenderMode, int, int, ByRef<::ArrayWrapper<UnityEngine::TextCore::GlyphRect>>, ByRef<int>, ByRef<::ArrayWrapper<UnityEngine::TextCore::GlyphRect>>, ByRef<int>)>(&UnityEngine::TextCore::LowLevel::FontEngine::TryPackGlyphInAtlas_Internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ByRef<UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>, int, UnityEngine::TextCore::LowLevel::GlyphPackingMode, UnityEngine::TextCore::LowLevel::GlyphRenderMode, int, int, ByRef<::ArrayW<UnityEngine::TextCore::GlyphRect>>, ByRef<int>, ByRef<::ArrayW<UnityEngine::TextCore::GlyphRect>>, ByRef<int>)>(&UnityEngine::TextCore::LowLevel::FontEngine::TryPackGlyphInAtlas_Internal)> {
   static const MethodInfo* get() {
     static auto* glyph = &::il2cpp_utils::GetClassFromName("UnityEngine.TextCore.LowLevel", "GlyphMarshallingStruct")->this_arg;
     static auto* padding = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -340,7 +341,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::TextCore::LowLevel::FontEngine::RenderGlyphsToTexture_Internal
 // Il2CppName: RenderGlyphsToTexture_Internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayWrapper<UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>, int, int, UnityEngine::TextCore::LowLevel::GlyphRenderMode, UnityEngine::Texture2D*)>(&UnityEngine::TextCore::LowLevel::FontEngine::RenderGlyphsToTexture_Internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayW<UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>, int, int, UnityEngine::TextCore::LowLevel::GlyphRenderMode, UnityEngine::Texture2D*)>(&UnityEngine::TextCore::LowLevel::FontEngine::RenderGlyphsToTexture_Internal)> {
   static const MethodInfo* get() {
     static auto* glyphs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine.TextCore.LowLevel", "GlyphMarshallingStruct"), 1)->byval_arg;
     static auto* glyphCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -369,7 +370,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ui
 // Writing MetadataGetter for method: UnityEngine::TextCore::LowLevel::FontEngine::TryAddGlyphToTexture_Internal
 // Il2CppName: TryAddGlyphToTexture_Internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint, int, UnityEngine::TextCore::LowLevel::GlyphPackingMode, ByRef<::ArrayWrapper<UnityEngine::TextCore::GlyphRect>>, ByRef<int>, ByRef<::ArrayWrapper<UnityEngine::TextCore::GlyphRect>>, ByRef<int>, UnityEngine::TextCore::LowLevel::GlyphRenderMode, UnityEngine::Texture2D*, ByRef<UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>)>(&UnityEngine::TextCore::LowLevel::FontEngine::TryAddGlyphToTexture_Internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint, int, UnityEngine::TextCore::LowLevel::GlyphPackingMode, ByRef<::ArrayW<UnityEngine::TextCore::GlyphRect>>, ByRef<int>, ByRef<::ArrayW<UnityEngine::TextCore::GlyphRect>>, ByRef<int>, UnityEngine::TextCore::LowLevel::GlyphRenderMode, UnityEngine::Texture2D*, ByRef<UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>)>(&UnityEngine::TextCore::LowLevel::FontEngine::TryAddGlyphToTexture_Internal)> {
   static const MethodInfo* get() {
     static auto* glyphIndex = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* padding = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -387,7 +388,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(ui
 // Writing MetadataGetter for method: UnityEngine::TextCore::LowLevel::FontEngine::TryAddGlyphsToTexture
 // Il2CppName: TryAddGlyphsToTexture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Collections::Generic::List_1<uint>*, int, UnityEngine::TextCore::LowLevel::GlyphPackingMode, System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>*, System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>*, UnityEngine::TextCore::LowLevel::GlyphRenderMode, UnityEngine::Texture2D*, ByRef<::ArrayWrapper<UnityEngine::TextCore::Glyph*>>)>(&UnityEngine::TextCore::LowLevel::FontEngine::TryAddGlyphsToTexture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(System::Collections::Generic::List_1<uint>*, int, UnityEngine::TextCore::LowLevel::GlyphPackingMode, System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>*, System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>*, UnityEngine::TextCore::LowLevel::GlyphRenderMode, UnityEngine::Texture2D*, ByRef<::ArrayW<UnityEngine::TextCore::Glyph*>>)>(&UnityEngine::TextCore::LowLevel::FontEngine::TryAddGlyphsToTexture)> {
   static const MethodInfo* get() {
     static auto* glyphIndexes = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "List`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "UInt32")})->byval_arg;
     static auto* padding = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -403,7 +404,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::TextCore::LowLevel::FontEngine::TryAddGlyphsToTexture_Internal
 // Il2CppName: TryAddGlyphsToTexture_Internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayWrapper<uint>, int, UnityEngine::TextCore::LowLevel::GlyphPackingMode, ByRef<::ArrayWrapper<UnityEngine::TextCore::GlyphRect>>, ByRef<int>, ByRef<::ArrayWrapper<UnityEngine::TextCore::GlyphRect>>, ByRef<int>, UnityEngine::TextCore::LowLevel::GlyphRenderMode, UnityEngine::Texture2D*, ByRef<::ArrayWrapper<UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>>, ByRef<int>)>(&UnityEngine::TextCore::LowLevel::FontEngine::TryAddGlyphsToTexture_Internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<uint>, int, UnityEngine::TextCore::LowLevel::GlyphPackingMode, ByRef<::ArrayW<UnityEngine::TextCore::GlyphRect>>, ByRef<int>, ByRef<::ArrayW<UnityEngine::TextCore::GlyphRect>>, ByRef<int>, UnityEngine::TextCore::LowLevel::GlyphRenderMode, UnityEngine::Texture2D*, ByRef<::ArrayW<UnityEngine::TextCore::LowLevel::GlyphMarshallingStruct>>, ByRef<int>)>(&UnityEngine::TextCore::LowLevel::FontEngine::TryAddGlyphsToTexture_Internal)> {
   static const MethodInfo* get() {
     static auto* glyphIndex = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     static auto* padding = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -422,7 +423,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: UnityEngine::TextCore::LowLevel::FontEngine::GetGlyphPairAdjustmentTable
 // Il2CppName: GetGlyphPairAdjustmentTable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord> (*)(::ArrayWrapper<uint>)>(&UnityEngine::TextCore::LowLevel::FontEngine::GetGlyphPairAdjustmentTable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord> (*)(::ArrayW<uint>)>(&UnityEngine::TextCore::LowLevel::FontEngine::GetGlyphPairAdjustmentTable)> {
   static const MethodInfo* get() {
     static auto* glyphIndexes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::LowLevel::FontEngine*), "GetGlyphPairAdjustmentTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{glyphIndexes});
@@ -431,7 +432,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::TextCore::LowLevel::FontEngine::PopulatePairAdjustmentRecordMarshallingArray_from_GlyphIndexes
 // Il2CppName: PopulatePairAdjustmentRecordMarshallingArray_from_GlyphIndexes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayWrapper<uint>, ByRef<int>)>(&UnityEngine::TextCore::LowLevel::FontEngine::PopulatePairAdjustmentRecordMarshallingArray_from_GlyphIndexes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayW<uint>, ByRef<int>)>(&UnityEngine::TextCore::LowLevel::FontEngine::PopulatePairAdjustmentRecordMarshallingArray_from_GlyphIndexes)> {
   static const MethodInfo* get() {
     static auto* glyphIndexes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     static auto* recordCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -441,7 +442,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::A
 // Writing MetadataGetter for method: UnityEngine::TextCore::LowLevel::FontEngine::GetGlyphPairAdjustmentRecordsFromMarshallingArray
 // Il2CppName: GetGlyphPairAdjustmentRecordsFromMarshallingArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(ByRef<::ArrayWrapper<UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>>)>(&UnityEngine::TextCore::LowLevel::FontEngine::GetGlyphPairAdjustmentRecordsFromMarshallingArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(ByRef<::ArrayW<UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>>)>(&UnityEngine::TextCore::LowLevel::FontEngine::GetGlyphPairAdjustmentRecordsFromMarshallingArray)> {
   static const MethodInfo* get() {
     static auto* glyphPairAdjustmentRecords = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine.TextCore.LowLevel", "GlyphPairAdjustmentRecord"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TextCore::LowLevel::FontEngine*), "GetGlyphPairAdjustmentRecordsFromMarshallingArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{glyphPairAdjustmentRecords});

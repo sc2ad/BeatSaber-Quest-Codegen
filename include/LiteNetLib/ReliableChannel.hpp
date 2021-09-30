@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: LiteNetLib
@@ -42,6 +43,11 @@ namespace LiteNetLib {
     // [TokenAttribute] Offset: FFFFFFFF
     struct PendingPacket/*, public System::ValueType*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // private LiteNetLib.NetPacket _packet
       // Size: 0x8
       // Offset: 0x0
@@ -60,6 +66,7 @@ namespace LiteNetLib {
       bool isSent;
       // Field size check
       static_assert(sizeof(bool) == 0x1);
+      public:
       // Creating value type constructor for type: PendingPacket
       constexpr PendingPacket(LiteNetLib::NetPacket* packet_ = {}, int64_t timeStamp_ = {}, bool isSent_ = {}) noexcept : packet{packet_}, timeStamp{timeStamp_}, isSent{isSent_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -90,6 +97,11 @@ namespace LiteNetLib {
     #pragma pack(pop)
     static check_size<sizeof(ReliableChannel::PendingPacket), 16 + sizeof(bool)> __LiteNetLib_ReliableChannel_PendingPacketSizeCheck;
     static_assert(sizeof(ReliableChannel::PendingPacket) == 0x11);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly LiteNetLib.NetPacket _outgoingAcks
     // Size: 0x8
     // Offset: 0x28
@@ -99,21 +111,21 @@ namespace LiteNetLib {
     // private readonly LiteNetLib.ReliableChannel/LiteNetLib.PendingPacket[] _pendingPackets
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<LiteNetLib::ReliableChannel::PendingPacket> pendingPackets;
+    ::ArrayW<LiteNetLib::ReliableChannel::PendingPacket> pendingPackets;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<LiteNetLib::ReliableChannel::PendingPacket>) == 0x8);
+    static_assert(sizeof(::ArrayW<LiteNetLib::ReliableChannel::PendingPacket>) == 0x8);
     // private readonly LiteNetLib.NetPacket[] _receivedPackets
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayWrapper<LiteNetLib::NetPacket*> receivedPackets;
+    ::ArrayW<LiteNetLib::NetPacket*> receivedPackets;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<LiteNetLib::NetPacket*>) == 0x8);
+    static_assert(sizeof(::ArrayW<LiteNetLib::NetPacket*>) == 0x8);
     // private readonly System.Boolean[] _earlyReceived
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayWrapper<bool> earlyReceived;
+    ::ArrayW<bool> earlyReceived;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<bool>) == 0x8);
+    static_assert(sizeof(::ArrayW<bool>) == 0x8);
     // private System.Int32 _localSeqence
     // Size: 0x4
     // Offset: 0x48
@@ -170,6 +182,7 @@ namespace LiteNetLib {
     uint8_t id;
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
+    public:
     // static field const value: static private System.Int32 BitsInByte
     static constexpr const int BitsInByte = 8;
     // Get static field: static private System.Int32 BitsInByte
@@ -179,11 +192,11 @@ namespace LiteNetLib {
     // Get instance field reference: private readonly LiteNetLib.NetPacket _outgoingAcks
     LiteNetLib::NetPacket*& dyn__outgoingAcks();
     // Get instance field reference: private readonly LiteNetLib.ReliableChannel/LiteNetLib.PendingPacket[] _pendingPackets
-    ::ArrayWrapper<LiteNetLib::ReliableChannel::PendingPacket>& dyn__pendingPackets();
+    ::ArrayW<LiteNetLib::ReliableChannel::PendingPacket>& dyn__pendingPackets();
     // Get instance field reference: private readonly LiteNetLib.NetPacket[] _receivedPackets
-    ::ArrayWrapper<LiteNetLib::NetPacket*>& dyn__receivedPackets();
+    ::ArrayW<LiteNetLib::NetPacket*>& dyn__receivedPackets();
     // Get instance field reference: private readonly System.Boolean[] _earlyReceived
-    ::ArrayWrapper<bool>& dyn__earlyReceived();
+    ::ArrayW<bool>& dyn__earlyReceived();
     // Get instance field reference: private System.Int32 _localSeqence
     int& dyn__localSeqence();
     // Get instance field reference: private System.Int32 _remoteSequence

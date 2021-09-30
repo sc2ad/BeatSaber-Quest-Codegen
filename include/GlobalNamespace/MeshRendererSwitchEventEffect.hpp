@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -36,6 +37,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MeshRendererSwitchEventEffect : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private BeatmapEventType _beatmapEvent
     // Size: 0x4
     // Offset: 0x18
@@ -48,16 +54,16 @@ namespace GlobalNamespace {
     // private UnityEngine.MeshRenderer[] _deactivateOnBoostRenderers
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<UnityEngine::MeshRenderer*> deactivateOnBoostRenderers;
+    ::ArrayW<UnityEngine::MeshRenderer*> deactivateOnBoostRenderers;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::MeshRenderer*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::MeshRenderer*>) == 0x8);
     // [NullAllowed] Offset: 0xF0677C
     // private UnityEngine.MeshRenderer[] _activateOnBoostRenderers
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<UnityEngine::MeshRenderer*> activateOnBoostRenderers;
+    ::ArrayW<UnityEngine::MeshRenderer*> activateOnBoostRenderers;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::MeshRenderer*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::MeshRenderer*>) == 0x8);
     // [InjectAttribute] Offset: 0xF067B4
     // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
@@ -65,14 +71,15 @@ namespace GlobalNamespace {
     GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IBeatmapObjectCallbackController*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BeatmapEventType _beatmapEvent
     GlobalNamespace::BeatmapEventType& dyn__beatmapEvent();
     // Get instance field reference: private UnityEngine.MeshRenderer[] _deactivateOnBoostRenderers
-    ::ArrayWrapper<UnityEngine::MeshRenderer*>& dyn__deactivateOnBoostRenderers();
+    ::ArrayW<UnityEngine::MeshRenderer*>& dyn__deactivateOnBoostRenderers();
     // Get instance field reference: private UnityEngine.MeshRenderer[] _activateOnBoostRenderers
-    ::ArrayWrapper<UnityEngine::MeshRenderer*>& dyn__activateOnBoostRenderers();
+    ::ArrayW<UnityEngine::MeshRenderer*>& dyn__activateOnBoostRenderers();
     // Get instance field reference: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     GlobalNamespace::IBeatmapObjectCallbackController*& dyn__beatmapObjectCallbackController();
     // protected System.Void Start()

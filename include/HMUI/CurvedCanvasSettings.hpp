@@ -38,6 +38,11 @@ namespace HMUI {
     public:
     // Writing base type padding for base size: 0x89 to desired offset: 0x8C
     char ___base_padding[0x3] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Single _radius
     // Size: 0x4
     // Offset: 0x8C
@@ -50,6 +55,7 @@ namespace HMUI {
     bool useFlatInEditMode;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // static field const value: static public System.Single kMaxElementWidth
     static constexpr const float kMaxElementWidth = 10;
     // Get static field: static public System.Single kMaxElementWidth

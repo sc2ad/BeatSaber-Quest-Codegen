@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: NUnit.Framework.Internal
 namespace NUnit::Framework::Internal {
@@ -22,6 +23,11 @@ namespace NUnit::Framework::Internal {
   // [TokenAttribute] Offset: FFFFFFFF
   class TestCaseParameters : public NUnit::Framework::Internal::TestParameters/*, public NUnit::Framework::Interfaces::ITestCaseData*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Object _expectedResult
     // Size: 0x8
     // Offset: 0x38
@@ -35,6 +41,7 @@ namespace NUnit::Framework::Internal {
     bool HasExpectedResult;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator NUnit::Framework::Interfaces::ITestCaseData
     operator NUnit::Framework::Interfaces::ITestCaseData() noexcept {
       return *reinterpret_cast<NUnit::Framework::Interfaces::ITestCaseData*>(this);
@@ -64,7 +71,7 @@ namespace NUnit::Framework::Internal {
     // Implemented from: NUnit.Framework.Internal.TestParameters
     // Base method: System.Void TestParameters::.ctor(System.Object[] args)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static TestCaseParameters* New_ctor(::ArrayWrapper<::Il2CppObject*> args) {
+    static TestCaseParameters* New_ctor(::ArrayW<::Il2CppObject*> args) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Internal::TestCaseParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<TestCaseParameters*, creationType>(args)));
     }

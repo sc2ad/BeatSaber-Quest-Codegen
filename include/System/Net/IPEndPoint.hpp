@@ -36,6 +36,11 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class IPEndPoint : public System::Net::EndPoint {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Net.IPAddress m_Address
     // Size: 0x8
     // Offset: 0x10
@@ -48,6 +53,7 @@ namespace System::Net {
     int m_Port;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // static field const value: static public System.Int32 MinPort
     static constexpr const int MinPort = 0;
     // Get static field: static public System.Int32 MinPort

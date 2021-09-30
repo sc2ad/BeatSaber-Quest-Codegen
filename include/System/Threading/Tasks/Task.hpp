@@ -24,6 +24,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Threading::Tasks
@@ -140,6 +141,11 @@ namespace System::Threading::Tasks {
     class $$c__DisplayClass178_0;
     // Nested type: System::Threading::Tasks::Task::$$c
     class $$c;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 m_taskId
     // Size: 0x4
     // Offset: 0x10
@@ -192,6 +198,7 @@ namespace System::Threading::Tasks {
     System::Threading::Tasks::Task::ContingentProperties* m_contingentProperties;
     // Field size check
     static_assert(sizeof(System::Threading::Tasks::Task::ContingentProperties*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
@@ -549,7 +556,7 @@ namespace System::Threading::Tasks {
     bool NotifyDebuggerOfWaitCompletionIfNecessary();
     // static System.Boolean AnyTaskRequiresNotifyDebuggerOfWaitCompletion(System.Threading.Tasks.Task[] tasks)
     // Offset: 0x1A620C4
-    static bool AnyTaskRequiresNotifyDebuggerOfWaitCompletion(::ArrayWrapper<System::Threading::Tasks::Task*> tasks);
+    static bool AnyTaskRequiresNotifyDebuggerOfWaitCompletion(::ArrayW<System::Threading::Tasks::Task*> tasks);
     // private System.Void NotifyDebuggerOfWaitCompletion()
     // Offset: 0x1A62098
     void NotifyDebuggerOfWaitCompletion();
@@ -849,13 +856,13 @@ namespace System::Threading::Tasks {
     static System::Threading::Tasks::Task* WhenAll(System::Collections::Generic::IEnumerable_1<System::Threading::Tasks::Task*>* tasks);
     // static public System.Threading.Tasks.Task WhenAll(params System.Threading.Tasks.Task[] tasks)
     // Offset: 0x1A66D04
-    static System::Threading::Tasks::Task* WhenAll(::ArrayWrapper<System::Threading::Tasks::Task*> tasks);
+    static System::Threading::Tasks::Task* WhenAll(::ArrayW<System::Threading::Tasks::Task*> tasks);
     // static private System.Threading.Tasks.Task InternalWhenAll(System.Threading.Tasks.Task[] tasks)
     // Offset: 0x1A66EDC
-    static System::Threading::Tasks::Task* InternalWhenAll(::ArrayWrapper<System::Threading::Tasks::Task*> tasks);
+    static System::Threading::Tasks::Task* InternalWhenAll(::ArrayW<System::Threading::Tasks::Task*> tasks);
     // static public System.Threading.Tasks.Task`1<System.Threading.Tasks.Task> WhenAny(params System.Threading.Tasks.Task[] tasks)
     // Offset: 0x1A5E38C
-    static System::Threading::Tasks::Task_1<System::Threading::Tasks::Task*>* WhenAny(::ArrayWrapper<System::Threading::Tasks::Task*> tasks);
+    static System::Threading::Tasks::Task_1<System::Threading::Tasks::Task*>* WhenAny(::ArrayW<System::Threading::Tasks::Task*> tasks);
     // static System.Threading.Tasks.Task`1<TResult> CreateUnwrapPromise(System.Threading.Tasks.Task outerTask, System.Boolean lookForOce)
     // Offset: 0xFFFFFFFF
     template<class TResult>
@@ -1295,7 +1302,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Threading::Tasks::Task::AnyTaskRequiresNotifyDebuggerOfWaitCompletion
 // Il2CppName: AnyTaskRequiresNotifyDebuggerOfWaitCompletion
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayWrapper<System::Threading::Tasks::Task*>)>(&System::Threading::Tasks::Task::AnyTaskRequiresNotifyDebuggerOfWaitCompletion)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<System::Threading::Tasks::Task*>)>(&System::Threading::Tasks::Task::AnyTaskRequiresNotifyDebuggerOfWaitCompletion)> {
   static const MethodInfo* get() {
     static auto* tasks = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "Task"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "AnyTaskRequiresNotifyDebuggerOfWaitCompletion", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tasks});
@@ -2047,7 +2054,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: System::Threading::Tasks::Task::WhenAll
 // Il2CppName: WhenAll
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (*)(::ArrayWrapper<System::Threading::Tasks::Task*>)>(&System::Threading::Tasks::Task::WhenAll)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (*)(::ArrayW<System::Threading::Tasks::Task*>)>(&System::Threading::Tasks::Task::WhenAll)> {
   static const MethodInfo* get() {
     static auto* tasks = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "Task"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "WhenAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tasks});
@@ -2056,7 +2063,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: System::Threading::Tasks::Task::InternalWhenAll
 // Il2CppName: InternalWhenAll
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (*)(::ArrayWrapper<System::Threading::Tasks::Task*>)>(&System::Threading::Tasks::Task::InternalWhenAll)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (*)(::ArrayW<System::Threading::Tasks::Task*>)>(&System::Threading::Tasks::Task::InternalWhenAll)> {
   static const MethodInfo* get() {
     static auto* tasks = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "Task"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "InternalWhenAll", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tasks});
@@ -2065,7 +2072,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: System::Threading::Tasks::Task::WhenAny
 // Il2CppName: WhenAny
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<System::Threading::Tasks::Task*>* (*)(::ArrayWrapper<System::Threading::Tasks::Task*>)>(&System::Threading::Tasks::Task::WhenAny)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<System::Threading::Tasks::Task*>* (*)(::ArrayW<System::Threading::Tasks::Task*>)>(&System::Threading::Tasks::Task::WhenAny)> {
   static const MethodInfo* get() {
     static auto* tasks = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Threading.Tasks", "Task"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Threading::Tasks::Task*), "WhenAny", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{tasks});

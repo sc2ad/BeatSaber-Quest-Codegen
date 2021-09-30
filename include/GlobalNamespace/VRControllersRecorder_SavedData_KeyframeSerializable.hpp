@@ -20,6 +20,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class VRControllersRecorder::SavedData::KeyframeSerializable : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Single _xPos1
     // Size: 0x4
     // Offset: 0x10
@@ -152,6 +157,7 @@ namespace GlobalNamespace {
     float time;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: public System.Single _xPos1
     float& dyn__xPos1();
     // Get instance field reference: public System.Single _yPos1

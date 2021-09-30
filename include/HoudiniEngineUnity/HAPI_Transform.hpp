@@ -9,6 +9,7 @@
 #include "System/ValueType.hpp"
 // Including type: HoudiniEngineUnity.HAPI_RSTOrder
 #include "HoudiniEngineUnity/HAPI_RSTOrder.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
@@ -19,50 +20,56 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HAPI_Transform/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Single[] position
     // Size: 0x8
     // Offset: 0x0
-    ::ArrayWrapper<float> position;
+    ::ArrayW<float> position;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<float>) == 0x8);
+    static_assert(sizeof(::ArrayW<float>) == 0x8);
     // public System.Single[] rotationQuaternion
     // Size: 0x8
     // Offset: 0x8
-    ::ArrayWrapper<float> rotationQuaternion;
+    ::ArrayW<float> rotationQuaternion;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<float>) == 0x8);
+    static_assert(sizeof(::ArrayW<float>) == 0x8);
     // public System.Single[] scale
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<float> scale;
+    ::ArrayW<float> scale;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<float>) == 0x8);
+    static_assert(sizeof(::ArrayW<float>) == 0x8);
     // public System.Single[] shear
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<float> shear;
+    ::ArrayW<float> shear;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<float>) == 0x8);
+    static_assert(sizeof(::ArrayW<float>) == 0x8);
     // public HoudiniEngineUnity.HAPI_RSTOrder rstOrder
     // Size: 0x4
     // Offset: 0x20
     HoudiniEngineUnity::HAPI_RSTOrder rstOrder;
     // Field size check
     static_assert(sizeof(HoudiniEngineUnity::HAPI_RSTOrder) == 0x4);
+    public:
     // Creating value type constructor for type: HAPI_Transform
-    constexpr HAPI_Transform(::ArrayWrapper<float> position_ = ::ArrayWrapper<float>(nullptr), ::ArrayWrapper<float> rotationQuaternion_ = ::ArrayWrapper<float>(nullptr), ::ArrayWrapper<float> scale_ = ::ArrayWrapper<float>(nullptr), ::ArrayWrapper<float> shear_ = ::ArrayWrapper<float>(nullptr), HoudiniEngineUnity::HAPI_RSTOrder rstOrder_ = {}) noexcept : position{position_}, rotationQuaternion{rotationQuaternion_}, scale{scale_}, shear{shear_}, rstOrder{rstOrder_} {}
+    constexpr HAPI_Transform(::ArrayW<float> position_ = ::ArrayW<float>(nullptr), ::ArrayW<float> rotationQuaternion_ = ::ArrayW<float>(nullptr), ::ArrayW<float> scale_ = ::ArrayW<float>(nullptr), ::ArrayW<float> shear_ = ::ArrayW<float>(nullptr), HoudiniEngineUnity::HAPI_RSTOrder rstOrder_ = {}) noexcept : position{position_}, rotationQuaternion{rotationQuaternion_}, scale{scale_}, shear{shear_}, rstOrder{rstOrder_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // Get instance field reference: public System.Single[] position
-    ::ArrayWrapper<float>& dyn_position();
+    ::ArrayW<float>& dyn_position();
     // Get instance field reference: public System.Single[] rotationQuaternion
-    ::ArrayWrapper<float>& dyn_rotationQuaternion();
+    ::ArrayW<float>& dyn_rotationQuaternion();
     // Get instance field reference: public System.Single[] scale
-    ::ArrayWrapper<float>& dyn_scale();
+    ::ArrayW<float>& dyn_scale();
     // Get instance field reference: public System.Single[] shear
-    ::ArrayWrapper<float>& dyn_shear();
+    ::ArrayW<float>& dyn_shear();
     // Get instance field reference: public HoudiniEngineUnity.HAPI_RSTOrder rstOrder
     HoudiniEngineUnity::HAPI_RSTOrder& dyn_rstOrder();
     // public System.Void .ctor(System.Boolean initializeFields)

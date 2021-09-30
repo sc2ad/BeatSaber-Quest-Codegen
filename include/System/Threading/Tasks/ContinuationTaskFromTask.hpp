@@ -29,12 +29,18 @@ namespace System::Threading::Tasks {
   // [TokenAttribute] Offset: FFFFFFFF
   class ContinuationTaskFromTask : public System::Threading::Tasks::Task {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Threading.Tasks.Task m_antecedent
     // Size: 0x8
     // Offset: 0x50
     System::Threading::Tasks::Task* m_antecedent;
     // Field size check
     static_assert(sizeof(System::Threading::Tasks::Task*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Threading::Tasks::Task*
     constexpr operator System::Threading::Tasks::Task*() const noexcept {
       return m_antecedent;

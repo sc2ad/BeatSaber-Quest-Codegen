@@ -16,6 +16,11 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HmdQuaternion_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Double w
     // Size: 0x8
     // Offset: 0x0
@@ -40,6 +45,7 @@ namespace OVR::OpenVR {
     double z;
     // Field size check
     static_assert(sizeof(double) == 0x8);
+    public:
     // Creating value type constructor for type: HmdQuaternion_t
     constexpr HmdQuaternion_t(double w_ = {}, double x_ = {}, double y_ = {}, double z_ = {}) noexcept : w{w_}, x{x_}, y{y_}, z{z_} {}
     // Creating interface conversion operator: operator System::ValueType

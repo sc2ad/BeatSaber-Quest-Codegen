@@ -33,6 +33,11 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
   // [TokenAttribute] Offset: FFFFFFFF
   class AttributePkcs : public Org::BouncyCastle::Asn1::Asn1Encodable {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier attrType
     // Size: 0x8
     // Offset: 0x10
@@ -45,6 +50,7 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     Org::BouncyCastle::Asn1::Asn1Set* attrValues;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::Asn1Set*) == 0x8);
+    public:
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier attrType
     Org::BouncyCastle::Asn1::DerObjectIdentifier*& dyn_attrType();
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.Asn1Set attrValues

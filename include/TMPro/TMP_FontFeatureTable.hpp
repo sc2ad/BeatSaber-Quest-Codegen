@@ -36,6 +36,11 @@ namespace TMPro {
     public:
     // Nested type: TMPro::TMP_FontFeatureTable::$$c
     class $$c;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Collections.Generic.List`1<TMPro.TMP_GlyphPairAdjustmentRecord> m_GlyphPairAdjustmentRecords
     // Size: 0x8
     // Offset: 0x10
@@ -48,6 +53,7 @@ namespace TMPro {
     System::Collections::Generic::Dictionary_2<int64_t, TMPro::TMP_GlyphPairAdjustmentRecord*>* m_GlyphPairAdjustmentRecordLookupDictionary;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<int64_t, TMPro::TMP_GlyphPairAdjustmentRecord*>*) == 0x8);
+    public:
     // Get instance field reference: System.Collections.Generic.List`1<TMPro.TMP_GlyphPairAdjustmentRecord> m_GlyphPairAdjustmentRecords
     System::Collections::Generic::List_1<TMPro::TMP_GlyphPairAdjustmentRecord*>*& dyn_m_GlyphPairAdjustmentRecords();
     // Get instance field reference: System.Collections.Generic.Dictionary`2<System.Int64,TMPro.TMP_GlyphPairAdjustmentRecord> m_GlyphPairAdjustmentRecordLookupDictionary

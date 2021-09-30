@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -28,6 +29,11 @@ namespace GlobalNamespace {
   // [DefaultMemberAttribute] Offset: EFCA8C
   class TrailElementCollection : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Int32 <capacity>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -39,19 +45,20 @@ namespace GlobalNamespace {
     // private readonly TrailElement[] _snapshots
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<GlobalNamespace::TrailElement*> snapshots;
+    ::ArrayW<GlobalNamespace::TrailElement*> snapshots;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::TrailElement*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::TrailElement*>) == 0x8);
     // private System.Int32 _headIndex
     // Size: 0x4
     // Offset: 0x20
     int headIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: private readonly System.Int32 <capacity>k__BackingField
     int& dyn_$capacity$k__BackingField();
     // Get instance field reference: private readonly TrailElement[] _snapshots
-    ::ArrayWrapper<GlobalNamespace::TrailElement*>& dyn__snapshots();
+    ::ArrayW<GlobalNamespace::TrailElement*>& dyn__snapshots();
     // Get instance field reference: private System.Int32 _headIndex
     int& dyn__headIndex();
     // public System.Int32 get_capacity()

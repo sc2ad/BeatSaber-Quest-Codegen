@@ -19,6 +19,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct OVRPlugin::Vector4s/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int16 x
     // Size: 0x2
     // Offset: 0x0
@@ -43,6 +48,7 @@ namespace GlobalNamespace {
     int16_t w;
     // Field size check
     static_assert(sizeof(int16_t) == 0x2);
+    public:
     // Creating value type constructor for type: Vector4s
     constexpr Vector4s(int16_t x_ = {}, int16_t y_ = {}, int16_t z_ = {}, int16_t w_ = {}) noexcept : x{x_}, y{y_}, z{z_}, w{w_} {}
     // Creating interface conversion operator: operator System::ValueType

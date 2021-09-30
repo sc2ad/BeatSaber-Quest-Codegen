@@ -29,6 +29,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class AnniversaryManager : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private FireworksController _fireworksController
     // Size: 0x8
     // Offset: 0x18
@@ -42,6 +47,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MainMenuViewController* mainMenuViewController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MainMenuViewController*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private FireworksController _fireworksController

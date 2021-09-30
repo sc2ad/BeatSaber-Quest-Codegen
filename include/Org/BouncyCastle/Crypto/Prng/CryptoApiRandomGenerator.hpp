@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Security::Cryptography
@@ -27,12 +28,18 @@ namespace Org::BouncyCastle::Crypto::Prng {
   // [TokenAttribute] Offset: FFFFFFFF
   class CryptoApiRandomGenerator : public ::Il2CppObject/*, public Org::BouncyCastle::Crypto::Prng::IRandomGenerator*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Security.Cryptography.RandomNumberGenerator rndProv
     // Size: 0x8
     // Offset: 0x10
     System::Security::Cryptography::RandomNumberGenerator* rndProv;
     // Field size check
     static_assert(sizeof(System::Security::Cryptography::RandomNumberGenerator*) == 0x8);
+    public:
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::Prng::IRandomGenerator
     operator Org::BouncyCastle::Crypto::Prng::IRandomGenerator() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::Prng::IRandomGenerator*>(this);
@@ -52,7 +59,7 @@ namespace Org::BouncyCastle::Crypto::Prng {
     }
     // public System.Void NextBytes(System.Byte[] bytes)
     // Offset: 0x1398B0C
-    void NextBytes(::ArrayWrapper<uint8_t> bytes);
+    void NextBytes(::ArrayW<uint8_t> bytes);
     // public System.Void .ctor()
     // Offset: 0x1398AA8
     // Implemented from: System.Object
@@ -76,7 +83,7 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator::NextBytes
 // Il2CppName: NextBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator::*)(::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator::NextBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator::*)(::ArrayW<uint8_t>)>(&Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator::NextBytes)> {
   static const MethodInfo* get() {
     static auto* bytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator*), "NextBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bytes});

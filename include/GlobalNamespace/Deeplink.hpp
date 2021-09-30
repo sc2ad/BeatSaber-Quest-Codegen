@@ -18,6 +18,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class Deeplink : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.String Destination
     // Size: 0x8
     // Offset: 0x10
@@ -66,6 +71,7 @@ namespace GlobalNamespace {
     uint64_t MultiplayerRoomId;
     // Field size check
     static_assert(sizeof(uint64_t) == 0x8);
+    public:
     // Get instance field reference: public System.String Destination
     ::Il2CppString*& dyn_Destination();
     // Get instance field reference: public System.String LevelID

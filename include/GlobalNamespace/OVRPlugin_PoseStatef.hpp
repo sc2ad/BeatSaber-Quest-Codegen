@@ -21,6 +21,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct OVRPlugin::PoseStatef/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public OVRPlugin/Posef Pose
     // Size: 0x1C
     // Offset: 0x0
@@ -59,6 +64,7 @@ namespace GlobalNamespace {
     double Time;
     // Field size check
     static_assert(sizeof(double) == 0x8);
+    public:
     // Creating value type constructor for type: PoseStatef
     constexpr PoseStatef(GlobalNamespace::OVRPlugin::Posef Pose_ = {}, GlobalNamespace::OVRPlugin::Vector3f Velocity_ = {}, GlobalNamespace::OVRPlugin::Vector3f Acceleration_ = {}, GlobalNamespace::OVRPlugin::Vector3f AngularVelocity_ = {}, GlobalNamespace::OVRPlugin::Vector3f AngularAcceleration_ = {}, double Time_ = {}) noexcept : Pose{Pose_}, Velocity{Velocity_}, Acceleration{Acceleration_}, AngularVelocity{AngularVelocity_}, AngularAcceleration{AngularAcceleration_}, Time{Time_} {}
     // Creating interface conversion operator: operator System::ValueType

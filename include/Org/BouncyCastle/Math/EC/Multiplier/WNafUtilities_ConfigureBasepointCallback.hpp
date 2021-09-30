@@ -34,6 +34,11 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
   // [TokenAttribute] Offset: FFFFFFFF
   class WNafUtilities::ConfigureBasepointCallback : public ::Il2CppObject/*, public Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Org.BouncyCastle.Math.EC.ECCurve m_curve
     // Size: 0x8
     // Offset: 0x10
@@ -46,6 +51,7 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     int m_confWidth;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating interface conversion operator: operator Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback
     operator Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback*>(this);

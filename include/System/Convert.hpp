@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -36,17 +37,17 @@ namespace System {
   class Convert : public ::Il2CppObject {
     public:
     // Get static field: static readonly System.RuntimeType[] ConvertTypes
-    static ::ArrayWrapper<System::RuntimeType*> _get_ConvertTypes();
+    static ::ArrayW<System::RuntimeType*> _get_ConvertTypes();
     // Set static field: static readonly System.RuntimeType[] ConvertTypes
-    static void _set_ConvertTypes(::ArrayWrapper<System::RuntimeType*> value);
+    static void _set_ConvertTypes(::ArrayW<System::RuntimeType*> value);
     // Get static field: static private readonly System.RuntimeType EnumType
     static System::RuntimeType* _get_EnumType();
     // Set static field: static private readonly System.RuntimeType EnumType
     static void _set_EnumType(System::RuntimeType* value);
     // Get static field: static readonly System.Char[] base64Table
-    static ::ArrayWrapper<::Il2CppChar> _get_base64Table();
+    static ::ArrayW<::Il2CppChar> _get_base64Table();
     // Set static field: static readonly System.Char[] base64Table
-    static void _set_base64Table(::ArrayWrapper<::Il2CppChar> value);
+    static void _set_base64Table(::ArrayW<::Il2CppChar> value);
     // Get static field: static public readonly System.Object DBNull
     static ::Il2CppObject* _get_DBNull();
     // Set static field: static public readonly System.Object DBNull
@@ -656,19 +657,19 @@ namespace System {
     static ::Il2CppString* ToString(int64_t value, int toBase);
     // static public System.String ToBase64String(System.Byte[] inArray)
     // Offset: 0x1B21990
-    static ::Il2CppString* ToBase64String(::ArrayWrapper<uint8_t> inArray);
+    static ::Il2CppString* ToBase64String(::ArrayW<uint8_t> inArray);
     // static public System.String ToBase64String(System.Byte[] inArray, System.Int32 offset, System.Int32 length)
     // Offset: 0x1B21CF8
-    static ::Il2CppString* ToBase64String(::ArrayWrapper<uint8_t> inArray, int offset, int length);
+    static ::Il2CppString* ToBase64String(::ArrayW<uint8_t> inArray, int offset, int length);
     // static public System.String ToBase64String(System.Byte[] inArray, System.Int32 offset, System.Int32 length, System.Base64FormattingOptions options)
     // Offset: 0x1B21A40
-    static ::Il2CppString* ToBase64String(::ArrayWrapper<uint8_t> inArray, int offset, int length, System::Base64FormattingOptions options);
+    static ::Il2CppString* ToBase64String(::ArrayW<uint8_t> inArray, int offset, int length, System::Base64FormattingOptions options);
     // static public System.Int32 ToBase64CharArray(System.Byte[] inArray, System.Int32 offsetIn, System.Int32 length, System.Char[] outArray, System.Int32 offsetOut)
     // Offset: 0x1B220B8
-    static int ToBase64CharArray(::ArrayWrapper<uint8_t> inArray, int offsetIn, int length, ::ArrayWrapper<::Il2CppChar> outArray, int offsetOut);
+    static int ToBase64CharArray(::ArrayW<uint8_t> inArray, int offsetIn, int length, ::ArrayW<::Il2CppChar> outArray, int offsetOut);
     // static public System.Int32 ToBase64CharArray(System.Byte[] inArray, System.Int32 offsetIn, System.Int32 length, System.Char[] outArray, System.Int32 offsetOut, System.Base64FormattingOptions options)
     // Offset: 0x1B22150
-    static int ToBase64CharArray(::ArrayWrapper<uint8_t> inArray, int offsetIn, int length, ::ArrayWrapper<::Il2CppChar> outArray, int offsetOut, System::Base64FormattingOptions options);
+    static int ToBase64CharArray(::ArrayW<uint8_t> inArray, int offsetIn, int length, ::ArrayW<::Il2CppChar> outArray, int offsetOut, System::Base64FormattingOptions options);
     // static private System.Int32 ConvertToBase64Array(System.Char* outChars, System.Byte* inData, System.Int32 offset, System.Int32 length, System.Boolean insertLineBreaks)
     // Offset: 0x1B21E68
     static int ConvertToBase64Array(::Il2CppChar* outChars, uint8_t* inData, int offset, int length, bool insertLineBreaks);
@@ -677,10 +678,10 @@ namespace System {
     static int ToBase64_CalculateAndValidateOutputLength(int inputLength, bool insertLineBreaks);
     // static public System.Byte[] FromBase64String(System.String s)
     // Offset: 0x1B2248C
-    static ::ArrayWrapper<uint8_t> FromBase64String(::Il2CppString* s);
+    static ::ArrayW<uint8_t> FromBase64String(::Il2CppString* s);
     // static private System.Byte[] FromBase64CharPtr(System.Char* inputPtr, System.Int32 inputLength)
     // Offset: 0x1B22548
-    static ::ArrayWrapper<uint8_t> FromBase64CharPtr(::Il2CppChar* inputPtr, int inputLength);
+    static ::ArrayW<uint8_t> FromBase64CharPtr(::Il2CppChar* inputPtr, int inputLength);
     // static private System.Int32 FromBase64_Decode(System.Char* startInputPtr, System.Int32 inputLength, System.Byte* startDestPtr, System.Int32 destLength)
     // Offset: 0x1B22784
     static int FromBase64_Decode(::Il2CppChar* startInputPtr, int inputLength, uint8_t* startDestPtr, int destLength);
@@ -2544,7 +2545,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Convert::ToBase64String
 // Il2CppName: ToBase64String
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::ArrayWrapper<uint8_t>)>(&System::Convert::ToBase64String)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::ArrayW<uint8_t>)>(&System::Convert::ToBase64String)> {
   static const MethodInfo* get() {
     static auto* inArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Convert*), "ToBase64String", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{inArray});
@@ -2553,7 +2554,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Convert::ToBase64String
 // Il2CppName: ToBase64String
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::ArrayWrapper<uint8_t>, int, int)>(&System::Convert::ToBase64String)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::ArrayW<uint8_t>, int, int)>(&System::Convert::ToBase64String)> {
   static const MethodInfo* get() {
     static auto* inArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2564,7 +2565,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Convert::ToBase64String
 // Il2CppName: ToBase64String
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::ArrayWrapper<uint8_t>, int, int, System::Base64FormattingOptions)>(&System::Convert::ToBase64String)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::ArrayW<uint8_t>, int, int, System::Base64FormattingOptions)>(&System::Convert::ToBase64String)> {
   static const MethodInfo* get() {
     static auto* inArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2576,7 +2577,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Convert::ToBase64CharArray
 // Il2CppName: ToBase64CharArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayWrapper<uint8_t>, int, int, ::ArrayWrapper<::Il2CppChar>, int)>(&System::Convert::ToBase64CharArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayW<uint8_t>, int, int, ::ArrayW<::Il2CppChar>, int)>(&System::Convert::ToBase64CharArray)> {
   static const MethodInfo* get() {
     static auto* inArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offsetIn = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2589,7 +2590,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::A
 // Writing MetadataGetter for method: System::Convert::ToBase64CharArray
 // Il2CppName: ToBase64CharArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayWrapper<uint8_t>, int, int, ::ArrayWrapper<::Il2CppChar>, int, System::Base64FormattingOptions)>(&System::Convert::ToBase64CharArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayW<uint8_t>, int, int, ::ArrayW<::Il2CppChar>, int, System::Base64FormattingOptions)>(&System::Convert::ToBase64CharArray)> {
   static const MethodInfo* get() {
     static auto* inArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offsetIn = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2626,7 +2627,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 // Writing MetadataGetter for method: System::Convert::FromBase64String
 // Il2CppName: FromBase64String
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(::Il2CppString*)>(&System::Convert::FromBase64String)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(::Il2CppString*)>(&System::Convert::FromBase64String)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Convert*), "FromBase64String", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{s});
@@ -2635,7 +2636,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: System::Convert::FromBase64CharPtr
 // Il2CppName: FromBase64CharPtr
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(::Il2CppChar*, int)>(&System::Convert::FromBase64CharPtr)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(::Il2CppChar*, int)>(&System::Convert::FromBase64CharPtr)> {
   static const MethodInfo* get() {
     static auto* inputPtr = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Char"))->byval_arg;
     static auto* inputLength = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

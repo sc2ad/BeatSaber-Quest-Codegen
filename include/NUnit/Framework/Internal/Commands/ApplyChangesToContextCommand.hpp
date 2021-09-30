@@ -44,12 +44,18 @@ namespace NUnit::Framework::Internal::Commands {
   // [TokenAttribute] Offset: FFFFFFFF
   class ApplyChangesToContextCommand : public NUnit::Framework::Internal::Commands::DelegatingTestCommand {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.IEnumerable`1<NUnit.Framework.Interfaces.IApplyToContext> _changes
     // Size: 0x8
     // Offset: 0x20
     System::Collections::Generic::IEnumerable_1<NUnit::Framework::Interfaces::IApplyToContext*>* changes;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::IEnumerable_1<NUnit::Framework::Interfaces::IApplyToContext*>*) == 0x8);
+    public:
     // Get instance field reference: private System.Collections.Generic.IEnumerable`1<NUnit.Framework.Interfaces.IApplyToContext> _changes
     System::Collections::Generic::IEnumerable_1<NUnit::Framework::Interfaces::IApplyToContext*>*& dyn__changes();
     // public System.Void .ctor(NUnit.Framework.Internal.Commands.TestCommand innerCommand, System.Collections.Generic.IEnumerable`1<NUnit.Framework.Interfaces.IApplyToContext> changes)

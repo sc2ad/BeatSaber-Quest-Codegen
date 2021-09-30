@@ -39,6 +39,11 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class FromBinder::$$c__DisplayClass62_1 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Type concreteType
     // Size: 0x8
     // Offset: 0x10
@@ -51,6 +56,7 @@ namespace Zenject {
     Zenject::FromBinder::$$c__DisplayClass62_0* CS$$$8__locals1;
     // Field size check
     static_assert(sizeof(Zenject::FromBinder::$$c__DisplayClass62_0*) == 0x8);
+    public:
     // Get instance field reference: public System.Type concreteType
     System::Type*& dyn_concreteType();
     // Get instance field reference: public Zenject.FromBinder/Zenject.<>c__DisplayClass62_0 CS$<>8__locals1

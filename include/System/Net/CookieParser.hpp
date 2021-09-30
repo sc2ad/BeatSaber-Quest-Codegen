@@ -27,12 +27,18 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class CookieParser : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Net.CookieTokenizer m_tokenizer
     // Size: 0x8
     // Offset: 0x10
     System::Net::CookieTokenizer* m_tokenizer;
     // Field size check
     static_assert(sizeof(System::Net::CookieTokenizer*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Net::CookieTokenizer*
     constexpr operator System::Net::CookieTokenizer*() const noexcept {
       return m_tokenizer;

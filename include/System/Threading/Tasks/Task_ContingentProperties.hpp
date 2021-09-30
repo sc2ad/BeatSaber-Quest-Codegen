@@ -47,6 +47,11 @@ namespace System::Threading::Tasks {
   // [TokenAttribute] Offset: FFFFFFFF
   class Task::ContingentProperties : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Threading.ExecutionContext m_capturedContext
     // Size: 0x8
     // Offset: 0x10
@@ -95,6 +100,7 @@ namespace System::Threading::Tasks {
     System::Collections::Generic::List_1<System::Threading::Tasks::Task*>* m_exceptionalChildren;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<System::Threading::Tasks::Task*>*) == 0x8);
+    public:
     // Get instance field reference: System.Threading.ExecutionContext m_capturedContext
     System::Threading::ExecutionContext*& dyn_m_capturedContext();
     // Get instance field reference: System.Threading.ManualResetEventSlim m_completionEvent

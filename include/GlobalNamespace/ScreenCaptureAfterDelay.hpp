@@ -45,6 +45,11 @@ namespace GlobalNamespace {
     class InitData;
     // Nested type: GlobalNamespace::ScreenCaptureAfterDelay::$Start$d__6
     class $Start$d__6;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xEEBC10
     // private MainEffectController _mainEffectController
     // Size: 0x8
@@ -78,6 +83,7 @@ namespace GlobalNamespace {
     UnityEngine::RenderTexture* captureRenderTexture;
     // Field size check
     static_assert(sizeof(UnityEngine::RenderTexture*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MainEffectController _mainEffectController

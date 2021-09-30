@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Asn1
@@ -28,12 +29,18 @@ namespace Org::BouncyCastle::Asn1 {
   // [TokenAttribute] Offset: FFFFFFFF
   class DerVisibleString : public Org::BouncyCastle::Asn1::DerStringBase {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.String str
     // Size: 0x8
     // Offset: 0x10
     ::Il2CppString* str;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return str;
@@ -43,7 +50,7 @@ namespace Org::BouncyCastle::Asn1 {
     // public System.Void .ctor(System.Byte[] str)
     // Offset: 0x18E25D8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DerVisibleString* New_ctor(::ArrayWrapper<uint8_t> str) {
+    static DerVisibleString* New_ctor(::ArrayW<uint8_t> str) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerVisibleString::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerVisibleString*, creationType>(str)));
     }
@@ -56,7 +63,7 @@ namespace Org::BouncyCastle::Asn1 {
     }
     // public System.Byte[] GetOctets()
     // Offset: 0x18F3648
-    ::ArrayWrapper<uint8_t> GetOctets();
+    ::ArrayW<uint8_t> GetOctets();
     // public override System.String GetString()
     // Offset: 0x18F3640
     // Implemented from: Org.BouncyCastle.Asn1.DerStringBase
@@ -95,7 +102,7 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DerVisibleString*, "Org.BouncyCa
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerVisibleString::GetOctets
 // Il2CppName: GetOctets
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Asn1::DerVisibleString::*)()>(&Org::BouncyCastle::Asn1::DerVisibleString::GetOctets)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Org::BouncyCastle::Asn1::DerVisibleString::*)()>(&Org::BouncyCastle::Asn1::DerVisibleString::GetOctets)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerVisibleString*), "GetOctets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

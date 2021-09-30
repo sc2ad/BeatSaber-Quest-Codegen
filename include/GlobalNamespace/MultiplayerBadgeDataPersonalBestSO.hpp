@@ -39,12 +39,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerBadgeDataPersonalBestSO : public GlobalNamespace::MultiplayerBadgeDataSO {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Single _weight
     // Size: 0x4
     // Offset: 0x30
     float weight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: private System.Single _weight
     float& dyn__weight();
     // public System.Void .ctor()

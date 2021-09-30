@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO::Compression
@@ -45,6 +46,11 @@ namespace System::IO::Compression {
     class ReadMethod;
     // Nested type: System::IO::Compression::DeflateStream::WriteMethod
     class WriteMethod;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.IO.Stream base_stream
     // Size: 0x8
     // Offset: 0x28
@@ -77,6 +83,7 @@ namespace System::IO::Compression {
     System::IO::Compression::DeflateStreamNative* native;
     // Field size check
     static_assert(sizeof(System::IO::Compression::DeflateStreamNative*) == 0x8);
+    public:
     // Get instance field reference: private System.IO.Stream base_stream
     System::IO::Stream*& dyn_base_stream();
     // Get instance field reference: private System.IO.Compression.CompressionMode mode
@@ -110,10 +117,10 @@ namespace System::IO::Compression {
     }
     // private System.Int32 ReadInternal(System.Byte[] array, System.Int32 offset, System.Int32 count)
     // Offset: 0x1A2CCB8
-    int ReadInternal(::ArrayWrapper<uint8_t> array, int offset, int count);
+    int ReadInternal(::ArrayW<uint8_t> array, int offset, int count);
     // private System.Void WriteInternal(System.Byte[] array, System.Int32 offset, System.Int32 count)
     // Offset: 0x1A2CF50
-    void WriteInternal(::ArrayWrapper<uint8_t> array, int offset, int count);
+    void WriteInternal(::ArrayW<uint8_t> array, int offset, int count);
     // public override System.Boolean get_CanRead()
     // Offset: 0x1A2DC30
     // Implemented from: System.IO.Stream
@@ -153,12 +160,12 @@ namespace System::IO::Compression {
     // Offset: 0x1A2CD74
     // Implemented from: System.IO.Stream
     // Base method: System.Int32 Stream::Read(System.Byte[] array, System.Int32 offset, System.Int32 count)
-    int Read(::ArrayWrapper<uint8_t> array, int offset, int count);
+    int Read(::ArrayW<uint8_t> array, int offset, int count);
     // public override System.Void Write(System.Byte[] array, System.Int32 offset, System.Int32 count)
     // Offset: 0x1A2CFFC
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::Write(System.Byte[] array, System.Int32 offset, System.Int32 count)
-    void Write(::ArrayWrapper<uint8_t> array, int offset, int count);
+    void Write(::ArrayW<uint8_t> array, int offset, int count);
     // public override System.Void Flush()
     // Offset: 0x1A2D1E0
     // Implemented from: System.IO.Stream
@@ -168,12 +175,12 @@ namespace System::IO::Compression {
     // Offset: 0x1A2D30C
     // Implemented from: System.IO.Stream
     // Base method: System.IAsyncResult Stream::BeginRead(System.Byte[] array, System.Int32 offset, System.Int32 count, System.AsyncCallback asyncCallback, System.Object asyncState)
-    System::IAsyncResult* BeginRead(::ArrayWrapper<uint8_t> array, int offset, int count, System::AsyncCallback* asyncCallback, ::Il2CppObject* asyncState);
+    System::IAsyncResult* BeginRead(::ArrayW<uint8_t> array, int offset, int count, System::AsyncCallback* asyncCallback, ::Il2CppObject* asyncState);
     // public override System.IAsyncResult BeginWrite(System.Byte[] array, System.Int32 offset, System.Int32 count, System.AsyncCallback asyncCallback, System.Object asyncState)
     // Offset: 0x1A2D604
     // Implemented from: System.IO.Stream
     // Base method: System.IAsyncResult Stream::BeginWrite(System.Byte[] array, System.Int32 offset, System.Int32 count, System.AsyncCallback asyncCallback, System.Object asyncState)
-    System::IAsyncResult* BeginWrite(::ArrayWrapper<uint8_t> array, int offset, int count, System::AsyncCallback* asyncCallback, ::Il2CppObject* asyncState);
+    System::IAsyncResult* BeginWrite(::ArrayW<uint8_t> array, int offset, int count, System::AsyncCallback* asyncCallback, ::Il2CppObject* asyncState);
     // public override System.Int32 EndRead(System.IAsyncResult asyncResult)
     // Offset: 0x1A2D8FC
     // Implemented from: System.IO.Stream
@@ -216,7 +223,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::IO::Compression::DeflateStream*, "System.IO.Compr
 // Writing MetadataGetter for method: System::IO::Compression::DeflateStream::ReadInternal
 // Il2CppName: ReadInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::Compression::DeflateStream::*)(::ArrayWrapper<uint8_t>, int, int)>(&System::IO::Compression::DeflateStream::ReadInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::Compression::DeflateStream::*)(::ArrayW<uint8_t>, int, int)>(&System::IO::Compression::DeflateStream::ReadInternal)> {
   static const MethodInfo* get() {
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -227,7 +234,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::IO::Compression::DeflateStream::WriteInternal
 // Il2CppName: WriteInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::Compression::DeflateStream::*)(::ArrayWrapper<uint8_t>, int, int)>(&System::IO::Compression::DeflateStream::WriteInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::Compression::DeflateStream::*)(::ArrayW<uint8_t>, int, int)>(&System::IO::Compression::DeflateStream::WriteInternal)> {
   static const MethodInfo* get() {
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -296,7 +303,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::IO::Compression::DeflateStream::Read
 // Il2CppName: Read
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::Compression::DeflateStream::*)(::ArrayWrapper<uint8_t>, int, int)>(&System::IO::Compression::DeflateStream::Read)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::Compression::DeflateStream::*)(::ArrayW<uint8_t>, int, int)>(&System::IO::Compression::DeflateStream::Read)> {
   static const MethodInfo* get() {
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -307,7 +314,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::IO::Compression::DeflateStream::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::Compression::DeflateStream::*)(::ArrayWrapper<uint8_t>, int, int)>(&System::IO::Compression::DeflateStream::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::Compression::DeflateStream::*)(::ArrayW<uint8_t>, int, int)>(&System::IO::Compression::DeflateStream::Write)> {
   static const MethodInfo* get() {
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -326,7 +333,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::IO::Compression::DeflateStream::BeginRead
 // Il2CppName: BeginRead
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::IO::Compression::DeflateStream::*)(::ArrayWrapper<uint8_t>, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::IO::Compression::DeflateStream::BeginRead)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::IO::Compression::DeflateStream::*)(::ArrayW<uint8_t>, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::IO::Compression::DeflateStream::BeginRead)> {
   static const MethodInfo* get() {
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -339,7 +346,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Writing MetadataGetter for method: System::IO::Compression::DeflateStream::BeginWrite
 // Il2CppName: BeginWrite
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::IO::Compression::DeflateStream::*)(::ArrayWrapper<uint8_t>, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::IO::Compression::DeflateStream::BeginWrite)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::IO::Compression::DeflateStream::*)(::ArrayW<uint8_t>, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::IO::Compression::DeflateStream::BeginWrite)> {
   static const MethodInfo* get() {
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

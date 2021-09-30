@@ -43,6 +43,11 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class FromBinder::$$c__DisplayClass66_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Boolean includeInactive
     // Size: 0x1
     // Offset: 0x10
@@ -57,6 +62,7 @@ namespace Zenject {
     System::Func_2<UnityEngine::Component*, bool>* predicate;
     // Field size check
     static_assert(sizeof(System::Func_2<UnityEngine::Component*, bool>*) == 0x8);
+    public:
     // Get instance field reference: public System.Boolean includeInactive
     bool& dyn_includeInactive();
     // Get instance field reference: public System.Func`2<UnityEngine.Component,System.Boolean> predicate

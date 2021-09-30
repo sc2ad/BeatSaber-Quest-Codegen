@@ -19,6 +19,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -80,12 +81,18 @@ namespace HMUI {
     // [TokenAttribute] Offset: FFFFFFFF
     struct TableType/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: TableType
       constexpr TableType(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -114,6 +121,11 @@ namespace HMUI {
     #pragma pack(pop)
     static check_size<sizeof(TableView::TableType), 0 + sizeof(int)> __HMUI_TableView_TableTypeSizeCheck;
     static_assert(sizeof(TableView::TableType) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private HMUI.ScrollView _scrollView
     // Size: 0x8
     // Offset: 0x18
@@ -161,9 +173,9 @@ namespace HMUI {
     // private HMUI.TableView/HMUI.CellsGroup[] _preallocatedCells
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<HMUI::TableView::CellsGroup*> preallocatedCells;
+    ::ArrayW<HMUI::TableView::CellsGroup*> preallocatedCells;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<HMUI::TableView::CellsGroup*>) == 0x8);
+    static_assert(sizeof(::ArrayW<HMUI::TableView::CellsGroup*>) == 0x8);
     // private System.Action`2<HMUI.TableView,System.Int32> didSelectCellWithIdxEvent
     // Size: 0x8
     // Offset: 0x38
@@ -266,6 +278,7 @@ namespace HMUI {
     bool refreshCellsOnEnable;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator HMUI::ITableCellOwner
     operator HMUI::ITableCellOwner() noexcept {
       return *reinterpret_cast<HMUI::ITableCellOwner*>(this);
@@ -285,7 +298,7 @@ namespace HMUI {
     // Get instance field reference: private System.Boolean _canSelectSelectedCell
     bool& dyn__canSelectSelectedCell();
     // Get instance field reference: private HMUI.TableView/HMUI.CellsGroup[] _preallocatedCells
-    ::ArrayWrapper<HMUI::TableView::CellsGroup*>& dyn__preallocatedCells();
+    ::ArrayW<HMUI::TableView::CellsGroup*>& dyn__preallocatedCells();
     // Get instance field reference: private System.Action`2<HMUI.TableView,System.Int32> didSelectCellWithIdxEvent
     System::Action_2<HMUI::TableView*, int>*& dyn_didSelectCellWithIdxEvent();
     // Get instance field reference: private System.Action`1<HMUI.TableView> didReloadDataEvent

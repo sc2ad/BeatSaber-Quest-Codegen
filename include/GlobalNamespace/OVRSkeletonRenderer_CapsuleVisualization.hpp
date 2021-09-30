@@ -38,6 +38,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRSkeletonRenderer::CapsuleVisualization : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.GameObject CapsuleGO
     // Size: 0x8
     // Offset: 0x10
@@ -76,6 +81,7 @@ namespace GlobalNamespace {
     UnityEngine::Material* SystemGestureMaterial;
     // Field size check
     static_assert(sizeof(UnityEngine::Material*) == 0x8);
+    public:
     // Get instance field reference: private UnityEngine.GameObject CapsuleGO
     UnityEngine::GameObject*& dyn_CapsuleGO();
     // Get instance field reference: private OVRBoneCapsule BoneCapsule

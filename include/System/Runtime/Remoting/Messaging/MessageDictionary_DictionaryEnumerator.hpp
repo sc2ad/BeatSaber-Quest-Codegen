@@ -29,6 +29,11 @@ namespace System::Runtime::Remoting::Messaging {
   // [TokenAttribute] Offset: FFFFFFFF
   class MessageDictionary::DictionaryEnumerator : public ::Il2CppObject/*, public System::Collections::IDictionaryEnumerator*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Runtime.Remoting.Messaging.MessageDictionary _methodDictionary
     // Size: 0x8
     // Offset: 0x10
@@ -47,6 +52,7 @@ namespace System::Runtime::Remoting::Messaging {
     int posMethod;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating interface conversion operator: operator System::Collections::IDictionaryEnumerator
     operator System::Collections::IDictionaryEnumerator() noexcept {
       return *reinterpret_cast<System::Collections::IDictionaryEnumerator*>(this);

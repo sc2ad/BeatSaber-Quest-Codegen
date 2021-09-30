@@ -26,6 +26,11 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   // [TokenAttribute] Offset: FFFFFFFF
   class InternalFE : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Runtime.Serialization.Formatters.FormatterTypeStyle FEtypeFormat
     // Size: 0x4
     // Offset: 0x10
@@ -50,6 +55,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     System::Runtime::Serialization::Formatters::Binary::InternalSerializerTypeE FEserializerTypeEnum;
     // Field size check
     static_assert(sizeof(System::Runtime::Serialization::Formatters::Binary::InternalSerializerTypeE) == 0x4);
+    public:
     // Get instance field reference: System.Runtime.Serialization.Formatters.FormatterTypeStyle FEtypeFormat
     System::Runtime::Serialization::Formatters::FormatterTypeStyle& dyn_FEtypeFormat();
     // Get instance field reference: System.Runtime.Serialization.Formatters.FormatterAssemblyStyle FEassemblyFormat

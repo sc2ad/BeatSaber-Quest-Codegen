@@ -16,6 +16,11 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   struct TagAttribute/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 startIndex
     // Size: 0x4
     // Offset: 0x0
@@ -34,6 +39,7 @@ namespace TMPro {
     int hashCode;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: TagAttribute
     constexpr TagAttribute(int startIndex_ = {}, int length_ = {}, int hashCode_ = {}) noexcept : startIndex{startIndex_}, length{length_}, hashCode{hashCode_} {}
     // Creating interface conversion operator: operator System::ValueType

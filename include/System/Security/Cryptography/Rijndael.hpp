@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Security::Cryptography
@@ -29,13 +30,13 @@ namespace System::Security::Cryptography {
   class Rijndael : public System::Security::Cryptography::SymmetricAlgorithm {
     public:
     // Get static field: static private System.Security.Cryptography.KeySizes[] s_legalBlockSizes
-    static ::ArrayWrapper<System::Security::Cryptography::KeySizes*> _get_s_legalBlockSizes();
+    static ::ArrayW<System::Security::Cryptography::KeySizes*> _get_s_legalBlockSizes();
     // Set static field: static private System.Security.Cryptography.KeySizes[] s_legalBlockSizes
-    static void _set_s_legalBlockSizes(::ArrayWrapper<System::Security::Cryptography::KeySizes*> value);
+    static void _set_s_legalBlockSizes(::ArrayW<System::Security::Cryptography::KeySizes*> value);
     // Get static field: static private System.Security.Cryptography.KeySizes[] s_legalKeySizes
-    static ::ArrayWrapper<System::Security::Cryptography::KeySizes*> _get_s_legalKeySizes();
+    static ::ArrayW<System::Security::Cryptography::KeySizes*> _get_s_legalKeySizes();
     // Set static field: static private System.Security.Cryptography.KeySizes[] s_legalKeySizes
-    static void _set_s_legalKeySizes(::ArrayWrapper<System::Security::Cryptography::KeySizes*> value);
+    static void _set_s_legalKeySizes(::ArrayW<System::Security::Cryptography::KeySizes*> value);
     // static private System.Void .cctor()
     // Offset: 0x1CC45A8
     static void _cctor();

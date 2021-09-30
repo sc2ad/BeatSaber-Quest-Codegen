@@ -25,6 +25,11 @@ namespace UnityEngine {
   // [NativeClassAttribute] Offset: ECEECC
   class Cloth : public UnityEngine::Component {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [DebuggerBrowsableAttribute] Offset: 0xECEF9C
     // private System.Single <useContinuousCollision>k__BackingField
     // Size: 0x4
@@ -39,6 +44,7 @@ namespace UnityEngine {
     bool selfCollision;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Single <useContinuousCollision>k__BackingField

@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -99,10 +100,10 @@ namespace UnityEngine {
     bool get_isPartOfStaticBatch();
     // public UnityEngine.Material[] get_materials()
     // Offset: 0x1E06184
-    ::ArrayWrapper<UnityEngine::Material*> get_materials();
+    ::ArrayW<UnityEngine::Material*> get_materials();
     // public System.Void set_materials(UnityEngine.Material[] value)
     // Offset: 0x1E061C4
-    void set_materials(::ArrayWrapper<UnityEngine::Material*> value);
+    void set_materials(::ArrayW<UnityEngine::Material*> value);
     // public UnityEngine.Material get_material()
     // Offset: 0x1E06214
     UnityEngine::Material* get_material();
@@ -117,10 +118,10 @@ namespace UnityEngine {
     void set_sharedMaterial(UnityEngine::Material* value);
     // public UnityEngine.Material[] get_sharedMaterials()
     // Offset: 0x1E06334
-    ::ArrayWrapper<UnityEngine::Material*> get_sharedMaterials();
+    ::ArrayW<UnityEngine::Material*> get_sharedMaterials();
     // public System.Void set_sharedMaterials(UnityEngine.Material[] value)
     // Offset: 0x1E06374
-    void set_sharedMaterials(::ArrayWrapper<UnityEngine::Material*> value);
+    void set_sharedMaterials(::ArrayW<UnityEngine::Material*> value);
     // private UnityEngine.Material GetMaterial()
     // Offset: 0x1E059F4
     UnityEngine::Material* GetMaterial();
@@ -132,13 +133,13 @@ namespace UnityEngine {
     void SetMaterial(UnityEngine::Material* m);
     // private UnityEngine.Material[] GetMaterialArray()
     // Offset: 0x1E05AC4
-    ::ArrayWrapper<UnityEngine::Material*> GetMaterialArray();
+    ::ArrayW<UnityEngine::Material*> GetMaterialArray();
     // private System.Void CopySharedMaterialArray(out UnityEngine.Material[] m)
     // Offset: 0x1E05B04
-    void CopySharedMaterialArray(ByRef<::ArrayWrapper<UnityEngine::Material*>> m);
+    void CopySharedMaterialArray(ByRef<::ArrayW<UnityEngine::Material*>> m);
     // private System.Void SetMaterialArray(UnityEngine.Material[] m)
     // Offset: 0x1E05B54
-    void SetMaterialArray(::ArrayWrapper<UnityEngine::Material*> m);
+    void SetMaterialArray(::ArrayW<UnityEngine::Material*> m);
     // System.Void Internal_SetPropertyBlock(UnityEngine.MaterialPropertyBlock properties)
     // Offset: 0x1E05BA4
     void Internal_SetPropertyBlock(UnityEngine::MaterialPropertyBlock* properties);
@@ -156,7 +157,7 @@ namespace UnityEngine {
     int GetMaterialCount();
     // private UnityEngine.Material[] GetSharedMaterialArray()
     // Offset: 0x1E06144
-    ::ArrayWrapper<UnityEngine::Material*> GetSharedMaterialArray();
+    ::ArrayW<UnityEngine::Material*> GetSharedMaterialArray();
     // public System.Void GetSharedMaterials(System.Collections.Generic.List`1<UnityEngine.Material> m)
     // Offset: 0x1E063C4
     void GetSharedMaterials(System::Collections::Generic::List_1<UnityEngine::Material*>* m);
@@ -311,7 +312,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::Renderer::get_materials
 // Il2CppName: get_materials
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Material*> (UnityEngine::Renderer::*)()>(&UnityEngine::Renderer::get_materials)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Material*> (UnityEngine::Renderer::*)()>(&UnityEngine::Renderer::get_materials)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Renderer*), "get_materials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -319,7 +320,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::Renderer::set_materials
 // Il2CppName: set_materials
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Renderer::*)(::ArrayWrapper<UnityEngine::Material*>)>(&UnityEngine::Renderer::set_materials)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Renderer::*)(::ArrayW<UnityEngine::Material*>)>(&UnityEngine::Renderer::set_materials)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Material"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Renderer*), "set_materials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -362,7 +363,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Renderer::get_sharedMaterials
 // Il2CppName: get_sharedMaterials
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Material*> (UnityEngine::Renderer::*)()>(&UnityEngine::Renderer::get_sharedMaterials)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Material*> (UnityEngine::Renderer::*)()>(&UnityEngine::Renderer::get_sharedMaterials)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Renderer*), "get_sharedMaterials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -370,7 +371,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::Renderer::set_sharedMaterials
 // Il2CppName: set_sharedMaterials
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Renderer::*)(::ArrayWrapper<UnityEngine::Material*>)>(&UnityEngine::Renderer::set_sharedMaterials)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Renderer::*)(::ArrayW<UnityEngine::Material*>)>(&UnityEngine::Renderer::set_sharedMaterials)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Material"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Renderer*), "set_sharedMaterials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -404,7 +405,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Renderer::GetMaterialArray
 // Il2CppName: GetMaterialArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Material*> (UnityEngine::Renderer::*)()>(&UnityEngine::Renderer::GetMaterialArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Material*> (UnityEngine::Renderer::*)()>(&UnityEngine::Renderer::GetMaterialArray)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Renderer*), "GetMaterialArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -412,7 +413,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::Renderer::CopySharedMaterialArray
 // Il2CppName: CopySharedMaterialArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Renderer::*)(ByRef<::ArrayWrapper<UnityEngine::Material*>>)>(&UnityEngine::Renderer::CopySharedMaterialArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Renderer::*)(ByRef<::ArrayW<UnityEngine::Material*>>)>(&UnityEngine::Renderer::CopySharedMaterialArray)> {
   static const MethodInfo* get() {
     static auto* m = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Material"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Renderer*), "CopySharedMaterialArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{m});
@@ -421,7 +422,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Renderer::SetMaterialArray
 // Il2CppName: SetMaterialArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Renderer::*)(::ArrayWrapper<UnityEngine::Material*>)>(&UnityEngine::Renderer::SetMaterialArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Renderer::*)(::ArrayW<UnityEngine::Material*>)>(&UnityEngine::Renderer::SetMaterialArray)> {
   static const MethodInfo* get() {
     static auto* m = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Material"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Renderer*), "SetMaterialArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{m});
@@ -476,7 +477,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Writing MetadataGetter for method: UnityEngine::Renderer::GetSharedMaterialArray
 // Il2CppName: GetSharedMaterialArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Material*> (UnityEngine::Renderer::*)()>(&UnityEngine::Renderer::GetSharedMaterialArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Material*> (UnityEngine::Renderer::*)()>(&UnityEngine::Renderer::GetSharedMaterialArray)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Renderer*), "GetSharedMaterialArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

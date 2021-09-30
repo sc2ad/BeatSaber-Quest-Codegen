@@ -39,6 +39,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MockBeatmapObjectSpawnController : public ::Il2CppObject/*, public GlobalNamespace::IBeatmapObjectSpawnController*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Single <jumpOffsetY>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -99,6 +104,7 @@ namespace GlobalNamespace {
     System::Action* didInitEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IBeatmapObjectSpawnController
     operator GlobalNamespace::IBeatmapObjectSpawnController() noexcept {
       return *reinterpret_cast<GlobalNamespace::IBeatmapObjectSpawnController*>(this);

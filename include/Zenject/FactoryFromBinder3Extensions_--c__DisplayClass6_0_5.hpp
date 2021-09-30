@@ -40,12 +40,18 @@ namespace Zenject {
   template<typename TParam1, typename TParam2, typename TParam3, typename TContract, typename TMemoryPool>
   class FactoryFromBinder3Extensions::$$c__DisplayClass6_0_5 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Guid poolId
     // Size: 0x10
     // Offset: 0x0
     System::Guid poolId;
     // Field size check
     static_assert(sizeof(System::Guid) == 0x10);
+    public:
     // Creating conversion operator: operator System::Guid
     constexpr operator System::Guid() const noexcept {
       return poolId;

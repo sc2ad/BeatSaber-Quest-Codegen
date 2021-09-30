@@ -41,6 +41,11 @@ namespace System::Threading {
   // [ComVisibleAttribute] Offset: E5E77C
   class ManualResetEventSlim : public ::Il2CppObject/*, public System::IDisposable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Object m_lock
     // Size: 0x8
     // Offset: 0x10
@@ -59,6 +64,7 @@ namespace System::Threading {
     int m_combinedState;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

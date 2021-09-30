@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: System.Security.Util
 namespace System::Security::Util {
@@ -18,20 +19,26 @@ namespace System::Security::Util {
   // [TokenAttribute] Offset: FFFFFFFF
   class TokenizerShortBlock : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Int16[] m_block
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<int16_t> m_block;
+    ::ArrayW<int16_t> m_block;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int16_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<int16_t>) == 0x8);
     // System.Security.Util.TokenizerShortBlock m_next
     // Size: 0x8
     // Offset: 0x18
     System::Security::Util::TokenizerShortBlock* m_next;
     // Field size check
     static_assert(sizeof(System::Security::Util::TokenizerShortBlock*) == 0x8);
+    public:
     // Get instance field reference: System.Int16[] m_block
-    ::ArrayWrapper<int16_t>& dyn_m_block();
+    ::ArrayW<int16_t>& dyn_m_block();
     // Get instance field reference: System.Security.Util.TokenizerShortBlock m_next
     System::Security::Util::TokenizerShortBlock*& dyn_m_next();
     // public System.Void .ctor()

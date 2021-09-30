@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Serialization::Formatters::Binary
@@ -33,6 +34,11 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   // [TokenAttribute] Offset: FFFFFFFF
   class BinaryArray : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Int32 objectId
     // Size: 0x4
     // Offset: 0x10
@@ -48,15 +54,15 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // System.Int32[] lengthA
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<int> lengthA;
+    ::ArrayW<int> lengthA;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // System.Int32[] lowerBoundA
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<int> lowerBoundA;
+    ::ArrayW<int> lowerBoundA;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum binaryTypeEnum
     // Size: 0x4
     // Offset: 0x28
@@ -89,14 +95,15 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum binaryArrayTypeEnum;
     // Field size check
     static_assert(sizeof(System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum) == 0x4);
+    public:
     // Get instance field reference: System.Int32 objectId
     int& dyn_objectId();
     // Get instance field reference: System.Int32 rank
     int& dyn_rank();
     // Get instance field reference: System.Int32[] lengthA
-    ::ArrayWrapper<int>& dyn_lengthA();
+    ::ArrayW<int>& dyn_lengthA();
     // Get instance field reference: System.Int32[] lowerBoundA
-    ::ArrayWrapper<int>& dyn_lowerBoundA();
+    ::ArrayW<int>& dyn_lowerBoundA();
     // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum binaryTypeEnum
     System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum& dyn_binaryTypeEnum();
     // Get instance field reference: System.Object typeInformation
@@ -116,7 +123,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     }
     // System.Void Set(System.Int32 objectId, System.Int32 rank, System.Int32[] lengthA, System.Int32[] lowerBoundA, System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum binaryTypeEnum, System.Object typeInformation, System.Runtime.Serialization.Formatters.Binary.BinaryArrayTypeEnum binaryArrayTypeEnum, System.Int32 assemId)
     // Offset: 0x17E66EC
-    void Set(int objectId, int rank, ::ArrayWrapper<int> lengthA, ::ArrayWrapper<int> lowerBoundA, System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum binaryTypeEnum, ::Il2CppObject* typeInformation, System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum binaryArrayTypeEnum, int assemId);
+    void Set(int objectId, int rank, ::ArrayW<int> lengthA, ::ArrayW<int> lowerBoundA, System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum binaryTypeEnum, ::Il2CppObject* typeInformation, System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum binaryArrayTypeEnum, int assemId);
     // public System.Void Write(System.Runtime.Serialization.Formatters.Binary.__BinaryWriter sout)
     // Offset: 0x17E6740
     void Write(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
@@ -146,7 +153,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::Binar
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::BinaryArray::Set
 // Il2CppName: Set
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::BinaryArray::*)(int, int, ::ArrayWrapper<int>, ::ArrayWrapper<int>, System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum, ::Il2CppObject*, System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum, int)>(&System::Runtime::Serialization::Formatters::Binary::BinaryArray::Set)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::BinaryArray::*)(int, int, ::ArrayW<int>, ::ArrayW<int>, System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum, ::Il2CppObject*, System::Runtime::Serialization::Formatters::Binary::BinaryArrayTypeEnum, int)>(&System::Runtime::Serialization::Formatters::Binary::BinaryArray::Set)> {
   static const MethodInfo* get() {
     static auto* objectId = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* rank = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

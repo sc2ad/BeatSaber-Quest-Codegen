@@ -29,6 +29,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class DeterministicHitChanceScoreCalculator : public ::Il2CppObject/*, public GlobalNamespace::IMockPlayerScoreCalculator*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Single _hitChance
     // Size: 0x4
     // Offset: 0x10
@@ -41,6 +46,7 @@ namespace GlobalNamespace {
     float chanceAggregated;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IMockPlayerScoreCalculator
     operator GlobalNamespace::IMockPlayerScoreCalculator() noexcept {
       return *reinterpret_cast<GlobalNamespace::IMockPlayerScoreCalculator*>(this);

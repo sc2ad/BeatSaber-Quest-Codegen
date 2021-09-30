@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -31,6 +32,11 @@ namespace System::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   class XmlException : public System::SystemException {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String res
     // Size: 0x8
     // Offset: 0x88
@@ -40,9 +46,9 @@ namespace System::Xml {
     // private System.String[] args
     // Size: 0x8
     // Offset: 0x90
-    ::ArrayWrapper<::Il2CppString*> args;
+    ::ArrayW<::Il2CppString*> args;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // private System.Int32 lineNumber
     // Size: 0x4
     // Offset: 0x98
@@ -68,10 +74,11 @@ namespace System::Xml {
     ::Il2CppString* message;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: private System.String res
     ::Il2CppString*& dyn_res();
     // Get instance field reference: private System.String[] args
-    ::ArrayWrapper<::Il2CppString*>& dyn_args();
+    ::ArrayW<::Il2CppString*>& dyn_args();
     // Get instance field reference: private System.Int32 lineNumber
     int& dyn_lineNumber();
     // Get instance field reference: private System.Int32 linePosition
@@ -97,7 +104,7 @@ namespace System::Xml {
     // System.Void .ctor(System.String res, System.String[] args)
     // Offset: 0x1B04EF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XmlException* New_ctor(::Il2CppString* res, ::ArrayWrapper<::Il2CppString*> args) {
+    static XmlException* New_ctor(::Il2CppString* res, ::ArrayW<::Il2CppString*> args) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::XmlException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlException*, creationType>(res, args)));
     }
@@ -118,14 +125,14 @@ namespace System::Xml {
     // System.Void .ctor(System.String res, System.String[] args, System.Int32 lineNumber, System.Int32 linePosition)
     // Offset: 0x1B008E0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XmlException* New_ctor(::Il2CppString* res, ::ArrayWrapper<::Il2CppString*> args, int lineNumber, int linePosition) {
+    static XmlException* New_ctor(::Il2CppString* res, ::ArrayW<::Il2CppString*> args, int lineNumber, int linePosition) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::XmlException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlException*, creationType>(res, args, lineNumber, linePosition)));
     }
     // System.Void .ctor(System.String res, System.String[] args, System.Exception innerException, System.Int32 lineNumber, System.Int32 linePosition, System.String sourceUri)
     // Offset: 0x1B04F58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static XmlException* New_ctor(::Il2CppString* res, ::ArrayWrapper<::Il2CppString*> args, System::Exception* innerException, int lineNumber, int linePosition, ::Il2CppString* sourceUri) {
+    static XmlException* New_ctor(::Il2CppString* res, ::ArrayW<::Il2CppString*> args, System::Exception* innerException, int lineNumber, int linePosition, ::Il2CppString* sourceUri) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Xml::XmlException::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<XmlException*, creationType>(res, args, innerException, lineNumber, linePosition, sourceUri)));
     }
@@ -134,13 +141,13 @@ namespace System::Xml {
     static ::Il2CppString* FormatUserMessage(::Il2CppString* message, int lineNumber, int linePosition);
     // static private System.String CreateMessage(System.String res, System.String[] args, System.Int32 lineNumber, System.Int32 linePosition)
     // Offset: 0x1B048E0
-    static ::Il2CppString* CreateMessage(::Il2CppString* res, ::ArrayWrapper<::Il2CppString*> args, int lineNumber, int linePosition);
+    static ::Il2CppString* CreateMessage(::Il2CppString* res, ::ArrayW<::Il2CppString*> args, int lineNumber, int linePosition);
     // static System.String[] BuildCharExceptionArgs(System.String data, System.Int32 invCharIndex)
     // Offset: 0x1B003A0
-    static ::ArrayWrapper<::Il2CppString*> BuildCharExceptionArgs(::Il2CppString* data, int invCharIndex);
+    static ::ArrayW<::Il2CppString*> BuildCharExceptionArgs(::Il2CppString* data, int invCharIndex);
     // static System.String[] BuildCharExceptionArgs(System.Char invChar, System.Char nextChar)
     // Offset: 0x1B00E6C
-    static ::ArrayWrapper<::Il2CppString*> BuildCharExceptionArgs(::Il2CppChar invChar, ::Il2CppChar nextChar);
+    static ::ArrayW<::Il2CppString*> BuildCharExceptionArgs(::Il2CppChar invChar, ::Il2CppChar nextChar);
     // public override System.String get_Message()
     // Offset: 0x1B04FE4
     // Implemented from: System.Exception
@@ -231,7 +238,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Xml::XmlException::CreateMessage
 // Il2CppName: CreateMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::ArrayWrapper<::Il2CppString*>, int, int)>(&System::Xml::XmlException::CreateMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::ArrayW<::Il2CppString*>, int, int)>(&System::Xml::XmlException::CreateMessage)> {
   static const MethodInfo* get() {
     static auto* res = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
@@ -243,7 +250,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Xml::XmlException::BuildCharExceptionArgs
 // Il2CppName: BuildCharExceptionArgs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppString*> (*)(::Il2CppString*, int)>(&System::Xml::XmlException::BuildCharExceptionArgs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (*)(::Il2CppString*, int)>(&System::Xml::XmlException::BuildCharExceptionArgs)> {
   static const MethodInfo* get() {
     static auto* data = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* invCharIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -253,7 +260,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: System::Xml::XmlException::BuildCharExceptionArgs
 // Il2CppName: BuildCharExceptionArgs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppString*> (*)(::Il2CppChar, ::Il2CppChar)>(&System::Xml::XmlException::BuildCharExceptionArgs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (*)(::Il2CppChar, ::Il2CppChar)>(&System::Xml::XmlException::BuildCharExceptionArgs)> {
   static const MethodInfo* get() {
     static auto* invChar = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;
     static auto* nextChar = &::il2cpp_utils::GetClassFromName("System", "Char")->byval_arg;

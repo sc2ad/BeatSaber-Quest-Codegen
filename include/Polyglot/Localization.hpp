@@ -14,6 +14,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Polyglot
@@ -62,6 +63,11 @@ namespace Polyglot {
   // [TokenAttribute] Offset: FFFFFFFF
   class Localization : public UnityEngine::ScriptableObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Polyglot.LocalizationDocument customDocument
     // Size: 0x8
     // Offset: 0x18
@@ -111,6 +117,7 @@ namespace Polyglot {
     System::Globalization::CultureInfo* selectedCultureInfo;
     // Field size check
     static_assert(sizeof(System::Globalization::CultureInfo*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.String KeyNotFound
@@ -220,7 +227,7 @@ namespace Polyglot {
     static System::Collections::Generic::List_1<::Il2CppString*>* GetKeys();
     // static public System.String GetFormat(System.String key, params System.Object[] arguments)
     // Offset: 0x25833DC
-    static ::Il2CppString* GetFormat(::Il2CppString* key, ::ArrayWrapper<::Il2CppObject*> arguments);
+    static ::Il2CppString* GetFormat(::Il2CppString* key, ::ArrayW<::Il2CppObject*> arguments);
     // public System.Boolean InputFilesContains(Polyglot.LocalizationDocument doc)
     // Offset: 0x2583458
     bool InputFilesContains(Polyglot::LocalizationDocument* doc);
@@ -474,7 +481,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: Polyglot::Localization::GetFormat
 // Il2CppName: GetFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::ArrayWrapper<::Il2CppObject*>)>(&Polyglot::Localization::GetFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::ArrayW<::Il2CppObject*>)>(&Polyglot::Localization::GetFormat)> {
   static const MethodInfo* get() {
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* arguments = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;

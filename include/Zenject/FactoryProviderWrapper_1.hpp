@@ -29,6 +29,11 @@ namespace Zenject {
   template<typename TContract>
   class FactoryProviderWrapper_1 : public ::Il2CppObject/*, public Zenject::IFactory_1<TContract>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Zenject.IProvider _provider
     // Size: 0x8
     // Offset: 0x0
@@ -41,6 +46,7 @@ namespace Zenject {
     Zenject::InjectContext* injectContext;
     // Field size check
     static_assert(sizeof(Zenject::InjectContext*) == 0x8);
+    public:
     // Creating interface conversion operator: operator Zenject::IFactory_1<TContract>
     operator Zenject::IFactory_1<TContract>() noexcept {
       return *reinterpret_cast<Zenject::IFactory_1<TContract>*>(this);

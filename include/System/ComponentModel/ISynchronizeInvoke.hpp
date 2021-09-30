@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -30,7 +31,7 @@ namespace System::ComponentModel {
     bool get_InvokeRequired();
     // public System.IAsyncResult BeginInvoke(System.Delegate method, System.Object[] args)
     // Offset: 0xFFFFFFFF
-    System::IAsyncResult* BeginInvoke(System::Delegate* method, ::ArrayWrapper<::Il2CppObject*> args);
+    System::IAsyncResult* BeginInvoke(System::Delegate* method, ::ArrayW<::Il2CppObject*> args);
   }; // System.ComponentModel.ISynchronizeInvoke
   #pragma pack(pop)
 }
@@ -48,7 +49,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::ComponentModel::ISynchronizeInvoke::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::ComponentModel::ISynchronizeInvoke::*)(System::Delegate*, ::ArrayWrapper<::Il2CppObject*>)>(&System::ComponentModel::ISynchronizeInvoke::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::ComponentModel::ISynchronizeInvoke::*)(System::Delegate*, ::ArrayW<::Il2CppObject*>)>(&System::ComponentModel::ISynchronizeInvoke::BeginInvoke)> {
   static const MethodInfo* get() {
     static auto* method = &::il2cpp_utils::GetClassFromName("System", "Delegate")->byval_arg;
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;

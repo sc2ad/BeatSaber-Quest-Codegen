@@ -16,6 +16,11 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct VREvent_Process_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.UInt32 pid
     // Size: 0x4
     // Offset: 0x0
@@ -34,6 +39,7 @@ namespace OVR::OpenVR {
     bool bForced;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating value type constructor for type: VREvent_Process_t
     constexpr VREvent_Process_t(uint pid_ = {}, uint oldPid_ = {}, bool bForced_ = {}) noexcept : pid{pid_}, oldPid{oldPid_}, bForced{bForced_} {}
     // Creating interface conversion operator: operator System::ValueType

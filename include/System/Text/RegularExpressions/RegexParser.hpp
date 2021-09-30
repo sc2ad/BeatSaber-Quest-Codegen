@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text::RegularExpressions
@@ -54,6 +55,11 @@ namespace System::Text::RegularExpressions {
   // [TokenAttribute] Offset: FFFFFFFF
   class RegexParser : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Text.RegularExpressions.RegexNode _stack
     // Size: 0x8
     // Offset: 0x10
@@ -143,9 +149,9 @@ namespace System::Text::RegularExpressions {
     // System.Int32[] _capnumlist
     // Size: 0x8
     // Offset: 0x70
-    ::ArrayWrapper<int> capnumlist;
+    ::ArrayW<int> capnumlist;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // System.Collections.Generic.List`1<System.String> _capnamelist
     // Size: 0x8
     // Offset: 0x78
@@ -172,10 +178,11 @@ namespace System::Text::RegularExpressions {
     bool ignoreNextParen;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get static field: static readonly System.Byte[] _category
-    static ::ArrayWrapper<uint8_t> _get__category();
+    static ::ArrayW<uint8_t> _get__category();
     // Set static field: static readonly System.Byte[] _category
-    static void _set__category(::ArrayWrapper<uint8_t> value);
+    static void _set__category(::ArrayW<uint8_t> value);
     // Get instance field reference: System.Text.RegularExpressions.RegexNode _stack
     System::Text::RegularExpressions::RegexNode*& dyn__stack();
     // Get instance field reference: System.Text.RegularExpressions.RegexNode _group
@@ -205,7 +212,7 @@ namespace System::Text::RegularExpressions {
     // Get instance field reference: System.Collections.Hashtable _capnames
     System::Collections::Hashtable*& dyn__capnames();
     // Get instance field reference: System.Int32[] _capnumlist
-    ::ArrayWrapper<int>& dyn__capnumlist();
+    ::ArrayW<int>& dyn__capnumlist();
     // Get instance field reference: System.Collections.Generic.List`1<System.String> _capnamelist
     System::Collections::Generic::List_1<::Il2CppString*>*& dyn__capnamelist();
     // Get instance field reference: System.Text.RegularExpressions.RegexOptions _options

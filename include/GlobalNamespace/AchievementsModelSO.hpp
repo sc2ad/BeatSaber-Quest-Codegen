@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -37,6 +38,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::AchievementsModelSO::$$c__DisplayClass4_0
     class $$c__DisplayClass4_0;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private PlatformAchievementsModelSO _platformAchievementsModel
     // Size: 0x8
     // Offset: 0x18
@@ -55,6 +61,7 @@ namespace GlobalNamespace {
     bool initialized;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private PlatformAchievementsModelSO _platformAchievementsModel
@@ -71,7 +78,7 @@ namespace GlobalNamespace {
     void UnlockAchievement(GlobalNamespace::AchievementSO* achievement);
     // private System.Void <Initialize>b__3_0(PlatformAchievementsModelSO/GetUnlockedAchievementsResult result, System.String[] achievementIds)
     // Offset: 0x124029C
-    void $Initialize$b__3_0(GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsResult result, ::ArrayWrapper<::Il2CppString*> achievementIds);
+    void $Initialize$b__3_0(GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsResult result, ::ArrayW<::Il2CppString*> achievementIds);
     // public System.Void .ctor()
     // Offset: 0x124022C
     // Implemented from: PersistentScriptableObject
@@ -111,7 +118,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::AchievementsModelSO::$Initialize$b__3_0
 // Il2CppName: <Initialize>b__3_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AchievementsModelSO::*)(GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsResult, ::ArrayWrapper<::Il2CppString*>)>(&GlobalNamespace::AchievementsModelSO::$Initialize$b__3_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::AchievementsModelSO::*)(GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsResult, ::ArrayW<::Il2CppString*>)>(&GlobalNamespace::AchievementsModelSO::$Initialize$b__3_0)> {
   static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("", "PlatformAchievementsModelSO/GetUnlockedAchievementsResult")->byval_arg;
     static auto* achievementIds = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;

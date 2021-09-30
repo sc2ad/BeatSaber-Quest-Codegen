@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Threading
@@ -36,6 +37,11 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class HttpStreamAsyncResult : public ::Il2CppObject/*, public System::IAsyncResult*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Object locker
     // Size: 0x8
     // Offset: 0x10
@@ -59,9 +65,9 @@ namespace System::Net {
     // System.Byte[] Buffer
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<uint8_t> Buffer;
+    ::ArrayW<uint8_t> Buffer;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // System.Int32 Offset
     // Size: 0x4
     // Offset: 0x30
@@ -100,6 +106,7 @@ namespace System::Net {
     System::Exception* Error;
     // Field size check
     static_assert(sizeof(System::Exception*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::IAsyncResult
     operator System::IAsyncResult() noexcept {
       return *reinterpret_cast<System::IAsyncResult*>(this);
@@ -111,7 +118,7 @@ namespace System::Net {
     // Get instance field reference: private System.Boolean completed
     bool& dyn_completed();
     // Get instance field reference: System.Byte[] Buffer
-    ::ArrayWrapper<uint8_t>& dyn_Buffer();
+    ::ArrayW<uint8_t>& dyn_Buffer();
     // Get instance field reference: System.Int32 Offset
     int& dyn_Offset();
     // Get instance field reference: System.Int32 Count

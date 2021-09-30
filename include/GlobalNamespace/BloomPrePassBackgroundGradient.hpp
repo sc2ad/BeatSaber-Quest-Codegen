@@ -33,12 +33,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BloomPrePassBackgroundGradient : public GlobalNamespace::BloomPrePassBackgroundTextureGradient {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Gradient _gradient
     // Size: 0x8
     // Offset: 0x40
     UnityEngine::Gradient* gradient;
     // Field size check
     static_assert(sizeof(UnityEngine::Gradient*) == 0x8);
+    public:
     // Get instance field reference: private UnityEngine.Gradient _gradient
     UnityEngine::Gradient*& dyn__gradient();
     // public System.Void .ctor()

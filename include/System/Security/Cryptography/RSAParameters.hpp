@@ -7,6 +7,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: System.Security.Cryptography
 namespace System::Security::Cryptography {
@@ -18,79 +19,85 @@ namespace System::Security::Cryptography {
   // [ComVisibleAttribute] Offset: E5F420
   struct RSAParameters/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Byte[] Exponent
     // Size: 0x8
     // Offset: 0x0
-    ::ArrayWrapper<uint8_t> Exponent;
+    ::ArrayW<uint8_t> Exponent;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // public System.Byte[] Modulus
     // Size: 0x8
     // Offset: 0x8
-    ::ArrayWrapper<uint8_t> Modulus;
+    ::ArrayW<uint8_t> Modulus;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // public System.Byte[] P
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<uint8_t> P;
+    ::ArrayW<uint8_t> P;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // public System.Byte[] Q
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<uint8_t> Q;
+    ::ArrayW<uint8_t> Q;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // public System.Byte[] DP
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<uint8_t> DP;
+    ::ArrayW<uint8_t> DP;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // public System.Byte[] DQ
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<uint8_t> DQ;
+    ::ArrayW<uint8_t> DQ;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // public System.Byte[] InverseQ
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<uint8_t> InverseQ;
+    ::ArrayW<uint8_t> InverseQ;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // public System.Byte[] D
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayWrapper<uint8_t> D;
+    ::ArrayW<uint8_t> D;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
+    public:
     // Creating value type constructor for type: RSAParameters
-    constexpr RSAParameters(::ArrayWrapper<uint8_t> Exponent_ = ::ArrayWrapper<uint8_t>(nullptr), ::ArrayWrapper<uint8_t> Modulus_ = ::ArrayWrapper<uint8_t>(nullptr), ::ArrayWrapper<uint8_t> P_ = ::ArrayWrapper<uint8_t>(nullptr), ::ArrayWrapper<uint8_t> Q_ = ::ArrayWrapper<uint8_t>(nullptr), ::ArrayWrapper<uint8_t> DP_ = ::ArrayWrapper<uint8_t>(nullptr), ::ArrayWrapper<uint8_t> DQ_ = ::ArrayWrapper<uint8_t>(nullptr), ::ArrayWrapper<uint8_t> InverseQ_ = ::ArrayWrapper<uint8_t>(nullptr), ::ArrayWrapper<uint8_t> D_ = ::ArrayWrapper<uint8_t>(nullptr)) noexcept : Exponent{Exponent_}, Modulus{Modulus_}, P{P_}, Q{Q_}, DP{DP_}, DQ{DQ_}, InverseQ{InverseQ_}, D{D_} {}
+    constexpr RSAParameters(::ArrayW<uint8_t> Exponent_ = ::ArrayW<uint8_t>(nullptr), ::ArrayW<uint8_t> Modulus_ = ::ArrayW<uint8_t>(nullptr), ::ArrayW<uint8_t> P_ = ::ArrayW<uint8_t>(nullptr), ::ArrayW<uint8_t> Q_ = ::ArrayW<uint8_t>(nullptr), ::ArrayW<uint8_t> DP_ = ::ArrayW<uint8_t>(nullptr), ::ArrayW<uint8_t> DQ_ = ::ArrayW<uint8_t>(nullptr), ::ArrayW<uint8_t> InverseQ_ = ::ArrayW<uint8_t>(nullptr), ::ArrayW<uint8_t> D_ = ::ArrayW<uint8_t>(nullptr)) noexcept : Exponent{Exponent_}, Modulus{Modulus_}, P{P_}, Q{Q_}, DP{DP_}, DQ{DQ_}, InverseQ{InverseQ_}, D{D_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // Get instance field reference: public System.Byte[] Exponent
-    ::ArrayWrapper<uint8_t>& dyn_Exponent();
+    ::ArrayW<uint8_t>& dyn_Exponent();
     // Get instance field reference: public System.Byte[] Modulus
-    ::ArrayWrapper<uint8_t>& dyn_Modulus();
+    ::ArrayW<uint8_t>& dyn_Modulus();
     // Get instance field reference: public System.Byte[] P
-    ::ArrayWrapper<uint8_t>& dyn_P();
+    ::ArrayW<uint8_t>& dyn_P();
     // Get instance field reference: public System.Byte[] Q
-    ::ArrayWrapper<uint8_t>& dyn_Q();
+    ::ArrayW<uint8_t>& dyn_Q();
     // Get instance field reference: public System.Byte[] DP
-    ::ArrayWrapper<uint8_t>& dyn_DP();
+    ::ArrayW<uint8_t>& dyn_DP();
     // Get instance field reference: public System.Byte[] DQ
-    ::ArrayWrapper<uint8_t>& dyn_DQ();
+    ::ArrayW<uint8_t>& dyn_DQ();
     // Get instance field reference: public System.Byte[] InverseQ
-    ::ArrayWrapper<uint8_t>& dyn_InverseQ();
+    ::ArrayW<uint8_t>& dyn_InverseQ();
     // Get instance field reference: public System.Byte[] D
-    ::ArrayWrapper<uint8_t>& dyn_D();
+    ::ArrayW<uint8_t>& dyn_D();
   }; // System.Security.Cryptography.RSAParameters
   #pragma pack(pop)
-  static check_size<sizeof(RSAParameters), 56 + sizeof(::ArrayWrapper<uint8_t>)> __System_Security_Cryptography_RSAParametersSizeCheck;
+  static check_size<sizeof(RSAParameters), 56 + sizeof(::ArrayW<uint8_t>)> __System_Security_Cryptography_RSAParametersSizeCheck;
   static_assert(sizeof(RSAParameters) == 0x40);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

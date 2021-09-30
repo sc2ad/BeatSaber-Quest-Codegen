@@ -22,6 +22,11 @@ namespace System::Runtime::Remoting::Metadata {
   // [AttributeUsageAttribute] Offset: E5FEAC
   class SoapFieldAttribute : public System::Runtime::Remoting::Metadata::SoapAttribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String _elementName
     // Size: 0x8
     // Offset: 0x28
@@ -34,6 +39,7 @@ namespace System::Runtime::Remoting::Metadata {
     bool isElement;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private System.String _elementName
     ::Il2CppString*& dyn__elementName();
     // Get instance field reference: private System.Boolean _isElement

@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -20,14 +21,14 @@ namespace GlobalNamespace {
     public:
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEC95C0
     // Get static field: static private readonly System.Int32[] permutation
-    static ::ArrayWrapper<int> _get_permutation();
+    static ::ArrayW<int> _get_permutation();
     // Set static field: static private readonly System.Int32[] permutation
-    static void _set_permutation(::ArrayWrapper<int> value);
+    static void _set_permutation(::ArrayW<int> value);
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEC95D0
     // Get static field: static private readonly System.Int32[] p
-    static ::ArrayWrapper<int> _get_p();
+    static ::ArrayW<int> _get_p();
     // Set static field: static private readonly System.Int32[] p
-    static void _set_p(::ArrayWrapper<int> value);
+    static void _set_p(::ArrayW<int> value);
     // static private System.Void .cctor()
     // Offset: 0x138B9CC
     static void _cctor();

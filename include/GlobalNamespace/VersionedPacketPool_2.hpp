@@ -30,6 +30,11 @@ namespace GlobalNamespace {
   template<typename T, typename T2>
   class VersionedPacketPool_2 : public ::Il2CppObject/*, public GlobalNamespace::IVersionedPacketPool_1<T>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly PacketPool`1<T> _basePool
     // Size: 0x8
     // Offset: 0x0
@@ -48,6 +53,7 @@ namespace GlobalNamespace {
     uint overrideVersion;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IVersionedPacketPool_1<T>
     operator GlobalNamespace::IVersionedPacketPool_1<T>() noexcept {
       return *reinterpret_cast<GlobalNamespace::IVersionedPacketPool_1<T>*>(this);

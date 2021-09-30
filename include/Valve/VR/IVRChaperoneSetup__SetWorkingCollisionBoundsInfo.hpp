@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -43,10 +44,10 @@ namespace Valve::VR {
     }
     // public System.Void Invoke(in Valve.VR.HmdQuad_t[] pQuadsBuffer, System.UInt32 unQuadsCount)
     // Offset: 0x21A8B40
-    void Invoke(ByRef<::ArrayWrapper<Valve::VR::HmdQuad_t>> pQuadsBuffer, uint unQuadsCount);
+    void Invoke(ByRef<::ArrayW<Valve::VR::HmdQuad_t>> pQuadsBuffer, uint unQuadsCount);
     // public System.IAsyncResult BeginInvoke(in Valve.VR.HmdQuad_t[] pQuadsBuffer, System.UInt32 unQuadsCount, System.AsyncCallback callback, System.Object object)
     // Offset: 0x21A8DB0
-    System::IAsyncResult* BeginInvoke(ByRef<::ArrayWrapper<Valve::VR::HmdQuad_t>> pQuadsBuffer, uint unQuadsCount, System::AsyncCallback* callback, ::Il2CppObject* object);
+    System::IAsyncResult* BeginInvoke(ByRef<::ArrayW<Valve::VR::HmdQuad_t>> pQuadsBuffer, uint unQuadsCount, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
     // Offset: 0x21A8E4C
     void EndInvoke(System::IAsyncResult* result);
@@ -62,7 +63,7 @@ DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRChaperoneSetup::_SetWorkingCollisionBoundsI
 // Writing MetadataGetter for method: Valve::VR::IVRChaperoneSetup::_SetWorkingCollisionBoundsInfo::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::IVRChaperoneSetup::_SetWorkingCollisionBoundsInfo::*)(ByRef<::ArrayWrapper<Valve::VR::HmdQuad_t>>, uint)>(&Valve::VR::IVRChaperoneSetup::_SetWorkingCollisionBoundsInfo::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::IVRChaperoneSetup::_SetWorkingCollisionBoundsInfo::*)(ByRef<::ArrayW<Valve::VR::HmdQuad_t>>, uint)>(&Valve::VR::IVRChaperoneSetup::_SetWorkingCollisionBoundsInfo::Invoke)> {
   static const MethodInfo* get() {
     static auto* pQuadsBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Valve.VR", "HmdQuad_t"), 1)->this_arg;
     static auto* unQuadsCount = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -72,7 +73,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve
 // Writing MetadataGetter for method: Valve::VR::IVRChaperoneSetup::_SetWorkingCollisionBoundsInfo::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRChaperoneSetup::_SetWorkingCollisionBoundsInfo::*)(ByRef<::ArrayWrapper<Valve::VR::HmdQuad_t>>, uint, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRChaperoneSetup::_SetWorkingCollisionBoundsInfo::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRChaperoneSetup::_SetWorkingCollisionBoundsInfo::*)(ByRef<::ArrayW<Valve::VR::HmdQuad_t>>, uint, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRChaperoneSetup::_SetWorkingCollisionBoundsInfo::BeginInvoke)> {
   static const MethodInfo* get() {
     static auto* pQuadsBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Valve.VR", "HmdQuad_t"), 1)->this_arg;
     static auto* unQuadsCount = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;

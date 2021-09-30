@@ -25,12 +25,18 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   struct ParticleSystem::ShapeModule/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // UnityEngine.ParticleSystem m_ParticleSystem
     // Size: 0x8
     // Offset: 0x0
     UnityEngine::ParticleSystem* m_ParticleSystem;
     // Field size check
     static_assert(sizeof(UnityEngine::ParticleSystem*) == 0x8);
+    public:
     // Creating value type constructor for type: ShapeModule
     constexpr ShapeModule(UnityEngine::ParticleSystem* m_ParticleSystem_ = {}) noexcept : m_ParticleSystem{m_ParticleSystem_} {}
     // Creating interface conversion operator: operator System::ValueType

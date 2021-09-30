@@ -27,6 +27,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ReflectionProbeDataSO : public GlobalNamespace::PersistentScriptableObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Cubemap _reflectionProbeCubemap1
     // Size: 0x8
     // Offset: 0x18
@@ -39,6 +44,7 @@ namespace GlobalNamespace {
     UnityEngine::Cubemap* reflectionProbeCubemap2;
     // Field size check
     static_assert(sizeof(UnityEngine::Cubemap*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Cubemap _reflectionProbeCubemap1

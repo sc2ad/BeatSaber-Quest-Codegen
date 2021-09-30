@@ -32,6 +32,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BloomFogSO : public GlobalNamespace::PersistentScriptableObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean _bloomFogEnabled
     // Size: 0x1
     // Offset: 0x18
@@ -58,6 +63,7 @@ namespace GlobalNamespace {
     GlobalNamespace::BloomFogEnvironmentParams* transitionFogParams;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BloomFogEnvironmentParams*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.String kBloomFogEnabledKeyword

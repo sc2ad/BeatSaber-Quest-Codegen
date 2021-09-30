@@ -38,6 +38,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::ModifiersSelectionView::$$c__DisplayClass3_0
     class $$c__DisplayClass3_0;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private GameplayModifierInfoListItemsList _modifierInfoList
     // Size: 0x8
     // Offset: 0x18
@@ -57,6 +62,7 @@ namespace GlobalNamespace {
     GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayModifiersModelSO*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private GameplayModifierInfoListItemsList _modifierInfoList

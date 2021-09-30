@@ -38,12 +38,18 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_BakedEventData : public HoudiniEngineUnity::HEU_AssetEventData {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Boolean IsNewBake
     // Size: 0x1
     // Offset: 0x2C
     bool IsNewBake;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating conversion operator: operator bool
     constexpr operator bool() const noexcept {
       return IsNewBake;

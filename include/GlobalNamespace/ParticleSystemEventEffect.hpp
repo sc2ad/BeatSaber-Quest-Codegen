@@ -17,6 +17,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -41,6 +42,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ParticleSystemEventEffect : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private ColorSO _lightColor0
     // Size: 0x8
     // Offset: 0x18
@@ -146,9 +152,9 @@ namespace GlobalNamespace {
     // private UnityEngine.ParticleSystem/UnityEngine.Particle[] _particles
     // Size: 0x8
     // Offset: 0x98
-    ::ArrayWrapper<UnityEngine::ParticleSystem::Particle> particles;
+    ::ArrayW<UnityEngine::ParticleSystem::Particle> particles;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::ParticleSystem::Particle>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::ParticleSystem::Particle>) == 0x8);
     // private UnityEngine.Color _particleColor
     // Size: 0x10
     // Offset: 0xA0
@@ -161,6 +167,7 @@ namespace GlobalNamespace {
     float particleSpeed;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private ColorSO _lightColor0
@@ -196,7 +203,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.MainModule _mainModule
     UnityEngine::ParticleSystem::MainModule& dyn__mainModule();
     // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.Particle[] _particles
-    ::ArrayWrapper<UnityEngine::ParticleSystem::Particle>& dyn__particles();
+    ::ArrayW<UnityEngine::ParticleSystem::Particle>& dyn__particles();
     // Get instance field reference: private UnityEngine.Color _particleColor
     UnityEngine::Color& dyn__particleColor();
     // Get instance field reference: private System.Single _particleSpeed

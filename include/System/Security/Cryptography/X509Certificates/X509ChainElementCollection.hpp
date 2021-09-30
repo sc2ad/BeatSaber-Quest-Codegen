@@ -44,12 +44,18 @@ namespace System::Security::Cryptography::X509Certificates {
   // [DefaultMemberAttribute] Offset: E699B0
   class X509ChainElementCollection : public ::Il2CppObject/*, public System::Collections::ICollection*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.ArrayList _list
     // Size: 0x8
     // Offset: 0x10
     System::Collections::ArrayList* list;
     // Field size check
     static_assert(sizeof(System::Collections::ArrayList*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Collections::ICollection
     operator System::Collections::ICollection() noexcept {
       return *reinterpret_cast<System::Collections::ICollection*>(this);

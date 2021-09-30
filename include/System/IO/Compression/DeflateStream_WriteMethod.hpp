@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -40,10 +41,10 @@ namespace System::IO::Compression {
     }
     // public System.Void Invoke(System.Byte[] array, System.Int32 offset, System.Int32 count)
     // Offset: 0x1A2E208
-    void Invoke(::ArrayWrapper<uint8_t> array, int offset, int count);
+    void Invoke(::ArrayW<uint8_t> array, int offset, int count);
     // public System.IAsyncResult BeginInvoke(System.Byte[] array, System.Int32 offset, System.Int32 count, System.AsyncCallback callback, System.Object object)
     // Offset: 0x1A2D848
-    System::IAsyncResult* BeginInvoke(::ArrayWrapper<uint8_t> array, int offset, int count, System::AsyncCallback* callback, ::Il2CppObject* object);
+    System::IAsyncResult* BeginInvoke(::ArrayW<uint8_t> array, int offset, int count, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
     // Offset: 0x1A2DB64
     void EndInvoke(System::IAsyncResult* result);
@@ -59,7 +60,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::IO::Compression::DeflateStream::WriteMethod*, "Sy
 // Writing MetadataGetter for method: System::IO::Compression::DeflateStream::WriteMethod::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::Compression::DeflateStream::WriteMethod::*)(::ArrayWrapper<uint8_t>, int, int)>(&System::IO::Compression::DeflateStream::WriteMethod::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::Compression::DeflateStream::WriteMethod::*)(::ArrayW<uint8_t>, int, int)>(&System::IO::Compression::DeflateStream::WriteMethod::Invoke)> {
   static const MethodInfo* get() {
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -70,7 +71,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::IO::Compression::DeflateStream::WriteMethod::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::IO::Compression::DeflateStream::WriteMethod::*)(::ArrayWrapper<uint8_t>, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::IO::Compression::DeflateStream::WriteMethod::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::IO::Compression::DeflateStream::WriteMethod::*)(::ArrayW<uint8_t>, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::IO::Compression::DeflateStream::WriteMethod::BeginInvoke)> {
   static const MethodInfo* get() {
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

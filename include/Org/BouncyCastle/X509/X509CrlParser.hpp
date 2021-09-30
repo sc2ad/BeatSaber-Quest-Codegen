@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Asn1
@@ -44,6 +45,11 @@ namespace Org::BouncyCastle::X509 {
   // [TokenAttribute] Offset: FFFFFFFF
   class X509CrlParser : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Boolean lazyAsn1
     // Size: 0x1
     // Offset: 0x10
@@ -72,6 +78,7 @@ namespace Org::BouncyCastle::X509 {
     System::IO::Stream* currentCrlStream;
     // Field size check
     static_assert(sizeof(System::IO::Stream*) == 0x8);
+    public:
     // Get static field: static private readonly Org.BouncyCastle.X509.PemParser PemCrlParser
     static Org::BouncyCastle::X509::PemParser* _get_PemCrlParser();
     // Set static field: static private readonly Org.BouncyCastle.X509.PemParser PemCrlParser
@@ -108,7 +115,7 @@ namespace Org::BouncyCastle::X509 {
     Org::BouncyCastle::X509::X509Crl* CreateX509Crl(Org::BouncyCastle::Asn1::X509::CertificateList* c);
     // public Org.BouncyCastle.X509.X509Crl ReadCrl(System.Byte[] input)
     // Offset: 0x2188C50
-    Org::BouncyCastle::X509::X509Crl* ReadCrl(::ArrayWrapper<uint8_t> input);
+    Org::BouncyCastle::X509::X509Crl* ReadCrl(::ArrayW<uint8_t> input);
     // public Org.BouncyCastle.X509.X509Crl ReadCrl(System.IO.Stream inStream)
     // Offset: 0x2188CC8
     Org::BouncyCastle::X509::X509Crl* ReadCrl(System::IO::Stream* inStream);
@@ -178,7 +185,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::X509::X509CrlParser::ReadCrl
 // Il2CppName: ReadCrl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::X509::X509Crl* (Org::BouncyCastle::X509::X509CrlParser::*)(::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::X509::X509CrlParser::ReadCrl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::X509::X509Crl* (Org::BouncyCastle::X509::X509CrlParser::*)(::ArrayW<uint8_t>)>(&Org::BouncyCastle::X509::X509CrlParser::ReadCrl)> {
   static const MethodInfo* get() {
     static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::X509::X509CrlParser*), "ReadCrl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input});

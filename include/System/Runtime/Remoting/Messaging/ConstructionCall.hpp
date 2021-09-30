@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Remoting::Activation
@@ -53,6 +54,11 @@ namespace System::Runtime::Remoting::Messaging {
   // [ComVisibleAttribute] Offset: E5FFFC
   class ConstructionCall : public System::Runtime::Remoting::Messaging::MethodCall/*, public System::Runtime::Remoting::Activation::IConstructionCallMessage*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Runtime.Remoting.Activation.IActivator _activator
     // Size: 0x8
     // Offset: 0x68
@@ -62,9 +68,9 @@ namespace System::Runtime::Remoting::Messaging {
     // private System.Object[] _activationAttributes
     // Size: 0x8
     // Offset: 0x70
-    ::ArrayWrapper<::Il2CppObject*> activationAttributes;
+    ::ArrayW<::Il2CppObject*> activationAttributes;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppObject*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppObject*>) == 0x8);
     // private System.Collections.IList _contextProperties
     // Size: 0x8
     // Offset: 0x78
@@ -97,6 +103,7 @@ namespace System::Runtime::Remoting::Messaging {
     System::Runtime::Remoting::Proxies::RemotingProxy* sourceProxy;
     // Field size check
     static_assert(sizeof(System::Runtime::Remoting::Proxies::RemotingProxy*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Runtime::Remoting::Activation::IConstructionCallMessage
     operator System::Runtime::Remoting::Activation::IConstructionCallMessage() noexcept {
       return *reinterpret_cast<System::Runtime::Remoting::Activation::IConstructionCallMessage*>(this);
@@ -104,7 +111,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Get instance field reference: private System.Runtime.Remoting.Activation.IActivator _activator
     System::Runtime::Remoting::Activation::IActivator*& dyn__activator();
     // Get instance field reference: private System.Object[] _activationAttributes
-    ::ArrayWrapper<::Il2CppObject*>& dyn__activationAttributes();
+    ::ArrayW<::Il2CppObject*>& dyn__activationAttributes();
     // Get instance field reference: private System.Collections.IList _contextProperties
     System::Collections::IList*& dyn__contextProperties();
     // Get instance field reference: private System.Type _activationType
@@ -135,7 +142,7 @@ namespace System::Runtime::Remoting::Messaging {
     void set_Activator(System::Runtime::Remoting::Activation::IActivator* value);
     // public System.Object[] get_CallSiteActivationAttributes()
     // Offset: 0x1C15C38
-    ::ArrayWrapper<::Il2CppObject*> get_CallSiteActivationAttributes();
+    ::ArrayW<::Il2CppObject*> get_CallSiteActivationAttributes();
     // public System.Collections.IList get_ContextProperties()
     // Offset: 0x1C15C48
     System::Collections::IList* get_ContextProperties();
@@ -154,7 +161,7 @@ namespace System::Runtime::Remoting::Messaging {
     }
     // System.Void SetActivationAttributes(System.Object[] attributes)
     // Offset: 0x1C15C40
-    void SetActivationAttributes(::ArrayWrapper<::Il2CppObject*> attributes);
+    void SetActivationAttributes(::ArrayW<::Il2CppObject*> attributes);
     // public override System.Collections.IDictionary get_Properties()
     // Offset: 0x1C1671C
     // Implemented from: System.Runtime.Remoting.Messaging.MethodCall
@@ -244,7 +251,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::ConstructionCall::get_CallSiteActivationAttributes
 // Il2CppName: get_CallSiteActivationAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppObject*> (System::Runtime::Remoting::Messaging::ConstructionCall::*)()>(&System::Runtime::Remoting::Messaging::ConstructionCall::get_CallSiteActivationAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppObject*> (System::Runtime::Remoting::Messaging::ConstructionCall::*)()>(&System::Runtime::Remoting::Messaging::ConstructionCall::get_CallSiteActivationAttributes)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::ConstructionCall*), "get_CallSiteActivationAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -281,7 +288,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::ConstructionCall::SetActivationAttributes
 // Il2CppName: SetActivationAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::ConstructionCall::*)(::ArrayWrapper<::Il2CppObject*>)>(&System::Runtime::Remoting::Messaging::ConstructionCall::SetActivationAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::ConstructionCall::*)(::ArrayW<::Il2CppObject*>)>(&System::Runtime::Remoting::Messaging::ConstructionCall::SetActivationAttributes)> {
   static const MethodInfo* get() {
     static auto* attributes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::ConstructionCall*), "SetActivationAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{attributes});

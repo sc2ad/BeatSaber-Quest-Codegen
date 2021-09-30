@@ -28,12 +28,18 @@ namespace UnityEngine::AddressableAssets {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class AddressablesImpl::$$c__DisplayClass53_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator loc
     // Size: 0x8
     // Offset: 0x10
     UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* loc;
     // Field size check
     static_assert(sizeof(UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*) == 0x8);
+    public:
     // Creating conversion operator: operator UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*
     constexpr operator UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*() const noexcept {
       return loc;

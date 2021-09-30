@@ -24,6 +24,11 @@ namespace UnityEngine {
   // [RequiredByNativeCodeAttribute] Offset: E8B6E8
   struct SkeletonBone/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [NativeNameAttribute] Offset: 0xE8C778
     // public System.String name
     // Size: 0x8
@@ -59,6 +64,7 @@ namespace UnityEngine {
     UnityEngine::Vector3 scale;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    public:
     // Creating value type constructor for type: SkeletonBone
     constexpr SkeletonBone(::Il2CppString* name_ = {}, ::Il2CppString* parentName_ = {}, UnityEngine::Vector3 position_ = {}, UnityEngine::Quaternion rotation_ = {}, UnityEngine::Vector3 scale_ = {}) noexcept : name{name_}, parentName{parentName_}, position{position_}, rotation{rotation_}, scale{scale_} {}
     // Creating interface conversion operator: operator System::ValueType

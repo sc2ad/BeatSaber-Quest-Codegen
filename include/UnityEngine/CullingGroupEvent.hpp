@@ -17,6 +17,11 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   struct CullingGroupEvent/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 m_Index
     // Size: 0x4
     // Offset: 0x0
@@ -35,6 +40,7 @@ namespace UnityEngine {
     uint8_t m_ThisState;
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
+    public:
     // Creating value type constructor for type: CullingGroupEvent
     constexpr CullingGroupEvent(int m_Index_ = {}, uint8_t m_PrevState_ = {}, uint8_t m_ThisState_ = {}) noexcept : m_Index{m_Index_}, m_PrevState{m_PrevState_}, m_ThisState{m_ThisState_} {}
     // Creating interface conversion operator: operator System::ValueType

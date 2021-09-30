@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HMUI
@@ -41,6 +42,11 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class HoverHint : public UnityEngine::MonoBehaviour/*, public UnityEngine::EventSystems::IPointerEnterHandler, public UnityEngine::EventSystems::IPointerExitHandler*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String _text
     // Size: 0x8
     // Offset: 0x18
@@ -57,9 +63,10 @@ namespace HMUI {
     // private readonly UnityEngine.Vector3[] _worldCornersTemp
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<UnityEngine::Vector3> worldCornersTemp;
+    ::ArrayW<UnityEngine::Vector3> worldCornersTemp;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector3>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Vector3>) == 0x8);
+    public:
     // Creating interface conversion operator: operator UnityEngine::EventSystems::IPointerEnterHandler
     operator UnityEngine::EventSystems::IPointerEnterHandler() noexcept {
       return *reinterpret_cast<UnityEngine::EventSystems::IPointerEnterHandler*>(this);
@@ -75,7 +82,7 @@ namespace HMUI {
     // Get instance field reference: private readonly HMUI.HoverHintController _hoverHintController
     HMUI::HoverHintController*& dyn__hoverHintController();
     // Get instance field reference: private readonly UnityEngine.Vector3[] _worldCornersTemp
-    ::ArrayWrapper<UnityEngine::Vector3>& dyn__worldCornersTemp();
+    ::ArrayW<UnityEngine::Vector3>& dyn__worldCornersTemp();
     // public System.String get_text()
     // Offset: 0x148E05C
     ::Il2CppString* get_text();
@@ -112,7 +119,7 @@ namespace HMUI {
     }
   }; // HMUI.HoverHint
   #pragma pack(pop)
-  static check_size<sizeof(HoverHint), 40 + sizeof(::ArrayWrapper<UnityEngine::Vector3>)> __HMUI_HoverHintSizeCheck;
+  static check_size<sizeof(HoverHint), 40 + sizeof(::ArrayW<UnityEngine::Vector3>)> __HMUI_HoverHintSizeCheck;
   static_assert(sizeof(HoverHint) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(HMUI::HoverHint*, "HMUI", "HoverHint");

@@ -31,12 +31,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BaseMasterServerAcknowledgeMessage : public GlobalNamespace::BaseMasterServerResponse/*, public MasterServer::IMasterServerAcknowledgeMessage*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean <messageHandled>k__BackingField
     // Size: 0x1
     // Offset: 0x14
     bool messageHandled;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator MasterServer::IMasterServerAcknowledgeMessage
     operator MasterServer::IMasterServerAcknowledgeMessage() noexcept {
       return *reinterpret_cast<MasterServer::IMasterServerAcknowledgeMessage*>(this);

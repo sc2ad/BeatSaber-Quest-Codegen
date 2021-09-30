@@ -37,6 +37,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ConditionalImageMaterialSwitcher : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [HeaderAttribute] Offset: 0xF0B870
     // private UnityEngine.Material _material0
     // Size: 0x8
@@ -64,6 +69,7 @@ namespace GlobalNamespace {
     UnityEngine::UI::Image* image;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Image*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Material _material0

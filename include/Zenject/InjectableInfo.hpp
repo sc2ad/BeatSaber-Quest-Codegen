@@ -28,6 +28,11 @@ namespace Zenject {
   // [NoReflectionBakingAttribute] Offset: EAD558
   class InjectableInfo : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly System.Boolean Optional
     // Size: 0x1
     // Offset: 0x10
@@ -68,6 +73,7 @@ namespace Zenject {
     ::Il2CppObject* DefaultValue;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
+    public:
     // Get instance field reference: public readonly System.Boolean Optional
     bool& dyn_Optional();
     // Get instance field reference: public readonly System.Object Identifier

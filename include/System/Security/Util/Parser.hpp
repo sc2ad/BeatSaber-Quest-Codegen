@@ -34,6 +34,11 @@ namespace System::Security::Util {
   // [TokenAttribute] Offset: FFFFFFFF
   class Parser : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Security.SecurityDocument _doc
     // Size: 0x8
     // Offset: 0x10
@@ -46,6 +51,7 @@ namespace System::Security::Util {
     System::Security::Util::Tokenizer* t;
     // Field size check
     static_assert(sizeof(System::Security::Util::Tokenizer*) == 0x8);
+    public:
     // Get instance field reference: private System.Security.SecurityDocument _doc
     System::Security::SecurityDocument*& dyn__doc();
     // Get instance field reference: private System.Security.Util.Tokenizer _t

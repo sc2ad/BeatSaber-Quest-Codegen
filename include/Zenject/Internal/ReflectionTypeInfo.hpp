@@ -45,6 +45,11 @@ namespace Zenject::Internal {
     class InjectMethodInfo;
     // Nested type: Zenject::Internal::ReflectionTypeInfo::InjectConstructorInfo
     class InjectConstructorInfo;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly System.Type Type
     // Size: 0x8
     // Offset: 0x10
@@ -81,6 +86,7 @@ namespace Zenject::Internal {
     System::Collections::Generic::List_1<Zenject::Internal::ReflectionTypeInfo::InjectMethodInfo*>* InjectMethods;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<Zenject::Internal::ReflectionTypeInfo::InjectMethodInfo*>*) == 0x8);
+    public:
     // Get instance field reference: public readonly System.Type Type
     System::Type*& dyn_Type();
     // Get instance field reference: public readonly System.Type BaseType

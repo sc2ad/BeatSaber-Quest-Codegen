@@ -19,6 +19,11 @@ namespace System::Threading {
   // [ComVisibleAttribute] Offset: E5EBB4
   struct NativeOverlapped/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.IntPtr InternalLow
     // Size: 0x8
     // Offset: 0x0
@@ -49,6 +54,7 @@ namespace System::Threading {
     System::IntPtr EventHandle;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
+    public:
     // Creating value type constructor for type: NativeOverlapped
     constexpr NativeOverlapped(System::IntPtr InternalLow_ = {}, System::IntPtr InternalHigh_ = {}, int OffsetLow_ = {}, int OffsetHigh_ = {}, System::IntPtr EventHandle_ = {}) noexcept : InternalLow{InternalLow_}, InternalHigh{InternalHigh_}, OffsetLow{OffsetLow_}, OffsetHigh{OffsetHigh_}, EventHandle{EventHandle_} {}
     // Creating interface conversion operator: operator System::ValueType

@@ -39,6 +39,11 @@ namespace Org::BouncyCastle::Asn1 {
   // [TokenAttribute] Offset: FFFFFFFF
   class DerExternal : public Org::BouncyCastle::Asn1::Asn1Object {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Org.BouncyCastle.Asn1.DerObjectIdentifier directReference
     // Size: 0x8
     // Offset: 0x10
@@ -71,6 +76,7 @@ namespace Org::BouncyCastle::Asn1 {
     Org::BouncyCastle::Asn1::Asn1Object* externalContent;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::Asn1Object*) == 0x8);
+    public:
     // Get instance field reference: private Org.BouncyCastle.Asn1.DerObjectIdentifier directReference
     Org::BouncyCastle::Asn1::DerObjectIdentifier*& dyn_directReference();
     // Get instance field reference: private Org.BouncyCastle.Asn1.DerInteger indirectReference

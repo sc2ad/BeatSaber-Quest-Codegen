@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -36,12 +37,17 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SaberMovementData : public ::Il2CppObject/*, public GlobalNamespace::IBladeMovementData*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly BladeMovementDataElement[] _data
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<GlobalNamespace::BladeMovementDataElement> data;
+    ::ArrayW<GlobalNamespace::BladeMovementDataElement> data;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::BladeMovementDataElement>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::BladeMovementDataElement>) == 0x8);
     // private readonly LazyCopyHashSet`1<ISaberMovementDataProcessor> _dataProcessors
     // Size: 0x8
     // Offset: 0x18
@@ -66,6 +72,7 @@ namespace GlobalNamespace {
     float bladeSpeed;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IBladeMovementData
     operator GlobalNamespace::IBladeMovementData() noexcept {
       return *reinterpret_cast<GlobalNamespace::IBladeMovementData*>(this);
@@ -89,7 +96,7 @@ namespace GlobalNamespace {
     // Set static field: static private System.Single kSmoothDownBladeSpeedCoef
     static void _set_kSmoothDownBladeSpeedCoef(float value);
     // Get instance field reference: private readonly BladeMovementDataElement[] _data
-    ::ArrayWrapper<GlobalNamespace::BladeMovementDataElement>& dyn__data();
+    ::ArrayW<GlobalNamespace::BladeMovementDataElement>& dyn__data();
     // Get instance field reference: private readonly LazyCopyHashSet`1<ISaberMovementDataProcessor> _dataProcessors
     GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::ISaberMovementDataProcessor*>*& dyn__dataProcessors();
     // Get instance field reference: private System.Int32 _nextAddIndex

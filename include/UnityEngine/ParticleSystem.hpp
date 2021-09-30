@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -64,6 +65,11 @@ namespace UnityEngine {
     // [RequiredByNativeCodeAttribute] Offset: EA37C4
     struct Particle/*, public System::ValueType*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // private UnityEngine.Vector3 m_Position
       // Size: 0xC
       // Offset: 0x0
@@ -166,6 +172,7 @@ namespace UnityEngine {
       uint m_Flags;
       // Field size check
       static_assert(sizeof(uint) == 0x4);
+      public:
       // Creating value type constructor for type: Particle
       constexpr Particle(UnityEngine::Vector3 m_Position_ = {}, UnityEngine::Vector3 m_Velocity_ = {}, UnityEngine::Vector3 m_AnimatedVelocity_ = {}, UnityEngine::Vector3 m_InitialVelocity_ = {}, UnityEngine::Vector3 m_AxisOfRotation_ = {}, UnityEngine::Vector3 m_Rotation_ = {}, UnityEngine::Vector3 m_AngularVelocity_ = {}, UnityEngine::Vector3 m_StartSize_ = {}, UnityEngine::Color32 m_StartColor_ = {}, uint m_RandomSeed_ = {}, uint m_ParentRandomSeed_ = {}, float m_Lifetime_ = {}, float m_StartLifetime_ = {}, int m_MeshIndex_ = {}, float m_EmitAccumulator0_ = {}, float m_EmitAccumulator1_ = {}, uint m_Flags_ = {}) noexcept : m_Position{m_Position_}, m_Velocity{m_Velocity_}, m_AnimatedVelocity{m_AnimatedVelocity_}, m_InitialVelocity{m_InitialVelocity_}, m_AxisOfRotation{m_AxisOfRotation_}, m_Rotation{m_Rotation_}, m_AngularVelocity{m_AngularVelocity_}, m_StartSize{m_StartSize_}, m_StartColor{m_StartColor_}, m_RandomSeed{m_RandomSeed_}, m_ParentRandomSeed{m_ParentRandomSeed_}, m_Lifetime{m_Lifetime_}, m_StartLifetime{m_StartLifetime_}, m_MeshIndex{m_MeshIndex_}, m_EmitAccumulator0{m_EmitAccumulator0_}, m_EmitAccumulator1{m_EmitAccumulator1_}, m_Flags{m_Flags_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -275,19 +282,19 @@ namespace UnityEngine {
     void Emit(UnityEngine::ParticleSystem::Particle particle);
     // public System.Void SetParticles(out UnityEngine.ParticleSystem/UnityEngine.Particle[] particles, System.Int32 size, System.Int32 offset)
     // Offset: 0x261C5AC
-    void SetParticles(ByRef<::ArrayWrapper<UnityEngine::ParticleSystem::Particle>> particles, int size, int offset);
+    void SetParticles(ByRef<::ArrayW<UnityEngine::ParticleSystem::Particle>> particles, int size, int offset);
     // public System.Void SetParticles(out UnityEngine.ParticleSystem/UnityEngine.Particle[] particles, System.Int32 size)
     // Offset: 0x261C614
-    void SetParticles(ByRef<::ArrayWrapper<UnityEngine::ParticleSystem::Particle>> particles, int size);
+    void SetParticles(ByRef<::ArrayW<UnityEngine::ParticleSystem::Particle>> particles, int size);
     // public System.Int32 GetParticles(out UnityEngine.ParticleSystem/UnityEngine.Particle[] particles, System.Int32 size, System.Int32 offset)
     // Offset: 0x261C670
-    int GetParticles(ByRef<::ArrayWrapper<UnityEngine::ParticleSystem::Particle>> particles, int size, int offset);
+    int GetParticles(ByRef<::ArrayW<UnityEngine::ParticleSystem::Particle>> particles, int size, int offset);
     // public System.Int32 GetParticles(out UnityEngine.ParticleSystem/UnityEngine.Particle[] particles, System.Int32 size)
     // Offset: 0x261C6D8
-    int GetParticles(ByRef<::ArrayWrapper<UnityEngine::ParticleSystem::Particle>> particles, int size);
+    int GetParticles(ByRef<::ArrayW<UnityEngine::ParticleSystem::Particle>> particles, int size);
     // public System.Int32 GetParticles(out UnityEngine.ParticleSystem/UnityEngine.Particle[] particles)
     // Offset: 0x261C734
-    int GetParticles(ByRef<::ArrayWrapper<UnityEngine::ParticleSystem::Particle>> particles);
+    int GetParticles(ByRef<::ArrayW<UnityEngine::ParticleSystem::Particle>> particles);
     // public System.Void Simulate(System.Single t, System.Boolean withChildren, System.Boolean restart, System.Boolean fixedTimeStep)
     // Offset: 0x261C78C
     void Simulate(float t, bool withChildren, bool restart, bool fixedTimeStep);
@@ -434,7 +441,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::SetParticles
 // Il2CppName: SetParticles
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ParticleSystem::*)(ByRef<::ArrayWrapper<UnityEngine::ParticleSystem::Particle>>, int, int)>(&UnityEngine::ParticleSystem::SetParticles)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ParticleSystem::*)(ByRef<::ArrayW<UnityEngine::ParticleSystem::Particle>>, int, int)>(&UnityEngine::ParticleSystem::SetParticles)> {
   static const MethodInfo* get() {
     static auto* particles = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "ParticleSystem/Particle"), 1)->this_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -445,7 +452,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::SetParticles
 // Il2CppName: SetParticles
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ParticleSystem::*)(ByRef<::ArrayWrapper<UnityEngine::ParticleSystem::Particle>>, int)>(&UnityEngine::ParticleSystem::SetParticles)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::ParticleSystem::*)(ByRef<::ArrayW<UnityEngine::ParticleSystem::Particle>>, int)>(&UnityEngine::ParticleSystem::SetParticles)> {
   static const MethodInfo* get() {
     static auto* particles = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "ParticleSystem/Particle"), 1)->this_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -455,7 +462,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::GetParticles
 // Il2CppName: GetParticles
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ParticleSystem::*)(ByRef<::ArrayWrapper<UnityEngine::ParticleSystem::Particle>>, int, int)>(&UnityEngine::ParticleSystem::GetParticles)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ParticleSystem::*)(ByRef<::ArrayW<UnityEngine::ParticleSystem::Particle>>, int, int)>(&UnityEngine::ParticleSystem::GetParticles)> {
   static const MethodInfo* get() {
     static auto* particles = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "ParticleSystem/Particle"), 1)->this_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -466,7 +473,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::GetParticles
 // Il2CppName: GetParticles
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ParticleSystem::*)(ByRef<::ArrayWrapper<UnityEngine::ParticleSystem::Particle>>, int)>(&UnityEngine::ParticleSystem::GetParticles)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ParticleSystem::*)(ByRef<::ArrayW<UnityEngine::ParticleSystem::Particle>>, int)>(&UnityEngine::ParticleSystem::GetParticles)> {
   static const MethodInfo* get() {
     static auto* particles = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "ParticleSystem/Particle"), 1)->this_arg;
     static auto* size = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -476,7 +483,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Writing MetadataGetter for method: UnityEngine::ParticleSystem::GetParticles
 // Il2CppName: GetParticles
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ParticleSystem::*)(ByRef<::ArrayWrapper<UnityEngine::ParticleSystem::Particle>>)>(&UnityEngine::ParticleSystem::GetParticles)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::ParticleSystem::*)(ByRef<::ArrayW<UnityEngine::ParticleSystem::Particle>>)>(&UnityEngine::ParticleSystem::GetParticles)> {
   static const MethodInfo* get() {
     static auto* particles = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "ParticleSystem/Particle"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ParticleSystem*), "GetParticles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{particles});

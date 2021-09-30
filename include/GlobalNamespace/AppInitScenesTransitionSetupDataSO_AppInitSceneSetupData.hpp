@@ -31,6 +31,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData : public GlobalNamespace::SceneSetupData {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private AppInitScenesTransitionSetupDataSO/AppInitOverrideStartType <appInitOverrideStartType>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -45,6 +50,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MockPlayersModel* overrideMockPlayersModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MockPlayersModel*) == 0x8);
+    public:
     // Get instance field reference: private AppInitScenesTransitionSetupDataSO/AppInitOverrideStartType <appInitOverrideStartType>k__BackingField
     GlobalNamespace::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType& dyn_$appInitOverrideStartType$k__BackingField();
     // Get instance field reference: private MockPlayersModel <overrideMockPlayersModel>k__BackingField

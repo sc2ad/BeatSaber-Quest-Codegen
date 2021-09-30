@@ -28,12 +28,18 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class ConnectionErrorDialogViewController::$$c__DisplayClass0_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Action buttonAction
     // Size: 0x8
     // Offset: 0x10
     System::Action* buttonAction;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Action*
     constexpr operator System::Action*() const noexcept {
       return buttonAction;

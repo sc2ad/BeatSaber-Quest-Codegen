@@ -49,6 +49,11 @@ namespace UnityEngine::UI {
   // [TokenAttribute] Offset: FFFFFFFF
   class Dropdown::DropdownItem : public UnityEngine::MonoBehaviour/*, public UnityEngine::EventSystems::ICancelHandler, public UnityEngine::EventSystems::IPointerEnterHandler*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.UI.Text m_Text
     // Size: 0x8
     // Offset: 0x18
@@ -73,6 +78,7 @@ namespace UnityEngine::UI {
     UnityEngine::UI::Toggle* m_Toggle;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Toggle*) == 0x8);
+    public:
     // Creating interface conversion operator: operator UnityEngine::EventSystems::ICancelHandler
     operator UnityEngine::EventSystems::ICancelHandler() noexcept {
       return *reinterpret_cast<UnityEngine::EventSystems::ICancelHandler*>(this);

@@ -34,6 +34,11 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class HitReaction::HitPointBone::BoneLink : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [TooltipAttribute] Offset: 0xEF7F34
     // public UnityEngine.Transform bone
     // Size: 0x8
@@ -61,6 +66,7 @@ namespace RootMotion::FinalIK {
     UnityEngine::Quaternion current;
     // Field size check
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
+    public:
     // Get instance field reference: public UnityEngine.Transform bone
     UnityEngine::Transform*& dyn_bone();
     // Get instance field reference: public System.Single weight

@@ -25,6 +25,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MovementHistoryRecorder : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private AveragingValueRecorder _averagingValueRecorer
     // Size: 0x8
     // Offset: 0x10
@@ -49,6 +54,7 @@ namespace GlobalNamespace {
     float accum;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: private AveragingValueRecorder _averagingValueRecorer
     GlobalNamespace::AveragingValueRecorder*& dyn__averagingValueRecorer();
     // Get instance field reference: private System.Single _increaseSpeed

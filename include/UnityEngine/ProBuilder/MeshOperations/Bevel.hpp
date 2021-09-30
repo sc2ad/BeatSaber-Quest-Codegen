@@ -9,6 +9,7 @@
 #include "UnityEngine/ProBuilder/Edge.hpp"
 // Including type: UnityEngine.ProBuilder.SimpleTuple`2
 #include "UnityEngine/ProBuilder/SimpleTuple_2.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::ProBuilder::MeshOperations
@@ -57,9 +58,9 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // Nested type: UnityEngine::ProBuilder::MeshOperations::Bevel::$$c
     class $$c;
     // Get static field: static private readonly System.Int32[] k_BridgeIndexesTri
-    static ::ArrayWrapper<int> _get_k_BridgeIndexesTri();
+    static ::ArrayW<int> _get_k_BridgeIndexesTri();
     // Set static field: static private readonly System.Int32[] k_BridgeIndexesTri
-    static void _set_k_BridgeIndexesTri(::ArrayWrapper<int> value);
+    static void _set_k_BridgeIndexesTri(::ArrayW<int> value);
     // static private System.Void .cctor()
     // Offset: 0x170E50C
     static void _cctor();

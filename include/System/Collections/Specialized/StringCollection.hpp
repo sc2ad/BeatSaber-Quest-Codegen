@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections
@@ -35,12 +36,18 @@ namespace System::Collections::Specialized {
   // [DefaultMemberAttribute] Offset: E69ED8
   class StringCollection : public ::Il2CppObject/*, public System::Collections::IList*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.ArrayList data
     // Size: 0x8
     // Offset: 0x10
     System::Collections::ArrayList* data;
     // Field size check
     static_assert(sizeof(System::Collections::ArrayList*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Collections::IList
     operator System::Collections::IList() noexcept {
       return *reinterpret_cast<System::Collections::IList*>(this);
@@ -80,7 +87,7 @@ namespace System::Collections::Specialized {
     bool Contains(::Il2CppString* value);
     // public System.Void CopyTo(System.String[] array, System.Int32 index)
     // Offset: 0x1A210D8
-    void CopyTo(::ArrayWrapper<::Il2CppString*> array, int index);
+    void CopyTo(::ArrayW<::Il2CppString*> array, int index);
     // public System.Int32 IndexOf(System.String value)
     // Offset: 0x1A210FC
     int IndexOf(::Il2CppString* value);
@@ -213,7 +220,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Collections::Specialized::StringCollection::CopyTo
 // Il2CppName: CopyTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::Specialized::StringCollection::*)(::ArrayWrapper<::Il2CppString*>, int)>(&System::Collections::Specialized::StringCollection::CopyTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::Specialized::StringCollection::*)(::ArrayW<::Il2CppString*>, int)>(&System::Collections::Specialized::StringCollection::CopyTo)> {
   static const MethodInfo* get() {
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

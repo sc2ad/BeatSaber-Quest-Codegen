@@ -35,6 +35,11 @@ namespace System::Threading {
   // [ComVisibleAttribute] Offset: E5E8C8
   class AbandonedMutexException : public System::SystemException {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 m_MutexIndex
     // Size: 0x4
     // Offset: 0x88
@@ -49,6 +54,7 @@ namespace System::Threading {
     System::Threading::Mutex* m_Mutex;
     // Field size check
     static_assert(sizeof(System::Threading::Mutex*) == 0x8);
+    public:
     // Get instance field reference: private System.Int32 m_MutexIndex
     int& dyn_m_MutexIndex();
     // Get instance field reference: private System.Threading.Mutex m_Mutex

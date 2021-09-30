@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -40,12 +41,17 @@ namespace UnityEngine::ProBuilder {
   // [TokenAttribute] Offset: FFFFFFFF
   class Submesh : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Int32[] m_Indexes
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<int> m_Indexes;
+    ::ArrayW<int> m_Indexes;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // UnityEngine.MeshTopology m_Topology
     // Size: 0x4
     // Offset: 0x18
@@ -58,8 +64,9 @@ namespace UnityEngine::ProBuilder {
     int m_SubmeshIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: System.Int32[] m_Indexes
-    ::ArrayWrapper<int>& dyn_m_Indexes();
+    ::ArrayW<int>& dyn_m_Indexes();
     // Get instance field reference: UnityEngine.MeshTopology m_Topology
     UnityEngine::MeshTopology& dyn_m_Topology();
     // Get instance field reference: System.Int32 m_SubmeshIndex
@@ -101,7 +108,7 @@ namespace UnityEngine::ProBuilder {
     static int GetSubmeshCount(UnityEngine::ProBuilder::ProBuilderMesh* mesh);
     // static public UnityEngine.ProBuilder.Submesh[] GetSubmeshes(System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face> faces, System.Int32 submeshCount, UnityEngine.MeshTopology preferredTopology)
     // Offset: 0x24EFE84
-    static ::ArrayWrapper<UnityEngine::ProBuilder::Submesh*> GetSubmeshes(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>* faces, int submeshCount, UnityEngine::MeshTopology preferredTopology);
+    static ::ArrayW<UnityEngine::ProBuilder::Submesh*> GetSubmeshes(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>* faces, int submeshCount, UnityEngine::MeshTopology preferredTopology);
     // static System.Void MapFaceMaterialsToSubmeshIndex(UnityEngine.ProBuilder.ProBuilderMesh mesh)
     // Offset: 0x24F078C
     static void MapFaceMaterialsToSubmeshIndex(UnityEngine::ProBuilder::ProBuilderMesh* mesh);
@@ -188,7 +195,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Uni
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Submesh::GetSubmeshes
 // Il2CppName: GetSubmeshes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::ProBuilder::Submesh*> (*)(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>*, int, UnityEngine::MeshTopology)>(&UnityEngine::ProBuilder::Submesh::GetSubmeshes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::ProBuilder::Submesh*> (*)(System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>*, int, UnityEngine::MeshTopology)>(&UnityEngine::ProBuilder::Submesh::GetSubmeshes)> {
   static const MethodInfo* get() {
     static auto* faces = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Face")})->byval_arg;
     static auto* submeshCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: Org.BouncyCastle.Crypto.Digests
 namespace Org::BouncyCastle::Crypto::Digests {
@@ -22,18 +23,23 @@ namespace Org::BouncyCastle::Crypto::Digests {
   // [TokenAttribute] Offset: FFFFFFFF
   class WhirlpoolDigest : public ::Il2CppObject/*, public Org::BouncyCastle::Crypto::IDigest, public Org::BouncyCastle::Utilities::IMemoable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Int64[] _rc
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<int64_t> rc;
+    ::ArrayW<int64_t> rc;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int64_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<int64_t>) == 0x8);
     // private System.Byte[] _buffer
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<uint8_t> buffer;
+    ::ArrayW<uint8_t> buffer;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Int32 _bufferPos
     // Size: 0x4
     // Offset: 0x20
@@ -45,39 +51,40 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // private System.Int16[] _bitCount
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<int16_t> bitCount;
+    ::ArrayW<int16_t> bitCount;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int16_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<int16_t>) == 0x8);
     // private System.Int64[] _hash
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<int64_t> hash;
+    ::ArrayW<int64_t> hash;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int64_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<int64_t>) == 0x8);
     // private System.Int64[] _K
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayWrapper<int64_t> K;
+    ::ArrayW<int64_t> K;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int64_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<int64_t>) == 0x8);
     // private System.Int64[] _L
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayWrapper<int64_t> L;
+    ::ArrayW<int64_t> L;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int64_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<int64_t>) == 0x8);
     // private System.Int64[] _block
     // Size: 0x8
     // Offset: 0x48
-    ::ArrayWrapper<int64_t> block;
+    ::ArrayW<int64_t> block;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int64_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<int64_t>) == 0x8);
     // private System.Int64[] _state
     // Size: 0x8
     // Offset: 0x50
-    ::ArrayWrapper<int64_t> state;
+    ::ArrayW<int64_t> state;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int64_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<int64_t>) == 0x8);
+    public:
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IDigest
     operator Org::BouncyCastle::Crypto::IDigest() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IDigest*>(this);
@@ -87,63 +94,63 @@ namespace Org::BouncyCastle::Crypto::Digests {
       return *reinterpret_cast<Org::BouncyCastle::Utilities::IMemoable*>(this);
     }
     // Get static field: static private readonly System.Int32[] SBOX
-    static ::ArrayWrapper<int> _get_SBOX();
+    static ::ArrayW<int> _get_SBOX();
     // Set static field: static private readonly System.Int32[] SBOX
-    static void _set_SBOX(::ArrayWrapper<int> value);
+    static void _set_SBOX(::ArrayW<int> value);
     // Get static field: static private readonly System.Int64[] C0
-    static ::ArrayWrapper<int64_t> _get_C0();
+    static ::ArrayW<int64_t> _get_C0();
     // Set static field: static private readonly System.Int64[] C0
-    static void _set_C0(::ArrayWrapper<int64_t> value);
+    static void _set_C0(::ArrayW<int64_t> value);
     // Get static field: static private readonly System.Int64[] C1
-    static ::ArrayWrapper<int64_t> _get_C1();
+    static ::ArrayW<int64_t> _get_C1();
     // Set static field: static private readonly System.Int64[] C1
-    static void _set_C1(::ArrayWrapper<int64_t> value);
+    static void _set_C1(::ArrayW<int64_t> value);
     // Get static field: static private readonly System.Int64[] C2
-    static ::ArrayWrapper<int64_t> _get_C2();
+    static ::ArrayW<int64_t> _get_C2();
     // Set static field: static private readonly System.Int64[] C2
-    static void _set_C2(::ArrayWrapper<int64_t> value);
+    static void _set_C2(::ArrayW<int64_t> value);
     // Get static field: static private readonly System.Int64[] C3
-    static ::ArrayWrapper<int64_t> _get_C3();
+    static ::ArrayW<int64_t> _get_C3();
     // Set static field: static private readonly System.Int64[] C3
-    static void _set_C3(::ArrayWrapper<int64_t> value);
+    static void _set_C3(::ArrayW<int64_t> value);
     // Get static field: static private readonly System.Int64[] C4
-    static ::ArrayWrapper<int64_t> _get_C4();
+    static ::ArrayW<int64_t> _get_C4();
     // Set static field: static private readonly System.Int64[] C4
-    static void _set_C4(::ArrayWrapper<int64_t> value);
+    static void _set_C4(::ArrayW<int64_t> value);
     // Get static field: static private readonly System.Int64[] C5
-    static ::ArrayWrapper<int64_t> _get_C5();
+    static ::ArrayW<int64_t> _get_C5();
     // Set static field: static private readonly System.Int64[] C5
-    static void _set_C5(::ArrayWrapper<int64_t> value);
+    static void _set_C5(::ArrayW<int64_t> value);
     // Get static field: static private readonly System.Int64[] C6
-    static ::ArrayWrapper<int64_t> _get_C6();
+    static ::ArrayW<int64_t> _get_C6();
     // Set static field: static private readonly System.Int64[] C6
-    static void _set_C6(::ArrayWrapper<int64_t> value);
+    static void _set_C6(::ArrayW<int64_t> value);
     // Get static field: static private readonly System.Int64[] C7
-    static ::ArrayWrapper<int64_t> _get_C7();
+    static ::ArrayW<int64_t> _get_C7();
     // Set static field: static private readonly System.Int64[] C7
-    static void _set_C7(::ArrayWrapper<int64_t> value);
+    static void _set_C7(::ArrayW<int64_t> value);
     // Get static field: static private readonly System.Int16[] EIGHT
-    static ::ArrayWrapper<int16_t> _get_EIGHT();
+    static ::ArrayW<int16_t> _get_EIGHT();
     // Set static field: static private readonly System.Int16[] EIGHT
-    static void _set_EIGHT(::ArrayWrapper<int16_t> value);
+    static void _set_EIGHT(::ArrayW<int16_t> value);
     // Get instance field reference: private readonly System.Int64[] _rc
-    ::ArrayWrapper<int64_t>& dyn__rc();
+    ::ArrayW<int64_t>& dyn__rc();
     // Get instance field reference: private System.Byte[] _buffer
-    ::ArrayWrapper<uint8_t>& dyn__buffer();
+    ::ArrayW<uint8_t>& dyn__buffer();
     // Get instance field reference: private System.Int32 _bufferPos
     int& dyn__bufferPos();
     // Get instance field reference: private System.Int16[] _bitCount
-    ::ArrayWrapper<int16_t>& dyn__bitCount();
+    ::ArrayW<int16_t>& dyn__bitCount();
     // Get instance field reference: private System.Int64[] _hash
-    ::ArrayWrapper<int64_t>& dyn__hash();
+    ::ArrayW<int64_t>& dyn__hash();
     // Get instance field reference: private System.Int64[] _K
-    ::ArrayWrapper<int64_t>& dyn__K();
+    ::ArrayW<int64_t>& dyn__K();
     // Get instance field reference: private System.Int64[] _L
-    ::ArrayWrapper<int64_t>& dyn__L();
+    ::ArrayW<int64_t>& dyn__L();
     // Get instance field reference: private System.Int64[] _block
-    ::ArrayWrapper<int64_t>& dyn__block();
+    ::ArrayW<int64_t>& dyn__block();
     // Get instance field reference: private System.Int64[] _state
-    ::ArrayWrapper<int64_t>& dyn__state();
+    ::ArrayW<int64_t>& dyn__state();
     // public System.String get_AlgorithmName()
     // Offset: 0x1AA0DF0
     ::Il2CppString* get_AlgorithmName();
@@ -168,7 +175,7 @@ namespace Org::BouncyCastle::Crypto::Digests {
     int GetDigestSize();
     // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
     // Offset: 0x1AA0E40
-    int DoFinal(::ArrayWrapper<uint8_t> output, int outOff);
+    int DoFinal(::ArrayW<uint8_t> output, int outOff);
     // public System.Void Reset()
     // Offset: 0x1AA106C
     void Reset();
@@ -177,10 +184,10 @@ namespace Org::BouncyCastle::Crypto::Digests {
     void processFilledBuffer();
     // static private System.Int64 bytesToLongFromBuffer(System.Byte[] buffer, System.Int32 startPos)
     // Offset: 0x1AA122C
-    static int64_t bytesToLongFromBuffer(::ArrayWrapper<uint8_t> buffer, int startPos);
+    static int64_t bytesToLongFromBuffer(::ArrayW<uint8_t> buffer, int startPos);
     // static private System.Void convertLongToByteArray(System.Int64 inputLong, System.Byte[] outputArray, System.Int32 offSet)
     // Offset: 0x1AA0FFC
-    static void convertLongToByteArray(int64_t inputLong, ::ArrayWrapper<uint8_t> outputArray, int offSet);
+    static void convertLongToByteArray(int64_t inputLong, ::ArrayW<uint8_t> outputArray, int offSet);
     // private System.Void processBlock()
     // Offset: 0x1AA130C
     void processBlock();
@@ -192,13 +199,13 @@ namespace Org::BouncyCastle::Crypto::Digests {
     void increment();
     // public System.Void BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 length)
     // Offset: 0x1AA1E00
-    void BlockUpdate(::ArrayWrapper<uint8_t> input, int inOff, int length);
+    void BlockUpdate(::ArrayW<uint8_t> input, int inOff, int length);
     // private System.Void finish()
     // Offset: 0x1AA0F1C
     void finish();
     // private System.Byte[] copyBitLength()
     // Offset: 0x1AA1E78
-    ::ArrayWrapper<uint8_t> copyBitLength();
+    ::ArrayW<uint8_t> copyBitLength();
     // public System.Int32 GetByteLength()
     // Offset: 0x1AA1F30
     int GetByteLength();
@@ -219,7 +226,7 @@ namespace Org::BouncyCastle::Crypto::Digests {
     }
   }; // Org.BouncyCastle.Crypto.Digests.WhirlpoolDigest
   #pragma pack(pop)
-  static check_size<sizeof(WhirlpoolDigest), 80 + sizeof(::ArrayWrapper<int64_t>)> __Org_BouncyCastle_Crypto_Digests_WhirlpoolDigestSizeCheck;
+  static check_size<sizeof(WhirlpoolDigest), 80 + sizeof(::ArrayW<int64_t>)> __Org_BouncyCastle_Crypto_Digests_WhirlpoolDigestSizeCheck;
   static_assert(sizeof(WhirlpoolDigest) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest*, "Org.BouncyCastle.Crypto.Digests", "WhirlpoolDigest");
@@ -280,7 +287,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest::DoFinal
 // Il2CppName: DoFinal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest::*)(::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest::DoFinal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest::*)(::ArrayW<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest::DoFinal)> {
   static const MethodInfo* get() {
     static auto* output = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* outOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -306,7 +313,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest::bytesToLongFromBuffer
 // Il2CppName: bytesToLongFromBuffer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest::bytesToLongFromBuffer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::ArrayW<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest::bytesToLongFromBuffer)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* startPos = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -316,7 +323,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest::convertLongToByteArray
 // Il2CppName: convertLongToByteArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int64_t, ::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest::convertLongToByteArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int64_t, ::ArrayW<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest::convertLongToByteArray)> {
   static const MethodInfo* get() {
     static auto* inputLong = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     static auto* outputArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -352,7 +359,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest::BlockUpdate
 // Il2CppName: BlockUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest::*)(::ArrayWrapper<uint8_t>, int, int)>(&Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest::BlockUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest::*)(::ArrayW<uint8_t>, int, int)>(&Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest::BlockUpdate)> {
   static const MethodInfo* get() {
     static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* inOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -371,7 +378,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest::copyBitLength
 // Il2CppName: copyBitLength
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest::*)()>(&Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest::copyBitLength)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest::*)()>(&Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest::copyBitLength)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Digests::WhirlpoolDigest*), "copyBitLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

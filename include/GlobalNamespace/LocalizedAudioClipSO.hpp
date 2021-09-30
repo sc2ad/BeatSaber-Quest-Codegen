@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -34,22 +35,28 @@ namespace GlobalNamespace {
     class LocalizedAudioClipInfo;
     // Nested type: GlobalNamespace::LocalizedAudioClipSO::$$c__DisplayClass4_0
     class $$c__DisplayClass4_0;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private LocalizedAudioClipSO/LocalizedAudioClipInfo[] _localizedAudioClipInfo
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<GlobalNamespace::LocalizedAudioClipSO::LocalizedAudioClipInfo*> localizedAudioClipInfo;
+    ::ArrayW<GlobalNamespace::LocalizedAudioClipSO::LocalizedAudioClipInfo*> localizedAudioClipInfo;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::LocalizedAudioClipSO::LocalizedAudioClipInfo*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::LocalizedAudioClipSO::LocalizedAudioClipInfo*>) == 0x8);
     // private LocalizedAudioClipSO/LocalizedAudioClipInfo _lastLocalizedAudioClipInfo
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::LocalizedAudioClipSO::LocalizedAudioClipInfo* lastLocalizedAudioClipInfo;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LocalizedAudioClipSO::LocalizedAudioClipInfo*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private LocalizedAudioClipSO/LocalizedAudioClipInfo[] _localizedAudioClipInfo
-    ::ArrayWrapper<GlobalNamespace::LocalizedAudioClipSO::LocalizedAudioClipInfo*>& dyn__localizedAudioClipInfo();
+    ::ArrayW<GlobalNamespace::LocalizedAudioClipSO::LocalizedAudioClipInfo*>& dyn__localizedAudioClipInfo();
     // Get instance field reference: private LocalizedAudioClipSO/LocalizedAudioClipInfo _lastLocalizedAudioClipInfo
     GlobalNamespace::LocalizedAudioClipSO::LocalizedAudioClipInfo*& dyn__lastLocalizedAudioClipInfo();
     // public UnityEngine.AudioClip get_localizedAudioClip()

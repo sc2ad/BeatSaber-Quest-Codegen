@@ -21,6 +21,11 @@ namespace Mono {
   // [TokenAttribute] Offset: FFFFFFFF
   struct RuntimeStructs::GenericParamInfo/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // Mono.RuntimeStructs/Mono.MonoClass* pklass
     // Size: 0x8
     // Offset: 0x0
@@ -53,6 +58,7 @@ namespace Mono {
     Mono::RuntimeStructs::MonoClass** constraints;
     // Field size check
     static_assert(sizeof(Mono::RuntimeStructs::MonoClass**) == 0x8);
+    public:
     // Creating value type constructor for type: GenericParamInfo
     constexpr GenericParamInfo(Mono::RuntimeStructs::MonoClass* pklass_ = {}, System::IntPtr name_ = {}, uint16_t flags_ = {}, uint token_ = {}, Mono::RuntimeStructs::MonoClass** constraints_ = {}) noexcept : pklass{pklass_}, name{name_}, flags{flags_}, token{token_}, constraints{constraints_} {}
     // Creating interface conversion operator: operator System::ValueType

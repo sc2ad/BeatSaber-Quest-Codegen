@@ -18,6 +18,11 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class FaceInfo_Legacy : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.String Name
     // Size: 0x8
     // Offset: 0x10
@@ -144,6 +149,7 @@ namespace TMPro {
     float AtlasHeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: public System.String Name
     ::Il2CppString*& dyn_Name();
     // Get instance field reference: public System.Single PointSize

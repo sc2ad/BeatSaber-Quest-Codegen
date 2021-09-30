@@ -19,6 +19,11 @@ namespace Mono::Globalization::Unicode {
   // [TokenAttribute] Offset: FFFFFFFF
   struct SimpleCollator::PreviousInfo/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 Code
     // Size: 0x4
     // Offset: 0x0
@@ -33,6 +38,7 @@ namespace Mono::Globalization::Unicode {
     uint8_t* SortKey;
     // Field size check
     static_assert(sizeof(uint8_t*) == 0x8);
+    public:
     // Creating value type constructor for type: PreviousInfo
     constexpr PreviousInfo(int Code_ = {}, uint8_t* SortKey_ = {}) noexcept : Code{Code_}, SortKey{SortKey_} {}
     // Creating interface conversion operator: operator System::ValueType

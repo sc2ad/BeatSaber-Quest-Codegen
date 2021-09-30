@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Globalization
@@ -24,25 +25,25 @@ namespace System::Globalization {
     // Nested type: System::Globalization::CharUnicodeInfo::Debug
     class Debug;
     // Get static field: static private System.UInt16[] s_pCategoryLevel1Index
-    static ::ArrayWrapper<uint16_t> _get_s_pCategoryLevel1Index();
+    static ::ArrayW<uint16_t> _get_s_pCategoryLevel1Index();
     // Set static field: static private System.UInt16[] s_pCategoryLevel1Index
-    static void _set_s_pCategoryLevel1Index(::ArrayWrapper<uint16_t> value);
+    static void _set_s_pCategoryLevel1Index(::ArrayW<uint16_t> value);
     // Get static field: static private System.Byte[] s_pCategoriesValue
-    static ::ArrayWrapper<uint8_t> _get_s_pCategoriesValue();
+    static ::ArrayW<uint8_t> _get_s_pCategoriesValue();
     // Set static field: static private System.Byte[] s_pCategoriesValue
-    static void _set_s_pCategoriesValue(::ArrayWrapper<uint8_t> value);
+    static void _set_s_pCategoriesValue(::ArrayW<uint8_t> value);
     // Get static field: static private System.UInt16[] s_pNumericLevel1Index
-    static ::ArrayWrapper<uint16_t> _get_s_pNumericLevel1Index();
+    static ::ArrayW<uint16_t> _get_s_pNumericLevel1Index();
     // Set static field: static private System.UInt16[] s_pNumericLevel1Index
-    static void _set_s_pNumericLevel1Index(::ArrayWrapper<uint16_t> value);
+    static void _set_s_pNumericLevel1Index(::ArrayW<uint16_t> value);
     // Get static field: static private System.Byte[] s_pNumericValues
-    static ::ArrayWrapper<uint8_t> _get_s_pNumericValues();
+    static ::ArrayW<uint8_t> _get_s_pNumericValues();
     // Set static field: static private System.Byte[] s_pNumericValues
-    static void _set_s_pNumericValues(::ArrayWrapper<uint8_t> value);
+    static void _set_s_pNumericValues(::ArrayW<uint8_t> value);
     // Get static field: static private System.UInt16[] s_pDigitValues
-    static ::ArrayWrapper<uint16_t> _get_s_pDigitValues();
+    static ::ArrayW<uint16_t> _get_s_pDigitValues();
     // Set static field: static private System.UInt16[] s_pDigitValues
-    static void _set_s_pDigitValues(::ArrayWrapper<uint16_t> value);
+    static void _set_s_pDigitValues(::ArrayW<uint16_t> value);
     // static private System.Void .cctor()
     // Offset: 0x19AABFC
     static void _cctor();

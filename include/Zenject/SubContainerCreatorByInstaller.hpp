@@ -46,6 +46,11 @@ namespace Zenject {
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
   class SubContainerCreatorByInstaller : public ::Il2CppObject/*, public Zenject::ISubContainerCreator*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Type _installerType
     // Size: 0x8
     // Offset: 0x10
@@ -70,6 +75,7 @@ namespace Zenject {
     Zenject::SubContainerCreatorBindInfo* containerBindInfo;
     // Field size check
     static_assert(sizeof(Zenject::SubContainerCreatorBindInfo*) == 0x8);
+    public:
     // Creating interface conversion operator: operator Zenject::ISubContainerCreator
     operator Zenject::ISubContainerCreator() noexcept {
       return *reinterpret_cast<Zenject::ISubContainerCreator*>(this);

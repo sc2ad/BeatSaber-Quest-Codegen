@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -29,6 +30,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BufferedAudioStream : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.AudioSource audio
     // Size: 0x8
     // Offset: 0x10
@@ -38,9 +44,9 @@ namespace GlobalNamespace {
     // private System.Single[] audioBuffer
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<float> audioBuffer;
+    ::ArrayW<float> audioBuffer;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<float>) == 0x8);
+    static_assert(sizeof(::ArrayW<float>) == 0x8);
     // private System.Int32 writePos
     // Size: 0x4
     // Offset: 0x20
@@ -59,6 +65,7 @@ namespace GlobalNamespace {
     float remainingBufferTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // static field const value: static private System.Boolean VerboseLogging
     static constexpr const bool VerboseLogging = false;
     // Get static field: static private System.Boolean VerboseLogging
@@ -92,7 +99,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.AudioSource audio
     UnityEngine::AudioSource*& dyn_audio();
     // Get instance field reference: private System.Single[] audioBuffer
-    ::ArrayWrapper<float>& dyn_audioBuffer();
+    ::ArrayW<float>& dyn_audioBuffer();
     // Get instance field reference: private System.Int32 writePos
     int& dyn_writePos();
     // Get instance field reference: private System.Single playbackDelayRemaining
@@ -114,7 +121,7 @@ namespace GlobalNamespace {
     void Stop();
     // public System.Void AddData(System.Single[] samples)
     // Offset: 0x1D18400
-    void AddData(::ArrayWrapper<float> samples);
+    void AddData(::ArrayW<float> samples);
   }; // BufferedAudioStream
   #pragma pack(pop)
   static check_size<sizeof(BufferedAudioStream), 40 + sizeof(float)> __GlobalNamespace_BufferedAudioStreamSizeCheck;
@@ -145,7 +152,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::BufferedAudioStream::AddData
 // Il2CppName: AddData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BufferedAudioStream::*)(::ArrayWrapper<float>)>(&GlobalNamespace::BufferedAudioStream::AddData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BufferedAudioStream::*)(::ArrayW<float>)>(&GlobalNamespace::BufferedAudioStream::AddData)> {
   static const MethodInfo* get() {
     static auto* samples = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BufferedAudioStream*), "AddData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{samples});

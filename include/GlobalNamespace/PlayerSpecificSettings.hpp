@@ -28,6 +28,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayerSpecificSettings : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean _leftHanded
     // Size: 0x1
     // Offset: 0x10
@@ -126,6 +131,7 @@ namespace GlobalNamespace {
     GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterExpertPlusPreset;
     // Field size check
     static_assert(sizeof(GlobalNamespace::EnvironmentEffectsFilterPreset) == 0x4);
+    public:
     // Get instance field reference: private System.Boolean _leftHanded
     bool& dyn__leftHanded();
     // Get instance field reference: private System.Single _playerHeight

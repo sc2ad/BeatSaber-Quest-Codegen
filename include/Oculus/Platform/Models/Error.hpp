@@ -18,6 +18,11 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class Error : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly System.Int32 Code
     // Size: 0x4
     // Offset: 0x10
@@ -36,6 +41,7 @@ namespace Oculus::Platform::Models {
     ::Il2CppString* Message;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: public readonly System.Int32 Code
     int& dyn_Code();
     // Get instance field reference: public readonly System.Int32 HttpCode

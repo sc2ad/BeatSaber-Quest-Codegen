@@ -17,6 +17,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -47,6 +48,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LightWithIdManager : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Action didChangeSomeColorsThisFrameEvent
     // Size: 0x8
     // Offset: 0x18
@@ -62,15 +68,15 @@ namespace GlobalNamespace {
     // private readonly System.Collections.Generic.List`1<ILightWithId>[] _lights
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<System::Collections::Generic::List_1<GlobalNamespace::ILightWithId*>*> lights;
+    ::ArrayW<System::Collections::Generic::List_1<GlobalNamespace::ILightWithId*>*> lights;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<System::Collections::Generic::List_1<GlobalNamespace::ILightWithId*>*>) == 0x8);
+    static_assert(sizeof(::ArrayW<System::Collections::Generic::List_1<GlobalNamespace::ILightWithId*>*>) == 0x8);
     // private readonly System.Nullable`1<UnityEngine.Color>[] _colors
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<System::Nullable_1<UnityEngine::Color>> colors;
+    ::ArrayW<System::Nullable_1<UnityEngine::Color>> colors;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<System::Nullable_1<UnityEngine::Color>>) == 0x8);
+    static_assert(sizeof(::ArrayW<System::Nullable_1<UnityEngine::Color>>) == 0x8);
     // private readonly System.Collections.Generic.List`1<ILightWithId> _lightsToUnregister
     // Size: 0x8
     // Offset: 0x38
@@ -83,6 +89,7 @@ namespace GlobalNamespace {
     bool didChangeSomeColorsThisFrame;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Int32 kMaxLightId
@@ -96,16 +103,16 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`2<System.Int32,UnityEngine.Color> didSetColorForIdEvent
     System::Action_2<int, UnityEngine::Color>*& dyn_didSetColorForIdEvent();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<ILightWithId>[] _lights
-    ::ArrayWrapper<System::Collections::Generic::List_1<GlobalNamespace::ILightWithId*>*>& dyn__lights();
+    ::ArrayW<System::Collections::Generic::List_1<GlobalNamespace::ILightWithId*>*>& dyn__lights();
     // Get instance field reference: private readonly System.Nullable`1<UnityEngine.Color>[] _colors
-    ::ArrayWrapper<System::Nullable_1<UnityEngine::Color>>& dyn__colors();
+    ::ArrayW<System::Nullable_1<UnityEngine::Color>>& dyn__colors();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<ILightWithId> _lightsToUnregister
     System::Collections::Generic::List_1<GlobalNamespace::ILightWithId*>*& dyn__lightsToUnregister();
     // Get instance field reference: private System.Boolean _didChangeSomeColorsThisFrame
     bool& dyn__didChangeSomeColorsThisFrame();
     // public System.Nullable`1<UnityEngine.Color>[] get_colors()
     // Offset: 0x1E2987C
-    ::ArrayWrapper<System::Nullable_1<UnityEngine::Color>> get_colors();
+    ::ArrayW<System::Nullable_1<UnityEngine::Color>> get_colors();
     // public System.Void add_didChangeSomeColorsThisFrameEvent(System.Action value)
     // Offset: 0x1E295EC
     void add_didChangeSomeColorsThisFrameEvent(System::Action* value);
@@ -156,7 +163,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LightWithIdManager*, "", "LightWithIdMan
 // Writing MetadataGetter for method: GlobalNamespace::LightWithIdManager::get_colors
 // Il2CppName: get_colors
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::Nullable_1<UnityEngine::Color>> (GlobalNamespace::LightWithIdManager::*)()>(&GlobalNamespace::LightWithIdManager::get_colors)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Nullable_1<UnityEngine::Color>> (GlobalNamespace::LightWithIdManager::*)()>(&GlobalNamespace::LightWithIdManager::get_colors)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightWithIdManager*), "get_colors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

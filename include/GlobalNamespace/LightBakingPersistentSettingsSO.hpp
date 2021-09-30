@@ -17,6 +17,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -64,6 +65,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LightBakingPersistentSettingsSO : public GlobalNamespace::PersistentScriptableObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 _reflectionsCount
     // Size: 0x4
     // Offset: 0x18
@@ -97,9 +103,9 @@ namespace GlobalNamespace {
     // private UnityEngine.Color[] _bakedLightEditorColors
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayWrapper<UnityEngine::Color> bakedLightEditorColors;
+    ::ArrayW<UnityEngine::Color> bakedLightEditorColors;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Color>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Color>) == 0x8);
     // [SpaceAttribute] Offset: 0xF13AEC
     // private MainSettingsModelSO _mainSettingsModel
     // Size: 0x8
@@ -180,6 +186,7 @@ namespace GlobalNamespace {
     UnityEngine::Material* defaultDepthOnlyWriteMaterialForFakeMirror;
     // Field size check
     static_assert(sizeof(UnityEngine::Material*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Int32 kDefaultMirrorGraphicsSettings
@@ -239,7 +246,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _colorFromSchemeAlpha
     float& dyn__colorFromSchemeAlpha();
     // Get instance field reference: private UnityEngine.Color[] _bakedLightEditorColors
-    ::ArrayWrapper<UnityEngine::Color>& dyn__bakedLightEditorColors();
+    ::ArrayW<UnityEngine::Color>& dyn__bakedLightEditorColors();
     // Get instance field reference: private MainSettingsModelSO _mainSettingsModel
     GlobalNamespace::MainSettingsModelSO*& dyn__mainSettingsModel();
     // Get instance field reference: private MirrorRendererGraphicsSettingsPresets _mirrorRendererGraphicsSettingsPresets
@@ -280,7 +287,7 @@ namespace GlobalNamespace {
     void set_colorFromSchemeAlpha(float value);
     // public UnityEngine.Color[] get_bakedLightEditorColors()
     // Offset: 0x131096C
-    ::ArrayWrapper<UnityEngine::Color> get_bakedLightEditorColors();
+    ::ArrayW<UnityEngine::Color> get_bakedLightEditorColors();
     // public UnityEngine.Material get_defaultDepthOnlyWriteMaterialForFakeMirror()
     // Offset: 0x1310974
     UnityEngine::Material* get_defaultDepthOnlyWriteMaterialForFakeMirror();
@@ -373,7 +380,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::LightBakingPersistentSettingsSO::get_bakedLightEditorColors
 // Il2CppName: get_bakedLightEditorColors
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Color> (GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(&GlobalNamespace::LightBakingPersistentSettingsSO::get_bakedLightEditorColors)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Color> (GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(&GlobalNamespace::LightBakingPersistentSettingsSO::get_bakedLightEditorColors)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LightBakingPersistentSettingsSO*), "get_bakedLightEditorColors", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

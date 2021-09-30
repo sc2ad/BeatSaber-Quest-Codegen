@@ -31,6 +31,11 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class InjectContext::$get_ParentContextsAndSelf$d__54 : public ::Il2CppObject/*, public System::Collections::Generic::IEnumerable_1<Zenject::InjectContext*>, public System::Collections::Generic::IEnumerator_1<Zenject::InjectContext*>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -65,6 +70,7 @@ namespace Zenject {
     System::Collections::Generic::IEnumerator_1<Zenject::InjectContext*>* $$7__wrap1;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::IEnumerator_1<Zenject::InjectContext*>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<Zenject::InjectContext*>
     operator System::Collections::Generic::IEnumerable_1<Zenject::InjectContext*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<Zenject::InjectContext*>*>(this);

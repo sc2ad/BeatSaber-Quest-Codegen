@@ -22,12 +22,18 @@ namespace System::Reflection {
   // [ComVisibleAttribute] Offset: E5D2C8
   class AssemblyDefaultAliasAttribute : public System::Attribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String m_defaultAlias
     // Size: 0x8
     // Offset: 0x10
     ::Il2CppString* m_defaultAlias;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return m_defaultAlias;

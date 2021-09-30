@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -32,6 +33,11 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class DeleteElements::$$c__DisplayClass0_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Collections.Generic.List`1<System.Int32> sorted
     // Size: 0x8
     // Offset: 0x10
@@ -41,13 +47,14 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // public System.Int32[] offset
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<int> offset;
+    ::ArrayW<int> offset;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
+    public:
     // Get instance field reference: public System.Collections.Generic.List`1<System.Int32> sorted
     System::Collections::Generic::List_1<int>*& dyn_sorted();
     // Get instance field reference: public System.Int32[] offset
-    ::ArrayWrapper<int>& dyn_offset();
+    ::ArrayW<int>& dyn_offset();
     // System.Boolean <DeleteVertices>b__0(System.Collections.Generic.KeyValuePair`2<System.Int32,System.Int32> x)
     // Offset: 0x1716768
     bool $DeleteVertices$b__0(System::Collections::Generic::KeyValuePair_2<int, int> x);
@@ -71,7 +78,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     }
   }; // UnityEngine.ProBuilder.MeshOperations.DeleteElements/UnityEngine.ProBuilder.MeshOperations.<>c__DisplayClass0_0
   #pragma pack(pop)
-  static check_size<sizeof(DeleteElements::$$c__DisplayClass0_0), 24 + sizeof(::ArrayWrapper<int>)> __UnityEngine_ProBuilder_MeshOperations_DeleteElements_$$c__DisplayClass0_0SizeCheck;
+  static check_size<sizeof(DeleteElements::$$c__DisplayClass0_0), 24 + sizeof(::ArrayW<int>)> __UnityEngine_ProBuilder_MeshOperations_DeleteElements_$$c__DisplayClass0_0SizeCheck;
   static_assert(sizeof(DeleteElements::$$c__DisplayClass0_0) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::DeleteElements::$$c__DisplayClass0_0*, "UnityEngine.ProBuilder.MeshOperations", "DeleteElements/<>c__DisplayClass0_0");

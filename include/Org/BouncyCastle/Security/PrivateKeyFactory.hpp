@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Crypto
@@ -33,10 +34,10 @@ namespace Org::BouncyCastle::Security {
     static Org::BouncyCastle::Crypto::AsymmetricKeyParameter* CreateKey(Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* keyInfo);
     // static private System.Byte[] GetRawKey(Org.BouncyCastle.Asn1.Pkcs.PrivateKeyInfo keyInfo, System.Int32 expectedSize)
     // Offset: 0x14DB748
-    static ::ArrayWrapper<uint8_t> GetRawKey(Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* keyInfo, int expectedSize);
+    static ::ArrayW<uint8_t> GetRawKey(Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* keyInfo, int expectedSize);
     // static public Org.BouncyCastle.Crypto.AsymmetricKeyParameter DecryptKey(System.Char[] passPhrase, Org.BouncyCastle.Asn1.Pkcs.EncryptedPrivateKeyInfo encInfo)
     // Offset: 0x14DB80C
-    static Org::BouncyCastle::Crypto::AsymmetricKeyParameter* DecryptKey(::ArrayWrapper<::Il2CppChar> passPhrase, Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* encInfo);
+    static Org::BouncyCastle::Crypto::AsymmetricKeyParameter* DecryptKey(::ArrayW<::Il2CppChar> passPhrase, Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* encInfo);
   }; // Org.BouncyCastle.Security.PrivateKeyFactory
   #pragma pack(pop)
 }
@@ -55,7 +56,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Security::PrivateKeyFactory::GetRawKey
 // Il2CppName: GetRawKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo*, int)>(&Org::BouncyCastle::Security::PrivateKeyFactory::GetRawKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo*, int)>(&Org::BouncyCastle::Security::PrivateKeyFactory::GetRawKey)> {
   static const MethodInfo* get() {
     static auto* keyInfo = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Asn1.Pkcs", "PrivateKeyInfo")->byval_arg;
     static auto* expectedSize = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -65,7 +66,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: Org::BouncyCastle::Security::PrivateKeyFactory::DecryptKey
 // Il2CppName: DecryptKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::AsymmetricKeyParameter* (*)(::ArrayWrapper<::Il2CppChar>, Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo*)>(&Org::BouncyCastle::Security::PrivateKeyFactory::DecryptKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::AsymmetricKeyParameter* (*)(::ArrayW<::Il2CppChar>, Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo*)>(&Org::BouncyCastle::Security::PrivateKeyFactory::DecryptKey)> {
   static const MethodInfo* get() {
     static auto* passPhrase = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* encInfo = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Asn1.Pkcs", "EncryptedPrivateKeyInfo")->byval_arg;

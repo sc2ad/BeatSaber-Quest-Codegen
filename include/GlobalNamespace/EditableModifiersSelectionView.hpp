@@ -37,6 +37,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class EditableModifiersSelectionView : public GlobalNamespace::ModifiersSelectionView {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [SpaceAttribute] Offset: 0xF12498
     // private UnityEngine.UI.Button _editButton
     // Size: 0x8
@@ -68,6 +73,7 @@ namespace GlobalNamespace {
     bool showClearButton;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private UnityEngine.UI.Button _editButton
     UnityEngine::UI::Button*& dyn__editButton();
     // Get instance field reference: private UnityEngine.UI.Button _clearButton

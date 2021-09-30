@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Mono::Net::Security
@@ -29,6 +30,11 @@ namespace Mono::Net::Security {
   // [TokenAttribute] Offset: FFFFFFFF
   class AsyncReadOrWriteRequest : public Mono::Net::Security::AsyncProtocolRequest {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Mono.Net.Security.BufferOffsetSize <UserBuffer>k__BackingField
     // Size: 0x8
     // Offset: 0x38
@@ -41,6 +47,7 @@ namespace Mono::Net::Security {
     int CurrentSize;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: private readonly Mono.Net.Security.BufferOffsetSize <UserBuffer>k__BackingField
     Mono::Net::Security::BufferOffsetSize*& dyn_$UserBuffer$k__BackingField();
     // Get instance field reference: private System.Int32 <CurrentSize>k__BackingField
@@ -57,7 +64,7 @@ namespace Mono::Net::Security {
     // public System.Void .ctor(Mono.Net.Security.MobileAuthenticatedStream parent, System.Boolean sync, System.Byte[] buffer, System.Int32 offset, System.Int32 size)
     // Offset: 0x17BBA18
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static AsyncReadOrWriteRequest* New_ctor(Mono::Net::Security::MobileAuthenticatedStream* parent, bool sync, ::ArrayWrapper<uint8_t> buffer, int offset, int size) {
+    static AsyncReadOrWriteRequest* New_ctor(Mono::Net::Security::MobileAuthenticatedStream* parent, bool sync, ::ArrayW<uint8_t> buffer, int offset, int size) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Net::Security::AsyncReadOrWriteRequest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AsyncReadOrWriteRequest*, creationType>(parent, sync, buffer, offset, size)));
     }

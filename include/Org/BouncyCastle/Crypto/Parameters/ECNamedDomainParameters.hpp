@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Asn1
@@ -44,12 +45,18 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   // [TokenAttribute] Offset: FFFFFFFF
   class ECNamedDomainParameters : public Org::BouncyCastle::Crypto::Parameters::ECDomainParameters {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier name
     // Size: 0x8
     // Offset: 0x40
     Org::BouncyCastle::Asn1::DerObjectIdentifier* name;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::DerObjectIdentifier*) == 0x8);
+    public:
     // Creating conversion operator: operator Org::BouncyCastle::Asn1::DerObjectIdentifier*
     constexpr operator Org::BouncyCastle::Asn1::DerObjectIdentifier*() const noexcept {
       return name;
@@ -69,7 +76,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // public System.Void .ctor(Org.BouncyCastle.Asn1.DerObjectIdentifier name, Org.BouncyCastle.Math.EC.ECCurve curve, Org.BouncyCastle.Math.EC.ECPoint g, Org.BouncyCastle.Math.BigInteger n, Org.BouncyCastle.Math.BigInteger h, System.Byte[] seed)
     // Offset: 0x13946E8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ECNamedDomainParameters* New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier* name, Org::BouncyCastle::Math::EC::ECCurve* curve, Org::BouncyCastle::Math::EC::ECPoint* g, Org::BouncyCastle::Math::BigInteger* n, Org::BouncyCastle::Math::BigInteger* h, ::ArrayWrapper<uint8_t> seed) {
+    static ECNamedDomainParameters* New_ctor(Org::BouncyCastle::Asn1::DerObjectIdentifier* name, Org::BouncyCastle::Math::EC::ECCurve* curve, Org::BouncyCastle::Math::EC::ECPoint* g, Org::BouncyCastle::Math::BigInteger* n, Org::BouncyCastle::Math::BigInteger* h, ::ArrayW<uint8_t> seed) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ECNamedDomainParameters*, creationType>(name, curve, g, n, h, seed)));
     }

@@ -6,6 +6,7 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include <initializer_list>
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: System.Security.Cryptography
 namespace System::Security::Cryptography {
@@ -21,16 +22,16 @@ namespace System::Security::Cryptography {
     static bool get_AllowOnlyFipsAlgorithms();
     // static public System.Byte[] EncodeOID(System.String str)
     // Offset: 0x1A6CD34
-    static ::ArrayWrapper<uint8_t> EncodeOID(::Il2CppString* str);
+    static ::ArrayW<uint8_t> EncodeOID(::Il2CppString* str);
     // static private System.Byte[] EncodeLongNumber(System.Int64 x)
     // Offset: 0x1A6D17C
-    static ::ArrayWrapper<uint8_t> EncodeLongNumber(int64_t x);
+    static ::ArrayW<uint8_t> EncodeLongNumber(int64_t x);
     // static public System.Object CreateFromName(System.String name)
     // Offset: 0x1A6D32C
     static ::Il2CppObject* CreateFromName(::Il2CppString* name);
     // static public System.Object CreateFromName(System.String name, params System.Object[] args)
     // Offset: 0x1A6D330
-    static ::Il2CppObject* CreateFromName(::Il2CppString* name, ::ArrayWrapper<::Il2CppObject*> args);
+    static ::Il2CppObject* CreateFromName(::Il2CppString* name, ::ArrayW<::Il2CppObject*> args);
     // static System.String MapNameToOID(System.String name, System.Object arg)
     // Offset: 0x1A6EE7C
     static ::Il2CppString* MapNameToOID(::Il2CppString* name, ::Il2CppObject* arg);
@@ -54,7 +55,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>
 // Writing MetadataGetter for method: System::Security::Cryptography::CryptoConfig::EncodeOID
 // Il2CppName: EncodeOID
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(::Il2CppString*)>(&System::Security::Cryptography::CryptoConfig::EncodeOID)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(::Il2CppString*)>(&System::Security::Cryptography::CryptoConfig::EncodeOID)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::CryptoConfig*), "EncodeOID", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str});
@@ -63,7 +64,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: System::Security::Cryptography::CryptoConfig::EncodeLongNumber
 // Il2CppName: EncodeLongNumber
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(int64_t)>(&System::Security::Cryptography::CryptoConfig::EncodeLongNumber)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(int64_t)>(&System::Security::Cryptography::CryptoConfig::EncodeLongNumber)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::CryptoConfig*), "EncodeLongNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
@@ -81,7 +82,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Security::Cryptography::CryptoConfig::CreateFromName
 // Il2CppName: CreateFromName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Il2CppString*, ::ArrayWrapper<::Il2CppObject*>)>(&System::Security::Cryptography::CryptoConfig::CreateFromName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(::Il2CppString*, ::ArrayW<::Il2CppObject*>)>(&System::Security::Cryptography::CryptoConfig::CreateFromName)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;

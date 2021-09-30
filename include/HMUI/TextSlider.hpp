@@ -63,6 +63,11 @@ namespace HMUI {
   // [RequireComponent] Offset: EE11F4
   class TextSlider : public UnityEngine::UI::Selectable/*, public UnityEngine::EventSystems::IBeginDragHandler, public UnityEngine::EventSystems::IDragHandler, public UnityEngine::EventSystems::IInitializePotentialDragHandler, public UnityEngine::UI::ICanvasElement*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private TMPro.TextMeshProUGUI _valueText
     // Size: 0x8
     // Offset: 0xF8
@@ -138,6 +143,7 @@ namespace HMUI {
     UnityEngine::DrivenRectTransformTracker tracker;
     // Field size check
     static_assert(sizeof(UnityEngine::DrivenRectTransformTracker) == 0x1);
+    public:
     // Creating interface conversion operator: operator UnityEngine::EventSystems::IBeginDragHandler
     operator UnityEngine::EventSystems::IBeginDragHandler() noexcept {
       return *reinterpret_cast<UnityEngine::EventSystems::IBeginDragHandler*>(this);

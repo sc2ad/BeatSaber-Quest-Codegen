@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -41,10 +42,10 @@ namespace OVR::OpenVR {
     }
     // public System.Boolean Invoke(in System.Byte[] pTagsBuffer, ref System.UInt32 punTagCount)
     // Offset: 0x1769DA0
-    bool Invoke(ByRef<::ArrayWrapper<uint8_t>> pTagsBuffer, ByRef<uint> punTagCount);
+    bool Invoke(ByRef<::ArrayW<uint8_t>> pTagsBuffer, ByRef<uint> punTagCount);
     // public System.IAsyncResult BeginInvoke(in System.Byte[] pTagsBuffer, ref System.UInt32 punTagCount, System.AsyncCallback callback, System.Object object)
     // Offset: 0x177167C
-    System::IAsyncResult* BeginInvoke(ByRef<::ArrayWrapper<uint8_t>> pTagsBuffer, ByRef<uint> punTagCount, System::AsyncCallback* callback, ::Il2CppObject* object);
+    System::IAsyncResult* BeginInvoke(ByRef<::ArrayW<uint8_t>> pTagsBuffer, ByRef<uint> punTagCount, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(ref System.UInt32 punTagCount, System.IAsyncResult result)
     // Offset: 0x1771718
     bool EndInvoke(ByRef<uint> punTagCount, System::IAsyncResult* result);
@@ -60,7 +61,7 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRChaperoneSetup::_GetLiveCollisionBoundsTa
 // Writing MetadataGetter for method: OVR::OpenVR::IVRChaperoneSetup::_GetLiveCollisionBoundsTagsInfo::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::IVRChaperoneSetup::_GetLiveCollisionBoundsTagsInfo::*)(ByRef<::ArrayWrapper<uint8_t>>, ByRef<uint>)>(&OVR::OpenVR::IVRChaperoneSetup::_GetLiveCollisionBoundsTagsInfo::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::OpenVR::IVRChaperoneSetup::_GetLiveCollisionBoundsTagsInfo::*)(ByRef<::ArrayW<uint8_t>>, ByRef<uint>)>(&OVR::OpenVR::IVRChaperoneSetup::_GetLiveCollisionBoundsTagsInfo::Invoke)> {
   static const MethodInfo* get() {
     static auto* pTagsBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->this_arg;
     static auto* punTagCount = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;
@@ -70,7 +71,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (OVR::
 // Writing MetadataGetter for method: OVR::OpenVR::IVRChaperoneSetup::_GetLiveCollisionBoundsTagsInfo::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRChaperoneSetup::_GetLiveCollisionBoundsTagsInfo::*)(ByRef<::ArrayWrapper<uint8_t>>, ByRef<uint>, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRChaperoneSetup::_GetLiveCollisionBoundsTagsInfo::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRChaperoneSetup::_GetLiveCollisionBoundsTagsInfo::*)(ByRef<::ArrayW<uint8_t>>, ByRef<uint>, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRChaperoneSetup::_GetLiveCollisionBoundsTagsInfo::BeginInvoke)> {
   static const MethodInfo* get() {
     static auto* pTagsBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->this_arg;
     static auto* punTagCount = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;

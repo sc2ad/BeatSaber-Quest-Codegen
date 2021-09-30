@@ -38,12 +38,18 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class SceneContextRegistry : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Collections.Generic.Dictionary`2<UnityEngine.SceneManagement.Scene,Zenject.SceneContext> _map
     // Size: 0x8
     // Offset: 0x10
     System::Collections::Generic::Dictionary_2<UnityEngine::SceneManagement::Scene, Zenject::SceneContext*>* map;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<UnityEngine::SceneManagement::Scene, Zenject::SceneContext*>*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Collections::Generic::Dictionary_2<UnityEngine::SceneManagement::Scene, Zenject::SceneContext*>*
     constexpr operator System::Collections::Generic::Dictionary_2<UnityEngine::SceneManagement::Scene, Zenject::SceneContext*>*() const noexcept {
       return map;

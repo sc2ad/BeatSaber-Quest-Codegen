@@ -30,6 +30,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapSaveData::SpecialEventsForKeyword : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String _keyword
     // Size: 0x8
     // Offset: 0x10
@@ -42,6 +47,7 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::BeatmapEventType>* specialEvents;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::BeatmapEventType>*) == 0x8);
+    public:
     // Get instance field reference: private System.String _keyword
     ::Il2CppString*& dyn__keyword();
     // Get instance field reference: private System.Collections.Generic.List`1<BeatmapSaveData/BeatmapEventType> _specialEvents

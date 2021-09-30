@@ -31,12 +31,18 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E712CC
   class Light : public UnityEngine::Behaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 m_BakedIndex
     // Size: 0x4
     // Offset: 0x18
     int m_BakedIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Int32 m_BakedIndex

@@ -19,6 +19,11 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   struct TimeZoneInfo::SYSTEMTIME/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.UInt16 wYear
     // Size: 0x2
     // Offset: 0x0
@@ -67,6 +72,7 @@ namespace System {
     uint16_t wMilliseconds;
     // Field size check
     static_assert(sizeof(uint16_t) == 0x2);
+    public:
     // Creating value type constructor for type: SYSTEMTIME
     constexpr SYSTEMTIME(uint16_t wYear_ = {}, uint16_t wMonth_ = {}, uint16_t wDayOfWeek_ = {}, uint16_t wDay_ = {}, uint16_t wHour_ = {}, uint16_t wMinute_ = {}, uint16_t wSecond_ = {}, uint16_t wMilliseconds_ = {}) noexcept : wYear{wYear_}, wMonth{wMonth_}, wDayOfWeek{wDayOfWeek_}, wDay{wDay_}, wHour{wHour_}, wMinute{wMinute_}, wSecond{wSecond_}, wMilliseconds{wMilliseconds_} {}
     // Creating interface conversion operator: operator System::ValueType

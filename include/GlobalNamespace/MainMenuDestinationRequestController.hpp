@@ -51,6 +51,11 @@ namespace GlobalNamespace {
     class $$c__DisplayClass8_0;
     // Nested type: GlobalNamespace::MainMenuDestinationRequestController::$ProcessDestinationRequest$d__8
     struct $ProcessDestinationRequest$d__8;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xF01574
     // private readonly IDestinationRequestManager _destinationRequestManager
     // Size: 0x8
@@ -78,6 +83,7 @@ namespace GlobalNamespace {
     System::Threading::CancellationTokenSource* cancellationTokenSource;
     // Field size check
     static_assert(sizeof(System::Threading::CancellationTokenSource*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

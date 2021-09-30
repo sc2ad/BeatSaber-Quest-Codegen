@@ -22,6 +22,11 @@ namespace UnityEngine::TextCore::LowLevel {
   // [UsedByNativeCodeAttribute] Offset: EA55F8
   struct GlyphValueRecord/*, public System::ValueType, public System::IEquatable_1<UnityEngine::TextCore::LowLevel::GlyphValueRecord>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [NativeNameAttribute] Offset: 0xEA611C
     // private System.Single m_XPlacement
     // Size: 0x4
@@ -50,6 +55,7 @@ namespace UnityEngine::TextCore::LowLevel {
     float m_YAdvance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: GlyphValueRecord
     constexpr GlyphValueRecord(float m_XPlacement_ = {}, float m_YPlacement_ = {}, float m_XAdvance_ = {}, float m_YAdvance_ = {}) noexcept : m_XPlacement{m_XPlacement_}, m_YPlacement{m_YPlacement_}, m_XAdvance{m_XAdvance_}, m_YAdvance{m_YAdvance_} {}
     // Creating interface conversion operator: operator System::ValueType

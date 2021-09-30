@@ -28,6 +28,11 @@ namespace System::Threading {
   template<typename T>
   struct SparselyPopulatedArrayAddInfo_1/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Threading.SparselyPopulatedArrayFragment`1<T> m_source
     // Size: 0x8
     // Offset: 0x0
@@ -40,6 +45,7 @@ namespace System::Threading {
     int m_index;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: SparselyPopulatedArrayAddInfo_1
     constexpr SparselyPopulatedArrayAddInfo_1(System::Threading::SparselyPopulatedArrayFragment_1<T>* m_source_ = {}, int m_index_ = {}) noexcept : m_source{m_source_}, m_index{m_index_} {}
     // Creating interface conversion operator: operator System::ValueType

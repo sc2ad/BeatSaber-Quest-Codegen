@@ -17,6 +17,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Valve::VR
@@ -54,12 +55,18 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   class CVRCompositor : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Valve.VR.IVRCompositor FnTable
     // Size: 0x158
     // Offset: 0x10
     Valve::VR::IVRCompositor FnTable;
     // Field size check
     static_assert(sizeof(Valve::VR::IVRCompositor) == 0x158);
+    public:
     // Creating conversion operator: operator Valve::VR::IVRCompositor
     constexpr operator Valve::VR::IVRCompositor() const noexcept {
       return FnTable;
@@ -81,10 +88,10 @@ namespace Valve::VR {
     Valve::VR::ETrackingUniverseOrigin GetTrackingSpace();
     // public Valve.VR.EVRCompositorError WaitGetPoses(Valve.VR.TrackedDevicePose_t[] pRenderPoseArray, Valve.VR.TrackedDevicePose_t[] pGamePoseArray)
     // Offset: 0x188D5CC
-    Valve::VR::EVRCompositorError WaitGetPoses(::ArrayWrapper<Valve::VR::TrackedDevicePose_t> pRenderPoseArray, ::ArrayWrapper<Valve::VR::TrackedDevicePose_t> pGamePoseArray);
+    Valve::VR::EVRCompositorError WaitGetPoses(::ArrayW<Valve::VR::TrackedDevicePose_t> pRenderPoseArray, ::ArrayW<Valve::VR::TrackedDevicePose_t> pGamePoseArray);
     // public Valve.VR.EVRCompositorError GetLastPoses(Valve.VR.TrackedDevicePose_t[] pRenderPoseArray, Valve.VR.TrackedDevicePose_t[] pGamePoseArray)
     // Offset: 0x188D600
-    Valve::VR::EVRCompositorError GetLastPoses(::ArrayWrapper<Valve::VR::TrackedDevicePose_t> pRenderPoseArray, ::ArrayWrapper<Valve::VR::TrackedDevicePose_t> pGamePoseArray);
+    Valve::VR::EVRCompositorError GetLastPoses(::ArrayW<Valve::VR::TrackedDevicePose_t> pRenderPoseArray, ::ArrayW<Valve::VR::TrackedDevicePose_t> pGamePoseArray);
     // public Valve.VR.EVRCompositorError GetLastPoseForTrackedDeviceIndex(System.UInt32 unDeviceIndex, ref Valve.VR.TrackedDevicePose_t pOutputPose, ref Valve.VR.TrackedDevicePose_t pOutputGamePose)
     // Offset: 0x188D634
     Valve::VR::EVRCompositorError GetLastPoseForTrackedDeviceIndex(uint unDeviceIndex, ByRef<Valve::VR::TrackedDevicePose_t> pOutputPose, ByRef<Valve::VR::TrackedDevicePose_t> pOutputGamePose);
@@ -123,7 +130,7 @@ namespace Valve::VR {
     float GetCurrentGridAlpha();
     // public Valve.VR.EVRCompositorError SetSkyboxOverride(Valve.VR.Texture_t[] pTextures)
     // Offset: 0x188D790
-    Valve::VR::EVRCompositorError SetSkyboxOverride(::ArrayWrapper<Valve::VR::Texture_t> pTextures);
+    Valve::VR::EVRCompositorError SetSkyboxOverride(::ArrayW<Valve::VR::Texture_t> pTextures);
     // public System.Void ClearSkyboxOverride()
     // Offset: 0x188D7B8
     void ClearSkyboxOverride();
@@ -233,7 +240,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVRCompositor::WaitGetPoses
 // Il2CppName: WaitGetPoses
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRCompositorError (Valve::VR::CVRCompositor::*)(::ArrayWrapper<Valve::VR::TrackedDevicePose_t>, ::ArrayWrapper<Valve::VR::TrackedDevicePose_t>)>(&Valve::VR::CVRCompositor::WaitGetPoses)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRCompositorError (Valve::VR::CVRCompositor::*)(::ArrayW<Valve::VR::TrackedDevicePose_t>, ::ArrayW<Valve::VR::TrackedDevicePose_t>)>(&Valve::VR::CVRCompositor::WaitGetPoses)> {
   static const MethodInfo* get() {
     static auto* pRenderPoseArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Valve.VR", "TrackedDevicePose_t"), 1)->byval_arg;
     static auto* pGamePoseArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Valve.VR", "TrackedDevicePose_t"), 1)->byval_arg;
@@ -243,7 +250,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVRCompositor::GetLastPoses
 // Il2CppName: GetLastPoses
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRCompositorError (Valve::VR::CVRCompositor::*)(::ArrayWrapper<Valve::VR::TrackedDevicePose_t>, ::ArrayWrapper<Valve::VR::TrackedDevicePose_t>)>(&Valve::VR::CVRCompositor::GetLastPoses)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRCompositorError (Valve::VR::CVRCompositor::*)(::ArrayW<Valve::VR::TrackedDevicePose_t>, ::ArrayW<Valve::VR::TrackedDevicePose_t>)>(&Valve::VR::CVRCompositor::GetLastPoses)> {
   static const MethodInfo* get() {
     static auto* pRenderPoseArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Valve.VR", "TrackedDevicePose_t"), 1)->byval_arg;
     static auto* pGamePoseArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Valve.VR", "TrackedDevicePose_t"), 1)->byval_arg;
@@ -371,7 +378,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Valv
 // Writing MetadataGetter for method: Valve::VR::CVRCompositor::SetSkyboxOverride
 // Il2CppName: SetSkyboxOverride
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRCompositorError (Valve::VR::CVRCompositor::*)(::ArrayWrapper<Valve::VR::Texture_t>)>(&Valve::VR::CVRCompositor::SetSkyboxOverride)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRCompositorError (Valve::VR::CVRCompositor::*)(::ArrayW<Valve::VR::Texture_t>)>(&Valve::VR::CVRCompositor::SetSkyboxOverride)> {
   static const MethodInfo* get() {
     static auto* pTextures = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Valve.VR", "Texture_t"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRCompositor*), "SetSkyboxOverride", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pTextures});

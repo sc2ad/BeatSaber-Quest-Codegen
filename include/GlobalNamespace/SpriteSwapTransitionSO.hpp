@@ -27,6 +27,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SpriteSwapTransitionSO : public GlobalNamespace::BaseTransitionSO {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Sprite _normalSprite
     // Size: 0x8
     // Offset: 0x20
@@ -63,6 +68,7 @@ namespace GlobalNamespace {
     UnityEngine::Sprite* selectedAndHighlightedSprite;
     // Field size check
     static_assert(sizeof(UnityEngine::Sprite*) == 0x8);
+    public:
     // Get instance field reference: private UnityEngine.Sprite _normalSprite
     UnityEngine::Sprite*& dyn__normalSprite();
     // Get instance field reference: private UnityEngine.Sprite _highlightedSprite

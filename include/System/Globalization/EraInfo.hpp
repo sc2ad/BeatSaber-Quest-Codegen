@@ -18,6 +18,11 @@ namespace System::Globalization {
   // [TokenAttribute] Offset: FFFFFFFF
   class EraInfo : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Int32 era
     // Size: 0x4
     // Offset: 0x10
@@ -73,6 +78,7 @@ namespace System::Globalization {
     ::Il2CppString* englishEraName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: System.Int32 era
     int& dyn_era();
     // Get instance field reference: System.Int64 ticks

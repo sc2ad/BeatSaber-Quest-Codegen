@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text
@@ -112,16 +113,16 @@ namespace System::Text {
     static void ReorderCanonical(::Il2CppString* src, ByRef<System::Text::StringBuilder*> sb, int start);
     // static private System.Void DecomposeChar(ref System.Text.StringBuilder sb, ref System.Int32[] buf, System.String s, System.Int32 i, System.Int32 checkType, ref System.Int32 start)
     // Offset: 0x1F157B8
-    static void DecomposeChar(ByRef<System::Text::StringBuilder*> sb, ByRef<::ArrayWrapper<int>> buf, ::Il2CppString* s, int i, int checkType, ByRef<int> start);
+    static void DecomposeChar(ByRef<System::Text::StringBuilder*> sb, ByRef<::ArrayW<int>> buf, ::Il2CppString* s, int i, int checkType, ByRef<int> start);
     // static public System.Text.NormalizationCheck QuickCheck(System.Char c, System.Int32 type)
     // Offset: 0x1F14B3C
     static System::Text::NormalizationCheck QuickCheck(::Il2CppChar c, int type);
     // static private System.Int32 GetCanonicalHangul(System.Int32 s, System.Int32[] buf, System.Int32 bufIdx)
     // Offset: 0x1F15FFC
-    static int GetCanonicalHangul(int s, ::ArrayWrapper<int> buf, int bufIdx);
+    static int GetCanonicalHangul(int s, ::ArrayW<int> buf, int bufIdx);
     // static private System.Int32 GetCanonical(System.Int32 c, System.Int32[] buf, System.Int32 bufIdx, System.Int32 checkType)
     // Offset: 0x1F15D9C
-    static int GetCanonical(int c, ::ArrayWrapper<int> buf, int bufIdx, int checkType);
+    static int GetCanonical(int c, ::ArrayW<int> buf, int bufIdx, int checkType);
     // static public System.String Normalize(System.String source, System.Text.NormalizationForm normalizationForm)
     // Offset: 0x1F16100
     static ::Il2CppString* Normalize(::Il2CppString* source, System::Text::NormalizationForm normalizationForm);
@@ -301,7 +302,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: System::Text::Normalization::DecomposeChar
 // Il2CppName: DecomposeChar
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<System::Text::StringBuilder*>, ByRef<::ArrayWrapper<int>>, ::Il2CppString*, int, int, ByRef<int>)>(&System::Text::Normalization::DecomposeChar)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<System::Text::StringBuilder*>, ByRef<::ArrayW<int>>, ::Il2CppString*, int, int, ByRef<int>)>(&System::Text::Normalization::DecomposeChar)> {
   static const MethodInfo* get() {
     static auto* sb = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->this_arg;
     static auto* buf = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->this_arg;
@@ -325,7 +326,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Tex
 // Writing MetadataGetter for method: System::Text::Normalization::GetCanonicalHangul
 // Il2CppName: GetCanonicalHangul
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, ::ArrayWrapper<int>, int)>(&System::Text::Normalization::GetCanonicalHangul)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, ::ArrayW<int>, int)>(&System::Text::Normalization::GetCanonicalHangul)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* buf = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
@@ -336,7 +337,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 // Writing MetadataGetter for method: System::Text::Normalization::GetCanonical
 // Il2CppName: GetCanonical
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, ::ArrayWrapper<int>, int, int)>(&System::Text::Normalization::GetCanonical)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int, ::ArrayW<int>, int, int)>(&System::Text::Normalization::GetCanonical)> {
   static const MethodInfo* get() {
     static auto* c = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* buf = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;

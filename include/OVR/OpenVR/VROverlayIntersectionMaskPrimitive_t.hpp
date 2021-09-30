@@ -20,6 +20,11 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct VROverlayIntersectionMaskPrimitive_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public OVR.OpenVR.EVROverlayIntersectionMaskPrimitiveType m_nPrimitiveType
     // Size: 0x4
     // Offset: 0x0
@@ -30,6 +35,7 @@ namespace OVR::OpenVR {
     // Size: 0xFFFFFFFF
     // Offset: 0x4
     OVR::OpenVR::VROverlayIntersectionMaskPrimitive_Data_t m_Primitive;
+    public:
     // Creating value type constructor for type: VROverlayIntersectionMaskPrimitive_t
     constexpr VROverlayIntersectionMaskPrimitive_t(OVR::OpenVR::EVROverlayIntersectionMaskPrimitiveType m_nPrimitiveType_ = {}, OVR::OpenVR::VROverlayIntersectionMaskPrimitive_Data_t m_Primitive_ = {}) noexcept : m_nPrimitiveType{m_nPrimitiveType_}, m_Primitive{m_Primitive_} {}
     // Creating interface conversion operator: operator System::ValueType

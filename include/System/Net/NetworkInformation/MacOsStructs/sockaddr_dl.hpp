@@ -7,6 +7,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -24,6 +25,11 @@ namespace System::Net::NetworkInformation::MacOsStructs {
   // [TokenAttribute] Offset: FFFFFFFF
   struct sockaddr_dl/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Byte sdl_len
     // Size: 0x1
     // Offset: 0x0
@@ -69,11 +75,12 @@ namespace System::Net::NetworkInformation::MacOsStructs {
     // public System.Byte[] sdl_data
     // Size: 0x8
     // Offset: 0x8
-    ::ArrayWrapper<uint8_t> sdl_data;
+    ::ArrayW<uint8_t> sdl_data;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
+    public:
     // Creating value type constructor for type: sockaddr_dl
-    constexpr sockaddr_dl(uint8_t sdl_len_ = {}, uint8_t sdl_family_ = {}, uint16_t sdl_index_ = {}, uint8_t sdl_type_ = {}, uint8_t sdl_nlen_ = {}, uint8_t sdl_alen_ = {}, uint8_t sdl_slen_ = {}, ::ArrayWrapper<uint8_t> sdl_data_ = ::ArrayWrapper<uint8_t>(nullptr)) noexcept : sdl_len{sdl_len_}, sdl_family{sdl_family_}, sdl_index{sdl_index_}, sdl_type{sdl_type_}, sdl_nlen{sdl_nlen_}, sdl_alen{sdl_alen_}, sdl_slen{sdl_slen_}, sdl_data{sdl_data_} {}
+    constexpr sockaddr_dl(uint8_t sdl_len_ = {}, uint8_t sdl_family_ = {}, uint16_t sdl_index_ = {}, uint8_t sdl_type_ = {}, uint8_t sdl_nlen_ = {}, uint8_t sdl_alen_ = {}, uint8_t sdl_slen_ = {}, ::ArrayW<uint8_t> sdl_data_ = ::ArrayW<uint8_t>(nullptr)) noexcept : sdl_len{sdl_len_}, sdl_family{sdl_family_}, sdl_index{sdl_index_}, sdl_type{sdl_type_}, sdl_nlen{sdl_nlen_}, sdl_alen{sdl_alen_}, sdl_slen{sdl_slen_}, sdl_data{sdl_data_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -93,13 +100,13 @@ namespace System::Net::NetworkInformation::MacOsStructs {
     // Get instance field reference: public System.Byte sdl_slen
     uint8_t& dyn_sdl_slen();
     // Get instance field reference: public System.Byte[] sdl_data
-    ::ArrayWrapper<uint8_t>& dyn_sdl_data();
+    ::ArrayW<uint8_t>& dyn_sdl_data();
     // System.Void Read(System.IntPtr ptr)
     // Offset: 0x1646AF0
     void Read(System::IntPtr ptr);
   }; // System.Net.NetworkInformation.MacOsStructs.sockaddr_dl
   #pragma pack(pop)
-  static check_size<sizeof(sockaddr_dl), 8 + sizeof(::ArrayWrapper<uint8_t>)> __System_Net_NetworkInformation_MacOsStructs_sockaddr_dlSizeCheck;
+  static check_size<sizeof(sockaddr_dl), 8 + sizeof(::ArrayW<uint8_t>)> __System_Net_NetworkInformation_MacOsStructs_sockaddr_dlSizeCheck;
   static_assert(sizeof(sockaddr_dl) == 0x10);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

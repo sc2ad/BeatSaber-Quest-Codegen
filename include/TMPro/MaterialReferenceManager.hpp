@@ -40,6 +40,11 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class MaterialReferenceManager : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.Material> m_FontMaterialReferenceLookup
     // Size: 0x8
     // Offset: 0x10
@@ -64,6 +69,7 @@ namespace TMPro {
     System::Collections::Generic::Dictionary_2<int, TMPro::TMP_ColorGradient*>* m_ColorGradientReferenceLookup;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<int, TMPro::TMP_ColorGradient*>*) == 0x8);
+    public:
     // Get static field: static private TMPro.MaterialReferenceManager s_Instance
     static TMPro::MaterialReferenceManager* _get_s_Instance();
     // Set static field: static private TMPro.MaterialReferenceManager s_Instance

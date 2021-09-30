@@ -27,12 +27,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ColorManagerInstaller : public Zenject::MonoInstaller {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private ColorSchemeSO _menuColorScheme
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::ColorSchemeSO* menuColorScheme;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ColorSchemeSO*) == 0x8);
+    public:
     // Get instance field reference: private ColorSchemeSO _menuColorScheme
     GlobalNamespace::ColorSchemeSO*& dyn__menuColorScheme();
     // public System.Void .ctor()

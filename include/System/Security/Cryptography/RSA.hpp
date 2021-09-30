@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Security::Cryptography
@@ -42,13 +43,13 @@ namespace System::Security::Cryptography {
     static System::Security::Cryptography::RSA* Create();
     // public System.Boolean VerifyHash(System.Byte[] hash, System.Byte[] signature, System.Security.Cryptography.HashAlgorithmName hashAlgorithm, System.Security.Cryptography.RSASignaturePadding padding)
     // Offset: 0x1CC1DFC
-    bool VerifyHash(::ArrayWrapper<uint8_t> hash, ::ArrayWrapper<uint8_t> signature, System::Security::Cryptography::HashAlgorithmName hashAlgorithm, System::Security::Cryptography::RSASignaturePadding* padding);
+    bool VerifyHash(::ArrayW<uint8_t> hash, ::ArrayW<uint8_t> signature, System::Security::Cryptography::HashAlgorithmName hashAlgorithm, System::Security::Cryptography::RSASignaturePadding* padding);
     // protected System.Byte[] HashData(System.Byte[] data, System.Int32 offset, System.Int32 count, System.Security.Cryptography.HashAlgorithmName hashAlgorithm)
     // Offset: 0x1CC1EBC
-    ::ArrayWrapper<uint8_t> HashData(::ArrayWrapper<uint8_t> data, int offset, int count, System::Security::Cryptography::HashAlgorithmName hashAlgorithm);
+    ::ArrayW<uint8_t> HashData(::ArrayW<uint8_t> data, int offset, int count, System::Security::Cryptography::HashAlgorithmName hashAlgorithm);
     // public System.Boolean VerifyData(System.Byte[] data, System.Int32 offset, System.Int32 count, System.Byte[] signature, System.Security.Cryptography.HashAlgorithmName hashAlgorithm, System.Security.Cryptography.RSASignaturePadding padding)
     // Offset: 0x1CC1F00
-    bool VerifyData(::ArrayWrapper<uint8_t> data, int offset, int count, ::ArrayWrapper<uint8_t> signature, System::Security::Cryptography::HashAlgorithmName hashAlgorithm, System::Security::Cryptography::RSASignaturePadding* padding);
+    bool VerifyData(::ArrayW<uint8_t> data, int offset, int count, ::ArrayW<uint8_t> signature, System::Security::Cryptography::HashAlgorithmName hashAlgorithm, System::Security::Cryptography::RSASignaturePadding* padding);
     // static private System.Exception DerivedClassMustOverride()
     // Offset: 0x1CC1E40
     static System::Exception* DerivedClassMustOverride();
@@ -57,7 +58,7 @@ namespace System::Security::Cryptography {
     static System::Exception* HashAlgorithmNameNullOrEmpty();
     // public System.Byte[] EncryptValue(System.Byte[] rgb)
     // Offset: 0x1CC2180
-    ::ArrayWrapper<uint8_t> EncryptValue(::ArrayWrapper<uint8_t> rgb);
+    ::ArrayW<uint8_t> EncryptValue(::ArrayW<uint8_t> rgb);
     // public System.Security.Cryptography.RSAParameters ExportParameters(System.Boolean includePrivateParameters)
     // Offset: 0xFFFFFFFF
     System::Security::Cryptography::RSAParameters ExportParameters(bool includePrivateParameters);
@@ -100,7 +101,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 // Writing MetadataGetter for method: System::Security::Cryptography::RSA::VerifyHash
 // Il2CppName: VerifyHash
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Security::Cryptography::RSA::*)(::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>, System::Security::Cryptography::HashAlgorithmName, System::Security::Cryptography::RSASignaturePadding*)>(&System::Security::Cryptography::RSA::VerifyHash)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Security::Cryptography::RSA::*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>, System::Security::Cryptography::HashAlgorithmName, System::Security::Cryptography::RSASignaturePadding*)>(&System::Security::Cryptography::RSA::VerifyHash)> {
   static const MethodInfo* get() {
     static auto* hash = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* signature = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -112,7 +113,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::RSA::HashData
 // Il2CppName: HashData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (System::Security::Cryptography::RSA::*)(::ArrayWrapper<uint8_t>, int, int, System::Security::Cryptography::HashAlgorithmName)>(&System::Security::Cryptography::RSA::HashData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (System::Security::Cryptography::RSA::*)(::ArrayW<uint8_t>, int, int, System::Security::Cryptography::HashAlgorithmName)>(&System::Security::Cryptography::RSA::HashData)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -124,7 +125,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: System::Security::Cryptography::RSA::VerifyData
 // Il2CppName: VerifyData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Security::Cryptography::RSA::*)(::ArrayWrapper<uint8_t>, int, int, ::ArrayWrapper<uint8_t>, System::Security::Cryptography::HashAlgorithmName, System::Security::Cryptography::RSASignaturePadding*)>(&System::Security::Cryptography::RSA::VerifyData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Security::Cryptography::RSA::*)(::ArrayW<uint8_t>, int, int, ::ArrayW<uint8_t>, System::Security::Cryptography::HashAlgorithmName, System::Security::Cryptography::RSASignaturePadding*)>(&System::Security::Cryptography::RSA::VerifyData)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -154,7 +155,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Security::Cryptography::RSA::EncryptValue
 // Il2CppName: EncryptValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (System::Security::Cryptography::RSA::*)(::ArrayWrapper<uint8_t>)>(&System::Security::Cryptography::RSA::EncryptValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (System::Security::Cryptography::RSA::*)(::ArrayW<uint8_t>)>(&System::Security::Cryptography::RSA::EncryptValue)> {
   static const MethodInfo* get() {
     static auto* rgb = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::RSA*), "EncryptValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rgb});

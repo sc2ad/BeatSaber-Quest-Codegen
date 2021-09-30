@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -33,6 +34,11 @@ namespace UnityEngine {
     class PCMReaderCallback;
     // Nested type: UnityEngine::AudioClip::PCMSetPositionCallback
     class PCMSetPositionCallback;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [DebuggerBrowsableAttribute] Offset: 0xE9F318
     // private UnityEngine.AudioClip/UnityEngine.PCMReaderCallback m_PCMReaderCallback
     // Size: 0x8
@@ -47,6 +53,7 @@ namespace UnityEngine {
     UnityEngine::AudioClip::PCMSetPositionCallback* m_PCMSetPositionCallback;
     // Field size check
     static_assert(sizeof(UnityEngine::AudioClip::PCMSetPositionCallback*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.AudioClip/UnityEngine.PCMReaderCallback m_PCMReaderCallback
@@ -82,10 +89,10 @@ namespace UnityEngine {
     void remove_m_PCMSetPositionCallback(UnityEngine::AudioClip::PCMSetPositionCallback* value);
     // static private System.Boolean GetData(UnityEngine.AudioClip clip, out System.Single[] data, System.Int32 numSamples, System.Int32 samplesOffset)
     // Offset: 0x2607220
-    static bool GetData(UnityEngine::AudioClip* clip, ByRef<::ArrayWrapper<float>> data, int numSamples, int samplesOffset);
+    static bool GetData(UnityEngine::AudioClip* clip, ByRef<::ArrayW<float>> data, int numSamples, int samplesOffset);
     // static private System.Boolean SetData(UnityEngine.AudioClip clip, System.Single[] data, System.Int32 numsamples, System.Int32 samplesOffset)
     // Offset: 0x2607288
-    static bool SetData(UnityEngine::AudioClip* clip, ::ArrayWrapper<float> data, int numsamples, int samplesOffset);
+    static bool SetData(UnityEngine::AudioClip* clip, ::ArrayW<float> data, int numsamples, int samplesOffset);
     // static private UnityEngine.AudioClip Construct_Internal()
     // Offset: 0x26072F0
     static UnityEngine::AudioClip* Construct_Internal();
@@ -100,10 +107,10 @@ namespace UnityEngine {
     bool LoadAudioData();
     // public System.Boolean GetData(System.Single[] data, System.Int32 offsetSamples)
     // Offset: 0x2607524
-    bool GetData(::ArrayWrapper<float> data, int offsetSamples);
+    bool GetData(::ArrayW<float> data, int offsetSamples);
     // public System.Boolean SetData(System.Single[] data, System.Int32 offsetSamples)
     // Offset: 0x26076B0
-    bool SetData(::ArrayWrapper<float> data, int offsetSamples);
+    bool SetData(::ArrayW<float> data, int offsetSamples);
     // static public UnityEngine.AudioClip Create(System.String name, System.Int32 lengthSamples, System.Int32 channels, System.Int32 frequency, System.Boolean stream)
     // Offset: 0x26078C8
     static UnityEngine::AudioClip* Create(::Il2CppString* name, int lengthSamples, int channels, int frequency, bool stream);
@@ -112,7 +119,7 @@ namespace UnityEngine {
     static UnityEngine::AudioClip* Create(::Il2CppString* name, int lengthSamples, int channels, int frequency, bool stream, UnityEngine::AudioClip::PCMReaderCallback* pcmreadercallback, UnityEngine::AudioClip::PCMSetPositionCallback* pcmsetpositioncallback);
     // private System.Void InvokePCMReaderCallback_Internal(System.Single[] data)
     // Offset: 0x2607D24
-    void InvokePCMReaderCallback_Internal(::ArrayWrapper<float> data);
+    void InvokePCMReaderCallback_Internal(::ArrayW<float> data);
     // private System.Void InvokePCMSetPositionCallback_Internal(System.Int32 position)
     // Offset: 0x26080C8
     void InvokePCMSetPositionCallback_Internal(int position);
@@ -212,7 +219,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::AudioClip::GetData
 // Il2CppName: GetData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::AudioClip*, ByRef<::ArrayWrapper<float>>, int, int)>(&UnityEngine::AudioClip::GetData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::AudioClip*, ByRef<::ArrayW<float>>, int, int)>(&UnityEngine::AudioClip::GetData)> {
   static const MethodInfo* get() {
     static auto* clip = &::il2cpp_utils::GetClassFromName("UnityEngine", "AudioClip")->byval_arg;
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->this_arg;
@@ -224,7 +231,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: UnityEngine::AudioClip::SetData
 // Il2CppName: SetData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::AudioClip*, ::ArrayWrapper<float>, int, int)>(&UnityEngine::AudioClip::SetData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(UnityEngine::AudioClip*, ::ArrayW<float>, int, int)>(&UnityEngine::AudioClip::SetData)> {
   static const MethodInfo* get() {
     static auto* clip = &::il2cpp_utils::GetClassFromName("UnityEngine", "AudioClip")->byval_arg;
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
@@ -273,7 +280,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::AudioClip::GetData
 // Il2CppName: GetData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::AudioClip::*)(::ArrayWrapper<float>, int)>(&UnityEngine::AudioClip::GetData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::AudioClip::*)(::ArrayW<float>, int)>(&UnityEngine::AudioClip::GetData)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     static auto* offsetSamples = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -283,7 +290,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::AudioClip::SetData
 // Il2CppName: SetData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::AudioClip::*)(::ArrayWrapper<float>, int)>(&UnityEngine::AudioClip::SetData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::AudioClip::*)(::ArrayW<float>, int)>(&UnityEngine::AudioClip::SetData)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     static auto* offsetSamples = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -321,7 +328,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::AudioClip::InvokePCMReaderCallback_Internal
 // Il2CppName: InvokePCMReaderCallback_Internal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AudioClip::*)(::ArrayWrapper<float>)>(&UnityEngine::AudioClip::InvokePCMReaderCallback_Internal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AudioClip::*)(::ArrayW<float>)>(&UnityEngine::AudioClip::InvokePCMReaderCallback_Internal)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AudioClip*), "InvokePCMReaderCallback_Internal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data});

@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Math::EC::Endo
@@ -44,7 +45,7 @@ namespace Org::BouncyCastle::Math::EC::Endo {
     static void _cctor();
     // static public Org.BouncyCastle.Math.BigInteger[] DecomposeScalar(Org.BouncyCastle.Math.EC.Endo.ScalarSplitParameters p, Org.BouncyCastle.Math.BigInteger k)
     // Offset: 0x2318618
-    static ::ArrayWrapper<Org::BouncyCastle::Math::BigInteger*> DecomposeScalar(Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* p, Org::BouncyCastle::Math::BigInteger* k);
+    static ::ArrayW<Org::BouncyCastle::Math::BigInteger*> DecomposeScalar(Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* p, Org::BouncyCastle::Math::BigInteger* k);
     // static public Org.BouncyCastle.Math.EC.ECPoint MapPoint(Org.BouncyCastle.Math.EC.Endo.ECEndomorphism endomorphism, Org.BouncyCastle.Math.EC.ECPoint p)
     // Offset: 0x2314BFC
     static Org::BouncyCastle::Math::EC::ECPoint* MapPoint(Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* endomorphism, Org::BouncyCastle::Math::EC::ECPoint* p);
@@ -68,7 +69,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Endo::EndoUtilities::DecomposeScalar
 // Il2CppName: DecomposeScalar
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<Org::BouncyCastle::Math::BigInteger*> (*)(Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters*, Org::BouncyCastle::Math::BigInteger*)>(&Org::BouncyCastle::Math::EC::Endo::EndoUtilities::DecomposeScalar)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Org::BouncyCastle::Math::BigInteger*> (*)(Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters*, Org::BouncyCastle::Math::BigInteger*)>(&Org::BouncyCastle::Math::EC::Endo::EndoUtilities::DecomposeScalar)> {
   static const MethodInfo* get() {
     static auto* p = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC.Endo", "ScalarSplitParameters")->byval_arg;
     static auto* k = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math", "BigInteger")->byval_arg;

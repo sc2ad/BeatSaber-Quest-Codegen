@@ -37,6 +37,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PyramidBloomMainEffectSO : public GlobalNamespace::MainEffectSO {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private PyramidBloomRendererSO _bloomRenderer
     // Size: 0x8
     // Offset: 0x18
@@ -152,6 +157,7 @@ namespace GlobalNamespace {
     UnityEngine::Material* mainEffectMaterial;
     // Field size check
     static_assert(sizeof(UnityEngine::Material*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEEBA98

@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: System.Xml
 namespace System::Xml {
@@ -18,12 +19,17 @@ namespace System::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   class ByteStack : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Byte[] stack
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<uint8_t> stack;
+    ::ArrayW<uint8_t> stack;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Int32 growthRate
     // Size: 0x4
     // Offset: 0x18
@@ -42,8 +48,9 @@ namespace System::Xml {
     int size;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: private System.Byte[] stack
-    ::ArrayWrapper<uint8_t>& dyn_stack();
+    ::ArrayW<uint8_t>& dyn_stack();
     // Get instance field reference: private System.Int32 growthRate
     int& dyn_growthRate();
     // Get instance field reference: private System.Int32 top

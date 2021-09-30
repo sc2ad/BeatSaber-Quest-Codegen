@@ -32,6 +32,11 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class MetricIdentifier::$GetTags$d__13 : public ::Il2CppObject/*, public System::Collections::Generic::IEnumerable_1<System::ValueTuple_2<::Il2CppString*, ::Il2CppString*>>, public System::Collections::Generic::IEnumerator_1<System::ValueTuple_2<::Il2CppString*, ::Il2CppString*>>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -57,6 +62,7 @@ namespace GlobalNamespace {
     // Size: 0xFFFFFFFF
     // Offset: 0x78
     GlobalNamespace::MetricIdentifier $$3__$$4__this;
+    public:
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<System::ValueTuple_2<::Il2CppString*, ::Il2CppString*>>
     operator System::Collections::Generic::IEnumerable_1<System::ValueTuple_2<::Il2CppString*, ::Il2CppString*>>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<System::ValueTuple_2<::Il2CppString*, ::Il2CppString*>>*>(this);

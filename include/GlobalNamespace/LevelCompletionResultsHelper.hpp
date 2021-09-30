@@ -7,6 +7,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: LevelCompletionResults
 #include "GlobalNamespace/LevelCompletionResults.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -37,7 +38,7 @@ namespace GlobalNamespace {
     public:
     // static public LevelCompletionResults Create(System.Int32 levelNotesCount, BeatmapObjectExecutionRating[] beatmapObjectExecutionRatings, GameplayModifiers gameplayModifiers, GameplayModifiersModelSO gameplayModifiersModel, System.Int32 rawScore, System.Int32 modifiedScore, System.Int32 maxCombo, System.Single[] saberActivityValues, System.Single leftSaberMovementDistance, System.Single rightSaberMovementDistance, System.Single[] handActivityValues, System.Single leftHandMovementDistance, System.Single rightHandMovementDistance, System.Single songDuration, LevelCompletionResults/LevelEndStateType levelEndStateType, LevelCompletionResults/LevelEndAction levelEndAction, System.Single energy, System.Single songTime)
     // Offset: 0x11512D4
-    static GlobalNamespace::LevelCompletionResults* Create(int levelNotesCount, ::ArrayWrapper<GlobalNamespace::BeatmapObjectExecutionRating*> beatmapObjectExecutionRatings, GlobalNamespace::GameplayModifiers* gameplayModifiers, GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel, int rawScore, int modifiedScore, int maxCombo, ::ArrayWrapper<float> saberActivityValues, float leftSaberMovementDistance, float rightSaberMovementDistance, ::ArrayWrapper<float> handActivityValues, float leftHandMovementDistance, float rightHandMovementDistance, float songDuration, GlobalNamespace::LevelCompletionResults::LevelEndStateType levelEndStateType, GlobalNamespace::LevelCompletionResults::LevelEndAction levelEndAction, float energy, float songTime);
+    static GlobalNamespace::LevelCompletionResults* Create(int levelNotesCount, ::ArrayW<GlobalNamespace::BeatmapObjectExecutionRating*> beatmapObjectExecutionRatings, GlobalNamespace::GameplayModifiers* gameplayModifiers, GlobalNamespace::GameplayModifiersModelSO* gameplayModifiersModel, int rawScore, int modifiedScore, int maxCombo, ::ArrayW<float> saberActivityValues, float leftSaberMovementDistance, float rightSaberMovementDistance, ::ArrayW<float> handActivityValues, float leftHandMovementDistance, float rightHandMovementDistance, float songDuration, GlobalNamespace::LevelCompletionResults::LevelEndStateType levelEndStateType, GlobalNamespace::LevelCompletionResults::LevelEndAction levelEndAction, float energy, float songTime);
     // static public System.Void ProcessScore(PlayerData playerData, PlayerLevelStatsData playerLevelStats, LevelCompletionResults levelCompletionResults, IDifficultyBeatmap difficultyBeatmap, PlatformLeaderboardsModel platformLeaderboardsModel)
     // Offset: 0x1151794
     static void ProcessScore(GlobalNamespace::PlayerData* playerData, GlobalNamespace::PlayerLevelStatsData* playerLevelStats, GlobalNamespace::LevelCompletionResults* levelCompletionResults, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, GlobalNamespace::PlatformLeaderboardsModel* platformLeaderboardsModel);
@@ -50,7 +51,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelCompletionResultsHelper*, "", "Leve
 // Writing MetadataGetter for method: GlobalNamespace::LevelCompletionResultsHelper::Create
 // Il2CppName: Create
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::LevelCompletionResults* (*)(int, ::ArrayWrapper<GlobalNamespace::BeatmapObjectExecutionRating*>, GlobalNamespace::GameplayModifiers*, GlobalNamespace::GameplayModifiersModelSO*, int, int, int, ::ArrayWrapper<float>, float, float, ::ArrayWrapper<float>, float, float, float, GlobalNamespace::LevelCompletionResults::LevelEndStateType, GlobalNamespace::LevelCompletionResults::LevelEndAction, float, float)>(&GlobalNamespace::LevelCompletionResultsHelper::Create)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::LevelCompletionResults* (*)(int, ::ArrayW<GlobalNamespace::BeatmapObjectExecutionRating*>, GlobalNamespace::GameplayModifiers*, GlobalNamespace::GameplayModifiersModelSO*, int, int, int, ::ArrayW<float>, float, float, ::ArrayW<float>, float, float, float, GlobalNamespace::LevelCompletionResults::LevelEndStateType, GlobalNamespace::LevelCompletionResults::LevelEndAction, float, float)>(&GlobalNamespace::LevelCompletionResultsHelper::Create)> {
   static const MethodInfo* get() {
     static auto* levelNotesCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* beatmapObjectExecutionRatings = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "BeatmapObjectExecutionRating"), 1)->byval_arg;

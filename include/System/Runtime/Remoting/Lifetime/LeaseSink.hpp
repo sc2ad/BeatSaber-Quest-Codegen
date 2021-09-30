@@ -29,12 +29,18 @@ namespace System::Runtime::Remoting::Lifetime {
   // [TokenAttribute] Offset: FFFFFFFF
   class LeaseSink : public ::Il2CppObject/*, public System::Runtime::Remoting::Messaging::IMessageSink*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Runtime.Remoting.Messaging.IMessageSink _nextSink
     // Size: 0x8
     // Offset: 0x10
     System::Runtime::Remoting::Messaging::IMessageSink* nextSink;
     // Field size check
     static_assert(sizeof(System::Runtime::Remoting::Messaging::IMessageSink*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Runtime::Remoting::Messaging::IMessageSink
     operator System::Runtime::Remoting::Messaging::IMessageSink() noexcept {
       return *reinterpret_cast<System::Runtime::Remoting::Messaging::IMessageSink*>(this);

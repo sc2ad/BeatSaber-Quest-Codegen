@@ -32,6 +32,11 @@ namespace UnityEngine {
   // [NativeTypeAttribute] Offset: E71CD8
   struct Quaternion/*, public System::ValueType, public System::IEquatable_1<UnityEngine::Quaternion>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Single x
     // Size: 0x4
     // Offset: 0x0
@@ -56,6 +61,7 @@ namespace UnityEngine {
     float w;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: Quaternion
     constexpr Quaternion(float x_ = {}, float y_ = {}, float z_ = {}, float w_ = {}) noexcept : x{x_}, y{y_}, z{z_}, w{w_} {}
     // Creating interface conversion operator: operator System::ValueType

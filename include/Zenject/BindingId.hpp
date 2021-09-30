@@ -30,6 +30,11 @@ namespace Zenject {
   // [DebuggerStepThroughAttribute] Offset: FFFFFFFF
   struct BindingId/*, public System::ValueType, public System::IEquatable_1<Zenject::BindingId>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Type _type
     // Size: 0x8
     // Offset: 0x0
@@ -42,6 +47,7 @@ namespace Zenject {
     ::Il2CppObject* identifier;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
+    public:
     // Creating value type constructor for type: BindingId
     constexpr BindingId(System::Type* type_ = {}, ::Il2CppObject* identifier_ = {}) noexcept : type{type_}, identifier{identifier_} {}
     // Creating interface conversion operator: operator System::ValueType

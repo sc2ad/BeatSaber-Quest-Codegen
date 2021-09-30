@@ -7,6 +7,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -66,12 +67,18 @@ namespace System {
     // [TokenAttribute] Offset: FFFFFFFF
     struct DS/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: DS
       constexpr DS(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -327,9 +334,9 @@ namespace System {
     // Set static field: static System.DateTimeParse/System.MatchNumberDelegate m_hebrewNumberParser
     static void _set_m_hebrewNumberParser(System::DateTimeParse::MatchNumberDelegate* value);
     // Get static field: static private System.DateTimeParse/System.DS[][] dateParsingStates
-    static ::ArrayWrapper<::ArrayWrapper<System::DateTimeParse::DS>> _get_dateParsingStates();
+    static ::ArrayW<::ArrayW<System::DateTimeParse::DS>> _get_dateParsingStates();
     // Set static field: static private System.DateTimeParse/System.DS[][] dateParsingStates
-    static void _set_dateParsingStates(::ArrayWrapper<::ArrayWrapper<System::DateTimeParse::DS>> value);
+    static void _set_dateParsingStates(::ArrayW<::ArrayW<System::DateTimeParse::DS>> value);
     // static private System.Void .cctor()
     // Offset: 0x1CE0C28
     static void _cctor();
@@ -341,10 +348,10 @@ namespace System {
     static bool TryParseExact(::Il2CppString* s, ::Il2CppString* format, System::Globalization::DateTimeFormatInfo* dtfi, System::Globalization::DateTimeStyles style, ByRef<System::DateTimeResult> result);
     // static System.Boolean TryParseExactMultiple(System.String s, System.String[] formats, System.Globalization.DateTimeFormatInfo dtfi, System.Globalization.DateTimeStyles style, out System.DateTime result, out System.TimeSpan offset)
     // Offset: 0x1CD7F6C
-    static bool TryParseExactMultiple(::Il2CppString* s, ::ArrayWrapper<::Il2CppString*> formats, System::Globalization::DateTimeFormatInfo* dtfi, System::Globalization::DateTimeStyles style, ByRef<System::DateTime> result, ByRef<System::TimeSpan> offset);
+    static bool TryParseExactMultiple(::Il2CppString* s, ::ArrayW<::Il2CppString*> formats, System::Globalization::DateTimeFormatInfo* dtfi, System::Globalization::DateTimeStyles style, ByRef<System::DateTime> result, ByRef<System::TimeSpan> offset);
     // static System.Boolean TryParseExactMultiple(System.String s, System.String[] formats, System.Globalization.DateTimeFormatInfo dtfi, System.Globalization.DateTimeStyles style, ref System.DateTimeResult result)
     // Offset: 0x1CD8CF8
-    static bool TryParseExactMultiple(::Il2CppString* s, ::ArrayWrapper<::Il2CppString*> formats, System::Globalization::DateTimeFormatInfo* dtfi, System::Globalization::DateTimeStyles style, ByRef<System::DateTimeResult> result);
+    static bool TryParseExactMultiple(::Il2CppString* s, ::ArrayW<::Il2CppString*> formats, System::Globalization::DateTimeFormatInfo* dtfi, System::Globalization::DateTimeStyles style, ByRef<System::DateTimeResult> result);
     // static private System.Boolean MatchWord(ref System.__DTString str, System.String target)
     // Offset: 0x1CD8ED4
     static bool MatchWord(ByRef<System::__DTString> str, ::Il2CppString* target);
@@ -592,7 +599,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::DateTimeParse::TryParseExactMultiple
 // Il2CppName: TryParseExactMultiple
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::ArrayWrapper<::Il2CppString*>, System::Globalization::DateTimeFormatInfo*, System::Globalization::DateTimeStyles, ByRef<System::DateTime>, ByRef<System::TimeSpan>)>(&System::DateTimeParse::TryParseExactMultiple)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::ArrayW<::Il2CppString*>, System::Globalization::DateTimeFormatInfo*, System::Globalization::DateTimeStyles, ByRef<System::DateTime>, ByRef<System::TimeSpan>)>(&System::DateTimeParse::TryParseExactMultiple)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* formats = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
@@ -606,7 +613,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::DateTimeParse::TryParseExactMultiple
 // Il2CppName: TryParseExactMultiple
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::ArrayWrapper<::Il2CppString*>, System::Globalization::DateTimeFormatInfo*, System::Globalization::DateTimeStyles, ByRef<System::DateTimeResult>)>(&System::DateTimeParse::TryParseExactMultiple)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::ArrayW<::Il2CppString*>, System::Globalization::DateTimeFormatInfo*, System::Globalization::DateTimeStyles, ByRef<System::DateTimeResult>)>(&System::DateTimeParse::TryParseExactMultiple)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* formats = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;

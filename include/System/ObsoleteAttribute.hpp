@@ -22,6 +22,11 @@ namespace System {
   // [AttributeUsageAttribute] Offset: E5C480
   class ObsoleteAttribute : public System::Attribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String _message
     // Size: 0x8
     // Offset: 0x10
@@ -34,6 +39,7 @@ namespace System {
     bool error;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private System.String _message
     ::Il2CppString*& dyn__message();
     // Get instance field reference: private System.Boolean _error

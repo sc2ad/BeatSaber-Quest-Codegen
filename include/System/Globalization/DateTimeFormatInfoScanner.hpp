@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -46,12 +47,18 @@ namespace System::Globalization {
     // [TokenAttribute] Offset: FFFFFFFF
     struct FoundDatePattern/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: FoundDatePattern
       constexpr FoundDatePattern(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -98,6 +105,11 @@ namespace System::Globalization {
     #pragma pack(pop)
     static check_size<sizeof(DateTimeFormatInfoScanner::FoundDatePattern), 0 + sizeof(int)> __System_Globalization_DateTimeFormatInfoScanner_FoundDatePatternSizeCheck;
     static_assert(sizeof(DateTimeFormatInfoScanner::FoundDatePattern) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Collections.Generic.List`1<System.String> m_dateWords
     // Size: 0x8
     // Offset: 0x10
@@ -110,6 +122,7 @@ namespace System::Globalization {
     System::Globalization::DateTimeFormatInfoScanner::FoundDatePattern m_ymdFlags;
     // Field size check
     static_assert(sizeof(System::Globalization::DateTimeFormatInfoScanner::FoundDatePattern) == 0x4);
+    public:
     // Get static field: static private System.Collections.Generic.Dictionary`2<System.String,System.String> s_knownWords
     static System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>* _get_s_knownWords();
     // Set static field: static private System.Collections.Generic.Dictionary`2<System.String,System.String> s_knownWords
@@ -141,28 +154,28 @@ namespace System::Globalization {
     void ScanDateWord(::Il2CppString* pattern);
     // System.String[] GetDateWordsOfDTFI(System.Globalization.DateTimeFormatInfo dtfi)
     // Offset: 0x1BCE288
-    ::ArrayWrapper<::Il2CppString*> GetDateWordsOfDTFI(System::Globalization::DateTimeFormatInfo* dtfi);
+    ::ArrayW<::Il2CppString*> GetDateWordsOfDTFI(System::Globalization::DateTimeFormatInfo* dtfi);
     // static System.Globalization.FORMATFLAGS GetFormatFlagGenitiveMonth(System.String[] monthNames, System.String[] genitveMonthNames, System.String[] abbrevMonthNames, System.String[] genetiveAbbrevMonthNames)
     // Offset: 0x1BCE558
-    static System::Globalization::FORMATFLAGS GetFormatFlagGenitiveMonth(::ArrayWrapper<::Il2CppString*> monthNames, ::ArrayWrapper<::Il2CppString*> genitveMonthNames, ::ArrayWrapper<::Il2CppString*> abbrevMonthNames, ::ArrayWrapper<::Il2CppString*> genetiveAbbrevMonthNames);
+    static System::Globalization::FORMATFLAGS GetFormatFlagGenitiveMonth(::ArrayW<::Il2CppString*> monthNames, ::ArrayW<::Il2CppString*> genitveMonthNames, ::ArrayW<::Il2CppString*> abbrevMonthNames, ::ArrayW<::Il2CppString*> genetiveAbbrevMonthNames);
     // static System.Globalization.FORMATFLAGS GetFormatFlagUseSpaceInMonthNames(System.String[] monthNames, System.String[] genitveMonthNames, System.String[] abbrevMonthNames, System.String[] genetiveAbbrevMonthNames)
     // Offset: 0x1BCE658
-    static System::Globalization::FORMATFLAGS GetFormatFlagUseSpaceInMonthNames(::ArrayWrapper<::Il2CppString*> monthNames, ::ArrayWrapper<::Il2CppString*> genitveMonthNames, ::ArrayWrapper<::Il2CppString*> abbrevMonthNames, ::ArrayWrapper<::Il2CppString*> genetiveAbbrevMonthNames);
+    static System::Globalization::FORMATFLAGS GetFormatFlagUseSpaceInMonthNames(::ArrayW<::Il2CppString*> monthNames, ::ArrayW<::Il2CppString*> genitveMonthNames, ::ArrayW<::Il2CppString*> abbrevMonthNames, ::ArrayW<::Il2CppString*> genetiveAbbrevMonthNames);
     // static System.Globalization.FORMATFLAGS GetFormatFlagUseSpaceInDayNames(System.String[] dayNames, System.String[] abbrevDayNames)
     // Offset: 0x1BCEA88
-    static System::Globalization::FORMATFLAGS GetFormatFlagUseSpaceInDayNames(::ArrayWrapper<::Il2CppString*> dayNames, ::ArrayWrapper<::Il2CppString*> abbrevDayNames);
+    static System::Globalization::FORMATFLAGS GetFormatFlagUseSpaceInDayNames(::ArrayW<::Il2CppString*> dayNames, ::ArrayW<::Il2CppString*> abbrevDayNames);
     // static System.Globalization.FORMATFLAGS GetFormatFlagUseHebrewCalendar(System.Int32 calID)
     // Offset: 0x1BCEAC4
     static System::Globalization::FORMATFLAGS GetFormatFlagUseHebrewCalendar(int calID);
     // static private System.Boolean EqualStringArrays(System.String[] array1, System.String[] array2)
     // Offset: 0x1BCE59C
-    static bool EqualStringArrays(::ArrayWrapper<::Il2CppString*> array1, ::ArrayWrapper<::Il2CppString*> array2);
+    static bool EqualStringArrays(::ArrayW<::Il2CppString*> array1, ::ArrayW<::Il2CppString*> array2);
     // static private System.Boolean ArrayElementsHaveSpace(System.String[] array)
     // Offset: 0x1BCE97C
-    static bool ArrayElementsHaveSpace(::ArrayWrapper<::Il2CppString*> array);
+    static bool ArrayElementsHaveSpace(::ArrayW<::Il2CppString*> array);
     // static private System.Boolean ArrayElementsBeginWithDigit(System.String[] array)
     // Offset: 0x1BCE708
-    static bool ArrayElementsBeginWithDigit(::ArrayWrapper<::Il2CppString*> array);
+    static bool ArrayElementsBeginWithDigit(::ArrayW<::Il2CppString*> array);
     // public System.Void .ctor()
     // Offset: 0x1BCEAD4
     // Implemented from: System.Object
@@ -252,7 +265,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfoScanner::GetDateWordsOfDTFI
 // Il2CppName: GetDateWordsOfDTFI
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppString*> (System::Globalization::DateTimeFormatInfoScanner::*)(System::Globalization::DateTimeFormatInfo*)>(&System::Globalization::DateTimeFormatInfoScanner::GetDateWordsOfDTFI)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (System::Globalization::DateTimeFormatInfoScanner::*)(System::Globalization::DateTimeFormatInfo*)>(&System::Globalization::DateTimeFormatInfoScanner::GetDateWordsOfDTFI)> {
   static const MethodInfo* get() {
     static auto* dtfi = &::il2cpp_utils::GetClassFromName("System.Globalization", "DateTimeFormatInfo")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfoScanner*), "GetDateWordsOfDTFI", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dtfi});
@@ -261,7 +274,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfoScanner::GetFormatFlagGenitiveMonth
 // Il2CppName: GetFormatFlagGenitiveMonth
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::FORMATFLAGS (*)(::ArrayWrapper<::Il2CppString*>, ::ArrayWrapper<::Il2CppString*>, ::ArrayWrapper<::Il2CppString*>, ::ArrayWrapper<::Il2CppString*>)>(&System::Globalization::DateTimeFormatInfoScanner::GetFormatFlagGenitiveMonth)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::FORMATFLAGS (*)(::ArrayW<::Il2CppString*>, ::ArrayW<::Il2CppString*>, ::ArrayW<::Il2CppString*>, ::ArrayW<::Il2CppString*>)>(&System::Globalization::DateTimeFormatInfoScanner::GetFormatFlagGenitiveMonth)> {
   static const MethodInfo* get() {
     static auto* monthNames = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     static auto* genitveMonthNames = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
@@ -273,7 +286,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Glo
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfoScanner::GetFormatFlagUseSpaceInMonthNames
 // Il2CppName: GetFormatFlagUseSpaceInMonthNames
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::FORMATFLAGS (*)(::ArrayWrapper<::Il2CppString*>, ::ArrayWrapper<::Il2CppString*>, ::ArrayWrapper<::Il2CppString*>, ::ArrayWrapper<::Il2CppString*>)>(&System::Globalization::DateTimeFormatInfoScanner::GetFormatFlagUseSpaceInMonthNames)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::FORMATFLAGS (*)(::ArrayW<::Il2CppString*>, ::ArrayW<::Il2CppString*>, ::ArrayW<::Il2CppString*>, ::ArrayW<::Il2CppString*>)>(&System::Globalization::DateTimeFormatInfoScanner::GetFormatFlagUseSpaceInMonthNames)> {
   static const MethodInfo* get() {
     static auto* monthNames = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     static auto* genitveMonthNames = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
@@ -285,7 +298,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Glo
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfoScanner::GetFormatFlagUseSpaceInDayNames
 // Il2CppName: GetFormatFlagUseSpaceInDayNames
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::FORMATFLAGS (*)(::ArrayWrapper<::Il2CppString*>, ::ArrayWrapper<::Il2CppString*>)>(&System::Globalization::DateTimeFormatInfoScanner::GetFormatFlagUseSpaceInDayNames)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Globalization::FORMATFLAGS (*)(::ArrayW<::Il2CppString*>, ::ArrayW<::Il2CppString*>)>(&System::Globalization::DateTimeFormatInfoScanner::GetFormatFlagUseSpaceInDayNames)> {
   static const MethodInfo* get() {
     static auto* dayNames = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     static auto* abbrevDayNames = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
@@ -304,7 +317,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Glo
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfoScanner::EqualStringArrays
 // Il2CppName: EqualStringArrays
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayWrapper<::Il2CppString*>, ::ArrayWrapper<::Il2CppString*>)>(&System::Globalization::DateTimeFormatInfoScanner::EqualStringArrays)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<::Il2CppString*>, ::ArrayW<::Il2CppString*>)>(&System::Globalization::DateTimeFormatInfoScanner::EqualStringArrays)> {
   static const MethodInfo* get() {
     static auto* array1 = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     static auto* array2 = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
@@ -314,7 +327,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfoScanner::ArrayElementsHaveSpace
 // Il2CppName: ArrayElementsHaveSpace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayWrapper<::Il2CppString*>)>(&System::Globalization::DateTimeFormatInfoScanner::ArrayElementsHaveSpace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<::Il2CppString*>)>(&System::Globalization::DateTimeFormatInfoScanner::ArrayElementsHaveSpace)> {
   static const MethodInfo* get() {
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfoScanner*), "ArrayElementsHaveSpace", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array});
@@ -323,7 +336,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::Globalization::DateTimeFormatInfoScanner::ArrayElementsBeginWithDigit
 // Il2CppName: ArrayElementsBeginWithDigit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayWrapper<::Il2CppString*>)>(&System::Globalization::DateTimeFormatInfoScanner::ArrayElementsBeginWithDigit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<::Il2CppString*>)>(&System::Globalization::DateTimeFormatInfoScanner::ArrayElementsBeginWithDigit)> {
   static const MethodInfo* get() {
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::DateTimeFormatInfoScanner*), "ArrayElementsBeginWithDigit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array});

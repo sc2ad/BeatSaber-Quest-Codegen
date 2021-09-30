@@ -36,6 +36,11 @@ namespace UnityEngine::ProBuilder {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Edge/*, public System::ValueType, public System::IEquatable_1<UnityEngine::ProBuilder::Edge>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 a
     // Size: 0x4
     // Offset: 0x0
@@ -48,6 +53,7 @@ namespace UnityEngine::ProBuilder {
     int b;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: Edge
     constexpr Edge(int a_ = {}, int b_ = {}) noexcept : a{a_}, b{b_} {}
     // Creating interface conversion operator: operator System::ValueType

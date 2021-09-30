@@ -18,12 +18,18 @@ namespace System::Threading {
   // [TokenAttribute] Offset: FFFFFFFF
   class AtomicBoolean : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 flag
     // Size: 0x4
     // Offset: 0x10
     int flag;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return flag;

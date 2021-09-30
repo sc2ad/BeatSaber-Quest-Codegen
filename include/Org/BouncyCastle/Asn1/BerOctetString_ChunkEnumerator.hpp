@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Asn1
@@ -29,12 +30,17 @@ namespace Org::BouncyCastle::Asn1 {
   // [TokenAttribute] Offset: FFFFFFFF
   class BerOctetString::ChunkEnumerator : public ::Il2CppObject/*, public System::Collections::IEnumerator*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Byte[] octets
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<uint8_t> octets;
+    ::ArrayW<uint8_t> octets;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private readonly System.Int32 chunkSize
     // Size: 0x4
     // Offset: 0x18
@@ -55,12 +61,13 @@ namespace Org::BouncyCastle::Asn1 {
     int nextChunkPos;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating interface conversion operator: operator System::Collections::IEnumerator
     operator System::Collections::IEnumerator() noexcept {
       return *reinterpret_cast<System::Collections::IEnumerator*>(this);
     }
     // Get instance field reference: private readonly System.Byte[] octets
-    ::ArrayWrapper<uint8_t>& dyn_octets();
+    ::ArrayW<uint8_t>& dyn_octets();
     // Get instance field reference: private readonly System.Int32 chunkSize
     int& dyn_chunkSize();
     // Get instance field reference: private Org.BouncyCastle.Asn1.DerOctetString currentChunk
@@ -73,7 +80,7 @@ namespace Org::BouncyCastle::Asn1 {
     // System.Void .ctor(System.Byte[] octets, System.Int32 chunkSize)
     // Offset: 0x18E6BDC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static BerOctetString::ChunkEnumerator* New_ctor(::ArrayWrapper<uint8_t> octets, int chunkSize) {
+    static BerOctetString::ChunkEnumerator* New_ctor(::ArrayW<uint8_t> octets, int chunkSize) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::BerOctetString::ChunkEnumerator::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BerOctetString::ChunkEnumerator*, creationType>(octets, chunkSize)));
     }

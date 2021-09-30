@@ -19,12 +19,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BoolWithDefaultValueSO : public GlobalNamespace::BoolSO {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean _defaultValue
     // Size: 0x1
     // Offset: 0x21
     bool defaultValue;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private System.Boolean _defaultValue
     bool& dyn__defaultValue();
     // public System.Void .ctor()

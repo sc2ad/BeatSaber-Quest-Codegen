@@ -25,6 +25,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class AsyncComputeOperation : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Int32 _timeoutMs
     // Size: 0x4
     // Offset: 0x10
@@ -39,6 +44,7 @@ namespace GlobalNamespace {
     System::Diagnostics::Stopwatch* stopwatch;
     // Field size check
     static_assert(sizeof(System::Diagnostics::Stopwatch*) == 0x8);
+    public:
     // Get instance field reference: private readonly System.Int32 _timeoutMs
     int& dyn__timeoutMs();
     // Get instance field reference: private readonly System.Diagnostics.Stopwatch _stopwatch

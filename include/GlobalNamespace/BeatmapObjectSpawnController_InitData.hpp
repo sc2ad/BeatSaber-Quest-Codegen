@@ -20,6 +20,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapObjectSpawnController::InitData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly System.Single beatsPerMinute
     // Size: 0x4
     // Offset: 0x10
@@ -50,6 +55,7 @@ namespace GlobalNamespace {
     float jumpOffsetY;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: public readonly System.Single beatsPerMinute
     float& dyn_beatsPerMinute();
     // Get instance field reference: public readonly System.Int32 noteLinesCount

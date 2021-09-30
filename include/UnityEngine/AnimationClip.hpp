@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -100,10 +101,10 @@ namespace UnityEngine {
     bool get_hasRootMotion();
     // public UnityEngine.AnimationEvent[] get_events()
     // Offset: 0x258DF04
-    ::ArrayWrapper<UnityEngine::AnimationEvent*> get_events();
+    ::ArrayW<UnityEngine::AnimationEvent*> get_events();
     // public System.Void set_events(UnityEngine.AnimationEvent[] value)
     // Offset: 0x258DFD8
-    void set_events(::ArrayWrapper<UnityEngine::AnimationEvent*> value);
+    void set_events(::ArrayW<UnityEngine::AnimationEvent*> value);
     // static private System.Void Internal_CreateAnimationClip(UnityEngine.AnimationClip self)
     // Offset: 0x258D64C
     static void Internal_CreateAnimationClip(UnityEngine::AnimationClip* self);
@@ -307,7 +308,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::AnimationClip::get_events
 // Il2CppName: get_events
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::AnimationEvent*> (UnityEngine::AnimationClip::*)()>(&UnityEngine::AnimationClip::get_events)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::AnimationEvent*> (UnityEngine::AnimationClip::*)()>(&UnityEngine::AnimationClip::get_events)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AnimationClip*), "get_events", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -315,7 +316,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::AnimationClip::set_events
 // Il2CppName: set_events
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AnimationClip::*)(::ArrayWrapper<UnityEngine::AnimationEvent*>)>(&UnityEngine::AnimationClip::set_events)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AnimationClip::*)(::ArrayW<UnityEngine::AnimationEvent*>)>(&UnityEngine::AnimationClip::set_events)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationEvent"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AnimationClip*), "set_events", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

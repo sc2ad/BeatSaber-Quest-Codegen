@@ -14,6 +14,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -53,7 +54,7 @@ namespace System::Reflection {
     System::Reflection::MethodInfo* GetGenericMethodDefinition();
     // public System.Reflection.MethodInfo MakeGenericMethod(params System.Type[] typeArguments)
     // Offset: 0x1EAB4CC
-    System::Reflection::MethodInfo* MakeGenericMethod(::ArrayWrapper<System::Type*> typeArguments);
+    System::Reflection::MethodInfo* MakeGenericMethod(::ArrayW<System::Type*> typeArguments);
     // System.Reflection.MethodInfo GetBaseMethod()
     // Offset: 0x1EAB54C
     System::Reflection::MethodInfo* GetBaseMethod();
@@ -87,7 +88,7 @@ namespace System::Reflection {
     // Offset: 0x1EAB3CC
     // Implemented from: System.Reflection.MethodBase
     // Base method: System.Type[] MethodBase::GetGenericArguments()
-    ::ArrayWrapper<System::Type*> GetGenericArguments();
+    ::ArrayW<System::Type*> GetGenericArguments();
   }; // System.Reflection.MethodInfo
   #pragma pack(pop)
   // static public System.Boolean op_Equality(System.Reflection.MethodInfo left, System.Reflection.MethodInfo right)
@@ -126,7 +127,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Writing MetadataGetter for method: System::Reflection::MethodInfo::MakeGenericMethod
 // Il2CppName: MakeGenericMethod
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodInfo* (System::Reflection::MethodInfo::*)(::ArrayWrapper<System::Type*>)>(&System::Reflection::MethodInfo::MakeGenericMethod)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Reflection::MethodInfo* (System::Reflection::MethodInfo::*)(::ArrayW<System::Type*>)>(&System::Reflection::MethodInfo::MakeGenericMethod)> {
   static const MethodInfo* get() {
     static auto* typeArguments = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Type"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::MethodInfo*), "MakeGenericMethod", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{typeArguments});
@@ -172,7 +173,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Reflection::MethodInfo::GetGenericArguments
 // Il2CppName: GetGenericArguments
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::Type*> (System::Reflection::MethodInfo::*)()>(&System::Reflection::MethodInfo::GetGenericArguments)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Type*> (System::Reflection::MethodInfo::*)()>(&System::Reflection::MethodInfo::GetGenericArguments)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::MethodInfo*), "GetGenericArguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -33,6 +33,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerConnectedPlayerEffectsSpawner : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private NoteDebrisSpawner _noteDebrisSpawner
     // Size: 0x8
     // Offset: 0x18
@@ -52,6 +57,7 @@ namespace GlobalNamespace {
     GlobalNamespace::IConnectedPlayerNoteEventManager* noteEventManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IConnectedPlayerNoteEventManager*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private NoteDebrisSpawner _noteDebrisSpawner

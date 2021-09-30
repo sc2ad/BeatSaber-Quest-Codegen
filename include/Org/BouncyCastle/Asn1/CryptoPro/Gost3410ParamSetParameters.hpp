@@ -34,6 +34,11 @@ namespace Org::BouncyCastle::Asn1::CryptoPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class Gost3410ParamSetParameters : public Org::BouncyCastle::Asn1::Asn1Encodable {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Int32 keySize
     // Size: 0x4
     // Offset: 0x10
@@ -60,6 +65,7 @@ namespace Org::BouncyCastle::Asn1::CryptoPro {
     Org::BouncyCastle::Asn1::DerInteger* a;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::DerInteger*) == 0x8);
+    public:
     // Get instance field reference: private readonly System.Int32 keySize
     int& dyn_keySize();
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerInteger p

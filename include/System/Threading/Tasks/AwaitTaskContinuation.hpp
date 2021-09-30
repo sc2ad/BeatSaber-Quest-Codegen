@@ -54,6 +54,11 @@ namespace System::Threading::Tasks {
     public:
     // Nested type: System::Threading::Tasks::AwaitTaskContinuation::$$c
     class $$c;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Threading.ExecutionContext m_capturedContext
     // Size: 0x8
     // Offset: 0x10
@@ -66,6 +71,7 @@ namespace System::Threading::Tasks {
     System::Action* m_action;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Threading::IThreadPoolWorkItem
     operator System::Threading::IThreadPoolWorkItem() noexcept {
       return *reinterpret_cast<System::Threading::IThreadPoolWorkItem*>(this);

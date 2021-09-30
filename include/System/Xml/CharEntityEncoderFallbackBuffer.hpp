@@ -27,6 +27,11 @@ namespace System::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   class CharEntityEncoderFallbackBuffer : public System::Text::EncoderFallbackBuffer {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Xml.CharEntityEncoderFallback parent
     // Size: 0x8
     // Offset: 0x30
@@ -45,6 +50,7 @@ namespace System::Xml {
     int charEntityIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: private System.Xml.CharEntityEncoderFallback parent
     System::Xml::CharEntityEncoderFallback*& dyn_parent();
     // Get instance field reference: private System.String charEntity

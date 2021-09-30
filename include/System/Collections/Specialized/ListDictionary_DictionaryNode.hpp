@@ -20,6 +20,11 @@ namespace System::Collections::Specialized {
   // [TokenAttribute] Offset: FFFFFFFF
   class ListDictionary::DictionaryNode : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Object key
     // Size: 0x8
     // Offset: 0x10
@@ -38,6 +43,7 @@ namespace System::Collections::Specialized {
     System::Collections::Specialized::ListDictionary::DictionaryNode* next;
     // Field size check
     static_assert(sizeof(System::Collections::Specialized::ListDictionary::DictionaryNode*) == 0x8);
+    public:
     // Get instance field reference: public System.Object key
     ::Il2CppObject*& dyn_key();
     // Get instance field reference: public System.Object value

@@ -51,12 +51,18 @@ namespace System::Reflection {
     public:
     // Nested type: System::Reflection::EventInfo::AddEventAdapter
     class AddEventAdapter;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Reflection.EventInfo/System.Reflection.AddEventAdapter cached_add_event
     // Size: 0x8
     // Offset: 0x10
     System::Reflection::EventInfo::AddEventAdapter* cached_add_event;
     // Field size check
     static_assert(sizeof(System::Reflection::EventInfo::AddEventAdapter*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Runtime::InteropServices::_EventInfo
     operator System::Runtime::InteropServices::_EventInfo() noexcept {
       return *reinterpret_cast<System::Runtime::InteropServices::_EventInfo*>(this);

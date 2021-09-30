@@ -15,12 +15,18 @@ namespace System::Runtime::InteropServices {
   // [ComVisibleAttribute] Offset: E60C94
   class ErrorWrapper : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 m_ErrorCode
     // Size: 0x4
     // Offset: 0x10
     int m_ErrorCode;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return m_ErrorCode;

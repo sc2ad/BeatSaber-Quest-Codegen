@@ -51,6 +51,11 @@ namespace System::Threading {
     class TaskNode;
     // Nested type: System::Threading::SemaphoreSlim::$WaitUntilCountOrTimeoutAsync$d__31
     struct $WaitUntilCountOrTimeoutAsync$d__31;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 m_currentCount
     // Size: 0x4
     // Offset: 0x10
@@ -95,6 +100,7 @@ namespace System::Threading {
     System::Threading::SemaphoreSlim::TaskNode* m_asyncTail;
     // Field size check
     static_assert(sizeof(System::Threading::SemaphoreSlim::TaskNode*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

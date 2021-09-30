@@ -58,6 +58,11 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   // [TokenAttribute] Offset: FFFFFFFF
   struct ProvideHandle/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 m_Version
     // Size: 0x4
     // Offset: 0x0
@@ -78,6 +83,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     UnityEngine::ResourceManagement::ResourceManager* m_ResourceManager;
     // Field size check
     static_assert(sizeof(UnityEngine::ResourceManagement::ResourceManager*) == 0x8);
+    public:
     // Creating value type constructor for type: ProvideHandle
     constexpr ProvideHandle(int m_Version_ = {}, UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation* m_InternalOp_ = {}, UnityEngine::ResourceManagement::ResourceManager* m_ResourceManager_ = {}) noexcept : m_Version{m_Version_}, m_InternalOp{m_InternalOp_}, m_ResourceManager{m_ResourceManager_} {}
     // Creating interface conversion operator: operator System::ValueType

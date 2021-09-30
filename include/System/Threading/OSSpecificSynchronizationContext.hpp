@@ -48,12 +48,18 @@ namespace System::Threading {
     class InvocationContext;
     // Nested type: System::Threading::OSSpecificSynchronizationContext::$$c
     class $$c;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Object m_OSSynchronizationContext
     // Size: 0x8
     // Offset: 0x18
     ::Il2CppObject* m_OSSynchronizationContext;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::Threading::SynchronizationContextProperties
     constexpr operator System::Threading::SynchronizationContextProperties() const noexcept = delete;
     // Get static field: static private readonly System.Runtime.CompilerServices.ConditionalWeakTable`2<System.Object,System.Threading.OSSpecificSynchronizationContext> s_ContextCache

@@ -51,6 +51,11 @@ namespace UnityEngine::EventSystems {
   // [AddComponentMenu] Offset: EA887C
   class EventSystem : public UnityEngine::EventSystems::UIBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseInputModule> m_SystemInputModules
     // Size: 0x8
     // Offset: 0x18
@@ -110,6 +115,7 @@ namespace UnityEngine::EventSystems {
     UnityEngine::EventSystems::BaseEventData* m_DummyData;
     // Field size check
     static_assert(sizeof(UnityEngine::EventSystems::BaseEventData*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static private System.Collections.Generic.List`1<UnityEngine.EventSystems.EventSystem> m_EventSystems

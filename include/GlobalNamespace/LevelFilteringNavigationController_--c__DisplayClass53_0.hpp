@@ -28,12 +28,18 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class LevelFilteringNavigationController::$$c__DisplayClass53_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public IBeatmapLevelPack levelPack
     // Size: 0x8
     // Offset: 0x10
     GlobalNamespace::IBeatmapLevelPack* levelPack;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IBeatmapLevelPack*) == 0x8);
+    public:
     // Creating conversion operator: operator GlobalNamespace::IBeatmapLevelPack*
     constexpr operator GlobalNamespace::IBeatmapLevelPack*() const noexcept {
       return levelPack;

@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: MasterServer
@@ -50,24 +51,30 @@ namespace MasterServer {
     public:
     // Nested type: MasterServer::ServerCertificateRequest::$get_certificateList$d__5
     class $get_certificateList$d__5;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly ByteArrayNetSerializable[] _certificateList
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<GlobalNamespace::ByteArrayNetSerializable*> certificateList;
+    ::ArrayW<GlobalNamespace::ByteArrayNetSerializable*> certificateList;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::ByteArrayNetSerializable*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::ByteArrayNetSerializable*>) == 0x8);
     // private System.Int32 _certificateCount
     // Size: 0x4
     // Offset: 0x20
     int certificateCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating interface conversion operator: operator MasterServer::IHandshakeServerToClientMessage
     operator MasterServer::IHandshakeServerToClientMessage() noexcept {
       return *reinterpret_cast<MasterServer::IHandshakeServerToClientMessage*>(this);
     }
     // Get instance field reference: private readonly ByteArrayNetSerializable[] _certificateList
-    ::ArrayWrapper<GlobalNamespace::ByteArrayNetSerializable*>& dyn__certificateList();
+    ::ArrayW<GlobalNamespace::ByteArrayNetSerializable*>& dyn__certificateList();
     // Get instance field reference: private System.Int32 _certificateCount
     int& dyn__certificateCount();
     // static public PacketPool`1<MasterServer.ServerCertificateRequest> get_pool()
@@ -75,10 +82,10 @@ namespace MasterServer {
     static GlobalNamespace::PacketPool_1<MasterServer::ServerCertificateRequest*>* get_pool();
     // public System.Collections.Generic.IEnumerable`1<System.Byte[]> get_certificateList()
     // Offset: 0x12D81BC
-    System::Collections::Generic::IEnumerable_1<::ArrayWrapper<uint8_t>>* get_certificateList();
+    System::Collections::Generic::IEnumerable_1<::ArrayW<uint8_t>>* get_certificateList();
     // public MasterServer.ServerCertificateRequest Init(System.Collections.Generic.IEnumerable`1<System.Byte[]> certificateList)
     // Offset: 0x12E3D0C
-    MasterServer::ServerCertificateRequest* Init(System::Collections::Generic::IEnumerable_1<::ArrayWrapper<uint8_t>>* certificateList);
+    MasterServer::ServerCertificateRequest* Init(System::Collections::Generic::IEnumerable_1<::ArrayW<uint8_t>>* certificateList);
     // public System.Void .ctor()
     // Offset: 0x12E4310
     // Implemented from: BaseMasterServerReliableResponse
@@ -122,7 +129,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: MasterServer::ServerCertificateRequest::get_certificateList
 // Il2CppName: get_certificateList
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<::ArrayWrapper<uint8_t>>* (MasterServer::ServerCertificateRequest::*)()>(&MasterServer::ServerCertificateRequest::get_certificateList)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::Generic::IEnumerable_1<::ArrayW<uint8_t>>* (MasterServer::ServerCertificateRequest::*)()>(&MasterServer::ServerCertificateRequest::get_certificateList)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(MasterServer::ServerCertificateRequest*), "get_certificateList", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -130,7 +137,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: MasterServer::ServerCertificateRequest::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::ServerCertificateRequest* (MasterServer::ServerCertificateRequest::*)(System::Collections::Generic::IEnumerable_1<::ArrayWrapper<uint8_t>>*)>(&MasterServer::ServerCertificateRequest::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::ServerCertificateRequest* (MasterServer::ServerCertificateRequest::*)(System::Collections::Generic::IEnumerable_1<::ArrayW<uint8_t>>*)>(&MasterServer::ServerCertificateRequest::Init)> {
   static const MethodInfo* get() {
     static auto* certificateList = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IEnumerable`1"), ::std::vector<const Il2CppClass*>{il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)})->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MasterServer::ServerCertificateRequest*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{certificateList});

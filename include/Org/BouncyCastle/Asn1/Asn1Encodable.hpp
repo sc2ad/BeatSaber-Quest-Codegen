@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Asn1
@@ -33,13 +34,13 @@ namespace Org::BouncyCastle::Asn1 {
     }
     // public System.Byte[] GetEncoded()
     // Offset: 0x18DDFD0
-    ::ArrayWrapper<uint8_t> GetEncoded();
+    ::ArrayW<uint8_t> GetEncoded();
     // public System.Byte[] GetEncoded(System.String encoding)
     // Offset: 0x18DE090
-    ::ArrayWrapper<uint8_t> GetEncoded(::Il2CppString* encoding);
+    ::ArrayW<uint8_t> GetEncoded(::Il2CppString* encoding);
     // public System.Byte[] GetDerEncoded()
     // Offset: 0x18DE188
-    ::ArrayWrapper<uint8_t> GetDerEncoded();
+    ::ArrayW<uint8_t> GetDerEncoded();
     // public Org.BouncyCastle.Asn1.Asn1Object ToAsn1Object()
     // Offset: 0xFFFFFFFF
     Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
@@ -70,7 +71,7 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::Asn1Encodable*, "Org.BouncyCastl
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1Encodable::GetEncoded
 // Il2CppName: GetEncoded
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Asn1::Asn1Encodable::*)()>(&Org::BouncyCastle::Asn1::Asn1Encodable::GetEncoded)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Org::BouncyCastle::Asn1::Asn1Encodable::*)()>(&Org::BouncyCastle::Asn1::Asn1Encodable::GetEncoded)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1Encodable*), "GetEncoded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -78,7 +79,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1Encodable::GetEncoded
 // Il2CppName: GetEncoded
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Asn1::Asn1Encodable::*)(::Il2CppString*)>(&Org::BouncyCastle::Asn1::Asn1Encodable::GetEncoded)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Org::BouncyCastle::Asn1::Asn1Encodable::*)(::Il2CppString*)>(&Org::BouncyCastle::Asn1::Asn1Encodable::GetEncoded)> {
   static const MethodInfo* get() {
     static auto* encoding = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1Encodable*), "GetEncoded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{encoding});
@@ -87,7 +88,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1Encodable::GetDerEncoded
 // Il2CppName: GetDerEncoded
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Asn1::Asn1Encodable::*)()>(&Org::BouncyCastle::Asn1::Asn1Encodable::GetDerEncoded)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Org::BouncyCastle::Asn1::Asn1Encodable::*)()>(&Org::BouncyCastle::Asn1::Asn1Encodable::GetDerEncoded)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1Encodable*), "GetDerEncoded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

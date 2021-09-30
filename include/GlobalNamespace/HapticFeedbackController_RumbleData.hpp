@@ -20,6 +20,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class HapticFeedbackController::RumbleData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Boolean active
     // Size: 0x1
     // Offset: 0x10
@@ -52,6 +57,7 @@ namespace GlobalNamespace {
     float frequency;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: public System.Boolean active
     bool& dyn_active();
     // Get instance field reference: public System.Boolean continuous

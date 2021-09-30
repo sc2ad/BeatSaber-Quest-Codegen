@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: System.Net
 namespace System::Net {
@@ -29,6 +30,11 @@ namespace System::Net {
     // [TokenAttribute] Offset: FFFFFFFF
     struct RecognizedAttribute/*, public System::ValueType*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // private System.String m_name
       // Size: 0x8
       // Offset: 0x0
@@ -41,6 +47,7 @@ namespace System::Net {
       System::Net::CookieToken m_token;
       // Field size check
       static_assert(sizeof(System::Net::CookieToken) == 0x4);
+      public:
       // Creating value type constructor for type: RecognizedAttribute
       constexpr RecognizedAttribute(::Il2CppString* m_name_ = {}, System::Net::CookieToken m_token_ = {}) noexcept : m_name{m_name_}, m_token{m_token_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -64,6 +71,11 @@ namespace System::Net {
     #pragma pack(pop)
     static check_size<sizeof(CookieTokenizer::RecognizedAttribute), 8 + sizeof(System::Net::CookieToken)> __System_Net_CookieTokenizer_RecognizedAttributeSizeCheck;
     static_assert(sizeof(CookieTokenizer::RecognizedAttribute) == 0xC);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean m_eofCookie
     // Size: 0x1
     // Offset: 0x10
@@ -130,14 +142,15 @@ namespace System::Net {
     ::Il2CppString* m_value;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get static field: static private System.Net.CookieTokenizer/System.Net.RecognizedAttribute[] RecognizedAttributes
-    static ::ArrayWrapper<System::Net::CookieTokenizer::RecognizedAttribute> _get_RecognizedAttributes();
+    static ::ArrayW<System::Net::CookieTokenizer::RecognizedAttribute> _get_RecognizedAttributes();
     // Set static field: static private System.Net.CookieTokenizer/System.Net.RecognizedAttribute[] RecognizedAttributes
-    static void _set_RecognizedAttributes(::ArrayWrapper<System::Net::CookieTokenizer::RecognizedAttribute> value);
+    static void _set_RecognizedAttributes(::ArrayW<System::Net::CookieTokenizer::RecognizedAttribute> value);
     // Get static field: static private System.Net.CookieTokenizer/System.Net.RecognizedAttribute[] RecognizedServerAttributes
-    static ::ArrayWrapper<System::Net::CookieTokenizer::RecognizedAttribute> _get_RecognizedServerAttributes();
+    static ::ArrayW<System::Net::CookieTokenizer::RecognizedAttribute> _get_RecognizedServerAttributes();
     // Set static field: static private System.Net.CookieTokenizer/System.Net.RecognizedAttribute[] RecognizedServerAttributes
-    static void _set_RecognizedServerAttributes(::ArrayWrapper<System::Net::CookieTokenizer::RecognizedAttribute> value);
+    static void _set_RecognizedServerAttributes(::ArrayW<System::Net::CookieTokenizer::RecognizedAttribute> value);
     // Get instance field reference: private System.Boolean m_eofCookie
     bool& dyn_m_eofCookie();
     // Get instance field reference: private System.Int32 m_index

@@ -29,6 +29,11 @@ namespace System::Text {
   // [TokenAttribute] Offset: FFFFFFFF
   class Encoding::EncodingByteBuffer : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Byte* bytes
     // Size: 0x8
     // Offset: 0x10
@@ -91,6 +96,7 @@ namespace System::Text {
     System::Text::EncoderFallbackBuffer* fallbackBuffer;
     // Field size check
     static_assert(sizeof(System::Text::EncoderFallbackBuffer*) == 0x8);
+    public:
     // Get instance field reference: private System.Byte* bytes
     uint8_t*& dyn_bytes();
     // Get instance field reference: private System.Byte* byteStart

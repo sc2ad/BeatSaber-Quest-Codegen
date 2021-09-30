@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -47,10 +48,10 @@ namespace UnityEngine::UI {
     }
     // public System.Int32 Invoke(UnityEngine.Ray r, UnityEngine.RaycastHit[] results, System.Single f, System.Int32 i)
     // Offset: 0x1B52200
-    int Invoke(UnityEngine::Ray r, ::ArrayWrapper<UnityEngine::RaycastHit> results, float f, int i);
+    int Invoke(UnityEngine::Ray r, ::ArrayW<UnityEngine::RaycastHit> results, float f, int i);
     // public System.IAsyncResult BeginInvoke(UnityEngine.Ray r, UnityEngine.RaycastHit[] results, System.Single f, System.Int32 i, System.AsyncCallback callback, System.Object object)
     // Offset: 0x1B52578
-    System::IAsyncResult* BeginInvoke(UnityEngine::Ray r, ::ArrayWrapper<UnityEngine::RaycastHit> results, float f, int i, System::AsyncCallback* callback, ::Il2CppObject* object);
+    System::IAsyncResult* BeginInvoke(UnityEngine::Ray r, ::ArrayW<UnityEngine::RaycastHit> results, float f, int i, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Int32 EndInvoke(System.IAsyncResult result)
     // Offset: 0x1B52650
     int EndInvoke(System::IAsyncResult* result);
@@ -66,7 +67,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::ReflectionMethodsCache::GetRaycastNonAll
 // Writing MetadataGetter for method: UnityEngine::UI::ReflectionMethodsCache::GetRaycastNonAllocCallback::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::UI::ReflectionMethodsCache::GetRaycastNonAllocCallback::*)(UnityEngine::Ray, ::ArrayWrapper<UnityEngine::RaycastHit>, float, int)>(&UnityEngine::UI::ReflectionMethodsCache::GetRaycastNonAllocCallback::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::UI::ReflectionMethodsCache::GetRaycastNonAllocCallback::*)(UnityEngine::Ray, ::ArrayW<UnityEngine::RaycastHit>, float, int)>(&UnityEngine::UI::ReflectionMethodsCache::GetRaycastNonAllocCallback::Invoke)> {
   static const MethodInfo* get() {
     static auto* r = &::il2cpp_utils::GetClassFromName("UnityEngine", "Ray")->byval_arg;
     static auto* results = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "RaycastHit"), 1)->byval_arg;
@@ -78,7 +79,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Writing MetadataGetter for method: UnityEngine::UI::ReflectionMethodsCache::GetRaycastNonAllocCallback::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (UnityEngine::UI::ReflectionMethodsCache::GetRaycastNonAllocCallback::*)(UnityEngine::Ray, ::ArrayWrapper<UnityEngine::RaycastHit>, float, int, System::AsyncCallback*, ::Il2CppObject*)>(&UnityEngine::UI::ReflectionMethodsCache::GetRaycastNonAllocCallback::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (UnityEngine::UI::ReflectionMethodsCache::GetRaycastNonAllocCallback::*)(UnityEngine::Ray, ::ArrayW<UnityEngine::RaycastHit>, float, int, System::AsyncCallback*, ::Il2CppObject*)>(&UnityEngine::UI::ReflectionMethodsCache::GetRaycastNonAllocCallback::BeginInvoke)> {
   static const MethodInfo* get() {
     static auto* r = &::il2cpp_utils::GetClassFromName("UnityEngine", "Ray")->byval_arg;
     static auto* results = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "RaycastHit"), 1)->byval_arg;

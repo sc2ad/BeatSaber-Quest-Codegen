@@ -7,6 +7,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: AuthenticationToken
 #include "GlobalNamespace/AuthenticationToken.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -17,13 +18,13 @@ namespace GlobalNamespace {
   class NetworkUtility : public ::Il2CppObject {
     public:
     // Get static field: static private System.Byte[] _nameEncryptionKey
-    static ::ArrayWrapper<uint8_t> _get__nameEncryptionKey();
+    static ::ArrayW<uint8_t> _get__nameEncryptionKey();
     // Set static field: static private System.Byte[] _nameEncryptionKey
-    static void _set__nameEncryptionKey(::ArrayWrapper<uint8_t> value);
+    static void _set__nameEncryptionKey(::ArrayW<uint8_t> value);
     // Get static field: static private System.Byte[] _nameEncryptionIv
-    static ::ArrayWrapper<uint8_t> _get__nameEncryptionIv();
+    static ::ArrayW<uint8_t> _get__nameEncryptionIv();
     // Set static field: static private System.Byte[] _nameEncryptionIv
-    static void _set__nameEncryptionIv(::ArrayWrapper<uint8_t> value);
+    static void _set__nameEncryptionIv(::ArrayW<uint8_t> value);
     // static private System.Void .cctor()
     // Offset: 0x18CE074
     static void _cctor();

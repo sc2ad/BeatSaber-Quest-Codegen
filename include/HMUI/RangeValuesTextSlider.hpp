@@ -37,6 +37,11 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class RangeValuesTextSlider : public HMUI::TextSlider {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Single _minValue
     // Size: 0x4
     // Offset: 0x13C
@@ -75,6 +80,7 @@ namespace HMUI {
     HMUI::ButtonBinder* buttonBinder;
     // Field size check
     static_assert(sizeof(HMUI::ButtonBinder*) == 0x8);
+    public:
     // Get instance field reference: private System.Single _minValue
     float& dyn__minValue();
     // Get instance field reference: private System.Single _maxValue

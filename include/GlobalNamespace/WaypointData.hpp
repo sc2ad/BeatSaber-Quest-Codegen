@@ -31,6 +31,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class WaypointData : public GlobalNamespace::BeatmapObjectData {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private OffsetDirection <offsetDirection>k__BackingField
     // Size: 0x4
     // Offset: 0x18
@@ -43,6 +48,7 @@ namespace GlobalNamespace {
     GlobalNamespace::NoteLineLayer noteLineLayer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::NoteLineLayer) == 0x4);
+    public:
     // Get instance field reference: private OffsetDirection <offsetDirection>k__BackingField
     GlobalNamespace::OffsetDirection& dyn_$offsetDirection$k__BackingField();
     // Get instance field reference: private NoteLineLayer <noteLineLayer>k__BackingField

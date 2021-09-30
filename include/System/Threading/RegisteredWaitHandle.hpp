@@ -34,6 +34,11 @@ namespace System::Threading {
   // [ComVisibleAttribute] Offset: E5EBC8
   class RegisteredWaitHandle : public System::MarshalByRefObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Threading.WaitHandle _waitObject
     // Size: 0x8
     // Offset: 0x18
@@ -88,6 +93,7 @@ namespace System::Threading {
     bool unregistered;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Deleting conversion operator: operator ::Il2CppObject*
     constexpr operator ::Il2CppObject*() const noexcept = delete;
     // Get instance field reference: private System.Threading.WaitHandle _waitObject

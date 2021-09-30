@@ -17,6 +17,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -140,12 +141,18 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct NetworkMode/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: NetworkMode
       constexpr NetworkMode(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -186,12 +193,18 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct ConnectionState/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: ConnectionState
       constexpr ConnectionState(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -232,12 +245,17 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(LiteNetLibConnectionManager::ConnectionState), 0 + sizeof(int)> __GlobalNamespace_LiteNetLibConnectionManager_ConnectionStateSizeCheck;
     static_assert(sizeof(LiteNetLibConnectionManager::ConnectionState) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Byte[] _unconnectedPacketHeader
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<uint8_t> unconnectedPacketHeader;
+    ::ArrayW<uint8_t> unconnectedPacketHeader;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private readonly LiteNetLib.NetManager _netManager
     // Size: 0x8
     // Offset: 0x18
@@ -396,6 +414,7 @@ namespace GlobalNamespace {
     GlobalNamespace::LiteNetLibConnectionManager::StatisticsUpdated* onStatisticsUpdatedEvent;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LiteNetLibConnectionManager::StatisticsUpdated*) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IConnectionManager
     operator GlobalNamespace::IConnectionManager() noexcept {
       return *reinterpret_cast<GlobalNamespace::IConnectionManager*>(this);
@@ -427,7 +446,7 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int64 kStatisticsUpdateInterval
     static void _set_kStatisticsUpdateInterval(int64_t value);
     // Get instance field reference: private readonly System.Byte[] _unconnectedPacketHeader
-    ::ArrayWrapper<uint8_t>& dyn__unconnectedPacketHeader();
+    ::ArrayW<uint8_t>& dyn__unconnectedPacketHeader();
     // Get instance field reference: private readonly LiteNetLib.NetManager _netManager
     LiteNetLib::NetManager*& dyn__netManager();
     // Get instance field reference: private readonly PacketEncryptionLayer _encryptionLayer
@@ -521,7 +540,7 @@ namespace GlobalNamespace {
     int get_port();
     // public System.Byte[] get_unconnectedPacketHeader()
     // Offset: 0x145BA74
-    ::ArrayWrapper<uint8_t> get_unconnectedPacketHeader();
+    ::ArrayW<uint8_t> get_unconnectedPacketHeader();
     // public PacketEncryptionLayer get_encryptionLayer()
     // Offset: 0x145BA7C
     GlobalNamespace::PacketEncryptionLayer* get_encryptionLayer();
@@ -845,7 +864,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Writing MetadataGetter for method: GlobalNamespace::LiteNetLibConnectionManager::get_unconnectedPacketHeader
 // Il2CppName: get_unconnectedPacketHeader
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (GlobalNamespace::LiteNetLibConnectionManager::*)()>(&GlobalNamespace::LiteNetLibConnectionManager::get_unconnectedPacketHeader)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (GlobalNamespace::LiteNetLibConnectionManager::*)()>(&GlobalNamespace::LiteNetLibConnectionManager::get_unconnectedPacketHeader)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::LiteNetLibConnectionManager*), "get_unconnectedPacketHeader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

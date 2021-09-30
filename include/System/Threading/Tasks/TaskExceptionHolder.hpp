@@ -53,6 +53,11 @@ namespace System::Threading::Tasks {
   // [TokenAttribute] Offset: FFFFFFFF
   class TaskExceptionHolder : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Threading.Tasks.Task m_task
     // Size: 0x8
     // Offset: 0x10
@@ -77,6 +82,7 @@ namespace System::Threading::Tasks {
     bool m_isHandled;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get static field: static private readonly System.Boolean s_failFastOnUnobservedException
     static bool _get_s_failFastOnUnobservedException();
     // Set static field: static private readonly System.Boolean s_failFastOnUnobservedException

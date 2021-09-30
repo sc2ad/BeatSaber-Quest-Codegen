@@ -16,6 +16,11 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   struct RangeInt/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 start
     // Size: 0x4
     // Offset: 0x0
@@ -28,6 +33,7 @@ namespace UnityEngine {
     int length;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: RangeInt
     constexpr RangeInt(int start_ = {}, int length_ = {}) noexcept : start{start_}, length{length_} {}
     // Creating interface conversion operator: operator System::ValueType

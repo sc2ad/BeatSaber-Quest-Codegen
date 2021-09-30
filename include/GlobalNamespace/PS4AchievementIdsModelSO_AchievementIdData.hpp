@@ -27,6 +27,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PS4AchievementIdsModelSO::AchievementIdData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 _trophyId
     // Size: 0x4
     // Offset: 0x10
@@ -41,6 +46,7 @@ namespace GlobalNamespace {
     GlobalNamespace::AchievementSO* achievement;
     // Field size check
     static_assert(sizeof(GlobalNamespace::AchievementSO*) == 0x8);
+    public:
     // Get instance field reference: private System.Int32 _trophyId
     int& dyn__trophyId();
     // Get instance field reference: private AchievementSO _achievement

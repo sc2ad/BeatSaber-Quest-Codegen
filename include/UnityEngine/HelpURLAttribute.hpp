@@ -22,12 +22,18 @@ namespace UnityEngine {
   // [UsedByNativeCodeAttribute] Offset: E72508
   class HelpURLAttribute : public System::Attribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // readonly System.String m_Url
     // Size: 0x8
     // Offset: 0x10
     ::Il2CppString* m_Url;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return m_Url;

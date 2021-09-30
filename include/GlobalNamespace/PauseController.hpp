@@ -49,6 +49,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::PauseController::$$c__DisplayClass20_0
     class $$c__DisplayClass20_0;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xF07C60
     // private readonly PauseMenuManager _pauseMenuManager
     // Size: 0x8
@@ -128,6 +133,7 @@ namespace GlobalNamespace {
     bool paused;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private readonly PauseMenuManager _pauseMenuManager

@@ -20,6 +20,11 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class InteractionObject::Multiplier : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [TooltipAttribute] Offset: 0xEF6948
     // public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.WeightCurve/RootMotion.FinalIK.Type curve
     // Size: 0x4
@@ -41,6 +46,7 @@ namespace RootMotion::FinalIK {
     RootMotion::FinalIK::InteractionObject::WeightCurve::Type result;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::InteractionObject::WeightCurve::Type) == 0x4);
+    public:
     // Get instance field reference: public RootMotion.FinalIK.InteractionObject/RootMotion.FinalIK.WeightCurve/RootMotion.FinalIK.Type curve
     RootMotion::FinalIK::InteractionObject::WeightCurve::Type& dyn_curve();
     // Get instance field reference: public System.Single multiplier

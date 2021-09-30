@@ -29,6 +29,11 @@ namespace UnityEngine::Experimental::GlobalIllumination {
   // [TokenAttribute] Offset: FFFFFFFF
   struct SpotLight/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 instanceID
     // Size: 0x4
     // Offset: 0x0
@@ -109,6 +114,7 @@ namespace UnityEngine::Experimental::GlobalIllumination {
     UnityEngine::Experimental::GlobalIllumination::AngularFalloffType angularFalloff;
     // Field size check
     static_assert(sizeof(UnityEngine::Experimental::GlobalIllumination::AngularFalloffType) == 0x1);
+    public:
     // Creating value type constructor for type: SpotLight
     constexpr SpotLight(int instanceID_ = {}, bool shadow_ = {}, UnityEngine::Experimental::GlobalIllumination::LightMode mode_ = {}, UnityEngine::Vector3 position_ = {}, UnityEngine::Quaternion orientation_ = {}, UnityEngine::Experimental::GlobalIllumination::LinearColor color_ = {}, UnityEngine::Experimental::GlobalIllumination::LinearColor indirectColor_ = {}, float range_ = {}, float sphereRadius_ = {}, float coneAngle_ = {}, float innerConeAngle_ = {}, UnityEngine::Experimental::GlobalIllumination::FalloffType falloff_ = {}, UnityEngine::Experimental::GlobalIllumination::AngularFalloffType angularFalloff_ = {}) noexcept : instanceID{instanceID_}, shadow{shadow_}, mode{mode_}, position{position_}, orientation{orientation_}, color{color_}, indirectColor{indirectColor_}, range{range_}, sphereRadius{sphereRadius_}, coneAngle{coneAngle_}, innerConeAngle{innerConeAngle_}, falloff{falloff_}, angularFalloff{angularFalloff_} {}
     // Creating interface conversion operator: operator System::ValueType

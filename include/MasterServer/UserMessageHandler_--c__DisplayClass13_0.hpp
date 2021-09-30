@@ -55,6 +55,11 @@ namespace MasterServer {
     public:
     // Nested type: MasterServer::UserMessageHandler::$$c__DisplayClass13_0::$$GetPublicServers$b__0$d
     struct $$GetPublicServers$b__0$d;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public MasterServer.UserMessageHandler <>4__this
     // Size: 0x8
     // Offset: 0x10
@@ -115,6 +120,7 @@ namespace MasterServer {
     System::Action_1<GlobalNamespace::ConnectionFailedReason>* onFailure;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::ConnectionFailedReason>*) == 0x8);
+    public:
     // Get instance field reference: public MasterServer.UserMessageHandler <>4__this
     MasterServer::UserMessageHandler*& dyn_$$4__this();
     // Get instance field reference: public System.String userId

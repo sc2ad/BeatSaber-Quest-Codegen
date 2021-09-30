@@ -20,6 +20,11 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class MatchmakingStats : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly System.UInt32 DrawCount
     // Size: 0x4
     // Offset: 0x10
@@ -58,6 +63,7 @@ namespace Oculus::Platform::Models {
     uint WinCount;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
+    public:
     // Get instance field reference: public readonly System.UInt32 DrawCount
     uint& dyn_DrawCount();
     // Get instance field reference: public readonly System.UInt32 LossCount

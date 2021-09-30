@@ -20,6 +20,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SelectMultiplayerLobbyDestination : public GlobalNamespace::MenuDestination {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly System.String lobbySecret
     // Size: 0x8
     // Offset: 0x10
@@ -32,6 +37,7 @@ namespace GlobalNamespace {
     ::Il2CppString* lobbyCode;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: public readonly System.String lobbySecret
     ::Il2CppString*& dyn_lobbySecret();
     // Get instance field reference: public readonly System.String lobbyCode

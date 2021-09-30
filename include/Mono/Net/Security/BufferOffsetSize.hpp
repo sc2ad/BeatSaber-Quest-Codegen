@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: Mono.Net.Security
 namespace Mono::Net::Security {
@@ -18,12 +19,17 @@ namespace Mono::Net::Security {
   // [TokenAttribute] Offset: FFFFFFFF
   class BufferOffsetSize : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Byte[] Buffer
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<uint8_t> Buffer;
+    ::ArrayW<uint8_t> Buffer;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // public System.Int32 Offset
     // Size: 0x4
     // Offset: 0x18
@@ -48,8 +54,9 @@ namespace Mono::Net::Security {
     bool Complete;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: public System.Byte[] Buffer
-    ::ArrayWrapper<uint8_t>& dyn_Buffer();
+    ::ArrayW<uint8_t>& dyn_Buffer();
     // Get instance field reference: public System.Int32 Offset
     int& dyn_Offset();
     // Get instance field reference: public System.Int32 Size
@@ -67,7 +74,7 @@ namespace Mono::Net::Security {
     // public System.Void .ctor(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
     // Offset: 0x17BBABC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static BufferOffsetSize* New_ctor(::ArrayWrapper<uint8_t> buffer, int offset, int size) {
+    static BufferOffsetSize* New_ctor(::ArrayW<uint8_t> buffer, int offset, int size) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Net::Security::BufferOffsetSize::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BufferOffsetSize*, creationType>(buffer, offset, size)));
     }

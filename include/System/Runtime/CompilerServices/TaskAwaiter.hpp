@@ -30,12 +30,18 @@ namespace System::Runtime::CompilerServices {
   // [TokenAttribute] Offset: FFFFFFFF
   struct TaskAwaiter/*, public System::ValueType, public System::Runtime::CompilerServices::ICriticalNotifyCompletion*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Threading.Tasks.Task m_task
     // Size: 0x8
     // Offset: 0x0
     System::Threading::Tasks::Task* m_task;
     // Field size check
     static_assert(sizeof(System::Threading::Tasks::Task*) == 0x8);
+    public:
     // Creating value type constructor for type: TaskAwaiter
     constexpr TaskAwaiter(System::Threading::Tasks::Task* m_task_ = {}) noexcept : m_task{m_task_} {}
     // Creating interface conversion operator: operator System::ValueType

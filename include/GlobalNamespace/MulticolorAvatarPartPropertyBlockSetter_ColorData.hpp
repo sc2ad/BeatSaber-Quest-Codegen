@@ -22,6 +22,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MulticolorAvatarPartPropertyBlockSetter::ColorData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Color _defaultColor
     // Size: 0x10
     // Offset: 0x10
@@ -40,6 +45,7 @@ namespace GlobalNamespace {
     float whiteBoost;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: private UnityEngine.Color _defaultColor
     UnityEngine::Color& dyn__defaultColor();
     // Get instance field reference: private System.Single _darkerColorMultiplier

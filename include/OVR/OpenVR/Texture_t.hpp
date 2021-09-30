@@ -23,6 +23,11 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Texture_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.IntPtr handle
     // Size: 0x8
     // Offset: 0x0
@@ -41,6 +46,7 @@ namespace OVR::OpenVR {
     OVR::OpenVR::EColorSpace eColorSpace;
     // Field size check
     static_assert(sizeof(OVR::OpenVR::EColorSpace) == 0x4);
+    public:
     // Creating value type constructor for type: Texture_t
     constexpr Texture_t(System::IntPtr handle_ = {}, OVR::OpenVR::ETextureType eType_ = {}, OVR::OpenVR::EColorSpace eColorSpace_ = {}) noexcept : handle{handle_}, eType{eType_}, eColorSpace{eColorSpace_} {}
     // Creating interface conversion operator: operator System::ValueType

@@ -40,12 +40,18 @@ namespace NUnit::Framework::Internal::Builders {
   // [TokenAttribute] Offset: FFFFFFFF
   class NUnitTestFixtureBuilder : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private NUnit.Framework.Interfaces.ITestCaseBuilder _testBuilder
     // Size: 0x8
     // Offset: 0x10
     NUnit::Framework::Interfaces::ITestCaseBuilder* testBuilder;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Interfaces::ITestCaseBuilder*) == 0x8);
+    public:
     // Creating conversion operator: operator NUnit::Framework::Interfaces::ITestCaseBuilder*
     constexpr operator NUnit::Framework::Interfaces::ITestCaseBuilder*() const noexcept {
       return testBuilder;

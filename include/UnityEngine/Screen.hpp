@@ -7,6 +7,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Resolution
 #include "UnityEngine/Resolution.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -46,7 +47,7 @@ namespace UnityEngine {
     static UnityEngine::FullScreenMode get_fullScreenMode();
     // static public UnityEngine.Resolution[] get_resolutions()
     // Offset: 0x1E0D910
-    static ::ArrayWrapper<UnityEngine::Resolution> get_resolutions();
+    static ::ArrayW<UnityEngine::Resolution> get_resolutions();
     // static public System.Void SetResolution(System.Int32 width, System.Int32 height, UnityEngine.FullScreenMode fullscreenMode, System.Int32 preferredRefreshRate)
     // Offset: 0x1E0D7D4
     static void SetResolution(int width, int height, UnityEngine::FullScreenMode fullscreenMode, int preferredRefreshRate);
@@ -114,7 +115,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Screen::get_resolutions
 // Il2CppName: get_resolutions
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Resolution> (*)()>(&UnityEngine::Screen::get_resolutions)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Resolution> (*)()>(&UnityEngine::Screen::get_resolutions)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Screen*), "get_resolutions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

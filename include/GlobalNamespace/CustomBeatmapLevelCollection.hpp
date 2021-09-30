@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -29,35 +30,41 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class CustomBeatmapLevelCollection : public ::Il2CppObject/*, public GlobalNamespace::IBeatmapLevelCollection*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private CustomPreviewBeatmapLevel[] _customPreviewBeatmapLevels
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<GlobalNamespace::CustomPreviewBeatmapLevel*> customPreviewBeatmapLevels;
+    ::ArrayW<GlobalNamespace::CustomPreviewBeatmapLevel*> customPreviewBeatmapLevels;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::CustomPreviewBeatmapLevel*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::CustomPreviewBeatmapLevel*>) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IBeatmapLevelCollection
     operator GlobalNamespace::IBeatmapLevelCollection() noexcept {
       return *reinterpret_cast<GlobalNamespace::IBeatmapLevelCollection*>(this);
     }
-    // Creating conversion operator: operator ::ArrayWrapper<GlobalNamespace::CustomPreviewBeatmapLevel*>
-    constexpr operator ::ArrayWrapper<GlobalNamespace::CustomPreviewBeatmapLevel*>() const noexcept {
+    // Creating conversion operator: operator ::ArrayW<GlobalNamespace::CustomPreviewBeatmapLevel*>
+    constexpr operator ::ArrayW<GlobalNamespace::CustomPreviewBeatmapLevel*>() const noexcept {
       return customPreviewBeatmapLevels;
     }
     // Get instance field reference: private CustomPreviewBeatmapLevel[] _customPreviewBeatmapLevels
-    ::ArrayWrapper<GlobalNamespace::CustomPreviewBeatmapLevel*>& dyn__customPreviewBeatmapLevels();
+    ::ArrayW<GlobalNamespace::CustomPreviewBeatmapLevel*>& dyn__customPreviewBeatmapLevels();
     // public IPreviewBeatmapLevel[] get_beatmapLevels()
     // Offset: 0x11A17AC
-    ::ArrayWrapper<GlobalNamespace::IPreviewBeatmapLevel*> get_beatmapLevels();
+    ::ArrayW<GlobalNamespace::IPreviewBeatmapLevel*> get_beatmapLevels();
     // public System.Void .ctor(CustomPreviewBeatmapLevel[] customPreviewBeatmapLevels)
     // Offset: 0x11A17B4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static CustomBeatmapLevelCollection* New_ctor(::ArrayWrapper<GlobalNamespace::CustomPreviewBeatmapLevel*> customPreviewBeatmapLevels) {
+    static CustomBeatmapLevelCollection* New_ctor(::ArrayW<GlobalNamespace::CustomPreviewBeatmapLevel*> customPreviewBeatmapLevels) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::CustomBeatmapLevelCollection::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CustomBeatmapLevelCollection*, creationType>(customPreviewBeatmapLevels)));
     }
   }; // CustomBeatmapLevelCollection
   #pragma pack(pop)
-  static check_size<sizeof(CustomBeatmapLevelCollection), 16 + sizeof(::ArrayWrapper<GlobalNamespace::CustomPreviewBeatmapLevel*>)> __GlobalNamespace_CustomBeatmapLevelCollectionSizeCheck;
+  static check_size<sizeof(CustomBeatmapLevelCollection), 16 + sizeof(::ArrayW<GlobalNamespace::CustomPreviewBeatmapLevel*>)> __GlobalNamespace_CustomBeatmapLevelCollectionSizeCheck;
   static_assert(sizeof(CustomBeatmapLevelCollection) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CustomBeatmapLevelCollection*, "", "CustomBeatmapLevelCollection");
@@ -65,7 +72,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CustomBeatmapLevelCollection*, "", "Cust
 // Writing MetadataGetter for method: GlobalNamespace::CustomBeatmapLevelCollection::get_beatmapLevels
 // Il2CppName: get_beatmapLevels
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::IPreviewBeatmapLevel*> (GlobalNamespace::CustomBeatmapLevelCollection::*)()>(&GlobalNamespace::CustomBeatmapLevelCollection::get_beatmapLevels)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<GlobalNamespace::IPreviewBeatmapLevel*> (GlobalNamespace::CustomBeatmapLevelCollection::*)()>(&GlobalNamespace::CustomBeatmapLevelCollection::get_beatmapLevels)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::CustomBeatmapLevelCollection*), "get_beatmapLevels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

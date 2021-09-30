@@ -43,6 +43,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class EnterTextViewController : public HMUI::ViewController {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private VRTextEntryController _textEntryController
     // Size: 0x8
     // Offset: 0x70
@@ -67,6 +72,7 @@ namespace GlobalNamespace {
     System::Action_2<GlobalNamespace::EnterTextViewController*, ::Il2CppString*>* didFinishEvent;
     // Field size check
     static_assert(sizeof(System::Action_2<GlobalNamespace::EnterTextViewController*, ::Il2CppString*>*) == 0x8);
+    public:
     // Get instance field reference: private VRTextEntryController _textEntryController
     GlobalNamespace::VRTextEntryController*& dyn__textEntryController();
     // Get instance field reference: private TMPro.TextMeshProUGUI _titleText

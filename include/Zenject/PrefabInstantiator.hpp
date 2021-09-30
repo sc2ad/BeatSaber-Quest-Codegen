@@ -62,6 +62,11 @@ namespace Zenject {
     public:
     // Nested type: Zenject::PrefabInstantiator::$$c__DisplayClass15_0
     class $$c__DisplayClass15_0;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Zenject.IPrefabProvider _prefabProvider
     // Size: 0x8
     // Offset: 0x10
@@ -104,6 +109,7 @@ namespace Zenject {
     System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>* instantiateCallback;
     // Field size check
     static_assert(sizeof(System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator Zenject::IPrefabInstantiator
     operator Zenject::IPrefabInstantiator() noexcept {
       return *reinterpret_cast<Zenject::IPrefabInstantiator*>(this);

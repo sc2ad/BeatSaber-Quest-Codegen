@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: RootMotion
@@ -38,6 +39,11 @@ namespace RootMotion {
     public:
     // Nested type: RootMotion::BipedReferences::AutoDetectParams
     struct AutoDetectParams;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Transform root
     // Size: 0x8
     // Offset: 0x10
@@ -131,15 +137,16 @@ namespace RootMotion {
     // public UnityEngine.Transform[] spine
     // Size: 0x8
     // Offset: 0x88
-    ::ArrayWrapper<UnityEngine::Transform*> spine;
+    ::ArrayW<UnityEngine::Transform*> spine;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Transform*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Transform*>) == 0x8);
     // public UnityEngine.Transform[] eyes
     // Size: 0x8
     // Offset: 0x90
-    ::ArrayWrapper<UnityEngine::Transform*> eyes;
+    ::ArrayW<UnityEngine::Transform*> eyes;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Transform*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Transform*>) == 0x8);
+    public:
     // Get instance field reference: public UnityEngine.Transform root
     UnityEngine::Transform*& dyn_root();
     // Get instance field reference: public UnityEngine.Transform pelvis
@@ -171,9 +178,9 @@ namespace RootMotion {
     // Get instance field reference: public UnityEngine.Transform head
     UnityEngine::Transform*& dyn_head();
     // Get instance field reference: public UnityEngine.Transform[] spine
-    ::ArrayWrapper<UnityEngine::Transform*>& dyn_spine();
+    ::ArrayW<UnityEngine::Transform*>& dyn_spine();
     // Get instance field reference: public UnityEngine.Transform[] eyes
-    ::ArrayWrapper<UnityEngine::Transform*>& dyn_eyes();
+    ::ArrayW<UnityEngine::Transform*>& dyn_eyes();
     // public System.Boolean get_isFilled()
     // Offset: 0x1EB9B4C
     bool get_isFilled();
@@ -212,10 +219,10 @@ namespace RootMotion {
     static bool AddBoneToSpine(UnityEngine::Transform* bone, ByRef<RootMotion::BipedReferences*> references, RootMotion::BipedReferences::AutoDetectParams autoDetectParams);
     // static private System.Void DetectLimb(RootMotion.BipedNaming/RootMotion.BoneType boneType, RootMotion.BipedNaming/RootMotion.BoneSide boneSide, ref UnityEngine.Transform firstBone, ref UnityEngine.Transform secondBone, ref UnityEngine.Transform lastBone, UnityEngine.Transform[] transforms)
     // Offset: 0x1EBB700
-    static void DetectLimb(RootMotion::BipedNaming::BoneType boneType, RootMotion::BipedNaming::BoneSide boneSide, ByRef<UnityEngine::Transform*> firstBone, ByRef<UnityEngine::Transform*> secondBone, ByRef<UnityEngine::Transform*> lastBone, ::ArrayWrapper<UnityEngine::Transform*> transforms);
+    static void DetectLimb(RootMotion::BipedNaming::BoneType boneType, RootMotion::BipedNaming::BoneSide boneSide, ByRef<UnityEngine::Transform*> firstBone, ByRef<UnityEngine::Transform*> secondBone, ByRef<UnityEngine::Transform*> lastBone, ::ArrayW<UnityEngine::Transform*> transforms);
     // static private System.Void AddBoneToHierarchy(ref UnityEngine.Transform[] bones, UnityEngine.Transform transform)
     // Offset: 0x1EBBAC0
-    static void AddBoneToHierarchy(ByRef<::ArrayWrapper<UnityEngine::Transform*>> bones, UnityEngine::Transform* transform);
+    static void AddBoneToHierarchy(ByRef<::ArrayW<UnityEngine::Transform*>> bones, UnityEngine::Transform* transform);
     // static private System.Boolean LimbError(UnityEngine.Transform bone1, UnityEngine.Transform bone2, UnityEngine.Transform bone3, ref System.String errorMessage)
     // Offset: 0x1EBBCB4
     static bool LimbError(UnityEngine::Transform* bone1, UnityEngine::Transform* bone2, UnityEngine::Transform* bone3, ByRef<::Il2CppString*> errorMessage);
@@ -254,7 +261,7 @@ namespace RootMotion {
     }
   }; // RootMotion.BipedReferences
   #pragma pack(pop)
-  static check_size<sizeof(BipedReferences), 144 + sizeof(::ArrayWrapper<UnityEngine::Transform*>)> __RootMotion_BipedReferencesSizeCheck;
+  static check_size<sizeof(BipedReferences), 144 + sizeof(::ArrayW<UnityEngine::Transform*>)> __RootMotion_BipedReferencesSizeCheck;
   static_assert(sizeof(BipedReferences) == 0x98);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::BipedReferences*, "RootMotion", "BipedReferences");
@@ -382,7 +389,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: RootMotion::BipedReferences::DetectLimb
 // Il2CppName: DetectLimb
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(RootMotion::BipedNaming::BoneType, RootMotion::BipedNaming::BoneSide, ByRef<UnityEngine::Transform*>, ByRef<UnityEngine::Transform*>, ByRef<UnityEngine::Transform*>, ::ArrayWrapper<UnityEngine::Transform*>)>(&RootMotion::BipedReferences::DetectLimb)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(RootMotion::BipedNaming::BoneType, RootMotion::BipedNaming::BoneSide, ByRef<UnityEngine::Transform*>, ByRef<UnityEngine::Transform*>, ByRef<UnityEngine::Transform*>, ::ArrayW<UnityEngine::Transform*>)>(&RootMotion::BipedReferences::DetectLimb)> {
   static const MethodInfo* get() {
     static auto* boneType = &::il2cpp_utils::GetClassFromName("RootMotion", "BipedNaming/BoneType")->byval_arg;
     static auto* boneSide = &::il2cpp_utils::GetClassFromName("RootMotion", "BipedNaming/BoneSide")->byval_arg;
@@ -396,7 +403,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ro
 // Writing MetadataGetter for method: RootMotion::BipedReferences::AddBoneToHierarchy
 // Il2CppName: AddBoneToHierarchy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::ArrayWrapper<UnityEngine::Transform*>>, UnityEngine::Transform*)>(&RootMotion::BipedReferences::AddBoneToHierarchy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ByRef<::ArrayW<UnityEngine::Transform*>>, UnityEngine::Transform*)>(&RootMotion::BipedReferences::AddBoneToHierarchy)> {
   static const MethodInfo* get() {
     static auto* bones = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Transform"), 1)->this_arg;
     static auto* transform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;

@@ -21,12 +21,18 @@ namespace GlobalNamespace {
   // [RequireComponent] Offset: EC8E74
   class HorizontalCameraFov : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Single _horizontalFOV
     // Size: 0x4
     // Offset: 0x18
     float horizontalFOV;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.Single _horizontalFOV

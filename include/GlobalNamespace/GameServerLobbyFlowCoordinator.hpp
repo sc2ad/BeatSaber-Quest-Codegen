@@ -127,6 +127,11 @@ namespace GlobalNamespace {
     class $$c__DisplayClass61_1;
     // Nested type: GlobalNamespace::GameServerLobbyFlowCoordinator::$$c__DisplayClass75_0
     class $$c__DisplayClass75_0;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private HMUI.ScreenModeSO _screenMode
     // Size: 0x8
     // Offset: 0xA8
@@ -357,6 +362,7 @@ namespace GlobalNamespace {
     bool rejoinQuickPlay;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // [LocalizationKeyAttribute] Offset: 0xF0DF5C
     // static field const value: static private System.String kPlayersMissingEntitlementKey
     static constexpr const char* kPlayersMissingEntitlementKey = "LABEL_PLAYERS_MISSING_ENTITLEMENT";

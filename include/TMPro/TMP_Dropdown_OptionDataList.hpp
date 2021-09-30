@@ -28,12 +28,18 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class TMP_Dropdown::OptionDataList : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.List`1<TMPro.TMP_Dropdown/TMPro.OptionData> m_Options
     // Size: 0x8
     // Offset: 0x10
     System::Collections::Generic::List_1<TMPro::TMP_Dropdown::OptionData*>* m_Options;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<TMPro::TMP_Dropdown::OptionData*>*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Collections::Generic::List_1<TMPro::TMP_Dropdown::OptionData*>*
     constexpr operator System::Collections::Generic::List_1<TMPro::TMP_Dropdown::OptionData*>*() const noexcept {
       return m_Options;

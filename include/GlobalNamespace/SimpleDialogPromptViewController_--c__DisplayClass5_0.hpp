@@ -21,6 +21,11 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class SimpleDialogPromptViewController::$$c__DisplayClass5_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 buttonNum
     // Size: 0x4
     // Offset: 0x10
@@ -35,6 +40,7 @@ namespace GlobalNamespace {
     GlobalNamespace::SimpleDialogPromptViewController* $$4__this;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SimpleDialogPromptViewController*) == 0x8);
+    public:
     // Get instance field reference: public System.Int32 buttonNum
     int& dyn_buttonNum();
     // Get instance field reference: public SimpleDialogPromptViewController <>4__this

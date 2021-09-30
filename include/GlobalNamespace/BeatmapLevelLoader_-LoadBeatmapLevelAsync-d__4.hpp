@@ -37,6 +37,11 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   struct BeatmapLevelLoader::$LoadBeatmapLevelAsync$d__4/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0
@@ -83,6 +88,7 @@ namespace GlobalNamespace {
     // Size: 0xFFFFFFFF
     // Offset: 0x50
     System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::IBeatmapLevel*> $$u__3;
+    public:
     // Creating value type constructor for type: $LoadBeatmapLevelAsync$d__4
     constexpr $LoadBeatmapLevelAsync$d__4(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<GlobalNamespace::BeatmapLevelLoader::LoadBeatmapLevelResult> $$t__builder_ = {}, GlobalNamespace::BeatmapLevelLoader* $$4__this_ = {}, GlobalNamespace::IPreviewBeatmapLevel* previewLevel_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, GlobalNamespace::IBeatmapLevel* $level$5__2_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::GetAssetBundleFileResult> $$u__1_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<bool> $$u__2_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::IBeatmapLevel*> $$u__3_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, previewLevel{previewLevel_}, cancellationToken{cancellationToken_}, $level$5__2{$level$5__2_}, $$u__1{$$u__1_}, $$u__2{$$u__2_}, $$u__3{$$u__3_} {}
     // Creating interface conversion operator: operator System::ValueType

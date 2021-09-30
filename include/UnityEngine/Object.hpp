@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -45,12 +46,18 @@ namespace UnityEngine {
   // [RequiredByNativeCodeAttribute] Offset: E72B98
   class Object : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.IntPtr m_CachedPtr
     // Size: 0x8
     // Offset: 0x10
     System::IntPtr m_CachedPtr;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
+    public:
     // Creating conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept {
       return m_CachedPtr;
@@ -176,19 +183,19 @@ namespace UnityEngine {
     static void DestroyImmediate(UnityEngine::Object* obj);
     // static public UnityEngine.Object[] FindObjectsOfType(System.Type type)
     // Offset: 0x1DB1C84
-    static ::ArrayWrapper<UnityEngine::Object*> FindObjectsOfType(System::Type* type);
+    static ::ArrayW<UnityEngine::Object*> FindObjectsOfType(System::Type* type);
     // static public System.Void DontDestroyOnLoad(UnityEngine.Object target)
     // Offset: 0x1DB1CC4
     static void DontDestroyOnLoad(UnityEngine::Object* target);
     // static public T[] FindObjectsOfType()
     // Offset: 0xFFFFFFFF
     template<class T>
-    static ::ArrayWrapper<T> FindObjectsOfType() {
+    static ::ArrayW<T> FindObjectsOfType() {
       static_assert(std::is_convertible_v<T, UnityEngine::Object*>);
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Object::FindObjectsOfType");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine", "Object", "FindObjectsOfType", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<::ArrayWrapper<T>, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method);
+      return ::il2cpp_utils::RunMethodThrow<::ArrayW<T>, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method);
     }
     // static public T FindObjectOfType()
     // Offset: 0xFFFFFFFF
@@ -452,7 +459,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::Object::FindObjectsOfType
 // Il2CppName: FindObjectsOfType
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Object*> (*)(System::Type*)>(&UnityEngine::Object::FindObjectsOfType)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Object*> (*)(System::Type*)>(&UnityEngine::Object::FindObjectsOfType)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Object*), "FindObjectsOfType", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});

@@ -21,12 +21,18 @@ namespace System::ComponentModel {
   // [AttributeUsageAttribute] Offset: E69658
   class SettingsBindableAttribute : public System::Attribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean _bindable
     // Size: 0x1
     // Offset: 0x10
     bool bindable;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating conversion operator: operator bool
     constexpr operator bool() const noexcept {
       return bindable;

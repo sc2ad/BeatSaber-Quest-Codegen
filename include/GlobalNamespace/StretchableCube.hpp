@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -30,18 +31,24 @@ namespace GlobalNamespace {
   // [RequireComponent] Offset: EFC9A8
   class StretchableCube : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Vector2[] _uvs
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<UnityEngine::Vector2> uvs;
+    ::ArrayW<UnityEngine::Vector2> uvs;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector2>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Vector2>) == 0x8);
     // private UnityEngine.Mesh _mesh
     // Size: 0x8
     // Offset: 0x20
     UnityEngine::Mesh* mesh;
     // Field size check
     static_assert(sizeof(UnityEngine::Mesh*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Single kLength
@@ -104,9 +111,9 @@ namespace GlobalNamespace {
     static void _set_p7(UnityEngine::Vector3 value);
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF050C0
     // Get static field: static private readonly UnityEngine.Vector3[] vertices
-    static ::ArrayWrapper<UnityEngine::Vector3> _get_vertices();
+    static ::ArrayW<UnityEngine::Vector3> _get_vertices();
     // Set static field: static private readonly UnityEngine.Vector3[] vertices
-    static void _set_vertices(::ArrayWrapper<UnityEngine::Vector3> value);
+    static void _set_vertices(::ArrayW<UnityEngine::Vector3> value);
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF050D0
     // Get static field: static private readonly UnityEngine.Vector3 up
     static UnityEngine::Vector3 _get_up();
@@ -139,16 +146,16 @@ namespace GlobalNamespace {
     static void _set_right(UnityEngine::Vector3 value);
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF05130
     // Get static field: static private readonly UnityEngine.Vector3[] normals
-    static ::ArrayWrapper<UnityEngine::Vector3> _get_normals();
+    static ::ArrayW<UnityEngine::Vector3> _get_normals();
     // Set static field: static private readonly UnityEngine.Vector3[] normals
-    static void _set_normals(::ArrayWrapper<UnityEngine::Vector3> value);
+    static void _set_normals(::ArrayW<UnityEngine::Vector3> value);
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF05140
     // Get static field: static private readonly System.Int32[] triangles
-    static ::ArrayWrapper<int> _get_triangles();
+    static ::ArrayW<int> _get_triangles();
     // Set static field: static private readonly System.Int32[] triangles
-    static void _set_triangles(::ArrayWrapper<int> value);
+    static void _set_triangles(::ArrayW<int> value);
     // Get instance field reference: private UnityEngine.Vector2[] _uvs
-    ::ArrayWrapper<UnityEngine::Vector2>& dyn__uvs();
+    ::ArrayW<UnityEngine::Vector2>& dyn__uvs();
     // Get instance field reference: private UnityEngine.Mesh _mesh
     UnityEngine::Mesh*& dyn__mesh();
     // protected System.Void Awake()
@@ -162,7 +169,7 @@ namespace GlobalNamespace {
     UnityEngine::Mesh* CreateBox();
     // private System.Void RecalculateUVs(UnityEngine.Vector2[] uvs)
     // Offset: 0x115AE40
-    void RecalculateUVs(::ArrayWrapper<UnityEngine::Vector2> uvs);
+    void RecalculateUVs(::ArrayW<UnityEngine::Vector2> uvs);
     // public System.Void RefreshUVs()
     // Offset: 0x115B118
     void RefreshUVs();
@@ -218,7 +225,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::StretchableCube::RecalculateUVs
 // Il2CppName: RecalculateUVs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StretchableCube::*)(::ArrayWrapper<UnityEngine::Vector2>)>(&GlobalNamespace::StretchableCube::RecalculateUVs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::StretchableCube::*)(::ArrayW<UnityEngine::Vector2>)>(&GlobalNamespace::StretchableCube::RecalculateUVs)> {
   static const MethodInfo* get() {
     static auto* uvs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::StretchableCube*), "RecalculateUVs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{uvs});

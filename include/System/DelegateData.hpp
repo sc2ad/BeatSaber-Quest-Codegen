@@ -25,6 +25,11 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class DelegateData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Type target_type
     // Size: 0x8
     // Offset: 0x10
@@ -43,6 +48,7 @@ namespace System {
     bool curried_first_arg;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: public System.Type target_type
     System::Type*& dyn_target_type();
     // Get instance field reference: public System.String method_name

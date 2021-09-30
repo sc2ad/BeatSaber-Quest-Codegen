@@ -33,6 +33,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class UnifiedNetworkPlayerModel::UnifiedNetworkServer : public ::Il2CppObject/*, public GlobalNamespace::INetworkPlayer*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly UnifiedNetworkPlayerModel _playerModel
     // Size: 0x8
     // Offset: 0x10
@@ -69,6 +74,7 @@ namespace GlobalNamespace {
     float lastUpdateTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::INetworkPlayer
     operator GlobalNamespace::INetworkPlayer() noexcept {
       return *reinterpret_cast<GlobalNamespace::INetworkPlayer*>(this);

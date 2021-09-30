@@ -36,6 +36,11 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class CurvedCanvasSettingsHelper : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Canvas _cachedCanvas
     // Size: 0x8
     // Offset: 0x10
@@ -62,6 +67,7 @@ namespace HMUI {
     bool hasCachedData;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get static field: static private System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,HMUI.CurvedCanvasSettings> _curvedCanvasCache
     static System::Collections::Generic::Dictionary_2<UnityEngine::Canvas*, HMUI::CurvedCanvasSettings*>* _get__curvedCanvasCache();
     // Set static field: static private System.Collections.Generic.Dictionary`2<UnityEngine.Canvas,HMUI.CurvedCanvasSettings> _curvedCanvasCache

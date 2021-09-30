@@ -27,6 +27,11 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   // [TokenAttribute] Offset: FFFFFFFF
   class ObjectReader::TypeNAssembly : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Type type
     // Size: 0x8
     // Offset: 0x10
@@ -39,6 +44,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     ::Il2CppString* assemblyName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: public System.Type type
     System::Type*& dyn_type();
     // Get instance field reference: public System.String assemblyName

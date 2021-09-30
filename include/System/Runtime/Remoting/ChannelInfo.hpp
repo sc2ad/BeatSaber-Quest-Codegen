@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: System.Runtime.Remoting
 namespace System::Runtime::Remoting {
@@ -20,25 +21,31 @@ namespace System::Runtime::Remoting {
   // [TokenAttribute] Offset: FFFFFFFF
   class ChannelInfo : public ::Il2CppObject/*, public System::Runtime::Remoting::IChannelInfo*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Object[] channelData
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<::Il2CppObject*> channelData;
+    ::ArrayW<::Il2CppObject*> channelData;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppObject*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppObject*>) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Runtime::Remoting::IChannelInfo
     operator System::Runtime::Remoting::IChannelInfo() noexcept {
       return *reinterpret_cast<System::Runtime::Remoting::IChannelInfo*>(this);
     }
-    // Creating conversion operator: operator ::ArrayWrapper<::Il2CppObject*>
-    constexpr operator ::ArrayWrapper<::Il2CppObject*>() const noexcept {
+    // Creating conversion operator: operator ::ArrayW<::Il2CppObject*>
+    constexpr operator ::ArrayW<::Il2CppObject*>() const noexcept {
       return channelData;
     }
     // Get instance field reference: private System.Object[] channelData
-    ::ArrayWrapper<::Il2CppObject*>& dyn_channelData();
+    ::ArrayW<::Il2CppObject*>& dyn_channelData();
     // public System.Object[] get_ChannelData()
     // Offset: 0x15B46C8
-    ::ArrayWrapper<::Il2CppObject*> get_ChannelData();
+    ::ArrayW<::Il2CppObject*> get_ChannelData();
     // public System.Void .ctor(System.Object remoteChannelData)
     // Offset: 0x15B4610
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -57,7 +64,7 @@ namespace System::Runtime::Remoting {
     }
   }; // System.Runtime.Remoting.ChannelInfo
   #pragma pack(pop)
-  static check_size<sizeof(ChannelInfo), 16 + sizeof(::ArrayWrapper<::Il2CppObject*>)> __System_Runtime_Remoting_ChannelInfoSizeCheck;
+  static check_size<sizeof(ChannelInfo), 16 + sizeof(::ArrayW<::Il2CppObject*>)> __System_Runtime_Remoting_ChannelInfoSizeCheck;
   static_assert(sizeof(ChannelInfo) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::ChannelInfo*, "System.Runtime.Remoting", "ChannelInfo");
@@ -65,7 +72,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::ChannelInfo*, "System.Runtime.
 // Writing MetadataGetter for method: System::Runtime::Remoting::ChannelInfo::get_ChannelData
 // Il2CppName: get_ChannelData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppObject*> (System::Runtime::Remoting::ChannelInfo::*)()>(&System::Runtime::Remoting::ChannelInfo::get_ChannelData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppObject*> (System::Runtime::Remoting::ChannelInfo::*)()>(&System::Runtime::Remoting::ChannelInfo::get_ChannelData)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ChannelInfo*), "get_ChannelData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

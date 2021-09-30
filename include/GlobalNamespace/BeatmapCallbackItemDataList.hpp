@@ -59,6 +59,11 @@ namespace GlobalNamespace {
     class ProcessBeatmapEventCallback;
     // Nested type: GlobalNamespace::BeatmapCallbackItemDataList::GetRelativeNoteOffsetCallback
     class GetRelativeNoteOffsetCallback;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly BeatmapCallbackItemDataList/SpawnBasicNoteCallback _spawnBasicNoteCallback
     // Size: 0x8
     // Offset: 0x10
@@ -149,6 +154,7 @@ namespace GlobalNamespace {
     float maxNotesAlignmentAngle;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: private readonly BeatmapCallbackItemDataList/SpawnBasicNoteCallback _spawnBasicNoteCallback
     GlobalNamespace::BeatmapCallbackItemDataList::SpawnBasicNoteCallback*& dyn__spawnBasicNoteCallback();
     // Get instance field reference: private readonly BeatmapCallbackItemDataList/SpawnBombNoteCallback _spawnBombNoteCallback

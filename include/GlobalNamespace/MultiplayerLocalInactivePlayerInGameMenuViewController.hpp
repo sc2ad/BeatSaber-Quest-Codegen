@@ -68,6 +68,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerLocalInactivePlayerInGameMenuViewController : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.UI.Button _disconnectButton
     // Size: 0x8
     // Offset: 0x18
@@ -172,6 +177,7 @@ namespace GlobalNamespace {
     Tweening::Tween* fadeOutTween;
     // Field size check
     static_assert(sizeof(Tweening::Tween*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.UI.Button _disconnectButton

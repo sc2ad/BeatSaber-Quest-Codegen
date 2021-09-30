@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -54,6 +55,11 @@ namespace GlobalNamespace {
     class Elements;
     // Nested type: GlobalNamespace::EnvironmentOverrideSettingsPanelController::$$c
     class $$c;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.UI.Toggle _overrideEnvironmentsToggle
     // Size: 0x8
     // Offset: 0x18
@@ -69,9 +75,9 @@ namespace GlobalNamespace {
     // private EnvironmentOverrideSettingsPanelController/Elements[] _elements
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<GlobalNamespace::EnvironmentOverrideSettingsPanelController::Elements*> elements;
+    ::ArrayW<GlobalNamespace::EnvironmentOverrideSettingsPanelController::Elements*> elements;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::EnvironmentOverrideSettingsPanelController::Elements*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::EnvironmentOverrideSettingsPanelController::Elements*>) == 0x8);
     // [SpaceAttribute] Offset: 0xF0D9C4
     // private HMUI.PanelAnimationSO _presentPanelAnimation
     // Size: 0x8
@@ -111,6 +117,7 @@ namespace GlobalNamespace {
     bool initialized;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IRefreshable
     operator GlobalNamespace::IRefreshable() noexcept {
       return *reinterpret_cast<GlobalNamespace::IRefreshable*>(this);
@@ -122,7 +129,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.GameObject _elementsGO
     UnityEngine::GameObject*& dyn__elementsGO();
     // Get instance field reference: private EnvironmentOverrideSettingsPanelController/Elements[] _elements
-    ::ArrayWrapper<GlobalNamespace::EnvironmentOverrideSettingsPanelController::Elements*>& dyn__elements();
+    ::ArrayW<GlobalNamespace::EnvironmentOverrideSettingsPanelController::Elements*>& dyn__elements();
     // Get instance field reference: private HMUI.PanelAnimationSO _presentPanelAnimation
     HMUI::PanelAnimationSO*& dyn__presentPanelAnimation();
     // Get instance field reference: private HMUI.PanelAnimationSO _dismissPanelAnimation

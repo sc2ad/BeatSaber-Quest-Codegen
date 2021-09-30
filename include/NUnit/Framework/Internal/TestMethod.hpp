@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework::Internal
@@ -45,12 +46,18 @@ namespace NUnit::Framework::Internal {
     public:
     // Writing base type padding for base size: 0x75 to desired offset: 0x78
     char ___base_padding[0x3] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public NUnit.Framework.Internal.TestCaseParameters parms
     // Size: 0x8
     // Offset: 0x78
     NUnit::Framework::Internal::TestCaseParameters* parms;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Internal::TestCaseParameters*) == 0x8);
+    public:
     // Creating conversion operator: operator NUnit::Framework::Internal::TestCaseParameters*
     constexpr operator NUnit::Framework::Internal::TestCaseParameters*() const noexcept {
       return parms;
@@ -65,7 +72,7 @@ namespace NUnit::Framework::Internal {
     ::Il2CppObject* get_ExpectedResult();
     // System.Object[] get_Arguments()
     // Offset: 0x24A29EC
-    ::ArrayWrapper<::Il2CppObject*> get_Arguments();
+    ::ArrayW<::Il2CppObject*> get_Arguments();
     // public System.Void .ctor(NUnit.Framework.Interfaces.IMethodInfo method, NUnit.Framework.Internal.Test parentSuite)
     // Offset: 0x24A28FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -129,7 +136,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestMethod::get_Arguments
 // Il2CppName: get_Arguments
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppObject*> (NUnit::Framework::Internal::TestMethod::*)()>(&NUnit::Framework::Internal::TestMethod::get_Arguments)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppObject*> (NUnit::Framework::Internal::TestMethod::*)()>(&NUnit::Framework::Internal::TestMethod::get_Arguments)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Internal::TestMethod*), "get_Arguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

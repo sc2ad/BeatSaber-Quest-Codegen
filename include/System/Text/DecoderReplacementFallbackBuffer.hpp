@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text
@@ -27,6 +28,11 @@ namespace System::Text {
   // [TokenAttribute] Offset: FFFFFFFF
   class DecoderReplacementFallbackBuffer : public System::Text::DecoderFallbackBuffer {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String strDefault
     // Size: 0x8
     // Offset: 0x20
@@ -45,6 +51,7 @@ namespace System::Text {
     int fallbackIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: private System.String strDefault
     ::Il2CppString*& dyn_strDefault();
     // Get instance field reference: private System.Int32 fallbackCount
@@ -62,7 +69,7 @@ namespace System::Text {
     // Offset: 0x1DF9D68
     // Implemented from: System.Text.DecoderFallbackBuffer
     // Base method: System.Boolean DecoderFallbackBuffer::Fallback(System.Byte[] bytesUnknown, System.Int32 index)
-    bool Fallback(::ArrayWrapper<uint8_t> bytesUnknown, int index);
+    bool Fallback(::ArrayW<uint8_t> bytesUnknown, int index);
     // public override System.Char GetNextChar()
     // Offset: 0x1DF9DB0
     // Implemented from: System.Text.DecoderFallbackBuffer
@@ -77,7 +84,7 @@ namespace System::Text {
     // Offset: 0x1DF9E08
     // Implemented from: System.Text.DecoderFallbackBuffer
     // Base method: System.Int32 DecoderFallbackBuffer::InternalFallback(System.Byte[] bytes, System.Byte* pBytes)
-    int InternalFallback(::ArrayWrapper<uint8_t> bytes, uint8_t* pBytes);
+    int InternalFallback(::ArrayW<uint8_t> bytes, uint8_t* pBytes);
   }; // System.Text.DecoderReplacementFallbackBuffer
   #pragma pack(pop)
   static check_size<sizeof(DecoderReplacementFallbackBuffer), 44 + sizeof(int)> __System_Text_DecoderReplacementFallbackBufferSizeCheck;
@@ -92,7 +99,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Text::DecoderReplacementFallbackBuffer*, "System.
 // Writing MetadataGetter for method: System::Text::DecoderReplacementFallbackBuffer::Fallback
 // Il2CppName: Fallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Text::DecoderReplacementFallbackBuffer::*)(::ArrayWrapper<uint8_t>, int)>(&System::Text::DecoderReplacementFallbackBuffer::Fallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Text::DecoderReplacementFallbackBuffer::*)(::ArrayW<uint8_t>, int)>(&System::Text::DecoderReplacementFallbackBuffer::Fallback)> {
   static const MethodInfo* get() {
     static auto* bytesUnknown = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -118,7 +125,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Text::DecoderReplacementFallbackBuffer::InternalFallback
 // Il2CppName: InternalFallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Text::DecoderReplacementFallbackBuffer::*)(::ArrayWrapper<uint8_t>, uint8_t*)>(&System::Text::DecoderReplacementFallbackBuffer::InternalFallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Text::DecoderReplacementFallbackBuffer::*)(::ArrayW<uint8_t>, uint8_t*)>(&System::Text::DecoderReplacementFallbackBuffer::InternalFallback)> {
   static const MethodInfo* get() {
     static auto* bytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* pBytes = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Byte"))->byval_arg;

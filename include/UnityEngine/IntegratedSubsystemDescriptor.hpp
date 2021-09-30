@@ -24,12 +24,18 @@ namespace UnityEngine {
   // [UsedByNativeCodeAttribute] Offset: E88780
   class IntegratedSubsystemDescriptor : public ::Il2CppObject/*, public UnityEngine::ISubsystemDescriptorImpl*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.IntPtr m_Ptr
     // Size: 0x8
     // Offset: 0x10
     System::IntPtr m_Ptr;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
+    public:
     // Creating interface conversion operator: operator UnityEngine::ISubsystemDescriptorImpl
     operator UnityEngine::ISubsystemDescriptorImpl() noexcept {
       return *reinterpret_cast<UnityEngine::ISubsystemDescriptorImpl*>(this);

@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Utilities
@@ -27,9 +28,9 @@ namespace Org::BouncyCastle::Crypto::Digests {
   class Gost3411_2012_256Digest : public Org::BouncyCastle::Crypto::Digests::Gost3411_2012Digest {
     public:
     // Get static field: static private readonly System.Byte[] IV
-    static ::ArrayWrapper<uint8_t> _get_IV();
+    static ::ArrayW<uint8_t> _get_IV();
     // Set static field: static private readonly System.Byte[] IV
-    static void _set_IV(::ArrayWrapper<uint8_t> value);
+    static void _set_IV(::ArrayW<uint8_t> value);
     // public System.Void .ctor(Org.BouncyCastle.Crypto.Digests.Gost3411_2012_256Digest other)
     // Offset: 0x1F0182C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -65,7 +66,7 @@ namespace Org::BouncyCastle::Crypto::Digests {
     // Offset: 0x1F018E4
     // Implemented from: Org.BouncyCastle.Crypto.Digests.Gost3411_2012Digest
     // Base method: System.Int32 Gost3411_2012Digest::DoFinal(System.Byte[] output, System.Int32 outOff)
-    int DoFinal(::ArrayWrapper<uint8_t> output, int outOff);
+    int DoFinal(::ArrayW<uint8_t> output, int outOff);
     // public override Org.BouncyCastle.Utilities.IMemoable Copy()
     // Offset: 0x1F0197C
     // Implemented from: Org.BouncyCastle.Crypto.Digests.Gost3411_2012Digest
@@ -111,7 +112,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::Gost3411_2012_256Digest::DoFinal
 // Il2CppName: DoFinal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Digests::Gost3411_2012_256Digest::*)(::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Digests::Gost3411_2012_256Digest::DoFinal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Digests::Gost3411_2012_256Digest::*)(::ArrayW<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Digests::Gost3411_2012_256Digest::DoFinal)> {
   static const MethodInfo* get() {
     static auto* output = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* outOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

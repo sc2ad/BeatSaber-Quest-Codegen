@@ -13,6 +13,7 @@
 #include "System/Reflection/MethodImplAttributes.hpp"
 // Including type: System.Reflection.CallingConventions
 #include "System/Reflection/CallingConventions.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -39,6 +40,11 @@ namespace System::Reflection {
   // [TokenAttribute] Offset: FFFFFFFF
   struct MonoMethodInfo/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Type parent
     // Size: 0x8
     // Offset: 0x0
@@ -69,6 +75,7 @@ namespace System::Reflection {
     System::Reflection::CallingConventions callconv;
     // Field size check
     static_assert(sizeof(System::Reflection::CallingConventions) == 0x4);
+    public:
     // Creating value type constructor for type: MonoMethodInfo
     constexpr MonoMethodInfo(System::Type* parent_ = {}, System::Type* ret_ = {}, System::Reflection::MethodAttributes attrs_ = {}, System::Reflection::MethodImplAttributes iattrs_ = {}, System::Reflection::CallingConventions callconv_ = {}) noexcept : parent{parent_}, ret{ret_}, attrs{attrs_}, iattrs{iattrs_}, callconv{callconv_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -111,10 +118,10 @@ namespace System::Reflection {
     static System::Reflection::MethodImplAttributes GetMethodImplementationFlags(System::IntPtr handle);
     // static private System.Reflection.ParameterInfo[] get_parameter_info(System.IntPtr handle, System.Reflection.MemberInfo member)
     // Offset: 0x1EAE5B0
-    static ::ArrayWrapper<System::Reflection::ParameterInfo*> get_parameter_info(System::IntPtr handle, System::Reflection::MemberInfo* member);
+    static ::ArrayW<System::Reflection::ParameterInfo*> get_parameter_info(System::IntPtr handle, System::Reflection::MemberInfo* member);
     // static System.Reflection.ParameterInfo[] GetParametersInfo(System.IntPtr handle, System.Reflection.MemberInfo member)
     // Offset: 0x1EAC0AC
-    static ::ArrayWrapper<System::Reflection::ParameterInfo*> GetParametersInfo(System::IntPtr handle, System::Reflection::MemberInfo* member);
+    static ::ArrayW<System::Reflection::ParameterInfo*> GetParametersInfo(System::IntPtr handle, System::Reflection::MemberInfo* member);
   }; // System.Reflection.MonoMethodInfo
   #pragma pack(pop)
   static check_size<sizeof(MonoMethodInfo), 24 + sizeof(System::Reflection::CallingConventions)> __System_Reflection_MonoMethodInfoSizeCheck;
@@ -199,7 +206,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Writing MetadataGetter for method: System::Reflection::MonoMethodInfo::get_parameter_info
 // Il2CppName: get_parameter_info
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::Reflection::ParameterInfo*> (*)(System::IntPtr, System::Reflection::MemberInfo*)>(&System::Reflection::MonoMethodInfo::get_parameter_info)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Reflection::ParameterInfo*> (*)(System::IntPtr, System::Reflection::MemberInfo*)>(&System::Reflection::MonoMethodInfo::get_parameter_info)> {
   static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* member = &::il2cpp_utils::GetClassFromName("System.Reflection", "MemberInfo")->byval_arg;
@@ -209,7 +216,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: System::Reflection::MonoMethodInfo::GetParametersInfo
 // Il2CppName: GetParametersInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::Reflection::ParameterInfo*> (*)(System::IntPtr, System::Reflection::MemberInfo*)>(&System::Reflection::MonoMethodInfo::GetParametersInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Reflection::ParameterInfo*> (*)(System::IntPtr, System::Reflection::MemberInfo*)>(&System::Reflection::MonoMethodInfo::GetParametersInfo)> {
   static const MethodInfo* get() {
     static auto* handle = &::il2cpp_utils::GetClassFromName("System", "IntPtr")->byval_arg;
     static auto* member = &::il2cpp_utils::GetClassFromName("System.Reflection", "MemberInfo")->byval_arg;

@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text::RegularExpressions
@@ -33,6 +34,11 @@ namespace System::Text::RegularExpressions {
   // [EditorBrowsableAttribute] Offset: E6910C
   class RegexRunner : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // protected internal System.Int32 runtextbeg
     // Size: 0x4
     // Offset: 0x10
@@ -70,9 +76,9 @@ namespace System::Text::RegularExpressions {
     // protected internal System.Int32[] runtrack
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<int> runtrack;
+    ::ArrayW<int> runtrack;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // protected internal System.Int32 runtrackpos
     // Size: 0x4
     // Offset: 0x38
@@ -84,9 +90,9 @@ namespace System::Text::RegularExpressions {
     // protected internal System.Int32[] runstack
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayWrapper<int> runstack;
+    ::ArrayW<int> runstack;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // protected internal System.Int32 runstackpos
     // Size: 0x4
     // Offset: 0x48
@@ -98,9 +104,9 @@ namespace System::Text::RegularExpressions {
     // protected internal System.Int32[] runcrawl
     // Size: 0x8
     // Offset: 0x50
-    ::ArrayWrapper<int> runcrawl;
+    ::ArrayW<int> runcrawl;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // protected internal System.Int32 runcrawlpos
     // Size: 0x4
     // Offset: 0x58
@@ -151,6 +157,7 @@ namespace System::Text::RegularExpressions {
     int timeoutChecksToSkip;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: protected internal System.Int32 runtextbeg
     int& dyn_runtextbeg();
     // Get instance field reference: protected internal System.Int32 runtextend
@@ -162,15 +169,15 @@ namespace System::Text::RegularExpressions {
     // Get instance field reference: protected internal System.Int32 runtextpos
     int& dyn_runtextpos();
     // Get instance field reference: protected internal System.Int32[] runtrack
-    ::ArrayWrapper<int>& dyn_runtrack();
+    ::ArrayW<int>& dyn_runtrack();
     // Get instance field reference: protected internal System.Int32 runtrackpos
     int& dyn_runtrackpos();
     // Get instance field reference: protected internal System.Int32[] runstack
-    ::ArrayWrapper<int>& dyn_runstack();
+    ::ArrayW<int>& dyn_runstack();
     // Get instance field reference: protected internal System.Int32 runstackpos
     int& dyn_runstackpos();
     // Get instance field reference: protected internal System.Int32[] runcrawl
-    ::ArrayWrapper<int>& dyn_runcrawl();
+    ::ArrayW<int>& dyn_runcrawl();
     // Get instance field reference: protected internal System.Int32 runcrawlpos
     int& dyn_runcrawlpos();
     // Get instance field reference: protected internal System.Int32 runtrackcount

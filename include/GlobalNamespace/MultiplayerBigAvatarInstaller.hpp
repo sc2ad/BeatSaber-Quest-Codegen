@@ -31,6 +31,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerBigAvatarInstaller : public Zenject::MonoInstaller {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xF09148
     // private readonly IConnectedPlayer _connectedPlayer
     // Size: 0x8
@@ -52,6 +57,7 @@ namespace GlobalNamespace {
     GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* playerSpecificSettings;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*) == 0x8);
+    public:
     // Get instance field reference: private readonly IConnectedPlayer _connectedPlayer
     GlobalNamespace::IConnectedPlayer*& dyn__connectedPlayer();
     // Get instance field reference: private readonly SaberManager/InitData _saberManagerInitData

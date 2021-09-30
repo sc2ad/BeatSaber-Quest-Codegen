@@ -84,6 +84,11 @@ namespace GlobalNamespace {
     class $$c__DisplayClass27_0;
     // Nested type: GlobalNamespace::GameServerPlayerTableCell::$SetBeatmapUseButtonEnabledAsync$d__33
     struct $SetBeatmapUseButtonEnabledAsync$d__33;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private HMUI.CurvedTextMeshPro _playerNameText
     // Size: 0x8
     // Offset: 0x58
@@ -221,6 +226,7 @@ namespace GlobalNamespace {
     System::Threading::CancellationTokenSource* getLevelEntitlementCancellationTokenSource;
     // Field size check
     static_assert(sizeof(System::Threading::CancellationTokenSource*) == 0x8);
+    public:
     // Get instance field reference: private HMUI.CurvedTextMeshPro _playerNameText
     HMUI::CurvedTextMeshPro*& dyn__playerNameText();
     // Get instance field reference: private UnityEngine.UI.Image _localPlayerBackgroundImage

@@ -23,12 +23,18 @@ namespace UnityEngine::Scripting::APIUpdating {
   // [AttributeUsageAttribute] Offset: E73600
   class MovedFromAttribute : public System::Attribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // UnityEngine.Scripting.APIUpdating.MovedFromAttributeData data
     // Size: 0x1C
     // Offset: 0x10
     UnityEngine::Scripting::APIUpdating::MovedFromAttributeData data;
     // Field size check
     static_assert(sizeof(UnityEngine::Scripting::APIUpdating::MovedFromAttributeData) == 0x1C);
+    public:
     // Creating conversion operator: operator UnityEngine::Scripting::APIUpdating::MovedFromAttributeData
     constexpr operator UnityEngine::Scripting::APIUpdating::MovedFromAttributeData() const noexcept {
       return data;

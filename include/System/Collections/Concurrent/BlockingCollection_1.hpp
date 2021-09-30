@@ -59,6 +59,11 @@ namespace System::Collections::Concurrent {
   template<typename T>
   class BlockingCollection_1 : public ::Il2CppObject/*, public System::Collections::Generic::IReadOnlyCollection_1<T>, public System::IDisposable, public System::Collections::ICollection*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Concurrent.IProducerConsumerCollection`1<T> _collection
     // Size: 0x8
     // Offset: 0x0
@@ -107,6 +112,7 @@ namespace System::Collections::Concurrent {
     int currentAdders;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating interface conversion operator: operator System::Collections::Generic::IReadOnlyCollection_1<T>
     operator System::Collections::Generic::IReadOnlyCollection_1<T>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IReadOnlyCollection_1<T>*>(this);

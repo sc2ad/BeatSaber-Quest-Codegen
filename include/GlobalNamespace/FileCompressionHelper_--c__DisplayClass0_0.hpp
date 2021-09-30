@@ -29,6 +29,11 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class FileCompressionHelper::$$c__DisplayClass0_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Boolean success
     // Size: 0x1
     // Offset: 0x10
@@ -55,6 +60,7 @@ namespace GlobalNamespace {
     System::Action_1<bool>* finishCallback;
     // Field size check
     static_assert(sizeof(System::Action_1<bool>*) == 0x8);
+    public:
     // Get instance field reference: public System.Boolean success
     bool& dyn_success();
     // Get instance field reference: public System.String sourceDirectoryName

@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Asn1
@@ -29,12 +30,18 @@ namespace Org::BouncyCastle::Asn1 {
   // [TokenAttribute] Offset: FFFFFFFF
   class DerBoolean : public Org::BouncyCastle::Asn1::Asn1Object {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Byte value
     // Size: 0x1
     // Offset: 0x10
     uint8_t value;
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
+    public:
     // Creating conversion operator: operator uint8_t
     constexpr operator uint8_t() const noexcept {
       return value;
@@ -55,7 +62,7 @@ namespace Org::BouncyCastle::Asn1 {
     // public System.Void .ctor(System.Byte[] val)
     // Offset: 0x18EDF50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DerBoolean* New_ctor(::ArrayWrapper<uint8_t> val) {
+    static DerBoolean* New_ctor(::ArrayW<uint8_t> val) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerBoolean::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerBoolean*, creationType>(val)));
     }
@@ -77,7 +84,7 @@ namespace Org::BouncyCastle::Asn1 {
     static Org::BouncyCastle::Asn1::DerBoolean* GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
     // static Org.BouncyCastle.Asn1.DerBoolean FromOctetString(System.Byte[] value)
     // Offset: 0x18E1AE0
-    static Org::BouncyCastle::Asn1::DerBoolean* FromOctetString(::ArrayWrapper<uint8_t> value);
+    static Org::BouncyCastle::Asn1::DerBoolean* FromOctetString(::ArrayW<uint8_t> value);
     // override System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     // Offset: 0x18EE054
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
@@ -151,7 +158,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerBoolean::FromOctetString
 // Il2CppName: FromOctetString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerBoolean* (*)(::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Asn1::DerBoolean::FromOctetString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerBoolean* (*)(::ArrayW<uint8_t>)>(&Org::BouncyCastle::Asn1::DerBoolean::FromOctetString)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerBoolean*), "FromOctetString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

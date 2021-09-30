@@ -17,6 +17,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HoudiniEngineUnity
@@ -62,6 +63,11 @@ namespace HoudiniEngineUnity {
     public:
     // Nested type: HoudiniEngineUnity::HEU_AttributesStore::SetAttributeValueFunc
     class SetAttributeValueFunc;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 _geoID
     // Size: 0x4
     // Offset: 0x18
@@ -109,15 +115,15 @@ namespace HoudiniEngineUnity {
     // private UnityEngine.Vector3[] _positionAttributeValues
     // Size: 0x8
     // Offset: 0x48
-    ::ArrayWrapper<UnityEngine::Vector3> positionAttributeValues;
+    ::ArrayW<UnityEngine::Vector3> positionAttributeValues;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector3>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Vector3>) == 0x8);
     // private System.Int32[] _vertexIndices
     // Size: 0x8
     // Offset: 0x50
-    ::ArrayWrapper<int> vertexIndices;
+    ::ArrayW<int> vertexIndices;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // private UnityEngine.GameObject _outputGameObject
     // Size: 0x8
     // Offset: 0x58
@@ -133,9 +139,9 @@ namespace HoudiniEngineUnity {
     // private UnityEngine.Material[] _outputMaterials
     // Size: 0x8
     // Offset: 0x68
-    ::ArrayWrapper<UnityEngine::Material*> outputMaterials;
+    ::ArrayW<UnityEngine::Material*> outputMaterials;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Material*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Material*>) == 0x8);
     // private UnityEngine.MeshCollider _outputCollider
     // Size: 0x8
     // Offset: 0x70
@@ -172,6 +178,7 @@ namespace HoudiniEngineUnity {
     bool outputMeshColliderInitiallyEnabled;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_AttributesStore*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_AttributesStore*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_AttributesStore*>*>(this);
@@ -193,15 +200,15 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: private UnityEngine.Transform _outputTransform
     UnityEngine::Transform*& dyn__outputTransform();
     // Get instance field reference: private UnityEngine.Vector3[] _positionAttributeValues
-    ::ArrayWrapper<UnityEngine::Vector3>& dyn__positionAttributeValues();
+    ::ArrayW<UnityEngine::Vector3>& dyn__positionAttributeValues();
     // Get instance field reference: private System.Int32[] _vertexIndices
-    ::ArrayWrapper<int>& dyn__vertexIndices();
+    ::ArrayW<int>& dyn__vertexIndices();
     // Get instance field reference: private UnityEngine.GameObject _outputGameObject
     UnityEngine::GameObject*& dyn__outputGameObject();
     // Get instance field reference: private UnityEngine.Mesh _outputMesh
     UnityEngine::Mesh*& dyn__outputMesh();
     // Get instance field reference: private UnityEngine.Material[] _outputMaterials
-    ::ArrayWrapper<UnityEngine::Material*>& dyn__outputMaterials();
+    ::ArrayW<UnityEngine::Material*>& dyn__outputMaterials();
     // Get instance field reference: private UnityEngine.MeshCollider _outputCollider
     UnityEngine::MeshCollider*& dyn__outputCollider();
     // Get instance field reference: private UnityEngine.Mesh _outputColliderMesh
@@ -306,13 +313,13 @@ namespace HoudiniEngineUnity {
     void PaintAttribute(HoudiniEngineUnity::HEU_AttributeData* attributeData, HoudiniEngineUnity::HEU_ToolsInfo* sourceTools, int attributeIndex, float paintFactor, HoudiniEngineUnity::HEU_AttributesStore::SetAttributeValueFunc* setAttrFunc);
     // static public System.Void SetAttributeEditValueInt(HoudiniEngineUnity.HEU_AttributeData attributeData, System.Int32 startIndex, System.Int32[] values)
     // Offset: 0x1441010
-    static void SetAttributeEditValueInt(HoudiniEngineUnity::HEU_AttributeData* attributeData, int startIndex, ::ArrayWrapper<int> values);
+    static void SetAttributeEditValueInt(HoudiniEngineUnity::HEU_AttributeData* attributeData, int startIndex, ::ArrayW<int> values);
     // static public System.Void SetAttributeEditValueFloat(HoudiniEngineUnity.HEU_AttributeData attributeData, System.Int32 startIndex, System.Single[] values)
     // Offset: 0x14410A4
-    static void SetAttributeEditValueFloat(HoudiniEngineUnity::HEU_AttributeData* attributeData, int startIndex, ::ArrayWrapper<float> values);
+    static void SetAttributeEditValueFloat(HoudiniEngineUnity::HEU_AttributeData* attributeData, int startIndex, ::ArrayW<float> values);
     // static public System.Void SetAttributeEditValueString(HoudiniEngineUnity.HEU_AttributeData attributeData, System.Int32 startIndex, System.String[] values)
     // Offset: 0x1441138
-    static void SetAttributeEditValueString(HoudiniEngineUnity::HEU_AttributeData* attributeData, int startIndex, ::ArrayWrapper<::Il2CppString*> values);
+    static void SetAttributeEditValueString(HoudiniEngineUnity::HEU_AttributeData* attributeData, int startIndex, ::ArrayW<::Il2CppString*> values);
     // static public System.Void ReplaceAttributeValueInt(HoudiniEngineUnity.HEU_AttributeData attributeData, System.Int32 targetIndex, HoudiniEngineUnity.HEU_ToolsInfo sourceTools, System.Int32 sourceIndex, System.Single factor)
     // Offset: 0x1441220
     static void ReplaceAttributeValueInt(HoudiniEngineUnity::HEU_AttributeData* attributeData, int targetIndex, HoudiniEngineUnity::HEU_ToolsInfo* sourceTools, int sourceIndex, float factor);
@@ -348,10 +355,10 @@ namespace HoudiniEngineUnity {
     bool AreAttributesDirty();
     // public System.Void GetPositionAttributeValues(out UnityEngine.Vector3[] positionArray)
     // Offset: 0x1441F9C
-    void GetPositionAttributeValues(ByRef<::ArrayWrapper<UnityEngine::Vector3>> positionArray);
+    void GetPositionAttributeValues(ByRef<::ArrayW<UnityEngine::Vector3>> positionArray);
     // public System.Void GetVertexIndices(out System.Int32[] indices)
     // Offset: 0x1441FA8
-    void GetVertexIndices(ByRef<::ArrayWrapper<int>> indices);
+    void GetVertexIndices(ByRef<::ArrayW<int>> indices);
     // static public HoudiniEngineUnity.HEU_AttributesStore/HoudiniEngineUnity.SetAttributeValueFunc GetAttributeSetValueFunction(HoudiniEngineUnity.HEU_AttributeData/HoudiniEngineUnity.AttributeType attrType, HoudiniEngineUnity.HEU_ToolsInfo/HoudiniEngineUnity.PaintMergeMode paintMergeMode)
     // Offset: 0x1441CE4
     static HoudiniEngineUnity::HEU_AttributesStore::SetAttributeValueFunc* GetAttributeSetValueFunction(HoudiniEngineUnity::HEU_AttributeData::AttributeType attrType, HoudiniEngineUnity::HEU_ToolsInfo::PaintMergeMode paintMergeMode);
@@ -669,7 +676,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_AttributesStore::SetAttributeEditValueInt
 // Il2CppName: SetAttributeEditValueInt
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(HoudiniEngineUnity::HEU_AttributeData*, int, ::ArrayWrapper<int>)>(&HoudiniEngineUnity::HEU_AttributesStore::SetAttributeEditValueInt)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(HoudiniEngineUnity::HEU_AttributeData*, int, ::ArrayW<int>)>(&HoudiniEngineUnity::HEU_AttributesStore::SetAttributeEditValueInt)> {
   static const MethodInfo* get() {
     static auto* attributeData = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_AttributeData")->byval_arg;
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -680,7 +687,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_AttributesStore::SetAttributeEditValueFloat
 // Il2CppName: SetAttributeEditValueFloat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(HoudiniEngineUnity::HEU_AttributeData*, int, ::ArrayWrapper<float>)>(&HoudiniEngineUnity::HEU_AttributesStore::SetAttributeEditValueFloat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(HoudiniEngineUnity::HEU_AttributeData*, int, ::ArrayW<float>)>(&HoudiniEngineUnity::HEU_AttributesStore::SetAttributeEditValueFloat)> {
   static const MethodInfo* get() {
     static auto* attributeData = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_AttributeData")->byval_arg;
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -691,7 +698,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Ho
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_AttributesStore::SetAttributeEditValueString
 // Il2CppName: SetAttributeEditValueString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(HoudiniEngineUnity::HEU_AttributeData*, int, ::ArrayWrapper<::Il2CppString*>)>(&HoudiniEngineUnity::HEU_AttributesStore::SetAttributeEditValueString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(HoudiniEngineUnity::HEU_AttributeData*, int, ::ArrayW<::Il2CppString*>)>(&HoudiniEngineUnity::HEU_AttributesStore::SetAttributeEditValueString)> {
   static const MethodInfo* get() {
     static auto* attributeData = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_AttributeData")->byval_arg;
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -837,7 +844,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_AttributesStore::GetPositionAttributeValues
 // Il2CppName: GetPositionAttributeValues
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_AttributesStore::*)(ByRef<::ArrayWrapper<UnityEngine::Vector3>>)>(&HoudiniEngineUnity::HEU_AttributesStore::GetPositionAttributeValues)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_AttributesStore::*)(ByRef<::ArrayW<UnityEngine::Vector3>>)>(&HoudiniEngineUnity::HEU_AttributesStore::GetPositionAttributeValues)> {
   static const MethodInfo* get() {
     static auto* positionArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_AttributesStore*), "GetPositionAttributeValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{positionArray});
@@ -846,7 +853,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_AttributesStore::GetVertexIndices
 // Il2CppName: GetVertexIndices
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_AttributesStore::*)(ByRef<::ArrayWrapper<int>>)>(&HoudiniEngineUnity::HEU_AttributesStore::GetVertexIndices)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_AttributesStore::*)(ByRef<::ArrayW<int>>)>(&HoudiniEngineUnity::HEU_AttributesStore::GetVertexIndices)> {
   static const MethodInfo* get() {
     static auto* indices = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->this_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_AttributesStore*), "GetVertexIndices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{indices});

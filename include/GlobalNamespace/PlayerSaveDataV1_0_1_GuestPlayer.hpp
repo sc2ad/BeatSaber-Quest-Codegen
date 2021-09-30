@@ -20,6 +20,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayerSaveDataV1_0_1::GuestPlayer : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.String playerName
     // Size: 0x8
     // Offset: 0x10
@@ -32,6 +37,7 @@ namespace GlobalNamespace {
     GlobalNamespace::PlayerSaveDataV1_0_1::PlayerSpecificSettings* playerSpecificSettings;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerSaveDataV1_0_1::PlayerSpecificSettings*) == 0x8);
+    public:
     // Get instance field reference: public System.String playerName
     ::Il2CppString*& dyn_playerName();
     // Get instance field reference: public PlayerSaveDataV1_0_1/PlayerSpecificSettings playerSpecificSettings

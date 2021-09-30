@@ -28,6 +28,11 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class HMMainThreadDispatcher::$$c__DisplayClass2_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public HMMainThreadDispatcher <>4__this
     // Size: 0x8
     // Offset: 0x10
@@ -40,6 +45,7 @@ namespace GlobalNamespace {
     System::Collections::IEnumerator* action;
     // Field size check
     static_assert(sizeof(System::Collections::IEnumerator*) == 0x8);
+    public:
     // Get instance field reference: public HMMainThreadDispatcher <>4__this
     GlobalNamespace::HMMainThreadDispatcher*& dyn_$$4__this();
     // Get instance field reference: public System.Collections.IEnumerator action

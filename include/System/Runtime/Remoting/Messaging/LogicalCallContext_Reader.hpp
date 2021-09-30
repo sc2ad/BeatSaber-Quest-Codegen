@@ -19,12 +19,18 @@ namespace System::Runtime::Remoting::Messaging {
   // [TokenAttribute] Offset: FFFFFFFF
   struct LogicalCallContext::Reader/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Runtime.Remoting.Messaging.LogicalCallContext m_ctx
     // Size: 0x8
     // Offset: 0x0
     System::Runtime::Remoting::Messaging::LogicalCallContext* m_ctx;
     // Field size check
     static_assert(sizeof(System::Runtime::Remoting::Messaging::LogicalCallContext*) == 0x8);
+    public:
     // Creating value type constructor for type: Reader
     constexpr Reader(System::Runtime::Remoting::Messaging::LogicalCallContext* m_ctx_ = {}) noexcept : m_ctx{m_ctx_} {}
     // Creating interface conversion operator: operator System::ValueType

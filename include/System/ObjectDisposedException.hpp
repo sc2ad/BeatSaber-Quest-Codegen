@@ -28,12 +28,18 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5C46C
   class ObjectDisposedException : public System::InvalidOperationException {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String objectName
     // Size: 0x8
     // Offset: 0x88
     ::Il2CppString* objectName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return objectName;

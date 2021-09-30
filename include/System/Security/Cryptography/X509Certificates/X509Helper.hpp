@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Security::Cryptography::X509Certificates
@@ -46,7 +47,7 @@ namespace System::Security::Cryptography::X509Certificates {
     static void InstallNativeHelper(System::Security::Cryptography::X509Certificates::INativeCertificateHelper* helper);
     // static private System.Security.Cryptography.X509Certificates.X509CertificateImpl Import(System.Byte[] rawData)
     // Offset: 0x1CD09E0
-    static System::Security::Cryptography::X509Certificates::X509CertificateImpl* Import(::ArrayWrapper<uint8_t> rawData);
+    static System::Security::Cryptography::X509Certificates::X509CertificateImpl* Import(::ArrayW<uint8_t> rawData);
     // static public System.Security.Cryptography.X509Certificates.X509CertificateImpl InitFromCertificate(System.Security.Cryptography.X509Certificates.X509Certificate cert)
     // Offset: 0x1CCF4E8
     static System::Security::Cryptography::X509Certificates::X509CertificateImpl* InitFromCertificate(System::Security::Cryptography::X509Certificates::X509Certificate* cert);
@@ -64,22 +65,22 @@ namespace System::Security::Cryptography::X509Certificates {
     static System::Exception* GetInvalidContextException();
     // static Mono.Security.X509.X509Certificate ImportPkcs12(System.Byte[] rawData, System.String password)
     // Offset: 0x1CD0BB0
-    static Mono::Security::X509::X509Certificate* ImportPkcs12(::ArrayWrapper<uint8_t> rawData, ::Il2CppString* password);
+    static Mono::Security::X509::X509Certificate* ImportPkcs12(::ArrayW<uint8_t> rawData, ::Il2CppString* password);
     // static private System.Byte[] PEM(System.String type, System.Byte[] data)
     // Offset: 0x1CD0F78
-    static ::ArrayWrapper<uint8_t> PEM(::Il2CppString* type, ::ArrayWrapper<uint8_t> data);
+    static ::ArrayW<uint8_t> PEM(::Il2CppString* type, ::ArrayW<uint8_t> data);
     // static private System.Byte[] ConvertData(System.Byte[] data)
     // Offset: 0x1CD10A4
-    static ::ArrayWrapper<uint8_t> ConvertData(::ArrayWrapper<uint8_t> data);
+    static ::ArrayW<uint8_t> ConvertData(::ArrayW<uint8_t> data);
     // static private System.Security.Cryptography.X509Certificates.X509CertificateImpl ImportCore(System.Byte[] rawData)
     // Offset: 0x1CD09E4
-    static System::Security::Cryptography::X509Certificates::X509CertificateImpl* ImportCore(::ArrayWrapper<uint8_t> rawData);
+    static System::Security::Cryptography::X509Certificates::X509CertificateImpl* ImportCore(::ArrayW<uint8_t> rawData);
     // static public System.Security.Cryptography.X509Certificates.X509CertificateImpl Import(System.Byte[] rawData, System.String password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags)
     // Offset: 0x1CCFD88
-    static System::Security::Cryptography::X509Certificates::X509CertificateImpl* Import(::ArrayWrapper<uint8_t> rawData, ::Il2CppString* password, System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags);
+    static System::Security::Cryptography::X509Certificates::X509CertificateImpl* Import(::ArrayW<uint8_t> rawData, ::Il2CppString* password, System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags);
     // static public System.String ToHexString(System.Byte[] data)
     // Offset: 0x1CCF844
-    static ::Il2CppString* ToHexString(::ArrayWrapper<uint8_t> data);
+    static ::Il2CppString* ToHexString(::ArrayW<uint8_t> data);
   }; // System.Security.Cryptography.X509Certificates.X509Helper
   #pragma pack(pop)
 }
@@ -98,7 +99,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509Helper::Import
 // Il2CppName: Import
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509CertificateImpl* (*)(::ArrayWrapper<uint8_t>)>(&System::Security::Cryptography::X509Certificates::X509Helper::Import)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509CertificateImpl* (*)(::ArrayW<uint8_t>)>(&System::Security::Cryptography::X509Certificates::X509Helper::Import)> {
   static const MethodInfo* get() {
     static auto* rawData = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509Helper*), "Import", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rawData});
@@ -151,7 +152,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Exc
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509Helper::ImportPkcs12
 // Il2CppName: ImportPkcs12
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::X509::X509Certificate* (*)(::ArrayWrapper<uint8_t>, ::Il2CppString*)>(&System::Security::Cryptography::X509Certificates::X509Helper::ImportPkcs12)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::X509::X509Certificate* (*)(::ArrayW<uint8_t>, ::Il2CppString*)>(&System::Security::Cryptography::X509Certificates::X509Helper::ImportPkcs12)> {
   static const MethodInfo* get() {
     static auto* rawData = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* password = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -161,7 +162,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Secur
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509Helper::PEM
 // Il2CppName: PEM
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(::Il2CppString*, ::ArrayWrapper<uint8_t>)>(&System::Security::Cryptography::X509Certificates::X509Helper::PEM)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(::Il2CppString*, ::ArrayW<uint8_t>)>(&System::Security::Cryptography::X509Certificates::X509Helper::PEM)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -171,7 +172,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509Helper::ConvertData
 // Il2CppName: ConvertData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(::ArrayWrapper<uint8_t>)>(&System::Security::Cryptography::X509Certificates::X509Helper::ConvertData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(::ArrayW<uint8_t>)>(&System::Security::Cryptography::X509Certificates::X509Helper::ConvertData)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509Helper*), "ConvertData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data});
@@ -180,7 +181,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509Helper::ImportCore
 // Il2CppName: ImportCore
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509CertificateImpl* (*)(::ArrayWrapper<uint8_t>)>(&System::Security::Cryptography::X509Certificates::X509Helper::ImportCore)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509CertificateImpl* (*)(::ArrayW<uint8_t>)>(&System::Security::Cryptography::X509Certificates::X509Helper::ImportCore)> {
   static const MethodInfo* get() {
     static auto* rawData = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509Helper*), "ImportCore", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rawData});
@@ -189,7 +190,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509Helper::Import
 // Il2CppName: Import
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509CertificateImpl* (*)(::ArrayWrapper<uint8_t>, ::Il2CppString*, System::Security::Cryptography::X509Certificates::X509KeyStorageFlags)>(&System::Security::Cryptography::X509Certificates::X509Helper::Import)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509CertificateImpl* (*)(::ArrayW<uint8_t>, ::Il2CppString*, System::Security::Cryptography::X509Certificates::X509KeyStorageFlags)>(&System::Security::Cryptography::X509Certificates::X509Helper::Import)> {
   static const MethodInfo* get() {
     static auto* rawData = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* password = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -200,7 +201,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509Helper::ToHexString
 // Il2CppName: ToHexString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::ArrayWrapper<uint8_t>)>(&System::Security::Cryptography::X509Certificates::X509Helper::ToHexString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::ArrayW<uint8_t>)>(&System::Security::Cryptography::X509Certificates::X509Helper::ToHexString)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509Helper*), "ToHexString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data});

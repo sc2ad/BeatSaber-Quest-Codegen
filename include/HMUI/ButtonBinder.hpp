@@ -44,12 +44,18 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class ButtonBinder : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.List`1<System.Tuple`2<UnityEngine.UI.Button,UnityEngine.Events.UnityAction>> _bindings
     // Size: 0x8
     // Offset: 0x10
     System::Collections::Generic::List_1<System::Tuple_2<UnityEngine::UI::Button*, UnityEngine::Events::UnityAction*>*>* bindings;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<System::Tuple_2<UnityEngine::UI::Button*, UnityEngine::Events::UnityAction*>*>*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Collections::Generic::List_1<System::Tuple_2<UnityEngine::UI::Button*, UnityEngine::Events::UnityAction*>*>*
     constexpr operator System::Collections::Generic::List_1<System::Tuple_2<UnityEngine::UI::Button*, UnityEngine::Events::UnityAction*>*>*() const noexcept {
       return bindings;

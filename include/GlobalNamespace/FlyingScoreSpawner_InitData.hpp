@@ -22,12 +22,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class FlyingScoreSpawner::InitData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly FlyingScoreSpawner/SpawnPosition spawnPosition
     // Size: 0x4
     // Offset: 0x10
     GlobalNamespace::FlyingScoreSpawner::SpawnPosition spawnPosition;
     // Field size check
     static_assert(sizeof(GlobalNamespace::FlyingScoreSpawner::SpawnPosition) == 0x4);
+    public:
     // Creating conversion operator: operator GlobalNamespace::FlyingScoreSpawner::SpawnPosition
     constexpr operator GlobalNamespace::FlyingScoreSpawner::SpawnPosition() const noexcept {
       return spawnPosition;

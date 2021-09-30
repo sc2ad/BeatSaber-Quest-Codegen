@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Crypto
@@ -32,9 +33,9 @@ namespace Org::BouncyCastle::Crypto {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IBufferedCipher*>(this);
     }
     // Get static field: static protected readonly System.Byte[] EmptyBuffer
-    static ::ArrayWrapper<uint8_t> _get_EmptyBuffer();
+    static ::ArrayW<uint8_t> _get_EmptyBuffer();
     // Set static field: static protected readonly System.Byte[] EmptyBuffer
-    static void _set_EmptyBuffer(::ArrayWrapper<uint8_t> value);
+    static void _set_EmptyBuffer(::ArrayW<uint8_t> value);
     // static private System.Void .cctor()
     // Offset: 0x1EF92F0
     static void _cctor();
@@ -52,22 +53,22 @@ namespace Org::BouncyCastle::Crypto {
     int GetUpdateOutputSize(int inputLen);
     // public System.Byte[] ProcessBytes(System.Byte[] input, System.Int32 inOff, System.Int32 length)
     // Offset: 0xFFFFFFFF
-    ::ArrayWrapper<uint8_t> ProcessBytes(::ArrayWrapper<uint8_t> input, int inOff, int length);
+    ::ArrayW<uint8_t> ProcessBytes(::ArrayW<uint8_t> input, int inOff, int length);
     // public System.Int32 ProcessBytes(System.Byte[] input, System.Int32 inOff, System.Int32 length, System.Byte[] output, System.Int32 outOff)
     // Offset: 0x1EF90F4
-    int ProcessBytes(::ArrayWrapper<uint8_t> input, int inOff, int length, ::ArrayWrapper<uint8_t> output, int outOff);
+    int ProcessBytes(::ArrayW<uint8_t> input, int inOff, int length, ::ArrayW<uint8_t> output, int outOff);
     // public System.Byte[] DoFinal()
     // Offset: 0xFFFFFFFF
-    ::ArrayWrapper<uint8_t> DoFinal();
+    ::ArrayW<uint8_t> DoFinal();
     // public System.Byte[] DoFinal(System.Byte[] input)
     // Offset: 0x1EF91F4
-    ::ArrayWrapper<uint8_t> DoFinal(::ArrayWrapper<uint8_t> input);
+    ::ArrayW<uint8_t> DoFinal(::ArrayW<uint8_t> input);
     // public System.Byte[] DoFinal(System.Byte[] input, System.Int32 inOff, System.Int32 length)
     // Offset: 0xFFFFFFFF
-    ::ArrayWrapper<uint8_t> DoFinal(::ArrayWrapper<uint8_t> input, int inOff, int length);
+    ::ArrayW<uint8_t> DoFinal(::ArrayW<uint8_t> input, int inOff, int length);
     // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
     // Offset: 0x1EF921C
-    int DoFinal(::ArrayWrapper<uint8_t> output, int outOff);
+    int DoFinal(::ArrayW<uint8_t> output, int outOff);
     // public System.Void Reset()
     // Offset: 0xFFFFFFFF
     void Reset();
@@ -132,7 +133,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::BufferedCipherBase::ProcessBytes
 // Il2CppName: ProcessBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Crypto::BufferedCipherBase::*)(::ArrayWrapper<uint8_t>, int, int)>(&Org::BouncyCastle::Crypto::BufferedCipherBase::ProcessBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Org::BouncyCastle::Crypto::BufferedCipherBase::*)(::ArrayW<uint8_t>, int, int)>(&Org::BouncyCastle::Crypto::BufferedCipherBase::ProcessBytes)> {
   static const MethodInfo* get() {
     static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* inOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -143,7 +144,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::BufferedCipherBase::ProcessBytes
 // Il2CppName: ProcessBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::BufferedCipherBase::*)(::ArrayWrapper<uint8_t>, int, int, ::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Crypto::BufferedCipherBase::ProcessBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::BufferedCipherBase::*)(::ArrayW<uint8_t>, int, int, ::ArrayW<uint8_t>, int)>(&Org::BouncyCastle::Crypto::BufferedCipherBase::ProcessBytes)> {
   static const MethodInfo* get() {
     static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* inOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -156,7 +157,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::BufferedCipherBase::DoFinal
 // Il2CppName: DoFinal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Crypto::BufferedCipherBase::*)()>(&Org::BouncyCastle::Crypto::BufferedCipherBase::DoFinal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Org::BouncyCastle::Crypto::BufferedCipherBase::*)()>(&Org::BouncyCastle::Crypto::BufferedCipherBase::DoFinal)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::BufferedCipherBase*), "DoFinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -164,7 +165,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::BufferedCipherBase::DoFinal
 // Il2CppName: DoFinal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Crypto::BufferedCipherBase::*)(::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Crypto::BufferedCipherBase::DoFinal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Org::BouncyCastle::Crypto::BufferedCipherBase::*)(::ArrayW<uint8_t>)>(&Org::BouncyCastle::Crypto::BufferedCipherBase::DoFinal)> {
   static const MethodInfo* get() {
     static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::BufferedCipherBase*), "DoFinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input});
@@ -173,7 +174,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::BufferedCipherBase::DoFinal
 // Il2CppName: DoFinal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Crypto::BufferedCipherBase::*)(::ArrayWrapper<uint8_t>, int, int)>(&Org::BouncyCastle::Crypto::BufferedCipherBase::DoFinal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Org::BouncyCastle::Crypto::BufferedCipherBase::*)(::ArrayW<uint8_t>, int, int)>(&Org::BouncyCastle::Crypto::BufferedCipherBase::DoFinal)> {
   static const MethodInfo* get() {
     static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* inOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -184,7 +185,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::BufferedCipherBase::DoFinal
 // Il2CppName: DoFinal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::BufferedCipherBase::*)(::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Crypto::BufferedCipherBase::DoFinal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::BufferedCipherBase::*)(::ArrayW<uint8_t>, int)>(&Org::BouncyCastle::Crypto::BufferedCipherBase::DoFinal)> {
   static const MethodInfo* get() {
     static auto* output = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* outOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

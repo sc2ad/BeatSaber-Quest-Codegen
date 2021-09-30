@@ -93,6 +93,11 @@ namespace Zenject {
     class $$c__DisplayClass33_0;
     // Nested type: Zenject::FactoryFromBinderBase::$$c__DisplayClass34_0
     class $$c__DisplayClass34_0;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Zenject.DiContainer <BindContainer>k__BackingField
     // Size: 0x8
     // Offset: 0x20
@@ -111,6 +116,7 @@ namespace Zenject {
     System::Type* ContractType;
     // Field size check
     static_assert(sizeof(System::Type*) == 0x8);
+    public:
     // Get instance field reference: private Zenject.DiContainer <BindContainer>k__BackingField
     Zenject::DiContainer*& dyn_$BindContainer$k__BackingField();
     // Get instance field reference: private Zenject.FactoryBindInfo <FactoryBindInfo>k__BackingField

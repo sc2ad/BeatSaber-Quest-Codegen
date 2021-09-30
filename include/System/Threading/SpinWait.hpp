@@ -16,12 +16,18 @@ namespace System::Threading {
   // [TokenAttribute] Offset: FFFFFFFF
   struct SpinWait/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 m_count
     // Size: 0x4
     // Offset: 0x0
     int m_count;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: SpinWait
     constexpr SpinWait(int m_count_ = {}) noexcept : m_count{m_count_} {}
     // Creating interface conversion operator: operator System::ValueType

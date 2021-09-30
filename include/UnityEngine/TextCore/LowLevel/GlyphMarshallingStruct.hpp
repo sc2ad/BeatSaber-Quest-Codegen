@@ -28,6 +28,11 @@ namespace UnityEngine::TextCore::LowLevel {
   // [UsedByNativeCodeAttribute] Offset: EA56F4
   struct GlyphMarshallingStruct/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.UInt32 index
     // Size: 0x4
     // Offset: 0x0
@@ -58,6 +63,7 @@ namespace UnityEngine::TextCore::LowLevel {
     int atlasIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: GlyphMarshallingStruct
     constexpr GlyphMarshallingStruct(uint index_ = {}, UnityEngine::TextCore::GlyphMetrics metrics_ = {}, UnityEngine::TextCore::GlyphRect glyphRect_ = {}, float scale_ = {}, int atlasIndex_ = {}) noexcept : index{index_}, metrics{metrics_}, glyphRect{glyphRect_}, scale{scale_}, atlasIndex{atlasIndex_} {}
     // Creating interface conversion operator: operator System::ValueType

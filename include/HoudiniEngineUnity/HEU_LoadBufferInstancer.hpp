@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
@@ -22,46 +23,52 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_LoadBufferInstancer : public HoudiniEngineUnity::HEU_LoadBufferBase {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public HoudiniEngineUnity.HAPI_Transform[] _instanceTransforms
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<HoudiniEngineUnity::HAPI_Transform> instanceTransforms;
+    ::ArrayW<HoudiniEngineUnity::HAPI_Transform> instanceTransforms;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<HoudiniEngineUnity::HAPI_Transform>) == 0x8);
+    static_assert(sizeof(::ArrayW<HoudiniEngineUnity::HAPI_Transform>) == 0x8);
     // public System.String[] _instancePrefixes
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayWrapper<::Il2CppString*> instancePrefixes;
+    ::ArrayW<::Il2CppString*> instancePrefixes;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // public System.Int32[] _instanceNodeIDs
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayWrapper<int> instanceNodeIDs;
+    ::ArrayW<int> instanceNodeIDs;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // public System.String[] _assetPaths
     // Size: 0x8
     // Offset: 0x48
-    ::ArrayWrapper<::Il2CppString*> assetPaths;
+    ::ArrayW<::Il2CppString*> assetPaths;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // public System.String[] _collisionAssetPaths
     // Size: 0x8
     // Offset: 0x50
-    ::ArrayWrapper<::Il2CppString*> collisionAssetPaths;
+    ::ArrayW<::Il2CppString*> collisionAssetPaths;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    public:
     // Get instance field reference: public HoudiniEngineUnity.HAPI_Transform[] _instanceTransforms
-    ::ArrayWrapper<HoudiniEngineUnity::HAPI_Transform>& dyn__instanceTransforms();
+    ::ArrayW<HoudiniEngineUnity::HAPI_Transform>& dyn__instanceTransforms();
     // Get instance field reference: public System.String[] _instancePrefixes
-    ::ArrayWrapper<::Il2CppString*>& dyn__instancePrefixes();
+    ::ArrayW<::Il2CppString*>& dyn__instancePrefixes();
     // Get instance field reference: public System.Int32[] _instanceNodeIDs
-    ::ArrayWrapper<int>& dyn__instanceNodeIDs();
+    ::ArrayW<int>& dyn__instanceNodeIDs();
     // Get instance field reference: public System.String[] _assetPaths
-    ::ArrayWrapper<::Il2CppString*>& dyn__assetPaths();
+    ::ArrayW<::Il2CppString*>& dyn__assetPaths();
     // Get instance field reference: public System.String[] _collisionAssetPaths
-    ::ArrayWrapper<::Il2CppString*>& dyn__collisionAssetPaths();
+    ::ArrayW<::Il2CppString*>& dyn__collisionAssetPaths();
     // public System.Void .ctor()
     // Offset: 0x152AE60
     // Implemented from: HoudiniEngineUnity.HEU_LoadBufferBase
@@ -74,7 +81,7 @@ namespace HoudiniEngineUnity {
     }
   }; // HoudiniEngineUnity.HEU_LoadBufferInstancer
   #pragma pack(pop)
-  static check_size<sizeof(HEU_LoadBufferInstancer), 80 + sizeof(::ArrayWrapper<::Il2CppString*>)> __HoudiniEngineUnity_HEU_LoadBufferInstancerSizeCheck;
+  static check_size<sizeof(HEU_LoadBufferInstancer), 80 + sizeof(::ArrayW<::Il2CppString*>)> __HoudiniEngineUnity_HEU_LoadBufferInstancerSizeCheck;
   static_assert(sizeof(HEU_LoadBufferInstancer) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_LoadBufferInstancer*, "HoudiniEngineUnity", "HEU_LoadBufferInstancer");

@@ -33,6 +33,11 @@ namespace UnityEngine::TestTools::Utils {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayerTestAssemblyProvider : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.TestTools.Utils.IAssemblyLoadProxy m_AssemblyLoadProxy
     // Size: 0x8
     // Offset: 0x10
@@ -45,6 +50,7 @@ namespace UnityEngine::TestTools::Utils {
     System::Collections::Generic::List_1<::Il2CppString*>* m_AssembliesToLoad;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<::Il2CppString*>*) == 0x8);
+    public:
     // Get static field: static private System.Collections.Generic.List`1<UnityEngine.TestTools.Utils.IAssemblyWrapper> m_LoadedAssemblies
     static System::Collections::Generic::List_1<UnityEngine::TestTools::Utils::IAssemblyWrapper*>* _get_m_LoadedAssemblies();
     // Set static field: static private System.Collections.Generic.List`1<UnityEngine.TestTools.Utils.IAssemblyWrapper> m_LoadedAssemblies

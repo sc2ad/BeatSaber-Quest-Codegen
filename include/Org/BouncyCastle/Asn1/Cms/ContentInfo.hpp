@@ -31,6 +31,11 @@ namespace Org::BouncyCastle::Asn1::Cms {
   // [TokenAttribute] Offset: FFFFFFFF
   class ContentInfo : public Org::BouncyCastle::Asn1::Asn1Encodable {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier contentType
     // Size: 0x8
     // Offset: 0x10
@@ -43,6 +48,7 @@ namespace Org::BouncyCastle::Asn1::Cms {
     Org::BouncyCastle::Asn1::Asn1Encodable* content;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::Asn1Encodable*) == 0x8);
+    public:
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerObjectIdentifier contentType
     Org::BouncyCastle::Asn1::DerObjectIdentifier*& dyn_contentType();
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.Asn1Encodable content

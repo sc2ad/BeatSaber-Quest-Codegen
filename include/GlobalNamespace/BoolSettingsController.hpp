@@ -29,12 +29,18 @@ namespace GlobalNamespace {
     public:
     // Writing base type padding for base size: 0x21 to desired offset: 0x28
     char ___base_padding[0x7] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private BoolSO _settingsValue
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::BoolSO* settingsValue;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BoolSO*) == 0x8);
+    public:
     // Get instance field reference: private BoolSO _settingsValue
     GlobalNamespace::BoolSO*& dyn__settingsValue();
     // public System.Void .ctor()

@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Math::EC
@@ -44,7 +45,7 @@ namespace Org::BouncyCastle::Math::EC::Custom::Djb {
     }
     // protected Org.BouncyCastle.Math.EC.Custom.Djb.Curve25519FieldElement CalculateJacobianModifiedW(Org.BouncyCastle.Math.EC.Custom.Djb.Curve25519FieldElement Z, System.UInt32[] ZSquared)
     // Offset: 0x1F5B57C
-    Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519FieldElement* CalculateJacobianModifiedW(Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519FieldElement* Z, ::ArrayWrapper<uint> ZSquared);
+    Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519FieldElement* CalculateJacobianModifiedW(Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519FieldElement* Z, ::ArrayW<uint> ZSquared);
     // protected Org.BouncyCastle.Math.EC.Custom.Djb.Curve25519FieldElement GetJacobianModifiedW()
     // Offset: 0x1F5B710
     Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519FieldElement* GetJacobianModifiedW();
@@ -69,7 +70,7 @@ namespace Org::BouncyCastle::Math::EC::Custom::Djb {
     // Base method: System.Void ECPointBase::.ctor(Org.BouncyCastle.Math.EC.ECCurve curve, Org.BouncyCastle.Math.EC.ECFieldElement x, Org.BouncyCastle.Math.EC.ECFieldElement y, Org.BouncyCastle.Math.EC.ECFieldElement[] zs, System.Boolean withCompression)
     // Base method: System.Void ECPoint::.ctor(Org.BouncyCastle.Math.EC.ECCurve curve, Org.BouncyCastle.Math.EC.ECFieldElement x, Org.BouncyCastle.Math.EC.ECFieldElement y, Org.BouncyCastle.Math.EC.ECFieldElement[] zs, System.Boolean withCompression)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Curve25519Point* New_ctor(Org::BouncyCastle::Math::EC::ECCurve* curve, Org::BouncyCastle::Math::EC::ECFieldElement* x, Org::BouncyCastle::Math::EC::ECFieldElement* y, ::ArrayWrapper<Org::BouncyCastle::Math::EC::ECFieldElement*> zs, bool withCompression) {
+    static Curve25519Point* New_ctor(Org::BouncyCastle::Math::EC::ECCurve* curve, Org::BouncyCastle::Math::EC::ECFieldElement* x, Org::BouncyCastle::Math::EC::ECFieldElement* y, ::ArrayW<Org::BouncyCastle::Math::EC::ECFieldElement*> zs, bool withCompression) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Point::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Curve25519Point*, creationType>(curve, x, y, zs, withCompression)));
     }
@@ -115,7 +116,7 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Point
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Point::CalculateJacobianModifiedW
 // Il2CppName: CalculateJacobianModifiedW
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519FieldElement* (Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Point::*)(Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519FieldElement*, ::ArrayWrapper<uint>)>(&Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Point::CalculateJacobianModifiedW)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519FieldElement* (Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Point::*)(Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519FieldElement*, ::ArrayW<uint>)>(&Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Point::CalculateJacobianModifiedW)> {
   static const MethodInfo* get() {
     static auto* Z = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC.Custom.Djb", "Curve25519FieldElement")->byval_arg;
     static auto* ZSquared = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;

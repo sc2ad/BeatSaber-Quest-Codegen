@@ -69,6 +69,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::NoteController::$DissolveCoroutine$d__74
     class $DissolveCoroutine$d__74;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // protected NoteMovement _noteMovement
     // Size: 0x8
     // Offset: 0x18
@@ -149,6 +154,7 @@ namespace GlobalNamespace {
     float uniformScale;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::INoteMirrorable
     operator GlobalNamespace::INoteMirrorable() noexcept {
       return *reinterpret_cast<GlobalNamespace::INoteMirrorable*>(this);

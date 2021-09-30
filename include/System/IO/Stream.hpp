@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO
@@ -66,6 +67,11 @@ namespace System::IO {
     class $$c;
     // Nested type: System::IO::Stream::$CopyToAsyncInternal$d__27
     struct $CopyToAsyncInternal$d__27;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.IO.Stream/System.IO.ReadWriteTask _activeReadWriteTask
     // Size: 0x8
     // Offset: 0x18
@@ -78,6 +84,7 @@ namespace System::IO {
     System::Threading::SemaphoreSlim* asyncActiveSemaphore;
     // Field size check
     static_assert(sizeof(System::Threading::SemaphoreSlim*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
@@ -154,25 +161,25 @@ namespace System::IO {
     void Flush();
     // public System.IAsyncResult BeginRead(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.AsyncCallback callback, System.Object state)
     // Offset: 0x1AB9678
-    System::IAsyncResult* BeginRead(::ArrayWrapper<uint8_t> buffer, int offset, int count, System::AsyncCallback* callback, ::Il2CppObject* state);
+    System::IAsyncResult* BeginRead(::ArrayW<uint8_t> buffer, int offset, int count, System::AsyncCallback* callback, ::Il2CppObject* state);
     // System.IAsyncResult BeginReadInternal(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.AsyncCallback callback, System.Object state, System.Boolean serializeAsynchronously)
     // Offset: 0x1AC2310
-    System::IAsyncResult* BeginReadInternal(::ArrayWrapper<uint8_t> buffer, int offset, int count, System::AsyncCallback* callback, ::Il2CppObject* state, bool serializeAsynchronously);
+    System::IAsyncResult* BeginReadInternal(::ArrayW<uint8_t> buffer, int offset, int count, System::AsyncCallback* callback, ::Il2CppObject* state, bool serializeAsynchronously);
     // public System.Int32 EndRead(System.IAsyncResult asyncResult)
     // Offset: 0x1AB988C
     int EndRead(System::IAsyncResult* asyncResult);
     // public System.Threading.Tasks.Task`1<System.Int32> ReadAsync(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.Threading.CancellationToken cancellationToken)
     // Offset: 0x1ABB10C
-    System::Threading::Tasks::Task_1<int>* ReadAsync(::ArrayWrapper<uint8_t> buffer, int offset, int count, System::Threading::CancellationToken cancellationToken);
+    System::Threading::Tasks::Task_1<int>* ReadAsync(::ArrayW<uint8_t> buffer, int offset, int count, System::Threading::CancellationToken cancellationToken);
     // private System.Threading.Tasks.Task`1<System.Int32> BeginEndReadAsync(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
     // Offset: 0x1AC2A80
-    System::Threading::Tasks::Task_1<int>* BeginEndReadAsync(::ArrayWrapper<uint8_t> buffer, int offset, int count);
+    System::Threading::Tasks::Task_1<int>* BeginEndReadAsync(::ArrayW<uint8_t> buffer, int offset, int count);
     // public System.IAsyncResult BeginWrite(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.AsyncCallback callback, System.Object state)
     // Offset: 0x1ABA2BC
-    System::IAsyncResult* BeginWrite(::ArrayWrapper<uint8_t> buffer, int offset, int count, System::AsyncCallback* callback, ::Il2CppObject* state);
+    System::IAsyncResult* BeginWrite(::ArrayW<uint8_t> buffer, int offset, int count, System::AsyncCallback* callback, ::Il2CppObject* state);
     // System.IAsyncResult BeginWriteInternal(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.AsyncCallback callback, System.Object state, System.Boolean serializeAsynchronously)
     // Offset: 0x1AC2C20
-    System::IAsyncResult* BeginWriteInternal(::ArrayWrapper<uint8_t> buffer, int offset, int count, System::AsyncCallback* callback, ::Il2CppObject* state, bool serializeAsynchronously);
+    System::IAsyncResult* BeginWriteInternal(::ArrayW<uint8_t> buffer, int offset, int count, System::AsyncCallback* callback, ::Il2CppObject* state, bool serializeAsynchronously);
     // private System.Void RunReadWriteTaskWhenReady(System.Threading.Tasks.Task asyncWaiter, System.IO.Stream/System.IO.ReadWriteTask readWriteTask)
     // Offset: 0x1AC27F0
     void RunReadWriteTaskWhenReady(System::Threading::Tasks::Task* asyncWaiter, System::IO::Stream::ReadWriteTask* readWriteTask);
@@ -184,13 +191,13 @@ namespace System::IO {
     void EndWrite(System::IAsyncResult* asyncResult);
     // public System.Threading.Tasks.Task WriteAsync(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
     // Offset: 0x1AC2F94
-    System::Threading::Tasks::Task* WriteAsync(::ArrayWrapper<uint8_t> buffer, int offset, int count);
+    System::Threading::Tasks::Task* WriteAsync(::ArrayW<uint8_t> buffer, int offset, int count);
     // public System.Threading.Tasks.Task WriteAsync(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.Threading.CancellationToken cancellationToken)
     // Offset: 0x1ABB1D0
-    System::Threading::Tasks::Task* WriteAsync(::ArrayWrapper<uint8_t> buffer, int offset, int count, System::Threading::CancellationToken cancellationToken);
+    System::Threading::Tasks::Task* WriteAsync(::ArrayW<uint8_t> buffer, int offset, int count, System::Threading::CancellationToken cancellationToken);
     // private System.Threading.Tasks.Task BeginEndWriteAsync(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
     // Offset: 0x1AC3038
-    System::Threading::Tasks::Task* BeginEndWriteAsync(::ArrayWrapper<uint8_t> buffer, int offset, int count);
+    System::Threading::Tasks::Task* BeginEndWriteAsync(::ArrayW<uint8_t> buffer, int offset, int count);
     // public System.Int64 Seek(System.Int64 offset, System.IO.SeekOrigin origin)
     // Offset: 0xFFFFFFFF
     int64_t Seek(int64_t offset, System::IO::SeekOrigin origin);
@@ -199,25 +206,25 @@ namespace System::IO {
     void SetLength(int64_t value);
     // public System.Int32 Read(in System.Byte[] buffer, System.Int32 offset, System.Int32 count)
     // Offset: 0xFFFFFFFF
-    int Read(ByRef<::ArrayWrapper<uint8_t>> buffer, int offset, int count);
+    int Read(ByRef<::ArrayW<uint8_t>> buffer, int offset, int count);
     // public System.Int32 ReadByte()
     // Offset: 0x1AC31D8
     int ReadByte();
     // public System.Void Write(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
     // Offset: 0xFFFFFFFF
-    void Write(::ArrayWrapper<uint8_t> buffer, int offset, int count);
+    void Write(::ArrayW<uint8_t> buffer, int offset, int count);
     // public System.Void WriteByte(System.Byte value)
     // Offset: 0x1AC327C
     void WriteByte(uint8_t value);
     // System.IAsyncResult BlockingBeginRead(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.AsyncCallback callback, System.Object state)
     // Offset: 0x1AC2514
-    System::IAsyncResult* BlockingBeginRead(::ArrayWrapper<uint8_t> buffer, int offset, int count, System::AsyncCallback* callback, ::Il2CppObject* state);
+    System::IAsyncResult* BlockingBeginRead(::ArrayW<uint8_t> buffer, int offset, int count, System::AsyncCallback* callback, ::Il2CppObject* state);
     // static System.Int32 BlockingEndRead(System.IAsyncResult asyncResult)
     // Offset: 0x1AC2A7C
     static int BlockingEndRead(System::IAsyncResult* asyncResult);
     // System.IAsyncResult BlockingBeginWrite(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.AsyncCallback callback, System.Object state)
     // Offset: 0x1AC2E24
-    System::IAsyncResult* BlockingBeginWrite(::ArrayWrapper<uint8_t> buffer, int offset, int count, System::AsyncCallback* callback, ::Il2CppObject* state);
+    System::IAsyncResult* BlockingBeginWrite(::ArrayW<uint8_t> buffer, int offset, int count, System::AsyncCallback* callback, ::Il2CppObject* state);
     // static System.Void BlockingEndWrite(System.IAsyncResult asyncResult)
     // Offset: 0x1AC2F90
     static void BlockingEndWrite(System::IAsyncResult* asyncResult);
@@ -396,7 +403,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::IO::Stream::BeginRead
 // Il2CppName: BeginRead
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::IO::Stream::*)(::ArrayWrapper<uint8_t>, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::IO::Stream::BeginRead)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::IO::Stream::*)(::ArrayW<uint8_t>, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::IO::Stream::BeginRead)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -409,7 +416,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Writing MetadataGetter for method: System::IO::Stream::BeginReadInternal
 // Il2CppName: BeginReadInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::IO::Stream::*)(::ArrayWrapper<uint8_t>, int, int, System::AsyncCallback*, ::Il2CppObject*, bool)>(&System::IO::Stream::BeginReadInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::IO::Stream::*)(::ArrayW<uint8_t>, int, int, System::AsyncCallback*, ::Il2CppObject*, bool)>(&System::IO::Stream::BeginReadInternal)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -432,7 +439,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::IO::Stream::ReadAsync
 // Il2CppName: ReadAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<int>* (System::IO::Stream::*)(::ArrayWrapper<uint8_t>, int, int, System::Threading::CancellationToken)>(&System::IO::Stream::ReadAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<int>* (System::IO::Stream::*)(::ArrayW<uint8_t>, int, int, System::Threading::CancellationToken)>(&System::IO::Stream::ReadAsync)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -444,7 +451,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: System::IO::Stream::BeginEndReadAsync
 // Il2CppName: BeginEndReadAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<int>* (System::IO::Stream::*)(::ArrayWrapper<uint8_t>, int, int)>(&System::IO::Stream::BeginEndReadAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<int>* (System::IO::Stream::*)(::ArrayW<uint8_t>, int, int)>(&System::IO::Stream::BeginEndReadAsync)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -455,7 +462,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: System::IO::Stream::BeginWrite
 // Il2CppName: BeginWrite
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::IO::Stream::*)(::ArrayWrapper<uint8_t>, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::IO::Stream::BeginWrite)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::IO::Stream::*)(::ArrayW<uint8_t>, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::IO::Stream::BeginWrite)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -468,7 +475,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAs
 // Writing MetadataGetter for method: System::IO::Stream::BeginWriteInternal
 // Il2CppName: BeginWriteInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::IO::Stream::*)(::ArrayWrapper<uint8_t>, int, int, System::AsyncCallback*, ::Il2CppObject*, bool)>(&System::IO::Stream::BeginWriteInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::IO::Stream::*)(::ArrayW<uint8_t>, int, int, System::AsyncCallback*, ::Il2CppObject*, bool)>(&System::IO::Stream::BeginWriteInternal)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -510,7 +517,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::IO::Stream::WriteAsync
 // Il2CppName: WriteAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (System::IO::Stream::*)(::ArrayWrapper<uint8_t>, int, int)>(&System::IO::Stream::WriteAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (System::IO::Stream::*)(::ArrayW<uint8_t>, int, int)>(&System::IO::Stream::WriteAsync)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -521,7 +528,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: System::IO::Stream::WriteAsync
 // Il2CppName: WriteAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (System::IO::Stream::*)(::ArrayWrapper<uint8_t>, int, int, System::Threading::CancellationToken)>(&System::IO::Stream::WriteAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (System::IO::Stream::*)(::ArrayW<uint8_t>, int, int, System::Threading::CancellationToken)>(&System::IO::Stream::WriteAsync)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -533,7 +540,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: System::IO::Stream::BeginEndWriteAsync
 // Il2CppName: BeginEndWriteAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (System::IO::Stream::*)(::ArrayWrapper<uint8_t>, int, int)>(&System::IO::Stream::BeginEndWriteAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (System::IO::Stream::*)(::ArrayW<uint8_t>, int, int)>(&System::IO::Stream::BeginEndWriteAsync)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -563,7 +570,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::IO::Stream::Read
 // Il2CppName: Read
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::Stream::*)(ByRef<::ArrayWrapper<uint8_t>>, int, int)>(&System::IO::Stream::Read)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::Stream::*)(ByRef<::ArrayW<uint8_t>>, int, int)>(&System::IO::Stream::Read)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->this_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -582,7 +589,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::IO::Stream::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::Stream::*)(::ArrayWrapper<uint8_t>, int, int)>(&System::IO::Stream::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::Stream::*)(::ArrayW<uint8_t>, int, int)>(&System::IO::Stream::Write)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -602,7 +609,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::IO::Stream::BlockingBeginRead
 // Il2CppName: BlockingBeginRead
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::IO::Stream::*)(::ArrayWrapper<uint8_t>, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::IO::Stream::BlockingBeginRead)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::IO::Stream::*)(::ArrayW<uint8_t>, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::IO::Stream::BlockingBeginRead)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -624,7 +631,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Sys
 // Writing MetadataGetter for method: System::IO::Stream::BlockingBeginWrite
 // Il2CppName: BlockingBeginWrite
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::IO::Stream::*)(::ArrayWrapper<uint8_t>, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::IO::Stream::BlockingBeginWrite)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::IO::Stream::*)(::ArrayW<uint8_t>, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::IO::Stream::BlockingBeginWrite)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

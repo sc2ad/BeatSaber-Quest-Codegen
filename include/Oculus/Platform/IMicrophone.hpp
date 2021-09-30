@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
@@ -21,7 +22,7 @@ namespace Oculus::Platform {
     void Stop();
     // public System.Single[] Update()
     // Offset: 0xFFFFFFFF
-    ::ArrayWrapper<float> Update();
+    ::ArrayW<float> Update();
   }; // Oculus.Platform.IMicrophone
   #pragma pack(pop)
 }
@@ -47,7 +48,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Oculu
 // Writing MetadataGetter for method: Oculus::Platform::IMicrophone::Update
 // Il2CppName: Update
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<float> (Oculus::Platform::IMicrophone::*)()>(&Oculus::Platform::IMicrophone::Update)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<float> (Oculus::Platform::IMicrophone::*)()>(&Oculus::Platform::IMicrophone::Update)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::IMicrophone*), "Update", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

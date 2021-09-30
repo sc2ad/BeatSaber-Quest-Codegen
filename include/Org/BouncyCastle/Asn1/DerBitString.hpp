@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Asn1
@@ -30,24 +31,30 @@ namespace Org::BouncyCastle::Asn1 {
   // [TokenAttribute] Offset: FFFFFFFF
   class DerBitString : public Org::BouncyCastle::Asn1::DerStringBase {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // protected readonly System.Byte[] mData
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<uint8_t> mData;
+    ::ArrayW<uint8_t> mData;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // protected readonly System.Int32 mPadBits
     // Size: 0x4
     // Offset: 0x18
     int mPadBits;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get static field: static private readonly System.Char[] table
-    static ::ArrayWrapper<::Il2CppChar> _get_table();
+    static ::ArrayW<::Il2CppChar> _get_table();
     // Set static field: static private readonly System.Char[] table
-    static void _set_table(::ArrayWrapper<::Il2CppChar> value);
+    static void _set_table(::ArrayW<::Il2CppChar> value);
     // Get instance field reference: protected readonly System.Byte[] mData
-    ::ArrayWrapper<uint8_t>& dyn_mData();
+    ::ArrayW<uint8_t>& dyn_mData();
     // Get instance field reference: protected readonly System.Int32 mPadBits
     int& dyn_mPadBits();
     // public System.Int32 get_PadBits()
@@ -56,14 +63,14 @@ namespace Org::BouncyCastle::Asn1 {
     // public System.Void .ctor(System.Byte[] data, System.Int32 padBits)
     // Offset: 0x18E6500
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DerBitString* New_ctor(::ArrayWrapper<uint8_t> data, int padBits) {
+    static DerBitString* New_ctor(::ArrayW<uint8_t> data, int padBits) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerBitString::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerBitString*, creationType>(data, padBits)));
     }
     // public System.Void .ctor(System.Byte[] data)
     // Offset: 0x18ED5D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DerBitString* New_ctor(::ArrayWrapper<uint8_t> data) {
+    static DerBitString* New_ctor(::ArrayW<uint8_t> data) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerBitString::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerBitString*, creationType>(data)));
     }
@@ -78,13 +85,13 @@ namespace Org::BouncyCastle::Asn1 {
     static Org::BouncyCastle::Asn1::DerBitString* GetInstance(Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
     // public System.Byte[] GetOctets()
     // Offset: 0x18ED5D8
-    ::ArrayWrapper<uint8_t> GetOctets();
+    ::ArrayW<uint8_t> GetOctets();
     // public System.Byte[] GetBytes()
     // Offset: 0x18ED688
-    ::ArrayWrapper<uint8_t> GetBytes();
+    ::ArrayW<uint8_t> GetBytes();
     // static Org.BouncyCastle.Asn1.DerBitString FromAsn1Octets(System.Byte[] octets)
     // Offset: 0x18E2004
-    static Org::BouncyCastle::Asn1::DerBitString* FromAsn1Octets(::ArrayWrapper<uint8_t> octets);
+    static Org::BouncyCastle::Asn1::DerBitString* FromAsn1Octets(::ArrayW<uint8_t> octets);
     // override System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     // Offset: 0x18E67A8
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
@@ -158,7 +165,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerBitString::GetOctets
 // Il2CppName: GetOctets
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Asn1::DerBitString::*)()>(&Org::BouncyCastle::Asn1::DerBitString::GetOctets)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Org::BouncyCastle::Asn1::DerBitString::*)()>(&Org::BouncyCastle::Asn1::DerBitString::GetOctets)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerBitString*), "GetOctets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -166,7 +173,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerBitString::GetBytes
 // Il2CppName: GetBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Asn1::DerBitString::*)()>(&Org::BouncyCastle::Asn1::DerBitString::GetBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Org::BouncyCastle::Asn1::DerBitString::*)()>(&Org::BouncyCastle::Asn1::DerBitString::GetBytes)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerBitString*), "GetBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -174,7 +181,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerBitString::FromAsn1Octets
 // Il2CppName: FromAsn1Octets
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerBitString* (*)(::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Asn1::DerBitString::FromAsn1Octets)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::DerBitString* (*)(::ArrayW<uint8_t>)>(&Org::BouncyCastle::Asn1::DerBitString::FromAsn1Octets)> {
   static const MethodInfo* get() {
     static auto* octets = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerBitString*), "FromAsn1Octets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{octets});

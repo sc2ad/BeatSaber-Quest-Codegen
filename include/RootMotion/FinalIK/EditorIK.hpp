@@ -28,12 +28,18 @@ namespace RootMotion::FinalIK {
   // [ExecuteInEditMode] Offset: FFFFFFFF
   class EditorIK : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private RootMotion.FinalIK.IK ik
     // Size: 0x8
     // Offset: 0x18
     RootMotion::FinalIK::IK* ik;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::IK*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private RootMotion.FinalIK.IK ik

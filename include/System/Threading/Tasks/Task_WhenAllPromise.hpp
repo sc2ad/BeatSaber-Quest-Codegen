@@ -17,6 +17,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: System.Threading.Tasks
 namespace System::Threading::Tasks {
@@ -25,30 +26,36 @@ namespace System::Threading::Tasks {
   // [TokenAttribute] Offset: FFFFFFFF
   class Task::WhenAllPromise : public System::Threading::Tasks::Task_1<System::Threading::Tasks::VoidTaskResult>/*, public System::Threading::Tasks::ITaskCompletionAction*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Threading.Tasks.Task[] m_tasks
     // Size: 0x8
     // Offset: 0x58
-    ::ArrayWrapper<System::Threading::Tasks::Task*> m_tasks;
+    ::ArrayW<System::Threading::Tasks::Task*> m_tasks;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<System::Threading::Tasks::Task*>) == 0x8);
+    static_assert(sizeof(::ArrayW<System::Threading::Tasks::Task*>) == 0x8);
     // private System.Int32 m_count
     // Size: 0x4
     // Offset: 0x60
     int m_count;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating interface conversion operator: operator System::Threading::Tasks::ITaskCompletionAction
     operator System::Threading::Tasks::ITaskCompletionAction() noexcept {
       return *reinterpret_cast<System::Threading::Tasks::ITaskCompletionAction*>(this);
     }
     // Get instance field reference: private readonly System.Threading.Tasks.Task[] m_tasks
-    ::ArrayWrapper<System::Threading::Tasks::Task*>& dyn_m_tasks();
+    ::ArrayW<System::Threading::Tasks::Task*>& dyn_m_tasks();
     // Get instance field reference: private System.Int32 m_count
     int& dyn_m_count();
     // System.Void .ctor(System.Threading.Tasks.Task[] tasks)
     // Offset: 0x19B92BC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Task::WhenAllPromise* New_ctor(::ArrayWrapper<System::Threading::Tasks::Task*> tasks) {
+    static Task::WhenAllPromise* New_ctor(::ArrayW<System::Threading::Tasks::Task*> tasks) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Threading::Tasks::Task::WhenAllPromise::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Task::WhenAllPromise*, creationType>(tasks)));
     }

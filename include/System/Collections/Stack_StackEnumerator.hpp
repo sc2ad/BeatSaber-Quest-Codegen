@@ -24,6 +24,11 @@ namespace System::Collections {
   // [TokenAttribute] Offset: FFFFFFFF
   class Stack::StackEnumerator : public ::Il2CppObject/*, public System::ICloneable, public System::Collections::IEnumerator*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Stack _stack
     // Size: 0x8
     // Offset: 0x10
@@ -48,6 +53,7 @@ namespace System::Collections {
     ::Il2CppObject* currentElement;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);

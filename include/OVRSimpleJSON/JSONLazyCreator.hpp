@@ -39,6 +39,11 @@ namespace OVRSimpleJSON {
   // [DefaultMemberAttribute] Offset: EAFC90
   class JSONLazyCreator : public OVRSimpleJSON::JSONNode {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private OVRSimpleJSON.JSONNode m_Node
     // Size: 0x8
     // Offset: 0x10
@@ -51,6 +56,7 @@ namespace OVRSimpleJSON {
     ::Il2CppString* m_Key;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: private OVRSimpleJSON.JSONNode m_Node
     OVRSimpleJSON::JSONNode*& dyn_m_Node();
     // Get instance field reference: private System.String m_Key

@@ -35,6 +35,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::LightWithIds::LightData
     class LightData;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xEDEE20
     // private readonly LightWithIdManager _lightManager
     // Size: 0x8
@@ -48,6 +53,7 @@ namespace GlobalNamespace {
     bool isRegistered;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private readonly LightWithIdManager _lightManager

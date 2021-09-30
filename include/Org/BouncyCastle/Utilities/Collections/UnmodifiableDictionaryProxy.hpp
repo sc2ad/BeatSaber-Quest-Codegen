@@ -34,12 +34,18 @@ namespace Org::BouncyCastle::Utilities::Collections {
   // [TokenAttribute] Offset: FFFFFFFF
   class UnmodifiableDictionaryProxy : public Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionary {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Collections.IDictionary d
     // Size: 0x8
     // Offset: 0x10
     System::Collections::IDictionary* d;
     // Field size check
     static_assert(sizeof(System::Collections::IDictionary*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Collections::IDictionary*
     constexpr operator System::Collections::IDictionary*() const noexcept {
       return d;

@@ -33,6 +33,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class NoteData : public GlobalNamespace::BeatmapObjectData {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private ColorType <colorType>k__BackingField
     // Size: 0x4
     // Offset: 0x18
@@ -99,6 +104,7 @@ namespace GlobalNamespace {
     bool skipAfterCutScoring;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private ColorType <colorType>k__BackingField
     GlobalNamespace::ColorType& dyn_$colorType$k__BackingField();
     // Get instance field reference: private NoteCutDirection <cutDirection>k__BackingField

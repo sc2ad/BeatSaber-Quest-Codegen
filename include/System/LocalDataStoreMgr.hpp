@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -40,12 +41,17 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class LocalDataStoreMgr : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean[] m_SlotInfoTable
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<bool> m_SlotInfoTable;
+    ::ArrayW<bool> m_SlotInfoTable;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<bool>) == 0x8);
+    static_assert(sizeof(::ArrayW<bool>) == 0x8);
     // private System.Int32 m_FirstAvailableSlot
     // Size: 0x4
     // Offset: 0x18
@@ -72,6 +78,7 @@ namespace System {
     int64_t m_CookieGenerator;
     // Field size check
     static_assert(sizeof(int64_t) == 0x8);
+    public:
     // static field const value: static private System.Int32 InitialSlotTableSize
     static constexpr const int InitialSlotTableSize = 64;
     // Get static field: static private System.Int32 InitialSlotTableSize
@@ -91,7 +98,7 @@ namespace System {
     // Set static field: static private System.Int32 LargeSlotTableSizeIncrease
     static void _set_LargeSlotTableSizeIncrease(int value);
     // Get instance field reference: private System.Boolean[] m_SlotInfoTable
-    ::ArrayWrapper<bool>& dyn_m_SlotInfoTable();
+    ::ArrayW<bool>& dyn_m_SlotInfoTable();
     // Get instance field reference: private System.Int32 m_FirstAvailableSlot
     int& dyn_m_FirstAvailableSlot();
     // Get instance field reference: private System.Collections.Generic.List`1<System.LocalDataStore> m_ManagedLocalDataStores

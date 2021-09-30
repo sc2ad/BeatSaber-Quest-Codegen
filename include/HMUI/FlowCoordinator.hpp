@@ -14,6 +14,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HMUI
@@ -70,6 +71,11 @@ namespace HMUI {
     class $$c__DisplayClass45_0;
     // Nested type: HMUI::FlowCoordinator::$$c__DisplayClass46_0
     class $$c__DisplayClass46_0;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xEE24F0
     // private readonly UnityEngine.EventSystems.BaseInputModule _baseInputModule
     // Size: 0x8
@@ -207,6 +213,7 @@ namespace HMUI {
     UnityEngine::EventSystems::EventSystem* prevEventSystem;
     // Field size check
     static_assert(sizeof(UnityEngine::EventSystems::EventSystem*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private readonly UnityEngine.EventSystems.BaseInputModule _baseInputModule
@@ -303,7 +310,7 @@ namespace HMUI {
     void PushViewControllerToNavigationController(HMUI::NavigationController* navigationController, HMUI::ViewController* viewController, System::Action* finishedCallback, bool immediately);
     // protected System.Void SetViewControllersToNavigationController(HMUI.NavigationController navigationController, params HMUI.ViewController[] viewControllers)
     // Offset: 0x14889F4
-    void SetViewControllersToNavigationController(HMUI::NavigationController* navigationController, ::ArrayWrapper<HMUI::ViewController*> viewControllers);
+    void SetViewControllersToNavigationController(HMUI::NavigationController* navigationController, ::ArrayW<HMUI::ViewController*> viewControllers);
     // protected System.Void SetViewControllerToNavigationController(HMUI.NavigationController navigationController, HMUI.ViewController viewController)
     // Offset: 0x1488A10
     void SetViewControllerToNavigationController(HMUI::NavigationController* navigationController, HMUI::ViewController* viewController);
@@ -569,7 +576,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI:
 // Writing MetadataGetter for method: HMUI::FlowCoordinator::SetViewControllersToNavigationController
 // Il2CppName: SetViewControllersToNavigationController
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::FlowCoordinator::*)(HMUI::NavigationController*, ::ArrayWrapper<HMUI::ViewController*>)>(&HMUI::FlowCoordinator::SetViewControllersToNavigationController)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HMUI::FlowCoordinator::*)(HMUI::NavigationController*, ::ArrayW<HMUI::ViewController*>)>(&HMUI::FlowCoordinator::SetViewControllersToNavigationController)> {
   static const MethodInfo* get() {
     static auto* navigationController = &::il2cpp_utils::GetClassFromName("HMUI", "NavigationController")->byval_arg;
     static auto* viewControllers = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("HMUI", "ViewController"), 1)->byval_arg;

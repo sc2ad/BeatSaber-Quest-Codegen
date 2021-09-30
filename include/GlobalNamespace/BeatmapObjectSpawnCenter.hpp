@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -33,12 +34,17 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::BeatmapObjectSpawnCenter::PlayerCountToDistance
     class PlayerCountToDistance;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private BeatmapObjectSpawnCenter/PlayerCountToDistance[] _distances
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<GlobalNamespace::BeatmapObjectSpawnCenter::PlayerCountToDistance*> distances;
+    ::ArrayW<GlobalNamespace::BeatmapObjectSpawnCenter::PlayerCountToDistance*> distances;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::BeatmapObjectSpawnCenter::PlayerCountToDistance*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::BeatmapObjectSpawnCenter::PlayerCountToDistance*>) == 0x8);
     // private System.Single _defaultDistnace
     // Size: 0x4
     // Offset: 0x20
@@ -67,10 +73,11 @@ namespace GlobalNamespace {
     float spawnCenterDistance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BeatmapObjectSpawnCenter/PlayerCountToDistance[] _distances
-    ::ArrayWrapper<GlobalNamespace::BeatmapObjectSpawnCenter::PlayerCountToDistance*>& dyn__distances();
+    ::ArrayW<GlobalNamespace::BeatmapObjectSpawnCenter::PlayerCountToDistance*>& dyn__distances();
     // Get instance field reference: private System.Single _defaultDistnace
     float& dyn__defaultDistnace();
     // Get instance field reference: private System.Action`1<System.Single> spawnCenterDistanceWasFoundEvent

@@ -36,6 +36,11 @@ namespace System::Security::Claims {
   // [CompilerGeneratedAttribute] Offset: E5F084
   class ClaimsIdentity::$get_Claims$d__51 : public ::Il2CppObject/*, public System::Collections::Generic::IEnumerable_1<System::Security::Claims::Claim*>, public System::Collections::Generic::IEnumerator_1<System::Security::Claims::Claim*>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -82,6 +87,7 @@ namespace System::Security::Claims {
     System::Collections::Generic::IEnumerator_1<System::Security::Claims::Claim*>* $$7__wrap1;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::IEnumerator_1<System::Security::Claims::Claim*>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<System::Security::Claims::Claim*>
     operator System::Collections::Generic::IEnumerable_1<System::Security::Claims::Claim*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<System::Security::Claims::Claim*>*>(this);

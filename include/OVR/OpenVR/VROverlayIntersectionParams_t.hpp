@@ -21,6 +21,11 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct VROverlayIntersectionParams_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public OVR.OpenVR.HmdVector3_t vSource
     // Size: 0xC
     // Offset: 0x0
@@ -39,6 +44,7 @@ namespace OVR::OpenVR {
     OVR::OpenVR::ETrackingUniverseOrigin eOrigin;
     // Field size check
     static_assert(sizeof(OVR::OpenVR::ETrackingUniverseOrigin) == 0x4);
+    public:
     // Creating value type constructor for type: VROverlayIntersectionParams_t
     constexpr VROverlayIntersectionParams_t(OVR::OpenVR::HmdVector3_t vSource_ = {}, OVR::OpenVR::HmdVector3_t vDirection_ = {}, OVR::OpenVR::ETrackingUniverseOrigin eOrigin_ = {}) noexcept : vSource{vSource_}, vDirection{vDirection_}, eOrigin{eOrigin_} {}
     // Creating interface conversion operator: operator System::ValueType

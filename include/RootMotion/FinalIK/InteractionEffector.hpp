@@ -50,6 +50,11 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class InteractionEffector : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private RootMotion.FinalIK.FullBodyBipedEffector <effectorType>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -272,6 +277,7 @@ namespace RootMotion::FinalIK {
     bool started;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private RootMotion.FinalIK.FullBodyBipedEffector <effectorType>k__BackingField
     RootMotion::FinalIK::FullBodyBipedEffector& dyn_$effectorType$k__BackingField();
     // Get instance field reference: private System.Boolean <isPaused>k__BackingField

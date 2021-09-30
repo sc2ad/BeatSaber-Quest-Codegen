@@ -31,6 +31,11 @@ namespace GlobalNamespace {
     public:
     // Writing base type padding for base size: 0x34 to desired offset: 0x38
     char ___base_padding[0x4] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Net.IPEndPoint endPoint
     // Size: 0x8
     // Offset: 0x38
@@ -55,6 +60,7 @@ namespace GlobalNamespace {
     bool serverIsConnectionOwner;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: public System.Net.IPEndPoint endPoint
     System::Net::IPEndPoint*& dyn_endPoint();
     // Get instance field reference: public System.String serverUserId

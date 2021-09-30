@@ -41,6 +41,11 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class PrefabInstantiator::$$c__DisplayClass15_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public Zenject.PrefabInstantiator <>4__this
     // Size: 0x8
     // Offset: 0x10
@@ -71,6 +76,7 @@ namespace Zenject {
     bool shouldMakeActive;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: public Zenject.PrefabInstantiator <>4__this
     Zenject::PrefabInstantiator*& dyn_$$4__this();
     // Get instance field reference: public System.Collections.Generic.List`1<Zenject.TypeValuePair> args

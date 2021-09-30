@@ -51,6 +51,11 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   class OpenVR::COpenVRContext : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private OVR.OpenVR.CVRSystem m_pVRSystem
     // Size: 0x8
     // Offset: 0x10
@@ -129,6 +134,7 @@ namespace OVR::OpenVR {
     OVR::OpenVR::CVRSpatialAnchors* m_pVRSpatialAnchors;
     // Field size check
     static_assert(sizeof(OVR::OpenVR::CVRSpatialAnchors*) == 0x8);
+    public:
     // Get instance field reference: private OVR.OpenVR.CVRSystem m_pVRSystem
     OVR::OpenVR::CVRSystem*& dyn_m_pVRSystem();
     // Get instance field reference: private OVR.OpenVR.CVRChaperone m_pVRChaperone

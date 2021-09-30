@@ -30,6 +30,11 @@ namespace System::Diagnostics {
   // [ComVisibleAttribute] Offset: E62788
   class StackFrame : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 ilOffset
     // Size: 0x4
     // Offset: 0x10
@@ -86,6 +91,7 @@ namespace System::Diagnostics {
     ::Il2CppString* internalMethodName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // static field const value: static public System.Int32 OFFSET_UNKNOWN
     static constexpr const int OFFSET_UNKNOWN = -1;
     // Get static field: static public System.Int32 OFFSET_UNKNOWN

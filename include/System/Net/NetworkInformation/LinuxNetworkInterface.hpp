@@ -31,6 +31,11 @@ namespace System::Net::NetworkInformation {
     public:
     // Writing base type padding for base size: 0x34 to desired offset: 0x38
     char ___base_padding[0x4] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String iface_path
     // Size: 0x8
     // Offset: 0x38
@@ -49,6 +54,7 @@ namespace System::Net::NetworkInformation {
     ::Il2CppString* iface_flags_path;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: private System.String iface_path
     ::Il2CppString*& dyn_iface_path();
     // Get instance field reference: private System.String iface_operstate_path

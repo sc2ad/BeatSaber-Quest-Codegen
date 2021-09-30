@@ -37,6 +37,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::ShowHideAnimationController::$DeactivateSelfAfterDelayCoroutine$d__9
     class $DeactivateSelfAfterDelayCoroutine$d__9;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Animator _animator
     // Size: 0x8
     // Offset: 0x18
@@ -71,6 +76,7 @@ namespace GlobalNamespace {
     int showAnimatorParam;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public UnityEngine.Animator _animator

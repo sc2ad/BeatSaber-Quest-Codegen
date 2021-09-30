@@ -9,6 +9,7 @@
 #include "UnityEngine/Vector3.hpp"
 // Including type: UnityEngine.ContactPoint
 #include "UnityEngine/ContactPoint.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -29,6 +30,11 @@ namespace UnityEngine {
   // [RequiredByNativeCodeAttribute] Offset: E858E8
   class Collision : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // UnityEngine.Vector3 m_Impulse
     // Size: 0xC
     // Offset: 0x10
@@ -64,15 +70,16 @@ namespace UnityEngine {
     // UnityEngine.ContactPoint[] m_ReusedContacts
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayWrapper<UnityEngine::ContactPoint> m_ReusedContacts;
+    ::ArrayW<UnityEngine::ContactPoint> m_ReusedContacts;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::ContactPoint>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::ContactPoint>) == 0x8);
     // UnityEngine.ContactPoint[] m_LegacyContacts
     // Size: 0x8
     // Offset: 0x48
-    ::ArrayWrapper<UnityEngine::ContactPoint> m_LegacyContacts;
+    ::ArrayW<UnityEngine::ContactPoint> m_LegacyContacts;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::ContactPoint>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::ContactPoint>) == 0x8);
+    public:
     // Get instance field reference: UnityEngine.Vector3 m_Impulse
     UnityEngine::Vector3& dyn_m_Impulse();
     // Get instance field reference: UnityEngine.Vector3 m_RelativeVelocity
@@ -84,12 +91,12 @@ namespace UnityEngine {
     // Get instance field reference: System.Int32 m_ContactCount
     int& dyn_m_ContactCount();
     // Get instance field reference: UnityEngine.ContactPoint[] m_ReusedContacts
-    ::ArrayWrapper<UnityEngine::ContactPoint>& dyn_m_ReusedContacts();
+    ::ArrayW<UnityEngine::ContactPoint>& dyn_m_ReusedContacts();
     // Get instance field reference: UnityEngine.ContactPoint[] m_LegacyContacts
-    ::ArrayWrapper<UnityEngine::ContactPoint>& dyn_m_LegacyContacts();
+    ::ArrayW<UnityEngine::ContactPoint>& dyn_m_LegacyContacts();
   }; // UnityEngine.Collision
   #pragma pack(pop)
-  static check_size<sizeof(Collision), 72 + sizeof(::ArrayWrapper<UnityEngine::ContactPoint>)> __UnityEngine_CollisionSizeCheck;
+  static check_size<sizeof(Collision), 72 + sizeof(::ArrayW<UnityEngine::ContactPoint>)> __UnityEngine_CollisionSizeCheck;
   static_assert(sizeof(Collision) == 0x50);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

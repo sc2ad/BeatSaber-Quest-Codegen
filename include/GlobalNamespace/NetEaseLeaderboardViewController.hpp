@@ -48,6 +48,11 @@ namespace GlobalNamespace {
     class $RefreshDelayed$d__14;
     // Nested type: GlobalNamespace::NetEaseLeaderboardViewController::$LoadScoresAsync$d__15
     struct $LoadScoresAsync$d__15;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private LeaderboardTableView _leaderboardTableView
     // Size: 0x8
     // Offset: 0x70
@@ -91,6 +96,7 @@ namespace GlobalNamespace {
     bool hasScoresData;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private LeaderboardTableView _leaderboardTableView
     GlobalNamespace::LeaderboardTableView*& dyn__leaderboardTableView();
     // Get instance field reference: private LoadingControl _loadingControl

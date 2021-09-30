@@ -34,12 +34,18 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     public:
     // Writing base type padding for base size: 0x1C to desired offset: 0x20
     char ___base_padding[0x4] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Org.BouncyCastle.Crypto.Parameters.DHParameters parameters
     // Size: 0x8
     // Offset: 0x20
     Org::BouncyCastle::Crypto::Parameters::DHParameters* parameters;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Crypto::Parameters::DHParameters*) == 0x8);
+    public:
     // Creating conversion operator: operator Org::BouncyCastle::Crypto::Parameters::DHParameters*
     constexpr operator Org::BouncyCastle::Crypto::Parameters::DHParameters*() const noexcept {
       return parameters;

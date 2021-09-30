@@ -36,6 +36,11 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   struct MockPlayerLobbyPoseGeneratorAI::$SendPoses$d__1/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0
@@ -142,6 +147,7 @@ namespace GlobalNamespace {
     System::Runtime::CompilerServices::TaskAwaiter $$u__1;
     // Field size check
     static_assert(sizeof(System::Runtime::CompilerServices::TaskAwaiter) == 0x8);
+    public:
     // Creating value type constructor for type: $SendPoses$d__1
     constexpr $SendPoses$d__1(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncVoidMethodBuilder $$t__builder_ = {}, GlobalNamespace::MockPlayerLobbyPoseGeneratorAI* $$4__this_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, UnityEngine::Pose $headPose$5__2_ = {}, UnityEngine::Pose $leftHandPose$5__3_ = {}, UnityEngine::Pose $rightHandPose$5__4_ = {}, System::Random* $random$5__5_ = {}, UnityEngine::Pose $lastHeadPoseTarget$5__6_ = {}, UnityEngine::Pose $lastLeftHandPoseTarget$5__7_ = {}, UnityEngine::Pose $lastRightHandPoseTarget$5__8_ = {}, float $lastTargetTime$5__9_ = {}, UnityEngine::Pose $headPoseTarget$5__10_ = {}, UnityEngine::Pose $leftHandPoseTarget$5__11_ = {}, UnityEngine::Pose $rightHandPoseTarget$5__12_ = {}, float $nextTargetTime$5__13_ = {}, System::Runtime::CompilerServices::TaskAwaiter $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, cancellationToken{cancellationToken_}, $headPose$5__2{$headPose$5__2_}, $leftHandPose$5__3{$leftHandPose$5__3_}, $rightHandPose$5__4{$rightHandPose$5__4_}, $random$5__5{$random$5__5_}, $lastHeadPoseTarget$5__6{$lastHeadPoseTarget$5__6_}, $lastLeftHandPoseTarget$5__7{$lastLeftHandPoseTarget$5__7_}, $lastRightHandPoseTarget$5__8{$lastRightHandPoseTarget$5__8_}, $lastTargetTime$5__9{$lastTargetTime$5__9_}, $headPoseTarget$5__10{$headPoseTarget$5__10_}, $leftHandPoseTarget$5__11{$leftHandPoseTarget$5__11_}, $rightHandPoseTarget$5__12{$rightHandPoseTarget$5__12_}, $nextTargetTime$5__13{$nextTargetTime$5__13_}, $$u__1{$$u__1_} {}
     // Creating interface conversion operator: operator System::ValueType

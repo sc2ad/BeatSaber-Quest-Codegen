@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -36,6 +37,11 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class IKEffector : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Transform bone
     // Size: 0x8
     // Offset: 0x10
@@ -104,9 +110,9 @@ namespace RootMotion::FinalIK {
     // public UnityEngine.Transform[] childBones
     // Size: 0x8
     // Offset: 0x58
-    ::ArrayWrapper<UnityEngine::Transform*> childBones;
+    ::ArrayW<UnityEngine::Transform*> childBones;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Transform*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Transform*>) == 0x8);
     // public UnityEngine.Transform planeBone1
     // Size: 0x8
     // Offset: 0x60
@@ -146,9 +152,9 @@ namespace RootMotion::FinalIK {
     // private UnityEngine.Vector3[] localPositions
     // Size: 0x8
     // Offset: 0x90
-    ::ArrayWrapper<UnityEngine::Vector3> localPositions;
+    ::ArrayW<UnityEngine::Vector3> localPositions;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector3>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Vector3>) == 0x8);
     // private System.Boolean usePlaneNodes
     // Size: 0x1
     // Offset: 0x98
@@ -230,15 +236,16 @@ namespace RootMotion::FinalIK {
     // private System.Int32[] childChainIndexes
     // Size: 0x8
     // Offset: 0xE0
-    ::ArrayWrapper<int> childChainIndexes;
+    ::ArrayW<int> childChainIndexes;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // private System.Int32[] childNodeIndexes
     // Size: 0x8
     // Offset: 0xE8
-    ::ArrayWrapper<int> childNodeIndexes;
+    ::ArrayW<int> childNodeIndexes;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
+    public:
     // Get instance field reference: public UnityEngine.Transform bone
     UnityEngine::Transform*& dyn_bone();
     // Get instance field reference: public UnityEngine.Transform target
@@ -260,7 +267,7 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public System.Single maintainRelativePositionWeight
     float& dyn_maintainRelativePositionWeight();
     // Get instance field reference: public UnityEngine.Transform[] childBones
-    ::ArrayWrapper<UnityEngine::Transform*>& dyn_childBones();
+    ::ArrayW<UnityEngine::Transform*>& dyn_childBones();
     // Get instance field reference: public UnityEngine.Transform planeBone1
     UnityEngine::Transform*& dyn_planeBone1();
     // Get instance field reference: public UnityEngine.Transform planeBone2
@@ -274,7 +281,7 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private System.Single rotW
     float& dyn_rotW();
     // Get instance field reference: private UnityEngine.Vector3[] localPositions
-    ::ArrayWrapper<UnityEngine::Vector3>& dyn_localPositions();
+    ::ArrayW<UnityEngine::Vector3>& dyn_localPositions();
     // Get instance field reference: private System.Boolean usePlaneNodes
     bool& dyn_usePlaneNodes();
     // Get instance field reference: private UnityEngine.Quaternion animatedPlaneRotation
@@ -300,9 +307,9 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private System.Int32 plane3NodeIndex
     int& dyn_plane3NodeIndex();
     // Get instance field reference: private System.Int32[] childChainIndexes
-    ::ArrayWrapper<int>& dyn_childChainIndexes();
+    ::ArrayW<int>& dyn_childChainIndexes();
     // Get instance field reference: private System.Int32[] childNodeIndexes
-    ::ArrayWrapper<int>& dyn_childNodeIndexes();
+    ::ArrayW<int>& dyn_childNodeIndexes();
     // public System.Boolean get_isEndEffector()
     // Offset: 0x1E95878
     bool get_isEndEffector();
@@ -312,7 +319,7 @@ namespace RootMotion::FinalIK {
     // public System.Void .ctor(UnityEngine.Transform bone, UnityEngine.Transform[] childBones)
     // Offset: 0x1E95A9C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static IKEffector* New_ctor(UnityEngine::Transform* bone, ::ArrayWrapper<UnityEngine::Transform*> childBones) {
+    static IKEffector* New_ctor(UnityEngine::Transform* bone, ::ArrayW<UnityEngine::Transform*> childBones) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::IKEffector::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<IKEffector*, creationType>(bone, childBones)));
     }
@@ -360,7 +367,7 @@ namespace RootMotion::FinalIK {
     }
   }; // RootMotion.FinalIK.IKEffector
   #pragma pack(pop)
-  static check_size<sizeof(IKEffector), 232 + sizeof(::ArrayWrapper<int>)> __RootMotion_FinalIK_IKEffectorSizeCheck;
+  static check_size<sizeof(IKEffector), 232 + sizeof(::ArrayW<int>)> __RootMotion_FinalIK_IKEffectorSizeCheck;
   static_assert(sizeof(IKEffector) == 0xF0);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKEffector*, "RootMotion.FinalIK", "IKEffector");

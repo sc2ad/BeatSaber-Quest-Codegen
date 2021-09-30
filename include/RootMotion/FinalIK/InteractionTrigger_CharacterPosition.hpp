@@ -31,6 +31,11 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class InteractionTrigger::CharacterPosition : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [TooltipAttribute] Offset: 0xEF6A60
     // public System.Boolean use
     // Size: 0x1
@@ -84,6 +89,7 @@ namespace RootMotion::FinalIK {
     bool fixYAxis;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: public System.Boolean use
     bool& dyn_use();
     // Get instance field reference: public UnityEngine.Vector2 offset

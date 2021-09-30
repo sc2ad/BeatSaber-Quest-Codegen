@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Math::EC::Rfc8032
@@ -49,61 +50,61 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
     // Set static field: static public readonly System.Int32 SignatureSize
     static void _set_SignatureSize(int value);
     // Get static field: static private readonly System.Byte[] Dom2Prefix
-    static ::ArrayWrapper<uint8_t> _get_Dom2Prefix();
+    static ::ArrayW<uint8_t> _get_Dom2Prefix();
     // Set static field: static private readonly System.Byte[] Dom2Prefix
-    static void _set_Dom2Prefix(::ArrayWrapper<uint8_t> value);
+    static void _set_Dom2Prefix(::ArrayW<uint8_t> value);
     // Get static field: static private readonly System.UInt32[] P
-    static ::ArrayWrapper<uint> _get_P();
+    static ::ArrayW<uint> _get_P();
     // Set static field: static private readonly System.UInt32[] P
-    static void _set_P(::ArrayWrapper<uint> value);
+    static void _set_P(::ArrayW<uint> value);
     // Get static field: static private readonly System.UInt32[] L
-    static ::ArrayWrapper<uint> _get_L();
+    static ::ArrayW<uint> _get_L();
     // Set static field: static private readonly System.UInt32[] L
-    static void _set_L(::ArrayWrapper<uint> value);
+    static void _set_L(::ArrayW<uint> value);
     // Get static field: static private readonly System.Int32[] B_x
-    static ::ArrayWrapper<int> _get_B_x();
+    static ::ArrayW<int> _get_B_x();
     // Set static field: static private readonly System.Int32[] B_x
-    static void _set_B_x(::ArrayWrapper<int> value);
+    static void _set_B_x(::ArrayW<int> value);
     // Get static field: static private readonly System.Int32[] B_y
-    static ::ArrayWrapper<int> _get_B_y();
+    static ::ArrayW<int> _get_B_y();
     // Set static field: static private readonly System.Int32[] B_y
-    static void _set_B_y(::ArrayWrapper<int> value);
+    static void _set_B_y(::ArrayW<int> value);
     // Get static field: static private readonly System.Int32[] C_d
-    static ::ArrayWrapper<int> _get_C_d();
+    static ::ArrayW<int> _get_C_d();
     // Set static field: static private readonly System.Int32[] C_d
-    static void _set_C_d(::ArrayWrapper<int> value);
+    static void _set_C_d(::ArrayW<int> value);
     // Get static field: static private readonly System.Int32[] C_d2
-    static ::ArrayWrapper<int> _get_C_d2();
+    static ::ArrayW<int> _get_C_d2();
     // Set static field: static private readonly System.Int32[] C_d2
-    static void _set_C_d2(::ArrayWrapper<int> value);
+    static void _set_C_d2(::ArrayW<int> value);
     // Get static field: static private readonly System.Int32[] C_d4
-    static ::ArrayWrapper<int> _get_C_d4();
+    static ::ArrayW<int> _get_C_d4();
     // Set static field: static private readonly System.Int32[] C_d4
-    static void _set_C_d4(::ArrayWrapper<int> value);
+    static void _set_C_d4(::ArrayW<int> value);
     // Get static field: static private readonly System.Object precompLock
     static ::Il2CppObject* _get_precompLock();
     // Set static field: static private readonly System.Object precompLock
     static void _set_precompLock(::Il2CppObject* value);
     // Get static field: static private Org.BouncyCastle.Math.EC.Rfc8032.Ed25519/Org.BouncyCastle.Math.EC.Rfc8032.PointExt[] precompBaseTable
-    static ::ArrayWrapper<Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointExt*> _get_precompBaseTable();
+    static ::ArrayW<Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointExt*> _get_precompBaseTable();
     // Set static field: static private Org.BouncyCastle.Math.EC.Rfc8032.Ed25519/Org.BouncyCastle.Math.EC.Rfc8032.PointExt[] precompBaseTable
-    static void _set_precompBaseTable(::ArrayWrapper<Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointExt*> value);
+    static void _set_precompBaseTable(::ArrayW<Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointExt*> value);
     // Get static field: static private System.Int32[] precompBase
-    static ::ArrayWrapper<int> _get_precompBase();
+    static ::ArrayW<int> _get_precompBase();
     // Set static field: static private System.Int32[] precompBase
-    static void _set_precompBase(::ArrayWrapper<int> value);
+    static void _set_precompBase(::ArrayW<int> value);
     // static private System.Void .cctor()
     // Offset: 0x1F8F204
     static void _cctor();
     // static private System.Byte[] CalculateS(System.Byte[] r, System.Byte[] k, System.Byte[] s)
     // Offset: 0x1F8BBE0
-    static ::ArrayWrapper<uint8_t> CalculateS(::ArrayWrapper<uint8_t> r, ::ArrayWrapper<uint8_t> k, ::ArrayWrapper<uint8_t> s);
+    static ::ArrayW<uint8_t> CalculateS(::ArrayW<uint8_t> r, ::ArrayW<uint8_t> k, ::ArrayW<uint8_t> s);
     // static private System.Boolean CheckContextVar(System.Byte[] ctx, System.Byte phflag)
     // Offset: 0x1F8C340
-    static bool CheckContextVar(::ArrayWrapper<uint8_t> ctx, uint8_t phflag);
+    static bool CheckContextVar(::ArrayW<uint8_t> ctx, uint8_t phflag);
     // static private System.Int32 CheckPoint(System.Int32[] x, System.Int32[] y)
     // Offset: 0x1F8C36C
-    static int CheckPoint(::ArrayWrapper<int> x, ::ArrayWrapper<int> y);
+    static int CheckPoint(::ArrayW<int> x, ::ArrayW<int> y);
     // static private Org.BouncyCastle.Crypto.IDigest CreateDigest()
     // Offset: 0x1F8C48C
     static Org::BouncyCastle::Crypto::IDigest* CreateDigest();
@@ -112,40 +113,40 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
     static Org::BouncyCastle::Crypto::IDigest* CreatePrehash();
     // static private System.UInt32 Decode24(System.Byte[] bs, System.Int32 off)
     // Offset: 0x1F8C544
-    static uint Decode24(::ArrayWrapper<uint8_t> bs, int off);
+    static uint Decode24(::ArrayW<uint8_t> bs, int off);
     // static private System.UInt32 Decode32(System.Byte[] bs, System.Int32 off)
     // Offset: 0x1F8C5A4
-    static uint Decode32(::ArrayWrapper<uint8_t> bs, int off);
+    static uint Decode32(::ArrayW<uint8_t> bs, int off);
     // static private System.Void Decode32(System.Byte[] bs, System.Int32 bsOff, System.UInt32[] n, System.Int32 nOff, System.Int32 nLen)
     // Offset: 0x1F8C618
-    static void Decode32(::ArrayWrapper<uint8_t> bs, int bsOff, ::ArrayWrapper<uint> n, int nOff, int nLen);
+    static void Decode32(::ArrayW<uint8_t> bs, int bsOff, ::ArrayW<uint> n, int nOff, int nLen);
     // static private System.Void DecodeScalar(System.Byte[] k, System.Int32 kOff, System.UInt32[] n)
     // Offset: 0x1F8BD8C
-    static void DecodeScalar(::ArrayWrapper<uint8_t> k, int kOff, ::ArrayWrapper<uint> n);
+    static void DecodeScalar(::ArrayW<uint8_t> k, int kOff, ::ArrayW<uint> n);
     // static private System.Void Dom2(Org.BouncyCastle.Crypto.IDigest d, System.Byte phflag, System.Byte[] ctx)
     // Offset: 0x1F8C710
-    static void Dom2(Org::BouncyCastle::Crypto::IDigest* d, uint8_t phflag, ::ArrayWrapper<uint8_t> ctx);
+    static void Dom2(Org::BouncyCastle::Crypto::IDigest* d, uint8_t phflag, ::ArrayW<uint8_t> ctx);
     // static private System.Void Encode24(System.UInt32 n, System.Byte[] bs, System.Int32 off)
     // Offset: 0x1F8C978
-    static void Encode24(uint n, ::ArrayWrapper<uint8_t> bs, int off);
+    static void Encode24(uint n, ::ArrayW<uint8_t> bs, int off);
     // static private System.Void Encode32(System.UInt32 n, System.Byte[] bs, System.Int32 off)
     // Offset: 0x1F8BE10
-    static void Encode32(uint n, ::ArrayWrapper<uint8_t> bs, int off);
+    static void Encode32(uint n, ::ArrayW<uint8_t> bs, int off);
     // static private System.Void Encode56(System.UInt64 n, System.Byte[] bs, System.Int32 off)
     // Offset: 0x1F8C9E8
-    static void Encode56(uint64_t n, ::ArrayWrapper<uint8_t> bs, int off);
+    static void Encode56(uint64_t n, ::ArrayW<uint8_t> bs, int off);
     // static private System.Int32 EncodePoint(Org.BouncyCastle.Math.EC.Rfc8032.Ed25519/Org.BouncyCastle.Math.EC.Rfc8032.PointAccum p, System.Byte[] r, System.Int32 rOff)
     // Offset: 0x1F8CA74
-    static int EncodePoint(Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointAccum* p, ::ArrayWrapper<uint8_t> r, int rOff);
+    static int EncodePoint(Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointAccum* p, ::ArrayW<uint8_t> r, int rOff);
     // static public System.Void GeneratePublicKey(System.Byte[] sk, System.Int32 skOff, System.Byte[] pk, System.Int32 pkOff)
     // Offset: 0x1F8CBC8
-    static void GeneratePublicKey(::ArrayWrapper<uint8_t> sk, int skOff, ::ArrayWrapper<uint8_t> pk, int pkOff);
+    static void GeneratePublicKey(::ArrayW<uint8_t> sk, int skOff, ::ArrayW<uint8_t> pk, int pkOff);
     // static private System.Void ImplSign(Org.BouncyCastle.Crypto.IDigest d, System.Byte[] h, System.Byte[] s, System.Byte[] pk, System.Int32 pkOff, System.Byte[] ctx, System.Byte phflag, System.Byte[] m, System.Int32 mOff, System.Int32 mLen, System.Byte[] sig, System.Int32 sigOff)
     // Offset: 0x1F8CF44
-    static void ImplSign(Org::BouncyCastle::Crypto::IDigest* d, ::ArrayWrapper<uint8_t> h, ::ArrayWrapper<uint8_t> s, ::ArrayWrapper<uint8_t> pk, int pkOff, ::ArrayWrapper<uint8_t> ctx, uint8_t phflag, ::ArrayWrapper<uint8_t> m, int mOff, int mLen, ::ArrayWrapper<uint8_t> sig, int sigOff);
+    static void ImplSign(Org::BouncyCastle::Crypto::IDigest* d, ::ArrayW<uint8_t> h, ::ArrayW<uint8_t> s, ::ArrayW<uint8_t> pk, int pkOff, ::ArrayW<uint8_t> ctx, uint8_t phflag, ::ArrayW<uint8_t> m, int mOff, int mLen, ::ArrayW<uint8_t> sig, int sigOff);
     // static private System.Void ImplSign(System.Byte[] sk, System.Int32 skOff, System.Byte[] pk, System.Int32 pkOff, System.Byte[] ctx, System.Byte phflag, System.Byte[] m, System.Int32 mOff, System.Int32 mLen, System.Byte[] sig, System.Int32 sigOff)
     // Offset: 0x1F8D3C8
-    static void ImplSign(::ArrayWrapper<uint8_t> sk, int skOff, ::ArrayWrapper<uint8_t> pk, int pkOff, ::ArrayWrapper<uint8_t> ctx, uint8_t phflag, ::ArrayWrapper<uint8_t> m, int mOff, int mLen, ::ArrayWrapper<uint8_t> sig, int sigOff);
+    static void ImplSign(::ArrayW<uint8_t> sk, int skOff, ::ArrayW<uint8_t> pk, int pkOff, ::ArrayW<uint8_t> ctx, uint8_t phflag, ::ArrayW<uint8_t> m, int mOff, int mLen, ::ArrayW<uint8_t> sig, int sigOff);
     // static private System.Void PointAddVar(System.Boolean negate, Org.BouncyCastle.Math.EC.Rfc8032.Ed25519/Org.BouncyCastle.Math.EC.Rfc8032.PointExt p, Org.BouncyCastle.Math.EC.Rfc8032.Ed25519/Org.BouncyCastle.Math.EC.Rfc8032.PointExt q, Org.BouncyCastle.Math.EC.Rfc8032.Ed25519/Org.BouncyCastle.Math.EC.Rfc8032.PointExt r)
     // Offset: 0x1F8D6EC
     static void PointAddVar(bool negate, Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointExt* p, Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointExt* q, Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointExt* r);
@@ -172,7 +173,7 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
     static void PointLookup(int block, int index, Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointPrecomp* p);
     // static private Org.BouncyCastle.Math.EC.Rfc8032.Ed25519/Org.BouncyCastle.Math.EC.Rfc8032.PointExt[] PointPrecompVar(Org.BouncyCastle.Math.EC.Rfc8032.Ed25519/Org.BouncyCastle.Math.EC.Rfc8032.PointExt p, System.Int32 count)
     // Offset: 0x1F8E0B0
-    static ::ArrayWrapper<Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointExt*> PointPrecompVar(Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointExt* p, int count);
+    static ::ArrayW<Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointExt*> PointPrecompVar(Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointExt* p, int count);
     // static private System.Void PointSetNeutral(Org.BouncyCastle.Math.EC.Rfc8032.Ed25519/Org.BouncyCastle.Math.EC.Rfc8032.PointAccum p)
     // Offset: 0x1F8E26C
     static void PointSetNeutral(Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointAccum* p);
@@ -184,25 +185,25 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
     static void Precompute();
     // static private System.Void PruneScalar(System.Byte[] n, System.Int32 nOff, System.Byte[] r)
     // Offset: 0x1F8CE00
-    static void PruneScalar(::ArrayWrapper<uint8_t> n, int nOff, ::ArrayWrapper<uint8_t> r);
+    static void PruneScalar(::ArrayW<uint8_t> n, int nOff, ::ArrayW<uint8_t> r);
     // static private System.Byte[] ReduceScalar(System.Byte[] n)
     // Offset: 0x1F8BE9C
-    static ::ArrayWrapper<uint8_t> ReduceScalar(::ArrayWrapper<uint8_t> n);
+    static ::ArrayW<uint8_t> ReduceScalar(::ArrayW<uint8_t> n);
     // static private System.Void ScalarMultBase(System.Byte[] k, Org.BouncyCastle.Math.EC.Rfc8032.Ed25519/Org.BouncyCastle.Math.EC.Rfc8032.PointAccum r)
     // Offset: 0x1F8ECB0
-    static void ScalarMultBase(::ArrayWrapper<uint8_t> k, Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointAccum* r);
+    static void ScalarMultBase(::ArrayW<uint8_t> k, Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointAccum* r);
     // static private System.Void ScalarMultBaseEncoded(System.Byte[] k, System.Byte[] r, System.Int32 rOff)
     // Offset: 0x1F8CE6C
-    static void ScalarMultBaseEncoded(::ArrayWrapper<uint8_t> k, ::ArrayWrapper<uint8_t> r, int rOff);
+    static void ScalarMultBaseEncoded(::ArrayW<uint8_t> k, ::ArrayW<uint8_t> r, int rOff);
     // static public System.Void Sign(System.Byte[] sk, System.Int32 skOff, System.Byte[] pk, System.Int32 pkOff, System.Byte[] m, System.Int32 mOff, System.Int32 mLen, System.Byte[] sig, System.Int32 sigOff)
     // Offset: 0x1F8EF6C
-    static void Sign(::ArrayWrapper<uint8_t> sk, int skOff, ::ArrayWrapper<uint8_t> pk, int pkOff, ::ArrayWrapper<uint8_t> m, int mOff, int mLen, ::ArrayWrapper<uint8_t> sig, int sigOff);
+    static void Sign(::ArrayW<uint8_t> sk, int skOff, ::ArrayW<uint8_t> pk, int pkOff, ::ArrayW<uint8_t> m, int mOff, int mLen, ::ArrayW<uint8_t> sig, int sigOff);
     // static public System.Void Sign(System.Byte[] sk, System.Int32 skOff, System.Byte[] pk, System.Int32 pkOff, System.Byte[] ctx, System.Byte[] m, System.Int32 mOff, System.Int32 mLen, System.Byte[] sig, System.Int32 sigOff)
     // Offset: 0x1F8F044
-    static void Sign(::ArrayWrapper<uint8_t> sk, int skOff, ::ArrayWrapper<uint8_t> pk, int pkOff, ::ArrayWrapper<uint8_t> ctx, ::ArrayWrapper<uint8_t> m, int mOff, int mLen, ::ArrayWrapper<uint8_t> sig, int sigOff);
+    static void Sign(::ArrayW<uint8_t> sk, int skOff, ::ArrayW<uint8_t> pk, int pkOff, ::ArrayW<uint8_t> ctx, ::ArrayW<uint8_t> m, int mOff, int mLen, ::ArrayW<uint8_t> sig, int sigOff);
     // static public System.Void SignPrehash(System.Byte[] sk, System.Int32 skOff, System.Byte[] pk, System.Int32 pkOff, System.Byte[] ctx, System.Byte[] ph, System.Int32 phOff, System.Byte[] sig, System.Int32 sigOff)
     // Offset: 0x1F8F120
-    static void SignPrehash(::ArrayWrapper<uint8_t> sk, int skOff, ::ArrayWrapper<uint8_t> pk, int pkOff, ::ArrayWrapper<uint8_t> ctx, ::ArrayWrapper<uint8_t> ph, int phOff, ::ArrayWrapper<uint8_t> sig, int sigOff);
+    static void SignPrehash(::ArrayW<uint8_t> sk, int skOff, ::ArrayW<uint8_t> pk, int pkOff, ::ArrayW<uint8_t> ctx, ::ArrayW<uint8_t> ph, int phOff, ::ArrayW<uint8_t> sig, int sigOff);
   }; // Org.BouncyCastle.Math.EC.Rfc8032.Ed25519
   #pragma pack(pop)
 }
@@ -220,7 +221,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::CalculateS
 // Il2CppName: CalculateS
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::CalculateS)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::CalculateS)> {
   static const MethodInfo* get() {
     static auto* r = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* k = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -231,7 +232,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::CheckContextVar
 // Il2CppName: CheckContextVar
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayWrapper<uint8_t>, uint8_t)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::CheckContextVar)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<uint8_t>, uint8_t)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::CheckContextVar)> {
   static const MethodInfo* get() {
     static auto* ctx = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* phflag = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
@@ -241,7 +242,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::CheckPoint
 // Il2CppName: CheckPoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayWrapper<int>, ::ArrayWrapper<int>)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::CheckPoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayW<int>, ::ArrayW<int>)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::CheckPoint)> {
   static const MethodInfo* get() {
     static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     static auto* y = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
@@ -267,7 +268,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::Decode24
 // Il2CppName: Decode24
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::Decode24)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::ArrayW<uint8_t>, int)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::Decode24)> {
   static const MethodInfo* get() {
     static auto* bs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* off = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -277,7 +278,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::Decode32
 // Il2CppName: Decode32
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::Decode32)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::ArrayW<uint8_t>, int)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::Decode32)> {
   static const MethodInfo* get() {
     static auto* bs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* off = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -287,7 +288,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::Decode32
 // Il2CppName: Decode32
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint8_t>, int, ::ArrayWrapper<uint>, int, int)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::Decode32)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t>, int, ::ArrayW<uint>, int, int)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::Decode32)> {
   static const MethodInfo* get() {
     static auto* bs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* bsOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -300,7 +301,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::DecodeScalar
 // Il2CppName: DecodeScalar
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint8_t>, int, ::ArrayWrapper<uint>)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::DecodeScalar)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t>, int, ::ArrayW<uint>)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::DecodeScalar)> {
   static const MethodInfo* get() {
     static auto* k = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* kOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -311,7 +312,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::Dom2
 // Il2CppName: Dom2
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Org::BouncyCastle::Crypto::IDigest*, uint8_t, ::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::Dom2)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Org::BouncyCastle::Crypto::IDigest*, uint8_t, ::ArrayW<uint8_t>)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::Dom2)> {
   static const MethodInfo* get() {
     static auto* d = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Crypto", "IDigest")->byval_arg;
     static auto* phflag = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
@@ -322,7 +323,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Or
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::Encode24
 // Il2CppName: Encode24
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint, ::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::Encode24)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint, ::ArrayW<uint8_t>, int)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::Encode24)> {
   static const MethodInfo* get() {
     static auto* n = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* bs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -333,7 +334,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ui
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::Encode32
 // Il2CppName: Encode32
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint, ::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::Encode32)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint, ::ArrayW<uint8_t>, int)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::Encode32)> {
   static const MethodInfo* get() {
     static auto* n = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* bs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -344,7 +345,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ui
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::Encode56
 // Il2CppName: Encode56
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t, ::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::Encode56)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t, ::ArrayW<uint8_t>, int)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::Encode56)> {
   static const MethodInfo* get() {
     static auto* n = &::il2cpp_utils::GetClassFromName("System", "UInt64")->byval_arg;
     static auto* bs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -355,7 +356,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ui
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::EncodePoint
 // Il2CppName: EncodePoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointAccum*, ::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::EncodePoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointAccum*, ::ArrayW<uint8_t>, int)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::EncodePoint)> {
   static const MethodInfo* get() {
     static auto* p = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC.Rfc8032", "Ed25519/PointAccum")->byval_arg;
     static auto* r = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -366,7 +367,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Org
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::GeneratePublicKey
 // Il2CppName: GeneratePublicKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint8_t>, int, ::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::GeneratePublicKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t>, int, ::ArrayW<uint8_t>, int)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::GeneratePublicKey)> {
   static const MethodInfo* get() {
     static auto* sk = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* skOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -378,7 +379,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::ImplSign
 // Il2CppName: ImplSign
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Org::BouncyCastle::Crypto::IDigest*, ::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>, int, ::ArrayWrapper<uint8_t>, uint8_t, ::ArrayWrapper<uint8_t>, int, int, ::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::ImplSign)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Org::BouncyCastle::Crypto::IDigest*, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>, int, ::ArrayW<uint8_t>, uint8_t, ::ArrayW<uint8_t>, int, int, ::ArrayW<uint8_t>, int)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::ImplSign)> {
   static const MethodInfo* get() {
     static auto* d = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Crypto", "IDigest")->byval_arg;
     static auto* h = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -398,7 +399,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Or
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::ImplSign
 // Il2CppName: ImplSign
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint8_t>, int, ::ArrayWrapper<uint8_t>, int, ::ArrayWrapper<uint8_t>, uint8_t, ::ArrayWrapper<uint8_t>, int, int, ::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::ImplSign)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t>, int, ::ArrayW<uint8_t>, int, ::ArrayW<uint8_t>, uint8_t, ::ArrayW<uint8_t>, int, int, ::ArrayW<uint8_t>, int)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::ImplSign)> {
   static const MethodInfo* get() {
     static auto* sk = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* skOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -495,7 +496,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(in
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointPrecompVar
 // Il2CppName: PointPrecompVar
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointExt*> (*)(Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointExt*, int)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointPrecompVar)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointExt*> (*)(Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointExt*, int)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointPrecompVar)> {
   static const MethodInfo* get() {
     static auto* p = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC.Rfc8032", "Ed25519/PointExt")->byval_arg;
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -531,7 +532,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PruneScalar
 // Il2CppName: PruneScalar
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint8_t>, int, ::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PruneScalar)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t>, int, ::ArrayW<uint8_t>)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PruneScalar)> {
   static const MethodInfo* get() {
     static auto* n = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* nOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -542,7 +543,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::ReduceScalar
 // Il2CppName: ReduceScalar
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::ReduceScalar)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(::ArrayW<uint8_t>)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::ReduceScalar)> {
   static const MethodInfo* get() {
     static auto* n = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::Rfc8032::Ed25519*), "ReduceScalar", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{n});
@@ -551,7 +552,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::ScalarMultBase
 // Il2CppName: ScalarMultBase
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint8_t>, Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointAccum*)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::ScalarMultBase)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t>, Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::PointAccum*)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::ScalarMultBase)> {
   static const MethodInfo* get() {
     static auto* k = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* r = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC.Rfc8032", "Ed25519/PointAccum")->byval_arg;
@@ -561,7 +562,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::ScalarMultBaseEncoded
 // Il2CppName: ScalarMultBaseEncoded
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::ScalarMultBaseEncoded)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>, int)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::ScalarMultBaseEncoded)> {
   static const MethodInfo* get() {
     static auto* k = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* r = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -572,7 +573,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::Sign
 // Il2CppName: Sign
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint8_t>, int, ::ArrayWrapper<uint8_t>, int, ::ArrayWrapper<uint8_t>, int, int, ::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::Sign)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t>, int, ::ArrayW<uint8_t>, int, ::ArrayW<uint8_t>, int, int, ::ArrayW<uint8_t>, int)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::Sign)> {
   static const MethodInfo* get() {
     static auto* sk = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* skOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -589,7 +590,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::Sign
 // Il2CppName: Sign
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint8_t>, int, ::ArrayWrapper<uint8_t>, int, ::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>, int, int, ::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::Sign)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t>, int, ::ArrayW<uint8_t>, int, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>, int, int, ::ArrayW<uint8_t>, int)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::Sign)> {
   static const MethodInfo* get() {
     static auto* sk = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* skOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -607,7 +608,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::SignPrehash
 // Il2CppName: SignPrehash
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint8_t>, int, ::ArrayWrapper<uint8_t>, int, ::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>, int, ::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::SignPrehash)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t>, int, ::ArrayW<uint8_t>, int, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>, int, ::ArrayW<uint8_t>, int)>(&Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::SignPrehash)> {
   static const MethodInfo* get() {
     static auto* sk = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* skOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

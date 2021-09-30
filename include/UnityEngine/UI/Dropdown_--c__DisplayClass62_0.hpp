@@ -21,6 +21,11 @@ namespace UnityEngine::UI {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class Dropdown::$$c__DisplayClass62_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.UI.Dropdown/UnityEngine.UI.DropdownItem item
     // Size: 0x8
     // Offset: 0x10
@@ -33,6 +38,7 @@ namespace UnityEngine::UI {
     UnityEngine::UI::Dropdown* $$4__this;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Dropdown*) == 0x8);
+    public:
     // Get instance field reference: public UnityEngine.UI.Dropdown/UnityEngine.UI.DropdownItem item
     UnityEngine::UI::Dropdown::DropdownItem*& dyn_item();
     // Get instance field reference: public UnityEngine.UI.Dropdown <>4__this

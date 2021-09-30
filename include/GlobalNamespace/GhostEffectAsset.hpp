@@ -50,6 +50,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GhostEffectAsset : public UnityEngine::Playables::PlayableAsset/*, public UnityEngine::Timeline::ITimelineClipAsset*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public GhostEffectBehaviour/GhostEffectType _ghostEffectType
     // Size: 0x4
     // Offset: 0x18
@@ -67,6 +72,7 @@ namespace GlobalNamespace {
     GlobalNamespace::GhostEffectBehaviour* _template;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GhostEffectBehaviour*) == 0x8);
+    public:
     // Creating interface conversion operator: operator UnityEngine::Timeline::ITimelineClipAsset
     operator UnityEngine::Timeline::ITimelineClipAsset() noexcept {
       return *reinterpret_cast<UnityEngine::Timeline::ITimelineClipAsset*>(this);

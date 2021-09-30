@@ -31,6 +31,11 @@ namespace Polyglot {
   // [AddComponentMenu] Offset: EE4D44
   class LanguageDropdown : public UnityEngine::MonoBehaviour/*, public Polyglot::ILocalize*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [TooltipAttribute] Offset: 0xEE504C
     // private UnityEngine.UI.Dropdown dropdown
     // Size: 0x8
@@ -38,6 +43,7 @@ namespace Polyglot {
     UnityEngine::UI::Dropdown* dropdown;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Dropdown*) == 0x8);
+    public:
     // Creating interface conversion operator: operator Polyglot::ILocalize
     operator Polyglot::ILocalize() noexcept {
       return *reinterpret_cast<Polyglot::ILocalize*>(this);

@@ -21,6 +21,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: MasterServer
@@ -213,6 +214,11 @@ namespace MasterServer {
     // [TokenAttribute] Offset: FFFFFFFF
     struct RequestWaiterId/*, public System::ValueType, public System::IEquatable_1<MasterServer::MessageHandler::RequestWaiterId>*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public readonly System.Net.IPEndPoint endPoint
       // Size: 0x8
       // Offset: 0x0
@@ -225,6 +231,7 @@ namespace MasterServer {
       uint requestId;
       // Field size check
       static_assert(sizeof(uint) == 0x4);
+      public:
       // Creating value type constructor for type: RequestWaiterId
       constexpr RequestWaiterId(System::Net::IPEndPoint* endPoint_ = {}, uint requestId_ = {}) noexcept : endPoint{endPoint_}, requestId{requestId_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -267,6 +274,11 @@ namespace MasterServer {
     // [IsReadOnlyAttribute] Offset: FFFFFFFF
     struct MessageOrigin/*, public System::ValueType*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public readonly System.Net.IPEndPoint endPoint
       // Size: 0x8
       // Offset: 0x0
@@ -279,6 +291,7 @@ namespace MasterServer {
       uint protocolVersion;
       // Field size check
       static_assert(sizeof(uint) == 0x4);
+      public:
       // Creating value type constructor for type: MessageOrigin
       constexpr MessageOrigin(System::Net::IPEndPoint* endPoint_ = {}, uint protocolVersion_ = {}) noexcept : endPoint{endPoint_}, protocolVersion{protocolVersion_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -302,12 +315,18 @@ namespace MasterServer {
     // [TokenAttribute] Offset: FFFFFFFF
     struct HandshakeMessageType/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: HandshakeMessageType
       constexpr HandshakeMessageType(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -384,12 +403,18 @@ namespace MasterServer {
     // [TokenAttribute] Offset: FFFFFFFF
     struct UserMessageType/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: UserMessageType
       constexpr UserMessageType(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -466,12 +491,18 @@ namespace MasterServer {
     // [TokenAttribute] Offset: FFFFFFFF
     struct DedicatedServerMessageType/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: DedicatedServerMessageType
       constexpr DedicatedServerMessageType(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -566,6 +597,11 @@ namespace MasterServer {
     #pragma pack(pop)
     static check_size<sizeof(MessageHandler::DedicatedServerMessageType), 0 + sizeof(int)> __MasterServer_MessageHandler_DedicatedServerMessageTypeSizeCheck;
     static_assert(sizeof(MessageHandler::DedicatedServerMessageType) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly NetworkPacketSerializer`2<MasterServer.MessageHandler/MasterServer.HandshakeMessageType,MasterServer.MessageHandler/MasterServer.MessageOrigin> _handshakeMessageSerializer
     // Size: 0x8
     // Offset: 0x10
@@ -650,6 +686,7 @@ namespace MasterServer {
     System::Threading::CancellationTokenSource* disposedTokenSource;
     // Field size check
     static_assert(sizeof(System::Threading::CancellationTokenSource*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
@@ -1126,7 +1163,7 @@ namespace MasterServer {
     void Dispose();
     // static private System.Byte[] CreateHandshakeHeader(System.Byte[] packetHeader)
     // Offset: 0x12DD644
-    static ::ArrayWrapper<uint8_t> CreateHandshakeHeader(::ArrayWrapper<uint8_t> packetHeader);
+    static ::ArrayW<uint8_t> CreateHandshakeHeader(::ArrayW<uint8_t> packetHeader);
   }; // MasterServer.MessageHandler
   #pragma pack(pop)
   static check_size<sizeof(MessageHandler), 120 + sizeof(System::Threading::CancellationTokenSource*)> __MasterServer_MessageHandlerSizeCheck;
@@ -1728,7 +1765,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
 // Writing MetadataGetter for method: MasterServer::MessageHandler::CreateHandshakeHeader
 // Il2CppName: CreateHandshakeHeader
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(::ArrayWrapper<uint8_t>)>(&MasterServer::MessageHandler::CreateHandshakeHeader)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(::ArrayW<uint8_t>)>(&MasterServer::MessageHandler::CreateHandshakeHeader)> {
   static const MethodInfo* get() {
     static auto* packetHeader = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(MasterServer::MessageHandler*), "CreateHandshakeHeader", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{packetHeader});

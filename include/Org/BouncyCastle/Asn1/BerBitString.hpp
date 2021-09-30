@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Asn1
@@ -32,7 +33,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Implemented from: Org.BouncyCastle.Asn1.DerBitString
     // Base method: System.Void DerBitString::.ctor(System.Byte[] data, System.Int32 padBits)
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static BerBitString* New_ctor(::ArrayWrapper<uint8_t> data, int padBits) {
+    static BerBitString* New_ctor(::ArrayW<uint8_t> data, int padBits) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::BerBitString::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BerBitString*, creationType>(data, padBits)));
     }

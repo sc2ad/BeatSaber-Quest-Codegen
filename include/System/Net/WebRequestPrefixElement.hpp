@@ -30,6 +30,11 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class WebRequestPrefixElement : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.String Prefix
     // Size: 0x8
     // Offset: 0x10
@@ -48,6 +53,7 @@ namespace System::Net {
     System::Type* creatorType;
     // Field size check
     static_assert(sizeof(System::Type*) == 0x8);
+    public:
     // Get instance field reference: public System.String Prefix
     ::Il2CppString*& dyn_Prefix();
     // Get instance field reference: System.Net.IWebRequestCreate creator

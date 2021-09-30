@@ -33,6 +33,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LobbyDataModelsManager : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xF02DEC
     // private readonly ILobbyStateDataModel _lobbyStateDataModel
     // Size: 0x8
@@ -68,6 +73,7 @@ namespace GlobalNamespace {
     GlobalNamespace::LobbyPlayerPermissionsModel* lobbyPlayerPermissionsModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LobbyPlayerPermissionsModel*) == 0x8);
+    public:
     // Get instance field reference: private readonly ILobbyStateDataModel _lobbyStateDataModel
     GlobalNamespace::ILobbyStateDataModel*& dyn__lobbyStateDataModel();
     // Get instance field reference: private readonly ILobbyPlayersDataModel _lobbyPlayersDataModel

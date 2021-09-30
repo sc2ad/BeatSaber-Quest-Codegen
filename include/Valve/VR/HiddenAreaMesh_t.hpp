@@ -18,6 +18,11 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HiddenAreaMesh_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.IntPtr pVertexData
     // Size: 0x8
     // Offset: 0x0
@@ -30,6 +35,7 @@ namespace Valve::VR {
     uint unTriangleCount;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
+    public:
     // Creating value type constructor for type: HiddenAreaMesh_t
     constexpr HiddenAreaMesh_t(System::IntPtr pVertexData_ = {}, uint unTriangleCount_ = {}) noexcept : pVertexData{pVertexData_}, unTriangleCount{unTriangleCount_} {}
     // Creating interface conversion operator: operator System::ValueType

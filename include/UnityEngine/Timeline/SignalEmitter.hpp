@@ -40,6 +40,11 @@ namespace UnityEngine::Timeline {
   // [ExcludeFromPresetAttribute] Offset: FFFFFFFF
   class SignalEmitter : public UnityEngine::Timeline::Marker/*, public UnityEngine::Playables::INotification, public UnityEngine::Timeline::INotificationOptionProvider*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean m_Retroactive
     // Size: 0x1
     // Offset: 0x28
@@ -60,6 +65,7 @@ namespace UnityEngine::Timeline {
     UnityEngine::Timeline::SignalAsset* m_Asset;
     // Field size check
     static_assert(sizeof(UnityEngine::Timeline::SignalAsset*) == 0x8);
+    public:
     // Creating interface conversion operator: operator UnityEngine::Playables::INotification
     operator UnityEngine::Playables::INotification() noexcept {
       return *reinterpret_cast<UnityEngine::Playables::INotification*>(this);

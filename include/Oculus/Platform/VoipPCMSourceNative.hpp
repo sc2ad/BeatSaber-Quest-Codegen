@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
@@ -20,12 +21,18 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class VoipPCMSourceNative : public ::Il2CppObject/*, public Oculus::Platform::IVoipPCMSource*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.UInt64 senderID
     // Size: 0x8
     // Offset: 0x10
     uint64_t senderID;
     // Field size check
     static_assert(sizeof(uint64_t) == 0x8);
+    public:
     // Creating interface conversion operator: operator Oculus::Platform::IVoipPCMSource
     operator Oculus::Platform::IVoipPCMSource() noexcept {
       return *reinterpret_cast<Oculus::Platform::IVoipPCMSource*>(this);
@@ -38,7 +45,7 @@ namespace Oculus::Platform {
     uint64_t& dyn_senderID();
     // public System.Int32 GetPCM(System.Single[] dest, System.Int32 length)
     // Offset: 0x25BF61C
-    int GetPCM(::ArrayWrapper<float> dest, int length);
+    int GetPCM(::ArrayW<float> dest, int length);
     // public System.Void SetSenderID(System.UInt64 senderID)
     // Offset: 0x25BF6DC
     void SetSenderID(uint64_t senderID);
@@ -67,7 +74,7 @@ DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::VoipPCMSourceNative*, "Oculus.Platform"
 // Writing MetadataGetter for method: Oculus::Platform::VoipPCMSourceNative::GetPCM
 // Il2CppName: GetPCM
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Oculus::Platform::VoipPCMSourceNative::*)(::ArrayWrapper<float>, int)>(&Oculus::Platform::VoipPCMSourceNative::GetPCM)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Oculus::Platform::VoipPCMSourceNative::*)(::ArrayW<float>, int)>(&Oculus::Platform::VoipPCMSourceNative::GetPCM)> {
   static const MethodInfo* get() {
     static auto* dest = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

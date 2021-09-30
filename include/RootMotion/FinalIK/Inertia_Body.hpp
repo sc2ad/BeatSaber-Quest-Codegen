@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: RootMotion::FinalIK
@@ -36,6 +37,11 @@ namespace RootMotion::FinalIK {
     public:
     // Nested type: RootMotion::FinalIK::Inertia::Body::EffectorLink
     class EffectorLink;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [TooltipAttribute] Offset: 0xEF73F4
     // public UnityEngine.Transform transform
     // Size: 0x8
@@ -47,9 +53,9 @@ namespace RootMotion::FinalIK {
     // public RootMotion.FinalIK.Inertia/RootMotion.FinalIK.Body/RootMotion.FinalIK.EffectorLink[] effectorLinks
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<RootMotion::FinalIK::Inertia::Body::EffectorLink*> effectorLinks;
+    ::ArrayW<RootMotion::FinalIK::Inertia::Body::EffectorLink*> effectorLinks;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::Inertia::Body::EffectorLink*>) == 0x8);
+    static_assert(sizeof(::ArrayW<RootMotion::FinalIK::Inertia::Body::EffectorLink*>) == 0x8);
     // [TooltipAttribute] Offset: 0xEF7464
     // public System.Single speed
     // Size: 0x4
@@ -109,10 +115,11 @@ namespace RootMotion::FinalIK {
     bool firstUpdate;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: public UnityEngine.Transform transform
     UnityEngine::Transform*& dyn_transform();
     // Get instance field reference: public RootMotion.FinalIK.Inertia/RootMotion.FinalIK.Body/RootMotion.FinalIK.EffectorLink[] effectorLinks
-    ::ArrayWrapper<RootMotion::FinalIK::Inertia::Body::EffectorLink*>& dyn_effectorLinks();
+    ::ArrayW<RootMotion::FinalIK::Inertia::Body::EffectorLink*>& dyn_effectorLinks();
     // Get instance field reference: public System.Single speed
     float& dyn_speed();
     // Get instance field reference: public System.Single acceleration

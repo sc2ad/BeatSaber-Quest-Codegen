@@ -40,6 +40,11 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class WebException : public System::InvalidOperationException {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Net.WebExceptionStatus m_Status
     // Size: 0x4
     // Offset: 0x88
@@ -60,6 +65,7 @@ namespace System::Net {
     System::Net::WebExceptionInternalStatus m_InternalStatus;
     // Field size check
     static_assert(sizeof(System::Net::WebExceptionInternalStatus) == 0x4);
+    public:
     // Get instance field reference: private System.Net.WebExceptionStatus m_Status
     System::Net::WebExceptionStatus& dyn_m_Status();
     // Get instance field reference: private System.Net.WebResponse m_Response

@@ -20,6 +20,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayerSaveDataV1_0_1::PlayerOverallStatsData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 goodCutsCount
     // Size: 0x4
     // Offset: 0x10
@@ -88,6 +93,7 @@ namespace GlobalNamespace {
     int64_t cummulativeCutScoreWithoutMultiplier;
     // Field size check
     static_assert(sizeof(int64_t) == 0x8);
+    public:
     // Get instance field reference: public System.Int32 goodCutsCount
     int& dyn_goodCutsCount();
     // Get instance field reference: public System.Int32 badCutsCount

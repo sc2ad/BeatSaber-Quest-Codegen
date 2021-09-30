@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: System.Security.Cryptography.X509Certificates
 namespace System::Security::Cryptography::X509Certificates {
@@ -20,12 +21,18 @@ namespace System::Security::Cryptography::X509Certificates {
   // [TokenAttribute] Offset: FFFFFFFF
   class X509Extension : public System::Security::Cryptography::AsnEncodedData {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean _critical
     // Size: 0x1
     // Offset: 0x20
     bool critical;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating conversion operator: operator bool
     constexpr operator bool() const noexcept {
       return critical;
@@ -41,13 +48,13 @@ namespace System::Security::Cryptography::X509Certificates {
     // public System.Void .ctor(System.String oid, System.Byte[] rawData, System.Boolean critical)
     // Offset: 0x19DEFFC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static X509Extension* New_ctor(::Il2CppString* oid, ::ArrayWrapper<uint8_t> rawData, bool critical) {
+    static X509Extension* New_ctor(::Il2CppString* oid, ::ArrayW<uint8_t> rawData, bool critical) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X509Extension::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X509Extension*, creationType>(oid, rawData, critical)));
     }
     // System.String FormatUnkownData(System.Byte[] data)
     // Offset: 0x19D3308
-    ::Il2CppString* FormatUnkownData(::ArrayWrapper<uint8_t> data);
+    ::Il2CppString* FormatUnkownData(::ArrayW<uint8_t> data);
     // protected System.Void .ctor()
     // Offset: 0x19D2870
     // Implemented from: System.Security.Cryptography.AsnEncodedData
@@ -94,7 +101,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509Extension::FormatUnkownData
 // Il2CppName: FormatUnkownData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Security::Cryptography::X509Certificates::X509Extension::*)(::ArrayWrapper<uint8_t>)>(&System::Security::Cryptography::X509Certificates::X509Extension::FormatUnkownData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (System::Security::Cryptography::X509Certificates::X509Extension::*)(::ArrayW<uint8_t>)>(&System::Security::Cryptography::X509Certificates::X509Extension::FormatUnkownData)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509Extension*), "FormatUnkownData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data});

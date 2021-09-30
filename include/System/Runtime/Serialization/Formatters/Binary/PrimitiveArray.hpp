@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -27,6 +28,11 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   // [TokenAttribute] Offset: FFFFFFFF
   class PrimitiveArray : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE code
     // Size: 0x4
     // Offset: 0x10
@@ -38,93 +44,94 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // private System.Boolean[] booleanA
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<bool> booleanA;
+    ::ArrayW<bool> booleanA;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<bool>) == 0x8);
+    static_assert(sizeof(::ArrayW<bool>) == 0x8);
     // private System.Char[] charA
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<::Il2CppChar> charA;
+    ::ArrayW<::Il2CppChar> charA;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppChar>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppChar>) == 0x8);
     // private System.Double[] doubleA
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<double> doubleA;
+    ::ArrayW<double> doubleA;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<double>) == 0x8);
+    static_assert(sizeof(::ArrayW<double>) == 0x8);
     // private System.Int16[] int16A
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<int16_t> int16A;
+    ::ArrayW<int16_t> int16A;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int16_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<int16_t>) == 0x8);
     // private System.Int32[] int32A
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayWrapper<int> int32A;
+    ::ArrayW<int> int32A;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // private System.Int64[] int64A
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayWrapper<int64_t> int64A;
+    ::ArrayW<int64_t> int64A;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int64_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<int64_t>) == 0x8);
     // private System.SByte[] sbyteA
     // Size: 0x8
     // Offset: 0x48
-    ::ArrayWrapper<int8_t> sbyteA;
+    ::ArrayW<int8_t> sbyteA;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<int8_t>) == 0x8);
     // private System.Single[] singleA
     // Size: 0x8
     // Offset: 0x50
-    ::ArrayWrapper<float> singleA;
+    ::ArrayW<float> singleA;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<float>) == 0x8);
+    static_assert(sizeof(::ArrayW<float>) == 0x8);
     // private System.UInt16[] uint16A
     // Size: 0x8
     // Offset: 0x58
-    ::ArrayWrapper<uint16_t> uint16A;
+    ::ArrayW<uint16_t> uint16A;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint16_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint16_t>) == 0x8);
     // private System.UInt32[] uint32A
     // Size: 0x8
     // Offset: 0x60
-    ::ArrayWrapper<uint> uint32A;
+    ::ArrayW<uint> uint32A;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint>) == 0x8);
     // private System.UInt64[] uint64A
     // Size: 0x8
     // Offset: 0x68
-    ::ArrayWrapper<uint64_t> uint64A;
+    ::ArrayW<uint64_t> uint64A;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint64_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint64_t>) == 0x8);
+    public:
     // Get instance field reference: private System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE code
     System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE& dyn_code();
     // Get instance field reference: private System.Boolean[] booleanA
-    ::ArrayWrapper<bool>& dyn_booleanA();
+    ::ArrayW<bool>& dyn_booleanA();
     // Get instance field reference: private System.Char[] charA
-    ::ArrayWrapper<::Il2CppChar>& dyn_charA();
+    ::ArrayW<::Il2CppChar>& dyn_charA();
     // Get instance field reference: private System.Double[] doubleA
-    ::ArrayWrapper<double>& dyn_doubleA();
+    ::ArrayW<double>& dyn_doubleA();
     // Get instance field reference: private System.Int16[] int16A
-    ::ArrayWrapper<int16_t>& dyn_int16A();
+    ::ArrayW<int16_t>& dyn_int16A();
     // Get instance field reference: private System.Int32[] int32A
-    ::ArrayWrapper<int>& dyn_int32A();
+    ::ArrayW<int>& dyn_int32A();
     // Get instance field reference: private System.Int64[] int64A
-    ::ArrayWrapper<int64_t>& dyn_int64A();
+    ::ArrayW<int64_t>& dyn_int64A();
     // Get instance field reference: private System.SByte[] sbyteA
-    ::ArrayWrapper<int8_t>& dyn_sbyteA();
+    ::ArrayW<int8_t>& dyn_sbyteA();
     // Get instance field reference: private System.Single[] singleA
-    ::ArrayWrapper<float>& dyn_singleA();
+    ::ArrayW<float>& dyn_singleA();
     // Get instance field reference: private System.UInt16[] uint16A
-    ::ArrayWrapper<uint16_t>& dyn_uint16A();
+    ::ArrayW<uint16_t>& dyn_uint16A();
     // Get instance field reference: private System.UInt32[] uint32A
-    ::ArrayWrapper<uint>& dyn_uint32A();
+    ::ArrayW<uint>& dyn_uint32A();
     // Get instance field reference: private System.UInt64[] uint64A
-    ::ArrayWrapper<uint64_t>& dyn_uint64A();
+    ::ArrayW<uint64_t>& dyn_uint64A();
     // System.Void .ctor(System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE code, System.Array array)
     // Offset: 0x17F055C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -140,7 +147,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     void SetValue(::Il2CppString* value, int index);
   }; // System.Runtime.Serialization.Formatters.Binary.PrimitiveArray
   #pragma pack(pop)
-  static check_size<sizeof(PrimitiveArray), 104 + sizeof(::ArrayWrapper<uint64_t>)> __System_Runtime_Serialization_Formatters_Binary_PrimitiveArraySizeCheck;
+  static check_size<sizeof(PrimitiveArray), 104 + sizeof(::ArrayW<uint64_t>)> __System_Runtime_Serialization_Formatters_Binary_PrimitiveArraySizeCheck;
   static_assert(sizeof(PrimitiveArray) == 0x70);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::PrimitiveArray*, "System.Runtime.Serialization.Formatters.Binary", "PrimitiveArray");

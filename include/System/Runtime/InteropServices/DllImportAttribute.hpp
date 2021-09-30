@@ -33,6 +33,11 @@ namespace System::Runtime::InteropServices {
   // [ComVisibleAttribute] Offset: E60B78
   class DllImportAttribute : public System::Attribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.String _val
     // Size: 0x8
     // Offset: 0x10
@@ -89,6 +94,7 @@ namespace System::Runtime::InteropServices {
     bool ThrowOnUnmappableChar;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: System.String _val
     ::Il2CppString*& dyn__val();
     // Get instance field reference: public System.String EntryPoint

@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HMUI
@@ -39,12 +40,17 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class ScreenModeController : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private HMUI.CurvedCanvasSettings[] _curvedCanvases
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<HMUI::CurvedCanvasSettings*> curvedCanvases;
+    ::ArrayW<HMUI::CurvedCanvasSettings*> curvedCanvases;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<HMUI::CurvedCanvasSettings*>) == 0x8);
+    static_assert(sizeof(::ArrayW<HMUI::CurvedCanvasSettings*>) == 0x8);
     // [InjectAttribute] Offset: 0xEE2580
     // private readonly IVRPlatformHelper _vrPlatformHelper
     // Size: 0x8
@@ -64,10 +70,11 @@ namespace HMUI {
     UnityEngine::Transform* transform;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private HMUI.CurvedCanvasSettings[] _curvedCanvases
-    ::ArrayWrapper<HMUI::CurvedCanvasSettings*>& dyn__curvedCanvases();
+    ::ArrayW<HMUI::CurvedCanvasSettings*>& dyn__curvedCanvases();
     // Get instance field reference: private readonly IVRPlatformHelper _vrPlatformHelper
     GlobalNamespace::IVRPlatformHelper*& dyn__vrPlatformHelper();
     // Get instance field reference: private HMUI.ScreenModeData _defaultModeData

@@ -27,6 +27,11 @@ namespace UnityEngine {
   // [UsedByNativeCodeAttribute] Offset: EBDF90
   class TreePrototype : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // UnityEngine.GameObject m_Prefab
     // Size: 0x8
     // Offset: 0x10
@@ -39,6 +44,7 @@ namespace UnityEngine {
     float m_BendFactor;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: UnityEngine.GameObject m_Prefab
     UnityEngine::GameObject*& dyn_m_Prefab();
     // Get instance field reference: System.Single m_BendFactor

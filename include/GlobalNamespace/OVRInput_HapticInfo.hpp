@@ -22,6 +22,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRInput::HapticInfo : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Boolean playingHaptics
     // Size: 0x1
     // Offset: 0x10
@@ -54,6 +59,7 @@ namespace GlobalNamespace {
     UnityEngine::XR::XRNode node;
     // Field size check
     static_assert(sizeof(UnityEngine::XR::XRNode) == 0x4);
+    public:
     // Get instance field reference: public System.Boolean playingHaptics
     bool& dyn_playingHaptics();
     // Get instance field reference: public System.Single hapticsDurationPlayed

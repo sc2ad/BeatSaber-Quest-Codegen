@@ -31,6 +31,11 @@ namespace UnityEngine::AddressableAssets::Initialization {
   // [TokenAttribute] Offset: FFFFFFFF
   class CacheInitialization::CacheInitOp : public UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<bool>/*, public UnityEngine::ResourceManagement::IUpdateReceiver*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Func`1<System.Boolean> m_Callback
     // Size: 0x8
     // Offset: 0x80
@@ -43,6 +48,7 @@ namespace UnityEngine::AddressableAssets::Initialization {
     bool m_UpdateRequired;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator UnityEngine::ResourceManagement::IUpdateReceiver
     operator UnityEngine::ResourceManagement::IUpdateReceiver() noexcept {
       return *reinterpret_cast<UnityEngine::ResourceManagement::IUpdateReceiver*>(this);

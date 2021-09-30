@@ -16,12 +16,18 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct VREvent_ScreenshotProgress_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Single progress
     // Size: 0x4
     // Offset: 0x0
     float progress;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: VREvent_ScreenshotProgress_t
     constexpr VREvent_ScreenshotProgress_t(float progress_ = {}) noexcept : progress{progress_} {}
     // Creating interface conversion operator: operator System::ValueType

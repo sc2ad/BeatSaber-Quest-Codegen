@@ -7,6 +7,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -26,25 +27,25 @@ namespace GlobalNamespace {
     public:
     // static public UnityEngine.Vector3 EvaluateCurve(UnityEngine.Vector3[] points, System.Single t)
     // Offset: 0x137A7D0
-    static UnityEngine::Vector3 EvaluateCurve(::ArrayWrapper<UnityEngine::Vector3> points, float t);
+    static UnityEngine::Vector3 EvaluateCurve(::ArrayW<UnityEngine::Vector3> points, float t);
     // static public UnityEngine.Vector3 EvaluateCurve(UnityEngine.Vector3 a1, UnityEngine.Vector3 c1, UnityEngine.Vector3 c2, UnityEngine.Vector3 a2, System.Single t)
     // Offset: 0x137A854
     static UnityEngine::Vector3 EvaluateCurve(UnityEngine::Vector3 a1, UnityEngine::Vector3 c1, UnityEngine::Vector3 c2, UnityEngine::Vector3 a2, float t);
     // static public UnityEngine.Vector3 EvaluateCurveDerivative(UnityEngine.Vector3[] points, System.Single t)
     // Offset: 0x137AA4C
-    static UnityEngine::Vector3 EvaluateCurveDerivative(::ArrayWrapper<UnityEngine::Vector3> points, float t);
+    static UnityEngine::Vector3 EvaluateCurveDerivative(::ArrayW<UnityEngine::Vector3> points, float t);
     // static public UnityEngine.Vector3 EvaluateCurveDerivative(UnityEngine.Vector3 a1, UnityEngine.Vector3 c1, UnityEngine.Vector3 c2, UnityEngine.Vector3 a2, System.Single t)
     // Offset: 0x137AAD0
     static UnityEngine::Vector3 EvaluateCurveDerivative(UnityEngine::Vector3 a1, UnityEngine::Vector3 c1, UnityEngine::Vector3 c2, UnityEngine::Vector3 a2, float t);
     // static public UnityEngine.Vector3 EvaluateCurveSecondDerivative(UnityEngine.Vector3[] points, System.Single t)
     // Offset: 0x137AD10
-    static UnityEngine::Vector3 EvaluateCurveSecondDerivative(::ArrayWrapper<UnityEngine::Vector3> points, float t);
+    static UnityEngine::Vector3 EvaluateCurveSecondDerivative(::ArrayW<UnityEngine::Vector3> points, float t);
     // static public UnityEngine.Vector3 EvaluateCurveSecondDerivative(UnityEngine.Vector3 a1, UnityEngine.Vector3 c1, UnityEngine.Vector3 c2, UnityEngine.Vector3 a2, System.Single t)
     // Offset: 0x137AD94
     static UnityEngine::Vector3 EvaluateCurveSecondDerivative(UnityEngine::Vector3 a1, UnityEngine::Vector3 c1, UnityEngine::Vector3 c2, UnityEngine::Vector3 a2, float t);
     // static public UnityEngine.Vector3 Normal(UnityEngine.Vector3[] points, System.Single t)
     // Offset: 0x137AF94
-    static UnityEngine::Vector3 Normal(::ArrayWrapper<UnityEngine::Vector3> points, float t);
+    static UnityEngine::Vector3 Normal(::ArrayW<UnityEngine::Vector3> points, float t);
     // static public UnityEngine.Vector3 Normal(UnityEngine.Vector3 a1, UnityEngine.Vector3 c1, UnityEngine.Vector3 c2, UnityEngine.Vector3 a2, System.Single t)
     // Offset: 0x137B018
     static UnityEngine::Vector3 Normal(UnityEngine::Vector3 a1, UnityEngine::Vector3 c1, UnityEngine::Vector3 c2, UnityEngine::Vector3 a2, float t);
@@ -63,7 +64,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CubicBezierHelper*, "", "CubicBezierHelp
 // Writing MetadataGetter for method: GlobalNamespace::CubicBezierHelper::EvaluateCurve
 // Il2CppName: EvaluateCurve
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(::ArrayWrapper<UnityEngine::Vector3>, float)>(&GlobalNamespace::CubicBezierHelper::EvaluateCurve)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(::ArrayW<UnityEngine::Vector3>, float)>(&GlobalNamespace::CubicBezierHelper::EvaluateCurve)> {
   static const MethodInfo* get() {
     static auto* points = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
     static auto* t = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -86,7 +87,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::CubicBezierHelper::EvaluateCurveDerivative
 // Il2CppName: EvaluateCurveDerivative
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(::ArrayWrapper<UnityEngine::Vector3>, float)>(&GlobalNamespace::CubicBezierHelper::EvaluateCurveDerivative)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(::ArrayW<UnityEngine::Vector3>, float)>(&GlobalNamespace::CubicBezierHelper::EvaluateCurveDerivative)> {
   static const MethodInfo* get() {
     static auto* points = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
     static auto* t = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -109,7 +110,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::CubicBezierHelper::EvaluateCurveSecondDerivative
 // Il2CppName: EvaluateCurveSecondDerivative
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(::ArrayWrapper<UnityEngine::Vector3>, float)>(&GlobalNamespace::CubicBezierHelper::EvaluateCurveSecondDerivative)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(::ArrayW<UnityEngine::Vector3>, float)>(&GlobalNamespace::CubicBezierHelper::EvaluateCurveSecondDerivative)> {
   static const MethodInfo* get() {
     static auto* points = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
     static auto* t = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -132,7 +133,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::CubicBezierHelper::Normal
 // Il2CppName: Normal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(::ArrayWrapper<UnityEngine::Vector3>, float)>(&GlobalNamespace::CubicBezierHelper::Normal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(::ArrayW<UnityEngine::Vector3>, float)>(&GlobalNamespace::CubicBezierHelper::Normal)> {
   static const MethodInfo* get() {
     static auto* points = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
     static auto* t = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;

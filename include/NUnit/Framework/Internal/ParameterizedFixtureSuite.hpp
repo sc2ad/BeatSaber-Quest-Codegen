@@ -27,12 +27,18 @@ namespace NUnit::Framework::Internal {
   // [TokenAttribute] Offset: FFFFFFFF
   class ParameterizedFixtureSuite : public NUnit::Framework::Internal::TestSuite {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean _genericFixture
     // Size: 0x1
     // Offset: 0x89
     bool genericFixture;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating conversion operator: operator bool
     constexpr operator bool() const noexcept {
       return genericFixture;

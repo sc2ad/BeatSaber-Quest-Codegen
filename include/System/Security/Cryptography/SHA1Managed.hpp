@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: System.Security.Cryptography
 namespace System::Security::Cryptography {
@@ -23,12 +24,17 @@ namespace System::Security::Cryptography {
     public:
     // Writing base type padding for base size: 0x25 to desired offset: 0x28
     char ___base_padding[0x3] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Byte[] _buffer
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<uint8_t> buffer;
+    ::ArrayW<uint8_t> buffer;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Int64 _count
     // Size: 0x8
     // Offset: 0x30
@@ -38,32 +44,33 @@ namespace System::Security::Cryptography {
     // private System.UInt32[] _stateSHA1
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayWrapper<uint> stateSHA1;
+    ::ArrayW<uint> stateSHA1;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint>) == 0x8);
     // private System.UInt32[] _expandedBuffer
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayWrapper<uint> expandedBuffer;
+    ::ArrayW<uint> expandedBuffer;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint>) == 0x8);
+    public:
     // Get instance field reference: private System.Byte[] _buffer
-    ::ArrayWrapper<uint8_t>& dyn__buffer();
+    ::ArrayW<uint8_t>& dyn__buffer();
     // Get instance field reference: private System.Int64 _count
     int64_t& dyn__count();
     // Get instance field reference: private System.UInt32[] _stateSHA1
-    ::ArrayWrapper<uint>& dyn__stateSHA1();
+    ::ArrayW<uint>& dyn__stateSHA1();
     // Get instance field reference: private System.UInt32[] _expandedBuffer
-    ::ArrayWrapper<uint>& dyn__expandedBuffer();
+    ::ArrayW<uint>& dyn__expandedBuffer();
     // private System.Void InitializeState()
     // Offset: 0x1CC8F70
     void InitializeState();
     // private System.Void _HashData(System.Byte[] partIn, System.Int32 ibStart, System.Int32 cbSize)
     // Offset: 0x1CC9084
-    void _HashData(::ArrayWrapper<uint8_t> partIn, int ibStart, int cbSize);
+    void _HashData(::ArrayW<uint8_t> partIn, int ibStart, int cbSize);
     // private System.Byte[] _EndHash()
     // Offset: 0x1CC9238
-    ::ArrayWrapper<uint8_t> _EndHash();
+    ::ArrayW<uint8_t> _EndHash();
     // static private System.Void SHATransform(System.UInt32* expandedBuffer, System.UInt32* state, System.Byte* block)
     // Offset: 0x1CC93F4
     static void SHATransform(uint* expandedBuffer, uint* state, uint8_t* block);
@@ -90,15 +97,15 @@ namespace System::Security::Cryptography {
     // Offset: 0x1CC9080
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Void HashAlgorithm::HashCore(System.Byte[] rgb, System.Int32 ibStart, System.Int32 cbSize)
-    void HashCore(::ArrayWrapper<uint8_t> rgb, int ibStart, int cbSize);
+    void HashCore(::ArrayW<uint8_t> rgb, int ibStart, int cbSize);
     // protected override System.Byte[] HashFinal()
     // Offset: 0x1CC9234
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Byte[] HashAlgorithm::HashFinal()
-    ::ArrayWrapper<uint8_t> HashFinal();
+    ::ArrayW<uint8_t> HashFinal();
   }; // System.Security.Cryptography.SHA1Managed
   #pragma pack(pop)
-  static check_size<sizeof(SHA1Managed), 64 + sizeof(::ArrayWrapper<uint>)> __System_Security_Cryptography_SHA1ManagedSizeCheck;
+  static check_size<sizeof(SHA1Managed), 64 + sizeof(::ArrayW<uint>)> __System_Security_Cryptography_SHA1ManagedSizeCheck;
   static_assert(sizeof(SHA1Managed) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::SHA1Managed*, "System.Security.Cryptography", "SHA1Managed");
@@ -114,7 +121,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::SHA1Managed::_HashData
 // Il2CppName: _HashData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::SHA1Managed::*)(::ArrayWrapper<uint8_t>, int, int)>(&System::Security::Cryptography::SHA1Managed::_HashData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::SHA1Managed::*)(::ArrayW<uint8_t>, int, int)>(&System::Security::Cryptography::SHA1Managed::_HashData)> {
   static const MethodInfo* get() {
     static auto* partIn = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* ibStart = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -125,7 +132,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::SHA1Managed::_EndHash
 // Il2CppName: _EndHash
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (System::Security::Cryptography::SHA1Managed::*)()>(&System::Security::Cryptography::SHA1Managed::_EndHash)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (System::Security::Cryptography::SHA1Managed::*)()>(&System::Security::Cryptography::SHA1Managed::_EndHash)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SHA1Managed*), "_EndHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -165,7 +172,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::SHA1Managed::HashCore
 // Il2CppName: HashCore
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::SHA1Managed::*)(::ArrayWrapper<uint8_t>, int, int)>(&System::Security::Cryptography::SHA1Managed::HashCore)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::SHA1Managed::*)(::ArrayW<uint8_t>, int, int)>(&System::Security::Cryptography::SHA1Managed::HashCore)> {
   static const MethodInfo* get() {
     static auto* rgb = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* ibStart = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -176,7 +183,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::SHA1Managed::HashFinal
 // Il2CppName: HashFinal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (System::Security::Cryptography::SHA1Managed::*)()>(&System::Security::Cryptography::SHA1Managed::HashFinal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (System::Security::Cryptography::SHA1Managed::*)()>(&System::Security::Cryptography::SHA1Managed::HashFinal)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SHA1Managed*), "HashFinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

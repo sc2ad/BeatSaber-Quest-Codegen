@@ -24,6 +24,11 @@ namespace UnityEngine::ProBuilder {
   // [AddComponentMenu] Offset: F254C4
   class Entity : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [FormerlySerializedAsAttribute] Offset: 0xF25FE0
     // private UnityEngine.ProBuilder.EntityType m_EntityType
     // Size: 0x4
@@ -31,6 +36,7 @@ namespace UnityEngine::ProBuilder {
     UnityEngine::ProBuilder::EntityType m_EntityType;
     // Field size check
     static_assert(sizeof(UnityEngine::ProBuilder::EntityType) == 0x4);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.ProBuilder.EntityType m_EntityType

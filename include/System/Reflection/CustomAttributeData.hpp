@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection
@@ -55,6 +56,11 @@ namespace System::Reflection {
     public:
     // Nested type: System::Reflection::CustomAttributeData::LazyCAttrData
     class LazyCAttrData;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Reflection.ConstructorInfo ctorInfo
     // Size: 0x8
     // Offset: 0x10
@@ -79,6 +85,7 @@ namespace System::Reflection {
     System::Reflection::CustomAttributeData::LazyCAttrData* lazyData;
     // Field size check
     static_assert(sizeof(System::Reflection::CustomAttributeData::LazyCAttrData*) == 0x8);
+    public:
     // Get instance field reference: private System.Reflection.ConstructorInfo ctorInfo
     System::Reflection::ConstructorInfo*& dyn_ctorInfo();
     // Get instance field reference: private System.Collections.Generic.IList`1<System.Reflection.CustomAttributeTypedArgument> ctorArgs
@@ -108,7 +115,7 @@ namespace System::Reflection {
     }
     // static private System.Void ResolveArgumentsInternal(System.Reflection.ConstructorInfo ctor, System.Reflection.Assembly assembly, System.IntPtr data, System.UInt32 data_length, out System.Object[] ctorArgs, out System.Object[] namedArgs)
     // Offset: 0x1EA363C
-    static void ResolveArgumentsInternal(System::Reflection::ConstructorInfo* ctor, System::Reflection::Assembly* assembly, System::IntPtr data, uint data_length, ByRef<::ArrayWrapper<::Il2CppObject*>> ctorArgs, ByRef<::ArrayWrapper<::Il2CppObject*>> namedArgs);
+    static void ResolveArgumentsInternal(System::Reflection::ConstructorInfo* ctor, System::Reflection::Assembly* assembly, System::IntPtr data, uint data_length, ByRef<::ArrayW<::Il2CppObject*>> ctorArgs, ByRef<::ArrayW<::Il2CppObject*>> namedArgs);
     // private System.Void ResolveArguments()
     // Offset: 0x1EA3640
     void ResolveArguments();
@@ -130,11 +137,11 @@ namespace System::Reflection {
     // static private T[] UnboxValues(System.Object[] values)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static ::ArrayWrapper<T> UnboxValues(::ArrayWrapper<::Il2CppObject*> values) {
+    static ::ArrayW<T> UnboxValues(::ArrayW<::Il2CppObject*> values) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Reflection::CustomAttributeData::UnboxValues");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("System.Reflection", "CustomAttributeData", "UnboxValues", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(values)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<::ArrayWrapper<T>, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, values);
+      return ::il2cpp_utils::RunMethodThrow<::ArrayW<T>, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, values);
     }
     // protected System.Void .ctor()
     // Offset: 0x1EA3598
@@ -206,7 +213,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: System::Reflection::CustomAttributeData::ResolveArgumentsInternal
 // Il2CppName: ResolveArgumentsInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Reflection::ConstructorInfo*, System::Reflection::Assembly*, System::IntPtr, uint, ByRef<::ArrayWrapper<::Il2CppObject*>>, ByRef<::ArrayWrapper<::Il2CppObject*>>)>(&System::Reflection::CustomAttributeData::ResolveArgumentsInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Reflection::ConstructorInfo*, System::Reflection::Assembly*, System::IntPtr, uint, ByRef<::ArrayW<::Il2CppObject*>>, ByRef<::ArrayW<::Il2CppObject*>>)>(&System::Reflection::CustomAttributeData::ResolveArgumentsInternal)> {
   static const MethodInfo* get() {
     static auto* ctor = &::il2cpp_utils::GetClassFromName("System.Reflection", "ConstructorInfo")->byval_arg;
     static auto* assembly = &::il2cpp_utils::GetClassFromName("System.Reflection", "Assembly")->byval_arg;

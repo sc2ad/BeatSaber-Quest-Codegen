@@ -31,6 +31,11 @@ namespace UnityEngine::TestTools {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeforeAfterTestCommandState : public UnityEngine::ScriptableObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 NextBeforeStepIndex
     // Size: 0x4
     // Offset: 0x18
@@ -109,6 +114,7 @@ namespace UnityEngine::TestTools {
     int64_t Timestamp;
     // Field size check
     static_assert(sizeof(int64_t) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.Int32 NextBeforeStepIndex

@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net
@@ -48,12 +49,17 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class HttpListenerRequest : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String[] accept_types
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<::Il2CppString*> accept_types;
+    ::ArrayW<::Il2CppString*> accept_types;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // private System.Int64 content_length
     // Size: 0x8
     // Offset: 0x18
@@ -125,9 +131,9 @@ namespace System::Net {
     // private System.String[] user_languages
     // Size: 0x8
     // Offset: 0x70
-    ::ArrayWrapper<::Il2CppString*> user_languages;
+    ::ArrayW<::Il2CppString*> user_languages;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // private System.Net.HttpListenerContext context
     // Size: 0x8
     // Offset: 0x78
@@ -152,16 +158,17 @@ namespace System::Net {
     bool keep_alive;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get static field: static private System.Byte[] _100continue
-    static ::ArrayWrapper<uint8_t> _get__100continue();
+    static ::ArrayW<uint8_t> _get__100continue();
     // Set static field: static private System.Byte[] _100continue
-    static void _set__100continue(::ArrayWrapper<uint8_t> value);
+    static void _set__100continue(::ArrayW<uint8_t> value);
     // Get static field: static private System.Char[] separators
-    static ::ArrayWrapper<::Il2CppChar> _get_separators();
+    static ::ArrayW<::Il2CppChar> _get_separators();
     // Set static field: static private System.Char[] separators
-    static void _set_separators(::ArrayWrapper<::Il2CppChar> value);
+    static void _set_separators(::ArrayW<::Il2CppChar> value);
     // Get instance field reference: private System.String[] accept_types
-    ::ArrayWrapper<::Il2CppString*>& dyn_accept_types();
+    ::ArrayW<::Il2CppString*>& dyn_accept_types();
     // Get instance field reference: private System.Int64 content_length
     int64_t& dyn_content_length();
     // Get instance field reference: private System.Boolean cl_set
@@ -185,7 +192,7 @@ namespace System::Net {
     // Get instance field reference: private System.Uri referrer
     System::Uri*& dyn_referrer();
     // Get instance field reference: private System.String[] user_languages
-    ::ArrayWrapper<::Il2CppString*>& dyn_user_languages();
+    ::ArrayW<::Il2CppString*>& dyn_user_languages();
     // Get instance field reference: private System.Net.HttpListenerContext context
     System::Net::HttpListenerContext*& dyn_context();
     // Get instance field reference: private System.Boolean is_chunked

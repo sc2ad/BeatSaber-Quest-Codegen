@@ -27,6 +27,11 @@ namespace Valve::VR {
     class _GetEyeOutputViewport;
     // Nested type: Valve::VR::IVRExtendedDisplay::_GetDXGIOutputInfo
     class _GetDXGIOutputInfo;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // Valve.VR.IVRExtendedDisplay/Valve.VR._GetWindowBounds GetWindowBounds
     // Size: 0x8
     // Offset: 0x0
@@ -45,6 +50,7 @@ namespace Valve::VR {
     Valve::VR::IVRExtendedDisplay::_GetDXGIOutputInfo* GetDXGIOutputInfo;
     // Field size check
     static_assert(sizeof(Valve::VR::IVRExtendedDisplay::_GetDXGIOutputInfo*) == 0x8);
+    public:
     // Creating value type constructor for type: IVRExtendedDisplay
     constexpr IVRExtendedDisplay(Valve::VR::IVRExtendedDisplay::_GetWindowBounds* GetWindowBounds_ = {}, Valve::VR::IVRExtendedDisplay::_GetEyeOutputViewport* GetEyeOutputViewport_ = {}, Valve::VR::IVRExtendedDisplay::_GetDXGIOutputInfo* GetDXGIOutputInfo_ = {}) noexcept : GetWindowBounds{GetWindowBounds_}, GetEyeOutputViewport{GetEyeOutputViewport_}, GetDXGIOutputInfo{GetDXGIOutputInfo_} {}
     // Creating interface conversion operator: operator System::ValueType

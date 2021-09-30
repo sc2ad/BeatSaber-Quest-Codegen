@@ -23,6 +23,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -70,6 +71,11 @@ namespace System::Collections::Generic {
       using declaring_type = LinkedList_1<T>*;
       static constexpr std::string_view NESTED_NAME = "Enumerator";
       static constexpr bool IS_VALUE_TYPE = true;
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // private System.Collections.Generic.LinkedList`1<T> _list
       // Size: 0x8
       // Offset: 0x0
@@ -98,6 +104,7 @@ namespace System::Collections::Generic {
       int index;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: Enumerator
       constexpr Enumerator(System::Collections::Generic::LinkedList_1<T>* list_ = {}, System::Collections::Generic::LinkedListNode_1<T>* node_ = {}, int version_ = {}, T current_ = {}, int index_ = {}) noexcept : list{list_}, node{node_}, version{version_}, current{current_}, index{index_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -221,6 +228,11 @@ namespace System::Collections::Generic {
       }
     }; // System.Collections.Generic.LinkedList`1/System.Collections.Generic.Enumerator
     // Could not write size check! Type: System.Collections.Generic.LinkedList`1/System.Collections.Generic.Enumerator is generic, or has no fields that are valid for size checks!
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Collections.Generic.LinkedListNode`1<T> head
     // Size: 0x8
     // Offset: 0x0
@@ -251,6 +263,7 @@ namespace System::Collections::Generic {
     System::Runtime::Serialization::SerializationInfo* siInfo;
     // Field size check
     static_assert(sizeof(System::Runtime::Serialization::SerializationInfo*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Collections::Generic::ICollection_1<T>
     operator System::Collections::Generic::ICollection_1<T>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::ICollection_1<T>*>(this);
@@ -460,7 +473,7 @@ namespace System::Collections::Generic {
     }
     // public System.Void CopyTo(T[] array, System.Int32 index)
     // Offset: 0xFFFFFFFF
-    void CopyTo(::ArrayWrapper<T> array, int index) {
+    void CopyTo(::ArrayW<T> array, int index) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::LinkedList_1::CopyTo");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CopyTo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(index)})));
       auto ___instance_arg = this;

@@ -27,6 +27,11 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   struct ParticleSystem::EmitParams/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [NativeNameAttribute] Offset: 0xEA3A28
     // private UnityEngine.ParticleSystem/UnityEngine.Particle m_Particle
     // Size: 0x84
@@ -111,6 +116,7 @@ namespace UnityEngine {
     bool m_ApplyShapeToPosition;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating value type constructor for type: EmitParams
     constexpr EmitParams(UnityEngine::ParticleSystem::Particle m_Particle_ = {}, bool m_PositionSet_ = {}, bool m_VelocitySet_ = {}, bool m_AxisOfRotationSet_ = {}, bool m_RotationSet_ = {}, bool m_AngularVelocitySet_ = {}, bool m_StartSizeSet_ = {}, bool m_StartColorSet_ = {}, bool m_RandomSeedSet_ = {}, bool m_StartLifetimeSet_ = {}, bool m_MeshIndexSet_ = {}, bool m_ApplyShapeToPosition_ = {}) noexcept : m_Particle{m_Particle_}, m_PositionSet{m_PositionSet_}, m_VelocitySet{m_VelocitySet_}, m_AxisOfRotationSet{m_AxisOfRotationSet_}, m_RotationSet{m_RotationSet_}, m_AngularVelocitySet{m_AngularVelocitySet_}, m_StartSizeSet{m_StartSizeSet_}, m_StartColorSet{m_StartColorSet_}, m_RandomSeedSet{m_RandomSeedSet_}, m_StartLifetimeSet{m_StartLifetimeSet_}, m_MeshIndexSet{m_MeshIndexSet_}, m_ApplyShapeToPosition{m_ApplyShapeToPosition_} {}
     // Creating interface conversion operator: operator System::ValueType

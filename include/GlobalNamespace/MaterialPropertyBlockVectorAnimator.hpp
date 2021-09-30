@@ -25,6 +25,11 @@ namespace GlobalNamespace {
     public:
     // Writing base type padding for base size: 0x2D to desired offset: 0x30
     char ___base_padding[0x3] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [SpaceAttribute] Offset: 0xEDFBB8
     // private UnityEngine.Vector4 _vector
     // Size: 0x10
@@ -32,6 +37,7 @@ namespace GlobalNamespace {
     UnityEngine::Vector4 vector;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector4) == 0x10);
+    public:
     // Get instance field reference: private UnityEngine.Vector4 _vector
     UnityEngine::Vector4& dyn__vector();
     // public System.Void .ctor()

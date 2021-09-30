@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HoudiniEngineUnity
@@ -165,10 +166,10 @@ namespace HoudiniEngineUnity {
     static UnityEngine::Object* LoadSubAssetAtPath(::Il2CppString* mainPath, ::Il2CppString* subAssetPath);
     // static public UnityEngine.Object[] LoadAllAssetsAtPath(System.String assetPath)
     // Offset: 0x143AFB8
-    static ::ArrayWrapper<UnityEngine::Object*> LoadAllAssetsAtPath(::Il2CppString* assetPath);
+    static ::ArrayW<UnityEngine::Object*> LoadAllAssetsAtPath(::Il2CppString* assetPath);
     // static public UnityEngine.Object[] LoadAllAssetRepresentationsAtPath(System.String assetPath)
     // Offset: 0x143AF64
-    static ::ArrayWrapper<UnityEngine::Object*> LoadAllAssetRepresentationsAtPath(::Il2CppString* assetPath);
+    static ::ArrayW<UnityEngine::Object*> LoadAllAssetRepresentationsAtPath(::Il2CppString* assetPath);
     // static public System.Void ImportAsset(System.String assetPath, HoudiniEngineUnity.HEU_AssetDatabase/HoudiniEngineUnity.HEU_ImportAssetOptions heuOptions)
     // Offset: 0x143B00C
     static void ImportAsset(::Il2CppString* assetPath, HoudiniEngineUnity::HEU_AssetDatabase::HEU_ImportAssetOptions heuOptions);
@@ -201,7 +202,7 @@ namespace HoudiniEngineUnity {
     static ::Il2CppString* AppendTerrainPathToAssetFolder(::Il2CppString* inAssetCacheFolder);
     // static public System.String[] GetAssetSubFolders()
     // Offset: 0x143B624
-    static ::ArrayWrapper<::Il2CppString*> GetAssetSubFolders();
+    static ::ArrayW<::Il2CppString*> GetAssetSubFolders();
     // static public System.String AppendPrefabPath(System.String inAssetCacheFolder, System.String assetName)
     // Offset: 0x143B768
     static ::Il2CppString* AppendPrefabPath(::Il2CppString* inAssetCacheFolder, ::Il2CppString* assetName);
@@ -213,7 +214,7 @@ namespace HoudiniEngineUnity {
     static bool IsSubAsset(UnityEngine::Object* obj);
     // static public System.String[] GetAssetPathsFromAssetBundle(System.String assetBundleFileName)
     // Offset: 0x143B8E0
-    static ::ArrayWrapper<::Il2CppString*> GetAssetPathsFromAssetBundle(::Il2CppString* assetBundleFileName);
+    static ::ArrayW<::Il2CppString*> GetAssetPathsFromAssetBundle(::Il2CppString* assetBundleFileName);
     // static public System.Boolean IsAssetSavedInScene(UnityEngine.GameObject go)
     // Offset: 0x143B8E8
     static bool IsAssetSavedInScene(UnityEngine::GameObject* go);
@@ -657,7 +658,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_AssetDatabase::LoadAllAssetsAtPath
 // Il2CppName: LoadAllAssetsAtPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Object*> (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_AssetDatabase::LoadAllAssetsAtPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Object*> (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_AssetDatabase::LoadAllAssetsAtPath)> {
   static const MethodInfo* get() {
     static auto* assetPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_AssetDatabase*), "LoadAllAssetsAtPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{assetPath});
@@ -666,7 +667,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_AssetDatabase::LoadAllAssetRepresentationsAtPath
 // Il2CppName: LoadAllAssetRepresentationsAtPath
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Object*> (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_AssetDatabase::LoadAllAssetRepresentationsAtPath)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Object*> (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_AssetDatabase::LoadAllAssetRepresentationsAtPath)> {
   static const MethodInfo* get() {
     static auto* assetPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_AssetDatabase*), "LoadAllAssetRepresentationsAtPath", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{assetPath});
@@ -764,7 +765,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_AssetDatabase::GetAssetSubFolders
 // Il2CppName: GetAssetSubFolders
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppString*> (*)()>(&HoudiniEngineUnity::HEU_AssetDatabase::GetAssetSubFolders)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (*)()>(&HoudiniEngineUnity::HEU_AssetDatabase::GetAssetSubFolders)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_AssetDatabase*), "GetAssetSubFolders", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -800,7 +801,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_AssetDatabase::GetAssetPathsFromAssetBundle
 // Il2CppName: GetAssetPathsFromAssetBundle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppString*> (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_AssetDatabase::GetAssetPathsFromAssetBundle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (*)(::Il2CppString*)>(&HoudiniEngineUnity::HEU_AssetDatabase::GetAssetPathsFromAssetBundle)> {
   static const MethodInfo* get() {
     static auto* assetBundleFileName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_AssetDatabase*), "GetAssetPathsFromAssetBundle", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{assetBundleFileName});

@@ -27,6 +27,11 @@ namespace NUnit::Framework::Internal::Execution {
   // [TokenAttribute] Offset: FFFFFFFF
   class EventListenerTextWriter : public System::IO::TextWriter {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.IO.TextWriter _defaultWriter
     // Size: 0x8
     // Offset: 0x28
@@ -39,6 +44,7 @@ namespace NUnit::Framework::Internal::Execution {
     ::Il2CppString* streamName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: private System.IO.TextWriter _defaultWriter
     System::IO::TextWriter*& dyn__defaultWriter();
     // Get instance field reference: private System.String _streamName

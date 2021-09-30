@@ -45,6 +45,11 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class Room : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly System.UInt64 ApplicationID
     // Size: 0x8
     // Offset: 0x10
@@ -184,6 +189,7 @@ namespace Oculus::Platform::Models {
     uint Version;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
+    public:
     // Get instance field reference: public readonly System.UInt64 ApplicationID
     uint64_t& dyn_ApplicationID();
     // Get instance field reference: public readonly System.Collections.Generic.Dictionary`2<System.String,System.String> DataStore

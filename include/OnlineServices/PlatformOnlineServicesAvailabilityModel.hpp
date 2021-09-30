@@ -44,12 +44,18 @@ namespace OnlineServices {
     public:
     // Nested type: OnlineServices::PlatformOnlineServicesAvailabilityModel::$GetPlatformServicesAvailabilityInfo$d__4
     struct $GetPlatformServicesAvailabilityInfo$d__4;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Action`1<OnlineServices.PlatformServicesAvailabilityInfo> platformServicesAvailabilityInfoChangedEvent
     // Size: 0x8
     // Offset: 0x10
     System::Action_1<OnlineServices::PlatformServicesAvailabilityInfo*>* platformServicesAvailabilityInfoChangedEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<OnlineServices::PlatformServicesAvailabilityInfo*>*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Action_1<OnlineServices::PlatformServicesAvailabilityInfo*>*
     constexpr operator System::Action_1<OnlineServices::PlatformServicesAvailabilityInfo*>*() const noexcept {
       return platformServicesAvailabilityInfoChangedEvent;

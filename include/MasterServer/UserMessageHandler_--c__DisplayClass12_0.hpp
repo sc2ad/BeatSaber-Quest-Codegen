@@ -45,6 +45,11 @@ namespace MasterServer {
     public:
     // Nested type: MasterServer::UserMessageHandler::$$c__DisplayClass12_0::$$SendConnectToServerRequest$b__0$d
     struct $$SendConnectToServerRequest$b__0$d;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Threading.CancellationToken cancellationToken
     // Size: 0x8
     // Offset: 0x10
@@ -75,6 +80,7 @@ namespace MasterServer {
     System::Action_1<GlobalNamespace::ConnectionFailedReason>* onConnectionFailed;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::ConnectionFailedReason>*) == 0x8);
+    public:
     // Get instance field reference: public System.Threading.CancellationToken cancellationToken
     System::Threading::CancellationToken& dyn_cancellationToken();
     // Get instance field reference: public MasterServer.UserMessageHandler <>4__this

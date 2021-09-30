@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -53,6 +54,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::NoteDebris::Pool
     class Pool;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Transform _meshTransform
     // Size: 0x8
     // Offset: 0x18
@@ -118,6 +124,7 @@ namespace GlobalNamespace {
     GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteDebrisDidFinishEvent*>* didFinishEvent;
     // Field size check
     static_assert(sizeof(GlobalNamespace::LazyCopyHashSet_1<GlobalNamespace::INoteDebrisDidFinishEvent*>*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF04B10
@@ -142,9 +149,9 @@ namespace GlobalNamespace {
     static void _set__cutoutTexOffsetID(int value);
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF04B50
     // Get static field: static private UnityEngine.Vector3[] _meshVertices
-    static ::ArrayWrapper<UnityEngine::Vector3> _get__meshVertices();
+    static ::ArrayW<UnityEngine::Vector3> _get__meshVertices();
     // Set static field: static private UnityEngine.Vector3[] _meshVertices
-    static void _set__meshVertices(::ArrayWrapper<UnityEngine::Vector3> value);
+    static void _set__meshVertices(::ArrayW<UnityEngine::Vector3> value);
     // Get instance field reference: private UnityEngine.Transform _meshTransform
     UnityEngine::Transform*& dyn__meshTransform();
     // Get instance field reference: private NoteDebrisPhysics _physics

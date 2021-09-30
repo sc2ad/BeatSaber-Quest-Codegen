@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -50,12 +51,12 @@ namespace GlobalNamespace {
     // static public System.Byte[] ToBytes(T bitMask)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static ::ArrayWrapper<uint8_t> ToBytes(T bitMask) {
+    static ::ArrayW<uint8_t> ToBytes(T bitMask) {
       static_assert(std::is_base_of_v<GlobalNamespace::IBitMask_1<T>, std::remove_pointer_t<T>>);
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IBitMaskUtil::ToBytes");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "IBitMaskUtil", "ToBytes", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(bitMask)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<::ArrayWrapper<uint8_t>, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, bitMask);
+      return ::il2cpp_utils::RunMethodThrow<::ArrayW<uint8_t>, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, bitMask);
     }
     // static public System.Boolean TryParse(System.String stringSerializedMask, out T bitMask)
     // Offset: 0xFFFFFFFF
@@ -80,7 +81,7 @@ namespace GlobalNamespace {
     // static public T FromBytes(System.Byte[] bytes, System.Int32 offset)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static T FromBytes(::ArrayWrapper<uint8_t> bytes, int offset) {
+    static T FromBytes(::ArrayW<uint8_t> bytes, int offset) {
       static_assert(std::is_base_of_v<GlobalNamespace::IBitMask_1<T>, std::remove_pointer_t<T>>);
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::IBitMaskUtil::FromBytes");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "IBitMaskUtil", "FromBytes", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(bytes), ::il2cpp_utils::ExtractType(offset)})));

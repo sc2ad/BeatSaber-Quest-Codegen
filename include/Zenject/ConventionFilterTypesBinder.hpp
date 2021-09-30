@@ -12,6 +12,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Zenject
@@ -146,7 +147,7 @@ namespace Zenject {
     Zenject::ConventionFilterTypesBinder* InNamespace(::Il2CppString* ns);
     // public Zenject.ConventionFilterTypesBinder InNamespaces(params System.String[] namespaces)
     // Offset: 0x14FB094
-    Zenject::ConventionFilterTypesBinder* InNamespaces(::ArrayWrapper<::Il2CppString*> namespaces);
+    Zenject::ConventionFilterTypesBinder* InNamespaces(::ArrayW<::Il2CppString*> namespaces);
     // public Zenject.ConventionFilterTypesBinder InNamespaces(System.Collections.Generic.IEnumerable`1<System.String> namespaces)
     // Offset: 0x14FB098
     Zenject::ConventionFilterTypesBinder* InNamespaces(System::Collections::Generic::IEnumerable_1<::Il2CppString*>* namespaces);
@@ -254,7 +255,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Co
 // Writing MetadataGetter for method: Zenject::ConventionFilterTypesBinder::InNamespaces
 // Il2CppName: InNamespaces
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConventionFilterTypesBinder* (Zenject::ConventionFilterTypesBinder::*)(::ArrayWrapper<::Il2CppString*>)>(&Zenject::ConventionFilterTypesBinder::InNamespaces)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConventionFilterTypesBinder* (Zenject::ConventionFilterTypesBinder::*)(::ArrayW<::Il2CppString*>)>(&Zenject::ConventionFilterTypesBinder::InNamespaces)> {
   static const MethodInfo* get() {
     static auto* namespaces = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::ConventionFilterTypesBinder*), "InNamespaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{namespaces});

@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection
@@ -27,12 +28,17 @@ namespace System::Runtime::Remoting::Messaging {
   // [TokenAttribute] Offset: FFFFFFFF
   class ArgInfo : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32[] _paramMap
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<int> paramMap;
+    ::ArrayW<int> paramMap;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // private System.Int32 _inoutArgCount
     // Size: 0x4
     // Offset: 0x18
@@ -47,8 +53,9 @@ namespace System::Runtime::Remoting::Messaging {
     System::Reflection::MethodBase* method;
     // Field size check
     static_assert(sizeof(System::Reflection::MethodBase*) == 0x8);
+    public:
     // Get instance field reference: private System.Int32[] _paramMap
-    ::ArrayWrapper<int>& dyn__paramMap();
+    ::ArrayW<int>& dyn__paramMap();
     // Get instance field reference: private System.Int32 _inoutArgCount
     int& dyn__inoutArgCount();
     // Get instance field reference: private System.Reflection.MethodBase _method
@@ -62,7 +69,7 @@ namespace System::Runtime::Remoting::Messaging {
     }
     // public System.Object[] GetInOutArgs(System.Object[] args)
     // Offset: 0x1C1173C
-    ::ArrayWrapper<::Il2CppObject*> GetInOutArgs(::ArrayWrapper<::Il2CppObject*> args);
+    ::ArrayW<::Il2CppObject*> GetInOutArgs(::ArrayW<::Il2CppObject*> args);
   }; // System.Runtime.Remoting.Messaging.ArgInfo
   #pragma pack(pop)
   static check_size<sizeof(ArgInfo), 32 + sizeof(System::Reflection::MethodBase*)> __System_Runtime_Remoting_Messaging_ArgInfoSizeCheck;
@@ -77,7 +84,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::Messaging::ArgInfo*, "System.R
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::ArgInfo::GetInOutArgs
 // Il2CppName: GetInOutArgs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppObject*> (System::Runtime::Remoting::Messaging::ArgInfo::*)(::ArrayWrapper<::Il2CppObject*>)>(&System::Runtime::Remoting::Messaging::ArgInfo::GetInOutArgs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppObject*> (System::Runtime::Remoting::Messaging::ArgInfo::*)(::ArrayW<::Il2CppObject*>)>(&System::Runtime::Remoting::Messaging::ArgInfo::GetInOutArgs)> {
   static const MethodInfo* get() {
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::ArgInfo*), "GetInOutArgs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{args});

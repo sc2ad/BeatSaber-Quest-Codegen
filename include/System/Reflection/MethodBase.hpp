@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -106,34 +107,34 @@ namespace System::Reflection {
     static System::Reflection::MethodBase* GetMethodFromHandle(System::RuntimeMethodHandle handle);
     // System.Reflection.ParameterInfo[] GetParametersNoCopy()
     // Offset: 0x1EAAC04
-    ::ArrayWrapper<System::Reflection::ParameterInfo*> GetParametersNoCopy();
+    ::ArrayW<System::Reflection::ParameterInfo*> GetParametersNoCopy();
     // public System.Reflection.ParameterInfo[] GetParameters()
     // Offset: 0xFFFFFFFF
-    ::ArrayWrapper<System::Reflection::ParameterInfo*> GetParameters();
+    ::ArrayW<System::Reflection::ParameterInfo*> GetParameters();
     // public System.Reflection.MethodImplAttributes GetMethodImplementationFlags()
     // Offset: 0xFFFFFFFF
     System::Reflection::MethodImplAttributes GetMethodImplementationFlags();
     // public System.Object Invoke(System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture)
     // Offset: 0xFFFFFFFF
-    ::Il2CppObject* Invoke(::Il2CppObject* obj, System::Reflection::BindingFlags invokeAttr, System::Reflection::Binder* binder, ::ArrayWrapper<::Il2CppObject*> parameters, System::Globalization::CultureInfo* culture);
+    ::Il2CppObject* Invoke(::Il2CppObject* obj, System::Reflection::BindingFlags invokeAttr, System::Reflection::Binder* binder, ::ArrayW<::Il2CppObject*> parameters, System::Globalization::CultureInfo* culture);
     // public System.Type[] GetGenericArguments()
     // Offset: 0x1EAAC1C
-    ::ArrayWrapper<System::Type*> GetGenericArguments();
+    ::ArrayW<System::Type*> GetGenericArguments();
     // public System.Object Invoke(System.Object obj, System.Object[] parameters)
     // Offset: 0x1EAAD14
-    ::Il2CppObject* Invoke(::Il2CppObject* obj, ::ArrayWrapper<::Il2CppObject*> parameters);
+    ::Il2CppObject* Invoke(::Il2CppObject* obj, ::ArrayW<::Il2CppObject*> parameters);
     // static System.String ConstructParameters(System.Type[] parameterTypes, System.Reflection.CallingConventions callingConvention, System.Boolean serialization)
     // Offset: 0x1EAAEA4
-    static ::Il2CppString* ConstructParameters(::ArrayWrapper<System::Type*> parameterTypes, System::Reflection::CallingConventions callingConvention, bool serialization);
+    static ::Il2CppString* ConstructParameters(::ArrayW<System::Type*> parameterTypes, System::Reflection::CallingConventions callingConvention, bool serialization);
     // System.String FormatNameAndSig(System.Boolean serialization)
     // Offset: 0x1EAB088
     ::Il2CppString* FormatNameAndSig(bool serialization);
     // System.Type[] GetParameterTypes()
     // Offset: 0x1EAB19C
-    ::ArrayWrapper<System::Type*> GetParameterTypes();
+    ::ArrayW<System::Type*> GetParameterTypes();
     // System.Reflection.ParameterInfo[] GetParametersInternal()
     // Offset: 0x1EAB2B4
-    ::ArrayWrapper<System::Reflection::ParameterInfo*> GetParametersInternal();
+    ::ArrayW<System::Reflection::ParameterInfo*> GetParametersInternal();
     // System.Int32 GetParametersCount()
     // Offset: 0x1EAB2C4
     int GetParametersCount();
@@ -296,7 +297,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Writing MetadataGetter for method: System::Reflection::MethodBase::GetParametersNoCopy
 // Il2CppName: GetParametersNoCopy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::Reflection::ParameterInfo*> (System::Reflection::MethodBase::*)()>(&System::Reflection::MethodBase::GetParametersNoCopy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Reflection::ParameterInfo*> (System::Reflection::MethodBase::*)()>(&System::Reflection::MethodBase::GetParametersNoCopy)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::MethodBase*), "GetParametersNoCopy", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -304,7 +305,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: System::Reflection::MethodBase::GetParameters
 // Il2CppName: GetParameters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::Reflection::ParameterInfo*> (System::Reflection::MethodBase::*)()>(&System::Reflection::MethodBase::GetParameters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Reflection::ParameterInfo*> (System::Reflection::MethodBase::*)()>(&System::Reflection::MethodBase::GetParameters)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::MethodBase*), "GetParameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -320,7 +321,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Ref
 // Writing MetadataGetter for method: System::Reflection::MethodBase::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Reflection::MethodBase::*)(::Il2CppObject*, System::Reflection::BindingFlags, System::Reflection::Binder*, ::ArrayWrapper<::Il2CppObject*>, System::Globalization::CultureInfo*)>(&System::Reflection::MethodBase::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Reflection::MethodBase::*)(::Il2CppObject*, System::Reflection::BindingFlags, System::Reflection::Binder*, ::ArrayW<::Il2CppObject*>, System::Globalization::CultureInfo*)>(&System::Reflection::MethodBase::Invoke)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* invokeAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
@@ -333,7 +334,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Reflection::MethodBase::GetGenericArguments
 // Il2CppName: GetGenericArguments
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::Type*> (System::Reflection::MethodBase::*)()>(&System::Reflection::MethodBase::GetGenericArguments)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Type*> (System::Reflection::MethodBase::*)()>(&System::Reflection::MethodBase::GetGenericArguments)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::MethodBase*), "GetGenericArguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -341,7 +342,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: System::Reflection::MethodBase::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Reflection::MethodBase::*)(::Il2CppObject*, ::ArrayWrapper<::Il2CppObject*>)>(&System::Reflection::MethodBase::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (System::Reflection::MethodBase::*)(::Il2CppObject*, ::ArrayW<::Il2CppObject*>)>(&System::Reflection::MethodBase::Invoke)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* parameters = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
@@ -351,7 +352,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Reflection::MethodBase::ConstructParameters
 // Il2CppName: ConstructParameters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::ArrayWrapper<System::Type*>, System::Reflection::CallingConventions, bool)>(&System::Reflection::MethodBase::ConstructParameters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::ArrayW<System::Type*>, System::Reflection::CallingConventions, bool)>(&System::Reflection::MethodBase::ConstructParameters)> {
   static const MethodInfo* get() {
     static auto* parameterTypes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Type"), 1)->byval_arg;
     static auto* callingConvention = &::il2cpp_utils::GetClassFromName("System.Reflection", "CallingConventions")->byval_arg;
@@ -371,7 +372,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Reflection::MethodBase::GetParameterTypes
 // Il2CppName: GetParameterTypes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::Type*> (System::Reflection::MethodBase::*)()>(&System::Reflection::MethodBase::GetParameterTypes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Type*> (System::Reflection::MethodBase::*)()>(&System::Reflection::MethodBase::GetParameterTypes)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::MethodBase*), "GetParameterTypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -379,7 +380,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: System::Reflection::MethodBase::GetParametersInternal
 // Il2CppName: GetParametersInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::Reflection::ParameterInfo*> (System::Reflection::MethodBase::*)()>(&System::Reflection::MethodBase::GetParametersInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Reflection::ParameterInfo*> (System::Reflection::MethodBase::*)()>(&System::Reflection::MethodBase::GetParametersInternal)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Reflection::MethodBase*), "GetParametersInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

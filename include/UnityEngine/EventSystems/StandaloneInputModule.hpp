@@ -34,6 +34,11 @@ namespace UnityEngine::EventSystems {
     public:
     // Nested type: UnityEngine::EventSystems::StandaloneInputModule::InputMode
     struct InputMode;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Single m_PrevActionTime
     // Size: 0x4
     // Offset: 0x58
@@ -119,6 +124,7 @@ namespace UnityEngine::EventSystems {
     bool m_ForceModuleActive;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private System.Single m_PrevActionTime
     float& dyn_m_PrevActionTime();
     // Get instance field reference: private UnityEngine.Vector2 m_LastMoveVector

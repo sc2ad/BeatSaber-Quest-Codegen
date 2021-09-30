@@ -34,12 +34,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LevelSearchViewController::BeatmapLevelPackCollection : public ::Il2CppObject/*, public GlobalNamespace::IAnnotatedBeatmapLevelCollection*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private IBeatmapLevelCollection <beatmapLevelCollection>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     GlobalNamespace::IBeatmapLevelCollection* beatmapLevelCollection;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IBeatmapLevelCollection*) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IAnnotatedBeatmapLevelCollection
     operator GlobalNamespace::IAnnotatedBeatmapLevelCollection() noexcept {
       return *reinterpret_cast<GlobalNamespace::IAnnotatedBeatmapLevelCollection*>(this);

@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Serialization
@@ -28,6 +29,11 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5C388
   class MissingMemberException : public System::MemberAccessException {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // protected System.String ClassName
     // Size: 0x8
     // Offset: 0x88
@@ -43,18 +49,19 @@ namespace System {
     // protected System.Byte[] Signature
     // Size: 0x8
     // Offset: 0x98
-    ::ArrayWrapper<uint8_t> Signature;
+    ::ArrayW<uint8_t> Signature;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
+    public:
     // Get instance field reference: protected System.String ClassName
     ::Il2CppString*& dyn_ClassName();
     // Get instance field reference: protected System.String MemberName
     ::Il2CppString*& dyn_MemberName();
     // Get instance field reference: protected System.Byte[] Signature
-    ::ArrayWrapper<uint8_t>& dyn_Signature();
+    ::ArrayW<uint8_t>& dyn_Signature();
     // static System.String FormatSignature(System.Byte[] signature)
     // Offset: 0x1A0FDD4
-    static ::Il2CppString* FormatSignature(::ArrayWrapper<uint8_t> signature);
+    static ::Il2CppString* FormatSignature(::ArrayW<uint8_t> signature);
     // public override System.String get_Message()
     // Offset: 0x1A0FC84
     // Implemented from: System.Exception
@@ -101,7 +108,7 @@ namespace System {
     void GetObjectData(System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
   }; // System.MissingMemberException
   #pragma pack(pop)
-  static check_size<sizeof(MissingMemberException), 152 + sizeof(::ArrayWrapper<uint8_t>)> __System_MissingMemberExceptionSizeCheck;
+  static check_size<sizeof(MissingMemberException), 152 + sizeof(::ArrayW<uint8_t>)> __System_MissingMemberExceptionSizeCheck;
   static_assert(sizeof(MissingMemberException) == 0xA0);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::MissingMemberException*, "System", "MissingMemberException");
@@ -109,7 +116,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::MissingMemberException*, "System", "MissingMember
 // Writing MetadataGetter for method: System::MissingMemberException::FormatSignature
 // Il2CppName: FormatSignature
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::ArrayWrapper<uint8_t>)>(&System::MissingMemberException::FormatSignature)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::ArrayW<uint8_t>)>(&System::MissingMemberException::FormatSignature)> {
   static const MethodInfo* get() {
     static auto* signature = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::MissingMemberException*), "FormatSignature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{signature});

@@ -44,6 +44,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerCenterTextAnimator : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [SpaceAttribute] Offset: 0xF091C8
     // private TMPro.TextMeshPro _text
     // Size: 0x8
@@ -94,6 +99,7 @@ namespace GlobalNamespace {
     Tweening::Tween_1<UnityEngine::Vector3>* offsetTween;
     // Field size check
     static_assert(sizeof(Tweening::Tween_1<UnityEngine::Vector3>*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TMPro.TextMeshPro _text

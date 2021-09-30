@@ -22,6 +22,11 @@ namespace System::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   class Directory::SearchData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly System.String fullPath
     // Size: 0x8
     // Offset: 0x10
@@ -40,6 +45,7 @@ namespace System::IO {
     System::IO::SearchOption searchOption;
     // Field size check
     static_assert(sizeof(System::IO::SearchOption) == 0x4);
+    public:
     // Get instance field reference: public readonly System.String fullPath
     ::Il2CppString*& dyn_fullPath();
     // Get instance field reference: public readonly System.String userPath

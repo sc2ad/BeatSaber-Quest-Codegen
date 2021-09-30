@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -47,6 +48,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MissionLevelScenesTransitionSetupDataSO : public GlobalNamespace::ScenesTransitionSetupDataSO {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private SceneInfo _missionGameplaySceneInfo
     // Size: 0x8
     // Offset: 0x28
@@ -77,6 +83,7 @@ namespace GlobalNamespace {
     GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IDifficultyBeatmap*) == 0x8);
+    public:
     // Get instance field reference: private SceneInfo _missionGameplaySceneInfo
     GlobalNamespace::SceneInfo*& dyn__missionGameplaySceneInfo();
     // Get instance field reference: private SceneInfo _gameCoreSceneInfo
@@ -107,7 +114,7 @@ namespace GlobalNamespace {
     void remove_didFinishEvent(System::Action_2<GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, GlobalNamespace::MissionCompletionResults*>* value);
     // public System.Void Init(System.String missionId, IDifficultyBeatmap difficultyBeatmap, IPreviewBeatmapLevel previewBeatmapLevel, MissionObjective[] missionObjectives, ColorScheme overrideColorScheme, GameplayModifiers gameplayModifiers, PlayerSpecificSettings playerSpecificSettings, System.String backButtonText)
     // Offset: 0x1180E74
-    void Init(::Il2CppString* missionId, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, ::ArrayWrapper<GlobalNamespace::MissionObjective*> missionObjectives, GlobalNamespace::ColorScheme* overrideColorScheme, GlobalNamespace::GameplayModifiers* gameplayModifiers, GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::Il2CppString* backButtonText);
+    void Init(::Il2CppString* missionId, GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, ::ArrayW<GlobalNamespace::MissionObjective*> missionObjectives, GlobalNamespace::ColorScheme* overrideColorScheme, GlobalNamespace::GameplayModifiers* gameplayModifiers, GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::Il2CppString* backButtonText);
     // public System.Void Finish(MissionCompletionResults levelCompletionResults)
     // Offset: 0x1186790
     void Finish(GlobalNamespace::MissionCompletionResults* levelCompletionResults);
@@ -186,7 +193,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::MissionLevelScenesTransitionSetupDataSO::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionLevelScenesTransitionSetupDataSO::*)(::Il2CppString*, GlobalNamespace::IDifficultyBeatmap*, GlobalNamespace::IPreviewBeatmapLevel*, ::ArrayWrapper<GlobalNamespace::MissionObjective*>, GlobalNamespace::ColorScheme*, GlobalNamespace::GameplayModifiers*, GlobalNamespace::PlayerSpecificSettings*, ::Il2CppString*)>(&GlobalNamespace::MissionLevelScenesTransitionSetupDataSO::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MissionLevelScenesTransitionSetupDataSO::*)(::Il2CppString*, GlobalNamespace::IDifficultyBeatmap*, GlobalNamespace::IPreviewBeatmapLevel*, ::ArrayW<GlobalNamespace::MissionObjective*>, GlobalNamespace::ColorScheme*, GlobalNamespace::GameplayModifiers*, GlobalNamespace::PlayerSpecificSettings*, ::Il2CppString*)>(&GlobalNamespace::MissionLevelScenesTransitionSetupDataSO::Init)> {
   static const MethodInfo* get() {
     static auto* missionId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* difficultyBeatmap = &::il2cpp_utils::GetClassFromName("", "IDifficultyBeatmap")->byval_arg;

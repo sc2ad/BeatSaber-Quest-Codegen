@@ -22,6 +22,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class QuickPlaySongPacksDropdown::SongPackMaskItem : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.String serializedName
     // Size: 0x8
     // Offset: 0x10
@@ -48,6 +53,7 @@ namespace GlobalNamespace {
     GlobalNamespace::SongPackMask songPackMask;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SongPackMask) == 0x10);
+    public:
     // Get instance field reference: public System.String serializedName
     ::Il2CppString*& dyn_serializedName();
     // Get instance field reference: public System.String localizedName

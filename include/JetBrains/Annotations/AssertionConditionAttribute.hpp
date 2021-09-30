@@ -23,12 +23,18 @@ namespace JetBrains::Annotations {
   // [AttributeUsageAttribute] Offset: EADBD4
   class AssertionConditionAttribute : public System::Attribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private JetBrains.Annotations.AssertionConditionType <ConditionType>k__BackingField
     // Size: 0x4
     // Offset: 0x10
     JetBrains::Annotations::AssertionConditionType ConditionType;
     // Field size check
     static_assert(sizeof(JetBrains::Annotations::AssertionConditionType) == 0x4);
+    public:
     // Creating conversion operator: operator JetBrains::Annotations::AssertionConditionType
     constexpr operator JetBrains::Annotations::AssertionConditionType() const noexcept {
       return ConditionType;

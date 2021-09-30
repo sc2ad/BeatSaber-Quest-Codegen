@@ -25,6 +25,11 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   // [TokenAttribute] Offset: FFFFFFFF
   class BinaryCrossAppDomainAssembly : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Int32 assemId
     // Size: 0x4
     // Offset: 0x10
@@ -37,6 +42,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     int assemblyIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: System.Int32 assemId
     int& dyn_assemId();
     // Get instance field reference: System.Int32 assemblyIndex

@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -27,6 +28,11 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class IKSolverFABRIK : public RootMotion::FinalIK::IKSolverHeuristic {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.IterationDelegate OnPreIteration
     // Size: 0x8
     // Offset: 0x88
@@ -36,21 +42,22 @@ namespace RootMotion::FinalIK {
     // private System.Boolean[] limitedBones
     // Size: 0x8
     // Offset: 0x90
-    ::ArrayWrapper<bool> limitedBones;
+    ::ArrayW<bool> limitedBones;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<bool>) == 0x8);
+    static_assert(sizeof(::ArrayW<bool>) == 0x8);
     // private UnityEngine.Vector3[] solverLocalPositions
     // Size: 0x8
     // Offset: 0x98
-    ::ArrayWrapper<UnityEngine::Vector3> solverLocalPositions;
+    ::ArrayW<UnityEngine::Vector3> solverLocalPositions;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector3>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Vector3>) == 0x8);
+    public:
     // Get instance field reference: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.IterationDelegate OnPreIteration
     RootMotion::FinalIK::IKSolver::IterationDelegate*& dyn_OnPreIteration();
     // Get instance field reference: private System.Boolean[] limitedBones
-    ::ArrayWrapper<bool>& dyn_limitedBones();
+    ::ArrayW<bool>& dyn_limitedBones();
     // Get instance field reference: private UnityEngine.Vector3[] solverLocalPositions
-    ::ArrayWrapper<UnityEngine::Vector3>& dyn_solverLocalPositions();
+    ::ArrayW<UnityEngine::Vector3>& dyn_solverLocalPositions();
     // public System.Void SolveForward(UnityEngine.Vector3 position)
     // Offset: 0x1E5F304
     void SolveForward(UnityEngine::Vector3 position);
@@ -144,7 +151,7 @@ namespace RootMotion::FinalIK {
     void OnUpdate();
   }; // RootMotion.FinalIK.IKSolverFABRIK
   #pragma pack(pop)
-  static check_size<sizeof(IKSolverFABRIK), 152 + sizeof(::ArrayWrapper<UnityEngine::Vector3>)> __RootMotion_FinalIK_IKSolverFABRIKSizeCheck;
+  static check_size<sizeof(IKSolverFABRIK), 152 + sizeof(::ArrayW<UnityEngine::Vector3>)> __RootMotion_FinalIK_IKSolverFABRIKSizeCheck;
   static_assert(sizeof(IKSolverFABRIK) == 0xA0);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverFABRIK*, "RootMotion.FinalIK", "IKSolverFABRIK");

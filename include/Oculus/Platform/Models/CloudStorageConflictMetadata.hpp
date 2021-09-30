@@ -27,6 +27,11 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class CloudStorageConflictMetadata : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly Oculus.Platform.Models.CloudStorageMetadata Local
     // Size: 0x8
     // Offset: 0x10
@@ -39,6 +44,7 @@ namespace Oculus::Platform::Models {
     Oculus::Platform::Models::CloudStorageMetadata* Remote;
     // Field size check
     static_assert(sizeof(Oculus::Platform::Models::CloudStorageMetadata*) == 0x8);
+    public:
     // Get instance field reference: public readonly Oculus.Platform.Models.CloudStorageMetadata Local
     Oculus::Platform::Models::CloudStorageMetadata*& dyn_Local();
     // Get instance field reference: public readonly Oculus.Platform.Models.CloudStorageMetadata Remote

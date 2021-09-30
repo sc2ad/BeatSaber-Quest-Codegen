@@ -19,6 +19,11 @@ namespace UnityEngine::Scripting::APIUpdating {
   // [TokenAttribute] Offset: FFFFFFFF
   struct MovedFromAttributeData/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.String className
     // Size: 0x8
     // Offset: 0x0
@@ -61,6 +66,7 @@ namespace UnityEngine::Scripting::APIUpdating {
     bool autoUdpateAPI;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating value type constructor for type: MovedFromAttributeData
     constexpr MovedFromAttributeData(::Il2CppString* className_ = {}, ::Il2CppString* nameSpace_ = {}, ::Il2CppString* assembly_ = {}, bool classHasChanged_ = {}, bool nameSpaceHasChanged_ = {}, bool assemblyHasChanged_ = {}, bool autoUdpateAPI_ = {}) noexcept : className{className_}, nameSpace{nameSpace_}, assembly{assembly_}, classHasChanged{classHasChanged_}, nameSpaceHasChanged{nameSpaceHasChanged_}, assemblyHasChanged{assemblyHasChanged_}, autoUdpateAPI{autoUdpateAPI_} {}
     // Creating interface conversion operator: operator System::ValueType

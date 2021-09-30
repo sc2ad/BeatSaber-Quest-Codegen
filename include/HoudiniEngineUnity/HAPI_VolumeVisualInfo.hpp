@@ -19,6 +19,11 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HAPI_VolumeVisualInfo/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public HoudiniEngineUnity.HAPI_VolumeVisualType type
     // Size: 0x4
     // Offset: 0x0
@@ -37,6 +42,7 @@ namespace HoudiniEngineUnity {
     float density;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: HAPI_VolumeVisualInfo
     constexpr HAPI_VolumeVisualInfo(HoudiniEngineUnity::HAPI_VolumeVisualType type_ = {}, float iso_ = {}, float density_ = {}) noexcept : type{type_}, iso{iso_}, density{density_} {}
     // Creating interface conversion operator: operator System::ValueType

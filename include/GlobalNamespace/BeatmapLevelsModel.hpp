@@ -94,6 +94,11 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct GetBeatmapLevelResult/*, public System::ValueType*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public readonly System.Boolean isError
       // Size: 0x1
       // Offset: 0x0
@@ -108,6 +113,7 @@ namespace GlobalNamespace {
       GlobalNamespace::IBeatmapLevel* beatmapLevel;
       // Field size check
       static_assert(sizeof(GlobalNamespace::IBeatmapLevel*) == 0x8);
+      public:
       // Creating value type constructor for type: GetBeatmapLevelResult
       constexpr GetBeatmapLevelResult(bool isError_ = {}, GlobalNamespace::IBeatmapLevel* beatmapLevel_ = {}) noexcept : isError{isError_}, beatmapLevel{beatmapLevel_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -140,12 +146,18 @@ namespace GlobalNamespace {
       // [TokenAttribute] Offset: FFFFFFFF
       struct DownloadingState/*, public System::Enum*/ {
         public:
+        #ifdef USE_CODEGEN_FIELDS
+        public:
+        #else
+        private:
+        #endif
         // public System.Int32 value__
         // Size: 0x4
         // Offset: 0x0
         int value;
         // Field size check
         static_assert(sizeof(int) == 0x4);
+        public:
         // Creating value type constructor for type: DownloadingState
         constexpr DownloadingState(int value_ = {}) noexcept : value{value_} {}
         // Creating interface conversion operator: operator System::Enum
@@ -180,6 +192,11 @@ namespace GlobalNamespace {
       #pragma pack(pop)
       static check_size<sizeof(BeatmapLevelsModel::LevelDownloadingUpdate::DownloadingState), 0 + sizeof(int)> __GlobalNamespace_BeatmapLevelsModel_LevelDownloadingUpdate_DownloadingStateSizeCheck;
       static_assert(sizeof(BeatmapLevelsModel::LevelDownloadingUpdate::DownloadingState) == 0x4);
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public readonly System.String levelID
       // Size: 0x8
       // Offset: 0x0
@@ -204,6 +221,7 @@ namespace GlobalNamespace {
       GlobalNamespace::BeatmapLevelsModel::LevelDownloadingUpdate::DownloadingState downloadingState;
       // Field size check
       static_assert(sizeof(GlobalNamespace::BeatmapLevelsModel::LevelDownloadingUpdate::DownloadingState) == 0x4);
+      public:
       // Creating value type constructor for type: LevelDownloadingUpdate
       constexpr LevelDownloadingUpdate(::Il2CppString* levelID_ = {}, uint bytesTotal_ = {}, uint bytesTransferred_ = {}, GlobalNamespace::BeatmapLevelsModel::LevelDownloadingUpdate::DownloadingState downloadingState_ = {}) noexcept : levelID{levelID_}, bytesTotal{bytesTotal_}, bytesTransferred{bytesTransferred_}, downloadingState{downloadingState_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -225,6 +243,11 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(BeatmapLevelsModel::LevelDownloadingUpdate), 16 + sizeof(GlobalNamespace::BeatmapLevelsModel::LevelDownloadingUpdate::DownloadingState)> __GlobalNamespace_BeatmapLevelsModel_LevelDownloadingUpdateSizeCheck;
     static_assert(sizeof(BeatmapLevelsModel::LevelDownloadingUpdate) == 0x14);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private BeatmapLevelPackCollectionContainerSO _dlcLevelPackCollectionContainer
     // Size: 0x8
     // Offset: 0x18
@@ -307,6 +330,7 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatmapLevelLoader* beatmapLevelLoader;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapLevelLoader*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BeatmapLevelPackCollectionContainerSO _dlcLevelPackCollectionContainer

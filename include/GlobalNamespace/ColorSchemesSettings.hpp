@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -36,6 +37,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ColorSchemesSettings : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Boolean overrideDefaultColors
     // Size: 0x1
     // Offset: 0x10
@@ -62,6 +68,7 @@ namespace GlobalNamespace {
     ::Il2CppString* selectedColorSchemeId;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: public System.Boolean overrideDefaultColors
     bool& dyn_overrideDefaultColors();
     // Get instance field reference: private System.Collections.Generic.List`1<ColorScheme> _colorSchemesList
@@ -79,20 +86,20 @@ namespace GlobalNamespace {
     // public System.Void .ctor(ColorScheme[] colorSchemes)
     // Offset: 0x119B5F8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ColorSchemesSettings* New_ctor(::ArrayWrapper<GlobalNamespace::ColorScheme*> colorSchemes) {
+    static ColorSchemesSettings* New_ctor(::ArrayW<GlobalNamespace::ColorScheme*> colorSchemes) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ColorSchemesSettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ColorSchemesSettings*, creationType>(colorSchemes)));
     }
     // public System.Void .ctor(ColorSchemeSO[] colorSchemeSOs)
     // Offset: 0x119B728
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ColorSchemesSettings* New_ctor(::ArrayWrapper<GlobalNamespace::ColorSchemeSO*> colorSchemeSOs) {
+    static ColorSchemesSettings* New_ctor(::ArrayW<GlobalNamespace::ColorSchemeSO*> colorSchemeSOs) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::ColorSchemesSettings::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ColorSchemesSettings*, creationType>(colorSchemeSOs)));
     }
     // static private ColorScheme[] ConvertColorSchemeSOs(ColorSchemeSO[] colorSchemeSOs)
     // Offset: 0x119B754
-    static ::ArrayWrapper<GlobalNamespace::ColorScheme*> ConvertColorSchemeSOs(::ArrayWrapper<GlobalNamespace::ColorSchemeSO*> colorSchemeSOs);
+    static ::ArrayW<GlobalNamespace::ColorScheme*> ConvertColorSchemeSOs(::ArrayW<GlobalNamespace::ColorSchemeSO*> colorSchemeSOs);
     // public System.Int32 GetNumberOfColorSchemes()
     // Offset: 0x119B86C
     int GetNumberOfColorSchemes();
@@ -149,7 +156,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::ColorSchemesSettings::ConvertColorSchemeSOs
 // Il2CppName: ConvertColorSchemeSOs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::ColorScheme*> (*)(::ArrayWrapper<GlobalNamespace::ColorSchemeSO*>)>(&GlobalNamespace::ColorSchemesSettings::ConvertColorSchemeSOs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<GlobalNamespace::ColorScheme*> (*)(::ArrayW<GlobalNamespace::ColorSchemeSO*>)>(&GlobalNamespace::ColorSchemesSettings::ConvertColorSchemeSOs)> {
   static const MethodInfo* get() {
     static auto* colorSchemeSOs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "ColorSchemeSO"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ColorSchemesSettings*), "ConvertColorSchemeSOs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{colorSchemeSOs});

@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net
@@ -45,12 +46,18 @@ namespace System::Net::NetworkInformation {
   // [DefaultMemberAttribute] Offset: E69D88
   class IPAddressCollection : public ::Il2CppObject/*, public System::Collections::Generic::ICollection_1<System::Net::IPAddress*>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.ObjectModel.Collection`1<System.Net.IPAddress> addresses
     // Size: 0x8
     // Offset: 0x10
     System::Collections::ObjectModel::Collection_1<System::Net::IPAddress*>* addresses;
     // Field size check
     static_assert(sizeof(System::Collections::ObjectModel::Collection_1<System::Net::IPAddress*>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Collections::Generic::ICollection_1<System::Net::IPAddress*>
     operator System::Collections::Generic::ICollection_1<System::Net::IPAddress*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::ICollection_1<System::Net::IPAddress*>*>(this);
@@ -69,7 +76,7 @@ namespace System::Net::NetworkInformation {
     bool get_IsReadOnly();
     // public System.Void CopyTo(System.Net.IPAddress[] array, System.Int32 offset)
     // Offset: 0x1645378
-    void CopyTo(::ArrayWrapper<System::Net::IPAddress*> array, int offset);
+    void CopyTo(::ArrayW<System::Net::IPAddress*> array, int offset);
     // public System.Void Add(System.Net.IPAddress address)
     // Offset: 0x1645448
     void Add(System::Net::IPAddress* address);
@@ -126,7 +133,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Net::NetworkInformation::IPAddressCollection::CopyTo
 // Il2CppName: CopyTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::NetworkInformation::IPAddressCollection::*)(::ArrayWrapper<System::Net::IPAddress*>, int)>(&System::Net::NetworkInformation::IPAddressCollection::CopyTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::NetworkInformation::IPAddressCollection::*)(::ArrayW<System::Net::IPAddress*>, int)>(&System::Net::NetworkInformation::IPAddressCollection::CopyTo)> {
   static const MethodInfo* get() {
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Net", "IPAddress"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

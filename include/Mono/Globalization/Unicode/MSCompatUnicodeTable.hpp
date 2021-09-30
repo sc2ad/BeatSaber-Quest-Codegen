@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Mono::Globalization::Unicode
@@ -100,13 +101,13 @@ namespace Mono::Globalization::Unicode {
     // Set static field: static private System.Byte* cjkKOlv2
     static void _set_cjkKOlv2(uint8_t* value);
     // Get static field: static private readonly System.Char[] tailoringArr
-    static ::ArrayWrapper<::Il2CppChar> _get_tailoringArr();
+    static ::ArrayW<::Il2CppChar> _get_tailoringArr();
     // Set static field: static private readonly System.Char[] tailoringArr
-    static void _set_tailoringArr(::ArrayWrapper<::Il2CppChar> value);
+    static void _set_tailoringArr(::ArrayW<::Il2CppChar> value);
     // Get static field: static private readonly Mono.Globalization.Unicode.TailoringInfo[] tailoringInfos
-    static ::ArrayWrapper<Mono::Globalization::Unicode::TailoringInfo*> _get_tailoringInfos();
+    static ::ArrayW<Mono::Globalization::Unicode::TailoringInfo*> _get_tailoringInfos();
     // Set static field: static private readonly Mono.Globalization.Unicode.TailoringInfo[] tailoringInfos
-    static void _set_tailoringInfos(::ArrayWrapper<Mono::Globalization::Unicode::TailoringInfo*> value);
+    static void _set_tailoringInfos(::ArrayW<Mono::Globalization::Unicode::TailoringInfo*> value);
     // Get static field: static private System.Object forLock
     static ::Il2CppObject* _get_forLock();
     // Set static field: static private System.Object forLock
@@ -126,7 +127,7 @@ namespace Mono::Globalization::Unicode {
     static Mono::Globalization::Unicode::TailoringInfo* GetTailoringInfo(int lcid);
     // static public System.Void BuildTailoringTables(System.Globalization.CultureInfo culture, Mono.Globalization.Unicode.TailoringInfo t, ref Mono.Globalization.Unicode.Contraction[] contractions, ref Mono.Globalization.Unicode.Level2Map[] diacriticals)
     // Offset: 0x1C31F78
-    static void BuildTailoringTables(System::Globalization::CultureInfo* culture, Mono::Globalization::Unicode::TailoringInfo* t, ByRef<::ArrayWrapper<Mono::Globalization::Unicode::Contraction*>> contractions, ByRef<::ArrayWrapper<Mono::Globalization::Unicode::Level2Map*>> diacriticals);
+    static void BuildTailoringTables(System::Globalization::CultureInfo* culture, Mono::Globalization::Unicode::TailoringInfo* t, ByRef<::ArrayW<Mono::Globalization::Unicode::Contraction*>> contractions, ByRef<::ArrayW<Mono::Globalization::Unicode::Level2Map*>> diacriticals);
     // static private System.Void SetCJKReferences(System.String name, ref Mono.Globalization.Unicode.CodePointIndexer cjkIndexer, ref System.Byte* catTable, ref System.Byte* lv1Table, ref Mono.Globalization.Unicode.CodePointIndexer lv2Indexer, ref System.Byte* lv2Table)
     // Offset: 0x1C32548
     static void SetCJKReferences(::Il2CppString* name, ByRef<Mono::Globalization::Unicode::CodePointIndexer*> cjkIndexer, ByRef<uint8_t*> catTable, ByRef<uint8_t*> lv1Table, ByRef<Mono::Globalization::Unicode::CodePointIndexer*> lv2Indexer, ByRef<uint8_t*> lv2Table);
@@ -212,7 +213,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Globa
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::MSCompatUnicodeTable::BuildTailoringTables
 // Il2CppName: BuildTailoringTables
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Globalization::CultureInfo*, Mono::Globalization::Unicode::TailoringInfo*, ByRef<::ArrayWrapper<Mono::Globalization::Unicode::Contraction*>>, ByRef<::ArrayWrapper<Mono::Globalization::Unicode::Level2Map*>>)>(&Mono::Globalization::Unicode::MSCompatUnicodeTable::BuildTailoringTables)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::Globalization::CultureInfo*, Mono::Globalization::Unicode::TailoringInfo*, ByRef<::ArrayW<Mono::Globalization::Unicode::Contraction*>>, ByRef<::ArrayW<Mono::Globalization::Unicode::Level2Map*>>)>(&Mono::Globalization::Unicode::MSCompatUnicodeTable::BuildTailoringTables)> {
   static const MethodInfo* get() {
     static auto* culture = &::il2cpp_utils::GetClassFromName("System.Globalization", "CultureInfo")->byval_arg;
     static auto* t = &::il2cpp_utils::GetClassFromName("Mono.Globalization.Unicode", "TailoringInfo")->byval_arg;

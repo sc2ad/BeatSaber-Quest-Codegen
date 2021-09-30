@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Oculus::Platform
@@ -29,6 +30,11 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   class Packet : public ::Il2CppObject/*, public System::IDisposable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.UInt64 size
     // Size: 0x8
     // Offset: 0x10
@@ -41,6 +47,7 @@ namespace Oculus::Platform {
     System::IntPtr packetHandle;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
@@ -67,7 +74,7 @@ namespace Oculus::Platform {
     }
     // public System.UInt64 ReadBytes(System.Byte[] destination)
     // Offset: 0x25B71B4
-    uint64_t ReadBytes(::ArrayWrapper<uint8_t> destination);
+    uint64_t ReadBytes(::ArrayW<uint8_t> destination);
     // public System.Void Dispose()
     // Offset: 0x25B7450
     void Dispose();
@@ -114,7 +121,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Writing MetadataGetter for method: Oculus::Platform::Packet::ReadBytes
 // Il2CppName: ReadBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (Oculus::Platform::Packet::*)(::ArrayWrapper<uint8_t>)>(&Oculus::Platform::Packet::ReadBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (Oculus::Platform::Packet::*)(::ArrayW<uint8_t>)>(&Oculus::Platform::Packet::ReadBytes)> {
   static const MethodInfo* get() {
     static auto* destination = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Packet*), "ReadBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{destination});

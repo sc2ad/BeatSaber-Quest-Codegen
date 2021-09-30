@@ -36,12 +36,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapLineData : public ::Il2CppObject/*, public GlobalNamespace::IReadonlyBeatmapLineData*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Collections.Generic.List`1<BeatmapObjectData> _beatmapObjectsData
     // Size: 0x8
     // Offset: 0x10
     System::Collections::Generic::List_1<GlobalNamespace::BeatmapObjectData*>* beatmapObjectsData;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::BeatmapObjectData*>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IReadonlyBeatmapLineData
     operator GlobalNamespace::IReadonlyBeatmapLineData() noexcept {
       return *reinterpret_cast<GlobalNamespace::IReadonlyBeatmapLineData*>(this);

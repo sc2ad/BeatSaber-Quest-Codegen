@@ -28,12 +28,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapEditorScenesTransitionSetupDataSO : public GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Action`1<BeatmapEditorScenesTransitionSetupDataSO> didFinishEvent
     // Size: 0x8
     // Offset: 0x30
     System::Action_1<GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO*>* didFinishEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO*>*) == 0x8);
+    public:
     // Get instance field reference: private System.Action`1<BeatmapEditorScenesTransitionSetupDataSO> didFinishEvent
     System::Action_1<GlobalNamespace::BeatmapEditorScenesTransitionSetupDataSO*>*& dyn_didFinishEvent();
     // public System.Void add_didFinishEvent(System.Action`1<BeatmapEditorScenesTransitionSetupDataSO> value)

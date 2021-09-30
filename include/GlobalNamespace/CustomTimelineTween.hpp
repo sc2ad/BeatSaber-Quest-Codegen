@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -27,24 +28,30 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class CustomTimelineTween : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Transform[] transforms
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<UnityEngine::Transform*> transforms;
+    ::ArrayW<UnityEngine::Transform*> transforms;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Transform*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Transform*>) == 0x8);
     // public UnityEngine.Vector3[] startPositions
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<UnityEngine::Vector3> startPositions;
+    ::ArrayW<UnityEngine::Vector3> startPositions;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector3>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Vector3>) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public UnityEngine.Transform[] transforms
-    ::ArrayWrapper<UnityEngine::Transform*>& dyn_transforms();
+    ::ArrayW<UnityEngine::Transform*>& dyn_transforms();
     // Get instance field reference: public UnityEngine.Vector3[] startPositions
-    ::ArrayWrapper<UnityEngine::Vector3>& dyn_startPositions();
+    ::ArrayW<UnityEngine::Vector3>& dyn_startPositions();
     // private System.Void OnValidate()
     // Offset: 0x11A23EC
     void OnValidate();
@@ -63,7 +70,7 @@ namespace GlobalNamespace {
     }
   }; // CustomTimelineTween
   #pragma pack(pop)
-  static check_size<sizeof(CustomTimelineTween), 32 + sizeof(::ArrayWrapper<UnityEngine::Vector3>)> __GlobalNamespace_CustomTimelineTweenSizeCheck;
+  static check_size<sizeof(CustomTimelineTween), 32 + sizeof(::ArrayW<UnityEngine::Vector3>)> __GlobalNamespace_CustomTimelineTweenSizeCheck;
   static_assert(sizeof(CustomTimelineTween) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CustomTimelineTween*, "", "CustomTimelineTween");

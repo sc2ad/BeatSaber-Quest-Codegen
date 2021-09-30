@@ -34,6 +34,11 @@ namespace UnityEngine {
   // [RequiredByNativeCodeAttribute] Offset: E70874
   struct Rect/*, public System::ValueType, public System::IEquatable_1<UnityEngine::Rect>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [NativeNameAttribute] Offset: 0xE754E8
     // private System.Single m_XMin
     // Size: 0x4
@@ -62,6 +67,7 @@ namespace UnityEngine {
     float m_Height;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: Rect
     constexpr Rect(float m_XMin_ = {}, float m_YMin_ = {}, float m_Width_ = {}, float m_Height_ = {}) noexcept : m_XMin{m_XMin_}, m_YMin{m_YMin_}, m_Width{m_Width_}, m_Height{m_Height_} {}
     // Creating interface conversion operator: operator System::ValueType

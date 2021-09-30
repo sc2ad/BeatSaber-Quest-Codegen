@@ -28,6 +28,11 @@ namespace UnityEngine::XR {
   // [NativeHeaderAttribute] Offset: E991CC
   struct Bone/*, public System::ValueType, public System::IEquatable_1<UnityEngine::XR::Bone>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.UInt64 m_DeviceId
     // Size: 0x8
     // Offset: 0x0
@@ -40,6 +45,7 @@ namespace UnityEngine::XR {
     uint m_FeatureIndex;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
+    public:
     // Creating value type constructor for type: Bone
     constexpr Bone(uint64_t m_DeviceId_ = {}, uint m_FeatureIndex_ = {}) noexcept : m_DeviceId{m_DeviceId_}, m_FeatureIndex{m_FeatureIndex_} {}
     // Creating interface conversion operator: operator System::ValueType

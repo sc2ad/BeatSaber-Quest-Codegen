@@ -41,6 +41,11 @@ namespace System::Globalization {
     // [TokenAttribute] Offset: FFFFFFFF
     struct FormatLiterals/*, public System::ValueType*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // System.String AppCompatLiteral
       // Size: 0x8
       // Offset: 0x0
@@ -82,11 +87,12 @@ namespace System::Globalization {
       // private System.String[] literals
       // Size: 0x8
       // Offset: 0x20
-      ::ArrayWrapper<::Il2CppString*> literals;
+      ::ArrayW<::Il2CppString*> literals;
       // Field size check
-      static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
+      static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+      public:
       // Creating value type constructor for type: FormatLiterals
-      constexpr FormatLiterals(::Il2CppString* AppCompatLiteral_ = {}, int dd_ = {}, int hh_ = {}, int mm_ = {}, int ss_ = {}, int ff_ = {}, ::ArrayWrapper<::Il2CppString*> literals_ = ::ArrayWrapper<::Il2CppString*>(nullptr)) noexcept : AppCompatLiteral{AppCompatLiteral_}, dd{dd_}, hh{hh_}, mm{mm_}, ss{ss_}, ff{ff_}, literals{literals_} {}
+      constexpr FormatLiterals(::Il2CppString* AppCompatLiteral_ = {}, int dd_ = {}, int hh_ = {}, int mm_ = {}, int ss_ = {}, int ff_ = {}, ::ArrayW<::Il2CppString*> literals_ = ::ArrayW<::Il2CppString*>(nullptr)) noexcept : AppCompatLiteral{AppCompatLiteral_}, dd{dd_}, hh{hh_}, mm{mm_}, ss{ss_}, ff{ff_}, literals{literals_} {}
       // Creating interface conversion operator: operator System::ValueType
       operator System::ValueType() noexcept {
         return *reinterpret_cast<System::ValueType*>(this);
@@ -104,7 +110,7 @@ namespace System::Globalization {
       // Get instance field reference: System.Int32 ff
       int& dyn_ff();
       // Get instance field reference: private System.String[] literals
-      ::ArrayWrapper<::Il2CppString*>& dyn_literals();
+      ::ArrayW<::Il2CppString*>& dyn_literals();
       // System.String get_Start()
       // Offset: 0x1BDE354
       ::Il2CppString* get_Start();
@@ -131,7 +137,7 @@ namespace System::Globalization {
       void Init(::Il2CppString* format, bool useInvariantFieldLengths);
     }; // System.Globalization.TimeSpanFormat/System.Globalization.FormatLiterals
     #pragma pack(pop)
-    static check_size<sizeof(TimeSpanFormat::FormatLiterals), 32 + sizeof(::ArrayWrapper<::Il2CppString*>)> __System_Globalization_TimeSpanFormat_FormatLiteralsSizeCheck;
+    static check_size<sizeof(TimeSpanFormat::FormatLiterals), 32 + sizeof(::ArrayW<::Il2CppString*>)> __System_Globalization_TimeSpanFormat_FormatLiteralsSizeCheck;
     static_assert(sizeof(TimeSpanFormat::FormatLiterals) == 0x28);
     // Get static field: static readonly System.Globalization.TimeSpanFormat/System.Globalization.FormatLiterals PositiveInvariantFormatLiterals
     static System::Globalization::TimeSpanFormat::FormatLiterals _get_PositiveInvariantFormatLiterals();

@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: LiteNetLib::Utils
@@ -131,6 +132,11 @@ namespace LiteNetLib::Utils {
     // Nested type: LiteNetLib::Utils::NetSerializer::CustomTypeStatic_1<TProperty>
     template<typename TProperty>
     class CustomTypeStatic_1;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private LiteNetLib.Utils.NetDataWriter _writer
     // Size: 0x8
     // Offset: 0x10
@@ -151,6 +157,7 @@ namespace LiteNetLib::Utils {
     System::Collections::Generic::Dictionary_2<System::Type*, LiteNetLib::Utils::NetSerializer::CustomType*>* registeredTypes;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<System::Type*, LiteNetLib::Utils::NetSerializer::CustomType*>*) == 0x8);
+    public:
     // Get instance field reference: private LiteNetLib.Utils.NetDataWriter _writer
     LiteNetLib::Utils::NetDataWriter*& dyn__writer();
     // Get instance field reference: private readonly System.Int32 _maxStringLength
@@ -249,12 +256,12 @@ namespace LiteNetLib::Utils {
     // public System.Byte[] Serialize(T obj)
     // Offset: 0xFFFFFFFF
     template<class T>
-    ::ArrayWrapper<uint8_t> Serialize(T obj) {
+    ::ArrayW<uint8_t> Serialize(T obj) {
       static auto ___internal__logger = ::Logger::get().WithContext("LiteNetLib::Utils::NetSerializer::Serialize");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Serialize", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(obj)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<::ArrayWrapper<uint8_t>, false>(___instance_arg, ___generic__method, obj);
+      return ::il2cpp_utils::RunMethodThrow<::ArrayW<uint8_t>, false>(___instance_arg, ___generic__method, obj);
     }
     // public System.Void .ctor()
     // Offset: 0x26181EC

@@ -19,6 +19,11 @@ namespace System::Collections::Concurrent {
     public:
     // Writing base type padding for base size: 0x0 to desired offset: 0x80
     char ___base_padding[0x80] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 Head
     // Size: 0x4
     // Offset: 0x80
@@ -33,6 +38,7 @@ namespace System::Collections::Concurrent {
     int Tail;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: PaddedHeadAndTail
     constexpr PaddedHeadAndTail(int Head_ = {}, int Tail_ = {}) noexcept : Head{Head_}, Tail{Tail_} {}
     // Creating interface conversion operator: operator System::ValueType

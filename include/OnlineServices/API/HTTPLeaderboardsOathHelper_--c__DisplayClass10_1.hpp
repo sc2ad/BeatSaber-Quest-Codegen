@@ -34,6 +34,11 @@ namespace OnlineServices::API {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class HTTPLeaderboardsOathHelper::$$c__DisplayClass10_1 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Threading.Tasks.TaskCompletionSource`1<System.Boolean> taskComplitionSource
     // Size: 0x8
     // Offset: 0x10
@@ -46,6 +51,7 @@ namespace OnlineServices::API {
     OnlineServices::API::HTTPLeaderboardsOathHelper::$$c__DisplayClass10_0* CS$$$8__locals1;
     // Field size check
     static_assert(sizeof(OnlineServices::API::HTTPLeaderboardsOathHelper::$$c__DisplayClass10_0*) == 0x8);
+    public:
     // Get instance field reference: public System.Threading.Tasks.TaskCompletionSource`1<System.Boolean> taskComplitionSource
     System::Threading::Tasks::TaskCompletionSource_1<bool>*& dyn_taskComplitionSource();
     // Get instance field reference: public OnlineServices.API.HTTPLeaderboardsOathHelper/OnlineServices.API.<>c__DisplayClass10_0 CS$<>8__locals1

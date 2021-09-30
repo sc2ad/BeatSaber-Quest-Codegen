@@ -29,6 +29,11 @@ namespace Org::BouncyCastle::Asn1 {
   // [TokenAttribute] Offset: FFFFFFFF
   class BerTaggedObjectParser : public ::Il2CppObject/*, public Org::BouncyCastle::Asn1::IAsn1Convertible*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean _constructed
     // Size: 0x1
     // Offset: 0x10
@@ -49,6 +54,7 @@ namespace Org::BouncyCastle::Asn1 {
     Org::BouncyCastle::Asn1::Asn1StreamParser* parser;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::Asn1StreamParser*) == 0x8);
+    public:
     // Creating interface conversion operator: operator Org::BouncyCastle::Asn1::IAsn1Convertible
     operator Org::BouncyCastle::Asn1::IAsn1Convertible() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Asn1::IAsn1Convertible*>(this);

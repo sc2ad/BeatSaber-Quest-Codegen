@@ -21,12 +21,18 @@ namespace Mono {
   // [TokenAttribute] Offset: FFFFFFFF
   struct RuntimePropertyHandle/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.IntPtr value
     // Size: 0x8
     // Offset: 0x0
     System::IntPtr value;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
+    public:
     // Creating value type constructor for type: RuntimePropertyHandle
     constexpr RuntimePropertyHandle(System::IntPtr value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::ValueType

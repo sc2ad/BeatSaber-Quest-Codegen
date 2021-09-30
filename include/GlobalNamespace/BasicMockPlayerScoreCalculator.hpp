@@ -32,6 +32,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BasicMockPlayerScoreCalculator : public ::Il2CppObject/*, public GlobalNamespace::IMockPlayerScoreCalculator*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Single _hitFrequency
     // Size: 0x4
     // Offset: 0x10
@@ -58,6 +63,7 @@ namespace GlobalNamespace {
     System::Random* random;
     // Field size check
     static_assert(sizeof(System::Random*) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IMockPlayerScoreCalculator
     operator GlobalNamespace::IMockPlayerScoreCalculator() noexcept {
       return *reinterpret_cast<GlobalNamespace::IMockPlayerScoreCalculator*>(this);

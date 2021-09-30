@@ -27,6 +27,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class AudioTimeSyncController::InitData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly UnityEngine.AudioClip audioClip
     // Size: 0x8
     // Offset: 0x10
@@ -51,6 +56,7 @@ namespace GlobalNamespace {
     float timeScale;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: public readonly UnityEngine.AudioClip audioClip
     UnityEngine::AudioClip*& dyn_audioClip();
     // Get instance field reference: public readonly System.Single startSongTime

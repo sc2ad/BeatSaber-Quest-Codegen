@@ -22,12 +22,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MovementBeatmapEventEffect::MovementData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Vector3 _localPositionOffset
     // Size: 0xC
     // Offset: 0x10
     UnityEngine::Vector3 localPositionOffset;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    public:
     // Creating conversion operator: operator UnityEngine::Vector3
     constexpr operator UnityEngine::Vector3() const noexcept {
       return localPositionOffset;

@@ -22,12 +22,18 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class LivestreamingStartResult : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly Oculus.Platform.LivestreamingStartStatus StreamingResult
     // Size: 0x4
     // Offset: 0x10
     Oculus::Platform::LivestreamingStartStatus StreamingResult;
     // Field size check
     static_assert(sizeof(Oculus::Platform::LivestreamingStartStatus) == 0x4);
+    public:
     // Creating conversion operator: operator Oculus::Platform::LivestreamingStartStatus
     constexpr operator Oculus::Platform::LivestreamingStartStatus() const noexcept {
       return StreamingResult;

@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: Org.BouncyCastle.Crypto.Digests
 namespace Org::BouncyCastle::Crypto::Digests {
@@ -22,12 +23,17 @@ namespace Org::BouncyCastle::Crypto::Digests {
   // [TokenAttribute] Offset: FFFFFFFF
   class GeneralDigest : public ::Il2CppObject/*, public Org::BouncyCastle::Crypto::IDigest, public Org::BouncyCastle::Utilities::IMemoable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Byte[] xBuf
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<uint8_t> xBuf;
+    ::ArrayW<uint8_t> xBuf;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Int32 xBufOff
     // Size: 0x4
     // Offset: 0x18
@@ -42,6 +48,7 @@ namespace Org::BouncyCastle::Crypto::Digests {
     int64_t byteCount;
     // Field size check
     static_assert(sizeof(int64_t) == 0x8);
+    public:
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IDigest
     operator Org::BouncyCastle::Crypto::IDigest() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IDigest*>(this);
@@ -51,7 +58,7 @@ namespace Org::BouncyCastle::Crypto::Digests {
       return *reinterpret_cast<Org::BouncyCastle::Utilities::IMemoable*>(this);
     }
     // Get instance field reference: private System.Byte[] xBuf
-    ::ArrayWrapper<uint8_t>& dyn_xBuf();
+    ::ArrayW<uint8_t>& dyn_xBuf();
     // Get instance field reference: private System.Int32 xBufOff
     int& dyn_xBufOff();
     // Get instance field reference: private System.Int64 byteCount
@@ -74,7 +81,7 @@ namespace Org::BouncyCastle::Crypto::Digests {
     void Update(uint8_t input);
     // public System.Void BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 length)
     // Offset: 0x1EFDD80
-    void BlockUpdate(::ArrayWrapper<uint8_t> input, int inOff, int length);
+    void BlockUpdate(::ArrayW<uint8_t> input, int inOff, int length);
     // public System.Void Finish()
     // Offset: 0x1EFDF64
     void Finish();
@@ -86,7 +93,7 @@ namespace Org::BouncyCastle::Crypto::Digests {
     int GetByteLength();
     // System.Void ProcessWord(System.Byte[] input, System.Int32 inOff)
     // Offset: 0xFFFFFFFF
-    void ProcessWord(::ArrayWrapper<uint8_t> input, int inOff);
+    void ProcessWord(::ArrayW<uint8_t> input, int inOff);
     // System.Void ProcessLength(System.Int64 bitLength)
     // Offset: 0xFFFFFFFF
     void ProcessLength(int64_t bitLength);
@@ -98,7 +105,7 @@ namespace Org::BouncyCastle::Crypto::Digests {
     int GetDigestSize();
     // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
     // Offset: 0xFFFFFFFF
-    int DoFinal(::ArrayWrapper<uint8_t> output, int outOff);
+    int DoFinal(::ArrayW<uint8_t> output, int outOff);
     // public Org.BouncyCastle.Utilities.IMemoable Copy()
     // Offset: 0xFFFFFFFF
     Org::BouncyCastle::Utilities::IMemoable* Copy();
@@ -154,7 +161,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::GeneralDigest::BlockUpdate
 // Il2CppName: BlockUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Digests::GeneralDigest::*)(::ArrayWrapper<uint8_t>, int, int)>(&Org::BouncyCastle::Crypto::Digests::GeneralDigest::BlockUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Digests::GeneralDigest::*)(::ArrayW<uint8_t>, int, int)>(&Org::BouncyCastle::Crypto::Digests::GeneralDigest::BlockUpdate)> {
   static const MethodInfo* get() {
     static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* inOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -189,7 +196,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::GeneralDigest::ProcessWord
 // Il2CppName: ProcessWord
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Digests::GeneralDigest::*)(::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Digests::GeneralDigest::ProcessWord)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Digests::GeneralDigest::*)(::ArrayW<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Digests::GeneralDigest::ProcessWord)> {
   static const MethodInfo* get() {
     static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* inOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -224,7 +231,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Digests::GeneralDigest::DoFinal
 // Il2CppName: DoFinal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Digests::GeneralDigest::*)(::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Digests::GeneralDigest::DoFinal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Digests::GeneralDigest::*)(::ArrayW<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Digests::GeneralDigest::DoFinal)> {
   static const MethodInfo* get() {
     static auto* output = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* outOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

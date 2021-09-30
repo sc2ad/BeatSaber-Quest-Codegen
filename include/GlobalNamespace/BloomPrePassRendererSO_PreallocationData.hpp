@@ -27,6 +27,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BloomPrePassRendererSO::PreallocationData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public BloomPrePassLightTypeSO lightType
     // Size: 0x8
     // Offset: 0x10
@@ -39,6 +44,7 @@ namespace GlobalNamespace {
     int preallocateCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: public BloomPrePassLightTypeSO lightType
     GlobalNamespace::BloomPrePassLightTypeSO*& dyn_lightType();
     // Get instance field reference: public System.Int32 preallocateCount

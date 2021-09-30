@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text::RegularExpressions
@@ -36,6 +37,11 @@ namespace System::Text::RegularExpressions {
   // [TokenAttribute] Offset: FFFFFFFF
   class RegexInterpreter : public System::Text::RegularExpressions::RegexRunner {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Int32 runoperator
     // Size: 0x4
     // Offset: 0x80
@@ -47,9 +53,9 @@ namespace System::Text::RegularExpressions {
     // System.Int32[] runcodes
     // Size: 0x8
     // Offset: 0x88
-    ::ArrayWrapper<int> runcodes;
+    ::ArrayW<int> runcodes;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // System.Int32 runcodepos
     // Size: 0x4
     // Offset: 0x90
@@ -61,9 +67,9 @@ namespace System::Text::RegularExpressions {
     // System.String[] runstrings
     // Size: 0x8
     // Offset: 0x98
-    ::ArrayWrapper<::Il2CppString*> runstrings;
+    ::ArrayW<::Il2CppString*> runstrings;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // System.Text.RegularExpressions.RegexCode runcode
     // Size: 0x8
     // Offset: 0xA0
@@ -108,14 +114,15 @@ namespace System::Text::RegularExpressions {
     System::Globalization::CultureInfo* runculture;
     // Field size check
     static_assert(sizeof(System::Globalization::CultureInfo*) == 0x8);
+    public:
     // Get instance field reference: System.Int32 runoperator
     int& dyn_runoperator();
     // Get instance field reference: System.Int32[] runcodes
-    ::ArrayWrapper<int>& dyn_runcodes();
+    ::ArrayW<int>& dyn_runcodes();
     // Get instance field reference: System.Int32 runcodepos
     int& dyn_runcodepos();
     // Get instance field reference: System.String[] runstrings
-    ::ArrayWrapper<::Il2CppString*>& dyn_runstrings();
+    ::ArrayW<::Il2CppString*>& dyn_runstrings();
     // Get instance field reference: System.Text.RegularExpressions.RegexCode runcode
     System::Text::RegularExpressions::RegexCode*& dyn_runcode();
     // Get instance field reference: System.Text.RegularExpressions.RegexPrefix runfcPrefix

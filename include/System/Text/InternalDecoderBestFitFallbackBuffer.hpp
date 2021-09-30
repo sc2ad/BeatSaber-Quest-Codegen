@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text
@@ -27,6 +28,11 @@ namespace System::Text {
   // [TokenAttribute] Offset: FFFFFFFF
   class InternalDecoderBestFitFallbackBuffer : public System::Text::DecoderFallbackBuffer {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Char cBestFit
     // Size: 0x2
     // Offset: 0x20
@@ -55,6 +61,7 @@ namespace System::Text {
     System::Text::InternalDecoderBestFitFallback* oFallback;
     // Field size check
     static_assert(sizeof(System::Text::InternalDecoderBestFitFallback*) == 0x8);
+    public:
     // Get static field: static private System.Object s_InternalSyncObject
     static ::Il2CppObject* _get_s_InternalSyncObject();
     // Set static field: static private System.Object s_InternalSyncObject
@@ -79,12 +86,12 @@ namespace System::Text {
     }
     // private System.Char TryBestFit(System.Byte[] bytesCheck)
     // Offset: 0x1F13074
-    ::Il2CppChar TryBestFit(::ArrayWrapper<uint8_t> bytesCheck);
+    ::Il2CppChar TryBestFit(::ArrayW<uint8_t> bytesCheck);
     // public override System.Boolean Fallback(System.Byte[] bytesUnknown, System.Int32 index)
     // Offset: 0x1F13028
     // Implemented from: System.Text.DecoderFallbackBuffer
     // Base method: System.Boolean DecoderFallbackBuffer::Fallback(System.Byte[] bytesUnknown, System.Int32 index)
-    bool Fallback(::ArrayWrapper<uint8_t> bytesUnknown, int index);
+    bool Fallback(::ArrayW<uint8_t> bytesUnknown, int index);
     // public override System.Char GetNextChar()
     // Offset: 0x1F131C0
     // Implemented from: System.Text.DecoderFallbackBuffer
@@ -99,7 +106,7 @@ namespace System::Text {
     // Offset: 0x1F13210
     // Implemented from: System.Text.DecoderFallbackBuffer
     // Base method: System.Int32 DecoderFallbackBuffer::InternalFallback(System.Byte[] bytes, System.Byte* pBytes)
-    int InternalFallback(::ArrayWrapper<uint8_t> bytes, uint8_t* pBytes);
+    int InternalFallback(::ArrayW<uint8_t> bytes, uint8_t* pBytes);
   }; // System.Text.InternalDecoderBestFitFallbackBuffer
   #pragma pack(pop)
   static check_size<sizeof(InternalDecoderBestFitFallbackBuffer), 48 + sizeof(System::Text::InternalDecoderBestFitFallback*)> __System_Text_InternalDecoderBestFitFallbackBufferSizeCheck;
@@ -122,7 +129,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Text::InternalDecoderBestFitFallbackBuffer::TryBestFit
 // Il2CppName: TryBestFit
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (System::Text::InternalDecoderBestFitFallbackBuffer::*)(::ArrayWrapper<uint8_t>)>(&System::Text::InternalDecoderBestFitFallbackBuffer::TryBestFit)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppChar (System::Text::InternalDecoderBestFitFallbackBuffer::*)(::ArrayW<uint8_t>)>(&System::Text::InternalDecoderBestFitFallbackBuffer::TryBestFit)> {
   static const MethodInfo* get() {
     static auto* bytesCheck = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Text::InternalDecoderBestFitFallbackBuffer*), "TryBestFit", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bytesCheck});
@@ -131,7 +138,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppCha
 // Writing MetadataGetter for method: System::Text::InternalDecoderBestFitFallbackBuffer::Fallback
 // Il2CppName: Fallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Text::InternalDecoderBestFitFallbackBuffer::*)(::ArrayWrapper<uint8_t>, int)>(&System::Text::InternalDecoderBestFitFallbackBuffer::Fallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (System::Text::InternalDecoderBestFitFallbackBuffer::*)(::ArrayW<uint8_t>, int)>(&System::Text::InternalDecoderBestFitFallbackBuffer::Fallback)> {
   static const MethodInfo* get() {
     static auto* bytesUnknown = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -157,7 +164,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Text::InternalDecoderBestFitFallbackBuffer::InternalFallback
 // Il2CppName: InternalFallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Text::InternalDecoderBestFitFallbackBuffer::*)(::ArrayWrapper<uint8_t>, uint8_t*)>(&System::Text::InternalDecoderBestFitFallbackBuffer::InternalFallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Text::InternalDecoderBestFitFallbackBuffer::*)(::ArrayW<uint8_t>, uint8_t*)>(&System::Text::InternalDecoderBestFitFallbackBuffer::InternalFallback)> {
   static const MethodInfo* get() {
     static auto* bytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* pBytes = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Byte"))->byval_arg;

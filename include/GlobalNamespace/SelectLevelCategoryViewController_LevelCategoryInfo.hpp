@@ -27,6 +27,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SelectLevelCategoryViewController::LevelCategoryInfo : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public SelectLevelCategoryViewController/LevelCategory levelCategory
     // Size: 0x4
     // Offset: 0x10
@@ -47,6 +52,7 @@ namespace GlobalNamespace {
     UnityEngine::Sprite* categoryIcon;
     // Field size check
     static_assert(sizeof(UnityEngine::Sprite*) == 0x8);
+    public:
     // Get instance field reference: public SelectLevelCategoryViewController/LevelCategory levelCategory
     GlobalNamespace::SelectLevelCategoryViewController::LevelCategory& dyn_levelCategory();
     // Get instance field reference: public System.String localizedKey

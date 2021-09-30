@@ -25,6 +25,11 @@ namespace UnityEngine::ProBuilder {
   // [TokenAttribute] Offset: FFFFFFFF
   class HandleConstraint2D : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 x
     // Size: 0x4
     // Offset: 0x10
@@ -37,6 +42,7 @@ namespace UnityEngine::ProBuilder {
     int y;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get static field: static public readonly UnityEngine.ProBuilder.HandleConstraint2D None
     static UnityEngine::ProBuilder::HandleConstraint2D* _get_None();
     // Set static field: static public readonly UnityEngine.ProBuilder.HandleConstraint2D None

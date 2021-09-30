@@ -22,6 +22,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class VRControllersRecorderData::NodeInfo : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly UnityEngine.XR.XRNode nodeType
     // Size: 0x4
     // Offset: 0x10
@@ -34,6 +39,7 @@ namespace GlobalNamespace {
     int nodeIdx;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: public readonly UnityEngine.XR.XRNode nodeType
     UnityEngine::XR::XRNode& dyn_nodeType();
     // Get instance field reference: public readonly System.Int32 nodeIdx

@@ -18,6 +18,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class FileBrowserItem : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String <displayName>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -36,6 +41,7 @@ namespace GlobalNamespace {
     bool isDirectory;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private System.String <displayName>k__BackingField
     ::Il2CppString*& dyn_$displayName$k__BackingField();
     // Get instance field reference: private System.String <fullPath>k__BackingField

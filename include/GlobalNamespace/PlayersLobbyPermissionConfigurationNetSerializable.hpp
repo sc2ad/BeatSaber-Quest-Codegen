@@ -40,12 +40,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayersLobbyPermissionConfigurationNetSerializable : public ::Il2CppObject/*, public LiteNetLib::Utils::INetSerializable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.List`1<PlayerLobbyPermissionConfigurationNetSerializable> _playersPermission
     // Size: 0x8
     // Offset: 0x10
     System::Collections::Generic::List_1<GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable*>* playersPermission;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializable*>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator LiteNetLib::Utils::INetSerializable
     operator LiteNetLib::Utils::INetSerializable() noexcept {
       return *reinterpret_cast<LiteNetLib::Utils::INetSerializable*>(this);

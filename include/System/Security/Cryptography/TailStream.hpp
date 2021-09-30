@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO
@@ -27,12 +28,17 @@ namespace System::Security::Cryptography {
   // [TokenAttribute] Offset: FFFFFFFF
   class TailStream : public System::IO::Stream {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Byte[] _Buffer
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<uint8_t> Buffer;
+    ::ArrayW<uint8_t> Buffer;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Int32 _BufferSize
     // Size: 0x4
     // Offset: 0x30
@@ -51,8 +57,9 @@ namespace System::Security::Cryptography {
     bool BufferFull;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private System.Byte[] _Buffer
-    ::ArrayWrapper<uint8_t>& dyn__Buffer();
+    ::ArrayW<uint8_t>& dyn__Buffer();
     // Get instance field reference: private System.Int32 _BufferSize
     int& dyn__BufferSize();
     // Get instance field reference: private System.Int32 _BufferIndex
@@ -61,7 +68,7 @@ namespace System::Security::Cryptography {
     bool& dyn__BufferFull();
     // public System.Byte[] get_Buffer()
     // Offset: 0x1CCD684
-    ::ArrayWrapper<uint8_t> get_Buffer();
+    ::ArrayW<uint8_t> get_Buffer();
     // public System.Void .ctor(System.Int32 bufferSize)
     // Offset: 0x1CCD550
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -126,12 +133,12 @@ namespace System::Security::Cryptography {
     // Offset: 0x1CCD9A8
     // Implemented from: System.IO.Stream
     // Base method: System.Int32 Stream::Read(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
-    int Read(::ArrayWrapper<uint8_t> buffer, int offset, int count);
+    int Read(::ArrayW<uint8_t> buffer, int offset, int count);
     // public override System.Void Write(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
     // Offset: 0x1CCDA28
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::Write(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
-    void Write(::ArrayWrapper<uint8_t> buffer, int offset, int count);
+    void Write(::ArrayW<uint8_t> buffer, int offset, int count);
   }; // System.Security.Cryptography.TailStream
   #pragma pack(pop)
   static check_size<sizeof(TailStream), 56 + sizeof(bool)> __System_Security_Cryptography_TailStreamSizeCheck;
@@ -142,7 +149,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::TailStream*, "System.Secu
 // Writing MetadataGetter for method: System::Security::Cryptography::TailStream::get_Buffer
 // Il2CppName: get_Buffer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (System::Security::Cryptography::TailStream::*)()>(&System::Security::Cryptography::TailStream::get_Buffer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (System::Security::Cryptography::TailStream::*)()>(&System::Security::Cryptography::TailStream::get_Buffer)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::TailStream*), "get_Buffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -247,7 +254,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::TailStream::Read
 // Il2CppName: Read
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Security::Cryptography::TailStream::*)(::ArrayWrapper<uint8_t>, int, int)>(&System::Security::Cryptography::TailStream::Read)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Security::Cryptography::TailStream::*)(::ArrayW<uint8_t>, int, int)>(&System::Security::Cryptography::TailStream::Read)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -258,7 +265,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Security::Cryptography::TailStream::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::TailStream::*)(::ArrayWrapper<uint8_t>, int, int)>(&System::Security::Cryptography::TailStream::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::TailStream::*)(::ArrayW<uint8_t>, int, int)>(&System::Security::Cryptography::TailStream::Write)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

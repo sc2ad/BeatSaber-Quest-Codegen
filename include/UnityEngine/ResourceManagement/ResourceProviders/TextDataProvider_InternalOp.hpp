@@ -39,6 +39,11 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   // [TokenAttribute] Offset: FFFFFFFF
   class TextDataProvider::InternalOp : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.ResourceManagement.ResourceProviders.TextDataProvider m_Provider
     // Size: 0x8
     // Offset: 0x10
@@ -75,6 +80,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     bool m_Complete;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private UnityEngine.ResourceManagement.ResourceProviders.TextDataProvider m_Provider
     UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider*& dyn_m_Provider();
     // Get instance field reference: private UnityEngine.Networking.UnityWebRequestAsyncOperation m_RequestOperation

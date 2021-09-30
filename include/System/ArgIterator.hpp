@@ -20,6 +20,11 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   struct ArgIterator/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.IntPtr sig
     // Size: 0x8
     // Offset: 0x0
@@ -44,6 +49,7 @@ namespace System {
     int num_args;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: ArgIterator
     constexpr ArgIterator(System::IntPtr sig_ = {}, System::IntPtr args_ = {}, int next_arg_ = {}, int num_args_ = {}) noexcept : sig{sig_}, args{args_}, next_arg{next_arg_}, num_args{num_args_} {}
     // Creating interface conversion operator: operator System::ValueType

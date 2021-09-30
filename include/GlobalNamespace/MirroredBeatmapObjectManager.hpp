@@ -48,6 +48,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MirroredBeatmapObjectManager : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly BeatmapObjectManager _beatmapObjectManager
     // Size: 0x8
     // Offset: 0x10
@@ -90,6 +95,7 @@ namespace GlobalNamespace {
     System::Collections::Generic::Dictionary_2<GlobalNamespace::ObstacleController*, GlobalNamespace::MirroredObstacleController*>* obstacleControllersToMirroredObstacleControllers;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<GlobalNamespace::ObstacleController*, GlobalNamespace::MirroredObstacleController*>*) == 0x8);
+    public:
     // Get instance field reference: private readonly BeatmapObjectManager _beatmapObjectManager
     GlobalNamespace::BeatmapObjectManager*& dyn__beatmapObjectManager();
     // Get instance field reference: private readonly MemoryPoolContainer`1<MirroredCubeNoteController> _mirroredCubeNotePoolContainer

@@ -35,12 +35,18 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::MultiplayerConnectedPlayerObstacleController::Pool
     class Pool;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private MultiplayerConnectedPlayerObstacleClippingController _multiplayerConnectedPlayerObstacleClippingController
     // Size: 0x8
     // Offset: 0x120
     GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController* multiplayerConnectedPlayerObstacleClippingController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController*) == 0x8);
+    public:
     // Get instance field reference: private MultiplayerConnectedPlayerObstacleClippingController _multiplayerConnectedPlayerObstacleClippingController
     GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController*& dyn__multiplayerConnectedPlayerObstacleClippingController();
     // public System.Void .ctor()

@@ -21,6 +21,11 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   // [TokenAttribute] Offset: FFFFFFFF
   struct UVEditing::UVTransform/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Vector2 translation
     // Size: 0x8
     // Offset: 0x0
@@ -39,6 +44,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     UnityEngine::Vector2 scale;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector2) == 0x8);
+    public:
     // Creating value type constructor for type: UVTransform
     constexpr UVTransform(UnityEngine::Vector2 translation_ = {}, float rotation_ = {}, UnityEngine::Vector2 scale_ = {}) noexcept : translation{translation_}, rotation{rotation_}, scale{scale_} {}
     // Creating interface conversion operator: operator System::ValueType

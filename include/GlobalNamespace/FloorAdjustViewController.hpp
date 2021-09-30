@@ -39,6 +39,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class FloorAdjustViewController : public HMUI::ViewController {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Vector3SO _roomCenter
     // Size: 0x8
     // Offset: 0x70
@@ -77,6 +82,7 @@ namespace GlobalNamespace {
     float playerHeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // static field const value: static private System.Single kMoveStep
     static constexpr const float kMoveStep = 0.05;
     // Get static field: static private System.Single kMoveStep

@@ -17,6 +17,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -37,6 +38,11 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_MeshData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Collections.Generic.List`1<System.Int32> _indices
     // Size: 0x8
     // Offset: 0x10
@@ -70,9 +76,9 @@ namespace HoudiniEngineUnity {
     // public System.Collections.Generic.List`1<UnityEngine.Vector4>[] _uvs
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayWrapper<System::Collections::Generic::List_1<UnityEngine::Vector4>*> uvs;
+    ::ArrayW<System::Collections::Generic::List_1<UnityEngine::Vector4>*> uvs;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<System::Collections::Generic::List_1<UnityEngine::Vector4>*>) == 0x8);
+    static_assert(sizeof(::ArrayW<System::Collections::Generic::List_1<UnityEngine::Vector4>*>) == 0x8);
     // public System.Collections.Generic.List`1<UnityEngine.Vector3> _triangleNormals
     // Size: 0x8
     // Offset: 0x40
@@ -91,6 +97,7 @@ namespace HoudiniEngineUnity {
     UnityEngine::MeshTopology meshTopology;
     // Field size check
     static_assert(sizeof(UnityEngine::MeshTopology) == 0x4);
+    public:
     // Get instance field reference: public System.Collections.Generic.List`1<System.Int32> _indices
     System::Collections::Generic::List_1<int>*& dyn__indices();
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.Vector3> _vertices
@@ -102,7 +109,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.Vector4> _tangents
     System::Collections::Generic::List_1<UnityEngine::Vector4>*& dyn__tangents();
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.Vector4>[] _uvs
-    ::ArrayWrapper<System::Collections::Generic::List_1<UnityEngine::Vector4>*>& dyn__uvs();
+    ::ArrayW<System::Collections::Generic::List_1<UnityEngine::Vector4>*>& dyn__uvs();
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.Vector3> _triangleNormals
     System::Collections::Generic::List_1<UnityEngine::Vector3>*& dyn__triangleNormals();
     // Get instance field reference: public System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> _pointIndexToMeshIndexMap

@@ -33,6 +33,11 @@ namespace System::Runtime::Serialization {
   // [TokenAttribute] Offset: FFFFFFFF
   class SafeSerializationEventArgs : public System::EventArgs {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Runtime.Serialization.StreamingContext m_streamingContext
     // Size: 0xC
     // Offset: 0x10
@@ -47,6 +52,7 @@ namespace System::Runtime::Serialization {
     System::Collections::Generic::List_1<::Il2CppObject*>* m_serializedStates;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<::Il2CppObject*>*) == 0x8);
+    public:
     // Get instance field reference: private System.Runtime.Serialization.StreamingContext m_streamingContext
     System::Runtime::Serialization::StreamingContext& dyn_m_streamingContext();
     // Get instance field reference: private System.Collections.Generic.List`1<System.Object> m_serializedStates

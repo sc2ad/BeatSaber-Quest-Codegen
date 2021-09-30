@@ -22,6 +22,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MasterServerConnectionManager::ConnectToServerParams : public GlobalNamespace::MasterServerConnectionManager::MasterServerConnectionManagerParamsBase {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.String secret
     // Size: 0x8
     // Offset: 0x60
@@ -34,6 +39,7 @@ namespace GlobalNamespace {
     ::Il2CppString* code;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: public System.String secret
     ::Il2CppString*& dyn_secret();
     // Get instance field reference: public System.String code

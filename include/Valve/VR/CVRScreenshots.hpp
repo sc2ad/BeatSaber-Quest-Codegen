@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Valve::VR
@@ -38,12 +39,18 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   class CVRScreenshots : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Valve.VR.IVRScreenshots FnTable
     // Size: 0x38
     // Offset: 0x10
     Valve::VR::IVRScreenshots FnTable;
     // Field size check
     static_assert(sizeof(Valve::VR::IVRScreenshots) == 0x38);
+    public:
     // Creating conversion operator: operator Valve::VR::IVRScreenshots
     constexpr operator Valve::VR::IVRScreenshots() const noexcept {
       return FnTable;
@@ -62,7 +69,7 @@ namespace Valve::VR {
     Valve::VR::EVRScreenshotError RequestScreenshot(ByRef<uint> pOutScreenshotHandle, Valve::VR::EVRScreenshotType type, ::Il2CppString* pchPreviewFilename, ::Il2CppString* pchVRFilename);
     // public Valve.VR.EVRScreenshotError HookScreenshot(Valve.VR.EVRScreenshotType[] pSupportedTypes)
     // Offset: 0x188FB48
-    Valve::VR::EVRScreenshotError HookScreenshot(::ArrayWrapper<Valve::VR::EVRScreenshotType> pSupportedTypes);
+    Valve::VR::EVRScreenshotError HookScreenshot(::ArrayW<Valve::VR::EVRScreenshotType> pSupportedTypes);
     // public Valve.VR.EVRScreenshotType GetScreenshotPropertyType(System.UInt32 screenshotHandle, ref Valve.VR.EVRScreenshotError pError)
     // Offset: 0x188FB70
     Valve::VR::EVRScreenshotType GetScreenshotPropertyType(uint screenshotHandle, ByRef<Valve::VR::EVRScreenshotError> pError);
@@ -104,7 +111,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVRScreenshots::HookScreenshot
 // Il2CppName: HookScreenshot
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRScreenshotError (Valve::VR::CVRScreenshots::*)(::ArrayWrapper<Valve::VR::EVRScreenshotType>)>(&Valve::VR::CVRScreenshots::HookScreenshot)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRScreenshotError (Valve::VR::CVRScreenshots::*)(::ArrayW<Valve::VR::EVRScreenshotType>)>(&Valve::VR::CVRScreenshots::HookScreenshot)> {
   static const MethodInfo* get() {
     static auto* pSupportedTypes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Valve.VR", "EVRScreenshotType"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Valve::VR::CVRScreenshots*), "HookScreenshot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{pSupportedTypes});

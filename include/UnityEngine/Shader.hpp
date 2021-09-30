@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Rendering
@@ -176,22 +177,22 @@ namespace UnityEngine {
     static UnityEngine::Texture* GetGlobalTextureImpl(int name);
     // static private System.Void SetGlobalFloatArrayImpl(System.Int32 name, System.Single[] values, System.Int32 count)
     // Offset: 0x1E0EA80
-    static void SetGlobalFloatArrayImpl(int name, ::ArrayWrapper<float> values, int count);
+    static void SetGlobalFloatArrayImpl(int name, ::ArrayW<float> values, int count);
     // static private System.Void SetGlobalVectorArrayImpl(System.Int32 name, UnityEngine.Vector4[] values, System.Int32 count)
     // Offset: 0x1E0EAD8
-    static void SetGlobalVectorArrayImpl(int name, ::ArrayWrapper<UnityEngine::Vector4> values, int count);
+    static void SetGlobalVectorArrayImpl(int name, ::ArrayW<UnityEngine::Vector4> values, int count);
     // static private System.Void SetGlobalMatrixArrayImpl(System.Int32 name, UnityEngine.Matrix4x4[] values, System.Int32 count)
     // Offset: 0x1E0EB30
-    static void SetGlobalMatrixArrayImpl(int name, ::ArrayWrapper<UnityEngine::Matrix4x4> values, int count);
+    static void SetGlobalMatrixArrayImpl(int name, ::ArrayW<UnityEngine::Matrix4x4> values, int count);
     // static private System.Single[] GetGlobalFloatArrayImpl(System.Int32 name)
     // Offset: 0x1E0EB88
-    static ::ArrayWrapper<float> GetGlobalFloatArrayImpl(int name);
+    static ::ArrayW<float> GetGlobalFloatArrayImpl(int name);
     // static private UnityEngine.Vector4[] GetGlobalVectorArrayImpl(System.Int32 name)
     // Offset: 0x1E0EBC8
-    static ::ArrayWrapper<UnityEngine::Vector4> GetGlobalVectorArrayImpl(int name);
+    static ::ArrayW<UnityEngine::Vector4> GetGlobalVectorArrayImpl(int name);
     // static private UnityEngine.Matrix4x4[] GetGlobalMatrixArrayImpl(System.Int32 name)
     // Offset: 0x1E0EC08
-    static ::ArrayWrapper<UnityEngine::Matrix4x4> GetGlobalMatrixArrayImpl(int name);
+    static ::ArrayW<UnityEngine::Matrix4x4> GetGlobalMatrixArrayImpl(int name);
     // static private System.Int32 GetGlobalFloatArrayCountImpl(System.Int32 name)
     // Offset: 0x1E0EC48
     static int GetGlobalFloatArrayCountImpl(int name);
@@ -203,22 +204,22 @@ namespace UnityEngine {
     static int GetGlobalMatrixArrayCountImpl(int name);
     // static private System.Void ExtractGlobalFloatArrayImpl(System.Int32 name, out System.Single[] val)
     // Offset: 0x1E0ED08
-    static void ExtractGlobalFloatArrayImpl(int name, ByRef<::ArrayWrapper<float>> val);
+    static void ExtractGlobalFloatArrayImpl(int name, ByRef<::ArrayW<float>> val);
     // static private System.Void ExtractGlobalVectorArrayImpl(System.Int32 name, out UnityEngine.Vector4[] val)
     // Offset: 0x1E0ED58
-    static void ExtractGlobalVectorArrayImpl(int name, ByRef<::ArrayWrapper<UnityEngine::Vector4>> val);
+    static void ExtractGlobalVectorArrayImpl(int name, ByRef<::ArrayW<UnityEngine::Vector4>> val);
     // static private System.Void ExtractGlobalMatrixArrayImpl(System.Int32 name, out UnityEngine.Matrix4x4[] val)
     // Offset: 0x1E0EDA8
-    static void ExtractGlobalMatrixArrayImpl(int name, ByRef<::ArrayWrapper<UnityEngine::Matrix4x4>> val);
+    static void ExtractGlobalMatrixArrayImpl(int name, ByRef<::ArrayW<UnityEngine::Matrix4x4>> val);
     // static private System.Void SetGlobalFloatArray(System.Int32 name, System.Single[] values, System.Int32 count)
     // Offset: 0x1E0EDF8
-    static void SetGlobalFloatArray(int name, ::ArrayWrapper<float> values, int count);
+    static void SetGlobalFloatArray(int name, ::ArrayW<float> values, int count);
     // static private System.Void SetGlobalVectorArray(System.Int32 name, UnityEngine.Vector4[] values, System.Int32 count)
     // Offset: 0x1E0EF0C
-    static void SetGlobalVectorArray(int name, ::ArrayWrapper<UnityEngine::Vector4> values, int count);
+    static void SetGlobalVectorArray(int name, ::ArrayW<UnityEngine::Vector4> values, int count);
     // static private System.Void SetGlobalMatrixArray(System.Int32 name, UnityEngine.Matrix4x4[] values, System.Int32 count)
     // Offset: 0x1E0F020
-    static void SetGlobalMatrixArray(int name, ::ArrayWrapper<UnityEngine::Matrix4x4> values, int count);
+    static void SetGlobalMatrixArray(int name, ::ArrayW<UnityEngine::Matrix4x4> values, int count);
     // static private System.Void ExtractGlobalFloatArray(System.Int32 name, System.Collections.Generic.List`1<System.Single> values)
     // Offset: 0x1E0F134
     static void ExtractGlobalFloatArray(int name, System::Collections::Generic::List_1<float>* values);
@@ -287,10 +288,10 @@ namespace UnityEngine {
     static void SetGlobalFloatArray(int nameID, System::Collections::Generic::List_1<float>* values);
     // static public System.Void SetGlobalFloatArray(System.String name, System.Single[] values)
     // Offset: 0x1E0FD04
-    static void SetGlobalFloatArray(::Il2CppString* name, ::ArrayWrapper<float> values);
+    static void SetGlobalFloatArray(::Il2CppString* name, ::ArrayW<float> values);
     // static public System.Void SetGlobalFloatArray(System.Int32 nameID, System.Single[] values)
     // Offset: 0x1E0FD64
-    static void SetGlobalFloatArray(int nameID, ::ArrayWrapper<float> values);
+    static void SetGlobalFloatArray(int nameID, ::ArrayW<float> values);
     // static public System.Void SetGlobalVectorArray(System.String name, System.Collections.Generic.List`1<UnityEngine.Vector4> values)
     // Offset: 0x1E0FD7C
     static void SetGlobalVectorArray(::Il2CppString* name, System::Collections::Generic::List_1<UnityEngine::Vector4>* values);
@@ -299,10 +300,10 @@ namespace UnityEngine {
     static void SetGlobalVectorArray(int nameID, System::Collections::Generic::List_1<UnityEngine::Vector4>* values);
     // static public System.Void SetGlobalVectorArray(System.String name, UnityEngine.Vector4[] values)
     // Offset: 0x1E0FE90
-    static void SetGlobalVectorArray(::Il2CppString* name, ::ArrayWrapper<UnityEngine::Vector4> values);
+    static void SetGlobalVectorArray(::Il2CppString* name, ::ArrayW<UnityEngine::Vector4> values);
     // static public System.Void SetGlobalVectorArray(System.Int32 nameID, UnityEngine.Vector4[] values)
     // Offset: 0x1E0FEF0
-    static void SetGlobalVectorArray(int nameID, ::ArrayWrapper<UnityEngine::Vector4> values);
+    static void SetGlobalVectorArray(int nameID, ::ArrayW<UnityEngine::Vector4> values);
     // static public System.Void SetGlobalMatrixArray(System.String name, System.Collections.Generic.List`1<UnityEngine.Matrix4x4> values)
     // Offset: 0x1E0FF08
     static void SetGlobalMatrixArray(::Il2CppString* name, System::Collections::Generic::List_1<UnityEngine::Matrix4x4>* values);
@@ -311,10 +312,10 @@ namespace UnityEngine {
     static void SetGlobalMatrixArray(int nameID, System::Collections::Generic::List_1<UnityEngine::Matrix4x4>* values);
     // static public System.Void SetGlobalMatrixArray(System.String name, UnityEngine.Matrix4x4[] values)
     // Offset: 0x1E1001C
-    static void SetGlobalMatrixArray(::Il2CppString* name, ::ArrayWrapper<UnityEngine::Matrix4x4> values);
+    static void SetGlobalMatrixArray(::Il2CppString* name, ::ArrayW<UnityEngine::Matrix4x4> values);
     // static public System.Void SetGlobalMatrixArray(System.Int32 nameID, UnityEngine.Matrix4x4[] values)
     // Offset: 0x1E1007C
-    static void SetGlobalMatrixArray(int nameID, ::ArrayWrapper<UnityEngine::Matrix4x4> values);
+    static void SetGlobalMatrixArray(int nameID, ::ArrayW<UnityEngine::Matrix4x4> values);
     // static public System.Single GetGlobalFloat(System.String name)
     // Offset: 0x1E10094
     static float GetGlobalFloat(::Il2CppString* name);
@@ -353,22 +354,22 @@ namespace UnityEngine {
     static UnityEngine::Texture* GetGlobalTexture(int nameID);
     // static public System.Single[] GetGlobalFloatArray(System.String name)
     // Offset: 0x1E104D4
-    static ::ArrayWrapper<float> GetGlobalFloatArray(::Il2CppString* name);
+    static ::ArrayW<float> GetGlobalFloatArray(::Il2CppString* name);
     // static public System.Single[] GetGlobalFloatArray(System.Int32 nameID)
     // Offset: 0x1E10518
-    static ::ArrayWrapper<float> GetGlobalFloatArray(int nameID);
+    static ::ArrayW<float> GetGlobalFloatArray(int nameID);
     // static public UnityEngine.Vector4[] GetGlobalVectorArray(System.String name)
     // Offset: 0x1E10594
-    static ::ArrayWrapper<UnityEngine::Vector4> GetGlobalVectorArray(::Il2CppString* name);
+    static ::ArrayW<UnityEngine::Vector4> GetGlobalVectorArray(::Il2CppString* name);
     // static public UnityEngine.Vector4[] GetGlobalVectorArray(System.Int32 nameID)
     // Offset: 0x1E105D8
-    static ::ArrayWrapper<UnityEngine::Vector4> GetGlobalVectorArray(int nameID);
+    static ::ArrayW<UnityEngine::Vector4> GetGlobalVectorArray(int nameID);
     // static public UnityEngine.Matrix4x4[] GetGlobalMatrixArray(System.String name)
     // Offset: 0x1E10654
-    static ::ArrayWrapper<UnityEngine::Matrix4x4> GetGlobalMatrixArray(::Il2CppString* name);
+    static ::ArrayW<UnityEngine::Matrix4x4> GetGlobalMatrixArray(::Il2CppString* name);
     // static public UnityEngine.Matrix4x4[] GetGlobalMatrixArray(System.Int32 nameID)
     // Offset: 0x1E10698
-    static ::ArrayWrapper<UnityEngine::Matrix4x4> GetGlobalMatrixArray(int nameID);
+    static ::ArrayW<UnityEngine::Matrix4x4> GetGlobalMatrixArray(int nameID);
     // static public System.Void GetGlobalFloatArray(System.String name, System.Collections.Generic.List`1<System.Single> values)
     // Offset: 0x1E10714
     static void GetGlobalFloatArray(::Il2CppString* name, System::Collections::Generic::List_1<float>* values);
@@ -404,7 +405,7 @@ namespace UnityEngine {
     static UnityEngine::Rendering::ShaderPropertyFlags GetPropertyFlags(UnityEngine::Shader* shader, int propertyIndex);
     // static private System.String[] GetPropertyAttributes(UnityEngine.Shader shader, System.Int32 propertyIndex)
     // Offset: 0x1E10A14
-    static ::ArrayWrapper<::Il2CppString*> GetPropertyAttributes(UnityEngine::Shader* shader, int propertyIndex);
+    static ::ArrayW<::Il2CppString*> GetPropertyAttributes(UnityEngine::Shader* shader, int propertyIndex);
     // static private UnityEngine.Vector4 GetPropertyDefaultValue(UnityEngine.Shader shader, System.Int32 propertyIndex)
     // Offset: 0x1E10A64
     static UnityEngine::Vector4 GetPropertyDefaultValue(UnityEngine::Shader* shader, int propertyIndex);
@@ -440,7 +441,7 @@ namespace UnityEngine {
     UnityEngine::Rendering::ShaderPropertyFlags GetPropertyFlags(int propertyIndex);
     // public System.String[] GetPropertyAttributes(System.Int32 propertyIndex)
     // Offset: 0x1E10EC0
-    ::ArrayWrapper<::Il2CppString*> GetPropertyAttributes(int propertyIndex);
+    ::ArrayW<::Il2CppString*> GetPropertyAttributes(int propertyIndex);
     // public System.Single GetPropertyDefaultFloatValue(System.Int32 propertyIndex)
     // Offset: 0x1E10F14
     float GetPropertyDefaultFloatValue(int propertyIndex);
@@ -807,7 +808,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Shader::SetGlobalFloatArrayImpl
 // Il2CppName: SetGlobalFloatArrayImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::ArrayWrapper<float>, int)>(&UnityEngine::Shader::SetGlobalFloatArrayImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::ArrayW<float>, int)>(&UnityEngine::Shader::SetGlobalFloatArrayImpl)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
@@ -818,7 +819,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(in
 // Writing MetadataGetter for method: UnityEngine::Shader::SetGlobalVectorArrayImpl
 // Il2CppName: SetGlobalVectorArrayImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::ArrayWrapper<UnityEngine::Vector4>, int)>(&UnityEngine::Shader::SetGlobalVectorArrayImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::ArrayW<UnityEngine::Vector4>, int)>(&UnityEngine::Shader::SetGlobalVectorArrayImpl)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4"), 1)->byval_arg;
@@ -829,7 +830,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(in
 // Writing MetadataGetter for method: UnityEngine::Shader::SetGlobalMatrixArrayImpl
 // Il2CppName: SetGlobalMatrixArrayImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::ArrayWrapper<UnityEngine::Matrix4x4>, int)>(&UnityEngine::Shader::SetGlobalMatrixArrayImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::ArrayW<UnityEngine::Matrix4x4>, int)>(&UnityEngine::Shader::SetGlobalMatrixArrayImpl)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Matrix4x4"), 1)->byval_arg;
@@ -840,7 +841,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(in
 // Writing MetadataGetter for method: UnityEngine::Shader::GetGlobalFloatArrayImpl
 // Il2CppName: GetGlobalFloatArrayImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<float> (*)(int)>(&UnityEngine::Shader::GetGlobalFloatArrayImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<float> (*)(int)>(&UnityEngine::Shader::GetGlobalFloatArrayImpl)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetGlobalFloatArrayImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -849,7 +850,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::Shader::GetGlobalVectorArrayImpl
 // Il2CppName: GetGlobalVectorArrayImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Vector4> (*)(int)>(&UnityEngine::Shader::GetGlobalVectorArrayImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Vector4> (*)(int)>(&UnityEngine::Shader::GetGlobalVectorArrayImpl)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetGlobalVectorArrayImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -858,7 +859,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::Shader::GetGlobalMatrixArrayImpl
 // Il2CppName: GetGlobalMatrixArrayImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Matrix4x4> (*)(int)>(&UnityEngine::Shader::GetGlobalMatrixArrayImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Matrix4x4> (*)(int)>(&UnityEngine::Shader::GetGlobalMatrixArrayImpl)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetGlobalMatrixArrayImpl", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -894,7 +895,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 // Writing MetadataGetter for method: UnityEngine::Shader::ExtractGlobalFloatArrayImpl
 // Il2CppName: ExtractGlobalFloatArrayImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ByRef<::ArrayWrapper<float>>)>(&UnityEngine::Shader::ExtractGlobalFloatArrayImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ByRef<::ArrayW<float>>)>(&UnityEngine::Shader::ExtractGlobalFloatArrayImpl)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* val = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->this_arg;
@@ -904,7 +905,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(in
 // Writing MetadataGetter for method: UnityEngine::Shader::ExtractGlobalVectorArrayImpl
 // Il2CppName: ExtractGlobalVectorArrayImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ByRef<::ArrayWrapper<UnityEngine::Vector4>>)>(&UnityEngine::Shader::ExtractGlobalVectorArrayImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ByRef<::ArrayW<UnityEngine::Vector4>>)>(&UnityEngine::Shader::ExtractGlobalVectorArrayImpl)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* val = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4"), 1)->this_arg;
@@ -914,7 +915,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(in
 // Writing MetadataGetter for method: UnityEngine::Shader::ExtractGlobalMatrixArrayImpl
 // Il2CppName: ExtractGlobalMatrixArrayImpl
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ByRef<::ArrayWrapper<UnityEngine::Matrix4x4>>)>(&UnityEngine::Shader::ExtractGlobalMatrixArrayImpl)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ByRef<::ArrayW<UnityEngine::Matrix4x4>>)>(&UnityEngine::Shader::ExtractGlobalMatrixArrayImpl)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* val = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Matrix4x4"), 1)->this_arg;
@@ -924,7 +925,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(in
 // Writing MetadataGetter for method: UnityEngine::Shader::SetGlobalFloatArray
 // Il2CppName: SetGlobalFloatArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::ArrayWrapper<float>, int)>(&UnityEngine::Shader::SetGlobalFloatArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::ArrayW<float>, int)>(&UnityEngine::Shader::SetGlobalFloatArray)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
@@ -935,7 +936,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(in
 // Writing MetadataGetter for method: UnityEngine::Shader::SetGlobalVectorArray
 // Il2CppName: SetGlobalVectorArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::ArrayWrapper<UnityEngine::Vector4>, int)>(&UnityEngine::Shader::SetGlobalVectorArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::ArrayW<UnityEngine::Vector4>, int)>(&UnityEngine::Shader::SetGlobalVectorArray)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4"), 1)->byval_arg;
@@ -946,7 +947,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(in
 // Writing MetadataGetter for method: UnityEngine::Shader::SetGlobalMatrixArray
 // Il2CppName: SetGlobalMatrixArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::ArrayWrapper<UnityEngine::Matrix4x4>, int)>(&UnityEngine::Shader::SetGlobalMatrixArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::ArrayW<UnityEngine::Matrix4x4>, int)>(&UnityEngine::Shader::SetGlobalMatrixArray)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Matrix4x4"), 1)->byval_arg;
@@ -1181,7 +1182,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(in
 // Writing MetadataGetter for method: UnityEngine::Shader::SetGlobalFloatArray
 // Il2CppName: SetGlobalFloatArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayWrapper<float>)>(&UnityEngine::Shader::SetGlobalFloatArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayW<float>)>(&UnityEngine::Shader::SetGlobalFloatArray)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
@@ -1191,7 +1192,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: UnityEngine::Shader::SetGlobalFloatArray
 // Il2CppName: SetGlobalFloatArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::ArrayWrapper<float>)>(&UnityEngine::Shader::SetGlobalFloatArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::ArrayW<float>)>(&UnityEngine::Shader::SetGlobalFloatArray)> {
   static const MethodInfo* get() {
     static auto* nameID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
@@ -1221,7 +1222,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(in
 // Writing MetadataGetter for method: UnityEngine::Shader::SetGlobalVectorArray
 // Il2CppName: SetGlobalVectorArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayWrapper<UnityEngine::Vector4>)>(&UnityEngine::Shader::SetGlobalVectorArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayW<UnityEngine::Vector4>)>(&UnityEngine::Shader::SetGlobalVectorArray)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4"), 1)->byval_arg;
@@ -1231,7 +1232,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: UnityEngine::Shader::SetGlobalVectorArray
 // Il2CppName: SetGlobalVectorArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::ArrayWrapper<UnityEngine::Vector4>)>(&UnityEngine::Shader::SetGlobalVectorArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::ArrayW<UnityEngine::Vector4>)>(&UnityEngine::Shader::SetGlobalVectorArray)> {
   static const MethodInfo* get() {
     static auto* nameID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector4"), 1)->byval_arg;
@@ -1261,7 +1262,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(in
 // Writing MetadataGetter for method: UnityEngine::Shader::SetGlobalMatrixArray
 // Il2CppName: SetGlobalMatrixArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayWrapper<UnityEngine::Matrix4x4>)>(&UnityEngine::Shader::SetGlobalMatrixArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayW<UnityEngine::Matrix4x4>)>(&UnityEngine::Shader::SetGlobalMatrixArray)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Matrix4x4"), 1)->byval_arg;
@@ -1271,7 +1272,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: UnityEngine::Shader::SetGlobalMatrixArray
 // Il2CppName: SetGlobalMatrixArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::ArrayWrapper<UnityEngine::Matrix4x4>)>(&UnityEngine::Shader::SetGlobalMatrixArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::ArrayW<UnityEngine::Matrix4x4>)>(&UnityEngine::Shader::SetGlobalMatrixArray)> {
   static const MethodInfo* get() {
     static auto* nameID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Matrix4x4"), 1)->byval_arg;
@@ -1389,7 +1390,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Shader::GetGlobalFloatArray
 // Il2CppName: GetGlobalFloatArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<float> (*)(::Il2CppString*)>(&UnityEngine::Shader::GetGlobalFloatArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<float> (*)(::Il2CppString*)>(&UnityEngine::Shader::GetGlobalFloatArray)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetGlobalFloatArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -1398,7 +1399,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::Shader::GetGlobalFloatArray
 // Il2CppName: GetGlobalFloatArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<float> (*)(int)>(&UnityEngine::Shader::GetGlobalFloatArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<float> (*)(int)>(&UnityEngine::Shader::GetGlobalFloatArray)> {
   static const MethodInfo* get() {
     static auto* nameID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetGlobalFloatArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nameID});
@@ -1407,7 +1408,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::Shader::GetGlobalVectorArray
 // Il2CppName: GetGlobalVectorArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Vector4> (*)(::Il2CppString*)>(&UnityEngine::Shader::GetGlobalVectorArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Vector4> (*)(::Il2CppString*)>(&UnityEngine::Shader::GetGlobalVectorArray)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetGlobalVectorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -1416,7 +1417,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::Shader::GetGlobalVectorArray
 // Il2CppName: GetGlobalVectorArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Vector4> (*)(int)>(&UnityEngine::Shader::GetGlobalVectorArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Vector4> (*)(int)>(&UnityEngine::Shader::GetGlobalVectorArray)> {
   static const MethodInfo* get() {
     static auto* nameID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetGlobalVectorArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nameID});
@@ -1425,7 +1426,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::Shader::GetGlobalMatrixArray
 // Il2CppName: GetGlobalMatrixArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Matrix4x4> (*)(::Il2CppString*)>(&UnityEngine::Shader::GetGlobalMatrixArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Matrix4x4> (*)(::Il2CppString*)>(&UnityEngine::Shader::GetGlobalMatrixArray)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetGlobalMatrixArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -1434,7 +1435,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::Shader::GetGlobalMatrixArray
 // Il2CppName: GetGlobalMatrixArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Matrix4x4> (*)(int)>(&UnityEngine::Shader::GetGlobalMatrixArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Matrix4x4> (*)(int)>(&UnityEngine::Shader::GetGlobalMatrixArray)> {
   static const MethodInfo* get() {
     static auto* nameID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetGlobalMatrixArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{nameID});
@@ -1553,7 +1554,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Shader::GetPropertyAttributes
 // Il2CppName: GetPropertyAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppString*> (*)(UnityEngine::Shader*, int)>(&UnityEngine::Shader::GetPropertyAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (*)(UnityEngine::Shader*, int)>(&UnityEngine::Shader::GetPropertyAttributes)> {
   static const MethodInfo* get() {
     static auto* shader = &::il2cpp_utils::GetClassFromName("UnityEngine", "Shader")->byval_arg;
     static auto* propertyIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -1665,7 +1666,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Shader::GetPropertyAttributes
 // Il2CppName: GetPropertyAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppString*> (UnityEngine::Shader::*)(int)>(&UnityEngine::Shader::GetPropertyAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (UnityEngine::Shader::*)(int)>(&UnityEngine::Shader::GetPropertyAttributes)> {
   static const MethodInfo* get() {
     static auto* propertyIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Shader*), "GetPropertyAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{propertyIndex});

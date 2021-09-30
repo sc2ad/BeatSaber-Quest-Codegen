@@ -28,6 +28,11 @@ namespace UnityEngine {
   // [UsedByNativeCodeAttribute] Offset: E71908
   struct Hash128/*, public System::ValueType, public System::IComparable_1<UnityEngine::Hash128>, public System::IEquatable_1<UnityEngine::Hash128>, public System::IComparable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.UInt32 m_u32_0
     // Size: 0x4
     // Offset: 0x0
@@ -52,6 +57,7 @@ namespace UnityEngine {
     uint m_u32_3;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
+    public:
     // Creating value type constructor for type: Hash128
     constexpr Hash128(uint m_u32_0_ = {}, uint m_u32_1_ = {}, uint m_u32_2_ = {}, uint m_u32_3_ = {}) noexcept : m_u32_0{m_u32_0_}, m_u32_1{m_u32_1_}, m_u32_2{m_u32_2_}, m_u32_3{m_u32_3_} {}
     // Creating interface conversion operator: operator System::ValueType

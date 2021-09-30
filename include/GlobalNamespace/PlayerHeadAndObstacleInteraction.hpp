@@ -40,6 +40,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayerHeadAndObstacleInteraction : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xF0A6DC
     // private readonly PlayerTransforms _playerTransforms
     // Size: 0x8
@@ -68,6 +73,7 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>* intersectingObstacles;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>*) == 0x8);
+    public:
     // Get instance field reference: private readonly PlayerTransforms _playerTransforms
     GlobalNamespace::PlayerTransforms*& dyn__playerTransforms();
     // Get instance field reference: private readonly BeatmapObjectManager _beatmapObjectManager

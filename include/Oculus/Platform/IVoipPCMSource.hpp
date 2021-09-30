@@ -5,6 +5,7 @@
 // Begin includes
 #include <stdint.h>
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: Oculus.Platform
 namespace Oculus::Platform {
@@ -16,7 +17,7 @@ namespace Oculus::Platform {
     public:
     // public System.Int32 GetPCM(System.Single[] dest, System.Int32 length)
     // Offset: 0xFFFFFFFF
-    int GetPCM(::ArrayWrapper<float> dest, int length);
+    int GetPCM(::ArrayW<float> dest, int length);
     // public System.Void SetSenderID(System.UInt64 senderID)
     // Offset: 0xFFFFFFFF
     void SetSenderID(uint64_t senderID);
@@ -35,7 +36,7 @@ DEFINE_IL2CPP_ARG_TYPE(Oculus::Platform::IVoipPCMSource*, "Oculus.Platform", "IV
 // Writing MetadataGetter for method: Oculus::Platform::IVoipPCMSource::GetPCM
 // Il2CppName: GetPCM
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Oculus::Platform::IVoipPCMSource::*)(::ArrayWrapper<float>, int)>(&Oculus::Platform::IVoipPCMSource::GetPCM)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Oculus::Platform::IVoipPCMSource::*)(::ArrayW<float>, int)>(&Oculus::Platform::IVoipPCMSource::GetPCM)> {
   static const MethodInfo* get() {
     static auto* dest = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

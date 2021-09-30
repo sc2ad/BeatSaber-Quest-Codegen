@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -64,6 +65,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::PlatformLeaderboardViewController::$RefreshDelayed$d__31
     class $RefreshDelayed$d__31;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private LeaderboardTableView _leaderboardTableView
     // Size: 0x8
     // Offset: 0x70
@@ -130,9 +136,9 @@ namespace GlobalNamespace {
     // private System.Int32[] _playerScorePos
     // Size: 0x8
     // Offset: 0xC0
-    ::ArrayWrapper<int> playerScorePos;
+    ::ArrayW<int> playerScorePos;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // private System.Collections.Generic.List`1<LeaderboardTableView/ScoreData> _scores
     // Size: 0x8
     // Offset: 0xC8
@@ -162,9 +168,10 @@ namespace GlobalNamespace {
     // private PlatformLeaderboardsModel/ScoresScope[] _scoreScopes
     // Size: 0x8
     // Offset: 0xE0
-    ::ArrayWrapper<GlobalNamespace::PlatformLeaderboardsModel::ScoresScope> scoreScopes;
+    ::ArrayW<GlobalNamespace::PlatformLeaderboardsModel::ScoresScope> scoreScopes;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::PlatformLeaderboardsModel::ScoresScope>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::PlatformLeaderboardsModel::ScoresScope>) == 0x8);
+    public:
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF11A30
     // Get static field: static private PlatformLeaderboardsModel/ScoresScope _scoresScope
     static GlobalNamespace::PlatformLeaderboardsModel::ScoresScope _get__scoresScope();
@@ -191,7 +198,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private HMAsyncRequest _getScoresAsyncRequest
     GlobalNamespace::HMAsyncRequest*& dyn__getScoresAsyncRequest();
     // Get instance field reference: private System.Int32[] _playerScorePos
-    ::ArrayWrapper<int>& dyn__playerScorePos();
+    ::ArrayW<int>& dyn__playerScorePos();
     // Get instance field reference: private System.Collections.Generic.List`1<LeaderboardTableView/ScoreData> _scores
     System::Collections::Generic::List_1<GlobalNamespace::LeaderboardTableView::ScoreData*>*& dyn__scores();
     // Get instance field reference: private IDifficultyBeatmap _difficultyBeatmap
@@ -201,7 +208,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _hasScoresData
     bool& dyn__hasScoresData();
     // Get instance field reference: private PlatformLeaderboardsModel/ScoresScope[] _scoreScopes
-    ::ArrayWrapper<GlobalNamespace::PlatformLeaderboardsModel::ScoresScope>& dyn__scoreScopes();
+    ::ArrayW<GlobalNamespace::PlatformLeaderboardsModel::ScoresScope>& dyn__scoreScopes();
     // public PlatformLeaderboardsModel get_leaderboardsModel()
     // Offset: 0x12B17A4
     GlobalNamespace::PlatformLeaderboardsModel* get_leaderboardsModel();
@@ -216,7 +223,7 @@ namespace GlobalNamespace {
     void HandleDidPressRefreshButton();
     // private System.Void HandleLeaderboardsResultsReturned(PlatformLeaderboardsModel/GetScoresResult result, PlatformLeaderboardsModel/LeaderboardScore[] scores, System.Int32 playerScoreIndex)
     // Offset: 0x12B2370
-    void HandleLeaderboardsResultsReturned(GlobalNamespace::PlatformLeaderboardsModel::GetScoresResult result, ::ArrayWrapper<GlobalNamespace::PlatformLeaderboardsModel::LeaderboardScore*> scores, int playerScoreIndex);
+    void HandleLeaderboardsResultsReturned(GlobalNamespace::PlatformLeaderboardsModel::GetScoresResult result, ::ArrayW<GlobalNamespace::PlatformLeaderboardsModel::LeaderboardScore*> scores, int playerScoreIndex);
     // private System.Void HandleScopeSegmentedControlDidSelectCell(HMUI.SegmentedControl segmentedControl, System.Int32 cellNumber)
     // Offset: 0x12B2594
     void HandleScopeSegmentedControlDidSelectCell(HMUI::SegmentedControl* segmentedControl, int cellNumber);
@@ -279,7 +286,7 @@ namespace GlobalNamespace {
     void OnDestroy();
   }; // PlatformLeaderboardViewController
   #pragma pack(pop)
-  static check_size<sizeof(PlatformLeaderboardViewController), 224 + sizeof(::ArrayWrapper<GlobalNamespace::PlatformLeaderboardsModel::ScoresScope>)> __GlobalNamespace_PlatformLeaderboardViewControllerSizeCheck;
+  static check_size<sizeof(PlatformLeaderboardViewController), 224 + sizeof(::ArrayW<GlobalNamespace::PlatformLeaderboardsModel::ScoresScope>)> __GlobalNamespace_PlatformLeaderboardViewControllerSizeCheck;
   static_assert(sizeof(PlatformLeaderboardViewController) == 0xE8);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlatformLeaderboardViewController*, "", "PlatformLeaderboardViewController");
@@ -321,7 +328,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::PlatformLeaderboardViewController::HandleLeaderboardsResultsReturned
 // Il2CppName: HandleLeaderboardsResultsReturned
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlatformLeaderboardViewController::*)(GlobalNamespace::PlatformLeaderboardsModel::GetScoresResult, ::ArrayWrapper<GlobalNamespace::PlatformLeaderboardsModel::LeaderboardScore*>, int)>(&GlobalNamespace::PlatformLeaderboardViewController::HandleLeaderboardsResultsReturned)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::PlatformLeaderboardViewController::*)(GlobalNamespace::PlatformLeaderboardsModel::GetScoresResult, ::ArrayW<GlobalNamespace::PlatformLeaderboardsModel::LeaderboardScore*>, int)>(&GlobalNamespace::PlatformLeaderboardViewController::HandleLeaderboardsResultsReturned)> {
   static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("", "PlatformLeaderboardsModel/GetScoresResult")->byval_arg;
     static auto* scores = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "PlatformLeaderboardsModel/LeaderboardScore"), 1)->byval_arg;

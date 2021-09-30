@@ -42,6 +42,11 @@ namespace UnityEngine::ProBuilder {
   // [TokenAttribute] Offset: FFFFFFFF
   class PreferenceDictionary : public UnityEngine::ScriptableObject/*, public UnityEngine::ProBuilder::IHasDefault, public UnityEngine::ISerializationCallbackReceiver*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.Dictionary`2<System.String,System.Boolean> m_Bool
     // Size: 0x8
     // Offset: 0x18
@@ -150,6 +155,7 @@ namespace UnityEngine::ProBuilder {
     System::Collections::Generic::List_1<UnityEngine::Material*>* m_Material_values;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::Material*>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator UnityEngine::ProBuilder::IHasDefault
     operator UnityEngine::ProBuilder::IHasDefault() noexcept {
       return *reinterpret_cast<UnityEngine::ProBuilder::IHasDefault*>(this);

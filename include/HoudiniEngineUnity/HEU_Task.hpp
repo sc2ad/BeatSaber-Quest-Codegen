@@ -40,12 +40,18 @@ namespace HoudiniEngineUnity {
     // [TokenAttribute] Offset: FFFFFFFF
     struct TaskStatus/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: TaskStatus
       constexpr TaskStatus(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -110,12 +116,18 @@ namespace HoudiniEngineUnity {
     // [TokenAttribute] Offset: FFFFFFFF
     struct TaskResult/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: TaskResult
       constexpr TaskResult(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -156,6 +168,11 @@ namespace HoudiniEngineUnity {
     #pragma pack(pop)
     static check_size<sizeof(HEU_Task::TaskResult), 0 + sizeof(int)> __HoudiniEngineUnity_HEU_Task_TaskResultSizeCheck;
     static_assert(sizeof(HEU_Task::TaskResult) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public HoudiniEngineUnity.HEU_Task/HoudiniEngineUnity.TaskStatus _status
     // Size: 0x4
     // Offset: 0x10
@@ -180,6 +197,7 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::HEU_Task::TaskCallback* taskCompletedDelegate;
     // Field size check
     static_assert(sizeof(HoudiniEngineUnity::HEU_Task::TaskCallback*) == 0x8);
+    public:
     // Get instance field reference: public HoudiniEngineUnity.HEU_Task/HoudiniEngineUnity.TaskStatus _status
     HoudiniEngineUnity::HEU_Task::TaskStatus& dyn__status();
     // Get instance field reference: public HoudiniEngineUnity.HEU_Task/HoudiniEngineUnity.TaskResult _result

@@ -32,6 +32,11 @@ namespace System::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   class DefaultWatcherData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.IO.FileSystemWatcher FSW
     // Size: 0x8
     // Offset: 0x10
@@ -88,6 +93,7 @@ namespace System::IO {
     System::Collections::Hashtable* Files;
     // Field size check
     static_assert(sizeof(System::Collections::Hashtable*) == 0x8);
+    public:
     // Get instance field reference: public System.IO.FileSystemWatcher FSW
     System::IO::FileSystemWatcher*& dyn_FSW();
     // Get instance field reference: public System.String Directory

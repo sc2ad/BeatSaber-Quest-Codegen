@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text::RegularExpressions
@@ -42,6 +43,11 @@ namespace System::Text::RegularExpressions {
   // [DefaultMemberAttribute] Offset: E690C4
   class GroupCollection : public ::Il2CppObject/*, public System::Collections::ICollection*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Text.RegularExpressions.Match _match
     // Size: 0x8
     // Offset: 0x10
@@ -57,9 +63,10 @@ namespace System::Text::RegularExpressions {
     // System.Text.RegularExpressions.Group[] _groups
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<System::Text::RegularExpressions::Group*> groups;
+    ::ArrayW<System::Text::RegularExpressions::Group*> groups;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<System::Text::RegularExpressions::Group*>) == 0x8);
+    static_assert(sizeof(::ArrayW<System::Text::RegularExpressions::Group*>) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Collections::ICollection
     operator System::Collections::ICollection() noexcept {
       return *reinterpret_cast<System::Collections::ICollection*>(this);
@@ -69,7 +76,7 @@ namespace System::Text::RegularExpressions {
     // Get instance field reference: System.Collections.Hashtable _captureMap
     System::Collections::Hashtable*& dyn__captureMap();
     // Get instance field reference: System.Text.RegularExpressions.Group[] _groups
-    ::ArrayWrapper<System::Text::RegularExpressions::Group*>& dyn__groups();
+    ::ArrayW<System::Text::RegularExpressions::Group*>& dyn__groups();
     // public System.Int32 get_Count()
     // Offset: 0x19E16F8
     int get_Count();
@@ -106,7 +113,7 @@ namespace System::Text::RegularExpressions {
     }
   }; // System.Text.RegularExpressions.GroupCollection
   #pragma pack(pop)
-  static check_size<sizeof(GroupCollection), 32 + sizeof(::ArrayWrapper<System::Text::RegularExpressions::Group*>)> __System_Text_RegularExpressions_GroupCollectionSizeCheck;
+  static check_size<sizeof(GroupCollection), 32 + sizeof(::ArrayW<System::Text::RegularExpressions::Group*>)> __System_Text_RegularExpressions_GroupCollectionSizeCheck;
   static_assert(sizeof(GroupCollection) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Text::RegularExpressions::GroupCollection*, "System.Text.RegularExpressions", "GroupCollection");

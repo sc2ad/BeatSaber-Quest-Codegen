@@ -44,12 +44,18 @@ namespace Zenject {
   template<typename TParam1>
   class SubContainerCreatorByMethod_1 : public Zenject::SubContainerCreatorByMethodBase {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Action`2<Zenject.DiContainer,TParam1> _installMethod
     // Size: 0x8
     // Offset: 0x0
     System::Action_2<Zenject::DiContainer*, TParam1>* installMethod;
     // Field size check
     static_assert(sizeof(System::Action_2<Zenject::DiContainer*, TParam1>*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Action_2<Zenject::DiContainer*, TParam1>*
     constexpr operator System::Action_2<Zenject::DiContainer*, TParam1>*() const noexcept {
       return installMethod;

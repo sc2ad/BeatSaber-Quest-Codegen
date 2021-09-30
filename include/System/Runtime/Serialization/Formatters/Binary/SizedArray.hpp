@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: System.Runtime.Serialization.Formatters.Binary
 namespace System::Runtime::Serialization::Formatters::Binary {
@@ -21,26 +22,32 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   // [DefaultMemberAttribute] Offset: E5FA04
   class SizedArray : public ::Il2CppObject/*, public System::ICloneable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Object[] objects
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<::Il2CppObject*> objects;
+    ::ArrayW<::Il2CppObject*> objects;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppObject*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppObject*>) == 0x8);
     // System.Object[] negObjects
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<::Il2CppObject*> negObjects;
+    ::ArrayW<::Il2CppObject*> negObjects;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppObject*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppObject*>) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);
     }
     // Get instance field reference: System.Object[] objects
-    ::ArrayWrapper<::Il2CppObject*>& dyn_objects();
+    ::ArrayW<::Il2CppObject*>& dyn_objects();
     // Get instance field reference: System.Object[] negObjects
-    ::ArrayWrapper<::Il2CppObject*>& dyn_negObjects();
+    ::ArrayW<::Il2CppObject*>& dyn_negObjects();
     // System.Object get_Item(System.Int32 index)
     // Offset: 0x17ED5F8
     ::Il2CppObject* get_Item(int index);
@@ -78,7 +85,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     }
   }; // System.Runtime.Serialization.Formatters.Binary.SizedArray
   #pragma pack(pop)
-  static check_size<sizeof(SizedArray), 24 + sizeof(::ArrayWrapper<::Il2CppObject*>)> __System_Runtime_Serialization_Formatters_Binary_SizedArraySizeCheck;
+  static check_size<sizeof(SizedArray), 24 + sizeof(::ArrayW<::Il2CppObject*>)> __System_Runtime_Serialization_Formatters_Binary_SizedArraySizeCheck;
   static_assert(sizeof(SizedArray) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::SizedArray*, "System.Runtime.Serialization.Formatters.Binary", "SizedArray");

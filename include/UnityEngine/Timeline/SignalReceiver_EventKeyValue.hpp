@@ -38,6 +38,11 @@ namespace UnityEngine::Timeline {
   // [TokenAttribute] Offset: FFFFFFFF
   class SignalReceiver::EventKeyValue : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.List`1<UnityEngine.Timeline.SignalAsset> m_Signals
     // Size: 0x8
     // Offset: 0x10
@@ -51,6 +56,7 @@ namespace UnityEngine::Timeline {
     System::Collections::Generic::List_1<UnityEngine::Events::UnityEvent*>* m_Events;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::Events::UnityEvent*>*) == 0x8);
+    public:
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.Timeline.SignalAsset> m_Signals
     System::Collections::Generic::List_1<UnityEngine::Timeline::SignalAsset*>*& dyn_m_Signals();
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.Events.UnityEvent> m_Events

@@ -40,6 +40,11 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class OculusNetworkPlayerModel::$$c__DisplayClass50_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.UInt64 id
     // Size: 0x8
     // Offset: 0x10
@@ -52,6 +57,7 @@ namespace GlobalNamespace {
     System::Threading::Tasks::TaskCompletionSource_1<::Il2CppString*>* tcs;
     // Field size check
     static_assert(sizeof(System::Threading::Tasks::TaskCompletionSource_1<::Il2CppString*>*) == 0x8);
+    public:
     // Get instance field reference: public System.UInt64 id
     uint64_t& dyn_id();
     // Get instance field reference: public System.Threading.Tasks.TaskCompletionSource`1<System.String> tcs

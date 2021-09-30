@@ -16,6 +16,11 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HAPI_PDG_WorkitemInfo/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 index
     // Size: 0x4
     // Offset: 0x0
@@ -34,6 +39,7 @@ namespace HoudiniEngineUnity {
     int nameSH;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: HAPI_PDG_WorkitemInfo
     constexpr HAPI_PDG_WorkitemInfo(int index_ = {}, int numResults_ = {}, int nameSH_ = {}) noexcept : index{index_}, numResults{numResults_}, nameSH{nameSH_} {}
     // Creating interface conversion operator: operator System::ValueType

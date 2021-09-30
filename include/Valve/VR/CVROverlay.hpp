@@ -76,12 +76,18 @@ namespace Valve::VR {
     class _PollNextOverlayEventPacked;
     // Nested type: Valve::VR::CVROverlay::PollNextOverlayEventUnion
     struct PollNextOverlayEventUnion;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Valve.VR.IVROverlay FnTable
     // Size: 0x290
     // Offset: 0x10
     Valve::VR::IVROverlay FnTable;
     // Field size check
     static_assert(sizeof(Valve::VR::IVROverlay) == 0x290);
+    public:
     // Creating conversion operator: operator Valve::VR::IVROverlay
     constexpr operator Valve::VR::IVROverlay() const noexcept {
       return FnTable;

@@ -35,6 +35,11 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_LoadBufferMesh : public HoudiniEngineUnity::HEU_LoadBufferBase {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public HoudiniEngineUnity.HEU_GenerateGeoCache _geoCache
     // Size: 0x8
     // Offset: 0x30
@@ -77,6 +82,7 @@ namespace HoudiniEngineUnity {
     bool bPartInstanced;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: public HoudiniEngineUnity.HEU_GenerateGeoCache _geoCache
     HoudiniEngineUnity::HEU_GenerateGeoCache*& dyn__geoCache();
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_GeoGroup> _LODGroupMeshes

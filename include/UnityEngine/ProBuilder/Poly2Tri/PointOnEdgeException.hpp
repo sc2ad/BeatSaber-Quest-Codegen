@@ -27,6 +27,11 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
   // [TokenAttribute] Offset: FFFFFFFF
   class PointOnEdgeException : public System::NotImplementedException {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint A
     // Size: 0x8
     // Offset: 0x88
@@ -45,6 +50,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* C;
     // Field size check
     static_assert(sizeof(UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*) == 0x8);
+    public:
     // Get instance field reference: public readonly UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint A
     UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*& dyn_A();
     // Get instance field reference: public readonly UnityEngine.ProBuilder.Poly2Tri.TriangulationPoint B

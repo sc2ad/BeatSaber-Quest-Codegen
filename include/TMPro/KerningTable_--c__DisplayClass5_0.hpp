@@ -28,6 +28,11 @@ namespace TMPro {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class KerningTable::$$c__DisplayClass5_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 left
     // Size: 0x4
     // Offset: 0x10
@@ -40,6 +45,7 @@ namespace TMPro {
     int right;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: public System.Int32 left
     int& dyn_left();
     // Get instance field reference: public System.Int32 right

@@ -18,6 +18,11 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_VolumeLayerPreset : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.String _layerName
     // Size: 0x8
     // Offset: 0x10
@@ -45,6 +50,7 @@ namespace HoudiniEngineUnity {
     int tile;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: public System.String _layerName
     ::Il2CppString*& dyn__layerName();
     // Get instance field reference: public System.Single _strength

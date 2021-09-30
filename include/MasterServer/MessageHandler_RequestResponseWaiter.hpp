@@ -46,6 +46,11 @@ namespace MasterServer {
   // [TokenAttribute] Offset: FFFFFFFF
   class MessageHandler::RequestResponseWaiter : public MasterServer::MessageHandler::RequestWaiter {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Threading.Tasks.TaskCompletionSource`1<MasterServer.IMasterServerMessage> _taskCompletionSource
     // Size: 0x8
     // Offset: 0x10
@@ -60,6 +65,7 @@ namespace MasterServer {
     // Size: 0xFFFFFFFF
     // Offset: 0x30
     System::Threading::CancellationTokenRegistration requestCancellationTokenRegistration;
+    public:
     // Get instance field reference: private readonly System.Threading.Tasks.TaskCompletionSource`1<MasterServer.IMasterServerMessage> _taskCompletionSource
     System::Threading::Tasks::TaskCompletionSource_1<MasterServer::IMasterServerMessage*>*& dyn__taskCompletionSource();
     // Get instance field reference: private readonly System.Threading.CancellationTokenRegistration _disposedCancellationTokenRegistration

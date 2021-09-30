@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Oculus::Platform
@@ -61,7 +62,7 @@ namespace Oculus::Platform {
     static Oculus::Platform::Request_1<Oculus::Platform::Models::CloudStorageUpdateResponse*>* ResolveKeepRemote(::Il2CppString* bucket, ::Il2CppString* key, ::Il2CppString* remoteHandle);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.CloudStorageUpdateResponse> Save(System.String bucket, System.String key, System.Byte[] data, System.Int64 counter, System.String extraData)
     // Offset: 0x16AB17C
-    static Oculus::Platform::Request_1<Oculus::Platform::Models::CloudStorageUpdateResponse*>* Save(::Il2CppString* bucket, ::Il2CppString* key, ::ArrayWrapper<uint8_t> data, int64_t counter, ::Il2CppString* extraData);
+    static Oculus::Platform::Request_1<Oculus::Platform::Models::CloudStorageUpdateResponse*>* Save(::Il2CppString* bucket, ::Il2CppString* key, ::ArrayW<uint8_t> data, int64_t counter, ::Il2CppString* extraData);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.CloudStorageMetadataList> GetNextCloudStorageMetadataListPage(Oculus.Platform.Models.CloudStorageMetadataList list)
     // Offset: 0x16AB2DC
     static Oculus::Platform::Request_1<Oculus::Platform::Models::CloudStorageMetadataList*>* GetNextCloudStorageMetadataListPage(Oculus::Platform::Models::CloudStorageMetadataList* list);
@@ -154,7 +155,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Writing MetadataGetter for method: Oculus::Platform::CloudStorage::Save
 // Il2CppName: Save
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::CloudStorageUpdateResponse*>* (*)(::Il2CppString*, ::Il2CppString*, ::ArrayWrapper<uint8_t>, int64_t, ::Il2CppString*)>(&Oculus::Platform::CloudStorage::Save)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::CloudStorageUpdateResponse*>* (*)(::Il2CppString*, ::Il2CppString*, ::ArrayW<uint8_t>, int64_t, ::Il2CppString*)>(&Oculus::Platform::CloudStorage::Save)> {
   static const MethodInfo* get() {
     static auto* bucket = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

@@ -31,12 +31,18 @@ namespace System::Collections::Specialized {
   // [DefaultMemberAttribute] Offset: E69F10
   class StringDictionary : public ::Il2CppObject/*, public System::Collections::IEnumerable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Collections.Hashtable contents
     // Size: 0x8
     // Offset: 0x10
     System::Collections::Hashtable* contents;
     // Field size check
     static_assert(sizeof(System::Collections::Hashtable*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Collections::IEnumerable
     operator System::Collections::IEnumerable() noexcept {
       return *reinterpret_cast<System::Collections::IEnumerable*>(this);

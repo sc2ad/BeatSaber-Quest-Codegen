@@ -29,6 +29,11 @@ namespace Org::BouncyCastle::Math::EC {
   // [TokenAttribute] Offset: FFFFFFFF
   class ECPoint::ValidityCallback : public ::Il2CppObject/*, public Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Org.BouncyCastle.Math.EC.ECPoint m_outer
     // Size: 0x8
     // Offset: 0x10
@@ -47,6 +52,7 @@ namespace Org::BouncyCastle::Math::EC {
     bool m_checkOrder;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback
     operator Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback*>(this);

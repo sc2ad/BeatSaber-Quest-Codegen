@@ -43,12 +43,18 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::AudioClipLoaderSO::$LoadAudioFileCoroutine$d__3
     class $LoadAudioFileCoroutine$d__3;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean _isLoading
     // Size: 0x1
     // Offset: 0x18
     bool isLoading;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Boolean _isLoading

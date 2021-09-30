@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -39,6 +40,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MenuShockwave : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.ParticleSystem _shockwavePS
     // Size: 0x8
     // Offset: 0x18
@@ -54,15 +60,16 @@ namespace GlobalNamespace {
     // private Signal[] _buttonClickEvents
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<GlobalNamespace::Signal*> buttonClickEvents;
+    ::ArrayW<GlobalNamespace::Signal*> buttonClickEvents;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::Signal*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::Signal*>) == 0x8);
     // private UnityEngine.ParticleSystem/UnityEngine.EmitParams _shockwavePSEmitParams
     // Size: 0x8F
     // Offset: 0x30
     UnityEngine::ParticleSystem::EmitParams shockwavePSEmitParams;
     // Field size check
     static_assert(sizeof(UnityEngine::ParticleSystem::EmitParams) == 0x8F);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.ParticleSystem _shockwavePS
@@ -70,7 +77,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private VRUIControls.VRPointer _vrPointer
     VRUIControls::VRPointer*& dyn__vrPointer();
     // Get instance field reference: private Signal[] _buttonClickEvents
-    ::ArrayWrapper<GlobalNamespace::Signal*>& dyn__buttonClickEvents();
+    ::ArrayW<GlobalNamespace::Signal*>& dyn__buttonClickEvents();
     // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.EmitParams _shockwavePSEmitParams
     UnityEngine::ParticleSystem::EmitParams& dyn__shockwavePSEmitParams();
     // protected System.Void Awake()

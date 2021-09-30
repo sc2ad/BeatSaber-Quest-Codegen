@@ -49,12 +49,18 @@ namespace System {
     // [TokenAttribute] Offset: FFFFFFFF
     struct UriQuirksVersion/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: UriQuirksVersion
       constexpr UriQuirksVersion(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -83,6 +89,11 @@ namespace System {
     #pragma pack(pop)
     static check_size<sizeof(UriParser::UriQuirksVersion), 0 + sizeof(int)> __System_UriParser_UriQuirksVersionSizeCheck;
     static_assert(sizeof(UriParser::UriQuirksVersion) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.UriSyntaxFlags m_Flags
     // Size: 0x4
     // Offset: 0x10
@@ -115,6 +126,7 @@ namespace System {
     ::Il2CppString* m_Scheme;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get static field: static private readonly System.Collections.Generic.Dictionary`2<System.String,System.UriParser> m_Table
     static System::Collections::Generic::Dictionary_2<::Il2CppString*, System::UriParser*>* _get_m_Table();
     // Set static field: static private readonly System.Collections.Generic.Dictionary`2<System.String,System.UriParser> m_Table

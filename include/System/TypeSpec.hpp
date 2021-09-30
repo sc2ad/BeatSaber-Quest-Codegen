@@ -55,6 +55,11 @@ namespace System {
     public:
     // Nested type: System::TypeSpec::DisplayNameFormat
     struct DisplayNameFormat;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.TypeIdentifier name
     // Size: 0x8
     // Offset: 0x10
@@ -99,6 +104,7 @@ namespace System {
     ::Il2CppString* display_fullname;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: private System.TypeIdentifier name
     System::TypeIdentifier*& dyn_name();
     // Get instance field reference: private System.String assembly_name

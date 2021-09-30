@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: OVR::OpenVR
@@ -48,10 +49,10 @@ namespace OVR::OpenVR {
     }
     // public OVR.OpenVR.EVRInputError Invoke(in OVR.OpenVR.VRActiveActionSet_t[] pSets, System.UInt32 unSizeOfVRSelectedActionSet_t, System.UInt32 unSetCount, System.UInt64 originToHighlight)
     // Offset: 0x20F595C
-    OVR::OpenVR::EVRInputError Invoke(ByRef<::ArrayWrapper<OVR::OpenVR::VRActiveActionSet_t>> pSets, uint unSizeOfVRSelectedActionSet_t, uint unSetCount, uint64_t originToHighlight);
+    OVR::OpenVR::EVRInputError Invoke(ByRef<::ArrayW<OVR::OpenVR::VRActiveActionSet_t>> pSets, uint unSizeOfVRSelectedActionSet_t, uint unSetCount, uint64_t originToHighlight);
     // public System.IAsyncResult BeginInvoke(in OVR.OpenVR.VRActiveActionSet_t[] pSets, System.UInt32 unSizeOfVRSelectedActionSet_t, System.UInt32 unSetCount, System.UInt64 originToHighlight, System.AsyncCallback callback, System.Object object)
     // Offset: 0x20F5C08
-    System::IAsyncResult* BeginInvoke(ByRef<::ArrayWrapper<OVR::OpenVR::VRActiveActionSet_t>> pSets, uint unSizeOfVRSelectedActionSet_t, uint unSetCount, uint64_t originToHighlight, System::AsyncCallback* callback, ::Il2CppObject* object);
+    System::IAsyncResult* BeginInvoke(ByRef<::ArrayW<OVR::OpenVR::VRActiveActionSet_t>> pSets, uint unSizeOfVRSelectedActionSet_t, uint unSetCount, uint64_t originToHighlight, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVRInputError EndInvoke(System.IAsyncResult result)
     // Offset: 0x20F5CD4
     OVR::OpenVR::EVRInputError EndInvoke(System::IAsyncResult* result);
@@ -67,7 +68,7 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRInput::_ShowBindingsForActionSet*, "OVR.O
 // Writing MetadataGetter for method: OVR::OpenVR::IVRInput::_ShowBindingsForActionSet::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (OVR::OpenVR::IVRInput::_ShowBindingsForActionSet::*)(ByRef<::ArrayWrapper<OVR::OpenVR::VRActiveActionSet_t>>, uint, uint, uint64_t)>(&OVR::OpenVR::IVRInput::_ShowBindingsForActionSet::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRInputError (OVR::OpenVR::IVRInput::_ShowBindingsForActionSet::*)(ByRef<::ArrayW<OVR::OpenVR::VRActiveActionSet_t>>, uint, uint, uint64_t)>(&OVR::OpenVR::IVRInput::_ShowBindingsForActionSet::Invoke)> {
   static const MethodInfo* get() {
     static auto* pSets = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("OVR.OpenVR", "VRActiveActionSet_t"), 1)->this_arg;
     static auto* unSizeOfVRSelectedActionSet_t = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -79,7 +80,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::IVRInput::_ShowBindingsForActionSet::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRInput::_ShowBindingsForActionSet::*)(ByRef<::ArrayWrapper<OVR::OpenVR::VRActiveActionSet_t>>, uint, uint, uint64_t, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRInput::_ShowBindingsForActionSet::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRInput::_ShowBindingsForActionSet::*)(ByRef<::ArrayW<OVR::OpenVR::VRActiveActionSet_t>>, uint, uint, uint64_t, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRInput::_ShowBindingsForActionSet::BeginInvoke)> {
   static const MethodInfo* get() {
     static auto* pSets = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("OVR.OpenVR", "VRActiveActionSet_t"), 1)->this_arg;
     static auto* unSizeOfVRSelectedActionSet_t = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;

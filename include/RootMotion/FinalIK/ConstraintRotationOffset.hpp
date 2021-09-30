@@ -29,6 +29,11 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class ConstraintRotationOffset : public RootMotion::FinalIK::Constraint {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Quaternion offset
     // Size: 0x10
     // Offset: 0x1C
@@ -65,6 +70,7 @@ namespace RootMotion::FinalIK {
     bool initiated;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: public UnityEngine.Quaternion offset
     UnityEngine::Quaternion& dyn_offset();
     // Get instance field reference: private UnityEngine.Quaternion defaultRotation

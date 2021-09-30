@@ -31,6 +31,11 @@ namespace HoudiniEngineUnity {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class HEU_Parameters::$$c__DisplayClass35_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 parentID
     // Size: 0x4
     // Offset: 0x10
@@ -45,6 +50,7 @@ namespace HoudiniEngineUnity {
     System::Predicate_1<HoudiniEngineUnity::HAPI_ParmInfo>* $$9__0;
     // Field size check
     static_assert(sizeof(System::Predicate_1<HoudiniEngineUnity::HAPI_ParmInfo>*) == 0x8);
+    public:
     // Get instance field reference: public System.Int32 parentID
     int& dyn_parentID();
     // Get instance field reference: public System.Predicate`1<HoudiniEngineUnity.HAPI_ParmInfo> <>9__0

@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -29,12 +30,17 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerLeaderboardPanelController : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private MultiplayerLeaderboardPanelItem[] _items
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<GlobalNamespace::MultiplayerLeaderboardPanelItem*> items;
+    ::ArrayW<GlobalNamespace::MultiplayerLeaderboardPanelItem*> items;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MultiplayerLeaderboardPanelItem*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::MultiplayerLeaderboardPanelItem*>) == 0x8);
     // [InjectAttribute] Offset: 0xF072E8
     // private readonly MultiplayerScoreProvider _scoreProvider
     // Size: 0x8
@@ -42,10 +48,11 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerScoreProvider* scoreProvider;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerScoreProvider*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MultiplayerLeaderboardPanelItem[] _items
-    ::ArrayWrapper<GlobalNamespace::MultiplayerLeaderboardPanelItem*>& dyn__items();
+    ::ArrayW<GlobalNamespace::MultiplayerLeaderboardPanelItem*>& dyn__items();
     // Get instance field reference: private readonly MultiplayerScoreProvider _scoreProvider
     GlobalNamespace::MultiplayerScoreProvider*& dyn__scoreProvider();
     // protected System.Void Start()

@@ -36,6 +36,11 @@ namespace Org::BouncyCastle::Asn1::X509 {
   // [TokenAttribute] Offset: FFFFFFFF
   class AttCertIssuer : public Org::BouncyCastle::Asn1::Asn1Encodable/*, public Org::BouncyCastle::Asn1::IAsn1Choice*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // readonly Org.BouncyCastle.Asn1.Asn1Encodable obj
     // Size: 0x8
     // Offset: 0x10
@@ -48,6 +53,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
     Org::BouncyCastle::Asn1::Asn1Object* choiceObj;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::Asn1Object*) == 0x8);
+    public:
     // Creating interface conversion operator: operator Org::BouncyCastle::Asn1::IAsn1Choice
     operator Org::BouncyCastle::Asn1::IAsn1Choice() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Asn1::IAsn1Choice*>(this);

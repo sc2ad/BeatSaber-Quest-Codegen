@@ -31,6 +31,11 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class MonoKernel : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectLocalAttribute] Offset: 0xEC423C
     // private Zenject.TickableManager _tickableManager
     // Size: 0x8
@@ -64,6 +69,7 @@ namespace Zenject {
     bool isDestroyed;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private Zenject.TickableManager _tickableManager

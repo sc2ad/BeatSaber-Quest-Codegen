@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::TestTools
@@ -62,7 +63,7 @@ namespace UnityEngine::TestTools {
     class $InvokeAfter$d__3;
     // static private System.Reflection.MethodInfo[] GetMethodsWithAttributeFromFixture(System.Type fixtureType, System.Type setUpType)
     // Offset: 0x1671188
-    static ::ArrayWrapper<System::Reflection::MethodInfo*> GetMethodsWithAttributeFromFixture(System::Type* fixtureType, System::Type* setUpType);
+    static ::ArrayW<System::Reflection::MethodInfo*> GetMethodsWithAttributeFromFixture(System::Type* fixtureType, System::Type* setUpType);
     // protected System.Collections.IEnumerator InvokeBefore(System.Reflection.MethodInfo action, NUnit.Framework.Internal.Test test, UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext context)
     // Offset: 0x16712C8
     System::Collections::IEnumerator* InvokeBefore(System::Reflection::MethodInfo* action, NUnit::Framework::Internal::Test* test, UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestExecutionContext* context);
@@ -90,7 +91,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::TestTools::SetUpTearDownCommand*, "UnityEngi
 // Writing MetadataGetter for method: UnityEngine::TestTools::SetUpTearDownCommand::GetMethodsWithAttributeFromFixture
 // Il2CppName: GetMethodsWithAttributeFromFixture
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::Reflection::MethodInfo*> (*)(System::Type*, System::Type*)>(&UnityEngine::TestTools::SetUpTearDownCommand::GetMethodsWithAttributeFromFixture)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Reflection::MethodInfo*> (*)(System::Type*, System::Type*)>(&UnityEngine::TestTools::SetUpTearDownCommand::GetMethodsWithAttributeFromFixture)> {
   static const MethodInfo* get() {
     static auto* fixtureType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* setUpType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;

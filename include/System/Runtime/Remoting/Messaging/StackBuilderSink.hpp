@@ -39,6 +39,11 @@ namespace System::Runtime::Remoting::Messaging {
   // [TokenAttribute] Offset: FFFFFFFF
   class StackBuilderSink : public ::Il2CppObject/*, public System::Runtime::Remoting::Messaging::IMessageSink*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.MarshalByRefObject _target
     // Size: 0x8
     // Offset: 0x10
@@ -51,6 +56,7 @@ namespace System::Runtime::Remoting::Messaging {
     System::Runtime::Remoting::Proxies::RealProxy* rp;
     // Field size check
     static_assert(sizeof(System::Runtime::Remoting::Proxies::RealProxy*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Runtime::Remoting::Messaging::IMessageSink
     operator System::Runtime::Remoting::Messaging::IMessageSink() noexcept {
       return *reinterpret_cast<System::Runtime::Remoting::Messaging::IMessageSink*>(this);

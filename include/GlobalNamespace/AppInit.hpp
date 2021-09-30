@@ -49,6 +49,11 @@ namespace GlobalNamespace {
     class $$c;
     // Nested type: GlobalNamespace::AppInit::$StartCoroutine$d__8
     class $StartCoroutine$d__8;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.GameObject _cameraGO
     // Size: 0x8
     // Offset: 0x20
@@ -75,6 +80,7 @@ namespace GlobalNamespace {
     GlobalNamespace::GameScenesManager* gameScenesManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameScenesManager*) == 0x8);
+    public:
     // Get instance field reference: private UnityEngine.GameObject _cameraGO
     UnityEngine::GameObject*& dyn__cameraGO();
     // Get instance field reference: private MultiplayerMockSettings _multiplayerMockSettings

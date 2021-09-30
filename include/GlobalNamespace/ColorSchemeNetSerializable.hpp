@@ -33,6 +33,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct ColorSchemeNetSerializable/*, public System::ValueType, public LiteNetLib::Utils::INetSerializable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public ColorNoAlphaSerializable saberAColor
     // Size: 0x10
     // Offset: 0x0
@@ -75,6 +80,7 @@ namespace GlobalNamespace {
     GlobalNamespace::ColorNoAlphaSerializable environmentColor1Boost;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ColorNoAlphaSerializable) == 0x10);
+    public:
     // Creating value type constructor for type: ColorSchemeNetSerializable
     constexpr ColorSchemeNetSerializable(GlobalNamespace::ColorNoAlphaSerializable saberAColor_ = {}, GlobalNamespace::ColorNoAlphaSerializable saberBColor_ = {}, GlobalNamespace::ColorNoAlphaSerializable obstaclesColor_ = {}, GlobalNamespace::ColorNoAlphaSerializable environmentColor0_ = {}, GlobalNamespace::ColorNoAlphaSerializable environmentColor1_ = {}, GlobalNamespace::ColorNoAlphaSerializable environmentColor0Boost_ = {}, GlobalNamespace::ColorNoAlphaSerializable environmentColor1Boost_ = {}) noexcept : saberAColor{saberAColor_}, saberBColor{saberBColor_}, obstaclesColor{obstaclesColor_}, environmentColor0{environmentColor0_}, environmentColor1{environmentColor1_}, environmentColor0Boost{environmentColor0Boost_}, environmentColor1Boost{environmentColor1Boost_} {}
     // Creating interface conversion operator: operator System::ValueType

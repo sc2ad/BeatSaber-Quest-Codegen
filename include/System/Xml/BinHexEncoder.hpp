@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Xml
@@ -23,10 +24,10 @@ namespace System::Xml {
     public:
     // static System.Void Encode(System.Byte[] buffer, System.Int32 index, System.Int32 count, System.Xml.XmlWriter writer)
     // Offset: 0x1AF54C8
-    static void Encode(::ArrayWrapper<uint8_t> buffer, int index, int count, System::Xml::XmlWriter* writer);
+    static void Encode(::ArrayW<uint8_t> buffer, int index, int count, System::Xml::XmlWriter* writer);
     // static private System.Int32 Encode(System.Byte[] inArray, System.Int32 offsetIn, System.Int32 count, System.Char[] outArray)
     // Offset: 0x1AF5654
-    static int Encode(::ArrayWrapper<uint8_t> inArray, int offsetIn, int count, ::ArrayWrapper<::Il2CppChar> outArray);
+    static int Encode(::ArrayW<uint8_t> inArray, int offsetIn, int count, ::ArrayW<::Il2CppChar> outArray);
   }; // System.Xml.BinHexEncoder
   #pragma pack(pop)
 }
@@ -36,7 +37,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Xml::BinHexEncoder*, "System.Xml", "BinHexEncoder
 // Writing MetadataGetter for method: System::Xml::BinHexEncoder::Encode
 // Il2CppName: Encode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint8_t>, int, int, System::Xml::XmlWriter*)>(&System::Xml::BinHexEncoder::Encode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t>, int, int, System::Xml::XmlWriter*)>(&System::Xml::BinHexEncoder::Encode)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -48,7 +49,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: System::Xml::BinHexEncoder::Encode
 // Il2CppName: Encode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayWrapper<uint8_t>, int, int, ::ArrayWrapper<::Il2CppChar>)>(&System::Xml::BinHexEncoder::Encode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayW<uint8_t>, int, int, ::ArrayW<::Il2CppChar>)>(&System::Xml::BinHexEncoder::Encode)> {
   static const MethodInfo* get() {
     static auto* inArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offsetIn = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

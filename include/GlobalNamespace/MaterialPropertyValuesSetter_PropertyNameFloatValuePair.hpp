@@ -22,12 +22,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MaterialPropertyValuesSetter::PropertyNameFloatValuePair : public GlobalNamespace::MaterialPropertyValuesSetter::PropertyValuePairBase {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Single value
     // Size: 0x4
     // Offset: 0x1C
     float value;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating conversion operator: operator float
     constexpr operator float() const noexcept {
       return value;

@@ -31,12 +31,18 @@ namespace UnityEngine::Timeline {
     public:
     // Writing base type padding for base size: 0x14 to desired offset: 0x18
     char ___base_padding[0x4] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Playables.Playable m_Playable
     // Size: 0xC
     // Offset: 0x18
     UnityEngine::Playables::Playable m_Playable;
     // Field size check
     static_assert(sizeof(UnityEngine::Playables::Playable) == 0xC);
+    public:
     // Deleting conversion operator: operator int
     constexpr operator int() const noexcept = delete;
     // Get static field: static private readonly System.Int64 kIntervalEnd

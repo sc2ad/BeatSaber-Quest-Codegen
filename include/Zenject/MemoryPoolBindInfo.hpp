@@ -21,6 +21,11 @@ namespace Zenject {
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
   class MemoryPoolBindInfo : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Zenject.PoolExpandMethods <ExpandMethod>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -39,6 +44,7 @@ namespace Zenject {
     int MaxSize;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: private Zenject.PoolExpandMethods <ExpandMethod>k__BackingField
     Zenject::PoolExpandMethods& dyn_$ExpandMethod$k__BackingField();
     // Get instance field reference: private System.Int32 <InitialSize>k__BackingField

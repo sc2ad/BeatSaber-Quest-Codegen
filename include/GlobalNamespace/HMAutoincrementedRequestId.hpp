@@ -20,12 +20,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class HMAutoincrementedRequestId : public ::Il2CppObject/*, public System::IEquatable_1<GlobalNamespace::HMAutoincrementedRequestId*>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.UInt64 _requestId
     // Size: 0x8
     // Offset: 0x10
     uint64_t requestId;
     // Field size check
     static_assert(sizeof(uint64_t) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::IEquatable_1<GlobalNamespace::HMAutoincrementedRequestId*>
     operator System::IEquatable_1<GlobalNamespace::HMAutoincrementedRequestId*>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<GlobalNamespace::HMAutoincrementedRequestId*>*>(this);

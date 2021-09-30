@@ -28,12 +28,18 @@ namespace System::Net::Sockets {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class Socket::$$c__DisplayClass242_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 sent_so_far
     // Size: 0x4
     // Offset: 0x10
     int sent_so_far;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return sent_so_far;

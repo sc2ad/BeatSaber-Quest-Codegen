@@ -24,12 +24,18 @@ namespace UnityEngine {
   // [AttributeUsageAttribute] Offset: E729C4
   class RuntimeInitializeOnLoadMethodAttribute : public UnityEngine::Scripting::PreserveAttribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.RuntimeInitializeLoadType m_LoadType
     // Size: 0x4
     // Offset: 0x10
     UnityEngine::RuntimeInitializeLoadType m_LoadType;
     // Field size check
     static_assert(sizeof(UnityEngine::RuntimeInitializeLoadType) == 0x4);
+    public:
     // Creating conversion operator: operator UnityEngine::RuntimeInitializeLoadType
     constexpr operator UnityEngine::RuntimeInitializeLoadType() const noexcept {
       return m_LoadType;

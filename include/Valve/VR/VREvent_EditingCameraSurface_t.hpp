@@ -17,6 +17,11 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct VREvent_EditingCameraSurface_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.UInt64 overlayHandle
     // Size: 0x8
     // Offset: 0x0
@@ -29,6 +34,7 @@ namespace Valve::VR {
     uint nVisualMode;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
+    public:
     // Creating value type constructor for type: VREvent_EditingCameraSurface_t
     constexpr VREvent_EditingCameraSurface_t(uint64_t overlayHandle_ = {}, uint nVisualMode_ = {}) noexcept : overlayHandle{overlayHandle_}, nVisualMode{nVisualMode_} {}
     // Creating interface conversion operator: operator System::ValueType

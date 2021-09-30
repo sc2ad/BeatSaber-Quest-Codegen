@@ -21,6 +21,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Timeline
@@ -96,12 +97,18 @@ namespace UnityEngine::Timeline {
     // [TokenAttribute] Offset: FFFFFFFF
     struct DurationMode/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: DurationMode
       constexpr DurationMode(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -130,6 +137,11 @@ namespace UnityEngine::Timeline {
     #pragma pack(pop)
     static check_size<sizeof(TimelineAsset::DurationMode), 0 + sizeof(int)> __UnityEngine_Timeline_TimelineAsset_DurationModeSizeCheck;
     static_assert(sizeof(TimelineAsset::DurationMode) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 m_Version
     // Size: 0x4
     // Offset: 0x18
@@ -153,9 +165,9 @@ namespace UnityEngine::Timeline {
     // private UnityEngine.Timeline.TrackAsset[] m_CacheOutputTracks
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<UnityEngine::Timeline::TrackAsset*> m_CacheOutputTracks;
+    ::ArrayW<UnityEngine::Timeline::TrackAsset*> m_CacheOutputTracks;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Timeline::TrackAsset*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Timeline::TrackAsset*>) == 0x8);
     // private System.Collections.Generic.List`1<UnityEngine.Timeline.TrackAsset> m_CacheRootTracks
     // Size: 0x8
     // Offset: 0x38
@@ -188,6 +200,7 @@ namespace UnityEngine::Timeline {
     UnityEngine::Timeline::MarkerTrack* m_MarkerTrack;
     // Field size check
     static_assert(sizeof(UnityEngine::Timeline::MarkerTrack*) == 0x8);
+    public:
     // Creating interface conversion operator: operator UnityEngine::Timeline::ITimelineClipAsset
     operator UnityEngine::Timeline::ITimelineClipAsset() noexcept {
       return *reinterpret_cast<UnityEngine::Timeline::ITimelineClipAsset*>(this);
@@ -215,7 +228,7 @@ namespace UnityEngine::Timeline {
     // Get instance field reference: private System.Double m_FixedDuration
     double& dyn_m_FixedDuration();
     // Get instance field reference: private UnityEngine.Timeline.TrackAsset[] m_CacheOutputTracks
-    ::ArrayWrapper<UnityEngine::Timeline::TrackAsset*>& dyn_m_CacheOutputTracks();
+    ::ArrayW<UnityEngine::Timeline::TrackAsset*>& dyn_m_CacheOutputTracks();
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.Timeline.TrackAsset> m_CacheRootTracks
     System::Collections::Generic::List_1<UnityEngine::Timeline::TrackAsset*>*& dyn_m_CacheRootTracks();
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.Timeline.TrackAsset> m_CacheFlattenedTracks

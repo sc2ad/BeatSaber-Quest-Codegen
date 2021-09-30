@@ -24,6 +24,11 @@ namespace UnityEngine::Bindings {
   // [AttributeUsageAttribute] Offset: E6DBE4
   class NativePropertyAttribute : public UnityEngine::Bindings::NativeMethodAttribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [DebuggerBrowsableAttribute] Offset: 0xE6E240
     // private UnityEngine.Bindings.TargetType <TargetType>k__BackingField
     // Size: 0x4
@@ -31,6 +36,7 @@ namespace UnityEngine::Bindings {
     UnityEngine::Bindings::TargetType TargetType;
     // Field size check
     static_assert(sizeof(UnityEngine::Bindings::TargetType) == 0x4);
+    public:
     // Creating conversion operator: operator UnityEngine::Bindings::TargetType
     constexpr operator UnityEngine::Bindings::TargetType() const noexcept {
       return TargetType;

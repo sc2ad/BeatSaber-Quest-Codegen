@@ -27,6 +27,11 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class InitializableManager::InitializableInfo : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public Zenject.IInitializable Initializable
     // Size: 0x8
     // Offset: 0x10
@@ -39,6 +44,7 @@ namespace Zenject {
     int Priority;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: public Zenject.IInitializable Initializable
     Zenject::IInitializable*& dyn_Initializable();
     // Get instance field reference: public System.Int32 Priority

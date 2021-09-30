@@ -29,12 +29,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SingleFixedSceneScenesTransitionSetupDataSO : public GlobalNamespace::ScenesTransitionSetupDataSO {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private SceneInfo _sceneInfo
     // Size: 0x8
     // Offset: 0x28
     GlobalNamespace::SceneInfo* sceneInfo;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SceneInfo*) == 0x8);
+    public:
     // Get instance field reference: private SceneInfo _sceneInfo
     GlobalNamespace::SceneInfo*& dyn__sceneInfo();
     // public SceneInfo get_sceneInfo()

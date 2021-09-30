@@ -21,6 +21,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections
@@ -81,6 +82,11 @@ namespace System::Collections {
     // [TokenAttribute] Offset: FFFFFFFF
     struct bucket/*, public System::ValueType*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Object key
       // Size: 0x8
       // Offset: 0x0
@@ -99,6 +105,7 @@ namespace System::Collections {
       int hash_coll;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: bucket
       constexpr bucket(::Il2CppObject* key_ = {}, ::Il2CppObject* val_ = {}, int hash_coll_ = {}) noexcept : key{key_}, val{val_}, hash_coll{hash_coll_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -115,12 +122,17 @@ namespace System::Collections {
     #pragma pack(pop)
     static check_size<sizeof(Hashtable::bucket), 16 + sizeof(int)> __System_Collections_Hashtable_bucketSizeCheck;
     static_assert(sizeof(Hashtable::bucket) == 0x14);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Hashtable/System.Collections.bucket[] buckets
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<System::Collections::Hashtable::bucket> buckets;
+    ::ArrayW<System::Collections::Hashtable::bucket> buckets;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<System::Collections::Hashtable::bucket>) == 0x8);
+    static_assert(sizeof(::ArrayW<System::Collections::Hashtable::bucket>) == 0x8);
     // private System.Int32 count
     // Size: 0x4
     // Offset: 0x18
@@ -183,6 +195,7 @@ namespace System::Collections {
     ::Il2CppObject* syncRoot;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);
@@ -260,7 +273,7 @@ namespace System::Collections {
     // Set static field: static private System.String KeyComparerName
     static void _set_KeyComparerName(::Il2CppString* value);
     // Get instance field reference: private System.Collections.Hashtable/System.Collections.bucket[] buckets
-    ::ArrayWrapper<System::Collections::Hashtable::bucket>& dyn_buckets();
+    ::ArrayW<System::Collections::Hashtable::bucket>& dyn_buckets();
     // Get instance field reference: private System.Int32 count
     int& dyn_count();
     // Get instance field reference: private System.Int32 occupancy
@@ -421,7 +434,7 @@ namespace System::Collections {
     void Insert(::Il2CppObject* key, ::Il2CppObject* nvalue, bool add);
     // private System.Void putEntry(System.Collections.Hashtable/System.Collections.bucket[] newBuckets, System.Object key, System.Object nvalue, System.Int32 hashcode)
     // Offset: 0x199CC9C
-    void putEntry(::ArrayWrapper<System::Collections::Hashtable::bucket> newBuckets, ::Il2CppObject* key, ::Il2CppObject* nvalue, int hashcode);
+    void putEntry(::ArrayW<System::Collections::Hashtable::bucket> newBuckets, ::Il2CppObject* key, ::Il2CppObject* nvalue, int hashcode);
     // public System.Void Remove(System.Object key)
     // Offset: 0x199D12C
     void Remove(::Il2CppObject* key);
@@ -717,7 +730,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Collections::Hashtable::putEntry
 // Il2CppName: putEntry
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::Hashtable::*)(::ArrayWrapper<System::Collections::Hashtable::bucket>, ::Il2CppObject*, ::Il2CppObject*, int)>(&System::Collections::Hashtable::putEntry)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Collections::Hashtable::*)(::ArrayW<System::Collections::Hashtable::bucket>, ::Il2CppObject*, ::Il2CppObject*, int)>(&System::Collections::Hashtable::putEntry)> {
   static const MethodInfo* get() {
     static auto* newBuckets = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Collections", "Hashtable/bucket"), 1)->byval_arg;
     static auto* key = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;

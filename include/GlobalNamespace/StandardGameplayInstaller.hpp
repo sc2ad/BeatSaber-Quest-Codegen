@@ -27,6 +27,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class StandardGameplayInstaller : public Zenject::MonoInstaller {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xF0C1D8
     // private readonly StandardGameplaySceneSetupData _standardSceneSetupData
     // Size: 0x8
@@ -34,6 +39,7 @@ namespace GlobalNamespace {
     GlobalNamespace::StandardGameplaySceneSetupData* standardSceneSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::StandardGameplaySceneSetupData*) == 0x8);
+    public:
     // Get instance field reference: private readonly StandardGameplaySceneSetupData _standardSceneSetupData
     GlobalNamespace::StandardGameplaySceneSetupData*& dyn__standardSceneSetupData();
     // public System.Void .ctor()

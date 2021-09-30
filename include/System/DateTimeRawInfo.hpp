@@ -19,6 +19,11 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   struct DateTimeRawInfo/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32* num
     // Size: 0x8
     // Offset: 0x0
@@ -79,6 +84,7 @@ namespace System {
     bool timeZone;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating value type constructor for type: DateTimeRawInfo
     constexpr DateTimeRawInfo(int* num_ = {}, int numCount_ = {}, int month_ = {}, int year_ = {}, int dayOfWeek_ = {}, int era_ = {}, System::DateTimeParse::TM timeMark_ = {}, double fraction_ = {}, bool hasSameDateAndTimeSeparators_ = {}, bool timeZone_ = {}) noexcept : num{num_}, numCount{numCount_}, month{month_}, year{year_}, dayOfWeek{dayOfWeek_}, era{era_}, timeMark{timeMark_}, fraction{fraction_}, hasSameDateAndTimeSeparators{hasSameDateAndTimeSeparators_}, timeZone{timeZone_} {}
     // Creating interface conversion operator: operator System::ValueType

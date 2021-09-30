@@ -27,6 +27,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MissionGameplayInstaller : public Zenject::MonoInstaller {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xF0C110
     // private readonly MissionGameplaySceneSetupData _sceneSetupData
     // Size: 0x8
@@ -34,6 +39,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MissionGameplaySceneSetupData* sceneSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionGameplaySceneSetupData*) == 0x8);
+    public:
     // Get instance field reference: private readonly MissionGameplaySceneSetupData _sceneSetupData
     GlobalNamespace::MissionGameplaySceneSetupData*& dyn__sceneSetupData();
     // public System.Void .ctor()

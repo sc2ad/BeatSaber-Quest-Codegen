@@ -21,6 +21,11 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   struct TMP_TextUtilities::LineSegment/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Vector3 Point1
     // Size: 0xC
     // Offset: 0x0
@@ -33,6 +38,7 @@ namespace TMPro {
     UnityEngine::Vector3 Point2;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    public:
     // Creating value type constructor for type: LineSegment
     constexpr LineSegment(UnityEngine::Vector3 Point1_ = {}, UnityEngine::Vector3 Point2_ = {}) noexcept : Point1{Point1_}, Point2{Point2_} {}
     // Creating interface conversion operator: operator System::ValueType

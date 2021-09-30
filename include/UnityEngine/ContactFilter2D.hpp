@@ -21,6 +21,11 @@ namespace UnityEngine {
   // [RequiredByNativeCodeAttribute] Offset: E95398
   struct ContactFilter2D/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [NativeNameAttribute] Offset: 0xE956A0
     // public System.Boolean useTriggers
     // Size: 0x1
@@ -100,6 +105,7 @@ namespace UnityEngine {
     float maxNormalAngle;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: ContactFilter2D
     constexpr ContactFilter2D(bool useTriggers_ = {}, bool useLayerMask_ = {}, bool useDepth_ = {}, bool useOutsideDepth_ = {}, bool useNormalAngle_ = {}, bool useOutsideNormalAngle_ = {}, UnityEngine::LayerMask layerMask_ = {}, float minDepth_ = {}, float maxDepth_ = {}, float minNormalAngle_ = {}, float maxNormalAngle_ = {}) noexcept : useTriggers{useTriggers_}, useLayerMask{useLayerMask_}, useDepth{useDepth_}, useOutsideDepth{useOutsideDepth_}, useNormalAngle{useNormalAngle_}, useOutsideNormalAngle{useOutsideNormalAngle_}, layerMask{layerMask_}, minDepth{minDepth_}, maxDepth{maxDepth_}, minNormalAngle{minNormalAngle_}, maxNormalAngle{maxNormalAngle_} {}
     // Creating interface conversion operator: operator System::ValueType

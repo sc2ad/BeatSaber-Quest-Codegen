@@ -31,6 +31,11 @@ namespace GlobalNamespace {
   template<typename T>
   class LazyCopyHashSet_1 : public ::Il2CppObject/*, public GlobalNamespace::ILazyCopyHashSet_1<T>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Collections.Generic.List`1<T> _itemsCopy
     // Size: 0x8
     // Offset: 0x0
@@ -49,6 +54,7 @@ namespace GlobalNamespace {
     bool dirty;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::ILazyCopyHashSet_1<T>
     operator GlobalNamespace::ILazyCopyHashSet_1<T>() noexcept {
       return *reinterpret_cast<GlobalNamespace::ILazyCopyHashSet_1<T>*>(this);

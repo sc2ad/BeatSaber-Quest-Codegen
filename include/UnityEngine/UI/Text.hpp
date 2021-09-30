@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::UI
@@ -54,6 +55,11 @@ namespace UnityEngine::UI {
   // [AddComponentMenu] Offset: EA85C8
   class Text : public UnityEngine::UI::MaskableGraphic/*, public UnityEngine::UI::ILayoutElement*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.UI.FontData m_FontData
     // Size: 0x8
     // Offset: 0xC0
@@ -90,9 +96,10 @@ namespace UnityEngine::UI {
     // private readonly UnityEngine.UIVertex[] m_TempVerts
     // Size: 0x8
     // Offset: 0xE8
-    ::ArrayWrapper<UnityEngine::UIVertex> m_TempVerts;
+    ::ArrayW<UnityEngine::UIVertex> m_TempVerts;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::UIVertex>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::UIVertex>) == 0x8);
+    public:
     // Creating interface conversion operator: operator UnityEngine::UI::ILayoutElement
     operator UnityEngine::UI::ILayoutElement() noexcept {
       return *reinterpret_cast<UnityEngine::UI::ILayoutElement*>(this);
@@ -112,7 +119,7 @@ namespace UnityEngine::UI {
     // Get instance field reference: protected System.Boolean m_DisableFontTextureRebuiltCallback
     bool& dyn_m_DisableFontTextureRebuiltCallback();
     // Get instance field reference: private readonly UnityEngine.UIVertex[] m_TempVerts
-    ::ArrayWrapper<UnityEngine::UIVertex>& dyn_m_TempVerts();
+    ::ArrayW<UnityEngine::UIVertex>& dyn_m_TempVerts();
     // public UnityEngine.TextGenerator get_cachedTextGenerator()
     // Offset: 0x25D57D4
     UnityEngine::TextGenerator* get_cachedTextGenerator();
@@ -288,7 +295,7 @@ namespace UnityEngine::UI {
     void OnPopulateMesh(UnityEngine::UI::VertexHelper* toFill);
   }; // UnityEngine.UI.Text
   #pragma pack(pop)
-  static check_size<sizeof(Text), 232 + sizeof(::ArrayWrapper<UnityEngine::UIVertex>)> __UnityEngine_UI_TextSizeCheck;
+  static check_size<sizeof(Text), 232 + sizeof(::ArrayW<UnityEngine::UIVertex>)> __UnityEngine_UI_TextSizeCheck;
   static_assert(sizeof(Text) == 0xF0);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::UI::Text*, "UnityEngine.UI", "Text");

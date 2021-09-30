@@ -39,12 +39,18 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   class CVRTrackedCamera : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private OVR.OpenVR.IVRTrackedCamera FnTable
     // Size: 0x60
     // Offset: 0x10
     OVR::OpenVR::IVRTrackedCamera FnTable;
     // Field size check
     static_assert(sizeof(OVR::OpenVR::IVRTrackedCamera) == 0x60);
+    public:
     // Creating conversion operator: operator OVR::OpenVR::IVRTrackedCamera
     constexpr operator OVR::OpenVR::IVRTrackedCamera() const noexcept {
       return FnTable;

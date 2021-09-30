@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -34,10 +35,10 @@ namespace UnityEngine {
     }
     // private System.Void UnityEngine.IPlayerEditorConnectionNative.SendMessage(System.Guid messageId, System.Byte[] data, System.Int32 playerId)
     // Offset: 0x1DFD328
-    void UnityEngine_IPlayerEditorConnectionNative_SendMessage(System::Guid messageId, ::ArrayWrapper<uint8_t> data, int playerId);
+    void UnityEngine_IPlayerEditorConnectionNative_SendMessage(System::Guid messageId, ::ArrayW<uint8_t> data, int playerId);
     // private System.Boolean UnityEngine.IPlayerEditorConnectionNative.TrySendMessage(System.Guid messageId, System.Byte[] data, System.Int32 playerId)
     // Offset: 0x1DFD4B0
-    bool UnityEngine_IPlayerEditorConnectionNative_TrySendMessage(System::Guid messageId, ::ArrayWrapper<uint8_t> data, int playerId);
+    bool UnityEngine_IPlayerEditorConnectionNative_TrySendMessage(System::Guid messageId, ::ArrayW<uint8_t> data, int playerId);
     // private System.Void UnityEngine.IPlayerEditorConnectionNative.Poll()
     // Offset: 0x1DFD63C
     void UnityEngine_IPlayerEditorConnectionNative_Poll();
@@ -70,10 +71,10 @@ namespace UnityEngine {
     static void UnregisterInternal(::Il2CppString* messageId);
     // static private System.Void SendMessage(System.String messageId, System.Byte[] data, System.Int32 playerId)
     // Offset: 0x1DFD458
-    static void SendMessage(::Il2CppString* messageId, ::ArrayWrapper<uint8_t> data, int playerId);
+    static void SendMessage(::Il2CppString* messageId, ::ArrayW<uint8_t> data, int playerId);
     // static private System.Boolean TrySendMessage(System.String messageId, System.Byte[] data, System.Int32 playerId)
     // Offset: 0x1DFD5E4
-    static bool TrySendMessage(::Il2CppString* messageId, ::ArrayWrapper<uint8_t> data, int playerId);
+    static bool TrySendMessage(::Il2CppString* messageId, ::ArrayW<uint8_t> data, int playerId);
     // static private System.Void PollInternal()
     // Offset: 0x1DFD670
     static void PollInternal();
@@ -97,7 +98,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::PlayerConnectionInternal*, "UnityEngine", "P
 // Writing MetadataGetter for method: UnityEngine::PlayerConnectionInternal::UnityEngine_IPlayerEditorConnectionNative_SendMessage
 // Il2CppName: UnityEngine.IPlayerEditorConnectionNative.SendMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::PlayerConnectionInternal::*)(System::Guid, ::ArrayWrapper<uint8_t>, int)>(&UnityEngine::PlayerConnectionInternal::UnityEngine_IPlayerEditorConnectionNative_SendMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::PlayerConnectionInternal::*)(System::Guid, ::ArrayW<uint8_t>, int)>(&UnityEngine::PlayerConnectionInternal::UnityEngine_IPlayerEditorConnectionNative_SendMessage)> {
   static const MethodInfo* get() {
     static auto* messageId = &::il2cpp_utils::GetClassFromName("System", "Guid")->byval_arg;
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -108,7 +109,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::PlayerConnectionInternal::UnityEngine_IPlayerEditorConnectionNative_TrySendMessage
 // Il2CppName: UnityEngine.IPlayerEditorConnectionNative.TrySendMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::PlayerConnectionInternal::*)(System::Guid, ::ArrayWrapper<uint8_t>, int)>(&UnityEngine::PlayerConnectionInternal::UnityEngine_IPlayerEditorConnectionNative_TrySendMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (UnityEngine::PlayerConnectionInternal::*)(System::Guid, ::ArrayW<uint8_t>, int)>(&UnityEngine::PlayerConnectionInternal::UnityEngine_IPlayerEditorConnectionNative_TrySendMessage)> {
   static const MethodInfo* get() {
     static auto* messageId = &::il2cpp_utils::GetClassFromName("System", "Guid")->byval_arg;
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -203,7 +204,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: UnityEngine::PlayerConnectionInternal::SendMessage
 // Il2CppName: SendMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayWrapper<uint8_t>, int)>(&UnityEngine::PlayerConnectionInternal::SendMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayW<uint8_t>, int)>(&UnityEngine::PlayerConnectionInternal::SendMessage)> {
   static const MethodInfo* get() {
     static auto* messageId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -214,7 +215,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: UnityEngine::PlayerConnectionInternal::TrySendMessage
 // Il2CppName: TrySendMessage
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::ArrayWrapper<uint8_t>, int)>(&UnityEngine::PlayerConnectionInternal::TrySendMessage)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::ArrayW<uint8_t>, int)>(&UnityEngine::PlayerConnectionInternal::TrySendMessage)> {
   static const MethodInfo* get() {
     static auto* messageId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;

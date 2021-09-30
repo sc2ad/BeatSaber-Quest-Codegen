@@ -23,6 +23,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -51,6 +52,11 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   // [TokenAttribute] Offset: FFFFFFFF
   class ParseRecord : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Runtime.Serialization.Formatters.Binary.InternalParseTypeE PRparseTypeEnum
     // Size: 0x4
     // Offset: 0x10
@@ -180,33 +186,33 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // System.Int32[] PRlengthA
     // Size: 0x8
     // Offset: 0x88
-    ::ArrayWrapper<int> PRlengthA;
+    ::ArrayW<int> PRlengthA;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // System.Int32[] PRpositionA
     // Size: 0x8
     // Offset: 0x90
-    ::ArrayWrapper<int> PRpositionA;
+    ::ArrayW<int> PRpositionA;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // System.Int32[] PRlowerBoundA
     // Size: 0x8
     // Offset: 0x98
-    ::ArrayWrapper<int> PRlowerBoundA;
+    ::ArrayW<int> PRlowerBoundA;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // System.Int32[] PRupperBoundA
     // Size: 0x8
     // Offset: 0xA0
-    ::ArrayWrapper<int> PRupperBoundA;
+    ::ArrayW<int> PRupperBoundA;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // System.Int32[] PRindexMap
     // Size: 0x8
     // Offset: 0xA8
-    ::ArrayWrapper<int> PRindexMap;
+    ::ArrayW<int> PRindexMap;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // System.Int32 PRmemberIndex
     // Size: 0x4
     // Offset: 0xB0
@@ -222,9 +228,9 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // System.Int32[] PRrectangularMap
     // Size: 0x8
     // Offset: 0xB8
-    ::ArrayWrapper<int> PRrectangularMap;
+    ::ArrayW<int> PRrectangularMap;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // System.Boolean PRisLowerBound
     // Size: 0x1
     // Offset: 0xC0
@@ -268,9 +274,9 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // System.Object[] PRobjectA
     // Size: 0x8
     // Offset: 0xF0
-    ::ArrayWrapper<::Il2CppObject*> PRobjectA;
+    ::ArrayW<::Il2CppObject*> PRobjectA;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppObject*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppObject*>) == 0x8);
     // System.Runtime.Serialization.Formatters.Binary.PrimitiveArray PRprimitiveArray
     // Size: 0x8
     // Offset: 0xF8
@@ -288,9 +294,9 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // System.Object[] PRmemberData
     // Size: 0x8
     // Offset: 0x108
-    ::ArrayWrapper<::Il2CppObject*> PRmemberData;
+    ::ArrayW<::Il2CppObject*> PRmemberData;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppObject*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppObject*>) == 0x8);
     // System.Runtime.Serialization.SerializationInfo PRsi
     // Size: 0x8
     // Offset: 0x110
@@ -303,6 +309,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     int PRnullCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get static field: static System.Int32 parseRecordIdCount
     static int _get_parseRecordIdCount();
     // Set static field: static System.Int32 parseRecordIdCount
@@ -348,21 +355,21 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: System.Int32 PRrank
     int& dyn_PRrank();
     // Get instance field reference: System.Int32[] PRlengthA
-    ::ArrayWrapper<int>& dyn_PRlengthA();
+    ::ArrayW<int>& dyn_PRlengthA();
     // Get instance field reference: System.Int32[] PRpositionA
-    ::ArrayWrapper<int>& dyn_PRpositionA();
+    ::ArrayW<int>& dyn_PRpositionA();
     // Get instance field reference: System.Int32[] PRlowerBoundA
-    ::ArrayWrapper<int>& dyn_PRlowerBoundA();
+    ::ArrayW<int>& dyn_PRlowerBoundA();
     // Get instance field reference: System.Int32[] PRupperBoundA
-    ::ArrayWrapper<int>& dyn_PRupperBoundA();
+    ::ArrayW<int>& dyn_PRupperBoundA();
     // Get instance field reference: System.Int32[] PRindexMap
-    ::ArrayWrapper<int>& dyn_PRindexMap();
+    ::ArrayW<int>& dyn_PRindexMap();
     // Get instance field reference: System.Int32 PRmemberIndex
     int& dyn_PRmemberIndex();
     // Get instance field reference: System.Int32 PRlinearlength
     int& dyn_PRlinearlength();
     // Get instance field reference: System.Int32[] PRrectangularMap
-    ::ArrayWrapper<int>& dyn_PRrectangularMap();
+    ::ArrayW<int>& dyn_PRrectangularMap();
     // Get instance field reference: System.Boolean PRisLowerBound
     bool& dyn_PRisLowerBound();
     // Get instance field reference: System.Int64 PRtopId
@@ -376,13 +383,13 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: System.Object PRnewObj
     ::Il2CppObject*& dyn_PRnewObj();
     // Get instance field reference: System.Object[] PRobjectA
-    ::ArrayWrapper<::Il2CppObject*>& dyn_PRobjectA();
+    ::ArrayW<::Il2CppObject*>& dyn_PRobjectA();
     // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.PrimitiveArray PRprimitiveArray
     System::Runtime::Serialization::Formatters::Binary::PrimitiveArray*& dyn_PRprimitiveArray();
     // Get instance field reference: System.Boolean PRisRegistered
     bool& dyn_PRisRegistered();
     // Get instance field reference: System.Object[] PRmemberData
-    ::ArrayWrapper<::Il2CppObject*>& dyn_PRmemberData();
+    ::ArrayW<::Il2CppObject*>& dyn_PRmemberData();
     // Get instance field reference: System.Runtime.Serialization.SerializationInfo PRsi
     System::Runtime::Serialization::SerializationInfo*& dyn_PRsi();
     // Get instance field reference: System.Int32 PRnullCount

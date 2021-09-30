@@ -72,6 +72,11 @@ namespace UnityEngine::AddressableAssets::Initialization {
     class $$c__DisplayClass16_0;
     // Nested type: UnityEngine::AddressableAssets::Initialization::InitializationOperation::$$c__DisplayClass18_0
     class $$c__DisplayClass18_0;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.Initialization.ResourceManagerRuntimeData> m_rtdOp
     // Size: 0xFFFFFFFF
     // Offset: 0x80
@@ -104,6 +109,7 @@ namespace UnityEngine::AddressableAssets::Initialization {
     UnityEngine::ResourceManagement::AsyncOperations::InitalizationObjectsOperation* m_InitGroupOps;
     // Field size check
     static_assert(sizeof(UnityEngine::ResourceManagement::AsyncOperations::InitalizationObjectsOperation*) == 0x8);
+    public:
     // Get instance field reference: private UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.Initialization.ResourceManagerRuntimeData> m_rtdOp
     UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData*>& dyn_m_rtdOp();
     // Get instance field reference: private UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.AddressableAssets.ResourceLocators.IResourceLocator> m_loadCatalogOp

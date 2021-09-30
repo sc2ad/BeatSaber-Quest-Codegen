@@ -16,6 +16,11 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct VREvent_Scroll_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Single xdelta
     // Size: 0x4
     // Offset: 0x0
@@ -34,6 +39,7 @@ namespace Valve::VR {
     uint repeatCount;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
+    public:
     // Creating value type constructor for type: VREvent_Scroll_t
     constexpr VREvent_Scroll_t(float xdelta_ = {}, float ydelta_ = {}, uint repeatCount_ = {}) noexcept : xdelta{xdelta_}, ydelta{ydelta_}, repeatCount{repeatCount_} {}
     // Creating interface conversion operator: operator System::ValueType

@@ -29,12 +29,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LeaderboardsModelLegacyWrapper::HMAsyncRequestWithCancellationToken : public GlobalNamespace::HMAsyncRequest {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Threading.CancellationTokenSource _cancellationTokenSource
     // Size: 0x8
     // Offset: 0x28
     System::Threading::CancellationTokenSource* cancellationTokenSource;
     // Field size check
     static_assert(sizeof(System::Threading::CancellationTokenSource*) == 0x8);
+    public:
     // Get instance field reference: private System.Threading.CancellationTokenSource _cancellationTokenSource
     System::Threading::CancellationTokenSource*& dyn__cancellationTokenSource();
     // public System.Threading.CancellationTokenSource get_cancellationTokenSource()

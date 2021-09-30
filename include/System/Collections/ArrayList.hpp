@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections
@@ -47,12 +48,17 @@ namespace System::Collections {
     class ArrayListEnumeratorSimple;
     // Nested type: System::Collections::ArrayList::ArrayListDebugView
     class ArrayListDebugView;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Object[] _items
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<::Il2CppObject*> items;
+    ::ArrayW<::Il2CppObject*> items;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppObject*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppObject*>) == 0x8);
     // private System.Int32 _size
     // Size: 0x4
     // Offset: 0x18
@@ -71,6 +77,7 @@ namespace System::Collections {
     ::Il2CppObject* syncRoot;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);
@@ -80,11 +87,11 @@ namespace System::Collections {
       return *reinterpret_cast<System::Collections::IList*>(this);
     }
     // Get static field: static private readonly System.Object[] emptyArray
-    static ::ArrayWrapper<::Il2CppObject*> _get_emptyArray();
+    static ::ArrayW<::Il2CppObject*> _get_emptyArray();
     // Set static field: static private readonly System.Object[] emptyArray
-    static void _set_emptyArray(::ArrayWrapper<::Il2CppObject*> value);
+    static void _set_emptyArray(::ArrayW<::Il2CppObject*> value);
     // Get instance field reference: private System.Object[] _items
-    ::ArrayWrapper<::Il2CppObject*>& dyn__items();
+    ::ArrayW<::Il2CppObject*>& dyn__items();
     // Get instance field reference: private System.Int32 _size
     int& dyn__size();
     // Get instance field reference: private System.Int32 _version
@@ -185,7 +192,7 @@ namespace System::Collections {
     void Reverse(int index, int count);
     // public System.Object[] ToArray()
     // Offset: 0x19976C8
-    ::ArrayWrapper<::Il2CppObject*> ToArray();
+    ::ArrayW<::Il2CppObject*> ToArray();
     // public System.Array ToArray(System.Type type)
     // Offset: 0x1997740
     System::Array* ToArray(System::Type* type);
@@ -451,7 +458,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Collections::ArrayList::ToArray
 // Il2CppName: ToArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppObject*> (System::Collections::ArrayList::*)()>(&System::Collections::ArrayList::ToArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppObject*> (System::Collections::ArrayList::*)()>(&System::Collections::ArrayList::ToArray)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Collections::ArrayList*), "ToArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

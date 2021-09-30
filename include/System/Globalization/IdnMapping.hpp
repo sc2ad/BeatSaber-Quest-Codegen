@@ -25,6 +25,11 @@ namespace System::Globalization {
   // [TokenAttribute] Offset: FFFFFFFF
   class IdnMapping : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean allow_unassigned
     // Size: 0x1
     // Offset: 0x10
@@ -45,6 +50,7 @@ namespace System::Globalization {
     System::Globalization::Punycode* puny;
     // Field size check
     static_assert(sizeof(System::Globalization::Punycode*) == 0x8);
+    public:
     // Get instance field reference: private System.Boolean allow_unassigned
     bool& dyn_allow_unassigned();
     // Get instance field reference: private System.Boolean use_std3

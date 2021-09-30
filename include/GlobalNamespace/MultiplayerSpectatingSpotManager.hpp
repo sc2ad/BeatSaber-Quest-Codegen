@@ -39,6 +39,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::MultiplayerSpectatingSpotManager::$$c
     class $$c;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Collections.Generic.List`1<IMultiplayerSpectatingSpot> _spectatingSpots
     // Size: 0x8
     // Offset: 0x10
@@ -51,6 +56,7 @@ namespace GlobalNamespace {
     System::Collections::Generic::Dictionary_2<GlobalNamespace::IMultiplayerSpectatingSpot*, int>* spotIndexBySpot;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<GlobalNamespace::IMultiplayerSpectatingSpot*, int>*) == 0x8);
+    public:
     // Get instance field reference: private readonly System.Collections.Generic.List`1<IMultiplayerSpectatingSpot> _spectatingSpots
     System::Collections::Generic::List_1<GlobalNamespace::IMultiplayerSpectatingSpot*>*& dyn__spectatingSpots();
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<IMultiplayerSpectatingSpot,System.Int32> _spotIndexBySpot

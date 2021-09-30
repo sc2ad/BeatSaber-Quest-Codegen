@@ -31,6 +31,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerObjectInstaller : public Zenject::MonoInstaller {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private MultiplayerScoreRingItem _inEnvironmentTextsPrefab
     // Size: 0x8
     // Offset: 0x20
@@ -49,6 +54,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerResultsPyramidViewAvatar* multiplayerResultsPyramidViewAvatarPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerResultsPyramidViewAvatar*) == 0x8);
+    public:
     // Get instance field reference: private MultiplayerScoreRingItem _inEnvironmentTextsPrefab
     GlobalNamespace::MultiplayerScoreRingItem*& dyn__inEnvironmentTextsPrefab();
     // Get instance field reference: private FireworkItemController _fireworkItemControllerPrefab

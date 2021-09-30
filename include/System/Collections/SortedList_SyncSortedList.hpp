@@ -35,6 +35,11 @@ namespace System::Collections {
   // [DefaultMemberAttribute] Offset: E61AF8
   class SortedList::SyncSortedList : public System::Collections::SortedList {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.SortedList _list
     // Size: 0x8
     // Offset: 0x48
@@ -47,6 +52,7 @@ namespace System::Collections {
     ::Il2CppObject* root;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
+    public:
     // Get instance field reference: private System.Collections.SortedList _list
     System::Collections::SortedList*& dyn__list();
     // Get instance field reference: private System.Object _root

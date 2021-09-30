@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Concurrent
@@ -37,6 +38,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class EncryptionUtility::EncryptionState : public ::Il2CppObject/*, public GlobalNamespace::EncryptionUtility::IEncryptionState*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean _isValid
     // Size: 0x1
     // Offset: 0x10
@@ -68,33 +74,33 @@ namespace GlobalNamespace {
     // private readonly System.Boolean[] _receivedSequenceNumBuffer
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<bool> receivedSequenceNumBuffer;
+    ::ArrayW<bool> receivedSequenceNumBuffer;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<bool>) == 0x8);
+    static_assert(sizeof(::ArrayW<bool>) == 0x8);
     // public readonly System.Byte[] sendKey
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<uint8_t> sendKey;
+    ::ArrayW<uint8_t> sendKey;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // public readonly System.Byte[] receiveKey
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<uint8_t> receiveKey;
+    ::ArrayW<uint8_t> receiveKey;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private readonly System.Byte[] _sendMacKey
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayWrapper<uint8_t> sendMacKey;
+    ::ArrayW<uint8_t> sendMacKey;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private readonly System.Byte[] _receiveMacKey
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayWrapper<uint8_t> receiveMacKey;
+    ::ArrayW<uint8_t> receiveMacKey;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private readonly System.Collections.Concurrent.ConcurrentQueue`1<Org.BouncyCastle.Crypto.Macs.HMac> _sendMacQueue
     // Size: 0x8
     // Offset: 0x48
@@ -107,6 +113,7 @@ namespace GlobalNamespace {
     System::Collections::Concurrent::ConcurrentQueue_1<Org::BouncyCastle::Crypto::Macs::HMac*>* receiveMacQueue;
     // Field size check
     static_assert(sizeof(System::Collections::Concurrent::ConcurrentQueue_1<Org::BouncyCastle::Crypto::Macs::HMac*>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::EncryptionUtility::IEncryptionState
     operator GlobalNamespace::EncryptionUtility::IEncryptionState() noexcept {
       return *reinterpret_cast<GlobalNamespace::EncryptionUtility::IEncryptionState*>(this);
@@ -126,15 +133,15 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.UInt32 _lastReceivedSequenceNum
     uint& dyn__lastReceivedSequenceNum();
     // Get instance field reference: private readonly System.Boolean[] _receivedSequenceNumBuffer
-    ::ArrayWrapper<bool>& dyn__receivedSequenceNumBuffer();
+    ::ArrayW<bool>& dyn__receivedSequenceNumBuffer();
     // Get instance field reference: public readonly System.Byte[] sendKey
-    ::ArrayWrapper<uint8_t>& dyn_sendKey();
+    ::ArrayW<uint8_t>& dyn_sendKey();
     // Get instance field reference: public readonly System.Byte[] receiveKey
-    ::ArrayWrapper<uint8_t>& dyn_receiveKey();
+    ::ArrayW<uint8_t>& dyn_receiveKey();
     // Get instance field reference: private readonly System.Byte[] _sendMacKey
-    ::ArrayWrapper<uint8_t>& dyn__sendMacKey();
+    ::ArrayW<uint8_t>& dyn__sendMacKey();
     // Get instance field reference: private readonly System.Byte[] _receiveMacKey
-    ::ArrayWrapper<uint8_t>& dyn__receiveMacKey();
+    ::ArrayW<uint8_t>& dyn__receiveMacKey();
     // Get instance field reference: private readonly System.Collections.Concurrent.ConcurrentQueue`1<Org.BouncyCastle.Crypto.Macs.HMac> _sendMacQueue
     System::Collections::Concurrent::ConcurrentQueue_1<Org::BouncyCastle::Crypto::Macs::HMac*>*& dyn__sendMacQueue();
     // Get instance field reference: private readonly System.Collections.Concurrent.ConcurrentQueue`1<Org.BouncyCastle.Crypto.Macs.HMac> _receiveMacQueue
@@ -145,22 +152,22 @@ namespace GlobalNamespace {
     // public System.Void .ctor(System.Byte[] preMasterSecret, System.Byte[] serverSeed, System.Byte[] clientSeed, System.Boolean isClient)
     // Offset: 0x1455848
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static EncryptionUtility::EncryptionState* New_ctor(::ArrayWrapper<uint8_t> preMasterSecret, ::ArrayWrapper<uint8_t> serverSeed, ::ArrayWrapper<uint8_t> clientSeed, bool isClient) {
+    static EncryptionUtility::EncryptionState* New_ctor(::ArrayW<uint8_t> preMasterSecret, ::ArrayW<uint8_t> serverSeed, ::ArrayW<uint8_t> clientSeed, bool isClient) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::EncryptionUtility::EncryptionState::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<EncryptionUtility::EncryptionState*, creationType>(preMasterSecret, serverSeed, clientSeed, isClient)));
     }
     // public System.Void EncryptData(System.Byte[] data, ref System.Int32 offset, ref System.Int32 length, System.Int32 extraPrefixBytes)
     // Offset: 0x1457788
-    void EncryptData(::ArrayWrapper<uint8_t> data, ByRef<int> offset, ByRef<int> length, int extraPrefixBytes);
+    void EncryptData(::ArrayW<uint8_t> data, ByRef<int> offset, ByRef<int> length, int extraPrefixBytes);
     // public System.Boolean TryDecryptData(System.Byte[] data, ref System.Int32 offset, ref System.Int32 length)
     // Offset: 0x145781C
-    bool TryDecryptData(::ArrayWrapper<uint8_t> data, ByRef<int> offset, ByRef<int> length);
+    bool TryDecryptData(::ArrayW<uint8_t> data, ByRef<int> offset, ByRef<int> length);
     // public System.Byte[] ComputeSendMac(System.Byte[] data, System.Int32 offset, System.Int32 count)
     // Offset: 0x1456204
-    ::ArrayWrapper<uint8_t> ComputeSendMac(::ArrayWrapper<uint8_t> data, int offset, int count);
+    ::ArrayW<uint8_t> ComputeSendMac(::ArrayW<uint8_t> data, int offset, int count);
     // public System.Byte[] ComputeReceiveMac(System.Byte[] data, System.Int32 offset, System.Int32 count)
     // Offset: 0x1456BA4
-    ::ArrayWrapper<uint8_t> ComputeReceiveMac(::ArrayWrapper<uint8_t> data, int offset, int count);
+    ::ArrayW<uint8_t> ComputeReceiveMac(::ArrayW<uint8_t> data, int offset, int count);
     // public System.Boolean IsValidSequenceNum(System.UInt32 sequenceNum)
     // Offset: 0x1456AA4
     bool IsValidSequenceNum(uint sequenceNum);
@@ -172,13 +179,13 @@ namespace GlobalNamespace {
     uint GetNextSentSequenceNum();
     // static private System.Byte[] MakeSeed(System.Byte[] baseSeed, System.Byte[] serverSeed, System.Byte[] clientSeed)
     // Offset: 0x14578A8
-    static ::ArrayWrapper<uint8_t> MakeSeed(::ArrayWrapper<uint8_t> baseSeed, ::ArrayWrapper<uint8_t> serverSeed, ::ArrayWrapper<uint8_t> clientSeed);
+    static ::ArrayW<uint8_t> MakeSeed(::ArrayW<uint8_t> baseSeed, ::ArrayW<uint8_t> serverSeed, ::ArrayW<uint8_t> clientSeed);
     // static private System.Byte[] PRF(System.Byte[] key, System.Byte[] seed, System.Int32 length)
     // Offset: 0x1457990
-    static ::ArrayWrapper<uint8_t> PRF(::ArrayWrapper<uint8_t> key, ::ArrayWrapper<uint8_t> seed, int length);
+    static ::ArrayW<uint8_t> PRF(::ArrayW<uint8_t> key, ::ArrayW<uint8_t> seed, int length);
     // static private System.Void PRF_Hash(System.Byte[] key, System.Byte[] seed, ref System.Int32 length)
     // Offset: 0x1457A80
-    static void PRF_Hash(::ArrayWrapper<uint8_t> key, ::ArrayWrapper<uint8_t> seed, ByRef<int> length);
+    static void PRF_Hash(::ArrayW<uint8_t> key, ::ArrayW<uint8_t> seed, ByRef<int> length);
     // public System.Void Dispose()
     // Offset: 0x1457C38
     void Dispose();
@@ -204,7 +211,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::EncryptionUtility::EncryptionState::EncryptData
 // Il2CppName: EncryptData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EncryptionUtility::EncryptionState::*)(::ArrayWrapper<uint8_t>, ByRef<int>, ByRef<int>, int)>(&GlobalNamespace::EncryptionUtility::EncryptionState::EncryptData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::EncryptionUtility::EncryptionState::*)(::ArrayW<uint8_t>, ByRef<int>, ByRef<int>, int)>(&GlobalNamespace::EncryptionUtility::EncryptionState::EncryptData)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -216,7 +223,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::EncryptionUtility::EncryptionState::TryDecryptData
 // Il2CppName: TryDecryptData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::EncryptionUtility::EncryptionState::*)(::ArrayWrapper<uint8_t>, ByRef<int>, ByRef<int>)>(&GlobalNamespace::EncryptionUtility::EncryptionState::TryDecryptData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::EncryptionUtility::EncryptionState::*)(::ArrayW<uint8_t>, ByRef<int>, ByRef<int>)>(&GlobalNamespace::EncryptionUtility::EncryptionState::TryDecryptData)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -227,7 +234,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::EncryptionUtility::EncryptionState::ComputeSendMac
 // Il2CppName: ComputeSendMac
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (GlobalNamespace::EncryptionUtility::EncryptionState::*)(::ArrayWrapper<uint8_t>, int, int)>(&GlobalNamespace::EncryptionUtility::EncryptionState::ComputeSendMac)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (GlobalNamespace::EncryptionUtility::EncryptionState::*)(::ArrayW<uint8_t>, int, int)>(&GlobalNamespace::EncryptionUtility::EncryptionState::ComputeSendMac)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -238,7 +245,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: GlobalNamespace::EncryptionUtility::EncryptionState::ComputeReceiveMac
 // Il2CppName: ComputeReceiveMac
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (GlobalNamespace::EncryptionUtility::EncryptionState::*)(::ArrayWrapper<uint8_t>, int, int)>(&GlobalNamespace::EncryptionUtility::EncryptionState::ComputeReceiveMac)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (GlobalNamespace::EncryptionUtility::EncryptionState::*)(::ArrayW<uint8_t>, int, int)>(&GlobalNamespace::EncryptionUtility::EncryptionState::ComputeReceiveMac)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -275,7 +282,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Globa
 // Writing MetadataGetter for method: GlobalNamespace::EncryptionUtility::EncryptionState::MakeSeed
 // Il2CppName: MakeSeed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>)>(&GlobalNamespace::EncryptionUtility::EncryptionState::MakeSeed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(&GlobalNamespace::EncryptionUtility::EncryptionState::MakeSeed)> {
   static const MethodInfo* get() {
     static auto* baseSeed = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* serverSeed = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -286,7 +293,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: GlobalNamespace::EncryptionUtility::EncryptionState::PRF
 // Il2CppName: PRF
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>, int)>(&GlobalNamespace::EncryptionUtility::EncryptionState::PRF)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>, int)>(&GlobalNamespace::EncryptionUtility::EncryptionState::PRF)> {
   static const MethodInfo* get() {
     static auto* key = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* seed = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -297,7 +304,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: GlobalNamespace::EncryptionUtility::EncryptionState::PRF_Hash
 // Il2CppName: PRF_Hash
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>, ByRef<int>)>(&GlobalNamespace::EncryptionUtility::EncryptionState::PRF_Hash)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>, ByRef<int>)>(&GlobalNamespace::EncryptionUtility::EncryptionState::PRF_Hash)> {
   static const MethodInfo* get() {
     static auto* key = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* seed = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;

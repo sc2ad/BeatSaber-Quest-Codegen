@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -29,16 +30,22 @@ namespace GlobalNamespace {
     class RendererMaterialsPairs;
     // Nested type: GlobalNamespace::BTSCharacterMaterialSwitcher::MaterialPairs
     class MaterialPairs;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private BTSCharacterMaterialSwitcher/RendererMaterialsPairs[] _rendererMaterialsPairs
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs*> rendererMaterialsPairs;
+    ::ArrayW<GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs*> rendererMaterialsPairs;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs*>) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BTSCharacterMaterialSwitcher/RendererMaterialsPairs[] _rendererMaterialsPairs
-    ::ArrayWrapper<GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs*>& dyn__rendererMaterialsPairs();
+    ::ArrayW<GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs*>& dyn__rendererMaterialsPairs();
     // public System.Void SwapMaterials(System.Boolean alternative)
     // Offset: 0x1250448
     void SwapMaterials(bool alternative);
@@ -57,7 +64,7 @@ namespace GlobalNamespace {
     }
   }; // BTSCharacterMaterialSwitcher
   #pragma pack(pop)
-  static check_size<sizeof(BTSCharacterMaterialSwitcher), 24 + sizeof(::ArrayWrapper<GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs*>)> __GlobalNamespace_BTSCharacterMaterialSwitcherSizeCheck;
+  static check_size<sizeof(BTSCharacterMaterialSwitcher), 24 + sizeof(::ArrayW<GlobalNamespace::BTSCharacterMaterialSwitcher::RendererMaterialsPairs*>)> __GlobalNamespace_BTSCharacterMaterialSwitcherSizeCheck;
   static_assert(sizeof(BTSCharacterMaterialSwitcher) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BTSCharacterMaterialSwitcher*, "", "BTSCharacterMaterialSwitcher");

@@ -29,12 +29,18 @@ namespace UnityEngine::ProBuilder {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class WingedEdge::$$c__DisplayClass32_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Collections.Generic.HashSet`1<System.Int32> common
     // Size: 0x8
     // Offset: 0x10
     System::Collections::Generic::HashSet_1<int>* common;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::HashSet_1<int>*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Collections::Generic::HashSet_1<int>*
     constexpr operator System::Collections::Generic::HashSet_1<int>*() const noexcept {
       return common;

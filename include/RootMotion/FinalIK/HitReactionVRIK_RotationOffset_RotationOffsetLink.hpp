@@ -31,6 +31,11 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class HitReactionVRIK::RotationOffset::RotationOffsetLink : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [TooltipAttribute] Offset: 0xEF8030
     // public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.RotationOffset rotationOffset
     // Size: 0x4
@@ -58,6 +63,7 @@ namespace RootMotion::FinalIK {
     UnityEngine::Quaternion current;
     // Field size check
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
+    public:
     // Get instance field reference: public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.RotationOffset rotationOffset
     RootMotion::FinalIK::IKSolverVR::RotationOffset& dyn_rotationOffset();
     // Get instance field reference: public System.Single weight

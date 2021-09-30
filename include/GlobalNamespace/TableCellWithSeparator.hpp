@@ -32,12 +32,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class TableCellWithSeparator : public HMUI::TableCell {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.GameObject _separator
     // Size: 0x8
     // Offset: 0x50
     UnityEngine::GameObject* separator;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
+    public:
     // Get instance field reference: private UnityEngine.GameObject _separator
     UnityEngine::GameObject*& dyn__separator();
     // public System.Void .ctor()

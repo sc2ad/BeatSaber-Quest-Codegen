@@ -25,12 +25,18 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E703EC
   struct Cache/*, public System::ValueType, public System::IEquatable_1<UnityEngine::Cache>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 m_Handle
     // Size: 0x4
     // Offset: 0x0
     int m_Handle;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: Cache
     constexpr Cache(int m_Handle_ = {}) noexcept : m_Handle{m_Handle_} {}
     // Creating interface conversion operator: operator System::ValueType

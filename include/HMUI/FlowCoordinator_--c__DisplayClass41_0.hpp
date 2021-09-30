@@ -34,6 +34,11 @@ namespace HMUI {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class FlowCoordinator::$$c__DisplayClass41_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public HMUI.ViewController/HMUI.AnimationType animationType
     // Size: 0x4
     // Offset: 0x10
@@ -60,6 +65,7 @@ namespace HMUI {
     HMUI::ViewController* originalTopViewController;
     // Field size check
     static_assert(sizeof(HMUI::ViewController*) == 0x8);
+    public:
     // Get instance field reference: public HMUI.ViewController/HMUI.AnimationType animationType
     HMUI::ViewController::AnimationType& dyn_animationType();
     // Get instance field reference: public HMUI.FlowCoordinator <>4__this

@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Asn1
@@ -42,6 +43,11 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
   // [TokenAttribute] Offset: FFFFFFFF
   class PrivateKeyInfo : public Org::BouncyCastle::Asn1::Asn1Encodable {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Org.BouncyCastle.Asn1.DerInteger version
     // Size: 0x8
     // Offset: 0x10
@@ -72,6 +78,7 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     Org::BouncyCastle::Asn1::DerBitString* publicKey;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::DerBitString*) == 0x8);
+    public:
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerInteger version
     Org::BouncyCastle::Asn1::DerInteger*& dyn_version();
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier privateKeyAlgorithm
@@ -98,7 +105,7 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     // public System.Void .ctor(Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier privateKeyAlgorithm, Org.BouncyCastle.Asn1.Asn1Encodable privateKey, Org.BouncyCastle.Asn1.Asn1Set attributes, System.Byte[] publicKey)
     // Offset: 0x1973654
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static PrivateKeyInfo* New_ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* privateKeyAlgorithm, Org::BouncyCastle::Asn1::Asn1Encodable* privateKey, Org::BouncyCastle::Asn1::Asn1Set* attributes, ::ArrayWrapper<uint8_t> publicKey) {
+    static PrivateKeyInfo* New_ctor(Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* privateKeyAlgorithm, Org::BouncyCastle::Asn1::Asn1Encodable* privateKey, Org::BouncyCastle::Asn1::Asn1Set* attributes, ::ArrayW<uint8_t> publicKey) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PrivateKeyInfo*, creationType>(privateKeyAlgorithm, privateKey, attributes, publicKey)));
     }

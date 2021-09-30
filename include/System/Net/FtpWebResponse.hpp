@@ -45,6 +45,11 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class FtpWebResponse : public System::Net::WebResponse {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.IO.Stream stream
     // Size: 0x8
     // Offset: 0x18
@@ -121,6 +126,7 @@ namespace System::Net {
     int64_t contentLength;
     // Field size check
     static_assert(sizeof(int64_t) == 0x8);
+    public:
     // Deleting conversion operator: operator ::Il2CppObject*
     constexpr operator ::Il2CppObject*() const noexcept = delete;
     // Get instance field reference: private System.IO.Stream stream

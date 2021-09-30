@@ -41,6 +41,11 @@ namespace MasterServer {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   struct BaseClientMessageHandler::$SendOrderedAuthenticatedRequest$d__18/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0
@@ -91,6 +96,7 @@ namespace MasterServer {
     System::Runtime::CompilerServices::TaskAwaiter $$u__1;
     // Field size check
     static_assert(sizeof(System::Runtime::CompilerServices::TaskAwaiter) == 0x8);
+    public:
     // Creating value type constructor for type: $SendOrderedAuthenticatedRequest$d__18
     constexpr $SendOrderedAuthenticatedRequest$d__18(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncVoidMethodBuilder $$t__builder_ = {}, MasterServer::BaseClientMessageHandler* $$4__this_ = {}, ::Il2CppString* queue_ = {}, MasterServer::IMasterServerReliableRequest* message_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, System::Threading::Tasks::Task* $task$5__2_ = {}, System::Runtime::CompilerServices::TaskAwaiter $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, queue{queue_}, message{message_}, cancellationToken{cancellationToken_}, $task$5__2{$task$5__2_}, $$u__1{$$u__1_} {}
     // Creating interface conversion operator: operator System::ValueType

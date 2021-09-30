@@ -33,6 +33,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SpriteSwapGraphicViewStateTransition : public GlobalNamespace::BaseStateTransition_1<UnityEngine::UI::Image*> {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [SpaceAttribute] Offset: 0xF0D5AC
     // private SpriteSwapTransitionSO _transition
     // Size: 0x8
@@ -40,6 +45,7 @@ namespace GlobalNamespace {
     GlobalNamespace::SpriteSwapTransitionSO* transition;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SpriteSwapTransitionSO*) == 0x8);
+    public:
     // Get instance field reference: private SpriteSwapTransitionSO _transition
     GlobalNamespace::SpriteSwapTransitionSO*& dyn__transition();
     // protected override BaseTransitionSO get_transition()

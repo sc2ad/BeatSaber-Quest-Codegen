@@ -25,12 +25,18 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_InputData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.GameObject _inputObject
     // Size: 0x8
     // Offset: 0x10
     UnityEngine::GameObject* inputObject;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
+    public:
     // Creating conversion operator: operator UnityEngine::GameObject*
     constexpr operator UnityEngine::GameObject*() const noexcept {
       return inputObject;

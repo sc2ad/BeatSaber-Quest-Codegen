@@ -35,6 +35,11 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class WindowsConsoleDriver : public ::Il2CppObject/*, public System::IConsoleDriver*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.IntPtr inputHandle
     // Size: 0x8
     // Offset: 0x10
@@ -53,6 +58,7 @@ namespace System {
     int16_t defaultAttribute;
     // Field size check
     static_assert(sizeof(int16_t) == 0x2);
+    public:
     // Creating interface conversion operator: operator System::IConsoleDriver
     operator System::IConsoleDriver() noexcept {
       return *reinterpret_cast<System::IConsoleDriver*>(this);

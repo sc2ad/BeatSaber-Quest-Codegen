@@ -24,6 +24,11 @@ namespace UnityEngine::Rendering {
   // [UsedByNativeCodeAttribute] Offset: E74244
   struct VertexAttributeDescriptor/*, public System::ValueType, public System::IEquatable_1<UnityEngine::Rendering::VertexAttributeDescriptor>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [DebuggerBrowsableAttribute] Offset: 0xE76FF8
     // private UnityEngine.Rendering.VertexAttribute <attribute>k__BackingField
     // Size: 0x4
@@ -52,6 +57,7 @@ namespace UnityEngine::Rendering {
     int stream;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: VertexAttributeDescriptor
     constexpr VertexAttributeDescriptor(UnityEngine::Rendering::VertexAttribute attribute_ = {}, UnityEngine::Rendering::VertexAttributeFormat format_ = {}, int dimension_ = {}, int stream_ = {}) noexcept : attribute{attribute_}, format{format_}, dimension{dimension_}, stream{stream_} {}
     // Creating interface conversion operator: operator System::ValueType

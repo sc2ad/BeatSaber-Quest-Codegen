@@ -20,6 +20,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class EnabledTransitionSO : public GlobalNamespace::BaseTransitionSO {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean _normalState
     // Size: 0x1
     // Offset: 0x20
@@ -56,6 +61,7 @@ namespace GlobalNamespace {
     bool selectedAndHighlightedState;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private System.Boolean _normalState
     bool& dyn__normalState();
     // Get instance field reference: private System.Boolean _highlightedState

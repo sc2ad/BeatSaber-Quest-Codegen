@@ -23,6 +23,11 @@ namespace UnityEngine::Experimental::GlobalIllumination {
   // [TokenAttribute] Offset: FFFFFFFF
   struct DirectionalLight/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 instanceID
     // Size: 0x4
     // Offset: 0x0
@@ -67,6 +72,7 @@ namespace UnityEngine::Experimental::GlobalIllumination {
     float penumbraWidthRadian;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: DirectionalLight
     constexpr DirectionalLight(int instanceID_ = {}, bool shadow_ = {}, UnityEngine::Experimental::GlobalIllumination::LightMode mode_ = {}, UnityEngine::Vector3 direction_ = {}, UnityEngine::Experimental::GlobalIllumination::LinearColor color_ = {}, UnityEngine::Experimental::GlobalIllumination::LinearColor indirectColor_ = {}, float penumbraWidthRadian_ = {}) noexcept : instanceID{instanceID_}, shadow{shadow_}, mode{mode_}, direction{direction_}, color{color_}, indirectColor{indirectColor_}, penumbraWidthRadian{penumbraWidthRadian_} {}
     // Creating interface conversion operator: operator System::ValueType

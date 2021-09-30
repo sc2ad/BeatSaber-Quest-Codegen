@@ -69,12 +69,18 @@ namespace Zenject {
       using declaring_type = FactoryFromBinder_5<TParam1, TParam2, TParam3, TParam4, TContract>*;
       static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass1_0";
       static constexpr bool IS_VALUE_TYPE = false;
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Func`6<Zenject.DiContainer,TParam1,TParam2,TParam3,TParam4,TContract> method
       // Size: 0x8
       // Offset: 0x0
       System::Func_6<Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TContract>* method;
       // Field size check
       static_assert(sizeof(System::Func_6<Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TContract>*) == 0x8);
+      public:
       // Creating conversion operator: operator System::Func_6<Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TContract>*
       constexpr operator System::Func_6<Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TContract>*() const noexcept {
         return method;

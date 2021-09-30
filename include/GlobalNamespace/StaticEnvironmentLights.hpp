@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -29,24 +30,30 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class StaticEnvironmentLights : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Color[] _lightColors
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<UnityEngine::Color> lightColors;
+    ::ArrayW<UnityEngine::Color> lightColors;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Color>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Color>) == 0x8);
     // private UnityEngine.Material[] _materials
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<UnityEngine::Material*> materials;
+    ::ArrayW<UnityEngine::Material*> materials;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Material*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Material*>) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Color[] _lightColors
-    ::ArrayWrapper<UnityEngine::Color>& dyn__lightColors();
+    ::ArrayW<UnityEngine::Color>& dyn__lightColors();
     // Get instance field reference: private UnityEngine.Material[] _materials
-    ::ArrayWrapper<UnityEngine::Material*>& dyn__materials();
+    ::ArrayW<UnityEngine::Material*>& dyn__materials();
     // protected System.Void Awake()
     // Offset: 0x115893C
     void Awake();
@@ -65,7 +72,7 @@ namespace GlobalNamespace {
     }
   }; // StaticEnvironmentLights
   #pragma pack(pop)
-  static check_size<sizeof(StaticEnvironmentLights), 32 + sizeof(::ArrayWrapper<UnityEngine::Material*>)> __GlobalNamespace_StaticEnvironmentLightsSizeCheck;
+  static check_size<sizeof(StaticEnvironmentLights), 32 + sizeof(::ArrayW<UnityEngine::Material*>)> __GlobalNamespace_StaticEnvironmentLightsSizeCheck;
   static_assert(sizeof(StaticEnvironmentLights) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::StaticEnvironmentLights*, "", "StaticEnvironmentLights");

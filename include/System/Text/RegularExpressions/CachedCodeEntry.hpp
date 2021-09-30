@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text::RegularExpressions
@@ -36,6 +37,11 @@ namespace System::Text::RegularExpressions {
   // [TokenAttribute] Offset: FFFFFFFF
   class CachedCodeEntry : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.String _key
     // Size: 0x8
     // Offset: 0x10
@@ -63,9 +69,9 @@ namespace System::Text::RegularExpressions {
     // System.String[] _capslist
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<::Il2CppString*> capslist;
+    ::ArrayW<::Il2CppString*> capslist;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // System.Int32 _capsize
     // Size: 0x4
     // Offset: 0x38
@@ -92,6 +98,7 @@ namespace System::Text::RegularExpressions {
     System::Text::RegularExpressions::SharedReference* replref;
     // Field size check
     static_assert(sizeof(System::Text::RegularExpressions::SharedReference*) == 0x8);
+    public:
     // Get instance field reference: System.String _key
     ::Il2CppString*& dyn__key();
     // Get instance field reference: System.Text.RegularExpressions.RegexCode _code
@@ -101,7 +108,7 @@ namespace System::Text::RegularExpressions {
     // Get instance field reference: System.Collections.Hashtable _capnames
     System::Collections::Hashtable*& dyn__capnames();
     // Get instance field reference: System.String[] _capslist
-    ::ArrayWrapper<::Il2CppString*>& dyn__capslist();
+    ::ArrayW<::Il2CppString*>& dyn__capslist();
     // Get instance field reference: System.Int32 _capsize
     int& dyn__capsize();
     // Get instance field reference: System.Text.RegularExpressions.RegexRunnerFactory _factory
@@ -113,7 +120,7 @@ namespace System::Text::RegularExpressions {
     // System.Void .ctor(System.String key, System.Collections.Hashtable capnames, System.String[] capslist, System.Text.RegularExpressions.RegexCode code, System.Collections.Hashtable caps, System.Int32 capsize, System.Text.RegularExpressions.ExclusiveReference runner, System.Text.RegularExpressions.SharedReference repl)
     // Offset: 0x19E1210
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static CachedCodeEntry* New_ctor(::Il2CppString* key, System::Collections::Hashtable* capnames, ::ArrayWrapper<::Il2CppString*> capslist, System::Text::RegularExpressions::RegexCode* code, System::Collections::Hashtable* caps, int capsize, System::Text::RegularExpressions::ExclusiveReference* runner, System::Text::RegularExpressions::SharedReference* repl) {
+    static CachedCodeEntry* New_ctor(::Il2CppString* key, System::Collections::Hashtable* capnames, ::ArrayW<::Il2CppString*> capslist, System::Text::RegularExpressions::RegexCode* code, System::Collections::Hashtable* caps, int capsize, System::Text::RegularExpressions::ExclusiveReference* runner, System::Text::RegularExpressions::SharedReference* repl) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::CachedCodeEntry::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<CachedCodeEntry*, creationType>(key, capnames, capslist, code, caps, capsize, runner, repl)));
     }

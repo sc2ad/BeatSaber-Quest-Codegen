@@ -28,6 +28,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapSaveData::NoteData : public ::Il2CppObject/*, public GlobalNamespace::BeatmapSaveData::ITime*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Single _time
     // Size: 0x4
     // Offset: 0x10
@@ -58,6 +63,7 @@ namespace GlobalNamespace {
     GlobalNamespace::NoteCutDirection cutDirection;
     // Field size check
     static_assert(sizeof(GlobalNamespace::NoteCutDirection) == 0x4);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::BeatmapSaveData::ITime
     operator GlobalNamespace::BeatmapSaveData::ITime() noexcept {
       return *reinterpret_cast<GlobalNamespace::BeatmapSaveData::ITime*>(this);

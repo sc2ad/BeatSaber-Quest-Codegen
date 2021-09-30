@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -34,9 +35,9 @@ namespace UnityEngine::ProBuilder {
   class TransformUtility : public ::Il2CppObject {
     public:
     // Get static field: static private System.Collections.Generic.Dictionary`2<UnityEngine.Transform,UnityEngine.Transform[]> s_ChildStack
-    static System::Collections::Generic::Dictionary_2<UnityEngine::Transform*, ::ArrayWrapper<UnityEngine::Transform*>>* _get_s_ChildStack();
+    static System::Collections::Generic::Dictionary_2<UnityEngine::Transform*, ::ArrayW<UnityEngine::Transform*>>* _get_s_ChildStack();
     // Set static field: static private System.Collections.Generic.Dictionary`2<UnityEngine.Transform,UnityEngine.Transform[]> s_ChildStack
-    static void _set_s_ChildStack(System::Collections::Generic::Dictionary_2<UnityEngine::Transform*, ::ArrayWrapper<UnityEngine::Transform*>>* value);
+    static void _set_s_ChildStack(System::Collections::Generic::Dictionary_2<UnityEngine::Transform*, ::ArrayW<UnityEngine::Transform*>>* value);
     // static private System.Void .cctor()
     // Offset: 0x24F1420
     static void _cctor();

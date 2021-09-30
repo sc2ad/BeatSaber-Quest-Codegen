@@ -12,6 +12,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO
@@ -28,6 +29,11 @@ namespace NUnit::Framework::Internal {
   // [TokenAttribute] Offset: FFFFFFFF
   class Logger : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String name
     // Size: 0x8
     // Offset: 0x10
@@ -54,6 +60,7 @@ namespace NUnit::Framework::Internal {
     System::IO::TextWriter* writer;
     // Field size check
     static_assert(sizeof(System::IO::TextWriter*) == 0x8);
+    public:
     // Get static field: static private readonly System.String TIME_FMT
     static ::Il2CppString* _get_TIME_FMT();
     // Set static field: static private readonly System.String TIME_FMT
@@ -88,13 +95,13 @@ namespace NUnit::Framework::Internal {
     void Debug(::Il2CppString* message);
     // public System.Void Debug(System.String message, params System.Object[] args)
     // Offset: 0x249D180
-    void Debug(::Il2CppString* message, ::ArrayWrapper<::Il2CppObject*> args);
+    void Debug(::Il2CppString* message, ::ArrayW<::Il2CppObject*> args);
     // private System.Void Log(NUnit.Framework.Internal.InternalTraceLevel level, System.String message)
     // Offset: 0x249D140
     void Log(NUnit::Framework::Internal::InternalTraceLevel level, ::Il2CppString* message);
     // private System.Void Log(NUnit.Framework.Internal.InternalTraceLevel level, System.String format, params System.Object[] args)
     // Offset: 0x249D190
-    void Log(NUnit::Framework::Internal::InternalTraceLevel level, ::Il2CppString* format, ::ArrayWrapper<::Il2CppObject*> args);
+    void Log(NUnit::Framework::Internal::InternalTraceLevel level, ::Il2CppString* format, ::ArrayW<::Il2CppObject*> args);
     // private System.Void WriteLog(NUnit.Framework.Internal.InternalTraceLevel level, System.String message)
     // Offset: 0x249D1DC
     void WriteLog(NUnit::Framework::Internal::InternalTraceLevel level, ::Il2CppString* message);
@@ -138,7 +145,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Logger::Debug
 // Il2CppName: Debug
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Logger::*)(::Il2CppString*, ::ArrayWrapper<::Il2CppObject*>)>(&NUnit::Framework::Internal::Logger::Debug)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Logger::*)(::Il2CppString*, ::ArrayW<::Il2CppObject*>)>(&NUnit::Framework::Internal::Logger::Debug)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
@@ -158,7 +165,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Writing MetadataGetter for method: NUnit::Framework::Internal::Logger::Log
 // Il2CppName: Log
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Logger::*)(NUnit::Framework::Internal::InternalTraceLevel, ::Il2CppString*, ::ArrayWrapper<::Il2CppObject*>)>(&NUnit::Framework::Internal::Logger::Log)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Internal::Logger::*)(NUnit::Framework::Internal::InternalTraceLevel, ::Il2CppString*, ::ArrayW<::Il2CppObject*>)>(&NUnit::Framework::Internal::Logger::Log)> {
   static const MethodInfo* get() {
     static auto* level = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "InternalTraceLevel")->byval_arg;
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

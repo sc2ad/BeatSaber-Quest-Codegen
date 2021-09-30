@@ -20,6 +20,11 @@ namespace System::Runtime::Serialization {
   // [ComVisibleAttribute] Offset: E5F940
   struct StreamingContext/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Object m_additionalContext
     // Size: 0x8
     // Offset: 0x0
@@ -32,6 +37,7 @@ namespace System::Runtime::Serialization {
     System::Runtime::Serialization::StreamingContextStates m_state;
     // Field size check
     static_assert(sizeof(System::Runtime::Serialization::StreamingContextStates) == 0x4);
+    public:
     // Creating value type constructor for type: StreamingContext
     constexpr StreamingContext(::Il2CppObject* m_additionalContext_ = {}, System::Runtime::Serialization::StreamingContextStates m_state_ = {}) noexcept : m_additionalContext{m_additionalContext_}, m_state{m_state_} {}
     // Creating interface conversion operator: operator System::ValueType

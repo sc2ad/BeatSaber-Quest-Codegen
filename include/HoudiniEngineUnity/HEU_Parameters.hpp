@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HoudiniEngineUnity
@@ -59,6 +60,11 @@ namespace HoudiniEngineUnity {
     public:
     // Nested type: HoudiniEngineUnity::HEU_Parameters::$$c__DisplayClass35_0
     class $$c__DisplayClass35_0;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 _nodeID
     // Size: 0x4
     // Offset: 0x18
@@ -76,27 +82,27 @@ namespace HoudiniEngineUnity {
     // public System.Int32[] _paramInts
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<int> paramInts;
+    ::ArrayW<int> paramInts;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // public System.Single[] _paramFloats
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<float> paramFloats;
+    ::ArrayW<float> paramFloats;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<float>) == 0x8);
+    static_assert(sizeof(::ArrayW<float>) == 0x8);
     // public System.String[] _paramStrings
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayWrapper<::Il2CppString*> paramStrings;
+    ::ArrayW<::Il2CppString*> paramStrings;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // public HoudiniEngineUnity.HAPI_ParmChoiceInfo[] _paramChoices
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayWrapper<HoudiniEngineUnity::HAPI_ParmChoiceInfo> paramChoices;
+    ::ArrayW<HoudiniEngineUnity::HAPI_ParmChoiceInfo> paramChoices;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<HoudiniEngineUnity::HAPI_ParmChoiceInfo>) == 0x8);
+    static_assert(sizeof(::ArrayW<HoudiniEngineUnity::HAPI_ParmChoiceInfo>) == 0x8);
     // private System.Collections.Generic.List`1<System.Int32> _rootParameters
     // Size: 0x8
     // Offset: 0x48
@@ -126,15 +132,15 @@ namespace HoudiniEngineUnity {
     // private System.Byte[] _presetData
     // Size: 0x8
     // Offset: 0x68
-    ::ArrayWrapper<uint8_t> presetData;
+    ::ArrayW<uint8_t> presetData;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Byte[] _defaultPresetData
     // Size: 0x8
     // Offset: 0x70
-    ::ArrayWrapper<uint8_t> defaultPresetData;
+    ::ArrayW<uint8_t> defaultPresetData;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Boolean _validParameters
     // Size: 0x1
     // Offset: 0x78
@@ -153,6 +159,7 @@ namespace HoudiniEngineUnity {
     bool recacheUI;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_Parameters*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_Parameters*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_Parameters*>*>(this);
@@ -164,13 +171,13 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.String _uiLabel
     ::Il2CppString*& dyn__uiLabel();
     // Get instance field reference: public System.Int32[] _paramInts
-    ::ArrayWrapper<int>& dyn__paramInts();
+    ::ArrayW<int>& dyn__paramInts();
     // Get instance field reference: public System.Single[] _paramFloats
-    ::ArrayWrapper<float>& dyn__paramFloats();
+    ::ArrayW<float>& dyn__paramFloats();
     // Get instance field reference: public System.String[] _paramStrings
-    ::ArrayWrapper<::Il2CppString*>& dyn__paramStrings();
+    ::ArrayW<::Il2CppString*>& dyn__paramStrings();
     // Get instance field reference: public HoudiniEngineUnity.HAPI_ParmChoiceInfo[] _paramChoices
-    ::ArrayWrapper<HoudiniEngineUnity::HAPI_ParmChoiceInfo>& dyn__paramChoices();
+    ::ArrayW<HoudiniEngineUnity::HAPI_ParmChoiceInfo>& dyn__paramChoices();
     // Get instance field reference: private System.Collections.Generic.List`1<System.Int32> _rootParameters
     System::Collections::Generic::List_1<int>*& dyn__rootParameters();
     // Get instance field reference: private System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_ParameterData> _parameterList
@@ -180,9 +187,9 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: private System.Boolean _regenerateParameters
     bool& dyn__regenerateParameters();
     // Get instance field reference: private System.Byte[] _presetData
-    ::ArrayWrapper<uint8_t>& dyn__presetData();
+    ::ArrayW<uint8_t>& dyn__presetData();
     // Get instance field reference: private System.Byte[] _defaultPresetData
-    ::ArrayWrapper<uint8_t>& dyn__defaultPresetData();
+    ::ArrayW<uint8_t>& dyn__defaultPresetData();
     // Get instance field reference: private System.Boolean _validParameters
     bool& dyn__validParameters();
     // Get instance field reference: private System.Boolean _showParameters
@@ -221,13 +228,13 @@ namespace HoudiniEngineUnity {
     void set_RecacheUI(bool value);
     // public System.Byte[] GetPresetData()
     // Offset: 0x17A6CE4
-    ::ArrayWrapper<uint8_t> GetPresetData();
+    ::ArrayW<uint8_t> GetPresetData();
     // public System.Void SetPresetData(System.Byte[] data)
     // Offset: 0x17A6CEC
-    void SetPresetData(::ArrayWrapper<uint8_t> data);
+    void SetPresetData(::ArrayW<uint8_t> data);
     // public System.Byte[] GetDefaultPresetData()
     // Offset: 0x17A6CF4
-    ::ArrayWrapper<uint8_t> GetDefaultPresetData();
+    ::ArrayW<uint8_t> GetDefaultPresetData();
     // public System.Boolean AreParametersValid()
     // Offset: 0x17A6CFC
     bool AreParametersValid();
@@ -424,7 +431,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Parameters::GetPresetData
 // Il2CppName: GetPresetData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (HoudiniEngineUnity::HEU_Parameters::*)()>(&HoudiniEngineUnity::HEU_Parameters::GetPresetData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (HoudiniEngineUnity::HEU_Parameters::*)()>(&HoudiniEngineUnity::HEU_Parameters::GetPresetData)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_Parameters*), "GetPresetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -432,7 +439,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Parameters::SetPresetData
 // Il2CppName: SetPresetData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_Parameters::*)(::ArrayWrapper<uint8_t>)>(&HoudiniEngineUnity::HEU_Parameters::SetPresetData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_Parameters::*)(::ArrayW<uint8_t>)>(&HoudiniEngineUnity::HEU_Parameters::SetPresetData)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_Parameters*), "SetPresetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data});
@@ -441,7 +448,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Parameters::GetDefaultPresetData
 // Il2CppName: GetDefaultPresetData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (HoudiniEngineUnity::HEU_Parameters::*)()>(&HoudiniEngineUnity::HEU_Parameters::GetDefaultPresetData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (HoudiniEngineUnity::HEU_Parameters::*)()>(&HoudiniEngineUnity::HEU_Parameters::GetDefaultPresetData)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_Parameters*), "GetDefaultPresetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

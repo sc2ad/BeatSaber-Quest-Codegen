@@ -29,6 +29,11 @@ namespace System::Net::NetworkInformation {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Win32_IP_ADAPTER_UNICAST_ADDRESS/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Net.NetworkInformation.Win32LengthFlagsUnion LengthFlags
     // Size: 0x8
     // Offset: 0x0
@@ -91,6 +96,7 @@ namespace System::Net::NetworkInformation {
     uint8_t OnLinkPrefixLength;
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
+    public:
     // Creating value type constructor for type: Win32_IP_ADAPTER_UNICAST_ADDRESS
     constexpr Win32_IP_ADAPTER_UNICAST_ADDRESS(System::Net::NetworkInformation::Win32LengthFlagsUnion LengthFlags_ = {}, System::IntPtr Next_ = {}, System::Net::NetworkInformation::Win32_SOCKET_ADDRESS Address_ = {}, System::Net::NetworkInformation::PrefixOrigin PrefixOrigin_ = {}, System::Net::NetworkInformation::SuffixOrigin SuffixOrigin_ = {}, System::Net::NetworkInformation::DuplicateAddressDetectionState DadState_ = {}, uint ValidLifetime_ = {}, uint PreferredLifetime_ = {}, uint LeaseLifetime_ = {}, uint8_t OnLinkPrefixLength_ = {}) noexcept : LengthFlags{LengthFlags_}, Next{Next_}, Address{Address_}, PrefixOrigin{PrefixOrigin_}, SuffixOrigin{SuffixOrigin_}, DadState{DadState_}, ValidLifetime{ValidLifetime_}, PreferredLifetime{PreferredLifetime_}, LeaseLifetime{LeaseLifetime_}, OnLinkPrefixLength{OnLinkPrefixLength_} {}
     // Creating interface conversion operator: operator System::ValueType

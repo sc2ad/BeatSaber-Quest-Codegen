@@ -9,6 +9,7 @@
 #include "System/Nullable_1.hpp"
 // Including type: System.DateTime
 #include "System/DateTime.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO
@@ -105,25 +106,25 @@ namespace System::IO {
     static void Replace(::Il2CppString* sourceFileName, ::Il2CppString* destinationFileName, ::Il2CppString* destinationBackupFileName, bool ignoreMetadataErrors);
     // static public System.Byte[] ReadAllBytes(System.String path)
     // Offset: 0x1AB47FC
-    static ::ArrayWrapper<uint8_t> ReadAllBytes(::Il2CppString* path);
+    static ::ArrayW<uint8_t> ReadAllBytes(::Il2CppString* path);
     // static public System.String[] ReadAllLines(System.String path)
     // Offset: 0x1AB4A30
-    static ::ArrayWrapper<::Il2CppString*> ReadAllLines(::Il2CppString* path);
+    static ::ArrayW<::Il2CppString*> ReadAllLines(::Il2CppString* path);
     // static private System.String[] ReadAllLines(System.IO.StreamReader reader)
     // Offset: 0x1AB4B34
-    static ::ArrayWrapper<::Il2CppString*> ReadAllLines(System::IO::StreamReader* reader);
+    static ::ArrayW<::Il2CppString*> ReadAllLines(System::IO::StreamReader* reader);
     // static public System.String ReadAllText(System.String path)
     // Offset: 0x1AB4C68
     static ::Il2CppString* ReadAllText(::Il2CppString* path);
     // static public System.Void WriteAllBytes(System.String path, System.Byte[] bytes)
     // Offset: 0x1AB4D94
-    static void WriteAllBytes(::Il2CppString* path, ::ArrayWrapper<uint8_t> bytes);
+    static void WriteAllBytes(::Il2CppString* path, ::ArrayW<uint8_t> bytes);
     // static public System.Void WriteAllLines(System.String path, System.String[] contents)
     // Offset: 0x1AB4EBC
-    static void WriteAllLines(::Il2CppString* path, ::ArrayWrapper<::Il2CppString*> contents);
+    static void WriteAllLines(::Il2CppString* path, ::ArrayW<::Il2CppString*> contents);
     // static private System.Void WriteAllLines(System.IO.StreamWriter writer, System.String[] contents)
     // Offset: 0x1AB5058
-    static void WriteAllLines(System::IO::StreamWriter* writer, ::ArrayWrapper<::Il2CppString*> contents);
+    static void WriteAllLines(System::IO::StreamWriter* writer, ::ArrayW<::Il2CppString*> contents);
     // static public System.Void WriteAllText(System.String path, System.String contents)
     // Offset: 0x1AB50E0
     static void WriteAllText(::Il2CppString* path, ::Il2CppString* contents);
@@ -298,7 +299,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: System::IO::File::ReadAllBytes
 // Il2CppName: ReadAllBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(::Il2CppString*)>(&System::IO::File::ReadAllBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(::Il2CppString*)>(&System::IO::File::ReadAllBytes)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::File*), "ReadAllBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});
@@ -307,7 +308,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: System::IO::File::ReadAllLines
 // Il2CppName: ReadAllLines
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppString*> (*)(::Il2CppString*)>(&System::IO::File::ReadAllLines)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (*)(::Il2CppString*)>(&System::IO::File::ReadAllLines)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::File*), "ReadAllLines", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{path});
@@ -316,7 +317,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: System::IO::File::ReadAllLines
 // Il2CppName: ReadAllLines
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppString*> (*)(System::IO::StreamReader*)>(&System::IO::File::ReadAllLines)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (*)(System::IO::StreamReader*)>(&System::IO::File::ReadAllLines)> {
   static const MethodInfo* get() {
     static auto* reader = &::il2cpp_utils::GetClassFromName("System.IO", "StreamReader")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::File*), "ReadAllLines", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{reader});
@@ -334,7 +335,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::IO::File::WriteAllBytes
 // Il2CppName: WriteAllBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayWrapper<uint8_t>)>(&System::IO::File::WriteAllBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayW<uint8_t>)>(&System::IO::File::WriteAllBytes)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* bytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -344,7 +345,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: System::IO::File::WriteAllLines
 // Il2CppName: WriteAllLines
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayWrapper<::Il2CppString*>)>(&System::IO::File::WriteAllLines)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayW<::Il2CppString*>)>(&System::IO::File::WriteAllLines)> {
   static const MethodInfo* get() {
     static auto* path = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* contents = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
@@ -354,7 +355,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: System::IO::File::WriteAllLines
 // Il2CppName: WriteAllLines
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IO::StreamWriter*, ::ArrayWrapper<::Il2CppString*>)>(&System::IO::File::WriteAllLines)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(System::IO::StreamWriter*, ::ArrayW<::Il2CppString*>)>(&System::IO::File::WriteAllLines)> {
   static const MethodInfo* get() {
     static auto* writer = &::il2cpp_utils::GetClassFromName("System.IO", "StreamWriter")->byval_arg;
     static auto* contents = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;

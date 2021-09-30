@@ -16,12 +16,18 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct VREvent_SpatialAnchor_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.UInt32 unHandle
     // Size: 0x4
     // Offset: 0x0
     uint unHandle;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
+    public:
     // Creating value type constructor for type: VREvent_SpatialAnchor_t
     constexpr VREvent_SpatialAnchor_t(uint unHandle_ = {}) noexcept : unHandle{unHandle_} {}
     // Creating interface conversion operator: operator System::ValueType

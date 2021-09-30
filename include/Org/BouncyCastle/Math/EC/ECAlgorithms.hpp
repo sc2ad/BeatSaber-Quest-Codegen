@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Math::EC
@@ -57,7 +58,7 @@ namespace Org::BouncyCastle::Math::EC {
     static Org::BouncyCastle::Math::EC::ECPoint* ImportPoint(Org::BouncyCastle::Math::EC::ECCurve* c, Org::BouncyCastle::Math::EC::ECPoint* p);
     // static public System.Void MontgomeryTrick(Org.BouncyCastle.Math.EC.ECFieldElement[] zs, System.Int32 off, System.Int32 len, Org.BouncyCastle.Math.EC.ECFieldElement scale)
     // Offset: 0x2313814
-    static void MontgomeryTrick(::ArrayWrapper<Org::BouncyCastle::Math::EC::ECFieldElement*> zs, int off, int len, Org::BouncyCastle::Math::EC::ECFieldElement* scale);
+    static void MontgomeryTrick(::ArrayW<Org::BouncyCastle::Math::EC::ECFieldElement*> zs, int off, int len, Org::BouncyCastle::Math::EC::ECFieldElement* scale);
     // static public Org.BouncyCastle.Math.EC.ECPoint ReferenceMultiply(Org.BouncyCastle.Math.EC.ECPoint p, Org.BouncyCastle.Math.BigInteger k)
     // Offset: 0x2313AD8
     static Org::BouncyCastle::Math::EC::ECPoint* ReferenceMultiply(Org::BouncyCastle::Math::EC::ECPoint* p, Org::BouncyCastle::Math::BigInteger* k);
@@ -75,7 +76,7 @@ namespace Org::BouncyCastle::Math::EC {
     static Org::BouncyCastle::Math::EC::ECPoint* ImplShamirsTrickWNaf(Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* endomorphism, Org::BouncyCastle::Math::EC::ECPoint* P, Org::BouncyCastle::Math::BigInteger* k, Org::BouncyCastle::Math::BigInteger* l);
     // static private Org.BouncyCastle.Math.EC.ECPoint ImplShamirsTrickWNaf(Org.BouncyCastle.Math.EC.ECPoint[] preCompP, Org.BouncyCastle.Math.EC.ECPoint[] preCompNegP, System.Byte[] wnafP, Org.BouncyCastle.Math.EC.ECPoint[] preCompQ, Org.BouncyCastle.Math.EC.ECPoint[] preCompNegQ, System.Byte[] wnafQ)
     // Offset: 0x23145E0
-    static Org::BouncyCastle::Math::EC::ECPoint* ImplShamirsTrickWNaf(::ArrayWrapper<Org::BouncyCastle::Math::EC::ECPoint*> preCompP, ::ArrayWrapper<Org::BouncyCastle::Math::EC::ECPoint*> preCompNegP, ::ArrayWrapper<uint8_t> wnafP, ::ArrayWrapper<Org::BouncyCastle::Math::EC::ECPoint*> preCompQ, ::ArrayWrapper<Org::BouncyCastle::Math::EC::ECPoint*> preCompNegQ, ::ArrayWrapper<uint8_t> wnafQ);
+    static Org::BouncyCastle::Math::EC::ECPoint* ImplShamirsTrickWNaf(::ArrayW<Org::BouncyCastle::Math::EC::ECPoint*> preCompP, ::ArrayW<Org::BouncyCastle::Math::EC::ECPoint*> preCompNegP, ::ArrayW<uint8_t> wnafP, ::ArrayW<Org::BouncyCastle::Math::EC::ECPoint*> preCompQ, ::ArrayW<Org::BouncyCastle::Math::EC::ECPoint*> preCompNegQ, ::ArrayW<uint8_t> wnafQ);
     // static private Org.BouncyCastle.Math.EC.ECPoint ImplShamirsTrickFixedPoint(Org.BouncyCastle.Math.EC.ECPoint p, Org.BouncyCastle.Math.BigInteger k, Org.BouncyCastle.Math.EC.ECPoint q, Org.BouncyCastle.Math.BigInteger l)
     // Offset: 0x231413C
     static Org::BouncyCastle::Math::EC::ECPoint* ImplShamirsTrickFixedPoint(Org::BouncyCastle::Math::EC::ECPoint* p, Org::BouncyCastle::Math::BigInteger* k, Org::BouncyCastle::Math::EC::ECPoint* q, Org::BouncyCastle::Math::BigInteger* l);
@@ -134,7 +135,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::ECAlgorithms::MontgomeryTrick
 // Il2CppName: MontgomeryTrick
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<Org::BouncyCastle::Math::EC::ECFieldElement*>, int, int, Org::BouncyCastle::Math::EC::ECFieldElement*)>(&Org::BouncyCastle::Math::EC::ECAlgorithms::MontgomeryTrick)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<Org::BouncyCastle::Math::EC::ECFieldElement*>, int, int, Org::BouncyCastle::Math::EC::ECFieldElement*)>(&Org::BouncyCastle::Math::EC::ECAlgorithms::MontgomeryTrick)> {
   static const MethodInfo* get() {
     static auto* zs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "ECFieldElement"), 1)->byval_arg;
     static auto* off = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -199,7 +200,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::ECAlgorithms::ImplShamirsTrickWNaf
 // Il2CppName: ImplShamirsTrickWNaf
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (*)(::ArrayWrapper<Org::BouncyCastle::Math::EC::ECPoint*>, ::ArrayWrapper<Org::BouncyCastle::Math::EC::ECPoint*>, ::ArrayWrapper<uint8_t>, ::ArrayWrapper<Org::BouncyCastle::Math::EC::ECPoint*>, ::ArrayWrapper<Org::BouncyCastle::Math::EC::ECPoint*>, ::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Math::EC::ECAlgorithms::ImplShamirsTrickWNaf)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (*)(::ArrayW<Org::BouncyCastle::Math::EC::ECPoint*>, ::ArrayW<Org::BouncyCastle::Math::EC::ECPoint*>, ::ArrayW<uint8_t>, ::ArrayW<Org::BouncyCastle::Math::EC::ECPoint*>, ::ArrayW<Org::BouncyCastle::Math::EC::ECPoint*>, ::ArrayW<uint8_t>)>(&Org::BouncyCastle::Math::EC::ECAlgorithms::ImplShamirsTrickWNaf)> {
   static const MethodInfo* get() {
     static auto* preCompP = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "ECPoint"), 1)->byval_arg;
     static auto* preCompNegP = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "ECPoint"), 1)->byval_arg;

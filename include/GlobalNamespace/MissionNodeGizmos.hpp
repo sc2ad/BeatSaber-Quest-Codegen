@@ -31,6 +31,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MissionNodeGizmos : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private MissionNode _missionNode
     // Size: 0x8
     // Offset: 0x18
@@ -50,6 +55,7 @@ namespace GlobalNamespace {
     GlobalNamespace::CampaignProgressModel* missionProgressModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::CampaignProgressModel*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MissionNode _missionNode

@@ -24,6 +24,11 @@ namespace UnityEngine::Bindings {
   // [VisibleToOtherModulesAttribute] Offset: FFFFFFFF
   class StaticAccessorAttribute : public System::Attribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [DebuggerBrowsableAttribute] Offset: 0xE6E330
     // private System.String <Name>k__BackingField
     // Size: 0x8
@@ -38,6 +43,7 @@ namespace UnityEngine::Bindings {
     UnityEngine::Bindings::StaticAccessorType Type;
     // Field size check
     static_assert(sizeof(UnityEngine::Bindings::StaticAccessorType) == 0x4);
+    public:
     // Get instance field reference: private System.String <Name>k__BackingField
     ::Il2CppString*& dyn_$Name$k__BackingField();
     // Get instance field reference: private UnityEngine.Bindings.StaticAccessorType <Type>k__BackingField

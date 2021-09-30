@@ -38,6 +38,11 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_AssetEventData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public HoudiniEngineUnity.HEU_HoudiniAsset Asset
     // Size: 0x8
     // Offset: 0x10
@@ -64,6 +69,7 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::HEU_AssetEventType EventType;
     // Field size check
     static_assert(sizeof(HoudiniEngineUnity::HEU_AssetEventType) == 0x4);
+    public:
     // Get instance field reference: public HoudiniEngineUnity.HEU_HoudiniAsset Asset
     HoudiniEngineUnity::HEU_HoudiniAsset*& dyn_Asset();
     // Get instance field reference: public System.Boolean CookSuccess

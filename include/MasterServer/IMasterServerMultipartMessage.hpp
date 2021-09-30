@@ -7,6 +7,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: MasterServer.IMasterServerReliableRequest
 #include "MasterServer/IMasterServerReliableRequest.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: MasterServer
 namespace MasterServer {
@@ -34,7 +35,7 @@ namespace MasterServer {
     int get_totalLength();
     // public System.Byte[] get_data()
     // Offset: 0xFFFFFFFF
-    ::ArrayWrapper<uint8_t> get_data();
+    ::ArrayW<uint8_t> get_data();
   }; // MasterServer.IMasterServerMultipartMessage
   #pragma pack(pop)
 }
@@ -76,7 +77,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Master
 // Writing MetadataGetter for method: MasterServer::IMasterServerMultipartMessage::get_data
 // Il2CppName: get_data
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (MasterServer::IMasterServerMultipartMessage::*)()>(&MasterServer::IMasterServerMultipartMessage::get_data)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (MasterServer::IMasterServerMultipartMessage::*)()>(&MasterServer::IMasterServerMultipartMessage::get_data)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(MasterServer::IMasterServerMultipartMessage*), "get_data", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

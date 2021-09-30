@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: System.Collections.Generic
 namespace System::Collections::Generic {
@@ -27,10 +28,10 @@ namespace System::Collections::Generic {
     int GetHashCode(uint8_t b);
     // System.Int32 IndexOf(System.Byte[] array, System.Byte value, System.Int32 startIndex, System.Int32 count)
     // Offset: 0x199AA38
-    int IndexOf(::ArrayWrapper<uint8_t> array, uint8_t value, int startIndex, int count);
+    int IndexOf(::ArrayW<uint8_t> array, uint8_t value, int startIndex, int count);
     // System.Int32 LastIndexOf(System.Byte[] array, System.Byte value, System.Int32 startIndex, System.Int32 count)
     // Offset: 0x199ABE8
-    int LastIndexOf(::ArrayWrapper<uint8_t> array, uint8_t value, int startIndex, int count);
+    int LastIndexOf(::ArrayW<uint8_t> array, uint8_t value, int startIndex, int count);
     // public System.Void .ctor()
     // Offset: 0x199AD04
     // Implemented from: System.Collections.Generic.EqualityComparer`1
@@ -77,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Collections::Generic::ByteEqualityComparer::IndexOf
 // Il2CppName: IndexOf
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Collections::Generic::ByteEqualityComparer::*)(::ArrayWrapper<uint8_t>, uint8_t, int, int)>(&System::Collections::Generic::ByteEqualityComparer::IndexOf)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Collections::Generic::ByteEqualityComparer::*)(::ArrayW<uint8_t>, uint8_t, int, int)>(&System::Collections::Generic::ByteEqualityComparer::IndexOf)> {
   static const MethodInfo* get() {
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
@@ -89,7 +90,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Collections::Generic::ByteEqualityComparer::LastIndexOf
 // Il2CppName: LastIndexOf
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Collections::Generic::ByteEqualityComparer::*)(::ArrayWrapper<uint8_t>, uint8_t, int, int)>(&System::Collections::Generic::ByteEqualityComparer::LastIndexOf)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Collections::Generic::ByteEqualityComparer::*)(::ArrayW<uint8_t>, uint8_t, int, int)>(&System::Collections::Generic::ByteEqualityComparer::LastIndexOf)> {
   static const MethodInfo* get() {
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;

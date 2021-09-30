@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net
@@ -60,6 +61,11 @@ namespace System::Net {
     class $$c__DisplayClass76_0;
     // Nested type: System::Net::WebConnectionStream::$$c__DisplayClass80_0
     class $$c__DisplayClass80_0;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean isRead
     // Size: 0x1
     // Offset: 0x28
@@ -83,9 +89,9 @@ namespace System::Net {
     // private System.Byte[] readBuffer
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayWrapper<uint8_t> readBuffer;
+    ::ArrayW<uint8_t> readBuffer;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Int32 readBufferOffset
     // Size: 0x4
     // Offset: 0x48
@@ -183,9 +189,9 @@ namespace System::Net {
     // private System.Byte[] headers
     // Size: 0x8
     // Offset: 0xA0
-    ::ArrayWrapper<uint8_t> headers;
+    ::ArrayW<uint8_t> headers;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Boolean disposed
     // Size: 0x1
     // Offset: 0xA8
@@ -258,10 +264,11 @@ namespace System::Net {
     bool GetResponseOnClose;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get static field: static private System.Byte[] crlf
-    static ::ArrayWrapper<uint8_t> _get_crlf();
+    static ::ArrayW<uint8_t> _get_crlf();
     // Set static field: static private System.Byte[] crlf
-    static void _set_crlf(::ArrayWrapper<uint8_t> value);
+    static void _set_crlf(::ArrayW<uint8_t> value);
     // Get instance field reference: private System.Boolean isRead
     bool& dyn_isRead();
     // Get instance field reference: private System.Net.WebConnection cnc
@@ -269,7 +276,7 @@ namespace System::Net {
     // Get instance field reference: private System.Net.HttpWebRequest request
     System::Net::HttpWebRequest*& dyn_request();
     // Get instance field reference: private System.Byte[] readBuffer
-    ::ArrayWrapper<uint8_t>& dyn_readBuffer();
+    ::ArrayW<uint8_t>& dyn_readBuffer();
     // Get instance field reference: private System.Int32 readBufferOffset
     int& dyn_readBufferOffset();
     // Get instance field reference: private System.Int32 readBufferSize
@@ -299,7 +306,7 @@ namespace System::Net {
     // Get instance field reference: private System.Boolean requestWritten
     bool& dyn_requestWritten();
     // Get instance field reference: private System.Byte[] headers
-    ::ArrayWrapper<uint8_t>& dyn_headers();
+    ::ArrayW<uint8_t>& dyn_headers();
     // Get instance field reference: private System.Boolean disposed
     bool& dyn_disposed();
     // Get instance field reference: private System.Boolean headersSent
@@ -333,7 +340,7 @@ namespace System::Net {
     void set_SendChunked(bool value);
     // System.Void set_ReadBuffer(System.Byte[] value)
     // Offset: 0x177FD88
-    void set_ReadBuffer(::ArrayWrapper<uint8_t> value);
+    void set_ReadBuffer(::ArrayW<uint8_t> value);
     // System.Void set_ReadBufferOffset(System.Int32 value)
     // Offset: 0x177FD90
     void set_ReadBufferOffset(int value);
@@ -342,7 +349,7 @@ namespace System::Net {
     void set_ReadBufferSize(int value);
     // System.Byte[] get_WriteBuffer()
     // Offset: 0x177FDA0
-    ::ArrayWrapper<uint8_t> get_WriteBuffer();
+    ::ArrayW<uint8_t> get_WriteBuffer();
     // System.Int32 get_WriteBufferLength()
     // Offset: 0x177FDC4
     int get_WriteBufferLength();
@@ -460,12 +467,12 @@ namespace System::Net {
     // Offset: 0x1780284
     // Implemented from: System.IO.Stream
     // Base method: System.Int32 Stream::Read(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
-    int Read(::ArrayWrapper<uint8_t> buffer, int offset, int size);
+    int Read(::ArrayW<uint8_t> buffer, int offset, int size);
     // public override System.IAsyncResult BeginRead(System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.AsyncCallback cb, System.Object state)
     // Offset: 0x17803FC
     // Implemented from: System.IO.Stream
     // Base method: System.IAsyncResult Stream::BeginRead(System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.AsyncCallback cb, System.Object state)
-    System::IAsyncResult* BeginRead(::ArrayWrapper<uint8_t> buffer, int offset, int size, System::AsyncCallback* cb, ::Il2CppObject* state);
+    System::IAsyncResult* BeginRead(::ArrayW<uint8_t> buffer, int offset, int size, System::AsyncCallback* cb, ::Il2CppObject* state);
     // public override System.Int32 EndRead(System.IAsyncResult r)
     // Offset: 0x1780714
     // Implemented from: System.IO.Stream
@@ -475,7 +482,7 @@ namespace System::Net {
     // Offset: 0x1780D34
     // Implemented from: System.IO.Stream
     // Base method: System.IAsyncResult Stream::BeginWrite(System.Byte[] buffer, System.Int32 offset, System.Int32 size, System.AsyncCallback cb, System.Object state)
-    System::IAsyncResult* BeginWrite(::ArrayWrapper<uint8_t> buffer, int offset, int size, System::AsyncCallback* cb, ::Il2CppObject* state);
+    System::IAsyncResult* BeginWrite(::ArrayW<uint8_t> buffer, int offset, int size, System::AsyncCallback* cb, ::Il2CppObject* state);
     // public override System.Void EndWrite(System.IAsyncResult r)
     // Offset: 0x178147C
     // Implemented from: System.IO.Stream
@@ -485,7 +492,7 @@ namespace System::Net {
     // Offset: 0x1781670
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::Write(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
-    void Write(::ArrayWrapper<uint8_t> buffer, int offset, int size);
+    void Write(::ArrayW<uint8_t> buffer, int offset, int size);
     // public override System.Void Flush()
     // Offset: 0x17817EC
     // Implemented from: System.IO.Stream
@@ -541,7 +548,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::WebConnectionStream::set_ReadBuffer
 // Il2CppName: set_ReadBuffer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebConnectionStream::*)(::ArrayWrapper<uint8_t>)>(&System::Net::WebConnectionStream::set_ReadBuffer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebConnectionStream::*)(::ArrayW<uint8_t>)>(&System::Net::WebConnectionStream::set_ReadBuffer)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnectionStream*), "set_ReadBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -568,7 +575,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::WebConnectionStream::get_WriteBuffer
 // Il2CppName: get_WriteBuffer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (System::Net::WebConnectionStream::*)()>(&System::Net::WebConnectionStream::get_WriteBuffer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (System::Net::WebConnectionStream::*)()>(&System::Net::WebConnectionStream::get_WriteBuffer)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::WebConnectionStream*), "get_WriteBuffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -813,7 +820,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Net::WebConnectionStream::Read
 // Il2CppName: Read
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::WebConnectionStream::*)(::ArrayWrapper<uint8_t>, int, int)>(&System::Net::WebConnectionStream::Read)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Net::WebConnectionStream::*)(::ArrayW<uint8_t>, int, int)>(&System::Net::WebConnectionStream::Read)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -824,7 +831,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Net::WebConnectionStream::BeginRead
 // Il2CppName: BeginRead
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::WebConnectionStream::*)(::ArrayWrapper<uint8_t>, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::WebConnectionStream::BeginRead)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::WebConnectionStream::*)(::ArrayW<uint8_t>, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::WebConnectionStream::BeginRead)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -846,7 +853,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Net::WebConnectionStream::BeginWrite
 // Il2CppName: BeginWrite
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::WebConnectionStream::*)(::ArrayWrapper<uint8_t>, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::WebConnectionStream::BeginWrite)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (System::Net::WebConnectionStream::*)(::ArrayW<uint8_t>, int, int, System::AsyncCallback*, ::Il2CppObject*)>(&System::Net::WebConnectionStream::BeginWrite)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -868,7 +875,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::WebConnectionStream::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebConnectionStream::*)(::ArrayWrapper<uint8_t>, int, int)>(&System::Net::WebConnectionStream::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::WebConnectionStream::*)(::ArrayW<uint8_t>, int, int)>(&System::Net::WebConnectionStream::Write)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

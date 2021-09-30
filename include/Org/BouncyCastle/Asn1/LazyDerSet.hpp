@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Asn1
@@ -34,20 +35,26 @@ namespace Org::BouncyCastle::Asn1 {
   // [DefaultMemberAttribute] Offset: EC7F20
   class LazyDerSet : public Org::BouncyCastle::Asn1::DerSet {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Byte[] encoded
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<uint8_t> encoded;
+    ::ArrayW<uint8_t> encoded;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Deleting conversion operator: operator ::ArrayWrapper<Org::BouncyCastle::Asn1::Asn1Encodable*>
-    constexpr operator ::ArrayWrapper<Org::BouncyCastle::Asn1::Asn1Encodable*>() const noexcept = delete;
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
+    public:
+    // Deleting conversion operator: operator ::ArrayW<Org::BouncyCastle::Asn1::Asn1Encodable*>
+    constexpr operator ::ArrayW<Org::BouncyCastle::Asn1::Asn1Encodable*>() const noexcept = delete;
     // Get instance field reference: private System.Byte[] encoded
-    ::ArrayWrapper<uint8_t>& dyn_encoded();
+    ::ArrayW<uint8_t>& dyn_encoded();
     // System.Void .ctor(System.Byte[] encoded)
     // Offset: 0x196BD54
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static LazyDerSet* New_ctor(::ArrayWrapper<uint8_t> encoded) {
+    static LazyDerSet* New_ctor(::ArrayW<uint8_t> encoded) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::LazyDerSet::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LazyDerSet*, creationType>(encoded)));
     }
@@ -76,7 +83,7 @@ namespace Org::BouncyCastle::Asn1 {
     void Encode(Org::BouncyCastle::Asn1::DerOutputStream* derOut);
   }; // Org.BouncyCastle.Asn1.LazyDerSet
   #pragma pack(pop)
-  static check_size<sizeof(LazyDerSet), 24 + sizeof(::ArrayWrapper<uint8_t>)> __Org_BouncyCastle_Asn1_LazyDerSetSizeCheck;
+  static check_size<sizeof(LazyDerSet), 24 + sizeof(::ArrayW<uint8_t>)> __Org_BouncyCastle_Asn1_LazyDerSetSizeCheck;
   static_assert(sizeof(LazyDerSet) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::LazyDerSet*, "Org.BouncyCastle.Asn1", "LazyDerSet");

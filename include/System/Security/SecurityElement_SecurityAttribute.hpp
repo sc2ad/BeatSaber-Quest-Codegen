@@ -20,6 +20,11 @@ namespace System::Security {
   // [TokenAttribute] Offset: FFFFFFFF
   class SecurityElement::SecurityAttribute : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String _name
     // Size: 0x8
     // Offset: 0x10
@@ -32,6 +37,7 @@ namespace System::Security {
     ::Il2CppString* value;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: private System.String _name
     ::Il2CppString*& dyn__name();
     // Get instance field reference: private System.String _value

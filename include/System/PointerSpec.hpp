@@ -32,12 +32,18 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class PointerSpec : public ::Il2CppObject/*, public System::ModifierSpec*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 pointer_level
     // Size: 0x4
     // Offset: 0x10
     int pointer_level;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating interface conversion operator: operator System::ModifierSpec
     operator System::ModifierSpec() noexcept {
       return *reinterpret_cast<System::ModifierSpec*>(this);

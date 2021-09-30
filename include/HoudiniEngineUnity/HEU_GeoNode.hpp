@@ -70,6 +70,11 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_GeoNode : public UnityEngine::ScriptableObject/*, public HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_GeoNode*>, public UnityEngine::ISerializationCallbackReceiver*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private HoudiniEngineUnity.HAPI_GeoInfo _geoInfo
     // Size: 0x24
     // Offset: 0x18
@@ -120,6 +125,7 @@ namespace HoudiniEngineUnity {
     System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VolumeCache*>* volumeCaches;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VolumeCache*>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_GeoNode*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_GeoNode*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_GeoNode*>*>(this);

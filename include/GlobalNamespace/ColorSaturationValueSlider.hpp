@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::UI
@@ -39,6 +40,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ColorSaturationValueSlider : public HMUI::Slider2D {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Single _hue
     // Size: 0x4
     // Offset: 0x124
@@ -48,9 +54,9 @@ namespace GlobalNamespace {
     // private UnityEngine.UI.Graphic[] _graphics
     // Size: 0x8
     // Offset: 0x128
-    ::ArrayWrapper<UnityEngine::UI::Graphic*> graphics;
+    ::ArrayW<UnityEngine::UI::Graphic*> graphics;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::UI::Graphic*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::UI::Graphic*>) == 0x8);
     // private UnityEngine.Color _darkColor
     // Size: 0x10
     // Offset: 0x130
@@ -69,10 +75,11 @@ namespace GlobalNamespace {
     System::Action_3<GlobalNamespace::ColorSaturationValueSlider*, UnityEngine::Vector2, GlobalNamespace::ColorChangeUIEventType>* colorSaturationOrValueDidChangeEvent;
     // Field size check
     static_assert(sizeof(System::Action_3<GlobalNamespace::ColorSaturationValueSlider*, UnityEngine::Vector2, GlobalNamespace::ColorChangeUIEventType>*) == 0x8);
+    public:
     // Get instance field reference: private System.Single _hue
     float& dyn__hue();
     // Get instance field reference: private UnityEngine.UI.Graphic[] _graphics
-    ::ArrayWrapper<UnityEngine::UI::Graphic*>& dyn__graphics();
+    ::ArrayW<UnityEngine::UI::Graphic*>& dyn__graphics();
     // Get instance field reference: private UnityEngine.Color _darkColor
     UnityEngine::Color& dyn__darkColor();
     // Get instance field reference: private UnityEngine.Color _lightColor

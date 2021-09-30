@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: RootMotion::FinalIK
@@ -34,20 +35,26 @@ namespace RootMotion::FinalIK {
     char ___base_padding[0x3] = {};
     // Nested type: RootMotion::FinalIK::GenericPoser::Map
     class Map;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public RootMotion.FinalIK.GenericPoser/RootMotion.FinalIK.Map[] maps
     // Size: 0x8
     // Offset: 0x50
-    ::ArrayWrapper<RootMotion::FinalIK::GenericPoser::Map*> maps;
+    ::ArrayW<RootMotion::FinalIK::GenericPoser::Map*> maps;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::GenericPoser::Map*>) == 0x8);
+    static_assert(sizeof(::ArrayW<RootMotion::FinalIK::GenericPoser::Map*>) == 0x8);
+    public:
     // Get instance field reference: public RootMotion.FinalIK.GenericPoser/RootMotion.FinalIK.Map[] maps
-    ::ArrayWrapper<RootMotion::FinalIK::GenericPoser::Map*>& dyn_maps();
+    ::ArrayW<RootMotion::FinalIK::GenericPoser::Map*>& dyn_maps();
     // private System.Void StoreDefaultState()
     // Offset: 0x1E87124
     void StoreDefaultState();
     // private UnityEngine.Transform GetTargetNamed(System.String tName, UnityEngine.Transform[] array)
     // Offset: 0x1E87048
-    UnityEngine::Transform* GetTargetNamed(::Il2CppString* tName, ::ArrayWrapper<UnityEngine::Transform*> array);
+    UnityEngine::Transform* GetTargetNamed(::Il2CppString* tName, ::ArrayW<UnityEngine::Transform*> array);
     // public System.Void .ctor()
     // Offset: 0x1E8753C
     // Implemented from: RootMotion.FinalIK.Poser
@@ -85,7 +92,7 @@ namespace RootMotion::FinalIK {
     void FixPoserTransforms();
   }; // RootMotion.FinalIK.GenericPoser
   #pragma pack(pop)
-  static check_size<sizeof(GenericPoser), 80 + sizeof(::ArrayWrapper<RootMotion::FinalIK::GenericPoser::Map*>)> __RootMotion_FinalIK_GenericPoserSizeCheck;
+  static check_size<sizeof(GenericPoser), 80 + sizeof(::ArrayW<RootMotion::FinalIK::GenericPoser::Map*>)> __RootMotion_FinalIK_GenericPoserSizeCheck;
   static_assert(sizeof(GenericPoser) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::GenericPoser*, "RootMotion.FinalIK", "GenericPoser");
@@ -101,7 +108,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::GenericPoser::GetTargetNamed
 // Il2CppName: GetTargetNamed
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (RootMotion::FinalIK::GenericPoser::*)(::Il2CppString*, ::ArrayWrapper<UnityEngine::Transform*>)>(&RootMotion::FinalIK::GenericPoser::GetTargetNamed)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Transform* (RootMotion::FinalIK::GenericPoser::*)(::Il2CppString*, ::ArrayW<UnityEngine::Transform*>)>(&RootMotion::FinalIK::GenericPoser::GetTargetNamed)> {
   static const MethodInfo* get() {
     static auto* tName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Transform"), 1)->byval_arg;

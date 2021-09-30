@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Security::Cryptography
@@ -27,12 +28,17 @@ namespace System::Security::Cryptography {
   // [TokenAttribute] Offset: FFFFFFFF
   class AesTransform : public Mono::Security::Cryptography::SymmetricTransform {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.UInt32[] expandedKey
     // Size: 0x8
     // Offset: 0x58
-    ::ArrayWrapper<uint> expandedKey;
+    ::ArrayW<uint> expandedKey;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint>) == 0x8);
     // private System.Int32 Nk
     // Size: 0x4
     // Offset: 0x60
@@ -45,52 +51,53 @@ namespace System::Security::Cryptography {
     int Nr;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get static field: static private readonly System.UInt32[] Rcon
-    static ::ArrayWrapper<uint> _get_Rcon();
+    static ::ArrayW<uint> _get_Rcon();
     // Set static field: static private readonly System.UInt32[] Rcon
-    static void _set_Rcon(::ArrayWrapper<uint> value);
+    static void _set_Rcon(::ArrayW<uint> value);
     // Get static field: static private readonly System.Byte[] SBox
-    static ::ArrayWrapper<uint8_t> _get_SBox();
+    static ::ArrayW<uint8_t> _get_SBox();
     // Set static field: static private readonly System.Byte[] SBox
-    static void _set_SBox(::ArrayWrapper<uint8_t> value);
+    static void _set_SBox(::ArrayW<uint8_t> value);
     // Get static field: static private readonly System.Byte[] iSBox
-    static ::ArrayWrapper<uint8_t> _get_iSBox();
+    static ::ArrayW<uint8_t> _get_iSBox();
     // Set static field: static private readonly System.Byte[] iSBox
-    static void _set_iSBox(::ArrayWrapper<uint8_t> value);
+    static void _set_iSBox(::ArrayW<uint8_t> value);
     // Get static field: static private readonly System.UInt32[] T0
-    static ::ArrayWrapper<uint> _get_T0();
+    static ::ArrayW<uint> _get_T0();
     // Set static field: static private readonly System.UInt32[] T0
-    static void _set_T0(::ArrayWrapper<uint> value);
+    static void _set_T0(::ArrayW<uint> value);
     // Get static field: static private readonly System.UInt32[] T1
-    static ::ArrayWrapper<uint> _get_T1();
+    static ::ArrayW<uint> _get_T1();
     // Set static field: static private readonly System.UInt32[] T1
-    static void _set_T1(::ArrayWrapper<uint> value);
+    static void _set_T1(::ArrayW<uint> value);
     // Get static field: static private readonly System.UInt32[] T2
-    static ::ArrayWrapper<uint> _get_T2();
+    static ::ArrayW<uint> _get_T2();
     // Set static field: static private readonly System.UInt32[] T2
-    static void _set_T2(::ArrayWrapper<uint> value);
+    static void _set_T2(::ArrayW<uint> value);
     // Get static field: static private readonly System.UInt32[] T3
-    static ::ArrayWrapper<uint> _get_T3();
+    static ::ArrayW<uint> _get_T3();
     // Set static field: static private readonly System.UInt32[] T3
-    static void _set_T3(::ArrayWrapper<uint> value);
+    static void _set_T3(::ArrayW<uint> value);
     // Get static field: static private readonly System.UInt32[] iT0
-    static ::ArrayWrapper<uint> _get_iT0();
+    static ::ArrayW<uint> _get_iT0();
     // Set static field: static private readonly System.UInt32[] iT0
-    static void _set_iT0(::ArrayWrapper<uint> value);
+    static void _set_iT0(::ArrayW<uint> value);
     // Get static field: static private readonly System.UInt32[] iT1
-    static ::ArrayWrapper<uint> _get_iT1();
+    static ::ArrayW<uint> _get_iT1();
     // Set static field: static private readonly System.UInt32[] iT1
-    static void _set_iT1(::ArrayWrapper<uint> value);
+    static void _set_iT1(::ArrayW<uint> value);
     // Get static field: static private readonly System.UInt32[] iT2
-    static ::ArrayWrapper<uint> _get_iT2();
+    static ::ArrayW<uint> _get_iT2();
     // Set static field: static private readonly System.UInt32[] iT2
-    static void _set_iT2(::ArrayWrapper<uint> value);
+    static void _set_iT2(::ArrayW<uint> value);
     // Get static field: static private readonly System.UInt32[] iT3
-    static ::ArrayWrapper<uint> _get_iT3();
+    static ::ArrayW<uint> _get_iT3();
     // Set static field: static private readonly System.UInt32[] iT3
-    static void _set_iT3(::ArrayWrapper<uint> value);
+    static void _set_iT3(::ArrayW<uint> value);
     // Get instance field reference: private System.UInt32[] expandedKey
-    ::ArrayWrapper<uint>& dyn_expandedKey();
+    ::ArrayW<uint>& dyn_expandedKey();
     // Get instance field reference: private System.Int32 Nk
     int& dyn_Nk();
     // Get instance field reference: private System.Int32 Nr
@@ -98,7 +105,7 @@ namespace System::Security::Cryptography {
     // public System.Void .ctor(System.Security.Cryptography.Aes algo, System.Boolean encryption, System.Byte[] key, System.Byte[] iv)
     // Offset: 0x25C22C4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static AesTransform* New_ctor(System::Security::Cryptography::Aes* algo, bool encryption, ::ArrayWrapper<uint8_t> key, ::ArrayWrapper<uint8_t> iv) {
+    static AesTransform* New_ctor(System::Security::Cryptography::Aes* algo, bool encryption, ::ArrayW<uint8_t> key, ::ArrayW<uint8_t> iv) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::AesTransform::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<AesTransform*, creationType>(algo, encryption, key, iv)));
     }
@@ -110,15 +117,15 @@ namespace System::Security::Cryptography {
     uint SubByte(uint a);
     // private System.Void Encrypt128(System.Byte[] indata, System.Byte[] outdata, System.UInt32[] ekey)
     // Offset: 0x25C34B0
-    void Encrypt128(::ArrayWrapper<uint8_t> indata, ::ArrayWrapper<uint8_t> outdata, ::ArrayWrapper<uint> ekey);
+    void Encrypt128(::ArrayW<uint8_t> indata, ::ArrayW<uint8_t> outdata, ::ArrayW<uint> ekey);
     // private System.Void Decrypt128(System.Byte[] indata, System.Byte[] outdata, System.UInt32[] ekey)
     // Offset: 0x25C52C8
-    void Decrypt128(::ArrayWrapper<uint8_t> indata, ::ArrayWrapper<uint8_t> outdata, ::ArrayWrapper<uint> ekey);
+    void Decrypt128(::ArrayW<uint8_t> indata, ::ArrayW<uint8_t> outdata, ::ArrayW<uint> ekey);
     // protected override System.Void ECB(System.Byte[] input, System.Byte[] output)
     // Offset: 0x25C349C
     // Implemented from: Mono.Security.Cryptography.SymmetricTransform
     // Base method: System.Void SymmetricTransform::ECB(System.Byte[] input, System.Byte[] output)
-    void ECB(::ArrayWrapper<uint8_t> input, ::ArrayWrapper<uint8_t> output);
+    void ECB(::ArrayW<uint8_t> input, ::ArrayW<uint8_t> output);
   }; // System.Security.Cryptography.AesTransform
   #pragma pack(pop)
   static check_size<sizeof(AesTransform), 100 + sizeof(int)> __System_Security_Cryptography_AesTransformSizeCheck;
@@ -150,7 +157,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::AesTransform::Encrypt128
 // Il2CppName: Encrypt128
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::AesTransform::*)(::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint>)>(&System::Security::Cryptography::AesTransform::Encrypt128)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::AesTransform::*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>, ::ArrayW<uint>)>(&System::Security::Cryptography::AesTransform::Encrypt128)> {
   static const MethodInfo* get() {
     static auto* indata = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* outdata = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -161,7 +168,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::AesTransform::Decrypt128
 // Il2CppName: Decrypt128
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::AesTransform::*)(::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint>)>(&System::Security::Cryptography::AesTransform::Decrypt128)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::AesTransform::*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>, ::ArrayW<uint>)>(&System::Security::Cryptography::AesTransform::Decrypt128)> {
   static const MethodInfo* get() {
     static auto* indata = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* outdata = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -172,7 +179,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::AesTransform::ECB
 // Il2CppName: ECB
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::AesTransform::*)(::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>)>(&System::Security::Cryptography::AesTransform::ECB)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::AesTransform::*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(&System::Security::Cryptography::AesTransform::ECB)> {
   static const MethodInfo* get() {
     static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* output = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;

@@ -22,6 +22,11 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class Uri::UriInfo : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.String Host
     // Size: 0x8
     // Offset: 0x10
@@ -58,6 +63,7 @@ namespace System {
     System::Uri::MoreInfo* MoreInfo;
     // Field size check
     static_assert(sizeof(System::Uri::MoreInfo*) == 0x8);
+    public:
     // Get instance field reference: public System.String Host
     ::Il2CppString*& dyn_Host();
     // Get instance field reference: public System.String ScopeId

@@ -24,6 +24,11 @@ namespace System::Collections {
   // [TokenAttribute] Offset: FFFFFFFF
   class ArrayList::ArrayListEnumeratorSimple : public ::Il2CppObject/*, public System::ICloneable, public System::Collections::IEnumerator*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.ArrayList list
     // Size: 0x8
     // Offset: 0x10
@@ -54,6 +59,7 @@ namespace System::Collections {
     bool isArrayList;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);

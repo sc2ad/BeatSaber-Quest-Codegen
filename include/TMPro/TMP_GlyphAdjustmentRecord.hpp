@@ -25,6 +25,11 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   struct TMP_GlyphAdjustmentRecord/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.UInt32 m_GlyphIndex
     // Size: 0x4
     // Offset: 0x0
@@ -37,6 +42,7 @@ namespace TMPro {
     TMPro::TMP_GlyphValueRecord m_GlyphValueRecord;
     // Field size check
     static_assert(sizeof(TMPro::TMP_GlyphValueRecord) == 0x10);
+    public:
     // Creating value type constructor for type: TMP_GlyphAdjustmentRecord
     constexpr TMP_GlyphAdjustmentRecord(uint m_GlyphIndex_ = {}, TMPro::TMP_GlyphValueRecord m_GlyphValueRecord_ = {}) noexcept : m_GlyphIndex{m_GlyphIndex_}, m_GlyphValueRecord{m_GlyphValueRecord_} {}
     // Creating interface conversion operator: operator System::ValueType

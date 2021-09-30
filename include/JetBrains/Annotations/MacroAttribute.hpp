@@ -21,6 +21,11 @@ namespace JetBrains::Annotations {
   // [AttributeUsageAttribute] Offset: EAD8C0
   class MacroAttribute : public System::Attribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String <Expression>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -41,6 +46,7 @@ namespace JetBrains::Annotations {
     ::Il2CppString* Target;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: private System.String <Expression>k__BackingField
     ::Il2CppString*& dyn_$Expression$k__BackingField();
     // Get instance field reference: private System.Int32 <Editable>k__BackingField

@@ -37,6 +37,11 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_SessionData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public HoudiniEngineUnity.HAPI_Session _HAPISession
     // Size: 0x10
     // Offset: 0x10
@@ -103,6 +108,7 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::SessionMode sessionMode;
     // Field size check
     static_assert(sizeof(HoudiniEngineUnity::SessionMode) == 0x4);
+    public:
     // Get static field: static public System.Int64 INVALID_SESSION_ID
     static int64_t _get_INVALID_SESSION_ID();
     // Set static field: static public System.Int64 INVALID_SESSION_ID

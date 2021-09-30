@@ -38,6 +38,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class NoteJumpStartScaleUp : public UnityEngine::MonoBehaviour/*, public GlobalNamespace::INoteControllerDidInitEvent*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Single _fullScaleJumpPart
     // Size: 0x4
     // Offset: 0x18
@@ -65,6 +70,7 @@ namespace GlobalNamespace {
     GlobalNamespace::NoteJump* noteJump;
     // Field size check
     static_assert(sizeof(GlobalNamespace::NoteJump*) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::INoteControllerDidInitEvent
     operator GlobalNamespace::INoteControllerDidInitEvent() noexcept {
       return *reinterpret_cast<GlobalNamespace::INoteControllerDidInitEvent*>(this);

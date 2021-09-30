@@ -33,6 +33,11 @@ namespace System::Threading::Tasks {
   // [CompilerGeneratedAttribute] Offset: E5ED74
   class Task::$$c__DisplayClass178_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Threading.Tasks.Task root
     // Size: 0x8
     // Offset: 0x10
@@ -65,6 +70,7 @@ namespace System::Threading::Tasks {
     System::Threading::Tasks::InternalTaskOptions internalOptionsForReplicas;
     // Field size check
     static_assert(sizeof(System::Threading::Tasks::InternalTaskOptions) == 0x4);
+    public:
     // Get instance field reference: public System.Threading.Tasks.Task root
     System::Threading::Tasks::Task*& dyn_root();
     // Get instance field reference: public System.Boolean replicasAreQuitting

@@ -40,6 +40,11 @@ namespace Zenject {
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
   class BindStatement : public ::Il2CppObject/*, public System::IDisposable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Collections.Generic.List`1<System.IDisposable> _disposables
     // Size: 0x8
     // Offset: 0x10
@@ -52,6 +57,7 @@ namespace Zenject {
     Zenject::IBindingFinalizer* bindingFinalizer;
     // Field size check
     static_assert(sizeof(Zenject::IBindingFinalizer*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

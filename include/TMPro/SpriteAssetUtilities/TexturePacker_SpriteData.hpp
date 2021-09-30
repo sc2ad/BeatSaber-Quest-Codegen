@@ -25,6 +25,11 @@ namespace TMPro::SpriteAssetUtilities {
   // [TokenAttribute] Offset: FFFFFFFF
   struct TexturePacker::SpriteData/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.String filename
     // Size: 0x8
     // Offset: 0x0
@@ -69,6 +74,7 @@ namespace TMPro::SpriteAssetUtilities {
     UnityEngine::Vector2 pivot;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector2) == 0x8);
+    public:
     // Creating value type constructor for type: SpriteData
     constexpr SpriteData(::Il2CppString* filename_ = {}, TMPro::SpriteAssetUtilities::TexturePacker::SpriteFrame frame_ = {}, bool rotated_ = {}, bool trimmed_ = {}, TMPro::SpriteAssetUtilities::TexturePacker::SpriteFrame spriteSourceSize_ = {}, TMPro::SpriteAssetUtilities::TexturePacker::SpriteSize sourceSize_ = {}, UnityEngine::Vector2 pivot_ = {}) noexcept : filename{filename_}, frame{frame_}, rotated{rotated_}, trimmed{trimmed_}, spriteSourceSize{spriteSourceSize_}, sourceSize{sourceSize_}, pivot{pivot_} {}
     // Creating interface conversion operator: operator System::ValueType

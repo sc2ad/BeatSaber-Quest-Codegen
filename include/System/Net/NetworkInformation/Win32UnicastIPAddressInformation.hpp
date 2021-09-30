@@ -34,6 +34,11 @@ namespace System::Net::NetworkInformation {
   // [TokenAttribute] Offset: FFFFFFFF
   class Win32UnicastIPAddressInformation : public System::Net::NetworkInformation::UnicastIPAddressInformation {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Net.NetworkInformation.Win32_IP_ADAPTER_UNICAST_ADDRESS info
     // Size: 0x39
     // Offset: 0x10
@@ -48,6 +53,7 @@ namespace System::Net::NetworkInformation {
     System::Net::IPAddress* ipv4Mask;
     // Field size check
     static_assert(sizeof(System::Net::IPAddress*) == 0x8);
+    public:
     // Get instance field reference: private System.Net.NetworkInformation.Win32_IP_ADAPTER_UNICAST_ADDRESS info
     System::Net::NetworkInformation::Win32_IP_ADAPTER_UNICAST_ADDRESS& dyn_info();
     // Get instance field reference: private System.Net.IPAddress ipv4Mask

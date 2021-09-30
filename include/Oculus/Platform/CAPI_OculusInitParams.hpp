@@ -19,6 +19,11 @@ namespace Oculus::Platform {
   // [TokenAttribute] Offset: FFFFFFFF
   struct CAPI::OculusInitParams/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 sType
     // Size: 0x4
     // Offset: 0x0
@@ -51,6 +56,7 @@ namespace Oculus::Platform {
     ::Il2CppString* uriPrefixOverride;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Creating value type constructor for type: OculusInitParams
     constexpr OculusInitParams(int sType_ = {}, ::Il2CppString* email_ = {}, ::Il2CppString* password_ = {}, uint64_t appId_ = {}, ::Il2CppString* uriPrefixOverride_ = {}) noexcept : sType{sType_}, email{email_}, password{password_}, appId{appId_}, uriPrefixOverride{uriPrefixOverride_} {}
     // Creating interface conversion operator: operator System::ValueType

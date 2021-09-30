@@ -68,12 +68,18 @@ namespace HMUI {
     // [TokenAttribute] Offset: FFFFFFFF
     struct TransitionType/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: TransitionType
       constexpr TransitionType(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -102,6 +108,11 @@ namespace HMUI {
     #pragma pack(pop)
     static check_size<sizeof(SelectableCell::TransitionType), 0 + sizeof(int)> __HMUI_SelectableCell_TransitionTypeSizeCheck;
     static_assert(sizeof(SelectableCell::TransitionType) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [SignalSenderAttribute] Offset: 0xEE3240
     // private Signal _wasPressedSignal
     // Size: 0x8
@@ -133,6 +144,7 @@ namespace HMUI {
     bool selected;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator UnityEngine::EventSystems::IPointerEnterHandler
     operator UnityEngine::EventSystems::IPointerEnterHandler() noexcept {
       return *reinterpret_cast<UnityEngine::EventSystems::IPointerEnterHandler*>(this);

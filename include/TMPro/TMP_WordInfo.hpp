@@ -26,6 +26,11 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   struct TMP_WordInfo/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public TMPro.TMP_Text textComponent
     // Size: 0x8
     // Offset: 0x0
@@ -50,6 +55,7 @@ namespace TMPro {
     int characterCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: TMP_WordInfo
     constexpr TMP_WordInfo(TMPro::TMP_Text* textComponent_ = {}, int firstCharacterIndex_ = {}, int lastCharacterIndex_ = {}, int characterCount_ = {}) noexcept : textComponent{textComponent_}, firstCharacterIndex{firstCharacterIndex_}, lastCharacterIndex{lastCharacterIndex_}, characterCount{characterCount_} {}
     // Creating interface conversion operator: operator System::ValueType

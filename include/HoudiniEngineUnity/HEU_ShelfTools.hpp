@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -139,13 +140,13 @@ namespace HoudiniEngineUnity {
     static void ExecuteToolNoInput(::Il2CppString* toolName, ::Il2CppString* toolPath);
     // static public System.Void ExecuteToolOperatorSingle(System.String toolName, System.String toolPath, UnityEngine.GameObject[] inputObjects)
     // Offset: 0x17D8D6C
-    static void ExecuteToolOperatorSingle(::Il2CppString* toolName, ::Il2CppString* toolPath, ::ArrayWrapper<UnityEngine::GameObject*> inputObjects);
+    static void ExecuteToolOperatorSingle(::Il2CppString* toolName, ::Il2CppString* toolPath, ::ArrayW<UnityEngine::GameObject*> inputObjects);
     // static public System.Void ExecuteToolOperatorMultiple(System.String toolName, System.String toolPath, UnityEngine.GameObject[] inputObjects)
     // Offset: 0x17D92BC
-    static void ExecuteToolOperatorMultiple(::Il2CppString* toolName, ::Il2CppString* toolPath, ::ArrayWrapper<UnityEngine::GameObject*> inputObjects);
+    static void ExecuteToolOperatorMultiple(::Il2CppString* toolName, ::Il2CppString* toolPath, ::ArrayW<UnityEngine::GameObject*> inputObjects);
     // static public System.Void ExecuteToolBatch(System.String toolName, System.String toolPath, UnityEngine.GameObject[] batchObjects)
     // Offset: 0x17D97CC
-    static void ExecuteToolBatch(::Il2CppString* toolName, ::Il2CppString* toolPath, ::ArrayWrapper<UnityEngine::GameObject*> batchObjects);
+    static void ExecuteToolBatch(::Il2CppString* toolName, ::Il2CppString* toolPath, ::ArrayW<UnityEngine::GameObject*> batchObjects);
     // static public System.String GetToolResourcePath(HoudiniEngineUnity.HEU_ShelfToolData tool, System.String inPath, System.String ext)
     // Offset: 0x17D9958
     static ::Il2CppString* GetToolResourcePath(HoudiniEngineUnity::HEU_ShelfToolData* tool, ::Il2CppString* inPath, ::Il2CppString* ext);
@@ -373,7 +374,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ShelfTools::ExecuteToolOperatorSingle
 // Il2CppName: ExecuteToolOperatorSingle
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Il2CppString*, ::ArrayWrapper<UnityEngine::GameObject*>)>(&HoudiniEngineUnity::HEU_ShelfTools::ExecuteToolOperatorSingle)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Il2CppString*, ::ArrayW<UnityEngine::GameObject*>)>(&HoudiniEngineUnity::HEU_ShelfTools::ExecuteToolOperatorSingle)> {
   static const MethodInfo* get() {
     static auto* toolName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* toolPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -384,7 +385,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ShelfTools::ExecuteToolOperatorMultiple
 // Il2CppName: ExecuteToolOperatorMultiple
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Il2CppString*, ::ArrayWrapper<UnityEngine::GameObject*>)>(&HoudiniEngineUnity::HEU_ShelfTools::ExecuteToolOperatorMultiple)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Il2CppString*, ::ArrayW<UnityEngine::GameObject*>)>(&HoudiniEngineUnity::HEU_ShelfTools::ExecuteToolOperatorMultiple)> {
   static const MethodInfo* get() {
     static auto* toolName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* toolPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -395,7 +396,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_ShelfTools::ExecuteToolBatch
 // Il2CppName: ExecuteToolBatch
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Il2CppString*, ::ArrayWrapper<UnityEngine::GameObject*>)>(&HoudiniEngineUnity::HEU_ShelfTools::ExecuteToolBatch)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::Il2CppString*, ::ArrayW<UnityEngine::GameObject*>)>(&HoudiniEngineUnity::HEU_ShelfTools::ExecuteToolBatch)> {
   static const MethodInfo* get() {
     static auto* toolName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* toolPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

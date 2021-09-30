@@ -64,6 +64,11 @@ namespace System::Net::Http {
     struct $SendAsyncWorker$d__47;
     // Nested type: System::Net::Http::HttpClient::$GetStringAsync$d__52
     struct $GetStringAsync$d__52;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Uri base_address
     // Size: 0x8
     // Offset: 0x20
@@ -102,6 +107,7 @@ namespace System::Net::Http {
     System::TimeSpan timeout;
     // Field size check
     static_assert(sizeof(System::TimeSpan) == 0x8);
+    public:
     // Get static field: static private readonly System.TimeSpan TimeoutDefault
     static System::TimeSpan _get_TimeoutDefault();
     // Set static field: static private readonly System.TimeSpan TimeoutDefault

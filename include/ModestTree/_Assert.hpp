@@ -10,6 +10,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -206,10 +207,10 @@ namespace ModestTree {
     static Zenject::ZenjectException* CreateException(::Il2CppString* message);
     // static public Zenject.ZenjectException CreateException(System.String message, params System.Object[] parameters)
     // Offset: 0x14EC4A8
-    static Zenject::ZenjectException* CreateException(::Il2CppString* message, ::ArrayWrapper<::Il2CppObject*> parameters);
+    static Zenject::ZenjectException* CreateException(::Il2CppString* message, ::ArrayW<::Il2CppObject*> parameters);
     // static public Zenject.ZenjectException CreateException(System.Exception innerException, System.String message, params System.Object[] parameters)
     // Offset: 0x14EDCB4
-    static Zenject::ZenjectException* CreateException(System::Exception* innerException, ::Il2CppString* message, ::ArrayWrapper<::Il2CppObject*> parameters);
+    static Zenject::ZenjectException* CreateException(System::Exception* innerException, ::Il2CppString* message, ::ArrayW<::Il2CppObject*> parameters);
   }; // ModestTree.Assert
   #pragma pack(pop)
 }
@@ -528,7 +529,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Ze
 // Writing MetadataGetter for method: ModestTree::_Assert::CreateException
 // Il2CppName: CreateException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ZenjectException* (*)(::Il2CppString*, ::ArrayWrapper<::Il2CppObject*>)>(&ModestTree::_Assert::CreateException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ZenjectException* (*)(::Il2CppString*, ::ArrayW<::Il2CppObject*>)>(&ModestTree::_Assert::CreateException)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* parameters = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
@@ -538,7 +539,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Ze
 // Writing MetadataGetter for method: ModestTree::_Assert::CreateException
 // Il2CppName: CreateException
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ZenjectException* (*)(System::Exception*, ::Il2CppString*, ::ArrayWrapper<::Il2CppObject*>)>(&ModestTree::_Assert::CreateException)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ZenjectException* (*)(System::Exception*, ::Il2CppString*, ::ArrayW<::Il2CppObject*>)>(&ModestTree::_Assert::CreateException)> {
   static const MethodInfo* get() {
     static auto* innerException = &::il2cpp_utils::GetClassFromName("System", "Exception")->byval_arg;
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

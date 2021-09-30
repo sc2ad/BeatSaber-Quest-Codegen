@@ -57,12 +57,18 @@ namespace UnityEngine::Timeline {
     // [TokenAttribute] Offset: FFFFFFFF
     struct PostPlaybackState/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: PostPlaybackState
       constexpr PostPlaybackState(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -103,6 +109,11 @@ namespace UnityEngine::Timeline {
     #pragma pack(pop)
     static check_size<sizeof(ActivationTrack::PostPlaybackState), 0 + sizeof(int)> __UnityEngine_Timeline_ActivationTrack_PostPlaybackStateSizeCheck;
     static_assert(sizeof(ActivationTrack::PostPlaybackState) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Timeline.ActivationTrack/UnityEngine.Timeline.PostPlaybackState m_PostPlaybackState
     // Size: 0x4
     // Offset: 0xA0
@@ -115,6 +126,7 @@ namespace UnityEngine::Timeline {
     UnityEngine::Timeline::ActivationMixerPlayable* m_ActivationMixer;
     // Field size check
     static_assert(sizeof(UnityEngine::Timeline::ActivationMixerPlayable*) == 0x8);
+    public:
     // Get instance field reference: private UnityEngine.Timeline.ActivationTrack/UnityEngine.Timeline.PostPlaybackState m_PostPlaybackState
     UnityEngine::Timeline::ActivationTrack::PostPlaybackState& dyn_m_PostPlaybackState();
     // Get instance field reference: private UnityEngine.Timeline.ActivationMixerPlayable m_ActivationMixer

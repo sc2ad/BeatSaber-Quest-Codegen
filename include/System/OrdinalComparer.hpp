@@ -20,12 +20,18 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class OrdinalComparer : public System::StringComparer {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean _ignoreCase
     // Size: 0x1
     // Offset: 0x10
     bool ignoreCase;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating conversion operator: operator bool
     constexpr operator bool() const noexcept {
       return ignoreCase;

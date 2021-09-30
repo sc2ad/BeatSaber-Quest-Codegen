@@ -39,6 +39,11 @@ namespace OnlineServices {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   struct ServerManager::$GetLeaderboardEntriesAsync$d__14/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0
@@ -75,6 +80,7 @@ namespace OnlineServices {
     // Size: 0xFFFFFFFF
     // Offset: 0x58
     System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::GetLeaderboardEntriesResult> $$u__2;
+    public:
     // Creating value type constructor for type: $GetLeaderboardEntriesAsync$d__14
     constexpr $GetLeaderboardEntriesAsync$d__14(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<OnlineServices::LeaderboardEntriesResult*> $$t__builder_ = {}, OnlineServices::ServerManager* $$4__this_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, OnlineServices::GetLeaderboardFilterData leaderboardFilterData_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::PlatformServicesAvailabilityInfo*> $$u__1_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::GetLeaderboardEntriesResult> $$u__2_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, cancellationToken{cancellationToken_}, leaderboardFilterData{leaderboardFilterData_}, $$u__1{$$u__1_}, $$u__2{$$u__2_} {}
     // Creating interface conversion operator: operator System::ValueType

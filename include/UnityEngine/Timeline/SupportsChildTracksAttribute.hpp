@@ -28,6 +28,11 @@ namespace UnityEngine::Timeline {
   // [AttributeUsageAttribute] Offset: EB9634
   class SupportsChildTracksAttribute : public System::Attribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly System.Type childType
     // Size: 0x8
     // Offset: 0x10
@@ -40,6 +45,7 @@ namespace UnityEngine::Timeline {
     int levels;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: public readonly System.Type childType
     System::Type*& dyn_childType();
     // Get instance field reference: public readonly System.Int32 levels

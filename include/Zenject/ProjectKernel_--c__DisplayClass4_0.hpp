@@ -42,6 +42,11 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class ProjectKernel::$$c__DisplayClass4_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Collections.Generic.List`1<UnityEngine.SceneManagement.Scene> sceneOrder
     // Size: 0x8
     // Offset: 0x10
@@ -54,6 +59,7 @@ namespace Zenject {
     System::Func_2<Zenject::SceneContext*, int>* $$9__0;
     // Field size check
     static_assert(sizeof(System::Func_2<Zenject::SceneContext*, int>*) == 0x8);
+    public:
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.SceneManagement.Scene> sceneOrder
     System::Collections::Generic::List_1<UnityEngine::SceneManagement::Scene>*& dyn_sceneOrder();
     // Get instance field reference: public System.Func`2<Zenject.SceneContext,System.Int32> <>9__0

@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: RootMotion::FinalIK
@@ -46,6 +47,11 @@ namespace RootMotion::FinalIK {
     class Child;
     // Nested type: RootMotion::FinalIK::RagdollUtility::$DisableRagdollSmooth$d__21
     class $DisableRagdollSmooth$d__21;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [TooltipAttribute] Offset: 0xEF3D58
     // public RootMotion.FinalIK.IK ik
     // Size: 0x8
@@ -92,15 +98,15 @@ namespace RootMotion::FinalIK {
     // private RootMotion.FinalIK.RagdollUtility/RootMotion.FinalIK.Rigidbone[] rigidbones
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayWrapper<RootMotion::FinalIK::RagdollUtility::Rigidbone*> rigidbones;
+    ::ArrayW<RootMotion::FinalIK::RagdollUtility::Rigidbone*> rigidbones;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::RagdollUtility::Rigidbone*>) == 0x8);
+    static_assert(sizeof(::ArrayW<RootMotion::FinalIK::RagdollUtility::Rigidbone*>) == 0x8);
     // private RootMotion.FinalIK.RagdollUtility/RootMotion.FinalIK.Child[] children
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayWrapper<RootMotion::FinalIK::RagdollUtility::Child*> children;
+    ::ArrayW<RootMotion::FinalIK::RagdollUtility::Child*> children;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::RagdollUtility::Child*>) == 0x8);
+    static_assert(sizeof(::ArrayW<RootMotion::FinalIK::RagdollUtility::Child*>) == 0x8);
     // private System.Boolean enableRagdollFlag
     // Size: 0x1
     // Offset: 0x48
@@ -118,15 +124,15 @@ namespace RootMotion::FinalIK {
     // private RootMotion.FinalIK.IK[] allIKComponents
     // Size: 0x8
     // Offset: 0x50
-    ::ArrayWrapper<RootMotion::FinalIK::IK*> allIKComponents;
+    ::ArrayW<RootMotion::FinalIK::IK*> allIKComponents;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::IK*>) == 0x8);
+    static_assert(sizeof(::ArrayW<RootMotion::FinalIK::IK*>) == 0x8);
     // private System.Boolean[] fixTransforms
     // Size: 0x8
     // Offset: 0x58
-    ::ArrayWrapper<bool> fixTransforms;
+    ::ArrayW<bool> fixTransforms;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<bool>) == 0x8);
+    static_assert(sizeof(::ArrayW<bool>) == 0x8);
     // private System.Single ragdollWeight
     // Size: 0x4
     // Offset: 0x60
@@ -150,9 +156,10 @@ namespace RootMotion::FinalIK {
     // private System.Boolean[] disabledIKComponents
     // Size: 0x8
     // Offset: 0x70
-    ::ArrayWrapper<bool> disabledIKComponents;
+    ::ArrayW<bool> disabledIKComponents;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<bool>) == 0x8);
+    static_assert(sizeof(::ArrayW<bool>) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public RootMotion.FinalIK.IK ik
@@ -168,17 +175,17 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private UnityEngine.Animator animator
     UnityEngine::Animator*& dyn_animator();
     // Get instance field reference: private RootMotion.FinalIK.RagdollUtility/RootMotion.FinalIK.Rigidbone[] rigidbones
-    ::ArrayWrapper<RootMotion::FinalIK::RagdollUtility::Rigidbone*>& dyn_rigidbones();
+    ::ArrayW<RootMotion::FinalIK::RagdollUtility::Rigidbone*>& dyn_rigidbones();
     // Get instance field reference: private RootMotion.FinalIK.RagdollUtility/RootMotion.FinalIK.Child[] children
-    ::ArrayWrapper<RootMotion::FinalIK::RagdollUtility::Child*>& dyn_children();
+    ::ArrayW<RootMotion::FinalIK::RagdollUtility::Child*>& dyn_children();
     // Get instance field reference: private System.Boolean enableRagdollFlag
     bool& dyn_enableRagdollFlag();
     // Get instance field reference: private UnityEngine.AnimatorUpdateMode animatorUpdateMode
     UnityEngine::AnimatorUpdateMode& dyn_animatorUpdateMode();
     // Get instance field reference: private RootMotion.FinalIK.IK[] allIKComponents
-    ::ArrayWrapper<RootMotion::FinalIK::IK*>& dyn_allIKComponents();
+    ::ArrayW<RootMotion::FinalIK::IK*>& dyn_allIKComponents();
     // Get instance field reference: private System.Boolean[] fixTransforms
-    ::ArrayWrapper<bool>& dyn_fixTransforms();
+    ::ArrayW<bool>& dyn_fixTransforms();
     // Get instance field reference: private System.Single ragdollWeight
     float& dyn_ragdollWeight();
     // Get instance field reference: private System.Single ragdollWeightV
@@ -186,7 +193,7 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private System.Boolean fixedFrame
     bool& dyn_fixedFrame();
     // Get instance field reference: private System.Boolean[] disabledIKComponents
-    ::ArrayWrapper<bool>& dyn_disabledIKComponents();
+    ::ArrayW<bool>& dyn_disabledIKComponents();
     // private System.Boolean get_isRagdoll()
     // Offset: 0x1C5F8E4
     bool get_isRagdoll();
@@ -253,7 +260,7 @@ namespace RootMotion::FinalIK {
     }
   }; // RootMotion.FinalIK.RagdollUtility
   #pragma pack(pop)
-  static check_size<sizeof(RagdollUtility), 112 + sizeof(::ArrayWrapper<bool>)> __RootMotion_FinalIK_RagdollUtilitySizeCheck;
+  static check_size<sizeof(RagdollUtility), 112 + sizeof(::ArrayW<bool>)> __RootMotion_FinalIK_RagdollUtilitySizeCheck;
   static_assert(sizeof(RagdollUtility) == 0x78);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::RagdollUtility*, "RootMotion.FinalIK", "RagdollUtility");

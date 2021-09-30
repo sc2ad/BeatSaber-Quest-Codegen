@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -31,6 +32,11 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class AndroidJavaProxy : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly UnityEngine.AndroidJavaClass javaInterface
     // Size: 0x8
     // Offset: 0x10
@@ -43,6 +49,7 @@ namespace UnityEngine {
     System::IntPtr proxyObject;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
+    public:
     // Get static field: static private readonly UnityEngine.GlobalJavaObjectRef s_JavaLangSystemClass
     static UnityEngine::GlobalJavaObjectRef* _get_s_JavaLangSystemClass();
     // Set static field: static private readonly UnityEngine.GlobalJavaObjectRef s_JavaLangSystemClass
@@ -74,10 +81,10 @@ namespace UnityEngine {
     static void _cctor();
     // public UnityEngine.AndroidJavaObject Invoke(System.String methodName, System.Object[] args)
     // Offset: 0x25AE7F0
-    UnityEngine::AndroidJavaObject* Invoke(::Il2CppString* methodName, ::ArrayWrapper<::Il2CppObject*> args);
+    UnityEngine::AndroidJavaObject* Invoke(::Il2CppString* methodName, ::ArrayW<::Il2CppObject*> args);
     // public UnityEngine.AndroidJavaObject Invoke(System.String methodName, UnityEngine.AndroidJavaObject[] javaArgs)
     // Offset: 0x25AF93C
-    UnityEngine::AndroidJavaObject* Invoke(::Il2CppString* methodName, ::ArrayWrapper<UnityEngine::AndroidJavaObject*> javaArgs);
+    UnityEngine::AndroidJavaObject* Invoke(::Il2CppString* methodName, ::ArrayW<UnityEngine::AndroidJavaObject*> javaArgs);
     // public System.Boolean equals(UnityEngine.AndroidJavaObject obj)
     // Offset: 0x25B00F8
     bool equals(UnityEngine::AndroidJavaObject* obj);
@@ -124,7 +131,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::AndroidJavaProxy::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AndroidJavaObject* (UnityEngine::AndroidJavaProxy::*)(::Il2CppString*, ::ArrayWrapper<::Il2CppObject*>)>(&UnityEngine::AndroidJavaProxy::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AndroidJavaObject* (UnityEngine::AndroidJavaProxy::*)(::Il2CppString*, ::ArrayW<::Il2CppObject*>)>(&UnityEngine::AndroidJavaProxy::Invoke)> {
   static const MethodInfo* get() {
     static auto* methodName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
@@ -134,7 +141,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::AndroidJavaProxy::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AndroidJavaObject* (UnityEngine::AndroidJavaProxy::*)(::Il2CppString*, ::ArrayWrapper<UnityEngine::AndroidJavaObject*>)>(&UnityEngine::AndroidJavaProxy::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::AndroidJavaObject* (UnityEngine::AndroidJavaProxy::*)(::Il2CppString*, ::ArrayW<UnityEngine::AndroidJavaObject*>)>(&UnityEngine::AndroidJavaProxy::Invoke)> {
   static const MethodInfo* get() {
     static auto* methodName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* javaArgs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "AndroidJavaObject"), 1)->byval_arg;

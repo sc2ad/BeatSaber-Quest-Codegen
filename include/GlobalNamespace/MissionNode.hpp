@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -37,6 +38,11 @@ namespace GlobalNamespace {
   // [SelectionBaseAttribute] Offset: FFFFFFFF
   class MissionNode : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private MissionDataSO _missionDataSO
     // Size: 0x8
     // Offset: 0x18
@@ -73,9 +79,10 @@ namespace GlobalNamespace {
     // private MissionNode[] _childNodes
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayWrapper<GlobalNamespace::MissionNode*> childNodes;
+    ::ArrayW<GlobalNamespace::MissionNode*> childNodes;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MissionNode*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::MissionNode*>) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MissionDataSO _missionDataSO
@@ -89,13 +96,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private MissionNodeVisualController _missionNodeVisualController
     GlobalNamespace::MissionNodeVisualController*& dyn__missionNodeVisualController();
     // Get instance field reference: private MissionNode[] _childNodes
-    ::ArrayWrapper<GlobalNamespace::MissionNode*>& dyn__childNodes();
+    ::ArrayW<GlobalNamespace::MissionNode*>& dyn__childNodes();
     // public MissionDataSO get_missionData()
     // Offset: 0x1189088
     GlobalNamespace::MissionDataSO* get_missionData();
     // public MissionNode[] get_childNodes()
     // Offset: 0x1189090
-    ::ArrayWrapper<GlobalNamespace::MissionNode*> get_childNodes();
+    ::ArrayW<GlobalNamespace::MissionNode*> get_childNodes();
     // public MissionNodeVisualController get_missionNodeVisualController()
     // Offset: 0x1189098
     GlobalNamespace::MissionNodeVisualController* get_missionNodeVisualController();
@@ -132,7 +139,7 @@ namespace GlobalNamespace {
     }
   }; // MissionNode
   #pragma pack(pop)
-  static check_size<sizeof(MissionNode), 64 + sizeof(::ArrayWrapper<GlobalNamespace::MissionNode*>)> __GlobalNamespace_MissionNodeSizeCheck;
+  static check_size<sizeof(MissionNode), 64 + sizeof(::ArrayW<GlobalNamespace::MissionNode*>)> __GlobalNamespace_MissionNodeSizeCheck;
   static_assert(sizeof(MissionNode) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionNode*, "", "MissionNode");
@@ -148,7 +155,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::MissionNode::get_childNodes
 // Il2CppName: get_childNodes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::MissionNode*> (GlobalNamespace::MissionNode::*)()>(&GlobalNamespace::MissionNode::get_childNodes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<GlobalNamespace::MissionNode*> (GlobalNamespace::MissionNode::*)()>(&GlobalNamespace::MissionNode::get_childNodes)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNode*), "get_childNodes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

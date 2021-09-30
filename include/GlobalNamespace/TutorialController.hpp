@@ -50,6 +50,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::TutorialController::$OutroCoroutine$d__13
     class $OutroCoroutine$d__13;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private TutorialSongController _tutorialSongController
     // Size: 0x8
     // Offset: 0x18
@@ -108,6 +113,7 @@ namespace GlobalNamespace {
     bool doingOutroTransition;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TutorialSongController _tutorialSongController

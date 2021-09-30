@@ -27,6 +27,11 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class TMP_SpriteCharacter : public TMPro::TMP_TextElement {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String m_Name
     // Size: 0x8
     // Offset: 0x28
@@ -39,6 +44,7 @@ namespace TMPro {
     int m_HashCode;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: private System.String m_Name
     ::Il2CppString*& dyn_m_Name();
     // Get instance field reference: private System.Int32 m_HashCode

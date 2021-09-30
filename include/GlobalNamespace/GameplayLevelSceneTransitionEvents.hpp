@@ -40,6 +40,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GameplayLevelSceneTransitionEvents : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly StandardLevelScenesTransitionSetupDataSO _standardLevelScenesTransitionSetupData
     // Size: 0x8
     // Offset: 0x10
@@ -64,6 +69,7 @@ namespace GlobalNamespace {
     System::Action* anyGameplayLevelDidFinishEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
+    public:
     // Get instance field reference: private readonly StandardLevelScenesTransitionSetupDataSO _standardLevelScenesTransitionSetupData
     GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*& dyn__standardLevelScenesTransitionSetupData();
     // Get instance field reference: private readonly MissionLevelScenesTransitionSetupDataSO _missionLevelScenesTransitionSetupData

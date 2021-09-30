@@ -28,6 +28,11 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class SinglePlayerLevelSelectionFlowCoordinator::$$c__DisplayClass37_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public SinglePlayerLevelSelectionFlowCoordinator <>4__this
     // Size: 0x8
     // Offset: 0x10
@@ -54,6 +59,7 @@ namespace GlobalNamespace {
     System::Action* $$9__1;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
+    public:
     // Get instance field reference: public SinglePlayerLevelSelectionFlowCoordinator <>4__this
     GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*& dyn_$$4__this();
     // Get instance field reference: public System.Action beforeSceneSwitchCallback

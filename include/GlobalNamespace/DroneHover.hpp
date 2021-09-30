@@ -40,6 +40,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::DroneHover::SineLayer
     class SineLayer;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Vector3 _hoverAreaPerAxis
     // Size: 0xC
     // Offset: 0x18
@@ -105,6 +110,7 @@ namespace GlobalNamespace {
     UnityEngine::Cloth* cloth;
     // Field size check
     static_assert(sizeof(UnityEngine::Cloth*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Vector3 _hoverAreaPerAxis

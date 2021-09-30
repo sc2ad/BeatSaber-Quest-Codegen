@@ -19,6 +19,11 @@ namespace System::Security::Cryptography {
   // [ComVisibleAttribute] Offset: E5F4FC
   class SignatureDescription : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String _strKey
     // Size: 0x8
     // Offset: 0x10
@@ -43,6 +48,7 @@ namespace System::Security::Cryptography {
     ::Il2CppString* strDeformatter;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: private System.String _strKey
     ::Il2CppString*& dyn__strKey();
     // Get instance field reference: private System.String _strDigest

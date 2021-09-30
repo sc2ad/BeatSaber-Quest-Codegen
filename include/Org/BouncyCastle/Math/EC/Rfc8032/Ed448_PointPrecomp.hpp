@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: Org.BouncyCastle.Math.EC.Rfc8032
 namespace Org::BouncyCastle::Math::EC::Rfc8032 {
@@ -20,22 +21,28 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
   // [TokenAttribute] Offset: FFFFFFFF
   class Ed448::PointPrecomp : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.UInt32[] x
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<uint> x;
+    ::ArrayW<uint> x;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint>) == 0x8);
     // System.UInt32[] y
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<uint> y;
+    ::ArrayW<uint> y;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint>) == 0x8);
+    public:
     // Get instance field reference: System.UInt32[] x
-    ::ArrayWrapper<uint>& dyn_x();
+    ::ArrayW<uint>& dyn_x();
     // Get instance field reference: System.UInt32[] y
-    ::ArrayWrapper<uint>& dyn_y();
+    ::ArrayW<uint>& dyn_y();
     // public System.Void .ctor()
     // Offset: 0x1F92294
     // Implemented from: System.Object
@@ -47,7 +54,7 @@ namespace Org::BouncyCastle::Math::EC::Rfc8032 {
     }
   }; // Org.BouncyCastle.Math.EC.Rfc8032.Ed448/Org.BouncyCastle.Math.EC.Rfc8032.PointPrecomp
   #pragma pack(pop)
-  static check_size<sizeof(Ed448::PointPrecomp), 24 + sizeof(::ArrayWrapper<uint>)> __Org_BouncyCastle_Math_EC_Rfc8032_Ed448_PointPrecompSizeCheck;
+  static check_size<sizeof(Ed448::PointPrecomp), 24 + sizeof(::ArrayW<uint>)> __Org_BouncyCastle_Math_EC_Rfc8032_Ed448_PointPrecompSizeCheck;
   static_assert(sizeof(Ed448::PointPrecomp) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Rfc8032::Ed448::PointPrecomp*, "Org.BouncyCastle.Math.EC.Rfc8032", "Ed448/PointPrecomp");

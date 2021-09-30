@@ -28,12 +28,18 @@ namespace Zenject {
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
   class PrefabProvider : public ::Il2CppObject/*, public Zenject::IPrefabProvider*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly UnityEngine.Object _prefab
     // Size: 0x8
     // Offset: 0x10
     UnityEngine::Object* prefab;
     // Field size check
     static_assert(sizeof(UnityEngine::Object*) == 0x8);
+    public:
     // Creating interface conversion operator: operator Zenject::IPrefabProvider
     operator Zenject::IPrefabProvider() noexcept {
       return *reinterpret_cast<Zenject::IPrefabProvider*>(this);

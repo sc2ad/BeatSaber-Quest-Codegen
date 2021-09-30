@@ -29,6 +29,11 @@ namespace HoudiniEngineUnity {
     public:
     // Nested type: HoudiniEngineUnity::HEU_SessionSyncData::Status
     struct Status;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 _status
     // Size: 0x4
     // Offset: 0x10
@@ -97,6 +102,7 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::HAPI_SessionSyncInfo syncInfo;
     // Field size check
     static_assert(sizeof(HoudiniEngineUnity::HAPI_SessionSyncInfo) == 0x2);
+    public:
     // Get instance field reference: private System.Int32 _status
     int& dyn__status();
     // Get instance field reference: public System.Single _timeLastUpdate

@@ -32,12 +32,18 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct Direction/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: Direction
       constexpr Direction(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -78,12 +84,18 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct Bound/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: Bound
       constexpr Bound(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -112,6 +124,11 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(DynamicBoneColliderBase::Bound), 0 + sizeof(int)> __GlobalNamespace_DynamicBoneColliderBase_BoundSizeCheck;
     static_assert(sizeof(DynamicBoneColliderBase::Bound) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public DynamicBoneColliderBase/Direction m_Direction
     // Size: 0x4
     // Offset: 0x18
@@ -130,6 +147,7 @@ namespace GlobalNamespace {
     GlobalNamespace::DynamicBoneColliderBase::Bound m_Bound;
     // Field size check
     static_assert(sizeof(GlobalNamespace::DynamicBoneColliderBase::Bound) == 0x4);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public DynamicBoneColliderBase/Direction m_Direction

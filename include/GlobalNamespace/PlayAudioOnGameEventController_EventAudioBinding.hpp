@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -34,6 +35,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayAudioOnGameEventController::EventAudioBinding : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [HeaderAttribute] Offset: 0xF15694
     // private Signal _signal
     // Size: 0x8
@@ -52,9 +58,9 @@ namespace GlobalNamespace {
     // private LocalizedAudioClipSO[] _localizedAudioClips
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<GlobalNamespace::LocalizedAudioClipSO*> localizedAudioClips;
+    ::ArrayW<GlobalNamespace::LocalizedAudioClipSO*> localizedAudioClips;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::LocalizedAudioClipSO*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::LocalizedAudioClipSO*>) == 0x8);
     // private AudioClipQueue _audioClipQueue
     // Size: 0x8
     // Offset: 0x28
@@ -67,12 +73,13 @@ namespace GlobalNamespace {
     GlobalNamespace::RandomObjectPicker_1<GlobalNamespace::LocalizedAudioClipSO*>* randomObjectPicker;
     // Field size check
     static_assert(sizeof(GlobalNamespace::RandomObjectPicker_1<GlobalNamespace::LocalizedAudioClipSO*>*) == 0x8);
+    public:
     // Get instance field reference: private Signal _signal
     GlobalNamespace::Signal*& dyn__signal();
     // Get instance field reference: private System.Single _delay
     float& dyn__delay();
     // Get instance field reference: private LocalizedAudioClipSO[] _localizedAudioClips
-    ::ArrayWrapper<GlobalNamespace::LocalizedAudioClipSO*>& dyn__localizedAudioClips();
+    ::ArrayW<GlobalNamespace::LocalizedAudioClipSO*>& dyn__localizedAudioClips();
     // Get instance field reference: private AudioClipQueue _audioClipQueue
     GlobalNamespace::AudioClipQueue*& dyn__audioClipQueue();
     // Get instance field reference: private RandomObjectPicker`1<LocalizedAudioClipSO> _randomObjectPicker

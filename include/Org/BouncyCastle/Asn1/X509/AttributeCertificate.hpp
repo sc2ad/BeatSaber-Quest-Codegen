@@ -38,6 +38,11 @@ namespace Org::BouncyCastle::Asn1::X509 {
   // [TokenAttribute] Offset: FFFFFFFF
   class AttributeCertificate : public Org::BouncyCastle::Asn1::Asn1Encodable {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Org.BouncyCastle.Asn1.X509.AttributeCertificateInfo acinfo
     // Size: 0x8
     // Offset: 0x10
@@ -56,6 +61,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
     Org::BouncyCastle::Asn1::DerBitString* signatureValue;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::DerBitString*) == 0x8);
+    public:
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.X509.AttributeCertificateInfo acinfo
     Org::BouncyCastle::Asn1::X509::AttributeCertificateInfo*& dyn_acinfo();
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.X509.AlgorithmIdentifier signatureAlgorithm

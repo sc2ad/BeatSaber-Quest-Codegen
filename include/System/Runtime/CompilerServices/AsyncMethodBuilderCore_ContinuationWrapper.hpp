@@ -32,6 +32,11 @@ namespace System::Runtime::CompilerServices {
   // [TokenAttribute] Offset: FFFFFFFF
   class AsyncMethodBuilderCore::ContinuationWrapper : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // readonly System.Action m_continuation
     // Size: 0x8
     // Offset: 0x10
@@ -50,6 +55,7 @@ namespace System::Runtime::CompilerServices {
     System::Threading::Tasks::Task* m_innerTask;
     // Field size check
     static_assert(sizeof(System::Threading::Tasks::Task*) == 0x8);
+    public:
     // Get instance field reference: readonly System.Action m_continuation
     System::Action*& dyn_m_continuation();
     // Get instance field reference: private readonly System.Action m_invokeAction

@@ -46,6 +46,11 @@ namespace VRUIControls {
   // [RequireComponent] Offset: EEDA2C
   class VRPointer : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private VRController _leftVRController
     // Size: 0x8
     // Offset: 0x18
@@ -112,6 +117,7 @@ namespace VRUIControls {
     UnityEngine::EventSystems::PointerEventData* pointerData;
     // Field size check
     static_assert(sizeof(UnityEngine::EventSystems::PointerEventData*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static public System.Single kScrollMultiplier

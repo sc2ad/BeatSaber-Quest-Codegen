@@ -41,6 +41,11 @@ namespace UnityEngine::AddressableAssets::Initialization {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class InitializationOperation::$$c__DisplayClass16_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.AddressableAssets.AddressablesImpl addressables
     // Size: 0x8
     // Offset: 0x10
@@ -53,6 +58,7 @@ namespace UnityEngine::AddressableAssets::Initialization {
     ::Il2CppString* providerSuffix;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: public UnityEngine.AddressableAssets.AddressablesImpl addressables
     UnityEngine::AddressableAssets::AddressablesImpl*& dyn_addressables();
     // Get instance field reference: public System.String providerSuffix

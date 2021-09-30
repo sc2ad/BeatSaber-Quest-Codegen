@@ -27,12 +27,18 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_MeshIndexFormat : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Rendering.IndexFormat _indexFormat
     // Size: 0x4
     // Offset: 0x10
     UnityEngine::Rendering::IndexFormat indexFormat;
     // Field size check
     static_assert(sizeof(UnityEngine::Rendering::IndexFormat) == 0x4);
+    public:
     // Creating conversion operator: operator UnityEngine::Rendering::IndexFormat
     constexpr operator UnityEngine::Rendering::IndexFormat() const noexcept {
       return indexFormat;

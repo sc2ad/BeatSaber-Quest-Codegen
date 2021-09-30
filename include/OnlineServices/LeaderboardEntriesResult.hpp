@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: OnlineServices
@@ -27,6 +28,11 @@ namespace OnlineServices {
   // [TokenAttribute] Offset: FFFFFFFF
   class LeaderboardEntriesResult : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly System.Boolean isError
     // Size: 0x1
     // Offset: 0x10
@@ -44,21 +50,22 @@ namespace OnlineServices {
     // public readonly OnlineServices.LeaderboardEntryData[] leaderboardEntries
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<OnlineServices::LeaderboardEntryData*> leaderboardEntries;
+    ::ArrayW<OnlineServices::LeaderboardEntryData*> leaderboardEntries;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<OnlineServices::LeaderboardEntryData*>) == 0x8);
+    static_assert(sizeof(::ArrayW<OnlineServices::LeaderboardEntryData*>) == 0x8);
     // public readonly System.Int32 referencePlayerScoreIndex
     // Size: 0x4
     // Offset: 0x28
     int referencePlayerScoreIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: public readonly System.Boolean isError
     bool& dyn_isError();
     // Get instance field reference: public readonly System.String localizedErrorMessage
     ::Il2CppString*& dyn_localizedErrorMessage();
     // Get instance field reference: public readonly OnlineServices.LeaderboardEntryData[] leaderboardEntries
-    ::ArrayWrapper<OnlineServices::LeaderboardEntryData*>& dyn_leaderboardEntries();
+    ::ArrayW<OnlineServices::LeaderboardEntryData*>& dyn_leaderboardEntries();
     // Get instance field reference: public readonly System.Int32 referencePlayerScoreIndex
     int& dyn_referencePlayerScoreIndex();
     // static public OnlineServices.LeaderboardEntriesResult get_notInicializedError()
@@ -73,7 +80,7 @@ namespace OnlineServices {
     // private System.Void .ctor(OnlineServices.LeaderboardEntryData[] leaderboardEntries, System.Int32 referencePlayerScoreIndex, System.Boolean isError, System.String localizedErrorMessage)
     // Offset: 0x1120228
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static LeaderboardEntriesResult* New_ctor(::ArrayWrapper<OnlineServices::LeaderboardEntryData*> leaderboardEntries, int referencePlayerScoreIndex, bool isError, ::Il2CppString* localizedErrorMessage) {
+    static LeaderboardEntriesResult* New_ctor(::ArrayW<OnlineServices::LeaderboardEntryData*> leaderboardEntries, int referencePlayerScoreIndex, bool isError, ::Il2CppString* localizedErrorMessage) {
       static auto ___internal__logger = ::Logger::get().WithContext("OnlineServices::LeaderboardEntriesResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<LeaderboardEntriesResult*, creationType>(leaderboardEntries, referencePlayerScoreIndex, isError, localizedErrorMessage)));
     }

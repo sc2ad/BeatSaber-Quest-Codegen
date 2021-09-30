@@ -36,6 +36,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::PS4LeaderboardIdsModelSO::LeaderboardIdData
     class LeaderboardIdData;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.List`1<PS4LeaderboardIdsModelSO/LeaderboardIdData> _leaderboardIds
     // Size: 0x8
     // Offset: 0x18
@@ -48,6 +53,7 @@ namespace GlobalNamespace {
     System::Collections::Generic::Dictionary_2<::Il2CppString*, uint>* leaderboardIdToPs4Id;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, uint>*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Collections.Generic.List`1<PS4LeaderboardIdsModelSO/LeaderboardIdData> _leaderboardIds

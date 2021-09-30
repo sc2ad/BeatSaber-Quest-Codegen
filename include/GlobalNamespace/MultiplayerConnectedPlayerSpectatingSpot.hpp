@@ -46,6 +46,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerConnectedPlayerSpectatingSpot : public UnityEngine::MonoBehaviour/*, public GlobalNamespace::IMultiplayerSpectatingSpot*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xF0A3C4
     // private readonly IConnectedPlayer _connectedPlayer
     // Size: 0x8
@@ -91,6 +96,7 @@ namespace GlobalNamespace {
     bool playerFailed;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IMultiplayerSpectatingSpot
     operator GlobalNamespace::IMultiplayerSpectatingSpot() noexcept {
       return *reinterpret_cast<GlobalNamespace::IMultiplayerSpectatingSpot*>(this);

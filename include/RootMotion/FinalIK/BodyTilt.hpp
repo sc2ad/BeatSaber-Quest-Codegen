@@ -27,6 +27,11 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class BodyTilt : public RootMotion::FinalIK::OffsetModifier {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [TooltipAttribute] Offset: 0xEF44D0
     // public System.Single tiltSpeed
     // Size: 0x4
@@ -69,6 +74,7 @@ namespace RootMotion::FinalIK {
     UnityEngine::Vector3 lastForward;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    public:
     // Get instance field reference: public System.Single tiltSpeed
     float& dyn_tiltSpeed();
     // Get instance field reference: public System.Single tiltSensitivity

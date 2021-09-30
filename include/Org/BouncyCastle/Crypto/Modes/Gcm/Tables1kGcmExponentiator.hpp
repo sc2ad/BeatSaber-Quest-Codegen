@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections
@@ -27,12 +28,18 @@ namespace Org::BouncyCastle::Crypto::Modes::Gcm {
   // [TokenAttribute] Offset: FFFFFFFF
   class Tables1kGcmExponentiator : public ::Il2CppObject/*, public Org::BouncyCastle::Crypto::Modes::Gcm::IGcmExponentiator*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.IList lookupPowX2
     // Size: 0x8
     // Offset: 0x10
     System::Collections::IList* lookupPowX2;
     // Field size check
     static_assert(sizeof(System::Collections::IList*) == 0x8);
+    public:
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::Modes::Gcm::IGcmExponentiator
     operator Org::BouncyCastle::Crypto::Modes::Gcm::IGcmExponentiator() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::Modes::Gcm::IGcmExponentiator*>(this);
@@ -45,10 +52,10 @@ namespace Org::BouncyCastle::Crypto::Modes::Gcm {
     System::Collections::IList*& dyn_lookupPowX2();
     // public System.Void Init(System.Byte[] x)
     // Offset: 0x1A9297C
-    void Init(::ArrayWrapper<uint8_t> x);
+    void Init(::ArrayW<uint8_t> x);
     // public System.Void ExponentiateX(System.Int64 pow, System.Byte[] output)
     // Offset: 0x1A92B90
-    void ExponentiateX(int64_t pow, ::ArrayWrapper<uint8_t> output);
+    void ExponentiateX(int64_t pow, ::ArrayW<uint8_t> output);
     // private System.Void EnsureAvailable(System.Int32 bit)
     // Offset: 0x1A92D50
     void EnsureAvailable(int bit);
@@ -71,7 +78,7 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponen
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator::*)(::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator::*)(::ArrayW<uint8_t>)>(&Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator::Init)> {
   static const MethodInfo* get() {
     static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{x});
@@ -80,7 +87,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator::ExponentiateX
 // Il2CppName: ExponentiateX
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator::*)(int64_t, ::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator::ExponentiateX)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator::*)(int64_t, ::ArrayW<uint8_t>)>(&Org::BouncyCastle::Crypto::Modes::Gcm::Tables1kGcmExponentiator::ExponentiateX)> {
   static const MethodInfo* get() {
     static auto* pow = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     static auto* output = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;

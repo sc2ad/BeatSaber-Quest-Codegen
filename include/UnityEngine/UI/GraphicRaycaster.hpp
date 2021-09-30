@@ -68,12 +68,18 @@ namespace UnityEngine::UI {
     // [TokenAttribute] Offset: FFFFFFFF
     struct BlockingObjects/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: BlockingObjects
       constexpr BlockingObjects(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -114,6 +120,11 @@ namespace UnityEngine::UI {
     #pragma pack(pop)
     static check_size<sizeof(GraphicRaycaster::BlockingObjects), 0 + sizeof(int)> __UnityEngine_UI_GraphicRaycaster_BlockingObjectsSizeCheck;
     static_assert(sizeof(GraphicRaycaster::BlockingObjects) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [FormerlySerializedAsAttribute] Offset: 0xEA938C
     // private System.Boolean m_IgnoreReversedGraphics
     // Size: 0x1
@@ -150,6 +161,7 @@ namespace UnityEngine::UI {
     System::Collections::Generic::List_1<UnityEngine::UI::Graphic*>* m_RaycastResults;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::UI::Graphic*>*) == 0x8);
+    public:
     // static field const value: static protected System.Int32 kNoEventMaskSet
     static constexpr const int kNoEventMaskSet = -1;
     // Get static field: static protected System.Int32 kNoEventMaskSet

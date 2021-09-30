@@ -16,6 +16,11 @@ namespace NetEase::Docker {
   // [TokenAttribute] Offset: FFFFFFFF
   struct LogoutData/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [DebuggerBrowsableAttribute] Offset: 0xEEDD98
     // private System.Int32 <LogoutCode>k__BackingField
     // Size: 0x4
@@ -23,6 +28,7 @@ namespace NetEase::Docker {
     int LogoutCode;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: LogoutData
     constexpr LogoutData(int LogoutCode_ = {}) noexcept : LogoutCode{LogoutCode_} {}
     // Creating interface conversion operator: operator System::ValueType

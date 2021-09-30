@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -52,12 +53,18 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct RecordMode/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: RecordMode
       constexpr RecordMode(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -92,6 +99,11 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(VRTrackersRecorder::RecordMode), 0 + sizeof(int)> __GlobalNamespace_VRTrackersRecorder_RecordModeSizeCheck;
     static_assert(sizeof(VRTrackersRecorder::RecordMode) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private FloatSO _songTime
     // Size: 0x8
     // Offset: 0x18
@@ -121,9 +133,9 @@ namespace GlobalNamespace {
     // private UnityEngine.Transform[] _playbackTransforms
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayWrapper<UnityEngine::Transform*> playbackTransforms;
+    ::ArrayW<UnityEngine::Transform*> playbackTransforms;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Transform*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Transform*>) == 0x8);
     // private System.Collections.Generic.List`1<VRTrackersRecorder/Keyframe> _keyframes
     // Size: 0x8
     // Offset: 0x40
@@ -156,6 +168,7 @@ namespace GlobalNamespace {
     UnityEngine::Quaternion loadedOriginRot;
     // Field size check
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private FloatSO _songTime
@@ -167,7 +180,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Transform _originTransform
     UnityEngine::Transform*& dyn__originTransform();
     // Get instance field reference: private UnityEngine.Transform[] _playbackTransforms
-    ::ArrayWrapper<UnityEngine::Transform*>& dyn__playbackTransforms();
+    ::ArrayW<UnityEngine::Transform*>& dyn__playbackTransforms();
     // Get instance field reference: private System.Collections.Generic.List`1<VRTrackersRecorder/Keyframe> _keyframes
     System::Collections::Generic::List_1<GlobalNamespace::VRTrackersRecorder::Keyframe*>*& dyn__keyframes();
     // Get instance field reference: private System.Int32 _keyframeIndex
@@ -192,7 +205,7 @@ namespace GlobalNamespace {
     void OnDisable();
     // private System.Void OnNewPoses(Valve.VR.TrackedDevicePose_t[] poses)
     // Offset: 0x134C24C
-    void OnNewPoses(::ArrayWrapper<Valve::VR::TrackedDevicePose_t> poses);
+    void OnNewPoses(::ArrayW<Valve::VR::TrackedDevicePose_t> poses);
     // protected System.Void Update()
     // Offset: 0x134C4C0
     void Update();
@@ -258,7 +271,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::VRTrackersRecorder::OnNewPoses
 // Il2CppName: OnNewPoses
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::VRTrackersRecorder::*)(::ArrayWrapper<Valve::VR::TrackedDevicePose_t>)>(&GlobalNamespace::VRTrackersRecorder::OnNewPoses)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::VRTrackersRecorder::*)(::ArrayW<Valve::VR::TrackedDevicePose_t>)>(&GlobalNamespace::VRTrackersRecorder::OnNewPoses)> {
   static const MethodInfo* get() {
     static auto* poses = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Valve.VR", "TrackedDevicePose_t"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::VRTrackersRecorder*), "OnNewPoses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{poses});

@@ -32,6 +32,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SongTimeAnimationPlayer : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private FloatSO _songTime
     // Size: 0x8
     // Offset: 0x18
@@ -44,6 +49,7 @@ namespace GlobalNamespace {
     UnityEngine::AnimationClip* animationClip;
     // Field size check
     static_assert(sizeof(UnityEngine::AnimationClip*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private FloatSO _songTime

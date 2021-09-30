@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -31,12 +32,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerConnectedPlayerObstacleClippingController : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private MaterialPropertyBlockController[] _materialPropertyBlockControllers
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<GlobalNamespace::MaterialPropertyBlockController*> materialPropertyBlockControllers;
+    ::ArrayW<GlobalNamespace::MaterialPropertyBlockController*> materialPropertyBlockControllers;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MaterialPropertyBlockController*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::MaterialPropertyBlockController*>) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF089E0
@@ -50,7 +57,7 @@ namespace GlobalNamespace {
     // Set static field: static private readonly System.Int32 _clippingPlaneNormalID
     static void _set__clippingPlaneNormalID(int value);
     // Get instance field reference: private MaterialPropertyBlockController[] _materialPropertyBlockControllers
-    ::ArrayWrapper<GlobalNamespace::MaterialPropertyBlockController*>& dyn__materialPropertyBlockControllers();
+    ::ArrayW<GlobalNamespace::MaterialPropertyBlockController*>& dyn__materialPropertyBlockControllers();
     // public System.Void SetClippingParams(UnityEngine.Vector3 position, UnityEngine.Vector3 normal)
     // Offset: 0x12134A8
     void SetClippingParams(UnityEngine::Vector3 position, UnityEngine::Vector3 normal);
@@ -74,7 +81,7 @@ namespace GlobalNamespace {
     static void _cctor();
   }; // MultiplayerConnectedPlayerObstacleClippingController
   #pragma pack(pop)
-  static check_size<sizeof(MultiplayerConnectedPlayerObstacleClippingController), 24 + sizeof(::ArrayWrapper<GlobalNamespace::MaterialPropertyBlockController*>)> __GlobalNamespace_MultiplayerConnectedPlayerObstacleClippingControllerSizeCheck;
+  static check_size<sizeof(MultiplayerConnectedPlayerObstacleClippingController), 24 + sizeof(::ArrayW<GlobalNamespace::MaterialPropertyBlockController*>)> __GlobalNamespace_MultiplayerConnectedPlayerObstacleClippingControllerSizeCheck;
   static_assert(sizeof(MultiplayerConnectedPlayerObstacleClippingController) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerConnectedPlayerObstacleClippingController*, "", "MultiplayerConnectedPlayerObstacleClippingController");

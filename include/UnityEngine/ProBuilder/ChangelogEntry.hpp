@@ -25,6 +25,11 @@ namespace UnityEngine::ProBuilder {
   // [TokenAttribute] Offset: FFFFFFFF
   class ChangelogEntry : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.ProBuilder.SemVer m_VersionInfo
     // Size: 0x8
     // Offset: 0x10
@@ -37,6 +42,7 @@ namespace UnityEngine::ProBuilder {
     ::Il2CppString* m_ReleaseNotes;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: private UnityEngine.ProBuilder.SemVer m_VersionInfo
     UnityEngine::ProBuilder::SemVer*& dyn_m_VersionInfo();
     // Get instance field reference: private System.String m_ReleaseNotes

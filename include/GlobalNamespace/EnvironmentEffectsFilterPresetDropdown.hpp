@@ -51,6 +51,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::EnvironmentEffectsFilterPresetDropdown::$$c
     class $$c;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private HMUI.SimpleTextDropdown _simpleTextDropdown
     // Size: 0x8
     // Offset: 0x18
@@ -69,6 +74,7 @@ namespace GlobalNamespace {
     System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<GlobalNamespace::EnvironmentEffectsFilterPreset, ::Il2CppString*>*>* lightReductionAmountData;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::IReadOnlyList_1<System::Tuple_2<GlobalNamespace::EnvironmentEffectsFilterPreset, ::Il2CppString*>*>*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private HMUI.SimpleTextDropdown _simpleTextDropdown

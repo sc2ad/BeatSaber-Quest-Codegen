@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -81,10 +82,10 @@ namespace UnityEngine::Tilemaps {
     }
     // UnityEngine.Object[] GetTileAssetsBlock(UnityEngine.Vector3Int position, UnityEngine.Vector3Int blockDimensions)
     // Offset: 0x2622DF8
-    ::ArrayWrapper<UnityEngine::Object*> GetTileAssetsBlock(UnityEngine::Vector3Int position, UnityEngine::Vector3Int blockDimensions);
+    ::ArrayW<UnityEngine::Object*> GetTileAssetsBlock(UnityEngine::Vector3Int position, UnityEngine::Vector3Int blockDimensions);
     // public UnityEngine.Tilemaps.TileBase[] GetTilesBlock(UnityEngine.BoundsInt bounds)
     // Offset: 0x2622EB4
-    ::ArrayWrapper<UnityEngine::Tilemaps::TileBase*> GetTilesBlock(UnityEngine::BoundsInt bounds);
+    ::ArrayW<UnityEngine::Tilemaps::TileBase*> GetTilesBlock(UnityEngine::BoundsInt bounds);
     // public System.Boolean HasTile(UnityEngine.Vector3Int position)
     // Offset: 0x2623054
     bool HasTile(UnityEngine::Vector3Int position);
@@ -96,10 +97,10 @@ namespace UnityEngine::Tilemaps {
     int GetUsedTilesCount();
     // public System.Int32 GetUsedTilesNonAlloc(UnityEngine.Tilemaps.TileBase[] usedTiles)
     // Offset: 0x2623178
-    int GetUsedTilesNonAlloc(::ArrayWrapper<UnityEngine::Tilemaps::TileBase*> usedTiles);
+    int GetUsedTilesNonAlloc(::ArrayW<UnityEngine::Tilemaps::TileBase*> usedTiles);
     // System.Int32 Internal_GetUsedTilesNonAlloc(UnityEngine.Object[] usedTiles)
     // Offset: 0x26231C8
-    int Internal_GetUsedTilesNonAlloc(::ArrayWrapper<UnityEngine::Object*> usedTiles);
+    int Internal_GetUsedTilesNonAlloc(::ArrayW<UnityEngine::Object*> usedTiles);
     // private System.Void get_origin_Injected(out UnityEngine.Vector3Int ret)
     // Offset: 0x2622B38
     void get_origin_Injected(ByRef<UnityEngine::Vector3Int> ret);
@@ -117,7 +118,7 @@ namespace UnityEngine::Tilemaps {
     UnityEngine::Object* GetTileAsset_Injected(ByRef<UnityEngine::Vector3Int> position);
     // private UnityEngine.Object[] GetTileAssetsBlock_Injected(ref UnityEngine.Vector3Int position, ref UnityEngine.Vector3Int blockDimensions)
     // Offset: 0x2622E5C
-    ::ArrayWrapper<UnityEngine::Object*> GetTileAssetsBlock_Injected(ByRef<UnityEngine::Vector3Int> position, ByRef<UnityEngine::Vector3Int> blockDimensions);
+    ::ArrayW<UnityEngine::Object*> GetTileAssetsBlock_Injected(ByRef<UnityEngine::Vector3Int> position, ByRef<UnityEngine::Vector3Int> blockDimensions);
     // private System.Void RefreshTile_Injected(ref UnityEngine.Vector3Int position)
     // Offset: 0x26230E8
     void RefreshTile_Injected(ByRef<UnityEngine::Vector3Int> position);
@@ -189,7 +190,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Tilemaps::Tilemap::GetTileAssetsBlock
 // Il2CppName: GetTileAssetsBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Object*> (UnityEngine::Tilemaps::Tilemap::*)(UnityEngine::Vector3Int, UnityEngine::Vector3Int)>(&UnityEngine::Tilemaps::Tilemap::GetTileAssetsBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Object*> (UnityEngine::Tilemaps::Tilemap::*)(UnityEngine::Vector3Int, UnityEngine::Vector3Int)>(&UnityEngine::Tilemaps::Tilemap::GetTileAssetsBlock)> {
   static const MethodInfo* get() {
     static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3Int")->byval_arg;
     static auto* blockDimensions = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3Int")->byval_arg;
@@ -199,7 +200,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::Tilemaps::Tilemap::GetTilesBlock
 // Il2CppName: GetTilesBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Tilemaps::TileBase*> (UnityEngine::Tilemaps::Tilemap::*)(UnityEngine::BoundsInt)>(&UnityEngine::Tilemaps::Tilemap::GetTilesBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Tilemaps::TileBase*> (UnityEngine::Tilemaps::Tilemap::*)(UnityEngine::BoundsInt)>(&UnityEngine::Tilemaps::Tilemap::GetTilesBlock)> {
   static const MethodInfo* get() {
     static auto* bounds = &::il2cpp_utils::GetClassFromName("UnityEngine", "BoundsInt")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Tilemaps::Tilemap*), "GetTilesBlock", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bounds});
@@ -234,7 +235,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Writing MetadataGetter for method: UnityEngine::Tilemaps::Tilemap::GetUsedTilesNonAlloc
 // Il2CppName: GetUsedTilesNonAlloc
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Tilemaps::Tilemap::*)(::ArrayWrapper<UnityEngine::Tilemaps::TileBase*>)>(&UnityEngine::Tilemaps::Tilemap::GetUsedTilesNonAlloc)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Tilemaps::Tilemap::*)(::ArrayW<UnityEngine::Tilemaps::TileBase*>)>(&UnityEngine::Tilemaps::Tilemap::GetUsedTilesNonAlloc)> {
   static const MethodInfo* get() {
     static auto* usedTiles = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine.Tilemaps", "TileBase"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Tilemaps::Tilemap*), "GetUsedTilesNonAlloc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{usedTiles});
@@ -243,7 +244,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Writing MetadataGetter for method: UnityEngine::Tilemaps::Tilemap::Internal_GetUsedTilesNonAlloc
 // Il2CppName: Internal_GetUsedTilesNonAlloc
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Tilemaps::Tilemap::*)(::ArrayWrapper<UnityEngine::Object*>)>(&UnityEngine::Tilemaps::Tilemap::Internal_GetUsedTilesNonAlloc)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityEngine::Tilemaps::Tilemap::*)(::ArrayW<UnityEngine::Object*>)>(&UnityEngine::Tilemaps::Tilemap::Internal_GetUsedTilesNonAlloc)> {
   static const MethodInfo* get() {
     static auto* usedTiles = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Tilemaps::Tilemap*), "Internal_GetUsedTilesNonAlloc", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{usedTiles});
@@ -297,7 +298,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Tilemaps::Tilemap::GetTileAssetsBlock_Injected
 // Il2CppName: GetTileAssetsBlock_Injected
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Object*> (UnityEngine::Tilemaps::Tilemap::*)(ByRef<UnityEngine::Vector3Int>, ByRef<UnityEngine::Vector3Int>)>(&UnityEngine::Tilemaps::Tilemap::GetTileAssetsBlock_Injected)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Object*> (UnityEngine::Tilemaps::Tilemap::*)(ByRef<UnityEngine::Vector3Int>, ByRef<UnityEngine::Vector3Int>)>(&UnityEngine::Tilemaps::Tilemap::GetTileAssetsBlock_Injected)> {
   static const MethodInfo* get() {
     static auto* position = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3Int")->this_arg;
     static auto* blockDimensions = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3Int")->this_arg;

@@ -25,6 +25,11 @@ namespace Org::BouncyCastle::Math::EC::Abc {
   // [TokenAttribute] Offset: FFFFFFFF
   class SimpleBigDecimal : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Org.BouncyCastle.Math.BigInteger bigInt
     // Size: 0x8
     // Offset: 0x10
@@ -37,6 +42,7 @@ namespace Org::BouncyCastle::Math::EC::Abc {
     int scale;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: private readonly Org.BouncyCastle.Math.BigInteger bigInt
     Org::BouncyCastle::Math::BigInteger*& dyn_bigInt();
     // Get instance field reference: private readonly System.Int32 scale

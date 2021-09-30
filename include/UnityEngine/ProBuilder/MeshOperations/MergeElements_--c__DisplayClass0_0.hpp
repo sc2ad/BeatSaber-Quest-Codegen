@@ -34,12 +34,18 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class MergeElements::$$c__DisplayClass0_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Collections.Generic.HashSet`1<UnityEngine.ProBuilder.Face> remove
     // Size: 0x8
     // Offset: 0x10
     System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Face*>* remove;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Face*>*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Face*>*
     constexpr operator System::Collections::Generic::HashSet_1<UnityEngine::ProBuilder::Face*>*() const noexcept {
       return remove;

@@ -38,12 +38,18 @@ namespace System::Net::Http::Headers {
   // [TokenAttribute] Offset: FFFFFFFF
   class NameValueWithParametersHeaderValue : public System::Net::Http::Headers::NameValueHeaderValue {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.List`1<System.Net.Http.Headers.NameValueHeaderValue> parameters
     // Size: 0x8
     // Offset: 0x20
     System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueHeaderValue*>* parameters;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueHeaderValue*>*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueHeaderValue*>*
     constexpr operator System::Collections::Generic::List_1<System::Net::Http::Headers::NameValueHeaderValue*>*() const noexcept {
       return parameters;

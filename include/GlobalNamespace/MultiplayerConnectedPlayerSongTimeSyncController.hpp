@@ -33,6 +33,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController::InitData
     class InitData;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Single _audioSyncLerpSpeed
     // Size: 0x4
     // Offset: 0x18
@@ -113,6 +118,7 @@ namespace GlobalNamespace {
     bool isReady;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IAudioTimeSource
     operator GlobalNamespace::IAudioTimeSource() noexcept {
       return *reinterpret_cast<GlobalNamespace::IAudioTimeSource*>(this);

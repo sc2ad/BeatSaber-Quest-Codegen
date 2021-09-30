@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Xml
@@ -49,12 +50,18 @@ namespace System::Xml {
     // [TokenAttribute] Offset: FFFFFFFF
     struct XmlEventType/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: XmlEventType
       constexpr XmlEventType(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -234,6 +241,11 @@ namespace System::Xml {
     // [TokenAttribute] Offset: FFFFFFFF
     struct XmlEvent/*, public System::ValueType*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // private System.Xml.XmlEventCache/System.Xml.XmlEventType eventType
       // Size: 0x4
       // Offset: 0x0
@@ -266,6 +278,7 @@ namespace System::Xml {
       ::Il2CppObject* o;
       // Field size check
       static_assert(sizeof(::Il2CppObject*) == 0x8);
+      public:
       // Creating value type constructor for type: XmlEvent
       constexpr XmlEvent(System::Xml::XmlEventCache::XmlEventType eventType_ = {}, ::Il2CppString* s1_ = {}, ::Il2CppString* s2_ = {}, ::Il2CppString* s3_ = {}, ::Il2CppObject* o_ = {}) noexcept : eventType{eventType_}, s1{s1_}, s2{s2_}, s3{s3_}, o{o_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -319,18 +332,23 @@ namespace System::Xml {
     #pragma pack(pop)
     static check_size<sizeof(XmlEventCache::XmlEvent), 32 + sizeof(::Il2CppObject*)> __System_Xml_XmlEventCache_XmlEventSizeCheck;
     static_assert(sizeof(XmlEventCache::XmlEvent) == 0x28);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.List`1<System.Xml.XmlEventCache/System.Xml.XmlEvent[]> pages
     // Size: 0x8
     // Offset: 0x20
-    System::Collections::Generic::List_1<::ArrayWrapper<System::Xml::XmlEventCache::XmlEvent>>* pages;
+    System::Collections::Generic::List_1<::ArrayW<System::Xml::XmlEventCache::XmlEvent>>* pages;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<::ArrayWrapper<System::Xml::XmlEventCache::XmlEvent>>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::List_1<::ArrayW<System::Xml::XmlEventCache::XmlEvent>>*) == 0x8);
     // private System.Xml.XmlEventCache/System.Xml.XmlEvent[] pageCurr
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<System::Xml::XmlEventCache::XmlEvent> pageCurr;
+    ::ArrayW<System::Xml::XmlEventCache::XmlEvent> pageCurr;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<System::Xml::XmlEventCache::XmlEvent>) == 0x8);
+    static_assert(sizeof(::ArrayW<System::Xml::XmlEventCache::XmlEvent>) == 0x8);
     // private System.Int32 pageSize
     // Size: 0x4
     // Offset: 0x30
@@ -359,10 +377,11 @@ namespace System::Xml {
     ::Il2CppString* baseUri;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: private System.Collections.Generic.List`1<System.Xml.XmlEventCache/System.Xml.XmlEvent[]> pages
-    System::Collections::Generic::List_1<::ArrayWrapper<System::Xml::XmlEventCache::XmlEvent>>*& dyn_pages();
+    System::Collections::Generic::List_1<::ArrayW<System::Xml::XmlEventCache::XmlEvent>>*& dyn_pages();
     // Get instance field reference: private System.Xml.XmlEventCache/System.Xml.XmlEvent[] pageCurr
-    ::ArrayWrapper<System::Xml::XmlEventCache::XmlEvent>& dyn_pageCurr();
+    ::ArrayW<System::Xml::XmlEventCache::XmlEvent>& dyn_pageCurr();
     // Get instance field reference: private System.Int32 pageSize
     int& dyn_pageSize();
     // Get instance field reference: private System.Boolean hasRootNode
@@ -407,7 +426,7 @@ namespace System::Xml {
     int NewEvent();
     // static private System.Byte[] ToBytes(System.Byte[] buffer, System.Int32 index, System.Int32 count)
     // Offset: 0x1B04178
-    static ::ArrayWrapper<uint8_t> ToBytes(::ArrayWrapper<uint8_t> buffer, int index, int count);
+    static ::ArrayW<uint8_t> ToBytes(::ArrayW<uint8_t> buffer, int index, int count);
     // public override System.Void WriteDocType(System.String name, System.String pubid, System.String sysid, System.String subset)
     // Offset: 0x1B03CDC
     // Implemented from: System.Xml.XmlRawWriter
@@ -457,12 +476,12 @@ namespace System::Xml {
     // Offset: 0x1B03F3C
     // Implemented from: System.Xml.XmlRawWriter
     // Base method: System.Void XmlRawWriter::WriteChars(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    void WriteChars(::ArrayWrapper<::Il2CppChar> buffer, int index, int count);
+    void WriteChars(::ArrayW<::Il2CppChar> buffer, int index, int count);
     // public override System.Void WriteRaw(System.Char[] buffer, System.Int32 index, System.Int32 count)
     // Offset: 0x1B03F78
     // Implemented from: System.Xml.XmlRawWriter
     // Base method: System.Void XmlRawWriter::WriteRaw(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    void WriteRaw(::ArrayWrapper<::Il2CppChar> buffer, int index, int count);
+    void WriteRaw(::ArrayW<::Il2CppChar> buffer, int index, int count);
     // public override System.Void WriteRaw(System.String data)
     // Offset: 0x1B03FB4
     // Implemented from: System.Xml.XmlRawWriter
@@ -487,12 +506,12 @@ namespace System::Xml {
     // Offset: 0x1B04140
     // Implemented from: System.Xml.XmlRawWriter
     // Base method: System.Void XmlRawWriter::WriteBase64(System.Byte[] buffer, System.Int32 index, System.Int32 count)
-    void WriteBase64(::ArrayWrapper<uint8_t> buffer, int index, int count);
+    void WriteBase64(::ArrayW<uint8_t> buffer, int index, int count);
     // public override System.Void WriteBinHex(System.Byte[] buffer, System.Int32 index, System.Int32 count)
     // Offset: 0x1B04234
     // Implemented from: System.Xml.XmlWriter
     // Base method: System.Void XmlWriter::WriteBinHex(System.Byte[] buffer, System.Int32 index, System.Int32 count)
-    void WriteBinHex(::ArrayWrapper<uint8_t> buffer, int index, int count);
+    void WriteBinHex(::ArrayW<uint8_t> buffer, int index, int count);
     // public override System.Void Close()
     // Offset: 0x1B0426C
     // Implemented from: System.Xml.XmlWriter
@@ -654,7 +673,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Xml::XmlEventCache::ToBytes
 // Il2CppName: ToBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(::ArrayWrapper<uint8_t>, int, int)>(&System::Xml::XmlEventCache::ToBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(::ArrayW<uint8_t>, int, int)>(&System::Xml::XmlEventCache::ToBytes)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -753,7 +772,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlEventCache::WriteChars
 // Il2CppName: WriteChars
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlEventCache::*)(::ArrayWrapper<::Il2CppChar>, int, int)>(&System::Xml::XmlEventCache::WriteChars)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlEventCache::*)(::ArrayW<::Il2CppChar>, int, int)>(&System::Xml::XmlEventCache::WriteChars)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -764,7 +783,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlEventCache::WriteRaw
 // Il2CppName: WriteRaw
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlEventCache::*)(::ArrayWrapper<::Il2CppChar>, int, int)>(&System::Xml::XmlEventCache::WriteRaw)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlEventCache::*)(::ArrayW<::Il2CppChar>, int, int)>(&System::Xml::XmlEventCache::WriteRaw)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -812,7 +831,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlEventCache::WriteBase64
 // Il2CppName: WriteBase64
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlEventCache::*)(::ArrayWrapper<uint8_t>, int, int)>(&System::Xml::XmlEventCache::WriteBase64)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlEventCache::*)(::ArrayW<uint8_t>, int, int)>(&System::Xml::XmlEventCache::WriteBase64)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -823,7 +842,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::XmlEventCache::WriteBinHex
 // Il2CppName: WriteBinHex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlEventCache::*)(::ArrayWrapper<uint8_t>, int, int)>(&System::Xml::XmlEventCache::WriteBinHex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlEventCache::*)(::ArrayW<uint8_t>, int, int)>(&System::Xml::XmlEventCache::WriteBinHex)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

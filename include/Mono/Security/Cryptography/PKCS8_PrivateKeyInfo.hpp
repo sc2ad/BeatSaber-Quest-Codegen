@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections
@@ -38,6 +39,11 @@ namespace Mono::Security::Cryptography {
   // [TokenAttribute] Offset: FFFFFFFF
   class PKCS8::PrivateKeyInfo : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 _version
     // Size: 0x4
     // Offset: 0x10
@@ -55,57 +61,58 @@ namespace Mono::Security::Cryptography {
     // private System.Byte[] _key
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<uint8_t> key;
+    ::ArrayW<uint8_t> key;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Collections.ArrayList _list
     // Size: 0x8
     // Offset: 0x28
     System::Collections::ArrayList* list;
     // Field size check
     static_assert(sizeof(System::Collections::ArrayList*) == 0x8);
+    public:
     // Get instance field reference: private System.Int32 _version
     int& dyn__version();
     // Get instance field reference: private System.String _algorithm
     ::Il2CppString*& dyn__algorithm();
     // Get instance field reference: private System.Byte[] _key
-    ::ArrayWrapper<uint8_t>& dyn__key();
+    ::ArrayW<uint8_t>& dyn__key();
     // Get instance field reference: private System.Collections.ArrayList _list
     System::Collections::ArrayList*& dyn__list();
     // public System.Byte[] get_PrivateKey()
     // Offset: 0x1F9EA90
-    ::ArrayWrapper<uint8_t> get_PrivateKey();
+    ::ArrayW<uint8_t> get_PrivateKey();
     // public System.Void .ctor(System.Byte[] data)
     // Offset: 0x1F9E830
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static PKCS8::PrivateKeyInfo* New_ctor(::ArrayWrapper<uint8_t> data) {
+    static PKCS8::PrivateKeyInfo* New_ctor(::ArrayW<uint8_t> data) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::Cryptography::PKCS8::PrivateKeyInfo::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<PKCS8::PrivateKeyInfo*, creationType>(data)));
     }
     // private System.Void Decode(System.Byte[] data)
     // Offset: 0x1F9E85C
-    void Decode(::ArrayWrapper<uint8_t> data);
+    void Decode(::ArrayW<uint8_t> data);
     // static private System.Byte[] RemoveLeadingZero(System.Byte[] bigInt)
     // Offset: 0x1F9EB0C
-    static ::ArrayWrapper<uint8_t> RemoveLeadingZero(::ArrayWrapper<uint8_t> bigInt);
+    static ::ArrayW<uint8_t> RemoveLeadingZero(::ArrayW<uint8_t> bigInt);
     // static private System.Byte[] Normalize(System.Byte[] bigInt, System.Int32 length)
     // Offset: 0x1F9EBB8
-    static ::ArrayWrapper<uint8_t> Normalize(::ArrayWrapper<uint8_t> bigInt, int length);
+    static ::ArrayW<uint8_t> Normalize(::ArrayW<uint8_t> bigInt, int length);
     // static public System.Security.Cryptography.RSA DecodeRSA(System.Byte[] keypair)
     // Offset: 0x1F9EC6C
-    static System::Security::Cryptography::RSA* DecodeRSA(::ArrayWrapper<uint8_t> keypair);
+    static System::Security::Cryptography::RSA* DecodeRSA(::ArrayW<uint8_t> keypair);
     // static public System.Byte[] Encode(System.Security.Cryptography.RSA rsa)
     // Offset: 0x1F9EFE8
-    static ::ArrayWrapper<uint8_t> Encode(System::Security::Cryptography::RSA* rsa);
+    static ::ArrayW<uint8_t> Encode(System::Security::Cryptography::RSA* rsa);
     // static public System.Security.Cryptography.DSA DecodeDSA(System.Byte[] privateKey, System.Security.Cryptography.DSAParameters dsaParameters)
     // Offset: 0x1F9F1AC
-    static System::Security::Cryptography::DSA* DecodeDSA(::ArrayWrapper<uint8_t> privateKey, System::Security::Cryptography::DSAParameters dsaParameters);
+    static System::Security::Cryptography::DSA* DecodeDSA(::ArrayW<uint8_t> privateKey, System::Security::Cryptography::DSAParameters dsaParameters);
     // static public System.Byte[] Encode(System.Security.Cryptography.DSA dsa)
     // Offset: 0x1F9F2C8
-    static ::ArrayWrapper<uint8_t> Encode(System::Security::Cryptography::DSA* dsa);
+    static ::ArrayW<uint8_t> Encode(System::Security::Cryptography::DSA* dsa);
     // static public System.Byte[] Encode(System.Security.Cryptography.AsymmetricAlgorithm aa)
     // Offset: 0x1F9F314
-    static ::ArrayWrapper<uint8_t> Encode(System::Security::Cryptography::AsymmetricAlgorithm* aa);
+    static ::ArrayW<uint8_t> Encode(System::Security::Cryptography::AsymmetricAlgorithm* aa);
     // public System.Void .ctor()
     // Offset: 0x1F9E7C0
     // Implemented from: System.Object
@@ -125,7 +132,7 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::Security::Cryptography::PKCS8::PrivateKeyInfo*, "Mo
 // Writing MetadataGetter for method: Mono::Security::Cryptography::PKCS8::PrivateKeyInfo::get_PrivateKey
 // Il2CppName: get_PrivateKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Mono::Security::Cryptography::PKCS8::PrivateKeyInfo::*)()>(&Mono::Security::Cryptography::PKCS8::PrivateKeyInfo::get_PrivateKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Mono::Security::Cryptography::PKCS8::PrivateKeyInfo::*)()>(&Mono::Security::Cryptography::PKCS8::PrivateKeyInfo::get_PrivateKey)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::PKCS8::PrivateKeyInfo*), "get_PrivateKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -137,7 +144,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: Mono::Security::Cryptography::PKCS8::PrivateKeyInfo::Decode
 // Il2CppName: Decode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::PKCS8::PrivateKeyInfo::*)(::ArrayWrapper<uint8_t>)>(&Mono::Security::Cryptography::PKCS8::PrivateKeyInfo::Decode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Cryptography::PKCS8::PrivateKeyInfo::*)(::ArrayW<uint8_t>)>(&Mono::Security::Cryptography::PKCS8::PrivateKeyInfo::Decode)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::PKCS8::PrivateKeyInfo*), "Decode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data});
@@ -146,7 +153,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Security::Cryptography::PKCS8::PrivateKeyInfo::RemoveLeadingZero
 // Il2CppName: RemoveLeadingZero
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(::ArrayWrapper<uint8_t>)>(&Mono::Security::Cryptography::PKCS8::PrivateKeyInfo::RemoveLeadingZero)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(::ArrayW<uint8_t>)>(&Mono::Security::Cryptography::PKCS8::PrivateKeyInfo::RemoveLeadingZero)> {
   static const MethodInfo* get() {
     static auto* bigInt = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::PKCS8::PrivateKeyInfo*), "RemoveLeadingZero", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{bigInt});
@@ -155,7 +162,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: Mono::Security::Cryptography::PKCS8::PrivateKeyInfo::Normalize
 // Il2CppName: Normalize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(::ArrayWrapper<uint8_t>, int)>(&Mono::Security::Cryptography::PKCS8::PrivateKeyInfo::Normalize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(::ArrayW<uint8_t>, int)>(&Mono::Security::Cryptography::PKCS8::PrivateKeyInfo::Normalize)> {
   static const MethodInfo* get() {
     static auto* bigInt = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -165,7 +172,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: Mono::Security::Cryptography::PKCS8::PrivateKeyInfo::DecodeRSA
 // Il2CppName: DecodeRSA
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::RSA* (*)(::ArrayWrapper<uint8_t>)>(&Mono::Security::Cryptography::PKCS8::PrivateKeyInfo::DecodeRSA)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::RSA* (*)(::ArrayW<uint8_t>)>(&Mono::Security::Cryptography::PKCS8::PrivateKeyInfo::DecodeRSA)> {
   static const MethodInfo* get() {
     static auto* keypair = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::PKCS8::PrivateKeyInfo*), "DecodeRSA", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{keypair});
@@ -174,7 +181,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 // Writing MetadataGetter for method: Mono::Security::Cryptography::PKCS8::PrivateKeyInfo::Encode
 // Il2CppName: Encode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(System::Security::Cryptography::RSA*)>(&Mono::Security::Cryptography::PKCS8::PrivateKeyInfo::Encode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(System::Security::Cryptography::RSA*)>(&Mono::Security::Cryptography::PKCS8::PrivateKeyInfo::Encode)> {
   static const MethodInfo* get() {
     static auto* rsa = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography", "RSA")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::PKCS8::PrivateKeyInfo*), "Encode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rsa});
@@ -183,7 +190,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: Mono::Security::Cryptography::PKCS8::PrivateKeyInfo::DecodeDSA
 // Il2CppName: DecodeDSA
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::DSA* (*)(::ArrayWrapper<uint8_t>, System::Security::Cryptography::DSAParameters)>(&Mono::Security::Cryptography::PKCS8::PrivateKeyInfo::DecodeDSA)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::DSA* (*)(::ArrayW<uint8_t>, System::Security::Cryptography::DSAParameters)>(&Mono::Security::Cryptography::PKCS8::PrivateKeyInfo::DecodeDSA)> {
   static const MethodInfo* get() {
     static auto* privateKey = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* dsaParameters = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography", "DSAParameters")->byval_arg;
@@ -193,7 +200,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 // Writing MetadataGetter for method: Mono::Security::Cryptography::PKCS8::PrivateKeyInfo::Encode
 // Il2CppName: Encode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(System::Security::Cryptography::DSA*)>(&Mono::Security::Cryptography::PKCS8::PrivateKeyInfo::Encode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(System::Security::Cryptography::DSA*)>(&Mono::Security::Cryptography::PKCS8::PrivateKeyInfo::Encode)> {
   static const MethodInfo* get() {
     static auto* dsa = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography", "DSA")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::PKCS8::PrivateKeyInfo*), "Encode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{dsa});
@@ -202,7 +209,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: Mono::Security::Cryptography::PKCS8::PrivateKeyInfo::Encode
 // Il2CppName: Encode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(System::Security::Cryptography::AsymmetricAlgorithm*)>(&Mono::Security::Cryptography::PKCS8::PrivateKeyInfo::Encode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(System::Security::Cryptography::AsymmetricAlgorithm*)>(&Mono::Security::Cryptography::PKCS8::PrivateKeyInfo::Encode)> {
   static const MethodInfo* get() {
     static auto* aa = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography", "AsymmetricAlgorithm")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Cryptography::PKCS8::PrivateKeyInfo*), "Encode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{aa});

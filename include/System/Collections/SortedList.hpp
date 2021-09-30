@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections
@@ -57,18 +58,23 @@ namespace System::Collections {
     class ValueList;
     // Nested type: System::Collections::SortedList::SortedListDebugView
     class SortedListDebugView;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Object[] keys
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<::Il2CppObject*> keys;
+    ::ArrayW<::Il2CppObject*> keys;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppObject*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppObject*>) == 0x8);
     // private System.Object[] values
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<::Il2CppObject*> values;
+    ::ArrayW<::Il2CppObject*> values;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppObject*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppObject*>) == 0x8);
     // private System.Int32 _size
     // Size: 0x4
     // Offset: 0x20
@@ -105,6 +111,7 @@ namespace System::Collections {
     ::Il2CppObject* syncRoot;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);
@@ -120,13 +127,13 @@ namespace System::Collections {
     // Set static field: static private System.Int32 _defaultCapacity
     static void _set__defaultCapacity(int value);
     // Get static field: static private System.Object[] emptyArray
-    static ::ArrayWrapper<::Il2CppObject*> _get_emptyArray();
+    static ::ArrayW<::Il2CppObject*> _get_emptyArray();
     // Set static field: static private System.Object[] emptyArray
-    static void _set_emptyArray(::ArrayWrapper<::Il2CppObject*> value);
+    static void _set_emptyArray(::ArrayW<::Il2CppObject*> value);
     // Get instance field reference: private System.Object[] keys
-    ::ArrayWrapper<::Il2CppObject*>& dyn_keys();
+    ::ArrayW<::Il2CppObject*>& dyn_keys();
     // Get instance field reference: private System.Object[] values
-    ::ArrayWrapper<::Il2CppObject*>& dyn_values();
+    ::ArrayW<::Il2CppObject*>& dyn_values();
     // Get instance field reference: private System.Int32 _size
     int& dyn__size();
     // Get instance field reference: private System.Int32 version

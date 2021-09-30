@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -40,6 +41,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class StretchableObstacle : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Single _edgeSize
     // Size: 0x4
     // Offset: 0x18
@@ -75,9 +81,9 @@ namespace GlobalNamespace {
     // private MaterialPropertyBlockController[] _materialPropertyBlockControllers
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<GlobalNamespace::MaterialPropertyBlockController*> materialPropertyBlockControllers;
+    ::ArrayW<GlobalNamespace::MaterialPropertyBlockController*> materialPropertyBlockControllers;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MaterialPropertyBlockController*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::MaterialPropertyBlockController*>) == 0x8);
     // private ParametricBoxFrameController _obstacleFrame
     // Size: 0x8
     // Offset: 0x38
@@ -97,6 +103,7 @@ namespace GlobalNamespace {
     UnityEngine::Bounds bounds;
     // Field size check
     static_assert(sizeof(UnityEngine::Bounds) == 0x18);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF05230
@@ -125,7 +132,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Transform _obstacleCore
     UnityEngine::Transform*& dyn__obstacleCore();
     // Get instance field reference: private MaterialPropertyBlockController[] _materialPropertyBlockControllers
-    ::ArrayWrapper<GlobalNamespace::MaterialPropertyBlockController*>& dyn__materialPropertyBlockControllers();
+    ::ArrayW<GlobalNamespace::MaterialPropertyBlockController*>& dyn__materialPropertyBlockControllers();
     // Get instance field reference: private ParametricBoxFrameController _obstacleFrame
     GlobalNamespace::ParametricBoxFrameController*& dyn__obstacleFrame();
     // Get instance field reference: private ParametricBoxFakeGlowController _obstacleFakeGlow

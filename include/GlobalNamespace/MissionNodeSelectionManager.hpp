@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -37,6 +38,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MissionNodeSelectionManager : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private MissionNodesManager _missionNodesManager
     // Size: 0x8
     // Offset: 0x18
@@ -52,15 +58,16 @@ namespace GlobalNamespace {
     // private MissionNode[] _missionNodes
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<GlobalNamespace::MissionNode*> missionNodes;
+    ::ArrayW<GlobalNamespace::MissionNode*> missionNodes;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MissionNode*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::MissionNode*>) == 0x8);
     // private MissionNodeVisualController _selectedNode
     // Size: 0x8
     // Offset: 0x30
     GlobalNamespace::MissionNodeVisualController* selectedNode;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionNodeVisualController*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MissionNodesManager _missionNodesManager
@@ -68,7 +75,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`1<MissionNodeVisualController> didSelectMissionNodeEvent
     System::Action_1<GlobalNamespace::MissionNodeVisualController*>*& dyn_didSelectMissionNodeEvent();
     // Get instance field reference: private MissionNode[] _missionNodes
-    ::ArrayWrapper<GlobalNamespace::MissionNode*>& dyn__missionNodes();
+    ::ArrayW<GlobalNamespace::MissionNode*>& dyn__missionNodes();
     // Get instance field reference: private MissionNodeVisualController _selectedNode
     GlobalNamespace::MissionNodeVisualController*& dyn__selectedNode();
     // public System.Void add_didSelectMissionNodeEvent(System.Action`1<MissionNodeVisualController> value)

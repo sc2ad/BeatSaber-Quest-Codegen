@@ -31,6 +31,11 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class RagdollUtility::Child : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Transform t
     // Size: 0x8
     // Offset: 0x10
@@ -49,6 +54,7 @@ namespace RootMotion::FinalIK {
     UnityEngine::Quaternion localRotation;
     // Field size check
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
+    public:
     // Get instance field reference: public UnityEngine.Transform t
     UnityEngine::Transform*& dyn_t();
     // Get instance field reference: public UnityEngine.Vector3 localPosition

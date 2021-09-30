@@ -39,6 +39,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::PlayersSpecificSettingsAtGameStartModel::$$c__DisplayClass13_0
     class $$c__DisplayClass13_0;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private PlayerSpecificSettingsNetSerializable <localPlayerSpecificSettings>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -57,6 +62,7 @@ namespace GlobalNamespace {
     GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IMultiplayerSessionManager*) == 0x8);
+    public:
     // Get instance field reference: private PlayerSpecificSettingsNetSerializable <localPlayerSpecificSettings>k__BackingField
     GlobalNamespace::PlayerSpecificSettingsNetSerializable*& dyn_$localPlayerSpecificSettings$k__BackingField();
     // Get instance field reference: private PlayerSpecificSettingsAtStartNetSerializable <playersAtGameStartNetSerializable>k__BackingField

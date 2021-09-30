@@ -22,12 +22,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRModeParms : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public OVRInput/RawButton resetButton
     // Size: 0x4
     // Offset: 0x18
     GlobalNamespace::OVRInput::RawButton resetButton;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OVRInput::RawButton) == 0x4);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public OVRInput/RawButton resetButton

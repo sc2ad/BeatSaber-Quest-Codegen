@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -38,6 +39,11 @@ namespace UnityEngine::Timeline {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class ControlPlayableAsset::$GetControlableScripts$d__39 : public ::Il2CppObject/*, public System::Collections::Generic::IEnumerable_1<UnityEngine::MonoBehaviour*>, public System::Collections::Generic::IEnumerator_1<UnityEngine::MonoBehaviour*>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -75,15 +81,16 @@ namespace UnityEngine::Timeline {
     // private UnityEngine.MonoBehaviour[] <>7__wrap1
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayWrapper<UnityEngine::MonoBehaviour*> $$7__wrap1;
+    ::ArrayW<UnityEngine::MonoBehaviour*> $$7__wrap1;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::MonoBehaviour*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::MonoBehaviour*>) == 0x8);
     // private System.Int32 <>7__wrap2
     // Size: 0x4
     // Offset: 0x40
     int $$7__wrap2;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<UnityEngine::MonoBehaviour*>
     operator System::Collections::Generic::IEnumerable_1<UnityEngine::MonoBehaviour*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<UnityEngine::MonoBehaviour*>*>(this);
@@ -103,7 +110,7 @@ namespace UnityEngine::Timeline {
     // Get instance field reference: public UnityEngine.GameObject <>3__root
     UnityEngine::GameObject*& dyn_$$3__root();
     // Get instance field reference: private UnityEngine.MonoBehaviour[] <>7__wrap1
-    ::ArrayWrapper<UnityEngine::MonoBehaviour*>& dyn_$$7__wrap1();
+    ::ArrayW<UnityEngine::MonoBehaviour*>& dyn_$$7__wrap1();
     // Get instance field reference: private System.Int32 <>7__wrap2
     int& dyn_$$7__wrap2();
     // private UnityEngine.MonoBehaviour System.Collections.Generic.IEnumerator<UnityEngine.MonoBehaviour>.get_Current()

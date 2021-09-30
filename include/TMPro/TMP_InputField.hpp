@@ -34,6 +34,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -145,12 +146,18 @@ namespace TMPro {
     // [TokenAttribute] Offset: FFFFFFFF
     struct ContentType/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: ContentType
       constexpr ContentType(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -233,12 +240,18 @@ namespace TMPro {
     // [TokenAttribute] Offset: FFFFFFFF
     struct InputType/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: InputType
       constexpr InputType(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -279,12 +292,18 @@ namespace TMPro {
     // [TokenAttribute] Offset: FFFFFFFF
     struct CharacterValidation/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: CharacterValidation
       constexpr CharacterValidation(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -361,12 +380,18 @@ namespace TMPro {
     // [TokenAttribute] Offset: FFFFFFFF
     struct LineType/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: LineType
       constexpr LineType(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -401,6 +426,11 @@ namespace TMPro {
     #pragma pack(pop)
     static check_size<sizeof(TMP_InputField::LineType), 0 + sizeof(int)> __TMPro_TMP_InputField_LineTypeSizeCheck;
     static_assert(sizeof(TMP_InputField::LineType) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // protected UnityEngine.TouchScreenKeyboard m_SoftKeyboard
     // Size: 0x8
     // Offset: 0xF8
@@ -679,9 +709,9 @@ namespace TMPro {
     // protected UnityEngine.UIVertex[] m_CursorVerts
     // Size: 0x8
     // Offset: 0x208
-    ::ArrayWrapper<UnityEngine::UIVertex> m_CursorVerts;
+    ::ArrayW<UnityEngine::UIVertex> m_CursorVerts;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::UIVertex>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::UIVertex>) == 0x8);
     // private UnityEngine.CanvasRenderer m_CachedInputRenderer
     // Size: 0x8
     // Offset: 0x210
@@ -938,6 +968,7 @@ namespace TMPro {
     UnityEngine::Event* m_ProcessingEvent;
     // Field size check
     static_assert(sizeof(UnityEngine::Event*) == 0x8);
+    public:
     // Creating interface conversion operator: operator UnityEngine::EventSystems::IPointerClickHandler
     operator UnityEngine::EventSystems::IPointerClickHandler() noexcept {
       return *reinterpret_cast<UnityEngine::EventSystems::IPointerClickHandler*>(this);
@@ -975,9 +1006,9 @@ namespace TMPro {
       return *reinterpret_cast<UnityEngine::EventSystems::IScrollHandler*>(this);
     }
     // Get static field: static private readonly System.Char[] kSeparators
-    static ::ArrayWrapper<::Il2CppChar> _get_kSeparators();
+    static ::ArrayW<::Il2CppChar> _get_kSeparators();
     // Set static field: static private readonly System.Char[] kSeparators
-    static void _set_kSeparators(::ArrayWrapper<::Il2CppChar> value);
+    static void _set_kSeparators(::ArrayW<::Il2CppChar> value);
     // static field const value: static private System.Single kHScrollSpeed
     static constexpr const float kHScrollSpeed = 0.05;
     // Get static field: static private System.Single kHScrollSpeed
@@ -1083,7 +1114,7 @@ namespace TMPro {
     // Get instance field reference: private UnityEngine.RectTransform caretRectTrans
     UnityEngine::RectTransform*& dyn_caretRectTrans();
     // Get instance field reference: protected UnityEngine.UIVertex[] m_CursorVerts
-    ::ArrayWrapper<UnityEngine::UIVertex>& dyn_m_CursorVerts();
+    ::ArrayW<UnityEngine::UIVertex>& dyn_m_CursorVerts();
     // Get instance field reference: private UnityEngine.CanvasRenderer m_CachedInputRenderer
     UnityEngine::CanvasRenderer*& dyn_m_CachedInputRenderer();
     // Get instance field reference: private UnityEngine.Vector2 m_LastPosition
@@ -1784,7 +1815,7 @@ namespace TMPro {
     void SetTextComponentRichTextMode();
     // private System.Void SetToCustomIfContentTypeIsNot(params TMPro.TMP_InputField/TMPro.ContentType[] allowedContentTypes)
     // Offset: 0x11FC6D4
-    void SetToCustomIfContentTypeIsNot(::ArrayWrapper<TMPro::TMP_InputField::ContentType> allowedContentTypes);
+    void SetToCustomIfContentTypeIsNot(::ArrayW<TMPro::TMP_InputField::ContentType> allowedContentTypes);
     // private System.Void SetToCustom()
     // Offset: 0x11FC860
     void SetToCustom();
@@ -3641,7 +3672,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_InputField::SetToCustomIfContentTypeIsNot
 // Il2CppName: SetToCustomIfContentTypeIsNot
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_InputField::*)(::ArrayWrapper<TMPro::TMP_InputField::ContentType>)>(&TMPro::TMP_InputField::SetToCustomIfContentTypeIsNot)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_InputField::*)(::ArrayW<TMPro::TMP_InputField::ContentType>)>(&TMPro::TMP_InputField::SetToCustomIfContentTypeIsNot)> {
   static const MethodInfo* get() {
     static auto* allowedContentTypes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("TMPro", "TMP_InputField/ContentType"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_InputField*), "SetToCustomIfContentTypeIsNot", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{allowedContentTypes});

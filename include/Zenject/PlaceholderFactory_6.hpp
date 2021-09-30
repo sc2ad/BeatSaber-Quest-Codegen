@@ -52,6 +52,11 @@ namespace Zenject {
       using declaring_type = PlaceholderFactory_6<TParam1, TParam2, TParam3, TParam4, TParam5, TValue>*;
       static constexpr std::string_view NESTED_NAME = "<get_ParamTypes>d__2";
       static constexpr bool IS_VALUE_TYPE = false;
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // private System.Int32 <>1__state
       // Size: 0x4
       // Offset: 0x0
@@ -70,6 +75,7 @@ namespace Zenject {
       int $$l__initialThreadId;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<System::Type*>
       operator System::Collections::Generic::IEnumerable_1<System::Type*>() noexcept {
         return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<System::Type*>*>(this);

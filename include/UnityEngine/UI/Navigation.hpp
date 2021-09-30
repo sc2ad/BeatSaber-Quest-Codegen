@@ -38,12 +38,18 @@ namespace UnityEngine::UI {
     // [FlagsAttribute] Offset: FFFFFFFF
     struct Mode/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: Mode
       constexpr Mode(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -90,6 +96,11 @@ namespace UnityEngine::UI {
     #pragma pack(pop)
     static check_size<sizeof(Navigation::Mode), 0 + sizeof(int)> __UnityEngine_UI_Navigation_ModeSizeCheck;
     static_assert(sizeof(Navigation::Mode) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.UI.Navigation/UnityEngine.UI.Mode m_Mode
     // Size: 0x4
     // Offset: 0x0
@@ -122,6 +133,7 @@ namespace UnityEngine::UI {
     UnityEngine::UI::Selectable* m_SelectOnRight;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Selectable*) == 0x8);
+    public:
     // Creating value type constructor for type: Navigation
     constexpr Navigation(UnityEngine::UI::Navigation::Mode m_Mode_ = {}, UnityEngine::UI::Selectable* m_SelectOnUp_ = {}, UnityEngine::UI::Selectable* m_SelectOnDown_ = {}, UnityEngine::UI::Selectable* m_SelectOnLeft_ = {}, UnityEngine::UI::Selectable* m_SelectOnRight_ = {}) noexcept : m_Mode{m_Mode_}, m_SelectOnUp{m_SelectOnUp_}, m_SelectOnDown{m_SelectOnDown_}, m_SelectOnLeft{m_SelectOnLeft_}, m_SelectOnRight{m_SelectOnRight_} {}
     // Creating interface conversion operator: operator System::ValueType

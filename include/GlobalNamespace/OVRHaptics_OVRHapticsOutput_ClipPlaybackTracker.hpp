@@ -27,6 +27,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRHaptics::OVRHapticsOutput::ClipPlaybackTracker : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 <ReadCount>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -41,6 +46,7 @@ namespace GlobalNamespace {
     GlobalNamespace::OVRHapticsClip* Clip;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OVRHapticsClip*) == 0x8);
+    public:
     // Get instance field reference: private System.Int32 <ReadCount>k__BackingField
     int& dyn_$ReadCount$k__BackingField();
     // Get instance field reference: private OVRHapticsClip <Clip>k__BackingField

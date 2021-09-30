@@ -27,12 +27,18 @@ namespace System::Net::NetworkInformation {
   // [TokenAttribute] Offset: FFFFFFFF
   class LinuxUnicastIPAddressInformation : public System::Net::NetworkInformation::UnicastIPAddressInformation {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Net.IPAddress address
     // Size: 0x8
     // Offset: 0x10
     System::Net::IPAddress* address;
     // Field size check
     static_assert(sizeof(System::Net::IPAddress*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Net::IPAddress*
     constexpr operator System::Net::IPAddress*() const noexcept {
       return address;

@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -32,7 +33,7 @@ namespace UnityEngine {
     public:
     // public UnityEngine.AnimationClip[] get_animationClips()
     // Offset: 0x259849C
-    ::ArrayWrapper<UnityEngine::AnimationClip*> get_animationClips();
+    ::ArrayW<UnityEngine::AnimationClip*> get_animationClips();
     // protected System.Void .ctor()
     // Offset: 0x2596CD0
     // Implemented from: UnityEngine.Object
@@ -51,7 +52,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::RuntimeAnimatorController*, "UnityEngine", "
 // Writing MetadataGetter for method: UnityEngine::RuntimeAnimatorController::get_animationClips
 // Il2CppName: get_animationClips
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::AnimationClip*> (UnityEngine::RuntimeAnimatorController::*)()>(&UnityEngine::RuntimeAnimatorController::get_animationClips)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::AnimationClip*> (UnityEngine::RuntimeAnimatorController::*)()>(&UnityEngine::RuntimeAnimatorController::get_animationClips)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::RuntimeAnimatorController*), "get_animationClips", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

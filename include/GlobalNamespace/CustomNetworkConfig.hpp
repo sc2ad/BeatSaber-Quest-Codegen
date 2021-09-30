@@ -27,6 +27,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class CustomNetworkConfig : public ::Il2CppObject/*, public GlobalNamespace::INetworkConfig*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 <maxPartySize>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -63,6 +68,7 @@ namespace GlobalNamespace {
     ::Il2CppString* masterServerStatusUrl;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::INetworkConfig
     operator GlobalNamespace::INetworkConfig() noexcept {
       return *reinterpret_cast<GlobalNamespace::INetworkConfig*>(this);

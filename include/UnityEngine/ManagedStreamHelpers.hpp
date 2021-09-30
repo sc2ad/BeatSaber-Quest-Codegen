@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO
@@ -31,7 +32,7 @@ namespace UnityEngine {
     static void ValidateLoadFromStream(System::IO::Stream* stream);
     // static System.Void ManagedStreamRead(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.IO.Stream stream, System.IntPtr returnValueAddress)
     // Offset: 0x1D9F33C
-    static void ManagedStreamRead(::ArrayWrapper<uint8_t> buffer, int offset, int count, System::IO::Stream* stream, System::IntPtr returnValueAddress);
+    static void ManagedStreamRead(::ArrayW<uint8_t> buffer, int offset, int count, System::IO::Stream* stream, System::IntPtr returnValueAddress);
     // static System.Void ManagedStreamSeek(System.Int64 offset, System.UInt32 origin, System.IO.Stream stream, System.IntPtr returnValueAddress)
     // Offset: 0x1D9F43C
     static void ManagedStreamSeek(int64_t offset, uint origin, System::IO::Stream* stream, System::IntPtr returnValueAddress);
@@ -56,7 +57,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::ManagedStreamHelpers::ManagedStreamRead
 // Il2CppName: ManagedStreamRead
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint8_t>, int, int, System::IO::Stream*, System::IntPtr)>(&UnityEngine::ManagedStreamHelpers::ManagedStreamRead)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t>, int, int, System::IO::Stream*, System::IntPtr)>(&UnityEngine::ManagedStreamHelpers::ManagedStreamRead)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

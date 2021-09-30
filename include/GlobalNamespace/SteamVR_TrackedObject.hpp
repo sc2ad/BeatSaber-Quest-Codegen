@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -37,12 +38,18 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct EIndex/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: EIndex
       constexpr EIndex(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -161,6 +168,11 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(SteamVR_TrackedObject::EIndex), 0 + sizeof(int)> __GlobalNamespace_SteamVR_TrackedObject_EIndexSizeCheck;
     static_assert(sizeof(SteamVR_TrackedObject::EIndex) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public SteamVR_TrackedObject/EIndex index
     // Size: 0x4
     // Offset: 0x18
@@ -190,6 +202,7 @@ namespace GlobalNamespace {
     GlobalNamespace::SteamVR_Events::Action* newPosesAction;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SteamVR_Events::Action*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public SteamVR_TrackedObject/EIndex index
@@ -208,7 +221,7 @@ namespace GlobalNamespace {
     void set_isValid(bool value);
     // private System.Void OnNewPoses(Valve.VR.TrackedDevicePose_t[] poses)
     // Offset: 0x1880358
-    void OnNewPoses(::ArrayWrapper<Valve::VR::TrackedDevicePose_t> poses);
+    void OnNewPoses(::ArrayW<Valve::VR::TrackedDevicePose_t> poses);
     // private System.Void OnEnable()
     // Offset: 0x1880664
     void OnEnable();
@@ -259,7 +272,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::SteamVR_TrackedObject::OnNewPoses
 // Il2CppName: OnNewPoses
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_TrackedObject::*)(::ArrayWrapper<Valve::VR::TrackedDevicePose_t>)>(&GlobalNamespace::SteamVR_TrackedObject::OnNewPoses)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::SteamVR_TrackedObject::*)(::ArrayW<Valve::VR::TrackedDevicePose_t>)>(&GlobalNamespace::SteamVR_TrackedObject::OnNewPoses)> {
   static const MethodInfo* get() {
     static auto* poses = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Valve.VR", "TrackedDevicePose_t"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::SteamVR_TrackedObject*), "OnNewPoses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{poses});

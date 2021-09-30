@@ -27,6 +27,11 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class TMP_MaterialManager::MaskingMaterial : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Material baseMaterial
     // Size: 0x8
     // Offset: 0x10
@@ -51,6 +56,7 @@ namespace TMPro {
     int stencilID;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: public UnityEngine.Material baseMaterial
     UnityEngine::Material*& dyn_baseMaterial();
     // Get instance field reference: public UnityEngine.Material stencilMaterial

@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO
@@ -27,12 +28,18 @@ namespace Org::BouncyCastle::Utilities::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   class BaseInputStream : public System::IO::Stream {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean closed
     // Size: 0x1
     // Offset: 0x28
     bool closed;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private System.Boolean closed
     bool& dyn_closed();
     // public override System.Boolean get_CanRead()
@@ -90,7 +97,7 @@ namespace Org::BouncyCastle::Utilities::IO {
     // Offset: 0x21821DC
     // Implemented from: System.IO.Stream
     // Base method: System.Int32 Stream::Read(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
-    int Read(::ArrayWrapper<uint8_t> buffer, int offset, int count);
+    int Read(::ArrayW<uint8_t> buffer, int offset, int count);
     // public override System.Int64 Seek(System.Int64 offset, System.IO.SeekOrigin origin)
     // Offset: 0x2182374
     // Implemented from: System.IO.Stream
@@ -105,7 +112,7 @@ namespace Org::BouncyCastle::Utilities::IO {
     // Offset: 0x2182434
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::Write(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
-    void Write(::ArrayWrapper<uint8_t> buffer, int offset, int count);
+    void Write(::ArrayW<uint8_t> buffer, int offset, int count);
   }; // Org.BouncyCastle.Utilities.IO.BaseInputStream
   #pragma pack(pop)
   static check_size<sizeof(BaseInputStream), 40 + sizeof(bool)> __Org_BouncyCastle_Utilities_IO_BaseInputStreamSizeCheck;
@@ -185,7 +192,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::IO::BaseInputStream::Read
 // Il2CppName: Read
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Utilities::IO::BaseInputStream::*)(::ArrayWrapper<uint8_t>, int, int)>(&Org::BouncyCastle::Utilities::IO::BaseInputStream::Read)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Utilities::IO::BaseInputStream::*)(::ArrayW<uint8_t>, int, int)>(&Org::BouncyCastle::Utilities::IO::BaseInputStream::Read)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -215,7 +222,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::IO::BaseInputStream::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Utilities::IO::BaseInputStream::*)(::ArrayWrapper<uint8_t>, int, int)>(&Org::BouncyCastle::Utilities::IO::BaseInputStream::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Utilities::IO::BaseInputStream::*)(::ArrayW<uint8_t>, int, int)>(&Org::BouncyCastle::Utilities::IO::BaseInputStream::Write)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

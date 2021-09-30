@@ -23,6 +23,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: TMPro
@@ -39,6 +40,11 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class TMP_TextInfo : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public TMPro.TMP_Text textComponent
     // Size: 0x8
     // Offset: 0x10
@@ -96,45 +102,46 @@ namespace TMPro {
     // public TMPro.TMP_CharacterInfo[] characterInfo
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayWrapper<TMPro::TMP_CharacterInfo> characterInfo;
+    ::ArrayW<TMPro::TMP_CharacterInfo> characterInfo;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<TMPro::TMP_CharacterInfo>) == 0x8);
+    static_assert(sizeof(::ArrayW<TMPro::TMP_CharacterInfo>) == 0x8);
     // public TMPro.TMP_WordInfo[] wordInfo
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayWrapper<TMPro::TMP_WordInfo> wordInfo;
+    ::ArrayW<TMPro::TMP_WordInfo> wordInfo;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<TMPro::TMP_WordInfo>) == 0x8);
+    static_assert(sizeof(::ArrayW<TMPro::TMP_WordInfo>) == 0x8);
     // public TMPro.TMP_LinkInfo[] linkInfo
     // Size: 0x8
     // Offset: 0x48
-    ::ArrayWrapper<TMPro::TMP_LinkInfo> linkInfo;
+    ::ArrayW<TMPro::TMP_LinkInfo> linkInfo;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<TMPro::TMP_LinkInfo>) == 0x8);
+    static_assert(sizeof(::ArrayW<TMPro::TMP_LinkInfo>) == 0x8);
     // public TMPro.TMP_LineInfo[] lineInfo
     // Size: 0x8
     // Offset: 0x50
-    ::ArrayWrapper<TMPro::TMP_LineInfo> lineInfo;
+    ::ArrayW<TMPro::TMP_LineInfo> lineInfo;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<TMPro::TMP_LineInfo>) == 0x8);
+    static_assert(sizeof(::ArrayW<TMPro::TMP_LineInfo>) == 0x8);
     // public TMPro.TMP_PageInfo[] pageInfo
     // Size: 0x8
     // Offset: 0x58
-    ::ArrayWrapper<TMPro::TMP_PageInfo> pageInfo;
+    ::ArrayW<TMPro::TMP_PageInfo> pageInfo;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<TMPro::TMP_PageInfo>) == 0x8);
+    static_assert(sizeof(::ArrayW<TMPro::TMP_PageInfo>) == 0x8);
     // public TMPro.TMP_MeshInfo[] meshInfo
     // Size: 0x8
     // Offset: 0x60
-    ::ArrayWrapper<TMPro::TMP_MeshInfo> meshInfo;
+    ::ArrayW<TMPro::TMP_MeshInfo> meshInfo;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<TMPro::TMP_MeshInfo>) == 0x8);
+    static_assert(sizeof(::ArrayW<TMPro::TMP_MeshInfo>) == 0x8);
     // private TMPro.TMP_MeshInfo[] m_CachedMeshInfo
     // Size: 0x8
     // Offset: 0x68
-    ::ArrayWrapper<TMPro::TMP_MeshInfo> m_CachedMeshInfo;
+    ::ArrayW<TMPro::TMP_MeshInfo> m_CachedMeshInfo;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<TMPro::TMP_MeshInfo>) == 0x8);
+    static_assert(sizeof(::ArrayW<TMPro::TMP_MeshInfo>) == 0x8);
+    public:
     // Get static field: static private UnityEngine.Vector2 k_InfinityVectorPositive
     static UnityEngine::Vector2 _get_k_InfinityVectorPositive();
     // Set static field: static private UnityEngine.Vector2 k_InfinityVectorPositive
@@ -162,19 +169,19 @@ namespace TMPro {
     // Get instance field reference: public System.Int32 materialCount
     int& dyn_materialCount();
     // Get instance field reference: public TMPro.TMP_CharacterInfo[] characterInfo
-    ::ArrayWrapper<TMPro::TMP_CharacterInfo>& dyn_characterInfo();
+    ::ArrayW<TMPro::TMP_CharacterInfo>& dyn_characterInfo();
     // Get instance field reference: public TMPro.TMP_WordInfo[] wordInfo
-    ::ArrayWrapper<TMPro::TMP_WordInfo>& dyn_wordInfo();
+    ::ArrayW<TMPro::TMP_WordInfo>& dyn_wordInfo();
     // Get instance field reference: public TMPro.TMP_LinkInfo[] linkInfo
-    ::ArrayWrapper<TMPro::TMP_LinkInfo>& dyn_linkInfo();
+    ::ArrayW<TMPro::TMP_LinkInfo>& dyn_linkInfo();
     // Get instance field reference: public TMPro.TMP_LineInfo[] lineInfo
-    ::ArrayWrapper<TMPro::TMP_LineInfo>& dyn_lineInfo();
+    ::ArrayW<TMPro::TMP_LineInfo>& dyn_lineInfo();
     // Get instance field reference: public TMPro.TMP_PageInfo[] pageInfo
-    ::ArrayWrapper<TMPro::TMP_PageInfo>& dyn_pageInfo();
+    ::ArrayW<TMPro::TMP_PageInfo>& dyn_pageInfo();
     // Get instance field reference: public TMPro.TMP_MeshInfo[] meshInfo
-    ::ArrayWrapper<TMPro::TMP_MeshInfo>& dyn_meshInfo();
+    ::ArrayW<TMPro::TMP_MeshInfo>& dyn_meshInfo();
     // Get instance field reference: private TMPro.TMP_MeshInfo[] m_CachedMeshInfo
-    ::ArrayWrapper<TMPro::TMP_MeshInfo>& dyn_m_CachedMeshInfo();
+    ::ArrayW<TMPro::TMP_MeshInfo>& dyn_m_CachedMeshInfo();
     // public System.Void .ctor(TMPro.TMP_Text textComponent)
     // Offset: 0x15BE258
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -199,17 +206,17 @@ namespace TMPro {
     void ResetVertexLayout(bool isVolumetric);
     // public System.Void ClearUnusedVertices(TMPro.MaterialReference[] materials)
     // Offset: 0x15BE56C
-    void ClearUnusedVertices(::ArrayWrapper<TMPro::MaterialReference> materials);
+    void ClearUnusedVertices(::ArrayW<TMPro::MaterialReference> materials);
     // public System.Void ClearLineInfo()
     // Offset: 0x15BE5E8
     void ClearLineInfo();
     // public TMPro.TMP_MeshInfo[] CopyMeshInfoVertexData()
     // Offset: 0x15BE7E8
-    ::ArrayWrapper<TMPro::TMP_MeshInfo> CopyMeshInfoVertexData();
+    ::ArrayW<TMPro::TMP_MeshInfo> CopyMeshInfoVertexData();
     // static public System.Void Resize(ref T[] array, System.Int32 size)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static void Resize(ByRef<::ArrayWrapper<T>> array, int size) {
+    static void Resize(ByRef<::ArrayW<T>> array, int size) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_TextInfo::Resize");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("TMPro", "TMP_TextInfo", "Resize", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(size)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -218,7 +225,7 @@ namespace TMPro {
     // static public System.Void Resize(ref T[] array, System.Int32 size, System.Boolean isBlockAllocated)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static void Resize(ByRef<::ArrayWrapper<T>> array, int size, bool isBlockAllocated) {
+    static void Resize(ByRef<::ArrayW<T>> array, int size, bool isBlockAllocated) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_TextInfo::Resize");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("TMPro", "TMP_TextInfo", "Resize", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(size), ::il2cpp_utils::ExtractType(isBlockAllocated)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -235,7 +242,7 @@ namespace TMPro {
     }
   }; // TMPro.TMP_TextInfo
   #pragma pack(pop)
-  static check_size<sizeof(TMP_TextInfo), 104 + sizeof(::ArrayWrapper<TMPro::TMP_MeshInfo>)> __TMPro_TMP_TextInfoSizeCheck;
+  static check_size<sizeof(TMP_TextInfo), 104 + sizeof(::ArrayW<TMPro::TMP_MeshInfo>)> __TMPro_TMP_TextInfoSizeCheck;
   static_assert(sizeof(TMP_TextInfo) == 0x70);
 }
 DEFINE_IL2CPP_ARG_TYPE(TMPro::TMP_TextInfo*, "TMPro", "TMP_TextInfo");
@@ -289,7 +296,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_TextInfo::ClearUnusedVertices
 // Il2CppName: ClearUnusedVertices
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_TextInfo::*)(::ArrayWrapper<TMPro::MaterialReference>)>(&TMPro::TMP_TextInfo::ClearUnusedVertices)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_TextInfo::*)(::ArrayW<TMPro::MaterialReference>)>(&TMPro::TMP_TextInfo::ClearUnusedVertices)> {
   static const MethodInfo* get() {
     static auto* materials = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("TMPro", "MaterialReference"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextInfo*), "ClearUnusedVertices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{materials});
@@ -306,7 +313,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_TextInfo::CopyMeshInfoVertexData
 // Il2CppName: CopyMeshInfoVertexData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<TMPro::TMP_MeshInfo> (TMPro::TMP_TextInfo::*)()>(&TMPro::TMP_TextInfo::CopyMeshInfoVertexData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<TMPro::TMP_MeshInfo> (TMPro::TMP_TextInfo::*)()>(&TMPro::TMP_TextInfo::CopyMeshInfoVertexData)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_TextInfo*), "CopyMeshInfoVertexData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

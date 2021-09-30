@@ -16,12 +16,18 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct VREvent_Status_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.UInt32 statusState
     // Size: 0x4
     // Offset: 0x0
     uint statusState;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
+    public:
     // Creating value type constructor for type: VREvent_Status_t
     constexpr VREvent_Status_t(uint statusState_ = {}) noexcept : statusState{statusState_} {}
     // Creating interface conversion operator: operator System::ValueType

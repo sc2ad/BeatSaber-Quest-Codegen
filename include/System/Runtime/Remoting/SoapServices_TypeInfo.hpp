@@ -27,6 +27,11 @@ namespace System::Runtime::Remoting {
   // [TokenAttribute] Offset: FFFFFFFF
   class SoapServices::TypeInfo : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Collections.Hashtable Attributes
     // Size: 0x8
     // Offset: 0x10
@@ -39,6 +44,7 @@ namespace System::Runtime::Remoting {
     System::Collections::Hashtable* Elements;
     // Field size check
     static_assert(sizeof(System::Collections::Hashtable*) == 0x8);
+    public:
     // Get instance field reference: public System.Collections.Hashtable Attributes
     System::Collections::Hashtable*& dyn_Attributes();
     // Get instance field reference: public System.Collections.Hashtable Elements

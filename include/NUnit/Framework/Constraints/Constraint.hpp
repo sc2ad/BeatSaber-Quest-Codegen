@@ -12,6 +12,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -36,6 +37,11 @@ namespace NUnit::Framework::Constraints {
   // [TokenAttribute] Offset: FFFFFFFF
   class Constraint : public ::Il2CppObject/*, public NUnit::Framework::Constraints::IConstraint*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Lazy`1<System.String> _displayName
     // Size: 0x8
     // Offset: 0x10
@@ -53,9 +59,9 @@ namespace NUnit::Framework::Constraints {
     // private System.Object[] <Arguments>k__BackingField
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<::Il2CppObject*> Arguments;
+    ::ArrayW<::Il2CppObject*> Arguments;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppObject*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppObject*>) == 0x8);
     // [DebuggerBrowsableAttribute] Offset: 0xEEFA98
     // private NUnit.Framework.Constraints.ConstraintBuilder <Builder>k__BackingField
     // Size: 0x8
@@ -63,6 +69,7 @@ namespace NUnit::Framework::Constraints {
     NUnit::Framework::Constraints::ConstraintBuilder* Builder;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Constraints::ConstraintBuilder*) == 0x8);
+    public:
     // Creating interface conversion operator: operator NUnit::Framework::Constraints::IConstraint
     operator NUnit::Framework::Constraints::IConstraint() noexcept {
       return *reinterpret_cast<NUnit::Framework::Constraints::IConstraint*>(this);
@@ -72,7 +79,7 @@ namespace NUnit::Framework::Constraints {
     // Get instance field reference: private System.String <Description>k__BackingField
     ::Il2CppString*& dyn_$Description$k__BackingField();
     // Get instance field reference: private System.Object[] <Arguments>k__BackingField
-    ::ArrayWrapper<::Il2CppObject*>& dyn_$Arguments$k__BackingField();
+    ::ArrayW<::Il2CppObject*>& dyn_$Arguments$k__BackingField();
     // Get instance field reference: private NUnit.Framework.Constraints.ConstraintBuilder <Builder>k__BackingField
     NUnit::Framework::Constraints::ConstraintBuilder*& dyn_$Builder$k__BackingField();
     // public System.String get_DisplayName()
@@ -86,10 +93,10 @@ namespace NUnit::Framework::Constraints {
     void set_Description(::Il2CppString* value);
     // public System.Object[] get_Arguments()
     // Offset: 0x192AEFC
-    ::ArrayWrapper<::Il2CppObject*> get_Arguments();
+    ::ArrayW<::Il2CppObject*> get_Arguments();
     // private System.Void set_Arguments(System.Object[] value)
     // Offset: 0x192AF04
-    void set_Arguments(::ArrayWrapper<::Il2CppObject*> value);
+    void set_Arguments(::ArrayW<::Il2CppObject*> value);
     // public NUnit.Framework.Constraints.ConstraintBuilder get_Builder()
     // Offset: 0x192AF0C
     NUnit::Framework::Constraints::ConstraintBuilder* get_Builder();
@@ -99,7 +106,7 @@ namespace NUnit::Framework::Constraints {
     // protected System.Void .ctor(params System.Object[] args)
     // Offset: 0x192AAA4
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Constraint* New_ctor(::ArrayWrapper<::Il2CppObject*> args) {
+    static Constraint* New_ctor(::ArrayW<::Il2CppObject*> args) {
       static auto ___internal__logger = ::Logger::get().WithContext("NUnit::Framework::Constraints::Constraint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Constraint*, creationType>(args)));
     }
@@ -158,7 +165,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::Constraint::get_Arguments
 // Il2CppName: get_Arguments
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppObject*> (NUnit::Framework::Constraints::Constraint::*)()>(&NUnit::Framework::Constraints::Constraint::get_Arguments)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppObject*> (NUnit::Framework::Constraints::Constraint::*)()>(&NUnit::Framework::Constraints::Constraint::get_Arguments)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::Constraint*), "get_Arguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -166,7 +173,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::Constraint::set_Arguments
 // Il2CppName: set_Arguments
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Constraints::Constraint::*)(::ArrayWrapper<::Il2CppObject*>)>(&NUnit::Framework::Constraints::Constraint::set_Arguments)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (NUnit::Framework::Constraints::Constraint::*)(::ArrayW<::Il2CppObject*>)>(&NUnit::Framework::Constraints::Constraint::set_Arguments)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::Constraint*), "set_Arguments", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

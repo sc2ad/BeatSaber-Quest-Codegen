@@ -26,12 +26,18 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride
     class QuickPlaySongPacksOverride;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public MasterServerQuickPlaySetupData/QuickPlaySongPacksOverride quickPlayAvailablePacksOverride
     // Size: 0x8
     // Offset: 0x10
     GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride* quickPlayAvailablePacksOverride;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride*) == 0x8);
+    public:
     // Creating conversion operator: operator GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride*
     constexpr operator GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride*() const noexcept {
       return quickPlayAvailablePacksOverride;

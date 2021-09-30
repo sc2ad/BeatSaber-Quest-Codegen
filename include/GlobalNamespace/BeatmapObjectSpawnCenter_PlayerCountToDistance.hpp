@@ -20,6 +20,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapObjectSpawnCenter::PlayerCountToDistance : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 _playerCount
     // Size: 0x4
     // Offset: 0x10
@@ -32,6 +37,7 @@ namespace GlobalNamespace {
     float distance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: private System.Int32 _playerCount
     int& dyn__playerCount();
     // Get instance field reference: private System.Single _distance

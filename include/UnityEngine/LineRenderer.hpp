@@ -7,6 +7,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Renderer
 #include "UnityEngine/Renderer.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -48,7 +49,7 @@ namespace UnityEngine {
     void SetPosition(int index, UnityEngine::Vector3 position);
     // public System.Void SetPositions(UnityEngine.Vector3[] positions)
     // Offset: 0x1D9E618
-    void SetPositions(::ArrayWrapper<UnityEngine::Vector3> positions);
+    void SetPositions(::ArrayW<UnityEngine::Vector3> positions);
     // private System.Void set_startColor_Injected(ref UnityEngine.Color value)
     // Offset: 0x1D9E410
     void set_startColor_Injected(ByRef<UnityEngine::Color> value);
@@ -131,7 +132,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::LineRenderer::SetPositions
 // Il2CppName: SetPositions
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::LineRenderer::*)(::ArrayWrapper<UnityEngine::Vector3>)>(&UnityEngine::LineRenderer::SetPositions)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::LineRenderer::*)(::ArrayW<UnityEngine::Vector3>)>(&UnityEngine::LineRenderer::SetPositions)> {
   static const MethodInfo* get() {
     static auto* positions = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::LineRenderer*), "SetPositions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{positions});

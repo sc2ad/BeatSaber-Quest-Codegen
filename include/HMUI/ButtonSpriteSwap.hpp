@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -34,6 +35,11 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class ButtonSpriteSwap : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // protected UnityEngine.Sprite _normalStateSprite
     // Size: 0x8
     // Offset: 0x18
@@ -68,15 +74,16 @@ namespace HMUI {
     // protected UnityEngine.UI.Image[] _images
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayWrapper<UnityEngine::UI::Image*> images;
+    ::ArrayW<UnityEngine::UI::Image*> images;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::UI::Image*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::UI::Image*>) == 0x8);
     // protected System.Boolean _didStart
     // Size: 0x1
     // Offset: 0x48
     bool didStart;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: protected UnityEngine.Sprite _normalStateSprite
@@ -90,7 +97,7 @@ namespace HMUI {
     // Get instance field reference: private HMUI.NoTransitionsButton _button
     HMUI::NoTransitionsButton*& dyn__button();
     // Get instance field reference: protected UnityEngine.UI.Image[] _images
-    ::ArrayWrapper<UnityEngine::UI::Image*>& dyn__images();
+    ::ArrayW<UnityEngine::UI::Image*>& dyn__images();
     // Get instance field reference: protected System.Boolean _didStart
     bool& dyn__didStart();
     // protected System.Void Awake()

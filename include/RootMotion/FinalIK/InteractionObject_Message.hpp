@@ -34,6 +34,11 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class InteractionObject::Message : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [TooltipAttribute] Offset: 0xEF6718
     // public System.String function
     // Size: 0x8
@@ -48,6 +53,7 @@ namespace RootMotion::FinalIK {
     UnityEngine::GameObject* recipient;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
+    public:
     // static field const value: static private System.String empty
     static constexpr const char* empty = "";
     // Get static field: static private System.String empty

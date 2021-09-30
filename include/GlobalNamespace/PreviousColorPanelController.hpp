@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::UI
@@ -44,12 +45,17 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PreviousColorPanelController : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.UI.Graphic[] _graphics
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<UnityEngine::UI::Graphic*> graphics;
+    ::ArrayW<UnityEngine::UI::Graphic*> graphics;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::UI::Graphic*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::UI::Graphic*>) == 0x8);
     // private UnityEngine.UI.Button _button
     // Size: 0x8
     // Offset: 0x20
@@ -80,6 +86,7 @@ namespace GlobalNamespace {
     UnityEngine::Color graphicsColor;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Int32 kMaxColors
@@ -89,7 +96,7 @@ namespace GlobalNamespace {
     // Set static field: static private System.Int32 kMaxColors
     static void _set_kMaxColors(int value);
     // Get instance field reference: private UnityEngine.UI.Graphic[] _graphics
-    ::ArrayWrapper<UnityEngine::UI::Graphic*>& dyn__graphics();
+    ::ArrayW<UnityEngine::UI::Graphic*>& dyn__graphics();
     // Get instance field reference: private UnityEngine.UI.Button _button
     UnityEngine::UI::Button*& dyn__button();
     // Get instance field reference: private System.Action`1<UnityEngine.Color> colorWasSelectedEvent

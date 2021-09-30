@@ -16,6 +16,11 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HEU_GenerateOptions/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Boolean _generateUVs
     // Size: 0x1
     // Offset: 0x0
@@ -46,6 +51,7 @@ namespace HoudiniEngineUnity {
     bool splitPoints;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating value type constructor for type: HEU_GenerateOptions
     constexpr HEU_GenerateOptions(bool generateUVs_ = {}, bool generateTangents_ = {}, bool generateNormals_ = {}, bool useLODGroups_ = {}, bool splitPoints_ = {}) noexcept : generateUVs{generateUVs_}, generateTangents{generateTangents_}, generateNormals{generateNormals_}, useLODGroups{useLODGroups_}, splitPoints{splitPoints_} {}
     // Creating interface conversion operator: operator System::ValueType

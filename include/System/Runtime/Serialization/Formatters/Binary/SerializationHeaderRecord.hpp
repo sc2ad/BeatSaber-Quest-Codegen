@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Serialization::Formatters::Binary
@@ -29,6 +30,11 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   // [TokenAttribute] Offset: FFFFFFFF
   class SerializationHeaderRecord : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Int32 binaryFormatterMajorVersion
     // Size: 0x4
     // Offset: 0x10
@@ -71,6 +77,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     int minorVersion;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: System.Int32 binaryFormatterMajorVersion
     int& dyn_binaryFormatterMajorVersion();
     // Get instance field reference: System.Int32 binaryFormatterMinorVersion
@@ -97,7 +104,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     void Write(System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
     // static private System.Int32 GetInt32(System.Byte[] buffer, System.Int32 index)
     // Offset: 0x17F53C4
-    static int GetInt32(::ArrayWrapper<uint8_t> buffer, int index);
+    static int GetInt32(::ArrayW<uint8_t> buffer, int index);
     // public System.Void Read(System.Runtime.Serialization.Formatters.Binary.__BinaryParser input)
     // Offset: 0x17F5444
     void Read(System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
@@ -136,7 +143,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord::GetInt32
 // Il2CppName: GetInt32
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayWrapper<uint8_t>, int)>(&System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord::GetInt32)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayW<uint8_t>, int)>(&System::Runtime::Serialization::Formatters::Binary::SerializationHeaderRecord::GetInt32)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

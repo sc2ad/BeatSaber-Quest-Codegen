@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -61,6 +62,11 @@ namespace System::Runtime::Remoting::Proxies {
   // [ComVisibleAttribute] Offset: E5FC08
   class RealProxy : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Type class_to_proxy
     // Size: 0x8
     // Offset: 0x10
@@ -111,6 +117,7 @@ namespace System::Runtime::Remoting::Proxies {
     ::Il2CppObject* stubData;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
+    public:
     // Get instance field reference: private System.Type class_to_proxy
     System::Type*& dyn_class_to_proxy();
     // Get instance field reference: System.Runtime.Remoting.Contexts.Context _targetContext
@@ -168,7 +175,7 @@ namespace System::Runtime::Remoting::Proxies {
     System::Runtime::Remoting::Messaging::IMessage* Invoke(System::Runtime::Remoting::Messaging::IMessage* msg);
     // static System.Object PrivateInvoke(System.Runtime.Remoting.Proxies.RealProxy rp, System.Runtime.Remoting.Messaging.IMessage msg, out System.Exception exc, out System.Object[] out_args)
     // Offset: 0x1C22688
-    static ::Il2CppObject* PrivateInvoke(System::Runtime::Remoting::Proxies::RealProxy* rp, System::Runtime::Remoting::Messaging::IMessage* msg, ByRef<System::Exception*> exc, ByRef<::ArrayWrapper<::Il2CppObject*>> out_args);
+    static ::Il2CppObject* PrivateInvoke(System::Runtime::Remoting::Proxies::RealProxy* rp, System::Runtime::Remoting::Messaging::IMessage* msg, ByRef<System::Exception*> exc, ByRef<::ArrayW<::Il2CppObject*>> out_args);
     // System.Object InternalGetTransparentProxy(System.String className)
     // Offset: 0x1C236CC
     ::Il2CppObject* InternalGetTransparentProxy(::Il2CppString* className);
@@ -186,7 +193,7 @@ namespace System::Runtime::Remoting::Proxies {
     ::Il2CppObject* GetAppDomainTarget();
     // static private System.Object[] ProcessResponse(System.Runtime.Remoting.Messaging.IMethodReturnMessage mrm, System.Runtime.Remoting.Messaging.MonoMethodMessage call)
     // Offset: 0x1C22FEC
-    static ::ArrayWrapper<::Il2CppObject*> ProcessResponse(System::Runtime::Remoting::Messaging::IMethodReturnMessage* mrm, System::Runtime::Remoting::Messaging::MonoMethodMessage* call);
+    static ::ArrayW<::Il2CppObject*> ProcessResponse(System::Runtime::Remoting::Messaging::IMethodReturnMessage* mrm, System::Runtime::Remoting::Messaging::MonoMethodMessage* call);
     // protected System.Void .ctor()
     // Offset: 0x1C2234C
     // Implemented from: System.Object
@@ -271,7 +278,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Writing MetadataGetter for method: System::Runtime::Remoting::Proxies::RealProxy::PrivateInvoke
 // Il2CppName: PrivateInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Runtime::Remoting::Proxies::RealProxy*, System::Runtime::Remoting::Messaging::IMessage*, ByRef<System::Exception*>, ByRef<::ArrayWrapper<::Il2CppObject*>>)>(&System::Runtime::Remoting::Proxies::RealProxy::PrivateInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Runtime::Remoting::Proxies::RealProxy*, System::Runtime::Remoting::Messaging::IMessage*, ByRef<System::Exception*>, ByRef<::ArrayW<::Il2CppObject*>>)>(&System::Runtime::Remoting::Proxies::RealProxy::PrivateInvoke)> {
   static const MethodInfo* get() {
     static auto* rp = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Proxies", "RealProxy")->byval_arg;
     static auto* msg = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Messaging", "IMessage")->byval_arg;
@@ -326,7 +333,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Runtime::Remoting::Proxies::RealProxy::ProcessResponse
 // Il2CppName: ProcessResponse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppObject*> (*)(System::Runtime::Remoting::Messaging::IMethodReturnMessage*, System::Runtime::Remoting::Messaging::MonoMethodMessage*)>(&System::Runtime::Remoting::Proxies::RealProxy::ProcessResponse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppObject*> (*)(System::Runtime::Remoting::Messaging::IMethodReturnMessage*, System::Runtime::Remoting::Messaging::MonoMethodMessage*)>(&System::Runtime::Remoting::Proxies::RealProxy::ProcessResponse)> {
   static const MethodInfo* get() {
     static auto* mrm = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Messaging", "IMethodReturnMessage")->byval_arg;
     static auto* call = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Messaging", "MonoMethodMessage")->byval_arg;

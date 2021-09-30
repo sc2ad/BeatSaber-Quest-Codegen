@@ -45,6 +45,11 @@ namespace OVR::OpenVR {
     class _RemoveSection;
     // Nested type: OVR::OpenVR::IVRSettings::_RemoveKeyInSection
     class _RemoveKeyInSection;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // OVR.OpenVR.IVRSettings/OVR.OpenVR._GetSettingsErrorNameFromEnum GetSettingsErrorNameFromEnum
     // Size: 0x8
     // Offset: 0x0
@@ -117,6 +122,7 @@ namespace OVR::OpenVR {
     OVR::OpenVR::IVRSettings::_RemoveKeyInSection* RemoveKeyInSection;
     // Field size check
     static_assert(sizeof(OVR::OpenVR::IVRSettings::_RemoveKeyInSection*) == 0x8);
+    public:
     // Creating value type constructor for type: IVRSettings
     constexpr IVRSettings(OVR::OpenVR::IVRSettings::_GetSettingsErrorNameFromEnum* GetSettingsErrorNameFromEnum_ = {}, OVR::OpenVR::IVRSettings::_Sync* Sync_ = {}, OVR::OpenVR::IVRSettings::_SetBool* SetBool_ = {}, OVR::OpenVR::IVRSettings::_SetInt32* SetInt32_ = {}, OVR::OpenVR::IVRSettings::_SetFloat* SetFloat_ = {}, OVR::OpenVR::IVRSettings::_SetString* SetString_ = {}, OVR::OpenVR::IVRSettings::_GetBool* GetBool_ = {}, OVR::OpenVR::IVRSettings::_GetInt32* GetInt32_ = {}, OVR::OpenVR::IVRSettings::_GetFloat* GetFloat_ = {}, OVR::OpenVR::IVRSettings::_GetString* GetString_ = {}, OVR::OpenVR::IVRSettings::_RemoveSection* RemoveSection_ = {}, OVR::OpenVR::IVRSettings::_RemoveKeyInSection* RemoveKeyInSection_ = {}) noexcept : GetSettingsErrorNameFromEnum{GetSettingsErrorNameFromEnum_}, Sync{Sync_}, SetBool{SetBool_}, SetInt32{SetInt32_}, SetFloat{SetFloat_}, SetString{SetString_}, GetBool{GetBool_}, GetInt32{GetInt32_}, GetFloat{GetFloat_}, GetString{GetString_}, RemoveSection{RemoveSection_}, RemoveKeyInSection{RemoveKeyInSection_} {}
     // Creating interface conversion operator: operator System::ValueType

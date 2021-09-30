@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text
@@ -31,6 +32,11 @@ namespace System::Text {
     public:
     // Writing base type padding for base size: 0x11 to desired offset: 0x18
     char ___base_padding[0x7] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Text.Encoding encoding
     // Size: 0x8
     // Offset: 0x18
@@ -40,21 +46,22 @@ namespace System::Text {
     // System.Char[] arrayBestFit
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<::Il2CppChar> arrayBestFit;
+    ::ArrayW<::Il2CppChar> arrayBestFit;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppChar>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppChar>) == 0x8);
     // System.Char cReplacement
     // Size: 0x2
     // Offset: 0x28
     ::Il2CppChar cReplacement;
     // Field size check
     static_assert(sizeof(::Il2CppChar) == 0x2);
+    public:
     // Deleting conversion operator: operator bool
     constexpr operator bool() const noexcept = delete;
     // Get instance field reference: System.Text.Encoding encoding
     System::Text::Encoding*& dyn_encoding();
     // Get instance field reference: System.Char[] arrayBestFit
-    ::ArrayWrapper<::Il2CppChar>& dyn_arrayBestFit();
+    ::ArrayW<::Il2CppChar>& dyn_arrayBestFit();
     // Get instance field reference: System.Char cReplacement
     ::Il2CppChar& dyn_cReplacement();
     // System.Void .ctor(System.Text.Encoding encoding)

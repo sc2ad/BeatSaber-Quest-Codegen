@@ -22,6 +22,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class KeyboardShortcutsManager::KeyboardShortcut : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.KeyCode mainKey
     // Size: 0x4
     // Offset: 0x10
@@ -40,6 +45,7 @@ namespace GlobalNamespace {
     UnityEngine::KeyCode combinationKey2;
     // Field size check
     static_assert(sizeof(UnityEngine::KeyCode) == 0x4);
+    public:
     // Get instance field reference: public UnityEngine.KeyCode mainKey
     UnityEngine::KeyCode& dyn_mainKey();
     // Get instance field reference: public UnityEngine.KeyCode combinationKey1

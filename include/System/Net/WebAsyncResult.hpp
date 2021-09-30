@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -39,6 +40,11 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class WebAsyncResult : public System::Net::SimpleAsyncResult {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 nbytes
     // Size: 0x4
     // Offset: 0x4C
@@ -66,9 +72,9 @@ namespace System::Net {
     // private System.Byte[] buffer
     // Size: 0x8
     // Offset: 0x68
-    ::ArrayWrapper<uint8_t> buffer;
+    ::ArrayW<uint8_t> buffer;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Int32 offset
     // Size: 0x4
     // Offset: 0x70
@@ -99,6 +105,7 @@ namespace System::Net {
     System::Net::HttpWebRequest* AsyncObject;
     // Field size check
     static_assert(sizeof(System::Net::HttpWebRequest*) == 0x8);
+    public:
     // Get instance field reference: private System.Int32 nbytes
     int& dyn_nbytes();
     // Get instance field reference: private System.IAsyncResult innerAsyncResult
@@ -108,7 +115,7 @@ namespace System::Net {
     // Get instance field reference: private System.IO.Stream writeStream
     System::IO::Stream*& dyn_writeStream();
     // Get instance field reference: private System.Byte[] buffer
-    ::ArrayWrapper<uint8_t>& dyn_buffer();
+    ::ArrayW<uint8_t>& dyn_buffer();
     // Get instance field reference: private System.Int32 offset
     int& dyn_offset();
     // Get instance field reference: private System.Int32 size
@@ -139,7 +146,7 @@ namespace System::Net {
     System::Net::HttpWebResponse* get_Response();
     // System.Byte[] get_Buffer()
     // Offset: 0x1777E14
-    ::ArrayWrapper<uint8_t> get_Buffer();
+    ::ArrayW<uint8_t> get_Buffer();
     // System.Int32 get_Offset()
     // Offset: 0x1777E1C
     int get_Offset();
@@ -156,7 +163,7 @@ namespace System::Net {
     // public System.Void .ctor(System.AsyncCallback cb, System.Object state, System.Byte[] buffer, System.Int32 offset, System.Int32 size)
     // Offset: 0x1777D58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static WebAsyncResult* New_ctor(System::AsyncCallback* cb, ::Il2CppObject* state, ::ArrayWrapper<uint8_t> buffer, int offset, int size) {
+    static WebAsyncResult* New_ctor(System::AsyncCallback* cb, ::Il2CppObject* state, ::ArrayW<uint8_t> buffer, int offset, int size) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Net::WebAsyncResult::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<WebAsyncResult*, creationType>(cb, state, buffer, offset, size)));
     }
@@ -242,7 +249,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Writing MetadataGetter for method: System::Net::WebAsyncResult::get_Buffer
 // Il2CppName: get_Buffer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (System::Net::WebAsyncResult::*)()>(&System::Net::WebAsyncResult::get_Buffer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (System::Net::WebAsyncResult::*)()>(&System::Net::WebAsyncResult::get_Buffer)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::WebAsyncResult*), "get_Buffer", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

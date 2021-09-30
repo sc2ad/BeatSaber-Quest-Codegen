@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: RootMotion::FinalIK
@@ -40,17 +41,23 @@ namespace RootMotion::FinalIK {
     class CameraPosition;
     // Nested type: RootMotion::FinalIK::InteractionTrigger::Range
     class Range;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [TooltipAttribute] Offset: 0xEF3CD8
     // public RootMotion.FinalIK.InteractionTrigger/RootMotion.FinalIK.Range[] ranges
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<RootMotion::FinalIK::InteractionTrigger::Range*> ranges;
+    ::ArrayW<RootMotion::FinalIK::InteractionTrigger::Range*> ranges;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::InteractionTrigger::Range*>) == 0x8);
+    static_assert(sizeof(::ArrayW<RootMotion::FinalIK::InteractionTrigger::Range*>) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public RootMotion.FinalIK.InteractionTrigger/RootMotion.FinalIK.Range[] ranges
-    ::ArrayWrapper<RootMotion::FinalIK::InteractionTrigger::Range*>& dyn_ranges();
+    ::ArrayW<RootMotion::FinalIK::InteractionTrigger::Range*>& dyn_ranges();
     // private System.Void OpenUserManual()
     // Offset: 0x1C5B8CC
     void OpenUserManual();
@@ -87,7 +94,7 @@ namespace RootMotion::FinalIK {
     }
   }; // RootMotion.FinalIK.InteractionTrigger
   #pragma pack(pop)
-  static check_size<sizeof(InteractionTrigger), 24 + sizeof(::ArrayWrapper<RootMotion::FinalIK::InteractionTrigger::Range*>)> __RootMotion_FinalIK_InteractionTriggerSizeCheck;
+  static check_size<sizeof(InteractionTrigger), 24 + sizeof(::ArrayW<RootMotion::FinalIK::InteractionTrigger::Range*>)> __RootMotion_FinalIK_InteractionTriggerSizeCheck;
   static_assert(sizeof(InteractionTrigger) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::InteractionTrigger*, "RootMotion.FinalIK", "InteractionTrigger");

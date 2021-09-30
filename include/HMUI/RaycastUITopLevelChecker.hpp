@@ -35,6 +35,11 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class RaycastUITopLevelChecker : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult> results
     // Size: 0x8
     // Offset: 0x18
@@ -47,6 +52,7 @@ namespace HMUI {
     UnityEngine::Canvas* canvas;
     // Field size check
     static_assert(sizeof(UnityEngine::Canvas*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult> results

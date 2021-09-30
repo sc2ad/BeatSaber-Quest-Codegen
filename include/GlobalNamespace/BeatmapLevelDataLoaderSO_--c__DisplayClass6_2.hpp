@@ -30,6 +30,11 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class BeatmapLevelDataLoaderSO::$$c__DisplayClass6_2 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.AssetBundleRequest assetBundleRequest
     // Size: 0x8
     // Offset: 0x10
@@ -42,6 +47,7 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_1* CS$$$8__locals2;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapLevelDataLoaderSO::$$c__DisplayClass6_1*) == 0x8);
+    public:
     // Get instance field reference: public UnityEngine.AssetBundleRequest assetBundleRequest
     UnityEngine::AssetBundleRequest*& dyn_assetBundleRequest();
     // Get instance field reference: public BeatmapLevelDataLoaderSO/<>c__DisplayClass6_1 CS$<>8__locals2

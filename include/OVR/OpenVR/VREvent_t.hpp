@@ -18,6 +18,11 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct VREvent_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.UInt32 eventType
     // Size: 0x4
     // Offset: 0x0
@@ -40,6 +45,7 @@ namespace OVR::OpenVR {
     // Size: 0xFFFFFFFF
     // Offset: 0x10
     OVR::OpenVR::VREvent_Data_t data;
+    public:
     // Creating value type constructor for type: VREvent_t
     constexpr VREvent_t(uint eventType_ = {}, uint trackedDeviceIndex_ = {}, float eventAgeSeconds_ = {}, OVR::OpenVR::VREvent_Data_t data_ = {}) noexcept : eventType{eventType_}, trackedDeviceIndex{trackedDeviceIndex_}, eventAgeSeconds{eventAgeSeconds_}, data{data_} {}
     // Creating interface conversion operator: operator System::ValueType

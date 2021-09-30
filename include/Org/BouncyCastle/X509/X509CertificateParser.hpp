@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Asn1
@@ -49,6 +50,11 @@ namespace Org::BouncyCastle::X509 {
   // [TokenAttribute] Offset: FFFFFFFF
   class X509CertificateParser : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Org.BouncyCastle.Asn1.Asn1Set sData
     // Size: 0x8
     // Offset: 0x10
@@ -69,6 +75,7 @@ namespace Org::BouncyCastle::X509 {
     System::IO::Stream* currentStream;
     // Field size check
     static_assert(sizeof(System::IO::Stream*) == 0x8);
+    public:
     // Get static field: static private readonly Org.BouncyCastle.X509.PemParser PemCertParser
     static Org::BouncyCastle::X509::PemParser* _get_PemCertParser();
     // Set static field: static private readonly Org.BouncyCastle.X509.PemParser PemCertParser
@@ -96,10 +103,10 @@ namespace Org::BouncyCastle::X509 {
     Org::BouncyCastle::X509::X509Certificate* CreateX509Certificate(Org::BouncyCastle::Asn1::X509::X509CertificateStructure* c);
     // public Org.BouncyCastle.X509.X509Certificate ReadCertificate(System.Byte[] input)
     // Offset: 0x2185F04
-    Org::BouncyCastle::X509::X509Certificate* ReadCertificate(::ArrayWrapper<uint8_t> input);
+    Org::BouncyCastle::X509::X509Certificate* ReadCertificate(::ArrayW<uint8_t> input);
     // public System.Collections.ICollection ReadCertificates(System.Byte[] input)
     // Offset: 0x2186218
-    System::Collections::ICollection* ReadCertificates(::ArrayWrapper<uint8_t> input);
+    System::Collections::ICollection* ReadCertificates(::ArrayW<uint8_t> input);
     // public Org.BouncyCastle.X509.X509Certificate ReadCertificate(System.IO.Stream inStream)
     // Offset: 0x2185F7C
     Org::BouncyCastle::X509::X509Certificate* ReadCertificate(System::IO::Stream* inStream);
@@ -168,7 +175,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::X509::X509CertificateParser::ReadCertificate
 // Il2CppName: ReadCertificate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::X509::X509Certificate* (Org::BouncyCastle::X509::X509CertificateParser::*)(::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::X509::X509CertificateParser::ReadCertificate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::X509::X509Certificate* (Org::BouncyCastle::X509::X509CertificateParser::*)(::ArrayW<uint8_t>)>(&Org::BouncyCastle::X509::X509CertificateParser::ReadCertificate)> {
   static const MethodInfo* get() {
     static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::X509::X509CertificateParser*), "ReadCertificate", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input});
@@ -177,7 +184,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::X509::X509CertificateParser::ReadCertificates
 // Il2CppName: ReadCertificates
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ICollection* (Org::BouncyCastle::X509::X509CertificateParser::*)(::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::X509::X509CertificateParser::ReadCertificates)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Collections::ICollection* (Org::BouncyCastle::X509::X509CertificateParser::*)(::ArrayW<uint8_t>)>(&Org::BouncyCastle::X509::X509CertificateParser::ReadCertificates)> {
   static const MethodInfo* get() {
     static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::X509::X509CertificateParser*), "ReadCertificates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{input});

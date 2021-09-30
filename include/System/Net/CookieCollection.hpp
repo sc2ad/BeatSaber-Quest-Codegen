@@ -46,6 +46,11 @@ namespace System::Net {
     struct Stamp;
     // Nested type: System::Net::CookieCollection::CookieCollectionEnumerator
     class CookieCollectionEnumerator;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Int32 m_version
     // Size: 0x4
     // Offset: 0x10
@@ -79,6 +84,7 @@ namespace System::Net {
     bool m_IsReadOnly;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator System::Collections::ICollection
     operator System::Collections::ICollection() noexcept {
       return *reinterpret_cast<System::Collections::ICollection*>(this);

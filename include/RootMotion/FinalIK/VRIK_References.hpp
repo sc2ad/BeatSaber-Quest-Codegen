@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -27,6 +28,11 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class VRIK::References : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Transform root
     // Size: 0x8
     // Offset: 0x10
@@ -171,6 +177,7 @@ namespace RootMotion::FinalIK {
     UnityEngine::Transform* rightToes;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    public:
     // Get instance field reference: public UnityEngine.Transform root
     UnityEngine::Transform*& dyn_root();
     // Get instance field reference: public UnityEngine.Transform pelvis
@@ -223,7 +230,7 @@ namespace RootMotion::FinalIK {
     bool get_isEmpty();
     // public UnityEngine.Transform[] GetTransforms()
     // Offset: 0x1C68438
-    ::ArrayWrapper<UnityEngine::Transform*> GetTransforms();
+    ::ArrayW<UnityEngine::Transform*> GetTransforms();
     // static public System.Boolean AutoDetectReferences(UnityEngine.Transform root, out RootMotion.FinalIK.VRIK/RootMotion.FinalIK.References references)
     // Offset: 0x1C67524
     static bool AutoDetectReferences(UnityEngine::Transform* root, ByRef<RootMotion::FinalIK::VRIK::References*> references);
@@ -262,7 +269,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::VRIK::References::GetTransforms
 // Il2CppName: GetTransforms
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Transform*> (RootMotion::FinalIK::VRIK::References::*)()>(&RootMotion::FinalIK::VRIK::References::GetTransforms)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Transform*> (RootMotion::FinalIK::VRIK::References::*)()>(&RootMotion::FinalIK::VRIK::References::GetTransforms)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::VRIK::References*), "GetTransforms", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -27,22 +28,28 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MipMapBiasSpriteSetter : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Sprite[] _sprites
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<UnityEngine::Sprite*> sprites;
+    ::ArrayW<UnityEngine::Sprite*> sprites;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Sprite*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Sprite*>) == 0x8);
     // private System.Single _mipMapBias
     // Size: 0x4
     // Offset: 0x20
     float mipMapBias;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Sprite[] _sprites
-    ::ArrayWrapper<UnityEngine::Sprite*>& dyn__sprites();
+    ::ArrayW<UnityEngine::Sprite*>& dyn__sprites();
     // Get instance field reference: private System.Single _mipMapBias
     float& dyn__mipMapBias();
     // protected System.Void Start()

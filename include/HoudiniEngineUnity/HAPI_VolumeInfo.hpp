@@ -23,6 +23,11 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HAPI_VolumeInfo/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 nameSH
     // Size: 0x4
     // Offset: 0x0
@@ -119,6 +124,7 @@ namespace HoudiniEngineUnity {
     float yTaper;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: HAPI_VolumeInfo
     constexpr HAPI_VolumeInfo(int nameSH_ = {}, HoudiniEngineUnity::HAPI_VolumeType type_ = {}, int xLength_ = {}, int yLength_ = {}, int zLength_ = {}, int minX_ = {}, int minY_ = {}, int minZ_ = {}, int tupleSize_ = {}, HoudiniEngineUnity::HAPI_StorageType storage_ = {}, int tileSize_ = {}, HoudiniEngineUnity::HAPI_Transform transform_ = {}, bool hasTaper_ = {}, float xTaper_ = {}, float yTaper_ = {}) noexcept : nameSH{nameSH_}, type{type_}, xLength{xLength_}, yLength{yLength_}, zLength{zLength_}, minX{minX_}, minY{minY_}, minZ{minZ_}, tupleSize{tupleSize_}, storage{storage_}, tileSize{tileSize_}, transform{transform_}, hasTaper{hasTaper_}, xTaper{xTaper_}, yTaper{yTaper_} {}
     // Creating interface conversion operator: operator System::ValueType

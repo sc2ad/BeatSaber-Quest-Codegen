@@ -28,6 +28,11 @@ namespace System::Reflection {
   // [ComVisibleAttribute] Offset: E5DC84
   struct CustomAttributeTypedArgument/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Type argumentType
     // Size: 0x8
     // Offset: 0x0
@@ -40,6 +45,7 @@ namespace System::Reflection {
     ::Il2CppObject* value;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
+    public:
     // Creating value type constructor for type: CustomAttributeTypedArgument
     constexpr CustomAttributeTypedArgument(System::Type* argumentType_ = {}, ::Il2CppObject* value_ = {}) noexcept : argumentType{argumentType_}, value{value_} {}
     // Creating interface conversion operator: operator System::ValueType

@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net::NetworkInformation
@@ -40,6 +41,11 @@ namespace System::Net::NetworkInformation {
   // [TokenAttribute] Offset: FFFFFFFF
   class UnixNetworkInterface : public System::Net::NetworkInformation::NetworkInterface {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // protected System.Net.NetworkInformation.IPInterfaceProperties ipproperties
     // Size: 0x8
     // Offset: 0x10
@@ -61,15 +67,16 @@ namespace System::Net::NetworkInformation {
     // private System.Byte[] macAddress
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<uint8_t> macAddress;
+    ::ArrayW<uint8_t> macAddress;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Net.NetworkInformation.NetworkInterfaceType type
     // Size: 0x4
     // Offset: 0x30
     System::Net::NetworkInformation::NetworkInterfaceType type;
     // Field size check
     static_assert(sizeof(System::Net::NetworkInformation::NetworkInterfaceType) == 0x4);
+    public:
     // Get instance field reference: protected System.Net.NetworkInformation.IPInterfaceProperties ipproperties
     System::Net::NetworkInformation::IPInterfaceProperties*& dyn_ipproperties();
     // Get instance field reference: private System.String name
@@ -77,7 +84,7 @@ namespace System::Net::NetworkInformation {
     // Get instance field reference: protected System.Collections.Generic.List`1<System.Net.IPAddress> addresses
     System::Collections::Generic::List_1<System::Net::IPAddress*>*& dyn_addresses();
     // Get instance field reference: private System.Byte[] macAddress
-    ::ArrayWrapper<uint8_t>& dyn_macAddress();
+    ::ArrayW<uint8_t>& dyn_macAddress();
     // Get instance field reference: private System.Net.NetworkInformation.NetworkInterfaceType type
     System::Net::NetworkInformation::NetworkInterfaceType& dyn_type();
     // System.Void .ctor(System.String name)
@@ -92,7 +99,7 @@ namespace System::Net::NetworkInformation {
     void AddAddress(System::Net::IPAddress* address);
     // System.Void SetLinkLayerInfo(System.Int32 index, System.Byte[] macAddress, System.Net.NetworkInformation.NetworkInterfaceType type)
     // Offset: 0x1647D88
-    void SetLinkLayerInfo(int index, ::ArrayWrapper<uint8_t> macAddress, System::Net::NetworkInformation::NetworkInterfaceType type);
+    void SetLinkLayerInfo(int index, ::ArrayW<uint8_t> macAddress, System::Net::NetworkInformation::NetworkInterfaceType type);
     // public override System.String get_Name()
     // Offset: 0x164939C
     // Implemented from: System.Net.NetworkInformation.NetworkInterface
@@ -126,7 +133,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::NetworkInformation::UnixNetworkInterface::SetLinkLayerInfo
 // Il2CppName: SetLinkLayerInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::NetworkInformation::UnixNetworkInterface::*)(int, ::ArrayWrapper<uint8_t>, System::Net::NetworkInformation::NetworkInterfaceType)>(&System::Net::NetworkInformation::UnixNetworkInterface::SetLinkLayerInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::NetworkInformation::UnixNetworkInterface::*)(int, ::ArrayW<uint8_t>, System::Net::NetworkInformation::NetworkInterfaceType)>(&System::Net::NetworkInformation::UnixNetworkInterface::SetLinkLayerInfo)> {
   static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* macAddress = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;

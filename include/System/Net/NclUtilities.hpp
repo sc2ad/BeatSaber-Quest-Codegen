@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net
@@ -24,9 +25,9 @@ namespace System::Net {
   class NclUtilities : public ::Il2CppObject {
     public:
     // Get static field: static private System.Net.IPAddress[] _LocalAddresses
-    static ::ArrayWrapper<System::Net::IPAddress*> _get__LocalAddresses();
+    static ::ArrayW<System::Net::IPAddress*> _get__LocalAddresses();
     // Set static field: static private System.Net.IPAddress[] _LocalAddresses
-    static void _set__LocalAddresses(::ArrayWrapper<System::Net::IPAddress*> value);
+    static void _set__LocalAddresses(::ArrayW<System::Net::IPAddress*> value);
     // Get static field: static private System.Object _LocalAddressesLock
     static ::Il2CppObject* _get__LocalAddressesLock();
     // Set static field: static private System.Object _LocalAddressesLock
@@ -37,7 +38,7 @@ namespace System::Net {
     static void _set__LocalDomainName(::Il2CppString* value);
     // static System.Net.IPAddress[] get_LocalAddresses()
     // Offset: 0x185132C
-    static ::ArrayWrapper<System::Net::IPAddress*> get_LocalAddresses();
+    static ::ArrayW<System::Net::IPAddress*> get_LocalAddresses();
     // static private System.Object get_LocalAddressesLock()
     // Offset: 0x185178C
     static ::Il2CppObject* get_LocalAddressesLock();
@@ -56,7 +57,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Net::NclUtilities*, "System.Net", "NclUtilities")
 // Writing MetadataGetter for method: System::Net::NclUtilities::get_LocalAddresses
 // Il2CppName: get_LocalAddresses
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::Net::IPAddress*> (*)()>(&System::Net::NclUtilities::get_LocalAddresses)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Net::IPAddress*> (*)()>(&System::Net::NclUtilities::get_LocalAddresses)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::NclUtilities*), "get_LocalAddresses", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

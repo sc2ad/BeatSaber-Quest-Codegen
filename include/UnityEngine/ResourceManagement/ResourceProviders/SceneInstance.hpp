@@ -28,6 +28,11 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   // [TokenAttribute] Offset: FFFFFFFF
   struct SceneInstance/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.SceneManagement.Scene m_Scene
     // Size: 0x4
     // Offset: 0x0
@@ -42,6 +47,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     UnityEngine::AsyncOperation* m_Operation;
     // Field size check
     static_assert(sizeof(UnityEngine::AsyncOperation*) == 0x8);
+    public:
     // Creating value type constructor for type: SceneInstance
     constexpr SceneInstance(UnityEngine::SceneManagement::Scene m_Scene_ = {}, UnityEngine::AsyncOperation* m_Operation_ = {}) noexcept : m_Scene{m_Scene_}, m_Operation{m_Operation_} {}
     // Creating interface conversion operator: operator System::ValueType

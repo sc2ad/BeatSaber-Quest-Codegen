@@ -51,6 +51,11 @@ namespace UnityEngine::Networking {
     struct UnityWebRequestMethod;
     // Nested type: UnityEngine::Networking::UnityWebRequest::UnityWebRequestError
     struct UnityWebRequestError;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.IntPtr m_Ptr
     // Size: 0x8
     // Offset: 0x10
@@ -102,6 +107,7 @@ namespace UnityEngine::Networking {
     bool disposeUploadHandlerOnDispose;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

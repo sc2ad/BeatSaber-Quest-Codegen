@@ -19,6 +19,11 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E70AB8
   struct RenderBuffer/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Int32 m_RenderTextureInstanceID
     // Size: 0x4
     // Offset: 0x0
@@ -33,6 +38,7 @@ namespace UnityEngine {
     System::IntPtr m_BufferPtr;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
+    public:
     // Creating value type constructor for type: RenderBuffer
     constexpr RenderBuffer(int m_RenderTextureInstanceID_ = {}, System::IntPtr m_BufferPtr_ = {}) noexcept : m_RenderTextureInstanceID{m_RenderTextureInstanceID_}, m_BufferPtr{m_BufferPtr_} {}
     // Creating interface conversion operator: operator System::ValueType

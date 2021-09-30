@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net::NetworkInformation
@@ -45,12 +46,18 @@ namespace System::Net::NetworkInformation {
   // [DefaultMemberAttribute] Offset: E69DC0
   class UnicastIPAddressInformationCollection : public ::Il2CppObject/*, public System::Collections::Generic::ICollection_1<System::Net::NetworkInformation::UnicastIPAddressInformation*>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.ObjectModel.Collection`1<System.Net.NetworkInformation.UnicastIPAddressInformation> addresses
     // Size: 0x8
     // Offset: 0x10
     System::Collections::ObjectModel::Collection_1<System::Net::NetworkInformation::UnicastIPAddressInformation*>* addresses;
     // Field size check
     static_assert(sizeof(System::Collections::ObjectModel::Collection_1<System::Net::NetworkInformation::UnicastIPAddressInformation*>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Collections::Generic::ICollection_1<System::Net::NetworkInformation::UnicastIPAddressInformation*>
     operator System::Collections::Generic::ICollection_1<System::Net::NetworkInformation::UnicastIPAddressInformation*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::ICollection_1<System::Net::NetworkInformation::UnicastIPAddressInformation*>*>(this);
@@ -69,7 +76,7 @@ namespace System::Net::NetworkInformation {
     bool get_IsReadOnly();
     // public System.Void CopyTo(System.Net.NetworkInformation.UnicastIPAddressInformation[] array, System.Int32 offset)
     // Offset: 0x1648D60
-    void CopyTo(::ArrayWrapper<System::Net::NetworkInformation::UnicastIPAddressInformation*> array, int offset);
+    void CopyTo(::ArrayW<System::Net::NetworkInformation::UnicastIPAddressInformation*> array, int offset);
     // public System.Void Add(System.Net.NetworkInformation.UnicastIPAddressInformation address)
     // Offset: 0x1648E30
     void Add(System::Net::NetworkInformation::UnicastIPAddressInformation* address);
@@ -126,7 +133,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Net::NetworkInformation::UnicastIPAddressInformationCollection::CopyTo
 // Il2CppName: CopyTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::NetworkInformation::UnicastIPAddressInformationCollection::*)(::ArrayWrapper<System::Net::NetworkInformation::UnicastIPAddressInformation*>, int)>(&System::Net::NetworkInformation::UnicastIPAddressInformationCollection::CopyTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::NetworkInformation::UnicastIPAddressInformationCollection::*)(::ArrayW<System::Net::NetworkInformation::UnicastIPAddressInformation*>, int)>(&System::Net::NetworkInformation::UnicastIPAddressInformationCollection::CopyTo)> {
   static const MethodInfo* get() {
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Net.NetworkInformation", "UnicastIPAddressInformation"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

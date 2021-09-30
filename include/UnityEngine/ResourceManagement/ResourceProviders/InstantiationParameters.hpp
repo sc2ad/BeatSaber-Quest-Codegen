@@ -34,6 +34,11 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   // [TokenAttribute] Offset: FFFFFFFF
   struct InstantiationParameters/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Vector3 m_Position
     // Size: 0xC
     // Offset: 0x0
@@ -66,6 +71,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     bool m_SetPositionRotation;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating value type constructor for type: InstantiationParameters
     constexpr InstantiationParameters(UnityEngine::Vector3 m_Position_ = {}, UnityEngine::Quaternion m_Rotation_ = {}, UnityEngine::Transform* m_Parent_ = {}, bool m_InstantiateInWorldPosition_ = {}, bool m_SetPositionRotation_ = {}) noexcept : m_Position{m_Position_}, m_Rotation{m_Rotation_}, m_Parent{m_Parent_}, m_InstantiateInWorldPosition{m_InstantiateInWorldPosition_}, m_SetPositionRotation{m_SetPositionRotation_} {}
     // Creating interface conversion operator: operator System::ValueType

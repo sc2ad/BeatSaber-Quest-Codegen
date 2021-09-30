@@ -21,6 +21,11 @@ namespace UnityEngine::XR {
   // [NativeHeaderAttribute] Offset: E9945C
   struct XRDisplaySubsystem::XRMirrorViewBlitDesc/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.IntPtr displaySubsystemInstance
     // Size: 0x8
     // Offset: 0x0
@@ -47,6 +52,7 @@ namespace UnityEngine::XR {
     int blitParamsCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: XRMirrorViewBlitDesc
     constexpr XRMirrorViewBlitDesc(System::IntPtr displaySubsystemInstance_ = {}, bool nativeBlitAvailable_ = {}, bool nativeBlitInvalidStates_ = {}, int blitParamsCount_ = {}) noexcept : displaySubsystemInstance{displaySubsystemInstance_}, nativeBlitAvailable{nativeBlitAvailable_}, nativeBlitInvalidStates{nativeBlitInvalidStates_}, blitParamsCount{blitParamsCount_} {}
     // Creating interface conversion operator: operator System::ValueType

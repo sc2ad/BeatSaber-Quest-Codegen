@@ -17,6 +17,7 @@
 #include "UnityEngine/Color32.hpp"
 // Including type: UnityEngine.Bounds
 #include "UnityEngine/Bounds.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -45,6 +46,11 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   struct TMP_MeshInfo/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Mesh mesh
     // Size: 0x8
     // Offset: 0x0
@@ -62,47 +68,48 @@ namespace TMPro {
     // public UnityEngine.Vector3[] vertices
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<UnityEngine::Vector3> vertices;
+    ::ArrayW<UnityEngine::Vector3> vertices;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector3>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Vector3>) == 0x8);
     // public UnityEngine.Vector3[] normals
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<UnityEngine::Vector3> normals;
+    ::ArrayW<UnityEngine::Vector3> normals;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector3>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Vector3>) == 0x8);
     // public UnityEngine.Vector4[] tangents
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<UnityEngine::Vector4> tangents;
+    ::ArrayW<UnityEngine::Vector4> tangents;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector4>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Vector4>) == 0x8);
     // public UnityEngine.Vector2[] uvs0
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<UnityEngine::Vector2> uvs0;
+    ::ArrayW<UnityEngine::Vector2> uvs0;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector2>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Vector2>) == 0x8);
     // public UnityEngine.Vector2[] uvs2
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<UnityEngine::Vector2> uvs2;
+    ::ArrayW<UnityEngine::Vector2> uvs2;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector2>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Vector2>) == 0x8);
     // public UnityEngine.Color32[] colors32
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayWrapper<UnityEngine::Color32> colors32;
+    ::ArrayW<UnityEngine::Color32> colors32;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Color32>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Color32>) == 0x8);
     // public System.Int32[] triangles
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayWrapper<int> triangles;
+    ::ArrayW<int> triangles;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
+    public:
     // Creating value type constructor for type: TMP_MeshInfo
-    constexpr TMP_MeshInfo(UnityEngine::Mesh* mesh_ = {}, int vertexCount_ = {}, ::ArrayWrapper<UnityEngine::Vector3> vertices_ = ::ArrayWrapper<UnityEngine::Vector3>(nullptr), ::ArrayWrapper<UnityEngine::Vector3> normals_ = ::ArrayWrapper<UnityEngine::Vector3>(nullptr), ::ArrayWrapper<UnityEngine::Vector4> tangents_ = ::ArrayWrapper<UnityEngine::Vector4>(nullptr), ::ArrayWrapper<UnityEngine::Vector2> uvs0_ = ::ArrayWrapper<UnityEngine::Vector2>(nullptr), ::ArrayWrapper<UnityEngine::Vector2> uvs2_ = ::ArrayWrapper<UnityEngine::Vector2>(nullptr), ::ArrayWrapper<UnityEngine::Color32> colors32_ = ::ArrayWrapper<UnityEngine::Color32>(nullptr), ::ArrayWrapper<int> triangles_ = ::ArrayWrapper<int>(nullptr)) noexcept : mesh{mesh_}, vertexCount{vertexCount_}, vertices{vertices_}, normals{normals_}, tangents{tangents_}, uvs0{uvs0_}, uvs2{uvs2_}, colors32{colors32_}, triangles{triangles_} {}
+    constexpr TMP_MeshInfo(UnityEngine::Mesh* mesh_ = {}, int vertexCount_ = {}, ::ArrayW<UnityEngine::Vector3> vertices_ = ::ArrayW<UnityEngine::Vector3>(nullptr), ::ArrayW<UnityEngine::Vector3> normals_ = ::ArrayW<UnityEngine::Vector3>(nullptr), ::ArrayW<UnityEngine::Vector4> tangents_ = ::ArrayW<UnityEngine::Vector4>(nullptr), ::ArrayW<UnityEngine::Vector2> uvs0_ = ::ArrayW<UnityEngine::Vector2>(nullptr), ::ArrayW<UnityEngine::Vector2> uvs2_ = ::ArrayW<UnityEngine::Vector2>(nullptr), ::ArrayW<UnityEngine::Color32> colors32_ = ::ArrayW<UnityEngine::Color32>(nullptr), ::ArrayW<int> triangles_ = ::ArrayW<int>(nullptr)) noexcept : mesh{mesh_}, vertexCount{vertexCount_}, vertices{vertices_}, normals{normals_}, tangents{tangents_}, uvs0{uvs0_}, uvs2{uvs2_}, colors32{colors32_}, triangles{triangles_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -128,19 +135,19 @@ namespace TMPro {
     // Get instance field reference: public System.Int32 vertexCount
     int& dyn_vertexCount();
     // Get instance field reference: public UnityEngine.Vector3[] vertices
-    ::ArrayWrapper<UnityEngine::Vector3>& dyn_vertices();
+    ::ArrayW<UnityEngine::Vector3>& dyn_vertices();
     // Get instance field reference: public UnityEngine.Vector3[] normals
-    ::ArrayWrapper<UnityEngine::Vector3>& dyn_normals();
+    ::ArrayW<UnityEngine::Vector3>& dyn_normals();
     // Get instance field reference: public UnityEngine.Vector4[] tangents
-    ::ArrayWrapper<UnityEngine::Vector4>& dyn_tangents();
+    ::ArrayW<UnityEngine::Vector4>& dyn_tangents();
     // Get instance field reference: public UnityEngine.Vector2[] uvs0
-    ::ArrayWrapper<UnityEngine::Vector2>& dyn_uvs0();
+    ::ArrayW<UnityEngine::Vector2>& dyn_uvs0();
     // Get instance field reference: public UnityEngine.Vector2[] uvs2
-    ::ArrayWrapper<UnityEngine::Vector2>& dyn_uvs2();
+    ::ArrayW<UnityEngine::Vector2>& dyn_uvs2();
     // Get instance field reference: public UnityEngine.Color32[] colors32
-    ::ArrayWrapper<UnityEngine::Color32>& dyn_colors32();
+    ::ArrayW<UnityEngine::Color32>& dyn_colors32();
     // Get instance field reference: public System.Int32[] triangles
-    ::ArrayWrapper<int>& dyn_triangles();
+    ::ArrayW<int>& dyn_triangles();
     // public System.Void .ctor(UnityEngine.Mesh mesh, System.Int32 size)
     // Offset: 0x1220F08
     TMP_MeshInfo(UnityEngine::Mesh* mesh, int size);
@@ -182,7 +189,7 @@ namespace TMPro {
     void SwapVertexData(int src, int dst);
   }; // TMPro.TMP_MeshInfo
   #pragma pack(pop)
-  static check_size<sizeof(TMP_MeshInfo), 64 + sizeof(::ArrayWrapper<int>)> __TMPro_TMP_MeshInfoSizeCheck;
+  static check_size<sizeof(TMP_MeshInfo), 64 + sizeof(::ArrayW<int>)> __TMPro_TMP_MeshInfoSizeCheck;
   static_assert(sizeof(TMP_MeshInfo) == 0x48);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

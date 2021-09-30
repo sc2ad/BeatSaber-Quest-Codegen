@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -71,25 +72,25 @@ namespace System {
     static bool IsUserCattrProvider(::Il2CppObject* obj);
     // static System.Object[] GetCustomAttributesInternal(System.Reflection.ICustomAttributeProvider obj, System.Type attributeType, System.Boolean pseudoAttrs)
     // Offset: 0x1A10408
-    static ::ArrayWrapper<::Il2CppObject*> GetCustomAttributesInternal(System::Reflection::ICustomAttributeProvider* obj, System::Type* attributeType, bool pseudoAttrs);
+    static ::ArrayW<::Il2CppObject*> GetCustomAttributesInternal(System::Reflection::ICustomAttributeProvider* obj, System::Type* attributeType, bool pseudoAttrs);
     // static System.Object[] GetPseudoCustomAttributes(System.Reflection.ICustomAttributeProvider obj, System.Type attributeType)
     // Offset: 0x1A10410
-    static ::ArrayWrapper<::Il2CppObject*> GetPseudoCustomAttributes(System::Reflection::ICustomAttributeProvider* obj, System::Type* attributeType);
+    static ::ArrayW<::Il2CppObject*> GetPseudoCustomAttributes(System::Reflection::ICustomAttributeProvider* obj, System::Type* attributeType);
     // static private System.Object[] GetPseudoCustomAttributes(System.Type type)
     // Offset: 0x1A106F8
-    static ::ArrayWrapper<::Il2CppObject*> GetPseudoCustomAttributes(System::Type* type);
+    static ::ArrayW<::Il2CppObject*> GetPseudoCustomAttributes(System::Type* type);
     // static System.Object[] GetCustomAttributesBase(System.Reflection.ICustomAttributeProvider obj, System.Type attributeType, System.Boolean inheritedOnly)
     // Offset: 0x1A10858
-    static ::ArrayWrapper<::Il2CppObject*> GetCustomAttributesBase(System::Reflection::ICustomAttributeProvider* obj, System::Type* attributeType, bool inheritedOnly);
+    static ::ArrayW<::Il2CppObject*> GetCustomAttributesBase(System::Reflection::ICustomAttributeProvider* obj, System::Type* attributeType, bool inheritedOnly);
     // static System.Object[] GetCustomAttributes(System.Reflection.ICustomAttributeProvider obj, System.Type attributeType, System.Boolean inherit)
     // Offset: 0x1A10A10
-    static ::ArrayWrapper<::Il2CppObject*> GetCustomAttributes(System::Reflection::ICustomAttributeProvider* obj, System::Type* attributeType, bool inherit);
+    static ::ArrayW<::Il2CppObject*> GetCustomAttributes(System::Reflection::ICustomAttributeProvider* obj, System::Type* attributeType, bool inherit);
     // static System.Object[] GetCustomAttributes(System.Reflection.ICustomAttributeProvider obj, System.Boolean inherit)
     // Offset: 0x1A11728
-    static ::ArrayWrapper<::Il2CppObject*> GetCustomAttributes(System::Reflection::ICustomAttributeProvider* obj, bool inherit);
+    static ::ArrayW<::Il2CppObject*> GetCustomAttributes(System::Reflection::ICustomAttributeProvider* obj, bool inherit);
     // static private System.Reflection.CustomAttributeData[] GetCustomAttributesDataInternal(System.Reflection.ICustomAttributeProvider obj)
     // Offset: 0x1A118A0
-    static ::ArrayWrapper<System::Reflection::CustomAttributeData*> GetCustomAttributesDataInternal(System::Reflection::ICustomAttributeProvider* obj);
+    static ::ArrayW<System::Reflection::CustomAttributeData*> GetCustomAttributesDataInternal(System::Reflection::ICustomAttributeProvider* obj);
     // static System.Collections.Generic.IList`1<System.Reflection.CustomAttributeData> GetCustomAttributesData(System.Reflection.ICustomAttributeProvider obj)
     // Offset: 0x1A118A4
     static System::Collections::Generic::IList_1<System::Reflection::CustomAttributeData*>* GetCustomAttributesData(System::Reflection::ICustomAttributeProvider* obj);
@@ -140,7 +141,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::MonoCustomAttrs::GetCustomAttributesInternal
 // Il2CppName: GetCustomAttributesInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppObject*> (*)(System::Reflection::ICustomAttributeProvider*, System::Type*, bool)>(&System::MonoCustomAttrs::GetCustomAttributesInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppObject*> (*)(System::Reflection::ICustomAttributeProvider*, System::Type*, bool)>(&System::MonoCustomAttrs::GetCustomAttributesInternal)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System.Reflection", "ICustomAttributeProvider")->byval_arg;
     static auto* attributeType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -151,7 +152,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: System::MonoCustomAttrs::GetPseudoCustomAttributes
 // Il2CppName: GetPseudoCustomAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppObject*> (*)(System::Reflection::ICustomAttributeProvider*, System::Type*)>(&System::MonoCustomAttrs::GetPseudoCustomAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppObject*> (*)(System::Reflection::ICustomAttributeProvider*, System::Type*)>(&System::MonoCustomAttrs::GetPseudoCustomAttributes)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System.Reflection", "ICustomAttributeProvider")->byval_arg;
     static auto* attributeType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -161,7 +162,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: System::MonoCustomAttrs::GetPseudoCustomAttributes
 // Il2CppName: GetPseudoCustomAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppObject*> (*)(System::Type*)>(&System::MonoCustomAttrs::GetPseudoCustomAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppObject*> (*)(System::Type*)>(&System::MonoCustomAttrs::GetPseudoCustomAttributes)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::MonoCustomAttrs*), "GetPseudoCustomAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -170,7 +171,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: System::MonoCustomAttrs::GetCustomAttributesBase
 // Il2CppName: GetCustomAttributesBase
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppObject*> (*)(System::Reflection::ICustomAttributeProvider*, System::Type*, bool)>(&System::MonoCustomAttrs::GetCustomAttributesBase)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppObject*> (*)(System::Reflection::ICustomAttributeProvider*, System::Type*, bool)>(&System::MonoCustomAttrs::GetCustomAttributesBase)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System.Reflection", "ICustomAttributeProvider")->byval_arg;
     static auto* attributeType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -181,7 +182,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: System::MonoCustomAttrs::GetCustomAttributes
 // Il2CppName: GetCustomAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppObject*> (*)(System::Reflection::ICustomAttributeProvider*, System::Type*, bool)>(&System::MonoCustomAttrs::GetCustomAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppObject*> (*)(System::Reflection::ICustomAttributeProvider*, System::Type*, bool)>(&System::MonoCustomAttrs::GetCustomAttributes)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System.Reflection", "ICustomAttributeProvider")->byval_arg;
     static auto* attributeType = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
@@ -192,7 +193,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: System::MonoCustomAttrs::GetCustomAttributes
 // Il2CppName: GetCustomAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppObject*> (*)(System::Reflection::ICustomAttributeProvider*, bool)>(&System::MonoCustomAttrs::GetCustomAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppObject*> (*)(System::Reflection::ICustomAttributeProvider*, bool)>(&System::MonoCustomAttrs::GetCustomAttributes)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System.Reflection", "ICustomAttributeProvider")->byval_arg;
     static auto* inherit = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -202,7 +203,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: System::MonoCustomAttrs::GetCustomAttributesDataInternal
 // Il2CppName: GetCustomAttributesDataInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::Reflection::CustomAttributeData*> (*)(System::Reflection::ICustomAttributeProvider*)>(&System::MonoCustomAttrs::GetCustomAttributesDataInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Reflection::CustomAttributeData*> (*)(System::Reflection::ICustomAttributeProvider*)>(&System::MonoCustomAttrs::GetCustomAttributesDataInternal)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System.Reflection", "ICustomAttributeProvider")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::MonoCustomAttrs*), "GetCustomAttributesDataInternal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{obj});

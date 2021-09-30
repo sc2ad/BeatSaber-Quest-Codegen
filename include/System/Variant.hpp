@@ -21,6 +21,11 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Variant/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int16 vt
     // Size: 0x2
     // Offset: 0x0
@@ -144,6 +149,7 @@ namespace System {
       // Field size check
       static_assert(sizeof(System::BRECORD) == 0x10);
     };
+    public:
     // Creating value type constructor for type: Variant
     constexpr Variant(int16_t vt_ = {}, uint16_t wReserved1_ = {}, uint16_t wReserved2_ = {}, uint16_t wReserved3_ = {}, int64_t llVal_ = {}) noexcept : vt{vt_}, wReserved1{wReserved1_}, wReserved2{wReserved2_}, wReserved3{wReserved3_}, llVal{llVal_} {}
     // Creating interface conversion operator: operator System::ValueType

@@ -22,6 +22,11 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_PluginStorage::StoreData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public HoudiniEngineUnity.HEU_PluginStorage/HoudiniEngineUnity.DataType _type
     // Size: 0x4
     // Offset: 0x10
@@ -36,6 +41,7 @@ namespace HoudiniEngineUnity {
     ::Il2CppString* valueStr;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: public HoudiniEngineUnity.HEU_PluginStorage/HoudiniEngineUnity.DataType _type
     HoudiniEngineUnity::HEU_PluginStorage::DataType& dyn__type();
     // Get instance field reference: public System.String _valueStr

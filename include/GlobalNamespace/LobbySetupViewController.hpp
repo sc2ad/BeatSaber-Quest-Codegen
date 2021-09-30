@@ -68,6 +68,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LobbySetupViewController : public HMUI::ViewController {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.UI.Button _startGameReadyButton
     // Size: 0x8
     // Offset: 0x70
@@ -195,6 +200,7 @@ namespace GlobalNamespace {
     bool isQuickStart;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // [LocalizationKeyAttribute] Offset: 0xF11370
     // static field const value: static private System.String kStartTextKey
     static constexpr const char* kStartTextKey = "LOBBY_START_GAME";

@@ -9,6 +9,7 @@
 #include "GlobalNamespace/OVRPlugin.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: 
 namespace GlobalNamespace {
@@ -19,6 +20,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct OVRPlugin::Skeleton2/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public OVRPlugin/SkeletonType Type
     // Size: 0x4
     // Offset: 0x0
@@ -42,17 +48,18 @@ namespace GlobalNamespace {
     // public OVRPlugin/Bone[] Bones
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<GlobalNamespace::OVRPlugin::Bone> Bones;
+    ::ArrayW<GlobalNamespace::OVRPlugin::Bone> Bones;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::OVRPlugin::Bone>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::OVRPlugin::Bone>) == 0x8);
     // public OVRPlugin/BoneCapsule[] BoneCapsules
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<GlobalNamespace::OVRPlugin::BoneCapsule> BoneCapsules;
+    ::ArrayW<GlobalNamespace::OVRPlugin::BoneCapsule> BoneCapsules;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::OVRPlugin::BoneCapsule>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::OVRPlugin::BoneCapsule>) == 0x8);
+    public:
     // Creating value type constructor for type: Skeleton2
-    constexpr Skeleton2(GlobalNamespace::OVRPlugin::SkeletonType Type_ = {}, uint NumBones_ = {}, uint NumBoneCapsules_ = {}, ::ArrayWrapper<GlobalNamespace::OVRPlugin::Bone> Bones_ = ::ArrayWrapper<GlobalNamespace::OVRPlugin::Bone>(nullptr), ::ArrayWrapper<GlobalNamespace::OVRPlugin::BoneCapsule> BoneCapsules_ = ::ArrayWrapper<GlobalNamespace::OVRPlugin::BoneCapsule>(nullptr)) noexcept : Type{Type_}, NumBones{NumBones_}, NumBoneCapsules{NumBoneCapsules_}, Bones{Bones_}, BoneCapsules{BoneCapsules_} {}
+    constexpr Skeleton2(GlobalNamespace::OVRPlugin::SkeletonType Type_ = {}, uint NumBones_ = {}, uint NumBoneCapsules_ = {}, ::ArrayW<GlobalNamespace::OVRPlugin::Bone> Bones_ = ::ArrayW<GlobalNamespace::OVRPlugin::Bone>(nullptr), ::ArrayW<GlobalNamespace::OVRPlugin::BoneCapsule> BoneCapsules_ = ::ArrayW<GlobalNamespace::OVRPlugin::BoneCapsule>(nullptr)) noexcept : Type{Type_}, NumBones{NumBones_}, NumBoneCapsules{NumBoneCapsules_}, Bones{Bones_}, BoneCapsules{BoneCapsules_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -64,12 +71,12 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.UInt32 NumBoneCapsules
     uint& dyn_NumBoneCapsules();
     // Get instance field reference: public OVRPlugin/Bone[] Bones
-    ::ArrayWrapper<GlobalNamespace::OVRPlugin::Bone>& dyn_Bones();
+    ::ArrayW<GlobalNamespace::OVRPlugin::Bone>& dyn_Bones();
     // Get instance field reference: public OVRPlugin/BoneCapsule[] BoneCapsules
-    ::ArrayWrapper<GlobalNamespace::OVRPlugin::BoneCapsule>& dyn_BoneCapsules();
+    ::ArrayW<GlobalNamespace::OVRPlugin::BoneCapsule>& dyn_BoneCapsules();
   }; // OVRPlugin/Skeleton2
   #pragma pack(pop)
-  static check_size<sizeof(OVRPlugin::Skeleton2), 24 + sizeof(::ArrayWrapper<GlobalNamespace::OVRPlugin::BoneCapsule>)> __GlobalNamespace_OVRPlugin_Skeleton2SizeCheck;
+  static check_size<sizeof(OVRPlugin::Skeleton2), 24 + sizeof(::ArrayW<GlobalNamespace::OVRPlugin::BoneCapsule>)> __GlobalNamespace_OVRPlugin_Skeleton2SizeCheck;
   static_assert(sizeof(OVRPlugin::Skeleton2) == 0x20);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

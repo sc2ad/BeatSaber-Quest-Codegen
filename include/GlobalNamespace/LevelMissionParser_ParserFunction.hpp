@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -40,10 +41,10 @@ namespace GlobalNamespace {
     }
     // public System.Boolean Invoke(System.Single[] functionParams, System.Int32 paramCount)
     // Offset: 0x130B4B8
-    bool Invoke(::ArrayWrapper<float> functionParams, int paramCount);
+    bool Invoke(::ArrayW<float> functionParams, int paramCount);
     // public System.IAsyncResult BeginInvoke(System.Single[] functionParams, System.Int32 paramCount, System.AsyncCallback callback, System.Object object)
     // Offset: 0x130B8E0
-    System::IAsyncResult* BeginInvoke(::ArrayWrapper<float> functionParams, int paramCount, System::AsyncCallback* callback, ::Il2CppObject* object);
+    System::IAsyncResult* BeginInvoke(::ArrayW<float> functionParams, int paramCount, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Boolean EndInvoke(System.IAsyncResult result)
     // Offset: 0x130B97C
     bool EndInvoke(System::IAsyncResult* result);
@@ -59,7 +60,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::LevelMissionParser::ParserFunction*, "",
 // Writing MetadataGetter for method: GlobalNamespace::LevelMissionParser::ParserFunction::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::LevelMissionParser::ParserFunction::*)(::ArrayWrapper<float>, int)>(&GlobalNamespace::LevelMissionParser::ParserFunction::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (GlobalNamespace::LevelMissionParser::ParserFunction::*)(::ArrayW<float>, int)>(&GlobalNamespace::LevelMissionParser::ParserFunction::Invoke)> {
   static const MethodInfo* get() {
     static auto* functionParams = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     static auto* paramCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -69,7 +70,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Globa
 // Writing MetadataGetter for method: GlobalNamespace::LevelMissionParser::ParserFunction::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (GlobalNamespace::LevelMissionParser::ParserFunction::*)(::ArrayWrapper<float>, int, System::AsyncCallback*, ::Il2CppObject*)>(&GlobalNamespace::LevelMissionParser::ParserFunction::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (GlobalNamespace::LevelMissionParser::ParserFunction::*)(::ArrayW<float>, int, System::AsyncCallback*, ::Il2CppObject*)>(&GlobalNamespace::LevelMissionParser::ParserFunction::BeginInvoke)> {
   static const MethodInfo* get() {
     static auto* functionParams = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     static auto* paramCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::ProBuilder
@@ -30,22 +31,28 @@ namespace UnityEngine::ProBuilder {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class SelectionPickerRenderer::$$c__DisplayClass19_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Vector3[] positions
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<UnityEngine::Vector3> positions;
+    ::ArrayW<UnityEngine::Vector3> positions;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector3>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Vector3>) == 0x8);
     // public UnityEngine.ProBuilder.SharedVertex[] sharedVertices
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<UnityEngine::ProBuilder::SharedVertex*> sharedVertices;
+    ::ArrayW<UnityEngine::ProBuilder::SharedVertex*> sharedVertices;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::ProBuilder::SharedVertex*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::ProBuilder::SharedVertex*>) == 0x8);
+    public:
     // Get instance field reference: public UnityEngine.Vector3[] positions
-    ::ArrayWrapper<UnityEngine::Vector3>& dyn_positions();
+    ::ArrayW<UnityEngine::Vector3>& dyn_positions();
     // Get instance field reference: public UnityEngine.ProBuilder.SharedVertex[] sharedVertices
-    ::ArrayWrapper<UnityEngine::ProBuilder::SharedVertex*>& dyn_sharedVertices();
+    ::ArrayW<UnityEngine::ProBuilder::SharedVertex*>& dyn_sharedVertices();
     // System.Int32 <PickVerticesInRect>b__0(System.Int32 x)
     // Offset: 0x169C800
     int $PickVerticesInRect$b__0(int x);
@@ -60,7 +67,7 @@ namespace UnityEngine::ProBuilder {
     }
   }; // UnityEngine.ProBuilder.SelectionPickerRenderer/UnityEngine.ProBuilder.<>c__DisplayClass19_0
   #pragma pack(pop)
-  static check_size<sizeof(SelectionPickerRenderer::$$c__DisplayClass19_0), 24 + sizeof(::ArrayWrapper<UnityEngine::ProBuilder::SharedVertex*>)> __UnityEngine_ProBuilder_SelectionPickerRenderer_$$c__DisplayClass19_0SizeCheck;
+  static check_size<sizeof(SelectionPickerRenderer::$$c__DisplayClass19_0), 24 + sizeof(::ArrayW<UnityEngine::ProBuilder::SharedVertex*>)> __UnityEngine_ProBuilder_SelectionPickerRenderer_$$c__DisplayClass19_0SizeCheck;
   static_assert(sizeof(SelectionPickerRenderer::$$c__DisplayClass19_0) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::SelectionPickerRenderer::$$c__DisplayClass19_0*, "UnityEngine.ProBuilder", "SelectionPickerRenderer/<>c__DisplayClass19_0");

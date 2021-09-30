@@ -29,6 +29,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LeaderboardScoreUploader::ScoreData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String <playerId>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -103,6 +108,7 @@ namespace GlobalNamespace {
     int currentUploadAttemptCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: private System.String <playerId>k__BackingField
     ::Il2CppString*& dyn_$playerId$k__BackingField();
     // Get instance field reference: private IDifficultyBeatmap <beatmap>k__BackingField

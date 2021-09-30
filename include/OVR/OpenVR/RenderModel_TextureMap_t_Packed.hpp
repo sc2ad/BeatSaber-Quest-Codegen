@@ -26,6 +26,11 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct RenderModel_TextureMap_t_Packed/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.UInt16 unWidth
     // Size: 0x2
     // Offset: 0x0
@@ -44,6 +49,7 @@ namespace OVR::OpenVR {
     System::IntPtr rubTextureMapData;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
+    public:
     // Creating value type constructor for type: RenderModel_TextureMap_t_Packed
     constexpr RenderModel_TextureMap_t_Packed(uint16_t unWidth_ = {}, uint16_t unHeight_ = {}, System::IntPtr rubTextureMapData_ = {}) noexcept : unWidth{unWidth_}, unHeight{unHeight_}, rubTextureMapData{rubTextureMapData_} {}
     // Creating interface conversion operator: operator System::ValueType

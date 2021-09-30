@@ -24,6 +24,11 @@ namespace UnityEngine::AddressableAssets {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class AddressablesImpl::$$c__DisplayClass33_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> op
     // Size: 0xFFFFFFFF
     // Offset: 0x10
@@ -34,6 +39,7 @@ namespace UnityEngine::AddressableAssets {
     UnityEngine::AddressableAssets::AddressablesImpl* $$4__this;
     // Field size check
     static_assert(sizeof(UnityEngine::AddressableAssets::AddressablesImpl*) == 0x8);
+    public:
     // Get instance field reference: public UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.ResourceManagement.ResourceProviders.SceneInstance> op
     UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>& dyn_op();
     // Get instance field reference: public UnityEngine.AddressableAssets.AddressablesImpl <>4__this

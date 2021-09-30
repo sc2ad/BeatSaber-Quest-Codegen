@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HoudiniEngineUnity
@@ -40,7 +41,7 @@ namespace HoudiniEngineUnity {
     static HoudiniEngineUnity::Test_Transform* ToTestObject(UnityEngine::Transform* self);
     // static public HoudiniEngineUnity.Test_Transform[] ToTestObject(UnityEngine.Transform[] self)
     // Offset: 0x25D3FB8
-    static ::ArrayWrapper<HoudiniEngineUnity::Test_Transform*> ToTestObject(::ArrayWrapper<UnityEngine::Transform*> self);
+    static ::ArrayW<HoudiniEngineUnity::Test_Transform*> ToTestObject(::ArrayW<UnityEngine::Transform*> self);
     // static public System.Collections.Generic.List`1<HoudiniEngineUnity.Test_Transform> ToTestObject(System.Collections.Generic.List`1<UnityEngine.Transform> self)
     // Offset: 0x25D40A4
     static System::Collections::Generic::List_1<HoudiniEngineUnity::Test_Transform*>* ToTestObject(System::Collections::Generic::List_1<UnityEngine::Transform*>* self);
@@ -62,7 +63,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::Test_Transform_Extensions::ToTestObject
 // Il2CppName: ToTestObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<HoudiniEngineUnity::Test_Transform*> (*)(::ArrayWrapper<UnityEngine::Transform*>)>(&HoudiniEngineUnity::Test_Transform_Extensions::ToTestObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<HoudiniEngineUnity::Test_Transform*> (*)(::ArrayW<UnityEngine::Transform*>)>(&HoudiniEngineUnity::Test_Transform_Extensions::ToTestObject)> {
   static const MethodInfo* get() {
     static auto* self = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Transform"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::Test_Transform_Extensions*), "ToTestObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{self});

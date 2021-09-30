@@ -28,6 +28,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LocalLeaderboardsModel::LeaderboardData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.String _leaderboardId
     // Size: 0x8
     // Offset: 0x10
@@ -40,6 +45,7 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::ScoreData*>* scores;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::LocalLeaderboardsModel::ScoreData*>*) == 0x8);
+    public:
     // Get instance field reference: public System.String _leaderboardId
     ::Il2CppString*& dyn__leaderboardId();
     // Get instance field reference: public System.Collections.Generic.List`1<LocalLeaderboardsModel/ScoreData> _scores

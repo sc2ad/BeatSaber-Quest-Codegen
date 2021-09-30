@@ -35,6 +35,11 @@ namespace System::Threading::Tasks {
   // [TokenAttribute] Offset: FFFFFFFF
   class TaskFactory::CompleteOnInvokePromise : public System::Threading::Tasks::Task_1<System::Threading::Tasks::Task*>/*, public System::Threading::Tasks::ITaskCompletionAction*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.IList`1<System.Threading.Tasks.Task> _tasks
     // Size: 0x8
     // Offset: 0x58
@@ -47,6 +52,7 @@ namespace System::Threading::Tasks {
     int m_firstTaskAlreadyCompleted;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating interface conversion operator: operator System::Threading::Tasks::ITaskCompletionAction
     operator System::Threading::Tasks::ITaskCompletionAction() noexcept {
       return *reinterpret_cast<System::Threading::Tasks::ITaskCompletionAction*>(this);

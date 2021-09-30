@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO
@@ -26,12 +27,18 @@ namespace Org::BouncyCastle::Utilities::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   class PushbackStream : public Org::BouncyCastle::Utilities::IO::FilterStream {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 buf
     // Size: 0x4
     // Offset: 0x30
     int buf;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: private System.Int32 buf
     int& dyn_buf();
     // public System.Void Unread(System.Int32 b)
@@ -55,7 +62,7 @@ namespace Org::BouncyCastle::Utilities::IO {
     // Offset: 0x2183240
     // Implemented from: Org.BouncyCastle.Utilities.IO.FilterStream
     // Base method: System.Int32 FilterStream::Read(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
-    int Read(::ArrayWrapper<uint8_t> buffer, int offset, int count);
+    int Read(::ArrayW<uint8_t> buffer, int offset, int count);
   }; // Org.BouncyCastle.Utilities.IO.PushbackStream
   #pragma pack(pop)
   static check_size<sizeof(PushbackStream), 48 + sizeof(int)> __Org_BouncyCastle_Utilities_IO_PushbackStreamSizeCheck;
@@ -87,7 +94,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::IO::PushbackStream::Read
 // Il2CppName: Read
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Utilities::IO::PushbackStream::*)(::ArrayWrapper<uint8_t>, int, int)>(&Org::BouncyCastle::Utilities::IO::PushbackStream::Read)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Utilities::IO::PushbackStream::*)(::ArrayW<uint8_t>, int, int)>(&Org::BouncyCastle::Utilities::IO::PushbackStream::Read)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

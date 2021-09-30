@@ -36,12 +36,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapEventDataProcessor : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Collections.Generic.Dictionary`2<BeatmapEventType,BeatmapEventData> _lastBeatmapEventDataDictionary
     // Size: 0x8
     // Offset: 0x10
     System::Collections::Generic::Dictionary_2<GlobalNamespace::BeatmapEventType, GlobalNamespace::BeatmapEventData*>* lastBeatmapEventDataDictionary;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<GlobalNamespace::BeatmapEventType, GlobalNamespace::BeatmapEventData*>*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Collections::Generic::Dictionary_2<GlobalNamespace::BeatmapEventType, GlobalNamespace::BeatmapEventData*>*
     constexpr operator System::Collections::Generic::Dictionary_2<GlobalNamespace::BeatmapEventType, GlobalNamespace::BeatmapEventData*>*() const noexcept {
       return lastBeatmapEventDataDictionary;

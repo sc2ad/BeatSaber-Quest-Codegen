@@ -38,6 +38,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRSceneSampleController : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.KeyCode quitKey
     // Size: 0x4
     // Offset: 0x18
@@ -92,6 +97,7 @@ namespace GlobalNamespace {
     GlobalNamespace::OVRGridCube* gridCube;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OVRGridCube*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public UnityEngine.KeyCode quitKey

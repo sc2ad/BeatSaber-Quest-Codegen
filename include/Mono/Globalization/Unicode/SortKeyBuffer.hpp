@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Globalization
@@ -27,54 +28,59 @@ namespace Mono::Globalization::Unicode {
   // [TokenAttribute] Offset: FFFFFFFF
   class SortKeyBuffer : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Byte[] l1b
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<uint8_t> l1b;
+    ::ArrayW<uint8_t> l1b;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Byte[] l2b
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<uint8_t> l2b;
+    ::ArrayW<uint8_t> l2b;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Byte[] l3b
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<uint8_t> l3b;
+    ::ArrayW<uint8_t> l3b;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Byte[] l4sb
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<uint8_t> l4sb;
+    ::ArrayW<uint8_t> l4sb;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Byte[] l4tb
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<uint8_t> l4tb;
+    ::ArrayW<uint8_t> l4tb;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Byte[] l4kb
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayWrapper<uint8_t> l4kb;
+    ::ArrayW<uint8_t> l4kb;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Byte[] l4wb
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayWrapper<uint8_t> l4wb;
+    ::ArrayW<uint8_t> l4wb;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Byte[] l5b
     // Size: 0x8
     // Offset: 0x48
-    ::ArrayWrapper<uint8_t> l5b;
+    ::ArrayW<uint8_t> l5b;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.String source
     // Size: 0x8
     // Offset: 0x50
@@ -159,22 +165,23 @@ namespace Mono::Globalization::Unicode {
     bool frenchSorted;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private System.Byte[] l1b
-    ::ArrayWrapper<uint8_t>& dyn_l1b();
+    ::ArrayW<uint8_t>& dyn_l1b();
     // Get instance field reference: private System.Byte[] l2b
-    ::ArrayWrapper<uint8_t>& dyn_l2b();
+    ::ArrayW<uint8_t>& dyn_l2b();
     // Get instance field reference: private System.Byte[] l3b
-    ::ArrayWrapper<uint8_t>& dyn_l3b();
+    ::ArrayW<uint8_t>& dyn_l3b();
     // Get instance field reference: private System.Byte[] l4sb
-    ::ArrayWrapper<uint8_t>& dyn_l4sb();
+    ::ArrayW<uint8_t>& dyn_l4sb();
     // Get instance field reference: private System.Byte[] l4tb
-    ::ArrayWrapper<uint8_t>& dyn_l4tb();
+    ::ArrayW<uint8_t>& dyn_l4tb();
     // Get instance field reference: private System.Byte[] l4kb
-    ::ArrayWrapper<uint8_t>& dyn_l4kb();
+    ::ArrayW<uint8_t>& dyn_l4kb();
     // Get instance field reference: private System.Byte[] l4wb
-    ::ArrayWrapper<uint8_t>& dyn_l4wb();
+    ::ArrayW<uint8_t>& dyn_l4wb();
     // Get instance field reference: private System.Byte[] l5b
-    ::ArrayWrapper<uint8_t>& dyn_l5b();
+    ::ArrayW<uint8_t>& dyn_l5b();
     // Get instance field reference: private System.String source
     ::Il2CppString*& dyn_source();
     // Get instance field reference: private System.Int32 l1
@@ -230,13 +237,13 @@ namespace Mono::Globalization::Unicode {
     void AppendLevel5(uint8_t category, uint8_t lv1);
     // private System.Void AppendBufferPrimitive(System.Byte value, ref System.Byte[] buf, ref System.Int32 bidx)
     // Offset: 0x1C39D44
-    void AppendBufferPrimitive(uint8_t value, ByRef<::ArrayWrapper<uint8_t>> buf, ByRef<int> bidx);
+    void AppendBufferPrimitive(uint8_t value, ByRef<::ArrayW<uint8_t>> buf, ByRef<int> bidx);
     // public System.Globalization.SortKey GetResultAndReset()
     // Offset: 0x1C35C0C
     System::Globalization::SortKey* GetResultAndReset();
     // private System.Int32 GetOptimizedLength(System.Byte[] data, System.Int32 len, System.Byte defaultValue)
     // Offset: 0x1C3A3A0
-    int GetOptimizedLength(::ArrayWrapper<uint8_t> data, int len, uint8_t defaultValue);
+    int GetOptimizedLength(::ArrayW<uint8_t> data, int len, uint8_t defaultValue);
     // public System.Globalization.SortKey GetResult()
     // Offset: 0x1C39EC0
     System::Globalization::SortKey* GetResult();
@@ -322,7 +329,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SortKeyBuffer::AppendBufferPrimitive
 // Il2CppName: AppendBufferPrimitive
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Globalization::Unicode::SortKeyBuffer::*)(uint8_t, ByRef<::ArrayWrapper<uint8_t>>, ByRef<int>)>(&Mono::Globalization::Unicode::SortKeyBuffer::AppendBufferPrimitive)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Globalization::Unicode::SortKeyBuffer::*)(uint8_t, ByRef<::ArrayW<uint8_t>>, ByRef<int>)>(&Mono::Globalization::Unicode::SortKeyBuffer::AppendBufferPrimitive)> {
   static const MethodInfo* get() {
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
     static auto* buf = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->this_arg;
@@ -341,7 +348,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Glo
 // Writing MetadataGetter for method: Mono::Globalization::Unicode::SortKeyBuffer::GetOptimizedLength
 // Il2CppName: GetOptimizedLength
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Globalization::Unicode::SortKeyBuffer::*)(::ArrayWrapper<uint8_t>, int, uint8_t)>(&Mono::Globalization::Unicode::SortKeyBuffer::GetOptimizedLength)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::Globalization::Unicode::SortKeyBuffer::*)(::ArrayW<uint8_t>, int, uint8_t)>(&Mono::Globalization::Unicode::SortKeyBuffer::GetOptimizedLength)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* len = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

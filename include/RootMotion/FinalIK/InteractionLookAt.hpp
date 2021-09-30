@@ -30,6 +30,11 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class InteractionLookAt : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [TooltipAttribute] Offset: 0xEF36BC
     // public RootMotion.FinalIK.LookAtIK ik
     // Size: 0x8
@@ -83,6 +88,7 @@ namespace RootMotion::FinalIK {
     bool firstFBBIKSolve;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: public RootMotion.FinalIK.LookAtIK ik
     RootMotion::FinalIK::LookAtIK*& dyn_ik();
     // Get instance field reference: public System.Single lerpSpeed

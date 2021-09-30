@@ -34,12 +34,18 @@ namespace UnityEngine::ProBuilder {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class EdgeLookup::$$c__DisplayClass16_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> lookup
     // Size: 0x8
     // Offset: 0x10
     System::Collections::Generic::Dictionary_2<int, int>* lookup;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<int, int>*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Collections::Generic::Dictionary_2<int, int>*
     constexpr operator System::Collections::Generic::Dictionary_2<int, int>*() const noexcept {
       return lookup;

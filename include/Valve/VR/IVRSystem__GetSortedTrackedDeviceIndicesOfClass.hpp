@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Valve::VR
@@ -46,10 +47,10 @@ namespace Valve::VR {
     }
     // public System.UInt32 Invoke(Valve.VR.ETrackedDeviceClass eTrackedDeviceClass, in System.UInt32[] punTrackedDeviceIndexArray, System.UInt32 unTrackedDeviceIndexArrayCount, System.UInt32 unRelativeToTrackedDeviceIndex)
     // Offset: 0x1EDFCA4
-    uint Invoke(Valve::VR::ETrackedDeviceClass eTrackedDeviceClass, ByRef<::ArrayWrapper<uint>> punTrackedDeviceIndexArray, uint unTrackedDeviceIndexArrayCount, uint unRelativeToTrackedDeviceIndex);
+    uint Invoke(Valve::VR::ETrackedDeviceClass eTrackedDeviceClass, ByRef<::ArrayW<uint>> punTrackedDeviceIndexArray, uint unTrackedDeviceIndexArrayCount, uint unRelativeToTrackedDeviceIndex);
     // public System.IAsyncResult BeginInvoke(Valve.VR.ETrackedDeviceClass eTrackedDeviceClass, in System.UInt32[] punTrackedDeviceIndexArray, System.UInt32 unTrackedDeviceIndexArrayCount, System.UInt32 unRelativeToTrackedDeviceIndex, System.AsyncCallback callback, System.Object object)
     // Offset: 0x1EDFF7C
-    System::IAsyncResult* BeginInvoke(Valve::VR::ETrackedDeviceClass eTrackedDeviceClass, ByRef<::ArrayWrapper<uint>> punTrackedDeviceIndexArray, uint unTrackedDeviceIndexArrayCount, uint unRelativeToTrackedDeviceIndex, System::AsyncCallback* callback, ::Il2CppObject* object);
+    System::IAsyncResult* BeginInvoke(Valve::VR::ETrackedDeviceClass eTrackedDeviceClass, ByRef<::ArrayW<uint>> punTrackedDeviceIndexArray, uint unTrackedDeviceIndexArrayCount, uint unRelativeToTrackedDeviceIndex, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.UInt32 EndInvoke(System.IAsyncResult result)
     // Offset: 0x1EE0048
     uint EndInvoke(System::IAsyncResult* result);
@@ -65,7 +66,7 @@ DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSystem::_GetSortedTrackedDeviceIndicesOfCla
 // Writing MetadataGetter for method: Valve::VR::IVRSystem::_GetSortedTrackedDeviceIndicesOfClass::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve::VR::IVRSystem::_GetSortedTrackedDeviceIndicesOfClass::*)(Valve::VR::ETrackedDeviceClass, ByRef<::ArrayWrapper<uint>>, uint, uint)>(&Valve::VR::IVRSystem::_GetSortedTrackedDeviceIndicesOfClass::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve::VR::IVRSystem::_GetSortedTrackedDeviceIndicesOfClass::*)(Valve::VR::ETrackedDeviceClass, ByRef<::ArrayW<uint>>, uint, uint)>(&Valve::VR::IVRSystem::_GetSortedTrackedDeviceIndicesOfClass::Invoke)> {
   static const MethodInfo* get() {
     static auto* eTrackedDeviceClass = &::il2cpp_utils::GetClassFromName("Valve.VR", "ETrackedDeviceClass")->byval_arg;
     static auto* punTrackedDeviceIndexArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->this_arg;
@@ -77,7 +78,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve
 // Writing MetadataGetter for method: Valve::VR::IVRSystem::_GetSortedTrackedDeviceIndicesOfClass::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRSystem::_GetSortedTrackedDeviceIndicesOfClass::*)(Valve::VR::ETrackedDeviceClass, ByRef<::ArrayWrapper<uint>>, uint, uint, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRSystem::_GetSortedTrackedDeviceIndicesOfClass::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRSystem::_GetSortedTrackedDeviceIndicesOfClass::*)(Valve::VR::ETrackedDeviceClass, ByRef<::ArrayW<uint>>, uint, uint, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRSystem::_GetSortedTrackedDeviceIndicesOfClass::BeginInvoke)> {
   static const MethodInfo* get() {
     static auto* eTrackedDeviceClass = &::il2cpp_utils::GetClassFromName("Valve.VR", "ETrackedDeviceClass")->byval_arg;
     static auto* punTrackedDeviceIndexArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->this_arg;

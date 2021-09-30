@@ -27,6 +27,11 @@ namespace UnityEngine::XR::WSA {
     public:
     // Nested type: UnityEngine::XR::WSA::WorldAnchor::OnTrackingChangedDelegate
     class OnTrackingChangedDelegate;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [DebuggerBrowsableAttribute] Offset: 0xEABD04
     // private UnityEngine.XR.WSA.WorldAnchor/UnityEngine.XR.WSA.OnTrackingChangedDelegate OnTrackingChanged
     // Size: 0x8
@@ -34,6 +39,7 @@ namespace UnityEngine::XR::WSA {
     UnityEngine::XR::WSA::WorldAnchor::OnTrackingChangedDelegate* OnTrackingChanged;
     // Field size check
     static_assert(sizeof(UnityEngine::XR::WSA::WorldAnchor::OnTrackingChangedDelegate*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.XR.WSA.WorldAnchor/UnityEngine.XR.WSA.OnTrackingChangedDelegate OnTrackingChanged

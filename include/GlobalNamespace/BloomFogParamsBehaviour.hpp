@@ -36,6 +36,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BloomFogParamsBehaviour : public UnityEngine::Playables::PlayableBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private BloomFogEnvironmentParams _bloomFogParams
     // Size: 0x8
     // Offset: 0x10
@@ -76,6 +81,7 @@ namespace GlobalNamespace {
     bool finished;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private BloomFogEnvironmentParams _bloomFogParams
     GlobalNamespace::BloomFogEnvironmentParams*& dyn__bloomFogParams();
     // Get instance field reference: public System.Single _blend

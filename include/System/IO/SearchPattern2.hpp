@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO
@@ -27,6 +28,11 @@ namespace System::IO {
     class Op;
     // Nested type: System::IO::SearchPattern2::OpCode
     struct OpCode;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.IO.SearchPattern2/System.IO.Op ops
     // Size: 0x8
     // Offset: 0x10
@@ -53,14 +59,15 @@ namespace System::IO {
     ::Il2CppString* pattern;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get static field: static readonly System.Char[] WildcardChars
-    static ::ArrayWrapper<::Il2CppChar> _get_WildcardChars();
+    static ::ArrayW<::Il2CppChar> _get_WildcardChars();
     // Set static field: static readonly System.Char[] WildcardChars
-    static void _set_WildcardChars(::ArrayWrapper<::Il2CppChar> value);
+    static void _set_WildcardChars(::ArrayW<::Il2CppChar> value);
     // Get static field: static readonly System.Char[] InvalidChars
-    static ::ArrayWrapper<::Il2CppChar> _get_InvalidChars();
+    static ::ArrayW<::Il2CppChar> _get_InvalidChars();
     // Set static field: static readonly System.Char[] InvalidChars
-    static void _set_InvalidChars(::ArrayWrapper<::Il2CppChar> value);
+    static void _set_InvalidChars(::ArrayW<::Il2CppChar> value);
     // Get instance field reference: private System.IO.SearchPattern2/System.IO.Op ops
     System::IO::SearchPattern2::Op*& dyn_ops();
     // Get instance field reference: private System.Boolean ignore

@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::UI::Collections
@@ -44,6 +45,11 @@ namespace UnityEngine::UI {
   // [TokenAttribute] Offset: FFFFFFFF
   class CanvasUpdateRegistry : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean m_PerformingLayoutUpdate
     // Size: 0x1
     // Offset: 0x10
@@ -61,9 +67,9 @@ namespace UnityEngine::UI {
     // private System.String[] m_CanvasUpdateProfilerStrings
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<::Il2CppString*> m_CanvasUpdateProfilerStrings;
+    ::ArrayW<::Il2CppString*> m_CanvasUpdateProfilerStrings;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // private readonly UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.ICanvasElement> m_LayoutRebuildQueue
     // Size: 0x8
     // Offset: 0x20
@@ -76,6 +82,7 @@ namespace UnityEngine::UI {
     UnityEngine::UI::Collections::IndexedSet_1<UnityEngine::UI::ICanvasElement*>* m_GraphicRebuildQueue;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Collections::IndexedSet_1<UnityEngine::UI::ICanvasElement*>*) == 0x8);
+    public:
     // Get static field: static private UnityEngine.UI.CanvasUpdateRegistry s_Instance
     static UnityEngine::UI::CanvasUpdateRegistry* _get_s_Instance();
     // Set static field: static private UnityEngine.UI.CanvasUpdateRegistry s_Instance
@@ -95,7 +102,7 @@ namespace UnityEngine::UI {
     // Get instance field reference: private System.Boolean m_PerformingGraphicUpdate
     bool& dyn_m_PerformingGraphicUpdate();
     // Get instance field reference: private System.String[] m_CanvasUpdateProfilerStrings
-    ::ArrayWrapper<::Il2CppString*>& dyn_m_CanvasUpdateProfilerStrings();
+    ::ArrayW<::Il2CppString*>& dyn_m_CanvasUpdateProfilerStrings();
     // Get instance field reference: private readonly UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.ICanvasElement> m_LayoutRebuildQueue
     UnityEngine::UI::Collections::IndexedSet_1<UnityEngine::UI::ICanvasElement*>*& dyn_m_LayoutRebuildQueue();
     // Get instance field reference: private readonly UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.ICanvasElement> m_GraphicRebuildQueue

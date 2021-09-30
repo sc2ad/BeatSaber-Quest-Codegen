@@ -23,6 +23,11 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   struct TMP_FontWeightPair/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public TMPro.TMP_FontAsset regularTypeface
     // Size: 0x8
     // Offset: 0x0
@@ -35,6 +40,7 @@ namespace TMPro {
     TMPro::TMP_FontAsset* italicTypeface;
     // Field size check
     static_assert(sizeof(TMPro::TMP_FontAsset*) == 0x8);
+    public:
     // Creating value type constructor for type: TMP_FontWeightPair
     constexpr TMP_FontWeightPair(TMPro::TMP_FontAsset* regularTypeface_ = {}, TMPro::TMP_FontAsset* italicTypeface_ = {}) noexcept : regularTypeface{regularTypeface_}, italicTypeface{italicTypeface_} {}
     // Creating interface conversion operator: operator System::ValueType

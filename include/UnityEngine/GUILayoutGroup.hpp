@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -36,6 +37,11 @@ namespace UnityEngine {
   // [VisibleToOtherModulesAttribute] Offset: FFFFFFFF
   class GUILayoutGroup : public UnityEngine::GUILayoutEntry {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Collections.Generic.List`1<UnityEngine.GUILayoutEntry> entries
     // Size: 0x8
     // Offset: 0x48
@@ -162,6 +168,7 @@ namespace UnityEngine {
     int m_MarginBottom;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.GUILayoutEntry> entries
     System::Collections::Generic::List_1<UnityEngine::GUILayoutEntry*>*& dyn_entries();
     // Get instance field reference: public System.Boolean isVertical
@@ -244,7 +251,7 @@ namespace UnityEngine {
     // Offset: 0x1C9B374
     // Implemented from: UnityEngine.GUILayoutEntry
     // Base method: System.Void GUILayoutEntry::ApplyOptions(UnityEngine.GUILayoutOption[] options)
-    void ApplyOptions(::ArrayWrapper<UnityEngine::GUILayoutOption*> options);
+    void ApplyOptions(::ArrayW<UnityEngine::GUILayoutOption*> options);
     // protected override System.Void ApplyStyleSettings(UnityEngine.GUIStyle style)
     // Offset: 0x1C9B4A4
     // Implemented from: UnityEngine.GUILayoutEntry
@@ -346,7 +353,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Writing MetadataGetter for method: UnityEngine::GUILayoutGroup::ApplyOptions
 // Il2CppName: ApplyOptions
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUILayoutGroup::*)(::ArrayWrapper<UnityEngine::GUILayoutOption*>)>(&UnityEngine::GUILayoutGroup::ApplyOptions)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUILayoutGroup::*)(::ArrayW<UnityEngine::GUILayoutOption*>)>(&UnityEngine::GUILayoutGroup::ApplyOptions)> {
   static const MethodInfo* get() {
     static auto* options = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "GUILayoutOption"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayoutGroup*), "ApplyOptions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{options});

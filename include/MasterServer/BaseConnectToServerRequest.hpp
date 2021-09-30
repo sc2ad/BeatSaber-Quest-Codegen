@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -38,6 +39,11 @@ namespace MasterServer {
     public:
     // Writing base type padding for base size: 0x14 to desired offset: 0x18
     char ___base_padding[0x4] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String <userId>k__BackingField
     // Size: 0x8
     // Offset: 0x18
@@ -62,6 +68,7 @@ namespace MasterServer {
     GlobalNamespace::ByteArrayNetSerializable* publicKey;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ByteArrayNetSerializable*) == 0x8);
+    public:
     // Creating interface conversion operator: operator MasterServer::IUserClientToServerMessage
     operator MasterServer::IUserClientToServerMessage() noexcept {
       return *reinterpret_cast<MasterServer::IUserClientToServerMessage*>(this);
@@ -90,7 +97,7 @@ namespace MasterServer {
     void set_userName(::Il2CppString* value);
     // public MasterServer.BaseConnectToServerRequest WithEncryptionParams(System.Byte[] random, System.Byte[] publicKey)
     // Offset: 0x12D9810
-    MasterServer::BaseConnectToServerRequest* WithEncryptionParams(::ArrayWrapper<uint8_t> random, ::ArrayWrapper<uint8_t> publicKey);
+    MasterServer::BaseConnectToServerRequest* WithEncryptionParams(::ArrayW<uint8_t> random, ::ArrayW<uint8_t> publicKey);
     // protected System.Void .ctor()
     // Offset: 0x12D9984
     // Implemented from: BaseMasterServerReliableRequest
@@ -160,7 +167,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
 // Writing MetadataGetter for method: MasterServer::BaseConnectToServerRequest::WithEncryptionParams
 // Il2CppName: WithEncryptionParams
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::BaseConnectToServerRequest* (MasterServer::BaseConnectToServerRequest::*)(::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>)>(&MasterServer::BaseConnectToServerRequest::WithEncryptionParams)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::BaseConnectToServerRequest* (MasterServer::BaseConnectToServerRequest::*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(&MasterServer::BaseConnectToServerRequest::WithEncryptionParams)> {
   static const MethodInfo* get() {
     static auto* random = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* publicKey = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;

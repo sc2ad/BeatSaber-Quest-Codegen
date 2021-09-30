@@ -43,6 +43,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::BTSStarTextEffectController::Pool
     class Pool;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Transform _transform
     // Size: 0x8
     // Offset: 0x18
@@ -67,6 +72,7 @@ namespace GlobalNamespace {
     float currentAnimationDuration;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.String kAnimationName

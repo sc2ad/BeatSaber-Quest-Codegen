@@ -33,12 +33,18 @@ namespace VRUIControls {
   // [TokenAttribute] Offset: FFFFFFFF
   class MouseState : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.List`1<VRUIControls.ButtonState> _trackedButtons
     // Size: 0x8
     // Offset: 0x10
     System::Collections::Generic::List_1<VRUIControls::ButtonState*>* trackedButtons;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<VRUIControls::ButtonState*>*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Collections::Generic::List_1<VRUIControls::ButtonState*>*
     constexpr operator System::Collections::Generic::List_1<VRUIControls::ButtonState*>*() const noexcept {
       return trackedButtons;

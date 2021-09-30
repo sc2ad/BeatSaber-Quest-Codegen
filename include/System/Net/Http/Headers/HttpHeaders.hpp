@@ -62,6 +62,11 @@ namespace System::Net::Http::Headers {
     class HeaderBucket;
     // Nested type: System::Net::Http::Headers::HttpHeaders::$GetEnumerator$d__19
     class $GetEnumerator$d__19;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Collections.Generic.Dictionary`2<System.String,System.Net.Http.Headers.HttpHeaders/System.Net.Http.Headers.HeaderBucket> headers
     // Size: 0x8
     // Offset: 0x10
@@ -82,6 +87,7 @@ namespace System::Net::Http::Headers {
     // Size: 0xFFFFFFFF
     // Offset: 0x1E
     System::Nullable_1<bool> transferEncodingChunked;
+    public:
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<System::Collections::Generic::KeyValuePair_2<::Il2CppString*, System::Collections::Generic::IEnumerable_1<::Il2CppString*>*>>
     operator System::Collections::Generic::IEnumerable_1<System::Collections::Generic::KeyValuePair_2<::Il2CppString*, System::Collections::Generic::IEnumerable_1<::Il2CppString*>*>>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<System::Collections::Generic::KeyValuePair_2<::Il2CppString*, System::Collections::Generic::IEnumerable_1<::Il2CppString*>*>>*>(this);

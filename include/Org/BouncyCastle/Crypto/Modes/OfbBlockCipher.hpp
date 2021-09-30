@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Crypto
@@ -27,24 +28,29 @@ namespace Org::BouncyCastle::Crypto::Modes {
   // [TokenAttribute] Offset: FFFFFFFF
   class OfbBlockCipher : public ::Il2CppObject/*, public Org::BouncyCastle::Crypto::IBlockCipher*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Byte[] IV
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<uint8_t> IV;
+    ::ArrayW<uint8_t> IV;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Byte[] ofbV
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<uint8_t> ofbV;
+    ::ArrayW<uint8_t> ofbV;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Byte[] ofbOutV
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<uint8_t> ofbOutV;
+    ::ArrayW<uint8_t> ofbOutV;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private readonly System.Int32 blockSize
     // Size: 0x4
     // Offset: 0x28
@@ -59,16 +65,17 @@ namespace Org::BouncyCastle::Crypto::Modes {
     Org::BouncyCastle::Crypto::IBlockCipher* cipher;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Crypto::IBlockCipher*) == 0x8);
+    public:
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IBlockCipher
     operator Org::BouncyCastle::Crypto::IBlockCipher() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IBlockCipher*>(this);
     }
     // Get instance field reference: private System.Byte[] IV
-    ::ArrayWrapper<uint8_t>& dyn_IV();
+    ::ArrayW<uint8_t>& dyn_IV();
     // Get instance field reference: private System.Byte[] ofbV
-    ::ArrayWrapper<uint8_t>& dyn_ofbV();
+    ::ArrayW<uint8_t>& dyn_ofbV();
     // Get instance field reference: private System.Byte[] ofbOutV
-    ::ArrayWrapper<uint8_t>& dyn_ofbOutV();
+    ::ArrayW<uint8_t>& dyn_ofbOutV();
     // Get instance field reference: private readonly System.Int32 blockSize
     int& dyn_blockSize();
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.IBlockCipher cipher
@@ -94,7 +101,7 @@ namespace Org::BouncyCastle::Crypto::Modes {
     int GetBlockSize();
     // public System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
     // Offset: 0x1A97A70
-    int ProcessBlock(::ArrayWrapper<uint8_t> input, int inOff, ::ArrayWrapper<uint8_t> output, int outOff);
+    int ProcessBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> output, int outOff);
     // public System.Void Reset()
     // Offset: 0x1A97890
     void Reset();
@@ -146,7 +153,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Modes::OfbBlockCipher::ProcessBlock
 // Il2CppName: ProcessBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Modes::OfbBlockCipher::*)(::ArrayWrapper<uint8_t>, int, ::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Modes::OfbBlockCipher::ProcessBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Modes::OfbBlockCipher::*)(::ArrayW<uint8_t>, int, ::ArrayW<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Modes::OfbBlockCipher::ProcessBlock)> {
   static const MethodInfo* get() {
     static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* inOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

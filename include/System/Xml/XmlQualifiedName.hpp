@@ -25,6 +25,11 @@ namespace System::Xml {
     public:
     // Nested type: System::Xml::XmlQualifiedName::HashCodeOfStringDelegate
     class HashCodeOfStringDelegate;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String name
     // Size: 0x8
     // Offset: 0x10
@@ -43,6 +48,7 @@ namespace System::Xml {
     int hash;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get static field: static private System.Xml.XmlQualifiedName/System.Xml.HashCodeOfStringDelegate hashCodeDelegate
     static System::Xml::XmlQualifiedName::HashCodeOfStringDelegate* _get_hashCodeDelegate();
     // Set static field: static private System.Xml.XmlQualifiedName/System.Xml.HashCodeOfStringDelegate hashCodeDelegate

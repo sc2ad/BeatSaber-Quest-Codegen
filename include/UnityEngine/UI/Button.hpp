@@ -46,6 +46,11 @@ namespace UnityEngine::UI {
     class ButtonClickedEvent;
     // Nested type: UnityEngine::UI::Button::$OnFinishSubmit$d__9
     class $OnFinishSubmit$d__9;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [FormerlySerializedAsAttribute] Offset: 0xEA8DA0
     // private UnityEngine.UI.Button/UnityEngine.UI.ButtonClickedEvent m_OnClick
     // Size: 0x8
@@ -53,6 +58,7 @@ namespace UnityEngine::UI {
     UnityEngine::UI::Button::ButtonClickedEvent* m_OnClick;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button::ButtonClickedEvent*) == 0x8);
+    public:
     // Creating interface conversion operator: operator UnityEngine::EventSystems::IPointerClickHandler
     operator UnityEngine::EventSystems::IPointerClickHandler() noexcept {
       return *reinterpret_cast<UnityEngine::EventSystems::IPointerClickHandler*>(this);

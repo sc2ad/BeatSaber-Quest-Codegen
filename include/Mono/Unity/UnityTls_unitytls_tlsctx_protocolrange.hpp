@@ -21,6 +21,11 @@ namespace Mono::Unity {
   // [TokenAttribute] Offset: FFFFFFFF
   struct UnityTls::unitytls_tlsctx_protocolrange/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public Mono.Unity.UnityTls/Mono.Unity.unitytls_protocol min
     // Size: 0x4
     // Offset: 0x0
@@ -33,6 +38,7 @@ namespace Mono::Unity {
     Mono::Unity::UnityTls::unitytls_protocol max;
     // Field size check
     static_assert(sizeof(Mono::Unity::UnityTls::unitytls_protocol) == 0x4);
+    public:
     // Creating value type constructor for type: unitytls_tlsctx_protocolrange
     constexpr unitytls_tlsctx_protocolrange(Mono::Unity::UnityTls::unitytls_protocol min_ = {}, Mono::Unity::UnityTls::unitytls_protocol max_ = {}) noexcept : min{min_}, max{max_} {}
     // Creating interface conversion operator: operator System::ValueType

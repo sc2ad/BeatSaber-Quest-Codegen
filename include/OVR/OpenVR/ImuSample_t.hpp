@@ -18,6 +18,11 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct ImuSample_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Double fSampleTime
     // Size: 0x8
     // Offset: 0x0
@@ -42,6 +47,7 @@ namespace OVR::OpenVR {
     uint unOffScaleFlags;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
+    public:
     // Creating value type constructor for type: ImuSample_t
     constexpr ImuSample_t(double fSampleTime_ = {}, OVR::OpenVR::HmdVector3d_t vAccel_ = {}, OVR::OpenVR::HmdVector3d_t vGyro_ = {}, uint unOffScaleFlags_ = {}) noexcept : fSampleTime{fSampleTime_}, vAccel{vAccel_}, vGyro{vGyro_}, unOffScaleFlags{unOffScaleFlags_} {}
     // Creating interface conversion operator: operator System::ValueType

@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection
@@ -39,7 +40,7 @@ namespace UnityEngine::Events {
     }
     // public System.Void Invoke(System.Object[] args)
     // Offset: 0xFFFFFFFF
-    void Invoke(::ArrayWrapper<::Il2CppObject*> args);
+    void Invoke(::ArrayW<::Il2CppObject*> args);
     // static protected System.Void ThrowOnInvalidArg(System.Object arg)
     // Offset: 0xFFFFFFFF
     template<class T>
@@ -76,7 +77,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Events::BaseInvokableCall*, "UnityEngine.Eve
 // Writing MetadataGetter for method: UnityEngine::Events::BaseInvokableCall::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Events::BaseInvokableCall::*)(::ArrayWrapper<::Il2CppObject*>)>(&UnityEngine::Events::BaseInvokableCall::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Events::BaseInvokableCall::*)(::ArrayW<::Il2CppObject*>)>(&UnityEngine::Events::BaseInvokableCall::Invoke)> {
   static const MethodInfo* get() {
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Events::BaseInvokableCall*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{args});

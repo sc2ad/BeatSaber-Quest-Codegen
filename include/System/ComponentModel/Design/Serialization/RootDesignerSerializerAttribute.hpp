@@ -22,6 +22,11 @@ namespace System::ComponentModel::Design::Serialization {
   // [AttributeUsageAttribute] Offset: E69754
   class RootDesignerSerializerAttribute : public System::Attribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean reloadable
     // Size: 0x1
     // Offset: 0x10
@@ -42,6 +47,7 @@ namespace System::ComponentModel::Design::Serialization {
     ::Il2CppString* serializerBaseTypeName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: private System.Boolean reloadable
     bool& dyn_reloadable();
     // Get instance field reference: private System.String serializerTypeName

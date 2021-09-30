@@ -140,6 +140,11 @@ namespace Zenject {
       }
     }; // Zenject.KeyedFactoryBase`2/Zenject.<>c
     // Could not write size check! Type: Zenject.KeyedFactoryBase`2/Zenject.<>c is generic, or has no fields that are valid for size checks!
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xEC3A0C
     // private readonly Zenject.DiContainer _container
     // Size: 0x8
@@ -167,6 +172,7 @@ namespace Zenject {
     System::Type* fallbackType;
     // Field size check
     static_assert(sizeof(System::Type*) == 0x8);
+    public:
     // Creating interface conversion operator: operator Zenject::IValidatable
     operator Zenject::IValidatable() noexcept {
       return *reinterpret_cast<Zenject::IValidatable*>(this);

@@ -16,6 +16,11 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HAPI_Keyframe/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Single time
     // Size: 0x4
     // Offset: 0x0
@@ -40,6 +45,7 @@ namespace HoudiniEngineUnity {
     float outTangent;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: HAPI_Keyframe
     constexpr HAPI_Keyframe(float time_ = {}, float value_ = {}, float inTangent_ = {}, float outTangent_ = {}) noexcept : time{time_}, value{value_}, inTangent{inTangent_}, outTangent{outTangent_} {}
     // Creating interface conversion operator: operator System::ValueType

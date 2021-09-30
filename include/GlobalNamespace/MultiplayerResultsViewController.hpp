@@ -53,6 +53,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerResultsViewController : public HMUI::ViewController {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.GameObject _levelClearedGO
     // Size: 0x8
     // Offset: 0x70
@@ -107,6 +112,7 @@ namespace GlobalNamespace {
     System::Action_1<GlobalNamespace::MultiplayerResultsViewController*>* backToMenuPressedEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::MultiplayerResultsViewController*>*) == 0x8);
+    public:
     // Get instance field reference: private UnityEngine.GameObject _levelClearedGO
     UnityEngine::GameObject*& dyn__levelClearedGO();
     // Get instance field reference: private UnityEngine.GameObject _levelFailedGO

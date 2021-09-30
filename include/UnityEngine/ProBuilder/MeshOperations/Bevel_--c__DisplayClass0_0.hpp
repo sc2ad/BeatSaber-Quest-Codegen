@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -45,6 +46,11 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class Bevel::$$c__DisplayClass0_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Collections.Generic.Dictionary`2<UnityEngine.ProBuilder.Face,System.Collections.Generic.List`1<System.Int32>> ignore
     // Size: 0x8
     // Offset: 0x10
@@ -54,9 +60,9 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     // public UnityEngine.ProBuilder.SharedVertex[] sharedIndexes
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<UnityEngine::ProBuilder::SharedVertex*> sharedIndexes;
+    ::ArrayW<UnityEngine::ProBuilder::SharedVertex*> sharedIndexes;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::ProBuilder::SharedVertex*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::ProBuilder::SharedVertex*>) == 0x8);
     // public System.Func`2<System.Int32,System.Int32> <>9__7
     // Size: 0x8
     // Offset: 0x20
@@ -69,10 +75,11 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     System::Func_2<int, int>* $$9__8;
     // Field size check
     static_assert(sizeof(System::Func_2<int, int>*) == 0x8);
+    public:
     // Get instance field reference: public System.Collections.Generic.Dictionary`2<UnityEngine.ProBuilder.Face,System.Collections.Generic.List`1<System.Int32>> ignore
     System::Collections::Generic::Dictionary_2<UnityEngine::ProBuilder::Face*, System::Collections::Generic::List_1<int>*>*& dyn_ignore();
     // Get instance field reference: public UnityEngine.ProBuilder.SharedVertex[] sharedIndexes
-    ::ArrayWrapper<UnityEngine::ProBuilder::SharedVertex*>& dyn_sharedIndexes();
+    ::ArrayW<UnityEngine::ProBuilder::SharedVertex*>& dyn_sharedIndexes();
     // Get instance field reference: public System.Func`2<System.Int32,System.Int32> <>9__7
     System::Func_2<int, int>*& dyn_$$9__7();
     // Get instance field reference: public System.Func`2<System.Int32,System.Int32> <>9__8

@@ -18,6 +18,11 @@ namespace System::Runtime::Remoting::Channels {
   // [TokenAttribute] Offset: FFFFFFFF
   class CrossAppDomainData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Object _ContextID
     // Size: 0x8
     // Offset: 0x10
@@ -38,6 +43,7 @@ namespace System::Runtime::Remoting::Channels {
     ::Il2CppString* processGuid;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: private System.Object _ContextID
     ::Il2CppObject*& dyn__ContextID();
     // Get instance field reference: private System.Int32 _DomainID

@@ -33,6 +33,11 @@ namespace GlobalNamespace {
   // [ExecuteAlways] Offset: FFFFFFFF
   class BakedLightDataLoader : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [NullAllowed] Offset: 0xF13814
     // private LightmapDataSO _lightmapData
     // Size: 0x8
@@ -46,6 +51,7 @@ namespace GlobalNamespace {
     UnityEngine::Texture2D* blackTexture;
     // Field size check
     static_assert(sizeof(UnityEngine::Texture2D*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF13850

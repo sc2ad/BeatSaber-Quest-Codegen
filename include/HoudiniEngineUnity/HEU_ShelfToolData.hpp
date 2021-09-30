@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: HoudiniEngineUnity
 namespace HoudiniEngineUnity {
@@ -28,12 +29,18 @@ namespace HoudiniEngineUnity {
     // [TokenAttribute] Offset: FFFFFFFF
     struct ToolType/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: ToolType
       constexpr ToolType(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -74,6 +81,11 @@ namespace HoudiniEngineUnity {
     #pragma pack(pop)
     static check_size<sizeof(HEU_ShelfToolData::ToolType), 0 + sizeof(int)> __HoudiniEngineUnity_HEU_ShelfToolData_ToolTypeSizeCheck;
     static_assert(sizeof(HEU_ShelfToolData::ToolType) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.String _name
     // Size: 0x8
     // Offset: 0x10
@@ -115,15 +127,16 @@ namespace HoudiniEngineUnity {
     // public System.String[] _targets
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayWrapper<::Il2CppString*> targets;
+    ::ArrayW<::Il2CppString*> targets;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // public System.String _jsonPath
     // Size: 0x8
     // Offset: 0x48
     ::Il2CppString* jsonPath;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: public System.String _name
     ::Il2CppString*& dyn__name();
     // Get instance field reference: public HoudiniEngineUnity.HEU_ShelfToolData/HoudiniEngineUnity.ToolType _toolType
@@ -137,7 +150,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.String _helpURL
     ::Il2CppString*& dyn__helpURL();
     // Get instance field reference: public System.String[] _targets
-    ::ArrayWrapper<::Il2CppString*>& dyn__targets();
+    ::ArrayW<::Il2CppString*>& dyn__targets();
     // Get instance field reference: public System.String _jsonPath
     ::Il2CppString*& dyn__jsonPath();
     // public System.Void .ctor()

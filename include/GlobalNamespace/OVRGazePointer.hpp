@@ -33,6 +33,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRGazePointer : public GlobalNamespace::OVRCursor {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Transform gazeIcon
     // Size: 0x8
     // Offset: 0x18
@@ -144,6 +149,7 @@ namespace GlobalNamespace {
     GlobalNamespace::OVRProgressIndicator* progressIndicator;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OVRProgressIndicator*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static private OVRGazePointer _instance

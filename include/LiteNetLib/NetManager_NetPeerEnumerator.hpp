@@ -28,6 +28,11 @@ namespace LiteNetLib {
   // [TokenAttribute] Offset: FFFFFFFF
   struct NetManager::NetPeerEnumerator/*, public System::ValueType, public System::Collections::Generic::IEnumerator_1<LiteNetLib::NetPeer*>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly LiteNetLib.NetPeer _initialPeer
     // Size: 0x8
     // Offset: 0x0
@@ -40,6 +45,7 @@ namespace LiteNetLib {
     LiteNetLib::NetPeer* p;
     // Field size check
     static_assert(sizeof(LiteNetLib::NetPeer*) == 0x8);
+    public:
     // Creating value type constructor for type: NetPeerEnumerator
     constexpr NetPeerEnumerator(LiteNetLib::NetPeer* initialPeer_ = {}, LiteNetLib::NetPeer* p_ = {}) noexcept : initialPeer{initialPeer_}, p{p_} {}
     // Creating interface conversion operator: operator System::ValueType

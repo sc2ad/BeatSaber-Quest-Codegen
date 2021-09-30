@@ -23,6 +23,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: TMPro
@@ -72,6 +73,11 @@ namespace TMPro {
     char ___base_padding[0x4] = {};
     // Nested type: TMPro::TMP_FontAsset::$$c
     class $$c;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String m_Version
     // Size: 0x8
     // Offset: 0x30
@@ -139,9 +145,9 @@ namespace TMPro {
     // private UnityEngine.Texture2D[] m_AtlasTextures
     // Size: 0x8
     // Offset: 0xD8
-    ::ArrayWrapper<UnityEngine::Texture2D*> m_AtlasTextures;
+    ::ArrayW<UnityEngine::Texture2D*> m_AtlasTextures;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Texture2D*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Texture2D*>) == 0x8);
     // System.Int32 m_AtlasTextureIndex
     // Size: 0x4
     // Offset: 0xE0
@@ -240,15 +246,15 @@ namespace TMPro {
     // private TMPro.TMP_FontWeightPair[] m_FontWeightTable
     // Size: 0x8
     // Offset: 0x198
-    ::ArrayWrapper<TMPro::TMP_FontWeightPair> m_FontWeightTable;
+    ::ArrayW<TMPro::TMP_FontWeightPair> m_FontWeightTable;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<TMPro::TMP_FontWeightPair>) == 0x8);
+    static_assert(sizeof(::ArrayW<TMPro::TMP_FontWeightPair>) == 0x8);
     // private TMPro.TMP_FontWeightPair[] fontWeights
     // Size: 0x8
     // Offset: 0x1A0
-    ::ArrayWrapper<TMPro::TMP_FontWeightPair> fontWeights;
+    ::ArrayW<TMPro::TMP_FontWeightPair> fontWeights;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<TMPro::TMP_FontWeightPair>) == 0x8);
+    static_assert(sizeof(::ArrayW<TMPro::TMP_FontWeightPair>) == 0x8);
     // public System.Single normalStyle
     // Size: 0x4
     // Offset: 0x1A8
@@ -329,10 +335,11 @@ namespace TMPro {
     System::Collections::Generic::List_1<TMPro::TMP_Character*>* m_CharactersToAdd;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<TMPro::TMP_Character*>*) == 0x8);
+    public:
     // Get static field: static System.UInt32[] s_GlyphIndexArray
-    static ::ArrayWrapper<uint> _get_s_GlyphIndexArray();
+    static ::ArrayW<uint> _get_s_GlyphIndexArray();
     // Set static field: static System.UInt32[] s_GlyphIndexArray
-    static void _set_s_GlyphIndexArray(::ArrayWrapper<uint> value);
+    static void _set_s_GlyphIndexArray(::ArrayW<uint> value);
     // Get static field: static System.Collections.Generic.List`1<System.UInt32> s_MissingCharacterList
     static System::Collections::Generic::List_1<uint>* _get_s_MissingCharacterList();
     // Set static field: static System.Collections.Generic.List`1<System.UInt32> s_MissingCharacterList
@@ -358,7 +365,7 @@ namespace TMPro {
     // Get instance field reference: private UnityEngine.Texture2D m_AtlasTexture
     UnityEngine::Texture2D*& dyn_m_AtlasTexture();
     // Get instance field reference: private UnityEngine.Texture2D[] m_AtlasTextures
-    ::ArrayWrapper<UnityEngine::Texture2D*>& dyn_m_AtlasTextures();
+    ::ArrayW<UnityEngine::Texture2D*>& dyn_m_AtlasTextures();
     // Get instance field reference: System.Int32 m_AtlasTextureIndex
     int& dyn_m_AtlasTextureIndex();
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.TextCore.GlyphRect> m_UsedGlyphRects
@@ -390,9 +397,9 @@ namespace TMPro {
     // Get instance field reference: TMPro.FontAssetCreationSettings m_CreationSettings
     TMPro::FontAssetCreationSettings& dyn_m_CreationSettings();
     // Get instance field reference: private TMPro.TMP_FontWeightPair[] m_FontWeightTable
-    ::ArrayWrapper<TMPro::TMP_FontWeightPair>& dyn_m_FontWeightTable();
+    ::ArrayW<TMPro::TMP_FontWeightPair>& dyn_m_FontWeightTable();
     // Get instance field reference: private TMPro.TMP_FontWeightPair[] fontWeights
-    ::ArrayWrapper<TMPro::TMP_FontWeightPair>& dyn_fontWeights();
+    ::ArrayW<TMPro::TMP_FontWeightPair>& dyn_fontWeights();
     // Get instance field reference: public System.Single normalStyle
     float& dyn_normalStyle();
     // Get instance field reference: public System.Single normalSpacingOffset
@@ -466,10 +473,10 @@ namespace TMPro {
     UnityEngine::Texture2D* get_atlasTexture();
     // public UnityEngine.Texture2D[] get_atlasTextures()
     // Offset: 0x11F46B4
-    ::ArrayWrapper<UnityEngine::Texture2D*> get_atlasTextures();
+    ::ArrayW<UnityEngine::Texture2D*> get_atlasTextures();
     // public System.Void set_atlasTextures(UnityEngine.Texture2D[] value)
     // Offset: 0x11F46BC
-    void set_atlasTextures(::ArrayWrapper<UnityEngine::Texture2D*> value);
+    void set_atlasTextures(::ArrayW<UnityEngine::Texture2D*> value);
     // System.Collections.Generic.List`1<UnityEngine.TextCore.GlyphRect> get_usedGlyphRects()
     // Offset: 0x11F46C4
     System::Collections::Generic::List_1<UnityEngine::TextCore::GlyphRect>* get_usedGlyphRects();
@@ -529,10 +536,10 @@ namespace TMPro {
     void set_creationSettings(TMPro::FontAssetCreationSettings value);
     // public TMPro.TMP_FontWeightPair[] get_fontWeightTable()
     // Offset: 0x11F4778
-    ::ArrayWrapper<TMPro::TMP_FontWeightPair> get_fontWeightTable();
+    ::ArrayW<TMPro::TMP_FontWeightPair> get_fontWeightTable();
     // System.Void set_fontWeightTable(TMPro.TMP_FontWeightPair[] value)
     // Offset: 0x11F4780
-    void set_fontWeightTable(::ArrayWrapper<TMPro::TMP_FontWeightPair> value);
+    void set_fontWeightTable(::ArrayW<TMPro::TMP_FontWeightPair> value);
     // static public TMPro.TMP_FontAsset CreateFontAsset(UnityEngine.Font font)
     // Offset: 0x11F4788
     static TMPro::TMP_FontAsset* CreateFontAsset(UnityEngine::Font* font);
@@ -580,13 +587,13 @@ namespace TMPro {
     static ::Il2CppString* GetCharacters(TMPro::TMP_FontAsset* fontAsset);
     // static public System.Int32[] GetCharactersArray(TMPro.TMP_FontAsset fontAsset)
     // Offset: 0x11F6D7C
-    static ::ArrayWrapper<int> GetCharactersArray(TMPro::TMP_FontAsset* fontAsset);
+    static ::ArrayW<int> GetCharactersArray(TMPro::TMP_FontAsset* fontAsset);
     // public System.Boolean TryAddCharacters(System.UInt32[] unicodes)
     // Offset: 0x11F6E64
-    bool TryAddCharacters(::ArrayWrapper<uint> unicodes);
+    bool TryAddCharacters(::ArrayW<uint> unicodes);
     // public System.Boolean TryAddCharacters(System.UInt32[] unicodes, out System.UInt32[] missingUnicodes)
     // Offset: 0x11F6E8C
-    bool TryAddCharacters(::ArrayWrapper<uint> unicodes, ByRef<::ArrayWrapper<uint>> missingUnicodes);
+    bool TryAddCharacters(::ArrayW<uint> unicodes, ByRef<::ArrayW<uint>> missingUnicodes);
     // public System.Boolean TryAddCharacters(System.String characters)
     // Offset: 0x11F7590
     bool TryAddCharacters(::Il2CppString* characters);
@@ -773,7 +780,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::get_atlasTextures
 // Il2CppName: get_atlasTextures
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Texture2D*> (TMPro::TMP_FontAsset::*)()>(&TMPro::TMP_FontAsset::get_atlasTextures)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Texture2D*> (TMPro::TMP_FontAsset::*)()>(&TMPro::TMP_FontAsset::get_atlasTextures)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "get_atlasTextures", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -781,7 +788,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::set_atlasTextures
 // Il2CppName: set_atlasTextures
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_FontAsset::*)(::ArrayWrapper<UnityEngine::Texture2D*>)>(&TMPro::TMP_FontAsset::set_atlasTextures)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_FontAsset::*)(::ArrayW<UnityEngine::Texture2D*>)>(&TMPro::TMP_FontAsset::set_atlasTextures)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Texture2D"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "set_atlasTextures", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -951,7 +958,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::get_fontWeightTable
 // Il2CppName: get_fontWeightTable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<TMPro::TMP_FontWeightPair> (TMPro::TMP_FontAsset::*)()>(&TMPro::TMP_FontAsset::get_fontWeightTable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<TMPro::TMP_FontWeightPair> (TMPro::TMP_FontAsset::*)()>(&TMPro::TMP_FontAsset::get_fontWeightTable)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "get_fontWeightTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -959,7 +966,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::set_fontWeightTable
 // Il2CppName: set_fontWeightTable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_FontAsset::*)(::ArrayWrapper<TMPro::TMP_FontWeightPair>)>(&TMPro::TMP_FontAsset::set_fontWeightTable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_FontAsset::*)(::ArrayW<TMPro::TMP_FontWeightPair>)>(&TMPro::TMP_FontAsset::set_fontWeightTable)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("TMPro", "TMP_FontWeightPair"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "set_fontWeightTable", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -1106,7 +1113,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::GetCharactersArray
 // Il2CppName: GetCharactersArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<int> (*)(TMPro::TMP_FontAsset*)>(&TMPro::TMP_FontAsset::GetCharactersArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int> (*)(TMPro::TMP_FontAsset*)>(&TMPro::TMP_FontAsset::GetCharactersArray)> {
   static const MethodInfo* get() {
     static auto* fontAsset = &::il2cpp_utils::GetClassFromName("TMPro", "TMP_FontAsset")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "GetCharactersArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{fontAsset});
@@ -1115,7 +1122,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::TryAddCharacters
 // Il2CppName: TryAddCharacters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_FontAsset::*)(::ArrayWrapper<uint>)>(&TMPro::TMP_FontAsset::TryAddCharacters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_FontAsset::*)(::ArrayW<uint>)>(&TMPro::TMP_FontAsset::TryAddCharacters)> {
   static const MethodInfo* get() {
     static auto* unicodes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_FontAsset*), "TryAddCharacters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{unicodes});
@@ -1124,7 +1131,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_FontAsset::TryAddCharacters
 // Il2CppName: TryAddCharacters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_FontAsset::*)(::ArrayWrapper<uint>, ByRef<::ArrayWrapper<uint>>)>(&TMPro::TMP_FontAsset::TryAddCharacters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_FontAsset::*)(::ArrayW<uint>, ByRef<::ArrayW<uint>>)>(&TMPro::TMP_FontAsset::TryAddCharacters)> {
   static const MethodInfo* get() {
     static auto* unicodes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     static auto* missingUnicodes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->this_arg;

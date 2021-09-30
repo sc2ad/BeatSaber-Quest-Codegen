@@ -27,6 +27,11 @@ namespace UnityEngine {
   // [RequiredByNativeCodeAttribute] Offset: E858D8
   class ControllerColliderHit : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // UnityEngine.CharacterController m_Controller
     // Size: 0x8
     // Offset: 0x10
@@ -69,6 +74,7 @@ namespace UnityEngine {
     int m_Push;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: UnityEngine.CharacterController m_Controller
     UnityEngine::CharacterController*& dyn_m_Controller();
     // Get instance field reference: UnityEngine.Collider m_Collider

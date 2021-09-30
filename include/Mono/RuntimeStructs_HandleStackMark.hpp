@@ -21,6 +21,11 @@ namespace Mono {
   // [TokenAttribute] Offset: FFFFFFFF
   struct RuntimeStructs::HandleStackMark/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 size
     // Size: 0x4
     // Offset: 0x0
@@ -39,6 +44,7 @@ namespace Mono {
     System::IntPtr chunk;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
+    public:
     // Creating value type constructor for type: HandleStackMark
     constexpr HandleStackMark(int size_ = {}, int interior_size_ = {}, System::IntPtr chunk_ = {}) noexcept : size{size_}, interior_size{interior_size_}, chunk{chunk_} {}
     // Creating interface conversion operator: operator System::ValueType

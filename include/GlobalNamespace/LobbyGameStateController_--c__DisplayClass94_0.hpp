@@ -38,6 +38,11 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class LobbyGameStateController::$$c__DisplayClass94_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public LobbyGameStateController <>4__this
     // Size: 0x8
     // Offset: 0x10
@@ -56,6 +61,7 @@ namespace GlobalNamespace {
     System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>* getPlayerPermissionAsyncTcs;
     // Field size check
     static_assert(sizeof(System::Threading::Tasks::TaskCompletionSource_1<GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>*) == 0x8);
+    public:
     // Get instance field reference: public LobbyGameStateController <>4__this
     GlobalNamespace::LobbyGameStateController*& dyn_$$4__this();
     // Get instance field reference: public System.Threading.Tasks.TaskCompletionSource`1<MultiplayerGameState> getGameStateAsyncTcs

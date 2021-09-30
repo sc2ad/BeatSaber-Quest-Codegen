@@ -42,6 +42,11 @@ namespace GlobalNamespace {
     struct SpawnPosition;
     // Nested type: GlobalNamespace::FlyingScoreSpawner::InitData
     class InitData;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xF05300
     // private readonly FlyingScoreEffect/Pool _flyingScoreEffectPool
     // Size: 0x8
@@ -56,6 +61,7 @@ namespace GlobalNamespace {
     GlobalNamespace::FlyingScoreSpawner::InitData* initData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::FlyingScoreSpawner::InitData*) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IFlyingObjectEffectDidFinishEvent
     operator GlobalNamespace::IFlyingObjectEffectDidFinishEvent() noexcept {
       return *reinterpret_cast<GlobalNamespace::IFlyingObjectEffectDidFinishEvent*>(this);

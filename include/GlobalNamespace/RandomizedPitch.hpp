@@ -41,6 +41,11 @@ namespace GlobalNamespace {
     class $PlayDelayedCoroutine$d__9;
     // Nested type: GlobalNamespace::RandomizedPitch::$RestorePitchWithDelay$d__10
     class $RestorePitchWithDelay$d__10;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.AudioSource _audioSource
     // Size: 0x8
     // Offset: 0x18
@@ -79,6 +84,7 @@ namespace GlobalNamespace {
     UnityEngine::Coroutine* restoringCoroutine;
     // Field size check
     static_assert(sizeof(UnityEngine::Coroutine*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.AudioSource _audioSource

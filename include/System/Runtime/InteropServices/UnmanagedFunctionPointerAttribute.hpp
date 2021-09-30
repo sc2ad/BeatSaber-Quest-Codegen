@@ -26,6 +26,11 @@ namespace System::Runtime::InteropServices {
   // [ComVisibleAttribute] Offset: E6075C
   class UnmanagedFunctionPointerAttribute : public System::Attribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Runtime.InteropServices.CallingConvention m_callingConvention
     // Size: 0x4
     // Offset: 0x10
@@ -56,6 +61,7 @@ namespace System::Runtime::InteropServices {
     bool SetLastError;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private System.Runtime.InteropServices.CallingConvention m_callingConvention
     System::Runtime::InteropServices::CallingConvention& dyn_m_callingConvention();
     // Get instance field reference: public System.Runtime.InteropServices.CharSet CharSet

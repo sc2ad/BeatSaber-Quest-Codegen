@@ -22,6 +22,11 @@ namespace RootMotion::FinalIK {
   // [AddComponentMenu] Offset: EF11B8
   class RotationLimitHinge : public RootMotion::FinalIK::RotationLimit {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Boolean useLimits
     // Size: 0x1
     // Offset: 0x38
@@ -60,6 +65,7 @@ namespace RootMotion::FinalIK {
     float lastAngle;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: public System.Boolean useLimits
     bool& dyn_useLimits();
     // Get instance field reference: public System.Single min

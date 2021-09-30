@@ -92,6 +92,11 @@ namespace GlobalNamespace {
     class $$c__DisplayClass55_0;
     // Nested type: GlobalNamespace::OculusNetworkPlayerModel::$$c__DisplayClass64_0
     class $$c__DisplayClass64_0;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xF0353C
     // private readonly IPlatformUserModel _platformUserModel
     // Size: 0x8
@@ -175,6 +180,7 @@ namespace GlobalNamespace {
     System::Action_1<GlobalNamespace::INetworkPlayer*>* inviteRequestedEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::INetworkPlayer*>*) == 0x8);
+    public:
     // static field const value: static private System.String kConnectionTypeKey
     static constexpr const char* kConnectionTypeKey = "connection";
     // Get static field: static private System.String kConnectionTypeKey

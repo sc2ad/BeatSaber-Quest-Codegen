@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Security::Cryptography
@@ -54,6 +55,11 @@ namespace System::Security::Cryptography {
     struct $ReadAsyncInternal$d__34;
     // Nested type: System::Security::Cryptography::CryptoStream::$WriteAsyncInternal$d__37
     struct $WriteAsyncInternal$d__37;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.IO.Stream _stream
     // Size: 0x8
     // Offset: 0x28
@@ -69,9 +75,9 @@ namespace System::Security::Cryptography {
     // private System.Byte[] _InputBuffer
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayWrapper<uint8_t> InputBuffer;
+    ::ArrayW<uint8_t> InputBuffer;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Int32 _InputBufferIndex
     // Size: 0x4
     // Offset: 0x40
@@ -87,9 +93,9 @@ namespace System::Security::Cryptography {
     // private System.Byte[] _OutputBuffer
     // Size: 0x8
     // Offset: 0x48
-    ::ArrayWrapper<uint8_t> OutputBuffer;
+    ::ArrayW<uint8_t> OutputBuffer;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Int32 _OutputBufferIndex
     // Size: 0x4
     // Offset: 0x50
@@ -126,18 +132,19 @@ namespace System::Security::Cryptography {
     bool finalBlockTransformed;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private System.IO.Stream _stream
     System::IO::Stream*& dyn__stream();
     // Get instance field reference: private System.Security.Cryptography.ICryptoTransform _Transform
     System::Security::Cryptography::ICryptoTransform*& dyn__Transform();
     // Get instance field reference: private System.Byte[] _InputBuffer
-    ::ArrayWrapper<uint8_t>& dyn__InputBuffer();
+    ::ArrayW<uint8_t>& dyn__InputBuffer();
     // Get instance field reference: private System.Int32 _InputBufferIndex
     int& dyn__InputBufferIndex();
     // Get instance field reference: private System.Int32 _InputBlockSize
     int& dyn__InputBlockSize();
     // Get instance field reference: private System.Byte[] _OutputBuffer
-    ::ArrayWrapper<uint8_t>& dyn__OutputBuffer();
+    ::ArrayW<uint8_t>& dyn__OutputBuffer();
     // Get instance field reference: private System.Int32 _OutputBufferIndex
     int& dyn__OutputBufferIndex();
     // Get instance field reference: private System.Int32 _OutputBlockSize
@@ -165,10 +172,10 @@ namespace System::Security::Cryptography {
     void FlushFinalBlock();
     // private System.Threading.Tasks.Task`1<System.Int32> ReadAsyncInternal(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.Threading.CancellationToken cancellationToken)
     // Offset: 0x1A705D0
-    System::Threading::Tasks::Task_1<int>* ReadAsyncInternal(::ArrayWrapper<uint8_t> buffer, int offset, int count, System::Threading::CancellationToken cancellationToken);
+    System::Threading::Tasks::Task_1<int>* ReadAsyncInternal(::ArrayW<uint8_t> buffer, int offset, int count, System::Threading::CancellationToken cancellationToken);
     // private System.Threading.Tasks.Task WriteAsyncInternal(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.Threading.CancellationToken cancellationToken)
     // Offset: 0x1A70F04
-    System::Threading::Tasks::Task* WriteAsyncInternal(::ArrayWrapper<uint8_t> buffer, int offset, int count, System::Threading::CancellationToken cancellationToken);
+    System::Threading::Tasks::Task* WriteAsyncInternal(::ArrayW<uint8_t> buffer, int offset, int count, System::Threading::CancellationToken cancellationToken);
     // public System.Void Clear()
     // Offset: 0x1A71030
     void Clear();
@@ -224,22 +231,22 @@ namespace System::Security::Cryptography {
     // Offset: 0x1A6FC6C
     // Implemented from: System.IO.Stream
     // Base method: System.Int32 Stream::Read(in System.Byte[] buffer, System.Int32 offset, System.Int32 count)
-    int Read(ByRef<::ArrayWrapper<uint8_t>> buffer, int offset, int count);
+    int Read(ByRef<::ArrayW<uint8_t>> buffer, int offset, int count);
     // public override System.Threading.Tasks.Task`1<System.Int32> ReadAsync(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.Threading.CancellationToken cancellationToken)
     // Offset: 0x1A70328
     // Implemented from: System.IO.Stream
     // Base method: System.Threading.Tasks.Task`1<System.Int32> Stream::ReadAsync(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.Threading.CancellationToken cancellationToken)
-    System::Threading::Tasks::Task_1<int>* ReadAsync(::ArrayWrapper<uint8_t> buffer, int offset, int count, System::Threading::CancellationToken cancellationToken);
+    System::Threading::Tasks::Task_1<int>* ReadAsync(::ArrayW<uint8_t> buffer, int offset, int count, System::Threading::CancellationToken cancellationToken);
     // public override System.Void Write(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
     // Offset: 0x1A7070C
     // Implemented from: System.IO.Stream
     // Base method: System.Void Stream::Write(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
-    void Write(::ArrayWrapper<uint8_t> buffer, int offset, int count);
+    void Write(::ArrayW<uint8_t> buffer, int offset, int count);
     // public override System.Threading.Tasks.Task WriteAsync(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.Threading.CancellationToken cancellationToken)
     // Offset: 0x1A70C64
     // Implemented from: System.IO.Stream
     // Base method: System.Threading.Tasks.Task Stream::WriteAsync(System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.Threading.CancellationToken cancellationToken)
-    System::Threading::Tasks::Task* WriteAsync(::ArrayWrapper<uint8_t> buffer, int offset, int count, System::Threading::CancellationToken cancellationToken);
+    System::Threading::Tasks::Task* WriteAsync(::ArrayW<uint8_t> buffer, int offset, int count, System::Threading::CancellationToken cancellationToken);
     // protected override System.Void Dispose(System.Boolean disposing)
     // Offset: 0x1A71040
     // Implemented from: System.IO.Stream
@@ -275,7 +282,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::CryptoStream::ReadAsyncInternal
 // Il2CppName: ReadAsyncInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<int>* (System::Security::Cryptography::CryptoStream::*)(::ArrayWrapper<uint8_t>, int, int, System::Threading::CancellationToken)>(&System::Security::Cryptography::CryptoStream::ReadAsyncInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<int>* (System::Security::Cryptography::CryptoStream::*)(::ArrayW<uint8_t>, int, int, System::Threading::CancellationToken)>(&System::Security::Cryptography::CryptoStream::ReadAsyncInternal)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -287,7 +294,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: System::Security::Cryptography::CryptoStream::WriteAsyncInternal
 // Il2CppName: WriteAsyncInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (System::Security::Cryptography::CryptoStream::*)(::ArrayWrapper<uint8_t>, int, int, System::Threading::CancellationToken)>(&System::Security::Cryptography::CryptoStream::WriteAsyncInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (System::Security::Cryptography::CryptoStream::*)(::ArrayW<uint8_t>, int, int, System::Threading::CancellationToken)>(&System::Security::Cryptography::CryptoStream::WriteAsyncInternal)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -391,7 +398,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::CryptoStream::Read
 // Il2CppName: Read
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Security::Cryptography::CryptoStream::*)(ByRef<::ArrayWrapper<uint8_t>>, int, int)>(&System::Security::Cryptography::CryptoStream::Read)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Security::Cryptography::CryptoStream::*)(ByRef<::ArrayW<uint8_t>>, int, int)>(&System::Security::Cryptography::CryptoStream::Read)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->this_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -402,7 +409,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Security::Cryptography::CryptoStream::ReadAsync
 // Il2CppName: ReadAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<int>* (System::Security::Cryptography::CryptoStream::*)(::ArrayWrapper<uint8_t>, int, int, System::Threading::CancellationToken)>(&System::Security::Cryptography::CryptoStream::ReadAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<int>* (System::Security::Cryptography::CryptoStream::*)(::ArrayW<uint8_t>, int, int, System::Threading::CancellationToken)>(&System::Security::Cryptography::CryptoStream::ReadAsync)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -414,7 +421,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: System::Security::Cryptography::CryptoStream::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::CryptoStream::*)(::ArrayWrapper<uint8_t>, int, int)>(&System::Security::Cryptography::CryptoStream::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::CryptoStream::*)(::ArrayW<uint8_t>, int, int)>(&System::Security::Cryptography::CryptoStream::Write)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -425,7 +432,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::CryptoStream::WriteAsync
 // Il2CppName: WriteAsync
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (System::Security::Cryptography::CryptoStream::*)(::ArrayWrapper<uint8_t>, int, int, System::Threading::CancellationToken)>(&System::Security::Cryptography::CryptoStream::WriteAsync)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task* (System::Security::Cryptography::CryptoStream::*)(::ArrayW<uint8_t>, int, int, System::Threading::CancellationToken)>(&System::Security::Cryptography::CryptoStream::WriteAsync)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

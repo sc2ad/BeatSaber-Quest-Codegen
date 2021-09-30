@@ -20,6 +20,11 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class NetworkingPeer : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.UInt64 <ID>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -32,6 +37,7 @@ namespace Oculus::Platform::Models {
     Oculus::Platform::PeerConnectionState State;
     // Field size check
     static_assert(sizeof(Oculus::Platform::PeerConnectionState) == 0x4);
+    public:
     // Get instance field reference: private System.UInt64 <ID>k__BackingField
     uint64_t& dyn_$ID$k__BackingField();
     // Get instance field reference: private Oculus.Platform.PeerConnectionState <State>k__BackingField

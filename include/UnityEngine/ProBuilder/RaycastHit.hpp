@@ -20,6 +20,11 @@ namespace UnityEngine::ProBuilder {
   // [TokenAttribute] Offset: FFFFFFFF
   class RaycastHit : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Single distance
     // Size: 0x4
     // Offset: 0x10
@@ -44,6 +49,7 @@ namespace UnityEngine::ProBuilder {
     int face;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: public System.Single distance
     float& dyn_distance();
     // Get instance field reference: public UnityEngine.Vector3 point

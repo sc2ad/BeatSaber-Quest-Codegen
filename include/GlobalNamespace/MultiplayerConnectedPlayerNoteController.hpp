@@ -27,6 +27,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerConnectedPlayerNoteController : public GlobalNamespace::NoteController {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.GameObject _visualsWrapperGo
     // Size: 0x8
     // Offset: 0x78
@@ -39,6 +44,7 @@ namespace GlobalNamespace {
     bool hidden;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private UnityEngine.GameObject _visualsWrapperGo
     UnityEngine::GameObject*& dyn__visualsWrapperGo();
     // Get instance field reference: private System.Boolean _hidden

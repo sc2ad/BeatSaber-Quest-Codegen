@@ -15,6 +15,7 @@
 #include "System/IComparable.hpp"
 // Including type: System.IFormattable
 #include "System/IFormattable.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -46,6 +47,11 @@ namespace System {
     struct ParseFailureKind;
     // Nested type: System::Guid::GuidResult
     struct GuidResult;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 _a
     // Size: 0x4
     // Offset: 0x0
@@ -112,6 +118,7 @@ namespace System {
     uint8_t k;
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
+    public:
     // Creating value type constructor for type: Guid
     constexpr Guid(int a_ = {}, int16_t b_ = {}, int16_t c_ = {}, uint8_t d_ = {}, uint8_t e_ = {}, uint8_t f_ = {}, uint8_t g_ = {}, uint8_t h_ = {}, uint8_t i_ = {}, uint8_t j_ = {}, uint8_t k_ = {}) noexcept : a{a_}, b{b_}, c{c_}, d{d_}, e{e_}, f{f_}, g{g_}, h{h_}, i{i_}, j{j_}, k{k_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -174,10 +181,10 @@ namespace System {
     uint8_t& dyn__k();
     // public System.Void .ctor(System.Byte[] b)
     // Offset: 0x1BDE768
-    Guid(::ArrayWrapper<uint8_t> b);
+    Guid(::ArrayW<uint8_t> b);
     // public System.Void .ctor(System.Int32 a, System.Int16 b, System.Int16 c, System.Byte[] d)
     // Offset: 0x1BDE970
-    Guid(int a, int16_t b, int16_t c, ::ArrayWrapper<uint8_t> d);
+    Guid(int a, int16_t b, int16_t c, ::ArrayW<uint8_t> d);
     // public System.Void .ctor(System.Int32 a, System.Int16 b, System.Int16 c, System.Byte d, System.Byte e, System.Byte f, System.Byte g, System.Byte h, System.Byte i, System.Byte j, System.Byte k)
     // Offset: 0x1BDEB64
     // ABORTED: conflicts with another method.  Guid(int a, int16_t b, int16_t c, uint8_t d, uint8_t e, uint8_t f, uint8_t g, uint8_t h, uint8_t i, uint8_t j, uint8_t k);
@@ -234,7 +241,7 @@ namespace System {
     static bool IsHexPrefix(::Il2CppString* str, int i);
     // public System.Byte[] ToByteArray()
     // Offset: 0x1BE0954
-    ::ArrayWrapper<uint8_t> ToByteArray();
+    ::ArrayW<uint8_t> ToByteArray();
     // public System.Boolean Equals(System.Guid g)
     // Offset: 0x1BE11C0
     bool Equals(System::Guid g);
@@ -494,7 +501,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::Guid::ToByteArray
 // Il2CppName: ToByteArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (System::Guid::*)()>(&System::Guid::ToByteArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (System::Guid::*)()>(&System::Guid::ToByteArray)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Guid), "ToByteArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

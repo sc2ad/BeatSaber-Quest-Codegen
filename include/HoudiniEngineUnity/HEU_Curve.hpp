@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HoudiniEngineUnity
@@ -67,12 +68,18 @@ namespace HoudiniEngineUnity {
     // [TokenAttribute] Offset: FFFFFFFF
     struct CurveEditState/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: CurveEditState
       constexpr CurveEditState(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -119,12 +126,18 @@ namespace HoudiniEngineUnity {
     // [TokenAttribute] Offset: FFFFFFFF
     struct Interaction/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: Interaction
       constexpr Interaction(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -159,6 +172,11 @@ namespace HoudiniEngineUnity {
     #pragma pack(pop)
     static check_size<sizeof(HEU_Curve::Interaction), 0 + sizeof(int)> __HoudiniEngineUnity_HEU_Curve_InteractionSizeCheck;
     static_assert(sizeof(HEU_Curve::Interaction) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 _geoID
     // Size: 0x4
     // Offset: 0x18
@@ -176,9 +194,9 @@ namespace HoudiniEngineUnity {
     // private UnityEngine.Vector3[] _vertices
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<UnityEngine::Vector3> vertices;
+    ::ArrayW<UnityEngine::Vector3> vertices;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector3>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Vector3>) == 0x8);
     // private System.Boolean _isEditable
     // Size: 0x1
     // Offset: 0x30
@@ -233,6 +251,7 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset;
     // Field size check
     static_assert(sizeof(HoudiniEngineUnity::HEU_HoudiniAsset*) == 0x8);
+    public:
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_Curve*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_Curve*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_Curve*>*>(this);
@@ -248,7 +267,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: private System.Collections.Generic.List`1<HoudiniEngineUnity.CurveNodeData> _curveNodeData
     System::Collections::Generic::List_1<HoudiniEngineUnity::CurveNodeData*>*& dyn__curveNodeData();
     // Get instance field reference: private UnityEngine.Vector3[] _vertices
-    ::ArrayWrapper<UnityEngine::Vector3>& dyn__vertices();
+    ::ArrayW<UnityEngine::Vector3>& dyn__vertices();
     // Get instance field reference: private System.Boolean _isEditable
     bool& dyn__isEditable();
     // Get instance field reference: private HoudiniEngineUnity.HEU_Parameters _parameters
@@ -309,7 +328,7 @@ namespace HoudiniEngineUnity {
     void ResetCurveParameters(HoudiniEngineUnity::HEU_SessionBase* session, HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset);
     // public System.Void SetCurveParameterPreset(HoudiniEngineUnity.HEU_SessionBase session, HoudiniEngineUnity.HEU_HoudiniAsset parentAsset, System.Byte[] parameterPreset)
     // Offset: 0x14475E8
-    void SetCurveParameterPreset(HoudiniEngineUnity::HEU_SessionBase* session, HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset, ::ArrayWrapper<uint8_t> parameterPreset);
+    void SetCurveParameterPreset(HoudiniEngineUnity::HEU_SessionBase* session, HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset, ::ArrayW<uint8_t> parameterPreset);
     // public System.Void UpdateCurve(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 partID)
     // Offset: 0x14476D0
     void UpdateCurve(HoudiniEngineUnity::HEU_SessionBase* session, int partID);
@@ -366,7 +385,7 @@ namespace HoudiniEngineUnity {
     UnityEngine::Vector3 GetInvertedTransformedDirection(UnityEngine::Vector3 inPosition);
     // public UnityEngine.Vector3[] GetVertices()
     // Offset: 0x144A714
-    ::ArrayWrapper<UnityEngine::Vector3> GetVertices();
+    ::ArrayW<UnityEngine::Vector3> GetVertices();
     // public System.Void SetCurveGeometryVisibility(System.Boolean bVisible)
     // Offset: 0x144A71C
     void SetCurveGeometryVisibility(bool bVisible);
@@ -541,7 +560,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Houdi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Curve::SetCurveParameterPreset
 // Il2CppName: SetCurveParameterPreset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_Curve::*)(HoudiniEngineUnity::HEU_SessionBase*, HoudiniEngineUnity::HEU_HoudiniAsset*, ::ArrayWrapper<uint8_t>)>(&HoudiniEngineUnity::HEU_Curve::SetCurveParameterPreset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (HoudiniEngineUnity::HEU_Curve::*)(HoudiniEngineUnity::HEU_SessionBase*, HoudiniEngineUnity::HEU_HoudiniAsset*, ::ArrayW<uint8_t>)>(&HoudiniEngineUnity::HEU_Curve::SetCurveParameterPreset)> {
   static const MethodInfo* get() {
     static auto* session = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_SessionBase")->byval_arg;
     static auto* parentAsset = &::il2cpp_utils::GetClassFromName("HoudiniEngineUnity", "HEU_HoudiniAsset")->byval_arg;
@@ -718,7 +737,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_Curve::GetVertices
 // Il2CppName: GetVertices
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Vector3> (HoudiniEngineUnity::HEU_Curve::*)()>(&HoudiniEngineUnity::HEU_Curve::GetVertices)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Vector3> (HoudiniEngineUnity::HEU_Curve::*)()>(&HoudiniEngineUnity::HEU_Curve::GetVertices)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_Curve*), "GetVertices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

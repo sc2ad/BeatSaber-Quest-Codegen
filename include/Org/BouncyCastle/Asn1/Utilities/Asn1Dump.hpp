@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Asn1
@@ -51,10 +52,10 @@ namespace Org::BouncyCastle::Asn1::Utilities {
     static ::Il2CppString* DumpAsString(Org::BouncyCastle::Asn1::Asn1Encodable* obj, bool verbose);
     // static private System.String dumpBinaryDataAsString(System.String indent, System.Byte[] bytes)
     // Offset: 0x1982288
-    static ::Il2CppString* dumpBinaryDataAsString(::Il2CppString* indent, ::ArrayWrapper<uint8_t> bytes);
+    static ::Il2CppString* dumpBinaryDataAsString(::Il2CppString* indent, ::ArrayW<uint8_t> bytes);
     // static private System.String calculateAscString(System.Byte[] bytes, System.Int32 off, System.Int32 len)
     // Offset: 0x1982E78
-    static ::Il2CppString* calculateAscString(::ArrayWrapper<uint8_t> bytes, int off, int len);
+    static ::Il2CppString* calculateAscString(::ArrayW<uint8_t> bytes, int off, int len);
   }; // Org.BouncyCastle.Asn1.Utilities.Asn1Dump
   #pragma pack(pop)
 }
@@ -115,7 +116,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Utilities::Asn1Dump::dumpBinaryDataAsString
 // Il2CppName: dumpBinaryDataAsString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Asn1::Utilities::Asn1Dump::dumpBinaryDataAsString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::Il2CppString*, ::ArrayW<uint8_t>)>(&Org::BouncyCastle::Asn1::Utilities::Asn1Dump::dumpBinaryDataAsString)> {
   static const MethodInfo* get() {
     static auto* indent = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* bytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -125,7 +126,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Utilities::Asn1Dump::calculateAscString
 // Il2CppName: calculateAscString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::ArrayWrapper<uint8_t>, int, int)>(&Org::BouncyCastle::Asn1::Utilities::Asn1Dump::calculateAscString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::ArrayW<uint8_t>, int, int)>(&Org::BouncyCastle::Asn1::Utilities::Asn1Dump::calculateAscString)> {
   static const MethodInfo* get() {
     static auto* bytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* off = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

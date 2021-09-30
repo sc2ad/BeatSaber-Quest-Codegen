@@ -29,6 +29,11 @@ namespace System::Collections {
   // [TokenAttribute] Offset: FFFFFFFF
   class ListDictionaryInternal::NodeEnumerator : public ::Il2CppObject/*, public System::Collections::IDictionaryEnumerator*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.ListDictionaryInternal list
     // Size: 0x8
     // Offset: 0x10
@@ -53,6 +58,7 @@ namespace System::Collections {
     bool start;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator System::Collections::IDictionaryEnumerator
     operator System::Collections::IDictionaryEnumerator() noexcept {
       return *reinterpret_cast<System::Collections::IDictionaryEnumerator*>(this);

@@ -37,6 +37,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapObjectsInstaller : public Zenject::MonoInstaller {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private GameNoteController _normalBasicNotePrefab
     // Size: 0x8
     // Offset: 0x20
@@ -80,6 +85,7 @@ namespace GlobalNamespace {
     GlobalNamespace::GameplayCoreSceneSetupData* sceneSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayCoreSceneSetupData*) == 0x8);
+    public:
     // Get instance field reference: private GameNoteController _normalBasicNotePrefab
     GlobalNamespace::GameNoteController*& dyn__normalBasicNotePrefab();
     // Get instance field reference: private GameNoteController _proModeNotePrefab

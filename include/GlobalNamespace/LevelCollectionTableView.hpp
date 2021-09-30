@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HMUI
@@ -63,6 +64,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LevelCollectionTableView : public UnityEngine::MonoBehaviour/*, public HMUI::TableView::IDataSource*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private HMUI.TableView _tableView
     // Size: 0x8
     // Offset: 0x18
@@ -141,9 +147,9 @@ namespace GlobalNamespace {
     // private IPreviewBeatmapLevel[] _previewBeatmapLevels
     // Size: 0x8
     // Offset: 0x70
-    ::ArrayWrapper<GlobalNamespace::IPreviewBeatmapLevel*> previewBeatmapLevels;
+    ::ArrayW<GlobalNamespace::IPreviewBeatmapLevel*> previewBeatmapLevels;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::IPreviewBeatmapLevel*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::IPreviewBeatmapLevel*>) == 0x8);
     // private UnityEngine.Sprite _headerSprite
     // Size: 0x8
     // Offset: 0x78
@@ -184,6 +190,7 @@ namespace GlobalNamespace {
     GlobalNamespace::IPreviewBeatmapLevel* selectedPreviewBeatmapLevel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IPreviewBeatmapLevel*) == 0x8);
+    public:
     // Creating interface conversion operator: operator HMUI::TableView::IDataSource
     operator HMUI::TableView::IDataSource() noexcept {
       return *reinterpret_cast<HMUI::TableView::IDataSource*>(this);
@@ -215,7 +222,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _isInitialized
     bool& dyn__isInitialized();
     // Get instance field reference: private IPreviewBeatmapLevel[] _previewBeatmapLevels
-    ::ArrayWrapper<GlobalNamespace::IPreviewBeatmapLevel*>& dyn__previewBeatmapLevels();
+    ::ArrayW<GlobalNamespace::IPreviewBeatmapLevel*>& dyn__previewBeatmapLevels();
     // Get instance field reference: private UnityEngine.Sprite _headerSprite
     UnityEngine::Sprite*& dyn__headerSprite();
     // Get instance field reference: private System.String _headerText
@@ -248,7 +255,7 @@ namespace GlobalNamespace {
     void Init();
     // public System.Void SetData(IPreviewBeatmapLevel[] previewBeatmapLevels, System.Collections.Generic.HashSet`1<System.String> favoriteLevelIds, System.Boolean beatmapLevelsAreSorted)
     // Offset: 0x114EC78
-    void SetData(::ArrayWrapper<GlobalNamespace::IPreviewBeatmapLevel*> previewBeatmapLevels, System::Collections::Generic::HashSet_1<::Il2CppString*>* favoriteLevelIds, bool beatmapLevelsAreSorted);
+    void SetData(::ArrayW<GlobalNamespace::IPreviewBeatmapLevel*> previewBeatmapLevels, System::Collections::Generic::HashSet_1<::Il2CppString*>* favoriteLevelIds, bool beatmapLevelsAreSorted);
     // public System.Void RefreshFavorites(System.Collections.Generic.HashSet`1<System.String> favoriteLevelIds)
     // Offset: 0x114EE7C
     void RefreshFavorites(System::Collections::Generic::HashSet_1<::Il2CppString*>* favoriteLevelIds);
@@ -368,7 +375,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::LevelCollectionTableView::SetData
 // Il2CppName: SetData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelCollectionTableView::*)(::ArrayWrapper<GlobalNamespace::IPreviewBeatmapLevel*>, System::Collections::Generic::HashSet_1<::Il2CppString*>*, bool)>(&GlobalNamespace::LevelCollectionTableView::SetData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelCollectionTableView::*)(::ArrayW<GlobalNamespace::IPreviewBeatmapLevel*>, System::Collections::Generic::HashSet_1<::Il2CppString*>*, bool)>(&GlobalNamespace::LevelCollectionTableView::SetData)> {
   static const MethodInfo* get() {
     static auto* previewBeatmapLevels = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "IPreviewBeatmapLevel"), 1)->byval_arg;
     static auto* favoriteLevelIds = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "HashSet`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;

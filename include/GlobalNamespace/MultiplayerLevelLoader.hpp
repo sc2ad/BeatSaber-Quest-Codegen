@@ -71,12 +71,18 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct MultiplayerBeatmapLoaderState/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: MultiplayerBeatmapLoaderState
       constexpr MultiplayerBeatmapLoaderState(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -111,6 +117,11 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(MultiplayerLevelLoader::MultiplayerBeatmapLoaderState), 0 + sizeof(int)> __GlobalNamespace_MultiplayerLevelLoader_MultiplayerBeatmapLoaderStateSizeCheck;
     static_assert(sizeof(MultiplayerLevelLoader::MultiplayerBeatmapLoaderState) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xF0F200
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
@@ -199,6 +210,7 @@ namespace GlobalNamespace {
     bool stillDownloadingCalled;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator Zenject::ITickable
     operator Zenject::ITickable() noexcept {
       return *reinterpret_cast<Zenject::ITickable*>(this);

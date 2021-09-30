@@ -19,6 +19,11 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HAPI_CookOptions/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Boolean splitGeosByGroup
     // Size: 0x1
     // Offset: 0x0
@@ -115,6 +120,7 @@ namespace HoudiniEngineUnity {
     int extraFlags;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: HAPI_CookOptions
     constexpr HAPI_CookOptions(bool splitGeosByGroup_ = {}, bool splitGeosByAttribute_ = {}, int splitAttrSH_ = {}, int maxVerticesPerPrimitive_ = {}, bool refineCurveToLinear_ = {}, float curveRefineLOD_ = {}, bool clearErrorsAndWarnings_ = {}, bool cookTemplatedGeos_ = {}, bool splitPointsByVertexAttributes_ = {}, HoudiniEngineUnity::HAPI_PackedPrimInstancingMode packedPrimInstancingMode_ = {}, bool handleBoxPartTypes_ = {}, bool handleSpherePartTypes_ = {}, bool checkPartChanges_ = {}, bool cacheMeshTopology_ = {}, int extraFlags_ = {}) noexcept : splitGeosByGroup{splitGeosByGroup_}, splitGeosByAttribute{splitGeosByAttribute_}, splitAttrSH{splitAttrSH_}, maxVerticesPerPrimitive{maxVerticesPerPrimitive_}, refineCurveToLinear{refineCurveToLinear_}, curveRefineLOD{curveRefineLOD_}, clearErrorsAndWarnings{clearErrorsAndWarnings_}, cookTemplatedGeos{cookTemplatedGeos_}, splitPointsByVertexAttributes{splitPointsByVertexAttributes_}, packedPrimInstancingMode{packedPrimInstancingMode_}, handleBoxPartTypes{handleBoxPartTypes_}, handleSpherePartTypes{handleSpherePartTypes_}, checkPartChanges{checkPartChanges_}, cacheMeshTopology{cacheMeshTopology_}, extraFlags{extraFlags_} {}
     // Creating interface conversion operator: operator System::ValueType

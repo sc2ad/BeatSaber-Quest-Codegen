@@ -43,6 +43,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::PlayerHeightDetector::InitData
     class InitData;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xF0A83C
     // private readonly PlayerTransforms _playerTransforms
     // Size: 0x8
@@ -107,6 +112,7 @@ namespace GlobalNamespace {
     float lastReportedHeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private readonly PlayerTransforms _playerTransforms

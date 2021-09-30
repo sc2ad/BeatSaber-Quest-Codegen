@@ -39,6 +39,11 @@ namespace System {
   // [TypeForwardedFromAttribute] Offset: E5C894
   struct TimeZoneInfo::TransitionTime/*, public System::ValueType, public System::IEquatable_1<System::TimeZoneInfo::TransitionTime>, public System::Runtime::Serialization::ISerializable, public System::Runtime::Serialization::IDeserializationCallback*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.DateTime m_timeOfDay
     // Size: 0x8
     // Offset: 0x0
@@ -77,6 +82,7 @@ namespace System {
     bool m_isFixedDateRule;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating value type constructor for type: TransitionTime
     constexpr TransitionTime(System::DateTime m_timeOfDay_ = {}, uint8_t m_month_ = {}, uint8_t m_week_ = {}, uint8_t m_day_ = {}, System::DayOfWeek m_dayOfWeek_ = {}, bool m_isFixedDateRule_ = {}) noexcept : m_timeOfDay{m_timeOfDay_}, m_month{m_month_}, m_week{m_week_}, m_day{m_day_}, m_dayOfWeek{m_dayOfWeek_}, m_isFixedDateRule{m_isFixedDateRule_} {}
     // Creating interface conversion operator: operator System::ValueType

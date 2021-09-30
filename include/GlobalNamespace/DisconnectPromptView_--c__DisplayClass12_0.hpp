@@ -28,6 +28,11 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class DisconnectPromptView::$$c__DisplayClass12_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Action finishedCallback
     // Size: 0x8
     // Offset: 0x10
@@ -40,6 +45,7 @@ namespace GlobalNamespace {
     GlobalNamespace::DisconnectPromptView* $$4__this;
     // Field size check
     static_assert(sizeof(GlobalNamespace::DisconnectPromptView*) == 0x8);
+    public:
     // Get instance field reference: public System.Action finishedCallback
     System::Action*& dyn_finishedCallback();
     // Get instance field reference: public DisconnectPromptView <>4__this

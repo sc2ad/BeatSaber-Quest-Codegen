@@ -44,12 +44,18 @@ namespace System::Collections {
   // [DefaultMemberAttribute] Offset: E61728
   class Hashtable::SyncHashtable : public System::Collections::Hashtable {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // protected System.Collections.Hashtable _table
     // Size: 0x8
     // Offset: 0x50
     System::Collections::Hashtable* table;
     // Field size check
     static_assert(sizeof(System::Collections::Hashtable*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Collections::Hashtable*
     constexpr operator System::Collections::Hashtable*() const noexcept {
       return table;

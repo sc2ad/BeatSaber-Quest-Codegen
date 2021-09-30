@@ -29,12 +29,18 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     public:
     // Writing base type padding for base size: 0x11 to desired offset: 0x18
     char ___base_padding[0x7] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Org.BouncyCastle.Crypto.Parameters.ElGamalParameters parameters
     // Size: 0x8
     // Offset: 0x18
     Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* parameters;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Crypto::Parameters::ElGamalParameters*) == 0x8);
+    public:
     // Deleting conversion operator: operator bool
     constexpr operator bool() const noexcept = delete;
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.Parameters.ElGamalParameters parameters

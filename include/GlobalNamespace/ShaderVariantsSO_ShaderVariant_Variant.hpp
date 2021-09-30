@@ -22,6 +22,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ShaderVariantsSO::ShaderVariant::Variant : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Rendering.PassType _passType
     // Size: 0x4
     // Offset: 0x10
@@ -36,6 +41,7 @@ namespace GlobalNamespace {
     ::Il2CppString* keywords;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: private UnityEngine.Rendering.PassType _passType
     UnityEngine::Rendering::PassType& dyn__passType();
     // Get instance field reference: private System.String _keywords

@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -27,20 +28,26 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::VRTrackersRecorder::Keyframe::KeyframeTransform
     class KeyframeTransform;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public VRTrackersRecorder/Keyframe/KeyframeTransform[] _transforms
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<GlobalNamespace::VRTrackersRecorder::Keyframe::KeyframeTransform*> transforms;
+    ::ArrayW<GlobalNamespace::VRTrackersRecorder::Keyframe::KeyframeTransform*> transforms;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::VRTrackersRecorder::Keyframe::KeyframeTransform*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::VRTrackersRecorder::Keyframe::KeyframeTransform*>) == 0x8);
     // public System.Single _time
     // Size: 0x4
     // Offset: 0x18
     float time;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: public VRTrackersRecorder/Keyframe/KeyframeTransform[] _transforms
-    ::ArrayWrapper<GlobalNamespace::VRTrackersRecorder::Keyframe::KeyframeTransform*>& dyn__transforms();
+    ::ArrayW<GlobalNamespace::VRTrackersRecorder::Keyframe::KeyframeTransform*>& dyn__transforms();
     // Get instance field reference: public System.Single _time
     float& dyn__time();
     // public System.Void .ctor()

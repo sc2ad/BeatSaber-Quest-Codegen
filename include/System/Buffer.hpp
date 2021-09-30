@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -36,10 +37,10 @@ namespace System {
     static void ZeroMemory(uint8_t* src, int64_t len);
     // static System.Void Memcpy(System.Byte[] dest, System.Int32 destIndex, System.Byte* src, System.Int32 srcIndex, System.Int32 len)
     // Offset: 0x1991EB0
-    static void Memcpy(::ArrayWrapper<uint8_t> dest, int destIndex, uint8_t* src, int srcIndex, int len);
+    static void Memcpy(::ArrayW<uint8_t> dest, int destIndex, uint8_t* src, int srcIndex, int len);
     // static System.Void Memcpy(System.Byte* pDest, System.Int32 destIndex, System.Byte[] src, System.Int32 srcIndex, System.Int32 len)
     // Offset: 0x1991F3C
-    static void Memcpy(uint8_t* pDest, int destIndex, ::ArrayWrapper<uint8_t> src, int srcIndex, int len);
+    static void Memcpy(uint8_t* pDest, int destIndex, ::ArrayW<uint8_t> src, int srcIndex, int len);
     // static public System.Int32 ByteLength(System.Array array)
     // Offset: 0x1991F6C
     static int ByteLength(System::Array* array);
@@ -111,7 +112,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(ui
 // Writing MetadataGetter for method: System::Buffer::Memcpy
 // Il2CppName: Memcpy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint8_t>, int, uint8_t*, int, int)>(&System::Buffer::Memcpy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t>, int, uint8_t*, int, int)>(&System::Buffer::Memcpy)> {
   static const MethodInfo* get() {
     static auto* dest = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* destIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -124,7 +125,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: System::Buffer::Memcpy
 // Il2CppName: Memcpy
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint8_t*, int, ::ArrayWrapper<uint8_t>, int, int)>(&System::Buffer::Memcpy)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint8_t*, int, ::ArrayW<uint8_t>, int, int)>(&System::Buffer::Memcpy)> {
   static const MethodInfo* get() {
     static auto* pDest = &il2cpp_functions::Class_GetPtrClass(::il2cpp_utils::GetClassFromName("System", "Byte"))->byval_arg;
     static auto* destIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

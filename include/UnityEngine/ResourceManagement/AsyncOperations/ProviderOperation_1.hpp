@@ -73,6 +73,11 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
   template<typename TObject>
   class ProviderOperation_1 : public UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>/*, public UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation, public UnityEngine::ResourceManagement::AsyncOperations::ICachable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean m_ReleaseDependenciesOnFailure
     // Size: 0x1
     // Offset: 0x0
@@ -155,6 +160,7 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     UnityEngine::ResourceManagement::ResourceManager* m_ResourceManager;
     // Field size check
     static_assert(sizeof(UnityEngine::ResourceManagement::ResourceManager*) == 0x8);
+    public:
     // Creating interface conversion operator: operator UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation
     operator UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation() noexcept {
       return *reinterpret_cast<UnityEngine::ResourceManagement::AsyncOperations::IGenericProviderOperation*>(this);

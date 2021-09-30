@@ -21,6 +21,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -83,6 +84,11 @@ namespace UnityEngine::UI {
   // [ExecuteAlways] Offset: FFFFFFFF
   class Graphic : public UnityEngine::EventSystems::UIBehaviour/*, public UnityEngine::UI::ICanvasElement*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [FormerlySerializedAsAttribute] Offset: 0xEA9310
     // protected UnityEngine.Material m_Material
     // Size: 0x8
@@ -175,9 +181,9 @@ namespace UnityEngine::UI {
     // protected UnityEngine.Vector2[] m_CachedUvs
     // Size: 0x8
     // Offset: 0x78
-    ::ArrayWrapper<UnityEngine::Vector2> m_CachedUvs;
+    ::ArrayW<UnityEngine::Vector2> m_CachedUvs;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector2>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Vector2>) == 0x8);
     // private readonly UnityEngine.UI.CoroutineTween.TweenRunner`1<UnityEngine.UI.CoroutineTween.ColorTween> m_ColorTweenRunner
     // Size: 0x8
     // Offset: 0x80
@@ -190,6 +196,7 @@ namespace UnityEngine::UI {
     bool useLegacyMeshGeneration;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator UnityEngine::UI::ICanvasElement
     operator UnityEngine::UI::ICanvasElement() noexcept {
       return *reinterpret_cast<UnityEngine::UI::ICanvasElement*>(this);
@@ -241,7 +248,7 @@ namespace UnityEngine::UI {
     // Get instance field reference: protected UnityEngine.Mesh m_CachedMesh
     UnityEngine::Mesh*& dyn_m_CachedMesh();
     // Get instance field reference: protected UnityEngine.Vector2[] m_CachedUvs
-    ::ArrayWrapper<UnityEngine::Vector2>& dyn_m_CachedUvs();
+    ::ArrayW<UnityEngine::Vector2>& dyn_m_CachedUvs();
     // Get instance field reference: private readonly UnityEngine.UI.CoroutineTween.TweenRunner`1<UnityEngine.UI.CoroutineTween.ColorTween> m_ColorTweenRunner
     UnityEngine::UI::CoroutineTween::TweenRunner_1<UnityEngine::UI::CoroutineTween::ColorTween>*& dyn_m_ColorTweenRunner();
     // Get instance field reference: private System.Boolean <useLegacyMeshGeneration>k__BackingField

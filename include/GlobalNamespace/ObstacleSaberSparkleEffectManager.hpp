@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -58,6 +59,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ObstacleSaberSparkleEffectManager : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private ObstacleSaberSparkleEffect _obstacleSaberSparkleEffectPrefab
     // Size: 0x8
     // Offset: 0x18
@@ -113,39 +119,40 @@ namespace GlobalNamespace {
     // private Saber[] _sabers
     // Size: 0x8
     // Offset: 0x58
-    ::ArrayWrapper<GlobalNamespace::Saber*> sabers;
+    ::ArrayW<GlobalNamespace::Saber*> sabers;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::Saber*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::Saber*>) == 0x8);
     // private ObstacleSaberSparkleEffect[] _effects
     // Size: 0x8
     // Offset: 0x60
-    ::ArrayWrapper<GlobalNamespace::ObstacleSaberSparkleEffect*> effects;
+    ::ArrayW<GlobalNamespace::ObstacleSaberSparkleEffect*> effects;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::ObstacleSaberSparkleEffect*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::ObstacleSaberSparkleEffect*>) == 0x8);
     // private UnityEngine.Transform[] _effectsTransforms
     // Size: 0x8
     // Offset: 0x68
-    ::ArrayWrapper<UnityEngine::Transform*> effectsTransforms;
+    ::ArrayW<UnityEngine::Transform*> effectsTransforms;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Transform*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Transform*>) == 0x8);
     // private System.Boolean[] _isSystemActive
     // Size: 0x8
     // Offset: 0x70
-    ::ArrayWrapper<bool> isSystemActive;
+    ::ArrayW<bool> isSystemActive;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<bool>) == 0x8);
+    static_assert(sizeof(::ArrayW<bool>) == 0x8);
     // private System.Boolean[] _wasSystemActive
     // Size: 0x8
     // Offset: 0x78
-    ::ArrayWrapper<bool> wasSystemActive;
+    ::ArrayW<bool> wasSystemActive;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<bool>) == 0x8);
+    static_assert(sizeof(::ArrayW<bool>) == 0x8);
     // private UnityEngine.Vector3[] _burnMarkPositions
     // Size: 0x8
     // Offset: 0x80
-    ::ArrayWrapper<UnityEngine::Vector3> burnMarkPositions;
+    ::ArrayW<UnityEngine::Vector3> burnMarkPositions;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector3>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Vector3>) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private ObstacleSaberSparkleEffect _obstacleSaberSparkleEffectPrefab
@@ -165,17 +172,17 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`1<SaberType> sparkleEffectDidEndEvent
     System::Action_1<GlobalNamespace::SaberType>*& dyn_sparkleEffectDidEndEvent();
     // Get instance field reference: private Saber[] _sabers
-    ::ArrayWrapper<GlobalNamespace::Saber*>& dyn__sabers();
+    ::ArrayW<GlobalNamespace::Saber*>& dyn__sabers();
     // Get instance field reference: private ObstacleSaberSparkleEffect[] _effects
-    ::ArrayWrapper<GlobalNamespace::ObstacleSaberSparkleEffect*>& dyn__effects();
+    ::ArrayW<GlobalNamespace::ObstacleSaberSparkleEffect*>& dyn__effects();
     // Get instance field reference: private UnityEngine.Transform[] _effectsTransforms
-    ::ArrayWrapper<UnityEngine::Transform*>& dyn__effectsTransforms();
+    ::ArrayW<UnityEngine::Transform*>& dyn__effectsTransforms();
     // Get instance field reference: private System.Boolean[] _isSystemActive
-    ::ArrayWrapper<bool>& dyn__isSystemActive();
+    ::ArrayW<bool>& dyn__isSystemActive();
     // Get instance field reference: private System.Boolean[] _wasSystemActive
-    ::ArrayWrapper<bool>& dyn__wasSystemActive();
+    ::ArrayW<bool>& dyn__wasSystemActive();
     // Get instance field reference: private UnityEngine.Vector3[] _burnMarkPositions
-    ::ArrayWrapper<UnityEngine::Vector3>& dyn__burnMarkPositions();
+    ::ArrayW<UnityEngine::Vector3>& dyn__burnMarkPositions();
     // public System.Void add_sparkleEffectDidStartEvent(System.Action`1<SaberType> value)
     // Offset: 0x135C408
     void add_sparkleEffectDidStartEvent(System::Action_1<GlobalNamespace::SaberType>* value);
@@ -221,7 +228,7 @@ namespace GlobalNamespace {
     }
   }; // ObstacleSaberSparkleEffectManager
   #pragma pack(pop)
-  static check_size<sizeof(ObstacleSaberSparkleEffectManager), 128 + sizeof(::ArrayWrapper<UnityEngine::Vector3>)> __GlobalNamespace_ObstacleSaberSparkleEffectManagerSizeCheck;
+  static check_size<sizeof(ObstacleSaberSparkleEffectManager), 128 + sizeof(::ArrayW<UnityEngine::Vector3>)> __GlobalNamespace_ObstacleSaberSparkleEffectManagerSizeCheck;
   static_assert(sizeof(ObstacleSaberSparkleEffectManager) == 0x88);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ObstacleSaberSparkleEffectManager*, "", "ObstacleSaberSparkleEffectManager");

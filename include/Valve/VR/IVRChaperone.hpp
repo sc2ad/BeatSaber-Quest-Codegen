@@ -37,6 +37,11 @@ namespace Valve::VR {
     class _AreBoundsVisible;
     // Nested type: Valve::VR::IVRChaperone::_ForceBoundsVisible
     class _ForceBoundsVisible;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // Valve.VR.IVRChaperone/Valve.VR._GetCalibrationState GetCalibrationState
     // Size: 0x8
     // Offset: 0x0
@@ -85,6 +90,7 @@ namespace Valve::VR {
     Valve::VR::IVRChaperone::_ForceBoundsVisible* ForceBoundsVisible;
     // Field size check
     static_assert(sizeof(Valve::VR::IVRChaperone::_ForceBoundsVisible*) == 0x8);
+    public:
     // Creating value type constructor for type: IVRChaperone
     constexpr IVRChaperone(Valve::VR::IVRChaperone::_GetCalibrationState* GetCalibrationState_ = {}, Valve::VR::IVRChaperone::_GetPlayAreaSize* GetPlayAreaSize_ = {}, Valve::VR::IVRChaperone::_GetPlayAreaRect* GetPlayAreaRect_ = {}, Valve::VR::IVRChaperone::_ReloadInfo* ReloadInfo_ = {}, Valve::VR::IVRChaperone::_SetSceneColor* SetSceneColor_ = {}, Valve::VR::IVRChaperone::_GetBoundsColor* GetBoundsColor_ = {}, Valve::VR::IVRChaperone::_AreBoundsVisible* AreBoundsVisible_ = {}, Valve::VR::IVRChaperone::_ForceBoundsVisible* ForceBoundsVisible_ = {}) noexcept : GetCalibrationState{GetCalibrationState_}, GetPlayAreaSize{GetPlayAreaSize_}, GetPlayAreaRect{GetPlayAreaRect_}, ReloadInfo{ReloadInfo_}, SetSceneColor{SetSceneColor_}, GetBoundsColor{GetBoundsColor_}, AreBoundsVisible{AreBoundsVisible_}, ForceBoundsVisible{ForceBoundsVisible_} {}
     // Creating interface conversion operator: operator System::ValueType

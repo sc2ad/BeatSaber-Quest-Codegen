@@ -19,12 +19,18 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5CD3C
   struct RuntimeArgumentHandle/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.IntPtr args
     // Size: 0x8
     // Offset: 0x0
     System::IntPtr args;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
+    public:
     // Creating value type constructor for type: RuntimeArgumentHandle
     constexpr RuntimeArgumentHandle(System::IntPtr args_ = {}) noexcept : args{args_} {}
     // Creating interface conversion operator: operator System::ValueType

@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -34,6 +35,11 @@ namespace RootMotion {
   // [TokenAttribute] Offset: FFFFFFFF
   class GenericBaker : public RootMotion::Baker {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [TooltipAttribute] Offset: 0xEF1610
     // public System.Boolean markAsLegacy
     // Size: 0x1
@@ -61,22 +67,22 @@ namespace RootMotion {
     // public UnityEngine.Transform[] ignoreList
     // Size: 0x8
     // Offset: 0x88
-    ::ArrayWrapper<UnityEngine::Transform*> ignoreList;
+    ::ArrayW<UnityEngine::Transform*> ignoreList;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Transform*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Transform*>) == 0x8);
     // [TooltipAttribute] Offset: 0xEF16F0
     // public UnityEngine.Transform[] bakePositionList
     // Size: 0x8
     // Offset: 0x90
-    ::ArrayWrapper<UnityEngine::Transform*> bakePositionList;
+    ::ArrayW<UnityEngine::Transform*> bakePositionList;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Transform*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Transform*>) == 0x8);
     // private RootMotion.BakerTransform[] children
     // Size: 0x8
     // Offset: 0x98
-    ::ArrayWrapper<RootMotion::BakerTransform*> children;
+    ::ArrayW<RootMotion::BakerTransform*> children;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<RootMotion::BakerTransform*>) == 0x8);
+    static_assert(sizeof(::ArrayW<RootMotion::BakerTransform*>) == 0x8);
     // private RootMotion.BakerTransform rootChild
     // Size: 0x8
     // Offset: 0xA0
@@ -89,6 +95,7 @@ namespace RootMotion {
     int rootChildIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: public System.Boolean markAsLegacy
     bool& dyn_markAsLegacy();
     // Get instance field reference: public UnityEngine.Transform root
@@ -96,11 +103,11 @@ namespace RootMotion {
     // Get instance field reference: public UnityEngine.Transform rootNode
     UnityEngine::Transform*& dyn_rootNode();
     // Get instance field reference: public UnityEngine.Transform[] ignoreList
-    ::ArrayWrapper<UnityEngine::Transform*>& dyn_ignoreList();
+    ::ArrayW<UnityEngine::Transform*>& dyn_ignoreList();
     // Get instance field reference: public UnityEngine.Transform[] bakePositionList
-    ::ArrayWrapper<UnityEngine::Transform*>& dyn_bakePositionList();
+    ::ArrayW<UnityEngine::Transform*>& dyn_bakePositionList();
     // Get instance field reference: private RootMotion.BakerTransform[] children
-    ::ArrayWrapper<RootMotion::BakerTransform*>& dyn_children();
+    ::ArrayW<RootMotion::BakerTransform*>& dyn_children();
     // Get instance field reference: private RootMotion.BakerTransform rootChild
     RootMotion::BakerTransform*& dyn_rootChild();
     // Get instance field reference: private System.Int32 rootChildIndex

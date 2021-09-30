@@ -21,6 +21,11 @@ namespace Mono::Security::Interface {
   // [TokenAttribute] Offset: FFFFFFFF
   class ValidationResult : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean trusted
     // Size: 0x1
     // Offset: 0x10
@@ -43,6 +48,7 @@ namespace Mono::Security::Interface {
     // Size: 0xFFFFFFFF
     // Offset: 0x18
     System::Nullable_1<Mono::Security::Interface::MonoSslPolicyErrors> policy_errors;
+    public:
     // Get instance field reference: private System.Boolean trusted
     bool& dyn_trusted();
     // Get instance field reference: private System.Boolean user_denied

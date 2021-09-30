@@ -21,6 +21,11 @@ namespace System::Security::Cryptography {
   // [ComVisibleAttribute] Offset: E5F1BC
   class CspParameters : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 ProviderType
     // Size: 0x4
     // Offset: 0x10
@@ -53,6 +58,7 @@ namespace System::Security::Cryptography {
     int m_flags;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: public System.Int32 ProviderType
     int& dyn_ProviderType();
     // Get instance field reference: public System.String ProviderName

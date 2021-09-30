@@ -28,6 +28,11 @@ namespace UnityEngine::Experimental::TerrainAPI {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class TerrainUtility::$$c__DisplayClass4_1 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Terrain t
     // Size: 0x8
     // Offset: 0x10
@@ -40,6 +45,7 @@ namespace UnityEngine::Experimental::TerrainAPI {
     UnityEngine::Experimental::TerrainAPI::TerrainUtility::$$c__DisplayClass4_0* CS$$$8__locals1;
     // Field size check
     static_assert(sizeof(UnityEngine::Experimental::TerrainAPI::TerrainUtility::$$c__DisplayClass4_0*) == 0x8);
+    public:
     // Get instance field reference: public UnityEngine.Terrain t
     UnityEngine::Terrain*& dyn_t();
     // Get instance field reference: public UnityEngine.Experimental.TerrainAPI.TerrainUtility/UnityEngine.Experimental.TerrainAPI.<>c__DisplayClass4_0 CS$<>8__locals1

@@ -33,6 +33,11 @@ namespace OVRSimpleJSON {
   // [TokenAttribute] Offset: FFFFFFFF
   class JSONNode::LinqEnumerator : public ::Il2CppObject/*, public System::Collections::Generic::IEnumerator_1<System::Collections::Generic::KeyValuePair_2<::Il2CppString*, OVRSimpleJSON::JSONNode*>>, public System::Collections::Generic::IEnumerable_1<System::Collections::Generic::KeyValuePair_2<::Il2CppString*, OVRSimpleJSON::JSONNode*>>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private OVRSimpleJSON.JSONNode m_Node
     // Size: 0x8
     // Offset: 0x10
@@ -43,6 +48,7 @@ namespace OVRSimpleJSON {
     // Size: 0xFFFFFFFF
     // Offset: 0x18
     OVRSimpleJSON::JSONNode::Enumerator m_Enumerator;
+    public:
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<System::Collections::Generic::KeyValuePair_2<::Il2CppString*, OVRSimpleJSON::JSONNode*>>
     operator System::Collections::Generic::IEnumerator_1<System::Collections::Generic::KeyValuePair_2<::Il2CppString*, OVRSimpleJSON::JSONNode*>>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<System::Collections::Generic::KeyValuePair_2<::Il2CppString*, OVRSimpleJSON::JSONNode*>>*>(this);

@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -29,7 +30,7 @@ namespace GlobalNamespace {
     public:
     // public NamedPreset[] get_namedPresets()
     // Offset: 0xFFFFFFFF
-    ::ArrayWrapper<GlobalNamespace::NamedPreset*> get_namedPresets();
+    ::ArrayW<GlobalNamespace::NamedPreset*> get_namedPresets();
     // protected System.Void .ctor()
     // Offset: 0x1134F50
     // Implemented from: PersistentScriptableObject
@@ -50,7 +51,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::NamedPresetsSO*, "", "NamedPresetsSO");
 // Writing MetadataGetter for method: GlobalNamespace::NamedPresetsSO::get_namedPresets
 // Il2CppName: get_namedPresets
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::NamedPreset*> (GlobalNamespace::NamedPresetsSO::*)()>(&GlobalNamespace::NamedPresetsSO::get_namedPresets)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<GlobalNamespace::NamedPreset*> (GlobalNamespace::NamedPresetsSO::*)()>(&GlobalNamespace::NamedPresetsSO::get_namedPresets)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NamedPresetsSO*), "get_namedPresets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

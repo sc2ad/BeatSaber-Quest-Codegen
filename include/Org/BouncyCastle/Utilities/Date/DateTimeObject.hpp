@@ -20,12 +20,18 @@ namespace Org::BouncyCastle::Utilities::Date {
   // [TokenAttribute] Offset: FFFFFFFF
   class DateTimeObject : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.DateTime dt
     // Size: 0x8
     // Offset: 0x10
     System::DateTime dt;
     // Field size check
     static_assert(sizeof(System::DateTime) == 0x8);
+    public:
     // Creating conversion operator: operator System::DateTime
     constexpr operator System::DateTime() const noexcept {
       return dt;

@@ -27,6 +27,11 @@ namespace UnityEngine::ProBuilder {
   // [TokenAttribute] Offset: FFFFFFFF
   class MeshHandle : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Transform m_Transform
     // Size: 0x8
     // Offset: 0x10
@@ -39,6 +44,7 @@ namespace UnityEngine::ProBuilder {
     UnityEngine::Mesh* m_Mesh;
     // Field size check
     static_assert(sizeof(UnityEngine::Mesh*) == 0x8);
+    public:
     // Get instance field reference: private UnityEngine.Transform m_Transform
     UnityEngine::Transform*& dyn_m_Transform();
     // Get instance field reference: private UnityEngine.Mesh m_Mesh

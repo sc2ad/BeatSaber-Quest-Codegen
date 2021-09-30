@@ -22,12 +22,18 @@ namespace Mono::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class CFObject : public ::Il2CppObject/*, public System::IDisposable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.IntPtr <Handle>k__BackingField
     // Size: 0x8
     // Offset: 0x10
     System::IntPtr Handle;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

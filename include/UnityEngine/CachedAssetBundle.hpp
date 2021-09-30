@@ -22,6 +22,11 @@ namespace UnityEngine {
   // [UsedByNativeCodeAttribute] Offset: E703DC
   struct CachedAssetBundle/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String m_Name
     // Size: 0x8
     // Offset: 0x0
@@ -34,6 +39,7 @@ namespace UnityEngine {
     UnityEngine::Hash128 m_Hash;
     // Field size check
     static_assert(sizeof(UnityEngine::Hash128) == 0x10);
+    public:
     // Creating value type constructor for type: CachedAssetBundle
     constexpr CachedAssetBundle(::Il2CppString* m_Name_ = {}, UnityEngine::Hash128 m_Hash_ = {}) noexcept : m_Name{m_Name_}, m_Hash{m_Hash_} {}
     // Creating interface conversion operator: operator System::ValueType

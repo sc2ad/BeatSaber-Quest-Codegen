@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -46,6 +47,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MissionNodesManager : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private MissionNode _rootMissionNode
     // Size: 0x8
     // Offset: 0x18
@@ -86,21 +92,22 @@ namespace GlobalNamespace {
     // private MissionNodeConnection[] _allMissionNodeConnections
     // Size: 0x8
     // Offset: 0x48
-    ::ArrayWrapper<GlobalNamespace::MissionNodeConnection*> allMissionNodeConnections;
+    ::ArrayW<GlobalNamespace::MissionNodeConnection*> allMissionNodeConnections;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MissionNodeConnection*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::MissionNodeConnection*>) == 0x8);
     // private MissionNode[] _allMissionNodes
     // Size: 0x8
     // Offset: 0x50
-    ::ArrayWrapper<GlobalNamespace::MissionNode*> allMissionNodes;
+    ::ArrayW<GlobalNamespace::MissionNode*> allMissionNodes;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MissionNode*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::MissionNode*>) == 0x8);
     // private System.Boolean _isInitialized
     // Size: 0x1
     // Offset: 0x58
     bool isInitialized;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MissionNode _rootMissionNode
@@ -116,9 +123,9 @@ namespace GlobalNamespace {
     // Get instance field reference: private CampaignProgressModel _missionProgressModel
     GlobalNamespace::CampaignProgressModel*& dyn__missionProgressModel();
     // Get instance field reference: private MissionNodeConnection[] _allMissionNodeConnections
-    ::ArrayWrapper<GlobalNamespace::MissionNodeConnection*>& dyn__allMissionNodeConnections();
+    ::ArrayW<GlobalNamespace::MissionNodeConnection*>& dyn__allMissionNodeConnections();
     // Get instance field reference: private MissionNode[] _allMissionNodes
-    ::ArrayWrapper<GlobalNamespace::MissionNode*>& dyn__allMissionNodes();
+    ::ArrayW<GlobalNamespace::MissionNode*>& dyn__allMissionNodes();
     // Get instance field reference: private System.Boolean _isInitialized
     bool& dyn__isInitialized();
     // public MissionNode get_rootMissionNode()
@@ -135,7 +142,7 @@ namespace GlobalNamespace {
     GlobalNamespace::CampaignProgressModel* get_missionProgressModel();
     // public MissionNode[] get_allMissionNodes()
     // Offset: 0x118A7D4
-    ::ArrayWrapper<GlobalNamespace::MissionNode*> get_allMissionNodes();
+    ::ArrayW<GlobalNamespace::MissionNode*> get_allMissionNodes();
     // public System.Boolean get_IsInitialized()
     // Offset: 0x118A7DC
     bool get_IsInitialized();
@@ -168,7 +175,7 @@ namespace GlobalNamespace {
     System::Collections::Generic::HashSet_1<GlobalNamespace::MissionNode*>* GetAllMissionNodes(GlobalNamespace::MissionNode* node, System::Collections::Generic::HashSet_1<GlobalNamespace::MissionNode*>* visited);
     // public MissionNodeConnection[] GetNewEnabledConnection()
     // Offset: 0x1188B04
-    ::ArrayWrapper<GlobalNamespace::MissionNodeConnection*> GetNewEnabledConnection();
+    ::ArrayW<GlobalNamespace::MissionNodeConnection*> GetNewEnabledConnection();
     // private System.Void ResetAllNodes()
     // Offset: 0x118A984
     void ResetAllNodes();
@@ -242,7 +249,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::MissionNodesManager::get_allMissionNodes
 // Il2CppName: get_allMissionNodes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::MissionNode*> (GlobalNamespace::MissionNodesManager::*)()>(&GlobalNamespace::MissionNodesManager::get_allMissionNodes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<GlobalNamespace::MissionNode*> (GlobalNamespace::MissionNodesManager::*)()>(&GlobalNamespace::MissionNodesManager::get_allMissionNodes)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodesManager*), "get_allMissionNodes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -333,7 +340,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: GlobalNamespace::MissionNodesManager::GetNewEnabledConnection
 // Il2CppName: GetNewEnabledConnection
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::MissionNodeConnection*> (GlobalNamespace::MissionNodesManager::*)()>(&GlobalNamespace::MissionNodesManager::GetNewEnabledConnection)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<GlobalNamespace::MissionNodeConnection*> (GlobalNamespace::MissionNodesManager::*)()>(&GlobalNamespace::MissionNodesManager::GetNewEnabledConnection)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionNodesManager*), "GetNewEnabledConnection", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

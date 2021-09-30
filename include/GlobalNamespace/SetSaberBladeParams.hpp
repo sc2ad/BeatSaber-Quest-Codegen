@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -36,6 +37,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::SetSaberBladeParams::PropertyTintColorPair
     class PropertyTintColorPair;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private SaberTypeObject _saber
     // Size: 0x8
     // Offset: 0x18
@@ -52,9 +58,9 @@ namespace GlobalNamespace {
     // private SetSaberBladeParams/PropertyTintColorPair[] _propertyTintColorPairs
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<GlobalNamespace::SetSaberBladeParams::PropertyTintColorPair*> propertyTintColorPairs;
+    ::ArrayW<GlobalNamespace::SetSaberBladeParams::PropertyTintColorPair*> propertyTintColorPairs;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::SetSaberBladeParams::PropertyTintColorPair*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::SetSaberBladeParams::PropertyTintColorPair*>) == 0x8);
     // [InjectAttribute] Offset: 0xF0ACF8
     // private ColorManager _colorManager
     // Size: 0x8
@@ -62,6 +68,7 @@ namespace GlobalNamespace {
     GlobalNamespace::ColorManager* colorManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ColorManager*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private SaberTypeObject _saber
@@ -69,7 +76,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.MeshRenderer _meshRenderer
     UnityEngine::MeshRenderer*& dyn__meshRenderer();
     // Get instance field reference: private SetSaberBladeParams/PropertyTintColorPair[] _propertyTintColorPairs
-    ::ArrayWrapper<GlobalNamespace::SetSaberBladeParams::PropertyTintColorPair*>& dyn__propertyTintColorPairs();
+    ::ArrayW<GlobalNamespace::SetSaberBladeParams::PropertyTintColorPair*>& dyn__propertyTintColorPairs();
     // Get instance field reference: private ColorManager _colorManager
     GlobalNamespace::ColorManager*& dyn__colorManager();
     // protected System.Void Start()

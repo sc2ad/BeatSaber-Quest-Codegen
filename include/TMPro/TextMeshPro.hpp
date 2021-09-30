@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -63,6 +64,11 @@ namespace TMPro {
   // [ExecuteAlways] Offset: FFFFFFFF
   class TextMeshPro : public TMPro::TMP_Text/*, public UnityEngine::UI::ILayoutElement*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean m_hasFontAssetChanged
     // Size: 0x1
     // Offset: 0xB30
@@ -108,9 +114,9 @@ namespace TMPro {
     // protected TMPro.TMP_SubMesh[] m_subTextObjects
     // Size: 0x8
     // Offset: 0xB58
-    ::ArrayWrapper<TMPro::TMP_SubMesh*> m_subTextObjects;
+    ::ArrayW<TMPro::TMP_SubMesh*> m_subTextObjects;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<TMPro::TMP_SubMesh*>) == 0x8);
+    static_assert(sizeof(::ArrayW<TMPro::TMP_SubMesh*>) == 0x8);
     // private System.Boolean m_isMaskingEnabled
     // Size: 0x1
     // Offset: 0xB60
@@ -138,9 +144,9 @@ namespace TMPro {
     // private UnityEngine.Vector3[] m_RectTransformCorners
     // Size: 0x8
     // Offset: 0xBA8
-    ::ArrayWrapper<UnityEngine::Vector3> m_RectTransformCorners;
+    ::ArrayW<UnityEngine::Vector3> m_RectTransformCorners;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector3>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Vector3>) == 0x8);
     // private System.Boolean m_isRegisteredForEvents
     // Size: 0x1
     // Offset: 0xBB0
@@ -159,6 +165,7 @@ namespace TMPro {
     bool m_currentAutoSizeMode;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator UnityEngine::UI::ILayoutElement
     operator UnityEngine::UI::ILayoutElement() noexcept {
       return *reinterpret_cast<UnityEngine::UI::ILayoutElement*>(this);
@@ -178,7 +185,7 @@ namespace TMPro {
     // Get instance field reference: private System.Int32 m_max_numberOfLines
     int& dyn_m_max_numberOfLines();
     // Get instance field reference: protected TMPro.TMP_SubMesh[] m_subTextObjects
-    ::ArrayWrapper<TMPro::TMP_SubMesh*>& dyn_m_subTextObjects();
+    ::ArrayW<TMPro::TMP_SubMesh*>& dyn_m_subTextObjects();
     // Get instance field reference: private System.Boolean m_isMaskingEnabled
     bool& dyn_m_isMaskingEnabled();
     // Get instance field reference: private System.Boolean isMaskUpdateRequired
@@ -188,7 +195,7 @@ namespace TMPro {
     // Get instance field reference: private UnityEngine.Matrix4x4 m_EnvMapMatrix
     UnityEngine::Matrix4x4& dyn_m_EnvMapMatrix();
     // Get instance field reference: private UnityEngine.Vector3[] m_RectTransformCorners
-    ::ArrayWrapper<UnityEngine::Vector3>& dyn_m_RectTransformCorners();
+    ::ArrayW<UnityEngine::Vector3>& dyn_m_RectTransformCorners();
     // Get instance field reference: private System.Boolean m_isRegisteredForEvents
     bool& dyn_m_isRegisteredForEvents();
     // Get instance field reference: private System.Int32 loopCountA
@@ -347,7 +354,7 @@ namespace TMPro {
     // Offset: 0x15C7C78
     // Implemented from: TMPro.TMP_Text
     // Base method: UnityEngine.Material[] TMP_Text::GetMaterials(UnityEngine.Material[] mats)
-    ::ArrayWrapper<UnityEngine::Material*> GetMaterials(::ArrayWrapper<UnityEngine::Material*> mats);
+    ::ArrayW<UnityEngine::Material*> GetMaterials(::ArrayW<UnityEngine::Material*> mats);
     // protected override System.Void SetSharedMaterial(UnityEngine.Material mat)
     // Offset: 0x15C7E28
     // Implemented from: TMPro.TMP_Text
@@ -357,12 +364,12 @@ namespace TMPro {
     // Offset: 0x15C7E6C
     // Implemented from: TMPro.TMP_Text
     // Base method: UnityEngine.Material[] TMP_Text::GetSharedMaterials()
-    ::ArrayWrapper<UnityEngine::Material*> GetSharedMaterials();
+    ::ArrayW<UnityEngine::Material*> GetSharedMaterials();
     // protected override System.Void SetSharedMaterials(UnityEngine.Material[] materials)
     // Offset: 0x15C8004
     // Implemented from: TMPro.TMP_Text
     // Base method: System.Void TMP_Text::SetSharedMaterials(UnityEngine.Material[] materials)
-    void SetSharedMaterials(::ArrayWrapper<UnityEngine::Material*> materials);
+    void SetSharedMaterials(::ArrayW<UnityEngine::Material*> materials);
     // protected override System.Void SetOutlineThickness(System.Single thickness)
     // Offset: 0x15C839C
     // Implemented from: TMPro.TMP_Text
@@ -402,7 +409,7 @@ namespace TMPro {
     // Offset: 0x15C8DCC
     // Implemented from: TMPro.TMP_Text
     // Base method: System.Int32 TMP_Text::SetArraySizes(TMPro.TMP_Text/TMPro.UnicodeChar[] chars)
-    int SetArraySizes(::ArrayWrapper<TMPro::TMP_Text::UnicodeChar> chars);
+    int SetArraySizes(::ArrayW<TMPro::TMP_Text::UnicodeChar> chars);
     // public override System.Void ComputeMarginSize()
     // Offset: 0x15CAA1C
     // Implemented from: TMPro.TMP_Text
@@ -437,7 +444,7 @@ namespace TMPro {
     // Offset: 0x15D30F0
     // Implemented from: TMPro.TMP_Text
     // Base method: UnityEngine.Vector3[] TMP_Text::GetTextContainerLocalCorners()
-    ::ArrayWrapper<UnityEngine::Vector3> GetTextContainerLocalCorners();
+    ::ArrayW<UnityEngine::Vector3> GetTextContainerLocalCorners();
     // protected override System.Void SetActiveSubMeshes(System.Boolean state)
     // Offset: 0x15D3388
     // Implemented from: TMPro.TMP_Text
@@ -846,7 +853,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: TMPro::TextMeshPro::GetMaterials
 // Il2CppName: GetMaterials
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Material*> (TMPro::TextMeshPro::*)(::ArrayWrapper<UnityEngine::Material*>)>(&TMPro::TextMeshPro::GetMaterials)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Material*> (TMPro::TextMeshPro::*)(::ArrayW<UnityEngine::Material*>)>(&TMPro::TextMeshPro::GetMaterials)> {
   static const MethodInfo* get() {
     static auto* mats = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Material"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "GetMaterials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mats});
@@ -864,7 +871,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TextMeshPro::GetSharedMaterials
 // Il2CppName: GetSharedMaterials
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Material*> (TMPro::TextMeshPro::*)()>(&TMPro::TextMeshPro::GetSharedMaterials)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Material*> (TMPro::TextMeshPro::*)()>(&TMPro::TextMeshPro::GetSharedMaterials)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "GetSharedMaterials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -872,7 +879,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: TMPro::TextMeshPro::SetSharedMaterials
 // Il2CppName: SetSharedMaterials
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshPro::*)(::ArrayWrapper<UnityEngine::Material*>)>(&TMPro::TextMeshPro::SetSharedMaterials)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TextMeshPro::*)(::ArrayW<UnityEngine::Material*>)>(&TMPro::TextMeshPro::SetSharedMaterials)> {
   static const MethodInfo* get() {
     static auto* materials = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Material"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "SetSharedMaterials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{materials});
@@ -941,7 +948,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TMPr
 // Writing MetadataGetter for method: TMPro::TextMeshPro::SetArraySizes
 // Il2CppName: SetArraySizes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro::TextMeshPro::*)(::ArrayWrapper<TMPro::TMP_Text::UnicodeChar>)>(&TMPro::TextMeshPro::SetArraySizes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro::TextMeshPro::*)(::ArrayW<TMPro::TMP_Text::UnicodeChar>)>(&TMPro::TextMeshPro::SetArraySizes)> {
   static const MethodInfo* get() {
     static auto* chars = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("TMPro", "TMP_Text/UnicodeChar"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "SetArraySizes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{chars});
@@ -998,7 +1005,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TextMeshPro::GetTextContainerLocalCorners
 // Il2CppName: GetTextContainerLocalCorners
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Vector3> (TMPro::TextMeshPro::*)()>(&TMPro::TextMeshPro::GetTextContainerLocalCorners)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Vector3> (TMPro::TextMeshPro::*)()>(&TMPro::TextMeshPro::GetTextContainerLocalCorners)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextMeshPro*), "GetTextContainerLocalCorners", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

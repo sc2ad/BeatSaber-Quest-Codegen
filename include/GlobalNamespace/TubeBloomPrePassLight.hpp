@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -46,6 +47,11 @@ namespace GlobalNamespace {
     public:
     // Writing base type padding for base size: 0x2A to desired offset: 0x30
     char ___base_padding[0x6] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private BoolSO _mainEffectPostProcessEnabled
     // Size: 0x8
     // Offset: 0x30
@@ -202,6 +208,7 @@ namespace GlobalNamespace {
     UnityEngine::Transform* transform;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    public:
     // Get instance field reference: private BoolSO _mainEffectPostProcessEnabled
     GlobalNamespace::BoolSO*& dyn__mainEffectPostProcessEnabled();
     // Get instance field reference: private System.Single _width
@@ -337,7 +344,7 @@ namespace GlobalNamespace {
     // Offset: 0x1E308B4
     // Implemented from: BloomPrePassLight
     // Base method: System.Void BloomPrePassLight::FillMeshData(System.Int32 lightNum, UnityEngine.Vector3[] vertices, UnityEngine.Color[] colors, UnityEngine.Vector4[] viewPos, UnityEngine.Matrix4x4 viewMatrix, UnityEngine.Matrix4x4 projectionMatrix, System.Single lineWidth)
-    void FillMeshData(int lightNum, ::ArrayWrapper<UnityEngine::Vector3> vertices, ::ArrayWrapper<UnityEngine::Color> colors, ::ArrayWrapper<UnityEngine::Vector4> viewPos, UnityEngine::Matrix4x4 viewMatrix, UnityEngine::Matrix4x4 projectionMatrix, float lineWidth);
+    void FillMeshData(int lightNum, ::ArrayW<UnityEngine::Vector3> vertices, ::ArrayW<UnityEngine::Color> colors, ::ArrayW<UnityEngine::Vector4> viewPos, UnityEngine::Matrix4x4 viewMatrix, UnityEngine::Matrix4x4 projectionMatrix, float lineWidth);
   }; // TubeBloomPrePassLight
   #pragma pack(pop)
   static check_size<sizeof(TubeBloomPrePassLight), 160 + sizeof(UnityEngine::Transform*)> __GlobalNamespace_TubeBloomPrePassLightSizeCheck;
@@ -533,7 +540,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::TubeBloomPrePassLight::FillMeshData
 // Il2CppName: FillMeshData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TubeBloomPrePassLight::*)(int, ::ArrayWrapper<UnityEngine::Vector3>, ::ArrayWrapper<UnityEngine::Color>, ::ArrayWrapper<UnityEngine::Vector4>, UnityEngine::Matrix4x4, UnityEngine::Matrix4x4, float)>(&GlobalNamespace::TubeBloomPrePassLight::FillMeshData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TubeBloomPrePassLight::*)(int, ::ArrayW<UnityEngine::Vector3>, ::ArrayW<UnityEngine::Color>, ::ArrayW<UnityEngine::Vector4>, UnityEngine::Matrix4x4, UnityEngine::Matrix4x4, float)>(&GlobalNamespace::TubeBloomPrePassLight::FillMeshData)> {
   static const MethodInfo* get() {
     static auto* lightNum = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* vertices = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;

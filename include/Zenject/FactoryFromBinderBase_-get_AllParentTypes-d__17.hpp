@@ -37,6 +37,11 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class FactoryFromBinderBase::$get_AllParentTypes$d__17 : public ::Il2CppObject/*, public System::Collections::Generic::IEnumerable_1<System::Type*>, public System::Collections::Generic::IEnumerator_1<System::Type*>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x10
@@ -65,6 +70,7 @@ namespace Zenject {
     // Size: 0xFFFFFFFF
     // Offset: 0x30
     typename System::Collections::Generic::List_1<System::Type*>::Enumerator $$7__wrap1;
+    public:
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<System::Type*>
     operator System::Collections::Generic::IEnumerable_1<System::Type*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<System::Type*>*>(this);

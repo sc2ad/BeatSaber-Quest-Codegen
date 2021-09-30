@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -37,6 +38,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MissionDataSO : public GlobalNamespace::PersistentScriptableObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private BeatmapLevelSO _level
     // Size: 0x8
     // Offset: 0x18
@@ -60,9 +66,9 @@ namespace GlobalNamespace {
     // private MissionObjective[] _missionObjectives
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<GlobalNamespace::MissionObjective*> missionObjectives;
+    ::ArrayW<GlobalNamespace::MissionObjective*> missionObjectives;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MissionObjective*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::MissionObjective*>) == 0x8);
     // private GameplayModifiers _gameplayModifiers
     // Size: 0x8
     // Offset: 0x38
@@ -77,6 +83,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MissionHelpSO* missionHelp;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionHelpSO*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BeatmapLevelSO _level
@@ -86,14 +93,14 @@ namespace GlobalNamespace {
     // Get instance field reference: private BeatmapDifficulty _beatmapDifficulty
     GlobalNamespace::BeatmapDifficulty& dyn__beatmapDifficulty();
     // Get instance field reference: private MissionObjective[] _missionObjectives
-    ::ArrayWrapper<GlobalNamespace::MissionObjective*>& dyn__missionObjectives();
+    ::ArrayW<GlobalNamespace::MissionObjective*>& dyn__missionObjectives();
     // Get instance field reference: private GameplayModifiers _gameplayModifiers
     GlobalNamespace::GameplayModifiers*& dyn__gameplayModifiers();
     // Get instance field reference: private MissionHelpSO _missionHelp
     GlobalNamespace::MissionHelpSO*& dyn__missionHelp();
     // public MissionObjective[] get_missionObjectives()
     // Offset: 0x1184FB0
-    ::ArrayWrapper<GlobalNamespace::MissionObjective*> get_missionObjectives();
+    ::ArrayW<GlobalNamespace::MissionObjective*> get_missionObjectives();
     // public BeatmapLevelSO get_level()
     // Offset: 0x1184FB8
     GlobalNamespace::BeatmapLevelSO* get_level();
@@ -134,7 +141,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MissionDataSO*, "", "MissionDataSO");
 // Writing MetadataGetter for method: GlobalNamespace::MissionDataSO::get_missionObjectives
 // Il2CppName: get_missionObjectives
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::MissionObjective*> (GlobalNamespace::MissionDataSO::*)()>(&GlobalNamespace::MissionDataSO::get_missionObjectives)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<GlobalNamespace::MissionObjective*> (GlobalNamespace::MissionDataSO::*)()>(&GlobalNamespace::MissionDataSO::get_missionObjectives)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::MissionDataSO*), "get_missionObjectives", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

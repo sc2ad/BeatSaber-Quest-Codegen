@@ -41,6 +41,11 @@ namespace UnityEngine::ProBuilder {
   // [TokenAttribute] Offset: FFFFFFFF
   class FaceRebuildData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.ProBuilder.Face face
     // Size: 0x8
     // Offset: 0x10
@@ -71,6 +76,7 @@ namespace UnityEngine::ProBuilder {
     int appliedOffset;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: public UnityEngine.ProBuilder.Face face
     UnityEngine::ProBuilder::Face*& dyn_face();
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.ProBuilder.Vertex> vertices

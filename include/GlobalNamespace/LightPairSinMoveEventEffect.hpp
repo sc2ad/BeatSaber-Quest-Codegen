@@ -38,6 +38,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::LightPairSinMoveEventEffect::MovementData
     class MovementData;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private BeatmapEventType _eventL
     // Size: 0x4
     // Offset: 0x18
@@ -130,6 +135,7 @@ namespace GlobalNamespace {
     float randomStartOffset;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Single kSpeedMultiplier

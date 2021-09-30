@@ -37,6 +37,11 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class SubContainerBindingFinalizer::$$c__DisplayClass5_1 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public Zenject.SubContainerCreatorCached containerCreator
     // Size: 0x8
     // Offset: 0x10
@@ -49,6 +54,7 @@ namespace Zenject {
     Zenject::SubContainerBindingFinalizer::$$c__DisplayClass5_0* CS$$$8__locals1;
     // Field size check
     static_assert(sizeof(Zenject::SubContainerBindingFinalizer::$$c__DisplayClass5_0*) == 0x8);
+    public:
     // Get instance field reference: public Zenject.SubContainerCreatorCached containerCreator
     Zenject::SubContainerCreatorCached*& dyn_containerCreator();
     // Get instance field reference: public Zenject.SubContainerBindingFinalizer/Zenject.<>c__DisplayClass5_0 CS$<>8__locals1

@@ -46,6 +46,11 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
       using declaring_type = FixedArray3_1<T>;
       static constexpr std::string_view NESTED_NAME = "<Enumerate>d__10";
       static constexpr bool IS_VALUE_TYPE = false;
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // private System.Int32 <>1__state
       // Size: 0x4
       // Offset: 0x0
@@ -76,6 +81,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
       int $i$5__2;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<T>
       operator System::Collections::Generic::IEnumerable_1<T>() noexcept {
         return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<T>*>(this);
@@ -197,6 +203,11 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
       }
     }; // UnityEngine.ProBuilder.Poly2Tri.FixedArray3`1/UnityEngine.ProBuilder.Poly2Tri.<Enumerate>d__10
     // Could not write size check! Type: UnityEngine.ProBuilder.Poly2Tri.FixedArray3`1/UnityEngine.ProBuilder.Poly2Tri.<Enumerate>d__10 is generic, or has no fields that are valid for size checks!
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public T _0
     // Size: 0xFFFFFFFF
     // Offset: 0x0
@@ -209,6 +220,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
     // Size: 0xFFFFFFFF
     // Offset: 0x0
     T _2;
+    public:
     // Creating value type constructor for type: FixedArray3_1
     constexpr FixedArray3_1(T _0_ = {}, T _1_ = {}, T _2_ = {}) noexcept : _0{_0_}, _1{_1_}, _2{_2_} {}
     // Creating interface conversion operator: operator System::ValueType

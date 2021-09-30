@@ -55,6 +55,11 @@ namespace GlobalNamespace {
     struct $SetDataFromLevelAsync$d__17;
     // Nested type: GlobalNamespace::LevelListTableCell::$RefreshAvailabilityAsync$d__22
     struct $RefreshAvailabilityAsync$d__22;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.UI.Image _backgroundImage
     // Size: 0x8
     // Offset: 0x50
@@ -163,6 +168,7 @@ namespace GlobalNamespace {
     ::Il2CppString* settingDataFromLevelId;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: private UnityEngine.UI.Image _backgroundImage
     UnityEngine::UI::Image*& dyn__backgroundImage();
     // Get instance field reference: private UnityEngine.CanvasGroup _canvasGroup

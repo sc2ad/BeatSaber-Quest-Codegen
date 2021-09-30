@@ -14,6 +14,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: RootMotion::FinalIK
@@ -48,12 +49,18 @@ namespace RootMotion::FinalIK {
     // [TokenAttribute] Offset: FFFFFFFF
     struct Smoothing/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: Smoothing
       constexpr Smoothing(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -88,6 +95,11 @@ namespace RootMotion::FinalIK {
     #pragma pack(pop)
     static check_size<sizeof(FBIKChain::Smoothing), 0 + sizeof(int)> __RootMotion_FinalIK_FBIKChain_SmoothingSizeCheck;
     static_assert(sizeof(FBIKChain::Smoothing) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [RangeAttribute] Offset: 0xEF2F20
     // public System.Single pin
     // Size: 0x4
@@ -140,21 +152,21 @@ namespace RootMotion::FinalIK {
     // public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Node[] nodes
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<RootMotion::FinalIK::IKSolver::Node*> nodes;
+    ::ArrayW<RootMotion::FinalIK::IKSolver::Node*> nodes;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::IKSolver::Node*>) == 0x8);
+    static_assert(sizeof(::ArrayW<RootMotion::FinalIK::IKSolver::Node*>) == 0x8);
     // public System.Int32[] children
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayWrapper<int> children;
+    ::ArrayW<int> children;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // public RootMotion.FinalIK.FBIKChain/RootMotion.FinalIK.ChildConstraint[] childConstraints
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayWrapper<RootMotion::FinalIK::FBIKChain::ChildConstraint*> childConstraints;
+    ::ArrayW<RootMotion::FinalIK::FBIKChain::ChildConstraint*> childConstraints;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::FBIKChain::ChildConstraint*>) == 0x8);
+    static_assert(sizeof(::ArrayW<RootMotion::FinalIK::FBIKChain::ChildConstraint*>) == 0x8);
     // public RootMotion.FinalIK.IKConstraintBend bendConstraint
     // Size: 0x8
     // Offset: 0x48
@@ -208,9 +220,9 @@ namespace RootMotion::FinalIK {
     // private System.Single[] crossFades
     // Size: 0x8
     // Offset: 0x70
-    ::ArrayWrapper<float> crossFades;
+    ::ArrayW<float> crossFades;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<float>) == 0x8);
+    static_assert(sizeof(::ArrayW<float>) == 0x8);
     // private System.Single sqrMag1
     // Size: 0x4
     // Offset: 0x78
@@ -229,6 +241,7 @@ namespace RootMotion::FinalIK {
     float sqrMagDif;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // static field const value: static private System.Single maxLimbLength
     static constexpr const float maxLimbLength = 0.99999;
     // Get static field: static private System.Single maxLimbLength
@@ -250,11 +263,11 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public RootMotion.FinalIK.FBIKChain/RootMotion.FinalIK.Smoothing pushSmoothing
     RootMotion::FinalIK::FBIKChain::Smoothing& dyn_pushSmoothing();
     // Get instance field reference: public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Node[] nodes
-    ::ArrayWrapper<RootMotion::FinalIK::IKSolver::Node*>& dyn_nodes();
+    ::ArrayW<RootMotion::FinalIK::IKSolver::Node*>& dyn_nodes();
     // Get instance field reference: public System.Int32[] children
-    ::ArrayWrapper<int>& dyn_children();
+    ::ArrayW<int>& dyn_children();
     // Get instance field reference: public RootMotion.FinalIK.FBIKChain/RootMotion.FinalIK.ChildConstraint[] childConstraints
-    ::ArrayWrapper<RootMotion::FinalIK::FBIKChain::ChildConstraint*>& dyn_childConstraints();
+    ::ArrayW<RootMotion::FinalIK::FBIKChain::ChildConstraint*>& dyn_childConstraints();
     // Get instance field reference: public RootMotion.FinalIK.IKConstraintBend bendConstraint
     RootMotion::FinalIK::IKConstraintBend*& dyn_bendConstraint();
     // Get instance field reference: private System.Single rootLength
@@ -272,7 +285,7 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private System.Single pullParentSum
     float& dyn_pullParentSum();
     // Get instance field reference: private System.Single[] crossFades
-    ::ArrayWrapper<float>& dyn_crossFades();
+    ::ArrayW<float>& dyn_crossFades();
     // Get instance field reference: private System.Single sqrMag1
     float& dyn_sqrMag1();
     // Get instance field reference: private System.Single sqrMag2
@@ -282,13 +295,13 @@ namespace RootMotion::FinalIK {
     // public System.Void .ctor(System.Single pin, System.Single pull, params UnityEngine.Transform[] nodeTransforms)
     // Offset: 0x1EC5FAC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static FBIKChain* New_ctor(float pin, float pull, ::ArrayWrapper<UnityEngine::Transform*> nodeTransforms) {
+    static FBIKChain* New_ctor(float pin, float pull, ::ArrayW<UnityEngine::Transform*> nodeTransforms) {
       static auto ___internal__logger = ::Logger::get().WithContext("RootMotion::FinalIK::FBIKChain::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<FBIKChain*, creationType>(pin, pull, nodeTransforms)));
     }
     // public System.Void SetNodes(params UnityEngine.Transform[] boneTransforms)
     // Offset: 0x1EC60B8
-    void SetNodes(::ArrayWrapper<UnityEngine::Transform*> boneTransforms);
+    void SetNodes(::ArrayW<UnityEngine::Transform*> boneTransforms);
     // public System.Int32 GetNodeIndex(UnityEngine.Transform boneTransform)
     // Offset: 0x1EC61DC
     int GetNodeIndex(UnityEngine::Transform* boneTransform);
@@ -364,7 +377,7 @@ DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::FBIKChain::Smoothing, "RootMotion.Fi
 // Writing MetadataGetter for method: RootMotion::FinalIK::FBIKChain::SetNodes
 // Il2CppName: SetNodes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FBIKChain::*)(::ArrayWrapper<UnityEngine::Transform*>)>(&RootMotion::FinalIK::FBIKChain::SetNodes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::FBIKChain::*)(::ArrayW<UnityEngine::Transform*>)>(&RootMotion::FinalIK::FBIKChain::SetNodes)> {
   static const MethodInfo* get() {
     static auto* boneTransforms = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Transform"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::FBIKChain*), "SetNodes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{boneTransforms});

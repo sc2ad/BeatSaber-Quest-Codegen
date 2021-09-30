@@ -31,12 +31,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class EventBinder : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.List`1<System.Action> _unsubscribes
     // Size: 0x8
     // Offset: 0x10
     System::Collections::Generic::List_1<System::Action*>* unsubscribes;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<System::Action*>*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Collections::Generic::List_1<System::Action*>*
     constexpr operator System::Collections::Generic::List_1<System::Action*>*() const noexcept {
       return unsubscribes;

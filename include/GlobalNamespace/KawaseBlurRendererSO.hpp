@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -53,6 +54,11 @@ namespace GlobalNamespace {
     class BloomKernel;
     // Nested type: GlobalNamespace::KawaseBlurRendererSO::Pass
     struct Pass;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Shader _kawaseBlurShader
     // Size: 0x8
     // Offset: 0x18
@@ -98,21 +104,22 @@ namespace GlobalNamespace {
     // private System.Int32[][] _kernels
     // Size: 0x8
     // Offset: 0x50
-    ::ArrayWrapper<::ArrayWrapper<int>> kernels;
+    ::ArrayW<::ArrayW<int>> kernels;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::ArrayWrapper<int>>) == 0x8);
+    static_assert(sizeof(::ArrayW<::ArrayW<int>>) == 0x8);
     // private KawaseBlurRendererSO/BloomKernel[] _bloomKernels
     // Size: 0x8
     // Offset: 0x58
-    ::ArrayWrapper<GlobalNamespace::KawaseBlurRendererSO::BloomKernel*> bloomKernels;
+    ::ArrayW<GlobalNamespace::KawaseBlurRendererSO::BloomKernel*> bloomKernels;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::KawaseBlurRendererSO::BloomKernel*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::KawaseBlurRendererSO::BloomKernel*>) == 0x8);
     // private UnityEngine.RenderTexture[] _blurTextures
     // Size: 0x8
     // Offset: 0x60
-    ::ArrayWrapper<UnityEngine::RenderTexture*> blurTextures;
+    ::ArrayW<UnityEngine::RenderTexture*> blurTextures;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::RenderTexture*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::RenderTexture*>) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Int32 kMaxBloomIterations
@@ -123,9 +130,9 @@ namespace GlobalNamespace {
     static void _set_kMaxBloomIterations(int value);
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEDEB28
     // Get static field: static private readonly System.Single[][] kBloomIterationWeights
-    static ::ArrayWrapper<::ArrayWrapper<float>> _get_kBloomIterationWeights();
+    static ::ArrayW<::ArrayW<float>> _get_kBloomIterationWeights();
     // Set static field: static private readonly System.Single[][] kBloomIterationWeights
-    static void _set_kBloomIterationWeights(::ArrayWrapper<::ArrayWrapper<float>> value);
+    static void _set_kBloomIterationWeights(::ArrayW<::ArrayW<float>> value);
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEDEB38
     // Get static field: static private readonly System.Int32 _offsetID
     static int _get__offsetID();
@@ -181,20 +188,20 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Material _commandBuffersMaterial
     UnityEngine::Material*& dyn__commandBuffersMaterial();
     // Get instance field reference: private System.Int32[][] _kernels
-    ::ArrayWrapper<::ArrayWrapper<int>>& dyn__kernels();
+    ::ArrayW<::ArrayW<int>>& dyn__kernels();
     // Get instance field reference: private KawaseBlurRendererSO/BloomKernel[] _bloomKernels
-    ::ArrayWrapper<GlobalNamespace::KawaseBlurRendererSO::BloomKernel*>& dyn__bloomKernels();
+    ::ArrayW<GlobalNamespace::KawaseBlurRendererSO::BloomKernel*>& dyn__bloomKernels();
     // Get instance field reference: private UnityEngine.RenderTexture[] _blurTextures
-    ::ArrayWrapper<UnityEngine::RenderTexture*>& dyn__blurTextures();
+    ::ArrayW<UnityEngine::RenderTexture*>& dyn__blurTextures();
     // public System.Int32[] GetBlurKernel(KawaseBlurRendererSO/KernelSize kernelSize)
     // Offset: 0x1E27054
-    ::ArrayWrapper<int> GetBlurKernel(GlobalNamespace::KawaseBlurRendererSO::KernelSize kernelSize);
+    ::ArrayW<int> GetBlurKernel(GlobalNamespace::KawaseBlurRendererSO::KernelSize kernelSize);
     // protected System.Void OnDisable()
     // Offset: 0x1E275DC
     void OnDisable();
     // public System.Void Bloom(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest, System.Int32 iterationsStart, System.Int32 iterations, System.Single boost, System.Single alphaWeights, KawaseBlurRendererSO/WeightsType blurStartWeightsType, System.Single[] bloomIterationWeights)
     // Offset: 0x1E27624
-    void Bloom(UnityEngine::RenderTexture* src, UnityEngine::RenderTexture* dest, int iterationsStart, int iterations, float boost, float alphaWeights, GlobalNamespace::KawaseBlurRendererSO::WeightsType blurStartWeightsType, ::ArrayWrapper<float> bloomIterationWeights);
+    void Bloom(UnityEngine::RenderTexture* src, UnityEngine::RenderTexture* dest, int iterationsStart, int iterations, float boost, float alphaWeights, GlobalNamespace::KawaseBlurRendererSO::WeightsType blurStartWeightsType, ::ArrayW<float> bloomIterationWeights);
     // public System.Void DoubleBlur(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest, KawaseBlurRendererSO/KernelSize kernelSize0, System.Single boost0, KawaseBlurRendererSO/KernelSize kernelSize1, System.Single boost1, System.Single secondBlurAlpha, System.Int32 downsample, System.Boolean gammaCorrection)
     // Offset: 0x1E28068
     void DoubleBlur(UnityEngine::RenderTexture* src, UnityEngine::RenderTexture* dest, GlobalNamespace::KawaseBlurRendererSO::KernelSize kernelSize0, float boost0, GlobalNamespace::KawaseBlurRendererSO::KernelSize kernelSize1, float boost1, float secondBlurAlpha, int downsample, bool gammaCorrection);
@@ -206,7 +213,7 @@ namespace GlobalNamespace {
     void Blur(UnityEngine::Texture* src, UnityEngine::RenderTexture* dest, GlobalNamespace::KawaseBlurRendererSO::KernelSize kernelSize, float boost, int downsample);
     // private System.Void Blur(UnityEngine.Texture src, UnityEngine.RenderTexture dest, System.Int32[] kernel, System.Single boost, System.Int32 downsample, System.Int32 startIdx, System.Int32 length, System.Single alphaWeights, System.Single additiveAlpha, System.Boolean additivelyBlendToDest, System.Boolean gammaCorrection, KawaseBlurRendererSO/WeightsType blurStartWeightsType)
     // Offset: 0x1E27B68
-    void Blur(UnityEngine::Texture* src, UnityEngine::RenderTexture* dest, ::ArrayWrapper<int> kernel, float boost, int downsample, int startIdx, int length, float alphaWeights, float additiveAlpha, bool additivelyBlendToDest, bool gammaCorrection, GlobalNamespace::KawaseBlurRendererSO::WeightsType blurStartWeightsType);
+    void Blur(UnityEngine::Texture* src, UnityEngine::RenderTexture* dest, ::ArrayW<int> kernel, float boost, int downsample, int startIdx, int length, float alphaWeights, float additiveAlpha, bool additivelyBlendToDest, bool gammaCorrection, GlobalNamespace::KawaseBlurRendererSO::WeightsType blurStartWeightsType);
     // public System.Void AlphaWeights(UnityEngine.RenderTexture src, UnityEngine.RenderTexture dest)
     // Offset: 0x1E28434
     void AlphaWeights(UnityEngine::RenderTexture* src, UnityEngine::RenderTexture* dest);
@@ -237,7 +244,7 @@ namespace GlobalNamespace {
     void OnEnable();
   }; // KawaseBlurRendererSO
   #pragma pack(pop)
-  static check_size<sizeof(KawaseBlurRendererSO), 96 + sizeof(::ArrayWrapper<UnityEngine::RenderTexture*>)> __GlobalNamespace_KawaseBlurRendererSOSizeCheck;
+  static check_size<sizeof(KawaseBlurRendererSO), 96 + sizeof(::ArrayW<UnityEngine::RenderTexture*>)> __GlobalNamespace_KawaseBlurRendererSOSizeCheck;
   static_assert(sizeof(KawaseBlurRendererSO) == 0x68);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::KawaseBlurRendererSO*, "", "KawaseBlurRendererSO");
@@ -245,7 +252,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::KawaseBlurRendererSO*, "", "KawaseBlurRe
 // Writing MetadataGetter for method: GlobalNamespace::KawaseBlurRendererSO::GetBlurKernel
 // Il2CppName: GetBlurKernel
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<int> (GlobalNamespace::KawaseBlurRendererSO::*)(GlobalNamespace::KawaseBlurRendererSO::KernelSize)>(&GlobalNamespace::KawaseBlurRendererSO::GetBlurKernel)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int> (GlobalNamespace::KawaseBlurRendererSO::*)(GlobalNamespace::KawaseBlurRendererSO::KernelSize)>(&GlobalNamespace::KawaseBlurRendererSO::GetBlurKernel)> {
   static const MethodInfo* get() {
     static auto* kernelSize = &::il2cpp_utils::GetClassFromName("", "KawaseBlurRendererSO/KernelSize")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::KawaseBlurRendererSO*), "GetBlurKernel", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{kernelSize});
@@ -262,7 +269,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::KawaseBlurRendererSO::Bloom
 // Il2CppName: Bloom
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::KawaseBlurRendererSO::*)(UnityEngine::RenderTexture*, UnityEngine::RenderTexture*, int, int, float, float, GlobalNamespace::KawaseBlurRendererSO::WeightsType, ::ArrayWrapper<float>)>(&GlobalNamespace::KawaseBlurRendererSO::Bloom)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::KawaseBlurRendererSO::*)(UnityEngine::RenderTexture*, UnityEngine::RenderTexture*, int, int, float, float, GlobalNamespace::KawaseBlurRendererSO::WeightsType, ::ArrayW<float>)>(&GlobalNamespace::KawaseBlurRendererSO::Bloom)> {
   static const MethodInfo* get() {
     static auto* src = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
     static auto* dest = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;
@@ -319,7 +326,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::KawaseBlurRendererSO::Blur
 // Il2CppName: Blur
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::KawaseBlurRendererSO::*)(UnityEngine::Texture*, UnityEngine::RenderTexture*, ::ArrayWrapper<int>, float, int, int, int, float, float, bool, bool, GlobalNamespace::KawaseBlurRendererSO::WeightsType)>(&GlobalNamespace::KawaseBlurRendererSO::Blur)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::KawaseBlurRendererSO::*)(UnityEngine::Texture*, UnityEngine::RenderTexture*, ::ArrayW<int>, float, int, int, int, float, float, bool, bool, GlobalNamespace::KawaseBlurRendererSO::WeightsType)>(&GlobalNamespace::KawaseBlurRendererSO::Blur)> {
   static const MethodInfo* get() {
     static auto* src = &::il2cpp_utils::GetClassFromName("UnityEngine", "Texture")->byval_arg;
     static auto* dest = &::il2cpp_utils::GetClassFromName("UnityEngine", "RenderTexture")->byval_arg;

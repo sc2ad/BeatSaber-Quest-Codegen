@@ -18,6 +18,11 @@ namespace LeaderboardsDTO {
   // [TokenAttribute] Offset: FFFFFFFF
   class LoginRequestDTO : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.String platform
     // Size: 0x8
     // Offset: 0x10
@@ -54,6 +59,7 @@ namespace LeaderboardsDTO {
     ::Il2CppString* buildVersion;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: public System.String platform
     ::Il2CppString*& dyn_platform();
     // Get instance field reference: public System.String platformUserId

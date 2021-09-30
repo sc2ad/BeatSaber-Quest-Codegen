@@ -23,6 +23,11 @@ namespace System::Security::Principal {
   // [ComVisibleAttribute] Offset: E5F048
   class WindowsImpersonationContext : public ::Il2CppObject/*, public System::IDisposable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.IntPtr _token
     // Size: 0x8
     // Offset: 0x10
@@ -35,6 +40,7 @@ namespace System::Security::Principal {
     bool undo;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

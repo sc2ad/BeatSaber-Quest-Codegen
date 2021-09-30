@@ -17,6 +17,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -82,12 +83,18 @@ namespace UnityEngine::UI {
     // [TokenAttribute] Offset: FFFFFFFF
     struct Type/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: Type
       constexpr Type(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -134,12 +141,18 @@ namespace UnityEngine::UI {
     // [TokenAttribute] Offset: FFFFFFFF
     struct FillMethod/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: FillMethod
       constexpr FillMethod(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -186,6 +199,11 @@ namespace UnityEngine::UI {
     #pragma pack(pop)
     static check_size<sizeof(Image::FillMethod), 0 + sizeof(int)> __UnityEngine_UI_Image_FillMethodSizeCheck;
     static_assert(sizeof(Image::FillMethod) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [FormerlySerializedAsAttribute] Offset: 0xEA9434
     // private UnityEngine.Sprite m_Sprite
     // Size: 0x8
@@ -278,6 +296,7 @@ namespace UnityEngine::UI {
     float m_CachedReferencePixelsPerUnit;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating interface conversion operator: operator UnityEngine::ISerializationCallbackReceiver
     operator UnityEngine::ISerializationCallbackReceiver() noexcept {
       return *reinterpret_cast<UnityEngine::ISerializationCallbackReceiver*>(this);
@@ -295,21 +314,21 @@ namespace UnityEngine::UI {
     // Set static field: static protected UnityEngine.Material s_ETC1DefaultUI
     static void _set_s_ETC1DefaultUI(UnityEngine::Material* value);
     // Get static field: static private readonly UnityEngine.Vector2[] s_VertScratch
-    static ::ArrayWrapper<UnityEngine::Vector2> _get_s_VertScratch();
+    static ::ArrayW<UnityEngine::Vector2> _get_s_VertScratch();
     // Set static field: static private readonly UnityEngine.Vector2[] s_VertScratch
-    static void _set_s_VertScratch(::ArrayWrapper<UnityEngine::Vector2> value);
+    static void _set_s_VertScratch(::ArrayW<UnityEngine::Vector2> value);
     // Get static field: static private readonly UnityEngine.Vector2[] s_UVScratch
-    static ::ArrayWrapper<UnityEngine::Vector2> _get_s_UVScratch();
+    static ::ArrayW<UnityEngine::Vector2> _get_s_UVScratch();
     // Set static field: static private readonly UnityEngine.Vector2[] s_UVScratch
-    static void _set_s_UVScratch(::ArrayWrapper<UnityEngine::Vector2> value);
+    static void _set_s_UVScratch(::ArrayW<UnityEngine::Vector2> value);
     // Get static field: static private readonly UnityEngine.Vector3[] s_Xy
-    static ::ArrayWrapper<UnityEngine::Vector3> _get_s_Xy();
+    static ::ArrayW<UnityEngine::Vector3> _get_s_Xy();
     // Set static field: static private readonly UnityEngine.Vector3[] s_Xy
-    static void _set_s_Xy(::ArrayWrapper<UnityEngine::Vector3> value);
+    static void _set_s_Xy(::ArrayW<UnityEngine::Vector3> value);
     // Get static field: static private readonly UnityEngine.Vector3[] s_Uv
-    static ::ArrayWrapper<UnityEngine::Vector3> _get_s_Uv();
+    static ::ArrayW<UnityEngine::Vector3> _get_s_Uv();
     // Set static field: static private readonly UnityEngine.Vector3[] s_Uv
-    static void _set_s_Uv(::ArrayWrapper<UnityEngine::Vector3> value);
+    static void _set_s_Uv(::ArrayW<UnityEngine::Vector3> value);
     // Get static field: static private System.Collections.Generic.List`1<UnityEngine.UI.Image> m_TrackedTexturelessImages
     static System::Collections::Generic::List_1<UnityEngine::UI::Image*>* _get_m_TrackedTexturelessImages();
     // Set static field: static private System.Collections.Generic.List`1<UnityEngine.UI.Image> m_TrackedTexturelessImages
@@ -492,7 +511,7 @@ namespace UnityEngine::UI {
     void GenerateTiledSprite(UnityEngine::UI::VertexHelper* toFill);
     // static private System.Void AddQuad(UnityEngine.UI.VertexHelper vertexHelper, UnityEngine.Vector3[] quadPositions, UnityEngine.Color32 color, UnityEngine.Vector3[] quadUVs)
     // Offset: 0x1AD3FF4
-    static void AddQuad(UnityEngine::UI::VertexHelper* vertexHelper, ::ArrayWrapper<UnityEngine::Vector3> quadPositions, UnityEngine::Color32 color, ::ArrayWrapper<UnityEngine::Vector3> quadUVs);
+    static void AddQuad(UnityEngine::UI::VertexHelper* vertexHelper, ::ArrayW<UnityEngine::Vector3> quadPositions, UnityEngine::Color32 color, ::ArrayW<UnityEngine::Vector3> quadUVs);
     // static private System.Void AddQuad(UnityEngine.UI.VertexHelper vertexHelper, UnityEngine.Vector2 posMin, UnityEngine.Vector2 posMax, UnityEngine.Color32 color, UnityEngine.Vector2 uvMin, UnityEngine.Vector2 uvMax)
     // Offset: 0x1AD3DE8
     static void AddQuad(UnityEngine::UI::VertexHelper* vertexHelper, UnityEngine::Vector2 posMin, UnityEngine::Vector2 posMax, UnityEngine::Color32 color, UnityEngine::Vector2 uvMin, UnityEngine::Vector2 uvMax);
@@ -504,10 +523,10 @@ namespace UnityEngine::UI {
     void GenerateFilledSprite(UnityEngine::UI::VertexHelper* toFill, bool preserveAspect);
     // static private System.Boolean RadialCut(UnityEngine.Vector3[] xy, UnityEngine.Vector3[] uv, System.Single fill, System.Boolean invert, System.Int32 corner)
     // Offset: 0x1AD417C
-    static bool RadialCut(::ArrayWrapper<UnityEngine::Vector3> xy, ::ArrayWrapper<UnityEngine::Vector3> uv, float fill, bool invert, int corner);
+    static bool RadialCut(::ArrayW<UnityEngine::Vector3> xy, ::ArrayW<UnityEngine::Vector3> uv, float fill, bool invert, int corner);
     // static private System.Void RadialCut(UnityEngine.Vector3[] xy, System.Single cos, System.Single sin, System.Boolean invert, System.Int32 corner)
     // Offset: 0x1AD42E8
-    static void RadialCut(::ArrayWrapper<UnityEngine::Vector3> xy, float cos, float sin, bool invert, int corner);
+    static void RadialCut(::ArrayW<UnityEngine::Vector3> xy, float cos, float sin, bool invert, int corner);
     // public System.Void CalculateLayoutInputHorizontal()
     // Offset: 0x1AD4860
     void CalculateLayoutInputHorizontal();
@@ -1019,7 +1038,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::UI::Image::AddQuad
 // Il2CppName: AddQuad
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UI::VertexHelper*, ::ArrayWrapper<UnityEngine::Vector3>, UnityEngine::Color32, ::ArrayWrapper<UnityEngine::Vector3>)>(&UnityEngine::UI::Image::AddQuad)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::UI::VertexHelper*, ::ArrayW<UnityEngine::Vector3>, UnityEngine::Color32, ::ArrayW<UnityEngine::Vector3>)>(&UnityEngine::UI::Image::AddQuad)> {
   static const MethodInfo* get() {
     static auto* vertexHelper = &::il2cpp_utils::GetClassFromName("UnityEngine.UI", "VertexHelper")->byval_arg;
     static auto* quadPositions = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
@@ -1065,7 +1084,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::UI::Image::RadialCut
 // Il2CppName: RadialCut
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayWrapper<UnityEngine::Vector3>, ::ArrayWrapper<UnityEngine::Vector3>, float, bool, int)>(&UnityEngine::UI::Image::RadialCut)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<UnityEngine::Vector3>, ::ArrayW<UnityEngine::Vector3>, float, bool, int)>(&UnityEngine::UI::Image::RadialCut)> {
   static const MethodInfo* get() {
     static auto* xy = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
     static auto* uv = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
@@ -1078,7 +1097,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: UnityEngine::UI::Image::RadialCut
 // Il2CppName: RadialCut
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<UnityEngine::Vector3>, float, float, bool, int)>(&UnityEngine::UI::Image::RadialCut)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<UnityEngine::Vector3>, float, float, bool, int)>(&UnityEngine::UI::Image::RadialCut)> {
   static const MethodInfo* get() {
     static auto* xy = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
     static auto* cos = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;

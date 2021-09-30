@@ -80,6 +80,11 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   // [TokenAttribute] Offset: FFFFFFFF
   class UnityTestExecutionContext : public ::Il2CppObject/*, public NUnit::Framework::Internal::ITestExecutionContext*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly UnityEngine.TestRunner.NUnitExtensions.Runner.UnityTestExecutionContext _priorContext
     // Size: 0x8
     // Offset: 0x10
@@ -248,6 +253,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     UnityEngine::TestTools::EnumerableTestState* EnumerableTestState;
     // Field size check
     static_assert(sizeof(UnityEngine::TestTools::EnumerableTestState*) == 0x8);
+    public:
     // Creating interface conversion operator: operator NUnit::Framework::Internal::ITestExecutionContext
     operator NUnit::Framework::Internal::ITestExecutionContext() noexcept {
       return *reinterpret_cast<NUnit::Framework::Internal::ITestExecutionContext*>(this);

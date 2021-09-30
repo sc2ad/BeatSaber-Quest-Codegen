@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework::Internal
@@ -31,6 +32,11 @@ namespace NUnit::Framework::Internal::Commands {
   // [TokenAttribute] Offset: FFFFFFFF
   class TestMethodCommand : public NUnit::Framework::Internal::Commands::TestCommand {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly NUnit.Framework.Internal.TestMethod testMethod
     // Size: 0x8
     // Offset: 0x18
@@ -40,15 +46,16 @@ namespace NUnit::Framework::Internal::Commands {
     // private readonly System.Object[] arguments
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<::Il2CppObject*> arguments;
+    ::ArrayW<::Il2CppObject*> arguments;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppObject*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppObject*>) == 0x8);
+    public:
     // Deleting conversion operator: operator NUnit::Framework::Internal::Test*
     constexpr operator NUnit::Framework::Internal::Test*() const noexcept = delete;
     // Get instance field reference: private readonly NUnit.Framework.Internal.TestMethod testMethod
     NUnit::Framework::Internal::TestMethod*& dyn_testMethod();
     // Get instance field reference: private readonly System.Object[] arguments
-    ::ArrayWrapper<::Il2CppObject*>& dyn_arguments();
+    ::ArrayW<::Il2CppObject*>& dyn_arguments();
     // public System.Void .ctor(NUnit.Framework.Internal.TestMethod testMethod)
     // Offset: 0x193E1C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -69,7 +76,7 @@ namespace NUnit::Framework::Internal::Commands {
     NUnit::Framework::Internal::TestResult* Execute(NUnit::Framework::Internal::ITestExecutionContext* context);
   }; // NUnit.Framework.Internal.Commands.TestMethodCommand
   #pragma pack(pop)
-  static check_size<sizeof(TestMethodCommand), 32 + sizeof(::ArrayWrapper<::Il2CppObject*>)> __NUnit_Framework_Internal_Commands_TestMethodCommandSizeCheck;
+  static check_size<sizeof(TestMethodCommand), 32 + sizeof(::ArrayW<::Il2CppObject*>)> __NUnit_Framework_Internal_Commands_TestMethodCommandSizeCheck;
   static_assert(sizeof(TestMethodCommand) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(NUnit::Framework::Internal::Commands::TestMethodCommand*, "NUnit.Framework.Internal.Commands", "TestMethodCommand");

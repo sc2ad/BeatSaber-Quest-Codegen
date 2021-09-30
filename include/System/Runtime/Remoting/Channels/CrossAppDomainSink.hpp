@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Remoting::Channels
@@ -47,12 +48,18 @@ namespace System::Runtime::Remoting::Channels {
     public:
     // Nested type: System::Runtime::Remoting::Channels::CrossAppDomainSink::ProcessMessageRes
     struct ProcessMessageRes;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 _domainID
     // Size: 0x4
     // Offset: 0x10
     int domainID;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating interface conversion operator: operator System::Runtime::Remoting::Messaging::IMessageSink
     operator System::Runtime::Remoting::Messaging::IMessageSink() noexcept {
       return *reinterpret_cast<System::Runtime::Remoting::Messaging::IMessageSink*>(this);
@@ -89,7 +96,7 @@ namespace System::Runtime::Remoting::Channels {
     static System::Runtime::Remoting::Channels::CrossAppDomainSink* GetSink(int domainID);
     // static private System.Runtime.Remoting.Channels.CrossAppDomainSink/System.Runtime.Remoting.Channels.ProcessMessageRes ProcessMessageInDomain(System.Byte[] arrRequest, System.Runtime.Remoting.Messaging.CADMethodCallMessage cadMsg)
     // Offset: 0x15B7974
-    static System::Runtime::Remoting::Channels::CrossAppDomainSink::ProcessMessageRes ProcessMessageInDomain(::ArrayWrapper<uint8_t> arrRequest, System::Runtime::Remoting::Messaging::CADMethodCallMessage* cadMsg);
+    static System::Runtime::Remoting::Channels::CrossAppDomainSink::ProcessMessageRes ProcessMessageInDomain(::ArrayW<uint8_t> arrRequest, System::Runtime::Remoting::Messaging::CADMethodCallMessage* cadMsg);
     // public System.Runtime.Remoting.Messaging.IMessage SyncProcessMessage(System.Runtime.Remoting.Messaging.IMessage msgRequest)
     // Offset: 0x15B7AE4
     System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(System::Runtime::Remoting::Messaging::IMessage* msgRequest);
@@ -141,7 +148,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Run
 // Writing MetadataGetter for method: System::Runtime::Remoting::Channels::CrossAppDomainSink::ProcessMessageInDomain
 // Il2CppName: ProcessMessageInDomain
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Channels::CrossAppDomainSink::ProcessMessageRes (*)(::ArrayWrapper<uint8_t>, System::Runtime::Remoting::Messaging::CADMethodCallMessage*)>(&System::Runtime::Remoting::Channels::CrossAppDomainSink::ProcessMessageInDomain)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Runtime::Remoting::Channels::CrossAppDomainSink::ProcessMessageRes (*)(::ArrayW<uint8_t>, System::Runtime::Remoting::Messaging::CADMethodCallMessage*)>(&System::Runtime::Remoting::Channels::CrossAppDomainSink::ProcessMessageInDomain)> {
   static const MethodInfo* get() {
     static auto* arrRequest = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* cadMsg = &::il2cpp_utils::GetClassFromName("System.Runtime.Remoting.Messaging", "CADMethodCallMessage")->byval_arg;

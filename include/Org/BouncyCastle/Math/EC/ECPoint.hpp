@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Math::EC
@@ -44,6 +45,11 @@ namespace Org::BouncyCastle::Math::EC {
     public:
     // Nested type: Org::BouncyCastle::Math::EC::ECPoint::ValidityCallback
     class ValidityCallback;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // protected internal readonly Org.BouncyCastle.Math.EC.ECCurve m_curve
     // Size: 0x8
     // Offset: 0x10
@@ -65,9 +71,9 @@ namespace Org::BouncyCastle::Math::EC {
     // protected internal readonly Org.BouncyCastle.Math.EC.ECFieldElement[] m_zs
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<Org::BouncyCastle::Math::EC::ECFieldElement*> m_zs;
+    ::ArrayW<Org::BouncyCastle::Math::EC::ECFieldElement*> m_zs;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<Org::BouncyCastle::Math::EC::ECFieldElement*>) == 0x8);
+    static_assert(sizeof(::ArrayW<Org::BouncyCastle::Math::EC::ECFieldElement*>) == 0x8);
     // protected internal readonly System.Boolean m_withCompression
     // Size: 0x1
     // Offset: 0x30
@@ -82,14 +88,15 @@ namespace Org::BouncyCastle::Math::EC {
     System::Collections::IDictionary* m_preCompTable;
     // Field size check
     static_assert(sizeof(System::Collections::IDictionary*) == 0x8);
+    public:
     // Get static field: static private readonly Org.BouncyCastle.Security.SecureRandom Random
     static Org::BouncyCastle::Security::SecureRandom* _get_Random();
     // Set static field: static private readonly Org.BouncyCastle.Security.SecureRandom Random
     static void _set_Random(Org::BouncyCastle::Security::SecureRandom* value);
     // Get static field: static protected Org.BouncyCastle.Math.EC.ECFieldElement[] EMPTY_ZS
-    static ::ArrayWrapper<Org::BouncyCastle::Math::EC::ECFieldElement*> _get_EMPTY_ZS();
+    static ::ArrayW<Org::BouncyCastle::Math::EC::ECFieldElement*> _get_EMPTY_ZS();
     // Set static field: static protected Org.BouncyCastle.Math.EC.ECFieldElement[] EMPTY_ZS
-    static void _set_EMPTY_ZS(::ArrayWrapper<Org::BouncyCastle::Math::EC::ECFieldElement*> value);
+    static void _set_EMPTY_ZS(::ArrayW<Org::BouncyCastle::Math::EC::ECFieldElement*> value);
     // Get instance field reference: protected internal readonly Org.BouncyCastle.Math.EC.ECCurve m_curve
     Org::BouncyCastle::Math::EC::ECCurve*& dyn_m_curve();
     // Get instance field reference: protected internal readonly Org.BouncyCastle.Math.EC.ECFieldElement m_x
@@ -97,7 +104,7 @@ namespace Org::BouncyCastle::Math::EC {
     // Get instance field reference: protected internal readonly Org.BouncyCastle.Math.EC.ECFieldElement m_y
     Org::BouncyCastle::Math::EC::ECFieldElement*& dyn_m_y();
     // Get instance field reference: protected internal readonly Org.BouncyCastle.Math.EC.ECFieldElement[] m_zs
-    ::ArrayWrapper<Org::BouncyCastle::Math::EC::ECFieldElement*>& dyn_m_zs();
+    ::ArrayW<Org::BouncyCastle::Math::EC::ECFieldElement*>& dyn_m_zs();
     // Get instance field reference: protected internal readonly System.Boolean m_withCompression
     bool& dyn_m_withCompression();
     // Get instance field reference: protected internal System.Collections.IDictionary m_preCompTable
@@ -128,7 +135,7 @@ namespace Org::BouncyCastle::Math::EC {
     Org::BouncyCastle::Math::EC::ECFieldElement* get_RawYCoord();
     // protected internal Org.BouncyCastle.Math.EC.ECFieldElement[] get_RawZCoords()
     // Offset: 0x2317384
-    ::ArrayWrapper<Org::BouncyCastle::Math::EC::ECFieldElement*> get_RawZCoords();
+    ::ArrayW<Org::BouncyCastle::Math::EC::ECFieldElement*> get_RawZCoords();
     // public System.Boolean get_IsInfinity()
     // Offset: 0x2310784
     bool get_IsInfinity();
@@ -148,7 +155,7 @@ namespace Org::BouncyCastle::Math::EC {
     // System.Void .ctor(Org.BouncyCastle.Math.EC.ECCurve curve, Org.BouncyCastle.Math.EC.ECFieldElement x, Org.BouncyCastle.Math.EC.ECFieldElement y, Org.BouncyCastle.Math.EC.ECFieldElement[] zs, System.Boolean withCompression)
     // Offset: 0x231711C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ECPoint* New_ctor(Org::BouncyCastle::Math::EC::ECCurve* curve, Org::BouncyCastle::Math::EC::ECFieldElement* x, Org::BouncyCastle::Math::EC::ECFieldElement* y, ::ArrayWrapper<Org::BouncyCastle::Math::EC::ECFieldElement*> zs, bool withCompression) {
+    static ECPoint* New_ctor(Org::BouncyCastle::Math::EC::ECCurve* curve, Org::BouncyCastle::Math::EC::ECFieldElement* x, Org::BouncyCastle::Math::EC::ECFieldElement* y, ::ArrayW<Org::BouncyCastle::Math::EC::ECFieldElement*> zs, bool withCompression) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::ECPoint::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ECPoint*, creationType>(curve, x, y, zs, withCompression)));
     }
@@ -157,7 +164,7 @@ namespace Org::BouncyCastle::Math::EC {
     static void _cctor();
     // static protected Org.BouncyCastle.Math.EC.ECFieldElement[] GetInitialZCoords(Org.BouncyCastle.Math.EC.ECCurve curve)
     // Offset: 0x2316DBC
-    static ::ArrayWrapper<Org::BouncyCastle::Math::EC::ECFieldElement*> GetInitialZCoords(Org::BouncyCastle::Math::EC::ECCurve* curve);
+    static ::ArrayW<Org::BouncyCastle::Math::EC::ECFieldElement*> GetInitialZCoords(Org::BouncyCastle::Math::EC::ECCurve* curve);
     // protected System.Boolean SatisfiesCurveEquation()
     // Offset: 0xFFFFFFFF
     bool SatisfiesCurveEquation();
@@ -202,7 +209,7 @@ namespace Org::BouncyCastle::Math::EC {
     bool Equals(Org::BouncyCastle::Math::EC::ECPoint* other);
     // public System.Byte[] GetEncoded(System.Boolean compressed)
     // Offset: 0xFFFFFFFF
-    ::ArrayWrapper<uint8_t> GetEncoded(bool compressed);
+    ::ArrayW<uint8_t> GetEncoded(bool compressed);
     // public Org.BouncyCastle.Math.EC.ECPoint Add(Org.BouncyCastle.Math.EC.ECPoint b)
     // Offset: 0xFFFFFFFF
     Org::BouncyCastle::Math::EC::ECPoint* Add(Org::BouncyCastle::Math::EC::ECPoint* b);
@@ -316,7 +323,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::ECPoint::get_RawZCoords
 // Il2CppName: get_RawZCoords
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<Org::BouncyCastle::Math::EC::ECFieldElement*> (Org::BouncyCastle::Math::EC::ECPoint::*)()>(&Org::BouncyCastle::Math::EC::ECPoint::get_RawZCoords)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Org::BouncyCastle::Math::EC::ECFieldElement*> (Org::BouncyCastle::Math::EC::ECPoint::*)()>(&Org::BouncyCastle::Math::EC::ECPoint::get_RawZCoords)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::ECPoint*), "get_RawZCoords", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -364,7 +371,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::ECPoint::GetInitialZCoords
 // Il2CppName: GetInitialZCoords
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<Org::BouncyCastle::Math::EC::ECFieldElement*> (*)(Org::BouncyCastle::Math::EC::ECCurve*)>(&Org::BouncyCastle::Math::EC::ECPoint::GetInitialZCoords)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Org::BouncyCastle::Math::EC::ECFieldElement*> (*)(Org::BouncyCastle::Math::EC::ECCurve*)>(&Org::BouncyCastle::Math::EC::ECPoint::GetInitialZCoords)> {
   static const MethodInfo* get() {
     static auto* curve = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "ECCurve")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::ECPoint*), "GetInitialZCoords", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{curve});
@@ -494,7 +501,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::ECPoint::GetEncoded
 // Il2CppName: GetEncoded
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Math::EC::ECPoint::*)(bool)>(&Org::BouncyCastle::Math::EC::ECPoint::GetEncoded)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Org::BouncyCastle::Math::EC::ECPoint::*)(bool)>(&Org::BouncyCastle::Math::EC::ECPoint::GetEncoded)> {
   static const MethodInfo* get() {
     static auto* compressed = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::ECPoint*), "GetEncoded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{compressed});

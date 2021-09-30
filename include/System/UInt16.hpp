@@ -51,12 +51,18 @@ namespace System {
   // [CLSCompliantAttribute] Offset: E5CA08
   struct UInt16/*, public System::ValueType, public System::IComparable_1<uint16_t>, public System::IEquatable_1<uint16_t>, public System::IComparable, public System::IConvertible, public System::IFormattable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.UInt16 m_value
     // Size: 0x2
     // Offset: 0x0
     uint16_t m_value;
     // Field size check
     static_assert(sizeof(uint16_t) == 0x2);
+    public:
     // Creating value type constructor for type: UInt16
     constexpr UInt16(uint16_t m_value_ = {}) noexcept : m_value{m_value_} {}
     // Creating interface conversion operator: operator System::ValueType

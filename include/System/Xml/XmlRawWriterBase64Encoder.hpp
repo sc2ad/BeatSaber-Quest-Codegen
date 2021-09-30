@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Xml
@@ -27,12 +28,18 @@ namespace System::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   class XmlRawWriterBase64Encoder : public System::Xml::Base64Encoder {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Xml.XmlRawWriter rawWriter
     // Size: 0x8
     // Offset: 0x28
     System::Xml::XmlRawWriter* rawWriter;
     // Field size check
     static_assert(sizeof(System::Xml::XmlRawWriter*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Xml::XmlRawWriter*
     constexpr operator System::Xml::XmlRawWriter*() const noexcept {
       return rawWriter;
@@ -50,7 +57,7 @@ namespace System::Xml {
     // Offset: 0x1B060FC
     // Implemented from: System.Xml.Base64Encoder
     // Base method: System.Void Base64Encoder::WriteChars(System.Char[] chars, System.Int32 index, System.Int32 count)
-    void WriteChars(::ArrayWrapper<::Il2CppChar> chars, int index, int count);
+    void WriteChars(::ArrayW<::Il2CppChar> chars, int index, int count);
   }; // System.Xml.XmlRawWriterBase64Encoder
   #pragma pack(pop)
   static check_size<sizeof(XmlRawWriterBase64Encoder), 40 + sizeof(System::Xml::XmlRawWriter*)> __System_Xml_XmlRawWriterBase64EncoderSizeCheck;
@@ -65,7 +72,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Xml::XmlRawWriterBase64Encoder*, "System.Xml", "X
 // Writing MetadataGetter for method: System::Xml::XmlRawWriterBase64Encoder::WriteChars
 // Il2CppName: WriteChars
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlRawWriterBase64Encoder::*)(::ArrayWrapper<::Il2CppChar>, int, int)>(&System::Xml::XmlRawWriterBase64Encoder::WriteChars)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::XmlRawWriterBase64Encoder::*)(::ArrayW<::Il2CppChar>, int, int)>(&System::Xml::XmlRawWriterBase64Encoder::WriteChars)> {
   static const MethodInfo* get() {
     static auto* chars = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

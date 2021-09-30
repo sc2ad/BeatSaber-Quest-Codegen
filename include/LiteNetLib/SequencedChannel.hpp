@@ -29,6 +29,11 @@ namespace LiteNetLib {
   // [TokenAttribute] Offset: FFFFFFFF
   class SequencedChannel : public LiteNetLib::BaseChannel {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 _localSequence
     // Size: 0x4
     // Offset: 0x28
@@ -81,6 +86,7 @@ namespace LiteNetLib {
     int64_t lastPacketSendTime;
     // Field size check
     static_assert(sizeof(int64_t) == 0x8);
+    public:
     // Get instance field reference: private System.Int32 _localSequence
     int& dyn__localSequence();
     // Get instance field reference: private System.UInt16 _remoteSequence

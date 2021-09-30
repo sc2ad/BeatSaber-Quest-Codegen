@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -39,12 +40,18 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct OpMode/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: OpMode
       constexpr OpMode(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -79,6 +86,11 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(OVRHeadsetEmulator::OpMode), 0 + sizeof(int)> __GlobalNamespace_OVRHeadsetEmulator_OpModeSizeCheck;
     static_assert(sizeof(OVRHeadsetEmulator::OpMode) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public OVRHeadsetEmulator/OpMode opMode
     // Size: 0x4
     // Offset: 0x18
@@ -102,15 +114,15 @@ namespace GlobalNamespace {
     // public UnityEngine.KeyCode[] activateKeys
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<UnityEngine::KeyCode> activateKeys;
+    ::ArrayW<UnityEngine::KeyCode> activateKeys;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::KeyCode>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::KeyCode>) == 0x8);
     // public UnityEngine.KeyCode[] pitchKeys
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<UnityEngine::KeyCode> pitchKeys;
+    ::ArrayW<UnityEngine::KeyCode> pitchKeys;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::KeyCode>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::KeyCode>) == 0x8);
     // private OVRManager manager
     // Size: 0x8
     // Offset: 0x30
@@ -157,6 +169,7 @@ namespace GlobalNamespace {
     UnityEngine::CursorLockMode previousCursorLockMode;
     // Field size check
     static_assert(sizeof(UnityEngine::CursorLockMode) == 0x4);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Single MOUSE_SCALE_X
@@ -196,9 +209,9 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Boolean resetHmdPoseByMiddleMouseButton
     bool& dyn_resetHmdPoseByMiddleMouseButton();
     // Get instance field reference: public UnityEngine.KeyCode[] activateKeys
-    ::ArrayWrapper<UnityEngine::KeyCode>& dyn_activateKeys();
+    ::ArrayW<UnityEngine::KeyCode>& dyn_activateKeys();
     // Get instance field reference: public UnityEngine.KeyCode[] pitchKeys
-    ::ArrayWrapper<UnityEngine::KeyCode>& dyn_pitchKeys();
+    ::ArrayW<UnityEngine::KeyCode>& dyn_pitchKeys();
     // Get instance field reference: private OVRManager manager
     GlobalNamespace::OVRManager*& dyn_manager();
     // Get instance field reference: private System.Boolean lastFrameEmulationActivated

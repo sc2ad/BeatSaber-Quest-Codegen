@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: System.Collections.Generic
 namespace System::Collections::Generic {
@@ -18,6 +19,11 @@ namespace System::Collections::Generic {
   // [TokenAttribute] Offset: FFFFFFFF
   class BitHelper : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Int32 _length
     // Size: 0x4
     // Offset: 0x10
@@ -35,21 +41,22 @@ namespace System::Collections::Generic {
     // private readonly System.Int32[] _array
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<int> array;
+    ::ArrayW<int> array;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // private readonly System.Boolean _useStackAlloc
     // Size: 0x1
     // Offset: 0x28
     bool useStackAlloc;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private readonly System.Int32 _length
     int& dyn__length();
     // Get instance field reference: private readonly System.Int32* _arrayPtr
     int*& dyn__arrayPtr();
     // Get instance field reference: private readonly System.Int32[] _array
-    ::ArrayWrapper<int>& dyn__array();
+    ::ArrayW<int>& dyn__array();
     // Get instance field reference: private readonly System.Boolean _useStackAlloc
     bool& dyn__useStackAlloc();
     // System.Void .ctor(System.Int32* bitArrayPtr, System.Int32 length)
@@ -62,7 +69,7 @@ namespace System::Collections::Generic {
     // System.Void .ctor(System.Int32[] bitArray, System.Int32 length)
     // Offset: 0x25C0E98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static BitHelper* New_ctor(::ArrayWrapper<int> bitArray, int length) {
+    static BitHelper* New_ctor(::ArrayW<int> bitArray, int length) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::BitHelper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<BitHelper*, creationType>(bitArray, length)));
     }

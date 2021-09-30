@@ -9,6 +9,7 @@
 #include "System/IO/Stream.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: System.IO
 namespace System::IO {
@@ -19,12 +20,17 @@ namespace System::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Stream::ReadWriteParameters/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Byte[] Buffer
     // Size: 0x8
     // Offset: 0x0
-    ::ArrayWrapper<uint8_t> Buffer;
+    ::ArrayW<uint8_t> Buffer;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // System.Int32 Offset
     // Size: 0x4
     // Offset: 0x8
@@ -37,14 +43,15 @@ namespace System::IO {
     int Count;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: ReadWriteParameters
-    constexpr ReadWriteParameters(::ArrayWrapper<uint8_t> Buffer_ = ::ArrayWrapper<uint8_t>(nullptr), int Offset_ = {}, int Count_ = {}) noexcept : Buffer{Buffer_}, Offset{Offset_}, Count{Count_} {}
+    constexpr ReadWriteParameters(::ArrayW<uint8_t> Buffer_ = ::ArrayW<uint8_t>(nullptr), int Offset_ = {}, int Count_ = {}) noexcept : Buffer{Buffer_}, Offset{Offset_}, Count{Count_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
     // Get instance field reference: System.Byte[] Buffer
-    ::ArrayWrapper<uint8_t>& dyn_Buffer();
+    ::ArrayW<uint8_t>& dyn_Buffer();
     // Get instance field reference: System.Int32 Offset
     int& dyn_Offset();
     // Get instance field reference: System.Int32 Count

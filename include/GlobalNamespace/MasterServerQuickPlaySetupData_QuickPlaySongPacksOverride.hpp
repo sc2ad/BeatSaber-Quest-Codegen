@@ -37,6 +37,11 @@ namespace GlobalNamespace {
     class LocalizedCustomPack;
     // Nested type: GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::PredefinedPack
     class PredefinedPack;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Collections.Generic.List`1<MasterServerQuickPlaySetupData/QuickPlaySongPacksOverride/PredefinedPack> predefinedPackIds
     // Size: 0x8
     // Offset: 0x10
@@ -49,6 +54,7 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPack*>* localizedCustomPacks;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::LocalizedCustomPack*>*) == 0x8);
+    public:
     // Get instance field reference: public System.Collections.Generic.List`1<MasterServerQuickPlaySetupData/QuickPlaySongPacksOverride/PredefinedPack> predefinedPackIds
     System::Collections::Generic::List_1<GlobalNamespace::MasterServerQuickPlaySetupData::QuickPlaySongPacksOverride::PredefinedPack*>*& dyn_predefinedPackIds();
     // Get instance field reference: public System.Collections.Generic.List`1<MasterServerQuickPlaySetupData/QuickPlaySongPacksOverride/LocalizedCustomPack> localizedCustomPacks

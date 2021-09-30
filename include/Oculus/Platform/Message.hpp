@@ -203,12 +203,18 @@ namespace Oculus::Platform {
     // [TokenAttribute] Offset: FFFFFFFF
     struct MessageType/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.UInt32 value__
       // Size: 0x4
       // Offset: 0x0
       uint value;
       // Field size check
       static_assert(sizeof(uint) == 0x4);
+      public:
       // Creating value type constructor for type: MessageType
       constexpr MessageType(uint value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -1323,6 +1329,11 @@ namespace Oculus::Platform {
     #pragma pack(pop)
     static check_size<sizeof(Message::MessageType), 0 + sizeof(uint)> __Oculus_Platform_Message_MessageTypeSizeCheck;
     static_assert(sizeof(Message::MessageType) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Oculus.Platform.Message/Oculus.Platform.MessageType type
     // Size: 0x4
     // Offset: 0x10
@@ -1343,6 +1354,7 @@ namespace Oculus::Platform {
     Oculus::Platform::Models::Error* error;
     // Field size check
     static_assert(sizeof(Oculus::Platform::Models::Error*) == 0x8);
+    public:
     // Get static field: static private Oculus.Platform.Message/Oculus.Platform.ExtraMessageTypesHandler <HandleExtraMessageTypes>k__BackingField
     static Oculus::Platform::Message::ExtraMessageTypesHandler* _get_$HandleExtraMessageTypes$k__BackingField();
     // Set static field: static private Oculus.Platform.Message/Oculus.Platform.ExtraMessageTypesHandler <HandleExtraMessageTypes>k__BackingField

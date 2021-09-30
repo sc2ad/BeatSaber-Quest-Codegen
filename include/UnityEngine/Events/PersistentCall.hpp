@@ -43,6 +43,11 @@ namespace UnityEngine::Events {
   // [TokenAttribute] Offset: FFFFFFFF
   class PersistentCall : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [FormerlySerializedAsAttribute] Offset: 0xE768A0
     // private UnityEngine.Object m_Target
     // Size: 0x8
@@ -81,6 +86,7 @@ namespace UnityEngine::Events {
     UnityEngine::Events::UnityEventCallState m_CallState;
     // Field size check
     static_assert(sizeof(UnityEngine::Events::UnityEventCallState) == 0x4);
+    public:
     // Get instance field reference: private UnityEngine.Object m_Target
     UnityEngine::Object*& dyn_m_Target();
     // Get instance field reference: private System.String m_MethodName

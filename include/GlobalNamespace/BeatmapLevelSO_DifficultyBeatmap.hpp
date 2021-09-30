@@ -37,6 +37,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapLevelSO::DifficultyBeatmap : public ::Il2CppObject/*, public GlobalNamespace::IDifficultyBeatmap*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private BeatmapDifficulty _difficulty
     // Size: 0x4
     // Offset: 0x10
@@ -79,6 +84,7 @@ namespace GlobalNamespace {
     GlobalNamespace::IDifficultyBeatmapSet* parentDifficultyBeatmapSet;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IDifficultyBeatmapSet*) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IDifficultyBeatmap
     operator GlobalNamespace::IDifficultyBeatmap() noexcept {
       return *reinterpret_cast<GlobalNamespace::IDifficultyBeatmap*>(this);

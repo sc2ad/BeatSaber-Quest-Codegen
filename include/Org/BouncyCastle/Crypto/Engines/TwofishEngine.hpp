@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Crypto
@@ -27,6 +28,11 @@ namespace Org::BouncyCastle::Crypto::Engines {
   // [TokenAttribute] Offset: FFFFFFFF
   class TwofishEngine : public ::Il2CppObject/*, public Org::BouncyCastle::Crypto::IBlockCipher*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean encrypting
     // Size: 0x1
     // Offset: 0x10
@@ -38,39 +44,39 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // private System.Int32[] gMDS0
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<int> gMDS0;
+    ::ArrayW<int> gMDS0;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // private System.Int32[] gMDS1
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<int> gMDS1;
+    ::ArrayW<int> gMDS1;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // private System.Int32[] gMDS2
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<int> gMDS2;
+    ::ArrayW<int> gMDS2;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // private System.Int32[] gMDS3
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<int> gMDS3;
+    ::ArrayW<int> gMDS3;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // private System.Int32[] gSubKeys
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayWrapper<int> gSubKeys;
+    ::ArrayW<int> gSubKeys;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // private System.Int32[] gSBox
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayWrapper<int> gSBox;
+    ::ArrayW<int> gSBox;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // private System.Int32 k64Cnt
     // Size: 0x4
     // Offset: 0x48
@@ -82,35 +88,36 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // private System.Byte[] workingKey
     // Size: 0x8
     // Offset: 0x50
-    ::ArrayWrapper<uint8_t> workingKey;
+    ::ArrayW<uint8_t> workingKey;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
+    public:
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IBlockCipher
     operator Org::BouncyCastle::Crypto::IBlockCipher() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IBlockCipher*>(this);
     }
     // Get static field: static private readonly System.Byte[,] P
-    static ::ArrayWrapper<uint8_t> _get_P();
+    static ::ArrayW<uint8_t> _get_P();
     // Set static field: static private readonly System.Byte[,] P
-    static void _set_P(::ArrayWrapper<uint8_t> value);
+    static void _set_P(::ArrayW<uint8_t> value);
     // Get instance field reference: private System.Boolean encrypting
     bool& dyn_encrypting();
     // Get instance field reference: private System.Int32[] gMDS0
-    ::ArrayWrapper<int>& dyn_gMDS0();
+    ::ArrayW<int>& dyn_gMDS0();
     // Get instance field reference: private System.Int32[] gMDS1
-    ::ArrayWrapper<int>& dyn_gMDS1();
+    ::ArrayW<int>& dyn_gMDS1();
     // Get instance field reference: private System.Int32[] gMDS2
-    ::ArrayWrapper<int>& dyn_gMDS2();
+    ::ArrayW<int>& dyn_gMDS2();
     // Get instance field reference: private System.Int32[] gMDS3
-    ::ArrayWrapper<int>& dyn_gMDS3();
+    ::ArrayW<int>& dyn_gMDS3();
     // Get instance field reference: private System.Int32[] gSubKeys
-    ::ArrayWrapper<int>& dyn_gSubKeys();
+    ::ArrayW<int>& dyn_gSubKeys();
     // Get instance field reference: private System.Int32[] gSBox
-    ::ArrayWrapper<int>& dyn_gSBox();
+    ::ArrayW<int>& dyn_gSBox();
     // Get instance field reference: private System.Int32 k64Cnt
     int& dyn_k64Cnt();
     // Get instance field reference: private System.Byte[] workingKey
-    ::ArrayWrapper<uint8_t>& dyn_workingKey();
+    ::ArrayW<uint8_t>& dyn_workingKey();
     // public System.String get_AlgorithmName()
     // Offset: 0x1A7E050
     ::Il2CppString* get_AlgorithmName();
@@ -125,7 +132,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public System.Int32 ProcessBlock(System.Byte[] input, System.Int32 inOff, System.Byte[] output, System.Int32 outOff)
     // Offset: 0x1A7E0A0
-    int ProcessBlock(::ArrayWrapper<uint8_t> input, int inOff, ::ArrayWrapper<uint8_t> output, int outOff);
+    int ProcessBlock(::ArrayW<uint8_t> input, int inOff, ::ArrayW<uint8_t> output, int outOff);
     // public System.Void Reset()
     // Offset: 0x1A7E6D4
     void Reset();
@@ -134,16 +141,16 @@ namespace Org::BouncyCastle::Crypto::Engines {
     int GetBlockSize();
     // private System.Void SetKey(System.Byte[] key)
     // Offset: 0x1A7D6A4
-    void SetKey(::ArrayWrapper<uint8_t> key);
+    void SetKey(::ArrayW<uint8_t> key);
     // private System.Void EncryptBlock(System.Byte[] src, System.Int32 srcIndex, System.Byte[] dst, System.Int32 dstIndex)
     // Offset: 0x1A7E1C4
-    void EncryptBlock(::ArrayWrapper<uint8_t> src, int srcIndex, ::ArrayWrapper<uint8_t> dst, int dstIndex);
+    void EncryptBlock(::ArrayW<uint8_t> src, int srcIndex, ::ArrayW<uint8_t> dst, int dstIndex);
     // private System.Void DecryptBlock(System.Byte[] src, System.Int32 srcIndex, System.Byte[] dst, System.Int32 dstIndex)
     // Offset: 0x1A7E44C
-    void DecryptBlock(::ArrayWrapper<uint8_t> src, int srcIndex, ::ArrayWrapper<uint8_t> dst, int dstIndex);
+    void DecryptBlock(::ArrayW<uint8_t> src, int srcIndex, ::ArrayW<uint8_t> dst, int dstIndex);
     // private System.Int32 F32(System.Int32 x, System.Int32[] k32)
     // Offset: 0x1A7E808
-    int F32(int x, ::ArrayWrapper<int> k32);
+    int F32(int x, ::ArrayW<int> k32);
     // private System.Int32 RS_MDS_Encode(System.Int32 k0, System.Int32 k1)
     // Offset: 0x1A7E768
     int RS_MDS_Encode(int k0, int k1);
@@ -182,10 +189,10 @@ namespace Org::BouncyCastle::Crypto::Engines {
     int Fe32_3(int x);
     // private System.Int32 BytesTo32Bits(System.Byte[] b, System.Int32 p)
     // Offset: 0x1A7E6EC
-    int BytesTo32Bits(::ArrayWrapper<uint8_t> b, int p);
+    int BytesTo32Bits(::ArrayW<uint8_t> b, int p);
     // private System.Void Bits32ToBytes(System.Int32 inData, System.Byte[] b, System.Int32 offset)
     // Offset: 0x1A7EE10
-    void Bits32ToBytes(int inData, ::ArrayWrapper<uint8_t> b, int offset);
+    void Bits32ToBytes(int inData, ::ArrayW<uint8_t> b, int offset);
     // public System.Void .ctor()
     // Offset: 0x1A7D138
     // Implemented from: System.Object
@@ -197,7 +204,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
     }
   }; // Org.BouncyCastle.Crypto.Engines.TwofishEngine
   #pragma pack(pop)
-  static check_size<sizeof(TwofishEngine), 80 + sizeof(::ArrayWrapper<uint8_t>)> __Org_BouncyCastle_Crypto_Engines_TwofishEngineSizeCheck;
+  static check_size<sizeof(TwofishEngine), 80 + sizeof(::ArrayW<uint8_t>)> __Org_BouncyCastle_Crypto_Engines_TwofishEngineSizeCheck;
   static_assert(sizeof(TwofishEngine) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Engines::TwofishEngine*, "Org.BouncyCastle.Crypto.Engines", "TwofishEngine");
@@ -239,7 +246,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::TwofishEngine::ProcessBlock
 // Il2CppName: ProcessBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Engines::TwofishEngine::*)(::ArrayWrapper<uint8_t>, int, ::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Engines::TwofishEngine::ProcessBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Engines::TwofishEngine::*)(::ArrayW<uint8_t>, int, ::ArrayW<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Engines::TwofishEngine::ProcessBlock)> {
   static const MethodInfo* get() {
     static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* inOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -267,7 +274,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::TwofishEngine::SetKey
 // Il2CppName: SetKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Engines::TwofishEngine::*)(::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Crypto::Engines::TwofishEngine::SetKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Engines::TwofishEngine::*)(::ArrayW<uint8_t>)>(&Org::BouncyCastle::Crypto::Engines::TwofishEngine::SetKey)> {
   static const MethodInfo* get() {
     static auto* key = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::TwofishEngine*), "SetKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key});
@@ -276,7 +283,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::TwofishEngine::EncryptBlock
 // Il2CppName: EncryptBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Engines::TwofishEngine::*)(::ArrayWrapper<uint8_t>, int, ::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Engines::TwofishEngine::EncryptBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Engines::TwofishEngine::*)(::ArrayW<uint8_t>, int, ::ArrayW<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Engines::TwofishEngine::EncryptBlock)> {
   static const MethodInfo* get() {
     static auto* src = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* srcIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -288,7 +295,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::TwofishEngine::DecryptBlock
 // Il2CppName: DecryptBlock
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Engines::TwofishEngine::*)(::ArrayWrapper<uint8_t>, int, ::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Engines::TwofishEngine::DecryptBlock)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Engines::TwofishEngine::*)(::ArrayW<uint8_t>, int, ::ArrayW<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Engines::TwofishEngine::DecryptBlock)> {
   static const MethodInfo* get() {
     static auto* src = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* srcIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -300,7 +307,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::TwofishEngine::F32
 // Il2CppName: F32
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Engines::TwofishEngine::*)(int, ::ArrayWrapper<int>)>(&Org::BouncyCastle::Crypto::Engines::TwofishEngine::F32)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Engines::TwofishEngine::*)(int, ::ArrayW<int>)>(&Org::BouncyCastle::Crypto::Engines::TwofishEngine::F32)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* k32 = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
@@ -419,7 +426,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::TwofishEngine::BytesTo32Bits
 // Il2CppName: BytesTo32Bits
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Engines::TwofishEngine::*)(::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Engines::TwofishEngine::BytesTo32Bits)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Engines::TwofishEngine::*)(::ArrayW<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Engines::TwofishEngine::BytesTo32Bits)> {
   static const MethodInfo* get() {
     static auto* b = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* p = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -429,7 +436,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::TwofishEngine::Bits32ToBytes
 // Il2CppName: Bits32ToBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Engines::TwofishEngine::*)(int, ::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Engines::TwofishEngine::Bits32ToBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Engines::TwofishEngine::*)(int, ::ArrayW<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Engines::TwofishEngine::Bits32ToBytes)> {
   static const MethodInfo* get() {
     static auto* inData = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* b = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;

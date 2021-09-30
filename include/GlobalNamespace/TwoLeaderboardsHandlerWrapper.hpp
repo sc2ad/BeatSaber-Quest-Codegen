@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -29,6 +30,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class TwoLeaderboardsHandlerWrapper : public GlobalNamespace::PlatformLeaderboardsHandler {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private PlatformLeaderboardsHandler _mainHandler
     // Size: 0x8
     // Offset: 0x10
@@ -53,6 +59,7 @@ namespace GlobalNamespace {
     GlobalNamespace::HMAsyncRequest* uploadScoreShadowAsyncRequest;
     // Field size check
     static_assert(sizeof(GlobalNamespace::HMAsyncRequest*) == 0x8);
+    public:
     // Get instance field reference: private PlatformLeaderboardsHandler _mainHandler
     GlobalNamespace::PlatformLeaderboardsHandler*& dyn__mainHandler();
     // Get instance field reference: private PlatformLeaderboardsHandler _shadowHandler
@@ -70,7 +77,7 @@ namespace GlobalNamespace {
     }
     // private System.Void <GetScores>b__5_0(PlatformLeaderboardsModel/GetScoresResult result, PlatformLeaderboardsModel/LeaderboardScore[] scores, System.Int32 referencePlayerScoreIndex)
     // Offset: 0x133F5C4
-    void $GetScores$b__5_0(GlobalNamespace::PlatformLeaderboardsModel::GetScoresResult result, ::ArrayWrapper<GlobalNamespace::PlatformLeaderboardsModel::LeaderboardScore*> scores, int referencePlayerScoreIndex);
+    void $GetScores$b__5_0(GlobalNamespace::PlatformLeaderboardsModel::GetScoresResult result, ::ArrayW<GlobalNamespace::PlatformLeaderboardsModel::LeaderboardScore*> scores, int referencePlayerScoreIndex);
     // private System.Void <UploadScore>b__6_0(PlatformLeaderboardsModel/UploadScoreResult result)
     // Offset: 0x133F5CC
     void $UploadScore$b__6_0(GlobalNamespace::PlatformLeaderboardsModel::UploadScoreResult result);
@@ -98,7 +105,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::TwoLeaderboardsHandlerWrapper*, "", "Two
 // Writing MetadataGetter for method: GlobalNamespace::TwoLeaderboardsHandlerWrapper::$GetScores$b__5_0
 // Il2CppName: <GetScores>b__5_0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TwoLeaderboardsHandlerWrapper::*)(GlobalNamespace::PlatformLeaderboardsModel::GetScoresResult, ::ArrayWrapper<GlobalNamespace::PlatformLeaderboardsModel::LeaderboardScore*>, int)>(&GlobalNamespace::TwoLeaderboardsHandlerWrapper::$GetScores$b__5_0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TwoLeaderboardsHandlerWrapper::*)(GlobalNamespace::PlatformLeaderboardsModel::GetScoresResult, ::ArrayW<GlobalNamespace::PlatformLeaderboardsModel::LeaderboardScore*>, int)>(&GlobalNamespace::TwoLeaderboardsHandlerWrapper::$GetScores$b__5_0)> {
   static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("", "PlatformLeaderboardsModel/GetScoresResult")->byval_arg;
     static auto* scores = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "PlatformLeaderboardsModel/LeaderboardScore"), 1)->byval_arg;

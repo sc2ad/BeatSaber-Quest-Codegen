@@ -41,6 +41,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class DeeplinkManagerToDestinationRequestManagerAdapter : public ::Il2CppObject/*, public GlobalNamespace::IDestinationRequestManager*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xF01544
     // private BeatmapLevelsModel _beatmapLevelsModel
     // Size: 0x8
@@ -67,6 +72,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MenuDestination* currentMenuDestinationRequest;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MenuDestination*) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IDestinationRequestManager
     operator GlobalNamespace::IDestinationRequestManager() noexcept {
       return *reinterpret_cast<GlobalNamespace::IDestinationRequestManager*>(this);

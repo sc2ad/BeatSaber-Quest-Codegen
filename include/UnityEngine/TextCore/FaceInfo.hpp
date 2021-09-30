@@ -20,6 +20,11 @@ namespace UnityEngine::TextCore {
   // [UsedByNativeCodeAttribute] Offset: EA55A8
   struct FaceInfo/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [NativeNameAttribute] Offset: 0xEA5704
     // private System.Int32 m_FaceIndex
     // Size: 0x4
@@ -162,6 +167,7 @@ namespace UnityEngine::TextCore {
     float m_TabWidth;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: FaceInfo
     constexpr FaceInfo(int m_FaceIndex_ = {}, ::Il2CppString* m_FamilyName_ = {}, ::Il2CppString* m_StyleName_ = {}, int m_PointSize_ = {}, float m_Scale_ = {}, float m_LineHeight_ = {}, float m_AscentLine_ = {}, float m_CapLine_ = {}, float m_MeanLine_ = {}, float m_Baseline_ = {}, float m_DescentLine_ = {}, float m_SuperscriptOffset_ = {}, float m_SuperscriptSize_ = {}, float m_SubscriptOffset_ = {}, float m_SubscriptSize_ = {}, float m_UnderlineOffset_ = {}, float m_UnderlineThickness_ = {}, float m_StrikethroughOffset_ = {}, float m_StrikethroughThickness_ = {}, float m_TabWidth_ = {}) noexcept : m_FaceIndex{m_FaceIndex_}, m_FamilyName{m_FamilyName_}, m_StyleName{m_StyleName_}, m_PointSize{m_PointSize_}, m_Scale{m_Scale_}, m_LineHeight{m_LineHeight_}, m_AscentLine{m_AscentLine_}, m_CapLine{m_CapLine_}, m_MeanLine{m_MeanLine_}, m_Baseline{m_Baseline_}, m_DescentLine{m_DescentLine_}, m_SuperscriptOffset{m_SuperscriptOffset_}, m_SuperscriptSize{m_SuperscriptSize_}, m_SubscriptOffset{m_SubscriptOffset_}, m_SubscriptSize{m_SubscriptSize_}, m_UnderlineOffset{m_UnderlineOffset_}, m_UnderlineThickness{m_UnderlineThickness_}, m_StrikethroughOffset{m_StrikethroughOffset_}, m_StrikethroughThickness{m_StrikethroughThickness_}, m_TabWidth{m_TabWidth_} {}
     // Creating interface conversion operator: operator System::ValueType

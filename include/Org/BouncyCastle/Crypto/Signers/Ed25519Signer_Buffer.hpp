@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Crypto::Parameters
@@ -31,7 +32,7 @@ namespace Org::BouncyCastle::Crypto::Signers {
     public:
     // System.Byte[] GenerateSignature(Org.BouncyCastle.Crypto.Parameters.Ed25519PrivateKeyParameters privateKey)
     // Offset: 0x139C090
-    ::ArrayWrapper<uint8_t> GenerateSignature(Org::BouncyCastle::Crypto::Parameters::Ed25519PrivateKeyParameters* privateKey);
+    ::ArrayW<uint8_t> GenerateSignature(Org::BouncyCastle::Crypto::Parameters::Ed25519PrivateKeyParameters* privateKey);
     // System.Void Reset()
     // Offset: 0x139C204
     void Reset();
@@ -55,7 +56,7 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Signers::Ed25519Signer::Buffer
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::Ed25519Signer::Buffer::GenerateSignature
 // Il2CppName: GenerateSignature
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Crypto::Signers::Ed25519Signer::Buffer::*)(Org::BouncyCastle::Crypto::Parameters::Ed25519PrivateKeyParameters*)>(&Org::BouncyCastle::Crypto::Signers::Ed25519Signer::Buffer::GenerateSignature)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Org::BouncyCastle::Crypto::Signers::Ed25519Signer::Buffer::*)(Org::BouncyCastle::Crypto::Parameters::Ed25519PrivateKeyParameters*)>(&Org::BouncyCastle::Crypto::Signers::Ed25519Signer::Buffer::GenerateSignature)> {
   static const MethodInfo* get() {
     static auto* privateKey = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Crypto.Parameters", "Ed25519PrivateKeyParameters")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Signers::Ed25519Signer::Buffer*), "GenerateSignature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{privateKey});

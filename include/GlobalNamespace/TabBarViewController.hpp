@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -39,6 +40,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::TabBarViewController::TabBarItem
     class TabBarItem;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private HMUI.TextSegmentedControl _segmentedControll
     // Size: 0x8
     // Offset: 0x70
@@ -54,29 +60,30 @@ namespace GlobalNamespace {
     // private System.String[] _labels
     // Size: 0x8
     // Offset: 0x80
-    ::ArrayWrapper<::Il2CppString*> labels;
+    ::ArrayW<::Il2CppString*> labels;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // private TabBarViewController/TabBarItem[] _items
     // Size: 0x8
     // Offset: 0x88
-    ::ArrayWrapper<GlobalNamespace::TabBarViewController::TabBarItem*> items;
+    ::ArrayW<GlobalNamespace::TabBarViewController::TabBarItem*> items;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::TabBarViewController::TabBarItem*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::TabBarViewController::TabBarItem*>) == 0x8);
     // private System.Boolean _shouldReloadData
     // Size: 0x1
     // Offset: 0x90
     bool shouldReloadData;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private HMUI.TextSegmentedControl _segmentedControll
     HMUI::TextSegmentedControl*& dyn__segmentedControll();
     // Get instance field reference: private UnityEngine.UI.ContentSizeFitter _contentSizeFilter
     UnityEngine::UI::ContentSizeFitter*& dyn__contentSizeFilter();
     // Get instance field reference: private System.String[] _labels
-    ::ArrayWrapper<::Il2CppString*>& dyn__labels();
+    ::ArrayW<::Il2CppString*>& dyn__labels();
     // Get instance field reference: private TabBarViewController/TabBarItem[] _items
-    ::ArrayWrapper<GlobalNamespace::TabBarViewController::TabBarItem*>& dyn__items();
+    ::ArrayW<GlobalNamespace::TabBarViewController::TabBarItem*>& dyn__items();
     // Get instance field reference: private System.Boolean _shouldReloadData
     bool& dyn__shouldReloadData();
     // public System.Boolean get_sizeToFit()
@@ -90,7 +97,7 @@ namespace GlobalNamespace {
     int get_selectedCellNumber();
     // public System.Void Setup(TabBarViewController/TabBarItem[] items)
     // Offset: 0x115C440
-    void Setup(::ArrayWrapper<GlobalNamespace::TabBarViewController::TabBarItem*> items);
+    void Setup(::ArrayW<GlobalNamespace::TabBarViewController::TabBarItem*> items);
     // public System.Void SelectItem(System.Int32 index)
     // Offset: 0x115C57C
     void SelectItem(int index);
@@ -159,7 +166,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Writing MetadataGetter for method: GlobalNamespace::TabBarViewController::Setup
 // Il2CppName: Setup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TabBarViewController::*)(::ArrayWrapper<GlobalNamespace::TabBarViewController::TabBarItem*>)>(&GlobalNamespace::TabBarViewController::Setup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::TabBarViewController::*)(::ArrayW<GlobalNamespace::TabBarViewController::TabBarItem*>)>(&GlobalNamespace::TabBarViewController::Setup)> {
   static const MethodInfo* get() {
     static auto* items = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "TabBarViewController/TabBarItem"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::TabBarViewController*), "Setup", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{items});

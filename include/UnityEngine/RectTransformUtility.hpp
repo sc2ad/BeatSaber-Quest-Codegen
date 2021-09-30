@@ -7,6 +7,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -43,9 +44,9 @@ namespace UnityEngine {
   class RectTransformUtility : public ::Il2CppObject {
     public:
     // Get static field: static private readonly UnityEngine.Vector3[] s_Corners
-    static ::ArrayWrapper<UnityEngine::Vector3> _get_s_Corners();
+    static ::ArrayW<UnityEngine::Vector3> _get_s_Corners();
     // Set static field: static private readonly UnityEngine.Vector3[] s_Corners
-    static void _set_s_Corners(::ArrayWrapper<UnityEngine::Vector3> value);
+    static void _set_s_Corners(::ArrayW<UnityEngine::Vector3> value);
     // static private System.Void .cctor()
     // Offset: 0x2618004
     static void _cctor();

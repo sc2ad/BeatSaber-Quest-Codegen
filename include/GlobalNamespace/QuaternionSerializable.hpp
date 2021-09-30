@@ -37,6 +37,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct QuaternionSerializable/*, public System::ValueType, public LiteNetLib::Utils::INetSerializable, public System::IEquatable_1<GlobalNamespace::QuaternionSerializable>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 _a
     // Size: 0x4
     // Offset: 0x0
@@ -55,6 +60,7 @@ namespace GlobalNamespace {
     int c;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: QuaternionSerializable
     constexpr QuaternionSerializable(int a_ = {}, int b_ = {}, int c_ = {}) noexcept : a{a_}, b{b_}, c{c_} {}
     // Creating interface conversion operator: operator System::ValueType

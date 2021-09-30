@@ -35,6 +35,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BloomPrePassBackgroundColor : public GlobalNamespace::BloomPrePassNonLightPass {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Single _intensity
     // Size: 0x4
     // Offset: 0x20
@@ -68,6 +73,7 @@ namespace GlobalNamespace {
     UnityEngine::Color color;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
+    public:
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xEDE1CC
     // Get static field: static private readonly System.Int32 _colorID
     static int _get__colorID();

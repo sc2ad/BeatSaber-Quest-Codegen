@@ -39,12 +39,18 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class InitializableManager::$$c__DisplayClass2_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public Zenject.IInitializable initializable
     // Size: 0x8
     // Offset: 0x10
     Zenject::IInitializable* initializable;
     // Field size check
     static_assert(sizeof(Zenject::IInitializable*) == 0x8);
+    public:
     // Creating conversion operator: operator Zenject::IInitializable*
     constexpr operator Zenject::IInitializable*() const noexcept {
       return initializable;

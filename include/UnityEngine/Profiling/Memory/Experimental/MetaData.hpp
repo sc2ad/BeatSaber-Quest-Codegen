@@ -18,6 +18,11 @@ namespace UnityEngine::Profiling::Memory::Experimental {
   // [TokenAttribute] Offset: FFFFFFFF
   class MetaData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.String content
     // Size: 0x8
     // Offset: 0x10
@@ -30,6 +35,7 @@ namespace UnityEngine::Profiling::Memory::Experimental {
     ::Il2CppString* platform;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: public System.String content
     ::Il2CppString*& dyn_content();
     // Get instance field reference: public System.String platform

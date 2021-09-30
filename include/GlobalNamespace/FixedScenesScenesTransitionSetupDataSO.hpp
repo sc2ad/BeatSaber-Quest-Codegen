@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -27,14 +28,20 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class FixedScenesScenesTransitionSetupDataSO : public GlobalNamespace::ScenesTransitionSetupDataSO {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private SceneInfo[] _sceneInfos
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<GlobalNamespace::SceneInfo*> sceneInfos;
+    ::ArrayW<GlobalNamespace::SceneInfo*> sceneInfos;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::SceneInfo*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::SceneInfo*>) == 0x8);
+    public:
     // Get instance field reference: private SceneInfo[] _sceneInfos
-    ::ArrayWrapper<GlobalNamespace::SceneInfo*>& dyn__sceneInfos();
+    ::ArrayW<GlobalNamespace::SceneInfo*>& dyn__sceneInfos();
     // public System.Void Init()
     // Offset: 0x1380E20
     void Init();
@@ -53,7 +60,7 @@ namespace GlobalNamespace {
     }
   }; // FixedScenesScenesTransitionSetupDataSO
   #pragma pack(pop)
-  static check_size<sizeof(FixedScenesScenesTransitionSetupDataSO), 40 + sizeof(::ArrayWrapper<GlobalNamespace::SceneInfo*>)> __GlobalNamespace_FixedScenesScenesTransitionSetupDataSOSizeCheck;
+  static check_size<sizeof(FixedScenesScenesTransitionSetupDataSO), 40 + sizeof(::ArrayW<GlobalNamespace::SceneInfo*>)> __GlobalNamespace_FixedScenesScenesTransitionSetupDataSOSizeCheck;
   static_assert(sizeof(FixedScenesScenesTransitionSetupDataSO) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::FixedScenesScenesTransitionSetupDataSO*, "", "FixedScenesScenesTransitionSetupDataSO");

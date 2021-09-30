@@ -29,6 +29,11 @@ namespace UnityEngine::EventSystems {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRPointerEventData : public UnityEngine::EventSystems::PointerEventData {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Ray worldSpaceRay
     // Size: 0x18
     // Offset: 0x130
@@ -41,6 +46,7 @@ namespace UnityEngine::EventSystems {
     UnityEngine::Vector2 swipeStart;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector2) == 0x8);
+    public:
     // Get instance field reference: public UnityEngine.Ray worldSpaceRay
     UnityEngine::Ray& dyn_worldSpaceRay();
     // Get instance field reference: public UnityEngine.Vector2 swipeStart

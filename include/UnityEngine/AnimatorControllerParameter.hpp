@@ -26,6 +26,11 @@ namespace UnityEngine {
   // [NativeAsStructAttribute] Offset: FFFFFFFF
   class AnimatorControllerParameter : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.String m_Name
     // Size: 0x8
     // Offset: 0x10
@@ -56,6 +61,7 @@ namespace UnityEngine {
     bool m_DefaultBool;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: System.String m_Name
     ::Il2CppString*& dyn_m_Name();
     // Get instance field reference: UnityEngine.AnimatorControllerParameterType m_Type

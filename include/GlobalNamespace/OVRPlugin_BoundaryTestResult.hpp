@@ -23,6 +23,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct OVRPlugin::BoundaryTestResult/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public OVRPlugin/Bool IsTriggering
     // Size: 0x4
     // Offset: 0x0
@@ -47,6 +52,7 @@ namespace GlobalNamespace {
     GlobalNamespace::OVRPlugin::Vector3f ClosestPointNormal;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OVRPlugin::Vector3f) == 0xC);
+    public:
     // Creating value type constructor for type: BoundaryTestResult
     constexpr BoundaryTestResult(GlobalNamespace::OVRPlugin::Bool IsTriggering_ = {}, float ClosestDistance_ = {}, GlobalNamespace::OVRPlugin::Vector3f ClosestPoint_ = {}, GlobalNamespace::OVRPlugin::Vector3f ClosestPointNormal_ = {}) noexcept : IsTriggering{IsTriggering_}, ClosestDistance{ClosestDistance_}, ClosestPoint{ClosestPoint_}, ClosestPointNormal{ClosestPointNormal_} {}
     // Creating interface conversion operator: operator System::ValueType

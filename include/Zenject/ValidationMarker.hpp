@@ -26,6 +26,11 @@ namespace Zenject {
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
   class ValidationMarker : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean <InstantiateFailed>k__BackingField
     // Size: 0x1
     // Offset: 0x10
@@ -40,6 +45,7 @@ namespace Zenject {
     System::Type* MarkedType;
     // Field size check
     static_assert(sizeof(System::Type*) == 0x8);
+    public:
     // Get instance field reference: private System.Boolean <InstantiateFailed>k__BackingField
     bool& dyn_$InstantiateFailed$k__BackingField();
     // Get instance field reference: private System.Type <MarkedType>k__BackingField

@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HoudiniEngineUnity
@@ -40,7 +41,7 @@ namespace HoudiniEngineUnity {
     static HoudiniEngineUnity::Test_Material* ToTestObject(UnityEngine::Material* self);
     // static public HoudiniEngineUnity.Test_Material[] ToTestObject(UnityEngine.Material[] self)
     // Offset: 0x25D0B40
-    static ::ArrayWrapper<HoudiniEngineUnity::Test_Material*> ToTestObject(::ArrayWrapper<UnityEngine::Material*> self);
+    static ::ArrayW<HoudiniEngineUnity::Test_Material*> ToTestObject(::ArrayW<UnityEngine::Material*> self);
     // static public System.Collections.Generic.List`1<HoudiniEngineUnity.Test_Material> ToTestObject(System.Collections.Generic.List`1<UnityEngine.Material> self)
     // Offset: 0x25D0C4C
     static System::Collections::Generic::List_1<HoudiniEngineUnity::Test_Material*>* ToTestObject(System::Collections::Generic::List_1<UnityEngine::Material*>* self);
@@ -62,7 +63,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::Test_Material_Extensions::ToTestObject
 // Il2CppName: ToTestObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<HoudiniEngineUnity::Test_Material*> (*)(::ArrayWrapper<UnityEngine::Material*>)>(&HoudiniEngineUnity::Test_Material_Extensions::ToTestObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<HoudiniEngineUnity::Test_Material*> (*)(::ArrayW<UnityEngine::Material*>)>(&HoudiniEngineUnity::Test_Material_Extensions::ToTestObject)> {
   static const MethodInfo* get() {
     static auto* self = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Material"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::Test_Material_Extensions*), "ToTestObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{self});

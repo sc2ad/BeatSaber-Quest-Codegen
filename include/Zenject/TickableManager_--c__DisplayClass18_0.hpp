@@ -39,12 +39,18 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class TickableManager::$$c__DisplayClass18_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public Zenject.ITickable tickable
     // Size: 0x8
     // Offset: 0x10
     Zenject::ITickable* tickable;
     // Field size check
     static_assert(sizeof(Zenject::ITickable*) == 0x8);
+    public:
     // Creating conversion operator: operator Zenject::ITickable*
     constexpr operator Zenject::ITickable*() const noexcept {
       return tickable;

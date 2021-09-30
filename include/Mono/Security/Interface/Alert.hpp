@@ -22,6 +22,11 @@ namespace Mono::Security::Interface {
   // [TokenAttribute] Offset: FFFFFFFF
   class Alert : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Mono.Security.Interface.AlertLevel level
     // Size: 0x1
     // Offset: 0x10
@@ -34,6 +39,7 @@ namespace Mono::Security::Interface {
     Mono::Security::Interface::AlertDescription description;
     // Field size check
     static_assert(sizeof(Mono::Security::Interface::AlertDescription) == 0x1);
+    public:
     // Get instance field reference: private Mono.Security.Interface.AlertLevel level
     Mono::Security::Interface::AlertLevel& dyn_level();
     // Get instance field reference: private Mono.Security.Interface.AlertDescription description

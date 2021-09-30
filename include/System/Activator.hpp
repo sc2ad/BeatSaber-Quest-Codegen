@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -42,13 +43,13 @@ namespace System {
     public:
     // static public System.Object CreateInstance(System.Type type, System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, System.Object[] args, System.Globalization.CultureInfo culture)
     // Offset: 0x1C5A4DC
-    static ::Il2CppObject* CreateInstance(System::Type* type, System::Reflection::BindingFlags bindingAttr, System::Reflection::Binder* binder, ::ArrayWrapper<::Il2CppObject*> args, System::Globalization::CultureInfo* culture);
+    static ::Il2CppObject* CreateInstance(System::Type* type, System::Reflection::BindingFlags bindingAttr, System::Reflection::Binder* binder, ::ArrayW<::Il2CppObject*> args, System::Globalization::CultureInfo* culture);
     // static public System.Object CreateInstance(System.Type type, System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, System.Object[] args, System.Globalization.CultureInfo culture, System.Object[] activationAttributes)
     // Offset: 0x1C5A4E4
-    static ::Il2CppObject* CreateInstance(System::Type* type, System::Reflection::BindingFlags bindingAttr, System::Reflection::Binder* binder, ::ArrayWrapper<::Il2CppObject*> args, System::Globalization::CultureInfo* culture, ::ArrayWrapper<::Il2CppObject*> activationAttributes);
+    static ::Il2CppObject* CreateInstance(System::Type* type, System::Reflection::BindingFlags bindingAttr, System::Reflection::Binder* binder, ::ArrayW<::Il2CppObject*> args, System::Globalization::CultureInfo* culture, ::ArrayW<::Il2CppObject*> activationAttributes);
     // static public System.Object CreateInstance(System.Type type, System.Object[] args)
     // Offset: 0x1C5A708
-    static ::Il2CppObject* CreateInstance(System::Type* type, ::ArrayWrapper<::Il2CppObject*> args);
+    static ::Il2CppObject* CreateInstance(System::Type* type, ::ArrayW<::Il2CppObject*> args);
     // static public System.Object CreateInstance(System.Type type)
     // Offset: 0x1C49938
     static ::Il2CppObject* CreateInstance(System::Type* type);
@@ -72,7 +73,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Activator*, "System", "Activator");
 // Writing MetadataGetter for method: System::Activator::CreateInstance
 // Il2CppName: CreateInstance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Type*, System::Reflection::BindingFlags, System::Reflection::Binder*, ::ArrayWrapper<::Il2CppObject*>, System::Globalization::CultureInfo*)>(&System::Activator::CreateInstance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Type*, System::Reflection::BindingFlags, System::Reflection::Binder*, ::ArrayW<::Il2CppObject*>, System::Globalization::CultureInfo*)>(&System::Activator::CreateInstance)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* bindingAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
@@ -85,7 +86,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Activator::CreateInstance
 // Il2CppName: CreateInstance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Type*, System::Reflection::BindingFlags, System::Reflection::Binder*, ::ArrayWrapper<::Il2CppObject*>, System::Globalization::CultureInfo*, ::ArrayWrapper<::Il2CppObject*>)>(&System::Activator::CreateInstance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Type*, System::Reflection::BindingFlags, System::Reflection::Binder*, ::ArrayW<::Il2CppObject*>, System::Globalization::CultureInfo*, ::ArrayW<::Il2CppObject*>)>(&System::Activator::CreateInstance)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* bindingAttr = &::il2cpp_utils::GetClassFromName("System.Reflection", "BindingFlags")->byval_arg;
@@ -99,7 +100,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: System::Activator::CreateInstance
 // Il2CppName: CreateInstance
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Type*, ::ArrayWrapper<::Il2CppObject*>)>(&System::Activator::CreateInstance)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObject* (*)(System::Type*, ::ArrayW<::Il2CppObject*>)>(&System::Activator::CreateInstance)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;

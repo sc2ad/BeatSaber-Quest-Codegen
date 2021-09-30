@@ -50,6 +50,11 @@ namespace Zenject {
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
   class PrefabInstantiatorCached : public ::Il2CppObject/*, public Zenject::IPrefabInstantiator*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Zenject.IPrefabInstantiator _subInstantiator
     // Size: 0x8
     // Offset: 0x10
@@ -62,6 +67,7 @@ namespace Zenject {
     UnityEngine::GameObject* gameObject;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
+    public:
     // Creating interface conversion operator: operator Zenject::IPrefabInstantiator
     operator Zenject::IPrefabInstantiator() noexcept {
       return *reinterpret_cast<Zenject::IPrefabInstantiator*>(this);

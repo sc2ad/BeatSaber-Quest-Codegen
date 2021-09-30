@@ -65,6 +65,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::BeatmapObjectSpawnController::InitData
     class InitData;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private BeatmapObjectSpawnMovementData _beatmapObjectSpawnMovementData
     // Size: 0x8
     // Offset: 0x18
@@ -148,6 +153,7 @@ namespace GlobalNamespace {
     GlobalNamespace::VariableBpmProcessor* variableBpmProcessor;
     // Field size check
     static_assert(sizeof(GlobalNamespace::VariableBpmProcessor*) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IBeatmapObjectSpawnController
     operator GlobalNamespace::IBeatmapObjectSpawnController() noexcept {
       return *reinterpret_cast<GlobalNamespace::IBeatmapObjectSpawnController*>(this);

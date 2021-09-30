@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Crypto::Parameters
@@ -48,9 +49,9 @@ namespace Org::BouncyCastle::Crypto::Tls {
   class TlsEccUtilities : public ::Il2CppObject {
     public:
     // Get static field: static private readonly System.String[] CurveNames
-    static ::ArrayWrapper<::Il2CppString*> _get_CurveNames();
+    static ::ArrayW<::Il2CppString*> _get_CurveNames();
     // Set static field: static private readonly System.String[] CurveNames
-    static void _set_CurveNames(::ArrayWrapper<::Il2CppString*> value);
+    static void _set_CurveNames(::ArrayW<::Il2CppString*> value);
     // static private System.Void .cctor()
     // Offset: 0x13A50AC
     static void _cctor();
@@ -65,28 +66,28 @@ namespace Org::BouncyCastle::Crypto::Tls {
     static bool IsSupportedNamedCurve(int namedCurve);
     // static public System.Boolean IsCompressionPreferred(System.Byte[] ecPointFormats, System.Byte compressionFormat)
     // Offset: 0x13A4918
-    static bool IsCompressionPreferred(::ArrayWrapper<uint8_t> ecPointFormats, uint8_t compressionFormat);
+    static bool IsCompressionPreferred(::ArrayW<uint8_t> ecPointFormats, uint8_t compressionFormat);
     // static public System.Byte[] SerializeECPoint(System.Byte[] ecPointFormats, Org.BouncyCastle.Math.EC.ECPoint point)
     // Offset: 0x13A4978
-    static ::ArrayWrapper<uint8_t> SerializeECPoint(::ArrayWrapper<uint8_t> ecPointFormats, Org::BouncyCastle::Math::EC::ECPoint* point);
+    static ::ArrayW<uint8_t> SerializeECPoint(::ArrayW<uint8_t> ecPointFormats, Org::BouncyCastle::Math::EC::ECPoint* point);
     // static public Org.BouncyCastle.Math.EC.ECPoint DeserializeECPoint(System.Byte[] ecPointFormats, Org.BouncyCastle.Math.EC.ECCurve curve, System.Byte[] encoding)
     // Offset: 0x13A4A6C
-    static Org::BouncyCastle::Math::EC::ECPoint* DeserializeECPoint(::ArrayWrapper<uint8_t> ecPointFormats, Org::BouncyCastle::Math::EC::ECCurve* curve, ::ArrayWrapper<uint8_t> encoding);
+    static Org::BouncyCastle::Math::EC::ECPoint* DeserializeECPoint(::ArrayW<uint8_t> ecPointFormats, Org::BouncyCastle::Math::EC::ECCurve* curve, ::ArrayW<uint8_t> encoding);
     // static public Org.BouncyCastle.Crypto.Parameters.ECPublicKeyParameters DeserializeECPublicKey(System.Byte[] ecPointFormats, Org.BouncyCastle.Crypto.Parameters.ECDomainParameters curve_params, System.Byte[] encoding)
     // Offset: 0x13A4BDC
-    static Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* DeserializeECPublicKey(::ArrayWrapper<uint8_t> ecPointFormats, Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* curve_params, ::ArrayWrapper<uint8_t> encoding);
+    static Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* DeserializeECPublicKey(::ArrayW<uint8_t> ecPointFormats, Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* curve_params, ::ArrayW<uint8_t> encoding);
     // static public Org.BouncyCastle.Crypto.AsymmetricCipherKeyPair GenerateECKeyPair(Org.BouncyCastle.Security.SecureRandom random, Org.BouncyCastle.Crypto.Parameters.ECDomainParameters ecParams)
     // Offset: 0x13A4D88
     static Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* GenerateECKeyPair(Org::BouncyCastle::Security::SecureRandom* random, Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* ecParams);
     // static public Org.BouncyCastle.Crypto.Parameters.ECPrivateKeyParameters GenerateEphemeralClientKeyExchange(Org.BouncyCastle.Security.SecureRandom random, System.Byte[] ecPointFormats, Org.BouncyCastle.Crypto.Parameters.ECDomainParameters ecParams, System.IO.Stream output)
     // Offset: 0x13A4E30
-    static Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* GenerateEphemeralClientKeyExchange(Org::BouncyCastle::Security::SecureRandom* random, ::ArrayWrapper<uint8_t> ecPointFormats, Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* ecParams, System::IO::Stream* output);
+    static Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* GenerateEphemeralClientKeyExchange(Org::BouncyCastle::Security::SecureRandom* random, ::ArrayW<uint8_t> ecPointFormats, Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* ecParams, System::IO::Stream* output);
     // static public Org.BouncyCastle.Crypto.Parameters.ECPublicKeyParameters ValidateECPublicKey(Org.BouncyCastle.Crypto.Parameters.ECPublicKeyParameters key)
     // Offset: 0x13A4FFC
     static Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* ValidateECPublicKey(Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* key);
     // static public System.Void WriteECPoint(System.Byte[] ecPointFormats, Org.BouncyCastle.Math.EC.ECPoint point, System.IO.Stream output)
     // Offset: 0x13A4F50
-    static void WriteECPoint(::ArrayWrapper<uint8_t> ecPointFormats, Org::BouncyCastle::Math::EC::ECPoint* point, System::IO::Stream* output);
+    static void WriteECPoint(::ArrayW<uint8_t> ecPointFormats, Org::BouncyCastle::Math::EC::ECPoint* point, System::IO::Stream* output);
   }; // Org.BouncyCastle.Crypto.Tls.TlsEccUtilities
   #pragma pack(pop)
 }
@@ -131,7 +132,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(in
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Tls::TlsEccUtilities::IsCompressionPreferred
 // Il2CppName: IsCompressionPreferred
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayWrapper<uint8_t>, uint8_t)>(&Org::BouncyCastle::Crypto::Tls::TlsEccUtilities::IsCompressionPreferred)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<uint8_t>, uint8_t)>(&Org::BouncyCastle::Crypto::Tls::TlsEccUtilities::IsCompressionPreferred)> {
   static const MethodInfo* get() {
     static auto* ecPointFormats = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* compressionFormat = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
@@ -141,7 +142,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Tls::TlsEccUtilities::SerializeECPoint
 // Il2CppName: SerializeECPoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(::ArrayWrapper<uint8_t>, Org::BouncyCastle::Math::EC::ECPoint*)>(&Org::BouncyCastle::Crypto::Tls::TlsEccUtilities::SerializeECPoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(::ArrayW<uint8_t>, Org::BouncyCastle::Math::EC::ECPoint*)>(&Org::BouncyCastle::Crypto::Tls::TlsEccUtilities::SerializeECPoint)> {
   static const MethodInfo* get() {
     static auto* ecPointFormats = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* point = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "ECPoint")->byval_arg;
@@ -151,7 +152,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Tls::TlsEccUtilities::DeserializeECPoint
 // Il2CppName: DeserializeECPoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (*)(::ArrayWrapper<uint8_t>, Org::BouncyCastle::Math::EC::ECCurve*, ::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Crypto::Tls::TlsEccUtilities::DeserializeECPoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (*)(::ArrayW<uint8_t>, Org::BouncyCastle::Math::EC::ECCurve*, ::ArrayW<uint8_t>)>(&Org::BouncyCastle::Crypto::Tls::TlsEccUtilities::DeserializeECPoint)> {
   static const MethodInfo* get() {
     static auto* ecPointFormats = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* curve = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "ECCurve")->byval_arg;
@@ -162,7 +163,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Tls::TlsEccUtilities::DeserializeECPublicKey
 // Il2CppName: DeserializeECPublicKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* (*)(::ArrayWrapper<uint8_t>, Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*, ::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Crypto::Tls::TlsEccUtilities::DeserializeECPublicKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* (*)(::ArrayW<uint8_t>, Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*, ::ArrayW<uint8_t>)>(&Org::BouncyCastle::Crypto::Tls::TlsEccUtilities::DeserializeECPublicKey)> {
   static const MethodInfo* get() {
     static auto* ecPointFormats = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* curve_params = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Crypto.Parameters", "ECDomainParameters")->byval_arg;
@@ -183,7 +184,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Tls::TlsEccUtilities::GenerateEphemeralClientKeyExchange
 // Il2CppName: GenerateEphemeralClientKeyExchange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* (*)(Org::BouncyCastle::Security::SecureRandom*, ::ArrayWrapper<uint8_t>, Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*, System::IO::Stream*)>(&Org::BouncyCastle::Crypto::Tls::TlsEccUtilities::GenerateEphemeralClientKeyExchange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* (*)(Org::BouncyCastle::Security::SecureRandom*, ::ArrayW<uint8_t>, Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*, System::IO::Stream*)>(&Org::BouncyCastle::Crypto::Tls::TlsEccUtilities::GenerateEphemeralClientKeyExchange)> {
   static const MethodInfo* get() {
     static auto* random = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Security", "SecureRandom")->byval_arg;
     static auto* ecPointFormats = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -204,7 +205,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Tls::TlsEccUtilities::WriteECPoint
 // Il2CppName: WriteECPoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint8_t>, Org::BouncyCastle::Math::EC::ECPoint*, System::IO::Stream*)>(&Org::BouncyCastle::Crypto::Tls::TlsEccUtilities::WriteECPoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t>, Org::BouncyCastle::Math::EC::ECPoint*, System::IO::Stream*)>(&Org::BouncyCastle::Crypto::Tls::TlsEccUtilities::WriteECPoint)> {
   static const MethodInfo* get() {
     static auto* ecPointFormats = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* point = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "ECPoint")->byval_arg;

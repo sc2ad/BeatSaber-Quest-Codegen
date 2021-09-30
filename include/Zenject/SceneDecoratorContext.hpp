@@ -46,6 +46,11 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class SceneDecoratorContext : public Zenject::Context {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.List`1<Zenject.MonoInstaller> _lateInstallers
     // Size: 0x8
     // Offset: 0x40
@@ -83,6 +88,7 @@ namespace Zenject {
     System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>* injectableMonoBehaviours;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::MonoBehaviour*>*) == 0x8);
+    public:
     // Get instance field reference: private System.Collections.Generic.List`1<Zenject.MonoInstaller> _lateInstallers
     System::Collections::Generic::List_1<Zenject::MonoInstaller*>*& dyn__lateInstallers();
     // Get instance field reference: private System.Collections.Generic.List`1<Zenject.MonoInstaller> _lateInstallerPrefabs

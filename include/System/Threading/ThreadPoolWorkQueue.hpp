@@ -34,6 +34,11 @@ namespace System::Threading {
     class WorkStealingQueue;
     // Nested type: System::Threading::ThreadPoolWorkQueue::QueueSegment
     class QueueSegment;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Threading.ThreadPoolWorkQueue/System.Threading.QueueSegment queueHead
     // Size: 0x8
     // Offset: 0x10
@@ -52,6 +57,7 @@ namespace System::Threading {
     int numOutstandingThreadRequests;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get static field: static System.Threading.ThreadPoolWorkQueue/System.Threading.SparseArray`1<System.Threading.ThreadPoolWorkQueue/System.Threading.WorkStealingQueue> allThreadQueues
     static System::Threading::ThreadPoolWorkQueue::SparseArray_1<System::Threading::ThreadPoolWorkQueue::WorkStealingQueue*>* _get_allThreadQueues();
     // Set static field: static System.Threading.ThreadPoolWorkQueue/System.Threading.SparseArray`1<System.Threading.ThreadPoolWorkQueue/System.Threading.WorkStealingQueue> allThreadQueues

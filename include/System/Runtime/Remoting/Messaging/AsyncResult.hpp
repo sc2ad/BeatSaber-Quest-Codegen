@@ -52,6 +52,11 @@ namespace System::Runtime::Remoting::Messaging {
   // [ComVisibleAttribute] Offset: E5FFE8
   class AsyncResult : public ::Il2CppObject/*, public System::IAsyncResult, public System::Threading::IThreadPoolWorkItem, public System::Runtime::Remoting::Messaging::IMessageSink*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Object async_state
     // Size: 0x8
     // Offset: 0x10
@@ -150,6 +155,7 @@ namespace System::Runtime::Remoting::Messaging {
     System::Threading::WaitCallback* orig_cb;
     // Field size check
     static_assert(sizeof(System::Threading::WaitCallback*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::IAsyncResult
     operator System::IAsyncResult() noexcept {
       return *reinterpret_cast<System::IAsyncResult*>(this);

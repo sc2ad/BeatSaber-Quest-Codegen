@@ -45,12 +45,18 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   // [TokenAttribute] Offset: FFFFFFFF
   class InstanceProvider : public ::Il2CppObject/*, public UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.Dictionary`2<UnityEngine.GameObject,UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.GameObject>> m_InstanceObjectToPrefabHandle
     // Size: 0x8
     // Offset: 0x10
     System::Collections::Generic::Dictionary_2<UnityEngine::GameObject*, UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject*>>* m_InstanceObjectToPrefabHandle;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<UnityEngine::GameObject*, UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject*>>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider
     operator UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider() noexcept {
       return *reinterpret_cast<UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider*>(this);

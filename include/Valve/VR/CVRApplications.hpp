@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Valve::VR
@@ -40,12 +41,18 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   class CVRApplications : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Valve.VR.IVRApplications FnTable
     // Size: 0xF8
     // Offset: 0x10
     Valve::VR::IVRApplications FnTable;
     // Field size check
     static_assert(sizeof(Valve::VR::IVRApplications) == 0xF8);
+    public:
     // Creating conversion operator: operator Valve::VR::IVRApplications
     constexpr operator Valve::VR::IVRApplications() const noexcept {
       return FnTable;
@@ -82,7 +89,7 @@ namespace Valve::VR {
     Valve::VR::EVRApplicationError LaunchApplication(::Il2CppString* pchAppKey);
     // public Valve.VR.EVRApplicationError LaunchTemplateApplication(System.String pchTemplateAppKey, System.String pchNewAppKey, Valve.VR.AppOverrideKeys_t[] pKeys)
     // Offset: 0x1885790
-    Valve::VR::EVRApplicationError LaunchTemplateApplication(::Il2CppString* pchTemplateAppKey, ::Il2CppString* pchNewAppKey, ::ArrayWrapper<Valve::VR::AppOverrideKeys_t> pKeys);
+    Valve::VR::EVRApplicationError LaunchTemplateApplication(::Il2CppString* pchTemplateAppKey, ::Il2CppString* pchNewAppKey, ::ArrayW<Valve::VR::AppOverrideKeys_t> pKeys);
     // public Valve.VR.EVRApplicationError LaunchApplicationFromMimeType(System.String pchMimeType, System.String pchArgs)
     // Offset: 0x1885BF4
     Valve::VR::EVRApplicationError LaunchApplicationFromMimeType(::Il2CppString* pchMimeType, ::Il2CppString* pchArgs);
@@ -233,7 +240,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVRApplications::LaunchTemplateApplication
 // Il2CppName: LaunchTemplateApplication
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRApplicationError (Valve::VR::CVRApplications::*)(::Il2CppString*, ::Il2CppString*, ::ArrayWrapper<Valve::VR::AppOverrideKeys_t>)>(&Valve::VR::CVRApplications::LaunchTemplateApplication)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::EVRApplicationError (Valve::VR::CVRApplications::*)(::Il2CppString*, ::Il2CppString*, ::ArrayW<Valve::VR::AppOverrideKeys_t>)>(&Valve::VR::CVRApplications::LaunchTemplateApplication)> {
   static const MethodInfo* get() {
     static auto* pchTemplateAppKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* pchNewAppKey = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

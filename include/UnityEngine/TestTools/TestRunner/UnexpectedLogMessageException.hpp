@@ -32,12 +32,18 @@ namespace UnityEngine::TestTools::TestRunner {
   // [TokenAttribute] Offset: FFFFFFFF
   class UnexpectedLogMessageException : public NUnit::Framework::ResultStateException {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.TestTools.Logging.LogMatch LogEvent
     // Size: 0x8
     // Offset: 0x88
     UnityEngine::TestTools::Logging::LogMatch* LogEvent;
     // Field size check
     static_assert(sizeof(UnityEngine::TestTools::Logging::LogMatch*) == 0x8);
+    public:
     // Creating conversion operator: operator UnityEngine::TestTools::Logging::LogMatch*
     constexpr operator UnityEngine::TestTools::Logging::LogMatch*() const noexcept {
       return LogEvent;

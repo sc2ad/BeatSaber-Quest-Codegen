@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: System.Runtime.Serialization
 namespace System::Runtime::Serialization {
@@ -18,12 +19,17 @@ namespace System::Runtime::Serialization {
   // [TokenAttribute] Offset: FFFFFFFF
   class LongList : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int64[] m_values
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<int64_t> m_values;
+    ::ArrayW<int64_t> m_values;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int64_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<int64_t>) == 0x8);
     // private System.Int32 m_count
     // Size: 0x4
     // Offset: 0x18
@@ -42,8 +48,9 @@ namespace System::Runtime::Serialization {
     int m_currentItem;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: private System.Int64[] m_values
-    ::ArrayWrapper<int64_t>& dyn_m_values();
+    ::ArrayW<int64_t>& dyn_m_values();
     // Get instance field reference: private System.Int32 m_count
     int& dyn_m_count();
     // Get instance field reference: private System.Int32 m_totalItems

@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -37,12 +38,17 @@ namespace LiteNetLib::Utils {
   // [TokenAttribute] Offset: FFFFFFFF
   class NetDataWriter : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // protected System.Byte[] _data
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<uint8_t> data;
+    ::ArrayW<uint8_t> data;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // protected System.Int32 _position
     // Size: 0x4
     // Offset: 0x18
@@ -55,6 +61,7 @@ namespace LiteNetLib::Utils {
     bool autoResize;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // static field const value: static private System.Int32 InitialSize
     static constexpr const int InitialSize = 64;
     // Get static field: static private System.Int32 InitialSize
@@ -62,7 +69,7 @@ namespace LiteNetLib::Utils {
     // Set static field: static private System.Int32 InitialSize
     static void _set_InitialSize(int value);
     // Get instance field reference: protected System.Byte[] _data
-    ::ArrayWrapper<uint8_t>& dyn__data();
+    ::ArrayW<uint8_t>& dyn__data();
     // Get instance field reference: protected System.Int32 _position
     int& dyn__position();
     // Get instance field reference: private readonly System.Boolean _autoResize
@@ -72,7 +79,7 @@ namespace LiteNetLib::Utils {
     int get_Capacity();
     // public System.Byte[] get_Data()
     // Offset: 0x1DE4568
-    ::ArrayWrapper<uint8_t> get_Data();
+    ::ArrayW<uint8_t> get_Data();
     // public System.Int32 get_Length()
     // Offset: 0x1DE4570
     int get_Length();
@@ -92,10 +99,10 @@ namespace LiteNetLib::Utils {
     }
     // static public LiteNetLib.Utils.NetDataWriter FromBytes(System.Byte[] bytes, System.Boolean copy)
     // Offset: 0x1DE411C
-    static LiteNetLib::Utils::NetDataWriter* FromBytes(::ArrayWrapper<uint8_t> bytes, bool copy);
+    static LiteNetLib::Utils::NetDataWriter* FromBytes(::ArrayW<uint8_t> bytes, bool copy);
     // static public LiteNetLib.Utils.NetDataWriter FromBytes(System.Byte[] bytes, System.Int32 offset, System.Int32 length)
     // Offset: 0x1DE424C
-    static LiteNetLib::Utils::NetDataWriter* FromBytes(::ArrayWrapper<uint8_t> bytes, int offset, int length);
+    static LiteNetLib::Utils::NetDataWriter* FromBytes(::ArrayW<uint8_t> bytes, int offset, int length);
     // static public LiteNetLib.Utils.NetDataWriter FromString(System.String value)
     // Offset: 0x1DDBADC
     static LiteNetLib::Utils::NetDataWriter* FromString(::Il2CppString* value);
@@ -110,7 +117,7 @@ namespace LiteNetLib::Utils {
     void Reset();
     // public System.Byte[] CopyData()
     // Offset: 0x1DE44EC
-    ::ArrayWrapper<uint8_t> CopyData();
+    ::ArrayW<uint8_t> CopyData();
     // public System.Void Put(System.Single value)
     // Offset: 0x1DE4578
     void Put(float value);
@@ -146,22 +153,22 @@ namespace LiteNetLib::Utils {
     void Put(uint8_t value);
     // public System.Void Put(System.Byte[] data, System.Int32 offset, System.Int32 length)
     // Offset: 0x1DE42E0
-    void Put(::ArrayWrapper<uint8_t> data, int offset, int length);
+    void Put(::ArrayW<uint8_t> data, int offset, int length);
     // public System.Void Put(System.Byte[] data)
     // Offset: 0x1DE41D4
-    void Put(::ArrayWrapper<uint8_t> data);
+    void Put(::ArrayW<uint8_t> data);
     // public System.Void PutSBytesWithLength(System.SByte[] data, System.Int32 offset, System.Int32 length)
     // Offset: 0x1DE4964
-    void PutSBytesWithLength(::ArrayWrapper<int8_t> data, int offset, int length);
+    void PutSBytesWithLength(::ArrayW<int8_t> data, int offset, int length);
     // public System.Void PutSBytesWithLength(System.SByte[] data)
     // Offset: 0x1DE49FC
-    void PutSBytesWithLength(::ArrayWrapper<int8_t> data);
+    void PutSBytesWithLength(::ArrayW<int8_t> data);
     // public System.Void PutBytesWithLength(System.Byte[] data, System.Int32 offset, System.Int32 length)
     // Offset: 0x1DE4A90
-    void PutBytesWithLength(::ArrayWrapper<uint8_t> data, int offset, int length);
+    void PutBytesWithLength(::ArrayW<uint8_t> data, int offset, int length);
     // public System.Void PutBytesWithLength(System.Byte[] data)
     // Offset: 0x1DE4B28
-    void PutBytesWithLength(::ArrayWrapper<uint8_t> data);
+    void PutBytesWithLength(::ArrayW<uint8_t> data);
     // public System.Void Put(System.Boolean value)
     // Offset: 0x1DE4BBC
     void Put(bool value);
@@ -170,37 +177,37 @@ namespace LiteNetLib::Utils {
     void PutArray(System::Array* arr, int sz);
     // public System.Void PutArray(System.Single[] value)
     // Offset: 0x1DE4CE4
-    void PutArray(::ArrayWrapper<float> value);
+    void PutArray(::ArrayW<float> value);
     // public System.Void PutArray(System.Double[] value)
     // Offset: 0x1DE4CEC
-    void PutArray(::ArrayWrapper<double> value);
+    void PutArray(::ArrayW<double> value);
     // public System.Void PutArray(System.Int64[] value)
     // Offset: 0x1DE4CF4
-    void PutArray(::ArrayWrapper<int64_t> value);
+    void PutArray(::ArrayW<int64_t> value);
     // public System.Void PutArray(System.UInt64[] value)
     // Offset: 0x1DE4CFC
-    void PutArray(::ArrayWrapper<uint64_t> value);
+    void PutArray(::ArrayW<uint64_t> value);
     // public System.Void PutArray(System.Int32[] value)
     // Offset: 0x1DE4D04
-    void PutArray(::ArrayWrapper<int> value);
+    void PutArray(::ArrayW<int> value);
     // public System.Void PutArray(System.UInt32[] value)
     // Offset: 0x1DE4D0C
-    void PutArray(::ArrayWrapper<uint> value);
+    void PutArray(::ArrayW<uint> value);
     // public System.Void PutArray(System.UInt16[] value)
     // Offset: 0x1DE4D14
-    void PutArray(::ArrayWrapper<uint16_t> value);
+    void PutArray(::ArrayW<uint16_t> value);
     // public System.Void PutArray(System.Int16[] value)
     // Offset: 0x1DE4D1C
-    void PutArray(::ArrayWrapper<int16_t> value);
+    void PutArray(::ArrayW<int16_t> value);
     // public System.Void PutArray(System.Boolean[] value)
     // Offset: 0x1DE4D24
-    void PutArray(::ArrayWrapper<bool> value);
+    void PutArray(::ArrayW<bool> value);
     // public System.Void PutArray(System.String[] value)
     // Offset: 0x1DE4D2C
-    void PutArray(::ArrayWrapper<::Il2CppString*> value);
+    void PutArray(::ArrayW<::Il2CppString*> value);
     // public System.Void PutArray(System.String[] value, System.Int32 maxLength)
     // Offset: 0x1DE4DCC
-    void PutArray(::ArrayWrapper<::Il2CppString*> value, int maxLength);
+    void PutArray(::ArrayW<::Il2CppString*> value, int maxLength);
     // public System.Void Put(System.Net.IPEndPoint endPoint)
     // Offset: 0x1DE4F60
     void Put(System::Net::IPEndPoint* endPoint);
@@ -248,7 +255,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LiteNe
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::get_Data
 // Il2CppName: get_Data
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (LiteNetLib::Utils::NetDataWriter::*)()>(&LiteNetLib::Utils::NetDataWriter::get_Data)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (LiteNetLib::Utils::NetDataWriter::*)()>(&LiteNetLib::Utils::NetDataWriter::get_Data)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataWriter*), "get_Data", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -272,7 +279,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (LiteNe
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::FromBytes
 // Il2CppName: FromBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::Utils::NetDataWriter* (*)(::ArrayWrapper<uint8_t>, bool)>(&LiteNetLib::Utils::NetDataWriter::FromBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::Utils::NetDataWriter* (*)(::ArrayW<uint8_t>, bool)>(&LiteNetLib::Utils::NetDataWriter::FromBytes)> {
   static const MethodInfo* get() {
     static auto* bytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* copy = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -282,7 +289,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib:
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::FromBytes
 // Il2CppName: FromBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::Utils::NetDataWriter* (*)(::ArrayWrapper<uint8_t>, int, int)>(&LiteNetLib::Utils::NetDataWriter::FromBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<LiteNetLib::Utils::NetDataWriter* (*)(::ArrayW<uint8_t>, int, int)>(&LiteNetLib::Utils::NetDataWriter::FromBytes)> {
   static const MethodInfo* get() {
     static auto* bytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -328,7 +335,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::CopyData
 // Il2CppName: CopyData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (LiteNetLib::Utils::NetDataWriter::*)()>(&LiteNetLib::Utils::NetDataWriter::CopyData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (LiteNetLib::Utils::NetDataWriter::*)()>(&LiteNetLib::Utils::NetDataWriter::CopyData)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataWriter*), "CopyData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -435,7 +442,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::Put
 // Il2CppName: Put
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(::ArrayWrapper<uint8_t>, int, int)>(&LiteNetLib::Utils::NetDataWriter::Put)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(::ArrayW<uint8_t>, int, int)>(&LiteNetLib::Utils::NetDataWriter::Put)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -446,7 +453,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::Put
 // Il2CppName: Put
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(::ArrayWrapper<uint8_t>)>(&LiteNetLib::Utils::NetDataWriter::Put)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(::ArrayW<uint8_t>)>(&LiteNetLib::Utils::NetDataWriter::Put)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataWriter*), "Put", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data});
@@ -455,7 +462,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::PutSBytesWithLength
 // Il2CppName: PutSBytesWithLength
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(::ArrayWrapper<int8_t>, int, int)>(&LiteNetLib::Utils::NetDataWriter::PutSBytesWithLength)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(::ArrayW<int8_t>, int, int)>(&LiteNetLib::Utils::NetDataWriter::PutSBytesWithLength)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "SByte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -466,7 +473,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::PutSBytesWithLength
 // Il2CppName: PutSBytesWithLength
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(::ArrayWrapper<int8_t>)>(&LiteNetLib::Utils::NetDataWriter::PutSBytesWithLength)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(::ArrayW<int8_t>)>(&LiteNetLib::Utils::NetDataWriter::PutSBytesWithLength)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "SByte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataWriter*), "PutSBytesWithLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data});
@@ -475,7 +482,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::PutBytesWithLength
 // Il2CppName: PutBytesWithLength
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(::ArrayWrapper<uint8_t>, int, int)>(&LiteNetLib::Utils::NetDataWriter::PutBytesWithLength)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(::ArrayW<uint8_t>, int, int)>(&LiteNetLib::Utils::NetDataWriter::PutBytesWithLength)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -486,7 +493,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::PutBytesWithLength
 // Il2CppName: PutBytesWithLength
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(::ArrayWrapper<uint8_t>)>(&LiteNetLib::Utils::NetDataWriter::PutBytesWithLength)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(::ArrayW<uint8_t>)>(&LiteNetLib::Utils::NetDataWriter::PutBytesWithLength)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataWriter*), "PutBytesWithLength", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data});
@@ -514,7 +521,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::PutArray
 // Il2CppName: PutArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(::ArrayWrapper<float>)>(&LiteNetLib::Utils::NetDataWriter::PutArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(::ArrayW<float>)>(&LiteNetLib::Utils::NetDataWriter::PutArray)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataWriter*), "PutArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -523,7 +530,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::PutArray
 // Il2CppName: PutArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(::ArrayWrapper<double>)>(&LiteNetLib::Utils::NetDataWriter::PutArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(::ArrayW<double>)>(&LiteNetLib::Utils::NetDataWriter::PutArray)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Double"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataWriter*), "PutArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -532,7 +539,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::PutArray
 // Il2CppName: PutArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(::ArrayWrapper<int64_t>)>(&LiteNetLib::Utils::NetDataWriter::PutArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(::ArrayW<int64_t>)>(&LiteNetLib::Utils::NetDataWriter::PutArray)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int64"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataWriter*), "PutArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -541,7 +548,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::PutArray
 // Il2CppName: PutArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(::ArrayWrapper<uint64_t>)>(&LiteNetLib::Utils::NetDataWriter::PutArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(::ArrayW<uint64_t>)>(&LiteNetLib::Utils::NetDataWriter::PutArray)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt64"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataWriter*), "PutArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -550,7 +557,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::PutArray
 // Il2CppName: PutArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(::ArrayWrapper<int>)>(&LiteNetLib::Utils::NetDataWriter::PutArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(::ArrayW<int>)>(&LiteNetLib::Utils::NetDataWriter::PutArray)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataWriter*), "PutArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -559,7 +566,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::PutArray
 // Il2CppName: PutArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(::ArrayWrapper<uint>)>(&LiteNetLib::Utils::NetDataWriter::PutArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(::ArrayW<uint>)>(&LiteNetLib::Utils::NetDataWriter::PutArray)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataWriter*), "PutArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -568,7 +575,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::PutArray
 // Il2CppName: PutArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(::ArrayWrapper<uint16_t>)>(&LiteNetLib::Utils::NetDataWriter::PutArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(::ArrayW<uint16_t>)>(&LiteNetLib::Utils::NetDataWriter::PutArray)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt16"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataWriter*), "PutArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -577,7 +584,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::PutArray
 // Il2CppName: PutArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(::ArrayWrapper<int16_t>)>(&LiteNetLib::Utils::NetDataWriter::PutArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(::ArrayW<int16_t>)>(&LiteNetLib::Utils::NetDataWriter::PutArray)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int16"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataWriter*), "PutArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -586,7 +593,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::PutArray
 // Il2CppName: PutArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(::ArrayWrapper<bool>)>(&LiteNetLib::Utils::NetDataWriter::PutArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(::ArrayW<bool>)>(&LiteNetLib::Utils::NetDataWriter::PutArray)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Boolean"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataWriter*), "PutArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -595,7 +602,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::PutArray
 // Il2CppName: PutArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(::ArrayWrapper<::Il2CppString*>)>(&LiteNetLib::Utils::NetDataWriter::PutArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(::ArrayW<::Il2CppString*>)>(&LiteNetLib::Utils::NetDataWriter::PutArray)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(LiteNetLib::Utils::NetDataWriter*), "PutArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -604,7 +611,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteN
 // Writing MetadataGetter for method: LiteNetLib::Utils::NetDataWriter::PutArray
 // Il2CppName: PutArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(::ArrayWrapper<::Il2CppString*>, int)>(&LiteNetLib::Utils::NetDataWriter::PutArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (LiteNetLib::Utils::NetDataWriter::*)(::ArrayW<::Il2CppString*>, int)>(&LiteNetLib::Utils::NetDataWriter::PutArray)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     static auto* maxLength = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

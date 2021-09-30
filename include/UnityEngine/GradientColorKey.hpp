@@ -19,6 +19,11 @@ namespace UnityEngine {
   // [UsedByNativeCodeAttribute] Offset: E71AB0
   struct GradientColorKey/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Color color
     // Size: 0x10
     // Offset: 0x0
@@ -31,6 +36,7 @@ namespace UnityEngine {
     float time;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: GradientColorKey
     constexpr GradientColorKey(UnityEngine::Color color_ = {}, float time_ = {}) noexcept : color{color_}, time{time_} {}
     // Creating interface conversion operator: operator System::ValueType

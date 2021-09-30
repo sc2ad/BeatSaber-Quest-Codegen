@@ -34,6 +34,11 @@ namespace System::Threading::Tasks {
   // [TokenAttribute] Offset: FFFFFFFF
   class TaskToApm::TaskWrapperAsyncResult : public ::Il2CppObject/*, public System::IAsyncResult*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // readonly System.Threading.Tasks.Task Task
     // Size: 0x8
     // Offset: 0x10
@@ -52,6 +57,7 @@ namespace System::Threading::Tasks {
     bool m_completedSynchronously;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator System::IAsyncResult
     operator System::IAsyncResult() noexcept {
       return *reinterpret_cast<System::IAsyncResult*>(this);

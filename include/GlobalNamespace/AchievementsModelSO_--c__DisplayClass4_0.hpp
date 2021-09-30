@@ -23,6 +23,11 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class AchievementsModelSO::$$c__DisplayClass4_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public AchievementsModelSO <>4__this
     // Size: 0x8
     // Offset: 0x10
@@ -35,6 +40,7 @@ namespace GlobalNamespace {
     ::Il2CppString* achievementId;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: public AchievementsModelSO <>4__this
     GlobalNamespace::AchievementsModelSO*& dyn_$$4__this();
     // Get instance field reference: public System.String achievementId

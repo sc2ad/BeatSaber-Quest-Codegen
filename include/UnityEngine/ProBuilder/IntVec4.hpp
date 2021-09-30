@@ -21,12 +21,18 @@ namespace UnityEngine::ProBuilder {
   // [TokenAttribute] Offset: FFFFFFFF
   struct IntVec4/*, public System::ValueType, public System::IEquatable_1<UnityEngine::ProBuilder::IntVec4>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Vector4 value
     // Size: 0x10
     // Offset: 0x0
     UnityEngine::Vector4 value;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector4) == 0x10);
+    public:
     // Creating value type constructor for type: IntVec4
     constexpr IntVec4(UnityEngine::Vector4 value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::ValueType

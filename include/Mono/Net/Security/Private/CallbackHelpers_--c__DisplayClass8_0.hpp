@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Mono::Security::Interface
@@ -35,12 +36,18 @@ namespace Mono::Net::Security::Private {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class CallbackHelpers::$$c__DisplayClass8_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public Mono.Security.Interface.MonoLocalCertificateSelectionCallback callback
     // Size: 0x8
     // Offset: 0x10
     Mono::Security::Interface::MonoLocalCertificateSelectionCallback* callback;
     // Field size check
     static_assert(sizeof(Mono::Security::Interface::MonoLocalCertificateSelectionCallback*) == 0x8);
+    public:
     // Creating conversion operator: operator Mono::Security::Interface::MonoLocalCertificateSelectionCallback*
     constexpr operator Mono::Security::Interface::MonoLocalCertificateSelectionCallback*() const noexcept {
       return callback;
@@ -49,7 +56,7 @@ namespace Mono::Net::Security::Private {
     Mono::Security::Interface::MonoLocalCertificateSelectionCallback*& dyn_callback();
     // System.Security.Cryptography.X509Certificates.X509Certificate <MonoToInternal>b__0(System.String t, System.Security.Cryptography.X509Certificates.X509CertificateCollection lc, System.Security.Cryptography.X509Certificates.X509Certificate rc, System.String[] ai)
     // Offset: 0x17C1EC0
-    System::Security::Cryptography::X509Certificates::X509Certificate* $MonoToInternal$b__0(::Il2CppString* t, System::Security::Cryptography::X509Certificates::X509CertificateCollection* lc, System::Security::Cryptography::X509Certificates::X509Certificate* rc, ::ArrayWrapper<::Il2CppString*> ai);
+    System::Security::Cryptography::X509Certificates::X509Certificate* $MonoToInternal$b__0(::Il2CppString* t, System::Security::Cryptography::X509Certificates::X509CertificateCollection* lc, System::Security::Cryptography::X509Certificates::X509Certificate* rc, ::ArrayW<::Il2CppString*> ai);
     // public System.Void .ctor()
     // Offset: 0x17C1E7C
     // Implemented from: System.Object
@@ -69,7 +76,7 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::Net::Security::Private::CallbackHelpers::$$c__Displ
 // Writing MetadataGetter for method: Mono::Net::Security::Private::CallbackHelpers::$$c__DisplayClass8_0::$MonoToInternal$b__0
 // Il2CppName: <MonoToInternal>b__0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509Certificate* (Mono::Net::Security::Private::CallbackHelpers::$$c__DisplayClass8_0::*)(::Il2CppString*, System::Security::Cryptography::X509Certificates::X509CertificateCollection*, System::Security::Cryptography::X509Certificates::X509Certificate*, ::ArrayWrapper<::Il2CppString*>)>(&Mono::Net::Security::Private::CallbackHelpers::$$c__DisplayClass8_0::$MonoToInternal$b__0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509Certificate* (Mono::Net::Security::Private::CallbackHelpers::$$c__DisplayClass8_0::*)(::Il2CppString*, System::Security::Cryptography::X509Certificates::X509CertificateCollection*, System::Security::Cryptography::X509Certificates::X509Certificate*, ::ArrayW<::Il2CppString*>)>(&Mono::Net::Security::Private::CallbackHelpers::$$c__DisplayClass8_0::$MonoToInternal$b__0)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* lc = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509CertificateCollection")->byval_arg;

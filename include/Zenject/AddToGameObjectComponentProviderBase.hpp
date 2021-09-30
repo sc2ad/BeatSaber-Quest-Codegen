@@ -56,6 +56,11 @@ namespace Zenject {
     public:
     // Nested type: Zenject::AddToGameObjectComponentProviderBase::$$c__DisplayClass17_0
     class $$c__DisplayClass17_0;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Type _componentType
     // Size: 0x8
     // Offset: 0x10
@@ -86,6 +91,7 @@ namespace Zenject {
     System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>* instantiateCallback;
     // Field size check
     static_assert(sizeof(System::Action_2<Zenject::InjectContext*, ::Il2CppObject*>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator Zenject::IProvider
     operator Zenject::IProvider() noexcept {
       return *reinterpret_cast<Zenject::IProvider*>(this);

@@ -59,12 +59,18 @@ namespace UnityEngine {
     // [TokenAttribute] Offset: FFFFFFFF
     struct DblClickSnapping/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Byte value__
       // Size: 0x1
       // Offset: 0x0
       uint8_t value;
       // Field size check
       static_assert(sizeof(uint8_t) == 0x1);
+      public:
       // Creating value type constructor for type: DblClickSnapping
       constexpr DblClickSnapping(uint8_t value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -99,12 +105,18 @@ namespace UnityEngine {
     // [TokenAttribute] Offset: FFFFFFFF
     struct TextEditOp/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: TextEditOp
       constexpr TextEditOp(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -421,6 +433,11 @@ namespace UnityEngine {
     #pragma pack(pop)
     static check_size<sizeof(TextEditor::TextEditOp), 0 + sizeof(int)> __UnityEngine_TextEditor_TextEditOpSizeCheck;
     static_assert(sizeof(TextEditor::TextEditOp) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.TouchScreenKeyboard keyboardOnScreen
     // Size: 0x8
     // Offset: 0x10
@@ -571,6 +588,7 @@ namespace UnityEngine {
     int oldSelectPos;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get static field: static private System.Collections.Generic.Dictionary`2<UnityEngine.Event,UnityEngine.TextEditor/UnityEngine.TextEditOp> s_Keyactions
     static System::Collections::Generic::Dictionary_2<UnityEngine::Event*, UnityEngine::TextEditor::TextEditOp>* _get_s_Keyactions();
     // Set static field: static private System.Collections.Generic.Dictionary`2<UnityEngine.Event,UnityEngine.TextEditor/UnityEngine.TextEditOp> s_Keyactions

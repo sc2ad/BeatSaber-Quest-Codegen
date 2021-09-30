@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Security::Cryptography
@@ -28,6 +29,11 @@ namespace System::Security::Cryptography {
   // [ComVisibleAttribute] Offset: E5F0E0
   class AsymmetricAlgorithm : public ::Il2CppObject/*, public System::IDisposable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // protected System.Int32 KeySizeValue
     // Size: 0x4
     // Offset: 0x10
@@ -39,9 +45,10 @@ namespace System::Security::Cryptography {
     // protected System.Security.Cryptography.KeySizes[] LegalKeySizesValue
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<System::Security::Cryptography::KeySizes*> LegalKeySizesValue;
+    ::ArrayW<System::Security::Cryptography::KeySizes*> LegalKeySizesValue;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<System::Security::Cryptography::KeySizes*>) == 0x8);
+    static_assert(sizeof(::ArrayW<System::Security::Cryptography::KeySizes*>) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
@@ -49,7 +56,7 @@ namespace System::Security::Cryptography {
     // Get instance field reference: protected System.Int32 KeySizeValue
     int& dyn_KeySizeValue();
     // Get instance field reference: protected System.Security.Cryptography.KeySizes[] LegalKeySizesValue
-    ::ArrayWrapper<System::Security::Cryptography::KeySizes*>& dyn_LegalKeySizesValue();
+    ::ArrayW<System::Security::Cryptography::KeySizes*>& dyn_LegalKeySizesValue();
     // public System.Int32 get_KeySize()
     // Offset: 0x1A6CB10
     int get_KeySize();
@@ -82,7 +89,7 @@ namespace System::Security::Cryptography {
     }
   }; // System.Security.Cryptography.AsymmetricAlgorithm
   #pragma pack(pop)
-  static check_size<sizeof(AsymmetricAlgorithm), 24 + sizeof(::ArrayWrapper<System::Security::Cryptography::KeySizes*>)> __System_Security_Cryptography_AsymmetricAlgorithmSizeCheck;
+  static check_size<sizeof(AsymmetricAlgorithm), 24 + sizeof(::ArrayW<System::Security::Cryptography::KeySizes*>)> __System_Security_Cryptography_AsymmetricAlgorithmSizeCheck;
   static_assert(sizeof(AsymmetricAlgorithm) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::AsymmetricAlgorithm*, "System.Security.Cryptography", "AsymmetricAlgorithm");

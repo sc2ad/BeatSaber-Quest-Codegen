@@ -20,6 +20,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class TrailElement : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Vector3 <position>k__BackingField
     // Size: 0xC
     // Offset: 0x10
@@ -44,6 +49,7 @@ namespace GlobalNamespace {
     float time;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: private UnityEngine.Vector3 <position>k__BackingField
     UnityEngine::Vector3& dyn_$position$k__BackingField();
     // Get instance field reference: private UnityEngine.Vector3 <normal>k__BackingField

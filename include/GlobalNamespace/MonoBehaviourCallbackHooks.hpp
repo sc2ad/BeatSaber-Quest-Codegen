@@ -27,12 +27,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MonoBehaviourCallbackHooks : public UnityEngine::ResourceManagement::Util::ComponentSingleton_1<GlobalNamespace::MonoBehaviourCallbackHooks*> {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Action`1<System.Single> m_OnUpdateDelegate
     // Size: 0x8
     // Offset: 0x18
     System::Action_1<float>* m_OnUpdateDelegate;
     // Field size check
     static_assert(sizeof(System::Action_1<float>*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: System.Action`1<System.Single> m_OnUpdateDelegate

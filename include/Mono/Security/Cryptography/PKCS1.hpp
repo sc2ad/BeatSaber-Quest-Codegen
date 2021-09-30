@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Security::Cryptography
@@ -22,21 +23,21 @@ namespace Mono::Security::Cryptography {
   class PKCS1 : public ::Il2CppObject {
     public:
     // Get static field: static private System.Byte[] emptySHA1
-    static ::ArrayWrapper<uint8_t> _get_emptySHA1();
+    static ::ArrayW<uint8_t> _get_emptySHA1();
     // Set static field: static private System.Byte[] emptySHA1
-    static void _set_emptySHA1(::ArrayWrapper<uint8_t> value);
+    static void _set_emptySHA1(::ArrayW<uint8_t> value);
     // Get static field: static private System.Byte[] emptySHA256
-    static ::ArrayWrapper<uint8_t> _get_emptySHA256();
+    static ::ArrayW<uint8_t> _get_emptySHA256();
     // Set static field: static private System.Byte[] emptySHA256
-    static void _set_emptySHA256(::ArrayWrapper<uint8_t> value);
+    static void _set_emptySHA256(::ArrayW<uint8_t> value);
     // Get static field: static private System.Byte[] emptySHA384
-    static ::ArrayWrapper<uint8_t> _get_emptySHA384();
+    static ::ArrayW<uint8_t> _get_emptySHA384();
     // Set static field: static private System.Byte[] emptySHA384
-    static void _set_emptySHA384(::ArrayWrapper<uint8_t> value);
+    static void _set_emptySHA384(::ArrayW<uint8_t> value);
     // Get static field: static private System.Byte[] emptySHA512
-    static ::ArrayWrapper<uint8_t> _get_emptySHA512();
+    static ::ArrayW<uint8_t> _get_emptySHA512();
     // Set static field: static private System.Byte[] emptySHA512
-    static void _set_emptySHA512(::ArrayWrapper<uint8_t> value);
+    static void _set_emptySHA512(::ArrayW<uint8_t> value);
     // static private System.Void .cctor()
     // Offset: 0x1F9E2A4
     static void _cctor();

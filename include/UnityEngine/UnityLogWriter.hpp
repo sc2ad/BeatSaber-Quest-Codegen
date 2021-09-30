@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text
@@ -67,7 +68,7 @@ namespace UnityEngine {
     // Offset: 0x2349C20
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Write(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    void Write(::ArrayWrapper<::Il2CppChar> buffer, int index, int count);
+    void Write(::ArrayW<::Il2CppChar> buffer, int index, int count);
   }; // UnityEngine.UnityLogWriter
   #pragma pack(pop)
 }
@@ -132,7 +133,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::UnityLogWriter::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UnityLogWriter::*)(::ArrayWrapper<::Il2CppChar>, int, int)>(&UnityEngine::UnityLogWriter::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::UnityLogWriter::*)(::ArrayW<::Il2CppChar>, int, int)>(&UnityEngine::UnityLogWriter::Write)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

@@ -26,12 +26,18 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class IKSolverCCD : public RootMotion::FinalIK::IKSolverHeuristic {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.IterationDelegate OnPreIteration
     // Size: 0x8
     // Offset: 0x88
     RootMotion::FinalIK::IKSolver::IterationDelegate* OnPreIteration;
     // Field size check
     static_assert(sizeof(RootMotion::FinalIK::IKSolver::IterationDelegate*) == 0x8);
+    public:
     // Creating conversion operator: operator RootMotion::FinalIK::IKSolver::IterationDelegate*
     constexpr operator RootMotion::FinalIK::IKSolver::IterationDelegate*() const noexcept {
       return OnPreIteration;

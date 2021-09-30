@@ -46,6 +46,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::BeatEffectSpawner::InitData
     class InitData;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Single _effectDuration
     // Size: 0x4
     // Offset: 0x18
@@ -100,6 +105,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::BeatEffect*>* beatEffectPoolContainer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::BeatEffect*>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IBeatEffectDidFinishEvent
     operator GlobalNamespace::IBeatEffectDidFinishEvent() noexcept {
       return *reinterpret_cast<GlobalNamespace::IBeatEffectDidFinishEvent*>(this);

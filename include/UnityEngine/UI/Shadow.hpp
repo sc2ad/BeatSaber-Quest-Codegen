@@ -44,6 +44,11 @@ namespace UnityEngine::UI {
   // [AddComponentMenu] Offset: EA87F8
   class Shadow : public UnityEngine::UI::BaseMeshEffect {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Color m_EffectColor
     // Size: 0x10
     // Offset: 0x20
@@ -62,6 +67,7 @@ namespace UnityEngine::UI {
     bool m_UseGraphicAlpha;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // static field const value: static private System.Single kMaxEffectDistance
     static constexpr const float kMaxEffectDistance = 600;
     // Get static field: static private System.Single kMaxEffectDistance

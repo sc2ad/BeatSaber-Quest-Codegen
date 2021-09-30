@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -39,12 +40,18 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E8B9BC
   class HumanPoseHandler : public ::Il2CppObject/*, public System::IDisposable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.IntPtr m_Ptr
     // Size: 0x8
     // Offset: 0x10
     System::IntPtr m_Ptr;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
@@ -70,7 +77,7 @@ namespace UnityEngine {
     static void Internal_Destroy(System::IntPtr ptr);
     // private System.Void GetHumanPose(out UnityEngine.Vector3 bodyPosition, out UnityEngine.Quaternion bodyRotation, out System.Single[] muscles)
     // Offset: 0x2598038
-    void GetHumanPose(ByRef<UnityEngine::Vector3> bodyPosition, ByRef<UnityEngine::Quaternion> bodyRotation, ByRef<::ArrayWrapper<float>> muscles);
+    void GetHumanPose(ByRef<UnityEngine::Vector3> bodyPosition, ByRef<UnityEngine::Quaternion> bodyRotation, ByRef<::ArrayW<float>> muscles);
     // public System.Void Dispose()
     // Offset: 0x25980A0
     void Dispose();
@@ -110,7 +117,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Sy
 // Writing MetadataGetter for method: UnityEngine::HumanPoseHandler::GetHumanPose
 // Il2CppName: GetHumanPose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::HumanPoseHandler::*)(ByRef<UnityEngine::Vector3>, ByRef<UnityEngine::Quaternion>, ByRef<::ArrayWrapper<float>>)>(&UnityEngine::HumanPoseHandler::GetHumanPose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::HumanPoseHandler::*)(ByRef<UnityEngine::Vector3>, ByRef<UnityEngine::Quaternion>, ByRef<::ArrayW<float>>)>(&UnityEngine::HumanPoseHandler::GetHumanPose)> {
   static const MethodInfo* get() {
     static auto* bodyPosition = &::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")->this_arg;
     static auto* bodyRotation = &::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion")->this_arg;

@@ -21,6 +21,11 @@ namespace JetBrains::Annotations {
   // [AttributeUsageAttribute] Offset: EADE18
   class RazorPageBaseTypeAttribute : public System::Attribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String <BaseType>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -33,6 +38,7 @@ namespace JetBrains::Annotations {
     ::Il2CppString* PageName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: private System.String <BaseType>k__BackingField
     ::Il2CppString*& dyn_$BaseType$k__BackingField();
     // Get instance field reference: private System.String <PageName>k__BackingField

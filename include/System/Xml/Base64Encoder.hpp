@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: System.Xml
 namespace System::Xml {
@@ -18,12 +19,17 @@ namespace System::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   class Base64Encoder : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Byte[] leftOverBytes
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<uint8_t> leftOverBytes;
+    ::ArrayW<uint8_t> leftOverBytes;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Int32 leftOverBytesCount
     // Size: 0x4
     // Offset: 0x18
@@ -35,21 +41,22 @@ namespace System::Xml {
     // private System.Char[] charsLine
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<::Il2CppChar> charsLine;
+    ::ArrayW<::Il2CppChar> charsLine;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppChar>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppChar>) == 0x8);
+    public:
     // Get instance field reference: private System.Byte[] leftOverBytes
-    ::ArrayWrapper<uint8_t>& dyn_leftOverBytes();
+    ::ArrayW<uint8_t>& dyn_leftOverBytes();
     // Get instance field reference: private System.Int32 leftOverBytesCount
     int& dyn_leftOverBytesCount();
     // Get instance field reference: private System.Char[] charsLine
-    ::ArrayWrapper<::Il2CppChar>& dyn_charsLine();
+    ::ArrayW<::Il2CppChar>& dyn_charsLine();
     // System.Void WriteChars(System.Char[] chars, System.Int32 index, System.Int32 count)
     // Offset: 0xFFFFFFFF
-    void WriteChars(::ArrayWrapper<::Il2CppChar> chars, int index, int count);
+    void WriteChars(::ArrayW<::Il2CppChar> chars, int index, int count);
     // System.Void Encode(System.Byte[] buffer, System.Int32 index, System.Int32 count)
     // Offset: 0x1AF50DC
-    void Encode(::ArrayWrapper<uint8_t> buffer, int index, int count);
+    void Encode(::ArrayW<uint8_t> buffer, int index, int count);
     // System.Void Flush()
     // Offset: 0x1AF5410
     void Flush();
@@ -64,7 +71,7 @@ namespace System::Xml {
     }
   }; // System.Xml.Base64Encoder
   #pragma pack(pop)
-  static check_size<sizeof(Base64Encoder), 32 + sizeof(::ArrayWrapper<::Il2CppChar>)> __System_Xml_Base64EncoderSizeCheck;
+  static check_size<sizeof(Base64Encoder), 32 + sizeof(::ArrayW<::Il2CppChar>)> __System_Xml_Base64EncoderSizeCheck;
   static_assert(sizeof(Base64Encoder) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Xml::Base64Encoder*, "System.Xml", "Base64Encoder");
@@ -72,7 +79,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Xml::Base64Encoder*, "System.Xml", "Base64Encoder
 // Writing MetadataGetter for method: System::Xml::Base64Encoder::WriteChars
 // Il2CppName: WriteChars
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Base64Encoder::*)(::ArrayWrapper<::Il2CppChar>, int, int)>(&System::Xml::Base64Encoder::WriteChars)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Base64Encoder::*)(::ArrayW<::Il2CppChar>, int, int)>(&System::Xml::Base64Encoder::WriteChars)> {
   static const MethodInfo* get() {
     static auto* chars = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -83,7 +90,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Xml::Base64Encoder::Encode
 // Il2CppName: Encode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Base64Encoder::*)(::ArrayWrapper<uint8_t>, int, int)>(&System::Xml::Base64Encoder::Encode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Xml::Base64Encoder::*)(::ArrayW<uint8_t>, int, int)>(&System::Xml::Base64Encoder::Encode)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

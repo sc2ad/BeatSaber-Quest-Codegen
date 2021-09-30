@@ -58,6 +58,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PSVRHelper : public UnityEngine::MonoBehaviour/*, public GlobalNamespace::IVRPlatformHelper*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Action inputFocusWasCapturedEvent
     // Size: 0x8
     // Offset: 0x18
@@ -120,6 +125,7 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<UnityEngine::XR::XRNodeState>* nodeStates;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::XR::XRNodeState>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IVRPlatformHelper
     operator GlobalNamespace::IVRPlatformHelper() noexcept {
       return *reinterpret_cast<GlobalNamespace::IVRPlatformHelper*>(this);

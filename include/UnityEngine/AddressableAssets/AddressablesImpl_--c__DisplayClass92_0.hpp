@@ -47,6 +47,11 @@ namespace UnityEngine::AddressableAssets {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class AddressablesImpl::$$c__DisplayClass92_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.AddressableAssets.AddressablesImpl <>4__this
     // Size: 0x8
     // Offset: 0x10
@@ -59,6 +64,7 @@ namespace UnityEngine::AddressableAssets {
     System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* locations;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*) == 0x8);
+    public:
     // Get instance field reference: public UnityEngine.AddressableAssets.AddressablesImpl <>4__this
     UnityEngine::AddressableAssets::AddressablesImpl*& dyn_$$4__this();
     // Get instance field reference: public System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation> locations

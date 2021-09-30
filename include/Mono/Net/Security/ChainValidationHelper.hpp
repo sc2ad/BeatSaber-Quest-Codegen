@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Mono::Security::Interface
@@ -62,6 +63,11 @@ namespace Mono::Net::Security {
   // [TokenAttribute] Offset: FFFFFFFF
   class ChainValidationHelper : public ::Il2CppObject/*, public Mono::Security::Interface::ICertificateValidator2*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Object sender
     // Size: 0x8
     // Offset: 0x10
@@ -110,6 +116,7 @@ namespace Mono::Net::Security {
     System::Net::HttpWebRequest* request;
     // Field size check
     static_assert(sizeof(System::Net::HttpWebRequest*) == 0x8);
+    public:
     // Creating interface conversion operator: operator Mono::Security::Interface::ICertificateValidator2
     operator Mono::Security::Interface::ICertificateValidator2() noexcept {
       return *reinterpret_cast<Mono::Security::Interface::ICertificateValidator2*>(this);
@@ -148,10 +155,10 @@ namespace Mono::Net::Security {
     static Mono::Net::Security::ChainValidationHelper* Create(Mono::Security::Interface::MonoTlsProvider* provider, ByRef<Mono::Security::Interface::MonoTlsSettings*> settings, Mono::Net::Security::MonoTlsStream* stream);
     // static private System.Security.Cryptography.X509Certificates.X509Certificate DefaultSelectionCallback(System.String targetHost, System.Security.Cryptography.X509Certificates.X509CertificateCollection localCertificates, System.Security.Cryptography.X509Certificates.X509Certificate remoteCertificate, System.String[] acceptableIssuers)
     // Offset: 0x17BC78C
-    static System::Security::Cryptography::X509Certificates::X509Certificate* DefaultSelectionCallback(::Il2CppString* targetHost, System::Security::Cryptography::X509Certificates::X509CertificateCollection* localCertificates, System::Security::Cryptography::X509Certificates::X509Certificate* remoteCertificate, ::ArrayWrapper<::Il2CppString*> acceptableIssuers);
+    static System::Security::Cryptography::X509Certificates::X509Certificate* DefaultSelectionCallback(::Il2CppString* targetHost, System::Security::Cryptography::X509Certificates::X509CertificateCollection* localCertificates, System::Security::Cryptography::X509Certificates::X509Certificate* remoteCertificate, ::ArrayW<::Il2CppString*> acceptableIssuers);
     // public System.Boolean SelectClientCertificate(System.String targetHost, System.Security.Cryptography.X509Certificates.X509CertificateCollection localCertificates, System.Security.Cryptography.X509Certificates.X509Certificate remoteCertificate, System.String[] acceptableIssuers, out System.Security.Cryptography.X509Certificates.X509Certificate clientCertificate)
     // Offset: 0x17BC7E0
-    bool SelectClientCertificate(::Il2CppString* targetHost, System::Security::Cryptography::X509Certificates::X509CertificateCollection* localCertificates, System::Security::Cryptography::X509Certificates::X509Certificate* remoteCertificate, ::ArrayWrapper<::Il2CppString*> acceptableIssuers, ByRef<System::Security::Cryptography::X509Certificates::X509Certificate*> clientCertificate);
+    bool SelectClientCertificate(::Il2CppString* targetHost, System::Security::Cryptography::X509Certificates::X509CertificateCollection* localCertificates, System::Security::Cryptography::X509Certificates::X509Certificate* remoteCertificate, ::ArrayW<::Il2CppString*> acceptableIssuers, ByRef<System::Security::Cryptography::X509Certificates::X509Certificate*> clientCertificate);
     // public Mono.Security.Interface.ValidationResult ValidateCertificate(System.String host, System.Boolean serverMode, System.Security.Cryptography.X509Certificates.X509CertificateCollection certs)
     // Offset: 0x17BC820
     Mono::Security::Interface::ValidationResult* ValidateCertificate(::Il2CppString* host, bool serverMode, System::Security::Cryptography::X509Certificates::X509CertificateCollection* certs);
@@ -207,7 +214,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Net::
 // Writing MetadataGetter for method: Mono::Net::Security::ChainValidationHelper::DefaultSelectionCallback
 // Il2CppName: DefaultSelectionCallback
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509Certificate* (*)(::Il2CppString*, System::Security::Cryptography::X509Certificates::X509CertificateCollection*, System::Security::Cryptography::X509Certificates::X509Certificate*, ::ArrayWrapper<::Il2CppString*>)>(&Mono::Net::Security::ChainValidationHelper::DefaultSelectionCallback)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::X509Certificates::X509Certificate* (*)(::Il2CppString*, System::Security::Cryptography::X509Certificates::X509CertificateCollection*, System::Security::Cryptography::X509Certificates::X509Certificate*, ::ArrayW<::Il2CppString*>)>(&Mono::Net::Security::ChainValidationHelper::DefaultSelectionCallback)> {
   static const MethodInfo* get() {
     static auto* targetHost = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* localCertificates = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509CertificateCollection")->byval_arg;
@@ -219,7 +226,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 // Writing MetadataGetter for method: Mono::Net::Security::ChainValidationHelper::SelectClientCertificate
 // Il2CppName: SelectClientCertificate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Net::Security::ChainValidationHelper::*)(::Il2CppString*, System::Security::Cryptography::X509Certificates::X509CertificateCollection*, System::Security::Cryptography::X509Certificates::X509Certificate*, ::ArrayWrapper<::Il2CppString*>, ByRef<System::Security::Cryptography::X509Certificates::X509Certificate*>)>(&Mono::Net::Security::ChainValidationHelper::SelectClientCertificate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Net::Security::ChainValidationHelper::*)(::Il2CppString*, System::Security::Cryptography::X509Certificates::X509CertificateCollection*, System::Security::Cryptography::X509Certificates::X509Certificate*, ::ArrayW<::Il2CppString*>, ByRef<System::Security::Cryptography::X509Certificates::X509Certificate*>)>(&Mono::Net::Security::ChainValidationHelper::SelectClientCertificate)> {
   static const MethodInfo* get() {
     static auto* targetHost = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* localCertificates = &::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509CertificateCollection")->byval_arg;

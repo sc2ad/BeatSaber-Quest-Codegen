@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections
@@ -26,6 +27,11 @@ namespace Mono::Security {
   // [DefaultMemberAttribute] Offset: E68028
   class ASN1 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Byte m_nTag
     // Size: 0x1
     // Offset: 0x10
@@ -37,19 +43,20 @@ namespace Mono::Security {
     // private System.Byte[] m_aValue
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<uint8_t> m_aValue;
+    ::ArrayW<uint8_t> m_aValue;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Collections.ArrayList elist
     // Size: 0x8
     // Offset: 0x20
     System::Collections::ArrayList* elist;
     // Field size check
     static_assert(sizeof(System::Collections::ArrayList*) == 0x8);
+    public:
     // Get instance field reference: private System.Byte m_nTag
     uint8_t& dyn_m_nTag();
     // Get instance field reference: private System.Byte[] m_aValue
-    ::ArrayWrapper<uint8_t>& dyn_m_aValue();
+    ::ArrayW<uint8_t>& dyn_m_aValue();
     // Get instance field reference: private System.Collections.ArrayList elist
     System::Collections::ArrayList*& dyn_elist();
     // public System.Int32 get_Count()
@@ -63,10 +70,10 @@ namespace Mono::Security {
     int get_Length();
     // public System.Byte[] get_Value()
     // Offset: 0x1F98738
-    ::ArrayWrapper<uint8_t> get_Value();
+    ::ArrayW<uint8_t> get_Value();
     // public System.Void set_Value(System.Byte[] value)
     // Offset: 0x1F987D0
-    void set_Value(::ArrayWrapper<uint8_t> value);
+    void set_Value(::ArrayW<uint8_t> value);
     // public Mono.Security.ASN1 get_Item(System.Int32 index)
     // Offset: 0x1F990D0
     Mono::Security::ASN1* get_Item(int index);
@@ -80,35 +87,35 @@ namespace Mono::Security {
     // public System.Void .ctor(System.Byte tag, System.Byte[] data)
     // Offset: 0x1F98414
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ASN1* New_ctor(uint8_t tag, ::ArrayWrapper<uint8_t> data) {
+    static ASN1* New_ctor(uint8_t tag, ::ArrayW<uint8_t> data) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::ASN1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ASN1*, creationType>(tag, data)));
     }
     // public System.Void .ctor(System.Byte[] data)
     // Offset: 0x1F98450
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ASN1* New_ctor(::ArrayWrapper<uint8_t> data) {
+    static ASN1* New_ctor(::ArrayW<uint8_t> data) {
       static auto ___internal__logger = ::Logger::get().WithContext("Mono::Security::ASN1::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ASN1*, creationType>(data)));
     }
     // private System.Boolean CompareArray(System.Byte[] array1, System.Byte[] array2)
     // Offset: 0x1F9885C
-    bool CompareArray(::ArrayWrapper<uint8_t> array1, ::ArrayWrapper<uint8_t> array2);
+    bool CompareArray(::ArrayW<uint8_t> array1, ::ArrayW<uint8_t> array2);
     // public System.Boolean CompareValue(System.Byte[] value)
     // Offset: 0x1F988D8
-    bool CompareValue(::ArrayWrapper<uint8_t> value);
+    bool CompareValue(::ArrayW<uint8_t> value);
     // public Mono.Security.ASN1 Add(Mono.Security.ASN1 asn1)
     // Offset: 0x1F988E8
     Mono::Security::ASN1* Add(Mono::Security::ASN1* asn1);
     // public System.Byte[] GetBytes()
     // Offset: 0x1F98984
-    ::ArrayWrapper<uint8_t> GetBytes();
+    ::ArrayW<uint8_t> GetBytes();
     // protected System.Void Decode(System.Byte[] asn1, ref System.Int32 anPos, System.Int32 anLength)
     // Offset: 0x1F985D0
-    void Decode(::ArrayWrapper<uint8_t> asn1, ByRef<int> anPos, int anLength);
+    void Decode(::ArrayW<uint8_t> asn1, ByRef<int> anPos, int anLength);
     // protected System.Void DecodeTLV(System.Byte[] asn1, ref System.Int32 pos, out System.Byte tag, out System.Int32 length, out System.Byte[] content)
     // Offset: 0x1F98F90
-    void DecodeTLV(::ArrayWrapper<uint8_t> asn1, ByRef<int> pos, ByRef<uint8_t> tag, ByRef<int> length, ByRef<::ArrayWrapper<uint8_t>> content);
+    void DecodeTLV(::ArrayW<uint8_t> asn1, ByRef<int> pos, ByRef<uint8_t> tag, ByRef<int> length, ByRef<::ArrayW<uint8_t>> content);
     // public Mono.Security.ASN1 Element(System.Int32 index, System.Byte anTag)
     // Offset: 0x1F99210
     Mono::Security::ASN1* Element(int index, uint8_t anTag);
@@ -151,7 +158,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Mono::
 // Writing MetadataGetter for method: Mono::Security::ASN1::get_Value
 // Il2CppName: get_Value
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Mono::Security::ASN1::*)()>(&Mono::Security::ASN1::get_Value)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Mono::Security::ASN1::*)()>(&Mono::Security::ASN1::get_Value)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::ASN1*), "get_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -159,7 +166,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: Mono::Security::ASN1::set_Value
 // Il2CppName: set_Value
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::ASN1::*)(::ArrayWrapper<uint8_t>)>(&Mono::Security::ASN1::set_Value)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::ASN1::*)(::ArrayW<uint8_t>)>(&Mono::Security::ASN1::set_Value)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::ASN1*), "set_Value", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -189,7 +196,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Secur
 // Writing MetadataGetter for method: Mono::Security::ASN1::CompareArray
 // Il2CppName: CompareArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Security::ASN1::*)(::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>)>(&Mono::Security::ASN1::CompareArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Security::ASN1::*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(&Mono::Security::ASN1::CompareArray)> {
   static const MethodInfo* get() {
     static auto* array1 = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* array2 = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -199,7 +206,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono:
 // Writing MetadataGetter for method: Mono::Security::ASN1::CompareValue
 // Il2CppName: CompareValue
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Security::ASN1::*)(::ArrayWrapper<uint8_t>)>(&Mono::Security::ASN1::CompareValue)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Mono::Security::ASN1::*)(::ArrayW<uint8_t>)>(&Mono::Security::ASN1::CompareValue)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::ASN1*), "CompareValue", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -217,7 +224,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Secur
 // Writing MetadataGetter for method: Mono::Security::ASN1::GetBytes
 // Il2CppName: GetBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Mono::Security::ASN1::*)()>(&Mono::Security::ASN1::GetBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Mono::Security::ASN1::*)()>(&Mono::Security::ASN1::GetBytes)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::ASN1*), "GetBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -225,7 +232,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: Mono::Security::ASN1::Decode
 // Il2CppName: Decode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::ASN1::*)(::ArrayWrapper<uint8_t>, ByRef<int>, int)>(&Mono::Security::ASN1::Decode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::ASN1::*)(::ArrayW<uint8_t>, ByRef<int>, int)>(&Mono::Security::ASN1::Decode)> {
   static const MethodInfo* get() {
     static auto* asn1 = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* anPos = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;
@@ -236,7 +243,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Security::ASN1::DecodeTLV
 // Il2CppName: DecodeTLV
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::ASN1::*)(::ArrayWrapper<uint8_t>, ByRef<int>, ByRef<uint8_t>, ByRef<int>, ByRef<::ArrayWrapper<uint8_t>>)>(&Mono::Security::ASN1::DecodeTLV)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::ASN1::*)(::ArrayW<uint8_t>, ByRef<int>, ByRef<uint8_t>, ByRef<int>, ByRef<::ArrayW<uint8_t>>)>(&Mono::Security::ASN1::DecodeTLV)> {
   static const MethodInfo* get() {
     static auto* asn1 = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* pos = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;

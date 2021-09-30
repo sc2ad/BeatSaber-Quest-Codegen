@@ -49,12 +49,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapLevelMask : public ::Il2CppObject/*, public System::IEquatable_1<GlobalNamespace::BeatmapLevelMask*>, public LiteNetLib::Utils::INetSerializable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly BitMaskSparse _bloomFilter
     // Size: 0x8
     // Offset: 0x10
     GlobalNamespace::BitMaskSparse* bloomFilter;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BitMaskSparse*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::IEquatable_1<GlobalNamespace::BeatmapLevelMask*>
     operator System::IEquatable_1<GlobalNamespace::BeatmapLevelMask*>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<GlobalNamespace::BeatmapLevelMask*>*>(this);

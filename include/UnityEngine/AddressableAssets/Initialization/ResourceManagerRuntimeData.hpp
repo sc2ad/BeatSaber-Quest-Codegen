@@ -40,6 +40,11 @@ namespace UnityEngine::AddressableAssets::Initialization {
   // [TokenAttribute] Offset: FFFFFFFF
   class ResourceManagerRuntimeData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String m_buildTarget
     // Size: 0x8
     // Offset: 0x10
@@ -117,6 +122,7 @@ namespace UnityEngine::AddressableAssets::Initialization {
     int m_maxConcurrentWebRequests;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // static field const value: static public System.String kCatalogAddress
     static constexpr const char* kCatalogAddress = "AddressablesMainContentCatalog";
     // Get static field: static public System.String kCatalogAddress

@@ -18,6 +18,11 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   // [TokenAttribute] Offset: FFFFFFFF
   class TypeInformation : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String fullTypeName
     // Size: 0x8
     // Offset: 0x10
@@ -36,6 +41,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     bool hasTypeForwardedFrom;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private System.String fullTypeName
     ::Il2CppString*& dyn_fullTypeName();
     // Get instance field reference: private System.String assemblyString

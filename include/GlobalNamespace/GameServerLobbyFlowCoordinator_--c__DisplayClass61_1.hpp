@@ -28,6 +28,11 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class GameServerLobbyFlowCoordinator::$$c__DisplayClass61_1 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.EventSystems.EventSystem eventSystem
     // Size: 0x8
     // Offset: 0x10
@@ -40,6 +45,7 @@ namespace GlobalNamespace {
     GlobalNamespace::GameServerLobbyFlowCoordinator::$$c__DisplayClass61_0* CS$$$8__locals1;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameServerLobbyFlowCoordinator::$$c__DisplayClass61_0*) == 0x8);
+    public:
     // Get instance field reference: public UnityEngine.EventSystems.EventSystem eventSystem
     UnityEngine::EventSystems::EventSystem*& dyn_eventSystem();
     // Get instance field reference: public GameServerLobbyFlowCoordinator/<>c__DisplayClass61_0 CS$<>8__locals1

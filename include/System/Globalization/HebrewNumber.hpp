@@ -7,6 +7,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Globalization
@@ -37,12 +38,18 @@ namespace System::Globalization {
     // [TokenAttribute] Offset: FFFFFFFF
     struct HS/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: HS
       constexpr HS(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -174,17 +181,17 @@ namespace System::Globalization {
     static check_size<sizeof(HebrewNumber::HS), 0 + sizeof(int)> __System_Globalization_HebrewNumber_HSSizeCheck;
     static_assert(sizeof(HebrewNumber::HS) == 0x4);
     // Get static field: static private System.Globalization.HebrewNumber/System.Globalization.HebrewValue[] HebrewValues
-    static ::ArrayWrapper<System::Globalization::HebrewNumber::HebrewValue*> _get_HebrewValues();
+    static ::ArrayW<System::Globalization::HebrewNumber::HebrewValue*> _get_HebrewValues();
     // Set static field: static private System.Globalization.HebrewNumber/System.Globalization.HebrewValue[] HebrewValues
-    static void _set_HebrewValues(::ArrayWrapper<System::Globalization::HebrewNumber::HebrewValue*> value);
+    static void _set_HebrewValues(::ArrayW<System::Globalization::HebrewNumber::HebrewValue*> value);
     // Get static field: static private System.Char maxHebrewNumberCh
     static ::Il2CppChar _get_maxHebrewNumberCh();
     // Set static field: static private System.Char maxHebrewNumberCh
     static void _set_maxHebrewNumberCh(::Il2CppChar value);
     // Get static field: static private readonly System.Globalization.HebrewNumber/System.Globalization.HS[][] NumberPasingState
-    static ::ArrayWrapper<::ArrayWrapper<System::Globalization::HebrewNumber::HS>> _get_NumberPasingState();
+    static ::ArrayW<::ArrayW<System::Globalization::HebrewNumber::HS>> _get_NumberPasingState();
     // Set static field: static private readonly System.Globalization.HebrewNumber/System.Globalization.HS[][] NumberPasingState
-    static void _set_NumberPasingState(::ArrayWrapper<::ArrayWrapper<System::Globalization::HebrewNumber::HS>> value);
+    static void _set_NumberPasingState(::ArrayW<::ArrayW<System::Globalization::HebrewNumber::HS>> value);
     // static private System.Void .cctor()
     // Offset: 0x1BD6028
     static void _cctor();

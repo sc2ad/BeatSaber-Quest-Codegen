@@ -21,6 +21,11 @@ namespace Mono {
   // [TokenAttribute] Offset: FFFFFFFF
   struct RuntimeStructs::RemoteClass/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.IntPtr default_vtable
     // Size: 0x8
     // Offset: 0x0
@@ -51,6 +56,7 @@ namespace Mono {
     uint interface_count;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
+    public:
     // Creating value type constructor for type: RemoteClass
     constexpr RemoteClass(System::IntPtr default_vtable_ = {}, System::IntPtr xdomain_vtable_ = {}, Mono::RuntimeStructs::MonoClass* proxy_class_ = {}, System::IntPtr proxy_class_name_ = {}, uint interface_count_ = {}) noexcept : default_vtable{default_vtable_}, xdomain_vtable{xdomain_vtable_}, proxy_class{proxy_class_}, proxy_class_name{proxy_class_name_}, interface_count{interface_count_} {}
     // Creating interface conversion operator: operator System::ValueType

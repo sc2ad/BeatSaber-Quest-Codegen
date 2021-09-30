@@ -13,6 +13,7 @@
 #include "UnityEngine/Vector2.hpp"
 // Including type: UnityEngine.ProBuilder.Edge
 #include "UnityEngine/ProBuilder/Edge.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::ProBuilder
@@ -95,7 +96,7 @@ namespace UnityEngine::ProBuilder {
     static void CreateEdgeMesh(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::Mesh* target);
     // static System.Void CreateEdgeMesh(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.Mesh target, UnityEngine.ProBuilder.Edge[] edges)
     // Offset: 0x1C83D0C
-    static void CreateEdgeMesh(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::Mesh* target, ::ArrayWrapper<UnityEngine::ProBuilder::Edge> edges);
+    static void CreateEdgeMesh(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::Mesh* target, ::ArrayW<UnityEngine::ProBuilder::Edge> edges);
     // static System.Void CreateVertexMesh(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.Mesh target)
     // Offset: 0x1C83F60
     static void CreateVertexMesh(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::Mesh* target);
@@ -104,7 +105,7 @@ namespace UnityEngine::ProBuilder {
     static void CreateVertexMesh(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::Mesh* target, System::Collections::Generic::IList_1<int>* indexes);
     // static private System.Void CreatePointMesh(UnityEngine.Vector3[] positions, System.Collections.Generic.IList`1<System.Int32> indexes, UnityEngine.Mesh target)
     // Offset: 0x1C841E8
-    static void CreatePointMesh(::ArrayWrapper<UnityEngine::Vector3> positions, System::Collections::Generic::IList_1<int>* indexes, UnityEngine::Mesh* target);
+    static void CreatePointMesh(::ArrayW<UnityEngine::Vector3> positions, System::Collections::Generic::IList_1<int>* indexes, UnityEngine::Mesh* target);
     // static System.Void CreatePointBillboardMesh(System.Collections.Generic.IList`1<UnityEngine.Vector3> positions, UnityEngine.Mesh target)
     // Offset: 0x1C849F8
     static void CreatePointBillboardMesh(System::Collections::Generic::IList_1<UnityEngine::Vector3>* positions, UnityEngine::Mesh* target);
@@ -154,7 +155,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshHandles::CreateEdgeMesh
 // Il2CppName: CreateEdgeMesh
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, UnityEngine::Mesh*, ::ArrayWrapper<UnityEngine::ProBuilder::Edge>)>(&UnityEngine::ProBuilder::MeshHandles::CreateEdgeMesh)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, UnityEngine::Mesh*, ::ArrayW<UnityEngine::ProBuilder::Edge>)>(&UnityEngine::ProBuilder::MeshHandles::CreateEdgeMesh)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
     static auto* target = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->byval_arg;
@@ -186,7 +187,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshHandles::CreatePointMesh
 // Il2CppName: CreatePointMesh
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<UnityEngine::Vector3>, System::Collections::Generic::IList_1<int>*, UnityEngine::Mesh*)>(&UnityEngine::ProBuilder::MeshHandles::CreatePointMesh)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<UnityEngine::Vector3>, System::Collections::Generic::IList_1<int>*, UnityEngine::Mesh*)>(&UnityEngine::ProBuilder::MeshHandles::CreatePointMesh)> {
   static const MethodInfo* get() {
     static auto* positions = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
     static auto* indexes = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;

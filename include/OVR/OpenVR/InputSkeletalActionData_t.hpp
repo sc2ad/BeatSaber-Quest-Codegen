@@ -17,6 +17,11 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct InputSkeletalActionData_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Boolean bActive
     // Size: 0x1
     // Offset: 0x0
@@ -37,6 +42,7 @@ namespace OVR::OpenVR {
     uint boneCount;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
+    public:
     // Creating value type constructor for type: InputSkeletalActionData_t
     constexpr InputSkeletalActionData_t(bool bActive_ = {}, uint64_t activeOrigin_ = {}, uint boneCount_ = {}) noexcept : bActive{bActive_}, activeOrigin{activeOrigin_}, boneCount{boneCount_} {}
     // Creating interface conversion operator: operator System::ValueType

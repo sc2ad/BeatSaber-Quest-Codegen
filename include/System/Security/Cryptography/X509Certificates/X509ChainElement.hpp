@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Security::Cryptography::X509Certificates
@@ -27,6 +28,11 @@ namespace System::Security::Cryptography::X509Certificates {
   // [TokenAttribute] Offset: FFFFFFFF
   class X509ChainElement : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Security.Cryptography.X509Certificates.X509Certificate2 certificate
     // Size: 0x8
     // Offset: 0x10
@@ -36,9 +42,9 @@ namespace System::Security::Cryptography::X509Certificates {
     // private System.Security.Cryptography.X509Certificates.X509ChainStatus[] status
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<System::Security::Cryptography::X509Certificates::X509ChainStatus> status;
+    ::ArrayW<System::Security::Cryptography::X509Certificates::X509ChainStatus> status;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<System::Security::Cryptography::X509Certificates::X509ChainStatus>) == 0x8);
+    static_assert(sizeof(::ArrayW<System::Security::Cryptography::X509Certificates::X509ChainStatus>) == 0x8);
     // private System.String info
     // Size: 0x8
     // Offset: 0x20
@@ -51,10 +57,11 @@ namespace System::Security::Cryptography::X509Certificates {
     System::Security::Cryptography::X509Certificates::X509ChainStatusFlags compressed_status_flags;
     // Field size check
     static_assert(sizeof(System::Security::Cryptography::X509Certificates::X509ChainStatusFlags) == 0x4);
+    public:
     // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509Certificate2 certificate
     System::Security::Cryptography::X509Certificates::X509Certificate2*& dyn_certificate();
     // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509ChainStatus[] status
-    ::ArrayWrapper<System::Security::Cryptography::X509Certificates::X509ChainStatus>& dyn_status();
+    ::ArrayW<System::Security::Cryptography::X509Certificates::X509ChainStatus>& dyn_status();
     // Get instance field reference: private System.String info
     ::Il2CppString*& dyn_info();
     // Get instance field reference: private System.Security.Cryptography.X509Certificates.X509ChainStatusFlags compressed_status_flags
@@ -64,7 +71,7 @@ namespace System::Security::Cryptography::X509Certificates {
     System::Security::Cryptography::X509Certificates::X509Certificate2* get_Certificate();
     // public System.Security.Cryptography.X509Certificates.X509ChainStatus[] get_ChainElementStatus()
     // Offset: 0x19DA24C
-    ::ArrayWrapper<System::Security::Cryptography::X509Certificates::X509ChainStatus> get_ChainElementStatus();
+    ::ArrayW<System::Security::Cryptography::X509Certificates::X509ChainStatus> get_ChainElementStatus();
     // System.Security.Cryptography.X509Certificates.X509ChainStatusFlags get_StatusFlags()
     // Offset: 0x19DA254
     System::Security::Cryptography::X509Certificates::X509ChainStatusFlags get_StatusFlags();
@@ -83,7 +90,7 @@ namespace System::Security::Cryptography::X509Certificates {
     int Count(System::Security::Cryptography::X509Certificates::X509ChainStatusFlags flags);
     // private System.Void Set(System.Security.Cryptography.X509Certificates.X509ChainStatus[] status, ref System.Int32 position, System.Security.Cryptography.X509Certificates.X509ChainStatusFlags flags, System.Security.Cryptography.X509Certificates.X509ChainStatusFlags mask)
     // Offset: 0x19DA288
-    void Set(::ArrayWrapper<System::Security::Cryptography::X509Certificates::X509ChainStatus> status, ByRef<int> position, System::Security::Cryptography::X509Certificates::X509ChainStatusFlags flags, System::Security::Cryptography::X509Certificates::X509ChainStatusFlags mask);
+    void Set(::ArrayW<System::Security::Cryptography::X509Certificates::X509ChainStatus> status, ByRef<int> position, System::Security::Cryptography::X509Certificates::X509ChainStatusFlags flags, System::Security::Cryptography::X509Certificates::X509ChainStatusFlags mask);
     // System.Void UncompressFlags()
     // Offset: 0x19DA4C8
     void UncompressFlags();
@@ -105,7 +112,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509ChainElement::get_ChainElementStatus
 // Il2CppName: get_ChainElementStatus
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::Security::Cryptography::X509Certificates::X509ChainStatus> (System::Security::Cryptography::X509Certificates::X509ChainElement::*)()>(&System::Security::Cryptography::X509Certificates::X509ChainElement::get_ChainElementStatus)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Security::Cryptography::X509Certificates::X509ChainStatus> (System::Security::Cryptography::X509Certificates::X509ChainElement::*)()>(&System::Security::Cryptography::X509Certificates::X509ChainElement::get_ChainElementStatus)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509ChainElement*), "get_ChainElementStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -143,7 +150,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509ChainElement::Set
 // Il2CppName: Set
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::X509Certificates::X509ChainElement::*)(::ArrayWrapper<System::Security::Cryptography::X509Certificates::X509ChainStatus>, ByRef<int>, System::Security::Cryptography::X509Certificates::X509ChainStatusFlags, System::Security::Cryptography::X509Certificates::X509ChainStatusFlags)>(&System::Security::Cryptography::X509Certificates::X509ChainElement::Set)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::X509Certificates::X509ChainElement::*)(::ArrayW<System::Security::Cryptography::X509Certificates::X509ChainStatus>, ByRef<int>, System::Security::Cryptography::X509Certificates::X509ChainStatusFlags, System::Security::Cryptography::X509Certificates::X509ChainStatusFlags)>(&System::Security::Cryptography::X509Certificates::X509ChainElement::Set)> {
   static const MethodInfo* get() {
     static auto* status = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Security.Cryptography.X509Certificates", "X509ChainStatus"), 1)->byval_arg;
     static auto* position = &::il2cpp_utils::GetClassFromName("System", "Int32")->this_arg;

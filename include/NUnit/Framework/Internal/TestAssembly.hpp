@@ -29,6 +29,11 @@ namespace NUnit::Framework::Internal {
     public:
     // Writing base type padding for base size: 0x89 to desired offset: 0x90
     char ___base_padding[0x7] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [DebuggerBrowsableAttribute] Offset: 0xEEF5AC
     // private System.Reflection.Assembly <Assembly>k__BackingField
     // Size: 0x8
@@ -36,6 +41,7 @@ namespace NUnit::Framework::Internal {
     System::Reflection::Assembly* Assembly;
     // Field size check
     static_assert(sizeof(System::Reflection::Assembly*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Reflection::Assembly*
     constexpr operator System::Reflection::Assembly*() const noexcept {
       return Assembly;

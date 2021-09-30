@@ -17,6 +17,11 @@ namespace System::Net::NetworkInformation {
   // [TokenAttribute] Offset: FFFFFFFF
   struct ifa_ifu/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.IntPtr ifu_broadaddr
     // Size: 0x8
     // Offset: 0x0
@@ -29,6 +34,7 @@ namespace System::Net::NetworkInformation {
     System::IntPtr ifu_dstaddr;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
+    public:
     // Creating value type constructor for type: ifa_ifu
     constexpr ifa_ifu(System::IntPtr ifu_broadaddr_ = {}, System::IntPtr ifu_dstaddr_ = {}) noexcept : ifu_broadaddr{ifu_broadaddr_}, ifu_dstaddr{ifu_dstaddr_} {}
     // Creating interface conversion operator: operator System::ValueType

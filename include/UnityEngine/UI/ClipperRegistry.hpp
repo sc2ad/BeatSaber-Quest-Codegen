@@ -31,12 +31,18 @@ namespace UnityEngine::UI {
   // [TokenAttribute] Offset: FFFFFFFF
   class ClipperRegistry : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.IClipper> m_Clippers
     // Size: 0x8
     // Offset: 0x10
     UnityEngine::UI::Collections::IndexedSet_1<UnityEngine::UI::IClipper*>* m_Clippers;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Collections::IndexedSet_1<UnityEngine::UI::IClipper*>*) == 0x8);
+    public:
     // Creating conversion operator: operator UnityEngine::UI::Collections::IndexedSet_1<UnityEngine::UI::IClipper*>*
     constexpr operator UnityEngine::UI::Collections::IndexedSet_1<UnityEngine::UI::IClipper*>*() const noexcept {
       return m_Clippers;

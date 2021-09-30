@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Math::EC
@@ -46,6 +47,11 @@ namespace Org::BouncyCastle::Math::EC {
     public:
     // Nested type: Org::BouncyCastle::Math::EC::F2mCurve::DefaultF2mLookupTable
     class DefaultF2mLookupTable;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Int32 m
     // Size: 0x4
     // Offset: 0x58
@@ -76,8 +82,9 @@ namespace Org::BouncyCastle::Math::EC {
     Org::BouncyCastle::Math::EC::F2mPoint* m_infinity;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Math::EC::F2mPoint*) == 0x8);
-    // Deleting conversion operator: operator ::ArrayWrapper<Org::BouncyCastle::Math::BigInteger*>
-    constexpr operator ::ArrayWrapper<Org::BouncyCastle::Math::BigInteger*>() const noexcept = delete;
+    public:
+    // Deleting conversion operator: operator ::ArrayW<Org::BouncyCastle::Math::BigInteger*>
+    constexpr operator ::ArrayW<Org::BouncyCastle::Math::BigInteger*>() const noexcept = delete;
     // Get instance field reference: private readonly System.Int32 m
     int& dyn_m();
     // Get instance field reference: private readonly System.Int32 k1
@@ -151,12 +158,12 @@ namespace Org::BouncyCastle::Math::EC {
     // Offset: 0x2319844
     // Implemented from: Org.BouncyCastle.Math.EC.ECCurve
     // Base method: Org.BouncyCastle.Math.EC.ECPoint ECCurve::CreateRawPoint(Org.BouncyCastle.Math.EC.ECFieldElement x, Org.BouncyCastle.Math.EC.ECFieldElement y, Org.BouncyCastle.Math.EC.ECFieldElement[] zs, System.Boolean withCompression)
-    Org::BouncyCastle::Math::EC::ECPoint* CreateRawPoint(Org::BouncyCastle::Math::EC::ECFieldElement* x, Org::BouncyCastle::Math::EC::ECFieldElement* y, ::ArrayWrapper<Org::BouncyCastle::Math::EC::ECFieldElement*> zs, bool withCompression);
+    Org::BouncyCastle::Math::EC::ECPoint* CreateRawPoint(Org::BouncyCastle::Math::EC::ECFieldElement* x, Org::BouncyCastle::Math::EC::ECFieldElement* y, ::ArrayW<Org::BouncyCastle::Math::EC::ECFieldElement*> zs, bool withCompression);
     // public override Org.BouncyCastle.Math.EC.ECLookupTable CreateCacheSafeLookupTable(Org.BouncyCastle.Math.EC.ECPoint[] points, System.Int32 off, System.Int32 len)
     // Offset: 0x231990C
     // Implemented from: Org.BouncyCastle.Math.EC.ECCurve
     // Base method: Org.BouncyCastle.Math.EC.ECLookupTable ECCurve::CreateCacheSafeLookupTable(Org.BouncyCastle.Math.EC.ECPoint[] points, System.Int32 off, System.Int32 len)
-    Org::BouncyCastle::Math::EC::ECLookupTable* CreateCacheSafeLookupTable(::ArrayWrapper<Org::BouncyCastle::Math::EC::ECPoint*> points, int off, int len);
+    Org::BouncyCastle::Math::EC::ECLookupTable* CreateCacheSafeLookupTable(::ArrayW<Org::BouncyCastle::Math::EC::ECPoint*> points, int off, int len);
   }; // Org.BouncyCastle.Math.EC.F2mCurve
   #pragma pack(pop)
   static check_size<sizeof(F2mCurve), 104 + sizeof(Org::BouncyCastle::Math::EC::F2mPoint*)> __Org_BouncyCastle_Math_EC_F2mCurveSizeCheck;
@@ -248,7 +255,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::F2mCurve::CreateRawPoint
 // Il2CppName: CreateRawPoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (Org::BouncyCastle::Math::EC::F2mCurve::*)(Org::BouncyCastle::Math::EC::ECFieldElement*, Org::BouncyCastle::Math::EC::ECFieldElement*, ::ArrayWrapper<Org::BouncyCastle::Math::EC::ECFieldElement*>, bool)>(&Org::BouncyCastle::Math::EC::F2mCurve::CreateRawPoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (Org::BouncyCastle::Math::EC::F2mCurve::*)(Org::BouncyCastle::Math::EC::ECFieldElement*, Org::BouncyCastle::Math::EC::ECFieldElement*, ::ArrayW<Org::BouncyCastle::Math::EC::ECFieldElement*>, bool)>(&Org::BouncyCastle::Math::EC::F2mCurve::CreateRawPoint)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "ECFieldElement")->byval_arg;
     static auto* y = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "ECFieldElement")->byval_arg;
@@ -260,7 +267,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::F2mCurve::CreateCacheSafeLookupTable
 // Il2CppName: CreateCacheSafeLookupTable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECLookupTable* (Org::BouncyCastle::Math::EC::F2mCurve::*)(::ArrayWrapper<Org::BouncyCastle::Math::EC::ECPoint*>, int, int)>(&Org::BouncyCastle::Math::EC::F2mCurve::CreateCacheSafeLookupTable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECLookupTable* (Org::BouncyCastle::Math::EC::F2mCurve::*)(::ArrayW<Org::BouncyCastle::Math::EC::ECPoint*>, int, int)>(&Org::BouncyCastle::Math::EC::F2mCurve::CreateCacheSafeLookupTable)> {
   static const MethodInfo* get() {
     static auto* points = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "ECPoint"), 1)->byval_arg;
     static auto* off = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

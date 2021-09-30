@@ -23,12 +23,18 @@ namespace UnityEngine::Networking::PlayerConnection {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class PlayerEditorConnectionEvents::$$c__DisplayClass7_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Guid messageId
     // Size: 0x10
     // Offset: 0x10
     System::Guid messageId;
     // Field size check
     static_assert(sizeof(System::Guid) == 0x10);
+    public:
     // Creating conversion operator: operator System::Guid
     constexpr operator System::Guid() const noexcept {
       return messageId;

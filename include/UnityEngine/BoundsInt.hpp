@@ -32,6 +32,11 @@ namespace UnityEngine {
     public:
     // Nested type: UnityEngine::BoundsInt::PositionEnumerator
     struct PositionEnumerator;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Vector3Int m_Position
     // Size: 0xC
     // Offset: 0x0
@@ -44,6 +49,7 @@ namespace UnityEngine {
     UnityEngine::Vector3Int m_Size;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3Int) == 0xC);
+    public:
     // Creating value type constructor for type: BoundsInt
     constexpr BoundsInt(UnityEngine::Vector3Int m_Position_ = {}, UnityEngine::Vector3Int m_Size_ = {}) noexcept : m_Position{m_Position_}, m_Size{m_Size_} {}
     // Creating interface conversion operator: operator System::ValueType

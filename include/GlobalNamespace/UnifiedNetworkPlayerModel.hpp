@@ -92,6 +92,11 @@ namespace GlobalNamespace {
     class $$c__DisplayClass80_0;
     // Nested type: GlobalNamespace::UnifiedNetworkPlayerModel::$$c
     class $$c;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xF0361C
     // private readonly PlatformNetworkPlayerModel _platformNetworkPlayerModel
     // Size: 0x8
@@ -244,6 +249,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MasterServerConnectionManager::ConnectToServerParams* cachedConnectToServerParams;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MasterServerConnectionManager::ConnectToServerParams*) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IUnifiedNetworkPlayerModel
     operator GlobalNamespace::IUnifiedNetworkPlayerModel() noexcept {
       return *reinterpret_cast<GlobalNamespace::IUnifiedNetworkPlayerModel*>(this);

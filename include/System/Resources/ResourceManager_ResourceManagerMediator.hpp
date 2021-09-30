@@ -20,12 +20,18 @@ namespace System::Resources {
   // [TokenAttribute] Offset: FFFFFFFF
   class ResourceManager::ResourceManagerMediator : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Resources.ResourceManager _rm
     // Size: 0x8
     // Offset: 0x10
     System::Resources::ResourceManager* rm;
     // Field size check
     static_assert(sizeof(System::Resources::ResourceManager*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Resources::ResourceManager*
     constexpr operator System::Resources::ResourceManager*() const noexcept {
       return rm;

@@ -20,6 +20,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BloomPrePassBackgroundColorsGradientElementWithLightId::Elements : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 elementNumber
     // Size: 0x4
     // Offset: 0x10
@@ -38,6 +43,7 @@ namespace GlobalNamespace {
     float minIntensity;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: public System.Int32 elementNumber
     int& dyn_elementNumber();
     // Get instance field reference: public System.Single intensity

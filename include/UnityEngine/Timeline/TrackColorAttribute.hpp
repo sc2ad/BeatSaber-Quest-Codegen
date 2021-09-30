@@ -23,12 +23,18 @@ namespace UnityEngine::Timeline {
   // [AttributeUsageAttribute] Offset: EB910C
   class TrackColorAttribute : public System::Attribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Color m_Color
     // Size: 0x10
     // Offset: 0x10
     UnityEngine::Color m_Color;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
+    public:
     // Creating conversion operator: operator UnityEngine::Color
     constexpr operator UnityEngine::Color() const noexcept {
       return m_Color;

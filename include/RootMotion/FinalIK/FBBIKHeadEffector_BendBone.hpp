@@ -29,6 +29,11 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class FBBIKHeadEffector::BendBone : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [TooltipAttribute] Offset: 0xEF51C4
     // public UnityEngine.Transform transform
     // Size: 0x8
@@ -50,6 +55,7 @@ namespace RootMotion::FinalIK {
     UnityEngine::Quaternion defaultLocalRotation;
     // Field size check
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
+    public:
     // Get instance field reference: public UnityEngine.Transform transform
     UnityEngine::Transform*& dyn_transform();
     // Get instance field reference: public System.Single weight

@@ -33,6 +33,11 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class UnityLogCheckDelegatingCommand::$$c__DisplayClass3_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.TestRunner.NUnitExtensions.Runner.IEnumerableTestMethodCommand enumerableTestMethodCommand
     // Size: 0x8
     // Offset: 0x10
@@ -45,6 +50,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     NUnit::Framework::Internal::ITestExecutionContext* context;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Internal::ITestExecutionContext*) == 0x8);
+    public:
     // Get instance field reference: public UnityEngine.TestRunner.NUnitExtensions.Runner.IEnumerableTestMethodCommand enumerableTestMethodCommand
     UnityEngine::TestRunner::NUnitExtensions::Runner::IEnumerableTestMethodCommand*& dyn_enumerableTestMethodCommand();
     // Get instance field reference: public NUnit.Framework.Internal.ITestExecutionContext context

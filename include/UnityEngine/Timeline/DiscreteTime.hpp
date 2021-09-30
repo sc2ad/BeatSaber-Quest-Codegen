@@ -21,12 +21,18 @@ namespace UnityEngine::Timeline {
   // [TokenAttribute] Offset: FFFFFFFF
   struct DiscreteTime/*, public System::ValueType, public System::IComparable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Int64 m_DiscreteTime
     // Size: 0x8
     // Offset: 0x0
     int64_t m_DiscreteTime;
     // Field size check
     static_assert(sizeof(int64_t) == 0x8);
+    public:
     // Creating value type constructor for type: DiscreteTime
     constexpr DiscreteTime(int64_t m_DiscreteTime_ = {}) noexcept : m_DiscreteTime{m_DiscreteTime_} {}
     // Creating interface conversion operator: operator System::ValueType

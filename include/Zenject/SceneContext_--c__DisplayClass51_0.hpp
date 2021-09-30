@@ -34,12 +34,18 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class SceneContext::$$c__DisplayClass51_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Collections.Generic.IEnumerable`1<Zenject.DiContainer> parents
     // Size: 0x8
     // Offset: 0x10
     System::Collections::Generic::IEnumerable_1<Zenject::DiContainer*>* parents;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::IEnumerable_1<Zenject::DiContainer*>*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Collections::Generic::IEnumerable_1<Zenject::DiContainer*>*
     constexpr operator System::Collections::Generic::IEnumerable_1<Zenject::DiContainer*>*() const noexcept {
       return parents;

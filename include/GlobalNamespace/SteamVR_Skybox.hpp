@@ -37,12 +37,18 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct CellSize/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: CellSize
       constexpr CellSize(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -89,6 +95,11 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(SteamVR_Skybox::CellSize), 0 + sizeof(int)> __GlobalNamespace_SteamVR_Skybox_CellSizeSizeCheck;
     static_assert(sizeof(SteamVR_Skybox::CellSize) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Texture front
     // Size: 0x8
     // Offset: 0x18
@@ -137,6 +148,7 @@ namespace GlobalNamespace {
     float StereoIpdMm;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public UnityEngine.Texture front

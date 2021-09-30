@@ -28,6 +28,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ProfanityFilter::TrieNode : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.Dictionary`2<System.Char,ProfanityFilter/TrieNode> _children
     // Size: 0x8
     // Offset: 0x10
@@ -40,6 +45,7 @@ namespace GlobalNamespace {
     int shortestWord;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.Char,ProfanityFilter/TrieNode> _children
     System::Collections::Generic::Dictionary_2<::Il2CppChar, GlobalNamespace::ProfanityFilter::TrieNode*>*& dyn__children();
     // Get instance field reference: private System.Int32 _shortestWord

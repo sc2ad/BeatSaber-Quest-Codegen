@@ -38,6 +38,11 @@ namespace UnityEngine::TestTools::TestRunner {
   // [TokenAttribute] Offset: FFFFFFFF
   class TestListenerWrapper : public ::Il2CppObject/*, public NUnit::Framework::Interfaces::ITestListener*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly UnityEngine.TestTools.TestRunner.TestFinishedEvent m_TestFinishedEvent
     // Size: 0x8
     // Offset: 0x10
@@ -50,6 +55,7 @@ namespace UnityEngine::TestTools::TestRunner {
     UnityEngine::TestTools::TestRunner::TestStartedEvent* m_TestStartedEvent;
     // Field size check
     static_assert(sizeof(UnityEngine::TestTools::TestRunner::TestStartedEvent*) == 0x8);
+    public:
     // Creating interface conversion operator: operator NUnit::Framework::Interfaces::ITestListener
     operator NUnit::Framework::Interfaces::ITestListener() noexcept {
       return *reinterpret_cast<NUnit::Framework::Interfaces::ITestListener*>(this);

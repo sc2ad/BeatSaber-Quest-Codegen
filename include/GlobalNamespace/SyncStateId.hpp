@@ -33,12 +33,18 @@ namespace GlobalNamespace {
   // [IsReadOnlyAttribute] Offset: FFFFFFFF
   struct SyncStateId/*, public System::ValueType, public LiteNetLib::Utils::INetImmutableSerializable_1<GlobalNamespace::SyncStateId>, public System::IEquatable_1<GlobalNamespace::SyncStateId>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Byte _id
     // Size: 0x1
     // Offset: 0x0
     uint8_t id;
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
+    public:
     // Creating value type constructor for type: SyncStateId
     constexpr SyncStateId(uint8_t id_ = {}) noexcept : id{id_} {}
     // Creating interface conversion operator: operator System::ValueType

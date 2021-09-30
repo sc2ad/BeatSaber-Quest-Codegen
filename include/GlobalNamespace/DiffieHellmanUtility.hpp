@@ -7,6 +7,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.Int32
 #include "System/Int32.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -83,9 +84,9 @@ namespace GlobalNamespace {
     // Set static field: static private Org.BouncyCastle.Crypto.Parameters.ECDomainParameters _ecParameters
     static void _set__ecParameters(Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* value);
     // Get static field: static private System.Byte[] _ecPointFormats
-    static ::ArrayWrapper<uint8_t> _get__ecPointFormats();
+    static ::ArrayW<uint8_t> _get__ecPointFormats();
     // Set static field: static private System.Byte[] _ecPointFormats
-    static void _set__ecPointFormats(::ArrayWrapper<uint8_t> value);
+    static void _set__ecPointFormats(::ArrayW<uint8_t> value);
     // static private System.Void .cctor()
     // Offset: 0x14550B4
     static void _cctor();
@@ -103,10 +104,10 @@ namespace GlobalNamespace {
     static GlobalNamespace::DiffieHellmanUtility::ElipticalCurveKeyPair* GenerateElipticalCurveKeys();
     // static private System.Byte[] GetPreMasterSecret(Org.BouncyCastle.Crypto.Agreement.DHBasicAgreement dhBasicAgreement, System.Byte[] clientPublicKey)
     // Offset: 0x1454DC4
-    static ::ArrayWrapper<uint8_t> GetPreMasterSecret(Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement* dhBasicAgreement, ::ArrayWrapper<uint8_t> clientPublicKey);
+    static ::ArrayW<uint8_t> GetPreMasterSecret(Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement* dhBasicAgreement, ::ArrayW<uint8_t> clientPublicKey);
     // static private System.Byte[] GetPreMasterSecret(Org.BouncyCastle.Crypto.Agreement.ECDHBasicAgreement ecdhBasicAgreement, System.Byte[] clientPublicKey)
     // Offset: 0x1454F18
-    static ::ArrayWrapper<uint8_t> GetPreMasterSecret(Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement* ecdhBasicAgreement, ::ArrayWrapper<uint8_t> clientPublicKey);
+    static ::ArrayW<uint8_t> GetPreMasterSecret(Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement* ecdhBasicAgreement, ::ArrayW<uint8_t> clientPublicKey);
   }; // DiffieHellmanUtility
   #pragma pack(pop)
 }
@@ -158,7 +159,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::DiffieHellmanUtility::GetPreMasterSecret
 // Il2CppName: GetPreMasterSecret
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement*, ::ArrayWrapper<uint8_t>)>(&GlobalNamespace::DiffieHellmanUtility::GetPreMasterSecret)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement*, ::ArrayW<uint8_t>)>(&GlobalNamespace::DiffieHellmanUtility::GetPreMasterSecret)> {
   static const MethodInfo* get() {
     static auto* dhBasicAgreement = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Crypto.Agreement", "DHBasicAgreement")->byval_arg;
     static auto* clientPublicKey = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -168,7 +169,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: GlobalNamespace::DiffieHellmanUtility::GetPreMasterSecret
 // Il2CppName: GetPreMasterSecret
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement*, ::ArrayWrapper<uint8_t>)>(&GlobalNamespace::DiffieHellmanUtility::GetPreMasterSecret)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement*, ::ArrayW<uint8_t>)>(&GlobalNamespace::DiffieHellmanUtility::GetPreMasterSecret)> {
   static const MethodInfo* get() {
     static auto* ecdhBasicAgreement = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Crypto.Agreement", "ECDHBasicAgreement")->byval_arg;
     static auto* clientPublicKey = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;

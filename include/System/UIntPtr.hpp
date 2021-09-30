@@ -34,12 +34,18 @@ namespace System {
   // [CLSCompliantAttribute] Offset: E5CDD8
   struct UIntPtr/*, public System::ValueType, public System::Runtime::Serialization::ISerializable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Void* _pointer
     // Size: 0x8
     // Offset: 0x0
     void* pointer;
     // Field size check
     static_assert(sizeof(void*) == 0x8);
+    public:
     // Creating value type constructor for type: UIntPtr
     constexpr UIntPtr(void* pointer_ = {}) noexcept : pointer{pointer_} {}
     // Creating interface conversion operator: operator System::ValueType

@@ -33,6 +33,11 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class Grounding::Leg : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean <isGrounded>k__BackingField
     // Size: 0x1
     // Offset: 0x10
@@ -169,6 +174,7 @@ namespace RootMotion::FinalIK {
     UnityEngine::Vector3 transformPosition;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    public:
     // Get instance field reference: private System.Boolean <isGrounded>k__BackingField
     bool& dyn_$isGrounded$k__BackingField();
     // Get instance field reference: private UnityEngine.Vector3 <IKPosition>k__BackingField

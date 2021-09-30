@@ -20,12 +20,18 @@ namespace Priority_Queue {
   // [TokenAttribute] Offset: FFFFFFFF
   class StablePriorityQueueNode : public Priority_Queue::FastPriorityQueueNode {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int64 <InsertionIndex>k__BackingField
     // Size: 0x8
     // Offset: 0x18
     int64_t InsertionIndex;
     // Field size check
     static_assert(sizeof(int64_t) == 0x8);
+    public:
     // Creating conversion operator: operator int64_t
     constexpr operator int64_t() const noexcept {
       return InsertionIndex;

@@ -27,12 +27,18 @@ namespace NUnit::Framework {
   // [TokenAttribute] Offset: FFFFFFFF
   class RepeatAttribute::RepeatedTestCommand : public NUnit::Framework::Internal::Commands::DelegatingTestCommand {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 repeatCount
     // Size: 0x4
     // Offset: 0x20
     int repeatCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: private System.Int32 repeatCount
     int& dyn_repeatCount();
     // public override NUnit.Framework.Internal.TestResult Execute(NUnit.Framework.Internal.ITestExecutionContext context)

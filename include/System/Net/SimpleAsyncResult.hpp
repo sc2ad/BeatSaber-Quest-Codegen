@@ -49,6 +49,11 @@ namespace System::Net {
     class $$c__DisplayClass9_0;
     // Nested type: System::Net::SimpleAsyncResult::$$c__DisplayClass11_0
     class $$c__DisplayClass11_0;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Threading.ManualResetEvent handle
     // Size: 0x8
     // Offset: 0x10
@@ -101,6 +106,7 @@ namespace System::Net {
     // Size: 0xFFFFFFFF
     // Offset: 0x48
     System::Nullable_1<bool> user_read_synch;
+    public:
     // Creating interface conversion operator: operator System::IAsyncResult
     operator System::IAsyncResult() noexcept {
       return *reinterpret_cast<System::IAsyncResult*>(this);

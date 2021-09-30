@@ -36,12 +36,18 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class OculusPlatformAchievementHandler::$$c__DisplayClass2_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public PlatformAchievementsModelSO/UnlockAchievementCompletionHandler completionHandler
     // Size: 0x8
     // Offset: 0x10
     GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementCompletionHandler* completionHandler;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementCompletionHandler*) == 0x8);
+    public:
     // Creating conversion operator: operator GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementCompletionHandler*
     constexpr operator GlobalNamespace::PlatformAchievementsModelSO::UnlockAchievementCompletionHandler*() const noexcept {
       return completionHandler;

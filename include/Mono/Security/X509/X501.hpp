@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Mono::Security
@@ -27,65 +28,65 @@ namespace Mono::Security::X509 {
   class X501 : public ::Il2CppObject {
     public:
     // Get static field: static private System.Byte[] countryName
-    static ::ArrayWrapper<uint8_t> _get_countryName();
+    static ::ArrayW<uint8_t> _get_countryName();
     // Set static field: static private System.Byte[] countryName
-    static void _set_countryName(::ArrayWrapper<uint8_t> value);
+    static void _set_countryName(::ArrayW<uint8_t> value);
     // Get static field: static private System.Byte[] organizationName
-    static ::ArrayWrapper<uint8_t> _get_organizationName();
+    static ::ArrayW<uint8_t> _get_organizationName();
     // Set static field: static private System.Byte[] organizationName
-    static void _set_organizationName(::ArrayWrapper<uint8_t> value);
+    static void _set_organizationName(::ArrayW<uint8_t> value);
     // Get static field: static private System.Byte[] organizationalUnitName
-    static ::ArrayWrapper<uint8_t> _get_organizationalUnitName();
+    static ::ArrayW<uint8_t> _get_organizationalUnitName();
     // Set static field: static private System.Byte[] organizationalUnitName
-    static void _set_organizationalUnitName(::ArrayWrapper<uint8_t> value);
+    static void _set_organizationalUnitName(::ArrayW<uint8_t> value);
     // Get static field: static private System.Byte[] commonName
-    static ::ArrayWrapper<uint8_t> _get_commonName();
+    static ::ArrayW<uint8_t> _get_commonName();
     // Set static field: static private System.Byte[] commonName
-    static void _set_commonName(::ArrayWrapper<uint8_t> value);
+    static void _set_commonName(::ArrayW<uint8_t> value);
     // Get static field: static private System.Byte[] localityName
-    static ::ArrayWrapper<uint8_t> _get_localityName();
+    static ::ArrayW<uint8_t> _get_localityName();
     // Set static field: static private System.Byte[] localityName
-    static void _set_localityName(::ArrayWrapper<uint8_t> value);
+    static void _set_localityName(::ArrayW<uint8_t> value);
     // Get static field: static private System.Byte[] stateOrProvinceName
-    static ::ArrayWrapper<uint8_t> _get_stateOrProvinceName();
+    static ::ArrayW<uint8_t> _get_stateOrProvinceName();
     // Set static field: static private System.Byte[] stateOrProvinceName
-    static void _set_stateOrProvinceName(::ArrayWrapper<uint8_t> value);
+    static void _set_stateOrProvinceName(::ArrayW<uint8_t> value);
     // Get static field: static private System.Byte[] streetAddress
-    static ::ArrayWrapper<uint8_t> _get_streetAddress();
+    static ::ArrayW<uint8_t> _get_streetAddress();
     // Set static field: static private System.Byte[] streetAddress
-    static void _set_streetAddress(::ArrayWrapper<uint8_t> value);
+    static void _set_streetAddress(::ArrayW<uint8_t> value);
     // Get static field: static private System.Byte[] domainComponent
-    static ::ArrayWrapper<uint8_t> _get_domainComponent();
+    static ::ArrayW<uint8_t> _get_domainComponent();
     // Set static field: static private System.Byte[] domainComponent
-    static void _set_domainComponent(::ArrayWrapper<uint8_t> value);
+    static void _set_domainComponent(::ArrayW<uint8_t> value);
     // Get static field: static private System.Byte[] userid
-    static ::ArrayWrapper<uint8_t> _get_userid();
+    static ::ArrayW<uint8_t> _get_userid();
     // Set static field: static private System.Byte[] userid
-    static void _set_userid(::ArrayWrapper<uint8_t> value);
+    static void _set_userid(::ArrayW<uint8_t> value);
     // Get static field: static private System.Byte[] email
-    static ::ArrayWrapper<uint8_t> _get_email();
+    static ::ArrayW<uint8_t> _get_email();
     // Set static field: static private System.Byte[] email
-    static void _set_email(::ArrayWrapper<uint8_t> value);
+    static void _set_email(::ArrayW<uint8_t> value);
     // Get static field: static private System.Byte[] dnQualifier
-    static ::ArrayWrapper<uint8_t> _get_dnQualifier();
+    static ::ArrayW<uint8_t> _get_dnQualifier();
     // Set static field: static private System.Byte[] dnQualifier
-    static void _set_dnQualifier(::ArrayWrapper<uint8_t> value);
+    static void _set_dnQualifier(::ArrayW<uint8_t> value);
     // Get static field: static private System.Byte[] title
-    static ::ArrayWrapper<uint8_t> _get_title();
+    static ::ArrayW<uint8_t> _get_title();
     // Set static field: static private System.Byte[] title
-    static void _set_title(::ArrayWrapper<uint8_t> value);
+    static void _set_title(::ArrayW<uint8_t> value);
     // Get static field: static private System.Byte[] surname
-    static ::ArrayWrapper<uint8_t> _get_surname();
+    static ::ArrayW<uint8_t> _get_surname();
     // Set static field: static private System.Byte[] surname
-    static void _set_surname(::ArrayWrapper<uint8_t> value);
+    static void _set_surname(::ArrayW<uint8_t> value);
     // Get static field: static private System.Byte[] givenName
-    static ::ArrayWrapper<uint8_t> _get_givenName();
+    static ::ArrayW<uint8_t> _get_givenName();
     // Set static field: static private System.Byte[] givenName
-    static void _set_givenName(::ArrayWrapper<uint8_t> value);
+    static void _set_givenName(::ArrayW<uint8_t> value);
     // Get static field: static private System.Byte[] initial
-    static ::ArrayWrapper<uint8_t> _get_initial();
+    static ::ArrayW<uint8_t> _get_initial();
     // Set static field: static private System.Byte[] initial
-    static void _set_initial(::ArrayWrapper<uint8_t> value);
+    static void _set_initial(::ArrayW<uint8_t> value);
     // static private System.Void .cctor()
     // Offset: 0x25DC9B4
     static void _cctor();

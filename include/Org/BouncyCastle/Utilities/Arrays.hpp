@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: Org.BouncyCastle.Utilities
 namespace Org::BouncyCastle::Utilities {
@@ -15,91 +16,91 @@ namespace Org::BouncyCastle::Utilities {
   class Arrays : public ::Il2CppObject {
     public:
     // Get static field: static public readonly System.Byte[] EmptyBytes
-    static ::ArrayWrapper<uint8_t> _get_EmptyBytes();
+    static ::ArrayW<uint8_t> _get_EmptyBytes();
     // Set static field: static public readonly System.Byte[] EmptyBytes
-    static void _set_EmptyBytes(::ArrayWrapper<uint8_t> value);
+    static void _set_EmptyBytes(::ArrayW<uint8_t> value);
     // Get static field: static public readonly System.Int32[] EmptyInts
-    static ::ArrayWrapper<int> _get_EmptyInts();
+    static ::ArrayW<int> _get_EmptyInts();
     // Set static field: static public readonly System.Int32[] EmptyInts
-    static void _set_EmptyInts(::ArrayWrapper<int> value);
+    static void _set_EmptyInts(::ArrayW<int> value);
     // static private System.Void .cctor()
     // Offset: 0x14EA4C8
     static void _cctor();
     // static public System.Boolean AreEqual(System.Byte[] a, System.Byte[] b)
     // Offset: 0x14D9A5C
-    static bool AreEqual(::ArrayWrapper<uint8_t> a, ::ArrayWrapper<uint8_t> b);
+    static bool AreEqual(::ArrayW<uint8_t> a, ::ArrayW<uint8_t> b);
     // static public System.Boolean ConstantTimeAreEqual(System.Byte[] a, System.Byte[] b)
     // Offset: 0x14E9788
-    static bool ConstantTimeAreEqual(::ArrayWrapper<uint8_t> a, ::ArrayWrapper<uint8_t> b);
+    static bool ConstantTimeAreEqual(::ArrayW<uint8_t> a, ::ArrayW<uint8_t> b);
     // static public System.Boolean ConstantTimeAreEqual(System.Int32 len, System.Byte[] a, System.Int32 aOff, System.Byte[] b, System.Int32 bOff)
     // Offset: 0x14E98AC
-    static bool ConstantTimeAreEqual(int len, ::ArrayWrapper<uint8_t> a, int aOff, ::ArrayWrapper<uint8_t> b, int bOff);
+    static bool ConstantTimeAreEqual(int len, ::ArrayW<uint8_t> a, int aOff, ::ArrayW<uint8_t> b, int bOff);
     // static public System.Boolean AreEqual(System.Int32[] a, System.Int32[] b)
     // Offset: 0x14E9AA0
-    static bool AreEqual(::ArrayWrapper<int> a, ::ArrayWrapper<int> b);
+    static bool AreEqual(::ArrayW<int> a, ::ArrayW<int> b);
     // static public System.Boolean AreEqual(System.UInt32[] a, System.UInt32[] b)
     // Offset: 0x14E9BB4
-    static bool AreEqual(::ArrayWrapper<uint> a, ::ArrayWrapper<uint> b);
+    static bool AreEqual(::ArrayW<uint> a, ::ArrayW<uint> b);
     // static private System.Boolean HaveSameContents(System.Byte[] a, System.Byte[] b)
     // Offset: 0x14E9710
-    static bool HaveSameContents(::ArrayWrapper<uint8_t> a, ::ArrayWrapper<uint8_t> b);
+    static bool HaveSameContents(::ArrayW<uint8_t> a, ::ArrayW<uint8_t> b);
     // static private System.Boolean HaveSameContents(System.Int32[] a, System.Int32[] b)
     // Offset: 0x14E9B3C
-    static bool HaveSameContents(::ArrayWrapper<int> a, ::ArrayWrapper<int> b);
+    static bool HaveSameContents(::ArrayW<int> a, ::ArrayW<int> b);
     // static private System.Boolean HaveSameContents(System.UInt32[] a, System.UInt32[] b)
     // Offset: 0x14E9C50
-    static bool HaveSameContents(::ArrayWrapper<uint> a, ::ArrayWrapper<uint> b);
+    static bool HaveSameContents(::ArrayW<uint> a, ::ArrayW<uint> b);
     // static public System.Int32 GetHashCode(System.Byte[] data)
     // Offset: 0x14E9CC8
-    static int GetHashCode(::ArrayWrapper<uint8_t> data);
+    static int GetHashCode(::ArrayW<uint8_t> data);
     // static public System.Int32 GetHashCode(System.Int32[] data)
     // Offset: 0x14E9D28
-    static int GetHashCode(::ArrayWrapper<int> data);
+    static int GetHashCode(::ArrayW<int> data);
     // static public System.Int32 GetHashCode(System.UInt32[] data, System.Int32 off, System.Int32 len)
     // Offset: 0x14E9D88
-    static int GetHashCode(::ArrayWrapper<uint> data, int off, int len);
+    static int GetHashCode(::ArrayW<uint> data, int off, int len);
     // static public System.Int32 GetHashCode(System.UInt64[] data, System.Int32 off, System.Int32 len)
     // Offset: 0x14E9DE4
-    static int GetHashCode(::ArrayWrapper<uint64_t> data, int off, int len);
+    static int GetHashCode(::ArrayW<uint64_t> data, int off, int len);
     // static public System.Byte[] Clone(System.Byte[] data)
     // Offset: 0x14E9E48
-    static ::ArrayWrapper<uint8_t> Clone(::ArrayWrapper<uint8_t> data);
+    static ::ArrayW<uint8_t> Clone(::ArrayW<uint8_t> data);
     // static public System.Int32[] Clone(System.Int32[] data)
     // Offset: 0x14E9EC8
-    static ::ArrayWrapper<int> Clone(::ArrayWrapper<int> data);
+    static ::ArrayW<int> Clone(::ArrayW<int> data);
     // static public System.UInt32[] Clone(System.UInt32[] data)
     // Offset: 0x14E9F48
-    static ::ArrayWrapper<uint> Clone(::ArrayWrapper<uint> data);
+    static ::ArrayW<uint> Clone(::ArrayW<uint> data);
     // static public System.Int64[] Clone(System.Int64[] data)
     // Offset: 0x14E9FC8
-    static ::ArrayWrapper<int64_t> Clone(::ArrayWrapper<int64_t> data);
+    static ::ArrayW<int64_t> Clone(::ArrayW<int64_t> data);
     // static public System.UInt64[] Clone(System.UInt64[] data)
     // Offset: 0x14EA048
-    static ::ArrayWrapper<uint64_t> Clone(::ArrayWrapper<uint64_t> data);
+    static ::ArrayW<uint64_t> Clone(::ArrayW<uint64_t> data);
     // static public System.Boolean Contains(System.Byte[] a, System.Byte n)
     // Offset: 0x14EA0C8
-    static bool Contains(::ArrayWrapper<uint8_t> a, uint8_t n);
+    static bool Contains(::ArrayW<uint8_t> a, uint8_t n);
     // static public System.Void Fill(System.Byte[] buf, System.Byte b)
     // Offset: 0x14EA12C
-    static void Fill(::ArrayWrapper<uint8_t> buf, uint8_t b);
+    static void Fill(::ArrayW<uint8_t> buf, uint8_t b);
     // static public System.Void Fill(System.Byte[] buf, System.Int32 from, System.Int32 to, System.Byte b)
     // Offset: 0x14EA194
-    static void Fill(::ArrayWrapper<uint8_t> buf, int from, int to, uint8_t b);
+    static void Fill(::ArrayW<uint8_t> buf, int from, int to, uint8_t b);
     // static public System.Byte[] CopyOfRange(System.Byte[] data, System.Int32 from, System.Int32 to)
     // Offset: 0x14EA1F0
-    static ::ArrayWrapper<uint8_t> CopyOfRange(::ArrayWrapper<uint8_t> data, int from, int to);
+    static ::ArrayW<uint8_t> CopyOfRange(::ArrayW<uint8_t> data, int from, int to);
     // static private System.Int32 GetLength(System.Int32 from, System.Int32 to)
     // Offset: 0x14EA2E8
     static int GetLength(int from, int to);
     // static public System.Byte[] Prepend(System.Byte[] a, System.Byte b)
     // Offset: 0x14EA3C0
-    static ::ArrayWrapper<uint8_t> Prepend(::ArrayWrapper<uint8_t> a, uint8_t b);
+    static ::ArrayW<uint8_t> Prepend(::ArrayW<uint8_t> a, uint8_t b);
     // static public System.Byte[] Reverse(System.Byte[] a)
     // Offset: 0x14DB68C
-    static ::ArrayWrapper<uint8_t> Reverse(::ArrayWrapper<uint8_t> a);
+    static ::ArrayW<uint8_t> Reverse(::ArrayW<uint8_t> a);
     // static public System.Boolean IsNullOrContainsNull(System.Object[] array)
     // Offset: 0x14EA48C
-    static bool IsNullOrContainsNull(::ArrayWrapper<::Il2CppObject*> array);
+    static bool IsNullOrContainsNull(::ArrayW<::Il2CppObject*> array);
   }; // Org.BouncyCastle.Utilities.Arrays
   #pragma pack(pop)
 }
@@ -117,7 +118,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Arrays::AreEqual
 // Il2CppName: AreEqual
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Utilities::Arrays::AreEqual)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(&Org::BouncyCastle::Utilities::Arrays::AreEqual)> {
   static const MethodInfo* get() {
     static auto* a = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* b = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -127,7 +128,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Arrays::ConstantTimeAreEqual
 // Il2CppName: ConstantTimeAreEqual
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Utilities::Arrays::ConstantTimeAreEqual)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(&Org::BouncyCastle::Utilities::Arrays::ConstantTimeAreEqual)> {
   static const MethodInfo* get() {
     static auto* a = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* b = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -137,7 +138,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Arrays::ConstantTimeAreEqual
 // Il2CppName: ConstantTimeAreEqual
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, ::ArrayWrapper<uint8_t>, int, ::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Utilities::Arrays::ConstantTimeAreEqual)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int, ::ArrayW<uint8_t>, int, ::ArrayW<uint8_t>, int)>(&Org::BouncyCastle::Utilities::Arrays::ConstantTimeAreEqual)> {
   static const MethodInfo* get() {
     static auto* len = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* a = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -150,7 +151,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(in
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Arrays::AreEqual
 // Il2CppName: AreEqual
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayWrapper<int>, ::ArrayWrapper<int>)>(&Org::BouncyCastle::Utilities::Arrays::AreEqual)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<int>, ::ArrayW<int>)>(&Org::BouncyCastle::Utilities::Arrays::AreEqual)> {
   static const MethodInfo* get() {
     static auto* a = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     static auto* b = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
@@ -160,7 +161,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Arrays::AreEqual
 // Il2CppName: AreEqual
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayWrapper<uint>, ::ArrayWrapper<uint>)>(&Org::BouncyCastle::Utilities::Arrays::AreEqual)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<uint>, ::ArrayW<uint>)>(&Org::BouncyCastle::Utilities::Arrays::AreEqual)> {
   static const MethodInfo* get() {
     static auto* a = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     static auto* b = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
@@ -170,7 +171,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Arrays::HaveSameContents
 // Il2CppName: HaveSameContents
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Utilities::Arrays::HaveSameContents)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(&Org::BouncyCastle::Utilities::Arrays::HaveSameContents)> {
   static const MethodInfo* get() {
     static auto* a = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* b = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -180,7 +181,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Arrays::HaveSameContents
 // Il2CppName: HaveSameContents
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayWrapper<int>, ::ArrayWrapper<int>)>(&Org::BouncyCastle::Utilities::Arrays::HaveSameContents)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<int>, ::ArrayW<int>)>(&Org::BouncyCastle::Utilities::Arrays::HaveSameContents)> {
   static const MethodInfo* get() {
     static auto* a = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     static auto* b = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
@@ -190,7 +191,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Arrays::HaveSameContents
 // Il2CppName: HaveSameContents
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayWrapper<uint>, ::ArrayWrapper<uint>)>(&Org::BouncyCastle::Utilities::Arrays::HaveSameContents)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<uint>, ::ArrayW<uint>)>(&Org::BouncyCastle::Utilities::Arrays::HaveSameContents)> {
   static const MethodInfo* get() {
     static auto* a = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     static auto* b = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
@@ -200,7 +201,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Arrays::GetHashCode
 // Il2CppName: GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Utilities::Arrays::GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayW<uint8_t>)>(&Org::BouncyCastle::Utilities::Arrays::GetHashCode)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Arrays*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data});
@@ -209,7 +210,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::A
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Arrays::GetHashCode
 // Il2CppName: GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayWrapper<int>)>(&Org::BouncyCastle::Utilities::Arrays::GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayW<int>)>(&Org::BouncyCastle::Utilities::Arrays::GetHashCode)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Arrays*), "GetHashCode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data});
@@ -218,7 +219,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::A
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Arrays::GetHashCode
 // Il2CppName: GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayWrapper<uint>, int, int)>(&Org::BouncyCastle::Utilities::Arrays::GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayW<uint>, int, int)>(&Org::BouncyCastle::Utilities::Arrays::GetHashCode)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     static auto* off = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -229,7 +230,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::A
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Arrays::GetHashCode
 // Il2CppName: GetHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayWrapper<uint64_t>, int, int)>(&Org::BouncyCastle::Utilities::Arrays::GetHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::ArrayW<uint64_t>, int, int)>(&Org::BouncyCastle::Utilities::Arrays::GetHashCode)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt64"), 1)->byval_arg;
     static auto* off = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -240,7 +241,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(::A
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Arrays::Clone
 // Il2CppName: Clone
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Utilities::Arrays::Clone)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(::ArrayW<uint8_t>)>(&Org::BouncyCastle::Utilities::Arrays::Clone)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Arrays*), "Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data});
@@ -249,7 +250,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Arrays::Clone
 // Il2CppName: Clone
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<int> (*)(::ArrayWrapper<int>)>(&Org::BouncyCastle::Utilities::Arrays::Clone)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int> (*)(::ArrayW<int>)>(&Org::BouncyCastle::Utilities::Arrays::Clone)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Arrays*), "Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data});
@@ -258,7 +259,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Arrays::Clone
 // Il2CppName: Clone
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint> (*)(::ArrayWrapper<uint>)>(&Org::BouncyCastle::Utilities::Arrays::Clone)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint> (*)(::ArrayW<uint>)>(&Org::BouncyCastle::Utilities::Arrays::Clone)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Arrays*), "Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data});
@@ -267,7 +268,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Arrays::Clone
 // Il2CppName: Clone
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<int64_t> (*)(::ArrayWrapper<int64_t>)>(&Org::BouncyCastle::Utilities::Arrays::Clone)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int64_t> (*)(::ArrayW<int64_t>)>(&Org::BouncyCastle::Utilities::Arrays::Clone)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int64"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Arrays*), "Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data});
@@ -276,7 +277,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Arrays::Clone
 // Il2CppName: Clone
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint64_t> (*)(::ArrayWrapper<uint64_t>)>(&Org::BouncyCastle::Utilities::Arrays::Clone)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint64_t> (*)(::ArrayW<uint64_t>)>(&Org::BouncyCastle::Utilities::Arrays::Clone)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt64"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Arrays*), "Clone", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data});
@@ -285,7 +286,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Arrays::Contains
 // Il2CppName: Contains
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayWrapper<uint8_t>, uint8_t)>(&Org::BouncyCastle::Utilities::Arrays::Contains)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<uint8_t>, uint8_t)>(&Org::BouncyCastle::Utilities::Arrays::Contains)> {
   static const MethodInfo* get() {
     static auto* a = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* n = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
@@ -295,7 +296,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Arrays::Fill
 // Il2CppName: Fill
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint8_t>, uint8_t)>(&Org::BouncyCastle::Utilities::Arrays::Fill)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t>, uint8_t)>(&Org::BouncyCastle::Utilities::Arrays::Fill)> {
   static const MethodInfo* get() {
     static auto* buf = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* b = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
@@ -305,7 +306,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Arrays::Fill
 // Il2CppName: Fill
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint8_t>, int, int, uint8_t)>(&Org::BouncyCastle::Utilities::Arrays::Fill)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t>, int, int, uint8_t)>(&Org::BouncyCastle::Utilities::Arrays::Fill)> {
   static const MethodInfo* get() {
     static auto* buf = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* from = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -317,7 +318,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Arrays::CopyOfRange
 // Il2CppName: CopyOfRange
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(::ArrayWrapper<uint8_t>, int, int)>(&Org::BouncyCastle::Utilities::Arrays::CopyOfRange)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(::ArrayW<uint8_t>, int, int)>(&Org::BouncyCastle::Utilities::Arrays::CopyOfRange)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* from = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -338,7 +339,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(int
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Arrays::Prepend
 // Il2CppName: Prepend
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(::ArrayWrapper<uint8_t>, uint8_t)>(&Org::BouncyCastle::Utilities::Arrays::Prepend)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(::ArrayW<uint8_t>, uint8_t)>(&Org::BouncyCastle::Utilities::Arrays::Prepend)> {
   static const MethodInfo* get() {
     static auto* a = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* b = &::il2cpp_utils::GetClassFromName("System", "Byte")->byval_arg;
@@ -348,7 +349,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Arrays::Reverse
 // Il2CppName: Reverse
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Utilities::Arrays::Reverse)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(::ArrayW<uint8_t>)>(&Org::BouncyCastle::Utilities::Arrays::Reverse)> {
   static const MethodInfo* get() {
     static auto* a = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Arrays*), "Reverse", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{a});
@@ -357,7 +358,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: Org::BouncyCastle::Utilities::Arrays::IsNullOrContainsNull
 // Il2CppName: IsNullOrContainsNull
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayWrapper<::Il2CppObject*>)>(&Org::BouncyCastle::Utilities::Arrays::IsNullOrContainsNull)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<::Il2CppObject*>)>(&Org::BouncyCastle::Utilities::Arrays::IsNullOrContainsNull)> {
   static const MethodInfo* get() {
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Utilities::Arrays*), "IsNullOrContainsNull", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{array});

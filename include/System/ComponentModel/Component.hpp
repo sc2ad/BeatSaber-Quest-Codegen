@@ -39,6 +39,11 @@ namespace System::ComponentModel {
   // [ClassInterfaceAttribute] Offset: E69310
   class Component : public System::MarshalByRefObject/*, public System::ComponentModel::IComponent*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.ComponentModel.ISite site
     // Size: 0x8
     // Offset: 0x18
@@ -51,6 +56,7 @@ namespace System::ComponentModel {
     System::ComponentModel::EventHandlerList* events;
     // Field size check
     static_assert(sizeof(System::ComponentModel::EventHandlerList*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::ComponentModel::IComponent
     operator System::ComponentModel::IComponent() noexcept {
       return *reinterpret_cast<System::ComponentModel::IComponent*>(this);

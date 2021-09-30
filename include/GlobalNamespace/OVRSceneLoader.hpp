@@ -69,6 +69,11 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct SceneInfo/*, public System::ValueType*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Collections.Generic.List`1<System.String> scenes
       // Size: 0x8
       // Offset: 0x0
@@ -81,6 +86,7 @@ namespace GlobalNamespace {
       int64_t version;
       // Field size check
       static_assert(sizeof(int64_t) == 0x8);
+      public:
       // Creating value type constructor for type: SceneInfo
       constexpr SceneInfo(System::Collections::Generic::List_1<::Il2CppString*>* scenes_ = {}, int64_t version_ = {}) noexcept : scenes{scenes_}, version{version_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -98,6 +104,11 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(OVRSceneLoader::SceneInfo), 8 + sizeof(int64_t)> __GlobalNamespace_OVRSceneLoader_SceneInfoSizeCheck;
     static_assert(sizeof(OVRSceneLoader::SceneInfo) == 0x10);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Single sceneCheckIntervalSeconds
     // Size: 0x4
     // Offset: 0x18
@@ -178,6 +189,7 @@ namespace GlobalNamespace {
     GlobalNamespace::OVRSceneLoader::SceneInfo currentSceneInfo;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OVRSceneLoader::SceneInfo) == 0x10);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static public System.String externalStoragePath

@@ -69,6 +69,11 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct RaycastHit/*, public System::ValueType*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public UnityEngine.UI.Graphic graphic
       // Size: 0x8
       // Offset: 0x0
@@ -87,6 +92,7 @@ namespace GlobalNamespace {
       bool fromMouse;
       // Field size check
       static_assert(sizeof(bool) == 0x1);
+      public:
       // Creating value type constructor for type: RaycastHit
       constexpr RaycastHit(UnityEngine::UI::Graphic* graphic_ = {}, UnityEngine::Vector3 worldPos_ = {}, bool fromMouse_ = {}) noexcept : graphic{graphic_}, worldPos{worldPos_}, fromMouse{fromMouse_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -103,6 +109,11 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(OVRRaycaster::RaycastHit), 20 + sizeof(bool)> __GlobalNamespace_OVRRaycaster_RaycastHitSizeCheck;
     static_assert(sizeof(OVRRaycaster::RaycastHit) == 0x15);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [TooltipAttribute] Offset: 0xEB2ECC
     // public UnityEngine.GameObject pointer
     // Size: 0x8
@@ -130,6 +141,7 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<GlobalNamespace::OVRRaycaster::RaycastHit>* m_RaycastResults;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::OVRRaycaster::RaycastHit>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator UnityEngine::EventSystems::IPointerEnterHandler
     operator UnityEngine::EventSystems::IPointerEnterHandler() noexcept {
       return *reinterpret_cast<UnityEngine::EventSystems::IPointerEnterHandler*>(this);

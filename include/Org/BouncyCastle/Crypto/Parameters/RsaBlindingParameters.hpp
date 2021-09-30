@@ -21,12 +21,18 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   // [TokenAttribute] Offset: FFFFFFFF
   class RsaBlindingParameters : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Org.BouncyCastle.Crypto.Parameters.RsaKeyParameters publicKey
     // Size: 0x8
     // Offset: 0x10
     Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* publicKey;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*) == 0x8);
+    public:
     // Creating conversion operator: operator Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*
     constexpr operator Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*() const noexcept {
       return publicKey;

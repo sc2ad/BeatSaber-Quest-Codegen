@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -42,6 +43,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview::BeatmapLevelData::DifficultyBeatmapSet
     class DifficultyBeatmapSet;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.AudioClip _audioClip
     // Size: 0x8
     // Offset: 0x10
@@ -51,9 +57,10 @@ namespace GlobalNamespace {
     // private BeatmapLevelDataLoaderSO/BeatmapLevelFromPreview/BeatmapLevelData/DifficultyBeatmapSet[] _difficultyBeatmapSets
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<GlobalNamespace::BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview::BeatmapLevelData::DifficultyBeatmapSet*> difficultyBeatmapSets;
+    ::ArrayW<GlobalNamespace::BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview::BeatmapLevelData::DifficultyBeatmapSet*> difficultyBeatmapSets;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview::BeatmapLevelData::DifficultyBeatmapSet*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview::BeatmapLevelData::DifficultyBeatmapSet*>) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IBeatmapLevelData
     operator GlobalNamespace::IBeatmapLevelData() noexcept {
       return *reinterpret_cast<GlobalNamespace::IBeatmapLevelData*>(this);
@@ -61,13 +68,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.AudioClip _audioClip
     UnityEngine::AudioClip*& dyn__audioClip();
     // Get instance field reference: private BeatmapLevelDataLoaderSO/BeatmapLevelFromPreview/BeatmapLevelData/DifficultyBeatmapSet[] _difficultyBeatmapSets
-    ::ArrayWrapper<GlobalNamespace::BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview::BeatmapLevelData::DifficultyBeatmapSet*>& dyn__difficultyBeatmapSets();
+    ::ArrayW<GlobalNamespace::BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview::BeatmapLevelData::DifficultyBeatmapSet*>& dyn__difficultyBeatmapSets();
     // public UnityEngine.AudioClip get_audioClip()
     // Offset: 0x1298950
     UnityEngine::AudioClip* get_audioClip();
     // public IDifficultyBeatmapSet[] get_difficultyBeatmapSets()
     // Offset: 0x1298958
-    ::ArrayWrapper<GlobalNamespace::IDifficultyBeatmapSet*> get_difficultyBeatmapSets();
+    ::ArrayW<GlobalNamespace::IDifficultyBeatmapSet*> get_difficultyBeatmapSets();
     // public System.Void .ctor(BeatmapLevelDataSO beatmapLevelData, BeatmapCharacteristicCollectionSO beatmapCharacteristicCollection, IBeatmapLevel parentLevel)
     // Offset: 0x12982C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -77,7 +84,7 @@ namespace GlobalNamespace {
     }
   }; // BeatmapLevelDataLoaderSO/BeatmapLevelFromPreview/BeatmapLevelData
   #pragma pack(pop)
-  static check_size<sizeof(BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview::BeatmapLevelData), 24 + sizeof(::ArrayWrapper<GlobalNamespace::BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview::BeatmapLevelData::DifficultyBeatmapSet*>)> __GlobalNamespace_BeatmapLevelDataLoaderSO_BeatmapLevelFromPreview_BeatmapLevelDataSizeCheck;
+  static check_size<sizeof(BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview::BeatmapLevelData), 24 + sizeof(::ArrayW<GlobalNamespace::BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview::BeatmapLevelData::DifficultyBeatmapSet*>)> __GlobalNamespace_BeatmapLevelDataLoaderSO_BeatmapLevelFromPreview_BeatmapLevelDataSizeCheck;
   static_assert(sizeof(BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview::BeatmapLevelData) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview::BeatmapLevelData*, "", "BeatmapLevelDataLoaderSO/BeatmapLevelFromPreview/BeatmapLevelData");
@@ -93,7 +100,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview::BeatmapLevelData::get_difficultyBeatmapSets
 // Il2CppName: get_difficultyBeatmapSets
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::IDifficultyBeatmapSet*> (GlobalNamespace::BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview::BeatmapLevelData::*)()>(&GlobalNamespace::BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview::BeatmapLevelData::get_difficultyBeatmapSets)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<GlobalNamespace::IDifficultyBeatmapSet*> (GlobalNamespace::BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview::BeatmapLevelData::*)()>(&GlobalNamespace::BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview::BeatmapLevelData::get_difficultyBeatmapSets)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelDataLoaderSO::BeatmapLevelFromPreview::BeatmapLevelData*), "get_difficultyBeatmapSets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

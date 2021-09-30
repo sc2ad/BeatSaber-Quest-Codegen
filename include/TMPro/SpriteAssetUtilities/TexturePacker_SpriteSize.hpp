@@ -19,6 +19,11 @@ namespace TMPro::SpriteAssetUtilities {
   // [TokenAttribute] Offset: FFFFFFFF
   struct TexturePacker::SpriteSize/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Single w
     // Size: 0x4
     // Offset: 0x0
@@ -31,6 +36,7 @@ namespace TMPro::SpriteAssetUtilities {
     float h;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: SpriteSize
     constexpr SpriteSize(float w_ = {}, float h_ = {}) noexcept : w{w_}, h{h_} {}
     // Creating interface conversion operator: operator System::ValueType

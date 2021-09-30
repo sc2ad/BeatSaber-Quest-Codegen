@@ -11,6 +11,7 @@
 #include "LiteNetLib/Utils/INetImmutableSerializable_1.hpp"
 // Including type: System.Enum
 #include "System/Enum.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -43,12 +44,18 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct Platform/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Byte value__
       // Size: 0x1
       // Offset: 0x0
       uint8_t value;
       // Field size check
       static_assert(sizeof(uint8_t) == 0x1);
+      public:
       // Creating value type constructor for type: Platform
       constexpr Platform(uint8_t value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -113,6 +120,11 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(AuthenticationToken::Platform), 0 + sizeof(uint8_t)> __GlobalNamespace_AuthenticationToken_PlatformSizeCheck;
     static_assert(sizeof(AuthenticationToken::Platform) == 0x1);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly AuthenticationToken/Platform platform
     // Size: 0x1
     // Offset: 0x0
@@ -136,11 +148,12 @@ namespace GlobalNamespace {
     // public readonly System.Byte[] sessionToken
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<uint8_t> sessionToken;
+    ::ArrayW<uint8_t> sessionToken;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
+    public:
     // Creating value type constructor for type: AuthenticationToken
-    constexpr AuthenticationToken(GlobalNamespace::AuthenticationToken::Platform platform_ = {}, ::Il2CppString* userId_ = {}, ::Il2CppString* userName_ = {}, ::ArrayWrapper<uint8_t> sessionToken_ = ::ArrayWrapper<uint8_t>(nullptr)) noexcept : platform{platform_}, userId{userId_}, userName{userName_}, sessionToken{sessionToken_} {}
+    constexpr AuthenticationToken(GlobalNamespace::AuthenticationToken::Platform platform_ = {}, ::Il2CppString* userId_ = {}, ::Il2CppString* userName_ = {}, ::ArrayW<uint8_t> sessionToken_ = ::ArrayW<uint8_t>(nullptr)) noexcept : platform{platform_}, userId{userId_}, userName{userName_}, sessionToken{sessionToken_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -156,10 +169,10 @@ namespace GlobalNamespace {
     // Get instance field reference: public readonly System.String userName
     ::Il2CppString*& dyn_userName();
     // Get instance field reference: public readonly System.Byte[] sessionToken
-    ::ArrayWrapper<uint8_t>& dyn_sessionToken();
+    ::ArrayW<uint8_t>& dyn_sessionToken();
     // public System.Void .ctor(AuthenticationToken/Platform platform, System.String userId, System.String userName, System.Byte[] sessionToken)
     // Offset: 0x144C3D4
-    // ABORTED: conflicts with another method.  AuthenticationToken(GlobalNamespace::AuthenticationToken::Platform platform, ::Il2CppString* userId, ::Il2CppString* userName, ::ArrayWrapper<uint8_t> sessionToken);
+    // ABORTED: conflicts with another method.  AuthenticationToken(GlobalNamespace::AuthenticationToken::Platform platform, ::Il2CppString* userId, ::Il2CppString* userName, ::ArrayW<uint8_t> sessionToken);
     // public System.Void Serialize(LiteNetLib.Utils.NetDataWriter writer)
     // Offset: 0x144C3E4
     void Serialize(LiteNetLib::Utils::NetDataWriter* writer);
@@ -171,7 +184,7 @@ namespace GlobalNamespace {
     static GlobalNamespace::AuthenticationToken Deserialize(LiteNetLib::Utils::NetDataReader* reader);
   }; // AuthenticationToken
   #pragma pack(pop)
-  static check_size<sizeof(AuthenticationToken), 24 + sizeof(::ArrayWrapper<uint8_t>)> __GlobalNamespace_AuthenticationTokenSizeCheck;
+  static check_size<sizeof(AuthenticationToken), 24 + sizeof(::ArrayW<uint8_t>)> __GlobalNamespace_AuthenticationTokenSizeCheck;
   static_assert(sizeof(AuthenticationToken) == 0x20);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

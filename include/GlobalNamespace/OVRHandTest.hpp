@@ -47,6 +47,11 @@ namespace GlobalNamespace {
     class BoolMonitor;
     // Nested type: GlobalNamespace::OVRHandTest::$$c
     class $$c;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.UI.Text uiText
     // Size: 0x8
     // Offset: 0x18
@@ -125,6 +130,7 @@ namespace GlobalNamespace {
     bool result_mesh_RH;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static private System.String prevConnected

@@ -146,12 +146,18 @@ namespace Zenject {
       using declaring_type = FromBinderGeneric_1<TContract>*;
       static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass3_0";
       static constexpr bool IS_VALUE_TYPE = false;
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Func`1<TContract> method
       // Size: 0x8
       // Offset: 0x0
       System::Func_1<TContract>* method;
       // Field size check
       static_assert(sizeof(System::Func_1<TContract>*) == 0x8);
+      public:
       // Creating conversion operator: operator System::Func_1<TContract>*
       constexpr operator System::Func_1<TContract>*() const noexcept {
         return method;
@@ -192,12 +198,18 @@ namespace Zenject {
       using declaring_type = FromBinderGeneric_1<TContract>*;
       static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass14_0";
       static constexpr bool IS_VALUE_TYPE = false;
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Func`2<TContract,System.Boolean> predicate
       // Size: 0x8
       // Offset: 0x0
       System::Func_2<TContract, bool>* predicate;
       // Field size check
       static_assert(sizeof(System::Func_2<TContract, bool>*) == 0x8);
+      public:
       // Creating conversion operator: operator System::Func_2<TContract, bool>*
       constexpr operator System::Func_2<TContract, bool>*() const noexcept {
         return predicate;
@@ -238,12 +250,18 @@ namespace Zenject {
       using declaring_type = FromBinderGeneric_1<TContract>*;
       static constexpr std::string_view NESTED_NAME = "<>c__DisplayClass15_0";
       static constexpr bool IS_VALUE_TYPE = false;
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Func`2<TContract,System.Boolean> predicate
       // Size: 0x8
       // Offset: 0x0
       System::Func_2<TContract, bool>* predicate;
       // Field size check
       static_assert(sizeof(System::Func_2<TContract, bool>*) == 0x8);
+      public:
       // Creating conversion operator: operator System::Func_2<TContract, bool>*
       constexpr operator System::Func_2<TContract, bool>*() const noexcept {
         return predicate;

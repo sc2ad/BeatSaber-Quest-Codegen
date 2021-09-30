@@ -32,6 +32,11 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class ArcadeFlowCoordinator::$$c__DisplayClass22_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public ArcadeFlowCoordinator <>4__this
     // Size: 0x8
     // Offset: 0x10
@@ -56,6 +61,7 @@ namespace GlobalNamespace {
     bool practice;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: public ArcadeFlowCoordinator <>4__this
     GlobalNamespace::ArcadeFlowCoordinator*& dyn_$$4__this();
     // Get instance field reference: public LevelCompletionResults levelCompletionResults

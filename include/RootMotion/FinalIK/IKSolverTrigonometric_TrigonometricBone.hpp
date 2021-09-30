@@ -24,6 +24,11 @@ namespace RootMotion::FinalIK {
     public:
     // Writing base type padding for base size: 0x71 to desired offset: 0x74
     char ___base_padding[0x3] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Quaternion targetToLocalSpace
     // Size: 0x10
     // Offset: 0x74
@@ -36,6 +41,7 @@ namespace RootMotion::FinalIK {
     UnityEngine::Vector3 defaultLocalBendNormal;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    public:
     // Get instance field reference: private UnityEngine.Quaternion targetToLocalSpace
     UnityEngine::Quaternion& dyn_targetToLocalSpace();
     // Get instance field reference: private UnityEngine.Vector3 defaultLocalBendNormal

@@ -64,12 +64,18 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct GameState/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: GameState
       constexpr GameState(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -116,6 +122,11 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(MissionLevelGameplayManager::GameState), 0 + sizeof(int)> __GlobalNamespace_MissionLevelGameplayManager_GameStateSizeCheck;
     static_assert(sizeof(MissionLevelGameplayManager::GameState) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private MissionObjectiveCheckersManager _missionObjectiveCheckersManager
     // Size: 0x8
     // Offset: 0x18
@@ -175,6 +186,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MissionLevelGameplayManager::GameState gameState;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionLevelGameplayManager::GameState) == 0x4);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::ILevelEndActions
     operator GlobalNamespace::ILevelEndActions() noexcept {
       return *reinterpret_cast<GlobalNamespace::ILevelEndActions*>(this);

@@ -30,6 +30,11 @@ namespace System::Reflection {
   // [ComVisibleAttribute] Offset: E5DC70
   struct CustomAttributeNamedArgument/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Reflection.CustomAttributeTypedArgument typedArgument
     // Size: 0x10
     // Offset: 0x0
@@ -42,6 +47,7 @@ namespace System::Reflection {
     System::Reflection::MemberInfo* memberInfo;
     // Field size check
     static_assert(sizeof(System::Reflection::MemberInfo*) == 0x8);
+    public:
     // Creating value type constructor for type: CustomAttributeNamedArgument
     constexpr CustomAttributeNamedArgument(System::Reflection::CustomAttributeTypedArgument typedArgument_ = {}, System::Reflection::MemberInfo* memberInfo_ = {}) noexcept : typedArgument{typedArgument_}, memberInfo{memberInfo_} {}
     // Creating interface conversion operator: operator System::ValueType

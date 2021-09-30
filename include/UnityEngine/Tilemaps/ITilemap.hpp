@@ -31,12 +31,18 @@ namespace UnityEngine::Tilemaps {
   // [RequiredByNativeCodeAttribute] Offset: ED2964
   class ITilemap : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // UnityEngine.Tilemaps.Tilemap m_Tilemap
     // Size: 0x8
     // Offset: 0x10
     UnityEngine::Tilemaps::Tilemap* m_Tilemap;
     // Field size check
     static_assert(sizeof(UnityEngine::Tilemaps::Tilemap*) == 0x8);
+    public:
     // Creating conversion operator: operator UnityEngine::Tilemaps::Tilemap*
     constexpr operator UnityEngine::Tilemaps::Tilemap*() const noexcept {
       return m_Tilemap;

@@ -34,12 +34,18 @@ namespace System::Diagnostics {
     // [FlagsAttribute] Offset: FFFFFFFF
     struct DebuggingModes/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: DebuggingModes
       constexpr DebuggingModes(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -86,12 +92,18 @@ namespace System::Diagnostics {
     #pragma pack(pop)
     static check_size<sizeof(DebuggableAttribute::DebuggingModes), 0 + sizeof(int)> __System_Diagnostics_DebuggableAttribute_DebuggingModesSizeCheck;
     static_assert(sizeof(DebuggableAttribute::DebuggingModes) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Diagnostics.DebuggableAttribute/System.Diagnostics.DebuggingModes m_debuggingModes
     // Size: 0x4
     // Offset: 0x10
     System::Diagnostics::DebuggableAttribute::DebuggingModes m_debuggingModes;
     // Field size check
     static_assert(sizeof(System::Diagnostics::DebuggableAttribute::DebuggingModes) == 0x4);
+    public:
     // Creating conversion operator: operator System::Diagnostics::DebuggableAttribute::DebuggingModes
     constexpr operator System::Diagnostics::DebuggableAttribute::DebuggingModes() const noexcept {
       return m_debuggingModes;

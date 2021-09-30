@@ -27,12 +27,18 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class AndroidJavaRunnableProxy : public UnityEngine::AndroidJavaProxy {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.AndroidJavaRunnable mRunnable
     // Size: 0x8
     // Offset: 0x20
     UnityEngine::AndroidJavaRunnable* mRunnable;
     // Field size check
     static_assert(sizeof(UnityEngine::AndroidJavaRunnable*) == 0x8);
+    public:
     // Creating conversion operator: operator UnityEngine::AndroidJavaRunnable*
     constexpr operator UnityEngine::AndroidJavaRunnable*() const noexcept {
       return mRunnable;

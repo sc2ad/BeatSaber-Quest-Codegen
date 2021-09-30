@@ -36,6 +36,11 @@ namespace NUnit::Framework::Constraints {
   // [TokenAttribute] Offset: FFFFFFFF
   class CollectionTally : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Collections.Generic.List`1<System.Object> list
     // Size: 0x8
     // Offset: 0x10
@@ -48,6 +53,7 @@ namespace NUnit::Framework::Constraints {
     NUnit::Framework::Constraints::NUnitEqualityComparer* comparer;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Constraints::NUnitEqualityComparer*) == 0x8);
+    public:
     // Get instance field reference: private readonly System.Collections.Generic.List`1<System.Object> list
     System::Collections::Generic::List_1<::Il2CppObject*>*& dyn_list();
     // Get instance field reference: private readonly NUnit.Framework.Constraints.NUnitEqualityComparer comparer

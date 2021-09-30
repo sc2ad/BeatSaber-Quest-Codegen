@@ -17,6 +17,11 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct VREvent_Chaperone_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.UInt64 m_nPreviousUniverse
     // Size: 0x8
     // Offset: 0x0
@@ -29,6 +34,7 @@ namespace OVR::OpenVR {
     uint64_t m_nCurrentUniverse;
     // Field size check
     static_assert(sizeof(uint64_t) == 0x8);
+    public:
     // Creating value type constructor for type: VREvent_Chaperone_t
     constexpr VREvent_Chaperone_t(uint64_t m_nPreviousUniverse_ = {}, uint64_t m_nCurrentUniverse_ = {}) noexcept : m_nPreviousUniverse{m_nPreviousUniverse_}, m_nCurrentUniverse{m_nCurrentUniverse_} {}
     // Creating interface conversion operator: operator System::ValueType

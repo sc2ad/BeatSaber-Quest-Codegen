@@ -17,6 +17,11 @@ namespace System::Net::NetworkInformation {
   // [TokenAttribute] Offset: FFFFFFFF
   struct sockaddr_in/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.UInt16 sin_family
     // Size: 0x2
     // Offset: 0x0
@@ -35,6 +40,7 @@ namespace System::Net::NetworkInformation {
     uint sin_addr;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
+    public:
     // Creating value type constructor for type: sockaddr_in
     constexpr sockaddr_in(uint16_t sin_family_ = {}, uint16_t sin_port_ = {}, uint sin_addr_ = {}) noexcept : sin_family{sin_family_}, sin_port{sin_port_}, sin_addr{sin_addr_} {}
     // Creating interface conversion operator: operator System::ValueType

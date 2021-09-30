@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Globalization
@@ -34,6 +35,11 @@ namespace System::Globalization {
   // [TokenAttribute] Offset: FFFFFFFF
   class GregorianCalendarHelper : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [OptionalFieldAttribute] Offset: 0xE63468
     // System.Int32 m_maxYear
     // Size: 0x4
@@ -58,16 +64,16 @@ namespace System::Globalization {
     // System.Globalization.EraInfo[] m_EraInfo
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<System::Globalization::EraInfo*> m_EraInfo;
+    ::ArrayW<System::Globalization::EraInfo*> m_EraInfo;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<System::Globalization::EraInfo*>) == 0x8);
+    static_assert(sizeof(::ArrayW<System::Globalization::EraInfo*>) == 0x8);
     // [OptionalFieldAttribute] Offset: 0xE63510
     // System.Int32[] m_eras
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<int> m_eras;
+    ::ArrayW<int> m_eras;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // [OptionalFieldAttribute] Offset: 0xE63548
     // System.DateTime m_minDate
     // Size: 0x8
@@ -75,14 +81,15 @@ namespace System::Globalization {
     System::DateTime m_minDate;
     // Field size check
     static_assert(sizeof(System::DateTime) == 0x8);
+    public:
     // Get static field: static readonly System.Int32[] DaysToMonth365
-    static ::ArrayWrapper<int> _get_DaysToMonth365();
+    static ::ArrayW<int> _get_DaysToMonth365();
     // Set static field: static readonly System.Int32[] DaysToMonth365
-    static void _set_DaysToMonth365(::ArrayWrapper<int> value);
+    static void _set_DaysToMonth365(::ArrayW<int> value);
     // Get static field: static readonly System.Int32[] DaysToMonth366
-    static ::ArrayWrapper<int> _get_DaysToMonth366();
+    static ::ArrayW<int> _get_DaysToMonth366();
     // Set static field: static readonly System.Int32[] DaysToMonth366
-    static void _set_DaysToMonth366(::ArrayWrapper<int> value);
+    static void _set_DaysToMonth366(::ArrayW<int> value);
     // Get instance field reference: System.Int32 m_maxYear
     int& dyn_m_maxYear();
     // Get instance field reference: System.Int32 m_minYear
@@ -90,9 +97,9 @@ namespace System::Globalization {
     // Get instance field reference: System.Globalization.Calendar m_Cal
     System::Globalization::Calendar*& dyn_m_Cal();
     // Get instance field reference: System.Globalization.EraInfo[] m_EraInfo
-    ::ArrayWrapper<System::Globalization::EraInfo*>& dyn_m_EraInfo();
+    ::ArrayW<System::Globalization::EraInfo*>& dyn_m_EraInfo();
     // Get instance field reference: System.Int32[] m_eras
-    ::ArrayWrapper<int>& dyn_m_eras();
+    ::ArrayW<int>& dyn_m_eras();
     // Get instance field reference: System.DateTime m_minDate
     System::DateTime& dyn_m_minDate();
     // System.Int32 get_MaxYear()
@@ -100,11 +107,11 @@ namespace System::Globalization {
     int get_MaxYear();
     // public System.Int32[] get_Eras()
     // Offset: 0x1BD5618
-    ::ArrayWrapper<int> get_Eras();
+    ::ArrayW<int> get_Eras();
     // System.Void .ctor(System.Globalization.Calendar cal, System.Globalization.EraInfo[] eraInfo)
     // Offset: 0x1BD4670
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static GregorianCalendarHelper* New_ctor(System::Globalization::Calendar* cal, ::ArrayWrapper<System::Globalization::EraInfo*> eraInfo) {
+    static GregorianCalendarHelper* New_ctor(System::Globalization::Calendar* cal, ::ArrayW<System::Globalization::EraInfo*> eraInfo) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Globalization::GregorianCalendarHelper::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GregorianCalendarHelper*, creationType>(cal, eraInfo)));
     }
@@ -177,7 +184,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Globalization::GregorianCalendarHelper::get_Eras
 // Il2CppName: get_Eras
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<int> (System::Globalization::GregorianCalendarHelper::*)()>(&System::Globalization::GregorianCalendarHelper::get_Eras)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int> (System::Globalization::GregorianCalendarHelper::*)()>(&System::Globalization::GregorianCalendarHelper::get_Eras)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::GregorianCalendarHelper*), "get_Eras", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

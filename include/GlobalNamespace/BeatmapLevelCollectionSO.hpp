@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -31,12 +32,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapLevelCollectionSO : public GlobalNamespace::PersistentScriptableObject/*, public GlobalNamespace::IBeatmapLevelCollection*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private BeatmapLevelSO[] _beatmapLevels
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<GlobalNamespace::BeatmapLevelSO*> beatmapLevels;
+    ::ArrayW<GlobalNamespace::BeatmapLevelSO*> beatmapLevels;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::BeatmapLevelSO*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::BeatmapLevelSO*>) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IBeatmapLevelCollection
     operator GlobalNamespace::IBeatmapLevelCollection() noexcept {
       return *reinterpret_cast<GlobalNamespace::IBeatmapLevelCollection*>(this);
@@ -44,10 +51,10 @@ namespace GlobalNamespace {
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BeatmapLevelSO[] _beatmapLevels
-    ::ArrayWrapper<GlobalNamespace::BeatmapLevelSO*>& dyn__beatmapLevels();
+    ::ArrayW<GlobalNamespace::BeatmapLevelSO*>& dyn__beatmapLevels();
     // public IPreviewBeatmapLevel[] get_beatmapLevels()
     // Offset: 0x127C700
-    ::ArrayWrapper<GlobalNamespace::IPreviewBeatmapLevel*> get_beatmapLevels();
+    ::ArrayW<GlobalNamespace::IPreviewBeatmapLevel*> get_beatmapLevels();
     // public System.Void .ctor()
     // Offset: 0x127C708
     // Implemented from: PersistentScriptableObject
@@ -62,7 +69,7 @@ namespace GlobalNamespace {
     }
   }; // BeatmapLevelCollectionSO
   #pragma pack(pop)
-  static check_size<sizeof(BeatmapLevelCollectionSO), 24 + sizeof(::ArrayWrapper<GlobalNamespace::BeatmapLevelSO*>)> __GlobalNamespace_BeatmapLevelCollectionSOSizeCheck;
+  static check_size<sizeof(BeatmapLevelCollectionSO), 24 + sizeof(::ArrayW<GlobalNamespace::BeatmapLevelSO*>)> __GlobalNamespace_BeatmapLevelCollectionSOSizeCheck;
   static_assert(sizeof(BeatmapLevelCollectionSO) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelCollectionSO*, "", "BeatmapLevelCollectionSO");
@@ -70,7 +77,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::BeatmapLevelCollectionSO*, "", "BeatmapL
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelCollectionSO::get_beatmapLevels
 // Il2CppName: get_beatmapLevels
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::IPreviewBeatmapLevel*> (GlobalNamespace::BeatmapLevelCollectionSO::*)()>(&GlobalNamespace::BeatmapLevelCollectionSO::get_beatmapLevels)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<GlobalNamespace::IPreviewBeatmapLevel*> (GlobalNamespace::BeatmapLevelCollectionSO::*)()>(&GlobalNamespace::BeatmapLevelCollectionSO::get_beatmapLevels)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelCollectionSO*), "get_beatmapLevels", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

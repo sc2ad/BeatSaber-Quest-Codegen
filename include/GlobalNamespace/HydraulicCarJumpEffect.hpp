@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -42,6 +43,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class HydraulicCarJumpEffect : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private BeatmapEventType _event
     // Size: 0x4
     // Offset: 0x18
@@ -53,9 +59,9 @@ namespace GlobalNamespace {
     // private System.Int32[] _eventValues
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<int> eventValues;
+    ::ArrayW<int> eventValues;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // [SpaceAttribute] Offset: 0xEFF2D8
     // private UnityEngine.Vector3 _impulse
     // Size: 0xC
@@ -109,12 +115,13 @@ namespace GlobalNamespace {
     System::Collections::Generic::HashSet_1<int>* eventValuesHashSet;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::HashSet_1<int>*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BeatmapEventType _event
     GlobalNamespace::BeatmapEventType& dyn__event();
     // Get instance field reference: private System.Int32[] _eventValues
-    ::ArrayWrapper<int>& dyn__eventValues();
+    ::ArrayW<int>& dyn__eventValues();
     // Get instance field reference: private UnityEngine.Vector3 _impulse
     UnityEngine::Vector3& dyn__impulse();
     // Get instance field reference: private System.Single _randomness

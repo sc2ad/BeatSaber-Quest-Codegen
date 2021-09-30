@@ -35,6 +35,11 @@ namespace OnlineServices::API {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   struct HTTPLeaderboardsOathHelper::$GetAccessTokenAsync$d__9/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0
@@ -71,6 +76,7 @@ namespace OnlineServices::API {
     // Size: 0xFFFFFFFF
     // Offset: 0x40
     System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*> $$u__2;
+    public:
     // Creating value type constructor for type: $GetAccessTokenAsync$d__9
     constexpr $GetAccessTokenAsync$d__9(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<BeatSaberAPI::DataTransferObjects::AccessToken*> $$t__builder_ = {}, OnlineServices::API::HTTPLeaderboardsOathHelper* $$4__this_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, ::Il2CppString* $uri$5__2_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<BeatSaberAPI::DataTransferObjects::UserAuthenticationData*> $$u__1_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*> $$u__2_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, cancellationToken{cancellationToken_}, $uri$5__2{$uri$5__2_}, $$u__1{$$u__1_}, $$u__2{$$u__2_} {}
     // Creating interface conversion operator: operator System::ValueType

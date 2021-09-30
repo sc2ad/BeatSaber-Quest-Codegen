@@ -23,6 +23,11 @@ namespace System::Collections::Generic {
   template<typename TKey, typename TValue>
   struct KeyValuePair_2/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private TKey key
     // Size: 0xFFFFFFFF
     // Offset: 0x0
@@ -31,6 +36,7 @@ namespace System::Collections::Generic {
     // Size: 0xFFFFFFFF
     // Offset: 0x0
     TValue value;
+    public:
     // Creating value type constructor for type: KeyValuePair_2
     constexpr KeyValuePair_2(TKey key_ = {}, TValue value_ = {}) noexcept : key{key_}, value{value_} {}
     // Creating interface conversion operator: operator System::ValueType

@@ -32,6 +32,11 @@ namespace UnityEngine::Rendering {
   // [UsedByNativeCodeAttribute] Offset: E74514
   struct BatchRendererCullingOutput/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public Unity.Jobs.JobHandle cullingJobsFence
     // Size: 0xC
     // Offset: 0x0
@@ -76,6 +81,7 @@ namespace UnityEngine::Rendering {
     int visibleIndicesCount;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: BatchRendererCullingOutput
     constexpr BatchRendererCullingOutput(Unity::Jobs::JobHandle cullingJobsFence_ = {}, UnityEngine::Plane* cullingPlanes_ = {}, UnityEngine::Rendering::BatchVisibility* batchVisibility_ = {}, int* visibleIndices_ = {}, int cullingPlanesCount_ = {}, int batchVisibilityCount_ = {}, int visibleIndicesCount_ = {}) noexcept : cullingJobsFence{cullingJobsFence_}, cullingPlanes{cullingPlanes_}, batchVisibility{batchVisibility_}, visibleIndices{visibleIndices_}, cullingPlanesCount{cullingPlanesCount_}, batchVisibilityCount{batchVisibilityCount_}, visibleIndicesCount{visibleIndicesCount_} {}
     // Creating interface conversion operator: operator System::ValueType

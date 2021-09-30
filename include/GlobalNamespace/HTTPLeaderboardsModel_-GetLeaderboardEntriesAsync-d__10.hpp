@@ -23,6 +23,7 @@
 #include "System/Runtime/CompilerServices/TaskAwaiter_1.hpp"
 // Including type: OnlineServices.API.ApiResponse`1
 #include "OnlineServices/API/ApiResponse_1.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: BeatSaberAPI::DataTransferObjects
@@ -39,6 +40,11 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   struct HTTPLeaderboardsModel::$GetLeaderboardEntriesAsync$d__10/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0
@@ -76,7 +82,7 @@ namespace GlobalNamespace {
     // private System.Runtime.CompilerServices.TaskAwaiter`1<System.String[]> <>u__1
     // Size: 0xFFFFFFFF
     // Offset: 0x58
-    System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayWrapper<::Il2CppString*>> $$u__1;
+    System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::Il2CppString*>> $$u__1;
     // private System.Runtime.CompilerServices.TaskAwaiter`1<System.String> <>u__2
     // Size: 0xFFFFFFFF
     // Offset: 0x60
@@ -85,8 +91,9 @@ namespace GlobalNamespace {
     // Size: 0xFFFFFFFF
     // Offset: 0x68
     System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::API::ApiResponse_1<BeatSaberAPI::DataTransferObjects::LeaderboardEntries*>> $$u__3;
+    public:
     // Creating value type constructor for type: $GetLeaderboardEntriesAsync$d__10
-    constexpr $GetLeaderboardEntriesAsync$d__10(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<OnlineServices::GetLeaderboardEntriesResult> $$t__builder_ = {}, GlobalNamespace::HTTPLeaderboardsModel* $$4__this_ = {}, OnlineServices::GetLeaderboardFilterData leaderboardFilterData_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, ::Il2CppString* $leaderboardId$5__2_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayWrapper<::Il2CppString*>> $$u__1_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*> $$u__2_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::API::ApiResponse_1<BeatSaberAPI::DataTransferObjects::LeaderboardEntries*>> $$u__3_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, leaderboardFilterData{leaderboardFilterData_}, cancellationToken{cancellationToken_}, $leaderboardId$5__2{$leaderboardId$5__2_}, $$u__1{$$u__1_}, $$u__2{$$u__2_}, $$u__3{$$u__3_} {}
+    constexpr $GetLeaderboardEntriesAsync$d__10(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<OnlineServices::GetLeaderboardEntriesResult> $$t__builder_ = {}, GlobalNamespace::HTTPLeaderboardsModel* $$4__this_ = {}, OnlineServices::GetLeaderboardFilterData leaderboardFilterData_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, ::Il2CppString* $leaderboardId$5__2_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::Il2CppString*>> $$u__1_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*> $$u__2_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<OnlineServices::API::ApiResponse_1<BeatSaberAPI::DataTransferObjects::LeaderboardEntries*>> $$u__3_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, leaderboardFilterData{leaderboardFilterData_}, cancellationToken{cancellationToken_}, $leaderboardId$5__2{$leaderboardId$5__2_}, $$u__1{$$u__1_}, $$u__2{$$u__2_}, $$u__3{$$u__3_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -108,7 +115,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.String <leaderboardId>5__2
     ::Il2CppString*& dyn_$leaderboardId$5__2();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<System.String[]> <>u__1
-    System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayWrapper<::Il2CppString*>>& dyn_$$u__1();
+    System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::Il2CppString*>>& dyn_$$u__1();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<System.String> <>u__2
     System::Runtime::CompilerServices::TaskAwaiter_1<::Il2CppString*>& dyn_$$u__2();
     // Get instance field reference: private System.Runtime.CompilerServices.TaskAwaiter`1<OnlineServices.API.ApiResponse`1<BeatSaberAPI.DataTransferObjects.LeaderboardEntries>> <>u__3

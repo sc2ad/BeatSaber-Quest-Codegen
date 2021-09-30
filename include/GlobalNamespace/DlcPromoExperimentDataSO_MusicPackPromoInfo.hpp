@@ -32,6 +32,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class DlcPromoExperimentDataSO::MusicPackPromoInfo : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private PreviewBeatmapLevelPackSO _previewBeatmapLevelPack
     // Size: 0x8
     // Offset: 0x10
@@ -44,6 +49,7 @@ namespace GlobalNamespace {
     UnityEngine::Sprite* bannerImage;
     // Field size check
     static_assert(sizeof(UnityEngine::Sprite*) == 0x8);
+    public:
     // Get instance field reference: private PreviewBeatmapLevelPackSO _previewBeatmapLevelPack
     GlobalNamespace::PreviewBeatmapLevelPackSO*& dyn__previewBeatmapLevelPack();
     // Get instance field reference: private UnityEngine.Sprite _bannerImage

@@ -19,6 +19,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -50,6 +51,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ColorNoteVisuals : public UnityEngine::MonoBehaviour/*, public GlobalNamespace::INoteControllerDidInitEvent, public GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent, public GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private NoteControllerBase _noteController
     // Size: 0x8
     // Offset: 0x18
@@ -60,21 +66,21 @@ namespace GlobalNamespace {
     // private MaterialPropertyBlockController[] _materialPropertyBlockControllers
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<GlobalNamespace::MaterialPropertyBlockController*> materialPropertyBlockControllers;
+    ::ArrayW<GlobalNamespace::MaterialPropertyBlockController*> materialPropertyBlockControllers;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MaterialPropertyBlockController*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::MaterialPropertyBlockController*>) == 0x8);
     // private UnityEngine.MeshRenderer[] _arrowMeshRenderers
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<UnityEngine::MeshRenderer*> arrowMeshRenderers;
+    ::ArrayW<UnityEngine::MeshRenderer*> arrowMeshRenderers;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::MeshRenderer*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::MeshRenderer*>) == 0x8);
     // private UnityEngine.MeshRenderer[] _circleMeshRenderers
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<UnityEngine::MeshRenderer*> circleMeshRenderers;
+    ::ArrayW<UnityEngine::MeshRenderer*> circleMeshRenderers;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::MeshRenderer*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::MeshRenderer*>) == 0x8);
     // [InjectAttribute] Offset: 0xF04888
     // private readonly ColorManager _colorManager
     // Size: 0x8
@@ -94,6 +100,7 @@ namespace GlobalNamespace {
     UnityEngine::Color noteColor;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::INoteControllerDidInitEvent
     operator GlobalNamespace::INoteControllerDidInitEvent() noexcept {
       return *reinterpret_cast<GlobalNamespace::INoteControllerDidInitEvent*>(this);
@@ -116,11 +123,11 @@ namespace GlobalNamespace {
     // Get instance field reference: private NoteControllerBase _noteController
     GlobalNamespace::NoteControllerBase*& dyn__noteController();
     // Get instance field reference: private MaterialPropertyBlockController[] _materialPropertyBlockControllers
-    ::ArrayWrapper<GlobalNamespace::MaterialPropertyBlockController*>& dyn__materialPropertyBlockControllers();
+    ::ArrayW<GlobalNamespace::MaterialPropertyBlockController*>& dyn__materialPropertyBlockControllers();
     // Get instance field reference: private UnityEngine.MeshRenderer[] _arrowMeshRenderers
-    ::ArrayWrapper<UnityEngine::MeshRenderer*>& dyn__arrowMeshRenderers();
+    ::ArrayW<UnityEngine::MeshRenderer*>& dyn__arrowMeshRenderers();
     // Get instance field reference: private UnityEngine.MeshRenderer[] _circleMeshRenderers
-    ::ArrayWrapper<UnityEngine::MeshRenderer*>& dyn__circleMeshRenderers();
+    ::ArrayW<UnityEngine::MeshRenderer*>& dyn__circleMeshRenderers();
     // Get instance field reference: private readonly ColorManager _colorManager
     GlobalNamespace::ColorManager*& dyn__colorManager();
     // Get instance field reference: private System.Action`2<ColorNoteVisuals,NoteControllerBase> didInitEvent

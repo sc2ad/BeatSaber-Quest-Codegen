@@ -31,6 +31,11 @@ namespace GlobalNamespace {
     public:
     // Writing base type padding for base size: 0x29 to desired offset: 0x30
     char ___base_padding[0x7] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.SpriteRenderer _spriteRenderer
     // Size: 0x8
     // Offset: 0x30
@@ -86,6 +91,7 @@ namespace GlobalNamespace {
     bool setOnlyOnce;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private UnityEngine.SpriteRenderer _spriteRenderer
     UnityEngine::SpriteRenderer*& dyn__spriteRenderer();
     // Get instance field reference: private System.Boolean _hideIfAlphaOutOfRange

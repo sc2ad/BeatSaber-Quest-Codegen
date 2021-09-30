@@ -28,6 +28,11 @@ namespace UnityEngine::LowLevel {
   // [NativeTypeAttribute] Offset: E7371C
   struct PlayerLoopSystemInternal/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Type type
     // Size: 0x8
     // Offset: 0x0
@@ -58,6 +63,7 @@ namespace UnityEngine::LowLevel {
     int numSubSystems;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: PlayerLoopSystemInternal
     constexpr PlayerLoopSystemInternal(System::Type* type_ = {}, UnityEngine::LowLevel::PlayerLoopSystem::UpdateFunction* updateDelegate_ = {}, System::IntPtr updateFunction_ = {}, System::IntPtr loopConditionFunction_ = {}, int numSubSystems_ = {}) noexcept : type{type_}, updateDelegate{updateDelegate_}, updateFunction{updateFunction_}, loopConditionFunction{loopConditionFunction_}, numSubSystems{numSubSystems_} {}
     // Creating interface conversion operator: operator System::ValueType

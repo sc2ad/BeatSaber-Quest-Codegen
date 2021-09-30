@@ -68,12 +68,18 @@ namespace HMUI {
     // Nested type: HMUI::InputFieldDataBinder::$$c__3_1<T>
     template<typename T>
     class $$c__3_1;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.List`1<System.Tuple`4<UnityEngine.UI.InputField,IObservableChange,UnityEngine.Events.UnityAction`1<System.String>,System.Action>> _bindings
     // Size: 0x8
     // Offset: 0x10
     System::Collections::Generic::List_1<System::Tuple_4<UnityEngine::UI::InputField*, GlobalNamespace::IObservableChange*, UnityEngine::Events::UnityAction_1<::Il2CppString*>*, System::Action*>*>* bindings;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<System::Tuple_4<UnityEngine::UI::InputField*, GlobalNamespace::IObservableChange*, UnityEngine::Events::UnityAction_1<::Il2CppString*>*, System::Action*>*>*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Collections::Generic::List_1<System::Tuple_4<UnityEngine::UI::InputField*, GlobalNamespace::IObservableChange*, UnityEngine::Events::UnityAction_1<::Il2CppString*>*, System::Action*>*>*
     constexpr operator System::Collections::Generic::List_1<System::Tuple_4<UnityEngine::UI::InputField*, GlobalNamespace::IObservableChange*, UnityEngine::Events::UnityAction_1<::Il2CppString*>*, System::Action*>*>*() const noexcept {
       return bindings;

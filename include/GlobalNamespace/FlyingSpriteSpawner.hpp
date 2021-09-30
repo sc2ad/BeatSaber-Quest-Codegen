@@ -41,6 +41,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class FlyingSpriteSpawner : public UnityEngine::MonoBehaviour/*, public GlobalNamespace::IFlyingObjectEffectDidFinishEvent*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Sprite _sprite
     // Size: 0x8
     // Offset: 0x18
@@ -98,6 +103,7 @@ namespace GlobalNamespace {
     GlobalNamespace::FlyingSpriteEffect::Pool* flyingSpriteEffectPool;
     // Field size check
     static_assert(sizeof(GlobalNamespace::FlyingSpriteEffect::Pool*) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IFlyingObjectEffectDidFinishEvent
     operator GlobalNamespace::IFlyingObjectEffectDidFinishEvent() noexcept {
       return *reinterpret_cast<GlobalNamespace::IFlyingObjectEffectDidFinishEvent*>(this);

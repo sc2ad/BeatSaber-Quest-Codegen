@@ -20,6 +20,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MaterialPropertyValuesSetter::PropertyValuePairBase : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String _propertyName
     // Size: 0x8
     // Offset: 0x10
@@ -32,6 +37,7 @@ namespace GlobalNamespace {
     int propertyId;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: private System.String _propertyName
     ::Il2CppString*& dyn__propertyName();
     // Get instance field reference: private System.Int32 <propertyId>k__BackingField

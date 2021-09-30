@@ -27,12 +27,18 @@ namespace Mono {
   // [DefaultMemberAttribute] Offset: E5B69C
   struct RuntimeGPtrArrayHandle/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Mono.RuntimeStructs/Mono.GPtrArray* value
     // Size: 0x8
     // Offset: 0x0
     Mono::RuntimeStructs::GPtrArray* value;
     // Field size check
     static_assert(sizeof(Mono::RuntimeStructs::GPtrArray*) == 0x8);
+    public:
     // Creating value type constructor for type: RuntimeGPtrArrayHandle
     constexpr RuntimeGPtrArrayHandle(Mono::RuntimeStructs::GPtrArray* value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::ValueType

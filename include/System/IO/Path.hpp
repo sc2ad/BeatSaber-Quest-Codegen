@@ -6,6 +6,7 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include <initializer_list>
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text
@@ -30,9 +31,9 @@ namespace System::IO {
     public:
     // [ObsoleteAttribute] Offset: 0xE62E48
     // Get static field: static public readonly System.Char[] InvalidPathChars
-    static ::ArrayWrapper<::Il2CppChar> _get_InvalidPathChars();
+    static ::ArrayW<::Il2CppChar> _get_InvalidPathChars();
     // Set static field: static public readonly System.Char[] InvalidPathChars
-    static void _set_InvalidPathChars(::ArrayWrapper<::Il2CppChar> value);
+    static void _set_InvalidPathChars(::ArrayW<::Il2CppChar> value);
     // Get static field: static public readonly System.Char AltDirectorySeparatorChar
     static ::Il2CppChar _get_AltDirectorySeparatorChar();
     // Set static field: static public readonly System.Char AltDirectorySeparatorChar
@@ -54,27 +55,27 @@ namespace System::IO {
     // Set static field: static public readonly System.Char VolumeSeparatorChar
     static void _set_VolumeSeparatorChar(::Il2CppChar value);
     // Get static field: static readonly System.Char[] PathSeparatorChars
-    static ::ArrayWrapper<::Il2CppChar> _get_PathSeparatorChars();
+    static ::ArrayW<::Il2CppChar> _get_PathSeparatorChars();
     // Set static field: static readonly System.Char[] PathSeparatorChars
-    static void _set_PathSeparatorChars(::ArrayWrapper<::Il2CppChar> value);
+    static void _set_PathSeparatorChars(::ArrayW<::Il2CppChar> value);
     // Get static field: static private readonly System.Boolean dirEqualsVolume
     static bool _get_dirEqualsVolume();
     // Set static field: static private readonly System.Boolean dirEqualsVolume
     static void _set_dirEqualsVolume(bool value);
     // Get static field: static readonly System.Char[] trimEndCharsWindows
-    static ::ArrayWrapper<::Il2CppChar> _get_trimEndCharsWindows();
+    static ::ArrayW<::Il2CppChar> _get_trimEndCharsWindows();
     // Set static field: static readonly System.Char[] trimEndCharsWindows
-    static void _set_trimEndCharsWindows(::ArrayWrapper<::Il2CppChar> value);
+    static void _set_trimEndCharsWindows(::ArrayW<::Il2CppChar> value);
     // Get static field: static readonly System.Char[] trimEndCharsUnix
-    static ::ArrayWrapper<::Il2CppChar> _get_trimEndCharsUnix();
+    static ::ArrayW<::Il2CppChar> _get_trimEndCharsUnix();
     // Set static field: static readonly System.Char[] trimEndCharsUnix
-    static void _set_trimEndCharsUnix(::ArrayWrapper<::Il2CppChar> value);
+    static void _set_trimEndCharsUnix(::ArrayW<::Il2CppChar> value);
     // static System.String get_DirectorySeparatorCharAsString()
     // Offset: 0x1AC1590
     static ::Il2CppString* get_DirectorySeparatorCharAsString();
     // static System.Char[] get_TrimEndChars()
     // Offset: 0x1AC15F8
-    static ::ArrayWrapper<::Il2CppChar> get_TrimEndChars();
+    static ::ArrayW<::Il2CppChar> get_TrimEndChars();
     // static private System.Void .cctor()
     // Offset: 0x1AC0948
     static void _cctor();
@@ -128,10 +129,10 @@ namespace System::IO {
     static bool IsPathRooted(::Il2CppString* path);
     // static public System.Char[] GetInvalidFileNameChars()
     // Offset: 0x1AC0698
-    static ::ArrayWrapper<::Il2CppChar> GetInvalidFileNameChars();
+    static ::ArrayW<::Il2CppChar> GetInvalidFileNameChars();
     // static public System.Char[] GetInvalidPathChars()
     // Offset: 0x1AC0750
-    static ::ArrayWrapper<::Il2CppChar> GetInvalidPathChars();
+    static ::ArrayW<::Il2CppChar> GetInvalidPathChars();
     // static public System.String GetRandomFileName()
     // Offset: 0x1AC07E0
     static ::Il2CppString* GetRandomFileName();
@@ -149,7 +150,7 @@ namespace System::IO {
     static ::Il2CppString* CanonicalizePath(::Il2CppString* path);
     // static public System.String Combine(params System.String[] paths)
     // Offset: 0x1AC0F98
-    static ::Il2CppString* Combine(::ArrayWrapper<::Il2CppString*> paths);
+    static ::Il2CppString* Combine(::ArrayW<::Il2CppString*> paths);
     // static public System.String Combine(System.String path1, System.String path2, System.String path3)
     // Offset: 0x1AC12A4
     static ::Il2CppString* Combine(::Il2CppString* path1, ::Il2CppString* path2, ::Il2CppString* path3);
@@ -185,7 +186,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::IO::Path::get_TrimEndChars
 // Il2CppName: get_TrimEndChars
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppChar> (*)()>(&System::IO::Path::get_TrimEndChars)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppChar> (*)()>(&System::IO::Path::get_TrimEndChars)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::IO::Path*), "get_TrimEndChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -350,7 +351,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::
 // Writing MetadataGetter for method: System::IO::Path::GetInvalidFileNameChars
 // Il2CppName: GetInvalidFileNameChars
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppChar> (*)()>(&System::IO::Path::GetInvalidFileNameChars)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppChar> (*)()>(&System::IO::Path::GetInvalidFileNameChars)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::IO::Path*), "GetInvalidFileNameChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -358,7 +359,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: System::IO::Path::GetInvalidPathChars
 // Il2CppName: GetInvalidPathChars
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppChar> (*)()>(&System::IO::Path::GetInvalidPathChars)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppChar> (*)()>(&System::IO::Path::GetInvalidPathChars)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::IO::Path*), "GetInvalidPathChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -411,7 +412,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::IO::Path::Combine
 // Il2CppName: Combine
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::ArrayWrapper<::Il2CppString*>)>(&System::IO::Path::Combine)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::ArrayW<::Il2CppString*>)>(&System::IO::Path::Combine)> {
   static const MethodInfo* get() {
     static auto* paths = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::Path*), "Combine", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{paths});

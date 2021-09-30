@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {
@@ -20,6 +21,11 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class HttpTransferUpdate : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly System.UInt64 ID
     // Size: 0x8
     // Offset: 0x10
@@ -29,19 +35,20 @@ namespace Oculus::Platform::Models {
     // public readonly System.Byte[] Payload
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<uint8_t> Payload;
+    ::ArrayW<uint8_t> Payload;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // public readonly System.Boolean IsCompleted
     // Size: 0x1
     // Offset: 0x20
     bool IsCompleted;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: public readonly System.UInt64 ID
     uint64_t& dyn_ID();
     // Get instance field reference: public readonly System.Byte[] Payload
-    ::ArrayWrapper<uint8_t>& dyn_Payload();
+    ::ArrayW<uint8_t>& dyn_Payload();
     // Get instance field reference: public readonly System.Boolean IsCompleted
     bool& dyn_IsCompleted();
     // public System.Void .ctor(System.IntPtr o)

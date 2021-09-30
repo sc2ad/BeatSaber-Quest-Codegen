@@ -34,6 +34,11 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_InputInterfaceTilemap::HEU_InputDataTilemap : public HoudiniEngineUnity::HEU_InputData {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Tilemaps.Tilemap _tilemap
     // Size: 0x8
     // Offset: 0x18
@@ -46,6 +51,7 @@ namespace HoudiniEngineUnity {
     UnityEngine::Transform* transform;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    public:
     // Deleting conversion operator: operator UnityEngine::GameObject*
     constexpr operator UnityEngine::GameObject*() const noexcept = delete;
     // Get instance field reference: public UnityEngine.Tilemaps.Tilemap _tilemap

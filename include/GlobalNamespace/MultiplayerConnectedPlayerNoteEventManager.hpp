@@ -61,6 +61,11 @@ namespace GlobalNamespace {
     // [IsReadOnlyAttribute] Offset: FFFFFFFF
     struct NoteCutEvent/*, public System::ValueType*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public readonly System.Single time
       // Size: 0x4
       // Offset: 0x0
@@ -75,6 +80,7 @@ namespace GlobalNamespace {
       GlobalNamespace::NoteCutInfoNetSerializable* noteCutInfo;
       // Field size check
       static_assert(sizeof(GlobalNamespace::NoteCutInfoNetSerializable*) == 0x8);
+      public:
       // Creating value type constructor for type: NoteCutEvent
       constexpr NoteCutEvent(float time_ = {}, GlobalNamespace::NoteCutInfoNetSerializable* noteCutInfo_ = {}) noexcept : time{time_}, noteCutInfo{noteCutInfo_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -100,6 +106,11 @@ namespace GlobalNamespace {
     // [IsReadOnlyAttribute] Offset: FFFFFFFF
     struct NoteMissEvent/*, public System::ValueType*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public readonly System.Single time
       // Size: 0x4
       // Offset: 0x0
@@ -114,6 +125,7 @@ namespace GlobalNamespace {
       GlobalNamespace::NoteMissInfoNetSerializable* noteMissInfo;
       // Field size check
       static_assert(sizeof(GlobalNamespace::NoteMissInfoNetSerializable*) == 0x8);
+      public:
       // Creating value type constructor for type: NoteMissEvent
       constexpr NoteMissEvent(float time_ = {}, GlobalNamespace::NoteMissInfoNetSerializable* noteMissInfo_ = {}) noexcept : time{time_}, noteMissInfo{noteMissInfo_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -131,6 +143,11 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(MultiplayerConnectedPlayerNoteEventManager::NoteMissEvent), 8 + sizeof(GlobalNamespace::NoteMissInfoNetSerializable*)> __GlobalNamespace_MultiplayerConnectedPlayerNoteEventManager_NoteMissEventSizeCheck;
     static_assert(sizeof(MultiplayerConnectedPlayerNoteEventManager::NoteMissEvent) == 0x10);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xF087D0
     // private readonly IConnectedPlayer _connectedPlayer
     // Size: 0x8
@@ -176,6 +193,7 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<GlobalNamespace::MultiplayerConnectedPlayerNoteEventManager::NoteMissEvent>* noteMissQueue;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::MultiplayerConnectedPlayerNoteEventManager::NoteMissEvent>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IConnectedPlayerNoteEventManager
     operator GlobalNamespace::IConnectedPlayerNoteEventManager() noexcept {
       return *reinterpret_cast<GlobalNamespace::IConnectedPlayerNoteEventManager*>(this);

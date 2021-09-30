@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: RootMotion::FinalIK
@@ -34,6 +35,11 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class IKSolver::Bone : public RootMotion::FinalIK::IKSolver::Point {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Single length
     // Size: 0x4
     // Offset: 0x54
@@ -64,6 +70,7 @@ namespace RootMotion::FinalIK {
     bool isLimited;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: public System.Single length
     float& dyn_length();
     // Get instance field reference: public System.Single sqrMag
@@ -99,7 +106,7 @@ namespace RootMotion::FinalIK {
     void Swing(UnityEngine::Vector3 swingTarget, float weight);
     // static public System.Void SolverSwing(RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Bone[] bones, System.Int32 index, UnityEngine.Vector3 swingTarget, System.Single weight)
     // Offset: 0x1E9C244
-    static void SolverSwing(::ArrayWrapper<RootMotion::FinalIK::IKSolver::Bone*> bones, int index, UnityEngine::Vector3 swingTarget, float weight);
+    static void SolverSwing(::ArrayW<RootMotion::FinalIK::IKSolver::Bone*> bones, int index, UnityEngine::Vector3 swingTarget, float weight);
     // public System.Void Swing2D(UnityEngine.Vector3 swingTarget, System.Single weight)
     // Offset: 0x1E9C524
     void Swing2D(UnityEngine::Vector3 swingTarget, float weight);
@@ -161,7 +168,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolver::Bone::SolverSwing
 // Il2CppName: SolverSwing
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<RootMotion::FinalIK::IKSolver::Bone*>, int, UnityEngine::Vector3, float)>(&RootMotion::FinalIK::IKSolver::Bone::SolverSwing)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<RootMotion::FinalIK::IKSolver::Bone*>, int, UnityEngine::Vector3, float)>(&RootMotion::FinalIK::IKSolver::Bone::SolverSwing)> {
   static const MethodInfo* get() {
     static auto* bones = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("RootMotion.FinalIK", "IKSolver/Bone"), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

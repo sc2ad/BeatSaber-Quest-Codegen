@@ -26,12 +26,18 @@ namespace Zenject {
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
   class IdBinder : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Zenject.BindInfo _bindInfo
     // Size: 0x8
     // Offset: 0x10
     Zenject::BindInfo* bindInfo;
     // Field size check
     static_assert(sizeof(Zenject::BindInfo*) == 0x8);
+    public:
     // Creating conversion operator: operator Zenject::BindInfo*
     constexpr operator Zenject::BindInfo*() const noexcept {
       return bindInfo;

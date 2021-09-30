@@ -28,12 +28,18 @@ namespace NUnit::Framework::Constraints {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class MsgUtils::$$c__DisplayClass14_6 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public NUnit.Framework.Constraints.ValueFormatter next
     // Size: 0x8
     // Offset: 0x10
     NUnit::Framework::Constraints::ValueFormatter* next;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Constraints::ValueFormatter*) == 0x8);
+    public:
     // Creating conversion operator: operator NUnit::Framework::Constraints::ValueFormatter*
     constexpr operator NUnit::Framework::Constraints::ValueFormatter*() const noexcept {
       return next;

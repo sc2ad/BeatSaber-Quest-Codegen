@@ -40,12 +40,18 @@ namespace Zenject {
   template<typename TConcrete>
   class FromBinder::$$c__DisplayClass69_0_1 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Func`2<Zenject.InjectContext,TConcrete> method
     // Size: 0x8
     // Offset: 0x0
     System::Func_2<Zenject::InjectContext*, TConcrete>* method;
     // Field size check
     static_assert(sizeof(System::Func_2<Zenject::InjectContext*, TConcrete>*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Func_2<Zenject::InjectContext*, TConcrete>*
     constexpr operator System::Func_2<Zenject::InjectContext*, TConcrete>*() const noexcept {
       return method;

@@ -42,12 +42,18 @@ namespace HMUI {
     // [TokenAttribute] Offset: FFFFFFFF
     struct SelectionState/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: SelectionState
       constexpr SelectionState(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -94,12 +100,18 @@ namespace HMUI {
     #pragma pack(pop)
     static check_size<sizeof(ToggleWithCallbacks::SelectionState), 0 + sizeof(int)> __HMUI_ToggleWithCallbacks_SelectionStateSizeCheck;
     static_assert(sizeof(ToggleWithCallbacks::SelectionState) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Action`1<HMUI.ToggleWithCallbacks/HMUI.SelectionState> stateDidChangeEvent
     // Size: 0x8
     // Offset: 0x120
     System::Action_1<HMUI::ToggleWithCallbacks::SelectionState>* stateDidChangeEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<HMUI::ToggleWithCallbacks::SelectionState>*) == 0x8);
+    public:
     // Get instance field reference: private System.Action`1<HMUI.ToggleWithCallbacks/HMUI.SelectionState> stateDidChangeEvent
     System::Action_1<HMUI::ToggleWithCallbacks::SelectionState>*& dyn_stateDidChangeEvent();
     // public HMUI.ToggleWithCallbacks/HMUI.SelectionState get_selectionState()

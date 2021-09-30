@@ -34,6 +34,11 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E7235C
   class AsyncOperation : public UnityEngine::YieldInstruction {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.IntPtr m_Ptr
     // Size: 0x8
     // Offset: 0x10
@@ -46,6 +51,7 @@ namespace UnityEngine {
     System::Action_1<UnityEngine::AsyncOperation*>* m_completeCallback;
     // Field size check
     static_assert(sizeof(System::Action_1<UnityEngine::AsyncOperation*>*) == 0x8);
+    public:
     // Get instance field reference: System.IntPtr m_Ptr
     System::IntPtr& dyn_m_Ptr();
     // Get instance field reference: private System.Action`1<UnityEngine.AsyncOperation> m_completeCallback

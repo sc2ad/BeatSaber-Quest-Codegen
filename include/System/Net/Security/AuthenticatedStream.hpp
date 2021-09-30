@@ -20,6 +20,11 @@ namespace System::Net::Security {
   // [TokenAttribute] Offset: FFFFFFFF
   class AuthenticatedStream : public System::IO::Stream {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.IO.Stream _InnerStream
     // Size: 0x8
     // Offset: 0x28
@@ -32,6 +37,7 @@ namespace System::Net::Security {
     bool LeaveStreamOpen;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private System.IO.Stream _InnerStream
     System::IO::Stream*& dyn__InnerStream();
     // Get instance field reference: private System.Boolean _LeaveStreamOpen

@@ -34,12 +34,18 @@ namespace System::Collections {
   // [TokenAttribute] Offset: FFFFFFFF
   class Hashtable::ValueCollection : public ::Il2CppObject/*, public System::Collections::ICollection*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Hashtable _hashtable
     // Size: 0x8
     // Offset: 0x10
     System::Collections::Hashtable* hashtable;
     // Field size check
     static_assert(sizeof(System::Collections::Hashtable*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Collections::ICollection
     operator System::Collections::ICollection() noexcept {
       return *reinterpret_cast<System::Collections::ICollection*>(this);

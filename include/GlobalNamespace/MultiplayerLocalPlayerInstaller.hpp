@@ -31,6 +31,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerLocalPlayerInstaller : public Zenject::MonoInstaller {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xF0C1A8
     // private readonly MultiplayerLevelSceneSetupData _levelSceneSetupData
     // Size: 0x8
@@ -52,6 +57,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerPlayerStartState startState;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerPlayerStartState) == 0x4);
+    public:
     // Get instance field reference: private readonly MultiplayerLevelSceneSetupData _levelSceneSetupData
     GlobalNamespace::MultiplayerLevelSceneSetupData*& dyn__levelSceneSetupData();
     // Get instance field reference: private readonly IMultiplayerSessionManager _multiplayerSessionManager

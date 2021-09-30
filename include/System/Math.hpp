@@ -9,6 +9,7 @@
 #include "System/Int32.hpp"
 // Including type: System.Double
 #include "System/Double.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -36,9 +37,9 @@ namespace System {
     // Set static field: static private System.Int32 maxRoundingDigits
     static void _set_maxRoundingDigits(int value);
     // Get static field: static private System.Double[] roundPower10Double
-    static ::ArrayWrapper<double> _get_roundPower10Double();
+    static ::ArrayW<double> _get_roundPower10Double();
     // Set static field: static private System.Double[] roundPower10Double
-    static void _set_roundPower10Double(::ArrayWrapper<double> value);
+    static void _set_roundPower10Double(::ArrayW<double> value);
     // static field const value: static public System.Double PI
     static constexpr const double PI = 3.141592653589793;
     // Get static field: static public System.Double PI

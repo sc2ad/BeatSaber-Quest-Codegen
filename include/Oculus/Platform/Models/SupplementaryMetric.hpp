@@ -20,6 +20,11 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class SupplementaryMetric : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly System.UInt64 ID
     // Size: 0x8
     // Offset: 0x10
@@ -32,6 +37,7 @@ namespace Oculus::Platform::Models {
     int64_t Metric;
     // Field size check
     static_assert(sizeof(int64_t) == 0x8);
+    public:
     // Get instance field reference: public readonly System.UInt64 ID
     uint64_t& dyn_ID();
     // Get instance field reference: public readonly System.Int64 Metric

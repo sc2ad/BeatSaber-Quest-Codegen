@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -28,24 +29,30 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class EnableEmmisionOnVisible : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.ParticleSystem[] _particleSystems
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<UnityEngine::ParticleSystem*> particleSystems;
+    ::ArrayW<UnityEngine::ParticleSystem*> particleSystems;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::ParticleSystem*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::ParticleSystem*>) == 0x8);
     // private UnityEngine.ParticleSystem/UnityEngine.EmissionModule[] _emmisionModules
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<UnityEngine::ParticleSystem::EmissionModule> emmisionModules;
+    ::ArrayW<UnityEngine::ParticleSystem::EmissionModule> emmisionModules;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::ParticleSystem::EmissionModule>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::ParticleSystem::EmissionModule>) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.ParticleSystem[] _particleSystems
-    ::ArrayWrapper<UnityEngine::ParticleSystem*>& dyn__particleSystems();
+    ::ArrayW<UnityEngine::ParticleSystem*>& dyn__particleSystems();
     // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.EmissionModule[] _emmisionModules
-    ::ArrayWrapper<UnityEngine::ParticleSystem::EmissionModule>& dyn__emmisionModules();
+    ::ArrayW<UnityEngine::ParticleSystem::EmissionModule>& dyn__emmisionModules();
     // protected System.Void Awake()
     // Offset: 0x137E808
     void Awake();
@@ -70,7 +77,7 @@ namespace GlobalNamespace {
     }
   }; // EnableEmmisionOnVisible
   #pragma pack(pop)
-  static check_size<sizeof(EnableEmmisionOnVisible), 32 + sizeof(::ArrayWrapper<UnityEngine::ParticleSystem::EmissionModule>)> __GlobalNamespace_EnableEmmisionOnVisibleSizeCheck;
+  static check_size<sizeof(EnableEmmisionOnVisible), 32 + sizeof(::ArrayW<UnityEngine::ParticleSystem::EmissionModule>)> __GlobalNamespace_EnableEmmisionOnVisibleSizeCheck;
   static_assert(sizeof(EnableEmmisionOnVisible) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::EnableEmmisionOnVisible*, "", "EnableEmmisionOnVisible");

@@ -34,6 +34,11 @@ namespace UnityEngine {
   // [RequiredByNativeCodeAttribute] Offset: E722EC
   class ResourceRequest : public UnityEngine::AsyncOperation {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.String m_Path
     // Size: 0x8
     // Offset: 0x20
@@ -46,6 +51,7 @@ namespace UnityEngine {
     System::Type* m_Type;
     // Field size check
     static_assert(sizeof(System::Type*) == 0x8);
+    public:
     // Get instance field reference: System.String m_Path
     ::Il2CppString*& dyn_m_Path();
     // Get instance field reference: System.Type m_Type

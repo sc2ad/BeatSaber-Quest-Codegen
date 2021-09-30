@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HoudiniEngineUnity
@@ -40,7 +41,7 @@ namespace HoudiniEngineUnity {
     static HoudiniEngineUnity::Test_Collider* ToTestObject(UnityEngine::Collider* self);
     // static public HoudiniEngineUnity.Test_Collider[] ToTestObject(UnityEngine.Collider[] self)
     // Offset: 0x1708B1C
-    static ::ArrayWrapper<HoudiniEngineUnity::Test_Collider*> ToTestObject(::ArrayWrapper<UnityEngine::Collider*> self);
+    static ::ArrayW<HoudiniEngineUnity::Test_Collider*> ToTestObject(::ArrayW<UnityEngine::Collider*> self);
     // static public System.Collections.Generic.List`1<HoudiniEngineUnity.Test_Collider> ToTestObject(System.Collections.Generic.List`1<UnityEngine.Collider> self)
     // Offset: 0x1708C08
     static System::Collections::Generic::List_1<HoudiniEngineUnity::Test_Collider*>* ToTestObject(System::Collections::Generic::List_1<UnityEngine::Collider*>* self);
@@ -62,7 +63,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::Test_Collider_Extensions::ToTestObject
 // Il2CppName: ToTestObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<HoudiniEngineUnity::Test_Collider*> (*)(::ArrayWrapper<UnityEngine::Collider*>)>(&HoudiniEngineUnity::Test_Collider_Extensions::ToTestObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<HoudiniEngineUnity::Test_Collider*> (*)(::ArrayW<UnityEngine::Collider*>)>(&HoudiniEngineUnity::Test_Collider_Extensions::ToTestObject)> {
   static const MethodInfo* get() {
     static auto* self = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Collider"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::Test_Collider_Extensions*), "ToTestObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{self});

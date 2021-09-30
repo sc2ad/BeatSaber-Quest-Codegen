@@ -30,12 +30,18 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5C4CC
   class OperationCanceledException : public System::SystemException {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Threading.CancellationToken _cancellationToken
     // Size: 0x8
     // Offset: 0x88
     System::Threading::CancellationToken cancellationToken;
     // Field size check
     static_assert(sizeof(System::Threading::CancellationToken) == 0x8);
+    public:
     // Creating conversion operator: operator System::Threading::CancellationToken
     constexpr operator System::Threading::CancellationToken() const noexcept {
       return cancellationToken;

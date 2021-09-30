@@ -65,6 +65,11 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_ObjectNode : public UnityEngine::ScriptableObject/*, public HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_ObjectNode*>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String _objName
     // Size: 0x8
     // Offset: 0x18
@@ -97,6 +102,7 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::HAPI_Transform objectTransform;
     // Field size check
     static_assert(sizeof(HoudiniEngineUnity::HAPI_Transform) == 0x24);
+    public:
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_ObjectNode*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_ObjectNode*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_ObjectNode*>*>(this);

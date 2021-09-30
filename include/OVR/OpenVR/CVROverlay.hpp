@@ -76,12 +76,18 @@ namespace OVR::OpenVR {
     class _PollNextOverlayEventPacked;
     // Nested type: OVR::OpenVR::CVROverlay::PollNextOverlayEventUnion
     struct PollNextOverlayEventUnion;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private OVR.OpenVR.IVROverlay FnTable
     // Size: 0x290
     // Offset: 0x10
     OVR::OpenVR::IVROverlay FnTable;
     // Field size check
     static_assert(sizeof(OVR::OpenVR::IVROverlay) == 0x290);
+    public:
     // Creating conversion operator: operator OVR::OpenVR::IVROverlay
     constexpr operator OVR::OpenVR::IVROverlay() const noexcept {
       return FnTable;

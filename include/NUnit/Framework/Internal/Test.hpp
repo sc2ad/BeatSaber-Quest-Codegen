@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection
@@ -55,18 +56,23 @@ namespace NUnit::Framework::Internal {
   // [TokenAttribute] Offset: FFFFFFFF
   class Test : public ::Il2CppObject/*, public NUnit::Framework::Interfaces::ITest, public System::IComparable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // protected System.Reflection.MethodInfo[] setUpMethods
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<System::Reflection::MethodInfo*> setUpMethods;
+    ::ArrayW<System::Reflection::MethodInfo*> setUpMethods;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<System::Reflection::MethodInfo*>) == 0x8);
+    static_assert(sizeof(::ArrayW<System::Reflection::MethodInfo*>) == 0x8);
     // protected System.Reflection.MethodInfo[] tearDownMethods
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<System::Reflection::MethodInfo*> tearDownMethods;
+    ::ArrayW<System::Reflection::MethodInfo*> tearDownMethods;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<System::Reflection::MethodInfo*>) == 0x8);
+    static_assert(sizeof(::ArrayW<System::Reflection::MethodInfo*>) == 0x8);
     // protected NUnit.Framework.Interfaces.ITypeInfo DeclaringTypeInfo
     // Size: 0x8
     // Offset: 0x20
@@ -151,6 +157,7 @@ namespace NUnit::Framework::Internal {
     bool RequiresThread;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator NUnit::Framework::Interfaces::ITest
     operator NUnit::Framework::Interfaces::ITest() noexcept {
       return *reinterpret_cast<NUnit::Framework::Interfaces::ITest*>(this);
@@ -169,9 +176,9 @@ namespace NUnit::Framework::Internal {
     // Set static field: static private System.String <IdPrefix>k__BackingField
     static void _set_$IdPrefix$k__BackingField(::Il2CppString* value);
     // Get instance field reference: protected System.Reflection.MethodInfo[] setUpMethods
-    ::ArrayWrapper<System::Reflection::MethodInfo*>& dyn_setUpMethods();
+    ::ArrayW<System::Reflection::MethodInfo*>& dyn_setUpMethods();
     // Get instance field reference: protected System.Reflection.MethodInfo[] tearDownMethods
-    ::ArrayWrapper<System::Reflection::MethodInfo*>& dyn_tearDownMethods();
+    ::ArrayW<System::Reflection::MethodInfo*>& dyn_tearDownMethods();
     // Get instance field reference: protected NUnit.Framework.Interfaces.ITypeInfo DeclaringTypeInfo
     NUnit::Framework::Interfaces::ITypeInfo*& dyn_DeclaringTypeInfo();
     // Get instance field reference: private NUnit.Framework.Interfaces.IMethodInfo _method

@@ -20,12 +20,18 @@ namespace UnityEngine::Assertions {
   // [TokenAttribute] Offset: FFFFFFFF
   class AssertionException : public System::Exception {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String m_UserMessage
     // Size: 0x8
     // Offset: 0x88
     ::Il2CppString* m_UserMessage;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return m_UserMessage;

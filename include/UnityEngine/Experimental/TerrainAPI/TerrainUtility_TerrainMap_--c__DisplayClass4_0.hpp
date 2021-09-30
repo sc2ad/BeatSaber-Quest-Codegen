@@ -28,12 +28,18 @@ namespace UnityEngine::Experimental::TerrainAPI {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class TerrainUtility::TerrainMap::$$c__DisplayClass4_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 groupID
     // Size: 0x4
     // Offset: 0x10
     int groupID;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return groupID;

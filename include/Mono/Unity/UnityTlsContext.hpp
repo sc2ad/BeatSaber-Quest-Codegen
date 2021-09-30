@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Security::Cryptography::X509Certificates
@@ -53,6 +54,11 @@ namespace Mono::Unity {
   // [TokenAttribute] Offset: FFFFFFFF
   class UnityTlsContext : public Mono::Net::Security::MobileTlsContext {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Mono.Unity.UnityTls/Mono.Unity.unitytls_tlsctx* tlsContext
     // Size: 0x8
     // Offset: 0x58
@@ -136,15 +142,15 @@ namespace Mono::Unity {
     // private System.Byte[] writeBuffer
     // Size: 0x8
     // Offset: 0xB0
-    ::ArrayWrapper<uint8_t> writeBuffer;
+    ::ArrayW<uint8_t> writeBuffer;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Byte[] readBuffer
     // Size: 0x8
     // Offset: 0xB8
-    ::ArrayWrapper<uint8_t> readBuffer;
+    ::ArrayW<uint8_t> readBuffer;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Runtime.InteropServices.GCHandle handle
     // Size: 0x4
     // Offset: 0xC0
@@ -159,6 +165,7 @@ namespace Mono::Unity {
     System::Exception* lastException;
     // Field size check
     static_assert(sizeof(System::Exception*) == 0x8);
+    public:
     // Get instance field reference: private Mono.Unity.UnityTls/Mono.Unity.unitytls_tlsctx* tlsContext
     Mono::Unity::UnityTls::unitytls_tlsctx*& dyn_tlsContext();
     // Get instance field reference: private Mono.Unity.UnityTls/Mono.Unity.unitytls_x509list* requestedClientCertChain
@@ -186,9 +193,9 @@ namespace Mono::Unity {
     // Get instance field reference: private System.Boolean closedGraceful
     bool& dyn_closedGraceful();
     // Get instance field reference: private System.Byte[] writeBuffer
-    ::ArrayWrapper<uint8_t>& dyn_writeBuffer();
+    ::ArrayW<uint8_t>& dyn_writeBuffer();
     // Get instance field reference: private System.Byte[] readBuffer
-    ::ArrayWrapper<uint8_t>& dyn_readBuffer();
+    ::ArrayW<uint8_t>& dyn_readBuffer();
     // Get instance field reference: private System.Runtime.InteropServices.GCHandle handle
     System::Runtime::InteropServices::GCHandle& dyn_handle();
     // Get instance field reference: private System.Exception lastException
@@ -243,12 +250,12 @@ namespace Mono::Unity {
     // Offset: 0x17CAD18
     // Implemented from: Mono.Net.Security.MobileTlsContext
     // Base method: System.ValueTuple`2<System.Int32,System.Boolean> MobileTlsContext::Read(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
-    System::ValueTuple_2<int, bool> Read(::ArrayWrapper<uint8_t> buffer, int offset, int count);
+    System::ValueTuple_2<int, bool> Read(::ArrayW<uint8_t> buffer, int offset, int count);
     // public override System.ValueTuple`2<System.Int32,System.Boolean> Write(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
     // Offset: 0x17CAEB8
     // Implemented from: Mono.Net.Security.MobileTlsContext
     // Base method: System.ValueTuple`2<System.Int32,System.Boolean> MobileTlsContext::Write(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
-    System::ValueTuple_2<int, bool> Write(::ArrayWrapper<uint8_t> buffer, int offset, int count);
+    System::ValueTuple_2<int, bool> Write(::ArrayW<uint8_t> buffer, int offset, int count);
     // public override System.Void Shutdown()
     // Offset: 0x17CB050
     // Implemented from: Mono.Net.Security.MobileTlsContext
@@ -416,7 +423,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 // Writing MetadataGetter for method: Mono::Unity::UnityTlsContext::Read
 // Il2CppName: Read
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ValueTuple_2<int, bool> (Mono::Unity::UnityTlsContext::*)(::ArrayWrapper<uint8_t>, int, int)>(&Mono::Unity::UnityTlsContext::Read)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ValueTuple_2<int, bool> (Mono::Unity::UnityTlsContext::*)(::ArrayW<uint8_t>, int, int)>(&Mono::Unity::UnityTlsContext::Read)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -427,7 +434,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Val
 // Writing MetadataGetter for method: Mono::Unity::UnityTlsContext::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ValueTuple_2<int, bool> (Mono::Unity::UnityTlsContext::*)(::ArrayWrapper<uint8_t>, int, int)>(&Mono::Unity::UnityTlsContext::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::ValueTuple_2<int, bool> (Mono::Unity::UnityTlsContext::*)(::ArrayW<uint8_t>, int, int)>(&Mono::Unity::UnityTlsContext::Write)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

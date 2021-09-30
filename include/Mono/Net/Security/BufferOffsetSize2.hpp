@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: Mono.Net.Security
 namespace Mono::Net::Security {
@@ -22,12 +23,18 @@ namespace Mono::Net::Security {
     public:
     // Writing base type padding for base size: 0x25 to desired offset: 0x28
     char ___base_padding[0x3] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly System.Int32 InitialSize
     // Size: 0x4
     // Offset: 0x28
     int InitialSize;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return InitialSize;
@@ -49,7 +56,7 @@ namespace Mono::Net::Security {
     void MakeRoom(int size);
     // public System.Void AppendData(System.Byte[] buffer, System.Int32 offset, System.Int32 size)
     // Offset: 0x17BC1C8
-    void AppendData(::ArrayWrapper<uint8_t> buffer, int offset, int size);
+    void AppendData(::ArrayW<uint8_t> buffer, int offset, int size);
   }; // Mono.Net.Security.BufferOffsetSize2
   #pragma pack(pop)
   static check_size<sizeof(BufferOffsetSize2), 40 + sizeof(int)> __Mono_Net_Security_BufferOffsetSize2SizeCheck;
@@ -81,7 +88,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Net::Security::BufferOffsetSize2::AppendData
 // Il2CppName: AppendData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Net::Security::BufferOffsetSize2::*)(::ArrayWrapper<uint8_t>, int, int)>(&Mono::Net::Security::BufferOffsetSize2::AppendData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Net::Security::BufferOffsetSize2::*)(::ArrayW<uint8_t>, int, int)>(&Mono::Net::Security::BufferOffsetSize2::AppendData)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

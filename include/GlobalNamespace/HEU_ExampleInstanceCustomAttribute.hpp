@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HoudiniEngineUnity
@@ -34,7 +35,7 @@ namespace GlobalNamespace {
     // static private System.Void LogArray(System.String name, T[] arr, System.Int32 tupleSize)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static void LogArray(::Il2CppString* name, ::ArrayWrapper<T> arr, int tupleSize) {
+    static void LogArray(::Il2CppString* name, ::ArrayW<T> arr, int tupleSize) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::HEU_ExampleInstanceCustomAttribute::LogArray");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("", "HEU_ExampleInstanceCustomAttribute", "LogArray", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(name), ::il2cpp_utils::ExtractType(arr), ::il2cpp_utils::ExtractType(tupleSize)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));

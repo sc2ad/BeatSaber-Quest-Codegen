@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Security
@@ -25,18 +26,24 @@ namespace System::Security {
   // [TokenAttribute] Offset: FFFFFFFF
   class SecurityDocument : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Byte[] m_data
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<uint8_t> m_data;
+    ::ArrayW<uint8_t> m_data;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating conversion operator: operator ::ArrayWrapper<uint8_t>
-    constexpr operator ::ArrayWrapper<uint8_t>() const noexcept {
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
+    public:
+    // Creating conversion operator: operator ::ArrayW<uint8_t>
+    constexpr operator ::ArrayW<uint8_t>() const noexcept {
       return m_data;
     }
     // Get instance field reference: System.Byte[] m_data
-    ::ArrayWrapper<uint8_t>& dyn_m_data();
+    ::ArrayW<uint8_t>& dyn_m_data();
     // public System.Void .ctor(System.Int32 numData)
     // Offset: 0x1CD2C50
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -73,7 +80,7 @@ namespace System::Security {
     System::Security::SecurityElement* InternalGetElement(ByRef<int> position, bool bCreate);
   }; // System.Security.SecurityDocument
   #pragma pack(pop)
-  static check_size<sizeof(SecurityDocument), 16 + sizeof(::ArrayWrapper<uint8_t>)> __System_Security_SecurityDocumentSizeCheck;
+  static check_size<sizeof(SecurityDocument), 16 + sizeof(::ArrayW<uint8_t>)> __System_Security_SecurityDocumentSizeCheck;
   static_assert(sizeof(SecurityDocument) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::SecurityDocument*, "System.Security", "SecurityDocument");

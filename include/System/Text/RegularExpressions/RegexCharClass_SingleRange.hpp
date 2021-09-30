@@ -20,6 +20,11 @@ namespace System::Text::RegularExpressions {
   // [TokenAttribute] Offset: FFFFFFFF
   class RegexCharClass::SingleRange : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Char _first
     // Size: 0x2
     // Offset: 0x10
@@ -32,6 +37,7 @@ namespace System::Text::RegularExpressions {
     ::Il2CppChar last;
     // Field size check
     static_assert(sizeof(::Il2CppChar) == 0x2);
+    public:
     // Get instance field reference: System.Char _first
     ::Il2CppChar& dyn__first();
     // Get instance field reference: System.Char _last

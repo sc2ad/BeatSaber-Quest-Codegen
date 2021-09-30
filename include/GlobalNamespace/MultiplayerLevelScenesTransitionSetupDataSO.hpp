@@ -55,6 +55,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerLevelScenesTransitionSetupDataSO : public GlobalNamespace::ScenesTransitionSetupDataSO {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private SceneInfo _multiplayerLevelSceneInfo
     // Size: 0x8
     // Offset: 0x28
@@ -131,6 +136,7 @@ namespace GlobalNamespace {
     GlobalNamespace::ColorScheme* colorScheme;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ColorScheme*) == 0x8);
+    public:
     // Get instance field reference: private SceneInfo _multiplayerLevelSceneInfo
     GlobalNamespace::SceneInfo*& dyn__multiplayerLevelSceneInfo();
     // Get instance field reference: private SceneInfo _gameCoreSceneInfo

@@ -29,12 +29,18 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   // [TokenAttribute] Offset: FFFFFFFF
   class ResourceProviderBase::BaseInitAsyncOp : public UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<bool> {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Func`1<System.Boolean> m_CallBack
     // Size: 0x8
     // Offset: 0x80
     System::Func_1<bool>* m_CallBack;
     // Field size check
     static_assert(sizeof(System::Func_1<bool>*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Func_1<bool>*
     constexpr operator System::Func_1<bool>*() const noexcept {
       return m_CallBack;

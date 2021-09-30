@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Math::EC
@@ -29,6 +30,11 @@ namespace Org::BouncyCastle::Math::EC::Custom::Djb {
   // [TokenAttribute] Offset: FFFFFFFF
   class Curve25519::Curve25519LookupTable : public Org::BouncyCastle::Math::EC::AbstractECLookupTable {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Org.BouncyCastle.Math.EC.Custom.Djb.Curve25519 m_outer
     // Size: 0x8
     // Offset: 0x10
@@ -38,31 +44,32 @@ namespace Org::BouncyCastle::Math::EC::Custom::Djb {
     // private readonly System.UInt32[] m_table
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<uint> m_table;
+    ::ArrayW<uint> m_table;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint>) == 0x8);
     // private readonly System.Int32 m_size
     // Size: 0x4
     // Offset: 0x20
     int m_size;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: private readonly Org.BouncyCastle.Math.EC.Custom.Djb.Curve25519 m_outer
     Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519*& dyn_m_outer();
     // Get instance field reference: private readonly System.UInt32[] m_table
-    ::ArrayWrapper<uint>& dyn_m_table();
+    ::ArrayW<uint>& dyn_m_table();
     // Get instance field reference: private readonly System.Int32 m_size
     int& dyn_m_size();
     // System.Void .ctor(Org.BouncyCastle.Math.EC.Custom.Djb.Curve25519 outer, System.UInt32[] table, System.Int32 size)
     // Offset: 0x1F58664
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Curve25519::Curve25519LookupTable* New_ctor(Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519* outer, ::ArrayWrapper<uint> table, int size) {
+    static Curve25519::Curve25519LookupTable* New_ctor(Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519* outer, ::ArrayW<uint> table, int size) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519::Curve25519LookupTable::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Curve25519::Curve25519LookupTable*, creationType>(outer, table, size)));
     }
     // private Org.BouncyCastle.Math.EC.ECPoint CreatePoint(System.UInt32[] x, System.UInt32[] y)
     // Offset: 0x1F58B60
-    Org::BouncyCastle::Math::EC::ECPoint* CreatePoint(::ArrayWrapper<uint> x, ::ArrayWrapper<uint> y);
+    Org::BouncyCastle::Math::EC::ECPoint* CreatePoint(::ArrayW<uint> x, ::ArrayW<uint> y);
     // public override System.Int32 get_Size()
     // Offset: 0x1F58A1C
     // Implemented from: Org.BouncyCastle.Math.EC.AbstractECLookupTable
@@ -92,7 +99,7 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519::Cur
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519::Curve25519LookupTable::CreatePoint
 // Il2CppName: CreatePoint
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519::Curve25519LookupTable::*)(::ArrayWrapper<uint>, ::ArrayWrapper<uint>)>(&Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519::Curve25519LookupTable::CreatePoint)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::EC::ECPoint* (Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519::Curve25519LookupTable::*)(::ArrayW<uint>, ::ArrayW<uint>)>(&Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519::Curve25519LookupTable::CreatePoint)> {
   static const MethodInfo* get() {
     static auto* x = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
     static auto* y = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;

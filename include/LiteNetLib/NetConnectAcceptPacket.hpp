@@ -27,6 +27,11 @@ namespace LiteNetLib {
   // [TokenAttribute] Offset: FFFFFFFF
   class NetConnectAcceptPacket : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly System.Int64 ConnectionId
     // Size: 0x8
     // Offset: 0x10
@@ -45,6 +50,7 @@ namespace LiteNetLib {
     bool IsReusedPeer;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // static field const value: static public System.Int32 Size
     static constexpr const int Size = 11;
     // Get static field: static public System.Int32 Size

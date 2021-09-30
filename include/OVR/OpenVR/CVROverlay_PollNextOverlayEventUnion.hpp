@@ -20,6 +20,11 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct CVROverlay::PollNextOverlayEventUnion/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public OVR.OpenVR.IVROverlay/OVR.OpenVR._PollNextOverlayEvent pPollNextOverlayEvent
     // Size: 0x8
     // Offset: 0x0
@@ -32,6 +37,7 @@ namespace OVR::OpenVR {
     OVR::OpenVR::CVROverlay::_PollNextOverlayEventPacked* pPollNextOverlayEventPacked;
     // Field size check
     static_assert(sizeof(OVR::OpenVR::CVROverlay::_PollNextOverlayEventPacked*) == 0x8);
+    public:
     // Creating value type constructor for type: PollNextOverlayEventUnion
     constexpr PollNextOverlayEventUnion(OVR::OpenVR::IVROverlay::_PollNextOverlayEvent* pPollNextOverlayEvent_ = {}, OVR::OpenVR::CVROverlay::_PollNextOverlayEventPacked* pPollNextOverlayEventPacked_ = {}) noexcept : pPollNextOverlayEvent{pPollNextOverlayEvent_}, pPollNextOverlayEventPacked{pPollNextOverlayEventPacked_} {}
     // Creating interface conversion operator: operator System::ValueType

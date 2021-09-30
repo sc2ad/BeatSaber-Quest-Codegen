@@ -52,6 +52,11 @@ namespace System::Threading::Tasks {
     public:
     // Nested type: System::Threading::Tasks::TaskFactory::CompleteOnInvokePromise
     class CompleteOnInvokePromise;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Threading.CancellationToken m_defaultCancellationToken
     // Size: 0x8
     // Offset: 0x10
@@ -76,6 +81,7 @@ namespace System::Threading::Tasks {
     System::Threading::Tasks::TaskContinuationOptions m_defaultContinuationOptions;
     // Field size check
     static_assert(sizeof(System::Threading::Tasks::TaskContinuationOptions) == 0x4);
+    public:
     // Get instance field reference: private System.Threading.CancellationToken m_defaultCancellationToken
     System::Threading::CancellationToken& dyn_m_defaultCancellationToken();
     // Get instance field reference: private System.Threading.Tasks.TaskScheduler m_defaultScheduler

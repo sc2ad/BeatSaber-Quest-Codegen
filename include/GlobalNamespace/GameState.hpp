@@ -27,12 +27,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GameState : public ::Il2CppObject/*, public System::IDisposable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // protected readonly GameplayServerFiniteStateMachine fsm
     // Size: 0x8
     // Offset: 0x10
     GlobalNamespace::GameplayServerFiniteStateMachine* fsm;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayServerFiniteStateMachine*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

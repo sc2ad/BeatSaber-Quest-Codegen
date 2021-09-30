@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -29,6 +30,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo
     class MusicPackPromoInfo;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 _defaultMusicPackPromoIndex
     // Size: 0x4
     // Offset: 0x18
@@ -40,9 +46,9 @@ namespace GlobalNamespace {
     // private DlcPromoExperimentDataSO/MusicPackPromoInfo[] _musicPackPromoInfos
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*> musicPackPromoInfos;
+    ::ArrayW<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*> musicPackPromoInfos;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*>) == 0x8);
     // private AbTestExperimentDefinitionSO _newDlcControlAbTestExperimentDefinition
     // Size: 0x8
     // Offset: 0x28
@@ -73,12 +79,13 @@ namespace GlobalNamespace {
     int minNumberOfNotOwnedPacks;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Int32 _defaultMusicPackPromoIndex
     int& dyn__defaultMusicPackPromoIndex();
     // Get instance field reference: private DlcPromoExperimentDataSO/MusicPackPromoInfo[] _musicPackPromoInfos
-    ::ArrayWrapper<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*>& dyn__musicPackPromoInfos();
+    ::ArrayW<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*>& dyn__musicPackPromoInfos();
     // Get instance field reference: private AbTestExperimentDefinitionSO _newDlcControlAbTestExperimentDefinition
     GlobalNamespace::AbTestExperimentDefinitionSO*& dyn__newDlcControlAbTestExperimentDefinition();
     // Get instance field reference: private AbTestExperimentDefinitionSO _newDlcPromoAbTestExperimentDefinition
@@ -100,7 +107,7 @@ namespace GlobalNamespace {
     int get_minNumberOfNotOwnedPacks();
     // public DlcPromoExperimentDataSO/MusicPackPromoInfo[] get_musicPackPromoInfos()
     // Offset: 0x11A8A14
-    ::ArrayWrapper<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*> get_musicPackPromoInfos();
+    ::ArrayW<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*> get_musicPackPromoInfos();
     // public DlcPromoExperimentDataSO/MusicPackPromoInfo get_defaultMusicPackPromo()
     // Offset: 0x11A8A1C
     GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo* get_defaultMusicPackPromo();
@@ -155,7 +162,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Global
 // Writing MetadataGetter for method: GlobalNamespace::DlcPromoExperimentDataSO::get_musicPackPromoInfos
 // Il2CppName: get_musicPackPromoInfos
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*> (GlobalNamespace::DlcPromoExperimentDataSO::*)()>(&GlobalNamespace::DlcPromoExperimentDataSO::get_musicPackPromoInfos)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<GlobalNamespace::DlcPromoExperimentDataSO::MusicPackPromoInfo*> (GlobalNamespace::DlcPromoExperimentDataSO::*)()>(&GlobalNamespace::DlcPromoExperimentDataSO::get_musicPackPromoInfos)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DlcPromoExperimentDataSO*), "get_musicPackPromoInfos", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

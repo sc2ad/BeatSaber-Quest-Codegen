@@ -37,6 +37,11 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class IOSelectorJob : public ::Il2CppObject/*, public System::Threading::IThreadPoolWorkItem*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.IOOperation operation
     // Size: 0x4
     // Offset: 0x10
@@ -57,6 +62,7 @@ namespace System {
     System::IOAsyncResult* state;
     // Field size check
     static_assert(sizeof(System::IOAsyncResult*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Threading::IThreadPoolWorkItem
     operator System::Threading::IThreadPoolWorkItem() noexcept {
       return *reinterpret_cast<System::Threading::IThreadPoolWorkItem*>(this);

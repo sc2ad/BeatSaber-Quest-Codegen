@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -35,12 +36,17 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MissionGameplaySceneSetupData : public GlobalNamespace::SceneSetupData {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly MissionObjective[] missionObjectives
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<GlobalNamespace::MissionObjective*> missionObjectives;
+    ::ArrayW<GlobalNamespace::MissionObjective*> missionObjectives;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MissionObjective*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::MissionObjective*>) == 0x8);
     // public readonly System.Boolean autoRestart
     // Size: 0x1
     // Offset: 0x18
@@ -81,8 +87,9 @@ namespace GlobalNamespace {
     ::Il2CppString* backButtonText;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: public readonly MissionObjective[] missionObjectives
-    ::ArrayWrapper<GlobalNamespace::MissionObjective*>& dyn_missionObjectives();
+    ::ArrayW<GlobalNamespace::MissionObjective*>& dyn_missionObjectives();
     // Get instance field reference: public readonly System.Boolean autoRestart
     bool& dyn_autoRestart();
     // Get instance field reference: public readonly IPreviewBeatmapLevel previewBeatmapLevel
@@ -98,7 +105,7 @@ namespace GlobalNamespace {
     // public System.Void .ctor(MissionObjective[] missionObjectives, System.Boolean autoRestart, IPreviewBeatmapLevel previewBeatmapLevel, BeatmapDifficulty beatmapDifficulty, BeatmapCharacteristicSO beatmapCharacteristic, GameplayModifiers gameplayModifiers, System.String backButtonText)
     // Offset: 0x1185404
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static MissionGameplaySceneSetupData* New_ctor(::ArrayWrapper<GlobalNamespace::MissionObjective*> missionObjectives, bool autoRestart, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, GlobalNamespace::GameplayModifiers* gameplayModifiers, ::Il2CppString* backButtonText) {
+    static MissionGameplaySceneSetupData* New_ctor(::ArrayW<GlobalNamespace::MissionObjective*> missionObjectives, bool autoRestart, GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, GlobalNamespace::BeatmapDifficulty beatmapDifficulty, GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, GlobalNamespace::GameplayModifiers* gameplayModifiers, ::Il2CppString* backButtonText) {
       static auto ___internal__logger = ::Logger::get().WithContext("GlobalNamespace::MissionGameplaySceneSetupData::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<MissionGameplaySceneSetupData*, creationType>(missionObjectives, autoRestart, previewBeatmapLevel, beatmapDifficulty, beatmapCharacteristic, gameplayModifiers, backButtonText)));
     }

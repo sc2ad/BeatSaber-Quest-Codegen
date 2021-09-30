@@ -28,6 +28,11 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E900F4
   class GUIContent : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String m_Text
     // Size: 0x8
     // Offset: 0x10
@@ -46,6 +51,7 @@ namespace UnityEngine {
     ::Il2CppString* m_Tooltip;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get static field: static private readonly UnityEngine.GUIContent s_Text
     static UnityEngine::GUIContent* _get_s_Text();
     // Set static field: static private readonly UnityEngine.GUIContent s_Text

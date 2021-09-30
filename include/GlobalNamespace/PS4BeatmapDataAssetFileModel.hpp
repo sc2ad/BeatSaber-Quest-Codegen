@@ -48,12 +48,18 @@ namespace GlobalNamespace {
     struct $GetAssetBundleFileForPreviewLevelAsync$d__3;
     // Nested type: GlobalNamespace::PS4BeatmapDataAssetFileModel::$TryDeleteAssetBundleFileForPreviewLevelAsync$d__4
     struct $TryDeleteAssetBundleFileForPreviewLevelAsync$d__4;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Action`1<LevelDataAssetDownloadUpdate> levelDataAssetDownloadUpdateEvent
     // Size: 0x8
     // Offset: 0x10
     System::Action_1<GlobalNamespace::LevelDataAssetDownloadUpdate>* levelDataAssetDownloadUpdateEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::LevelDataAssetDownloadUpdate>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IBeatmapDataAssetFileModel
     operator GlobalNamespace::IBeatmapDataAssetFileModel() noexcept {
       return *reinterpret_cast<GlobalNamespace::IBeatmapDataAssetFileModel*>(this);

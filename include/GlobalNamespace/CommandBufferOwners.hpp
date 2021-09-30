@@ -36,6 +36,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class CommandBufferOwners : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.HashSet`1<UnityEngine.Object> _owners
     // Size: 0x8
     // Offset: 0x10
@@ -48,6 +53,7 @@ namespace GlobalNamespace {
     UnityEngine::Rendering::CommandBuffer* commandBuffer;
     // Field size check
     static_assert(sizeof(UnityEngine::Rendering::CommandBuffer*) == 0x8);
+    public:
     // Get instance field reference: private System.Collections.Generic.HashSet`1<UnityEngine.Object> _owners
     System::Collections::Generic::HashSet_1<UnityEngine::Object*>*& dyn__owners();
     // Get instance field reference: public UnityEngine.Rendering.CommandBuffer commandBuffer

@@ -36,6 +36,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlaylistSO : public UnityEngine::ScriptableObject/*, public GlobalNamespace::IPlaylist*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String _playListLocalizedName
     // Size: 0x8
     // Offset: 0x18
@@ -60,6 +65,7 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatmapLevelCollectionSO* beatmapLevelCollection;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapLevelCollectionSO*) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IPlaylist
     operator GlobalNamespace::IPlaylist() noexcept {
       return *reinterpret_cast<GlobalNamespace::IPlaylist*>(this);

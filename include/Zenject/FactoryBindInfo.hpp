@@ -44,6 +44,11 @@ namespace Zenject {
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
   class FactoryBindInfo : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Type <FactoryType>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -62,6 +67,7 @@ namespace Zenject {
     System::Collections::Generic::List_1<Zenject::TypeValuePair>* Arguments;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<Zenject::TypeValuePair>*) == 0x8);
+    public:
     // Get instance field reference: private System.Type <FactoryType>k__BackingField
     System::Type*& dyn_$FactoryType$k__BackingField();
     // Get instance field reference: private System.Func`2<Zenject.DiContainer,Zenject.IProvider> <ProviderFunc>k__BackingField

@@ -37,6 +37,11 @@ namespace GlobalNamespace {
   template<typename T>
   class BatchExtensions::$Batch$d__0_1 : public ::Il2CppObject/*, public System::Collections::Generic::IEnumerable_1<System::Collections::Generic::List_1<T>*>, public System::Collections::Generic::IEnumerator_1<System::Collections::Generic::List_1<T>*>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0
@@ -85,6 +90,7 @@ namespace GlobalNamespace {
     System::Collections::Generic::IEnumerator_1<T>* $$7__wrap1;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::IEnumerator_1<T>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerable_1<System::Collections::Generic::List_1<T>*>
     operator System::Collections::Generic::IEnumerable_1<System::Collections::Generic::List_1<T>*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerable_1<System::Collections::Generic::List_1<T>*>*>(this);

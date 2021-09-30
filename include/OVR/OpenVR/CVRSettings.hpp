@@ -34,12 +34,18 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   class CVRSettings : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private OVR.OpenVR.IVRSettings FnTable
     // Size: 0x60
     // Offset: 0x10
     OVR::OpenVR::IVRSettings FnTable;
     // Field size check
     static_assert(sizeof(OVR::OpenVR::IVRSettings) == 0x60);
+    public:
     // Creating conversion operator: operator OVR::OpenVR::IVRSettings
     constexpr operator OVR::OpenVR::IVRSettings() const noexcept {
       return FnTable;

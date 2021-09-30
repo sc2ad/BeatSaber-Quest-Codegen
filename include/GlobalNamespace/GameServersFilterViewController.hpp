@@ -45,6 +45,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GameServersFilterViewController : public HMUI::ViewController {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [HeaderAttribute] Offset: 0xF11140
     // private UnityEngine.UI.Toggle _filterByDifficultyToggle
     // Size: 0x8
@@ -127,6 +132,7 @@ namespace GlobalNamespace {
     bool showInternetGames;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private UnityEngine.UI.Toggle _filterByDifficultyToggle
     UnityEngine::UI::Toggle*& dyn__filterByDifficultyToggle();
     // Get instance field reference: private UnityEngine.UI.Button _filterByDifficultyButton

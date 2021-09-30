@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -35,12 +36,17 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::NamedIntListController::TextValuePair
     class TextValuePair;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private NamedIntListController/TextValuePair[] _textValuePairs
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<GlobalNamespace::NamedIntListController::TextValuePair*> textValuePairs;
+    ::ArrayW<GlobalNamespace::NamedIntListController::TextValuePair*> textValuePairs;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::NamedIntListController::TextValuePair*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::NamedIntListController::TextValuePair*>) == 0x8);
     // private System.Int32 _value
     // Size: 0x4
     // Offset: 0x30
@@ -55,12 +61,13 @@ namespace GlobalNamespace {
     System::Action_1<int>* valueChangedEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<int>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator HMUI::IValueChanger_1<int>
     operator HMUI::IValueChanger_1<int>() noexcept {
       return *reinterpret_cast<HMUI::IValueChanger_1<int>*>(this);
     }
     // Get instance field reference: private NamedIntListController/TextValuePair[] _textValuePairs
-    ::ArrayWrapper<GlobalNamespace::NamedIntListController::TextValuePair*>& dyn__textValuePairs();
+    ::ArrayW<GlobalNamespace::NamedIntListController::TextValuePair*>& dyn__textValuePairs();
     // Get instance field reference: private System.Int32 _value
     int& dyn__value();
     // Get instance field reference: private System.Action`1<System.Int32> valueChangedEvent
@@ -73,7 +80,7 @@ namespace GlobalNamespace {
     void remove_valueChangedEvent(System::Action_1<int>* value);
     // public System.Void InitValues(NamedIntListController/TextValuePair[] values)
     // Offset: 0x1134BC8
-    void InitValues(::ArrayWrapper<GlobalNamespace::NamedIntListController::TextValuePair*> values);
+    void InitValues(::ArrayW<GlobalNamespace::NamedIntListController::TextValuePair*> values);
     // public System.Void SetValue(System.Int32 value)
     // Offset: 0x1134BD8
     void SetValue(int value);
@@ -135,7 +142,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::NamedIntListController::InitValues
 // Il2CppName: InitValues
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NamedIntListController::*)(::ArrayWrapper<GlobalNamespace::NamedIntListController::TextValuePair*>)>(&GlobalNamespace::NamedIntListController::InitValues)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::NamedIntListController::*)(::ArrayW<GlobalNamespace::NamedIntListController::TextValuePair*>)>(&GlobalNamespace::NamedIntListController::InitValues)> {
   static const MethodInfo* get() {
     static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "NamedIntListController/TextValuePair"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::NamedIntListController*), "InitValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{values});

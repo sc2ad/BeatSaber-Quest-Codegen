@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -40,20 +41,26 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class MissionLevelDetailViewController::$$c__DisplayClass14_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public MissionObjective[] missionObjectives
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<GlobalNamespace::MissionObjective*> missionObjectives;
+    ::ArrayW<GlobalNamespace::MissionObjective*> missionObjectives;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MissionObjective*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::MissionObjective*>) == 0x8);
     // public System.Collections.Generic.List`1<GameplayModifierParamsSO> modifierParamsList
     // Size: 0x8
     // Offset: 0x18
     System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>* modifierParamsList;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>*) == 0x8);
+    public:
     // Get instance field reference: public MissionObjective[] missionObjectives
-    ::ArrayWrapper<GlobalNamespace::MissionObjective*>& dyn_missionObjectives();
+    ::ArrayW<GlobalNamespace::MissionObjective*>& dyn_missionObjectives();
     // Get instance field reference: public System.Collections.Generic.List`1<GameplayModifierParamsSO> modifierParamsList
     System::Collections::Generic::List_1<GlobalNamespace::GameplayModifierParamsSO*>*& dyn_modifierParamsList();
     // System.Void <RefreshContent>b__0(System.Int32 idx, ObjectiveListItem objectiveListItem)

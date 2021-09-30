@@ -20,12 +20,18 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class TimerThread::Queue : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Int32 m_DurationMilliseconds
     // Size: 0x4
     // Offset: 0x10
     int m_DurationMilliseconds;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return m_DurationMilliseconds;

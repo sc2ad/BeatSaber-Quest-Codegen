@@ -20,6 +20,11 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class LaunchBlockFlowResult : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly System.Boolean DidBlock
     // Size: 0x1
     // Offset: 0x10
@@ -32,6 +37,7 @@ namespace Oculus::Platform::Models {
     bool DidCancel;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: public readonly System.Boolean DidBlock
     bool& dyn_DidBlock();
     // Get instance field reference: public readonly System.Boolean DidCancel

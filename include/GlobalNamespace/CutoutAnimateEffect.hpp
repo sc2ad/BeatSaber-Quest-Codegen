@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -39,12 +40,17 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::CutoutAnimateEffect::$AnimateToCutoutCoroutine$d__7
     class $AnimateToCutoutCoroutine$d__7;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private CutoutEffect[] _cuttoutEffects
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<GlobalNamespace::CutoutEffect*> cuttoutEffects;
+    ::ArrayW<GlobalNamespace::CutoutEffect*> cuttoutEffects;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::CutoutEffect*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::CutoutEffect*>) == 0x8);
     // private UnityEngine.AnimationCurve _transitionCurve
     // Size: 0x8
     // Offset: 0x20
@@ -57,10 +63,11 @@ namespace GlobalNamespace {
     bool animating;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private CutoutEffect[] _cuttoutEffects
-    ::ArrayWrapper<GlobalNamespace::CutoutEffect*>& dyn__cuttoutEffects();
+    ::ArrayW<GlobalNamespace::CutoutEffect*>& dyn__cuttoutEffects();
     // Get instance field reference: private UnityEngine.AnimationCurve _transitionCurve
     UnityEngine::AnimationCurve*& dyn__transitionCurve();
     // Get instance field reference: private System.Boolean <animating>k__BackingField

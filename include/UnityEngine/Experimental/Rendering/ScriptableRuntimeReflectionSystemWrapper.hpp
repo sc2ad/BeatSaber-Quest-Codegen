@@ -26,6 +26,11 @@ namespace UnityEngine::Experimental::Rendering {
   // [RequiredByNativeCodeAttribute] Offset: E74D90
   class ScriptableRuntimeReflectionSystemWrapper : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [DebuggerBrowsableAttribute] Offset: 0xE776E4
     // private UnityEngine.Experimental.Rendering.IScriptableRuntimeReflectionSystem <implementation>k__BackingField
     // Size: 0x8
@@ -33,6 +38,7 @@ namespace UnityEngine::Experimental::Rendering {
     UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* implementation;
     // Field size check
     static_assert(sizeof(UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem*) == 0x8);
+    public:
     // Creating conversion operator: operator UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem*
     constexpr operator UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem*() const noexcept {
       return implementation;

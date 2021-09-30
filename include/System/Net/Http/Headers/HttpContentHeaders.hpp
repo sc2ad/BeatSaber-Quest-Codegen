@@ -35,12 +35,18 @@ namespace System::Net::Http::Headers {
   // [TokenAttribute] Offset: FFFFFFFF
   class HttpContentHeaders : public System::Net::Http::Headers::HttpHeaders {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Net.Http.HttpContent content
     // Size: 0x8
     // Offset: 0x20
     System::Net::Http::HttpContent* content;
     // Field size check
     static_assert(sizeof(System::Net::Http::HttpContent*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Net::Http::HttpContent*
     constexpr operator System::Net::Http::HttpContent*() const noexcept {
       return content;

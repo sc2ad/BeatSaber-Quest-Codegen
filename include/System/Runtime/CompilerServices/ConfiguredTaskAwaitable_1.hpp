@@ -50,6 +50,11 @@ namespace System::Runtime::CompilerServices {
       using declaring_type = ConfiguredTaskAwaitable_1<TResult>;
       static constexpr std::string_view NESTED_NAME = "ConfiguredTaskAwaiter";
       static constexpr bool IS_VALUE_TYPE = true;
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // private readonly System.Threading.Tasks.Task`1<TResult> m_task
       // Size: 0x8
       // Offset: 0x0
@@ -62,6 +67,7 @@ namespace System::Runtime::CompilerServices {
       bool m_continueOnCapturedContext;
       // Field size check
       static_assert(sizeof(bool) == 0x1);
+      public:
       // Creating value type constructor for type: ConfiguredTaskAwaiter
       constexpr ConfiguredTaskAwaiter(System::Threading::Tasks::Task_1<TResult>* m_task_ = {}, bool m_continueOnCapturedContext_ = {}) noexcept : m_task{m_task_}, m_continueOnCapturedContext{m_continueOnCapturedContext_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -121,10 +127,16 @@ namespace System::Runtime::CompilerServices {
       }
     }; // System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/System.Runtime.CompilerServices.ConfiguredTaskAwaiter
     // Could not write size check! Type: System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/System.Runtime.CompilerServices.ConfiguredTaskAwaiter is generic, or has no fields that are valid for size checks!
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1/System.Runtime.CompilerServices.ConfiguredTaskAwaiter<TResult> m_configuredTaskAwaiter
     // Size: 0xFFFFFFFF
     // Offset: 0x0
     typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<TResult>::ConfiguredTaskAwaiter m_configuredTaskAwaiter;
+    public:
     // Creating value type constructor for type: ConfiguredTaskAwaitable_1
     constexpr ConfiguredTaskAwaitable_1(typename System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1<TResult>::ConfiguredTaskAwaiter m_configuredTaskAwaiter_ = {}) noexcept : m_configuredTaskAwaiter{m_configuredTaskAwaiter_} {}
     // Creating interface conversion operator: operator System::ValueType

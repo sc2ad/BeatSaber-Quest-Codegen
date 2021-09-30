@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::UI
@@ -34,22 +35,28 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ColorSchemeColorToggleController : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.UI.Graphic[] _colorGraphics
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<UnityEngine::UI::Graphic*> colorGraphics;
+    ::ArrayW<UnityEngine::UI::Graphic*> colorGraphics;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::UI::Graphic*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::UI::Graphic*>) == 0x8);
     // private UnityEngine.UI.Toggle _toggle
     // Size: 0x8
     // Offset: 0x20
     UnityEngine::UI::Toggle* toggle;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Toggle*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.UI.Graphic[] _colorGraphics
-    ::ArrayWrapper<UnityEngine::UI::Graphic*>& dyn__colorGraphics();
+    ::ArrayW<UnityEngine::UI::Graphic*>& dyn__colorGraphics();
     // Get instance field reference: private UnityEngine.UI.Toggle _toggle
     UnityEngine::UI::Toggle*& dyn__toggle();
     // public UnityEngine.UI.Toggle get_toggle()

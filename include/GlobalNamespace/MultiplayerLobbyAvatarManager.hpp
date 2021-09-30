@@ -47,6 +47,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::MultiplayerLobbyAvatarManager::$RemovePlayerAndDestroy$d__13
     class $RemovePlayerAndDestroy$d__13;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xF00F94
     // private readonly ILobbyStateDataModel _lobbyStateDataModel
     // Size: 0x8
@@ -85,6 +90,7 @@ namespace GlobalNamespace {
     System::Collections::Generic::HashSet_1<GlobalNamespace::MultiplayerLobbyAvatarController*>* inProgressDespawnAnimations;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::HashSet_1<GlobalNamespace::MultiplayerLobbyAvatarController*>*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private readonly ILobbyStateDataModel _lobbyStateDataModel

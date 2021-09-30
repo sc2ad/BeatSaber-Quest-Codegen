@@ -25,6 +25,11 @@ namespace UnityEngine::ProBuilder {
   // [TokenAttribute] Offset: FFFFFFFF
   class HSVColor : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Single h
     // Size: 0x4
     // Offset: 0x10
@@ -43,6 +48,7 @@ namespace UnityEngine::ProBuilder {
     float v;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: public System.Single h
     float& dyn_h();
     // Get instance field reference: public System.Single s

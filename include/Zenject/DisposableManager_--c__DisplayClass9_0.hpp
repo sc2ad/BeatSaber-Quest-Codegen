@@ -28,12 +28,18 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class DisposableManager::$$c__DisplayClass9_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.IDisposable disposable
     // Size: 0x8
     // Offset: 0x10
     System::IDisposable* disposable;
     // Field size check
     static_assert(sizeof(System::IDisposable*) == 0x8);
+    public:
     // Creating conversion operator: operator System::IDisposable*
     constexpr operator System::IDisposable*() const noexcept {
       return disposable;

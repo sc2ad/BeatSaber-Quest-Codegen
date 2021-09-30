@@ -20,6 +20,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BlocksBlade::Element : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 idx
     // Size: 0x4
     // Offset: 0x10
@@ -32,6 +37,7 @@ namespace GlobalNamespace {
     float velocity;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: public System.Int32 idx
     int& dyn_idx();
     // Get instance field reference: public System.Single velocity

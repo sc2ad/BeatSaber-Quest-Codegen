@@ -40,6 +40,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class RoomAdjustSettingsViewController : public HMUI::ViewController {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Vector3SO _roomCenter
     // Size: 0x8
     // Offset: 0x70
@@ -83,6 +88,7 @@ namespace GlobalNamespace {
     UnityEngine::UI::Button* resetButton;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Button*) == 0x8);
+    public:
     // static field const value: static private System.Single kHorizontalMoveStep
     static constexpr const float kHorizontalMoveStep = 0.1;
     // Get static field: static private System.Single kHorizontalMoveStep

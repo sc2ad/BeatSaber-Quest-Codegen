@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -38,6 +39,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::MovementBeatmapEventEffect::MovementData
     class MovementData;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private BeatmapEventType _beatmapEventType
     // Size: 0x4
     // Offset: 0x18
@@ -54,16 +60,16 @@ namespace GlobalNamespace {
     // private MovementBeatmapEventEffect/MovementData[] _movementData
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<GlobalNamespace::MovementBeatmapEventEffect::MovementData*> movementData;
+    ::ArrayW<GlobalNamespace::MovementBeatmapEventEffect::MovementData*> movementData;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MovementBeatmapEventEffect::MovementData*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::MovementBeatmapEventEffect::MovementData*>) == 0x8);
     // [SpaceAttribute] Offset: 0xF06B64
     // private UnityEngine.Transform[] _transforms
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<UnityEngine::Transform*> transforms;
+    ::ArrayW<UnityEngine::Transform*> transforms;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Transform*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Transform*>) == 0x8);
     // [InjectAttribute] Offset: 0xF06B9C
     // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
@@ -94,9 +100,10 @@ namespace GlobalNamespace {
     // private UnityEngine.Vector3[] _startLocalPositions
     // Size: 0x8
     // Offset: 0x58
-    ::ArrayWrapper<UnityEngine::Vector3> startLocalPositions;
+    ::ArrayW<UnityEngine::Vector3> startLocalPositions;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector3>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Vector3>) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BeatmapEventType _beatmapEventType
@@ -104,9 +111,9 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _transitionSpeed
     float& dyn__transitionSpeed();
     // Get instance field reference: private MovementBeatmapEventEffect/MovementData[] _movementData
-    ::ArrayWrapper<GlobalNamespace::MovementBeatmapEventEffect::MovementData*>& dyn__movementData();
+    ::ArrayW<GlobalNamespace::MovementBeatmapEventEffect::MovementData*>& dyn__movementData();
     // Get instance field reference: private UnityEngine.Transform[] _transforms
-    ::ArrayWrapper<UnityEngine::Transform*>& dyn__transforms();
+    ::ArrayW<UnityEngine::Transform*>& dyn__transforms();
     // Get instance field reference: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     GlobalNamespace::IBeatmapObjectCallbackController*& dyn__beatmapObjectCallbackController();
     // Get instance field reference: private System.Int32 _currentMovementDataIdx
@@ -116,7 +123,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Vector3 _prevPositionOffset
     UnityEngine::Vector3& dyn__prevPositionOffset();
     // Get instance field reference: private UnityEngine.Vector3[] _startLocalPositions
-    ::ArrayWrapper<UnityEngine::Vector3>& dyn__startLocalPositions();
+    ::ArrayW<UnityEngine::Vector3>& dyn__startLocalPositions();
     // protected System.Void Start()
     // Offset: 0x1208688
     void Start();
@@ -150,7 +157,7 @@ namespace GlobalNamespace {
     }
   }; // MovementBeatmapEventEffect
   #pragma pack(pop)
-  static check_size<sizeof(MovementBeatmapEventEffect), 88 + sizeof(::ArrayWrapper<UnityEngine::Vector3>)> __GlobalNamespace_MovementBeatmapEventEffectSizeCheck;
+  static check_size<sizeof(MovementBeatmapEventEffect), 88 + sizeof(::ArrayW<UnityEngine::Vector3>)> __GlobalNamespace_MovementBeatmapEventEffectSizeCheck;
   static_assert(sizeof(MovementBeatmapEventEffect) == 0x60);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MovementBeatmapEventEffect*, "", "MovementBeatmapEventEffect");

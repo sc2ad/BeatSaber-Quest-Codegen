@@ -36,6 +36,11 @@ namespace UnityEngine::Events {
   // [TokenAttribute] Offset: FFFFFFFF
   class InvokableCallList : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall> m_PersistentCalls
     // Size: 0x8
     // Offset: 0x10
@@ -60,6 +65,7 @@ namespace UnityEngine::Events {
     bool m_NeedsUpdate;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private readonly System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall> m_PersistentCalls
     System::Collections::Generic::List_1<UnityEngine::Events::BaseInvokableCall*>*& dyn_m_PersistentCalls();
     // Get instance field reference: private readonly System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall> m_RuntimeCalls

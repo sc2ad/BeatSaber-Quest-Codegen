@@ -9,6 +9,7 @@
 #include "UnityEngine/Vector2.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::ProBuilder
@@ -51,10 +52,10 @@ namespace UnityEngine::ProBuilder {
     class $$c;
     // static public UnityEngine.Vector2[] PlanarProject(System.Collections.Generic.IList`1<UnityEngine.Vector3> positions, System.Collections.Generic.IList`1<System.Int32> indexes)
     // Offset: 0x1692338
-    static ::ArrayWrapper<UnityEngine::Vector2> PlanarProject(System::Collections::Generic::IList_1<UnityEngine::Vector3>* positions, System::Collections::Generic::IList_1<int>* indexes);
+    static ::ArrayW<UnityEngine::Vector2> PlanarProject(System::Collections::Generic::IList_1<UnityEngine::Vector3>* positions, System::Collections::Generic::IList_1<int>* indexes);
     // static public UnityEngine.Vector2[] PlanarProject(System.Collections.Generic.IList`1<UnityEngine.Vector3> positions, System.Collections.Generic.IList`1<System.Int32> indexes, UnityEngine.Vector3 direction)
     // Offset: 0x1692C90
-    static ::ArrayWrapper<UnityEngine::Vector2> PlanarProject(System::Collections::Generic::IList_1<UnityEngine::Vector3>* positions, System::Collections::Generic::IList_1<int>* indexes, UnityEngine::Vector3 direction);
+    static ::ArrayW<UnityEngine::Vector2> PlanarProject(System::Collections::Generic::IList_1<UnityEngine::Vector3>* positions, System::Collections::Generic::IList_1<int>* indexes, UnityEngine::Vector3 direction);
     // static System.Void PlanarProject(System.Collections.Generic.IList`1<UnityEngine.Vector3> positions, System.Collections.Generic.IList`1<System.Int32> indexes, UnityEngine.Vector3 direction, System.Collections.Generic.List`1<UnityEngine.Vector2> results)
     // Offset: 0x1692E30
     static void PlanarProject(System::Collections::Generic::IList_1<UnityEngine::Vector3>* positions, System::Collections::Generic::IList_1<int>* indexes, UnityEngine::Vector3 direction, System::Collections::Generic::List_1<UnityEngine::Vector2>* results);
@@ -66,7 +67,7 @@ namespace UnityEngine::ProBuilder {
     static void PlanarProject(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::ProBuilder::Face* face, UnityEngine::Vector3 projection);
     // static UnityEngine.Vector2[] SphericalProject(System.Collections.Generic.IList`1<UnityEngine.Vector3> vertices, System.Collections.Generic.IList`1<System.Int32> indexes)
     // Offset: 0x1693E20
-    static ::ArrayWrapper<UnityEngine::Vector2> SphericalProject(System::Collections::Generic::IList_1<UnityEngine::Vector3>* vertices, System::Collections::Generic::IList_1<int>* indexes);
+    static ::ArrayW<UnityEngine::Vector2> SphericalProject(System::Collections::Generic::IList_1<UnityEngine::Vector3>* vertices, System::Collections::Generic::IList_1<int>* indexes);
     // static System.Collections.Generic.IList`1<UnityEngine.Vector2> Sort(System.Collections.Generic.IList`1<UnityEngine.Vector2> verts, UnityEngine.ProBuilder.SortMethod method)
     // Offset: 0x16941CC
     static System::Collections::Generic::IList_1<UnityEngine::Vector2>* Sort(System::Collections::Generic::IList_1<UnityEngine::Vector2>* verts, UnityEngine::ProBuilder::SortMethod method);
@@ -94,7 +95,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::Projection*, "UnityEngine.ProBui
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Projection::PlanarProject
 // Il2CppName: PlanarProject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Vector2> (*)(System::Collections::Generic::IList_1<UnityEngine::Vector3>*, System::Collections::Generic::IList_1<int>*)>(&UnityEngine::ProBuilder::Projection::PlanarProject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Vector2> (*)(System::Collections::Generic::IList_1<UnityEngine::Vector3>*, System::Collections::Generic::IList_1<int>*)>(&UnityEngine::ProBuilder::Projection::PlanarProject)> {
   static const MethodInfo* get() {
     static auto* positions = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")})->byval_arg;
     static auto* indexes = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
@@ -104,7 +105,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Projection::PlanarProject
 // Il2CppName: PlanarProject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Vector2> (*)(System::Collections::Generic::IList_1<UnityEngine::Vector3>*, System::Collections::Generic::IList_1<int>*, UnityEngine::Vector3)>(&UnityEngine::ProBuilder::Projection::PlanarProject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Vector2> (*)(System::Collections::Generic::IList_1<UnityEngine::Vector3>*, System::Collections::Generic::IList_1<int>*, UnityEngine::Vector3)>(&UnityEngine::ProBuilder::Projection::PlanarProject)> {
   static const MethodInfo* get() {
     static auto* positions = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")})->byval_arg;
     static auto* indexes = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;
@@ -149,7 +150,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Projection::SphericalProject
 // Il2CppName: SphericalProject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Vector2> (*)(System::Collections::Generic::IList_1<UnityEngine::Vector3>*, System::Collections::Generic::IList_1<int>*)>(&UnityEngine::ProBuilder::Projection::SphericalProject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Vector2> (*)(System::Collections::Generic::IList_1<UnityEngine::Vector3>*, System::Collections::Generic::IList_1<int>*)>(&UnityEngine::ProBuilder::Projection::SphericalProject)> {
   static const MethodInfo* get() {
     static auto* vertices = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3")})->byval_arg;
     static auto* indexes = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "IList`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "Int32")})->byval_arg;

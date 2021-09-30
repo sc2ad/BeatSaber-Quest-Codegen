@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO
@@ -40,6 +41,11 @@ namespace System::IO {
   // [ComVisibleAttribute] Offset: E5E198
   class BinaryReader : public ::Il2CppObject/*, public System::IDisposable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.IO.Stream m_stream
     // Size: 0x8
     // Offset: 0x10
@@ -49,9 +55,9 @@ namespace System::IO {
     // private System.Byte[] m_buffer
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<uint8_t> m_buffer;
+    ::ArrayW<uint8_t> m_buffer;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Text.Decoder m_decoder
     // Size: 0x8
     // Offset: 0x20
@@ -61,21 +67,21 @@ namespace System::IO {
     // private System.Byte[] m_charBytes
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<uint8_t> m_charBytes;
+    ::ArrayW<uint8_t> m_charBytes;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Char[] m_singleChar
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<::Il2CppChar> m_singleChar;
+    ::ArrayW<::Il2CppChar> m_singleChar;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppChar>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppChar>) == 0x8);
     // private System.Char[] m_charBuffer
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayWrapper<::Il2CppChar> m_charBuffer;
+    ::ArrayW<::Il2CppChar> m_charBuffer;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppChar>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppChar>) == 0x8);
     // private System.Int32 m_maxCharsSize
     // Size: 0x4
     // Offset: 0x40
@@ -100,6 +106,7 @@ namespace System::IO {
     bool m_leaveOpen;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
@@ -107,15 +114,15 @@ namespace System::IO {
     // Get instance field reference: private System.IO.Stream m_stream
     System::IO::Stream*& dyn_m_stream();
     // Get instance field reference: private System.Byte[] m_buffer
-    ::ArrayWrapper<uint8_t>& dyn_m_buffer();
+    ::ArrayW<uint8_t>& dyn_m_buffer();
     // Get instance field reference: private System.Text.Decoder m_decoder
     System::Text::Decoder*& dyn_m_decoder();
     // Get instance field reference: private System.Byte[] m_charBytes
-    ::ArrayWrapper<uint8_t>& dyn_m_charBytes();
+    ::ArrayW<uint8_t>& dyn_m_charBytes();
     // Get instance field reference: private System.Char[] m_singleChar
-    ::ArrayWrapper<::Il2CppChar>& dyn_m_singleChar();
+    ::ArrayW<::Il2CppChar>& dyn_m_singleChar();
     // Get instance field reference: private System.Char[] m_charBuffer
-    ::ArrayWrapper<::Il2CppChar>& dyn_m_charBuffer();
+    ::ArrayW<::Il2CppChar>& dyn_m_charBuffer();
     // Get instance field reference: private System.Int32 m_maxCharsSize
     int& dyn_m_maxCharsSize();
     // Get instance field reference: private System.Boolean m_2BytesPerChar
@@ -204,19 +211,19 @@ namespace System::IO {
     ::Il2CppString* ReadString();
     // private System.Int32 InternalReadChars(System.Char[] buffer, System.Int32 index, System.Int32 count)
     // Offset: 0x1BE2ADC
-    int InternalReadChars(::ArrayWrapper<::Il2CppChar> buffer, int index, int count);
+    int InternalReadChars(::ArrayW<::Il2CppChar> buffer, int index, int count);
     // private System.Int32 InternalReadOneChar()
     // Offset: 0x1BE1E24
     int InternalReadOneChar();
     // public System.Char[] ReadChars(System.Int32 count)
     // Offset: 0x1BE2DB8
-    ::ArrayWrapper<::Il2CppChar> ReadChars(int count);
+    ::ArrayW<::Il2CppChar> ReadChars(int count);
     // public System.Int32 Read(System.Byte[] buffer, System.Int32 index, System.Int32 count)
     // Offset: 0x1BE2F18
-    int Read(::ArrayWrapper<uint8_t> buffer, int index, int count);
+    int Read(::ArrayW<uint8_t> buffer, int index, int count);
     // public System.Byte[] ReadBytes(System.Int32 count)
     // Offset: 0x1BE30E0
-    ::ArrayWrapper<uint8_t> ReadBytes(int count);
+    ::ArrayW<uint8_t> ReadBytes(int count);
     // protected System.Void FillBuffer(System.Int32 numBytes)
     // Offset: 0x1BE3278
     void FillBuffer(int numBytes);
@@ -398,7 +405,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::IO::BinaryReader::InternalReadChars
 // Il2CppName: InternalReadChars
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::BinaryReader::*)(::ArrayWrapper<::Il2CppChar>, int, int)>(&System::IO::BinaryReader::InternalReadChars)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::BinaryReader::*)(::ArrayW<::Il2CppChar>, int, int)>(&System::IO::BinaryReader::InternalReadChars)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -417,7 +424,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::IO::BinaryReader::ReadChars
 // Il2CppName: ReadChars
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppChar> (System::IO::BinaryReader::*)(int)>(&System::IO::BinaryReader::ReadChars)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppChar> (System::IO::BinaryReader::*)(int)>(&System::IO::BinaryReader::ReadChars)> {
   static const MethodInfo* get() {
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::BinaryReader*), "ReadChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{count});
@@ -426,7 +433,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: System::IO::BinaryReader::Read
 // Il2CppName: Read
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::BinaryReader::*)(::ArrayWrapper<uint8_t>, int, int)>(&System::IO::BinaryReader::Read)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::IO::BinaryReader::*)(::ArrayW<uint8_t>, int, int)>(&System::IO::BinaryReader::Read)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -437,7 +444,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::IO::BinaryReader::ReadBytes
 // Il2CppName: ReadBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (System::IO::BinaryReader::*)(int)>(&System::IO::BinaryReader::ReadBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (System::IO::BinaryReader::*)(int)>(&System::IO::BinaryReader::ReadBytes)> {
   static const MethodInfo* get() {
     static auto* count = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::BinaryReader*), "ReadBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{count});

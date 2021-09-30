@@ -37,12 +37,18 @@ namespace UnityEngine::UI {
   // [ExecuteAlways] Offset: FFFFFFFF
   class BaseMeshEffect : public UnityEngine::EventSystems::UIBehaviour/*, public UnityEngine::UI::IMeshModifier*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.UI.Graphic m_Graphic
     // Size: 0x8
     // Offset: 0x18
     UnityEngine::UI::Graphic* m_Graphic;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Graphic*) == 0x8);
+    public:
     // Creating interface conversion operator: operator UnityEngine::UI::IMeshModifier
     operator UnityEngine::UI::IMeshModifier() noexcept {
       return *reinterpret_cast<UnityEngine::UI::IMeshModifier*>(this);

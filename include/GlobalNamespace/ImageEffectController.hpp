@@ -34,12 +34,18 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::ImageEffectController::RenderImageCallback
     class RenderImageCallback;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private ImageEffectController/RenderImageCallback _renderImageCallback
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::ImageEffectController::RenderImageCallback* renderImageCallback;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ImageEffectController::RenderImageCallback*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private ImageEffectController/RenderImageCallback _renderImageCallback

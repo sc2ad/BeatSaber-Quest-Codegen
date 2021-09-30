@@ -16,6 +16,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Zenject
@@ -214,6 +215,11 @@ namespace Zenject {
     // Nested type: Zenject::DiContainer::$$c__DisplayClass203_0_1<TContract>
     template<typename TContract>
     class $$c__DisplayClass203_0_1;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Collections.Generic.Dictionary`2<System.Type,Zenject.Internal.IDecoratorProvider> _decorators
     // Size: 0x8
     // Offset: 0x10
@@ -229,9 +235,9 @@ namespace Zenject {
     // private readonly Zenject.DiContainer[][] _containerLookups
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<::ArrayWrapper<Zenject::DiContainer*>> containerLookups;
+    ::ArrayW<::ArrayW<Zenject::DiContainer*>> containerLookups;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::ArrayWrapper<Zenject::DiContainer*>>) == 0x8);
+    static_assert(sizeof(::ArrayW<::ArrayW<Zenject::DiContainer*>>) == 0x8);
     // private readonly System.Collections.Generic.HashSet`1<Zenject.Internal.LookupId> _resolvesInProgress
     // Size: 0x8
     // Offset: 0x28
@@ -350,6 +356,7 @@ namespace Zenject {
     bool AssertOnNewGameObjects;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator Zenject::IInstantiator
     operator Zenject::IInstantiator() noexcept {
       return *reinterpret_cast<Zenject::IInstantiator*>(this);
@@ -359,7 +366,7 @@ namespace Zenject {
     // Get instance field reference: private readonly System.Collections.Generic.Dictionary`2<Zenject.BindingId,System.Collections.Generic.List`1<Zenject.DiContainer/Zenject.ProviderInfo>> _providers
     System::Collections::Generic::Dictionary_2<Zenject::BindingId, System::Collections::Generic::List_1<Zenject::DiContainer::ProviderInfo*>*>*& dyn__providers();
     // Get instance field reference: private readonly Zenject.DiContainer[][] _containerLookups
-    ::ArrayWrapper<::ArrayWrapper<Zenject::DiContainer*>>& dyn__containerLookups();
+    ::ArrayW<::ArrayW<Zenject::DiContainer*>>& dyn__containerLookups();
     // Get instance field reference: private readonly System.Collections.Generic.HashSet`1<Zenject.Internal.LookupId> _resolvesInProgress
     System::Collections::Generic::HashSet_1<Zenject::Internal::LookupId*>*& dyn__resolvesInProgress();
     // Get instance field reference: private readonly System.Collections.Generic.HashSet`1<Zenject.Internal.LookupId> _resolvesTwiceInProgress
@@ -430,10 +437,10 @@ namespace Zenject {
     void set_DefaultParent(UnityEngine::Transform* value);
     // public Zenject.DiContainer[] get_ParentContainers()
     // Offset: 0x14FDA00
-    ::ArrayWrapper<Zenject::DiContainer*> get_ParentContainers();
+    ::ArrayW<Zenject::DiContainer*> get_ParentContainers();
     // public Zenject.DiContainer[] get_AncestorContainers()
     // Offset: 0x14FDB18
-    ::ArrayWrapper<Zenject::DiContainer*> get_AncestorContainers();
+    ::ArrayW<Zenject::DiContainer*> get_AncestorContainers();
     // public System.Boolean get_ChecksForCircularDependencies()
     // Offset: 0x14FDB50
     bool get_ChecksForCircularDependencies();
@@ -559,7 +566,7 @@ namespace Zenject {
     // public System.Void Install(System.Object[] extraArgs)
     // Offset: 0xFFFFFFFF
     template<class TInstaller>
-    void Install(::ArrayWrapper<::Il2CppObject*> extraArgs) {
+    void Install(::ArrayW<::Il2CppObject*> extraArgs) {
       static_assert(std::is_convertible_v<TInstaller, Zenject::Installer*>);
       static auto ___internal__logger = ::Logger::get().WithContext("Zenject::DiContainer::Install");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Install", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TInstaller>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(extraArgs)})));
@@ -1245,7 +1252,7 @@ namespace Zenject {
     }
     // public Zenject.ConcreteIdBinderNonGeneric Bind(params System.Type[] contractTypes)
     // Offset: 0x14F9FD4
-    Zenject::ConcreteIdBinderNonGeneric* Bind(::ArrayWrapper<System::Type*> contractTypes);
+    Zenject::ConcreteIdBinderNonGeneric* Bind(::ArrayW<System::Type*> contractTypes);
     // public Zenject.ConcreteIdBinderNonGeneric Bind(System.Collections.Generic.IEnumerable`1<System.Type> contractTypes)
     // Offset: 0x1505920
     Zenject::ConcreteIdBinderNonGeneric* Bind(System::Collections::Generic::IEnumerable_1<System::Type*>* contractTypes);
@@ -1293,7 +1300,7 @@ namespace Zenject {
     }
     // public System.Void BindInstances(params System.Object[] instances)
     // Offset: 0x1505EAC
-    void BindInstances(::ArrayWrapper<::Il2CppObject*> instances);
+    void BindInstances(::ArrayW<::Il2CppObject*> instances);
     // private Zenject.FactoryToChoiceIdBinder`1<TContract> BindFactoryInternal()
     // Offset: 0xFFFFFFFF
     template<class TContract, class TFactoryContract, class TFactoryConcrete>
@@ -1961,7 +1968,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenje
 // Writing MetadataGetter for method: Zenject::DiContainer::get_ParentContainers
 // Il2CppName: get_ParentContainers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<Zenject::DiContainer*> (Zenject::DiContainer::*)()>(&Zenject::DiContainer::get_ParentContainers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Zenject::DiContainer*> (Zenject::DiContainer::*)()>(&Zenject::DiContainer::get_ParentContainers)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "get_ParentContainers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -1969,7 +1976,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: Zenject::DiContainer::get_AncestorContainers
 // Il2CppName: get_AncestorContainers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<Zenject::DiContainer*> (Zenject::DiContainer::*)()>(&Zenject::DiContainer::get_AncestorContainers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Zenject::DiContainer*> (Zenject::DiContainer::*)()>(&Zenject::DiContainer::get_AncestorContainers)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "get_AncestorContainers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -3066,7 +3073,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Co
 // Writing MetadataGetter for method: Zenject::DiContainer::Bind
 // Il2CppName: Bind
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConcreteIdBinderNonGeneric* (Zenject::DiContainer::*)(::ArrayWrapper<System::Type*>)>(&Zenject::DiContainer::Bind)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::ConcreteIdBinderNonGeneric* (Zenject::DiContainer::*)(::ArrayW<System::Type*>)>(&Zenject::DiContainer::Bind)> {
   static const MethodInfo* get() {
     static auto* contractTypes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Type"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "Bind", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{contractTypes});
@@ -3130,7 +3137,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Zenject::Fr
 // Writing MetadataGetter for method: Zenject::DiContainer::BindInstances
 // Il2CppName: BindInstances
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)(::ArrayWrapper<::Il2CppObject*>)>(&Zenject::DiContainer::BindInstances)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::DiContainer::*)(::ArrayW<::Il2CppObject*>)>(&Zenject::DiContainer::BindInstances)> {
   static const MethodInfo* get() {
     static auto* instances = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Zenject::DiContainer*), "BindInstances", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{instances});

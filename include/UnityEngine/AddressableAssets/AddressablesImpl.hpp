@@ -16,6 +16,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::AddressableAssets
@@ -175,6 +176,11 @@ namespace UnityEngine::AddressableAssets {
     class $$c__DisplayClass117_0;
     // Nested type: UnityEngine::AddressableAssets::AddressablesImpl::$$c__DisplayClass124_0
     class $$c__DisplayClass124_0;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.ResourceManagement.ResourceManager m_ResourceManager
     // Size: 0x8
     // Offset: 0x10
@@ -247,6 +253,7 @@ namespace UnityEngine::AddressableAssets {
     bool hasStartedInitialization;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator System::Collections::Generic::IEqualityComparer_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>
     operator System::Collections::Generic::IEqualityComparer_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEqualityComparer_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>(this);
@@ -346,13 +353,13 @@ namespace UnityEngine::AddressableAssets {
     void Log(::Il2CppString* msg);
     // public System.Void LogFormat(System.String format, params System.Object[] args)
     // Offset: 0x158A118
-    void LogFormat(::Il2CppString* format, ::ArrayWrapper<::Il2CppObject*> args);
+    void LogFormat(::Il2CppString* format, ::ArrayW<::Il2CppObject*> args);
     // public System.Void LogWarning(System.String msg)
     // Offset: 0x1589D98
     void LogWarning(::Il2CppString* msg);
     // public System.Void LogWarningFormat(System.String format, params System.Object[] args)
     // Offset: 0x158A028
-    void LogWarningFormat(::Il2CppString* format, ::ArrayWrapper<::Il2CppObject*> args);
+    void LogWarningFormat(::Il2CppString* format, ::ArrayW<::Il2CppObject*> args);
     // public System.Void LogError(System.String msg)
     // Offset: 0x1589E00
     void LogError(::Il2CppString* msg);
@@ -361,7 +368,7 @@ namespace UnityEngine::AddressableAssets {
     void LogException(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op, System::Exception* ex);
     // public System.Void LogErrorFormat(System.String format, params System.Object[] args)
     // Offset: 0x158A0A0
-    void LogErrorFormat(::Il2CppString* format, ::ArrayWrapper<::Il2CppObject*> args);
+    void LogErrorFormat(::Il2CppString* format, ::ArrayW<::Il2CppObject*> args);
     // public System.String ResolveInternalId(System.String id)
     // Offset: 0x15893F8
     ::Il2CppString* ResolveInternalId(::Il2CppString* id);
@@ -845,7 +852,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::AddressablesImpl::LogFormat
 // Il2CppName: LogFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::AddressablesImpl::*)(::Il2CppString*, ::ArrayWrapper<::Il2CppObject*>)>(&UnityEngine::AddressableAssets::AddressablesImpl::LogFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::AddressablesImpl::*)(::Il2CppString*, ::ArrayW<::Il2CppObject*>)>(&UnityEngine::AddressableAssets::AddressablesImpl::LogFormat)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
@@ -864,7 +871,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::AddressablesImpl::LogWarningFormat
 // Il2CppName: LogWarningFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::AddressablesImpl::*)(::Il2CppString*, ::ArrayWrapper<::Il2CppObject*>)>(&UnityEngine::AddressableAssets::AddressablesImpl::LogWarningFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::AddressablesImpl::*)(::Il2CppString*, ::ArrayW<::Il2CppObject*>)>(&UnityEngine::AddressableAssets::AddressablesImpl::LogWarningFormat)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
@@ -893,7 +900,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::AddressablesImpl::LogErrorFormat
 // Il2CppName: LogErrorFormat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::AddressablesImpl::*)(::Il2CppString*, ::ArrayWrapper<::Il2CppObject*>)>(&UnityEngine::AddressableAssets::AddressablesImpl::LogErrorFormat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AddressableAssets::AddressablesImpl::*)(::Il2CppString*, ::ArrayW<::Il2CppObject*>)>(&UnityEngine::AddressableAssets::AddressablesImpl::LogErrorFormat)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;

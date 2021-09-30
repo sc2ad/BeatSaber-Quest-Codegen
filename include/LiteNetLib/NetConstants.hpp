@@ -11,6 +11,7 @@
 #include "System/UInt16.hpp"
 // Including type: System.Byte
 #include "System/Byte.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: LiteNetLib
 namespace LiteNetLib {
@@ -87,9 +88,9 @@ namespace LiteNetLib {
     // Set static field: static System.Int32 MaxUdpHeaderSize
     static void _set_MaxUdpHeaderSize(int value);
     // Get static field: static readonly System.Int32[] PossibleMtu
-    static ::ArrayWrapper<int> _get_PossibleMtu();
+    static ::ArrayW<int> _get_PossibleMtu();
     // Set static field: static readonly System.Int32[] PossibleMtu
-    static void _set_PossibleMtu(::ArrayWrapper<int> value);
+    static void _set_PossibleMtu(::ArrayW<int> value);
     // Get static field: static readonly System.Int32 MaxPacketSize
     static int _get_MaxPacketSize();
     // Set static field: static readonly System.Int32 MaxPacketSize

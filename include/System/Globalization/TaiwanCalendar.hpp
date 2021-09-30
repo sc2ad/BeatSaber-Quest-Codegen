@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Globalization
@@ -39,20 +40,26 @@ namespace System::Globalization {
     public:
     // Writing base type padding for base size: 0x1C to desired offset: 0x20
     char ___base_padding[0x4] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Globalization.GregorianCalendarHelper helper
     // Size: 0x8
     // Offset: 0x20
     System::Globalization::GregorianCalendarHelper* helper;
     // Field size check
     static_assert(sizeof(System::Globalization::GregorianCalendarHelper*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Globalization::GregorianCalendarHelper*
     constexpr operator System::Globalization::GregorianCalendarHelper*() const noexcept {
       return helper;
     }
     // Get static field: static System.Globalization.EraInfo[] taiwanEraInfo
-    static ::ArrayWrapper<System::Globalization::EraInfo*> _get_taiwanEraInfo();
+    static ::ArrayW<System::Globalization::EraInfo*> _get_taiwanEraInfo();
     // Set static field: static System.Globalization.EraInfo[] taiwanEraInfo
-    static void _set_taiwanEraInfo(::ArrayWrapper<System::Globalization::EraInfo*> value);
+    static void _set_taiwanEraInfo(::ArrayW<System::Globalization::EraInfo*> value);
     // Get static field: static System.Globalization.Calendar s_defaultInstance
     static System::Globalization::Calendar* _get_s_defaultInstance();
     // Set static field: static System.Globalization.Calendar s_defaultInstance
@@ -88,7 +95,7 @@ namespace System::Globalization {
     // Offset: 0x1BDB020
     // Implemented from: System.Globalization.Calendar
     // Base method: System.Int32[] Calendar::get_Eras()
-    ::ArrayWrapper<int> get_Eras();
+    ::ArrayW<int> get_Eras();
     // public override System.Int32 get_TwoDigitYearMax()
     // Offset: 0x1BDB038
     // Implemented from: System.Globalization.Calendar
@@ -204,7 +211,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Globalization::TaiwanCalendar::get_Eras
 // Il2CppName: get_Eras
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<int> (System::Globalization::TaiwanCalendar::*)()>(&System::Globalization::TaiwanCalendar::get_Eras)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int> (System::Globalization::TaiwanCalendar::*)()>(&System::Globalization::TaiwanCalendar::get_Eras)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::TaiwanCalendar*), "get_Eras", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

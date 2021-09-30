@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Crypto
@@ -27,6 +28,11 @@ namespace Org::BouncyCastle::Crypto::Engines {
   // [TokenAttribute] Offset: FFFFFFFF
   class Salsa20Engine : public ::Il2CppObject/*, public Org::BouncyCastle::Crypto::IStreamCipher*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // protected System.Int32 rounds
     // Size: 0x4
     // Offset: 0x10
@@ -42,21 +48,21 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // System.UInt32[] engineState
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<uint> engineState;
+    ::ArrayW<uint> engineState;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint>) == 0x8);
     // System.UInt32[] x
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<uint> x;
+    ::ArrayW<uint> x;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint>) == 0x8);
     // private System.Byte[] keyStream
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<uint8_t> keyStream;
+    ::ArrayW<uint8_t> keyStream;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Boolean initialised
     // Size: 0x1
     // Offset: 0x30
@@ -83,6 +89,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
     uint cW2;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
+    public:
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IStreamCipher
     operator Org::BouncyCastle::Crypto::IStreamCipher() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IStreamCipher*>(this);
@@ -92,29 +99,29 @@ namespace Org::BouncyCastle::Crypto::Engines {
     // Set static field: static public readonly System.Int32 DEFAULT_ROUNDS
     static void _set_DEFAULT_ROUNDS(int value);
     // Get static field: static private readonly System.UInt32[] TAU_SIGMA
-    static ::ArrayWrapper<uint> _get_TAU_SIGMA();
+    static ::ArrayW<uint> _get_TAU_SIGMA();
     // Set static field: static private readonly System.UInt32[] TAU_SIGMA
-    static void _set_TAU_SIGMA(::ArrayWrapper<uint> value);
+    static void _set_TAU_SIGMA(::ArrayW<uint> value);
     // [ObsoleteAttribute] Offset: 0xEC80BC
     // Get static field: static protected readonly System.Byte[] sigma
-    static ::ArrayWrapper<uint8_t> _get_sigma();
+    static ::ArrayW<uint8_t> _get_sigma();
     // Set static field: static protected readonly System.Byte[] sigma
-    static void _set_sigma(::ArrayWrapper<uint8_t> value);
+    static void _set_sigma(::ArrayW<uint8_t> value);
     // [ObsoleteAttribute] Offset: 0xEC80CC
     // Get static field: static protected readonly System.Byte[] tau
-    static ::ArrayWrapper<uint8_t> _get_tau();
+    static ::ArrayW<uint8_t> _get_tau();
     // Set static field: static protected readonly System.Byte[] tau
-    static void _set_tau(::ArrayWrapper<uint8_t> value);
+    static void _set_tau(::ArrayW<uint8_t> value);
     // Get instance field reference: protected System.Int32 rounds
     int& dyn_rounds();
     // Get instance field reference: private System.Int32 index
     int& dyn_index();
     // Get instance field reference: System.UInt32[] engineState
-    ::ArrayWrapper<uint>& dyn_engineState();
+    ::ArrayW<uint>& dyn_engineState();
     // Get instance field reference: System.UInt32[] x
-    ::ArrayWrapper<uint>& dyn_x();
+    ::ArrayW<uint>& dyn_x();
     // Get instance field reference: private System.Byte[] keyStream
-    ::ArrayWrapper<uint8_t>& dyn_keyStream();
+    ::ArrayW<uint8_t>& dyn_keyStream();
     // Get instance field reference: private System.Boolean initialised
     bool& dyn_initialised();
     // Get instance field reference: private System.UInt32 cW0
@@ -141,7 +148,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
     static void _cctor();
     // System.Void PackTauOrSigma(System.Int32 keyLength, System.UInt32[] state, System.Int32 stateOffset)
     // Offset: 0x2040D18
-    void PackTauOrSigma(int keyLength, ::ArrayWrapper<uint> state, int stateOffset);
+    void PackTauOrSigma(int keyLength, ::ArrayW<uint> state, int stateOffset);
     // public System.Void Init(System.Boolean forEncryption, Org.BouncyCastle.Crypto.ICipherParameters parameters)
     // Offset: 0x2041008
     void Init(bool forEncryption, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
@@ -150,7 +157,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
     void AdvanceCounter();
     // public System.Void ProcessBytes(System.Byte[] inBytes, System.Int32 inOff, System.Int32 len, System.Byte[] outBytes, System.Int32 outOff)
     // Offset: 0x20414A8
-    void ProcessBytes(::ArrayWrapper<uint8_t> inBytes, int inOff, int len, ::ArrayWrapper<uint8_t> outBytes, int outOff);
+    void ProcessBytes(::ArrayW<uint8_t> inBytes, int inOff, int len, ::ArrayW<uint8_t> outBytes, int outOff);
     // public System.Void Reset()
     // Offset: 0x2041748
     void Reset();
@@ -159,13 +166,13 @@ namespace Org::BouncyCastle::Crypto::Engines {
     void ResetCounter();
     // protected System.Void SetKey(System.Byte[] keyBytes, System.Byte[] ivBytes)
     // Offset: 0x20417A8
-    void SetKey(::ArrayWrapper<uint8_t> keyBytes, ::ArrayWrapper<uint8_t> ivBytes);
+    void SetKey(::ArrayW<uint8_t> keyBytes, ::ArrayW<uint8_t> ivBytes);
     // protected System.Void GenerateKeyStream(System.Byte[] output)
     // Offset: 0x2041A10
-    void GenerateKeyStream(::ArrayWrapper<uint8_t> output);
+    void GenerateKeyStream(::ArrayW<uint8_t> output);
     // static System.Void SalsaCore(System.Int32 rounds, System.UInt32[] input, System.UInt32[] x)
     // Offset: 0x2041AAC
-    static void SalsaCore(int rounds, ::ArrayWrapper<uint> input, ::ArrayWrapper<uint> x);
+    static void SalsaCore(int rounds, ::ArrayW<uint> input, ::ArrayW<uint> x);
     // private System.Void ResetLimitCounter()
     // Offset: 0x2041764
     void ResetLimitCounter();
@@ -219,7 +226,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::Salsa20Engine::PackTauOrSigma
 // Il2CppName: PackTauOrSigma
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Engines::Salsa20Engine::*)(int, ::ArrayWrapper<uint>, int)>(&Org::BouncyCastle::Crypto::Engines::Salsa20Engine::PackTauOrSigma)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Engines::Salsa20Engine::*)(int, ::ArrayW<uint>, int)>(&Org::BouncyCastle::Crypto::Engines::Salsa20Engine::PackTauOrSigma)> {
   static const MethodInfo* get() {
     static auto* keyLength = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* state = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;
@@ -248,7 +255,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::Salsa20Engine::ProcessBytes
 // Il2CppName: ProcessBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Engines::Salsa20Engine::*)(::ArrayWrapper<uint8_t>, int, int, ::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Engines::Salsa20Engine::ProcessBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Engines::Salsa20Engine::*)(::ArrayW<uint8_t>, int, int, ::ArrayW<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Engines::Salsa20Engine::ProcessBytes)> {
   static const MethodInfo* get() {
     static auto* inBytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* inOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -277,7 +284,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::Salsa20Engine::SetKey
 // Il2CppName: SetKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Engines::Salsa20Engine::*)(::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Crypto::Engines::Salsa20Engine::SetKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Engines::Salsa20Engine::*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(&Org::BouncyCastle::Crypto::Engines::Salsa20Engine::SetKey)> {
   static const MethodInfo* get() {
     static auto* keyBytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* ivBytes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -287,7 +294,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::Salsa20Engine::GenerateKeyStream
 // Il2CppName: GenerateKeyStream
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Engines::Salsa20Engine::*)(::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Crypto::Engines::Salsa20Engine::GenerateKeyStream)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Engines::Salsa20Engine::*)(::ArrayW<uint8_t>)>(&Org::BouncyCastle::Crypto::Engines::Salsa20Engine::GenerateKeyStream)> {
   static const MethodInfo* get() {
     static auto* output = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::Salsa20Engine*), "GenerateKeyStream", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{output});
@@ -296,7 +303,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::Salsa20Engine::SalsaCore
 // Il2CppName: SalsaCore
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::ArrayWrapper<uint>, ::ArrayWrapper<uint>)>(&Org::BouncyCastle::Crypto::Engines::Salsa20Engine::SalsaCore)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, ::ArrayW<uint>, ::ArrayW<uint>)>(&Org::BouncyCastle::Crypto::Engines::Salsa20Engine::SalsaCore)> {
   static const MethodInfo* get() {
     static auto* rounds = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;

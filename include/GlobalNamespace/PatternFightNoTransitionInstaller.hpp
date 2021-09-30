@@ -34,6 +34,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PatternFightNoTransitionInstaller : public Zenject::NoTransitionInstaller {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private PlayerSpecificSettings _playerSpecificSettings
     // Size: 0x8
     // Offset: 0x18
@@ -47,6 +52,7 @@ namespace GlobalNamespace {
     GlobalNamespace::PatternFightScenesTransitionSetupDataSO* scenesTransitionSetupData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PatternFightScenesTransitionSetupDataSO*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private PlayerSpecificSettings _playerSpecificSettings

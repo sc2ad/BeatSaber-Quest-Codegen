@@ -56,6 +56,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapObjectExecutionRatingsRecorder : public UnityEngine::MonoBehaviour/*, public GlobalNamespace::ICutScoreHandlerDidFinishEvent*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xF043BC
     // private readonly IScoreController _scoreController
     // Size: 0x8
@@ -109,6 +114,7 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>* prevIntersectingObstacles;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::ObstacleController*>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::ICutScoreHandlerDidFinishEvent
     operator GlobalNamespace::ICutScoreHandlerDidFinishEvent() noexcept {
       return *reinterpret_cast<GlobalNamespace::ICutScoreHandlerDidFinishEvent*>(this);

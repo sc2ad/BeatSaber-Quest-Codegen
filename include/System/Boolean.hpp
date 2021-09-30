@@ -45,12 +45,18 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5BDD0
   struct Boolean/*, public System::ValueType, public System::IComparable_1<bool>, public System::IEquatable_1<bool>, public System::IComparable, public System::IConvertible*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean m_value
     // Size: 0x1
     // Offset: 0x0
     bool m_value;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating value type constructor for type: Boolean
     constexpr Boolean(bool m_value_ = {}) noexcept : m_value{m_value_} {}
     // Creating interface conversion operator: operator System::ValueType

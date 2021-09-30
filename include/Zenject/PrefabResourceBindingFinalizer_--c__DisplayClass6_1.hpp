@@ -37,6 +37,11 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class PrefabResourceBindingFinalizer::$$c__DisplayClass6_1 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public Zenject.PrefabInstantiatorCached prefabCreator
     // Size: 0x8
     // Offset: 0x10
@@ -49,6 +54,7 @@ namespace Zenject {
     Zenject::PrefabResourceBindingFinalizer::$$c__DisplayClass6_0* CS$$$8__locals1;
     // Field size check
     static_assert(sizeof(Zenject::PrefabResourceBindingFinalizer::$$c__DisplayClass6_0*) == 0x8);
+    public:
     // Get instance field reference: public Zenject.PrefabInstantiatorCached prefabCreator
     Zenject::PrefabInstantiatorCached*& dyn_prefabCreator();
     // Get instance field reference: public Zenject.PrefabResourceBindingFinalizer/Zenject.<>c__DisplayClass6_0 CS$<>8__locals1

@@ -6,6 +6,7 @@
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include <initializer_list>
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -24,16 +25,16 @@ namespace ModestTree {
     public:
     // static public System.Void Debug(System.String message, params System.Object[] args)
     // Offset: 0x14EDD40
-    static void Debug(::Il2CppString* message, ::ArrayWrapper<::Il2CppObject*> args);
+    static void Debug(::Il2CppString* message, ::ArrayW<::Il2CppObject*> args);
     // static public System.Void Info(System.String message, params System.Object[] args)
     // Offset: 0x14EDD44
-    static void Info(::Il2CppString* message, ::ArrayWrapper<::Il2CppObject*> args);
+    static void Info(::Il2CppString* message, ::ArrayW<::Il2CppObject*> args);
     // static public System.Void Warn(System.String message, params System.Object[] args)
     // Offset: 0x14ED5E0
-    static void Warn(::Il2CppString* message, ::ArrayWrapper<::Il2CppObject*> args);
+    static void Warn(::Il2CppString* message, ::ArrayW<::Il2CppObject*> args);
     // static public System.Void Trace(System.String message, params System.Object[] args)
     // Offset: 0x14EDDCC
-    static void Trace(::Il2CppString* message, ::ArrayWrapper<::Il2CppObject*> args);
+    static void Trace(::Il2CppString* message, ::ArrayW<::Il2CppObject*> args);
     // static public System.Void ErrorException(System.Exception e)
     // Offset: 0x14EDE54
     static void ErrorException(System::Exception* e);
@@ -42,7 +43,7 @@ namespace ModestTree {
     static void ErrorException(::Il2CppString* message, System::Exception* e);
     // static public System.Void Error(System.String message, params System.Object[] args)
     // Offset: 0x14EDF3C
-    static void Error(::Il2CppString* message, ::ArrayWrapper<::Il2CppObject*> args);
+    static void Error(::Il2CppString* message, ::ArrayW<::Il2CppObject*> args);
   }; // ModestTree.Log
   #pragma pack(pop)
 }
@@ -52,7 +53,7 @@ DEFINE_IL2CPP_ARG_TYPE(ModestTree::Log*, "ModestTree", "Log");
 // Writing MetadataGetter for method: ModestTree::Log::Debug
 // Il2CppName: Debug
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayWrapper<::Il2CppObject*>)>(&ModestTree::Log::Debug)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayW<::Il2CppObject*>)>(&ModestTree::Log::Debug)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
@@ -62,7 +63,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: ModestTree::Log::Info
 // Il2CppName: Info
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayWrapper<::Il2CppObject*>)>(&ModestTree::Log::Info)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayW<::Il2CppObject*>)>(&ModestTree::Log::Info)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
@@ -72,7 +73,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: ModestTree::Log::Warn
 // Il2CppName: Warn
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayWrapper<::Il2CppObject*>)>(&ModestTree::Log::Warn)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayW<::Il2CppObject*>)>(&ModestTree::Log::Warn)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
@@ -82,7 +83,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: ModestTree::Log::Trace
 // Il2CppName: Trace
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayWrapper<::Il2CppObject*>)>(&ModestTree::Log::Trace)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayW<::Il2CppObject*>)>(&ModestTree::Log::Trace)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
@@ -111,7 +112,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: ModestTree::Log::Error
 // Il2CppName: Error
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayWrapper<::Il2CppObject*>)>(&ModestTree::Log::Error)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayW<::Il2CppObject*>)>(&ModestTree::Log::Error)> {
   static const MethodInfo* get() {
     static auto* message = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;

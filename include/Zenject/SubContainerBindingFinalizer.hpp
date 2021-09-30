@@ -54,6 +54,11 @@ namespace Zenject {
     class $$c__DisplayClass6_0;
     // Nested type: Zenject::SubContainerBindingFinalizer::$$c__DisplayClass6_1
     class $$c__DisplayClass6_1;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Object _subIdentifier
     // Size: 0x8
     // Offset: 0x18
@@ -74,6 +79,7 @@ namespace Zenject {
     System::Func_2<Zenject::DiContainer*, Zenject::ISubContainerCreator*>* creatorFactory;
     // Field size check
     static_assert(sizeof(System::Func_2<Zenject::DiContainer*, Zenject::ISubContainerCreator*>*) == 0x8);
+    public:
     // Deleting conversion operator: operator Zenject::BindInfo*
     constexpr operator Zenject::BindInfo*() const noexcept = delete;
     // Get instance field reference: private readonly System.Object _subIdentifier

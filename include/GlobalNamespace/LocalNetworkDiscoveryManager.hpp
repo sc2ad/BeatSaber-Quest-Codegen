@@ -102,12 +102,18 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct PacketType/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Byte value__
       // Size: 0x1
       // Offset: 0x0
       uint8_t value;
       // Field size check
       static_assert(sizeof(uint8_t) == 0x1);
+      public:
       // Creating value type constructor for type: PacketType
       constexpr PacketType(uint8_t value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -154,6 +160,11 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(LocalNetworkDiscoveryManager::PacketType), 0 + sizeof(uint8_t)> __GlobalNamespace_LocalNetworkDiscoveryManager_PacketTypeSizeCheck;
     static_assert(sizeof(LocalNetworkDiscoveryManager::PacketType) == 0x1);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private LocalNetworkDiscoveryManager/PeerUpdatedDelegate peerUpdatedEvent
     // Size: 0x8
     // Offset: 0x18
@@ -234,6 +245,7 @@ namespace GlobalNamespace {
     float lastBroadcastTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating interface conversion operator: operator LiteNetLib::INetEventListener
     operator LiteNetLib::INetEventListener() noexcept {
       return *reinterpret_cast<LiteNetLib::INetEventListener*>(this);

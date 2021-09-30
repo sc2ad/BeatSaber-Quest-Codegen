@@ -38,6 +38,11 @@ namespace System::Net::Sockets {
   // [TokenAttribute] Offset: FFFFFFFF
   class TcpClient : public ::Il2CppObject/*, public System::IDisposable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Net.Sockets.Socket m_ClientSocket
     // Size: 0x8
     // Offset: 0x10
@@ -70,6 +75,7 @@ namespace System::Net::Sockets {
     bool m_CleanedUp;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

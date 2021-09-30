@@ -50,6 +50,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LocalLeaderboardViewController : public GlobalNamespace::LeaderboardViewController {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 _maxNumberOfCells
     // Size: 0x4
     // Offset: 0x70
@@ -133,6 +138,7 @@ namespace GlobalNamespace {
     bool enableClear;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF10990
     // Get static field: static private LocalLeaderboardsModel/LeaderboardType _leaderboardType
     static GlobalNamespace::LocalLeaderboardsModel::LeaderboardType _get__leaderboardType();

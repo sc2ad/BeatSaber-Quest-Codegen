@@ -7,6 +7,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Vector3
 #include "UnityEngine/Vector3.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::ProBuilder::MeshOperations
@@ -43,7 +44,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     class $$c;
     // static UnityEngine.Vector3 AverageNormalWithIndexes(UnityEngine.ProBuilder.SharedVertex shared, System.Int32[] all, System.Collections.Generic.IList`1<UnityEngine.Vector3> norm)
     // Offset: 0x171E5D0
-    static UnityEngine::Vector3 AverageNormalWithIndexes(UnityEngine::ProBuilder::SharedVertex* shared, ::ArrayWrapper<int> all, System::Collections::Generic::IList_1<UnityEngine::Vector3>* norm);
+    static UnityEngine::Vector3 AverageNormalWithIndexes(UnityEngine::ProBuilder::SharedVertex* shared, ::ArrayW<int> all, System::Collections::Generic::IList_1<UnityEngine::Vector3>* norm);
     // static public UnityEngine.ProBuilder.ProBuilderMesh CreateMeshWithTransform(UnityEngine.Transform t, System.Boolean preserveFaces)
     // Offset: 0x171F754
     static UnityEngine::ProBuilder::ProBuilderMesh* CreateMeshWithTransform(UnityEngine::Transform* t, bool preserveFaces);
@@ -62,7 +63,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshOperations::InternalMeshUtil
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::AverageNormalWithIndexes
 // Il2CppName: AverageNormalWithIndexes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(UnityEngine::ProBuilder::SharedVertex*, ::ArrayWrapper<int>, System::Collections::Generic::IList_1<UnityEngine::Vector3>*)>(&UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::AverageNormalWithIndexes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector3 (*)(UnityEngine::ProBuilder::SharedVertex*, ::ArrayW<int>, System::Collections::Generic::IList_1<UnityEngine::Vector3>*)>(&UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility::AverageNormalWithIndexes)> {
   static const MethodInfo* get() {
     static auto* shared = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "SharedVertex")->byval_arg;
     static auto* all = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;

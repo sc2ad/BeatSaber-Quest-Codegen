@@ -60,12 +60,18 @@ namespace NUnit::Framework::Api {
   // [TokenAttribute] Offset: FFFFFFFF
   class DefaultTestAssemblyBuilder : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private NUnit.Framework.Interfaces.ISuiteBuilder _defaultSuiteBuilder
     // Size: 0x8
     // Offset: 0x10
     NUnit::Framework::Interfaces::ISuiteBuilder* defaultSuiteBuilder;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Interfaces::ISuiteBuilder*) == 0x8);
+    public:
     // Creating conversion operator: operator NUnit::Framework::Interfaces::ISuiteBuilder*
     constexpr operator NUnit::Framework::Interfaces::ISuiteBuilder*() const noexcept {
       return defaultSuiteBuilder;

@@ -46,6 +46,11 @@ namespace System::IO {
     public:
     // Nested type: System::IO::Stream::SynchronousAsyncResult::$$c
     class $$c;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Object _stateObject
     // Size: 0x8
     // Offset: 0x10
@@ -86,6 +91,7 @@ namespace System::IO {
     int bytesRead;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating interface conversion operator: operator System::IAsyncResult
     operator System::IAsyncResult() noexcept {
       return *reinterpret_cast<System::IAsyncResult*>(this);

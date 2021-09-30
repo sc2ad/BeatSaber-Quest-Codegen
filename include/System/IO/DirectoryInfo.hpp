@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Serialization
@@ -28,6 +29,11 @@ namespace System::IO {
   // [ComVisibleAttribute] Offset: E5E378
   class DirectoryInfo : public System::IO::FileSystemInfo {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String current
     // Size: 0x8
     // Offset: 0x60
@@ -40,6 +46,7 @@ namespace System::IO {
     ::Il2CppString* parent;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: private System.String current
     ::Il2CppString*& dyn_current();
     // Get instance field reference: private System.String parent
@@ -69,10 +76,10 @@ namespace System::IO {
     void Create();
     // public System.IO.DirectoryInfo[] GetDirectories()
     // Offset: 0x1AB3280
-    ::ArrayWrapper<System::IO::DirectoryInfo*> GetDirectories();
+    ::ArrayW<System::IO::DirectoryInfo*> GetDirectories();
     // public System.IO.DirectoryInfo[] GetDirectories(System.String searchPattern)
     // Offset: 0x1AB32D0
-    ::ArrayWrapper<System::IO::DirectoryInfo*> GetDirectories(::Il2CppString* searchPattern);
+    ::ArrayW<System::IO::DirectoryInfo*> GetDirectories(::Il2CppString* searchPattern);
     // public System.Void Delete(System.Boolean recursive)
     // Offset: 0x1AB3448
     void Delete(bool recursive);
@@ -150,7 +157,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::IO::DirectoryInfo::GetDirectories
 // Il2CppName: GetDirectories
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::IO::DirectoryInfo*> (System::IO::DirectoryInfo::*)()>(&System::IO::DirectoryInfo::GetDirectories)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::IO::DirectoryInfo*> (System::IO::DirectoryInfo::*)()>(&System::IO::DirectoryInfo::GetDirectories)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::IO::DirectoryInfo*), "GetDirectories", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -158,7 +165,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: System::IO::DirectoryInfo::GetDirectories
 // Il2CppName: GetDirectories
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::IO::DirectoryInfo*> (System::IO::DirectoryInfo::*)(::Il2CppString*)>(&System::IO::DirectoryInfo::GetDirectories)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::IO::DirectoryInfo*> (System::IO::DirectoryInfo::*)(::Il2CppString*)>(&System::IO::DirectoryInfo::GetDirectories)> {
   static const MethodInfo* get() {
     static auto* searchPattern = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::DirectoryInfo*), "GetDirectories", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{searchPattern});

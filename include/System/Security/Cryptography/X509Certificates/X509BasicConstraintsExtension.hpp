@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -33,6 +34,11 @@ namespace System::Security::Cryptography::X509Certificates {
   // [TokenAttribute] Offset: FFFFFFFF
   class X509BasicConstraintsExtension : public System::Security::Cryptography::X509Certificates::X509Extension {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean _certificateAuthority
     // Size: 0x1
     // Offset: 0x21
@@ -59,6 +65,7 @@ namespace System::Security::Cryptography::X509Certificates {
     System::Security::Cryptography::AsnDecodeStatus status;
     // Field size check
     static_assert(sizeof(System::Security::Cryptography::AsnDecodeStatus) == 0x4);
+    public:
     // Deleting conversion operator: operator bool
     constexpr operator bool() const noexcept = delete;
     // static field const value: static System.String oid
@@ -106,10 +113,10 @@ namespace System::Security::Cryptography::X509Certificates {
     }
     // System.Security.Cryptography.AsnDecodeStatus Decode(System.Byte[] extension)
     // Offset: 0x19D293C
-    System::Security::Cryptography::AsnDecodeStatus Decode(::ArrayWrapper<uint8_t> extension);
+    System::Security::Cryptography::AsnDecodeStatus Decode(::ArrayW<uint8_t> extension);
     // System.Byte[] Encode()
     // Offset: 0x19D2C3C
-    ::ArrayWrapper<uint8_t> Encode();
+    ::ArrayW<uint8_t> Encode();
     // public System.Void .ctor()
     // Offset: 0x19D27E0
     // Implemented from: System.Security.Cryptography.X509Certificates.X509Extension
@@ -173,7 +180,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension::Decode
 // Il2CppName: Decode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::AsnDecodeStatus (System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension::*)(::ArrayWrapper<uint8_t>)>(&System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension::Decode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::AsnDecodeStatus (System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension::*)(::ArrayW<uint8_t>)>(&System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension::Decode)> {
   static const MethodInfo* get() {
     static auto* extension = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension*), "Decode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{extension});
@@ -182,7 +189,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension::Encode
 // Il2CppName: Encode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension::*)()>(&System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension::Encode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension::*)()>(&System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension::Encode)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509BasicConstraintsExtension*), "Encode", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

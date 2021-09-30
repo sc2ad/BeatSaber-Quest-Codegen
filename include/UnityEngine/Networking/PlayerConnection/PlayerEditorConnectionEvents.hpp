@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Networking::PlayerConnection
@@ -57,6 +58,11 @@ namespace UnityEngine::Networking::PlayerConnection {
     class $$c__DisplayClass7_0;
     // Nested type: UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::$$c__DisplayClass8_0
     class $$c__DisplayClass8_0;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Collections.Generic.List`1<UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/UnityEngine.Networking.PlayerConnection.MessageTypeSubscribers> messageTypeSubscribers
     // Size: 0x8
     // Offset: 0x10
@@ -75,6 +81,7 @@ namespace UnityEngine::Networking::PlayerConnection {
     UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::ConnectionChangeEvent* disconnectionEvent;
     // Field size check
     static_assert(sizeof(UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::ConnectionChangeEvent*) == 0x8);
+    public:
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/UnityEngine.Networking.PlayerConnection.MessageTypeSubscribers> messageTypeSubscribers
     System::Collections::Generic::List_1<UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::MessageTypeSubscribers*>*& dyn_messageTypeSubscribers();
     // Get instance field reference: public UnityEngine.Networking.PlayerConnection.PlayerEditorConnectionEvents/UnityEngine.Networking.PlayerConnection.ConnectionChangeEvent connectionEvent
@@ -83,7 +90,7 @@ namespace UnityEngine::Networking::PlayerConnection {
     UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::ConnectionChangeEvent*& dyn_disconnectionEvent();
     // public System.Void InvokeMessageIdSubscribers(System.Guid messageId, System.Byte[] data, System.Int32 playerId)
     // Offset: 0x1DB0204
-    void InvokeMessageIdSubscribers(System::Guid messageId, ::ArrayWrapper<uint8_t> data, int playerId);
+    void InvokeMessageIdSubscribers(System::Guid messageId, ::ArrayW<uint8_t> data, int playerId);
     // public UnityEngine.Events.UnityEvent`1<UnityEngine.Networking.PlayerConnection.MessageEventArgs> AddAndCreate(System.Guid messageId)
     // Offset: 0x1DAF4B0
     UnityEngine::Events::UnityEvent_1<UnityEngine::Networking::PlayerConnection::MessageEventArgs*>* AddAndCreate(System::Guid messageId);
@@ -109,7 +116,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::Networking::PlayerConnection::PlayerEditorCo
 // Writing MetadataGetter for method: UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::InvokeMessageIdSubscribers
 // Il2CppName: InvokeMessageIdSubscribers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::*)(System::Guid, ::ArrayWrapper<uint8_t>, int)>(&UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::InvokeMessageIdSubscribers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::*)(System::Guid, ::ArrayW<uint8_t>, int)>(&UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents::InvokeMessageIdSubscribers)> {
   static const MethodInfo* get() {
     static auto* messageId = &::il2cpp_utils::GetClassFromName("System", "Guid")->byval_arg;
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;

@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -53,6 +54,11 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class IKSolverFullBodyBiped : public RootMotion::FinalIK::IKSolverFullBody {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Transform rootNode
     // Size: 0x8
     // Offset: 0xD0
@@ -92,6 +98,7 @@ namespace RootMotion::FinalIK {
     UnityEngine::Vector3 offset;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    public:
     // Get instance field reference: public UnityEngine.Transform rootNode
     UnityEngine::Transform*& dyn_rootNode();
     // Get instance field reference: public System.Single spineStiffness
@@ -217,7 +224,7 @@ namespace RootMotion::FinalIK {
     static UnityEngine::Transform* GetRightClavicle(RootMotion::BipedReferences* references);
     // static private System.Boolean Contains(UnityEngine.Transform[] array, UnityEngine.Transform transform)
     // Offset: 0x1E66720
-    static bool Contains(::ArrayWrapper<UnityEngine::Transform*> array, UnityEngine::Transform* transform);
+    static bool Contains(::ArrayW<UnityEngine::Transform*> array, UnityEngine::Transform* transform);
     // private System.Void PullBody()
     // Offset: 0x1E66944
     void PullBody();
@@ -586,7 +593,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverFullBodyBiped::Contains
 // Il2CppName: Contains
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayWrapper<UnityEngine::Transform*>, UnityEngine::Transform*)>(&RootMotion::FinalIK::IKSolverFullBodyBiped::Contains)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<UnityEngine::Transform*>, UnityEngine::Transform*)>(&RootMotion::FinalIK::IKSolverFullBodyBiped::Contains)> {
   static const MethodInfo* get() {
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Transform"), 1)->byval_arg;
     static auto* transform = &::il2cpp_utils::GetClassFromName("UnityEngine", "Transform")->byval_arg;

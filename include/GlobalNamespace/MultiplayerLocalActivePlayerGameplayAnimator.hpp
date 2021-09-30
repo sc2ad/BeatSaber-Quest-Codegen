@@ -38,6 +38,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerLocalActivePlayerGameplayAnimator : public GlobalNamespace::MultiplayerGameplayAnimator {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [SpaceAttribute] Offset: 0xF08BF0
     // private CoreGameHUDController _coreGameHUDController
     // Size: 0x8
@@ -70,6 +75,7 @@ namespace GlobalNamespace {
     bool initialized;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private CoreGameHUDController _coreGameHUDController
     GlobalNamespace::CoreGameHUDController*& dyn__coreGameHUDController();
     // Get instance field reference: private MultiplayerPositionHUDController _multiplayerPositionHUDController

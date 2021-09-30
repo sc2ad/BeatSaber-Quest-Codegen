@@ -16,12 +16,18 @@ namespace System::Globalization {
   // [TokenAttribute] Offset: FFFFFFFF
   struct CalendarId/*, public System::Enum*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.UInt16 value__
     // Size: 0x2
     // Offset: 0x0
     uint16_t value;
     // Field size check
     static_assert(sizeof(uint16_t) == 0x2);
+    public:
     // Creating value type constructor for type: CalendarId
     constexpr CalendarId(uint16_t value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum

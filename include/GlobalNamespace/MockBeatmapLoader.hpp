@@ -48,12 +48,18 @@ namespace GlobalNamespace {
     class $$c;
     // Nested type: GlobalNamespace::MockBeatmapLoader::$GetBeatmapData$d__2
     struct $GetBeatmapData$d__2;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly BeatmapLevelsModel _beatmapLevelsModel
     // Size: 0x8
     // Offset: 0x10
     GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapLevelsModel*) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IMockBeatmapDataProvider
     operator GlobalNamespace::IMockBeatmapDataProvider() noexcept {
       return *reinterpret_cast<GlobalNamespace::IMockBeatmapDataProvider*>(this);

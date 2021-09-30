@@ -39,12 +39,18 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class GuiRenderableManager::$$c__DisplayClass1_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public Zenject.IGuiRenderable renderable
     // Size: 0x8
     // Offset: 0x10
     Zenject::IGuiRenderable* renderable;
     // Field size check
     static_assert(sizeof(Zenject::IGuiRenderable*) == 0x8);
+    public:
     // Creating conversion operator: operator Zenject::IGuiRenderable*
     constexpr operator Zenject::IGuiRenderable*() const noexcept {
       return renderable;

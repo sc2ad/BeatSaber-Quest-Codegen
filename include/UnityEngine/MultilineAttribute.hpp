@@ -21,12 +21,18 @@ namespace UnityEngine {
   // [AttributeUsageAttribute] Offset: E721C4
   class MultilineAttribute : public UnityEngine::PropertyAttribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly System.Int32 lines
     // Size: 0x4
     // Offset: 0x10
     int lines;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating conversion operator: operator int
     constexpr operator int() const noexcept {
       return lines;

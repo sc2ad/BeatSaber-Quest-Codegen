@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text::RegularExpressions
@@ -32,6 +33,11 @@ namespace System::Text::RegularExpressions {
   // [TokenAttribute] Offset: FFFFFFFF
   class RegexTree : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Text.RegularExpressions.RegexNode _root
     // Size: 0x8
     // Offset: 0x10
@@ -47,9 +53,9 @@ namespace System::Text::RegularExpressions {
     // System.Int32[] _capnumlist
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<int> capnumlist;
+    ::ArrayW<int> capnumlist;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // System.Collections.Hashtable _capnames
     // Size: 0x8
     // Offset: 0x28
@@ -59,9 +65,9 @@ namespace System::Text::RegularExpressions {
     // System.String[] _capslist
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<::Il2CppString*> capslist;
+    ::ArrayW<::Il2CppString*> capslist;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // System.Text.RegularExpressions.RegexOptions _options
     // Size: 0x4
     // Offset: 0x38
@@ -74,16 +80,17 @@ namespace System::Text::RegularExpressions {
     int captop;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: System.Text.RegularExpressions.RegexNode _root
     System::Text::RegularExpressions::RegexNode*& dyn__root();
     // Get instance field reference: System.Collections.Hashtable _caps
     System::Collections::Hashtable*& dyn__caps();
     // Get instance field reference: System.Int32[] _capnumlist
-    ::ArrayWrapper<int>& dyn__capnumlist();
+    ::ArrayW<int>& dyn__capnumlist();
     // Get instance field reference: System.Collections.Hashtable _capnames
     System::Collections::Hashtable*& dyn__capnames();
     // Get instance field reference: System.String[] _capslist
-    ::ArrayWrapper<::Il2CppString*>& dyn__capslist();
+    ::ArrayW<::Il2CppString*>& dyn__capslist();
     // Get instance field reference: System.Text.RegularExpressions.RegexOptions _options
     System::Text::RegularExpressions::RegexOptions& dyn__options();
     // Get instance field reference: System.Int32 _captop
@@ -91,7 +98,7 @@ namespace System::Text::RegularExpressions {
     // System.Void .ctor(System.Text.RegularExpressions.RegexNode root, System.Collections.Hashtable caps, System.Int32[] capnumlist, System.Int32 captop, System.Collections.Hashtable capnames, System.String[] capslist, System.Text.RegularExpressions.RegexOptions opts)
     // Offset: 0x1A3AE30
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static RegexTree* New_ctor(System::Text::RegularExpressions::RegexNode* root, System::Collections::Hashtable* caps, ::ArrayWrapper<int> capnumlist, int captop, System::Collections::Hashtable* capnames, ::ArrayWrapper<::Il2CppString*> capslist, System::Text::RegularExpressions::RegexOptions opts) {
+    static RegexTree* New_ctor(System::Text::RegularExpressions::RegexNode* root, System::Collections::Hashtable* caps, ::ArrayW<int> capnumlist, int captop, System::Collections::Hashtable* capnames, ::ArrayW<::Il2CppString*> capslist, System::Text::RegularExpressions::RegexOptions opts) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::RegexTree::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RegexTree*, creationType>(root, caps, capnumlist, captop, capnames, capslist, opts)));
     }

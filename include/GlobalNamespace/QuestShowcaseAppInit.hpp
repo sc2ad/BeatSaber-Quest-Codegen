@@ -37,6 +37,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class QuestShowcaseAppInit : public GlobalNamespace::AppInit {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private MainSystemInit _mainSystemInit
     // Size: 0x8
     // Offset: 0x40
@@ -76,6 +81,7 @@ namespace GlobalNamespace {
     GlobalNamespace::PlayerDataModel* playerDataModel;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlayerDataModel*) == 0x8);
+    public:
     // Get instance field reference: private MainSystemInit _mainSystemInit
     GlobalNamespace::MainSystemInit*& dyn__mainSystemInit();
     // Get instance field reference: private OculusInit _oculusInit

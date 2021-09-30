@@ -27,6 +27,11 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_InputHDAInfo : public ::Il2CppObject/*, public HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_InputHDAInfo*>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.GameObject _pendingGO
     // Size: 0x8
     // Offset: 0x10
@@ -45,6 +50,7 @@ namespace HoudiniEngineUnity {
     int connectedInputNodeID;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_InputHDAInfo*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_InputHDAInfo*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_InputHDAInfo*>*>(this);

@@ -31,6 +31,11 @@ namespace RootMotion {
   // [TokenAttribute] Offset: FFFFFFFF
   class SolverManager : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [TooltipAttribute] Offset: 0xEF181C
     // public System.Boolean fixTransforms
     // Size: 0x1
@@ -70,6 +75,7 @@ namespace RootMotion {
     bool skipSolverUpdate;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.Boolean fixTransforms

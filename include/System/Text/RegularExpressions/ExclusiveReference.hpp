@@ -25,6 +25,11 @@ namespace System::Text::RegularExpressions {
   // [TokenAttribute] Offset: FFFFFFFF
   class ExclusiveReference : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Text.RegularExpressions.RegexRunner _ref
     // Size: 0x8
     // Offset: 0x10
@@ -43,6 +48,7 @@ namespace System::Text::RegularExpressions {
     int locked;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: private System.Text.RegularExpressions.RegexRunner _ref
     System::Text::RegularExpressions::RegexRunner*& dyn__ref();
     // Get instance field reference: private System.Object _obj

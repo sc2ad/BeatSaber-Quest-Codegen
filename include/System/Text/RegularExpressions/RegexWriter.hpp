@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -48,12 +49,17 @@ namespace System::Text::RegularExpressions {
   // [TokenAttribute] Offset: FFFFFFFF
   class RegexWriter : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Int32[] _intStack
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<int> intStack;
+    ::ArrayW<int> intStack;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // System.Int32 _depth
     // Size: 0x4
     // Offset: 0x18
@@ -65,9 +71,9 @@ namespace System::Text::RegularExpressions {
     // System.Int32[] _emitted
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<int> emitted;
+    ::ArrayW<int> emitted;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // System.Int32 _curpos
     // Size: 0x4
     // Offset: 0x28
@@ -116,12 +122,13 @@ namespace System::Text::RegularExpressions {
     System::Collections::Hashtable* caps;
     // Field size check
     static_assert(sizeof(System::Collections::Hashtable*) == 0x8);
+    public:
     // Get instance field reference: System.Int32[] _intStack
-    ::ArrayWrapper<int>& dyn__intStack();
+    ::ArrayW<int>& dyn__intStack();
     // Get instance field reference: System.Int32 _depth
     int& dyn__depth();
     // Get instance field reference: System.Int32[] _emitted
-    ::ArrayWrapper<int>& dyn__emitted();
+    ::ArrayW<int>& dyn__emitted();
     // Get instance field reference: System.Int32 _curpos
     int& dyn__curpos();
     // Get instance field reference: System.Collections.Generic.Dictionary`2<System.String,System.Int32> _stringhash

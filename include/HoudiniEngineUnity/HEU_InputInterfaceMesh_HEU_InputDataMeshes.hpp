@@ -30,6 +30,11 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_InputInterfaceMesh::HEU_InputDataMeshes : public HoudiniEngineUnity::HEU_InputData {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_InputInterfaceMesh/HoudiniEngineUnity.HEU_InputDataMesh> _inputMeshes
     // Size: 0x8
     // Offset: 0x18
@@ -42,6 +47,7 @@ namespace HoudiniEngineUnity {
     bool hasLOD;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Deleting conversion operator: operator UnityEngine::GameObject*
     constexpr operator UnityEngine::GameObject*() const noexcept = delete;
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_InputInterfaceMesh/HoudiniEngineUnity.HEU_InputDataMesh> _inputMeshes

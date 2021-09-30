@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: LeaderboardsDTO
 namespace LeaderboardsDTO {
@@ -20,6 +21,11 @@ namespace LeaderboardsDTO {
   // [TokenAttribute] Offset: FFFFFFFF
   class LevelScoreResultDTO : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.String guid
     // Size: 0x8
     // Offset: 0x10
@@ -87,9 +93,9 @@ namespace LeaderboardsDTO {
     // public LeaderboardsDTO.GameplayModifiersDto[] gameplayModifiers
     // Size: 0x8
     // Offset: 0x48
-    ::ArrayWrapper<LeaderboardsDTO::GameplayModifiersDto> gameplayModifiers;
+    ::ArrayW<LeaderboardsDTO::GameplayModifiersDto> gameplayModifiers;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<LeaderboardsDTO::GameplayModifiersDto>) == 0x8);
+    static_assert(sizeof(::ArrayW<LeaderboardsDTO::GameplayModifiersDto>) == 0x8);
     // public System.String leaderboardId
     // Size: 0x8
     // Offset: 0x50
@@ -108,6 +114,7 @@ namespace LeaderboardsDTO {
     ::Il2CppString* extraDataBase64;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: public System.String guid
     ::Il2CppString*& dyn_guid();
     // Get instance field reference: public System.String guids
@@ -129,7 +136,7 @@ namespace LeaderboardsDTO {
     // Get instance field reference: public System.Int32 maxCombo
     int& dyn_maxCombo();
     // Get instance field reference: public LeaderboardsDTO.GameplayModifiersDto[] gameplayModifiers
-    ::ArrayWrapper<LeaderboardsDTO::GameplayModifiersDto>& dyn_gameplayModifiers();
+    ::ArrayW<LeaderboardsDTO::GameplayModifiersDto>& dyn_gameplayModifiers();
     // Get instance field reference: public System.String leaderboardId
     ::Il2CppString*& dyn_leaderboardId();
     // Get instance field reference: public System.String deviceModel

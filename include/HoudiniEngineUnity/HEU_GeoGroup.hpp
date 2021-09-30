@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -38,6 +39,11 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_GeoGroup : public ::Il2CppObject/*, public System::IComparable_1<HoudiniEngineUnity::HEU_GeoGroup*>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.String _groupName
     // Size: 0x8
     // Offset: 0x10
@@ -53,9 +59,10 @@ namespace HoudiniEngineUnity {
     // public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_VertexEntry>[] _sharedNormalIndices
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VertexEntry*>*> sharedNormalIndices;
+    ::ArrayW<System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VertexEntry*>*> sharedNormalIndices;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VertexEntry*>*>) == 0x8);
+    static_assert(sizeof(::ArrayW<System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VertexEntry*>*>) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::IComparable_1<HoudiniEngineUnity::HEU_GeoGroup*>
     operator System::IComparable_1<HoudiniEngineUnity::HEU_GeoGroup*>() noexcept {
       return *reinterpret_cast<System::IComparable_1<HoudiniEngineUnity::HEU_GeoGroup*>*>(this);
@@ -65,7 +72,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Collections.Generic.Dictionary`2<System.Int32,HoudiniEngineUnity.HEU_MeshData> _subMeshesMap
     System::Collections::Generic::Dictionary_2<int, HoudiniEngineUnity::HEU_MeshData*>*& dyn__subMeshesMap();
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_VertexEntry>[] _sharedNormalIndices
-    ::ArrayWrapper<System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VertexEntry*>*>& dyn__sharedNormalIndices();
+    ::ArrayW<System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VertexEntry*>*>& dyn__sharedNormalIndices();
     // public System.Int32 CompareTo(HoudiniEngineUnity.HEU_GeoGroup other)
     // Offset: 0x14A98B0
     int CompareTo(HoudiniEngineUnity::HEU_GeoGroup* other);
@@ -83,7 +90,7 @@ namespace HoudiniEngineUnity {
     }
   }; // HoudiniEngineUnity.HEU_GeoGroup
   #pragma pack(pop)
-  static check_size<sizeof(HEU_GeoGroup), 32 + sizeof(::ArrayWrapper<System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VertexEntry*>*>)> __HoudiniEngineUnity_HEU_GeoGroupSizeCheck;
+  static check_size<sizeof(HEU_GeoGroup), 32 + sizeof(::ArrayW<System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_VertexEntry*>*>)> __HoudiniEngineUnity_HEU_GeoGroupSizeCheck;
   static_assert(sizeof(HEU_GeoGroup) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_GeoGroup*, "HoudiniEngineUnity", "HEU_GeoGroup");

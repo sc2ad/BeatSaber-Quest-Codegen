@@ -66,6 +66,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::BeatmapObjectCallbackController::InitData
     class InitData;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xF0436C
     // private readonly BeatmapObjectCallbackController/InitData _initData
     // Size: 0x8
@@ -141,6 +146,7 @@ namespace GlobalNamespace {
     System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapEventType>* validEvents;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::HashSet_1<GlobalNamespace::BeatmapEventType>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IBeatmapObjectCallbackController
     operator GlobalNamespace::IBeatmapObjectCallbackController() noexcept {
       return *reinterpret_cast<GlobalNamespace::IBeatmapObjectCallbackController*>(this);

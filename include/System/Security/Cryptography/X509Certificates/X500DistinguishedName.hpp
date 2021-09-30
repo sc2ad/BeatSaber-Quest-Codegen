@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Security::Cryptography::X509Certificates
@@ -28,6 +29,11 @@ namespace System::Security::Cryptography::X509Certificates {
   // [MonoTODOAttribute] Offset: E698D0
   class X500DistinguishedName : public System::Security::Cryptography::AsnEncodedData {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String name
     // Size: 0x8
     // Offset: 0x20
@@ -37,17 +43,18 @@ namespace System::Security::Cryptography::X509Certificates {
     // private System.Byte[] canonEncoding
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<uint8_t> canonEncoding;
+    ::ArrayW<uint8_t> canonEncoding;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
+    public:
     // Get instance field reference: private System.String name
     ::Il2CppString*& dyn_name();
     // Get instance field reference: private System.Byte[] canonEncoding
-    ::ArrayWrapper<uint8_t>& dyn_canonEncoding();
+    ::ArrayW<uint8_t>& dyn_canonEncoding();
     // public System.Void .ctor(System.Byte[] encodedDistinguishedName)
     // Offset: 0x19D1F58
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static X500DistinguishedName* New_ctor(::ArrayWrapper<uint8_t> encodedDistinguishedName) {
+    static X500DistinguishedName* New_ctor(::ArrayW<uint8_t> encodedDistinguishedName) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::X509Certificates::X500DistinguishedName::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<X500DistinguishedName*, creationType>(encodedDistinguishedName)));
     }
@@ -73,7 +80,7 @@ namespace System::Security::Cryptography::X509Certificates {
     ::Il2CppString* Format(bool multiLine);
   }; // System.Security.Cryptography.X509Certificates.X500DistinguishedName
   #pragma pack(pop)
-  static check_size<sizeof(X500DistinguishedName), 40 + sizeof(::ArrayWrapper<uint8_t>)> __System_Security_Cryptography_X509Certificates_X500DistinguishedNameSizeCheck;
+  static check_size<sizeof(X500DistinguishedName), 40 + sizeof(::ArrayW<uint8_t>)> __System_Security_Cryptography_X509Certificates_X500DistinguishedNameSizeCheck;
   static_assert(sizeof(X500DistinguishedName) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Security::Cryptography::X509Certificates::X500DistinguishedName*, "System.Security.Cryptography.X509Certificates", "X500DistinguishedName");

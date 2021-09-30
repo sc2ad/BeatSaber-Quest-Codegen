@@ -27,6 +27,11 @@ namespace UnityEngine::ProBuilder {
   // [TokenAttribute] Offset: FFFFFFFF
   class WingedEdgeEnumerator : public ::Il2CppObject/*, public System::Collections::Generic::IEnumerator_1<UnityEngine::ProBuilder::WingedEdge*>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.ProBuilder.WingedEdge m_Start
     // Size: 0x8
     // Offset: 0x10
@@ -39,6 +44,7 @@ namespace UnityEngine::ProBuilder {
     UnityEngine::ProBuilder::WingedEdge* m_Current;
     // Field size check
     static_assert(sizeof(UnityEngine::ProBuilder::WingedEdge*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<UnityEngine::ProBuilder::WingedEdge*>
     operator System::Collections::Generic::IEnumerator_1<UnityEngine::ProBuilder::WingedEdge*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<UnityEngine::ProBuilder::WingedEdge*>*>(this);

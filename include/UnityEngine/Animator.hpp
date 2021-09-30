@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -196,7 +197,7 @@ namespace UnityEngine {
     int get_layerCount();
     // public UnityEngine.AnimatorControllerParameter[] get_parameters()
     // Offset: 0x259464C
-    ::ArrayWrapper<UnityEngine::AnimatorControllerParameter*> get_parameters();
+    ::ArrayW<UnityEngine::AnimatorControllerParameter*> get_parameters();
     // public System.Int32 get_parameterCount()
     // Offset: 0x259468C
     int get_parameterCount();
@@ -487,33 +488,33 @@ namespace UnityEngine {
     // static private T[] ConvertStateMachineBehaviour(UnityEngine.ScriptableObject[] rawObjects)
     // Offset: 0xFFFFFFFF
     template<class T>
-    static ::ArrayWrapper<T> ConvertStateMachineBehaviour(::ArrayWrapper<UnityEngine::ScriptableObject*> rawObjects) {
+    static ::ArrayW<T> ConvertStateMachineBehaviour(::ArrayW<UnityEngine::ScriptableObject*> rawObjects) {
       static_assert(std::is_convertible_v<T, UnityEngine::StateMachineBehaviour*>);
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Animator::ConvertStateMachineBehaviour");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod("UnityEngine", "Animator", "ConvertStateMachineBehaviour", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(rawObjects)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
-      return ::il2cpp_utils::RunMethodThrow<::ArrayWrapper<T>, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, rawObjects);
+      return ::il2cpp_utils::RunMethodThrow<::ArrayW<T>, false>(static_cast<Il2CppClass*>(nullptr), ___generic__method, rawObjects);
     }
     // public T[] GetBehaviours()
     // Offset: 0xFFFFFFFF
     template<class T>
-    ::ArrayWrapper<T> GetBehaviours() {
+    ::ArrayW<T> GetBehaviours() {
       static_assert(std::is_convertible_v<T, UnityEngine::StateMachineBehaviour*>);
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Animator::GetBehaviours");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetBehaviours", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<::ArrayWrapper<T>, false>(___instance_arg, ___generic__method);
+      return ::il2cpp_utils::RunMethodThrow<::ArrayW<T>, false>(___instance_arg, ___generic__method);
     }
     // UnityEngine.ScriptableObject[] InternalGetBehaviours(System.Type type)
     // Offset: 0x2593C7C
-    ::ArrayWrapper<UnityEngine::ScriptableObject*> InternalGetBehaviours(System::Type* type);
+    ::ArrayW<UnityEngine::ScriptableObject*> InternalGetBehaviours(System::Type* type);
     // public UnityEngine.StateMachineBehaviour[] GetBehaviours(System.Int32 fullPathHash, System.Int32 layerIndex)
     // Offset: 0x2593CCC
-    ::ArrayWrapper<UnityEngine::StateMachineBehaviour*> GetBehaviours(int fullPathHash, int layerIndex);
+    ::ArrayW<UnityEngine::StateMachineBehaviour*> GetBehaviours(int fullPathHash, int layerIndex);
     // UnityEngine.ScriptableObject[] InternalGetBehavioursByKey(System.Int32 fullPathHash, System.Int32 layerIndex, System.Type type)
     // Offset: 0x2593DA0
-    ::ArrayWrapper<UnityEngine::ScriptableObject*> InternalGetBehavioursByKey(int fullPathHash, int layerIndex, System::Type* type);
+    ::ArrayW<UnityEngine::ScriptableObject*> InternalGetBehavioursByKey(int fullPathHash, int layerIndex, System::Type* type);
     // public System.String GetLayerName(System.Int32 layerIndex)
     // Offset: 0x2593ED8
     ::Il2CppString* GetLayerName(int layerIndex);
@@ -552,10 +553,10 @@ namespace UnityEngine {
     int GetNextAnimatorClipInfoCount(int layerIndex);
     // public UnityEngine.AnimatorClipInfo[] GetCurrentAnimatorClipInfo(System.Int32 layerIndex)
     // Offset: 0x2594374
-    ::ArrayWrapper<UnityEngine::AnimatorClipInfo> GetCurrentAnimatorClipInfo(int layerIndex);
+    ::ArrayW<UnityEngine::AnimatorClipInfo> GetCurrentAnimatorClipInfo(int layerIndex);
     // public UnityEngine.AnimatorClipInfo[] GetNextAnimatorClipInfo(System.Int32 layerIndex)
     // Offset: 0x25943C4
-    ::ArrayWrapper<UnityEngine::AnimatorClipInfo> GetNextAnimatorClipInfo(int layerIndex);
+    ::ArrayW<UnityEngine::AnimatorClipInfo> GetNextAnimatorClipInfo(int layerIndex);
     // public System.Void GetCurrentAnimatorClipInfo(System.Int32 layerIndex, System.Collections.Generic.List`1<UnityEngine.AnimatorClipInfo> clips)
     // Offset: 0x2594414
     void GetCurrentAnimatorClipInfo(int layerIndex, System::Collections::Generic::List_1<UnityEngine::AnimatorClipInfo>* clips);
@@ -1256,7 +1257,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Writing MetadataGetter for method: UnityEngine::Animator::get_parameters
 // Il2CppName: get_parameters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::AnimatorControllerParameter*> (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_parameters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::AnimatorControllerParameter*> (UnityEngine::Animator::*)()>(&UnityEngine::Animator::get_parameters)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "get_parameters", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2116,7 +2117,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Animator::InternalGetBehaviours
 // Il2CppName: InternalGetBehaviours
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::ScriptableObject*> (UnityEngine::Animator::*)(System::Type*)>(&UnityEngine::Animator::InternalGetBehaviours)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::ScriptableObject*> (UnityEngine::Animator::*)(System::Type*)>(&UnityEngine::Animator::InternalGetBehaviours)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "InternalGetBehaviours", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});
@@ -2125,7 +2126,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::Animator::GetBehaviours
 // Il2CppName: GetBehaviours
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::StateMachineBehaviour*> (UnityEngine::Animator::*)(int, int)>(&UnityEngine::Animator::GetBehaviours)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::StateMachineBehaviour*> (UnityEngine::Animator::*)(int, int)>(&UnityEngine::Animator::GetBehaviours)> {
   static const MethodInfo* get() {
     static auto* fullPathHash = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* layerIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2135,7 +2136,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::Animator::InternalGetBehavioursByKey
 // Il2CppName: InternalGetBehavioursByKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::ScriptableObject*> (UnityEngine::Animator::*)(int, int, System::Type*)>(&UnityEngine::Animator::InternalGetBehavioursByKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::ScriptableObject*> (UnityEngine::Animator::*)(int, int, System::Type*)>(&UnityEngine::Animator::InternalGetBehavioursByKey)> {
   static const MethodInfo* get() {
     static auto* fullPathHash = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* layerIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -2259,7 +2260,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Writing MetadataGetter for method: UnityEngine::Animator::GetCurrentAnimatorClipInfo
 // Il2CppName: GetCurrentAnimatorClipInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::AnimatorClipInfo> (UnityEngine::Animator::*)(int)>(&UnityEngine::Animator::GetCurrentAnimatorClipInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::AnimatorClipInfo> (UnityEngine::Animator::*)(int)>(&UnityEngine::Animator::GetCurrentAnimatorClipInfo)> {
   static const MethodInfo* get() {
     static auto* layerIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetCurrentAnimatorClipInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{layerIndex});
@@ -2268,7 +2269,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::Animator::GetNextAnimatorClipInfo
 // Il2CppName: GetNextAnimatorClipInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::AnimatorClipInfo> (UnityEngine::Animator::*)(int)>(&UnityEngine::Animator::GetNextAnimatorClipInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::AnimatorClipInfo> (UnityEngine::Animator::*)(int)>(&UnityEngine::Animator::GetNextAnimatorClipInfo)> {
   static const MethodInfo* get() {
     static auto* layerIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Animator*), "GetNextAnimatorClipInfo", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{layerIndex});

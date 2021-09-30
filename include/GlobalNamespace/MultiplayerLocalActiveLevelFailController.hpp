@@ -46,6 +46,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::MultiplayerLocalActiveLevelFailController::$PlayerFailedCoroutine$d__8
     class $PlayerFailedCoroutine$d__8;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private LevelFailedTextEffect _levelFailedTextEffect
     // Size: 0x8
     // Offset: 0x18
@@ -87,6 +92,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerPlayersManager* multiplayerPlayersManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerPlayersManager*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private LevelFailedTextEffect _levelFailedTextEffect

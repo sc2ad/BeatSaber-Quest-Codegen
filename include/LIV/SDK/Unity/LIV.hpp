@@ -32,6 +32,11 @@ namespace LIV::SDK::Unity {
   // [AddComponentMenu] Offset: EE65E0
   class LIV : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [TooltipAttribute] Offset: 0xEE6618
     // public UnityEngine.Transform TrackedSpaceOrigin
     // Size: 0x8
@@ -62,6 +67,7 @@ namespace LIV::SDK::Unity {
     UnityEngine::LayerMask SpectatorLayerMask;
     // Field size check
     static_assert(sizeof(UnityEngine::LayerMask) == 0x4);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public UnityEngine.Transform TrackedSpaceOrigin

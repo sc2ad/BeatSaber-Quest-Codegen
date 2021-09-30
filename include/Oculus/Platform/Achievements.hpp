@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Oculus::Platform
@@ -45,10 +46,10 @@ namespace Oculus::Platform {
     static Oculus::Platform::Request_1<Oculus::Platform::Models::AchievementProgressList*>* GetAllProgress();
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.AchievementDefinitionList> GetDefinitionsByName(System.String[] names)
     // Offset: 0x1D1907C
-    static Oculus::Platform::Request_1<Oculus::Platform::Models::AchievementDefinitionList*>* GetDefinitionsByName(::ArrayWrapper<::Il2CppString*> names);
+    static Oculus::Platform::Request_1<Oculus::Platform::Models::AchievementDefinitionList*>* GetDefinitionsByName(::ArrayW<::Il2CppString*> names);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.AchievementProgressList> GetProgressByName(System.String[] names)
     // Offset: 0x1D192FC
-    static Oculus::Platform::Request_1<Oculus::Platform::Models::AchievementProgressList*>* GetProgressByName(::ArrayWrapper<::Il2CppString*> names);
+    static Oculus::Platform::Request_1<Oculus::Platform::Models::AchievementProgressList*>* GetProgressByName(::ArrayW<::Il2CppString*> names);
     // static public Oculus.Platform.Request`1<Oculus.Platform.Models.AchievementUpdate> Unlock(System.String name)
     // Offset: 0x1D1957C
     static Oculus::Platform::Request_1<Oculus::Platform::Models::AchievementUpdate*>* Unlock(::Il2CppString* name);
@@ -103,7 +104,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Writing MetadataGetter for method: Oculus::Platform::Achievements::GetDefinitionsByName
 // Il2CppName: GetDefinitionsByName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::AchievementDefinitionList*>* (*)(::ArrayWrapper<::Il2CppString*>)>(&Oculus::Platform::Achievements::GetDefinitionsByName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::AchievementDefinitionList*>* (*)(::ArrayW<::Il2CppString*>)>(&Oculus::Platform::Achievements::GetDefinitionsByName)> {
   static const MethodInfo* get() {
     static auto* names = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Achievements*), "GetDefinitionsByName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{names});
@@ -112,7 +113,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Pla
 // Writing MetadataGetter for method: Oculus::Platform::Achievements::GetProgressByName
 // Il2CppName: GetProgressByName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::AchievementProgressList*>* (*)(::ArrayWrapper<::Il2CppString*>)>(&Oculus::Platform::Achievements::GetProgressByName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Oculus::Platform::Request_1<Oculus::Platform::Models::AchievementProgressList*>* (*)(::ArrayW<::Il2CppString*>)>(&Oculus::Platform::Achievements::GetProgressByName)> {
   static const MethodInfo* get() {
     static auto* names = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Oculus::Platform::Achievements*), "GetProgressByName", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{names});

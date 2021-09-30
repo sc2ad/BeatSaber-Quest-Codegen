@@ -20,6 +20,11 @@ namespace RootMotion {
   // [TokenAttribute] Offset: FFFFFFFF
   class InspectorComment : public UnityEngine::PropertyAttribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.String name
     // Size: 0x8
     // Offset: 0x10
@@ -32,6 +37,7 @@ namespace RootMotion {
     ::Il2CppString* color;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: public System.String name
     ::Il2CppString*& dyn_name();
     // Get instance field reference: public System.String color

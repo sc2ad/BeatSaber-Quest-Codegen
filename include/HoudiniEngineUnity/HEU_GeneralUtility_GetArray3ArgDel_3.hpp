@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -40,17 +41,17 @@ namespace HoudiniEngineUnity {
     }
     // public System.Boolean Invoke(System.Int32 arg1, ARG2 arg2, ARG3 arg3, out T[] data, System.Int32 start, System.Int32 length)
     // Offset: 0xFFFFFFFF
-    bool Invoke(int arg1, ARG2 arg2, ARG3 arg3, ByRef<::ArrayWrapper<T>> data, int start, int length) {
+    bool Invoke(int arg1, ARG2 arg2, ARG3 arg3, ByRef<::ArrayW<T>> data, int start, int length) {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_GeneralUtility::GetArray3ArgDel_3::Invoke");
-      auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Invoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arg1), ::il2cpp_utils::ExtractType(arg2), ::il2cpp_utils::ExtractType(arg3), ::il2cpp_utils::ExtractIndependentType<::ArrayWrapper<T>&>(), ::il2cpp_utils::ExtractType(start), ::il2cpp_utils::ExtractType(length)})));
+      auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "Invoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arg1), ::il2cpp_utils::ExtractType(arg2), ::il2cpp_utils::ExtractType(arg3), ::il2cpp_utils::ExtractIndependentType<::ArrayW<T>&>(), ::il2cpp_utils::ExtractType(start), ::il2cpp_utils::ExtractType(length)})));
       auto ___instance_arg = this;
       return ::il2cpp_utils::RunMethodThrow<bool, false>(___instance_arg, ___internal__method, arg1, arg2, arg3, byref(data), start, length);
     }
     // public System.IAsyncResult BeginInvoke(System.Int32 arg1, ARG2 arg2, ARG3 arg3, out T[] data, System.Int32 start, System.Int32 length, System.AsyncCallback callback, System.Object object)
     // Offset: 0xFFFFFFFF
-    System::IAsyncResult* BeginInvoke(int arg1, ARG2 arg2, ARG3 arg3, ByRef<::ArrayWrapper<T>> data, int start, int length, System::AsyncCallback* callback, ::Il2CppObject* object) {
+    System::IAsyncResult* BeginInvoke(int arg1, ARG2 arg2, ARG3 arg3, ByRef<::ArrayW<T>> data, int start, int length, System::AsyncCallback* callback, ::Il2CppObject* object) {
       static auto ___internal__logger = ::Logger::get().WithContext("HoudiniEngineUnity::HEU_GeneralUtility::GetArray3ArgDel_3::BeginInvoke");
-      auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BeginInvoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arg1), ::il2cpp_utils::ExtractType(arg2), ::il2cpp_utils::ExtractType(arg3), ::il2cpp_utils::ExtractIndependentType<::ArrayWrapper<T>&>(), ::il2cpp_utils::ExtractType(start), ::il2cpp_utils::ExtractType(length), ::il2cpp_utils::ExtractType(callback), ::il2cpp_utils::ExtractType(object)})));
+      auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "BeginInvoke", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(arg1), ::il2cpp_utils::ExtractType(arg2), ::il2cpp_utils::ExtractType(arg3), ::il2cpp_utils::ExtractIndependentType<::ArrayW<T>&>(), ::il2cpp_utils::ExtractType(start), ::il2cpp_utils::ExtractType(length), ::il2cpp_utils::ExtractType(callback), ::il2cpp_utils::ExtractType(object)})));
       auto ___instance_arg = this;
       return ::il2cpp_utils::RunMethodThrow<System::IAsyncResult*, false>(___instance_arg, ___internal__method, arg1, arg2, arg3, byref(data), start, length, callback, object);
     }

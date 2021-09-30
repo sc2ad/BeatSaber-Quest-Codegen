@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::TestTools::TestRunner::Callbacks
@@ -55,6 +56,11 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     class QueueData;
     // Nested type: UnityEngine::TestTools::TestRunner::Callbacks::RemoteTestResultSender::$SendDataRoutine$d__12
     class $SendDataRoutine$d__12;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Single m_NextliveMessage
     // Size: 0x4
     // Offset: 0x18
@@ -81,6 +87,7 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     UnityEngine::TestRunner::TestLaunchers::IRemoteTestResultDataFactory* m_TestResultDataFactory;
     // Field size check
     static_assert(sizeof(UnityEngine::TestRunner::TestLaunchers::IRemoteTestResultDataFactory*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Int32 k_aliveMessageFrequency
@@ -102,7 +109,7 @@ namespace UnityEngine::TestTools::TestRunner::Callbacks {
     void Start();
     // private System.Byte[] SerializeObject(System.Object objectToSerialize)
     // Offset: 0x1672D10
-    ::ArrayWrapper<uint8_t> SerializeObject(::Il2CppObject* objectToSerialize);
+    ::ArrayW<uint8_t> SerializeObject(::Il2CppObject* objectToSerialize);
     // public System.Void RunStarted(NUnit.Framework.Interfaces.ITest testsToRun)
     // Offset: 0x1672D60
     void RunStarted(NUnit::Framework::Interfaces::ITest* testsToRun);
@@ -155,7 +162,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::TestTools::TestRunner::Callbacks::RemoteTestResultSender::SerializeObject
 // Il2CppName: SerializeObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (UnityEngine::TestTools::TestRunner::Callbacks::RemoteTestResultSender::*)(::Il2CppObject*)>(&UnityEngine::TestTools::TestRunner::Callbacks::RemoteTestResultSender::SerializeObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (UnityEngine::TestTools::TestRunner::Callbacks::RemoteTestResultSender::*)(::Il2CppObject*)>(&UnityEngine::TestTools::TestRunner::Callbacks::RemoteTestResultSender::SerializeObject)> {
   static const MethodInfo* get() {
     static auto* objectToSerialize = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TestTools::TestRunner::Callbacks::RemoteTestResultSender*), "SerializeObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{objectToSerialize});

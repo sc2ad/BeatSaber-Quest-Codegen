@@ -51,6 +51,11 @@ namespace GlobalNamespace {
     class $$c;
     // Nested type: GlobalNamespace::MultiplayerScoreProvider::$$c__DisplayClass18_0
     class $$c__DisplayClass18_0;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xF0A1C8
     // private readonly IScoreSyncStateManager _scoreSyncStateManager
     // Size: 0x8
@@ -90,6 +95,7 @@ namespace GlobalNamespace {
     System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>* players;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, GlobalNamespace::MultiplayerScoreProvider::RankedPlayer*>*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private readonly IScoreSyncStateManager _scoreSyncStateManager

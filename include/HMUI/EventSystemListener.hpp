@@ -38,6 +38,11 @@ namespace HMUI {
   // [RequireComponent] Offset: EE1064
   class EventSystemListener : public UnityEngine::MonoBehaviour/*, public UnityEngine::EventSystems::IPointerEnterHandler, public UnityEngine::EventSystems::IPointerExitHandler*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Action`1<UnityEngine.EventSystems.PointerEventData> pointerDidEnterEvent
     // Size: 0x8
     // Offset: 0x18
@@ -50,6 +55,7 @@ namespace HMUI {
     System::Action_1<UnityEngine::EventSystems::PointerEventData*>* pointerDidExitEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<UnityEngine::EventSystems::PointerEventData*>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator UnityEngine::EventSystems::IPointerEnterHandler
     operator UnityEngine::EventSystems::IPointerEnterHandler() noexcept {
       return *reinterpret_cast<UnityEngine::EventSystems::IPointerEnterHandler*>(this);

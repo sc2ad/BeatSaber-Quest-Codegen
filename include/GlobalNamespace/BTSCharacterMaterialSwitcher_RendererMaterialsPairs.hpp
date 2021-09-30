@@ -33,6 +33,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BTSCharacterMaterialSwitcher::RendererMaterialsPairs : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Renderer _renderer
     // Size: 0x8
     // Offset: 0x10
@@ -45,6 +50,7 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<GlobalNamespace::BTSCharacterMaterialSwitcher::MaterialPairs*>* materialPairs;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::BTSCharacterMaterialSwitcher::MaterialPairs*>*) == 0x8);
+    public:
     // Get instance field reference: private UnityEngine.Renderer _renderer
     UnityEngine::Renderer*& dyn__renderer();
     // Get instance field reference: private System.Collections.Generic.List`1<BTSCharacterMaterialSwitcher/MaterialPairs> _materialPairs

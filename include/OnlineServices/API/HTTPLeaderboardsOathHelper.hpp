@@ -71,6 +71,11 @@ namespace OnlineServices::API {
     struct $SendWebRequestAsync$d__10;
     // Nested type: OnlineServices::API::HTTPLeaderboardsOathHelper::$SendAndWaitAsync$d__11
     struct $SendAndWaitAsync$d__11;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xF15474
     // private readonly OnlineServices.API.IUserLoginDtoDataSource _userLoginDataSource
     // Size: 0x8
@@ -90,6 +95,7 @@ namespace OnlineServices::API {
     BeatSaberAPI::DataTransferObjects::AccessToken* accessToken;
     // Field size check
     static_assert(sizeof(BeatSaberAPI::DataTransferObjects::AccessToken*) == 0x8);
+    public:
     // static field const value: static private System.String kLoginPath
     static constexpr const char* kLoginPath = "/v1/User/Register";
     // Get static field: static private System.String kLoginPath

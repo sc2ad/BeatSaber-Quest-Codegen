@@ -23,6 +23,11 @@ namespace UnityEngine::TextCore::LowLevel {
   // [UsedByNativeCodeAttribute] Offset: EA5618
   struct GlyphPairAdjustmentRecord/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [NativeNameAttribute] Offset: 0xEA62E4
     // private UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord m_FirstAdjustmentRecord
     // Size: 0x14
@@ -43,6 +48,7 @@ namespace UnityEngine::TextCore::LowLevel {
     UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags m_FeatureLookupFlags;
     // Field size check
     static_assert(sizeof(UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags) == 0x4);
+    public:
     // Creating value type constructor for type: GlyphPairAdjustmentRecord
     constexpr GlyphPairAdjustmentRecord(UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord m_FirstAdjustmentRecord_ = {}, UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord m_SecondAdjustmentRecord_ = {}, UnityEngine::TextCore::LowLevel::FontFeatureLookupFlags m_FeatureLookupFlags_ = {}) noexcept : m_FirstAdjustmentRecord{m_FirstAdjustmentRecord_}, m_SecondAdjustmentRecord{m_SecondAdjustmentRecord_}, m_FeatureLookupFlags{m_FeatureLookupFlags_} {}
     // Creating interface conversion operator: operator System::ValueType

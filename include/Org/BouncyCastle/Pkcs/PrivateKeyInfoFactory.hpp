@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Asn1::Pkcs
@@ -25,10 +26,10 @@ namespace Org::BouncyCastle::Pkcs {
     public:
     // static public Org.BouncyCastle.Asn1.Pkcs.PrivateKeyInfo CreatePrivateKeyInfo(System.Char[] passPhrase, Org.BouncyCastle.Asn1.Pkcs.EncryptedPrivateKeyInfo encInfo)
     // Offset: 0x14C26BC
-    static Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* CreatePrivateKeyInfo(::ArrayWrapper<::Il2CppChar> passPhrase, Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* encInfo);
+    static Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* CreatePrivateKeyInfo(::ArrayW<::Il2CppChar> passPhrase, Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* encInfo);
     // static public Org.BouncyCastle.Asn1.Pkcs.PrivateKeyInfo CreatePrivateKeyInfo(System.Char[] passPhrase, System.Boolean wrongPkcs12Zero, Org.BouncyCastle.Asn1.Pkcs.EncryptedPrivateKeyInfo encInfo)
     // Offset: 0x14C26C8
-    static Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* CreatePrivateKeyInfo(::ArrayWrapper<::Il2CppChar> passPhrase, bool wrongPkcs12Zero, Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* encInfo);
+    static Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* CreatePrivateKeyInfo(::ArrayW<::Il2CppChar> passPhrase, bool wrongPkcs12Zero, Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* encInfo);
   }; // Org.BouncyCastle.Pkcs.PrivateKeyInfoFactory
   #pragma pack(pop)
 }
@@ -38,7 +39,7 @@ DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Pkcs::PrivateKeyInfoFactory*, "Org.Bou
 // Writing MetadataGetter for method: Org::BouncyCastle::Pkcs::PrivateKeyInfoFactory::CreatePrivateKeyInfo
 // Il2CppName: CreatePrivateKeyInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* (*)(::ArrayWrapper<::Il2CppChar>, Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo*)>(&Org::BouncyCastle::Pkcs::PrivateKeyInfoFactory::CreatePrivateKeyInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* (*)(::ArrayW<::Il2CppChar>, Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo*)>(&Org::BouncyCastle::Pkcs::PrivateKeyInfoFactory::CreatePrivateKeyInfo)> {
   static const MethodInfo* get() {
     static auto* passPhrase = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* encInfo = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Asn1.Pkcs", "EncryptedPrivateKeyInfo")->byval_arg;
@@ -48,7 +49,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Pkcs::PrivateKeyInfoFactory::CreatePrivateKeyInfo
 // Il2CppName: CreatePrivateKeyInfo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* (*)(::ArrayWrapper<::Il2CppChar>, bool, Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo*)>(&Org::BouncyCastle::Pkcs::PrivateKeyInfoFactory::CreatePrivateKeyInfo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* (*)(::ArrayW<::Il2CppChar>, bool, Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo*)>(&Org::BouncyCastle::Pkcs::PrivateKeyInfoFactory::CreatePrivateKeyInfo)> {
   static const MethodInfo* get() {
     static auto* passPhrase = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* wrongPkcs12Zero = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

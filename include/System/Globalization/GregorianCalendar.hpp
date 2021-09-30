@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Serialization
@@ -37,24 +38,30 @@ namespace System::Globalization {
   // [ComVisibleAttribute] Offset: E5E5DC
   class GregorianCalendar : public System::Globalization::Calendar {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Globalization.GregorianCalendarTypes m_type
     // Size: 0x4
     // Offset: 0x1C
     System::Globalization::GregorianCalendarTypes m_type;
     // Field size check
     static_assert(sizeof(System::Globalization::GregorianCalendarTypes) == 0x4);
+    public:
     // Creating conversion operator: operator System::Globalization::GregorianCalendarTypes
     constexpr operator System::Globalization::GregorianCalendarTypes() const noexcept {
       return m_type;
     }
     // Get static field: static readonly System.Int32[] DaysToMonth365
-    static ::ArrayWrapper<int> _get_DaysToMonth365();
+    static ::ArrayW<int> _get_DaysToMonth365();
     // Set static field: static readonly System.Int32[] DaysToMonth365
-    static void _set_DaysToMonth365(::ArrayWrapper<int> value);
+    static void _set_DaysToMonth365(::ArrayW<int> value);
     // Get static field: static readonly System.Int32[] DaysToMonth366
-    static ::ArrayWrapper<int> _get_DaysToMonth366();
+    static ::ArrayW<int> _get_DaysToMonth366();
     // Set static field: static readonly System.Int32[] DaysToMonth366
-    static void _set_DaysToMonth366(::ArrayWrapper<int> value);
+    static void _set_DaysToMonth366(::ArrayW<int> value);
     // Get static field: static private System.Globalization.Calendar s_defaultInstance
     static System::Globalization::Calendar* _get_s_defaultInstance();
     // Set static field: static private System.Globalization.Calendar s_defaultInstance
@@ -99,7 +106,7 @@ namespace System::Globalization {
     // Offset: 0x1BD3D94
     // Implemented from: System.Globalization.Calendar
     // Base method: System.Int32[] Calendar::get_Eras()
-    ::ArrayWrapper<int> get_Eras();
+    ::ArrayW<int> get_Eras();
     // public override System.Int32 get_TwoDigitYearMax()
     // Offset: 0x1BD4408
     // Implemented from: System.Globalization.Calendar
@@ -243,7 +250,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Globalization::GregorianCalendar::get_Eras
 // Il2CppName: get_Eras
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<int> (System::Globalization::GregorianCalendar::*)()>(&System::Globalization::GregorianCalendar::get_Eras)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int> (System::Globalization::GregorianCalendar::*)()>(&System::Globalization::GregorianCalendar::get_Eras)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::GregorianCalendar*), "get_Eras", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

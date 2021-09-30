@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections
@@ -52,6 +53,11 @@ namespace Org::BouncyCastle::Asn1::X509 {
   // [TokenAttribute] Offset: FFFFFFFF
   class X509Name : public Org::BouncyCastle::Asn1::Asn1Encodable {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Collections.IList ordering
     // Size: 0x8
     // Offset: 0x10
@@ -82,6 +88,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
     Org::BouncyCastle::Asn1::Asn1Sequence* seq;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::Asn1Sequence*) == 0x8);
+    public:
     // Get static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier C
     static Org::BouncyCastle::Asn1::DerObjectIdentifier* _get_C();
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier C
@@ -223,9 +230,9 @@ namespace Org::BouncyCastle::Asn1::X509 {
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerObjectIdentifier UID
     static void _set_UID(Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
     // Get static field: static private readonly System.Boolean[] defaultReverse
-    static ::ArrayWrapper<bool> _get_defaultReverse();
+    static ::ArrayW<bool> _get_defaultReverse();
     // Set static field: static private readonly System.Boolean[] defaultReverse
-    static void _set_defaultReverse(::ArrayWrapper<bool> value);
+    static void _set_defaultReverse(::ArrayW<bool> value);
     // Get static field: static public readonly System.Collections.Hashtable DefaultSymbols
     static System::Collections::Hashtable* _get_DefaultSymbols();
     // Set static field: static public readonly System.Collections.Hashtable DefaultSymbols

@@ -95,6 +95,11 @@ namespace System::Threading::Tasks {
       }
     }; // System.Threading.Tasks.UnwrapPromise`1/System.Threading.Tasks.<>c
     // Could not write size check! Type: System.Threading.Tasks.UnwrapPromise`1/System.Threading.Tasks.<>c is generic, or has no fields that are valid for size checks!
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Byte _state
     // Size: 0x1
     // Offset: 0x0
@@ -107,6 +112,7 @@ namespace System::Threading::Tasks {
     bool lookForOce;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator System::Threading::Tasks::ITaskCompletionAction
     operator System::Threading::Tasks::ITaskCompletionAction() noexcept {
       return *reinterpret_cast<System::Threading::Tasks::ITaskCompletionAction*>(this);

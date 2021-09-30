@@ -21,6 +21,11 @@ namespace System::Runtime::CompilerServices {
   // [AttributeUsageAttribute] Offset: E6063C
   class InternalsVisibleToAttribute : public System::Attribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String _assemblyName
     // Size: 0x8
     // Offset: 0x10
@@ -33,6 +38,7 @@ namespace System::Runtime::CompilerServices {
     bool allInternalsVisible;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private System.String _assemblyName
     ::Il2CppString*& dyn__assemblyName();
     // Get instance field reference: private System.Boolean _allInternalsVisible

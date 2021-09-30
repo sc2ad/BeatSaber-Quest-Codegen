@@ -24,6 +24,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GameServersFilter : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Boolean filterByDifficulty
     // Size: 0x1
     // Offset: 0x10
@@ -82,6 +87,7 @@ namespace GlobalNamespace {
     bool showInternetGames;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: public System.Boolean filterByDifficulty
     bool& dyn_filterByDifficulty();
     // Get instance field reference: public BeatmapDifficultyMask filteredDifficulty

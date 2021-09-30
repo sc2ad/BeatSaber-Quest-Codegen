@@ -44,6 +44,11 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct MultiplierValue/*, public System::ValueType*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public readonly System.Int32 multiplier
       // Size: 0x4
       // Offset: 0x0
@@ -56,6 +61,7 @@ namespace GlobalNamespace {
       float time;
       // Field size check
       static_assert(sizeof(float) == 0x4);
+      public:
       // Creating value type constructor for type: MultiplierValue
       constexpr MultiplierValue(int multiplier_ = {}, float time_ = {}) noexcept : multiplier{multiplier_}, time{time_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -73,6 +79,11 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(MultiplierValuesRecorder::MultiplierValue), 4 + sizeof(float)> __GlobalNamespace_MultiplierValuesRecorder_MultiplierValueSizeCheck;
     static_assert(sizeof(MultiplierValuesRecorder::MultiplierValue) == 0x8);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xF0A6BC
     // private IScoreController _scoreController
     // Size: 0x8
@@ -93,6 +104,7 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<GlobalNamespace::MultiplierValuesRecorder::MultiplierValue>* multiplierValues;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::MultiplierValuesRecorder::MultiplierValue>*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private IScoreController _scoreController

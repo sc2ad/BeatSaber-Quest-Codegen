@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO
@@ -40,6 +41,11 @@ namespace System::IO {
   // [ComVisibleAttribute] Offset: E5E2F4
   class StreamWriter : public System::IO::TextWriter {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.IO.Stream stream
     // Size: 0x8
     // Offset: 0x28
@@ -61,15 +67,15 @@ namespace System::IO {
     // private System.Byte[] byteBuffer
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayWrapper<uint8_t> byteBuffer;
+    ::ArrayW<uint8_t> byteBuffer;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Char[] charBuffer
     // Size: 0x8
     // Offset: 0x48
-    ::ArrayWrapper<::Il2CppChar> charBuffer;
+    ::ArrayW<::Il2CppChar> charBuffer;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppChar>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppChar>) == 0x8);
     // private System.Int32 charPos
     // Size: 0x4
     // Offset: 0x50
@@ -108,6 +114,7 @@ namespace System::IO {
     System::Threading::Tasks::Task* asyncWriteTask;
     // Field size check
     static_assert(sizeof(System::Threading::Tasks::Task*) == 0x8);
+    public:
     // Get static field: static public readonly System.IO.StreamWriter Null
     static System::IO::StreamWriter* _get_Null();
     // Set static field: static public readonly System.IO.StreamWriter Null
@@ -123,9 +130,9 @@ namespace System::IO {
     // Get instance field reference: private System.Text.Encoder encoder
     System::Text::Encoder*& dyn_encoder();
     // Get instance field reference: private System.Byte[] byteBuffer
-    ::ArrayWrapper<uint8_t>& dyn_byteBuffer();
+    ::ArrayW<uint8_t>& dyn_byteBuffer();
     // Get instance field reference: private System.Char[] charBuffer
-    ::ArrayWrapper<::Il2CppChar>& dyn_charBuffer();
+    ::ArrayW<::Il2CppChar>& dyn_charBuffer();
     // Get instance field reference: private System.Int32 charPos
     int& dyn_charPos();
     // Get instance field reference: private System.Int32 charLen
@@ -267,12 +274,12 @@ namespace System::IO {
     // Offset: 0x1AC67C4
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Write(System.Char[] buffer)
-    void Write(::ArrayWrapper<::Il2CppChar> buffer);
+    void Write(::ArrayW<::Il2CppChar> buffer);
     // public override System.Void Write(System.Char[] buffer, System.Int32 index, System.Int32 count)
     // Offset: 0x1AAF9AC
     // Implemented from: System.IO.TextWriter
     // Base method: System.Void TextWriter::Write(System.Char[] buffer, System.Int32 index, System.Int32 count)
-    void Write(::ArrayWrapper<::Il2CppChar> buffer, int index, int count);
+    void Write(::ArrayW<::Il2CppChar> buffer, int index, int count);
     // public override System.Void Write(System.String value)
     // Offset: 0x1AAFF18
     // Implemented from: System.IO.TextWriter
@@ -444,7 +451,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::IO::StreamWriter::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::StreamWriter::*)(::ArrayWrapper<::Il2CppChar>)>(&System::IO::StreamWriter::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::StreamWriter::*)(::ArrayW<::Il2CppChar>)>(&System::IO::StreamWriter::Write)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::IO::StreamWriter*), "Write", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{buffer});
@@ -453,7 +460,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::IO::StreamWriter::Write
 // Il2CppName: Write
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::StreamWriter::*)(::ArrayWrapper<::Il2CppChar>, int, int)>(&System::IO::StreamWriter::Write)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::StreamWriter::*)(::ArrayW<::Il2CppChar>, int, int)>(&System::IO::StreamWriter::Write)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

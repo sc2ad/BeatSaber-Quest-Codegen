@@ -27,6 +27,11 @@ namespace System::Runtime::InteropServices {
   // [TokenAttribute] Offset: FFFFFFFF
   class SafeHandle : public System::Runtime::ConstrainedExecution::CriticalFinalizerObject/*, public System::IDisposable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // protected System.IntPtr handle
     // Size: 0x8
     // Offset: 0x10
@@ -51,6 +56,7 @@ namespace System::Runtime::InteropServices {
     bool fullyInitialized;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

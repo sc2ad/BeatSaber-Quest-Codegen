@@ -50,6 +50,11 @@ namespace UnityEngine::ResourceManagement {
   // [TokenAttribute] Offset: FFFFFFFF
   class ResourceManager::InstanceOperation : public UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<UnityEngine::GameObject*> {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.GameObject> m_dependency
     // Size: 0xFFFFFFFF
     // Offset: 0x80
@@ -78,6 +83,7 @@ namespace UnityEngine::ResourceManagement {
     UnityEngine::SceneManagement::Scene m_scene;
     // Field size check
     static_assert(sizeof(UnityEngine::SceneManagement::Scene) == 0x4);
+    public:
     // Get instance field reference: private UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<UnityEngine.GameObject> m_dependency
     UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<UnityEngine::GameObject*>& dyn_m_dependency();
     // Get instance field reference: private UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters m_instantiationParams

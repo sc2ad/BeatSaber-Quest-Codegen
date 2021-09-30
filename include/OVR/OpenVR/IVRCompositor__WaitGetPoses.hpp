@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: OVR::OpenVR
@@ -48,10 +49,10 @@ namespace OVR::OpenVR {
     }
     // public OVR.OpenVR.EVRCompositorError Invoke(in OVR.OpenVR.TrackedDevicePose_t[] pRenderPoseArray, System.UInt32 unRenderPoseArrayCount, in OVR.OpenVR.TrackedDevicePose_t[] pGamePoseArray, System.UInt32 unGamePoseArrayCount)
     // Offset: 0x20EEECC
-    OVR::OpenVR::EVRCompositorError Invoke(ByRef<::ArrayWrapper<OVR::OpenVR::TrackedDevicePose_t>> pRenderPoseArray, uint unRenderPoseArrayCount, ByRef<::ArrayWrapper<OVR::OpenVR::TrackedDevicePose_t>> pGamePoseArray, uint unGamePoseArrayCount);
+    OVR::OpenVR::EVRCompositorError Invoke(ByRef<::ArrayW<OVR::OpenVR::TrackedDevicePose_t>> pRenderPoseArray, uint unRenderPoseArrayCount, ByRef<::ArrayW<OVR::OpenVR::TrackedDevicePose_t>> pGamePoseArray, uint unGamePoseArrayCount);
     // public System.IAsyncResult BeginInvoke(in OVR.OpenVR.TrackedDevicePose_t[] pRenderPoseArray, System.UInt32 unRenderPoseArrayCount, in OVR.OpenVR.TrackedDevicePose_t[] pGamePoseArray, System.UInt32 unGamePoseArrayCount, System.AsyncCallback callback, System.Object object)
     // Offset: 0x20EF178
-    System::IAsyncResult* BeginInvoke(ByRef<::ArrayWrapper<OVR::OpenVR::TrackedDevicePose_t>> pRenderPoseArray, uint unRenderPoseArrayCount, ByRef<::ArrayWrapper<OVR::OpenVR::TrackedDevicePose_t>> pGamePoseArray, uint unGamePoseArrayCount, System::AsyncCallback* callback, ::Il2CppObject* object);
+    System::IAsyncResult* BeginInvoke(ByRef<::ArrayW<OVR::OpenVR::TrackedDevicePose_t>> pRenderPoseArray, uint unRenderPoseArrayCount, ByRef<::ArrayW<OVR::OpenVR::TrackedDevicePose_t>> pGamePoseArray, uint unGamePoseArrayCount, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public OVR.OpenVR.EVRCompositorError EndInvoke(System.IAsyncResult result)
     // Offset: 0x20EF22C
     OVR::OpenVR::EVRCompositorError EndInvoke(System::IAsyncResult* result);
@@ -67,7 +68,7 @@ DEFINE_IL2CPP_ARG_TYPE(OVR::OpenVR::IVRCompositor::_WaitGetPoses*, "OVR.OpenVR",
 // Writing MetadataGetter for method: OVR::OpenVR::IVRCompositor::_WaitGetPoses::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRCompositorError (OVR::OpenVR::IVRCompositor::_WaitGetPoses::*)(ByRef<::ArrayWrapper<OVR::OpenVR::TrackedDevicePose_t>>, uint, ByRef<::ArrayWrapper<OVR::OpenVR::TrackedDevicePose_t>>, uint)>(&OVR::OpenVR::IVRCompositor::_WaitGetPoses::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR::EVRCompositorError (OVR::OpenVR::IVRCompositor::_WaitGetPoses::*)(ByRef<::ArrayW<OVR::OpenVR::TrackedDevicePose_t>>, uint, ByRef<::ArrayW<OVR::OpenVR::TrackedDevicePose_t>>, uint)>(&OVR::OpenVR::IVRCompositor::_WaitGetPoses::Invoke)> {
   static const MethodInfo* get() {
     static auto* pRenderPoseArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("OVR.OpenVR", "TrackedDevicePose_t"), 1)->this_arg;
     static auto* unRenderPoseArrayCount = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
@@ -79,7 +80,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<OVR::OpenVR
 // Writing MetadataGetter for method: OVR::OpenVR::IVRCompositor::_WaitGetPoses::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRCompositor::_WaitGetPoses::*)(ByRef<::ArrayWrapper<OVR::OpenVR::TrackedDevicePose_t>>, uint, ByRef<::ArrayWrapper<OVR::OpenVR::TrackedDevicePose_t>>, uint, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRCompositor::_WaitGetPoses::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (OVR::OpenVR::IVRCompositor::_WaitGetPoses::*)(ByRef<::ArrayW<OVR::OpenVR::TrackedDevicePose_t>>, uint, ByRef<::ArrayW<OVR::OpenVR::TrackedDevicePose_t>>, uint, System::AsyncCallback*, ::Il2CppObject*)>(&OVR::OpenVR::IVRCompositor::_WaitGetPoses::BeginInvoke)> {
   static const MethodInfo* get() {
     static auto* pRenderPoseArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("OVR.OpenVR", "TrackedDevicePose_t"), 1)->this_arg;
     static auto* unRenderPoseArrayCount = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;

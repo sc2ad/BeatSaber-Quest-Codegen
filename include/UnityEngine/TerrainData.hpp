@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -141,16 +142,16 @@ namespace UnityEngine {
     int get_detailResolutionPerPatch();
     // public System.Void set_detailPrototypes(UnityEngine.DetailPrototype[] value)
     // Offset: 0x25EB2AC
-    void set_detailPrototypes(::ArrayWrapper<UnityEngine::DetailPrototype*> value);
+    void set_detailPrototypes(::ArrayW<UnityEngine::DetailPrototype*> value);
     // public UnityEngine.TreeInstance[] get_treeInstances()
     // Offset: 0x25EB434
-    ::ArrayWrapper<UnityEngine::TreeInstance> get_treeInstances();
+    ::ArrayW<UnityEngine::TreeInstance> get_treeInstances();
     // public UnityEngine.TreePrototype[] get_treePrototypes()
     // Offset: 0x25EB50C
-    ::ArrayWrapper<UnityEngine::TreePrototype*> get_treePrototypes();
+    ::ArrayW<UnityEngine::TreePrototype*> get_treePrototypes();
     // public System.Void set_treePrototypes(UnityEngine.TreePrototype[] value)
     // Offset: 0x25EB54C
-    void set_treePrototypes(::ArrayWrapper<UnityEngine::TreePrototype*> value);
+    void set_treePrototypes(::ArrayW<UnityEngine::TreePrototype*> value);
     // public System.Int32 get_alphamapLayers()
     // Offset: 0x25EB59C
     int get_alphamapLayers();
@@ -174,13 +175,13 @@ namespace UnityEngine {
     int get_alphamapHeight();
     // public UnityEngine.TerrainLayer[] get_terrainLayers()
     // Offset: 0x25EBDF8
-    ::ArrayWrapper<UnityEngine::TerrainLayer*> get_terrainLayers();
+    ::ArrayW<UnityEngine::TerrainLayer*> get_terrainLayers();
     // public System.Void set_terrainLayers(UnityEngine.TerrainLayer[] value)
     // Offset: 0x25EBE38
-    void set_terrainLayers(::ArrayWrapper<UnityEngine::TerrainLayer*> value);
+    void set_terrainLayers(::ArrayW<UnityEngine::TerrainLayer*> value);
     // UnityEngine.Terrain[] get_users()
     // Offset: 0x25E76B0
-    ::ArrayWrapper<UnityEngine::Terrain*> get_users();
+    ::ArrayW<UnityEngine::Terrain*> get_users();
     // static private System.Int32 GetBoundaryValue(UnityEngine.TerrainData/UnityEngine.BoundaryValueType type)
     // Offset: 0x25EA374
     static int GetBoundaryValue(UnityEngine::TerrainData::BoundaryValueType type);
@@ -189,16 +190,16 @@ namespace UnityEngine {
     static void Internal_Create(UnityEngine::TerrainData* terrainData);
     // public System.Single[,] GetHeights(System.Int32 xBase, System.Int32 yBase, System.Int32 width, System.Int32 height)
     // Offset: 0x25EA808
-    ::ArrayWrapper<float> GetHeights(int xBase, int yBase, int width, int height);
+    ::ArrayW<float> GetHeights(int xBase, int yBase, int width, int height);
     // private System.Single[,] Internal_GetHeights(System.Int32 xBase, System.Int32 yBase, System.Int32 width, System.Int32 height)
     // Offset: 0x25EA954
-    ::ArrayWrapper<float> Internal_GetHeights(int xBase, int yBase, int width, int height);
+    ::ArrayW<float> Internal_GetHeights(int xBase, int yBase, int width, int height);
     // public System.Void SetHeights(System.Int32 xBase, System.Int32 yBase, System.Single[,] heights)
     // Offset: 0x25EA9C4
-    void SetHeights(int xBase, int yBase, ::ArrayWrapper<float> heights);
+    void SetHeights(int xBase, int yBase, ::ArrayW<float> heights);
     // private System.Void Internal_SetHeights(System.Int32 xBase, System.Int32 yBase, System.Int32 width, System.Int32 height, System.Single[,] heights)
     // Offset: 0x25EACF0
-    void Internal_SetHeights(int xBase, int yBase, int width, int height, ::ArrayWrapper<float> heights);
+    void Internal_SetHeights(int xBase, int yBase, int width, int height, ::ArrayW<float> heights);
     // public System.Void SetDetailResolution(System.Int32 detailResolution, System.Int32 resolutionPerPatch)
     // Offset: 0x25EAD70
     void SetDetailResolution(int detailResolution, int resolutionPerPatch);
@@ -210,31 +211,31 @@ namespace UnityEngine {
     void RefreshPrototypes();
     // public System.Void SetDetailLayer(System.Int32 xBase, System.Int32 yBase, System.Int32 layer, System.Int32[,] details)
     // Offset: 0x25EB2FC
-    void SetDetailLayer(int xBase, int yBase, int layer, ::ArrayWrapper<int> details);
+    void SetDetailLayer(int xBase, int yBase, int layer, ::ArrayW<int> details);
     // private System.Void Internal_SetDetailLayer(System.Int32 xBase, System.Int32 yBase, System.Int32 totalWidth, System.Int32 totalHeight, System.Int32 detailIndex, System.Int32[,] data)
     // Offset: 0x25EB3AC
-    void Internal_SetDetailLayer(int xBase, int yBase, int totalWidth, int totalHeight, int detailIndex, ::ArrayWrapper<int> data);
+    void Internal_SetDetailLayer(int xBase, int yBase, int totalWidth, int totalHeight, int detailIndex, ::ArrayW<int> data);
     // private UnityEngine.TreeInstance[] Internal_GetTreeInstances()
     // Offset: 0x25EB474
-    ::ArrayWrapper<UnityEngine::TreeInstance> Internal_GetTreeInstances();
+    ::ArrayW<UnityEngine::TreeInstance> Internal_GetTreeInstances();
     // public System.Void SetTreeInstances(UnityEngine.TreeInstance[] instances, System.Boolean snapToHeightmap)
     // Offset: 0x25EB4B4
-    void SetTreeInstances(::ArrayWrapper<UnityEngine::TreeInstance> instances, bool snapToHeightmap);
+    void SetTreeInstances(::ArrayW<UnityEngine::TreeInstance> instances, bool snapToHeightmap);
     // public System.Single[,,] GetAlphamaps(System.Int32 x, System.Int32 y, System.Int32 width, System.Int32 height)
     // Offset: 0x25EB5DC
-    ::ArrayWrapper<float> GetAlphamaps(int x, int y, int width, int height);
+    ::ArrayW<float> GetAlphamaps(int x, int y, int width, int height);
     // private System.Single[,,] Internal_GetAlphamaps(System.Int32 x, System.Int32 y, System.Int32 width, System.Int32 height)
     // Offset: 0x25EB6BC
-    ::ArrayWrapper<float> Internal_GetAlphamaps(int x, int y, int width, int height);
+    ::ArrayW<float> Internal_GetAlphamaps(int x, int y, int width, int height);
     // System.Single GetAlphamapResolutionInternal()
     // Offset: 0x25EBAF0
     float GetAlphamapResolutionInternal();
     // public System.Void SetAlphamaps(System.Int32 x, System.Int32 y, System.Single[,,] map)
     // Offset: 0x25EBBB0
-    void SetAlphamaps(int x, int y, ::ArrayWrapper<float> map);
+    void SetAlphamaps(int x, int y, ::ArrayW<float> map);
     // private System.Void Internal_SetAlphamaps(System.Int32 x, System.Int32 y, System.Int32 width, System.Int32 height, System.Single[,,] map)
     // Offset: 0x25EBD78
-    void Internal_SetAlphamaps(int x, int y, int width, int height, ::ArrayWrapper<float> map);
+    void Internal_SetAlphamaps(int x, int y, int width, int height, ::ArrayW<float> map);
     // private System.Void get_size_Injected(out UnityEngine.Vector3 ret)
     // Offset: 0x25EA710
     void get_size_Injected(ByRef<UnityEngine::Vector3> ret);
@@ -323,7 +324,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Writing MetadataGetter for method: UnityEngine::TerrainData::set_detailPrototypes
 // Il2CppName: set_detailPrototypes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TerrainData::*)(::ArrayWrapper<UnityEngine::DetailPrototype*>)>(&UnityEngine::TerrainData::set_detailPrototypes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TerrainData::*)(::ArrayW<UnityEngine::DetailPrototype*>)>(&UnityEngine::TerrainData::set_detailPrototypes)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "DetailPrototype"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TerrainData*), "set_detailPrototypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -332,7 +333,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::TerrainData::get_treeInstances
 // Il2CppName: get_treeInstances
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::TreeInstance> (UnityEngine::TerrainData::*)()>(&UnityEngine::TerrainData::get_treeInstances)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::TreeInstance> (UnityEngine::TerrainData::*)()>(&UnityEngine::TerrainData::get_treeInstances)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TerrainData*), "get_treeInstances", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -340,7 +341,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::TerrainData::get_treePrototypes
 // Il2CppName: get_treePrototypes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::TreePrototype*> (UnityEngine::TerrainData::*)()>(&UnityEngine::TerrainData::get_treePrototypes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::TreePrototype*> (UnityEngine::TerrainData::*)()>(&UnityEngine::TerrainData::get_treePrototypes)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TerrainData*), "get_treePrototypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -348,7 +349,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::TerrainData::set_treePrototypes
 // Il2CppName: set_treePrototypes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TerrainData::*)(::ArrayWrapper<UnityEngine::TreePrototype*>)>(&UnityEngine::TerrainData::set_treePrototypes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TerrainData::*)(::ArrayW<UnityEngine::TreePrototype*>)>(&UnityEngine::TerrainData::set_treePrototypes)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "TreePrototype"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TerrainData*), "set_treePrototypes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -415,7 +416,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (UnityE
 // Writing MetadataGetter for method: UnityEngine::TerrainData::get_terrainLayers
 // Il2CppName: get_terrainLayers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::TerrainLayer*> (UnityEngine::TerrainData::*)()>(&UnityEngine::TerrainData::get_terrainLayers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::TerrainLayer*> (UnityEngine::TerrainData::*)()>(&UnityEngine::TerrainData::get_terrainLayers)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TerrainData*), "get_terrainLayers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -423,7 +424,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::TerrainData::set_terrainLayers
 // Il2CppName: set_terrainLayers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TerrainData::*)(::ArrayWrapper<UnityEngine::TerrainLayer*>)>(&UnityEngine::TerrainData::set_terrainLayers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TerrainData::*)(::ArrayW<UnityEngine::TerrainLayer*>)>(&UnityEngine::TerrainData::set_terrainLayers)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "TerrainLayer"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TerrainData*), "set_terrainLayers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -432,7 +433,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::TerrainData::get_users
 // Il2CppName: get_users
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Terrain*> (UnityEngine::TerrainData::*)()>(&UnityEngine::TerrainData::get_users)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Terrain*> (UnityEngine::TerrainData::*)()>(&UnityEngine::TerrainData::get_users)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TerrainData*), "get_users", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -458,7 +459,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::TerrainData::GetHeights
 // Il2CppName: GetHeights
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<float> (UnityEngine::TerrainData::*)(int, int, int, int)>(&UnityEngine::TerrainData::GetHeights)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<float> (UnityEngine::TerrainData::*)(int, int, int, int)>(&UnityEngine::TerrainData::GetHeights)> {
   static const MethodInfo* get() {
     static auto* xBase = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* yBase = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -470,7 +471,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::TerrainData::Internal_GetHeights
 // Il2CppName: Internal_GetHeights
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<float> (UnityEngine::TerrainData::*)(int, int, int, int)>(&UnityEngine::TerrainData::Internal_GetHeights)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<float> (UnityEngine::TerrainData::*)(int, int, int, int)>(&UnityEngine::TerrainData::Internal_GetHeights)> {
   static const MethodInfo* get() {
     static auto* xBase = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* yBase = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -482,7 +483,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::TerrainData::SetHeights
 // Il2CppName: SetHeights
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TerrainData::*)(int, int, ::ArrayWrapper<float>)>(&UnityEngine::TerrainData::SetHeights)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TerrainData::*)(int, int, ::ArrayW<float>)>(&UnityEngine::TerrainData::SetHeights)> {
   static const MethodInfo* get() {
     static auto* xBase = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* yBase = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -493,7 +494,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::TerrainData::Internal_SetHeights
 // Il2CppName: Internal_SetHeights
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TerrainData::*)(int, int, int, int, ::ArrayWrapper<float>)>(&UnityEngine::TerrainData::Internal_SetHeights)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TerrainData::*)(int, int, int, int, ::ArrayW<float>)>(&UnityEngine::TerrainData::Internal_SetHeights)> {
   static const MethodInfo* get() {
     static auto* xBase = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* yBase = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -534,7 +535,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::TerrainData::SetDetailLayer
 // Il2CppName: SetDetailLayer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TerrainData::*)(int, int, int, ::ArrayWrapper<int>)>(&UnityEngine::TerrainData::SetDetailLayer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TerrainData::*)(int, int, int, ::ArrayW<int>)>(&UnityEngine::TerrainData::SetDetailLayer)> {
   static const MethodInfo* get() {
     static auto* xBase = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* yBase = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -546,7 +547,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::TerrainData::Internal_SetDetailLayer
 // Il2CppName: Internal_SetDetailLayer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TerrainData::*)(int, int, int, int, int, ::ArrayWrapper<int>)>(&UnityEngine::TerrainData::Internal_SetDetailLayer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TerrainData::*)(int, int, int, int, int, ::ArrayW<int>)>(&UnityEngine::TerrainData::Internal_SetDetailLayer)> {
   static const MethodInfo* get() {
     static auto* xBase = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* yBase = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -560,7 +561,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::TerrainData::Internal_GetTreeInstances
 // Il2CppName: Internal_GetTreeInstances
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::TreeInstance> (UnityEngine::TerrainData::*)()>(&UnityEngine::TerrainData::Internal_GetTreeInstances)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::TreeInstance> (UnityEngine::TerrainData::*)()>(&UnityEngine::TerrainData::Internal_GetTreeInstances)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::TerrainData*), "Internal_GetTreeInstances", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -568,7 +569,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::TerrainData::SetTreeInstances
 // Il2CppName: SetTreeInstances
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TerrainData::*)(::ArrayWrapper<UnityEngine::TreeInstance>, bool)>(&UnityEngine::TerrainData::SetTreeInstances)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TerrainData::*)(::ArrayW<UnityEngine::TreeInstance>, bool)>(&UnityEngine::TerrainData::SetTreeInstances)> {
   static const MethodInfo* get() {
     static auto* instances = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "TreeInstance"), 1)->byval_arg;
     static auto* snapToHeightmap = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -578,7 +579,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::TerrainData::GetAlphamaps
 // Il2CppName: GetAlphamaps
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<float> (UnityEngine::TerrainData::*)(int, int, int, int)>(&UnityEngine::TerrainData::GetAlphamaps)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<float> (UnityEngine::TerrainData::*)(int, int, int, int)>(&UnityEngine::TerrainData::GetAlphamaps)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* y = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -590,7 +591,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::TerrainData::Internal_GetAlphamaps
 // Il2CppName: Internal_GetAlphamaps
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<float> (UnityEngine::TerrainData::*)(int, int, int, int)>(&UnityEngine::TerrainData::Internal_GetAlphamaps)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<float> (UnityEngine::TerrainData::*)(int, int, int, int)>(&UnityEngine::TerrainData::Internal_GetAlphamaps)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* y = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -610,7 +611,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Unit
 // Writing MetadataGetter for method: UnityEngine::TerrainData::SetAlphamaps
 // Il2CppName: SetAlphamaps
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TerrainData::*)(int, int, ::ArrayWrapper<float>)>(&UnityEngine::TerrainData::SetAlphamaps)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TerrainData::*)(int, int, ::ArrayW<float>)>(&UnityEngine::TerrainData::SetAlphamaps)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* y = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -621,7 +622,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::TerrainData::Internal_SetAlphamaps
 // Il2CppName: Internal_SetAlphamaps
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TerrainData::*)(int, int, int, int, ::ArrayWrapper<float>)>(&UnityEngine::TerrainData::Internal_SetAlphamaps)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::TerrainData::*)(int, int, int, int, ::ArrayW<float>)>(&UnityEngine::TerrainData::Internal_SetAlphamaps)> {
   static const MethodInfo* get() {
     static auto* x = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* y = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

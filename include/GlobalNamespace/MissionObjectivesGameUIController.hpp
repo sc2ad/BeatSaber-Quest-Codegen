@@ -35,6 +35,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MissionObjectivesGameUIController : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private MissionObjectiveGameUIView _missionObjectiveGameUIViewPrefab
     // Size: 0x8
     // Offset: 0x18
@@ -66,6 +71,7 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<GlobalNamespace::MissionObjectiveGameUIView*>* missionObjectiveGameUIViews;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::MissionObjectiveGameUIView*>*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MissionObjectiveGameUIView _missionObjectiveGameUIViewPrefab

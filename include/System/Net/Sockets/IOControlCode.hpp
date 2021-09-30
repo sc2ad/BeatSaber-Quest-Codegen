@@ -16,12 +16,18 @@ namespace System::Net::Sockets {
   // [TokenAttribute] Offset: FFFFFFFF
   struct IOControlCode/*, public System::Enum*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int64 value__
     // Size: 0x8
     // Offset: 0x0
     int64_t value;
     // Field size check
     static_assert(sizeof(int64_t) == 0x8);
+    public:
     // Creating value type constructor for type: IOControlCode
     constexpr IOControlCode(int64_t value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum

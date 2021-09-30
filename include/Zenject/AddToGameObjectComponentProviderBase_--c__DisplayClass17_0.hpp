@@ -41,6 +41,11 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class AddToGameObjectComponentProviderBase::$$c__DisplayClass17_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public Zenject.AddToGameObjectComponentProviderBase <>4__this
     // Size: 0x8
     // Offset: 0x10
@@ -79,6 +84,7 @@ namespace Zenject {
     UnityEngine::GameObject* gameObj;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
+    public:
     // Get instance field reference: public Zenject.AddToGameObjectComponentProviderBase <>4__this
     Zenject::AddToGameObjectComponentProviderBase*& dyn_$$4__this();
     // Get instance field reference: public System.Collections.Generic.List`1<Zenject.TypeValuePair> args

@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Compatibility
@@ -50,7 +51,7 @@ namespace NUnit::Compatibility {
     static void _cctor();
     // static public System.Boolean ParametersMatch(System.Reflection.ParameterInfo[] pinfos, System.Type[] ptypes)
     // Offset: 0x1925878
-    static bool ParametersMatch(::ArrayWrapper<System::Reflection::ParameterInfo*> pinfos, ::ArrayWrapper<System::Type*> ptypes);
+    static bool ParametersMatch(::ArrayW<System::Reflection::ParameterInfo*> pinfos, ::ArrayW<System::Type*> ptypes);
     // static public System.Boolean IsCastableFrom(System.Type to, System.Type from)
     // Offset: 0x192598C
     static bool IsCastableFrom(System::Type* to, System::Type* from);
@@ -71,7 +72,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: NUnit::Compatibility::AdditionalTypeExtensions::ParametersMatch
 // Il2CppName: ParametersMatch
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayWrapper<System::Reflection::ParameterInfo*>, ::ArrayWrapper<System::Type*>)>(&NUnit::Compatibility::AdditionalTypeExtensions::ParametersMatch)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<System::Reflection::ParameterInfo*>, ::ArrayW<System::Type*>)>(&NUnit::Compatibility::AdditionalTypeExtensions::ParametersMatch)> {
   static const MethodInfo* get() {
     static auto* pinfos = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Reflection", "ParameterInfo"), 1)->byval_arg;
     static auto* ptypes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Type"), 1)->byval_arg;

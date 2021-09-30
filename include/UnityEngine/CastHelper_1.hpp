@@ -18,6 +18,11 @@ namespace UnityEngine {
   template<typename T>
   struct CastHelper_1/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public T t
     // Size: 0xFFFFFFFF
     // Offset: 0x0
@@ -28,6 +33,7 @@ namespace UnityEngine {
     System::IntPtr onePointerFurtherThanT;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
+    public:
     // Creating value type constructor for type: CastHelper_1
     constexpr CastHelper_1(T t_ = {}, System::IntPtr onePointerFurtherThanT_ = {}) noexcept : t{t_}, onePointerFurtherThanT{onePointerFurtherThanT_} {}
     // Creating interface conversion operator: operator System::ValueType

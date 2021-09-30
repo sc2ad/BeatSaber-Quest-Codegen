@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HoudiniEngineUnity
@@ -52,7 +53,7 @@ namespace HoudiniEngineUnity {
     class HEU_InputDataMesh;
     // static public System.Void GetUVsFromMesh(UnityEngine.Mesh mesh, UnityEngine.Vector2[] srcUVs, System.Collections.Generic.List`1<UnityEngine.Vector3> destUVs, System.Int32 index)
     // Offset: 0x151FF7C
-    static void GetUVsFromMesh(UnityEngine::Mesh* mesh, ::ArrayWrapper<UnityEngine::Vector2> srcUVs, System::Collections::Generic::List_1<UnityEngine::Vector3>* destUVs, int index);
+    static void GetUVsFromMesh(UnityEngine::Mesh* mesh, ::ArrayW<UnityEngine::Vector2> srcUVs, System::Collections::Generic::List_1<UnityEngine::Vector3>* destUVs, int index);
     // public System.Boolean UploadData(HoudiniEngineUnity.HEU_SessionBase session, System.Int32 inputNodeID, HoudiniEngineUnity.HEU_InputData inputData)
     // Offset: 0x151DC5C
     bool UploadData(HoudiniEngineUnity::HEU_SessionBase* session, int inputNodeID, HoudiniEngineUnity::HEU_InputData* inputData);
@@ -92,7 +93,7 @@ DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_InputInterfaceMesh*, "HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_InputInterfaceMesh::GetUVsFromMesh
 // Il2CppName: GetUVsFromMesh
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Mesh*, ::ArrayWrapper<UnityEngine::Vector2>, System::Collections::Generic::List_1<UnityEngine::Vector3>*, int)>(&HoudiniEngineUnity::HEU_InputInterfaceMesh::GetUVsFromMesh)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Mesh*, ::ArrayW<UnityEngine::Vector2>, System::Collections::Generic::List_1<UnityEngine::Vector3>*, int)>(&HoudiniEngineUnity::HEU_InputInterfaceMesh::GetUVsFromMesh)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->byval_arg;
     static auto* srcUVs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2"), 1)->byval_arg;

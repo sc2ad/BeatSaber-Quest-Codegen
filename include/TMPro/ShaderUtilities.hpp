@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -303,7 +304,7 @@ namespace TMPro {
     static float GetPadding(UnityEngine::Material* material, bool enableExtraPadding, bool isBold);
     // static public System.Single GetPadding(UnityEngine.Material[] materials, System.Boolean enableExtraPadding, System.Boolean isBold)
     // Offset: 0x11EE00C
-    static float GetPadding(::ArrayWrapper<UnityEngine::Material*> materials, bool enableExtraPadding, bool isBold);
+    static float GetPadding(::ArrayW<UnityEngine::Material*> materials, bool enableExtraPadding, bool isBold);
   }; // TMPro.ShaderUtilities
   #pragma pack(pop)
 }
@@ -383,7 +384,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(U
 // Writing MetadataGetter for method: TMPro::ShaderUtilities::GetPadding
 // Il2CppName: GetPadding
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(::ArrayWrapper<UnityEngine::Material*>, bool, bool)>(&TMPro::ShaderUtilities::GetPadding)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (*)(::ArrayW<UnityEngine::Material*>, bool, bool)>(&TMPro::ShaderUtilities::GetPadding)> {
   static const MethodInfo* get() {
     static auto* materials = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Material"), 1)->byval_arg;
     static auto* enableExtraPadding = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

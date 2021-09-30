@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -50,6 +51,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::FlickeringNeonSign::$FlickeringCoroutine$d__16
     class $FlickeringCoroutine$d__16;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.SpriteRenderer _flickeringSprite
     // Size: 0x8
     // Offset: 0x18
@@ -65,9 +71,9 @@ namespace GlobalNamespace {
     // private UnityEngine.ParticleSystem[] _particleSystems
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<UnityEngine::ParticleSystem*> particleSystems;
+    ::ArrayW<UnityEngine::ParticleSystem*> particleSystems;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::ParticleSystem*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::ParticleSystem*>) == 0x8);
     // private System.Single _minOnDelay
     // Size: 0x4
     // Offset: 0x30
@@ -119,15 +125,16 @@ namespace GlobalNamespace {
     // private UnityEngine.AudioClip[] _sparksAudioClips
     // Size: 0x8
     // Offset: 0x70
-    ::ArrayWrapper<UnityEngine::AudioClip*> sparksAudioClips;
+    ::ArrayW<UnityEngine::AudioClip*> sparksAudioClips;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::AudioClip*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::AudioClip*>) == 0x8);
     // private RandomObjectPicker`1<UnityEngine.AudioClip> _sparksAudioClipPicker
     // Size: 0x8
     // Offset: 0x78
     GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>* sparksAudioClipPicker;
     // Field size check
     static_assert(sizeof(GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.SpriteRenderer _flickeringSprite
@@ -135,7 +142,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private TubeBloomPrePassLight _light
     GlobalNamespace::TubeBloomPrePassLight*& dyn__light();
     // Get instance field reference: private UnityEngine.ParticleSystem[] _particleSystems
-    ::ArrayWrapper<UnityEngine::ParticleSystem*>& dyn__particleSystems();
+    ::ArrayW<UnityEngine::ParticleSystem*>& dyn__particleSystems();
     // Get instance field reference: private System.Single _minOnDelay
     float& dyn__minOnDelay();
     // Get instance field reference: private System.Single _maxOnDelay
@@ -153,7 +160,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.Material _offMaterial
     UnityEngine::Material*& dyn__offMaterial();
     // Get instance field reference: private UnityEngine.AudioClip[] _sparksAudioClips
-    ::ArrayWrapper<UnityEngine::AudioClip*>& dyn__sparksAudioClips();
+    ::ArrayW<UnityEngine::AudioClip*>& dyn__sparksAudioClips();
     // Get instance field reference: private RandomObjectPicker`1<UnityEngine.AudioClip> _sparksAudioClipPicker
     GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>*& dyn__sparksAudioClipPicker();
     // protected System.Void Awake()

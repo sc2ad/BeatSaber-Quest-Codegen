@@ -34,12 +34,18 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   class CVRSettings : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Valve.VR.IVRSettings FnTable
     // Size: 0x60
     // Offset: 0x10
     Valve::VR::IVRSettings FnTable;
     // Field size check
     static_assert(sizeof(Valve::VR::IVRSettings) == 0x60);
+    public:
     // Creating conversion operator: operator Valve::VR::IVRSettings
     constexpr operator Valve::VR::IVRSettings() const noexcept {
       return FnTable;

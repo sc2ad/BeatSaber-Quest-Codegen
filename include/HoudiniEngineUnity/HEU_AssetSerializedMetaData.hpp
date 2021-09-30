@@ -38,6 +38,11 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_AssetSerializedMetaData : public UnityEngine::ScriptableObject/*, public HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_AssetSerializedMetaData*>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean _softDeleted
     // Size: 0x1
     // Offset: 0x18
@@ -52,6 +57,7 @@ namespace HoudiniEngineUnity {
     System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Collections::Generic::List_1<HoudiniEngineUnity::CurveNodeData*>*>* savedCurveNodeData;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, System::Collections::Generic::List_1<HoudiniEngineUnity::CurveNodeData*>*>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_AssetSerializedMetaData*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_AssetSerializedMetaData*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_AssetSerializedMetaData*>*>(this);

@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Serialization
@@ -54,6 +55,11 @@ namespace System::Runtime::Serialization {
   // [ComVisibleAttribute] Offset: E5F75C
   class ObjectManager : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Runtime.Serialization.DeserializationEventHandler m_onDeserializationHandler
     // Size: 0x8
     // Offset: 0x10
@@ -69,9 +75,9 @@ namespace System::Runtime::Serialization {
     // System.Runtime.Serialization.ObjectHolder[] m_objects
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<System::Runtime::Serialization::ObjectHolder*> m_objects;
+    ::ArrayW<System::Runtime::Serialization::ObjectHolder*> m_objects;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<System::Runtime::Serialization::ObjectHolder*>) == 0x8);
+    static_assert(sizeof(::ArrayW<System::Runtime::Serialization::ObjectHolder*>) == 0x8);
     // System.Object m_topObject
     // Size: 0x8
     // Offset: 0x28
@@ -102,12 +108,13 @@ namespace System::Runtime::Serialization {
     System::Runtime::Serialization::StreamingContext m_context;
     // Field size check
     static_assert(sizeof(System::Runtime::Serialization::StreamingContext) == 0xC);
+    public:
     // Get instance field reference: private System.Runtime.Serialization.DeserializationEventHandler m_onDeserializationHandler
     System::Runtime::Serialization::DeserializationEventHandler*& dyn_m_onDeserializationHandler();
     // Get instance field reference: private System.Runtime.Serialization.SerializationEventHandler m_onDeserializedHandler
     System::Runtime::Serialization::SerializationEventHandler*& dyn_m_onDeserializedHandler();
     // Get instance field reference: System.Runtime.Serialization.ObjectHolder[] m_objects
-    ::ArrayWrapper<System::Runtime::Serialization::ObjectHolder*>& dyn_m_objects();
+    ::ArrayW<System::Runtime::Serialization::ObjectHolder*>& dyn_m_objects();
     // Get instance field reference: System.Object m_topObject
     ::Il2CppObject*& dyn_m_topObject();
     // Get instance field reference: System.Runtime.Serialization.ObjectHolderList m_specialFixupObjects
@@ -172,7 +179,7 @@ namespace System::Runtime::Serialization {
     void RegisterString(::Il2CppString* obj, int64_t objectID, System::Runtime::Serialization::SerializationInfo* info, int64_t idOfContainingObj, System::Reflection::MemberInfo* member);
     // public System.Void RegisterObject(System.Object obj, System.Int64 objectID, System.Runtime.Serialization.SerializationInfo info, System.Int64 idOfContainingObj, System.Reflection.MemberInfo member, System.Int32[] arrayIndex)
     // Offset: 0x1912CE4
-    void RegisterObject(::Il2CppObject* obj, int64_t objectID, System::Runtime::Serialization::SerializationInfo* info, int64_t idOfContainingObj, System::Reflection::MemberInfo* member, ::ArrayWrapper<int> arrayIndex);
+    void RegisterObject(::Il2CppObject* obj, int64_t objectID, System::Runtime::Serialization::SerializationInfo* info, int64_t idOfContainingObj, System::Reflection::MemberInfo* member, ::ArrayW<int> arrayIndex);
     // System.Void CompleteISerializableObject(System.Object obj, System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x1911EE0
     void CompleteISerializableObject(::Il2CppObject* obj, System::Runtime::Serialization::SerializationInfo* info, System::Runtime::Serialization::StreamingContext context);
@@ -193,7 +200,7 @@ namespace System::Runtime::Serialization {
     void RecordDelayedFixup(int64_t objectToBeFixed, ::Il2CppString* memberName, int64_t objectRequired);
     // public System.Void RecordArrayElementFixup(System.Int64 arrayToBeFixed, System.Int32[] indices, System.Int64 objectRequired)
     // Offset: 0x1913D30
-    void RecordArrayElementFixup(int64_t arrayToBeFixed, ::ArrayWrapper<int> indices, int64_t objectRequired);
+    void RecordArrayElementFixup(int64_t arrayToBeFixed, ::ArrayW<int> indices, int64_t objectRequired);
     // public System.Void RaiseDeserializationEvent()
     // Offset: 0x1913E84
     void RaiseDeserializationEvent();
@@ -366,7 +373,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Runtime::Serialization::ObjectManager::RegisterObject
 // Il2CppName: RegisterObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::ObjectManager::*)(::Il2CppObject*, int64_t, System::Runtime::Serialization::SerializationInfo*, int64_t, System::Reflection::MemberInfo*, ::ArrayWrapper<int>)>(&System::Runtime::Serialization::ObjectManager::RegisterObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::ObjectManager::*)(::Il2CppObject*, int64_t, System::Runtime::Serialization::SerializationInfo*, int64_t, System::Reflection::MemberInfo*, ::ArrayW<int>)>(&System::Runtime::Serialization::ObjectManager::RegisterObject)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* objectID = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
@@ -441,7 +448,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Runtime::Serialization::ObjectManager::RecordArrayElementFixup
 // Il2CppName: RecordArrayElementFixup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::ObjectManager::*)(int64_t, ::ArrayWrapper<int>, int64_t)>(&System::Runtime::Serialization::ObjectManager::RecordArrayElementFixup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::ObjectManager::*)(int64_t, ::ArrayW<int>, int64_t)>(&System::Runtime::Serialization::ObjectManager::RecordArrayElementFixup)> {
   static const MethodInfo* get() {
     static auto* arrayToBeFixed = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;
     static auto* indices = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;

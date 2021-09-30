@@ -31,6 +31,11 @@ namespace UnityEngine {
   // [NativeTypeAttribute] Offset: EA3858
   struct ParticleSystem::MinMaxGradient/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.ParticleSystemGradientMode m_Mode
     // Size: 0x4
     // Offset: 0x0
@@ -63,6 +68,7 @@ namespace UnityEngine {
     UnityEngine::Color m_ColorMax;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
+    public:
     // Creating value type constructor for type: MinMaxGradient
     constexpr MinMaxGradient(UnityEngine::ParticleSystemGradientMode m_Mode_ = {}, UnityEngine::Gradient* m_GradientMin_ = {}, UnityEngine::Gradient* m_GradientMax_ = {}, UnityEngine::Color m_ColorMin_ = {}, UnityEngine::Color m_ColorMax_ = {}) noexcept : m_Mode{m_Mode_}, m_GradientMin{m_GradientMin_}, m_GradientMax{m_GradientMax_}, m_ColorMin{m_ColorMin_}, m_ColorMax{m_ColorMax_} {}
     // Creating interface conversion operator: operator System::ValueType

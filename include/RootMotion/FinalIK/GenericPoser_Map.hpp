@@ -31,6 +31,11 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class GenericPoser::Map : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Transform bone
     // Size: 0x8
     // Offset: 0x10
@@ -55,6 +60,7 @@ namespace RootMotion::FinalIK {
     UnityEngine::Quaternion defaultLocalRotation;
     // Field size check
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
+    public:
     // Get instance field reference: public UnityEngine.Transform bone
     UnityEngine::Transform*& dyn_bone();
     // Get instance field reference: public UnityEngine.Transform target

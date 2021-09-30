@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -83,6 +84,11 @@ namespace GlobalNamespace {
     struct AlphaAnimationType;
     // Nested type: GlobalNamespace::LevelCollectionNavigationController::$$c__DisplayClass55_0
     class $$c__DisplayClass55_0;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private LoadingControl _loadingControl
     // Size: 0x8
     // Offset: 0x98
@@ -217,15 +223,16 @@ namespace GlobalNamespace {
     // private BeatmapCharacteristicSO[] _notAllowedCharacteristics
     // Size: 0x8
     // Offset: 0x128
-    ::ArrayWrapper<GlobalNamespace::BeatmapCharacteristicSO*> notAllowedCharacteristics;
+    ::ArrayW<GlobalNamespace::BeatmapCharacteristicSO*> notAllowedCharacteristics;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::BeatmapCharacteristicSO*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::BeatmapCharacteristicSO*>) == 0x8);
     // private Tweening.FloatTween _floatTween
     // Size: 0x8
     // Offset: 0x130
     Tweening::FloatTween* floatTween;
     // Field size check
     static_assert(sizeof(Tweening::FloatTween*) == 0x8);
+    public:
     // Get instance field reference: private LoadingControl _loadingControl
     GlobalNamespace::LoadingControl*& dyn__loadingControl();
     // Get instance field reference: private readonly LevelCollectionViewController _levelCollectionViewController
@@ -267,7 +274,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Boolean _hideDetailViewController
     bool& dyn__hideDetailViewController();
     // Get instance field reference: private BeatmapCharacteristicSO[] _notAllowedCharacteristics
-    ::ArrayWrapper<GlobalNamespace::BeatmapCharacteristicSO*>& dyn__notAllowedCharacteristics();
+    ::ArrayW<GlobalNamespace::BeatmapCharacteristicSO*>& dyn__notAllowedCharacteristics();
     // Get instance field reference: private Tweening.FloatTween _floatTween
     Tweening::FloatTween*& dyn__floatTween();
     // public IDifficultyBeatmap get_selectedDifficultyBeatmap()
@@ -314,7 +321,7 @@ namespace GlobalNamespace {
     void remove_didChangeDifficultyBeatmapEvent(System::Action_2<GlobalNamespace::LevelCollectionNavigationController*, GlobalNamespace::IDifficultyBeatmap*>* value);
     // public System.Void SetData(IAnnotatedBeatmapLevelCollection annotatedBeatmapLevelCollection, System.Boolean showPackHeader, System.Boolean showPlayerStats, System.Boolean showPracticeButton, System.String actionButtonText, UnityEngine.GameObject noDataInfoPrefab, BeatmapDifficultyMask allowedBeatmapDifficultyMask, BeatmapCharacteristicSO[] notAllowedCharacteristics)
     // Offset: 0x114CCD0
-    void SetData(GlobalNamespace::IAnnotatedBeatmapLevelCollection* annotatedBeatmapLevelCollection, bool showPackHeader, bool showPlayerStats, bool showPracticeButton, ::Il2CppString* actionButtonText, UnityEngine::GameObject* noDataInfoPrefab, GlobalNamespace::BeatmapDifficultyMask allowedBeatmapDifficultyMask, ::ArrayWrapper<GlobalNamespace::BeatmapCharacteristicSO*> notAllowedCharacteristics);
+    void SetData(GlobalNamespace::IAnnotatedBeatmapLevelCollection* annotatedBeatmapLevelCollection, bool showPackHeader, bool showPlayerStats, bool showPracticeButton, ::Il2CppString* actionButtonText, UnityEngine::GameObject* noDataInfoPrefab, GlobalNamespace::BeatmapDifficultyMask allowedBeatmapDifficultyMask, ::ArrayW<GlobalNamespace::BeatmapCharacteristicSO*> notAllowedCharacteristics);
     // public System.Void SelectLevel(IPreviewBeatmapLevel beatmapLevel)
     // Offset: 0x114D0DC
     void SelectLevel(GlobalNamespace::IPreviewBeatmapLevel* beatmapLevel);
@@ -541,7 +548,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::LevelCollectionNavigationController::SetData
 // Il2CppName: SetData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelCollectionNavigationController::*)(GlobalNamespace::IAnnotatedBeatmapLevelCollection*, bool, bool, bool, ::Il2CppString*, UnityEngine::GameObject*, GlobalNamespace::BeatmapDifficultyMask, ::ArrayWrapper<GlobalNamespace::BeatmapCharacteristicSO*>)>(&GlobalNamespace::LevelCollectionNavigationController::SetData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::LevelCollectionNavigationController::*)(GlobalNamespace::IAnnotatedBeatmapLevelCollection*, bool, bool, bool, ::Il2CppString*, UnityEngine::GameObject*, GlobalNamespace::BeatmapDifficultyMask, ::ArrayW<GlobalNamespace::BeatmapCharacteristicSO*>)>(&GlobalNamespace::LevelCollectionNavigationController::SetData)> {
   static const MethodInfo* get() {
     static auto* annotatedBeatmapLevelCollection = &::il2cpp_utils::GetClassFromName("", "IAnnotatedBeatmapLevelCollection")->byval_arg;
     static auto* showPackHeader = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

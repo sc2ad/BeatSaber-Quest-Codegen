@@ -44,12 +44,18 @@ namespace RootMotion::FinalIK {
     // [TokenAttribute] Offset: FFFFFFFF
     struct DOF/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: DOF
       constexpr DOF(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -78,6 +84,11 @@ namespace RootMotion::FinalIK {
     #pragma pack(pop)
     static check_size<sizeof(Finger::DOF), 0 + sizeof(int)> __RootMotion_FinalIK_Finger_DOFSizeCheck;
     static_assert(sizeof(Finger::DOF) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [TooltipAttribute] Offset: 0xEF19BC
     // [RangeAttribute] Offset: 0xEF19BC
     // public System.Single weight
@@ -195,6 +206,7 @@ namespace RootMotion::FinalIK {
     UnityEngine::Vector3 bone1TwistAxis;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    public:
     // Get instance field reference: public System.Single weight
     float& dyn_weight();
     // Get instance field reference: public System.Single rotationWeight

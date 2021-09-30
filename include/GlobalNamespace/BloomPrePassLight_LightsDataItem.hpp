@@ -33,6 +33,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BloomPrePassLight::LightsDataItem : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly BloomPrePassLightTypeSO lightType
     // Size: 0x8
     // Offset: 0x10
@@ -45,6 +50,7 @@ namespace GlobalNamespace {
     System::Collections::Generic::HashSet_1<GlobalNamespace::BloomPrePassLight*>* lights;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::HashSet_1<GlobalNamespace::BloomPrePassLight*>*) == 0x8);
+    public:
     // Get instance field reference: public readonly BloomPrePassLightTypeSO lightType
     GlobalNamespace::BloomPrePassLightTypeSO*& dyn_lightType();
     // Get instance field reference: public readonly System.Collections.Generic.HashSet`1<BloomPrePassLight> lights

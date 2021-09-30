@@ -51,10 +51,16 @@ namespace Zenject {
   template<typename TContract, typename TMemoryPool>
   class PoolableMemoryPoolProvider_2 : public Zenject::PoolableMemoryPoolProviderBase_1<TContract>/*, public Zenject::IValidatable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private TMemoryPool _pool
     // Size: 0xFFFFFFFF
     // Offset: 0x0
     TMemoryPool pool;
+    public:
     // Creating interface conversion operator: operator Zenject::IValidatable
     operator Zenject::IValidatable() noexcept {
       return *reinterpret_cast<Zenject::IValidatable*>(this);

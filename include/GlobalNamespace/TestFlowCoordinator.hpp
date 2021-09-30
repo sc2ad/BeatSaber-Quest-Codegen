@@ -26,6 +26,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class TestFlowCoordinator : public HMUI::FlowCoordinator {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [NullAllowed] Offset: 0xF0E724
     // private HMUI.ViewController _viewController
     // Size: 0x8
@@ -61,6 +66,7 @@ namespace GlobalNamespace {
     HMUI::ViewController* topScreenViewController;
     // Field size check
     static_assert(sizeof(HMUI::ViewController*) == 0x8);
+    public:
     // Get instance field reference: private HMUI.ViewController _viewController
     HMUI::ViewController*& dyn__viewController();
     // Get instance field reference: private HMUI.ViewController _leftViewController

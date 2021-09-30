@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -41,6 +42,11 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_LoadBufferVolume : public HoudiniEngineUnity::HEU_LoadBufferBase {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 _tileIndex
     // Size: 0x4
     // Offset: 0x30
@@ -70,15 +76,15 @@ namespace HoudiniEngineUnity {
     // public System.Single[,] _heightMap
     // Size: 0x8
     // Offset: 0x48
-    ::ArrayWrapper<float> heightMap;
+    ::ArrayW<float> heightMap;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<float>) == 0x8);
+    static_assert(sizeof(::ArrayW<float>) == 0x8);
     // public System.Single[,,] _splatMaps
     // Size: 0x8
     // Offset: 0x50
-    ::ArrayWrapper<float> splatMaps;
+    ::ArrayW<float> splatMaps;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<float>) == 0x8);
+    static_assert(sizeof(::ArrayW<float>) == 0x8);
     // public System.Single _terrainSizeX
     // Size: 0x4
     // Offset: 0x58
@@ -130,9 +136,9 @@ namespace HoudiniEngineUnity {
     // public System.Collections.Generic.List`1<System.Int32[,]> _detailMaps
     // Size: 0x8
     // Offset: 0x90
-    System::Collections::Generic::List_1<::ArrayWrapper<int>>* detailMaps;
+    System::Collections::Generic::List_1<::ArrayW<int>>* detailMaps;
     // Field size check
-    static_assert(sizeof(System::Collections::Generic::List_1<::ArrayWrapper<int>>*) == 0x8);
+    static_assert(sizeof(System::Collections::Generic::List_1<::ArrayW<int>>*) == 0x8);
     // public HoudiniEngineUnity.HEU_DetailProperties _detailProperties
     // Size: 0x8
     // Offset: 0x98
@@ -145,6 +151,7 @@ namespace HoudiniEngineUnity {
     ::Il2CppString* specifiedTerrainMaterialName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: public System.Int32 _tileIndex
     int& dyn__tileIndex();
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_LoadBufferVolumeLayer> _splatLayers
@@ -154,9 +161,9 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Int32 _heightMapHeight
     int& dyn__heightMapHeight();
     // Get instance field reference: public System.Single[,] _heightMap
-    ::ArrayWrapper<float>& dyn__heightMap();
+    ::ArrayW<float>& dyn__heightMap();
     // Get instance field reference: public System.Single[,,] _splatMaps
-    ::ArrayWrapper<float>& dyn__splatMaps();
+    ::ArrayW<float>& dyn__splatMaps();
     // Get instance field reference: public System.Single _terrainSizeX
     float& dyn__terrainSizeX();
     // Get instance field reference: public System.Single _terrainSizeY
@@ -174,7 +181,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_DetailPrototype> _detailPrototypes
     System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_DetailPrototype*>*& dyn__detailPrototypes();
     // Get instance field reference: public System.Collections.Generic.List`1<System.Int32[,]> _detailMaps
-    System::Collections::Generic::List_1<::ArrayWrapper<int>>*& dyn__detailMaps();
+    System::Collections::Generic::List_1<::ArrayW<int>>*& dyn__detailMaps();
     // Get instance field reference: public HoudiniEngineUnity.HEU_DetailProperties _detailProperties
     HoudiniEngineUnity::HEU_DetailProperties*& dyn__detailProperties();
     // Get instance field reference: public System.String _specifiedTerrainMaterialName

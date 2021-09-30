@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net
@@ -43,7 +44,7 @@ namespace System::Net {
     System::Net::Authorization* Authenticate(::Il2CppString* challenge, System::Net::WebRequest* webRequest, System::Net::ICredentials* credentials);
     // static private System.Byte[] GetBytes(System.String str)
     // Offset: 0x156E4F0
-    static ::ArrayWrapper<uint8_t> GetBytes(::Il2CppString* str);
+    static ::ArrayW<uint8_t> GetBytes(::Il2CppString* str);
     // static private System.Net.Authorization InternalAuthenticate(System.Net.WebRequest webRequest, System.Net.ICredentials credentials)
     // Offset: 0x156E190
     static System::Net::Authorization* InternalAuthenticate(System::Net::WebRequest* webRequest, System::Net::ICredentials* credentials);
@@ -86,7 +87,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Net
 // Writing MetadataGetter for method: System::Net::BasicClient::GetBytes
 // Il2CppName: GetBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(::Il2CppString*)>(&System::Net::BasicClient::GetBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(::Il2CppString*)>(&System::Net::BasicClient::GetBytes)> {
   static const MethodInfo* get() {
     static auto* str = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Net::BasicClient*), "GetBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{str});

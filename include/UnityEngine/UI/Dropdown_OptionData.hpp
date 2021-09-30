@@ -27,6 +27,11 @@ namespace UnityEngine::UI {
   // [TokenAttribute] Offset: FFFFFFFF
   class Dropdown::OptionData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String m_Text
     // Size: 0x8
     // Offset: 0x10
@@ -39,6 +44,7 @@ namespace UnityEngine::UI {
     UnityEngine::Sprite* m_Image;
     // Field size check
     static_assert(sizeof(UnityEngine::Sprite*) == 0x8);
+    public:
     // Get instance field reference: private System.String m_Text
     ::Il2CppString*& dyn_m_Text();
     // Get instance field reference: private UnityEngine.Sprite m_Image

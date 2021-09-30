@@ -52,12 +52,18 @@ namespace HoudiniEngineUnity {
     // [TokenAttribute] Offset: FFFFFFFF
     struct HEU_HandleType/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: HEU_HandleType
       constexpr HEU_HandleType(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -86,6 +92,11 @@ namespace HoudiniEngineUnity {
     #pragma pack(pop)
     static check_size<sizeof(HEU_Handle::HEU_HandleType), 0 + sizeof(int)> __HoudiniEngineUnity_HEU_Handle_HEU_HandleTypeSizeCheck;
     static_assert(sizeof(HEU_Handle::HEU_HandleType) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String _handleName
     // Size: 0x8
     // Offset: 0x18
@@ -158,6 +169,7 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::HAPI_TransformEuler convertedTransformEuler;
     // Field size check
     static_assert(sizeof(HoudiniEngineUnity::HAPI_TransformEuler) == 0x28);
+    public:
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_Handle*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_Handle*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_Handle*>*>(this);

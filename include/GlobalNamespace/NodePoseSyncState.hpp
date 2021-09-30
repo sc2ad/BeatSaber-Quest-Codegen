@@ -36,6 +36,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct NodePoseSyncState/*, public System::ValueType, public LiteNetLib::Utils::INetSerializable, public GlobalNamespace::IStateTable_3<GlobalNamespace::NodePoseSyncState, GlobalNamespace::NodePoseSyncState_NodePose, GlobalNamespace::PoseSerializable>, public GlobalNamespace::IEquatableByReference_1<GlobalNamespace::NodePoseSyncState>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private PoseSerializable _head
     // Size: 0x18
     // Offset: 0x0
@@ -54,6 +59,7 @@ namespace GlobalNamespace {
     GlobalNamespace::PoseSerializable rightController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PoseSerializable) == 0x18);
+    public:
     // Creating value type constructor for type: NodePoseSyncState
     constexpr NodePoseSyncState(GlobalNamespace::PoseSerializable head_ = {}, GlobalNamespace::PoseSerializable leftController_ = {}, GlobalNamespace::PoseSerializable rightController_ = {}) noexcept : head{head_}, leftController{leftController_}, rightController{rightController_} {}
     // Creating interface conversion operator: operator System::ValueType

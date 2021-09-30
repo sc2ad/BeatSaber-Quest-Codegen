@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -26,20 +27,26 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class AssetObjectListSO : public GlobalNamespace::PersistentScriptableObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [ReorderableAttribute] Offset: 0xF13594
     // private UnityEngine.Object[] _objects
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<UnityEngine::Object*> objects;
+    ::ArrayW<UnityEngine::Object*> objects;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Object*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Object*>) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Object[] _objects
-    ::ArrayWrapper<UnityEngine::Object*>& dyn__objects();
+    ::ArrayW<UnityEngine::Object*>& dyn__objects();
     // public UnityEngine.Object[] get_objects()
     // Offset: 0x1246EDC
-    ::ArrayWrapper<UnityEngine::Object*> get_objects();
+    ::ArrayW<UnityEngine::Object*> get_objects();
     // public System.Void .ctor()
     // Offset: 0x1246EE4
     // Implemented from: PersistentScriptableObject
@@ -54,7 +61,7 @@ namespace GlobalNamespace {
     }
   }; // AssetObjectListSO
   #pragma pack(pop)
-  static check_size<sizeof(AssetObjectListSO), 24 + sizeof(::ArrayWrapper<UnityEngine::Object*>)> __GlobalNamespace_AssetObjectListSOSizeCheck;
+  static check_size<sizeof(AssetObjectListSO), 24 + sizeof(::ArrayW<UnityEngine::Object*>)> __GlobalNamespace_AssetObjectListSOSizeCheck;
   static_assert(sizeof(AssetObjectListSO) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AssetObjectListSO*, "", "AssetObjectListSO");
@@ -62,7 +69,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AssetObjectListSO*, "", "AssetObjectList
 // Writing MetadataGetter for method: GlobalNamespace::AssetObjectListSO::get_objects
 // Il2CppName: get_objects
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Object*> (GlobalNamespace::AssetObjectListSO::*)()>(&GlobalNamespace::AssetObjectListSO::get_objects)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Object*> (GlobalNamespace::AssetObjectListSO::*)()>(&GlobalNamespace::AssetObjectListSO::get_objects)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::AssetObjectListSO*), "get_objects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

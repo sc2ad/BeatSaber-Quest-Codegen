@@ -30,6 +30,11 @@ namespace System::Text::RegularExpressions {
   // [TokenAttribute] Offset: FFFFFFFF
   class RegexFC : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Text.RegularExpressions.RegexCharClass _cc
     // Size: 0x8
     // Offset: 0x10
@@ -48,6 +53,7 @@ namespace System::Text::RegularExpressions {
     bool caseInsensitive;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: System.Text.RegularExpressions.RegexCharClass _cc
     System::Text::RegularExpressions::RegexCharClass*& dyn__cc();
     // Get instance field reference: System.Boolean _nullable

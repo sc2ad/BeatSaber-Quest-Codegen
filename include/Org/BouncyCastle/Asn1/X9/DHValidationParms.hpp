@@ -33,6 +33,11 @@ namespace Org::BouncyCastle::Asn1::X9 {
   // [TokenAttribute] Offset: FFFFFFFF
   class DHValidationParms : public Org::BouncyCastle::Asn1::Asn1Encodable {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Org.BouncyCastle.Asn1.DerBitString seed
     // Size: 0x8
     // Offset: 0x10
@@ -45,6 +50,7 @@ namespace Org::BouncyCastle::Asn1::X9 {
     Org::BouncyCastle::Asn1::DerInteger* pgenCounter;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::DerInteger*) == 0x8);
+    public:
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerBitString seed
     Org::BouncyCastle::Asn1::DerBitString*& dyn_seed();
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerInteger pgenCounter

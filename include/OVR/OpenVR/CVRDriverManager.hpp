@@ -29,12 +29,18 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   class CVRDriverManager : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private OVR.OpenVR.IVRDriverManager FnTable
     // Size: 0x18
     // Offset: 0x10
     OVR::OpenVR::IVRDriverManager FnTable;
     // Field size check
     static_assert(sizeof(OVR::OpenVR::IVRDriverManager) == 0x18);
+    public:
     // Creating conversion operator: operator OVR::OpenVR::IVRDriverManager
     constexpr operator OVR::OpenVR::IVRDriverManager() const noexcept {
       return FnTable;

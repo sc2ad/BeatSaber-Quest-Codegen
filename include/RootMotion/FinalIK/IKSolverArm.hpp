@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -31,6 +32,11 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class IKSolverArm : public RootMotion::FinalIK::IKSolver {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [RangeAttribute] Offset: 0xEF3184
     // public System.Single IKRotationWeight
     // Size: 0x4
@@ -93,15 +99,16 @@ namespace RootMotion::FinalIK {
     // private UnityEngine.Vector3[] positions
     // Size: 0x8
     // Offset: 0xA8
-    ::ArrayWrapper<UnityEngine::Vector3> positions;
+    ::ArrayW<UnityEngine::Vector3> positions;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector3>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Vector3>) == 0x8);
     // private UnityEngine.Quaternion[] rotations
     // Size: 0x8
     // Offset: 0xB0
-    ::ArrayWrapper<UnityEngine::Quaternion> rotations;
+    ::ArrayW<UnityEngine::Quaternion> rotations;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Quaternion>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Quaternion>) == 0x8);
+    public:
     // Get instance field reference: public System.Single IKRotationWeight
     float& dyn_IKRotationWeight();
     // Get instance field reference: public UnityEngine.Quaternion IKRotation
@@ -121,9 +128,9 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Arm arm
     RootMotion::FinalIK::IKSolverVR::Arm*& dyn_arm();
     // Get instance field reference: private UnityEngine.Vector3[] positions
-    ::ArrayWrapper<UnityEngine::Vector3>& dyn_positions();
+    ::ArrayW<UnityEngine::Vector3>& dyn_positions();
     // Get instance field reference: private UnityEngine.Quaternion[] rotations
-    ::ArrayWrapper<UnityEngine::Quaternion>& dyn_rotations();
+    ::ArrayW<UnityEngine::Quaternion>& dyn_rotations();
     // public System.Boolean SetChain(UnityEngine.Transform chest, UnityEngine.Transform shoulder, UnityEngine.Transform upperArm, UnityEngine.Transform forearm, UnityEngine.Transform hand, UnityEngine.Transform root)
     // Offset: 0x1E5D270
     bool SetChain(UnityEngine::Transform* chest, UnityEngine::Transform* shoulder, UnityEngine::Transform* upperArm, UnityEngine::Transform* forearm, UnityEngine::Transform* hand, UnityEngine::Transform* root);
@@ -155,7 +162,7 @@ namespace RootMotion::FinalIK {
     // Offset: 0x1E5D2E0
     // Implemented from: RootMotion.FinalIK.IKSolver
     // Base method: RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point[] IKSolver::GetPoints()
-    ::ArrayWrapper<RootMotion::FinalIK::IKSolver::Point*> GetPoints();
+    ::ArrayW<RootMotion::FinalIK::IKSolver::Point*> GetPoints();
     // public override RootMotion.FinalIK.IKSolver/RootMotion.FinalIK.Point GetPoint(UnityEngine.Transform transform)
     // Offset: 0x1E5D43C
     // Implemented from: RootMotion.FinalIK.IKSolver
@@ -183,7 +190,7 @@ namespace RootMotion::FinalIK {
     void OnUpdate();
   }; // RootMotion.FinalIK.IKSolverArm
   #pragma pack(pop)
-  static check_size<sizeof(IKSolverArm), 176 + sizeof(::ArrayWrapper<UnityEngine::Quaternion>)> __RootMotion_FinalIK_IKSolverArmSizeCheck;
+  static check_size<sizeof(IKSolverArm), 176 + sizeof(::ArrayW<UnityEngine::Quaternion>)> __RootMotion_FinalIK_IKSolverArmSizeCheck;
   static_assert(sizeof(IKSolverArm) == 0xB8);
 }
 DEFINE_IL2CPP_ARG_TYPE(RootMotion::FinalIK::IKSolverArm*, "RootMotion.FinalIK", "IKSolverArm");
@@ -242,7 +249,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverArm::GetPoints
 // Il2CppName: GetPoints
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<RootMotion::FinalIK::IKSolver::Point*> (RootMotion::FinalIK::IKSolverArm::*)()>(&RootMotion::FinalIK::IKSolverArm::GetPoints)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<RootMotion::FinalIK::IKSolver::Point*> (RootMotion::FinalIK::IKSolverArm::*)()>(&RootMotion::FinalIK::IKSolverArm::GetPoints)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(RootMotion::FinalIK::IKSolverArm*), "GetPoints", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

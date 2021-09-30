@@ -37,6 +37,11 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct AverageValueData/*, public System::ValueType*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // private System.Single <value>k__BackingField
       // Size: 0x4
       // Offset: 0x0
@@ -49,6 +54,7 @@ namespace GlobalNamespace {
       float time;
       // Field size check
       static_assert(sizeof(float) == 0x4);
+      public:
       // Creating value type constructor for type: AverageValueData
       constexpr AverageValueData(float value_ = {}, float time_ = {}) noexcept : value{value_}, time{time_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -78,6 +84,11 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(AveragingValueRecorder::AverageValueData), 4 + sizeof(float)> __GlobalNamespace_AveragingValueRecorder_AverageValueDataSizeCheck;
     static_assert(sizeof(AveragingValueRecorder::AverageValueData) == 0x8);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Single _averageWindowDuration
     // Size: 0x4
     // Offset: 0x10
@@ -140,6 +151,7 @@ namespace GlobalNamespace {
     float lastValue;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: private System.Single _averageWindowDuration
     float& dyn__averageWindowDuration();
     // Get instance field reference: private System.Single _historyValuesPerSecond

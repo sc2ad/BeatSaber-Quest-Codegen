@@ -61,12 +61,18 @@ namespace UnityEngine::UI {
     // [TokenAttribute] Offset: FFFFFFFF
     struct ToggleTransition/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: ToggleTransition
       constexpr ToggleTransition(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -95,6 +101,11 @@ namespace UnityEngine::UI {
     #pragma pack(pop)
     static check_size<sizeof(Toggle::ToggleTransition), 0 + sizeof(int)> __UnityEngine_UI_Toggle_ToggleTransitionSizeCheck;
     static_assert(sizeof(Toggle::ToggleTransition) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.UI.Toggle/UnityEngine.UI.ToggleTransition toggleTransition
     // Size: 0x4
     // Offset: 0xF8
@@ -128,6 +139,7 @@ namespace UnityEngine::UI {
     bool m_IsOn;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator UnityEngine::EventSystems::IPointerClickHandler
     operator UnityEngine::EventSystems::IPointerClickHandler() noexcept {
       return *reinterpret_cast<UnityEngine::EventSystems::IPointerClickHandler*>(this);

@@ -62,12 +62,18 @@ namespace MasterServer {
     // [TokenAttribute] Offset: FFFFFFFF
     struct Result/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Byte value__
       // Size: 0x1
       // Offset: 0x0
       uint8_t value;
       // Field size check
       static_assert(sizeof(uint8_t) == 0x1);
+      public:
       // Creating value type constructor for type: Result
       constexpr Result(uint8_t value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -96,6 +102,11 @@ namespace MasterServer {
     #pragma pack(pop)
     static check_size<sizeof(GetPublicServersResponse::Result), 0 + sizeof(uint8_t)> __MasterServer_GetPublicServersResponse_ResultSizeCheck;
     static_assert(sizeof(GetPublicServersResponse::Result) == 0x1);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public MasterServer.GetPublicServersResponse/MasterServer.Result result
     // Size: 0x1
     // Offset: 0x18
@@ -110,6 +121,7 @@ namespace MasterServer {
     System::Collections::Generic::List_1<GlobalNamespace::PublicServerInfo>* publicServers;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::PublicServerInfo>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator MasterServer::IUserServerToClientMessage
     operator MasterServer::IUserServerToClientMessage() noexcept {
       return *reinterpret_cast<MasterServer::IUserServerToClientMessage*>(this);

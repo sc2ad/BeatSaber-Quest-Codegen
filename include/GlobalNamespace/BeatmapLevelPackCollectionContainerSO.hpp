@@ -27,12 +27,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BeatmapLevelPackCollectionContainerSO : public GlobalNamespace::PersistentScriptableObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private BeatmapLevelPackCollectionSO _beatmapLevelPackCollection
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::BeatmapLevelPackCollectionSO* beatmapLevelPackCollection;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapLevelPackCollectionSO*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BeatmapLevelPackCollectionSO _beatmapLevelPackCollection

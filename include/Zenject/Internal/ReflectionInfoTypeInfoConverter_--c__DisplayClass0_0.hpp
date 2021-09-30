@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection
@@ -28,12 +29,18 @@ namespace Zenject::Internal {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class ReflectionInfoTypeInfoConverter::$$c__DisplayClass0_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Reflection.MethodInfo methodInfo
     // Size: 0x8
     // Offset: 0x10
     System::Reflection::MethodInfo* methodInfo;
     // Field size check
     static_assert(sizeof(System::Reflection::MethodInfo*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Reflection::MethodInfo*
     constexpr operator System::Reflection::MethodInfo*() const noexcept {
       return methodInfo;
@@ -42,7 +49,7 @@ namespace Zenject::Internal {
     System::Reflection::MethodInfo*& dyn_methodInfo();
     // System.Void <ConvertMethod>b__0(System.Object obj, System.Object[] args)
     // Offset: 0x1835E30
-    void $ConvertMethod$b__0(::Il2CppObject* obj, ::ArrayWrapper<::Il2CppObject*> args);
+    void $ConvertMethod$b__0(::Il2CppObject* obj, ::ArrayW<::Il2CppObject*> args);
     // public System.Void .ctor()
     // Offset: 0x1835304
     // Implemented from: System.Object
@@ -62,7 +69,7 @@ DEFINE_IL2CPP_ARG_TYPE(Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c__
 // Writing MetadataGetter for method: Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c__DisplayClass0_0::$ConvertMethod$b__0
 // Il2CppName: <ConvertMethod>b__0
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c__DisplayClass0_0::*)(::Il2CppObject*, ::ArrayWrapper<::Il2CppObject*>)>(&Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c__DisplayClass0_0::$ConvertMethod$b__0)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c__DisplayClass0_0::*)(::Il2CppObject*, ::ArrayW<::Il2CppObject*>)>(&Zenject::Internal::ReflectionInfoTypeInfoConverter::$$c__DisplayClass0_0::$ConvertMethod$b__0)> {
   static const MethodInfo* get() {
     static auto* obj = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;

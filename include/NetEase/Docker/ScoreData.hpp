@@ -20,6 +20,11 @@ namespace NetEase::Docker {
   // [TokenAttribute] Offset: FFFFFFFF
   struct ScoreData/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [DebuggerBrowsableAttribute] Offset: 0xEEDEC4
     // private System.String <Name>k__BackingField
     // Size: 0x8
@@ -43,6 +48,7 @@ namespace NetEase::Docker {
     int64_t TimeStamp;
     // Field size check
     static_assert(sizeof(int64_t) == 0x8);
+    public:
     // Creating value type constructor for type: ScoreData
     constexpr ScoreData(::Il2CppString* Name_ = {}, int Score_ = {}, int64_t TimeStamp_ = {}) noexcept : Name{Name_}, Score{Score_}, TimeStamp{TimeStamp_} {}
     // Creating interface conversion operator: operator System::ValueType

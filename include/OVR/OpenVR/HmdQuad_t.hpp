@@ -18,6 +18,11 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HmdQuad_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public OVR.OpenVR.HmdVector3_t vCorners0
     // Size: 0xC
     // Offset: 0x0
@@ -42,6 +47,7 @@ namespace OVR::OpenVR {
     OVR::OpenVR::HmdVector3_t vCorners3;
     // Field size check
     static_assert(sizeof(OVR::OpenVR::HmdVector3_t) == 0xC);
+    public:
     // Creating value type constructor for type: HmdQuad_t
     constexpr HmdQuad_t(OVR::OpenVR::HmdVector3_t vCorners0_ = {}, OVR::OpenVR::HmdVector3_t vCorners1_ = {}, OVR::OpenVR::HmdVector3_t vCorners2_ = {}, OVR::OpenVR::HmdVector3_t vCorners3_ = {}) noexcept : vCorners0{vCorners0_}, vCorners1{vCorners1_}, vCorners2{vCorners2_}, vCorners3{vCorners3_} {}
     // Creating interface conversion operator: operator System::ValueType

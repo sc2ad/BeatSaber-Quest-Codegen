@@ -63,6 +63,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PracticeViewController : public HMUI::ViewController {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private HMUI.TimeSlider _songStartSlider
     // Size: 0x8
     // Offset: 0x70
@@ -151,6 +156,7 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatmapDifficulty beatmapDifficulty;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapDifficulty) == 0x4);
+    public:
     // static field const value: static private System.Single kWaitBeforePlayPreviewAfterPreviewStartValueChanged
     static constexpr const float kWaitBeforePlayPreviewAfterPreviewStartValueChanged = 1;
     // Get static field: static private System.Single kWaitBeforePlayPreviewAfterPreviewStartValueChanged

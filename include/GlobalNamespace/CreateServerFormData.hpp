@@ -29,6 +29,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct CreateServerFormData/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Boolean usePassword
     // Size: 0x1
     // Offset: 0x0
@@ -101,6 +106,7 @@ namespace GlobalNamespace {
     GlobalNamespace::GameplayServerControlSettings gameplayServerControlSettings;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayServerControlSettings) == 0x4);
+    public:
     // Creating value type constructor for type: CreateServerFormData
     constexpr CreateServerFormData(bool usePassword_ = {}, ::Il2CppString* password_ = {}, int maxPlayers_ = {}, bool allowInviteOthers_ = {}, bool netDiscoverable_ = {}, GlobalNamespace::BeatmapDifficultyMask difficulties_ = {}, GlobalNamespace::GameplayModifierMask modifiers_ = {}, GlobalNamespace::SongPackMask songPacks_ = {}, GlobalNamespace::GameplayServerMode gameplayServerMode_ = {}, GlobalNamespace::SongSelectionMode songSelectionMode_ = {}, GlobalNamespace::GameplayServerControlSettings gameplayServerControlSettings_ = {}) noexcept : usePassword{usePassword_}, password{password_}, maxPlayers{maxPlayers_}, allowInviteOthers{allowInviteOthers_}, netDiscoverable{netDiscoverable_}, difficulties{difficulties_}, modifiers{modifiers_}, songPacks{songPacks_}, gameplayServerMode{gameplayServerMode_}, songSelectionMode{songSelectionMode_}, gameplayServerControlSettings{gameplayServerControlSettings_} {}
     // Creating interface conversion operator: operator System::ValueType

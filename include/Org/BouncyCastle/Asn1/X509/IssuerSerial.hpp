@@ -40,6 +40,11 @@ namespace Org::BouncyCastle::Asn1::X509 {
   // [TokenAttribute] Offset: FFFFFFFF
   class IssuerSerial : public Org::BouncyCastle::Asn1::Asn1Encodable {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // readonly Org.BouncyCastle.Asn1.X509.GeneralNames issuer
     // Size: 0x8
     // Offset: 0x10
@@ -58,6 +63,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
     Org::BouncyCastle::Asn1::DerBitString* issuerUid;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::DerBitString*) == 0x8);
+    public:
     // Get instance field reference: readonly Org.BouncyCastle.Asn1.X509.GeneralNames issuer
     Org::BouncyCastle::Asn1::X509::GeneralNames*& dyn_issuer();
     // Get instance field reference: readonly Org.BouncyCastle.Asn1.DerInteger serial

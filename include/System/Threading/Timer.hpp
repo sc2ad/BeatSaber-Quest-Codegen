@@ -38,6 +38,11 @@ namespace System::Threading {
     class TimerComparer;
     // Nested type: System::Threading::Timer::Scheduler
     class Scheduler;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Threading.TimerCallback callback
     // Size: 0x8
     // Offset: 0x18
@@ -74,6 +79,7 @@ namespace System::Threading {
     bool disposed;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

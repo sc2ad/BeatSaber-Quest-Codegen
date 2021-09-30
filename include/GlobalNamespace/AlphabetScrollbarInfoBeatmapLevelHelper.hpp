@@ -9,6 +9,7 @@
 #include "System/Char.hpp"
 // Including type: AlphabetScrollInfo
 #include "GlobalNamespace/AlphabetScrollInfo.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -52,7 +53,7 @@ namespace GlobalNamespace {
     static void _set_kMaxCharactersCount(int value);
     // static public AlphabetScrollInfo/Data[] CreateData(IPreviewBeatmapLevel[] previewBeatmapLevels, out IPreviewBeatmapLevel[] sortedPreviewBeatmapLevels)
     // Offset: 0x1240D28
-    static ::ArrayWrapper<GlobalNamespace::AlphabetScrollInfo::Data*> CreateData(::ArrayWrapper<GlobalNamespace::IPreviewBeatmapLevel*> previewBeatmapLevels, ByRef<::ArrayWrapper<GlobalNamespace::IPreviewBeatmapLevel*>> sortedPreviewBeatmapLevels);
+    static ::ArrayW<GlobalNamespace::AlphabetScrollInfo::Data*> CreateData(::ArrayW<GlobalNamespace::IPreviewBeatmapLevel*> previewBeatmapLevels, ByRef<::ArrayW<GlobalNamespace::IPreviewBeatmapLevel*>> sortedPreviewBeatmapLevels);
   }; // AlphabetScrollbarInfoBeatmapLevelHelper
   #pragma pack(pop)
 }
@@ -62,7 +63,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper*
 // Writing MetadataGetter for method: GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper::CreateData
 // Il2CppName: CreateData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::AlphabetScrollInfo::Data*> (*)(::ArrayWrapper<GlobalNamespace::IPreviewBeatmapLevel*>, ByRef<::ArrayWrapper<GlobalNamespace::IPreviewBeatmapLevel*>>)>(&GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper::CreateData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<GlobalNamespace::AlphabetScrollInfo::Data*> (*)(::ArrayW<GlobalNamespace::IPreviewBeatmapLevel*>, ByRef<::ArrayW<GlobalNamespace::IPreviewBeatmapLevel*>>)>(&GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper::CreateData)> {
   static const MethodInfo* get() {
     static auto* previewBeatmapLevels = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "IPreviewBeatmapLevel"), 1)->byval_arg;
     static auto* sortedPreviewBeatmapLevels = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "IPreviewBeatmapLevel"), 1)->this_arg;

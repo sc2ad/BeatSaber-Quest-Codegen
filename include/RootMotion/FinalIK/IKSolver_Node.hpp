@@ -29,6 +29,11 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class IKSolver::Node : public RootMotion::FinalIK::IKSolver::Point {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Single length
     // Size: 0x4
     // Offset: 0x54
@@ -53,6 +58,7 @@ namespace RootMotion::FinalIK {
     UnityEngine::Vector3 offset;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    public:
     // Get instance field reference: public System.Single length
     float& dyn_length();
     // Get instance field reference: public System.Single effectorPositionWeight

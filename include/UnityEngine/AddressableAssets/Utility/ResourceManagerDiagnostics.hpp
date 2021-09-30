@@ -39,6 +39,11 @@ namespace UnityEngine::AddressableAssets::Utility {
   // [TokenAttribute] Offset: FFFFFFFF
   class ResourceManagerDiagnostics : public ::Il2CppObject/*, public System::IDisposable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.ResourceManagement.ResourceManager m_ResourceManager
     // Size: 0x8
     // Offset: 0x10
@@ -51,6 +56,7 @@ namespace UnityEngine::AddressableAssets::Utility {
     System::Collections::Generic::Dictionary_2<int, UnityEngine::AddressableAssets::Utility::DiagnosticInfo*>* m_cachedDiagnosticInfo;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<int, UnityEngine::AddressableAssets::Utility::DiagnosticInfo*>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

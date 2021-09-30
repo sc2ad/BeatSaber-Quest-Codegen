@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -43,6 +44,11 @@ namespace GlobalNamespace {
     struct ResizeType;
     // Nested type: GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeData
     class ResizeData;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Transform _platformEnd
     // Size: 0x8
     // Offset: 0x18
@@ -52,9 +58,9 @@ namespace GlobalNamespace {
     // private MultiplayerEnvironmentResizeController/ResizeData[] _resizeData
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeData*> resizeData;
+    ::ArrayW<GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeData*> resizeData;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeData*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeData*>) == 0x8);
     // [InjectAttribute] Offset: 0xF093D8
     // private readonly MultiplayerCenterResizeController _centerResizeController
     // Size: 0x8
@@ -93,12 +99,13 @@ namespace GlobalNamespace {
     bool spawnCenterDistanceFound;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Transform _platformEnd
     UnityEngine::Transform*& dyn__platformEnd();
     // Get instance field reference: private MultiplayerEnvironmentResizeController/ResizeData[] _resizeData
-    ::ArrayWrapper<GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeData*>& dyn__resizeData();
+    ::ArrayW<GlobalNamespace::MultiplayerEnvironmentResizeController::ResizeData*>& dyn__resizeData();
     // Get instance field reference: private readonly MultiplayerCenterResizeController _centerResizeController
     GlobalNamespace::MultiplayerCenterResizeController*& dyn__centerResizeController();
     // Get instance field reference: private readonly BeatmapObjectSpawnCenter _beatmapObjectSpawnCenter

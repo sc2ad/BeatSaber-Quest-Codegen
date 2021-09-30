@@ -22,12 +22,18 @@ namespace System::Runtime::InteropServices {
   // [ComVisibleAttribute] Offset: E609B4
   class GuidAttribute : public System::Attribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.String _val
     // Size: 0x8
     // Offset: 0x10
     ::Il2CppString* val;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return val;

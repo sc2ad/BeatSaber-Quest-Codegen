@@ -7,6 +7,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: System.Xml
 namespace System::Xml {
@@ -17,20 +18,26 @@ namespace System::Xml {
   // [TokenAttribute] Offset: FFFFFFFF
   struct XmlCharType/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Byte[] charProperties
     // Size: 0x8
     // Offset: 0x0
-    ::ArrayWrapper<uint8_t> charProperties;
+    ::ArrayW<uint8_t> charProperties;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
+    public:
     // Creating value type constructor for type: XmlCharType
-    constexpr XmlCharType(::ArrayWrapper<uint8_t> charProperties_ = ::ArrayWrapper<uint8_t>(nullptr)) noexcept : charProperties{charProperties_} {}
+    constexpr XmlCharType(::ArrayW<uint8_t> charProperties_ = ::ArrayW<uint8_t>(nullptr)) noexcept : charProperties{charProperties_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
     }
-    // Creating conversion operator: operator ::ArrayWrapper<uint8_t>
-    constexpr operator ::ArrayWrapper<uint8_t>() const noexcept {
+    // Creating conversion operator: operator ::ArrayW<uint8_t>
+    constexpr operator ::ArrayW<uint8_t>() const noexcept {
       return charProperties;
     }
     // Get static field: static private System.Object s_Lock
@@ -38,11 +45,11 @@ namespace System::Xml {
     // Set static field: static private System.Object s_Lock
     static void _set_s_Lock(::Il2CppObject* value);
     // Get static field: static private System.Byte[] s_CharProperties
-    static ::ArrayWrapper<uint8_t> _get_s_CharProperties();
+    static ::ArrayW<uint8_t> _get_s_CharProperties();
     // Set static field: static private System.Byte[] s_CharProperties
-    static void _set_s_CharProperties(::ArrayWrapper<uint8_t> value);
+    static void _set_s_CharProperties(::ArrayW<uint8_t> value);
     // Get instance field reference: System.Byte[] charProperties
-    ::ArrayWrapper<uint8_t>& dyn_charProperties();
+    ::ArrayW<uint8_t>& dyn_charProperties();
     // static private System.Object get_StaticLock()
     // Offset: 0x1AFFBA8
     static ::Il2CppObject* get_StaticLock();
@@ -51,7 +58,7 @@ namespace System::Xml {
     static System::Xml::XmlCharType get_Instance();
     // private System.Void .ctor(System.Byte[] charProperties)
     // Offset: 0x1AFFEC8
-    // ABORTED: conflicts with another method.  XmlCharType(::ArrayWrapper<uint8_t> charProperties);
+    // ABORTED: conflicts with another method.  XmlCharType(::ArrayW<uint8_t> charProperties);
     // static private System.Void InitInstance()
     // Offset: 0x1AFFC38
     static void InitInstance();
@@ -99,7 +106,7 @@ namespace System::Xml {
     static bool InRange(int value, int start, int end);
   }; // System.Xml.XmlCharType
   #pragma pack(pop)
-  static check_size<sizeof(XmlCharType), 0 + sizeof(::ArrayWrapper<uint8_t>)> __System_Xml_XmlCharTypeSizeCheck;
+  static check_size<sizeof(XmlCharType), 0 + sizeof(::ArrayW<uint8_t>)> __System_Xml_XmlCharTypeSizeCheck;
   static_assert(sizeof(XmlCharType) == 0x8);
 }
 #include "extern/beatsaber-hook/shared/utils/il2cpp-type-check.hpp"

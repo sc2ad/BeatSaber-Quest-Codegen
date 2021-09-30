@@ -41,6 +41,11 @@ namespace GlobalNamespace {
     char ___base_padding[0x4] = {};
     // Nested type: GlobalNamespace::MissionSelectionNavigationController::$$c__DisplayClass11_0
     class $$c__DisplayClass11_0;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xF10E20
     // private MissionSelectionMapViewController _missionSelectionMapViewController
     // Size: 0x8
@@ -61,6 +66,7 @@ namespace GlobalNamespace {
     System::Action_1<GlobalNamespace::MissionSelectionNavigationController*>* didPressPlayButtonEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::MissionSelectionNavigationController*>*) == 0x8);
+    public:
     // Get instance field reference: private MissionSelectionMapViewController _missionSelectionMapViewController
     GlobalNamespace::MissionSelectionMapViewController*& dyn__missionSelectionMapViewController();
     // Get instance field reference: private MissionLevelDetailViewController _missionLevelDetailViewController

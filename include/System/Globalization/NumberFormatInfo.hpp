@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Globalization
@@ -42,24 +43,29 @@ namespace System::Globalization {
   // [ComVisibleAttribute] Offset: E5E618
   class NumberFormatInfo : public ::Il2CppObject/*, public System::ICloneable, public System::IFormatProvider*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Int32[] numberGroupSizes
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<int> numberGroupSizes;
+    ::ArrayW<int> numberGroupSizes;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // System.Int32[] currencyGroupSizes
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<int> currencyGroupSizes;
+    ::ArrayW<int> currencyGroupSizes;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // System.Int32[] percentGroupSizes
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<int> percentGroupSizes;
+    ::ArrayW<int> percentGroupSizes;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // System.String positiveSign
     // Size: 0x8
     // Offset: 0x28
@@ -154,9 +160,9 @@ namespace System::Globalization {
     // System.String[] nativeDigits
     // Size: 0x8
     // Offset: 0xA0
-    ::ArrayWrapper<::Il2CppString*> nativeDigits;
+    ::ArrayW<::Il2CppString*> nativeDigits;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // [OptionalFieldAttribute] Offset: 0xE635B8
     // System.Int32 m_dataItem
     // Size: 0x4
@@ -253,6 +259,7 @@ namespace System::Globalization {
     bool validForParseAsCurrency;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);
@@ -272,11 +279,11 @@ namespace System::Globalization {
     // Set static field: static private System.Globalization.NumberStyles InvalidNumberStyles
     static void _set_InvalidNumberStyles(System::Globalization::NumberStyles value);
     // Get instance field reference: System.Int32[] numberGroupSizes
-    ::ArrayWrapper<int>& dyn_numberGroupSizes();
+    ::ArrayW<int>& dyn_numberGroupSizes();
     // Get instance field reference: System.Int32[] currencyGroupSizes
-    ::ArrayWrapper<int>& dyn_currencyGroupSizes();
+    ::ArrayW<int>& dyn_currencyGroupSizes();
     // Get instance field reference: System.Int32[] percentGroupSizes
-    ::ArrayWrapper<int>& dyn_percentGroupSizes();
+    ::ArrayW<int>& dyn_percentGroupSizes();
     // Get instance field reference: System.String positiveSign
     ::Il2CppString*& dyn_positiveSign();
     // Get instance field reference: System.String negativeSign
@@ -308,7 +315,7 @@ namespace System::Globalization {
     // Get instance field reference: System.String perMilleSymbol
     ::Il2CppString*& dyn_perMilleSymbol();
     // Get instance field reference: System.String[] nativeDigits
-    ::ArrayWrapper<::Il2CppString*>& dyn_nativeDigits();
+    ::ArrayW<::Il2CppString*>& dyn_nativeDigits();
     // Get instance field reference: System.Int32 m_dataItem
     int& dyn_m_dataItem();
     // Get instance field reference: System.Int32 numberDecimalDigits
@@ -353,13 +360,13 @@ namespace System::Globalization {
     bool get_IsReadOnly();
     // public System.Int32[] get_CurrencyGroupSizes()
     // Offset: 0x1BD982C
-    ::ArrayWrapper<int> get_CurrencyGroupSizes();
+    ::ArrayW<int> get_CurrencyGroupSizes();
     // public System.Int32[] get_NumberGroupSizes()
     // Offset: 0x1BD98AC
-    ::ArrayWrapper<int> get_NumberGroupSizes();
+    ::ArrayW<int> get_NumberGroupSizes();
     // public System.Int32[] get_PercentGroupSizes()
     // Offset: 0x1BD992C
-    ::ArrayWrapper<int> get_PercentGroupSizes();
+    ::ArrayW<int> get_PercentGroupSizes();
     // public System.String get_CurrencyGroupSeparator()
     // Offset: 0x1BD99AC
     ::Il2CppString* get_CurrencyGroupSeparator();
@@ -523,7 +530,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::get_CurrencyGroupSizes
 // Il2CppName: get_CurrencyGroupSizes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<int> (System::Globalization::NumberFormatInfo::*)()>(&System::Globalization::NumberFormatInfo::get_CurrencyGroupSizes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int> (System::Globalization::NumberFormatInfo::*)()>(&System::Globalization::NumberFormatInfo::get_CurrencyGroupSizes)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "get_CurrencyGroupSizes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -531,7 +538,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::get_NumberGroupSizes
 // Il2CppName: get_NumberGroupSizes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<int> (System::Globalization::NumberFormatInfo::*)()>(&System::Globalization::NumberFormatInfo::get_NumberGroupSizes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int> (System::Globalization::NumberFormatInfo::*)()>(&System::Globalization::NumberFormatInfo::get_NumberGroupSizes)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "get_NumberGroupSizes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -539,7 +546,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: System::Globalization::NumberFormatInfo::get_PercentGroupSizes
 // Il2CppName: get_PercentGroupSizes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<int> (System::Globalization::NumberFormatInfo::*)()>(&System::Globalization::NumberFormatInfo::get_PercentGroupSizes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int> (System::Globalization::NumberFormatInfo::*)()>(&System::Globalization::NumberFormatInfo::get_PercentGroupSizes)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Globalization::NumberFormatInfo*), "get_PercentGroupSizes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -37,6 +37,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GameServerListDetailTableCell : public HMUI::TableCell {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.UI.Button _joinServerButton
     // Size: 0x8
     // Offset: 0x50
@@ -55,6 +60,7 @@ namespace GlobalNamespace {
     HMUI::ButtonBinder* buttonBinder;
     // Field size check
     static_assert(sizeof(HMUI::ButtonBinder*) == 0x8);
+    public:
     // Get instance field reference: private UnityEngine.UI.Button _joinServerButton
     UnityEngine::UI::Button*& dyn__joinServerButton();
     // Get instance field reference: private System.Action joinServerButtonWasPressedEvent

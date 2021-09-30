@@ -32,6 +32,11 @@ namespace Org::BouncyCastle::Math::EC::Endo {
   // [TokenAttribute] Offset: FFFFFFFF
   class EndoPreCompInfo : public ::Il2CppObject/*, public Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // protected Org.BouncyCastle.Math.EC.Endo.ECEndomorphism m_endomorphism
     // Size: 0x8
     // Offset: 0x10
@@ -44,6 +49,7 @@ namespace Org::BouncyCastle::Math::EC::Endo {
     Org::BouncyCastle::Math::EC::ECPoint* m_mappedPoint;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Math::EC::ECPoint*) == 0x8);
+    public:
     // Creating interface conversion operator: operator Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo
     operator Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*>(this);

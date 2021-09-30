@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Asn1
@@ -28,22 +29,28 @@ namespace Org::BouncyCastle::Asn1 {
   // [TokenAttribute] Offset: FFFFFFFF
   class DerGraphicString : public Org::BouncyCastle::Asn1::DerStringBase {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Byte[] mString
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<uint8_t> mString;
+    ::ArrayW<uint8_t> mString;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating conversion operator: operator ::ArrayWrapper<uint8_t>
-    constexpr operator ::ArrayWrapper<uint8_t>() const noexcept {
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
+    public:
+    // Creating conversion operator: operator ::ArrayW<uint8_t>
+    constexpr operator ::ArrayW<uint8_t>() const noexcept {
       return mString;
     }
     // Get instance field reference: private readonly System.Byte[] mString
-    ::ArrayWrapper<uint8_t>& dyn_mString();
+    ::ArrayW<uint8_t>& dyn_mString();
     // public System.Void .ctor(System.Byte[] encoding)
     // Offset: 0x18E21D0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DerGraphicString* New_ctor(::ArrayWrapper<uint8_t> encoding) {
+    static DerGraphicString* New_ctor(::ArrayW<uint8_t> encoding) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerGraphicString::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerGraphicString*, creationType>(encoding)));
     }
@@ -69,7 +76,7 @@ namespace Org::BouncyCastle::Asn1 {
     bool Asn1Equals(Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
   }; // Org.BouncyCastle.Asn1.DerGraphicString
   #pragma pack(pop)
-  static check_size<sizeof(DerGraphicString), 16 + sizeof(::ArrayWrapper<uint8_t>)> __Org_BouncyCastle_Asn1_DerGraphicStringSizeCheck;
+  static check_size<sizeof(DerGraphicString), 16 + sizeof(::ArrayW<uint8_t>)> __Org_BouncyCastle_Asn1_DerGraphicStringSizeCheck;
   static_assert(sizeof(DerGraphicString) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DerGraphicString*, "Org.BouncyCastle.Asn1", "DerGraphicString");

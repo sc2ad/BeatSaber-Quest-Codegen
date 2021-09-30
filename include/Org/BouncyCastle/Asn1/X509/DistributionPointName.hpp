@@ -36,6 +36,11 @@ namespace Org::BouncyCastle::Asn1::X509 {
   // [TokenAttribute] Offset: FFFFFFFF
   class DistributionPointName : public Org::BouncyCastle::Asn1::Asn1Encodable/*, public Org::BouncyCastle::Asn1::IAsn1Choice*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // readonly Org.BouncyCastle.Asn1.Asn1Encodable name
     // Size: 0x8
     // Offset: 0x10
@@ -48,6 +53,7 @@ namespace Org::BouncyCastle::Asn1::X509 {
     int type;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating interface conversion operator: operator Org::BouncyCastle::Asn1::IAsn1Choice
     operator Org::BouncyCastle::Asn1::IAsn1Choice() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Asn1::IAsn1Choice*>(this);

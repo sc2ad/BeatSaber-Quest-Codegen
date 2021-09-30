@@ -21,6 +21,11 @@ namespace UnityEngine {
   // [AttributeUsageAttribute] Offset: E7245C
   class CreateAssetMenuAttribute : public System::Attribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [DebuggerBrowsableAttribute] Offset: 0xE760F0
     // private System.String <menuName>k__BackingField
     // Size: 0x8
@@ -35,6 +40,7 @@ namespace UnityEngine {
     ::Il2CppString* fileName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: private System.String <menuName>k__BackingField
     ::Il2CppString*& dyn_$menuName$k__BackingField();
     // Get instance field reference: private System.String <fileName>k__BackingField

@@ -37,6 +37,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class NetworkPlayersViewController : public HMUI::ViewController {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private NetworkPlayersTableView _networkPlayersTableView
     // Size: 0x8
     // Offset: 0x70
@@ -63,6 +68,7 @@ namespace GlobalNamespace {
     System::Action_1<GlobalNamespace::INetworkPlayer*>* onInviteRequestEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::INetworkPlayer*>*) == 0x8);
+    public:
     // Get instance field reference: private NetworkPlayersTableView _networkPlayersTableView
     GlobalNamespace::NetworkPlayersTableView*& dyn__networkPlayersTableView();
     // Get instance field reference: private System.Boolean _refreshIsNeeded

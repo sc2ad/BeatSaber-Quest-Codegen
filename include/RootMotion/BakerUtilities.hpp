@@ -7,6 +7,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Keyframe
 #include "UnityEngine/Keyframe.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -30,7 +31,7 @@ namespace RootMotion {
     static void ReduceKeyframes(UnityEngine::AnimationCurve* curve, float maxError);
     // static public UnityEngine.Keyframe[] GetReducedKeyframes(UnityEngine.AnimationCurve curve, System.Single maxError)
     // Offset: 0x1EB6428
-    static ::ArrayWrapper<UnityEngine::Keyframe> GetReducedKeyframes(UnityEngine::AnimationCurve* curve, float maxError);
+    static ::ArrayW<UnityEngine::Keyframe> GetReducedKeyframes(UnityEngine::AnimationCurve* curve, float maxError);
     // static public System.Void SetLoopFrame(System.Single time, UnityEngine.AnimationCurve curve)
     // Offset: 0x1EB4968
     static void SetLoopFrame(float time, UnityEngine::AnimationCurve* curve);
@@ -59,7 +60,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: RootMotion::BakerUtilities::GetReducedKeyframes
 // Il2CppName: GetReducedKeyframes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Keyframe> (*)(UnityEngine::AnimationCurve*, float)>(&RootMotion::BakerUtilities::GetReducedKeyframes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Keyframe> (*)(UnityEngine::AnimationCurve*, float)>(&RootMotion::BakerUtilities::GetReducedKeyframes)> {
   static const MethodInfo* get() {
     static auto* curve = &::il2cpp_utils::GetClassFromName("UnityEngine", "AnimationCurve")->byval_arg;
     static auto* maxError = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;

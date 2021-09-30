@@ -39,6 +39,11 @@ namespace UnityEngine::AddressableAssets {
   // [TokenAttribute] Offset: FFFFFFFF
   class AddressablesImpl::LoadResourceLocationKeyOp : public UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Object m_Keys
     // Size: 0x8
     // Offset: 0x80
@@ -63,6 +68,7 @@ namespace UnityEngine::AddressableAssets {
     System::Type* m_ResourceType;
     // Field size check
     static_assert(sizeof(System::Type*) == 0x8);
+    public:
     // Get instance field reference: private System.Object m_Keys
     ::Il2CppObject*& dyn_m_Keys();
     // Get instance field reference: private System.Collections.Generic.IList`1<UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation> m_locations

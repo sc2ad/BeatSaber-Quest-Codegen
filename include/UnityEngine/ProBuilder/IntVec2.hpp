@@ -21,12 +21,18 @@ namespace UnityEngine::ProBuilder {
   // [TokenAttribute] Offset: FFFFFFFF
   struct IntVec2/*, public System::ValueType, public System::IEquatable_1<UnityEngine::ProBuilder::IntVec2>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Vector2 value
     // Size: 0x8
     // Offset: 0x0
     UnityEngine::Vector2 value;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector2) == 0x8);
+    public:
     // Creating value type constructor for type: IntVec2
     constexpr IntVec2(UnityEngine::Vector2 value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::ValueType

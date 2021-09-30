@@ -19,6 +19,11 @@ namespace System::Globalization {
   // [TokenAttribute] Offset: FFFFFFFF
   struct HebrewNumberParsingContext/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Globalization.HebrewNumber/System.Globalization.HS state
     // Size: 0x4
     // Offset: 0x0
@@ -31,6 +36,7 @@ namespace System::Globalization {
     int result;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: HebrewNumberParsingContext
     constexpr HebrewNumberParsingContext(System::Globalization::HebrewNumber::HS state_ = {}, int result_ = {}) noexcept : state{state_}, result{result_} {}
     // Creating interface conversion operator: operator System::ValueType

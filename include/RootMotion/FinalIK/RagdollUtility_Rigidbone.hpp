@@ -37,6 +37,11 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class RagdollUtility::Rigidbone : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Rigidbody r
     // Size: 0x8
     // Offset: 0x10
@@ -105,6 +110,7 @@ namespace RootMotion::FinalIK {
     UnityEngine::Quaternion lastRotation;
     // Field size check
     static_assert(sizeof(UnityEngine::Quaternion) == 0x10);
+    public:
     // Get instance field reference: public UnityEngine.Rigidbody r
     UnityEngine::Rigidbody*& dyn_r();
     // Get instance field reference: public UnityEngine.Transform t

@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -40,6 +41,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::MissionHelpViewController::MissionHelpGameObjectPair
     class MissionHelpGameObjectPair;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.UI.Button _okButton
     // Size: 0x8
     // Offset: 0x70
@@ -49,9 +55,9 @@ namespace GlobalNamespace {
     // private MissionHelpViewController/MissionHelpGameObjectPair[] _missionHelpGameObjectPairs
     // Size: 0x8
     // Offset: 0x78
-    ::ArrayWrapper<GlobalNamespace::MissionHelpViewController::MissionHelpGameObjectPair*> missionHelpGameObjectPairs;
+    ::ArrayW<GlobalNamespace::MissionHelpViewController::MissionHelpGameObjectPair*> missionHelpGameObjectPairs;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::MissionHelpViewController::MissionHelpGameObjectPair*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::MissionHelpViewController::MissionHelpGameObjectPair*>) == 0x8);
     // private System.Action`1<MissionHelpViewController> didFinishEvent
     // Size: 0x8
     // Offset: 0x80
@@ -64,10 +70,11 @@ namespace GlobalNamespace {
     GlobalNamespace::MissionHelpSO* missionHelp;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MissionHelpSO*) == 0x8);
+    public:
     // Get instance field reference: private UnityEngine.UI.Button _okButton
     UnityEngine::UI::Button*& dyn__okButton();
     // Get instance field reference: private MissionHelpViewController/MissionHelpGameObjectPair[] _missionHelpGameObjectPairs
-    ::ArrayWrapper<GlobalNamespace::MissionHelpViewController::MissionHelpGameObjectPair*>& dyn__missionHelpGameObjectPairs();
+    ::ArrayW<GlobalNamespace::MissionHelpViewController::MissionHelpGameObjectPair*>& dyn__missionHelpGameObjectPairs();
     // Get instance field reference: private System.Action`1<MissionHelpViewController> didFinishEvent
     System::Action_1<GlobalNamespace::MissionHelpViewController*>*& dyn_didFinishEvent();
     // Get instance field reference: private MissionHelpSO _missionHelp

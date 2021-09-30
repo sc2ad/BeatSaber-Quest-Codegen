@@ -7,6 +7,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: Org.BouncyCastle.Crypto.ICipherParameters
 #include "Org/BouncyCastle/Crypto/ICipherParameters.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Crypto::Parameters
@@ -23,24 +24,30 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   // [TokenAttribute] Offset: FFFFFFFF
   class TweakableBlockCipherParameters : public ::Il2CppObject/*, public Org::BouncyCastle::Crypto::ICipherParameters*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Byte[] tweak
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<uint8_t> tweak;
+    ::ArrayW<uint8_t> tweak;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private readonly Org.BouncyCastle.Crypto.Parameters.KeyParameter key
     // Size: 0x8
     // Offset: 0x18
     Org::BouncyCastle::Crypto::Parameters::KeyParameter* key;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Crypto::Parameters::KeyParameter*) == 0x8);
+    public:
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::ICipherParameters
     operator Org::BouncyCastle::Crypto::ICipherParameters() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::ICipherParameters*>(this);
     }
     // Get instance field reference: private readonly System.Byte[] tweak
-    ::ArrayWrapper<uint8_t>& dyn_tweak();
+    ::ArrayW<uint8_t>& dyn_tweak();
     // Get instance field reference: private readonly Org.BouncyCastle.Crypto.Parameters.KeyParameter key
     Org::BouncyCastle::Crypto::Parameters::KeyParameter*& dyn_key();
     // public Org.BouncyCastle.Crypto.Parameters.KeyParameter get_Key()
@@ -48,7 +55,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     Org::BouncyCastle::Crypto::Parameters::KeyParameter* get_Key();
     // public System.Byte[] get_Tweak()
     // Offset: 0x13983F4
-    ::ArrayWrapper<uint8_t> get_Tweak();
+    ::ArrayW<uint8_t> get_Tweak();
   }; // Org.BouncyCastle.Crypto.Parameters.TweakableBlockCipherParameters
   #pragma pack(pop)
   static check_size<sizeof(TweakableBlockCipherParameters), 24 + sizeof(Org::BouncyCastle::Crypto::Parameters::KeyParameter*)> __Org_BouncyCastle_Crypto_Parameters_TweakableBlockCipherParametersSizeCheck;
@@ -68,7 +75,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::TweakableBlockCipherParameters::get_Tweak
 // Il2CppName: get_Tweak
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Crypto::Parameters::TweakableBlockCipherParameters::*)()>(&Org::BouncyCastle::Crypto::Parameters::TweakableBlockCipherParameters::get_Tweak)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Org::BouncyCastle::Crypto::Parameters::TweakableBlockCipherParameters::*)()>(&Org::BouncyCastle::Crypto::Parameters::TweakableBlockCipherParameters::get_Tweak)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Parameters::TweakableBlockCipherParameters*), "get_Tweak", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -17,12 +17,18 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct VREvent_WebConsole_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.UInt64 webConsoleHandle
     // Size: 0x8
     // Offset: 0x0
     uint64_t webConsoleHandle;
     // Field size check
     static_assert(sizeof(uint64_t) == 0x8);
+    public:
     // Creating value type constructor for type: VREvent_WebConsole_t
     constexpr VREvent_WebConsole_t(uint64_t webConsoleHandle_ = {}) noexcept : webConsoleHandle{webConsoleHandle_} {}
     // Creating interface conversion operator: operator System::ValueType

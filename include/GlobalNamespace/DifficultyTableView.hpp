@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HMUI
@@ -45,6 +46,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class DifficultyTableView : public UnityEngine::MonoBehaviour/*, public HMUI::TableView::IDataSource*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private HMUI.TableView _tableView
     // Size: 0x8
     // Offset: 0x18
@@ -80,9 +86,10 @@ namespace GlobalNamespace {
     // private IDifficultyBeatmap[] _difficultyBeatmaps
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayWrapper<GlobalNamespace::IDifficultyBeatmap*> difficultyBeatmaps;
+    ::ArrayW<GlobalNamespace::IDifficultyBeatmap*> difficultyBeatmaps;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::IDifficultyBeatmap*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::IDifficultyBeatmap*>) == 0x8);
+    public:
     // Creating interface conversion operator: operator HMUI::TableView::IDataSource
     operator HMUI::TableView::IDataSource() noexcept {
       return *reinterpret_cast<HMUI::TableView::IDataSource*>(this);
@@ -112,7 +119,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Action`2<DifficultyTableView,System.Int32> didSelectRow
     System::Action_2<GlobalNamespace::DifficultyTableView*, int>*& dyn_didSelectRow();
     // Get instance field reference: private IDifficultyBeatmap[] _difficultyBeatmaps
-    ::ArrayWrapper<GlobalNamespace::IDifficultyBeatmap*>& dyn__difficultyBeatmaps();
+    ::ArrayW<GlobalNamespace::IDifficultyBeatmap*>& dyn__difficultyBeatmaps();
     // public System.Void add_didSelectRow(System.Action`2<DifficultyTableView,System.Int32> value)
     // Offset: 0x11A79A4
     void add_didSelectRow(System::Action_2<GlobalNamespace::DifficultyTableView*, int>* value);
@@ -121,10 +128,10 @@ namespace GlobalNamespace {
     void remove_didSelectRow(System::Action_2<GlobalNamespace::DifficultyTableView*, int>* value);
     // public System.Void Init(IDifficultyBeatmap[] difficultyBeatmaps)
     // Offset: 0x11A7AEC
-    void Init(::ArrayWrapper<GlobalNamespace::IDifficultyBeatmap*> difficultyBeatmaps);
+    void Init(::ArrayW<GlobalNamespace::IDifficultyBeatmap*> difficultyBeatmaps);
     // public System.Void SetDifficultyBeatmaps(IDifficultyBeatmap[] difficultyBeatmaps)
     // Offset: 0x11A7BDC
-    void SetDifficultyBeatmaps(::ArrayWrapper<GlobalNamespace::IDifficultyBeatmap*> difficultyBeatmaps);
+    void SetDifficultyBeatmaps(::ArrayW<GlobalNamespace::IDifficultyBeatmap*> difficultyBeatmaps);
     // public System.Single CellSize()
     // Offset: 0x11A7C04
     float CellSize();
@@ -161,7 +168,7 @@ namespace GlobalNamespace {
     }
   }; // DifficultyTableView
   #pragma pack(pop)
-  static check_size<sizeof(DifficultyTableView), 64 + sizeof(::ArrayWrapper<GlobalNamespace::IDifficultyBeatmap*>)> __GlobalNamespace_DifficultyTableViewSizeCheck;
+  static check_size<sizeof(DifficultyTableView), 64 + sizeof(::ArrayW<GlobalNamespace::IDifficultyBeatmap*>)> __GlobalNamespace_DifficultyTableViewSizeCheck;
   static_assert(sizeof(DifficultyTableView) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::DifficultyTableView*, "", "DifficultyTableView");
@@ -187,7 +194,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::DifficultyTableView::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DifficultyTableView::*)(::ArrayWrapper<GlobalNamespace::IDifficultyBeatmap*>)>(&GlobalNamespace::DifficultyTableView::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DifficultyTableView::*)(::ArrayW<GlobalNamespace::IDifficultyBeatmap*>)>(&GlobalNamespace::DifficultyTableView::Init)> {
   static const MethodInfo* get() {
     static auto* difficultyBeatmaps = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "IDifficultyBeatmap"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DifficultyTableView*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{difficultyBeatmaps});
@@ -196,7 +203,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::DifficultyTableView::SetDifficultyBeatmaps
 // Il2CppName: SetDifficultyBeatmaps
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DifficultyTableView::*)(::ArrayWrapper<GlobalNamespace::IDifficultyBeatmap*>)>(&GlobalNamespace::DifficultyTableView::SetDifficultyBeatmaps)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::DifficultyTableView::*)(::ArrayW<GlobalNamespace::IDifficultyBeatmap*>)>(&GlobalNamespace::DifficultyTableView::SetDifficultyBeatmaps)> {
   static const MethodInfo* get() {
     static auto* difficultyBeatmaps = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "IDifficultyBeatmap"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::DifficultyTableView*), "SetDifficultyBeatmaps", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{difficultyBeatmaps});

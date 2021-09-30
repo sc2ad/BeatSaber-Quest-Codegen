@@ -22,6 +22,11 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class TimerThread::Timer : public ::Il2CppObject/*, public System::IDisposable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Int32 m_StartTimeMilliseconds
     // Size: 0x4
     // Offset: 0x10
@@ -34,6 +39,7 @@ namespace System::Net {
     int m_DurationMilliseconds;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

@@ -23,6 +23,11 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct TrackedDevicePose_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public OVR.OpenVR.HmdMatrix34_t mDeviceToAbsoluteTracking
     // Size: 0x30
     // Offset: 0x0
@@ -59,6 +64,7 @@ namespace OVR::OpenVR {
     bool bDeviceIsConnected;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating value type constructor for type: TrackedDevicePose_t
     constexpr TrackedDevicePose_t(OVR::OpenVR::HmdMatrix34_t mDeviceToAbsoluteTracking_ = {}, OVR::OpenVR::HmdVector3_t vVelocity_ = {}, OVR::OpenVR::HmdVector3_t vAngularVelocity_ = {}, OVR::OpenVR::ETrackingResult eTrackingResult_ = {}, bool bPoseIsValid_ = {}, bool bDeviceIsConnected_ = {}) noexcept : mDeviceToAbsoluteTracking{mDeviceToAbsoluteTracking_}, vVelocity{vVelocity_}, vAngularVelocity{vAngularVelocity_}, eTrackingResult{eTrackingResult_}, bPoseIsValid{bPoseIsValid_}, bDeviceIsConnected{bDeviceIsConnected_} {}
     // Creating interface conversion operator: operator System::ValueType

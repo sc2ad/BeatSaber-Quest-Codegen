@@ -49,6 +49,11 @@ namespace GlobalNamespace {
   // [RequireComponent] Offset: EFCBBC
   class GradientImageViewStateTransition : public GlobalNamespace::BaseStateTransition_1<HMUI::ImageView*> {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [SpaceAttribute] Offset: 0xF0D404
     // private GradientTransitionSO _transition
     // Size: 0x8
@@ -68,6 +73,7 @@ namespace GlobalNamespace {
     Tweening::ColorTween* colorTweenB;
     // Field size check
     static_assert(sizeof(Tweening::ColorTween*) == 0x8);
+    public:
     // Get instance field reference: private GradientTransitionSO _transition
     GlobalNamespace::GradientTransitionSO*& dyn__transition();
     // Get instance field reference: private Tweening.ColorTween _colorTweenA

@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -62,21 +63,26 @@ namespace GlobalNamespace {
     class Pool;
     // Nested type: GlobalNamespace::FireworkItemController::$FireCoroutine$d__29
     class $FireCoroutine$d__29;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [HeaderAttribute] Offset: 0xF057B8
     // [NullAllowed] Offset: 0xF057B8
     // private FireworkItemController/FireworkItemParticleSystem[] _particleSystems
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<GlobalNamespace::FireworkItemController::FireworkItemParticleSystem*> particleSystems;
+    ::ArrayW<GlobalNamespace::FireworkItemController::FireworkItemParticleSystem*> particleSystems;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::FireworkItemController::FireworkItemParticleSystem*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::FireworkItemController::FireworkItemParticleSystem*>) == 0x8);
     // [HeaderAttribute] Offset: 0xF05814
     // private TubeBloomPrePassLight[] _lights
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<GlobalNamespace::TubeBloomPrePassLight*> lights;
+    ::ArrayW<GlobalNamespace::TubeBloomPrePassLight*> lights;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::TubeBloomPrePassLight*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::TubeBloomPrePassLight*>) == 0x8);
     // private UnityEngine.AudioSource _audioSource
     // Size: 0x8
     // Offset: 0x28
@@ -155,9 +161,9 @@ namespace GlobalNamespace {
     // private UnityEngine.AudioClip[] _explosionClips
     // Size: 0x8
     // Offset: 0x70
-    ::ArrayWrapper<UnityEngine::AudioClip*> explosionClips;
+    ::ArrayW<UnityEngine::AudioClip*> explosionClips;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::AudioClip*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::AudioClip*>) == 0x8);
     // private RandomObjectPicker`1<UnityEngine.AudioClip> _randomAudioPicker
     // Size: 0x8
     // Offset: 0x78
@@ -190,12 +196,13 @@ namespace GlobalNamespace {
     System::Action_1<GlobalNamespace::FireworkItemController*>* didFinishEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::FireworkItemController*>*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private FireworkItemController/FireworkItemParticleSystem[] _particleSystems
-    ::ArrayWrapper<GlobalNamespace::FireworkItemController::FireworkItemParticleSystem*>& dyn__particleSystems();
+    ::ArrayW<GlobalNamespace::FireworkItemController::FireworkItemParticleSystem*>& dyn__particleSystems();
     // Get instance field reference: private TubeBloomPrePassLight[] _lights
-    ::ArrayWrapper<GlobalNamespace::TubeBloomPrePassLight*>& dyn__lights();
+    ::ArrayW<GlobalNamespace::TubeBloomPrePassLight*>& dyn__lights();
     // Get instance field reference: private UnityEngine.AudioSource _audioSource
     UnityEngine::AudioSource*& dyn__audioSource();
     // Get instance field reference: private System.Single _lightFlashDuration
@@ -217,7 +224,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _maxSpeedMultiplier
     float& dyn__maxSpeedMultiplier();
     // Get instance field reference: private UnityEngine.AudioClip[] _explosionClips
-    ::ArrayWrapper<UnityEngine::AudioClip*>& dyn__explosionClips();
+    ::ArrayW<UnityEngine::AudioClip*>& dyn__explosionClips();
     // Get instance field reference: private RandomObjectPicker`1<UnityEngine.AudioClip> _randomAudioPicker
     GlobalNamespace::RandomObjectPicker_1<UnityEngine::AudioClip*>*& dyn__randomAudioPicker();
     // Get instance field reference: private DirectionalLight _directionalLight

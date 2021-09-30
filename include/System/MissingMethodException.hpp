@@ -28,12 +28,18 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5C39C
   class MissingMethodException : public System::MissingMemberException {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String signature
     // Size: 0x8
     // Offset: 0xA0
     ::Il2CppString* signature;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return signature;

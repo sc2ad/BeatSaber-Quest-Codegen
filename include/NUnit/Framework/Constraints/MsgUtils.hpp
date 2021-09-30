@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework::Constraints
@@ -152,10 +153,10 @@ namespace NUnit::Framework::Constraints {
     static ::Il2CppString* EscapeNullCharacters(::Il2CppString* s);
     // static public System.String GetArrayIndicesAsString(System.Int32[] indices)
     // Offset: 0x192D6D0
-    static ::Il2CppString* GetArrayIndicesAsString(::ArrayWrapper<int> indices);
+    static ::Il2CppString* GetArrayIndicesAsString(::ArrayW<int> indices);
     // static public System.Int32[] GetArrayIndicesFromCollectionIndex(System.Collections.IEnumerable collection, System.Int64 index)
     // Offset: 0x192D598
-    static ::ArrayWrapper<int> GetArrayIndicesFromCollectionIndex(System::Collections::IEnumerable* collection, int64_t index);
+    static ::ArrayW<int> GetArrayIndicesFromCollectionIndex(System::Collections::IEnumerable* collection, int64_t index);
     // static public System.String ClipString(System.String s, System.Int32 maxStringLength, System.Int32 clipStart)
     // Offset: 0x192FAAC
     static ::Il2CppString* ClipString(::Il2CppString* s, int maxStringLength, int clipStart);
@@ -318,7 +319,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::MsgUtils::GetArrayIndicesAsString
 // Il2CppName: GetArrayIndicesAsString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::ArrayWrapper<int>)>(&NUnit::Framework::Constraints::MsgUtils::GetArrayIndicesAsString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::ArrayW<int>)>(&NUnit::Framework::Constraints::MsgUtils::GetArrayIndicesAsString)> {
   static const MethodInfo* get() {
     static auto* indices = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(NUnit::Framework::Constraints::MsgUtils*), "GetArrayIndicesAsString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{indices});
@@ -327,7 +328,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: NUnit::Framework::Constraints::MsgUtils::GetArrayIndicesFromCollectionIndex
 // Il2CppName: GetArrayIndicesFromCollectionIndex
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<int> (*)(System::Collections::IEnumerable*, int64_t)>(&NUnit::Framework::Constraints::MsgUtils::GetArrayIndicesFromCollectionIndex)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int> (*)(System::Collections::IEnumerable*, int64_t)>(&NUnit::Framework::Constraints::MsgUtils::GetArrayIndicesFromCollectionIndex)> {
   static const MethodInfo* get() {
     static auto* collection = &::il2cpp_utils::GetClassFromName("System.Collections", "IEnumerable")->byval_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int64")->byval_arg;

@@ -71,6 +71,11 @@ namespace GlobalNamespace {
     class CreatePartyConfig;
     // Nested type: GlobalNamespace::LocalNetworkPlayerModel::$Start$d__40
     struct $Start$d__40;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private LocalNetworkDiscoveryManager _discoveryManager
     // Size: 0x8
     // Offset: 0x88
@@ -153,6 +158,7 @@ namespace GlobalNamespace {
     System::Action_1<GlobalNamespace::INetworkPlayer*>* inviteRequestedEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::INetworkPlayer*>*) == 0x8);
+    public:
     // Get instance field reference: private LocalNetworkDiscoveryManager _discoveryManager
     GlobalNamespace::LocalNetworkDiscoveryManager*& dyn__discoveryManager();
     // Get instance field reference: private readonly IPlatformUserModel _platformUserModel

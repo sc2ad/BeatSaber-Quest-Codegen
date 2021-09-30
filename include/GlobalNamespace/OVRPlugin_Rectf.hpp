@@ -23,6 +23,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct OVRPlugin::Rectf/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private OVRPlugin/Vector2f Pos
     // Size: 0x8
     // Offset: 0x0
@@ -35,6 +40,7 @@ namespace GlobalNamespace {
     GlobalNamespace::OVRPlugin::Sizef Size;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OVRPlugin::Sizef) == 0x8);
+    public:
     // Creating value type constructor for type: Rectf
     constexpr Rectf(GlobalNamespace::OVRPlugin::Vector2f Pos_ = {}, GlobalNamespace::OVRPlugin::Sizef Size_ = {}) noexcept : Pos{Pos_}, Size{Size_} {}
     // Creating interface conversion operator: operator System::ValueType

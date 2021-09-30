@@ -9,6 +9,7 @@
 #include "System/TypeCode.hpp"
 // Including type: System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE
 #include "System/Runtime/Serialization/Formatters/Binary/InternalPrimitiveTypeE.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -37,25 +38,25 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Set static field: static private System.Int32 primitiveTypeEnumLength
     static void _set_primitiveTypeEnumLength(int value);
     // Get static field: static private System.Type[] typeA
-    static ::ArrayWrapper<System::Type*> _get_typeA();
+    static ::ArrayW<System::Type*> _get_typeA();
     // Set static field: static private System.Type[] typeA
-    static void _set_typeA(::ArrayWrapper<System::Type*> value);
+    static void _set_typeA(::ArrayW<System::Type*> value);
     // Get static field: static private System.Type[] arrayTypeA
-    static ::ArrayWrapper<System::Type*> _get_arrayTypeA();
+    static ::ArrayW<System::Type*> _get_arrayTypeA();
     // Set static field: static private System.Type[] arrayTypeA
-    static void _set_arrayTypeA(::ArrayWrapper<System::Type*> value);
+    static void _set_arrayTypeA(::ArrayW<System::Type*> value);
     // Get static field: static private System.String[] valueA
-    static ::ArrayWrapper<::Il2CppString*> _get_valueA();
+    static ::ArrayW<::Il2CppString*> _get_valueA();
     // Set static field: static private System.String[] valueA
-    static void _set_valueA(::ArrayWrapper<::Il2CppString*> value);
+    static void _set_valueA(::ArrayW<::Il2CppString*> value);
     // Get static field: static private System.TypeCode[] typeCodeA
-    static ::ArrayWrapper<System::TypeCode> _get_typeCodeA();
+    static ::ArrayW<System::TypeCode> _get_typeCodeA();
     // Set static field: static private System.TypeCode[] typeCodeA
-    static void _set_typeCodeA(::ArrayWrapper<System::TypeCode> value);
+    static void _set_typeCodeA(::ArrayW<System::TypeCode> value);
     // Get static field: static private System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE[] codeA
-    static ::ArrayWrapper<System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE> _get_codeA();
+    static ::ArrayW<System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE> _get_codeA();
     // Set static field: static private System.Runtime.Serialization.Formatters.Binary.InternalPrimitiveTypeE[] codeA
-    static void _set_codeA(::ArrayWrapper<System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE> value);
+    static void _set_codeA(::ArrayW<System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE> value);
     // Get static field: static System.Type typeofISerializable
     static System::Type* _get_typeofISerializable();
     // Set static field: static System.Type typeofISerializable

@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text
@@ -52,6 +53,11 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class HttpListenerResponse : public ::Il2CppObject/*, public System::IDisposable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean disposed
     // Size: 0x1
     // Offset: 0x10
@@ -172,6 +178,7 @@ namespace System::Net {
     bool force_close_chunked;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
@@ -264,7 +271,7 @@ namespace System::Net {
     void Close();
     // public System.Void Close(System.Byte[] responseEntity, System.Boolean willBlock)
     // Offset: 0x183EF34
-    void Close(::ArrayWrapper<uint8_t> responseEntity, bool willBlock);
+    void Close(::ArrayW<uint8_t> responseEntity, bool willBlock);
     // System.Void SendHeaders(System.Boolean closing, System.IO.MemoryStream ms)
     // Offset: 0x18452A8
     void SendHeaders(bool closing, System::IO::MemoryStream* ms);
@@ -403,7 +410,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Net::HttpListenerResponse::Close
 // Il2CppName: Close
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpListenerResponse::*)(::ArrayWrapper<uint8_t>, bool)>(&System::Net::HttpListenerResponse::Close)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpListenerResponse::*)(::ArrayW<uint8_t>, bool)>(&System::Net::HttpListenerResponse::Close)> {
   static const MethodInfo* get() {
     static auto* responseEntity = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* willBlock = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;

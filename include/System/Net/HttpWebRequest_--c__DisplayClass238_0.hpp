@@ -30,6 +30,11 @@ namespace System::Net {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class HttpWebRequest::$$c__DisplayClass238_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Net.WebAsyncResult aread
     // Size: 0x8
     // Offset: 0x10
@@ -42,6 +47,7 @@ namespace System::Net {
     System::Net::HttpWebRequest* $$4__this;
     // Field size check
     static_assert(sizeof(System::Net::HttpWebRequest*) == 0x8);
+    public:
     // Get instance field reference: public System.Net.WebAsyncResult aread
     System::Net::WebAsyncResult*& dyn_aread();
     // Get instance field reference: public System.Net.HttpWebRequest <>4__this

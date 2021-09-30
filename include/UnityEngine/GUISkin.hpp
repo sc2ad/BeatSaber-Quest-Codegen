@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -47,6 +48,11 @@ namespace UnityEngine {
     public:
     // Nested type: UnityEngine::GUISkin::SkinChangedDelegate
     class SkinChangedDelegate;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Font m_Font
     // Size: 0x8
     // Offset: 0x18
@@ -188,9 +194,9 @@ namespace UnityEngine {
     // UnityEngine.GUIStyle[] m_CustomStyles
     // Size: 0x8
     // Offset: 0xD0
-    ::ArrayWrapper<UnityEngine::GUIStyle*> m_CustomStyles;
+    ::ArrayW<UnityEngine::GUIStyle*> m_CustomStyles;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::GUIStyle*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::GUIStyle*>) == 0x8);
     // private UnityEngine.GUISettings m_Settings
     // Size: 0x8
     // Offset: 0xD8
@@ -203,6 +209,7 @@ namespace UnityEngine {
     System::Collections::Generic::Dictionary_2<::Il2CppString*, UnityEngine::GUIStyle*>* m_Styles;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<::Il2CppString*, UnityEngine::GUIStyle*>*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static UnityEngine.GUIStyle ms_Error
@@ -264,7 +271,7 @@ namespace UnityEngine {
     // Get instance field reference: private UnityEngine.GUIStyle m_ScrollView
     UnityEngine::GUIStyle*& dyn_m_ScrollView();
     // Get instance field reference: UnityEngine.GUIStyle[] m_CustomStyles
-    ::ArrayWrapper<UnityEngine::GUIStyle*>& dyn_m_CustomStyles();
+    ::ArrayW<UnityEngine::GUIStyle*>& dyn_m_CustomStyles();
     // Get instance field reference: private UnityEngine.GUISettings m_Settings
     UnityEngine::GUISettings*& dyn_m_Settings();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,UnityEngine.GUIStyle> m_Styles
@@ -409,10 +416,10 @@ namespace UnityEngine {
     void set_scrollView(UnityEngine::GUIStyle* value);
     // public UnityEngine.GUIStyle[] get_customStyles()
     // Offset: 0x1C9FA28
-    ::ArrayWrapper<UnityEngine::GUIStyle*> get_customStyles();
+    ::ArrayW<UnityEngine::GUIStyle*> get_customStyles();
     // public System.Void set_customStyles(UnityEngine.GUIStyle[] value)
     // Offset: 0x1C9FA30
-    void set_customStyles(::ArrayWrapper<UnityEngine::GUIStyle*> value);
+    void set_customStyles(::ArrayW<UnityEngine::GUIStyle*> value);
     // public UnityEngine.GUISettings get_settings()
     // Offset: 0x1C9257C
     UnityEngine::GUISettings* get_settings();
@@ -855,7 +862,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::GUISkin::get_customStyles
 // Il2CppName: get_customStyles
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::GUIStyle*> (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_customStyles)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::GUIStyle*> (UnityEngine::GUISkin::*)()>(&UnityEngine::GUISkin::get_customStyles)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "get_customStyles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -863,7 +870,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::GUISkin::set_customStyles
 // Il2CppName: set_customStyles
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(::ArrayWrapper<UnityEngine::GUIStyle*>)>(&UnityEngine::GUISkin::set_customStyles)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUISkin::*)(::ArrayW<UnityEngine::GUIStyle*>)>(&UnityEngine::GUISkin::set_customStyles)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUISkin*), "set_customStyles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

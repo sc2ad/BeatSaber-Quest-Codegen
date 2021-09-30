@@ -41,6 +41,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String _name
     // Size: 0x8
     // Offset: 0x10
@@ -77,6 +82,7 @@ namespace GlobalNamespace {
     UnityEngine::AddressableAssets::AssetReference* btsCharacterAssetReference;
     // Field size check
     static_assert(sizeof(UnityEngine::AddressableAssets::AssetReference*) == 0x8);
+    public:
     // Get instance field reference: private System.String _name
     ::Il2CppString*& dyn__name();
     // Get instance field reference: private UnityEngine.Transform _placeTransform

@@ -29,6 +29,11 @@ namespace System::Reflection {
   // [TokenAttribute] Offset: FFFFFFFF
   class CustomAttributeData::LazyCAttrData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Reflection.Assembly assembly
     // Size: 0x8
     // Offset: 0x10
@@ -47,6 +52,7 @@ namespace System::Reflection {
     uint data_length;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
+    public:
     // Get instance field reference: System.Reflection.Assembly assembly
     System::Reflection::Assembly*& dyn_assembly();
     // Get instance field reference: System.IntPtr data

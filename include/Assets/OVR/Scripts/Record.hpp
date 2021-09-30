@@ -18,6 +18,11 @@ namespace Assets::OVR::Scripts {
   // [TokenAttribute] Offset: FFFFFFFF
   class Record : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.String category
     // Size: 0x8
     // Offset: 0x10
@@ -30,6 +35,7 @@ namespace Assets::OVR::Scripts {
     ::Il2CppString* message;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: public System.String category
     ::Il2CppString*& dyn_category();
     // Get instance field reference: public System.String message

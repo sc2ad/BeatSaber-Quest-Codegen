@@ -17,6 +17,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::EventSystems
@@ -50,6 +51,11 @@ namespace UnityEngine::EventSystems {
     public:
     // Nested type: UnityEngine::EventSystems::PhysicsRaycaster::RaycastHitComparer
     class RaycastHitComparer;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // protected UnityEngine.Camera m_EventCamera
     // Size: 0x8
     // Offset: 0x20
@@ -79,9 +85,10 @@ namespace UnityEngine::EventSystems {
     // private UnityEngine.RaycastHit[] m_Hits
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayWrapper<UnityEngine::RaycastHit> m_Hits;
+    ::ArrayW<UnityEngine::RaycastHit> m_Hits;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::RaycastHit>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::RaycastHit>) == 0x8);
+    public:
     // static field const value: static protected System.Int32 kNoEventMaskSet
     static constexpr const int kNoEventMaskSet = -1;
     // Get static field: static protected System.Int32 kNoEventMaskSet
@@ -97,7 +104,7 @@ namespace UnityEngine::EventSystems {
     // Get instance field reference: protected System.Int32 m_LastMaxRayIntersections
     int& dyn_m_LastMaxRayIntersections();
     // Get instance field reference: private UnityEngine.RaycastHit[] m_Hits
-    ::ArrayWrapper<UnityEngine::RaycastHit>& dyn_m_Hits();
+    ::ArrayW<UnityEngine::RaycastHit>& dyn_m_Hits();
     // public System.Int32 get_depth()
     // Offset: 0x15F283C
     int get_depth();
@@ -146,7 +153,7 @@ namespace UnityEngine::EventSystems {
     void Raycast(UnityEngine::EventSystems::PointerEventData* eventData, System::Collections::Generic::List_1<UnityEngine::EventSystems::RaycastResult>* resultAppendList);
   }; // UnityEngine.EventSystems.PhysicsRaycaster
   #pragma pack(pop)
-  static check_size<sizeof(PhysicsRaycaster), 56 + sizeof(::ArrayWrapper<UnityEngine::RaycastHit>)> __UnityEngine_EventSystems_PhysicsRaycasterSizeCheck;
+  static check_size<sizeof(PhysicsRaycaster), 56 + sizeof(::ArrayW<UnityEngine::RaycastHit>)> __UnityEngine_EventSystems_PhysicsRaycasterSizeCheck;
   static_assert(sizeof(PhysicsRaycaster) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::PhysicsRaycaster*, "UnityEngine.EventSystems", "PhysicsRaycaster");

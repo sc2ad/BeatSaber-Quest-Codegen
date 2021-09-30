@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Serialization
@@ -43,9 +44,9 @@ namespace System::Text {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);
     }
     // Get static field: static private readonly System.Char[] arrayCharBestFit
-    static ::ArrayWrapper<::Il2CppChar> _get_arrayCharBestFit();
+    static ::ArrayW<::Il2CppChar> _get_arrayCharBestFit();
     // Set static field: static private readonly System.Char[] arrayCharBestFit
-    static void _set_arrayCharBestFit(::ArrayWrapper<::Il2CppChar> value);
+    static void _set_arrayCharBestFit(::ArrayW<::Il2CppChar> value);
     // System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x1F13934
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -103,7 +104,7 @@ namespace System::Text {
     // Offset: 0x1F14218
     // Implemented from: System.Text.Encoding
     // Base method: System.Char[] Encoding::GetBestFitUnicodeToBytesData()
-    ::ArrayWrapper<::Il2CppChar> GetBestFitUnicodeToBytesData();
+    ::ArrayW<::Il2CppChar> GetBestFitUnicodeToBytesData();
   }; // System.Text.Latin1Encoding
   #pragma pack(pop)
 }
@@ -204,7 +205,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System
 // Writing MetadataGetter for method: System::Text::Latin1Encoding::GetBestFitUnicodeToBytesData
 // Il2CppName: GetBestFitUnicodeToBytesData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppChar> (System::Text::Latin1Encoding::*)()>(&System::Text::Latin1Encoding::GetBestFitUnicodeToBytesData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppChar> (System::Text::Latin1Encoding::*)()>(&System::Text::Latin1Encoding::GetBestFitUnicodeToBytesData)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Text::Latin1Encoding*), "GetBestFitUnicodeToBytesData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

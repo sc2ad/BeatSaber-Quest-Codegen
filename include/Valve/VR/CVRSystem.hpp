@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Valve::VR
@@ -83,12 +84,18 @@ namespace Valve::VR {
     class _GetControllerStateWithPosePacked;
     // Nested type: Valve::VR::CVRSystem::GetControllerStateWithPoseUnion
     struct GetControllerStateWithPoseUnion;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Valve.VR.IVRSystem FnTable
     // Size: 0x178
     // Offset: 0x10
     Valve::VR::IVRSystem FnTable;
     // Field size check
     static_assert(sizeof(Valve::VR::IVRSystem) == 0x178);
+    public:
     // Creating conversion operator: operator Valve::VR::IVRSystem
     constexpr operator Valve::VR::IVRSystem() const noexcept {
       return FnTable;
@@ -137,7 +144,7 @@ namespace Valve::VR {
     bool SetDisplayVisibility(bool bIsVisibleOnDesktop);
     // public System.Void GetDeviceToAbsoluteTrackingPose(Valve.VR.ETrackingUniverseOrigin eOrigin, System.Single fPredictedSecondsToPhotonsFromNow, Valve.VR.TrackedDevicePose_t[] pTrackedDevicePoseArray)
     // Offset: 0x1890124
-    void GetDeviceToAbsoluteTrackingPose(Valve::VR::ETrackingUniverseOrigin eOrigin, float fPredictedSecondsToPhotonsFromNow, ::ArrayWrapper<Valve::VR::TrackedDevicePose_t> pTrackedDevicePoseArray);
+    void GetDeviceToAbsoluteTrackingPose(Valve::VR::ETrackingUniverseOrigin eOrigin, float fPredictedSecondsToPhotonsFromNow, ::ArrayW<Valve::VR::TrackedDevicePose_t> pTrackedDevicePoseArray);
     // public System.Void ResetSeatedZeroPose()
     // Offset: 0x189014C
     void ResetSeatedZeroPose();
@@ -149,7 +156,7 @@ namespace Valve::VR {
     Valve::VR::HmdMatrix34_t GetRawZeroPoseToStandingAbsoluteTrackingPose();
     // public System.UInt32 GetSortedTrackedDeviceIndicesOfClass(Valve.VR.ETrackedDeviceClass eTrackedDeviceClass, System.UInt32[] punTrackedDeviceIndexArray, System.UInt32 unRelativeToTrackedDeviceIndex)
     // Offset: 0x18901A0
-    uint GetSortedTrackedDeviceIndicesOfClass(Valve::VR::ETrackedDeviceClass eTrackedDeviceClass, ::ArrayWrapper<uint> punTrackedDeviceIndexArray, uint unRelativeToTrackedDeviceIndex);
+    uint GetSortedTrackedDeviceIndicesOfClass(Valve::VR::ETrackedDeviceClass eTrackedDeviceClass, ::ArrayW<uint> punTrackedDeviceIndexArray, uint unRelativeToTrackedDeviceIndex);
     // public Valve.VR.EDeviceActivityLevel GetTrackedDeviceActivityLevel(System.UInt32 unDeviceId)
     // Offset: 0x18901CC
     Valve::VR::EDeviceActivityLevel GetTrackedDeviceActivityLevel(uint unDeviceId);
@@ -367,7 +374,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Valve
 // Writing MetadataGetter for method: Valve::VR::CVRSystem::GetDeviceToAbsoluteTrackingPose
 // Il2CppName: GetDeviceToAbsoluteTrackingPose
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRSystem::*)(Valve::VR::ETrackingUniverseOrigin, float, ::ArrayWrapper<Valve::VR::TrackedDevicePose_t>)>(&Valve::VR::CVRSystem::GetDeviceToAbsoluteTrackingPose)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::CVRSystem::*)(Valve::VR::ETrackingUniverseOrigin, float, ::ArrayW<Valve::VR::TrackedDevicePose_t>)>(&Valve::VR::CVRSystem::GetDeviceToAbsoluteTrackingPose)> {
   static const MethodInfo* get() {
     static auto* eOrigin = &::il2cpp_utils::GetClassFromName("Valve.VR", "ETrackingUniverseOrigin")->byval_arg;
     static auto* fPredictedSecondsToPhotonsFromNow = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -402,7 +409,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Valve::VR::
 // Writing MetadataGetter for method: Valve::VR::CVRSystem::GetSortedTrackedDeviceIndicesOfClass
 // Il2CppName: GetSortedTrackedDeviceIndicesOfClass
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve::VR::CVRSystem::*)(Valve::VR::ETrackedDeviceClass, ::ArrayWrapper<uint>, uint)>(&Valve::VR::CVRSystem::GetSortedTrackedDeviceIndicesOfClass)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Valve::VR::CVRSystem::*)(Valve::VR::ETrackedDeviceClass, ::ArrayW<uint>, uint)>(&Valve::VR::CVRSystem::GetSortedTrackedDeviceIndicesOfClass)> {
   static const MethodInfo* get() {
     static auto* eTrackedDeviceClass = &::il2cpp_utils::GetClassFromName("Valve.VR", "ETrackedDeviceClass")->byval_arg;
     static auto* punTrackedDeviceIndexArray = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "UInt32"), 1)->byval_arg;

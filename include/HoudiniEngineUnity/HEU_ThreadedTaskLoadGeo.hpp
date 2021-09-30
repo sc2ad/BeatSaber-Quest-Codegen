@@ -81,12 +81,18 @@ namespace HoudiniEngineUnity {
     // [TokenAttribute] Offset: FFFFFFFF
     struct LoadType/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: LoadType
       constexpr LoadType(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -135,12 +141,18 @@ namespace HoudiniEngineUnity {
       // [TokenAttribute] Offset: FFFFFFFF
       struct LoadStatus/*, public System::Enum*/ {
         public:
+        #ifdef USE_CODEGEN_FIELDS
+        public:
+        #else
+        private:
+        #endif
         // public System.Int32 value__
         // Size: 0x4
         // Offset: 0x0
         int value;
         // Field size check
         static_assert(sizeof(int) == 0x4);
+        public:
         // Creating value type constructor for type: LoadStatus
         constexpr LoadStatus(int value_ = {}) noexcept : value{value_} {}
         // Creating interface conversion operator: operator System::Enum
@@ -181,6 +193,11 @@ namespace HoudiniEngineUnity {
       #pragma pack(pop)
       static check_size<sizeof(HEU_ThreadedTaskLoadGeo::HEU_LoadData::LoadStatus), 0 + sizeof(int)> __HoudiniEngineUnity_HEU_ThreadedTaskLoadGeo_HEU_LoadData_LoadStatusSizeCheck;
       static_assert(sizeof(HEU_ThreadedTaskLoadGeo::HEU_LoadData::LoadStatus) == 0x4);
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 _cookNodeID
       // Size: 0x4
       // Offset: 0x10
@@ -217,6 +234,7 @@ namespace HoudiniEngineUnity {
       System::Collections::Generic::Dictionary_2<int, HoudiniEngineUnity::HEU_LoadBufferBase*>* idBuffersMap;
       // Field size check
       static_assert(sizeof(System::Collections::Generic::Dictionary_2<int, HoudiniEngineUnity::HEU_LoadBufferBase*>*) == 0x8);
+      public:
       // Get instance field reference: public System.Int32 _cookNodeID
       int& dyn__cookNodeID();
       // Get instance field reference: public HoudiniEngineUnity.HEU_ThreadedTaskLoadGeo/HoudiniEngineUnity.HEU_LoadData/HoudiniEngineUnity.LoadStatus _loadStatus
@@ -242,6 +260,11 @@ namespace HoudiniEngineUnity {
     #pragma pack(pop)
     static check_size<sizeof(HEU_ThreadedTaskLoadGeo::HEU_LoadData), 48 + sizeof(System::Collections::Generic::Dictionary_2<int, HoudiniEngineUnity::HEU_LoadBufferBase*>*)> __HoudiniEngineUnity_HEU_ThreadedTaskLoadGeo_HEU_LoadDataSizeCheck;
     static_assert(sizeof(HEU_ThreadedTaskLoadGeo::HEU_LoadData) == 0x38);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private HoudiniEngineUnity.HEU_BaseSync _ownerSync
     // Size: 0x8
     // Offset: 0x38
@@ -288,6 +311,7 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::HEU_LoadCallback* loadCallback;
     // Field size check
     static_assert(sizeof(HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo::HEU_LoadCallback*) == 0x8);
+    public:
     // Get instance field reference: private HoudiniEngineUnity.HEU_BaseSync _ownerSync
     HoudiniEngineUnity::HEU_BaseSync*& dyn__ownerSync();
     // Get instance field reference: private HoudiniEngineUnity.HEU_SessionBase _session

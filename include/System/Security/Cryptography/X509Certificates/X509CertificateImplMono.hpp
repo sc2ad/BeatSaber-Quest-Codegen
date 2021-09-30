@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Mono::Security::X509
@@ -32,14 +33,20 @@ namespace System::Security::Cryptography::X509Certificates {
   // [TokenAttribute] Offset: FFFFFFFF
   class X509CertificateImplMono : public System::Security::Cryptography::X509Certificates::X509CertificateImpl {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Mono.Security.X509.X509Certificate x509
     // Size: 0x8
     // Offset: 0x18
     Mono::Security::X509::X509Certificate* x509;
     // Field size check
     static_assert(sizeof(Mono::Security::X509::X509Certificate*) == 0x8);
-    // Deleting conversion operator: operator ::ArrayWrapper<uint8_t>
-    constexpr operator ::ArrayWrapper<uint8_t>() const noexcept = delete;
+    public:
+    // Deleting conversion operator: operator ::ArrayW<uint8_t>
+    constexpr operator ::ArrayW<uint8_t>() const noexcept = delete;
     // Get instance field reference: private Mono.Security.X509.X509Certificate x509
     Mono::Security::X509::X509Certificate*& dyn_x509();
     // public System.Void .ctor(Mono.Security.X509.X509Certificate x509)
@@ -73,12 +80,12 @@ namespace System::Security::Cryptography::X509Certificates {
     // Offset: 0x1CD0648
     // Implemented from: System.Security.Cryptography.X509Certificates.X509CertificateImpl
     // Base method: System.Byte[] X509CertificateImpl::GetRawCertData()
-    ::ArrayWrapper<uint8_t> GetRawCertData();
+    ::ArrayW<uint8_t> GetRawCertData();
     // protected override System.Byte[] GetCertHash(System.Boolean lazy)
     // Offset: 0x1CD067C
     // Implemented from: System.Security.Cryptography.X509Certificates.X509CertificateImpl
     // Base method: System.Byte[] X509CertificateImpl::GetCertHash(System.Boolean lazy)
-    ::ArrayWrapper<uint8_t> GetCertHash(bool lazy);
+    ::ArrayW<uint8_t> GetCertHash(bool lazy);
     // public override System.DateTime GetValidFrom()
     // Offset: 0x1CD06D0
     // Implemented from: System.Security.Cryptography.X509Certificates.X509CertificateImpl
@@ -98,7 +105,7 @@ namespace System::Security::Cryptography::X509Certificates {
     // Offset: 0x1CD0744
     // Implemented from: System.Security.Cryptography.X509Certificates.X509CertificateImpl
     // Base method: System.Byte[] X509CertificateImpl::GetSerialNumber()
-    ::ArrayWrapper<uint8_t> GetSerialNumber();
+    ::ArrayW<uint8_t> GetSerialNumber();
     // public override System.String ToString(System.Boolean full)
     // Offset: 0x1CD0778
     // Implemented from: System.Security.Cryptography.X509Certificates.X509CertificateImpl
@@ -157,7 +164,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509CertificateImplMono::GetRawCertData
 // Il2CppName: GetRawCertData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (System::Security::Cryptography::X509Certificates::X509CertificateImplMono::*)()>(&System::Security::Cryptography::X509Certificates::X509CertificateImplMono::GetRawCertData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (System::Security::Cryptography::X509Certificates::X509CertificateImplMono::*)()>(&System::Security::Cryptography::X509Certificates::X509CertificateImplMono::GetRawCertData)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509CertificateImplMono*), "GetRawCertData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -165,7 +172,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509CertificateImplMono::GetCertHash
 // Il2CppName: GetCertHash
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (System::Security::Cryptography::X509Certificates::X509CertificateImplMono::*)(bool)>(&System::Security::Cryptography::X509Certificates::X509CertificateImplMono::GetCertHash)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (System::Security::Cryptography::X509Certificates::X509CertificateImplMono::*)(bool)>(&System::Security::Cryptography::X509Certificates::X509CertificateImplMono::GetCertHash)> {
   static const MethodInfo* get() {
     static auto* lazy = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509CertificateImplMono*), "GetCertHash", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{lazy});
@@ -200,7 +207,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509CertificateImplMono::GetSerialNumber
 // Il2CppName: GetSerialNumber
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (System::Security::Cryptography::X509Certificates::X509CertificateImplMono::*)()>(&System::Security::Cryptography::X509Certificates::X509CertificateImplMono::GetSerialNumber)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (System::Security::Cryptography::X509Certificates::X509CertificateImplMono::*)()>(&System::Security::Cryptography::X509Certificates::X509CertificateImplMono::GetSerialNumber)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509CertificateImplMono*), "GetSerialNumber", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

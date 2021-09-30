@@ -48,6 +48,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::LeaderboardTableView::ScoreData
     class ScoreData;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private HMUI.TableView _tableView
     // Size: 0x8
     // Offset: 0x18
@@ -80,6 +85,7 @@ namespace GlobalNamespace {
     int specialScorePos;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating interface conversion operator: operator HMUI::TableView::IDataSource
     operator HMUI::TableView::IDataSource() noexcept {
       return *reinterpret_cast<HMUI::TableView::IDataSource*>(this);

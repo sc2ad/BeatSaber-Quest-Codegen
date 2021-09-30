@@ -27,12 +27,18 @@ namespace Mono::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class CFString : public Mono::Net::CFObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String str
     // Size: 0x8
     // Offset: 0x18
     ::Il2CppString* str;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.String str

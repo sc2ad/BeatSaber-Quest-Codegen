@@ -29,6 +29,11 @@ namespace NUnit::Framework::Constraints {
   // [TokenAttribute] Offset: FFFFFFFF
   class ComparisonConstraint : public NUnit::Framework::Constraints::Constraint {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // protected System.Object expected
     // Size: 0x8
     // Offset: 0x30
@@ -61,6 +66,7 @@ namespace NUnit::Framework::Constraints {
     NUnit::Framework::Constraints::ComparisonAdapter* comparer;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Constraints::ComparisonAdapter*) == 0x8);
+    public:
     // Get instance field reference: protected System.Object expected
     ::Il2CppObject*& dyn_expected();
     // Get instance field reference: protected System.Boolean lessComparisonResult

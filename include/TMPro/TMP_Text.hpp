@@ -43,6 +43,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: TMPro
@@ -111,12 +112,18 @@ namespace TMPro {
     // [TokenAttribute] Offset: FFFFFFFF
     struct TextInputSources/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: TextInputSources
       constexpr TextInputSources(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -164,6 +171,11 @@ namespace TMPro {
     // [TokenAttribute] Offset: FFFFFFFF
     struct UnicodeChar/*, public System::ValueType*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 unicode
       // Size: 0x4
       // Offset: 0x0
@@ -182,6 +194,7 @@ namespace TMPro {
       int length;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: UnicodeChar
       constexpr UnicodeChar(int unicode_ = {}, int stringIndex_ = {}, int length_ = {}) noexcept : unicode{unicode_}, stringIndex{stringIndex_}, length{length_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -198,6 +211,11 @@ namespace TMPro {
     #pragma pack(pop)
     static check_size<sizeof(TMP_Text::UnicodeChar), 8 + sizeof(int)> __TMPro_TMP_Text_UnicodeCharSizeCheck;
     static_assert(sizeof(TMP_Text::UnicodeChar) == 0xC);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [TextAreaAttribute] Offset: 0xEB83C4
     // protected System.String m_text
     // Size: 0x8
@@ -244,9 +262,9 @@ namespace TMPro {
     // protected TMPro.MaterialReference[] m_materialReferences
     // Size: 0x8
     // Offset: 0xF8
-    ::ArrayWrapper<TMPro::MaterialReference> m_materialReferences;
+    ::ArrayW<TMPro::MaterialReference> m_materialReferences;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<TMPro::MaterialReference>) == 0x8);
+    static_assert(sizeof(::ArrayW<TMPro::MaterialReference>) == 0x8);
     // protected System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> m_materialReferenceIndexLookup
     // Size: 0x8
     // Offset: 0x100
@@ -266,9 +284,9 @@ namespace TMPro {
     // protected UnityEngine.Material[] m_fontSharedMaterials
     // Size: 0x8
     // Offset: 0x158
-    ::ArrayWrapper<UnityEngine::Material*> m_fontSharedMaterials;
+    ::ArrayW<UnityEngine::Material*> m_fontSharedMaterials;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Material*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Material*>) == 0x8);
     // protected UnityEngine.Material m_fontMaterial
     // Size: 0x8
     // Offset: 0x160
@@ -278,9 +296,9 @@ namespace TMPro {
     // protected UnityEngine.Material[] m_fontMaterials
     // Size: 0x8
     // Offset: 0x168
-    ::ArrayWrapper<UnityEngine::Material*> m_fontMaterials;
+    ::ArrayW<UnityEngine::Material*> m_fontMaterials;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Material*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Material*>) == 0x8);
     // protected System.Boolean m_isMaterialDirty
     // Size: 0x1
     // Offset: 0x170
@@ -507,9 +525,9 @@ namespace TMPro {
     // protected UnityEngine.Vector3[] m_textContainerLocalCorners
     // Size: 0x8
     // Offset: 0x2A8
-    ::ArrayWrapper<UnityEngine::Vector3> m_textContainerLocalCorners;
+    ::ArrayW<UnityEngine::Vector3> m_textContainerLocalCorners;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector3>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Vector3>) == 0x8);
     // protected System.Single m_characterSpacing
     // Size: 0x4
     // Offset: 0x2B0
@@ -1035,21 +1053,21 @@ namespace TMPro {
     // protected System.Char[] m_htmlTag
     // Size: 0x8
     // Offset: 0x400
-    ::ArrayWrapper<::Il2CppChar> m_htmlTag;
+    ::ArrayW<::Il2CppChar> m_htmlTag;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppChar>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppChar>) == 0x8);
     // protected TMPro.RichTextTagAttribute[] m_xmlAttribute
     // Size: 0x8
     // Offset: 0x408
-    ::ArrayWrapper<TMPro::RichTextTagAttribute> m_xmlAttribute;
+    ::ArrayW<TMPro::RichTextTagAttribute> m_xmlAttribute;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<TMPro::RichTextTagAttribute>) == 0x8);
+    static_assert(sizeof(::ArrayW<TMPro::RichTextTagAttribute>) == 0x8);
     // protected System.Single[] m_attributeParameterValues
     // Size: 0x8
     // Offset: 0x410
-    ::ArrayWrapper<float> m_attributeParameterValues;
+    ::ArrayW<float> m_attributeParameterValues;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<float>) == 0x8);
+    static_assert(sizeof(::ArrayW<float>) == 0x8);
     // protected System.Single tag_LineIndent
     // Size: 0x4
     // Offset: 0x418
@@ -1093,21 +1111,21 @@ namespace TMPro {
     // protected TMPro.TMP_Text/TMPro.UnicodeChar[] m_TextParsingBuffer
     // Size: 0x8
     // Offset: 0x480
-    ::ArrayWrapper<TMPro::TMP_Text::UnicodeChar> m_TextParsingBuffer;
+    ::ArrayW<TMPro::TMP_Text::UnicodeChar> m_TextParsingBuffer;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<TMPro::TMP_Text::UnicodeChar>) == 0x8);
+    static_assert(sizeof(::ArrayW<TMPro::TMP_Text::UnicodeChar>) == 0x8);
     // private TMPro.TMP_CharacterInfo[] m_internalCharacterInfo
     // Size: 0x8
     // Offset: 0x488
-    ::ArrayWrapper<TMPro::TMP_CharacterInfo> m_internalCharacterInfo;
+    ::ArrayW<TMPro::TMP_CharacterInfo> m_internalCharacterInfo;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<TMPro::TMP_CharacterInfo>) == 0x8);
+    static_assert(sizeof(::ArrayW<TMPro::TMP_CharacterInfo>) == 0x8);
     // protected System.Char[] m_input_CharArray
     // Size: 0x8
     // Offset: 0x490
-    ::ArrayWrapper<::Il2CppChar> m_input_CharArray;
+    ::ArrayW<::Il2CppChar> m_input_CharArray;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppChar>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppChar>) == 0x8);
     // private System.Int32 m_charArray_Length
     // Size: 0x4
     // Offset: 0x498
@@ -1361,9 +1379,10 @@ namespace TMPro {
     // private readonly System.Single[] k_Power
     // Size: 0x8
     // Offset: 0xB28
-    ::ArrayWrapper<float> k_Power;
+    ::ArrayW<float> k_Power;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<float>) == 0x8);
+    static_assert(sizeof(::ArrayW<float>) == 0x8);
+    public:
     // Get static field: static protected UnityEngine.Color32 s_colorWhite
     static UnityEngine::Color32 _get_s_colorWhite();
     // Set static field: static protected UnityEngine.Color32 s_colorWhite
@@ -1407,7 +1426,7 @@ namespace TMPro {
     // Get instance field reference: protected UnityEngine.Material m_currentMaterial
     UnityEngine::Material*& dyn_m_currentMaterial();
     // Get instance field reference: protected TMPro.MaterialReference[] m_materialReferences
-    ::ArrayWrapper<TMPro::MaterialReference>& dyn_m_materialReferences();
+    ::ArrayW<TMPro::MaterialReference>& dyn_m_materialReferences();
     // Get instance field reference: protected System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> m_materialReferenceIndexLookup
     System::Collections::Generic::Dictionary_2<int, int>*& dyn_m_materialReferenceIndexLookup();
     // Get instance field reference: protected TMPro.TMP_RichTextTagStack`1<TMPro.MaterialReference> m_materialReferenceStack
@@ -1415,11 +1434,11 @@ namespace TMPro {
     // Get instance field reference: protected System.Int32 m_currentMaterialIndex
     int& dyn_m_currentMaterialIndex();
     // Get instance field reference: protected UnityEngine.Material[] m_fontSharedMaterials
-    ::ArrayWrapper<UnityEngine::Material*>& dyn_m_fontSharedMaterials();
+    ::ArrayW<UnityEngine::Material*>& dyn_m_fontSharedMaterials();
     // Get instance field reference: protected UnityEngine.Material m_fontMaterial
     UnityEngine::Material*& dyn_m_fontMaterial();
     // Get instance field reference: protected UnityEngine.Material[] m_fontMaterials
-    ::ArrayWrapper<UnityEngine::Material*>& dyn_m_fontMaterials();
+    ::ArrayW<UnityEngine::Material*>& dyn_m_fontMaterials();
     // Get instance field reference: protected System.Boolean m_isMaterialDirty
     bool& dyn_m_isMaterialDirty();
     // Get instance field reference: protected UnityEngine.Color32 m_fontColor32
@@ -1497,7 +1516,7 @@ namespace TMPro {
     // Get instance field reference: protected TMPro.TMP_RichTextTagStack`1<TMPro.TextAlignmentOptions> m_lineJustificationStack
     TMPro::TMP_RichTextTagStack_1<TMPro::TextAlignmentOptions>& dyn_m_lineJustificationStack();
     // Get instance field reference: protected UnityEngine.Vector3[] m_textContainerLocalCorners
-    ::ArrayWrapper<UnityEngine::Vector3>& dyn_m_textContainerLocalCorners();
+    ::ArrayW<UnityEngine::Vector3>& dyn_m_textContainerLocalCorners();
     // Get instance field reference: protected System.Single m_characterSpacing
     float& dyn_m_characterSpacing();
     // Get instance field reference: protected System.Single m_cSpacing
@@ -1673,11 +1692,11 @@ namespace TMPro {
     // Get instance field reference: protected System.Single m_fontScaleMultiplier
     float& dyn_m_fontScaleMultiplier();
     // Get instance field reference: protected System.Char[] m_htmlTag
-    ::ArrayWrapper<::Il2CppChar>& dyn_m_htmlTag();
+    ::ArrayW<::Il2CppChar>& dyn_m_htmlTag();
     // Get instance field reference: protected TMPro.RichTextTagAttribute[] m_xmlAttribute
-    ::ArrayWrapper<TMPro::RichTextTagAttribute>& dyn_m_xmlAttribute();
+    ::ArrayW<TMPro::RichTextTagAttribute>& dyn_m_xmlAttribute();
     // Get instance field reference: protected System.Single[] m_attributeParameterValues
-    ::ArrayWrapper<float>& dyn_m_attributeParameterValues();
+    ::ArrayW<float>& dyn_m_attributeParameterValues();
     // Get instance field reference: protected System.Single tag_LineIndent
     float& dyn_tag_LineIndent();
     // Get instance field reference: protected System.Single tag_Indent
@@ -1693,11 +1712,11 @@ namespace TMPro {
     // Get instance field reference: protected System.Boolean m_isFXMatrixSet
     bool& dyn_m_isFXMatrixSet();
     // Get instance field reference: protected TMPro.TMP_Text/TMPro.UnicodeChar[] m_TextParsingBuffer
-    ::ArrayWrapper<TMPro::TMP_Text::UnicodeChar>& dyn_m_TextParsingBuffer();
+    ::ArrayW<TMPro::TMP_Text::UnicodeChar>& dyn_m_TextParsingBuffer();
     // Get instance field reference: private TMPro.TMP_CharacterInfo[] m_internalCharacterInfo
-    ::ArrayWrapper<TMPro::TMP_CharacterInfo>& dyn_m_internalCharacterInfo();
+    ::ArrayW<TMPro::TMP_CharacterInfo>& dyn_m_internalCharacterInfo();
     // Get instance field reference: protected System.Char[] m_input_CharArray
-    ::ArrayWrapper<::Il2CppChar>& dyn_m_input_CharArray();
+    ::ArrayW<::Il2CppChar>& dyn_m_input_CharArray();
     // Get instance field reference: private System.Int32 m_charArray_Length
     int& dyn_m_charArray_Length();
     // Get instance field reference: protected System.Int32 m_totalCharacterCount
@@ -1789,7 +1808,7 @@ namespace TMPro {
     // Get instance field reference: protected System.Boolean m_ignoreActiveState
     bool& dyn_m_ignoreActiveState();
     // Get instance field reference: private readonly System.Single[] k_Power
-    ::ArrayWrapper<float>& dyn_k_Power();
+    ::ArrayW<float>& dyn_k_Power();
     // public System.String get_text()
     // Offset: 0x1229A6C
     ::Il2CppString* get_text();
@@ -1816,10 +1835,10 @@ namespace TMPro {
     void set_fontSharedMaterial(UnityEngine::Material* value);
     // public UnityEngine.Material[] get_fontSharedMaterials()
     // Offset: 0x1229D34
-    ::ArrayWrapper<UnityEngine::Material*> get_fontSharedMaterials();
+    ::ArrayW<UnityEngine::Material*> get_fontSharedMaterials();
     // public System.Void set_fontSharedMaterials(UnityEngine.Material[] value)
     // Offset: 0x1229D44
-    void set_fontSharedMaterials(::ArrayWrapper<UnityEngine::Material*> value);
+    void set_fontSharedMaterials(::ArrayW<UnityEngine::Material*> value);
     // public UnityEngine.Material get_fontMaterial()
     // Offset: 0x1229DA0
     UnityEngine::Material* get_fontMaterial();
@@ -1828,10 +1847,10 @@ namespace TMPro {
     void set_fontMaterial(UnityEngine::Material* value);
     // public UnityEngine.Material[] get_fontMaterials()
     // Offset: 0x1229EC4
-    ::ArrayWrapper<UnityEngine::Material*> get_fontMaterials();
+    ::ArrayW<UnityEngine::Material*> get_fontMaterials();
     // public System.Void set_fontMaterials(UnityEngine.Material[] value)
     // Offset: 0x1229ED8
-    void set_fontMaterials(::ArrayWrapper<UnityEngine::Material*> value);
+    void set_fontMaterials(::ArrayW<UnityEngine::Material*> value);
     // public System.Single get_alpha()
     // Offset: 0x1229FF0
     float get_alpha();
@@ -2239,13 +2258,13 @@ namespace TMPro {
     void SetFontBaseMaterial(UnityEngine::Material* mat);
     // protected UnityEngine.Material[] GetSharedMaterials()
     // Offset: 0x122C05C
-    ::ArrayWrapper<UnityEngine::Material*> GetSharedMaterials();
+    ::ArrayW<UnityEngine::Material*> GetSharedMaterials();
     // protected System.Void SetSharedMaterials(UnityEngine.Material[] materials)
     // Offset: 0x122C064
-    void SetSharedMaterials(::ArrayWrapper<UnityEngine::Material*> materials);
+    void SetSharedMaterials(::ArrayW<UnityEngine::Material*> materials);
     // protected UnityEngine.Material[] GetMaterials(UnityEngine.Material[] mats)
     // Offset: 0x122C068
-    ::ArrayWrapper<UnityEngine::Material*> GetMaterials(::ArrayWrapper<UnityEngine::Material*> mats);
+    ::ArrayW<UnityEngine::Material*> GetMaterials(::ArrayW<UnityEngine::Material*> mats);
     // protected UnityEngine.Material CreateMaterialInstance(UnityEngine.Material source)
     // Offset: 0x122C070
     UnityEngine::Material* CreateMaterialInstance(UnityEngine::Material* source);
@@ -2257,7 +2276,7 @@ namespace TMPro {
     void SetTextSortingOrder(TMPro::VertexSortingOrder order);
     // protected System.Void SetTextSortingOrder(System.Int32[] order)
     // Offset: 0x122C208
-    void SetTextSortingOrder(::ArrayWrapper<int> order);
+    void SetTextSortingOrder(::ArrayW<int> order);
     // protected System.Void SetFaceColor(UnityEngine.Color32 color)
     // Offset: 0x122C20C
     void SetFaceColor(UnityEngine::Color32 color);
@@ -2281,7 +2300,7 @@ namespace TMPro {
     float GetPaddingForMaterial(UnityEngine::Material* mat);
     // protected UnityEngine.Vector3[] GetTextContainerLocalCorners()
     // Offset: 0x122C230
-    ::ArrayWrapper<UnityEngine::Vector3> GetTextContainerLocalCorners();
+    ::ArrayW<UnityEngine::Vector3> GetTextContainerLocalCorners();
     // public System.Void ForceMeshUpdate()
     // Offset: 0x122C238
     void ForceMeshUpdate();
@@ -2302,7 +2321,7 @@ namespace TMPro {
     void UpdateVertexData();
     // public System.Void SetVertices(UnityEngine.Vector3[] vertices)
     // Offset: 0x122C290
-    void SetVertices(::ArrayWrapper<UnityEngine::Vector3> vertices);
+    void SetVertices(::ArrayW<UnityEngine::Vector3> vertices);
     // public System.Void UpdateMeshPadding()
     // Offset: 0x122C294
     void UpdateMeshPadding();
@@ -2335,55 +2354,55 @@ namespace TMPro {
     void SetText(System::Text::StringBuilder* text);
     // public System.Void SetCharArray(System.Char[] sourceText)
     // Offset: 0x122DCCC
-    void SetCharArray(::ArrayWrapper<::Il2CppChar> sourceText);
+    void SetCharArray(::ArrayW<::Il2CppChar> sourceText);
     // public System.Void SetCharArray(System.Char[] sourceText, System.Int32 start, System.Int32 length)
     // Offset: 0x122E6D0
-    void SetCharArray(::ArrayWrapper<::Il2CppChar> sourceText, int start, int length);
+    void SetCharArray(::ArrayW<::Il2CppChar> sourceText, int start, int length);
     // public System.Void SetCharArray(System.Int32[] sourceText, System.Int32 start, System.Int32 length)
     // Offset: 0x122EAD8
-    void SetCharArray(::ArrayWrapper<int> sourceText, int start, int length);
+    void SetCharArray(::ArrayW<int> sourceText, int start, int length);
     // protected System.Void SetTextArrayToCharArray(System.Char[] sourceText, ref TMPro.TMP_Text/TMPro.UnicodeChar[] charBuffer)
     // Offset: 0x122CD00
-    void SetTextArrayToCharArray(::ArrayWrapper<::Il2CppChar> sourceText, ByRef<::ArrayWrapper<TMPro::TMP_Text::UnicodeChar>> charBuffer);
+    void SetTextArrayToCharArray(::ArrayW<::Il2CppChar> sourceText, ByRef<::ArrayW<TMPro::TMP_Text::UnicodeChar>> charBuffer);
     // protected System.Void StringToCharArray(System.String sourceText, ref TMPro.TMP_Text/TMPro.UnicodeChar[] charBuffer)
     // Offset: 0x122C3FC
-    void StringToCharArray(::Il2CppString* sourceText, ByRef<::ArrayWrapper<TMPro::TMP_Text::UnicodeChar>> charBuffer);
+    void StringToCharArray(::Il2CppString* sourceText, ByRef<::ArrayW<TMPro::TMP_Text::UnicodeChar>> charBuffer);
     // protected System.Void StringBuilderToIntArray(System.Text.StringBuilder sourceText, ref TMPro.TMP_Text/TMPro.UnicodeChar[] charBuffer)
     // Offset: 0x122D5A8
-    void StringBuilderToIntArray(System::Text::StringBuilder* sourceText, ByRef<::ArrayWrapper<TMPro::TMP_Text::UnicodeChar>> charBuffer);
+    void StringBuilderToIntArray(System::Text::StringBuilder* sourceText, ByRef<::ArrayW<TMPro::TMP_Text::UnicodeChar>> charBuffer);
     // private System.Boolean ReplaceOpeningStyleTag(ref System.String sourceText, System.Int32 srcIndex, out System.Int32 srcOffset, ref TMPro.TMP_Text/TMPro.UnicodeChar[] charBuffer, ref System.Int32 writeIndex)
     // Offset: 0x122F7E4
-    bool ReplaceOpeningStyleTag(ByRef<::Il2CppString*> sourceText, int srcIndex, ByRef<int> srcOffset, ByRef<::ArrayWrapper<TMPro::TMP_Text::UnicodeChar>> charBuffer, ByRef<int> writeIndex);
+    bool ReplaceOpeningStyleTag(ByRef<::Il2CppString*> sourceText, int srcIndex, ByRef<int> srcOffset, ByRef<::ArrayW<TMPro::TMP_Text::UnicodeChar>> charBuffer, ByRef<int> writeIndex);
     // private System.Boolean ReplaceOpeningStyleTag(ref System.Int32[] sourceText, System.Int32 srcIndex, out System.Int32 srcOffset, ref TMPro.TMP_Text/TMPro.UnicodeChar[] charBuffer, ref System.Int32 writeIndex)
     // Offset: 0x122F014
-    bool ReplaceOpeningStyleTag(ByRef<::ArrayWrapper<int>> sourceText, int srcIndex, ByRef<int> srcOffset, ByRef<::ArrayWrapper<TMPro::TMP_Text::UnicodeChar>> charBuffer, ByRef<int> writeIndex);
+    bool ReplaceOpeningStyleTag(ByRef<::ArrayW<int>> sourceText, int srcIndex, ByRef<int> srcOffset, ByRef<::ArrayW<TMPro::TMP_Text::UnicodeChar>> charBuffer, ByRef<int> writeIndex);
     // private System.Boolean ReplaceOpeningStyleTag(ref System.Char[] sourceText, System.Int32 srcIndex, out System.Int32 srcOffset, ref TMPro.TMP_Text/TMPro.UnicodeChar[] charBuffer, ref System.Int32 writeIndex)
     // Offset: 0x122E200
-    bool ReplaceOpeningStyleTag(ByRef<::ArrayWrapper<::Il2CppChar>> sourceText, int srcIndex, ByRef<int> srcOffset, ByRef<::ArrayWrapper<TMPro::TMP_Text::UnicodeChar>> charBuffer, ByRef<int> writeIndex);
+    bool ReplaceOpeningStyleTag(ByRef<::ArrayW<::Il2CppChar>> sourceText, int srcIndex, ByRef<int> srcOffset, ByRef<::ArrayW<TMPro::TMP_Text::UnicodeChar>> charBuffer, ByRef<int> writeIndex);
     // private System.Boolean ReplaceOpeningStyleTag(ref System.Text.StringBuilder sourceText, System.Int32 srcIndex, out System.Int32 srcOffset, ref TMPro.TMP_Text/TMPro.UnicodeChar[] charBuffer, ref System.Int32 writeIndex)
     // Offset: 0x122FFB8
-    bool ReplaceOpeningStyleTag(ByRef<System::Text::StringBuilder*> sourceText, int srcIndex, ByRef<int> srcOffset, ByRef<::ArrayWrapper<TMPro::TMP_Text::UnicodeChar>> charBuffer, ByRef<int> writeIndex);
+    bool ReplaceOpeningStyleTag(ByRef<System::Text::StringBuilder*> sourceText, int srcIndex, ByRef<int> srcOffset, ByRef<::ArrayW<TMPro::TMP_Text::UnicodeChar>> charBuffer, ByRef<int> writeIndex);
     // private System.Boolean ReplaceClosingStyleTag(ref System.String sourceText, System.Int32 srcIndex, ref TMPro.TMP_Text/TMPro.UnicodeChar[] charBuffer, ref System.Int32 writeIndex)
     // Offset: 0x122FA54
-    bool ReplaceClosingStyleTag(ByRef<::Il2CppString*> sourceText, int srcIndex, ByRef<::ArrayWrapper<TMPro::TMP_Text::UnicodeChar>> charBuffer, ByRef<int> writeIndex);
+    bool ReplaceClosingStyleTag(ByRef<::Il2CppString*> sourceText, int srcIndex, ByRef<::ArrayW<TMPro::TMP_Text::UnicodeChar>> charBuffer, ByRef<int> writeIndex);
     // private System.Boolean ReplaceClosingStyleTag(ref System.Int32[] sourceText, System.Int32 srcIndex, ref TMPro.TMP_Text/TMPro.UnicodeChar[] charBuffer, ref System.Int32 writeIndex)
     // Offset: 0x122F284
-    bool ReplaceClosingStyleTag(ByRef<::ArrayWrapper<int>> sourceText, int srcIndex, ByRef<::ArrayWrapper<TMPro::TMP_Text::UnicodeChar>> charBuffer, ByRef<int> writeIndex);
+    bool ReplaceClosingStyleTag(ByRef<::ArrayW<int>> sourceText, int srcIndex, ByRef<::ArrayW<TMPro::TMP_Text::UnicodeChar>> charBuffer, ByRef<int> writeIndex);
     // private System.Boolean ReplaceClosingStyleTag(ref System.Char[] sourceText, System.Int32 srcIndex, ref TMPro.TMP_Text/TMPro.UnicodeChar[] charBuffer, ref System.Int32 writeIndex)
     // Offset: 0x122E470
-    bool ReplaceClosingStyleTag(ByRef<::ArrayWrapper<::Il2CppChar>> sourceText, int srcIndex, ByRef<::ArrayWrapper<TMPro::TMP_Text::UnicodeChar>> charBuffer, ByRef<int> writeIndex);
+    bool ReplaceClosingStyleTag(ByRef<::ArrayW<::Il2CppChar>> sourceText, int srcIndex, ByRef<::ArrayW<TMPro::TMP_Text::UnicodeChar>> charBuffer, ByRef<int> writeIndex);
     // private System.Boolean ReplaceClosingStyleTag(ref System.Text.StringBuilder sourceText, System.Int32 srcIndex, ref TMPro.TMP_Text/TMPro.UnicodeChar[] charBuffer, ref System.Int32 writeIndex)
     // Offset: 0x1230228
-    bool ReplaceClosingStyleTag(ByRef<System::Text::StringBuilder*> sourceText, int srcIndex, ByRef<::ArrayWrapper<TMPro::TMP_Text::UnicodeChar>> charBuffer, ByRef<int> writeIndex);
+    bool ReplaceClosingStyleTag(ByRef<System::Text::StringBuilder*> sourceText, int srcIndex, ByRef<::ArrayW<TMPro::TMP_Text::UnicodeChar>> charBuffer, ByRef<int> writeIndex);
     // private System.Boolean IsTagName(ref System.String text, System.String tag, System.Int32 index)
     // Offset: 0x122F6DC
     bool IsTagName(ByRef<::Il2CppString*> text, ::Il2CppString* tag, int index);
     // private System.Boolean IsTagName(ref System.Char[] text, System.String tag, System.Int32 index)
     // Offset: 0x122E0D0
-    bool IsTagName(ByRef<::ArrayWrapper<::Il2CppChar>> text, ::Il2CppString* tag, int index);
+    bool IsTagName(ByRef<::ArrayW<::Il2CppChar>> text, ::Il2CppString* tag, int index);
     // private System.Boolean IsTagName(ref System.Int32[] text, System.String tag, System.Int32 index)
     // Offset: 0x122EEE4
-    bool IsTagName(ByRef<::ArrayWrapper<int>> text, ::Il2CppString* tag, int index);
+    bool IsTagName(ByRef<::ArrayW<int>> text, ::Il2CppString* tag, int index);
     // private System.Boolean IsTagName(ref System.Text.StringBuilder text, System.String tag, System.Int32 index)
     // Offset: 0x122FEAC
     bool IsTagName(ByRef<System::Text::StringBuilder*> text, ::Il2CppString* tag, int index);
@@ -2392,17 +2411,17 @@ namespace TMPro {
     int GetTagHashCode(ByRef<::Il2CppString*> text, int index, ByRef<int> closeIndex);
     // private System.Int32 GetTagHashCode(ref System.Char[] text, System.Int32 index, out System.Int32 closeIndex)
     // Offset: 0x12305C0
-    int GetTagHashCode(ByRef<::ArrayWrapper<::Il2CppChar>> text, int index, ByRef<int> closeIndex);
+    int GetTagHashCode(ByRef<::ArrayW<::Il2CppChar>> text, int index, ByRef<int> closeIndex);
     // private System.Int32 GetTagHashCode(ref System.Int32[] text, System.Int32 index, out System.Int32 closeIndex)
     // Offset: 0x1230540
-    int GetTagHashCode(ByRef<::ArrayWrapper<int>> text, int index, ByRef<int> closeIndex);
+    int GetTagHashCode(ByRef<::ArrayW<int>> text, int index, ByRef<int> closeIndex);
     // private System.Int32 GetTagHashCode(ref System.Text.StringBuilder text, System.Int32 index, out System.Int32 closeIndex)
     // Offset: 0x1230640
     int GetTagHashCode(ByRef<System::Text::StringBuilder*> text, int index, ByRef<int> closeIndex);
     // private System.Void ResizeInternalArray(ref T[] array)
     // Offset: 0xFFFFFFFF
     template<class T>
-    void ResizeInternalArray(ByRef<::ArrayWrapper<T>> array) {
+    void ResizeInternalArray(ByRef<::ArrayW<T>> array) {
       static auto ___internal__logger = ::Logger::get().WithContext("TMPro::TMP_Text::ResizeInternalArray");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "ResizeInternalArray", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
@@ -2417,7 +2436,7 @@ namespace TMPro {
     void AddIntToCharArray(double number, ByRef<int> index, int precision);
     // protected System.Int32 SetArraySizes(TMPro.TMP_Text/TMPro.UnicodeChar[] chars)
     // Offset: 0x1230870
-    int SetArraySizes(::ArrayWrapper<TMPro::TMP_Text::UnicodeChar> chars);
+    int SetArraySizes(::ArrayW<TMPro::TMP_Text::UnicodeChar> chars);
     // protected System.Void GenerateTextMesh()
     // Offset: 0x1230878
     void GenerateTextMesh();
@@ -2522,7 +2541,7 @@ namespace TMPro {
     void GetSpecialCharacters(TMPro::TMP_FontAsset* fontAsset);
     // protected System.Void ReplaceTagWithCharacter(System.Int32[] chars, System.Int32 insertionIndex, System.Int32 tagLength, System.Char c)
     // Offset: 0x123C8B4
-    void ReplaceTagWithCharacter(::ArrayWrapper<int> chars, int insertionIndex, int tagLength, ::Il2CppChar c);
+    void ReplaceTagWithCharacter(::ArrayW<int> chars, int insertionIndex, int tagLength, ::Il2CppChar c);
     // protected TMPro.TMP_FontAsset GetFontAssetForWeight(System.Int32 fontWeight)
     // Offset: 0x123C938
     TMPro::TMP_FontAsset* GetFontAssetForWeight(int fontWeight);
@@ -2567,22 +2586,22 @@ namespace TMPro {
     int GetUTF32(System::Text::StringBuilder* text, int i);
     // protected UnityEngine.Color32 HexCharsToColor(System.Char[] hexChars, System.Int32 tagCount)
     // Offset: 0x123CB5C
-    UnityEngine::Color32 HexCharsToColor(::ArrayWrapper<::Il2CppChar> hexChars, int tagCount);
+    UnityEngine::Color32 HexCharsToColor(::ArrayW<::Il2CppChar> hexChars, int tagCount);
     // protected UnityEngine.Color32 HexCharsToColor(System.Char[] hexChars, System.Int32 startIndex, System.Int32 length)
     // Offset: 0x123CFB4
-    UnityEngine::Color32 HexCharsToColor(::ArrayWrapper<::Il2CppChar> hexChars, int startIndex, int length);
+    UnityEngine::Color32 HexCharsToColor(::ArrayW<::Il2CppChar> hexChars, int startIndex, int length);
     // private System.Int32 GetAttributeParameters(System.Char[] chars, System.Int32 startIndex, System.Int32 length, ref System.Single[] parameters)
     // Offset: 0x123D230
-    int GetAttributeParameters(::ArrayWrapper<::Il2CppChar> chars, int startIndex, int length, ByRef<::ArrayWrapper<float>> parameters);
+    int GetAttributeParameters(::ArrayW<::Il2CppChar> chars, int startIndex, int length, ByRef<::ArrayW<float>> parameters);
     // protected System.Single ConvertToFloat(System.Char[] chars, System.Int32 startIndex, System.Int32 length)
     // Offset: 0x123D45C
-    float ConvertToFloat(::ArrayWrapper<::Il2CppChar> chars, int startIndex, int length);
+    float ConvertToFloat(::ArrayW<::Il2CppChar> chars, int startIndex, int length);
     // protected System.Single ConvertToFloat(System.Char[] chars, System.Int32 startIndex, System.Int32 length, out System.Int32 lastIndex)
     // Offset: 0x123D2F0
-    float ConvertToFloat(::ArrayWrapper<::Il2CppChar> chars, int startIndex, int length, ByRef<int> lastIndex);
+    float ConvertToFloat(::ArrayW<::Il2CppChar> chars, int startIndex, int length, ByRef<int> lastIndex);
     // protected System.Boolean ValidateHtmlTag(TMPro.TMP_Text/TMPro.UnicodeChar[] chars, System.Int32 startIndex, out System.Int32 endIndex)
     // Offset: 0x12333C8
-    bool ValidateHtmlTag(::ArrayWrapper<TMPro::TMP_Text::UnicodeChar> chars, int startIndex, ByRef<int> endIndex);
+    bool ValidateHtmlTag(::ArrayW<TMPro::TMP_Text::UnicodeChar> chars, int startIndex, ByRef<int> endIndex);
     // public override UnityEngine.Color get_color()
     // Offset: 0x1229F34
     // Implemented from: UnityEngine.UI.Graphic
@@ -2716,7 +2735,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_Text::get_fontSharedMaterials
 // Il2CppName: get_fontSharedMaterials
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Material*> (TMPro::TMP_Text::*)()>(&TMPro::TMP_Text::get_fontSharedMaterials)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Material*> (TMPro::TMP_Text::*)()>(&TMPro::TMP_Text::get_fontSharedMaterials)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Text*), "get_fontSharedMaterials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2724,7 +2743,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: TMPro::TMP_Text::set_fontSharedMaterials
 // Il2CppName: set_fontSharedMaterials
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Text::*)(::ArrayWrapper<UnityEngine::Material*>)>(&TMPro::TMP_Text::set_fontSharedMaterials)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Text::*)(::ArrayW<UnityEngine::Material*>)>(&TMPro::TMP_Text::set_fontSharedMaterials)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Material"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Text*), "set_fontSharedMaterials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -2750,7 +2769,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_Text::get_fontMaterials
 // Il2CppName: get_fontMaterials
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Material*> (TMPro::TMP_Text::*)()>(&TMPro::TMP_Text::get_fontMaterials)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Material*> (TMPro::TMP_Text::*)()>(&TMPro::TMP_Text::get_fontMaterials)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Text*), "get_fontMaterials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -2758,7 +2777,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: TMPro::TMP_Text::set_fontMaterials
 // Il2CppName: set_fontMaterials
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Text::*)(::ArrayWrapper<UnityEngine::Material*>)>(&TMPro::TMP_Text::set_fontMaterials)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Text::*)(::ArrayW<UnityEngine::Material*>)>(&TMPro::TMP_Text::set_fontMaterials)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Material"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Text*), "set_fontMaterials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -3904,7 +3923,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_Text::GetSharedMaterials
 // Il2CppName: GetSharedMaterials
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Material*> (TMPro::TMP_Text::*)()>(&TMPro::TMP_Text::GetSharedMaterials)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Material*> (TMPro::TMP_Text::*)()>(&TMPro::TMP_Text::GetSharedMaterials)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Text*), "GetSharedMaterials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -3912,7 +3931,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: TMPro::TMP_Text::SetSharedMaterials
 // Il2CppName: SetSharedMaterials
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Text::*)(::ArrayWrapper<UnityEngine::Material*>)>(&TMPro::TMP_Text::SetSharedMaterials)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Text::*)(::ArrayW<UnityEngine::Material*>)>(&TMPro::TMP_Text::SetSharedMaterials)> {
   static const MethodInfo* get() {
     static auto* materials = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Material"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Text*), "SetSharedMaterials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{materials});
@@ -3921,7 +3940,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_Text::GetMaterials
 // Il2CppName: GetMaterials
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Material*> (TMPro::TMP_Text::*)(::ArrayWrapper<UnityEngine::Material*>)>(&TMPro::TMP_Text::GetMaterials)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Material*> (TMPro::TMP_Text::*)(::ArrayW<UnityEngine::Material*>)>(&TMPro::TMP_Text::GetMaterials)> {
   static const MethodInfo* get() {
     static auto* mats = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Material"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Text*), "GetMaterials", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mats});
@@ -3957,7 +3976,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_Text::SetTextSortingOrder
 // Il2CppName: SetTextSortingOrder
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Text::*)(::ArrayWrapper<int>)>(&TMPro::TMP_Text::SetTextSortingOrder)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Text::*)(::ArrayW<int>)>(&TMPro::TMP_Text::SetTextSortingOrder)> {
   static const MethodInfo* get() {
     static auto* order = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Text*), "SetTextSortingOrder", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{order});
@@ -4026,7 +4045,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TMPr
 // Writing MetadataGetter for method: TMPro::TMP_Text::GetTextContainerLocalCorners
 // Il2CppName: GetTextContainerLocalCorners
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Vector3> (TMPro::TMP_Text::*)()>(&TMPro::TMP_Text::GetTextContainerLocalCorners)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Vector3> (TMPro::TMP_Text::*)()>(&TMPro::TMP_Text::GetTextContainerLocalCorners)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Text*), "GetTextContainerLocalCorners", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -4087,7 +4106,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_Text::SetVertices
 // Il2CppName: SetVertices
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Text::*)(::ArrayWrapper<UnityEngine::Vector3>)>(&TMPro::TMP_Text::SetVertices)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Text::*)(::ArrayW<UnityEngine::Vector3>)>(&TMPro::TMP_Text::SetVertices)> {
   static const MethodInfo* get() {
     static auto* vertices = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Text*), "SetVertices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{vertices});
@@ -4196,7 +4215,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_Text::SetCharArray
 // Il2CppName: SetCharArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Text::*)(::ArrayWrapper<::Il2CppChar>)>(&TMPro::TMP_Text::SetCharArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Text::*)(::ArrayW<::Il2CppChar>)>(&TMPro::TMP_Text::SetCharArray)> {
   static const MethodInfo* get() {
     static auto* sourceText = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Text*), "SetCharArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{sourceText});
@@ -4205,7 +4224,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_Text::SetCharArray
 // Il2CppName: SetCharArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Text::*)(::ArrayWrapper<::Il2CppChar>, int, int)>(&TMPro::TMP_Text::SetCharArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Text::*)(::ArrayW<::Il2CppChar>, int, int)>(&TMPro::TMP_Text::SetCharArray)> {
   static const MethodInfo* get() {
     static auto* sourceText = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -4216,7 +4235,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_Text::SetCharArray
 // Il2CppName: SetCharArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Text::*)(::ArrayWrapper<int>, int, int)>(&TMPro::TMP_Text::SetCharArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Text::*)(::ArrayW<int>, int, int)>(&TMPro::TMP_Text::SetCharArray)> {
   static const MethodInfo* get() {
     static auto* sourceText = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     static auto* start = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -4227,7 +4246,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_Text::SetTextArrayToCharArray
 // Il2CppName: SetTextArrayToCharArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Text::*)(::ArrayWrapper<::Il2CppChar>, ByRef<::ArrayWrapper<TMPro::TMP_Text::UnicodeChar>>)>(&TMPro::TMP_Text::SetTextArrayToCharArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Text::*)(::ArrayW<::Il2CppChar>, ByRef<::ArrayW<TMPro::TMP_Text::UnicodeChar>>)>(&TMPro::TMP_Text::SetTextArrayToCharArray)> {
   static const MethodInfo* get() {
     static auto* sourceText = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* charBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("TMPro", "TMP_Text/UnicodeChar"), 1)->this_arg;
@@ -4237,7 +4256,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_Text::StringToCharArray
 // Il2CppName: StringToCharArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Text::*)(::Il2CppString*, ByRef<::ArrayWrapper<TMPro::TMP_Text::UnicodeChar>>)>(&TMPro::TMP_Text::StringToCharArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Text::*)(::Il2CppString*, ByRef<::ArrayW<TMPro::TMP_Text::UnicodeChar>>)>(&TMPro::TMP_Text::StringToCharArray)> {
   static const MethodInfo* get() {
     static auto* sourceText = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* charBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("TMPro", "TMP_Text/UnicodeChar"), 1)->this_arg;
@@ -4247,7 +4266,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_Text::StringBuilderToIntArray
 // Il2CppName: StringBuilderToIntArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Text::*)(System::Text::StringBuilder*, ByRef<::ArrayWrapper<TMPro::TMP_Text::UnicodeChar>>)>(&TMPro::TMP_Text::StringBuilderToIntArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Text::*)(System::Text::StringBuilder*, ByRef<::ArrayW<TMPro::TMP_Text::UnicodeChar>>)>(&TMPro::TMP_Text::StringBuilderToIntArray)> {
   static const MethodInfo* get() {
     static auto* sourceText = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->byval_arg;
     static auto* charBuffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("TMPro", "TMP_Text/UnicodeChar"), 1)->this_arg;
@@ -4257,7 +4276,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_Text::ReplaceOpeningStyleTag
 // Il2CppName: ReplaceOpeningStyleTag
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_Text::*)(ByRef<::Il2CppString*>, int, ByRef<int>, ByRef<::ArrayWrapper<TMPro::TMP_Text::UnicodeChar>>, ByRef<int>)>(&TMPro::TMP_Text::ReplaceOpeningStyleTag)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_Text::*)(ByRef<::Il2CppString*>, int, ByRef<int>, ByRef<::ArrayW<TMPro::TMP_Text::UnicodeChar>>, ByRef<int>)>(&TMPro::TMP_Text::ReplaceOpeningStyleTag)> {
   static const MethodInfo* get() {
     static auto* sourceText = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
     static auto* srcIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -4270,7 +4289,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_Text::ReplaceOpeningStyleTag
 // Il2CppName: ReplaceOpeningStyleTag
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_Text::*)(ByRef<::ArrayWrapper<int>>, int, ByRef<int>, ByRef<::ArrayWrapper<TMPro::TMP_Text::UnicodeChar>>, ByRef<int>)>(&TMPro::TMP_Text::ReplaceOpeningStyleTag)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_Text::*)(ByRef<::ArrayW<int>>, int, ByRef<int>, ByRef<::ArrayW<TMPro::TMP_Text::UnicodeChar>>, ByRef<int>)>(&TMPro::TMP_Text::ReplaceOpeningStyleTag)> {
   static const MethodInfo* get() {
     static auto* sourceText = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->this_arg;
     static auto* srcIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -4283,7 +4302,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_Text::ReplaceOpeningStyleTag
 // Il2CppName: ReplaceOpeningStyleTag
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_Text::*)(ByRef<::ArrayWrapper<::Il2CppChar>>, int, ByRef<int>, ByRef<::ArrayWrapper<TMPro::TMP_Text::UnicodeChar>>, ByRef<int>)>(&TMPro::TMP_Text::ReplaceOpeningStyleTag)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_Text::*)(ByRef<::ArrayW<::Il2CppChar>>, int, ByRef<int>, ByRef<::ArrayW<TMPro::TMP_Text::UnicodeChar>>, ByRef<int>)>(&TMPro::TMP_Text::ReplaceOpeningStyleTag)> {
   static const MethodInfo* get() {
     static auto* sourceText = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->this_arg;
     static auto* srcIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -4296,7 +4315,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_Text::ReplaceOpeningStyleTag
 // Il2CppName: ReplaceOpeningStyleTag
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_Text::*)(ByRef<System::Text::StringBuilder*>, int, ByRef<int>, ByRef<::ArrayWrapper<TMPro::TMP_Text::UnicodeChar>>, ByRef<int>)>(&TMPro::TMP_Text::ReplaceOpeningStyleTag)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_Text::*)(ByRef<System::Text::StringBuilder*>, int, ByRef<int>, ByRef<::ArrayW<TMPro::TMP_Text::UnicodeChar>>, ByRef<int>)>(&TMPro::TMP_Text::ReplaceOpeningStyleTag)> {
   static const MethodInfo* get() {
     static auto* sourceText = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->this_arg;
     static auto* srcIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -4309,7 +4328,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_Text::ReplaceClosingStyleTag
 // Il2CppName: ReplaceClosingStyleTag
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_Text::*)(ByRef<::Il2CppString*>, int, ByRef<::ArrayWrapper<TMPro::TMP_Text::UnicodeChar>>, ByRef<int>)>(&TMPro::TMP_Text::ReplaceClosingStyleTag)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_Text::*)(ByRef<::Il2CppString*>, int, ByRef<::ArrayW<TMPro::TMP_Text::UnicodeChar>>, ByRef<int>)>(&TMPro::TMP_Text::ReplaceClosingStyleTag)> {
   static const MethodInfo* get() {
     static auto* sourceText = &::il2cpp_utils::GetClassFromName("System", "String")->this_arg;
     static auto* srcIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -4321,7 +4340,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_Text::ReplaceClosingStyleTag
 // Il2CppName: ReplaceClosingStyleTag
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_Text::*)(ByRef<::ArrayWrapper<int>>, int, ByRef<::ArrayWrapper<TMPro::TMP_Text::UnicodeChar>>, ByRef<int>)>(&TMPro::TMP_Text::ReplaceClosingStyleTag)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_Text::*)(ByRef<::ArrayW<int>>, int, ByRef<::ArrayW<TMPro::TMP_Text::UnicodeChar>>, ByRef<int>)>(&TMPro::TMP_Text::ReplaceClosingStyleTag)> {
   static const MethodInfo* get() {
     static auto* sourceText = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->this_arg;
     static auto* srcIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -4333,7 +4352,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_Text::ReplaceClosingStyleTag
 // Il2CppName: ReplaceClosingStyleTag
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_Text::*)(ByRef<::ArrayWrapper<::Il2CppChar>>, int, ByRef<::ArrayWrapper<TMPro::TMP_Text::UnicodeChar>>, ByRef<int>)>(&TMPro::TMP_Text::ReplaceClosingStyleTag)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_Text::*)(ByRef<::ArrayW<::Il2CppChar>>, int, ByRef<::ArrayW<TMPro::TMP_Text::UnicodeChar>>, ByRef<int>)>(&TMPro::TMP_Text::ReplaceClosingStyleTag)> {
   static const MethodInfo* get() {
     static auto* sourceText = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->this_arg;
     static auto* srcIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -4345,7 +4364,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_Text::ReplaceClosingStyleTag
 // Il2CppName: ReplaceClosingStyleTag
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_Text::*)(ByRef<System::Text::StringBuilder*>, int, ByRef<::ArrayWrapper<TMPro::TMP_Text::UnicodeChar>>, ByRef<int>)>(&TMPro::TMP_Text::ReplaceClosingStyleTag)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_Text::*)(ByRef<System::Text::StringBuilder*>, int, ByRef<::ArrayW<TMPro::TMP_Text::UnicodeChar>>, ByRef<int>)>(&TMPro::TMP_Text::ReplaceClosingStyleTag)> {
   static const MethodInfo* get() {
     static auto* sourceText = &::il2cpp_utils::GetClassFromName("System.Text", "StringBuilder")->this_arg;
     static auto* srcIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -4368,7 +4387,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_Text::IsTagName
 // Il2CppName: IsTagName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_Text::*)(ByRef<::ArrayWrapper<::Il2CppChar>>, ::Il2CppString*, int)>(&TMPro::TMP_Text::IsTagName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_Text::*)(ByRef<::ArrayW<::Il2CppChar>>, ::Il2CppString*, int)>(&TMPro::TMP_Text::IsTagName)> {
   static const MethodInfo* get() {
     static auto* text = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->this_arg;
     static auto* tag = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -4379,7 +4398,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_Text::IsTagName
 // Il2CppName: IsTagName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_Text::*)(ByRef<::ArrayWrapper<int>>, ::Il2CppString*, int)>(&TMPro::TMP_Text::IsTagName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_Text::*)(ByRef<::ArrayW<int>>, ::Il2CppString*, int)>(&TMPro::TMP_Text::IsTagName)> {
   static const MethodInfo* get() {
     static auto* text = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->this_arg;
     static auto* tag = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
@@ -4412,7 +4431,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro:
 // Writing MetadataGetter for method: TMPro::TMP_Text::GetTagHashCode
 // Il2CppName: GetTagHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro::TMP_Text::*)(ByRef<::ArrayWrapper<::Il2CppChar>>, int, ByRef<int>)>(&TMPro::TMP_Text::GetTagHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro::TMP_Text::*)(ByRef<::ArrayW<::Il2CppChar>>, int, ByRef<int>)>(&TMPro::TMP_Text::GetTagHashCode)> {
   static const MethodInfo* get() {
     static auto* text = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->this_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -4423,7 +4442,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro:
 // Writing MetadataGetter for method: TMPro::TMP_Text::GetTagHashCode
 // Il2CppName: GetTagHashCode
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro::TMP_Text::*)(ByRef<::ArrayWrapper<int>>, int, ByRef<int>)>(&TMPro::TMP_Text::GetTagHashCode)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro::TMP_Text::*)(ByRef<::ArrayW<int>>, int, ByRef<int>)>(&TMPro::TMP_Text::GetTagHashCode)> {
   static const MethodInfo* get() {
     static auto* text = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->this_arg;
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -4470,7 +4489,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_Text::SetArraySizes
 // Il2CppName: SetArraySizes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro::TMP_Text::*)(::ArrayWrapper<TMPro::TMP_Text::UnicodeChar>)>(&TMPro::TMP_Text::SetArraySizes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro::TMP_Text::*)(::ArrayW<TMPro::TMP_Text::UnicodeChar>)>(&TMPro::TMP_Text::SetArraySizes)> {
   static const MethodInfo* get() {
     static auto* chars = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("TMPro", "TMP_Text/UnicodeChar"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(TMPro::TMP_Text*), "SetArraySizes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{chars});
@@ -4799,7 +4818,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TMP_Text::ReplaceTagWithCharacter
 // Il2CppName: ReplaceTagWithCharacter
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Text::*)(::ArrayWrapper<int>, int, int, ::Il2CppChar)>(&TMPro::TMP_Text::ReplaceTagWithCharacter)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro::TMP_Text::*)(::ArrayW<int>, int, int, ::Il2CppChar)>(&TMPro::TMP_Text::ReplaceTagWithCharacter)> {
   static const MethodInfo* get() {
     static auto* chars = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
     static auto* insertionIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -4940,7 +4959,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro:
 // Writing MetadataGetter for method: TMPro::TMP_Text::HexCharsToColor
 // Il2CppName: HexCharsToColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color32 (TMPro::TMP_Text::*)(::ArrayWrapper<::Il2CppChar>, int)>(&TMPro::TMP_Text::HexCharsToColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color32 (TMPro::TMP_Text::*)(::ArrayW<::Il2CppChar>, int)>(&TMPro::TMP_Text::HexCharsToColor)> {
   static const MethodInfo* get() {
     static auto* hexChars = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* tagCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -4950,7 +4969,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: TMPro::TMP_Text::HexCharsToColor
 // Il2CppName: HexCharsToColor
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color32 (TMPro::TMP_Text::*)(::ArrayWrapper<::Il2CppChar>, int, int)>(&TMPro::TMP_Text::HexCharsToColor)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Color32 (TMPro::TMP_Text::*)(::ArrayW<::Il2CppChar>, int, int)>(&TMPro::TMP_Text::HexCharsToColor)> {
   static const MethodInfo* get() {
     static auto* hexChars = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -4961,7 +4980,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: TMPro::TMP_Text::GetAttributeParameters
 // Il2CppName: GetAttributeParameters
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro::TMP_Text::*)(::ArrayWrapper<::Il2CppChar>, int, int, ByRef<::ArrayWrapper<float>>)>(&TMPro::TMP_Text::GetAttributeParameters)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro::TMP_Text::*)(::ArrayW<::Il2CppChar>, int, int, ByRef<::ArrayW<float>>)>(&TMPro::TMP_Text::GetAttributeParameters)> {
   static const MethodInfo* get() {
     static auto* chars = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -4973,7 +4992,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (TMPro:
 // Writing MetadataGetter for method: TMPro::TMP_Text::ConvertToFloat
 // Il2CppName: ConvertToFloat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TMPro::TMP_Text::*)(::ArrayWrapper<::Il2CppChar>, int, int)>(&TMPro::TMP_Text::ConvertToFloat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TMPro::TMP_Text::*)(::ArrayW<::Il2CppChar>, int, int)>(&TMPro::TMP_Text::ConvertToFloat)> {
   static const MethodInfo* get() {
     static auto* chars = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -4984,7 +5003,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TMPr
 // Writing MetadataGetter for method: TMPro::TMP_Text::ConvertToFloat
 // Il2CppName: ConvertToFloat
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TMPro::TMP_Text::*)(::ArrayWrapper<::Il2CppChar>, int, int, ByRef<int>)>(&TMPro::TMP_Text::ConvertToFloat)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TMPro::TMP_Text::*)(::ArrayW<::Il2CppChar>, int, int, ByRef<int>)>(&TMPro::TMP_Text::ConvertToFloat)> {
   static const MethodInfo* get() {
     static auto* chars = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Char"), 1)->byval_arg;
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -4996,7 +5015,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (TMPr
 // Writing MetadataGetter for method: TMPro::TMP_Text::ValidateHtmlTag
 // Il2CppName: ValidateHtmlTag
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_Text::*)(::ArrayWrapper<TMPro::TMP_Text::UnicodeChar>, int, ByRef<int>)>(&TMPro::TMP_Text::ValidateHtmlTag)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (TMPro::TMP_Text::*)(::ArrayW<TMPro::TMP_Text::UnicodeChar>, int, ByRef<int>)>(&TMPro::TMP_Text::ValidateHtmlTag)> {
   static const MethodInfo* get() {
     static auto* chars = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("TMPro", "TMP_Text/UnicodeChar"), 1)->byval_arg;
     static auto* startIndex = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

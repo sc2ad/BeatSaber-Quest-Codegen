@@ -27,6 +27,11 @@ namespace Zenject {
   // [TokenAttribute] Offset: FFFFFFFF
   class RunnableContext : public Zenject::Context {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [TooltipAttribute] Offset: 0xEC3CF8
     // private System.Boolean _autoRun
     // Size: 0x1
@@ -40,6 +45,7 @@ namespace Zenject {
     bool Initialized;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get static field: static private System.Boolean _staticAutoRun
     static bool _get__staticAutoRun();
     // Set static field: static private System.Boolean _staticAutoRun

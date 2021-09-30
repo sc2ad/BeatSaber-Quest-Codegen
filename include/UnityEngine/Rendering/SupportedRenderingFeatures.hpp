@@ -49,12 +49,18 @@ namespace UnityEngine::Rendering {
     // [FlagsAttribute] Offset: FFFFFFFF
     struct ReflectionProbeModes/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: ReflectionProbeModes
       constexpr ReflectionProbeModes(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -90,12 +96,18 @@ namespace UnityEngine::Rendering {
     // [FlagsAttribute] Offset: FFFFFFFF
     struct LightmapMixedBakeModes/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: LightmapMixedBakeModes
       constexpr LightmapMixedBakeModes(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -136,6 +148,11 @@ namespace UnityEngine::Rendering {
     #pragma pack(pop)
     static check_size<sizeof(SupportedRenderingFeatures::LightmapMixedBakeModes), 0 + sizeof(int)> __UnityEngine_Rendering_SupportedRenderingFeatures_LightmapMixedBakeModesSizeCheck;
     static_assert(sizeof(SupportedRenderingFeatures::LightmapMixedBakeModes) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [DebuggerBrowsableAttribute] Offset: 0xE771D8
     // private UnityEngine.Rendering.SupportedRenderingFeatures/UnityEngine.Rendering.ReflectionProbeModes <reflectionProbeModes>k__BackingField
     // Size: 0x4
@@ -276,6 +293,7 @@ namespace UnityEngine::Rendering {
     bool autoDefaultReflectionProbeBaking;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get static field: static private UnityEngine.Rendering.SupportedRenderingFeatures s_Active
     static UnityEngine::Rendering::SupportedRenderingFeatures* _get_s_Active();
     // Set static field: static private UnityEngine.Rendering.SupportedRenderingFeatures s_Active

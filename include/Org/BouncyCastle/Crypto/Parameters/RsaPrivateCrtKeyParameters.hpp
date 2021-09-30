@@ -27,6 +27,11 @@ namespace Org::BouncyCastle::Crypto::Parameters {
   // [TokenAttribute] Offset: FFFFFFFF
   class RsaPrivateCrtKeyParameters : public Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Org.BouncyCastle.Math.BigInteger e
     // Size: 0x8
     // Offset: 0x28
@@ -63,6 +68,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     Org::BouncyCastle::Math::BigInteger* qInv;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Math::BigInteger*) == 0x8);
+    public:
     // Get instance field reference: private readonly Org.BouncyCastle.Math.BigInteger e
     Org::BouncyCastle::Math::BigInteger*& dyn_e();
     // Get instance field reference: private readonly Org.BouncyCastle.Math.BigInteger p

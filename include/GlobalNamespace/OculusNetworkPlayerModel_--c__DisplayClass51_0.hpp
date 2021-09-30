@@ -34,6 +34,11 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class OculusNetworkPlayerModel::$$c__DisplayClass51_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public OculusNetworkPlayerModel/OculusNetworkPlayer player
     // Size: 0x8
     // Offset: 0x10
@@ -46,6 +51,7 @@ namespace GlobalNamespace {
     GlobalNamespace::OculusNetworkPlayerModel* $$4__this;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OculusNetworkPlayerModel*) == 0x8);
+    public:
     // Get instance field reference: public OculusNetworkPlayerModel/OculusNetworkPlayer player
     GlobalNamespace::OculusNetworkPlayerModel::OculusNetworkPlayer*& dyn_player();
     // Get instance field reference: public OculusNetworkPlayerModel <>4__this

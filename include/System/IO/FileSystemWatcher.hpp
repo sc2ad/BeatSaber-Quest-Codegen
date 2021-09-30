@@ -63,6 +63,11 @@ namespace System::IO {
     public:
     // Nested type: System::IO::FileSystemWatcher::EventType
     struct EventType;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean enableRaisingEvents
     // Size: 0x1
     // Offset: 0x28
@@ -183,6 +188,7 @@ namespace System::IO {
     System::IO::RenamedEventHandler* Renamed;
     // Field size check
     static_assert(sizeof(System::IO::RenamedEventHandler*) == 0x8);
+    public:
     // Get static field: static private System.IO.IFileWatcher watcher
     static System::IO::IFileWatcher* _get_watcher();
     // Set static field: static private System.IO.IFileWatcher watcher

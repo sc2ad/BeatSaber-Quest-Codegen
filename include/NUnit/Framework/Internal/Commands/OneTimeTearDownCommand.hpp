@@ -46,6 +46,11 @@ namespace NUnit::Framework::Internal::Commands {
     public:
     // Nested type: NUnit::Framework::Internal::Commands::OneTimeTearDownCommand::$$c__DisplayClass3_0
     class $$c__DisplayClass3_0;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.List`1<NUnit.Framework.Internal.Commands.SetUpTearDownItem> _setUpTearDownItems
     // Size: 0x8
     // Offset: 0x18
@@ -58,6 +63,7 @@ namespace NUnit::Framework::Internal::Commands {
     System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::TestActionItem*>* actions;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<NUnit::Framework::Internal::Commands::TestActionItem*>*) == 0x8);
+    public:
     // Deleting conversion operator: operator NUnit::Framework::Internal::Test*
     constexpr operator NUnit::Framework::Internal::Test*() const noexcept = delete;
     // Get instance field reference: private System.Collections.Generic.List`1<NUnit.Framework.Internal.Commands.SetUpTearDownItem> _setUpTearDownItems

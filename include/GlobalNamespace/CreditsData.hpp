@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -31,18 +32,24 @@ namespace GlobalNamespace {
     class RootCreditsItem;
     // Nested type: GlobalNamespace::CreditsData::ChildCreditsItem
     class ChildCreditsItem;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public CreditsData/RootCreditsItem[] creditsItems
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<GlobalNamespace::CreditsData::RootCreditsItem*> creditsItems;
+    ::ArrayW<GlobalNamespace::CreditsData::RootCreditsItem*> creditsItems;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::CreditsData::RootCreditsItem*>) == 0x8);
-    // Creating conversion operator: operator ::ArrayWrapper<GlobalNamespace::CreditsData::RootCreditsItem*>
-    constexpr operator ::ArrayWrapper<GlobalNamespace::CreditsData::RootCreditsItem*>() const noexcept {
+    static_assert(sizeof(::ArrayW<GlobalNamespace::CreditsData::RootCreditsItem*>) == 0x8);
+    public:
+    // Creating conversion operator: operator ::ArrayW<GlobalNamespace::CreditsData::RootCreditsItem*>
+    constexpr operator ::ArrayW<GlobalNamespace::CreditsData::RootCreditsItem*>() const noexcept {
       return creditsItems;
     }
     // Get instance field reference: public CreditsData/RootCreditsItem[] creditsItems
-    ::ArrayWrapper<GlobalNamespace::CreditsData::RootCreditsItem*>& dyn_creditsItems();
+    ::ArrayW<GlobalNamespace::CreditsData::RootCreditsItem*>& dyn_creditsItems();
     // static public CreditsData Deserialize(System.String text)
     // Offset: 0x11A000C
     static GlobalNamespace::CreditsData* Deserialize(::Il2CppString* text);
@@ -57,7 +64,7 @@ namespace GlobalNamespace {
     }
   }; // CreditsData
   #pragma pack(pop)
-  static check_size<sizeof(CreditsData), 16 + sizeof(::ArrayWrapper<GlobalNamespace::CreditsData::RootCreditsItem*>)> __GlobalNamespace_CreditsDataSizeCheck;
+  static check_size<sizeof(CreditsData), 16 + sizeof(::ArrayW<GlobalNamespace::CreditsData::RootCreditsItem*>)> __GlobalNamespace_CreditsDataSizeCheck;
   static_assert(sizeof(CreditsData) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::CreditsData*, "", "CreditsData");

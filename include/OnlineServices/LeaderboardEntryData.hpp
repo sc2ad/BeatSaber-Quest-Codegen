@@ -25,6 +25,11 @@ namespace OnlineServices {
   // [TokenAttribute] Offset: FFFFFFFF
   class LeaderboardEntryData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly System.Int32 score
     // Size: 0x4
     // Offset: 0x10
@@ -55,6 +60,7 @@ namespace OnlineServices {
     GlobalNamespace::GameplayModifiers* gameplayModifiers;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayModifiers*) == 0x8);
+    public:
     // Get instance field reference: public readonly System.Int32 score
     int& dyn_score();
     // Get instance field reference: public readonly System.Int32 rank

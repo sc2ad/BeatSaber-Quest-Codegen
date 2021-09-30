@@ -36,6 +36,11 @@ namespace GlobalNamespace {
   // [ExecuteInEditMode] Offset: FFFFFFFF
   class OnWillRenderObjectTrigger : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [NullAllowed] Offset: 0xEDFC40
     // private UnityEngine.Shader _overrideShader
     // Size: 0x8
@@ -75,6 +80,7 @@ namespace GlobalNamespace {
     UnityEngine::MeshRenderer* meshRenderer;
     // Field size check
     static_assert(sizeof(UnityEngine::MeshRenderer*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Shader _overrideShader

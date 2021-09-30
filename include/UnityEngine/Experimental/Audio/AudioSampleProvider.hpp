@@ -23,6 +23,11 @@ namespace UnityEngine::Experimental::Audio {
     public:
     // Nested type: UnityEngine::Experimental::Audio::AudioSampleProvider::SampleFramesHandler
     class SampleFramesHandler;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [DebuggerBrowsableAttribute] Offset: 0xE9F390
     // private UnityEngine.Experimental.Audio.AudioSampleProvider/UnityEngine.Experimental.Audio.SampleFramesHandler sampleFramesAvailable
     // Size: 0x8
@@ -37,6 +42,7 @@ namespace UnityEngine::Experimental::Audio {
     UnityEngine::Experimental::Audio::AudioSampleProvider::SampleFramesHandler* sampleFramesOverflow;
     // Field size check
     static_assert(sizeof(UnityEngine::Experimental::Audio::AudioSampleProvider::SampleFramesHandler*) == 0x8);
+    public:
     // Get instance field reference: private UnityEngine.Experimental.Audio.AudioSampleProvider/UnityEngine.Experimental.Audio.SampleFramesHandler sampleFramesAvailable
     UnityEngine::Experimental::Audio::AudioSampleProvider::SampleFramesHandler*& dyn_sampleFramesAvailable();
     // Get instance field reference: private UnityEngine.Experimental.Audio.AudioSampleProvider/UnityEngine.Experimental.Audio.SampleFramesHandler sampleFramesOverflow

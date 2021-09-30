@@ -30,12 +30,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SimpleFileLogger::MonoLogger : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Collections.Generic.List`1<System.String> _lines
     // Size: 0x8
     // Offset: 0x18
     System::Collections::Generic::List_1<::Il2CppString*>* lines;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<::Il2CppString*>*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private readonly System.Collections.Generic.List`1<System.String> _lines

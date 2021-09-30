@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -33,6 +34,11 @@ namespace GlobalNamespace {
     class Element;
     // Nested type: GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors::EnvironmentColor
     struct EnvironmentColor;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private BloomPrePassBackgroundColorsGradient _bloomPrePassBackgroundColorsGradient
     // Size: 0x8
     // Offset: 0x18
@@ -42,9 +48,9 @@ namespace GlobalNamespace {
     // private BloomPrePassBackgroundColorsGradientFromColorSchemeColors/Element[] _elements
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors::Element*> elements;
+    ::ArrayW<GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors::Element*> elements;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors::Element*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors::Element*>) == 0x8);
     // [InjectAttribute] Offset: 0xF135EC
     // private readonly EnvironmentColorManager _colorManager
     // Size: 0x8
@@ -52,12 +58,13 @@ namespace GlobalNamespace {
     GlobalNamespace::EnvironmentColorManager* colorManager;
     // Field size check
     static_assert(sizeof(GlobalNamespace::EnvironmentColorManager*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BloomPrePassBackgroundColorsGradient _bloomPrePassBackgroundColorsGradient
     GlobalNamespace::BloomPrePassBackgroundColorsGradient*& dyn__bloomPrePassBackgroundColorsGradient();
     // Get instance field reference: private BloomPrePassBackgroundColorsGradientFromColorSchemeColors/Element[] _elements
-    ::ArrayWrapper<GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors::Element*>& dyn__elements();
+    ::ArrayW<GlobalNamespace::BloomPrePassBackgroundColorsGradientFromColorSchemeColors::Element*>& dyn__elements();
     // Get instance field reference: private readonly EnvironmentColorManager _colorManager
     GlobalNamespace::EnvironmentColorManager*& dyn__colorManager();
     // protected System.Void Start()

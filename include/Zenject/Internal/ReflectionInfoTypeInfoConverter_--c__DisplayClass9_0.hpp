@@ -30,6 +30,11 @@ namespace Zenject::Internal {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class ReflectionInfoTypeInfoConverter::$$c__DisplayClass9_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Reflection.FieldInfo fieldInfo
     // Size: 0x8
     // Offset: 0x10
@@ -42,6 +47,7 @@ namespace Zenject::Internal {
     System::Reflection::PropertyInfo* propInfo;
     // Field size check
     static_assert(sizeof(System::Reflection::PropertyInfo*) == 0x8);
+    public:
     // Get instance field reference: public System.Reflection.FieldInfo fieldInfo
     System::Reflection::FieldInfo*& dyn_fieldInfo();
     // Get instance field reference: public System.Reflection.PropertyInfo propInfo

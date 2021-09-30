@@ -38,12 +38,18 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   class CVRSpatialAnchors : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private OVR.OpenVR.IVRSpatialAnchors FnTable
     // Size: 0x20
     // Offset: 0x10
     OVR::OpenVR::IVRSpatialAnchors FnTable;
     // Field size check
     static_assert(sizeof(OVR::OpenVR::IVRSpatialAnchors) == 0x20);
+    public:
     // Creating conversion operator: operator OVR::OpenVR::IVRSpatialAnchors
     constexpr operator OVR::OpenVR::IVRSpatialAnchors() const noexcept {
       return FnTable;

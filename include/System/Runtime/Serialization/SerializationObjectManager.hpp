@@ -32,6 +32,11 @@ namespace System::Runtime::Serialization {
   // [TokenAttribute] Offset: FFFFFFFF
   class SerializationObjectManager : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Hashtable m_objectSeenTable
     // Size: 0x8
     // Offset: 0x10
@@ -50,6 +55,7 @@ namespace System::Runtime::Serialization {
     System::Runtime::Serialization::StreamingContext m_context;
     // Field size check
     static_assert(sizeof(System::Runtime::Serialization::StreamingContext) == 0xC);
+    public:
     // Get instance field reference: private System.Collections.Hashtable m_objectSeenTable
     System::Collections::Hashtable*& dyn_m_objectSeenTable();
     // Get instance field reference: private System.Runtime.Serialization.SerializationEventHandler m_onSerializedHandler

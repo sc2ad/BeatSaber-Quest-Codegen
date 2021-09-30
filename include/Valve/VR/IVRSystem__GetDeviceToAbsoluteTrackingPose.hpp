@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Valve::VR
@@ -48,10 +49,10 @@ namespace Valve::VR {
     }
     // public System.Void Invoke(Valve.VR.ETrackingUniverseOrigin eOrigin, System.Single fPredictedSecondsToPhotonsFromNow, in Valve.VR.TrackedDevicePose_t[] pTrackedDevicePoseArray, System.UInt32 unTrackedDevicePoseArrayCount)
     // Offset: 0x1EDCAFC
-    void Invoke(Valve::VR::ETrackingUniverseOrigin eOrigin, float fPredictedSecondsToPhotonsFromNow, ByRef<::ArrayWrapper<Valve::VR::TrackedDevicePose_t>> pTrackedDevicePoseArray, uint unTrackedDevicePoseArrayCount);
+    void Invoke(Valve::VR::ETrackingUniverseOrigin eOrigin, float fPredictedSecondsToPhotonsFromNow, ByRef<::ArrayW<Valve::VR::TrackedDevicePose_t>> pTrackedDevicePoseArray, uint unTrackedDevicePoseArrayCount);
     // public System.IAsyncResult BeginInvoke(Valve.VR.ETrackingUniverseOrigin eOrigin, System.Single fPredictedSecondsToPhotonsFromNow, in Valve.VR.TrackedDevicePose_t[] pTrackedDevicePoseArray, System.UInt32 unTrackedDevicePoseArrayCount, System.AsyncCallback callback, System.Object object)
     // Offset: 0x1EDCDD0
-    System::IAsyncResult* BeginInvoke(Valve::VR::ETrackingUniverseOrigin eOrigin, float fPredictedSecondsToPhotonsFromNow, ByRef<::ArrayWrapper<Valve::VR::TrackedDevicePose_t>> pTrackedDevicePoseArray, uint unTrackedDevicePoseArrayCount, System::AsyncCallback* callback, ::Il2CppObject* object);
+    System::IAsyncResult* BeginInvoke(Valve::VR::ETrackingUniverseOrigin eOrigin, float fPredictedSecondsToPhotonsFromNow, ByRef<::ArrayW<Valve::VR::TrackedDevicePose_t>> pTrackedDevicePoseArray, uint unTrackedDevicePoseArrayCount, System::AsyncCallback* callback, ::Il2CppObject* object);
     // public System.Void EndInvoke(System.IAsyncResult result)
     // Offset: 0x1EDCEA8
     void EndInvoke(System::IAsyncResult* result);
@@ -67,7 +68,7 @@ DEFINE_IL2CPP_ARG_TYPE(Valve::VR::IVRSystem::_GetDeviceToAbsoluteTrackingPose*, 
 // Writing MetadataGetter for method: Valve::VR::IVRSystem::_GetDeviceToAbsoluteTrackingPose::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::IVRSystem::_GetDeviceToAbsoluteTrackingPose::*)(Valve::VR::ETrackingUniverseOrigin, float, ByRef<::ArrayWrapper<Valve::VR::TrackedDevicePose_t>>, uint)>(&Valve::VR::IVRSystem::_GetDeviceToAbsoluteTrackingPose::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve::VR::IVRSystem::_GetDeviceToAbsoluteTrackingPose::*)(Valve::VR::ETrackingUniverseOrigin, float, ByRef<::ArrayW<Valve::VR::TrackedDevicePose_t>>, uint)>(&Valve::VR::IVRSystem::_GetDeviceToAbsoluteTrackingPose::Invoke)> {
   static const MethodInfo* get() {
     static auto* eOrigin = &::il2cpp_utils::GetClassFromName("Valve.VR", "ETrackingUniverseOrigin")->byval_arg;
     static auto* fPredictedSecondsToPhotonsFromNow = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -79,7 +80,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Valve
 // Writing MetadataGetter for method: Valve::VR::IVRSystem::_GetDeviceToAbsoluteTrackingPose::BeginInvoke
 // Il2CppName: BeginInvoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRSystem::_GetDeviceToAbsoluteTrackingPose::*)(Valve::VR::ETrackingUniverseOrigin, float, ByRef<::ArrayWrapper<Valve::VR::TrackedDevicePose_t>>, uint, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRSystem::_GetDeviceToAbsoluteTrackingPose::BeginInvoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::IAsyncResult* (Valve::VR::IVRSystem::_GetDeviceToAbsoluteTrackingPose::*)(Valve::VR::ETrackingUniverseOrigin, float, ByRef<::ArrayW<Valve::VR::TrackedDevicePose_t>>, uint, System::AsyncCallback*, ::Il2CppObject*)>(&Valve::VR::IVRSystem::_GetDeviceToAbsoluteTrackingPose::BeginInvoke)> {
   static const MethodInfo* get() {
     static auto* eOrigin = &::il2cpp_utils::GetClassFromName("Valve.VR", "ETrackingUniverseOrigin")->byval_arg;
     static auto* fPredictedSecondsToPhotonsFromNow = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;

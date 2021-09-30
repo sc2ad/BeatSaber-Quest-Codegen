@@ -33,6 +33,11 @@ namespace GlobalNamespace {
   // [ExecuteAlways] Offset: FFFFFFFF
   class BakedReflectionProbe : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 _resolutionBeforeDownsample
     // Size: 0x4
     // Offset: 0x18
@@ -71,6 +76,7 @@ namespace GlobalNamespace {
     UnityEngine::Cubemap* blackCubemap;
     // Field size check
     static_assert(sizeof(UnityEngine::Cubemap*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF1395C

@@ -31,6 +31,11 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class HitReaction::HitPointEffector::EffectorLink : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [TooltipAttribute] Offset: 0xEF7EC4
     // public RootMotion.FinalIK.FullBodyBipedEffector effector
     // Size: 0x4
@@ -57,6 +62,7 @@ namespace RootMotion::FinalIK {
     UnityEngine::Vector3 current;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    public:
     // Get instance field reference: public RootMotion.FinalIK.FullBodyBipedEffector effector
     RootMotion::FinalIK::FullBodyBipedEffector& dyn_effector();
     // Get instance field reference: public System.Single weight

@@ -34,6 +34,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerBadgeAwardData : public ::Il2CppObject/*, public System::IComparable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly IConnectedPlayer _awardedPlayer
     // Size: 0x8
     // Offset: 0x10
@@ -72,6 +77,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MultiplayerBadgeDataSO* badgeData;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MultiplayerBadgeDataSO*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::IComparable
     operator System::IComparable() noexcept {
       return *reinterpret_cast<System::IComparable*>(this);

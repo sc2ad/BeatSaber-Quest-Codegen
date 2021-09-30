@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Serialization::Formatters::Binary
@@ -82,6 +83,11 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   // [TokenAttribute] Offset: FFFFFFFF
   class __BinaryParser : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Runtime.Serialization.Formatters.Binary.ObjectReader objectReader
     // Size: 0x8
     // Offset: 0x10
@@ -201,9 +207,9 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // private System.Byte[] byteBuffer
     // Size: 0x8
     // Offset: 0xA8
-    ::ArrayWrapper<uint8_t> byteBuffer;
+    ::ArrayW<uint8_t> byteBuffer;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // System.Runtime.Serialization.Formatters.Binary.MemberPrimitiveUnTyped memberPrimitiveUnTyped
     // Size: 0x8
     // Offset: 0xB0
@@ -222,6 +228,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     System::Runtime::Serialization::Formatters::Binary::ObjectNull* objectNull;
     // Field size check
     static_assert(sizeof(System::Runtime::Serialization::Formatters::Binary::ObjectNull*) == 0x8);
+    public:
     // Get static field: static private System.Text.Encoding encoding
     static System::Text::Encoding* _get_encoding();
     // Set static field: static private System.Text.Encoding encoding
@@ -269,7 +276,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.MemberPrimitiveTyped memberPrimitiveTyped
     System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveTyped*& dyn_memberPrimitiveTyped();
     // Get instance field reference: private System.Byte[] byteBuffer
-    ::ArrayWrapper<uint8_t>& dyn_byteBuffer();
+    ::ArrayW<uint8_t>& dyn_byteBuffer();
     // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.MemberPrimitiveUnTyped memberPrimitiveUnTyped
     System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped*& dyn_memberPrimitiveUnTyped();
     // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.MemberReference memberReference
@@ -315,16 +322,16 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     uint8_t ReadByte();
     // System.Byte[] ReadBytes(System.Int32 length)
     // Offset: 0x17F55FC
-    ::ArrayWrapper<uint8_t> ReadBytes(int length);
+    ::ArrayW<uint8_t> ReadBytes(int length);
     // System.Void ReadBytes(System.Byte[] byteA, System.Int32 offset, System.Int32 size)
     // Offset: 0x17F8FC0
-    void ReadBytes(::ArrayWrapper<uint8_t> byteA, int offset, int size);
+    void ReadBytes(::ArrayW<uint8_t> byteA, int offset, int size);
     // System.Char ReadChar()
     // Offset: 0x17F9048
     ::Il2CppChar ReadChar();
     // System.Char[] ReadChars(System.Int32 length)
     // Offset: 0x17F9068
-    ::ArrayWrapper<::Il2CppChar> ReadChars(int length);
+    ::ArrayW<::Il2CppChar> ReadChars(int length);
     // System.Decimal ReadDecimal()
     // Offset: 0x17F908C
     System::Decimal ReadDecimal();
@@ -515,7 +522,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (Sy
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::__BinaryParser::ReadBytes
 // Il2CppName: ReadBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (System::Runtime::Serialization::Formatters::Binary::__BinaryParser::*)(int)>(&System::Runtime::Serialization::Formatters::Binary::__BinaryParser::ReadBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (System::Runtime::Serialization::Formatters::Binary::__BinaryParser::*)(int)>(&System::Runtime::Serialization::Formatters::Binary::__BinaryParser::ReadBytes)> {
   static const MethodInfo* get() {
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::__BinaryParser*), "ReadBytes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{length});
@@ -524,7 +531,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::__BinaryParser::ReadBytes
 // Il2CppName: ReadBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::__BinaryParser::*)(::ArrayWrapper<uint8_t>, int, int)>(&System::Runtime::Serialization::Formatters::Binary::__BinaryParser::ReadBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::__BinaryParser::*)(::ArrayW<uint8_t>, int, int)>(&System::Runtime::Serialization::Formatters::Binary::__BinaryParser::ReadBytes)> {
   static const MethodInfo* get() {
     static auto* byteA = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -543,7 +550,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppCha
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::__BinaryParser::ReadChars
 // Il2CppName: ReadChars
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppChar> (System::Runtime::Serialization::Formatters::Binary::__BinaryParser::*)(int)>(&System::Runtime::Serialization::Formatters::Binary::__BinaryParser::ReadChars)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppChar> (System::Runtime::Serialization::Formatters::Binary::__BinaryParser::*)(int)>(&System::Runtime::Serialization::Formatters::Binary::__BinaryParser::ReadChars)> {
   static const MethodInfo* get() {
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Serialization::Formatters::Binary::__BinaryParser*), "ReadChars", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{length});

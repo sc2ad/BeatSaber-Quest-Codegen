@@ -35,12 +35,18 @@ namespace Zenject {
   template<typename TParam1, typename TValue>
   class MonoPoolableMemoryPool_2 : public Zenject::MemoryPool_2<TParam1, TValue> {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Transform _originalParent
     // Size: 0x8
     // Offset: 0x0
     UnityEngine::Transform* originalParent;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    public:
     // Creating conversion operator: operator UnityEngine::Transform*
     constexpr operator UnityEngine::Transform*() const noexcept {
       return originalParent;

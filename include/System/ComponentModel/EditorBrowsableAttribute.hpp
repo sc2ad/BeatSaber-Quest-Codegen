@@ -23,12 +23,18 @@ namespace System::ComponentModel {
   // [AttributeUsageAttribute] Offset: E694A8
   class EditorBrowsableAttribute : public System::Attribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.ComponentModel.EditorBrowsableState browsableState
     // Size: 0x4
     // Offset: 0x10
     System::ComponentModel::EditorBrowsableState browsableState;
     // Field size check
     static_assert(sizeof(System::ComponentModel::EditorBrowsableState) == 0x4);
+    public:
     // Creating conversion operator: operator System::ComponentModel::EditorBrowsableState
     constexpr operator System::ComponentModel::EditorBrowsableState() const noexcept {
       return browsableState;

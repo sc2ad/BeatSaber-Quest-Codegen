@@ -29,6 +29,11 @@ namespace NUnit::Framework::Internal::Filters {
   // [TokenAttribute] Offset: FFFFFFFF
   class NotFilter : public NUnit::Framework::Internal::TestFilter {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [DebuggerBrowsableAttribute] Offset: 0xEEF750
     // private NUnit.Framework.Internal.TestFilter <BaseFilter>k__BackingField
     // Size: 0x8
@@ -36,6 +41,7 @@ namespace NUnit::Framework::Internal::Filters {
     NUnit::Framework::Internal::TestFilter* BaseFilter;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Internal::TestFilter*) == 0x8);
+    public:
     // Creating conversion operator: operator NUnit::Framework::Internal::TestFilter*
     constexpr operator NUnit::Framework::Internal::TestFilter*() const noexcept {
       return BaseFilter;

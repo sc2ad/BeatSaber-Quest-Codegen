@@ -22,6 +22,11 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class SdkAccount : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly Oculus.Platform.SdkAccountType AccountType
     // Size: 0x4
     // Offset: 0x10
@@ -36,6 +41,7 @@ namespace Oculus::Platform::Models {
     uint64_t UserId;
     // Field size check
     static_assert(sizeof(uint64_t) == 0x8);
+    public:
     // Get instance field reference: public readonly Oculus.Platform.SdkAccountType AccountType
     Oculus::Platform::SdkAccountType& dyn_AccountType();
     // Get instance field reference: public readonly System.UInt64 UserId

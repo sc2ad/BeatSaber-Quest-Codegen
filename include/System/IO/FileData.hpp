@@ -22,6 +22,11 @@ namespace System::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   class FileData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.String Directory
     // Size: 0x8
     // Offset: 0x10
@@ -54,6 +59,7 @@ namespace System::IO {
     System::DateTime LastWriteTime;
     // Field size check
     static_assert(sizeof(System::DateTime) == 0x8);
+    public:
     // Get instance field reference: public System.String Directory
     ::Il2CppString*& dyn_Directory();
     // Get instance field reference: public System.IO.FileAttributes Attributes

@@ -47,6 +47,11 @@ namespace TMPro {
   // [ExecuteAlways] Offset: FFFFFFFF
   class TMP_SubMesh : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private TMPro.TMP_FontAsset m_fontAsset
     // Size: 0x8
     // Offset: 0x18
@@ -127,6 +132,7 @@ namespace TMPro {
     bool m_isRegisteredForEvents;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private TMPro.TMP_FontAsset m_fontAsset

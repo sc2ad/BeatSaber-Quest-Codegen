@@ -17,6 +17,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net
@@ -50,6 +51,11 @@ namespace MasterServer {
     public:
     // Writing base type padding for base size: 0x14 to desired offset: 0x18
     char ___base_padding[0x4] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.String secret
     // Size: 0x8
     // Offset: 0x18
@@ -98,6 +104,7 @@ namespace MasterServer {
     GlobalNamespace::GameplayServerConfiguration configuration;
     // Field size check
     static_assert(sizeof(GlobalNamespace::GameplayServerConfiguration) == 0x18);
+    public:
     // Creating interface conversion operator: operator MasterServer::IDedicatedServerServerToClientMessage
     operator MasterServer::IDedicatedServerServerToClientMessage() noexcept {
       return *reinterpret_cast<MasterServer::IDedicatedServerServerToClientMessage*>(this);
@@ -128,7 +135,7 @@ namespace MasterServer {
     uint get_version();
     // public MasterServer.CreateDedicatedServerInstanceRequest Init(System.String secret, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration, System.String userId, System.String userName, System.Net.IPEndPoint userEndPoint, System.Byte[] userRandom, System.Byte[] userPublicKey)
     // Offset: 0x12DAE48
-    MasterServer::CreateDedicatedServerInstanceRequest* Init(::Il2CppString* secret, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration, ::Il2CppString* userId, ::Il2CppString* userName, System::Net::IPEndPoint* userEndPoint, ::ArrayWrapper<uint8_t> userRandom, ::ArrayWrapper<uint8_t> userPublicKey);
+    MasterServer::CreateDedicatedServerInstanceRequest* Init(::Il2CppString* secret, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration, ::Il2CppString* userId, ::Il2CppString* userName, System::Net::IPEndPoint* userEndPoint, ::ArrayW<uint8_t> userRandom, ::ArrayW<uint8_t> userPublicKey);
     // public System.Void .ctor()
     // Offset: 0x12DAEC0
     // Implemented from: BaseMasterServerReliableRequest
@@ -180,7 +187,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint (Maste
 // Writing MetadataGetter for method: MasterServer::CreateDedicatedServerInstanceRequest::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::CreateDedicatedServerInstanceRequest* (MasterServer::CreateDedicatedServerInstanceRequest::*)(::Il2CppString*, GlobalNamespace::BeatmapLevelSelectionMask, GlobalNamespace::GameplayServerConfiguration, ::Il2CppString*, ::Il2CppString*, System::Net::IPEndPoint*, ::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>)>(&MasterServer::CreateDedicatedServerInstanceRequest::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::CreateDedicatedServerInstanceRequest* (MasterServer::CreateDedicatedServerInstanceRequest::*)(::Il2CppString*, GlobalNamespace::BeatmapLevelSelectionMask, GlobalNamespace::GameplayServerConfiguration, ::Il2CppString*, ::Il2CppString*, System::Net::IPEndPoint*, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(&MasterServer::CreateDedicatedServerInstanceRequest::Init)> {
   static const MethodInfo* get() {
     static auto* secret = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* selectionMask = &::il2cpp_utils::GetClassFromName("", "BeatmapLevelSelectionMask")->byval_arg;

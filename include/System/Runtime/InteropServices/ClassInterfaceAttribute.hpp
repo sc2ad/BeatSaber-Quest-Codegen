@@ -24,12 +24,18 @@ namespace System::Runtime::InteropServices {
   // [AttributeUsageAttribute] Offset: E608AC
   class ClassInterfaceAttribute : public System::Attribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Runtime.InteropServices.ClassInterfaceType _val
     // Size: 0x4
     // Offset: 0x10
     System::Runtime::InteropServices::ClassInterfaceType val;
     // Field size check
     static_assert(sizeof(System::Runtime::InteropServices::ClassInterfaceType) == 0x4);
+    public:
     // Creating conversion operator: operator System::Runtime::InteropServices::ClassInterfaceType
     constexpr operator System::Runtime::InteropServices::ClassInterfaceType() const noexcept {
       return val;

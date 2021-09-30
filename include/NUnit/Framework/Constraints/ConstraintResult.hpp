@@ -29,6 +29,11 @@ namespace NUnit::Framework::Constraints {
   // [TokenAttribute] Offset: FFFFFFFF
   class ConstraintResult : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private NUnit.Framework.Constraints.IConstraint _constraint
     // Size: 0x8
     // Offset: 0x10
@@ -49,6 +54,7 @@ namespace NUnit::Framework::Constraints {
     NUnit::Framework::Constraints::ConstraintStatus Status;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Constraints::ConstraintStatus) == 0x4);
+    public:
     // Get instance field reference: private NUnit.Framework.Constraints.IConstraint _constraint
     NUnit::Framework::Constraints::IConstraint*& dyn__constraint();
     // Get instance field reference: private System.Object <ActualValue>k__BackingField

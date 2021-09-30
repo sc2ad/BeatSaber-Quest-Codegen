@@ -33,12 +33,18 @@ namespace System::Threading::Tasks {
   template<typename TResult>
   class TaskCompletionSource_1 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Threading.Tasks.Task`1<TResult> m_task
     // Size: 0x8
     // Offset: 0x0
     System::Threading::Tasks::Task_1<TResult>* m_task;
     // Field size check
     static_assert(sizeof(System::Threading::Tasks::Task_1<TResult>*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Threading::Tasks::Task_1<TResult>*
     constexpr operator System::Threading::Tasks::Task_1<TResult>*() const noexcept {
       return m_task;

@@ -27,6 +27,11 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class MatchmakingEnqueueResult : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly Oculus.Platform.Models.MatchmakingAdminSnapshot AdminSnapshotOptional
     // Size: 0x8
     // Offset: 0x10
@@ -80,6 +85,7 @@ namespace Oculus::Platform::Models {
     ::Il2CppString* RequestHash;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: public readonly Oculus.Platform.Models.MatchmakingAdminSnapshot AdminSnapshotOptional
     Oculus::Platform::Models::MatchmakingAdminSnapshot*& dyn_AdminSnapshotOptional();
     // Get instance field reference: public readonly Oculus.Platform.Models.MatchmakingAdminSnapshot AdminSnapshot

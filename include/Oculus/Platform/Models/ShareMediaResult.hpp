@@ -22,12 +22,18 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class ShareMediaResult : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly Oculus.Platform.ShareMediaStatus Status
     // Size: 0x4
     // Offset: 0x10
     Oculus::Platform::ShareMediaStatus Status;
     // Field size check
     static_assert(sizeof(Oculus::Platform::ShareMediaStatus) == 0x4);
+    public:
     // Creating conversion operator: operator Oculus::Platform::ShareMediaStatus
     constexpr operator Oculus::Platform::ShareMediaStatus() const noexcept {
       return Status;

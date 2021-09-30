@@ -36,6 +36,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::MirroredObstacleController::Pool
     class Pool;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private StretchableObstacle _stretchableObstacle
     // Size: 0x8
     // Offset: 0x28
@@ -60,6 +65,7 @@ namespace GlobalNamespace {
     UnityEngine::Transform* followedTransform;
     // Field size check
     static_assert(sizeof(UnityEngine::Transform*) == 0x8);
+    public:
     // Get instance field reference: private StretchableObstacle _stretchableObstacle
     GlobalNamespace::StretchableObstacle*& dyn__stretchableObstacle();
     // Get instance field reference: private ObstacleController _followedObstacle

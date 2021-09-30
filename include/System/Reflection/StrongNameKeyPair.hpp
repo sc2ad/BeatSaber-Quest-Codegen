@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Serialization
@@ -32,12 +33,17 @@ namespace System::Reflection {
   // [ComVisibleAttribute] Offset: E5E144
   class StrongNameKeyPair : public ::Il2CppObject/*, public System::Runtime::Serialization::ISerializable, public System::Runtime::Serialization::IDeserializationCallback*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Byte[] _publicKey
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<uint8_t> publicKey;
+    ::ArrayW<uint8_t> publicKey;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.String _keyPairContainer
     // Size: 0x8
     // Offset: 0x18
@@ -55,9 +61,10 @@ namespace System::Reflection {
     // private System.Byte[] _keyPairArray
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<uint8_t> keyPairArray;
+    ::ArrayW<uint8_t> keyPairArray;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Runtime::Serialization::ISerializable
     operator System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);
@@ -67,13 +74,13 @@ namespace System::Reflection {
       return *reinterpret_cast<System::Runtime::Serialization::IDeserializationCallback*>(this);
     }
     // Get instance field reference: private System.Byte[] _publicKey
-    ::ArrayWrapper<uint8_t>& dyn__publicKey();
+    ::ArrayW<uint8_t>& dyn__publicKey();
     // Get instance field reference: private System.String _keyPairContainer
     ::Il2CppString*& dyn__keyPairContainer();
     // Get instance field reference: private System.Boolean _keyPairExported
     bool& dyn__keyPairExported();
     // Get instance field reference: private System.Byte[] _keyPairArray
-    ::ArrayWrapper<uint8_t>& dyn__keyPairArray();
+    ::ArrayW<uint8_t>& dyn__keyPairArray();
     // protected System.Void .ctor(System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context)
     // Offset: 0x15A45FC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -89,7 +96,7 @@ namespace System::Reflection {
     void System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::Il2CppObject* sender);
   }; // System.Reflection.StrongNameKeyPair
   #pragma pack(pop)
-  static check_size<sizeof(StrongNameKeyPair), 40 + sizeof(::ArrayWrapper<uint8_t>)> __System_Reflection_StrongNameKeyPairSizeCheck;
+  static check_size<sizeof(StrongNameKeyPair), 40 + sizeof(::ArrayW<uint8_t>)> __System_Reflection_StrongNameKeyPairSizeCheck;
   static_assert(sizeof(StrongNameKeyPair) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Reflection::StrongNameKeyPair*, "System.Reflection", "StrongNameKeyPair");

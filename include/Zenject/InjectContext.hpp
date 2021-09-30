@@ -49,6 +49,11 @@ namespace Zenject {
     class $get_ParentContextsAndSelf$d__54;
     // Nested type: Zenject::InjectContext::$get_AllObjectTypes$d__56
     class $get_AllObjectTypes$d__56;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Zenject.BindingId _bindingId
     // Size: 0x10
     // Offset: 0x10
@@ -111,6 +116,7 @@ namespace Zenject {
     Zenject::DiContainer* container;
     // Field size check
     static_assert(sizeof(Zenject::DiContainer*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

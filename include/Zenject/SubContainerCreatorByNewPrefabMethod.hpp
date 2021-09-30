@@ -46,12 +46,18 @@ namespace Zenject {
   // [NoReflectionBakingAttribute] Offset: FFFFFFFF
   class SubContainerCreatorByNewPrefabMethod : public Zenject::SubContainerCreatorByNewPrefabDynamicContext {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Action`1<Zenject.DiContainer> _installerMethod
     // Size: 0x8
     // Offset: 0x28
     System::Action_1<Zenject::DiContainer*>* installerMethod;
     // Field size check
     static_assert(sizeof(System::Action_1<Zenject::DiContainer*>*) == 0x8);
+    public:
     // Get instance field reference: private readonly System.Action`1<Zenject.DiContainer> _installerMethod
     System::Action_1<Zenject::DiContainer*>*& dyn__installerMethod();
     // public System.Void .ctor(Zenject.DiContainer container, Zenject.IPrefabProvider prefabProvider, Zenject.GameObjectCreationParameters gameObjectBindInfo, System.Action`1<Zenject.DiContainer> installerMethod)

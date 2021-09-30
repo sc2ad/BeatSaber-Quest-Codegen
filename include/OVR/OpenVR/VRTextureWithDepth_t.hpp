@@ -18,12 +18,18 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct VRTextureWithDepth_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public OVR.OpenVR.VRTextureDepthInfo_t depth
     // Size: 0x50
     // Offset: 0x0
     OVR::OpenVR::VRTextureDepthInfo_t depth;
     // Field size check
     static_assert(sizeof(OVR::OpenVR::VRTextureDepthInfo_t) == 0x50);
+    public:
     // Creating value type constructor for type: VRTextureWithDepth_t
     constexpr VRTextureWithDepth_t(OVR::OpenVR::VRTextureDepthInfo_t depth_ = {}) noexcept : depth{depth_} {}
     // Creating interface conversion operator: operator System::ValueType

@@ -44,12 +44,18 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5CD64
   struct RuntimeMethodHandle/*, public System::ValueType, public System::Runtime::Serialization::ISerializable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.IntPtr value
     // Size: 0x8
     // Offset: 0x0
     System::IntPtr value;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
+    public:
     // Creating value type constructor for type: RuntimeMethodHandle
     constexpr RuntimeMethodHandle(System::IntPtr value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::ValueType

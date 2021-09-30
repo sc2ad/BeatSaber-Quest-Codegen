@@ -29,6 +29,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -86,6 +87,11 @@ namespace System::Collections::Generic {
       using declaring_type = Dictionary_2<TKey, TValue>*;
       static constexpr std::string_view NESTED_NAME = "Entry";
       static constexpr bool IS_VALUE_TYPE = true;
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 hashCode
       // Size: 0x4
       // Offset: 0x0
@@ -106,6 +112,7 @@ namespace System::Collections::Generic {
       // Size: 0xFFFFFFFF
       // Offset: 0x0
       TValue value;
+      public:
       // Creating value type constructor for type: Entry
       constexpr Entry(int hashCode_ = {}, int next_ = {}, TKey key_ = {}, TValue value_ = {}) noexcept : hashCode{hashCode_}, next{next_}, key{key_}, value{value_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -155,6 +162,11 @@ namespace System::Collections::Generic {
       using declaring_type = Dictionary_2<TKey, TValue>*;
       static constexpr std::string_view NESTED_NAME = "Enumerator";
       static constexpr bool IS_VALUE_TYPE = true;
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // private System.Collections.Generic.Dictionary`2<TKey,TValue> dictionary
       // Size: 0x8
       // Offset: 0x0
@@ -183,6 +195,7 @@ namespace System::Collections::Generic {
       int getEnumeratorRetType;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: Enumerator
       constexpr Enumerator(System::Collections::Generic::Dictionary_2<TKey, TValue>* dictionary_ = {}, int version_ = {}, int index_ = {}, System::Collections::Generic::KeyValuePair_2<TKey, TValue> current_ = {}, int getEnumeratorRetType_ = {}) noexcept : dictionary{dictionary_}, version{version_}, index{index_}, current{current_}, getEnumeratorRetType{getEnumeratorRetType_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -323,6 +336,11 @@ namespace System::Collections::Generic {
         using declaring_type = typename Dictionary_2<TKey, TValue>::KeyCollection*;
         static constexpr std::string_view NESTED_NAME = "Enumerator";
         static constexpr bool IS_VALUE_TYPE = true;
+        #ifdef USE_CODEGEN_FIELDS
+        public:
+        #else
+        private:
+        #endif
         // private System.Collections.Generic.Dictionary`2<TKey,TValue> dictionary
         // Size: 0x8
         // Offset: 0x0
@@ -345,6 +363,7 @@ namespace System::Collections::Generic {
         // Size: 0xFFFFFFFF
         // Offset: 0x0
         TKey currentKey;
+        public:
         // Creating value type constructor for type: Enumerator
         constexpr Enumerator(System::Collections::Generic::Dictionary_2<TKey, TValue>* dictionary_ = {}, int index_ = {}, int version_ = {}, TKey currentKey_ = {}) noexcept : dictionary{dictionary_}, index{index_}, version{version_}, currentKey{currentKey_} {}
         // Creating interface conversion operator: operator System::ValueType
@@ -431,12 +450,18 @@ namespace System::Collections::Generic {
         }
       }; // System.Collections.Generic.Dictionary`2/System.Collections.Generic.KeyCollection/System.Collections.Generic.Enumerator
       // Could not write size check! Type: System.Collections.Generic.Dictionary`2/System.Collections.Generic.KeyCollection/System.Collections.Generic.Enumerator is generic, or has no fields that are valid for size checks!
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // private System.Collections.Generic.Dictionary`2<TKey,TValue> dictionary
       // Size: 0x8
       // Offset: 0x0
       System::Collections::Generic::Dictionary_2<TKey, TValue>* dictionary;
       // Field size check
       static_assert(sizeof(System::Collections::Generic::Dictionary_2<TKey, TValue>*) == 0x8);
+      public:
       // Creating interface conversion operator: operator System::Collections::Generic::ICollection_1<TKey>
       operator System::Collections::Generic::ICollection_1<TKey>() noexcept {
         return *reinterpret_cast<System::Collections::Generic::ICollection_1<TKey>*>(this);
@@ -494,7 +519,7 @@ namespace System::Collections::Generic {
       }
       // public System.Void CopyTo(TKey[] array, System.Int32 index)
       // Offset: 0xFFFFFFFF
-      void CopyTo(::ArrayWrapper<TKey> array, int index) {
+      void CopyTo(::ArrayW<TKey> array, int index) {
         static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::Dictionary_2::KeyCollection::CopyTo");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CopyTo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(index)})));
         auto ___instance_arg = this;
@@ -579,6 +604,11 @@ namespace System::Collections::Generic {
         using declaring_type = typename Dictionary_2<TKey, TValue>::ValueCollection*;
         static constexpr std::string_view NESTED_NAME = "Enumerator";
         static constexpr bool IS_VALUE_TYPE = true;
+        #ifdef USE_CODEGEN_FIELDS
+        public:
+        #else
+        private:
+        #endif
         // private System.Collections.Generic.Dictionary`2<TKey,TValue> dictionary
         // Size: 0x8
         // Offset: 0x0
@@ -601,6 +631,7 @@ namespace System::Collections::Generic {
         // Size: 0xFFFFFFFF
         // Offset: 0x0
         TValue currentValue;
+        public:
         // Creating value type constructor for type: Enumerator
         constexpr Enumerator(System::Collections::Generic::Dictionary_2<TKey, TValue>* dictionary_ = {}, int index_ = {}, int version_ = {}, TValue currentValue_ = {}) noexcept : dictionary{dictionary_}, index{index_}, version{version_}, currentValue{currentValue_} {}
         // Creating interface conversion operator: operator System::ValueType
@@ -687,12 +718,18 @@ namespace System::Collections::Generic {
         }
       }; // System.Collections.Generic.Dictionary`2/System.Collections.Generic.ValueCollection/System.Collections.Generic.Enumerator
       // Could not write size check! Type: System.Collections.Generic.Dictionary`2/System.Collections.Generic.ValueCollection/System.Collections.Generic.Enumerator is generic, or has no fields that are valid for size checks!
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // private System.Collections.Generic.Dictionary`2<TKey,TValue> dictionary
       // Size: 0x8
       // Offset: 0x0
       System::Collections::Generic::Dictionary_2<TKey, TValue>* dictionary;
       // Field size check
       static_assert(sizeof(System::Collections::Generic::Dictionary_2<TKey, TValue>*) == 0x8);
+      public:
       // Creating interface conversion operator: operator System::Collections::Generic::ICollection_1<TValue>
       operator System::Collections::Generic::ICollection_1<TValue>() noexcept {
         return *reinterpret_cast<System::Collections::Generic::ICollection_1<TValue>*>(this);
@@ -750,7 +787,7 @@ namespace System::Collections::Generic {
       }
       // public System.Void CopyTo(TValue[] array, System.Int32 index)
       // Offset: 0xFFFFFFFF
-      void CopyTo(::ArrayWrapper<TValue> array, int index) {
+      void CopyTo(::ArrayW<TValue> array, int index) {
         static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::Dictionary_2::ValueCollection::CopyTo");
         auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CopyTo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(index)})));
         auto ___instance_arg = this;
@@ -814,18 +851,23 @@ namespace System::Collections::Generic {
       }
     }; // System.Collections.Generic.Dictionary`2/System.Collections.Generic.ValueCollection
     // Could not write size check! Type: System.Collections.Generic.Dictionary`2/System.Collections.Generic.ValueCollection is generic, or has no fields that are valid for size checks!
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32[] buckets
     // Size: 0x8
     // Offset: 0x0
-    ::ArrayWrapper<int> buckets;
+    ::ArrayW<int> buckets;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // private System.Collections.Generic.Dictionary`2/System.Collections.Generic.Entry<TKey,TValue>[] entries
     // Size: 0x8
     // Offset: 0x0
-    ::ArrayWrapper<typename System::Collections::Generic::Dictionary_2<TKey, TValue>::Entry> entries;
+    ::ArrayW<typename System::Collections::Generic::Dictionary_2<TKey, TValue>::Entry> entries;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<typename System::Collections::Generic::Dictionary_2<TKey, TValue>::Entry>) == 0x8);
+    static_assert(sizeof(::ArrayW<typename System::Collections::Generic::Dictionary_2<TKey, TValue>::Entry>) == 0x8);
     // private System.Int32 count
     // Size: 0x4
     // Offset: 0x0
@@ -874,6 +916,7 @@ namespace System::Collections::Generic {
     ::Il2CppObject* syncRoot;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Collections::IDictionary
     operator System::Collections::IDictionary() noexcept {
       return *reinterpret_cast<System::Collections::IDictionary*>(this);
@@ -944,19 +987,19 @@ namespace System::Collections::Generic {
     }
     // Autogenerated instance field getter
     // Get instance field: private System.Int32[] buckets
-    ::ArrayWrapper<int>& dyn_buckets() {
+    ::ArrayW<int>& dyn_buckets() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::Dictionary_2::dyn_buckets");
       auto ___internal__instance = this;
       static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "buckets"))->offset;
-      return *reinterpret_cast<::ArrayWrapper<int>*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+      return *reinterpret_cast<::ArrayW<int>*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // Autogenerated instance field getter
     // Get instance field: private System.Collections.Generic.Dictionary`2/System.Collections.Generic.Entry<TKey,TValue>[] entries
-    ::ArrayWrapper<typename System::Collections::Generic::Dictionary_2<TKey, TValue>::Entry>& dyn_entries() {
+    ::ArrayW<typename System::Collections::Generic::Dictionary_2<TKey, TValue>::Entry>& dyn_entries() {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::Dictionary_2::dyn_entries");
       auto ___internal__instance = this;
       static auto ___internal__field__offset = THROW_UNLESS(il2cpp_utils::FindField(___internal__instance, "entries"))->offset;
-      return *reinterpret_cast<::ArrayWrapper<typename System::Collections::Generic::Dictionary_2<TKey, TValue>::Entry>*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
+      return *reinterpret_cast<::ArrayW<typename System::Collections::Generic::Dictionary_2<TKey, TValue>::Entry>*>(reinterpret_cast<char*>(this) + ___internal__field__offset);
     }
     // Autogenerated instance field getter
     // Get instance field: private System.Int32 count
@@ -1194,7 +1237,7 @@ namespace System::Collections::Generic {
     }
     // private System.Void CopyTo(System.Collections.Generic.KeyValuePair`2<TKey,TValue>[] array, System.Int32 index)
     // Offset: 0xFFFFFFFF
-    void CopyTo(::ArrayWrapper<System::Collections::Generic::KeyValuePair_2<TKey, TValue>> array, int index) {
+    void CopyTo(::ArrayW<System::Collections::Generic::KeyValuePair_2<TKey, TValue>> array, int index) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::Dictionary_2::CopyTo");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "CopyTo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(index)})));
       auto ___instance_arg = this;
@@ -1290,7 +1333,7 @@ namespace System::Collections::Generic {
     }
     // private System.Void System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.CopyTo(System.Collections.Generic.KeyValuePair`2<TKey,TValue>[] array, System.Int32 index)
     // Offset: 0xFFFFFFFF
-    void System_Collections_Generic_ICollection$System_Collections_Generic_KeyValuePair$TKey_TValue$$_CopyTo(::ArrayWrapper<System::Collections::Generic::KeyValuePair_2<TKey, TValue>> array, int index) {
+    void System_Collections_Generic_ICollection$System_Collections_Generic_KeyValuePair$TKey_TValue$$_CopyTo(::ArrayW<System::Collections::Generic::KeyValuePair_2<TKey, TValue>> array, int index) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Collections::Generic::Dictionary_2::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.CopyTo");
       auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.CopyTo", std::vector<Il2CppClass*>{}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(array), ::il2cpp_utils::ExtractType(index)})));
       auto ___instance_arg = this;

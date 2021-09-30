@@ -27,6 +27,11 @@ namespace NUnit::Framework::Internal::Filters {
   // [TokenAttribute] Offset: FFFFFFFF
   class ValueMatchFilter : public NUnit::Framework::Internal::TestFilter {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [DebuggerBrowsableAttribute] Offset: 0xEEF6D8
     // private System.String <ExpectedValue>k__BackingField
     // Size: 0x8
@@ -41,6 +46,7 @@ namespace NUnit::Framework::Internal::Filters {
     bool IsRegex;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private System.String <ExpectedValue>k__BackingField
     ::Il2CppString*& dyn_$ExpectedValue$k__BackingField();
     // Get instance field reference: private System.Boolean <IsRegex>k__BackingField

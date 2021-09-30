@@ -19,6 +19,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Serialization
@@ -66,6 +67,11 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   // [ComVisibleAttribute] Offset: E5F9F0
   class BinaryFormatter : public ::Il2CppObject/*, public System::Runtime::Serialization::IFormatter*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Runtime.Serialization.ISurrogateSelector m_surrogates
     // Size: 0x8
     // Offset: 0x10
@@ -109,9 +115,10 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // System.Object[] m_crossAppDomainArray
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayWrapper<::Il2CppObject*> m_crossAppDomainArray;
+    ::ArrayW<::Il2CppObject*> m_crossAppDomainArray;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppObject*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppObject*>) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Runtime::Serialization::IFormatter
     operator System::Runtime::Serialization::IFormatter() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::IFormatter*>(this);
@@ -133,7 +140,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: System.Runtime.Serialization.Formatters.TypeFilterLevel m_securityLevel
     System::Runtime::Serialization::Formatters::TypeFilterLevel& dyn_m_securityLevel();
     // Get instance field reference: System.Object[] m_crossAppDomainArray
-    ::ArrayWrapper<::Il2CppObject*>& dyn_m_crossAppDomainArray();
+    ::ArrayW<::Il2CppObject*>& dyn_m_crossAppDomainArray();
     // public System.Void set_AssemblyFormat(System.Runtime.Serialization.Formatters.FormatterAssemblyStyle value)
     // Offset: 0x17E87EC
     void set_AssemblyFormat(System::Runtime::Serialization::Formatters::FormatterAssemblyStyle value);
@@ -167,10 +174,10 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     void Serialize(System::IO::Stream* serializationStream, ::Il2CppObject* graph);
     // public System.Void Serialize(System.IO.Stream serializationStream, System.Object graph, System.Runtime.Remoting.Messaging.Header[] headers)
     // Offset: 0x17E9044
-    void Serialize(System::IO::Stream* serializationStream, ::Il2CppObject* graph, ::ArrayWrapper<System::Runtime::Remoting::Messaging::Header*> headers);
+    void Serialize(System::IO::Stream* serializationStream, ::Il2CppObject* graph, ::ArrayW<System::Runtime::Remoting::Messaging::Header*> headers);
     // System.Void Serialize(System.IO.Stream serializationStream, System.Object graph, System.Runtime.Remoting.Messaging.Header[] headers, System.Boolean fCheck)
     // Offset: 0x17E904C
-    void Serialize(System::IO::Stream* serializationStream, ::Il2CppObject* graph, ::ArrayWrapper<System::Runtime::Remoting::Messaging::Header*> headers, bool fCheck);
+    void Serialize(System::IO::Stream* serializationStream, ::Il2CppObject* graph, ::ArrayW<System::Runtime::Remoting::Messaging::Header*> headers, bool fCheck);
     // static System.Runtime.Serialization.Formatters.Binary.TypeInformation GetTypeInformation(System.Type type)
     // Offset: 0x17E964C
     static System::Runtime::Serialization::Formatters::Binary::TypeInformation* GetTypeInformation(System::Type* type);
@@ -185,7 +192,7 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     }
   }; // System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
   #pragma pack(pop)
-  static check_size<sizeof(BinaryFormatter), 64 + sizeof(::ArrayWrapper<::Il2CppObject*>)> __System_Runtime_Serialization_Formatters_Binary_BinaryFormatterSizeCheck;
+  static check_size<sizeof(BinaryFormatter), 64 + sizeof(::ArrayW<::Il2CppObject*>)> __System_Runtime_Serialization_Formatters_Binary_BinaryFormatterSizeCheck;
   static_assert(sizeof(BinaryFormatter) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Serialization::Formatters::Binary::BinaryFormatter*, "System.Runtime.Serialization.Formatters.Binary", "BinaryFormatter");
@@ -272,7 +279,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::Serialize
 // Il2CppName: Serialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::*)(System::IO::Stream*, ::Il2CppObject*, ::ArrayWrapper<System::Runtime::Remoting::Messaging::Header*>)>(&System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::Serialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::*)(System::IO::Stream*, ::Il2CppObject*, ::ArrayW<System::Runtime::Remoting::Messaging::Header*>)>(&System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::Serialize)> {
   static const MethodInfo* get() {
     static auto* serializationStream = &::il2cpp_utils::GetClassFromName("System.IO", "Stream")->byval_arg;
     static auto* graph = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
@@ -283,7 +290,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::Serialize
 // Il2CppName: Serialize
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::*)(System::IO::Stream*, ::Il2CppObject*, ::ArrayWrapper<System::Runtime::Remoting::Messaging::Header*>, bool)>(&System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::Serialize)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::*)(System::IO::Stream*, ::Il2CppObject*, ::ArrayW<System::Runtime::Remoting::Messaging::Header*>, bool)>(&System::Runtime::Serialization::Formatters::Binary::BinaryFormatter::Serialize)> {
   static const MethodInfo* get() {
     static auto* serializationStream = &::il2cpp_utils::GetClassFromName("System.IO", "Stream")->byval_arg;
     static auto* graph = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;

@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: LiteNetLib::Utils
@@ -33,6 +34,11 @@ namespace MasterServer {
   // [TokenAttribute] Offset: FFFFFFFF
   class BaseMasterServerMultipartMessage : public GlobalNamespace::BaseMasterServerReliableRequest/*, public MasterServer::IMasterServerMultipartMessage*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.UInt32 <multipartMessageId>k__BackingField
     // Size: 0x4
     // Offset: 0x14
@@ -62,9 +68,10 @@ namespace MasterServer {
     // private readonly System.Byte[] _data
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<uint8_t> data;
+    ::ArrayW<uint8_t> data;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
+    public:
     // Creating interface conversion operator: operator MasterServer::IMasterServerMultipartMessage
     operator MasterServer::IMasterServerMultipartMessage() noexcept {
       return *reinterpret_cast<MasterServer::IMasterServerMultipartMessage*>(this);
@@ -92,7 +99,7 @@ namespace MasterServer {
     // Get instance field reference: private System.Int32 <totalLength>k__BackingField
     int& dyn_$totalLength$k__BackingField();
     // Get instance field reference: private readonly System.Byte[] _data
-    ::ArrayWrapper<uint8_t>& dyn__data();
+    ::ArrayW<uint8_t>& dyn__data();
     // public System.UInt32 get_multipartMessageId()
     // Offset: 0x12D9A38
     uint get_multipartMessageId();
@@ -119,10 +126,10 @@ namespace MasterServer {
     void set_totalLength(int value);
     // public System.Byte[] get_data()
     // Offset: 0x12D9A78
-    ::ArrayWrapper<uint8_t> get_data();
+    ::ArrayW<uint8_t> get_data();
     // public MasterServer.BaseMasterServerMultipartMessage Init(System.UInt32 multipartMessageId, System.Byte[] data, System.Int32 offset, System.Int32 length, System.Int32 totalLength)
     // Offset: 0x12D9A80
-    MasterServer::BaseMasterServerMultipartMessage* Init(uint multipartMessageId, ::ArrayWrapper<uint8_t> data, int offset, int length, int totalLength);
+    MasterServer::BaseMasterServerMultipartMessage* Init(uint multipartMessageId, ::ArrayW<uint8_t> data, int offset, int length, int totalLength);
     // protected System.Void .ctor()
     // Offset: 0x12D9CC8
     // Implemented from: BaseMasterServerReliableRequest
@@ -145,7 +152,7 @@ namespace MasterServer {
     void Deserialize(LiteNetLib::Utils::NetDataReader* reader);
   }; // MasterServer.BaseMasterServerMultipartMessage
   #pragma pack(pop)
-  static check_size<sizeof(BaseMasterServerMultipartMessage), 40 + sizeof(::ArrayWrapper<uint8_t>)> __MasterServer_BaseMasterServerMultipartMessageSizeCheck;
+  static check_size<sizeof(BaseMasterServerMultipartMessage), 40 + sizeof(::ArrayW<uint8_t>)> __MasterServer_BaseMasterServerMultipartMessageSizeCheck;
   static_assert(sizeof(BaseMasterServerMultipartMessage) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(MasterServer::BaseMasterServerMultipartMessage*, "MasterServer", "BaseMasterServerMultipartMessage");
@@ -221,7 +228,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
 // Writing MetadataGetter for method: MasterServer::BaseMasterServerMultipartMessage::get_data
 // Il2CppName: get_data
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (MasterServer::BaseMasterServerMultipartMessage::*)()>(&MasterServer::BaseMasterServerMultipartMessage::get_data)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (MasterServer::BaseMasterServerMultipartMessage::*)()>(&MasterServer::BaseMasterServerMultipartMessage::get_data)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(MasterServer::BaseMasterServerMultipartMessage*), "get_data", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -229,7 +236,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: MasterServer::BaseMasterServerMultipartMessage::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::BaseMasterServerMultipartMessage* (MasterServer::BaseMasterServerMultipartMessage::*)(uint, ::ArrayWrapper<uint8_t>, int, int, int)>(&MasterServer::BaseMasterServerMultipartMessage::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::BaseMasterServerMultipartMessage* (MasterServer::BaseMasterServerMultipartMessage::*)(uint, ::ArrayW<uint8_t>, int, int, int)>(&MasterServer::BaseMasterServerMultipartMessage::Init)> {
   static const MethodInfo* get() {
     static auto* multipartMessageId = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;

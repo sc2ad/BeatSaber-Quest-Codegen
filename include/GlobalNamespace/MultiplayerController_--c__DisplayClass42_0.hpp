@@ -21,6 +21,11 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class MultiplayerController::$$c__DisplayClass42_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public MultiplayerController <>4__this
     // Size: 0x8
     // Offset: 0x10
@@ -33,6 +38,7 @@ namespace GlobalNamespace {
     float introAnimationStartSyncTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: public MultiplayerController <>4__this
     GlobalNamespace::MultiplayerController*& dyn_$$4__this();
     // Get instance field reference: public System.Single introAnimationStartSyncTime

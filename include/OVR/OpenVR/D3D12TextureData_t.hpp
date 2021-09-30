@@ -18,6 +18,11 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct D3D12TextureData_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.IntPtr m_pResource
     // Size: 0x8
     // Offset: 0x0
@@ -36,6 +41,7 @@ namespace OVR::OpenVR {
     uint m_nNodeMask;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
+    public:
     // Creating value type constructor for type: D3D12TextureData_t
     constexpr D3D12TextureData_t(System::IntPtr m_pResource_ = {}, System::IntPtr m_pCommandQueue_ = {}, uint m_nNodeMask_ = {}) noexcept : m_pResource{m_pResource_}, m_pCommandQueue{m_pCommandQueue_}, m_nNodeMask{m_nNodeMask_} {}
     // Creating interface conversion operator: operator System::ValueType

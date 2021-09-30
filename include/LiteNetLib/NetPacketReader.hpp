@@ -33,6 +33,11 @@ namespace LiteNetLib {
     public:
     // Writing base type padding for base size: 0x24 to desired offset: 0x28
     char ___base_padding[0x4] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private LiteNetLib.NetPacket _packet
     // Size: 0x8
     // Offset: 0x28
@@ -51,6 +56,7 @@ namespace LiteNetLib {
     LiteNetLib::NetEvent* evt;
     // Field size check
     static_assert(sizeof(LiteNetLib::NetEvent*) == 0x8);
+    public:
     // Get instance field reference: private LiteNetLib.NetPacket _packet
     LiteNetLib::NetPacket*& dyn__packet();
     // Get instance field reference: private readonly LiteNetLib.NetManager _manager

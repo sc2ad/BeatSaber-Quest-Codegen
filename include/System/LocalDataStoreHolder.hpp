@@ -25,12 +25,18 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class LocalDataStoreHolder : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.LocalDataStore m_Store
     // Size: 0x8
     // Offset: 0x10
     System::LocalDataStore* m_Store;
     // Field size check
     static_assert(sizeof(System::LocalDataStore*) == 0x8);
+    public:
     // Creating conversion operator: operator System::LocalDataStore*
     constexpr operator System::LocalDataStore*() const noexcept {
       return m_Store;

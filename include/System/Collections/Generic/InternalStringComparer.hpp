@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: System.Collections.Generic
 namespace System::Collections::Generic {
@@ -27,7 +28,7 @@ namespace System::Collections::Generic {
     bool Equals(::Il2CppString* x, ::Il2CppString* y);
     // System.Int32 IndexOf(System.String[] array, System.String value, System.Int32 startIndex, System.Int32 count)
     // Offset: 0x199AE80
-    int IndexOf(::ArrayWrapper<::Il2CppString*> array, ::Il2CppString* value, int startIndex, int count);
+    int IndexOf(::ArrayW<::Il2CppString*> array, ::Il2CppString* value, int startIndex, int count);
     // public System.Void .ctor()
     // Offset: 0x199AEE8
     // Implemented from: System.Collections.Generic.EqualityComparer`1
@@ -64,7 +65,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Collections::Generic::InternalStringComparer::IndexOf
 // Il2CppName: IndexOf
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Collections::Generic::InternalStringComparer::*)(::ArrayWrapper<::Il2CppString*>, ::Il2CppString*, int, int)>(&System::Collections::Generic::InternalStringComparer::IndexOf)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (System::Collections::Generic::InternalStringComparer::*)(::ArrayW<::Il2CppString*>, ::Il2CppString*, int, int)>(&System::Collections::Generic::InternalStringComparer::IndexOf)> {
   static const MethodInfo* get() {
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     static auto* value = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

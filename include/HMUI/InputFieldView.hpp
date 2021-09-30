@@ -74,12 +74,18 @@ namespace HMUI {
     // [TokenAttribute] Offset: FFFFFFFF
     struct SelectionState/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: SelectionState
       constexpr SelectionState(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -126,6 +132,11 @@ namespace HMUI {
     #pragma pack(pop)
     static check_size<sizeof(InputFieldView::SelectionState), 0 + sizeof(int)> __HMUI_InputFieldView_SelectionStateSizeCheck;
     static_assert(sizeof(InputFieldView::SelectionState) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private TMPro.TextMeshProUGUI _textView
     // Size: 0x8
     // Offset: 0xF8
@@ -241,6 +252,7 @@ namespace HMUI {
     UnityEngine::YieldInstruction* blinkWaitYieldInstruction;
     // Field size check
     static_assert(sizeof(UnityEngine::YieldInstruction*) == 0x8);
+    public:
     // static field const value: static private System.Single kBlinkingRate
     static constexpr const float kBlinkingRate = 0.4;
     // Get static field: static private System.Single kBlinkingRate

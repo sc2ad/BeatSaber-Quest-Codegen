@@ -17,6 +17,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Microsoft::Win32::SafeHandles
@@ -44,6 +45,11 @@ namespace Microsoft::Win32 {
   // [ComVisibleAttribute] Offset: E5B824
   class RegistryKey : public System::MarshalByRefObject/*, public System::IDisposable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Object handle
     // Size: 0x8
     // Offset: 0x18
@@ -80,6 +86,7 @@ namespace Microsoft::Win32 {
     bool isWritable;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
@@ -167,7 +174,7 @@ namespace Microsoft::Win32 {
     ::Il2CppObject* GetValue(::Il2CppString* name, ::Il2CppObject* defaultValue);
     // public System.String[] GetSubKeyNames()
     // Offset: 0x1C2FB20
-    ::ArrayWrapper<::Il2CppString*> GetSubKeyNames();
+    ::ArrayW<::Il2CppString*> GetSubKeyNames();
     // private System.Void AssertKeyStillValid()
     // Offset: 0x1C2F788
     void AssertKeyStillValid();
@@ -176,7 +183,7 @@ namespace Microsoft::Win32 {
     void AssertKeyNameLength(::Il2CppString* name);
     // static System.String DecodeString(System.Byte[] data)
     // Offset: 0x1C2FCF8
-    static ::Il2CppString* DecodeString(::ArrayWrapper<uint8_t> data);
+    static ::Il2CppString* DecodeString(::ArrayW<uint8_t> data);
     // static System.IO.IOException CreateMarkedForDeletionException()
     // Offset: 0x1C2FDA8
     static System::IO::IOException* CreateMarkedForDeletionException();
@@ -330,7 +337,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppObj
 // Writing MetadataGetter for method: Microsoft::Win32::RegistryKey::GetSubKeyNames
 // Il2CppName: GetSubKeyNames
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppString*> (Microsoft::Win32::RegistryKey::*)()>(&Microsoft::Win32::RegistryKey::GetSubKeyNames)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (Microsoft::Win32::RegistryKey::*)()>(&Microsoft::Win32::RegistryKey::GetSubKeyNames)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::RegistryKey*), "GetSubKeyNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -355,7 +362,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Micro
 // Writing MetadataGetter for method: Microsoft::Win32::RegistryKey::DecodeString
 // Il2CppName: DecodeString
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::ArrayWrapper<uint8_t>)>(&Microsoft::Win32::RegistryKey::DecodeString)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (*)(::ArrayW<uint8_t>)>(&Microsoft::Win32::RegistryKey::DecodeString)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Microsoft::Win32::RegistryKey*), "DecodeString", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data});

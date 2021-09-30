@@ -36,6 +36,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerBadgesModelSO : public UnityEngine::ScriptableObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.List`1<MultiplayerBadgeDataSO> _positiveBadges
     // Size: 0x8
     // Offset: 0x18
@@ -48,6 +53,7 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<GlobalNamespace::MultiplayerBadgeDataSO*>* negativeBadges;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::MultiplayerBadgeDataSO*>*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Collections.Generic.List`1<MultiplayerBadgeDataSO> _positiveBadges

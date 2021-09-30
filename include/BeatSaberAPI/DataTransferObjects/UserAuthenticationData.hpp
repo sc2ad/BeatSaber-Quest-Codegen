@@ -22,6 +22,11 @@ namespace BeatSaberAPI::DataTransferObjects {
   // [TokenAttribute] Offset: FFFFFFFF
   class UserAuthenticationData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public BeatSaberAPI.DataTransferObjects.UserPlatform userPlatform
     // Size: 0x1
     // Offset: 0x10
@@ -66,6 +71,7 @@ namespace BeatSaberAPI::DataTransferObjects {
     ::Il2CppString* publicUserDisplayName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: public BeatSaberAPI.DataTransferObjects.UserPlatform userPlatform
     BeatSaberAPI::DataTransferObjects::UserPlatform& dyn_userPlatform();
     // Get instance field reference: public BeatSaberAPI.DataTransferObjects.PlatformEnviroment platformEnviroment

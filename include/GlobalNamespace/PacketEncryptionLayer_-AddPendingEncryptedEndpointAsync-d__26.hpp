@@ -17,6 +17,7 @@
 #include "System/Runtime/CompilerServices/TaskAwaiter_1.hpp"
 // Including type: EncryptionUtility
 #include "GlobalNamespace/EncryptionUtility.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net
@@ -33,6 +34,11 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   struct PacketEncryptionLayer::$AddPendingEncryptedEndpointAsync$d__26/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0
@@ -46,21 +52,21 @@ namespace GlobalNamespace {
     // public System.Byte[] preMasterSecret
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<uint8_t> preMasterSecret;
+    ::ArrayW<uint8_t> preMasterSecret;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // public System.Byte[] serverRandom
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<uint8_t> serverRandom;
+    ::ArrayW<uint8_t> serverRandom;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // public System.Byte[] clientRandom
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<uint8_t> clientRandom;
+    ::ArrayW<uint8_t> clientRandom;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // public System.Boolean isClient
     // Size: 0x1
     // Offset: 0x38
@@ -83,8 +89,9 @@ namespace GlobalNamespace {
     // Size: 0xFFFFFFFF
     // Offset: 0x50
     System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::EncryptionUtility::IEncryptionState*> $$u__1;
+    public:
     // Creating value type constructor for type: $AddPendingEncryptedEndpointAsync$d__26
-    constexpr $AddPendingEncryptedEndpointAsync$d__26(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder $$t__builder_ = {}, ::ArrayWrapper<uint8_t> preMasterSecret_ = ::ArrayWrapper<uint8_t>(nullptr), ::ArrayWrapper<uint8_t> serverRandom_ = ::ArrayWrapper<uint8_t>(nullptr), ::ArrayWrapper<uint8_t> clientRandom_ = ::ArrayWrapper<uint8_t>(nullptr), bool isClient_ = {}, GlobalNamespace::PacketEncryptionLayer* $$4__this_ = {}, System::Net::IPEndPoint* endPoint_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::EncryptionUtility::IEncryptionState*> $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, preMasterSecret{preMasterSecret_}, serverRandom{serverRandom_}, clientRandom{clientRandom_}, isClient{isClient_}, $$4__this{$$4__this_}, endPoint{endPoint_}, $$u__1{$$u__1_} {}
+    constexpr $AddPendingEncryptedEndpointAsync$d__26(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder $$t__builder_ = {}, ::ArrayW<uint8_t> preMasterSecret_ = ::ArrayW<uint8_t>(nullptr), ::ArrayW<uint8_t> serverRandom_ = ::ArrayW<uint8_t>(nullptr), ::ArrayW<uint8_t> clientRandom_ = ::ArrayW<uint8_t>(nullptr), bool isClient_ = {}, GlobalNamespace::PacketEncryptionLayer* $$4__this_ = {}, System::Net::IPEndPoint* endPoint_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::EncryptionUtility::IEncryptionState*> $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, preMasterSecret{preMasterSecret_}, serverRandom{serverRandom_}, clientRandom{clientRandom_}, isClient{isClient_}, $$4__this{$$4__this_}, endPoint{endPoint_}, $$u__1{$$u__1_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -98,11 +105,11 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder <>t__builder
     System::Runtime::CompilerServices::AsyncTaskMethodBuilder& dyn_$$t__builder();
     // Get instance field reference: public System.Byte[] preMasterSecret
-    ::ArrayWrapper<uint8_t>& dyn_preMasterSecret();
+    ::ArrayW<uint8_t>& dyn_preMasterSecret();
     // Get instance field reference: public System.Byte[] serverRandom
-    ::ArrayWrapper<uint8_t>& dyn_serverRandom();
+    ::ArrayW<uint8_t>& dyn_serverRandom();
     // Get instance field reference: public System.Byte[] clientRandom
-    ::ArrayWrapper<uint8_t>& dyn_clientRandom();
+    ::ArrayW<uint8_t>& dyn_clientRandom();
     // Get instance field reference: public System.Boolean isClient
     bool& dyn_isClient();
     // Get instance field reference: public PacketEncryptionLayer <>4__this

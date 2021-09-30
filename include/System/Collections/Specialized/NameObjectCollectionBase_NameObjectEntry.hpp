@@ -20,6 +20,11 @@ namespace System::Collections::Specialized {
   // [TokenAttribute] Offset: FFFFFFFF
   class NameObjectCollectionBase::NameObjectEntry : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.String Key
     // Size: 0x8
     // Offset: 0x10
@@ -32,6 +37,7 @@ namespace System::Collections::Specialized {
     ::Il2CppObject* Value;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
+    public:
     // Get instance field reference: System.String Key
     ::Il2CppString*& dyn_Key();
     // Get instance field reference: System.Object Value

@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: OnlineServices::API
@@ -64,6 +65,11 @@ namespace OnlineServices::API {
     struct $SendWebRequestAsync$d__10;
     // Nested type: OnlineServices::API::HTTPAdminLeaderboardsHelper::$SendAndWaitAsync$d__11
     struct $SendAndWaitAsync$d__11;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String _secret
     // Size: 0x8
     // Offset: 0x10
@@ -76,6 +82,7 @@ namespace OnlineServices::API {
     System::UriBuilder* uriBuilder;
     // Field size check
     static_assert(sizeof(System::UriBuilder*) == 0x8);
+    public:
     // Get instance field reference: private System.String _secret
     ::Il2CppString*& dyn__secret();
     // Get instance field reference: private System.UriBuilder _uriBuilder
@@ -92,10 +99,10 @@ namespace OnlineServices::API {
     System::Threading::Tasks::Task_1<::Il2CppString*>* ServerStatus(System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<OnlineServices.API.HTTPAdminLeaderboardsHelper/OnlineServices.API.LeaderboardsInfoResultDto> LeaderboardsExist(System.String[] leaderboardIds, System.Threading.CancellationToken cancellationToken)
     // Offset: 0x111B744
-    System::Threading::Tasks::Task_1<OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsInfoResultDto*>* LeaderboardsExist(::ArrayWrapper<::Il2CppString*> leaderboardIds, System::Threading::CancellationToken cancellationToken);
+    System::Threading::Tasks::Task_1<OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsInfoResultDto*>* LeaderboardsExist(::ArrayW<::Il2CppString*> leaderboardIds, System::Threading::CancellationToken cancellationToken);
     // public System.Threading.Tasks.Task`1<System.Boolean> CreateOrUpdateLeaderboards(System.String[] leaderboardIds, System.Threading.CancellationToken cancellationToken)
     // Offset: 0x111B858
-    System::Threading::Tasks::Task_1<bool>* CreateOrUpdateLeaderboards(::ArrayWrapper<::Il2CppString*> leaderboardIds, System::Threading::CancellationToken cancellationToken);
+    System::Threading::Tasks::Task_1<bool>* CreateOrUpdateLeaderboards(::ArrayW<::Il2CppString*> leaderboardIds, System::Threading::CancellationToken cancellationToken);
     // private System.Threading.Tasks.Task`1<System.String> SendWebRequestAsync(System.String uri, System.String method, System.String bodyData, System.Threading.CancellationToken cancellationToken)
     // Offset: 0x111B96C
     System::Threading::Tasks::Task_1<::Il2CppString*>* SendWebRequestAsync(::Il2CppString* uri, ::Il2CppString* method, ::Il2CppString* bodyData, System::Threading::CancellationToken cancellationToken);
@@ -125,7 +132,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsExist
 // Il2CppName: LeaderboardsExist
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsInfoResultDto*>* (OnlineServices::API::HTTPAdminLeaderboardsHelper::*)(::ArrayWrapper<::Il2CppString*>, System::Threading::CancellationToken)>(&OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsExist)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsInfoResultDto*>* (OnlineServices::API::HTTPAdminLeaderboardsHelper::*)(::ArrayW<::Il2CppString*>, System::Threading::CancellationToken)>(&OnlineServices::API::HTTPAdminLeaderboardsHelper::LeaderboardsExist)> {
   static const MethodInfo* get() {
     static auto* leaderboardIds = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;
@@ -135,7 +142,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: OnlineServices::API::HTTPAdminLeaderboardsHelper::CreateOrUpdateLeaderboards
 // Il2CppName: CreateOrUpdateLeaderboards
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<bool>* (OnlineServices::API::HTTPAdminLeaderboardsHelper::*)(::ArrayWrapper<::Il2CppString*>, System::Threading::CancellationToken)>(&OnlineServices::API::HTTPAdminLeaderboardsHelper::CreateOrUpdateLeaderboards)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<bool>* (OnlineServices::API::HTTPAdminLeaderboardsHelper::*)(::ArrayW<::Il2CppString*>, System::Threading::CancellationToken)>(&OnlineServices::API::HTTPAdminLeaderboardsHelper::CreateOrUpdateLeaderboards)> {
   static const MethodInfo* get() {
     static auto* leaderboardIds = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     static auto* cancellationToken = &::il2cpp_utils::GetClassFromName("System.Threading", "CancellationToken")->byval_arg;

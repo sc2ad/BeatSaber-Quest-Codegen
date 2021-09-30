@@ -27,6 +27,11 @@ namespace System::Security::Util {
   // [TokenAttribute] Offset: FFFFFFFF
   class TokenizerStream : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 m_countTokens
     // Size: 0x4
     // Offset: 0x10
@@ -79,6 +84,7 @@ namespace System::Security::Util {
     int m_indexStrings;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: private System.Int32 m_countTokens
     int& dyn_m_countTokens();
     // Get instance field reference: private System.Security.Util.TokenizerShortBlock m_headTokens

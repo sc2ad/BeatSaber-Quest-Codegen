@@ -34,6 +34,11 @@ namespace GlobalNamespace {
   // [RequireComponent] Offset: EFC944
   class NoteDebrisRigidbodyPhysics : public GlobalNamespace::NoteDebrisPhysics {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Rigidbody _rigidbody
     // Size: 0x8
     // Offset: 0x18
@@ -52,6 +57,7 @@ namespace GlobalNamespace {
     bool firstUpdate;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Rigidbody _rigidbody

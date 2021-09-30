@@ -9,6 +9,7 @@
 #include "System/UInt32.hpp"
 // Including type: System.Single
 #include "System/Single.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -42,16 +43,16 @@ namespace GlobalNamespace {
     static void Save(::Il2CppString* filepath, UnityEngine::AudioClip* clip, float start, float duration);
     // static public System.Byte[] GetWav(UnityEngine.AudioClip clip, out System.UInt32 length, System.Single start, System.Single duration)
     // Offset: 0x11CDF8C
-    static ::ArrayWrapper<uint8_t> GetWav(UnityEngine::AudioClip* clip, ByRef<uint> length, float start, float duration);
+    static ::ArrayW<uint8_t> GetWav(UnityEngine::AudioClip* clip, ByRef<uint> length, float start, float duration);
     // static private System.Byte[] ConvertAndWrite(UnityEngine.AudioClip clip, out System.UInt32 length, out System.UInt32 samplesAfterTrimming, System.Single start, System.Single duration)
     // Offset: 0x11CDFD8
-    static ::ArrayWrapper<uint8_t> ConvertAndWrite(UnityEngine::AudioClip* clip, ByRef<uint> length, ByRef<uint> samplesAfterTrimming, float start, float duration);
+    static ::ArrayW<uint8_t> ConvertAndWrite(UnityEngine::AudioClip* clip, ByRef<uint> length, ByRef<uint> samplesAfterTrimming, float start, float duration);
     // static private System.Void AddDataToBuffer(System.Byte[] buffer, ref System.UInt32 offset, System.Byte[] addBytes)
     // Offset: 0x11CE4C4
-    static void AddDataToBuffer(::ArrayWrapper<uint8_t> buffer, ByRef<uint> offset, ::ArrayWrapper<uint8_t> addBytes);
+    static void AddDataToBuffer(::ArrayW<uint8_t> buffer, ByRef<uint> offset, ::ArrayW<uint8_t> addBytes);
     // static private System.Void WriteHeader(System.Byte[] stream, UnityEngine.AudioClip clip, System.UInt32 length, System.UInt32 samples)
     // Offset: 0x11CE234
-    static void WriteHeader(::ArrayWrapper<uint8_t> stream, UnityEngine::AudioClip* clip, uint length, uint samples);
+    static void WriteHeader(::ArrayW<uint8_t> stream, UnityEngine::AudioClip* clip, uint length, uint samples);
   }; // SavWav
   #pragma pack(pop)
 }
@@ -73,7 +74,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: GlobalNamespace::SavWav::GetWav
 // Il2CppName: GetWav
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(UnityEngine::AudioClip*, ByRef<uint>, float, float)>(&GlobalNamespace::SavWav::GetWav)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(UnityEngine::AudioClip*, ByRef<uint>, float, float)>(&GlobalNamespace::SavWav::GetWav)> {
   static const MethodInfo* get() {
     static auto* clip = &::il2cpp_utils::GetClassFromName("UnityEngine", "AudioClip")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;
@@ -85,7 +86,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: GlobalNamespace::SavWav::ConvertAndWrite
 // Il2CppName: ConvertAndWrite
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(UnityEngine::AudioClip*, ByRef<uint>, ByRef<uint>, float, float)>(&GlobalNamespace::SavWav::ConvertAndWrite)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(UnityEngine::AudioClip*, ByRef<uint>, ByRef<uint>, float, float)>(&GlobalNamespace::SavWav::ConvertAndWrite)> {
   static const MethodInfo* get() {
     static auto* clip = &::il2cpp_utils::GetClassFromName("UnityEngine", "AudioClip")->byval_arg;
     static auto* length = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;
@@ -98,7 +99,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: GlobalNamespace::SavWav::AddDataToBuffer
 // Il2CppName: AddDataToBuffer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint8_t>, ByRef<uint>, ::ArrayWrapper<uint8_t>)>(&GlobalNamespace::SavWav::AddDataToBuffer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t>, ByRef<uint>, ::ArrayW<uint8_t>)>(&GlobalNamespace::SavWav::AddDataToBuffer)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "UInt32")->this_arg;
@@ -109,7 +110,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: GlobalNamespace::SavWav::WriteHeader
 // Il2CppName: WriteHeader
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint8_t>, UnityEngine::AudioClip*, uint, uint)>(&GlobalNamespace::SavWav::WriteHeader)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t>, UnityEngine::AudioClip*, uint, uint)>(&GlobalNamespace::SavWav::WriteHeader)> {
   static const MethodInfo* get() {
     static auto* stream = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* clip = &::il2cpp_utils::GetClassFromName("UnityEngine", "AudioClip")->byval_arg;

@@ -40,6 +40,11 @@ namespace UnityEngine::ProBuilder {
   // [RequireComponent] Offset: F253B4
   class BezierShape : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Collections.Generic.List`1<UnityEngine.ProBuilder.BezierPoint> points
     // Size: 0x8
     // Offset: 0x18
@@ -92,6 +97,7 @@ namespace UnityEngine::ProBuilder {
     UnityEngine::ProBuilder::ProBuilderMesh* m_Mesh;
     // Field size check
     static_assert(sizeof(UnityEngine::ProBuilder::ProBuilderMesh*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: public System.Collections.Generic.List`1<UnityEngine.ProBuilder.BezierPoint> points

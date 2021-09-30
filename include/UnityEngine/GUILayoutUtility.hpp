@@ -8,6 +8,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Rect
 #include "UnityEngine/Rect.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -84,7 +85,7 @@ namespace UnityEngine {
     static void Begin(int instanceID);
     // static System.Void BeginWindow(System.Int32 windowID, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options)
     // Offset: 0x1C96C9C
-    static void BeginWindow(int windowID, UnityEngine::GUIStyle* style, ::ArrayWrapper<UnityEngine::GUILayoutOption*> options);
+    static void BeginWindow(int windowID, UnityEngine::GUIStyle* style, ::ArrayW<UnityEngine::GUILayoutOption*> options);
     // static System.Void Layout()
     // Offset: 0x1C971CC
     static void Layout();
@@ -102,7 +103,7 @@ namespace UnityEngine {
     static UnityEngine::GUILayoutGroup* CreateGUILayoutGroupInstanceOfType(System::Type* LayoutType);
     // static UnityEngine.GUILayoutGroup BeginLayoutGroup(UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options, System.Type layoutType)
     // Offset: 0x1C990EC
-    static UnityEngine::GUILayoutGroup* BeginLayoutGroup(UnityEngine::GUIStyle* style, ::ArrayWrapper<UnityEngine::GUILayoutOption*> options, System::Type* layoutType);
+    static UnityEngine::GUILayoutGroup* BeginLayoutGroup(UnityEngine::GUIStyle* style, ::ArrayW<UnityEngine::GUILayoutOption*> options, System::Type* layoutType);
     // static System.Void EndLayoutGroup()
     // Offset: 0x1C99414
     static void EndLayoutGroup();
@@ -111,16 +112,16 @@ namespace UnityEngine {
     static UnityEngine::GUILayoutGroup* BeginLayoutArea(UnityEngine::GUIStyle* style, System::Type* layoutType);
     // static public UnityEngine.Rect GetRect(UnityEngine.GUIContent content, UnityEngine.GUIStyle style, params UnityEngine.GUILayoutOption[] options)
     // Offset: 0x1C97CFC
-    static UnityEngine::Rect GetRect(UnityEngine::GUIContent* content, UnityEngine::GUIStyle* style, ::ArrayWrapper<UnityEngine::GUILayoutOption*> options);
+    static UnityEngine::Rect GetRect(UnityEngine::GUIContent* content, UnityEngine::GUIStyle* style, ::ArrayW<UnityEngine::GUILayoutOption*> options);
     // static private UnityEngine.Rect DoGetRect(UnityEngine.GUIContent content, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options)
     // Offset: 0x1C9E7BC
-    static UnityEngine::Rect DoGetRect(UnityEngine::GUIContent* content, UnityEngine::GUIStyle* style, ::ArrayWrapper<UnityEngine::GUILayoutOption*> options);
+    static UnityEngine::Rect DoGetRect(UnityEngine::GUIContent* content, UnityEngine::GUIStyle* style, ::ArrayW<UnityEngine::GUILayoutOption*> options);
     // static public UnityEngine.Rect GetRect(System.Single width, System.Single height, UnityEngine.GUIStyle style, params UnityEngine.GUILayoutOption[] options)
     // Offset: 0x1C98AC8
-    static UnityEngine::Rect GetRect(float width, float height, UnityEngine::GUIStyle* style, ::ArrayWrapper<UnityEngine::GUILayoutOption*> options);
+    static UnityEngine::Rect GetRect(float width, float height, UnityEngine::GUIStyle* style, ::ArrayW<UnityEngine::GUILayoutOption*> options);
     // static private UnityEngine.Rect DoGetRect(System.Single minWidth, System.Single maxWidth, System.Single minHeight, System.Single maxHeight, UnityEngine.GUIStyle style, UnityEngine.GUILayoutOption[] options)
     // Offset: 0x1C9ECCC
-    static UnityEngine::Rect DoGetRect(float minWidth, float maxWidth, float minHeight, float maxHeight, UnityEngine::GUIStyle* style, ::ArrayWrapper<UnityEngine::GUILayoutOption*> options);
+    static UnityEngine::Rect DoGetRect(float minWidth, float maxWidth, float minHeight, float maxHeight, UnityEngine::GUIStyle* style, ::ArrayW<UnityEngine::GUILayoutOption*> options);
     // static private System.Void Internal_GetWindowRect_Injected(System.Int32 windowID, out UnityEngine.Rect ret)
     // Offset: 0x1C9DCA4
     static void Internal_GetWindowRect_Injected(int windowID, ByRef<UnityEngine::Rect> ret);
@@ -190,7 +191,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(in
 // Writing MetadataGetter for method: UnityEngine::GUILayoutUtility::BeginWindow
 // Il2CppName: BeginWindow
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, UnityEngine::GUIStyle*, ::ArrayWrapper<UnityEngine::GUILayoutOption*>)>(&UnityEngine::GUILayoutUtility::BeginWindow)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int, UnityEngine::GUIStyle*, ::ArrayW<UnityEngine::GUILayoutOption*>)>(&UnityEngine::GUILayoutUtility::BeginWindow)> {
   static const MethodInfo* get() {
     static auto* windowID = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* style = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
@@ -244,7 +245,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::GUILayoutUtility::BeginLayoutGroup
 // Il2CppName: BeginLayoutGroup
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUILayoutGroup* (*)(UnityEngine::GUIStyle*, ::ArrayWrapper<UnityEngine::GUILayoutOption*>, System::Type*)>(&UnityEngine::GUILayoutUtility::BeginLayoutGroup)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GUILayoutGroup* (*)(UnityEngine::GUIStyle*, ::ArrayW<UnityEngine::GUILayoutOption*>, System::Type*)>(&UnityEngine::GUILayoutUtility::BeginLayoutGroup)> {
   static const MethodInfo* get() {
     static auto* style = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
     static auto* options = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "GUILayoutOption"), 1)->byval_arg;
@@ -273,7 +274,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::GUILayoutUtility::GetRect
 // Il2CppName: GetRect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (*)(UnityEngine::GUIContent*, UnityEngine::GUIStyle*, ::ArrayWrapper<UnityEngine::GUILayoutOption*>)>(&UnityEngine::GUILayoutUtility::GetRect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (*)(UnityEngine::GUIContent*, UnityEngine::GUIStyle*, ::ArrayW<UnityEngine::GUILayoutOption*>)>(&UnityEngine::GUILayoutUtility::GetRect)> {
   static const MethodInfo* get() {
     static auto* content = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIContent")->byval_arg;
     static auto* style = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
@@ -284,7 +285,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::GUILayoutUtility::DoGetRect
 // Il2CppName: DoGetRect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (*)(UnityEngine::GUIContent*, UnityEngine::GUIStyle*, ::ArrayWrapper<UnityEngine::GUILayoutOption*>)>(&UnityEngine::GUILayoutUtility::DoGetRect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (*)(UnityEngine::GUIContent*, UnityEngine::GUIStyle*, ::ArrayW<UnityEngine::GUILayoutOption*>)>(&UnityEngine::GUILayoutUtility::DoGetRect)> {
   static const MethodInfo* get() {
     static auto* content = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIContent")->byval_arg;
     static auto* style = &::il2cpp_utils::GetClassFromName("UnityEngine", "GUIStyle")->byval_arg;
@@ -295,7 +296,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::GUILayoutUtility::GetRect
 // Il2CppName: GetRect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (*)(float, float, UnityEngine::GUIStyle*, ::ArrayWrapper<UnityEngine::GUILayoutOption*>)>(&UnityEngine::GUILayoutUtility::GetRect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (*)(float, float, UnityEngine::GUIStyle*, ::ArrayW<UnityEngine::GUILayoutOption*>)>(&UnityEngine::GUILayoutUtility::GetRect)> {
   static const MethodInfo* get() {
     static auto* width = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* height = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -307,7 +308,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::GUILayoutUtility::DoGetRect
 // Il2CppName: DoGetRect
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (*)(float, float, float, float, UnityEngine::GUIStyle*, ::ArrayWrapper<UnityEngine::GUILayoutOption*>)>(&UnityEngine::GUILayoutUtility::DoGetRect)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Rect (*)(float, float, float, float, UnityEngine::GUIStyle*, ::ArrayW<UnityEngine::GUILayoutOption*>)>(&UnityEngine::GUILayoutUtility::DoGetRect)> {
   static const MethodInfo* get() {
     static auto* minWidth = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
     static auto* maxWidth = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;

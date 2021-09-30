@@ -48,6 +48,11 @@ namespace Zenject {
     class $$c__DisplayClass2_0;
     // Nested type: Zenject::InitializableManager::$$c
     class $$c;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.List`1<Zenject.InitializableManager/Zenject.InitializableInfo> _initializables
     // Size: 0x8
     // Offset: 0x10
@@ -60,6 +65,7 @@ namespace Zenject {
     bool hasInitialized;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private System.Collections.Generic.List`1<Zenject.InitializableManager/Zenject.InitializableInfo> _initializables
     System::Collections::Generic::List_1<Zenject::InitializableManager::InitializableInfo*>*& dyn__initializables();
     // Get instance field reference: private System.Boolean _hasInitialized

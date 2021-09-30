@@ -38,12 +38,18 @@ namespace System {
     public:
     // Nested type: System::DelegateSerializationHolder::DelegateEntry
     class DelegateEntry;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Delegate _delegate
     // Size: 0x8
     // Offset: 0x10
     System::Delegate* delegate;
     // Field size check
     static_assert(sizeof(System::Delegate*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Runtime::Serialization::ISerializable
     operator System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);

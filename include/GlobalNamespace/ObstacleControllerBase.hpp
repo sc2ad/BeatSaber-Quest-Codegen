@@ -31,6 +31,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ObstacleControllerBase : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Action`1<ObstacleControllerBase> didInitEvent
     // Size: 0x8
     // Offset: 0x18
@@ -43,6 +48,7 @@ namespace GlobalNamespace {
     System::Action_2<GlobalNamespace::ObstacleControllerBase*, float>* didStartDissolvingEvent;
     // Field size check
     static_assert(sizeof(System::Action_2<GlobalNamespace::ObstacleControllerBase*, float>*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Action`1<ObstacleControllerBase> didInitEvent

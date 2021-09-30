@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -29,6 +30,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::PlayAudioOnGameEventController::EventAudioBinding
     class EventAudioBinding;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private AudioClipQueue _audioClipQueue
     // Size: 0x8
     // Offset: 0x18
@@ -38,15 +44,16 @@ namespace GlobalNamespace {
     // private PlayAudioOnGameEventController/EventAudioBinding[] _eventAudioBindings
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<GlobalNamespace::PlayAudioOnGameEventController::EventAudioBinding*> eventAudioBindings;
+    ::ArrayW<GlobalNamespace::PlayAudioOnGameEventController::EventAudioBinding*> eventAudioBindings;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::PlayAudioOnGameEventController::EventAudioBinding*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::PlayAudioOnGameEventController::EventAudioBinding*>) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private AudioClipQueue _audioClipQueue
     GlobalNamespace::AudioClipQueue*& dyn__audioClipQueue();
     // Get instance field reference: private PlayAudioOnGameEventController/EventAudioBinding[] _eventAudioBindings
-    ::ArrayWrapper<GlobalNamespace::PlayAudioOnGameEventController::EventAudioBinding*>& dyn__eventAudioBindings();
+    ::ArrayW<GlobalNamespace::PlayAudioOnGameEventController::EventAudioBinding*>& dyn__eventAudioBindings();
     // protected System.Void Awake()
     // Offset: 0x12B3A64
     void Awake();
@@ -68,7 +75,7 @@ namespace GlobalNamespace {
     }
   }; // PlayAudioOnGameEventController
   #pragma pack(pop)
-  static check_size<sizeof(PlayAudioOnGameEventController), 32 + sizeof(::ArrayWrapper<GlobalNamespace::PlayAudioOnGameEventController::EventAudioBinding*>)> __GlobalNamespace_PlayAudioOnGameEventControllerSizeCheck;
+  static check_size<sizeof(PlayAudioOnGameEventController), 32 + sizeof(::ArrayW<GlobalNamespace::PlayAudioOnGameEventController::EventAudioBinding*>)> __GlobalNamespace_PlayAudioOnGameEventControllerSizeCheck;
   static_assert(sizeof(PlayAudioOnGameEventController) == 0x28);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::PlayAudioOnGameEventController*, "", "PlayAudioOnGameEventController");

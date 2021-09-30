@@ -33,6 +33,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BaseNoteVisuals : public UnityEngine::MonoBehaviour/*, public GlobalNamespace::INoteControllerDidInitEvent, public GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private NoteControllerBase _noteController
     // Size: 0x8
     // Offset: 0x18
@@ -45,6 +50,7 @@ namespace GlobalNamespace {
     GlobalNamespace::CutoutAnimateEffect* cutoutAnimateEffect;
     // Field size check
     static_assert(sizeof(GlobalNamespace::CutoutAnimateEffect*) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::INoteControllerDidInitEvent
     operator GlobalNamespace::INoteControllerDidInitEvent() noexcept {
       return *reinterpret_cast<GlobalNamespace::INoteControllerDidInitEvent*>(this);

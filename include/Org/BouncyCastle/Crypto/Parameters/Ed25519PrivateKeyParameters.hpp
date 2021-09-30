@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Crypto::Parameters
@@ -31,18 +32,24 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     public:
     // Writing base type padding for base size: 0x11 to desired offset: 0x18
     char ___base_padding[0x7] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Byte[] data
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<uint8_t> data;
+    ::ArrayW<uint8_t> data;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private Org.BouncyCastle.Crypto.Parameters.Ed25519PublicKeyParameters cachedPublicKey
     // Size: 0x8
     // Offset: 0x20
     Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters* cachedPublicKey;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters*) == 0x8);
+    public:
     // Deleting conversion operator: operator bool
     constexpr operator bool() const noexcept = delete;
     // Get static field: static public readonly System.Int32 KeySize
@@ -54,13 +61,13 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     // Set static field: static public readonly System.Int32 SignatureSize
     static void _set_SignatureSize(int value);
     // Get instance field reference: private readonly System.Byte[] data
-    ::ArrayWrapper<uint8_t>& dyn_data();
+    ::ArrayW<uint8_t>& dyn_data();
     // Get instance field reference: private Org.BouncyCastle.Crypto.Parameters.Ed25519PublicKeyParameters cachedPublicKey
     Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters*& dyn_cachedPublicKey();
     // public System.Void .ctor(System.Byte[] buf, System.Int32 off)
     // Offset: 0x1395534
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Ed25519PrivateKeyParameters* New_ctor(::ArrayWrapper<uint8_t> buf, int off) {
+    static Ed25519PrivateKeyParameters* New_ctor(::ArrayW<uint8_t> buf, int off) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Crypto::Parameters::Ed25519PrivateKeyParameters::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Ed25519PrivateKeyParameters*, creationType>(buf, off)));
     }
@@ -72,7 +79,7 @@ namespace Org::BouncyCastle::Crypto::Parameters {
     Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters* GeneratePublicKey();
     // public System.Void Sign(Org.BouncyCastle.Math.EC.Rfc8032.Ed25519/Org.BouncyCastle.Math.EC.Rfc8032.Algorithm algorithm, System.Byte[] ctx, System.Byte[] msg, System.Int32 msgOff, System.Int32 msgLen, System.Byte[] sig, System.Int32 sigOff)
     // Offset: 0x13957E4
-    void Sign(Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::Algorithm algorithm, ::ArrayWrapper<uint8_t> ctx, ::ArrayWrapper<uint8_t> msg, int msgOff, int msgLen, ::ArrayWrapper<uint8_t> sig, int sigOff);
+    void Sign(Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::Algorithm algorithm, ::ArrayW<uint8_t> ctx, ::ArrayW<uint8_t> msg, int msgOff, int msgLen, ::ArrayW<uint8_t> sig, int sigOff);
   }; // Org.BouncyCastle.Crypto.Parameters.Ed25519PrivateKeyParameters
   #pragma pack(pop)
   static check_size<sizeof(Ed25519PrivateKeyParameters), 32 + sizeof(Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters*)> __Org_BouncyCastle_Crypto_Parameters_Ed25519PrivateKeyParametersSizeCheck;
@@ -103,7 +110,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Parameters::Ed25519PrivateKeyParameters::Sign
 // Il2CppName: Sign
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Parameters::Ed25519PrivateKeyParameters::*)(Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::Algorithm, ::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>, int, int, ::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Parameters::Ed25519PrivateKeyParameters::Sign)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Parameters::Ed25519PrivateKeyParameters::*)(Org::BouncyCastle::Math::EC::Rfc8032::Ed25519::Algorithm, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>, int, int, ::ArrayW<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Parameters::Ed25519PrivateKeyParameters::Sign)> {
   static const MethodInfo* get() {
     static auto* algorithm = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC.Rfc8032", "Ed25519/Algorithm")->byval_arg;
     static auto* ctx = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;

@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -32,12 +33,18 @@ namespace Org::BouncyCastle::Asn1 {
   // [TokenAttribute] Offset: FFFFFFFF
   class DerUtcTime : public Org::BouncyCastle::Asn1::Asn1Object {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.String time
     // Size: 0x8
     // Offset: 0x10
     ::Il2CppString* time;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return time;
@@ -53,7 +60,7 @@ namespace Org::BouncyCastle::Asn1 {
     // System.Void .ctor(System.Byte[] bytes)
     // Offset: 0x18E24C0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DerUtcTime* New_ctor(::ArrayWrapper<uint8_t> bytes) {
+    static DerUtcTime* New_ctor(::ArrayW<uint8_t> bytes) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerUtcTime::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerUtcTime*, creationType>(bytes)));
     }
@@ -65,7 +72,7 @@ namespace Org::BouncyCastle::Asn1 {
     System::DateTime ParseDateString(::Il2CppString* dateStr, ::Il2CppString* formatStr);
     // private System.Byte[] GetOctets()
     // Offset: 0x18F3164
-    ::ArrayWrapper<uint8_t> GetOctets();
+    ::ArrayW<uint8_t> GetOctets();
     // override System.Void Encode(Org.BouncyCastle.Asn1.DerOutputStream derOut)
     // Offset: 0x18F3170
     // Implemented from: Org.BouncyCastle.Asn1.Asn1Object
@@ -134,7 +141,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Dat
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::DerUtcTime::GetOctets
 // Il2CppName: GetOctets
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Asn1::DerUtcTime::*)()>(&Org::BouncyCastle::Asn1::DerUtcTime::GetOctets)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Org::BouncyCastle::Asn1::DerUtcTime::*)()>(&Org::BouncyCastle::Asn1::DerUtcTime::GetOctets)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::DerUtcTime*), "GetOctets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

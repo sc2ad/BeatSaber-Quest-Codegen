@@ -27,12 +27,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BaseViewControllersInstaller : public Zenject::ScriptableObjectInstaller {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private SimpleDialogPromptViewController _simpleDialogPromptViewControllerPrefab
     // Size: 0x8
     // Offset: 0x20
     GlobalNamespace::SimpleDialogPromptViewController* simpleDialogPromptViewControllerPrefab;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SimpleDialogPromptViewController*) == 0x8);
+    public:
     // Get instance field reference: private SimpleDialogPromptViewController _simpleDialogPromptViewControllerPrefab
     GlobalNamespace::SimpleDialogPromptViewController*& dyn__simpleDialogPromptViewControllerPrefab();
     // public System.Void .ctor()

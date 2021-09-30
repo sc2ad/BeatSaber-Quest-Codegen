@@ -51,6 +51,11 @@ namespace UnityEngine::ResourceManagement::Diagnostics {
     public:
     // Nested type: UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton::$$c
     class $$c;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.ResourceManagement.Diagnostics.DiagnosticEvent> m_CreatedEvents
     // Size: 0x8
     // Offset: 0x18
@@ -87,6 +92,7 @@ namespace UnityEngine::ResourceManagement::Diagnostics {
     float fpsAvg;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static private System.Guid s_editorConnectionGuid

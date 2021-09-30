@@ -32,6 +32,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ColorSchemeView : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.UI.Image _saberAColorImage
     // Size: 0x8
     // Offset: 0x18
@@ -62,6 +67,7 @@ namespace GlobalNamespace {
     UnityEngine::UI::Image* obstacleColorImage;
     // Field size check
     static_assert(sizeof(UnityEngine::UI::Image*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.UI.Image _saberAColorImage

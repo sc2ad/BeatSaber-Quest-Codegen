@@ -21,6 +21,11 @@ namespace UnityEngine {
   // [AttributeUsageAttribute] Offset: E72154
   class RangeAttribute : public UnityEngine::PropertyAttribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly System.Single min
     // Size: 0x4
     // Offset: 0x10
@@ -33,6 +38,7 @@ namespace UnityEngine {
     float max;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: public readonly System.Single min
     float& dyn_min();
     // Get instance field reference: public readonly System.Single max

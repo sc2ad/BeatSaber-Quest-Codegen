@@ -40,6 +40,11 @@ namespace System::Security::Cryptography::X509Certificates {
   // [TokenAttribute] Offset: FFFFFFFF
   class X509Store : public ::Il2CppObject/*, public System::IDisposable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String _name
     // Size: 0x8
     // Offset: 0x10
@@ -74,6 +79,7 @@ namespace System::Security::Cryptography::X509Certificates {
     Mono::Security::X509::X509Store* store;
     // Field size check
     static_assert(sizeof(Mono::Security::X509::X509Store*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

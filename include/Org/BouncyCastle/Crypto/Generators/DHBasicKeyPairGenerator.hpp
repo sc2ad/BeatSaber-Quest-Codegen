@@ -32,12 +32,18 @@ namespace Org::BouncyCastle::Crypto::Generators {
   // [TokenAttribute] Offset: FFFFFFFF
   class DHBasicKeyPairGenerator : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Org.BouncyCastle.Crypto.Parameters.DHKeyGenerationParameters param
     // Size: 0x8
     // Offset: 0x10
     Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters* param;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters*) == 0x8);
+    public:
     // Creating conversion operator: operator Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters*
     constexpr operator Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters*() const noexcept {
       return param;

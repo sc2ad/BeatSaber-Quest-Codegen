@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text::RegularExpressions
@@ -31,12 +32,17 @@ namespace System::Text::RegularExpressions {
   // [TokenAttribute] Offset: FFFFFFFF
   class RegexFCD : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32[] _intStack
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<int> intStack;
+    ::ArrayW<int> intStack;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // private System.Int32 _intDepth
     // Size: 0x4
     // Offset: 0x18
@@ -48,9 +54,9 @@ namespace System::Text::RegularExpressions {
     // private System.Text.RegularExpressions.RegexFC[] _fcStack
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<System::Text::RegularExpressions::RegexFC*> fcStack;
+    ::ArrayW<System::Text::RegularExpressions::RegexFC*> fcStack;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<System::Text::RegularExpressions::RegexFC*>) == 0x8);
+    static_assert(sizeof(::ArrayW<System::Text::RegularExpressions::RegexFC*>) == 0x8);
     // private System.Int32 _fcDepth
     // Size: 0x4
     // Offset: 0x28
@@ -75,12 +81,13 @@ namespace System::Text::RegularExpressions {
     bool failed;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private System.Int32[] _intStack
-    ::ArrayWrapper<int>& dyn__intStack();
+    ::ArrayW<int>& dyn__intStack();
     // Get instance field reference: private System.Int32 _intDepth
     int& dyn__intDepth();
     // Get instance field reference: private System.Text.RegularExpressions.RegexFC[] _fcStack
-    ::ArrayWrapper<System::Text::RegularExpressions::RegexFC*>& dyn__fcStack();
+    ::ArrayW<System::Text::RegularExpressions::RegexFC*>& dyn__fcStack();
     // Get instance field reference: private System.Int32 _fcDepth
     int& dyn__fcDepth();
     // Get instance field reference: private System.Boolean _skipAllChildren

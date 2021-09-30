@@ -37,6 +37,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class DifficultyTableCell : public HMUI::TableCell {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private TMPro.TextMeshProUGUI _difficultyText
     // Size: 0x8
     // Offset: 0x50
@@ -61,6 +66,7 @@ namespace GlobalNamespace {
     GlobalNamespace::FillIndicator* fillIndicator;
     // Field size check
     static_assert(sizeof(GlobalNamespace::FillIndicator*) == 0x8);
+    public:
     // Get instance field reference: private TMPro.TextMeshProUGUI _difficultyText
     TMPro::TextMeshProUGUI*& dyn__difficultyText();
     // Get instance field reference: private UnityEngine.UI.Image _bgImage

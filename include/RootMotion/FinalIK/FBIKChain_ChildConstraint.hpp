@@ -32,6 +32,11 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class FBIKChain::ChildConstraint : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Single pushElasticity
     // Size: 0x4
     // Offset: 0x10
@@ -94,6 +99,7 @@ namespace RootMotion::FinalIK {
     int chain2Index;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: public System.Single pushElasticity
     float& dyn_pushElasticity();
     // Get instance field reference: public System.Single pullElasticity

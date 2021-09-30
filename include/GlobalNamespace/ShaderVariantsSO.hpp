@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -27,23 +28,29 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::ShaderVariantsSO::ShaderVariant
     class ShaderVariant;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [ReorderableAttribute] Offset: 0xEEBC40
     // private ShaderVariantsSO/ShaderVariant[] _shaderVariants
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<GlobalNamespace::ShaderVariantsSO::ShaderVariant*> shaderVariants;
+    ::ArrayW<GlobalNamespace::ShaderVariantsSO::ShaderVariant*> shaderVariants;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::ShaderVariantsSO::ShaderVariant*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::ShaderVariantsSO::ShaderVariant*>) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private ShaderVariantsSO/ShaderVariant[] _shaderVariants
-    ::ArrayWrapper<GlobalNamespace::ShaderVariantsSO::ShaderVariant*>& dyn__shaderVariants();
+    ::ArrayW<GlobalNamespace::ShaderVariantsSO::ShaderVariant*>& dyn__shaderVariants();
     // public ShaderVariantsSO/ShaderVariant[] get_shaderVariants()
     // Offset: 0x258B570
-    ::ArrayWrapper<GlobalNamespace::ShaderVariantsSO::ShaderVariant*> get_shaderVariants();
+    ::ArrayW<GlobalNamespace::ShaderVariantsSO::ShaderVariant*> get_shaderVariants();
     // public System.Void Init(ShaderVariantsSO/ShaderVariant[] shaderVariants)
     // Offset: 0x258B578
-    void Init(::ArrayWrapper<GlobalNamespace::ShaderVariantsSO::ShaderVariant*> shaderVariants);
+    void Init(::ArrayW<GlobalNamespace::ShaderVariantsSO::ShaderVariant*> shaderVariants);
     // public System.Void .ctor()
     // Offset: 0x258B580
     // Implemented from: PersistentScriptableObject
@@ -58,7 +65,7 @@ namespace GlobalNamespace {
     }
   }; // ShaderVariantsSO
   #pragma pack(pop)
-  static check_size<sizeof(ShaderVariantsSO), 24 + sizeof(::ArrayWrapper<GlobalNamespace::ShaderVariantsSO::ShaderVariant*>)> __GlobalNamespace_ShaderVariantsSOSizeCheck;
+  static check_size<sizeof(ShaderVariantsSO), 24 + sizeof(::ArrayW<GlobalNamespace::ShaderVariantsSO::ShaderVariant*>)> __GlobalNamespace_ShaderVariantsSOSizeCheck;
   static_assert(sizeof(ShaderVariantsSO) == 0x20);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShaderVariantsSO*, "", "ShaderVariantsSO");
@@ -66,7 +73,7 @@ DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::ShaderVariantsSO*, "", "ShaderVariantsSO
 // Writing MetadataGetter for method: GlobalNamespace::ShaderVariantsSO::get_shaderVariants
 // Il2CppName: get_shaderVariants
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::ShaderVariantsSO::ShaderVariant*> (GlobalNamespace::ShaderVariantsSO::*)()>(&GlobalNamespace::ShaderVariantsSO::get_shaderVariants)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<GlobalNamespace::ShaderVariantsSO::ShaderVariant*> (GlobalNamespace::ShaderVariantsSO::*)()>(&GlobalNamespace::ShaderVariantsSO::get_shaderVariants)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ShaderVariantsSO*), "get_shaderVariants", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -74,7 +81,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: GlobalNamespace::ShaderVariantsSO::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ShaderVariantsSO::*)(::ArrayWrapper<GlobalNamespace::ShaderVariantsSO::ShaderVariant*>)>(&GlobalNamespace::ShaderVariantsSO::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::ShaderVariantsSO::*)(::ArrayW<GlobalNamespace::ShaderVariantsSO::ShaderVariant*>)>(&GlobalNamespace::ShaderVariantsSO::Init)> {
   static const MethodInfo* get() {
     static auto* shaderVariants = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "ShaderVariantsSO/ShaderVariant"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::ShaderVariantsSO*), "Init", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{shaderVariants});

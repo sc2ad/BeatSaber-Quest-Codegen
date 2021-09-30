@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Runtime::Remoting::Messaging
@@ -43,6 +44,11 @@ namespace System::Runtime::Remoting::Messaging {
     public:
     // Nested type: System::Runtime::Remoting::Messaging::MessageDictionary::DictionaryEnumerator
     class DictionaryEnumerator;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.IDictionary _internalProperties
     // Size: 0x8
     // Offset: 0x10
@@ -58,15 +64,16 @@ namespace System::Runtime::Remoting::Messaging {
     // private System.String[] _methodKeys
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<::Il2CppString*> methodKeys;
+    ::ArrayW<::Il2CppString*> methodKeys;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // private System.Boolean _ownProperties
     // Size: 0x1
     // Offset: 0x28
     bool ownProperties;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator System::Collections::IDictionary
     operator System::Collections::IDictionary() noexcept {
       return *reinterpret_cast<System::Collections::IDictionary*>(this);
@@ -76,7 +83,7 @@ namespace System::Runtime::Remoting::Messaging {
     // Get instance field reference: protected System.Runtime.Remoting.Messaging.IMethodMessage _message
     System::Runtime::Remoting::Messaging::IMethodMessage*& dyn__message();
     // Get instance field reference: private System.String[] _methodKeys
-    ::ArrayWrapper<::Il2CppString*>& dyn__methodKeys();
+    ::ArrayW<::Il2CppString*>& dyn__methodKeys();
     // Get instance field reference: private System.Boolean _ownProperties
     bool& dyn__ownProperties();
     // System.Collections.IDictionary get_InternalDictionary()
@@ -84,7 +91,7 @@ namespace System::Runtime::Remoting::Messaging {
     System::Collections::IDictionary* get_InternalDictionary();
     // public System.Void set_MethodKeys(System.String[] value)
     // Offset: 0x1C19888
-    void set_MethodKeys(::ArrayWrapper<::Il2CppString*> value);
+    void set_MethodKeys(::ArrayW<::Il2CppString*> value);
     // public System.Object get_Item(System.Object key)
     // Offset: 0x1C19990
     ::Il2CppObject* get_Item(::Il2CppObject* key);
@@ -158,7 +165,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: System::Runtime::Remoting::Messaging::MessageDictionary::set_MethodKeys
 // Il2CppName: set_MethodKeys
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::MessageDictionary::*)(::ArrayWrapper<::Il2CppString*>)>(&System::Runtime::Remoting::Messaging::MessageDictionary::set_MethodKeys)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Runtime::Remoting::Messaging::MessageDictionary::*)(::ArrayW<::Il2CppString*>)>(&System::Runtime::Remoting::Messaging::MessageDictionary::set_MethodKeys)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::Messaging::MessageDictionary*), "set_MethodKeys", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

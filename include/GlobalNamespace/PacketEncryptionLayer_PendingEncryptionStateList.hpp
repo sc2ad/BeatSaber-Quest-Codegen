@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -41,12 +42,18 @@ namespace GlobalNamespace {
     class $$c;
     // Nested type: GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList::$$c__DisplayClass8_0
     class $$c__DisplayClass8_0;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Collections.Generic.Dictionary`2<System.Int32,EncryptionUtility/IEncryptionState> _pendingStatesByPort
     // Size: 0x8
     // Offset: 0x10
     System::Collections::Generic::Dictionary_2<int, GlobalNamespace::EncryptionUtility::IEncryptionState*>* pendingStatesByPort;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<int, GlobalNamespace::EncryptionUtility::IEncryptionState*>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
@@ -65,7 +72,7 @@ namespace GlobalNamespace {
     void Dispose();
     // public EncryptionUtility/IEncryptionState[] GetSortedEncryptionStates(System.Int32 port)
     // Offset: 0x18D0CA0
-    ::ArrayWrapper<GlobalNamespace::EncryptionUtility::IEncryptionState*> GetSortedEncryptionStates(int port);
+    ::ArrayW<GlobalNamespace::EncryptionUtility::IEncryptionState*> GetSortedEncryptionStates(int port);
     // public System.Boolean TryGetEncryptionState(System.Int32 port, out EncryptionUtility/IEncryptionState encryptionState)
     // Offset: 0x18D09F0
     bool TryGetEncryptionState(int port, ByRef<GlobalNamespace::EncryptionUtility::IEncryptionState*> encryptionState);
@@ -113,7 +120,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList::GetSortedEncryptionStates
 // Il2CppName: GetSortedEncryptionStates
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::EncryptionUtility::IEncryptionState*> (GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList::*)(int)>(&GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList::GetSortedEncryptionStates)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<GlobalNamespace::EncryptionUtility::IEncryptionState*> (GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList::*)(int)>(&GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList::GetSortedEncryptionStates)> {
   static const MethodInfo* get() {
     static auto* port = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::PacketEncryptionLayer::PendingEncryptionStateList*), "GetSortedEncryptionStates", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{port});

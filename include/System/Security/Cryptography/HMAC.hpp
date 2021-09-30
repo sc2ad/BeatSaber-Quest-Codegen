@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Security::Cryptography
@@ -27,6 +28,11 @@ namespace System::Security::Cryptography {
   // [ComVisibleAttribute] Offset: E5F2A4
   class HMAC : public System::Security::Cryptography::KeyedHashAlgorithm {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 blockSizeValue
     // Size: 0x4
     // Offset: 0x30
@@ -56,23 +62,24 @@ namespace System::Security::Cryptography {
     // private System.Byte[] m_inner
     // Size: 0x8
     // Offset: 0x50
-    ::ArrayWrapper<uint8_t> m_inner;
+    ::ArrayW<uint8_t> m_inner;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Byte[] m_outer
     // Size: 0x8
     // Offset: 0x58
-    ::ArrayWrapper<uint8_t> m_outer;
+    ::ArrayW<uint8_t> m_outer;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Boolean m_hashing
     // Size: 0x1
     // Offset: 0x60
     bool m_hashing;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
-    // Deleting conversion operator: operator ::ArrayWrapper<uint8_t>
-    constexpr operator ::ArrayWrapper<uint8_t>() const noexcept = delete;
+    public:
+    // Deleting conversion operator: operator ::ArrayW<uint8_t>
+    constexpr operator ::ArrayW<uint8_t>() const noexcept = delete;
     // Get instance field reference: private System.Int32 blockSizeValue
     int& dyn_blockSizeValue();
     // Get instance field reference: System.String m_hashName
@@ -82,9 +89,9 @@ namespace System::Security::Cryptography {
     // Get instance field reference: System.Security.Cryptography.HashAlgorithm m_hash2
     System::Security::Cryptography::HashAlgorithm*& dyn_m_hash2();
     // Get instance field reference: private System.Byte[] m_inner
-    ::ArrayWrapper<uint8_t>& dyn_m_inner();
+    ::ArrayW<uint8_t>& dyn_m_inner();
     // Get instance field reference: private System.Byte[] m_outer
-    ::ArrayWrapper<uint8_t>& dyn_m_outer();
+    ::ArrayW<uint8_t>& dyn_m_outer();
     // Get instance field reference: private System.Boolean m_hashing
     bool& dyn_m_hashing();
     // protected System.Int32 get_BlockSizeValue()
@@ -98,7 +105,7 @@ namespace System::Security::Cryptography {
     void UpdateIOPadBuffers();
     // System.Void InitializeKey(System.Byte[] key)
     // Offset: 0x1A75DA8
-    void InitializeKey(::ArrayWrapper<uint8_t> key);
+    void InitializeKey(::ArrayW<uint8_t> key);
     // static public System.Security.Cryptography.HMAC Create()
     // Offset: 0x1A760D4
     static System::Security::Cryptography::HMAC* Create();
@@ -106,12 +113,12 @@ namespace System::Security::Cryptography {
     // Offset: 0x1A75FAC
     // Implemented from: System.Security.Cryptography.KeyedHashAlgorithm
     // Base method: System.Byte[] KeyedHashAlgorithm::get_Key()
-    ::ArrayWrapper<uint8_t> get_Key();
+    ::ArrayW<uint8_t> get_Key();
     // public override System.Void set_Key(System.Byte[] value)
     // Offset: 0x1A7602C
     // Implemented from: System.Security.Cryptography.KeyedHashAlgorithm
     // Base method: System.Void KeyedHashAlgorithm::set_Key(System.Byte[] value)
-    void set_Key(::ArrayWrapper<uint8_t> value);
+    void set_Key(::ArrayW<uint8_t> value);
     // protected System.Void .ctor()
     // Offset: 0x1A76958
     // Implemented from: System.Security.Cryptography.KeyedHashAlgorithm
@@ -132,12 +139,12 @@ namespace System::Security::Cryptography {
     // Offset: 0x1A76198
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Void HashAlgorithm::HashCore(System.Byte[] rgb, System.Int32 ib, System.Int32 cb)
-    void HashCore(::ArrayWrapper<uint8_t> rgb, int ib, int cb);
+    void HashCore(::ArrayW<uint8_t> rgb, int ib, int cb);
     // protected override System.Byte[] HashFinal()
     // Offset: 0x1A76414
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Byte[] HashAlgorithm::HashFinal()
-    ::ArrayWrapper<uint8_t> HashFinal();
+    ::ArrayW<uint8_t> HashFinal();
     // protected override System.Void Dispose(System.Boolean disposing)
     // Offset: 0x1A76790
     // Implemented from: System.Security.Cryptography.KeyedHashAlgorithm
@@ -178,7 +185,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::HMAC::InitializeKey
 // Il2CppName: InitializeKey
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::HMAC::*)(::ArrayWrapper<uint8_t>)>(&System::Security::Cryptography::HMAC::InitializeKey)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::HMAC::*)(::ArrayW<uint8_t>)>(&System::Security::Cryptography::HMAC::InitializeKey)> {
   static const MethodInfo* get() {
     static auto* key = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::HMAC*), "InitializeKey", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{key});
@@ -195,7 +202,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 // Writing MetadataGetter for method: System::Security::Cryptography::HMAC::get_Key
 // Il2CppName: get_Key
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (System::Security::Cryptography::HMAC::*)()>(&System::Security::Cryptography::HMAC::get_Key)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (System::Security::Cryptography::HMAC::*)()>(&System::Security::Cryptography::HMAC::get_Key)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::HMAC*), "get_Key", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -203,7 +210,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: System::Security::Cryptography::HMAC::set_Key
 // Il2CppName: set_Key
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::HMAC::*)(::ArrayWrapper<uint8_t>)>(&System::Security::Cryptography::HMAC::set_Key)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::HMAC::*)(::ArrayW<uint8_t>)>(&System::Security::Cryptography::HMAC::set_Key)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::HMAC*), "set_Key", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -224,7 +231,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::HMAC::HashCore
 // Il2CppName: HashCore
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::HMAC::*)(::ArrayWrapper<uint8_t>, int, int)>(&System::Security::Cryptography::HMAC::HashCore)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::HMAC::*)(::ArrayW<uint8_t>, int, int)>(&System::Security::Cryptography::HMAC::HashCore)> {
   static const MethodInfo* get() {
     static auto* rgb = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* ib = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -235,7 +242,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::HMAC::HashFinal
 // Il2CppName: HashFinal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (System::Security::Cryptography::HMAC::*)()>(&System::Security::Cryptography::HMAC::HashFinal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (System::Security::Cryptography::HMAC::*)()>(&System::Security::Cryptography::HMAC::HashFinal)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::HMAC*), "HashFinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

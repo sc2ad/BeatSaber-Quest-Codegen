@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -53,7 +54,7 @@ namespace UnityEngine::AddressableAssets::Initialization {
     static void _cctor();
     // static private System.Reflection.Assembly[] GetAssemblies()
     // Offset: 0x159AD90
-    static ::ArrayWrapper<System::Reflection::Assembly*> GetAssemblies();
+    static ::ArrayW<System::Reflection::Assembly*> GetAssemblies();
     // static System.Int32 GetCachedValueCount()
     // Offset: 0x159ADB4
     static int GetCachedValueCount();
@@ -89,7 +90,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties::GetAssemblies
 // Il2CppName: GetAssemblies
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::Reflection::Assembly*> (*)()>(&UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties::GetAssemblies)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Reflection::Assembly*> (*)()>(&UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties::GetAssemblies)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties*), "GetAssemblies", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

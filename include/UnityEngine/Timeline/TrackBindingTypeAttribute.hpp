@@ -30,6 +30,11 @@ namespace UnityEngine::Timeline {
   // [AttributeUsageAttribute] Offset: EB9620
   class TrackBindingTypeAttribute : public System::Attribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly System.Type type
     // Size: 0x8
     // Offset: 0x10
@@ -42,6 +47,7 @@ namespace UnityEngine::Timeline {
     UnityEngine::Timeline::TrackBindingFlags flags;
     // Field size check
     static_assert(sizeof(UnityEngine::Timeline::TrackBindingFlags) == 0x4);
+    public:
     // Get instance field reference: public readonly System.Type type
     System::Type*& dyn_type();
     // Get instance field reference: public readonly UnityEngine.Timeline.TrackBindingFlags flags

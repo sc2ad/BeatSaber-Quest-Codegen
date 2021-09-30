@@ -26,12 +26,18 @@ namespace System::Threading {
     public:
     // Nested type: System::Threading::SpinLock::SystemThreading_SpinLockDebugView
     class SystemThreading_SpinLockDebugView;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 m_owner
     // Size: 0x4
     // Offset: 0x0
     int m_owner;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: SpinLock
     constexpr SpinLock(int m_owner_ = {}) noexcept : m_owner{m_owner_} {}
     // Creating interface conversion operator: operator System::ValueType

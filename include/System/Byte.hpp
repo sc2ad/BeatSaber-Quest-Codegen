@@ -50,12 +50,18 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5BDF8
   struct Byte/*, public System::ValueType, public System::IComparable_1<uint8_t>, public System::IEquatable_1<uint8_t>, public System::IComparable, public System::IConvertible, public System::IFormattable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Byte m_value
     // Size: 0x1
     // Offset: 0x0
     uint8_t m_value;
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
+    public:
     // Creating value type constructor for type: Byte
     constexpr Byte(uint8_t m_value_ = {}) noexcept : m_value{m_value_} {}
     // Creating interface conversion operator: operator System::ValueType

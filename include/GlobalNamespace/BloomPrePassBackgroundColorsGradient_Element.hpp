@@ -22,6 +22,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class BloomPrePassBackgroundColorsGradient::Element : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Color color
     // Size: 0x10
     // Offset: 0x10
@@ -40,6 +45,7 @@ namespace GlobalNamespace {
     float exp;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: public UnityEngine.Color color
     UnityEngine::Color& dyn_color();
     // Get instance field reference: public System.Single startT

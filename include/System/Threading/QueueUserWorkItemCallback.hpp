@@ -35,6 +35,11 @@ namespace System::Threading {
   // [TokenAttribute] Offset: FFFFFFFF
   class QueueUserWorkItemCallback : public ::Il2CppObject/*, public System::Threading::IThreadPoolWorkItem*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Threading.WaitCallback callback
     // Size: 0x8
     // Offset: 0x10
@@ -53,6 +58,7 @@ namespace System::Threading {
     ::Il2CppObject* state;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Threading::IThreadPoolWorkItem
     operator System::Threading::IThreadPoolWorkItem() noexcept {
       return *reinterpret_cast<System::Threading::IThreadPoolWorkItem*>(this);

@@ -28,6 +28,11 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class DiContainer::$$c__DisplayClass178_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public Zenject.DiContainer <>4__this
     // Size: 0x8
     // Offset: 0x10
@@ -52,6 +57,7 @@ namespace Zenject {
     System::Type* concreteType;
     // Field size check
     static_assert(sizeof(System::Type*) == 0x8);
+    public:
     // Get instance field reference: public Zenject.DiContainer <>4__this
     Zenject::DiContainer*& dyn_$$4__this();
     // Get instance field reference: public System.Type contractType

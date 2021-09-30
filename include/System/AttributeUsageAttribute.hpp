@@ -24,6 +24,11 @@ namespace System {
   // [AttributeUsageAttribute] Offset: E5BD6C
   class AttributeUsageAttribute : public System::Attribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.AttributeTargets m_attributeTarget
     // Size: 0x4
     // Offset: 0x10
@@ -42,6 +47,7 @@ namespace System {
     bool m_inherited;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get static field: static System.AttributeUsageAttribute Default
     static System::AttributeUsageAttribute* _get_Default();
     // Set static field: static System.AttributeUsageAttribute Default

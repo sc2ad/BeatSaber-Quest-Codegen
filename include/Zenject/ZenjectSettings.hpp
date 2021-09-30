@@ -31,6 +31,11 @@ namespace Zenject {
     public:
     // Nested type: Zenject::ZenjectSettings::SignalSettings
     class SignalSettings;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean _ensureDeterministicDestructionOrderOnApplicationQuit
     // Size: 0x1
     // Offset: 0x10
@@ -65,6 +70,7 @@ namespace Zenject {
     Zenject::ZenjectSettings::SignalSettings* signalSettings;
     // Field size check
     static_assert(sizeof(Zenject::ZenjectSettings::SignalSettings*) == 0x8);
+    public:
     // Get static field: static public Zenject.ZenjectSettings Default
     static Zenject::ZenjectSettings* _get_Default();
     // Set static field: static public Zenject.ZenjectSettings Default

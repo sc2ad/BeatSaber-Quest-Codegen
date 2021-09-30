@@ -31,12 +31,18 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class PacketEncryptionLayer::PendingEncryptionStateList::$$c__DisplayClass8_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public EncryptionUtility/IEncryptionState encryptionState
     // Size: 0x8
     // Offset: 0x10
     GlobalNamespace::EncryptionUtility::IEncryptionState* encryptionState;
     // Field size check
     static_assert(sizeof(GlobalNamespace::EncryptionUtility::IEncryptionState*) == 0x8);
+    public:
     // Creating conversion operator: operator GlobalNamespace::EncryptionUtility::IEncryptionState*
     constexpr operator GlobalNamespace::EncryptionUtility::IEncryptionState*() const noexcept {
       return encryptionState;

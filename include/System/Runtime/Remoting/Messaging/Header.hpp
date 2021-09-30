@@ -15,6 +15,11 @@ namespace System::Runtime::Remoting::Messaging {
   // [ComVisibleAttribute] Offset: E6007C
   class Header : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.String HeaderNamespace
     // Size: 0x8
     // Offset: 0x10
@@ -41,6 +46,7 @@ namespace System::Runtime::Remoting::Messaging {
     ::Il2CppObject* Value;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
+    public:
     // Get instance field reference: public System.String HeaderNamespace
     ::Il2CppString*& dyn_HeaderNamespace();
     // Get instance field reference: public System.Boolean MustUnderstand

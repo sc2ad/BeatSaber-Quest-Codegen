@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Asn1
@@ -28,26 +29,32 @@ namespace Org::BouncyCastle::Asn1 {
   // [TokenAttribute] Offset: FFFFFFFF
   class DerUniversalString : public Org::BouncyCastle::Asn1::DerStringBase {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Byte[] str
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<uint8_t> str;
+    ::ArrayW<uint8_t> str;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating conversion operator: operator ::ArrayWrapper<uint8_t>
-    constexpr operator ::ArrayWrapper<uint8_t>() const noexcept {
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
+    public:
+    // Creating conversion operator: operator ::ArrayW<uint8_t>
+    constexpr operator ::ArrayW<uint8_t>() const noexcept {
       return str;
     }
     // Get static field: static private readonly System.Char[] table
-    static ::ArrayWrapper<::Il2CppChar> _get_table();
+    static ::ArrayW<::Il2CppChar> _get_table();
     // Set static field: static private readonly System.Char[] table
-    static void _set_table(::ArrayWrapper<::Il2CppChar> value);
+    static void _set_table(::ArrayW<::Il2CppChar> value);
     // Get instance field reference: private readonly System.Byte[] str
-    ::ArrayWrapper<uint8_t>& dyn_str();
+    ::ArrayW<uint8_t>& dyn_str();
     // public System.Void .ctor(System.Byte[] str)
     // Offset: 0x18E2424
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static DerUniversalString* New_ctor(::ArrayWrapper<uint8_t> str) {
+    static DerUniversalString* New_ctor(::ArrayW<uint8_t> str) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::DerUniversalString::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<DerUniversalString*, creationType>(str)));
     }
@@ -71,7 +78,7 @@ namespace Org::BouncyCastle::Asn1 {
     bool Asn1Equals(Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
   }; // Org.BouncyCastle.Asn1.DerUniversalString
   #pragma pack(pop)
-  static check_size<sizeof(DerUniversalString), 16 + sizeof(::ArrayWrapper<uint8_t>)> __Org_BouncyCastle_Asn1_DerUniversalStringSizeCheck;
+  static check_size<sizeof(DerUniversalString), 16 + sizeof(::ArrayW<uint8_t>)> __Org_BouncyCastle_Asn1_DerUniversalStringSizeCheck;
   static_assert(sizeof(DerUniversalString) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DerUniversalString*, "Org.BouncyCastle.Asn1", "DerUniversalString");

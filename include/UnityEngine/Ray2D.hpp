@@ -19,6 +19,11 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Ray2D/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Vector2 m_Origin
     // Size: 0x8
     // Offset: 0x0
@@ -31,6 +36,7 @@ namespace UnityEngine {
     UnityEngine::Vector2 m_Direction;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector2) == 0x8);
+    public:
     // Creating value type constructor for type: Ray2D
     constexpr Ray2D(UnityEngine::Vector2 m_Origin_ = {}, UnityEngine::Vector2 m_Direction_ = {}) noexcept : m_Origin{m_Origin_}, m_Direction{m_Direction_} {}
     // Creating interface conversion operator: operator System::ValueType

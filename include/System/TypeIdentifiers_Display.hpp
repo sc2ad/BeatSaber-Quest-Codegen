@@ -24,6 +24,11 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   class TypeIdentifiers::Display : public System::TypeNames::ATypeName/*, public System::TypeIdentifier*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String displayName
     // Size: 0x8
     // Offset: 0x10
@@ -36,6 +41,7 @@ namespace System {
     ::Il2CppString* internal_name;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::TypeIdentifier
     operator System::TypeIdentifier() noexcept {
       return *reinterpret_cast<System::TypeIdentifier*>(this);

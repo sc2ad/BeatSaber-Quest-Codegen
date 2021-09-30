@@ -43,6 +43,11 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class ListenerAsyncResult : public ::Il2CppObject/*, public System::IAsyncResult*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Threading.ManualResetEvent handle
     // Size: 0x8
     // Offset: 0x10
@@ -111,6 +116,7 @@ namespace System::Net {
     bool InGet;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator System::IAsyncResult
     operator System::IAsyncResult() noexcept {
       return *reinterpret_cast<System::IAsyncResult*>(this);

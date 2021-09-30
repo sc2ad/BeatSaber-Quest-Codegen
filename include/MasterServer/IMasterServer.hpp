@@ -5,6 +5,7 @@
 // Begin includes
 #include <stdint.h>
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net
@@ -64,13 +65,13 @@ namespace MasterServer {
     System::Threading::Tasks::Task_1<bool>* TryAuthenticateUser(uint protocolVersion, System::Net::IPEndPoint* endPoint, GlobalNamespace::AuthenticationToken authenticationToken);
     // public System.Threading.Tasks.Task`1<MasterServer.ConnectToServerResponse> ConnectToServer(System.UInt32 protocolVersion, System.Net.IPEndPoint endPoint, System.String userId, System.String userName, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration, System.Byte[] random, System.Byte[] publicKey, System.String secret, System.String code)
     // Offset: 0xFFFFFFFF
-    System::Threading::Tasks::Task_1<MasterServer::ConnectToServerResponse*>* ConnectToServer(uint protocolVersion, System::Net::IPEndPoint* endPoint, ::Il2CppString* userId, ::Il2CppString* userName, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration, ::ArrayWrapper<uint8_t> random, ::ArrayWrapper<uint8_t> publicKey, ::Il2CppString* secret, ::Il2CppString* code);
+    System::Threading::Tasks::Task_1<MasterServer::ConnectToServerResponse*>* ConnectToServer(uint protocolVersion, System::Net::IPEndPoint* endPoint, ::Il2CppString* userId, ::Il2CppString* userName, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration, ::ArrayW<uint8_t> random, ::ArrayW<uint8_t> publicKey, ::Il2CppString* secret, ::Il2CppString* code);
     // public System.Threading.Tasks.Task`1<MasterServer.GetPublicServersResponse> GetPublicServers(System.UInt32 protocolVersion, System.Net.IPEndPoint endPoint, System.String userId, System.String userName, System.Int32 skip, System.Int32 count, BeatmapLevelSelectionMask selectionMask, GameplayServerConfiguration configuration)
     // Offset: 0xFFFFFFFF
     System::Threading::Tasks::Task_1<MasterServer::GetPublicServersResponse*>* GetPublicServers(uint protocolVersion, System::Net::IPEndPoint* endPoint, ::Il2CppString* userId, ::Il2CppString* userName, int skip, int count, GlobalNamespace::BeatmapLevelSelectionMask selectionMask, GlobalNamespace::GameplayServerConfiguration configuration);
     // public System.Boolean TryAuthenticateDedicatedServer(System.UInt32 protocolVersion, System.Net.IPEndPoint endPoint, System.String id, System.Byte[] nonce, System.Byte[] hash, System.Int64 timestamp)
     // Offset: 0xFFFFFFFF
-    bool TryAuthenticateDedicatedServer(uint protocolVersion, System::Net::IPEndPoint* endPoint, ::Il2CppString* id, ::ArrayWrapper<uint8_t> nonce, ::ArrayWrapper<uint8_t> hash, int64_t timestamp);
+    bool TryAuthenticateDedicatedServer(uint protocolVersion, System::Net::IPEndPoint* endPoint, ::Il2CppString* id, ::ArrayW<uint8_t> nonce, ::ArrayW<uint8_t> hash, int64_t timestamp);
     // public System.Void HeartbeatDedicatedServer(System.UInt32 protocolVersion, System.String dedicatedServerId, System.Int64 dedicatedServerCreationTime, System.Net.IPEndPoint endPoint, System.Int32 cpuUtilization, System.Int32 occupiedServerSlotCount, System.Int32 unoccupiedServerSlotCount)
     // Offset: 0xFFFFFFFF
     void HeartbeatDedicatedServer(uint protocolVersion, ::Il2CppString* dedicatedServerId, int64_t dedicatedServerCreationTime, System::Net::IPEndPoint* endPoint, int cpuUtilization, int occupiedServerSlotCount, int unoccupiedServerSlotCount);
@@ -122,7 +123,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: MasterServer::IMasterServer::ConnectToServer
 // Il2CppName: ConnectToServer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<MasterServer::ConnectToServerResponse*>* (MasterServer::IMasterServer::*)(uint, System::Net::IPEndPoint*, ::Il2CppString*, ::Il2CppString*, GlobalNamespace::BeatmapLevelSelectionMask, GlobalNamespace::GameplayServerConfiguration, ::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>, ::Il2CppString*, ::Il2CppString*)>(&MasterServer::IMasterServer::ConnectToServer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Threading::Tasks::Task_1<MasterServer::ConnectToServerResponse*>* (MasterServer::IMasterServer::*)(uint, System::Net::IPEndPoint*, ::Il2CppString*, ::Il2CppString*, GlobalNamespace::BeatmapLevelSelectionMask, GlobalNamespace::GameplayServerConfiguration, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>, ::Il2CppString*, ::Il2CppString*)>(&MasterServer::IMasterServer::ConnectToServer)> {
   static const MethodInfo* get() {
     static auto* protocolVersion = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* endPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;
@@ -156,7 +157,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Thr
 // Writing MetadataGetter for method: MasterServer::IMasterServer::TryAuthenticateDedicatedServer
 // Il2CppName: TryAuthenticateDedicatedServer
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MasterServer::IMasterServer::*)(uint, System::Net::IPEndPoint*, ::Il2CppString*, ::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>, int64_t)>(&MasterServer::IMasterServer::TryAuthenticateDedicatedServer)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (MasterServer::IMasterServer::*)(uint, System::Net::IPEndPoint*, ::Il2CppString*, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>, int64_t)>(&MasterServer::IMasterServer::TryAuthenticateDedicatedServer)> {
   static const MethodInfo* get() {
     static auto* protocolVersion = &::il2cpp_utils::GetClassFromName("System", "UInt32")->byval_arg;
     static auto* endPoint = &::il2cpp_utils::GetClassFromName("System.Net", "IPEndPoint")->byval_arg;

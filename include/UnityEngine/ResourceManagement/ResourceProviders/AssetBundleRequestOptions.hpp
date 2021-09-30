@@ -32,6 +32,11 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   // [TokenAttribute] Offset: FFFFFFFF
   class AssetBundleRequestOptions : public ::Il2CppObject/*, public UnityEngine::ResourceManagement::ResourceLocations::ILocationSizeData*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [FormerlySerializedAsAttribute] Offset: 0xEE5A7C
     // private System.String m_Hash
     // Size: 0x8
@@ -102,6 +107,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     bool m_ClearOtherCachedVersionsWhenLoaded;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator UnityEngine::ResourceManagement::ResourceLocations::ILocationSizeData
     operator UnityEngine::ResourceManagement::ResourceLocations::ILocationSizeData() noexcept {
       return *reinterpret_cast<UnityEngine::ResourceManagement::ResourceLocations::ILocationSizeData*>(this);

@@ -25,12 +25,18 @@ namespace System::Text {
   // [TokenAttribute] Offset: FFFFFFFF
   class EncoderFallback : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Boolean bIsMicrosoftBestFitFallback
     // Size: 0x1
     // Offset: 0x10
     bool bIsMicrosoftBestFitFallback;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating conversion operator: operator bool
     constexpr operator bool() const noexcept {
       return bIsMicrosoftBestFitFallback;

@@ -53,6 +53,11 @@ namespace System::Security::Claims {
   // [ComVisibleAttribute] Offset: E5F094
   class ClaimsPrincipal : public ::Il2CppObject/*, public System::Security::Principal::IPrincipal*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [OptionalFieldAttribute] Offset: 0xE63B14
     // private System.String m_version
     // Size: 0x8
@@ -73,6 +78,7 @@ namespace System::Security::Claims {
     System::Collections::Generic::List_1<System::Security::Claims::ClaimsIdentity*>* m_identities;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<System::Security::Claims::ClaimsIdentity*>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Security::Principal::IPrincipal
     operator System::Security::Principal::IPrincipal() noexcept {
       return *reinterpret_cast<System::Security::Principal::IPrincipal*>(this);

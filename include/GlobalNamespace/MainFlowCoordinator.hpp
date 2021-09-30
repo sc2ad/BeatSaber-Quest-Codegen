@@ -76,6 +76,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::MainFlowCoordinator::$ProcessMenuDestinationRequestAfterFrameCoroutine$d__40
     class $ProcessMenuDestinationRequestAfterFrameCoroutine$d__40;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private MenuLightsPresetSO _defaultLightsPreset
     // Size: 0x8
     // Offset: 0xA8
@@ -221,6 +226,7 @@ namespace GlobalNamespace {
     HMUI::FlowCoordinator* afterDialogPromptFlowCoordinator;
     // Field size check
     static_assert(sizeof(HMUI::FlowCoordinator*) == 0x8);
+    public:
     // Get static field: static private System.Boolean _startWithSettings
     static bool _get__startWithSettings();
     // Set static field: static private System.Boolean _startWithSettings

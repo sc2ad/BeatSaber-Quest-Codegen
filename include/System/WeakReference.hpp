@@ -32,6 +32,11 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5CE40
   class WeakReference : public ::Il2CppObject/*, public System::Runtime::Serialization::ISerializable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean isLongReference
     // Size: 0x1
     // Offset: 0x10
@@ -46,6 +51,7 @@ namespace System {
     System::Runtime::InteropServices::GCHandle gcHandle;
     // Field size check
     static_assert(sizeof(System::Runtime::InteropServices::GCHandle) == 0x4);
+    public:
     // Creating interface conversion operator: operator System::Runtime::Serialization::ISerializable
     operator System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);

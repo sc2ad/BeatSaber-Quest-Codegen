@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -51,6 +52,11 @@ namespace GlobalNamespace {
   // [RequireComponent] Offset: EFCA28
   class SaberBurnMarkArea : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.LineRenderer _saberBurnMarkLinePrefab
     // Size: 0x8
     // Offset: 0x18
@@ -118,9 +124,9 @@ namespace GlobalNamespace {
     // private Saber[] _sabers
     // Size: 0x8
     // Offset: 0x58
-    ::ArrayWrapper<GlobalNamespace::Saber*> sabers;
+    ::ArrayW<GlobalNamespace::Saber*> sabers;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::Saber*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::Saber*>) == 0x8);
     // private UnityEngine.Plane _plane
     // Size: 0x10
     // Offset: 0x60
@@ -130,21 +136,21 @@ namespace GlobalNamespace {
     // private UnityEngine.Vector3[] _prevBurnMarkPos
     // Size: 0x8
     // Offset: 0x70
-    ::ArrayWrapper<UnityEngine::Vector3> prevBurnMarkPos;
+    ::ArrayW<UnityEngine::Vector3> prevBurnMarkPos;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector3>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Vector3>) == 0x8);
     // private System.Boolean[] _prevBurnMarkPosValid
     // Size: 0x8
     // Offset: 0x78
-    ::ArrayWrapper<bool> prevBurnMarkPosValid;
+    ::ArrayW<bool> prevBurnMarkPosValid;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<bool>) == 0x8);
+    static_assert(sizeof(::ArrayW<bool>) == 0x8);
     // private UnityEngine.LineRenderer[] _lineRenderers
     // Size: 0x8
     // Offset: 0x80
-    ::ArrayWrapper<UnityEngine::LineRenderer*> lineRenderers;
+    ::ArrayW<UnityEngine::LineRenderer*> lineRenderers;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::LineRenderer*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::LineRenderer*>) == 0x8);
     // private UnityEngine.Camera _camera
     // Size: 0x8
     // Offset: 0x88
@@ -154,15 +160,15 @@ namespace GlobalNamespace {
     // private UnityEngine.Vector3[] _linePoints
     // Size: 0x8
     // Offset: 0x90
-    ::ArrayWrapper<UnityEngine::Vector3> linePoints;
+    ::ArrayW<UnityEngine::Vector3> linePoints;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector3>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Vector3>) == 0x8);
     // private UnityEngine.RenderTexture[] _renderTextures
     // Size: 0x8
     // Offset: 0x98
-    ::ArrayWrapper<UnityEngine::RenderTexture*> renderTextures;
+    ::ArrayW<UnityEngine::RenderTexture*> renderTextures;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::RenderTexture*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::RenderTexture*>) == 0x8);
     // private UnityEngine.ParticleSystem/UnityEngine.EmitParams _emitParams
     // Size: 0x8F
     // Offset: 0xA0
@@ -177,6 +183,7 @@ namespace GlobalNamespace {
     UnityEngine::Material* fadeOutMaterial;
     // Field size check
     static_assert(sizeof(UnityEngine::Material*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.LineRenderer _saberBurnMarkLinePrefab
@@ -200,21 +207,21 @@ namespace GlobalNamespace {
     // Get instance field reference: private readonly System.Int32 _fadeOutStrengthShaderPropertyID
     int& dyn__fadeOutStrengthShaderPropertyID();
     // Get instance field reference: private Saber[] _sabers
-    ::ArrayWrapper<GlobalNamespace::Saber*>& dyn__sabers();
+    ::ArrayW<GlobalNamespace::Saber*>& dyn__sabers();
     // Get instance field reference: private UnityEngine.Plane _plane
     UnityEngine::Plane& dyn__plane();
     // Get instance field reference: private UnityEngine.Vector3[] _prevBurnMarkPos
-    ::ArrayWrapper<UnityEngine::Vector3>& dyn__prevBurnMarkPos();
+    ::ArrayW<UnityEngine::Vector3>& dyn__prevBurnMarkPos();
     // Get instance field reference: private System.Boolean[] _prevBurnMarkPosValid
-    ::ArrayWrapper<bool>& dyn__prevBurnMarkPosValid();
+    ::ArrayW<bool>& dyn__prevBurnMarkPosValid();
     // Get instance field reference: private UnityEngine.LineRenderer[] _lineRenderers
-    ::ArrayWrapper<UnityEngine::LineRenderer*>& dyn__lineRenderers();
+    ::ArrayW<UnityEngine::LineRenderer*>& dyn__lineRenderers();
     // Get instance field reference: private UnityEngine.Camera _camera
     UnityEngine::Camera*& dyn__camera();
     // Get instance field reference: private UnityEngine.Vector3[] _linePoints
-    ::ArrayWrapper<UnityEngine::Vector3>& dyn__linePoints();
+    ::ArrayW<UnityEngine::Vector3>& dyn__linePoints();
     // Get instance field reference: private UnityEngine.RenderTexture[] _renderTextures
-    ::ArrayWrapper<UnityEngine::RenderTexture*>& dyn__renderTextures();
+    ::ArrayW<UnityEngine::RenderTexture*>& dyn__renderTextures();
     // Get instance field reference: private UnityEngine.ParticleSystem/UnityEngine.EmitParams _emitParams
     UnityEngine::ParticleSystem::EmitParams& dyn__emitParams();
     // Get instance field reference: private UnityEngine.Material _fadeOutMaterial

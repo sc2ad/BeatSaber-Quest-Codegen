@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: HoudiniEngineUnity
@@ -40,7 +41,7 @@ namespace HoudiniEngineUnity {
     static HoudiniEngineUnity::Test_Texture2D* ToTestObject(UnityEngine::Texture2D* self);
     // static public HoudiniEngineUnity.Test_Texture2D[] ToTestObject(UnityEngine.Texture2D[] self)
     // Offset: 0x25D3A04
-    static ::ArrayWrapper<HoudiniEngineUnity::Test_Texture2D*> ToTestObject(::ArrayWrapper<UnityEngine::Texture2D*> self);
+    static ::ArrayW<HoudiniEngineUnity::Test_Texture2D*> ToTestObject(::ArrayW<UnityEngine::Texture2D*> self);
     // static public System.Collections.Generic.List`1<HoudiniEngineUnity.Test_Texture2D> ToTestObject(System.Collections.Generic.List`1<UnityEngine.Texture2D> self)
     // Offset: 0x25D3AF0
     static System::Collections::Generic::List_1<HoudiniEngineUnity::Test_Texture2D*>* ToTestObject(System::Collections::Generic::List_1<UnityEngine::Texture2D*>* self);
@@ -62,7 +63,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::Test_Texture2D_Extensions::ToTestObject
 // Il2CppName: ToTestObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<HoudiniEngineUnity::Test_Texture2D*> (*)(::ArrayWrapper<UnityEngine::Texture2D*>)>(&HoudiniEngineUnity::Test_Texture2D_Extensions::ToTestObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<HoudiniEngineUnity::Test_Texture2D*> (*)(::ArrayW<UnityEngine::Texture2D*>)>(&HoudiniEngineUnity::Test_Texture2D_Extensions::ToTestObject)> {
   static const MethodInfo* get() {
     static auto* self = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Texture2D"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::Test_Texture2D_Extensions*), "ToTestObject", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{self});

@@ -39,6 +39,11 @@ namespace System::Net {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class WebRequest::$$c__DisplayClass78_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Security.Principal.WindowsIdentity currentUser
     // Size: 0x8
     // Offset: 0x10
@@ -51,6 +56,7 @@ namespace System::Net {
     System::Net::WebRequest* $$4__this;
     // Field size check
     static_assert(sizeof(System::Net::WebRequest*) == 0x8);
+    public:
     // Get instance field reference: public System.Security.Principal.WindowsIdentity currentUser
     System::Security::Principal::WindowsIdentity*& dyn_currentUser();
     // Get instance field reference: public System.Net.WebRequest <>4__this

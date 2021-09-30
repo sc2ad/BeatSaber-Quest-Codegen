@@ -27,12 +27,18 @@ namespace Org::BouncyCastle::Utilities::Collections {
   // [TokenAttribute] Offset: FFFFFFFF
   class EnumerableProxy : public ::Il2CppObject/*, public System::Collections::IEnumerable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Collections.IEnumerable inner
     // Size: 0x8
     // Offset: 0x10
     System::Collections::IEnumerable* inner;
     // Field size check
     static_assert(sizeof(System::Collections::IEnumerable*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Collections::IEnumerable
     operator System::Collections::IEnumerable() noexcept {
       return *reinterpret_cast<System::Collections::IEnumerable*>(this);

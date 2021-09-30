@@ -22,6 +22,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MockPlayerSettings : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String _userName
     // Size: 0x8
     // Offset: 0x10
@@ -105,6 +110,7 @@ namespace GlobalNamespace {
     UnityEngine::Color obstaclesColor;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
+    public:
     // Get instance field reference: private System.String _userName
     ::Il2CppString*& dyn__userName();
     // Get instance field reference: private System.String _userId

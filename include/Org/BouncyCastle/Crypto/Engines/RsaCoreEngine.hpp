@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Crypto::Parameters
@@ -37,6 +38,11 @@ namespace Org::BouncyCastle::Crypto::Engines {
   // [TokenAttribute] Offset: FFFFFFFF
   class RsaCoreEngine : public ::Il2CppObject/*, public Org::BouncyCastle::Crypto::IRsa*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Org.BouncyCastle.Crypto.Parameters.RsaKeyParameters key
     // Size: 0x8
     // Offset: 0x10
@@ -57,6 +63,7 @@ namespace Org::BouncyCastle::Crypto::Engines {
     int bitSize;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IRsa
     operator Org::BouncyCastle::Crypto::IRsa() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IRsa*>(this);
@@ -81,10 +88,10 @@ namespace Org::BouncyCastle::Crypto::Engines {
     int GetOutputBlockSize();
     // public Org.BouncyCastle.Math.BigInteger ConvertInput(System.Byte[] inBuf, System.Int32 inOff, System.Int32 inLen)
     // Offset: 0x203FBA0
-    Org::BouncyCastle::Math::BigInteger* ConvertInput(::ArrayWrapper<uint8_t> inBuf, int inOff, int inLen);
+    Org::BouncyCastle::Math::BigInteger* ConvertInput(::ArrayW<uint8_t> inBuf, int inOff, int inLen);
     // public System.Byte[] ConvertOutput(Org.BouncyCastle.Math.BigInteger result)
     // Offset: 0x203FCB4
-    ::ArrayWrapper<uint8_t> ConvertOutput(Org::BouncyCastle::Math::BigInteger* result);
+    ::ArrayW<uint8_t> ConvertOutput(Org::BouncyCastle::Math::BigInteger* result);
     // public Org.BouncyCastle.Math.BigInteger ProcessBlock(Org.BouncyCastle.Math.BigInteger input)
     // Offset: 0x203FD88
     Org::BouncyCastle::Math::BigInteger* ProcessBlock(Org::BouncyCastle::Math::BigInteger* input);
@@ -141,7 +148,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::RsaCoreEngine::ConvertInput
 // Il2CppName: ConvertInput
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (Org::BouncyCastle::Crypto::Engines::RsaCoreEngine::*)(::ArrayWrapper<uint8_t>, int, int)>(&Org::BouncyCastle::Crypto::Engines::RsaCoreEngine::ConvertInput)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::BouncyCastle::Math::BigInteger* (Org::BouncyCastle::Crypto::Engines::RsaCoreEngine::*)(::ArrayW<uint8_t>, int, int)>(&Org::BouncyCastle::Crypto::Engines::RsaCoreEngine::ConvertInput)> {
   static const MethodInfo* get() {
     static auto* inBuf = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* inOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -152,7 +159,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Org::Bouncy
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Engines::RsaCoreEngine::ConvertOutput
 // Il2CppName: ConvertOutput
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Crypto::Engines::RsaCoreEngine::*)(Org::BouncyCastle::Math::BigInteger*)>(&Org::BouncyCastle::Crypto::Engines::RsaCoreEngine::ConvertOutput)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Org::BouncyCastle::Crypto::Engines::RsaCoreEngine::*)(Org::BouncyCastle::Math::BigInteger*)>(&Org::BouncyCastle::Crypto::Engines::RsaCoreEngine::ConvertOutput)> {
   static const MethodInfo* get() {
     static auto* result = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math", "BigInteger")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Engines::RsaCoreEngine*), "ConvertOutput", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{result});

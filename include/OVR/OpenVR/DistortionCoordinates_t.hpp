@@ -16,6 +16,11 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct DistortionCoordinates_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Single rfRed0
     // Size: 0x4
     // Offset: 0x0
@@ -52,6 +57,7 @@ namespace OVR::OpenVR {
     float rfBlue1;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: DistortionCoordinates_t
     constexpr DistortionCoordinates_t(float rfRed0_ = {}, float rfRed1_ = {}, float rfGreen0_ = {}, float rfGreen1_ = {}, float rfBlue0_ = {}, float rfBlue1_ = {}) noexcept : rfRed0{rfRed0_}, rfRed1{rfRed1_}, rfGreen0{rfGreen0_}, rfGreen1{rfGreen1_}, rfBlue0{rfBlue0_}, rfBlue1{rfBlue1_} {}
     // Creating interface conversion operator: operator System::ValueType

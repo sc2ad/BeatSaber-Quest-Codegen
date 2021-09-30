@@ -29,12 +29,18 @@ namespace HoudiniEngineUnity {
     public:
     // Writing base type padding for base size: 0x7D to desired offset: 0x80
     char ___base_padding[0x3] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.String _nodeSaveFilePath
     // Size: 0x8
     // Offset: 0x80
     ::Il2CppString* nodeSaveFilePath;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: public System.String _nodeSaveFilePath
     ::Il2CppString*& dyn__nodeSaveFilePath();
     // private System.Void OnEnable()

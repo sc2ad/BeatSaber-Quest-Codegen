@@ -21,6 +21,11 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   struct TMP_LineInfo/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Int32 controlCharacterCount
     // Size: 0x4
     // Offset: 0x0
@@ -141,6 +146,7 @@ namespace TMPro {
     TMPro::Extents lineExtents;
     // Field size check
     static_assert(sizeof(TMPro::Extents) == 0x10);
+    public:
     // Creating value type constructor for type: TMP_LineInfo
     constexpr TMP_LineInfo(int controlCharacterCount_ = {}, int characterCount_ = {}, int visibleCharacterCount_ = {}, int spaceCount_ = {}, int wordCount_ = {}, int firstCharacterIndex_ = {}, int firstVisibleCharacterIndex_ = {}, int lastCharacterIndex_ = {}, int lastVisibleCharacterIndex_ = {}, float length_ = {}, float lineHeight_ = {}, float ascender_ = {}, float baseline_ = {}, float descender_ = {}, float maxAdvance_ = {}, float width_ = {}, float marginLeft_ = {}, float marginRight_ = {}, TMPro::TextAlignmentOptions alignment_ = {}, TMPro::Extents lineExtents_ = {}) noexcept : controlCharacterCount{controlCharacterCount_}, characterCount{characterCount_}, visibleCharacterCount{visibleCharacterCount_}, spaceCount{spaceCount_}, wordCount{wordCount_}, firstCharacterIndex{firstCharacterIndex_}, firstVisibleCharacterIndex{firstVisibleCharacterIndex_}, lastCharacterIndex{lastCharacterIndex_}, lastVisibleCharacterIndex{lastVisibleCharacterIndex_}, length{length_}, lineHeight{lineHeight_}, ascender{ascender_}, baseline{baseline_}, descender{descender_}, maxAdvance{maxAdvance_}, width{width_}, marginLeft{marginLeft_}, marginRight{marginRight_}, alignment{alignment_}, lineExtents{lineExtents_} {}
     // Creating interface conversion operator: operator System::ValueType

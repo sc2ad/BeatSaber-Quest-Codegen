@@ -41,6 +41,11 @@ namespace GlobalNamespace {
     class UnlockAchievementCompletionHandler;
     // Nested type: GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler
     class GetUnlockedAchievementsCompletionHandler;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private PS4AchievementIdsModelSO _ps4AchievementIdsModel
     // Size: 0x8
     // Offset: 0x18
@@ -59,6 +64,7 @@ namespace GlobalNamespace {
     GlobalNamespace::PlatformAchievementsHandler* platformAchievementsHandler;
     // Field size check
     static_assert(sizeof(GlobalNamespace::PlatformAchievementsHandler*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private PS4AchievementIdsModelSO _ps4AchievementIdsModel

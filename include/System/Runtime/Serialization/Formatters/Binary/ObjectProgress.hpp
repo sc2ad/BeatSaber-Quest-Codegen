@@ -17,6 +17,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -38,6 +39,11 @@ namespace System::Runtime::Serialization::Formatters::Binary {
   // [TokenAttribute] Offset: FFFFFFFF
   class ObjectProgress : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Boolean isInitial
     // Size: 0x1
     // Offset: 0x10
@@ -131,33 +137,34 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum[] binaryTypeEnumA
     // Size: 0x8
     // Offset: 0x60
-    ::ArrayWrapper<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum> binaryTypeEnumA;
+    ::ArrayW<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum> binaryTypeEnumA;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>) == 0x8);
+    static_assert(sizeof(::ArrayW<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>) == 0x8);
     // System.Object[] typeInformationA
     // Size: 0x8
     // Offset: 0x68
-    ::ArrayWrapper<::Il2CppObject*> typeInformationA;
+    ::ArrayW<::Il2CppObject*> typeInformationA;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppObject*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppObject*>) == 0x8);
     // System.String[] memberNames
     // Size: 0x8
     // Offset: 0x70
-    ::ArrayWrapper<::Il2CppString*> memberNames;
+    ::ArrayW<::Il2CppString*> memberNames;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // System.Type[] memberTypes
     // Size: 0x8
     // Offset: 0x78
-    ::ArrayWrapper<System::Type*> memberTypes;
+    ::ArrayW<System::Type*> memberTypes;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<System::Type*>) == 0x8);
+    static_assert(sizeof(::ArrayW<System::Type*>) == 0x8);
     // System.Runtime.Serialization.Formatters.Binary.ParseRecord pr
     // Size: 0x8
     // Offset: 0x80
     System::Runtime::Serialization::Formatters::Binary::ParseRecord* pr;
     // Field size check
     static_assert(sizeof(System::Runtime::Serialization::Formatters::Binary::ParseRecord*) == 0x8);
+    public:
     // Get static field: static System.Int32 opRecordIdCount
     static int _get_opRecordIdCount();
     // Set static field: static System.Int32 opRecordIdCount
@@ -191,13 +198,13 @@ namespace System::Runtime::Serialization::Formatters::Binary {
     // Get instance field reference: System.Int32 memberLength
     int& dyn_memberLength();
     // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.BinaryTypeEnum[] binaryTypeEnumA
-    ::ArrayWrapper<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>& dyn_binaryTypeEnumA();
+    ::ArrayW<System::Runtime::Serialization::Formatters::Binary::BinaryTypeEnum>& dyn_binaryTypeEnumA();
     // Get instance field reference: System.Object[] typeInformationA
-    ::ArrayWrapper<::Il2CppObject*>& dyn_typeInformationA();
+    ::ArrayW<::Il2CppObject*>& dyn_typeInformationA();
     // Get instance field reference: System.String[] memberNames
-    ::ArrayWrapper<::Il2CppString*>& dyn_memberNames();
+    ::ArrayW<::Il2CppString*>& dyn_memberNames();
     // Get instance field reference: System.Type[] memberTypes
-    ::ArrayWrapper<System::Type*>& dyn_memberTypes();
+    ::ArrayW<System::Type*>& dyn_memberTypes();
     // Get instance field reference: System.Runtime.Serialization.Formatters.Binary.ParseRecord pr
     System::Runtime::Serialization::Formatters::Binary::ParseRecord*& dyn_pr();
     // static private System.Void .cctor()

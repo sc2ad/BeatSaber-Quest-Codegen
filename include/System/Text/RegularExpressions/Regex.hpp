@@ -17,6 +17,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Text::RegularExpressions
@@ -61,6 +62,11 @@ namespace System::Text::RegularExpressions {
   // [TokenAttribute] Offset: FFFFFFFF
   class Regex : public ::Il2CppObject/*, public System::Runtime::Serialization::ISerializable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // protected internal System.String pattern
     // Size: 0x8
     // Offset: 0x10
@@ -103,9 +109,9 @@ namespace System::Text::RegularExpressions {
     // protected internal System.String[] capslist
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayWrapper<::Il2CppString*> capslist;
+    ::ArrayW<::Il2CppString*> capslist;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // protected internal System.Int32 capsize
     // Size: 0x4
     // Offset: 0x48
@@ -138,6 +144,7 @@ namespace System::Text::RegularExpressions {
     bool refsInitialized;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator System::Runtime::Serialization::ISerializable
     operator System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);
@@ -179,7 +186,7 @@ namespace System::Text::RegularExpressions {
     // Get instance field reference: protected internal System.Collections.Hashtable capnames
     System::Collections::Hashtable*& dyn_capnames();
     // Get instance field reference: protected internal System.String[] capslist
-    ::ArrayWrapper<::Il2CppString*>& dyn_capslist();
+    ::ArrayW<::Il2CppString*>& dyn_capslist();
     // Get instance field reference: protected internal System.Int32 capsize
     int& dyn_capsize();
     // Get instance field reference: System.Text.RegularExpressions.ExclusiveReference runnerref

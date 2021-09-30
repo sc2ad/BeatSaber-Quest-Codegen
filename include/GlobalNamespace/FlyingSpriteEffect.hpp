@@ -42,6 +42,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::FlyingSpriteEffect::Pool
     class Pool;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.SpriteRenderer _spriteRenderer
     // Size: 0x8
     // Offset: 0x80
@@ -60,6 +65,7 @@ namespace GlobalNamespace {
     UnityEngine::Color color;
     // Field size check
     static_assert(sizeof(UnityEngine::Color) == 0x10);
+    public:
     // Get instance field reference: private UnityEngine.SpriteRenderer _spriteRenderer
     UnityEngine::SpriteRenderer*& dyn__spriteRenderer();
     // Get instance field reference: private UnityEngine.AnimationCurve _fadeAnimationCurve

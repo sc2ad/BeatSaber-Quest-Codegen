@@ -28,6 +28,11 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5C9F4
   class TypeLoadException : public System::SystemException {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String ClassName
     // Size: 0x8
     // Offset: 0x88
@@ -52,6 +57,7 @@ namespace System {
     int ResourceId;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: private System.String ClassName
     ::Il2CppString*& dyn_ClassName();
     // Get instance field reference: private System.String AssemblyName

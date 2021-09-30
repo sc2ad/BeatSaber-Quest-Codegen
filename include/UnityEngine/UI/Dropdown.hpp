@@ -89,6 +89,11 @@ namespace UnityEngine::UI {
     class $$c__DisplayClass62_0;
     // Nested type: UnityEngine::UI::Dropdown::$DelayedDestroyDropdownList$d__74
     class $DelayedDestroyDropdownList$d__74;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.RectTransform m_Template
     // Size: 0x8
     // Offset: 0xF8
@@ -181,6 +186,7 @@ namespace UnityEngine::UI {
     bool validTemplate;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator UnityEngine::EventSystems::IPointerClickHandler
     operator UnityEngine::EventSystems::IPointerClickHandler() noexcept {
       return *reinterpret_cast<UnityEngine::EventSystems::IPointerClickHandler*>(this);

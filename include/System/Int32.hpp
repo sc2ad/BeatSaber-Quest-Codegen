@@ -48,12 +48,18 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5C2B0
   struct Int32/*, public System::ValueType, public System::IComparable_1<int>, public System::IEquatable_1<int>, public System::IComparable, public System::IConvertible, public System::IFormattable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Int32 m_value
     // Size: 0x4
     // Offset: 0x0
     int m_value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: Int32
     constexpr Int32(int m_value_ = {}) noexcept : m_value{m_value_} {}
     // Creating interface conversion operator: operator System::ValueType

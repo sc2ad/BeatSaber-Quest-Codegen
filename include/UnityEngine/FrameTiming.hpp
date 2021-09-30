@@ -18,6 +18,11 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E70CB0
   struct FrameTiming/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [NativeNameAttribute] Offset: 0xE756B8
     // public System.UInt64 cpuTimePresentCalled
     // Size: 0x8
@@ -67,6 +72,7 @@ namespace UnityEngine {
     uint syncInterval;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
+    public:
     // Creating value type constructor for type: FrameTiming
     constexpr FrameTiming(uint64_t cpuTimePresentCalled_ = {}, double cpuFrameTime_ = {}, uint64_t cpuTimeFrameComplete_ = {}, double gpuFrameTime_ = {}, float heightScale_ = {}, float widthScale_ = {}, uint syncInterval_ = {}) noexcept : cpuTimePresentCalled{cpuTimePresentCalled_}, cpuFrameTime{cpuFrameTime_}, cpuTimeFrameComplete{cpuTimeFrameComplete_}, gpuFrameTime{gpuFrameTime_}, heightScale{heightScale_}, widthScale{widthScale_}, syncInterval{syncInterval_} {}
     // Creating interface conversion operator: operator System::ValueType

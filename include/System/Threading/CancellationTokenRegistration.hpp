@@ -31,6 +31,11 @@ namespace System::Threading {
   // [TokenAttribute] Offset: FFFFFFFF
   struct CancellationTokenRegistration/*, public System::ValueType, public System::IDisposable, public System::IEquatable_1<System::Threading::CancellationTokenRegistration>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Threading.CancellationCallbackInfo m_callbackInfo
     // Size: 0x8
     // Offset: 0x0
@@ -41,6 +46,7 @@ namespace System::Threading {
     // Size: 0xFFFFFFFF
     // Offset: 0x8
     System::Threading::SparselyPopulatedArrayAddInfo_1<System::Threading::CancellationCallbackInfo*> m_registrationInfo;
+    public:
     // Creating value type constructor for type: CancellationTokenRegistration
     constexpr CancellationTokenRegistration(System::Threading::CancellationCallbackInfo* m_callbackInfo_ = {}, System::Threading::SparselyPopulatedArrayAddInfo_1<System::Threading::CancellationCallbackInfo*> m_registrationInfo_ = {}) noexcept : m_callbackInfo{m_callbackInfo_}, m_registrationInfo{m_registrationInfo_} {}
     // Creating interface conversion operator: operator System::ValueType

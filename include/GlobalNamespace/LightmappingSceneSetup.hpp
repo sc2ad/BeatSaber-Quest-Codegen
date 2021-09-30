@@ -35,6 +35,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LightmappingSceneSetup : public Zenject::MonoInstaller/*, public GlobalNamespace::INoTransitionColorSchemeProvider*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private BeatmapLevelSO _beatmapLevel
     // Size: 0x8
     // Offset: 0x20
@@ -61,6 +66,7 @@ namespace GlobalNamespace {
     GlobalNamespace::ColorSchemeSO* colorScheme;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ColorSchemeSO*) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::INoTransitionColorSchemeProvider
     operator GlobalNamespace::INoTransitionColorSchemeProvider() noexcept {
       return *reinterpret_cast<GlobalNamespace::INoTransitionColorSchemeProvider*>(this);

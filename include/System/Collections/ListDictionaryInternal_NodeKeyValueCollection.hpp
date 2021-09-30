@@ -36,6 +36,11 @@ namespace System::Collections {
     public:
     // Nested type: System::Collections::ListDictionaryInternal::NodeKeyValueCollection::NodeKeyValueEnumerator
     class NodeKeyValueEnumerator;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.ListDictionaryInternal list
     // Size: 0x8
     // Offset: 0x10
@@ -48,6 +53,7 @@ namespace System::Collections {
     bool isKeys;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator System::Collections::ICollection
     operator System::Collections::ICollection() noexcept {
       return *reinterpret_cast<System::Collections::ICollection*>(this);

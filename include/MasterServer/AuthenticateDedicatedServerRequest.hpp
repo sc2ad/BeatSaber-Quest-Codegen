@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -41,6 +42,11 @@ namespace MasterServer {
   // [TokenAttribute] Offset: FFFFFFFF
   class AuthenticateDedicatedServerRequest : public GlobalNamespace::BaseMasterServerReliableResponse/*, public MasterServer::IMasterServerAuthenticateRequest, public MasterServer::IDedicatedServerMessage*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String <dedicatedServerId>k__BackingField
     // Size: 0x8
     // Offset: 0x18
@@ -65,6 +71,7 @@ namespace MasterServer {
     int64_t timestamp;
     // Field size check
     static_assert(sizeof(int64_t) == 0x8);
+    public:
     // Creating interface conversion operator: operator MasterServer::IMasterServerAuthenticateRequest
     operator MasterServer::IMasterServerAuthenticateRequest() noexcept {
       return *reinterpret_cast<MasterServer::IMasterServerAuthenticateRequest*>(this);
@@ -92,7 +99,7 @@ namespace MasterServer {
     void set_dedicatedServerId(::Il2CppString* value);
     // public MasterServer.AuthenticateDedicatedServerRequest Init(System.String dedicatedServerId, System.Byte[] nonce, System.Byte[] hash, System.Int64 timestamp)
     // Offset: 0x145E7E4
-    MasterServer::AuthenticateDedicatedServerRequest* Init(::Il2CppString* dedicatedServerId, ::ArrayWrapper<uint8_t> nonce, ::ArrayWrapper<uint8_t> hash, int64_t timestamp);
+    MasterServer::AuthenticateDedicatedServerRequest* Init(::Il2CppString* dedicatedServerId, ::ArrayW<uint8_t> nonce, ::ArrayW<uint8_t> hash, int64_t timestamp);
     // public System.Void .ctor()
     // Offset: 0x145E98C
     // Implemented from: BaseMasterServerReliableResponse
@@ -153,7 +160,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Maste
 // Writing MetadataGetter for method: MasterServer::AuthenticateDedicatedServerRequest::Init
 // Il2CppName: Init
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::AuthenticateDedicatedServerRequest* (MasterServer::AuthenticateDedicatedServerRequest::*)(::Il2CppString*, ::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>, int64_t)>(&MasterServer::AuthenticateDedicatedServerRequest::Init)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<MasterServer::AuthenticateDedicatedServerRequest* (MasterServer::AuthenticateDedicatedServerRequest::*)(::Il2CppString*, ::ArrayW<uint8_t>, ::ArrayW<uint8_t>, int64_t)>(&MasterServer::AuthenticateDedicatedServerRequest::Init)> {
   static const MethodInfo* get() {
     static auto* dedicatedServerId = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* nonce = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;

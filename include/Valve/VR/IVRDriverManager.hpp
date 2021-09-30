@@ -25,6 +25,11 @@ namespace Valve::VR {
     class _GetDriverCount;
     // Nested type: Valve::VR::IVRDriverManager::_GetDriverName
     class _GetDriverName;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // Valve.VR.IVRDriverManager/Valve.VR._GetDriverCount GetDriverCount
     // Size: 0x8
     // Offset: 0x0
@@ -37,6 +42,7 @@ namespace Valve::VR {
     Valve::VR::IVRDriverManager::_GetDriverName* GetDriverName;
     // Field size check
     static_assert(sizeof(Valve::VR::IVRDriverManager::_GetDriverName*) == 0x8);
+    public:
     // Creating value type constructor for type: IVRDriverManager
     constexpr IVRDriverManager(Valve::VR::IVRDriverManager::_GetDriverCount* GetDriverCount_ = {}, Valve::VR::IVRDriverManager::_GetDriverName* GetDriverName_ = {}) noexcept : GetDriverCount{GetDriverCount_}, GetDriverName{GetDriverName_} {}
     // Creating interface conversion operator: operator System::ValueType

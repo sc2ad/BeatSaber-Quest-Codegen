@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Asn1
@@ -28,14 +29,20 @@ namespace Org::BouncyCastle::Asn1 {
   // [TokenAttribute] Offset: FFFFFFFF
   class DerNull : public Org::BouncyCastle::Asn1::Asn1Null {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Byte[] zeroBytes
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<uint8_t> zeroBytes;
+    ::ArrayW<uint8_t> zeroBytes;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating conversion operator: operator ::ArrayWrapper<uint8_t>
-    constexpr operator ::ArrayWrapper<uint8_t>() const noexcept {
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
+    public:
+    // Creating conversion operator: operator ::ArrayW<uint8_t>
+    constexpr operator ::ArrayW<uint8_t>() const noexcept {
       return zeroBytes;
     }
     // Get static field: static public readonly Org.BouncyCastle.Asn1.DerNull Instance
@@ -43,7 +50,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Set static field: static public readonly Org.BouncyCastle.Asn1.DerNull Instance
     static void _set_Instance(Org::BouncyCastle::Asn1::DerNull* value);
     // Get instance field reference: private System.Byte[] zeroBytes
-    ::ArrayWrapper<uint8_t>& dyn_zeroBytes();
+    ::ArrayW<uint8_t>& dyn_zeroBytes();
     // protected internal System.Void .ctor(System.Int32 dummy)
     // Offset: 0x18F0A5C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -71,7 +78,7 @@ namespace Org::BouncyCastle::Asn1 {
     int Asn1GetHashCode();
   }; // Org.BouncyCastle.Asn1.DerNull
   #pragma pack(pop)
-  static check_size<sizeof(DerNull), 16 + sizeof(::ArrayWrapper<uint8_t>)> __Org_BouncyCastle_Asn1_DerNullSizeCheck;
+  static check_size<sizeof(DerNull), 16 + sizeof(::ArrayW<uint8_t>)> __Org_BouncyCastle_Asn1_DerNullSizeCheck;
   static_assert(sizeof(DerNull) == 0x18);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Asn1::DerNull*, "Org.BouncyCastle.Asn1", "DerNull");

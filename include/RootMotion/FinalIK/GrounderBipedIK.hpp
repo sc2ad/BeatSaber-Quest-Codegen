@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: RootMotion::FinalIK
@@ -38,6 +39,11 @@ namespace RootMotion::FinalIK {
     public:
     // Writing base type padding for base size: 0x39 to desired offset: 0x40
     char ___base_padding[0x7] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [TooltipAttribute] Offset: 0xEF1CFC
     // public RootMotion.FinalIK.BipedIK ik
     // Size: 0x8
@@ -62,15 +68,15 @@ namespace RootMotion::FinalIK {
     // private UnityEngine.Transform[] feet
     // Size: 0x8
     // Offset: 0x50
-    ::ArrayWrapper<UnityEngine::Transform*> feet;
+    ::ArrayW<UnityEngine::Transform*> feet;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Transform*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Transform*>) == 0x8);
     // private UnityEngine.Quaternion[] footRotations
     // Size: 0x8
     // Offset: 0x58
-    ::ArrayWrapper<UnityEngine::Quaternion> footRotations;
+    ::ArrayW<UnityEngine::Quaternion> footRotations;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Quaternion>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Quaternion>) == 0x8);
     // private UnityEngine.Vector3 animatedPelvisLocalPosition
     // Size: 0xC
     // Offset: 0x60
@@ -95,6 +101,7 @@ namespace RootMotion::FinalIK {
     float lastWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: public RootMotion.FinalIK.BipedIK ik
     RootMotion::FinalIK::BipedIK*& dyn_ik();
     // Get instance field reference: public System.Single spineBend
@@ -102,9 +109,9 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: public System.Single spineSpeed
     float& dyn_spineSpeed();
     // Get instance field reference: private UnityEngine.Transform[] feet
-    ::ArrayWrapper<UnityEngine::Transform*>& dyn_feet();
+    ::ArrayW<UnityEngine::Transform*>& dyn_feet();
     // Get instance field reference: private UnityEngine.Quaternion[] footRotations
-    ::ArrayWrapper<UnityEngine::Quaternion>& dyn_footRotations();
+    ::ArrayW<UnityEngine::Quaternion>& dyn_footRotations();
     // Get instance field reference: private UnityEngine.Vector3 animatedPelvisLocalPosition
     UnityEngine::Vector3& dyn_animatedPelvisLocalPosition();
     // Get instance field reference: private UnityEngine.Vector3 solvedPelvisLocalPosition

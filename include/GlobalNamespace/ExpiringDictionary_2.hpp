@@ -67,6 +67,11 @@ namespace GlobalNamespace {
       using declaring_type = ExpiringDictionary_2<TKey, TValue>*;
       static constexpr std::string_view NESTED_NAME = "Entry";
       static constexpr bool IS_VALUE_TYPE = false;
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public TKey key
       // Size: 0xFFFFFFFF
       // Offset: 0x0
@@ -81,6 +86,7 @@ namespace GlobalNamespace {
       int64_t expireTime;
       // Field size check
       static_assert(sizeof(int64_t) == 0x8);
+      public:
       // Creating interface conversion operator: operator System::IDisposable
       operator System::IDisposable() noexcept {
         return *reinterpret_cast<System::IDisposable*>(this);
@@ -137,6 +143,11 @@ namespace GlobalNamespace {
       using declaring_type = ExpiringDictionary_2<TKey, TValue>*;
       static constexpr std::string_view NESTED_NAME = "<Enumerate>d__12";
       static constexpr bool IS_VALUE_TYPE = false;
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // private System.Int32 <>1__state
       // Size: 0x4
       // Offset: 0x0
@@ -159,6 +170,7 @@ namespace GlobalNamespace {
       System::Collections::Generic::IEnumerator_1<typename GlobalNamespace::ExpiringDictionary_2<TKey, TValue>::Entry*>* $$7__wrap1;
       // Field size check
       static_assert(sizeof(System::Collections::Generic::IEnumerator_1<typename GlobalNamespace::ExpiringDictionary_2<TKey, TValue>::Entry*>*) == 0x8);
+      public:
       // Creating interface conversion operator: operator System::Collections::Generic::IEnumerator_1<TValue>
       operator System::Collections::Generic::IEnumerator_1<TValue>() noexcept {
         return *reinterpret_cast<System::Collections::Generic::IEnumerator_1<TValue>*>(this);
@@ -252,6 +264,11 @@ namespace GlobalNamespace {
       }
     }; // ExpiringDictionary`2/<Enumerate>d__12
     // Could not write size check! Type: ExpiringDictionary`2/<Enumerate>d__12 is generic, or has no fields that are valid for size checks!
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly MasterServer.ITimeProvider _timeProvider
     // Size: 0x8
     // Offset: 0x0
@@ -282,6 +299,7 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<typename GlobalNamespace::ExpiringDictionary_2<TKey, TValue>::Entry*>* reusableEntries;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<typename GlobalNamespace::ExpiringDictionary_2<TKey, TValue>::Entry*>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

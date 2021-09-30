@@ -27,12 +27,18 @@ namespace UnityEngine::Timeline {
   // [TokenAttribute] Offset: FFFFFFFF
   class RuntimeElement : public ::Il2CppObject/*, public UnityEngine::Timeline::IInterval*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 <intervalBit>k__BackingField
     // Size: 0x4
     // Offset: 0x10
     int intervalBit;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating interface conversion operator: operator UnityEngine::Timeline::IInterval
     operator UnityEngine::Timeline::IInterval() noexcept {
       return *reinterpret_cast<UnityEngine::Timeline::IInterval*>(this);

@@ -19,6 +19,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct OVRPlugin::Vector2f/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Single x
     // Size: 0x4
     // Offset: 0x0
@@ -31,6 +36,7 @@ namespace GlobalNamespace {
     float y;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: Vector2f
     constexpr Vector2f(float x_ = {}, float y_ = {}) noexcept : x{x_}, y{y_} {}
     // Creating interface conversion operator: operator System::ValueType

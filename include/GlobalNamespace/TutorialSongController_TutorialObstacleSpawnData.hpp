@@ -31,6 +31,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class TutorialSongController::TutorialObstacleSpawnData : public GlobalNamespace::TutorialSongController::TutorialObjectSpawnData {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly System.Int32 width
     // Size: 0x4
     // Offset: 0x24
@@ -43,6 +48,7 @@ namespace GlobalNamespace {
     GlobalNamespace::ObstacleType obstacleType;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ObstacleType) == 0x4);
+    public:
     // Get instance field reference: public readonly System.Int32 width
     int& dyn_width();
     // Get instance field reference: public readonly ObstacleType obstacleType

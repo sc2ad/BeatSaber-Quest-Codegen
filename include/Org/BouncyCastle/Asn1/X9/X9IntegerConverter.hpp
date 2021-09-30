@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Math::EC
@@ -31,7 +32,7 @@ namespace Org::BouncyCastle::Asn1::X9 {
     static int GetByteLength(Org::BouncyCastle::Math::EC::ECFieldElement* fe);
     // static public System.Byte[] IntegerToBytes(Org.BouncyCastle.Math.BigInteger s, System.Int32 qLength)
     // Offset: 0x1BC8144
-    static ::ArrayWrapper<uint8_t> IntegerToBytes(Org::BouncyCastle::Math::BigInteger* s, int qLength);
+    static ::ArrayW<uint8_t> IntegerToBytes(Org::BouncyCastle::Math::BigInteger* s, int qLength);
   }; // Org.BouncyCastle.Asn1.X9.X9IntegerConverter
   #pragma pack(pop)
 }
@@ -50,7 +51,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (*)(Org
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::X9::X9IntegerConverter::IntegerToBytes
 // Il2CppName: IntegerToBytes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(Org::BouncyCastle::Math::BigInteger*, int)>(&Org::BouncyCastle::Asn1::X9::X9IntegerConverter::IntegerToBytes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(Org::BouncyCastle::Math::BigInteger*, int)>(&Org::BouncyCastle::Asn1::X9::X9IntegerConverter::IntegerToBytes)> {
   static const MethodInfo* get() {
     static auto* s = &::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math", "BigInteger")->byval_arg;
     static auto* qLength = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

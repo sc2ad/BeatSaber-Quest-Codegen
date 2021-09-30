@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -76,13 +77,13 @@ namespace UnityEngine {
     UnityEngine::Rect get_textureRect();
     // public UnityEngine.Vector2[] get_vertices()
     // Offset: 0x233F85C
-    ::ArrayWrapper<UnityEngine::Vector2> get_vertices();
+    ::ArrayW<UnityEngine::Vector2> get_vertices();
     // public System.UInt16[] get_triangles()
     // Offset: 0x233F89C
-    ::ArrayWrapper<uint16_t> get_triangles();
+    ::ArrayW<uint16_t> get_triangles();
     // public UnityEngine.Vector2[] get_uv()
     // Offset: 0x233F8DC
-    ::ArrayWrapper<UnityEngine::Vector2> get_uv();
+    ::ArrayW<UnityEngine::Vector2> get_uv();
     // System.Int32 GetPackingMode()
     // Offset: 0x233EF58
     int GetPackingMode();
@@ -232,7 +233,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Sprite::get_vertices
 // Il2CppName: get_vertices
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Vector2> (UnityEngine::Sprite::*)()>(&UnityEngine::Sprite::get_vertices)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Vector2> (UnityEngine::Sprite::*)()>(&UnityEngine::Sprite::get_vertices)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Sprite*), "get_vertices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -240,7 +241,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::Sprite::get_triangles
 // Il2CppName: get_triangles
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint16_t> (UnityEngine::Sprite::*)()>(&UnityEngine::Sprite::get_triangles)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint16_t> (UnityEngine::Sprite::*)()>(&UnityEngine::Sprite::get_triangles)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Sprite*), "get_triangles", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -248,7 +249,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::Sprite::get_uv
 // Il2CppName: get_uv
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Vector2> (UnityEngine::Sprite::*)()>(&UnityEngine::Sprite::get_uv)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Vector2> (UnityEngine::Sprite::*)()>(&UnityEngine::Sprite::get_uv)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Sprite*), "get_uv", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

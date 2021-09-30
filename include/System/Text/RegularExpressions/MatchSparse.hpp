@@ -36,12 +36,18 @@ namespace System::Text::RegularExpressions {
     public:
     // Writing base type padding for base size: 0x69 to desired offset: 0x70
     char ___base_padding[0x7] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Collections.Hashtable _caps
     // Size: 0x8
     // Offset: 0x70
     System::Collections::Hashtable* caps;
     // Field size check
     static_assert(sizeof(System::Collections::Hashtable*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Collections::Hashtable*
     constexpr operator System::Collections::Hashtable*() const noexcept {
       return caps;

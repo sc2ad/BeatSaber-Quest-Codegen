@@ -16,6 +16,11 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   struct TMP_PageInfo/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 firstCharacterIndex
     // Size: 0x4
     // Offset: 0x0
@@ -46,6 +51,7 @@ namespace TMPro {
     float descender;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: TMP_PageInfo
     constexpr TMP_PageInfo(int firstCharacterIndex_ = {}, int lastCharacterIndex_ = {}, float ascender_ = {}, float baseLine_ = {}, float descender_ = {}) noexcept : firstCharacterIndex{firstCharacterIndex_}, lastCharacterIndex{lastCharacterIndex_}, ascender{ascender_}, baseLine{baseLine_}, descender{descender_} {}
     // Creating interface conversion operator: operator System::ValueType

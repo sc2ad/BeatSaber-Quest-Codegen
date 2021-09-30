@@ -27,6 +27,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerActivePlayersTimeOffsetAverage : public ::Il2CppObject/*, public GlobalNamespace::IMultiplayerObservable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xF090F8
     // private readonly IMultiplayerSessionManager _multiplayerSessionManager
     // Size: 0x8
@@ -46,6 +51,7 @@ namespace GlobalNamespace {
     float timeOfLastValidReturnedTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IMultiplayerObservable
     operator GlobalNamespace::IMultiplayerObservable() noexcept {
       return *reinterpret_cast<GlobalNamespace::IMultiplayerObservable*>(this);

@@ -22,6 +22,11 @@ namespace UnityEngine {
   // [RequiredByNativeCodeAttribute] Offset: E72490
   class ContextMenu : public System::Attribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly System.String menuItem
     // Size: 0x8
     // Offset: 0x10
@@ -42,6 +47,7 @@ namespace UnityEngine {
     int priority;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: public readonly System.String menuItem
     ::Il2CppString*& dyn_menuItem();
     // Get instance field reference: public readonly System.Boolean validate

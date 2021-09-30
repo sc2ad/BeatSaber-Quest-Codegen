@@ -38,6 +38,11 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
   // [TokenAttribute] Offset: FFFFFFFF
   class SignedData : public Org::BouncyCastle::Asn1::Asn1Encodable {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Org.BouncyCastle.Asn1.DerInteger version
     // Size: 0x8
     // Offset: 0x10
@@ -74,6 +79,7 @@ namespace Org::BouncyCastle::Asn1::Pkcs {
     Org::BouncyCastle::Asn1::Asn1Set* signerInfos;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Asn1::Asn1Set*) == 0x8);
+    public:
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.DerInteger version
     Org::BouncyCastle::Asn1::DerInteger*& dyn_version();
     // Get instance field reference: private readonly Org.BouncyCastle.Asn1.Asn1Set digestAlgorithms

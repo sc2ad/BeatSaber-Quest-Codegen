@@ -30,6 +30,11 @@ namespace HMUI {
     public:
     // Writing base type padding for base size: 0x3A to desired offset: 0x3C
     char ___base_padding[0x2] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 <idx>k__BackingField
     // Size: 0x4
     // Offset: 0x3C
@@ -48,6 +53,7 @@ namespace HMUI {
     HMUI::ITableCellOwner* tableCellOwner;
     // Field size check
     static_assert(sizeof(HMUI::ITableCellOwner*) == 0x8);
+    public:
     // Get instance field reference: private System.Int32 <idx>k__BackingField
     int& dyn_$idx$k__BackingField();
     // Get instance field reference: private System.String _reuseIdentifier

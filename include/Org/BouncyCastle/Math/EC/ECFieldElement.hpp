@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Math
@@ -87,7 +88,7 @@ namespace Org::BouncyCastle::Math::EC {
     bool Equals(Org::BouncyCastle::Math::EC::ECFieldElement* other);
     // public System.Byte[] GetEncoded()
     // Offset: 0x2316D58
-    ::ArrayWrapper<uint8_t> GetEncoded();
+    ::ArrayW<uint8_t> GetEncoded();
     // protected System.Void .ctor()
     // Offset: 0x2316DB4
     // Implemented from: System.Object
@@ -294,7 +295,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::ECFieldElement::GetEncoded
 // Il2CppName: GetEncoded
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Org::BouncyCastle::Math::EC::ECFieldElement::*)()>(&Org::BouncyCastle::Math::EC::ECFieldElement::GetEncoded)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Org::BouncyCastle::Math::EC::ECFieldElement::*)()>(&Org::BouncyCastle::Math::EC::ECFieldElement::GetEncoded)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Math::EC::ECFieldElement*), "GetEncoded", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

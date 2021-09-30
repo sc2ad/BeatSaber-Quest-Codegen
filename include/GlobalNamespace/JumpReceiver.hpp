@@ -31,12 +31,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class JumpReceiver : public UnityEngine::MonoBehaviour/*, public UnityEngine::Playables::INotificationReceiver*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean <jumpToDestinationValid>k__BackingField
     // Size: 0x1
     // Offset: 0x18
     bool jumpToDestinationValid;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator UnityEngine::Playables::INotificationReceiver
     operator UnityEngine::Playables::INotificationReceiver() noexcept {
       return *reinterpret_cast<UnityEngine::Playables::INotificationReceiver*>(this);

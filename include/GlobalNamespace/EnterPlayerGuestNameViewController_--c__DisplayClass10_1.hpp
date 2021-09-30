@@ -21,6 +21,11 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class EnterPlayerGuestNameViewController::$$c__DisplayClass10_1 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.String guestPlayerName
     // Size: 0x8
     // Offset: 0x10
@@ -33,6 +38,7 @@ namespace GlobalNamespace {
     GlobalNamespace::EnterPlayerGuestNameViewController::$$c__DisplayClass10_0* CS$$$8__locals1;
     // Field size check
     static_assert(sizeof(GlobalNamespace::EnterPlayerGuestNameViewController::$$c__DisplayClass10_0*) == 0x8);
+    public:
     // Get instance field reference: public System.String guestPlayerName
     ::Il2CppString*& dyn_guestPlayerName();
     // Get instance field reference: public EnterPlayerGuestNameViewController/<>c__DisplayClass10_0 CS$<>8__locals1

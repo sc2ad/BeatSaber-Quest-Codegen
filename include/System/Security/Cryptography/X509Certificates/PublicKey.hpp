@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Security::Cryptography
@@ -38,6 +39,11 @@ namespace System::Security::Cryptography::X509Certificates {
   // [TokenAttribute] Offset: FFFFFFFF
   class PublicKey : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Security.Cryptography.AsymmetricAlgorithm _key
     // Size: 0x8
     // Offset: 0x10
@@ -62,10 +68,11 @@ namespace System::Security::Cryptography::X509Certificates {
     System::Security::Cryptography::Oid* oid;
     // Field size check
     static_assert(sizeof(System::Security::Cryptography::Oid*) == 0x8);
+    public:
     // Get static field: static private System.Byte[] Empty
-    static ::ArrayWrapper<uint8_t> _get_Empty();
+    static ::ArrayW<uint8_t> _get_Empty();
     // Set static field: static private System.Byte[] Empty
-    static void _set_Empty(::ArrayWrapper<uint8_t> value);
+    static void _set_Empty(::ArrayW<uint8_t> value);
     // Get instance field reference: private System.Security.Cryptography.AsymmetricAlgorithm _key
     System::Security::Cryptography::AsymmetricAlgorithm*& dyn__key();
     // Get instance field reference: private System.Security.Cryptography.AsnEncodedData _keyValue
@@ -98,13 +105,13 @@ namespace System::Security::Cryptography::X509Certificates {
     static void _cctor();
     // static private System.Byte[] GetUnsignedBigInteger(System.Byte[] integer)
     // Offset: 0x19D1E48
-    static ::ArrayWrapper<uint8_t> GetUnsignedBigInteger(::ArrayWrapper<uint8_t> integer);
+    static ::ArrayW<uint8_t> GetUnsignedBigInteger(::ArrayW<uint8_t> integer);
     // static System.Security.Cryptography.DSA DecodeDSA(System.Byte[] rawPublicKey, System.Byte[] rawParameters)
     // Offset: 0x19D19C8
-    static System::Security::Cryptography::DSA* DecodeDSA(::ArrayWrapper<uint8_t> rawPublicKey, ::ArrayWrapper<uint8_t> rawParameters);
+    static System::Security::Cryptography::DSA* DecodeDSA(::ArrayW<uint8_t> rawPublicKey, ::ArrayW<uint8_t> rawParameters);
     // static System.Security.Cryptography.RSA DecodeRSA(System.Byte[] rawPublicKey)
     // Offset: 0x19D1630
-    static System::Security::Cryptography::RSA* DecodeRSA(::ArrayWrapper<uint8_t> rawPublicKey);
+    static System::Security::Cryptography::RSA* DecodeRSA(::ArrayW<uint8_t> rawPublicKey);
   }; // System.Security.Cryptography.X509Certificates.PublicKey
   #pragma pack(pop)
   static check_size<sizeof(PublicKey), 40 + sizeof(System::Security::Cryptography::Oid*)> __System_Security_Cryptography_X509Certificates_PublicKeySizeCheck;
@@ -159,7 +166,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::PublicKey::GetUnsignedBigInteger
 // Il2CppName: GetUnsignedBigInteger
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (*)(::ArrayWrapper<uint8_t>)>(&System::Security::Cryptography::X509Certificates::PublicKey::GetUnsignedBigInteger)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (*)(::ArrayW<uint8_t>)>(&System::Security::Cryptography::X509Certificates::PublicKey::GetUnsignedBigInteger)> {
   static const MethodInfo* get() {
     static auto* integer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::PublicKey*), "GetUnsignedBigInteger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{integer});
@@ -168,7 +175,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::PublicKey::DecodeDSA
 // Il2CppName: DecodeDSA
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::DSA* (*)(::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>)>(&System::Security::Cryptography::X509Certificates::PublicKey::DecodeDSA)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::DSA* (*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(&System::Security::Cryptography::X509Certificates::PublicKey::DecodeDSA)> {
   static const MethodInfo* get() {
     static auto* rawPublicKey = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* rawParameters = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
@@ -178,7 +185,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Sec
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::PublicKey::DecodeRSA
 // Il2CppName: DecodeRSA
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::RSA* (*)(::ArrayWrapper<uint8_t>)>(&System::Security::Cryptography::X509Certificates::PublicKey::DecodeRSA)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Security::Cryptography::RSA* (*)(::ArrayW<uint8_t>)>(&System::Security::Cryptography::X509Certificates::PublicKey::DecodeRSA)> {
   static const MethodInfo* get() {
     static auto* rawPublicKey = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::PublicKey*), "DecodeRSA", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{rawPublicKey});

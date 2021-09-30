@@ -17,6 +17,11 @@ namespace System::Net::NetworkInformation::MacOsStructs {
   // [TokenAttribute] Offset: FFFFFFFF
   struct sockaddr/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Byte sa_len
     // Size: 0x1
     // Offset: 0x0
@@ -29,6 +34,7 @@ namespace System::Net::NetworkInformation::MacOsStructs {
     uint8_t sa_family;
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
+    public:
     // Creating value type constructor for type: sockaddr
     constexpr sockaddr(uint8_t sa_len_ = {}, uint8_t sa_family_ = {}) noexcept : sa_len{sa_len_}, sa_family{sa_family_} {}
     // Creating interface conversion operator: operator System::ValueType

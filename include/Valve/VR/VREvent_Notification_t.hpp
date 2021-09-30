@@ -17,6 +17,11 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct VREvent_Notification_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.UInt64 ulUserValue
     // Size: 0x8
     // Offset: 0x0
@@ -29,6 +34,7 @@ namespace Valve::VR {
     uint notificationId;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
+    public:
     // Creating value type constructor for type: VREvent_Notification_t
     constexpr VREvent_Notification_t(uint64_t ulUserValue_ = {}, uint notificationId_ = {}) noexcept : ulUserValue{ulUserValue_}, notificationId{notificationId_} {}
     // Creating interface conversion operator: operator System::ValueType

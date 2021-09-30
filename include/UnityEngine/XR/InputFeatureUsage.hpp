@@ -24,6 +24,11 @@ namespace UnityEngine::XR {
   // [NativeConditionalAttribute] Offset: E98F50
   struct InputFeatureUsage/*, public System::ValueType, public System::IEquatable_1<UnityEngine::XR::InputFeatureUsage>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.String m_Name
     // Size: 0x8
     // Offset: 0x0
@@ -37,6 +42,7 @@ namespace UnityEngine::XR {
     UnityEngine::XR::InputFeatureType m_InternalType;
     // Field size check
     static_assert(sizeof(UnityEngine::XR::InputFeatureType) == 0x4);
+    public:
     // Creating value type constructor for type: InputFeatureUsage
     constexpr InputFeatureUsage(::Il2CppString* m_Name_ = {}, UnityEngine::XR::InputFeatureType m_InternalType_ = {}) noexcept : m_Name{m_Name_}, m_InternalType{m_InternalType_} {}
     // Creating interface conversion operator: operator System::ValueType

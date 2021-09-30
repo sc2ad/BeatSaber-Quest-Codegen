@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -50,6 +51,11 @@ namespace GlobalNamespace {
     // [TokenAttribute] Offset: FFFFFFFF
     struct BpmChangeData/*, public System::ValueType*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public readonly System.Single bpmChangeStartTime
       // Size: 0x4
       // Offset: 0x0
@@ -68,6 +74,7 @@ namespace GlobalNamespace {
       float bpm;
       // Field size check
       static_assert(sizeof(float) == 0x4);
+      public:
       // Creating value type constructor for type: BpmChangeData
       constexpr BpmChangeData(float bpmChangeStartTime_ = {}, float bpmChangeStartBpmTime_ = {}, float bpm_ = {}) noexcept : bpmChangeStartTime{bpmChangeStartTime_}, bpmChangeStartBpmTime{bpmChangeStartBpmTime_}, bpm{bpm_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -95,7 +102,7 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatmapData* GetBeatmapDataFromBeatmapSaveData(System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::NoteData*>* notesSaveData, System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::WaypointData*>* waypointsSaveData, System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::ObstacleData*>* obstaclesSaveData, System::Collections::Generic::List_1<GlobalNamespace::BeatmapSaveData::EventData*>* eventsSaveData, GlobalNamespace::BeatmapSaveData::SpecialEventKeywordFiltersData* environmentSpecialEventFilterData, float startBpm, float shuffle, float shufflePeriod);
     // public BeatmapData GetBeatmapDataFromBinary(System.Byte[] data, System.Single startBPM, System.Single shuffle, System.Single shufflePeriod)
     // Offset: 0x1277350
-    GlobalNamespace::BeatmapData* GetBeatmapDataFromBinary(::ArrayWrapper<uint8_t> data, float startBPM, float shuffle, float shufflePeriod);
+    GlobalNamespace::BeatmapData* GetBeatmapDataFromBinary(::ArrayW<uint8_t> data, float startBPM, float shuffle, float shufflePeriod);
     // public BeatmapData GetBeatmapDataFromJson(System.String json, System.Single startBPM, System.Single shuffle, System.Single shufflePeriod)
     // Offset: 0x12773C8
     GlobalNamespace::BeatmapData* GetBeatmapDataFromJson(::Il2CppString* json, float startBPM, float shuffle, float shufflePeriod);
@@ -113,7 +120,7 @@ namespace GlobalNamespace {
     float ProcessTime(float bpmTime, System::Collections::Generic::List_1<GlobalNamespace::BeatmapDataLoader::BpmChangeData>* bpmChangesData, float shuffle, float shufflePeriod);
     // static BeatmapSaveData/ITime <GetBeatmapDataFromBeatmapSaveData>g__SortBeatmapSaveDataObjects|2_3(BeatmapSaveData/ITime[] data)
     // Offset: 0x127702C
-    static GlobalNamespace::BeatmapSaveData::ITime* $GetBeatmapDataFromBeatmapSaveData$g__SortBeatmapSaveDataObjects_2_3(::ArrayWrapper<GlobalNamespace::BeatmapSaveData::ITime*> data);
+    static GlobalNamespace::BeatmapSaveData::ITime* $GetBeatmapDataFromBeatmapSaveData$g__SortBeatmapSaveDataObjects_2_3(::ArrayW<GlobalNamespace::BeatmapSaveData::ITime*> data);
     // public System.Void .ctor()
     // Offset: 0x1277450
     // Implemented from: System.Object
@@ -160,7 +167,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapDataLoader::GetBeatmapDataFromBinary
 // Il2CppName: GetBeatmapDataFromBinary
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapData* (GlobalNamespace::BeatmapDataLoader::*)(::ArrayWrapper<uint8_t>, float, float, float)>(&GlobalNamespace::BeatmapDataLoader::GetBeatmapDataFromBinary)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapData* (GlobalNamespace::BeatmapDataLoader::*)(::ArrayW<uint8_t>, float, float, float)>(&GlobalNamespace::BeatmapDataLoader::GetBeatmapDataFromBinary)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* startBPM = &::il2cpp_utils::GetClassFromName("System", "Single")->byval_arg;
@@ -223,7 +230,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapDataLoader::$GetBeatmapDataFromBeatmapSaveData$g__SortBeatmapSaveDataObjects_2_3
 // Il2CppName: <GetBeatmapDataFromBeatmapSaveData>g__SortBeatmapSaveDataObjects|2_3
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapSaveData::ITime* (*)(::ArrayWrapper<GlobalNamespace::BeatmapSaveData::ITime*>)>(&GlobalNamespace::BeatmapDataLoader::$GetBeatmapDataFromBeatmapSaveData$g__SortBeatmapSaveDataObjects_2_3)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNamespace::BeatmapSaveData::ITime* (*)(::ArrayW<GlobalNamespace::BeatmapSaveData::ITime*>)>(&GlobalNamespace::BeatmapDataLoader::$GetBeatmapDataFromBeatmapSaveData$g__SortBeatmapSaveDataObjects_2_3)> {
   static const MethodInfo* get() {
     static auto* data = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("", "BeatmapSaveData/ITime"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapDataLoader*), "<GetBeatmapDataFromBeatmapSaveData>g__SortBeatmapSaveDataObjects|2_3", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{data});

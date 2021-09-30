@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -37,6 +38,11 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_VolumeScatterTrees : public ::Il2CppObject/*, public HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_VolumeScatterTrees*>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_TreePrototypeInfo> _treePrototypInfos
     // Size: 0x8
     // Offset: 0x10
@@ -46,51 +52,52 @@ namespace HoudiniEngineUnity {
     // public UnityEngine.Color32[] _colors
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<UnityEngine::Color32> colors;
+    ::ArrayW<UnityEngine::Color32> colors;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Color32>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Color32>) == 0x8);
     // public System.Single[] _heightScales
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<float> heightScales;
+    ::ArrayW<float> heightScales;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<float>) == 0x8);
+    static_assert(sizeof(::ArrayW<float>) == 0x8);
     // public UnityEngine.Color32[] _lightmapColors
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<UnityEngine::Color32> lightmapColors;
+    ::ArrayW<UnityEngine::Color32> lightmapColors;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Color32>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Color32>) == 0x8);
     // public UnityEngine.Vector3[] _positions
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<UnityEngine::Vector3> positions;
+    ::ArrayW<UnityEngine::Vector3> positions;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector3>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Vector3>) == 0x8);
     // public System.Int32[] _prototypeIndices
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayWrapper<int> prototypeIndices;
+    ::ArrayW<int> prototypeIndices;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // public System.Single[] _rotations
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayWrapper<float> rotations;
+    ::ArrayW<float> rotations;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<float>) == 0x8);
+    static_assert(sizeof(::ArrayW<float>) == 0x8);
     // public System.Single[] _widthScales
     // Size: 0x8
     // Offset: 0x48
-    ::ArrayWrapper<float> widthScales;
+    ::ArrayW<float> widthScales;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<float>) == 0x8);
+    static_assert(sizeof(::ArrayW<float>) == 0x8);
     // public System.Int32[] _terrainTiles
     // Size: 0x8
     // Offset: 0x50
-    ::ArrayWrapper<int> terrainTiles;
+    ::ArrayW<int> terrainTiles;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
+    public:
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_VolumeScatterTrees*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_VolumeScatterTrees*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_VolumeScatterTrees*>*>(this);
@@ -98,21 +105,21 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_TreePrototypeInfo> _treePrototypInfos
     System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_TreePrototypeInfo*>*& dyn__treePrototypInfos();
     // Get instance field reference: public UnityEngine.Color32[] _colors
-    ::ArrayWrapper<UnityEngine::Color32>& dyn__colors();
+    ::ArrayW<UnityEngine::Color32>& dyn__colors();
     // Get instance field reference: public System.Single[] _heightScales
-    ::ArrayWrapper<float>& dyn__heightScales();
+    ::ArrayW<float>& dyn__heightScales();
     // Get instance field reference: public UnityEngine.Color32[] _lightmapColors
-    ::ArrayWrapper<UnityEngine::Color32>& dyn__lightmapColors();
+    ::ArrayW<UnityEngine::Color32>& dyn__lightmapColors();
     // Get instance field reference: public UnityEngine.Vector3[] _positions
-    ::ArrayWrapper<UnityEngine::Vector3>& dyn__positions();
+    ::ArrayW<UnityEngine::Vector3>& dyn__positions();
     // Get instance field reference: public System.Int32[] _prototypeIndices
-    ::ArrayWrapper<int>& dyn__prototypeIndices();
+    ::ArrayW<int>& dyn__prototypeIndices();
     // Get instance field reference: public System.Single[] _rotations
-    ::ArrayWrapper<float>& dyn__rotations();
+    ::ArrayW<float>& dyn__rotations();
     // Get instance field reference: public System.Single[] _widthScales
-    ::ArrayWrapper<float>& dyn__widthScales();
+    ::ArrayW<float>& dyn__widthScales();
     // Get instance field reference: public System.Int32[] _terrainTiles
-    ::ArrayWrapper<int>& dyn__terrainTiles();
+    ::ArrayW<int>& dyn__terrainTiles();
     // public System.Boolean IsEquivalentTo(HoudiniEngineUnity.HEU_VolumeScatterTrees other)
     // Offset: 0x16FF9A4
     bool IsEquivalentTo(HoudiniEngineUnity::HEU_VolumeScatterTrees* other);
@@ -127,7 +134,7 @@ namespace HoudiniEngineUnity {
     }
   }; // HoudiniEngineUnity.HEU_VolumeScatterTrees
   #pragma pack(pop)
-  static check_size<sizeof(HEU_VolumeScatterTrees), 80 + sizeof(::ArrayWrapper<int>)> __HoudiniEngineUnity_HEU_VolumeScatterTreesSizeCheck;
+  static check_size<sizeof(HEU_VolumeScatterTrees), 80 + sizeof(::ArrayW<int>)> __HoudiniEngineUnity_HEU_VolumeScatterTreesSizeCheck;
   static_assert(sizeof(HEU_VolumeScatterTrees) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(HoudiniEngineUnity::HEU_VolumeScatterTrees*, "HoudiniEngineUnity", "HEU_VolumeScatterTrees");

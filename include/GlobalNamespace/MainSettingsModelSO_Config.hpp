@@ -22,6 +22,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MainSettingsModelSO::Config : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.String version
     // Size: 0x8
     // Offset: 0x10
@@ -334,6 +339,7 @@ namespace GlobalNamespace {
     ::Il2CppString* language;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: public System.String version
     ::Il2CppString*& dyn_version();
     // Get instance field reference: public System.Int32 windowResolutionWidth

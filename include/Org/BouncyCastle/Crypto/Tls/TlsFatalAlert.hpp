@@ -26,12 +26,18 @@ namespace Org::BouncyCastle::Crypto::Tls {
   // [TokenAttribute] Offset: FFFFFFFF
   class TlsFatalAlert : public Org::BouncyCastle::Crypto::Tls::TlsException {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Byte alertDescription
     // Size: 0x1
     // Offset: 0x90
     uint8_t alertDescription;
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
+    public:
     // Deleting conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept = delete;
     // Get instance field reference: private readonly System.Byte alertDescription

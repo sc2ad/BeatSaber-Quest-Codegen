@@ -27,6 +27,11 @@ namespace System::Text {
   // [TokenAttribute] Offset: FFFFFFFF
   class EncoderFallbackException : public System::ArgumentException {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Char charUnknown
     // Size: 0x2
     // Offset: 0x90
@@ -53,6 +58,7 @@ namespace System::Text {
     int index;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Deleting conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept = delete;
     // Get instance field reference: private System.Char charUnknown

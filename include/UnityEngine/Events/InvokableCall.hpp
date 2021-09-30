@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Events
@@ -32,6 +33,11 @@ namespace UnityEngine::Events {
   // [TokenAttribute] Offset: FFFFFFFF
   class InvokableCall : public UnityEngine::Events::BaseInvokableCall {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [DebuggerBrowsableAttribute] Offset: 0xE76774
     // private UnityEngine.Events.UnityAction Delegate
     // Size: 0x8
@@ -39,6 +45,7 @@ namespace UnityEngine::Events {
     UnityEngine::Events::UnityAction* Delegate;
     // Field size check
     static_assert(sizeof(UnityEngine::Events::UnityAction*) == 0x8);
+    public:
     // Creating conversion operator: operator UnityEngine::Events::UnityAction*
     constexpr operator UnityEngine::Events::UnityAction*() const noexcept {
       return Delegate;
@@ -74,7 +81,7 @@ namespace UnityEngine::Events {
     // Offset: 0x1CB9538
     // Implemented from: UnityEngine.Events.BaseInvokableCall
     // Base method: System.Void BaseInvokableCall::Invoke(System.Object[] args)
-    void Invoke(::ArrayWrapper<::Il2CppObject*> args);
+    void Invoke(::ArrayW<::Il2CppObject*> args);
     // public override System.Boolean Find(System.Object targetObj, System.Reflection.MethodInfo method)
     // Offset: 0x1CB95B8
     // Implemented from: UnityEngine.Events.BaseInvokableCall
@@ -124,7 +131,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Events::InvokableCall::Invoke
 // Il2CppName: Invoke
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Events::InvokableCall::*)(::ArrayWrapper<::Il2CppObject*>)>(&UnityEngine::Events::InvokableCall::Invoke)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::Events::InvokableCall::*)(::ArrayW<::Il2CppObject*>)>(&UnityEngine::Events::InvokableCall::Invoke)> {
   static const MethodInfo* get() {
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Events::InvokableCall*), "Invoke", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{args});

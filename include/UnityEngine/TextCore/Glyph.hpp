@@ -26,6 +26,11 @@ namespace UnityEngine::TextCore {
   // [UsedByNativeCodeAttribute] Offset: EA55D8
   class Glyph : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [NativeNameAttribute] Offset: 0xEA5FA0
     // private System.UInt32 m_Index
     // Size: 0x4
@@ -61,6 +66,7 @@ namespace UnityEngine::TextCore {
     int m_AtlasIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: private System.UInt32 m_Index
     uint& dyn_m_Index();
     // Get instance field reference: private UnityEngine.TextCore.GlyphMetrics m_Metrics

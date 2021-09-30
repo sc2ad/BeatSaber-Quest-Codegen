@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Security::Cryptography
@@ -27,6 +28,11 @@ namespace System::Security::Cryptography {
   // [TokenAttribute] Offset: FFFFFFFF
   class RC2Transform : public Mono::Security::Cryptography::SymmetricTransform {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.UInt16 R0
     // Size: 0x2
     // Offset: 0x58
@@ -54,19 +60,20 @@ namespace System::Security::Cryptography {
     // private System.UInt16[] K
     // Size: 0x8
     // Offset: 0x60
-    ::ArrayWrapper<uint16_t> K;
+    ::ArrayW<uint16_t> K;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint16_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint16_t>) == 0x8);
     // private System.Int32 j
     // Size: 0x4
     // Offset: 0x68
     int j;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get static field: static private readonly System.Byte[] pitable
-    static ::ArrayWrapper<uint8_t> _get_pitable();
+    static ::ArrayW<uint8_t> _get_pitable();
     // Set static field: static private readonly System.Byte[] pitable
-    static void _set_pitable(::ArrayWrapper<uint8_t> value);
+    static void _set_pitable(::ArrayW<uint8_t> value);
     // Get instance field reference: private System.UInt16 R0
     uint16_t& dyn_R0();
     // Get instance field reference: private System.UInt16 R1
@@ -76,13 +83,13 @@ namespace System::Security::Cryptography {
     // Get instance field reference: private System.UInt16 R3
     uint16_t& dyn_R3();
     // Get instance field reference: private System.UInt16[] K
-    ::ArrayWrapper<uint16_t>& dyn_K();
+    ::ArrayW<uint16_t>& dyn_K();
     // Get instance field reference: private System.Int32 j
     int& dyn_j();
     // public System.Void .ctor(System.Security.Cryptography.RC2 rc2Algo, System.Boolean encryption, System.Byte[] key, System.Byte[] iv)
     // Offset: 0x1A792DC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static RC2Transform* New_ctor(System::Security::Cryptography::RC2* rc2Algo, bool encryption, ::ArrayWrapper<uint8_t> key, ::ArrayWrapper<uint8_t> iv) {
+    static RC2Transform* New_ctor(System::Security::Cryptography::RC2* rc2Algo, bool encryption, ::ArrayW<uint8_t> key, ::ArrayW<uint8_t> iv) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Security::Cryptography::RC2Transform::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<RC2Transform*, creationType>(rc2Algo, encryption, key, iv)));
     }
@@ -93,7 +100,7 @@ namespace System::Security::Cryptography {
     // Offset: 0x1A79B30
     // Implemented from: Mono.Security.Cryptography.SymmetricTransform
     // Base method: System.Void SymmetricTransform::ECB(System.Byte[] input, System.Byte[] output)
-    void ECB(::ArrayWrapper<uint8_t> input, ::ArrayWrapper<uint8_t> output);
+    void ECB(::ArrayW<uint8_t> input, ::ArrayW<uint8_t> output);
   }; // System.Security.Cryptography.RC2Transform
   #pragma pack(pop)
   static check_size<sizeof(RC2Transform), 104 + sizeof(int)> __System_Security_Cryptography_RC2TransformSizeCheck;
@@ -116,7 +123,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Security::Cryptography::RC2Transform::ECB
 // Il2CppName: ECB
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::RC2Transform::*)(::ArrayWrapper<uint8_t>, ::ArrayWrapper<uint8_t>)>(&System::Security::Cryptography::RC2Transform::ECB)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::RC2Transform::*)(::ArrayW<uint8_t>, ::ArrayW<uint8_t>)>(&System::Security::Cryptography::RC2Transform::ECB)> {
   static const MethodInfo* get() {
     static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* output = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;

@@ -34,6 +34,11 @@ namespace GlobalNamespace {
   // [PreserveAttribute] Offset: FFFFFFFF
   class BeatmapIdentifierNetSerializable : public ::Il2CppObject/*, public System::IEquatable_1<GlobalNamespace::BeatmapIdentifierNetSerializable*>, public LiteNetLib::Utils::INetSerializable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String <levelID>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -52,6 +57,7 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatmapDifficulty difficulty;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapDifficulty) == 0x4);
+    public:
     // Creating interface conversion operator: operator System::IEquatable_1<GlobalNamespace::BeatmapIdentifierNetSerializable*>
     operator System::IEquatable_1<GlobalNamespace::BeatmapIdentifierNetSerializable*>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<GlobalNamespace::BeatmapIdentifierNetSerializable*>*>(this);

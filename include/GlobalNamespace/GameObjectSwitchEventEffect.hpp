@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -36,6 +37,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GameObjectSwitchEventEffect : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private BeatmapEventType _beatmapEvent
     // Size: 0x4
     // Offset: 0x18
@@ -48,16 +54,16 @@ namespace GlobalNamespace {
     // private UnityEngine.GameObject[] _deactivateOnBoostObjects
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<UnityEngine::GameObject*> deactivateOnBoostObjects;
+    ::ArrayW<UnityEngine::GameObject*> deactivateOnBoostObjects;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::GameObject*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::GameObject*>) == 0x8);
     // [NullAllowed] Offset: 0xF06360
     // private UnityEngine.GameObject[] _activateOnBoostObjects
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<UnityEngine::GameObject*> activateOnBoostObjects;
+    ::ArrayW<UnityEngine::GameObject*> activateOnBoostObjects;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::GameObject*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::GameObject*>) == 0x8);
     // [InjectAttribute] Offset: 0xF06398
     // private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     // Size: 0x8
@@ -65,14 +71,15 @@ namespace GlobalNamespace {
     GlobalNamespace::IBeatmapObjectCallbackController* beatmapObjectCallbackController;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IBeatmapObjectCallbackController*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private BeatmapEventType _beatmapEvent
     GlobalNamespace::BeatmapEventType& dyn__beatmapEvent();
     // Get instance field reference: private UnityEngine.GameObject[] _deactivateOnBoostObjects
-    ::ArrayWrapper<UnityEngine::GameObject*>& dyn__deactivateOnBoostObjects();
+    ::ArrayW<UnityEngine::GameObject*>& dyn__deactivateOnBoostObjects();
     // Get instance field reference: private UnityEngine.GameObject[] _activateOnBoostObjects
-    ::ArrayWrapper<UnityEngine::GameObject*>& dyn__activateOnBoostObjects();
+    ::ArrayW<UnityEngine::GameObject*>& dyn__activateOnBoostObjects();
     // Get instance field reference: private readonly IBeatmapObjectCallbackController _beatmapObjectCallbackController
     GlobalNamespace::IBeatmapObjectCallbackController*& dyn__beatmapObjectCallbackController();
     // protected System.Void Start()

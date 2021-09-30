@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Mono::Security
@@ -34,7 +35,7 @@ namespace Mono::Security {
     static Mono::Security::ASN1* FromOid(::Il2CppString* oid);
     // static public Mono.Security.ASN1 FromUnsignedBigInteger(System.Byte[] big)
     // Offset: 0x1F99844
-    static Mono::Security::ASN1* FromUnsignedBigInteger(::ArrayWrapper<uint8_t> big);
+    static Mono::Security::ASN1* FromUnsignedBigInteger(::ArrayW<uint8_t> big);
     // static public System.Int32 ToInt32(Mono.Security.ASN1 asn1)
     // Offset: 0x1F9994C
     static int ToInt32(Mono::Security::ASN1* asn1);
@@ -71,7 +72,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Secur
 // Writing MetadataGetter for method: Mono::Security::ASN1Convert::FromUnsignedBigInteger
 // Il2CppName: FromUnsignedBigInteger
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::ASN1* (*)(::ArrayWrapper<uint8_t>)>(&Mono::Security::ASN1Convert::FromUnsignedBigInteger)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<Mono::Security::ASN1* (*)(::ArrayW<uint8_t>)>(&Mono::Security::ASN1Convert::FromUnsignedBigInteger)> {
   static const MethodInfo* get() {
     static auto* big = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::ASN1Convert*), "FromUnsignedBigInteger", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{big});

@@ -33,6 +33,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GameScenesManager::ScenesStackData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.List`1<System.String> <sceneNames>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -45,6 +50,7 @@ namespace GlobalNamespace {
     Zenject::DiContainer* container;
     // Field size check
     static_assert(sizeof(Zenject::DiContainer*) == 0x8);
+    public:
     // Get instance field reference: private System.Collections.Generic.List`1<System.String> <sceneNames>k__BackingField
     System::Collections::Generic::List_1<::Il2CppString*>*& dyn_$sceneNames$k__BackingField();
     // Get instance field reference: private Zenject.DiContainer <container>k__BackingField

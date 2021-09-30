@@ -16,12 +16,18 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct VREvent_SeatedZeroPoseReset_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Boolean bResetBySystemMenu
     // Size: 0x1
     // Offset: 0x0
     bool bResetBySystemMenu;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating value type constructor for type: VREvent_SeatedZeroPoseReset_t
     constexpr VREvent_SeatedZeroPoseReset_t(bool bResetBySystemMenu_ = {}) noexcept : bResetBySystemMenu{bResetBySystemMenu_} {}
     // Creating interface conversion operator: operator System::ValueType

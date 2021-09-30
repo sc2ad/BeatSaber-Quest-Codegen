@@ -33,6 +33,11 @@ namespace UnityEngine::ResourceManagement {
   // [TokenAttribute] Offset: FFFFFFFF
   class WebRequestQueueOperation : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Networking.UnityWebRequestAsyncOperation Result
     // Size: 0x8
     // Offset: 0x10
@@ -51,6 +56,7 @@ namespace UnityEngine::ResourceManagement {
     UnityEngine::Networking::UnityWebRequest* m_WebRequest;
     // Field size check
     static_assert(sizeof(UnityEngine::Networking::UnityWebRequest*) == 0x8);
+    public:
     // Get instance field reference: public UnityEngine.Networking.UnityWebRequestAsyncOperation Result
     UnityEngine::Networking::UnityWebRequestAsyncOperation*& dyn_Result();
     // Get instance field reference: public System.Action`1<UnityEngine.Networking.UnityWebRequestAsyncOperation> OnComplete

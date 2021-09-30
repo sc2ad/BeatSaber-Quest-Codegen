@@ -27,6 +27,11 @@ namespace UnityEngine::Experimental::U2D {
   // [RequiredByNativeCodeAttribute] Offset: E74964
   struct SpriteIntermediateRendererInfo/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 SpriteID
     // Size: 0x4
     // Offset: 0x0
@@ -117,6 +122,7 @@ namespace UnityEngine::Experimental::U2D {
     int ShaderChannelMask;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: SpriteIntermediateRendererInfo
     constexpr SpriteIntermediateRendererInfo(int SpriteID_ = {}, int TextureID_ = {}, int MaterialID_ = {}, UnityEngine::Color Color_ = {}, UnityEngine::Matrix4x4 Transform_ = {}, UnityEngine::Bounds Bounds_ = {}, int Layer_ = {}, int SortingLayer_ = {}, int SortingOrder_ = {}, uint64_t SceneCullingMask_ = {}, System::IntPtr IndexData_ = {}, System::IntPtr VertexData_ = {}, int IndexCount_ = {}, int VertexCount_ = {}, int ShaderChannelMask_ = {}) noexcept : SpriteID{SpriteID_}, TextureID{TextureID_}, MaterialID{MaterialID_}, Color{Color_}, Transform{Transform_}, Bounds{Bounds_}, Layer{Layer_}, SortingLayer{SortingLayer_}, SortingOrder{SortingOrder_}, SceneCullingMask{SceneCullingMask_}, IndexData{IndexData_}, VertexData{VertexData_}, IndexCount{IndexCount_}, VertexCount{VertexCount_}, ShaderChannelMask{ShaderChannelMask_} {}
     // Creating interface conversion operator: operator System::ValueType

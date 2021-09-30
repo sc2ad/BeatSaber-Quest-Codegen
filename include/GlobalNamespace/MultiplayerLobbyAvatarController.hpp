@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -52,6 +53,11 @@ namespace GlobalNamespace {
     class $ShowDespawnAnimationAndDestroy$d__10;
     // Nested type: GlobalNamespace::MultiplayerLobbyAvatarController::$DespawnAnimationCoroutine$d__12
     class $DespawnAnimationCoroutine$d__12;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Playables.PlayableDirector _spawnEffect
     // Size: 0x8
     // Offset: 0x18
@@ -87,9 +93,10 @@ namespace GlobalNamespace {
     // private UnityEngine.GameObject[] _visualObjects
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayWrapper<UnityEngine::GameObject*> visualObjects;
+    ::ArrayW<UnityEngine::GameObject*> visualObjects;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::GameObject*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::GameObject*>) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Playables.PlayableDirector _spawnEffect
@@ -103,7 +110,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Single _destroyAvatarDelay
     float& dyn__destroyAvatarDelay();
     // Get instance field reference: private UnityEngine.GameObject[] _visualObjects
-    ::ArrayWrapper<UnityEngine::GameObject*>& dyn__visualObjects();
+    ::ArrayW<UnityEngine::GameObject*>& dyn__visualObjects();
     // public System.Void ShowSpawnAnimation(UnityEngine.Vector3 position, UnityEngine.Quaternion rotation)
     // Offset: 0x116C12C
     void ShowSpawnAnimation(UnityEngine::Vector3 position, UnityEngine::Quaternion rotation);
@@ -137,7 +144,7 @@ namespace GlobalNamespace {
     }
   }; // MultiplayerLobbyAvatarController
   #pragma pack(pop)
-  static check_size<sizeof(MultiplayerLobbyAvatarController), 56 + sizeof(::ArrayWrapper<UnityEngine::GameObject*>)> __GlobalNamespace_MultiplayerLobbyAvatarControllerSizeCheck;
+  static check_size<sizeof(MultiplayerLobbyAvatarController), 56 + sizeof(::ArrayW<UnityEngine::GameObject*>)> __GlobalNamespace_MultiplayerLobbyAvatarControllerSizeCheck;
   static_assert(sizeof(MultiplayerLobbyAvatarController) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(GlobalNamespace::MultiplayerLobbyAvatarController*, "", "MultiplayerLobbyAvatarController");

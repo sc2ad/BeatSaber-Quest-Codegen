@@ -34,6 +34,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ColorManager : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xF135FC
     // private readonly ColorScheme _colorScheme
     // Size: 0x8
@@ -41,6 +46,7 @@ namespace GlobalNamespace {
     GlobalNamespace::ColorScheme* colorScheme;
     // Field size check
     static_assert(sizeof(GlobalNamespace::ColorScheme*) == 0x8);
+    public:
     // Creating conversion operator: operator GlobalNamespace::ColorScheme*
     constexpr operator GlobalNamespace::ColorScheme*() const noexcept {
       return colorScheme;

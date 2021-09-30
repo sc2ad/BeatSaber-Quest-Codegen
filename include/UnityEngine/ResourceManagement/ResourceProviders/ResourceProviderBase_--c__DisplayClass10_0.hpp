@@ -21,6 +21,11 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class ResourceProviderBase::$$c__DisplayClass10_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.ResourceManagement.ResourceProviders.ResourceProviderBase <>4__this
     // Size: 0x8
     // Offset: 0x10
@@ -39,6 +44,7 @@ namespace UnityEngine::ResourceManagement::ResourceProviders {
     ::Il2CppString* data;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: public UnityEngine.ResourceManagement.ResourceProviders.ResourceProviderBase <>4__this
     UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase*& dyn_$$4__this();
     // Get instance field reference: public System.String id

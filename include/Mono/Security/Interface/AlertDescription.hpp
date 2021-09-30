@@ -16,12 +16,18 @@ namespace Mono::Security::Interface {
   // [TokenAttribute] Offset: FFFFFFFF
   struct AlertDescription/*, public System::Enum*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Byte value__
     // Size: 0x1
     // Offset: 0x0
     uint8_t value;
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
+    public:
     // Creating value type constructor for type: AlertDescription
     constexpr AlertDescription(uint8_t value_ = {}) noexcept : value{value_} {}
     // Creating interface conversion operator: operator System::Enum

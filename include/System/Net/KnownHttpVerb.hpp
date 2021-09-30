@@ -25,6 +25,11 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class KnownHttpVerb : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.String Name
     // Size: 0x8
     // Offset: 0x10
@@ -55,6 +60,7 @@ namespace System::Net {
     bool ExpectNoContentResponse;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get static field: static private System.Collections.Specialized.ListDictionary NamedHeaders
     static System::Collections::Specialized::ListDictionary* _get_NamedHeaders();
     // Set static field: static private System.Collections.Specialized.ListDictionary NamedHeaders

@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::ProBuilder
@@ -58,7 +59,7 @@ namespace UnityEngine::ProBuilder {
     class $$c;
     // static UnityEngine.ProBuilder.Vertex[] GeneratePerTriangleMesh(UnityEngine.Mesh mesh)
     // Offset: 0x1905FEC
-    static ::ArrayWrapper<UnityEngine::ProBuilder::Vertex*> GeneratePerTriangleMesh(UnityEngine::Mesh* mesh);
+    static ::ArrayW<UnityEngine::ProBuilder::Vertex*> GeneratePerTriangleMesh(UnityEngine::Mesh* mesh);
     // static public System.Void GenerateTangent(UnityEngine.Mesh mesh)
     // Offset: 0x1906348
     static void GenerateTangent(UnityEngine::Mesh* mesh);
@@ -92,10 +93,10 @@ namespace UnityEngine::ProBuilder {
     static void Compile(UnityEngine::ProBuilder::ProBuilderMesh* probuilderMesh, UnityEngine::Mesh* targetMesh, UnityEngine::MeshTopology preferredTopology);
     // static public UnityEngine.ProBuilder.Vertex[] GetVertices(UnityEngine.Mesh mesh)
     // Offset: 0x18F8B64
-    static ::ArrayWrapper<UnityEngine::ProBuilder::Vertex*> GetVertices(UnityEngine::Mesh* mesh);
+    static ::ArrayW<UnityEngine::ProBuilder::Vertex*> GetVertices(UnityEngine::Mesh* mesh);
     // static public System.Void CollapseSharedVertices(UnityEngine.Mesh mesh, UnityEngine.ProBuilder.Vertex[] vertices)
     // Offset: 0x1908BE8
-    static void CollapseSharedVertices(UnityEngine::Mesh* mesh, ::ArrayWrapper<UnityEngine::ProBuilder::Vertex*> vertices);
+    static void CollapseSharedVertices(UnityEngine::Mesh* mesh, ::ArrayW<UnityEngine::ProBuilder::Vertex*> vertices);
     // static System.String SanityCheck(UnityEngine.ProBuilder.ProBuilderMesh mesh)
     // Offset: 0x1909000
     static ::Il2CppString* SanityCheck(UnityEngine::ProBuilder::ProBuilderMesh* mesh);
@@ -113,7 +114,7 @@ DEFINE_IL2CPP_ARG_TYPE(UnityEngine::ProBuilder::MeshUtility*, "UnityEngine.ProBu
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshUtility::GeneratePerTriangleMesh
 // Il2CppName: GeneratePerTriangleMesh
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::ProBuilder::Vertex*> (*)(UnityEngine::Mesh*)>(&UnityEngine::ProBuilder::MeshUtility::GeneratePerTriangleMesh)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::ProBuilder::Vertex*> (*)(UnityEngine::Mesh*)>(&UnityEngine::ProBuilder::MeshUtility::GeneratePerTriangleMesh)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshUtility*), "GeneratePerTriangleMesh", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mesh});
@@ -191,7 +192,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshUtility::GetVertices
 // Il2CppName: GetVertices
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::ProBuilder::Vertex*> (*)(UnityEngine::Mesh*)>(&UnityEngine::ProBuilder::MeshUtility::GetVertices)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::ProBuilder::Vertex*> (*)(UnityEngine::Mesh*)>(&UnityEngine::ProBuilder::MeshUtility::GetVertices)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshUtility*), "GetVertices", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{mesh});
@@ -200,7 +201,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshUtility::CollapseSharedVertices
 // Il2CppName: CollapseSharedVertices
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Mesh*, ::ArrayWrapper<UnityEngine::ProBuilder::Vertex*>)>(&UnityEngine::ProBuilder::MeshUtility::CollapseSharedVertices)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::Mesh*, ::ArrayW<UnityEngine::ProBuilder::Vertex*>)>(&UnityEngine::ProBuilder::MeshUtility::CollapseSharedVertices)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine", "Mesh")->byval_arg;
     static auto* vertices = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Vertex"), 1)->byval_arg;

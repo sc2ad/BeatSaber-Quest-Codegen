@@ -28,6 +28,11 @@ namespace System::Text::RegularExpressions {
   // [TokenAttribute] Offset: FFFFFFFF
   class RegexNode : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Int32 _type
     // Size: 0x4
     // Offset: 0x10
@@ -80,6 +85,7 @@ namespace System::Text::RegularExpressions {
     System::Text::RegularExpressions::RegexNode* next;
     // Field size check
     static_assert(sizeof(System::Text::RegularExpressions::RegexNode*) == 0x8);
+    public:
     // Get instance field reference: System.Int32 _type
     int& dyn__type();
     // Get instance field reference: System.Collections.Generic.List`1<System.Text.RegularExpressions.RegexNode> _children

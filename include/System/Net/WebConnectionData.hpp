@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net
@@ -39,6 +40,11 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class WebConnectionData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Net.HttpWebRequest _request
     // Size: 0x8
     // Offset: 0x10
@@ -86,15 +92,16 @@ namespace System::Net {
     // public System.String[] Challenge
     // Size: 0x8
     // Offset: 0x48
-    ::ArrayWrapper<::Il2CppString*> Challenge;
+    ::ArrayW<::Il2CppString*> Challenge;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // private System.Net.ReadState _readState
     // Size: 0x4
     // Offset: 0x50
     System::Net::ReadState readState;
     // Field size check
     static_assert(sizeof(System::Net::ReadState) == 0x4);
+    public:
     // Get instance field reference: private System.Net.HttpWebRequest _request
     System::Net::HttpWebRequest*& dyn__request();
     // Get instance field reference: public System.Int32 StatusCode
@@ -110,7 +117,7 @@ namespace System::Net {
     // Get instance field reference: public System.IO.Stream stream
     System::IO::Stream*& dyn_stream();
     // Get instance field reference: public System.String[] Challenge
-    ::ArrayWrapper<::Il2CppString*>& dyn_Challenge();
+    ::ArrayW<::Il2CppString*>& dyn_Challenge();
     // Get instance field reference: private System.Net.ReadState _readState
     System::Net::ReadState& dyn__readState();
     // public System.Net.HttpWebRequest get_request()

@@ -35,6 +35,11 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_InputPreset : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public HoudiniEngineUnity.HEU_InputNode/HoudiniEngineUnity.InputObjectType _inputObjectType
     // Size: 0x4
     // Offset: 0x10
@@ -90,6 +95,7 @@ namespace HoudiniEngineUnity {
     System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputAssetPreset*>* inputAssetPresets;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_InputAssetPreset*>*) == 0x8);
+    public:
     // Get instance field reference: public HoudiniEngineUnity.HEU_InputNode/HoudiniEngineUnity.InputObjectType _inputObjectType
     HoudiniEngineUnity::HEU_InputNode::InputObjectType& dyn__inputObjectType();
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_InputObjectPreset> _inputObjectPresets

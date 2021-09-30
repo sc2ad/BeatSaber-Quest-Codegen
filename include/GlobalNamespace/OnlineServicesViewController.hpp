@@ -33,6 +33,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OnlineServicesViewController : public HMUI::ViewController {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.UI.Button _enableButton
     // Size: 0x8
     // Offset: 0x70
@@ -51,6 +56,7 @@ namespace GlobalNamespace {
     System::Action_1<bool>* didFinishEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<bool>*) == 0x8);
+    public:
     // Get instance field reference: private UnityEngine.UI.Button _enableButton
     UnityEngine::UI::Button*& dyn__enableButton();
     // Get instance field reference: private UnityEngine.UI.Button _dontEnableButton

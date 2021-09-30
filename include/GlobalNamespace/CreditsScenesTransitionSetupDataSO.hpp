@@ -28,12 +28,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class CreditsScenesTransitionSetupDataSO : public GlobalNamespace::NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Action`1<CreditsScenesTransitionSetupDataSO> didFinishEvent
     // Size: 0x8
     // Offset: 0x30
     System::Action_1<GlobalNamespace::CreditsScenesTransitionSetupDataSO*>* didFinishEvent;
     // Field size check
     static_assert(sizeof(System::Action_1<GlobalNamespace::CreditsScenesTransitionSetupDataSO*>*) == 0x8);
+    public:
     // Get instance field reference: private System.Action`1<CreditsScenesTransitionSetupDataSO> didFinishEvent
     System::Action_1<GlobalNamespace::CreditsScenesTransitionSetupDataSO*>*& dyn_didFinishEvent();
     // public System.Void add_didFinishEvent(System.Action`1<CreditsScenesTransitionSetupDataSO> value)

@@ -39,6 +39,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ConnectedPlayerManager::ConnectedPlayer : public ::Il2CppObject/*, public GlobalNamespace::IConnectedPlayer*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.String _userId
     // Size: 0x8
     // Offset: 0x10
@@ -143,6 +148,7 @@ namespace GlobalNamespace {
     GlobalNamespace::RollingAverage* latency;
     // Field size check
     static_assert(sizeof(GlobalNamespace::RollingAverage*) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IConnectedPlayer
     operator GlobalNamespace::IConnectedPlayer() noexcept {
       return *reinterpret_cast<GlobalNamespace::IConnectedPlayer*>(this);

@@ -18,6 +18,11 @@ namespace Org::BouncyCastle::Asn1 {
   // [TokenAttribute] Offset: FFFFFFFF
   class OidTokenizer : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String oid
     // Size: 0x8
     // Offset: 0x10
@@ -30,6 +35,7 @@ namespace Org::BouncyCastle::Asn1 {
     int index;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: private System.String oid
     ::Il2CppString*& dyn_oid();
     // Get instance field reference: private System.Int32 index

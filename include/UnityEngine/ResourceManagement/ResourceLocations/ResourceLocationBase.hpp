@@ -12,6 +12,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -37,6 +38,11 @@ namespace UnityEngine::ResourceManagement::ResourceLocations {
   // [TokenAttribute] Offset: FFFFFFFF
   class ResourceLocationBase : public ::Il2CppObject/*, public UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String m_Name
     // Size: 0x8
     // Offset: 0x10
@@ -91,6 +97,7 @@ namespace UnityEngine::ResourceManagement::ResourceLocations {
     ::Il2CppString* m_PrimaryKey;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Creating interface conversion operator: operator UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation
     operator UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation() noexcept {
       return *reinterpret_cast<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>(this);
@@ -146,7 +153,7 @@ namespace UnityEngine::ResourceManagement::ResourceLocations {
     // public System.Void .ctor(System.String name, System.String id, System.String providerId, System.Type t, params UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation[] dependencies)
     // Offset: 0x1B62AD8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static ResourceLocationBase* New_ctor(::Il2CppString* name, ::Il2CppString* id, ::Il2CppString* providerId, System::Type* t, ::ArrayWrapper<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*> dependencies) {
+    static ResourceLocationBase* New_ctor(::Il2CppString* name, ::Il2CppString* id, ::Il2CppString* providerId, System::Type* t, ::ArrayW<UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*> dependencies) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::ResourceManagement::ResourceLocations::ResourceLocationBase::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<ResourceLocationBase*, creationType>(name, id, providerId, t, dependencies)));
     }

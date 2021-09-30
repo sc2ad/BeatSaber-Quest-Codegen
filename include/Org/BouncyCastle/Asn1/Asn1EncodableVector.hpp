@@ -12,6 +12,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Asn1
@@ -34,12 +35,17 @@ namespace Org::BouncyCastle::Asn1 {
   // [DefaultMemberAttribute] Offset: EC7E40
   class Asn1EncodableVector : public ::Il2CppObject/*, public System::Collections::IEnumerable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Org.BouncyCastle.Asn1.Asn1Encodable[] elements
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<Org::BouncyCastle::Asn1::Asn1Encodable*> elements;
+    ::ArrayW<Org::BouncyCastle::Asn1::Asn1Encodable*> elements;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<Org::BouncyCastle::Asn1::Asn1Encodable*>) == 0x8);
+    static_assert(sizeof(::ArrayW<Org::BouncyCastle::Asn1::Asn1Encodable*>) == 0x8);
     // private System.Int32 elementCount
     // Size: 0x4
     // Offset: 0x18
@@ -52,16 +58,17 @@ namespace Org::BouncyCastle::Asn1 {
     bool copyOnWrite;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator System::Collections::IEnumerable
     operator System::Collections::IEnumerable() noexcept {
       return *reinterpret_cast<System::Collections::IEnumerable*>(this);
     }
     // Get static field: static readonly Org.BouncyCastle.Asn1.Asn1Encodable[] EmptyElements
-    static ::ArrayWrapper<Org::BouncyCastle::Asn1::Asn1Encodable*> _get_EmptyElements();
+    static ::ArrayW<Org::BouncyCastle::Asn1::Asn1Encodable*> _get_EmptyElements();
     // Set static field: static readonly Org.BouncyCastle.Asn1.Asn1Encodable[] EmptyElements
-    static void _set_EmptyElements(::ArrayWrapper<Org::BouncyCastle::Asn1::Asn1Encodable*> value);
+    static void _set_EmptyElements(::ArrayW<Org::BouncyCastle::Asn1::Asn1Encodable*> value);
     // Get instance field reference: private Org.BouncyCastle.Asn1.Asn1Encodable[] elements
-    ::ArrayWrapper<Org::BouncyCastle::Asn1::Asn1Encodable*>& dyn_elements();
+    ::ArrayW<Org::BouncyCastle::Asn1::Asn1Encodable*>& dyn_elements();
     // Get instance field reference: private System.Int32 elementCount
     int& dyn_elementCount();
     // Get instance field reference: private System.Boolean copyOnWrite
@@ -82,7 +89,7 @@ namespace Org::BouncyCastle::Asn1 {
     // public System.Void .ctor(params Org.BouncyCastle.Asn1.Asn1Encodable[] v)
     // Offset: 0x18DE4C8
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Asn1EncodableVector* New_ctor(::ArrayWrapper<Org::BouncyCastle::Asn1::Asn1Encodable*> v) {
+    static Asn1EncodableVector* New_ctor(::ArrayW<Org::BouncyCastle::Asn1::Asn1Encodable*> v) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Asn1::Asn1EncodableVector::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Asn1EncodableVector*, creationType>(v)));
     }
@@ -94,10 +101,10 @@ namespace Org::BouncyCastle::Asn1 {
     void Add(Org::BouncyCastle::Asn1::Asn1Encodable* element);
     // public System.Void Add(params Org.BouncyCastle.Asn1.Asn1Encodable[] objs)
     // Offset: 0x18DE4F8
-    void Add(::ArrayWrapper<Org::BouncyCastle::Asn1::Asn1Encodable*> objs);
+    void Add(::ArrayW<Org::BouncyCastle::Asn1::Asn1Encodable*> objs);
     // public System.Void AddOptional(params Org.BouncyCastle.Asn1.Asn1Encodable[] objs)
     // Offset: 0x18DE758
-    void AddOptional(::ArrayWrapper<Org::BouncyCastle::Asn1::Asn1Encodable*> objs);
+    void AddOptional(::ArrayW<Org::BouncyCastle::Asn1::Asn1Encodable*> objs);
     // public System.Void AddOptionalTagged(System.Boolean isExplicit, System.Int32 tagNo, Org.BouncyCastle.Asn1.Asn1Encodable obj)
     // Offset: 0x18DE7D0
     void AddOptionalTagged(bool isExplicit, int tagNo, Org::BouncyCastle::Asn1::Asn1Encodable* obj);
@@ -106,16 +113,16 @@ namespace Org::BouncyCastle::Asn1 {
     System::Collections::IEnumerator* GetEnumerator();
     // Org.BouncyCastle.Asn1.Asn1Encodable[] CopyElements()
     // Offset: 0x18DE9AC
-    ::ArrayWrapper<Org::BouncyCastle::Asn1::Asn1Encodable*> CopyElements();
+    ::ArrayW<Org::BouncyCastle::Asn1::Asn1Encodable*> CopyElements();
     // Org.BouncyCastle.Asn1.Asn1Encodable[] TakeElements()
     // Offset: 0x18DEA5C
-    ::ArrayWrapper<Org::BouncyCastle::Asn1::Asn1Encodable*> TakeElements();
+    ::ArrayW<Org::BouncyCastle::Asn1::Asn1Encodable*> TakeElements();
     // private System.Void Reallocate(System.Int32 minCapacity)
     // Offset: 0x18DE688
     void Reallocate(int minCapacity);
     // static Org.BouncyCastle.Asn1.Asn1Encodable[] CloneElements(Org.BouncyCastle.Asn1.Asn1Encodable[] elements)
     // Offset: 0x18DEB30
-    static ::ArrayWrapper<Org::BouncyCastle::Asn1::Asn1Encodable*> CloneElements(::ArrayWrapper<Org::BouncyCastle::Asn1::Asn1Encodable*> elements);
+    static ::ArrayW<Org::BouncyCastle::Asn1::Asn1Encodable*> CloneElements(::ArrayW<Org::BouncyCastle::Asn1::Asn1Encodable*> elements);
     // public System.Void .ctor()
     // Offset: 0x18DE3C0
     // Implemented from: System.Object
@@ -177,7 +184,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1EncodableVector::Add
 // Il2CppName: Add
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::Asn1EncodableVector::*)(::ArrayWrapper<Org::BouncyCastle::Asn1::Asn1Encodable*>)>(&Org::BouncyCastle::Asn1::Asn1EncodableVector::Add)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::Asn1EncodableVector::*)(::ArrayW<Org::BouncyCastle::Asn1::Asn1Encodable*>)>(&Org::BouncyCastle::Asn1::Asn1EncodableVector::Add)> {
   static const MethodInfo* get() {
     static auto* objs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Asn1", "Asn1Encodable"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1EncodableVector*), "Add", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{objs});
@@ -186,7 +193,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1EncodableVector::AddOptional
 // Il2CppName: AddOptional
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::Asn1EncodableVector::*)(::ArrayWrapper<Org::BouncyCastle::Asn1::Asn1Encodable*>)>(&Org::BouncyCastle::Asn1::Asn1EncodableVector::AddOptional)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Asn1::Asn1EncodableVector::*)(::ArrayW<Org::BouncyCastle::Asn1::Asn1Encodable*>)>(&Org::BouncyCastle::Asn1::Asn1EncodableVector::AddOptional)> {
   static const MethodInfo* get() {
     static auto* objs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Asn1", "Asn1Encodable"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1EncodableVector*), "AddOptional", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{objs});
@@ -214,7 +221,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Col
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1EncodableVector::CopyElements
 // Il2CppName: CopyElements
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<Org::BouncyCastle::Asn1::Asn1Encodable*> (Org::BouncyCastle::Asn1::Asn1EncodableVector::*)()>(&Org::BouncyCastle::Asn1::Asn1EncodableVector::CopyElements)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Org::BouncyCastle::Asn1::Asn1Encodable*> (Org::BouncyCastle::Asn1::Asn1EncodableVector::*)()>(&Org::BouncyCastle::Asn1::Asn1EncodableVector::CopyElements)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1EncodableVector*), "CopyElements", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -222,7 +229,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1EncodableVector::TakeElements
 // Il2CppName: TakeElements
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<Org::BouncyCastle::Asn1::Asn1Encodable*> (Org::BouncyCastle::Asn1::Asn1EncodableVector::*)()>(&Org::BouncyCastle::Asn1::Asn1EncodableVector::TakeElements)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Org::BouncyCastle::Asn1::Asn1Encodable*> (Org::BouncyCastle::Asn1::Asn1EncodableVector::*)()>(&Org::BouncyCastle::Asn1::Asn1EncodableVector::TakeElements)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1EncodableVector*), "TakeElements", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -239,7 +246,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::Asn1EncodableVector::CloneElements
 // Il2CppName: CloneElements
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<Org::BouncyCastle::Asn1::Asn1Encodable*> (*)(::ArrayWrapper<Org::BouncyCastle::Asn1::Asn1Encodable*>)>(&Org::BouncyCastle::Asn1::Asn1EncodableVector::CloneElements)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Org::BouncyCastle::Asn1::Asn1Encodable*> (*)(::ArrayW<Org::BouncyCastle::Asn1::Asn1Encodable*>)>(&Org::BouncyCastle::Asn1::Asn1EncodableVector::CloneElements)> {
   static const MethodInfo* get() {
     static auto* elements = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Asn1", "Asn1Encodable"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Asn1::Asn1EncodableVector*), "CloneElements", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{elements});

@@ -36,6 +36,11 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class OculusPlatformAchievementHandler::$$c__DisplayClass3_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public PlatformAchievementsModelSO/GetUnlockedAchievementsCompletionHandler completionHandler
     // Size: 0x8
     // Offset: 0x10
@@ -48,6 +53,7 @@ namespace GlobalNamespace {
     GlobalNamespace::OculusPlatformAchievementHandler* $$4__this;
     // Field size check
     static_assert(sizeof(GlobalNamespace::OculusPlatformAchievementHandler*) == 0x8);
+    public:
     // Get instance field reference: public PlatformAchievementsModelSO/GetUnlockedAchievementsCompletionHandler completionHandler
     GlobalNamespace::PlatformAchievementsModelSO::GetUnlockedAchievementsCompletionHandler*& dyn_completionHandler();
     // Get instance field reference: public OculusPlatformAchievementHandler <>4__this

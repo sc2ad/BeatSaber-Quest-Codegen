@@ -36,12 +36,18 @@ namespace System::Net::Sockets {
     public:
     // Writing base type padding for base size: 0x8C to desired offset: 0x90
     char ___base_padding[0x4] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Net.EndPoint m_EndPoint
     // Size: 0x8
     // Offset: 0x90
     System::Net::EndPoint* m_EndPoint;
     // Field size check
     static_assert(sizeof(System::Net::EndPoint*) == 0x8);
+    public:
     // Deleting conversion operator: operator int
     constexpr operator int() const noexcept = delete;
     // Get instance field reference: private System.Net.EndPoint m_EndPoint

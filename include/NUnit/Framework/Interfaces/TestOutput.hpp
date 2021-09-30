@@ -18,6 +18,11 @@ namespace NUnit::Framework::Interfaces {
   // [TokenAttribute] Offset: FFFFFFFF
   class TestOutput : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [DebuggerBrowsableAttribute] Offset: 0xEEF78C
     // private System.String <Text>k__BackingField
     // Size: 0x8
@@ -39,6 +44,7 @@ namespace NUnit::Framework::Interfaces {
     ::Il2CppString* TestName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: private System.String <Text>k__BackingField
     ::Il2CppString*& dyn_$Text$k__BackingField();
     // Get instance field reference: private System.String <Stream>k__BackingField

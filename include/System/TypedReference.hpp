@@ -8,6 +8,7 @@
 #include "System/ValueType.hpp"
 // Including type: System.RuntimeTypeHandle
 #include "System/RuntimeTypeHandle.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Reflection
@@ -30,6 +31,11 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5C9A0
   struct TypedReference/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.RuntimeTypeHandle type
     // Size: 0x8
     // Offset: 0x0
@@ -48,6 +54,7 @@ namespace System {
     System::IntPtr Type;
     // Field size check
     static_assert(sizeof(System::IntPtr) == 0x8);
+    public:
     // Creating value type constructor for type: TypedReference
     constexpr TypedReference(System::RuntimeTypeHandle type_ = {}, System::IntPtr Value_ = {}, System::IntPtr Type_ = {}) noexcept : type{type_}, Value{Value_}, Type{Type_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -65,10 +72,10 @@ namespace System {
     bool get_IsNull();
     // static public System.TypedReference MakeTypedReference(System.Object target, System.Reflection.FieldInfo[] flds)
     // Offset: 0x2532EC0
-    static System::TypedReference MakeTypedReference(::Il2CppObject* target, ::ArrayWrapper<System::Reflection::FieldInfo*> flds);
+    static System::TypedReference MakeTypedReference(::Il2CppObject* target, ::ArrayW<System::Reflection::FieldInfo*> flds);
     // static private System.TypedReference MakeTypedReferenceInternal(System.Object target, System.Reflection.FieldInfo[] fields)
     // Offset: 0x25332A0
-    static System::TypedReference MakeTypedReferenceInternal(::Il2CppObject* target, ::ArrayWrapper<System::Reflection::FieldInfo*> fields);
+    static System::TypedReference MakeTypedReferenceInternal(::Il2CppObject* target, ::ArrayW<System::Reflection::FieldInfo*> fields);
     // static public System.Void SetTypedReference(System.TypedReference target, System.Object value)
     // Offset: 0x2533418
     static void SetTypedReference(System::TypedReference target, ::Il2CppObject* value);
@@ -101,7 +108,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::TypedReference::MakeTypedReference
 // Il2CppName: MakeTypedReference
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TypedReference (*)(::Il2CppObject*, ::ArrayWrapper<System::Reflection::FieldInfo*>)>(&System::TypedReference::MakeTypedReference)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TypedReference (*)(::Il2CppObject*, ::ArrayW<System::Reflection::FieldInfo*>)>(&System::TypedReference::MakeTypedReference)> {
   static const MethodInfo* get() {
     static auto* target = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* flds = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Reflection", "FieldInfo"), 1)->byval_arg;
@@ -111,7 +118,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::Typ
 // Writing MetadataGetter for method: System::TypedReference::MakeTypedReferenceInternal
 // Il2CppName: MakeTypedReferenceInternal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TypedReference (*)(::Il2CppObject*, ::ArrayWrapper<System::Reflection::FieldInfo*>)>(&System::TypedReference::MakeTypedReferenceInternal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<System::TypedReference (*)(::Il2CppObject*, ::ArrayW<System::Reflection::FieldInfo*>)>(&System::TypedReference::MakeTypedReferenceInternal)> {
   static const MethodInfo* get() {
     static auto* target = &::il2cpp_utils::GetClassFromName("System", "Object")->byval_arg;
     static auto* fields = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Reflection", "FieldInfo"), 1)->byval_arg;

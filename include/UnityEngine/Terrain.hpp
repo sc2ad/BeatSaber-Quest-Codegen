@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -66,7 +67,7 @@ namespace UnityEngine {
     void set_drawInstanced(bool value);
     // static public UnityEngine.Terrain[] get_activeTerrains()
     // Offset: 0x25E8300
-    static ::ArrayWrapper<UnityEngine::Terrain*> get_activeTerrains();
+    static ::ArrayW<UnityEngine::Terrain*> get_activeTerrains();
     // public System.Void SetNeighbors(UnityEngine.Terrain left, UnityEngine.Terrain top, UnityEngine.Terrain right, UnityEngine.Terrain bottom)
     // Offset: 0x25E8408
     void SetNeighbors(UnityEngine::Terrain* left, UnityEngine::Terrain* top, UnityEngine::Terrain* right, UnityEngine::Terrain* bottom);
@@ -179,7 +180,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::Terrain::get_activeTerrains
 // Il2CppName: get_activeTerrains
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Terrain*> (*)()>(&UnityEngine::Terrain::get_activeTerrains)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Terrain*> (*)()>(&UnityEngine::Terrain::get_activeTerrains)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Terrain*), "get_activeTerrains", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

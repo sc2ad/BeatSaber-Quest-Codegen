@@ -75,6 +75,11 @@ namespace VRUIControls {
   // [TokenAttribute] Offset: FFFFFFFF
   class VRInputModule : public UnityEngine::EventSystems::BaseInputModule {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private VRUIControls.VRPointer _vrPointer
     // Size: 0x8
     // Offset: 0x48
@@ -126,6 +131,7 @@ namespace VRUIControls {
     VRUIControls::MouseState* mouseState;
     // Field size check
     static_assert(sizeof(VRUIControls::MouseState*) == 0x8);
+    public:
     // static field const value: static private System.Int32 kMouseLeftId
     static constexpr const int kMouseLeftId = -1;
     // Get static field: static private System.Int32 kMouseLeftId

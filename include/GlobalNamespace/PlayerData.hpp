@@ -67,6 +67,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class PlayerData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String <playerId>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -229,6 +234,7 @@ namespace GlobalNamespace {
     System::Action* didIncreaseNumberOfGameplaysEvent;
     // Field size check
     static_assert(sizeof(System::Action*) == 0x8);
+    public:
     // static field const value: static public System.Int32 kMaxGuestPlayers
     static constexpr const int kMaxGuestPlayers = 10;
     // Get static field: static public System.Int32 kMaxGuestPlayers

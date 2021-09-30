@@ -73,6 +73,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ScoreController : public UnityEngine::MonoBehaviour/*, public GlobalNamespace::IScoreController, public GlobalNamespace::ICutScoreBufferDidFinishEvent*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [TooltipAttribute] Offset: 0xF0AE40
     // private System.Int32 _feverModeRequiredCombo
     // Size: 0x4
@@ -302,6 +307,7 @@ namespace GlobalNamespace {
     GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::CutScoreBuffer*>* cutScoreBufferMemoryPoolContainer;
     // Field size check
     static_assert(sizeof(GlobalNamespace::MemoryPoolContainer_1<GlobalNamespace::CutScoreBuffer*>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IScoreController
     operator GlobalNamespace::IScoreController() noexcept {
       return *reinterpret_cast<GlobalNamespace::IScoreController*>(this);

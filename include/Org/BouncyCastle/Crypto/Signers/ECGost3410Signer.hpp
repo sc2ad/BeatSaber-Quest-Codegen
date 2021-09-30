@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Crypto::Parameters
@@ -47,6 +48,11 @@ namespace Org::BouncyCastle::Crypto::Signers {
   // [TokenAttribute] Offset: FFFFFFFF
   class ECGost3410Signer : public ::Il2CppObject/*, public Org::BouncyCastle::Crypto::IDsaExt*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Org.BouncyCastle.Crypto.Parameters.ECKeyParameters key
     // Size: 0x8
     // Offset: 0x10
@@ -65,6 +71,7 @@ namespace Org::BouncyCastle::Crypto::Signers {
     bool forSigning;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IDsaExt
     operator Org::BouncyCastle::Crypto::IDsaExt() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IDsaExt*>(this);
@@ -83,7 +90,7 @@ namespace Org::BouncyCastle::Crypto::Signers {
     void Init(bool forSigning, Org::BouncyCastle::Crypto::ICipherParameters* parameters);
     // public Org.BouncyCastle.Math.BigInteger[] GenerateSignature(System.Byte[] message)
     // Offset: 0x139B404
-    ::ArrayWrapper<Org::BouncyCastle::Math::BigInteger*> GenerateSignature(::ArrayWrapper<uint8_t> message);
+    ::ArrayW<Org::BouncyCastle::Math::BigInteger*> GenerateSignature(::ArrayW<uint8_t> message);
     // protected Org.BouncyCastle.Math.EC.Multiplier.ECMultiplier CreateBasePointMultiplier()
     // Offset: 0x139B924
     Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* CreateBasePointMultiplier();
@@ -124,7 +131,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Signers::ECGost3410Signer::GenerateSignature
 // Il2CppName: GenerateSignature
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<Org::BouncyCastle::Math::BigInteger*> (Org::BouncyCastle::Crypto::Signers::ECGost3410Signer::*)(::ArrayWrapper<uint8_t>)>(&Org::BouncyCastle::Crypto::Signers::ECGost3410Signer::GenerateSignature)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Org::BouncyCastle::Math::BigInteger*> (Org::BouncyCastle::Crypto::Signers::ECGost3410Signer::*)(::ArrayW<uint8_t>)>(&Org::BouncyCastle::Crypto::Signers::ECGost3410Signer::GenerateSignature)> {
   static const MethodInfo* get() {
     static auto* message = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Org::BouncyCastle::Crypto::Signers::ECGost3410Signer*), "GenerateSignature", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{message});

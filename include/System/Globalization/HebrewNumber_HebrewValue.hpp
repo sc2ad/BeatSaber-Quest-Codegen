@@ -22,6 +22,11 @@ namespace System::Globalization {
   // [TokenAttribute] Offset: FFFFFFFF
   class HebrewNumber::HebrewValue : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Globalization.HebrewNumber/System.Globalization.HebrewToken token
     // Size: 0x4
     // Offset: 0x10
@@ -34,6 +39,7 @@ namespace System::Globalization {
     int value;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: System.Globalization.HebrewNumber/System.Globalization.HebrewToken token
     System::Globalization::HebrewNumber::HebrewToken& dyn_token();
     // Get instance field reference: System.Int32 value

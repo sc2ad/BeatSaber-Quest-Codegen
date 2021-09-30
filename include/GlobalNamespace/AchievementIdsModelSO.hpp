@@ -33,12 +33,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class AchievementIdsModelSO : public GlobalNamespace::PersistentScriptableObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.List`1<AchievementSO> _achievementsIds
     // Size: 0x8
     // Offset: 0x18
     System::Collections::Generic::List_1<GlobalNamespace::AchievementSO*>* achievementsIds;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::AchievementSO*>*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Collections.Generic.List`1<AchievementSO> _achievementsIds

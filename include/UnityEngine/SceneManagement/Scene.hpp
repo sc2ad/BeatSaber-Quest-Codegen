@@ -6,6 +6,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: System.ValueType
 #include "System/ValueType.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -34,12 +35,18 @@ namespace UnityEngine::SceneManagement {
   // [NativeHeaderAttribute] Offset: E73614
   struct Scene/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 m_Handle
     // Size: 0x4
     // Offset: 0x0
     int m_Handle;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: Scene
     constexpr Scene(int m_Handle_ = {}) noexcept : m_Handle{m_Handle_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -84,7 +91,7 @@ namespace UnityEngine::SceneManagement {
     bool IsValid();
     // public UnityEngine.GameObject[] GetRootGameObjects()
     // Offset: 0x1E0BE10
-    ::ArrayWrapper<UnityEngine::GameObject*> GetRootGameObjects();
+    ::ArrayW<UnityEngine::GameObject*> GetRootGameObjects();
     // public System.Void GetRootGameObjects(System.Collections.Generic.List`1<UnityEngine.GameObject> rootGameObjects)
     // Offset: 0x1E0BED8
     void GetRootGameObjects(System::Collections::Generic::List_1<UnityEngine::GameObject*>* rootGameObjects);
@@ -198,7 +205,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Unity
 // Writing MetadataGetter for method: UnityEngine::SceneManagement::Scene::GetRootGameObjects
 // Il2CppName: GetRootGameObjects
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::GameObject*> (UnityEngine::SceneManagement::Scene::*)()>(&UnityEngine::SceneManagement::Scene::GetRootGameObjects)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::GameObject*> (UnityEngine::SceneManagement::Scene::*)()>(&UnityEngine::SceneManagement::Scene::GetRootGameObjects)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::SceneManagement::Scene), "GetRootGameObjects", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -20,6 +20,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SteamVR_TrackedCamera::VideoStream : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.UInt32 <deviceIndex>k__BackingField
     // Size: 0x4
     // Offset: 0x10
@@ -48,6 +53,7 @@ namespace GlobalNamespace {
     uint64_t refCount;
     // Field size check
     static_assert(sizeof(uint64_t) == 0x8);
+    public:
     // Get instance field reference: private System.UInt32 <deviceIndex>k__BackingField
     uint& dyn_$deviceIndex$k__BackingField();
     // Get instance field reference: private System.UInt64 _handle

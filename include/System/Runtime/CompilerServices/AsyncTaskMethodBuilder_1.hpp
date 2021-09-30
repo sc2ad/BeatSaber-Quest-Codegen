@@ -44,6 +44,11 @@ namespace System::Runtime::CompilerServices {
   template<typename TResult>
   struct AsyncTaskMethodBuilder_1/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Runtime.CompilerServices.AsyncMethodBuilderCore m_coreState
     // Size: 0x10
     // Offset: 0x0
@@ -56,6 +61,7 @@ namespace System::Runtime::CompilerServices {
     System::Threading::Tasks::Task_1<TResult>* m_task;
     // Field size check
     static_assert(sizeof(System::Threading::Tasks::Task_1<TResult>*) == 0x8);
+    public:
     // Creating value type constructor for type: AsyncTaskMethodBuilder_1
     constexpr AsyncTaskMethodBuilder_1(System::Runtime::CompilerServices::AsyncMethodBuilderCore m_coreState_ = {}, System::Threading::Tasks::Task_1<TResult>* m_task_ = {}) noexcept : m_coreState{m_coreState_}, m_task{m_task_} {}
     // Creating interface conversion operator: operator System::ValueType

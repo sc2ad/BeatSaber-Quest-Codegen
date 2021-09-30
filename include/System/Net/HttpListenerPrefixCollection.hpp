@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -41,6 +42,11 @@ namespace System::Net {
   // [TokenAttribute] Offset: FFFFFFFF
   class HttpListenerPrefixCollection : public ::Il2CppObject/*, public System::Collections::Generic::ICollection_1<::Il2CppString*>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.List`1<System.String> prefixes
     // Size: 0x8
     // Offset: 0x10
@@ -53,6 +59,7 @@ namespace System::Net {
     System::Net::HttpListener* listener;
     // Field size check
     static_assert(sizeof(System::Net::HttpListener*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Collections::Generic::ICollection_1<::Il2CppString*>
     operator System::Collections::Generic::ICollection_1<::Il2CppString*>() noexcept {
       return *reinterpret_cast<System::Collections::Generic::ICollection_1<::Il2CppString*>*>(this);
@@ -85,7 +92,7 @@ namespace System::Net {
     bool Contains(::Il2CppString* uriPrefix);
     // public System.Void CopyTo(System.String[] array, System.Int32 offset)
     // Offset: 0x1842934
-    void CopyTo(::ArrayWrapper<::Il2CppString*> array, int offset);
+    void CopyTo(::ArrayW<::Il2CppString*> array, int offset);
     // public System.Collections.Generic.IEnumerator`1<System.String> GetEnumerator()
     // Offset: 0x18429B0
     System::Collections::Generic::IEnumerator_1<::Il2CppString*>* GetEnumerator();
@@ -151,7 +158,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Syste
 // Writing MetadataGetter for method: System::Net::HttpListenerPrefixCollection::CopyTo
 // Il2CppName: CopyTo
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpListenerPrefixCollection::*)(::ArrayWrapper<::Il2CppString*>, int)>(&System::Net::HttpListenerPrefixCollection::CopyTo)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Net::HttpListenerPrefixCollection::*)(::ArrayW<::Il2CppString*>, int)>(&System::Net::HttpListenerPrefixCollection::CopyTo)> {
   static const MethodInfo* get() {
     static auto* array = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

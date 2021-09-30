@@ -22,12 +22,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SaberTypeObject : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private SaberType _saberType
     // Size: 0x4
     // Offset: 0x18
     GlobalNamespace::SaberType saberType;
     // Field size check
     static_assert(sizeof(GlobalNamespace::SaberType) == 0x4);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private SaberType _saberType

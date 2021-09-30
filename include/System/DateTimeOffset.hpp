@@ -21,6 +21,7 @@
 #include "System/Runtime/Serialization/IDeserializationCallback.hpp"
 // Including type: System.DateTime
 #include "System/DateTime.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -51,6 +52,11 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   struct DateTimeOffset/*, public System::ValueType, public System::IComparable_1<System::DateTimeOffset>, public System::IEquatable_1<System::DateTimeOffset>, public System::Runtime::Serialization::ISerializable, public System::IComparable, public System::IFormattable, public System::Runtime::Serialization::IDeserializationCallback*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.DateTime m_dateTime
     // Size: 0x8
     // Offset: 0x0
@@ -63,6 +69,7 @@ namespace System {
     int16_t m_offsetMinutes;
     // Field size check
     static_assert(sizeof(int16_t) == 0x2);
+    public:
     // Creating value type constructor for type: DateTimeOffset
     constexpr DateTimeOffset(System::DateTime m_dateTime_ = {}, int16_t m_offsetMinutes_ = {}) noexcept : m_dateTime{m_dateTime_}, m_offsetMinutes{m_offsetMinutes_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -149,7 +156,7 @@ namespace System {
     ::Il2CppString* ToString(::Il2CppString* format, System::IFormatProvider* formatProvider);
     // static public System.Boolean TryParseExact(System.String input, System.String[] formats, System.IFormatProvider formatProvider, System.Globalization.DateTimeStyles styles, out System.DateTimeOffset result)
     // Offset: 0x1CD7D4C
-    static bool TryParseExact(::Il2CppString* input, ::ArrayWrapper<::Il2CppString*> formats, System::IFormatProvider* formatProvider, System::Globalization::DateTimeStyles styles, ByRef<System::DateTimeOffset> result);
+    static bool TryParseExact(::Il2CppString* input, ::ArrayW<::Il2CppString*> formats, System::IFormatProvider* formatProvider, System::Globalization::DateTimeStyles styles, ByRef<System::DateTimeOffset> result);
     // static private System.Int16 ValidateOffset(System.TimeSpan offset)
     // Offset: 0x1CD6FB4
     static int16_t ValidateOffset(System::TimeSpan offset);
@@ -299,7 +306,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::DateTimeOffset::TryParseExact
 // Il2CppName: TryParseExact
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::ArrayWrapper<::Il2CppString*>, System::IFormatProvider*, System::Globalization::DateTimeStyles, ByRef<System::DateTimeOffset>)>(&System::DateTimeOffset::TryParseExact)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Il2CppString*, ::ArrayW<::Il2CppString*>, System::IFormatProvider*, System::Globalization::DateTimeStyles, ByRef<System::DateTimeOffset>)>(&System::DateTimeOffset::TryParseExact)> {
   static const MethodInfo* get() {
     static auto* input = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* formats = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;

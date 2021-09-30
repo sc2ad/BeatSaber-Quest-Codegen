@@ -60,6 +60,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class ColorsOverrideSettingsPanelController : public UnityEngine::MonoBehaviour/*, public GlobalNamespace::IRefreshable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.UI.Toggle _overrideColorsToggle
     // Size: 0x8
     // Offset: 0x18
@@ -136,6 +141,7 @@ namespace GlobalNamespace {
     HMUI::ButtonBinder* buttonBinder;
     // Field size check
     static_assert(sizeof(HMUI::ButtonBinder*) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IRefreshable
     operator GlobalNamespace::IRefreshable() noexcept {
       return *reinterpret_cast<GlobalNamespace::IRefreshable*>(this);

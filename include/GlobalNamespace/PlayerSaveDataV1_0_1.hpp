@@ -54,6 +54,11 @@ namespace GlobalNamespace {
     class LocalPlayer;
     // Nested type: GlobalNamespace::PlayerSaveDataV1_0_1::GuestPlayer
     class GuestPlayer;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.String version
     // Size: 0x8
     // Offset: 0x10
@@ -78,6 +83,7 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatmapDifficulty lastSelectedBeatmapDifficulty;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapDifficulty) == 0x4);
+    public:
     // static field const value: static private BeatmapDifficulty kDefaulLastSelectedBeatmapDifficulty
     static constexpr const int kDefaulLastSelectedBeatmapDifficulty = 1;
     // Get static field: static private BeatmapDifficulty kDefaulLastSelectedBeatmapDifficulty

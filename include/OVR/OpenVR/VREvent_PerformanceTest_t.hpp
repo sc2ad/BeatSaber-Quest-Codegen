@@ -16,12 +16,18 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct VREvent_PerformanceTest_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.UInt32 m_nFidelityLevel
     // Size: 0x4
     // Offset: 0x0
     uint m_nFidelityLevel;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
+    public:
     // Creating value type constructor for type: VREvent_PerformanceTest_t
     constexpr VREvent_PerformanceTest_t(uint m_nFidelityLevel_ = {}) noexcept : m_nFidelityLevel{m_nFidelityLevel_} {}
     // Creating interface conversion operator: operator System::ValueType

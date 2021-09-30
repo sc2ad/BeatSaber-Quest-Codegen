@@ -19,6 +19,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -40,6 +41,11 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class IKSolverVR::Locomotion : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [TooltipAttribute] Offset: 0xEF5A4C
     // [RangeAttribute] Offset: 0xEF5A4C
     // public System.Single weight
@@ -206,9 +212,9 @@ namespace RootMotion::FinalIK {
     // private RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Footstep[] footsteps
     // Size: 0x8
     // Offset: 0x90
-    ::ArrayWrapper<RootMotion::FinalIK::IKSolverVR::Footstep*> footsteps;
+    ::ArrayW<RootMotion::FinalIK::IKSolverVR::Footstep*> footsteps;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::IKSolverVR::Footstep*>) == 0x8);
+    static_assert(sizeof(::ArrayW<RootMotion::FinalIK::IKSolverVR::Footstep*>) == 0x8);
     // private UnityEngine.Vector3 lastComPosition
     // Size: 0xC
     // Offset: 0x98
@@ -233,6 +239,7 @@ namespace RootMotion::FinalIK {
     int rightFootIndex;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: public System.Single weight
     float& dyn_weight();
     // Get instance field reference: public System.Single footDistance
@@ -280,7 +287,7 @@ namespace RootMotion::FinalIK {
     // Get instance field reference: private UnityEngine.Vector3 <centerOfMass>k__BackingField
     UnityEngine::Vector3& dyn_$centerOfMass$k__BackingField();
     // Get instance field reference: private RootMotion.FinalIK.IKSolverVR/RootMotion.FinalIK.Footstep[] footsteps
-    ::ArrayWrapper<RootMotion::FinalIK::IKSolverVR::Footstep*>& dyn_footsteps();
+    ::ArrayW<RootMotion::FinalIK::IKSolverVR::Footstep*>& dyn_footsteps();
     // Get instance field reference: private UnityEngine.Vector3 lastComPosition
     UnityEngine::Vector3& dyn_lastComPosition();
     // Get instance field reference: private UnityEngine.Vector3 comVelocity
@@ -309,10 +316,10 @@ namespace RootMotion::FinalIK {
     UnityEngine::Quaternion get_rightFootstepRotation();
     // public System.Void Initiate(UnityEngine.Vector3[] positions, UnityEngine.Quaternion[] rotations, System.Boolean hasToes)
     // Offset: 0x1FDFADC
-    void Initiate(::ArrayWrapper<UnityEngine::Vector3> positions, ::ArrayWrapper<UnityEngine::Quaternion> rotations, bool hasToes);
+    void Initiate(::ArrayW<UnityEngine::Vector3> positions, ::ArrayW<UnityEngine::Quaternion> rotations, bool hasToes);
     // public System.Void Reset(UnityEngine.Vector3[] positions, UnityEngine.Quaternion[] rotations)
     // Offset: 0x1FDFDD4
-    void Reset(::ArrayWrapper<UnityEngine::Vector3> positions, ::ArrayWrapper<UnityEngine::Quaternion> rotations);
+    void Reset(::ArrayW<UnityEngine::Vector3> positions, ::ArrayW<UnityEngine::Quaternion> rotations);
     // public System.Void AddDeltaRotation(UnityEngine.Quaternion delta, UnityEngine.Vector3 pivot)
     // Offset: 0x1FE0048
     void AddDeltaRotation(UnityEngine::Quaternion delta, UnityEngine::Vector3 pivot);
@@ -399,7 +406,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Locomotion::Initiate
 // Il2CppName: Initiate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverVR::Locomotion::*)(::ArrayWrapper<UnityEngine::Vector3>, ::ArrayWrapper<UnityEngine::Quaternion>, bool)>(&RootMotion::FinalIK::IKSolverVR::Locomotion::Initiate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverVR::Locomotion::*)(::ArrayW<UnityEngine::Vector3>, ::ArrayW<UnityEngine::Quaternion>, bool)>(&RootMotion::FinalIK::IKSolverVR::Locomotion::Initiate)> {
   static const MethodInfo* get() {
     static auto* positions = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
     static auto* rotations = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion"), 1)->byval_arg;
@@ -410,7 +417,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootM
 // Writing MetadataGetter for method: RootMotion::FinalIK::IKSolverVR::Locomotion::Reset
 // Il2CppName: Reset
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverVR::Locomotion::*)(::ArrayWrapper<UnityEngine::Vector3>, ::ArrayWrapper<UnityEngine::Quaternion>)>(&RootMotion::FinalIK::IKSolverVR::Locomotion::Reset)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (RootMotion::FinalIK::IKSolverVR::Locomotion::*)(::ArrayW<UnityEngine::Vector3>, ::ArrayW<UnityEngine::Quaternion>)>(&RootMotion::FinalIK::IKSolverVR::Locomotion::Reset)> {
   static const MethodInfo* get() {
     static auto* positions = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector3"), 1)->byval_arg;
     static auto* rotations = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Quaternion"), 1)->byval_arg;

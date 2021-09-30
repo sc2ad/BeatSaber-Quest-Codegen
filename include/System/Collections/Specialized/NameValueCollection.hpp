@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections
@@ -42,22 +43,28 @@ namespace System::Collections::Specialized {
     public:
     // Writing base type padding for base size: 0x44 to desired offset: 0x48
     char ___base_padding[0x4] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String[] _all
     // Size: 0x8
     // Offset: 0x48
-    ::ArrayWrapper<::Il2CppString*> all;
+    ::ArrayW<::Il2CppString*> all;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // private System.String[] _allKeys
     // Size: 0x8
     // Offset: 0x50
-    ::ArrayWrapper<::Il2CppString*> allKeys;
+    ::ArrayW<::Il2CppString*> allKeys;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
+    public:
     // Get instance field reference: private System.String[] _all
-    ::ArrayWrapper<::Il2CppString*>& dyn__all();
+    ::ArrayW<::Il2CppString*>& dyn__all();
     // Get instance field reference: private System.String[] _allKeys
-    ::ArrayWrapper<::Il2CppString*>& dyn__allKeys();
+    ::ArrayW<::Il2CppString*>& dyn__allKeys();
     // public System.String get_Item(System.String name)
     // Offset: 0x1A20E44
     ::Il2CppString* get_Item(::Il2CppString* name);
@@ -72,7 +79,7 @@ namespace System::Collections::Specialized {
     static ::Il2CppString* GetAsOneString(System::Collections::ArrayList* list);
     // static private System.String[] GetAsStringArray(System.Collections.ArrayList list)
     // Offset: 0x1A209FC
-    static ::ArrayWrapper<::Il2CppString*> GetAsStringArray(System::Collections::ArrayList* list);
+    static ::ArrayW<::Il2CppString*> GetAsStringArray(System::Collections::ArrayList* list);
     // public System.Void Add(System.String name, System.String value)
     // Offset: 0x1A20AAC
     void Add(::Il2CppString* name, ::Il2CppString* value);
@@ -81,7 +88,7 @@ namespace System::Collections::Specialized {
     ::Il2CppString* Get(::Il2CppString* name);
     // public System.String[] GetValues(System.String name)
     // Offset: 0x1A20CB8
-    ::ArrayWrapper<::Il2CppString*> GetValues(::Il2CppString* name);
+    ::ArrayW<::Il2CppString*> GetValues(::Il2CppString* name);
     // public System.Void Set(System.String name, System.String value)
     // Offset: 0x1A20D54
     void Set(::Il2CppString* name, ::Il2CppString* value);
@@ -93,7 +100,7 @@ namespace System::Collections::Specialized {
     ::Il2CppString* Get(int index);
     // public System.String[] GetValues(System.Int32 index)
     // Offset: 0x1A20EF8
-    ::ArrayWrapper<::Il2CppString*> GetValues(int index);
+    ::ArrayW<::Il2CppString*> GetValues(int index);
     // public System.String GetKey(System.Int32 index)
     // Offset: 0x1A20F8C
     ::Il2CppString* GetKey(int index);
@@ -145,7 +152,7 @@ namespace System::Collections::Specialized {
     }
   }; // System.Collections.Specialized.NameValueCollection
   #pragma pack(pop)
-  static check_size<sizeof(NameValueCollection), 80 + sizeof(::ArrayWrapper<::Il2CppString*>)> __System_Collections_Specialized_NameValueCollectionSizeCheck;
+  static check_size<sizeof(NameValueCollection), 80 + sizeof(::ArrayW<::Il2CppString*>)> __System_Collections_Specialized_NameValueCollectionSizeCheck;
   static_assert(sizeof(NameValueCollection) == 0x58);
 }
 DEFINE_IL2CPP_ARG_TYPE(System::Collections::Specialized::NameValueCollection*, "System.Collections.Specialized", "NameValueCollection");
@@ -189,7 +196,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Collections::Specialized::NameValueCollection::GetAsStringArray
 // Il2CppName: GetAsStringArray
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppString*> (*)(System::Collections::ArrayList*)>(&System::Collections::Specialized::NameValueCollection::GetAsStringArray)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (*)(System::Collections::ArrayList*)>(&System::Collections::Specialized::NameValueCollection::GetAsStringArray)> {
   static const MethodInfo* get() {
     static auto* list = &::il2cpp_utils::GetClassFromName("System.Collections", "ArrayList")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Collections::Specialized::NameValueCollection*), "GetAsStringArray", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{list});
@@ -217,7 +224,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Collections::Specialized::NameValueCollection::GetValues
 // Il2CppName: GetValues
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppString*> (System::Collections::Specialized::NameValueCollection::*)(::Il2CppString*)>(&System::Collections::Specialized::NameValueCollection::GetValues)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (System::Collections::Specialized::NameValueCollection::*)(::Il2CppString*)>(&System::Collections::Specialized::NameValueCollection::GetValues)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Collections::Specialized::NameValueCollection*), "GetValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{name});
@@ -254,7 +261,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Collections::Specialized::NameValueCollection::GetValues
 // Il2CppName: GetValues
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppString*> (System::Collections::Specialized::NameValueCollection::*)(int)>(&System::Collections::Specialized::NameValueCollection::GetValues)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (System::Collections::Specialized::NameValueCollection::*)(int)>(&System::Collections::Specialized::NameValueCollection::GetValues)> {
   static const MethodInfo* get() {
     static auto* index = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(System::Collections::Specialized::NameValueCollection*), "GetValues", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{index});

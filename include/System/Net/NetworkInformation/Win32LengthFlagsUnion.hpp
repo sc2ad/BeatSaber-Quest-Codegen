@@ -16,6 +16,11 @@ namespace System::Net::NetworkInformation {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Win32LengthFlagsUnion/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.UInt32 Length
     // Size: 0x4
     // Offset: 0x0
@@ -28,6 +33,7 @@ namespace System::Net::NetworkInformation {
     uint Flags;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
+    public:
     // Creating value type constructor for type: Win32LengthFlagsUnion
     constexpr Win32LengthFlagsUnion(uint Length_ = {}, uint Flags_ = {}) noexcept : Length{Length_}, Flags{Flags_} {}
     // Creating interface conversion operator: operator System::ValueType

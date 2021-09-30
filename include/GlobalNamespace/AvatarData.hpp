@@ -20,6 +20,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class AvatarData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String <headTopId>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -116,6 +121,7 @@ namespace GlobalNamespace {
     ::Il2CppString* skinColorId;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: private System.String <headTopId>k__BackingField
     ::Il2CppString*& dyn_$headTopId$k__BackingField();
     // Get instance field reference: private System.String <glassesId>k__BackingField

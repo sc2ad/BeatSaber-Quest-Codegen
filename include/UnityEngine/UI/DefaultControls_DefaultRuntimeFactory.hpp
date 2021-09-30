@@ -14,6 +14,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -48,7 +49,7 @@ namespace UnityEngine::UI {
     static void _cctor();
     // public UnityEngine.GameObject CreateGameObject(System.String name, params System.Type[] components)
     // Offset: 0x1600760
-    UnityEngine::GameObject* CreateGameObject(::Il2CppString* name, ::ArrayWrapper<System::Type*> components);
+    UnityEngine::GameObject* CreateGameObject(::Il2CppString* name, ::ArrayW<System::Type*> components);
     // public System.Void .ctor()
     // Offset: 0x16007D4
     // Implemented from: System.Object
@@ -74,7 +75,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::UI::DefaultControls::DefaultRuntimeFactory::CreateGameObject
 // Il2CppName: CreateGameObject
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (UnityEngine::UI::DefaultControls::DefaultRuntimeFactory::*)(::Il2CppString*, ::ArrayWrapper<System::Type*>)>(&UnityEngine::UI::DefaultControls::DefaultRuntimeFactory::CreateGameObject)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::GameObject* (UnityEngine::UI::DefaultControls::DefaultRuntimeFactory::*)(::Il2CppString*, ::ArrayW<System::Type*>)>(&UnityEngine::UI::DefaultControls::DefaultRuntimeFactory::CreateGameObject)> {
   static const MethodInfo* get() {
     static auto* name = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* components = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Type"), 1)->byval_arg;

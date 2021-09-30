@@ -16,6 +16,11 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct VREvent_Mouse_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Single x
     // Size: 0x4
     // Offset: 0x0
@@ -34,6 +39,7 @@ namespace Valve::VR {
     uint button;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
+    public:
     // Creating value type constructor for type: VREvent_Mouse_t
     constexpr VREvent_Mouse_t(float x_ = {}, float y_ = {}, uint button_ = {}) noexcept : x{x_}, y{y_}, button{button_} {}
     // Creating interface conversion operator: operator System::ValueType

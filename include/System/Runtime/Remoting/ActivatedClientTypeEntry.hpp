@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -33,6 +34,11 @@ namespace System::Runtime::Remoting {
   // [ComVisibleAttribute] Offset: E5FA74
   class ActivatedClientTypeEntry : public System::Runtime::Remoting::TypeEntry {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String applicationUrl
     // Size: 0x8
     // Offset: 0x20
@@ -45,6 +51,7 @@ namespace System::Runtime::Remoting {
     System::Type* obj_type;
     // Field size check
     static_assert(sizeof(System::Type*) == 0x8);
+    public:
     // Get instance field reference: private System.String applicationUrl
     ::Il2CppString*& dyn_applicationUrl();
     // Get instance field reference: private System.Type obj_type
@@ -54,7 +61,7 @@ namespace System::Runtime::Remoting {
     ::Il2CppString* get_ApplicationUrl();
     // public System.Runtime.Remoting.Contexts.IContextAttribute[] get_ContextAttributes()
     // Offset: 0x15B0DCC
-    ::ArrayWrapper<System::Runtime::Remoting::Contexts::IContextAttribute*> get_ContextAttributes();
+    ::ArrayW<System::Runtime::Remoting::Contexts::IContextAttribute*> get_ContextAttributes();
     // public System.Type get_ObjectType()
     // Offset: 0x15B0DD4
     System::Type* get_ObjectType();
@@ -88,7 +95,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: System::Runtime::Remoting::ActivatedClientTypeEntry::get_ContextAttributes
 // Il2CppName: get_ContextAttributes
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::Runtime::Remoting::Contexts::IContextAttribute*> (System::Runtime::Remoting::ActivatedClientTypeEntry::*)()>(&System::Runtime::Remoting::ActivatedClientTypeEntry::get_ContextAttributes)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Runtime::Remoting::Contexts::IContextAttribute*> (System::Runtime::Remoting::ActivatedClientTypeEntry::*)()>(&System::Runtime::Remoting::ActivatedClientTypeEntry::get_ContextAttributes)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::ActivatedClientTypeEntry*), "get_ContextAttributes", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

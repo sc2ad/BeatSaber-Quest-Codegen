@@ -5,6 +5,7 @@
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/typedefs.h"
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Net::NetworkInformation
@@ -32,7 +33,7 @@ namespace System::Net::NetworkInformation {
     static void _cctor();
     // static public System.Net.NetworkInformation.NetworkInterface[] GetNetworkInterfaces()
     // Offset: 0x1646F18
-    static ::ArrayWrapper<System::Net::NetworkInformation::NetworkInterface*> GetNetworkInterfaces();
+    static ::ArrayW<System::Net::NetworkInformation::NetworkInterface*> GetNetworkInterfaces();
   }; // System.Net.NetworkInformation.SystemNetworkInterface
   #pragma pack(pop)
 }
@@ -50,7 +51,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: System::Net::NetworkInformation::SystemNetworkInterface::GetNetworkInterfaces
 // Il2CppName: GetNetworkInterfaces
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::Net::NetworkInformation::NetworkInterface*> (*)()>(&System::Net::NetworkInformation::SystemNetworkInterface::GetNetworkInterfaces)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Net::NetworkInformation::NetworkInterface*> (*)()>(&System::Net::NetworkInformation::SystemNetworkInterface::GetNetworkInterfaces)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Net::NetworkInformation::SystemNetworkInterface*), "GetNetworkInterfaces", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

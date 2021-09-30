@@ -27,6 +27,11 @@ namespace System::ComponentModel {
   // [TokenAttribute] Offset: FFFFFFFF
   class EnumConverter : public System::ComponentModel::TypeConverter {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.ComponentModel.TypeConverter/System.ComponentModel.StandardValuesCollection values
     // Size: 0x8
     // Offset: 0x10
@@ -39,6 +44,7 @@ namespace System::ComponentModel {
     System::Type* type;
     // Field size check
     static_assert(sizeof(System::Type*) == 0x8);
+    public:
     // Get instance field reference: private System.ComponentModel.TypeConverter/System.ComponentModel.StandardValuesCollection values
     System::ComponentModel::TypeConverter::StandardValuesCollection*& dyn_values();
     // Get instance field reference: private System.Type type

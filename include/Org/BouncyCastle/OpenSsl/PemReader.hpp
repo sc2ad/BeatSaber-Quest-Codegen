@@ -61,12 +61,18 @@ namespace Org::BouncyCastle::OpenSsl {
   // [TokenAttribute] Offset: FFFFFFFF
   class PemReader : public Org::BouncyCastle::Utilities::IO::Pem::PemReader {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Org.BouncyCastle.OpenSsl.IPasswordFinder pFinder
     // Size: 0x8
     // Offset: 0x18
     Org::BouncyCastle::OpenSsl::IPasswordFinder* pFinder;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::OpenSsl::IPasswordFinder*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IO::TextReader*
     constexpr operator System::IO::TextReader*() const noexcept = delete;
     // Get instance field reference: private readonly Org.BouncyCastle.OpenSsl.IPasswordFinder pFinder

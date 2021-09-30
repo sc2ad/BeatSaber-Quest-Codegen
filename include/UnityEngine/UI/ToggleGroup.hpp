@@ -40,6 +40,11 @@ namespace UnityEngine::UI {
     public:
     // Nested type: UnityEngine::UI::ToggleGroup::$$c
     class $$c;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean m_AllowSwitchOff
     // Size: 0x1
     // Offset: 0x18
@@ -54,6 +59,7 @@ namespace UnityEngine::UI {
     System::Collections::Generic::List_1<UnityEngine::UI::Toggle*>* m_Toggles;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<UnityEngine::UI::Toggle*>*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private System.Boolean m_AllowSwitchOff

@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Math::EC
@@ -38,6 +39,11 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
   // [TokenAttribute] Offset: FFFFFFFF
   class WNafUtilities::PrecomputeWithPointMapCallback : public ::Il2CppObject/*, public Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Org.BouncyCastle.Math.EC.ECPoint m_point
     // Size: 0x8
     // Offset: 0x10
@@ -62,6 +68,7 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     bool m_includeNegated;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback
     operator Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback*>(this);
@@ -89,7 +96,7 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
     bool CheckExisting(Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo* existingWNaf, int width, int reqPreCompLen, bool includeNegated);
     // private System.Boolean CheckTable(Org.BouncyCastle.Math.EC.ECPoint[] table, System.Int32 reqLen)
     // Offset: 0x1F87C88
-    bool CheckTable(::ArrayWrapper<Org::BouncyCastle::Math::EC::ECPoint*> table, int reqLen);
+    bool CheckTable(::ArrayW<Org::BouncyCastle::Math::EC::ECPoint*> table, int reqLen);
   }; // Org.BouncyCastle.Math.EC.Multiplier.WNafUtilities/Org.BouncyCastle.Math.EC.Multiplier.PrecomputeWithPointMapCallback
   #pragma pack(pop)
   static check_size<sizeof(WNafUtilities::PrecomputeWithPointMapCallback), 40 + sizeof(bool)> __Org_BouncyCastle_Math_EC_Multiplier_WNafUtilities_PrecomputeWithPointMapCallbackSizeCheck;
@@ -125,7 +132,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::PrecomputeWithPointMapCallback::CheckTable
 // Il2CppName: CheckTable
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::PrecomputeWithPointMapCallback::*)(::ArrayWrapper<Org::BouncyCastle::Math::EC::ECPoint*>, int)>(&Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::PrecomputeWithPointMapCallback::CheckTable)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::PrecomputeWithPointMapCallback::*)(::ArrayW<Org::BouncyCastle::Math::EC::ECPoint*>, int)>(&Org::BouncyCastle::Math::EC::Multiplier::WNafUtilities::PrecomputeWithPointMapCallback::CheckTable)> {
   static const MethodInfo* get() {
     static auto* table = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Org.BouncyCastle.Math.EC", "ECPoint"), 1)->byval_arg;
     static auto* reqLen = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

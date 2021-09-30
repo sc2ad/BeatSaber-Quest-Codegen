@@ -17,6 +17,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -50,6 +51,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::BlocksBlade::Element
     class Element;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Mesh _elementMesh
     // Size: 0x8
     // Offset: 0x18
@@ -125,27 +131,27 @@ namespace GlobalNamespace {
     // private UnityEngine.Vector4[] _positions
     // Size: 0x8
     // Offset: 0x60
-    ::ArrayWrapper<UnityEngine::Vector4> positions;
+    ::ArrayW<UnityEngine::Vector4> positions;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector4>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Vector4>) == 0x8);
     // private UnityEngine.Vector4[] _sizes
     // Size: 0x8
     // Offset: 0x68
-    ::ArrayWrapper<UnityEngine::Vector4> sizes;
+    ::ArrayW<UnityEngine::Vector4> sizes;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector4>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Vector4>) == 0x8);
     // private UnityEngine.Vector4[] _colors
     // Size: 0x8
     // Offset: 0x70
-    ::ArrayWrapper<UnityEngine::Vector4> colors;
+    ::ArrayW<UnityEngine::Vector4> colors;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector4>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Vector4>) == 0x8);
     // private UnityEngine.Matrix4x4[] _matrices
     // Size: 0x8
     // Offset: 0x78
-    ::ArrayWrapper<UnityEngine::Matrix4x4> matrices;
+    ::ArrayW<UnityEngine::Matrix4x4> matrices;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Matrix4x4>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Matrix4x4>) == 0x8);
     // private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
     // Size: 0x8
     // Offset: 0x80
@@ -158,6 +164,7 @@ namespace GlobalNamespace {
     int layer;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // [DoesNotRequireDomainReloadInitAttribute] Offset: 0xF0A93C
@@ -205,13 +212,13 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.List`1<BlocksBlade/Element> _elements
     System::Collections::Generic::List_1<GlobalNamespace::BlocksBlade::Element*>*& dyn__elements();
     // Get instance field reference: private UnityEngine.Vector4[] _positions
-    ::ArrayWrapper<UnityEngine::Vector4>& dyn__positions();
+    ::ArrayW<UnityEngine::Vector4>& dyn__positions();
     // Get instance field reference: private UnityEngine.Vector4[] _sizes
-    ::ArrayWrapper<UnityEngine::Vector4>& dyn__sizes();
+    ::ArrayW<UnityEngine::Vector4>& dyn__sizes();
     // Get instance field reference: private UnityEngine.Vector4[] _colors
-    ::ArrayWrapper<UnityEngine::Vector4>& dyn__colors();
+    ::ArrayW<UnityEngine::Vector4>& dyn__colors();
     // Get instance field reference: private UnityEngine.Matrix4x4[] _matrices
-    ::ArrayWrapper<UnityEngine::Matrix4x4>& dyn__matrices();
+    ::ArrayW<UnityEngine::Matrix4x4>& dyn__matrices();
     // Get instance field reference: private UnityEngine.MaterialPropertyBlock _materialPropertyBlock
     UnityEngine::MaterialPropertyBlock*& dyn__materialPropertyBlock();
     // Get instance field reference: private System.Int32 _layer

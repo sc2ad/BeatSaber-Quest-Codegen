@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections
@@ -68,7 +69,7 @@ namespace Org::BouncyCastle::Pkcs {
     // public System.Void .ctor(System.Byte[] encoded)
     // Offset: 0x14BCD98
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Pkcs10CertificationRequest* New_ctor(::ArrayWrapper<uint8_t> encoded) {
+    static Pkcs10CertificationRequest* New_ctor(::ArrayW<uint8_t> encoded) {
       static auto ___internal__logger = ::Logger::get().WithContext("Org::BouncyCastle::Pkcs::Pkcs10CertificationRequest::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Pkcs10CertificationRequest*, creationType>(encoded)));
     }

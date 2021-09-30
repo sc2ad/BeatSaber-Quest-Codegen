@@ -19,6 +19,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -42,6 +43,11 @@ namespace TMPro {
   // [AddComponentMenu] Offset: EB76B0
   class TextContainer : public UnityEngine::EventSystems::UIBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean m_hasChanged
     // Size: 0x1
     // Offset: 0x18
@@ -91,15 +97,15 @@ namespace TMPro {
     // private UnityEngine.Vector3[] m_corners
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayWrapper<UnityEngine::Vector3> m_corners;
+    ::ArrayW<UnityEngine::Vector3> m_corners;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector3>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Vector3>) == 0x8);
     // private UnityEngine.Vector3[] m_worldCorners
     // Size: 0x8
     // Offset: 0x48
-    ::ArrayWrapper<UnityEngine::Vector3> m_worldCorners;
+    ::ArrayW<UnityEngine::Vector3> m_worldCorners;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Vector3>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Vector3>) == 0x8);
     // private UnityEngine.Vector4 m_margins
     // Size: 0x10
     // Offset: 0x50
@@ -118,6 +124,7 @@ namespace TMPro {
     TMPro::TextMeshPro* m_textMeshPro;
     // Field size check
     static_assert(sizeof(TMPro::TextMeshPro*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static private UnityEngine.Vector2 k_defaultSize
@@ -139,9 +146,9 @@ namespace TMPro {
     // Get instance field reference: private System.Boolean m_isAutoFitting
     bool& dyn_m_isAutoFitting();
     // Get instance field reference: private UnityEngine.Vector3[] m_corners
-    ::ArrayWrapper<UnityEngine::Vector3>& dyn_m_corners();
+    ::ArrayW<UnityEngine::Vector3>& dyn_m_corners();
     // Get instance field reference: private UnityEngine.Vector3[] m_worldCorners
-    ::ArrayWrapper<UnityEngine::Vector3>& dyn_m_worldCorners();
+    ::ArrayW<UnityEngine::Vector3>& dyn_m_worldCorners();
     // Get instance field reference: private UnityEngine.Vector4 m_margins
     UnityEngine::Vector4& dyn_m_margins();
     // Get instance field reference: private UnityEngine.RectTransform m_rectTransform
@@ -204,10 +211,10 @@ namespace TMPro {
     void set_isAutoFitting(bool value);
     // public UnityEngine.Vector3[] get_corners()
     // Offset: 0x15C5D1C
-    ::ArrayWrapper<UnityEngine::Vector3> get_corners();
+    ::ArrayW<UnityEngine::Vector3> get_corners();
     // public UnityEngine.Vector3[] get_worldCorners()
     // Offset: 0x15C5D24
-    ::ArrayWrapper<UnityEngine::Vector3> get_worldCorners();
+    ::ArrayW<UnityEngine::Vector3> get_worldCorners();
     // public UnityEngine.Vector4 get_margins()
     // Offset: 0x15C5D2C
     UnityEngine::Vector4 get_margins();
@@ -436,7 +443,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (TMPro
 // Writing MetadataGetter for method: TMPro::TextContainer::get_corners
 // Il2CppName: get_corners
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Vector3> (TMPro::TextContainer::*)()>(&TMPro::TextContainer::get_corners)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Vector3> (TMPro::TextContainer::*)()>(&TMPro::TextContainer::get_corners)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextContainer*), "get_corners", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -444,7 +451,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: TMPro::TextContainer::get_worldCorners
 // Il2CppName: get_worldCorners
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Vector3> (TMPro::TextContainer::*)()>(&TMPro::TextContainer::get_worldCorners)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Vector3> (TMPro::TextContainer::*)()>(&TMPro::TextContainer::get_worldCorners)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(TMPro::TextContainer*), "get_worldCorners", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

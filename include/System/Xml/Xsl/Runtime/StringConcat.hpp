@@ -28,6 +28,11 @@ namespace System::Xml::Xsl::Runtime {
   // [EditorBrowsableAttribute] Offset: E68804
   struct StringConcat/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String s1
     // Size: 0x8
     // Offset: 0x0
@@ -70,6 +75,7 @@ namespace System::Xml::Xsl::Runtime {
     int idxStr;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: StringConcat
     constexpr StringConcat(::Il2CppString* s1_ = {}, ::Il2CppString* s2_ = {}, ::Il2CppString* s3_ = {}, ::Il2CppString* s4_ = {}, ::Il2CppString* delimiter_ = {}, System::Collections::Generic::List_1<::Il2CppString*>* strList_ = {}, int idxStr_ = {}) noexcept : s1{s1_}, s2{s2_}, s3{s3_}, s4{s4_}, delimiter{delimiter_}, strList{strList_}, idxStr{idxStr_} {}
     // Creating interface conversion operator: operator System::ValueType

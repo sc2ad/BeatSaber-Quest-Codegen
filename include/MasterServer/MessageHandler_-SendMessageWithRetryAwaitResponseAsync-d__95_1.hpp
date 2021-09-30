@@ -59,6 +59,11 @@ namespace MasterServer {
   template<typename T>
   struct MessageHandler::$SendMessageWithRetryAwaitResponseAsync$d__95_1/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0
@@ -131,6 +136,7 @@ namespace MasterServer {
     // Size: 0xFFFFFFFF
     // Offset: 0x0
     System::Runtime::CompilerServices::TaskAwaiter_1<MasterServer::IMasterServerMessage*> $$u__2;
+    public:
     // Creating value type constructor for type: $SendMessageWithRetryAwaitResponseAsync$d__95_1
     constexpr $SendMessageWithRetryAwaitResponseAsync$d__95_1(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<T> $$t__builder_ = {}, MasterServer::MessageHandler* $$4__this_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, System::Net::IPEndPoint* remoteEndPoint_ = {}, MasterServer::IMasterServerReliableRequest* message_ = {}, uint protocolVersion_ = {}, System::Func_5<uint, System::Net::IPEndPoint*, MasterServer::IMasterServerReliableRequest*, System::Threading::CancellationToken, System::Threading::Tasks::Task_1<T>*>* onSendFailedAwaitResponse_ = {}, MasterServer::MessageHandler::RequestResponseWaiter* $request$5__2_ = {}, MasterServer::MessageHandler::RequestWaiterId $waiterId$5__3_ = {}, T $tResult$5__4_ = {}, System::Runtime::CompilerServices::TaskAwaiter $$u__1_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<MasterServer::IMasterServerMessage*> $$u__2_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, $$4__this{$$4__this_}, cancellationToken{cancellationToken_}, remoteEndPoint{remoteEndPoint_}, message{message_}, protocolVersion{protocolVersion_}, onSendFailedAwaitResponse{onSendFailedAwaitResponse_}, $request$5__2{$request$5__2_}, $waiterId$5__3{$waiterId$5__3_}, $tResult$5__4{$tResult$5__4_}, $$u__1{$$u__1_}, $$u__2{$$u__2_} {}
     // Creating interface conversion operator: operator System::ValueType

@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: NUnit::Framework::Internal
@@ -51,6 +52,11 @@ namespace NUnit::Framework::Internal {
     class ArgListFragment;
     // Nested type: NUnit::Framework::Internal::TestNameGenerator::ArgumentFragment
     class ArgumentFragment;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String _pattern
     // Size: 0x8
     // Offset: 0x10
@@ -63,6 +69,7 @@ namespace NUnit::Framework::Internal {
     System::Collections::Generic::List_1<NUnit::Framework::Internal::TestNameGenerator::NameFragment*>* fragments;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<NUnit::Framework::Internal::TestNameGenerator::NameFragment*>*) == 0x8);
+    public:
     // Get static field: static public System.String DefaultTestNamePattern
     static ::Il2CppString* _get_DefaultTestNamePattern();
     // Set static field: static public System.String DefaultTestNamePattern
@@ -83,7 +90,7 @@ namespace NUnit::Framework::Internal {
     static void _cctor();
     // public System.String GetDisplayName(NUnit.Framework.Internal.TestMethod testMethod, System.Object[] args)
     // Offset: 0x24A2D30
-    ::Il2CppString* GetDisplayName(NUnit::Framework::Internal::TestMethod* testMethod, ::ArrayWrapper<::Il2CppObject*> args);
+    ::Il2CppString* GetDisplayName(NUnit::Framework::Internal::TestMethod* testMethod, ::ArrayW<::Il2CppObject*> args);
     // static private System.Collections.Generic.List`1<NUnit.Framework.Internal.TestNameGenerator/NUnit.Framework.Internal.NameFragment> BuildFragmentList(System.String pattern)
     // Offset: 0x24A2EC8
     static System::Collections::Generic::List_1<NUnit::Framework::Internal::TestNameGenerator::NameFragment*>* BuildFragmentList(::Il2CppString* pattern);
@@ -118,7 +125,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: NUnit::Framework::Internal::TestNameGenerator::GetDisplayName
 // Il2CppName: GetDisplayName
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Internal::TestNameGenerator::*)(NUnit::Framework::Internal::TestMethod*, ::ArrayWrapper<::Il2CppObject*>)>(&NUnit::Framework::Internal::TestNameGenerator::GetDisplayName)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppString* (NUnit::Framework::Internal::TestNameGenerator::*)(NUnit::Framework::Internal::TestMethod*, ::ArrayW<::Il2CppObject*>)>(&NUnit::Framework::Internal::TestNameGenerator::GetDisplayName)> {
   static const MethodInfo* get() {
     static auto* testMethod = &::il2cpp_utils::GetClassFromName("NUnit.Framework.Internal", "TestMethod")->byval_arg;
     static auto* args = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;

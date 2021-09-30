@@ -34,6 +34,11 @@ namespace UnityEngine::ProBuilder::MeshOperations {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class ConnectElements::$$c__DisplayClass2_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> lookup
     // Size: 0x8
     // Offset: 0x10
@@ -46,6 +51,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     UnityEngine::ProBuilder::ProBuilderMesh* mesh;
     // Field size check
     static_assert(sizeof(UnityEngine::ProBuilder::ProBuilderMesh*) == 0x8);
+    public:
     // Get instance field reference: public System.Collections.Generic.Dictionary`2<System.Int32,System.Int32> lookup
     System::Collections::Generic::Dictionary_2<int, int>*& dyn_lookup();
     // Get instance field reference: public UnityEngine.ProBuilder.ProBuilderMesh mesh

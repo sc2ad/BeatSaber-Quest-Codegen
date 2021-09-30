@@ -43,6 +43,11 @@ namespace GlobalNamespace {
   // [ExecuteInEditMode] Offset: FFFFFFFF
   class MissionConnectionsGenerator : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private MissionNodesManager _missionNodesManager
     // Size: 0x8
     // Offset: 0x18
@@ -67,6 +72,7 @@ namespace GlobalNamespace {
     System::Collections::Generic::List_1<GlobalNamespace::MissionNode*>* missionNodes;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::MissionNode*>*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private MissionNodesManager _missionNodesManager

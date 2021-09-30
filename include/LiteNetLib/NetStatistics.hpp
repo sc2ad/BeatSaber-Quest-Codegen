@@ -18,6 +18,11 @@ namespace LiteNetLib {
   // [TokenAttribute] Offset: FFFFFFFF
   class NetStatistics : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int64 _packetsSent
     // Size: 0x8
     // Offset: 0x10
@@ -48,6 +53,7 @@ namespace LiteNetLib {
     int64_t packetLoss;
     // Field size check
     static_assert(sizeof(int64_t) == 0x8);
+    public:
     // Get instance field reference: private System.Int64 _packetsSent
     int64_t& dyn__packetsSent();
     // Get instance field reference: private System.Int64 _packetsReceived

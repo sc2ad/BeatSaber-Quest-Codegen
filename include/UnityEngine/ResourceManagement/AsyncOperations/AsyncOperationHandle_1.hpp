@@ -61,6 +61,11 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
   template<typename TObject>
   struct AsyncOperationHandle_1/*, public System::ValueType, public System::Collections::IEnumerator, public System::IEquatable_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1<TObject> m_InternalOp
     // Size: 0x8
     // Offset: 0x0
@@ -79,6 +84,7 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
     ::Il2CppString* m_LocationName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Creating value type constructor for type: AsyncOperationHandle_1
     constexpr AsyncOperationHandle_1(UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>* m_InternalOp_ = {}, int m_Version_ = {}, ::Il2CppString* m_LocationName_ = {}) noexcept : m_InternalOp{m_InternalOp_}, m_Version{m_Version_}, m_LocationName{m_LocationName_} {}
     // Creating interface conversion operator: operator System::ValueType

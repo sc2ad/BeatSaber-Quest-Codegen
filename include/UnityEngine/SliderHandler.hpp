@@ -31,6 +31,11 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   struct SliderHandler/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly UnityEngine.Rect position
     // Size: 0x10
     // Offset: 0x0
@@ -93,6 +98,7 @@ namespace UnityEngine {
     int id;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: SliderHandler
     constexpr SliderHandler(UnityEngine::Rect position_ = {}, float currentValue_ = {}, float size_ = {}, float start_ = {}, float end_ = {}, UnityEngine::GUIStyle* slider_ = {}, UnityEngine::GUIStyle* thumb_ = {}, UnityEngine::GUIStyle* thumbExtent_ = {}, bool horiz_ = {}, int id_ = {}) noexcept : position{position_}, currentValue{currentValue_}, size{size_}, start{start_}, end{end_}, slider{slider_}, thumb{thumb_}, thumbExtent{thumbExtent_}, horiz{horiz_}, id{id_} {}
     // Creating interface conversion operator: operator System::ValueType

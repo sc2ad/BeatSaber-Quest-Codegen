@@ -28,6 +28,11 @@ namespace System::IO {
   // [ComVisibleAttribute] Offset: E5E238
   class FileNotFoundException : public System::IO::IOException {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String _fileName
     // Size: 0x8
     // Offset: 0x90
@@ -40,6 +45,7 @@ namespace System::IO {
     ::Il2CppString* fusionLog;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Deleting conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept = delete;
     // Get instance field reference: private System.String _fileName

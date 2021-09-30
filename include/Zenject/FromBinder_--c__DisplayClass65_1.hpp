@@ -51,6 +51,11 @@ namespace Zenject {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class FromBinder::$$c__DisplayClass65_1 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public Zenject.DiContainer container
     // Size: 0x8
     // Offset: 0x10
@@ -75,6 +80,7 @@ namespace Zenject {
     System::Func_2<UnityEngine::GameObject*, UnityEngine::Component*>* $$9__2;
     // Field size check
     static_assert(sizeof(System::Func_2<UnityEngine::GameObject*, UnityEngine::Component*>*) == 0x8);
+    public:
     // Get instance field reference: public Zenject.DiContainer container
     Zenject::DiContainer*& dyn_container();
     // Get instance field reference: public System.Type concreteType

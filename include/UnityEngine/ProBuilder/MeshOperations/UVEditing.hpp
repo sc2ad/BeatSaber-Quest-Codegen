@@ -7,6 +7,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.Vector2
 #include "UnityEngine/Vector2.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::ProBuilder::MeshOperations
@@ -62,7 +63,7 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     static void _cctor();
     // static System.Void SetAutoUV(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.ProBuilder.Face[] faces, System.Boolean auto)
     // Offset: 0x18FFCE0
-    static void SetAutoUV(UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayWrapper<UnityEngine::ProBuilder::Face*> faces, bool _auto);
+    static void SetAutoUV(UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayW<UnityEngine::ProBuilder::Face*> faces, bool _auto);
     // static System.Void SetAutoAndAlignUnwrapParamsToUVs(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<UnityEngine.ProBuilder.Face> facesToConvert)
     // Offset: 0x18FFE80
     static void SetAutoAndAlignUnwrapParamsToUVs(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>* facesToConvert);
@@ -89,16 +90,16 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     static bool AlignEdges(UnityEngine::ProBuilder::ProBuilderMesh* mesh, UnityEngine::ProBuilder::Face* faceToMove, UnityEngine::ProBuilder::Edge edgeToAlignTo, UnityEngine::ProBuilder::Edge edgeToBeAligned, int channel);
     // static UnityEngine.Vector2[] GetUVs(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Int32 channel)
     // Offset: 0x19018C4
-    static ::ArrayWrapper<UnityEngine::Vector2> GetUVs(UnityEngine::ProBuilder::ProBuilderMesh* mesh, int channel);
+    static ::ArrayW<UnityEngine::Vector2> GetUVs(UnityEngine::ProBuilder::ProBuilderMesh* mesh, int channel);
     // static System.Void ApplyUVs(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.Vector2[] uvs, System.Int32 channel, System.Boolean applyToMesh)
     // Offset: 0x1901DD0
-    static void ApplyUVs(UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayWrapper<UnityEngine::Vector2> uvs, int channel, bool applyToMesh);
+    static void ApplyUVs(UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayW<UnityEngine::Vector2> uvs, int channel, bool applyToMesh);
     // static public System.Void SewUVs(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Int32[] indexes, System.Single delta)
     // Offset: 0x1902120
-    static void SewUVs(UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayWrapper<int> indexes, float delta);
+    static void SewUVs(UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayW<int> indexes, float delta);
     // static public System.Void CollapseUVs(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Int32[] indexes)
     // Offset: 0x19026C4
-    static void CollapseUVs(UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayWrapper<int> indexes);
+    static void CollapseUVs(UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayW<int> indexes);
     // static public System.Void SplitUVs(UnityEngine.ProBuilder.ProBuilderMesh mesh, System.Collections.Generic.IEnumerable`1<System.Int32> indexes)
     // Offset: 0x1901AD8
     static void SplitUVs(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<int>* indexes);
@@ -107,22 +108,22 @@ namespace UnityEngine::ProBuilder::MeshOperations {
     static void SplitUVs(UnityEngine::ProBuilder::ProBuilderMesh* mesh, System::Collections::Generic::IEnumerable_1<UnityEngine::ProBuilder::Face*>* faces);
     // static System.Void ProjectFacesAuto(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.ProBuilder.Face[] faces, System.Int32 channel)
     // Offset: 0x1902B0C
-    static void ProjectFacesAuto(UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayWrapper<UnityEngine::ProBuilder::Face*> faces, int channel);
+    static void ProjectFacesAuto(UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayW<UnityEngine::ProBuilder::Face*> faces, int channel);
     // static public System.Void ProjectFacesBox(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.ProBuilder.Face[] faces, System.Int32 channel)
     // Offset: 0x1902FAC
-    static void ProjectFacesBox(UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayWrapper<UnityEngine::ProBuilder::Face*> faces, int channel);
+    static void ProjectFacesBox(UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayW<UnityEngine::ProBuilder::Face*> faces, int channel);
     // static UnityEngine.Vector2 FindMinimalUV(UnityEngine.Vector2[] uvs, System.Int32[] indices, System.Single xMin, System.Single yMin)
     // Offset: 0x19034A0
-    static UnityEngine::Vector2 FindMinimalUV(::ArrayWrapper<UnityEngine::Vector2> uvs, ::ArrayWrapper<int> indices, float xMin, float yMin);
+    static UnityEngine::Vector2 FindMinimalUV(::ArrayW<UnityEngine::Vector2> uvs, ::ArrayW<int> indices, float xMin, float yMin);
     // static public System.Void ProjectFacesBox(UnityEngine.ProBuilder.ProBuilderMesh mesh, UnityEngine.ProBuilder.Face[] faces, UnityEngine.Vector2 lowerLeftAnchor, System.Int32 channel)
     // Offset: 0x19035B0
-    static void ProjectFacesBox(UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayWrapper<UnityEngine::ProBuilder::Face*> faces, UnityEngine::Vector2 lowerLeftAnchor, int channel);
+    static void ProjectFacesBox(UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::ArrayW<UnityEngine::ProBuilder::Face*> faces, UnityEngine::Vector2 lowerLeftAnchor, int channel);
     // static public System.Void ProjectFacesSphere(UnityEngine.ProBuilder.ProBuilderMesh pb, System.Int32[] indexes, System.Int32 channel)
     // Offset: 0x1903B40
-    static void ProjectFacesSphere(UnityEngine::ProBuilder::ProBuilderMesh* pb, ::ArrayWrapper<int> indexes, int channel);
+    static void ProjectFacesSphere(UnityEngine::ProBuilder::ProBuilderMesh* pb, ::ArrayW<int> indexes, int channel);
     // static public UnityEngine.Vector2[] FitUVs(UnityEngine.Vector2[] uvs)
     // Offset: 0x1903D0C
-    static ::ArrayWrapper<UnityEngine::Vector2> FitUVs(::ArrayWrapper<UnityEngine::Vector2> uvs);
+    static ::ArrayW<UnityEngine::Vector2> FitUVs(::ArrayW<UnityEngine::Vector2> uvs);
   }; // UnityEngine.ProBuilder.MeshOperations.UVEditing
   #pragma pack(pop)
 }
@@ -140,7 +141,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::UVEditing::SetAutoUV
 // Il2CppName: SetAutoUV
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, ::ArrayWrapper<UnityEngine::ProBuilder::Face*>, bool)>(&UnityEngine::ProBuilder::MeshOperations::UVEditing::SetAutoUV)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, ::ArrayW<UnityEngine::ProBuilder::Face*>, bool)>(&UnityEngine::ProBuilder::MeshOperations::UVEditing::SetAutoUV)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
     static auto* faces = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Face"), 1)->byval_arg;
@@ -240,7 +241,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(Un
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::UVEditing::GetUVs
 // Il2CppName: GetUVs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Vector2> (*)(UnityEngine::ProBuilder::ProBuilderMesh*, int)>(&UnityEngine::ProBuilder::MeshOperations::UVEditing::GetUVs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Vector2> (*)(UnityEngine::ProBuilder::ProBuilderMesh*, int)>(&UnityEngine::ProBuilder::MeshOperations::UVEditing::GetUVs)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
     static auto* channel = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -250,7 +251,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::UVEditing::ApplyUVs
 // Il2CppName: ApplyUVs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, ::ArrayWrapper<UnityEngine::Vector2>, int, bool)>(&UnityEngine::ProBuilder::MeshOperations::UVEditing::ApplyUVs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, ::ArrayW<UnityEngine::Vector2>, int, bool)>(&UnityEngine::ProBuilder::MeshOperations::UVEditing::ApplyUVs)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
     static auto* uvs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2"), 1)->byval_arg;
@@ -262,7 +263,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::UVEditing::SewUVs
 // Il2CppName: SewUVs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, ::ArrayWrapper<int>, float)>(&UnityEngine::ProBuilder::MeshOperations::UVEditing::SewUVs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, ::ArrayW<int>, float)>(&UnityEngine::ProBuilder::MeshOperations::UVEditing::SewUVs)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
     static auto* indexes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
@@ -273,7 +274,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::UVEditing::CollapseUVs
 // Il2CppName: CollapseUVs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, ::ArrayWrapper<int>)>(&UnityEngine::ProBuilder::MeshOperations::UVEditing::CollapseUVs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, ::ArrayW<int>)>(&UnityEngine::ProBuilder::MeshOperations::UVEditing::CollapseUVs)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
     static auto* indexes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
@@ -303,7 +304,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::UVEditing::ProjectFacesAuto
 // Il2CppName: ProjectFacesAuto
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, ::ArrayWrapper<UnityEngine::ProBuilder::Face*>, int)>(&UnityEngine::ProBuilder::MeshOperations::UVEditing::ProjectFacesAuto)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, ::ArrayW<UnityEngine::ProBuilder::Face*>, int)>(&UnityEngine::ProBuilder::MeshOperations::UVEditing::ProjectFacesAuto)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
     static auto* faces = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Face"), 1)->byval_arg;
@@ -314,7 +315,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::UVEditing::ProjectFacesBox
 // Il2CppName: ProjectFacesBox
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, ::ArrayWrapper<UnityEngine::ProBuilder::Face*>, int)>(&UnityEngine::ProBuilder::MeshOperations::UVEditing::ProjectFacesBox)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, ::ArrayW<UnityEngine::ProBuilder::Face*>, int)>(&UnityEngine::ProBuilder::MeshOperations::UVEditing::ProjectFacesBox)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
     static auto* faces = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Face"), 1)->byval_arg;
@@ -325,7 +326,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::UVEditing::FindMinimalUV
 // Il2CppName: FindMinimalUV
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(::ArrayWrapper<UnityEngine::Vector2>, ::ArrayWrapper<int>, float, float)>(&UnityEngine::ProBuilder::MeshOperations::UVEditing::FindMinimalUV)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine::Vector2 (*)(::ArrayW<UnityEngine::Vector2>, ::ArrayW<int>, float, float)>(&UnityEngine::ProBuilder::MeshOperations::UVEditing::FindMinimalUV)> {
   static const MethodInfo* get() {
     static auto* uvs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2"), 1)->byval_arg;
     static auto* indices = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
@@ -337,7 +338,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::UVEditing::ProjectFacesBox
 // Il2CppName: ProjectFacesBox
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, ::ArrayWrapper<UnityEngine::ProBuilder::Face*>, UnityEngine::Vector2, int)>(&UnityEngine::ProBuilder::MeshOperations::UVEditing::ProjectFacesBox)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, ::ArrayW<UnityEngine::ProBuilder::Face*>, UnityEngine::Vector2, int)>(&UnityEngine::ProBuilder::MeshOperations::UVEditing::ProjectFacesBox)> {
   static const MethodInfo* get() {
     static auto* mesh = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
     static auto* faces = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "Face"), 1)->byval_arg;
@@ -349,7 +350,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::UVEditing::ProjectFacesSphere
 // Il2CppName: ProjectFacesSphere
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, ::ArrayWrapper<int>, int)>(&UnityEngine::ProBuilder::MeshOperations::UVEditing::ProjectFacesSphere)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::ProBuilder::ProBuilderMesh*, ::ArrayW<int>, int)>(&UnityEngine::ProBuilder::MeshOperations::UVEditing::ProjectFacesSphere)> {
   static const MethodInfo* get() {
     static auto* pb = &::il2cpp_utils::GetClassFromName("UnityEngine.ProBuilder", "ProBuilderMesh")->byval_arg;
     static auto* indexes = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Int32"), 1)->byval_arg;
@@ -360,7 +361,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(Un
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::MeshOperations::UVEditing::FitUVs
 // Il2CppName: FitUVs
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Vector2> (*)(::ArrayWrapper<UnityEngine::Vector2>)>(&UnityEngine::ProBuilder::MeshOperations::UVEditing::FitUVs)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Vector2> (*)(::ArrayW<UnityEngine::Vector2>)>(&UnityEngine::ProBuilder::MeshOperations::UVEditing::FitUVs)> {
   static const MethodInfo* get() {
     static auto* uvs = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "Vector2"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::ProBuilder::MeshOperations::UVEditing*), "FitUVs", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{uvs});

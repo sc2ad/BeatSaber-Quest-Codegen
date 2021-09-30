@@ -19,6 +19,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -43,6 +44,11 @@ namespace System {
     struct ParseFailureKind;
     // Nested type: System::Version::VersionResult
     struct VersionResult;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 _Major
     // Size: 0x4
     // Offset: 0x10
@@ -67,6 +73,7 @@ namespace System {
     int Revision;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating interface conversion operator: operator System::ICloneable
     operator System::ICloneable() noexcept {
       return *reinterpret_cast<System::ICloneable*>(this);
@@ -84,9 +91,9 @@ namespace System {
       return *reinterpret_cast<System::IComparable*>(this);
     }
     // Get static field: static private readonly System.Char[] SeparatorsArray
-    static ::ArrayWrapper<::Il2CppChar> _get_SeparatorsArray();
+    static ::ArrayW<::Il2CppChar> _get_SeparatorsArray();
     // Set static field: static private readonly System.Char[] SeparatorsArray
-    static void _set_SeparatorsArray(::ArrayWrapper<::Il2CppChar> value);
+    static void _set_SeparatorsArray(::ArrayW<::Il2CppChar> value);
     // static field const value: static private System.Int32 ZERO_CHAR_VALUE
     static constexpr const int ZERO_CHAR_VALUE = 48;
     // Get static field: static private System.Int32 ZERO_CHAR_VALUE

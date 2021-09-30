@@ -29,6 +29,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LocalizedAudioClipSO::LocalizedAudioClipInfo : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public Polyglot.Language language
     // Size: 0x4
     // Offset: 0x10
@@ -43,6 +48,7 @@ namespace GlobalNamespace {
     UnityEngine::AudioClip* localizedAudioClip;
     // Field size check
     static_assert(sizeof(UnityEngine::AudioClip*) == 0x8);
+    public:
     // Get instance field reference: public Polyglot.Language language
     Polyglot::Language& dyn_language();
     // Get instance field reference: public UnityEngine.AudioClip localizedAudioClip

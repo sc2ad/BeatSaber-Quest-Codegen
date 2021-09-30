@@ -4,6 +4,7 @@
 #pragma once
 // Begin includes
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin il2cpp-utils forward declares
 struct Il2CppObject;
@@ -19,7 +20,7 @@ namespace System::Runtime::Remoting {
     public:
     // public System.Object[] get_ChannelData()
     // Offset: 0xFFFFFFFF
-    ::ArrayWrapper<::Il2CppObject*> get_ChannelData();
+    ::ArrayW<::Il2CppObject*> get_ChannelData();
   }; // System.Runtime.Remoting.IChannelInfo
   #pragma pack(pop)
 }
@@ -29,7 +30,7 @@ DEFINE_IL2CPP_ARG_TYPE(System::Runtime::Remoting::IChannelInfo*, "System.Runtime
 // Writing MetadataGetter for method: System::Runtime::Remoting::IChannelInfo::get_ChannelData
 // Il2CppName: get_ChannelData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppObject*> (System::Runtime::Remoting::IChannelInfo::*)()>(&System::Runtime::Remoting::IChannelInfo::get_ChannelData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppObject*> (System::Runtime::Remoting::IChannelInfo::*)()>(&System::Runtime::Remoting::IChannelInfo::get_ChannelData)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Runtime::Remoting::IChannelInfo*), "get_ChannelData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

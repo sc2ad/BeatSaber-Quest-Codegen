@@ -39,6 +39,11 @@ namespace HMUI {
   // [TokenAttribute] Offset: FFFFFFFF
   class IconSegmentedControlCell : public HMUI::SegmentedControlCell {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.UI.Image _icon
     // Size: 0x8
     // Offset: 0x48
@@ -58,6 +63,7 @@ namespace HMUI {
     UnityEngine::GameObject* backgroundGameObject;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
+    public:
     // Get instance field reference: private UnityEngine.UI.Image _icon
     UnityEngine::UI::Image*& dyn__icon();
     // Get instance field reference: private HMUI.HoverHint _hoverHint

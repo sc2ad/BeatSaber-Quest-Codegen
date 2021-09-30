@@ -21,6 +21,11 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class GameServerLobbyFlowCoordinator::$$c__DisplayClass75_0 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public GameServerLobbyFlowCoordinator <>4__this
     // Size: 0x8
     // Offset: 0x10
@@ -33,6 +38,7 @@ namespace GlobalNamespace {
     ::Il2CppString* userId;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: public GameServerLobbyFlowCoordinator <>4__this
     GlobalNamespace::GameServerLobbyFlowCoordinator*& dyn_$$4__this();
     // Get instance field reference: public System.String userId

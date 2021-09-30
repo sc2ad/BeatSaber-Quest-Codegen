@@ -46,6 +46,11 @@ namespace UnityEngine::AddressableAssets::ResourceProviders {
     public:
     // Nested type: UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::BundledCatalog
     class BundledCatalog;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String m_LocalDataPath
     // Size: 0x8
     // Offset: 0x10
@@ -86,6 +91,7 @@ namespace UnityEngine::AddressableAssets::ResourceProviders {
     UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::BundledCatalog* m_BundledCatalog;
     // Field size check
     static_assert(sizeof(UnityEngine::AddressableAssets::ResourceProviders::ContentCatalogProvider::InternalOp::BundledCatalog*) == 0x8);
+    public:
     // Get instance field reference: private System.String m_LocalDataPath
     ::Il2CppString*& dyn_m_LocalDataPath();
     // Get instance field reference: private System.String m_RemoteHashValue

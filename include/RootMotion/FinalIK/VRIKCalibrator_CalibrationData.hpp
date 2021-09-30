@@ -29,6 +29,11 @@ namespace RootMotion::FinalIK {
     public:
     // Nested type: RootMotion::FinalIK::VRIKCalibrator::CalibrationData::Target
     class Target;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Single scale
     // Size: 0x4
     // Offset: 0x10
@@ -103,6 +108,7 @@ namespace RootMotion::FinalIK {
     float pelvisRotationWeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: public System.Single scale
     float& dyn_scale();
     // Get instance field reference: public RootMotion.FinalIK.VRIKCalibrator/RootMotion.FinalIK.CalibrationData/RootMotion.FinalIK.Target head

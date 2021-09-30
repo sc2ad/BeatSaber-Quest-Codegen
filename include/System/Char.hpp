@@ -17,6 +17,7 @@
 #include "System/IConvertible.hpp"
 // Including type: System.Int32
 #include "System/Int32.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Globalization
@@ -50,12 +51,18 @@ namespace System {
   // [ComVisibleAttribute] Offset: E5BE20
   struct Char/*, public System::ValueType, public System::IComparable_1<::Il2CppChar>, public System::IEquatable_1<::Il2CppChar>, public System::IComparable, public System::IConvertible*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Char m_value
     // Size: 0x2
     // Offset: 0x0
     ::Il2CppChar m_value;
     // Field size check
     static_assert(sizeof(::Il2CppChar) == 0x2);
+    public:
     // Creating value type constructor for type: Char
     constexpr Char(::Il2CppChar m_value_ = {}) noexcept : m_value{m_value_} {}
     // Creating interface conversion operator: operator System::ValueType
@@ -95,9 +102,9 @@ namespace System {
     // Set static field: static public System.Char MinValue
     static void _set_MinValue(::Il2CppChar value);
     // Get static field: static private readonly System.Byte[] categoryForLatin1
-    static ::ArrayWrapper<uint8_t> _get_categoryForLatin1();
+    static ::ArrayW<uint8_t> _get_categoryForLatin1();
     // Set static field: static private readonly System.Byte[] categoryForLatin1
-    static void _set_categoryForLatin1(::ArrayWrapper<uint8_t> value);
+    static void _set_categoryForLatin1(::ArrayW<uint8_t> value);
     // static field const value: static System.Int32 UNICODE_PLANE00_END
     static constexpr const int UNICODE_PLANE00_END = 65535;
     // Get static field: static System.Int32 UNICODE_PLANE00_END

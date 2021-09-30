@@ -40,6 +40,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerResultsData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.String _gameId
     // Size: 0x8
     // Offset: 0x10
@@ -64,6 +69,7 @@ namespace GlobalNamespace {
     System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>* allPlayersSortedData;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::IReadOnlyList_1<GlobalNamespace::MultiplayerPlayerResultsData*>*) == 0x8);
+    public:
     // Get instance field reference: private readonly System.String _gameId
     ::Il2CppString*& dyn__gameId();
     // Get instance field reference: private readonly MultiplayerPlayerResultsData _localPlayerResultData

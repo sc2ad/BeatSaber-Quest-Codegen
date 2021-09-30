@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -30,6 +31,11 @@ namespace UnityEngine {
   // [VisibleToOtherModulesAttribute] Offset: FFFFFFFF
   class GUILayoutEntry : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Single minWidth
     // Size: 0x4
     // Offset: 0x10
@@ -86,6 +92,7 @@ namespace UnityEngine {
     UnityEngine::GUIStyle* m_Style;
     // Field size check
     static_assert(sizeof(UnityEngine::GUIStyle*) == 0x8);
+    public:
     // Get static field: static UnityEngine.Rect kDummyRect
     static UnityEngine::Rect _get_kDummyRect();
     // Set static field: static UnityEngine.Rect kDummyRect
@@ -146,7 +153,7 @@ namespace UnityEngine {
     // public System.Void .ctor(System.Single _minWidth, System.Single _maxWidth, System.Single _minHeight, System.Single _maxHeight, UnityEngine.GUIStyle _style, UnityEngine.GUILayoutOption[] options)
     // Offset: 0x1C9A62C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static GUILayoutEntry* New_ctor(float _minWidth, float _maxWidth, float _minHeight, float _maxHeight, UnityEngine::GUIStyle* _style, ::ArrayWrapper<UnityEngine::GUILayoutOption*> options) {
+    static GUILayoutEntry* New_ctor(float _minWidth, float _maxWidth, float _minHeight, float _maxHeight, UnityEngine::GUIStyle* _style, ::ArrayW<UnityEngine::GUILayoutOption*> options) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::GUILayoutEntry::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GUILayoutEntry*, creationType>(_minWidth, _maxWidth, _minHeight, _maxHeight, _style, options)));
     }
@@ -170,7 +177,7 @@ namespace UnityEngine {
     void ApplyStyleSettings(UnityEngine::GUIStyle* style);
     // public System.Void ApplyOptions(UnityEngine.GUILayoutOption[] options)
     // Offset: 0x1C9A950
-    void ApplyOptions(::ArrayWrapper<UnityEngine::GUILayoutOption*> options);
+    void ApplyOptions(::ArrayW<UnityEngine::GUILayoutOption*> options);
     // public override System.String ToString()
     // Offset: 0x1C9AC2C
     // Implemented from: System.Object
@@ -312,7 +319,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::GUILayoutEntry::ApplyOptions
 // Il2CppName: ApplyOptions
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUILayoutEntry::*)(::ArrayWrapper<UnityEngine::GUILayoutOption*>)>(&UnityEngine::GUILayoutEntry::ApplyOptions)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::GUILayoutEntry::*)(::ArrayW<UnityEngine::GUILayoutOption*>)>(&UnityEngine::GUILayoutEntry::ApplyOptions)> {
   static const MethodInfo* get() {
     static auto* options = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "GUILayoutOption"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::GUILayoutEntry*), "ApplyOptions", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{options});

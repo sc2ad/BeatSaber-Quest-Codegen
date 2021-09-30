@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -38,6 +39,11 @@ namespace UnityEngine::Networking {
   // [NativeHeaderAttribute] Offset: ED7D6C
   class DownloadHandlerTexture : public UnityEngine::Networking::DownloadHandler {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Texture2D mTexture
     // Size: 0x8
     // Offset: 0x18
@@ -56,6 +62,7 @@ namespace UnityEngine::Networking {
     bool mNonReadable;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Texture2D mTexture
@@ -93,7 +100,7 @@ namespace UnityEngine::Networking {
     // Offset: 0x2629898
     // Implemented from: UnityEngine.Networking.DownloadHandler
     // Base method: System.Byte[] DownloadHandler::GetData()
-    ::ArrayWrapper<uint8_t> GetData();
+    ::ArrayW<uint8_t> GetData();
   }; // UnityEngine.Networking.DownloadHandlerTexture
   #pragma pack(pop)
   static check_size<sizeof(DownloadHandlerTexture), 33 + sizeof(bool)> __UnityEngine_Networking_DownloadHandlerTextureSizeCheck;
@@ -160,7 +167,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Networking::DownloadHandlerTexture::GetData
 // Il2CppName: GetData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (UnityEngine::Networking::DownloadHandlerTexture::*)()>(&UnityEngine::Networking::DownloadHandlerTexture::GetData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (UnityEngine::Networking::DownloadHandlerTexture::*)()>(&UnityEngine::Networking::DownloadHandlerTexture::GetData)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Networking::DownloadHandlerTexture*), "GetData", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

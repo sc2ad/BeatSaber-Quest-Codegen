@@ -34,6 +34,11 @@ namespace RootMotion::FinalIK {
   // [TokenAttribute] Offset: FFFFFFFF
   class OffsetModifier::OffsetLimits : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [TooltipAttribute] Offset: 0xEF7560
     // public RootMotion.FinalIK.FullBodyBipedEffector effector
     // Size: 0x4
@@ -113,6 +118,7 @@ namespace RootMotion::FinalIK {
     float maxZ;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: public RootMotion.FinalIK.FullBodyBipedEffector effector
     RootMotion::FinalIK::FullBodyBipedEffector& dyn_effector();
     // Get instance field reference: public System.Single spring

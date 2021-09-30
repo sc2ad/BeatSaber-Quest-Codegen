@@ -107,6 +107,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRManager : public UnityEngine::MonoBehaviour/*, public GlobalNamespace::OVRMixedRealityCaptureConfiguration*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.IEnumerable`1<UnityEngine.Camera> disabledCameras
     // Size: 0x8
     // Offset: 0x18
@@ -452,6 +457,7 @@ namespace GlobalNamespace {
     bool isSupportedPlatform;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::OVRMixedRealityCaptureConfiguration
     operator GlobalNamespace::OVRMixedRealityCaptureConfiguration() noexcept {
       return *reinterpret_cast<GlobalNamespace::OVRMixedRealityCaptureConfiguration*>(this);

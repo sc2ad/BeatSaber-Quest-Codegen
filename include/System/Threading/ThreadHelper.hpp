@@ -32,6 +32,11 @@ namespace System::Threading {
   // [TokenAttribute] Offset: FFFFFFFF
   class ThreadHelper : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Delegate _start
     // Size: 0x8
     // Offset: 0x10
@@ -50,6 +55,7 @@ namespace System::Threading {
     System::Threading::ExecutionContext* executionContext;
     // Field size check
     static_assert(sizeof(System::Threading::ExecutionContext*) == 0x8);
+    public:
     // Get static field: static System.Threading.ContextCallback _ccb
     static System::Threading::ContextCallback* _get__ccb();
     // Set static field: static System.Threading.ContextCallback _ccb

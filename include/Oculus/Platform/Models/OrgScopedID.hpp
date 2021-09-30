@@ -20,12 +20,18 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class OrgScopedID : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly System.UInt64 ID
     // Size: 0x8
     // Offset: 0x10
     uint64_t _ID;
     // Field size check
     static_assert(sizeof(uint64_t) == 0x8);
+    public:
     // Creating conversion operator: operator uint64_t
     constexpr operator uint64_t() const noexcept {
       return _ID;

@@ -34,6 +34,11 @@ namespace System::Threading::Tasks {
   // [TokenAttribute] Offset: FFFFFFFF
   class CompletionActionInvoker : public ::Il2CppObject/*, public System::Threading::IThreadPoolWorkItem*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.Threading.Tasks.ITaskCompletionAction m_action
     // Size: 0x8
     // Offset: 0x10
@@ -46,6 +51,7 @@ namespace System::Threading::Tasks {
     System::Threading::Tasks::Task* m_completingTask;
     // Field size check
     static_assert(sizeof(System::Threading::Tasks::Task*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Threading::IThreadPoolWorkItem
     operator System::Threading::IThreadPoolWorkItem() noexcept {
       return *reinterpret_cast<System::Threading::IThreadPoolWorkItem*>(this);

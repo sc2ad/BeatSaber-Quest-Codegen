@@ -19,6 +19,11 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Extents/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Vector2 min
     // Size: 0x8
     // Offset: 0x0
@@ -31,6 +36,7 @@ namespace TMPro {
     UnityEngine::Vector2 max;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector2) == 0x8);
+    public:
     // Creating value type constructor for type: Extents
     constexpr Extents(UnityEngine::Vector2 min_ = {}, UnityEngine::Vector2 max_ = {}) noexcept : min{min_}, max{max_} {}
     // Creating interface conversion operator: operator System::ValueType

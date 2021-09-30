@@ -21,6 +21,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   struct BeatmapObjectSpawnMovementData::ObstacleSpawnData/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly UnityEngine.Vector3 moveStartPos
     // Size: 0xC
     // Offset: 0x0
@@ -63,6 +68,7 @@ namespace GlobalNamespace {
     float noteLinesDistance;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: ObstacleSpawnData
     constexpr ObstacleSpawnData(UnityEngine::Vector3 moveStartPos_ = {}, UnityEngine::Vector3 moveEndPos_ = {}, UnityEngine::Vector3 jumpEndPos_ = {}, float obstacleHeight_ = {}, float moveDuration_ = {}, float jumpDuration_ = {}, float noteLinesDistance_ = {}) noexcept : moveStartPos{moveStartPos_}, moveEndPos{moveEndPos_}, jumpEndPos{jumpEndPos_}, obstacleHeight{obstacleHeight_}, moveDuration{moveDuration_}, jumpDuration{jumpDuration_}, noteLinesDistance{noteLinesDistance_} {}
     // Creating interface conversion operator: operator System::ValueType

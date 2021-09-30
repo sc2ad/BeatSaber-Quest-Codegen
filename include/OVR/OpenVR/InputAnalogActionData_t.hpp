@@ -17,6 +17,11 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct InputAnalogActionData_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Boolean bActive
     // Size: 0x1
     // Offset: 0x0
@@ -73,6 +78,7 @@ namespace OVR::OpenVR {
     float fUpdateTime;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: InputAnalogActionData_t
     constexpr InputAnalogActionData_t(bool bActive_ = {}, uint64_t activeOrigin_ = {}, float x_ = {}, float y_ = {}, float z_ = {}, float deltaX_ = {}, float deltaY_ = {}, float deltaZ_ = {}, float fUpdateTime_ = {}) noexcept : bActive{bActive_}, activeOrigin{activeOrigin_}, x{x_}, y{y_}, z{z_}, deltaX{deltaX_}, deltaY{deltaY_}, deltaZ{deltaZ_}, fUpdateTime{fUpdateTime_} {}
     // Creating interface conversion operator: operator System::ValueType

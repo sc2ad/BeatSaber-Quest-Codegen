@@ -53,6 +53,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::OnlineServicesInfoViewController::$GetServerStatus$d__8
     struct $GetServerStatus$d__8;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private HMUI.TextPageScrollView _textPageScrollView
     // Size: 0x8
     // Offset: 0x70
@@ -97,6 +102,7 @@ namespace GlobalNamespace {
     System::Text::StringBuilder* sb;
     // Field size check
     static_assert(sizeof(System::Text::StringBuilder*) == 0x8);
+    public:
     // Get instance field reference: private HMUI.TextPageScrollView _textPageScrollView
     HMUI::TextPageScrollView*& dyn__textPageScrollView();
     // Get instance field reference: private BeatmapLevelSO _testBeatmapLevel

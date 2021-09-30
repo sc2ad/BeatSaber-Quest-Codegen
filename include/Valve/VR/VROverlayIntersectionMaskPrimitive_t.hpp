@@ -20,6 +20,11 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct VROverlayIntersectionMaskPrimitive_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public Valve.VR.EVROverlayIntersectionMaskPrimitiveType m_nPrimitiveType
     // Size: 0x4
     // Offset: 0x0
@@ -30,6 +35,7 @@ namespace Valve::VR {
     // Size: 0xFFFFFFFF
     // Offset: 0x4
     Valve::VR::VROverlayIntersectionMaskPrimitive_Data_t m_Primitive;
+    public:
     // Creating value type constructor for type: VROverlayIntersectionMaskPrimitive_t
     constexpr VROverlayIntersectionMaskPrimitive_t(Valve::VR::EVROverlayIntersectionMaskPrimitiveType m_nPrimitiveType_ = {}, Valve::VR::VROverlayIntersectionMaskPrimitive_Data_t m_Primitive_ = {}) noexcept : m_nPrimitiveType{m_nPrimitiveType_}, m_Primitive{m_Primitive_} {}
     // Creating interface conversion operator: operator System::ValueType

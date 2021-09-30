@@ -38,6 +38,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class AvatarEditHistory : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Boolean disableNextSnapshotOverride
     // Size: 0x1
     // Offset: 0x10
@@ -58,6 +63,7 @@ namespace GlobalNamespace {
     int currentDataId;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Get instance field reference: public System.Boolean disableNextSnapshotOverride
     bool& dyn_disableNextSnapshotOverride();
     // Get instance field reference: private System.Collections.Generic.List`1<Menu.ViewControllers.EditAvatarHistorySnapshot> _snapShots

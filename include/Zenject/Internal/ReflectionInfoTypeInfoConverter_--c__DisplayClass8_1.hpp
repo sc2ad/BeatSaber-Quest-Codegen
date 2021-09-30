@@ -28,6 +28,11 @@ namespace Zenject::Internal {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   class ReflectionInfoTypeInfoConverter::$$c__DisplayClass8_1 : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Object injectable
     // Size: 0x8
     // Offset: 0x10
@@ -40,6 +45,7 @@ namespace Zenject::Internal {
     ::Il2CppObject* value;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
+    public:
     // Get instance field reference: public System.Object injectable
     ::Il2CppObject*& dyn_injectable();
     // Get instance field reference: public System.Object value

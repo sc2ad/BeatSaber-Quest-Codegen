@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Security::Cryptography
@@ -30,12 +31,18 @@ namespace System::Security::Cryptography {
     public:
     // Writing base type padding for base size: 0x25 to desired offset: 0x28
     char ___base_padding[0x3] = {};
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Security.Cryptography.SHA1Internal sha
     // Size: 0x8
     // Offset: 0x28
     System::Security::Cryptography::SHA1Internal* sha;
     // Field size check
     static_assert(sizeof(System::Security::Cryptography::SHA1Internal*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Security::Cryptography::SHA1Internal*
     constexpr operator System::Security::Cryptography::SHA1Internal*() const noexcept {
       return sha;
@@ -67,12 +74,12 @@ namespace System::Security::Cryptography {
     // Offset: 0x1CC7A64
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Void HashAlgorithm::HashCore(System.Byte[] rgb, System.Int32 ibStart, System.Int32 cbSize)
-    void HashCore(::ArrayWrapper<uint8_t> rgb, int ibStart, int cbSize);
+    void HashCore(::ArrayW<uint8_t> rgb, int ibStart, int cbSize);
     // protected override System.Byte[] HashFinal()
     // Offset: 0x1CC7B8C
     // Implemented from: System.Security.Cryptography.HashAlgorithm
     // Base method: System.Byte[] HashAlgorithm::HashFinal()
-    ::ArrayWrapper<uint8_t> HashFinal();
+    ::ArrayW<uint8_t> HashFinal();
     // public override System.Void Initialize()
     // Offset: 0x1CC7CA0
     // Implemented from: System.Security.Cryptography.HashAlgorithm
@@ -109,7 +116,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::SHA1CryptoServiceProvider::HashCore
 // Il2CppName: HashCore
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::SHA1CryptoServiceProvider::*)(::ArrayWrapper<uint8_t>, int, int)>(&System::Security::Cryptography::SHA1CryptoServiceProvider::HashCore)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::Security::Cryptography::SHA1CryptoServiceProvider::*)(::ArrayW<uint8_t>, int, int)>(&System::Security::Cryptography::SHA1CryptoServiceProvider::HashCore)> {
   static const MethodInfo* get() {
     static auto* rgb = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* ibStart = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -120,7 +127,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::SHA1CryptoServiceProvider::HashFinal
 // Il2CppName: HashFinal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (System::Security::Cryptography::SHA1CryptoServiceProvider::*)()>(&System::Security::Cryptography::SHA1CryptoServiceProvider::HashFinal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (System::Security::Cryptography::SHA1CryptoServiceProvider::*)()>(&System::Security::Cryptography::SHA1CryptoServiceProvider::HashFinal)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::SHA1CryptoServiceProvider*), "HashFinal", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

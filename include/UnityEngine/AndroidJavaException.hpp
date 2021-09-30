@@ -20,12 +20,18 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class AndroidJavaException : public System::Exception {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String mJavaStackTrace
     // Size: 0x8
     // Offset: 0x88
     ::Il2CppString* mJavaStackTrace;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Creating conversion operator: operator ::Il2CppString*
     constexpr operator ::Il2CppString*() const noexcept {
       return mJavaStackTrace;

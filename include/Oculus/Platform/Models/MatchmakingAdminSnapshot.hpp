@@ -27,6 +27,11 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class MatchmakingAdminSnapshot : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly Oculus.Platform.Models.MatchmakingAdminSnapshotCandidateList Candidates
     // Size: 0x8
     // Offset: 0x10
@@ -39,6 +44,7 @@ namespace Oculus::Platform::Models {
     double MyCurrentThreshold;
     // Field size check
     static_assert(sizeof(double) == 0x8);
+    public:
     // Get instance field reference: public readonly Oculus.Platform.Models.MatchmakingAdminSnapshotCandidateList Candidates
     Oculus::Platform::Models::MatchmakingAdminSnapshotCandidateList*& dyn_Candidates();
     // Get instance field reference: public readonly System.Double MyCurrentThreshold

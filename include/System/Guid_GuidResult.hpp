@@ -30,6 +30,11 @@ namespace System {
   // [TokenAttribute] Offset: FFFFFFFF
   struct Guid::GuidResult/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Guid parsedGuid
     // Size: 0x10
     // Offset: 0x0
@@ -72,6 +77,7 @@ namespace System {
     System::Exception* m_innerException;
     // Field size check
     static_assert(sizeof(System::Exception*) == 0x8);
+    public:
     // Creating value type constructor for type: GuidResult
     constexpr GuidResult(System::Guid parsedGuid_ = {}, System::Guid::GuidParseThrowStyle throwStyle_ = {}, System::Guid::ParseFailureKind m_failure_ = {}, ::Il2CppString* m_failureMessageID_ = {}, ::Il2CppObject* m_failureMessageFormatArgument_ = {}, ::Il2CppString* m_failureArgumentName_ = {}, System::Exception* m_innerException_ = {}) noexcept : parsedGuid{parsedGuid_}, throwStyle{throwStyle_}, m_failure{m_failure_}, m_failureMessageID{m_failureMessageID_}, m_failureMessageFormatArgument{m_failureMessageFormatArgument_}, m_failureArgumentName{m_failureArgumentName_}, m_innerException{m_innerException_} {}
     // Creating interface conversion operator: operator System::ValueType

@@ -20,6 +20,11 @@ namespace Mono::Math {
   // [TokenAttribute] Offset: FFFFFFFF
   class BigInteger::ModulusRing : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Mono.Math.BigInteger mod
     // Size: 0x8
     // Offset: 0x10
@@ -32,6 +37,7 @@ namespace Mono::Math {
     Mono::Math::BigInteger* constant;
     // Field size check
     static_assert(sizeof(Mono::Math::BigInteger*) == 0x8);
+    public:
     // Get instance field reference: private Mono.Math.BigInteger mod
     Mono::Math::BigInteger*& dyn_mod();
     // Get instance field reference: private Mono.Math.BigInteger constant

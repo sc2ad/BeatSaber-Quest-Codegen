@@ -27,12 +27,18 @@ namespace TMPro {
   // [TokenAttribute] Offset: FFFFFFFF
   class TMP_SpriteGlyph : public UnityEngine::TextCore::Glyph {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Sprite sprite
     // Size: 0x8
     // Offset: 0x40
     UnityEngine::Sprite* sprite;
     // Field size check
     static_assert(sizeof(UnityEngine::Sprite*) == 0x8);
+    public:
     // Creating conversion operator: operator UnityEngine::Sprite*
     constexpr operator UnityEngine::Sprite*() const noexcept {
       return sprite;

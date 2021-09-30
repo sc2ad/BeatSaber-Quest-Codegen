@@ -47,6 +47,11 @@ namespace Zenject {
     public:
     // Nested type: Zenject::SubContainerCreatorByNewPrefabWithParams::$$c__DisplayClass7_0
     class $$c__DisplayClass7_0;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Zenject.DiContainer _container
     // Size: 0x8
     // Offset: 0x10
@@ -71,6 +76,7 @@ namespace Zenject {
     Zenject::GameObjectCreationParameters* gameObjectBindInfo;
     // Field size check
     static_assert(sizeof(Zenject::GameObjectCreationParameters*) == 0x8);
+    public:
     // Creating interface conversion operator: operator Zenject::ISubContainerCreator
     operator Zenject::ISubContainerCreator() noexcept {
       return *reinterpret_cast<Zenject::ISubContainerCreator*>(this);

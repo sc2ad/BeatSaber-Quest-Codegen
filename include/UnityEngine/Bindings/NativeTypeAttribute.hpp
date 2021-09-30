@@ -24,6 +24,11 @@ namespace UnityEngine::Bindings {
   // [VisibleToOtherModulesAttribute] Offset: FFFFFFFF
   class NativeTypeAttribute : public System::Attribute {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [DebuggerBrowsableAttribute] Offset: 0xE6E27C
     // private System.String <Header>k__BackingField
     // Size: 0x8
@@ -45,6 +50,7 @@ namespace UnityEngine::Bindings {
     UnityEngine::Bindings::CodegenOptions CodegenOptions;
     // Field size check
     static_assert(sizeof(UnityEngine::Bindings::CodegenOptions) == 0x4);
+    public:
     // Get instance field reference: private System.String <Header>k__BackingField
     ::Il2CppString*& dyn_$Header$k__BackingField();
     // Get instance field reference: private System.String <IntermediateScriptingStructName>k__BackingField

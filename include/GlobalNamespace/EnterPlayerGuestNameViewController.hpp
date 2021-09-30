@@ -46,6 +46,11 @@ namespace GlobalNamespace {
     class $$c__DisplayClass10_0;
     // Nested type: GlobalNamespace::EnterPlayerGuestNameViewController::$$c__DisplayClass10_1
     class $$c__DisplayClass10_1;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [SignalSenderAttribute] Offset: 0xF0FC10
     // private StringSignal _playerNameWasEnteredSignal
     // Size: 0x8
@@ -85,6 +90,7 @@ namespace GlobalNamespace {
     GlobalNamespace::EnterPlayerGuestNameViewController::FinishDelegate* didFinishCallback;
     // Field size check
     static_assert(sizeof(GlobalNamespace::EnterPlayerGuestNameViewController::FinishDelegate*) == 0x8);
+    public:
     // static field const value: static private System.Int32 kMaxPlayerNameCompoundLength
     static constexpr const int kMaxPlayerNameCompoundLength = 40;
     // Get static field: static private System.Int32 kMaxPlayerNameCompoundLength

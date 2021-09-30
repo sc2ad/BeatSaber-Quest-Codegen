@@ -38,12 +38,18 @@ namespace Org::BouncyCastle::Math::EC::Multiplier {
   // [TokenAttribute] Offset: FFFFFFFF
   class FixedPointUtilities::FixedPointCallback : public ::Il2CppObject/*, public Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Org.BouncyCastle.Math.EC.ECPoint m_p
     // Size: 0x8
     // Offset: 0x10
     Org::BouncyCastle::Math::EC::ECPoint* m_p;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Math::EC::ECPoint*) == 0x8);
+    public:
     // Creating interface conversion operator: operator Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback
     operator Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback*>(this);

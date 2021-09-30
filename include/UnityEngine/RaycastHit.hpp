@@ -32,6 +32,11 @@ namespace UnityEngine {
   // [NativeHeaderAttribute] Offset: E85930
   struct RaycastHit/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [NativeNameAttribute] Offset: 0xE85E64
     // UnityEngine.Vector3 m_Point
     // Size: 0xC
@@ -74,6 +79,7 @@ namespace UnityEngine {
     int m_Collider;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: RaycastHit
     constexpr RaycastHit(UnityEngine::Vector3 m_Point_ = {}, UnityEngine::Vector3 m_Normal_ = {}, uint m_FaceID_ = {}, float m_Distance_ = {}, UnityEngine::Vector2 m_UV_ = {}, int m_Collider_ = {}) noexcept : m_Point{m_Point_}, m_Normal{m_Normal_}, m_FaceID{m_FaceID_}, m_Distance{m_Distance_}, m_UV{m_UV_}, m_Collider{m_Collider_} {}
     // Creating interface conversion operator: operator System::ValueType

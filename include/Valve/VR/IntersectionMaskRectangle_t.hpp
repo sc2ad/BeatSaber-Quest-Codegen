@@ -16,6 +16,11 @@ namespace Valve::VR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct IntersectionMaskRectangle_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Single m_flTopLeftX
     // Size: 0x4
     // Offset: 0x0
@@ -40,6 +45,7 @@ namespace Valve::VR {
     float m_flHeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Creating value type constructor for type: IntersectionMaskRectangle_t
     constexpr IntersectionMaskRectangle_t(float m_flTopLeftX_ = {}, float m_flTopLeftY_ = {}, float m_flWidth_ = {}, float m_flHeight_ = {}) noexcept : m_flTopLeftX{m_flTopLeftX_}, m_flTopLeftY{m_flTopLeftY_}, m_flWidth{m_flWidth_}, m_flHeight{m_flHeight_} {}
     // Creating interface conversion operator: operator System::ValueType

@@ -38,6 +38,11 @@ namespace System::Reflection {
   // [CLSCompliantAttribute] Offset: E5D974
   class Pointer : public ::Il2CppObject/*, public System::Runtime::Serialization::ISerializable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Void* _ptr
     // Size: 0x8
     // Offset: 0x10
@@ -50,6 +55,7 @@ namespace System::Reflection {
     System::RuntimeType* ptrType;
     // Field size check
     static_assert(sizeof(System::RuntimeType*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Runtime::Serialization::ISerializable
     operator System::Runtime::Serialization::ISerializable() noexcept {
       return *reinterpret_cast<System::Runtime::Serialization::ISerializable*>(this);

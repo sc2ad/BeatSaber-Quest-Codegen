@@ -45,6 +45,11 @@ namespace UnityEngine::AddressableAssets {
     public:
     // Nested type: UnityEngine::AddressableAssets::UpdateCatalogsOperation::$$c
     class $$c;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.AddressableAssets.AddressablesImpl m_Addressables
     // Size: 0x8
     // Offset: 0x80
@@ -61,6 +66,7 @@ namespace UnityEngine::AddressableAssets {
     // Size: 0xFFFFFFFF
     // Offset: 0x90
     UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<System::Collections::Generic::IList_1<UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> m_DepOp;
+    public:
     // Get instance field reference: private UnityEngine.AddressableAssets.AddressablesImpl m_Addressables
     UnityEngine::AddressableAssets::AddressablesImpl*& dyn_m_Addressables();
     // Get instance field reference: private System.Collections.Generic.List`1<UnityEngine.AddressableAssets.AddressablesImpl/UnityEngine.AddressableAssets.ResourceLocatorInfo> m_LocatorInfos

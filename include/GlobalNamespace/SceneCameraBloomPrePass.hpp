@@ -40,6 +40,11 @@ namespace GlobalNamespace {
   // [ExecuteInEditMode] Offset: FFFFFFFF
   class SceneCameraBloomPrePass : public UnityEngine::MonoBehaviour/*, public GlobalNamespace::CameraRenderCallbacksManager::ICameraRenderCallbacks*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private BloomPrePassRendererSO _bloomPrepassRenderer
     // Size: 0x8
     // Offset: 0x18
@@ -58,6 +63,7 @@ namespace GlobalNamespace {
     UnityEngine::RenderTexture* bloomPrepassRenderTexture;
     // Field size check
     static_assert(sizeof(UnityEngine::RenderTexture*) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::CameraRenderCallbacksManager::ICameraRenderCallbacks
     operator GlobalNamespace::CameraRenderCallbacksManager::ICameraRenderCallbacks() noexcept {
       return *reinterpret_cast<GlobalNamespace::CameraRenderCallbacksManager::ICameraRenderCallbacks*>(this);

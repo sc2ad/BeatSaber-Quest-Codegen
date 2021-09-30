@@ -48,6 +48,11 @@ namespace OVRSimpleJSON {
     class $$c__DisplayClass21_0;
     // Nested type: OVRSimpleJSON::JSONObject::$get_Children$d__23
     class $get_Children$d__23;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.Dictionary`2<System.String,OVRSimpleJSON.JSONNode> m_Dict
     // Size: 0x8
     // Offset: 0x10
@@ -60,6 +65,7 @@ namespace OVRSimpleJSON {
     bool _inline;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,OVRSimpleJSON.JSONNode> m_Dict
     System::Collections::Generic::Dictionary_2<::Il2CppString*, OVRSimpleJSON::JSONNode*>*& dyn_m_Dict();
     // Get instance field reference: private System.Boolean inline

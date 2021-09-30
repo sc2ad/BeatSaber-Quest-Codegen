@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: Mono.Security.X509.Extensions
 namespace Mono::Security::X509::Extensions {
@@ -20,21 +21,27 @@ namespace Mono::Security::X509::Extensions {
   // [TokenAttribute] Offset: FFFFFFFF
   class AuthorityKeyIdentifierExtension : public Mono::Security::X509::X509Extension {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Byte[] aki
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<uint8_t> aki;
+    ::ArrayW<uint8_t> aki;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
-    // Creating conversion operator: operator ::ArrayWrapper<uint8_t>
-    constexpr operator ::ArrayWrapper<uint8_t>() const noexcept {
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
+    public:
+    // Creating conversion operator: operator ::ArrayW<uint8_t>
+    constexpr operator ::ArrayW<uint8_t>() const noexcept {
       return aki;
     }
     // Get instance field reference: private System.Byte[] aki
-    ::ArrayWrapper<uint8_t>& dyn_aki();
+    ::ArrayW<uint8_t>& dyn_aki();
     // public System.Byte[] get_Identifier()
     // Offset: 0x1FA6040
-    ::ArrayWrapper<uint8_t> get_Identifier();
+    ::ArrayW<uint8_t> get_Identifier();
     // public System.Void .ctor(Mono.Security.X509.X509Extension extension)
     // Offset: 0x1FA5E00
     // Implemented from: Mono.Security.X509.X509Extension
@@ -61,7 +68,7 @@ namespace Mono::Security::X509::Extensions {
     ::Il2CppString* ToString();
   }; // Mono.Security.X509.Extensions.AuthorityKeyIdentifierExtension
   #pragma pack(pop)
-  static check_size<sizeof(AuthorityKeyIdentifierExtension), 40 + sizeof(::ArrayWrapper<uint8_t>)> __Mono_Security_X509_Extensions_AuthorityKeyIdentifierExtensionSizeCheck;
+  static check_size<sizeof(AuthorityKeyIdentifierExtension), 40 + sizeof(::ArrayW<uint8_t>)> __Mono_Security_X509_Extensions_AuthorityKeyIdentifierExtensionSizeCheck;
   static_assert(sizeof(AuthorityKeyIdentifierExtension) == 0x30);
 }
 DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension*, "Mono.Security.X509.Extensions", "AuthorityKeyIdentifierExtension");
@@ -69,7 +76,7 @@ DEFINE_IL2CPP_ARG_TYPE(Mono::Security::X509::Extensions::AuthorityKeyIdentifierE
 // Writing MetadataGetter for method: Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension::get_Identifier
 // Il2CppName: get_Identifier
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<uint8_t> (Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension::*)()>(&Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension::get_Identifier)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t> (Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension::*)()>(&Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension::get_Identifier)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::X509::Extensions::AuthorityKeyIdentifierExtension*), "get_Identifier", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

@@ -27,6 +27,11 @@ namespace System::Runtime::Remoting::Channels {
   // [TokenAttribute] Offset: FFFFFFFF
   class AsyncRequest : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Runtime.Remoting.Messaging.IMessageSink ReplySink
     // Size: 0x8
     // Offset: 0x10
@@ -39,6 +44,7 @@ namespace System::Runtime::Remoting::Channels {
     System::Runtime::Remoting::Messaging::IMessage* MsgRequest;
     // Field size check
     static_assert(sizeof(System::Runtime::Remoting::Messaging::IMessage*) == 0x8);
+    public:
     // Get instance field reference: System.Runtime.Remoting.Messaging.IMessageSink ReplySink
     System::Runtime::Remoting::Messaging::IMessageSink*& dyn_ReplySink();
     // Get instance field reference: System.Runtime.Remoting.Messaging.IMessage MsgRequest

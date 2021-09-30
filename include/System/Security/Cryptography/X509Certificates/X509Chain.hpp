@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Security::Cryptography::X509Certificates
@@ -35,12 +36,18 @@ namespace System::Security::Cryptography::X509Certificates {
   // [TokenAttribute] Offset: FFFFFFFF
   class X509Chain : public ::Il2CppObject/*, public System::IDisposable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Security.Cryptography.X509Certificates.X509ChainImpl impl
     // Size: 0x8
     // Offset: 0x10
     System::Security::Cryptography::X509Certificates::X509ChainImpl* impl;
     // Field size check
     static_assert(sizeof(System::Security::Cryptography::X509Certificates::X509ChainImpl*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);
@@ -65,7 +72,7 @@ namespace System::Security::Cryptography::X509Certificates {
     void set_ChainPolicy(System::Security::Cryptography::X509Certificates::X509ChainPolicy* value);
     // public System.Security.Cryptography.X509Certificates.X509ChainStatus[] get_ChainStatus()
     // Offset: 0x19DA000
-    ::ArrayWrapper<System::Security::Cryptography::X509Certificates::X509ChainStatus> get_ChainStatus();
+    ::ArrayW<System::Security::Cryptography::X509Certificates::X509ChainStatus> get_ChainStatus();
     // public System.Void .ctor(System.Boolean useMachineContext)
     // Offset: 0x19D9EBC
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -142,7 +149,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::Security::Cryptography::X509Certificates::X509Chain::get_ChainStatus
 // Il2CppName: get_ChainStatus
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<System::Security::Cryptography::X509Certificates::X509ChainStatus> (System::Security::Cryptography::X509Certificates::X509Chain::*)()>(&System::Security::Cryptography::X509Certificates::X509Chain::get_ChainStatus)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<System::Security::Cryptography::X509Certificates::X509ChainStatus> (System::Security::Cryptography::X509Certificates::X509Chain::*)()>(&System::Security::Cryptography::X509Certificates::X509Chain::get_ChainStatus)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(System::Security::Cryptography::X509Certificates::X509Chain*), "get_ChainStatus", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

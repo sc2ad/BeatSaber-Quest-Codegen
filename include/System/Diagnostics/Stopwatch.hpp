@@ -25,6 +25,11 @@ namespace System::Diagnostics {
   // [TokenAttribute] Offset: FFFFFFFF
   class Stopwatch : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int64 elapsed
     // Size: 0x8
     // Offset: 0x10
@@ -43,6 +48,7 @@ namespace System::Diagnostics {
     bool is_running;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get static field: static public readonly System.Int64 Frequency
     static int64_t _get_Frequency();
     // Set static field: static public readonly System.Int64 Frequency

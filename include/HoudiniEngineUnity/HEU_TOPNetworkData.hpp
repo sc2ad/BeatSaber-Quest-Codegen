@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -33,6 +34,11 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_TOPNetworkData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 _nodeID
     // Size: 0x4
     // Offset: 0x10
@@ -56,9 +62,9 @@ namespace HoudiniEngineUnity {
     // public System.String[] _topNodeNames
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<::Il2CppString*> topNodeNames;
+    ::ArrayW<::Il2CppString*> topNodeNames;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // public System.Int32 _selectedTOPIndex
     // Size: 0x4
     // Offset: 0x30
@@ -79,6 +85,7 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::TOPNodeTags* tags;
     // Field size check
     static_assert(sizeof(HoudiniEngineUnity::TOPNodeTags*) == 0x8);
+    public:
     // Get instance field reference: public System.Int32 _nodeID
     int& dyn__nodeID();
     // Get instance field reference: public System.String _nodeName
@@ -86,7 +93,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: public System.Collections.Generic.List`1<HoudiniEngineUnity.HEU_TOPNodeData> _topNodes
     System::Collections::Generic::List_1<HoudiniEngineUnity::HEU_TOPNodeData*>*& dyn__topNodes();
     // Get instance field reference: public System.String[] _topNodeNames
-    ::ArrayWrapper<::Il2CppString*>& dyn__topNodeNames();
+    ::ArrayW<::Il2CppString*>& dyn__topNodeNames();
     // Get instance field reference: public System.Int32 _selectedTOPIndex
     int& dyn__selectedTOPIndex();
     // Get instance field reference: public System.String _parentName

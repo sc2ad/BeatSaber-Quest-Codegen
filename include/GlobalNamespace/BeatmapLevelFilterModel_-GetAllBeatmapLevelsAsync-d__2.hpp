@@ -21,6 +21,7 @@
 #include "System/Runtime/CompilerServices/TaskAwaiter_1.hpp"
 // Including type: AdditionalContentModel/EntitlementStatus
 #include "GlobalNamespace/AdditionalContentModel.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -46,6 +47,11 @@ namespace GlobalNamespace {
   // [CompilerGeneratedAttribute] Offset: FFFFFFFF
   struct BeatmapLevelFilterModel::$GetAllBeatmapLevelsAsync$d__2/*, public System::ValueType, public System::Runtime::CompilerServices::IAsyncStateMachine*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int32 <>1__state
     // Size: 0x4
     // Offset: 0x0
@@ -59,9 +65,9 @@ namespace GlobalNamespace {
     // public IBeatmapLevelPack[] beatmapLevelPacks
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<GlobalNamespace::IBeatmapLevelPack*> beatmapLevelPacks;
+    ::ArrayW<GlobalNamespace::IBeatmapLevelPack*> beatmapLevelPacks;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::IBeatmapLevelPack*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::IBeatmapLevelPack*>) == 0x8);
     // public SongPackMask songPackMask
     // Size: 0x10
     // Offset: 0x28
@@ -95,9 +101,9 @@ namespace GlobalNamespace {
     // private IBeatmapLevelPack[] <>7__wrap2
     // Size: 0x8
     // Offset: 0x58
-    ::ArrayWrapper<GlobalNamespace::IBeatmapLevelPack*> $$7__wrap2;
+    ::ArrayW<GlobalNamespace::IBeatmapLevelPack*> $$7__wrap2;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::IBeatmapLevelPack*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::IBeatmapLevelPack*>) == 0x8);
     // private System.Int32 <>7__wrap3
     // Size: 0x4
     // Offset: 0x60
@@ -107,9 +113,9 @@ namespace GlobalNamespace {
     // private IPreviewBeatmapLevel[] <>7__wrap4
     // Size: 0x8
     // Offset: 0x68
-    ::ArrayWrapper<GlobalNamespace::IPreviewBeatmapLevel*> $$7__wrap4;
+    ::ArrayW<GlobalNamespace::IPreviewBeatmapLevel*> $$7__wrap4;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::IPreviewBeatmapLevel*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::IPreviewBeatmapLevel*>) == 0x8);
     // private System.Int32 <>7__wrap5
     // Size: 0x4
     // Offset: 0x70
@@ -126,8 +132,9 @@ namespace GlobalNamespace {
     // Size: 0xFFFFFFFF
     // Offset: 0x80
     System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus> $$u__1;
+    public:
     // Creating value type constructor for type: $GetAllBeatmapLevelsAsync$d__2
-    constexpr $GetAllBeatmapLevelsAsync$d__2(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<System::Collections::Generic::List_1<GlobalNamespace::IPreviewBeatmapLevel*>*> $$t__builder_ = {}, ::ArrayWrapper<GlobalNamespace::IBeatmapLevelPack*> beatmapLevelPacks_ = ::ArrayWrapper<GlobalNamespace::IBeatmapLevelPack*>(nullptr), GlobalNamespace::SongPackMask songPackMask_ = {}, bool onlyOwned_ = {}, GlobalNamespace::AdditionalContentModel* additionalContentModel_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, System::Collections::Generic::List_1<GlobalNamespace::IPreviewBeatmapLevel*>* $levels$5__2_ = {}, ::ArrayWrapper<GlobalNamespace::IBeatmapLevelPack*> $$7__wrap2_ = ::ArrayWrapper<GlobalNamespace::IBeatmapLevelPack*>(nullptr), int $$7__wrap3_ = {}, ::ArrayWrapper<GlobalNamespace::IPreviewBeatmapLevel*> $$7__wrap4_ = ::ArrayWrapper<GlobalNamespace::IPreviewBeatmapLevel*>(nullptr), int $$7__wrap5_ = {}, GlobalNamespace::IPreviewBeatmapLevel* $beatmapLevel$5__7_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus> $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, beatmapLevelPacks{beatmapLevelPacks_}, songPackMask{songPackMask_}, onlyOwned{onlyOwned_}, additionalContentModel{additionalContentModel_}, cancellationToken{cancellationToken_}, $levels$5__2{$levels$5__2_}, $$7__wrap2{$$7__wrap2_}, $$7__wrap3{$$7__wrap3_}, $$7__wrap4{$$7__wrap4_}, $$7__wrap5{$$7__wrap5_}, $beatmapLevel$5__7{$beatmapLevel$5__7_}, $$u__1{$$u__1_} {}
+    constexpr $GetAllBeatmapLevelsAsync$d__2(int $$1__state_ = {}, System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<System::Collections::Generic::List_1<GlobalNamespace::IPreviewBeatmapLevel*>*> $$t__builder_ = {}, ::ArrayW<GlobalNamespace::IBeatmapLevelPack*> beatmapLevelPacks_ = ::ArrayW<GlobalNamespace::IBeatmapLevelPack*>(nullptr), GlobalNamespace::SongPackMask songPackMask_ = {}, bool onlyOwned_ = {}, GlobalNamespace::AdditionalContentModel* additionalContentModel_ = {}, System::Threading::CancellationToken cancellationToken_ = {}, System::Collections::Generic::List_1<GlobalNamespace::IPreviewBeatmapLevel*>* $levels$5__2_ = {}, ::ArrayW<GlobalNamespace::IBeatmapLevelPack*> $$7__wrap2_ = ::ArrayW<GlobalNamespace::IBeatmapLevelPack*>(nullptr), int $$7__wrap3_ = {}, ::ArrayW<GlobalNamespace::IPreviewBeatmapLevel*> $$7__wrap4_ = ::ArrayW<GlobalNamespace::IPreviewBeatmapLevel*>(nullptr), int $$7__wrap5_ = {}, GlobalNamespace::IPreviewBeatmapLevel* $beatmapLevel$5__7_ = {}, System::Runtime::CompilerServices::TaskAwaiter_1<GlobalNamespace::AdditionalContentModel::EntitlementStatus> $$u__1_ = {}) noexcept : $$1__state{$$1__state_}, $$t__builder{$$t__builder_}, beatmapLevelPacks{beatmapLevelPacks_}, songPackMask{songPackMask_}, onlyOwned{onlyOwned_}, additionalContentModel{additionalContentModel_}, cancellationToken{cancellationToken_}, $levels$5__2{$levels$5__2_}, $$7__wrap2{$$7__wrap2_}, $$7__wrap3{$$7__wrap3_}, $$7__wrap4{$$7__wrap4_}, $$7__wrap5{$$7__wrap5_}, $beatmapLevel$5__7{$beatmapLevel$5__7_}, $$u__1{$$u__1_} {}
     // Creating interface conversion operator: operator System::ValueType
     operator System::ValueType() noexcept {
       return *reinterpret_cast<System::ValueType*>(this);
@@ -141,7 +148,7 @@ namespace GlobalNamespace {
     // Get instance field reference: public System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<System.Collections.Generic.List`1<IPreviewBeatmapLevel>> <>t__builder
     System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<System::Collections::Generic::List_1<GlobalNamespace::IPreviewBeatmapLevel*>*>& dyn_$$t__builder();
     // Get instance field reference: public IBeatmapLevelPack[] beatmapLevelPacks
-    ::ArrayWrapper<GlobalNamespace::IBeatmapLevelPack*>& dyn_beatmapLevelPacks();
+    ::ArrayW<GlobalNamespace::IBeatmapLevelPack*>& dyn_beatmapLevelPacks();
     // Get instance field reference: public SongPackMask songPackMask
     GlobalNamespace::SongPackMask& dyn_songPackMask();
     // Get instance field reference: public System.Boolean onlyOwned
@@ -153,11 +160,11 @@ namespace GlobalNamespace {
     // Get instance field reference: private System.Collections.Generic.List`1<IPreviewBeatmapLevel> <levels>5__2
     System::Collections::Generic::List_1<GlobalNamespace::IPreviewBeatmapLevel*>*& dyn_$levels$5__2();
     // Get instance field reference: private IBeatmapLevelPack[] <>7__wrap2
-    ::ArrayWrapper<GlobalNamespace::IBeatmapLevelPack*>& dyn_$$7__wrap2();
+    ::ArrayW<GlobalNamespace::IBeatmapLevelPack*>& dyn_$$7__wrap2();
     // Get instance field reference: private System.Int32 <>7__wrap3
     int& dyn_$$7__wrap3();
     // Get instance field reference: private IPreviewBeatmapLevel[] <>7__wrap4
-    ::ArrayWrapper<GlobalNamespace::IPreviewBeatmapLevel*>& dyn_$$7__wrap4();
+    ::ArrayW<GlobalNamespace::IPreviewBeatmapLevel*>& dyn_$$7__wrap4();
     // Get instance field reference: private System.Int32 <>7__wrap5
     int& dyn_$$7__wrap5();
     // Get instance field reference: private IPreviewBeatmapLevel <beatmapLevel>5__7

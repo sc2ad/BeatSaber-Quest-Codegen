@@ -41,6 +41,11 @@ namespace UnityEngine::Timeline {
   // [TokenAttribute] Offset: FFFFFFFF
   class ActivationMixerPlayable : public UnityEngine::Playables::PlayableBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Timeline.ActivationTrack/UnityEngine.Timeline.PostPlaybackState m_PostPlaybackState
     // Size: 0x4
     // Offset: 0x10
@@ -61,6 +66,7 @@ namespace UnityEngine::Timeline {
     UnityEngine::GameObject* m_BoundGameObject;
     // Field size check
     static_assert(sizeof(UnityEngine::GameObject*) == 0x8);
+    public:
     // Get instance field reference: private UnityEngine.Timeline.ActivationTrack/UnityEngine.Timeline.PostPlaybackState m_PostPlaybackState
     UnityEngine::Timeline::ActivationTrack::PostPlaybackState& dyn_m_PostPlaybackState();
     // Get instance field reference: private System.Boolean m_BoundGameObjectInitialStateIsActive

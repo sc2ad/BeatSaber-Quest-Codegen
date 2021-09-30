@@ -29,6 +29,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class SaberClashChecker : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean _sabersAreClashing
     // Size: 0x1
     // Offset: 0x10
@@ -61,6 +66,7 @@ namespace GlobalNamespace {
     int prevGetFrameNum;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // static field const value: static private System.Single kMinDistanceToClash
     static constexpr const float kMinDistanceToClash = 0.08;
     // Get static field: static private System.Single kMinDistanceToClash

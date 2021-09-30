@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Threading
@@ -60,9 +61,9 @@ namespace System::IO {
     // Set static field: static private System.Collections.Hashtable watches
     static void _set_watches(System::Collections::Hashtable* value);
     // Get static field: static private System.String[] NoStringsArray
-    static ::ArrayWrapper<::Il2CppString*> _get_NoStringsArray();
+    static ::ArrayW<::Il2CppString*> _get_NoStringsArray();
     // Set static field: static private System.String[] NoStringsArray
-    static void _set_NoStringsArray(::ArrayWrapper<::Il2CppString*> value);
+    static void _set_NoStringsArray(::ArrayW<::Il2CppString*> value);
     // static private System.Void .cctor()
     // Offset: 0x1A321DC
     static void _cctor();
@@ -89,7 +90,7 @@ namespace System::IO {
     void DoFiles(System::IO::DefaultWatcherData* data, ::Il2CppString* directory, bool dispatch);
     // private System.Void IterateAndModifyFilesData(System.IO.DefaultWatcherData data, System.String directory, System.Boolean dispatch, System.String[] files)
     // Offset: 0x1A310D8
-    void IterateAndModifyFilesData(System::IO::DefaultWatcherData* data, ::Il2CppString* directory, bool dispatch, ::ArrayWrapper<::Il2CppString*> files);
+    void IterateAndModifyFilesData(System::IO::DefaultWatcherData* data, ::Il2CppString* directory, bool dispatch, ::ArrayW<::Il2CppString*> files);
     // static private System.IO.FileData CreateFileData(System.String directory, System.String filename)
     // Offset: 0x1A320FC
     static System::IO::FileData* CreateFileData(::Il2CppString* directory, ::Il2CppString* filename);
@@ -185,7 +186,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Syste
 // Writing MetadataGetter for method: System::IO::DefaultWatcher::IterateAndModifyFilesData
 // Il2CppName: IterateAndModifyFilesData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::DefaultWatcher::*)(System::IO::DefaultWatcherData*, ::Il2CppString*, bool, ::ArrayWrapper<::Il2CppString*>)>(&System::IO::DefaultWatcher::IterateAndModifyFilesData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (System::IO::DefaultWatcher::*)(System::IO::DefaultWatcherData*, ::Il2CppString*, bool, ::ArrayW<::Il2CppString*>)>(&System::IO::DefaultWatcher::IterateAndModifyFilesData)> {
   static const MethodInfo* get() {
     static auto* data = &::il2cpp_utils::GetClassFromName("System.IO", "DefaultWatcherData")->byval_arg;
     static auto* directory = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

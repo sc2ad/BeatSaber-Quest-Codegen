@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -44,6 +45,11 @@ namespace System::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   class Stream::ReadWriteTask : public System::Threading::Tasks::Task_1<int>/*, public System::Threading::Tasks::ITaskCompletionAction*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // readonly System.Boolean _isRead
     // Size: 0x1
     // Offset: 0x54
@@ -59,9 +65,9 @@ namespace System::IO {
     // System.Byte[] _buffer
     // Size: 0x8
     // Offset: 0x60
-    ::ArrayWrapper<uint8_t> buffer;
+    ::ArrayW<uint8_t> buffer;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // System.Int32 _offset
     // Size: 0x4
     // Offset: 0x68
@@ -86,6 +92,7 @@ namespace System::IO {
     System::Threading::ExecutionContext* context;
     // Field size check
     static_assert(sizeof(System::Threading::ExecutionContext*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::Threading::Tasks::ITaskCompletionAction
     operator System::Threading::Tasks::ITaskCompletionAction() noexcept {
       return *reinterpret_cast<System::Threading::Tasks::ITaskCompletionAction*>(this);
@@ -99,7 +106,7 @@ namespace System::IO {
     // Get instance field reference: System.IO.Stream _stream
     System::IO::Stream*& dyn__stream();
     // Get instance field reference: System.Byte[] _buffer
-    ::ArrayWrapper<uint8_t>& dyn__buffer();
+    ::ArrayW<uint8_t>& dyn__buffer();
     // Get instance field reference: System.Int32 _offset
     int& dyn__offset();
     // Get instance field reference: System.Int32 _count
@@ -111,7 +118,7 @@ namespace System::IO {
     // public System.Void .ctor(System.Boolean isRead, System.Func`2<System.Object,System.Int32> function, System.Object state, System.IO.Stream stream, System.Byte[] buffer, System.Int32 offset, System.Int32 count, System.AsyncCallback callback)
     // Offset: 0x1AC268C
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Stream::ReadWriteTask* New_ctor(bool isRead, System::Func_2<::Il2CppObject*, int>* function, ::Il2CppObject* state, System::IO::Stream* stream, ::ArrayWrapper<uint8_t> buffer, int offset, int count, System::AsyncCallback* callback) {
+    static Stream::ReadWriteTask* New_ctor(bool isRead, System::Func_2<::Il2CppObject*, int>* function, ::Il2CppObject* state, System::IO::Stream* stream, ::ArrayW<uint8_t> buffer, int offset, int count, System::AsyncCallback* callback) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::IO::Stream::ReadWriteTask::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Stream::ReadWriteTask*, creationType>(isRead, function, state, stream, buffer, offset, count, callback)));
     }

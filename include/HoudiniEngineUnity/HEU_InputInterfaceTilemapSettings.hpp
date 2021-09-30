@@ -18,6 +18,11 @@ namespace HoudiniEngineUnity {
   // [TokenAttribute] Offset: FFFFFFFF
   class HEU_InputInterfaceTilemapSettings : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Boolean _createGroupsForTiles
     // Size: 0x1
     // Offset: 0x10
@@ -42,6 +47,7 @@ namespace HoudiniEngineUnity {
     bool applyTilemapOrientation;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: public System.Boolean _createGroupsForTiles
     bool& dyn__createGroupsForTiles();
     // Get instance field reference: public System.Boolean _exportUnusedTiles

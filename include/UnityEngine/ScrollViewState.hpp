@@ -22,6 +22,11 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class ScrollViewState : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Rect position
     // Size: 0x10
     // Offset: 0x10
@@ -52,6 +57,7 @@ namespace UnityEngine {
     bool apply;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: public UnityEngine.Rect position
     UnityEngine::Rect& dyn_position();
     // Get instance field reference: public UnityEngine.Rect visibleRect

@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: Oculus.Platform.Models
 namespace Oculus::Platform::Models {
@@ -20,6 +21,11 @@ namespace Oculus::Platform::Models {
   // [TokenAttribute] Offset: FFFFFFFF
   class CloudStorageData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public readonly System.String Bucket
     // Size: 0x8
     // Offset: 0x10
@@ -29,9 +35,9 @@ namespace Oculus::Platform::Models {
     // public readonly System.Byte[] Data
     // Size: 0x8
     // Offset: 0x18
-    ::ArrayWrapper<uint8_t> Data;
+    ::ArrayW<uint8_t> Data;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // public readonly System.UInt32 DataSize
     // Size: 0x4
     // Offset: 0x20
@@ -46,10 +52,11 @@ namespace Oculus::Platform::Models {
     ::Il2CppString* Key;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: public readonly System.String Bucket
     ::Il2CppString*& dyn_Bucket();
     // Get instance field reference: public readonly System.Byte[] Data
-    ::ArrayWrapper<uint8_t>& dyn_Data();
+    ::ArrayW<uint8_t>& dyn_Data();
     // Get instance field reference: public readonly System.UInt32 DataSize
     uint& dyn_DataSize();
     // Get instance field reference: public readonly System.String Key

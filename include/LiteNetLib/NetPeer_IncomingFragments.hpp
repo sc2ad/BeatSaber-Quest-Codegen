@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: LiteNetLib
@@ -27,12 +28,17 @@ namespace LiteNetLib {
   // [TokenAttribute] Offset: FFFFFFFF
   class NetPeer::IncomingFragments : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public LiteNetLib.NetPacket[] Fragments
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<LiteNetLib::NetPacket*> Fragments;
+    ::ArrayW<LiteNetLib::NetPacket*> Fragments;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<LiteNetLib::NetPacket*>) == 0x8);
+    static_assert(sizeof(::ArrayW<LiteNetLib::NetPacket*>) == 0x8);
     // public System.Int32 ReceivedCount
     // Size: 0x4
     // Offset: 0x18
@@ -51,8 +57,9 @@ namespace LiteNetLib {
     uint8_t ChannelId;
     // Field size check
     static_assert(sizeof(uint8_t) == 0x1);
+    public:
     // Get instance field reference: public LiteNetLib.NetPacket[] Fragments
-    ::ArrayWrapper<LiteNetLib::NetPacket*>& dyn_Fragments();
+    ::ArrayW<LiteNetLib::NetPacket*>& dyn_Fragments();
     // Get instance field reference: public System.Int32 ReceivedCount
     int& dyn_ReceivedCount();
     // Get instance field reference: public System.Int32 TotalSize

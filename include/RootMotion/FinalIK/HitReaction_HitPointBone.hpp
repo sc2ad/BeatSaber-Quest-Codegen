@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: RootMotion::FinalIK
@@ -38,6 +39,11 @@ namespace RootMotion::FinalIK {
     public:
     // Nested type: RootMotion::FinalIK::HitReaction::HitPointBone::BoneLink
     class BoneLink;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [TooltipAttribute] Offset: 0xEF7170
     // public UnityEngine.AnimationCurve aroundCenterOfMass
     // Size: 0x8
@@ -49,19 +55,20 @@ namespace RootMotion::FinalIK {
     // public RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPointBone/RootMotion.FinalIK.BoneLink[] boneLinks
     // Size: 0x8
     // Offset: 0x58
-    ::ArrayWrapper<RootMotion::FinalIK::HitReaction::HitPointBone::BoneLink*> boneLinks;
+    ::ArrayW<RootMotion::FinalIK::HitReaction::HitPointBone::BoneLink*> boneLinks;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::HitReaction::HitPointBone::BoneLink*>) == 0x8);
+    static_assert(sizeof(::ArrayW<RootMotion::FinalIK::HitReaction::HitPointBone::BoneLink*>) == 0x8);
     // private UnityEngine.Rigidbody rigidbody
     // Size: 0x8
     // Offset: 0x60
     UnityEngine::Rigidbody* rigidbody;
     // Field size check
     static_assert(sizeof(UnityEngine::Rigidbody*) == 0x8);
+    public:
     // Get instance field reference: public UnityEngine.AnimationCurve aroundCenterOfMass
     UnityEngine::AnimationCurve*& dyn_aroundCenterOfMass();
     // Get instance field reference: public RootMotion.FinalIK.HitReaction/RootMotion.FinalIK.HitPointBone/RootMotion.FinalIK.BoneLink[] boneLinks
-    ::ArrayWrapper<RootMotion::FinalIK::HitReaction::HitPointBone::BoneLink*>& dyn_boneLinks();
+    ::ArrayW<RootMotion::FinalIK::HitReaction::HitPointBone::BoneLink*>& dyn_boneLinks();
     // Get instance field reference: private UnityEngine.Rigidbody rigidbody
     UnityEngine::Rigidbody*& dyn_rigidbody();
     // public System.Void .ctor()

@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Type namespace: System.Text.RegularExpressions
 namespace System::Text::RegularExpressions {
@@ -20,12 +21,17 @@ namespace System::Text::RegularExpressions {
   // [TokenAttribute] Offset: FFFFFFFF
   class Group : public System::Text::RegularExpressions::Capture {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Int32[] _caps
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<int> caps;
+    ::ArrayW<int> caps;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<int>) == 0x8);
+    static_assert(sizeof(::ArrayW<int>) == 0x8);
     // System.Int32 _capcount
     // Size: 0x4
     // Offset: 0x28
@@ -41,12 +47,13 @@ namespace System::Text::RegularExpressions {
     ::Il2CppString* name;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get static field: static System.Text.RegularExpressions.Group _emptygroup
     static System::Text::RegularExpressions::Group* _get__emptygroup();
     // Set static field: static System.Text.RegularExpressions.Group _emptygroup
     static void _set__emptygroup(System::Text::RegularExpressions::Group* value);
     // Get instance field reference: System.Int32[] _caps
-    ::ArrayWrapper<int>& dyn__caps();
+    ::ArrayW<int>& dyn__caps();
     // Get instance field reference: System.Int32 _capcount
     int& dyn__capcount();
     // Get instance field reference: System.String _name
@@ -57,7 +64,7 @@ namespace System::Text::RegularExpressions {
     // System.Void .ctor(System.String text, System.Int32[] caps, System.Int32 capcount, System.String name)
     // Offset: 0x19E1504
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static Group* New_ctor(::Il2CppString* text, ::ArrayWrapper<int> caps, int capcount, ::Il2CppString* name) {
+    static Group* New_ctor(::Il2CppString* text, ::ArrayW<int> caps, int capcount, ::Il2CppString* name) {
       static auto ___internal__logger = ::Logger::get().WithContext("System::Text::RegularExpressions::Group::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<Group*, creationType>(text, caps, capcount, name)));
     }

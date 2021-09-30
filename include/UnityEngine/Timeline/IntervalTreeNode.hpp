@@ -17,6 +17,11 @@ namespace UnityEngine::Timeline {
   // [TokenAttribute] Offset: FFFFFFFF
   struct IntervalTreeNode/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Int64 center
     // Size: 0x8
     // Offset: 0x0
@@ -47,6 +52,7 @@ namespace UnityEngine::Timeline {
     int right;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Creating value type constructor for type: IntervalTreeNode
     constexpr IntervalTreeNode(int64_t center_ = {}, int first_ = {}, int last_ = {}, int left_ = {}, int right_ = {}) noexcept : center{center_}, first{first_}, last{last_}, left{left_}, right{right_} {}
     // Creating interface conversion operator: operator System::ValueType

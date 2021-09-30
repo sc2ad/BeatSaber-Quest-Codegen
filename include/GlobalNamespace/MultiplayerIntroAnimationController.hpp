@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::Playables
@@ -63,6 +64,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class MultiplayerIntroAnimationController : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [HeaderAttribute] Offset: 0xF094F8
     // private UnityEngine.Playables.PlayableDirector _introPlayableDirector
     // Size: 0x8
@@ -73,21 +79,21 @@ namespace GlobalNamespace {
     // private System.String[] _playerTimelineTrackNames
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<::Il2CppString*> playerTimelineTrackNames;
+    ::ArrayW<::Il2CppString*> playerTimelineTrackNames;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // private System.String[] _ringTimelineTrackNames
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<::Il2CppString*> ringTimelineTrackNames;
+    ::ArrayW<::Il2CppString*> ringTimelineTrackNames;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // private UnityEngine.PropertyName[] _playerTimelinePropertyNames
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<UnityEngine::PropertyName> playerTimelinePropertyNames;
+    ::ArrayW<UnityEngine::PropertyName> playerTimelinePropertyNames;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::PropertyName>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::PropertyName>) == 0x8);
     // [HeaderAttribute] Offset: 0xF0959C
     // private System.String _localPlayerTrackName
     // Size: 0x8
@@ -174,16 +180,17 @@ namespace GlobalNamespace {
     bool bindingFinished;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private UnityEngine.Playables.PlayableDirector _introPlayableDirector
     UnityEngine::Playables::PlayableDirector*& dyn__introPlayableDirector();
     // Get instance field reference: private System.String[] _playerTimelineTrackNames
-    ::ArrayWrapper<::Il2CppString*>& dyn__playerTimelineTrackNames();
+    ::ArrayW<::Il2CppString*>& dyn__playerTimelineTrackNames();
     // Get instance field reference: private System.String[] _ringTimelineTrackNames
-    ::ArrayWrapper<::Il2CppString*>& dyn__ringTimelineTrackNames();
+    ::ArrayW<::Il2CppString*>& dyn__ringTimelineTrackNames();
     // Get instance field reference: private UnityEngine.PropertyName[] _playerTimelinePropertyNames
-    ::ArrayWrapper<UnityEngine::PropertyName>& dyn__playerTimelinePropertyNames();
+    ::ArrayW<UnityEngine::PropertyName>& dyn__playerTimelinePropertyNames();
     // Get instance field reference: private System.String _localPlayerTrackName
     ::Il2CppString*& dyn__localPlayerTrackName();
     // Get instance field reference: private System.String _localPlayerRingTrackName
@@ -227,7 +234,7 @@ namespace GlobalNamespace {
     void BindTimeline();
     // private System.Void BindRingsAndSetTiming(System.Int32 connectedPlayersCount, UnityEngine.GameObject[] connectedRings, UnityEngine.GameObject localRing)
     // Offset: 0x121AB0C
-    void BindRingsAndSetTiming(int connectedPlayersCount, ::ArrayWrapper<UnityEngine::GameObject*> connectedRings, UnityEngine::GameObject* localRing);
+    void BindRingsAndSetTiming(int connectedPlayersCount, ::ArrayW<UnityEngine::GameObject*> connectedRings, UnityEngine::GameObject* localRing);
     // public System.Void TransitionToAfterIntroAnimationState()
     // Offset: 0x1216944
     void TransitionToAfterIntroAnimationState();
@@ -305,7 +312,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Globa
 // Writing MetadataGetter for method: GlobalNamespace::MultiplayerIntroAnimationController::BindRingsAndSetTiming
 // Il2CppName: BindRingsAndSetTiming
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerIntroAnimationController::*)(int, ::ArrayWrapper<UnityEngine::GameObject*>, UnityEngine::GameObject*)>(&GlobalNamespace::MultiplayerIntroAnimationController::BindRingsAndSetTiming)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::MultiplayerIntroAnimationController::*)(int, ::ArrayW<UnityEngine::GameObject*>, UnityEngine::GameObject*)>(&GlobalNamespace::MultiplayerIntroAnimationController::BindRingsAndSetTiming)> {
   static const MethodInfo* get() {
     static auto* connectedPlayersCount = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
     static auto* connectedRings = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("UnityEngine", "GameObject"), 1)->byval_arg;

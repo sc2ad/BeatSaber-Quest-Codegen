@@ -22,6 +22,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LobbyPlayerData : public GlobalNamespace::LevelGameplaySetupData/*, public GlobalNamespace::ILobbyPlayerData*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Boolean <isPartyOwner>k__BackingField
     // Size: 0x1
     // Offset: 0x2C
@@ -46,6 +51,7 @@ namespace GlobalNamespace {
     bool isInLobby;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::ILobbyPlayerData
     operator GlobalNamespace::ILobbyPlayerData() noexcept {
       return *reinterpret_cast<GlobalNamespace::ILobbyPlayerData*>(this);

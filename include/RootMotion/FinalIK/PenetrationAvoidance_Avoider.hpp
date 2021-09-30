@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: RootMotion::FinalIK
@@ -38,13 +39,18 @@ namespace RootMotion::FinalIK {
     public:
     // Nested type: RootMotion::FinalIK::PenetrationAvoidance::Avoider::EffectorLink
     class EffectorLink;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [TooltipAttribute] Offset: 0xEF77C8
     // public UnityEngine.Transform[] raycastFrom
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<UnityEngine::Transform*> raycastFrom;
+    ::ArrayW<UnityEngine::Transform*> raycastFrom;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::Transform*>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::Transform*>) == 0x8);
     // [TooltipAttribute] Offset: 0xEF7800
     // public UnityEngine.Transform raycastTo
     // Size: 0x8
@@ -66,9 +72,9 @@ namespace RootMotion::FinalIK {
     // public RootMotion.FinalIK.PenetrationAvoidance/RootMotion.FinalIK.Avoider/RootMotion.FinalIK.EffectorLink[] effectors
     // Size: 0x8
     // Offset: 0x28
-    ::ArrayWrapper<RootMotion::FinalIK::PenetrationAvoidance::Avoider::EffectorLink*> effectors;
+    ::ArrayW<RootMotion::FinalIK::PenetrationAvoidance::Avoider::EffectorLink*> effectors;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<RootMotion::FinalIK::PenetrationAvoidance::Avoider::EffectorLink*>) == 0x8);
+    static_assert(sizeof(::ArrayW<RootMotion::FinalIK::PenetrationAvoidance::Avoider::EffectorLink*>) == 0x8);
     // [TooltipAttribute] Offset: 0xEF78C4
     // public System.Single smoothTimeIn
     // Size: 0x4
@@ -108,14 +114,15 @@ namespace RootMotion::FinalIK {
     UnityEngine::Vector3 offsetV;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    public:
     // Get instance field reference: public UnityEngine.Transform[] raycastFrom
-    ::ArrayWrapper<UnityEngine::Transform*>& dyn_raycastFrom();
+    ::ArrayW<UnityEngine::Transform*>& dyn_raycastFrom();
     // Get instance field reference: public UnityEngine.Transform raycastTo
     UnityEngine::Transform*& dyn_raycastTo();
     // Get instance field reference: public System.Single raycastRadius
     float& dyn_raycastRadius();
     // Get instance field reference: public RootMotion.FinalIK.PenetrationAvoidance/RootMotion.FinalIK.Avoider/RootMotion.FinalIK.EffectorLink[] effectors
-    ::ArrayWrapper<RootMotion::FinalIK::PenetrationAvoidance::Avoider::EffectorLink*>& dyn_effectors();
+    ::ArrayW<RootMotion::FinalIK::PenetrationAvoidance::Avoider::EffectorLink*>& dyn_effectors();
     // Get instance field reference: public System.Single smoothTimeIn
     float& dyn_smoothTimeIn();
     // Get instance field reference: public System.Single smoothTimeOut

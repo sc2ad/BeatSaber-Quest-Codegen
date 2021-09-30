@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -34,10 +35,10 @@ namespace GlobalNamespace {
     static ::Il2CppString* GetUniqueDirectoryNameByAppendingNumber(::Il2CppString* dirName);
     // static public System.String[] GetFilePaths(System.String directoryPath, System.Collections.Generic.HashSet`1<System.String> extensions)
     // Offset: 0x1380420
-    static ::ArrayWrapper<::Il2CppString*> GetFilePaths(::Il2CppString* directoryPath, System::Collections::Generic::HashSet_1<::Il2CppString*>* extensions);
+    static ::ArrayW<::Il2CppString*> GetFilePaths(::Il2CppString* directoryPath, System::Collections::Generic::HashSet_1<::Il2CppString*>* extensions);
     // static public System.String[] GetFileNamesFromFilePaths(System.String[] filePaths)
     // Offset: 0x13805C0
-    static ::ArrayWrapper<::Il2CppString*> GetFileNamesFromFilePaths(::ArrayWrapper<::Il2CppString*> filePaths);
+    static ::ArrayW<::Il2CppString*> GetFileNamesFromFilePaths(::ArrayW<::Il2CppString*> filePaths);
     // static public System.Void SaveToJSONFile(System.Object obj, System.String filePath, System.String tempFilePath, System.String backupFilePath)
     // Offset: 0x13806E0
     static void SaveToJSONFile(::Il2CppObject* obj, ::Il2CppString* filePath, ::Il2CppString* tempFilePath, ::Il2CppString* backupFilePath);
@@ -88,7 +89,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Il2CppStr
 // Writing MetadataGetter for method: GlobalNamespace::FileHelpers::GetFilePaths
 // Il2CppName: GetFilePaths
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppString*> (*)(::Il2CppString*, System::Collections::Generic::HashSet_1<::Il2CppString*>*)>(&GlobalNamespace::FileHelpers::GetFilePaths)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (*)(::Il2CppString*, System::Collections::Generic::HashSet_1<::Il2CppString*>*)>(&GlobalNamespace::FileHelpers::GetFilePaths)> {
   static const MethodInfo* get() {
     static auto* directoryPath = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* extensions = &::il2cpp_utils::MakeGeneric(::il2cpp_utils::GetClassFromName("System.Collections.Generic", "HashSet`1"), ::std::vector<const Il2CppClass*>{::il2cpp_utils::GetClassFromName("System", "String")})->byval_arg;
@@ -98,7 +99,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: GlobalNamespace::FileHelpers::GetFileNamesFromFilePaths
 // Il2CppName: GetFileNamesFromFilePaths
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppString*> (*)(::ArrayWrapper<::Il2CppString*>)>(&GlobalNamespace::FileHelpers::GetFileNamesFromFilePaths)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (*)(::ArrayW<::Il2CppString*>)>(&GlobalNamespace::FileHelpers::GetFileNamesFromFilePaths)> {
   static const MethodInfo* get() {
     static auto* filePaths = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::FileHelpers*), "GetFileNamesFromFilePaths", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{filePaths});

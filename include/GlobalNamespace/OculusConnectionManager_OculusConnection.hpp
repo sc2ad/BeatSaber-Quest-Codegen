@@ -47,6 +47,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::OculusConnectionManager::OculusConnection::$$c__DisplayClass15_0
     class $$c__DisplayClass15_0;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly System.UInt64 _id
     // Size: 0x8
     // Offset: 0x10
@@ -71,6 +76,7 @@ namespace GlobalNamespace {
     bool isConnectionOwner;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator System::IEquatable_1<GlobalNamespace::OculusConnectionManager::OculusConnection*>
     operator System::IEquatable_1<GlobalNamespace::OculusConnectionManager::OculusConnection*>() noexcept {
       return *reinterpret_cast<System::IEquatable_1<GlobalNamespace::OculusConnectionManager::OculusConnection*>*>(this);

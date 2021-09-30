@@ -14,6 +14,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System
@@ -95,22 +96,22 @@ namespace UnityEngine::ProBuilder {
     static void Debug(::Il2CppString* message);
     // static public System.Void Debug(System.String format, params System.Object[] values)
     // Offset: 0x1C7C690
-    static void Debug(::Il2CppString* format, ::ArrayWrapper<::Il2CppObject*> values);
+    static void Debug(::Il2CppString* format, ::ArrayW<::Il2CppObject*> values);
     // static public System.Void Info(System.String format, params System.Object[] values)
     // Offset: 0x1C7C694
-    static void Info(::Il2CppString* format, ::ArrayWrapper<::Il2CppObject*> values);
+    static void Info(::Il2CppString* format, ::ArrayW<::Il2CppObject*> values);
     // static public System.Void Info(System.String message)
     // Offset: 0x1C7C71C
     static void Info(::Il2CppString* message);
     // static public System.Void Warning(System.String format, params System.Object[] values)
     // Offset: 0x1C7C7B4
-    static void Warning(::Il2CppString* format, ::ArrayWrapper<::Il2CppObject*> values);
+    static void Warning(::Il2CppString* format, ::ArrayW<::Il2CppObject*> values);
     // static public System.Void Warning(System.String message)
     // Offset: 0x1C7C83C
     static void Warning(::Il2CppString* message);
     // static public System.Void Error(System.String format, params System.Object[] values)
     // Offset: 0x1C7C8D4
-    static void Error(::Il2CppString* format, ::ArrayWrapper<::Il2CppObject*> values);
+    static void Error(::Il2CppString* format, ::ArrayW<::Il2CppObject*> values);
     // static public System.Void Error(System.String message)
     // Offset: 0x1C7C95C
     static void Error(::Il2CppString* message);
@@ -216,7 +217,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Log::Debug
 // Il2CppName: Debug
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayWrapper<::Il2CppObject*>)>(&UnityEngine::ProBuilder::Log::Debug)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayW<::Il2CppObject*>)>(&UnityEngine::ProBuilder::Log::Debug)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
@@ -226,7 +227,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Log::Info
 // Il2CppName: Info
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayWrapper<::Il2CppObject*>)>(&UnityEngine::ProBuilder::Log::Info)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayW<::Il2CppObject*>)>(&UnityEngine::ProBuilder::Log::Info)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
@@ -245,7 +246,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Log::Warning
 // Il2CppName: Warning
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayWrapper<::Il2CppObject*>)>(&UnityEngine::ProBuilder::Log::Warning)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayW<::Il2CppObject*>)>(&UnityEngine::ProBuilder::Log::Warning)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;
@@ -264,7 +265,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::
 // Writing MetadataGetter for method: UnityEngine::ProBuilder::Log::Error
 // Il2CppName: Error
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayWrapper<::Il2CppObject*>)>(&UnityEngine::ProBuilder::Log::Error)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Il2CppString*, ::ArrayW<::Il2CppObject*>)>(&UnityEngine::ProBuilder::Log::Error)> {
   static const MethodInfo* get() {
     static auto* format = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* values = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Object"), 1)->byval_arg;

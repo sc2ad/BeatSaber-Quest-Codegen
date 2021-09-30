@@ -55,6 +55,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class GameplayCoreInstaller : public Zenject::MonoInstaller {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private BeatLineManager _beatLineManagerPrefab
     // Size: 0x8
     // Offset: 0x20
@@ -132,6 +137,7 @@ namespace GlobalNamespace {
     DataModels::Levels::PerceivedLoudnessPerLevelModel* perceivedLoudnessPerLevelModel;
     // Field size check
     static_assert(sizeof(DataModels::Levels::PerceivedLoudnessPerLevelModel*) == 0x8);
+    public:
     // Get instance field reference: private BeatLineManager _beatLineManagerPrefab
     GlobalNamespace::BeatLineManager*& dyn__beatLineManagerPrefab();
     // Get instance field reference: private Tweening.SongTimeTweeningManager _songTimeTweeningManager

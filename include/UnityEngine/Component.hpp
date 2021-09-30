@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -109,16 +110,16 @@ namespace UnityEngine {
     }
     // public UnityEngine.Component[] GetComponentsInChildren(System.Type t, System.Boolean includeInactive)
     // Offset: 0x1CB4C44
-    ::ArrayWrapper<UnityEngine::Component*> GetComponentsInChildren(System::Type* t, bool includeInactive);
+    ::ArrayW<UnityEngine::Component*> GetComponentsInChildren(System::Type* t, bool includeInactive);
     // public T[] GetComponentsInChildren(System.Boolean includeInactive)
     // Offset: 0xFFFFFFFF
     template<class T>
-    ::ArrayWrapper<T> GetComponentsInChildren(bool includeInactive) {
+    ::ArrayW<T> GetComponentsInChildren(bool includeInactive) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Component::GetComponentsInChildren");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetComponentsInChildren", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(includeInactive)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<::ArrayWrapper<T>, false>(___instance_arg, ___generic__method, includeInactive);
+      return ::il2cpp_utils::RunMethodThrow<::ArrayW<T>, false>(___instance_arg, ___generic__method, includeInactive);
     }
     // public System.Void GetComponentsInChildren(System.Boolean includeInactive, System.Collections.Generic.List`1<T> result)
     // Offset: 0xFFFFFFFF
@@ -133,12 +134,12 @@ namespace UnityEngine {
     // public T[] GetComponentsInChildren()
     // Offset: 0xFFFFFFFF
     template<class T>
-    ::ArrayWrapper<T> GetComponentsInChildren() {
+    ::ArrayW<T> GetComponentsInChildren() {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Component::GetComponentsInChildren");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetComponentsInChildren", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<::ArrayWrapper<T>, false>(___instance_arg, ___generic__method);
+      return ::il2cpp_utils::RunMethodThrow<::ArrayW<T>, false>(___instance_arg, ___generic__method);
     }
     // public System.Void GetComponentsInChildren(System.Collections.Generic.List`1<T> results)
     // Offset: 0xFFFFFFFF
@@ -165,16 +166,16 @@ namespace UnityEngine {
     }
     // public UnityEngine.Component[] GetComponentsInParent(System.Type t, System.Boolean includeInactive)
     // Offset: 0x1CB4E38
-    ::ArrayWrapper<UnityEngine::Component*> GetComponentsInParent(System::Type* t, bool includeInactive);
+    ::ArrayW<UnityEngine::Component*> GetComponentsInParent(System::Type* t, bool includeInactive);
     // public T[] GetComponentsInParent(System.Boolean includeInactive)
     // Offset: 0xFFFFFFFF
     template<class T>
-    ::ArrayWrapper<T> GetComponentsInParent(bool includeInactive) {
+    ::ArrayW<T> GetComponentsInParent(bool includeInactive) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Component::GetComponentsInParent");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetComponentsInParent", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{::il2cpp_utils::ExtractType(includeInactive)})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<::ArrayWrapper<T>, false>(___instance_arg, ___generic__method, includeInactive);
+      return ::il2cpp_utils::RunMethodThrow<::ArrayW<T>, false>(___instance_arg, ___generic__method, includeInactive);
     }
     // public System.Void GetComponentsInParent(System.Boolean includeInactive, System.Collections.Generic.List`1<T> results)
     // Offset: 0xFFFFFFFF
@@ -189,16 +190,16 @@ namespace UnityEngine {
     // public T[] GetComponentsInParent()
     // Offset: 0xFFFFFFFF
     template<class T>
-    ::ArrayWrapper<T> GetComponentsInParent() {
+    ::ArrayW<T> GetComponentsInParent() {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Component::GetComponentsInParent");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetComponentsInParent", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<::ArrayWrapper<T>, false>(___instance_arg, ___generic__method);
+      return ::il2cpp_utils::RunMethodThrow<::ArrayW<T>, false>(___instance_arg, ___generic__method);
     }
     // public UnityEngine.Component[] GetComponents(System.Type type)
     // Offset: 0x1CB4F58
-    ::ArrayWrapper<UnityEngine::Component*> GetComponents(System::Type* type);
+    ::ArrayW<UnityEngine::Component*> GetComponents(System::Type* type);
     // private System.Void GetComponentsForListInternal(System.Type searchType, System.Object resultList)
     // Offset: 0x1CB506C
     void GetComponentsForListInternal(System::Type* searchType, ::Il2CppObject* resultList);
@@ -218,12 +219,12 @@ namespace UnityEngine {
     // public T[] GetComponents()
     // Offset: 0xFFFFFFFF
     template<class T>
-    ::ArrayWrapper<T> GetComponents() {
+    ::ArrayW<T> GetComponents() {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::Component::GetComponents");
       static auto* ___internal__method = THROW_UNLESS((::il2cpp_utils::FindMethod(this, "GetComponents", std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}, ::std::vector<const Il2CppType*>{})));
       static auto* ___generic__method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal__method, std::vector<Il2CppClass*>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get()}));
       auto ___instance_arg = this;
-      return ::il2cpp_utils::RunMethodThrow<::ArrayWrapper<T>, false>(___instance_arg, ___generic__method);
+      return ::il2cpp_utils::RunMethodThrow<::ArrayW<T>, false>(___instance_arg, ___generic__method);
     }
     // public System.Boolean CompareTag(System.String tag)
     // Offset: 0x1CB52A4
@@ -326,7 +327,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Component::GetComponentsInChildren
 // Il2CppName: GetComponentsInChildren
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Component*> (UnityEngine::Component::*)(System::Type*, bool)>(&UnityEngine::Component::GetComponentsInChildren)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Component*> (UnityEngine::Component::*)(System::Type*, bool)>(&UnityEngine::Component::GetComponentsInChildren)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* includeInactive = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -360,7 +361,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<UnityEngine
 // Writing MetadataGetter for method: UnityEngine::Component::GetComponentsInParent
 // Il2CppName: GetComponentsInParent
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Component*> (UnityEngine::Component::*)(System::Type*, bool)>(&UnityEngine::Component::GetComponentsInParent)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Component*> (UnityEngine::Component::*)(System::Type*, bool)>(&UnityEngine::Component::GetComponentsInParent)> {
   static const MethodInfo* get() {
     static auto* t = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     static auto* includeInactive = &::il2cpp_utils::GetClassFromName("System", "Boolean")->byval_arg;
@@ -379,7 +380,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: UnityEngine::Component::GetComponents
 // Il2CppName: GetComponents
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<UnityEngine::Component*> (UnityEngine::Component::*)(System::Type*)>(&UnityEngine::Component::GetComponents)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<UnityEngine::Component*> (UnityEngine::Component::*)(System::Type*)>(&UnityEngine::Component::GetComponents)> {
   static const MethodInfo* get() {
     static auto* type = &::il2cpp_utils::GetClassFromName("System", "Type")->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(UnityEngine::Component*), "GetComponents", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{type});

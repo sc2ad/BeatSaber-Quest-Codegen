@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::TestTools::NUnitExtensions
@@ -66,6 +67,11 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
   // [TokenAttribute] Offset: FFFFFFFF
   class UnityTestAssemblyRunner : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly UnityEngine.TestTools.NUnitExtensions.UnityTestAssemblyBuilder unityBuilder
     // Size: 0x8
     // Offset: 0x10
@@ -102,6 +108,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem* TopLevelWorkItem;
     // Field size check
     static_assert(sizeof(UnityEngine::TestRunner::NUnitExtensions::Runner::UnityWorkItem*) == 0x8);
+    public:
     // Get instance field reference: private readonly UnityEngine.TestTools.NUnitExtensions.UnityTestAssemblyBuilder unityBuilder
     UnityEngine::TestTools::NUnitExtensions::UnityTestAssemblyBuilder*& dyn_unityBuilder();
     // Get instance field reference: private readonly UnityEngine.TestRunner.NUnitExtensions.Runner.WorkItemFactory m_Factory
@@ -153,7 +160,7 @@ namespace UnityEngine::TestRunner::NUnitExtensions::Runner {
     }
     // public NUnit.Framework.Interfaces.ITest Load(System.Reflection.Assembly[] assemblies, UnityEngine.TestTools.TestPlatform testPlatform, System.Collections.Generic.IDictionary`2<System.String,System.Object> settings)
     // Offset: 0x16669F4
-    NUnit::Framework::Interfaces::ITest* Load(::ArrayWrapper<System::Reflection::Assembly*> assemblies, UnityEngine::TestTools::TestPlatform testPlatform, System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>* settings);
+    NUnit::Framework::Interfaces::ITest* Load(::ArrayW<System::Reflection::Assembly*> assemblies, UnityEngine::TestTools::TestPlatform testPlatform, System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>* settings);
     // public System.Collections.IEnumerable Run(NUnit.Framework.Interfaces.ITestListener listener, NUnit.Framework.Interfaces.ITestFilter filter)
     // Offset: 0x1666D48
     System::Collections::IEnumerable* Run(NUnit::Framework::Interfaces::ITestListener* listener, NUnit::Framework::Interfaces::ITestFilter* filter);
@@ -258,7 +265,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner::Load
 // Il2CppName: Load
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::ITest* (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner::*)(::ArrayWrapper<System::Reflection::Assembly*>, UnityEngine::TestTools::TestPlatform, System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner::Load)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<NUnit::Framework::Interfaces::ITest* (UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner::*)(::ArrayW<System::Reflection::Assembly*>, UnityEngine::TestTools::TestPlatform, System::Collections::Generic::IDictionary_2<::Il2CppString*, ::Il2CppObject*>*)>(&UnityEngine::TestRunner::NUnitExtensions::Runner::UnityTestAssemblyRunner::Load)> {
   static const MethodInfo* get() {
     static auto* assemblies = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System.Reflection", "Assembly"), 1)->byval_arg;
     static auto* testPlatform = &::il2cpp_utils::GetClassFromName("UnityEngine.TestTools", "TestPlatform")->byval_arg;

@@ -22,6 +22,11 @@ namespace RootMotion {
   // [TokenAttribute] Offset: FFFFFFFF
   class BipedLimbOrientations::LimbOrientation : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public UnityEngine.Vector3 upperBoneForwardAxis
     // Size: 0xC
     // Offset: 0x10
@@ -40,6 +45,7 @@ namespace RootMotion {
     UnityEngine::Vector3 lastBoneLeftAxis;
     // Field size check
     static_assert(sizeof(UnityEngine::Vector3) == 0xC);
+    public:
     // Get instance field reference: public UnityEngine.Vector3 upperBoneForwardAxis
     UnityEngine::Vector3& dyn_upperBoneForwardAxis();
     // Get instance field reference: public UnityEngine.Vector3 lowerBoneForwardAxis

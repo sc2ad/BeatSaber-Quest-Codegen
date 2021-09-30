@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Org::BouncyCastle::Crypto
@@ -34,6 +35,11 @@ namespace Org::BouncyCastle::Crypto::Macs {
   // [TokenAttribute] Offset: FFFFFFFF
   class HMac : public ::Il2CppObject/*, public Org::BouncyCastle::Crypto::IMac*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly Org.BouncyCastle.Crypto.IDigest digest
     // Size: 0x8
     // Offset: 0x10
@@ -67,15 +73,16 @@ namespace Org::BouncyCastle::Crypto::Macs {
     // private readonly System.Byte[] inputPad
     // Size: 0x8
     // Offset: 0x30
-    ::ArrayWrapper<uint8_t> inputPad;
+    ::ArrayW<uint8_t> inputPad;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private readonly System.Byte[] outputBuf
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayWrapper<uint8_t> outputBuf;
+    ::ArrayW<uint8_t> outputBuf;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
+    public:
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IMac
     operator Org::BouncyCastle::Crypto::IMac() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IMac*>(this);
@@ -91,9 +98,9 @@ namespace Org::BouncyCastle::Crypto::Macs {
     // Get instance field reference: private Org.BouncyCastle.Utilities.IMemoable opadState
     Org::BouncyCastle::Utilities::IMemoable*& dyn_opadState();
     // Get instance field reference: private readonly System.Byte[] inputPad
-    ::ArrayWrapper<uint8_t>& dyn_inputPad();
+    ::ArrayW<uint8_t>& dyn_inputPad();
     // Get instance field reference: private readonly System.Byte[] outputBuf
-    ::ArrayWrapper<uint8_t>& dyn_outputBuf();
+    ::ArrayW<uint8_t>& dyn_outputBuf();
     // public System.Void .ctor(Org.BouncyCastle.Crypto.IDigest digest)
     // Offset: 0x1A82DC0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
@@ -112,19 +119,19 @@ namespace Org::BouncyCastle::Crypto::Macs {
     void Update(uint8_t input);
     // public System.Void BlockUpdate(System.Byte[] input, System.Int32 inOff, System.Int32 len)
     // Offset: 0x1A874E0
-    void BlockUpdate(::ArrayWrapper<uint8_t> input, int inOff, int len);
+    void BlockUpdate(::ArrayW<uint8_t> input, int inOff, int len);
     // public System.Int32 DoFinal(System.Byte[] output, System.Int32 outOff)
     // Offset: 0x1A875BC
-    int DoFinal(::ArrayWrapper<uint8_t> output, int outOff);
+    int DoFinal(::ArrayW<uint8_t> output, int outOff);
     // public System.Void Reset()
     // Offset: 0x1A87AA8
     void Reset();
     // static private System.Void XorPad(System.Byte[] pad, System.Int32 len, System.Byte n)
     // Offset: 0x1A873B8
-    static void XorPad(::ArrayWrapper<uint8_t> pad, int len, uint8_t n);
+    static void XorPad(::ArrayW<uint8_t> pad, int len, uint8_t n);
   }; // Org.BouncyCastle.Crypto.Macs.HMac
   #pragma pack(pop)
-  static check_size<sizeof(HMac), 56 + sizeof(::ArrayWrapper<uint8_t>)> __Org_BouncyCastle_Crypto_Macs_HMacSizeCheck;
+  static check_size<sizeof(HMac), 56 + sizeof(::ArrayW<uint8_t>)> __Org_BouncyCastle_Crypto_Macs_HMacSizeCheck;
   static_assert(sizeof(HMac) == 0x40);
 }
 DEFINE_IL2CPP_ARG_TYPE(Org::BouncyCastle::Crypto::Macs::HMac*, "Org.BouncyCastle.Crypto.Macs", "HMac");
@@ -162,7 +169,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Macs::HMac::BlockUpdate
 // Il2CppName: BlockUpdate
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Macs::HMac::*)(::ArrayWrapper<uint8_t>, int, int)>(&Org::BouncyCastle::Crypto::Macs::HMac::BlockUpdate)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::BouncyCastle::Crypto::Macs::HMac::*)(::ArrayW<uint8_t>, int, int)>(&Org::BouncyCastle::Crypto::Macs::HMac::BlockUpdate)> {
   static const MethodInfo* get() {
     static auto* input = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* inOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -173,7 +180,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Macs::HMac::DoFinal
 // Il2CppName: DoFinal
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Macs::HMac::*)(::ArrayWrapper<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Macs::HMac::DoFinal)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Crypto::Macs::HMac::*)(::ArrayW<uint8_t>, int)>(&Org::BouncyCastle::Crypto::Macs::HMac::DoFinal)> {
   static const MethodInfo* get() {
     static auto* output = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* outOff = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;
@@ -191,7 +198,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Org::
 // Writing MetadataGetter for method: Org::BouncyCastle::Crypto::Macs::HMac::XorPad
 // Il2CppName: XorPad
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayWrapper<uint8_t>, int, uint8_t)>(&Org::BouncyCastle::Crypto::Macs::HMac::XorPad)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t>, int, uint8_t)>(&Org::BouncyCastle::Crypto::Macs::HMac::XorPad)> {
   static const MethodInfo* get() {
     static auto* pad = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* len = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

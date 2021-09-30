@@ -17,6 +17,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: Mono::Security::Interface
@@ -41,6 +42,11 @@ namespace Mono::Security::Interface {
   // [TokenAttribute] Offset: FFFFFFFF
   class MonoTlsSettings : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private Mono.Security.Interface.MonoRemoteCertificateValidationCallback <RemoteCertificateValidationCallback>k__BackingField
     // Size: 0x8
     // Offset: 0x10
@@ -72,9 +78,9 @@ namespace Mono::Security::Interface {
     // private System.String[] <CertificateSearchPaths>k__BackingField
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayWrapper<::Il2CppString*> CertificateSearchPaths;
+    ::ArrayW<::Il2CppString*> CertificateSearchPaths;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // private System.Boolean <SendCloseNotify>k__BackingField
     // Size: 0x1
     // Offset: 0x48
@@ -88,9 +94,9 @@ namespace Mono::Security::Interface {
     // private Mono.Security.Interface.CipherSuiteCode[] <EnabledCiphers>k__BackingField
     // Size: 0x8
     // Offset: 0x58
-    ::ArrayWrapper<Mono::Security::Interface::CipherSuiteCode> EnabledCiphers;
+    ::ArrayW<Mono::Security::Interface::CipherSuiteCode> EnabledCiphers;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<Mono::Security::Interface::CipherSuiteCode>) == 0x8);
+    static_assert(sizeof(::ArrayW<Mono::Security::Interface::CipherSuiteCode>) == 0x8);
     // private System.Boolean cloned
     // Size: 0x1
     // Offset: 0x60
@@ -131,6 +137,7 @@ namespace Mono::Security::Interface {
     Mono::Security::Interface::ICertificateValidator* certificateValidator;
     // Field size check
     static_assert(sizeof(Mono::Security::Interface::ICertificateValidator*) == 0x8);
+    public:
     // Get static field: static private Mono.Security.Interface.MonoTlsSettings defaultSettings
     static Mono::Security::Interface::MonoTlsSettings* _get_defaultSettings();
     // Set static field: static private Mono.Security.Interface.MonoTlsSettings defaultSettings
@@ -146,13 +153,13 @@ namespace Mono::Security::Interface {
     // Get instance field reference: private System.Object <UserSettings>k__BackingField
     ::Il2CppObject*& dyn_$UserSettings$k__BackingField();
     // Get instance field reference: private System.String[] <CertificateSearchPaths>k__BackingField
-    ::ArrayWrapper<::Il2CppString*>& dyn_$CertificateSearchPaths$k__BackingField();
+    ::ArrayW<::Il2CppString*>& dyn_$CertificateSearchPaths$k__BackingField();
     // Get instance field reference: private System.Boolean <SendCloseNotify>k__BackingField
     bool& dyn_$SendCloseNotify$k__BackingField();
     // Get instance field reference: private System.Nullable`1<Mono.Security.Interface.TlsProtocols> <EnabledProtocols>k__BackingField
     System::Nullable_1<Mono::Security::Interface::TlsProtocols>& dyn_$EnabledProtocols$k__BackingField();
     // Get instance field reference: private Mono.Security.Interface.CipherSuiteCode[] <EnabledCiphers>k__BackingField
-    ::ArrayWrapper<Mono::Security::Interface::CipherSuiteCode>& dyn_$EnabledCiphers$k__BackingField();
+    ::ArrayW<Mono::Security::Interface::CipherSuiteCode>& dyn_$EnabledCiphers$k__BackingField();
     // Get instance field reference: private System.Boolean cloned
     bool& dyn_cloned();
     // Get instance field reference: private System.Boolean checkCertName
@@ -208,10 +215,10 @@ namespace Mono::Security::Interface {
     void set_UserSettings(::Il2CppObject* value);
     // System.String[] get_CertificateSearchPaths()
     // Offset: 0x1FA13D4
-    ::ArrayWrapper<::Il2CppString*> get_CertificateSearchPaths();
+    ::ArrayW<::Il2CppString*> get_CertificateSearchPaths();
     // System.Void set_CertificateSearchPaths(System.String[] value)
     // Offset: 0x1FA13DC
-    void set_CertificateSearchPaths(::ArrayWrapper<::Il2CppString*> value);
+    void set_CertificateSearchPaths(::ArrayW<::Il2CppString*> value);
     // System.Boolean get_SendCloseNotify()
     // Offset: 0x1FA13E4
     bool get_SendCloseNotify();
@@ -226,10 +233,10 @@ namespace Mono::Security::Interface {
     void set_EnabledProtocols(System::Nullable_1<Mono::Security::Interface::TlsProtocols> value);
     // public Mono.Security.Interface.CipherSuiteCode[] get_EnabledCiphers()
     // Offset: 0x1FA1408
-    ::ArrayWrapper<Mono::Security::Interface::CipherSuiteCode> get_EnabledCiphers();
+    ::ArrayW<Mono::Security::Interface::CipherSuiteCode> get_EnabledCiphers();
     // public System.Void set_EnabledCiphers(Mono.Security.Interface.CipherSuiteCode[] value)
     // Offset: 0x1FA1410
-    void set_EnabledCiphers(::ArrayWrapper<Mono::Security::Interface::CipherSuiteCode> value);
+    void set_EnabledCiphers(::ArrayW<Mono::Security::Interface::CipherSuiteCode> value);
     // static public Mono.Security.Interface.MonoTlsSettings get_DefaultSettings()
     // Offset: 0x1FA142C
     static Mono::Security::Interface::MonoTlsSettings* get_DefaultSettings();
@@ -379,7 +386,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Security::Interface::MonoTlsSettings::get_CertificateSearchPaths
 // Il2CppName: get_CertificateSearchPaths
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppString*> (Mono::Security::Interface::MonoTlsSettings::*)()>(&Mono::Security::Interface::MonoTlsSettings::get_CertificateSearchPaths)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (Mono::Security::Interface::MonoTlsSettings::*)()>(&Mono::Security::Interface::MonoTlsSettings::get_CertificateSearchPaths)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoTlsSettings*), "get_CertificateSearchPaths", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -387,7 +394,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: Mono::Security::Interface::MonoTlsSettings::set_CertificateSearchPaths
 // Il2CppName: set_CertificateSearchPaths
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Interface::MonoTlsSettings::*)(::ArrayWrapper<::Il2CppString*>)>(&Mono::Security::Interface::MonoTlsSettings::set_CertificateSearchPaths)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Interface::MonoTlsSettings::*)(::ArrayW<::Il2CppString*>)>(&Mono::Security::Interface::MonoTlsSettings::set_CertificateSearchPaths)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "String"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoTlsSettings*), "set_CertificateSearchPaths", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});
@@ -430,7 +437,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono:
 // Writing MetadataGetter for method: Mono::Security::Interface::MonoTlsSettings::get_EnabledCiphers
 // Il2CppName: get_EnabledCiphers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<Mono::Security::Interface::CipherSuiteCode> (Mono::Security::Interface::MonoTlsSettings::*)()>(&Mono::Security::Interface::MonoTlsSettings::get_EnabledCiphers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<Mono::Security::Interface::CipherSuiteCode> (Mono::Security::Interface::MonoTlsSettings::*)()>(&Mono::Security::Interface::MonoTlsSettings::get_EnabledCiphers)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoTlsSettings*), "get_EnabledCiphers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -438,7 +445,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrap
 // Writing MetadataGetter for method: Mono::Security::Interface::MonoTlsSettings::set_EnabledCiphers
 // Il2CppName: set_EnabledCiphers
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Interface::MonoTlsSettings::*)(::ArrayWrapper<Mono::Security::Interface::CipherSuiteCode>)>(&Mono::Security::Interface::MonoTlsSettings::set_EnabledCiphers)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Mono::Security::Interface::MonoTlsSettings::*)(::ArrayW<Mono::Security::Interface::CipherSuiteCode>)>(&Mono::Security::Interface::MonoTlsSettings::set_EnabledCiphers)> {
   static const MethodInfo* get() {
     static auto* value = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("Mono.Security.Interface", "CipherSuiteCode"), 1)->byval_arg;
     return ::il2cpp_utils::FindMethod(classof(Mono::Security::Interface::MonoTlsSettings*), "set_EnabledCiphers", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{value});

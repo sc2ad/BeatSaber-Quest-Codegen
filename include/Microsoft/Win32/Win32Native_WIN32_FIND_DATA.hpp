@@ -20,6 +20,11 @@ namespace Microsoft::Win32 {
   // [TokenAttribute] Offset: FFFFFFFF
   class Win32Native::WIN32_FIND_DATA : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // System.Int32 dwFileAttributes
     // Size: 0x4
     // Offset: 0x10
@@ -34,6 +39,7 @@ namespace Microsoft::Win32 {
     ::Il2CppString* cFileName;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: System.Int32 dwFileAttributes
     int& dyn_dwFileAttributes();
     // Get instance field reference: System.String cFileName

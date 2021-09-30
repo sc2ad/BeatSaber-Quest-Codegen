@@ -35,12 +35,18 @@ namespace UnityEngine::TestTools {
     public:
     // Nested type: UnityEngine::TestTools::TestEnumerator::$Execute$d__6
     class $Execute$d__6;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly NUnit.Framework.Internal.ITestExecutionContext m_Context
     // Size: 0x8
     // Offset: 0x10
     NUnit::Framework::Internal::ITestExecutionContext* m_Context;
     // Field size check
     static_assert(sizeof(NUnit::Framework::Internal::ITestExecutionContext*) == 0x8);
+    public:
     // Creating conversion operator: operator NUnit::Framework::Internal::ITestExecutionContext*
     constexpr operator NUnit::Framework::Internal::ITestExecutionContext*() const noexcept {
       return m_Context;

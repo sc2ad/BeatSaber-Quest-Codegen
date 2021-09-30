@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -59,24 +60,30 @@ namespace GlobalNamespace {
     class $$c__DisplayClass5_1;
     // Nested type: GlobalNamespace::OculusPlatformUserModel::$GetUserNamesForUserIds$d__5
     struct $GetUserNamesForUserIds$d__5;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String[] _friendsUserIds
     // Size: 0x8
     // Offset: 0x10
-    ::ArrayWrapper<::Il2CppString*> friendsUserIds;
+    ::ArrayW<::Il2CppString*> friendsUserIds;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // private UserInfo _userInfo
     // Size: 0x8
     // Offset: 0x18
     GlobalNamespace::UserInfo* userInfo;
     // Field size check
     static_assert(sizeof(GlobalNamespace::UserInfo*) == 0x8);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IPlatformUserModel
     operator GlobalNamespace::IPlatformUserModel() noexcept {
       return *reinterpret_cast<GlobalNamespace::IPlatformUserModel*>(this);
     }
     // Get instance field reference: private System.String[] _friendsUserIds
-    ::ArrayWrapper<::Il2CppString*>& dyn__friendsUserIds();
+    ::ArrayW<::Il2CppString*>& dyn__friendsUserIds();
     // Get instance field reference: private UserInfo _userInfo
     GlobalNamespace::UserInfo*& dyn__userInfo();
     // public System.Threading.Tasks.Task`1<UserInfo> GetUserInfo()

@@ -28,12 +28,18 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class LeaderboardScoreUploader::ScoresToUploadData : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Collections.Generic.List`1<LeaderboardScoreUploader/ScoreData> scores
     // Size: 0x8
     // Offset: 0x10
     System::Collections::Generic::List_1<GlobalNamespace::LeaderboardScoreUploader::ScoreData*>* scores;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<GlobalNamespace::LeaderboardScoreUploader::ScoreData*>*) == 0x8);
+    public:
     // Creating conversion operator: operator System::Collections::Generic::List_1<GlobalNamespace::LeaderboardScoreUploader::ScoreData*>*
     constexpr operator System::Collections::Generic::List_1<GlobalNamespace::LeaderboardScoreUploader::ScoreData*>*() const noexcept {
       return scores;

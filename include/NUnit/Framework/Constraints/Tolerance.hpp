@@ -20,6 +20,11 @@ namespace NUnit::Framework::Constraints {
   // [TokenAttribute] Offset: FFFFFFFF
   class Tolerance : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly NUnit.Framework.Constraints.ToleranceMode mode
     // Size: 0x4
     // Offset: 0x10
@@ -34,6 +39,7 @@ namespace NUnit::Framework::Constraints {
     ::Il2CppObject* amount;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
+    public:
     // Get instance field reference: private readonly NUnit.Framework.Constraints.ToleranceMode mode
     NUnit::Framework::Constraints::ToleranceMode& dyn_mode();
     // Get instance field reference: private readonly System.Object amount

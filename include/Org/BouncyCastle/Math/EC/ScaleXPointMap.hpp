@@ -29,12 +29,18 @@ namespace Org::BouncyCastle::Math::EC {
   // [TokenAttribute] Offset: FFFFFFFF
   class ScaleXPointMap : public ::Il2CppObject/*, public Org::BouncyCastle::Math::EC::ECPointMap*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // protected readonly Org.BouncyCastle.Math.EC.ECFieldElement scale
     // Size: 0x8
     // Offset: 0x10
     Org::BouncyCastle::Math::EC::ECFieldElement* scale;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Math::EC::ECFieldElement*) == 0x8);
+    public:
     // Creating interface conversion operator: operator Org::BouncyCastle::Math::EC::ECPointMap
     operator Org::BouncyCastle::Math::EC::ECPointMap() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Math::EC::ECPointMap*>(this);

@@ -20,6 +20,11 @@ namespace System::Runtime::Remoting {
   // [TokenAttribute] Offset: FFFFFFFF
   class RemotingServices::CACD : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.Object d
     // Size: 0x8
     // Offset: 0x10
@@ -32,6 +37,7 @@ namespace System::Runtime::Remoting {
     ::Il2CppObject* c;
     // Field size check
     static_assert(sizeof(::Il2CppObject*) == 0x8);
+    public:
     // Get instance field reference: public System.Object d
     ::Il2CppObject*& dyn_d();
     // Get instance field reference: public System.Object c

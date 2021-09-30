@@ -37,12 +37,18 @@ namespace Org::BouncyCastle::Crypto::Agreement {
   // [TokenAttribute] Offset: FFFFFFFF
   class ECDHBasicAgreement : public ::Il2CppObject/*, public Org::BouncyCastle::Crypto::IBasicAgreement*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // protected internal Org.BouncyCastle.Crypto.Parameters.ECPrivateKeyParameters privKey
     // Size: 0x8
     // Offset: 0x10
     Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* privKey;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*) == 0x8);
+    public:
     // Creating interface conversion operator: operator Org::BouncyCastle::Crypto::IBasicAgreement
     operator Org::BouncyCastle::Crypto::IBasicAgreement() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Crypto::IBasicAgreement*>(this);

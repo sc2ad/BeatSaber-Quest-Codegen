@@ -16,6 +16,11 @@ namespace OVR::OpenVR {
   // [TokenAttribute] Offset: FFFFFFFF
   struct VREvent_Screenshot_t/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public System.UInt32 handle
     // Size: 0x4
     // Offset: 0x0
@@ -28,6 +33,7 @@ namespace OVR::OpenVR {
     uint type;
     // Field size check
     static_assert(sizeof(uint) == 0x4);
+    public:
     // Creating value type constructor for type: VREvent_Screenshot_t
     constexpr VREvent_Screenshot_t(uint handle_ = {}, uint type_ = {}) noexcept : handle{handle_}, type{type_} {}
     // Creating interface conversion operator: operator System::ValueType

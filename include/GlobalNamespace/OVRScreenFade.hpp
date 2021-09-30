@@ -43,6 +43,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::OVRScreenFade::$Fade$d__25
     class $Fade$d__25;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [TooltipAttribute] Offset: 0xEB2F14
     // public System.Single fadeTime
     // Size: 0x4
@@ -113,6 +118,7 @@ namespace GlobalNamespace {
     bool isFading;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static private OVRScreenFade <instance>k__BackingField

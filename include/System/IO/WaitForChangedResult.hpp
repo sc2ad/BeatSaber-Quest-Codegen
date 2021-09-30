@@ -19,6 +19,11 @@ namespace System::IO {
   // [TokenAttribute] Offset: FFFFFFFF
   struct WaitForChangedResult/*, public System::ValueType*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.IO.WatcherChangeTypes changeType
     // Size: 0x4
     // Offset: 0x0
@@ -45,6 +50,7 @@ namespace System::IO {
     bool timedOut;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating value type constructor for type: WaitForChangedResult
     constexpr WaitForChangedResult(System::IO::WatcherChangeTypes changeType_ = {}, ::Il2CppString* name_ = {}, ::Il2CppString* oldName_ = {}, bool timedOut_ = {}) noexcept : changeType{changeType_}, name{name_}, oldName{oldName_}, timedOut{timedOut_} {}
     // Creating interface conversion operator: operator System::ValueType

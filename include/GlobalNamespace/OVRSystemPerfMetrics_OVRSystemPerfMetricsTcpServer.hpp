@@ -24,6 +24,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private OVRNetwork/OVRNetworkTcpServer tcpServer
     // Size: 0x8
     // Offset: 0x18
@@ -36,6 +41,7 @@ namespace GlobalNamespace {
     int listeningPort;
     // Field size check
     static_assert(sizeof(int) == 0x4);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get static field: static public OVRSystemPerfMetrics/OVRSystemPerfMetricsTcpServer singleton

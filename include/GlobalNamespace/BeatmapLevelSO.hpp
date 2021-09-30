@@ -15,6 +15,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: GlobalNamespace
@@ -88,12 +89,18 @@ namespace GlobalNamespace {
       // [TokenAttribute] Offset: FFFFFFFF
       struct Result/*, public System::Enum*/ {
         public:
+        #ifdef USE_CODEGEN_FIELDS
+        public:
+        #else
+        private:
+        #endif
         // public System.Int32 value__
         // Size: 0x4
         // Offset: 0x0
         int value;
         // Field size check
         static_assert(sizeof(int) == 0x4);
+        public:
         // Creating value type constructor for type: Result
         constexpr Result(int value_ = {}) noexcept : value{value_} {}
         // Creating interface conversion operator: operator System::Enum
@@ -128,6 +135,11 @@ namespace GlobalNamespace {
       #pragma pack(pop)
       static check_size<sizeof(BeatmapLevelSO::GetBeatmapLevelDataResult::Result), 0 + sizeof(int)> __GlobalNamespace_BeatmapLevelSO_GetBeatmapLevelDataResult_ResultSizeCheck;
       static_assert(sizeof(BeatmapLevelSO::GetBeatmapLevelDataResult::Result) == 0x4);
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public readonly BeatmapLevelSO/GetBeatmapLevelDataResult/Result result
       // Size: 0x4
       // Offset: 0x0
@@ -142,6 +154,7 @@ namespace GlobalNamespace {
       GlobalNamespace::IBeatmapLevelData* beatmapLevelData;
       // Field size check
       static_assert(sizeof(GlobalNamespace::IBeatmapLevelData*) == 0x8);
+      public:
       // Creating value type constructor for type: GetBeatmapLevelDataResult
       constexpr GetBeatmapLevelDataResult(GlobalNamespace::BeatmapLevelSO::GetBeatmapLevelDataResult::Result result_ = {}, GlobalNamespace::IBeatmapLevelData* beatmapLevelData_ = {}) noexcept : result{result_}, beatmapLevelData{beatmapLevelData_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -159,6 +172,11 @@ namespace GlobalNamespace {
     #pragma pack(pop)
     static check_size<sizeof(BeatmapLevelSO::GetBeatmapLevelDataResult), 8 + sizeof(GlobalNamespace::IBeatmapLevelData*)> __GlobalNamespace_BeatmapLevelSO_GetBeatmapLevelDataResultSizeCheck;
     static_assert(sizeof(BeatmapLevelSO::GetBeatmapLevelDataResult) == 0x10);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String _levelID
     // Size: 0x8
     // Offset: 0x18
@@ -252,9 +270,9 @@ namespace GlobalNamespace {
     // private BeatmapLevelSO/DifficultyBeatmapSet[] _difficultyBeatmapSets
     // Size: 0x8
     // Offset: 0x78
-    ::ArrayWrapper<GlobalNamespace::BeatmapLevelSO::DifficultyBeatmapSet*> difficultyBeatmapSets;
+    ::ArrayW<GlobalNamespace::BeatmapLevelSO::DifficultyBeatmapSet*> difficultyBeatmapSets;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::BeatmapLevelSO::DifficultyBeatmapSet*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::BeatmapLevelSO::DifficultyBeatmapSet*>) == 0x8);
     // public System.Boolean _ignore360MovementBeatmaps
     // Size: 0x1
     // Offset: 0x80
@@ -266,21 +284,21 @@ namespace GlobalNamespace {
     // private BeatmapLevelSO/DifficultyBeatmapSet[] _no360MovementDifficultyBeatmapSets
     // Size: 0x8
     // Offset: 0x88
-    ::ArrayWrapper<GlobalNamespace::BeatmapLevelSO::DifficultyBeatmapSet*> no360MovementDifficultyBeatmapSets;
+    ::ArrayW<GlobalNamespace::BeatmapLevelSO::DifficultyBeatmapSet*> no360MovementDifficultyBeatmapSets;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::BeatmapLevelSO::DifficultyBeatmapSet*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::BeatmapLevelSO::DifficultyBeatmapSet*>) == 0x8);
     // private PreviewDifficultyBeatmapSet[] _previewDifficultyBeatmapSets
     // Size: 0x8
     // Offset: 0x90
-    ::ArrayWrapper<GlobalNamespace::PreviewDifficultyBeatmapSet*> previewDifficultyBeatmapSets;
+    ::ArrayW<GlobalNamespace::PreviewDifficultyBeatmapSet*> previewDifficultyBeatmapSets;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::PreviewDifficultyBeatmapSet*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::PreviewDifficultyBeatmapSet*>) == 0x8);
     // private PreviewDifficultyBeatmapSet[] _no360MovementPreviewDifficultyBeatmapSets
     // Size: 0x8
     // Offset: 0x98
-    ::ArrayWrapper<GlobalNamespace::PreviewDifficultyBeatmapSet*> no360MovementPreviewDifficultyBeatmapSets;
+    ::ArrayW<GlobalNamespace::PreviewDifficultyBeatmapSet*> no360MovementPreviewDifficultyBeatmapSets;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::PreviewDifficultyBeatmapSet*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::PreviewDifficultyBeatmapSet*>) == 0x8);
     // private IBeatmapLevelData _beatmapLevelData
     // Size: 0x8
     // Offset: 0xA0
@@ -293,6 +311,7 @@ namespace GlobalNamespace {
     GlobalNamespace::BeatmapLevelSO::GetBeatmapLevelDataResult getBeatmapLevelDataResult;
     // Field size check
     static_assert(sizeof(GlobalNamespace::BeatmapLevelSO::GetBeatmapLevelDataResult) == 0x10);
+    public:
     // Creating interface conversion operator: operator GlobalNamespace::IBeatmapLevel
     operator GlobalNamespace::IBeatmapLevel() noexcept {
       return *reinterpret_cast<GlobalNamespace::IBeatmapLevel*>(this);
@@ -330,15 +349,15 @@ namespace GlobalNamespace {
     // Get instance field reference: private EnvironmentInfoSO _allDirectionsEnvironmentInfo
     GlobalNamespace::EnvironmentInfoSO*& dyn__allDirectionsEnvironmentInfo();
     // Get instance field reference: private BeatmapLevelSO/DifficultyBeatmapSet[] _difficultyBeatmapSets
-    ::ArrayWrapper<GlobalNamespace::BeatmapLevelSO::DifficultyBeatmapSet*>& dyn__difficultyBeatmapSets();
+    ::ArrayW<GlobalNamespace::BeatmapLevelSO::DifficultyBeatmapSet*>& dyn__difficultyBeatmapSets();
     // Get instance field reference: public System.Boolean _ignore360MovementBeatmaps
     bool& dyn__ignore360MovementBeatmaps();
     // Get instance field reference: private BeatmapLevelSO/DifficultyBeatmapSet[] _no360MovementDifficultyBeatmapSets
-    ::ArrayWrapper<GlobalNamespace::BeatmapLevelSO::DifficultyBeatmapSet*>& dyn__no360MovementDifficultyBeatmapSets();
+    ::ArrayW<GlobalNamespace::BeatmapLevelSO::DifficultyBeatmapSet*>& dyn__no360MovementDifficultyBeatmapSets();
     // Get instance field reference: private PreviewDifficultyBeatmapSet[] _previewDifficultyBeatmapSets
-    ::ArrayWrapper<GlobalNamespace::PreviewDifficultyBeatmapSet*>& dyn__previewDifficultyBeatmapSets();
+    ::ArrayW<GlobalNamespace::PreviewDifficultyBeatmapSet*>& dyn__previewDifficultyBeatmapSets();
     // Get instance field reference: private PreviewDifficultyBeatmapSet[] _no360MovementPreviewDifficultyBeatmapSets
-    ::ArrayWrapper<GlobalNamespace::PreviewDifficultyBeatmapSet*>& dyn__no360MovementPreviewDifficultyBeatmapSets();
+    ::ArrayW<GlobalNamespace::PreviewDifficultyBeatmapSet*>& dyn__no360MovementPreviewDifficultyBeatmapSets();
     // Get instance field reference: private IBeatmapLevelData _beatmapLevelData
     GlobalNamespace::IBeatmapLevelData*& dyn__beatmapLevelData();
     // Get instance field reference: private BeatmapLevelSO/GetBeatmapLevelDataResult _getBeatmapLevelDataResult
@@ -390,19 +409,19 @@ namespace GlobalNamespace {
     GlobalNamespace::EnvironmentInfoSO* get_allDirectionsEnvironmentInfo();
     // public IDifficultyBeatmapSet[] get_difficultyBeatmapSets()
     // Offset: 0x129AE24
-    ::ArrayWrapper<GlobalNamespace::IDifficultyBeatmapSet*> get_difficultyBeatmapSets();
+    ::ArrayW<GlobalNamespace::IDifficultyBeatmapSet*> get_difficultyBeatmapSets();
     // public System.Single get_songDuration()
     // Offset: 0x129AE40
     float get_songDuration();
     // public PreviewDifficultyBeatmapSet[] get_previewDifficultyBeatmapSets()
     // Offset: 0x129AE5C
-    ::ArrayWrapper<GlobalNamespace::PreviewDifficultyBeatmapSet*> get_previewDifficultyBeatmapSets();
+    ::ArrayW<GlobalNamespace::PreviewDifficultyBeatmapSet*> get_previewDifficultyBeatmapSets();
     // public IBeatmapLevelData get_beatmapLevelData()
     // Offset: 0x129B2C0
     GlobalNamespace::IBeatmapLevelData* get_beatmapLevelData();
     // public System.Void InitFull(System.String levelID, System.String songName, System.String songSubName, System.String songAuthorName, System.String levelAuthorName, UnityEngine.AudioClip audioClip, System.Single beatsPerMinute, System.Single songTimeOffset, System.Single shuffle, System.Single shufflePeriod, System.Single previewStartTime, System.Single previewDuration, UnityEngine.Sprite coverImage, EnvironmentInfoSO environmentInfo, EnvironmentInfoSO allDirectionsEnvironmentInfo, BeatmapLevelSO/DifficultyBeatmapSet[] difficultyBeatmapSets)
     // Offset: 0x129AFC8
-    void InitFull(::Il2CppString* levelID, ::Il2CppString* songName, ::Il2CppString* songSubName, ::Il2CppString* songAuthorName, ::Il2CppString* levelAuthorName, UnityEngine::AudioClip* audioClip, float beatsPerMinute, float songTimeOffset, float shuffle, float shufflePeriod, float previewStartTime, float previewDuration, UnityEngine::Sprite* coverImage, GlobalNamespace::EnvironmentInfoSO* environmentInfo, GlobalNamespace::EnvironmentInfoSO* allDirectionsEnvironmentInfo, ::ArrayWrapper<GlobalNamespace::BeatmapLevelSO::DifficultyBeatmapSet*> difficultyBeatmapSets);
+    void InitFull(::Il2CppString* levelID, ::Il2CppString* songName, ::Il2CppString* songSubName, ::Il2CppString* songAuthorName, ::Il2CppString* levelAuthorName, UnityEngine::AudioClip* audioClip, float beatsPerMinute, float songTimeOffset, float shuffle, float shufflePeriod, float previewStartTime, float previewDuration, UnityEngine::Sprite* coverImage, GlobalNamespace::EnvironmentInfoSO* environmentInfo, GlobalNamespace::EnvironmentInfoSO* allDirectionsEnvironmentInfo, ::ArrayW<GlobalNamespace::BeatmapLevelSO::DifficultyBeatmapSet*> difficultyBeatmapSets);
     // private System.Void InitData()
     // Offset: 0x129AEA0
     void InitData();
@@ -567,7 +586,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelSO::get_difficultyBeatmapSets
 // Il2CppName: get_difficultyBeatmapSets
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::IDifficultyBeatmapSet*> (GlobalNamespace::BeatmapLevelSO::*)()>(&GlobalNamespace::BeatmapLevelSO::get_difficultyBeatmapSets)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<GlobalNamespace::IDifficultyBeatmapSet*> (GlobalNamespace::BeatmapLevelSO::*)()>(&GlobalNamespace::BeatmapLevelSO::get_difficultyBeatmapSets)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelSO*), "get_difficultyBeatmapSets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -583,7 +602,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float (Glob
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelSO::get_previewDifficultyBeatmapSets
 // Il2CppName: get_previewDifficultyBeatmapSets
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<GlobalNamespace::PreviewDifficultyBeatmapSet*> (GlobalNamespace::BeatmapLevelSO::*)()>(&GlobalNamespace::BeatmapLevelSO::get_previewDifficultyBeatmapSets)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<GlobalNamespace::PreviewDifficultyBeatmapSet*> (GlobalNamespace::BeatmapLevelSO::*)()>(&GlobalNamespace::BeatmapLevelSO::get_previewDifficultyBeatmapSets)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(GlobalNamespace::BeatmapLevelSO*), "get_previewDifficultyBeatmapSets", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }
@@ -599,7 +618,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<GlobalNames
 // Writing MetadataGetter for method: GlobalNamespace::BeatmapLevelSO::InitFull
 // Il2CppName: InitFull
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapLevelSO::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, UnityEngine::AudioClip*, float, float, float, float, float, float, UnityEngine::Sprite*, GlobalNamespace::EnvironmentInfoSO*, GlobalNamespace::EnvironmentInfoSO*, ::ArrayWrapper<GlobalNamespace::BeatmapLevelSO::DifficultyBeatmapSet*>)>(&GlobalNamespace::BeatmapLevelSO::InitFull)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (GlobalNamespace::BeatmapLevelSO::*)(::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, ::Il2CppString*, UnityEngine::AudioClip*, float, float, float, float, float, float, UnityEngine::Sprite*, GlobalNamespace::EnvironmentInfoSO*, GlobalNamespace::EnvironmentInfoSO*, ::ArrayW<GlobalNamespace::BeatmapLevelSO::DifficultyBeatmapSet*>)>(&GlobalNamespace::BeatmapLevelSO::InitFull)> {
   static const MethodInfo* get() {
     static auto* levelID = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;
     static auto* songName = &::il2cpp_utils::GetClassFromName("System", "String")->byval_arg;

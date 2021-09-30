@@ -27,12 +27,18 @@ namespace Org::BouncyCastle::Math::Field {
   // [TokenAttribute] Offset: FFFFFFFF
   class PrimeField : public ::Il2CppObject/*, public Org::BouncyCastle::Math::Field::IFiniteField*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // protected readonly Org.BouncyCastle.Math.BigInteger characteristic
     // Size: 0x8
     // Offset: 0x10
     Org::BouncyCastle::Math::BigInteger* characteristic;
     // Field size check
     static_assert(sizeof(Org::BouncyCastle::Math::BigInteger*) == 0x8);
+    public:
     // Creating interface conversion operator: operator Org::BouncyCastle::Math::Field::IFiniteField
     operator Org::BouncyCastle::Math::Field::IFiniteField() noexcept {
       return *reinterpret_cast<Org::BouncyCastle::Math::Field::IFiniteField*>(this);

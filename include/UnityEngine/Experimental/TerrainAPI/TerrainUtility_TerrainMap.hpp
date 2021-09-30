@@ -58,6 +58,11 @@ namespace UnityEngine::Experimental::TerrainAPI {
     // [TokenAttribute] Offset: FFFFFFFF
     struct TileCoord/*, public System::ValueType*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public readonly System.Int32 tileX
       // Size: 0x4
       // Offset: 0x0
@@ -70,6 +75,7 @@ namespace UnityEngine::Experimental::TerrainAPI {
       int tileZ;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: TileCoord
       constexpr TileCoord(int tileX_ = {}, int tileZ_ = {}) noexcept : tileX{tileX_}, tileZ{tileZ_} {}
       // Creating interface conversion operator: operator System::ValueType
@@ -93,12 +99,18 @@ namespace UnityEngine::Experimental::TerrainAPI {
     // [TokenAttribute] Offset: FFFFFFFF
     struct ErrorCode/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: ErrorCode
       constexpr ErrorCode(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -139,6 +151,11 @@ namespace UnityEngine::Experimental::TerrainAPI {
     #pragma pack(pop)
     static check_size<sizeof(TerrainUtility::TerrainMap::ErrorCode), 0 + sizeof(int)> __UnityEngine_Experimental_TerrainAPI_TerrainUtility_TerrainMap_ErrorCodeSizeCheck;
     static_assert(sizeof(TerrainUtility::TerrainMap::ErrorCode) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.Vector3 m_patchSize
     // Size: 0xC
     // Offset: 0x10
@@ -157,6 +174,7 @@ namespace UnityEngine::Experimental::TerrainAPI {
     System::Collections::Generic::Dictionary_2<UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainMap::TileCoord, UnityEngine::Terrain*>* m_terrainTiles;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Dictionary_2<UnityEngine::Experimental::TerrainAPI::TerrainUtility::TerrainMap::TileCoord, UnityEngine::Terrain*>*) == 0x8);
+    public:
     // Get instance field reference: private UnityEngine.Vector3 m_patchSize
     UnityEngine::Vector3& dyn_m_patchSize();
     // Get instance field reference: public UnityEngine.Experimental.TerrainAPI.TerrainUtility/UnityEngine.Experimental.TerrainAPI.TerrainMap/UnityEngine.Experimental.TerrainAPI.ErrorCode m_errorCode

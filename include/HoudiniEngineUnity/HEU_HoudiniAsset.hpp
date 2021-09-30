@@ -23,6 +23,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -146,12 +147,18 @@ namespace HoudiniEngineUnity {
     // [TokenAttribute] Offset: FFFFFFFF
     struct HEU_AssetType/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: HEU_AssetType
       constexpr HEU_AssetType(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -198,12 +205,18 @@ namespace HoudiniEngineUnity {
     // [TokenAttribute] Offset: FFFFFFFF
     struct AssetBuildAction/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: AssetBuildAction
       constexpr AssetBuildAction(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -268,12 +281,18 @@ namespace HoudiniEngineUnity {
     // [TokenAttribute] Offset: FFFFFFFF
     struct AssetCookStatus/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: AssetCookStatus
       constexpr AssetCookStatus(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -338,12 +357,18 @@ namespace HoudiniEngineUnity {
     // [TokenAttribute] Offset: FFFFFFFF
     struct AssetCookResult/*, public System::Enum*/ {
       public:
+      #ifdef USE_CODEGEN_FIELDS
+      public:
+      #else
+      private:
+      #endif
       // public System.Int32 value__
       // Size: 0x4
       // Offset: 0x0
       int value;
       // Field size check
       static_assert(sizeof(int) == 0x4);
+      public:
       // Creating value type constructor for type: AssetCookResult
       constexpr AssetCookResult(int value_ = {}) noexcept : value{value_} {}
       // Creating interface conversion operator: operator System::Enum
@@ -378,6 +403,11 @@ namespace HoudiniEngineUnity {
     #pragma pack(pop)
     static check_size<sizeof(HEU_HoudiniAsset::AssetCookResult), 0 + sizeof(int)> __HoudiniEngineUnity_HEU_HoudiniAsset_AssetCookResultSizeCheck;
     static_assert(sizeof(HEU_HoudiniAsset::AssetCookResult) == 0x4);
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private HoudiniEngineUnity.HEU_HoudiniAsset/HoudiniEngineUnity.HEU_AssetType _assetType
     // Size: 0x4
     // Offset: 0x18
@@ -491,9 +521,9 @@ namespace HoudiniEngineUnity {
     // private System.String[] _subassetNames
     // Size: 0x8
     // Offset: 0x140
-    ::ArrayWrapper<::Il2CppString*> subassetNames;
+    ::ArrayW<::Il2CppString*> subassetNames;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<::Il2CppString*>) == 0x8);
+    static_assert(sizeof(::ArrayW<::Il2CppString*>) == 0x8);
     // private System.Int32 _selectedSubassetIndex
     // Size: 0x4
     // Offset: 0x148
@@ -928,6 +958,7 @@ namespace HoudiniEngineUnity {
     bool pendingAutoCookOnMouseRelease;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Creating interface conversion operator: operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_HoudiniAsset*>
     operator HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_HoudiniAsset*>() noexcept {
       return *reinterpret_cast<HoudiniEngineUnity::IEquivable_1<HoudiniEngineUnity::HEU_HoudiniAsset*>*>(this);
@@ -969,7 +1000,7 @@ namespace HoudiniEngineUnity {
     // Get instance field reference: private System.String _assetCacheFolderPath
     ::Il2CppString*& dyn__assetCacheFolderPath();
     // Get instance field reference: private System.String[] _subassetNames
-    ::ArrayWrapper<::Il2CppString*>& dyn__subassetNames();
+    ::ArrayW<::Il2CppString*>& dyn__subassetNames();
     // Get instance field reference: private System.Int32 _selectedSubassetIndex
     int& dyn__selectedSubassetIndex();
     // Get instance field reference: private HoudiniEngineUnity.HEU_AssetPreset _savedAssetPreset
@@ -1164,7 +1195,7 @@ namespace HoudiniEngineUnity {
     HoudiniEngineUnity::HEU_Parameters* get_Parameters();
     // public System.String[] get_SubassetNames()
     // Offset: 0x15DCC00
-    ::ArrayWrapper<::Il2CppString*> get_SubassetNames();
+    ::ArrayW<::Il2CppString*> get_SubassetNames();
     // public System.Int64 get_SessionID()
     // Offset: 0x15DCC08
     int64_t get_SessionID();
@@ -1971,7 +2002,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<HoudiniEngi
 // Writing MetadataGetter for method: HoudiniEngineUnity::HEU_HoudiniAsset::get_SubassetNames
 // Il2CppName: get_SubassetNames
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayWrapper<::Il2CppString*> (HoudiniEngineUnity::HEU_HoudiniAsset::*)()>(&HoudiniEngineUnity::HEU_HoudiniAsset::get_SubassetNames)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Il2CppString*> (HoudiniEngineUnity::HEU_HoudiniAsset::*)()>(&HoudiniEngineUnity::HEU_HoudiniAsset::get_SubassetNames)> {
   static const MethodInfo* get() {
     return ::il2cpp_utils::FindMethod(classof(HoudiniEngineUnity::HEU_HoudiniAsset*), "get_SubassetNames", std::vector<Il2CppClass*>(), ::std::vector<const Il2CppType*>{});
   }

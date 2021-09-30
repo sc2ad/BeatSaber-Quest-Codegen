@@ -37,6 +37,11 @@ namespace HoudiniEngineUnity {
     char ___base_padding[0x3] = {};
     // Nested type: HoudiniEngineUnity::HEU_AssetSync::AssetSyncCallback
     class AssetSyncCallback;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // public HoudiniEngineUnity.HEU_AssetSync/HoudiniEngineUnity.AssetSyncCallback _onAssetLoaded
     // Size: 0x8
     // Offset: 0x80
@@ -49,6 +54,7 @@ namespace HoudiniEngineUnity {
     ::Il2CppString* assetPath;
     // Field size check
     static_assert(sizeof(::Il2CppString*) == 0x8);
+    public:
     // Get instance field reference: public HoudiniEngineUnity.HEU_AssetSync/HoudiniEngineUnity.AssetSyncCallback _onAssetLoaded
     HoudiniEngineUnity::HEU_AssetSync::AssetSyncCallback*& dyn__onAssetLoaded();
     // Get instance field reference: public System.String _assetPath

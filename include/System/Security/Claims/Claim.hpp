@@ -9,6 +9,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::Collections::Generic
@@ -39,6 +40,11 @@ namespace System::Security::Claims {
   // [TokenAttribute] Offset: FFFFFFFF
   class Claim : public ::Il2CppObject {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.String m_issuer
     // Size: 0x8
     // Offset: 0x10
@@ -72,9 +78,9 @@ namespace System::Security::Claims {
     // private System.Byte[] m_userSerializationData
     // Size: 0x8
     // Offset: 0x38
-    ::ArrayWrapper<uint8_t> m_userSerializationData;
+    ::ArrayW<uint8_t> m_userSerializationData;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<uint8_t>) == 0x8);
+    static_assert(sizeof(::ArrayW<uint8_t>) == 0x8);
     // private System.Collections.Generic.Dictionary`2<System.String,System.String> m_properties
     // Size: 0x8
     // Offset: 0x40
@@ -93,6 +99,7 @@ namespace System::Security::Claims {
     System::Security::Claims::ClaimsIdentity* m_subject;
     // Field size check
     static_assert(sizeof(System::Security::Claims::ClaimsIdentity*) == 0x8);
+    public:
     // Get instance field reference: private System.String m_issuer
     ::Il2CppString*& dyn_m_issuer();
     // Get instance field reference: private System.String m_originalIssuer
@@ -104,7 +111,7 @@ namespace System::Security::Claims {
     // Get instance field reference: private System.String m_valueType
     ::Il2CppString*& dyn_m_valueType();
     // Get instance field reference: private System.Byte[] m_userSerializationData
-    ::ArrayWrapper<uint8_t>& dyn_m_userSerializationData();
+    ::ArrayW<uint8_t>& dyn_m_userSerializationData();
     // Get instance field reference: private System.Collections.Generic.Dictionary`2<System.String,System.String> m_properties
     System::Collections::Generic::Dictionary_2<::Il2CppString*, ::Il2CppString*>*& dyn_m_properties();
     // Get instance field reference: private System.Object m_propertyLock

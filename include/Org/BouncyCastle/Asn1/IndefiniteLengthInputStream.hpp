@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: System::IO
@@ -26,6 +27,11 @@ namespace Org::BouncyCastle::Asn1 {
   // [TokenAttribute] Offset: FFFFFFFF
   class IndefiniteLengthInputStream : public Org::BouncyCastle::Asn1::LimitedInputStream {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Int32 _lookAhead
     // Size: 0x4
     // Offset: 0x3C
@@ -38,6 +44,7 @@ namespace Org::BouncyCastle::Asn1 {
     bool eofOn00;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private System.Int32 _lookAhead
     int& dyn__lookAhead();
     // Get instance field reference: private System.Boolean _eofOn00
@@ -64,7 +71,7 @@ namespace Org::BouncyCastle::Asn1 {
     // Offset: 0x196B998
     // Implemented from: Org.BouncyCastle.Utilities.IO.BaseInputStream
     // Base method: System.Int32 BaseInputStream::Read(System.Byte[] buffer, System.Int32 offset, System.Int32 count)
-    int Read(::ArrayWrapper<uint8_t> buffer, int offset, int count);
+    int Read(::ArrayW<uint8_t> buffer, int offset, int count);
     // public override System.Int32 ReadByte()
     // Offset: 0x196BAD8
     // Implemented from: System.IO.Stream
@@ -109,7 +116,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::B
 // Writing MetadataGetter for method: Org::BouncyCastle::Asn1::IndefiniteLengthInputStream::Read
 // Il2CppName: Read
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Asn1::IndefiniteLengthInputStream::*)(::ArrayWrapper<uint8_t>, int, int)>(&Org::BouncyCastle::Asn1::IndefiniteLengthInputStream::Read)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int (Org::BouncyCastle::Asn1::IndefiniteLengthInputStream::*)(::ArrayW<uint8_t>, int, int)>(&Org::BouncyCastle::Asn1::IndefiniteLengthInputStream::Read)> {
   static const MethodInfo* get() {
     static auto* buffer = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Byte"), 1)->byval_arg;
     static auto* offset = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -40,6 +41,11 @@ namespace GlobalNamespace {
   // [TokenAttribute] Offset: FFFFFFFF
   class CountdownController : public UnityEngine::MonoBehaviour {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.AudioSource _audioSource
     // Size: 0x8
     // Offset: 0x18
@@ -49,9 +55,9 @@ namespace GlobalNamespace {
     // private CountdownElementController[] _countdownElementControllers
     // Size: 0x8
     // Offset: 0x20
-    ::ArrayWrapper<GlobalNamespace::CountdownElementController*> countdownElementControllers;
+    ::ArrayW<GlobalNamespace::CountdownElementController*> countdownElementControllers;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<GlobalNamespace::CountdownElementController*>) == 0x8);
+    static_assert(sizeof(::ArrayW<GlobalNamespace::CountdownElementController*>) == 0x8);
     // [InjectAttribute] Offset: 0xF0EEE8
     // private readonly ITimeProvider _timeProvider
     // Size: 0x8
@@ -91,6 +97,7 @@ namespace GlobalNamespace {
     System::Collections::Generic::Queue_1<GlobalNamespace::CountdownElementController*>* countdownElementControllerQueue;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::Queue_1<GlobalNamespace::CountdownElementController*>*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // static field const value: static private System.Single kGongTime
@@ -102,7 +109,7 @@ namespace GlobalNamespace {
     // Get instance field reference: private UnityEngine.AudioSource _audioSource
     UnityEngine::AudioSource*& dyn__audioSource();
     // Get instance field reference: private CountdownElementController[] _countdownElementControllers
-    ::ArrayWrapper<GlobalNamespace::CountdownElementController*>& dyn__countdownElementControllers();
+    ::ArrayW<GlobalNamespace::CountdownElementController*>& dyn__countdownElementControllers();
     // Get instance field reference: private readonly ITimeProvider _timeProvider
     GlobalNamespace::ITimeProvider*& dyn__timeProvider();
     // Get instance field reference: private System.Single _countdownEndTime

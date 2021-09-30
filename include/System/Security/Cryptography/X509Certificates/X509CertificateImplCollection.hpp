@@ -34,12 +34,18 @@ namespace System::Security::Cryptography::X509Certificates {
   // [DefaultMemberAttribute] Offset: E69978
   class X509CertificateImplCollection : public ::Il2CppObject/*, public System::IDisposable*/ {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private System.Collections.Generic.List`1<System.Security.Cryptography.X509Certificates.X509CertificateImpl> list
     // Size: 0x8
     // Offset: 0x10
     System::Collections::Generic::List_1<System::Security::Cryptography::X509Certificates::X509CertificateImpl*>* list;
     // Field size check
     static_assert(sizeof(System::Collections::Generic::List_1<System::Security::Cryptography::X509Certificates::X509CertificateImpl*>*) == 0x8);
+    public:
     // Creating interface conversion operator: operator System::IDisposable
     operator System::IDisposable() noexcept {
       return *reinterpret_cast<System::IDisposable*>(this);

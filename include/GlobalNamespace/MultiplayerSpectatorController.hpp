@@ -55,6 +55,11 @@ namespace GlobalNamespace {
     class $SwitchToDefaultSpotWithFadeCoroutine$d__17;
     // Nested type: GlobalNamespace::MultiplayerSpectatorController::$SwitchToDefaultSpotCoroutine$d__18
     class $SwitchToDefaultSpotCoroutine$d__18;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // [InjectAttribute] Offset: 0xF0A51C
     // private readonly MultiplayerSpectatingSpotManager _spotManager
     // Size: 0x8
@@ -101,6 +106,7 @@ namespace GlobalNamespace {
     GlobalNamespace::IMultiplayerSpectatingSpot* currentSpot;
     // Field size check
     static_assert(sizeof(GlobalNamespace::IMultiplayerSpectatingSpot*) == 0x8);
+    public:
     // Deleting conversion operator: operator System::IntPtr
     constexpr operator System::IntPtr() const noexcept = delete;
     // Get instance field reference: private readonly MultiplayerSpectatingSpotManager _spotManager

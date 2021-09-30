@@ -65,6 +65,11 @@ namespace GlobalNamespace {
     public:
     // Nested type: GlobalNamespace::GameplaySetupViewController::Panel
     class Panel;
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private HMUI.TextSegmentedControl _selectionSegmentedControl
     // Size: 0x8
     // Offset: 0x70
@@ -162,6 +167,7 @@ namespace GlobalNamespace {
     bool isInitialized;
     // Field size check
     static_assert(sizeof(bool) == 0x1);
+    public:
     // Get instance field reference: private HMUI.TextSegmentedControl _selectionSegmentedControl
     HMUI::TextSegmentedControl*& dyn__selectionSegmentedControl();
     // Get instance field reference: private PlayerSettingsPanelController _playerSettingsPanelController

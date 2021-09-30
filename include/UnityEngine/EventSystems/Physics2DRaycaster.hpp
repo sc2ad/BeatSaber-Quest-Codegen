@@ -13,6 +13,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine::EventSystems
@@ -37,14 +38,20 @@ namespace UnityEngine::EventSystems {
   // [RequireComponent] Offset: EA89E8
   class Physics2DRaycaster : public UnityEngine::EventSystems::PhysicsRaycaster {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private UnityEngine.RaycastHit2D[] m_Hits
     // Size: 0x8
     // Offset: 0x40
-    ::ArrayWrapper<UnityEngine::RaycastHit2D> m_Hits;
+    ::ArrayW<UnityEngine::RaycastHit2D> m_Hits;
     // Field size check
-    static_assert(sizeof(::ArrayWrapper<UnityEngine::RaycastHit2D>) == 0x8);
+    static_assert(sizeof(::ArrayW<UnityEngine::RaycastHit2D>) == 0x8);
+    public:
     // Get instance field reference: private UnityEngine.RaycastHit2D[] m_Hits
-    ::ArrayWrapper<UnityEngine::RaycastHit2D>& dyn_m_Hits();
+    ::ArrayW<UnityEngine::RaycastHit2D>& dyn_m_Hits();
     // protected System.Void .ctor()
     // Offset: 0x15F1DC0
     // Implemented from: UnityEngine.EventSystems.PhysicsRaycaster
@@ -68,7 +75,7 @@ namespace UnityEngine::EventSystems {
     void Raycast(UnityEngine::EventSystems::PointerEventData* eventData, System::Collections::Generic::List_1<UnityEngine::EventSystems::RaycastResult>* resultAppendList);
   }; // UnityEngine.EventSystems.Physics2DRaycaster
   #pragma pack(pop)
-  static check_size<sizeof(Physics2DRaycaster), 64 + sizeof(::ArrayWrapper<UnityEngine::RaycastHit2D>)> __UnityEngine_EventSystems_Physics2DRaycasterSizeCheck;
+  static check_size<sizeof(Physics2DRaycaster), 64 + sizeof(::ArrayW<UnityEngine::RaycastHit2D>)> __UnityEngine_EventSystems_Physics2DRaycasterSizeCheck;
   static_assert(sizeof(Physics2DRaycaster) == 0x48);
 }
 DEFINE_IL2CPP_ARG_TYPE(UnityEngine::EventSystems::Physics2DRaycaster*, "UnityEngine.EventSystems", "Physics2DRaycaster");

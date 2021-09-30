@@ -7,6 +7,7 @@
 #include "extern/beatsaber-hook/shared/utils/byref.hpp"
 // Including type: UnityEngine.AudioBehaviour
 #include "UnityEngine/AudioBehaviour.hpp"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -113,7 +114,7 @@ namespace UnityEngine {
     void Stop(bool stopOneShots);
     // static private System.Void GetSpectrumDataHelper(UnityEngine.AudioSource source, out System.Single[] samples, System.Int32 channel, UnityEngine.FFTWindow window)
     // Offset: 0x26090DC
-    static void GetSpectrumDataHelper(UnityEngine::AudioSource* source, ByRef<::ArrayWrapper<float>> samples, int channel, UnityEngine::FFTWindow window);
+    static void GetSpectrumDataHelper(UnityEngine::AudioSource* source, ByRef<::ArrayW<float>> samples, int channel, UnityEngine::FFTWindow window);
     // public System.Void Play()
     // Offset: 0x26093C4
     void Play();
@@ -137,7 +138,7 @@ namespace UnityEngine {
     void UnPause();
     // public System.Void GetSpectrumData(System.Single[] samples, System.Int32 channel, UnityEngine.FFTWindow window)
     // Offset: 0x2609A1C
-    void GetSpectrumData(::ArrayWrapper<float> samples, int channel, UnityEngine::FFTWindow window);
+    void GetSpectrumData(::ArrayW<float> samples, int channel, UnityEngine::FFTWindow window);
   }; // UnityEngine.AudioSource
   #pragma pack(pop)
 }
@@ -396,7 +397,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::AudioSource::GetSpectrumDataHelper
 // Il2CppName: GetSpectrumDataHelper
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::AudioSource*, ByRef<::ArrayWrapper<float>>, int, UnityEngine::FFTWindow)>(&UnityEngine::AudioSource::GetSpectrumDataHelper)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(UnityEngine::AudioSource*, ByRef<::ArrayW<float>>, int, UnityEngine::FFTWindow)>(&UnityEngine::AudioSource::GetSpectrumDataHelper)> {
   static const MethodInfo* get() {
     static auto* source = &::il2cpp_utils::GetClassFromName("UnityEngine", "AudioSource")->byval_arg;
     static auto* samples = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->this_arg;
@@ -468,7 +469,7 @@ struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (Unity
 // Writing MetadataGetter for method: UnityEngine::AudioSource::GetSpectrumData
 // Il2CppName: GetSpectrumData
 template<>
-struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AudioSource::*)(::ArrayWrapper<float>, int, UnityEngine::FFTWindow)>(&UnityEngine::AudioSource::GetSpectrumData)> {
+struct ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (UnityEngine::AudioSource::*)(::ArrayW<float>, int, UnityEngine::FFTWindow)>(&UnityEngine::AudioSource::GetSpectrumData)> {
   static const MethodInfo* get() {
     static auto* samples = &il2cpp_functions::array_class_get(::il2cpp_utils::GetClassFromName("System", "Single"), 1)->byval_arg;
     static auto* channel = &::il2cpp_utils::GetClassFromName("System", "Int32")->byval_arg;

@@ -11,6 +11,7 @@
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-properties.hpp"
 #include "extern/beatsaber-hook/shared/utils/il2cpp-utils-fields.hpp"
 #include "extern/beatsaber-hook/shared/utils/utils.h"
+#include "extern/beatsaber-hook/shared/utils/typedefs-array.hpp"
 // Completed includes
 // Begin forward declares
 // Forward declaring namespace: UnityEngine
@@ -31,6 +32,11 @@ namespace UnityEngine {
   // [TokenAttribute] Offset: FFFFFFFF
   class GUIWordWrapSizer : public UnityEngine::GUILayoutEntry {
     public:
+    #ifdef USE_CODEGEN_FIELDS
+    public:
+    #else
+    private:
+    #endif
     // private readonly UnityEngine.GUIContent m_Content
     // Size: 0x8
     // Offset: 0x48
@@ -49,6 +55,7 @@ namespace UnityEngine {
     float m_ForcedMaxHeight;
     // Field size check
     static_assert(sizeof(float) == 0x4);
+    public:
     // Get instance field reference: private readonly UnityEngine.GUIContent m_Content
     UnityEngine::GUIContent*& dyn_m_Content();
     // Get instance field reference: private readonly System.Single m_ForcedMinHeight
@@ -58,7 +65,7 @@ namespace UnityEngine {
     // public System.Void .ctor(UnityEngine.GUIStyle style, UnityEngine.GUIContent content, UnityEngine.GUILayoutOption[] options)
     // Offset: 0x1C9EBF0
     template<::il2cpp_utils::CreationType creationType = ::il2cpp_utils::CreationType::Temporary>
-    static GUIWordWrapSizer* New_ctor(UnityEngine::GUIStyle* style, UnityEngine::GUIContent* content, ::ArrayWrapper<UnityEngine::GUILayoutOption*> options) {
+    static GUIWordWrapSizer* New_ctor(UnityEngine::GUIStyle* style, UnityEngine::GUIContent* content, ::ArrayW<UnityEngine::GUILayoutOption*> options) {
       static auto ___internal__logger = ::Logger::get().WithContext("UnityEngine::GUIWordWrapSizer::.ctor");
       return THROW_UNLESS((::il2cpp_utils::New<GUIWordWrapSizer*, creationType>(style, content, options)));
     }
